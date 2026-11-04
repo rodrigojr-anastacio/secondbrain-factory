@@ -1,7 +1,7 @@
 # Playbook: avaliar e montar um canal novo
 
-Processo padrão da fábrica para transformar um achado (garimpo, ideia do Rodrigo, canal de referência) em **decisão com número** e, se não for DESCARTAR, em **canal pronto para o piloto**. Feito pela primeira vez em 2026-11-04 com o nicho "Archive in Minutes" → `dossie-ptbr` (`pesquisa/archive-in-minutes/LEVANTAMENTO.md`, que serve de **exemplo completo** de cada etapa).
-Skill: `skills/novo-canal/SKILL.md`. Papéis: **Tendências** faz as etapas 1–3 (subagente `tendencias`); o orquestrador ou **Produtor** faz as etapas 4–6. Modelo: Opus no levantamento e no roteiro do piloto.
+Processo padrão da fábrica para transformar um achado (garimpo, ideia do Rodrigo, canal de referência) em **decisão com número** e, se não for DESCARTAR, em **canal pronto para o piloto**. Feito pela primeira vez em 2026-11-04 com o nicho "Archive in Minutes" → `dossie-es` (`pesquisa/archive-in-minutes/LEVANTAMENTO.md` e `IDIOMA.md`, que servem de **exemplo completo** de cada etapa; o canal saiu primeiro como `dossie-ptbr` e mudou para es depois da matriz de idioma).
+Skill: `skills/novo-canal/SKILL.md`. Papéis: **Tendências** faz as etapas 1–3b (subagente `tendencias`); o orquestrador ou **Produtor** faz as etapas 4–6. Modelo: Opus no levantamento e no roteiro do piloto.
 
 **Decisões do Rodrigo (nunca do agente):** criar o canal no YouTube, o nome, a voz, gastar acima do teto, produzir e publicar o piloto.
 
@@ -29,8 +29,26 @@ Skill: `skills/novo-canal/SKILL.md`. Papéis: **Tendências** faz as etapas 1–
    - **Edição:** estilo, cortes/min (`info.json`), texto na tela, mapas, voz e trilha.
    - **Cadência** e a explicação do crescimento.
 
-## Etapa 3: oportunidade e decisão
-1. **Idioma:** tabela en × pt-BR × es × fr × de com saturação (etapa 1), RPM (tabela de `playbooks/garimpo-tendencias.md` × fator do idioma) e leitura. Prefira o mercado grande **sem** a fórmula em que a fábrica já opera.
+## Etapa 3: escolha de idioma (regra permanente do Rodrigo, 2026-11-04)
+O idioma **não** é pt-BR por padrão. A **ordem de preferência é en → es → pt → fr → de** (depois it, pl etc.), porque os mercados que pagam melhor vêm primeiro. O pt-BR paga menos e só ganha se a demanda ou a falta de concorrência compensarem. Exemplo completo: `pesquisa/archive-in-minutes/IDIOMA.md`, onde o nicho "Dossiê" saiu em es, e não em pt.
+1. **Cubra pelo menos en, es, pt, fr e de**, mais 3–4 buscas exploratórias em ru, hi, ar, pl, it, tr e ja, para ver se algum mercado fora da lista tem demanda grande e vaga. Use busca sem cota (yt-dlp via WARP; scripts reutilizáveis em `pesquisa/archive-in-minutes/idioma/scripts/`), com os temas escritos **nativamente** e a fórmula traduzida. Em cada idioma, levante:
+   - **demanda:** mediana de views do top-10 por tema, vídeos do ano acima de 100 mil e **prova do formato no idioma** (algum canal do molde com tração);
+   - **concorrência:** canais no molde, clones recentes, mediana deles, dono forte;
+   - **RPM:** faixa do nicho × fator do idioma, cruzada com o país dos canais de demanda;
+   - **alcance:** países do idioma;
+   - **risco:** anúncio limitado, risco legal (ex.: §86a na Alemanha) e político;
+   - **viabilidade:** voz nativa no Fish (liste com `idioma/scripts/fish_vozes.py` e gere uma amostra curta de 3–7 vozes, ≤ US$ 0,50, conferida com Whisper), imagens e **revisão** (o Rodrigo lê o idioma?).
+2. **Matriz com pesos padrão:** demanda **30%**, concorrência **25%**, RPM **20%**, viabilidade **15%**, risco **10%**. Notas de 0 a 10, escritas com o critério de cada uma.
+   - **Travas** que eliminam o idioma, seja qual for a soma: concorrência ≤ 2 (molde com dono e clones mortos: "não ser o 16º clone") **ou** RPM ≤ 1 (mercado sem receita, ex.: ru).
+   - **Desempate** (diferença < 0,3): a ordem en → es → pt → fr → de, depois a prova do formato no idioma.
+   - Faça a **sensibilidade**: pesos iguais e RPM 30%/demanda 20%. Diga se o vencedor muda.
+3. **Recomende 1 idioma e o 2º**, explicando por que o en ganha ou perde. Ele é o 1º da ordem: se perder, diga qual trava ou nota o derrubou.
+4. A ordem dos temas **não se transfere** entre idiomas: refaça o ranking com a demanda do idioma escolhido (ex.: Stasi e MI6 fortes em en, fracos em es e pt).
+5. As imagens não têm idioma (o texto vai no código): pense no 2º idioma como **versão** do mesmo conteúdo (reescrita nativa + voz), não como canal do zero.
+6. Escreva `pesquisa/<slug>/IDIOMA.md` (executivo no topo, [O] × [I]) ou a seção "Idioma" do LEVANTAMENTO.
+
+## Etapa 3b: oportunidade e decisão
+1. **Idioma:** use o resultado da etapa 3 (matriz e recomendação). O slug do canal leva o idioma (`<nicho>-<idioma>`, ex.: `dossie-es`).
 2. **Projeção em faixa:** receita da referência; a nossa em 10–20% das views; views necessárias para o YPP (4.000 h); os 2 primeiros meses realistas (geralmente sem receita).
 3. **Custo e viabilidade** na nossa pipeline (base real em `conhecimento/anti-padroes.md`).
 4. **Diferenciação:** ângulo Brasil/lusófono, assinatura visual própria, fontes na descrição, cadência humana.
@@ -62,4 +80,4 @@ Skill: `skills/novo-canal/SKILL.md`. Papéis: **Tendências** faz as etapas 1–
 3. Aprendizados de formato vão para `conhecimento/` com data e fonte. Se outro job estiver mexendo lá, deixe-os na seção "Sugestões para `conhecimento/`" do LEVANTAMENTO.
 
 ## Depois do OK
-O piloto segue `playbooks/produzir-video.md` (skill `produzir-video`) com o id já criado. Após 3 vídeos e 14 dias, o **Métricas** aplica o critério da etapa 3 e o resultado volta para o `LEVANTAMENTO.md` e para `youtube.garimpo_canais.decisao`.
+O piloto segue `playbooks/produzir-video.md` (skill `produzir-video`) com o id já criado. Após 3 vídeos e 14 dias, o **Métricas** aplica o critério da etapa 3b e o resultado volta para o `LEVANTAMENTO.md` e para `youtube.garimpo_canais.decisao`.

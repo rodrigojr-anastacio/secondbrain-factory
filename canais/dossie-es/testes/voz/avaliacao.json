@@ -1,0 +1,58 @@
+{
+ "arnold.mp3": {
+  "dur_s": 27.3,
+  "ppm": 139,
+  "sim": 0.952,
+  "tag_falada": false,
+  "lufs": "-19.4",
+  "whisper": "Ciudad de Guatemala, junio de 1954. Cada noche, una radio clandestina anuncia que miles de  rebeldes avanzan sobre la capital. Dice que transmite desde algún lugar de la selva.  El presidente Jacobo Arbenz ya no sabe a quién creer. Su ejército, tampoco.  El 27 de junio, Arbenz renuncia. Los miles de rebeldes eran menos de 500, y la radio  la operaba la CIA."
+ },
+ "dio-historias.mp3": {
+  "dur_s": 27.3,
+  "ppm": 138,
+  "sim": 0.952,
+  "tag_falada": false,
+  "lufs": "-19.7",
+  "whisper": "Ciudad de Guatemala, junio de 1954. Cada noche, una radio clandestina anuncia que miles de  rebeldes avanzan sobre la capital. Dice que transmite desde algún lugar de la selva.  El presidente Jacobo Arbenz ya no sabe a quién creer. Su ejército, tampoco. El 27  de junio, Arbenz renuncia. Los miles de rebeldes eran menos de 500 y la radio la  operaba la CIA."
+ },
+ "locutor-k.mp3": {
+  "dur_s": 26.4,
+  "ppm": 143,
+  "sim": 0.929,
+  "tag_falada": false,
+  "lufs": "-19.4",
+  "whisper": "Ciudad de Guatemala, junio de 1954. Cada noche, una radio clandestina anuncia que miles de  rebeldes avanzan sobre la capital. Dice que transmite desde algún lugar de la selva,  el presidente Jacobo Arbenz ya no sabe a quién creer, su ejército, tampoco. El 27 de junio,  Arbenz renuncia. Los miles de rebeldes eran menos de 500, y la radio la operaba  a la silla."
+ },
+ "marcus.mp3": {
+  "dur_s": 26.5,
+  "ppm": 143,
+  "sim": 0.929,
+  "tag_falada": false,
+  "lufs": "-20.3",
+  "whisper": "Ciudad de Guatemala, junio de 1954 paró. Cada noche, una radio clandestina anuncia que  miles de rebeldes avanzan sobre la capital. Dice que transmite desde algún lugar de la  selva. El presidente Jacobo Arbenz ya no sabe a quién creer. Su ejército, tampoco.  El 27 de junio, Arbenz renuncia. Los miles de rebeldes eran menos de 500, y la radio  la operaba la silla."
+ },
+ "narrador-documental-latino.mp3": {
+  "dur_s": 30.6,
+  "ppm": 124,
+  "sim": 0.952,
+  "tag_falada": false,
+  "lufs": "-22.7",
+  "whisper": "Ciudad de Guatemala. Junio de 1954. Cada noche, una radio clandestina anuncia que miles de rebeldes avanzan sobre la capital.  Dice que transmite desde algún lugar de la selva. El presidente Jacobo Arvens ya no sabe a quién creer. Su ejército tampoco.  El 27 de junio, Arvens renuncia. Los miles de rebeldes eran menos de 500 y la radio la operaba la CIA."
+ },
+ "natgeo-espana.mp3": {
+  "dur_s": 24.8,
+  "ppm": 153,
+  "sim": 0.929,
+  "tag_falada": false,
+  "lufs": "-19.6",
+  "whisper": "Ciudad de Guatemala, junio de 1954. Cada noche, una radio clandestina anuncia que miles de  rebeldes avanzan sobre la capital. Dice que transmite desde algún lugar de la selva. El  presidente Jacobo Arbenz ya no sabe a quién creer. Su ejército, tampoco. El 27 de junio,  Arbenz renuncia. Los miles de rebeldes eran menos de 500, y la radio la operaba  a la fía."
+ },
+ "voz-grave.mp3": {
+  "dur_s": 20.3,
+  "ppm": 186,
+  "sim": 0.945,
+  "tag_falada": false,
+  "lufs": "-32.9",
+  "whisper": "Ciudad de Guatemala, junio de 1954 com. Cada noche una radio clandestina anuncia que miles  de rebeldes avanzan sobre la capital, dice que transmite desde algún lugar de la selva.  El presidente Jacobo Arbenz ya no sabe a quién creer, su ejército tampoco.  El 27 de junio, Arbenz renuncia. Los miles de rebeldes eran menos de 500 y la radio  la operaba la CIA."
+ }
+}

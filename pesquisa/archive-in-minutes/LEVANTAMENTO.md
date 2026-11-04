@@ -7,6 +7,8 @@ Legenda: **[O]** = observado (API, frames, transcrição) · **[I]** = inferido/
 
 ## Resumo executivo
 
+> **Atualização 2026-11-04 (noite):** a recomendação de idioma abaixo (pt-BR) foi **substituída** por `IDIOMA.md`. O canal sai em **espanhol** (`canais/dossie-es/`), com o francês em 2º; o pt-BR ficou em 3º. Pastas citadas como `canais/dossie-ptbr/…` agora estão em `canais/dossie-es/arquivo-ptbr/`.
+
 **Recomendação: TESTAR, em pt-BR, num canal novo** (slug `dossie-ptbr`, nome sugerido **Dossiê em Minutos**). Fórmula: "A história INTEIRA da <organização> em N minutos", com 10 a 16 min, ilustração em quadrinho e hook por anedota datada. O piloto é **a KGB**. Depois, fazer 3 vídeos em 2–3 semanas e decidir com número (critério abaixo).
 
 **Por que TESTAR, e não INVESTIR:**

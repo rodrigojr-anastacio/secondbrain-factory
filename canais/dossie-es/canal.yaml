@@ -1,0 +1,45 @@
+slug: dossie-es
+nome: Dossier en Minutos       # provisório; 3 opções em identidade.md (decisão do Rodrigo). No YouTube ainda se chama "Dossiê em Minutos"
+channel_id: UCVCYqeuCwTWC7Lqez_qeWRA   # criado pelo Rodrigo em 2026-11-04 (pesquisa/archive-in-minutes/AVISO-CANAL-CRIADO.md); 0 vídeos
+url: https://www.youtube.com/channel/UCVCYqeuCwTWC7Lqez_qeWRA
+handle_atual: "@dossieminutos"   # trocar para @dossierenminutos (livre em 2026-11-04) ao renomear
+idioma: es                     # espanhol neutro latino-americano (público: MX, ES, US hispano, AR, CO…); ver estilo.md
+nicho: historia completa de organizaciones (servicios secretos, policías políticas, mafias, cárteles, órdenes)
+token: dossie-es               # ~/.segredos/youtube/tokens/dossie-es.json (após o OAuth, feito pelo Rodrigo)
+status: em preparação (blueprint es 2026-11-04; piloto aguarda OK)
+pesquisa:
+  - pesquisa/archive-in-minutes/IDIOMA.md        # por que es (matriz de decisão)
+  - pesquisa/archive-in-minutes/idioma/NOTAS.md  # demanda e concorrência por idioma
+  - pesquisa/archive-in-minutes/LEVANTAMENTO.md  # anatomia do formato
+formula:
+  modelo: Archive in Minutes (en) + prova em es do Atlas del Tiempo (KGB 30,6 mil e Mossad 33,1 mil com 735 inscritos, 04/11)
+  titulo: "TODA la historia de <la organización> en N minutos"   # TODA em caixa alta; N = duração real arredondada; X curto e famoso
+  titulo_alternativo: "La historia COMPLETA de <X> en N minutos"  # para o "Testar e comparar" de título
+  duracao_min: 11-16           # alvo 13; não passar de ~17
+  palavras: ~1.500 para 11 min, ~1.800 para 13 min (~140 palavras/min nas amostras Fish es)
+  estrutura: hook-anedota de 25-35 s → 11-14 "expedientes" (capítulos-objeto de 45-75 s, cronológicos) → cierre que volta ao objeto do hook
+cadencia: 2-3 vídeos/semana no teste (3 pilotos em 2-3 semanas); nunca template em massa
+voz:
+  motor: fish
+  voz: ac594943984a47e7a827416eb263c7b1   # SUGESTÃO "Dio Historias" (neutro, documental); alternativas em testes/voz/LEIA.md. Rodrigo escolhe ouvindo
+  modelo: s2.1-pro
+  velocidade: 1.0
+  modo: por_frase              # tools/tts_fish.py --por-frase (padrão da fábrica desde 04/11)
+  tom: narrador de documental, presente histórico, seco; tags [serious] e [slightly dramatic]
+visual:
+  gerador: fal
+  modelo: fal-ai/nano-banana     # teste de estilo de 2026-11-04 (testes/ESTILO.md) + teste es da CIA (testes/ESTILO-es.md)
+  qualidade: medium
+  tamanho: landscape_16_9
+  estilo_prompt: "Graphic novel ink illustration for a history documentary, bold clean black ink outlines, realistic adult proportions and faces, muted desaturated palette of slate blue, olive green, sepia and charcoal with small deep red accents, cinematic lighting, subtle paper grain texture, detailed period-accurate setting, 16:9 wide shot, no text, no letters, no captions, no watermark, no swastikas or extremist insignia"
+  cor_destaque: "#B3261E"    # rojo sello
+  papel: "#E9DFC9"           # carpeta / papel del expediente
+piloto:
+  - TODA la historia de la CIA en 11 minutos     # youtube.videos id 7, canais/dossie-es/videos/001-cia
+  - TODA la historia de la KGB en N minutos      # roteiro pt em arquivo-ptbr/001-kgb-ptbr (adaptar nativamente, não traduzir)
+  - TODA la historia del Mossad en N minutos
+referencias:
+  - Archive in Minutes (en), template e temas
+  - Atlas del Tiempo (es), único canal da fórmula em es com tração (organizações 10-40× os países)
+  - Te lo Pinto (es), "La HISTORIA COMPLETA de la KGB": 139 mil
+arquivo: arquivo-ptbr/       # versão pt-BR adiada (canal.yaml, estilo, backlog, identidade e roteiro KGB em português)
