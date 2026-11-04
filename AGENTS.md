@@ -23,8 +23,9 @@ fabrica-youtube/
 │   ├── watch.py   "assiste" vídeos: hook transcrito, frames, ritmo, anúncios (via WARP)
 │   ├── transcrever.py transcrição Whisper de um vídeo do YouTube (via WARP)
 │   ├── tts_fish.py narração Fish Audio com a voz do canal; registra o custo em financas.consumo
-│   ├── img_openai.py / img_fal.py imagens no estilo do canal; registram o custo em financas.consumo
-│   ├── db.py, _paths.py, db/ (schema e seed), rotinas/diaria.sh (coleta + backup)
+│   ├── img_openai.py / img_fal.py imagens no estilo do canal; registram o custo em financas.consumo; trava por pasta (.img.lock)
+│   ├── claude_run.py / .sh uma etapa do Claude Code por vídeo (claude -p): modelo por etapa, trava, custo em youtube.execucoes_claude
+│   ├── db.py, _paths.py, _trava.py, db/ (schemas e seed), rotinas/diaria.sh (coleta + backup)
 │   └── auth.py    login OAuth de um canal (feito pelo Rodrigo)
 ├── canais/<slug>/
 │   ├── canal.yaml       ← identidade e configuração do canal (idioma, voz, fórmula, token…)
@@ -61,6 +62,8 @@ Acesso local sem senha, como o usuário do sistema: `psql -d vida`, ou `tools/db
 | `garimpo_execucoes`, `garimpo_canais`, `garimpo_snapshots`, `garimpo_videos` | garimpo de tendências e histórico de crescimento | `trends.py` |
 | `assistidos` | vídeos analisados (hook, cortes por minuto, anúncios, assets) | `watch.py` |
 | view `garimpo_crescimento` | crescimento de views de cada canal garimpado entre execuções | — |
+| `execucoes_claude` | cada chamada do Claude Code: vídeo, etapa, modelo, sessão, duração, turnos, tokens, `custo_usd_equivalente`, erro e resumo do resultado (DDL em `tools/db/schema_execucoes_claude.sql`) | `tools/claude_run.py` |
+| view `custo_claude_por_video` | soma por vídeo e etapa (ignora `etapa = 'teste'`) | — |
 - Na análise do garimpo, grave a fórmula e a decisão em `garimpo_canais.formula` e `garimpo_canais.decisao` (investir | testar | descartar).
 - Arquivos continuam sendo a saída de mídia e texto longo. O banco é a fonte para consultas, histórico e números.
 - Rotina diária (coleta + backup em `~/backups/vida`, 14 dias): `tools/rotinas/diaria.sh`.
@@ -70,3 +73,4 @@ Acesso local sem senha, como o usuário do sistema: `psql -d vida`, ou `tools/db
 - Antes de produzir um vídeo, crie a linha dele em `youtube.videos` para ter o id. Consulte o custo em `financas.custo_por_video`.
 - Saldo de crédito pré-pago (Fish, OpenAI, fal.ai): `SELECT * FROM financas.saldo_pre_pago`. O da OpenAI só é confiável se todas as recargas estiverem lançadas em `financas.lancamentos`; em 04/11/2026 estava negativo por falta de lançamento.
 - Os custos reais por vídeo e os erros que custaram dinheiro estão em `conhecimento/anti-padroes.md`.
+- Claude Code: rode cada etapa via `tools/claude_run.py --video <id> --etapa <etapa>` (opus em roteiro/storyboard, sonnet no resto). O uso fica em `youtube.execucoes_claude` / `youtube.custo_claude_por_video` (preço de lista equivalente; o Claude Max real entra no rateio fixo).

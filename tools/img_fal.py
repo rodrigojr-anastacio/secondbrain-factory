@@ -5,6 +5,8 @@ Uso:
   <cenas.json>: lista de {"id": "S001", "prompt": "descrição da cena"} (o estilo do canal é adicionado sozinho).
 O estilo e o modelo padrão vêm de canais/<canal>/canal.yaml (seção visual: modelo, estilo_prompt, tamanho).
 As imagens que já existem na pasta são puladas, então dá para rodar de novo depois de uma falha.
+Trava anti-duplicação: um processo por pasta de saída (<pasta>/.img.lock); um 2º processo na mesma pasta sai com
+aviso (código 3). Cada id é re-checado logo antes da chamada paga.
 A chave vem de ~/.segredos/fal.env (FAL_KEY).
 """
 import argparse
@@ -17,6 +19,7 @@ from concurrent.futures import ThreadPoolExecutor
 import yaml
 
 from _paths import FABRICA
+from _trava import travar_pasta
 from db import tentar
 
 # US$ por imagem (~1 MP, 16:9) segundo as páginas dos modelos no fal.ai. Atualize se mudar.
@@ -65,11 +68,14 @@ def main():
         sys.exit(f"Modelo {modelo} sem preço em PRECO_POR_IMAGEM; cadastre antes de usar.")
     key = chave()
     os.makedirs(a.saida, exist_ok=True)
+    trava = travar_pasta(a.saida)  # noqa: F841  (um processo por pasta; sai com aviso se já houver outro)
     cenas = json.load(open(a.cenas))
     pendentes = [c for c in cenas if not os.path.exists(os.path.join(a.saida, f"{c['id']}.jpg"))]
-    ok, falhas = 0, []
+    ok, falhas, puladas = 0, [], 0
 
     def uma(c):
+        if os.path.exists(os.path.join(a.saida, f"{c['id']}.jpg")):  # re-checa logo antes da chamada paga
+            return None
         prompt = f"{c['prompt']}. {estilo}".strip(". ") if estilo else c["prompt"]
         gerar(key, modelo, prompt, tamanho, os.path.join(a.saida, f"{c['id']}.jpg"), c.get("seed"))
         return c["id"]
@@ -77,7 +83,10 @@ def main():
     with ThreadPoolExecutor(max_workers=a.paralelo) as ex:
         for c, fut in [(c, ex.submit(uma, c)) for c in pendentes]:
             try:
-                fut.result()
+                if fut.result() is None:
+                    puladas += 1
+                    print(f"{c['id']}: já existe (pulada)")
+                    continue
                 ok += 1
                 print(f"{c['id']}: ok")
             except Exception as e:  # noqa: BLE001
@@ -94,7 +103,7 @@ def main():
              "youtube.video" if a.video else None, a.video, os.path.basename(a.cenas)))
     if ok:
         tentar(registrar)
-    print(f"\n{ok} geradas, {len(cenas) - len(pendentes)} já existiam, {len(falhas)} falhas · US$ {custo:.3f} ({modelo})")
+    print(f"\n{ok} geradas, {len(cenas) - len(pendentes) + puladas} já existiam, {len(falhas)} falhas · US$ {custo:.3f} ({modelo})")
     if falhas:
         print("Falharam (rode de novo para tentar só estas):", ", ".join(falhas))
 

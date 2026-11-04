@@ -17,7 +17,7 @@ Este repositório (`~/workspace/fabrica-youtube`, repo git **cerebro-fabrica**) 
 | `conhecimento/` | **base viva do que aprendemos**, com data e fonte: `hooks.md`, `titulos.md`, `roteiros.md`, `anti-padroes.md` (com os custos por vídeo) e `thumbnails/` (thumbs no ar + `README.md` com o CTR) |
 | `skills/README.md` | mapa das skills do Produtor de vídeo (Fase 2; ainda não implementadas) |
 | `playbooks/` | procedimentos: `produzir-video.md` (a esteira), `garimpo-tendencias.md` (seg/qui) e `revisar-metricas.md` |
-| `tools/` | comandos determinísticos em Python (`tools/.venv/bin/python`): `tts_fish.py` (voz Fish + custo), `img_openai.py` e `img_fal.py` (imagens + custo), `watch.py` (assiste referências via WARP), `trends.py` (garimpo), `report.py` (métricas, `--coletar`, `--retencao`), `transcrever.py` (Whisper de um vídeo do YouTube), `auth.py` (OAuth, feito pelo Rodrigo), `db.py` e `_paths.py` (conexão e caminhos), `db/schema_youtube.sql` e `db/seed.sql`, `rotinas/diaria.sh` (coleta + backup às 06:30) |
+| `tools/` | comandos determinísticos em Python (`tools/.venv/bin/python`): `tts_fish.py` (voz Fish + custo), `img_openai.py` e `img_fal.py` (imagens + custo), `watch.py` (assiste referências via WARP), `trends.py` (garimpo), `report.py` (métricas, `--coletar`, `--retencao`), `transcrever.py` (Whisper de um vídeo do YouTube), `claude_run.py`/`claude_run.sh` (roda uma etapa do Claude Code por vídeo com trava e custo em `youtube.execucoes_claude`), `auth.py` (OAuth, feito pelo Rodrigo), `db.py`, `_paths.py` e `_trava.py` (conexão, caminhos e trava por pasta das tools de imagem), `db/schema_youtube.sql`, `db/schema_execucoes_claude.sql` e `db/seed.sql`, `rotinas/diaria.sh` (coleta + backup às 06:30) |
 | `canais/<slug>/` | `canal.yaml` (identidade, voz, visual), `estilo.md` (padrão e aprendizados do canal), `backlog.md` (fila e publicados) |
 | `canais/<slug>/videos/NNN-slug/` | um projeto por vídeo: `BRIEF.md`, `roteiro.py` (fonte única), `SCRIPT.md`, `SOURCES.md`, `STORYBOARD.md`, `blocos.json`, `cenas.json`, `ETAPA*.md` (relatório de cada execução), `QA.md`, `BLOQUEIO.md` (quando trava), código Remotion em `src/`, `tools/` do vídeo (`build.py`, `render.sh`, `qa.sh`) |
 | `pesquisa/` | `trend_seeds.txt`, `trends_state.json` e `tendencias/<data>.md/.json/-analise.md` |
@@ -31,7 +31,8 @@ Canais hoje (`youtube.canais`, 2026-11-04):
   - `canais`, `videos` (esteira e status; **o agente atualiza a cada etapa**);
   - `metricas_canal` e `metricas_video` (gravados por `report.py --coletar`, sem CTR, que só existe no Studio);
   - `assistidos` (gravado por `watch.py`);
-  - `garimpo_*` (gravado por `trends.py`).
+  - `garimpo_*` (gravado por `trends.py`);
+  - `execucoes_claude` (gravado por `claude_run.py`: modelo, turnos, tokens e custo equivalente de cada chamada do Claude Code) e a view `custo_claude_por_video`.
 - `financas` (SQL em `~/workspace/_db/schema_financas.sql`):
   - `consumo`: uso pago por vídeo, com `ref_tipo='youtube.video'` e `ref_id` = `youtube.videos.id`; as tools gravam sozinhas com `--video <id>`;
   - `lancamentos`: recargas e assinaturas;

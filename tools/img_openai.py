@@ -5,6 +5,8 @@ Uso:
   <cenas.json>: lista de {"id": "S001", "prompt": "descrição da cena", "qualidade": "low"} (o campo qualidade é opcional, por cena).
 Estilo, modelo e qualidade padrão vêm de canais/<canal>/canal.yaml (seção visual: modelo_openai, estilo_prompt, qualidade).
 Gera JPG 1536x1024. As imagens que já existem são puladas, então dá para rodar de novo depois de falhas.
+Trava anti-duplicação: um processo por pasta de saída (<pasta>/.img.lock); um 2º processo na mesma pasta sai com
+aviso (código 3). Cada id é re-checado logo antes da chamada paga.
 A chave vem de ~/.segredos/openai.env (linha OPENAI=...).
 """
 import argparse
@@ -20,6 +22,7 @@ from concurrent.futures import ThreadPoolExecutor
 import yaml
 
 from _paths import FABRICA
+from _trava import travar_pasta
 from db import tentar
 
 # US$ por milhão de tokens de imagem gerados (preço oficial: developers.openai.com/api/docs/guides/image-generation#cost-and-latency; bate com o saldo real em 02/11/2026).
@@ -49,12 +52,15 @@ def main():
     qual_padrao = a.qualidade or visual.get("qualidade", "medium")
     key = chave()
     os.makedirs(a.saida, exist_ok=True)
+    trava = travar_pasta(a.saida)  # noqa: F841  (um processo por pasta; sai com aviso se já houver outro)
     cenas = json.load(open(a.cenas))
     pendentes = [c for c in cenas if not os.path.exists(os.path.join(a.saida, f"{c['id']}.jpg"))]
     tok_in = tok_out = 0
-    ok, falhas = 0, []
+    ok, falhas, puladas = 0, [], 0
 
     def uma(c):
+        if os.path.exists(os.path.join(a.saida, f"{c['id']}.jpg")):  # re-checa logo antes da chamada paga
+            return None
         corpo = {"model": modelo, "prompt": f"{c['prompt']}. {estilo}", "size": "1536x1024",
                  "quality": c.get("qualidade", qual_padrao), "n": 1}
         req = urllib.request.Request("https://api.openai.com/v1/images/generations", data=json.dumps(corpo).encode(),
@@ -72,7 +78,12 @@ def main():
     with ThreadPoolExecutor(max_workers=a.paralelo) as ex:
         for c, fut in [(c, ex.submit(uma, c)) for c in pendentes]:
             try:
-                ti, to = fut.result()
+                r = fut.result()
+                if r is None:
+                    puladas += 1
+                    print(f"{c['id']}: já existe (pulada)")
+                    continue
+                ti, to = r
                 tok_in += ti
                 tok_out += to
                 ok += 1
@@ -92,7 +103,7 @@ def main():
              f"{os.path.basename(a.cenas)}; {tok_out} tokens de saída; custo estimado"))
     if ok:
         tentar(registrar)
-    print(f"\n{ok} geradas, {len(cenas) - len(pendentes)} já existiam, {len(falhas)} falhas · ~US$ {custo:.3f} (estimado, {modelo})")
+    print(f"\n{ok} geradas, {len(cenas) - len(pendentes) + puladas} já existiam, {len(falhas)} falhas · ~US$ {custo:.3f} (estimado, {modelo})")
     if falhas:
         print("Falharam (rode de novo para tentar só estas):", ", ".join(falhas))
 

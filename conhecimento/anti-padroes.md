@@ -45,6 +45,7 @@
 - 223 gerações para 196 imagens (195 do vídeo + thumb-base): **27 em dobro**. Causa: 2 processos `img_openai.py` em paralelo, cada um numa ponta da lista. Eles calculam os pendentes só no início e se cruzaram no meio. Custo extra: **~US$ 1,1** (27 × ~US$ 0,042). [BLOQUEIO.md, ETAPA-FINAL.md 002; `financas.consumo` ids 16 e 17: 133 + 90 imagens]
 - Regra já registrada no playbook: um processo só, com `--paralelo 8`. [playbooks/produzir-video.md]
 - O plano da Fase 2 pede uma **trava anti-duplicação** na skill `imagens`. [PLANO-ARQUITETURA.md, item 11]
+- **Implementada em 2026-11-04:** `img_openai.py` e `img_fal.py` fazem `flock` em `<pasta>/.img.lock` (o 2º processo na mesma pasta sai com aviso, código 3) e re-checam cada id logo antes da chamada paga. O `claude_run.py` tem trava equivalente por vídeo+etapa. [tools/_trava.py, tools/claude_run.py; testado sem gasto com trava simulada]
 
 ### 4. Saldo zerado no meio da geração (Índia, 2026-11-03, ~19:45)
 - A OpenAI respondeu "You have no credits remaining"; faltaram 2 imagens (`charkha`, `journey_lineup`), cobertas com reuso. [BLOQUEIO.md 002]
