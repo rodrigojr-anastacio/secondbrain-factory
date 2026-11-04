@@ -12,7 +12,7 @@ fabrica-youtube/
 ├── conhecimento/        ← base viva do que aprendemos (com data e fonte)
 │   ├── hooks.md, titulos.md, roteiros.md, anti-padroes.md (inclui custos por vídeo)
 │   └── thumbnails/      ← thumbs no ar (<canal>-<video>.jpg, < 500 KB) + README com o CTR
-├── skills/README.md     ← mapa das skills do Produtor de vídeo (Fase 2, ainda não implementadas)
+├── skills/<nome>/SKILL.md ← 10 skills do Produtor (Agent Skills; symlink em ~/.claude/skills e ~/.hermes/skills/fabrica-youtube) + README.md (mapa)
 ├── playbooks/           ← procedimentos (siga-os; melhore-os)
 │   ├── produzir-video.md
 │   ├── garimpo-tendencias.md

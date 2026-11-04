@@ -22,6 +22,10 @@ systemctl --user daemon-reload
 systemctl --user enable --now fabrica-metricas.timer fabrica-tendencias.timer
 ```
 
+## Testes (04/11/2026)
+- `metricas.sh` (completo, via `systemctl --user start`): 68 s, 7 turnos, US$ 0,26 equivalente (`execucoes_claude` id 3), relatório + resumo em `relatorios/metricas/`, commit `88f4a0a`, Telegram ok.
+- `tendencias.sh --teste`: 109 s, 17 turnos, US$ 0,40 equivalente (id 4), 2 vídeos assistidos, 0 unidades de cota, commit `d062ccb`, Telegram ok com thumb e hook_sheet anexados. A 1ª execução completa (~4 mil unidades) é a do timer de qui 05/11 09:30.
+
 ## Crons do Hermes (perfil default)
 - `garimpo-semanal-yt` (seg/qui 09:00): **mantido** até o Rodrigo aprovar a rotina nova; depois pode ser pausado (`hermes cron pause <id>`). Desde 04/11/2026 o provedor do Hermes está em HTTP 429 até ~27/11, então ele não roda de fato.
 - `metricas-semanal-yt` (seg 08:00): **pausado** em 04/11/2026, porque duplica `fabrica-metricas.timer` (não apagado; `hermes cron resume <id>` volta).
