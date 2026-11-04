@@ -1,0 +1,28 @@
+slug: historia-ptbr
+nome: História em minutos
+url: a definir
+idioma: pt-BR
+nicho: história mundial (países, impérios, civilizações)
+token: historia-ptbr      # ~/.segredos/youtube/tokens/historia-ptbr.json
+status: em preparação (piloto)
+formula:
+  modelo: History in Minutes (UCYjRQ6T2BxBnJtPytI9OnNg) e Genius History (UC-q0RDBWjYlYA2KkPzq0WSQ)
+  titulo: "A HISTÓRIA COMPLETA de X em N minutos"
+  duracao_min: 12-20
+  estrutura: cronologia completa do país ou império, das origens até hoje
+voz:
+  motor: fish             # Fish.audio; chave em ~/.segredos/fish.env
+  voz: 48613fc675f84984981683d92266e543   # clone feito pelo Rodrigo no Fish (pt-BR)
+  modelo: s2.1-pro        # API paga com crédito pré-pago (ver financas.saldo_pre_pago)
+  velocidade: 1.0         # aprovado pelo Rodrigo; 0.95 soou lento
+piloto:
+  - A HISTÓRIA COMPLETA do Japão em N minutos
+  - A HISTÓRIA COMPLETA do Egito em N minutos
+  - A HISTÓRIA COMPLETA de Roma em N minutos
+visual:
+  gerador: openai           # openai (tools/img_openai.py) | fal (tools/img_fal.py, conta liberada em 03/11)
+  modelo_openai: gpt-image-2
+  qualidade: medium         # low ficou ruim no vídeo (feedback do Rodrigo, 02/11); thumbnail em high
+  modelo: fal-ai/flux/dev
+  tamanho: landscape_16_9
+  estilo_prompt: "Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"

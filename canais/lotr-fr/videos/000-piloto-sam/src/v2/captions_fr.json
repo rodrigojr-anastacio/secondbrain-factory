@@ -1,0 +1,989 @@
+[
+  {
+    "text": "Frodon",
+    "startMs": 0,
+    "endMs": 540,
+    "timestampMs": 270,
+    "confidence": null
+  },
+  {
+    "text": " part",
+    "startMs": 540,
+    "endMs": 740,
+    "timestampMs": 640,
+    "confidence": null
+  },
+  {
+    "text": " vers",
+    "startMs": 740,
+    "endMs": 940,
+    "timestampMs": 840,
+    "confidence": null
+  },
+  {
+    "text": " l’Ouest.",
+    "startMs": 940,
+    "endMs": 1380,
+    "timestampMs": 1160,
+    "confidence": null
+  },
+  {
+    "text": " Sam,",
+    "startMs": 2240,
+    "endMs": 2380,
+    "timestampMs": 2310,
+    "confidence": null
+  },
+  {
+    "text": " lui,",
+    "startMs": 2840,
+    "endMs": 3220,
+    "timestampMs": 3030,
+    "confidence": null
+  },
+  {
+    "text": " rentre",
+    "startMs": 3860,
+    "endMs": 4180,
+    "timestampMs": 4020,
+    "confidence": null
+  },
+  {
+    "text": " dans",
+    "startMs": 4180,
+    "endMs": 4320,
+    "timestampMs": 4250,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 4320,
+    "endMs": 4440,
+    "timestampMs": 4380,
+    "confidence": null
+  },
+  {
+    "text": " Comté.",
+    "startMs": 4440,
+    "endMs": 4880,
+    "timestampMs": 4660,
+    "confidence": null
+  },
+  {
+    "text": " Il",
+    "startMs": 5300,
+    "endMs": 5400,
+    "timestampMs": 5350,
+    "confidence": null
+  },
+  {
+    "text": " retrouve",
+    "startMs": 5400,
+    "endMs": 5720,
+    "timestampMs": 5560,
+    "confidence": null
+  },
+  {
+    "text": " Rosie,",
+    "startMs": 5720,
+    "endMs": 6180,
+    "timestampMs": 5950,
+    "confidence": null
+  },
+  {
+    "text": " élève",
+    "startMs": 6520,
+    "endMs": 6700,
+    "timestampMs": 6610,
+    "confidence": null
+  },
+  {
+    "text": " leurs",
+    "startMs": 6700,
+    "endMs": 6920,
+    "timestampMs": 6810,
+    "confidence": null
+  },
+  {
+    "text": " enfants",
+    "startMs": 6920,
+    "endMs": 7320,
+    "timestampMs": 7120,
+    "confidence": null
+  },
+  {
+    "text": " et",
+    "startMs": 7320,
+    "endMs": 7740,
+    "timestampMs": 7530,
+    "confidence": null
+  },
+  {
+    "text": " garde",
+    "startMs": 7740,
+    "endMs": 8040,
+    "timestampMs": 7890,
+    "confidence": null
+  },
+  {
+    "text": " le",
+    "startMs": 8040,
+    "endMs": 8220,
+    "timestampMs": 8130,
+    "confidence": null
+  },
+  {
+    "text": " Livre",
+    "startMs": 8220,
+    "endMs": 8420,
+    "timestampMs": 8320,
+    "confidence": null
+  },
+  {
+    "text": " Rouge.",
+    "startMs": 8420,
+    "endMs": 8960,
+    "timestampMs": 8690,
+    "confidence": null
+  },
+  {
+    "text": " Des",
+    "startMs": 9600,
+    "endMs": 9720,
+    "timestampMs": 9660,
+    "confidence": null
+  },
+  {
+    "text": " années",
+    "startMs": 9720,
+    "endMs": 9920,
+    "timestampMs": 9820,
+    "confidence": null
+  },
+  {
+    "text": " plus",
+    "startMs": 9920,
+    "endMs": 10120,
+    "timestampMs": 10020,
+    "confidence": null
+  },
+  {
+    "text": " tard,",
+    "startMs": 10120,
+    "endMs": 10500,
+    "timestampMs": 10310,
+    "confidence": null
+  },
+  {
+    "text": " après",
+    "startMs": 10840,
+    "endMs": 11040,
+    "timestampMs": 10940,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 11040,
+    "endMs": 11200,
+    "timestampMs": 11120,
+    "confidence": null
+  },
+  {
+    "text": " mort",
+    "startMs": 11200,
+    "endMs": 11320,
+    "timestampMs": 11260,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 11320,
+    "endMs": 11500,
+    "timestampMs": 11410,
+    "confidence": null
+  },
+  {
+    "text": " Rosie,",
+    "startMs": 11500,
+    "endMs": 11800,
+    "timestampMs": 11650,
+    "confidence": null
+  },
+  {
+    "text": " Sam",
+    "startMs": 12180,
+    "endMs": 12280,
+    "timestampMs": 12230,
+    "confidence": null
+  },
+  {
+    "text": " confie",
+    "startMs": 12280,
+    "endMs": 12720,
+    "timestampMs": 12500,
+    "confidence": null
+  },
+  {
+    "text": " le",
+    "startMs": 12720,
+    "endMs": 12840,
+    "timestampMs": 12780,
+    "confidence": null
+  },
+  {
+    "text": " livre",
+    "startMs": 12840,
+    "endMs": 13220,
+    "timestampMs": 13030,
+    "confidence": null
+  },
+  {
+    "text": " à",
+    "startMs": 13220,
+    "endMs": 13520,
+    "timestampMs": 13370,
+    "confidence": null
+  },
+  {
+    "text": " Elanor",
+    "startMs": 13520,
+    "endMs": 14040,
+    "timestampMs": 13780,
+    "confidence": null
+  },
+  {
+    "text": " et",
+    "startMs": 14040,
+    "endMs": 14620,
+    "timestampMs": 14330,
+    "confidence": null
+  },
+  {
+    "text": " rejoint",
+    "startMs": 14620,
+    "endMs": 14980,
+    "timestampMs": 14800,
+    "confidence": null
+  },
+  {
+    "text": " les",
+    "startMs": 14980,
+    "endMs": 15200,
+    "timestampMs": 15090,
+    "confidence": null
+  },
+  {
+    "text": " Havres",
+    "startMs": 15200,
+    "endMs": 15500,
+    "timestampMs": 15350,
+    "confidence": null
+  },
+  {
+    "text": " Gris.",
+    "startMs": 15500,
+    "endMs": 15800,
+    "timestampMs": 15650,
+    "confidence": null
+  },
+  {
+    "text": " Pourquoi ?",
+    "startMs": 16240,
+    "endMs": 17180,
+    "timestampMs": 16710,
+    "confidence": null
+  },
+  {
+    "text": " La",
+    "startMs": 17180,
+    "endMs": 17260,
+    "timestampMs": 17220,
+    "confidence": null
+  },
+  {
+    "text": " tradition",
+    "startMs": 17260,
+    "endMs": 17640,
+    "timestampMs": 17450,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 17640,
+    "endMs": 17820,
+    "timestampMs": 17730,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 17820,
+    "endMs": 17940,
+    "timestampMs": 17880,
+    "confidence": null
+  },
+  {
+    "text": " Comté",
+    "startMs": 17940,
+    "endMs": 18260,
+    "timestampMs": 18100,
+    "confidence": null
+  },
+  {
+    "text": " le",
+    "startMs": 18260,
+    "endMs": 18360,
+    "timestampMs": 18310,
+    "confidence": null
+  },
+  {
+    "text": " présente",
+    "startMs": 18360,
+    "endMs": 18960,
+    "timestampMs": 18660,
+    "confidence": null
+  },
+  {
+    "text": " comme",
+    "startMs": 19080,
+    "endMs": 19240,
+    "timestampMs": 19160,
+    "confidence": null
+  },
+  {
+    "text": " le",
+    "startMs": 19240,
+    "endMs": 19360,
+    "timestampMs": 19300,
+    "confidence": null
+  },
+  {
+    "text": " dernier",
+    "startMs": 19360,
+    "endMs": 19700,
+    "timestampMs": 19530,
+    "confidence": null
+  },
+  {
+    "text": " Porteur",
+    "startMs": 19700,
+    "endMs": 20100,
+    "timestampMs": 19900,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 20100,
+    "endMs": 20240,
+    "timestampMs": 20170,
+    "confidence": null
+  },
+  {
+    "text": " l’Anneau",
+    "startMs": 20240,
+    "endMs": 20540,
+    "timestampMs": 20390,
+    "confidence": null
+  },
+  {
+    "text": " à",
+    "startMs": 20540,
+    "endMs": 20640,
+    "timestampMs": 20590,
+    "confidence": null
+  },
+  {
+    "text": " prendre",
+    "startMs": 20640,
+    "endMs": 20820,
+    "timestampMs": 20730,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 20820,
+    "endMs": 21080,
+    "timestampMs": 20950,
+    "confidence": null
+  },
+  {
+    "text": " mer.",
+    "startMs": 21080,
+    "endMs": 21300,
+    "timestampMs": 21190,
+    "confidence": null
+  },
+  {
+    "text": " Sam",
+    "startMs": 21780,
+    "endMs": 21940,
+    "timestampMs": 21860,
+    "confidence": null
+  },
+  {
+    "text": " aussi",
+    "startMs": 21940,
+    "endMs": 22260,
+    "timestampMs": 22100,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 22260,
+    "endMs": 22360,
+    "timestampMs": 22310,
+    "confidence": null
+  },
+  {
+    "text": " porté",
+    "startMs": 22360,
+    "endMs": 22680,
+    "timestampMs": 22520,
+    "confidence": null
+  },
+  {
+    "text": " l’Anneau,",
+    "startMs": 22680,
+    "endMs": 23060,
+    "timestampMs": 22870,
+    "confidence": null
+  },
+  {
+    "text": " brièvement.",
+    "startMs": 23420,
+    "endMs": 24000,
+    "timestampMs": 23710,
+    "confidence": null
+  },
+  {
+    "text": " Son",
+    "startMs": 24480,
+    "endMs": 24760,
+    "timestampMs": 24620,
+    "confidence": null
+  },
+  {
+    "text": " départ",
+    "startMs": 24760,
+    "endMs": 25040,
+    "timestampMs": 24900,
+    "confidence": null
+  },
+  {
+    "text": " fait",
+    "startMs": 25040,
+    "endMs": 25320,
+    "timestampMs": 25180,
+    "confidence": null
+  },
+  {
+    "text": " écho",
+    "startMs": 25320,
+    "endMs": 25580,
+    "timestampMs": 25450,
+    "confidence": null
+  },
+  {
+    "text": " à",
+    "startMs": 25580,
+    "endMs": 25720,
+    "timestampMs": 25650,
+    "confidence": null
+  },
+  {
+    "text": " celui",
+    "startMs": 25720,
+    "endMs": 25900,
+    "timestampMs": 25810,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 25900,
+    "endMs": 26100,
+    "timestampMs": 26000,
+    "confidence": null
+  },
+  {
+    "text": " Frodon —",
+    "startMs": 26100,
+    "endMs": 26520,
+    "timestampMs": 26310,
+    "confidence": null
+  },
+  {
+    "text": " mais",
+    "startMs": 26800,
+    "endMs": 26940,
+    "timestampMs": 26870,
+    "confidence": null
+  },
+  {
+    "text": " le",
+    "startMs": 26940,
+    "endMs": 27080,
+    "timestampMs": 27010,
+    "confidence": null
+  },
+  {
+    "text": " récit",
+    "startMs": 27080,
+    "endMs": 27520,
+    "timestampMs": 27300,
+    "confidence": null
+  },
+  {
+    "text": " ne",
+    "startMs": 27520,
+    "endMs": 27680,
+    "timestampMs": 27600,
+    "confidence": null
+  },
+  {
+    "text": " raconte",
+    "startMs": 27680,
+    "endMs": 27900,
+    "timestampMs": 27790,
+    "confidence": null
+  },
+  {
+    "text": " pas",
+    "startMs": 27900,
+    "endMs": 28080,
+    "timestampMs": 27990,
+    "confidence": null
+  },
+  {
+    "text": " leurs",
+    "startMs": 28080,
+    "endMs": 28200,
+    "timestampMs": 28140,
+    "confidence": null
+  },
+  {
+    "text": " retrouvailles.",
+    "startMs": 28200,
+    "endMs": 28920,
+    "timestampMs": 28560,
+    "confidence": null
+  },
+  {
+    "text": " Et",
+    "startMs": 28920,
+    "endMs": 29460,
+    "timestampMs": 29190,
+    "confidence": null
+  },
+  {
+    "text": " partir",
+    "startMs": 29460,
+    "endMs": 29960,
+    "timestampMs": 29710,
+    "confidence": null
+  },
+  {
+    "text": " vers",
+    "startMs": 29960,
+    "endMs": 30180,
+    "timestampMs": 30070,
+    "confidence": null
+  },
+  {
+    "text": " Aman",
+    "startMs": 30180,
+    "endMs": 30460,
+    "timestampMs": 30320,
+    "confidence": null
+  },
+  {
+    "text": " ne",
+    "startMs": 30620,
+    "endMs": 30640,
+    "timestampMs": 30630,
+    "confidence": null
+  },
+  {
+    "text": " rend",
+    "startMs": 30640,
+    "endMs": 30740,
+    "timestampMs": 30690,
+    "confidence": null
+  },
+  {
+    "text": " pas",
+    "startMs": 30740,
+    "endMs": 30960,
+    "timestampMs": 30850,
+    "confidence": null
+  },
+  {
+    "text": " un",
+    "startMs": 30960,
+    "endMs": 31100,
+    "timestampMs": 31030,
+    "confidence": null
+  },
+  {
+    "text": " Hobbit",
+    "startMs": 31100,
+    "endMs": 31320,
+    "timestampMs": 31210,
+    "confidence": null
+  },
+  {
+    "text": " immortel.",
+    "startMs": 31320,
+    "endMs": 32260,
+    "timestampMs": 31790,
+    "confidence": null
+  },
+  {
+    "text": " Tolkien",
+    "startMs": 32680,
+    "endMs": 33040,
+    "timestampMs": 32860,
+    "confidence": null
+  },
+  {
+    "text": " précise",
+    "startMs": 33040,
+    "endMs": 33880,
+    "timestampMs": 33460,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 33880,
+    "endMs": 34280,
+    "timestampMs": 34080,
+    "confidence": null
+  },
+  {
+    "text": " les",
+    "startMs": 34280,
+    "endMs": 34420,
+    "timestampMs": 34350,
+    "confidence": null
+  },
+  {
+    "text": " mortels",
+    "startMs": 34420,
+    "endMs": 34840,
+    "timestampMs": 34630,
+    "confidence": null
+  },
+  {
+    "text": " autorisés",
+    "startMs": 34840,
+    "endMs": 35440,
+    "timestampMs": 35140,
+    "confidence": null
+  },
+  {
+    "text": " à",
+    "startMs": 35440,
+    "endMs": 35560,
+    "timestampMs": 35500,
+    "confidence": null
+  },
+  {
+    "text": " y",
+    "startMs": 35560,
+    "endMs": 35760,
+    "timestampMs": 35660,
+    "confidence": null
+  },
+  {
+    "text": " séjourner",
+    "startMs": 35760,
+    "endMs": 36260,
+    "timestampMs": 36010,
+    "confidence": null
+  },
+  {
+    "text": " n’y",
+    "startMs": 36580,
+    "endMs": 36660,
+    "timestampMs": 36620,
+    "confidence": null
+  },
+  {
+    "text": " restent",
+    "startMs": 36660,
+    "endMs": 37060,
+    "timestampMs": 36860,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 37060,
+    "endMs": 37160,
+    "timestampMs": 37110,
+    "confidence": null
+  },
+  {
+    "text": " pour",
+    "startMs": 37160,
+    "endMs": 37300,
+    "timestampMs": 37230,
+    "confidence": null
+  },
+  {
+    "text": " un",
+    "startMs": 37300,
+    "endMs": 37400,
+    "timestampMs": 37350,
+    "confidence": null
+  },
+  {
+    "text": " temps",
+    "startMs": 37400,
+    "endMs": 37520,
+    "timestampMs": 37460,
+    "confidence": null
+  },
+  {
+    "text": " limité.",
+    "startMs": 37520,
+    "endMs": 38040,
+    "timestampMs": 37780,
+    "confidence": null
+  },
+  {
+    "text": " L’Ouest",
+    "startMs": 38560,
+    "endMs": 38820,
+    "timestampMs": 38690,
+    "confidence": null
+  },
+  {
+    "text": " offre",
+    "startMs": 38820,
+    "endMs": 39200,
+    "timestampMs": 39010,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 39200,
+    "endMs": 39360,
+    "timestampMs": 39280,
+    "confidence": null
+  },
+  {
+    "text": " paix",
+    "startMs": 39360,
+    "endMs": 39760,
+    "timestampMs": 39560,
+    "confidence": null
+  },
+  {
+    "text": " et",
+    "startMs": 39760,
+    "endMs": 40080,
+    "timestampMs": 39920,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 40080,
+    "endMs": 40220,
+    "timestampMs": 40150,
+    "confidence": null
+  },
+  {
+    "text": " guérison,",
+    "startMs": 40220,
+    "endMs": 40640,
+    "timestampMs": 40430,
+    "confidence": null
+  },
+  {
+    "text": " pas",
+    "startMs": 41040,
+    "endMs": 41280,
+    "timestampMs": 41160,
+    "confidence": null
+  },
+  {
+    "text": " l’éternité.",
+    "startMs": 41280,
+    "endMs": 41920,
+    "timestampMs": 41600,
+    "confidence": null
+  },
+  {
+    "text": " Alors,",
+    "startMs": 42520,
+    "endMs": 42880,
+    "timestampMs": 42700,
+    "confidence": null
+  },
+  {
+    "text": " Sam",
+    "startMs": 43380,
+    "endMs": 43520,
+    "timestampMs": 43450,
+    "confidence": null
+  },
+  {
+    "text": " a-t-il",
+    "startMs": 43520,
+    "endMs": 43820,
+    "timestampMs": 43670,
+    "confidence": null
+  },
+  {
+    "text": " revu",
+    "startMs": 43820,
+    "endMs": 44160,
+    "timestampMs": 43990,
+    "confidence": null
+  },
+  {
+    "text": " Frodon ?",
+    "startMs": 44160,
+    "endMs": 45140,
+    "timestampMs": 44650,
+    "confidence": null
+  },
+  {
+    "text": " Le",
+    "startMs": 45140,
+    "endMs": 45220,
+    "timestampMs": 45180,
+    "confidence": null
+  },
+  {
+    "text": " livre",
+    "startMs": 45220,
+    "endMs": 45560,
+    "timestampMs": 45390,
+    "confidence": null
+  },
+  {
+    "text": " laisse",
+    "startMs": 45560,
+    "endMs": 45840,
+    "timestampMs": 45700,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 45840,
+    "endMs": 46060,
+    "timestampMs": 45950,
+    "confidence": null
+  },
+  {
+    "text": " question",
+    "startMs": 46060,
+    "endMs": 46460,
+    "timestampMs": 46260,
+    "confidence": null
+  },
+  {
+    "text": " ouverte.",
+    "startMs": 46460,
+    "endMs": 47280,
+    "timestampMs": 46870,
+    "confidence": null
+  },
+  {
+    "text": " Il",
+    "startMs": 47860,
+    "endMs": 47960,
+    "timestampMs": 47910,
+    "confidence": null
+  },
+  {
+    "text": " nous",
+    "startMs": 47960,
+    "endMs": 48120,
+    "timestampMs": 48040,
+    "confidence": null
+  },
+  {
+    "text": " montre",
+    "startMs": 48120,
+    "endMs": 48400,
+    "timestampMs": 48260,
+    "confidence": null
+  },
+  {
+    "text": " seulement",
+    "startMs": 48400,
+    "endMs": 48820,
+    "timestampMs": 48610,
+    "confidence": null
+  },
+  {
+    "text": " Sam",
+    "startMs": 48820,
+    "endMs": 49180,
+    "timestampMs": 49000,
+    "confidence": null
+  },
+  {
+    "text": " qui",
+    "startMs": 49180,
+    "endMs": 49440,
+    "timestampMs": 49310,
+    "confidence": null
+  },
+  {
+    "text": " prend,",
+    "startMs": 49440,
+    "endMs": 49680,
+    "timestampMs": 49560,
+    "confidence": null
+  },
+  {
+    "text": " à",
+    "startMs": 49680,
+    "endMs": 50020,
+    "timestampMs": 49850,
+    "confidence": null
+  },
+  {
+    "text": " son",
+    "startMs": 50020,
+    "endMs": 50200,
+    "timestampMs": 50110,
+    "confidence": null
+  },
+  {
+    "text": " tour,",
+    "startMs": 50200,
+    "endMs": 50560,
+    "timestampMs": 50380,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 50560,
+    "endMs": 51060,
+    "timestampMs": 50810,
+    "confidence": null
+  },
+  {
+    "text": " route",
+    "startMs": 51060,
+    "endMs": 51240,
+    "timestampMs": 51150,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 51240,
+    "endMs": 51400,
+    "timestampMs": 51320,
+    "confidence": null
+  },
+  {
+    "text": " l’Ouest.",
+    "startMs": 51400,
+    "endMs": 51680,
+    "timestampMs": 51540,
+    "confidence": null
+  }
+]

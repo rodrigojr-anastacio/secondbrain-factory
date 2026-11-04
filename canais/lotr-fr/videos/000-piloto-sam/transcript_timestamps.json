@@ -1,0 +1,861 @@
+{
+  "language": "fr",
+  "probability": 1,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.88,
+      "text": "Frodon part vers l'ouest. Sam, lui, rentre dans la comptée.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.54,
+          "word": " Frodon"
+        },
+        {
+          "start": 0.54,
+          "end": 0.74,
+          "word": " part"
+        },
+        {
+          "start": 0.74,
+          "end": 0.94,
+          "word": " vers"
+        },
+        {
+          "start": 0.94,
+          "end": 1.1,
+          "word": " l"
+        },
+        {
+          "start": 1.1,
+          "end": 1.38,
+          "word": "'ouest."
+        },
+        {
+          "start": 2.24,
+          "end": 2.38,
+          "word": " Sam,"
+        },
+        {
+          "start": 2.84,
+          "end": 3.22,
+          "word": " lui,"
+        },
+        {
+          "start": 3.86,
+          "end": 4.18,
+          "word": " rentre"
+        },
+        {
+          "start": 4.18,
+          "end": 4.32,
+          "word": " dans"
+        },
+        {
+          "start": 4.32,
+          "end": 4.44,
+          "word": " la"
+        },
+        {
+          "start": 4.44,
+          "end": 4.88,
+          "word": " comptée."
+        }
+      ]
+    },
+    {
+      "start": 5.3,
+      "end": 8.96,
+      "text": "Il retrouve Rosy, élève leurs enfants et garde le livre rouge.",
+      "words": [
+        {
+          "start": 5.3,
+          "end": 5.4,
+          "word": " Il"
+        },
+        {
+          "start": 5.4,
+          "end": 5.72,
+          "word": " retrouve"
+        },
+        {
+          "start": 5.72,
+          "end": 6.18,
+          "word": " Rosy,"
+        },
+        {
+          "start": 6.52,
+          "end": 6.7,
+          "word": " élève"
+        },
+        {
+          "start": 6.7,
+          "end": 6.92,
+          "word": " leurs"
+        },
+        {
+          "start": 6.92,
+          "end": 7.32,
+          "word": " enfants"
+        },
+        {
+          "start": 7.32,
+          "end": 7.74,
+          "word": " et"
+        },
+        {
+          "start": 7.74,
+          "end": 8.04,
+          "word": " garde"
+        },
+        {
+          "start": 8.04,
+          "end": 8.22,
+          "word": " le"
+        },
+        {
+          "start": 8.22,
+          "end": 8.42,
+          "word": " livre"
+        },
+        {
+          "start": 8.42,
+          "end": 8.96,
+          "word": " rouge."
+        }
+      ]
+    },
+    {
+      "start": 9.6,
+      "end": 14.04,
+      "text": "Des années plus tard, après la mort de Rosy, Sam confie le livre à Elanor",
+      "words": [
+        {
+          "start": 9.6,
+          "end": 9.72,
+          "word": " Des"
+        },
+        {
+          "start": 9.72,
+          "end": 9.92,
+          "word": " années"
+        },
+        {
+          "start": 9.92,
+          "end": 10.12,
+          "word": " plus"
+        },
+        {
+          "start": 10.12,
+          "end": 10.5,
+          "word": " tard,"
+        },
+        {
+          "start": 10.84,
+          "end": 11.04,
+          "word": " après"
+        },
+        {
+          "start": 11.04,
+          "end": 11.2,
+          "word": " la"
+        },
+        {
+          "start": 11.2,
+          "end": 11.32,
+          "word": " mort"
+        },
+        {
+          "start": 11.32,
+          "end": 11.5,
+          "word": " de"
+        },
+        {
+          "start": 11.5,
+          "end": 11.8,
+          "word": " Rosy,"
+        },
+        {
+          "start": 12.18,
+          "end": 12.28,
+          "word": " Sam"
+        },
+        {
+          "start": 12.28,
+          "end": 12.72,
+          "word": " confie"
+        },
+        {
+          "start": 12.72,
+          "end": 12.84,
+          "word": " le"
+        },
+        {
+          "start": 12.84,
+          "end": 13.22,
+          "word": " livre"
+        },
+        {
+          "start": 13.22,
+          "end": 13.52,
+          "word": " à"
+        },
+        {
+          "start": 13.52,
+          "end": 14.04,
+          "word": " Elanor"
+        }
+      ]
+    },
+    {
+      "start": 14.04,
+      "end": 15.8,
+      "text": "et rejoint les Avregris.",
+      "words": [
+        {
+          "start": 14.04,
+          "end": 14.62,
+          "word": " et"
+        },
+        {
+          "start": 14.62,
+          "end": 14.98,
+          "word": " rejoint"
+        },
+        {
+          "start": 14.98,
+          "end": 15.2,
+          "word": " les"
+        },
+        {
+          "start": 15.2,
+          "end": 15.8,
+          "word": " Avregris."
+        }
+      ]
+    },
+    {
+      "start": 16.24,
+      "end": 17.18,
+      "text": "Pourquoi ?",
+      "words": [
+        {
+          "start": 16.24,
+          "end": 16.6,
+          "word": " Pourquoi"
+        },
+        {
+          "start": 16.6,
+          "end": 17.18,
+          "word": " ?"
+        }
+      ]
+    },
+    {
+      "start": 17.18,
+      "end": 21.3,
+      "text": "La tradition de la comptée le présente, comme le dernier porteur de l'anneau à prendre la mer.",
+      "words": [
+        {
+          "start": 17.18,
+          "end": 17.26,
+          "word": " La"
+        },
+        {
+          "start": 17.26,
+          "end": 17.64,
+          "word": " tradition"
+        },
+        {
+          "start": 17.64,
+          "end": 17.82,
+          "word": " de"
+        },
+        {
+          "start": 17.82,
+          "end": 17.94,
+          "word": " la"
+        },
+        {
+          "start": 17.94,
+          "end": 18.26,
+          "word": " comptée"
+        },
+        {
+          "start": 18.26,
+          "end": 18.36,
+          "word": " le"
+        },
+        {
+          "start": 18.36,
+          "end": 18.96,
+          "word": " présente,"
+        },
+        {
+          "start": 19.08,
+          "end": 19.24,
+          "word": " comme"
+        },
+        {
+          "start": 19.24,
+          "end": 19.36,
+          "word": " le"
+        },
+        {
+          "start": 19.36,
+          "end": 19.7,
+          "word": " dernier"
+        },
+        {
+          "start": 19.7,
+          "end": 20.1,
+          "word": " porteur"
+        },
+        {
+          "start": 20.1,
+          "end": 20.24,
+          "word": " de"
+        },
+        {
+          "start": 20.24,
+          "end": 20.38,
+          "word": " l"
+        },
+        {
+          "start": 20.38,
+          "end": 20.54,
+          "word": "'anneau"
+        },
+        {
+          "start": 20.54,
+          "end": 20.64,
+          "word": " à"
+        },
+        {
+          "start": 20.64,
+          "end": 20.82,
+          "word": " prendre"
+        },
+        {
+          "start": 20.82,
+          "end": 21.08,
+          "word": " la"
+        },
+        {
+          "start": 21.08,
+          "end": 21.3,
+          "word": " mer."
+        }
+      ]
+    },
+    {
+      "start": 21.78,
+      "end": 24.0,
+      "text": "Sam aussi a porté l'anneau, brièvement.",
+      "words": [
+        {
+          "start": 21.78,
+          "end": 21.94,
+          "word": " Sam"
+        },
+        {
+          "start": 21.94,
+          "end": 22.26,
+          "word": " aussi"
+        },
+        {
+          "start": 22.26,
+          "end": 22.36,
+          "word": " a"
+        },
+        {
+          "start": 22.36,
+          "end": 22.68,
+          "word": " porté"
+        },
+        {
+          "start": 22.68,
+          "end": 22.82,
+          "word": " l"
+        },
+        {
+          "start": 22.82,
+          "end": 23.06,
+          "word": "'anneau,"
+        },
+        {
+          "start": 23.42,
+          "end": 24.0,
+          "word": " brièvement."
+        }
+      ]
+    },
+    {
+      "start": 24.48,
+      "end": 28.92,
+      "text": "Son départ fait écho à celui de Frodon, mais le récite ne raconte pas le retrouvaille.",
+      "words": [
+        {
+          "start": 24.48,
+          "end": 24.76,
+          "word": " Son"
+        },
+        {
+          "start": 24.76,
+          "end": 25.04,
+          "word": " départ"
+        },
+        {
+          "start": 25.04,
+          "end": 25.32,
+          "word": " fait"
+        },
+        {
+          "start": 25.32,
+          "end": 25.58,
+          "word": " écho"
+        },
+        {
+          "start": 25.58,
+          "end": 25.72,
+          "word": " à"
+        },
+        {
+          "start": 25.72,
+          "end": 25.9,
+          "word": " celui"
+        },
+        {
+          "start": 25.9,
+          "end": 26.1,
+          "word": " de"
+        },
+        {
+          "start": 26.1,
+          "end": 26.52,
+          "word": " Frodon,"
+        },
+        {
+          "start": 26.8,
+          "end": 26.94,
+          "word": " mais"
+        },
+        {
+          "start": 26.94,
+          "end": 27.08,
+          "word": " le"
+        },
+        {
+          "start": 27.08,
+          "end": 27.52,
+          "word": " récite"
+        },
+        {
+          "start": 27.52,
+          "end": 27.68,
+          "word": " ne"
+        },
+        {
+          "start": 27.68,
+          "end": 27.9,
+          "word": " raconte"
+        },
+        {
+          "start": 27.9,
+          "end": 28.08,
+          "word": " pas"
+        },
+        {
+          "start": 28.08,
+          "end": 28.2,
+          "word": " le"
+        },
+        {
+          "start": 28.2,
+          "end": 28.92,
+          "word": " retrouvaille."
+        }
+      ]
+    },
+    {
+      "start": 28.92,
+      "end": 32.26,
+      "text": "Et partir vers ramen, ne rend pas un bid immortel.",
+      "words": [
+        {
+          "start": 28.92,
+          "end": 29.46,
+          "word": " Et"
+        },
+        {
+          "start": 29.46,
+          "end": 29.96,
+          "word": " partir"
+        },
+        {
+          "start": 29.96,
+          "end": 30.18,
+          "word": " vers"
+        },
+        {
+          "start": 30.18,
+          "end": 30.46,
+          "word": " ramen,"
+        },
+        {
+          "start": 30.62,
+          "end": 30.64,
+          "word": " ne"
+        },
+        {
+          "start": 30.64,
+          "end": 30.74,
+          "word": " rend"
+        },
+        {
+          "start": 30.74,
+          "end": 30.96,
+          "word": " pas"
+        },
+        {
+          "start": 30.96,
+          "end": 31.1,
+          "word": " un"
+        },
+        {
+          "start": 31.1,
+          "end": 31.32,
+          "word": " bid"
+        },
+        {
+          "start": 31.32,
+          "end": 32.26,
+          "word": " immortel."
+        }
+      ]
+    },
+    {
+      "start": 32.68,
+      "end": 36.26,
+      "text": "Tolkien précise que les mortels autorisées aient ses journées,",
+      "words": [
+        {
+          "start": 32.68,
+          "end": 33.04,
+          "word": " Tolkien"
+        },
+        {
+          "start": 33.04,
+          "end": 33.88,
+          "word": " précise"
+        },
+        {
+          "start": 33.88,
+          "end": 34.28,
+          "word": " que"
+        },
+        {
+          "start": 34.28,
+          "end": 34.42,
+          "word": " les"
+        },
+        {
+          "start": 34.42,
+          "end": 34.84,
+          "word": " mortels"
+        },
+        {
+          "start": 34.84,
+          "end": 35.44,
+          "word": " autorisées"
+        },
+        {
+          "start": 35.44,
+          "end": 35.56,
+          "word": " aient"
+        },
+        {
+          "start": 35.56,
+          "end": 35.76,
+          "word": " ses"
+        },
+        {
+          "start": 35.76,
+          "end": 36.26,
+          "word": " journées,"
+        }
+      ]
+    },
+    {
+      "start": 36.58,
+      "end": 38.04,
+      "text": "mais restent que pour un temps limité.",
+      "words": [
+        {
+          "start": 36.58,
+          "end": 36.66,
+          "word": " mais"
+        },
+        {
+          "start": 36.66,
+          "end": 37.06,
+          "word": " restent"
+        },
+        {
+          "start": 37.06,
+          "end": 37.16,
+          "word": " que"
+        },
+        {
+          "start": 37.16,
+          "end": 37.3,
+          "word": " pour"
+        },
+        {
+          "start": 37.3,
+          "end": 37.4,
+          "word": " un"
+        },
+        {
+          "start": 37.4,
+          "end": 37.52,
+          "word": " temps"
+        },
+        {
+          "start": 37.52,
+          "end": 38.04,
+          "word": " limité."
+        }
+      ]
+    },
+    {
+      "start": 38.56,
+      "end": 41.92,
+      "text": "L'ouest offre la paix et la guérison, pas l'éternité.",
+      "words": [
+        {
+          "start": 38.56,
+          "end": 38.64,
+          "word": " L"
+        },
+        {
+          "start": 38.64,
+          "end": 38.82,
+          "word": "'ouest"
+        },
+        {
+          "start": 38.82,
+          "end": 39.2,
+          "word": " offre"
+        },
+        {
+          "start": 39.2,
+          "end": 39.36,
+          "word": " la"
+        },
+        {
+          "start": 39.36,
+          "end": 39.76,
+          "word": " paix"
+        },
+        {
+          "start": 39.76,
+          "end": 40.08,
+          "word": " et"
+        },
+        {
+          "start": 40.08,
+          "end": 40.22,
+          "word": " la"
+        },
+        {
+          "start": 40.22,
+          "end": 40.64,
+          "word": " guérison,"
+        },
+        {
+          "start": 41.04,
+          "end": 41.28,
+          "word": " pas"
+        },
+        {
+          "start": 41.28,
+          "end": 41.4,
+          "word": " l"
+        },
+        {
+          "start": 41.4,
+          "end": 41.92,
+          "word": "'éternité."
+        }
+      ]
+    },
+    {
+      "start": 42.52,
+      "end": 45.14,
+      "text": "Alors, Sam a-t-il revivre Frodon ?",
+      "words": [
+        {
+          "start": 42.52,
+          "end": 42.88,
+          "word": " Alors,"
+        },
+        {
+          "start": 43.38,
+          "end": 43.52,
+          "word": " Sam"
+        },
+        {
+          "start": 43.52,
+          "end": 43.62,
+          "word": " a"
+        },
+        {
+          "start": 43.62,
+          "end": 43.72,
+          "word": "-t"
+        },
+        {
+          "start": 43.72,
+          "end": 43.82,
+          "word": "-il"
+        },
+        {
+          "start": 43.82,
+          "end": 44.16,
+          "word": " revivre"
+        },
+        {
+          "start": 44.16,
+          "end": 44.48,
+          "word": " Frodon"
+        },
+        {
+          "start": 44.48,
+          "end": 45.14,
+          "word": " ?"
+        }
+      ]
+    },
+    {
+      "start": 45.14,
+      "end": 47.28,
+      "text": "Le livre laisse la question ouverte.",
+      "words": [
+        {
+          "start": 45.14,
+          "end": 45.22,
+          "word": " Le"
+        },
+        {
+          "start": 45.22,
+          "end": 45.56,
+          "word": " livre"
+        },
+        {
+          "start": 45.56,
+          "end": 45.84,
+          "word": " laisse"
+        },
+        {
+          "start": 45.84,
+          "end": 46.06,
+          "word": " la"
+        },
+        {
+          "start": 46.06,
+          "end": 46.46,
+          "word": " question"
+        },
+        {
+          "start": 46.46,
+          "end": 47.28,
+          "word": " ouverte."
+        }
+      ]
+    },
+    {
+      "start": 47.86,
+      "end": 51.68,
+      "text": "Il nous montre seulement Sam qui prend à son tour la route de l'ouest.",
+      "words": [
+        {
+          "start": 47.86,
+          "end": 47.96,
+          "word": " Il"
+        },
+        {
+          "start": 47.96,
+          "end": 48.12,
+          "word": " nous"
+        },
+        {
+          "start": 48.12,
+          "end": 48.4,
+          "word": " montre"
+        },
+        {
+          "start": 48.4,
+          "end": 48.82,
+          "word": " seulement"
+        },
+        {
+          "start": 48.82,
+          "end": 49.18,
+          "word": " Sam"
+        },
+        {
+          "start": 49.18,
+          "end": 49.44,
+          "word": " qui"
+        },
+        {
+          "start": 49.44,
+          "end": 49.68,
+          "word": " prend"
+        },
+        {
+          "start": 49.68,
+          "end": 50.02,
+          "word": " à"
+        },
+        {
+          "start": 50.02,
+          "end": 50.2,
+          "word": " son"
+        },
+        {
+          "start": 50.2,
+          "end": 50.56,
+          "word": " tour"
+        },
+        {
+          "start": 50.56,
+          "end": 51.06,
+          "word": " la"
+        },
+        {
+          "start": 51.06,
+          "end": 51.24,
+          "word": " route"
+        },
+        {
+          "start": 51.24,
+          "end": 51.4,
+          "word": " de"
+        },
+        {
+          "start": 51.4,
+          "end": 51.54,
+          "word": " l"
+        },
+        {
+          "start": 51.54,
+          "end": 51.68,
+          "word": "'ouest."
+        }
+      ]
+    }
+  ]
+}

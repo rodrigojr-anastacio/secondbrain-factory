@@ -1,0 +1,19 @@
+Você é o executor da **v2** deste vídeo e também faz o QA. Pasta: ~/workspace/fabrica-youtube/canais/historia-ptbr/videos/001-egito. A v1 está pronta (veja ETAPA2.md, QA.md e a pipeline roteiro.py → tools/build.py → tools/render.sh → tools/qa.sh). O Rodrigo gostou do vídeo, mas pediu 3 ajustes. Leia a seção "Aprendizados do piloto 001" em ../../estilo.md.
+
+**Preserve a v1:** mova out/ para out-v1/, audio/ para audio-v1/ e imagens/ para imagens-v1/ antes de gerar a v2.
+
+1. **Imagens em qualidade melhor:** gere de novo todas as imagens do cenas.json em **`medium`** com `~/workspace/fabrica-youtube/tools/.venv/bin/python ~/workspace/fabrica-youtube/tools/img_openai.py historia-ptbr cenas.json imagens --video 3 --qualidade medium` (sem nenhuma `low`).
+   - Aproveite para corrigir os 2 anacronismos de bandeira (1922 e 1952: a bandeira da época era verde com crescente e estrelas) direto nos prompts.
+   - O comando pode passar do limite de tempo de uma chamada: rode em background com nohup e log, e acompanhe. Ele pula as imagens que já existem, então é só rodar de novo até completar.
+   - Teto: **US$ 15 nesta v2** (confira em financas.consumo, ref_id=3, fornecedor OpenAI, somando só o que entrar depois de agora).
+2. **Narração menos robótica e com pausas entre ideias.** O Rodrigo achou atropelado: termina um assunto e já emenda o próximo, sem respiro.
+   - No `roteiro.py` / `blocos.json`, coloque `[break]` de volta nas viradas de ideia dentro dos blocos (não em toda frase) e uma tag de tom no início das frases-chave (`[curious]`, `[serious]`, `[amazed]`, `[warm]`, `[slightly dramatic]`), variando ao longo do vídeo, com no máximo 1 por frase.
+   - Gere a voz de novo com `tools/tts_fish.py historia-ptbr blocos.json audio --video 3`.
+   - No `tools/build.py`, aumente os silêncios do encadeamento: ~0,35 s entre blocos do mesmo assunto, **~0,9 s quando muda de ideia** (marque os blocos que abrem ideia nova) e **~1,5 s antes de cada capítulo**. Pare de aparar o silêncio natural do fim das frases de forma agressiva: deixe ~0,15 s de cauda.
+   - A duração vai crescer, então atualize o N do título se passar de 16:30.
+3. **Thumbnail em alta qualidade:** gere de novo a `thumb-base` em **`high`**, com a mesma composição aprovada (ilustração à esquerda e céu livre à direita), e componha de novo o "EGITO" e o "5000 a.C. – 2026" como na v1.
+4. Rode build → render → QA de novo (tudo como na v1, sem legenda na tela).
+   - No QA, compare v1 × v2: duração, pausas médias entre blocos e a nitidez do frame com o zoom máximo.
+   - Gere de novo `out/youtube.txt` com os tempos dos capítulos atualizados.
+5. Atualize youtube.videos (id 3) com o título e a duracao_s finais e escreva ETAPA3.md: o que mudou, a nova duração, o custo da v2 por fornecedor e as pendências.
+Trabalhe com autonomia; só pare se o custo da v2 em imagens for passar de US$ 15.

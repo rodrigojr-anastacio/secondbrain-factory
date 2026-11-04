@@ -1,0 +1,13 @@
+Você é o executor deste vídeo e também faz o QA (onde o BRIEF diz "Hermes", leia "você"). Trabalhe na pasta atual: ~/workspace/fabrica-youtube/canais/historia-ptbr/videos/001-egito.
+
+Leia, nesta ordem: BRIEF.md, ~/workspace/fabrica-youtube/AGENTS.md, ~/workspace/fabrica-youtube/playbooks/produzir-video.md, ../../canal.yaml, ../../estilo.md e os hooks reais em ref/*/hook.txt.
+
+ETAPA 1 (agora), sem nenhuma geração paga (nada de tts_fish.py nem img_openai.py):
+1. SCRIPT.md: roteiro em pt-BR, com ~2.300–2.500 palavras (15–17 min), seguindo à risca a "Fórmula de hook" do BRIEF e os capítulos cronológicos. Texto próprio, sem traduzir as referências.
+2. SOURCES.md: as fontes dos fatos.
+3. blocos.json: a narração dividida em blocos [{"id":"N001","texto":"..."}], de 1 a 3 frases cada, com tags do Fish usadas com moderação ([break] entre ideias, [long-break] antes de revelações, [emphasis] na palavra-chave do hook).
+4. STORYBOARD.md: um plano a cada 2–4 s, em tabela com: plano, bloco de narração, id da imagem, nova ou reuso, enquadramento e movimento. Siga as regras de reuso do BRIEF: os 3 primeiros minutos 100% inéditos, depois até ~40% de reuso, nunca o mesmo enquadramento em menos de 60 s e a imagem sempre batendo com a narração.
+5. cenas.json: SÓ as imagens únicas [{"id":"I001","prompt":"descrição concreta da cena em inglês, sem estilo"}], entre 150 e 180 imagens. Inclua "thumb-base" para a ilustração da thumbnail, com "qualidade":"medium".
+6. Rode `psql -d vida -c "update youtube.videos set status='producao', titulo='A HISTÓRIA COMPLETA do Egito em 16 minutos' where id=3"`, ajustando o N à duração estimada.
+7. No fim, escreva ETAPA1.md com o resumo: nº de palavras, duração estimada, nº de planos, nº de imagens únicas, % de reuso e o hook (as 3 primeiras frases).
+Seja eficiente: não reescreva arquivos sem necessidade.

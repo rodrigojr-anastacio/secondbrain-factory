@@ -1,0 +1,787 @@
+[
+ {
+  "id": "I001",
+  "prompt": "Satellite view of the Indian subcontinent from space in the dry season, the whole land brown and dusty, the blue Arabian Sea on the left and the Bay of Bengal on the right, a few white clouds"
+ },
+ {
+  "id": "I002",
+  "prompt": "Parched brown farmland in India in May, cracked earth, a lonely dry tree, a farmer in a white dhoti shading his eyes from the harsh sun"
+ },
+ {
+  "id": "I003",
+  "prompt": "A nearly empty reservoir in India with a big dam wall, the water a tiny puddle at the bottom, boats stranded on cracked mud"
+ },
+ {
+  "id": "I004",
+  "prompt": "A dusty north Indian town street at noon in extreme heat, a huge street thermometer at the red top, people hiding under umbrellas, heat shimmer"
+ },
+ {
+  "id": "I005",
+  "prompt": "Satellite view of the Indian subcontinent from space after the monsoon, the whole land bright green, swirling white monsoon clouds, the blue Arabian Sea and the Bay of Bengal"
+ },
+ {
+  "id": "I006",
+  "prompt": "Endless bright green rice paddies in India after the rain, coconut palms, a village and water mirrors reflecting the sky"
+ },
+ {
+  "id": "I007",
+  "prompt": "An ancient Indian king on a golden throne shrugging with empty open hands, looking up at the sky with a confused face"
+ },
+ {
+  "id": "I008",
+  "prompt": "A huge dark wall of monsoon clouds rolling in from the sea over an Indian coastline with palm trees bending in the wind"
+ },
+ {
+  "id": "I009",
+  "prompt": "Heavy monsoon rain pouring on an Indian village, children dancing in the rain, women holding up their saris, mud streets turning to streams"
+ },
+ {
+  "id": "I010",
+  "prompt": "A huge colorful crowd of modern Indian people filling a wide street from edge to edge, seen from above"
+ },
+ {
+  "id": "I011",
+  "prompt": "Indian farmers in a flooded field joyfully planting rice seedlings under light rain"
+ },
+ {
+  "id": "I012",
+  "prompt": "A sad old engraving-style scene of a 19th century Indian village during a drought famine, thin people sitting by an empty well, dry fields"
+ },
+ {
+  "id": "I013",
+  "prompt": "Illustrated map of South Asia and the Indian Ocean with big curved blue arrows of the summer monsoon wind blowing from the ocean onto the land, rain clouds over India, no labels, no text"
+ },
+ {
+  "id": "I014",
+  "prompt": "Strong monsoon wind blowing through an Indian village, palm trees bending, women holding their saris, kids running toward the first rain"
+ },
+ {
+  "id": "I015",
+  "prompt": "An Indian farmer standing in his field with arms wide open looking up at dark rain clouds, the first drops falling on his face"
+ },
+ {
+  "id": "I016",
+  "prompt": "A cutaway cliff showing many colorful rock layers of the Earth, a tiny geologist with a hammer pointing at the thin top layer"
+ },
+ {
+  "id": "I017",
+  "prompt": "A group of geologists in a meeting room around a big chart of Earth's ages, one of them pinning a small map of northeast India at the very top"
+ },
+ {
+  "id": "I018",
+  "prompt": "Misty green hills of Meghalaya in northeast India, waterfalls pouring off cliffs, living root bridges, heavy clouds"
+ },
+ {
+  "id": "I019",
+  "prompt": "Inside a dark limestone cave in Meghalaya, a tall stalagmite lit by a scientist's headlamp, water dripping"
+ },
+ {
+  "id": "I020",
+  "prompt": "Scientists in a lab looking at a stalagmite cut in half lengthwise, showing many thin growth rings like tree rings"
+ },
+ {
+  "id": "I021",
+  "prompt": "Ancient world in drought: an Egyptian farmer by a low Nile on the left and an ancient Chinese farmer by a dry field on the right, both looking at a cloudless sky"
+ },
+ {
+  "id": "I022",
+  "prompt": "A modern Indian farmer in 2026 with a smartphone in his hand standing in a dry field, looking up at a clear sky with only thin clouds"
+ },
+ {
+  "id": "I023",
+  "prompt": "A broken marble statue of Alexander the Great lying in the dust among ruined Greek columns"
+ },
+ {
+  "id": "I024",
+  "prompt": "Ghostly faded figures of conquerors from different eras of India walking away into the mist: a Greek soldier, a Mauryan king, a Mughal emperor, a Portuguese captain, a British officer"
+ },
+ {
+  "id": "I025",
+  "prompt": "An old abandoned Portuguese colonial church in Goa, India, with vines growing on the white walls"
+ },
+ {
+  "id": "I026",
+  "prompt": "A British Union Jack flag being lowered at sunset over an Indian colonial building, Indian people watching"
+ },
+ {
+  "id": "I027",
+  "prompt": "The Ganges river at Varanasi today with ghats, temples, boats and pilgrims at sunrise"
+ },
+ {
+  "id": "I028",
+  "prompt": "Monsoon rain falling on a busy modern Indian city street with colorful auto rickshaws and umbrellas"
+ },
+ {
+  "id": "I029",
+  "prompt": "A long line of foreign armies from different eras marching into India through a mountain pass: Greek phalanx, Turkish horsemen, Mughal elephants, British redcoats"
+ },
+ {
+  "id": "I030",
+  "prompt": "An Indian farmer calmly plowing his green field with two oxen while ghostly armies march past in the background"
+ },
+ {
+  "id": "I031",
+  "prompt": "A 1940s Bengal market with empty rice baskets and very high price signs, worried people in dhotis and saris"
+ },
+ {
+  "id": "I032",
+  "prompt": "1940s Bengal: rain falling over green rice fields while hungry people wait in a long line in front of a closed rice shop"
+ },
+ {
+  "id": "I033",
+  "prompt": "The wide Indus river flowing between dry brown mountains, seen from high above, a long old bridge crossing it"
+ },
+ {
+  "id": "I034",
+  "prompt": "An Indian official and a Pakistani official in suits standing on opposite banks of a wide mountain river, glaring at each other"
+ },
+ {
+  "id": "I035",
+  "prompt": "A prehistoric healer in a mud-brick village carefully drilling a patient's tooth with a small bow drill, the patient wincing"
+ },
+ {
+  "id": "I036",
+  "prompt": "A 19th century steam train running on a railway track laid over ancient red bricks"
+ },
+ {
+  "id": "I037",
+  "prompt": "A tall polished stone pillar with four lions on top standing in an ancient Indian landscape, carved letters on it"
+ },
+ {
+  "id": "I038",
+  "prompt": "An 18th century battlefield in Bengal under a sudden heavy monsoon downpour, cannons and soldiers in the rain"
+ },
+ {
+  "id": "I039",
+  "prompt": "A huge army of Indian sepoys in red coats marching under a striped East India Company flag, a merchant in a top hat watching with a ledger"
+ },
+ {
+  "id": "I040",
+  "prompt": "An 18th century Indian ox cart driver with a bandage on his nose, looking at his reflection in a hand mirror, amazed"
+ },
+ {
+  "id": "I041",
+  "prompt": "A street magician in old India playing a flute while a rope rises straight into the air and a boy climbs it, a crowd gasping"
+ },
+ {
+  "id": "I042",
+  "prompt": "A 1940s British lawyer in a suit and round glasses drawing a line with a pencil across a big map at a desk, sweating"
+ },
+ {
+  "id": "I043",
+  "prompt": "A still life on a wooden table: a pile of black pepper, a heap of white salt and a huge sparkling diamond"
+ },
+ {
+  "id": "I044",
+  "prompt": "A royal throne in an Indian palace hall with monsoon wind blowing through, curtains flying, a crown rolling off the seat"
+ },
+ {
+  "id": "I045",
+  "prompt": "A swirling tunnel of history going back in time: a Mughal palace, a Buddhist stupa, then a wild prehistoric landscape at the end"
+ },
+ {
+  "id": "I046",
+  "prompt": "A prehistoric riverbank in south India with red earth, scrub trees and a calm river, no people"
+ },
+ {
+  "id": "I047",
+  "prompt": "A big teardrop-shaped prehistoric stone hand axe lying on red earth by a river"
+ },
+ {
+  "id": "I048",
+  "prompt": "Scientists in a modern lab measuring a prehistoric stone hand axe with a machine, screens with graphs"
+ },
+ {
+  "id": "I049",
+  "prompt": "Cosmic rays shown as glowing streaks falling from space onto a prehistoric riverbank and stones"
+ },
+ {
+  "id": "I050",
+  "prompt": "An early human ancestor of the Homo erectus kind, hairy and muscular, knapping a stone hand axe by a river in prehistoric south India"
+ },
+ {
+  "id": "I051",
+  "prompt": "A small group of early modern humans with spears and skins walking into a green Indian valley"
+ },
+ {
+  "id": "I052",
+  "prompt": "An early modern human and a stocky Neanderthal man meeting by a campfire, curious and cautious"
+ },
+ {
+  "id": "I053",
+  "prompt": "A Neanderthal family sitting by a fire at the entrance of a cave, simple and peaceful"
+ },
+ {
+  "id": "I054",
+  "prompt": "Geneticists in a lab in India looking at screens full of DNA sequences, a Neanderthal skull model on the desk"
+ },
+ {
+  "id": "I055",
+  "prompt": "A giant glowing DNA double helix being assembled like a jigsaw puzzle from many small colorful pieces held by modern Indian people"
+ },
+ {
+  "id": "I056",
+  "prompt": "Inside a sandstone rock shelter in central India with red prehistoric paintings of hunters, dancers and animals on the walls"
+ },
+ {
+  "id": "I057",
+  "prompt": "The huge sandstone rock shelters of Bhimbetka in central India surrounded by green forest"
+ },
+ {
+  "id": "I058",
+  "prompt": "Prehistoric people painting red hunting scenes of deer and bison on a rock shelter wall by firelight"
+ },
+ {
+  "id": "I059",
+  "prompt": "Researchers with flashlights pointing excitedly at a leaf-shaped oval mark on the low rock ceiling of a shelter"
+ },
+ {
+  "id": "I060",
+  "prompt": "A second team of scientists on a ladder examining the rock ceiling mark with a magnifying glass, one of them raising an eyebrow"
+ },
+ {
+  "id": "I061",
+  "prompt": "A wild honeybee hive hanging from a rock ceiling, and next to it the oval print left where an old hive fell off"
+ },
+ {
+  "id": "I062",
+  "prompt": "The early farming village of Mehrgarh nine thousand years ago: mud-brick houses, wheat fields, goats, at the foot of dry mountains"
+ },
+ {
+  "id": "I063",
+  "prompt": "Close view of a prehistoric healer's hands working a small bow drill with a flint tip"
+ },
+ {
+  "id": "I064",
+  "prompt": "An archaeologist holding an ancient human jaw and pointing at a tiny perfect drilled hole in a molar"
+ },
+ {
+  "id": "I065",
+  "prompt": "Prehistoric farmers in a field of fluffy white cotton plants, picking the bolls"
+ },
+ {
+  "id": "I066",
+  "prompt": "Illustrated map of South Asia showing the Indus river and its tributaries in the northwest and the Ganges river in the east, the Himalaya mountains at the top, the Arabian Sea, no labels, no text"
+ },
+ {
+  "id": "I067",
+  "prompt": "Bird's-eye view of an ancient Indus city with perfectly straight streets in a grid, brick houses and people walking"
+ },
+ {
+  "id": "I068",
+  "prompt": "The wide ancient Indus river at sunset with reed boats and a brick city on the bank"
+ },
+ {
+  "id": "I069",
+  "prompt": "An abandoned ancient brick city half buried by dust and dry grass, empty streets, no people"
+ },
+ {
+  "id": "I070",
+  "prompt": "1850s British railway engineers in pith helmets with plans and surveying tools in the dry Punjab plain, Indian workers behind"
+ },
+ {
+  "id": "I071",
+  "prompt": "Long line of 19th century Indian workers carrying baskets of ancient bricks to a railway under construction"
+ },
+ {
+  "id": "I072",
+  "prompt": "The excavated ruins of Harappa today, low brick walls and foundations under a blue sky, a few visitors"
+ },
+ {
+  "id": "I073",
+  "prompt": "Small square ancient Indus stone seals with a carved unicorn-like bull and rows of mysterious signs, in a museum case"
+ },
+ {
+  "id": "I074",
+  "prompt": "A modern Indian politician on a stage announcing a prize, a giant symbolic check, a big image of an Indus seal on a screen behind"
+ },
+ {
+  "id": "I075",
+  "prompt": "Ancient Chinese oracle bones with carved signs displayed in a museum, a scholar with a magnifying glass"
+ },
+ {
+  "id": "I076",
+  "prompt": "Imaginary warriors with chariots charging at an ancient brick city drawn like an old storybook illustration, with a big question mark style of faded colors"
+ },
+ {
+  "id": "I077",
+  "prompt": "An ancient Indus city by a shrinking river with cracked mud banks, worried people carrying empty pots"
+ },
+ {
+  "id": "I078",
+  "prompt": "Climate scientists at a computer showing a long timeline chart with four deep dips, pointing at them"
+ },
+ {
+  "id": "I079",
+  "prompt": "A quiet ancient brick city street with closed doors and dust blowing, the last family leaving"
+ },
+ {
+  "id": "I080",
+  "prompt": "Ancient herders with horses and cattle coming down a rocky mountain pass in the northwest of India"
+ },
+ {
+  "id": "I081",
+  "prompt": "Wide grassy steppe near the Volga river with ancient horse herders and wagons"
+ },
+ {
+  "id": "I082",
+  "prompt": "A big illustrated tree with branches spreading out, small figures on different branches: an ancient Indian priest, a Persian, a Greek, a Roman and a Portuguese sailor"
+ },
+ {
+  "id": "I083",
+  "prompt": "Modern Indian professors debating passionately around a table full of books and maps"
+ },
+ {
+  "id": "I084",
+  "prompt": "A huge ancient Mauryan army with war elephants, chariots and archers marching across a plain"
+ },
+ {
+  "id": "I085",
+  "prompt": "The ancient emperor kneeling before Buddhist monks in orange robes, receiving a blessing"
+ },
+ {
+  "id": "I086",
+  "prompt": "An ancient stone pillar with carved letters overgrown by jungle vines, a monkey sitting on it"
+ },
+ {
+  "id": "I087",
+  "prompt": "A 19th century British scholar in a coat at a candle-lit desk covered in copies of ancient inscriptions, a eureka expression"
+ },
+ {
+  "id": "I088",
+  "prompt": "The ancient Indian emperor Ashoka in royal robes standing peacefully in front of a lion pillar and a stupa"
+ },
+ {
+  "id": "I089",
+  "prompt": "Close view of the stone capital with four lions back to back on top of an ancient pillar, against a blue sky"
+ },
+ {
+  "id": "I090",
+  "prompt": "Illustrated map of the Arabian Sea and Red Sea with a dotted ship route curving between the Red Sea coast of Egypt and the west coast of India, small ships, wind arrows, no labels, no text"
+ },
+ {
+  "id": "I091",
+  "prompt": "An ancient Red Sea port with Roman merchants in togas unloading sacks and jars from a ship, desert hills behind"
+ },
+ {
+  "id": "I092",
+  "prompt": "Archaeologists brushing sand off a white marble statue of the Buddha in a desert excavation"
+ },
+ {
+  "id": "I093",
+  "prompt": "Gothic warriors with round shields and helmets camped outside the walls of ancient Rome"
+ },
+ {
+  "id": "I094",
+  "prompt": "Romans in togas carrying huge sacks of black pepper out of the city gate to a Gothic king, who grins"
+ },
+ {
+  "id": "I095",
+  "prompt": "An Arab sailor in a turban on a dhow explaining the seasonal wind to a curious Portuguese sailor"
+ },
+ {
+  "id": "I096",
+  "prompt": "An ancient Indian astronomer in a white dhoti sitting under a pavilion writing on palm leaves, stars and planets drawn around him"
+ },
+ {
+  "id": "I097",
+  "prompt": "An ancient Babylonian scribe pressing marks into a clay tablet, leaving a small gap"
+ },
+ {
+  "id": "I098",
+  "prompt": "The medieval Persian scholar Al-Khwarizmi in a turban writing a book in a library of Baghdad, numbers floating around"
+ },
+ {
+  "id": "I099",
+  "prompt": "Two ancient Indian nobles playing chaturanga, an early chess game, on a cloth board with carved elephants, horses and chariots"
+ },
+ {
+  "id": "I100",
+  "prompt": "The south Indian emperor Rajendra Chola wearing gold jewelry and a tall crown, pointing to the sea from a temple terrace"
+ },
+ {
+  "id": "I101",
+  "prompt": "Illustrated map of the Bay of Bengal from south India to the Malay peninsula and Sumatra, with a fleet of small ships and a dotted arrow crossing the sea, no labels, no text"
+ },
+ {
+  "id": "I102",
+  "prompt": "Merchants on a ship carrying carved statues of Hindu gods across the sea toward a tropical coast"
+ },
+ {
+  "id": "I103",
+  "prompt": "Angkor Wat temple in Cambodia at sunrise, its five lotus towers reflected in a pond"
+ },
+ {
+  "id": "I104",
+  "prompt": "Medieval Arab merchants arriving by dhow at a palm-lined port in Kerala, trading with local Indian merchants"
+ },
+ {
+  "id": "I105",
+  "prompt": "A medieval Turkish general in armor and turban on a throne in Delhi, an old chain lying broken at his feet"
+ },
+ {
+  "id": "I106",
+  "prompt": "Delhi Sultanate soldiers with war elephants blocking a charge of Mongol horse archers on a dusty plain"
+ },
+ {
+  "id": "I107",
+  "prompt": "Vasco da Gama's three Portuguese caravels with red crosses on white sails arriving at the palm-lined coast of Calicut"
+ },
+ {
+  "id": "I108",
+  "prompt": "Portuguese sailors in 1498 clothes meeting a merchant in a turban on a busy Indian market street"
+ },
+ {
+  "id": "I109",
+  "prompt": "Portuguese caravels with red crosses on white sails arriving at a tropical Brazilian beach in 1500, green forest, a sailor looking at a map of India and scratching his head"
+ },
+ {
+  "id": "I110",
+  "prompt": "Babur, the first Mughal emperor, a bearded Central Asian warrior king in a turban and armor, on horseback"
+ },
+ {
+  "id": "I111",
+  "prompt": "The Mughal emperor Shah Jahan with a long beard and his wife Mumtaz Mahal in rich Mughal clothes in a palace garden"
+ },
+ {
+  "id": "I112",
+  "prompt": "The finished white marble Taj Mahal at golden hour reflected in the long garden pool"
+ },
+ {
+  "id": "I113",
+  "prompt": "An old Mughal emperor with a white beard locked in a red sandstone fort room, guards at the door"
+ },
+ {
+  "id": "I114",
+  "prompt": "View from an arched window of a red sandstone fort across a river to the white Taj Mahal far away, an old man's silhouette looking out"
+ },
+ {
+  "id": "I115",
+  "prompt": "A splendid Mughal court with an emperor on a jeweled throne, nobles in silk, gold and jewels everywhere"
+ },
+ {
+  "id": "I116",
+  "prompt": "A huge crowd of poor Mughal-era peasants in simple clothes working in fields, stretching to the horizon"
+ },
+ {
+  "id": "I117",
+  "prompt": "Maratha light cavalry riding through rocky Deccan hills, attacking a slow Mughal army column"
+ },
+ {
+  "id": "I118",
+  "prompt": "The Persian conqueror Nader Shah in armor and a red Persian hat riding into Delhi with his army, carts loaded with treasure"
+ },
+ {
+  "id": "I119",
+  "prompt": "A huge sparkling diamond held up to the light in a man's hand"
+ },
+ {
+  "id": "I120",
+  "prompt": "Aerial view of the Nile as a narrow green ribbon through the desert, an Egyptian village on the bank"
+ },
+ {
+  "id": "I121",
+  "prompt": "Wide view of the Indian subcontinent from high above with huge swirling monsoon clouds pouring onto the green land"
+ },
+ {
+  "id": "I122",
+  "prompt": "Monsoon rain sweeping in from the ocean over the Kerala coast, fishermen pulling boats up the beach"
+ },
+ {
+  "id": "I123",
+  "prompt": "Invading horsemen of different eras riding through the narrow Khyber Pass with steep brown cliffs"
+ },
+ {
+  "id": "I124",
+  "prompt": "An old Indian king on a palace balcony pointing his scepter angrily at a rain cloud that ignores him"
+ },
+ {
+  "id": "I125",
+  "prompt": "A parade of Indian kings of different eras walking one after another and fading into mist"
+ },
+ {
+  "id": "I126",
+  "prompt": "Big 18th century East India Company merchant ships with striped red and white flags anchored off the Indian coast"
+ },
+ {
+  "id": "I127",
+  "prompt": "Robert Clive, an 18th century British officer in a red coat and tricorn hat, standing in front of a small army"
+ },
+ {
+  "id": "I128",
+  "prompt": "A huge 18th century Bengal army with war elephants, cavalry and cannons stretching across a plain, the Nawab on an elephant"
+ },
+ {
+  "id": "I129",
+  "prompt": "A sudden heavy monsoon storm breaking over an 18th century battlefield, dark clouds and sheets of rain"
+ },
+ {
+  "id": "I130",
+  "prompt": "British soldiers in red coats rushing to throw canvas tarpaulins over barrels of gunpowder in the rain"
+ },
+ {
+  "id": "I131",
+  "prompt": "Bengal cavalry charging in the rain toward British lines, surprised by cannon smoke"
+ },
+ {
+  "id": "I132",
+  "prompt": "Robert Clive in a red coat raising his sword in victory after the rain, the sun breaking through"
+ },
+ {
+  "id": "I133",
+  "prompt": "A narrow 18th century London office building only five windows wide on a busy street, merchants entering"
+ },
+ {
+  "id": "I134",
+  "prompt": "A massive army of Indian sepoys in red coats on parade, stretching to the horizon, a few British officers on horses"
+ },
+ {
+  "id": "I135",
+  "prompt": "British soldiers carrying chests of treasure and jewels out of an Indian palace onto carts"
+ },
+ {
+  "id": "I136",
+  "prompt": "Tipu Sultan, ruler of Mysore, in a tiger-striped tunic and turban, standing proudly in front of his army"
+ },
+ {
+  "id": "I137",
+  "prompt": "Mysore soldiers launching iron-tube war rockets with long bamboo sticks, fiery trails toward British lines"
+ },
+ {
+  "id": "I138",
+  "prompt": "British soldiers loading captured iron rockets into crates on a ship"
+ },
+ {
+  "id": "I139",
+  "prompt": "A star-shaped American fort at night in 1814 with red rocket trails across the sky and the American flag flying"
+ },
+ {
+  "id": "I140",
+  "prompt": "An 18th century Indian ox cart driver with a bullock cart full of supplies for the British army, stopped by Mysore soldiers"
+ },
+ {
+  "id": "I141",
+  "prompt": "The same ox cart driver sitting sadly with a big bandage over his nose"
+ },
+ {
+  "id": "I142",
+  "prompt": "An 18th century Indian surgeon carefully working on a patient's face in a simple room near Pune, British officers watching amazed"
+ },
+ {
+  "id": "I143",
+  "prompt": "Gentlemen in a London coffee house in the 1790s reading a magazine with an illustration of an Indian man's face, surprised"
+ },
+ {
+  "id": "I144",
+  "prompt": "A 10-year-old Sikh maharaja in a turban with jewels sitting on a big throne, British officials handing him a document to sign"
+ },
+ {
+  "id": "I145",
+  "prompt": "A royal crown with a huge diamond displayed in a glass case in the Tower of London, tourists looking"
+ },
+ {
+  "id": "I146",
+  "prompt": "A dry south Indian landscape in 1876 with dead crops, a dry well and a family sitting in despair, no rain"
+ },
+ {
+  "id": "I147",
+  "prompt": "The grand 1877 Delhi Durbar: a huge ceremonial camp with tents, elephants in decorations, British officials and Indian princes, a big banner with a crown"
+ },
+ {
+  "id": "I148",
+  "prompt": "The dry sertão of Ceará in Brazil in 1877: cracked earth, cactus, a dead cow, and a family of retirantes walking with bundles under a scorching sun"
+ },
+ {
+  "id": "I149",
+  "prompt": "A gigantic thorny hedge, taller than a man, stretching endlessly across the Indian plain to the horizon"
+ },
+ {
+  "id": "I150",
+  "prompt": "A British official in a pith helmet looking at the endless hedge, and in a thought bubble the Great Wall of China"
+ },
+ {
+  "id": "I151",
+  "prompt": "Allan Octavian Hume, a Victorian British official with a big white beard, standing with a group of Indian men in coats and turbans"
+ },
+ {
+  "id": "I152",
+  "prompt": "A Victorian theater audience in London watching an Indian magician on stage, amazed"
+ },
+ {
+  "id": "I153",
+  "prompt": "An 1890 American newspaper reporter with a mustache typing a story with a sly smile in a busy newsroom"
+ },
+ {
+  "id": "I154",
+  "prompt": "The same reporter, older, sitting at a big desk with an official badge and a small American flag, agents in dark suits behind him"
+ },
+ {
+  "id": "I155",
+  "prompt": "Mahatma Gandhi, a thin bald man in a white dhoti with round glasses and a walking stick, leading a long march of followers along a dusty road"
+ },
+ {
+  "id": "I156",
+  "prompt": "Gandhi on the seashore bending down to pick up a handful of natural salt from the mud, crowds watching"
+ },
+ {
+  "id": "I157",
+  "prompt": "18th century English weavers protesting against colorful Indian cotton cloth, a British official nailing a ban notice"
+ },
+ {
+  "id": "I158",
+  "prompt": "Indian people in white homespun clothes raising a saffron, white and green flag with a spinning wheel in the center"
+ },
+ {
+  "id": "I159",
+  "prompt": "Calcutta street in 1943 with long queues of thin people waiting for food at a relief kitchen, sad faces"
+ },
+ {
+  "id": "I160",
+  "prompt": "Modern Indian scientists at a computer screen showing a long soil moisture chart from 1870 to today"
+ },
+ {
+  "id": "I161",
+  "prompt": "Heavy rain falling over green rice fields in 1940s Bengal, a farmer under a palm-leaf umbrella looking confused"
+ },
+ {
+  "id": "I162",
+  "prompt": "A 1942 cyclone hitting the Bengal coast, flattened rice fields and broken huts"
+ },
+ {
+  "id": "I163",
+  "prompt": "1940s army trucks loaded with rice sacks driving away from a Bengal village while villagers watch"
+ },
+ {
+  "id": "I164",
+  "prompt": "Huge joyful crowds in Delhi in August 1947 waving the Indian tricolor flag with the blue wheel"
+ },
+ {
+  "id": "I165",
+  "prompt": "Cyril Radcliffe, a British lawyer in a grey suit and round glasses, stepping off a plane in India, looking lost in the heat"
+ },
+ {
+  "id": "I166",
+  "prompt": "Cyril Radcliffe alone in a hot office at night with a ceiling fan, drawing a line on a huge map of India, piles of papers"
+ },
+ {
+  "id": "I167",
+  "prompt": "An overcrowded 1947 train with refugees packed inside and sitting on the roof, leaving a station"
+ },
+ {
+  "id": "I168",
+  "prompt": "Illustrated map of the Indian subcontinent in 1947 with India in one color and West and East Pakistan in another color, the Indus river highlighted in blue, no labels, no text"
+ },
+ {
+  "id": "I169",
+  "prompt": "Huge grieving crowds in Delhi in January 1948 around a flower-covered funeral carriage, people crying"
+ },
+ {
+  "id": "I170",
+  "prompt": "An official 1950 Indian government document with a seal showing four lions back to back, held up by a smiling official"
+ },
+ {
+  "id": "I171",
+  "prompt": "A long line of Indian villagers in 1951 waiting to vote outside a village school, women in saris and men in turbans"
+ },
+ {
+  "id": "I172",
+  "prompt": "A row of 1951 ballot boxes each painted with a simple picture symbol: a pair of bullocks, an oil lamp, a tree, a hut, villagers choosing"
+ },
+ {
+  "id": "I173",
+  "prompt": "Indian soldiers in winter coats in the snowy Himalaya mountains in 1962"
+ },
+ {
+  "id": "I174",
+  "prompt": "Crowds in Dhaka in 1971 waving the green flag of Bangladesh with a red circle, celebrating"
+ },
+ {
+  "id": "I175",
+  "prompt": "A desert in Rajasthan in 1974 with a huge dust cloud rising from the ground, scientists watching from far away"
+ },
+ {
+  "id": "I176",
+  "prompt": "Mourning crowds in Delhi in 1984 with flowers around a portrait of a woman prime minister with a white streak in her hair"
+ },
+ {
+  "id": "I177",
+  "prompt": "A chemical factory in Bhopal at night in 1984 with a yellowish gas cloud spreading over a sleeping town"
+ },
+ {
+  "id": "I178",
+  "prompt": "Narendra Modi, an Indian politician with a white beard and glasses, waving to a huge crowd with orange flags"
+ },
+ {
+  "id": "I179",
+  "prompt": "An Indian lunar lander with a small rover standing on the grey surface of the Moon near the south pole, the Earth in the black sky"
+ },
+ {
+  "id": "I180",
+  "prompt": "The green valley of Pahalgam in Kashmir with pine trees and snowy mountains, candles and flowers of mourning in the foreground"
+ },
+ {
+  "id": "I181",
+  "prompt": "Shipping containers piled at an Indian port with a big red 50% stamp on them, worried exporters"
+ },
+ {
+  "id": "I182",
+  "prompt": "A huge busy modern Indian city with metro trains, flyovers, skyscrapers and crowds"
+ },
+ {
+  "id": "I183",
+  "prompt": "Mumbai skyline with modern glass towers by the sea, the Gateway of India in the foreground"
+ },
+ {
+  "id": "I184",
+  "prompt": "An Indian census worker with a tablet at the door of a village house, a family greeting her"
+ },
+ {
+  "id": "I185",
+  "prompt": "A 1931 British census officer with a big ledger interviewing an Indian villager, clerks writing"
+ },
+ {
+  "id": "I186",
+  "prompt": "Indian farmers in 2026 sitting on a dry field edge looking at a clear sky with a few weak clouds"
+ },
+ {
+  "id": "I187",
+  "prompt": "Indian women carrying steel water pots on their heads walking across a dry field to a distant well"
+ },
+ {
+  "id": "I188",
+  "prompt": "A modern Indian vegetable market with price boards and worried shoppers looking at onions and tomatoes"
+ },
+ {
+  "id": "I189",
+  "prompt": "An old treaty document on a table with a red stamp saying on hold, an Indian official putting it in a drawer"
+ },
+ {
+  "id": "I190",
+  "prompt": "The Peace Palace in The Hague, a red brick building with a clock tower"
+ },
+ {
+  "id": "I191",
+  "prompt": "A symbolic image of a river flowing right through the middle of a courtroom, judges looking at it"
+ },
+ {
+  "id": "I192",
+  "prompt": "A gigantic hydropower construction site in a deep gorge on the Tibetan plateau, cranes and tunnels, snowy peaks"
+ },
+ {
+  "id": "I193",
+  "prompt": "Ancient Indian farmers and modern Indian farmers standing side by side looking up at the sky, waiting for rain"
+ },
+ {
+  "id": "I194",
+  "prompt": "Monsoon clouds rolling over endless green Indian fields and villages at golden hour, birds flying"
+ },
+ {
+  "id": "I195",
+  "prompt": "A wooden table with a chess board, a cotton shirt, a shampoo bottle, a big wooden zero and buttons, an Indian grandmother smiling behind it"
+ },
+ {
+  "id": "thumb-base",
+  "qualidade": "high",
+  "prompt": "Wide panoramic landscape of India placed in the left 55% of the frame: the white Taj Mahal, a tall ornate Hindu temple tower, the Ganges river with wooden boats and ghats with pilgrims, palm trees and green fields; the right 45% of the frame is open bright blue sky with a few small white clouds above flat green fields, completely empty to leave room for a title"
+ }
+]

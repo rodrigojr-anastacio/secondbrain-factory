@@ -1,0 +1,24 @@
+Você é o executor do **2º vídeo** do canal História em minutos e também faz o QA. Pasta: ~/workspace/fabrica-youtube/canais/historia-ptbr/videos/002-india. **youtube.videos id = 4**: use `--video 4` em todas as gerações pagas e atualize o status a cada etapa.
+**Meta: pronto HOJE, para o Rodrigo publicar.** Seja eficiente.
+
+## Contexto (leia antes)
+- ~/workspace/fabrica-youtube/AGENTS.md, playbooks/produzir-video.md, ../../canal.yaml e **../../estilo.md** (fórmula de hook, regras de reuso, "Aprendizados do piloto 001": imagens em medium, pausas, tags de tom e thumbnail).
+- **O vídeo 001 (Egito) foi aprovado e publicado.** Use exatamente a mesma pipeline e o mesmo visual: ../001-egito/ETAPA1.md, ETAPA2.md, ETAPA3.md, roteiro.py (aqui em `roteiro-egito-modelo.py`), tools/ (build.py, render.sh, qa.sh) e src/ (Remotion, com Thumbnail.jsx) já estão copiados aqui. Rode `npm install`.
+- **Referência a modelar:** "The ENTIRE History of India in 16 Minutes" (History in Minutes, 606 mil views). Em `ref/p9IIGdg91fE/` estão o hook.txt, os sheets e a thumb. Os outros hooks em ref/*/hook.txt servem de técnica. **A transcrição COMPLETA do vídeo de referência está em `ref/p9IIGdg91fE/transcricao-completa.txt` (16:40, ~3.200 palavras). Ela é a BASE do roteiro (pedido do Rodrigo: modelar o canal, não inventar).**
+
+## Produção
+1. **Roteiro: remodelagem da transcrição de referência para pt-BR** (`roteiro.py` como fonte única, gerando SCRIPT.md, SOURCES.md, blocos.json, cenas.json, STORYBOARD.md e storyboard.json):
+   - Siga a transcrição **na mesma ordem e com os mesmos beats**: o mesmo hook (a Índia vista do espaço em maio x setembro, a monção…), os mesmos capítulos e viradas, os mesmos exemplos, números e curiosidades, e o mesmo fecho (a pergunta sobre invenções indianas).
+   - **Adapte para um português brasileiro natural de narrador**, não uma tradução literal palavra por palavra: reescreva as frases para soarem nativas, converta unidades (°F → °C, milhas → km) e troque referências culturais americanas por equivalentes que o brasileiro entende, sem mudar o fato.
+   - Mantenha a proporção: cada trecho da referência vira um trecho equivalente nosso. Meta de ~2.400–2.600 palavras, o que dá cerca de 17 min no nosso ritmo de narração.
+   - **Confira os fatos.** Se a referência errar ou simplificar demais algo, corrija e anote em SOURCES.md.
+   - Tags de tom e `[break]` como no Egito v2 (marque as ideias novas no conjunto IDEIA).
+   - **Storyboard:** use `ref/p9IIGdg91fE/hook_sheet.jpg` e `video_sheet.jpg` como guia do tipo de cena que eles mostram em cada momento.
+2. **Storyboard:** um plano a cada 2–4 s, sem reuso nos 3 primeiros minutos, até ~40% depois e ~180–200 imagens únicas, mais a `thumb-base` com `"qualidade":"high"` (composição: ilustração à esquerda, por exemplo o Taj Mahal, um templo e o Ganges, e céu livre à direita).
+3. **Imagens:** `~/workspace/fabrica-youtube/tools/.venv/bin/python ~/workspace/fabrica-youtube/tools/img_openai.py historia-ptbr cenas.json imagens --video 4 --qualidade medium`, em background com nohup e log, rodando de novo até completar. **Teto: US$ 12.** Se a API responder falta de saldo (billing/insufficient_quota), PARE as imagens, escreva `BLOQUEIO.md` explicando e espere: o manager vai pedir recarga ao Rodrigo.
+4. **Voz:** `tools/tts_fish.py historia-ptbr blocos.json audio --video 4`.
+5. **Montagem, render e QA** iguais ao Egito v2: build.py com as pausas de 0,35/0,9/1,5 s, **sem legenda na tela**, render com concurrency 2 e o mesmo QA.
+6. **Thumbnail:** `out/thumbnail.jpg` com o mesmo padrão aprovado do Egito: **"ÍNDIA"** em serifa preta grande e **"3300 a.C. – 2026"** embaixo, em sans bold (confirme o ano inicial pelo Vale do Indo e ajuste se o roteiro usar outro).
+7. **Pacote:** `out/video.mp4`, `out/thumbnail.jpg`, `out/legendas.srt` e `out/youtube.txt` (título "A HISTÓRIA COMPLETA da Índia em N minutos", com N = duração real; descrição com hook e CTA; capítulos começando em 0:00; fontes; nota de voz sintética; tags; categoria sugerida: Educação). **Não gere a versão do Telegram.**
+8. **Banco:** `update youtube.videos set status='pronto', titulo=..., duracao_s=... where id=4`. Escreva ETAPA-FINAL.md com o resumo (duração, nº de imagens, custo por fornecedor e pendências).
+Autonomia total; só pare se o custo das imagens for passar de US$ 12 ou se faltar saldo.

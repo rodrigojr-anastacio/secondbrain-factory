@@ -1,0 +1,29 @@
+Você é o executor deste vídeo e também faz o QA (onde o BRIEF diz "Hermes", leia "você"). Pasta: ~/workspace/fabrica-youtube/canais/historia-ptbr/videos/001-egito. A ETAPA 1 está pronta (veja ETAPA1.md, roteiro.py, storyboard.json). Agora faça a ETAPA 2 completa, até o pacote final.
+
+Decisões do manager sobre as pendências da Etapa 1:
+- **+25 imagens liberadas**, para o reuso depois dos 3 min ficar em ~40% (no total, cerca de 205 únicas). Ajuste no roteiro.py e rode `python3 roteiro.py`.
+- **Pausas:** o Rodrigo reprovou fala lenta e com pausas demais. Remova quase todos os `[break]`: mantenha só onde a frase pede respiração forte (no máximo ~15 no vídeo inteiro). Mantenha os `[long-break]` só antes das revelações, e o `[emphasis]`.
+- **[PENDENTE]:** use a frase alternativa sem data, salvo se você confirmar a data numa fonte confiável.
+- Pode apagar a pasta `.tmp/`.
+
+Passos:
+1. **Voz:** `~/workspace/fabrica-youtube/tools/.venv/bin/python ~/workspace/fabrica-youtube/tools/tts_fish.py historia-ptbr blocos.json audio --video 3`. Meça a duração de cada bloco (ffprobe) e reescale os planos de cada bloco pela duração real.
+2. **Imagens:** `.../tools/img_openai.py historia-ptbr cenas.json imagens --video 3` (qualidade `low`; a `thumb-base` vem com `"qualidade":"medium"` no próprio cenas.json). **Teto: US$ 10 em imagens** (confira com `psql -d vida -c "select round(sum(custo),2) from financas.consumo where ref_id=3 and fornecedor='OpenAI'"`). Se uma imagem sair ruim (texto escrito nela, rosto deformado, anacronismo gritante), gere de novo só aquela.
+3. **Remotion:** monte um projeto novo nesta pasta (pode copiar o package.json e a configuração base de ~/workspace/fabrica-youtube/canais/lotr-fr/videos/001-maiores-cidades, sem node_modules, e rodar `npm install`). Composição 1920x1080 a 30 fps, seguindo o storyboard.json com os tempos reescalados:
+   - cada plano com Ken Burns ou pan leve no enquadramento indicado;
+   - cortes secos ou crossfade curto (até 6 frames);
+   - cartões de data e rótulos de mapa feitos no código, em fonte serifada;
+   - **SEM legenda na tela, em hipótese alguma**;
+   - trilha leve de fundo com ducking sob a voz, só se for royalty-free com licença clara (ex.: a do YouTube Audio Library, se baixável) ou gerada no código; se não houver uma fonte segura, deixe sem trilha.
+4. **Thumbnail:** `out/thumbnail.jpg` 1280x720, com menos de 2 MB, a partir de `imagens/thumb-base.jpg`. Fórmula da referência: ilustração à esquerda e lado direito com céu limpo, "EGITO" em serifa preta grande e "5000 a.C. – 2026" embaixo, em sans bold. Compare com ref/VQPzrVMHWlg/thumb.jpg.
+5. **Render:** `out/video.mp4` (1080p30, H.264, AAC) e `out/video-telegram.mp4` (720p, até 45 MB). A VPS tem 2 vCPU: use concurrency 2 e rode em background, acompanhando o progresso.
+6. **QA (QA.md):**
+   - duração final, que define o N do título;
+   - contact sheet de ~20 frames (`out/contact-sheet.jpg`);
+   - ritmo: ffmpeg com scene detect no 1º minuto, mirando ~14–20 cortes por minuto;
+   - imagens batendo com a narração em 6 pontos;
+   - nenhuma legenda, nenhuma tela preta e voz limpa.
+   - Corrija o que falhar (no máximo 2 rodadas).
+7. **Pacote:** `out/legendas.srt` (separado, gerado dos tempos dos blocos) e `out/youtube.txt` (título com o N real; descrição com hook e CTA de comentário; capítulos em ordem crescente começando em 0:00, com os tempos reais; fontes resumidas; nota "narração com voz sintética"; tags).
+8. **Banco:** `update youtube.videos set status='pronto', titulo='<título final>', duracao_s=<s> where id=3`. Escreva ETAPA2.md com o resumo: duração, nº de imagens únicas, custo por fornecedor (de financas.consumo, ref_id=3) e as pendências.
+Trabalhe com autonomia e não pare por detalhes; só pare se o custo de imagens for passar de US$ 10.

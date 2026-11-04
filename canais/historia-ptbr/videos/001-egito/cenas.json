@@ -1,0 +1,823 @@
+[
+ {
+  "id": "I001",
+  "prompt": "Satellite view of Egypt at night from space: a thin glowing line of lights following the Nile valley across a vast black desert, fanning out into the delta at the top"
+ },
+ {
+  "id": "I002",
+  "prompt": "Aerial view of the Nile river as a narrow bright green strip of farmland squeezed between two endless yellow deserts, a sharp edge where green meets sand"
+ },
+ {
+  "id": "I003",
+  "prompt": "Low aerial view along the Nile with villages, fields and towns packed tightly on both banks, empty desert cliffs right behind them"
+ },
+ {
+  "id": "I004",
+  "prompt": "Endless empty Sahara desert dunes under a harsh sun, one tiny lonely figure in the distance, heat shimmer"
+ },
+ {
+  "id": "I005",
+  "prompt": "A farmer standing exactly on the line where a green crop field ends and bare desert sand begins, one foot on each side"
+ },
+ {
+  "id": "I006",
+  "prompt": "Dense crowd of modern Egyptian people packed along a narrow riverbank strip with palm trees, the Nile on one side and desert on the other"
+ },
+ {
+  "id": "I007",
+  "prompt": "Queen Cleopatra in royal Egyptian dress at a palace window, looking at a very old weathered pyramid far on the horizon"
+ },
+ {
+  "id": "I008",
+  "prompt": "A long horizontal rope stretched across the desert like a timeline: a tiny pyramid at the far left end, a queen in Egyptian crown standing near the right end, a smartphone on a small pedestal at the very right end"
+ },
+ {
+  "id": "I009",
+  "prompt": "Cleopatra in royal Egyptian dress looking puzzled at a modern smartphone in her hand"
+ },
+ {
+  "id": "I010",
+  "prompt": "Crumbling abandoned mud-brick ziggurat of Ur in the empty Mesopotamian desert"
+ },
+ {
+  "id": "I011",
+  "prompt": "Ruined stone Lion Gate of Hattusa on a barren Anatolian hill, abandoned"
+ },
+ {
+  "id": "I012",
+  "prompt": "Felucca sailboats on the Nile at sunset with palm trees and the Giza pyramids far on the horizon"
+ },
+ {
+  "id": "I013",
+  "prompt": "A long line of foreign soldiers from different eras marching toward the pyramids: Persian, Greek hoplite, Roman legionary, Arab horseman, Ottoman janissary, British redcoat"
+ },
+ {
+  "id": "I014",
+  "prompt": "An ancient Egyptian farmer calmly plowing his field by the Nile with an ox while foreign armies march past in the background"
+ },
+ {
+  "id": "I015",
+  "prompt": "A long winding road of history along the Nile seen from above: prehistoric huts, then pyramids, temples, mosques with minarets and finally modern skyscrapers"
+ },
+ {
+  "id": "I016",
+  "prompt": "An ancient pharaoh wearing the double crown standing on a riverbank, anxiously watching the low level of the Nile water"
+ },
+ {
+  "id": "I017",
+  "prompt": "A modern Egyptian official in a suit standing on the same riverbank in the same pose, anxiously watching the low Nile water"
+ },
+ {
+  "id": "I018",
+  "prompt": "A prehistoric Egyptian family in simple clothes standing at the edge of the desert above the Nile valley, five thousand years ago"
+ },
+ {
+  "id": "I019",
+  "prompt": "Prehistoric family laying a man's body curled in a fetal position into a shallow pit in hot desert sand, clay pots around, sad faces"
+ },
+ {
+  "id": "I020",
+  "prompt": "A naturally dried prehistoric body lying curled in the sand of a grave, seen from above, no bandages"
+ },
+ {
+  "id": "I021",
+  "prompt": "Blazing sun over a desert grave, heat waves drying the sand, a curled shape under the sand surface"
+ },
+ {
+  "id": "I022",
+  "prompt": "Museum visitors looking at an ancient curled-up natural mummy inside a glass display case in a London museum gallery"
+ },
+ {
+  "id": "I023",
+  "prompt": "Scientists in lab coats scanning the arm of an ancient mummy with an infrared camera, a monitor glowing"
+ },
+ {
+  "id": "I024",
+  "prompt": "A scientist gasping in surprise at a monitor that shows dark animal-shaped marks on an ancient arm"
+ },
+ {
+  "id": "I025",
+  "prompt": "Close-up of faint dark ancient tattoos on a mummified upper arm showing a wild bull and a barbary sheep with curved horns"
+ },
+ {
+  "id": "I026",
+  "prompt": "Prehistoric reed huts on the bank of the Nile with people fishing among papyrus"
+ },
+ {
+  "id": "I027",
+  "prompt": "A prehistoric man standing on a sand dune looking back at the empty desert behind him"
+ },
+ {
+  "id": "I028",
+  "prompt": "Prehistoric rock paintings of cattle, giraffes and swimming people on a cave wall in the middle of the Sahara desert"
+ },
+ {
+  "id": "I029",
+  "prompt": "Green Sahara savanna ten thousand years ago with blue lakes, giraffes, hippos and hunters with spears"
+ },
+ {
+  "id": "I030",
+  "prompt": "Hippos in a blue lake surrounded by tall grass where the Sahara is today, a prehistoric hunter hiding in the reeds"
+ },
+ {
+  "id": "I031",
+  "prompt": "Dry cracked lakebed with dying acacia trees and animal bones, prehistoric hunters looking worried at the cloudless sky"
+ },
+ {
+  "id": "I032",
+  "prompt": "A long column of prehistoric families with cattle and baskets walking across the desert toward a distant green river valley"
+ },
+ {
+  "id": "I033",
+  "prompt": "Prehistoric people arriving at a cliff edge overlooking the lush green Nile valley, amazed"
+ },
+ {
+  "id": "I034",
+  "prompt": "The Nile overflowing its banks in summer, brown water spreading over the fields, villages on small mounds like islands"
+ },
+ {
+  "id": "I035",
+  "prompt": "Ancient Egyptian villagers on a flat rooftop happily watching the flood water cover their fields"
+ },
+ {
+  "id": "I036",
+  "prompt": "Brown flood water slowly withdrawing from the fields, leaving shiny black mud and white egrets"
+ },
+ {
+  "id": "I037",
+  "prompt": "Ancient Egyptian farmers walking barefoot on rich black mud after the flood recedes, scattering seeds by hand"
+ },
+ {
+  "id": "I038",
+  "prompt": "Ancient Egyptian farmers harvesting tall golden wheat with sickles, the Nile behind them"
+ },
+ {
+  "id": "I039",
+  "prompt": "An ancient Egyptian man kneeling and lifting a handful of black fertile soil, green crops all around"
+ },
+ {
+  "id": "I040",
+  "prompt": "Aerial view of the sharp border between black fertile Nile soil with green crops and the red desert"
+ },
+ {
+  "id": "I041",
+  "prompt": "Red-orange desert cliffs and dunes right next to a green field, an ancient Egyptian man pointing at the red desert"
+ },
+ {
+  "id": "I042",
+  "prompt": "Bird's-eye view of the green Nile valley protected by vast deserts on both sides, tiny raiders lost and exhausted among the dunes"
+ },
+ {
+  "id": "I043",
+  "prompt": "Early Egyptian mud-brick village with granaries, pottery kilns and people working, the Nile behind"
+ },
+ {
+  "id": "I044",
+  "prompt": "Villagers storing grain in round mud granaries in an early Egyptian village"
+ },
+ {
+  "id": "I045",
+  "prompt": "Two prehistoric Egyptian chieftains holding stone maces, glaring at each other across a river"
+ },
+ {
+  "id": "I046",
+  "prompt": "Illustrated map of Egypt along the Nile from the delta to the first cataract, the narrow southern valley tinted in one color and the wide northern delta tinted in another, no labels"
+ },
+ {
+  "id": "I047",
+  "prompt": "The Nile delta marshes with papyrus thickets, birds and small reed boats"
+ },
+ {
+  "id": "I048",
+  "prompt": "The narrow southern Nile valley between tall limestone cliffs, small villages along the water"
+ },
+ {
+  "id": "I049",
+  "prompt": "Illustrated view of the Nile seen from above flowing upward on the page toward the sea, boats drifting with the current, big curved arrows showing the flow"
+ },
+ {
+  "id": "I050",
+  "prompt": "Illustrated map of the Nile drawn with south at the top: the narrow valley above and the delta fan below, a compass rose, no labels"
+ },
+ {
+  "id": "I051",
+  "prompt": "Ancient Egyptian sailboat with a big square sail traveling south against the current, pushed by the north wind"
+ },
+ {
+  "id": "I052",
+  "prompt": "An ancient southern Egyptian king wearing the tall white bowling-pin shaped crown, standing in the narrow valley"
+ },
+ {
+  "id": "I053",
+  "prompt": "An ancient northern Egyptian king wearing the flat red crown with a curled wire spiral, standing in the delta marshes"
+ },
+ {
+  "id": "I054",
+  "prompt": "A southern king in a tall white crown and a northern king in a flat red crown facing each other across the river"
+ },
+ {
+  "id": "I055",
+  "prompt": "King Narmer wearing the tall white crown, leading an army of spearmen northward along the Nile"
+ },
+ {
+  "id": "I056",
+  "prompt": "King Narmer standing victorious over defeated northern warriors in the delta"
+ },
+ {
+  "id": "I057",
+  "prompt": "The Narmer Palette, a carved grey stone shield-shaped slab with reliefs, displayed alone in a museum case"
+ },
+ {
+  "id": "I058",
+  "prompt": "Ancient stone relief of an Egyptian king in the tall white crown holding an enemy by the hair and raising a mace"
+ },
+ {
+  "id": "I059",
+  "prompt": "Ancient stone relief of King Narmer wearing the flat red crown, walking in a procession behind standard bearers"
+ },
+ {
+  "id": "I060",
+  "prompt": "Grand ceremony with people from the delta and the valley bowing together before a pharaoh on a throne by the Nile"
+ },
+ {
+  "id": "I061",
+  "prompt": "Egyptian priests placing the combined red and white double crown on the head of a pharaoh"
+ },
+ {
+  "id": "I062",
+  "prompt": "Tiny carved bone labels with early picture signs lying on the floor of an excavated mud-brick tomb at Abydos"
+ },
+ {
+  "id": "I063",
+  "prompt": "An early Egyptian scribe sitting cross-legged painting hieroglyphs on a papyrus scroll"
+ },
+ {
+  "id": "I064",
+  "prompt": "Egyptian workers cutting huge limestone blocks in a quarry with copper chisels and wooden mallets"
+ },
+ {
+  "id": "I065",
+  "prompt": "An Egyptian pharaoh looking up at a mountain and imagining a gigantic pyramid in its place, thought bubble with a pyramid"
+ },
+ {
+  "id": "I066",
+  "prompt": "The Egyptian architect Imhotep showing a plan drawn on papyrus to pharaoh Djoser"
+ },
+ {
+  "id": "I067",
+  "prompt": "Six rectangular stone tomb platforms stacked one on top of another, getting smaller, forming a step pyramid under construction"
+ },
+ {
+  "id": "I068",
+  "prompt": "The finished Step Pyramid of Djoser at Saqqara, gleaming white, inside a long walled courtyard"
+ },
+ {
+  "id": "I069",
+  "prompt": "A seated statue of Imhotep holding a papyrus scroll, with people bringing offerings to it"
+ },
+ {
+  "id": "I070",
+  "prompt": "Pharaoh Sneferu looking at the Bent Pyramid of Dahshur, its slope angle visibly changing halfway up, workers scratching their heads"
+ },
+ {
+  "id": "I071",
+  "prompt": "Ancient Egyptian engineers on wooden scaffolding arguing and pointing at a huge pyramid whose slope suddenly changes to a gentler angle halfway up"
+ },
+ {
+  "id": "I072",
+  "prompt": "The Great Pyramid of Giza under construction with ramps and thousands of workers hauling limestone blocks on wooden sledges"
+ },
+ {
+  "id": "I073",
+  "prompt": "The finished Great Pyramid of Giza covered in smooth polished white limestone casing, gleaming in the sun"
+ },
+ {
+  "id": "I074",
+  "prompt": "The Great Pyramid towering over a much smaller medieval cathedral and a castle placed beside it for comparison"
+ },
+ {
+  "id": "I075",
+  "prompt": "Ancient Egyptian workers' village next to the Giza pyramids with bakeries, bread ovens, beer jars and cattle pens"
+ },
+ {
+  "id": "I076",
+  "prompt": "An ancient Egyptian healer setting a worker's broken arm with a wooden splint"
+ },
+ {
+  "id": "I077",
+  "prompt": "A cheerful team of Egyptian pyramid workers toasting with clay beer jars after a day of work"
+ },
+ {
+  "id": "I078",
+  "prompt": "Archaeologists carefully unrolling ancient papyrus fragments found in a cave at an ancient Red Sea harbor"
+ },
+ {
+  "id": "I079",
+  "prompt": "Archaeologists in a desert cave near the Red Sea carefully unrolling a fragile ancient papyrus scroll covered in faint ink marks"
+ },
+ {
+  "id": "I080",
+  "prompt": "A wooden Nile boat loaded with white limestone blocks sailing toward the Giza plateau, crew rowing"
+ },
+ {
+  "id": "I081",
+  "prompt": "Workers carving the Great Sphinx out of the bedrock, the pyramid of Khafre behind it"
+ },
+ {
+  "id": "I082",
+  "prompt": "Panoramic view of the three pyramids of Giza and the Great Sphinx in front, green fields and the Nile in the foreground"
+ },
+ {
+  "id": "I083",
+  "prompt": "Wealthy Egyptian nobles and priests counting gold and grain in a big storeroom while a pharaoh watches them, worried"
+ },
+ {
+  "id": "I084",
+  "prompt": "Wide ancient landscape of cracked dry fields and withered crops, ancient Egyptian farmers staring at an empty cloudless sky"
+ },
+ {
+  "id": "I085",
+  "prompt": "The Nile very low with cracked dry mud banks, dead crops and stranded boats"
+ },
+ {
+  "id": "I086",
+  "prompt": "Hungry Egyptian villagers waiting in line at an almost empty granary while looters run off with sacks in the background"
+ },
+ {
+  "id": "I087",
+  "prompt": "An empty abandoned pharaoh's throne in a dusty dark hall with sand blowing in"
+ },
+ {
+  "id": "I088",
+  "prompt": "Pharaoh Mentuhotep II marching on foot at the head of Theban soldiers with shields and spears, holding a mace"
+ },
+ {
+  "id": "I089",
+  "prompt": "Ancient Theban soldiers with shields and spears marching north along the Nile behind a king in a war chariot"
+ },
+ {
+  "id": "I090",
+  "prompt": "Egyptian workers digging a big irrigation canal in the Faiyum oasis"
+ },
+ {
+  "id": "I091",
+  "prompt": "Stone statue of pharaoh Senusret III with a tired careworn face, heavy eyelids and big ears"
+ },
+ {
+  "id": "I092",
+  "prompt": "Foreign Hyksos warriors from the east charging on horse-drawn war chariots in the Nile delta, Egyptian foot soldiers shocked"
+ },
+ {
+  "id": "I093",
+  "prompt": "Astonished ancient Egyptian soldiers seeing a horse for the first time, one of them hiding behind his shield"
+ },
+ {
+  "id": "I094",
+  "prompt": "Egyptian prince Ahmose driving his own war chariot with a composite bow, leading Egyptian chariots"
+ },
+ {
+  "id": "I095",
+  "prompt": "Hyksos fleeing a fortified delta city as the Egyptian army storms the walls"
+ },
+ {
+  "id": "I096",
+  "prompt": "A massive New Kingdom Egyptian army with chariots and archers marching out of a city gate"
+ },
+ {
+  "id": "I097",
+  "prompt": "Illustrated map of the eastern Mediterranean and the Nile showing the Egyptian empire at its height shaded from Nubia in the south to Syria in the north, no labels"
+ },
+ {
+  "id": "I098",
+  "prompt": "Queen Hatshepsut as pharaoh on a throne wearing the striped royal headdress and the false royal beard"
+ },
+ {
+  "id": "I099",
+  "prompt": "Ancient Egyptian sculptors carving a statue of a female pharaoh wearing the royal false beard while the queen inspects it proudly"
+ },
+ {
+  "id": "I100",
+  "prompt": "Egyptian ships returning from the land of Punt loaded with live incense trees in baskets, baboons and exotic goods"
+ },
+ {
+  "id": "I101",
+  "prompt": "The terraced temple of Hatshepsut at Deir el-Bahari against tall cliffs, small incense trees planted in front"
+ },
+ {
+  "id": "I102",
+  "prompt": "Pharaoh Thutmose III leading a chariot charge at the battle of Megiddo"
+ },
+ {
+  "id": "I103",
+  "prompt": "Pharaoh Akhenaten with an elongated face and long chin raising his hands toward the sun disk whose rays end in little hands"
+ },
+ {
+  "id": "I104",
+  "prompt": "Egyptian workers chiseling names of the old gods off temple walls while priests protest"
+ },
+ {
+  "id": "I105",
+  "prompt": "The new city of Amarna built quickly in the desert with open-air sun temples"
+ },
+ {
+  "id": "I106",
+  "prompt": "Ancient Egyptian workers chiseling a pharaoh's carved name and sun disc off a temple wall, stone chips flying"
+ },
+ {
+  "id": "I107",
+  "prompt": "Young boy pharaoh Tutankhamun on a golden throne with his young wife"
+ },
+ {
+  "id": "I108",
+  "prompt": "A small tomb entrance hidden under sand and stone debris in the Valley of the Kings, tomb robbers walking past without noticing"
+ },
+ {
+  "id": "I109",
+  "prompt": "Desert sand and workmen's stone huts covering the hidden entrance of a small royal tomb in the Valley of the Kings, forgotten"
+ },
+ {
+  "id": "I110",
+  "prompt": "Archaeologist Howard Carter peering with a candle through a hole into a tomb room filled with golden treasures"
+ },
+ {
+  "id": "I111",
+  "prompt": "The golden funerary mask of Tutankhamun glowing in the dark"
+ },
+ {
+  "id": "I112",
+  "prompt": "Pharaoh Ramesses II on a throne surrounded by dozens of his children of all ages"
+ },
+ {
+  "id": "I113",
+  "prompt": "The colossal rock temple of Abu Simbel with four giant seated statues of Ramesses II facing the Nile"
+ },
+ {
+  "id": "I114",
+  "prompt": "Battle of Kadesh: thousands of Egyptian and Hittite chariots clashing near a river and a fortress"
+ },
+ {
+  "id": "I115",
+  "prompt": "Two exhausted armies, Egyptian and Hittite, facing each other across a river after a battle, broken chariots between them"
+ },
+ {
+  "id": "I116",
+  "prompt": "Egyptian and Hittite envoys exchanging a silver tablet treaty in a palace hall"
+ },
+ {
+  "id": "I117",
+  "prompt": "A replica of an ancient clay tablet displayed on a wall in a modern United Nations building hallway"
+ },
+ {
+  "id": "I118",
+  "prompt": "Ships of the Sea Peoples with bird-head prows battling Egyptian ships near the Nile delta, coastal cities burning behind"
+ },
+ {
+  "id": "I119",
+  "prompt": "Ancient Egyptian tomb workers sitting down with arms crossed in protest outside a temple, refusing to work"
+ },
+ {
+  "id": "I120",
+  "prompt": "Ancient Egyptian tomb workers sitting with arms crossed outside a temple wall, empty grain baskets in front of them, an official looking upset"
+ },
+ {
+  "id": "I121",
+  "prompt": "Foreign kings and generals from distant lands looking hungrily over a map of Egypt in a dark tent"
+ },
+ {
+  "id": "I122",
+  "prompt": "A pharaoh of Libyan origin with a feather in his hair sitting on an Egyptian throne"
+ },
+ {
+  "id": "I123",
+  "prompt": "Kushite Nubian king Piye wearing a crown with two cobras, leading an army from the south into Egypt"
+ },
+ {
+  "id": "I124",
+  "prompt": "Many small steep pyramids of Meroe in Sudan standing in the desert"
+ },
+ {
+  "id": "I125",
+  "prompt": "Assyrian soldiers in pointed helmets sacking the temples of Thebes, smoke rising"
+ },
+ {
+  "id": "I126",
+  "prompt": "The Persian army of king Cambyses marching into Egypt with spears and banners"
+ },
+ {
+  "id": "I127",
+  "prompt": "Persian soldiers holding cats in front of their shields while Egyptian soldiers hesitate"
+ },
+ {
+  "id": "I128",
+  "prompt": "Ancient Egyptian soldiers lowering their bows in hesitation, staring at cats walking in front of the enemy army"
+ },
+ {
+  "id": "I129",
+  "prompt": "Young Alexander the Great on horseback entering Egypt, Egyptians welcoming him with flowers"
+ },
+ {
+  "id": "I130",
+  "prompt": "Alexander the Great at the desert oasis temple of Siwa receiving the oracle from a priest"
+ },
+ {
+  "id": "I131",
+  "prompt": "Alexander marking the plan of a new city on the ground with grain, on the Mediterranean coast"
+ },
+ {
+  "id": "I132",
+  "prompt": "Greek general Ptolemy being crowned as an Egyptian pharaoh, wearing a mix of Greek and Egyptian clothes"
+ },
+ {
+  "id": "I133",
+  "prompt": "The Lighthouse of Alexandria towering over a harbor full of ships"
+ },
+ {
+  "id": "I134",
+  "prompt": "Scholars reading scrolls in the vast Library of Alexandria with shelves full of papyrus rolls"
+ },
+ {
+  "id": "I135",
+  "prompt": "Young Cleopatra studying Egyptian hieroglyphs with an Egyptian priest as tutor"
+ },
+ {
+  "id": "I136",
+  "prompt": "Cleopatra meeting Julius Caesar in her palace"
+ },
+ {
+  "id": "I137",
+  "prompt": "Cleopatra and Mark Antony together on a golden ship"
+ },
+ {
+  "id": "I138",
+  "prompt": "Roman general Octavian entering Alexandria with legionaries"
+ },
+ {
+  "id": "I139",
+  "prompt": "Cleopatra lying still on a couch in her tomb, a small snake near a basket, servants mourning"
+ },
+ {
+  "id": "I140",
+  "prompt": "A Roman senator stopped at a harbor gate by soldiers, not allowed to land"
+ },
+ {
+  "id": "I141",
+  "prompt": "Roman grain ships loaded with sacks of Egyptian wheat sailing from Alexandria toward Rome"
+ },
+ {
+  "id": "I142",
+  "prompt": "A Christian hermit monk living alone in a desert cave in Egypt"
+ },
+ {
+  "id": "I143",
+  "prompt": "The temple of Philae on an island in the Nile"
+ },
+ {
+  "id": "I144",
+  "prompt": "A lone priest carving a hieroglyphic inscription on a temple wall by lamplight"
+ },
+ {
+  "id": "I145",
+  "prompt": "Travelers from later centuries staring confused at walls covered in hieroglyphs, scratching their heads"
+ },
+ {
+  "id": "I146",
+  "prompt": "Arab Muslim army on horses and camels led by general Amr ibn al-As crossing the Sinai desert"
+ },
+ {
+  "id": "I147",
+  "prompt": "The new city of Fustat with its first mosque near the Nile, tents and mud-brick buildings"
+ },
+ {
+  "id": "I148",
+  "prompt": "A Coptic priest in ornate robes reading from a book during a candlelit mass"
+ },
+ {
+  "id": "I149",
+  "prompt": "Fatimid builders constructing the walls and gates of the new city of Cairo"
+ },
+ {
+  "id": "I150",
+  "prompt": "Medieval Fatimid Cairo: a massive new stone city gate with crowds entering and minarets under construction, green banners"
+ },
+ {
+  "id": "I151",
+  "prompt": "The courtyard of the Al-Azhar mosque in Cairo with students sitting in circles around teachers"
+ },
+ {
+  "id": "I152",
+  "prompt": "Young boys being trained as mamluk soldiers in archery and horse riding in a courtyard"
+ },
+ {
+  "id": "I153",
+  "prompt": "Mamluk soldiers bursting into a sultan's tent with swords drawn"
+ },
+ {
+  "id": "I154",
+  "prompt": "Mamluk cavalry charging Mongol horse archers in a valley at the battle of Ain Jalut"
+ },
+ {
+  "id": "I155",
+  "prompt": "Mamluk horsemen in armor chasing Mongol horse archers who flee across an open dusty plain"
+ },
+ {
+  "id": "I156",
+  "prompt": "Bustling medieval Cairo with minarets, markets and camel caravans"
+ },
+ {
+  "id": "I157",
+  "prompt": "Empty plague-stricken streets of medieval Cairo with mourners"
+ },
+ {
+  "id": "I158",
+  "prompt": "The Ottoman Turkish army with cannons and janissaries entering Cairo"
+ },
+ {
+  "id": "I159",
+  "prompt": "The great medieval gate of Bab Zuwayla in Cairo with a silent crowd gathered in front"
+ },
+ {
+  "id": "I160",
+  "prompt": "An Ottoman governor in Cairo receiving tax payments while the Nile flows calmly behind"
+ },
+ {
+  "id": "I161",
+  "prompt": "A French fleet of sailing warships arriving at Alexandria"
+ },
+ {
+  "id": "I162",
+  "prompt": "French infantry squares fighting charging Mamluk cavalry with the pyramids in the background"
+ },
+ {
+  "id": "I163",
+  "prompt": "French scientists and artists measuring and sketching the Great Sphinx"
+ },
+ {
+  "id": "I164",
+  "prompt": "French soldiers discovering a dark inscribed stone slab while rebuilding an old fort wall"
+ },
+ {
+  "id": "I165",
+  "prompt": "The Rosetta Stone, a dark granite slab with three bands of ancient inscriptions"
+ },
+ {
+  "id": "I166",
+  "prompt": "Jean-Francois Champollion at his desk surrounded by papers, jumping up in excitement"
+ },
+ {
+  "id": "I167",
+  "prompt": "A young French scholar in 1820s clothes jumping up from a desk covered in papers and hieroglyph drawings, shouting with joy"
+ },
+ {
+  "id": "I168",
+  "prompt": "Muhammad Ali Pasha in Ottoman dress with a turban and white beard, looking determined"
+ },
+ {
+  "id": "I169",
+  "prompt": "Mamluk chiefs in rich robes and turbans riding through the gate of the Cairo Citadel to a celebration, unaware, soldiers watching from the walls"
+ },
+ {
+  "id": "I170",
+  "prompt": "Mamluk horsemen trapped in a narrow passage of the Cairo Citadel as the gates close behind them"
+ },
+ {
+  "id": "I171",
+  "prompt": "A 19th-century Egyptian cotton mill with workers and machines"
+ },
+ {
+  "id": "I172",
+  "prompt": "Illustrated map of Egypt showing the narrow strip of land between the Mediterranean and the Red Sea, no labels"
+ },
+ {
+  "id": "I173",
+  "prompt": "Thousands of Egyptian laborers digging the Suez Canal with shovels and baskets"
+ },
+ {
+  "id": "I174",
+  "prompt": "The grand opening ceremony of the Suez Canal with ships, flags and fireworks"
+ },
+ {
+  "id": "I175",
+  "prompt": "Khedive Ismail in a lavish palace surrounded by piles of bills and worried bankers"
+ },
+ {
+  "id": "I176",
+  "prompt": "An Egyptian ruler in a red fez at a desk buried under piles of debt papers, European bankers in top hats looming over him"
+ },
+ {
+  "id": "I177",
+  "prompt": "British warships bombarding Alexandria and redcoat troops landing on the beach"
+ },
+ {
+  "id": "I178",
+  "prompt": "British officers in pith helmets riding through Cairo streets while Egyptians watch"
+ },
+ {
+  "id": "I179",
+  "prompt": "Egyptian crowds protesting in the streets of Cairo with flags, men and women together"
+ },
+ {
+  "id": "I180",
+  "prompt": "Crowds of Egyptians in 1920s clothes and fezzes celebrating in a Cairo street waving green flags with a white crescent and three white stars (the 1920s Kingdom of Egypt flag, NOT the modern red-white-black flag), British officers still standing guard in the background"
+ },
+ {
+  "id": "I181",
+  "prompt": "Gamal Abdel Nasser giving a speech to a huge cheering crowd, young army officers in 1950s uniforms standing behind him"
+ },
+ {
+  "id": "I182",
+  "prompt": "Gamal Abdel Nasser in a suit waving to a huge cheering crowd from a balcony in 1950s Cairo, the crowd waving green flags with a white crescent and three white stars (the 1950s Egyptian flag, NOT the modern red-white-black flag)"
+ },
+ {
+  "id": "I183",
+  "prompt": "Egyptian flags raised over the Suez Canal offices with celebrating workers"
+ },
+ {
+  "id": "I184",
+  "prompt": "Warships and paratroopers over the Suez Canal zone"
+ },
+ {
+  "id": "I185",
+  "prompt": "The completed Aswan High Dam with the huge reservoir lake behind it"
+ },
+ {
+  "id": "I186",
+  "prompt": "Thousands of workers and heavy machinery building a huge rock dam across the Nile in the 1960s"
+ },
+ {
+  "id": "I187",
+  "prompt": "A huge blue lake flooding a desert valley, the tops of ancient ruins disappearing under the rising water"
+ },
+ {
+  "id": "I188",
+  "prompt": "Engineers cutting the colossal Abu Simbel statues into huge blocks and lifting them with cranes"
+ },
+ {
+  "id": "I189",
+  "prompt": "Egyptian soldiers crossing the Suez Canal in small boats"
+ },
+ {
+  "id": "I190",
+  "prompt": "Anwar Sadat shaking hands at a peace signing ceremony"
+ },
+ {
+  "id": "I191",
+  "prompt": "Hosni Mubarak in a suit at a podium"
+ },
+ {
+  "id": "I192",
+  "prompt": "A huge crowd filling Tahrir Square in Cairo with Egyptian flags"
+ },
+ {
+  "id": "I193",
+  "prompt": "Long queue of Egyptian voters outside a polling station in Cairo, people showing ink-stained fingers"
+ },
+ {
+  "id": "I194",
+  "prompt": "An Egyptian president in a suit at a podium with Egyptian flags behind him"
+ },
+ {
+  "id": "I195",
+  "prompt": "Modern skyscrapers of Egypt's new administrative capital rising in the desert"
+ },
+ {
+  "id": "I196",
+  "prompt": "The huge modern Grand Egyptian Museum building near the Giza pyramids with crowds of visitors"
+ },
+ {
+  "id": "I197",
+  "prompt": "Modern Egyptian army tanks parked in the desert with soldiers relaxing, an empty horizon with no enemy"
+ },
+ {
+  "id": "I198",
+  "prompt": "A massive concrete dam on the Blue Nile in the green Ethiopian highlands, water flowing through its spillway"
+ },
+ {
+  "id": "I199",
+  "prompt": "Illustrated map of the whole Nile basin from the Ethiopian highlands and Lake Victoria to the Mediterranean, rivers highlighted in blue, no labels"
+ },
+ {
+  "id": "I200",
+  "prompt": "An Egyptian farmer looking worriedly at a low irrigation canal"
+ },
+ {
+  "id": "I201",
+  "prompt": "A modern Egyptian president at a negotiating table with other African leaders, a glass of water and a map of the Nile on the table"
+ },
+ {
+  "id": "I202",
+  "prompt": "Ghostly faded figures of conquerors from different eras walking away into the desert while the Nile keeps flowing in the foreground"
+ },
+ {
+  "id": "I203",
+  "prompt": "The Nile flowing calmly at golden hour with ancient temple ruins on one bank and a modern city skyline on the other"
+ },
+ {
+  "id": "I204",
+  "prompt": "A lineup of figures from different Egyptian eras standing side by side by the Nile: a pyramid builder, a pharaoh, Cleopatra, a Mamluk warrior and a modern Egyptian"
+ },
+ {
+  "id": "thumb-base",
+  "qualidade": "high",
+  "prompt": "Wide panoramic landscape of ancient Egypt placed in the left 55% of the frame: the three pyramids of Giza, the Great Sphinx, the Nile with felucca boats, palm trees and a small city with temples; the right 45% of the frame is open bright blue sky and plain flat sand, completely empty to leave room for a title"
+ }
+]

@@ -1,0 +1,1 @@
+I158 <- I156 (Marcha do Sal), I196 <- I194 (monção sobre os campos): reuso decidido pelo Rodrigo em 03/11 para não recarregar a OpenAI

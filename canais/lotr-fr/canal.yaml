@@ -1,0 +1,18 @@
+slug: lotr-fr
+nome: Le Gardien de Valinor
+url: https://www.youtube.com/@legardiendevalinor
+idioma: fr
+nicho: lore de Tolkien (Terra-média)
+token: lotr-fr            # ~/.segredos/youtube/tokens/lotr-fr.json
+status: ativo
+formula:
+  titulo: pergunta curiosa ("Pourquoi…?", "Que s'est-il passé…?", "Quelles étaient…?")
+  duracao_min: 8
+  estrutura: hook com loop aberto, corpo cronológico, payoff no final, pergunta nos comentários
+voz:
+  motor: kokoro           # trocar para fish quando o Rodrigo escolher a voz
+  voz: ff_siwis
+  velocidade: 0.92
+cadencia: a definir
+referencias:
+  - Darth Gandalf (@DarthGandalfYT), lore em inglês, roteiro forte com fan art
