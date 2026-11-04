@@ -15,11 +15,13 @@ Procedimento-base: `playbooks/produzir-video.md` §3. Modelo recomendado: **sonn
 4. Saldo: `psql -d vida -c "SELECT * FROM financas.saldo_pre_pago WHERE fornecedor='Fish Audio'"`. Sem saldo para o vídeo (~US$ 0,7 num de 17 min) = pare e escreva `$V/BLOQUEIO.md`.
 
 ## Passos
-1. **Fish** (`motor: fish`), da raiz do repo:
-   `tools/.venv/bin/python tools/tts_fish.py <slug> $V/blocos.json $V/audio --video <id>`
-   (usa voz, modelo e velocidade do canal; grava o custo em `financas.consumo`; gera um mp3 por bloco).
+1. **Fish** (`motor: fish`), da raiz do repo, **no modo por frase** (padrão desde o A/B do 003, 04/11/2026; `canal.yaml` → `voz.modo: por_frase`):
+   `tools/.venv/bin/python tools/tts_fish.py <slug> $V/blocos.json $V/audio --video <id> --por-frase`
+   (usa voz, modelo e velocidade do canal; uma chamada por frase, 0,32 s de silêncio entre frases, um mp3 por bloco; cache em `$V/audio/frases/` com `mapa.json`; grava o custo em `financas.consumo` mesmo se cair no meio).
+   Por quê: no A/B (`canais/historia-ptbr/videos/003-ira/amostras-voz/LEIA.md`), texto escrito para a fala + geração por frase teve a menor "repetição melódica" (0,09 × 0,14 do jeito do 002) e Whisper ≥ 95%; tags de direção e velocidade 0,97 pioraram; temperature/top_p não mudaram nada (fica 0,7/0,7).
+   **Antes do vídeo inteiro**, gere só o hook e confira (ouça ou meça com `amostras-voz/melodia.py`); só então rode o resto.
    **Kokoro** (`motor: kokoro`, sem custo): `~/tts/venv-kokoro/bin/python`, seguindo `~/tts/gen_kokoro.py`. Nunca Piper nem Edge TTS.
-2. A tool **regera todos os blocos** da entrada (e cobra todos). Para refazer só os ruins, crie `$V/blocos-refazer.json` com apenas esses blocos (mesmo formato) e rode o mesmo comando com ele.
+2. Com `--por-frase`, rodar de novo **só gera (e cobra) frases novas ou alteradas**. Para regerar uma frase ruim sem mudar o texto, apague o mp3 dela em `$V/audio/frases/` (procure no `mapa.json`) e rode de novo. Sem `--por-frase`, a tool regera e cobra todos os blocos da entrada (use um `blocos-refazer.json` só com os ruins).
 3. **QA por bloco:** transcreva os mp3 com Whisper (modelo em `canais/historia-ptbr/videos/002-india/tools/transcrever.py`; o faster-whisper do venv falha ao abrir arquivo: decodifique com ffmpeg para numpy) e compare com o texto do bloco sem tags (lógica de `canais/historia-ptbr/videos/002-india/tools/compara_voz.py`).
 4. Status: `psql -d vida -c "UPDATE youtube.videos SET status='producao', atualizado_em=now() WHERE id=<id>"`.
 
