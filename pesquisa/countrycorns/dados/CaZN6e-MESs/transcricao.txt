@@ -1,0 +1,114 @@
+[0:00.00] Now imagine a rocket flying toward a crowded city.
+[0:03.74] There are only seconds to react.
+[0:05.80] A radar detects it, a computer calculates its path, and somewhere on the ground, a missile
+[0:11.32] launches to intercept it.
+[0:13.22] This is Israel's Iron Dome.
+[0:15.84] A fast reminder guys, don't forget to subscribe to the channel to help us maintain
+[0:19.96] uploading new history stories every day.
+[0:22.90] Let's continue.
+[0:24.02] How did a country develop a system designed to stop rockets in midair?
+[0:28.28] And how did it become one of the world's most recognizable air defense systems?
+[0:33.54] To understand that, we have to go back to the early 2000s.
+[0:37.68] For decades, Israel had faced rocket attacks from armed groups across its borders.
+[0:43.08] But in the early 2000s, rocket fire from the Gaza Strip became an increasingly serious
+[0:48.42] security concern.
+[0:49.76] Many of these rockets were relatively simple and inexpensive.
+[0:53.88] They could be launched quickly, and some could reach Israeli towns and cities.
+[0:58.50] Israel already had air defense systems, but they were primarily designed for other
+[1:03.52] kinds of threats, including aircraft and longer range missiles.
+[1:07.44] Intercepting large numbers of short range rockets presented a different challenge.
+[1:12.46] The problem became especially urgent during the 2006 war between Israel and Hezbollah.
+[1:18.46] Thousands of rockets were fired from Lebanon into northern Israel, killing civilians,
+[1:23.62] damaging buildings, and forcing large numbers of people into shelters.
+[1:28.02] The war exposed a major gap in Israel's defenses.
+[1:31.74] Israel needed a way to intercept short range rockets before they reached populated areas.
+[1:37.52] But developing that system would require a completely new approach.
+[1:41.90] In 2007, Israel selected a new rocket defense project.
+[1:46.08] It would become known as Iron Dome.
+[1:49.56] The Israeli defense company Rafael was chosen to lead its development,
+[1:53.64] working with other Israeli technology companies and the country's defense establishment.
+[1:58.46] The goal was ambitious.
+[2:00.48] Build a mobile system capable of detecting incoming rockets,
+[2:04.44] calculating where they would land, and intercepting those that threatened
+[2:08.08] populated areas.
+[2:09.74] But the designers faced a difficult economic problem.
+[2:12.74] A rocket could be relatively cheap to manufacture,
+[2:16.58] while the missile needed to destroy it could cost far more.
+[2:21.06] Intercepting every incoming projectile would be enormously expensive.
+[2:26.26] So, Iron Dome was designed to make a decision before launching.
+[2:30.74] If a rocket was predicted to land in an open area, the system could leave it alone.
+[2:35.86] But if it threatened a defended area, an interceptor could be launched.
+[2:41.26] By 2009, Iron Dome had passed important tests,
+[2:45.34] and in 2011, the system was ready for its first real deployment.
+[2:49.98] Iron Dome is not actually a giant metal dome covering a city.
+[2:54.66] It is a network of radar, computers, and missile launchers.
+[2:58.78] First, its radar detects an incoming rocket and tracks its movement.
+[3:03.54] Next, a battle management system calculates the rocket's predicted trajectory
+[3:07.98] and determines whether it threatens a protected area.
+[3:11.40] If interception is required, a launcher fires a missile called Tamir.
+[3:16.26] The interceptor travels toward the incoming rocket and attempts to destroy it in the air.
+[3:21.62] All of this happens within a very short period of time,
+[3:25.00] and because the system is mobile, its batteries can be positioned to protect different locations.
+[3:30.66] But no missile defense system can guarantee that every incoming threat will be stopped.
+[3:35.50] And Iron Dome was about to face its first real test.
+[3:39.94] In April 2011, Iron Dome achieved its first successful interception of a rocket fired from Gaza.
+[3:47.08] For the first time, the system had demonstrated its capabilities during an actual attack.
+[3:52.78] But one successful interception was only the beginning.
+[3:56.66] In November 2012, another major conflict erupted between Israel and armed groups in Gaza.
+[4:03.04] Hundreds of rockets were fired toward Israel,
+[4:05.78] and Iron Dome intercepted hundreds of those assessed as threats.
+[4:09.54] Two years later, during the 2014 Gaza War, the system faced an even larger test.
+[4:16.36] Thousands of rockets were launched from Gaza during the conflict.
+[4:19.80] Iron Dome intercepted many of those heading toward populated areas,
+[4:24.10] while others landed in open spaces or penetrated Israeli defenses.
+[4:28.62] Israeli authorities reported high interception rates,
+[4:31.82] although the exact effectiveness of Iron Dome has been debated by outside analysts.
+[4:37.00] The system had become an important part of Israel's defenses.
+[4:40.92] But it was also becoming part of a much larger military partnership.
+[4:45.34] Iron Dome was originally developed in Israel,
+[4:48.46] but the United States soon became one of its most important financial and industrial partners.
+[4:54.50] Beginning in 2011, American funding helped Israel purchase additional batteries and
+[4:59.90] interceptor missiles. In 2014, Israel and the United States reached an agreement to manufacture
+[5:05.90] components of Iron Dome in America. American companies became increasingly involved in
+[5:11.62] production, helping expand the supply of interceptors.
+[5:15.04] The partnership eventually extended beyond Israel.
+[5:18.58] The United States Army purchased two Iron Dome batteries,
+[5:21.86] bringing the Israeli developed system into the American military.
+[5:26.28] Meanwhile, the system itself continued to evolve.
+[5:29.88] A naval version was developed to protect ships and offshore assets,
+[5:34.04] and new upgrades expanded the range of aerial threats that Iron Dome could address.
+[5:38.90] But the greatest challenges were still ahead.
+[5:41.82] In May 2021, another major confrontation between Israel and Hamas brought Iron Dome back
+[5:48.58] into international headlines. Large rocket barrages were launched from Gaza toward
+[5:53.76] Israeli towns and cities. Iron Dome intercepted many incoming rockets,
+[5:59.00] producing dramatic images of interceptor missiles crossing the night sky.
+[6:04.16] Then, on October 7, 2023, Hamas-led armed groups attacked southern Israel,
+[6:10.36] killing civilians and taking hostages, while thousands of rockets were launched.
+[6:14.84] Israel responded with a prolonged military campaign in Gaza, causing extensive destruction,
+[6:21.38] mass displacement, and enormous Palestinian civilians suffering.
+[6:26.24] Throughout the conflict, Iron Dome remained a major component of Israel's defenses against
+[6:31.52] rocket attacks. But the fighting also demonstrated the limitations of missile defense.
+[6:37.70] Large barrages could place enormous demands on interceptor supplies,
+[6:41.64] and no system could eliminate the danger entirely.
+[6:46.06] The threats facing Israel were also changing. Drones, cruise missiles, and longer-range
+[6:51.92] ballistic missiles presented different challenges, and Iron Dome was only one part of the answer.
+[6:58.02] Israel's air defense network now consists of several different systems.
+[7:02.38] Iron Dome focuses primarily on shorter-range threats.
+[7:06.48] David Sling provides another layer of protection, while the arrow systems
+[7:10.68] are designed to intercept longer-range ballistic missiles.
+[7:14.36] And in December 2025, Israel announced the delivery of its first operational
+[7:19.22] Iron Beam laser system. Designed to complement existing missile defenses,
+[7:24.58] Iron Beam represents another approach to intercepting aerial threats.
+[7:28.62] In June 2026, Israel also announced further successful Iron Dome upgrade tests,
+[7:34.68] including scenarios involving rockets, drones, and cruise missiles.
+[7:39.38] Nearly two decades after its development began,
+[7:42.74] Iron Dome remains an important part of Israel's air defense network.
+[7:47.00] But its history reveals something larger than the story of a single weapon.
+[7:51.98] As aerial threats evolve, defensive technology must evolve with them.
+[7:56.90] And although Iron Dome has intercepted thousands of incoming threats,
+[8:01.28] it cannot prevent wars, eliminate every attack, or protect civilians from every danger.
+[8:07.54] From the rocket attacks that inspired its creation to the arrival of laser-based defenses,
+[8:14.00] Iron Dome's history is a story of technology adapting to a changing battlefield,
+[8:19.56] and the next chapter is still being written.
+[8:22.92] Guys, YouTube Algorithm says that you will like my next video,
+[8:26.94] so why not watching it? See you guys soon!
