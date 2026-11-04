@@ -109,7 +109,7 @@ b("No fim do túnel, a água vira um jardim murado. Em persa antigo, pairidaêza
 b("Na beira do planalto, em Susa, tem gente vivendo desde uns quatro mil e duzentos antes de Cristo. São os elamitas, com uma escrita que ninguém consegue ler.",
   "susa_ancient|The ancient city of Susa on a hill at the edge of a green plain, mud-brick houses and a high temple platform, a river and palm trees@@SUSA",
   "elamite_king|An Elamite king with a round cap and a long braided beard, in a fringed robe, standing in a mud-brick temple courtyard@@OS ELAMITAS",
-  "elamite_tablet|A clay tablet and a carved stone covered with mysterious geometric signs, in a museum case",
+  "elamite_tablet|A clay tablet and a carved stone with only a few simple abstract dots and straight scratches (no letters, no characters, no writing), in a museum case",
   "scholar_puzzled|A scholar scratching his head in front of a clay tablet with strange signs under a glass dome", card="4200 a.C.")
 b("Até dois mil e vinte e dois. Uma equipe liderada por um arqueólogo francês decifra boa parte dela.",
   "silver_beaker|An ancient silver beaker with lines of small incised geometric signs around it, lit in a museum case@@ELAMITA LINEAR",
@@ -250,7 +250,7 @@ b("Egito, Síria e Iraque passam a falar árabe. O Irã adota o islã, devagar, 
   "map_arabic|Simple illustrated map of the Middle East and North Africa, the lands from Morocco to Iraq colored in one green and the Iranian plateau colored in a different orange, no labels, no text",
   "grandma_stories|A Persian family in the 9th century at home, children listening to their grandmother telling stories by a lamp@@O PERSA RESISTE")
 b("E boa parte do motivo cabe num livro.",
-  "book_glow|A thick old handwritten Persian manuscript book on a wooden stand glowing softly in a dark room")
+  "book_glow|A thick old closed leather-bound book with a plain cover and gold corner decorations on a wooden stand glowing softly in a dark room, no writing visible")
 
 # ───────────────────────── 9. O POEMA ─────────────────────────
 cap("9. O Poema")
