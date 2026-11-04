@@ -9,7 +9,7 @@
 ## Regras rápidas
 
 **Faça**
-- historia-ptbr: siga a fórmula da referência, "A HISTÓRIA COMPLETA de X em N minutos" ou "A história INTEIRA de X em N minutos", com **N = duração real arredondada**. Se a duração mudar (v2), troque o N no título, na descrição e no banco. [canal.yaml historia-ptbr; ETAPA3.md 001]
+- historia-ptbr: **"A história INTEIRA de X em N minutos"** (decisão do Rodrigo no `BRIEF-historia-003.md`, 04/11/2026: INTEIRA, não COMPLETA), com **N = duração real arredondada**. Se a duração mudar (v2), troque o N no título, na descrição e no banco. [canal.yaml historia-ptbr; ETAPA3.md 001]
 - A palavra de destaque vai em **caixa alta** ("COMPLETA"/"INTEIRA"), como o "ENTIRE" da referência. [títulos das referências em `youtube.assistidos`]
 - lotr-fr: título em **pergunta curiosa** ("Pourquoi…?", "Que s'est-il passé…?", "Quelles étaient…?"). [canal.yaml lotr-fr; estilo.md lotr-fr]
 - Mantenha o título coerente com a thumb: a thumb leva 2–3 palavras (o lugar), e o resto fica no título. [estilo.md historia-ptbr]

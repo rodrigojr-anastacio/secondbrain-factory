@@ -2,14 +2,24 @@
 
 **Como atualizar:** alimentado por **Tendências** (estrutura e capítulos de referências, via `watch.py`), **Métricas** (retenção por capítulo, quedas na curva) e **feedback do Rodrigo**. Cada entrada leva **data e fonte**. Sem dado, marque **Hipótese**. Depois de editar, faça commit descritivo.
 
-Última revisão: 2026-11-04 (base inicial, Fase 1).
+Última revisão: 2026-11-04 (capítulos-objeto, fecho circular e escrita para a fala, vídeo 003).
 
 ---
 
 ## Regras rápidas
 
+**Estrutura nova do historia-ptbr (a partir do 003, 04/11/2026; fonte: transcrições em `canais/historia-ptbr/videos/003-ira/ref/` e pedido do Rodrigo)**
+- **Capítulos = cenas/objetos concretos, título de 1–2 palavras, falado na narração** ("O Cilindro.", "O Moinho.", "O Tabaco."), ~1 por minuto (Archive: 13 capítulos em 12 min). Nunca "Período X".
+- **O fim de cada capítulo puxa o próximo**; o melhor é terminar com a frase que **é** o título do próximo ("…entregue a um homem que já criou galinhas. O criador de galinhas."). Re-hook a cada ~60–90 s.
+- **Narração no presente**, frases curtas, números exatos, nomes e lugares (que viram rótulo na tela).
+- **CTA de inscrição no meio, colado num re-hook** (Archive, Gestapo 3:45), não no fim.
+- **Fecho volta à imagem do começo** + aforismo de 2 frases ("A Gestapo nunca foi grande. Grandes eram as pessoas que escreviam para ela.") + pergunta/gancho.
+- **Escreva para a fala** (A/B de 04/11, `003-ira/amostras-voz/LEIA.md`): frases de 4–14 palavras, vírgula onde se respira, "…" só na virada, sem `[break]` (a voz por frase já põe 0,32 s), tag de tom só onde a emoção muda. O texto reescrito para a fala reduziu a "musiquinha repetida" entre frases (repetição melódica 0,14 → 0,10) mais que qualquer parâmetro do Fish.
+- **Texto na tela:** rótulo (`@@NOME` no `roteiro.py`) em ~1 de cada 2 planos com nome, lugar ou data; 18–20 cortes/min nos 2 primeiros minutos (Archive 20, HiM Irã 17).
+- **Tamanho com a voz por frase:** ~144 ppm com as pausas; 15 min ≈ 2.100 palavras. **Hipótese** até medir o 003.
+
 **Faça**
-- **Estrutura historia-ptbr:** hook (~45 s) + 8–9 capítulos cronológicos, das origens até 2026, e fecho com ligação ao presente e pergunta para os comentários. [ETAPA1.md 001; ETAPA-FINAL.md 002]
+- **Estrutura historia-ptbr até o 002 (substituída no 003, acima):** hook (~45 s) + 8–9 capítulos cronológicos, das origens até 2026, e fecho com ligação ao presente e pergunta para os comentários. [ETAPA1.md 001; ETAPA-FINAL.md 002]
 - **Cada capítulo abre com um mini-hook** (contraste ou curiosidade) e fecha puxando o próximo. [BRIEF.md 001]
 - **Loops "guarde isso"** pagos depois: "Guarde esse ano: 1922" (Egito, pago no cap. 7); algodão, Harappa, leões de Ashoka, diamante, chuva de Plassey e Hume (Índia). [ETAPA1.md 001; BRIEF.md 002]
 - **Fio condutor** que costura o vídeo: o Nilo (Egito), o vento da monção (Índia), a "couronne" que passa de cidade em cidade (lotr-fr). [BRIEF.md 002; BRIEF.md lotr-fr 001]

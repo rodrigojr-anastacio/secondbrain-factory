@@ -7,14 +7,15 @@ token: historia-ptbr      # ~/.segredos/youtube/tokens/historia-ptbr.json
 status: em preparação (piloto)
 formula:
   modelo: History in Minutes (UCYjRQ6T2BxBnJtPytI9OnNg) e Genius History (UC-q0RDBWjYlYA2KkPzq0WSQ)
-  titulo: "A HISTÓRIA COMPLETA de X em N minutos"
+  titulo: "A história INTEIRA de X em N minutos"   # INTEIRA desde 04/11/2026 (Rodrigo); N = duração real
   duracao_min: 12-20
-  estrutura: cronologia completa do país ou império, das origens até hoje
+  estrutura: cronologia completa do país ou império, das origens até hoje, em 13-16 capítulos-objeto (desde o 003)
 voz:
   motor: fish             # Fish.audio; chave em ~/.segredos/fish.env
   voz: 48613fc675f84984981683d92266e543   # clone feito pelo Rodrigo no Fish (pt-BR)
   modelo: s2.1-pro        # API paga com crédito pré-pago (ver financas.saldo_pre_pago)
   velocidade: 1.0         # aprovado pelo Rodrigo; 0.95 soou lento
+  modo: por_frase         # tools/tts_fish.py --por-frase (A/B do 003, 04/11/2026: menos "robótico"; ver videos/003-ira/amostras-voz/LEIA.md)
 piloto:
   - A HISTÓRIA COMPLETA do Japão em N minutos
   - A HISTÓRIA COMPLETA do Egito em N minutos

@@ -1,16 +1,19 @@
 # Estilo — História em minutos
 
-Modelo: History in Minutes / Genius History ("A HISTÓRIA COMPLETA de X em N minutos"). O visual será definido no piloto.
+Modelo: History in Minutes / Archive in Minutes ("A história INTEIRA de X em N minutos", decisão do Rodrigo em 04/11/2026; o Egito foi republicado assim e o 003 já sai assim).
 
 ## Visual (definido no piloto do Egito, 11/2026)
-- Imagens: gpt-image-2 `low` no estilo do `canal.yaml`; um plano a cada ~3,3 s (~18 por minuto), Ken Burns ou pan leve, corte seco dentro do bloco e crossfade de 5 frames entre blocos.
-- **Nenhuma legenda queimada** (a legenda vai só no `.srt`). Texto na tela só em: cartão de data (canto superior esquerdo), placa de capítulo ("CAPÍTULO N" + título, embaixo) e rótulos de mapa. Tudo em Libre Caslon, tinta escura sobre placa de papiro claro com sombra chapada.
+- Imagens: gpt-image-2 **`medium`** no estilo do `canal.yaml` (o `low` do piloto foi reprovado em 02/11: borra no Ken Burns); thumbnail em `high`. Um plano a cada ~3–3,6 s (~20 por minuto nos 2 primeiros minutos, ~17 depois), Ken Burns ou pan leve, corte seco dentro do bloco e crossfade de 5 frames entre blocos.
+- **Nenhuma legenda queimada** (a legenda vai só no `.srt`). Texto na tela em: cartão de data (canto superior esquerdo), placa de capítulo ("CAPÍTULO N" + título, embaixo), rótulos de mapa e, desde o 003, **rótulo de nome/lugar** (placa no canto inferior esquerdo, `@@NOME` no `roteiro.py`) em ~1 de cada 2 planos, como o Archive in Minutes. Tudo em Libre Caslon, tinta escura sobre placa de papiro claro com sombra chapada.
 - Mapas são gerados sem texto ("no labels"), e os rótulos ficam no código (`src/labels.jsx`, com posição em fração da imagem).
 - Thumbnail: ilustração panorâmica à esquerda (medium) e céu livre à direita, com o PAÍS em Libre Caslon 700 preta grande e "ANO a.C. – 2026" em Open Sans 800.
 - Trilha: original, sintetizada no código (sem samples), sob a voz a -33 dB; mix em -15 LUFS.
 - Reuso: 0% nos 3 primeiros minutos e ~40% depois; para ~16 min, isso dá cerca de 205 imagens (~US$ 1,50).
 
-## Voz (aprovado pelo Rodrigo)
+## Voz (desde o 003, 04/11/2026: texto para a fala + geração por frase)
+- O Rodrigo achou a narração do 002 "robótica". A/B em `videos/003-ira/amostras-voz/LEIA.md`: escreva para a fala (frases curtas, vírgula de respiração, "…" na virada, sem `[break]`) e gere com `tools/tts_fish.py --por-frase` (0,32 s entre frases). Tag de tom só na virada; nada de tags de direção nem velocidade 0,97. As regras abaixo continuam valendo para as pausas entre blocos.
+
+## Voz (aprovado pelo Rodrigo até o 002)
 - Clone pt-BR 48613fc… no s2.1-pro, velocidade 1.0. Pausas com moderação: [break] só entre ideias e [long-break] só antes de revelações; o excesso de pausas e a velocidade 0.95 soaram lentos e estranhos. No Egito (2.293 palavras), 15 `[break]` + 6 `[long-break]` deram 15:54 (~150 palavras/min), bom ritmo. Não passe de ~1 `[break]` por minuto.
 
 

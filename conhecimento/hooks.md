@@ -2,11 +2,17 @@
 
 **Como atualizar:** quem alimenta este arquivo é o especialista de **Tendências** (hooks de referência que viralizam), o de **Métricas** (retenção dos primeiros 30–60 s dos nossos vídeos) e o **feedback do Rodrigo**. Cada entrada nova leva **data e fonte** (arquivo, consulta SQL ou mensagem do Rodrigo). Sem dado, marque **Hipótese**. Depois de editar, faça commit descritivo (ex.: `conhecimento/hooks: retenção 30s do Egito`).
 
-Última revisão: 2026-11-04 (base inicial, Fase 1).
+Última revisão: 2026-11-04 (estudo de 3 transcrições e hook por anedota no 003).
 
 ---
 
 ## Regras rápidas
+
+**Padrão novo do historia-ptbr (a partir do 003, 04/11/2026; pedido do Rodrigo + estudo de 3 transcrições, ver "Estudo de 04/11" abaixo):**
+1. **Anedota humana concreta em ≤ 10 s**: data + lugar + uma pessoa + uma ação + desfecho seco ("Tus, por volta de 1025. Uma caravana com o ouro devido a um poeta entra por um portão. Pelo outro, sai o caixão do poeta.").
+2. **Promessa do título + pergunta central numa frase** ("Essa é a história inteira do Irã: …").
+3. **1 loop aberto** ("e o que salvou o Irã estava naquele caixão") pago por volta de 1/4–1/2 do vídeo, com o detalhe que faltava.
+4. **Hook total ≤ 35 s**, e o 1º capítulo começa já com o título falado. A fórmula "paradoxo → prova em rajada" abaixo continua valendo como recurso dentro dos capítulos.
 
 **Faça**
 - Abra com **paradoxo ou reformulação que choca**, dito como fato ("O Egito não é um país que tem um rio. É um rio com um país em volta."). [estilo.md historia-ptbr; SCRIPT.md 001]
@@ -67,6 +73,17 @@ Estrutura: frase 1 = paradoxo → prova em rajada → virada → pergunta centra
 
 ### O que falta medir
 - Retenção aos 30 s e aos 60 s de cada vídeo nosso (`tools/report.py <canal> --retencao <ID>`). Até lá, toda conclusão sobre "hook bom" é **Hipótese**.
+
+## Estudo de 04/11/2026: 3 transcrições completas (Produtor, vídeo 003)
+Fonte: `canais/historia-ptbr/videos/003-ira/ref/` (Whisper small via WARP, `tools/transcrever.py`): History in Minutes "Iran" (XVwr1Rm_9jc, 89 mil views), Archive in Minutes "Gestapo" (pbIzG1QvoWs, 349 mil) e "KGB" (VNJhu4rh6OY, 236 mil); views via yt-dlp em 04/11/2026.
+| Vídeo | Abertura | Até a promessa do título | Hook total |
+|---|---|---|---|
+| Gestapo | "In 1943, a war widow tells a colleague… a joke. The colleague reports her. She is put to death." | 9 s | ~18 s, e já entra "The Stamp." |
+| KGB | "December 1989. Dresden. A KGB officer burns files so fast the furnace bursts… His name is Vladimir Putin." | 13 s | ~22 s |
+| HiM Irã | paisagem de 9 mil anos atrás → qanats → jardim "paraíso" → crise de hoje → pergunta → lista de 4 promessas | 92 s ("This is the story of Iran") | 1:54 até o 1º fato datado |
+- O Archive paga a anedota perto de 1/4 do vídeo (a viúva volta aos 3:29 com o detalhe cruel: "os juízes contaram contra ela que o marido morreu pela pátria"). O KGB paga no fim (o oficial de Dresden vira presidente).
+- O HiM usa loops "Remember that word" (Irã → 1935) e "Remember the tobacco" (1891 → 1979).
+- **Hipótese:** o hook curto por anedota do Archive (15–22 s) retém melhor que o hook longo do HiM (1:32); o Archive tem 3–4× mais views por vídeo com 1/4 da idade. Medir no 003 (retenção aos 30 s) × Egito/Índia.
 
 ## Referência: hook por anedota humana (Archive in Minutes, Gestapo)
 Fonte: `watch.py pbIzG1QvoWs` em 2026-11-04 (hook.txt); views do garimpo de 2026-11-02 (310 mil em ~7 dias após 26/10).

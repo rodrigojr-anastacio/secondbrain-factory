@@ -2,7 +2,7 @@
 
 **Como atualizar:** todo agente que errar, ou vir um erro no QA, registra aqui. Também alimentam: **Métricas** (o que derrubou views ou retenção), **Tendências** (o que as referências evitam) e o **feedback do Rodrigo**. Cada entrada leva **data e fonte**. Sem dado, marque **Hipótese**. Depois de editar, faça commit descritivo (ex.: `conhecimento/anti-padroes: imagens em dobro na Índia`).
 
-Última revisão: 2026-11-04 (base inicial, Fase 1).
+Última revisão: 2026-11-04 (A/B de voz e banco corrigido, vídeo 003).
 
 ---
 
@@ -10,7 +10,7 @@
 
 **Não faça**
 1. **Imagens em `low` no vídeo.** O zoom do Ken Burns amplia a imagem e ela vira borrão. Padrão: `medium` no vídeo e `high` na thumb.
-2. **Narração corrida, sem respiro entre ideias.** Use pausas de 0,35 s (mesmo assunto), 0,9 s (ideia nova) e 1,5 s (capítulo), além de tags de tom.
+2. **Narração corrida, sem respiro entre ideias, e "robótica".** Use pausas de 0,35 s (mesmo assunto), 0,9 s (ideia nova) e 1,5 s (capítulo). Desde o 003: texto escrito para a fala + `tts_fish.py --por-frase` (0,32 s entre frases) e tag de tom só na virada; tags de "direção" (`[serious, calm]`, `[low voice]`) e velocidade 0,97 deixam as frases mais iguais (ver evidência 2b).
 3. **Dois `img_openai.py` em paralelo na mesma pasta.** Gera imagens em dobro. Use `--paralelo 8` num processo só.
 4. **Gerar sem conferir o saldo.** A Índia parou com "no credits" e ficou sem 2 imagens.
 5. **Lugar real no lugar de um fictício** (Mont-Saint-Michel como Minas Tirith) e **cidades desenhadas por código** (ficam amadoras).
@@ -41,6 +41,11 @@
 - O extremo oposto também foi reprovado: excesso de pausas e velocidade 0,95 "soaram lentos e estranhos" nos testes de voz. [estilo.md historia-ptbr]
 - Cuidado: o Fish corta uma frase curta depois de `[break]` no fim do bloco ("Guarde essa chuva" sumiu na Índia). [QA.md 002]
 
+### 2b. Narração "robótica": A/B de 11 tomadas do hook (vídeo 003, 2026-11-04)
+- Feedback do Rodrigo no `BRIEF-historia-003.md`: "a narração está robótica". Teste com o mesmo hook de ~60 s em 6 técnicas (2 tomadas em 3 delas). Arquivos, medidas e critério em `canais/historia-ptbr/videos/003-ira/amostras-voz/LEIA.md`; custo US$ 0,14.
+- Medida principal: **repetição melódica** (correlação entre os contornos de F0 das frases; Praat). Texto do 002 (A) = 0,14 e queda de −2,4 st no fim de cada frase; texto reescrito para a fala (B) = 0,10–0,11 e −1,7/−2,1; **por frase com silêncio inserido (G) = 0,09**; tags de direção (F) = 0,16–0,17; tags + velocidade 0,97 (H) = 0,19 e −3,0. temperature/top_p 0,9 = sem efeito além do ruído (~0,15 st entre tomadas).
+- Decisão: **G** = texto falado + `tools/tts_fish.py --por-frase` (cache por frase; regera só a frase ruim). **Hipótese** até o Rodrigo ouvir A × G e até a retenção do 003. Se ainda soar robótico, regravar a referência do clone (30–60 s naturais com pausas, guia do Fish), não mexer em parâmetro.
+
 ### 3. Imagens geradas em dobro (Índia, 2026-11-03)
 - 223 gerações para 196 imagens (195 do vídeo + thumb-base): **27 em dobro**. Causa: 2 processos `img_openai.py` em paralelo, cada um numa ponta da lista. Eles calculam os pendentes só no início e se cruzaram no meio. Custo extra: **~US$ 1,1** (27 × ~US$ 0,042). [BLOQUEIO.md, ETAPA-FINAL.md 002; `financas.consumo` ids 16 e 17: 133 + 90 imagens]
 - Regra já registrada no playbook: um processo só, com `--paralelo 8`. [playbooks/produzir-video.md]
@@ -63,6 +68,7 @@
 - `youtube.videos` id 3 (Egito) ainda tem `youtube_id = s-D5Sk7prJI`, que está indisponível; o vídeo no ar é `g847Td0Plsk`. O id 4 (Índia) está como `status = pronto`, sem `youtube_id`, mas está publicado como `MV5SSjoccqE`. [consulta SQL + oEmbed, 2026-11-04]
 - `canais/historia-ptbr/backlog.md` lista só o Egito, com o ID antigo.
 - Consequência: `financas.custo_por_video` e os relatórios de métricas não ligam os vídeos novos aos custos.
+- **Corrigido em 2026-11-04 (Produtor, vídeo 003):** id 3 → `g847Td0Plsk`, "A história INTEIRA do Egito em 17 minutos", publicado 03/11; id 4 → `MV5SSjoccqE`, `publicado`, 03/11 (título e `upload_date` conferidos com yt-dlp via WARP). `backlog.md` atualizado.
 
 ---
 
