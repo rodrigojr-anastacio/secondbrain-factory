@@ -1,0 +1,31 @@
+{
+ "saida": "D-drama-3-unico-narrador.mp3",
+ "texto": "abertura-atual.txt",
+ "modelo": "drama-3",
+ "voz": "48613fc675f84984981683d92266e543",
+ "tecnica": "unico",
+ "direcao": "[warm storyteller telling an old legend to a friend, intrigued and unhurried, letting each surprise land]",
+ "pausa_tag": "[pause]",
+ "pausa_tag_curta": "",
+ "sem_tags": false,
+ "api_extra": {},
+ "gap": 0.35,
+ "gap_ideia": 0.9,
+ "take": 1,
+ "dur_s": 60.4,
+ "bytes_novos": 832,
+ "custo_usd": 0.00832,
+ "preco_por_mi_bytes": 10.0,
+ "credito_fish_antes": 48.74398,
+ "credito_fish_depois": 48.74398,
+ "gerado_em": "2026-11-04T19:32:02",
+ "chamadas": [
+  {
+   "texto": "[warm storyteller telling an old legend to a friend, intrigued and unhurried, letting each surprise land] [curious] Tus, ano mil e vinte, conta a lenda. Uma caravana carregada de riquezas entra por um portão da cidade.\nPelo outro portão, sai o caixão do poeta. A fortuna era dele.\n\n[pause] Essa é a história inteira do Irã. E de como um país conquistado tantas vezes nunca deixa de ser ele mesmo.\nGregos, árabes, turcos e mongóis tomam esta terra. Todos vão embora… ou acabam virando persas.\n[serious] E o que salva o Irã… está dentro daquele caixão.\n\n[pause] O Túnel. O planalto do Irã é uma tigela de montanhas, com deserto no meio, e pouca chuva.\nEntão os antigos persas vão buscar a água embaixo da terra. São os qanats, túneis de quilômetros, tão bem inclinados que a água da montanha desce sozinha.",
+   "gap_antes_s": 0.0,
+   "mp3": "00-6041cb68e43e.mp3",
+   "gerado_agora": true,
+   "dur_s": 59.69
+  }
+ ]
+}

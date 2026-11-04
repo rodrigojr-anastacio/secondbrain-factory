@@ -25,3 +25,10 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md` (armadilhas d
 - Graphic novel em tinta com rostos adultos realistas, paleta ardósia/sépia, máquina de escrever, carimbo "CLASIFICADO": identidade do `dossie-es`.
 - Pinturas a óleo românticas: identidade do `lotr-fr`.
 - Bandeira atual em cena de época (Egito v1: bandeira de hoje em 1922 e 1952) e estereótipos (curandeiro de Mehrgarh com cocar de penas, Índia). [QA-v1.md 001; QA.md 002]
+
+## Modelo de imagem: bancada do fal (04/11/2026, fonte `videos/003-ira/v2-amostras/imagens/MODELOS.md`)
+- O 003 perdeu os bonequinhos porque saiu no `fal-ai/flux/dev`: o modelo ignora "round white heads, dot eyes". O prompt era o mesmo dos vídeos anteriores.
+- O **gpt-image-2 existe no fal** (`openai/gpt-image-2`, medium 1536×864 a US$ 0,04/img) e reproduz o estilo do Egito e da Índia sem precisar de crédito na OpenAI.
+- O plano B, `google/nano-banana-2.1/edit` com 2 refs do canal (US$ 0,044/img), fica próximo.
+- O flux/dev, o ideogram, o z-image e o seedream 4 não servem para este canal.
+- A troca no `canal.yaml` espera o OK do Rodrigo (FASE 2 do 003).

@@ -1,0 +1,73 @@
+{
+ "saida": "B-drama-3-texto-atual-take2.mp3",
+ "texto": "abertura-atual.txt",
+ "modelo": "drama-3",
+ "voz": "48613fc675f84984981683d92266e543",
+ "tecnica": "bloco",
+ "direcao": "",
+ "pausa_tag": "",
+ "pausa_tag_curta": "",
+ "sem_tags": false,
+ "api_extra": {},
+ "gap": 0.35,
+ "gap_ideia": 0.9,
+ "take": 2,
+ "dur_s": 58.3,
+ "bytes_novos": 702,
+ "custo_usd": 0.00702,
+ "preco_por_mi_bytes": 10.0,
+ "credito_fish_antes": 48.72864,
+ "credito_fish_depois": 48.72864,
+ "gerado_em": "2026-11-04T19:33:16",
+ "chamadas": [
+  {
+   "texto": "[curious] Tus, ano mil e vinte, conta a lenda. Uma caravana carregada de riquezas entra por um portão da cidade.",
+   "gap_antes_s": 0.0,
+   "mp3": "00-55a98e9cd082.mp3",
+   "gerado_agora": true,
+   "dur_s": 8.15
+  },
+  {
+   "texto": "Pelo outro portão, sai o caixão do poeta. A fortuna era dele.",
+   "gap_antes_s": 0.35,
+   "mp3": "01-af05f58fe3f0.mp3",
+   "gerado_agora": true,
+   "dur_s": 5.12
+  },
+  {
+   "texto": "Essa é a história inteira do Irã. E de como um país conquistado tantas vezes nunca deixa de ser ele mesmo.",
+   "gap_antes_s": 0.9,
+   "mp3": "02-8330abc0db85.mp3",
+   "gerado_agora": true,
+   "dur_s": 8.32
+  },
+  {
+   "texto": "Gregos, árabes, turcos e mongóis tomam esta terra. Todos vão embora… ou acabam virando persas.",
+   "gap_antes_s": 0.35,
+   "mp3": "03-24341c44d5b3.mp3",
+   "gerado_agora": true,
+   "dur_s": 8.91
+  },
+  {
+   "texto": "[serious] E o que salva o Irã… está dentro daquele caixão.",
+   "gap_antes_s": 0.35,
+   "mp3": "04-7f47353693eb.mp3",
+   "gerado_agora": true,
+   "dur_s": 3.87
+  },
+  {
+   "texto": "O Túnel. O planalto do Irã é uma tigela de montanhas, com deserto no meio, e pouca chuva.",
+   "gap_antes_s": 0.9,
+   "mp3": "05-a4df618b41e0.mp3",
+   "gerado_agora": true,
+   "dur_s": 7.76
+  },
+  {
+   "texto": "Então os antigos persas vão buscar a água embaixo da terra. São os qanats, túneis de quilômetros, tão bem inclinados que a água da montanha desce sozinha.",
+   "gap_antes_s": 0.35,
+   "mp3": "06-bbb382fbf7c2.mp3",
+   "gerado_agora": true,
+   "dur_s": 12.27
+  }
+ ]
+}

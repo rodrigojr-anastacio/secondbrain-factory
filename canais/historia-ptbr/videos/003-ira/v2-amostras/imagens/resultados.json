@@ -1,0 +1,298 @@
+{
+ "gpt-image-2-low": {
+  "endpoint": "openai/gpt-image-2",
+  "tipo": "t2i",
+  "preco_img": 0.006,
+  "cenas": {
+   "I002": {
+    "resolucao": "1536x864",
+    "segundos": 14.8,
+    "nsfw": false,
+    "media_brilho": 110.5,
+    "falha": false
+   },
+   "I007": {
+    "resolucao": "1536x864",
+    "segundos": 15.0,
+    "nsfw": false,
+    "media_brilho": 150.5,
+    "falha": false
+   }
+  },
+  "custo_usd": 0.012,
+  "status": "testado",
+  "db": true
+ },
+ "gpt-image-2-medium": {
+  "endpoint": "openai/gpt-image-2",
+  "tipo": "t2i",
+  "preco_img": 0.04,
+  "cenas": {
+   "I002": {
+    "resolucao": "1536x864",
+    "segundos": 26.7,
+    "nsfw": false,
+    "media_brilho": 113.9,
+    "falha": false
+   },
+   "I007": {
+    "resolucao": "1536x864",
+    "segundos": 25.7,
+    "nsfw": false,
+    "media_brilho": 140.6,
+    "falha": false
+   }
+  },
+  "custo_usd": 0.08,
+  "status": "testado",
+  "db": true
+ },
+ "gpt-image-2-edit-low": {
+  "endpoint": "openai/gpt-image-2/edit",
+  "tipo": "edit",
+  "preco_img": 0.02,
+  "cenas": {
+   "I002": {
+    "resolucao": "1536x864",
+    "segundos": 14.9,
+    "nsfw": false,
+    "media_brilho": 109.4,
+    "falha": false
+   },
+   "I007": {
+    "resolucao": "1536x864",
+    "segundos": 14.6,
+    "nsfw": false,
+    "media_brilho": 122.6,
+    "falha": false
+   }
+  },
+  "custo_usd": 0.04,
+  "status": "testado",
+  "db": true
+ },
+ "nano-banana-edit": {
+  "endpoint": "fal-ai/nano-banana/edit",
+  "tipo": "edit",
+  "preco_img": 0.0398,
+  "cenas": {
+   "I002": {
+    "resolucao": "1344x768",
+    "segundos": 11.1,
+    "nsfw": false,
+    "media_brilho": 133.0,
+    "falha": false
+   },
+   "I007": {
+    "resolucao": "1344x768",
+    "segundos": 10.8,
+    "nsfw": false,
+    "media_brilho": 143.4,
+    "falha": false
+   }
+  },
+  "custo_usd": 0.0796,
+  "status": "testado",
+  "db": true
+ },
+ "nano-banana-2.1-edit": {
+  "endpoint": "google/nano-banana-2.1/edit",
+  "tipo": "edit",
+  "preco_img": 0.044,
+  "cenas": {
+   "I002": {
+    "resolucao": "1376x768",
+    "segundos": 17.4,
+    "nsfw": false,
+    "media_brilho": 123.7,
+    "falha": false
+   },
+   "I007": {
+    "resolucao": "1376x768",
+    "segundos": 23.1,
+    "nsfw": false,
+    "media_brilho": 141.8,
+    "falha": false
+   }
+  },
+  "custo_usd": 0.088,
+  "status": "testado",
+  "db": true
+ },
+ "seedream-4.5-edit": {
+  "endpoint": "fal-ai/bytedance/seedream/v4.5/edit",
+  "tipo": "edit",
+  "preco_img": 0.04,
+  "cenas": {
+   "I002": {
+    "resolucao": "3416x1920",
+    "segundos": 46.1,
+    "nsfw": false,
+    "media_brilho": 148.9,
+    "falha": false
+   },
+   "I007": {
+    "resolucao": "3416x1920",
+    "segundos": 29.5,
+    "nsfw": false,
+    "media_brilho": 142.7,
+    "falha": false
+   }
+  },
+  "custo_usd": 0.08,
+  "status": "testado",
+  "db": true
+ },
+ "kontext-pro-multi": {
+  "endpoint": "fal-ai/flux-pro/kontext/multi",
+  "tipo": "edit",
+  "preco_img": 0.04,
+  "cenas": {
+   "I002": {
+    "resolucao": "1392x752",
+    "segundos": 11.6,
+    "nsfw": false,
+    "media_brilho": 129.3,
+    "falha": false
+   },
+   "I007": {
+    "resolucao": "1392x752",
+    "segundos": 7.2,
+    "nsfw": false,
+    "media_brilho": 135.8,
+    "falha": false
+   }
+  },
+  "custo_usd": 0.08,
+  "status": "testado",
+  "db": true
+ },
+ "recraft-v4-style": {
+  "endpoint": "recraft/v4/style/text-to-image",
+  "tipo": "t2i+style",
+  "preco_img": 0.0375,
+  "cenas": {
+   "I002": {
+    "resolucao": "1344x768",
+    "segundos": 49.8,
+    "nsfw": false,
+    "media_brilho": 134.3,
+    "falha": false
+   },
+   "I007": {
+    "resolucao": "1344x768",
+    "segundos": 23.0,
+    "nsfw": false,
+    "media_brilho": 137.7,
+    "falha": false
+   }
+  },
+  "custo_usd": 0.075,
+  "status": "testado",
+  "db": true
+ },
+ "ideogram-v3-turbo-styleref": {
+  "endpoint": "fal-ai/ideogram/v3",
+  "tipo": "t2i+style",
+  "preco_img": 0.03,
+  "cenas": {
+   "I002": {
+    "resolucao": "1312x736",
+    "segundos": 9.2,
+    "nsfw": false,
+    "media_brilho": 139.5,
+    "falha": false
+   },
+   "I007": {
+    "resolucao": "1312x736",
+    "segundos": 13.0,
+    "nsfw": false,
+    "media_brilho": 143.7,
+    "falha": false
+   }
+  },
+  "custo_usd": 0.06,
+  "status": "testado",
+  "db": true
+ },
+ "z-image-turbo": {
+  "endpoint": "fal-ai/z-image/turbo",
+  "tipo": "t2i",
+  "preco_img": 0.007,
+  "cenas": {
+   "I002": {
+    "resolucao": "1536x864",
+    "segundos": 1.8,
+    "nsfw": false,
+    "media_brilho": 176.9,
+    "falha": false
+   },
+   "I007": {
+    "resolucao": "1536x864",
+    "segundos": 1.7,
+    "nsfw": false,
+    "media_brilho": 153.7,
+    "falha": false
+   }
+  },
+  "custo_usd": 0.014,
+  "status": "testado",
+  "db": true
+ },
+ "gpt-image-1-mini-medium": {
+  "endpoint": "fal-ai/gpt-image-1-mini",
+  "tipo": "t2i",
+  "preco_img": 0.015,
+  "cenas": {
+   "I002": {
+    "resolucao": "1536x1024",
+    "segundos": 15.8,
+    "nsfw": false,
+    "media_brilho": 124.1,
+    "falha": false
+   },
+   "I007": {
+    "resolucao": "1536x1024",
+    "segundos": 14.7,
+    "nsfw": false,
+    "media_brilho": 139.4,
+    "falha": false
+   }
+  },
+  "custo_usd": 0.03,
+  "status": "testado",
+  "db": true
+ },
+ "seedream-4-t2i": {
+  "endpoint": "fal-ai/bytedance/seedream/v4/text-to-image",
+  "tipo": "t2i",
+  "preco_img": 0.03,
+  "cenas": {
+   "I002": {
+    "resolucao": "1536x864",
+    "segundos": 9.3,
+    "nsfw": false,
+    "media_brilho": 151.8,
+    "falha": false
+   },
+   "I007": {
+    "resolucao": "1536x864",
+    "segundos": 9.8,
+    "nsfw": false,
+    "media_brilho": 160.3,
+    "falha": false
+   }
+  },
+  "custo_usd": 0.06,
+  "status": "testado",
+  "db": true
+ },
+ "flux-2-klein-9b-edit": {
+  "endpoint": "fal-ai/flux-2/klein/9b/edit",
+  "status": "não testado: saldo US$ 0.70 / reserva"
+ },
+ "qwen-image-edit-2511": {
+  "endpoint": "fal-ai/qwen-image-edit-2511",
+  "status": "não testado: saldo US$ 0.70 / reserva"
+ }
+}

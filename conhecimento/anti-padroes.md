@@ -117,3 +117,10 @@ Fonte: `financas.custo_por_video` e `financas.consumo` (consulta de 2026-11-04).
 - Correção (2026-11-04): uma **bíblia por canal** em `canais/<slug>/biblia/` (roteiro, título, thumb, visual, voz + README com "o que NÃO fazer aqui"), que prevalece sobre `conhecimento/`; `conhecimento/` só com regra geral; skills e agentes leem a bíblia primeiro e a `qa` confere "o vídeo segue a bíblia do canal?".
 - Como evitar: antes de gravar um aprendizado, pergunte "isso vale para **qualquer** canal?". Se veio de um vídeo ou de uma referência de um formato, vai para a bíblia do canal desse formato. Só sobe para `conhecimento/` o que for comprovadamente geral (ferramenta, custo, processo, medição).
 
+
+## Saldo do fal no banco diverge do real (04/11/2026, fonte: `api.fal.ai/v1/account/billing` × `financas.saldo_pre_pago`)
+- Em 04/11 ~19h55, o saldo real do fal era US$ 0,67 e o banco mostrava US$ 4,43: são ~US$ 3,8 de consumo sem lançamento.
+- A causa provável é o `tools/img_fal.py`, que registra US$ 0,025 fixo por imagem em vez de cobrar por MP/modelo.
+- Antes de qualquer lote no fal, confira o saldo ao vivo; há uma função `saldo()` em `canais/historia-ptbr/videos/003-ira/v2-amostras/imagens/bench.py`.
+- O preço real por endpoint está em `api.fal.ai/v1/models/pricing`.
+- Registro relacionado: o fal também hospeda `openai/gpt-image-2`, cobrado no crédito do fal.

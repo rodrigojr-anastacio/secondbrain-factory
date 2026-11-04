@@ -1,0 +1,31 @@
+{
+ "saida": "C-drama-3-texto-contado.mp3",
+ "texto": "abertura-v2.txt",
+ "modelo": "drama-3",
+ "voz": "48613fc675f84984981683d92266e543",
+ "tecnica": "unico",
+ "direcao": "[warm storyteller telling an old legend to a friend, intrigued and unhurried, letting each surprise land]",
+ "pausa_tag": "[pause]",
+ "pausa_tag_curta": "",
+ "sem_tags": false,
+ "api_extra": {},
+ "gap": 0.35,
+ "gap_ideia": 0.9,
+ "take": 1,
+ "dur_s": 65.0,
+ "bytes_novos": 877,
+ "custo_usd": 0.00877,
+ "preco_por_mi_bytes": 10.0,
+ "credito_fish_antes": 48.72162,
+ "credito_fish_depois": 48.72162,
+ "gerado_em": "2026-11-04T19:56:05",
+ "chamadas": [
+  {
+   "texto": "[warm storyteller telling an old legend to a friend, intrigued and unhurried, letting each surprise land] Toda vez que você diz \"paraíso\", você está falando persa. A palavra nasceu num planalto seco, onde quase não chove… e onde alguém, mesmo assim, resolveu inventar um jardim.\n\n[pause] Esse lugar foi invadido por gregos, árabes, turcos e mongóis. E quase sempre aconteceu a mesma coisa estranha: quem mudou foram os invasores.\nEntão como é que o país que deu ao mundo a palavra paraíso virou um dos países mais sancionados do planeta?\n\n[pause] Esta é a história inteira do Irã. No caminho, tem um rei que devolvia os deuses dos vencidos, um imperador romano capturado vivo, o caixão de um poeta que salvou uma língua… e um contrato de tabaco que derrubou uma coroa, oitenta e oito anos antes de derrubar outra.\n\n[pause] E tudo começa embaixo da terra.",
+   "gap_antes_s": 0.0,
+   "mp3": "00-d9b3482d4e69.mp3",
+   "gerado_agora": true,
+   "dur_s": 64.24
+  }
+ ]
+}

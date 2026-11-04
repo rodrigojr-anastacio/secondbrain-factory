@@ -1,0 +1,1280 @@
+{
+ "fal-ai/flux/schnell": {
+  "cat": "text-to-image",
+  "nome": "FLUX.1 [schnell]",
+  "data": "2024-11-25",
+  "desc": "FLUX.1 [schnell] is a 12 billion parameter flow transformer that generates high-quality images from text in 1 to 4 steps, suitable for personal and commercial u"
+ },
+ "fal-ai/nano-banana-pro": {
+  "cat": "text-to-image",
+  "nome": "Nano Banana Pro",
+  "data": "2025-11-20",
+  "desc": "Nano Banana Pro is Google's new state-of-the-art image generation and editing model"
+ },
+ "fal-ai/nano-banana-2": {
+  "cat": "text-to-image",
+  "nome": "Nano Banana 2",
+  "data": "2026-02-26",
+  "desc": "Nano Banana 2 is Google's new state-of-the-art fast image generation and editing model"
+ },
+ "google/nano-banana-2.1": {
+  "cat": "text-to-image",
+  "nome": "Nano Banana 2.1",
+  "data": "2026-10-06",
+  "desc": "Nano Banana 2.1 by Google generates images from text prompts, with output resolutions up to 4K, adjustable aspect ratios, and optional web search grounding."
+ },
+ "openai/gpt-image-2": {
+  "cat": "text-to-image",
+  "nome": "GPT Image 2 API",
+  "data": "2026-04-20",
+  "desc": "GPT Image 2, OpenAI's latest image model, is capable of creating extremely detailed images with fine typography."
+ },
+ "openai/gpt-image-2.5/flare/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "GPT Image 2.5 Flare Text to Image",
+  "data": "2026-09-08",
+  "desc": "OpenAI's default image model for most applications. Fast, high-quality generation with natural lighting, rich textures, and support for complex layouts includin"
+ },
+ "fal-ai/flux/dev": {
+  "cat": "text-to-image",
+  "nome": "FLUX.1 [dev]",
+  "data": "2025-04-01",
+  "desc": "FLUX.1 [dev] is a 12 billion parameter flow transformer that generates high-quality images from text. It is suitable for personal and commercial use."
+ },
+ "openai/gpt-image-2.5/sunburst/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "GPT Image 2.5 Sunburst Text to Image",
+  "data": "2026-09-08",
+  "desc": "OpenAI's precision-focused image model, built for premium visual work, extra fidelity on intricate detail, in exchange for longer generation times."
+ },
+ "fal-ai/flux-2-pro": {
+  "cat": "text-to-image",
+  "nome": "Flux 2 Pro",
+  "data": "2025-11-23",
+  "desc": "Image editing with FLUX.2 [pro] from Black Forest Labs. Ideal for high-quality image manipulation, style transfer, and sequential editing workflows"
+ },
+ "fal-ai/nano-banana": {
+  "cat": "text-to-image",
+  "nome": "Nano Banana",
+  "data": "2025-08-19",
+  "desc": "Google's famous original image generation and editing model"
+ },
+ "fal-ai/flux-pro/v1.1": {
+  "cat": "text-to-image",
+  "nome": "FLUX1.1 [pro]",
+  "data": "2025-01-16",
+  "desc": "FLUX1.1 [pro] is an enhanced version of FLUX.1 [pro], improved image generation capabilities, delivering superior composition, detail, and artistic fidelity com"
+ },
+ "fal-ai/flux-pro/v1.1-ultra": {
+  "cat": "text-to-image",
+  "nome": "FLUX1.1 [pro] ultra",
+  "data": "2024-12-17",
+  "desc": "FLUX1.1 [pro] ultra is the newest version of FLUX1.1 [pro], maintaining professional-grade image quality while delivering up to 2K resolution with improved phot"
+ },
+ "bytedance/seedream/v5/pro/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Seedream 5.0 Pro Text to Image",
+  "data": "2026-07-07",
+  "desc": "ByteDance's Seedream 5.0 Pro is flagship text-to-image model, with deep-thinking prompt understanding, native text in 14 languages, and precise control over den"
+ },
+ "fal-ai/z-image/turbo": {
+  "cat": "text-to-image",
+  "nome": "Z Image Turbo",
+  "data": "2025-11-26",
+  "desc": "Z-Image Turbo is a super fast text-to-image model of 6B parameters developed by Tongyi-MAI."
+ },
+ "fal-ai/bytedance/seedream/v4.5/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Bytedance Seedream V4.5 Text To Image",
+  "data": "2025-12-03",
+  "desc": "A new-generation image creation model ByteDance, Seedream 4.5 integrates image generation and image editing capabilities into a single, unified architecture."
+ },
+ "fal-ai/bytedance/seedream/v4/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Bytedance Seedream V4 Text To Image",
+  "data": "2025-09-09",
+  "desc": "A new-generation image creation model ByteDance, Seedream 4.0 integrates image generation and image editing capabilities into a single, unified architecture."
+ },
+ "fal-ai/flux-2/klein/9b": {
+  "cat": "text-to-image",
+  "nome": "FLUX.2 [klein] 9B",
+  "data": "2026-01-15",
+  "desc": "Text-to-image generation with FLUX.2 [klein] 9B from Black Forest Labs. Enhanced realism, crisper text generation, and native editing capabilities."
+ },
+ "fal-ai/flux-2": {
+  "cat": "text-to-image",
+  "nome": "FLUX 2",
+  "data": "2025-11-23",
+  "desc": "Text-to-image generation with FLUX.2 [dev] from Black Forest Labs. Enhanced realism, crisper text generation, and native editing capabilities."
+ },
+ "blackforestlabs/flux-3/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Flux 3 Image",
+  "data": "2026-10-01",
+  "desc": "FLUX 3 Image is Black Forest Labs' newest image model. Generate detailed, well-composed images in native 2K and 4K with precise layout control and improved text"
+ },
+ "meta/muse-image/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Meta Muse Image Text to Image",
+  "data": "2026-08-21",
+  "desc": "Meta's Muse Image model has faithful instruction-following and exceptional visual fidelity, with fine details like text, plots, and QR codes rendered accurately"
+ },
+ "xai/grok-imagine-image": {
+  "cat": "text-to-image",
+  "nome": "Grok Imagine Image",
+  "data": "2026-01-29",
+  "desc": "Generate highly aesthetic images with xAI's Grok Imagine Image generation model."
+ },
+ "fal-ai/ideogram/v3": {
+  "cat": "text-to-image",
+  "nome": "Ideogram Text to Image",
+  "data": "2025-05-01",
+  "desc": "Generate high-quality images, posters, and logos with Ideogram V3. Features exceptional typography handling and realistic outputs optimized for commercial and c"
+ },
+ "fal-ai/flux-2/flash": {
+  "cat": "text-to-image",
+  "nome": "FLUX 2 Flash",
+  "data": "2025-12-16",
+  "desc": "Text-to-image generation with FLUX.2 [dev] from Black Forest Labs. Enhanced realism, crisper text generation, and native editing capabilities— in a flash."
+ },
+ "google/nano-banana-2-lite": {
+  "cat": "text-to-image",
+  "nome": "Nano Banana 2 Lite",
+  "data": "2026-06-30",
+  "desc": "Nano banana lite is the efficiency-focused model in the image generation family. Sub-2 second latency with cost-effective generation and editing, fast multi-tur"
+ },
+ "fal-ai/recraft/v3/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Recraft V3",
+  "data": "2025-05-07",
+  "desc": "Recraft V3 is a text-to-image model with the ability to generate long texts, vector art, images in brand style, and much more. As of today, it is SOTA in image "
+ },
+ "fal-ai/gpt-image-1.5": {
+  "cat": "text-to-image",
+  "nome": "GPT-Image 1.5",
+  "data": "2025-12-16",
+  "desc": "GPT Image 1.5 generates high-fidelity images with strong prompt adherence, preserving composition, lighting, and fine-grained detail."
+ },
+ "fal-ai/flux-2/turbo": {
+  "cat": "text-to-image",
+  "nome": "FLUX 2 Turbo",
+  "data": "2025-12-16",
+  "desc": "Text-to-image generation with FLUX.2 [dev] from Black Forest Labs. Enhanced realism, crisper text generation, and native editing capabilities—all at turbo speed"
+ },
+ "xai/grok-imagine-image/v2.0/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Grok Imagine Image 2.0",
+  "data": "2026-08-06",
+  "desc": "Generate images from text using xAi's Grok Imagine 2.0 model."
+ },
+ "blackforestlabs/flux-3/klein/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "FLUX.3 Klein",
+  "data": "2026-10-14",
+  "desc": "Generates images from text prompts with FLUX.3 Klein, with configurable image size, reproducible seeds, prompt expansion and optional bounding-box layout contro"
+ },
+ "krea/v2/large/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Krea 2 Large",
+  "data": "2026-05-27",
+  "desc": "Generate high-fidelity images from text with Krea 2 Large, supporting aspect ratio, creativity, seed controls, and optional style references."
+ },
+ "fal-ai/flux-2/klein/4b": {
+  "cat": "text-to-image",
+  "nome": "FLUX.2 [klein] 4B",
+  "data": "2026-01-15",
+  "desc": "Text-to-image generation with FLUX.2 [klein] 4B from Black Forest Labs. Enhanced realism, crisper text generation, and native editing capabilities."
+ },
+ "ideogram/v4.5": {
+  "cat": "text-to-image",
+  "nome": "Ideogram V4.5 Text to Image",
+  "data": "2026-09-30",
+  "desc": "Generate high-quality images, posters, and logos with Ideogram 4.5, with accurate text rendering and low, medium, or high quality tiers."
+ },
+ "krea/v3/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Krea 3 Text to Image",
+  "data": "2026-10-14",
+  "desc": "Generates images from text prompts with optional prompt expansion, configurable output dimensions, and seed control."
+ },
+ "fal-ai/flux-1/schnell": {
+  "cat": "text-to-image",
+  "nome": "FLUX.1 [schnell]",
+  "data": "2025-06-02",
+  "desc": "Fastest inference in the world for the 12 billion parameter FLUX.1 [schnell] text-to-image model. "
+ },
+ "bytedance/seedream/v5/flash/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Seedream",
+  "data": "2026-09-23",
+  "desc": "Seedream 5.0 Flash is a fast image generation and editing model, built for workflows where speed and budget matter."
+ },
+ "fal-ai/krea-2/turbo": {
+  "cat": "text-to-image",
+  "nome": "Krea 2 Turbo",
+  "data": "2026-06-18",
+  "desc": "Generate high-fidelity images from text in seconds with Krea 2 Turbo, the speed-optimized open-source version of Krea 2, preserving its aesthetic range for rapi"
+ },
+ "fal-ai/qwen-image": {
+  "cat": "text-to-image",
+  "nome": "Qwen Image",
+  "data": "2025-08-04",
+  "desc": "Qwen-Image is an image generation foundation model in the Qwen series that achieves significant advances in complex text rendering and precise image editing. "
+ },
+ "fal-ai/flux-2-max": {
+  "cat": "text-to-image",
+  "nome": "Flux 2 Max",
+  "data": "2025-12-16",
+  "desc": "FLUX.2 [max] delivers state-of-the-art image generation and advanced image editing with exceptional realism, precision, and consistency."
+ },
+ "alibaba/qwen-image-3/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Qwen Image 3 Text to Image",
+  "data": "2026-07-21",
+  "desc": "Generates images from a text prompt at resolutions up to 2048×2048, with automatic prompt rewriting and prompt-guided resolution selection, building on Qwen's s"
+ },
+ "fal-ai/gemini-3-pro-image-preview": {
+  "cat": "text-to-image",
+  "nome": "Gemini 3 Pro Image Preview",
+  "data": "2025-11-20",
+  "desc": "Gemini 3 Pro Image (a.k.a Nano Banana Pro) is Google's state-of-the-art high-fidelity image generation and editing model"
+ },
+ "fal-ai/recraft/v4.1/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Recraft V4.1 Text to Image",
+  "data": "2026-05-14",
+  "desc": " Recraft V4.1 builds on the design-first foundation of V4 with sharper prompt control and cleaner composition. Tuned for brand systems and editorial work, it de"
+ },
+ "bytedance/seedream/v5/lite/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Seedream",
+  "data": "2026-07-08",
+  "desc": "Text to Image endpoint for the fast Lite version of Seedream 5.0, supporting high quality intelligent text-to-image generation."
+ },
+ "ideogram/v4": {
+  "cat": "text-to-image",
+  "nome": "Ideogram V4.0 Text to Image",
+  "data": "2026-06-02",
+  "desc": "Generate high-quality images, posters, and logos with Ideogram's latest V4.0q — producing crisp visuals with accurate text rendering, fine detail, and full crea"
+ },
+ "fal-ai/gemini-25-flash-image": {
+  "cat": "text-to-image",
+  "nome": "Gemini 2.5 Flash Image",
+  "data": "2025-08-26",
+  "desc": "Google's famous original image generation and editing model, a.k.a Nano Banana"
+ },
+ "fal-ai/recraft/v4/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Recraft V4",
+  "data": "2026-02-12",
+  "desc": "Recraft V4 was developed with designers to bring true visual taste to AI image generation. Built for brand systems and production-ready workflows, it goes beyon"
+ },
+ "fal-ai/flux-pro/kontext/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "FLUX.1 Kontext [pro]",
+  "data": "2025-05-28",
+  "desc": "The FLUX.1 Kontext [pro] text-to-image delivers state-of-the-art image generation results with unprecedented prompt following, photorealistic rendering, and fla"
+ },
+ "google/nano-banana-lite": {
+  "cat": "text-to-image",
+  "nome": "Nano Banana Lite",
+  "data": "2026-06-30",
+  "desc": "Nano banana lite is the efficiency-focused model in the image generation family. Sub-2 second latency with cost-effective generation and editing, fast multi-tur"
+ },
+ "xai/grok-imagine-image/quality/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Grok Imagine Image",
+  "data": "2026-04-09",
+  "desc": "Grok Imagine Pro is an advanced AI model from xAI that creates high-quality visuals from text prompts and allows you to edit or analyze existing images."
+ },
+ "fal-ai/flux-2-flex": {
+  "cat": "text-to-image",
+  "nome": "Flux 2 Flex",
+  "data": "2025-11-25",
+  "desc": "Text-to-image generation with FLUX.2 [flex] from Black Forest Labs. Features adjustable inference steps and guidance scale for fine-tuned control. Enhanced typo"
+ },
+ "fal-ai/gemini-3.1-flash-image-preview": {
+  "cat": "text-to-image",
+  "nome": "Gemini 3.1 Flash Image Preview",
+  "data": "2026-02-26",
+  "desc": "Gemini 3.1 Flash Image (a.k.a Nano Banana 2) is Google's new state-of-the-art fast image generation and editing model"
+ },
+ "fal-ai/qwen-image-2512": {
+  "cat": "text-to-image",
+  "nome": "Qwen Image 2512",
+  "data": "2025-12-30",
+  "desc": "Qwen Image 2512 is an improved version of Qwen Image with better text rendering, finer natural textures, and more realistic human generation."
+ },
+ "bria/fibo-2/generate": {
+  "cat": "text-to-image",
+  "nome": "Fibo 2.0 Generate",
+  "data": "2026-10-19",
+  "desc": "Fibo 2.0 Generate is Bria's text-to-image model, strongest on reasoning and knowledge-heavy prompts the ones that need real understanding, not just a style matc"
+ },
+ "recraft/v4.1/flash/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Recraft V4.1 Flash Text to Image",
+  "data": "2026-09-20",
+  "desc": "Recraft V4.1 Flash generates raster images from text prompts, including photography, illustrations, and mixed-media compositions, with controls for image size, "
+ },
+ "fal-ai/flux-general": {
+  "cat": "text-to-image",
+  "nome": "FLUX.1 [dev] with Controlnets and Loras",
+  "data": "2024-08-21",
+  "desc": "A versatile endpoint for the FLUX.1 [dev] model that supports multiple AI extensions including LoRA, ControlNet conditioning, and IP-Adapter integration, enabli"
+ },
+ "fal-ai/moss-image": {
+  "cat": "text-to-image",
+  "nome": "MOSS Image",
+  "data": "2026-10-18",
+  "desc": "MOSS-Image-SFT is a text-to-image model specializing in Chinese and English text rendering and structured layout control for precise text placement and object a"
+ },
+ "fal-ai/recraft/v4.1/pro/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Recraft V4.1 Text to Image Pro",
+  "data": "2026-05-14",
+  "desc": "Recraft V4.1 Pro pushes the V4.1 model into high-resolution territory — up to 2048×2048 and ultra-wide formats. Made for hero imagery, campaign work, and print,"
+ },
+ "fal-ai/kling-image/o3/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Kling Image",
+  "data": "2026-02-03",
+  "desc": "Kling Omni 3: Top-tier text-to-image with flawless consistency."
+ },
+ "krea/v2/medium/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Krea 2 Medium",
+  "data": "2026-05-27",
+  "desc": "Generate high-quality images from text with Krea 2 Medium, supporting aspect ratio, creativity controls, seeds, and optional style references."
+ },
+ "fal-ai/recraft/v4/pro/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Recraft V4 Pro",
+  "data": "2026-02-12",
+  "desc": "Recraft V4 was developed with designers to bring true visual taste to AI image generation. Built for brand systems and production-ready workflows, it goes beyon"
+ },
+ "fal-ai/kling-image/v3/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Kling Image",
+  "data": "2026-02-03",
+  "desc": "Kling V3: Latest Kling Image model"
+ },
+ "fal-ai/gpt-image-1-mini": {
+  "cat": "text-to-image",
+  "nome": "GPT Image 1 Mini",
+  "data": "2025-10-21",
+  "desc": "GPT Image 1 mini combines OpenAI's advanced language capabilities, powered by GPT-5, with GPT Image 1 Mini for efficient image generation. "
+ },
+ "fal-ai/flux/krea": {
+  "cat": "text-to-image",
+  "nome": "FLUX.1 Krea [dev]",
+  "data": "2025-07-30",
+  "desc": "FLUX.1 Krea [dev] is a 12 billion parameter flow transformer that generates high-quality images from text with incredible aesthetics. It is suitable for persona"
+ },
+ "fal-ai/minimax/image-01": {
+  "cat": "text-to-image",
+  "nome": "MiniMax (Hailuo AI) Text to Image",
+  "data": "2025-05-06",
+  "desc": "Generate high quality images from text prompts using MiniMax Image-01. Longer text prompts will result in better quality images."
+ },
+ "microsoft/mai-image-2.5": {
+  "cat": "text-to-image",
+  "nome": "Mai Image 2.5 Text to Image",
+  "data": "2026-06-02",
+  "desc": "MAI-Image-2.5 is Microsoft's photorealistic image generation and editing model that turns text prompts or uploaded images into high-quality, design-ready visual"
+ },
+ "fal-ai/flux-pro/kontext/max/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "FLUX.1 Kontext [max]",
+  "data": "2025-05-29",
+  "desc": "FLUX.1 Kontext [max] text-to-image is a new premium model brings maximum performance across all aspects – greatly improved prompt adherence."
+ },
+ "fal-ai/hunyuan-image/v3/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Hunyuan Image",
+  "data": "2025-09-28",
+  "desc": "Leverage the state-of-the-art capabilities of Hunyuan Image 3.0 to generate visual content that effectively conveys the messaging of your written material."
+ },
+ "fal-ai/wan/v2.7/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Wan",
+  "data": "2026-04-01",
+  "desc": "Generate high-quality images from text prompts using the WAN 2.7 model with advanced prompt understanding and detailed output."
+ },
+ "fal-ai/stable-diffusion-v35-large": {
+  "cat": "text-to-image",
+  "nome": "Stable Diffusion 3.5 Large",
+  "data": "2024-10-27",
+  "desc": "Stable Diffusion 3.5 Large is a Multimodal Diffusion Transformer (MMDiT) text-to-image model that features improved performance in image quality, typography, co"
+ },
+ "ideogram/v4/fast": {
+  "cat": "text-to-image",
+  "nome": "V4.0q [fast]",
+  "data": "2026-07-03",
+  "desc": "Generate high-quality images, posters, and logos with Ideogram's latest V4.0q — producing crisp visuals with accurate text rendering, fine detail, and full crea"
+ },
+ "fal-ai/wan/v2.7/pro/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Wan",
+  "data": "2026-04-01",
+  "desc": "Generate premium-quality images from text prompts using the enhanced WAN 2.7 Pro model with superior detail and composition."
+ },
+ "ideogram/v4/instant": {
+  "cat": "text-to-image",
+  "nome": "V4.0q [instant]",
+  "data": "2026-07-06",
+  "desc": "Generate high-quality images, posters, and logos with Ideogram's latest V4.0q — producing crisp visuals with accurate text rendering, fine detail, and full crea"
+ },
+ "fal-ai/z-image/base": {
+  "cat": "text-to-image",
+  "nome": "Z Image Base",
+  "data": "2026-01-27",
+  "desc": "Z-Image is the foundation model of the Z- Image family, engineered for good quality, robust generative diversity, broad stylistic coverage, and precise prompt a"
+ },
+ "fal-ai/hidream-i1-fast": {
+  "cat": "text-to-image",
+  "nome": "Hidream I1 Fast",
+  "data": "2025-04-11",
+  "desc": "HiDream-I1 fast is a new open-source image generative foundation model with 17B parameters that achieves state-of-the-art image generation quality within 16 ste"
+ },
+ "luma/agent/uni-1/v1/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Luma Uni-1 Text to Image",
+  "data": "2026-06-09",
+  "desc": "Luma Uni-1 turns a text prompt into a single high-fidelity image, with control over aspect ratio and visual style, plus optional web-sourced and reference-image"
+ },
+ "luma/agent/uni-1/v1/max": {
+  "cat": "text-to-image",
+  "nome": "Luma Uni-1 Text to Image Max",
+  "data": "2026-06-09",
+  "desc": "Luma Uni-1 Max generates a single image at the model's highest fidelity, delivering richer detail and stronger prompt adherence than the base tier for hero-qual"
+ },
+ "krea/v2/medium/turbo/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Krea 2 Medium Text to Image Turbo",
+  "data": "2026-06-03",
+  "desc": "Generate high-fidelity images extremely fast from text with Krea 2 Medium Turbo, supporting aspect ratio, creativity, seed controls, and optional style referenc"
+ },
+ "fal-ai/flux-1/dev": {
+  "cat": "text-to-image",
+  "nome": "FLUX.1 [dev]",
+  "data": "2025-06-02",
+  "desc": "FLUX.1 [dev] is a 12 billion parameter flow transformer that generates high-quality images from text. It is suitable for personal and commercial use.\n"
+ },
+ "fal-ai/ernie-image/turbo": {
+  "cat": "text-to-image",
+  "nome": "Ernie Image Turbo",
+  "data": "2026-04-13",
+  "desc": "High-quality text-to-image model by Baidu. Supports English, Chinese, and Japanese prompts with built-in prompt expansion."
+ },
+ "fal-ai/hidream-i1-full": {
+  "cat": "text-to-image",
+  "nome": "Hidream I1 Full",
+  "data": "2025-04-11",
+  "desc": "HiDream-I1 full is a new open-source image generative foundation model with 17B parameters that achieves state-of-the-art image generation quality within second"
+ },
+ "recraft/v4/style/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Recraft V4 Styles Text to Image",
+  "data": "2026-08-26",
+  "desc": "Generates raster images that hold a consistent style, from either a saved style ID or reference images attached directly."
+ },
+ "microsoft/mai-image-2.5-pro": {
+  "cat": "text-to-image",
+  "nome": "MAI Image 2.5 Pro (Text to Image)",
+  "data": "2026-07-28",
+  "desc": "Generate high-fidelity, design-ready images with precise typography, strong prompt alignment, and rich visual detail using Microsoft's flagship MAI Image 2.5 Pr"
+ },
+ "fal-ai/hidream-o1-image": {
+  "cat": "text-to-image",
+  "nome": "Hidream O1 Image",
+  "data": "2026-05-09",
+  "desc": "Unified image generation with HiDream-O1-Image. Create, edit, and personalize high-resolution images up to 2K—single native model handles text-to-image, editing"
+ },
+ "wan/v2.6/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Wan v2.6 Text to Image",
+  "data": "2025-12-23",
+  "desc": "Wan 2.6 text-to-image model."
+ },
+ "fal-ai/hunyuan-image/v3/instruct/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Hunyuan Image 3.0 Instruct",
+  "data": "2026-01-28",
+  "desc": "Instruct version of Hunyuan-Image 3.0, with internal reasoning capabilities."
+ },
+ "fal-ai/flux-2/klein/9b/base": {
+  "cat": "text-to-image",
+  "nome": "FLUX.2 [klein] 9B Base",
+  "data": "2026-01-15",
+  "desc": "Text-to-image generation with FLUX.2 [klein] 9B Base from Black Forest Labs. Enhanced realism, crisper text generation, and native editing capabilities."
+ },
+ "fal-ai/recraft-20b": {
+  "cat": "text-to-image",
+  "nome": "Recraft 20b",
+  "data": "2024-12-16",
+  "desc": "Recraft 20b is a new and affordable text-to-image model."
+ },
+ "fal-ai/flux-1/krea": {
+  "cat": "text-to-image",
+  "nome": "FLUX.1 Krea [dev]",
+  "data": "2025-07-30",
+  "desc": "FLUX.1 Krea [dev] is a 12 billion parameter flow transformer that generates high-quality images from text with incredible aesthetics. It is suitable for persona"
+ },
+ "fal-ai/stable-diffusion-v3-medium": {
+  "cat": "text-to-image",
+  "nome": "Stable Diffusion V3",
+  "data": "2024-08-20",
+  "desc": "Stable Diffusion 3 Medium (Text to Image) is a Multimodal Diffusion Transformer (MMDiT) model that improves image quality, typography, prompt understanding, and"
+ },
+ "recraft/v4/style/pro/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Recraft V4 Styles Pro Text to Image",
+  "data": "2026-08-26",
+  "desc": "Generates raster images that hold a consistent style, from either a saved style ID or reference images attached directly."
+ },
+ "fal-ai/ernie-image": {
+  "cat": "text-to-image",
+  "nome": "Ernie Image",
+  "data": "2026-04-10",
+  "desc": "High-quality text-to-image model by Baidu. Supports English, Chinese, and Japanese prompts with built-in prompt expansion."
+ },
+ "fal-ai/luma-photon": {
+  "cat": "text-to-image",
+  "nome": "Luma Photon",
+  "data": "2024-06-03",
+  "desc": "Generate images from your prompts using Luma Photon. Photon is the most creative, personalizable, and intelligent visual models for creatives, bringing a step-f"
+ },
+ "fal-ai/wan-25-preview/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Wan 2.5 Text to Image",
+  "data": "2025-09-25",
+  "desc": "Wan 2.5 text-to-image model."
+ },
+ "fal-ai/phota": {
+  "cat": "text-to-image",
+  "nome": "Phota Text to Image",
+  "data": "2026-03-26",
+  "desc": "Phota's model empowers developers, photographers, and creators with personalized photograph generation and editing."
+ },
+ "fal-ai/krea-2/turbo/style": {
+  "cat": "text-to-image",
+  "nome": "Krea 2 Text to Image Turbo Style",
+  "data": "2026-07-10",
+  "desc": "Generate high-fidelity images from text with Krea 2 using a style reference image. Apply a reference image to guide the visual style into new generations, with "
+ },
+ "fal-ai/flux-2/klein/4b/base": {
+  "cat": "text-to-image",
+  "nome": "FLUX.2 [klein] 4B Base",
+  "data": "2026-01-15",
+  "desc": "Text-to-image generation with FLUX.2 [klein] 4B Base from Black Forest Labs. Enhanced realism, crisper text generation, and native editing capabilities."
+ },
+ "fal-ai/luma-photon/flash": {
+  "cat": "text-to-image",
+  "nome": "Luma Photon Flash",
+  "data": "2024-12-03",
+  "desc": "Generate images from your prompts using Luma Photon Flash. Photon Flash is the most creative, personalizable, and intelligent visual models for creatives, bring"
+ },
+ "nvidia/cosmos-3-super/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Cosmos 3 Super",
+  "data": "2026-06-01",
+  "desc": "Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text"
+ },
+ "fal-ai/boogu-image": {
+  "cat": "text-to-image",
+  "nome": "Boogu Image",
+  "data": "2026-06-18",
+  "desc": "Text To Image Model using Boogu-Image"
+ },
+ "fal-ai/stable-diffusion-v35-medium": {
+  "cat": "text-to-image",
+  "nome": "Stable Diffusion 3.5 Medium",
+  "data": "2024-10-27",
+  "desc": "Stable Diffusion 3.5 Medium is a Multimodal Diffusion Transformer (MMDiT) text-to-image model that features improved performance in image quality, typography, c"
+ },
+ "fal-ai/nucleus-image": {
+  "cat": "text-to-image",
+  "nome": "Nucleus Image",
+  "data": "2026-04-16",
+  "desc": "Nucleus-Image is a text-to-image generation model built on a sparse mixture-of-experts (MoE) diffusion transformer architecture."
+ },
+ "bria/fibo/generate": {
+  "cat": "text-to-image",
+  "nome": "Fibo",
+  "data": "2025-10-29",
+  "desc": "SOTA open-source text-to-image model delivering high-fidelity outputs with accurate typography. JSON-structured prompts provide production-ready controllability"
+ },
+ "fal-ai/glm-image": {
+  "cat": "text-to-image",
+  "nome": "GLM Image",
+  "data": "2026-01-14",
+  "desc": "Create high-quality images with accurate text rendering and rich knowledge details—supports editing, style transfer, and maintaining consistent characters acros"
+ },
+ "fal-ai/recraft/v4.1/utility/pro/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Recraft V4.1 Utility Text to Image",
+  "data": "2026-05-14",
+  "desc": "Recraft V4.1 Utility Pro pairs the high-resolution output of V4.1 Pro with a faster, cost-efficient runtime. Designed for studios shipping large-format work at "
+ },
+ "fal-ai/flux/srpo": {
+  "cat": "text-to-image",
+  "nome": "FLUX.1 SRPO [dev]",
+  "data": "2025-09-15",
+  "desc": "FLUX.1 SRPO [dev] is a 12 billion parameter flow transformer that generates high-quality images from text with incredible aesthetics. It is suitable for persona"
+ },
+ "fal-ai/hidream-o1-image/dev": {
+  "cat": "text-to-image",
+  "nome": "Hidream O1 Image",
+  "data": "2026-05-09",
+  "desc": "Unified image generation with HiDream-O1-Image. Create, edit, and personalize high-resolution images up to 2K—single native model handles text-to-image, editing"
+ },
+ "bria/fibo-gen-1.5/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Fibo Gen 1.5 Text to Image",
+  "data": "2026-08-18",
+  "desc": "Text-to-image model with high-fidelity outputs, accurate typography, and style preset, strong in photorealism, textures, and beyond. JSON-structured prompts giv"
+ },
+ "fal-ai/recraft/v4.1/utility/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Recraft V4.1 Text to Image Utility",
+  "data": "2026-05-14",
+  "desc": "Recraft V4.1 Utility is a faster, lighter variant of V4.1 made for high-volume creative workflows. Ideal for ideation, A/B exploration, and content pipelines, i"
+ },
+ "fal-ai/longcat-image": {
+  "cat": "text-to-image",
+  "nome": "Longcat Image",
+  "data": "2025-12-05",
+  "desc": "LongCat image is a 6B parameter model excelling at multilingual text rendering, photorealism and deployment efficiency."
+ },
+ "fal-ai/hunyuan-image/v2.1/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Hunyuan Image",
+  "data": "2025-09-09",
+  "desc": "Use the amazing capabilities of hunyuan image 2.1 to generate images that express the feelings of your text."
+ },
+ "bria/fibo-lite/generate": {
+  "cat": "text-to-image",
+  "nome": "Fibo Lite",
+  "data": "2025-12-16",
+  "desc": "Fast, low-latency text-to-image model with high-quality output and full JSON-structured controllability. Open-source, trained on licensed data, and optimized fo"
+ },
+ "fal-ai/bria/text-to-image/base": {
+  "cat": "text-to-image",
+  "nome": "Bria Text-to-Image Base",
+  "data": "2024-12-19",
+  "desc": "Bria's Text-to-Image model, trained exclusively on licensed data for safe and risk-free commercial use. Available also as source code and weights. For access to"
+ },
+ "fal-ai/emu-3.5-image/text-to-image": {
+  "cat": "text-to-image",
+  "nome": "Emu 3.5 Image",
+  "data": "2025-11-01",
+  "desc": "Generate images from text using Emu 3.5 Image"
+ },
+ "fal-ai/flux-1/srpo": {
+  "cat": "text-to-image",
+  "nome": "FLUX.1 SRPO [dev]",
+  "data": "2025-09-15",
+  "desc": "FLUX.1 SRPO [dev] is a 12 billion parameter flow transformer that generates high-quality images from text with incredible aesthetics. It is suitable for persona"
+ },
+ "fal-ai/vecglypher": {
+  "cat": "text-to-image",
+  "nome": "Vecglypher",
+  "data": "2026-03-10",
+  "desc": "Vector font generation with VecGlypher. Create custom glyphs from text descriptions or reference images—outputs clean SVG paths directly without raster-to-vecto"
+ },
+ "fal-ai/bria/text-to-image/fast": {
+  "cat": "text-to-image",
+  "nome": "Bria Text-to-Image Fast",
+  "data": "2024-12-19",
+  "desc": "Bria's Text-to-Image model with perfect harmony of latency and quality. Trained exclusively on licensed data for safe and risk-free commercial use. Available al"
+ },
+ "bria/fibo-bbq-preview/generate": {
+  "cat": "text-to-image",
+  "nome": "Fibo Bbq Preview",
+  "data": "2026-03-02",
+  "desc": "A preview to the next level of control of Text-to-Image models."
+ },
+ "fal-ai/bria/text-to-image/hd": {
+  "cat": "text-to-image",
+  "nome": "Bria Text-to-Image HD",
+  "data": "2024-12-19",
+  "desc": "Bria's Text-to-Image model for HD images. Trained exclusively on licensed data for safe and risk-free commercial use. Available also as source code and weights."
+ },
+ "fal-ai/nano-banana-pro/edit": {
+  "cat": "image-to-image",
+  "nome": "Nano Banana Pro",
+  "data": "2025-11-20",
+  "desc": "Nano Banana Pro is Google's new state-of-the-art image generation and editing model"
+ },
+ "fal-ai/nano-banana-2/edit": {
+  "cat": "image-to-image",
+  "nome": "Nano Banana 2",
+  "data": "2026-02-26",
+  "desc": "Nano Banana 2 is Google's new state-of-the-art image generation and editing model\n"
+ },
+ "google/nano-banana-2.1/edit": {
+  "cat": "image-to-image",
+  "nome": "Nano Banana 2.1 Edit",
+  "data": "2026-10-06",
+  "desc": "Nano Banana 2.1 Edit by Google transforms reference images using text instructions, with output resolutions up to 4K and optional video or PDF context."
+ },
+ "openai/gpt-image-2.5/sunburst/edit": {
+  "cat": "image-to-image",
+  "nome": "GPT Image 2.5 Sunburst Edit ",
+  "data": "2026-09-08",
+  "desc": "Editing built for the tightest control, edits scoped precisely to the instruction, with subject and composition preserved across many rounds of revision."
+ },
+ "openai/gpt-image-2/edit": {
+  "cat": "image-to-image",
+  "nome": "GPT Image 2 API",
+  "data": "2026-04-20",
+  "desc": "GPT Image 2, OpenAI's latest image model, is capable of making fine-grained, detailed edits to images."
+ },
+ "fal-ai/nano-banana/edit": {
+  "cat": "image-to-image",
+  "nome": "Nano Banana",
+  "data": "2025-08-19",
+  "desc": "Google's famous original image generation and editing model"
+ },
+ "openai/gpt-image-2.5/flare/edit": {
+  "cat": "image-to-image",
+  "nome": "GPT Image 2.5 Flare Edit",
+  "data": "2026-09-08",
+  "desc": "Precise image editing that changes only what's asked, keeping subject, composition, and background intact, with reference subjects staying recognizable across s"
+ },
+ "bytedance/seedream/v5/pro/edit": {
+  "cat": "image-to-image",
+  "nome": "Seedream 5.0 Pro Image Editing",
+  "data": "2026-07-07",
+  "desc": "Seedream 5.0 Pro is grounded, region-precise image editing model that changes one element while keeping the rest of the frame intact with layer separation, sket"
+ },
+ "fal-ai/flux-pro/kontext": {
+  "cat": "image-to-image",
+  "nome": "FLUX.1 Kontext [pro]",
+  "data": "2025-05-28",
+  "desc": "FLUX.1 Kontext [pro] handles both text and reference images as inputs, seamlessly enabling targeted, local edits and complex transformations of entire scenes."
+ },
+ "fal-ai/bytedance/seedream/v4.5/edit": {
+  "cat": "image-to-image",
+  "nome": "Bytedance Seedream V4.5 Edit",
+  "data": "2025-12-03",
+  "desc": "A new-generation image creation model ByteDance, Seedream 4.5 integrates image generation and image editing capabilities into a single, unified architecture.\n"
+ },
+ "fal-ai/flux-2-pro/edit": {
+  "cat": "image-to-image",
+  "nome": "FLUX 2 Pro Edit",
+  "data": "2025-11-23",
+  "desc": "Text-to-image generation with FLUX.2 [pro] from Black Forest Labs. Optimized for maximum quality, exceptional photorealism and artistic images."
+ },
+ "blackforestlabs/flux-3/edit-image": {
+  "cat": "image-to-image",
+  "nome": "Flux 3 Image",
+  "data": "2026-10-01",
+  "desc": "FLUX 3 Image Edit from Black Forest Labs makes precise local edits without changing the rest of the image, and combines up to 10 references into one balanced, w"
+ },
+ "fal-ai/bytedance/seedream/v4/edit": {
+  "cat": "image-to-image",
+  "nome": "Bytedance Seedream V4 Edit",
+  "data": "2025-09-09",
+  "desc": "A new-generation image creation model ByteDance, Seedream 4.0 integrates image generation and image editing capabilities into a single, unified architecture."
+ },
+ "meta/muse-image/edit": {
+  "cat": "image-to-image",
+  "nome": "Meta Muse Image Edit",
+  "data": "2026-08-21",
+  "desc": "Meta's Muse Image model does precise edits that change only what you ask, stay coherent across turns, and compose from multiple reference images."
+ },
+ "xai/grok-imagine-image/edit": {
+  "cat": "image-to-image",
+  "nome": "Grok Imagine Image",
+  "data": "2026-01-29",
+  "desc": "Edit images precisely with xAI's Grok Imagine model"
+ },
+ "xai/grok-imagine-image/v2.0/edit": {
+  "cat": "image-to-image",
+  "nome": "Grok Imagine Image 2.0",
+  "data": "2026-08-06",
+  "desc": "Edit images with xAi's Grok Imagine 2.0 model."
+ },
+ "fal-ai/flux-2/klein/9b/edit": {
+  "cat": "image-to-image",
+  "nome": "FLUX.2 [klein] 9B",
+  "data": "2026-01-15",
+  "desc": "Image-to-image editing with FLUX.2 [klein] 9B from Black Forest Labs. Precise modifications using natural language descriptions and hex color control."
+ },
+ "blackforestlabs/flux-3/klein/edit-image": {
+  "cat": "image-to-image",
+  "nome": "FLUX.3 Klein Image Editing",
+  "data": "2026-10-14",
+  "desc": "Edits and composes images from text instructions and up to ten references with FLUX.3 Klein, with optional bounding-box controls for object placement and transf"
+ },
+ "ideogram/v4.5/edit": {
+  "cat": "image-to-image",
+  "nome": "Ideogram V4.5 Edit",
+  "data": "2026-09-30",
+  "desc": "Edit images with Ideogram 4.5: prompt edits with up to 4 reference images, optional mask, and a high-precision mode that keeps unchanged pixels intact."
+ },
+ "google/nano-banana-lite/edit": {
+  "cat": "image-to-image",
+  "nome": "Nano Banana Lite Edit",
+  "data": "2026-06-30",
+  "desc": "Nano banana lite is the efficiency-focused model in the image generation family. Sub-2 second latency with cost-effective generation and editing, fast multi-tur"
+ },
+ "fal-ai/gpt-image-1.5/edit": {
+  "cat": "image-to-image",
+  "nome": "GPT-Image 1.5",
+  "data": "2025-12-16",
+  "desc": "GPT Image 1.5 generates high-fidelity images with strong prompt adherence, preserving composition, lighting, and fine-grained detail."
+ },
+ "fal-ai/flux-2/edit": {
+  "cat": "image-to-image",
+  "nome": "FLUX 2 Edit",
+  "data": "2025-11-23",
+  "desc": "Image-to-image editing with FLUX.2 [dev] from Black Forest Labs. Precise modifications using natural language descriptions and hex color control."
+ },
+ "bytedance/seedream/v5/flash/edit": {
+  "cat": "image-to-image",
+  "nome": "Seedream",
+  "data": "2026-09-23",
+  "desc": "Seedream 5.0 Flash is a fast image generation and editing model, built for workflows where speed and budget matter."
+ },
+ "krea/v3/edit": {
+  "cat": "image-to-image",
+  "nome": "Krea 3 Edit",
+  "data": "2026-10-14",
+  "desc": "Edits and combines reference images using text instructions, with optional prompt expansion, output-size controls, and reproducible generation through a seed."
+ },
+ "fal-ai/flux-pro/kontext/max": {
+  "cat": "image-to-image",
+  "nome": "FLUX.1 Kontext [max]",
+  "data": "2025-05-29",
+  "desc": "FLUX.1 Kontext [max] is a model with greatly improved prompt adherence and typography generation meet premium consistency for editing without compromise on spee"
+ },
+ "fal-ai/gemini-3-pro-image-preview/edit": {
+  "cat": "image-to-image",
+  "nome": "Gemini 3 Pro Image Preview",
+  "data": "2025-11-20",
+  "desc": "Gemini 3 Pro Image (a.k.a Nano Banana Pro) is Google's state-of-the-art high-fidelity image generation and editing model"
+ },
+ "fal-ai/gemini-25-flash-image/edit": {
+  "cat": "image-to-image",
+  "nome": "Gemini 2.5 Flash Image",
+  "data": "2025-08-26",
+  "desc": "Google's famous original image generation and editing model, a.k.a Nano Banana"
+ },
+ "fal-ai/qwen-image-edit-2511": {
+  "cat": "image-to-image",
+  "nome": "Qwen Image Edit 2511",
+  "data": "2025-12-19",
+  "desc": "Endpoint for Qwen's Image Editing 2511 model."
+ },
+ "fal-ai/flux-2/flash/edit": {
+  "cat": "image-to-image",
+  "nome": "FLUX 2 Flash Edit",
+  "data": "2025-12-16",
+  "desc": "Image-to-image editing with FLUX.2 [dev] from Black Forest Labs. Precise modifications using natural language descriptions and hex color control—in a flash."
+ },
+ "fal-ai/flux/dev/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "FLUX.1 [dev]",
+  "data": "2024-07-11",
+  "desc": "FLUX.1 Image-to-Image is a high-performance endpoint for the FLUX.1 [dev] model that enables rapid transformation of existing images, delivering high-quality st"
+ },
+ "alibaba/qwen-image-3/edit": {
+  "cat": "image-to-image",
+  "nome": "Qwen Image 3 Image Editing",
+  "data": "2026-07-21",
+  "desc": "Edits images from one to three reference images and a natural-language instruction, preserving key details such as facial features and identity while applying t"
+ },
+ "fal-ai/flux-2-max/edit": {
+  "cat": "image-to-image",
+  "nome": "Flux 2 Max",
+  "data": "2025-12-16",
+  "desc": "FLUX.2 [max] delivers state-of-the-art image generation and advanced image editing with exceptional realism, precision, and consistency."
+ },
+ "fal-ai/flux-2/klein/4b/edit": {
+  "cat": "image-to-image",
+  "nome": "FLUX.2 [klein] 4B",
+  "data": "2026-01-15",
+  "desc": "Image-to-image editing with FLUX.2 [klein] 4B from Black Forest Labs. Precise modifications using natural language descriptions and hex color control."
+ },
+ "bytedance/seedream/v5/lite/edit": {
+  "cat": "image-to-image",
+  "nome": "Seedream",
+  "data": "2026-07-08",
+  "desc": "Image editing endpoint for the fast Lite version of Seedream 5.0, supporting high quality intelligent image editing with multiple inputs."
+ },
+ "fal-ai/evf-sam": {
+  "cat": "image-to-image",
+  "nome": "EVF-SAM2 Segmentation",
+  "data": "2025-02-26",
+  "desc": "EVF-SAM2 combines natural language understanding with advanced segmentation capabilities, allowing you to precisely mask image regions using intuitive positive "
+ },
+ "fal-ai/flux-kontext/dev": {
+  "cat": "image-to-image",
+  "nome": "FLUX.1 Kontext [dev]",
+  "data": "2025-05-28",
+  "desc": "Frontier image editing model."
+ },
+ "xai/grok-imagine-image/quality/edit": {
+  "cat": "image-to-image",
+  "nome": "Grok Imagine Image Editing Quality",
+  "data": "2026-04-09",
+  "desc": "Grok Imagine Pro is an advanced AI model from xAI that creates high-quality visuals from text prompts and allows you to edit or analyze existing images."
+ },
+ "fal-ai/gemini-3.1-flash-image-preview/edit": {
+  "cat": "image-to-image",
+  "nome": "Gemini 3.1 Flash Image Preview",
+  "data": "2026-02-26",
+  "desc": "Gemini 3.1 Flash Image (a.k.a. Nano Banana 2) is Google's new state-of-the-art fast image generation and editing model"
+ },
+ "bria/fibo-2/edit": {
+  "cat": "image-to-image",
+  "nome": "Fibo 2.0 Edit",
+  "data": "2026-10-19",
+  "desc": "Fibo 2.0 Edit makes targeted, instruction-based edits from up to four images. Background swaps, product restaging, keeping the product true to the original. Tra"
+ },
+ "fal-ai/flux-pro/kontext/max/multi": {
+  "cat": "image-to-image",
+  "nome": "FLUX.1 Kontext [max]",
+  "data": "2025-05-29",
+  "desc": "Experimental version of FLUX.1 Kontext [max] with multi image handling capabilities"
+ },
+ "fal-ai/flux-2/turbo/edit": {
+  "cat": "image-to-image",
+  "nome": "FLUX 2 Turbo Edit",
+  "data": "2025-12-16",
+  "desc": "Image-to-image editing with FLUX.2 [dev] from Black Forest Labs. Precise modifications using natural language descriptions and hex color control—all at turbo sp"
+ },
+ "fal-ai/z-image/turbo/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "Z Image Turbo Image To Image",
+  "data": "2025-12-07",
+  "desc": "Generate images from text and images using Z-Image Turbo, Tongyi-MAI's super-fast 6B model."
+ },
+ "fal-ai/qwen-image-edit-plus": {
+  "cat": "image-to-image",
+  "nome": "Qwen Image Edit Plus",
+  "data": "2025-09-22",
+  "desc": "Endpoint for Qwen's Image Editing Plus model also known as Qwen-Image-Edit-2509. Has superior text editing capabilities and multi-image support."
+ },
+ "fal-ai/kling-image/o3/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "Kling Image",
+  "data": "2026-02-03",
+  "desc": "Kling Omni 3: Top-tier image-to-image with flawless consistency."
+ },
+ "fal-ai/flux-pro/kontext/multi": {
+  "cat": "image-to-image",
+  "nome": "FLUX.1 Kontext [pro]",
+  "data": "2025-05-29",
+  "desc": "Experimental version of FLUX.1 Kontext [pro] with multi image handling capabilities"
+ },
+ "fal-ai/wan/v2.7/edit": {
+  "cat": "image-to-image",
+  "nome": "Wan",
+  "data": "2026-04-01",
+  "desc": "Transform and edit existing images with text-guided instructions using the WAN 2.7 model for creative image manipulation."
+ },
+ "fal-ai/flux-2-flex/edit": {
+  "cat": "image-to-image",
+  "nome": "Flux 2 Flex",
+  "data": "2025-11-25",
+  "desc": "Image editing with FLUX.2 [flex] from Black Forest Labs. Supports multi-reference editing with customizable inference steps and enhanced text rendering."
+ },
+ "fal-ai/wan/v2.7/pro/edit": {
+  "cat": "image-to-image",
+  "nome": "Wan",
+  "data": "2026-04-01",
+  "desc": "Edit and transform images using text instructions with the WAN 2.7 Pro model for precise, professional-grade image modifications."
+ },
+ "fal-ai/object-removal/mask": {
+  "cat": "image-to-image",
+  "nome": "Object Removal",
+  "data": "2025-06-16",
+  "desc": "Removes mask-selected objects and their visual effects, seamlessly reconstructing the scene with contextually appropriate content."
+ },
+ "microsoft/mai-image-2.5/edit": {
+  "cat": "image-to-image",
+  "nome": "Mai Image 2.5",
+  "data": "2026-06-03",
+  "desc": "MAI-Image-2.5 is Microsoft's photorealistic image generation and editing model that turns text prompts or uploaded images into high-quality, design-ready visual"
+ },
+ "fal-ai/kling-image/v3/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "Kling Image",
+  "data": "2026-02-03",
+  "desc": "Kling Image V3: Latest kling image model"
+ },
+ "fal-ai/hunyuan-image/v3/instruct/edit": {
+  "cat": "image-to-image",
+  "nome": "Hunyuan Image",
+  "data": "2026-01-28",
+  "desc": "Image editing endpoint for Hunyuan Image 3.0 Instruct."
+ },
+ "fal-ai/flux-general/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "FLUX.1 [dev] with Controlnets and Loras",
+  "data": "2024-08-14",
+  "desc": "FLUX General Image-to-Image is a versatile endpoint that transforms existing images with support for LoRA, ControlNet, and IP-Adapter extensions, enabling preci"
+ },
+ "fal-ai/kling-image/o1": {
+  "cat": "image-to-image",
+  "nome": "Kling O1 Image",
+  "data": "2025-12-01",
+  "desc": "Perform precise image edits using strong reference control, transforming subjects, styles, and local details while preserving visual consistency."
+ },
+ "fal-ai/ideogram/object-removal": {
+  "cat": "image-to-image",
+  "nome": "Ideogram Object Removal",
+  "data": "2026-07-29",
+  "desc": "Prompt-free object removal from an image and mask, erasing objects with their shadows and reflections and reconstructing the scene cleanly."
+ },
+ "fal-ai/ideogram/character": {
+  "cat": "image-to-image",
+  "nome": "Ideogram V3 Character",
+  "data": "2025-08-07",
+  "desc": "Generate consistent character appearances across multiple images. Maintain facial features, proportions, and distinctive traits for cohesive storytelling and br"
+ },
+ "wan/v2.6/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "Wan v2.6 Image to Image",
+  "data": "2025-12-23",
+  "desc": "Wan 2.6 image-to-image model."
+ },
+ "fal-ai/gpt-image-1-mini/edit": {
+  "cat": "image-to-image",
+  "nome": "GPT Image 1 Mini",
+  "data": "2025-10-21",
+  "desc": "GPT Image 1 mini combines OpenAI's advanced language capabilities, powered by GPT-5, with GPT Image 1 Mini for efficient image generation. "
+ },
+ "fal-ai/ideogram/v3/edit": {
+  "cat": "image-to-image",
+  "nome": "Ideogram V3 Edit",
+  "data": "2025-05-01",
+  "desc": "Transform existing images with Ideogram V3's editing capabilities. Modify, adjust, and refine images while maintaining high fidelity and realistic outputs with "
+ },
+ "fal-ai/recraft/v3/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "Recraft V3",
+  "data": "2025-05-07",
+  "desc": "Recraft V3 is a text-to-image model with the ability to generate long texts, vector art, images in brand style, and much more. As of today, it is SOTA in image "
+ },
+ "ideogram/v4/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "Ideogram V4.0q Image to Image",
+  "data": "2026-06-10",
+  "desc": "Ideogram V4.0q Image-to-Image transforms an input image with a text prompt, restyling and reworking the composition while preserving its core structure for prom"
+ },
+ "fal-ai/flux-2/klein/9b/base/edit": {
+  "cat": "image-to-image",
+  "nome": "FLUX.2 [klein] 9B Base",
+  "data": "2026-01-15",
+  "desc": "Image-to-image editing with Flux 2 [klein] 9B Base from Black Forest Labs. Precise modifications using natural language descriptions and hex color control."
+ },
+ "fal-ai/hy-wu-edit": {
+  "cat": "image-to-image",
+  "nome": "Hy Wu Edit",
+  "data": "2026-03-25",
+  "desc": "Image editing with HY-WU. Transfer outfits, swap faces, and blend textures instantly—no finetuning needed, just describe what you want and provide reference ima"
+ },
+ "fal-ai/phota/edit": {
+  "cat": "image-to-image",
+  "nome": "Phota",
+  "data": "2026-03-26",
+  "desc": "Phota's model enables personalized photo editing, preserving identity while erasing distractions seamlessly."
+ },
+ "microsoft/mai-image-2.5-pro/edit": {
+  "cat": "image-to-image",
+  "nome": "MAI Image 2.5 Pro (Edit)",
+  "data": "2026-07-28",
+  "desc": "Apply precise, controllable edits to a reference image while preserving composition, typography, identity, and fine visual detail."
+ },
+ "fal-ai/flux-2/klein/4b/base/edit": {
+  "cat": "image-to-image",
+  "nome": "FLUX.2 [klein] 4B Base",
+  "data": "2026-01-15",
+  "desc": "Image-to-image editing with FLUX.2 [klein] 4B Base from Black Forest Labs. Precise modifications using natural language descriptions and hex color control."
+ },
+ "luma/agent/uni-1/v1/edit": {
+  "cat": "image-to-image",
+  "nome": "Luma Uni-1 Edit",
+  "data": "2026-06-09",
+  "desc": "Luma Uni-1 Edit reworks a source image from a text instruction, preserving the original composition while applying style changes and following optional referenc"
+ },
+ "luma/agent/uni-1/v1/max/edit": {
+  "cat": "image-to-image",
+  "nome": "Luma Uni-1 Edit Max",
+  "data": "2026-06-09",
+  "desc": "Luma Uni-1 Max Edit applies text-guided edits to a source image at maximum fidelity, holding the original structure while honoring reference images for precise,"
+ },
+ "fal-ai/ideogram/character/edit": {
+  "cat": "image-to-image",
+  "nome": "Ideogram V3 Character Edit",
+  "data": "2025-08-07",
+  "desc": "Modify consistent characters while preserving their core identity. Edit poses, expressions, or clothing without losing recognizable character features"
+ },
+ "fal-ai/instant-character": {
+  "cat": "image-to-image",
+  "nome": "Instant Character",
+  "data": "2025-04-18",
+  "desc": "InstantCharacter creates high-quality, consistent characters from text prompts, supporting diverse poses, styles, and appearances with strong identity control."
+ },
+ "bria/fibo-edit-1.5/edit": {
+  "cat": "image-to-image",
+  "nome": "Fibo Edit 1.5 Image Editing",
+  "data": "2026-08-18",
+  "desc": "Commercially safe, multi-reference image editing model. Follows natural language instructions alone or with up to 4 reference images, purpose-built for complex "
+ },
+ "fal-ai/qwen-image/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "Qwen Image",
+  "data": "2025-08-25",
+  "desc": "Qwen-Image (Image-to-Image) transforms and edits input images with high fidelity, enabling precise style transfer, enhancement, and creative modification."
+ },
+ "fal-ai/qwen-image-edit/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "Qwen Image Edit",
+  "data": "2025-09-30",
+  "desc": "Image to Image Endpoint for Qwen's Image Editing model. Has superior text editing capabilities."
+ },
+ "fal-ai/minimax/image-01/subject-reference": {
+  "cat": "image-to-image",
+  "nome": "Minimax Image Subject Reference",
+  "data": "2025-05-06",
+  "desc": "Generate images from text and a reference image using MiniMax Image-01 for consistent character appearance."
+ },
+ "fal-ai/qwen-image-edit-2509": {
+  "cat": "image-to-image",
+  "nome": "Qwen Image Edit 2509",
+  "data": "2025-12-15",
+  "desc": "Endpoint for Qwen's Image Editing Plus model also known as Qwen-Image-Edit-2509. Has superior text editing capabilities and multi-image support."
+ },
+ "fal-ai/hidream-o1-image/edit": {
+  "cat": "image-to-image",
+  "nome": "Hidream O1 Image",
+  "data": "2026-05-09",
+  "desc": "Unified image generation with HiDream-O1-Image. Create, edit, and personalize high-resolution images up to 2K—single native model handles text-to-image, editing"
+ },
+ "fal-ai/object-removal": {
+  "cat": "image-to-image",
+  "nome": "Object Removal",
+  "data": "2025-06-16",
+  "desc": "Removes objects and their visual effects using natural language, replacing them with contextually appropriate content"
+ },
+ "fal-ai/wan-25-preview/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "Wan 2.5 Image to Image",
+  "data": "2025-09-25",
+  "desc": "Wan 2.5 image-to-image model."
+ },
+ "fal-ai/flux/krea/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "FLUX.1 Krea [dev]",
+  "data": "2025-07-30",
+  "desc": "FLUX.1 Krea [dev] is a 12 billion parameter flow transformer that generates high-quality images from text with incredible aesthetics. It is suitable for persona"
+ },
+ "fal-ai/firered-image-edit-v1.1": {
+  "cat": "image-to-image",
+  "nome": "Firered Image Edit V1.1",
+  "data": "2026-03-05",
+  "desc": "FireRed Image Edit v1.1 is an updated version of FireRed Image Edit, with improved image editing capabilities."
+ },
+ "fal-ai/glm-image/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "Glm Image",
+  "data": "2026-01-14",
+  "desc": "Create high-quality images with accurate text rendering and rich knowledge details—supports editing, style transfer, and maintaining consistent characters acros"
+ },
+ "fal-ai/hidream-o1-image/dev/edit": {
+  "cat": "image-to-image",
+  "nome": "Hidream O1 Image",
+  "data": "2026-05-09",
+  "desc": "Unified image generation with HiDream-O1-Image. Create, edit, and personalize high-resolution images up to 2K—single native model handles text-to-image, editing"
+ },
+ "fal-ai/longcat-image/edit": {
+  "cat": "image-to-image",
+  "nome": "Longcat Image",
+  "data": "2025-12-05",
+  "desc": "LongCat image Edit is a 6B parameter image editing model excelling at multilingual text rendering, photorealism and deployment efficiency."
+ },
+ "fal-ai/boogu-image/edit": {
+  "cat": "image-to-image",
+  "nome": "Boogu Image",
+  "data": "2026-06-18",
+  "desc": "Image To Image Model using Boogu-Image"
+ },
+ "fal-ai/stable-diffusion-v3-medium/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "Stable Diffusion V3",
+  "data": "2024-06-12",
+  "desc": "Stable Diffusion 3 Medium (Image to Image) is a Multimodal Diffusion Transformer (MMDiT) model that improves image quality, typography, prompt understanding, an"
+ },
+ "fal-ai/uso": {
+  "cat": "image-to-image",
+  "nome": "Uso",
+  "data": "2025-08-30",
+  "desc": "Use USO to perform subject driven generations using reference image."
+ },
+ "fal-ai/stepx-edit2": {
+  "cat": "image-to-image",
+  "nome": "Stepx Edit2",
+  "data": "2025-12-09",
+  "desc": "Image-to-image editing with Step1X-Edit v2 from StepFun. Reasoning-enhanced modifications through a thinking–editing–reflection loop with MLLM world knowledge f"
+ },
+ "fal-ai/flux-1/krea/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "FLUX.1 Krea [dev]",
+  "data": "2025-07-30",
+  "desc": "FLUX.1 Krea [dev] is a 12 billion parameter flow transformer that generates high-quality images from text with incredible aesthetics. It is suitable for persona"
+ },
+ "fal-ai/flux-1/dev/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "FLUX.1 [dev]",
+  "data": "2025-06-02",
+  "desc": "FLUX.1 [dev] is a 12 billion parameter flow transformer that generates high-quality images from text. It is suitable for personal and commercial use.\n"
+ },
+ "fal-ai/flux/srpo/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "FLUX.1 SRPO [dev]",
+  "data": "2025-09-15",
+  "desc": "FLUX.1 SRPO [dev] is a 12 billion parameter flow transformer that generates high-quality images from text with incredible aesthetics. It is suitable for persona"
+ },
+ "fal-ai/object-removal/bbox": {
+  "cat": "image-to-image",
+  "nome": "Object Removal",
+  "data": "2025-06-16",
+  "desc": "Removes box-selected objects and their visual effects, seamlessly reconstructing the scene with contextually appropriate content."
+ },
+ "fal-ai/luma-photon/modify": {
+  "cat": "image-to-image",
+  "nome": "Luma Photon",
+  "data": "2025-06-08",
+  "desc": "Edit images from your prompts using Luma Photon. Photon is the most creative, personalizable, and intelligent visual models for creatives, bringing a step-funct"
+ },
+ "fal-ai/hidream-i1-full/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "Hidream I1 Full",
+  "data": "2025-05-05",
+  "desc": "HiDream-I1 full is a new open-source image generative foundation model with 17B parameters that achieves state-of-the-art image generation quality within second"
+ },
+ "fal-ai/emu-3.5-image/edit-image": {
+  "cat": "image-to-image",
+  "nome": "Emu 3.5 Image",
+  "data": "2025-11-01",
+  "desc": "Edit images with a text prompt using Emu 3.5 Image"
+ },
+ "fal-ai/flux-1/srpo/image-to-image": {
+  "cat": "image-to-image",
+  "nome": "FLUX.1 SRPO [dev]",
+  "data": "2025-09-15",
+  "desc": "FLUX.1 SRPO [dev] is a 12 billion parameter flow transformer that generates high-quality images from text with incredible aesthetics. It is suitable for persona"
+ },
+ "fal-ai/luma-photon/flash/modify": {
+  "cat": "image-to-image",
+  "nome": "Luma Photon",
+  "data": "2025-06-08",
+  "desc": "Edit images from your prompts using Luma Photon. Photon is the most creative, personalizable, and intelligent visual models for creatives, bringing a step-funct"
+ }
+}

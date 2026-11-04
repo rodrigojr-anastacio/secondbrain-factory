@@ -1,0 +1,59 @@
+{
+ "saida": "C2-s2.1-pro-texto-contado-bloco.mp3",
+ "texto": "abertura-v2.txt",
+ "modelo": "s2.1-pro",
+ "voz": "48613fc675f84984981683d92266e543",
+ "tecnica": "bloco",
+ "direcao": "",
+ "pausa_tag": "",
+ "pausa_tag_curta": "",
+ "sem_tags": false,
+ "api_extra": {},
+ "gap": 0.35,
+ "gap_ideia": 0.9,
+ "take": 1,
+ "dur_s": 50.8,
+ "bytes_novos": 740,
+ "custo_usd": 0.0111,
+ "preco_por_mi_bytes": 15.0,
+ "credito_fish_antes": 48.72162,
+ "credito_fish_depois": 48.72162,
+ "gerado_em": "2026-11-04T19:56:23",
+ "chamadas": [
+  {
+   "texto": "Toda vez que você diz \"paraíso\", você está falando persa. A palavra nasceu num planalto seco, onde quase não chove… e onde alguém, mesmo assim, resolveu inventar um jardim.",
+   "gap_antes_s": 0.0,
+   "mp3": "00-a26ae41dc28a.mp3",
+   "gerado_agora": true,
+   "dur_s": 11.47
+  },
+  {
+   "texto": "Esse lugar foi invadido por gregos, árabes, turcos e mongóis. E quase sempre aconteceu a mesma coisa estranha: quem mudou foram os invasores.",
+   "gap_antes_s": 0.9,
+   "mp3": "01-d0b4924eb5c6.mp3",
+   "gerado_agora": true,
+   "dur_s": 10.11
+  },
+  {
+   "texto": "Então como é que o país que deu ao mundo a palavra paraíso virou um dos países mais sancionados do planeta?",
+   "gap_antes_s": 0.35,
+   "mp3": "02-f9eb076adade.mp3",
+   "gerado_agora": true,
+   "dur_s": 6.13
+  },
+  {
+   "texto": "Esta é a história inteira do Irã. No caminho, tem um rei que devolvia os deuses dos vencidos, um imperador romano capturado vivo, o caixão de um poeta que salvou uma língua… e um contrato de tabaco que derrubou uma coroa, oitenta e oito anos antes de derrubar outra.",
+   "gap_antes_s": 0.9,
+   "mp3": "03-ffb0e98a6555.mp3",
+   "gerado_agora": true,
+   "dur_s": 17.19
+  },
+  {
+   "texto": "E tudo começa embaixo da terra.",
+   "gap_antes_s": 0.9,
+   "mp3": "04-e6c9b0b61682.mp3",
+   "gerado_agora": true,
+   "dur_s": 2.14
+  }
+ ]
+}

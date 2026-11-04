@@ -1,0 +1,214 @@
+{
+ "gpt-image-2-low": {
+  "endpoint": "openai/gpt-image-2",
+  "parametros": {
+   "num_images": 1,
+   "image_size": {
+    "width": 1536,
+    "height": 864
+   },
+   "quality": "low",
+   "output_format": "jpeg",
+   "enable_safety_checker": true
+  },
+  "refs": [],
+  "prompts": {
+   "I002": "Close view of camels in a caravan loaded with bulging bundles and wooden chests, a Persian camel driver in a turban leading them under a city gate arch. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark",
+   "I007": "The ruins of Persepolis at sunset, tall stone columns and the great double stairway with carved reliefs on a stone terrace. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"
+  }
+ },
+ "gpt-image-2-medium": {
+  "endpoint": "openai/gpt-image-2",
+  "parametros": {
+   "num_images": 1,
+   "image_size": {
+    "width": 1536,
+    "height": 864
+   },
+   "quality": "medium",
+   "output_format": "jpeg",
+   "enable_safety_checker": true
+  },
+  "refs": [],
+  "prompts": {
+   "I002": "Close view of camels in a caravan loaded with bulging bundles and wooden chests, a Persian camel driver in a turban leading them under a city gate arch. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark",
+   "I007": "The ruins of Persepolis at sunset, tall stone columns and the great double stairway with carved reliefs on a stone terrace. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"
+  }
+ },
+ "gpt-image-2-edit-low": {
+  "endpoint": "openai/gpt-image-2/edit",
+  "parametros": {
+   "num_images": 1,
+   "image_size": {
+    "width": 1536,
+    "height": 864
+   },
+   "quality": "low",
+   "output_format": "jpeg",
+   "enable_safety_checker": true
+  },
+  "refs": [
+   "001-egito/imagens/I041.jpg",
+   "002-india/imagens/I041.jpg"
+  ],
+  "prompts": {
+   "I002": "Use the attached reference images ONLY as a style guide: draw in exactly the same art style as the reference images (simple cartoon people with round white heads, dot eyes, simple expressive faces, thick black outlines, flat bright colors, soft cel shading). Do not copy their content or composition. New scene: Close view of camels in a caravan loaded with bulging bundles and wooden chests, a Persian camel driver in a turban leading them under a city gate arch. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark",
+   "I007": "Use the attached reference images ONLY as a style guide: draw in exactly the same art style as the reference images (simple cartoon people with round white heads, dot eyes, simple expressive faces, thick black outlines, flat bright colors, soft cel shading). Do not copy their content or composition. New scene: The ruins of Persepolis at sunset, tall stone columns and the great double stairway with carved reliefs on a stone terrace. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"
+  }
+ },
+ "nano-banana-edit": {
+  "endpoint": "fal-ai/nano-banana/edit",
+  "parametros": {
+   "num_images": 1,
+   "aspect_ratio": "16:9",
+   "output_format": "jpeg"
+  },
+  "refs": [
+   "001-egito/imagens/I041.jpg",
+   "002-india/imagens/I041.jpg"
+  ],
+  "prompts": {
+   "I002": "Use the attached reference images ONLY as a style guide: draw in exactly the same art style as the reference images (simple cartoon people with round white heads, dot eyes, simple expressive faces, thick black outlines, flat bright colors, soft cel shading). Do not copy their content or composition. New scene: Close view of camels in a caravan loaded with bulging bundles and wooden chests, a Persian camel driver in a turban leading them under a city gate arch. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark",
+   "I007": "Use the attached reference images ONLY as a style guide: draw in exactly the same art style as the reference images (simple cartoon people with round white heads, dot eyes, simple expressive faces, thick black outlines, flat bright colors, soft cel shading). Do not copy their content or composition. New scene: The ruins of Persepolis at sunset, tall stone columns and the great double stairway with carved reliefs on a stone terrace. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"
+  }
+ },
+ "nano-banana-2.1-edit": {
+  "endpoint": "google/nano-banana-2.1/edit",
+  "parametros": {
+   "num_images": 1,
+   "aspect_ratio": "16:9",
+   "resolution": "1K",
+   "output_format": "jpeg"
+  },
+  "refs": [
+   "001-egito/imagens/I041.jpg",
+   "002-india/imagens/I041.jpg"
+  ],
+  "prompts": {
+   "I002": "Use the attached reference images ONLY as a style guide: draw in exactly the same art style as the reference images (simple cartoon people with round white heads, dot eyes, simple expressive faces, thick black outlines, flat bright colors, soft cel shading). Do not copy their content or composition. New scene: Close view of camels in a caravan loaded with bulging bundles and wooden chests, a Persian camel driver in a turban leading them under a city gate arch. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark",
+   "I007": "Use the attached reference images ONLY as a style guide: draw in exactly the same art style as the reference images (simple cartoon people with round white heads, dot eyes, simple expressive faces, thick black outlines, flat bright colors, soft cel shading). Do not copy their content or composition. New scene: The ruins of Persepolis at sunset, tall stone columns and the great double stairway with carved reliefs on a stone terrace. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"
+  }
+ },
+ "seedream-4.5-edit": {
+  "endpoint": "fal-ai/bytedance/seedream/v4.5/edit",
+  "parametros": {
+   "num_images": 1,
+   "image_size": {
+    "width": 1536,
+    "height": 864
+   },
+   "enable_safety_checker": true
+  },
+  "refs": [
+   "001-egito/imagens/I041.jpg",
+   "002-india/imagens/I041.jpg"
+  ],
+  "prompts": {
+   "I002": "Use the attached reference images ONLY as a style guide: draw in exactly the same art style as the reference images (simple cartoon people with round white heads, dot eyes, simple expressive faces, thick black outlines, flat bright colors, soft cel shading). Do not copy their content or composition. New scene: Close view of camels in a caravan loaded with bulging bundles and wooden chests, a Persian camel driver in a turban leading them under a city gate arch. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark",
+   "I007": "Use the attached reference images ONLY as a style guide: draw in exactly the same art style as the reference images (simple cartoon people with round white heads, dot eyes, simple expressive faces, thick black outlines, flat bright colors, soft cel shading). Do not copy their content or composition. New scene: The ruins of Persepolis at sunset, tall stone columns and the great double stairway with carved reliefs on a stone terrace. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"
+  }
+ },
+ "kontext-pro-multi": {
+  "endpoint": "fal-ai/flux-pro/kontext/multi",
+  "parametros": {
+   "num_images": 1,
+   "aspect_ratio": "16:9",
+   "output_format": "jpeg"
+  },
+  "refs": [
+   "001-egito/imagens/I041.jpg",
+   "002-india/imagens/I041.jpg"
+  ],
+  "prompts": {
+   "I002": "Use the attached reference images ONLY as a style guide: draw in exactly the same art style as the reference images (simple cartoon people with round white heads, dot eyes, simple expressive faces, thick black outlines, flat bright colors, soft cel shading). Do not copy their content or composition. New scene: Close view of camels in a caravan loaded with bulging bundles and wooden chests, a Persian camel driver in a turban leading them under a city gate arch. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark",
+   "I007": "Use the attached reference images ONLY as a style guide: draw in exactly the same art style as the reference images (simple cartoon people with round white heads, dot eyes, simple expressive faces, thick black outlines, flat bright colors, soft cel shading). Do not copy their content or composition. New scene: The ruins of Persepolis at sunset, tall stone columns and the great double stairway with carved reliefs on a stone terrace. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"
+  }
+ },
+ "recraft-v4-style": {
+  "endpoint": "recraft/v4/style/text-to-image",
+  "parametros": {
+   "num_images": 1,
+   "image_size": {
+    "width": 1536,
+    "height": 864
+   },
+   "enable_safety_checker": true
+  },
+  "refs": [
+   "001-egito/imagens/I041.jpg",
+   "002-india/imagens/I041.jpg"
+  ],
+  "prompts": {
+   "I002": "Close view of camels in a caravan loaded with bulging bundles and wooden chests, a Persian camel driver in a turban leading them under a city gate arch. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark",
+   "I007": "The ruins of Persepolis at sunset, tall stone columns and the great double stairway with carved reliefs on a stone terrace. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"
+  }
+ },
+ "ideogram-v3-turbo-styleref": {
+  "endpoint": "fal-ai/ideogram/v3",
+  "parametros": {
+   "num_images": 1,
+   "image_size": {
+    "width": 1536,
+    "height": 864
+   },
+   "rendering_speed": "TURBO",
+   "enable_prompt_expansion": false,
+   "enable_safety_checker": true
+  },
+  "refs": [
+   "001-egito/imagens/I041.jpg",
+   "002-india/imagens/I041.jpg"
+  ],
+  "prompts": {
+   "I002": "Close view of camels in a caravan loaded with bulging bundles and wooden chests, a Persian camel driver in a turban leading them under a city gate arch. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark",
+   "I007": "The ruins of Persepolis at sunset, tall stone columns and the great double stairway with carved reliefs on a stone terrace. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"
+  }
+ },
+ "z-image-turbo": {
+  "endpoint": "fal-ai/z-image/turbo",
+  "parametros": {
+   "num_images": 1,
+   "image_size": {
+    "width": 1536,
+    "height": 864
+   },
+   "enable_safety_checker": true
+  },
+  "refs": [],
+  "prompts": {
+   "I002": "Close view of camels in a caravan loaded with bulging bundles and wooden chests, a Persian camel driver in a turban leading them under a city gate arch. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark",
+   "I007": "The ruins of Persepolis at sunset, tall stone columns and the great double stairway with carved reliefs on a stone terrace. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"
+  }
+ },
+ "gpt-image-1-mini-medium": {
+  "endpoint": "fal-ai/gpt-image-1-mini",
+  "parametros": {
+   "num_images": 1,
+   "image_size": "1536x1024",
+   "quality": "medium",
+   "output_format": "jpeg",
+   "enable_safety_checker": true
+  },
+  "refs": [],
+  "prompts": {
+   "I002": "Close view of camels in a caravan loaded with bulging bundles and wooden chests, a Persian camel driver in a turban leading them under a city gate arch. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark",
+   "I007": "The ruins of Persepolis at sunset, tall stone columns and the great double stairway with carved reliefs on a stone terrace. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"
+  }
+ },
+ "seedream-4-t2i": {
+  "endpoint": "fal-ai/bytedance/seedream/v4/text-to-image",
+  "parametros": {
+   "num_images": 1,
+   "image_size": {
+    "width": 1536,
+    "height": 864
+   },
+   "enable_safety_checker": true
+  },
+  "refs": [],
+  "prompts": {
+   "I002": "Close view of camels in a caravan loaded with bulging bundles and wooden chests, a Persian camel driver in a turban leading them under a city gate arch. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark",
+   "I007": "The ruins of Persepolis at sunset, tall stone columns and the great double stairway with carved reliefs on a stone terrace. Simple hand-drawn cartoon illustration in the style of an educational history YouTube channel, thick clean black outlines, flat bright colors, soft cel shading, characters are simple stick-figure-like people with round white heads, dot eyes and expressive simple faces, detailed but clean backgrounds, bright blue sky with small white clouds when outdoors, warm earthy palette, 16:9 wide shot, no text, no letters, no watermark"
+  }
+ }
+}

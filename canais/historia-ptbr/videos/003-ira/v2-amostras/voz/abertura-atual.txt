@@ -1,0 +1,17 @@
+# Abertura atual do 003 (blocos N001–N007 de blocos.json, tags originais), ~50 s.
+# Um bloco por parágrafo. "§ " no início = ideia nova (gerar.py põe 0,9 s antes; senão 0,35 s).
+# N003 tem "ideia": true no blocos.json; N006 abre o capítulo "O Túnel" (no build.py são 1,5 s; aqui 0,9 s).
+
+[curious] Tus, ano mil e vinte, conta a lenda. Uma caravana carregada de riquezas entra por um portão da cidade.
+
+Pelo outro portão, sai o caixão do poeta. A fortuna era dele.
+
+§ Essa é a história inteira do Irã. E de como um país conquistado tantas vezes nunca deixa de ser ele mesmo.
+
+Gregos, árabes, turcos e mongóis tomam esta terra. Todos vão embora… ou acabam virando persas.
+
+[serious] E o que salva o Irã… está dentro daquele caixão.
+
+§ O Túnel. O planalto do Irã é uma tigela de montanhas, com deserto no meio, e pouca chuva.
+
+Então os antigos persas vão buscar a água embaixo da terra. São os qanats, túneis de quilômetros, tão bem inclinados que a água da montanha desce sozinha.

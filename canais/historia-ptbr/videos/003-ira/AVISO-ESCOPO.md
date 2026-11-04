@@ -1,0 +1,3 @@
+# AVISO do Rodrigo (04/11 ~19h45) — ESCOPO DA FASE 1
+- **Não** reescreva o roteiro inteiro. Entregue só a **ESTRUTURA** do roteiro v2 em `v2-amostras/ESTRUTURA-ROTEIRO.md`: hook (2–3 frases de exemplo), fio condutor, pergunta/loop que atravessa o vídeo, as eras em ordem com 1 linha de conteúdo cada e a **ponte "mas… então…" escrita entre cada era e a próxima**, os "guarde isso" e onde são pagos, e o fecho. Molde History in Minutes (narrativa contínua), nada de capítulos-objeto.
+- Nada de regenerar vídeo, voz inteira ou as 189 imagens: o Rodrigo aprova **imagens (bancada do fal)** e **estrutura** antes de qualquer produção nova.
