@@ -44,5 +44,5 @@ SELECT e.video_id,
        count(*) FILTER (WHERE e.is_error) AS erros
 FROM youtube.execucoes_claude e
 LEFT JOIN youtube.videos v ON v.id = e.video_id
-WHERE e.etapa <> 'teste'
+WHERE e.etapa <> 'teste' AND e.video_id IS NOT NULL   -- rotinas (tendencias, metricas) não são de um vídeo
 GROUP BY e.video_id, v.canal_slug, v.titulo, e.etapa;

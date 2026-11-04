@@ -13,7 +13,8 @@ Uso:
 - Saída: o texto final do Claude no stdout; o resumo (modelo, turnos, tokens, custo) no stderr.
   Código de saída: 0 ok, 1 erro do claude/timeout, 2 argumento inválido, 3 trava ocupada.
 - custo_usd_equivalente = total_cost_usd (preço de lista). No plano Max não é cobrança: serve para comparar.
-Etapa `teste` (sem --video) é para testes; a view youtube.custo_claude_por_video ignora essas linhas.
+Etapas sem vídeo (sem --video): `teste` (testes) e as rotinas `tendencias` e `metricas` (tools/rotinas/*.sh). A view
+youtube.custo_claude_por_video ignora essas linhas (só conta linhas com video_id).
 """
 import argparse
 import datetime as dt
@@ -31,7 +32,8 @@ from db import conectar, tentar  # noqa: E402
 
 OPUS = {"roteiro", "storyboard", "roteiro-storyboard"}
 ETAPAS = ["pesquisa-referencia", "roteiro", "storyboard", "roteiro-storyboard", "producao", "voz", "imagens",
-          "montagem-render", "thumbnail", "pacote-youtube", "qa", "teste"]
+          "montagem-render", "thumbnail", "pacote-youtube", "qa", "teste", "tendencias", "metricas"]
+SEM_VIDEO = {"teste", "tendencias", "metricas"}  # etapas que não pertencem a um vídeo
 LOCKS = os.path.expanduser(os.environ.get("FABRICA_LOCKS", "~/.cache/fabrica/locks"))
 
 
@@ -79,7 +81,7 @@ def n(d, *chaves):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--video", type=int, help="id em youtube.videos (obrigatório, exceto na etapa teste)")
+    ap.add_argument("--video", type=int, help="id em youtube.videos (obrigatório, exceto nas etapas " + ", ".join(sorted(SEM_VIDEO)) + ")")
     ap.add_argument("--etapa", required=True, help=" | ".join(ETAPAS) + " (outras etapas: letras, números e '-')")
     ap.add_argument("--cwd", default=".", help="pasta onde o claude roda (a pasta do vídeo)")
     g = ap.add_mutually_exclusive_group(required=True)
@@ -95,8 +97,8 @@ def main():
 
     if not re.fullmatch(r"[a-z0-9][a-z0-9-]*", a.etapa):
         ap.error("etapa inválida (use letras minúsculas, números e '-')")
-    if a.video is None and a.etapa != "teste":
-        ap.error("--video é obrigatório (só a etapa 'teste' roda sem vídeo)")
+    if a.video is None and a.etapa not in SEM_VIDEO:
+        ap.error("--video é obrigatório (só as etapas " + ", ".join(sorted(SEM_VIDEO)) + " rodam sem vídeo)")
     cwd = os.path.abspath(os.path.expanduser(a.cwd))
     if not os.path.isdir(cwd):
         ap.error(f"--cwd não existe: {cwd}")
