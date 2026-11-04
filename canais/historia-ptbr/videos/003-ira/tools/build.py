@@ -84,6 +84,7 @@ def trilha(dur):
     passo = 0.0
     while passo < dur - 2:
         passo += rng.choice([1.5, 2.25, 3.0, 4.5])
+        if passo >= dur - 1: break
         y = cordas[int(rng.choice(escala))] * rng.uniform(0.6, 1.0)
         i0 = int(passo * SR); i1 = min(N, i0 + len(y))
         out[i0:i1] += 0.035 * y[: i1 - i0]

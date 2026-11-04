@@ -1,0 +1,89 @@
+# Pacote de publicação · A história INTEIRA do Irã em 15 minutos
+
+
+## Título
+
+A história INTEIRA do Irã em 15 minutos
+
+
+## Títulos alternativos
+
+- A HISTÓRIA INTEIRA do Irã em 15 minutos: o país que conquistaram mil vezes e nunca deixou de ser Irã
+- A história INTEIRA do Irã (Pérsia) em 15 minutos
+
+
+## Descrição
+
+Tus, por volta do ano 1020: uma caravana carregada de riquezas entra por um portão da cidade enquanto o caixão de um poeta sai pelo outro. Conta a lenda que a carga era o pagamento que o rei devia a ele, tarde demais.
+Persas, gregos, árabes, turcos e mongóis conquistaram o Irã, e o Irã continua sendo o Irã. Como um país conquistado tantas vezes nunca deixou de ser ele mesmo? A resposta estava naquele caixão.
+
+Em 15 minutos: do túnel que traz água a um planalto seco ao Cilindro de Ciro, de Dario e Persépolis a Shapur e o imperador romano preso, do Shahnameh de Ferdowsi aos mongóis, do garoto de 14 anos que mudou a fé do país à revolta do tabaco, do petróleo e do golpe de 1953 às fitas cassete de Khomeini, até o filho que herda o poder.
+
+💬 Conta aqui nos comentários: qual palavra persa você já disse hoje sem perceber? Paraíso, laranja, azul, bazar, xeque, caravana...
+
+
+## Capítulos
+
+- 0:00 Introdução
+- 0:32 O Túnel
+- 1:35 O Nome
+- 2:05 O Cilindro
+- 2:58 O Cavalo
+- 3:49 As Colunas
+- 4:31 A Flecha
+- 5:04 A Rocha
+- 5:48 O Moinho
+- 6:32 O Poema
+- 7:57 A Água
+- 8:40 O Menino
+- 9:30 O Tabaco
+- 10:20 O Poço
+- 11:41 As Fitas
+- 13:08 O Lenço
+- 13:49 O Filho
+- 14:27 A Caravana
+
+
+## Fontes (resumo)
+
+- Lenda da caravana: Nizami Aruzi, Chahar Maqala (c. 1155), trad. E. G. Browne; Encyclopaedia Iranica, "Ferdowsi"
+- Heródoto, Histórias (Dario, satrapias, Estrada Real); Plutarco, Vida de Crasso; Cássio Dio; al-Tabari, História
+- British Museum / I. Finkel (org.), The Cyrus Cylinder (2013); Desset et al., Zeitschrift für Assyriologie 112 (2022), decifração do elamita linear
+- UNESCO, "The Persian Qanat"; Encyclopaedia Iranica; Encyclopaedia Britannica (Aquemênidas, Partos, Sassânidas, Safávidas, Qajares, Revolução Iraniana, Guerra Irã–Iraque)
+- N. Keddie, The Tobacco Protest of 1891–1892 (1966); E. Abrahamian, The Coup (2013); National Security Archive, "CIA Confirms Role in 1953 Iran Coup" (2013)
+- A. Sreberny-Mohammadi e A. Mohammadi, Small Media, Big Revolution (1994); ONU, relatório A/HRC/55/67 (2024) sobre as manifestações de 2022
+- Fatos de 2025–2026 (guerra de 12 dias, morte de Ali Khamenei em 28/02/2026, nomeação de Mojtaba Khamenei em 08/03/2026): Britannica, Al Jazeera, CFR (conferidos em 04/11/2026)
+Datas antigas são aproximadas; lendas e estimativas estão ditas como tal na narração.
+
+
+## Créditos
+
+Narração com voz sintética; ilustrações geradas por IA; trilha original.
+
+
+## Tags
+
+história do irã, história da pérsia, história completa do irã, persépolis, ciro o grande, cilindro de ciro, império persa, dario, ferdowsi, shahnameh, xá do irã, revolução iraniana, khomeini, mossadegh, história em minutos, documentário de história, história mundial
+
+
+## Categoria
+
+Educação
+
+
+## Idioma do vídeo
+
+Português (Brasil)
+
+
+## Checklist de publicação
+
+- [ ] Idioma do vídeo: português (Brasil).
+- [ ] "Conteúdo alterado ou sintético": SIM (voz sintética e ilustrações de IA).
+- [ ] Público: NÃO é conteúdo para crianças.
+- [ ] Subir as 3 thumbs (thumb-A, thumb-B, thumb-C) no "Testar e comparar".
+- [ ] Usar o mp4 1080p (out/video.mp4), nunca uma versão do Telegram; subir o .srt como legenda em português.
+- [ ] Reconfirmar na véspera a frase "até a gravação deste vídeo, não há acordo de paz" (bloco N096).
+- [ ] Publicar é decisão do Rodrigo.
+
+Arquivos: `video.mp4` (1080p30), `legendas.srt`, `thumb-A.jpg` (fórmula do canal), `thumb-B.jpg` (guia), `thumb-C.jpg` (Ciro).

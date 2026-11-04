@@ -124,9 +124,14 @@ export const Ira = () => {
           </Sequence>
         );
       })}
-      {shots.filter((s) => s.rot).map((s, i) => (
-        <Sequence key={`r${i}`} from={s.from} durationInFrames={Math.max(30, s.dur)}><NameTag text={s.rot} dur={Math.max(30, s.dur)} /></Sequence>
-      ))}
+      {shots.filter((s) => s.rot).map((s, i) => {
+        // o rótulo espera a placa de capítulo sair (ela ocupa o centro-baixo de c.from+8 a c.from+104)
+        const k = chapters.find((c) => c.from + 8 < s.from + s.dur && c.from + 104 > s.from);
+        const start = k ? Math.max(s.from, k.from + 104) : s.from;
+        const d = s.from + Math.max(30, s.dur) - start;
+        if (d < 24) return null;
+        return <Sequence key={`r${i}`} from={start} durationInFrames={d}><NameTag text={s.rot} dur={d} /></Sequence>;
+      })}
       {cards.map((c, i) => (
         <Sequence key={`c${i}`} from={c.from + 6} durationInFrames={78}><DateCard text={c.text} dur={78} /></Sequence>
       ))}
