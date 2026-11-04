@@ -161,7 +161,7 @@
  },
  {
   "id": "I041",
-  "prompt": "Simple illustrated map of the Iranian plateau glowing in warm golden light as one land, mountains around it, the Caspian Sea above and the Persian Gulf below, no labels, no text"
+  "prompt": "Map of the Iranian plateau glowing in warm golden light as one land, mountains around it, the Caspian Sea above and the Persian Gulf below, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass"
  },
  {
   "id": "I042",
@@ -181,7 +181,7 @@
  },
  {
   "id": "I046",
-  "prompt": "Simple illustrated map of Iran with one southern province near the Persian Gulf highlighted in gold, the rest pale, no labels, no text"
+  "prompt": "Map of Iran with one southern province by the Persian Gulf highlighted in gold and the rest pale, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass"
  },
  {
   "id": "I047",
@@ -237,15 +237,15 @@
  },
  {
   "id": "I060",
-  "prompt": "The Cyrus Cylinder, a barrel-shaped clay cylinder covered in tiny cuneiform wedges, in a glass case in a museum"
+  "prompt": "The Cyrus Cylinder, a small beige baked-clay cylinder shaped like a rugby ball, about the size of a forearm, lying on its side, its surface covered in tiny wedge marks, resting alone in a glass case in a museum"
  },
  {
   "id": "I061",
-  "prompt": "A replica of a barrel-shaped clay cylinder displayed in a glass case in a modern international building hallway, diplomats walking by"
+  "prompt": "A replica of a small beige baked-clay cylinder shaped like a rugby ball, about the size of a forearm, lying on its side, its surface covered in tiny wedge marks, displayed in a glass case in a modern international building hallway, diplomats walking by"
  },
  {
   "id": "I062",
-  "prompt": "A museum curator with glasses reading a clay cylinder with a magnifying glass, raising an eyebrow"
+  "prompt": "A museum curator with glasses holding a magnifying glass over a small beige baked-clay cylinder shaped like a rugby ball, about the size of a forearm, lying on its side, its surface covered in tiny wedge marks lying on a table, raising an eyebrow"
  },
  {
   "id": "I063",
@@ -261,11 +261,11 @@
  },
  {
   "id": "I066",
-  "prompt": "Mohammad Reza Shah in 1971 with slicked-back grey hair and a military dress uniform with medals, presenting a replica of a barrel-shaped clay cylinder at a ceremony"
+  "prompt": "Mohammad Reza Shah in 1971 with slicked-back grey hair and a military dress uniform with medals, presenting a replica of a small beige baked-clay cylinder shaped like a rugby ball, about the size of a forearm, lying on its side, its surface covered in tiny wedge marks on a velvet cushion at a ceremony"
  },
  {
   "id": "I067",
-  "prompt": "A huge illuminated replica of a barrel-shaped clay cylinder on a stage with spotlights, a crowd applauding"
+  "prompt": "A giant illuminated replica of a small beige baked-clay cylinder shaped like a rugby ball, about the size of a forearm, lying on its side, its surface covered in tiny wedge marks, lying on a pedestal on a stage with spotlights, a crowd applauding"
  },
  {
   "id": "I068",
@@ -293,11 +293,11 @@
  },
  {
   "id": "I074",
-  "prompt": "Simple illustrated map of the Achaemenid Persian empire from Egypt and Anatolia in the west to the Indus river in the east, divided into many colored provinces, no labels, no text"
+  "prompt": "Map of the ancient Persian empire stretching from Egypt and Anatolia to the Indus river, divided into many softly colored provinces, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass"
  },
  {
   "id": "I075",
-  "prompt": "Simple illustrated map of a long golden road from the Aegean coast across Anatolia and Mesopotamia to western Iran with small stations along it, no labels, no text"
+  "prompt": "Map with a long golden road winding from the Aegean coast across Anatolia and Mesopotamia to western Iran, small round dots along it, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass"
  },
  {
   "id": "I076",
@@ -413,7 +413,7 @@
  },
  {
   "id": "I104",
-  "prompt": "Simple illustrated map of the Middle East and North Africa, the lands from Morocco to Iraq colored in one green and the Iranian plateau colored in a different orange, no labels, no text"
+  "prompt": "Geographic relief map of the southern Mediterranean coast and the lands east to the Persian Gulf, the western lands painted soft green and the Iranian plateau on the right painted warm orange, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass"
  },
  {
   "id": "I105",
@@ -517,7 +517,7 @@
  },
  {
   "id": "I130",
-  "prompt": "Simple illustrated map of the Middle East with Iran colored in one color and the neighboring countries in another, a clear border line, no labels, no text"
+  "prompt": "Map of the Middle East with Iran painted warm green and the neighboring lands painted pale sand, a clear border line, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass"
  },
  {
   "id": "I131",
@@ -553,7 +553,7 @@
  },
  {
   "id": "I139",
-  "prompt": "Simple illustrated map of the Caucasus region between the Black Sea and the Caspian Sea, the southern Caucasus lands shaded in red as lost, the north of Iran below, no labels, no text"
+  "prompt": "Map of the Caucasus mountains between the Black Sea and the Caspian Sea, the southern Caucasus lands shaded red, the north of Iran below, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass"
  },
  {
   "id": "I140",

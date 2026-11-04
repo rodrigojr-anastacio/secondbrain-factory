@@ -126,14 +126,14 @@ b("O Nome. Esses povos se chamam de árias, algo como os nobres. E a terra deles
   "name_valley|Bronze Age Iranian herders standing on a hill overlooking a vast green valley, their leader raising his wooden staff proudly",
   "airya_proud|An ancient Iranian tribal leader in a felt cap and wool tunic speaking proudly to his people around a fire@@ÁRIA = NOBRE",
   "herders_horses|Bronze Age Iranian horsemen on a ridge at sunset, the wind in their long hair, proud@@OS ÁRIAS",
-  "map_iran_name|Simple illustrated map of the Iranian plateau glowing in warm golden light as one land, mountains around it, the Caspian Sea above and the Persian Gulf below, no labels, no text")
+  "map_iran_name|Map of the Iranian plateau glowing in warm golden light as one land, mountains around it, the Caspian Sea above and the Persian Gulf below, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass")
 b("Guarde esse nome. Daqui a uns três mil anos, um rei vai pedir ao mundo para usá-lo de novo.",
   "remember_stone|Close view of an ancient scribe's hands carving into a stone slab that glows softly, no letters visible",
   "future_king|A ghostly vision in the clouds of a 1930s king in military uniform, floating above ancient herders on a hill@@3 MIL ANOS DEPOIS",
   "diplomat_letter|A 1930s diplomat at a desk next to a globe, opening a letter with a big red royal wax seal")
 b("Porque Pérsia não é o nome que eles se dão. É um apelido grego, tirado de uma província do sul, Pars, a atual Fars.",
   "greek_geographer|An ancient Greek geographer in a himation drawing a map on a scroll and pointing at one southern region@@APELIDO GREGO",
-  "map_pars|Simple illustrated map of Iran with one southern province near the Persian Gulf highlighted in gold, the rest pale, no labels, no text",
+  "map_pars|Map of Iran with one southern province by the Persian Gulf highlighted in gold and the rest pale, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass",
   "pars_province|An ancient province in southern Iran: a fertile plain with villages and a river below the Zagros hills, seen from above@@PARS",
   "fars_landscape|Green and golden plains of the Fars province in southern Iran with the Zagros hills, sheep grazing, a shepherd@@FARS, HOJE")
 b("E é de Pars que sai o homem que vai juntar meio mundo num império só.",
@@ -154,16 +154,16 @@ b("Ele deixa os povos com seus deuses e suas línguas. Os judeus exilados na Bab
   "isaiah_scroll|An ancient Hebrew prophet with a white beard holding a scroll, a vision of a Persian king in the clouds behind him@@ISAÍAS 45", card="539 a.C.")
 b("Ele registra isso num barril de argila, o Cilindro de Ciro. Você talvez já tenha ouvido que é a primeira carta de direitos humanos.",
   "cylinder_clay|Ancient Babylonian scribes pressing cuneiform wedges into a wet clay barrel cylinder",
-  "cylinder_museum|The Cyrus Cylinder, a barrel-shaped clay cylinder covered in tiny cuneiform wedges, in a glass case in a museum@@CILINDRO DE CIRO",
-  "un_replica|A replica of a barrel-shaped clay cylinder displayed in a glass case in a modern international building hallway, diplomats walking by@@A FAMA",
-  "cylinder_reading|A museum curator with glasses reading a clay cylinder with a magnifying glass, raising an eyebrow")
+  "cylinder_museum|The Cyrus Cylinder, a small beige baked-clay cylinder shaped like a rugby ball, about the size of a forearm, lying on its side, its surface covered in tiny wedge marks, resting alone in a glass case in a museum@@CILINDRO DE CIRO",
+  "un_replica|A replica of a small beige baked-clay cylinder shaped like a rugby ball, about the size of a forearm, lying on its side, its surface covered in tiny wedge marks, displayed in a glass case in a modern international building hallway, diplomats walking by@@A FAMA",
+  "cylinder_reading|A museum curator with glasses holding a magnifying glass over a small beige baked-clay cylinder shaped like a rugby ball, about the size of a forearm, lying on its side, its surface covered in tiny wedge marks lying on a table, raising an eyebrow")
 b("[curious] Não é. É uma peça de fundação, enterrada num muro, e quase todo o texto é o rei se elogiando.",
   "buried_wall|Ancient workers placing a clay cylinder inside the foundation of a city wall in Babylon",
   f"cyrus_proud|{CIRO}, puffing his chest proudly while a scribe writes, comic@@PROPAGANDA REAL",
   "cylinder_scribe|A bored Babylonian scribe writing long flattering praise on clay while a king listens with satisfaction")
 b("Essa fama nasce no século vinte, com o último xá.",
-  f"shah_cylinder|{SHAH71}, presenting a replica of a barrel-shaped clay cylinder at a ceremony@@1971",
-  "cylinder_stage|A huge illuminated replica of a barrel-shaped clay cylinder on a stage with spotlights, a crowd applauding")
+  f"shah_cylinder|{SHAH71}, presenting a replica of a small beige baked-clay cylinder shaped like a rugby ball, about the size of a forearm, lying on its side, its surface covered in tiny wedge marks on a velvet cushion at a ceremony@@1971",
+  "cylinder_stage|A giant illuminated replica of a small beige baked-clay cylinder shaped like a rugby ball, about the size of a forearm, lying on its side, its surface covered in tiny wedge marks, lying on a pedestal on a stage with spotlights, a crowd applauding")
 b("Mas, sem o mito, sobra algo raro no mundo antigo: devolver deuses e povos para casa. E o império de Ciro vai virar uma máquina.",
   "pasargadae|The tomb of Cyrus the Great at Pasargadae: a simple stepped stone house-shaped tomb on an open plain@@PASÁRGADA",
   "machine_gears|An ancient Persian empire shown as a giant machine of wooden gears with roads and messengers, a king turning a big wheel",
@@ -179,8 +179,8 @@ b("Vira rei o dono do primeiro cavalo a relinchar ao nascer do sol. O cavalariç
   "horse_neigh|A white horse rearing and neighing loudly at sunrise while six other Persian noblemen on horses look shocked",
   f"darius_king|{DARIO}, smiling on his white horse at sunrise@@DARIO I")
 b("[amazed] É lenda. Mas o que Dario constrói é real. Províncias com governadores, os sátrapas, e imposto fixo. E uma estrada de uns dois mil e quinhentos quilômetros.",
-  "map_satrapies|Simple illustrated map of the Achaemenid Persian empire from Egypt and Anatolia in the west to the Indus river in the east, divided into many colored provinces, no labels, no text",
-"map_royal_road|Simple illustrated map of a long golden road from the Aegean coast across Anatolia and Mesopotamia to western Iran with small stations along it, no labels, no text")
+  "map_satrapies|Map of the ancient Persian empire stretching from Egypt and Anatolia to the Indus river, divided into many softly colored provinces, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass",
+"map_royal_road|Map with a long golden road winding from the Aegean coast across Anatolia and Mesopotamia to western Iran, small round dots along it, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass")
 b("O correio do rei cruza essa estrada trocando de cavalo. E um elogio de Heródoto a esses mensageiros está gravado num correio de Nova York.",
   "relay_station|An ancient Persian royal road relay station: a stone building with stables, a courier jumping from a tired horse onto a fresh one@@ESTRADA REAL",
 "ny_post|The grand classical facade of the James A. Farley post office building in New York with a long row of tall columns, blank stone frieze@@NOVA YORK")
@@ -247,7 +247,7 @@ b("O último rei, Yazdegerd Terceiro, foge por anos. Em seiscentos e cinquenta e
 b("[serious] O império cai em quinze anos. Mas o Irã não vira árabe.",
   "ctesiphon|The Sasanian palace at Ctesiphon with its giant brick arch, abandoned and dusty@@CTESIFONTE")
 b("Egito, Síria e Iraque passam a falar árabe. O Irã adota o islã, devagar, ao longo de séculos. Mas não a língua.",
-  "map_arabic|Simple illustrated map of the Middle East and North Africa, the lands from Morocco to Iraq colored in one green and the Iranian plateau colored in a different orange, no labels, no text",
+  "map_arabic|Geographic relief map of the southern Mediterranean coast and the lands east to the Persian Gulf, the western lands painted soft green and the Iranian plateau on the right painted warm orange, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass",
   "grandma_stories|A Persian family in the 9th century at home, children listening to their grandmother telling stories by a lamp@@O PERSA RESISTE")
 b("E boa parte do motivo cabe num livro.",
   "book_glow|A thick old closed leather-bound book with a plain cover and gold corner decorations on a wooden stand glowing softly in a dark room, no writing visible")
@@ -311,7 +311,7 @@ b("Ele traz clérigos xiitas do Líbano e persegue quem resiste. Em um século, 
   "clerics_lebanon|Shiite clerics with turbans and books arriving by camel from the green mountains of Lebanon@@CLÉRIGOS DO LÍBANO",
   "qizilbash")
 b("A fronteira entre xiitas e sunitas de hoje tem muito a ver com esse adolescente. Que, aliás, escreve poemas em turco.",
-  "map_shia_sunni|Simple illustrated map of the Middle East with Iran colored in one color and the neighboring countries in another, a clear border line, no labels, no text",
+  "map_shia_sunni|Map of the Middle East with Iran painted warm green and the neighboring lands painted pale sand, a clear border line, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass",
   f"ismail_poet|{ISMAIL}, writing poetry by lamplight in a palace garden at night@@POETA, EM TURCO")
 b("Seu bisneto, Shah Abbas, leva a capital para Isfahan. Os iranianos dizem que Isfahan é metade do mundo.",
   "abbas|Shah Abbas I, Safavid Persian king with a very long drooping black mustache and no beard, a turban with a feather plume and a rich robe@@SHAH ABBAS",
@@ -331,7 +331,7 @@ b("Ele leva o Koh-i-Noor. Se você viu o nosso vídeo da Índia, sabe onde esse 
   "diamond_hookah@@NOSSO VÍDEO DA ÍNDIA")
 b("Depois dele, os reis Qajar perdem duas guerras para a Rússia, e com elas o sul do Cáucaso.",
   "qajar_king|A Qajar shah of the early 1800s with a very long black beard, a tall black lambskin hat with a jeweled aigrette and a jeweled robe@@DINASTIA QAJAR",
-  "map_caucasus|Simple illustrated map of the Caucasus region between the Black Sea and the Caspian Sea, the southern Caucasus lands shaded in red as lost, the north of Iran below, no labels, no text")
+  "map_caucasus|Map of the Caucasus mountains between the Black Sea and the Caspian Sea, the southern Caucasus lands shaded red, the north of Iran below, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass")
 b("Em mil oitocentos e noventa, o xá vende a um britânico o monopólio do tabaco do país inteiro.",
   f"naser_shah|{NASER}, signing a document at a desk@@NASER AL-DIN XÁ",
 card="1890")

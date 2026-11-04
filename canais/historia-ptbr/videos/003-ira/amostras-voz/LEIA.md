@@ -46,3 +46,13 @@ Implementado em `tools/tts_fish.py --por-frase` (0,32 s entre frases; frase de 1
 **Hipótese** (sem dado de retenção): a diferença é real mas pequena na medida; a confirmação é o ouvido do Rodrigo (A × G) e a retenção do 003. Se G ainda soar robótico, o próximo passo é **regravar a referência do clone** (30–60 s de fala natural com pausas, recomendação do guia do Fish), não mexer em parâmetro.
 
 Fontes: docs.fish.audio (API TTS: temperature, top_p, prosody, chunk_length, condition_on_previous_chunks); fish.audio/blog/how-to-use-inline-tags-in-fish-audio-s2; docs.comfy.org/tutorials/partner-nodes/fishaudio/prompt-guide (consultados em 04/11/2026).
+
+## Validação no texto real do 003 (04/11/2026, depois da etapa 2)
+Os 12 primeiros blocos do roteiro final (~80 s, hook + "O Túnel"), 2 tomadas de cada modo (US$ 0,08):
+| Modo | repetição melódica | queda no fim do trecho |
+|---|---|---|
+| por frase (o que foi para o vídeo; `V-abertura-final-por-frase.wav`) | 0,20 / 0,18 | −4,2 / −3,8 st |
+| por parágrafo (`V-abertura-por-paragrafo.wav`) | 0,17 / 0,22 | −3,3 / −3,2 st |
+- **Empate na repetição**: o ganho do A/B (0,09 × 0,14) **não se repetiu** no texto real. Por parágrafo, as frases caem ~0,7 st a menos no fim (levemente mais natural).
+- As duas ficaram **piores que o texto B do A/B** (0,10–0,11): o roteiro final tem muitas frases declarativas curtas seguidas ("O Túnel.", "Até dois mil e vinte e dois.") e cada uma fecha com queda forte. **O que pesa é o texto, não o modo de geração.**
+- Decisão: manter o áudio por frase (já validado no Whisper, pausas controladas). Para o próximo vídeo: alternar tipos de frase (pergunta, frase longa com vírgulas, frase curta só na virada) e medir os primeiros 60 s com `melodia.py` **antes** de gerar o resto (meta: repetição ≤ 0,12). Se o Rodrigo ouvir e preferir por parágrafo, o `tts_fish.py` sem `--por-frase` faz igual, sem mudar o roteiro (US$ ~0,3 para o vídeo inteiro).

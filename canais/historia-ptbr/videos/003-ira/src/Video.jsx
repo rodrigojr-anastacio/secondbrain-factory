@@ -9,7 +9,7 @@ const caslon = loadCaslon('normal', { weights: ['400', '700'], subsets: ['latin'
 const SERIF = `${caslon.fontFamily}, serif`;
 
 const W = 1920, H = 1080;
-const IMG_H = W * (1024 / 1536);   // imagens 3:2 cobrem pela largura
+const IMG_H = W * (864 / 1536);    // imagens 16:9 do fal (1536x864) cobrem a tela inteira
 const XF = 5;                       // crossfade curto (frames) na troca de bloco
 const clamp = { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' };
 const SOFT = Easing.bezier(0.45, 0, 0.55, 1);
