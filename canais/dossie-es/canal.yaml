@@ -6,7 +6,7 @@ handle_atual: "@dossieminutos"   # trocar para @dossierenminutos (livre em 2026-
 idioma: es                     # espanhol neutro latino-americano (público: MX, ES, US hispano, AR, CO…); ver estilo.md
 nicho: historia completa de organizaciones (servicios secretos, policías políticas, mafias, cárteles, órdenes)
 token: dossie-es               # ~/.segredos/youtube/tokens/dossie-es.json (após o OAuth, feito pelo Rodrigo)
-status: em preparação (blueprint es 2026-11-04; piloto aguarda OK)
+status: em preparação (blueprint es 2026-11-04; piloto 001 CIA em produção desde 2026-11-04, OK do Rodrigo)
 pesquisa:
   - pesquisa/archive-in-minutes/IDIOMA.md        # por que es (matriz de decisão)
   - pesquisa/archive-in-minutes/idioma/NOTAS.md  # demanda e concorrência por idioma
@@ -21,7 +21,7 @@ formula:
 cadencia: 2-3 vídeos/semana no teste (3 pilotos em 2-3 semanas); nunca template em massa
 voz:
   motor: fish
-  voz: ac594943984a47e7a827416eb263c7b1   # SUGESTÃO "Dio Historias" (neutro, documental); alternativas em testes/voz/LEIA.md. Rodrigo escolhe ouvindo
+  voz: ac594943984a47e7a827416eb263c7b1   # "Dio Historias" (neutro, documental): ESCOLHIDA pelo Rodrigo em 2026-11-04 (BRIEF-dossie-001); alternativas em testes/voz/LEIA.md
   modelo: s2.1-pro
   velocidade: 1.0
   modo: por_frase              # tools/tts_fish.py --por-frase (padrão da fábrica desde 04/11)

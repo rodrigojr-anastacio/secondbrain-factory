@@ -61,6 +61,13 @@ Fonte: `canais/historia-ptbr/videos/003-ira/RELATORIO.md` (falha 2), `financas.c
 - "barrel-shaped clay cylinder" virou barril de madeira (Cilindro de Ciro). Descreva a forma sem a palavra "barrel" ("shaped like a rugby ball").
 - O estilo do canal fica menos fiel no flux que no gpt-image-2: aparecem rostos realistas e caricaturas (qizilbash com cara de Papai Noel). **Hipótese:** isso pesa na percepção de qualidade; o Rodrigo é quem julga.
 
+### 3c. Armadilhas do fal.ai nano-banana (dossie-es 001 CIA, 2026-11-04)
+Fonte: `canais/dossie-es/videos/001-cia/RELATORIO.md` (falhas 1–3) e `QA.md`; `financas.consumo` ref_id 7.
+- **Moldura de papel em ~25% das imagens** (43 de 171), mesmo com "full-bleed, no border". Não aparece no teste de 6 imagens. QA automático: `videos/001-cia/tools/checa_imagens.py`; correção sem custo: `tools/recorta_moldura.py` (recorta e reenquadra, perde 6–20% da borda). **Hipótese:** "paper grain texture" no `estilo_prompt` puxa a moldura.
+- **HTTP 422 (filtro), sem cobrança**, em cenas históricas comuns: tanques diante de casa, míssil atingindo avião ou helicóptero, Torres Gêmeas com fumaça. Reescreva "de longe e sem impacto".
+- **Mapas:** texto falso ("CASPARIN SEA", "ACSPRIN SEA") mesmo com "completely blank", e enquadramento errado (as Américas sem o Chile). Cubra o texto com o rótulo do código ou use base vetorial de domínio público.
+- Resolução 1344×768: reduzi os zooms do Ken Burns (máx. 1,44x, contra 1,68x no historia-ptbr) para não borrar.
+
 ### 4. Saldo zerado no meio da geração (Índia, 2026-11-03, ~19:45)
 - A OpenAI respondeu "You have no credits remaining"; faltaram 2 imagens (`charkha`, `journey_lineup`), cobertas com reuso. [BLOQUEIO.md 002]
 - O banco não reflete o saldo real: `financas.saldo_pre_pago` mostra a OpenAI com US$ 10,00 recarregados, US$ 19,87 consumidos e **saldo de −US$ 9,87** (2026-11-04). Faltam lançar recargas em `financas.lancamentos` (dado do Rodrigo).
@@ -89,6 +96,7 @@ Fonte: `financas.custo_por_video` e `financas.consumo` (consulta de 2026-11-04).
 | Egito (id 3) | v1: Fish US$ 0,20 + 205 imagens `low`/`medium` US$ 1,10; v2: Fish US$ 0,21 + 204 `medium` US$ 8,55 + thumb `high` US$ 0,17 | **59,65** (v1 7,59 + v2 52,06) | 210,21 | 269,86 |
 | Índia (id 4) | Fish US$ 0,24; 223 gerações `medium`/`high` US$ 9,43 (27 em dobro); thumbs fal.ai US$ 0,13 | **57,14** | 210,21 | 267,35 |
 | Irã (id 5), 2026-11-04 | Fish US$ 0,38 (A/B + vídeo + validação); fal US$ 11,54 (1º lote 1024×576 descartado: US$ 4,83; lote final 1536×864: US$ 6,72); OpenAI sem crédito | **69,77** | 157,66 | 227,42 |
+| CIA dossie-es (id 7), 2026-11-04 | Fish US$ 0,19 (testes de voz + amostra + 78 blocos); fal nano-banana US$ 7,17 (testes de estilo US$ 0,38 + 174 imagens; 4 recusas 422 sem cobrança) | **~43** (US$ 7,36; teto US$ 9) | (sem linha na view ainda) | — |
 | Cidades lotr-fr (id 2) | 3 thumbs v2 gpt-image-2 US$ 0,50 (voz Kokoro e imagens locais/domínio público, sem custo) | **2,89** | 210,21 | 213,09 |
 
 - Testes de estilo e voz sem `ref_id` (ids 1–5 e 18): ~US$ 0,15 (R$ 0,87), fora do custo por vídeo.

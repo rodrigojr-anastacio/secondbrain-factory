@@ -21,3 +21,18 @@ Fontes de referência por expediente, em obras de consulta padrão e documentos 
 | Cierre | Clinton na Cidade da Guatemala, em 10/03/1999 ("support for military forces and intelligence units which engaged in violence and widespread repression was wrong"); pedido de perdão do Estado guatemalteco à família Árbenz em 20/10/2011 (acordo na CIDH); CIA com 79 anos (18/09/1947) | Washington Post / NYT de 11/03/1999; CIDH, solução amistosa no caso Árbenz (2011); cia.gov |
 
 **Cuidados de tom (anúncios e comentários):** atribua cada acusação a um documento ("según documentos desclasificados…", "un comité del Senado documentó…"); nada de imagem de violência explícita; o expediente de Chile e o de Guatemala citam a fonte oficial dos EUA, para evitar o rótulo de "propaganda".
+
+## Checagem de 04/11/2026 (antes da voz)
+Cada número, data e nome do roteiro foi conferido nas fontes acima e em buscas (Wikipedia/NSA Archive/CIA Reading Room/UCSB Presidency Project/Al Jazeera/CNN, 04/11/2026). O que mudou no texto:
+| # | Antes | Depois | Por quê |
+|---|---|---|---|
+| 1 | "En 1942… Roosevelt le encarga uno a… Donovan" | 1941: Roosevelt encarrega Donovan; **junho de 1942**: o escritório vira a OSS | O Donovan dirigia o COI desde julho de 1941; a OSS é de 13/06/1942 |
+| 2 | o sha "lo conserva veintiséis años" | "lo conserva hasta 1979" | De 08/1953 a 01/1979 são ~25,4 anos |
+| 3 | "Durante décadas, Washington no lo admite" | "Washington tarda casi medio siglo en reconocerlo. En 2013, documentos de la propia CIA…" | Albright reconheceu o papel dos EUA em 2000; a CIA admitiu por documento em 2013 (NSA EBB 435) |
+| 4 | Olson, "un científico del ejército", "recibe LSD" | "un bacteriólogo que trabaja para el ejército", "bebe una copa con LSD"; + "nunca aceptará la versión del suicidio" | Era bacteriologista civil das Biological Warfare Laboratories (Camp Detrick); a família contesta o suicídio (exumação de 1994) |
+| 5 | MKUltra: "unos veinte mil documentos sobreviven" | "miles de documentos, mal archivados, sobreviven" | As fontes divergem (≈20 mil documentos × 8 mil páginas × "7 caixas" de registros financeiros) |
+| 6 | "Joyas de la familia": "casi setecientas páginas" | "unas setecientas páginas" | O relatório liberado em 2007 tem 702 páginas (NSA EBB 222), não 693 |
+| 7 | U-2: "un misil derriba a Francis Gary Powers" | "derriba el avión del piloto Francis Gary Powers" | Precisão (revisão nativa) |
+| 8 | Chile: Hinchey "la CIA no dirigió ese golpe" | "no instigó ese golpe… probablemente dio la impresión de aprobarlo" | Termos do relatório: "did not instigate"… "probably appeared to condone it" |
+| 9 | Clinton "dice que… fue un error" | "reconoce que…" | Fala oficial de 10/03/1999: "support for military forces or intelligence units which engaged in violent and widespread repression… was wrong" |
+Conferidos sem mudança: Árbenz renuncia em 27/06/1954; força de Castillo Armas ~480 homens; National Security Act em 26/07/1947; eleição italiana de 18/04/1948 (DC 48,5%); MKUltra aprovado em 13/04/1953; Olson dosado em 19/11 e morto em 28/11/1953 (9 dias), família soube em 1975 (22 anos); Powers derrubado em 01/05/1960; fotos de 14/10/1962; Baía dos Porcos em 17/04/1961, ~1.400 homens, 114 mortos (Wikipedia; "más de cien"), 1.189 presos, resgate de US$ 53 mi em alimentos e remédios (12/1962); Comitê Church: pelo menos 8 planos contra Castro (1960–65), charutos e roupa de mergulho; Castro morre em 25/11/2016 aos 90; reunião Nixon–Helms em 15/09/1970; golpe de 11/09/1973; Hersh no NYT em 22/12/1974 (arquivos sobre ~10 mil americanos); Stinger desde 09/1986 (Jalalabad); retirada soviética em 15/02/1989; pedido de perdão de Colom à família Árbenz em **20/10/2011** (57 anos); CIA com 79 anos (18/09/1947).

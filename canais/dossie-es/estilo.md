@@ -47,3 +47,12 @@ Base: `pesquisa/archive-in-minutes/LEVANTAMENTO.md` (anatomia do formato), `IDIO
 - Conteúdo educacional/documental com contexto (EDSA). Nada que glorifique; cartéis sem glamour e com o custo humano.
 - Descrição em espanhol, com fontes (edições em espanhol quando houver) e a nota "Narración con voz sintética; ilustraciones generadas con IA a partir de investigación histórica."
 - Cadência humana (2–3/semana), roteiro original: nunca template em massa (política de conteúdo inautêntico do YPP).
+
+## Aprendizados do piloto 001 (CIA, 2026-11-04; fonte: `videos/001-cia/RELATORIO.md` e `QA.md`)
+- **Ritmo da voz Dio Historias por frase:** 1.686 palavras deram 11:46 com as pausas do `build.py`, ou seja, **~143 ppm**. O `WPS = 2.3` do `roteiro.py` estimou 12:21 (5% acima). Para 13 min, mire ~1.850 palavras.
+- **nano-banana desenha moldura de papel** em ~25% das imagens (43 de 171), mesmo com o estilo do canal. O prompt com "full-bleed, no border" não resolveu. Rode `videos/001-cia/tools/checa_imagens.py` e recorte com `tools/recorta_moldura.py`, que é grátis e perde 6–20% da borda. **Hipótese:** o "subtle paper grain texture" do `estilo_prompt` puxa a moldura; teste tirar essa frase no 002.
+- **Filtro do fal (HTTP 422, sem cobrança)** recusa míssil atingindo avião, tanques "in front of a house" e Torres Gêmeas com fumaça. Descreva de longe e sem impacto ("trailing smoke, seen from far away"); para o 11-S, use os feixes de luz do memorial.
+- **Mapas:** mesmo com "completely blank", o nano-banana escreveu nome falso do mar Cáspio duas vezes. Ponha um rótulo do código **por cima** (`fijo: true` em `src/labels.jsx`). Confira o enquadramento (o 1º mapa das Américas cortou o Chile).
+- **Pronúncia:** "CIA" sai como "sía" (uso latino), e "OSS", "U dos", "PB Success" e "MK Ultra" saem bem. Números sempre por extenso no texto.
+- **Revisão nativa** (subagente Sonnet, nota 8/10): os erros foram calcos do inglês ("sostenidas por", "pareció aprobarlo"), vírgula antes de "y", "lleva adelante" (rioplatense) e "invencible". Mantenha a 2ª leitura antes da voz.
+- **Template do canal:** `videos/001-cia/src/` (Video.jsx com ficha "LUGAR Y FECHA", rótulo datilografado, cartão de expediente com carimbo CLASIFICADO e mapas com pinos e setas; Thumbnail.jsx A/B/C) e `tools/build.py` (trilha de espionagem + SFX de máquina e carimbo). Copie daqui no 002.

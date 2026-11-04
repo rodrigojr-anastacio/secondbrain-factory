@@ -1,6 +1,6 @@
 # BRIEF: dossie-es 001, CIA (`youtube.videos` id 7)
 
-**Status:** roteiro completo (`SCRIPT.md`). **A produção (voz, imagens, render) aguarda o OK do Rodrigo.** O canal existe no YouTube (`UCVCYqeuCwTWC7Lqez_qeWRA`), ainda com o nome "Dossiê em Minutos": renomear antes do 1º vídeo (ver `../../identidade.md`).
+**Status (2026-11-04, 19:30):** **pronto para publicar**: 11:46, "TODA la historia de la CIA en 12 minutos", entrega em `entrega/`, relatório em `RELATORIO.md`. OK do Rodrigo dado em `~/workspace/referencias/BRIEF-dossie-001.md` (voz Dio Historias). O canal existe no YouTube (`UCVCYqeuCwTWC7Lqez_qeWRA`), ainda com o nome "Dossiê em Minutos": renomear antes do 1º vídeo (ver `../../identidade.md`).
 
 - **Título de trabalho:** TODA la historia de la CIA en 11 minutos. N = duração real; recalcular no render.
 - **Título B** (para o "Testar e comparar"): La historia COMPLETA de la CIA en 11 minutos.

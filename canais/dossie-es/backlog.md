@@ -11,7 +11,7 @@ Sem dado de concorrente = **Hipótese**. "Med. top-10" = mediana de views dos 10
 
 | # | Título de trabalho | Status | Evidência e justificativa |
 |---|---|---|---|
-| 001 | TODA la historia de la CIA en 11 minutos | **roteiro pronto** (aguarda OK; `youtube.videos` id 7) | Med. top-10 **1,10 mi**, 18 vídeos de 2026 > 100 mil; Atlas "CIA vs KGB" 15,2 mil; no molde em es só "Construido sobre ti" (32 views). Ângulo Guatemala/Cuba/Chile |
+| 001 | TODA la historia de la CIA en 12 minutos | **pronto para publicar** (2026-11-04, 11:46; `youtube.videos` id 7; `videos/001-cia/entrega/`) | Med. top-10 **1,10 mi**, 18 vídeos de 2026 > 100 mil; Atlas "CIA vs KGB" 15,2 mil; no molde em es só "Construido sobre ti" (32 views). Ângulo Guatemala/Cuba/Chile |
 | 002 | TODA la historia del Mossad en N minutos | ideia | Atlas del Tiempo **33,1 mil** (o melhor do molde em es); med. top-10 430 mil; 19 vídeos de 2026 > 100 mil. Recorte histórico (1949–1990); ângulo **Eichmann em Buenos Aires**, contado de outro jeito (o Atlas já abre com ele) |
 | 003 | TODA la historia del FBI en N minutos | ideia | Med. top-10 **1,21 mi**; 10 vídeos de 2026 > 100 mil; **nenhum** no molde em es. Ângulo: Hoover, a Máfia e o caso Camarena (DEA/FBI no México) |
 | 004 | TODA la historia de la KGB en N minutos | ideia (roteiro pt em `arquivo-ptbr/001-kgb-ptbr`, adaptar nativamente) | Atlas 30,6 mil; Te lo Pinto 139 mil; med. top-10 372 mil. Tema mais clonado: entra depois da CIA, com a anedota do Markov (ninguém usa) e o ângulo Trótski no México |
