@@ -55,12 +55,17 @@ O idioma **não** é pt-BR por padrão. A **ordem de preferência é en → es �
 5. **Riscos** (tabela risco × política × mitigação): conteúdo violento ou extremista (EDSA, adequação para anunciantes), **conteúdo inautêntico/produzido em massa** (YPP), conteúdo sintético (rótulo), direitos (Content ID), pessoas reais, canibalização de canal nosso, clones.
 6. **Recomendação:** INVESTIR / TESTAR / DESCARTAR, com idioma, 20 temas ranqueados com evidência e **critério numérico** para mudar de TESTAR para INVESTIR ou DESCARTAR (ex.: 3 vídeos; média ≥ 3 mil views em 14 dias ou 1 vídeo ≥ 15 mil, com % assistido ≥ 35%).
 7. Grave fórmula e decisão em `youtube.garimpo_canais` (`formula`, `decisao`, `notas`).
-8. Escreva `pesquisa/<slug>/LEVANTAMENTO.md`: **resumo executivo no topo** (recomendação, números-chave, próximos passos), seções 1–3, limitações e "Sugestões para `conhecimento/`".
+8. Escreva `pesquisa/<slug>/LEVANTAMENTO.md`: **resumo executivo no topo** (recomendação, números-chave, próximos passos), seções 1–3, limitações e "Sugestões" (para a bíblia do canal novo e, se for geral, para `conhecimento/`).
 
 ## Etapa 4: blueprint do canal (se não for DESCARTAR)
 1. **Banco:** `INSERT INTO youtube.canais (slug, nome, idioma, nicho, status) VALUES (…, 'em preparação')` e a linha do piloto em `youtube.videos` (status `roteiro`). Isso dá o id para o custo dos testes.
 2. `canais/<slug>/canal.yaml`: fórmula (título, duração, palavras, estrutura), cadência, voz sugerida (**diferente** das dos outros canais), visual (`gerador`, `modelo`, `tamanho`, `estilo_prompt` com "no text… no extremist insignia" quando couber, cores).
-3. `canais/<slug>/estilo.md`: fórmula, roteiro (molde de hook, capítulos, tom), visual, texto na tela, thumb, voz e políticas. Deixe explícito o que **não** copiar da referência.
+3. **`canais/<slug>/biblia/` completa** (a "caixinha" do canal; modelo: `canais/dossie-es/biblia/`), no idioma de trabalho da fábrica (pt-BR) com exemplos no idioma do canal:
+   - `README.md` (~10 linhas): canal-modelo, o que é **deste** canal e **"o que NÃO fazer aqui"**, citando o que é de **cada** canal existente (para nenhum agente misturar);
+   - `roteiro.md`: estrutura, hook, transições entre capítulos, fecho, tamanho (palavras × duração com a voz escolhida) e tom, com exemplos **literais** das transcrições da referência ([O]) e checklist final;
+   - `titulo.md` (fórmula, título B, temas que performam × flopam), `thumb.md` (template e o que não copiar), `visual.md` (motor de imagem, `estilo_prompt`, ritmo, texto na tela, políticas) e `voz.md` (voz, tom, pronúncia).
+   - `estilo.md` fica só como índice apontando para a bíblia. Deixe explícito o que **não** copiar da referência.
+   - Se o canal novo tiver risco de mistura com um existente (mesmo nicho, mesma fórmula), acrescente uma linha no "o que NÃO fazer aqui" da bíblia do canal existente.
 4. `canais/<slug>/backlog.md`: 20 temas ranqueados com evidência (views em concorrentes; sem dado = **Hipótese**) e a lista do que evitar (flops).
 5. `canais/<slug>/identidade.md`: 3 nomes com **handle conferido** (`channels.list forHandle=@handle`, 1 unidade: sem item = livre), descrição do canal, conceito de avatar e de banner, paleta e tipos.
 6. Piloto em `canais/<slug>/videos/001-<tema>/`: `BRIEF.md` (referência com hook real, teto de custo, saldos, pendências), `SCRIPT.md` (roteiro completo, com hook próprio, **não** a anedota da referência), `SOURCES.md` (fonte por fato) e `THUMBS.md` (3 conceitos para o "Testar e comparar").
@@ -77,7 +82,7 @@ O idioma **não** é pt-BR por padrão. A **ordem de preferência é en → es �
 ## Etapa 6: entrega e commit
 1. Resposta curta ao Rodrigo: recomendação, nº de canais mapeados, idioma, 3 nomes, tema do piloto, custo gasto, caminho do relatório e **as decisões dele** (nome/criação do canal, voz, OK do piloto).
 2. `git add` **só os seus caminhos** (`pesquisa/<slug>/`, `canais/<slug>/`, playbook/skill), conferindo `git status` (sem mídia nem segredo). Se outro job estiver no repo e der `index.lock`, espere e tente de novo. Commit descritivo e push.
-3. Aprendizados de formato vão para `conhecimento/` com data e fonte. Se outro job estiver mexendo lá, deixe-os na seção "Sugestões para `conhecimento/`" do LEVANTAMENTO.
+3. Aprendizados do formato estudado vão para a **bíblia do canal novo** (com data e fonte); só o que vale para qualquer canal (ferramenta, custo, processo) vai para `conhecimento/`. Se outro job estiver mexendo lá, deixe-os na seção "Sugestões" do LEVANTAMENTO.
 
 ## Depois do OK
 O piloto segue `playbooks/produzir-video.md` (skill `produzir-video`) com o id já criado. Após 3 vídeos e 14 dias, o **Métricas** aplica o critério da etapa 3b e o resultado volta para o `LEVANTAMENTO.md` e para `youtube.garimpo_canais.decisao`.

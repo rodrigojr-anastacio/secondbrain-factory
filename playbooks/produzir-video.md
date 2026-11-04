@@ -1,6 +1,6 @@
 # Playbook — produzir um vídeo
 
-Orquestrador (Hermes) planeja, delega e confere; o Claude Code implementa. Antes de começar, leia o `canal.yaml` e o `estilo.md` do canal. As skills que executam cada etapa estão em `skills/` (orquestradora: `skills/produzir-video/SKILL.md`).
+Orquestrador (Hermes) planeja, delega e confere; o Claude Code implementa. **Antes de começar, leia a bíblia do canal** (`canais/<slug>/biblia/`: README, roteiro, título, thumb, visual, voz) e o `canal.yaml`. A bíblia **prevalece** sobre este playbook e sobre `conhecimento/` em tudo o que for formato (estrutura, hook, título, thumb, visual, voz); aqui fica o procedimento comum. **Nunca aplique o padrão de um canal em outro** (`conhecimento/anti-padroes.md` §8). As skills que executam cada etapa estão em `skills/` (orquestradora: `skills/produzir-video/SKILL.md`).
 
 ## Execução econômica: 3 chamadas curtas do Claude Code
 O vídeo **não** roda numa sessão só. São 3 execuções de `tools/claude_run.py` (wrapper de `claude -p --output-format json`), cada uma com um briefing próprio (`.prompt-<etapa>.md` na pasta do vídeo), em background e com timeout longo:
@@ -35,18 +35,17 @@ tools/claude_run.sh --video $ID --etapa producao --cwd $V --prompt-file $V/.prom
 
 ## 1. Brief (`BRIEF.md`)
 - Tema, título de trabalho, duração-alvo, idioma, fórmula do canal.
-- **Modelo de referência** (vídeo que performou, do nosso canal ou de um concorrente): estrutura, hook, duração. Modele a estrutura; nunca traduza ou copie o texto.
+- **Modelo de referência** (vídeo que performou, do **canal-modelo da bíblia** ou do mesmo formato): estrutura, hook, duração. Modele a estrutura; nunca traduza ou copie o texto.
 - Use `tools/watch.py <ID>` na referência para ter o hook real e os frames.
 - Critérios de pronto e restrições do canal.
 
 ## 2. Roteiro (`SCRIPT.md` + `SOURCES.md`)
-- **Hook nos primeiros 30–45 s:** comece pelo familiar ou impactante, faça a virada, a pergunta, dê credibilidade e **abra um loop** (algo revelado no fim).
-- Corpo com fio condutor (ex.: "a coroa passa de cidade em cidade"); fecho com payoff e pergunta para os comentários.
-- ~150 palavras por minuto de narração. Um bloco `P..` = um arquivo de áudio.
+- **Estrutura, hook, capítulos, transições, fecho e tamanho: `canais/<slug>/biblia/roteiro.md`** (cada canal tem a sua; ex.: historia-ptbr = narrativa contínua em eras ligadas; dossie-es = expedientes encadeados; lotr-fr = do familiar à pergunta com payoff no fim).
+- Comum a todos: **abra um loop** no hook e pague; fecho com payoff e pergunta para os comentários; palavras pela tabela "Tamanho" da bíblia (ritmo medido da voz do canal). Um bloco = um arquivo de áudio.
 - Fatos com fonte. Estimativa é dita como estimativa. Fato não confirmado leva `[PENDENTE]` e uma versão sem o fato, que é a que se usa se ele não for confirmado. **Não trave por isso.**
 
 ## 3. Voz
-Use o motor e a voz do `canal.yaml`. Gere por parágrafo. Não use Piper nem Edge TTS.
+Use o motor e a voz do `canal.yaml`, com o tom, as pausas e as tags da `biblia/voz.md` do canal. Não use Piper nem Edge TTS.
 - **Fish** (`motor: fish`): `tools/.venv/bin/python tools/tts_fish.py <canal> <blocos.json> <pasta> --video <id>`. Ele usa a voz, o modelo e a velocidade do canal e registra o custo no vídeo.
   Direção no texto: `[break]` entre ideias, `[long-break]` antes de revelações, `[emphasis]` antes da palavra-chave do hook e tom no início da frase (`[determined]`, `[soft tone]`, `[slightly sad]`). No máximo 3 marcações por frase; não exagere. Tags de tom do s2.1-pro que funcionam e não são lidas: `[curious]`, `[serious]`, `[amazed]`, `[warm]`, `[slightly dramatic]`.
 - **Imagens (`img_openai.py`):** rode lotes grandes com `nohup … > log &` e acompanhe pela contagem de arquivos (o log só aparece no fim, e o custo só é gravado no fim: se a execução for interrompida, o custo daquele lote se perde). Em `medium`, 204 imagens levaram ~25 min e custaram ~US$ 11,3 (US$ 0,055/imagem); a thumb em `high` custa ~US$ 0,22.
@@ -54,7 +53,7 @@ Use o motor e a voz do `canal.yaml`. Gere por parágrafo. Não use Piper nem Edg
 - **Kokoro** (`motor: kokoro`): `~/tts/venv-kokoro/bin/python` (exemplo em `~/tts/gen_kokoro.py`), sem custo.
 
 ## 4. Visual
-- Siga o `estilo.md`. Troque de visual a cada ~4–8 s, com Ken Burns ou parallax em imagens paradas.
+- Siga a `biblia/visual.md` do canal (identidade das imagens, ritmo, reuso, texto na tela). Troque de visual a cada ~4–8 s, com Ken Burns ou parallax em imagens paradas.
 - **Fidelidade:** a cena que nomeia um lugar ou personagem precisa mostrar **aquele** lugar ou personagem de forma crível. Nunca use um lugar real reconhecível no lugar de um fictício (erro já cometido: o Mont-Saint-Michel como Minas Tirith).
 - **Não desenhe cidades ou personagens "por código"** (blocos e formas simples): fica amador. Use ilustração ou pintura real (domínio público, Google com crédito ou imagem gerada por IA no estilo do canal).
 - Proibido usar frames de filmes ou séries (Content ID).
@@ -73,13 +72,14 @@ Use o motor e a voz do `canal.yaml`. Gere por parágrafo. Não use Piper nem Edg
 - [ ] Voz sempre acima da música, sem clipping
 - [ ] Voz × roteiro: transcreva com Whisper e compare (palavras faltando ou repetidas). Modelo em `canais/historia-ptbr/videos/001-egito/tools/{transcrever.py,qa.sh}`
 - [ ] Legenda (.srt) sincronizada
+- [ ] **Segue a bíblia do canal** (roteiro, título, thumb, visual, voz) e nada de "O que NÃO fazer aqui" do `biblia/README.md`
 - [ ] Máximo de 2 rodadas de correção com o Claude Code; o que sobrar vai como pendência
 
 ## 7. Pacote de publicação (`out/`)
 - `video.mp4` (1080p), `thumbnail.jpg` (**JPG com menos de 2 MB**), `legendas.srt`, `youtube.txt`.
-- `youtube.txt`: título; descrição curta com gancho, CTA de comentário, **capítulos em ordem crescente começando em 0:00** (confira os tempos pela legenda), fontes e créditos resumidos; tags.
+- `youtube.txt`: título na fórmula da `biblia/titulo.md`; descrição curta com gancho, CTA de comentário, **capítulos em ordem crescente começando em 0:00** (confira os tempos pela legenda), fontes e créditos resumidos; tags.
 - Lembre o Rodrigo ao publicar: idioma do vídeo, **"conteúdo alterado ou sintético" = sim** (voz sintética), "não é para crianças".
 - A publicação é sempre do Rodrigo.
 
 ## 8. Depois de publicar
-Registre o vídeo no `backlog.md` como publicado (data e ID). Após 3–7 dias, rode `playbooks/revisar-metricas.md`.
+Registre o vídeo no `backlog.md` como publicado (data e ID). Copie a thumb no ar para `conhecimento/thumbnails/<canal>-<video>.jpg` e analise-a na `biblia/thumb.md`. Após 3–7 dias, rode `playbooks/revisar-metricas.md`. Aprendizados do vídeo vão para a **bíblia do canal**; só o que for geral sobe para `conhecimento/`.

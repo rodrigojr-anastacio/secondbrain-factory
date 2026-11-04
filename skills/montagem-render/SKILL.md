@@ -9,10 +9,11 @@ Raiz do repo: `~/workspace/fabrica-youtube`. Pasta do vídeo: `$V = canais/<slug
 Procedimento-base: `playbooks/produzir-video.md` §4–5 (sobretudo "Ambiente" e "Tempos reais"). Modelo recomendado: **sonnet** (etapa `montagem-render`).
 
 ## Antes de agir
-1. Leia `canais/<slug>/estilo.md` (texto na tela, créditos, HUD) e `canais/<slug>/canal.yaml`.
-2. Leia `conhecimento/roteiros.md` (ritmo, capítulos) e `conhecimento/anti-padroes.md` (narração corrida, texto sobreposto, versão do Telegram).
+0. **Primeiro a bíblia do canal** (caixinha): `canais/<slug>/biblia/README.md` (canal-modelo e "o que NÃO fazer aqui") e `biblia/visual.md` (texto na tela, placas de capítulo, créditos, HUD, ritmo, trilha) e `biblia/voz.md` (pausas entre blocos). A bíblia **prevalece** sobre `conhecimento/` (só regras gerais). Nunca aplique padrão de outro canal.
+1. Leia `canais/<slug>/canal.yaml`.
+2. Leia `conhecimento/anti-padroes.md` (narração corrida, texto sobreposto, versão do Telegram).
 3. Leia `$V/BRIEF.md` (duração-alvo), `$V/ETAPA2.md` e confira que `$V/audio/` e `$V/imagens/` estão completos.
-4. Modelo de código: `canais/historia-ptbr/videos/002-india/tools/{build.py,render.sh}` e `src/{Video.jsx,index.jsx,labels.jsx}`.
+4. Modelo de código: `tools/{build.py,render.sh}` e `src/{Video.jsx,index.jsx,labels.jsx}` do **vídeo anterior do mesmo canal** (historia-ptbr: `videos/002-india/`; dossie-es: `videos/001-cia/`). Nunca copie o template visual de outro canal.
 
 ## Passos
 1. **Ambiente:** `export PATH=$HOME/.hermes/tools/node-26.12.1-linux-x64/bin:$PATH`; `cd $V && npm install` se faltar `node_modules`. O Remotion não serve symlinks em `public/`: use hard links (`ln`, sem `-s`).
@@ -30,11 +31,12 @@ Rode `cd $V && bash tools/qa.sh` (specs, contact sheet, cortes no 1º minuto, te
 - 1920x1080, 30 fps, H.264 + AAC.
 - Loudness integrada ~-15 LUFS, pico < -1 dBTP; voz acima da trilha.
 - 0 telas pretas ≥ 0,2 s; 0 silêncios > 1,5 s fora de capítulo; ≥ ~21 cortes no 1º minuto.
+- Texto na tela, placas e trilha no padrão da `biblia/visual.md` do canal.
 - `.srt` e capítulos gerados. Relatório em `$V/ETAPA3.md`.
 
 ## Loop de melhoria
 1. **Avaliar:** compare a saída do `qa.sh` com cada critério acima.
 2. **Corrigir:** até 2 rodadas (ajustar `build.py`/ducking/plano e re-render). Re-render custa 15–30 min: junte as correções antes. Resto = pendência no `ETAPA3.md`.
-3. **Registrar:** erro de ambiente/render ou ajuste de áudio que resolveu em `conhecimento/anti-padroes.md` (e no playbook §5 se mudar procedimento), com **data e fonte**; sem dado = **Hipótese**.
+3. **Registrar:** ajuste de edição/ritmo/texto na tela do canal em **`canais/<slug>/biblia/visual.md`**; erro de ambiente/render (vale para todos) em `conhecimento/anti-padroes.md` (e no playbook §5 se mudar procedimento). Sempre com **data e fonte**; sem dado = **Hipótese**.
 4. **Commitar:** `git add $V/tools/build.py $V/tools/render.sh $V/src/*.jsx $V/ETAPA3.md` (sem mídia; `src/timeline.json` só se pequeno) e
    `git commit -m "<canal>/<NNN>: render 1080p (MM:SS, -15 LUFS)"`.

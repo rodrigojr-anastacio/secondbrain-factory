@@ -10,8 +10,9 @@ Procedimento completo: `playbooks/produzir-video.md` (seção "Execução econô
 O orquestrador (Hermes, Claude Code ou outro) **planeja, dispara e confere**; o trabalho pesado roda no `claude -p` via `tools/claude_run.sh`.
 
 ## Antes de agir
-1. Leia `MAPA.md`, `AGENTS.md` e **todo** `conhecimento/` (`hooks.md`, `titulos.md`, `roteiros.md`, `anti-padroes.md`, `thumbnails/README.md`).
-2. Leia `canais/<slug>/canal.yaml`, `canais/<slug>/estilo.md` e `canais/<slug>/backlog.md`.
+0. **Primeiro a bíblia do canal** (caixinha): `canais/<slug>/biblia/README.md` (canal-modelo e "o que NÃO fazer aqui") e **toda** a `canais/<slug>/biblia/` (roteiro, título, thumb, visual, voz). A bíblia **prevalece** sobre `conhecimento/` (só regras gerais). Nunca aplique padrão de outro canal.
+1. Leia `MAPA.md`, `AGENTS.md` e as regras gerais de `conhecimento/` (`anti-padroes.md` sobretudo).
+2. Leia `canais/<slug>/canal.yaml` e `canais/<slug>/backlog.md`.
 3. Confira o saldo: `psql -d vida -c "SELECT * FROM financas.saldo_pre_pago"`. Se não cobrir o teto (Fish para voz; OpenAI/fal para imagens), **pare e pergunte ao Rodrigo** (dinheiro é decisão dele).
 4. Diga ao Rodrigo, em 1–2 linhas, o plano e o tempo estimado (um vídeo de 17 min leva ~2–4 h: imagens ~25 min, render ~30–60 min).
 
@@ -19,7 +20,7 @@ O orquestrador (Hermes, Claude Code ou outro) **planeja, dispara e confere**; o 
 Siga a skill `pesquisa-referencia`: referência com `tools/watch.py`, linha em `youtube.videos` (anote o `<id>`), pasta `$V` e `$V/BRIEF.md` com **teto de custo em US$**. Sem `BRIEF.md` com teto, não dispare nada pago.
 
 ## As 3 execuções (uma por vez, em background, timeout longo)
-Para cada etapa, escreva o briefing `$V/.prompt-<etapa>.md` com: objetivo; "siga `skills/<a>/SKILL.md` e `skills/<b>/SKILL.md`" (caminhos absolutos); id do vídeo; teto restante; critérios de pronto; restrições (um processo de imagem por pasta, um render por vez, não publicar, não ler `~/.segredos/`); e "escreva `ETAPA<n>.md` e commite".
+Para cada etapa, escreva o briefing `$V/.prompt-<etapa>.md` com: objetivo; **"leia primeiro `canais/<slug>/biblia/` (caminho absoluto); ela prevalece sobre `conhecimento/`; não use padrão de outro canal"** e as 3–5 regras da bíblia que mais pesam nesta etapa; "siga `skills/<a>/SKILL.md` e `skills/<b>/SKILL.md`" (caminhos absolutos); id do vídeo; teto restante; critérios de pronto; restrições (um processo de imagem por pasta, um render por vez, não publicar, não ler `~/.segredos/`); e "escreva `ETAPA<n>.md` e commite".
 
 | # | `--etapa` | Modelo | Skills | Sai quando |
 |---|---|---|---|---|
@@ -48,7 +49,7 @@ nohup tools/claude_run.sh --video <id> --etapa roteiro-storyboard --cwd $V \
 - Resultado do QA (números), pendências e o checklist de publicação de `pacote-youtube` (sintético = sim, não é para crianças, 3 thumbs no "Testar e comparar").
 
 ## Loop de melhoria
-1. **Avaliar:** cada etapa passou nos critérios da própria skill? Custo ≤ teto? Quantas rodadas de correção? Tempo por etapa (`youtube.execucoes_claude.duracao_s`, turnos).
+1. **Avaliar:** cada etapa passou nos critérios da própria skill? O QA confirmou que o vídeo **segue a bíblia do canal**? Custo ≤ teto? Quantas rodadas de correção? Tempo por etapa (`youtube.execucoes_claude.duracao_s`, turnos).
 2. **Corrigir:** até 2 rodadas por etapa; o resto vira pendência no relatório e no `QA.md`.
-3. **Registrar:** custos reais do vídeo em `conhecimento/anti-padroes.md` (seção de custos), erros novos lá também, ajustes de procedimento em `playbooks/produzir-video.md` e nas skills; tudo com **data e fonte**; sem dado = **Hipótese** (o Métricas confirma depois de 3–7 dias com `playbooks/revisar-metricas.md`).
+3. **Registrar:** aprendizado de formato/estilo na **bíblia do canal** (`canais/<slug>/biblia/`); custos reais do vídeo e erros de ferramenta/processo em `conhecimento/anti-padroes.md`; ajustes de procedimento em `playbooks/produzir-video.md` e nas skills; tudo com **data e fonte**; sem dado = **Hipótese** (o Métricas confirma depois de 3–7 dias com `playbooks/revisar-metricas.md`).
 4. **Commitar:** `git status` (sem mídia nem segredo) → `git add` dos textos → `git commit -m "<canal>/<NNN>: pronto para publicar (MM:SS, US$ X)"`.

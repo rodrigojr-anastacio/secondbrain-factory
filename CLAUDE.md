@@ -17,6 +17,7 @@ São os mesmos papéis dos perfis Hermes (`~/.hermes/profiles/<p>/SOUL.md`).
 `tools/rotinas/`: `diaria.sh` (06:30), `metricas.sh` (seg 08:15) e `tendencias.sh` (seg/qui 09:30). Veja `tools/rotinas/README.md`.
 
 ## Regras que não podem falhar
+- **Caixinha por canal:** antes de qualquer etapa, leia **primeiro** `canais/<slug>/biblia/` (README + roteiro/título/thumb/visual/voz). Ela prevalece sobre `conhecimento/` (só regras gerais). **Nunca aplique padrão de outro canal**; aprendizado de um vídeo vai para a bíblia do canal dele e só sobe para `conhecimento/` se for comprovadamente geral.
 - **Segredos** em `~/.segredos/`: nunca imprima, copie, mova nem commite. Rode `git status` antes de commitar.
 - **`~/workspace/cerebro-rodrigo` não é deste repo** e não é dos especialistas: não leia nem escreva lá.
 - **Custo:** toda geração paga com `--video <id>` e dentro do teto do `BRIEF.md`; confira `financas.saldo_pre_pago`. Claude Code headless sempre via `tools/claude_run.sh` (trava + registro em `youtube.execucoes_claude`). Gastar dinheiro, contas e publicar são decisões do Rodrigo.

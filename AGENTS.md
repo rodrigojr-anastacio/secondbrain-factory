@@ -9,9 +9,9 @@ A pasta é o repositório git **cerebro-fabrica**: todos os agentes leem e escre
 fabrica-youtube/
 ├── AGENTS.md            ← este manual
 ├── MAPA.md              ← mapa do repo: onde está cada coisa, quem lê/escreve, o que fica fora do git
-├── conhecimento/        ← base viva do que aprendemos (com data e fonte)
-│   ├── hooks.md, titulos.md, roteiros.md, anti-padroes.md (inclui custos por vídeo)
-│   └── thumbnails/      ← thumbs no ar (<canal>-<video>.jpg, < 500 KB) + README com o CTR
+├── conhecimento/        ← só REGRAS GERAIS (valem para qualquer canal), com data e fonte
+│   ├── hooks.md, titulos.md, roteiros.md, anti-padroes.md (ferramentas, processo, custos por vídeo)
+│   └── thumbnails/      ← galeria das thumbs no ar (<canal>-<video>.jpg, < 500 KB) + regras gerais
 ├── skills/<nome>/SKILL.md ← 10 skills do Produtor + novo-canal (Agent Skills; symlink em ~/.claude/skills e ~/.hermes/skills/fabrica-youtube) + README.md (mapa)
 ├── playbooks/           ← procedimentos (siga-os; melhore-os)
 │   ├── produzir-video.md
@@ -29,8 +29,10 @@ fabrica-youtube/
 │   ├── db.py, _paths.py, _trava.py, db/ (schemas e seed), rotinas/diaria.sh (coleta + backup)
 │   └── auth.py    login OAuth de um canal (feito pelo Rodrigo)
 ├── canais/<slug>/
-│   ├── canal.yaml       ← identidade e configuração do canal (idioma, voz, fórmula, token…)
-│   ├── estilo.md        ← padrão visual e editorial do canal
+│   ├── canal.yaml       ← configuração técnica do canal (idioma, voz, gerador, estilo_prompt, token…)
+│   ├── biblia/          ← A CAIXINHA DO CANAL: README (canal-modelo + o que NÃO fazer aqui), roteiro.md,
+│   │                      titulo.md, thumb.md, visual.md, voz.md. Prevalece sobre conhecimento/
+│   ├── estilo.md        ← só índice para biblia/
 │   ├── backlog.md       ← fila de ideias com status
 │   └── videos/NNN-slug/ ← um projeto por vídeo (brief, roteiro, fontes, código Remotion, out/, QA)
 └── pesquisa/
@@ -47,9 +49,12 @@ Python: `~/workspace/fabrica-youtube/tools/.venv/bin/python`. Rode os scripts a 
 - **CPU:** a VPS tem 2 vCPU. Um render de ~8 min leva ~15–30 min, então **um render por vez**.
 
 ## Regras da fábrica
-1. **Cada canal tem identidade própria** (`canal.yaml` + `estilo.md`). Nunca misture o estilo de um canal no outro.
+1. **Cada canal é uma caixinha.** A identidade de formato de cada canal (estrutura de roteiro, hook, título, thumb, visual, voz) está na **bíblia** `canais/<slug>/biblia/`, e ela **prevalece** sobre `conhecimento/`. Antes de qualquer etapa, leia **primeiro** a bíblia do canal (README + o arquivo da etapa). **Nunca aplique padrão de outro canal**, nem copie roteiro/código de vídeo de outro canal como modelo. Erro real que motivou a regra: os capítulos-objeto do Archive in Minutes (molde do `dossie-es`) usados no Irã do `historia-ptbr`, que modela o History in Minutes (04/11/2026; `conhecimento/anti-padroes.md` §8). O `estilo.md` é só um índice para a bíblia (decisão de 04/11/2026: assim nenhum link antigo quebra e não há dois lugares com regra).
 2. **Todo vídeo novo** é uma pasta em `canais/<slug>/videos/NNN-slug/` e segue `playbooks/produzir-video.md`.
-3. **Leia `conhecimento/` antes de produzir** (hooks, títulos, roteiros, anti-padrões e thumbnails). **Registre lá o que aprender** (hook que funcionou, erro de render, padrão de thumb, métrica que explica um resultado), sempre **com data e fonte**, e marque como **Hipótese** o que não tiver dado. O que for específico de um canal vai também no `estilo.md` dele, e o que mudar um procedimento vai no playbook. Depois, **faça um commit descritivo** (git como memória). A fábrica deve sobreviver a uma troca de agente.
+3. **Leia a bíblia do canal e depois `conhecimento/` antes de produzir.** **Registre o que aprender, sempre com data e fonte** (sem dado = **Hipótese**):
+   - aprendizado de um vídeo (hook que funcionou, padrão de thumb, CTR, retenção, voz, estilo de imagem) vai para a **bíblia do canal dele**;
+   - só sobe para `conhecimento/` o que for **comprovadamente geral** (vale para qualquer canal: armadilha de ferramenta, custo, processo, como medir). Na dúvida, fica na bíblia;
+   - o que mudar um procedimento vai no playbook/skill. Depois, **faça um commit descritivo** (git como memória). A fábrica deve sobreviver a uma troca de agente.
 4. **Decisões do Rodrigo** (publicar, gastar dinheiro, criar ou entrar em contas) são dele. Prepare tudo e peça.
 5. Cota da API do YouTube: 10 mil unidades por dia para todos os canais; `search.list` custa 100.
 
@@ -68,7 +73,7 @@ Acesso local sem senha, como o usuário do sistema: `psql -d vida`, ou `tools/db
 - Na análise do garimpo, grave a fórmula e a decisão em `garimpo_canais.formula` e `garimpo_canais.decisao` (investir | testar | descartar).
 - Arquivos continuam sendo a saída de mídia e texto longo. O banco é a fonte para consultas, histórico e números.
 - Rotinas (systemd user, independentes do Hermes; guia em `tools/rotinas/README.md`): `diaria.sh` (06:30, coleta + backup em `~/backups/vida`, 14 dias), `metricas.sh` (seg 08:15) e `tendencias.sh` (seg/qui 09:30). As duas últimas rodam `claude -p` via `claude_run.py` (etapas `metricas`/`tendencias`, sem vídeo), gravam em `~/workspace/relatorios/<rotina>/` e mandam o resumo no Telegram.
-- Subagentes do Claude Code: `agentes-claude/` (`produtor`, `tendencias`, `metricas`); entrada em `CLAUDE.md`.
+- Subagentes do Claude Code: `agentes-claude/` (`produtor`, `tendencias`, `metricas`); entrada em `CLAUDE.md`. Todos leem a bíblia do canal primeiro; a skill `qa` reprova vídeo que não segue a bíblia do canal.
 
 ## Custos
 - Toda geração paga (TTS, imagens etc.) deve registrar o custo em `financas.consumo`, com `ref_id` = `youtube.videos.id` do vídeo. O `tts_fish.py --video <id>` já faz isso.

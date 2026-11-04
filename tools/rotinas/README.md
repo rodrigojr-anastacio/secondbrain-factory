@@ -8,7 +8,7 @@
 
 ## Como funcionam `metricas.sh` e `tendencias.sh`
 - Os dois chamam `_rotina_claude.sh <rotina>`, que monta o prompt de `prompts/<rotina>.md` (troca `{{DATA}}`, `{{MODO}}`, `{{RELATORIO}}`, `{{RESUMO}}`) e roda `tools/claude_run.sh --etapa <rotina>` (sem `--video`, modelo sonnet, trava anti-duplicação e registro em `youtube.execucoes_claude`; `--permission-mode bypassPermissions`).
-- Saídas em `~/workspace/relatorios/<rotina>/`: `<data>.md` (relatório completo), `<data>-resumo.txt` (resumo executivo de 5–10 linhas) e `logs/`. O Claude também copia o relatório para `pesquisa/<rotina>/` e commita os aprendizados de `conhecimento/` (o push vem do `git-diario.sh`).
+- Saídas em `~/workspace/relatorios/<rotina>/`: `<data>.md` (relatório completo), `<data>-resumo.txt` (resumo executivo de 5–10 linhas) e `logs/`. O Claude também copia o relatório para `pesquisa/<rotina>/` e commita os aprendizados (na bíblia do canal, `canais/<slug>/biblia/`, ou em `conhecimento/` se forem gerais) (o push vem do `git-diario.sh`).
 - **Entrega no Telegram:** `hermes send --to telegram` manda o resumo + o relatório anexado (`MEDIA:`) para o home channel do bot do default. Esse comando usa o token do `~/.hermes/.env` direto, **sem LLM e sem o gateway rodando**. Se o envio falhar, fica só o arquivo em `relatorios/`.
 - Opções: `--teste` (tendências: não roda `trends.py`, reaproveita o último garimpo, no máximo 2 vídeos e 1 busca; arquivos com sufixo `-teste`) e `--sem-telegram`. `TIMEOUT=<s>` muda o limite (padrão 5400 s).
 - Rodar na mão: `tools/rotinas/metricas.sh` ou `systemctl --user start fabrica-metricas.service`. Ver: `systemctl --user list-timers | grep fabrica`, `journalctl --user -u fabrica-metricas`.
