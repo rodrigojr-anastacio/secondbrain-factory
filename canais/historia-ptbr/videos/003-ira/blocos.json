@@ -1,0 +1,512 @@
+[
+ {
+  "id": "N001",
+  "texto": "[curious] Tus, ano mil e vinte, conta a lenda. Uma caravana carregada de riquezas entra por um portão da cidade.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "Pelo outro portão, sai o caixão do poeta. A fortuna era dele.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "Essa é a história inteira do Irã. E de como um país conquistado tantas vezes nunca deixa de ser ele mesmo.",
+  "ideia": true
+ },
+ {
+  "id": "N004",
+  "texto": "Gregos, árabes, turcos e mongóis tomam esta terra. Todos vão embora… ou acabam virando persas.",
+  "ideia": false
+ },
+ {
+  "id": "N005",
+  "texto": "[serious] E o que salva o Irã… está dentro daquele caixão.",
+  "ideia": false
+ },
+ {
+  "id": "N006",
+  "texto": "O Túnel. O planalto do Irã é uma tigela de montanhas, com deserto no meio, e pouca chuva.",
+  "ideia": false
+ },
+ {
+  "id": "N007",
+  "texto": "Então os antigos persas vão buscar a água embaixo da terra. São os qanats, túneis de quilômetros, tão bem inclinados que a água da montanha desce sozinha.",
+  "ideia": false
+ },
+ {
+  "id": "N008",
+  "texto": "Alguns correm há mais de dois mil anos. E guardam até gelo para o verão, em cúpulas de barro.",
+  "ideia": false
+ },
+ {
+  "id": "N009",
+  "texto": "No fim do túnel, a água vira um jardim murado. Em persa antigo, pairidaêza. [amazed] A palavra passa pelo grego e pelo latim, e chega ao português como paraíso.",
+  "ideia": true
+ },
+ {
+  "id": "N010",
+  "texto": "Na beira do planalto, em Susa, tem gente vivendo desde uns quatro mil e duzentos antes de Cristo. São os elamitas, com uma escrita que ninguém consegue ler.",
+  "ideia": true
+ },
+ {
+  "id": "N011",
+  "texto": "Até dois mil e vinte e dois. Uma equipe liderada por um arqueólogo francês decifra boa parte dela.",
+  "ideia": false
+ },
+ {
+  "id": "N012",
+  "texto": "Por volta de mil e quinhentos antes de Cristo, chega gente nova do norte. E ela traz um nome.",
+  "ideia": true
+ },
+ {
+  "id": "N013",
+  "texto": "O Nome. Esses povos se chamam de árias, algo como os nobres. E a terra deles vira a terra dos árias, o Irã.",
+  "ideia": false
+ },
+ {
+  "id": "N014",
+  "texto": "Guarde esse nome. Daqui a uns três mil anos, um rei vai pedir ao mundo para usá-lo de novo.",
+  "ideia": true
+ },
+ {
+  "id": "N015",
+  "texto": "Porque Pérsia não é o nome que eles se dão. É um apelido grego, tirado de uma província do sul, Pars, a atual Fars.",
+  "ideia": false
+ },
+ {
+  "id": "N016",
+  "texto": "E é de Pars que sai o homem que vai juntar meio mundo num império só.",
+  "ideia": false
+ },
+ {
+  "id": "N017",
+  "texto": "O Cilindro. Em quinhentos e cinquenta e nove antes de Cristo, Ciro vira rei. Em vinte anos, ele engole a Média, a Lídia e a Babilônia.",
+  "ideia": false
+ },
+ {
+  "id": "N018",
+  "texto": "Ele deixa os povos com seus deuses e suas línguas. Os judeus exilados na Babilônia podem voltar para casa. Na Bíblia, Isaías chama Ciro de messias.",
+  "ideia": true
+ },
+ {
+  "id": "N019",
+  "texto": "Ele registra isso num barril de argila, o Cilindro de Ciro. Você talvez já tenha ouvido que é a primeira carta de direitos humanos.",
+  "ideia": true
+ },
+ {
+  "id": "N020",
+  "texto": "[curious] Não é. É uma peça de fundação, enterrada num muro, e quase todo o texto é o rei se elogiando.",
+  "ideia": false
+ },
+ {
+  "id": "N021",
+  "texto": "Essa fama nasce no século vinte, com o último xá.",
+  "ideia": false
+ },
+ {
+  "id": "N022",
+  "texto": "Mas, sem o mito, sobra algo raro no mundo antigo: devolver deuses e povos para casa. E o império de Ciro vai virar uma máquina.",
+  "ideia": false
+ },
+ {
+  "id": "N023",
+  "texto": "O Cavalo. Em quinhentos e vinte e dois antes de Cristo, sete nobres persas precisam escolher um rei. Conta Heródoto que eles decidem no cavalo.",
+  "ideia": false
+ },
+ {
+  "id": "N024",
+  "texto": "Vira rei o dono do primeiro cavalo a relinchar ao nascer do sol. O cavalariço de Dario dá um jeitinho, e o dele relincha primeiro.",
+  "ideia": false
+ },
+ {
+  "id": "N025",
+  "texto": "[amazed] É lenda. Mas o que Dario constrói é real. Províncias com governadores, os sátrapas, e imposto fixo. E uma estrada de uns dois mil e quinhentos quilômetros.",
+  "ideia": true
+ },
+ {
+  "id": "N026",
+  "texto": "O correio do rei cruza essa estrada trocando de cavalo. E um elogio de Heródoto a esses mensageiros está gravado num correio de Nova York.",
+  "ideia": true
+ },
+ {
+  "id": "N027",
+  "texto": "Pela estimativa mais repetida, e discutida, quase metade da humanidade vive ali. Só uns gregos teimosos não querem entrar.",
+  "ideia": false
+ },
+ {
+  "id": "N028",
+  "texto": "As Colunas. Maratona, Termópilas, os trezentos de Esparta. Quase tudo o que você sabe dessas guerras foi escrito pelo outro lado.",
+  "ideia": false
+ },
+ {
+  "id": "N029",
+  "texto": "Para a Pérsia, a Grécia é uma fronteira chata. O coração do império é Persépolis. Colunas de uns vinte metros, e povos do mundo inteiro esculpidos na pedra.",
+  "ideia": true
+ },
+ {
+  "id": "N030",
+  "texto": "Em trezentos e trinta e um antes de Cristo, Alexandre, o Grande, vence o último Dario em Gaugamela. No ano seguinte, Persépolis queima.",
+  "ideia": true
+ },
+ {
+  "id": "N031",
+  "texto": "As colunas continuam de pé. Mas os gregos não seguram o planalto. Quem toma a terra de volta é um povo de arqueiros a cavalo.",
+  "ideia": false
+ },
+ {
+  "id": "N032",
+  "texto": "A Flecha. Os partos governam o Irã por quase cinco séculos. Em cinquenta e três antes de Cristo, Marco Crasso, o homem mais rico de Roma, vem testá-los.",
+  "ideia": false
+ },
+ {
+  "id": "N033",
+  "texto": "Em Carras, os arqueiros partos cercam as legiões. Eles fingem fugir e atiram para trás, virados na sela. É o famoso tiro do parto.",
+  "ideia": false
+ },
+ {
+  "id": "N034",
+  "texto": "Crasso morre ali. Diz a lenda que os partos derramam ouro derretido na boca dele. E o golpe mais humilhante contra Roma ainda está por vir.",
+  "ideia": true
+ },
+ {
+  "id": "N035",
+  "texto": "A Rocha. Em duzentos e vinte e quatro, assume uma dinastia nova, os sassânidas. Roma e Pérsia viram os dois olhos do mundo.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "Em duzentos e sessenta, o rei Shapur Primeiro faz o que ninguém tinha feito. Ele captura vivo um imperador romano, Valeriano.",
+  "ideia": false
+ },
+ {
+  "id": "N037",
+  "texto": "E manda esculpir a cena num penhasco, em Naqsh-e Rostam, onde ela está até hoje.",
+  "ideia": false
+ },
+ {
+  "id": "N038",
+  "texto": "O império segue a religião de Zaratustra: fogo sagrado, céu, inferno e um julgamento final.",
+  "ideia": true
+ },
+ {
+  "id": "N039",
+  "texto": "Muitos estudiosos veem ecos disso no judaísmo e no cristianismo. Mas Pérsia e Roma se esgotam em guerras. E do deserto vem quem ninguém espera.",
+  "ideia": false
+ },
+ {
+  "id": "N040",
+  "texto": "O Moinho. Em seiscentos e trinta e seis, exércitos árabes, unidos pelo islã, vencem os persas em Qadisiya. Seis anos depois, em Nahavand, o exército sassânida acaba.",
+  "ideia": false
+ },
+ {
+  "id": "N041",
+  "texto": "O último rei, Yazdegerd Terceiro, foge por anos. Em seiscentos e cinquenta e um, segundo a crônica, é morto num moinho perto de Merv, pelo próprio moleiro.",
+  "ideia": false
+ },
+ {
+  "id": "N042",
+  "texto": "[serious] O império cai em quinze anos. Mas o Irã não vira árabe.",
+  "ideia": true
+ },
+ {
+  "id": "N043",
+  "texto": "Egito, Síria e Iraque passam a falar árabe. O Irã adota o islã, devagar, ao longo de séculos. Mas não a língua.",
+  "ideia": false
+ },
+ {
+  "id": "N044",
+  "texto": "E boa parte do motivo cabe num livro.",
+  "ideia": false
+ },
+ {
+  "id": "N045",
+  "texto": "O Poema. Por volta de novecentos e setenta e sete, em Tus, vive um proprietário de terras chamado Ferdowsi. Ele começa o Shahnameh, o Livro dos Reis.",
+  "ideia": false
+ },
+ {
+  "id": "N046",
+  "texto": "Ele junta os mitos e os reis do Irã de antes do islã. Heróis, dragões, o pássaro Simurgh. São uns cinquenta mil dísticos, quase sem palavras árabes.",
+  "ideia": false
+ },
+ {
+  "id": "N047",
+  "texto": "Leva mais de trinta anos. Ele termina velho e pobre, e dedica a obra a um sultão turco, Mahmud de Ghazni.",
+  "ideia": true
+ },
+ {
+  "id": "N048",
+  "texto": "Conta a lenda que o sultão paga mal. Anos depois, arrependido, manda a fortuna. Lembra da caravana?",
+  "ideia": true
+ },
+ {
+  "id": "N049",
+  "texto": "Na versão mais antiga, a carga nem é ouro. É anil, um corante azul, que vale sessenta mil dinares.",
+  "ideia": false
+ },
+ {
+  "id": "N050",
+  "texto": "Ela entra por um portão de Tus enquanto o corpo do poeta sai pelo outro. E a filha dele recusa o presente.",
+  "ideia": false
+ },
+ {
+  "id": "N051",
+  "texto": "[warm] Era isso que estava no caixão. [long-break] Não o ouro. A língua. Mil anos depois, um aluno iraniano ainda entende boa parte dos versos dele.",
+  "ideia": true
+ },
+ {
+  "id": "N052",
+  "texto": "E o persa Al-Khwarizmi escreve, em árabe, o livro que dá nome à álgebra. E o nome dele vira algoritmo.",
+  "ideia": true
+ },
+ {
+  "id": "N053",
+  "texto": "Se você gosta de histórias inteiras em poucos minutos, se inscreva. Porque dois séculos depois, chega do leste um exército que não lê poemas.",
+  "ideia": true
+ },
+ {
+  "id": "N054",
+  "texto": "A Água. Em mil duzentos e dezenove, chegam os mongóis de Gengis Khan. Nishapur, Merv, Herat. Cidades inteiras são arrasadas.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "Em mil duzentos e cinquenta e oito, cai Bagdá. O número de mortos ainda é discutido. Mas o pior estrago talvez seja a água: sem gente para cuidar, muitos qanats secam.",
+  "ideia": false
+ },
+ {
+  "id": "N056",
+  "texto": "E aí acontece algo bem iraniano. Em duas gerações, os conquistadores falam persa, contratam vizires persas e erguem mesquitas persas.",
+  "ideia": true
+ },
+ {
+  "id": "N057",
+  "texto": "[amazed] O Irã não vence os mongóis. Ele os digere. Dois séculos e meio depois, um garoto muda a fé do país inteiro.",
+  "ideia": false
+ },
+ {
+  "id": "N058",
+  "texto": "O Menino. Em mil e quinhentos e um, um garoto de catorze anos entra em Tabriz à frente de um exército. O nome dele é Ismail.",
+  "ideia": false
+ },
+ {
+  "id": "N059",
+  "texto": "Ele se coroa xá e impõe o islã xiita. O problema é que o país, na maioria, é sunita.",
+  "ideia": true
+ },
+ {
+  "id": "N060",
+  "texto": "Ele traz clérigos xiitas do Líbano e persegue quem resiste. Em um século, o país vira xiita.",
+  "ideia": false
+ },
+ {
+  "id": "N061",
+  "texto": "A fronteira entre xiitas e sunitas de hoje tem muito a ver com esse adolescente. Que, aliás, escreve poemas em turco.",
+  "ideia": true
+ },
+ {
+  "id": "N062",
+  "texto": "Seu bisneto, Shah Abbas, leva a capital para Isfahan. Os iranianos dizem que Isfahan é metade do mundo.",
+  "ideia": true
+ },
+ {
+  "id": "N063",
+  "texto": "Depois, essa metade do mundo desmorona. E o que vem a seguir começa com um diamante e termina com um narguilé.",
+  "ideia": false
+ },
+ {
+  "id": "N064",
+  "texto": "O Tabaco. Primeiro, o diamante. Em mil setecentos e trinta e nove, Nader Xá invade a Índia e saqueia Délhi.",
+  "ideia": false
+ },
+ {
+  "id": "N065",
+  "texto": "Ele leva o Koh-i-Noor. Se você viu o nosso vídeo da Índia, sabe onde esse diamante vai parar.",
+  "ideia": true
+ },
+ {
+  "id": "N066",
+  "texto": "Depois dele, os reis Qajar perdem duas guerras para a Rússia, e com elas o sul do Cáucaso.",
+  "ideia": true
+ },
+ {
+  "id": "N067",
+  "texto": "Em mil oitocentos e noventa, o xá vende a um britânico o monopólio do tabaco do país inteiro.",
+  "ideia": true
+ },
+ {
+  "id": "N068",
+  "texto": "Em mil oitocentos e noventa e um, um grande clérigo xiita proíbe o fumo. E o Irã, que fuma muito, para.",
+  "ideia": false
+ },
+ {
+  "id": "N069",
+  "texto": "Até as mulheres do palácio, dizem, param de fumar. Em semanas, o contrato cai. Um turbante vence uma coroa. Guarde esse tabaco.",
+  "ideia": false
+ },
+ {
+  "id": "N070",
+  "texto": "O Poço. Em mil novecentos e um, um britânico, William D'Arcy, ganha o direito de procurar petróleo no Irã. Por sete anos, nada.",
+  "ideia": false
+ },
+ {
+  "id": "N071",
+  "texto": "Em mil novecentos e oito, em Masjed Soleyman, a sonda acerta. Dali nasce a empresa que hoje se chama BP. E quase tudo já está assinado para fora.",
+  "ideia": false
+ },
+ {
+  "id": "N072",
+  "texto": "Em mil novecentos e vinte e cinco, um oficial cossaco vira rei, Reza Xá. Ferrovia, universidade, exército moderno, tudo à força.",
+  "ideia": true
+ },
+ {
+  "id": "N073",
+  "texto": "Em mil novecentos e trinta e cinco, ele faz um pedido. Lembra do nome? O mundo agora deve dizer Irã, e não Pérsia.",
+  "ideia": true
+ },
+ {
+  "id": "N074",
+  "texto": "Seis anos depois, britânicos e soviéticos invadem e o tiram do trono. Fica o filho, Mohammad Reza.",
+  "ideia": false
+ },
+ {
+  "id": "N075",
+  "texto": "Em mil novecentos e cinquenta e um, o primeiro-ministro Mossadegh nacionaliza o petróleo. Em agosto de cinquenta e três, um golpe o derruba, com propaganda e multidões pagas.",
+  "ideia": true
+ },
+ {
+  "id": "N076",
+  "texto": "Por sessenta anos, isso é negado. [long-break] Em dois mil e treze, a CIA admite em documentos: o golpe foi feito sob direção dela.",
+  "ideia": true
+ },
+ {
+  "id": "N077",
+  "texto": "Muitos historiadores veem aqui a raiz da desconfiança entre Irã e Estados Unidos. E o xá que fica vai dar uma festa.",
+  "ideia": false
+ },
+ {
+  "id": "N078",
+  "texto": "As Fitas. Mil novecentos e setenta e um. O xá comemora dois mil e quinhentos anos de monarquia nas ruínas de Persépolis.",
+  "ideia": false
+ },
+ {
+  "id": "N079",
+  "texto": "Comida vinda de Paris, enquanto muitas aldeias nem têm luz elétrica.",
+  "ideia": true
+ },
+ {
+  "id": "N080",
+  "texto": "De longe, um clérigo exilado chama aquilo de festa do diabo. É Ruhollah Khomeini, e seus sermões entram no Irã em fitas cassete.",
+  "ideia": true
+ },
+ {
+  "id": "N081",
+  "texto": "[serious] Lembra do tabaco? De novo, um turbante enfrenta uma coroa. Em janeiro de mil novecentos e setenta e nove, o xá sai do Irã para não voltar.",
+  "ideia": true
+ },
+ {
+  "id": "N082",
+  "texto": "Em fevereiro, Khomeini volta de Paris. Em abril, o país vira uma República Islâmica.",
+  "ideia": false
+ },
+ {
+  "id": "N083",
+  "texto": "Em novembro, estudantes tomam a embaixada americana. Cinquenta e dois reféns ficam presos por quatrocentos e quarenta e quatro dias.",
+  "ideia": false
+ },
+ {
+  "id": "N084",
+  "texto": "No ano seguinte, Saddam Hussein invade. A guerra Irã–Iraque dura oito anos, e as estimativas começam em meio milhão de mortos.",
+  "ideia": true
+ },
+ {
+  "id": "N085",
+  "texto": "O Iraque usa armas químicas. Meninos voluntários atravessam campos minados, alguns, segundo relatos, com chaves de plástico no pescoço.",
+  "ideia": false
+ },
+ {
+  "id": "N086",
+  "texto": "Diziam que elas abriam o paraíso. Em mil novecentos e oitenta e oito, Khomeini aceita o cessar-fogo, e diz que é como beber veneno.",
+  "ideia": false
+ },
+ {
+  "id": "N087",
+  "texto": "Ele morre no ano seguinte. O novo líder supremo é Ali Khamenei.",
+  "ideia": false
+ },
+ {
+  "id": "N088",
+  "texto": "O Lenço. Em dois mil e nove, uma eleição contestada põe milhões nas ruas.",
+  "ideia": false
+ },
+ {
+  "id": "N089",
+  "texto": "Setembro de dois mil e vinte e dois. Mahsa Amini, de vinte e dois anos, morre sob custódia da polícia da moralidade.",
+  "ideia": true
+ },
+ {
+  "id": "N090",
+  "texto": "Ela tinha sido presa por causa do véu. O país explode. Mulheres tiram o lenço e cortam o cabelo em público.",
+  "ideia": false
+ },
+ {
+  "id": "N091",
+  "texto": "O lema vem do movimento das mulheres curdas. Mulher, vida, liberdade. Mais de quinhentas pessoas morrem, segundo ONGs, e cerca de vinte mil são presas.",
+  "ideia": false
+ },
+ {
+  "id": "N092",
+  "texto": "Três anos depois, a guerra chega pelo céu.",
+  "ideia": true
+ },
+ {
+  "id": "N093",
+  "texto": "O Filho. Junho de dois mil e vinte e cinco. Irã e Israel travam uma guerra de doze dias, que termina num cessar-fogo.",
+  "ideia": false
+ },
+ {
+  "id": "N094",
+  "texto": "Ele não dura. Vinte e oito de fevereiro de dois mil e vinte e seis. Um ataque dos Estados Unidos e de Israel mata Ali Khamenei.",
+  "ideia": false
+ },
+ {
+  "id": "N095",
+  "texto": "Oito dias depois, a Assembleia dos Especialistas escolhe o novo líder supremo. [long-break] É o filho dele, Mojtaba Khamenei.",
+  "ideia": false
+ },
+ {
+  "id": "N096",
+  "texto": "[serious] Uma revolução feita contra a monarquia hereditária acaba passando o poder de pai para filho. Até a gravação deste vídeo, não há acordo de paz.",
+  "ideia": true
+ },
+ {
+  "id": "N097",
+  "texto": "[warm] Agora volte a Tus. O túmulo de Ferdowsi fica num jardim, com água correndo em canais. Um pequeno paraíso.",
+  "ideia": false
+ },
+ {
+  "id": "N098",
+  "texto": "O império cai, a religião muda, a fronteira encolhe, o nome some e volta. E a língua de Ferdowsi segue viva.",
+  "ideia": true
+ },
+ {
+  "id": "N099",
+  "texto": "Tão viva que você fala persa sem saber. Paraíso, laranja, azul, bazar. E xeque, que vem de xá, o rei.",
+  "ideia": false
+ },
+ {
+  "id": "N100",
+  "texto": "E aquela fila de camelos do começo, entrando por um portão de Tus, também tem nome persa: caravana, de karvan.",
+  "ideia": false
+ },
+ {
+  "id": "N101",
+  "texto": "Exércitos conquistam o Irã. A língua do Irã conquista os exércitos.",
+  "ideia": true
+ },
+ {
+  "id": "N102",
+  "texto": "E você? Qual palavra persa você já disse hoje sem perceber? Conta aqui nos comentários.",
+  "ideia": true
+ }
+]
