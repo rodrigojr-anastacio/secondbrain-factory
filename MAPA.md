@@ -15,7 +15,7 @@ Este repositório (`~/workspace/fabrica-youtube`, repo git **cerebro-fabrica**) 
 | `AGENTS.md` | manual da fábrica: estrutura, regras, banco e custos |
 | `MAPA.md` | este mapa |
 | `conhecimento/` | **base viva do que aprendemos**, com data e fonte: `hooks.md`, `titulos.md`, `roteiros.md`, `anti-padroes.md` (com os custos por vídeo) e `thumbnails/` (thumbs no ar + `README.md` com o CTR) |
-| `skills/README.md` | mapa das skills do Produtor de vídeo (Fase 2; ainda não implementadas) |
+| `skills/<nome>/SKILL.md` | skills do Produtor (Agent Skills, valem no Hermes e no Claude Code via symlink): `produzir-video` (orquestradora), `pesquisa-referencia`, `roteiro`, `storyboard`, `voz`, `imagens`, `thumbnail`, `montagem-render`, `pacote-youtube`, `qa`; índice e instalação em `skills/README.md` |
 | `playbooks/` | procedimentos: `produzir-video.md` (a esteira), `garimpo-tendencias.md` (seg/qui) e `revisar-metricas.md` |
 | `tools/` | comandos determinísticos em Python (`tools/.venv/bin/python`): `tts_fish.py` (voz Fish + custo), `img_openai.py` e `img_fal.py` (imagens + custo), `watch.py` (assiste referências via WARP), `trends.py` (garimpo), `report.py` (métricas, `--coletar`, `--retencao`), `transcrever.py` (Whisper de um vídeo do YouTube), `claude_run.py`/`claude_run.sh` (roda uma etapa do Claude Code por vídeo com trava e custo em `youtube.execucoes_claude`), `auth.py` (OAuth, feito pelo Rodrigo), `db.py`, `_paths.py` e `_trava.py` (conexão, caminhos e trava por pasta das tools de imagem), `db/schema_youtube.sql`, `db/schema_execucoes_claude.sql` e `db/seed.sql`, `rotinas/diaria.sh` (coleta + backup às 06:30) |
 | `canais/<slug>/` | `canal.yaml` (identidade, voz, visual), `estilo.md` (padrão e aprendizados do canal), `backlog.md` (fila e publicados) |
@@ -40,7 +40,7 @@ Canais hoje (`youtube.canais`, 2026-11-04):
 - Segredos **não** ficam no banco nem aqui: estão em `~/.segredos/` (fora do repo).
 
 ## Como rodar a esteira (resumo)
-O procedimento completo está em `playbooks/produzir-video.md`. O mapa de skills que vai substituí-lo está em `skills/README.md`.
+O procedimento completo está em `playbooks/produzir-video.md`. A skill `skills/produzir-video/SKILL.md` orquestra a esteira etapa por etapa.
 1. Leia o `canal.yaml`, o `estilo.md` e o **`conhecimento/`**. Crie a linha em `youtube.videos` (para ter o id) e a pasta `canais/<slug>/videos/NNN-slug/`, copiando o setup do vídeo anterior sem `node_modules`.
 2. Escreva o `BRIEF.md` com a referência (`tools/watch.py <ID>`), a meta de duração e o teto de custo.
 3. Roteiro: edite o `roteiro.py` e rode `python3 roteiro.py`. Ele gera `SCRIPT.md`, `blocos.json`, `cenas.json` e `STORYBOARD.md`.

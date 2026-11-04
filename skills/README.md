@@ -1,6 +1,33 @@
-# Skills do Produtor de vídeo: mapa (Fase 2, ainda NÃO implementadas)
+# Skills do Produtor de vídeo
 
-Este é o plano das skills do especialista **Produtor de vídeo** (`~/workspace/referencias/PLANO-ARQUITETURA.md`, itens 9 e 11). Hoje a esteira roda pelo `playbooks/produzir-video.md` e pelas tools. Cada skill abaixo vai virar uma pasta `skills/<nome>/` com `SKILL.md` quando for implementada.
+Skills do especialista **Produtor de vídeo** (`~/workspace/referencias/PLANO-ARQUITETURA.md`, itens 9 e 11), implementadas em 2026-11-04. Cada uma é uma pasta `skills/<nome>/SKILL.md` no formato padrão de Agent Skills (frontmatter YAML com `name` e `description`, que diz **quando** usar; corpo em markdown) e funciona igual no **Hermes** e no **Claude Code**. Elas apontam para `playbooks/produzir-video.md` e para as `tools/` reais, sem duplicar o procedimento.
+
+## Índice
+| Skill | Arquivo | Etapa do `claude_run` |
+|---|---|---|
+| produzir-video (orquestradora) | [`produzir-video/SKILL.md`](produzir-video/SKILL.md) | dispara as 3 abaixo |
+| pesquisa-referencia | [`pesquisa-referencia/SKILL.md`](pesquisa-referencia/SKILL.md) | etapa 0 (no orquestrador) |
+| roteiro | [`roteiro/SKILL.md`](roteiro/SKILL.md) | 1 `roteiro-storyboard` (opus) |
+| storyboard | [`storyboard/SKILL.md`](storyboard/SKILL.md) | 1 `roteiro-storyboard` (opus) |
+| voz | [`voz/SKILL.md`](voz/SKILL.md) | 2 `producao` (sonnet) |
+| imagens | [`imagens/SKILL.md`](imagens/SKILL.md) | 2 `producao` (sonnet) |
+| thumbnail | [`thumbnail/SKILL.md`](thumbnail/SKILL.md) | 2 (base) e 3 (final) |
+| montagem-render | [`montagem-render/SKILL.md`](montagem-render/SKILL.md) | 3 `montagem-render` (sonnet) |
+| pacote-youtube | [`pacote-youtube/SKILL.md`](pacote-youtube/SKILL.md) | 3 `montagem-render` (sonnet) |
+| qa | [`qa/SKILL.md`](qa/SKILL.md) | 3 `montagem-render` (sonnet) |
+
+## Como instalar (symlinks, nunca cópia: a fonte é este repo)
+```bash
+F=~/workspace/fabrica-youtube/skills
+S="produzir-video pesquisa-referencia roteiro storyboard voz imagens thumbnail montagem-render pacote-youtube qa"
+# Claude Code (usuário): ~/.claude/skills/<nome>
+mkdir -p ~/.claude/skills; for s in $S; do ln -sfn $F/$s ~/.claude/skills/$s; done
+# Hermes (default): categoria fabrica-youtube
+mkdir -p ~/.hermes/skills/fabrica-youtube; for s in $S; do ln -sfn $F/$s ~/.hermes/skills/fabrica-youtube/$s; done
+# Perfis Hermes: produtor (todas), tendencias (pesquisa-referencia, thumbnail), metricas (qa, pacote-youtube)
+for s in $S; do ln -sfn $F/$s ~/.hermes/profiles/produtor/skills/fabrica-youtube/$s; done   # após mkdir -p
+```
+Conferir: `hermes skills list | grep fabrica-youtube` e `hermes -p produtor skills list | grep fabrica-youtube`; no Claude Code, as skills aparecem pelo nome (ex.: `/produzir-video`). Skill nova = pasta nova aqui + os mesmos symlinks.
 
 ## Regras comuns a todas as skills
 1. **Antes de agir, leia** o `canal.yaml`, o `estilo.md` do canal e os arquivos de `conhecimento/` indicados na skill. `conhecimento/anti-padroes.md` vale para **todas**.
