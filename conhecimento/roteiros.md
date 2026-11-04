@@ -43,6 +43,7 @@
 | Egito v1 | 2.293 | 106 | hook + 8 | 954,5 s (15:54), ~150 palavras/min | ETAPA1.md, QA-v1.md 001 |
 | Egito v2 (publicado) | 2.293 (mesmo texto, mais tags e pausas) | 106 | hook + 8 | **1020,3 s (17:00)** | ETAPA3.md, QA.md 001 |
 | Índia (publicado) | 2.620 | 129 | hook + 9 | **1167,2 s (19:27)** | ETAPA-FINAL.md 002 |
+| Irã 003 (pronto, 04/11) | 2.137 (voz por frase) | 102 | hook + 16 capítulos-objeto + fecho | **918,4 s (15:18)**: ~140 ppm; a estimativa do `roteiro.py` (2,4 palavras/s) deu 15:03 | ETAPA1.md, ETAPA3.md 003 |
 | Cidades lotr-fr (publicado) | meta de ~1.150–1.250 (Kokoro, velocidade 0,92) | P01… | hook + 3 Eras + payoff + fecho | 498,5 s (8:18) | BRIEF.md, SCRIPT_FR.md, out/QA.md lotr-fr 001 |
 
 ### Ritmo da referência × nosso

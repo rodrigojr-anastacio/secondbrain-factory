@@ -52,6 +52,15 @@
 - O plano da Fase 2 pede uma **trava anti-duplicação** na skill `imagens`. [PLANO-ARQUITETURA.md, item 11]
 - **Implementada em 2026-11-04:** `img_openai.py` e `img_fal.py` fazem `flock` em `<pasta>/.img.lock` (o 2º processo na mesma pasta sai com aviso, código 3) e re-checam cada id logo antes da chamada paga. O `claude_run.py` tem trava equivalente por vídeo+etapa. [tools/_trava.py, tools/claude_run.py; testado sem gasto com trava simulada]
 
+### 3b. Armadilhas do fal.ai flux/dev (Irã, 2026-11-04)
+Fonte: `canais/historia-ptbr/videos/003-ira/RELATORIO.md` (falha 2), `financas.consumo` ids 30–40.
+- `image_size: landscape_16_9` sai **1024×576**: borra no Ken Burns em 1080p. O 1º lote (189 imagens, **US$ 4,83 = R$ 28**) foi descartado. Use `{width: 1536, height: 864}` (`canal.yaml` do historia-ptbr).
+- O preço é **por megapixel** (US$ 0,025/MP): 1536×864 ≈ US$ 0,033/img. O `img_fal.py` registra US$ 0,025 fixo por imagem, então lance o ajuste (id 38).
+- O filtro de segurança devolve **imagem preta sem erro** (2 mapas inofensivos do Oriente Médio). Confira a luminância média de cada imagem (< 15 = refazer com outro texto).
+- O flux escreve **letras falsas em mapas** mesmo com "no text, no labels". Mapas: reuse um mapa limpo e ponha os rótulos no código, ou use outra fonte.
+- "barrel-shaped clay cylinder" virou barril de madeira (Cilindro de Ciro). Descreva a forma sem a palavra "barrel" ("shaped like a rugby ball").
+- O estilo do canal fica menos fiel no flux que no gpt-image-2: aparecem rostos realistas e caricaturas (qizilbash com cara de Papai Noel). **Hipótese:** isso pesa na percepção de qualidade; o Rodrigo é quem julga.
+
 ### 4. Saldo zerado no meio da geração (Índia, 2026-11-03, ~19:45)
 - A OpenAI respondeu "You have no credits remaining"; faltaram 2 imagens (`charkha`, `journey_lineup`), cobertas com reuso. [BLOQUEIO.md 002]
 - O banco não reflete o saldo real: `financas.saldo_pre_pago` mostra a OpenAI com US$ 10,00 recarregados, US$ 19,87 consumidos e **saldo de −US$ 9,87** (2026-11-04). Faltam lançar recargas em `financas.lancamentos` (dado do Rodrigo).
@@ -79,6 +88,7 @@ Fonte: `financas.custo_por_video` e `financas.consumo` (consulta de 2026-11-04).
 |---|---|---|---|---|
 | Egito (id 3) | v1: Fish US$ 0,20 + 205 imagens `low`/`medium` US$ 1,10; v2: Fish US$ 0,21 + 204 `medium` US$ 8,55 + thumb `high` US$ 0,17 | **59,65** (v1 7,59 + v2 52,06) | 210,21 | 269,86 |
 | Índia (id 4) | Fish US$ 0,24; 223 gerações `medium`/`high` US$ 9,43 (27 em dobro); thumbs fal.ai US$ 0,13 | **57,14** | 210,21 | 267,35 |
+| Irã (id 5), 2026-11-04 | Fish US$ 0,38 (A/B + vídeo + validação); fal US$ 11,54 (1º lote 1024×576 descartado: US$ 4,83; lote final 1536×864: US$ 6,72); OpenAI sem crédito | **69,77** | 157,66 | 227,42 |
 | Cidades lotr-fr (id 2) | 3 thumbs v2 gpt-image-2 US$ 0,50 (voz Kokoro e imagens locais/domínio público, sem custo) | **2,89** | 210,21 | 213,09 |
 
 - Testes de estilo e voz sem `ref_id` (ids 1–5 e 18): ~US$ 0,15 (R$ 0,87), fora do custo por vídeo.
