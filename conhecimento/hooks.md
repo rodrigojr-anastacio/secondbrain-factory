@@ -67,3 +67,11 @@ Estrutura: frase 1 = paradoxo → prova em rajada → virada → pergunta centra
 
 ### O que falta medir
 - Retenção aos 30 s e aos 60 s de cada vídeo nosso (`tools/report.py <canal> --retencao <ID>`). Até lá, toda conclusão sobre "hook bom" é **Hipótese**.
+
+## Referência: hook por anedota humana (Archive in Minutes, Gestapo)
+Fonte: `watch.py pbIzG1QvoWs` em 2026-11-04 (hook.txt); views do garimpo de 2026-11-02 (310 mil em ~7 dias após 26/10).
+> In 1943, a war widow tells a colleague at her munitions factory a joke. […] The colleague reports her. She is put to death. This is the entire history of the Gestapo, and how a small police force watched 80 million people.
+
+- Técnica: cena humana datada com desfecho cruel em ~9 s, depois a promessa do título e a pergunta implícita. Cortes ≈ 20/min no início.
+- **Hipótese:** funciona melhor que abrir direto com a definição. Sem dado nosso; testar num vídeo do historia-ptbr e medir retenção aos 30 s.
+- Observação do mesmo garimpo: o tema pesa mais que o hook; Archive in Minutes tem 120–310 mil views em serviços secretos/Guerra Fria e 10–30 mil em Titanic/Abwehr/Romanovs. Vídeos de 31–36 min (Prima Historian) ficaram em ~700 views. [garimpo 2026-11-02]
