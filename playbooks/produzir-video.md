@@ -25,6 +25,11 @@ tools/claude_run.sh --video $ID --etapa producao --cwd $V --prompt-file $V/.prom
 - **Custo:** cada chamada vira uma linha em `youtube.execucoes_claude`; por vídeo: `SELECT * FROM youtube.custo_claude_por_video WHERE video_id = <id>;`. O `custo_usd_equivalente` é preço de lista (no plano Max não é cobrança real; serve para comparar etapas e modelos). Testes usam `--etapa teste`, que a view ignora.
 - Se uma etapa falhar, corrija o briefing e rode **a mesma etapa** de novo (no máximo 2 rodadas); não junte etapas para "ganhar tempo".
 
+## Como acionar o Produtor (sob demanda, sem cron)
+- **Hermes desktop:** perfil `produtor`, ou peça ao default, que delega ao `produtor`.
+- **Claude Code:** `cd ~/workspace/fabrica-youtube && claude`, e peça o subagente `produtor` (`agentes-claude/produtor.md`) ou a skill `produzir-video`.
+- **Headless:** `tools/claude_run.sh --video <id> --etapa <etapa> ...`, uma etapa por vez (acima). As rotinas agendadas (métricas, tendências) estão em `tools/rotinas/README.md`.
+
 ## 0. Pasta do vídeo
 `canais/<slug>/videos/NNN-slug/`, com numeração sequencial por canal. Copie o setup Remotion do vídeo mais recente do mesmo canal, sem node_modules, e rode `npm install`.
 

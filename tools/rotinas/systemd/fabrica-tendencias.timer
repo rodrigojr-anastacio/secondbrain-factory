@@ -1,0 +1,9 @@
+[Unit]
+Description=Roda a rotina de tendencias da fábrica (Mon,Thu *-*-* 09:30:00)
+
+[Timer]
+OnCalendar=Mon,Thu *-*-* 09:30:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

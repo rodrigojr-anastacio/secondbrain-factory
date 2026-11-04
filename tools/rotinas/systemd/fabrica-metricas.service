@@ -1,0 +1,9 @@
+[Unit]
+Description=Fábrica YouTube — relatório semanal de métricas (claude -p, sem Hermes)
+After=network-online.target
+
+[Service]
+Type=oneshot
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=%h/workspace/fabrica-youtube/tools/rotinas/metricas.sh
+TimeoutStartSec=2h

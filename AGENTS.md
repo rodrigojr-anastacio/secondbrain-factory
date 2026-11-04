@@ -63,10 +63,11 @@ Acesso local sem senha, como o usuário do sistema: `psql -d vida`, ou `tools/db
 | `assistidos` | vídeos analisados (hook, cortes por minuto, anúncios, assets) | `watch.py` |
 | view `garimpo_crescimento` | crescimento de views de cada canal garimpado entre execuções | — |
 | `execucoes_claude` | cada chamada do Claude Code: vídeo, etapa, modelo, sessão, duração, turnos, tokens, `custo_usd_equivalente`, erro e resumo do resultado (DDL em `tools/db/schema_execucoes_claude.sql`) | `tools/claude_run.py` |
-| view `custo_claude_por_video` | soma por vídeo e etapa (ignora `etapa = 'teste'`) | — |
+| view `custo_claude_por_video` | soma por vídeo e etapa (ignora `etapa = 'teste'` e as rotinas sem vídeo) | — |
 - Na análise do garimpo, grave a fórmula e a decisão em `garimpo_canais.formula` e `garimpo_canais.decisao` (investir | testar | descartar).
 - Arquivos continuam sendo a saída de mídia e texto longo. O banco é a fonte para consultas, histórico e números.
-- Rotina diária (coleta + backup em `~/backups/vida`, 14 dias): `tools/rotinas/diaria.sh`.
+- Rotinas (systemd user, independentes do Hermes; guia em `tools/rotinas/README.md`): `diaria.sh` (06:30, coleta + backup em `~/backups/vida`, 14 dias), `metricas.sh` (seg 08:15) e `tendencias.sh` (seg/qui 09:30). As duas últimas rodam `claude -p` via `claude_run.py` (etapas `metricas`/`tendencias`, sem vídeo), gravam em `~/workspace/relatorios/<rotina>/` e mandam o resumo no Telegram.
+- Subagentes do Claude Code: `agentes-claude/` (`produtor`, `tendencias`, `metricas`); entrada em `CLAUDE.md`.
 
 ## Custos
 - Toda geração paga (TTS, imagens etc.) deve registrar o custo em `financas.consumo`, com `ref_id` = `youtube.videos.id` do vídeo. O `tts_fish.py --video <id>` já faz isso.
