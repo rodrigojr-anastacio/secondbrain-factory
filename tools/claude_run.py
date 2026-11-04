@@ -133,7 +133,7 @@ def main():
     t0 = time.monotonic()
     saida, erro_txt, subtype = "", "", None
     try:
-        p = subprocess.run(cmd, cwd=cwd, input=prompt, capture_output=True, text=True, timeout=a.timeout)
+        p = subprocess.run(cmd, cwd=cwd, env={**os.environ, "CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS": "0"}, input=prompt, capture_output=True, text=True, timeout=a.timeout)
         saida, erro_txt, rc = p.stdout, p.stderr, p.returncode
     except subprocess.TimeoutExpired as e:
         saida = e.stdout.decode() if isinstance(e.stdout, bytes) else (e.stdout or "")

@@ -10,6 +10,7 @@ MODO=completo; TELEGRAM=1
 for a in "$@"; do
   case "$a" in --teste) MODO=teste ;; --sem-telegram) TELEGRAM=0 ;; *) echo "arg desconhecido: $a" >&2; exit 2 ;; esac
 done
+export CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0   # -p: espera tarefas de fundo em vez de matá-las após 10 min (redundante com ~/.claude/settings.json)
 FAB="$HOME/workspace/fabrica-youtube"
 DATA=$(date +%F)
 SUF=""; [ "$MODO" = teste ] && SUF="-teste"

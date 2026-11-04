@@ -77,3 +77,8 @@ Fonte: `financas.custo_por_video` e `financas.consumo` (consulta de 2026-11-04).
 
 - Testes de estilo e voz sem `ref_id` (ids 1–5 e 18): ~US$ 0,15 (R$ 0,87), fora do custo por vídeo.
 - Os ETAPA*.md citam custos com rateio diferente (R$ 30,39, R$ 80,38, R$ 70,20) porque, na época, o Claude Max ainda não estava lançado. Use sempre a view, com a data.
+
+### 7. Job headless morto por tarefa de fundo (BRIEF-canal-archive, 2026-11-04)
+- O job disparou um subagente e um shell em segundo plano, respondeu "ainda está rodando, quando terminar eu faço o resto" e encerrou o turno. Em `claude -p` não há "depois": o harness esperou 10 min ("Background tasks still running 10m after the last turn ... stopping them") e matou tudo; trabalho pela metade, sem commit. [referencias/canal-archive.log]
+- Correção: regra em `~/.claude/CLAUDE.md` (primeiro plano, commit+push antes de responder, senão `BLOQUEIO.md`) e `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0` em `~/.claude/settings.json`, `claude_run.py` e `_rotina_claude.sh`. Atenção: na doc, `0` = esperar indefinidamente (não desliga a espera), então a variável só segura o processo; o `--timeout` do `claude_run.py` continua sendo o limite. Para proibir background de vez existe `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS=1` (não aplicado; **Hipótese** de que resolveria).
+

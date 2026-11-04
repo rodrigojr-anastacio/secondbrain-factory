@@ -21,3 +21,6 @@ São os mesmos papéis dos perfis Hermes (`~/.hermes/profiles/<p>/SOUL.md`).
 - **`~/workspace/cerebro-rodrigo` não é deste repo** e não é dos especialistas: não leia nem escreva lá.
 - **Custo:** toda geração paga com `--video <id>` e dentro do teto do `BRIEF.md`; confira `financas.saldo_pre_pago`. Claude Code headless sempre via `tools/claude_run.sh` (trava + registro em `youtube.execucoes_claude`). Gastar dinheiro, contas e publicar são decisões do Rodrigo.
 - Todo aprendizado vai para `conhecimento/` com data e fonte (ou como **Hipótese**) e vira commit descritivo.
+
+## Execução headless (`claude -p`)
+Em `-p` o fim do turno é o fim da execução: nunca termine com subagente, shell ou processo em segundo plano pendente (o harness mata tudo). Task e comandos longos em primeiro plano; tudo concluído, commitado e com push antes da resposta final, ou `BLOQUEIO.md`. Regra global em `~/.claude/CLAUDE.md`; `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0` fica no settings e nos wrappers.

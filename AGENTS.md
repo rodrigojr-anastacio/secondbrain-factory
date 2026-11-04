@@ -75,3 +75,6 @@ Acesso local sem senha, como o usuário do sistema: `psql -d vida`, ou `tools/db
 - Saldo de crédito pré-pago (Fish, OpenAI, fal.ai): `SELECT * FROM financas.saldo_pre_pago`. O da OpenAI só é confiável se todas as recargas estiverem lançadas em `financas.lancamentos`; em 04/11/2026 estava negativo por falta de lançamento.
 - Os custos reais por vídeo e os erros que custaram dinheiro estão em `conhecimento/anti-padroes.md`.
 - Claude Code: rode cada etapa via `tools/claude_run.py --video <id> --etapa <etapa>` (opus em roteiro/storyboard, sonnet no resto). O uso fica em `youtube.execucoes_claude` / `youtube.custo_claude_por_video` (preço de lista equivalente; o Claude Max real entra no rateio fixo).
+
+## Execução headless (`claude -p`)
+Em `-p` o fim do turno é o fim da execução: nunca termine com subagente, shell ou processo em segundo plano pendente (o harness mata tudo). Task e comandos longos em primeiro plano; tudo concluído, commitado e com push antes da resposta final, ou `BLOQUEIO.md`. Regra global em `~/.claude/CLAUDE.md`; `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0` fica no settings e nos wrappers.
