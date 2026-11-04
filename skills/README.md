@@ -15,11 +15,12 @@ Skills do especialista **Produtor de vídeo** (`~/workspace/referencias/PLANO-AR
 | montagem-render | [`montagem-render/SKILL.md`](montagem-render/SKILL.md) | 3 `montagem-render` (sonnet) |
 | pacote-youtube | [`pacote-youtube/SKILL.md`](pacote-youtube/SKILL.md) | 3 `montagem-render` (sonnet) |
 | qa | [`qa/SKILL.md`](qa/SKILL.md) | 3 `montagem-render` (sonnet) |
+| novo-canal (fora da esteira) | [`novo-canal/SKILL.md`](novo-canal/SKILL.md) | antes do 1º vídeo de um canal; procedimento em `playbooks/novo-canal.md` (Tendências + orquestrador, opus) |
 
 ## Como instalar (symlinks, nunca cópia: a fonte é este repo)
 ```bash
 F=~/workspace/fabrica-youtube/skills
-S="produzir-video pesquisa-referencia roteiro storyboard voz imagens thumbnail montagem-render pacote-youtube qa"
+S="produzir-video pesquisa-referencia roteiro storyboard voz imagens thumbnail montagem-render pacote-youtube qa novo-canal"
 # Claude Code (usuário): ~/.claude/skills/<nome>
 mkdir -p ~/.claude/skills; for s in $S; do ln -sfn $F/$s ~/.claude/skills/$s; done
 # Hermes (default): categoria fabrica-youtube
@@ -52,6 +53,7 @@ Conferir: `hermes skills list | grep fabrica-youtube` e `hermes -p produtor skil
 | **thumbnail** | ilustração-base (`high`); título | 3 variações em `thumb-var/final/` + `out/thumbnail.jpg` (< 2 MB) | `img_openai.py`/`img_fal.py`; texto composto no código (`src/Thumbnail.jsx`) | `thumbnails/README.md`, `titulos.md` | nome legível no celular (2–3 palavras); lugar reconhecível; fiel ao tema; 3 variações para o "Testar e comparar" |
 | **pacote-youtube** | timeline, capítulos, `SOURCES.md` | `out/youtube.txt` (título, descrição com gancho e CTA, capítulos, fontes, tags, categoria) | Python | `titulos.md`, `hooks.md` | capítulos em ordem crescente a partir de 0:00; N do título = duração; nota de voz sintética |
 | **qa** | `out/` completo | `QA.md` (+ `qa/` com contact sheet, sync e Whisper) | `tools/qa.sh`, `compara_voz.py`, ffmpeg (blackdetect, loudnorm), Whisper | todos, sobretudo `anti-padroes.md` | checklist do `playbooks/produzir-video.md` §6; no máximo 2 rodadas de correção |
+| **novo-canal** | canal de referência ou nicho | `pesquisa/<slug>/LEVANTAMENTO.md` (decisão) + `canais/<slug>/` (canal.yaml, estilo, backlog de 20, identidade, piloto, teste de estilo) | `tools/watch.py`, API do YouTube (≤ ~15 buscas), `tools/img_fal.py --video` (≤ US$ 3) | todos | ≥ 30 canais e clones contados; ≥ 6 vídeos de ≥ 3 canais; observado × inferido; decisão com critério numérico; handles conferidos; gasto ≤ US$ 3 no banco |
 | **produzir-video** (orquestradora) | pedido (canal + tema) ou item do `backlog.md` | vídeo pronto para o Rodrigo publicar; `youtube.videos` em `pronto`; relatório com custo (`financas.custo_por_video`) | chama as 9 skills acima em ordem, cada uma numa execução curta | `conhecimento/` inteiro (lê antes de começar) | cada etapa passou no próprio critério; custo ≤ teto; pendências listadas; aprendizados registrados e commitados |
 
 ## Depois de publicar (fora do Produtor)

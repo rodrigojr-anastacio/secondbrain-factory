@@ -1,0 +1,7 @@
+[
+ {"id": "E1-ponte", "seed": 7, "prompt": "London, September 1978, dusk: a man in a raincoat waits at a bus stop on Waterloo Bridge, behind him a stranger in a dark coat lowers a black closed umbrella toward the man's leg, red double-decker bus approaching, River Thames and St Paul's dome in the hazy background"},
+ {"id": "E2-lubyanka", "seed": 7, "prompt": "Moscow, winter 1918: the large yellow neo-baroque Lubyanka building on a snowy square, two Cheka guards in long black leather coats and peaked caps with rifles at the main door, horse-drawn sleigh passing, grey sky"},
+ {"id": "E3-mapa", "seed": 7, "prompt": "simple flat vintage map of Europe and the western Soviet Union on aged beige paper, thin grey coastlines and borders only, no labels, no names, a single red pin on Moscow, lots of empty space"},
+ {"id": "E4-arquivista", "seed": 7, "prompt": "1970s Soviet archive room at night: an elderly bespectacled archivist in a grey cardigan secretly copies notes from a thick file by the light of a green desk lamp, endless shelves of cardboard folders behind him, a small folded note tucked into his shoe on the floor"},
+ {"id": "E5-thumb", "seed": 7, "prompt": "thumbnail composition: half-body portrait on the left third of a stern Soviet KGB officer in a grey greatcoat and fur ushanka hat holding a brown folder with a red star, behind him the yellow Lubyanka building in light snow, the right half of the image is calm pale winter sky with empty space for a title"}
+]

@@ -12,11 +12,12 @@ fabrica-youtube/
 ├── conhecimento/        ← base viva do que aprendemos (com data e fonte)
 │   ├── hooks.md, titulos.md, roteiros.md, anti-padroes.md (inclui custos por vídeo)
 │   └── thumbnails/      ← thumbs no ar (<canal>-<video>.jpg, < 500 KB) + README com o CTR
-├── skills/<nome>/SKILL.md ← 10 skills do Produtor (Agent Skills; symlink em ~/.claude/skills e ~/.hermes/skills/fabrica-youtube) + README.md (mapa)
+├── skills/<nome>/SKILL.md ← 10 skills do Produtor + novo-canal (Agent Skills; symlink em ~/.claude/skills e ~/.hermes/skills/fabrica-youtube) + README.md (mapa)
 ├── playbooks/           ← procedimentos (siga-os; melhore-os)
 │   ├── produzir-video.md
 │   ├── garimpo-tendencias.md
-│   └── revisar-metricas.md
+│   ├── revisar-metricas.md
+│   └── novo-canal.md    ← avaliar nicho e montar canal novo (skill novo-canal)
 ├── tools/               ← comandos determinísticos (Python em tools/.venv)
 │   ├── report.py  métricas e retenção (YouTube Data + Analytics API; sem CTR, que só existe no Studio)
 │   ├── trends.py  garimpo de canais novos com tração

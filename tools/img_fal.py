@@ -42,6 +42,8 @@ def chave():
 
 def gerar(key, modelo, prompt, tamanho, destino, seed=None):
     corpo = {"prompt": prompt, "image_size": tamanho, "num_images": 1, "enable_safety_checker": True}
+    if tamanho == "landscape_16_9":  # nano-banana ignora image_size e sai 1:1; ele lê aspect_ratio (teste dossie-ptbr, 2026-11-04)
+        corpo["aspect_ratio"] = "16:9"
     if seed is not None:
         corpo["seed"] = seed
     req = urllib.request.Request(f"https://fal.run/{modelo}", data=json.dumps(corpo).encode(), method="POST",

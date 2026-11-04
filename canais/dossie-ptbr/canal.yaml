@@ -1,0 +1,38 @@
+slug: dossie-ptbr
+nome: Dossiê em Minutos      # provisório; 3 opções em identidade.md (decisão do Rodrigo)
+url: a definir               # canal ainda NÃO criado no YouTube (decisão do Rodrigo)
+idioma: pt-BR
+nicho: história de organizações, serviços secretos, polícias políticas e regimes do século XX
+token: dossie-ptbr           # ~/.segredos/youtube/tokens/dossie-ptbr.json (após o OAuth, feito pelo Rodrigo)
+status: em preparação (blueprint 2026-11-04; piloto aguarda OK)
+pesquisa: pesquisa/archive-in-minutes/LEVANTAMENTO.md
+formula:
+  modelo: Archive in Minutes (UCFp0Rk-ad8JD78Qw9nEJ29w); 1,95 mi de views em 21 dias (2026-11-04)
+  titulo: "A história INTEIRA da <organização> em N minutos"   # N = duração real arredondada; X = sigla/nome curto e famoso
+  duracao_min: 10-16          # alvo 13; não passar de ~17
+  palavras: ~1.750 para 13 min (~135 palavras/min com pausas)
+  estrutura: hook-anedota de 15-25 s → 10-14 "fichas" (capítulos-objeto de 40-80 s, cronológicos) → fecho que volta ao objeto do hook
+cadencia: 2-3 vídeos/semana no teste (3 pilotos em 2-3 semanas); nunca template em massa
+voz:
+  motor: fish                 # Fish Audio s2.1-pro (crédito pré-pago); ver estilo.md
+  voz: a definir              # sugestão: voz masculina pt-BR grave e sóbria, DIFERENTE do clone do historia-ptbr; Rodrigo escolhe
+  modelo: s2.1-pro
+  velocidade: 1.0
+  tom: narrador de documentário, presente histórico, seco; tags [serious] e [slightly dramatic] dominantes, [curious] nas viradas
+visual:
+  gerador: fal                # fal (tools/img_fal.py) | openai (tools/img_openai.py)
+  modelo: fal-ai/nano-banana     # escolhido no teste de estilo de 2026-11-04 (canais/dossie-ptbr/testes/ESTILO.md); US$ 0,039/img, 1344x768
+  modelo_openai: gpt-image-2
+  qualidade: medium
+  tamanho: landscape_16_9
+  estilo_prompt: "Graphic novel ink illustration for a history documentary, bold clean black ink outlines, realistic adult proportions and faces, muted desaturated palette of slate blue, olive green, sepia and charcoal with small deep red accents, cinematic lighting, subtle paper grain texture, detailed period-accurate setting, 16:9 wide shot, no text, no letters, no captions, no watermark, no swastikas or extremist insignia"
+  cor_destaque: "#B3261E"    # vermelho carimbo
+  papel: "#E9DFC9"           # pasta parda / papel do dossiê
+piloto:
+  - A história INTEIRA da KGB em 12 minutos      # youtube.videos id 6, canais/dossie-ptbr/videos/001-kgb
+  - A história INTEIRA da Gestapo em N minutos
+  - A história INTEIRA da CIA em N minutos
+referencias:
+  - Archive in Minutes (en), template e temas
+  - Te lo Pinto (es), "La HISTORIA COMPLETA de la KGB": 138 mil em 5 dias
+  - Fragmentos da História (pt), prova de demanda pt-BR por Gestapo/SS

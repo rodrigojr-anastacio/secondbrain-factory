@@ -93,3 +93,6 @@ canais/*/videos/*/.claude/
 # --- Exceção: as skills do Produtor são texto (skills/imagens/ casaria com a regra imagens/) ---
 !skills/imagens/
 !skills/imagens/**
+
+# Trava das tools de imagem (tools/_trava.py)
+.img.lock
