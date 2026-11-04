@@ -1,8 +1,10 @@
 # Anti-padrões: erros já cometidos (e quanto custaram)
 
+> **Regras gerais. Regra de canal está em `canais/<slug>/biblia/` e sempre prevalece.** Aqui ficam armadilhas de ferramenta, de processo e de custo que valem para qualquer canal. Padrão de formato (roteiro, título, thumb, visual, voz de um canal) vai para a bíblia do canal.
+
 **Como atualizar:** todo agente que errar, ou vir um erro no QA, registra aqui. Também alimentam: **Métricas** (o que derrubou views ou retenção), **Tendências** (o que as referências evitam) e o **feedback do Rodrigo**. Cada entrada leva **data e fonte**. Sem dado, marque **Hipótese**. Depois de editar, faça commit descritivo (ex.: `conhecimento/anti-padroes: imagens em dobro na Índia`).
 
-Última revisão: 2026-11-04 (A/B de voz e banco corrigido, vídeo 003).
+Última revisão: 2026-11-04 (caixinhas por canal: §8 mistura de canais; detalhes de canal apontam para as bíblias).
 
 ---
 
@@ -16,7 +18,8 @@
 5. **Lugar real no lugar de um fictício** (Mont-Saint-Michel como Minas Tirith) e **cidades desenhadas por código** (ficam amadoras).
 6. **Frames de filme ou série** (Content ID).
 7. **Subir a versão do Telegram** no YouTube.
-8. **Republicar, trocar título ou thumb sem atualizar** `youtube.videos`, o `backlog.md` e este conhecimento.
+8. **Republicar, trocar título ou thumb sem atualizar** `youtube.videos`, o `backlog.md` e a bíblia do canal.
+9. **Misturar canais:** aplicar estrutura, hook, título, thumb, visual ou voz de um canal em outro, ou gravar regra de um canal em `conhecimento/` como se fosse geral (ver §8 abaixo).
 
 **Faça**
 - Reuso planejado no storyboard: 0% nos 3 primeiros minutos, ~40% depois, nunca o mesmo enquadramento em menos de 60 s.
@@ -32,9 +35,9 @@
 - Feedback do Rodrigo (02/11/2026): "a qualidade `low` ficou ruim no vídeo, porque o zoom do Ken Burns amplia a imagem". Novo padrão: `medium` (~US$ 0,055/imagem estimado; ~US$ 0,042 no custo calibrado) e thumb em `high`. [estilo.md historia-ptbr; canal.yaml]
 - Na v2, a nitidez média em 8 planos reenquadrados (1,4–1,68x) foi de 182,6 para **265,5 (+45%)** (variância do Laplaciano). [QA.md 001]
 - Custo da troca: a v2 refez as 204 imagens em `medium` por **US$ 8,55 (R$ 49,84)**, contra ~US$ 1,06 da leva `low` (ids 7 e 9 de `financas.consumo`). [ETAPA3.md 001; consulta de 2026-11-04]
-- Atenção: a seção "Visual" do `canais/historia-ptbr/estilo.md` ainda diz `low`; vale a seção "Aprendizados do piloto 001" e o `canal.yaml` (`qualidade: medium`).
 
 ### 2. Narração corrida sem pausas reprovada (Egito, 2026-11-02)
+- Regras de voz do canal (clone, tags, pausas): `canais/historia-ptbr/biblia/voz.md`. Aqui fica o comportamento geral do Fish/`build.py`.
 - Na v1, 85 `[break]` foram removidos (ficaram 15), e o `build.py` encadeava os blocos com 0,16 s. Pausa média real entre blocos: **0,33 s**. [ETAPA2.md, QA.md 001]
 - Feedback do Rodrigo: soou "robótica e atropelada": "termina um assunto e já emenda o próximo, sem respiro". [.v2-prompt.txt, estilo.md historia-ptbr]
 - Correção na v2: 50 `[break]` nas viradas, 59 tags de tom (no máximo 1 por frase) e encadeamento de 0,35/0,9/1,5 s com cauda de 0,15 s. Pausa média: **0,90 s** (1,10 s em ideia nova e 1,70 s antes de capítulo). A duração subiu ~7% (15:54 → 17:00). [ETAPA3.md, QA.md 001]
@@ -45,6 +48,7 @@
 - Feedback do Rodrigo no `BRIEF-historia-003.md`: "a narração está robótica". Teste com o mesmo hook de ~60 s em 6 técnicas (2 tomadas em 3 delas). Arquivos, medidas e critério em `canais/historia-ptbr/videos/003-ira/amostras-voz/LEIA.md`; custo US$ 0,14.
 - Medida principal: **repetição melódica** (correlação entre os contornos de F0 das frases; Praat). Texto do 002 (A) = 0,14 e queda de −2,4 st no fim de cada frase; texto reescrito para a fala (B) = 0,10–0,11 e −1,7/−2,1; **por frase com silêncio inserido (G) = 0,09**; tags de direção (F) = 0,16–0,17; tags + velocidade 0,97 (H) = 0,19 e −3,0. temperature/top_p 0,9 = sem efeito além do ruído (~0,15 st entre tomadas).
 - Decisão: **G** = texto falado + `tools/tts_fish.py --por-frase` (cache por frase; regera só a frase ruim). **Hipótese** até o Rodrigo ouvir A × G e até a retenção do 003. Se ainda soar robótico, regravar a referência do clone (30–60 s naturais com pausas, guia do Fish), não mexer em parâmetro.
+- **Atualização 04/11/2026 (noite):** o Rodrigo ouviu e **preferiu a A** ao G; disse que a narração do 003 ainda "parece que o cara tá lendo corrido, e não contando uma história". O modelo mais recente do Fish está em teste (job `historia-003-v2`). O G segue como padrão técnico da tool, mas a escolha por canal está em `canais/<slug>/biblia/voz.md`. [`~/workspace/referencias/BRIEF-historia-003-v2.md`]
 
 ### 3. Imagens geradas em dobro (Índia, 2026-11-03)
 - 223 gerações para 196 imagens (195 do vídeo + thumb-base): **27 em dobro**. Causa: 2 processos `img_openai.py` em paralelo, cada um numa ponta da lista. Eles calculam os pendentes só no início e se cruzaram no meio. Custo extra: **~US$ 1,1** (27 × ~US$ 0,042). [BLOQUEIO.md, ETAPA-FINAL.md 002; `financas.consumo` ids 16 e 17: 133 + 90 imagens]
@@ -59,7 +63,7 @@ Fonte: `canais/historia-ptbr/videos/003-ira/RELATORIO.md` (falha 2), `financas.c
 - O filtro de segurança devolve **imagem preta sem erro** (2 mapas inofensivos do Oriente Médio). Confira a luminância média de cada imagem (< 15 = refazer com outro texto).
 - O flux escreve **letras falsas em mapas** mesmo com "no text, no labels". Mapas: reuse um mapa limpo e ponha os rótulos no código, ou use outra fonte.
 - "barrel-shaped clay cylinder" virou barril de madeira (Cilindro de Ciro). Descreva a forma sem a palavra "barrel" ("shaped like a rugby ball").
-- O estilo do canal fica menos fiel no flux que no gpt-image-2: aparecem rostos realistas e caricaturas (qizilbash com cara de Papai Noel). **Hipótese:** isso pesa na percepção de qualidade; o Rodrigo é quem julga.
+- O estilo do canal fica menos fiel no flux que no gpt-image-2: aparecem rostos realistas e caricaturas (qizilbash com cara de Papai Noel). **Confirmado pelo Rodrigo em 04/11** ("bem piores", "sumiram os bonequinhos"). Lição geral: **trocar de motor de imagem muda a identidade do canal**; só troque depois de uma amostra aprovada no estilo da bíblia (`canais/<slug>/biblia/visual.md`). [BRIEF-historia-003-v2.md]
 
 ### 3c. Armadilhas do fal.ai nano-banana (dossie-es 001 CIA, 2026-11-04)
 Fonte: `canais/dossie-es/videos/001-cia/RELATORIO.md` (falhas 1–3) e `QA.md`; `financas.consumo` ref_id 7.
@@ -75,6 +79,7 @@ Fonte: `canais/dossie-es/videos/001-cia/RELATORIO.md` (falhas 1–3) e `QA.md`; 
 - Também: o `img_openai.py` só grava o custo no fim; se for interrompido, o custo se perde e precisa ser lançado à mão (aconteceu com 165 imagens do Egito v1, `financas.consumo` id 9). [ETAPA2.md 001; playbooks/produzir-video.md]
 
 ### 5. Fidelidade visual (lotr-fr, cidades, 2026-11-01)
+- Regras visuais do lotr-fr: `canais/lotr-fr/biblia/visual.md`. A regra geral (o lugar nomeado tem de ser aquele; nunca lugar real no lugar de fictício; nada desenhado por código) vale para todos.
 - Minas Tirith ilustrada com o **Mont-Saint-Michel** (pintura de Haseltine): "inaceitável, ainda mais para o público francês". [AJUSTES_V2.md lotr-fr 001]
 - Na v2, as cidades foram substituídas por "ilustrações originais geradas localmente" (`tools/gen_cities.py`). O QA registrou "composições esquemáticas/estilizadas em vez de pintura a óleo". [out/QA.md lotr-fr 001] O `estilo.md` do canal conclui: "cidades desenhadas por código ficaram amadoras". [estilo.md lotr-fr]
 - Anacronismos de bandeira no Egito v1 (bandeira atual em cenas de 1922 e 1952), corrigidos nos prompts da v2. [QA-v1.md, ETAPA3.md 001]
@@ -105,4 +110,10 @@ Fonte: `financas.custo_por_video` e `financas.consumo` (consulta de 2026-11-04).
 ### 7. Job headless morto por tarefa de fundo (BRIEF-canal-archive, 2026-11-04)
 - O job disparou um subagente e um shell em segundo plano, respondeu "ainda está rodando, quando terminar eu faço o resto" e encerrou o turno. Em `claude -p` não há "depois": o harness esperou 10 min ("Background tasks still running 10m after the last turn ... stopping them") e matou tudo; trabalho pela metade, sem commit. [referencias/canal-archive.log]
 - Correção: regra em `~/.claude/CLAUDE.md` (primeiro plano, commit+push antes de responder, senão `BLOQUEIO.md`) e `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0` em `~/.claude/settings.json`, `claude_run.py` e `_rotina_claude.sh`. Atenção: na doc, `0` = esperar indefinidamente (não desliga a espera), então a variável só segura o processo; o `--timeout` do `claude_run.py` continua sendo o limite. Para proibir background de vez existe `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS=1` (não aplicado; **Hipótese** de que resolveria).
+
+### 8. Mistura de canais (historia-ptbr 003, 2026-11-04)
+- O que aconteceu: o estudo de 3 transcrições (1 History in Minutes + 2 Archive in Minutes) virou regra **global** em `conhecimento/roteiros.md`, `hooks.md` e na skill `roteiro` como "padrão novo do historia-ptbr" (commit `8b6fe19`): capítulos-objeto de 1–2 palavras falados, hook de anedota em 10 s, CTA no meio. Isso é o molde do Archive, que é o modelo do `dossie-es`. O `historia-ptbr` modela o History in Minutes (narrativa contínua).
+- Resultado: o roteiro do 003 v1 (16 capítulos-objeto: "O Túnel", "O Cilindro", "O Moinho"…) foi reprovado: "não tem cara de história, falta conexão entre as partes"; "parece que o cara tá lendo corrido, e não contando uma história". O vídeo já estava renderizado (R$ 69,77 diretos) e vai para uma v2. [`~/workspace/referencias/BRIEF-historia-003-v2.md`; `canais/historia-ptbr/videos/003-ira/AVISO-ROTEIRO.md`]
+- Correção (2026-11-04): uma **bíblia por canal** em `canais/<slug>/biblia/` (roteiro, título, thumb, visual, voz + README com "o que NÃO fazer aqui"), que prevalece sobre `conhecimento/`; `conhecimento/` só com regra geral; skills e agentes leem a bíblia primeiro e a `qa` confere "o vídeo segue a bíblia do canal?".
+- Como evitar: antes de gravar um aprendizado, pergunte "isso vale para **qualquer** canal?". Se veio de um vídeo ou de uma referência de um formato, vai para a bíblia do canal desse formato. Só sobe para `conhecimento/` o que for comprovadamente geral (ferramenta, custo, processo, medição).
 

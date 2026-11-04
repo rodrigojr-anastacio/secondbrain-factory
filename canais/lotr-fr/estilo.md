@@ -1,13 +1,14 @@
-# Estilo — Le Gardien de Valinor
+# Estilo: lotr-fr → ver `biblia/`
 
-## Visual
-- Pinturas a óleo românticas (estilo Thomas Cole, Bierstadt, Claude Lorrain), com Ken Burns e luz dramática. O Rodrigo gosta desse padrão.
-- Mapa esquemático em pergaminho, com rotas e marcadores (componente do 001).
-- Tipografia serifada (Cinzel/Cormorant); legenda embaixo.
-- Placar ou HUD recorrente ("La Couronne") quando o roteiro tem fio condutor.
+Desde 2026-11-04 o estilo deste canal mora em **`canais/lotr-fr/biblia/`** (uma "caixinha" por canal, para não misturar canais). Este arquivo é só o índice; não escreva regras aqui.
 
-## Aprendizados
-- Títulos em pergunta curiosa e vídeos de ~8 min retêm melhor (~48%) que biografias de 15 min (34–41%).
-- Em 001 (cidades): cidades desenhadas por código ficaram amadoras, e pinturas genéricas no lugar de cidades nomeadas quebram a fidelidade. O próximo passo é ilustrar as cidades de verdade.
-- A voz Kokoro `ff_siwis` é aceitável, mas um pouco robótica. Avaliar uma voz Fish.audio.
-- **Hipótese (2026-11-04, `report.py`/`youtube.metricas_video`):** o 001 (8:19, título em pergunta) está com 49,7% assistido (4:08) no 1º dia, com 54 views; no padrão dos vídeos de ~8 min (47–48%). Reforça a hipótese de que ~8 min + pergunta retém mais que 15 min (29–44%); reavaliar com mais views e a curva de retenção.
+| Assunto | Arquivo |
+|---|---|
+| Canal-modelo, o que é deste canal e o que NÃO fazer | [`biblia/README.md`](biblia/README.md) |
+| Roteiro (estrutura, hook, transições, fecho, tamanho, tom) | [`biblia/roteiro.md`](biblia/roteiro.md) |
+| Título | [`biblia/titulo.md`](biblia/titulo.md) |
+| Thumbnail | [`biblia/thumb.md`](biblia/thumb.md) |
+| Visual (imagens, edição, ritmo, texto na tela) | [`biblia/visual.md`](biblia/visual.md) |
+| Voz | [`biblia/voz.md`](biblia/voz.md) |
+
+Configuração técnica (voz, gerador, `estilo_prompt`): `canal.yaml`. A bíblia **prevalece** sobre `conhecimento/` (que só tem regras gerais). O conteúdo antigo deste arquivo foi movido para a bíblia com data e fonte; o texto original está no git (`git log -p -- canais/lotr-fr/estilo.md`).

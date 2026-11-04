@@ -6,10 +6,10 @@ nicho: história mundial (países, impérios, civilizações)
 token: historia-ptbr      # ~/.segredos/youtube/tokens/historia-ptbr.json
 status: em preparação (piloto)
 formula:
-  modelo: History in Minutes (UCYjRQ6T2BxBnJtPytI9OnNg) e Genius History (UC-q0RDBWjYlYA2KkPzq0WSQ)
+  modelo: History in Minutes (UCYjRQ6T2BxBnJtPytI9OnNg) e Genius History (UC-q0RDBWjYlYA2KkPzq0WSQ)   # bíblia do canal em biblia/
   titulo: "A história INTEIRA de X em N minutos"   # INTEIRA desde 04/11/2026 (Rodrigo); N = duração real
   duracao_min: 12-20
-  estrutura: cronologia completa do país ou império, das origens até hoje, em 13-16 capítulos-objeto (desde o 003)
+  estrutura: narrativa contínua (molde History in Minutes), das origens até hoje, em 8-10 eras ligadas por causa e consequência; regra completa em biblia/roteiro.md (capítulos-objeto revogados em 04/11/2026: são do dossie-es)
 voz:
   motor: fish             # Fish.audio; chave em ~/.segredos/fish.env
   voz: 48613fc675f84984981683d92266e543   # clone feito pelo Rodrigo no Fish (pt-BR)
