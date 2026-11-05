@@ -25,6 +25,7 @@ Procedimento-base: `playbooks/produzir-video.md` §7. Modelo recomendado: **sonn
    - **Tags** (10–15, idioma do canal), **categoria** (Educação) e idioma do vídeo.
 3. No fim do arquivo, o lembrete para o Rodrigo: idioma do vídeo; **"conteúdo alterado ou sintético" = sim**; "não é para crianças"; subir as 3 thumbs no "Testar e comparar"; usar o mp4 1080p (nunca o do Telegram).
 4. Copie também o essencial (título e capítulos) para `$V/ETAPA3.md`, porque `out/` fica fora do git.
+5. **Entrega final no Google Drive do Rodrigo** (não no Mac): monte `entrega/` e rode `tools/entregar_drive.sh <canal_slug> <NNN-slug>` → `Youtube/<nome do canal>/<NNN-slug>/` (nome vem do `canal.yaml`; só copia, nunca apaga). Logos/capas: `tools/entregar_drive.sh <canal_slug> identidade`. Usa rclone (remote `gdrive`); se faltar, veja `BLOQUEIO-drive.md`. O conector claude.ai Drive só serve para arquivos de texto pequenos (binário passaria pelo contexto do modelo).
 
 ## Critérios de pronto (avaliar)
 Valide com um one-liner Python sobre `out/youtube.txt`:
