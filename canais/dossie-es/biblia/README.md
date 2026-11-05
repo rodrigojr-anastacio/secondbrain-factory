@@ -8,3 +8,5 @@
 - **Narrativa contínua sem capítulos** (eras longas, hook de 1–2 min com lista de promessas): é o molde do `historia-ptbr`.
 - Países e impérios como tema (Atlas del Tiempo: países rendem 10–40× menos que organizações). Texto em português. Copiar thumb, hook ou texto do Archive.
 - A versão pt-BR adiada (`../arquivo-ptbr/`) está arquivada: não serve de regra.
+
+**Sinal de mercado (garimpo 05/11/2026, `trends.py`):** Archive in Minutes chegou a 2,04 mi views em 20 vídeos e 13,8 mil inscritos em 21 dias (+484 mil em 1 semana); os mais fortes são SS (382 mil), Gestapo (363 mil) e KGB (237 mil), CIA 147 mil. Confirma organizações como tema; CIA ficou abaixo de SS/Gestapo (Hipótese: temas ligados à 2ª Guerra rendem mais).
