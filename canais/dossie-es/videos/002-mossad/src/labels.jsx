@@ -9,7 +9,7 @@ export const LABELS = {
     { t: 'EGIPTO', x: 0.145, y: 0.84, size: 34, fijo: true },
     { t: 'IRAK', x: 0.61, y: 0.52, size: 36, pin: true, lado: 'dir' },
     { t: 'ISRAEL', x: 0.44, y: 0.61, size: 34, pin: true, lado: 'esq' },
-    { t: 'JORDANIA', x: 0.5, y: 0.68, size: 26 },
+    { t: 'JORDANIA', x: 0.55, y: 0.63, size: 26 },
   ],
   map_southamerica: [
     { t: 'SÃO PAULO', x: 0.665, y: 0.465, size: 30, pin: true, lado: 'dir' },
@@ -18,16 +18,16 @@ export const LABELS = {
   ],
   map_europe: [
     { t: 'LILLEHAMMER', x: 0.43, y: 0.19, size: 30, pin: true, lado: 'dir' },
-    { t: 'PARÍS', x: 0.34, y: 0.5, size: 30, pin: true, lado: 'esq' },
+    { t: 'PARÍS', x: 0.36, y: 0.48, size: 30, pin: true, lado: 'esq' },
     { t: 'MÚNICH', x: 0.43, y: 0.52, size: 30, pin: true, lado: 'dir' },
     { t: 'ROMA', x: 0.45, y: 0.64, size: 30, pin: true, lado: 'baixo' },
-    { t: 'BEIRUT', x: 0.715, y: 0.78, size: 30, pin: true, lado: 'dir' },
+    { t: 'BEIRUT', x: 0.7, y: 0.785, size: 30, pin: true, lado: 'dir' },
   ],
   map_redsea: [
-    { arrow: [0.56, 0.63, 0.505, 0.34] },
+    { arrow: [0.548, 0.62, 0.505, 0.34] },
     { t: 'ISRAEL', x: 0.505, y: 0.33, size: 32, pin: true, lado: 'esq' },
-    { t: 'SUDÁN', x: 0.4, y: 0.6, size: 40 },
-    { t: 'AROUS', x: 0.56, y: 0.63, size: 30, pin: true, lado: 'dir' },
+    { t: 'SUDÁN', x: 0.36, y: 0.62, size: 40 },
+    { t: 'AROUS', x: 0.548, y: 0.62, size: 30, pin: true, lado: 'esq' },
     { t: 'ETIOPÍA', x: 0.5, y: 0.9, size: 34 },
   ],
 };

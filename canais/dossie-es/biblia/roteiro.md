@@ -34,6 +34,9 @@ Base: `pesquisa/archive-in-minutes/LEVANTAMENTO.md` §2 (anatomia, 2026-11-04), 
 - **Medido no piloto CIA (2026-11-04):** 1.686 palavras, 78 blocos, hook + 13 expedientes + cierre = **706,4 s (11:46), ~143 ppm** com as pausas do `build.py`; o `WPS = 2.3` do `roteiro.py` estimou 12:21 (5% acima). **Para 13 min, mire ~1.850 palavras.** [`videos/001-cia/RELATORIO.md` e `QA.md`; ex-`estilo.md` e ex-`conhecimento/roteiros.md`]
 - Antes do piloto: ~140 palavras/min nas amostras Fish es (1.500 ≈ 11 min; 1.800 ≈ 13 min). O Archive fala ~160–170 ppm (13 min ≈ 2.100 palavras na fala deles). [canal.yaml; SCRIPT.md 001; LEVANTAMENTO §2d]
 
+- **Medido no 002 Mossad (05/11):** 1.954 palavras, 85 blocos, 13 expedientes = **822,7 s (13:43), ~143 ppm**; o `roteiro.py` com `WPS = 2.38` estimou 13:50 (erro de 1%): use 2,38. O hook saiu com 40 s (5 s acima): corte o hook no texto antes da voz. [`videos/002-mossad/RELATORIO.md`]
+- **Tema sensível (002):** morte atribuída a serviço secreto sempre com fonte ("se atribuye al Mossad", "según historiadores y periodistas") e a versão do outro lado ("su entorno siempre lo negó"); inclua o erro do próprio serviço (Lillehammer); recorte fechado no passado e 1 frase neutra de presente. A revisão nativa pegou 3 atribuições que faltavam. [`videos/002-mossad/RELATORIO.md`]
+
 ## Checklist do roteiro
 - [ ] Hook ≤ 35 s com anedota própria (não a do Archive/clones), desfecho seco e "Esta es TODA la historia de X".
 - [ ] 11–14 expedientes de 45–75 s, cada um uma cena/objeto datado, título falado; o fim de cada um puxa o próximo.

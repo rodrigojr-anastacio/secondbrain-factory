@@ -9,6 +9,7 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md`. Configuraç�
 
 ## Pronúncia
 - Medido no piloto CIA (04/11): "CIA" sai como "sía" (uso latino); "OSS", "U dos", "PB Success" e "MK Ultra" saem bem. Números sempre por extenso no texto. Whisper 97,8%. Ritmo ~143 ppm (ver `roteiro.md`). [`videos/001-cia/RELATORIO.md`]
+- Medido no 002 Mossad (05/11): Whisper 96,4%. "Mossad", "MiG veintiuno", "cero cero siete", "Knéset", "Yom Kipur" saem bem; nomes hebraicos/árabes/letões saem aceitáveis, mas o Whisper grafa mal (Shiloaj, Zamir, Marwan, Cukurs, Hatzerim): conferir de ouvido, não regerar. [`videos/002-mossad/QA.md`]
 - Siglas como no uso latino ("la ce-i-a", "el ka-ge-be", "el efe-be-i"); confira na 1ª amostra do roteiro.
 - Números por extenso quando o Fish ler mal; datas "27 de junio de 1954".
 - **Whisper por bloco ≥ 95%** depois da voz; nomes próprios conferidos à parte. [estilo.md de 04/11]

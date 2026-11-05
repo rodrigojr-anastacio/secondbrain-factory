@@ -21,7 +21,7 @@ Procedimento-base: `playbooks/produzir-video.md` §4–5 (sobretudo "Ambiente" e
 3. Confira o JSON impresso (duração × meta; `plano_min_s` ≥ ~1,5 s) antes de renderizar.
 4. **Render** (um por vez; 2 vCPU, ~15–30 min por 8 min de vídeo):
    `cd $V && mkdir -p logs && nohup tools/render.sh > logs/render.log 2>&1 &` e espere `RENDER_OK` no log (ajuste o id da composição no `render.sh`).
-   Antes, confira que não há outro render: `pgrep -af "remotion render"`.
+   Antes, confira que não há outro render: `pgrep -af "^node .*remotion (render|still)"` (ancorado em `^node`: sem isso o pgrep casa a linha do próprio shell que chama `npx remotion` e o laço de espera nunca termina; erro real no dossie-es/002, 05/11/2026). Laço de espera pronto em `canais/dossie-es/videos/002-mossad/tools/espera_render.sh`, chamado num comando separado do render.
 5. Versão de revisão para o Telegram (≤ 45 MB, 720p) só se o Rodrigo pedir; **nunca** suba essa versão no YouTube.
 6. Status: `psql -d vida -c "UPDATE youtube.videos SET status='qa', duracao_s=<s>, atualizado_em=now() WHERE id=<id>"`.
 
