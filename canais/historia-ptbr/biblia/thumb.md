@@ -5,7 +5,17 @@ Regra de canal: **prevalece** sobre `conhecimento/thumbnails/README.md` (regras 
 ## Estado em 04/11/2026: o padrão atual NÃO está funcionando
 - **CTR do Egito e da Índia abaixo de 2%** (Rodrigo, `~/workspace/referencias/BRIEF-historia-003-v2.md`, 04/11/2026; janela não informada). Os dois seguem o mesmo padrão (lugar panorâmico + nome gigante + datas). "O padrão precisa mudar."
 - Nenhuma das 3 thumbs do 003 v1 "gera curiosidade de clique" (mesma fonte).
-- Em teste: 4 conceitos novos no job `historia-003-v2` (`videos/003-ira/v2-amostras/thumbs/`). **Quando o Rodrigo aprovar um, registre aqui o padrão novo** e o porquê.
+- Em teste: 4 conceitos novos no job `historia-003-v2` (`videos/003-ira/v2-amostras/thumbs/`). **Aprovado em 05/11: o conflito cara a cara (abaixo).**
+
+## Padrão novo aprovado em 05/11/2026: CONFLITO CARA A CARA ("COROA × TURBANTE")
+O Rodrigo gostou da pegada da thumb-3 da fase 1 (`videos/003-ira/v2-amostras/thumbs/thumb-3.jpg`). Template (003 v2, `videos/003-ira/v2-thumbs/compose_v2.py`):
+- **Dois bonequinhos de cabeça redonda, grandes (do peito para cima), testa contra testa, com emoção forte (raiva, boca aberta gritando)**, um de cada lado; os dois no mesmo traço (no 1º teste o clérigo saía semi-realista).
+- **Raio amarelo** entre os rostos; fundo dividido (o mundo de cada lado: azulejos × multidão, penhasco × escudos romanos, poços de petróleo × tanques).
+- **Datas em pílula amarela** (Open Sans 800) no topo, ao centro: a lacuna ("1891 · 1979", "260 d.C.", "1953").
+- **Duas palavras grandes embaixo** em Libre Caslon 700 sobre degradê escuro: a 1ª em ouro (#F7C21B), "×" branco, a 2ª em branco. O título dá o "história INTEIRA"; a thumb vende o conflito.
+- Base: nano-banana-2.1/edit + refs do canal, 2 tomadas por conceito (US$ 0,046 cada), texto composto em PIL (fontes em `videos/003-ira/v2-amostras/thumbs/base/fonts/`).
+- Irã v2: 1 COROA × TURBANTE (principal), 2 PÉRSIA × ROMA (Shapur × Valeriano), 3 PETRÓLEO × CIA (Mossadegh × agente). **Hipótese** até o CTR do "Testar e comparar": registre aqui o vencedor e o CTR de cada uma.
+- Para o próximo país, escolha 3 pares de conflito do próprio roteiro (personagem × personagem, ou povo × povo).
 
 ## O que manter (vale até haver dado contra)
 - Texto **sempre composto no código** (`src/Thumbnail.jsx`), nunca escrito pela IA. Hoje: Libre Caslon 700 + Open Sans 800. [BRIEF.md 001; QA.md 001]

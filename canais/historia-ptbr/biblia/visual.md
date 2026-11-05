@@ -4,7 +4,10 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md` (armadilhas d
 
 ## Identidade das imagens
 - **Bonequinhos de cabeça redonda**: cartoon desenhado à mão, contorno preto grosso, cores chapadas e vivas, sombreamento suave, pessoas simples com cabeça redonda branca, olhos de ponto e rosto expressivo; cenários detalhados e limpos, céu azul com nuvens brancas, paleta terrosa quente. (`estilo_prompt` do `canal.yaml`; definido no piloto do Egito, 11/2026.)
-- **Motor de referência: gpt-image-2 em `medium`** (thumb em `high`). O `low` do piloto foi reprovado em 02/11 (borra no Ken Burns). [conhecimento/anti-padroes.md §1]
+- **Motor desde 05/11/2026 (decisão do Rodrigo): `google/nano-banana-2.1/edit` no fal**, com 3 imagens gpt-image-2 do canal como referência de ESTILO (`001-egito/imagens/I041.jpg`, `I120.jpg` e `002-india/imagens/I041.jpg`, em `canal.yaml` → `visual.refs`), 1K (1376×768), reescalado para 1536×864 pelo `tools/img_fal.py`, `thinking_level: minimal`. Custo real: **US$ 0,046/img** (US$ 0,058 com o thinking padrão). 003 v2: 212 imagens, 0 pretas, 0 molduras, 2 refeitas por letras.
+  - **Regra de prompt (aprendida no lote-prova do 003 v2):** personagem com nome sai com rosto semi-realista se o prompt descrever rosto ("long square curled beard", "thick dark eyebrows"). Escreva **"X as a round-white-head cartoon king with a simple flat beard shape, …"** e mantenha a `ref_instrucao` do `canal.yaml` ("every person… round white head… never realistic faces"). Figuras modernas reais vão sem nome no prompt (o nome entra no rótulo do código).
+  - Sempre: lote-prova de 6 cenas variadas (multidão, mapa, rei, clérigo, diagrama, cenário) e conferência por pranchas antes e depois do lote.
+- Motor anterior: gpt-image-2 `medium` (Egito e Índia; ainda vale como plano B no fal, `openai/gpt-image-2`, US$ 0,04). O `low` foi reprovado em 02/11 (borra no Ken Burns). [conhecimento/anti-padroes.md §1]
 - **Alerta 04/11/2026:** no 003 v1, com OpenAI sem crédito, as imagens saíram no `fal-ai/flux/dev`, e o Rodrigo disse que ficaram "bem piores que as do gpt-image-2" e que **"sumiram os bonequinhos de cabeça redonda"**; apareceram rostos realistas e caricaturas (qizilbash com cara de Papai Noel). [BRIEF-historia-003-v2.md; conhecimento/anti-padroes.md §3b] A bancada de modelos do fal está em `videos/003-ira/v2-amostras/imagens/` (job `historia-003-v2`). **Registre aqui o modelo aprovado pelo Rodrigo.** Até lá: gpt-image-2 é o padrão; outro motor só depois de uma amostra aprovada que mantenha os bonequinhos.
 - No flux/dev, use `{width: 1536, height: 864}` (landscape_16_9 sai 1024×576 e borra). [canal.yaml; anti-padroes §3b]
 
@@ -31,4 +34,4 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md` (armadilhas d
 - O **gpt-image-2 existe no fal** (`openai/gpt-image-2`, medium 1536×864 a US$ 0,04/img) e reproduz o estilo do Egito e da Índia sem precisar de crédito na OpenAI.
 - O plano B, `google/nano-banana-2.1/edit` com 2 refs do canal (US$ 0,044/img), fica próximo.
 - O flux/dev, o ideogram, o z-image e o seedream 4 não servem para este canal.
-- A troca no `canal.yaml` espera o OK do Rodrigo (FASE 2 do 003).
+- **Decisão (05/11/2026):** o Rodrigo escolheu o nano-banana-2.1/edit + refs (acima). O flux/dev saiu do `canal.yaml`.

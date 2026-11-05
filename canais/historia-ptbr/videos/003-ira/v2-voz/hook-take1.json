@@ -1,0 +1,40 @@
+{
+ "chamadas": [
+  {
+   "texto": "[curious] Pérsia, quinhentos e vinte e dois antes de Cristo. Seis nobres têm um problema: quem vai governar o maior império do mundo? A solução é… estranha.",
+   "gap_antes_s": 0
+  },
+  {
+   "texto": "Ao nascer do sol, os seis vão sair a cavalo, e o dono do cavalo que relinchar primeiro vira rei.",
+   "gap_antes_s": 0.35
+  },
+  {
+   "texto": "Um deles se chama Dario, e Dario tem um cavalariço esperto. Na noite anterior, ele leva o cavalo até aquele lugar exato, junto com uma égua.",
+   "gap_antes_s": 0.35
+  },
+  {
+   "texto": "De manhã, o cavalo passa por ali, sente o cheiro… e relincha.",
+   "gap_antes_s": 0.35
+  },
+  {
+   "texto": "[amazed] Dario vira rei de um império que ia do Egito até a fronteira da Índia. Um império escolhido, literalmente, por um cavalo. Pelo menos, é assim que Heródoto conta.",
+   "gap_antes_s": 0.35
+  },
+  {
+   "texto": "[serious] Essa é a história inteira do Irã. Um país invadido por gregos, árabes, mongóis e turcos, e que, toda vez, acabou ensinando os invasores a viver como persas.",
+   "gap_antes_s": 0.9
+  },
+  {
+   "texto": "No caminho, tem um rei que devolvia os deuses dos vencidos, um imperador romano capturado vivo, o caixão de um poeta que salvou uma língua… e um contrato de tabaco que derrubou uma coroa, oitenta e oito anos antes de derrubar outra.",
+   "gap_antes_s": 0.35
+  },
+  {
+   "texto": "E o que esse cavalo tem a ver com o Irã de hoje? Guarde esse cavalo. Ele volta no final.",
+   "gap_antes_s": 0.9
+  },
+  {
+   "texto": "Mas, antes de qualquer rei, alguém precisou achar água. O planalto do Irã é uma tigela de montanhas, com deserto no meio e pouca chuva. Como é que se vive aqui?",
+   "gap_antes_s": 1.5
+  }
+ ]
+}

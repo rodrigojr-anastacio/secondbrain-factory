@@ -124,3 +124,15 @@ Fonte: `financas.custo_por_video` e `financas.consumo` (consulta de 2026-11-04).
 - Antes de qualquer lote no fal, confira o saldo ao vivo; há uma função `saldo()` em `canais/historia-ptbr/videos/003-ira/v2-amostras/imagens/bench.py`.
 - O preço real por endpoint está em `api.fal.ai/v1/models/pricing`.
 - Registro relacionado: o fal também hospeda `openai/gpt-image-2`, cobrado no crédito do fal.
+- **Resolvido em 05/11/2026** (historia-ptbr 003 v2, `RELATORIO.md`): recarga de US$ 100 lançada (`financas.lancamentos` id 49) e ajuste de US$ 3,77 em `financas.consumo` id 78; o banco bateu com o saldo real (US$ 100,47). O `tools/img_fal.py` passou a registrar o **custo real**.
+
+## Custo real por job com vários agentes usando o mesmo crédito (05/11/2026, historia-ptbr 003 v2 × dossie-002 rodando juntos)
+- **Diferença de saldo não serve** para atribuir custo quando outro job gasta ao mesmo tempo: no lote 1 do 003 v2, o saldo do fal caiu US$ 8,76, e o gasto do lote foi US$ 3,23. O mesmo vale para o crédito do Fish (caiu US$ 0,17 a mais por outro job).
+- **fal:** use a API de uso **por endpoint** (`GET api.fal.ai/v1/models/usage?endpoint_id=<modelo>&start=<data>&expand=time_series`, soma de `cost_total`) antes e depois do lote. Isso isola o custo enquanto os jobs usarem endpoints diferentes. Já está no `tools/img_fal.py`, com o saldo como plano B.
+- **Fish:** a queda do crédito confirma o modelo cobrado (o drama-3 cai calado no s2.1-pro com header errado) só se for lida **logo antes e logo depois** da geração. O `tools/tts_fish.py` mostra as duas leituras, e o valor atualiza com atraso de uma chamada.
+- Preço real medido do `google/nano-banana-2.1/edit` com 3 refs a 1K: US$ 0,058/img com o thinking padrão e **US$ 0,046 com `thinking_level: minimal`**. O preço é por token, não fixo.
+
+## Pequenas armadilhas de processo (05/11/2026, historia-ptbr 003 v2)
+- **YAML com ": " dentro de valor sem aspas** (ex.: `estrutura: … revogados em 04/11: são do dossie-es`) torna o `canal.yaml` inválido, e as tools quebram ou caem em fallback silencioso. Valide com `python -c "import yaml; yaml.safe_load(open('canal.yaml'))"` depois de editar.
+- **Render > 10 min por comando** (limite do harness headless): renderize em partes por faixa de frames, só vídeo (`--muted`), junte sem reencode e ponha o mix em AAC no fim. Modelo em `canais/historia-ptbr/videos/003-ira/tools/render_partes.sh`. Em 2 vCPU, ~20 fps a 1080p, então ~8.000 frames por parte.
+- **QA de voz com Whisper:** nomes estrangeiros e algarismos derrubam a razão palavra a palavra (falsos < 93%). Compare também por chave fonética (`canais/historia-ptbr/videos/003-ira/v2-voz/qa_fonetico.py`). E não deixe o JSON de QA de uma versão anterior no mesmo arquivo, porque o script acumula.

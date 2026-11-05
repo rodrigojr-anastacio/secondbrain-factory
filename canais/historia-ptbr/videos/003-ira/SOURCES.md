@@ -158,3 +158,20 @@ Etapa 1, 04/11/2026. Cada número/data do `SCRIPT.md` aparece aqui, com o bloco 
 
 ## [PENDENTE]
 - Nenhum fato travado. Para conferir na etapa 2 ou no QA: (a) o "uns três mil anos" do N014 (alternativa exata: "mais de três mil anos"); (b) a data de Qadisiya (636 ou 637; manter 636, a mais citada).
+
+---
+
+## v2 (05/11/2026): fatos novos ou reformulados no roteiro v2 (`roteiro.py` v2, blocos N001–N090)
+| Fato | Blocos v2 | Fonte |
+|---|---|---|
+| **Hook do cavalo:** em 522 a.C., dos sete conspiradores, Otanes se retira e **seis** disputam o trono; quem montar o cavalo que relinchar primeiro ao nascer do sol vira rei; o cavalariço de Dario (Oebares) leva na véspera o cavalo ao local com uma égua; o cavalo relincha e Dario vira rei | N001–N005, N085 | **Lenda**: Heródoto, *Histórias* III.83–87 (III.83: Otanes fica de fora; III.84–86: a regra, Oebares, a égua; III.87: versão alternativa). Dita como "pelo menos, é assim que Heródoto conta". |
+| "Império que ia do Egito até a fronteira da Índia" em 522 a.C. | N005 | Egito conquistado por Cambises em 525 a.C.; Gandhara já sob Ciro (Britannica, "Achaemenian dynasty", "Cambyses II"). Por isso "fronteira da Índia" (o vale do Indo vem com Dario, c. 518). |
+| "Um império escolhido por um cavalo", "o maior império do mundo" | N001, N005 | Mesma fonte; aquemênida era o maior império da época (Britannica). |
+| "Oitenta e oito anos antes de derrubar outra" (tabaco 1891 → 1979) | N007 | Cálculo (1891–1979), fatos em §12 e §14. |
+| Sassânidas "de novo, de Pars" | N030 | Britannica e Iranica, "Sasanian dynasty" (Ardashir I, de Istakhr, em Pars/Persis). |
+| Koh-i-Noor "que o nosso vídeo da Índia segue até Londres" | N052 | Britannica, "Koh-i-noor" (hoje nas Joias da Coroa britânica, Torre de Londres). |
+| "Duas semanas depois, Khomeini voltou de Paris" | N073 | O xá sai em 16/01/1979; Khomeini volta em 01/02/1979 (Britannica, "Iranian Revolution of 1978–79"). |
+| "No fim do ano, estudantes tomaram a embaixada" | N073 | 04/11/1979 (§14 da v1). |
+| "Há mais de dois mil e quinhentos anos" (522 a.C. → 2026) | N085 | Cálculo (2.547 anos). |
+| Fecho: "governado por quem venceu na espada, por quem herdou a coroa, por quem falou do púlpito… por um filho escolhido numa sala de clérigos" | N086 | Interpretação do narrador sobre fatos já listados (conquistas, dinastias, 1979, Assembleia dos Especialistas em 08/03/2026). |
+Cortados da v1: o correio de Nova York (N026), o gelo nas cúpulas de barro (N008), Al-Khwarizmi (N052), as mulheres do palácio parando de fumar (N069), Bagdá 1258, o detalhe "quase sem palavras árabes" e o bloco de Zaratustra.

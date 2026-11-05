@@ -1,261 +1,219 @@
-# A história INTEIRA do Irã em 15 minutos: roteiro
+# A história INTEIRA do Irã em 18 minutos: roteiro
 
-Gerado por `roteiro.py` (fonte única; edite lá). 2137 palavras, ~15:03.0 estimados a 144 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 2282 palavras, ~18:15.7 estimados a 126 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
 
-**[N001]** Tus, ano mil e vinte, conta a lenda. Uma caravana carregada de riquezas entra por um portão da cidade.
+**[N001]** Pérsia, quinhentos e vinte e dois antes de Cristo. Seis nobres têm um problema: quem vai governar o maior império do mundo? A solução é… estranha.
 
-**[N002]** Pelo outro portão, sai o caixão do poeta. A fortuna era dele.
+**[N002]** Ao nascer do sol, os seis vão sair a cavalo, e o dono do cavalo que relinchar primeiro vira rei.
 
-**[N003]** Essa é a história inteira do Irã. E de como um país conquistado tantas vezes nunca deixa de ser ele mesmo.
+**[N003]** Um deles se chama Dario, e Dario tem um cavalariço esperto. Na noite anterior, ele leva o cavalo até aquele lugar exato, junto com uma égua.
 
-**[N004]** Gregos, árabes, turcos e mongóis tomam esta terra. Todos vão embora… ou acabam virando persas.
+**[N004]** De manhã, o cavalo passa por ali, sente o cheiro… e relincha.
 
-**[N005]** E o que salva o Irã… está dentro daquele caixão.
+**[N005]** Dario vira rei de um império que ia do Egito até a fronteira da Índia. Um império escolhido, literalmente, por um cavalo. Pelo menos, é assim que Heródoto conta.
 
+**[N006]** Essa é a história inteira do Irã. Um país invadido por gregos, árabes, mongóis e turcos, e que, toda vez, acabou ensinando os invasores a viver como persas.
 
-## 1. O Túnel
+**[N007]** No caminho, tem um rei que devolvia os deuses dos vencidos, um imperador romano capturado vivo, o caixão de um poeta que salvou uma língua… e um contrato de tabaco que derrubou uma coroa, oitenta e oito anos antes de derrubar outra.
 
-**[N006]** O Túnel. O planalto do Irã é uma tigela de montanhas, com deserto no meio, e pouca chuva.
+**[N008]** E o que esse cavalo tem a ver com o Irã de hoje? Guarde esse cavalo. Ele volta no final.
 
-**[N007]** Então os antigos persas vão buscar a água embaixo da terra. São os qanats, túneis de quilômetros, tão bem inclinados que a água da montanha desce sozinha.
 
-**[N008]** Alguns correm há mais de dois mil anos. E guardam até gelo para o verão, em cúpulas de barro.
+## 1. Um paraíso no deserto
 
-**[N009]** No fim do túnel, a água vira um jardim murado. Em persa antigo, pairidaêza. A palavra passa pelo grego e pelo latim, e chega ao português como paraíso.
+**[N009]** Mas, antes de qualquer rei, alguém precisou achar água. O planalto do Irã é uma tigela de montanhas, com deserto no meio e pouca chuva. Como é que se vive aqui?
 
-**[N010]** Na beira do planalto, em Susa, tem gente vivendo desde uns quatro mil e duzentos antes de Cristo. São os elamitas, com uma escrita que ninguém consegue ler.
+**[N010]** Os antigos persas foram buscar a água embaixo da terra. São os qanats, túneis de quilômetros, tão bem inclinados que a água da montanha desce sozinha. Alguns correm há mais de dois mil anos.
 
-**[N011]** Até dois mil e vinte e dois. Uma equipe liderada por um arqueólogo francês decifra boa parte dela.
+**[N011]** Onde o túnel terminava, a água virava um jardim murado, que em persa antigo se chamava pairidaêza. Guarde essa palavra. Ela passou pelo grego, passou pelo latim… e chegou ao português como paraíso.
 
-**[N012]** Por volta de mil e quinhentos antes de Cristo, chega gente nova do norte. E ela traz um nome.
+**[N012]** Só que os persas não foram os primeiros daqui. Em Susa, já tinha gente desde uns quatro mil e duzentos antes de Cristo: os elamitas, com uma escrita que ninguém conseguia ler… até dois mil e vinte e dois.
 
+**[N013]** Uma equipe liderada por um arqueólogo francês decifrou boa parte dela. O primeiro povo desta história só voltou a falar agora.
 
-## 2. O Nome
+**[N014]** Por volta de mil e quinhentos antes de Cristo, chegou gente nova do norte, e ela trouxe… um nome. Eles se chamavam de árias, os nobres, e a terra deles virou a terra dos árias: o Irã.
 
-**[N013]** O Nome. Esses povos se chamam de árias, algo como os nobres. E a terra deles vira a terra dos árias, o Irã.
+**[N015]** E por que o mundo diz Pérsia? Porque é um apelido grego, tirado de uma província do sul, Pars. Guarde isso, porque daqui a mais de três mil anos um rei vai pedir ao mundo que largue o apelido.
 
-**[N014]** Guarde esse nome. Daqui a uns três mil anos, um rei vai pedir ao mundo para usá-lo de novo.
+**[N016]** E foi de Pars que saiu o homem que juntou meio mundo num império só.
 
-**[N015]** Porque Pérsia não é o nome que eles se dão. É um apelido grego, tirado de uma província do sul, Pars, a atual Fars.
 
-**[N016]** E é de Pars que sai o homem que vai juntar meio mundo num império só.
+## 2. O rei que devolvia deuses
 
+**[N017]** Ele se chamava Ciro. Virou rei em quinhentos e cinquenta e nove antes de Cristo e, em vinte anos, engoliu a Média, a Lídia e a Babilônia.
 
-## 3. O Cilindro
+**[N018]** Mas, em vez de esmagar os vencidos, deixou cada povo com seus deuses e sua língua. Os judeus exilados na Babilônia voltaram para casa, e, na Bíblia, Isaías chama Ciro de messias.
 
-**[N017]** O Cilindro. Em quinhentos e cinquenta e nove antes de Cristo, Ciro vira rei. Em vinte anos, ele engole a Média, a Lídia e a Babilônia.
+**[N019]** Ele registrou isso num barril de argila, o Cilindro de Ciro, que você talvez conheça como a primeira carta de direitos humanos… Não é.
 
-**[N018]** Ele deixa os povos com seus deuses e suas línguas. Os judeus exilados na Babilônia podem voltar para casa. Na Bíblia, Isaías chama Ciro de messias.
+**[N020]** É uma peça de fundação, enterrada num muro, e quase todo o texto é o rei se elogiando. Guarde esse cilindro: quem fez dele uma lenda foi um rei do século vinte.
 
-**[N019]** Ele registra isso num barril de argila, o Cilindro de Ciro. Você talvez já tenha ouvido que é a primeira carta de direitos humanos.
+**[N021]** Mas um império desse tamanho precisava virar uma máquina. E quem fez isso foi aquele rei escolhido pelo cavalo. Lembra? Dario.
 
-**[N020]** Não é. É uma peça de fundação, enterrada num muro, e quase todo o texto é o rei se elogiando.
+**[N022]** É lenda, claro. Mas o que Dario construiu é real: províncias com governadores, os sátrapas, imposto fixo, e uma estrada de uns dois mil e quinhentos quilômetros.
 
-**[N021]** Essa fama nasce no século vinte, com o último xá.
+**[N023]** Pela estimativa mais repetida, e discutida, quase metade da humanidade vivia ali. Só uns gregos teimosos não queriam entrar… e foram eles que contaram a história.
 
-**[N022]** Mas, sem o mito, sobra algo raro no mundo antigo: devolver deuses e povos para casa. E o império de Ciro vai virar uma máquina.
 
+## 3. Os dois olhos do mundo
 
-## 4. O Cavalo
+**[N024]** Maratona, Termópilas, os trezentos de Esparta… quase tudo o que você sabe dessas guerras foi escrito pelo outro lado. Inclusive o cavalo de Dario, contado por um grego.
 
-**[N023]** O Cavalo. Em quinhentos e vinte e dois antes de Cristo, sete nobres persas precisam escolher um rei. Conta Heródoto que eles decidem no cavalo.
+**[N025]** Para a Pérsia, a Grécia era uma fronteira chata. O coração do império era Persépolis, com colunas de uns vinte metros.
 
-**[N024]** Vira rei o dono do primeiro cavalo a relinchar ao nascer do sol. O cavalariço de Dario dá um jeitinho, e o dele relincha primeiro.
+**[N026]** Só que os gregos não esqueceram. Em trezentos e trinta e um antes de Cristo, Alexandre, o Grande, venceu o último Dario em Gaugamela, e, no ano seguinte, Persépolis queimou.
 
-**[N025]** É lenda. Mas o que Dario constrói é real. Províncias com governadores, os sátrapas, e imposto fixo. E uma estrada de uns dois mil e quinhentos quilômetros.
+**[N027]** Mas os gregos não seguraram o planalto. Quem tomou a terra de volta foi um povo de arqueiros a cavalo, os partos.
 
-**[N026]** O correio do rei cruza essa estrada trocando de cavalo. E um elogio de Heródoto a esses mensageiros está gravado num correio de Nova York.
+**[N028]** Eles governaram o Irã por quase cinco séculos. E, em cinquenta e três antes de Cristo, o homem mais rico de Roma, Marco Crasso, veio testá-los.
 
-**[N027]** Pela estimativa mais repetida, e discutida, quase metade da humanidade vive ali. Só uns gregos teimosos não querem entrar.
+**[N029]** Em Carras, os arqueiros cercaram as legiões, fingiram fugir e atiraram para trás, virados na sela: o tiro do parto. Crasso morreu ali, e diz a lenda que os partos derramaram ouro derretido na boca dele.
 
+**[N030]** Mas o golpe mais humilhante contra Roma ainda estava por vir… e ficou gravado na rocha.
 
-## 5. As Colunas
+**[N031]** Em duzentos e vinte e quatro, assumiu uma dinastia que vinha, de novo, de Pars: os sassânidas. Roma e Pérsia viraram os dois olhos do mundo.
 
-**[N028]** As Colunas. Maratona, Termópilas, os trezentos de Esparta. Quase tudo o que você sabe dessas guerras foi escrito pelo outro lado.
+**[N032]** E, em duzentos e sessenta, o rei Shapur Primeiro fez o que ninguém tinha feito. Capturou vivo um imperador romano, Valeriano, e mandou esculpir a cena num penhasco de Naqsh-e Rostam, onde ela está até hoje.
 
-**[N029]** Para a Pérsia, a Grécia é uma fronteira chata. O coração do império é Persépolis. Colunas de uns vinte metros, e povos do mundo inteiro esculpidos na pedra.
+**[N033]** Mas dois olhos que vivem se encarando cansam. Pérsia e Roma se esgotaram em guerras… e, do deserto, veio quem ninguém esperava.
 
-**[N030]** Em trezentos e trinta e um antes de Cristo, Alexandre, o Grande, vence o último Dario em Gaugamela. No ano seguinte, Persépolis queima.
 
-**[N031]** As colunas continuam de pé. Mas os gregos não seguram o planalto. Quem toma a terra de volta é um povo de arqueiros a cavalo.
+## 4. O império cai, a língua fica
 
+**[N034]** Eram exércitos árabes, unidos pelo islã. Em seiscentos e trinta e seis, eles venceram os persas em Qadisiya, e, seis anos depois, em Nahavand, o exército sassânida acabou.
 
-## 6. A Flecha
+**[N035]** O último rei, Yazdegerd Terceiro, fugiu por anos, até que, segundo a crônica, foi morto num moinho perto de Merv… pelo próprio moleiro.
 
-**[N032]** A Flecha. Os partos governam o Irã por quase cinco séculos. Em cinquenta e três antes de Cristo, Marco Crasso, o homem mais rico de Roma, vem testá-los.
+**[N036]** O império caiu em quinze anos. Mas o Irã não virou árabe.
 
-**[N033]** Em Carras, os arqueiros partos cercam as legiões. Eles fingem fugir e atiram para trás, virados na sela. É o famoso tiro do parto.
+**[N037]** Egito, Síria e Iraque passaram a falar árabe. O Irã adotou o islã, devagar, ao longo de séculos… mas ficou com a própria língua. Por quê?
 
-**[N034]** Crasso morre ali. Diz a lenda que os partos derramam ouro derretido na boca dele. E o golpe mais humilhante contra Roma ainda está por vir.
+**[N038]** Boa parte da resposta cabe num livro. Por volta de novecentos e setenta e sete, em Tus, um proprietário de terras chamado Ferdowsi começou o Shahnameh, o Livro dos Reis.
 
+**[N039]** Ele juntou os mitos e os reis do Irã de antes do islã, heróis, dragões, o pássaro Simurgh, em uns cinquenta mil dísticos. Era o país inteiro guardado num poema.
 
-## 7. A Rocha
+**[N040]** Levou mais de trinta anos. Ferdowsi terminou velho e pobre, e dedicou a obra a um sultão turco, Mahmud de Ghazni, que, conta a lenda, pagou mal.
 
-**[N035]** A Rocha. Em duzentos e vinte e quatro, assume uma dinastia nova, os sassânidas. Roma e Pérsia viram os dois olhos do mundo.
+**[N041]** Anos depois, arrependido, o sultão mandou a fortuna: uma caravana de anil, um corante azul que valia sessenta mil dinares.
 
-**[N036]** Em duzentos e sessenta, o rei Shapur Primeiro faz o que ninguém tinha feito. Ele captura vivo um imperador romano, Valeriano.
+**[N042]** Ela entrou por um portão de Tus enquanto, pelo outro portão, saía o caixão do poeta. E a filha dele recusou o presente.
 
-**[N037]** E manda esculpir a cena num penhasco, em Naqsh-e Rostam, onde ela está até hoje.
+**[N043]** O que estava naquele caixão era maior que a fortuna. Era a língua. Mil anos depois, um aluno iraniano ainda entende boa parte dos versos dele.
 
-**[N038]** O império segue a religião de Zaratustra: fogo sagrado, céu, inferno e um julgamento final.
+**[N044]** A língua estava a salvo… mas, dois séculos depois, chegou do leste um exército que não lia poemas.
 
-**[N039]** Muitos estudiosos veem ecos disso no judaísmo e no cristianismo. Mas Pérsia e Roma se esgotam em guerras. E do deserto vem quem ninguém espera.
 
+## 5. Os conquistadores digeridos
 
-## 8. O Moinho
+**[N045]** Em mil duzentos e dezenove, chegaram os mongóis de Gengis Khan. Nishapur, Merv, Herat… cidades inteiras foram arrasadas.
 
-**[N040]** O Moinho. Em seiscentos e trinta e seis, exércitos árabes, unidos pelo islã, vencem os persas em Qadisiya. Seis anos depois, em Nahavand, o exército sassânida acaba.
+**[N046]** Lembra dos túneis do começo? Talvez o pior estrago tenha sido esse: sem gente para cuidar, muitos qanats secaram.
 
-**[N041]** O último rei, Yazdegerd Terceiro, foge por anos. Em seiscentos e cinquenta e um, segundo a crônica, é morto num moinho perto de Merv, pelo próprio moleiro.
+**[N047]** E aí aconteceu algo bem iraniano. Em duas gerações, os conquistadores falavam persa, contratavam vizires persas e erguiam mesquitas persas.
 
-**[N042]** O império cai em quinze anos. Mas o Irã não vira árabe.
+**[N048]** O Irã não venceu os mongóis… ele os digeriu. A língua estava salva. Faltava a fé, e quem mudou a fé foi um menino.
 
-**[N043]** Egito, Síria e Iraque passam a falar árabe. O Irã adota o islã, devagar, ao longo de séculos. Mas não a língua.
 
-**[N044]** E boa parte do motivo cabe num livro.
+## 6. O menino que mudou a fé
 
+**[N049]** Em mil quinhentos e um, um garoto de catorze anos entrou em Tabriz à frente de um exército. Era Ismail.
 
-## 9. O Poema
+**[N050]** Ele se coroou xá e impôs o islã xiita a um país que, na maioria, era sunita. Como se converte um país inteiro?
 
-**[N045]** O Poema. Por volta de novecentos e setenta e sete, em Tus, vive um proprietário de terras chamado Ferdowsi. Ele começa o Shahnameh, o Livro dos Reis.
+**[N051]** Ismail trouxe clérigos xiitas do Líbano, perseguiu quem resistia e, em um século, o Irã virou xiita. A fronteira religiosa de hoje vem muito desse adolescente, que, aliás, escrevia poemas… em turco.
 
-**[N046]** Ele junta os mitos e os reis do Irã de antes do islã. Heróis, dragões, o pássaro Simurgh. São uns cinquenta mil dísticos, quase sem palavras árabes.
+**[N052]** O bisneto dele, Shah Abbas, levou a capital para Isfahan, tão rica que os iranianos diziam: Isfahan é metade do mundo.
 
-**[N047]** Leva mais de trinta anos. Ele termina velho e pobre, e dedica a obra a um sultão turco, Mahmud de Ghazni.
+**[N053]** Então a metade do mundo caiu. Em mil setecentos e vinte e dois, afegãos tomaram Isfahan, e, atrás do último grande conquistador, vieram reis que foram vendendo o país aos pedaços.
 
-**[N048]** Conta a lenda que o sultão paga mal. Anos depois, arrependido, manda a fortuna. Lembra da caravana?
 
-**[N049]** Na versão mais antiga, a carga nem é ouro. É anil, um corante azul, que vale sessenta mil dinares.
+## 7. A coroa à venda
 
-**[N050]** Ela entra por um portão de Tus enquanto o corpo do poeta sai pelo outro. E a filha dele recusa o presente.
+**[N054]** Esse conquistador era Nader Xá. Em mil setecentos e trinta e nove, ele saqueou Délhi e levou o Koh-i-Noor, o diamante que o nosso vídeo da Índia segue até Londres.
 
-**[N051]** Era isso que estava no caixão. Não o ouro. A língua. Mil anos depois, um aluno iraniano ainda entende boa parte dos versos dele.
+**[N055]** Depois dele, os reis Qajar perderam duas guerras para a Rússia e, com elas, o sul do Cáucaso. E um xá que não vence… passa a vender.
 
-**[N052]** E o persa Al-Khwarizmi escreve, em árabe, o livro que dá nome à álgebra. E o nome dele vira algoritmo.
+**[N056]** Em mil oitocentos e noventa, Naser al-Din Xá vendeu a um britânico o monopólio do tabaco do país inteiro.
 
-**[N053]** Se você gosta de histórias inteiras em poucos minutos, se inscreva. Porque dois séculos depois, chega do leste um exército que não lê poemas.
+**[N057]** Então, em mil oitocentos e noventa e um, um grande clérigo xiita proibiu o fumo… e o Irã, que fumava muito, parou.
 
+**[N058]** Em semanas, o contrato caiu. Um turbante venceu uma coroa. Guarde esse tabaco, porque a coroa não aprendeu, e o próximo contrato era muito maior.
 
-## 10. A Água
 
-**[N054]** A Água. Em mil duzentos e dezenove, chegam os mongóis de Gengis Khan. Nishapur, Merv, Herat. Cidades inteiras são arrasadas.
+## 8. O petróleo assinado para fora
 
-**[N055]** Em mil duzentos e cinquenta e oito, cai Bagdá. O número de mortos ainda é discutido. Mas o pior estrago talvez seja a água: sem gente para cuidar, muitos qanats secam.
+**[N059]** Em mil novecentos e um, um milionário britânico, William D'Arcy, ganhou o direito de procurar petróleo. Por sete anos, nada.
 
-**[N056]** E aí acontece algo bem iraniano. Em duas gerações, os conquistadores falam persa, contratam vizires persas e erguem mesquitas persas.
+**[N060]** Até que, em Masjed Soleyman, a sonda acertou. Dali nasceu a empresa que hoje se chama BP, e quase tudo já estava assinado para fora.
 
-**[N057]** O Irã não vence os mongóis. Ele os digere. Dois séculos e meio depois, um garoto muda a fé do país inteiro.
+**[N061]** Em mil novecentos e vinte e cinco, um oficial cossaco virou rei, Reza Xá, e modernizou o país à força: ferrovia, universidade, exército.
 
+**[N062]** Dez anos depois, ele fez aquele pedido. Lembra do apelido? O mundo agora devia dizer Irã, e não Pérsia.
 
-## 11. O Menino
+**[N063]** Em mil novecentos e quarenta e um, britânicos e soviéticos invadiram e tiraram Reza Xá do trono. Ficou o filho, Mohammad Reza.
 
-**[N058]** O Menino. Em mil e quinhentos e um, um garoto de catorze anos entra em Tabriz à frente de um exército. O nome dele é Ismail.
+**[N064]** E o petróleo seguia nas mãos de fora, até que, em mil novecentos e cinquenta e um, o primeiro-ministro Mossadegh o nacionalizou.
 
-**[N059]** Ele se coroa xá e impõe o islã xiita. O problema é que o país, na maioria, é sunita.
+**[N065]** Em agosto de cinquenta e três, um golpe derrubou Mossadegh, com propaganda e multidões pagas.
 
-**[N060]** Ele traz clérigos xiitas do Líbano e persegue quem resiste. Em um século, o país vira xiita.
+**[N066]** Por sessenta anos, isso foi negado… até que, em dois mil e treze, a CIA admitiu em documentos: o golpe foi feito sob direção dela. Muitos historiadores veem aqui a raiz da desconfiança entre o Irã e os Estados Unidos.
 
-**[N061]** A fronteira entre xiitas e sunitas de hoje tem muito a ver com esse adolescente. Que, aliás, escreve poemas em turco.
+**[N067]** E o xá que o golpe manteve no trono resolveu dar uma festa.
 
-**[N062]** Seu bisneto, Shah Abbas, leva a capital para Isfahan. Os iranianos dizem que Isfahan é metade do mundo.
 
-**[N063]** Depois, essa metade do mundo desmorona. E o que vem a seguir começa com um diamante e termina com um narguilé.
+## 9. O turbante contra a coroa
 
+**[N068]** Mil novecentos e setenta e um. Entre as colunas que Alexandre queimou, o xá comemorou dois mil e quinhentos anos de monarquia, com comida vinda de Paris, enquanto muitas aldeias nem tinham luz.
 
-## 12. O Tabaco
+**[N069]** E lembra do cilindro? Foi nessa época que o xá o apresentou ao mundo como a primeira carta de direitos humanos.
 
-**[N064]** O Tabaco. Primeiro, o diamante. Em mil setecentos e trinta e nove, Nader Xá invade a Índia e saqueia Délhi.
+**[N070]** De longe, um clérigo exilado chamou aquilo de festa do diabo. Era Ruhollah Khomeini, e os sermões dele entravam no Irã em fitas cassete.
 
-**[N065]** Ele leva o Koh-i-Noor. Se você viu o nosso vídeo da Índia, sabe onde esse diamante vai parar.
+**[N071]** Lembra do tabaco? De novo, um turbante enfrentou uma coroa. Em janeiro de mil novecentos e setenta e nove, o xá saiu do Irã para não voltar.
 
-**[N066]** Depois dele, os reis Qajar perdem duas guerras para a Rússia, e com elas o sul do Cáucaso.
+**[N072]** Duas semanas depois, Khomeini voltou de Paris, e o país virou uma República Islâmica. No fim do ano, estudantes tomaram a embaixada americana: cinquenta e dois reféns, presos por quatrocentos e quarenta e quatro dias.
 
-**[N067]** Em mil oitocentos e noventa, o xá vende a um britânico o monopólio do tabaco do país inteiro.
+**[N073]** No ano seguinte, Saddam Hussein invadiu. Foram oito anos de guerra, com estimativas a partir de meio milhão de mortos, e o Iraque usou armas químicas.
 
-**[N068]** Em mil oitocentos e noventa e um, um grande clérigo xiita proíbe o fumo. E o Irã, que fuma muito, para.
+**[N074]** Meninos voluntários atravessaram campos minados, alguns, segundo relatos, com chaves de plástico no pescoço. Diziam que elas abriam o paraíso.
 
-**[N069]** Até as mulheres do palácio, dizem, param de fumar. Em semanas, o contrato cai. Um turbante vence uma coroa. Guarde esse tabaco.
+**[N075]** Em mil novecentos e oitenta e oito, Khomeini aceitou o cessar-fogo e disse que era como beber veneno. Morreu no ano seguinte, e quem assumiu foi Ali Khamenei.
 
 
-## 13. O Poço
+## 10. De pai para filho
 
-**[N070]** O Poço. Em mil novecentos e um, um britânico, William D'Arcy, ganha o direito de procurar petróleo no Irã. Por sete anos, nada.
+**[N076]** Só que agora o turbante era o governo… e os protestos passaram a ser contra ele. Em dois mil e nove, uma eleição contestada pôs milhões nas ruas.
 
-**[N071]** Em mil novecentos e oito, em Masjed Soleyman, a sonda acerta. Dali nasce a empresa que hoje se chama BP. E quase tudo já está assinado para fora.
+**[N077]** Em setembro de dois mil e vinte e dois, Mahsa Amini, de vinte e dois anos, morreu sob custódia da polícia da moralidade. Tinha sido presa por causa do véu.
 
-**[N072]** Em mil novecentos e vinte e cinco, um oficial cossaco vira rei, Reza Xá. Ferrovia, universidade, exército moderno, tudo à força.
+**[N078]** O país explodiu. Mulheres tiraram o lenço e cortaram o cabelo em público, com um lema das mulheres curdas: mulher, vida, liberdade.
 
-**[N073]** Em mil novecentos e trinta e cinco, ele faz um pedido. Lembra do nome? O mundo agora deve dizer Irã, e não Pérsia.
+**[N079]** Segundo ONGs, mais de quinhentas pessoas morreram, e cerca de vinte mil foram presas. O regime aguentou.
 
-**[N074]** Seis anos depois, britânicos e soviéticos invadem e o tiram do trono. Fica o filho, Mohammad Reza.
+**[N080]** A pressão seguinte veio de fora, pelo céu. Em junho de dois mil e vinte e cinco, Irã e Israel travaram uma guerra de doze dias, que terminou num cessar-fogo.
 
-**[N075]** Em mil novecentos e cinquenta e um, o primeiro-ministro Mossadegh nacionaliza o petróleo. Em agosto de cinquenta e três, um golpe o derruba, com propaganda e multidões pagas.
+**[N081]** Ele não durou. Em vinte e oito de fevereiro de dois mil e vinte e seis, um ataque dos Estados Unidos e de Israel matou Ali Khamenei.
 
-**[N076]** Por sessenta anos, isso é negado. Em dois mil e treze, a CIA admite em documentos: o golpe foi feito sob direção dela.
+**[N082]** Oito dias depois, a Assembleia dos Especialistas escolheu o novo líder supremo… o filho dele, Mojtaba Khamenei.
 
-**[N077]** Muitos historiadores veem aqui a raiz da desconfiança entre Irã e Estados Unidos. E o xá que fica vai dar uma festa.
-
-
-## 14. As Fitas
-
-**[N078]** As Fitas. Mil novecentos e setenta e um. O xá comemora dois mil e quinhentos anos de monarquia nas ruínas de Persépolis.
-
-**[N079]** Comida vinda de Paris, enquanto muitas aldeias nem têm luz elétrica.
-
-**[N080]** De longe, um clérigo exilado chama aquilo de festa do diabo. É Ruhollah Khomeini, e seus sermões entram no Irã em fitas cassete.
-
-**[N081]** Lembra do tabaco? De novo, um turbante enfrenta uma coroa. Em janeiro de mil novecentos e setenta e nove, o xá sai do Irã para não voltar.
-
-**[N082]** Em fevereiro, Khomeini volta de Paris. Em abril, o país vira uma República Islâmica.
-
-**[N083]** Em novembro, estudantes tomam a embaixada americana. Cinquenta e dois reféns ficam presos por quatrocentos e quarenta e quatro dias.
-
-**[N084]** No ano seguinte, Saddam Hussein invade. A guerra Irã–Iraque dura oito anos, e as estimativas começam em meio milhão de mortos.
-
-**[N085]** O Iraque usa armas químicas. Meninos voluntários atravessam campos minados, alguns, segundo relatos, com chaves de plástico no pescoço.
-
-**[N086]** Diziam que elas abriam o paraíso. Em mil novecentos e oitenta e oito, Khomeini aceita o cessar-fogo, e diz que é como beber veneno.
-
-**[N087]** Ele morre no ano seguinte. O novo líder supremo é Ali Khamenei.
-
-
-## 15. O Lenço
-
-**[N088]** O Lenço. Em dois mil e nove, uma eleição contestada põe milhões nas ruas.
-
-**[N089]** Setembro de dois mil e vinte e dois. Mahsa Amini, de vinte e dois anos, morre sob custódia da polícia da moralidade.
-
-**[N090]** Ela tinha sido presa por causa do véu. O país explode. Mulheres tiram o lenço e cortam o cabelo em público.
-
-**[N091]** O lema vem do movimento das mulheres curdas. Mulher, vida, liberdade. Mais de quinhentas pessoas morrem, segundo ONGs, e cerca de vinte mil são presas.
-
-**[N092]** Três anos depois, a guerra chega pelo céu.
-
-
-## 16. O Filho
-
-**[N093]** O Filho. Junho de dois mil e vinte e cinco. Irã e Israel travam uma guerra de doze dias, que termina num cessar-fogo.
-
-**[N094]** Ele não dura. Vinte e oito de fevereiro de dois mil e vinte e seis. Um ataque dos Estados Unidos e de Israel mata Ali Khamenei.
-
-**[N095]** Oito dias depois, a Assembleia dos Especialistas escolhe o novo líder supremo. É o filho dele, Mojtaba Khamenei.
-
-**[N096]** Uma revolução feita contra a monarquia hereditária acaba passando o poder de pai para filho. Até a gravação deste vídeo, não há acordo de paz.
+**[N083]** Uma revolução feita contra a monarquia hereditária acabou passando o poder de pai para filho. Até a gravação deste vídeo, não há acordo de paz.
 
 
 ## Fecho
 
-**[N097]** Agora volte a Tus. O túmulo de Ferdowsi fica num jardim, com água correndo em canais. Um pequeno paraíso.
+**[N084]** E o cavalo? Lembra dele? Há mais de dois mil e quinhentos anos, o Irã escolheu um rei pelo relincho de um cavalo… com uma ajudinha do cavalariço.
 
-**[N098]** O império cai, a religião muda, a fronteira encolhe, o nome some e volta. E a língua de Ferdowsi segue viva.
+**[N085]** Depois, o Irã foi governado por quem venceu na espada, por quem herdou a coroa, por quem falou do púlpito. E, agora, por um filho escolhido numa sala de clérigos.
 
-**[N099]** Tão viva que você fala persa sem saber. Paraíso, laranja, azul, bazar. E xeque, que vem de xá, o rei.
+**[N086]** Quem escolhe quem governa o Irã? Desde aquele cavalo, essa pergunta nunca teve uma resposta tranquila.
 
-**[N100]** E aquela fila de camelos do começo, entrando por um portão de Tus, também tem nome persa: caravana, de karvan.
+**[N087]** Mas tem uma coisa que nenhum rei e nenhum invasor escolheu. Volte a Tus. O túmulo de Ferdowsi fica num jardim, com água correndo em canais: um pequeno paraíso.
 
-**[N101]** Exércitos conquistam o Irã. A língua do Irã conquista os exércitos.
+**[N088]** O império caiu, a fé mudou, o nome sumiu e voltou, a coroa caiu para o turbante… e a língua de Ferdowsi segue viva. Tão viva que você fala persa sem saber: paraíso, laranja, azul, bazar, caravana. E xeque, que vem de xá, o rei.
 
-**[N102]** E você? Qual palavra persa você já disse hoje sem perceber? Conta aqui nos comentários.
+**[N089]** Exércitos conquistam o Irã… e a língua do Irã conquista os exércitos.
+
+**[N090]** E você? Qual palavra persa você já disse hoje sem perceber? Conta aqui nos comentários.

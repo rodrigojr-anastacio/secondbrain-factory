@@ -94,5 +94,21 @@
   "whisper_pct": 100.0,
   "tags_faladas": [],
   "whisper": "Toda vez que você diz paraíso, você está falando persa.  A palavra nasceu num planalto seco, onde quase não chove, e onde alguém, mesmo assim, resolveu inventar um jardim.  Esse lugar foi invadido por gregos, árabes, turcos e mongóis.  E quase sempre aconteceu a mesma coisa estranha.  Quem mudou foram os invasores.  Então, como é que o país que deu ao mundo a palavra paraíso  virou um dos países mais sancionados do planeta?  Esta é a história inteira do Ira.  No caminho, tem um rei que devolvia os deuses dos vencidos,  um imperador romano capturado vivo,  o caixão de um poeta que salvou uma língua  e um contrato de tabaco que derrubou uma coroa,  oitenta e oito anos antes de derrubar outra.  E tudo começa embaixo da terra."
+ },
+ "hook-take1.mp3": {
+  "dur_s": 105.8,
+  "palavras": 234,
+  "ppm": 133,
+  "pausas_>=0.25s": 46,
+  "silencio_pct": 24,
+  "trechos": 44,
+  "repeticao_melodica": 0.15,
+  "queda_media_st": -3.55,
+  "f0_mediana_hz": 103.9,
+  "f0_desvio_st": 4.02,
+  "f0_faixa_p10_p90_st": 10.9,
+  "whisper_pct": 97.6,
+  "tags_faladas": [],
+  "whisper": "Pérsia, 522 a.C.  Seis nobres têm um problema.  Quem vai governar o maior império do mundo?  A solução é estranha.  Ao nascer do sol, os seis vão sair a cavalo,  e o dono do cavalo, que relinchar primeiro, vira rei.  Um deles se chama Dário, e Dário tem um cavalariço esperto.  Na noite anterior, ele leva o cavalo até aquele lugar exato,  junto com uma égua.  De manhã, o cavalo passa por ali, sente o cheiro e relincha.  Dário vira rei de um império que ia do Egito até a fronteira da Índia,  um império escolhido literalmente por um cavalo.  Pelo menos é assim que Heródoto conta.  Essa é a história inteira do Irã,  um país invadido por gregos, árabes, mongóis e turcos,  e que toda vez acabou ensinando os invasores a viver como persas.  No caminho, tem um rei que devolvia os deuses dos vencidos,  um imperador romano capturado vivo,  o caixão de um poeta que salvou uma língua,  e um contrato de tabaco que derrubou uma coroa,  oitenta e oito anos antes de derrubar outra.  E o que esse cavalo tem a ver com o Irã de hoje?  Guarde esse cavalo, ele volta no final.  Mas, antes de qualquer rei, alguém precisou achar água.  O Planalto do Irã é uma tigela de montanhas,  com deserto no meio e pouca chuva.  Como é que se vive aqui?"
  }
 }

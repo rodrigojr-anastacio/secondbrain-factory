@@ -3,10 +3,14 @@
 Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md` (que guarda só o comportamento geral do Fish e das ferramentas). Configuração em `../canal.yaml` (`voz`).
 
 ## Voz do canal
-- **Clone pt-BR feito pelo Rodrigo no Fish:** `48613fc675f84984981683d92266e543`, modelo `s2.1-pro`, velocidade **1.0** (aprovada; 0,95 soou lento). [canal.yaml]
+- **Clone pt-BR feito pelo Rodrigo no Fish:** `48613fc675f84984981683d92266e543`, velocidade **1.0** (aprovada; 0,95 soou lento). [canal.yaml]
+- **Modelo e técnica desde 05/11/2026 (decisão do Rodrigo, BRIEF-historia-003-v2-fase2):** Fish **`drama-3`**, **1 chamada por bloco** (técnica da amostra B2, `videos/003-ira/v2-amostras/voz/`), temperature/top_p no padrão, tags de tom só onde a emoção muda, gaps de 0,35 s / 0,9 s (ideia nova) / 1,5 s (capítulo) no `build.py`. `tools/tts_fish.py historia-ptbr blocos.json audio --video <id>` já faz isso pelo `canal.yaml` (`modo: bloco`, cache por bloco).
+  - **Confirme a cobrança:** com header de modelo errado, o Fish cai calado no s2.1-pro. O `tts_fish.py` mostra o crédito antes e depois. No 003 v2, a queda bateu com bytes × US$ 10/M (promoção até 12/11/2026; depois US$ 50/M, ~US$ 0,65 por vídeo).
+  - Medidas do 003 v2 (60 s iniciais): repetição melódica 0,09, queda no fim −2,9 st, faixa de 11 st, F0 de 103 Hz (~1,7 st mais aguda que o s2.1-pro). Whisper: 99,5% em média com chave fonética (o Whisper bruto reprova nomes persas e "xá" = "cha"; use `videos/003-ira/v2-voz/qa_fonetico.py`).
+  - Mais lento: ~125–133 ppm (ver `roteiro.md`, Tamanho).
 - Tom: narrador contador de história, caloroso e curioso, que **conta** e não lê. Não é o narrador seco de documentário do `dossie-es`.
 
-## Estado em 04/11/2026 (em revisão)
+## Histórico: estado em 04/11/2026 (resolvido em 05/11 com o drama-3 por bloco)
 - Feedback do Rodrigo sobre o 002: "robótica e atropelada". A/B de 11 tomadas do hook do 003 (`videos/003-ira/amostras-voz/LEIA.md`, US$ 0,14): texto reescrito para a fala + `tts_fish.py --por-frase` (0,32 s entre frases) teve a menor repetição melódica (0,09 × 0,14 do jeito do 002); tags de direção e velocidade 0,97 pioraram. O 003 v1 saiu assim (`modo: por_frase`). [conhecimento/anti-padroes.md §2b]
 - **Depois de ouvir, o Rodrigo achou a narração do 003 ainda ruim** ("parece que o cara tá lendo corrido, e não contando uma história") e **preferiu a amostra A (`A-atual`)**. Ele quer testar o modelo mais recente do Fish. [BRIEF-historia-003-v2.md, 04/11/2026] Teste em `videos/003-ira/v2-amostras/voz/` (job `historia-003-v2`). **Registre aqui o modelo/técnica aprovados.** Até lá, a decisão "G = por frase" é **Hipótese em xeque**.
 - **Hipótese:** parte do "lendo corrido" vem do roteiro em fichas (sem conectores), não só do motor. Roteiro contínuo (`roteiro.md`) primeiro, parâmetro depois. Se ainda soar robótico, regravar a referência do clone (30–60 s naturais com pausas), não mexer em temperature/top_p (sem efeito no A/B).

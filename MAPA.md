@@ -26,7 +26,7 @@ Este repositório (`~/workspace/fabrica-youtube`, repo git **cerebro-fabrica**) 
 | `pesquisa/` | `trend_seeds.txt`, `trends_state.json`, `tendencias/<data>.md/.json/-analise.md` e `<slug>/` (levantamento de nicho: `LEVANTAMENTO.md`, `dados.json`, `thumbs/` fora do git), ex.: `archive-in-minutes/` (com `IDIOMA.md` e `idioma/`: matriz de escolha de idioma) |
 
 Canais hoje (`youtube.canais`, 2026-11-04):
-- `historia-ptbr`: **História em minutos** (pt-BR), modelo **History in Minutes** (narrativa contínua, eras ligadas). Publicados: Egito (`g847Td0Plsk`) e Índia (`MV5SSjoccqE`); Irã (003) em v2.
+- `historia-ptbr`: **História em minutos** (pt-BR), modelo **History in Minutes** (narrativa contínua, eras ligadas). Publicados: Egito (`g847Td0Plsk`) e Índia (`MV5SSjoccqE`); Irã (003) v2 pronto em 05/11 (18:01, `videos/003-ira/entrega/`), aguardando publicação.
 - `lotr-fr`: **Le Gardien de Valinor** (fr), modelo **Darth Gandalf** (pergunta curiosa, ~8 min, pintura a óleo). Publicado: cidades da Terra-média (`87BdomKxa-M`); 000-piloto-sam arquivado.
 - `dossie-es`: **Dossier en Minutos** (nome provisório, espanhol), modelo **Archive in Minutes** (expedientes encadeados, graphic novel), em preparação desde 2026-11-04: história INTEIRA de organizações (CIA, KGB, Mossad, FBI…). O canal existe no YouTube (`UCVCYqeuCwTWC7Lqez_qeWRA`, criado pelo Rodrigo como "Dossiê em Minutos"; renomear). O piloto CIA (`youtube.videos` id 7) tem roteiro pronto em espanhol e aguarda o OK do Rodrigo. Idioma escolhido por matriz em `pesquisa/archive-in-minutes/IDIOMA.md` (es 1º, fr 2º, pt 3º). **Até 04/11 chamava-se `dossie-ptbr`**: a versão pt-BR (roteiro KGB, id 6, arquivado) está em `canais/dossie-es/arquivo-ptbr/`; a linha `dossie-ptbr` em `youtube.canais` ficou `arquivado`.
 

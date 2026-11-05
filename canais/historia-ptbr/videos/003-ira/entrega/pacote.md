@@ -1,89 +1,78 @@
-# Pacote de publicação · A história INTEIRA do Irã em 15 minutos
+# Pacote de publicação · A história INTEIRA do Irã em 18 minutos (v2, 05/11/2026)
 
+`youtube.videos` id 5. Duração real: 18:01. Nada foi publicado.
 
 ## Título
 
-A história INTEIRA do Irã em 15 minutos
-
+A história INTEIRA do Irã em 18 minutos
 
 ## Títulos alternativos
 
-- A HISTÓRIA INTEIRA do Irã em 15 minutos: o país que conquistaram mil vezes e nunca deixou de ser Irã
-- A história INTEIRA do Irã (Pérsia) em 15 minutos
-
+- A história INTEIRA do Irã (Pérsia) em 18 minutos
+- A história INTEIRA do Irã em 18 minutos: o país que todo invasor acabou virando
 
 ## Descrição
 
-Tus, por volta do ano 1020: uma caravana carregada de riquezas entra por um portão da cidade enquanto o caixão de um poeta sai pelo outro. Conta a lenda que a carga era o pagamento que o rei devia a ele, tarde demais.
-Persas, gregos, árabes, turcos e mongóis conquistaram o Irã, e o Irã continua sendo o Irã. Como um país conquistado tantas vezes nunca deixou de ser ele mesmo? A resposta estava naquele caixão.
+Pérsia, 522 a.C.: seis nobres precisam escolher quem vai governar o maior império do mundo, e quem decide é um cavalo. Pelo menos é assim que Heródoto conta.
+Gregos, árabes, mongóis e turcos invadiram o Irã, e quase sempre quem mudou foram os invasores. Como um país conquistado tantas vezes continua sendo ele mesmo? E o que aquele cavalo tem a ver com o Irã de hoje?
 
-Em 15 minutos: do túnel que traz água a um planalto seco ao Cilindro de Ciro, de Dario e Persépolis a Shapur e o imperador romano preso, do Shahnameh de Ferdowsi aos mongóis, do garoto de 14 anos que mudou a fé do país à revolta do tabaco, do petróleo e do golpe de 1953 às fitas cassete de Khomeini, até o filho que herda o poder.
+Em 18 minutos: o túnel que trouxe água ao deserto e deu ao mundo a palavra "paraíso", o rei que devolvia os deuses dos vencidos, o imperador romano capturado vivo, o caixão de um poeta que salvou uma língua, o menino de 14 anos que mudou a fé de um país, o contrato de tabaco que derrubou uma coroa, o petróleo e o golpe de 1953, a revolução de 1979 e o filho que herdou o poder em 2026.
 
-💬 Conta aqui nos comentários: qual palavra persa você já disse hoje sem perceber? Paraíso, laranja, azul, bazar, xeque, caravana...
-
+💬 Conta aqui nos comentários: qual palavra persa você já disse hoje sem perceber? Paraíso, laranja, azul, bazar, caravana, xeque...
 
 ## Capítulos
 
-- 0:00 Introdução
-- 0:32 O Túnel
-- 1:35 O Nome
-- 2:05 O Cilindro
-- 2:58 O Cavalo
-- 3:49 As Colunas
-- 4:31 A Flecha
-- 5:04 A Rocha
-- 5:48 O Moinho
-- 6:32 O Poema
-- 7:57 A Água
-- 8:40 O Menino
-- 9:30 O Tabaco
-- 10:20 O Poço
-- 11:41 As Fitas
-- 13:08 O Lenço
-- 13:49 O Filho
-- 14:27 A Caravana
-
+- 0:00 Introdução: o cavalo de Dario
+- 1:31 Um paraíso no deserto
+- 3:19 O rei que devolvia deuses
+- 4:48 Os dois olhos do mundo
+- 6:54 O império cai, a língua fica
+- 9:03 Os conquistadores digeridos
+- 9:48 O menino que mudou a fé
+- 10:49 A coroa à venda
+- 11:47 O petróleo assinado para fora
+- 13:23 O turbante contra a coroa
+- 15:08 De pai para filho
+- 16:36 O cavalo e o jardim
 
 ## Fontes (resumo)
 
-- Lenda da caravana: Nizami Aruzi, Chahar Maqala (c. 1155), trad. E. G. Browne; Encyclopaedia Iranica, "Ferdowsi"
-- Heródoto, Histórias (Dario, satrapias, Estrada Real); Plutarco, Vida de Crasso; Cássio Dio; al-Tabari, História
-- British Museum / I. Finkel (org.), The Cyrus Cylinder (2013); Desset et al., Zeitschrift für Assyriologie 112 (2022), decifração do elamita linear
-- UNESCO, "The Persian Qanat"; Encyclopaedia Iranica; Encyclopaedia Britannica (Aquemênidas, Partos, Sassânidas, Safávidas, Qajares, Revolução Iraniana, Guerra Irã–Iraque)
-- N. Keddie, The Tobacco Protest of 1891–1892 (1966); E. Abrahamian, The Coup (2013); National Security Archive, "CIA Confirms Role in 1953 Iran Coup" (2013)
-- A. Sreberny-Mohammadi e A. Mohammadi, Small Media, Big Revolution (1994); ONU, relatório A/HRC/55/67 (2024) sobre as manifestações de 2022
-- Fatos de 2025–2026 (guerra de 12 dias, morte de Ali Khamenei em 28/02/2026, nomeação de Mojtaba Khamenei em 08/03/2026): Britannica, Al Jazeera, CFR (conferidos em 04/11/2026)
-Datas antigas são aproximadas; lendas e estimativas estão ditas como tal na narração.
+- Heródoto, *Histórias* III.84–87 (a escolha de Dario pelo relincho do cavalo; lenda) e III.89–97, V.52–53 (satrapias, Estrada Real)
+- Lenda da caravana de Ferdowsi: Nizami Aruzi, *Chahar Maqala* (c. 1155), trad. E. G. Browne; Encyclopaedia Iranica, "Ferdowsi"
+- British Museum / I. Finkel (org.), *The Cyrus Cylinder* (2013); Desset et al., *Zeitschrift für Assyriologie* 112 (2022), decifração do elamita linear
+- UNESCO, "The Persian Qanat"; Encyclopaedia Iranica; Encyclopaedia Britannica (Aquemênidas, Partos, Sassânidas, Safávidas, Nader Xá, Koh-i-noor, Qajares, Revolução Iraniana, Guerra Irã–Iraque)
+- N. Keddie, *The Tobacco Protest of 1891–1892* (1966); E. Abrahamian, *The Coup* (2013); National Security Archive, "CIA Confirms Role in 1953 Iran Coup" (2013)
+- ONU, relatório A/HRC/55/67 (2024) sobre as manifestações de 2022
+- 2025–2026 (guerra de 12 dias, morte de Ali Khamenei em 28/02/2026, Mojtaba Khamenei em 08/03/2026): Britannica, Al Jazeera, CFR (conferidos em 04/11/2026)
+- Etimologias (paraíso, laranja, azul, bazar, caravana, xeque): A. G. Cunha, *Dicionário etimológico*; Houaiss
 
+Datas antigas são aproximadas; lendas e estimativas são ditas como tal na narração.
 
 ## Créditos
 
-Narração com voz sintética; ilustrações geradas por IA; trilha original.
-
+Narração com voz sintética (clone autorizado da voz do canal); ilustrações geradas por IA; trilha original feita no código.
 
 ## Tags
 
-história do irã, história da pérsia, história completa do irã, persépolis, ciro o grande, cilindro de ciro, império persa, dario, ferdowsi, shahnameh, xá do irã, revolução iraniana, khomeini, mossadegh, história em minutos, documentário de história, história mundial
-
+história do irã, história da pérsia, história inteira do irã, dario, cavalo de dario, heródoto, persépolis, ciro o grande, cilindro de ciro, império persa, shapur, ferdowsi, shahnameh, xá do irã, revolução iraniana, khomeini, mossadegh, golpe de 1953, história em minutos, documentário de história, história mundial
 
 ## Categoria
 
 Educação
 
-
 ## Idioma do vídeo
 
 Português (Brasil)
 
-
-## Checklist de publicação
+## Checklist de publicação (decisão do Rodrigo)
 
 - [ ] Idioma do vídeo: português (Brasil).
 - [ ] "Conteúdo alterado ou sintético": SIM (voz sintética e ilustrações de IA).
 - [ ] Público: NÃO é conteúdo para crianças.
-- [ ] Subir as 3 thumbs (thumb-A, thumb-B, thumb-C) no "Testar e comparar".
-- [ ] Usar o mp4 1080p (out/video.mp4), nunca uma versão do Telegram; subir o .srt como legenda em português.
-- [ ] Reconfirmar na véspera a frase "até a gravação deste vídeo, não há acordo de paz" (bloco N096).
-- [ ] Publicar é decisão do Rodrigo.
+- [ ] "Testar e comparar" com as 3 thumbs: `thumb-1-coroa-turbante.jpg` (principal), `thumb-2-persia-roma.jpg`, `thumb-3-petroleo-cia.jpg`.
+- [ ] Subir o `video.mp4` 1080p desta pasta e o `legendas.srt` como legenda em português.
+- [ ] Reconfirmar na véspera a frase "Até a gravação deste vídeo, não há acordo de paz" (bloco N083).
+- [ ] Depois de publicar: gravar `youtube_id`, `publicado_em` e o título no ar em `youtube.videos` (id 5), atualizar o `backlog.md` e copiar a thumb vencedora para `conhecimento/thumbnails/`.
+- [ ] **Teste do hook:** medir no Studio a retenção aos 30 s e aos 60 s (hook com a anedota do cavalo de Dario, 1:31 até o capítulo 1) e anotar em `canais/historia-ptbr/biblia/roteiro.md`.
 
-Arquivos: `video.mp4` (1080p30), `legendas.srt`, `thumb-A.jpg` (fórmula do canal), `thumb-B.jpg` (guia), `thumb-C.jpg` (Ciro).
+Arquivos: `video.mp4` (1080p30, H.264/AAC, −15,2 LUFS), `legendas.srt`, as 3 thumbs (1280×720, < 300 KB).

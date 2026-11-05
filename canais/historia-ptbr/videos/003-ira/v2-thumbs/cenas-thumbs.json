@@ -1,0 +1,32 @@
+[
+ {
+  "id": "t1-coroa-turbante-1",
+  "prompt": "Thumbnail illustration, tense face-off between two cartoon characters seen from the chest up, foreheads almost touching, both furious with angry slanted eyebrows and shouting open mouths. LEFT: a Persian shah character with a round white head and dot eyes, a big jeweled golden crown with a feather plume, a blue military uniform with gold epaulettes and medals. RIGHT: an old cleric character with the SAME round white head and dot eyes, a simple flat white beard shape, a big black turban and a black cloak, pointing his finger at the king. Between their faces a jagged bright yellow lightning bolt. Background split in two: behind the king turquoise palace tiles, behind the cleric a red crowd of tiny angry protesters. Big characters filling the frame, the bottom 25% of the image darker and simple for text, no text",
+  "seed": 101
+ },
+ {
+  "id": "t2-persia-roma-1",
+  "prompt": "Thumbnail illustration, tense face-off between two cartoon characters seen from the chest up, foreheads almost touching, both furious with angry slanted eyebrows and shouting open mouths. LEFT: a Sasanian Persian king character with a round white head and dot eyes, a simple flat curly beard shape, a golden crown topped by a big round globe with fluttering ribbons, a red and gold robe. RIGHT: an old Roman emperor character with the SAME round white head and dot eyes, a golden laurel wreath and a purple toga, shocked and angry, iron chains on his wrists. Between their faces a jagged bright yellow lightning bolt. Background split in two: behind the Persian a rocky cliff with carved reliefs, behind the Roman a line of red Roman shields. Big characters filling the frame, the bottom 25% of the image darker and simple for text, no text",
+  "seed": 101
+ },
+ {
+  "id": "t3-petroleo-cia-1",
+  "prompt": "Thumbnail illustration, tense face-off between two cartoon characters seen from the chest up, foreheads almost touching, both furious with angry slanted eyebrows. LEFT: an old bald Iranian prime minister character with a round white head, dot eyes and a long nose, a grey 1950s suit, holding up a dripping black oil barrel tap, shouting. RIGHT: a 1950s American secret agent character with the SAME round white head and dot eyes, a grey fedora hat, dark sunglasses and a beige trench coat, smirking, holding a thick stack of banknotes behind his back. Between their faces a jagged bright yellow lightning bolt. Background split in two: behind the minister black oil derricks with a gusher, behind the agent a dark Tehran street with army tanks. Big characters filling the frame, the bottom 25% of the image darker and simple for text, no text",
+  "seed": 101
+ },
+ {
+  "id": "t1-coroa-turbante-2",
+  "prompt": "Thumbnail illustration, tense face-off between two cartoon characters seen from the chest up, foreheads almost touching, both furious with angry slanted eyebrows and shouting open mouths. LEFT: a Persian shah character with a round white head and dot eyes, a big jeweled golden crown with a feather plume, a blue military uniform with gold epaulettes and medals. RIGHT: an old cleric character with the SAME round white head and dot eyes, a simple flat white beard shape, a big black turban and a black cloak, pointing his finger at the king. Between their faces a jagged bright yellow lightning bolt. Background split in two: behind the king turquoise palace tiles, behind the cleric a red crowd of tiny angry protesters. Big characters filling the frame, the bottom 25% of the image darker and simple for text, no text",
+  "seed": 202
+ },
+ {
+  "id": "t2-persia-roma-2",
+  "prompt": "Thumbnail illustration, tense face-off between two cartoon characters seen from the chest up, foreheads almost touching, both furious with angry slanted eyebrows and shouting open mouths. LEFT: a Sasanian Persian king character with a round white head and dot eyes, a simple flat curly beard shape, a golden crown topped by a big round globe with fluttering ribbons, a red and gold robe. RIGHT: an old Roman emperor character with the SAME round white head and dot eyes, a golden laurel wreath and a purple toga, shocked and angry, iron chains on his wrists. Between their faces a jagged bright yellow lightning bolt. Background split in two: behind the Persian a rocky cliff with carved reliefs, behind the Roman a line of red Roman shields. Big characters filling the frame, the bottom 25% of the image darker and simple for text, no text",
+  "seed": 202
+ },
+ {
+  "id": "t3-petroleo-cia-2",
+  "prompt": "Thumbnail illustration, tense face-off between two cartoon characters seen from the chest up, foreheads almost touching, both furious with angry slanted eyebrows. LEFT: an old bald Iranian prime minister character with a round white head, dot eyes and a long nose, a grey 1950s suit, holding up a dripping black oil barrel tap, shouting. RIGHT: a 1950s American secret agent character with the SAME round white head and dot eyes, a grey fedora hat, dark sunglasses and a beige trench coat, smirking, holding a thick stack of banknotes behind his back. Between their faces a jagged bright yellow lightning bolt. Background split in two: behind the minister black oil derricks with a gusher, behind the agent a dark Tehran street with army tanks. Big characters filling the frame, the bottom 25% of the image darker and simple for text, no text",
+  "seed": 202
+ }
+]

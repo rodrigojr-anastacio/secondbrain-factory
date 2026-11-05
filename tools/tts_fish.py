@@ -14,8 +14,12 @@ A chave vem de ~/.segredos/fish.env (FISH_API_KEY).
   para regerar uma frase ruim, apague o mp3 dela (o mapa bloco → frases fica em <saida>/frases/mapa.json).
   A tag de tom no início do bloco vale só para a 1ª frase; frase de 1–2 palavras ("Como?") é gerada junto com a seguinte.
 --temperature/--top-p repassam à API (padrão do Fish: 0,7/0,7).
+Modo padrão: voz.modo do canal.yaml (por_frase | bloco). historia-ptbr desde 05/11/2026: drama-3 + bloco (técnica da amostra B2,
+decisão do Rodrigo; gaps de 0,35/0,9/1,5 s entram no build.py). Em bloco há cache por texto em <saida>/blocos-cache/.
+O crédito do Fish é lido antes e depois para confirmar que a cobrança saiu no modelo pedido.
 """
 import argparse
+import datetime as dt
 import hashlib
 import json
 import os
@@ -33,6 +37,24 @@ from db import tentar
 
 # US$ por milhão de bytes UTF-8 (docs.fish.audio, "Pricing and Rate Limits"). Atualize se o Fish mudar o preço.
 PRECO_POR_MI_BYTES = {"s2.1-pro": 15.0, "s2.1-pro-free": 0.0, "drama-3": 50.0}
+PROMO = {"drama-3": (10.0, dt.datetime(2026, 11, 12, 17, 0, tzinfo=dt.timezone.utc))}  # promoção de lançamento (até 12/11 09:00 PT)
+
+
+def preco(modelo):
+    if modelo in PROMO and dt.datetime.now(dt.timezone.utc) < PROMO[modelo][1]:
+        return PROMO[modelo][0]
+    return PRECO_POR_MI_BYTES[modelo]
+
+
+def credito(key):
+    """Crédito do Fish (GET /wallet/self/api-credit). Serve para CONFIRMAR o modelo cobrado: com header de modelo errado
+    o Fish não dá erro e cai calado em s2.1-pro (v2-amostras/voz/FISH-MODELOS.md, 04/11/2026). Atualiza com atraso."""
+    try:
+        r = urllib.request.urlopen(urllib.request.Request("https://api.fish.audio/wallet/self/api-credit",
+                                                          headers={"Authorization": f"Bearer {key}"}), timeout=30)
+        return float(json.loads(r.read())["credit"])
+    except Exception:  # noqa: BLE001
+        return None
 
 
 def chave():
@@ -113,7 +135,8 @@ def main():
     ap.add_argument("entrada")
     ap.add_argument("saida")
     ap.add_argument("--video", type=int, help="id em youtube.videos, para atribuir o custo ao vídeo")
-    ap.add_argument("--por-frase", action="store_true", help="uma chamada por frase + silêncio inserido (ver doc)")
+    ap.add_argument("--por-frase", action="store_true", help="uma chamada por frase + silêncio inserido (ver doc); padrão vem de voz.modo no canal.yaml")
+    ap.add_argument("--bloco", action="store_true", help="força 1 chamada por bloco (técnica B2 do drama-3), ignorando voz.modo")
     ap.add_argument("--pausa-frase", type=float, default=0.32, help="s de silêncio entre frases no modo --por-frase")
     ap.add_argument("--temperature", type=float)
     ap.add_argument("--top-p", type=float)
@@ -126,6 +149,10 @@ def main():
         sys.exit(f"Modelo {modelo} sem preço cadastrado em PRECO_POR_MI_BYTES.")
     key = chave()
     os.makedirs(a.saida, exist_ok=True)
+    if not a.bloco and cfg.get("modo") == "por_frase":
+        a.por_frase = True
+    cred0 = credito(key)
+    print(f"Modelo {modelo} · US$ {preco(modelo):g}/M bytes · crédito Fish antes: {cred0}")
     extra = {k: v for k, v in (("temperature", a.temperature), ("top_p", a.top_p)) if v is not None}
     total_bytes = 0
     try:  # registra o custo do que foi gerado mesmo se cair no meio
@@ -150,21 +177,33 @@ def main():
                 juntar(partes, a.pausa_frase, destino)
                 json.dump(mapa, open(mapa_p, "w"), ensure_ascii=False, indent=0)
                 print(f"{bid}: ok ({len(fs)} frases, {novas} geradas agora) → {destino}")
-        else:
+        else:  # 1 chamada por bloco, com cache por texto (rodar de novo só cobra o bloco novo ou alterado)
+            cache = os.path.join(a.saida, "blocos-cache")
+            os.makedirs(cache, exist_ok=True)
+            assin = json.dumps([cfg["voz"], modelo, cfg.get("velocidade"), extra], sort_keys=True)
             for bid, texto in blocos(a.entrada):
                 destino = os.path.join(a.saida, f"{bid}.mp3")
-                gerar(key, cfg["voz"], modelo, cfg.get("velocidade"), texto, destino, extra)
-                total_bytes += len(texto.encode("utf-8"))
-                print(f"{bid}: ok ({len(texto.encode('utf-8'))} bytes) → {destino}")
+                h = hashlib.sha1((assin + texto).encode()).hexdigest()[:12]
+                p = os.path.join(cache, f"{h}.mp3")
+                novo = not os.path.exists(p)
+                if novo:
+                    gerar(key, cfg["voz"], modelo, cfg.get("velocidade"), texto, p, extra)
+                    total_bytes += len(texto.encode("utf-8"))
+                if os.path.lexists(destino):
+                    os.remove(destino)
+                os.link(p, destino)
+                print(f"{bid}: {'gerado' if novo else 'cache '} ({len(texto.encode('utf-8'))} bytes) → {destino}")
     finally:
         if total_bytes:
             registrar_custo(a, modelo, total_bytes)
+            print(f"Crédito Fish antes: {cred0} · depois: {credito(key)} (atualiza com atraso; confira que caiu {total_bytes} × "
+                  f"US$ {preco(modelo):g}/M = US$ {total_bytes * preco(modelo) / 1e6:.4f}, e não o preço do s2.1-pro)")
     if not total_bytes:
         print("Nada novo gerado (tudo em cache); nenhum custo.")
 
 
 def registrar_custo(a, modelo, total_bytes):
-    custo = total_bytes * PRECO_POR_MI_BYTES[modelo] / 1_000_000
+    custo = total_bytes * preco(modelo) / 1_000_000
 
     def registrar(con):
         cambio = con.execute("SELECT brl_por_unidade FROM financas.cambio_pre_pago WHERE fornecedor='Fish Audio'").fetchone()
