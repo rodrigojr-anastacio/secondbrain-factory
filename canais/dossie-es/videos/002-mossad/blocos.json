@@ -1,0 +1,427 @@
+[
+ {
+  "id": "N001",
+  "texto": "Irak, dieciséis de agosto de mil novecientos sesenta y seis. Un piloto de la fuerza aérea iraquí despega en un MiG veintiuno, el caza soviético más moderno de su tiempo.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "Es un vuelo de entrenamiento. Debería volver en minutos. En vez de eso, gira hacia el oeste.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "Vuela bajo, sobre Jordania. Y aterriza en Israel.",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "[serious] Ningún piloto occidental había volado uno. La fuga llevaba años en preparación. Y la había planeado el Mossad.",
+  "ideia": false
+ },
+ {
+  "id": "N005",
+  "texto": "Esta es toda la historia del Mossad. De una oficina sin nombre a uno de los servicios secretos más temidos del mundo.",
+  "ideia": true
+ },
+ {
+  "id": "N006",
+  "texto": "El Instituto. Israel nace en mayo de mil novecientos cuarenta y ocho, en guerra con los países árabes vecinos. Tiene espías, pero repartidos en servicios que compiten entre sí.",
+  "ideia": false
+ },
+ {
+  "id": "N007",
+  "texto": "El trece de diciembre de mil novecientos cuarenta y nueve, el primer ministro David Ben-Gurión crea un organismo para coordinarlos. Lo dirige un diplomático discreto, Reuven Shiloaj.",
+  "ideia": false
+ },
+ {
+  "id": "N008",
+  "texto": "Su nombre completo es largo. Todos lo llaman Mossad. En hebreo, el Instituto.",
+  "ideia": false
+ },
+ {
+  "id": "N009",
+  "texto": "Responde solo ante el primer ministro. Durante décadas, Israel ni siquiera publica el nombre de su jefe.",
+  "ideia": false
+ },
+ {
+  "id": "N010",
+  "texto": "En mil novecientos cincuenta y dos llega al mando un hombre bajito y obsesivo, Isser Harel. Le dicen el pequeño Isser. Su primer gran caso no lo descubre un espía. Lo descubre un ciego.",
+  "ideia": true
+ },
+ {
+  "id": "N011",
+  "texto": "El Ciego. Coronel Suárez, provincia de Buenos Aires, mil novecientos cincuenta y siete. Lothar Hermann es un alemán de origen judío que huyó del nazismo. Está casi ciego.",
+  "ideia": false
+ },
+ {
+  "id": "N012",
+  "texto": "Su hija Silvia sale con un muchacho que presume de que su padre fue oficial nazi. El muchacho se apellida Eichmann.",
+  "ideia": false
+ },
+ {
+  "id": "N013",
+  "texto": "Adolf Eichmann organizó la deportación de millones de judíos a los campos de exterminio. Desde mil novecientos cincuenta vive en Argentina con otro nombre: Ricardo Klement.",
+  "ideia": false
+ },
+ {
+  "id": "N014",
+  "texto": "Hermann le escribe a Fritz Bauer, un fiscal alemán. Bauer no confía en la policía de su país y le pasa el dato a Israel.",
+  "ideia": false
+ },
+ {
+  "id": "N015",
+  "texto": "Según varias versiones, el Mossad manda a un agente. Ve una casa pobre y concluye que un alto nazi no viviría así. Después conoce a Hermann y no le cree a un ciego.",
+  "ideia": false
+ },
+ {
+  "id": "N016",
+  "texto": "El caso duerme casi dos años. Hasta que Bauer insiste. Entonces el Mossad vuelve a Buenos Aires.",
+  "ideia": true
+ },
+ {
+  "id": "N017",
+  "texto": "La Calle Garibaldi. San Fernando, en las afueras de Buenos Aires, once de mayo de mil novecientos sesenta. Son las ocho de la noche.",
+  "ideia": false
+ },
+ {
+  "id": "N018",
+  "texto": "Un hombre de cincuenta y cuatro años baja del autobús doscientos tres y camina hacia su casa. Lo esperan agentes del Mossad, junto a un auto con el capó levantado.",
+  "ideia": false
+ },
+ {
+  "id": "N019",
+  "texto": "Lo derriban en segundos. Lo esconden nueve días en una casa alquilada. Allí admite quién es.",
+  "ideia": false
+ },
+ {
+  "id": "N020",
+  "texto": "El veinte de mayo lo suben, drogado y vestido de tripulante, a un avión de la aerolínea israelí El Al. El avión había traído a la delegación israelí a los festejos por los ciento cincuenta años de la Revolución de Mayo argentina.",
+  "ideia": false
+ },
+ {
+  "id": "N021",
+  "texto": "Tres días después, Ben-Gurión lo anuncia en el Knéset. Argentina protesta ante el Consejo de Seguridad de la ONU, que le pide a Israel una reparación.",
+  "ideia": false
+ },
+ {
+  "id": "N022",
+  "texto": "Eichmann es juzgado en Jerusalén y ejecutado en mil novecientos sesenta y dos. Pero el pequeño Isser ya tiene otra obsesión.",
+  "ideia": true
+ },
+ {
+  "id": "N023",
+  "texto": "Las Cartas. En julio de mil novecientos sesenta y dos, Egipto exhibe misiles nuevos en un desfile en El Cairo. En su programa trabajan científicos alemanes, algunos del antiguo programa de cohetes de Hitler.",
+  "ideia": false
+ },
+ {
+  "id": "N024",
+  "texto": "Harel lo ve como una amenaza para la existencia de Israel. Y, según varias fuentes, el Mossad responde con sobres.",
+  "ideia": false
+ },
+ {
+  "id": "N025",
+  "texto": "Una carta bomba estalla en una fábrica de cohetes cerca de El Cairo y mata a varios empleados egipcios. En Múnich, un empresario del programa desaparece sin dejar rastro. Otros reciben amenazas.",
+  "ideia": false
+ },
+ {
+  "id": "N026",
+  "texto": "Pero Ben-Gurión no quiere romper con Alemania Occidental, que le vende armas a Israel en secreto. En marzo de mil novecientos sesenta y tres, Harel renuncia.",
+  "ideia": false
+ },
+ {
+  "id": "N027",
+  "texto": "Lo reemplaza un general, Meir Amit. Y el siguiente expediente vuelve a Sudamérica.",
+  "ideia": true
+ },
+ {
+  "id": "N028",
+  "texto": "La Casa. Herberts Cukurs fue un aviador famoso en Letonia. Durante la ocupación nazi, según sobrevivientes, participó en el asesinato de miles de judíos en Riga.",
+  "ideia": false
+ },
+ {
+  "id": "N029",
+  "texto": "Después de la guerra se instala en Brasil, en São Paulo. Nadie lo juzga.",
+  "ideia": false
+ },
+ {
+  "id": "N030",
+  "texto": "En mil novecientos sesenta y cuatro conoce a un empresario austríaco que le propone un negocio turístico en Uruguay. El empresario es un agente del Mossad.",
+  "ideia": false
+ },
+ {
+  "id": "N031",
+  "texto": "El veintitrés de febrero de mil novecientos sesenta y cinco, Cukurs llega a una casa alquilada en Shangrilá, cerca de Montevideo. Allí lo esperan.",
+  "ideia": false
+ },
+ {
+  "id": "N032",
+  "texto": "Días después, la policía uruguaya encuentra su cuerpo en un baúl, con una nota firmada: Los que nunca olvidarán.",
+  "ideia": false
+ },
+ {
+  "id": "N033",
+  "texto": "Que se sepa, es el único criminal de guerra nazi al que el Mossad mató. Mientras tanto, en Damasco, otro hombre de Israel acaba de caer.",
+  "ideia": true
+ },
+ {
+  "id": "N034",
+  "texto": "El Espía. Kamel Amin Tabet es un empresario sirio que vuelve a Damasco desde Buenos Aires. Da fiestas. Se hace amigo de oficiales y políticos.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "En realidad se llama Eli Cohen. Nació en Egipto y espía para Israel. Había construido su personaje en Argentina, entre la comunidad árabe de Buenos Aires.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "Durante tres años envía a Israel, en código morse, lo que oye en los salones de Damasco.",
+  "ideia": false
+ },
+ {
+  "id": "N037",
+  "texto": "En enero de mil novecientos sesenta y cinco, la contrainteligencia siria detecta sus transmisiones y lo detiene.",
+  "ideia": false
+ },
+ {
+  "id": "N038",
+  "texto": "El dieciocho de mayo lo ahorcan en público, en la plaza Marjeh. Su unidad, de la inteligencia militar, después pasa al Mossad.",
+  "ideia": false
+ },
+ {
+  "id": "N039",
+  "texto": "Israel ha perdido a su hombre en Damasco. Pero un año después, un piloto iraquí le trae algo mejor.",
+  "ideia": true
+ },
+ {
+  "id": "N040",
+  "texto": "Si te gustan estos expedientes, suscríbete. Y ahora volvemos a ese avión.",
+  "ideia": false
+ },
+ {
+  "id": "N041",
+  "texto": "El MiG. El piloto iraquí se llama Munir Redfa. Es cristiano y, según su propio relato, no lo dejan ascender y le ordenan bombardear aldeas kurdas.",
+  "ideia": false
+ },
+ {
+  "id": "N042",
+  "texto": "El jefe del Mossad, Meir Amit, quiere un MiG veintiuno desde hace años. Agentes del Mossad contactan a Redfa. Le ofrecen dinero, una vida nueva y sacar a su familia de Irak.",
+  "ideia": false
+ },
+ {
+  "id": "N043",
+  "texto": "Al aterrizar, el avión recibe un nuevo número: cero cero siete. Los pilotos israelíes lo prueban hasta conocer cada debilidad. Después, Israel lo presta a Estados Unidos.",
+  "ideia": false
+ },
+ {
+  "id": "N044",
+  "texto": "En junio de mil novecientos sesenta y siete estalla la Guerra de los Seis Días. Israel la gana. Y el Mossad parece infalible.",
+  "ideia": false
+ },
+ {
+  "id": "N045",
+  "texto": "Cinco años después, en Múnich, descubre que no lo es.",
+  "ideia": true
+ },
+ {
+  "id": "N046",
+  "texto": "Múnich. Cinco de septiembre de mil novecientos setenta y dos, Juegos Olímpicos. Un comando palestino de Septiembre Negro entra en la villa olímpica y toma como rehenes al equipo israelí.",
+  "ideia": false
+ },
+ {
+  "id": "N047",
+  "texto": "El jefe del Mossad, Zvi Zamir, vuela a Alemania. Desde el aeródromo militar, ve fracasar el rescate de la policía alemana.",
+  "ideia": false
+ },
+ {
+  "id": "N048",
+  "texto": "Mueren los once miembros del equipo israelí. También un policía alemán y cinco de los ocho secuestradores.",
+  "ideia": false
+ },
+ {
+  "id": "N049",
+  "texto": "Según historiadores y periodistas, la primera ministra Golda Meir aprueba entonces una campaña para matar a los responsables.",
+  "ideia": false
+ },
+ {
+  "id": "N050",
+  "texto": "El dieciséis de octubre, en Roma, matan a tiros a Wael Zuaiter, un traductor palestino, en la entrada de su edificio. El ataque se atribuye al Mossad. Israel lo acusaba de pertenecer a Septiembre Negro. Su entorno siempre lo negó.",
+  "ideia": false
+ },
+ {
+  "id": "N051",
+  "texto": "La lista se acorta en París, en Chipre, en Beirut. Pero el hombre más buscado, Alí Hasán Salameh, sigue libre. Hasta que un equipo cree verlo en un pueblo de Noruega.",
+  "ideia": true
+ },
+ {
+  "id": "N052",
+  "texto": "El Camarero. Lillehammer, Noruega, veintiuno de julio de mil novecientos setenta y tres. Un hombre sale del cine con su esposa, que está embarazada.",
+  "ideia": false
+ },
+ {
+  "id": "N053",
+  "texto": "Caminan hacia el autobús. Un auto se detiene junto a ellos. Le disparan varias veces.",
+  "ideia": false
+ },
+ {
+  "id": "N054",
+  "texto": "Se llamaba Ahmed Bujiki. Era un camarero marroquí. No tenía nada que ver con Múnich. El Mossad había confundido a un inocente con Salameh.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "La policía noruega detiene a seis miembros del equipo. Varios son condenados. En mil novecientos noventa y seis, Israel indemniza a la viuda y a la hija, sin admitir responsabilidad.",
+  "ideia": false
+ },
+ {
+  "id": "N056",
+  "texto": "A Salameh lo matan en Beirut en mil novecientos setenta y nueve, con un coche bomba. Pero antes, el Mossad recibe un aviso decisivo.",
+  "ideia": true
+ },
+ {
+  "id": "N057",
+  "texto": "El Ángel. El Mossad tiene un agente en el corazón de Egipto: Ashraf Marwan, yerno del fallecido presidente Nasser y asesor del nuevo presidente, Sadat. En sus archivos lo llaman el Ángel.",
+  "ideia": false
+ },
+ {
+  "id": "N058",
+  "texto": "El cinco de octubre de mil novecientos setenta y tres, Marwan pide una reunión urgente en Londres. Zamir vuela esa misma tarde.",
+  "ideia": false
+ },
+ {
+  "id": "N059",
+  "texto": "Cerca de la medianoche, Marwan le dice que Egipto y Siria atacarán al día siguiente.",
+  "ideia": false
+ },
+ {
+  "id": "N060",
+  "texto": "Zamir llama a Tel Aviv de madrugada. Es Yom Kipur. El país está en silencio.",
+  "ideia": false
+ },
+ {
+  "id": "N061",
+  "texto": "Egipto y Siria atacan a las dos de la tarde, horas antes de lo previsto. Los reservistas israelíes no alcanzan a movilizarse a tiempo.",
+  "ideia": false
+ },
+ {
+  "id": "N062",
+  "texto": "Hasta hoy se discute si Marwan era leal a Israel o un agente doble de Egipto. Murió en Londres en dos mil siete, al caer de un balcón, en circunstancias que nunca se aclararon. Después de la guerra, el Mossad cambia. Y a veces, su misión es rescatar.",
+  "ideia": true
+ },
+ {
+  "id": "N063",
+  "texto": "El Hotel. Costa de Sudán, en el mar Rojo, principios de los años ochenta. Un pequeño hotel de buceo abre para turistas europeos.",
+  "ideia": false
+ },
+ {
+  "id": "N064",
+  "texto": "Los instructores son agentes del Mossad. Los turistas no lo saben.",
+  "ideia": false
+ },
+ {
+  "id": "N065",
+  "texto": "De noche, salen en camiones hacia los campos de refugiados. Allí esperan miles de judíos etíopes que huyeron a pie del hambre y de la guerra.",
+  "ideia": false
+ },
+ {
+  "id": "N066",
+  "texto": "Los llevan a la playa y lanchas de la marina israelí los recogen en la oscuridad.",
+  "ideia": false
+ },
+ {
+  "id": "N067",
+  "texto": "Según los relatos publicados, así salen de Sudán miles de personas. Después vienen los puentes aéreos, como la Operación Moisés, entre mil novecientos ochenta y cuatro y ochenta y cinco.",
+  "ideia": false
+ },
+ {
+  "id": "N068",
+  "texto": "Mientras unos agentes rescatan a desconocidos, otros persiguen a un técnico israelí que quiere contar un secreto.",
+  "ideia": true
+ },
+ {
+  "id": "N069",
+  "texto": "La Mano. Mordejái Vanunu trabajó nueve años como técnico en la central nuclear de Dimona, en el desierto del Néguev.",
+  "ideia": false
+ },
+ {
+  "id": "N070",
+  "texto": "En mil novecientos ochenta y seis le cuenta al diario británico The Sunday Times que allí Israel fabrica armas nucleares. Tiene fotos.",
+  "ideia": false
+ },
+ {
+  "id": "N071",
+  "texto": "En Londres conoce a una turista estadounidense que se presenta como Cindy. Ella lo convence de viajar a Roma.",
+  "ideia": false
+ },
+ {
+  "id": "N072",
+  "texto": "El treinta de septiembre, en un apartamento de Roma, lo esperan agentes del Mossad. Lo drogan y lo llevan por mar a Israel.",
+  "ideia": false
+ },
+ {
+  "id": "N073",
+  "texto": "El cinco de octubre, el periódico publica la historia. Vanunu ya está preso y nadie sabe dónde.",
+  "ideia": false
+ },
+ {
+  "id": "N074",
+  "texto": "Semanas después, lo llevan en una camioneta al tribunal. Aprieta la mano contra la ventanilla. En la palma había escrito que lo secuestraron en Roma.",
+  "ideia": false
+ },
+ {
+  "id": "N075",
+  "texto": "Lo condenan a dieciocho años de prisión y los cumple todos. Israel, hasta hoy, no confirma ni niega tener armas nucleares. Cuatro años después, el Mossad tiene un problema nuevo: uno de los suyos quiere contarlo todo.",
+  "ideia": true
+ },
+ {
+  "id": "N076",
+  "texto": "El Libro. Septiembre de mil novecientos noventa. Victor Ostrovsky, un exagente del Mossad nacido en Canadá, publica sus memorias.",
+  "ideia": false
+ },
+ {
+  "id": "N077",
+  "texto": "Israel le pide a un juez de Nueva York que prohíba el libro. Dice que pone en peligro a sus agentes. El juez lo prohíbe.",
+  "ideia": false
+ },
+ {
+  "id": "N078",
+  "texto": "Menos de dos días después, un tribunal de apelación levanta la prohibición. Y el escándalo convierte el libro en el primero de la lista de más vendidos del New York Times.",
+  "ideia": false
+ },
+ {
+  "id": "N079",
+  "texto": "Muchas de sus afirmaciones nunca se confirmaron. Pero la lección queda: intentar callar un secreto puede hacerlo más ruidoso.",
+  "ideia": false
+ },
+ {
+  "id": "N080",
+  "texto": "Al año siguiente, la Unión Soviética desaparece. Y aquí se cierra este expediente.",
+  "ideia": true
+ },
+ {
+  "id": "N081",
+  "texto": "El MiG. Hoy, el MiG veintiuno de Munir Redfa está en el museo de la Fuerza Aérea de Israel, en Hatzerim, en el desierto del Néguev. Todavía lleva pintado el número cero cero siete.",
+  "ideia": false
+ },
+ {
+  "id": "N082",
+  "texto": "Redfa nunca volvió a Irak.",
+  "ideia": false
+ },
+ {
+  "id": "N083",
+  "texto": "El Mossad cumple setenta y seis años, en un Medio Oriente que sigue en conflicto.",
+  "ideia": false
+ },
+ {
+  "id": "N084",
+  "texto": "El Mossad nunca fue grande. Lo grande fueron los secretos que cupieron en una sola persona: un ciego, un piloto, un técnico.",
+  "ideia": true
+ },
+ {
+  "id": "N085",
+  "texto": "Y tú, ¿qué expediente del Mossad crees que todavía no conocemos? Déjalo en los comentarios.",
+  "ideia": false
+ }
+]

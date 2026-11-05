@@ -31,7 +31,8 @@ visual:
   modelo: fal-ai/nano-banana     # teste de estilo de 2026-11-04 (testes/ESTILO.md) + teste es da CIA (testes/ESTILO-es.md)
   qualidade: medium
   tamanho: landscape_16_9
-  estilo_prompt: "Graphic novel ink illustration for a history documentary, bold clean black ink outlines, realistic adult proportions and faces, muted desaturated palette of slate blue, olive green, sepia and charcoal with small deep red accents, cinematic lighting, subtle paper grain texture, detailed period-accurate setting, 16:9 wide shot, no text, no letters, no captions, no watermark, no swastikas or extremist insignia"
+  # 2026-11-05 (002-mossad): tirado "subtle paper grain texture" (Hipótese da biblia/visual.md: a frase puxa a moldura)
+  estilo_prompt: "Graphic novel ink illustration for a history documentary, bold clean black ink outlines, realistic adult proportions and faces, muted desaturated palette of slate blue, olive green, sepia and charcoal with small deep red accents, cinematic lighting, detailed period-accurate setting, 16:9 wide shot, no text, no letters, no captions, no watermark, no swastikas or extremist insignia"
   cor_destaque: "#B3261E"    # rojo sello
   papel: "#E9DFC9"           # carpeta / papel del expediente
 piloto:
