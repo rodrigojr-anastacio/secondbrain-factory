@@ -36,6 +36,9 @@ Base: `pesquisa/archive-in-minutes/LEVANTAMENTO.md` §2 (anatomia, 2026-11-04), 
 
 - **Medido no 002 Mossad (05/11):** 1.954 palavras, 85 blocos, 13 expedientes = **822,7 s (13:43), ~143 ppm**; o `roteiro.py` com `WPS = 2.38` estimou 13:50 (erro de 1%): use 2,38. O hook saiu com 40 s (5 s acima): corte o hook no texto antes da voz. [`videos/002-mossad/RELATORIO.md`]
 - **Tema sensível (002):** morte atribuída a serviço secreto sempre com fonte ("se atribuye al Mossad", "según historiadores y periodistas") e a versão do outro lado ("su entorno siempre lo negó"); inclua o erro do próprio serviço (Lillehammer); recorte fechado no passado e 1 frase neutra de presente. A revisão nativa pegou 3 atribuições que faltavam. [`videos/002-mossad/RELATORIO.md`]
+- **Medido no 003 FBI (05/11):** 1.830 palavras, 80 blocos, 13 expedientes = **796,6 s (13:17)**; o `roteiro.py` (WPS 2,38) estimou 12:57 (2,6% abaixo). Hook de 31 s: o `roteiro.py` do 003 avisa quando o hook passa de 35 s (`HOOK_MAX`). [`videos/003-fbi/RELATORIO.md`]
+- **Hook por arrombamento/roubo de arquivos (003):** a anedota em que a organização é a vítima ("La oficina era del FBI") inverte o esperado e deu desfecho seco em 4 palavras; pago no expediente 10 (2/3 do vídeo, porque a cronologia manda) e no cierre ("La Cerradura"). **Hipótese** até ter retenção do Studio. Concorrentes do FBI abrem com a morte de Hoover (2 de 4), Dillinger e 11-S. [`videos/003-fbi/SOURCES.md`]
+- **Revisão de fatos no 003:** a 2ª leitura (subagente Sonnet) pegou 4 erros reais antes da voz (Hanssen vendeu primeiro ao GRU, não à KGB; a carta a King não "termina" com a frase citada; ordem do fim do COINTELPRO; cronologia perpétua × 11-S). Peça sempre ao revisor que cheque **fatos e cronologia**, não só o espanhol. [`videos/003-fbi/RELATORIO.md`]
 
 ## Checklist do roteiro
 - [ ] Hook ≤ 35 s com anedota própria (não a do Archive/clones), desfecho seco e "Esta es TODA la historia de X".

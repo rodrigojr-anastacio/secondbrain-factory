@@ -1,0 +1,402 @@
+[
+ {
+  "id": "N001",
+  "texto": "Media, Pensilvania. Ocho de marzo de mil novecientos setenta y uno. Millones de personas siguen la pelea del siglo: Muhammad Ali contra Joe Frazier.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "En el pueblo, ocho personas fuerzan la cerradura de una pequeña oficina vacía. Llenan maletas con todos los documentos que encuentran.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "Desaparecen en la noche. Nunca los atraparán.",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "[serious] La oficina era del FBI.",
+  "ideia": false
+ },
+ {
+  "id": "N005",
+  "texto": "Esta es toda la historia del FBI. Y de los secretos que guardaba en esos archivos.",
+  "ideia": true
+ },
+ {
+  "id": "N006",
+  "texto": "El Memorando. Washington, mil novecientos ocho. El Congreso le prohíbe al Departamento de Justicia usar agentes del Servicio Secreto. Muchos temen una policía secreta al estilo europeo.",
+  "ideia": false
+ },
+ {
+  "id": "N007",
+  "texto": "El fiscal general es Charles Bonaparte, sobrino nieto de Napoleón. Y decide crear su propia fuerza.",
+  "ideia": false
+ },
+ {
+  "id": "N008",
+  "texto": "El veintiséis de julio firma un memorando. Reúne a treinta y cuatro agentes. La unidad todavía no tiene nombre.",
+  "ideia": false
+ },
+ {
+  "id": "N009",
+  "texto": "Al año siguiente los llaman Oficina de Investigación. Persiguen fraudes, quiebras bancarias y, desde mil novecientos diez, la trata de mujeres de un estado a otro.",
+  "ideia": false
+ },
+ {
+  "id": "N010",
+  "texto": "En mil novecientos diecisiete entra al Departamento de Justicia un joven empleado, puntual y obsesivo con el orden. Se llama John Edgar Hoover.",
+  "ideia": true
+ },
+ {
+  "id": "N011",
+  "texto": "El Fichero. Mil novecientos diecinueve. Estallan bombas contra políticos y jueces en varias ciudades de Estados Unidos. Una explota frente a la casa del fiscal general, Mitchell Palmer.",
+  "ideia": false
+ },
+ {
+  "id": "N012",
+  "texto": "Palmer pone a Hoover, de veinticuatro años, al frente de una nueva división. Su tarea: vigilar a los radicales.",
+  "ideia": false
+ },
+ {
+  "id": "N013",
+  "texto": "Hoover copia el sistema de fichas de la Biblioteca del Congreso. En pocos meses tiene más de cien mil nombres.",
+  "ideia": false
+ },
+ {
+  "id": "N014",
+  "texto": "El dos de enero de mil novecientos veinte, sus agentes hacen redadas en más de treinta ciudades. Detienen a miles de personas, muchas sin orden judicial. Semanas antes, cientos de extranjeros ya habían sido deportados, entre ellos la anarquista Emma Goldman.",
+  "ideia": false
+ },
+ {
+  "id": "N015",
+  "texto": "Jueces y abogados denuncian los abusos. Palmer cae en desgracia. Hoover no.",
+  "ideia": true
+ },
+ {
+  "id": "N016",
+  "texto": "El Director. En mil novecientos veinticuatro, la Oficina está desprestigiada. Se descubre que espió a senadores que investigaban la corrupción del gobierno.",
+  "ideia": false
+ },
+ {
+  "id": "N017",
+  "texto": "El nuevo fiscal general, Harlan Stone, busca a alguien que la limpie. El diez de mayo elige a Hoover. Tiene veintinueve años.",
+  "ideia": false
+ },
+ {
+  "id": "N018",
+  "texto": "Despide a los agentes corruptos. Exige títulos de abogado o de contador, traje oscuro y camisa blanca. Y crea un archivo nacional de huellas dactilares.",
+  "ideia": false
+ },
+ {
+  "id": "N019",
+  "texto": "Lo nombran de forma interina. Se quedará cuarenta y ocho años.",
+  "ideia": true
+ },
+ {
+  "id": "N020",
+  "texto": "El Cine. En los años treinta, la Gran Depresión llena el país de asaltantes de bancos. El más famoso es John Dillinger.",
+  "ideia": false
+ },
+ {
+  "id": "N021",
+  "texto": "Chicago, veintidós de julio de mil novecientos treinta y cuatro. Dillinger sale del cine Biograph con dos mujeres. Una de ellas lo delató. Es Anna Sage, una inmigrante rumana que teme ser deportada. Para que los agentes la reconozcan, viste de naranja. Los periódicos la llamarán la mujer de rojo.",
+  "ideia": false
+ },
+ {
+  "id": "N022",
+  "texto": "Los agentes lo esperan en la calle. Intenta huir. Lo matan en el callejón.",
+  "ideia": false
+ },
+ {
+  "id": "N023",
+  "texto": "Ese año, el Congreso autoriza a los agentes a portar armas y hacer arrestos. En mil novecientos treinta y cinco, la Oficina recibe su nombre definitivo: Oficina Federal de Investigación. F, B, I.",
+  "ideia": false
+ },
+ {
+  "id": "N024",
+  "texto": "Hoover convierte a sus agentes en héroes de radio, cine e historietas. Y los prepara para otra guerra.",
+  "ideia": true
+ },
+ {
+  "id": "N025",
+  "texto": "El Espejo. Nueva York, mil novecientos cuarenta y uno. William Sebold es un alemán nacionalizado estadounidense. Los nazis lo reclutaron como espía.",
+  "ideia": false
+ },
+ {
+  "id": "N026",
+  "texto": "Pero Sebold se lo contó todo al FBI. Ahora trabaja para los dos lados.",
+  "ideia": false
+ },
+ {
+  "id": "N027",
+  "texto": "Recibe a los espías nazis en una oficina cerca de Times Square. Detrás de un espejo, el FBI los filma. El jefe de la red, Fritz Duquesne, lleva cuarenta años espiando a los británicos.",
+  "ideia": false
+ },
+ {
+  "id": "N028",
+  "texto": "En junio, el FBI detiene a treinta y tres espías de la red. Todos son condenados. Según el FBI, es la mayor red de espionaje desmantelada en la historia de Estados Unidos.",
+  "ideia": false
+ },
+ {
+  "id": "N029",
+  "texto": "Seis meses después, Estados Unidos entra en la guerra. Y Hoover ya tiene agentes donde nadie los espera: en América Latina.",
+  "ideia": true
+ },
+ {
+  "id": "N030",
+  "texto": "El Servicio. En junio de mil novecientos cuarenta, el presidente Roosevelt le encarga al FBI el espionaje en América Latina. Nace el Servicio de Inteligencia Especial.",
+  "ideia": false
+ },
+ {
+  "id": "N031",
+  "texto": "Cientos de agentes viajan al sur disfrazados de vendedores, periodistas y empresarios.",
+  "ideia": false
+ },
+ {
+  "id": "N032",
+  "texto": "Buscan radios clandestinas, contrabando de materiales de guerra y redes alemanas en México, Brasil, Argentina y Chile.",
+  "ideia": false
+ },
+ {
+  "id": "N033",
+  "texto": "Según el propio FBI, identifican a más de ochocientos espías del Eje.",
+  "ideia": false
+ },
+ {
+  "id": "N034",
+  "texto": "Cuando termina la guerra, Hoover quiere hacer espionaje en todo el mundo. No lo consigue. En mil novecientos cuarenta y siete, ese trabajo pasa a una agencia nueva: la CIA.",
+  "ideia": true
+ },
+ {
+  "id": "N035",
+  "texto": "Si te gustan estos expedientes, suscríbete. Y ahora, la reunión que el FBI no vio venir.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "La Reunión. Durante años, Hoover repite que en Estados Unidos no existe una mafia organizada.",
+  "ideia": false
+ },
+ {
+  "id": "N037",
+  "texto": "Apalachin, Nueva York, catorce de noviembre de mil novecientos cincuenta y siete. Un policía estatal ve demasiados autos de lujo en la casa de campo de un empresario.",
+  "ideia": false
+ },
+ {
+  "id": "N038",
+  "texto": "Bloquean el camino. Los invitados huyen por el bosque con trajes caros.",
+  "ideia": false
+ },
+ {
+  "id": "N039",
+  "texto": "Detienen a más de cincuenta jefes de la mafia de todo el país. Casi todos dicen lo mismo: vinieron a visitar a un amigo enfermo. El FBI no sabía nada.",
+  "ideia": false
+ },
+ {
+  "id": "N040",
+  "texto": "Hoover reacciona rápido. Crea un programa contra los grandes capos y empieza a usar micrófonos ocultos.",
+  "ideia": false
+ },
+ {
+  "id": "N041",
+  "texto": "En mil novecientos sesenta y tres, el mafioso Joseph Valachi declara ante el Senado, en televisión. Le da un nombre: la Cosa Nostra. Pero el FBI ya tiene en la mira a otro enemigo.",
+  "ideia": true
+ },
+ {
+  "id": "N042",
+  "texto": "El Programa. En mil novecientos cincuenta y seis, el FBI lanza en secreto el COINTELPRO, un programa de contrainteligencia.",
+  "ideia": false
+ },
+ {
+  "id": "N043",
+  "texto": "Según una comisión del Senado, su objetivo no era investigar delitos. Era infiltrar, desacreditar y desarticular grupos políticos.",
+  "ideia": false
+ },
+ {
+  "id": "N044",
+  "texto": "Primero, el Partido Comunista. Después, el movimiento por los derechos civiles, los opositores a la guerra de Vietnam y las Panteras Negras.",
+  "ideia": false
+ },
+ {
+  "id": "N045",
+  "texto": "En Puerto Rico, persigue al movimiento independentista. En el año dos mil, ante el Congreso, el director del FBI, Louis Freeh, hablará de acciones ilegales graves, tal vez criminales, en la isla.",
+  "ideia": false
+ },
+ {
+  "id": "N046",
+  "texto": "Y uno de los hombres más vigilados por el FBI es un pastor de Atlanta.",
+  "ideia": true
+ },
+ {
+  "id": "N047",
+  "texto": "La Carta. Con permiso del fiscal general Robert Kennedy, el FBI intercepta los teléfonos de Martin Luther King. Por su cuenta, pone micrófonos en sus hoteles.",
+  "ideia": false
+ },
+ {
+  "id": "N048",
+  "texto": "En noviembre de mil novecientos sesenta y cuatro, King gana el Premio Nobel de la Paz. Ese mes le envían un paquete anónimo. Semanas después, lo abre su esposa, Coretta.",
+  "ideia": false
+ },
+ {
+  "id": "N049",
+  "texto": "Hay una cinta con grabaciones de su vida privada. Y una carta.",
+  "ideia": false
+ },
+ {
+  "id": "N050",
+  "texto": "Dice, entre otras cosas: Solo te queda una cosa por hacer. Tú sabes cuál es.",
+  "ideia": false
+ },
+ {
+  "id": "N051",
+  "texto": "King la lee como una invitación al suicidio. Y sospecha del FBI. En mil novecientos setenta y cinco, la comisión Church del Senado confirma que la carta salió del propio FBI.",
+  "ideia": false
+ },
+ {
+  "id": "N052",
+  "texto": "Pero en mil novecientos sesenta y cuatro nadie fuera del FBI sabe que estos programas existen. Hasta la noche de la pelea.",
+  "ideia": true
+ },
+ {
+  "id": "N053",
+  "texto": "Las Maletas. Los ocho de Media son pacifistas contra la guerra de Vietnam. Pasan días leyendo los papeles en una granja. Según un análisis publicado después, solo uno de cada cien documentos trata del crimen organizado. Cuatro de cada diez tratan de vigilancia política.",
+  "ideia": false
+ },
+ {
+  "id": "N054",
+  "texto": "Se llaman a sí mismos la Comisión Ciudadana para Investigar al FBI. Mandan copias a periódicos y a congresistas.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "El fiscal general pide que no se publiquen. El Washington Post los publica.",
+  "ideia": false
+ },
+ {
+  "id": "N056",
+  "texto": "Un memorando pide a los agentes entrevistar a los activistas para aumentar la paranoia. Que crean que hay un agente del FBI detrás de cada buzón.",
+  "ideia": false
+ },
+ {
+  "id": "N057",
+  "texto": "En otro papel aparece una palabra que nadie conocía: COINTELPRO. Hoover cierra el programa en abril. Pero el secreto ya se escapó: un periodista demanda al FBI y obtiene los documentos.",
+  "ideia": false
+ },
+ {
+  "id": "N058",
+  "texto": "Un año después, Hoover muere. Y empieza una carrera por sus archivos.",
+  "ideia": true
+ },
+ {
+  "id": "N059",
+  "texto": "El Garaje. Dos de mayo de mil novecientos setenta y dos. Hoover muere a los setenta y siete años. Su secretaria durante cincuenta y cuatro años, Helen Gandy, destruye sus archivos personales.",
+  "ideia": false
+ },
+ {
+  "id": "N060",
+  "texto": "Seis semanas después, cinco hombres son detenidos dentro del edificio Watergate.",
+  "ideia": false
+ },
+ {
+  "id": "N061",
+  "texto": "El número dos del FBI, Mark Felt, se reúne de madrugada con un reportero del Washington Post en un estacionamiento subterráneo.",
+  "ideia": false
+ },
+ {
+  "id": "N062",
+  "texto": "Le confirma pistas que llegan hasta la Casa Blanca. En mil novecientos setenta y cuatro, el presidente Nixon renuncia. La identidad de Felt se sabrá en dos mil cinco, treinta y tres años después.",
+  "ideia": false
+ },
+ {
+  "id": "N063",
+  "texto": "Un año después, la comisión Church revela décadas de abusos. Desde entonces, un director del FBI solo puede quedarse diez años.",
+  "ideia": false
+ },
+ {
+  "id": "N064",
+  "texto": "En los años ochenta, el FBI recibe una misión nueva: las drogas. Y una de sus pruebas más importantes sale de una casa en México.",
+  "ideia": true
+ },
+ {
+  "id": "N065",
+  "texto": "La Casa. Guadalajara, siete de febrero de mil novecientos ochenta y cinco. Enrique Camarena, agente de la DEA, sale del consulado de Estados Unidos para comer con su esposa.",
+  "ideia": false
+ },
+ {
+  "id": "N066",
+  "texto": "Unos hombres lo suben a un auto. Desaparece.",
+  "ideia": false
+ },
+ {
+  "id": "N067",
+  "texto": "Un mes después, su cuerpo aparece en un rancho de Michoacán. Lo habían torturado.",
+  "ideia": false
+ },
+ {
+  "id": "N068",
+  "texto": "El FBI manda un equipo forense. Su experto en cabellos y fibras vincula el crimen con una casa de Guadalajara, en la calle Lope de Vega. Según los fiscales, allí interrogaron a Camarena.",
+  "ideia": false
+ },
+ {
+  "id": "N069",
+  "texto": "En México, el narcotraficante Rafael Caro Quintero es condenado por el crimen. En Estados Unidos, el testimonio del experto es clave en tres juicios. En mil novecientos noventa y siete, el inspector general del Departamento de Justicia critica con dureza el laboratorio del FBI.",
+  "ideia": false
+ },
+ {
+  "id": "N070",
+  "texto": "Pero el peor enemigo del FBI no estaba en México. Estaba adentro.",
+  "ideia": true
+ },
+ {
+  "id": "N071",
+  "texto": "El Parque. Vienna, Virginia, dieciocho de febrero de dos mil uno. Un agente veterano del FBI deja un paquete bajo una pasarela de madera, en un parque.",
+  "ideia": false
+ },
+ {
+  "id": "N072",
+  "texto": "Se llama Robert Hanssen. Trabaja en contrainteligencia: su oficio es cazar espías soviéticos.",
+  "ideia": false
+ },
+ {
+  "id": "N073",
+  "texto": "Pero desde mil novecientos setenta y nueve vende secretos a Moscú: primero a la inteligencia militar soviética, después a la KGB y, por último, a Rusia. Recibe más de un millón cuatrocientos mil dólares en efectivo, diamantes y depósitos en Moscú.",
+  "ideia": false
+ },
+ {
+  "id": "N074",
+  "texto": "Durante veintidós años, los rusos ni siquiera saben su nombre. Firma sus cartas con un alias: Ramón García. El FBI tampoco sabe quién es.",
+  "ideia": false
+ },
+ {
+  "id": "N075",
+  "texto": "Lo descubren gracias a un exagente ruso. Según la prensa, el FBI le compra el expediente del topo por siete millones de dólares. Dentro hay una bolsa de plástico con sus huellas.",
+  "ideia": false
+ },
+ {
+  "id": "N076",
+  "texto": "Siete meses después de su arresto, los atentados del once de septiembre cambian la misión del FBI: ya no basta con perseguir delitos, hay que prevenir ataques. Hanssen recibe cadena perpetua. Y aquí se cierra este expediente.",
+  "ideia": true
+ },
+ {
+  "id": "N077",
+  "texto": "La Cerradura. El FBI pone a cientos de agentes a buscar a los ladrones de Media. Cinco años después, el caso prescribe. Ni un solo arresto.",
+  "ideia": false
+ },
+ {
+  "id": "N078",
+  "texto": "En dos mil catorce, varios de ellos cuentan su historia por primera vez. Ya tienen canas.",
+  "ideia": false
+ },
+ {
+  "id": "N079",
+  "texto": "El FBI pasó medio siglo abriendo los archivos de los demás. Lo que lo cambió fue que alguien abriera los suyos.",
+  "ideia": true
+ },
+ {
+  "id": "N080",
+  "texto": "Y tú, ¿qué expediente del FBI crees que sigue cerrado? Déjalo en los comentarios. Y si quieres saber qué hizo la CIA en América Latina, su expediente completo está aquí.",
+  "ideia": false
+ }
+]
