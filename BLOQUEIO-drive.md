@@ -1,5 +1,7 @@
 # BLOQUEIO: entrega no Drive (rclone precisa de autorização do Rodrigo)
 
+**RESOLVIDO em 05/11/2026:** o Rodrigo configurou o remote `gdrive` (scope drive.file). `tools/entregar_drive.sh dossie-es 001-cia` (6 arquivos, 337,6 MiB) e `... identidade` (8 arquivos, 7,1 MiB) subiram e o `rclone check --size-only` deu 0 diferenças. O texto abaixo fica só como histórico.
+
 **Por quê:** o conector Google Drive do Claude só aceita conteúdo inline (`textContent` ou `base64Content` escrito pelo próprio modelo). Texto pequeno funcionou (pacote.md subiu). Vídeo de 350 MB e PNGs de 2 MB não cabem: o base64 passaria pelo contexto do modelo (centenas de milhares de tokens por arquivo). Por isso o caminho para binários é o **rclone** (já instalado em `~/.local/bin/rclone`, v1.75), que falta autorizar.
 
 **O que o Rodrigo faz (uma vez, ~2 min), sem colar token no chat:**
