@@ -18,6 +18,13 @@ O Rodrigo gostou da pegada da thumb-3 da fase 1 (`videos/003-ira/v2-amostras/thu
 - Para o próximo país, escolha 3 pares de conflito do próprio roteiro (personagem × personagem, ou povo × povo).
 - China 004 (05/11/2026): 1 **IMPERADOR × MORTE** "210 a.C." (Qin com as pílulas × a morte encapuzada, exército de barro × rios de mercúrio; principal, casa com o hook), 2 **DRAGÃO × CANHONEIRA** "1839" (oficial Qing × capitão britânico com o baú de ópio), 3 **IMPERADOR × MONGOL** "1279". As 6 bases saíram boas na 1ª tomada (US$ 0,046 cada); palavra longa (CANHONEIRA) cabe com a fonte a 86 px, legível a 320 px. **Hipótese** até o "Testar e comparar".
 
+## Teste de 3 estilos fora do COROA × TURBANTE (004 China, 06/11/2026): **Hipótese**, medir CTR
+Pedido do Rodrigo: 3 estilos diferentes para o "Testar e comparar" (`videos/004-china/entrega/thumbs-v2/`, código `thumbs-v2/compose_v2.py`, US$ 0,37):
+- **4 Bonecos, emoção + objeto-chave:** 1 bonequinho grande (do peito para cima) com medo, segurando o objeto do hook brilhando (pílula de mercúrio), e o exército de barro encarando; 1 palavra-pergunta em ouro ("IMORTAL?") no canto livre + datas em pílula. Nano-banana desenhou "pill" como **cápsula moderna**; pedir "round spherical silver ball… NOT a capsule" (sai uma esfera grande, tipo bola de cristal).
+- **5 Pegada HiM:** padrão do canal-modelo (8 thumbs baixadas em 06/11/2026; Índia 618 mil, Egito 468 mil, Ucrânia 178 mil): ilustração diurna clara, panorama aéreo com 4–6 marcos do país, **pessoa grande em pé à esquerda com contorno de adesivo** (nas 3 mais vistas), céu livre no canto superior direito com **NOME em serifa preta gigante + "ANO – 2026" em sans preta**, selo pequeno ao lado do nome, sem degradê escuro nem emoção. A nossa usa o bonequinho Qin no lugar da pessoa e não usa o selo deles. Lembrete: o Egito 001 copiou só o panorama (sem pessoa) e teve CTR < 2%.
+- **6 Close dramático do mistério:** cena escura, porta de bronze do túmulo fechado com mercúrio prateado vazando, arqueólogo bonequinho recuando com tocha; "NUNCA ABERTO" (ouro + branco) + "2.200 ANOS". Escolhido por pagar o loop do vídeo ("ninguém abriu até hoje") e ser lacuna de informação pura; o escuro destoa do feed claro dos concorrentes. Estátuas de terracota saem com rosto semi-realista (são estátuas, aceitável, mas pequenas e na sombra).
+- **Registre aqui o vencedor e o CTR das 6 thumbs da China** (1–3 COROA × TURBANTE e 4–6) quando o Rodrigo ler no Studio.
+
 ## O que manter (vale até haver dado contra)
 - Texto **sempre composto no código** (`src/Thumbnail.jsx`), nunca escrito pela IA. Hoje: Libre Caslon 700 + Open Sans 800. [BRIEF.md 001; QA.md 001]
 - No máximo 2–3 palavras na arte, legíveis em 320×180; o resto vai no título. [estilo.md antigo]
