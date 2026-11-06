@@ -1,0 +1,9 @@
+[Unit]
+Description=Roda a rotina de palavras-chave da fábrica (Wed *-*-* 09:30:00)
+
+[Timer]
+OnCalendar=Wed *-*-* 09:30:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

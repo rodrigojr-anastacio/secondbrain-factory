@@ -1,0 +1,57 @@
+# Sementes da rotina semanal de palavras-chave (tools/keywords.py, quarta 09:30).
+# Edite à vontade. Cada semente vira 1 chamada de autocomplete do YouTube (grátis, via WARP);
+# as de "expandir" viram 27 (a semente + " a" … " z").
+# Idiomas da rotina (decisão do Rodrigo, 06/11/2026): en, es, pt, fr.
+#
+# destinos: palavras que puxam um termo para um canal nosso (só no idioma do canal).
+# O que não casa com nenhum canal vira candidato a "novo-canal" (se tiver cara de formato faceless).
+
+idiomas:
+  en:
+    expandir: ["entire history of", "the history of", "what if", "explained", "documentary", "how did", "why did", "the rise and fall of", "lore explained"]
+    simples: ["history of the", "in minutes", "every", "the dark history of", "the truth about"]
+  es:
+    expandir: ["historia de la", "historia del", "toda la historia de", "la historia completa de", "que pasaria si", "explicado", "documental"]
+    simples: ["historia de los", "en minutos", "la verdad sobre", "el origen de", "como funciona"]
+  pt:
+    expandir: ["história de", "história do", "história da", "a história inteira", "e se", "documentário", "explicado"]
+    simples: ["história dos", "em minutos", "a verdade sobre", "como surgiu", "a origem do"]
+  fr:
+    expandir: ["histoire de", "histoire du", "l'histoire complète", "et si", "documentaire", "expliqué"]
+    simples: ["histoire des", "en minutes", "la vérité sur", "terre du milieu", "seigneur des anneaux", "tolkien"]
+
+# Temas dos backlogs (atualize quando o backlog mudar). Sem expansão a–z, só a semente.
+backlog:
+  es: ["historia de la cia", "historia del mossad", "historia del fbi", "historia de la kgb", "historia de la cosa nostra",
+       "historia de los templarios", "historia de las ss", "historia de la gestapo", "cartel de medellin historia",
+       "operacion condor", "historia de la inquisicion", "historia de la masoneria", "historia de los jesuitas",
+       "historia de la stasi", "historia del mi6", "guerra fria historia"]
+  pt: ["história do egito", "história da índia", "história do irã", "história da china", "história de roma",
+       "história do japão", "história da rússia", "história da ucrânia", "império britânico", "história de jerusalém"]
+  fr: ["histoire de numenor", "nazgul", "moria", "sauron", "gandalf", "les elfes tolkien", "silmarillion"]
+
+destinos:
+  dossie-es:
+    idioma: es
+    # organizações: serviços secretos, polícias políticas, máfias, cartéis, ordens
+    palavras: [cia, kgb, fbi, mossad, gestapo, ss, stasi, mi6, nkvd, "servicio secreto", "servicios secretos", espia, espionaje,
+               mafia, "cosa nostra", camorra, ndrangheta, yakuza, triada, cartel, narco, templario, masoneria, masones, jesuita,
+               inquisicion, "orden de", "sociedad secreta", illuminati, "policia secreta", dina, "operacion condor", "legion extranjera",
+               "guerra fria", "agencia", "escuadron", "sicilian"]
+  historia-ptbr:
+    idioma: pt
+    # países, impérios, civilizações e cidades (história inteira contada)
+    palavras: [império, imperio, egito, índia, india, irã, ira, pérsia, persia, china, japão, roma, romano, grécia, grecia, rússia,
+               russia, ucrânia, ucrania, brasil, portugal, espanha, frança, inglaterra, alemanha, turquia, otomano, mongol, coreia,
+               méxico, asteca, inca, maia, israel, jerusalém, babilônia, mesopotâmia, civilização, país, países, reino, dinastia,
+               viking, cruzadas, "idade média", "segunda guerra", "primeira guerra", "guerra mundial"]
+    exigir_historia: true  # só conta se o termo também tiver "história"/"historia"
+  lotr-fr:
+    idioma: fr
+    palavras: [tolkien, "terre du milieu", "seigneur des anneaux", hobbit, silmarillion, numenor, númenor, sauron, gandalf, nazgul,
+               nazgûl, moria, balrog, elfe, elfes, mordor, gondor, rohan, aragorn, frodon, gollum, morgoth, valinor, valar, saroumane,
+               "anneau unique", "anneaux de pouvoir", isildur, "minas tirith", fondcombe, galadriel, legolas, smaug, orque, orques]
+
+# Moldes nossos: título que já usa "história inteira em N minutos" conta como concorrência no molde.
+moldes: ["in minutes", "en minutos", "em minutos", "en minutes", "entire history", "toda la historia", "historia completa",
+         "história inteira", "história completa", "histoire complète", "l'histoire complète", "whole history", "complete history"]

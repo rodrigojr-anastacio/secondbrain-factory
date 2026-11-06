@@ -16,11 +16,13 @@ fabrica-youtube/
 ├── playbooks/           ← procedimentos (siga-os; melhore-os)
 │   ├── produzir-video.md
 │   ├── garimpo-tendencias.md
+│   ├── palavras-chave.md (qua: termos em alta → sugestões)
 │   ├── revisar-metricas.md
 │   └── novo-canal.md    ← avaliar nicho e montar canal novo (skill novo-canal)
 ├── tools/               ← comandos determinísticos (Python em tools/.venv)
 │   ├── report.py  métricas e retenção (YouTube Data + Analytics API; sem CTR, que só existe no Studio)
 │   ├── trends.py  garimpo de canais novos com tração
+│   ├── keywords.py palavras-chave em alta (autocomplete via WARP + validação ≤ 2.500 un.) → youtube.palavras_chave
 │   ├── watch.py   "assiste" vídeos: hook transcrito, frames, ritmo, anúncios (via WARP)
 │   ├── transcrever.py transcrição Whisper de um vídeo do YouTube (via WARP)
 │   ├── tts_fish.py narração Fish Audio com a voz do canal; registra o custo em financas.consumo
@@ -36,7 +38,8 @@ fabrica-youtube/
 │   ├── backlog.md       ← fila de ideias com status
 │   └── videos/NNN-slug/ ← um projeto por vídeo (brief, roteiro, fontes, código Remotion, out/, QA)
 └── pesquisa/
-    ├── trend_seeds.txt, trends_state.json
+    ├── trend_seeds.txt, trends_state.json, keyword_seeds.yaml
+    ├── palavras-chave/  ← relatórios da rotina de palavras-chave
     └── tendencias/      ← relatórios do garimpo e assets/ dos vídeos assistidos
 ```
 Python: `~/workspace/fabrica-youtube/tools/.venv/bin/python`. Rode os scripts a partir de `tools/`.
@@ -67,12 +70,13 @@ Acesso local sem senha, como o usuário do sistema: `psql -d vida`, ou `tools/db
 | `metricas_canal`, `metricas_video` | snapshot diário dos nossos canais e vídeos | `report.py --coletar` (rotina diária) |
 | `garimpo_execucoes`, `garimpo_canais`, `garimpo_snapshots`, `garimpo_videos` | garimpo de tendências e histórico de crescimento | `trends.py` |
 | `assistidos` | vídeos analisados (hook, cortes por minuto, anúncios, assets) | `watch.py` |
+| `palavras_chave` | termos e padrões de busca por semana (data, idioma, termo, origem autocomplete/titulo, destino sugerido, mediana top-10, recentes > 100 mil, no molde, score, tendência novo/subindo/estavel/caindo); view `palavras_chave_ultima`; DDL em `tools/db/schema_palavras_chave.sql` | `keywords.py` |
 | view `garimpo_crescimento` | crescimento de views de cada canal garimpado entre execuções | — |
 | `execucoes_claude` | cada chamada do Claude Code: vídeo, etapa, modelo, sessão, duração, turnos, tokens, `custo_usd_equivalente`, erro e resumo do resultado (DDL em `tools/db/schema_execucoes_claude.sql`) | `tools/claude_run.py` |
 | view `custo_claude_por_video` | soma por vídeo e etapa (ignora `etapa = 'teste'` e as rotinas sem vídeo) | — |
 - Na análise do garimpo, grave a fórmula e a decisão em `garimpo_canais.formula` e `garimpo_canais.decisao` (investir | testar | descartar).
 - Arquivos continuam sendo a saída de mídia e texto longo. O banco é a fonte para consultas, histórico e números.
-- Rotinas (systemd user, independentes do Hermes; guia em `tools/rotinas/README.md`): `diaria.sh` (06:30, coleta + backup em `~/backups/vida`, 14 dias), `metricas.sh` (seg 08:15) e `tendencias.sh` (seg/qui 09:30). As duas últimas rodam `claude -p` via `claude_run.py` (etapas `metricas`/`tendencias`, sem vídeo), gravam em `~/workspace/relatorios/<rotina>/` e mandam o resumo no Telegram.
+- Rotinas (systemd user, independentes do Hermes; guia em `tools/rotinas/README.md`): `diaria.sh` (06:30, coleta + backup em `~/backups/vida`, 14 dias), `metricas.sh` (seg 08:15), `tendencias.sh` (seg/qui 09:30) e `palavras-chave.sh` (qua 09:30, `playbooks/palavras-chave.md`; só sugere, não edita backlog nem bíblia). As três últimas rodam `claude -p` via `claude_run.py` (etapas `metricas`/`tendencias`/`palavras-chave`, sem vídeo), gravam em `~/workspace/relatorios/<rotina>/` e mandam o resumo no Telegram.
 - Subagentes do Claude Code: `agentes-claude/` (`produtor`, `tendencias`, `metricas`); entrada em `CLAUDE.md`. Todos leem a bíblia do canal primeiro; a skill `qa` reprova vídeo que não segue a bíblia do canal.
 
 ## Custos

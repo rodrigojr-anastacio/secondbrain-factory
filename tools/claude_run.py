@@ -32,8 +32,8 @@ from db import conectar, tentar  # noqa: E402
 
 OPUS = {"roteiro", "storyboard", "roteiro-storyboard"}
 ETAPAS = ["pesquisa-referencia", "roteiro", "storyboard", "roteiro-storyboard", "producao", "voz", "imagens",
-          "montagem-render", "thumbnail", "pacote-youtube", "qa", "teste", "tendencias", "metricas"]
-SEM_VIDEO = {"teste", "tendencias", "metricas"}  # etapas que não pertencem a um vídeo
+          "montagem-render", "thumbnail", "pacote-youtube", "qa", "teste", "tendencias", "metricas", "palavras-chave"]
+SEM_VIDEO = {"teste", "tendencias", "metricas", "palavras-chave"}  # etapas que não pertencem a um vídeo
 LOCKS = os.path.expanduser(os.environ.get("FABRICA_LOCKS", "~/.cache/fabrica/locks"))
 
 

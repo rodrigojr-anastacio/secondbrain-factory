@@ -1,6 +1,6 @@
 #!/bin/bash
 # Roda uma rotina da fábrica pelo Claude Code (claude -p via tools/claude_run.sh), sem depender do Hermes.
-# Uso: _rotina_claude.sh <tendencias|metricas> [--teste] [--sem-telegram]
+# Uso: _rotina_claude.sh <tendencias|metricas|palavras-chave> [--teste] [--sem-telegram]
 # Saídas: ~/workspace/relatorios/<rotina>/<data>.md (relatório), <data>-resumo.txt (resumo executivo),
 #         logs/<rotina>-<data>.log; resumo entregue no Telegram (home channel do default) por `hermes send`,
 #         que usa o token do bot direto, sem LLM e sem gateway. Se o envio falhar, fica só o arquivo.
