@@ -1,0 +1,31 @@
+{
+ "hook-60s.mp3": {
+  "dur_s": 60.0,
+  "palavras": 155,
+  "ppm": 155,
+  "pausas_>=0.25s": 26,
+  "silencio_pct": 25,
+  "trechos": 22,
+  "repeticao_melodica": 0.11,
+  "queda_media_st": -2.01,
+  "f0_mediana_hz": 101.8,
+  "f0_desvio_st": 4.15,
+  "f0_faixa_p10_p90_st": 10.65
+ },
+ "hook.mp3": {
+  "dur_s": 75.9,
+  "palavras": 155,
+  "ppm": 123,
+  "pausas_>=0.25s": 32,
+  "silencio_pct": 25,
+  "trechos": 29,
+  "repeticao_melodica": 0.15,
+  "queda_media_st": -2.04,
+  "f0_mediana_hz": 102.3,
+  "f0_desvio_st": 4.04,
+  "f0_faixa_p10_p90_st": 10.51,
+  "whisper_pct": 93.4,
+  "tags_faladas": [],
+  "whisper": "China, 210 a.C.  O homem mais poderoso da Terra está morrendo,  e ele tem um plano para não morrer.  Ele unificou a China.  Agora, só quer uma coisa.  Viver para sempre.  Mandou navios atrás da ilha dos imortais.  Nunca voltaram.  Então, os médicos lideram pílulas de mercúrio.  Morreu aos 49 anos.  Tinha prometido uma dinastia de 10 mil gerações.  Ela durou 15 anos.  E o túmulo dele, guardado por um exército de barro,  ninguém abriu até hoje.  Essa é a história inteira da China.  O país que morreu mais vezes do que qualquer outro,  e sempre voltou.  Como?  No caminho.  Reis que faziam perguntas aos avós mortos.  A única mulher que reinou como imperador.  E o último imperador que virou jardineiro.  E tudo gira em torno de uma ideia.  O céu dá o direito de mandar.  E o céu pode tirar.  Guarde essa ideia.  E esse túmulo fechado."
+ }
+}

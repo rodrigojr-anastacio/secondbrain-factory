@@ -1,0 +1,596 @@
+[
+ {
+  "id": "N001",
+  "texto": "[serious] China, duzentos e dez antes de Cristo. O homem mais poderoso da Terra está morrendo… e ele tem um plano para não morrer.",
+  "tela": "[serious] China, duzentos e dez antes de Cristo. O homem mais poderoso da Terra está morrendo… e ele tem um plano para não morrer.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "Ele unificou a China. Agora, só quer uma coisa: viver para sempre.",
+  "tela": "Ele unificou a China. Agora, só quer uma coisa: viver para sempre.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "Mandou navios atrás da ilha dos imortais. Nunca voltaram. Então, os médicos lhe deram pílulas… de mercúrio.",
+  "tela": "Mandou navios atrás da ilha dos imortais. Nunca voltaram. Então, os médicos lhe deram pílulas… de mercúrio.",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "[amazed] Morreu aos quarenta e nove anos. Tinha prometido uma dinastia de dez mil gerações… ela durou quinze anos.",
+  "tela": "[amazed] Morreu aos quarenta e nove anos. Tinha prometido uma dinastia de dez mil gerações… ela durou quinze anos.",
+  "ideia": false
+ },
+ {
+  "id": "N005",
+  "texto": "E o túmulo dele, guardado por um exército de barro… ninguém abriu até hoje.",
+  "tela": "E o túmulo dele, guardado por um exército de barro… ninguém abriu até hoje.",
+  "ideia": false
+ },
+ {
+  "id": "N006",
+  "texto": "[serious] Essa é a história inteira da China: o país que morreu mais vezes do que qualquer outro… e sempre voltou. Como?",
+  "tela": "[serious] Essa é a história inteira da China: o país que morreu mais vezes do que qualquer outro… e sempre voltou. Como?",
+  "ideia": true
+ },
+ {
+  "id": "N007",
+  "texto": "No caminho: reis que faziam perguntas aos avós mortos, a única mulher que reinou como imperador… e o último imperador, que virou jardineiro.",
+  "tela": "No caminho: reis que faziam perguntas aos avós mortos, a única mulher que reinou como imperador… e o último imperador, que virou jardineiro.",
+  "ideia": false
+ },
+ {
+  "id": "N008",
+  "texto": "E tudo gira em torno de uma ideia: o Céu dá o direito de mandar… e o Céu pode tirar. Guarde essa ideia, e esse túmulo fechado.",
+  "tela": "E tudo gira em torno de uma ideia: o Céu dá o direito de mandar… e o Céu pode tirar. Guarde essa ideia, e esse túmulo fechado.",
+  "ideia": true
+ },
+ {
+  "id": "N009",
+  "texto": "Antes de qualquer imperador, havia um rio: o Amarelo, cor de barro, que dava a colheita… e afogava aldeias inteiras.",
+  "tela": "Antes de qualquer imperador, havia um rio: o Amarelo, cor de barro, que dava a colheita… e afogava aldeias inteiras.",
+  "ideia": false
+ },
+ {
+  "id": "N010",
+  "texto": "A lenda conta que um herói chamado Iú domou as enchentes e, por isso, ganhou o direito de reinar. Lenda ou não, a ideia ficou: quem doma as águas merece mandar.",
+  "tela": "A lenda conta que um herói chamado Yu domou as enchentes e, por isso, ganhou o direito de reinar. Lenda ou não, a ideia ficou: quem doma as águas merece mandar.",
+  "ideia": false
+ },
+ {
+  "id": "N011",
+  "texto": "A primeira dinastia que a gente consegue ler é a dos Xang. E o jeito de ler é estranho: ossos.",
+  "tela": "A primeira dinastia que a gente consegue ler é a dos Shang. E o jeito de ler é estranho: ossos.",
+  "ideia": true
+ },
+ {
+  "id": "N012",
+  "texto": "O rei queria saber se ia chover, se a colheita vinha, se a guerra dava certo. E perguntava… aos avós mortos.",
+  "tela": "O rei queria saber se ia chover, se a colheita vinha, se a guerra dava certo. E perguntava… aos avós mortos.",
+  "ideia": false
+ },
+ {
+  "id": "N013",
+  "texto": "Os adivinhos esquentavam um casco de tartaruga até ele rachar. O rei lia a rachadura, e a pergunta era gravada no próprio osso.",
+  "tela": "Os adivinhos esquentavam um casco de tartaruga até ele rachar. O rei lia a rachadura, e a pergunta era gravada no próprio osso.",
+  "ideia": false
+ },
+ {
+  "id": "N014",
+  "texto": "Três mil anos depois, em mil oitocentos e noventa e nove, farmácias de Pequim vendiam esses ossos moídos como remédio: ossos de dragão.",
+  "tela": "Três mil anos depois, em mil oitocentos e noventa e nove, farmácias de Pequim vendiam esses ossos moídos como remédio: ossos de dragão.",
+  "ideia": true
+ },
+ {
+  "id": "N015",
+  "texto": "Conta a história que um estudioso doente olhou o remédio… e viu escrita. A escrita mais antiga da China.",
+  "tela": "Conta a história que um estudioso doente olhou o remédio… e viu escrita. A escrita mais antiga da China.",
+  "ideia": false
+ },
+ {
+  "id": "N016",
+  "texto": "E ela nunca parou. Uma criança chinesa de hoje ainda reconhece alguns desses sinais. Guarde essa escrita.",
+  "tela": "E ela nunca parou. Uma criança chinesa de hoje ainda reconhece alguns desses sinais. Guarde essa escrita.",
+  "ideia": false
+ },
+ {
+  "id": "N017",
+  "texto": "Mas os Xang tinham um vizinho que queria o trono. E ele precisava de uma boa desculpa.",
+  "tela": "Mas os Shang tinham um vizinho que queria o trono. E ele precisava de uma boa desculpa.",
+  "ideia": false
+ },
+ {
+  "id": "N018",
+  "texto": "Por volta de mil e quarenta e seis antes de Cristo, os Djou derrubaram os Xang. Mas derrubar um rei à força faz de você… um ladrão.",
+  "tela": "Por volta de mil e quarenta e seis antes de Cristo, os Zhou derrubaram os Shang. Mas derrubar um rei à força faz de você… um ladrão.",
+  "ideia": false
+ },
+ {
+  "id": "N019",
+  "texto": "Então eles inventaram uma explicação genial: o Mandato do Céu. O Céu escolhe um governante justo. Quando ele fica cruel ou preguiçoso, o Céu muda de ideia.",
+  "tela": "Então eles inventaram uma explicação genial: o Mandato do Céu. O Céu escolhe um governante justo. Quando ele fica cruel ou preguiçoso, o Céu muda de ideia.",
+  "ideia": false
+ },
+ {
+  "id": "N020",
+  "texto": "E como saber? Pelos sinais: enchente, seca, fome… e revolta. Se tudo isso aparece, o Céu já foi embora.",
+  "tela": "E como saber? Pelos sinais: enchente, seca, fome… e revolta. Se tudo isso aparece, o Céu já foi embora.",
+  "ideia": false
+ },
+ {
+  "id": "N021",
+  "texto": "A ideia tinha uma brecha: quem ganhasse a guerra podia dizer que o Céu tinha mudado de lado. E todo mundo usou essa brecha, por três mil anos.",
+  "tela": "A ideia tinha uma brecha: quem ganhasse a guerra podia dizer que o Céu tinha mudado de lado. E todo mundo usou essa brecha, por três mil anos.",
+  "ideia": true
+ },
+ {
+  "id": "N022",
+  "texto": "Os Djou deixaram também o nome mais antigo da China, num vaso de bronze: Djong-guô, o país do meio.",
+  "tela": "Os Zhou deixaram também o nome mais antigo da China, num vaso de bronze: Zhongguo, o país do meio.",
+  "ideia": false
+ },
+ {
+  "id": "N023",
+  "texto": "Mas os Djou foram perdendo a força, e o reino se partiu em séculos de guerra.",
+  "tela": "Mas os Zhou foram perdendo a força, e o reino se partiu em séculos de guerra.",
+  "ideia": true
+ },
+ {
+  "id": "N024",
+  "texto": "No meio desse caos, Confúcio ensinava que a ordem começa no dever: filho com pai, súdito com rei… e rei com o povo.",
+  "tela": "No meio desse caos, Confúcio ensinava que a ordem começa no dever: filho com pai, súdito com rei… e rei com o povo.",
+  "ideia": false
+ },
+ {
+  "id": "N025",
+  "texto": "Os rivais foram se engolindo, até que o mais duro de todos resolveu acabar com a brincadeira.",
+  "tela": "Os rivais foram se engolindo, até que o mais duro de todos resolveu acabar com a brincadeira.",
+  "ideia": false
+ },
+ {
+  "id": "N026",
+  "texto": "Era o reino de Tchin. Em duzentos e vinte e um antes de Cristo, o rei Ing Djêng venceu o último rival e virou o Primeiro Imperador.",
+  "tela": "Era o reino de Qin. Em duzentos e vinte e um antes de Cristo, o rei Ying Zheng venceu o último rival e virou o Primeiro Imperador.",
+  "ideia": false
+ },
+ {
+  "id": "N027",
+  "texto": "É dele, provavelmente, que vem o nome China. Tchin.",
+  "tela": "É dele, provavelmente, que vem o nome China. Qin.",
+  "ideia": false
+ },
+ {
+  "id": "N028",
+  "texto": "E tratou a China como um sistema: uma só escrita, uma só moeda, os mesmos pesos, e até a mesma largura de eixo nas carroças.",
+  "tela": "E tratou a China como um sistema: uma só escrita, uma só moeda, os mesmos pesos, e até a mesma largura de eixo nas carroças.",
+  "ideia": true
+ },
+ {
+  "id": "N029",
+  "texto": "Ligou muralhas, abriu estradas… e queimou os livros de que não gostava.",
+  "tela": "Ligou muralhas, abriu estradas… e queimou os livros de que não gostava.",
+  "ideia": false
+ },
+ {
+  "id": "N030",
+  "texto": "Lembra do homem do começo? Ele tinha vencido todo mundo. Só faltava vencer a morte.",
+  "tela": "Lembra do homem do começo? Ele tinha vencido todo mundo. Só faltava vencer a morte.",
+  "ideia": true
+ },
+ {
+  "id": "N031",
+  "texto": "Morreu numa viagem. Os ministros esconderam a morte e, para disfarçar o cheiro do corpo, puseram uma carroça de peixe salgado junto da dele.",
+  "tela": "Morreu numa viagem. Os ministros esconderam a morte e, para disfarçar o cheiro do corpo, puseram uma carroça de peixe salgado junto da dele.",
+  "ideia": false
+ },
+ {
+  "id": "N032",
+  "texto": "Foi enterrado num túmulo que, segundo o historiador Sima Tchién, tinha rios de mercúrio. E isso pode não ser lenda: o solo em cima tem mercúrio muito acima do normal.",
+  "tela": "Foi enterrado num túmulo que, segundo o historiador Sima Qian, tinha rios de mercúrio. E isso pode não ser lenda: o solo em cima tem mercúrio muito acima do normal.",
+  "ideia": false
+ },
+ {
+  "id": "N033",
+  "texto": "O exército de barro só apareceu em mil novecentos e setenta e quatro, achado por camponeses cavando um poço.",
+  "tela": "O exército de barro só apareceu em mil novecentos e setenta e quatro, achado por camponeses cavando um poço.",
+  "ideia": true
+ },
+ {
+  "id": "N034",
+  "texto": "Mas o império não sobreviveu ao dono. Um ano depois, a China estava em revolta. O Céu… tinha mudado de ideia.",
+  "tela": "Mas o império não sobreviveu ao dono. Um ano depois, a China estava em revolta. O Céu… tinha mudado de ideia.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "Quem pegou o trono foi um homem de origem humilde, Liu Bang. Ele manteve a máquina de Tchin… mas tirou o chicote.",
+  "tela": "Quem pegou o trono foi um homem de origem humilde, Liu Bang. Ele manteve a máquina de Qin… mas tirou o chicote.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "Foi a dinastia Rran, que durou quatro séculos. Até hoje, a maioria dos chineses se chama de povo Rran.",
+  "tela": "Foi a dinastia Han, que durou quatro séculos. Até hoje, a maioria dos chineses se chama de povo Han.",
+  "ideia": false
+ },
+ {
+  "id": "N037",
+  "texto": "Os Rran mandaram um enviado para o oeste, e, dali, nasceram as rotas que a gente chama de Rota da Seda.",
+  "tela": "Os Han mandaram um enviado para o oeste, e, dali, nasceram as rotas que a gente chama de Rota da Seda.",
+  "ideia": true
+ },
+ {
+  "id": "N038",
+  "texto": "Roma enlouqueceu pela seda. E, por séculos, ninguém lá fora sabia como ela era feita: de um bichinho.",
+  "tela": "Roma enlouqueceu pela seda. E, por séculos, ninguém lá fora sabia como ela era feita: de um bichinho.",
+  "ideia": false
+ },
+ {
+  "id": "N039",
+  "texto": "Os Rran também transformaram o papel em algo para escrever. E, no ano dois, contaram cinquenta e sete milhões de pessoas.",
+  "tela": "Os Han também transformaram o papel em algo para escrever. E, no ano dois, contaram cinquenta e sete milhões de pessoas.",
+  "ideia": false
+ },
+ {
+  "id": "N040",
+  "texto": "Mas a corte foi apodrecendo por dentro. Os camponeses passavam fome, e, em cento e oitenta e quatro, uma revolta enorme levantou um grito.",
+  "tela": "Mas a corte foi apodrecendo por dentro. Os camponeses passavam fome, e, em cento e oitenta e quatro, uma revolta enorme levantou um grito.",
+  "ideia": true
+ },
+ {
+  "id": "N041",
+  "texto": "[slightly dramatic] O Céu azul está morto. Agora é a vez do Céu amarelo. Era o Mandato do Céu… usado contra o imperador.",
+  "tela": "[slightly dramatic] O Céu azul está morto. Agora é a vez do Céu amarelo. Era o Mandato do Céu… usado contra o imperador.",
+  "ideia": false
+ },
+ {
+  "id": "N042",
+  "texto": "Em duzentos e vinte, os Rran caíram, e a China se partiu em pedaços por quase quatro séculos.",
+  "tela": "Em duzentos e vinte, os Han caíram, e a China se partiu em pedaços por quase quatro séculos.",
+  "ideia": false
+ },
+ {
+  "id": "N043",
+  "texto": "E aqui está o segredo da China. Quando Roma se partiu no ocidente, ninguém juntou os pedaços de novo. Quando a China se partia… alguém sempre juntava.",
+  "tela": "E aqui está o segredo da China. Quando Roma se partiu no ocidente, ninguém juntou os pedaços de novo. Quando a China se partia… alguém sempre juntava.",
+  "ideia": false
+ },
+ {
+  "id": "N044",
+  "texto": "Porque a máquina sobrevivia às famílias: uma escrita que todos liam, a ideia de um só centro… e uma prova.",
+  "tela": "Porque a máquina sobrevivia às famílias: uma escrita que todos liam, a ideia de um só centro… e uma prova.",
+  "ideia": false
+ },
+ {
+  "id": "N045",
+  "texto": "Em quinhentos e oitenta e nove, a dinastia Suêi reuniu tudo, cavou o Grande Canal e começou a escolher funcionários por exame escrito.",
+  "tela": "Em quinhentos e oitenta e nove, a dinastia Sui reuniu tudo, cavou o Grande Canal e começou a escolher funcionários por exame escrito.",
+  "ideia": true
+ },
+ {
+  "id": "N046",
+  "texto": "Depois veio a dinastia Tang, e a capital, Tchang-an, virou talvez a maior cidade do mundo.",
+  "tela": "Depois veio a dinastia Tang, e a capital, Chang'an, virou talvez a maior cidade do mundo.",
+  "ideia": true
+ },
+ {
+  "id": "N047",
+  "texto": "E, nessa corte, uma concubina chamada Wu Dzê-tiên foi subindo, até mandar no império por trás do marido. Então fez o impensável.",
+  "tela": "E, nessa corte, uma concubina chamada Wu Zetian foi subindo, até mandar no império por trás do marido. Então fez o impensável.",
+  "ideia": false
+ },
+ {
+  "id": "N048",
+  "texto": "[amazed] Em seiscentos e noventa, ela mesma sentou no trono como imperador. Foi a única mulher a fazer isso na história da China.",
+  "tela": "[amazed] Em seiscentos e noventa, ela mesma sentou no trono como imperador. Foi a única mulher a fazer isso na história da China.",
+  "ideia": false
+ },
+ {
+  "id": "N049",
+  "texto": "E o Mandato do Céu? Ele nunca disse que precisava ser homem.",
+  "tela": "E o Mandato do Céu? Ele nunca disse que precisava ser homem.",
+  "ideia": false
+ },
+ {
+  "id": "N050",
+  "texto": "Mas, em setecentos e cinquenta e cinco, o general An Lu-xan se revoltou, e a dinastia Tang nunca mais foi a mesma.",
+  "tela": "Mas, em setecentos e cinquenta e cinco, o general An Lushan se revoltou, e a dinastia Tang nunca mais foi a mesma.",
+  "ideia": true
+ },
+ {
+  "id": "N051",
+  "texto": "Do caos saiu a dinastia Song, talvez a China mais inventiva de todas. As moedas de ferro eram tão pesadas que os mercadores trocavam recibos de papel.",
+  "tela": "Do caos saiu a dinastia Song, talvez a China mais inventiva de todas. As moedas de ferro eram tão pesadas que os mercadores trocavam recibos de papel.",
+  "ideia": false
+ },
+ {
+  "id": "N052",
+  "texto": "Em mil e vinte e quatro, o governo assumiu os recibos: era o primeiro papel-moeda oficial do mundo. Guarde esse papel.",
+  "tela": "Em mil e vinte e quatro, o governo assumiu os recibos: era o primeiro papel-moeda oficial do mundo. Guarde esse papel.",
+  "ideia": false
+ },
+ {
+  "id": "N053",
+  "texto": "Os Song deixaram ainda a fórmula mais antiga da pólvora, a bússola nos navios e os tipos móveis.",
+  "tela": "Os Song deixaram ainda a fórmula mais antiga da pólvora, a bússola nos navios e os tipos móveis.",
+  "ideia": true
+ },
+ {
+  "id": "N054",
+  "texto": "Mas era ruim de espada. E, no norte, os cavaleiros estavam olhando.",
+  "tela": "Mas era ruim de espada. E, no norte, os cavaleiros estavam olhando.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "Os mongóis de Gengis Khan começaram a guerra, e o neto dele, Kublai Khan, terminou: em mil duzentos e setenta e nove, a China inteira era mongol.",
+  "tela": "Os mongóis de Gengis Khan começaram a guerra, e o neto dele, Kublai Khan, terminou: em mil duzentos e setenta e nove, a China inteira era mongol.",
+  "ideia": true
+ },
+ {
+  "id": "N056",
+  "texto": "Kublai mudou a capital para a cidade que hoje chamamos de Pequim e deu ao governo um nome chinês. O conquistador também queria o Mandato do Céu.",
+  "tela": "Kublai mudou a capital para a cidade que hoje chamamos de Pequim e deu ao governo um nome chinês. O conquistador também queria o Mandato do Céu.",
+  "ideia": false
+ },
+ {
+  "id": "N057",
+  "texto": "Só que os mongóis imprimiram papel-moeda demais, e ele virou pó. E, em mil trezentos e quarenta e quatro, o rio Amarelo transbordou de novo.",
+  "tela": "Só que os mongóis imprimiram papel-moeda demais, e ele virou pó. E, em mil trezentos e quarenta e quatro, o rio Amarelo transbordou de novo.",
+  "ideia": false
+ },
+ {
+  "id": "N058",
+  "texto": "Os camponeses foram obrigados a refazer os diques, com fome. Enchente, fome, revolta… o Céu estava falando de novo.",
+  "tela": "Os camponeses foram obrigados a refazer os diques, com fome. Enchente, fome, revolta… o Céu estava falando de novo.",
+  "ideia": false
+ },
+ {
+  "id": "N059",
+  "texto": "Dessa revolta saiu um órfão que tinha sido monge mendigo, Dju Iuan-djang. Em mil trezentos e sessenta e oito, ele expulsou os mongóis e fundou a dinastia Ming.",
+  "tela": "Dessa revolta saiu um órfão que tinha sido monge mendigo, Zhu Yuanzhang. Em mil trezentos e sessenta e oito, ele expulsou os mongóis e fundou a dinastia Ming.",
+  "ideia": false
+ },
+ {
+  "id": "N060",
+  "texto": "De mendigo a Filho do Céu. Na China, isso era possível… desde que você vencesse.",
+  "tela": "De mendigo a Filho do Céu. Na China, isso era possível… desde que você vencesse.",
+  "ideia": false
+ },
+ {
+  "id": "N061",
+  "texto": "E os Ming pensaram grande. A partir de mil quatrocentos e cinco, o almirante Djêng Rrâ levou frotas enormes até a costa da África.",
+  "tela": "E os Ming pensaram grande. A partir de mil quatrocentos e cinco, o almirante Zheng He levou frotas enormes até a costa da África.",
+  "ideia": true
+ },
+ {
+  "id": "N062",
+  "texto": "Uns noventa anos antes de Cabral chegar ao Brasil. Voltaram até com uma girafa, que a corte achou que era um animal sagrado.",
+  "tela": "Uns noventa anos antes de Cabral chegar ao Brasil. Voltaram até com uma girafa, que a corte achou que era um animal sagrado.",
+  "ideia": false
+ },
+ {
+  "id": "N063",
+  "texto": "Então… as viagens pararam. A China, no auge, deu as costas para o oceano.",
+  "tela": "Então… as viagens pararam. A China, no auge, deu as costas para o oceano.",
+  "ideia": true
+ },
+ {
+  "id": "N064",
+  "texto": "Em vez de navios, muralhas: quase toda a Grande Muralha que se visita hoje é Ming. E não, ela não se vê do espaço a olho nu.",
+  "tela": "Em vez de navios, muralhas: quase toda a Grande Muralha que se visita hoje é Ming. E não, ela não se vê do espaço a olho nu.",
+  "ideia": false
+ },
+ {
+  "id": "N065",
+  "texto": "Mas muralha não para o clima. No século dezessete, uma pequena era do gelo trouxe frio e seca, e a fome encheu os exércitos rebeldes.",
+  "tela": "Mas muralha não para o clima. No século dezessete, uma pequena era do gelo trouxe frio e seca, e a fome encheu os exércitos rebeldes.",
+  "ideia": true
+ },
+ {
+  "id": "N066",
+  "texto": "Em mil seiscentos e quarenta e quatro, os rebeldes tomaram Pequim, e o último imperador Ming se enforcou numa colina atrás do palácio.",
+  "tela": "Em mil seiscentos e quarenta e quatro, os rebeldes tomaram Pequim, e o último imperador Ming se enforcou numa colina atrás do palácio.",
+  "ideia": false
+ },
+ {
+  "id": "N067",
+  "texto": "Seca, fome e revolta, tudo de uma vez. E, do norte, já vinha outro povo atrás do Mandato.",
+  "tela": "Seca, fome e revolta, tudo de uma vez. E, do norte, já vinha outro povo atrás do Mandato.",
+  "ideia": false
+ },
+ {
+  "id": "N068",
+  "texto": "Eram os manchus, que fundaram a última dinastia, a Tching. Todo homem teve de raspar a testa e usar trança… ou perder a cabeça.",
+  "tela": "Eram os manchus, que fundaram a última dinastia, a Qing. Todo homem teve de raspar a testa e usar trança… ou perder a cabeça.",
+  "ideia": false
+ },
+ {
+  "id": "N069",
+  "texto": "Por um tempo, a China Tching foi enorme e rica. O mundo queria chá, seda e porcelana, e pagava em prata.",
+  "tela": "Por um tempo, a China Qing foi enorme e rica. O mundo queria chá, seda e porcelana, e pagava em prata.",
+  "ideia": true
+ },
+ {
+  "id": "N070",
+  "texto": "A Grã-Bretanha cansou de perder prata e achou algo que os chineses comprariam: ópio.",
+  "tela": "A Grã-Bretanha cansou de perder prata e achou algo que os chineses comprariam: ópio.",
+  "ideia": false
+ },
+ {
+  "id": "N071",
+  "texto": "Em mil oitocentos e trinta e nove, a China destruiu mais de mil toneladas de ópio, e a Grã-Bretanha respondeu com canhoneiras.",
+  "tela": "Em mil oitocentos e trinta e nove, a China destruiu mais de mil toneladas de ópio, e a Grã-Bretanha respondeu com canhoneiras.",
+  "ideia": true
+ },
+ {
+  "id": "N072",
+  "texto": "A China perdeu e entregou Hong Kong. Os chineses chamam os cem anos seguintes de século da humilhação.",
+  "tela": "A China perdeu e entregou Hong Kong. Os chineses chamam os cem anos seguintes de século da humilhação.",
+  "ideia": false
+ },
+ {
+  "id": "N073",
+  "texto": "Então veio o pior, de dentro. Um homem reprovado nos exames imperiais teve visões e acordou certo de que era o irmão mais novo de Jesus.",
+  "tela": "Então veio o pior, de dentro. Um homem reprovado nos exames imperiais teve visões e acordou certo de que era o irmão mais novo de Jesus.",
+  "ideia": true
+ },
+ {
+  "id": "N074",
+  "texto": "Chamou o movimento de Reino Celestial da Grande Paz. Celestial: o Céu, de novo. A guerra durou catorze anos e matou de vinte a trinta milhões de pessoas.",
+  "tela": "Chamou o movimento de Reino Celestial da Grande Paz. Celestial: o Céu, de novo. A guerra durou catorze anos e matou de vinte a trinta milhões de pessoas.",
+  "ideia": false
+ },
+ {
+  "id": "N075",
+  "texto": "Em mil novecentos e onze, o Céu mudou de ideia pela última vez: veio a revolução. E o imperador era um menino, Pu-í, que tinha subido ao trono com dois anos.",
+  "tela": "Em mil novecentos e onze, o Céu mudou de ideia pela última vez: veio a revolução. E o imperador era um menino, Puyi, que tinha subido ao trono com dois anos.",
+  "ideia": true
+ },
+ {
+  "id": "N076",
+  "texto": "Em fevereiro de mil novecentos e doze, aos seis anos, ele abdicou. Dois mil anos de imperadores acabaram com uma criança. Guarde esse nome.",
+  "tela": "Em fevereiro de mil novecentos e doze, aos seis anos, ele abdicou. Dois mil anos de imperadores acabaram com uma criança. Guarde esse nome.",
+  "ideia": false
+ },
+ {
+  "id": "N077",
+  "texto": "Sem imperador, a república se desfez em senhores da guerra. E, em mil novecentos e trinta e sete, o Japão invadiu.",
+  "tela": "Sem imperador, a república se desfez em senhores da guerra. E, em mil novecentos e trinta e sete, o Japão invadiu.",
+  "ideia": false
+ },
+ {
+  "id": "N078",
+  "texto": "Em Nanquim, as tropas japonesas fizeram um massacre que a China calcula em trezentos mil mortos.",
+  "tela": "Em Nanquim, as tropas japonesas fizeram um massacre que a China calcula em trezentos mil mortos.",
+  "ideia": false
+ },
+ {
+  "id": "N079",
+  "texto": "Depois da guerra contra o Japão, nacionalistas e comunistas lutaram entre si.",
+  "tela": "Depois da guerra contra o Japão, nacionalistas e comunistas lutaram entre si.",
+  "ideia": true
+ },
+ {
+  "id": "N080",
+  "texto": "E, em mil novecentos e quarenta e nove, os comunistas de Mao venceram, e os nacionalistas fugiram para Taiwan.",
+  "tela": "E, em mil novecentos e quarenta e nove, os comunistas de Mao venceram, e os nacionalistas fugiram para Taiwan.",
+  "ideia": false
+ },
+ {
+  "id": "N081",
+  "texto": "Mao quis fazer do país uma potência industrial em poucos anos: o Grande Salto Adiante, com fornos de aço no quintal das casas.",
+  "tela": "Mao quis fazer do país uma potência industrial em poucos anos: o Grande Salto Adiante, com fornos de aço no quintal das casas.",
+  "ideia": false
+ },
+ {
+  "id": "N082",
+  "texto": "[serious] Veio a pior fome da história. As estimativas vão de quinze a cinquenta e cinco milhões de mortos.",
+  "tela": "[serious] Veio a pior fome da história. As estimativas vão de quinze a cinquenta e cinco milhões de mortos.",
+  "ideia": false
+ },
+ {
+  "id": "N083",
+  "texto": "E, em mil novecentos e cinquenta e nove, um prisioneiro foi perdoado e mandado trabalhar no Jardim Botânico de Pequim.",
+  "tela": "E, em mil novecentos e cinquenta e nove, um prisioneiro foi perdoado e mandado trabalhar no Jardim Botânico de Pequim.",
+  "ideia": true
+ },
+ {
+  "id": "N084",
+  "texto": "Era Pu-í. O último Filho do Céu agora era jardineiro.",
+  "tela": "Era Puyi. O último Filho do Céu agora era jardineiro.",
+  "ideia": false
+ },
+ {
+  "id": "N085",
+  "texto": "Depois vieram dez anos de Revolução Cultural, com escolas fechadas e alunos denunciando professores.",
+  "tela": "Depois vieram dez anos de Revolução Cultural, com escolas fechadas e alunos denunciando professores.",
+  "ideia": false
+ },
+ {
+  "id": "N086",
+  "texto": "Em mil novecentos e setenta e seis, um terremoto arrasou Tang-xan e matou, pelos números oficiais, duzentas e quarenta e duas mil pessoas.",
+  "tela": "Em mil novecentos e setenta e seis, um terremoto arrasou Tangshan e matou, pelos números oficiais, duzentas e quarenta e duas mil pessoas.",
+  "ideia": true
+ },
+ {
+  "id": "N087",
+  "texto": "Muita gente lembrou da ideia antiga: grandes desastres avisam que o Céu está mudando de ideia. Seis semanas depois… Mao morreu.",
+  "tela": "Muita gente lembrou da ideia antiga: grandes desastres avisam que o Céu está mudando de ideia. Seis semanas depois… Mao morreu.",
+  "ideia": false
+ },
+ {
+  "id": "N088",
+  "texto": "Quem assumiu foi Dâng Chiau-ping, o da frase famosa: não importa a cor do gato, desde que ele cace o rato.",
+  "tela": "Quem assumiu foi Deng Xiaoping, o da frase famosa: não importa a cor do gato, desde que ele cace o rato.",
+  "ideia": false
+ },
+ {
+  "id": "N089",
+  "texto": "Em mil novecentos e oitenta, uma cidade pequena ao lado de Hong Kong virou a primeira zona econômica especial: Xen-djen.",
+  "tela": "Em mil novecentos e oitenta, uma cidade pequena ao lado de Hong Kong virou a primeira zona econômica especial: Shenzhen.",
+  "ideia": false
+ },
+ {
+  "id": "N090",
+  "texto": "Hoje, Xen-djen tem quase dezoito milhões de pessoas, e a China foi de uns cinco para uns trinta por cento da indústria do mundo.",
+  "tela": "Hoje, Shenzhen tem quase dezoito milhões de pessoas, e a China foi de uns cinco para uns trinta por cento da indústria do mundo.",
+  "ideia": true
+ },
+ {
+  "id": "N091",
+  "texto": "Segundo o Banco Mundial, quase oitocentos milhões de chineses saíram da pobreza extrema em quarenta anos.",
+  "tela": "Segundo o Banco Mundial, quase oitocentos milhões de chineses saíram da pobreza extrema em quarenta anos.",
+  "ideia": false
+ },
+ {
+  "id": "N092",
+  "texto": "A política não abriu do mesmo jeito. Em mil novecentos e oitenta e nove, o exército tirou os manifestantes da Praça da Paz Celestial, e o número de mortos é disputado até hoje.",
+  "tela": "A política não abriu do mesmo jeito. Em mil novecentos e oitenta e nove, o exército tirou os manifestantes da Praça da Paz Celestial, e o número de mortos é disputado até hoje.",
+  "ideia": true
+ },
+ {
+  "id": "N093",
+  "texto": "Desde dois mil e doze, quem manda é Chi Djin-ping, que tirou o limite de mandatos.",
+  "tela": "Desde dois mil e doze, quem manda é Xi Jinping, que tirou o limite de mandatos.",
+  "ideia": false
+ },
+ {
+  "id": "N094",
+  "texto": "Hoje, a China fabrica a maior parte dos carros elétricos do planeta e trouxe amostras do lado oculto da Lua. Mas, em dois mil e vinte e cinco, nasceram só sete milhões e novecentos mil bebês, e o país encolheu pelo quarto ano seguido.",
+  "tela": "Hoje, a China fabrica a maior parte dos carros elétricos do planeta e trouxe amostras do lado oculto da Lua. Mas, em dois mil e vinte e cinco, nasceram só sete milhões e novecentos mil bebês, e o país encolheu pelo quarto ano seguido.",
+  "ideia": true
+ },
+ {
+  "id": "N095",
+  "texto": "[warm] E aquele túmulo? Continua fechado. Os arqueólogos preferem esperar: ninguém sabe preservar o que tem lá dentro… e tem o mercúrio.",
+  "tela": "[warm] E aquele túmulo? Continua fechado. Os arqueólogos preferem esperar: ninguém sabe preservar o que tem lá dentro… e tem o mercúrio.",
+  "ideia": true
+ },
+ {
+  "id": "N096",
+  "texto": "Tchin Chi Ruang queria viver para sempre, e não conseguiu. Prometeu dez mil gerações no trono, e teve quinze anos.",
+  "tela": "Qin Shi Huang queria viver para sempre, e não conseguiu. Prometeu dez mil gerações no trono, e teve quinze anos.",
+  "ideia": false
+ },
+ {
+  "id": "N097",
+  "texto": "Mas uma coisa dele sobreviveu: a ideia de uma China só, com uma escrita e um centro. As famílias passaram. A ideia ficou.",
+  "tela": "Mas uma coisa dele sobreviveu: a ideia de uma China só, com uma escrita e um centro. As famílias passaram. A ideia ficou.",
+  "ideia": false
+ },
+ {
+  "id": "N098",
+  "texto": "Hoje, ninguém fala em Mandato do Céu. Mas a pergunta continua a mesma de três mil anos atrás: o que acontece quando o Céu muda de ideia?",
+  "tela": "Hoje, ninguém fala em Mandato do Céu. Mas a pergunta continua a mesma de três mil anos atrás: o que acontece quando o Céu muda de ideia?",
+  "ideia": true
+ },
+ {
+  "id": "N099",
+  "texto": "E você? Se fosse você, abria o túmulo do Primeiro Imperador ou deixava fechado? Conta aqui nos comentários.",
+  "tela": "E você? Se fosse você, abria o túmulo do Primeiro Imperador ou deixava fechado? Conta aqui nos comentários.",
+  "ideia": false
+ }
+]
