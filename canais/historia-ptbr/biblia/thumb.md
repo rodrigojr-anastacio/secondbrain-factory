@@ -2,6 +2,13 @@
 
 Regra de canal: **prevalece** sobre `conhecimento/thumbnails/README.md` (regras gerais e o procedimento de arquivar a thumb no ar). As thumbs publicadas ficam na galeria `conhecimento/thumbnails/historia-ptbr-*.jpg`.
 
+## PADRÃO DE ENTREGA a partir do 005 (decisão do Rodrigo, 06/11/2026)
+Todo vídeo novo do historia-ptbr entrega **3 thumbs, uma em cada estilo**, para o "Testar e comparar" (modelo: `videos/004-china/entrega/thumbs-v2/` e `compose_v2.py`; detalhes de cada estilo na seção "Teste de 3 estilos" abaixo):
+1. **Bonecos:** bonequinho(s) de cabeça redonda grande(s) com emoção forte + objeto/cena-chave do hook, 1–2 palavras (pergunta ou conflito) + datas em pílula. O conflito cara a cara (COROA × TURBANTE) é uma das formas válidas deste estilo.
+2. **Pegada History in Minutes:** panorama claro com 4–6 marcos + nosso bonequinho grande em pé à esquerda com contorno de adesivo + NOME do país em serifa preta gigante e "ANO – 2026" no céu livre.
+3. **Terceiro estilo, diferente dos dois:** o que tiver mais chance de CTR para o tema (no 004: close dramático e escuro do mistério do vídeo, "NUNCA ABERTO"). Justifique a escolha em 2 linhas no `LEIA.md` das thumbs.
+Arquivos: `entrega/thumb-1-bonecos.jpg`, `thumb-2-him.jpg`, `thumb-3-<estilo>.jpg` + `LEIA.md`. Continua **Hipótese** até o CTR: quando o Rodrigo trouxer os números do Studio, registre o estilo vencedor aqui e ajuste o padrão.
+
 ## Estado em 04/11/2026: o padrão atual NÃO está funcionando
 - **CTR do Egito e da Índia abaixo de 2%** (Rodrigo, `~/workspace/referencias/BRIEF-historia-003-v2.md`, 04/11/2026; janela não informada). Os dois seguem o mesmo padrão (lugar panorâmico + nome gigante + datas). "O padrão precisa mudar."
 - Nenhuma das 3 thumbs do 003 v1 "gera curiosidade de clique" (mesma fonte).
