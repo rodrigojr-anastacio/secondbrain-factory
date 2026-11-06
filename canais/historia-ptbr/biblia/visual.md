@@ -37,3 +37,7 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md` (armadilhas d
 - O plano B, `google/nano-banana-2.1/edit` com 2 refs do canal (US$ 0,044/img), fica próximo.
 - O flux/dev, o ideogram, o z-image e o seedream 4 não servem para este canal.
 - **Decisão (05/11/2026):** o Rodrigo escolheu o nano-banana-2.1/edit + refs (acima). O flux/dev saiu do `canal.yaml`.
+
+## Identidade do canal (logo e capa), 06/11/2026
+- Em `../identidade/` (`LEIA.md`): 3 logos sem letras (bonequinho + ampulheta em fundo ouro é o recomendado; coroa + pergaminho; ampulheta com globo) e 2 capas 2560×1440 (desfile das eras com marcos no horizonte; livro aberto com o mundinho da história), título "HISTÓRIA EM MINUTOS" em placa de papiro + tagline em pílula ouro, tudo dentro da área segura 1546×423. Bases no `nano-banana-2.1/edit` + refs do canal, texto no código (`identidade/tools/compor.py`). US$ 0,56. Entregue no Drive (`Youtube/História em minutos/identidade/`). **Aguardando a escolha do Rodrigo**: registre aqui qual logo e qual capa foram ao ar.
+- Logo e capa usam a mesma linguagem das thumbs (ouro #F7C21B, Libre Caslon 700 + Open Sans 800, bonequinhos de cabeça redonda), nunca a do `dossie-es` (carimbos, pastas, tinta).
