@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fr" data-resolution="landscape">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <!-- Teste de motion "mapa em relevo 3D" (lotr-fr, 06/11/2026). Mundo 3D em shared/cena3d.js (o mesmo da versão Remotion). -->
+    <script src="vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: 'Anton'; src: url('fonts/Anton-Regular.ttf'); font-weight: 400; }
+      @font-face { font-family: 'PlexMono'; src: url('fonts/IBMPlexMono-Medium.ttf'); font-weight: 500; }
+      @font-face { font-family: 'PlexMono'; src: url('fonts/IBMPlexMono-Bold.ttf'); font-weight: 700; }
+      :root { --coral: #E8505B; --navy: #1F2A44; --branco: #FBF8F1; --tinta: #2B2622; --mono: 'PlexMono', monospace; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1920px; height: 1080px; overflow: hidden; background: #B9A47F; }
+      #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; }
+      .clip { position: absolute; inset: 0; }
+      #gl { width: 1920px; height: 1080px; display: block; }
+      #vinheta { background: radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 55%, rgba(40,25,10,0.38) 100%); pointer-events: none; }
+      #topo { position: absolute; top: 38px; left: 0; width: 100%; display: flex; flex-direction: column; align-items: center; }
+      #num { color: var(--coral); font-family: 'Anton'; font-size: 150px; line-height: 1; letter-spacing: 1px; display: flex; align-items: baseline; gap: 14px;
+        text-shadow: 0 4px 0 rgba(60,20,20,0.18), 0 10px 30px rgba(0,0,0,0.18); transform-origin: 50% 60%; }
+      #num .ap { font-size: 96px; } #num .un { font-size: 72px; }
+      #faixa { margin-top: 14px; background: var(--navy); color: var(--branco); font-family: var(--mono); font-weight: 700; font-size: 30px;
+        letter-spacing: 0.14em; padding: 10px 26px; border-radius: 6px; box-shadow: 0 6px 16px rgba(0,0,0,0.25); }
+      #cap { position: absolute; top: 42px; left: 48px; display: flex; align-items: center; gap: 12px; background: rgba(31,26,24,0.82);
+        padding: 9px 18px; border-radius: 6px; font-family: var(--mono); font-weight: 700; font-size: 20px; letter-spacing: 0.16em; color: var(--branco); }
+      #cap i { width: 11px; height: 11px; border-radius: 6px; background: var(--coral); display: inline-block; }
+      #leg { position: absolute; bottom: 150px; left: 0; width: 100%; display: flex; justify-content: center; }
+      #legbox { background: var(--branco); color: var(--tinta); font-family: var(--mono); font-weight: 500; font-size: 44px; padding: 12px 26px;
+        border-radius: 4px; box-shadow: 0 8px 24px rgba(0,0,0,0.28); display: flex; gap: 18px; align-items: center; transform: rotate(-0.6deg); }
+      #legbox span.w { border-bottom: 4px solid transparent; }
+      #legbox span.d { border-bottom-color: var(--coral); }
+      #cursor { width: 16px; height: 46px; background: var(--coral); margin-left: -12px; }
+      .rot { position: absolute; transform: translate(-50%, -50%); font-family: var(--mono); font-weight: 700; font-size: 21px; letter-spacing: 0.32em;
+        color: rgba(43,38,34,0.55); white-space: nowrap; }
+      .etq { position: absolute; left: 0; top: 0; background: var(--navy); color: var(--branco); font-family: var(--mono); padding: 7px 14px 8px; border-radius: 4px;
+        box-shadow: 0 6px 14px rgba(0,0,0,0.3); border-left: 5px solid var(--coral); white-space: nowrap; transform-origin: left bottom; }
+      .etq b { display: block; font-weight: 700; font-size: 25px; letter-spacing: 0.1em; }
+      .etq small { display: block; font-weight: 500; font-size: 17px; letter-spacing: 0.12em; opacity: 0.8; }
+      .etq-pos { position: absolute; left: 0; top: 0; }
+      .etq-pos .etq { position: relative; }
+      #fontes { position: absolute; bottom: 34px; left: 50%; transform: translateX(-50%); background: rgba(31,26,24,0.8); color: #E9DCC3; font-family: var(--mono);
+        font-weight: 500; font-size: 15px; letter-spacing: 0.12em; padding: 8px 18px; border-radius: 4px; white-space: nowrap; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="20" data-width="1920" data-height="1080" data-fps="30">
+      <canvas id="gl" class="clip" data-start="0" data-duration="20" data-track-index="0" width="1920" height="1080"></canvas>
+      <div id="camadas" class="clip" data-start="0" data-duration="20" data-track-index="1">
+        <div id="vinheta" class="clip"></div>
+        <div id="rotulos"></div>
+        <div id="etiquetas"></div>
+        <div id="topo"><div id="num"></div><div id="faixa"></div></div>
+        <div id="cap"><i></i><span id="capnome"></span></div>
+        <div id="leg"><div id="legbox"><span id="legtxt" style="display:flex;gap:18px"></span><span id="cursor"></span></div></div>
+        <div id="fontes"></div>
+      </div>
+      <audio id="vo" src="narracao.wav" data-start="0" data-duration="18.52" data-track-index="2"></audio>
+    </div>
+
+    <script type="module">
+      import * as THREE from './vendor/three.module.js';
+      import { criarMundo } from './shared/cena3d.js';
+      import { numeroEm, capituloEm, legendaEm } from './shared/camadas.js';
+      import cues from './shared/cues.json' with { type: 'json' };
+
+      // ---- 3D ----
+      const canvas = document.getElementById('gl');
+      const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true });
+      renderer.setPixelRatio(1);
+      renderer.setSize(1920, 1080, false);
+      const mundo = criarMundo(THREE, cues);
+      mundo.configurarRenderer(renderer);
+
+      // ---- camadas 2D estáticas ----
+      document.getElementById('fontes').textContent = 'SOURCES : ' + cues.fontes;
+      const rotulosEl = document.getElementById('rotulos');
+      const rotEls = cues.rotulos_mapa.map((r) => { const d = document.createElement('div'); d.className = 'rot'; d.textContent = r.nome; rotulosEl.appendChild(d); return d; });
+      const etqWrap = document.getElementById('etiquetas');
+      const etqEls = cues.pinos.map((p) => {
+        const pos = document.createElement('div'); pos.className = 'etq-pos';
+        const d = document.createElement('div'); d.className = 'etq'; d.innerHTML = `<b>${p.nome}</b><small>${p.sub}</small>`;
+        pos.appendChild(d); etqWrap.appendChild(pos); return { pos, d };
+      });
+      const numEl = document.getElementById('num'), faixaEl = document.getElementById('faixa'), capEl = document.getElementById('capnome');
+      const legTxt = document.getElementById('legtxt'), legBox = document.getElementById('legbox'), cursor = document.getElementById('cursor');
+      const capDot = document.querySelector('#cap i');
+
+      // ---- quadro t: 3D + textos que dependem do tempo ----
+      let ultimo = { num: '', faixa: '', cap: '', leg: '' };
+      function quadro(t) {
+        mundo.update(t);
+        renderer.render(mundo.scene, mundo.camera);
+        const pr = mundo.projetar(1920, 1080);
+        pr.rotulos.forEach((r, i) => { rotEls[i].style.left = r.x + 'px'; rotEls[i].style.top = r.y + 'px'; rotEls[i].style.display = r.ok ? '' : 'none'; rotEls[i].style.opacity = Math.min(1, t / 1.2); });
+        pr.pinos.forEach((q, i) => { etqEls[i].pos.style.transform = `translate(${q.x + 16}px, ${q.y - 18}px) translateY(-100%)`; etqEls[i].pos.style.display = q.ok ? '' : 'none'; });
+        const n = numeroEm(cues, t);
+        const numHtml = n ? `${n.aprox ? '<span class="ap">≈</span>' : ''}<span>${n.texto}</span>${n.unidade ? `<span class="un">${n.unidade.toUpperCase()}</span>` : ''}` : '';
+        if (numHtml !== ultimo.num) { numEl.innerHTML = numHtml; ultimo.num = numHtml; }
+        const fx = n ? n.faixa : '';
+        if (fx !== ultimo.faixa) { faixaEl.textContent = fx; faixaEl.style.visibility = fx ? 'visible' : 'hidden'; ultimo.faixa = fx; }
+        const c = capituloEm(cues, t).nome;
+        if (c !== ultimo.cap) { capEl.textContent = c; ultimo.cap = c; }
+        capDot.style.opacity = Math.floor(t * 2) % 2 ? 0.45 : 1;
+        const l = legendaEm(cues, t);
+        const lh = l && l.palavras.length ? l.palavras.map((p) => `<span class="w${p.destaque && p.completo ? ' d' : ''}">${p.texto}</span>`).join('') : '';
+        if (lh !== ultimo.leg) { legTxt.innerHTML = lh; ultimo.leg = lh; }
+        legBox.style.visibility = lh ? 'visible' : 'hidden';
+        cursor.style.opacity = Math.floor(t * 3.2) % 2 === 0 ? 1 : 0;
+      }
+
+      // ---- timeline GSAP (pausada; o runtime do Hyperframes faz o seek quadro a quadro) ----
+      const tl = gsap.timeline({ paused: true });
+      const relogio = { t: 0 };
+      tl.to(relogio, { t: cues.duracao, duration: cues.duracao, ease: 'none', onUpdate: () => quadro(relogio.t) }, 0);
+      const popIn = (alvo, t0, dur = 0.38, extra = {}) =>
+        tl.fromTo(alvo, { scale: 0 }, { scale: 1, duration: dur, ease: 'back.out(2.6)', immediateRender: false, ...extra }, t0);
+      // número e faixa: pop a cada troca
+      cues.numero.forEach((c, i) => {
+        if (!c.manter) popIn(numEl, c.t, 0.4);
+        popIn(faixaEl, Math.max(0, c.t - 0.05), 0.35);
+      });
+      gsap.set([numEl, faixaEl], { scale: 0 });
+      // aba de capítulo: desliza a cada troca
+      cues.capitulos.forEach((c) => tl.fromTo('#cap', { x: -30, opacity: 0.3 }, { x: 0, opacity: 1, duration: 0.3, ease: 'power2.out', immediateRender: false }, c.t));
+      // legenda: etiqueta "respira" a cada bloco
+      let blocoT = []; let novo = true;
+      cues.palavras.forEach((p) => { if (p === '|') { novo = true; return; } if (novo) { blocoT.push(p[1]); novo = false; } });
+      blocoT.forEach((t0) => tl.fromTo(legBox, { scale: 0.9 }, { scale: 1, duration: 0.25, ease: 'back.out(2)', immediateRender: false }, t0));
+      // etiquetas dos pinos: pop logo depois do pino cair
+      etqEls.forEach((e, i) => { gsap.set(e.d, { scale: 0 }); popIn(e.d, cues.pinos[i].t + 0.35, 0.35); });
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['main'] = tl;
+      tl.seek(0);
+      quadro(0);
+    </script>
+  </body>
+</html>
