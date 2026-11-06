@@ -70,7 +70,8 @@ Acesso local sem senha, como o usuário do sistema: `psql -d vida`, ou `tools/db
 | `metricas_canal`, `metricas_video` | snapshot diário dos nossos canais e vídeos | `report.py --coletar` (rotina diária) |
 | `garimpo_execucoes`, `garimpo_canais`, `garimpo_snapshots`, `garimpo_videos` | garimpo de tendências e histórico de crescimento | `trends.py` |
 | `assistidos` | vídeos analisados (hook, cortes por minuto, anúncios, assets) | `watch.py` |
-| `palavras_chave` | termos e padrões de busca por semana (data, idioma, termo, origem autocomplete/titulo, destino sugerido, mediana top-10, recentes > 100 mil, no molde, score, tendência novo/subindo/estavel/caindo); view `palavras_chave_ultima`; DDL em `tools/db/schema_palavras_chave.sql` | `keywords.py` |
+| `palavras_chave` | termos e padrões de busca por semana (data, idioma, termo, origem autocomplete/titulo, destino sugerido, mediana top-10, recentes > 100 mil, no molde, score, tendência novo/subindo/estavel/caindo; idade dos canais pelo 1º vídeo; origens `exploracao_*` do módulo de Exploração fora do nosso nicho); view `palavras_chave_ultima`; DDL em `tools/db/schema_palavras_chave.sql` | `keywords.py` |
+| `canais_idade` | cache do 1º vídeo público de cada canal (idade do canal = 1º vídeo, não criação; DDL em `tools/db/schema_palavras_chave.sql`) | `keywords.py` |
 | view `garimpo_crescimento` | crescimento de views de cada canal garimpado entre execuções | — |
 | `execucoes_claude` | cada chamada do Claude Code: vídeo, etapa, modelo, sessão, duração, turnos, tokens, `custo_usd_equivalente`, erro e resumo do resultado (DDL em `tools/db/schema_execucoes_claude.sql`) | `tools/claude_run.py` |
 | view `custo_claude_por_video` | soma por vídeo e etapa (ignora `etapa = 'teste'` e as rotinas sem vídeo) | — |

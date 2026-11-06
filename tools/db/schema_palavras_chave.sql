@@ -43,3 +43,32 @@ CREATE OR REPLACE VIEW palavras_chave_ultima AS
 SELECT * FROM palavras_chave
 WHERE data = (SELECT max(data) FROM palavras_chave)
 ORDER BY validado DESC, score DESC NULLS LAST;
+
+-- 2026-11-06 (2º acréscimo aprovado pelo Rodrigo): idade do canal = data do 1º vídeo público (não a criação do canal;
+-- muitos canais são criados anos antes de postar). Canal "novo" = 1º vídeo há < 90 dias. As colunas n_canais_novos,
+-- idade_mediana_meses, vpi_novos e porta_aberta passam a usar essa idade (até a 1ª execução de 06/11: criação do canal).
+ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS primeiro_video_em date;   -- 1º vídeo do canal MAIS NOVO do top-10
+ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS idade_fonte       text;   -- primeiro_video | criacao | misto (criacao = fallback por erro/teto)
+-- Módulo de Exploração (fora do nosso nicho): origens exploracao_alta (mostPopular/Google Trends), exploracao_semente
+-- (autocomplete das categorias rotativas), exploracao_outlier (vídeo de canal novo que estourou na busca de 30 dias).
+ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS categoria         text;   -- categoria da exploração (financas, espaco…) ou região (BR, US…)
+ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS janela_dias       int;    -- janela da validação: 365 (nossos canais) | 30 (exploração)
+ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS n_outliers        int;    -- vídeos de canal novo com ≥ 30 mil views e views/inscritos ≥ 3
+ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS efemero           boolean; -- notícia/evento efêmero (jogo, show, fofoca): não é nicho
+
+-- Cache da idade dos canais (o 1º vídeo não muda): evita repaginar playlistItems toda semana.
+CREATE TABLE IF NOT EXISTS canais_idade (
+  channel_id        text PRIMARY KEY,
+  titulo            text,
+  criado_em         date,          -- snippet.publishedAt do canal
+  primeiro_video_em date,          -- publishedAt mais antigo do playlist de uploads (NULL se não deu para paginar)
+  video_count       int,
+  inscritos         bigint,
+  idade_fonte       text,          -- primeiro_video | criacao | muitos_videos (> 200 vídeos: não é novo, não pagina)
+  atualizado_em     timestamptz NOT NULL DEFAULT now()
+);
+
+CREATE OR REPLACE VIEW palavras_chave_ultima AS
+SELECT * FROM palavras_chave
+WHERE data = (SELECT max(data) FROM palavras_chave)
+ORDER BY validado DESC, score DESC NULLS LAST;

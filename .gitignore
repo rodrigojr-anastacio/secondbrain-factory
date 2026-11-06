@@ -96,3 +96,6 @@ canais/*/videos/*/.claude/
 
 # Trava das tools de imagem (tools/_trava.py)
 .img.lock
+
+# --- palavras-chave: parte 1 intermediária (autocomplete bruto; o resultado final vai no <data>.json) ---
+pesquisa/palavras-chave/*-descoberta.json

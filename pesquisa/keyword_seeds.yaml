@@ -55,3 +55,130 @@ destinos:
 # Moldes nossos: título que já usa "história inteira em N minutos" conta como concorrência no molde.
 moldes: ["in minutes", "en minutos", "em minutos", "en minutes", "entire history", "toda la historia", "historia completa",
          "história inteira", "história completa", "histoire complète", "l'histoire complète", "whole history", "complete history"]
+
+# ---------- EXPLORAÇÃO (fora do nosso radar; aprovado pelo Rodrigo em 06/11/2026) ----------
+# Objetivo: achar nichos com potencial NO INÍCIO, fora do que já fazemos. Tudo aqui vira origem "exploracao_semente"
+# (autocomplete) e destino "novo-canal". As categorias GIRAM por semana: semana ISO % ciclos → bloco ativo
+# (16 categorias, 4 por semana = ciclo de 4 semanas). Os formatos abertos expandidos a–z giram em 2 metades.
+exploracao:
+  categorias_por_semana: 4
+  # formatos abertos por idioma: "expandir" gira por semana (metade par/ímpar), cada um vira 27 chamadas (a–z);
+  # "combinar" é prefixado a cada semente de categoria ("why" + "bitcoin").
+  formatos:
+    en:
+      expandir: ["how", "why", "what happened to", "the story of", "true story", "secrets of", "top 10", "what if"]
+      combinar: ["why", "how"]
+    es:
+      expandir: ["como", "por qué", "qué pasó con", "la historia de", "historia real", "secretos de", "top 10", "qué pasaría si"]
+      combinar: ["por qué", "cómo"]
+    pt:
+      expandir: ["como", "por que", "o que aconteceu com", "a história de", "história real", "segredos de", "top 10", "o que aconteceria se"]
+      combinar: ["por que", "como"]
+    fr:
+      expandir: ["comment", "pourquoi", "que s'est-il passé", "l'histoire de", "histoire vraie", "secrets de", "top 10", "et si"]
+      combinar: ["pourquoi", "comment"]
+  # ordem fixa: a semana ISO escolhe o bloco (0: 1–4, 1: 5–8, 2: 9–12, 3: 13–16)
+  categorias:
+    financas:
+      en: ["stock market", "billionaire", "economy collapse"]
+      es: ["bolsa de valores", "multimillonario", "crisis economica"]
+      pt: ["bolsa de valores", "bilionário", "crise econômica"]
+      fr: ["bourse", "milliardaire", "crise économique"]
+    tecnologia-ia:
+      en: ["artificial intelligence", "tech company", "computer"]
+      es: ["inteligencia artificial", "tecnologia", "computadora"]
+      pt: ["inteligência artificial", "tecnologia", "computador"]
+      fr: ["intelligence artificielle", "technologie", "ordinateur"]
+    ciencia:
+      en: ["science", "physics", "chemistry"]
+      es: ["ciencia", "fisica", "quimica"]
+      pt: ["ciência", "física", "química"]
+      fr: ["science", "physique", "chimie"]
+    true-crime:
+      en: ["true crime", "serial killer", "unsolved case"]
+      es: ["caso real", "asesino serial", "caso sin resolver"]
+      pt: ["caso real", "serial killer", "caso não resolvido"]
+      fr: ["affaire criminelle", "tueur en série", "affaire non résolue"]
+    biografias:
+      en: ["biography", "untold story of", "who was"]
+      es: ["biografia", "la historia no contada de", "quien fue"]
+      pt: ["biografia", "a história não contada de", "quem foi"]
+      fr: ["biographie", "l'histoire méconnue de", "qui était"]
+    marcas-negocios:
+      en: ["company", "brand", "business empire"]
+      es: ["empresa", "marca", "imperio empresarial"]
+      pt: ["empresa", "marca", "império empresarial"]
+      fr: ["entreprise", "marque", "empire"]
+    natureza-animais:
+      en: ["animals", "ocean", "nature"]
+      es: ["animales", "oceano", "naturaleza"]
+      pt: ["animais", "oceano", "natureza"]
+      fr: ["animaux", "océan", "nature"]
+    espaco:
+      en: ["space", "universe", "planet"]
+      es: ["espacio", "universo", "planeta"]
+      pt: ["espaço", "universo", "planeta"]
+      fr: ["espace", "univers", "planète"]
+    psicologia:
+      en: ["psychology", "human brain", "behavior"]
+      es: ["psicologia", "cerebro humano", "comportamiento"]
+      pt: ["psicologia", "cérebro humano", "comportamento"]
+      fr: ["psychologie", "cerveau humain", "comportement"]
+    curiosidades:
+      en: ["facts", "things you didn't know", "strangest"]
+      es: ["curiosidades", "datos curiosos", "lo mas raro"]
+      pt: ["curiosidades", "fatos", "o mais estranho"]
+      fr: ["anecdotes", "faits", "le plus étrange"]
+    esportes:
+      en: ["sports history", "greatest athlete", "olympics"]
+      es: ["historia del futbol", "mejor atleta", "olimpiadas"]
+      pt: ["história do futebol", "maior atleta", "olimpíadas"]
+      fr: ["histoire du football", "plus grand athlète", "jeux olympiques"]
+    games:
+      en: ["video game", "game lore", "gaming history"]
+      es: ["videojuego", "historia de los videojuegos", "lore"]
+      pt: ["videogame", "história dos games", "lore"]
+      fr: ["jeu vidéo", "histoire du jeu vidéo", "lore"]
+    geografia:
+      en: ["map", "countries", "borders"]
+      es: ["mapa", "paises", "fronteras"]
+      pt: ["mapa", "países", "fronteiras"]
+      fr: ["carte", "pays", "frontières"]
+    saude:
+      en: ["human body", "disease", "health"]
+      es: ["cuerpo humano", "enfermedad", "salud"]
+      pt: ["corpo humano", "doença", "saúde"]
+      fr: ["corps humain", "maladie", "santé"]
+    misterios:
+      en: ["mystery", "unexplained", "conspiracy"]
+      es: ["misterio", "sin explicacion", "conspiracion"]
+      pt: ["mistério", "sem explicação", "conspiração"]
+      fr: ["mystère", "inexpliqué", "complot"]
+    engenharia:
+      en: ["megaproject", "engineering", "construction"]
+      es: ["megaconstruccion", "ingenieria", "construccion"]
+      pt: ["megaconstrução", "engenharia", "construção"]
+      fr: ["mégaconstruction", "ingénierie", "construction"]
+  # não validar (continuam no banco/relatório): tutorial, música, receita — não são formato de canal faceless
+  lixo: ["how to", "como fazer", "como hacer", "cómo hacer", "comment faire", "como ganhar", "como ganar", "lyrics", "letra",
+         "song", "canción", "cancion", "música", "musica", "chanson", "paroles", "musique", "theme", "soundtrack", "ost", "bande annonce", "trailer", "receita", "receta", "recette", "karaoke",
+         "tutorial", "asmr", "minecraft", "roblox", "fortnite", "free fire", "tiktok", "shorts"]
+  # palavras vagas: tópico feito só delas não é assunto ("por que não", "a história da minha vida")
+  genericos: [porque, porqué, pourquoi, vida, vie, life, mundo, monde, world, gente, people, coisas, cosas, things, choses,
+              tudo, todo, everything, tout, nada, nothing, rien, mim, mine, moi, voce, you, ustedes, nous, isso, eso, this, ca,
+              dia, day, jour, ano, year, hoje, today, hoy, aujourd, agora, now, ahora, maintenant, amor, love, sexo, sex,
+              historia, history, histoire, story, francais, espanol, portugues, english, ingles, video, videos, youtube,
+              canal, channel, chaine, pessoa, persona, personne, homem, hombre, man, homme, mulher, mujer, woman, femme,
+              filme, pelicula, movie, film, serie, series, temporada, minha, meu, mi, my, mon, ma, sua, seu, tu, ton]
+  # Em alta agora: videos.list chart=mostPopular (1 un./página; só longos > 4 min) + Google Trends diário (RSS grátis).
+  regioes: {BR: pt, MX: es, ES: es, AR: es, US: en, FR: fr}
+  # categorias do YouTube que são quase sempre notícia efêmera (marcadas, não viram nicho): Música, Esportes, Notícias
+  categorias_efemeras: ["10", "17", "25"]
+  # n-gramas do mostPopular só destas categorias (o resto é gameplay/streamer/vlog, não formato faceless):
+  # 1 Filmes/animação, 2 Autos, 15 Animais, 19 Viagens, 26 Howto/estilo, 27 Educação, 28 Ciência e tecnologia
+  categorias_faceless: ["1", "2", "15", "19", "26", "27", "28"]
+  # palavras que marcam evento efêmero em título (jogo, show, fofoca): o termo é marcado efemero, não descartado
+  efemeros: [" vs ", " x ", "ao vivo", "en vivo", "live", "highlights", "melhores momentos", "resumen", "resumo", "trailer",
+             "official", "oficial", "clipe", "videoclip", "episode", "episodio", "episódio", "capitulo", "capítulo", "react",
+             "reação", "reaccion", "podcast", "entrevista", "interview", "gameplay", "en direct", "direct", "match", "partido",
+             "jogo", "gol", "goles", "but ", "temporada", "season", "novela", "bbb", "la casa de", "big brother"]
