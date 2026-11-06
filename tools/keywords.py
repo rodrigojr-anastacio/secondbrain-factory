@@ -38,7 +38,8 @@ PROXY = "127.0.0.1:40000"  # WARP (o YouTube bloqueia o IP da VPS)
 SEEDS = os.path.join(PESQUISA, "keyword_seeds.yaml")
 OUT = os.path.join(PESQUISA, "palavras-chave")
 GL = {"en": "US", "es": "MX", "pt": "BR", "fr": "FR"}
-CUSTO_SEARCH, CUSTO_VIDEOS = 100, 1
+CUSTO_SEARCH, CUSTO_VIDEOS, CUSTO_CANAIS = 100, 1, 1
+NOVO_DIAS = 365  # canal "novo" = menos de 12 meses
 
 STOP = {
     "en": "the a an of in on to and or is was were be for with how why what who when did does do you your it its this that "
@@ -290,7 +291,7 @@ def validar(yt, alvos, cfg, max_cota, hoje_dt, log):
     desde = (hoje_dt - dt.timedelta(days=365)).strftime("%Y-%m-%dT%H:%M:%SZ")
     moldes = [norm(m) for m in cfg.get("moldes", [])]
     for t in alvos:
-        if cota + CUSTO_SEARCH + CUSTO_VIDEOS > max_cota:
+        if cota + CUSTO_SEARCH + CUSTO_VIDEOS + CUSTO_CANAIS > max_cota:
             log.append(f"teto de cota ({max_cota}) atingido; {t['termo']!r} e os seguintes ficaram sem validação")
             break
         try:
@@ -329,16 +330,74 @@ def validar(yt, alvos, cfg, max_cota, hoje_dt, log):
         t["no_molde"] = sum(any(m in norm(x["titulo"]) for m in moldes) for x in lst)
         t["amostra"] = len(lst)
         t["fora_do_tema"] = fora
-        t["exemplos"] = [{k: x[k] for k in ("id", "titulo", "canal", "views", "publicado")} for x in lst[:3]]
+        cota += canais_do_top10(yt, t, lst[:10], hoje_dt, log)
+        t["exemplos"] = [{k: x[k] for k in ("id", "titulo", "canal", "views", "publicado", "canal_idade_meses", "canal_inscritos")
+                          if k in x} for x in lst[:3]]
     return cota, extras
+
+
+def canais_do_top10(yt, t, top, hoje_dt, log):
+    """Idade e tamanho dos canais do top-10 útil (channels.list, 1 unidade para até 50 ids). Devolve a cota gasta."""
+    ids = sorted({x["canal_id"] for x in top})
+    if not ids:
+        return 0
+    try:
+        chs = yt.channels().list(part="snippet,statistics", id=",".join(ids[:50])).execute().get("items", [])
+    except Exception as e:  # noqa: BLE001
+        log.append(f"channels.list de {t['termo']!r} falhou: {type(e).__name__}: {str(e)[:150]}")
+        return CUSTO_CANAIS
+    info = {}
+    for c in chs:
+        criado = dt.datetime.fromisoformat(c["snippet"]["publishedAt"].replace("Z", "+00:00"))
+        st = c["statistics"]
+        subs = None if st.get("hiddenSubscriberCount") else int(st.get("subscriberCount", 0) or 0)
+        info[c["id"]] = {"dias": (hoje_dt - criado).days, "subs": subs}
+    for x in top:
+        i = info.get(x["canal_id"])
+        if i:
+            x["canal_idade_meses"] = round(i["dias"] / 30.4, 1)
+            x["canal_inscritos"] = i["subs"]
+    idades = [i["dias"] / 30.4 for i in info.values()]
+    subs = [i["subs"] for i in info.values() if i["subs"] is not None]
+    novos = {cid for cid, i in info.items() if i["dias"] < NOVO_DIAS}
+    vpi = [x["views"] / max(x["canal_inscritos"], 1) for x in top
+           if x["canal_id"] in novos and x.get("canal_inscritos") is not None]
+    t["canais_top10"] = len(info)
+    t["n_canais_novos"] = len(novos)
+    t["idade_mediana_meses"] = round(statistics.median(idades), 1) if idades else None
+    t["inscritos_mediana"] = int(statistics.median(subs)) if subs else None
+    t["vpi_novos"] = round(statistics.median(vpi), 2) if vpi else None
+    # PORTA ABERTA: um canal < 12 meses no top-10 com vídeo de ≥ 50 mil views e ≥ metade da mediana do termo
+    corte = max(50_000, 0.5 * (t.get("mediana_top10") or 0))
+    t["porta_aberta"] = any(x["canal_id"] in novos and x["views"] >= corte for x in top)
+    t["novos_exemplos"] = [{"titulo": x["titulo"], "canal": x["canal"], "views": x["views"],
+                            "canal_idade_meses": x.get("canal_idade_meses"), "canal_inscritos": x.get("canal_inscritos")}
+                           for x in top if x["canal_id"] in novos][:3]
+    return CUSTO_CANAIS
+
+
+def bonus_canais(t):
+    """Porta de entrada (dados de canais do top-10; 0 se não houver):
+    + 4 por canal novo (< 12 meses, máx. 3 → 12) + 4·log10(1 + views/inscritos dos vídeos de canais novos) (VPI 10 → 4,2;
+    100 → 8) + 5 se PORTA ABERTA; − se nenhum canal novo: idade mediana em anos (máx. 10) + 2·log10(inscritos medianos/100 mil)
+    quando a mediana passa de 100 mil (1 mi → 2; 10 mi → 4)."""
+    if t.get("canais_top10") is None:
+        return 0.0
+    b = 4 * min(t["n_canais_novos"] or 0, 3) + 4 * math.log10(1 + float(t["vpi_novos"] or 0)) + (5 if t["porta_aberta"] else 0)
+    if not t["n_canais_novos"]:
+        b -= min(float(t["idade_mediana_meses"] or 0) / 12, 10)
+        if (t["inscritos_mediana"] or 0) > 100_000:
+            b -= 2 * math.log10(t["inscritos_mediana"] / 100_000)
+    return b
 
 
 def pontuar(t):
     """Validado: demanda (10·log10 mediana) + tração (4 por vídeo recente > 100 mil, máx. 10) − concorrência no molde
-    (3 por vídeo, máx. 5) + descoberta (0–10). Não validado: só a descoberta (0–10)."""
+    (3 por vídeo, máx. 5) + descoberta (0–10) + bonus_canais (idade/tamanho dos canais do top-10).
+    Não validado: só a descoberta (0–10)."""
     if t.get("validado"):
         return round(10 * math.log10(1 + t["mediana_top10"]) + 4 * min(t["recentes_100k"], 10)
-                     - 3 * min(t["no_molde"], 5) + t["score_descoberta"], 2)
+                     - 3 * min(t["no_molde"], 5) + t["score_descoberta"] + bonus_canais(t), 2)
     return t["score_descoberta"]
 
 
@@ -374,17 +433,21 @@ def gravar(itens, hoje):
         for t in itens:
             con.execute(
                 "INSERT INTO palavras_chave (data, idioma, termo, origem, destino, aparicoes, melhor_posicao, score_descoberta,"
-                " validado, mediana_top10, recentes_100k, no_molde, amostra, exemplos, score, tendencia)"
-                " VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+                " validado, mediana_top10, recentes_100k, no_molde, amostra, exemplos, score, tendencia,"
+                " canais_top10, n_canais_novos, idade_mediana_meses, inscritos_mediana, vpi_novos, porta_aberta)"
+                " VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
                 " ON CONFLICT (data, idioma, termo, origem) DO UPDATE SET destino=EXCLUDED.destino, aparicoes=EXCLUDED.aparicoes,"
                 " melhor_posicao=EXCLUDED.melhor_posicao, score_descoberta=EXCLUDED.score_descoberta, validado=EXCLUDED.validado,"
                 " mediana_top10=EXCLUDED.mediana_top10, recentes_100k=EXCLUDED.recentes_100k, no_molde=EXCLUDED.no_molde,"
                 " amostra=EXCLUDED.amostra, exemplos=EXCLUDED.exemplos, score=EXCLUDED.score, tendencia=EXCLUDED.tendencia,"
-                " criado_em=now()",
+                " canais_top10=EXCLUDED.canais_top10, n_canais_novos=EXCLUDED.n_canais_novos,"
+                " idade_mediana_meses=EXCLUDED.idade_mediana_meses, inscritos_mediana=EXCLUDED.inscritos_mediana,"
+                " vpi_novos=EXCLUDED.vpi_novos, porta_aberta=EXCLUDED.porta_aberta, criado_em=now()",
                 (hoje, t["idioma"], t["termo"], t["origem"], t["destino"], t["aparicoes"], t.get("melhor_posicao"),
                  t["score_descoberta"], t.get("validado", False), t.get("mediana_top10"), t.get("recentes_100k"),
                  t.get("no_molde"), t.get("amostra"), Jsonb(t["exemplos"]) if t.get("exemplos") else None, t["score"],
-                 t["tendencia"]))
+                 t["tendencia"], t.get("canais_top10"), t.get("n_canais_novos"), t.get("idade_mediana_meses"),
+                 t.get("inscritos_mediana"), t.get("vpi_novos"), t.get("porta_aberta")))
     return len(itens)
 
 
@@ -402,13 +465,26 @@ def escrever_md(path, r):
         L.append(f"- ⚠ {l}")
     itens = r["itens"]
     L += ["", "## Termos validados (YouTube Data API: 50 mais vistos dos últimos 12 meses (order=viewCount), só vídeos longos com as palavras do termo no título e no idioma)", "",
-          "| Destino | Idioma | Termo | Med. top-10 | Recentes >100 mil (<90 d) | No molde | Score | Tendência | Top vídeo |",
-          "|---|---|---|---|---|---|---|---|---|"]
+          "Canais = do top-10 útil: novos (< 12 meses)/total, idade mediana em meses, inscritos medianos; VPI = mediana de "
+          "views/inscritos dos vídeos de canais novos (alto = o algoritmo entrega para não inscritos).", "",
+          "| Destino | Idioma | Termo | Med. top-10 | Recentes >100 mil (<90 d) | No molde | Canais novos | Idade med. (meses) | Inscritos med. | VPI novos | Porta | Score | Tendência | Top vídeo |",
+          "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for t in sorted((t for t in itens if t.get("validado")), key=lambda t: (t["destino"], -t["score"])):
         ex = t["exemplos"][0] if t.get("exemplos") else None
         top = f"{ex['titulo'][:60]} ({fmt(ex['views'])}, {ex['canal'][:25]})" if ex else "—"
         L.append(f"| {t['destino']} | {t['idioma']} | {t['termo']} | {fmt(t['mediana_top10'])} | {t['recentes_100k']} | "
-                 f"{t['no_molde']}/{t['amostra']} | {t['score']} | {t['tendencia']} | {top.replace('|', '/')} |")
+                 f"{t['no_molde']}/{t['amostra']} | "
+                 + (f"{t['n_canais_novos']}/{t['canais_top10']} | {t['idade_mediana_meses']} | {fmt(t['inscritos_mediana'])} | "
+                    f"{t['vpi_novos'] if t['vpi_novos'] is not None else '—'} | {'**PORTA ABERTA**' if t['porta_aberta'] else '—'} | "
+                    if t.get("canais_top10") is not None else "— | — | — | — | — | ")
+                 + f"{t['score']} | {t['tendencia']} | {top.replace('|', '/')} |")
+    portas = [t for t in itens if t.get("porta_aberta")]
+    if portas:
+        L += ["", "**PORTA ABERTA** (canal < 12 meses no top-10 com vídeo ≥ 50 mil views e ≥ metade da mediana):", ""]
+        for t in sorted(portas, key=lambda t: -t["score"]):
+            ex = "; ".join(f"{e['canal'][:30]} ({e['canal_idade_meses']} meses, {fmt(e['canal_inscritos'])} inscritos): "
+                           f"{e['titulo'][:50]} ({fmt(e['views'])})" for e in t.get("novos_exemplos", []))
+            L.append(f"- {t['destino']} · {t['idioma']} · **{t['termo']}**: {ex.replace('|', '/')}")
     L += ["", "## Autocomplete por destino (top 15, não validados)", ""]
     for dest in ("dossie-es", "historia-ptbr", "lotr-fr", "novo-canal"):
         xs = sorted((t for t in itens if t["destino"] == dest and t["origem"] == "autocomplete" and not t.get("validado")),
@@ -434,6 +510,9 @@ def main():
     ap.add_argument("--sem-validar", action="store_true")
     ap.add_argument("--sem-banco", action="store_true")
     ap.add_argument("--seeds", default=SEEDS)
+    ap.add_argument("--reusar", metavar="JSON", help="reaproveita a descoberta (autocomplete) e a validação de um .json "
+                    "desta rotina; só revalida (com canais) os --termos melhores que ainda não têm dados de canais, "
+                    "pulando os que deram amostra 0")
     a = ap.parse_args()
     if a.teste:
         a.termos, a.max_cota, a.sem_banco = min(a.termos, 3), min(a.max_cota, 3 * (CUSTO_SEARCH + CUSTO_VIDEOS)), True
@@ -443,15 +522,32 @@ def main():
     avisos = []
     t0 = time.time()
 
-    termos, chamadas, falhas = descobrir(cfg, a.teste, avisos)
-    itens = list(termos.values())
-    for t in itens:
-        t["destino"] = destino(t["idioma"], t["termo"], cfg)
-    normalizar_score(itens)
+    if a.reusar:
+        velho = json.load(open(a.reusar))
+        itens = [t for t in velho["itens"] if t["origem"] == "autocomplete"]
+        termos, chamadas, falhas = {(t["idioma"], t["termo"]): t for t in itens}, 0, []
+        avisos.append(f"descoberta reaproveitada de {os.path.basename(a.reusar)} ({len(itens)} termos; 0 chamadas de autocomplete)")
+    else:
+        termos, chamadas, falhas = descobrir(cfg, a.teste, avisos)
+        itens = list(termos.values())
+        for t in itens:
+            t["destino"] = destino(t["idioma"], t["termo"], cfg)
+        normalizar_score(itens)
 
     cota, extras = 0, {}
     if not a.sem_validar:
-        alvos = escolher_para_validar(itens, cfg, a.termos)
+        if a.reusar:  # só os já validados sem dados de canais, melhores primeiro, sem os de amostra 0
+            fila = defaultdict(list)
+            for t in sorted((t for t in itens if t.get("validado") and t.get("amostra") and t.get("canais_top10") is None),
+                            key=lambda t: -(t.get("score") or 0)):
+                fila[t["destino"]].append(t)
+            alvos = []  # rodízio entre destinos para não deixar um canal sem dado
+            while len(alvos) < a.termos and any(fila.values()):
+                for d in ("dossie-es", "historia-ptbr", "lotr-fr", "novo-canal"):
+                    if fila[d] and len(alvos) < a.termos:
+                        alvos.append(fila[d].pop(0))
+        else:
+            alvos = escolher_para_validar(itens, cfg, a.termos)
         try:
             cota, extras = validar(yt_client(), alvos, cfg, a.max_cota, agora, avisos)
         except Exception as e:  # noqa: BLE001
