@@ -39,7 +39,7 @@ SEEDS = os.path.join(PESQUISA, "keyword_seeds.yaml")
 OUT = os.path.join(PESQUISA, "palavras-chave")
 GL = {"en": "US", "es": "MX", "pt": "BR", "fr": "FR"}
 CUSTO_SEARCH, CUSTO_VIDEOS, CUSTO_CANAIS = 100, 1, 1
-NOVO_DIAS = 365  # canal "novo" = menos de 12 meses
+NOVO_DIAS = 90  # canal "novo" = menos de 90 dias (Rodrigo, 06/11/2026; era 12 meses)
 
 STOP = {
     "en": "the a an of in on to and or is was were be for with how why what who when did does do you your it its this that "
@@ -367,7 +367,7 @@ def canais_do_top10(yt, t, top, hoje_dt, log):
     t["idade_mediana_meses"] = round(statistics.median(idades), 1) if idades else None
     t["inscritos_mediana"] = int(statistics.median(subs)) if subs else None
     t["vpi_novos"] = round(statistics.median(vpi), 2) if vpi else None
-    # PORTA ABERTA: um canal < 12 meses no top-10 com vídeo de ≥ 50 mil views e ≥ metade da mediana do termo
+    # PORTA ABERTA: um canal < 90 dias no top-10 com vídeo de ≥ 50 mil views e ≥ metade da mediana do termo
     corte = max(50_000, 0.5 * (t.get("mediana_top10") or 0))
     t["porta_aberta"] = any(x["canal_id"] in novos and x["views"] >= corte for x in top)
     t["novos_exemplos"] = [{"titulo": x["titulo"], "canal": x["canal"], "views": x["views"],

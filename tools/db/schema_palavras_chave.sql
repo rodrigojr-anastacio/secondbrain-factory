@@ -32,11 +32,11 @@ CREATE INDEX IF NOT EXISTS palavras_chave_data ON palavras_chave (data DESC);
 -- 2026-11-06 (acréscimo aprovado pelo Rodrigo): idade e tamanho dos canais que dominam cada termo.
 -- Calculado sobre os canais do top-10 útil (channels.list, 1 unidade por termo).
 ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS canais_top10        int;           -- canais distintos no top-10
-ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS n_canais_novos      int;           -- canais com < 12 meses
+ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS n_canais_novos      int;           -- canais com < 90 dias (até 06/11/2026: < 12 meses)
 ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS idade_mediana_meses numeric(6,1);  -- idade mediana dos canais
 ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS inscritos_mediana   bigint;        -- inscritos medianos dos canais
 ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS vpi_novos           numeric(10,2); -- mediana de views/inscritos dos vídeos de canais novos
-ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS porta_aberta        boolean;       -- canal < 12 meses no top-10 com bom desempenho
+ALTER TABLE palavras_chave ADD COLUMN IF NOT EXISTS porta_aberta        boolean;       -- canal < 90 dias no top-10 com bom desempenho
 
 -- Última execução, melhores primeiro (depois dos ALTERs, para o * pegar as colunas novas)
 CREATE OR REPLACE VIEW palavras_chave_ultima AS
