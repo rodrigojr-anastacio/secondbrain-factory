@@ -5,6 +5,7 @@ Regra de canal: **prevalece** sobre `conhecimento/titulos.md`.
 ## Fórmula
 - **"TODA la historia de <la organización> en N minutos"**: TODA em caixa alta; N = duração real arredondada; X com 1–3 palavras, de preferência **sigla famosa** (CIA, KGB, FBI). [canal.yaml; estilo.md de 04/11]
 - Título B para o "Testar e comparar": "La historia COMPLETA de X en N minutos".
+- **Termo com mais demanda, medido (004, 05/11/2026):** entre os vídeos de história em es (busca yt-dlp, 6 consultas, sem músicas/filmes), "Cosa Nostra" aparece em 24 títulos (mediana top-10 ~451 mil), "Mafia italiana" em 13 (~259 mil) e "Mafia siciliana" em 4 (~90 mil). Para temas com vários nomes, meça assim antes de escolher X.
 - Em es, o molde aparece como "TODA la Historia de X en N Minutos" ou "La HISTORIA COMPLETA de X", às vezes com subtítulo ("| El Servicio Secreto Más Temido del Mundo"). [LEVANTAMENTO §2a, O]
 
 ## O que performa (Archive in Minutes, en, 2026-11-04)
