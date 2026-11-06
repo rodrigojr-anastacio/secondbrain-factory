@@ -1,20 +1,22 @@
 {
  "data": "2026-11-06",
  "teste": false,
- "gerado_em": "2026-11-06T14:43:56.950144+00:00",
- "segundos": 575,
- "chamadas_autocomplete": 837,
+ "gerado_em": "2026-11-06T14:58:08.291955+00:00",
+ "segundos": 12,
+ "chamadas_autocomplete": 0,
  "falhas_autocomplete": [],
- "cota_gasta": 2020,
- "max_cota": 2500,
+ "cota_gasta": 1323,
+ "max_cota": 1326,
  "n_autocomplete": 10300,
- "n_titulo": 61,
- "titulos_corpus": 370,
+ "n_titulo": 45,
+ "titulos_corpus": 286,
  "garimpo": "2026-11-05.json",
  "n_validados": 20,
  "anterior": null,
- "gravados_no_banco": 10361,
- "avisos": [],
+ "gravados_no_banco": 10345,
+ "avisos": [
+  "descoberta reaproveitada de pc-2026-11-06-v2.json (10300 termos; 0 chamadas de autocomplete)"
+ ],
  "sumiram": [],
  "itens": [
   {
@@ -27,77 +29,71 @@
    "destino": "novo-canal",
    "score_descoberta": 9.8,
    "validado": true,
-   "mediana_top10": 4881192,
-   "recentes_100k": 4,
+   "mediana_top10": 4881212,
+   "recentes_100k": 3,
    "no_molde": 0,
-   "amostra": 48,
-   "fora_do_tema": 2,
+   "amostra": 46,
+   "fora_do_tema": 4,
    "exemplos": [
     {
      "id": "cS8-iux7F5k",
      "titulo": "Every Reality Glitch You Can't Explain",
      "canal": "Brainosophy",
      "views": 6561579,
-     "publicado": "2026-05-31"
+     "publicado": "2026-05-31",
+     "canal_idade_meses": 7.0,
+     "canal_inscritos": 51700
     },
     {
      "id": "1XkbjQxA6BY",
      "titulo": "Every Greeking Out: Minute Myths ⏱️🏺 | Nat Geo Kids",
      "canal": "Nat Geo Kids",
-     "views": 6356363,
-     "publicado": "2025-12-05"
+     "views": 6356408,
+     "publicado": "2025-12-05",
+     "canal_idade_meses": 143.7,
+     "canal_inscritos": 2100000
     },
     {
      "id": "I_pDKWIpQ1U",
      "titulo": "Every Mental Disorder & Their Effects Explained",
      "canal": "EverythingProfessor",
-     "views": 6030053,
-     "publicado": "2025-12-22"
+     "views": 6030122,
+     "publicado": "2025-12-22",
+     "canal_idade_meses": 22.1,
+     "canal_inscritos": 703000
     }
    ],
-   "score": 92.69,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "pt",
-   "termo": "história do brasil",
-   "origem": "autocomplete",
-   "aparicoes": 2,
-   "melhor_posicao": 1,
-   "bruto": 3.0,
-   "destino": "historia-ptbr",
-   "score_descoberta": 7.81,
-   "validado": true,
-   "mediana_top10": 1429369,
-   "recentes_100k": 5,
-   "no_molde": 1,
-   "amostra": 11,
-   "fora_do_tema": 39,
-   "exemplos": [
+   "score": 109.76,
+   "tendencia": "novo",
+   "canais_top10": 7,
+   "n_canais_novos": 2,
+   "idade_mediana_meses": 35.6,
+   "inscritos_mediana": 1420000,
+   "vpi_novos": 103.5,
+   "porta_aberta": true,
+   "novos_exemplos": [
     {
-     "id": "WlgtfJs7x4c",
-     "titulo": "Todos os presidentes da história do Brasil 🇧🇷",
-     "canal": "Kaio Explica 🧠",
-     "views": 6263848,
-     "publicado": "2026-09-26"
+     "titulo": "Every Reality Glitch You Can't Explain",
+     "canal": "Brainosophy",
+     "views": 6561579,
+     "canal_idade_meses": 7.0,
+     "canal_inscritos": 51700
     },
     {
-     "id": "OGoA9AFFCzY",
-     "titulo": "Bonde do Brasil, Raphaela Santos - Destino | DVD Nossa História Vol. 3",
-     "canal": "Bonde do Brasil",
-     "views": 2637635,
-     "publicado": "2025-11-28"
+     "titulo": "The Most Dangerous Computer Viruses Explained In 8 Minutes (Pt.1)",
+     "canal": "Finest Explainer",
+     "views": 5909996,
+     "canal_idade_meses": 11.0,
+     "canal_inscritos": 57100
     },
     {
-     "id": "EkCFsFikWP4",
-     "titulo": "A história da ENERGIA SOLAR no Brasil: do AUGE ao \"DECLÍNIO\"?",
-     "canal": "E4 Energias Renováveis",
-     "views": 1820126,
-     "publicado": "2026-09-10"
+     "titulo": "Every Feeling You Can't Name Explained",
+     "canal": "Brainosophy",
+     "views": 4681740,
+     "canal_idade_meses": 7.0,
+     "canal_inscritos": 51700
     }
-   ],
-   "score": 86.36,
-   "tendencia": "novo"
+   ]
   },
   {
    "idioma": "es",
@@ -109,7 +105,7 @@
    "destino": "novo-canal",
    "score_descoberta": 10.0,
    "validado": true,
-   "mediana_top10": 1064865,
+   "mediana_top10": 1064872,
    "recentes_100k": 3,
    "no_molde": 0,
    "amostra": 6,
@@ -120,107 +116,108 @@
      "titulo": "Art Attack y Rui Torres. #mexico #artattack #historia #arte",
      "canal": "elkerubiin",
      "views": 10849149,
-     "publicado": "2026-01-12"
+     "publicado": "2026-01-12",
+     "canal_idade_meses": 26.4,
+     "canal_inscritos": 808000
     },
     {
      "id": "upn8MrRFhMg",
      "titulo": "5 ESCULTURAS que tienes que ver al menos una vez 🗿 | Historia del Arte",
      "canal": "DargorTV",
-     "views": 1678950,
-     "publicado": "2026-08-24"
+     "views": 1679000,
+     "publicado": "2026-08-24",
+     "canal_idade_meses": 91.6,
+     "canal_inscritos": 12300
     },
     {
      "id": "jYbUivE5DUo",
      "titulo": "Miguel Ángel odiaba la pintura.  #cibertales#arte #historia",
      "canal": "CIBERTALES",
      "views": 1525556,
-     "publicado": "2026-04-06"
+     "publicado": "2026-04-06",
+     "canal_idade_meses": 131.0,
+     "canal_inscritos": 472000
     }
    ],
-   "score": 82.27,
-   "tendencia": "novo"
+   "score": 95.27,
+   "tendencia": "novo",
+   "canais_top10": 6,
+   "n_canais_novos": 1,
+   "idade_mediana_meses": 59.8,
+   "inscritos_mediana": 57100,
+   "vpi_novos": 177.02,
+   "porta_aberta": false,
+   "novos_exemplos": [
+    {
+     "titulo": "La verdad detrás de la Mona Lisa #historiareal #curiosidades #arte",
+     "canal": "Realidad B",
+     "views": 509827,
+     "canal_idade_meses": 5.9,
+     "canal_inscritos": 2880
+    }
+   ]
   },
   {
-   "idioma": "pt",
-   "termo": "história da ucrânia",
+   "idioma": "es",
+   "termo": "historia del fbi",
    "origem": "autocomplete",
-   "aparicoes": 2,
+   "aparicoes": 1,
    "melhor_posicao": 1,
-   "bruto": 2.857142857142857,
-   "destino": "historia-ptbr",
-   "score_descoberta": 7.61,
+   "bruto": 2.0,
+   "destino": "dossie-es",
+   "score_descoberta": 7.92,
    "validado": true,
-   "mediana_top10": 713992,
-   "recentes_100k": 2,
+   "mediana_top10": 747205,
+   "recentes_100k": 0,
    "no_molde": 0,
    "amostra": 3,
    "fora_do_tema": 47,
    "exemplos": [
     {
-     "id": "SDdZlMxXGRM",
-     "titulo": "Ucrania en Guerra: Historias de Vida, Pérdida y Resistencia | Documental Completo",
-     "canal": "Free Documentary Español",
-     "views": 1026460,
-     "publicado": "2026-09-27"
+     "id": "zuYEJrvKlFg",
+     "titulo": "Los GRINGOS llamaron al FBI por un CABALLO🤔🐴 | HISTORIA   #caballo  #fbi #historia #campo #agro",
+     "canal": "Agropecuaria y campo",
+     "views": 2482828,
+     "publicado": "2026-04-14",
+     "canal_idade_meses": 7.4,
+     "canal_inscritos": 36200
     },
     {
-     "id": "WVEU5MNmSQU",
-     "titulo": "Fábio conta sua história de guerra #fabiorocco #ucrânia×rússia #guerra #ucrania #podcast3irmaos",
-     "canal": "CortesCDGG",
-     "views": 713992,
-     "publicado": "2026-09-06"
+     "id": "Ui_XQdAlIgM",
+     "titulo": "El Crimen Más Macabro De La Historia De Missouri | Los Archivos Del FBI",
+     "canal": "Los Archivos del FBI",
+     "views": 747205,
+     "publicado": "2026-03-29",
+     "canal_idade_meses": 54.4,
+     "canal_inscritos": 536000
     },
     {
-     "id": "rUkj2HzzBwU",
-     "titulo": "A HISTÓRIA JÁ MOSTROU COMO AS GUERRAS NO IRÃ E NA UCRÂNIA VÃO ACABAR I Professor HOC",
-     "canal": "Professor HOC",
-     "views": 382505,
-     "publicado": "2026-07-01"
+     "id": "UzDyeJq6lWg",
+     "titulo": "El Asalto Más Grande En La Historia De Estados Unidos | Los Archivos Del FBI",
+     "canal": "Los Archivos del FBI",
+     "views": 641528,
+     "publicado": "2025-12-27",
+     "canal_idade_meses": 54.4,
+     "canal_inscritos": 536000
     }
    ],
-   "score": 74.15,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "es",
-   "termo": "historia de la biblia",
-   "origem": "autocomplete",
-   "aparicoes": 2,
-   "melhor_posicao": 1,
-   "bruto": 3.0,
-   "destino": "novo-canal",
-   "score_descoberta": 10.0,
-   "validado": true,
-   "mediana_top10": 1388232,
-   "recentes_100k": 0,
-   "no_molde": 0,
-   "amostra": 6,
-   "fora_do_tema": 44,
-   "exemplos": [
+   "score": 83.02,
+   "tendencia": "novo",
+   "canais_top10": 2,
+   "n_canais_novos": 1,
+   "idade_mediana_meses": 30.9,
+   "inscritos_mediana": 286100,
+   "vpi_novos": 68.59,
+   "porta_aberta": true,
+   "novos_exemplos": [
     {
-     "id": "u0azhlSRSs0",
-     "titulo": "“¿Por qué Jesús salvó a 10 hombres de las manos de la muerte?” #dios #biblia #historia #shorts",
-     "canal": "EnigmaXplorer X",
-     "views": 2166992,
-     "publicado": "2026-06-21"
-    },
-    {
-     "id": "AdfRlimbz_8",
-     "titulo": "El Iceberg de los Misterios más Oscuros de la Biblia 💀 Explicado",
-     "canal": "Ment3curiosa🧠",
-     "views": 1834796,
-     "publicado": "2026-05-22"
-    },
-    {
-     "id": "56GghigogqI",
-     "titulo": "Historia de Saul 👑| El Primer rey de Israel | Mi Primera Biblia | Historias de la Biblia | Colección",
-     "canal": "Mi Primera Biblia",
-     "views": 1471844,
-     "publicado": "2026-06-05"
+     "titulo": "Los GRINGOS llamaron al FBI por un CABALLO🤔🐴 | HISTORIA   #caballo  #fbi #historia #campo #agro",
+     "canal": "Agropecuaria y campo",
+     "views": 2482828,
+     "canal_idade_meses": 7.4,
+     "canal_inscritos": 36200
     }
-   ],
-   "score": 71.42,
-   "tendencia": "novo"
+   ]
   },
   {
    "idioma": "pt",
@@ -232,36 +229,164 @@
    "destino": "historia-ptbr",
    "score_descoberta": 7.61,
    "validado": true,
-   "mediana_top10": 955510,
-   "recentes_100k": 1,
+   "mediana_top10": 843618,
+   "recentes_100k": 0,
    "no_molde": 1,
-   "amostra": 10,
-   "fora_do_tema": 40,
+   "amostra": 5,
+   "fora_do_tema": 45,
    "exemplos": [
-    {
-     "id": "aLZZsl74_VQ",
-     "titulo": "✅ El CONFLICTO entre EE.UU. e IRÁN resumido en 15 minutos | ¿Qué está pasando?",
-     "canal": "Memorias de Pez",
-     "views": 5465671,
-     "publicado": "2026-02-28"
-    },
-    {
-     "id": "LXtJe7-oVhM",
-     "titulo": "IRÁN | El País Más Peligroso y Oculto de Oriente Medio | Documental 4K",
-     "canal": "Sin Coordenadas",
-     "views": 2452637,
-     "publicado": "2026-10-09"
-    },
     {
      "id": "uEDDMWJ04Vo",
      "titulo": "Toda a história do Irã em 20 minutos",
      "canal": "Crônicas de Ferro",
-     "views": 1464748,
-     "publicado": "2026-03-12"
+     "views": 1464754,
+     "publicado": "2026-03-12",
+     "canal_idade_meses": 8.0,
+     "canal_inscritos": 32300
+    },
+    {
+     "id": "PIAH8CcWtMU",
+     "titulo": "A ORIGEM BÍBLICA DO ÓDIO ENTRE ISRAEL E IRÃ — TUDO COMEÇOU COM ABRAÃO",
+     "canal": "CÓDIGO DAS ESCRITURAS",
+     "views": 975052,
+     "publicado": "2026-02-26",
+     "canal_idade_meses": 48.1,
+     "canal_inscritos": 30900
+    },
+    {
+     "id": "T9g8yzOc3KA",
+     "titulo": "REVOLUÇÃO IRANIANA DE 1979: ENTENDA A ORIGEM DO CONFLITO",
+     "canal": "Brasil Paralelo",
+     "views": 843618,
+     "publicado": "2026-02-28",
+     "canal_idade_meses": 123.6,
+     "canal_inscritos": 5380000
     }
    ],
-   "score": 68.41,
-   "tendencia": "novo"
+   "score": 79.54,
+   "tendencia": "novo",
+   "canais_top10": 5,
+   "n_canais_novos": 1,
+   "idade_mediana_meses": 123.5,
+   "inscritos_mediana": 3770000,
+   "vpi_novos": 45.35,
+   "porta_aberta": true,
+   "novos_exemplos": [
+    {
+     "titulo": "Toda a história do Irã em 20 minutos",
+     "canal": "Crônicas de Ferro",
+     "views": 1464754,
+     "canal_idade_meses": 8.0,
+     "canal_inscritos": 32300
+    }
+   ]
+  },
+  {
+   "idioma": "pt",
+   "termo": "história do brasil",
+   "origem": "autocomplete",
+   "aparicoes": 2,
+   "melhor_posicao": 1,
+   "bruto": 3.0,
+   "destino": "historia-ptbr",
+   "score_descoberta": 7.81,
+   "validado": true,
+   "mediana_top10": 1429373,
+   "recentes_100k": 5,
+   "no_molde": 0,
+   "amostra": 10,
+   "fora_do_tema": 40,
+   "exemplos": [
+    {
+     "id": "WlgtfJs7x4c",
+     "titulo": "Todos os presidentes da história do Brasil 🇧🇷",
+     "canal": "Kaio Explica 🧠",
+     "views": 6264203,
+     "publicado": "2026-09-26",
+     "canal_idade_meses": 23.9,
+     "canal_inscritos": 239000
+    },
+    {
+     "id": "OGoA9AFFCzY",
+     "titulo": "Bonde do Brasil, Raphaela Santos - Destino | DVD Nossa História Vol. 3",
+     "canal": "Bonde do Brasil",
+     "views": 2637635,
+     "publicado": "2025-11-28",
+     "canal_idade_meses": 157.4,
+     "canal_inscritos": 515000
+    },
+    {
+     "id": "EkCFsFikWP4",
+     "titulo": "A história da ENERGIA SOLAR no Brasil: do AUGE ao \"DECLÍNIO\"?",
+     "canal": "E4 Energias Renováveis",
+     "views": 1820150,
+     "publicado": "2026-09-10",
+     "canal_idade_meses": 96.7,
+     "canal_inscritos": 396000
+    }
+   ],
+   "score": 77.35,
+   "tendencia": "novo",
+   "canais_top10": 7,
+   "n_canais_novos": 0,
+   "idade_mediana_meses": 118.4,
+   "inscritos_mediana": 1180000,
+   "vpi_novos": null,
+   "porta_aberta": false,
+   "novos_exemplos": []
+  },
+  {
+   "idioma": "es",
+   "termo": "historia del mossad",
+   "origem": "autocomplete",
+   "aparicoes": 1,
+   "melhor_posicao": 1,
+   "bruto": 2.0,
+   "destino": "dossie-es",
+   "score_descoberta": 7.92,
+   "validado": true,
+   "mediana_top10": 173628,
+   "recentes_100k": 0,
+   "no_molde": 0,
+   "amostra": 2,
+   "fora_do_tema": 48,
+   "exemplos": [
+    {
+     "id": "-fzkbWVWNDc",
+     "titulo": "El asesinato más elegante de la historia del Mossad — sin arma, sin bomba, solo una cena",
+     "canal": "Espía Real",
+     "views": 216053,
+     "publicado": "2026-05-26",
+     "canal_idade_meses": 6.7,
+     "canal_inscritos": 36500
+    },
+    {
+     "id": "fltDzjaYN_g",
+     "titulo": "PIRATAS DEL MOSSAD: El Robo de 5 Buques de Guerra que Cambió la Historia",
+     "canal": "La Sombra de la Historia",
+     "views": 131204,
+     "publicado": "2025-12-20",
+     "canal_idade_meses": 12.5,
+     "canal_inscritos": 28100
+    }
+   ],
+   "score": 72.68,
+   "tendencia": "novo",
+   "canais_top10": 2,
+   "n_canais_novos": 1,
+   "idade_mediana_meses": 9.6,
+   "inscritos_mediana": 32300,
+   "vpi_novos": 5.92,
+   "porta_aberta": true,
+   "novos_exemplos": [
+    {
+     "titulo": "El asesinato más elegante de la historia del Mossad — sin arma, sin bomba, solo una cena",
+     "canal": "Espía Real",
+     "views": 216053,
+     "canal_idade_meses": 6.7,
+     "canal_inscritos": 36500
+    }
+   ]
   },
   {
    "idioma": "pt",
@@ -306,167 +431,57 @@
   },
   {
    "idioma": "es",
-   "termo": "historia del fbi",
+   "termo": "historia de la biblia",
    "origem": "autocomplete",
-   "aparicoes": 1,
+   "aparicoes": 2,
    "melhor_posicao": 1,
-   "bruto": 2.0,
-   "destino": "dossie-es",
-   "score_descoberta": 7.92,
+   "bruto": 3.0,
+   "destino": "novo-canal",
+   "score_descoberta": 10.0,
    "validado": true,
-   "mediana_top10": 747184,
+   "mediana_top10": 1388239,
    "recentes_100k": 0,
-   "no_molde": 0,
-   "amostra": 3,
-   "fora_do_tema": 47,
-   "exemplos": [
-    {
-     "id": "zuYEJrvKlFg",
-     "titulo": "Los GRINGOS llamaron al FBI por un CABALLO🤔🐴 | HISTORIA   #caballo  #fbi #historia #campo #agro",
-     "canal": "Agropecuaria y campo",
-     "views": 2482828,
-     "publicado": "2026-04-14"
-    },
-    {
-     "id": "Ui_XQdAlIgM",
-     "titulo": "El Crimen Más Macabro De La Historia De Missouri | Los Archivos Del FBI",
-     "canal": "Los Archivos del FBI",
-     "views": 747184,
-     "publicado": "2026-03-29"
-    },
-    {
-     "id": "UzDyeJq6lWg",
-     "titulo": "El Asalto Más Grande En La Historia De Estados Unidos | Los Archivos Del FBI",
-     "canal": "Los Archivos del FBI",
-     "views": 641528,
-     "publicado": "2025-12-27"
-    }
-   ],
-   "score": 66.65,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "es",
-   "termo": "historia de la cia",
-   "origem": "autocomplete",
-   "aparicoes": 1,
-   "melhor_posicao": 1,
-   "bruto": 2.0,
-   "destino": "dossie-es",
-   "score_descoberta": 7.92,
-   "validado": true,
-   "mediana_top10": 291501,
-   "recentes_100k": 1,
    "no_molde": 0,
    "amostra": 4,
    "fora_do_tema": 46,
    "exemplos": [
     {
-     "id": "Nc1hreDOwmQ",
-     "titulo": "⁠LA HISTORIA OCULTA DE LA CIA operaciones secretas que cambiaron el mundo - @SoloFonseca",
-     "canal": "Solo Fonseca",
-     "views": 1073922,
-     "publicado": "2026-04-14"
+     "id": "AdfRlimbz_8",
+     "titulo": "El Iceberg de los Misterios más Oscuros de la Biblia 💀 Explicado",
+     "canal": "Ment3curiosa🧠",
+     "views": 1834796,
+     "publicado": "2026-05-22",
+     "canal_idade_meses": 16.3,
+     "canal_inscritos": 30300
     },
     {
-     "id": "pOi_lbsm5iE",
-     "titulo": "MEGA EPISODIO: Las Guerras Ocultas de la CIA, la otra cara del poder estadounidense | SLICE HISTORIA",
-     "canal": "SLICE Historia",
-     "views": 322038,
-     "publicado": "2026-09-26"
+     "id": "56GghigogqI",
+     "titulo": "Historia de Saul 👑| El Primer rey de Israel | Mi Primera Biblia | Historias de la Biblia | Colección",
+     "canal": "Mi Primera Biblia",
+     "views": 1471853,
+     "publicado": "2026-06-05",
+     "canal_idade_meses": 95.5,
+     "canal_inscritos": 1230000
     },
     {
-     "id": "7mk4zJLFx-g",
-     "titulo": "InjerenCIA: Maru Campos y la larga historia de la CIA en Latinoamérica - Sin Muros",
-     "canal": "Canal Once",
-     "views": 260965,
-     "publicado": "2026-05-05"
+     "id": "1gOF5U0V79k",
+     "titulo": "David, Nabal y Abigail ⚔️🌿| Una mujer sabia 🙏 | Historia de la Biblia | Mi Primera Biblia | 61",
+     "canal": "Mi Primera Biblia",
+     "views": 1304625,
+     "publicado": "2025-12-13",
+     "canal_idade_meses": 95.5,
+     "canal_inscritos": 1230000
     }
    ],
-   "score": 66.57,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "es",
-   "termo": "historia del mossad",
-   "origem": "autocomplete",
-   "aparicoes": 1,
-   "melhor_posicao": 1,
-   "bruto": 2.0,
-   "destino": "dossie-es",
-   "score_descoberta": 7.92,
-   "validado": true,
-   "mediana_top10": 216053,
-   "recentes_100k": 1,
-   "no_molde": 0,
-   "amostra": 3,
-   "fora_do_tema": 47,
-   "exemplos": [
-    {
-     "id": "u8xdscMypdc",
-     "titulo": "A GLOBO ESTÁ COM MEDO DE FLÁVIO BOLSONARO E O MOSSAD ENTROU NA HISTÓRIA",
-     "canal": "oiluiz TV",
-     "views": 670055,
-     "publicado": "2026-11-02"
-    },
-    {
-     "id": "-fzkbWVWNDc",
-     "titulo": "El asesinato más elegante de la historia del Mossad — sin arma, sin bomba, solo una cena",
-     "canal": "Espía Real",
-     "views": 216053,
-     "publicado": "2026-05-26"
-    },
-    {
-     "id": "fltDzjaYN_g",
-     "titulo": "PIRATAS DEL MOSSAD: El Robo de 5 Buques de Guerra que Cambió la Historia",
-     "canal": "La Sombra de la Historia",
-     "views": 131204,
-     "publicado": "2025-12-20"
-    }
-   ],
-   "score": 65.27,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "j. r. r. tolkien",
-   "origem": "autocomplete",
-   "aparicoes": 1,
-   "melhor_posicao": 1,
-   "bruto": 2.0,
-   "destino": "lotr-fr",
-   "score_descoberta": 5.07,
-   "validado": true,
-   "mediana_top10": 357307,
-   "recentes_100k": 1,
-   "no_molde": 0,
-   "amostra": 16,
-   "fora_do_tema": 34,
-   "exemplos": [
-    {
-     "id": "NfUSXSPCrbI",
-     "titulo": "Tolkien Expert: You Don't Understand Tom Bombadil",
-     "canal": "Matt Fradd",
-     "views": 1206368,
-     "publicado": "2026-05-20"
-    },
-    {
-     "id": "5g6ZOXRLX64",
-     "titulo": "Tolkien’s Merry Fellow",
-     "canal": "Tom Ayling",
-     "views": 733181,
-     "publicado": "2026-06-28"
-    },
-    {
-     "id": "hpleTVAhTwg",
-     "titulo": "Absolute Mad Lads - J. R. R. Tolkien",
-     "canal": "Count Dankula",
-     "views": 573371,
-     "publicado": "2026-06-11"
-    }
-   ],
-   "score": 64.6,
-   "tendencia": "novo"
+   "score": 65.17,
+   "tendencia": "novo",
+   "canais_top10": 2,
+   "n_canais_novos": 0,
+   "idade_mediana_meses": 55.9,
+   "inscritos_mediana": 630150,
+   "vpi_novos": null,
+   "porta_aberta": false,
+   "novos_exemplos": []
   },
   {
    "idioma": "fr",
@@ -511,6 +526,60 @@
   },
   {
    "idioma": "es",
+   "termo": "historia de la cia",
+   "origem": "autocomplete",
+   "aparicoes": 1,
+   "melhor_posicao": 1,
+   "bruto": 2.0,
+   "destino": "dossie-es",
+   "score_descoberta": 7.92,
+   "validado": true,
+   "mediana_top10": 322050,
+   "recentes_100k": 1,
+   "no_molde": 0,
+   "amostra": 3,
+   "fora_do_tema": 47,
+   "exemplos": [
+    {
+     "id": "Nc1hreDOwmQ",
+     "titulo": "⁠LA HISTORIA OCULTA DE LA CIA operaciones secretas que cambiaron el mundo - @SoloFonseca",
+     "canal": "Solo Fonseca",
+     "views": 1073922,
+     "publicado": "2026-04-14",
+     "canal_idade_meses": 36.0,
+     "canal_inscritos": 1370000
+    },
+    {
+     "id": "pOi_lbsm5iE",
+     "titulo": "MEGA EPISODIO: Las Guerras Ocultas de la CIA, la otra cara del poder estadounidense | SLICE HISTORIA",
+     "canal": "SLICE Historia",
+     "views": 322050,
+     "publicado": "2026-09-26",
+     "canal_idade_meses": 18.8,
+     "canal_inscritos": 222000
+    },
+    {
+     "id": "7mk4zJLFx-g",
+     "titulo": "InjerenCIA: Maru Campos y la larga historia de la CIA en Latinoamérica - Sin Muros",
+     "canal": "Canal Once",
+     "views": 260965,
+     "publicado": "2026-05-05",
+     "canal_idade_meses": 210.7,
+     "canal_inscritos": 2480000
+    }
+   ],
+   "score": 61.73,
+   "tendencia": "novo",
+   "canais_top10": 3,
+   "n_canais_novos": 0,
+   "idade_mediana_meses": 36.0,
+   "inscritos_mediana": 1370000,
+   "vpi_novos": null,
+   "porta_aberta": false,
+   "novos_exemplos": []
+  },
+  {
+   "idioma": "es",
    "termo": "historia de la kgb",
    "origem": "autocomplete",
    "aparicoes": 2,
@@ -519,7 +588,7 @@
    "destino": "dossie-es",
    "score_descoberta": 9.87,
    "validado": true,
-   "mediana_top10": 154014,
+   "mediana_top10": 154032,
    "recentes_100k": 1,
    "no_molde": 1,
    "amostra": 4,
@@ -530,93 +599,38 @@
      "titulo": "El Lada secreto del KGB – El coche soviético con motor rotativo que desafió la historia",
      "canal": "Rare Russian Riders Español",
      "views": 190327,
-     "publicado": "2025-11-15"
+     "publicado": "2025-11-15",
+     "canal_idade_meses": 56.0,
+     "canal_inscritos": 4340
     },
     {
      "id": "by7uTDjSx7Y",
      "titulo": "La HISTORIA COMPLETA de la KGB",
      "canal": "Te lo Pinto",
-     "views": 166177,
-     "publicado": "2026-10-30"
+     "views": 166213,
+     "publicado": "2026-10-30",
+     "canal_idade_meses": 31.1,
+     "canal_inscritos": 596000
     },
     {
      "id": "mXSwXnL_Dtg",
      "titulo": "Los LADA ROTATIVOS de la KGB: La historia del Proyecto \"Arkan\"",
      "canal": "Garaje Hermético",
      "views": 141851,
-     "publicado": "2026-01-25"
+     "publicado": "2026-01-25",
+     "canal_idade_meses": 84.6,
+     "canal_inscritos": 909000
     }
    ],
-   "score": 62.75,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "pt",
-   "termo": "história do japão",
-   "origem": "autocomplete",
-   "aparicoes": 2,
-   "melhor_posicao": 1,
-   "bruto": 3.0,
-   "destino": "historia-ptbr",
-   "score_descoberta": 7.81,
-   "validado": true,
-   "mediana_top10": 248529,
-   "recentes_100k": 0,
-   "no_molde": 0,
-   "amostra": 1,
-   "fora_do_tema": 49,
-   "exemplos": [
-    {
-     "id": "tzfbDkQx7Hw",
-     "titulo": "Por Que China e Japão São Tão Rivais? | A Disputa Histórica que Marcou a Ásia",
-     "canal": "História do Mundo",
-     "views": 248529,
-     "publicado": "2026-07-04"
-    }
-   ],
-   "score": 61.76,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "es",
-   "termo": "historia de la cosa nostra",
-   "origem": "autocomplete",
-   "aparicoes": 1,
-   "melhor_posicao": 1,
-   "bruto": 2.0,
-   "destino": "dossie-es",
-   "score_descoberta": 7.92,
-   "validado": true,
-   "mediana_top10": 100713,
-   "recentes_100k": 0,
-   "no_molde": 0,
-   "amostra": 3,
-   "fora_do_tema": 47,
-   "exemplos": [
-    {
-     "id": "JFg6gfxXAFo",
-     "titulo": "DOCUMENTARIO TOMMASO BUSCETTA L’UOMO CHE DISTRUSSE COSA NOSTRA ",
-     "canal": "La Francy Ti Racconta ",
-     "views": 162910,
-     "publicado": "2026-03-20"
-    },
-    {
-     "id": "tTbJwCtM2LI",
-     "titulo": "La Cosa Nostra Ep. 2: La Caída | Documental Completo",
-     "canal": "Free Documentary Español",
-     "views": 100713,
-     "publicado": "2026-06-19"
-    },
-    {
-     "id": "mDQbGEgBNmU",
-     "titulo": "Un Documentaire sur la Cosa Nostra｜3 Figures",
-     "canal": "NIGHTSTORIES",
-     "views": 98451,
-     "publicado": "2025-12-25"
-    }
-   ],
-   "score": 57.95,
-   "tendencia": "novo"
+   "score": 58.16,
+   "tendencia": "novo",
+   "canais_top10": 4,
+   "n_canais_novos": 0,
+   "idade_mediana_meses": 43.5,
+   "inscritos_mediana": 302045,
+   "vpi_novos": null,
+   "porta_aberta": false,
+   "novos_exemplos": []
   },
   {
    "idioma": "pt",
@@ -701,6 +715,51 @@
    "tendencia": "novo"
   },
   {
+   "idioma": "pt",
+   "termo": "história da ucrânia",
+   "origem": "autocomplete",
+   "aparicoes": 2,
+   "melhor_posicao": 1,
+   "bruto": 2.857142857142857,
+   "destino": "historia-ptbr",
+   "score_descoberta": 7.61,
+   "validado": true,
+   "mediana_top10": 548250,
+   "recentes_100k": 1,
+   "no_molde": 0,
+   "amostra": 2,
+   "fora_do_tema": 48,
+   "exemplos": [
+    {
+     "id": "WVEU5MNmSQU",
+     "titulo": "Fábio conta sua história de guerra #fabiorocco #ucrânia×rússia #guerra #ucrania #podcast3irmaos",
+     "canal": "CortesCDGG",
+     "views": 713993,
+     "publicado": "2026-09-06",
+     "canal_idade_meses": 84.6,
+     "canal_inscritos": 117000
+    },
+    {
+     "id": "rUkj2HzzBwU",
+     "titulo": "A HISTÓRIA JÁ MOSTROU COMO AS GUERRAS NO IRÃ E NA UCRÂNIA VÃO ACABAR I Professor HOC",
+     "canal": "Professor HOC",
+     "views": 382508,
+     "publicado": "2026-07-01",
+     "canal_idade_meses": 160.0,
+     "canal_inscritos": 2230000
+    }
+   ],
+   "score": 56.86,
+   "tendencia": "novo",
+   "canais_top10": 2,
+   "n_canais_novos": 0,
+   "idade_mediana_meses": 122.3,
+   "inscritos_mediana": 1173500,
+   "vpi_novos": null,
+   "porta_aberta": false,
+   "novos_exemplos": []
+  },
+  {
    "idioma": "fr",
    "termo": "terre du milieu",
    "origem": "autocomplete",
@@ -720,25 +779,95 @@
      "id": "L57qP7elmSQ",
      "titulo": "En Terre du Milieu avec Éric Judor",
      "canal": "Alice Underground ",
-     "views": 420880,
-     "publicado": "2026-10-14"
+     "views": 420900,
+     "publicado": "2026-10-14",
+     "canal_idade_meses": 18.5,
+     "canal_inscritos": 67200
     },
     {
      "id": "WO5kFv14SXU",
      "titulo": "Pourquoi Frodo quitte-t-il la Terre du Milieu  ?#lotr #tolkien #frodo #middleearth",
      "canal": "Fausthea",
      "views": 49399,
-     "publicado": "2026-06-15"
+     "publicado": "2026-06-15",
+     "canal_idade_meses": 50.1,
+     "canal_inscritos": 10300
     },
     {
      "id": "w-4R1Ps3xPU",
      "titulo": "Il a donné vie à la Terre du Milieu !",
      "canal": "Nota Bonus",
      "views": 43416,
-     "publicado": "2025-12-19"
+     "publicado": "2025-12-19",
+     "canal_idade_meses": 134.6,
+     "canal_inscritos": 384000
     }
    ],
-   "score": 53.78,
+   "score": 46.18,
+   "tendencia": "novo",
+   "canais_top10": 5,
+   "n_canais_novos": 0,
+   "idade_mediana_meses": 91.2,
+   "inscritos_mediana": 49600,
+   "vpi_novos": null,
+   "porta_aberta": false,
+   "novos_exemplos": []
+  },
+  {
+   "idioma": "es",
+   "termo": "historia de la cosa nostra",
+   "origem": "autocomplete",
+   "aparicoes": 1,
+   "melhor_posicao": 1,
+   "bruto": 2.0,
+   "destino": "dossie-es",
+   "score_descoberta": 7.92,
+   "validado": true,
+   "mediana_top10": 0,
+   "recentes_100k": 0,
+   "no_molde": 0,
+   "amostra": 0,
+   "fora_do_tema": 50,
+   "exemplos": [],
+   "score": 7.92,
+   "tendencia": "novo"
+  },
+  {
+   "idioma": "pt",
+   "termo": "história do japão",
+   "origem": "autocomplete",
+   "aparicoes": 2,
+   "melhor_posicao": 1,
+   "bruto": 3.0,
+   "destino": "historia-ptbr",
+   "score_descoberta": 7.81,
+   "validado": true,
+   "mediana_top10": 0,
+   "recentes_100k": 0,
+   "no_molde": 0,
+   "amostra": 0,
+   "fora_do_tema": 50,
+   "exemplos": [],
+   "score": 7.81,
+   "tendencia": "novo"
+  },
+  {
+   "idioma": "fr",
+   "termo": "j. r. r. tolkien",
+   "origem": "autocomplete",
+   "aparicoes": 1,
+   "melhor_posicao": 1,
+   "bruto": 2.0,
+   "destino": "lotr-fr",
+   "score_descoberta": 5.07,
+   "validado": true,
+   "mediana_top10": 0,
+   "recentes_100k": 0,
+   "no_molde": 0,
+   "amostra": 0,
+   "fora_do_tema": 50,
+   "exemplos": [],
+   "score": 5.07,
    "tendencia": "novo"
   },
   {
@@ -831,9 +960,9 @@
    "idioma": "en",
    "termo": "N minutes",
    "origem": "titulo",
-   "aparicoes": 48,
+   "aparicoes": 47,
    "canais": 17,
-   "bruto": 428219.2882882062,
+   "bruto": 424527.5639005045,
    "destino": "novo-canal",
    "score_descoberta": 10.0,
    "score": 10.0,
@@ -843,9 +972,9 @@
    "idioma": "en",
    "termo": "in N minutes",
    "origem": "titulo",
-   "aparicoes": 47,
+   "aparicoes": 46,
    "canais": 17,
-   "bruto": 428215.2882882062,
+   "bruto": 424523.5639005045,
    "destino": "novo-canal",
    "score_descoberta": 10.0,
    "score": 10.0,
@@ -855,9 +984,9 @@
    "idioma": "es",
    "termo": "historia de",
    "origem": "titulo",
-   "aparicoes": 7,
-   "canais": 4,
-   "bruto": 48264.36251563941,
+   "aparicoes": 5,
+   "canais": 3,
+   "bruto": 42856.17238173199,
    "destino": "novo-canal",
    "score_descoberta": 10.0,
    "score": 10.0,
@@ -869,7 +998,7 @@
    "origem": "titulo",
    "aparicoes": 8,
    "canais": 6,
-   "bruto": 272247.45552845957,
+   "bruto": 272257.7939166439,
    "destino": "novo-canal",
    "score_descoberta": 10.0,
    "score": 10.0,
@@ -877,26 +1006,26 @@
   },
   {
    "idioma": "fr",
-   "termo": "l'histoire complète",
+   "termo": "terre du milieu",
    "origem": "titulo",
-   "aparicoes": 7,
-   "canais": 6,
-   "bruto": 13860.218622421184,
-   "destino": "novo-canal",
+   "aparicoes": 24,
+   "canais": 11,
+   "bruto": 3014.5826172665315,
+   "destino": "lotr-fr",
    "score_descoberta": 10.0,
    "score": 10.0,
    "tendencia": "novo"
   },
   {
-   "idioma": "es",
-   "termo": "la historia",
+   "idioma": "fr",
+   "termo": "la terre du milieu",
    "origem": "titulo",
-   "aparicoes": 9,
-   "canais": 8,
-   "bruto": 38789.15961945222,
-   "destino": "novo-canal",
-   "score_descoberta": 9.8,
-   "score": 9.8,
+   "aparicoes": 22,
+   "canais": 9,
+   "bruto": 2966.2350520824825,
+   "destino": "lotr-fr",
+   "score_descoberta": 9.98,
+   "score": 9.98,
    "tendencia": "novo"
   },
   {
@@ -909,6 +1038,18 @@
    "destino": "novo-canal",
    "score_descoberta": 9.78,
    "score": 9.78,
+   "tendencia": "novo"
+  },
+  {
+   "idioma": "es",
+   "termo": "la historia",
+   "origem": "titulo",
+   "aparicoes": 7,
+   "canais": 7,
+   "bruto": 33385.525980353625,
+   "destino": "novo-canal",
+   "score_descoberta": 9.77,
+   "score": 9.77,
    "tendencia": "novo"
   },
   {
@@ -965,7 +1106,19 @@
    "origem": "titulo",
    "aparicoes": 29,
    "canais": 6,
-   "bruto": 293995.4298140724,
+   "bruto": 293995.8530489044,
+   "destino": "novo-canal",
+   "score_descoberta": 9.72,
+   "score": 9.72,
+   "tendencia": "novo"
+  },
+  {
+   "idioma": "es",
+   "termo": "de la biblia",
+   "origem": "titulo",
+   "aparicoes": 4,
+   "canais": 2,
+   "bruto": 31532.85207373927,
    "destino": "novo-canal",
    "score_descoberta": 9.71,
    "score": 9.71,
@@ -975,12 +1128,12 @@
    "idioma": "pt",
    "termo": "da história",
    "origem": "titulo",
-   "aparicoes": 6,
-   "canais": 6,
-   "bruto": 184119.99009323554,
+   "aparicoes": 3,
+   "canais": 3,
+   "bruto": 181645.9732645403,
    "destino": "novo-canal",
-   "score_descoberta": 9.69,
-   "score": 9.69,
+   "score_descoberta": 9.68,
+   "score": 9.68,
    "tendencia": "novo"
   },
   {
@@ -989,10 +1142,10 @@
    "origem": "titulo",
    "aparicoes": 29,
    "canais": 5,
-   "bruto": 273131.0001322529,
+   "bruto": 273131.1950475072,
    "destino": "novo-canal",
-   "score_descoberta": 9.65,
-   "score": 9.65,
+   "score_descoberta": 9.66,
+   "score": 9.66,
    "tendencia": "novo"
   },
   {
@@ -1001,7 +1154,7 @@
    "origem": "titulo",
    "aparicoes": 2,
    "canais": 2,
-   "bruto": 176240.81894934335,
+   "bruto": 176250.01594746718,
    "destino": "novo-canal",
    "score_descoberta": 9.65,
    "score": 9.65,
@@ -1020,12 +1173,12 @@
    "tendencia": "novo"
   },
   {
-   "idioma": "es",
-   "termo": "de la biblia",
+   "idioma": "en",
+   "termo": "the entire history of",
    "origem": "titulo",
-   "aparicoes": 4,
-   "canais": 2,
-   "bruto": 31532.74847002591,
+   "aparicoes": 25,
+   "canais": 3,
+   "bruto": 255033.19897509317,
    "destino": "novo-canal",
    "score_descoberta": 9.61,
    "score": 9.61,
@@ -1035,9 +1188,9 @@
    "idioma": "pt",
    "termo": "história do",
    "origem": "titulo",
-   "aparicoes": 5,
-   "canais": 5,
-   "bruto": 168073.98130039911,
+   "aparicoes": 4,
+   "canais": 4,
+   "bruto": 167358.78148280436,
    "destino": "novo-canal",
    "score_descoberta": 9.61,
    "score": 9.61,
@@ -1068,24 +1221,12 @@
    "tendencia": "novo"
   },
   {
-   "idioma": "en",
-   "termo": "the entire history of",
-   "origem": "titulo",
-   "aparicoes": 25,
-   "canais": 3,
-   "bruto": 255033.19897509317,
-   "destino": "novo-canal",
-   "score_descoberta": 9.6,
-   "score": 9.6,
-   "tendencia": "novo"
-  },
-  {
    "idioma": "pt",
    "termo": "da história do brasil",
    "origem": "titulo",
    "aparicoes": 2,
    "canais": 2,
-   "bruto": 158172.70731707316,
+   "bruto": 158181.3963414634,
    "destino": "historia-ptbr",
    "score_descoberta": 9.57,
    "score": 9.57,
@@ -1153,18 +1294,6 @@
   },
   {
    "idioma": "pt",
-   "termo": "a história",
-   "origem": "titulo",
-   "aparicoes": 14,
-   "canais": 10,
-   "bruto": 130578.59098072053,
-   "destino": "novo-canal",
-   "score_descoberta": 9.41,
-   "score": 9.41,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "pt",
    "termo": "a história inteira do dinheiro em 15 minutos",
    "origem": "autocomplete",
    "aparicoes": 4,
@@ -1179,24 +1308,12 @@
    "idioma": "en",
    "termo": "explained in N minutes",
    "origem": "titulo",
-   "aparicoes": 23,
+   "aparicoes": 22,
    "canais": 14,
-   "bruto": 187896.2491194084,
+   "bruto": 184204.32981645258,
    "destino": "novo-canal",
    "score_descoberta": 9.36,
    "score": 9.36,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "l'histoire complète du",
-   "origem": "titulo",
-   "aparicoes": 3,
-   "canais": 3,
-   "bruto": 7479.801616796171,
-   "destino": "novo-canal",
-   "score_descoberta": 9.35,
-   "score": 9.35,
    "tendencia": "novo"
   },
   {
@@ -1205,22 +1322,22 @@
    "origem": "titulo",
    "aparicoes": 19,
    "canais": 4,
-   "bruto": 175639.90052907827,
+   "bruto": 175640.09544433252,
    "destino": "novo-canal",
-   "score_descoberta": 9.31,
-   "score": 9.31,
+   "score_descoberta": 9.32,
+   "score": 9.32,
    "tendencia": "novo"
   },
   {
-   "idioma": "es",
-   "termo": "la muerte",
+   "idioma": "pt",
+   "termo": "a história",
    "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 22779.252667622233,
+   "aparicoes": 7,
+   "canais": 6,
+   "bruto": 114758.91047028833,
    "destino": "novo-canal",
-   "score_descoberta": 9.3,
-   "score": 9.3,
+   "score_descoberta": 9.31,
+   "score": 9.31,
    "tendencia": "novo"
   },
   {
@@ -1231,8 +1348,8 @@
    "canais": 2,
    "bruto": 157686.5279433471,
    "destino": "novo-canal",
-   "score_descoberta": 9.23,
-   "score": 9.23,
+   "score_descoberta": 9.24,
+   "score": 9.24,
    "tendencia": "novo"
   },
   {
@@ -1303,8 +1420,8 @@
    "canais": 2,
    "bruto": 135575.1607142857,
    "destino": "novo-canal",
-   "score_descoberta": 9.11,
-   "score": 9.11,
+   "score_descoberta": 9.12,
+   "score": 9.12,
    "tendencia": "novo"
   },
   {
@@ -1416,27 +1533,15 @@
    "tendencia": "novo"
   },
   {
-   "idioma": "pt",
-   "termo": "história da",
+   "idioma": "es",
+   "termo": "historia de la",
    "origem": "titulo",
-   "aparicoes": 4,
-   "canais": 4,
-   "bruto": 64934.44495277792,
-   "destino": "novo-canal",
-   "score_descoberta": 8.85,
-   "score": 8.85,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "l'histoire complète du prophète",
-   "origem": "titulo",
-   "aparicoes": 2,
+   "aparicoes": 3,
    "canais": 2,
-   "bruto": 4548.225685564081,
+   "bruto": 12464.581920469114,
    "destino": "novo-canal",
-   "score_descoberta": 8.83,
-   "score": 8.83,
+   "score_descoberta": 8.84,
+   "score": 8.84,
    "tendencia": "novo"
   },
   {
@@ -1457,7 +1562,7 @@
    "origem": "titulo",
    "aparicoes": 3,
    "canais": 2,
-   "bruto": 87923.04884032113,
+   "bruto": 87923.24375557537,
    "destino": "novo-canal",
    "score_descoberta": 8.78,
    "score": 8.78,
@@ -1488,15 +1593,15 @@
    "tendencia": "novo"
   },
   {
-   "idioma": "es",
-   "termo": "historia de la",
+   "idioma": "pt",
+   "termo": "história da",
    "origem": "titulo",
-   "aparicoes": 3,
+   "aparicoes": 2,
    "canais": 2,
-   "bruto": 12464.536758314198,
+   "bruto": 55397.0330634278,
    "destino": "novo-canal",
-   "score_descoberta": 8.74,
-   "score": 8.74,
+   "score_descoberta": 8.73,
+   "score": 8.73,
    "tendencia": "novo"
   },
   {
@@ -1620,30 +1725,6 @@
    "tendencia": "novo"
   },
   {
-   "idioma": "fr",
-   "termo": "complète de",
-   "origem": "titulo",
-   "aparicoes": 3,
-   "canais": 3,
-   "bruto": 3741.164822234503,
-   "destino": "novo-canal",
-   "score_descoberta": 8.63,
-   "score": 8.63,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "l'histoire complète de",
-   "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 3659.816337386018,
-   "destino": "novo-canal",
-   "score_descoberta": 8.6,
-   "score": 8.6,
-   "tendencia": "novo"
-  },
-  {
    "idioma": "en",
    "termo": "why did i get married",
    "origem": "autocomplete",
@@ -1733,7 +1814,7 @@
    "origem": "titulo",
    "aparicoes": 4,
    "canais": 2,
-   "bruto": 58776.22577218343,
+   "bruto": 58777.08870772594,
    "destino": "novo-canal",
    "score_descoberta": 8.47,
    "score": 8.47,
@@ -1812,18 +1893,6 @@
    "tendencia": "novo"
   },
   {
-   "idioma": "pt",
-   "termo": "a história da",
-   "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 39306.98452592154,
-   "destino": "novo-canal",
-   "score_descoberta": 8.45,
-   "score": 8.45,
-   "tendencia": "novo"
-  },
-  {
    "idioma": "es",
    "termo": "toda la historia de five nights at freddy's",
    "origem": "autocomplete",
@@ -1841,46 +1910,10 @@
    "origem": "titulo",
    "aparicoes": 2,
    "canais": 2,
-   "bruto": 37825.80842105263,
+   "bruto": 37826.25614035088,
    "destino": "novo-canal",
    "score_descoberta": 8.42,
    "score": 8.42,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "terre du milieu",
-   "origem": "titulo",
-   "aparicoes": 24,
-   "canais": 11,
-   "bruto": 3014.5826172665315,
-   "destino": "lotr-fr",
-   "score_descoberta": 8.4,
-   "score": 8.4,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "la terre du milieu",
-   "origem": "titulo",
-   "aparicoes": 22,
-   "canais": 9,
-   "bruto": 2966.2350520824825,
-   "destino": "lotr-fr",
-   "score_descoberta": 8.38,
-   "score": 8.38,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "la chronologie",
-   "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 2910.989822234503,
-   "destino": "novo-canal",
-   "score_descoberta": 8.36,
-   "score": 8.36,
    "tendencia": "novo"
   },
   {
@@ -1893,6 +1926,18 @@
    "destino": "novo-canal",
    "score_descoberta": 8.35,
    "score": 8.35,
+   "tendencia": "novo"
+  },
+  {
+   "idioma": "en",
+   "termo": "of the world",
+   "origem": "titulo",
+   "aparicoes": 2,
+   "canais": 2,
+   "bruto": 49133.92796610169,
+   "destino": "novo-canal",
+   "score_descoberta": 8.34,
+   "score": 8.34,
    "tendencia": "novo"
   },
   {
@@ -1917,30 +1962,6 @@
    "destino": "novo-canal",
    "score_descoberta": 8.33,
    "score": 8.33,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "en",
-   "termo": "of the world",
-   "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 49133.733050847455,
-   "destino": "novo-canal",
-   "score_descoberta": 8.33,
-   "score": 8.33,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "l'histoire complète des",
-   "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 2720.600668238994,
-   "destino": "novo-canal",
-   "score_descoberta": 8.29,
-   "score": 8.29,
    "tendencia": "novo"
   },
   {
@@ -2045,22 +2066,10 @@
    "origem": "titulo",
    "aparicoes": 4,
    "canais": 3,
-   "bruto": 39544.428475844674,
+   "bruto": 39544.62242759012,
    "destino": "novo-canal",
-   "score_descoberta": 8.16,
-   "score": 8.16,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "es",
-   "termo": "de la historia",
-   "origem": "titulo",
-   "aparicoes": 3,
-   "canais": 3,
-   "bruto": 6352.207382095883,
-   "destino": "novo-canal",
-   "score_descoberta": 8.12,
-   "score": 8.12,
+   "score_descoberta": 8.17,
+   "score": 8.17,
    "tendencia": "novo"
   },
   {
@@ -2161,14 +2170,38 @@
   },
   {
    "idioma": "en",
+   "termo": "the full",
+   "origem": "titulo",
+   "aparicoes": 2,
+   "canais": 2,
+   "bruto": 33887.01151971644,
+   "destino": "novo-canal",
+   "score_descoberta": 8.05,
+   "score": 8.05,
+   "tendencia": "novo"
+  },
+  {
+   "idioma": "en",
    "termo": "the odyssey",
    "origem": "titulo",
    "aparicoes": 2,
    "canais": 2,
-   "bruto": 31730.803407601576,
+   "bruto": 31730.89515072084,
    "destino": "novo-canal",
-   "score_descoberta": 7.99,
-   "score": 7.99,
+   "score_descoberta": 8.0,
+   "score": 8.0,
+   "tendencia": "novo"
+  },
+  {
+   "idioma": "fr",
+   "termo": "de la terre du",
+   "origem": "titulo",
+   "aparicoes": 15,
+   "canais": 7,
+   "bruto": 586.8245141553554,
+   "destino": "novo-canal",
+   "score_descoberta": 7.96,
+   "score": 7.96,
    "tendencia": "novo"
   },
   {
@@ -2520,6 +2553,18 @@
    "tendencia": "novo"
   },
   {
+   "idioma": "en",
+   "termo": "story of",
+   "origem": "titulo",
+   "aparicoes": 2,
+   "canais": 2,
+   "bruto": 27604.067867348473,
+   "destino": "novo-canal",
+   "score_descoberta": 7.89,
+   "score": 7.89,
+   "tendencia": "novo"
+  },
+  {
    "idioma": "pt",
    "termo": "história da chapeuzinho vermelho",
    "origem": "autocomplete",
@@ -2549,10 +2594,10 @@
    "origem": "titulo",
    "aparicoes": 2,
    "canais": 2,
-   "bruto": 23820.64393385835,
+   "bruto": 23821.2825363319,
    "destino": "novo-canal",
-   "score_descoberta": 7.77,
-   "score": 7.77,
+   "score_descoberta": 7.78,
+   "score": 7.78,
    "tendencia": "novo"
   },
   {
@@ -2697,18 +2742,6 @@
    "destino": "novo-canal",
    "score_descoberta": 7.61,
    "score": 7.61,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "pt",
-   "termo": "de fnaf",
-   "origem": "titulo",
-   "aparicoes": 6,
-   "canais": 3,
-   "bruto": 13117.1450339851,
-   "destino": "novo-canal",
-   "score_descoberta": 7.58,
-   "score": 7.58,
    "tendencia": "novo"
   },
   {
@@ -2880,6 +2913,18 @@
    "tendencia": "novo"
   },
   {
+   "idioma": "en",
+   "termo": "you missed",
+   "origem": "titulo",
+   "aparicoes": 2,
+   "canais": 2,
+   "bruto": 16752.497023809527,
+   "destino": "novo-canal",
+   "score_descoberta": 7.51,
+   "score": 7.51,
+   "tendencia": "novo"
+  },
+  {
    "idioma": "pt",
    "termo": "explicador geral da republica",
    "origem": "autocomplete",
@@ -2892,24 +2937,12 @@
    "tendencia": "novo"
   },
   {
-   "idioma": "en",
-   "termo": "you missed",
+   "idioma": "es",
+   "termo": "de la historia",
    "origem": "titulo",
    "aparicoes": 2,
    "canais": 2,
-   "bruto": 16752.497023809527,
-   "destino": "novo-canal",
-   "score_descoberta": 7.5,
-   "score": 7.5,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "pt",
-   "termo": "do antigo egito a",
-   "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 11873.70996531792,
+   "bruto": 2986.5136884021904,
    "destino": "novo-canal",
    "score_descoberta": 7.5,
    "score": 7.5,
@@ -2921,7 +2954,7 @@
    "origem": "titulo",
    "aparicoes": 2,
    "canais": 2,
-   "bruto": 16444.81892257846,
+   "bruto": 16444.89924561149,
    "destino": "novo-canal",
    "score_descoberta": 7.49,
    "score": 7.49,
@@ -3033,18 +3066,6 @@
    "destino": "novo-canal",
    "score_descoberta": 7.42,
    "score": 7.42,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "pt",
-   "termo": "a maior",
-   "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 10463.228000000001,
-   "destino": "novo-canal",
-   "score_descoberta": 7.4,
-   "score": 7.4,
    "tendencia": "novo"
   },
   {
@@ -3217,35 +3238,11 @@
   },
   {
    "idioma": "pt",
-   "termo": "em N minutos",
-   "origem": "titulo",
-   "aparicoes": 3,
-   "canais": 3,
-   "bruto": 10259.692266985257,
-   "destino": "novo-canal",
-   "score_descoberta": 7.38,
-   "score": 7.38,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "pt",
-   "termo": "a história do",
-   "origem": "titulo",
-   "aparicoes": 3,
-   "canais": 3,
-   "bruto": 9901.27398332598,
-   "destino": "novo-canal",
-   "score_descoberta": 7.35,
-   "score": 7.35,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "pt",
    "termo": "a história do irã",
    "origem": "titulo",
    "aparicoes": 2,
    "canais": 2,
-   "bruto": 9177.360036738442,
+   "bruto": 9177.385141340954,
    "destino": "historia-ptbr",
    "score_descoberta": 7.29,
    "score": 7.29,
@@ -3281,7 +3278,7 @@
    "origem": "titulo",
    "aparicoes": 2,
    "canais": 2,
-   "bruto": 11783.161622276028,
+   "bruto": 11783.356537530266,
    "destino": "novo-canal",
    "score_descoberta": 7.23,
    "score": 7.23,
@@ -3453,6 +3450,18 @@
    "destino": "dossie-es",
    "score_descoberta": 7.2,
    "score": 7.2,
+   "tendencia": "novo"
+  },
+  {
+   "idioma": "fr",
+   "termo": "seigneur des",
+   "origem": "titulo",
+   "aparicoes": 5,
+   "canais": 4,
+   "bruto": 316.7978980314011,
+   "destino": "novo-canal",
+   "score_descoberta": 7.19,
+   "score": 7.19,
    "tendencia": "novo"
   },
   {
@@ -3733,6 +3742,18 @@
   },
   {
    "idioma": "es",
+   "termo": "la historia del",
+   "origem": "titulo",
+   "aparicoes": 2,
+   "canais": 2,
+   "bruto": 1815.1191484809585,
+   "destino": "novo-canal",
+   "score_descoberta": 7.04,
+   "score": 7.04,
+   "tendencia": "novo"
+  },
+  {
+   "idioma": "es",
    "termo": "toda la historia de gta 5",
    "origem": "autocomplete",
    "aparicoes": 2,
@@ -3781,14 +3802,14 @@
   },
   {
    "idioma": "es",
-   "termo": "la historia del",
+   "termo": "del mossad",
    "origem": "titulo",
    "aparicoes": 2,
    "canais": 2,
-   "bruto": 1815.1191484809585,
-   "destino": "novo-canal",
-   "score_descoberta": 6.96,
-   "score": 6.96,
+   "bruto": 1726.1315439556265,
+   "destino": "dossie-es",
+   "score_descoberta": 6.99,
+   "score": 6.99,
    "tendencia": "novo"
   },
   {
@@ -3873,18 +3894,6 @@
    "destino": "novo-canal",
    "score_descoberta": 6.92,
    "score": 6.92,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "es",
-   "termo": "del mossad",
-   "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 1726.1315439556265,
-   "destino": "dossie-es",
-   "score_descoberta": 6.91,
-   "score": 6.91,
    "tendencia": "novo"
   },
   {
@@ -4092,6 +4101,18 @@
    "tendencia": "novo"
   },
   {
+   "idioma": "fr",
+   "termo": "seigneur des anneaux",
+   "origem": "titulo",
+   "aparicoes": 4,
+   "canais": 3,
+   "bruto": 228.33733020805724,
+   "destino": "lotr-fr",
+   "score_descoberta": 6.78,
+   "score": 6.78,
+   "tendencia": "novo"
+  },
+  {
    "idioma": "en",
    "termo": "entire history of invincible",
    "origem": "autocomplete",
@@ -4236,6 +4257,18 @@
    "tendencia": "novo"
   },
   {
+   "idioma": "fr",
+   "termo": "du seigneur des anneaux",
+   "origem": "titulo",
+   "aparicoes": 3,
+   "canais": 2,
+   "bruto": 219.06619318181816,
+   "destino": "lotr-fr",
+   "score_descoberta": 6.73,
+   "score": 6.73,
+   "tendencia": "novo"
+  },
+  {
    "idioma": "es",
    "termo": "historia de los jesuitas en misiones",
    "origem": "autocomplete",
@@ -4243,18 +4276,6 @@
    "melhor_posicao": 4,
    "bruto": 1.5384615384615383,
    "destino": "dossie-es",
-   "score_descoberta": 6.72,
-   "score": 6.72,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "pt",
-   "termo": "dos faraós",
-   "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 4500.36848938209,
-   "destino": "novo-canal",
    "score_descoberta": 6.72,
    "score": 6.72,
    "tendencia": "novo"
@@ -4317,54 +4338,6 @@
    "destino": "novo-canal",
    "score_descoberta": 6.7,
    "score": 6.7,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "pt",
-   "termo": "história de",
-   "origem": "titulo",
-   "aparicoes": 4,
-   "canais": 2,
-   "bruto": 4344.32474197882,
-   "destino": "novo-canal",
-   "score_descoberta": 6.69,
-   "score": 6.69,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "de la terre du",
-   "origem": "titulo",
-   "aparicoes": 15,
-   "canais": 7,
-   "bruto": 586.8245141553554,
-   "destino": "novo-canal",
-   "score_descoberta": 6.69,
-   "score": 6.69,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "pt",
-   "termo": "a história completa",
-   "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 4131.039547319985,
-   "destino": "novo-canal",
-   "score_descoberta": 6.65,
-   "score": 6.65,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "pt",
-   "termo": "egito antigo",
-   "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 4131.039547319985,
-   "destino": "novo-canal",
-   "score_descoberta": 6.65,
-   "score": 6.65,
    "tendencia": "novo"
   },
   {
@@ -5041,6 +5014,18 @@
   },
   {
    "idioma": "fr",
+   "termo": "histoire de",
+   "origem": "titulo",
+   "aparicoes": 3,
+   "canais": 3,
+   "bruto": 148.772626209022,
+   "destino": "novo-canal",
+   "score_descoberta": 6.25,
+   "score": 6.25,
+   "tendencia": "novo"
+  },
+  {
+   "idioma": "fr",
    "termo": "histoire de france",
    "origem": "autocomplete",
    "aparicoes": 2,
@@ -5505,18 +5490,6 @@
    "destino": "novo-canal",
    "score_descoberta": 6.05,
    "score": 6.05,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "seigneur des",
-   "origem": "titulo",
-   "aparicoes": 5,
-   "canais": 4,
-   "bruto": 316.7978980314011,
-   "destino": "novo-canal",
-   "score_descoberta": 6.04,
-   "score": 6.04,
    "tendencia": "novo"
   },
   {
@@ -6252,18 +6225,6 @@
    "tendencia": "novo"
   },
   {
-   "idioma": "fr",
-   "termo": "seigneur des anneaux",
-   "origem": "titulo",
-   "aparicoes": 4,
-   "canais": 3,
-   "bruto": 228.33733020805724,
-   "destino": "lotr-fr",
-   "score_descoberta": 5.7,
-   "score": 5.7,
-   "tendencia": "novo"
-  },
-  {
    "idioma": "es",
    "termo": "historia mossadu",
    "origem": "autocomplete",
@@ -6355,18 +6316,6 @@
    "melhor_posicao": 5,
    "bruto": 1.1923076923076923,
    "destino": "novo-canal",
-   "score_descoberta": 5.66,
-   "score": 5.66,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "du seigneur des anneaux",
-   "origem": "titulo",
-   "aparicoes": 3,
-   "canais": 2,
-   "bruto": 219.06619318181816,
-   "destino": "lotr-fr",
    "score_descoberta": 5.66,
    "score": 5.66,
    "tendencia": "novo"
@@ -7374,18 +7323,6 @@
    "aparicoes": 2,
    "melhor_posicao": 4,
    "bruto": 1.0714285714285716,
-   "destino": "novo-canal",
-   "score_descoberta": 5.25,
-   "score": 5.25,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "histoire de",
-   "origem": "titulo",
-   "aparicoes": 3,
-   "canais": 3,
-   "bruto": 148.772626209022,
    "destino": "novo-canal",
    "score_descoberta": 5.25,
    "score": 5.25,
@@ -9969,6 +9906,18 @@
    "destino": "novo-canal",
    "score_descoberta": 4.91,
    "score": 4.91,
+   "tendencia": "novo"
+  },
+  {
+   "idioma": "fr",
+   "termo": "en terre du milieu",
+   "origem": "titulo",
+   "aparicoes": 2,
+   "canais": 2,
+   "bruto": 48.347565184049074,
+   "destino": "lotr-fr",
+   "score_descoberta": 4.87,
+   "score": 4.87,
    "tendencia": "novo"
   },
   {
@@ -22230,18 +22179,6 @@
    "aparicoes": 1,
    "melhor_posicao": 5,
    "bruto": 1.4285714285714286,
-   "destino": "lotr-fr",
-   "score_descoberta": 4.09,
-   "score": 4.09,
-   "tendencia": "novo"
-  },
-  {
-   "idioma": "fr",
-   "termo": "en terre du milieu",
-   "origem": "titulo",
-   "aparicoes": 2,
-   "canais": 2,
-   "bruto": 48.347565184049074,
    "destino": "lotr-fr",
    "score_descoberta": 4.09,
    "score": 4.09,
