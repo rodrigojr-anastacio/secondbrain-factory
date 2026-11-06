@@ -11,12 +11,14 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md` (armadilhas d
 - **Alerta 04/11/2026:** no 003 v1, com OpenAI sem crédito, as imagens saíram no `fal-ai/flux/dev`, e o Rodrigo disse que ficaram "bem piores que as do gpt-image-2" e que **"sumiram os bonequinhos de cabeça redonda"**; apareceram rostos realistas e caricaturas (qizilbash com cara de Papai Noel). [BRIEF-historia-003-v2.md; conhecimento/anti-padroes.md §3b] A bancada de modelos do fal está em `videos/003-ira/v2-amostras/imagens/` (job `historia-003-v2`). **Registre aqui o modelo aprovado pelo Rodrigo.** Até lá: gpt-image-2 é o padrão; outro motor só depois de uma amostra aprovada que mantenha os bonequinhos.
 - No flux/dev, use `{width: 1536, height: 864}` (landscape_16_9 sai 1024×576 e borra). [canal.yaml; anti-padroes §3b]
 
+- **004 China (05/11/2026):** lote-prova aprovado na 1ª tomada (Qin, Confúcio, multidão, mapa, túmulo, Muralha) com a regra "round-white-head cartoon…". 215 imagens, 8 refeitas. O que o nano-banana errou: inventa astronautas e põe a Terra no céu numa sonda robótica (Chang'e 6) → escreva "unmanned… no people, no Earth visible"; desenha **coroa europeia** quando o prompt diz "crown" sem descrever ("a Chinese imperial crown: a flat black board with hanging bead strings"); "ancient tomb" com palmeiras vira Egito ("grassy Chinese burial hill with pine trees"); placas e quadros ganham letras inventadas ("no boards, no signs"); "flags" em 1911 saem com tricolor errada ("no flags"). Custo real US$ 0,0459/img. [QA.md 004]
+
 ## Edição e ritmo
 - Um plano a cada ~3–3,6 s: ~20 por minuto nos 2 primeiros minutos e ~17 depois; Ken Burns ou pan leve; corte seco dentro do bloco e crossfade de 5 frames entre blocos. [estilo.md antigo; QA.md 001 e 002: Egito v2 295 planos, média 3,46 s; Índia 335 planos, média 3,48 s]
 - 1º minuto: ≥ ~21 planos (o Egito v2 caiu para 21 com as pausas novas, no limite). [QA.md 001]
 - Referência HiM Irã: 17 cortes/min no início (`youtube.assistidos`).
 - Reuso: 0% nos 3 primeiros minutos, ~40% depois, nunca o mesmo enquadramento em < 60 s. Para ~16 min, ~190–205 imagens.
-- Trilha original sintetizada no código (sem samples), sob a voz a −33 dB; mix em −15 LUFS. Trilha do 003: modo Hijaz (Oriente Médio) — escolha a escala pela região do tema. [commit fe5c7e4]
+- Trilha original sintetizada no código (sem samples), sob a voz a −33 dB; mix em −15 LUFS. Trilha do 003: modo Hijaz (Oriente Médio); do 004: pentatônica chinesa (modo gong em Ré, timbre de guzheng). Escolha a escala pela região do tema. [commit fe5c7e4; 004 `tools/build.py`]
 
 ## Texto na tela
 - **Nenhuma legenda queimada** (legenda só no `.srt`).

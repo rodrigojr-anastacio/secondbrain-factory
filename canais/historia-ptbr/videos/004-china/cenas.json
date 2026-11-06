@@ -569,7 +569,7 @@
  },
  {
   "id": "I143",
-  "prompt": "A Mongol-era Chinese market where people carry wheelbarrows full of paper money to buy one bread, comic, no readable writing, no Chinese characters, no letters anywhere"
+  "prompt": "A Mongol-era Chinese market street where people push wheelbarrows piled with paper money to buy one small bread, comic, plain stalls without any signs or banners, no readable writing, no Chinese characters, no letters anywhere"
  },
  {
   "id": "I144",
@@ -589,7 +589,7 @@
  },
  {
   "id": "I148",
-  "prompt": "A beggar's bowl and an emperor's crown side by side on a red cushion, symbolic"
+  "prompt": "A wooden beggar's bowl and a Chinese imperial crown (a flat black board with hanging bead strings) side by side on a red cushion in a Chinese palace, symbolic, no people"
  },
  {
   "id": "I149",
@@ -681,7 +681,7 @@
  },
  {
   "id": "I171",
-  "prompt": "A young Chinese scholar crying in front of an exam result board with no readable writing, comic and sad, no readable writing, no Chinese characters, no letters anywhere"
+  "prompt": "A young Chinese scholar in a blue robe crying on the steps of an exam hall while other candidates celebrate in the background, comic and sad, no boards, no signs, no readable writing, no Chinese characters, no letters anywhere"
  },
  {
   "id": "I172",
@@ -693,7 +693,7 @@
  },
  {
   "id": "I174",
-  "prompt": "Revolutionary soldiers in 1911 cutting off their braids and raising rifles in the streets of a Chinese city"
+  "prompt": "Revolutionary soldiers in 1911 cutting off their long braids with scissors and raising rifles in the streets of a Chinese city, no flags"
  },
  {
   "id": "I175",
@@ -829,7 +829,7 @@
  },
  {
   "id": "I208",
-  "prompt": "A round-white-head cartoon leader with black hair and a dark suit standing at a podium in a great hall with red curtains"
+  "prompt": "A round-white-head cartoon leader with black hair and a dark suit standing at a podium in a vast modern Chinese assembly hall with a red curtain, rows of delegates, a big red star on the ceiling, no gothic windows"
  },
  {
   "id": "I209",
@@ -837,7 +837,7 @@
  },
  {
   "id": "I210",
-  "prompt": "A Chinese lunar lander on the grey far side of the Moon with the Earth hidden, a small rover beside it"
+  "prompt": "An unmanned robotic Chinese lunar lander with solar panels and a robotic arm scooping grey soil on the far side of the Moon, black starry sky with no Earth and no moon visible, no people, no astronauts"
  },
  {
   "id": "I211",
@@ -857,6 +857,6 @@
  },
  {
   "id": "I215",
-  "prompt": "a cheerful little cartoon narrator character with a round white head and dot eyes standing in front of the closed stone door of an ancient tomb, holding a lantern and scratching its head, thinking"
+  "prompt": "a cheerful little cartoon narrator character with a round white head and dot eyes standing in front of a grassy Chinese burial hill with pine trees and a closed stone gate at its foot, holding a lantern and scratching its head, thinking, terracotta warriors peeking from the side"
  }
 ]

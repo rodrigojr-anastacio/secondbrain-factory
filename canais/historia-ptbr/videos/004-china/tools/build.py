@@ -48,7 +48,7 @@ def salvar(p, x):
 
 # ───────────── trilha original gerada no código (sem samples) ─────────────
 def trilha(dur):
-    """Pad modal, drone de Ré + Lá e dedilhado (tipo santur) no modo Hijaz/Shur em Ré (Ré Mi♭ Fá♯ Sol Lá Si♭ Dó), sabor persa. Sons sintetizados aqui; nada de terceiros."""
+    """004-china: pad, drone de Ré + Lá e dedilhado (timbre de guzheng) na escala pentatônica chinesa (modo gong em Ré: Ré Mi Fá♯ Lá Si). Sons sintetizados aqui; nada de terceiros. (No 003 era o modo Hijaz persa.)"""
     rng = np.random.default_rng(42)
     N = int(dur * SR); t = np.arange(N) / SR
     hz = lambda m: 440 * 2 ** ((m - 69) / 12)
@@ -57,7 +57,7 @@ def trilha(dur):
     out += 0.05 * np.sin(2 * np.pi * hz(38) * t) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 19))
     out += 0.03 * np.sin(2 * np.pi * hz(45) * t + 1) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 27 + 2))
     # pads: acordes de 12 s com envelope lento
-    prog = [[50, 57, 62, 66], [51, 58, 63, 67], [48, 55, 60, 63], [50, 57, 62, 66], [43, 50, 55, 58], [51, 58, 63, 67]]
+    prog = [[50, 57, 62, 66], [47, 54, 59, 64], [45, 52, 57, 62], [50, 57, 62, 66], [40, 47, 52, 59], [45, 52, 57, 64]]   # só notas da pentatônica (Ré Mi Fá♯ Lá Si) + quintas
     CH = 12.0
     for c in range(int(dur / CH) + 2):
         s0 = int((c * CH - 3) * SR); L = int((CH + 6) * SR)
@@ -71,8 +71,8 @@ def trilha(dur):
                 fr = hz(m) * 2 ** (det / 12); ph = rng.uniform(0, 6.3)
                 seg += np.sin(2 * np.pi * fr * tt + ph) + 0.15 * np.sin(4 * np.pi * fr * tt + ph)
         out[a:b] += 0.012 * seg * env
-    # dedilhado (Karplus-Strong, timbre de santur) no modo Hijaz em Ré: Ré Mi♭ Fá♯ Sol Lá Si♭ Dó Ré
-    escala = [62, 63, 66, 67, 69, 70, 72, 74]
+    # dedilhado (Karplus-Strong, timbre de guzheng) na pentatônica de Ré: Ré Mi Fá♯ Lá Si Ré Mi
+    escala = [62, 64, 66, 69, 71, 74, 76]
     cordas = {}
     for m in escala:
         L = int(SR / hz(m)); n = int(1.8 * SR)

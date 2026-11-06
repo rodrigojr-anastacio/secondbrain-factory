@@ -21,6 +21,10 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md` (que guarda s
 - `[break]`/`[long-break]`: no modo por frase, sem `[break]` (a tool já põe 0,32 s); `[long-break]` só antes de revelação. Sem o modo por frase: `[break]` só entre ideias, no máximo ~1 por minuto; excesso de pausas soou "lento e estranho". [estilo.md antigo]
 - O Fish **corta a frase curta depois de `[break]` no fim do bloco** ("Guarde essa chuva" sumiu na Índia): feche o bloco com tag de tom em vez de `[break]` e confira com Whisper por bloco. [QA.md 002]
 
+## Nomes estrangeiros (desde 004 China, 05/11/2026)
+- O Fish lê como português: "Qin" sai "kin", "Zhou" sai "zou". O `roteiro.py` do 004 tem a lista `FALA` e grava no `blocos.json` duas grafias: `texto` (fonética, vai ao Fish: "Tchin Chi Ruang", "Djou", "Xang", "Dju Iuan-djang", "Djêng Rrâ", "Dâng Chiau-ping", "Rran") e `tela` (grafia correta, usada nas legendas pelo `build.py`). O Whisper transcreveu "Qin", "Zhu Yuanzhang" e "Xiaoping" a partir da grafia fonética. Use exônimo em português quando existir (Nanquim, Pequim). No QA, compare com as duas grafias (`004-china/tools/qa_fonetico.py`). Teste os nomes com 4–5 blocos (US$ 0,02) antes do vídeo inteiro. [RELATORIO.md 004]
+- Junção "Djou enfraqueceram" virou "duem fraqueceram": evite nome fonético curto colado em verbo que começa com vogal.
+
 ## Não faça
 - Voz "Dio Historias"/espanhol neutro (é do `dossie-es`) ou Kokoro `ff_siwis` (é do `lotr-fr`).
 - Tags de direção ("[serious, calm]", "[low voice]") e velocidade 0,97 (A/B do 003).

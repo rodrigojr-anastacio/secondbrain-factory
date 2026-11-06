@@ -290,7 +290,7 @@ b("Kublai mudou a capital para a cidade que hoje chamamos de Pequim e deu ao gov
   "khanbaliq|A great walled Mongol capital city with palaces and a big square plain around it, yurts outside the walls@@PEQUIM",
   "mongol_mandate|A Mongol khan raising his arms toward a golden sky, trying to catch the heavenly light, comic")
 b("Só que os mongóis imprimiram papel-moeda demais, e ele virou pó. E, em mil trezentos e quarenta e quatro, o rio Amarelo transbordou de novo.",
-  "inflation|A Mongol-era Chinese market where people carry wheelbarrows full of paper money to buy one bread, comic" + SEMTXT,
+  "inflation|A Mongol-era Chinese market street where people push wheelbarrows piled with paper money to buy one small bread, comic, plain stalls without any signs or banners" + SEMTXT,
   "river_flood#aberto", card="1344")
 b("Os camponeses foram obrigados a refazer os diques, com fome. Enchente, fome, revolta… o Céu estava falando de novo.",
   "dyke_labor|Starving Chinese peasants forced to carry earth to rebuild river dykes under Mongol guards with whips",
@@ -302,7 +302,7 @@ b("Dessa revolta saiu um órfão que tinha sido monge mendigo, Zhu Yuanzhang. Em
   f"zhu_beggar|{ZHU}, walking alone on a muddy road in the rain, hungry@@ZHU YUANZHANG",
   f"zhu_emperor|{ZHU_EMP}, on the dragon throne, the Mongols fleeing north in the background@@DINASTIA MING", card="1368")
 b("De mendigo a Filho do Céu. Na China, isso era possível… desde que você vencesse.",
-  "beggar_to_king|A beggar's bowl and an emperor's crown side by side on a red cushion, symbolic")
+  "beggar_to_king|A wooden beggar's bowl and a Chinese imperial crown (a flat black board with hanging bead strings) side by side on a red cushion in a Chinese palace, symbolic, no people")
 b("§ E os Ming pensaram grande. A partir de mil quatrocentos e cinco, o almirante Zheng He levou frotas enormes até a costa da África.",
   f"zheng_he|{ZHENG}, standing on the deck of a giant treasure ship, pointing at the horizon@@ZHENG HE",
   "fleet_giant",
@@ -345,12 +345,12 @@ b("A China perdeu e entregou Hong Kong. Os chineses chamam os cem anos seguintes
   "treaty_sign|Qing officials signing a treaty on a British warship with British officers around, humiliated" + SEMTXT,
   "map_hongkong|Map of the southern Chinese coast with one small island near a river mouth highlighted in red, " + MAPA, card="1842")
 b("§ Então veio o pior, de dentro. Um homem reprovado nos exames imperiais teve visões e acordou certo de que era o irmão mais novo de Jesus.",
-  "exam_fail|A young Chinese scholar crying in front of an exam result board with no readable writing, comic and sad" + SEMTXT,
+  "exam_fail|A young Chinese scholar in a blue robe crying on the steps of an exam hall while other candidates celebrate in the background, comic and sad, no boards, no signs" + SEMTXT,
   f"hong_vision|{HONG}, in a fever dream seeing a glowing bearded figure in the clouds giving him a sword@@HONG XIUQUAN")
 b("Chamou o movimento de Reino Celestial da Grande Paz. Celestial: o Céu, de novo. A guerra durou catorze anos e matou de vinte a trinta milhões de pessoas.",
   "taiping_army|A huge Taiping rebel army with long hair, red and yellow headscarves and banners with no writing, marching", card="1851")
 b("§ Em mil novecentos e onze, o Céu mudou de ideia pela última vez: veio a revolução. E o imperador era um menino, Puyi, que tinha subido ao trono com dois anos.",
-  "revolution_1911|Revolutionary soldiers in 1911 cutting off their braids and raising rifles in the streets of a Chinese city",
+  "revolution_1911|Revolutionary soldiers in 1911 cutting off their long braids with scissors and raising rifles in the streets of a Chinese city, no flags",
   f"puyi_boy|{PUYI}, crying while officials bow@@PUYI", card="1911")
 b("Em fevereiro de mil novecentos e doze, aos seis anos, ele abdicou. Dois mil anos de imperadores acabaram com uma criança. Guarde esse nome.",
   "puyi_six|A small six-year-old cartoon boy emperor in a yellow robe playing with a toy while adults read a document over him" + SEMTXT,
@@ -410,10 +410,10 @@ b("§ A política não abriu do mesmo jeito. Em mil novecentos e oitenta e nove,
   "tiananmen|A huge square in Beijing in 1989 full of student protesters with banners with no writing, tents",
   "tanks_square|Army tanks rolling on a wide avenue in Beijing at night, empty streets", card="1989")
 b("Desde dois mil e doze, quem manda é Xi Jinping, que tirou o limite de mandatos.",
-  "leader_today|A round-white-head cartoon leader with black hair and a dark suit standing at a podium in a great hall with red curtains@@XI JINPING")
+  "leader_today|A round-white-head cartoon leader with black hair and a dark suit standing at a podium in a vast modern Chinese assembly hall with a red curtain, rows of delegates, a big red star on the ceiling, no gothic windows@@XI JINPING")
 b("§ Hoje, a China fabrica a maior parte dos carros elétricos do planeta e trouxe amostras do lado oculto da Lua. Mas, em dois mil e vinte e cinco, nasceram só sete milhões e novecentos mil bebês, e o país encolheu pelo quarto ano seguido.",
   "ev_factory|Rows of new electric cars coming off a production line in a modern Chinese factory",
-  "moon_far|A Chinese lunar lander on the grey far side of the Moon with the Earth hidden, a small rover beside it",
+  "moon_far|An unmanned robotic Chinese lunar lander with solar panels and a robotic arm scooping grey soil on the far side of the Moon, black starry sky with no Earth and no moon visible, no people, no astronauts",
   "few_babies|A big empty maternity ward with only one baby in a crib, a nurse looking around, comic and sad",
   "elderly_park|Many elderly Chinese people doing tai chi in a park in the morning, very few young people", card="2025")
 
@@ -434,7 +434,7 @@ b("§ Hoje, ninguém fala em Mandato do Céu. Mas a pergunta continua a mesma de
   "beijing_today|Modern Beijing today: the old Temple of Heaven with its round blue roof in front of modern towers, a sunny day@@TEMPLO DO CÉU",
   "heaven_gives")
 b("E você? Se fosse você, abria o túmulo do Primeiro Imperador ou deixava fechado? Conta aqui nos comentários.",
-  f"guide_comment|{GUIA} standing in front of the closed stone door of an ancient tomb, holding a lantern and scratching its head, thinking",
+  f"guide_comment|{GUIA} standing in front of a grassy Chinese burial hill with pine trees and a closed stone gate at its foot, holding a lantern and scratching its head, thinking, terracotta warriors peeking from the side",
   "terracotta_face")
 
 

@@ -16,6 +16,7 @@ O Rodrigo gostou da pegada da thumb-3 da fase 1 (`videos/003-ira/v2-amostras/thu
 - Base: nano-banana-2.1/edit + refs do canal, 2 tomadas por conceito (US$ 0,046 cada), texto composto em PIL (fontes em `videos/003-ira/v2-amostras/thumbs/base/fonts/`).
 - Irã v2: 1 COROA × TURBANTE (principal), 2 PÉRSIA × ROMA (Shapur × Valeriano), 3 PETRÓLEO × CIA (Mossadegh × agente). **Hipótese** até o CTR do "Testar e comparar": registre aqui o vencedor e o CTR de cada uma.
 - Para o próximo país, escolha 3 pares de conflito do próprio roteiro (personagem × personagem, ou povo × povo).
+- China 004 (05/11/2026): 1 **IMPERADOR × MORTE** "210 a.C." (Qin com as pílulas × a morte encapuzada, exército de barro × rios de mercúrio; principal, casa com o hook), 2 **DRAGÃO × CANHONEIRA** "1839" (oficial Qing × capitão britânico com o baú de ópio), 3 **IMPERADOR × MONGOL** "1279". As 6 bases saíram boas na 1ª tomada (US$ 0,046 cada); palavra longa (CANHONEIRA) cabe com a fonte a 86 px, legível a 320 px. **Hipótese** até o "Testar e comparar".
 
 ## O que manter (vale até haver dado contra)
 - Texto **sempre composto no código** (`src/Thumbnail.jsx`), nunca escrito pela IA. Hoje: Libre Caslon 700 + Open Sans 800. [BRIEF.md 001; QA.md 001]
