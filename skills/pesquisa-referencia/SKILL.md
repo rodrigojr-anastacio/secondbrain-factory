@@ -24,6 +24,7 @@ Procedimento-base: `playbooks/produzir-video.md` §0–1.
    INSERT INTO youtube.videos (canal_slug, numero, titulo, status, pasta)
    VALUES ('<slug>', <N>, '<título de trabalho>', 'ideia', 'canais/<slug>/videos/<NNN-slug>') RETURNING id;
    ```
+   **historia-ptbr ≥ 006:** grave também a versão da bíblia de roteiro: `UPDATE youtube.videos SET biblia_versao='v2' WHERE id=<id>` (001–005 = `'v1'`; ver `canais/historia-ptbr/biblia/README.md`). No `BRIEF.md`, a pergunta central candidata e as regras da v2 de `biblia/roteiro.md`.
 4. **Crie a pasta** `canais/<slug>/videos/NNN-slug/` copiando o setup do vídeo mais recente do mesmo canal **sem** `node_modules`, `out/`, `audio/`, `imagens/` (ex.: `rsync -a --exclude node_modules --exclude out --exclude audio --exclude imagens --exclude qa --exclude logs <anterior>/ <novo>/`). Não copie BRIEF/SCRIPT/ETAPA do anterior.
 5. **Escreva `BRIEF.md`** com: tema; título de trabalho (fórmula de `biblia/titulo.md`); duração-alvo e nº de palavras (tabela "Tamanho" de `biblia/roteiro.md`); **link para a bíblia do canal** (`canais/<slug>/biblia/`) e as 3 regras dela que mais importam neste tema; idioma; referência (ID, views, idade, duração, hook real transcrito, estrutura em capítulos, cortes/min); fio condutor e loops candidatos; **teto de custo em US$** (voz + imagens + thumb; base real em `conhecimento/anti-padroes.md`); critérios de pronto e restrições do canal.
 6. Atualize `canais/<slug>/backlog.md` (item em produção).

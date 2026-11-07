@@ -30,6 +30,12 @@ CREATE TABLE IF NOT EXISTS videos (
   atualizado_em timestamptz NOT NULL DEFAULT now(),
   UNIQUE (canal_slug, numero)
 );
+-- Versão da bíblia de roteiro com que o vídeo foi escrito (comparativo de desempenho entre versões).
+-- historia-ptbr: 'v1' = 001–005 (biblia/roteiro-v1.md), 'v2' = 006+ (biblia/roteiro.md, aprovada em 07/11/2026).
+-- A skill roteiro grava a versão ao escrever o roteiro. Comparação: canais/historia-ptbr/biblia/README.md.
+ALTER TABLE videos ADD COLUMN IF NOT EXISTS biblia_versao text;
+UPDATE videos SET biblia_versao = 'v1'
+ WHERE canal_slug = 'historia-ptbr' AND numero BETWEEN 1 AND 5 AND biblia_versao IS NULL;
 
 -- Métricas diárias (snapshot do dia) dos nossos canais e vídeos
 CREATE TABLE IF NOT EXISTS metricas_canal (

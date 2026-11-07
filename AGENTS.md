@@ -66,7 +66,7 @@ Acesso local sem senha, como o usuário do sistema: `psql -d vida`, ou `tools/db
 | Tabela | O que guarda | Quem grava |
 |---|---|---|
 | `canais` | nossos canais (slug = pasta em `canais/`) | manual / agente |
-| `videos` | esteira: cada vídeo nosso e o status (ideia → roteiro → producao → qa → pronto → publicado) | **o agente: atualize ao avançar uma etapa e, ao publicar ou republicar, grave `youtube_id`, `publicado_em` e o título no ar** |
+| `videos` | esteira: cada vídeo nosso e o status (ideia → roteiro → producao → qa → pronto → publicado); `biblia_versao` = versão da bíblia de roteiro do vídeo (historia-ptbr: v1 = 001–005, v2 = 006+; comparativo em `canais/historia-ptbr/biblia/README.md`) | **o agente: atualize ao avançar uma etapa e, ao publicar ou republicar, grave `youtube_id`, `publicado_em` e o título no ar** |
 | `metricas_canal`, `metricas_video` | snapshot diário dos nossos canais e vídeos | `report.py --coletar` (rotina diária) |
 | `garimpo_execucoes`, `garimpo_canais`, `garimpo_snapshots`, `garimpo_videos` | garimpo de tendências e histórico de crescimento | `trends.py` |
 | `assistidos` | vídeos analisados (hook, cortes por minuto, anúncios, assets) | `watch.py` |

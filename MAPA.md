@@ -32,7 +32,7 @@ Canais hoje (`youtube.canais`, 2026-11-04):
 
 ## Banco (Postgres `vida`)
 - `youtube`:
-  - `canais`, `videos` (esteira e status; **o agente atualiza a cada etapa**);
+  - `canais`, `videos` (esteira e status; **o agente atualiza a cada etapa**; `biblia_versao` marca a versão da bíblia de roteiro, historia-ptbr v1 = 001–005 × v2 = 006+);
   - `metricas_canal` e `metricas_video` (gravados por `report.py --coletar`, sem CTR, que só existe no Studio);
   - `assistidos` (gravado por `watch.py`);
   - `garimpo_*` (gravado por `trends.py`);

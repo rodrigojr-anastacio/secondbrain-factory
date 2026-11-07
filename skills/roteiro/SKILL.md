@@ -10,6 +10,8 @@ Procedimento-base: `playbooks/produzir-video.md` §2. Modelo recomendado: **opus
 
 **Caixinha do canal:** a estrutura do roteiro **não é da fábrica, é do canal.** Cada canal tem a sua em `canais/<slug>/biblia/roteiro.md`, e ela prevalece sobre `conhecimento/`. Nunca use estrutura, hook ou tom de outro canal. Ex.: `historia-ptbr` = narrativa contínua com eras ligadas (History in Minutes); `dossie-es` = EXPEDIENTES curtos encadeados (Archive in Minutes); `lotr-fr` = do familiar à pergunta, cronológico com payoff no fim. O erro de 04/11/2026 (capítulos-objeto do Archive no Irã do historia-ptbr) está em `conhecimento/anti-padroes.md` §8.
 
+**historia-ptbr, versão da bíblia (desde 07/11/2026):** **v2 vale a partir do 006; vídeos 001–005 seguem a v1 em `canais/historia-ptbr/biblia/roteiro-v1.md`.** Em vídeo ≥ 006: (a) declare a `Pergunta central: …?` no topo do `SCRIPT.md` (o `roteiro.py` escreve a linha); (b) rode o checklist v2 (passo 6b); (c) grave `biblia_versao='v2'` no banco (passo 7). Em 001–005, não use a v2 nem o checklist v2. Outros canais: ignore este parágrafo.
+
 ## Antes de agir
 1. **Primeiro a bíblia:** `canais/<slug>/biblia/README.md` (canal-modelo e "o que NÃO fazer aqui") e `biblia/roteiro.md` inteiro (estrutura, hook, transições, fecho, tamanho, tom, checklist). Para o título de trabalho, `biblia/titulo.md`; para a voz (tags, pausas), `biblia/voz.md`.
 2. Leia `$V/BRIEF.md` (referência, duração-alvo, loops, teto) e, se houver, `$V/ref/*.txt`.
@@ -26,7 +28,8 @@ Procedimento-base: `playbooks/produzir-video.md` §2. Modelo recomendado: **opus
 4. **Fatos:** cada número/data com fonte em `SOURCES.md`; estimativa dita como estimativa; fato não confirmado como `[PENDENTE]` com versão alternativa (não trave).
 5. **Gere e valide:** `cd $V && python3 roteiro.py` (gera `SCRIPT.md`, `blocos.json` e, se o storyboard já estiver no arquivo, `cenas.json`/`STORYBOARD.md`/`storyboard.json`).
 6. Conte as palavras: `python3 -c "import json,re;b=json.load(open('blocos.json'));print(sum(len(re.sub(r'\[[^]]*\]','',x['texto']).split()) for x in b))"` e compare com a tabela "Tamanho" da bíblia (ritmo medido da voz do canal).
-7. Atualize o status: `psql -d vida -c "UPDATE youtube.videos SET status='roteiro', atualizado_em=now() WHERE id=<id>"`.
+6b. **Só historia-ptbr ≥ 006 (checklist v2):** `python3 ~/workspace/fabrica-youtube/canais/historia-ptbr/tools/checklist_roteiro_v2.py $V` (estima os tempos a 130 ppm antes da voz). Código 1 = reprovou: corrija e rode de novo (vale o limite de 2 rodadas do loop). Cole a saída no `ETAPA1.md`; os 3 itens MANUAL (cena por capítulo, humor, teste da troca) você confere lendo.
+7. Atualize o status: `psql -d vida -c "UPDATE youtube.videos SET status='roteiro', atualizado_em=now() WHERE id=<id>"`. No historia-ptbr ≥ 006, junto: `biblia_versao='v2'` (versões em `canais/historia-ptbr/biblia/README.md`).
 
 ## Critérios de pronto (avaliar)
 - **Passa no checklist de `canais/<slug>/biblia/roteiro.md`** item por item (marque cada um no `ETAPA1.md`).

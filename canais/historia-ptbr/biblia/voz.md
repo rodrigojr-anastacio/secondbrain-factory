@@ -10,6 +10,9 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md` (que guarda s
   - Mais lento: ~125–133 ppm (ver `roteiro.md`, Tamanho).
 - Tom: narrador contador de história, caloroso e curioso, que **conta** e não lê. Não é o narrador seco de documentário do `dossie-es`.
 
+## Ritmo na bíblia de roteiro v2 (só vídeos ≥ 006; Hipótese desde 07/11/2026)
+A `roteiro.md` v2 (regra 10) mira ~140–145 ppm com pausas (hoje 127–129 no drama-3). A voz aprovada **não muda**; o teste do 006 é encurtar os gaps do `build.py` (0,35/0,9/1,5 s → ~0,25/0,6/1,2 s) e medir os 60 s iniciais antes do vídeo inteiro. Registre aqui o resultado. Vídeos 001–005 seguem as pausas abaixo.
+
 ## Histórico: estado em 04/11/2026 (resolvido em 05/11 com o drama-3 por bloco)
 - Feedback do Rodrigo sobre o 002: "robótica e atropelada". A/B de 11 tomadas do hook do 003 (`videos/003-ira/amostras-voz/LEIA.md`, US$ 0,14): texto reescrito para a fala + `tts_fish.py --por-frase` (0,32 s entre frases) teve a menor repetição melódica (0,09 × 0,14 do jeito do 002); tags de direção e velocidade 0,97 pioraram. O 003 v1 saiu assim (`modo: por_frase`). [conhecimento/anti-padroes.md §2b]
 - **Depois de ouvir, o Rodrigo achou a narração do 003 ainda ruim** ("parece que o cara tá lendo corrido, e não contando uma história") e **preferiu a amostra A (`A-atual`)**. Ele quer testar o modelo mais recente do Fish. [BRIEF-historia-003-v2.md, 04/11/2026] Teste em `videos/003-ira/v2-amostras/voz/` (job `historia-003-v2`). **Registre aqui o modelo/técnica aprovados.** Até lá, a decisão "G = por frase" é **Hipótese em xeque**.

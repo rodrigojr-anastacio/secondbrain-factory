@@ -41,7 +41,7 @@ nohup tools/claude_run.sh --video <id> --etapa roteiro-storyboard --cwd $V \
 ## Tetos e status
 - Antes das etapas 2 e 3, some o gasto: `psql -d vida -c "SELECT fornecedor, sum(custo) FROM financas.consumo WHERE ref_tipo='youtube.video' AND ref_id=<id> GROUP BY 1"`. Se a previsão passar do teto do BRIEF, **pare e pergunte**.
 - Claude Code (preço de lista, não cobrança no Max): `SELECT * FROM youtube.custo_claude_por_video WHERE video_id=<id>;`.
-- `youtube.videos.status`: `ideia` (etapa 0) → `roteiro` (1) → `producao` (2) → `qa` (3) → `pronto` (QA aprovado). Atualize sempre com `atualizado_em=now()`. `publicado` só depois que o Rodrigo publicar (aí grave `youtube_id`, `publicado_em`, título no ar e atualize `backlog.md`).
+- `youtube.videos.status`: `ideia` (etapa 0) → `roteiro` (1) → `producao` (2) → `qa` (3) → `pronto` (QA aprovado). Atualize sempre com `atualizado_em=now()`. No historia-ptbr, `biblia_versao` marca a bíblia de roteiro do vídeo (`'v1'` = 001–005, `'v2'` = 006+; gravada na etapa 0/roteiro) para o comparativo do `canais/historia-ptbr/biblia/README.md`. `publicado` só depois que o Rodrigo publicar (aí grave `youtube_id`, `publicado_em`, título no ar e atualize `backlog.md`).
 
 ## Relatório final (ao Rodrigo, curto)
 - Título, duração, caminhos de `out/` (no Telegram, anexe com `MEDIA:/caminho` a thumb e o contact sheet; o mp4 1080p fica na VPS).
