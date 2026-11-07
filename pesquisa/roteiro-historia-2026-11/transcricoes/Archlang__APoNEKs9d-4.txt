@@ -1,0 +1,405 @@
+# Why Every Revolution Eats Its Own Children
+# id: APoNEKs9d-4 | canal: ArchLang (@Archlang, 70200 inscritos) | grupo/papel: C-fraco
+# views: 966 (Data API, 2026-11-07) | publicado: 2026-10-20 (17 dias) | duração: 23:28 | palavras: 3703 (158 ppm) | Whisper small, en
+
+[0:00] Congratulations, you did it.
+[0:03] You and your friends just overthrew the government.
+[0:06] The corrupt king is gone.
+[0:07] The oppressive regime is finished.
+[0:09] The people who are making everyone's lives miserable have been removed from power.
+[0:13] You are standing in the ruins of the old system with a flag in one hand and absolutely
+[0:18] no plan in the other hand.
+[0:20] Everyone is cheering.
+[0:22] Someone is already writing a very inspiring speech.
+[0:25] Someone else is already deciding who gets what job in the new government.
+[0:29] And somewhere in the back of the crowd, a third person is looking at you specifically and making
+[0:34] a mental note.
+[0:35] That third person is going to be a problem.
+[0:37] Not today.
+[0:38] Today, everyone is on the same side.
+[0:41] Today is Victory Day.
+[0:43] Today is the day the history books will mark as the beginning of a new era.
+[0:47] But that third person is patient.
+[0:50] And in approximately three to five years, they are going to try to have you executed.
+[0:55] Welcome to revolution.
+[0:56] Population.
+[0:57] Everyone who thought this would go differently.
+[1:00] Before we get into it, hit like and subscribe.
+[1:03] Let's go.
+[1:04] Here's the thing nobody tells you about revolutions before you join one.
+[1:08] They all start with an excellent reason, genuinely excellent.
+[1:12] The French revolution starts because the government is bankrupt, the harvest is failed, ordinary
+[1:17] people cannot afford bread and the nobility is using its political power to make sure
+[1:22] that none of the solutions to any of these problems involve taxing the nobility.
+[1:28] Which is, and I want to be fair here, a completely reasonable thing to be furious about.
+[1:33] The Russian revolution starts because the Tsar has sent millions of soldiers to die in
+[1:38] a war that is going catastrophically badly, while the people at home are starving and
+[1:43] the government's response to any criticism is to arrest the critics.
+[1:47] Also completely reasonable to be furious about.
+[1:50] The Iranian revolution starts because the Shah's secret police, Savak, has been torturing and
+[1:55] imprisoning political opponents for decades while the Shah sits in his palace and the
+[2:00] United States nods along because he is their guy in the region, completely reasonable
+[2:05] to be furious about.
+[2:06] Every single one of these revolutions begins with people who have genuinely legitimate
+[2:11] grievances responding in what seems under the circumstances like the only available
+[2:16] way.
+[2:17] Every single one of them ends up eating the people who started it.
+[2:21] Not sometimes, every time.
+[2:23] The French revolution produces the reign of terror and then Napoleon.
+[2:27] The Russian revolution produces Stalin.
+[2:29] The Iranian revolution produces, well, you know.
+[2:33] The pattern is so consistent that it has its own name.
+[2:37] Political scientists call it the revolutionary paradox.
+[2:40] Historians call it the problem of revolutionary succession.
+[2:43] Anyone who has ever lived through one calls it something significantly less academic and
+[2:48] significantly more emotional.
+[2:50] And the truly maddening part is not that it keeps happening.
+[2:52] The truly maddening part is that the people doing it always know it keeps happening.
+[2:57] Robespierre knew what happened to Cromwell.
+[2:59] Lenin knew what happened to Robespierre.
+[3:01] They did it anyway.
+[3:03] Every single time someone starts a revolution, they look at the long list of previous revolutions
+[3:07] that ended badly and think, yes, but mine is different.
+[3:11] It is not different.
+[3:12] It is never different.
+[3:14] Here's why.
+[3:15] France, 1789.
+[3:17] The Bastille falls on July 14th.
+[3:20] The symbol of royal tyranny stormed by ordinary Parisians wielding whatever weapons they could
+[3:25] find.
+[3:26] The king is forced to accept a new political reality.
+[3:29] A national assembly begins writing a constitution.
+[3:32] The Declaration of the Rights of Man is published.
+[3:34] Liberty, equality, fraternity, beautiful words, genuinely beautiful.
+[3:39] The most inspiring political language the 18th century produces.
+[3:44] The problem begins almost immediately.
+[3:46] Because the revolution has enemies, real ones, royalists who want the old regime back,
+[3:53] foreign powers, Austria, Prussia, who are watching this very closely and are not enthusiastic
+[3:58] about the idea of revolutionary politics spreading to their own countries, counter-revolutionaries
+[4:03] operating inside France itself, so the revolution needs to defend itself.
+[4:09] Reasonable.
+[4:10] Understandable.
+[4:11] Any revolution that cannot defend itself gets crushed immediately and we never hear about
+[4:15] it.
+[4:16] But here is where the machine gets built that eventually eats everyone.
+[4:21] To defend against enemies, you need to identify enemies.
+[4:24] To identify enemies, you need a process.
+[4:27] The process needs people running it.
+[4:29] The people running it need authority.
+[4:31] The authority needs justification.
+[4:34] The justification is the revolution itself.
+[4:38] And the revolution, conveniently, gets to decide what counts as an enemy of the revolution.
+[4:43] Do you see the problem?
+[4:44] The people running the enemy identification machine also get to define what enemy means.
+[4:51] And the definition of enemy is surprisingly flexible.
+[4:55] It starts with actual royalists, fine.
+[4:59] Then it expands to include people who are insufficiently enthusiastic about the revolution.
+[5:03] Then people who ask questions about whether the current pace of things is sustainable.
+[5:08] Then people who knew someone who was already arrested.
+[5:11] Then people who someone with a grudge decides to accuse because the accusation process is
+[5:15] fast and the defense process is slow.
+[5:18] The reign of terror begins in September 1793.
+[5:22] Approximately 17,000 people are officially guillotined between September 1793 and
+[5:28] July 1794.
+[5:30] Thousands more die in prison.
+[5:32] The man running this operation is Maximilian Robespierre.
+[5:36] Robespierre is, and this is important, not a villain in the cartoon sense.
+[5:42] He genuinely believes in the revolution.
+[5:44] He is believed in liberty and equality since before the revolution began.
+[5:48] He will believe them until the moment he dies.
+[5:51] He also genuinely believes that the revolution cannot survive unless its enemies are eliminated.
+[5:57] But he genuinely believes that he is the right person to decide who the enemies are.
+[6:03] Which is, and history would like a word here, a very dangerous combination of beliefs for
+[6:08] one person to hold simultaneously.
+[6:11] The enemies of the revolution must be eliminated.
+[6:13] I will decide who the enemies are.
+[6:16] Anyone who questions this process is an enemy of the revolution.
+[6:19] Everyone around Robespierre, we are going to die aren't we?
+[6:22] George's Denton finds out the hard way.
+[6:26] One is one of the most important figures of the early revolution.
+[6:30] His energy and organizational ability helped the revolution survive its most dangerous
+[6:35] early moments.
+[6:36] He is genuinely committed to the revolutionary cause.
+[6:39] He is also starting to think that maybe 17,000 guillotined people is enough.
+[6:45] He says so publicly.
+[6:46] He is arrested in March 1794.
+[6:50] Tried.
+[6:51] Guillotined.
+[6:52] His crime was essentially suggesting that the killing machine should slow down, which
+[6:55] the killing machine interpreted as evidence that he was an enemy of the revolution.
+[7:00] Which is exactly the kind of logic that killing machines produce when you let them run long
+[7:04] enough.
+[7:05] The revolution has eaten Denton.
+[7:07] It is not finished eating.
+[7:09] In June 1794, Robespierre gives a speech to the National Convention announcing that
+[7:15] there are traitors among them.
+[7:17] He does not name them.
+[7:19] The entire National Convention looks at each other.
+[7:22] Every single one of them has spent the past year watching colleagues, friends and allies
+[7:27] go to the guillotine, while carefully saying nothing because saying something meant being
+[7:32] accused of being an enemy of the revolution.
+[7:34] They have all survived by being very quiet and very agreeable and very careful about
+[7:39] standing too close to anyone who might be about to become an enemy of the revolution.
+[7:44] And now Robespierre is standing at the podium telling them there are traitors among them
+[7:49] without saying who.
+[7:52] Every single delegate does the exact same mental calculation at the exact same time.
+[7:58] It might be me.
+[7:59] And if it might be me, then I need to do something before Robespierre does something.
+[8:04] On July 27, 1794, they arrest Robespierre.
+[8:08] He is guillotined the following day.
+[8:11] The man who sent thousands of people to guillotine goes to the guillotine.
+[8:16] The machine ate its operator.
+[8:18] And then France gets Napoleon.
+[8:21] The revolution that began by overthrowing a king ends by producing an emperor, who crowns
+[8:26] himself in Notre Dame Cathedral by taking the crown out of the pope's hands and placing
+[8:31] it on his own head personally because he wants to be absolutely clear that he does not owe
+[8:36] his position to anyone, including the pope.
+[8:40] Liberty, equality, fraternity.
+[8:42] Meet your emperor.
+[8:43] He has a very large hat.
+[8:46] Russia does the exact same thing 128 years later and somehow manages to make it worse.
+[8:53] The Tsar is overthrown.
+[8:54] A provisional government takes over.
+[8:56] Moderate reformers who want to build a democratic Russia.
+[8:59] They believe in legitimate institutions, constitutional processes, and doing things properly.
+[9:04] They also believe in honoring Russia's commitments to its World War I allies.
+[9:09] The Russian people have been dying in that war for three years.
+[9:14] The Russian people are so thoroughly done with that war that they are practically through
+[9:18] the other side of done and into a new dimension of done that does not have a word for it yet.
+[9:23] The provisional government, we must honor our international commitments.
+[9:27] The Russian people, we must honor our need to stop dying.
+[9:31] The provisional government, the war continues.
+[9:34] The Russian people, okay, someone else is running this now.
+[9:38] Vladimir Lenin arrives at the Finland Station in Petrograd in April 1917 in a sealed train
+[9:44] car that the German government has helpfully provided because they correctly calculate that
+[9:49] Lenin inside Russia is significantly more useful to Germany than Lenin outside Russia.
+[9:55] Lenin's message is three words, peace, land, bread.
+[9:59] Not a 14-point plan, not a detailed policy document, three words that represent the
+[10:04] three things the Russian people desperately need and that the provisional government has
+[10:09] spectacularly failed to provide.
+[10:11] The Bolsheviks seize power in October 1917.
+[10:15] Civil war follows the Red Army against the White Army, brutal, devastating, millions dead
+[10:21] from fighting, famine and disease.
+[10:23] The Bolsheviks win, Lenin dies in 1924, and now there is a question.
+[10:30] Who runs the revolution next?
+[10:32] There is no constitutional mechanism for this.
+[10:34] There is no orderly transition process.
+[10:37] There is a power struggle among the people closest to Lenin, each of whom believes they
+[10:41] are the true heir to his legacy, and each of whom is correct that all the others are
+[10:46] not to be trusted.
+[10:47] Joseph Stalin wins.
+[10:49] Not because he is the most intellectually capable, not because he is the most ideologically
+[10:54] pure, not even because Lenin chose him.
+[10:57] Lenin actually specifically warned against Stalin in his final writings, which
+[11:01] is the kind of thing that would be embarrassing if Stalin were the kind of person capable
+[11:04] of being embarrassed by it.
+[11:06] Stalin wins because he is the most ruthless, because he has spent years placing loyal
+[11:10] allies in every key position throughout the party apparatus, while his rivals were
+[11:15] busy writing theoretical papers about what proper Marxism looks like.
+[11:19] His rivals are very smart men, Stalin is a very patient man.
+[11:24] Patient wins.
+[11:25] The great purge of 1936 to 1938 is Stalin eliminating everyone who might conceivably challenge
+[11:33] his power, not outsiders, not hidden counter-revolutionaries lurking in the shadows, the people who made
+[11:39] the revolution, the old Bolsheviks, the people who had been underground organizers
+[11:44] before 1917, who had been arrested, exiled, escaped, re-arrested, who had stood beside
+[11:51] Lenin, who had built the Soviet state with their own hands from the rubble of the
+[11:56] Tsar's empire.
+[11:57] They get show trials, confessions extracted through a combination of torture, threats
+[12:02] to family members, and the genuinely fascinating psychological pressure of being
+[12:06] told by the system you built and believe in that you are a traitor to the system
+[12:11] you built and believe in.
+[12:13] Some of them actually confessed to things they did not do because they have been
+[12:17] so thoroughly broken that they cannot tell the difference anymore between what
+[12:20] they actually did and what they are being told they did.
+[12:24] Grigory Zanoviev, executed, Lev Kamenev, executed, Nikolai Bukharin, executed, Mikhail Tukhachevsky,
+[12:32] the most capable military commander in the Red Army, executed in 1937.
+[12:37] Germany invades in 1941.
+[12:39] The Soviet military response to the largest invasion in human history is conducted without
+[12:45] most of its experienced senior officers, because they have been shot by the Soviet government.
+[12:51] This goes about as well as you would expect.
+[12:53] The revolution has eaten its most capable defenders and nearly destroyed itself as a direct
+[12:58] result.
+[12:59] Leon Trotsky, who organized the Red Army, who was Lenin's closest political ally,
+[13:05] who more than almost anyone made the October Revolution succeed, is exiled in 1929.
+[13:11] He spends years in various countries writing about how Stalin has betrayed everything the
+[13:16] revolution stood for.
+[13:18] He is very correct about this.
+[13:20] He is also in Mexico City in 1940, when a Stalin agent finds him.
+[13:25] The agent kills him with an ice axe.
+[13:28] The revolution followed Trotsky to Mexico and killed him with an ice axe.
+[13:32] An ice axe, the most powerful revolutionary state in the world, spent years tracking
+[13:38] down a 60-year-old man writing pamphlets in Mexico and sent someone to kill him with an
+[13:43] ice axe.
+[13:44] The Soviet Union that emerges from all of this is a genuine world power, industrialized,
+[13:50] militarized, capable of defeating Nazi Germany and launching satellites into space.
+[13:55] It is also a country where nobody can say what they actually think without risking
+[13:59] their life.
+[14:00] The revolution that promised to liberate the workers of the world produces a state
+[14:04] where the workers are liberated from the burden of having opinions.
+[14:08] Different continent, different century, different ideology.
+[14:12] Same result.
+[14:13] Iran.
+[14:14] 1979.
+[14:15] The Shah is gone.
+[14:16] The revolution has succeeded.
+[14:17] A broad coalition of liberals, leftists, communists, nationalists, Islamists, students,
+[14:24] intellectuals, and basically everyone who is tired of being tortured by the Shah's
+[14:28] secret police stands together in the streets of Tehran celebrating.
+[14:33] They're united.
+[14:34] They're victorious.
+[14:35] They are about to find out that they agree on almost nothing except that the Shah needed
+[14:40] to go.
+[14:41] Ayatollah Khomeini returns from exile in Paris.
+[14:44] The coalition begins to fracture approximately immediately.
+[14:48] The liberals want elections and a democratic republic.
+[14:51] The Islamists want an Islamic republic governed by religious law.
+[14:55] The communists want socialist revolution.
+[14:57] The nationalists want Iranian sovereignty above everything else.
+[15:01] These visions are not compatible.
+[15:03] They are also not equally backed by force.
+[15:06] Khomeini's faction has the mosque network, the religious institutions, the revolutionary
+[15:11] guards, the organizational infrastructure that took decades to build and that is now
+[15:16] pointed in a very specific direction.
+[15:20] The liberals have good intentions and a newspaper.
+[15:23] By 1981, the liberals are marginalized.
+[15:26] By 1983, the communist two-day party is banned.
+[15:30] Its leaders are imprisoned or executed.
+[15:32] The People's Mujahideen, a leftist Islamist group that had been one of the most effective
+[15:36] armed opponents of the Shah, is being systematically hunted and destroyed.
+[15:41] The people who helped overthrow the Shah are being killed by the government that overthrowing
+[15:45] the Shah made possible.
+[15:46] The revolution is eating its children again.
+[15:50] Same pattern, different country, different flag, different slogans on the banners.
+[15:55] Same outcome.
+[15:56] Three revolutions.
+[15:58] Three continents.
+[15:59] Three completely different ideologies.
+[16:02] Three completely different historical circumstances.
+[16:05] One pattern.
+[16:06] Why?
+[16:07] The answer is not that revolutionaries are uniquely evil people.
+[16:11] Most of them start out as genuinely idealistic people responding to genuinely unjust conditions.
+[16:16] Rose Pierre was not born wanting to guillotine his friends.
+[16:20] Lenin did not spend his childhood dreaming of show trials.
+[16:23] Khomeini did not.
+[16:25] Actually, you know what?
+[16:26] Let us move on.
+[16:27] The answer is structural.
+[16:30] Revolution requires destroying an existing power structure.
+[16:33] And the people selected by the process of destroying an existing power structure are
+[16:38] selected for a very specific combination of skills, ruthlessness, the ability to treat
+[16:43] opponents as existential threats, the willingness to do whatever is necessary, the capacity
+[16:49] to maintain absolute conviction while people around you are dying for the cause.
+[16:54] These skills win revolutions.
+[16:57] They are catastrophically bad skills for building just societies.
+[17:01] And the people who have them do not put them away once the old regime falls, because those
+[17:05] skills are not a tool they are using.
+[17:08] Those skills are who they are.
+[17:10] The revolution also creates a legitimacy problem that has no good solution.
+[17:15] The old system derived its authority from tradition, religion, heredity, whatever
+[17:20] combination of things people accepted as the reason why the people in charge got to be in
+[17:25] charge.
+[17:26] The revolution destroys that.
+[17:28] Now it needs a new source of authority.
+[17:30] And what revolutions claim as their source of authority is the revolutionary ideal, the
+[17:35] will of the people, the pure vision of what the revolution is trying to build.
+[17:40] Which sounds great until you realize what it means in practice.
+[17:44] If your authority comes from representing the revolutionary ideal, then anyone who disagrees
+[17:49] with you is not just wrong, they are an enemy of the revolution.
+[17:53] They cannot be tolerated, they cannot be negotiated with, they must be eliminated, because their
+[17:59] continued existence is an argument that the revolution might be going wrong and the
+[18:04] revolution cannot afford that argument.
+[18:07] So the circle of enemies expands, first the actual enemies, then the potential
+[18:12] enemies, then the people who know potential enemies, then the people who make the
+[18:17] leaders nervous for reasons they cannot quite articulate but that feel important.
+[18:22] The machine runs.
+[18:24] And then there is the coalition problem.
+[18:27] The coalition that makes revolution possible is held together by one thing, shared opposition
+[18:32] to the existing system.
+[18:33] The moment that system falls, the coalition has to figure out what it actually agrees
+[18:38] on.
+[18:39] The answer is almost always, not much.
+[18:42] Different factions want different things, incompatible things, and the faction most
+[18:46] willing to eliminate everyone else wins, which is never the faction with the best ideas.
+[18:52] It is always the faction most willing to eliminate everyone else.
+[18:56] The American Revolution is always brought up here and it deserves to be taken seriously.
+[19:01] It does not produce a reign of terror.
+[19:03] The founding fathers do not guillotine each other.
+[19:06] George Washington does something genuinely extraordinary that almost no successful
+[19:11] revolutionary leader in history does.
+[19:14] He goes home.
+[19:15] He wins the war.
+[19:16] He has the army.
+[19:17] He has the loyalty of the soldiers who fought with him.
+[19:19] He could almost certainly have made himself king or at minimum president for life and
+[19:24] a significant number of people would have supported this.
+[19:26] He goes home to his farm.
+[19:28] This is so unusual in the history of revolutionary leaders that contemporary Europeans literally
+[19:34] did not believe it when they heard about it.
+[19:36] King George III of Britain, the man Washington had been fighting for eight years, reportedly
+[19:40] said that if Washington truly gave up power voluntarily, he would be the greatest
+[19:45] man who ever lived.
+[19:46] He was not wrong that it was extraordinary.
+[19:49] But the American Revolution works as an exception for specific reasons that do not apply to most
+[19:54] revolutions.
+[19:55] It is a colonial independence movement rather than a social revolution.
+[19:59] The fundamental social and economic relationships of American society do not change.
+[20:04] The people doing the revolting are already the people running things locally.
+[20:07] The existing institutional infrastructure, colonial assemblies, legal traditions, local
+[20:12] courts, survives the revolution largely intact.
+[20:15] There is no need to build entirely new institutions from scratch.
+[20:19] There is also a specific and unusual decision the founders make that most revolutionary leaders
+[20:25] never make.
+[20:26] They build in mechanisms for their own removal from power.
+[20:30] Elections, term limits, separation of powers, a system specifically designed on the assumption
+[20:36] that everyone who holds power, including themselves, will eventually abuse it if not constrained.
+[20:42] The founders are unusual not because they are better people than Robespierre or Lennon.
+[20:47] They are unusual because they are sufficiently suspicious of themselves to build a cage around
+[20:53] their own power.
+[20:54] And even with all of that, the stability of the American system is purchased partly
+[20:59] by excluding the majority of the population from it, 600,000 enslaved people whose labor
+[21:05] built significant portions of the country's wealth, indigenous peoples whose land the
+[21:10] country is built on.
+[21:11] Everyone excluded from political participation, non-property owning white men largely excluded
+[21:17] from the early franchise.
+[21:18] The revolution that does not eat its children eats someone else's instead.
+[21:23] There is no clean version of this story.
+[21:25] There is never a clean version of this story.
+[21:28] So why does every revolution eat its own children?
+[21:32] Because the conditions that make revolution necessary are the same conditions that make
+[21:36] its failure likely.
+[21:38] Extreme injustice produces extreme anger.
+[21:40] Extreme anger produces the willingness to do extreme things.
+[21:43] The willingness to do extreme things selects for leaders capable of extreme things and
+[21:48] leaders capable of extreme things do not stop being capable of them once the enemy they
+[21:53] were aimed at is gone.
+[21:54] You cannot simply choose to have a revolution with better people in charge because the
+[21:59] process of making a revolution produces the specific people it produces.
+[22:03] You cannot simply choose to stay moderate because the forces defending the old system
+[22:08] will crush a moderate revolution before it gets started.
+[22:11] You cannot simply build stable institutions from the beginning because the revolutionary
+[22:15] situation destroys institutional stability.
+[22:19] That is what makes it revolutionary.
+[22:21] Every option has a catastrophic cost, which means every generation that lives through
+[22:25] conditions that make revolution feel necessary is living in a situation where all the
+[22:30] available choices are genuinely terrible except the injustice, or try to change it and risk
+[22:36] producing new injustice that is different in its specifics but structurally similar in
+[22:40] its effects.
+[22:41] This is not a comfortable conclusion.
+[22:43] It is the honest one.
+[22:45] And we know it is the honest one because we have centuries of evidence from multiple
+[22:48] continents and multiple ideologies all pointing in the same direction.
+[22:52] The revolutionaries knew it too.
+[22:54] They did it anyway.
+[22:55] Because from inside the situation, the alternative always looks worse.
+[22:59] And sometimes it genuinely is worse.
+[23:02] That is the most uncomfortable thing about this story.
+[23:04] The people who start the revolutions are usually right that something needs to change.
+[23:09] They are just usually wrong about what the change will cost and they pay that cost and
+[23:13] so does everyone around them.
+[23:15] And the next generation looks at what happened and says, yes, but our revolution will be
+[23:19] different.
+[23:20] It will not be different.
+[23:21] It is never different.
+[23:23] At least the statues they build afterward are interesting.
+[23:26] Subscribe.

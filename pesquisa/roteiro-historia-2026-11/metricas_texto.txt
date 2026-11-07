@@ -1,0 +1,23 @@
+video                                          views   min   pal  ppm  p/fr ?/min voce%  vir%
+Archlang__APoNEKs9d-4                            966  23.5  3703  158  12.9  0.26  0.70  1.76
+Archlang__J1ARuhEH0zI                            397  18.1  2928  162  12.5  0.55  0.79  1.54
+Archlang__yV-Cwcy8K6A                        1134785  12.5  1889  151  10.6  0.24  0.74  1.59
+Crayon_Capital__HawmGu7oNrc                  4287073  16.6  2447  148   8.0  0.66  0.98  1.88
+Crayon_Capital__LuEcoqizj0o                  3003497  16.5  2435  148   9.1  1.88  0.70  1.97
+Crayon_Capital__y51JjcymEAY                  1182420  16.1  2460  152   7.5  2.29  1.26  2.24
+HistóriaNaMarra__ARDA87ONohc                  150479  24.9  3442  138  14.6  0.16  0.81  1.71
+HistóriaNaMarra__S8yKeHDpgOg                  130758   8.1  1432  176  17.0  0.25  0.56  2.51
+HistóriaNaMarra__VAaop-wsneQ                   91554  36.3  4959  137  14.9  0.11  0.95  1.17
+Inkexplainer96__49_Ph2q6uIM                 18437107  11.2  2522  225  13.0  0.62  3.81  2.30
+Inkexplainer96__SD7XyG2wd1k                  1988769  11.6  2418  208  11.5  0.52  2.52  1.70
+Kelevins__FnXS0VOhX1I                         567812  19.9  4482  226  16.8  1.01  0.56  1.36
+Kelevins__ngprAYfRrnY                        4165746  16.2  3393  209  12.9  0.68  0.65  1.56
+Kelevins__t7zjiFULuUc                         847444  15.1  3441  228  10.6  0.93  0.99  2.32
+breakdownwithpaints__5d-KSO2BVGM                  90  12.2  1927  158  13.3  0.33  0.10  1.19
+breakdownwithpaints__J-wZ1HfirTo                 557  20.1  2942  146   8.2  0.40  0.00  1.97
+breakdownwithpaints__cHwDK968qCQ                 547  12.2  2089  171  12.3  0.82  0.43  1.87
+breakdownwithpaints__cjIvXfkF1S0               17846  10.1  1666  166  11.6  0.70  1.02  1.80
+NOSSO 001-egito                                    0  17.0  2320  136  12.5  0.47  0.09  0.78
+NOSSO 002-india                                    0  19.4  2647  136  11.0  0.51  0.23  0.38
+NOSSO 003-ira                                      0  18.0  2314  129  12.6  0.89  0.26  0.86
+NOSSO 004-china                                    0  16.2  2125  131  11.8  0.49  0.19  0.89
