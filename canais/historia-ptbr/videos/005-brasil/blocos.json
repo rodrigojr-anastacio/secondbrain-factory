@@ -1,0 +1,608 @@
+[
+ {
+  "id": "N001",
+  "texto": "[serious] Portugal, mil quinhentos e onze. Um navio chamado Bretôa volta de uma terra nova, do outro lado do Atlântico. E alguém anota tudo o que vem no porão.",
+  "tela": "[serious] Portugal, mil quinhentos e onze. Um navio chamado Bretoa volta de uma terra nova, do outro lado do Atlântico. E alguém anota tudo o que vem no porão.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "[curious] O que tem lá dentro? Cinco mil toras de uma madeira vermelha, com papagaios, saguis e macacos espremidos no meio.",
+  "tela": "[curious] O que tem lá dentro? Cinco mil toras de uma madeira vermelha, com papagaios, saguis e macacos espremidos no meio.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "[serious] E tem gente também: dezenas de indígenas escravizados, a maioria mulheres.",
+  "tela": "[serious] E tem gente também: dezenas de indígenas escravizados, a maioria mulheres.",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "Essa é uma das primeiras vezes que o nome Brasil aparece num documento. E sabe onde ele aparece? [amazed] Numa lista de carga.",
+  "tela": "Essa é uma das primeiras vezes que o nome Brasil aparece num documento. E sabe onde ele aparece? [amazed] Numa lista de carga.",
+  "ideia": false
+ },
+ {
+  "id": "N005",
+  "texto": "Depois da madeira, vieram o açúcar, o ouro, o café e a borracha, e cada riqueza que saía num navio deixava para trás um país diferente.",
+  "tela": "Depois da madeira, vieram o açúcar, o ouro, o café e a borracha, e cada riqueza que saía num navio deixava para trás um país diferente.",
+  "ideia": true
+ },
+ {
+  "id": "N006",
+  "texto": "[serious] Essa é a história inteira do Brasil: como a terra que nasceu numa lista de carga virou um país de mais de duzentos milhões de pessoas.",
+  "tela": "[serious] Essa é a história inteira do Brasil: como a terra que nasceu numa lista de carga virou um país de mais de duzentos milhões de pessoas.",
+  "ideia": true
+ },
+ {
+  "id": "N007",
+  "texto": "No caminho: um rei fugindo de Napoleão, um imperador enterrado com terra do Brasil… e uma capital erguida do zero em menos de quatro anos.",
+  "tela": "No caminho: um rei fugindo de Napoleão, um imperador enterrado com terra do Brasil… e uma capital erguida do zero em menos de quatro anos.",
+  "ideia": false
+ },
+ {
+  "id": "N008",
+  "texto": "E, em cada capítulo, a pergunta vai ser a mesma: o que vai no navio… e o que fica aqui? Guarde essa lista de carga, porque ela volta no final.",
+  "tela": "E, em cada capítulo, a pergunta vai ser a mesma: o que vai no navio… e o que fica aqui? Guarde essa lista de carga, porque ela volta no final.",
+  "ideia": true
+ },
+ {
+  "id": "N009",
+  "texto": "Mas, muito antes de qualquer navio, essa terra já tinha gente. Milhões de pessoas, de centenas de povos diferentes.",
+  "tela": "Mas, muito antes de qualquer navio, essa terra já tinha gente. Milhões de pessoas, de centenas de povos diferentes.",
+  "ideia": false
+ },
+ {
+  "id": "N010",
+  "texto": "Na ilha de Marajó, um povo ergueu morros de terra para escapar das cheias e fez uma das cerâmicas mais sofisticadas das Américas.",
+  "tela": "Na ilha de Marajó, um povo ergueu morros de terra para escapar das cheias e fez uma das cerâmicas mais sofisticadas das Américas.",
+  "ideia": false
+ },
+ {
+  "id": "N011",
+  "texto": "E a floresta? Parte dela foi cultivada. Arqueólogos acham na Amazônia uma terra preta, feita por gente, e aldeias ligadas por estradas.",
+  "tela": "E a floresta? Parte dela foi cultivada. Arqueólogos acham na Amazônia uma terra preta, feita por gente, e aldeias ligadas por estradas.",
+  "ideia": true
+ },
+ {
+  "id": "N012",
+  "texto": "No litoral viviam os povos tupis, com roças de mandioca, canoas e guerras entre vizinhos.",
+  "tela": "No litoral viviam os povos tupis, com roças de mandioca, canoas e guerras entre vizinhos.",
+  "ideia": false
+ },
+ {
+  "id": "N013",
+  "texto": "Muita palavra que você fala vem deles: mandioca, jacaré, pipoca… até Ipanema.",
+  "tela": "Muita palavra que você fala vem deles: mandioca, jacaré, pipoca… até Ipanema.",
+  "ideia": false
+ },
+ {
+  "id": "N014",
+  "texto": "Do outro lado do mar, em mil quatrocentos e noventa e quatro, Portugal e Espanha riscaram uma linha no mapa e dividiram o mundo. Ninguém perguntou a quem morava aqui. Guarde essa linha.",
+  "tela": "Do outro lado do mar, em mil quatrocentos e noventa e quatro, Portugal e Espanha riscaram uma linha no mapa e dividiram o mundo. Ninguém perguntou a quem morava aqui. Guarde essa linha.",
+  "ideia": true
+ },
+ {
+  "id": "N015",
+  "texto": "Em abril de mil e quinhentos, a frota de Pedro Álvares Cabral, a caminho da Índia, avistou um monte no sul da Bahia.",
+  "tela": "Em abril de mil e quinhentos, a frota de Pedro Álvares Cabral, a caminho da Índia, avistou um monte no sul da Bahia.",
+  "ideia": false
+ },
+ {
+  "id": "N016",
+  "texto": "O escrivão Pero Vaz de Caminha escreveu ao rei sobre a gente e a terra. Aquela frase, em se plantando, tudo dá? Ele nunca escreveu desse jeito.",
+  "tela": "O escrivão Pero Vaz de Caminha escreveu ao rei sobre a gente e a terra. Aquela frase, em se plantando, tudo dá? Ele nunca escreveu desse jeito.",
+  "ideia": false
+ },
+ {
+  "id": "N017",
+  "texto": "Ouro, ninguém achou. Mas havia uma árvore de madeira vermelha cor de brasa, que dava tinta: o pau-brasil. E a terra ficou com o nome da madeira.",
+  "tela": "Ouro, ninguém achou. Mas havia uma árvore de madeira vermelha cor de brasa, que dava tinta: o pau-brasil. E a terra ficou com o nome da madeira.",
+  "ideia": true
+ },
+ {
+  "id": "N018",
+  "texto": "Os tupis cortavam e levavam as toras até os navios, em troca de machados, facas e espelhos.",
+  "tela": "Os tupis cortavam e levavam as toras até os navios, em troca de machados, facas e espelhos.",
+  "ideia": false
+ },
+ {
+  "id": "N019",
+  "texto": "Quem vivia desse comércio, diz a explicação mais aceita, era chamado de brasileiro: nome de ofício, como ferreiro ou marinheiro.",
+  "tela": "Quem vivia desse comércio, diz a explicação mais aceita, era chamado de brasileiro: nome de ofício, como ferreiro ou marinheiro.",
+  "ideia": false
+ },
+ {
+  "id": "N020",
+  "texto": "Para segurar a terra, a Coroa a fatiou em capitanias e, em mil quinhentos e quarenta e nove, mandou um governador-geral, que fundou Salvador.",
+  "tela": "Para segurar a terra, a Coroa a fatiou em capitanias e, em mil quinhentos e quarenta e nove, mandou um governador-geral, que fundou Salvador.",
+  "ideia": true
+ },
+ {
+  "id": "N021",
+  "texto": "Os franceses também queriam pau-brasil e chegaram a fundar uma colônia na baía de Guanabara.",
+  "tela": "Os franceses também queriam pau-brasil e chegaram a fundar uma colônia na baía de Guanabara.",
+  "ideia": false
+ },
+ {
+  "id": "N022",
+  "texto": "Os portugueses responderam com uma vila-fortaleza, em mil quinhentos e sessenta e cinco, e expulsaram os franceses. A vila era o Rio de Janeiro.",
+  "tela": "Os portugueses responderam com uma vila-fortaleza, em mil quinhentos e sessenta e cinco, e expulsaram os franceses. A vila era o Rio de Janeiro.",
+  "ideia": false
+ },
+ {
+  "id": "N023",
+  "texto": "Mas madeira dava pouco. Para encher os navios de verdade, Portugal precisava de outra coisa. E achou uma bem doce.",
+  "tela": "Mas madeira dava pouco. Para encher os navios de verdade, Portugal precisava de outra coisa. E achou uma bem doce.",
+  "ideia": true
+ },
+ {
+  "id": "N024",
+  "texto": "No litoral de Pernambuco e da Bahia nasceram os engenhos. No fim do século dezesseis, o Brasil era o maior produtor de açúcar do mundo.",
+  "tela": "No litoral de Pernambuco e da Bahia nasceram os engenhos. No fim do século dezesseis, o Brasil era o maior produtor de açúcar do mundo.",
+  "ideia": false
+ },
+ {
+  "id": "N025",
+  "texto": "Só que um engenho engolia gente: cortar a cana, moer, ferver o caldo noite adentro.",
+  "tela": "Só que um engenho engolia gente: cortar a cana, moer, ferver o caldo noite adentro.",
+  "ideia": false
+ },
+ {
+  "id": "N026",
+  "texto": "Primeiro, escravizaram indígenas. Epidemias, guerras e trabalho forçado mataram boa parte dos povos do litoral.",
+  "tela": "Primeiro, escravizaram indígenas. Epidemias, guerras e trabalho forçado mataram boa parte dos povos do litoral.",
+  "ideia": false
+ },
+ {
+  "id": "N027",
+  "texto": "Então Portugal se voltou para a África. E aqui vale parar num número.",
+  "tela": "Então Portugal se voltou para a África. E aqui vale parar num número.",
+  "ideia": true
+ },
+ {
+  "id": "N028",
+  "texto": "[serious] Quase cinco milhões de africanos escravizados chegaram vivos ao Brasil. Quase metade de todos os que desembarcaram nas Américas. Nenhum lugar recebeu mais.",
+  "tela": "[serious] Quase cinco milhões de africanos escravizados chegaram vivos ao Brasil. Quase metade de todos os que desembarcaram nas Américas. Nenhum lugar recebeu mais.",
+  "ideia": false
+ },
+ {
+  "id": "N029",
+  "texto": "Para comparar: os Estados Unidos receberam menos de meio milhão. E centenas de milhares morreram na travessia. Guarde esse número.",
+  "tela": "Para comparar: os Estados Unidos receberam menos de meio milhão. E centenas de milhares morreram na travessia. Guarde esse número.",
+  "ideia": false
+ },
+ {
+  "id": "N030",
+  "texto": "Todo esse açúcar atraiu os holandeses. Em mil seiscentos e trinta, eles tomaram Pernambuco e ficaram quase vinte e cinco anos.",
+  "tela": "Todo esse açúcar atraiu os holandeses. Em mil seiscentos e trinta, eles tomaram Pernambuco e ficaram quase vinte e cinco anos.",
+  "ideia": true
+ },
+ {
+  "id": "N031",
+  "texto": "Com Maurício de Nassáu, Recife ganhou pontes, um observatório e a primeira sinagoga das Américas.",
+  "tela": "Com Maurício de Nassau, Recife ganhou pontes, um observatório e a primeira sinagoga das Américas.",
+  "ideia": false
+ },
+ {
+  "id": "N032",
+  "texto": "Até que senhores de engenho, indígenas e soldados negros lutaram juntos e expulsaram os holandeses, em mil seiscentos e cinquenta e quatro.",
+  "tela": "Até que senhores de engenho, indígenas e soldados negros lutaram juntos e expulsaram os holandeses, em mil seiscentos e cinquenta e quatro.",
+  "ideia": false
+ },
+ {
+  "id": "N033",
+  "texto": "Só que os holandeses levaram o segredo do açúcar para o Caribe. O preço despencou, e Portugal precisou de outra riqueza.",
+  "tela": "Só que os holandeses levaram o segredo do açúcar para o Caribe. O preço despencou, e Portugal precisou de outra riqueza.",
+  "ideia": false
+ },
+ {
+  "id": "N034",
+  "texto": "Enquanto isso, nas serras de Alagoas, escravizados fugidos tinham erguido Palmares, um quilombo que resistiu por quase um século.",
+  "tela": "Enquanto isso, nas serras de Alagoas, escravizados fugidos tinham erguido Palmares, um quilombo que resistiu por quase um século.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "Seu último grande líder, Zumbi, foi morto em vinte de novembro de mil seiscentos e noventa e cinco. Hoje, esse dia é feriado nacional: o Dia da Consciência Negra.",
+  "tela": "Seu último grande líder, Zumbi, foi morto em vinte de novembro de mil seiscentos e noventa e cinco. Hoje, esse dia é feriado nacional: o Dia da Consciência Negra.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "E, quase nos mesmos anos, bandeirantes paulistas, que entravam no sertão caçando indígenas e riquezas, acharam ouro em Minas Gerais.",
+  "tela": "E, quase nos mesmos anos, bandeirantes paulistas, que entravam no sertão caçando indígenas e riquezas, acharam ouro em Minas Gerais.",
+  "ideia": true
+ },
+ {
+  "id": "N037",
+  "texto": "Lembra da linha de Tordesilhas? Os bandeirantes passaram por cima dela. Em mil setecentos e cinquenta, a Espanha aceitou: o Brasil já tinha quase o formato de hoje.",
+  "tela": "Lembra da linha de Tordesilhas? Os bandeirantes passaram por cima dela. Em mil setecentos e cinquenta, a Espanha aceitou: o Brasil já tinha quase o formato de hoje.",
+  "ideia": false
+ },
+ {
+  "id": "N038",
+  "texto": "Tanta gente correu para as minas que a Coroa tentou limitar a saída de Portugal.",
+  "tela": "Tanta gente correu para as minas que a Coroa tentou limitar a saída de Portugal.",
+  "ideia": false
+ },
+ {
+  "id": "N039",
+  "texto": "Vila Rica, hoje Ouro Preto, se encheu de igrejas forradas de ouro, muitas com esculturas do Aleijadinho.",
+  "tela": "Vila Rica, hoje Ouro Preto, se encheu de igrejas forradas de ouro, muitas com esculturas do Aleijadinho.",
+  "ideia": false
+ },
+ {
+  "id": "N040",
+  "texto": "Mas o ouro também ia embora. A Coroa ficava com um quinto de tudo, e muito desse ouro seguia de Lisboa para a Inglaterra, para pagar tecidos.",
+  "tela": "Mas o ouro também ia embora. A Coroa ficava com um quinto de tudo, e muito desse ouro seguia de Lisboa para a Inglaterra, para pagar tecidos.",
+  "ideia": true
+ },
+ {
+  "id": "N041",
+  "texto": "Quando o ouro foi minguando, a Coroa ameaçou cobrar os impostos atrasados à força. E, em Minas, um grupo começou a sonhar com uma república.",
+  "tela": "Quando o ouro foi minguando, a Coroa ameaçou cobrar os impostos atrasados à força. E, em Minas, um grupo começou a sonhar com uma república.",
+  "ideia": true
+ },
+ {
+  "id": "N042",
+  "texto": "Foram traídos. Só um foi enforcado: um alferes que também arrancava dentes, o Tiradentes. Hoje, o dia dele também é feriado.",
+  "tela": "Foram traídos. Só um foi enforcado: um alferes que também arrancava dentes, o Tiradentes. Hoje, o dia dele também é feriado.",
+  "ideia": false
+ },
+ {
+  "id": "N043",
+  "texto": "Em novembro de mil oitocentos e sete, o exército de Napoleão marchava sobre Lisboa. E a família real portuguesa fez o que nenhuma outra tinha feito.",
+  "tela": "Em novembro de mil oitocentos e sete, o exército de Napoleão marchava sobre Lisboa. E a família real portuguesa fez o que nenhuma outra tinha feito.",
+  "ideia": false
+ },
+ {
+  "id": "N044",
+  "texto": "Fugiu. Entre dez e quinze mil pessoas embarcaram com o tesouro, os arquivos e a biblioteca real.",
+  "tela": "Fugiu. Entre dez e quinze mil pessoas embarcaram com o tesouro, os arquivos e a biblioteca real.",
+  "ideia": false
+ },
+ {
+  "id": "N045",
+  "texto": "Conta-se que a velha rainha, Maria, a Louca, gritava pelo caminho: não corram tanto, vão pensar que estamos fugindo.",
+  "tela": "Conta-se que a velha rainha, Maria, a Louca, gritava pelo caminho: não corram tanto, vão pensar que estamos fugindo.",
+  "ideia": false
+ },
+ {
+  "id": "N046",
+  "texto": "Em mil oitocentos e oito, o Rio de Janeiro virou a capital de um império europeu. É o único caso conhecido de uma metrópole governada de dentro da sua colônia.",
+  "tela": "Em mil oitocentos e oito, o Rio de Janeiro virou a capital de um império europeu. É o único caso conhecido de uma metrópole governada de dentro da sua colônia.",
+  "ideia": true
+ },
+ {
+  "id": "N047",
+  "texto": "Para abrigar a corte, casas eram marcadas com duas letras: pê érre, de Príncipe Regente. O povo lia: ponha-se na rua.",
+  "tela": "Para abrigar a corte, casas eram marcadas com duas letras: PR, de Príncipe Regente. O povo lia: ponha-se na rua.",
+  "ideia": false
+ },
+ {
+  "id": "N048",
+  "texto": "E repare: pela primeira vez, o navio veio no sentido contrário. Em vez de levar a riqueza, trouxe o governo.",
+  "tela": "E repare: pela primeira vez, o navio veio no sentido contrário. Em vez de levar a riqueza, trouxe o governo.",
+  "ideia": true
+ },
+ {
+  "id": "N049",
+  "texto": "Em poucos meses, a colônia ganhou portos abertos ao mundo, um banco, uma imprensa e um jardim botânico.",
+  "tela": "Em poucos meses, a colônia ganhou portos abertos ao mundo, um banco, uma imprensa e um jardim botânico.",
+  "ideia": false
+ },
+ {
+  "id": "N050",
+  "texto": "Dom João gostou tanto que ficou treze anos, muito depois da queda de Napoleão.",
+  "tela": "Dom João gostou tanto que ficou treze anos, muito depois da queda de Napoleão.",
+  "ideia": false
+ },
+ {
+  "id": "N051",
+  "texto": "Em mil oitocentos e vinte e um, ele voltou para Lisboa e deixou aqui o filho, Pedro. Diz a tradição que o conselho foi: se o Brasil se separar, que seja com você, antes que algum aventureiro fique com ele. Guarde esse conselho.",
+  "tela": "Em mil oitocentos e vinte e um, ele voltou para Lisboa e deixou aqui o filho, Pedro. Diz a tradição que o conselho foi: se o Brasil se separar, que seja com você, antes que algum aventureiro fique com ele. Guarde esse conselho.",
+  "ideia": true
+ },
+ {
+  "id": "N052",
+  "texto": "Em Lisboa, as Cortes quiseram fazer o Brasil voltar a ser colônia e mandaram Pedro voltar para casa.",
+  "tela": "Em Lisboa, as Cortes quiseram fazer o Brasil voltar a ser colônia e mandaram Pedro voltar para casa.",
+  "ideia": false
+ },
+ {
+  "id": "N053",
+  "texto": "Em sete de setembro de mil oitocentos e vinte e dois, perto do riacho do Ipiranga, ele leu as cartas e rompeu com Portugal: Independência ou morte.",
+  "tela": "Em sete de setembro de mil oitocentos e vinte e dois, perto do riacho do Ipiranga, ele leu as cartas e rompeu com Portugal: Independência ou morte.",
+  "ideia": false
+ },
+ {
+  "id": "N054",
+  "texto": "Esse é o quadro. Pelos relatos, ele estava numa mula, e com uma dor de barriga daquelas.",
+  "tela": "Esse é o quadro. Pelos relatos, ele estava numa mula, e com uma dor de barriga daquelas.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "Lembra do conselho do pai? Pedro seguiu à risca: o Brasil ficou independente… com o herdeiro do rei de Portugal como imperador.",
+  "tela": "Lembra do conselho do pai? Pedro seguiu à risca: o Brasil ficou independente… com o herdeiro do rei de Portugal como imperador.",
+  "ideia": true
+ },
+ {
+  "id": "N056",
+  "texto": "E, enquanto a América espanhola se partia em várias repúblicas, o Brasil continuou um só. Ou quase: no sul, perdeu uma guerra, e a Cisplatina virou o Uruguai.",
+  "tela": "E, enquanto a América espanhola se partia em várias repúblicas, o Brasil continuou um só. Ou quase: no sul, perdeu uma guerra, e a Cisplatina virou o Uruguai.",
+  "ideia": false
+ },
+ {
+  "id": "N057",
+  "texto": "Pedro durou pouco. Em mil oitocentos e trinta e um, abdicou e foi lutar pelo trono da filha em Portugal. Deixou aqui o herdeiro… de cinco anos.",
+  "tela": "Pedro durou pouco. Em mil oitocentos e trinta e um, abdicou e foi lutar pelo trono da filha em Portugal. Deixou aqui o herdeiro… de cinco anos.",
+  "ideia": true
+ },
+ {
+  "id": "N058",
+  "texto": "Depois de anos de revoltas, do Pará ao Rio Grande do Sul, os políticos declararam o menino maior de idade, aos catorze anos.",
+  "tela": "Depois de anos de revoltas, do Pará ao Rio Grande do Sul, os políticos declararam o menino maior de idade, aos catorze anos.",
+  "ideia": false
+ },
+ {
+  "id": "N059",
+  "texto": "E o Brasil teve, por quase cinquenta anos, um imperador que preferia os livros.",
+  "tela": "E o Brasil teve, por quase cinquenta anos, um imperador que preferia os livros.",
+  "ideia": false
+ },
+ {
+  "id": "N060",
+  "texto": "Mas o império rodava sobre outra riqueza: o café. Primeiro no vale do Paraíba, depois em São Paulo, o grão encheu os navios.",
+  "tela": "Mas o império rodava sobre outra riqueza: o café. Primeiro no vale do Paraíba, depois em São Paulo, o grão encheu os navios.",
+  "ideia": false
+ },
+ {
+  "id": "N061",
+  "texto": "E o café, como o açúcar, era colhido por gente escravizada. Em mil oitocentos e cinquenta, sob pressão inglesa, o Brasil proibiu o tráfico. A escravidão, não.",
+  "tela": "E o café, como o açúcar, era colhido por gente escravizada. Em mil oitocentos e cinquenta, sob pressão inglesa, o Brasil proibiu o tráfico. A escravidão, não.",
+  "ideia": false
+ },
+ {
+  "id": "N062",
+  "texto": "Então veio a guerra mais sangrenta da América do Sul: Brasil, Argentina e Uruguai contra o Paraguai, por mais de cinco anos.",
+  "tela": "Então veio a guerra mais sangrenta da América do Sul: Brasil, Argentina e Uruguai contra o Paraguai, por mais de cinco anos.",
+  "ideia": true
+ },
+ {
+  "id": "N063",
+  "texto": "O Paraguai perdeu boa parte da sua gente. E o Brasil voltou com um exército grande, orgulhoso… e com opinião política.",
+  "tela": "O Paraguai perdeu boa parte da sua gente. E o Brasil voltou com um exército grande, orgulhoso… e com opinião política.",
+  "ideia": false
+ },
+ {
+  "id": "N064",
+  "texto": "Na Filadélfia, o imperador pegou o telefone novo de Graham Bell e, conta-se, exclamou: meu Deus, isto fala!",
+  "tela": "Na Filadélfia, o imperador pegou o telefone novo de Graham Bell e, conta-se, exclamou: meu Deus, isto fala!",
+  "ideia": false
+ },
+ {
+  "id": "N065",
+  "texto": "Lembra daquele número, quase cinco milhões? Nos anos de mil oitocentos e oitenta, o Brasil era o último país das Américas com escravidão.",
+  "tela": "Lembra daquele número, quase cinco milhões? Nos anos de mil oitocentos e oitenta, o Brasil era o último país das Américas com escravidão.",
+  "ideia": true
+ },
+ {
+  "id": "N066",
+  "texto": "Em treze de maio de mil oitocentos e oitenta e oito, a princesa Isabel assinou a Lei Áurea. Dois artigos: a escravidão estava extinta.",
+  "tela": "Em treze de maio de mil oitocentos e oitenta e oito, a princesa Isabel assinou a Lei Áurea. Dois artigos: a escravidão estava extinta.",
+  "ideia": false
+ },
+ {
+  "id": "N067",
+  "texto": "[serious] E só. Nenhuma terra, nenhuma escola, nenhuma ajuda para quem foi libertado.",
+  "tela": "[serious] E só. Nenhuma terra, nenhuma escola, nenhuma ajuda para quem foi libertado.",
+  "ideia": false
+ },
+ {
+  "id": "N068",
+  "texto": "Os fazendeiros ficaram furiosos com a monarquia. O exército também. Um ano e meio depois, militares derrubaram o imperador, quase sem um tiro.",
+  "tela": "Os fazendeiros ficaram furiosos com a monarquia. O exército também. Um ano e meio depois, militares derrubaram o imperador, quase sem um tiro.",
+  "ideia": true
+ },
+ {
+  "id": "N069",
+  "texto": "A família imperial foi posta num navio de madrugada. Dom Pedro morreu em Paris, dois anos depois, com um travesseiro de terra do Brasil no caixão.",
+  "tela": "A família imperial foi posta num navio de madrugada. Dom Pedro morreu em Paris, dois anos depois, com um travesseiro de terra do Brasil no caixão.",
+  "ideia": false
+ },
+ {
+  "id": "N070",
+  "texto": "A república nova era, na prática, do café. Por volta de mil e novecentos, o Brasil produzia mais da metade do café do mundo.",
+  "tela": "A república nova era, na prática, do café. Por volta de mil e novecentos, o Brasil produzia mais da metade do café do mundo.",
+  "ideia": false
+ },
+ {
+  "id": "N071",
+  "texto": "São Paulo, do café, e Minas, do leite, se revezavam na presidência. O povo chamou de política do café com leite.",
+  "tela": "São Paulo, do café, e Minas, do leite, se revezavam na presidência. O povo chamou de política do café com leite.",
+  "ideia": false
+ },
+ {
+  "id": "N072",
+  "texto": "No sertão da Bahia, o exército arrasou Canudos, um arraial de sertanejos pobres, depois de três expedições derrotadas.",
+  "tela": "No sertão da Bahia, o exército arrasou Canudos, um arraial de sertanejos pobres, depois de três expedições derrotadas.",
+  "ideia": true
+ },
+ {
+  "id": "N073",
+  "texto": "Para colher o café sem escravidão, vieram milhões de imigrantes: italianos, portugueses, espanhóis e, a partir de mil novecentos e oito, japoneses.",
+  "tela": "Para colher o café sem escravidão, vieram milhões de imigrantes: italianos, portugueses, espanhóis e, a partir de mil novecentos e oito, japoneses.",
+  "ideia": false
+ },
+ {
+  "id": "N074",
+  "texto": "Hoje, o Brasil tem a maior comunidade japonesa fora do Japão.",
+  "tela": "Hoje, o Brasil tem a maior comunidade japonesa fora do Japão.",
+  "ideia": false
+ },
+ {
+  "id": "N075",
+  "texto": "Na Amazônia, a borracha deixou Manaus tão rica que ela ergueu um teatro de ópera no meio da floresta.",
+  "tela": "Na Amazônia, a borracha deixou Manaus tão rica que ela ergueu um teatro de ópera no meio da floresta.",
+  "ideia": true
+ },
+ {
+  "id": "N076",
+  "texto": "E Henry Ford quis plantar borracha e construiu uma cidadezinha americana na selva: Fórdlândia. Quase não saiu borracha.",
+  "tela": "E Henry Ford quis plantar borracha e construiu uma cidadezinha americana na selva: Fordlândia. Quase não saiu borracha.",
+  "ideia": false
+ },
+ {
+  "id": "N077",
+  "texto": "Então, em mil novecentos e vinte e nove, a bolsa de Nova York quebrou, e o mundo parou de comprar café.",
+  "tela": "Então, em mil novecentos e vinte e nove, a bolsa de Nova York quebrou, e o mundo parou de comprar café.",
+  "ideia": true
+ },
+ {
+  "id": "N078",
+  "texto": "O governo chegou a queimar dezenas de milhões de sacas para segurar o preço. E o café com leite azedou.",
+  "tela": "O governo chegou a queimar dezenas de milhões de sacas para segurar o preço. E o café com leite azedou.",
+  "ideia": false
+ },
+ {
+  "id": "N079",
+  "texto": "Em mil novecentos e trinta, um gaúcho baixinho, de charuto, chegou ao poder por uma revolução: Getúlio Vargas.",
+  "tela": "Em mil novecentos e trinta, um gaúcho baixinho, de charuto, chegou ao poder por uma revolução: Getúlio Vargas.",
+  "ideia": false
+ },
+ {
+  "id": "N080",
+  "texto": "Deu aos trabalhadores salário mínimo, férias e carteira assinada. E deu ao país censura e polícia política. Em mil novecentos e trinta e sete, virou ditador.",
+  "tela": "Deu aos trabalhadores salário mínimo, férias e carteira assinada. E deu ao país censura e polícia política. Em mil novecentos e trinta e sete, virou ditador.",
+  "ideia": false
+ },
+ {
+  "id": "N081",
+  "texto": "Na Segunda Guerra, esse ditador mandou soldados lutar contra o fascismo na Itália. Diziam que era mais fácil uma cobra fumar… e a tropa pôs no braço uma cobra fumando.",
+  "tela": "Na Segunda Guerra, esse ditador mandou soldados lutar contra o fascismo na Itália. Diziam que era mais fácil uma cobra fumar… e a tropa pôs no braço uma cobra fumando.",
+  "ideia": true
+ },
+ {
+  "id": "N082",
+  "texto": "Deposto em quarenta e cinco, voltou eleito e criou a Petrobras, com um lema que resume este vídeo inteiro: o petróleo é nosso.",
+  "tela": "Deposto em quarenta e cinco, voltou eleito e criou a Petrobras, com um lema que resume este vídeo inteiro: o petróleo é nosso.",
+  "ideia": false
+ },
+ {
+  "id": "N083",
+  "texto": "[serious] Em mil novecentos e cinquenta e quatro, pressionado pelos militares, Vargas se matou no palácio do Catete. Deixou uma carta: saio da vida para entrar na história.",
+  "tela": "[serious] Em mil novecentos e cinquenta e quatro, pressionado pelos militares, Vargas se matou no palácio do Catete. Deixou uma carta: saio da vida para entrar na história.",
+  "ideia": true
+ },
+ {
+  "id": "N084",
+  "texto": "Dois anos depois, Juscelino Kubitchéque prometeu cinquenta anos de progresso em cinco.",
+  "tela": "Dois anos depois, Juscelino Kubitschek prometeu cinquenta anos de progresso em cinco.",
+  "ideia": true
+ },
+ {
+  "id": "N085",
+  "texto": "E construiu uma capital nova, no meio do cerrado, em menos de quatro anos. Brasília foi inaugurada em abril de mil novecentos e sessenta, com forma de avião.",
+  "tela": "E construiu uma capital nova, no meio do cerrado, em menos de quatro anos. Brasília foi inaugurada em abril de mil novecentos e sessenta, com forma de avião.",
+  "ideia": false
+ },
+ {
+  "id": "N086",
+  "texto": "Era o futuro, feito de concreto… e pago com uma montanha de dívida. Quatro anos depois, os tanques saíram às ruas.",
+  "tela": "Era o futuro, feito de concreto… e pago com uma montanha de dívida. Quatro anos depois, os tanques saíram às ruas.",
+  "ideia": false
+ },
+ {
+  "id": "N087",
+  "texto": "Em mil novecentos e sessenta e quatro, os militares derrubaram o presidente João Goulart e ficaram vinte e um anos no poder.",
+  "tela": "Em mil novecentos e sessenta e quatro, os militares derrubaram o presidente João Goulart e ficaram vinte e um anos no poder.",
+  "ideia": false
+ },
+ {
+  "id": "N088",
+  "texto": "O crescimento rápido ganhou nome de milagre econômico. Em setenta, o Brasil foi tricampeão, e o governo fez questão de faturar.",
+  "tela": "O crescimento rápido ganhou nome de milagre econômico. Em setenta, o Brasil foi tricampeão, e o governo fez questão de faturar.",
+  "ideia": false
+ },
+ {
+  "id": "N089",
+  "texto": "O lema era: Brasil, ame-o ou deixe-o. E houve censura, prisões e tortura de opositores.",
+  "tela": "O lema era: Brasil, ame-o ou deixe-o. E houve censura, prisões e tortura de opositores.",
+  "ideia": false
+ },
+ {
+  "id": "N090",
+  "texto": "Quando a censura cortava uma notícia, um grande jornal publicava no lugar versos de Camões. Outro, receitas de bolo.",
+  "tela": "Quando a censura cortava uma notícia, um grande jornal publicava no lugar versos de Camões. Outro, receitas de bolo.",
+  "ideia": false
+ },
+ {
+  "id": "N091",
+  "texto": "Em mil novecentos e oitenta e cinco, a democracia voltou. Mas o presidente eleito, Tancredo Neves, morreu antes de tomar posse. Três anos depois, veio a Constituição que vale até hoje.",
+  "tela": "Em mil novecentos e oitenta e cinco, a democracia voltou. Mas o presidente eleito, Tancredo Neves, morreu antes de tomar posse. Três anos depois, veio a Constituição que vale até hoje.",
+  "ideia": true
+ },
+ {
+  "id": "N092",
+  "texto": "Aí veio o pesadelo do dinheiro. Em mil novecentos e noventa, um presidente recém-eleito congelou o dinheiro das contas e da poupança por dezoito meses.",
+  "tela": "Aí veio o pesadelo do dinheiro. Em mil novecentos e noventa, um presidente recém-eleito congelou o dinheiro das contas e da poupança por dezoito meses.",
+  "ideia": true
+ },
+ {
+  "id": "N093",
+  "texto": "Em noventa e três, os preços subiram mais de dois mil por cento num ano só. No mercado, a maquininha de etiquetas remarcava tudo, todo dia.",
+  "tela": "Em noventa e três, os preços subiram mais de dois mil por cento num ano só. No mercado, a maquininha de etiquetas remarcava tudo, todo dia.",
+  "ideia": false
+ },
+ {
+  "id": "N094",
+  "texto": "Em oito anos, o Brasil trocou de moeda cinco vezes. A quinta, o real, deu certo, e está aí até hoje.",
+  "tela": "Em oito anos, o Brasil trocou de moeda cinco vezes. A quinta, o real, deu certo, e está aí até hoje.",
+  "ideia": false
+ },
+ {
+  "id": "N095",
+  "texto": "Desde então, o país teve presidentes de esquerda, de centro e de direita, e dois impeachments. E a democracia seguiu de pé.",
+  "tela": "Desde então, o país teve presidentes de esquerda, de centro e de direita, e dois impeachments. E a democracia seguiu de pé.",
+  "ideia": true
+ },
+ {
+  "id": "N096",
+  "texto": "E os navios? O Brasil é hoje o maior exportador do mundo de soja, café, suco de laranja, carne… e de açúcar, de novo.",
+  "tela": "E os navios? O Brasil é hoje o maior exportador do mundo de soja, café, suco de laranja, carne… e de açúcar, de novo.",
+  "ideia": false
+ },
+ {
+  "id": "N097",
+  "texto": "[warm] Lembra da lista de carga da nau Bretôa? Madeira, bichos… e gente.",
+  "tela": "[warm] Lembra da lista de carga da nau Bretoa? Madeira, bichos… e gente.",
+  "ideia": true
+ },
+ {
+  "id": "N098",
+  "texto": "Quinhentos anos depois, os navios saem cheios de soja, minério e petróleo. E a pergunta continua a mesma: o que vai no navio… e o que fica aqui?",
+  "tela": "Quinhentos anos depois, os navios saem cheios de soja, minério e petróleo. E a pergunta continua a mesma: o que vai no navio… e o que fica aqui?",
+  "ideia": false
+ },
+ {
+  "id": "N099",
+  "texto": "Mas uma coisa mudou. Brasileiro já não é o nome de quem carrega a madeira dos outros. É o nome de duzentos e treze milhões de pessoas.",
+  "tela": "Mas uma coisa mudou. Brasileiro já não é o nome de quem carrega a madeira dos outros. É o nome de duzentos e treze milhões de pessoas.",
+  "ideia": false
+ },
+ {
+  "id": "N100",
+  "texto": "Netos de indígenas, de africanos, de portugueses, de imigrantes. Foi isso que ficou.",
+  "tela": "Netos de indígenas, de africanos, de portugueses, de imigrantes. Foi isso que ficou.",
+  "ideia": false
+ },
+ {
+  "id": "N101",
+  "texto": "E você? Qual desses ciclos deixou mais marcas na sua cidade: o açúcar, o ouro, o café, a borracha? Conta aqui nos comentários.",
+  "tela": "E você? Qual desses ciclos deixou mais marcas na sua cidade: o açúcar, o ouro, o café, a borracha? Conta aqui nos comentários.",
+  "ideia": false
+ }
+]
