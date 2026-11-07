@@ -32,6 +32,12 @@ Pedido do Rodrigo: 3 estilos diferentes para o "Testar e comparar" (`videos/004-
 - **6 Close dramático do mistério:** cena escura, porta de bronze do túmulo fechado com mercúrio prateado vazando, arqueólogo bonequinho recuando com tocha; "NUNCA ABERTO" (ouro + branco) + "2.200 ANOS". Escolhido por pagar o loop do vídeo ("ninguém abriu até hoje") e ser lacuna de informação pura; o escuro destoa do feed claro dos concorrentes. Estátuas de terracota saem com rosto semi-realista (são estátuas, aceitável, mas pequenas e na sombra).
 - **Registre aqui o vencedor e o CTR das 6 thumbs da China** (1–3 COROA × TURBANTE e 4–6) quando o Rodrigo ler no Studio.
 
+## Irã v3 (07/11/2026): HiM fiel ao print + TRAPAÇA? + mapa. **Hipótese**, medir CTR
+`videos/003-ira/entrega/thumbs-v3/` (US$ 0,28; 6 bases nano-banana-2.1/edit, todas usáveis na 1ª tomada, 0 molduras):
+- **HiM fiel ao print (sem boneco):** a Praça Naqsh-e Jahan saiu ótima (cúpula azul, minaretes, Ali Qapu, espelho d'água), mas mesmo pedindo "upper right 45% plain sky" o céu veio com só ~30% da altura. Solução no código: empurrar a cena ~110 px para baixo e completar o topo com o degradê do céu (esticar a faixa de céu deixa emenda nos minaretes/cúpula). Ano inicial = o mais antigo que o roteiro cobre (4200 a.C., Susa).
+- **Bonecos com a cena do hook:** Dario piscando + cavalo relinchando com linhas de som + nobres apontando + cavalariço com a égua e o dedo na boca: o nano-banana montou a cena inteira certo nas 2 tomadas. Palavra-pergunta de acusação ("TRAPAÇA?") em vez de conflito ×.
+- **Mapa-império aceso em ouro** (3º estilo): a geografia sai aproximada (aceitável em cartoon) e sem letras quando o prompt diz "no country names, no labels". Rei grande de braços abertos sobre o mapa lê bem a 320 px.
+
 ## O que manter (vale até haver dado contra)
 - Texto **sempre composto no código** (`src/Thumbnail.jsx`), nunca escrito pela IA. Hoje: Libre Caslon 700 + Open Sans 800. [BRIEF.md 001; QA.md 001]
 - No máximo 2–3 palavras na arte, legíveis em 320×180; o resto vai no título. [estilo.md antigo]
