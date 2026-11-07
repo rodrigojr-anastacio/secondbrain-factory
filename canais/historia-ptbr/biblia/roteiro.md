@@ -109,6 +109,7 @@ Começo do capítulo 1:
 | Índia (publicado) | v1 | 2.620 | hook + 9 | 19:27 | ~136 | ETAPA-FINAL.md 002 |
 | Irã 003 v2 (drama-3) | v1 | 2.282 | hook + 10 + fecho | 18:01 | ~127 | RELATORIO.md 003 v2 |
 | China 004 (drama-3) | v1 | 2.093 | hook + 10 + fecho | 16:14 | ~129 | RELATORIO.md 004 |
+| Brasil 005 (drama-3) | v1 | 2.190 | hook + 10 + fecho | 17:22 | ~126 | RELATORIO.md 005 |
 - Alvo: **15–17 min**. Com o ritmo medido (~128 ppm), 16 min ≈ 2.050 palavras: ~150 no hook, ~185 por era (10 eras), ~90 no fecho (≤ 45 s). O 004 saiu com 2.492 no 1º rascunho: escreva já mirando o orçamento.
 - **Hipótese:** 15–17 min seguram tanto quanto as referências; o hit do ArchLang tem 12:31 e os fracos 18–23 min (§3), então **não** passe de 17.
 

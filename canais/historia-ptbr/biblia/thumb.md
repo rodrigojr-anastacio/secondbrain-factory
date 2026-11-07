@@ -38,6 +38,9 @@ Pedido do Rodrigo: 3 estilos diferentes para o "Testar e comparar" (`videos/004-
 - **Bonecos com a cena do hook:** Dario piscando + cavalo relinchando com linhas de som + nobres apontando + cavalariço com a égua e o dedo na boca: o nano-banana montou a cena inteira certo nas 2 tomadas. Palavra-pergunta de acusação ("TRAPAÇA?") em vez de conflito ×.
 - **Mapa-império aceso em ouro** (3º estilo): a geografia sai aproximada (aceitável em cartoon) e sem letras quando o prompt diz "no country names, no labels". Rei grande de braços abertos sobre o mapa lê bem a 320 px.
 
+## Brasil 005 (07/11/2026): 1º vídeo no padrão de entrega. **Hipótese**, medir CTR
+`videos/005-brasil/entrega/` (US$ 0,28; 6 bases, 1 descartada por faixa/moldura lateral): 1 **bonecos** "À VENDA?" + "1511" (o escrivão da Bretoa em choque com a lista de carga, toras vermelhas, papagaio, sagui); 2 **HiM** "BRASIL" + "1500 – 2026" (baía do Rio, Ouro Preto, Amazônia, Brasília + bonequinho Pedro I com espada e contorno de adesivo; o céu livre saiu certo na 1ª tomada, sem o `mais_ceu`); 3 **ação cômica/lacuna** "O REI FUGIU!" + "1807" (D. João correndo para o navio com a coroa, Napoleão no morro, tempestade). Ano da HiM = o ano-símbolo do país (1500), não o mais antigo do roteiro. Código `videos/005-brasil/thumbs/compose.py`.
+
 ## O que manter (vale até haver dado contra)
 - Texto **sempre composto no código** (`src/Thumbnail.jsx`), nunca escrito pela IA. Hoje: Libre Caslon 700 + Open Sans 800. [BRIEF.md 001; QA.md 001]
 - No máximo 2–3 palavras na arte, legíveis em 320×180; o resto vai no título. [estilo.md antigo]

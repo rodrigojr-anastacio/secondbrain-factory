@@ -26,6 +26,10 @@ A `roteiro.md` v2 (regra 10) mira ~140–145 ppm com pausas (hoje 127–129 no d
 
 ## Nomes estrangeiros (desde 004 China, 05/11/2026)
 - O Fish lê como português: "Qin" sai "kin", "Zhou" sai "zou". O `roteiro.py` do 004 tem a lista `FALA` e grava no `blocos.json` duas grafias: `texto` (fonética, vai ao Fish: "Tchin Chi Ruang", "Djou", "Xang", "Dju Iuan-djang", "Djêng Rrâ", "Dâng Chiau-ping", "Rran") e `tela` (grafia correta, usada nas legendas pelo `build.py`). O Whisper transcreveu "Qin", "Zhu Yuanzhang" e "Xiaoping" a partir da grafia fonética. Use exônimo em português quando existir (Nanquim, Pequim). No QA, compare com as duas grafias (`004-china/tools/qa_fonetico.py`). Teste os nomes com 4–5 blocos (US$ 0,02) antes do vídeo inteiro. [RELATORIO.md 004]
+- **005 Brasil (07/11/2026):** nomes em português quase não precisam de grafia fonética; só "Kubitchéque", "Nassáu", "Bretôa", "Fórdlândia" e "pê érre" (sigla PR). Palavra que começa por vogal logo depois de outra terminada em vogal some ("jacaré, Ipanema" → Whisper "jacaré e panema"): separe com reticências ("… até Ipanema").
+
+## Repetição melódica do hook: tomadas múltiplas (005 Brasil, 07/11/2026)
+- O mesmo texto no drama-3 varia muito entre tomadas: 5 tomadas completas do hook do 005 deram repetição de 0,14 a 0,30 nos 60 s. Escolher a melhor tomada **por bloco** (busca aleatória de ~160 combinações medidas com o `medir.py`) levou a **0,11** (meta ≤ 0,12) por US$ 0,04 a mais. Instale a tomada escolhida copiando o mp3 sobre `audio/N###.mp3` (é hardlink do `blocos-cache`, então o cache passa a guardar a tomada boa). Também ajudou reescrever: pergunta no meio do hook ("O que tem lá dentro?", "E sabe onde ele aparece?") e nenhuma frase-lista curta ("Papagaios, saguis, macacos."). **Hipótese** de processo enquanto o drama-3 estiver barato. [QA.md 005]
 - Junção "Djou enfraqueceram" virou "duem fraqueceram": evite nome fonético curto colado em verbo que começa com vogal.
 
 ## Não faça

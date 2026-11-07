@@ -8,6 +8,7 @@ Título padrão: "A história INTEIRA de X em N minutos" (N = duração real). I
 | 002 | A HISTÓRIA COMPLETA da Índia em 19 minutos | publicado | 2026-11-03 | MV5SSjoccqE |
 | 003 | A história INTEIRA do Irã em 18 minutos | pronto v2, aguardando publicação (youtube.videos id 5; videos/003-ira/entrega/) | 2026-11-05 | — |
 | 004 | A história INTEIRA da China em 16 minutos | pronto, no Drive, aguardando publicação (youtube.videos id 10; videos/004-china/entrega/) | 2026-11-05 | — |
+| 005 | A história INTEIRA do Brasil em 17 minutos | pronto, no Drive, agendar seg 09/11 (youtube.videos id 12; videos/005-brasil/entrega/) | 2026-11-07 | — |
 
 ## Próximos (temas que performaram nas referências; views em 04/11/2026)
 - Roma (Genius History 364 mil; HiM 19 mil) · Japão (CountryCorns 115 mil) · Rússia (HiM 42 mil) · Ucrânia (HiM 178 mil) · Império Britânico · Jerusalém
