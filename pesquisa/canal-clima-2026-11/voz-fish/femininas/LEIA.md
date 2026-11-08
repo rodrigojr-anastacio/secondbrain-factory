@@ -17,3 +17,13 @@
 - Voz 5 saiu rápida demais com speed 1,4 (199 pal/min) e foi desacelerada no ffmpeg; as vozes 1 e 3 precisaram de atempo ~1,15 (sem distorção perceptível esperada, mas **confira de ouvido**).
 - Não rodei Whisper nesta amostra: a entonação das perguntas e a leitura de "éfe dois" ficam para o ouvido do Rodrigo.
 - Vozes com o mesmo texto da amostra anterior (voz masculina `1d8cb595…`) ficaram em 25,7–35,6 s; aqui todas em 26,0 s.
+
+## Vozes 3 e 5 em velocidade natural (08/11/2026)
+Regeradas em drama-3, mesmo texto (78 palavras), **sem speed do Fish e sem atempo** (só silêncio das pontas aparado). Brutos anteriores não existiam, então foi nova geração.
+
+| Arquivo | Voz | Duração | Pal/min | 
+|---|---|---|---|
+| `voz-3-natural.mp3` | senhora 50+ | 41,4 s | 113 |
+| `voz-5-natural.mp3` | Elena Gilbert | 34,0 s | 137 |
+
+Custo: 1.002 bytes × US$ 10/M = **US$ 0,010** (registrado em `financas.consumo`). O saldo do Fish atualiza com atraso, então não confirmei a cobrança pelo crédito. Sem Whisper.
