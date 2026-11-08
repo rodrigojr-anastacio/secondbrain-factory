@@ -1,0 +1,140 @@
+en       n 1 best 32,541,685 | TerraGreen                  4,640,000 2023-09-20 US v59 | UCkYVerz4P_kAZNbDdg2SAeg | 1,000 Ants vs. Natural Disasters
+en,es    n 8 best 26,901,318 | Pecos Hank                  1,240,000 2008-03-08 US v205 | UCAQpSHsgUcNt6uCOjpgD8kw | LARGEST TORNADO EVER!!! From Birth to Death (w/ Radar & Comm
+pt       n 1 best 25,266,712 | MEGA FATOS                  1,660,000 2018-01-15 BR v97 | UCC14Fq2GD3dUMj6Pq0qcdlg | FENÔMENOS NATURAIS MAIS ESTRANHOS DO MUNDO
+en       n 3 best 18,493,801 | Dhruv Rathee               33,300,000 2013-01-07 DE v805 | UC-CSyyi47VX1lD9zyeABW3w | India's Worst Himalayan Disaster | Kedarnath 2013 True Story
+es       n 1 best 18,045,067 | Nat Geo en Español          1,710,000 2024-05-06 None v373 | UCKVtMu6QLSEA528Li51ndPQ | Las Fuerzas Más Destructivas de la Tierra | Secreto en los O
+en,pt    n 5 best 16,478,629 | Underworld                  2,000,000 2010-09-18 US v545 | UCu6H0owNo5Cm_J2znpYBjGA | Top 10 Natural Disasters Caught On Camera
+fr       n 1 best 15,226,528 | BE AMAZED                  13,500,000 2015-07-22 None v2158 | UCkQO3QsgTpNTsOw6ujimT5Q | When EXTREME Weather Is Caught on Camera
+en       n 3 best 15,032,147 | Peekaboo Kidz               7,920,000 2014-06-07 IN v1128 | UCxlJ45KjG4XVcQ_hd8j227A | What is a Tornado? The Dr. Binocs Show | Best Learning Video
+en       n 1 best 13,747,178 | Kiun B                      1,980,000 2020-07-23 GB v104 | UCewnpz5mc4Sjx4esAs54O0w | 24 Hours in the Coldest City on Earth Yakutsk –64°C (−83°F)
+en,it    n 6 best 13,152,916 | Wild Weather                  211,000 2021-01-15 US v620 | UCg82Mk_bTfGbFqxFY_CENVA | The Deadliest Tsunamis Of All Time | Mega Disaster | Earth S
+en       n 1 best 12,683,656 | Daily Dose Of Internet     20,700,000 2015-07-15 US v2022 | UCdC0An4ZPNr_YiFiYoVbwaw | Once In A Life Events Recorded
+en       n10 best 12,247,587 | National Geographic        26,600,000 2006-05-07 US v11575 | UCpVm7bg6pXKo1Pr6k5kxG9A | Tornadoes 101 | National Geographic
+en,pt    n 2 best 11,959,536 | Freddy McKinney               660,000 2014-05-17 US v482 | UCZSDkxJS7PRw9V0_Sm6U7jg | The Most Extreme Tornado Chase Ever
+en       n 4 best 11,916,257 | Celton Henderson              212,000 2019-02-06 US v59 | UCLfN3U2O0sEYabjo2lxIttw | Smithville - The Strongest Tornado in Recorded History
+hi       n 1 best 11,080,590 | जिज्ञासु बने रहें — TED-Ed    181,000 2023-01-03 None v393 | UCrvln11gkUcAjbOqqNDbWDw | बवंडर कैसे बनते हैं? - जेम्स स्पैन
+en,es    n 6 best 10,988,691 | Astraway                    1,690,000 2018-01-10 US v979 | UCK-SilN5e8UIZ-5mdj1igqA | The Destruction of Pompeii (Documentary)
+en,pt    n 2 best 10,838,002 | TED-Ed                     23,000,000 2011-03-01 US v2395 | UCsooa4yRKGN_zEE8iknghZA | How do tornadoes form? - James Spann
+en,it,pt n 6 best 10,377,033 | Reed Timmer                 2,130,000 2006-05-16 US v3355 | UCV6hWxB0-u_IX7e-h4fEBAw | We Launched a Drone at This Tornado, and then...
+en       n 3 best 10,369,324 | Learn Bright                1,010,000 2015-09-02 US v1075 | UCKCsVSA5THlkHbnkZTPm6-g | Top 10 Natural Disasters for Kids
+pt       n 1 best 10,203,765 | Felipe Neto                48,200,000 2006-05-16 BR v6744 | UCV306eHqgo0LvBf3Mh36AHg | FENÔMENOS NATURAIS INEXPLICÁVEIS DA CIÊNCIA! [+10]
+en       n 9 best  9,152,623 | HIGH RISK Chris               324,000 2020-03-29 None v80 | UCGpPbdVAtTUgW_w98lXC9nw | I Tried To Record The Inside Of A Tornado
+de       n 5 best  9,000,760 | NDR Doku                    1,600,000 2005-08-29 DE v2346 | UCTPAHk1b-h-WGQn9cfGlw2Q | Land unter auf Hallig Hooge | die nordstory | NDR Doku
+en,es,fr n36 best  8,885,667 | Max Velocity - Severe Weat  2,220,000 2014-08-31 US v2330 | UCvBVK2ymNzPLRJrgip2GeQQ | Nobody Has EVER Seen A Winter Like This...
+en       n 1 best  8,651,755 | AsapSCIENCE                10,800,000 2012-05-28 None v568 | UCC552Sd-3nyi_tk2BudLUzA | Nobody has EVER seen an El Niño like this
+en       n 1 best  8,505,298 | SkyFury                        35,700 2025-05-05 US v5 | UCqWxNlxcSBoM-cf1VOaG3UA | The Day That Almost Ended the World
+en       n 1 best  8,213,954 | ITV News                    2,270,000 2006-10-06 GB v29678 | UCFQgi22Ht00CpaOQLtvZx2A | We travelled to 'ground zero' of Nepal's devastating flash f
+en       n 1 best  8,165,154 | Spds                          456,000 2018-12-27 US v40 | UC82lQ1ns-PfZLeSa7kpGuQg | The Storm That Almost Ended The World
+en       n 1 best  7,773,477 | Netflix Jr.                26,600,000 2012-01-28 None v3401 | UCAJnyTWJPpKXuwgWQDdNWrQ | How Do Tornadoes Form? 🌪️ FULL EPISODE | StoryBots: Answer T
+pt       n 6 best  7,538,434 | Você Sabia?                47,300,000 2013-09-01 BR v1917 | UCj0O6W8yDuLg3iraAXKgCrQ | MAIORES DESASTRES NATURAIS DA HISTÓRIA
+es       n 1 best  7,281,230 | Doremila                    1,530,000 2015-03-06 US v267 | UCNTl__yGTRH7usCFazeXheQ | Descubre los Desastres Naturales con Canciones Infantiles de
+en       n 1 best  7,206,589 | TerraHijau Indonesia          596,000 2025-10-10 ID v51 | UCtswUlROTyBngC-r6IdpXmw | 1.000 Semut vs. Rintangan
+en,hi    n 4 best  7,183,744 | Shadow Frames                  27,200 2026-01-02 IN v11 | UCqgJ5kAAFspmgUB6zW27rNQ | Kedarnath Disaster 2013: उस दिन की पूरी कहानी। 
+es       n 1 best  7,096,760 | Smile and Learn - Español   6,320,000 2016-11-15 ES v1918 | UCCZpm6436NiU__lcBAlEZmQ | DESASTRES NATURALES 🌊🌋 Recopilación 💨⛈️ Huracán, sequía, tsu
+hi       n 5 best  6,907,255 | Nature Khauf                   61,100 2026-07-14 None v8 | UCyJxucjlRm1fxTi9Un2V2-g | जब समंदर का पानी 1 KM पीछे भागा... और फिर आई 100 फीट ऊंची मौ
+es       n 1 best  6,868,236 | El ROUNDUP                     47,600 2023-11-14 ES v54 | UCO6osb24LgRFhBIkAWEZdEQ | Videos del clima, pero cada vez son más aterradores
+en,pt    n 2 best  6,408,471 | Um Documentário               124,000 2026-04-11 None v37 | UCcK9yDz5INb1Q9Tw82ICeVQ | A TRAGÉDIA DE MIYAKO: A cidade apagada por um Tsunami em pou
+es       n 1 best  6,278,057 | DeToxoMoroxo               16,800,000 2012-09-03 MX v795 | UCq_oSgHK9lk6NUUgkhUOPnw | 10 Lugares con Los Climas MAS EXTREMOS en el Mundo 🥶🥵 | DeTo
+es       n 2 best  6,254,561 | Pero eso es otra Historia   2,070,000 2015-09-27 ES v444 | UCBIMW0ZhwULY_x7fdaPRPiQ | 🌊 Los TSUNAMI más GRANDES de la Historia 🌊 TOP 10 Videos de 
+en       n 1 best  6,082,525 | Jonathan Petramala            205,000 2011-11-24 US v315 | UCXoMM35ugF5iOzAEb-PmfRA | The Hurricane Missed California  Its Waves Didn’t
+hi       n 1 best  5,975,409 | Technical Today 24             74,800 2020-12-10 IN v203 | UCVqIihmoF15mQj84UOZ0jmQ | सबसे डरावनी कुदरती आपदाएँ || Most Shocking Natural Disasters
+pt       n 3 best  5,915,970 | Paulo Jubilut               3,850,000 2006-09-19 BR v1377 | UCG-eghyORxNrzSG8FkAWKyw | Super EL NIÑO NO BRASIL: o que esperar?
+de       n 1 best  5,661,617 | WDR                         1,070,000 2013-07-25 DE v1892 | UCn7wWR5KnpX_N6ZaBNuyVYw | Als Sturmtief Ela das Land verwüstete | Heimatflimmern | WDR
+en       n 1 best  5,493,579 | Devon Massyn                   16,600 2010-05-25 None v45 | UC5YOUZP2_vyY7vMcrc9B0kw | First Time Filmed in a Decade — Underwater Volcano Eruption 
+en       n 2 best  5,447,217 | StarTalk                    6,020,000 2010-12-22 US v1911 | UCqoAEDirJPjEUFcF2FklnBA | The Biggest El Niño in Recorded History
+pt       n 6 best  5,337,301 | #Refúgio Mental            12,900,000 2013-08-09 None v1395 | UChYkldqKWymAKTsPku_tDfg | 25 Enormes Rompimentos de Barragens Flagrados Pelas Câmeras
+en       n 1 best  5,313,341 | The Deshbhakt               6,930,000 2007-08-17 IN v924 | UCmTM_hPCeckqN3cPWtYZZcg | Pt.1- Disaster Waiting To Happen? | Was The Nepal Flood Fury
+en       n 1 best  5,190,349 | The Last Day                   35,500 2026-07-09 US v24 | UCN6XxorahzAiDNyRnI1of2g | Nepal's 2026 Disaster Explained: The Glacier That Wiped Out 
+en       n 5 best  5,107,583 | Swegle Studios                555,000 2020-05-14 US v102 | UCZTme3vf6kXmXfSsIr06lvQ | The Night Texas Hit 140°F (60°C) During a Thunderstorm
+es       n 2 best  4,929,385 | Doc Tops                   16,500,000 2014-12-29 EC v446 | UCAolsolgHiURrQBuZ4qe0lg | Top 10 Fenómenos Naturales Que La Ciencia No Puede Explicar
+en       n 4 best  4,861,565 | Astrum Earth                  504,000 2024-09-09 GB v65 | UCWBtLCE-BnzZx3DneqDiXWQ | The Tornado That Changed Science
+es       n 1 best  4,848,378 | FULL TOP'S                  1,270,000 2013-03-14 ES v523 | UCKn0UcDmgWZvlI-32_-ED-A | TOP 10 ERRORES MÁS CAROS Y LAMENTABLES DE LA HISTORIA
+en       n 1 best  4,710,775 | MythBusters                   831,000 2023-08-17 GB v1434 | UChUAaNhjdc1aN5f_29BPrhw | Can Storm Chaser Vehicles Really Survive EF5 Tornado Winds? 
+en       n 2 best  4,690,216 | Mr. DeMaio                    638,000 2013-10-22 US v190 | UCwyVRKfytvjSF6q5s7noKZQ | Hurricane Facts for Kids!
+de       n 1 best  4,647,442 | WDR Doku                    1,140,000 2017-04-18 DE v750 | UCUuab1dctZzN5ZmRmQnTzkg | Naturkatastrophen und Unwetter - Wenn das Wetter verrücktspi
+es       n 1 best  4,483,908 | SORPRENDENTE                7,710,000 2018-02-22 CO v1749 | UCqo103ltx_rUXCqJhpoF1Qw | Fenomenos Climaticos Más EXTREMOS Captados En Cámara
+hi       n 2 best  4,376,304 | टेरा ग्रीन हिन्दी             172,000 2025-10-10 IN v41 | UCPpfKU7ludL7VKyB2oB_Gxg | 1,000 Ants vs. Obstacles
+en       n 2 best  4,215,828 | CFproductions                  59,600 2020-04-16 US v96 | UCvIqVAaqpx1Q_e9DzIxgk1A | Columbus - The Best Tornado Footage Ever Shot
+pt       n 6 best  4,188,543 | Fala Sério                  3,000,000 2019-10-15 BR v1673 | UClG7ik2BxqqYCJaFc9xlM8w | Estranhos Fenômenos No Céu Que São Difíceis De Explicar
+pt       n 1 best  4,136,156 | Revelações Curiosas            11,500 2024-04-24 BR v13 | UC40dlw11JSRu8cm7ME91WoQ | 15 Fenômenos Naturais Mais Assustadores Registrados em Vídeo
+en       n 1 best  4,135,732 | SideQuest Drew                647,000 2011-10-09 US v55 | UCOAHgaVjyUjFtxhgCAQ_vAg | We Snuck Onto Epstein’s Island During a Hurricane
+en       n 2 best  4,015,012 | Crash Course Kids             975,000 2014-09-08 US v113 | UCONtPx56PSebXJOxbFv-2jQ | Weather vs. Climate: Crash Course Kids #28.1
+en       n 1 best  3,794,278 | The Paint Explainer         2,020,000 2023-07-18 None v169 | UCnwUjPK7dXety-AJ4fNw_RQ | Every Single Natural Disaster, Explained Simply
+pt       n 3 best  3,763,243 | INCRÍVEL                   18,300,000 2017-06-20 BR v11609 | UCIQPHl1WKKTt9KkWyo_JNig | Furacão, Tornado, Ciclone – Qual É A Diferença?
+en       n 5 best  3,745,147 | TornadoTRX                    490,000 2017-06-11 US v19 | UCuer9Sw2UAD5LWZpVXbgKTA | Rainsville - The Strongest Tornado You've Never Heard Of
+pt       n 2 best  3,657,724 | GeoDocs                       258,000 2024-06-19 BR v68 | UCyEr1_3pP7tkD-XNddOnN0w | Inacreditáveis Fenômenos da Natureza [Documentário]
+es       n 1 best  3,655,529 | GENIAL                     31,900,000 2017-06-01 MX v12276 | UCbrd1vu4_7qIE6IPV_dA-OA | Huracán, Tornado, Ciclón: ¿Cuál es la diferencia?
+en       n 2 best  3,612,893 | Epic Adventure Archives        96,200 2022-09-08 US v23 | UCGE6IOQwtNX0X6x9ZgJsRVQ | The Southern Ocean: The World’s Most Dangerous Ocean
+en       n 1 best  3,611,204 | SciShow Kids                1,730,000 2014-07-10 US v614 | UCRFIPG2u1DxKLNuE3y2SjHA | What's a Hurricane? | Weather Science | SciShow Kids
+es       n 1 best  3,562,140 | DW Documental               6,220,000 2017-11-28 DE v833 | UCQ1GpKa15ulyoQuxz7H4rng | Clima extremo, ¿qué nos espera? | DW Documental
+hi       n 1 best  3,543,225 | DD News                     8,020,000 2013-02-15 IN v174344 | UCKwucPzHZ7zCUIf7If-Wo1g | Decode: Nepal-Tibet में कैसे आई विनाशकारी बाढ़? | Sudhir Cha
+de       n 1 best  3,427,040 | UNSORTIERTES                   19,100 2024-09-12 None v101 | UCbLPyVwAjUx7wonfvts4few | 55 Mal, als Mutter Natur wütend war und von der Kamera festg
+pt       n 1 best  3,404,717 | Detetive Labrador - Desenh  2,720,000 2023-04-24 BR v907 | UCmmTidkJ5TEydIWd-GcLiJQ | Um Grande Tornado Chegando 🌀 Desastres Naturales 🎬 Dicas de 
+en       n 1 best  3,283,943 | SkyWhisper                     25,300 2025-10-24 None v21 | UClEH97oWJjrm1PX6ZCEcafQ | The Worst Tornado Ever Recorded - Joplin 2011
+it       n 1 best  3,281,688 | AB Spanish                    392,000 2025-04-29 MX v154 | UCjeUGZdNzENiNqmz-plXiCQ | ¡SI VES UN TORNADO DE TRIPOFOBIA, HUYE! (SALVAMOS A RUMI)
+en       n13 best  3,207,400 | Ryan Hall, Y'all            3,550,000 2012-12-05 US v1026 | UCJHAT3Uvv-g3I8H3GhHWV7w | The March 14, 2025 Tornado Outbreak, As It Happened...
+es       n 4 best  3,174,484 | History Latinoamérica       8,260,000 2012-03-08 MX v37687 | UCVvwbez-BNlWvbxtpOx0MGQ | MEGA TSUNAMIS - LO INEXPLICABLE CON WILLIAM SHATNER
+en,es,fr n19 best  3,032,260 | Disasters Explained            28,700 2025-11-15 US v74 | UCUq1B_mpEgWiNujdZkY0x5w | Every Tornado Type Explained
+en       n 1 best  3,026,296 | Matthew Santoro             5,850,000 2010-02-13 CA v3605 | UCXhSCMRRPyxSoyLSPFxK7VA | The 10 DEADLIEST NATURAL DISASTERS in History!
+en       n 1 best  2,990,885 | Midwest Safety              4,940,000 2013-09-06 US v1156 | UCazRf1jcMNZEL1MS5i_rWQQ | Bodycam Captures Deadly Tornado Response
+en       n 7 best  2,977,769 | PBS Terra                   1,050,000 2019-12-27 US v538 | UCpxYSWgxVt3Pyn1ovXsGQ0g | Tornado Alley Is MOVING and That's a HUGE Problem
+hi       n 4 best  2,882,531 | BBC News Hindi             22,000,000 2009-09-22 None v42305 | UCN7B-QD0Qgn2boVH5Q0pOWg | तेज़ी से पिघल रहा हिमालय , 'खतरे में' India की अर्थव्यवस्था?
+es       n 2 best  2,873,939 | El Robot de Platón          3,110,000 2013-12-21 None v1410 | UCaVPhFg-Ax873wvhbNitsrQ | Se Viene un Súper El Niño: ¿Qué lo Hace Diferente Esta Vez?
+pt       n 3 best  2,840,345 | Canal History Brasil        5,450,000 2012-01-28 BR v33146 | UCRP5p2RfxJgnKyWgve5pJ-Q | TSUNAMI: O terremoto mais poderoso do século XXI | INEXPLICÁ
+pt       n 2 best  2,812,959 | Manual do Mundo            20,600,000 2006-07-24 BR v3465 | UCKHhA5hN2UohhFDfNXB_cvQ | O QUE É esse TAL de EL NIÑO? ENTENDA TUDO sobre o FENÔMENO!
+en       n 1 best  2,804,524 | Amit Sengupta               2,150,000 2012-09-21 IN v970 | UCYCVm1aN33HYdLs66DHw_ow | Tropical Cyclone, Hurricane, Storm Formation explained | Cyc
+hi       n 1 best  2,804,133 | MR. INDIAN HACKER          54,000,000 2012-06-21 IN v1504 | UCSiDGb0MnHFGjs4E2WKvShw | We Made Fire Tornado At Home - आग का बवंडर बना दिया 😱
+pt       n 2 best  2,777,834 | Família Sophia e Liz       13,500,000 2021-12-27 BR v3465 | UCeHuZmjaD4p7ac_lxxBVgSQ | O TORNADO TRIPOFOBIA DESTRUIU TODA A CIDADE - SOPHIA E LIZ E
+en       n 2 best  2,772,049 | Zem TV                      6,130,000 2018-06-20 AE v478 | UCs_ineLBnNTGjrArNzjSLZg | Worst Dam Disaster in Human History Kept Secret for 30 Years
+es,pt    n 3 best  2,731,440 | Te lo Pinto                   598,000 2024-04-06 ES v314 | UCrkONla60pQPsppl7PPDHyQ | Todos los Tipos de Tornado Explicados
+es       n 2 best  2,626,600 | El Confidencial               657,000 2011-02-22 ES v5833 | UCY2hu_NT5NDbBU-HGxgqMuA | Así se inundó Valencia: crónica visual del mayor desastre na
+en       n 1 best  2,576,888 | NDTV                       16,100,000 2006-05-08 IN v308377 | UCZFMm1mMw0F81Z37aaEzTUA | 14 Most Devastating Videos Of Nepal Floods
+es       n 1 best  2,539,702 | Vidas Salvajes                 70,300 2013-03-27 ES v102 | UCMX6dYxoeRIHqO9ObV_AHQQ | INVIERNO EXTREMO EN RUSIA | Supervivencia a -70°C en el Frío
+en,fr,pt n 3 best  2,482,564 | OoS Pictures                    6,020 2023-09-22 None v25 | UCeCikyZwKGhLnpheYkqTKDA | Climate Extremes:  Agriculture (Full Documentary)
+fr       n 2 best  2,465,098 | Trash                       3,160,000 2015-02-10 FR v498 | UCfGfdZuYifBYb1fmZcL1JBQ | 12 PIRES CATASTROPHES NATURELLES
+en       n 1 best  2,454,561 | Simple Paint                  546,000 2017-12-24 US v138 | UCXbCOOoXE09V6StOp0gbTFQ | The Worst Storm Chasing Accidents Ever
+es       n 1 best  2,426,218 | GuerrerosPlanet               106,000 2020-06-06 CA v37 | UCTKHUcE_-t2ePimaf2dW_Bg | Fenómenos Naturales para Niños | Desastres Naturales | Video
+en       n 7 best  2,380,818 | The Escalist                   35,300 2007-12-09 US v124 | UCp9eTbnNSBFIFEdCSmPTrtw | Every RARE Tornado Shape Explained In 16 Minutes
+pt       n 1 best  2,369,195 | Séries do Incrível            146,000 2023-05-15 BR v2030 | UChWxCOxC4wn26Jp6EKnq_gQ | Os 7 fenômenos naturais mais perigosos do oceano
+pt       n 1 best  2,290,379 | Incrível Mundo                  9,000 2022-05-02 BR v14 | UCAsxIiMgd0AcKv9BVhVi-3A | FENÔMENOS NATURAIS MAIS PERIGOSOS DO MUNDO
+es       n 2 best  2,268,693 | Canal Meteo | Albert Marti     42,900 2011-09-24 US v1669 | UCL6UGqm6qEmQPa4TMngYENg | SUPERÑIÑO para esta temporada de huracanes en el Atlántico 2
+en       n 2 best  2,263,659 | weatherbox studios            143,000 2021-04-24 US v73 | UCCtYdNBm-8C_wZk0n6u8VnQ | Jarrell - The World's Most Unsurvivable Tornado
+pt       n 1 best  2,223,775 | Jazzghost                  25,200,000 2012-08-30 None v6506 | UCIXguhHCl8eDTkXpEuiGPUA | EU SOBREVIVI A UM TORNADO F5 (O MAIS PERIGOSO DO MUNDO)!
+en       n 1 best  2,159,832 | Megyn Kelly                 4,190,000 2019-11-07 US v16787 | UCzJXNzqz6VMHSNInQt_7q6w | Expert Pilot Explains What Likely Caused SHOCKING Plane Cras
+en,pt    n 3 best  2,155,522 | Vox                        12,700,000 2014-03-04 US v2555 | UCLXo7UDZvByw2ixzpQCufnA | Why the US has so many tornadoes
+pt       n 2 best  2,148,192 | Catástrofe X                    7,590 2025-09-23 BR v47 | UCb2Jwl0gpeSq4bN1MyaiopA | 75 Momentos Mais Incríveis da Natureza Captados em Câmera!
+fr       n 2 best  2,111,151 | INCLASSABLES                   31,400 2024-09-12 None v101 | UCwutTolsjpXda1YxZ6ts-aQ | 55 Fois Où Dame Nature s'Est Énervée, Filmé par Caméra
+hi       n 1 best  2,106,111 | Carry Depie                 4,920,000 2016-09-09 IN v709 | UClqifC6Nd7v-IfTqce4k62A | Surviving Deadly Shark Tornado in Minecraft..
+en       n 1 best  2,064,841 | DW News                     6,500,000 2007-09-04 DE v50773 | UCknLrEdhRCp1aegoMqRaCZg | A historic El Nino is forming. Here's why scientists are wor
+en       n 6 best  2,056,714 | BBC News                   20,200,000 2006-04-08 GB v34308 | UC16niRr50-MSBwiO3YDb3RA | How ‘super’ El Niño could bring chaos to the world’s weather
+en       n 2 best  2,041,226 | The Secrets of the Univers  1,790,000 2017-05-18 IN v662 | UCK-0srt5hdY5m6Zos_NlJZg | Nobody Realizes What El Niño Is About To Do To Our Planet
+en       n 2 best  2,036,435 | Real Science                2,090,000 2019-06-19 US v172 | UC176GAQozKKjhz62H8u9vQQ | How Super Tornadoes Are Born
+en       n 1 best  2,032,376 | Practical Engineering       4,840,000 2007-02-18 US v253 | UCMOqf8ab-42UUQIdVoKwjlQ | The Mind-Blowing Flaw That Flooded New Orleans
+it       n 1 best  1,963,734 | Lyna                       26,100,000 2014-09-08 AR v6232 | UC-cnbLlplnXA4oc7rR21qzg | SOBREVIVIMOS al TORNADO de BROOKHAVEN con Mandarina en Roblo
+pt       n 1 best  1,961,363 | AntigamenteBR                   7,940 2026-03-12 BR v15 | UC3M1FG__5Lb4i0R_ykhsZlQ | Caraguatatuba Instantes Antes da Serra Engolir a Cidade (196
+es       n 2 best  1,939,930 | LA Noche de Peliculas       1,050,000 2022-11-18 GB v543 | UCdGz4zoqd0RCl-wl5F2A2pQ | Gran Tsunami PELÍCULA COMPLETA | Películas de Desastres Natu
+fr       n 2 best  1,928,161 | Dr Nozman                   4,930,000 2011-05-28 FR v964 | UCWnfDPdZw6A23UtuBpYBbAg | La plus grosse tornade de tous les temps !
+en       n 1 best  1,915,839 | Scary Interesting           2,060,000 2012-02-26 CA v315 | UCNXvmGafmrtJ7VPSqjRRbwg | The Worst Disasters In History
+fr       n 1 best  1,912,844 | #Le Magasin de l’Intellige    273,000 2019-11-26 FR v979 | UCjo9fOr1tGHQo0nHg3cPC6g | Moments Filmés Quelques Secondes Avant la Catastrophe
+es       n 1 best  1,875,908 | Drew Binsky Top Videos        107,000 2025-11-10 US v91 | UCodVXWu3aFyE1hGmbJrJJLQ | Surviving The World's Most Extreme Weather
+pt       n 1 best  1,865,588 | MEGA BRASIL                    37,300 2020-04-11 None v93 | UCntvyt1q72MqMUfMZq7PlXw | TORNADOS no BRASIL  2020 | Mega Tornados
+pt       n 1 best  1,823,567 | BRAIN TIME                  4,080,000 2017-09-28 None v1381 | UCpJTpokFKdUY9wx_Jrb1Bow | MOMENTOS NA NATUREZA QUE ACONTECEM UMA VEZ EM UM BILHÃO
+es       n 1 best  1,821,995 | RARE NATURE                    28,200 2018-05-11 US v73 | UCzcZsZojwyhxKxDkw0HaJlQ | One in a Billion Moments in Nature Caught on Camera #03
+de,en    n 4 best  1,808,012 | Dark Horizon                   50,300 2025-05-26 None v36 | UCvv0Zy25K_9wj_YyP4nDX3g | The Storm that Drowned an Entire State - Katrina 2005
+fr       n 3 best  1,675,530 | Jamy - Epicurieux           2,430,000 2020-03-18 FR v517 | UCG9G2dyRv04FDSH1FSYuLBg | 5 Catastrophes naturelles qui pourraient vraiment nous arriv
+pt       n 2 best  1,674,747 | Smile and Learn - Portuguê  2,020,000 2018-08-09 BR v917 | UCYKeu41LiJOIoyEkStWqCLw | DESASTRES NATURAIS 🌊🌋 Compilação💨⛈️ Furacão, seca, tsunami, 
+en       n 1 best  1,670,411 | ZoneA                         447,000 2014-06-01 None v314 | UCzYMj8n9AujgUHs7i9et5-A | How To Predict The Weather By Looking At The Clouds
+es       n 1 best  1,641,078 | Aprende con Jefferson          83,600 2020-08-21 SV v69 | UCB3gOZDrlZF_962lyaCl4wA | ⛈🌪cuales son los fenomenos y desastres naturales🌪⛈
+en       n 1 best  1,625,736 | Ankit Inspires India        6,030,000 2020-02-22 IN v2265 | UC2Nwwobsd0ctkzVieXZvyQA | Deadly UP Thunderstorms Claim 117 Lives, Compensation Announ
+pt       n 1 best  1,619,840 | Gazeta do Povo              2,330,000 2016-04-25 BR v15507 | UCWdGgeyOnCOGnvhNdbVl1dQ | O QUE ESTÁ ACONTECENDO COM LULA PODE MUDAR A ELEIÇÃO | LACOM
+es       n 1 best  1,604,532 | Investigation               5,390,000 2015-12-02 FR v3814 | UC50uCdUubc04xXZz7bqv5ng | Kazakhstan's Extreme Roads: Surviving at -40°C
+en       n 1 best  1,601,510 | Renato Garcia              32,000,000 2011-09-29 BR v6047 | UChMJkHCD2wdvSO7CMOuLR-w | O HOTEL MAIS ASSOMBRADO DO BRASIL
+pt       n 3 best  1,594,392 | Meu Planeta Irreal TV BR      115,000 2024-10-11 BR v174 | UCy5XnnmusaIMXapbDdRg50w | MARAVILHAS DO PLANETA | Lugares incríveis e curiosidades | D
+es       n 1 best  1,571,403 | Crescendo com Luluca       18,300,000 2015-08-30 BR v2469 | UCnrGkE2AmBAv6Vxj6kjf1jg | UM CICLONE PASSOU POR SÃO PAULO | Luluca
+hi       n 3 best  1,570,296 | Nature Tabaahi                 28,100 2026-08-13 IN v13 | UCXoi9MAKmS_T4Z6UUDGS-Ug | 100 फीट ऊंची लहर और 5 दिन की आग | 1755 Lisbon Mega Tsunami &
+es       n 1 best  1,560,042 | Isaac Moreno Gallo            329,000 2008-12-15 ES v1627 | UC7Mjoz3IVBzN18pC_t7F64A | Geografía de una inundación: la DANA de Valencia.
+de       n 1 best  1,513,163 | tomatolix                   2,540,000 2010-09-14 DE v380 | UCNCktfoFAXtXnMlhjyc9SPA | Extreme Gewitter jagen - 1 Tag Stormchaser
+fr       n 1 best  1,459,000 | imineo Documentaires        3,610,000 2013-05-30 FR v2037 | UCJ9tHJbCa8ZoMbapfJLy0ZQ | Les catastrophes naturelles les plus meurtrières sur Terre
+pt       n 1 best  1,452,143 | Series de Sobrevivência        33,800 2015-02-17 None v71 | UCJ6VS0wHj33deigublpWwlw | Os Dez Maiores Desastres Naturais HD
+en       n 2 best  1,443,033 | The Infographics Show      15,500,000 2011-02-26 US v6379 | UCfdNM3NAhaBOXCafH7krzrA | Worst Natural Disasters in Human History
+en       n 2 best  1,440,734 | Be Smart                    5,890,000 2012-03-17 US v566 | UCH4BNI0-FOK2dMXoFtViWHw | The New Kind of Heat Humans Can’t Handle
