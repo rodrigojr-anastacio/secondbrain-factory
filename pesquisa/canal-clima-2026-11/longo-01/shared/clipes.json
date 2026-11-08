@@ -1,0 +1,614 @@
+{
+ "maringa-drone": {
+  "arq": "dl/clips/gm5vWBbuXyY-102.mp4",
+  "fmt": "pol",
+  "legenda": "MARINGÁ · PR · DEPOIS DO TORNADO",
+  "credito": "VÍDEO: 7K DRONES · YOUTUBE · 07/11/2026",
+  "url": "https://www.youtube.com/watch?v=gm5vWBbuXyY",
+  "ini": 102.0,
+  "crop": [
+   0.06,
+   0,
+   0.94,
+   0.86
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "chapeco-centro": {
+  "arq": "dl/okd61_o5xks.mp4",
+  "fmt": "pol",
+  "legenda": "CHAPECÓ · SC · 04/11, 10H30",
+  "credito": "VÍDEO: CÂMERA AO VIVO PORTAL CHAPECÓ · 04/11/2026",
+  "url": "https://www.youtube.com/watch?v=okd61_o5xks",
+  "ini": 104.0,
+  "crop": [
+   0.12,
+   0.05,
+   0.88,
+   0.84
+  ],
+  "ss": 104.0,
+  "dur": 7,
+  "rate": 1.0,
+  "duracao": 7.0
+ },
+ "santo-augusto-rua": {
+  "arq": "dl/clips/ix8SSbAajAw-12.mp4",
+  "fmt": "pol",
+  "legenda": "SANTO AUGUSTO · RS · 07/11, MADRUGADA",
+  "credito": "VÍDEO: VAGNER ONUCZAK (MORADOR) · YOUTUBE · 07/11/2026",
+  "url": "https://www.youtube.com/watch?v=ix8SSbAajAw",
+  "ini": 12.0,
+  "crop": [
+   0.125,
+   0,
+   0.875,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 5.0
+ },
+ "maringa-arvore": {
+  "arq": "dl/clips/2YfBh5M2Bp8-18.mp4",
+  "fmt": "pol",
+  "legenda": "MARINGÁ · ÁRVORES PARTIDAS",
+  "credito": "VÍDEO: LUNG ARTS · YOUTUBE · 03/11/2026",
+  "url": "https://www.youtube.com/watch?v=2YfBh5M2Bp8",
+  "ini": 18.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "maringa-posto": {
+  "arq": "dl/clips/2YfBh5M2Bp8-24.mp4",
+  "fmt": "pol",
+  "legenda": "MARINGÁ · POSTES NO CHÃO",
+  "credito": "VÍDEO: LUNG ARTS · YOUTUBE · 03/11/2026",
+  "url": "https://www.youtube.com/watch?v=2YfBh5M2Bp8",
+  "ini": 24.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 5.97
+ },
+ "maringa-limpeza": {
+  "arq": "dl/clips/2YfBh5M2Bp8-48.mp4",
+  "fmt": "pol",
+  "legenda": "MARINGÁ · A LIMPEZA",
+  "credito": "VÍDEO: LUNG ARTS · YOUTUBE · 03/11/2026",
+  "url": "https://www.youtube.com/watch?v=2YfBh5M2Bp8",
+  "ini": 48.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "chapeco-predios": {
+  "arq": "dl/okd61_o5xks.mp4",
+  "fmt": "mon",
+  "legenda": "CHAPECÓ · CENTRO · 04/11",
+  "credito": "VÍDEO: CÂMERA AO VIVO PORTAL CHAPECÓ · 04/11/2026",
+  "url": "https://www.youtube.com/watch?v=okd61_o5xks",
+  "ini": 112.0,
+  "crop": [
+   0,
+   0.03,
+   1,
+   0.84
+  ],
+  "ss": 112.0,
+  "dur": 6,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "chapeco-aeroporto": {
+  "arq": "dl/clips/Q8uunz9iwXA-96.mp4",
+  "fmt": "mon",
+  "legenda": "AEROPORTO DE CHAPECÓ · 10H30",
+  "credito": "VÍDEO: CÂMERA PORTAL CHAPECÓ · YOUTUBE · 04/11/2026",
+  "url": "https://www.youtube.com/watch?v=Q8uunz9iwXA",
+  "ini": 96.0,
+  "crop": [
+   0,
+   0.11,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "chapeco-palmeiras": {
+  "arq": "dl/clips/cgaVfPKLRAg-408.mp4",
+  "fmt": "mon",
+  "legenda": "AEROPORTO · CABECEIRA 30 · 10H31",
+  "credito": "VÍDEO: CÂMERA PORTAL CHAPECÓ · YOUTUBE · 04/11/2026",
+  "url": "https://www.youtube.com/watch?v=cgaVfPKLRAg",
+  "ini": 408.0,
+  "crop": [
+   0,
+   0,
+   1,
+   0.86
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "chapeco-telhas": {
+  "arq": "dl/clips/cgaVfPKLRAg-616.mp4",
+  "fmt": "mon",
+  "legenda": "CHAPECÓ · TELHAS PELO AR",
+  "credito": "VÍDEO: CÂMERA PORTAL CHAPECÓ · YOUTUBE · 04/11/2026",
+  "url": "https://www.youtube.com/watch?v=cgaVfPKLRAg",
+  "ini": 616.0,
+  "crop": [
+   0,
+   0,
+   1,
+   0.86
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "xanxere-rodovia": {
+  "arq": "dl/clips/iF-GPyX20hM-2.mp4",
+  "fmt": "cel",
+  "legenda": "XANXERÊ · RODOVIA · 04/11",
+  "credito": "VÍDEO: RÁDIO AMIGO DO POVO · YOUTUBE · 04/11/2026",
+  "url": "https://www.youtube.com/watch?v=iF-GPyX20hM",
+  "ini": 2.0,
+  "crop": [
+   0,
+   0.17,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "xanxere-drone": {
+  "arq": "dl/clips/UMBq-14sHEU-20.mp4",
+  "fmt": "cel",
+  "legenda": "XANXERÊ · O RASTRO",
+  "credito": "VÍDEO: JOLVANI BUENO · YOUTUBE · 05/11/2026",
+  "url": "https://www.youtube.com/watch?v=UMBq-14sHEU",
+  "ini": 20.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 5.97
+ },
+ "erval-eucalipto": {
+  "arq": "dl/clips/n5vFxl4TV4w-16.mp4",
+  "fmt": "pol",
+  "legenda": "ERVAL GRANDE · RS · 04/11",
+  "credito": "VÍDEO: MARCO ANTONIO SILVA · YOUTUBE · 05/11/2026",
+  "url": "https://www.youtube.com/watch?v=n5vFxl4TV4w",
+  "ini": 16.0,
+  "crop": [
+   0,
+   0.36,
+   1,
+   0.77
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "rionegrinho-casas": {
+  "arq": "dl/clips/aMyHsdD9de8-27.mp4",
+  "fmt": "cel",
+  "legenda": "RIO NEGRINHO · SC · INTERIOR",
+  "credito": "VÍDEO: SIDIONEI MIRANDA · YOUTUBE · 07/11/2026",
+  "url": "https://www.youtube.com/watch?v=aMyHsdD9de8",
+  "ini": 27.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "rionegrinho-telhado": {
+  "arq": "dl/clips/aMyHsdD9de8-75.mp4",
+  "fmt": "cel",
+  "legenda": "RIO NEGRINHO · O CONSERTO",
+  "credito": "VÍDEO: SIDIONEI MIRANDA · YOUTUBE · 07/11/2026",
+  "url": "https://www.youtube.com/watch?v=aMyHsdD9de8",
+  "ini": 75.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "chapeco-claroes": {
+  "arq": "dl/clips/cgaVfPKLRAg-608.mp4",
+  "fmt": "mon",
+  "legenda": "CHAPECÓ · CENTRO · 04/11, MANHÃ",
+  "credito": "VÍDEO: CÂMERA PORTAL CHAPECÓ · YOUTUBE · 04/11/2026",
+  "url": "https://www.youtube.com/watch?v=cgaVfPKLRAg",
+  "ini": 608.0,
+  "crop": [
+   0,
+   0,
+   1,
+   0.86
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "xanxere2015-funil": {
+  "arq": "dl/clips/ogO0Q4szoBg-175.mp4",
+  "fmt": "pol",
+  "legenda": "XANXERÊ · 20/04/2015",
+  "credito": "VÍDEO: ELIAS BORTOLUZZI COLLET · YOUTUBE · 2015",
+  "url": "https://www.youtube.com/watch?v=ogO0Q4szoBg",
+  "ini": 175.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "xanxere2015-cctv": {
+  "arq": "dl/clips/SPahXz2p7aw-96.mp4",
+  "fmt": "mon",
+  "legenda": "XANXERÊ · 20/04/2015 · 15H04",
+  "credito": "VÍDEO: SAMUEL BIONDO GIORDANI · YOUTUBE · 2015",
+  "url": "https://www.youtube.com/watch?v=SPahXz2p7aw",
+  "ini": 96.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "guaraciaba2009": {
+  "arq": "dl/clips/tpzNZVAMWgY-0.mp4",
+  "fmt": "pol",
+  "legenda": "GUARACIABA · SC · SET/2009",
+  "credito": "VÍDEO: LANA CARMONA PACHECO · YOUTUBE · 2009",
+  "url": "https://www.youtube.com/watch?v=tpzNZVAMWgY",
+  "ini": 0.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "rbi-comercio": {
+  "arq": "dl/clips/MD80NpRCZUA-9.mp4",
+  "fmt": "pol",
+  "legenda": "RIO BONITO DO IGUAÇU · PR · 08/11/2025",
+  "credito": "VÍDEO: DRONELOOK · YOUTUBE · 08/11/2025",
+  "url": "https://www.youtube.com/watch?v=MD80NpRCZUA",
+  "ini": 9.0,
+  "crop": [
+   0,
+   0.08,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "rbi-rastro": {
+  "arq": "dl/clips/MD80NpRCZUA-234.mp4",
+  "fmt": "pol",
+  "legenda": "RIO BONITO DO IGUAÇU · O RASTRO",
+  "credito": "VÍDEO: DRONELOOK · YOUTUBE · 08/11/2025",
+  "url": "https://www.youtube.com/watch?v=MD80NpRCZUA",
+  "ini": 234.0,
+  "crop": [
+   0,
+   0.08,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "celular-nuvem": {
+  "arq": "dl/clips/SyxEa6IjJGk-118.mp4",
+  "fmt": "pol",
+  "legenda": "QUALQUER UM FILMA O CÉU",
+  "credito": "VÍDEO: DE OLHO NO CÉU · YOUTUBE · 2022",
+  "url": "https://www.youtube.com/watch?v=SyxEa6IjJGk",
+  "ini": 118.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 5.97
+ },
+ "dolores2016": {
+  "arq": "dl/clips/RIIJxV83oRY-75.mp4",
+  "fmt": "pol",
+  "legenda": "DOLORES · URUGUAI · 2016",
+  "credito": "VÍDEO: SEBASTIÁN MARTÍNEZ · YOUTUBE · 2016",
+  "url": "https://www.youtube.com/watch?v=RIIJxV83oRY",
+  "ini": 75.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "prateleira-timelapse": {
+  "arq": "dl/clips/5stC8FkNuA8-14.mp4",
+  "fmt": "pol",
+  "legenda": "FRENTE DE RAJADA · SP",
+  "credito": "VÍDEO: PIRACICABA STORMCHASING · CC BY · YOUTUBE",
+  "url": "https://www.youtube.com/watch?v=5stC8FkNuA8",
+  "ini": 14.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "mesociclone": {
+  "arq": "dl/clips/UW5AlqbAS9o-3.mp4",
+  "fmt": "pol",
+  "legenda": "MESOCICLONE · A BASE GIRANDO",
+  "credito": "VÍDEO: PIRACICABA STORMCHASING · CC BY · YOUTUBE",
+  "url": "https://www.youtube.com/watch?v=UW5AlqbAS9o",
+  "ini": 3.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "tail-cloud": {
+  "arq": "dl/clips/UW5AlqbAS9o-48.mp4",
+  "fmt": "pol",
+  "legenda": "A NUVEM SE ESTREITA",
+  "credito": "VÍDEO: PIRACICABA STORMCHASING · CC BY · YOUTUBE",
+  "url": "https://www.youtube.com/watch?v=UW5AlqbAS9o",
+  "ini": 48.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "funil-maringa2022": {
+  "arq": "dl/clips/SyxEa6IjJGk-142.mp4",
+  "fmt": "pol",
+  "legenda": "NUVEM-FUNIL · PR · 2022",
+  "credito": "VÍDEO: DE OLHO NO CÉU · YOUTUBE · 2022",
+  "url": "https://www.youtube.com/watch?v=SyxEa6IjJGk",
+  "ini": 142.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "tornado-nssl1973": {
+  "arq": "dl/clips/_u3qolstr50-44.mp4",
+  "fmt": "pol",
+  "legenda": "TORNADO · EUA · 1973",
+  "credito": "VÍDEO: NOAA/NSSL · CC BY · YOUTUBE",
+  "url": "https://www.youtube.com/watch?v=_u3qolstr50",
+  "ini": 44.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 5.0
+ },
+ "prateleira-baixa": {
+  "arq": "dl/clips/CEXEYDGzMlY-60.mp4",
+  "fmt": "pol",
+  "legenda": "TEMPORAL CHEGANDO",
+  "credito": "VÍDEO: PIRACICABA STORMCHASING · CC BY · YOUTUBE",
+  "url": "https://www.youtube.com/watch?v=CEXEYDGzMlY",
+  "ini": 60.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "rbi-galpao": {
+  "arq": "dl/clips/MD80NpRCZUA-99.mp4",
+  "fmt": "pol",
+  "legenda": "RIO BONITO DO IGUAÇU · F4",
+  "credito": "VÍDEO: DRONELOOK · YOUTUBE · 08/11/2025",
+  "url": "https://www.youtube.com/watch?v=MD80NpRCZUA",
+  "ini": 99.0,
+  "crop": [
+   0,
+   0.08,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 5.97
+ },
+ "rbi-bombeiros": {
+  "arq": "dl/clips/MD80NpRCZUA-126.mp4",
+  "fmt": "pol",
+  "legenda": "UMA CIDADE INTEIRA ATINGIDA",
+  "credito": "VÍDEO: DRONELOOK · YOUTUBE · 08/11/2025",
+  "url": "https://www.youtube.com/watch?v=MD80NpRCZUA",
+  "ini": 126.0,
+  "crop": [
+   0,
+   0.08,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 5.97
+ },
+ "sinal-nuvem": {
+  "arq": "dl/clips/kFOhAT2QsSc-5.mp4",
+  "fmt": "pol",
+  "legenda": "NUVEM BAIXA E ESCURA",
+  "credito": "VÍDEO: NOAA/NSSL · CC BY · YOUTUBE",
+  "url": "https://www.youtube.com/watch?v=kFOhAT2QsSc",
+  "ini": 5.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 5.0
+ },
+ "sinal-granizo": {
+  "arq": "dl/clips/kFOhAT2QsSc-10.mp4",
+  "fmt": "pol",
+  "legenda": "GRANIZO GRANDE",
+  "credito": "VÍDEO: NOAA/NSSL · CC BY · YOUTUBE",
+  "url": "https://www.youtube.com/watch?v=kFOhAT2QsSc",
+  "ini": 10.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ },
+ "sinal-funil": {
+  "arq": "dl/clips/SyxEa6IjJGk-40.mp4",
+  "fmt": "pol",
+  "legenda": "PAREDE DE NUVENS",
+  "credito": "VÍDEO: DE OLHO NO CÉU · YOUTUBE · 2022",
+  "url": "https://www.youtube.com/watch?v=SyxEa6IjJGk",
+  "ini": 40.0,
+  "crop": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "ss": 0.0,
+  "dur": null,
+  "rate": 1.0,
+  "duracao": 6.0
+ }
+}

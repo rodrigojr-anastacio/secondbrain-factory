@@ -1,0 +1,1067 @@
+{
+ "duracao": 679.397,
+ "blocos": [
+  {
+   "id": "b01",
+   "s": 0.15,
+   "frases": [
+    {
+     "s": 0.15,
+     "e": 2.035,
+     "txt": "Maringá, Paraná, dois de novembro."
+    },
+    {
+     "s": 2.235,
+     "e": 8.252,
+     "txt": "Um tornado éfe dois, com ventos de até duzentos e cinquenta quilômetros por hora, atinge quarenta por cento da cidade."
+    }
+   ],
+   "e": 8.252
+  },
+  {
+   "id": "b02",
+   "s": 9.602,
+   "frases": [
+    {
+     "s": 9.602,
+     "e": 11.802,
+     "txt": "Dois dias depois, Chapecó, Santa Catarina."
+    },
+    {
+     "s": 12.002,
+     "e": 13.989,
+     "txt": "Dezesseis quilômetros de destruição."
+    },
+    {
+     "s": 14.189,
+     "e": 17.489,
+     "txt": "Para a Defesa Civil, o maior evento climático em cinquenta anos."
+    }
+   ],
+   "e": 17.489
+  },
+  {
+   "id": "b03",
+   "s": 18.839,
+   "frases": [
+    {
+     "s": 18.839,
+     "e": 21.294,
+     "txt": "No dia sete, Santo Augusto, no Rio Grande do Sul."
+    },
+    {
+     "s": 21.494,
+     "e": 23.869,
+     "txt": "Cinquenta casas destelhadas de madrugada."
+    }
+   ],
+   "e": 23.869
+  },
+  {
+   "id": "b04",
+   "s": 25.219,
+   "frases": [
+    {
+     "s": 25.219,
+     "e": 27.527,
+     "txt": "Sete tornados confirmados em seis dias."
+    }
+   ],
+   "e": 27.527
+  },
+  {
+   "id": "b05",
+   "s": 28.877,
+   "frases": [
+    {
+     "s": 28.877,
+     "e": 33.886,
+     "txt": "O que está acontecendo no Sul do Brasil, para ter tantos eventos dessa magnitude, como nunca antes?"
+    }
+   ],
+   "e": 33.886
+  },
+  {
+   "id": "b06",
+   "s": 34.306,
+   "frases": [
+    {
+     "s": 34.306,
+     "e": 35.875,
+     "txt": "Por que isso está acontecendo?"
+    },
+    {
+     "s": 36.195,
+     "e": 38.081,
+     "txt": "Qual o risco de voltar a acontecer?"
+    },
+    {
+     "s": 38.401,
+     "e": 40.392,
+     "txt": "E até que proporção isso pode chegar?"
+    }
+   ],
+   "e": 40.392
+  },
+  {
+   "id": "b07",
+   "s": 40.812,
+   "frases": [
+    {
+     "s": 40.812,
+     "e": 43.946,
+     "txt": "Três perguntas, três caixinhas. Vamos abrir uma por uma."
+    },
+    {
+     "s": 44.146,
+     "e": 49.367,
+     "txt": "Mas antes, é preciso entender o que aconteceu de verdade nesses seis dias. Porque não foi um evento só."
+    }
+   ],
+   "e": 49.367
+  },
+  {
+   "id": "b08",
+   "s": 50.717,
+   "frases": [
+    {
+     "s": 50.717,
+     "e": 52.799,
+     "txt": "Domingo à noite, primeiro de novembro."
+    },
+    {
+     "s": 53.119,
+     "e": 58.581,
+     "txt": "Um ciclone se forma na costa do Rio Grande do Sul e organiza uma frente fria, que avança pelo Paraná."
+    },
+    {
+     "s": 58.901,
+     "e": 62.246,
+     "txt": "Por volta das três da manhã, uma supercélula chega a Maringá."
+    }
+   ],
+   "e": 62.246
+  },
+  {
+   "id": "b09",
+   "s": 62.846,
+   "frases": [
+    {
+     "s": 62.846,
+     "e": 66.258,
+     "txt": "O aeroporto mede rajadas de quase cem quilômetros por hora."
+    },
+    {
+     "s": 66.578,
+     "e": 69.226,
+     "txt": "Mas o vento mais forte não passou pela estação."
+    },
+    {
+     "s": 69.546,
+     "e": 80.86,
+     "txt": "O Simepar foi a campo, mediu o estrago e classificou o tornado como éfe dois: ventos estimados entre cento e oitenta e duzentos e cinquenta e três quilômetros por hora, num rastro de uns quinze quilômetros."
+    }
+   ],
+   "e": 80.86
+  },
+  {
+   "id": "b10",
+   "s": 81.46,
+   "frases": [
+    {
+     "s": 81.46,
+     "e": 82.694,
+     "txt": "Ninguém morreu."
+    },
+    {
+     "s": 83.194,
+     "e": 92.89,
+     "txt": "Mas, dois dias depois, a cidade ainda contava quase novecentas árvores no chão, duzentos e dezenove postes quebrados e trinta e cinco mil imóveis sem luz."
+    }
+   ],
+   "e": 92.89
+  },
+  {
+   "id": "b11",
+   "s": 94.24,
+   "frases": [
+    {
+     "s": 94.24,
+     "e": 95.793,
+     "txt": "Dois dias de trégua."
+    },
+    {
+     "s": 96.293,
+     "e": 100.96,
+     "txt": "E então vem a quarta-feira, quatro de novembro, o dia mais violento da semana."
+    },
+    {
+     "s": 101.46,
+     "e": 106.413,
+     "txt": "Uma linha de tempestades atravessa o oeste de Santa Catarina e o norte gaúcho."
+    }
+   ],
+   "e": 106.413
+  },
+  {
+   "id": "b12",
+   "s": 107.163,
+   "frases": [
+    {
+     "s": 107.163,
+     "e": 109.137,
+     "txt": "Dez e meia da manhã, Chapecó."
+    },
+    {
+     "s": 109.637,
+     "e": 113.013,
+     "txt": "O radar mostra o vento girando dentro da tempestade."
+    },
+    {
+     "s": 113.513,
+     "e": 117.756,
+     "txt": "Uma estação do Inméti mede cento e vinte e seis quilômetros por hora."
+    },
+    {
+     "s": 118.256,
+     "e": 125.134,
+     "txt": "No aeroporto, um avião da Azul está parado na pista, e a tripulação descreve: o avião está chacoalhando muito."
+    }
+   ],
+   "e": 125.134
+  },
+  {
+   "id": "b13",
+   "s": 125.884,
+   "frases": [
+    {
+     "s": 125.884,
+     "e": 133.146,
+     "txt": "Hangares destruídos, peças de metal arrancadas, cerca de duas mil e quatrocentas casas e indústrias destelhadas."
+    },
+    {
+     "s": 133.646,
+     "e": 137.987,
+     "txt": "A Defesa Civil tinha emitido o aviso de temporal quinze minutos antes."
+    }
+   ],
+   "e": 137.987
+  },
+  {
+   "id": "b14",
+   "s": 138.737,
+   "frases": [
+    {
+     "s": 138.737,
+     "e": 145.885,
+     "txt": "Dezoito minutos depois, a mesma linha de tempestades gera outro tornado, em Xanxerê, a uns quarenta quilômetros dali."
+    },
+    {
+     "s": 146.385,
+     "e": 148.847,
+     "txt": "Caminhões e ônibus tombam na rodovia."
+    }
+   ],
+   "e": 148.847
+  },
+  {
+   "id": "b15",
+   "s": 149.597,
+   "frases": [
+    {
+     "s": 149.597,
+     "e": 158.814,
+     "txt": "Na mesma manhã, do outro lado do rio Uruguai, um tornado arrasa um eucaliptal inteiro em Erval Grande e derruba uma torre de alta tensão em Barra do Rio Azul."
+    },
+    {
+     "s": 159.314,
+     "e": 165.629,
+     "txt": "E à uma e meia da tarde, já no Planalto Norte, é a vez de Rio Negrinho: oitenta e duas casas atingidas."
+    }
+   ],
+   "e": 165.629
+  },
+  {
+   "id": "b16",
+   "s": 166.379,
+   "frases": [
+    {
+     "s": 166.379,
+     "e": 168.612,
+     "txt": "Quatro tornados num único dia."
+    },
+    {
+     "s": 169.112,
+     "e": 173.763,
+     "txt": "Nos temporais daquela quarta-feira, duas pessoas morreram em Santa Catarina."
+    }
+   ],
+   "e": 173.763
+  },
+  {
+   "id": "b17",
+   "s": 175.113,
+   "frases": [
+    {
+     "s": 175.113,
+     "e": 177.702,
+     "txt": "Sábado, sete de novembro, de madrugada."
+    },
+    {
+     "s": 178.202,
+     "e": 181.206,
+     "txt": "Uma única supercélula cruza o noroeste gaúcho."
+    },
+    {
+     "s": 181.706,
+     "e": 186.138,
+     "txt": "À uma e dezoito, Santo Augusto: cerca de cinquenta casas destelhadas."
+    },
+    {
+     "s": 186.638,
+     "e": 192.57,
+     "txt": "Trinta e seis minutos depois, a mesma tempestade gera outro tornado, em Palmeira das Missões."
+    }
+   ],
+   "e": 192.57
+  },
+  {
+   "id": "b18",
+   "s": 193.92,
+   "frases": [
+    {
+     "s": 193.92,
+     "e": 197.751,
+     "txt": "Sete tornados confirmados pelas Defesas Civis, em seis dias."
+    },
+    {
+     "s": 198.251,
+     "e": 202.046,
+     "txt": "Três no Rio Grande do Sul, três em Santa Catarina, um no Paraná."
+    },
+    {
+     "s": 202.546,
+     "e": 204.556,
+     "txt": "Nove municípios atingidos."
+    }
+   ],
+   "e": 204.556
+  },
+  {
+   "id": "b19",
+   "s": 205.906,
+   "frases": [
+    {
+     "s": 205.906,
+     "e": 208.468,
+     "txt": "Agora, a pergunta que todo mundo fez."
+    },
+    {
+     "s": 208.968,
+     "e": 210.267,
+     "txt": "Isso é inédito?"
+    },
+    {
+     "s": 210.887,
+     "e": 212.577,
+     "txt": "A resposta curta é: não."
+    }
+   ],
+   "e": 212.577
+  },
+  {
+   "id": "b20",
+   "s": 213.327,
+   "frases": [
+    {
+     "s": 213.327,
+     "e": 220.415,
+     "txt": "Em abril de dois mil e quinze, um tornado atravessou Xanxerê, a mesma cidade de agora, e atingiu mais de duas mil casas."
+    },
+    {
+     "s": 220.915,
+     "e": 227.227,
+     "txt": "Em dois mil e nove, Guaraciaba, no extremo oeste catarinense, teve um tornado éfe três, com quatro mortos."
+    }
+   ],
+   "e": 227.227
+  },
+  {
+   "id": "b21",
+   "s": 227.977,
+   "frases": [
+    {
+     "s": 227.977,
+     "e": 235.939,
+     "txt": "E há exatamente um ano, em sete de novembro de dois mil e vinte e cinco, Rio Bonito do Iguaçu, no Paraná, foi atingida por um éfe quatro."
+    },
+    {
+     "s": 236.439,
+     "e": 240.894,
+     "txt": "Um rastro de setenta e cinco quilômetros, com até três quilômetros de largura."
+    },
+    {
+     "s": 241.394,
+     "e": 245.723,
+     "txt": "Noventa por cento da área urbana atingida. Sete mortes no estado."
+    }
+   ],
+   "e": 245.723
+  },
+  {
+   "id": "b22",
+   "s": 246.473,
+   "frases": [
+    {
+     "s": 246.473,
+     "e": 248.248,
+     "txt": "Os números também sobem."
+    },
+    {
+     "s": 248.748,
+     "e": 253.847,
+     "txt": "Em dois mil e vinte e cinco, o Brasil registrou noventa e dois tornados, um recorde."
+    },
+    {
+     "s": 254.347,
+     "e": 256.915,
+     "txt": "Até julho deste ano, já eram oitenta e um."
+    }
+   ],
+   "e": 256.915
+  },
+  {
+   "id": "b23",
+   "s": 257.665,
+   "frases": [
+    {
+     "s": 257.665,
+     "e": 262.396,
+     "txt": "Mas atenção: mais registros não significam, necessariamente, mais tornados."
+    },
+    {
+     "s": 262.896,
+     "e": 269.27,
+     "txt": "Hoje todo mundo tem uma câmera no bolso, e desde dois mil e dezoito uma plataforma reúne cada relato."
+    },
+    {
+     "s": 269.77,
+     "e": 278.919,
+     "txt": "Um estudo de dois mil e onze mostrou que os relatos de tornado no Brasil se multiplicaram por dez em trinta anos, e boa parte disso é a gente vendo mais."
+    },
+    {
+     "s": 279.419,
+     "e": 281.932,
+     "txt": "Entre os especialistas, não há consenso."
+    }
+   ],
+   "e": 281.932
+  },
+  {
+   "id": "b24",
+   "s": 282.682,
+   "frases": [
+    {
+     "s": 282.682,
+     "e": 284.452,
+     "txt": "O que não muda é o mapa."
+    },
+    {
+     "s": 284.952,
+     "e": 296.467,
+     "txt": "A faixa entre o norte da Argentina, o Paraguai, o Uruguai e o Sul do Brasil é considerada por pesquisadores a segunda região mais propícia a tornados do mundo, depois dos Estados Unidos."
+    },
+    {
+     "s": 296.967,
+     "e": 302.667,
+     "txt": "E satélites da NASA mostraram que as tempestades daqui estão entre as mais intensas da Terra."
+    }
+   ],
+   "e": 302.667
+  },
+  {
+   "id": "b25",
+   "s": 304.017,
+   "frases": [
+    {
+     "s": 304.017,
+     "e": 305.312,
+     "txt": "Primeira caixinha."
+    },
+    {
+     "s": 305.812,
+     "e": 307.736,
+     "txt": "Por que isso acontece aqui?"
+    }
+   ],
+   "e": 307.736
+  },
+  {
+   "id": "b26",
+   "s": 308.486,
+   "frases": [
+    {
+     "s": 308.486,
+     "e": 310.038,
+     "txt": "Comece pela Amazônia."
+    },
+    {
+     "s": 310.538,
+     "e": 313.949,
+     "txt": "A floresta joga uma quantidade enorme de umidade no ar."
+    },
+    {
+     "s": 314.449,
+     "e": 321.752,
+     "txt": "A uns mil e quinhentos metros de altitude, um vento forte, o jato de baixos níveis, carrega esse ar quente e úmido para o sul."
+    }
+   ],
+   "e": 321.752
+  },
+  {
+   "id": "b27",
+   "s": 322.502,
+   "frases": [
+    {
+     "s": 322.502,
+     "e": 326.041,
+     "txt": "No caminho, existe uma parede: a Cordilheira dos Andes."
+    },
+    {
+     "s": 326.541,
+     "e": 333.19,
+     "txt": "Ela barra o ar e o canaliza, colado à encosta, direto para o Paraguai, o norte da Argentina e o Sul do Brasil."
+    },
+    {
+     "s": 333.69,
+     "e": 335.965,
+     "txt": "É como um rio invisível de umidade."
+    }
+   ],
+   "e": 335.965
+  },
+  {
+   "id": "b28",
+   "s": 336.715,
+   "frases": [
+    {
+     "s": 336.715,
+     "e": 340.441,
+     "txt": "Do outro lado, chegam as frentes frias, vindas da Argentina."
+    },
+    {
+     "s": 340.941,
+     "e": 345.529,
+     "txt": "Quando o ar frio encontra esse ar quente e úmido, o ar quente é empurrado para cima."
+    },
+    {
+     "s": 346.029,
+     "e": 347.125,
+     "txt": "É o gatilho."
+    }
+   ],
+   "e": 347.125
+  },
+  {
+   "id": "b29",
+   "s": 347.875,
+   "frases": [
+    {
+     "s": 347.875,
+     "e": 350.375,
+     "txt": "Uma tempestade comum sobe e chove."
+    },
+    {
+     "s": 350.875,
+     "e": 355.88,
+     "txt": "Mas aqui tem um ingrediente a mais: o vento muda de direção e de força com a altura."
+    },
+    {
+     "s": 356.38,
+     "e": 360.285,
+     "txt": "Perto do chão, sopra de um lado. Lá em cima, mais forte, de outro."
+    },
+    {
+     "s": 360.785,
+     "e": 364.894,
+     "txt": "E o ar entre as camadas começa a rolar, deitado, como um rolo de massa."
+    }
+   ],
+   "e": 364.894
+  },
+  {
+   "id": "b30",
+   "s": 365.644,
+   "frases": [
+    {
+     "s": 365.644,
+     "e": 369.579,
+     "txt": "A corrente que sobe dentro da nuvem levanta esse rolo e o põe em pé."
+    },
+    {
+     "s": 370.079,
+     "e": 373.444,
+     "txt": "Agora, a tempestade inteira gira. É a supercélula."
+    },
+    {
+     "s": 373.944,
+     "e": 379.072,
+     "txt": "Esse giro, com alguns quilômetros de largura, se chama mesociclone, e aparece no radar."
+    }
+   ],
+   "e": 379.072
+  },
+  {
+   "id": "b31",
+   "s": 379.822,
+   "frases": [
+    {
+     "s": 379.822,
+     "e": 383.6,
+     "txt": "Na traseira, uma descida de ar frio se enrola em volta do giro."
+    },
+    {
+     "s": 384.1,
+     "e": 387.825,
+     "txt": "Em parte dos casos, ele se estreita, acelera e toca o chão."
+    },
+    {
+     "s": 388.325,
+     "e": 389.413,
+     "txt": "É o tornado."
+    }
+   ],
+   "e": 389.413
+  },
+  {
+   "id": "b32",
+   "s": 390.163,
+   "frases": [
+    {
+     "s": 390.163,
+     "e": 395.766,
+     "txt": "E aqui vai uma coisa que pouca gente sabe: a maioria das supercélulas não gera tornado."
+    },
+    {
+     "s": 396.266,
+     "e": 405.023,
+     "txt": "E por que algumas geram e outras não, o próprio laboratório de tempestades do governo americano admite: a ciência ainda não entende totalmente."
+    }
+   ],
+   "e": 405.023
+  },
+  {
+   "id": "b33",
+   "s": 405.773,
+   "frases": [
+    {
+     "s": 405.773,
+     "e": 410.84,
+     "txt": "Umidade da Amazônia, a parede dos Andes, frentes frias e vento que muda com a altura."
+    },
+    {
+     "s": 411.34,
+     "e": 416.035,
+     "txt": "Poucos lugares do planeta juntam esses quatro ingredientes como o Sul do Brasil."
+    }
+   ],
+   "e": 416.035
+  },
+  {
+   "id": "b34",
+   "s": 417.385,
+   "frases": [
+    {
+     "s": 417.385,
+     "e": 419.287,
+     "txt": "E este ano tem um agravante."
+    },
+    {
+     "s": 419.787,
+     "e": 423.688,
+     "txt": "O Pacífico equatorial está mais de dois graus acima do normal."
+    },
+    {
+     "s": 424.188,
+     "e": 427.189,
+     "txt": "É um El Niño muito forte, e ainda se fortalecendo."
+    },
+    {
+     "s": 427.689,
+     "e": 438.3,
+     "txt": "A agência americana de oceanos e atmosfera dá oitenta e três por cento de chance de ele se tornar o mais forte desde mil novecentos e cinquenta, quando as medições começaram."
+    }
+   ],
+   "e": 438.3
+  },
+  {
+   "id": "b35",
+   "s": 439.05,
+   "frases": [
+    {
+     "s": 439.05,
+     "e": 443.056,
+     "txt": "O El Niño deixa o jato de baixos níveis mais frequente e mais forte."
+    },
+    {
+     "s": 443.556,
+     "e": 448.486,
+     "txt": "Mais umidade chegando ao Sul. Mais chuva. Mais dias com os ingredientes juntos."
+    }
+   ],
+   "e": 448.486
+  },
+  {
+   "id": "b36",
+   "s": 449.236,
+   "frases": [
+    {
+     "s": 449.236,
+     "e": 451.617,
+     "txt": "Mas cuidado com o que a ciência não diz."
+    },
+    {
+     "s": 452.117,
+     "e": 459.616,
+     "txt": "O El Niño não causa cada tornado, e não há estudo que ligue o El Niño, sozinho, ao número de tornados. Ele aumenta as chances."
+    },
+    {
+     "s": 460.116,
+     "e": 461.741,
+     "txt": "E o aquecimento global?"
+    },
+    {
+     "s": 462.361,
+     "e": 473.673,
+     "txt": "Ele deixa a atmosfera mais quente e úmida, o que alimenta tempestades. Mas, para tornados, o painel do clima da ONU diz que os registros ainda são curtos demais para afirmar uma tendência."
+    }
+   ],
+   "e": 473.673
+  },
+  {
+   "id": "b37",
+   "s": 475.023,
+   "frases": [
+    {
+     "s": 475.023,
+     "e": 476.38,
+     "txt": "Segunda caixinha."
+    },
+    {
+     "s": 476.88,
+     "e": 479.176,
+     "txt": "Qual o risco de voltar a acontecer?"
+    },
+    {
+     "s": 479.796,
+     "e": 481.31,
+     "txt": "Alto. E não é exagero."
+    }
+   ],
+   "e": 481.31
+  },
+  {
+   "id": "b38",
+   "s": 482.06,
+   "frases": [
+    {
+     "s": 482.06,
+     "e": 486.792,
+     "txt": "O pico do El Niño está previsto para a virada do ano, entre dezembro e janeiro."
+    },
+    {
+     "s": 487.292,
+     "e": 494.241,
+     "txt": "A previsão para novembro, dezembro e janeiro é de chuva acima da média no Sul, com destaque para o oeste catarinense."
+    },
+    {
+     "s": 494.741,
+     "e": 496.933,
+     "txt": "E os solos já estão encharcados."
+    }
+   ],
+   "e": 496.933
+  },
+  {
+   "id": "b39",
+   "s": 497.683,
+   "frases": [
+    {
+     "s": 497.683,
+     "e": 504.047,
+     "txt": "A temporada mais ativa de tornados vai do fim do inverno à primavera. Ou seja: estamos no meio dela."
+    },
+    {
+     "s": 504.547,
+     "e": 507.826,
+     "txt": "E a Méti Sul alerta para eventos extremos também no verão."
+    }
+   ],
+   "e": 507.826
+  },
+  {
+   "id": "b40",
+   "s": 508.576,
+   "frases": [
+    {
+     "s": 508.576,
+     "e": 516.704,
+     "txt": "No mapa, as regiões mais expostas formam um arco: o norte e o noroeste gaúcho, o oeste de Santa Catarina e o sudoeste do Paraná."
+    },
+    {
+     "s": 517.204,
+     "e": 523.639,
+     "txt": "Mas este ano mostrou que o risco não para aí: o norte do Paraná e os Campos Gerais também tiveram tornados."
+    }
+   ],
+   "e": 523.639
+  },
+  {
+   "id": "b41",
+   "s": 524.389,
+   "frases": [
+    {
+     "s": 524.389,
+     "e": 527.613,
+     "txt": "Ninguém consegue prever onde cai o próximo tornado."
+    },
+    {
+     "s": 528.113,
+     "e": 532.488,
+     "txt": "Mas dá para prever os dias de risco, com um ou dois dias de antecedência."
+    },
+    {
+     "s": 532.988,
+     "e": 535.871,
+     "txt": "Já o alerta do tornado em si chega com minutos."
+    }
+   ],
+   "e": 535.871
+  },
+  {
+   "id": "b42",
+   "s": 537.221,
+   "frases": [
+    {
+     "s": 537.221,
+     "e": 538.588,
+     "txt": "Terceira caixinha."
+    },
+    {
+     "s": 539.088,
+     "e": 541.326,
+     "txt": "Até que proporção isso pode chegar?"
+    }
+   ],
+   "e": 541.326
+  },
+  {
+   "id": "b43",
+   "s": 542.076,
+   "frases": [
+    {
+     "s": 542.076,
+     "e": 546.278,
+     "txt": "Tornados são classificados pelo estrago, numa escala de zero a cinco."
+    },
+    {
+     "s": 546.778,
+     "e": 549.383,
+     "txt": "O Brasil usa a escala Fujita original."
+    },
+    {
+     "s": 549.883,
+     "e": 554.713,
+     "txt": "Maringá foi um éfe dois: até duzentos e cinquenta e três quilômetros por hora."
+    },
+    {
+     "s": 555.213,
+     "e": 562.108,
+     "txt": "Um éfe quatro, como o de Rio Bonito do Iguaçu, passa dos trezentos e trinta. Um éfe cinco, dos quatrocentos e vinte."
+    }
+   ],
+   "e": 562.108
+  },
+  {
+   "id": "b44",
+   "s": 562.858,
+   "frases": [
+    {
+     "s": 562.858,
+     "e": 565.787,
+     "txt": "O Brasil nunca teve um éfe cinco confirmado."
+    },
+    {
+     "s": 566.287,
+     "e": 574.603,
+     "txt": "Mas a região já teve: San Justo, na Argentina, em mil novecentos e setenta e três, a uns trezentos quilômetros da fronteira gaúcha."
+    },
+    {
+     "s": 575.103,
+     "e": 576.845,
+     "txt": "Sessenta e três mortos."
+    }
+   ],
+   "e": 576.845
+  },
+  {
+   "id": "b45",
+   "s": 577.595,
+   "frases": [
+    {
+     "s": 577.595,
+     "e": 581.587,
+     "txt": "Nos Estados Unidos, são cerca de mil e duzentos tornados por ano."
+    },
+    {
+     "s": 582.087,
+     "e": 587.551,
+     "txt": "O mais largo já medido, em El Reno, tinha quatro quilômetros e duzentos metros de largura."
+    },
+    {
+     "s": 588.051,
+     "e": 591.945,
+     "txt": "O de Rio Bonito do Iguaçu chegou a três quilômetros e duzentos."
+    }
+   ],
+   "e": 591.945
+  },
+  {
+   "id": "b46",
+   "s": 592.695,
+   "frases": [
+    {
+     "s": 592.695,
+     "e": 595.317,
+     "txt": "O pior cenário não é um tornado maior."
+    },
+    {
+     "s": 595.817,
+     "e": 602.535,
+     "txt": "É um tornado forte sobre uma cidade grande. Um éfe três, ou éfe quatro, cruzando uma Chapecó, uma Maringá."
+    },
+    {
+     "s": 603.035,
+     "e": 605.513,
+     "txt": "A região tem os ingredientes para isso."
+    },
+    {
+     "s": 606.013,
+     "e": 608.74,
+     "txt": "Por isso, o que mais importa é saber o que fazer."
+    }
+   ],
+   "e": 608.74
+  },
+  {
+   "id": "b47",
+   "s": 610.09,
+   "frases": [
+    {
+     "s": 610.09,
+     "e": 612.385,
+     "txt": "Primeiro: receba os alertas no celular."
+    },
+    {
+     "s": 612.885,
+     "e": 617.238,
+     "txt": "Mande o seu cép por SMS para quatro, zero, um, nove, nove. É de graça."
+    },
+    {
+     "s": 617.738,
+     "e": 623.367,
+     "txt": "E, no Sul, o Defesa Civil Alerta aparece direto na tela do celular, com som, sem cadastro."
+    }
+   ],
+   "e": 623.367
+  },
+  {
+   "id": "b48",
+   "s": 624.117,
+   "frases": [
+    {
+     "s": 624.117,
+     "e": 626.023,
+     "txt": "Segundo: conheça os sinais."
+    },
+    {
+     "s": 626.523,
+     "e": 633.559,
+     "txt": "Uma nuvem baixa e escura girando. Uma nuvem em forma de funil. Granizo grande. Um ronco contínuo, como um trem chegando."
+    }
+   ],
+   "e": 633.559
+  },
+  {
+   "id": "b49",
+   "s": 634.309,
+   "frases": [
+    {
+     "s": 634.309,
+     "e": 641.664,
+     "txt": "Terceiro: se o alerta tocar, vá para um cômodo pequeno no andar mais baixo, sem janelas, como um banheiro, e proteja a cabeça."
+    },
+    {
+     "s": 642.164,
+     "e": 644.974,
+     "txt": "Longe de vidro, de galpões e de árvores."
+    },
+    {
+     "s": 645.474,
+     "e": 647.46,
+     "txt": "Ao ar livre, deite numa vala."
+    },
+    {
+     "s": 647.96,
+     "e": 650.392,
+     "txt": "E nunca se abrigue embaixo de um viaduto."
+    }
+   ],
+   "e": 650.392
+  },
+  {
+   "id": "b50",
+   "s": 651.742,
+   "frases": [
+    {
+     "s": 651.742,
+     "e": 653.881,
+     "txt": "Então, o que está acontecendo no Sul?"
+    },
+    {
+     "s": 654.501,
+     "e": 656.461,
+     "txt": "Não é um mistério, nem um castigo."
+    },
+    {
+     "s": 656.961,
+     "e": 665.611,
+     "txt": "É o encontro da Amazônia com os Andes e com o frio do sul, num dos cantos mais tempestuosos do planeta, turbinado este ano por um El Niño muito forte."
+    },
+    {
+     "s": 666.111,
+     "e": 670.517,
+     "txt": "Os tornados sempre estiveram aqui. Agora, estamos vendo cada um deles."
+    }
+   ],
+   "e": 670.517
+  },
+  {
+   "id": "b51",
+   "s": 671.267,
+   "frases": [
+    {
+     "s": 671.267,
+     "e": 673.642,
+     "txt": "Manda este vídeo para quem mora no Sul."
+    },
+    {
+     "s": 674.142,
+     "e": 676.897,
+     "txt": "E se inscreve: a temporada ainda não acabou."
+    }
+   ],
+   "e": 676.897
+  }
+ ]
+}
