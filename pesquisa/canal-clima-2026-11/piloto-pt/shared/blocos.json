@@ -1,0 +1,62 @@
+[
+ {
+  "id": "b01",
+  "cap": "MARINGÁ",
+  "fala": "Maringá, Paraná, dois de novembro. Um tornado éfe dois, com ventos de até duzentos e cinquenta quilômetros por hora, atinge quarenta por cento da cidade.",
+  "tela": "Maringá, Paraná, 2 de novembro. | Um tornado F2, com ventos de até 250 km/h, | atinge 40% da cidade."
+ },
+ {
+  "id": "b02",
+  "cap": "CHAPECÓ",
+  "fala": "Dois dias depois, Chapecó, Santa Catarina. Dezesseis quilômetros de destruição. Para a Defesa Civil, o maior evento climático em cinquenta anos.",
+  "tela": "Dois dias depois, Chapecó, Santa Catarina. | 16 km de destruição. | Para a Defesa Civil, | o maior evento climático em 50 anos."
+ },
+ {
+  "id": "b03",
+  "cap": "SANTO AUGUSTO",
+  "fala": "No dia sete, Santo Augusto, no Rio Grande do Sul. Cinquenta casas destelhadas de madrugada.",
+  "tela": "No dia 7, Santo Augusto, no Rio Grande do Sul. | 50 casas destelhadas de madrugada."
+ },
+ {
+  "id": "b04",
+  "cap": "7 EM 6 DIAS",
+  "fala": "Sete tornados confirmados em seis dias.",
+  "tela": "7 tornados confirmados em 6 dias."
+ },
+ {
+  "id": "b05",
+  "cap": "A PERGUNTA",
+  "fala": "O que está acontecendo no Sul do Brasil para ter tantos eventos dessa magnitude, como nunca antes?",
+  "tela": "O que está acontecendo no Sul do Brasil | para ter tantos eventos dessa magnitude, | como nunca antes?"
+ },
+ {
+  "id": "b06",
+  "cap": "A PERGUNTA",
+  "fala": "Por que isso está acontecendo? Qual o risco de voltar a acontecer? E até que proporção isso pode chegar?",
+  "tela": "Por que isso está acontecendo? | Qual o risco de voltar a acontecer? | E até que proporção isso pode chegar?"
+ },
+ {
+  "id": "b07",
+  "cap": "POR QUÊ?",
+  "fala": "A primeira resposta está no mapa. O Sul fica em um dos corredores de tempestade mais ativos do planeta.",
+  "tela": "A primeira resposta está no mapa. | O Sul fica em um dos corredores | de tempestade mais ativos do planeta."
+ },
+ {
+  "id": "b08",
+  "cap": "POR QUÊ?",
+  "fala": "Ar quente e úmido desce da Amazônia, colado aos Andes, e encontra as frentes frias que sobem da Argentina. Desse contraste nascem as supercélulas.",
+  "tela": "Ar quente e úmido desce da Amazônia, | colado aos Andes, | e encontra as frentes frias | que sobem da Argentina. | Desse contraste nascem as supercélulas."
+ },
+ {
+  "id": "b09",
+  "cap": "EL NIÑO",
+  "fala": "E este ano tem um agravante: um El Niño muito forte, que faz essa combinação acontecer mais vezes. E ele ainda nem chegou ao pico.",
+  "tela": "E este ano tem um agravante: | um El Niño muito forte, | que faz essa combinação acontecer mais vezes. | E ele ainda nem chegou ao pico."
+ },
+ {
+  "id": "b10",
+  "cap": "PARTE 2",
+  "fala": "As outras duas respostas, na parte dois.",
+  "tela": "As outras duas respostas, na parte 2."
+ }
+]
