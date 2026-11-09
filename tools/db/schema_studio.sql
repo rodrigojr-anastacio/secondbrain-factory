@@ -16,3 +16,5 @@ CREATE TABLE IF NOT EXISTS youtube.studio_video (
 );
 CREATE OR REPLACE VIEW youtube.studio_ultimo AS
 SELECT DISTINCT ON (youtube_id) * FROM youtube.studio_video ORDER BY youtube_id, exportado_em DESC;
+ALTER TABLE youtube.studio_video ADD COLUMN IF NOT EXISTS espectadores_unicos integer;
+ALTER TABLE youtube.studio_video ADD COLUMN IF NOT EXISTS pct_visualizada numeric(5,2);
