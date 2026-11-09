@@ -1,0 +1,770 @@
+[
+ {
+  "id": "I001",
+  "prompt": "The small ancient city of Rome in 390 BC burning, red tile roofs and temples on hills on fire, smoke in the sky, round-white-head cartoon Gaulish warriors with long orange and brown hair, simple flat mustache shapes, checkered trousers and long swords running through the streets, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I002",
+  "prompt": "round-white-head cartoon Gaulish warriors with long orange and brown hair, simple flat mustache shapes, checkered trousers and long swords with torches walking through an empty ancient Roman street with columns and burning houses, night glow, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I003",
+  "prompt": "The rocky Capitoline hill with a small temple on top, Roman defenders behind a wall looking down at smoke rising from the city below"
+ },
+ {
+  "id": "I004",
+  "prompt": "A camp of round-white-head cartoon Gaulish warriors with long orange and brown hair, simple flat mustache shapes, checkered trousers and long swords around fires below a rocky hill, tents and loot piled up, evening"
+ },
+ {
+  "id": "I005",
+  "prompt": "Three hungry round-white-head cartoon Roman senators in white togas with a red border stripe sitting on rocks on top of a hill, empty bowls, looking worried, a campfire"
+ },
+ {
+  "id": "I006",
+  "prompt": "A big pile of shiny gold bars, gold cups, gold rings and coins on a cloth on the ground, Roman women giving their jewelry"
+ },
+ {
+  "id": "I007",
+  "prompt": "a big round-white-head cartoon Gaulish chieftain with a simple flat long orange mustache shape, long orange braids, a bronze helmet with small wings and a checkered cloak, pointing with one finger and smiling greedily at a pile of gold, his warriors laughing behind him, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I008",
+  "prompt": "A tense meeting on a hill between a Roman senator in a white toga and a huge Gaulish chieftain, both with arms crossed, warriors watching"
+ },
+ {
+  "id": "I009",
+  "prompt": "A round-white-head cartoon Roman senator on top of a rocky hill looking down at the burning city below, hands on his head"
+ },
+ {
+  "id": "I010",
+  "prompt": "A big ancient bronze balance scale on a wooden table, gold on one pan and dark stone weights on the other, a Roman official frowning at it"
+ },
+ {
+  "id": "I011",
+  "prompt": "Angry round-white-head cartoon Roman senators in white togas with a red border stripe pointing at the weights of a big balance scale and shouting in protest"
+ },
+ {
+  "id": "I012",
+  "prompt": "a big round-white-head cartoon Gaulish chieftain with a simple flat long orange mustache shape, long orange braids, a bronze helmet with small wings and a checkered cloak, throwing his long iron sword onto the weights pan of a big bronze balance scale with a dramatic gesture, gold on the other pan, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I013",
+  "prompt": "Close view of a long iron sword lying across the pan of a bronze balance scale, the scale tipping down, gold coins flying, dramatic light"
+ },
+ {
+  "id": "I014",
+  "prompt": "a big round-white-head cartoon Gaulish chieftain with a simple flat long orange mustache shape, long orange braids, a bronze helmet with small wings and a checkered cloak, laughing loudly with his hands on his hips, Roman senators in shock around him, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I015",
+  "prompt": "A round-white-head cartoon Roman historian in a toga writing on a long scroll at a desk with oil lamps and piles of scrolls, smiling slyly, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I016",
+  "prompt": "An unrolled ancient papyrus scroll on a desk with a small drawing of a big angry Gaulish warrior on it, a quill and an ink pot, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I017",
+  "prompt": "A round-white-head cartoon Roman historian winking while holding up a scroll, comic"
+ },
+ {
+  "id": "I018",
+  "prompt": "A comic ancient theater stage where an actor dressed as a huge Gaulish warrior plays the villain with an evil laugh while Roman actors play the heroes"
+ },
+ {
+  "id": "I019",
+  "prompt": "A round-white-head cartoon Roman historian reading a scroll aloud to a group of Romans in a sunny garden with columns"
+ },
+ {
+  "id": "I020",
+  "prompt": "Map of the Mediterranean Sea and Europe with the huge territory of the Roman Empire around the sea painted deep red, the lands outside pale, the sea blue, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
+ },
+ {
+  "id": "I021",
+  "prompt": "The Colosseum and the Roman Forum in their full glory under a bright blue sky, crowds of round-white-head cartoon Romans in togas"
+ },
+ {
+  "id": "I022",
+  "prompt": "A huge Roman legion marching in perfect lines on a stone road, round-white-head cartoon Roman legionaries in red tunics, segmented iron armor, plain red curved rectangular shields and bronze helmets, golden eagle standards, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I023",
+  "prompt": "A round-white-head cartoon Gothic king with long blond hair, a simple flat blond beard shape, a fur cloak and an iron helmet and his Gothic warriors riding into the ruined city of Rome through a broken gate, smoke behind, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I024",
+  "prompt": "A giant bronze balance scale tipping over, a small Roman village on one side becoming a marble city, symbolic, dramatic sky"
+ },
+ {
+  "id": "I025",
+  "prompt": "Aerial view of seven green hills around a marshy valley and a winding river, a few huts on the hills, early Iron Age Italy, no city yet"
+ },
+ {
+  "id": "I026",
+  "prompt": "A long iron sword lying across an empty bronze balance scale in the shadow, a single beam of light, mysterious, symbolic"
+ },
+ {
+  "id": "I027",
+  "prompt": "A muddy marsh between hills with reeds, frogs and mosquitoes, a comic surprised frog in front, early morning mist"
+ },
+ {
+  "id": "I028",
+  "prompt": "Wide view of a misty marshy valley between green hills with tall reeds and a river, birds flying, no buildings, dawn"
+ },
+ {
+  "id": "I029",
+  "prompt": "A white heron standing in a marsh among tall reeds, small green hills far behind, peaceful morning"
+ },
+ {
+  "id": "I030",
+  "prompt": "Round huts with thatched straw roofs on top of a green hill in early Iron Age Italy, families of round-white-head cartoon villagers with goats, smoke from a fire"
+ },
+ {
+  "id": "I031",
+  "prompt": "The Tiber river winding between green hills under a blue sky, reeds and a small wooden boat, no city"
+ },
+ {
+  "id": "I032",
+  "prompt": "Map of the Italian peninsula with a small red dot in the middle of the west coast on a river, the sea around blue, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
+ },
+ {
+  "id": "I033",
+  "prompt": "A round-white-head cartoon villager in a simple wool tunic slapping a mosquito on his arm next to a muddy marsh, comic"
+ },
+ {
+  "id": "I034",
+  "prompt": "A round-white-head cartoon Iron Age family in simple wool clothes sitting by a fire in front of their straw hut on a hill, goats and a dog"
+ },
+ {
+  "id": "I035",
+  "prompt": "Inside a simple round straw hut in early Iron Age Italy, a clay oven, pots and a loom, warm firelight"
+ },
+ {
+  "id": "I036",
+  "prompt": "A gentle she-wolf in a cave by a river with two cartoon baby twins with round white heads, warm light, legend style"
+ },
+ {
+  "id": "I037",
+  "prompt": "A basket with two cartoon baby twins floating on a river among reeds, legend style"
+ },
+ {
+  "id": "I038",
+  "prompt": "Two young round-white-head cartoon brothers in simple tunics arguing furiously over a line plowed in the ground on a hill, legend style"
+ },
+ {
+  "id": "I039",
+  "prompt": "A young round-white-head cartoon founder plowing a furrow around a hill with two white oxen, legend style, dawn"
+ },
+ {
+  "id": "I040",
+  "prompt": "An ancient bronze statue of a she-wolf feeding two small babies, displayed in a museum, soft light"
+ },
+ {
+  "id": "I041",
+  "prompt": "Round-white-head cartoon traders carrying sacks of salt on mules across a shallow ford of a river, hills behind"
+ },
+ {
+  "id": "I042",
+  "prompt": "A shallow river ford with merchants, sheep and carts crossing, a small village on the hill above, sunny"
+ },
+ {
+  "id": "I043",
+  "prompt": "White salt pans at the mouth of a river by the sea, workers raking salt, ancient Italy"
+ },
+ {
+  "id": "I044",
+  "prompt": "Split view: on the left a legendary she-wolf with twins in golden light, on the right archaeologists digging the postholes of ancient huts on a hill, symbolic"
+ },
+ {
+  "id": "I045",
+  "prompt": "Round-white-head cartoon herders trading cattle and salt at a riverside market next to a shallow ford, early Iron Age Italy"
+ },
+ {
+  "id": "I046",
+  "prompt": "Small merchant boats on the Tiber river unloading clay jars and sacks of salt at a riverside village, sunny"
+ },
+ {
+  "id": "I047",
+  "prompt": "A rich Etruscan city on a hilltop with painted temples and walls, nobles in colorful robes, ancient Italy"
+ },
+ {
+  "id": "I048",
+  "prompt": "an arrogant round-white-head cartoon Etruscan king with a simple flat black beard shape, a golden wreath and a purple embroidered robe, sitting on an ivory throne in a painted Etruscan hall, servants around him"
+ },
+ {
+  "id": "I049",
+  "prompt": "Round-white-head cartoon workers digging a big stone drain channel in a muddy valley, turning the marsh into a dry square, ancient Rome"
+ },
+ {
+  "id": "I050",
+  "prompt": "A comic modern analogy: a busy roadside diner and gas station on a highway where every car and truck stops, round-white-head cartoon travelers, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I051",
+  "prompt": "Etruscan nobles in colorful robes lying on couches at a banquet in a hall with painted walls, musicians playing double flutes"
+ },
+ {
+  "id": "I052",
+  "prompt": "The early Roman Forum: a simple paved square with a few temples and market stalls between hills, ancient Rome"
+ },
+ {
+  "id": "I053",
+  "prompt": "an arrogant round-white-head cartoon Etruscan king with a simple flat black beard shape, a golden wreath and a purple embroidered robe, with his nose in the air, walking past bowing Roman citizens who glare at him behind his back"
+ },
+ {
+  "id": "I054",
+  "prompt": "an arrogant round-white-head cartoon Etruscan king with a simple flat black beard shape, a golden wreath and a purple embroidered robe, being chased out of the city gates by an angry crowd of round-white-head cartoon Romans, comic"
+ },
+ {
+  "id": "I055",
+  "prompt": "An arrogant round-white-head cartoon Etruscan king eating grapes on a throne while tired Roman workers carry heavy stones outside the window"
+ },
+ {
+  "id": "I056",
+  "prompt": "Round-white-head cartoon Romans raising their right hands in an oath in front of a temple, an empty throne in front of them"
+ },
+ {
+  "id": "I057",
+  "prompt": "An empty ivory throne with a golden wreath on it in an empty hall, dramatic light, symbolic"
+ },
+ {
+  "id": "I058",
+  "prompt": "Confused round-white-head cartoon Roman citizens looking at each other in a square, scratching their heads, comic"
+ },
+ {
+  "id": "I059",
+  "prompt": "A crowd of round-white-head cartoon Romans cheering and celebrating in the square after expelling the king, throwing flowers"
+ },
+ {
+  "id": "I060",
+  "prompt": "Two round-white-head cartoon Roman consuls in togas with purple borders sitting side by side on folding ivory chairs, each raising a hand to stop the other, comic"
+ },
+ {
+  "id": "I061",
+  "prompt": "Many old round-white-head cartoon Roman senators in white togas with a red border stripe sitting on benches in a stone hall, frowning, one standing and speaking"
+ },
+ {
+  "id": "I062",
+  "prompt": "Round-white-head cartoon Roman guards carrying bundles of rods with axes walking in front of a consul through a street"
+ },
+ {
+  "id": "I063",
+  "prompt": "Round-white-head cartoon Roman citizens in a line dropping small wooden tablets into a big basket to vote, an official watching"
+ },
+ {
+  "id": "I064",
+  "prompt": "Two round-white-head cartoon Roman consuls in togas with purple borders standing back to back with crossed arms, sulking, comic"
+ },
+ {
+  "id": "I065",
+  "prompt": "The Roman Senate house, a tall simple brick building with bronze doors, senators in togas walking up the steps"
+ },
+ {
+  "id": "I066",
+  "prompt": "Round-white-head cartoon Roman common people working: a baker, a blacksmith, a farmer and a soldier, simple tunics, busy street"
+ },
+ {
+  "id": "I067",
+  "prompt": "A long line of round-white-head cartoon Roman common people with bundles leaving the city gates, walking toward a hill"
+ },
+ {
+  "id": "I068",
+  "prompt": "A camp of common Roman people on a green hill outside the city, tents and fires, arms crossed, determined"
+ },
+ {
+  "id": "I069",
+  "prompt": "An empty ancient Roman street with closed shops, an abandoned bakery oven and a lonely senator looking around, comic"
+ },
+ {
+  "id": "I070",
+  "prompt": "Nervous round-white-head cartoon Roman senators in white togas with a red border stripe walking up to the camp of the common people on a hill, offering a handshake"
+ },
+ {
+  "id": "I071",
+  "prompt": "Twelve big bronze tablets fixed on a wall in the Roman Forum, citizens reading them, the tablets covered with tiny unreadable marks, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I072",
+  "prompt": "A huge horde of round-white-head cartoon Gaulish warriors with long orange and brown hair, simple flat mustache shapes, checkered trousers and long swords coming down from snowy mountains toward the green plains of Italy, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I073",
+  "prompt": "A chaotic battle by a small river: round-white-head cartoon Gaulish warriors with long orange and brown hair, simple flat mustache shapes, checkered trousers and long swords charging and Roman soldiers running away in panic, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I074",
+  "prompt": "a round-white-head cartoon old Roman general with short grey hair, bronze armor and a red cloak, arriving at the weighing scene and pushing away the gold with his sword, legend style"
+ },
+ {
+  "id": "I075",
+  "prompt": "Round-white-head cartoon Roman workers building a tall stone city wall with big square blocks around the hills of Rome"
+ },
+ {
+  "id": "I076",
+  "prompt": "A Roman boy and an old Roman man watching from a new stone wall at sunset, determined, the city behind them"
+ },
+ {
+  "id": "I077",
+  "prompt": "round-white-head cartoon Roman legionaries in red tunics, segmented iron armor, plain red curved rectangular shields and bronze helmets marching out of the gates of Rome toward green Italian hills with small walled towns, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I078",
+  "prompt": "Map of the Italian peninsula with the center painted red and the red area spreading south, the sea blue, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
+ },
+ {
+  "id": "I079",
+  "prompt": "A Roman officer at a table recruiting young men from a conquered Italian town, they line up with spears and shields, sunny"
+ },
+ {
+  "id": "I080",
+  "prompt": "A Roman officer and the leaders of a conquered Italian town sharing bread and wine at a long table, friendly, both groups in different clothes"
+ },
+ {
+  "id": "I081",
+  "prompt": "A happy round-white-head cartoon man from a conquered Italian town putting on a white Roman toga for the first time, family cheering"
+ },
+ {
+  "id": "I082",
+  "prompt": "A Roman army column with soldiers of many Italian peoples in slightly different armors marching together, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I083",
+  "prompt": "Round-white-head cartoon Roman workers laying big flat paving stones of a straight road in layers of gravel and sand, a surveyor with a measuring tool"
+ },
+ {
+  "id": "I084",
+  "prompt": "The ancient Appian Way today: big old paving stones between tall umbrella pine trees and cypress trees, a tourist walking"
+ },
+ {
+  "id": "I085",
+  "prompt": "A modern city street full of potholes with a car splashing water and an annoyed round-white-head cartoon pedestrian, comic"
+ },
+ {
+  "id": "I086",
+  "prompt": "A big golden puzzle piece being placed into a puzzle that shows a small map of Italy, a round-white-head cartoon Roman holding it, symbolic, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I087",
+  "prompt": "A small group of Roman soldiers that grows into a bigger and bigger army column marching across hills, symbolic sequence"
+ },
+ {
+  "id": "I088",
+  "prompt": "A Roman soldier standing on a cliff at the southern tip of Italy looking at the sea, hands on hips, frustrated"
+ },
+ {
+  "id": "I089",
+  "prompt": "The rich city of Carthage on the coast of Africa with its famous round military harbor full of warships, palm trees, sunny"
+ },
+ {
+  "id": "I090",
+  "prompt": "Map of the western Mediterranean with the Italian peninsula painted red and the coast of North Africa, Sardinia and western Sicily painted purple, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
+ },
+ {
+  "id": "I091",
+  "prompt": "Round-white-head cartoon Roman carpenters taking apart a stranded Carthaginian warship on a beach and measuring every plank, comic"
+ },
+ {
+  "id": "I092",
+  "prompt": "A busy Roman shipyard with many warships being built at the same time, hammers, timber, sawdust"
+ },
+ {
+  "id": "I093",
+  "prompt": "Round-white-head cartoon Roman rowers sitting on benches on a beach, rowing in the air with oars, an officer shouting the rhythm, comic"
+ },
+ {
+  "id": "I094",
+  "prompt": "A Roman warship lowering a wooden boarding bridge with a big iron spike onto an enemy ship, Roman soldiers running across"
+ },
+ {
+  "id": "I095",
+  "prompt": "A sea battle between Roman and Carthaginian warships with oars, boarding bridges and soldiers fighting on decks, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I096",
+  "prompt": "a round-white-head cartoon Carthaginian general with a simple flat short black curly beard shape, a black eye patch, a bronze breastplate and a purple cloak, standing on a rocky mountain pass pointing toward Italy, his army behind him"
+ },
+ {
+  "id": "I097",
+  "prompt": "War elephants with soldiers walking through deep snow on a narrow mountain pass in the Alps, a cold surprised elephant in front, comic"
+ },
+ {
+  "id": "I098",
+  "prompt": "Map of Spain, southern France and Italy with a dotted red route going from Spain over the Alps into Italy, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
+ },
+ {
+  "id": "I099",
+  "prompt": "Aerial view of a huge battle on a dry plain where a Carthaginian army surrounds a packed Roman army from all sides, dust, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I100",
+  "prompt": "A huge modern football stadium full of cartoon fans on one side and completely empty on the other side, symbolic"
+ },
+ {
+  "id": "I101",
+  "prompt": "Leaders of Italian towns in different clothes standing firm next to Roman senators, arms crossed, refusing a Carthaginian messenger"
+ },
+ {
+  "id": "I102",
+  "prompt": "a young round-white-head cartoon Roman general, clean shaven with short brown hair, a bronze muscle cuirass and a red cloak, raising his sword in front of his army on an African plain, war elephants in the distance"
+ },
+ {
+  "id": "I103",
+  "prompt": "an old grumpy round-white-head cartoon Roman senator, bald on top with short white hair at the sides, in a plain white toga, holding up big fresh purple figs in front of the Roman Senate with a meaningful look, senators staring"
+ },
+ {
+  "id": "I104",
+  "prompt": "Close view of a few big fresh purple figs in an old man's open hand, very fresh with drops of water"
+ },
+ {
+  "id": "I105",
+  "prompt": "an old grumpy round-white-head cartoon Roman senator, bald on top with short white hair at the sides, in a plain white toga, banging his fist on a stone lectern at the end of a speech, other senators rolling their eyes, comic"
+ },
+ {
+  "id": "I106",
+  "prompt": "The city of Carthage burning at night, Roman soldiers on the walls, flames reflected in the harbor, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I107",
+  "prompt": "A Roman general throwing his sword onto a big bronze balance scale, piles of captured gold on the other pan, symbolic"
+ },
+ {
+  "id": "I108",
+  "prompt": "A tired round-white-head cartoon Roman soldier with a backpack arriving at a small farm on a hill at sunset"
+ },
+ {
+  "id": "I109",
+  "prompt": "The same small farm now replaced by a huge estate with a big villa and dozens of enslaved workers in the fields, the soldier shocked at the fence"
+ },
+ {
+  "id": "I110",
+  "prompt": "A rich Roman senator relaxing in a luxurious villa with marble columns, grapes and servants, comic"
+ },
+ {
+  "id": "I111",
+  "prompt": "Poor round-white-head cartoon families in a crowded dirty street of ancient Rome, tall wooden apartment buildings"
+ },
+ {
+  "id": "I112",
+  "prompt": "a young round-white-head cartoon Roman tribune with short dark hair in a plain white toga, speaking passionately to a big crowd of poor Romans in the Forum, pointing to the fields"
+ },
+ {
+  "id": "I113",
+  "prompt": "Angry round-white-head cartoon Roman senators in white togas with a red border stripe tearing the legs off wooden benches to use as clubs, comic but tense"
+ },
+ {
+  "id": "I114",
+  "prompt": "A riot in the Roman Forum with senators with clubs chasing a crowd, dust and fallen chairs, no blood"
+ },
+ {
+  "id": "I115",
+  "prompt": "a tough round-white-head cartoon Roman general with short grey hair and a plain battered bronze armor, recruiting poor young men in tattered clothes who line up eagerly to get armor and a bag of coins"
+ },
+ {
+  "id": "I116",
+  "prompt": "Roman soldiers cheering and raising their swords to their general on a platform, ignoring a small senator behind them"
+ },
+ {
+  "id": "I117",
+  "prompt": "Italian leaders asking for citizenship in front of Roman senators, a senator showing them the door, comic"
+ },
+ {
+  "id": "I118",
+  "prompt": "Two armies dressed almost the same, Roman and Italian, facing each other on a field, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I119",
+  "prompt": "A big wooden door with bronze studs closing in front of a crowd, symbolic"
+ },
+ {
+  "id": "I120",
+  "prompt": "a round-white-head cartoon Roman general with blond hair, a red cloak and a cold proud look, riding at the head of his legions toward the walls of Rome, citizens on the walls in panic, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I121",
+  "prompt": "A Roman army entering the gates of Rome itself, frightened citizens hiding behind columns, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I122",
+  "prompt": "a young round-white-head cartoon Roman nobleman with short dark hair in an elegant white tunic with a purple border, sitting relaxed on a pirate ship laughing while rough pirates look confused, Mediterranean sea"
+ },
+ {
+  "id": "I123",
+  "prompt": "Pirates counting sacks of silver on the deck of a ship, the young Roman nobleman pointing at the sacks saying more, comic"
+ },
+ {
+  "id": "I124",
+  "prompt": "a young round-white-head cartoon Roman nobleman with short dark hair in an elegant white tunic with a purple border, arriving with warships at a pirate island, pirates panicking on the beach, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I125",
+  "prompt": "a round-white-head cartoon Roman general with thin short hair and a green laurel wreath, a red cloak over bronze armor, on a horse in front of his legions in a green Gaulish forest landscape, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I126",
+  "prompt": "Map of western Europe with Italy painted red and Gaul, the land of today's France, painted orange with red arrows going into it, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
+ },
+ {
+  "id": "I127",
+  "prompt": "a round-white-head cartoon Gaulish king with a simple flat long blond mustache shape, long blond hair and a bronze helmet with wings, throwing his sword and helmet at the feet of a round-white-head cartoon Roman general with thin short hair and a green laurel wreath, a red cloak over bronze armor sitting on a chair, Roman soldiers around, the scale reversed"
+ },
+ {
+  "id": "I128",
+  "prompt": "a round-white-head cartoon Roman general with thin short hair and a green laurel wreath, a red cloak over bronze armor, on horseback at the bank of a tiny shallow river at night, thinking, his soldiers waiting behind"
+ },
+ {
+  "id": "I129",
+  "prompt": "Roman legionaries wading across a tiny shallow river at dawn with their general in front, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I130",
+  "prompt": "Two ancient bone dice rolling on a wooden table, dramatic light, symbolic"
+ },
+ {
+  "id": "I131",
+  "prompt": "a round-white-head cartoon Roman general with thin short hair and a green laurel wreath, a red cloak over bronze armor, sitting on a golden chair in the Senate while senators bow nervously"
+ },
+ {
+  "id": "I132",
+  "prompt": "A modern wall calendar on the page of July hanging in a kitchen, with a small laurel wreath drawn on it, a cat looking at it, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I133",
+  "prompt": "A group of round-white-head cartoon senators in togas surrounding a man in a laurel wreath in a stone hall, daggers raised, dramatic shadows, no blood"
+ },
+ {
+  "id": "I134",
+  "prompt": "A fallen laurel wreath and a red cloak on a marble floor at the foot of a statue, dramatic, symbolic, no blood"
+ },
+ {
+  "id": "I135",
+  "prompt": "A round-white-head cartoon Elizabethan playwright with a ruff collar writing with a quill and smiling, a theater stage behind, comic, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I136",
+  "prompt": "Two Roman armies clashing on a field under a stormy sky, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I137",
+  "prompt": "a round-white-head cartoon Egyptian queen with a black bob haircut, a golden cobra crown and a white linen dress, sitting sadly on a golden throne in a palace in Alexandria, a basket with a snake nearby, dramatic light"
+ },
+ {
+  "id": "I138",
+  "prompt": "a young round-white-head cartoon Roman ruler with short neat light-brown hair, a white toga with a purple border and a laurel wreath, walking into a palace in Alexandria with Roman soldiers, Egyptian servants bowing"
+ },
+ {
+  "id": "I139",
+  "prompt": "Big Roman grain ships loaded with sacks sailing from Egypt with pyramids far behind"
+ },
+ {
+  "id": "I140",
+  "prompt": "Round-white-head cartoon Romans receiving free bread and grain at a distribution point in Rome"
+ },
+ {
+  "id": "I141",
+  "prompt": "a young round-white-head cartoon Roman ruler with short neat light-brown hair, a white toga with a purple border and a laurel wreath, humbly handing a scroll to the Senate while hiding a big bag of coins and an army behind his back, comic"
+ },
+ {
+  "id": "I142",
+  "prompt": "a young round-white-head cartoon Roman ruler with short neat light-brown hair, a white toga with a purple border and a laurel wreath, being honored by round-white-head cartoon Roman senators in white togas with a red border stripe who place a golden laurel crown on his head"
+ },
+ {
+  "id": "I143",
+  "prompt": "A split view of Rome: on the left an old city of brown brick, on the right the same city in shining white marble, symbolic"
+ },
+ {
+  "id": "I144",
+  "prompt": "The Roman Forum and temples in shining white marble under a blue sky, round-white-head cartoon Romans walking"
+ },
+ {
+  "id": "I145",
+  "prompt": "Roman legionaries trapped in a dark dense forest with heavy rain and Germanic warriors attacking from the trees, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I146",
+  "prompt": "an old round-white-head cartoon Roman emperor with short white hair, a white toga with a purple border and a laurel wreath, banging his head against a palace door in despair, servants watching, comic"
+ },
+ {
+  "id": "I147",
+  "prompt": "A Roman throne with a big question mark shaped cloud above it and many different Romans pushing to sit on it, comic, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I148",
+  "prompt": "A round-white-head cartoon Roman emperor with a simple flat neck beard shape playing a lyre on a balcony, a city glowing behind him, comic"
+ },
+ {
+  "id": "I149",
+  "prompt": "A round-white-head cartoon Roman legionary shivering in the rain and wind on a grey northern hill, wrapped in a cloak"
+ },
+ {
+  "id": "I150",
+  "prompt": "A round-white-head cartoon Roman legionary sweating in a hot desert next to a palm tree and a camel, in a fortress gate"
+ },
+ {
+  "id": "I151",
+  "prompt": "Map of Europe, North Africa and the Middle East with the Roman Empire at its largest painted red around the whole Mediterranean, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
+ },
+ {
+  "id": "I152",
+  "prompt": "a round-white-head cartoon Roman emperor with a simple flat short curly dark beard shape, a frowning face and a purple cloak, announcing something from a balcony to a huge crowd of people of many lands"
+ },
+ {
+  "id": "I153",
+  "prompt": "A round-white-head cartoon Roman tax collector with an abacus and a big money bag knocking at a door, a family hiding, comic"
+ },
+ {
+  "id": "I154",
+  "prompt": "A second golden puzzle piece being placed next to the first, showing a huge red empire map, symbolic, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I155",
+  "prompt": "A tired Roman messenger on a horse riding on an endless road through mountains, days and nights passing, symbolic"
+ },
+ {
+  "id": "I156",
+  "prompt": "Roman soldiers lifting their general on a shield and crowning him emperor in a camp, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I157",
+  "prompt": "A comic row of many different Roman emperors in purple pushing each other off a throne one after another"
+ },
+ {
+  "id": "I158",
+  "prompt": "A round-white-head cartoon Persian king on a horse in front of a kneeling Roman emperor in purple, Persian soldiers around"
+ },
+ {
+  "id": "I159",
+  "prompt": "A Roman mint worker pouring cheap metal into a melting pot of silver coins, coins turning grey"
+ },
+ {
+  "id": "I160",
+  "prompt": "Close view of a shiny silver Roman coin next to a dull grey copper coin of the same size, symbolic, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I161",
+  "prompt": "A big red map-like marble disk with deep cracks running across it, symbolic, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I162",
+  "prompt": "an old round-white-head cartoon retired Roman emperor with a simple flat short white beard shape, in a simple brown work tunic, proudly holding a huge cabbage in a vegetable garden by a big palace on the sea coast"
+ },
+ {
+  "id": "I163",
+  "prompt": "Two round-white-head cartoon Roman officials in rich clothes standing awkwardly in a vegetable garden, an old man showing them cabbages, comic"
+ },
+ {
+  "id": "I164",
+  "prompt": "Four round-white-head cartoon Roman emperors in purple embracing each other in a group hug, a famous statue pose, comic"
+ },
+ {
+  "id": "I165",
+  "prompt": "A huge stone tablet with long columns of tiny marks in a market, merchants staring at it in shock, sandals and chickens on the stalls, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I166",
+  "prompt": "An ancient Roman market with empty stalls and a confused round-white-head cartoon customer with a basket"
+ },
+ {
+  "id": "I167",
+  "prompt": "A 1980s Brazilian supermarket with empty shelves and a price tag man, round-white-head cartoon shoppers, comic, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I168",
+  "prompt": "a round-white-head cartoon Roman emperor, clean shaven with short dark hair, golden armor and a purple cloak, looking up at a glowing cross of light in the sky above his army camp at sunset"
+ },
+ {
+  "id": "I169",
+  "prompt": "Roman soldiers painting a simple Chi-Rho Christian symbol on their round shields in a camp"
+ },
+ {
+  "id": "I170",
+  "prompt": "A battle at a stone bridge over a river with soldiers falling into the water, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I171",
+  "prompt": "The new city of Constantinople on the Bosphorus strait with domes, walls and ships, golden sunlight"
+ },
+ {
+  "id": "I172",
+  "prompt": "Map of the Roman Empire around the Mediterranean, the western half painted pale orange and the eastern half painted deep red, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
+ },
+ {
+  "id": "I173",
+  "prompt": "Germanic warriors with long hair and fur cloaks putting on Roman helmets and receiving pay from a Roman officer, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I174",
+  "prompt": "Thousands of Gothic families with carts and children waiting on the bank of a wide river, Roman soldiers on the other side, cold grey sky"
+ },
+ {
+  "id": "I175",
+  "prompt": "Gothic families crossing a wide river on boats and rafts, crowded and desperate"
+ },
+ {
+  "id": "I176",
+  "prompt": "A battle on a hot plain where Gothic cavalry overwhelms a Roman army, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I177",
+  "prompt": "a round-white-head cartoon Gothic king with long blond hair, a simple flat blond beard shape, a fur cloak and an iron helmet, on horseback in front of the high walls of Rome with his army camped around, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I178",
+  "prompt": "Roman senators carrying chests of gold out of the gates of Rome to a waiting Gothic army, the bronze balance scale again"
+ },
+ {
+  "id": "I179",
+  "prompt": "A huge pile of sacks overflowing with black pepper next to gold chests, a Gothic warrior sneezing, comic"
+ },
+ {
+  "id": "I180",
+  "prompt": "Gothic warriors pouring into the city of Rome through a gate at night, temples and statues behind, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I181",
+  "prompt": "An old round-white-head cartoon monk with a simple flat long white beard shape writing by candlelight in a cave study, a lion sleeping beside him, sad"
+ },
+ {
+  "id": "I182",
+  "prompt": "A third golden puzzle piece fitting into a puzzle of a burning Rome, symbolic, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I183",
+  "prompt": "A Gothic king and his warriors in their own camp next to a Roman city, separate, under their own banners, paid with chests of coins, no flags, no letters on shields or banners"
+ },
+ {
+  "id": "I184",
+  "prompt": "a big round-white-head cartoon barbarian general with long brown hair, a simple flat brown mustache shape and a late Roman officer cloak, gently taking the golden diadem off the head of a small round-white-head cartoon teenage boy emperor in an oversized purple cloak and a too-big golden diadem on a throne in a palace in Ravenna"
+ },
+ {
+  "id": "I185",
+  "prompt": "Imperial purple robes and a golden diadem being packed into a wooden chest to be sent away by ship, symbolic"
+ },
+ {
+  "id": "I186",
+  "prompt": "The great golden-domed city of Constantinople with high walls by the sea, sunset, centuries later"
+ },
+ {
+  "id": "I187",
+  "prompt": "A finished golden puzzle showing the whole story of Rome from a small village to a great empire, symbolic, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I188",
+  "prompt": "A modern Paris street cafe with round-white-head cartoon French people chatting, a small Gaulish helmet on a shelf, sunny"
+ },
+ {
+  "id": "I189",
+  "prompt": "A round-white-head cartoon Brazilian family at a breakfast table talking, small floating speech bubbles with laurel leaves, warm and funny, no readable writing, no letters anywhere, no signs, no boards"
+ },
+ {
+  "id": "I190",
+  "prompt": "The long iron sword resting on the bronze balance scale, now covered with flowers and vines, peaceful light, symbolic"
+ },
+ {
+  "id": "I191",
+  "prompt": "a cheerful little cartoon narrator character with a round white head and dot eyes sitting on a fallen Roman column in front of the Colosseum, holding a small balance scale, thinking"
+ },
+ {
+  "id": "I192",
+  "prompt": "The Colosseum at sunset today with tourists and a scooter passing, warm light"
+ }
+]
