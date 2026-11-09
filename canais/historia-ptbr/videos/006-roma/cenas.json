@@ -61,7 +61,7 @@
  },
  {
   "id": "I016",
-  "prompt": "An unrolled ancient papyrus scroll on a desk with a small drawing of a big angry Gaulish warrior on it, a quill and an ink pot, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "An unrolled ancient papyrus scroll on a desk showing only one big drawing of an angry Gaulish warrior filling the whole scroll, the rest of the papyrus completely blank, a quill and an ink pot, no readable writing, no letters anywhere, no signs, no boards"
  },
  {
   "id": "I017",
@@ -681,7 +681,7 @@
  },
  {
   "id": "I171",
-  "prompt": "The new city of Constantinople on the Bosphorus strait with domes, walls and ships, golden sunlight"
+  "prompt": "The new Roman city of Constantinople in the year 330 on the Bosphorus strait: classical Roman temples, a hippodrome, colonnades, a tall column and new city walls, ships, golden sunlight, no minarets, no mosques, no domes"
  },
  {
   "id": "I172",
@@ -741,7 +741,7 @@
  },
  {
   "id": "I186",
-  "prompt": "The great golden-domed city of Constantinople with high walls by the sea, sunset, centuries later"
+  "prompt": "The medieval Byzantine city of Constantinople by the sea with its huge triple land walls and one great early Christian church with a wide flat dome, sunset, no minarets, no mosques"
  },
  {
   "id": "I187",

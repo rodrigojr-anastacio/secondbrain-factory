@@ -13,7 +13,7 @@ import numpy as np
 V = Path(__file__).resolve().parent.parent
 SR, FPS = 48000, 30
 # s de silêncio entre blocos do mesmo assunto / antes de bloco que abre ideia nova ("ideia": true) / antes de capítulo / início / fim
-GAP, GAP_IDEIA, GAP_CAP, HEAD, TAIL = 0.35, 0.9, 1.5, 0.25, 2.0
+GAP, GAP_IDEIA, GAP_CAP, HEAD, TAIL = 0.25, 0.6, 1.2, 0.25, 2.0   # 006: gaps menores (teste da regra 10 da bíblia v2; antes 0,35/0,9/1,5)
 TAG = re.compile(r"\[[^\]]*\]\s*")   # pausas, ênfase e tags de tom do Fish
 
 
@@ -48,16 +48,16 @@ def salvar(p, x):
 
 # ───────────── trilha original gerada no código (sem samples) ─────────────
 def trilha(dur):
-    """005-brasil: pad, drone de Sol + Ré e dedilhado (timbre de cordas dedilhadas, tipo viola) no modo mixolídio de Sol (Sol Lá Si Dó Ré Mi Fá), o modo da música nordestina. Sons sintetizados aqui; nada de terceiros. (003: Hijaz persa; 004: pentatônica chinesa.)"""
+    """006-roma: pad, drone de Ré + Lá e dedilhado (Karplus-Strong, timbre de lira) no modo dórico de Ré (Ré Mi Fá Sol Lá Si Dó), a escala "antiga" do Mediterrâneo. Sons sintetizados aqui; nada de terceiros. (003: Hijaz; 004: pentatônica chinesa; 005: mixolídio.)"""
     rng = np.random.default_rng(42)
     N = int(dur * SR); t = np.arange(N) / SR
     hz = lambda m: 440 * 2 ** ((m - 69) / 12)
     out = np.zeros(N)
     # drone Ré + Lá, respirando devagar
-    out += 0.05 * np.sin(2 * np.pi * hz(43) * t) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 19))
-    out += 0.03 * np.sin(2 * np.pi * hz(50) * t + 1) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 27 + 2))
+    out += 0.05 * np.sin(2 * np.pi * hz(38) * t) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 19))
+    out += 0.03 * np.sin(2 * np.pi * hz(45) * t + 1) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 27 + 2))
     # pads: acordes de 12 s com envelope lento
-    prog = [[43, 50, 55, 59], [41, 48, 53, 57], [48, 55, 60, 64], [43, 50, 55, 59], [40, 47, 52, 55], [41, 48, 53, 57]]   # Sol, Fá, Dó, Sol, Mi menor, Fá (mixolídio de Sol: o Fá natural)
+    prog = [[50, 53, 57, 62], [48, 52, 55, 60], [43, 50, 55, 59], [50, 53, 57, 62], [41, 48, 53, 57], [45, 52, 57, 60]]   # Ré m, Dó, Sol (o Si natural do dórico), Ré m, Fá, Lá m
     CH = 12.0
     for c in range(int(dur / CH) + 2):
         s0 = int((c * CH - 3) * SR); L = int((CH + 6) * SR)
@@ -72,7 +72,7 @@ def trilha(dur):
                 seg += np.sin(2 * np.pi * fr * tt + ph) + 0.15 * np.sin(4 * np.pi * fr * tt + ph)
         out[a:b] += 0.012 * seg * env
     # dedilhado (Karplus-Strong, timbre de guzheng) na pentatônica de Ré: Ré Mi Fá♯ Lá Si Ré Mi
-    escala = [55, 57, 59, 60, 62, 64, 65, 67]   # Sol Lá Si Dó Ré Mi Fá Sol
+    escala = [62, 64, 65, 67, 69, 71, 72, 74]   # Ré Mi Fá Sol Lá Si Dó Ré (dórico)
     cordas = {}
     for m in escala:
         L = int(SR / hz(m)); n = int(1.8 * SR)

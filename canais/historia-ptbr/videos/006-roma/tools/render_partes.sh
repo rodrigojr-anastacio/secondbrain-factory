@@ -10,5 +10,5 @@ if [ "$1" = juntar ]; then
   ffmpeg -v error -y -f concat -safe 0 -i out/partes/lista.txt -i public/audio/mix.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest out/video.mp4
   echo JUNTAR_OK; exit 0
 fi
-npx remotion render src/index.jsx Brasil out/partes/p$(printf %06d $1).mp4 --frames=$1-$2 --muted --codec=h264 --crf=20 --concurrency=2 --log=error
+npx remotion render src/index.jsx Roma out/partes/p$(printf %06d $1).mp4 --frames=$1-$2 --muted --codec=h264 --crf=20 --concurrency=2 --log=error
 echo PARTE_OK $1-$2

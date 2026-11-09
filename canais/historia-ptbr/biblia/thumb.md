@@ -42,6 +42,9 @@ Pedido do Rodrigo: 3 estilos diferentes para o "Testar e comparar" (`videos/004-
 `videos/005-brasil/entrega/` (US$ 0,28; 6 bases, 1 descartada por faixa/moldura lateral): 1 **bonecos** "À VENDA?" + "1511" (o escrivão da Bretoa em choque com a lista de carga, toras vermelhas, papagaio, sagui); 2 **HiM** "BRASIL" + "1500 – 2026" (baía do Rio, Ouro Preto, Amazônia, Brasília + bonequinho Pedro I com espada e contorno de adesivo; o céu livre saiu certo na 1ª tomada, sem o `mais_ceu`); 3 **ação cômica/lacuna** "O REI FUGIU!" + "1807" (D. João correndo para o navio com a coroa, Napoleão no morro, tempestade). Ano da HiM = o ano-símbolo do país (1500), não o mais antigo do roteiro. Código `videos/005-brasil/thumbs/compose.py`.
 
 ## O que manter (vale até haver dado contra)
+## Roma 006 (09/11/2026). **Hipótese**, medir CTR
+`videos/006-roma/entrega/` (US$ 0,28; 6 bases, as 6 usáveis; 1 com emenda lateral descartada): 1 **bonecos** "ROMA HUMILHADA" + "390 a.C." (Breno rindo com a espada na balança de ouro, senador em desespero); 2 **HiM** "ROMA" + "753 a.C. – 476" (Coliseu, Fórum, Panteão, aqueduto + general de louros com contorno de adesivo); 3 **queda** "ROMA CAIU!" + "410" (Alarico com a águia, Roma em chamas, senador pagando resgate). Código `videos/006-roma/thumbs/compose.py`.
+
 - Texto **sempre composto no código** (`src/Thumbnail.jsx`), nunca escrito pela IA. Hoje: Libre Caslon 700 + Open Sans 800. [BRIEF.md 001; QA.md 001]
 - No máximo 2–3 palavras na arte, legíveis em 320×180; o resto vai no título. [estilo.md antigo]
 - Base em qualidade alta (`high` no gpt-image-2) e **3 variações** para o "Testar e comparar".

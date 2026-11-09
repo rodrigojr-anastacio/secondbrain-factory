@@ -99,7 +99,7 @@ b("Na pesagem, os romanos reclamam que os pesos estão roubados. Aí o chefe gau
   f"breno_laugh|{BRENO}, laughing loudly with his hands on his hips, Roman senators in shock around him" + SEMBAND)
 b("[curious] Pelo menos, é assim que conta o historiador Tito Lívio, mais de três séculos depois. Detalhe: ele era romano. E nas histórias romanas o gaulês é sempre o vilão.",
   "livy_writing|A round-white-head cartoon Roman historian in a toga writing on a long scroll at a desk with oil lamps and piles of scrolls, smiling slyly" + SEMTXT + "@@TITO LÍVIO",
-  "scroll_gaul|An unrolled ancient papyrus scroll on a desk with a small drawing of a big angry Gaulish warrior on it, a quill and an ink pot" + SEMTXT,
+  "scroll_gaul|An unrolled ancient papyrus scroll on a desk showing only one big drawing of an angry Gaulish warrior filling the whole scroll, the rest of the papyrus completely blank, a quill and an ink pot" + SEMTXT,
   "livy_wink|A round-white-head cartoon Roman historian winking while holding up a scroll, comic",
   "gaul_villain|A comic ancient theater stage where an actor dressed as a huge Gaulish warrior plays the villain with an evil laugh while Roman actors play the heroes",
   "livy_reading|A round-white-head cartoon Roman historian reading a scroll aloud to a group of Romans in a sunny garden with columns")
@@ -360,7 +360,7 @@ b("§ Depois dele, os quatro brigam, e Constantino ganha. Na véspera da batalha
   "milvian|A battle at a stone bridge over a river with soldiers falling into the water" + SEMBAND,
   card="312 d.C.")
 b("E muda o centro do império para o leste, numa cidade nova com o nome dele: Constantinopla. Faz sentido, porque o dinheiro estava no Oriente. Só que isso deixa o Ocidente mais pobre, mais exposto… e cada vez mais dependente de soldados bárbaros.",
-  "constantinople|The new city of Constantinople on the Bosphorus strait with domes, walls and ships, golden sunlight",
+  "constantinople|The new Roman city of Constantinople in the year 330 on the Bosphorus strait: classical Roman temples, a hippodrome, colonnades, a tall column and new city walls, ships, golden sunlight, no minarets, no mosques, no domes",
   "map_split|Map of the Roman Empire around the Mediterranean, the western half painted pale orange and the eastern half painted deep red, " + MAPA,
   "barbarian_soldiers|Germanic warriors with long hair and fur cloaks putting on Roman helmets and receiving pay from a Roman officer" + SEMBAND,
   card="330 d.C.")
@@ -392,7 +392,7 @@ b("O fim chega quase sem barulho. Em quatrocentos e setenta e seis, o general b�
 # ───────────────────────── FECHO (≤ 45 s) ─────────────────────────
 cap("Fecho")
 b("§ A metade oriental seguiu se chamando romana até mil quatrocentos e cinquenta e três. E a resposta da nossa pergunta: Roma virou dona do mundo fazendo dos vencidos romanos, e caiu quando não conseguiu mais.",
-  "byzantium|The great golden-domed city of Constantinople with high walls by the sea, sunset, centuries later",
+  "byzantium|The medieval Byzantine city of Constantinople by the sea with its huge triple land walls and one great early Christian church with a wide flat dome, sunset, no minarets, no mosques",
   "piece_final|A finished golden puzzle showing the whole story of Rome from a small village to a great empire, symbolic" + SEMTXT,
   card="1453")
 b("Só que repare. A terra dos gauleses de Breno hoje fala francês, filho do latim. E você, que ouve isto em português, fala um latim que mudou. [warm] Ai dos vencidos? Os vencidos ficaram com Roma.",
