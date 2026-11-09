@@ -1,0 +1,7545 @@
+{
+ "pt:roma": {
+  "n": 117,
+  "n12": 73,
+  "med_top10_12m": 543936,
+  "med_top10_total": 1363556,
+  "top1": [
+   3303915,
+   "O QUE O IMPÉRIO ROMANO FEZ DE ERRADO? Nostalgia Animado",
+   "Canal Nostalgia",
+   "2022-02-03"
+  ],
+  "rec_gt100k": 3,
+  "rec": [
+   [
+    583592,
+    "2026-08-12",
+    "O mito que resume a história de Roma",
+    "Estranha História"
+   ],
+   [
+    193325,
+    "2026-08-25",
+    "OS 10 GLADIADORES MAIS LETAIS DA HISTÓRIA DE ROMA",
+    "Histórias Romanas"
+   ],
+   [
+    179902,
+    "2026-09-12",
+    "OS 7 REIS DE ROMA: A HISTÓRIA VIOLENTA QUE DEU ORIGEM A ROMA!",
+    "Histórias Romanas"
+   ]
+  ],
+  "ano_gt100k": 21,
+  "molde": [
+   [
+    120301,
+    "2025-08-30",
+    "Todos os Imperadores Romanos Explicados em 13 minutos",
+    "Novos Clássicos",
+    "2023-02-27",
+    322000
+   ],
+   [
+    41414,
+    "2026-05-07",
+    "O IMPÉRIO BIZANTINO EM 15 MINUTOS: A História do Império Romano que Sobreviveu a",
+    "Histórias Romanas",
+    "2018-08-28",
+    295000
+   ],
+   [
+    24852,
+    "2026-10-28",
+    "A HISTÓRIA INTEIRA de Roma em 12 minutos",
+    "History Easy Guide",
+    "2017-12-27",
+    2190
+   ],
+   [
+    17746,
+    "2026-11-08",
+    "A História COMPLETA do Império Romano",
+    "História na Marra",
+    "2025-04-09",
+    16600
+   ],
+   [
+    3200,
+    "2025-12-29",
+    "A HISTÓRIA COMPLETA do IMPÉRIO ROMANO - DOCUMENTÁRIO para DORMIR",
+    "Apenas durma com história",
+    "2025-05-18",
+    1070
+   ],
+   [
+    3043,
+    "2026-07-05",
+    "A história completa do Império Romano | Além da História",
+    "Além da História",
+    "2026-06-25",
+    4040
+   ],
+   [
+    2863,
+    "2026-11-05",
+    "IMPÉRIO ROMANO: a história completa de como Roma conquistou o mundo e por que ca",
+    "Epopeia",
+    "2026-11-04",
+    352
+   ],
+   [
+    2095,
+    "2026-07-08",
+    "O Império Romano do Oriente: A História Completa de Bizâncio | Reconstituição po",
+    "Grandes Civilizações do Passado",
+    "2026-03-06",
+    1290
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    762189,
+    "2026-02-02",
+    "Roma Antiga - A Maior Cidade do Mundo (Reconstrução por IA)",
+    "Reconstruindo Eras",
+    "2025-12-27",
+    24400
+   ],
+   [
+    742552,
+    "2026-07-18",
+    "ROMA ANTIGA - O Maior império da antiguidade! | Documentário Completo",
+    "Um Documentário",
+    "2026-04-11",
+    125000
+   ],
+   [
+    424795,
+    "2026-04-15",
+    "O Fim do Império Romano (476 d.C.) — causas e consequências",
+    "Arquivos do Velho Mundo",
+    "2026-04-04",
+    3250
+   ],
+   [
+    348137,
+    "2026-05-03",
+    "César Augusto: O Menino SEM PAI que Fundou o IMPÉRIO ROMANO | Biografia Completa",
+    "Biografias Irrelevantes",
+    "2025-11-26",
+    15300
+   ],
+   [
+    277906,
+    "2026-05-15",
+    "A Queda do Império Romano: O Ocaso da Civilização que Dominou o Mundo | Document",
+    "História do Mundo",
+    "2026-05-15",
+    17700
+   ]
+  ],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    782023,
+    "2026-04-11",
+    16,
+    "QUANDO OS ROMANOS SE TORNARAM ITALIANOS? A História de uma Identidade Perdida",
+    "Histórias Romanas",
+    "GZiriGu6Kno"
+   ],
+   [
+    762189,
+    "2026-02-02",
+    17,
+    "Roma Antiga - A Maior Cidade do Mundo (Reconstrução por IA)",
+    "Reconstruindo Eras",
+    "FNBsWw_nZdU"
+   ],
+   [
+    742552,
+    "2026-07-18",
+    62,
+    "ROMA ANTIGA - O Maior império da antiguidade! | Documentário Completo",
+    "Um Documentário",
+    "qTCVkTmvW7s"
+   ],
+   [
+    657185,
+    "2026-02-01",
+    28,
+    "NERO: o IMPERADOR mais LOUCO de ROMA",
+    "Tinocando TV",
+    "nOCIGkJlGII"
+   ],
+   [
+    583592,
+    "2026-08-12",
+    25,
+    "O mito que resume a história de Roma",
+    "Estranha História",
+    "Mp8ATV9LLt8"
+   ],
+   [
+    504280,
+    "2025-11-23",
+    47,
+    "A História de Roma: Como se Tornou o Maior Império do Mundo? (Da Fundação ao Imp",
+    "Pablo Soncini",
+    "XyX7Y-xyhyg"
+   ],
+   [
+    457543,
+    "2025-12-05",
+    29,
+    "Como os Cristãos SOBREVIVERAM 300 ANOS à Perseguição de Roma  | Documentário",
+    "Histórias Épicas da Bíblia",
+    "n5o-7hpaE7s"
+   ],
+   [
+    424795,
+    "2026-04-15",
+    16,
+    "O Fim do Império Romano (476 d.C.) — causas e consequências",
+    "Arquivos do Velho Mundo",
+    "RDmf1C7xXv0"
+   ],
+   [
+    348137,
+    "2026-05-03",
+    83,
+    "César Augusto: O Menino SEM PAI que Fundou o IMPÉRIO ROMANO | Biografia Completa",
+    "Biografias Irrelevantes",
+    "z5AoYEUh7XA"
+   ],
+   [
+    318167,
+    "2026-02-08",
+    49,
+    "História da Itália | Documentário Histórico (Primeiro povo, queda de Roma, Tempo",
+    "EconoSimples",
+    "qZiew5iz6MM"
+   ]
+  ]
+ },
+ "pt:japao": {
+  "n": 69,
+  "n12": 38,
+  "med_top10_12m": 137619,
+  "med_top10_total": 1419944,
+  "top1": [
+   11811688,
+   "A HISTÓRIA DO JAPÃO - Nostalgia História",
+   "Canal Nostalgia",
+   "2022-07-29"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    106503,
+    "2026-08-30",
+    "A História do Japão Inteiro: Da Origem dos Samurais ao Japão Moderno",
+    "História do Mundo"
+   ]
+  ],
+  "ano_gt100k": 6,
+  "molde": [
+   [
+    625137,
+    "2023-09-24",
+    "PEARL HARBOR: a História Completa do Ataque Japonês",
+    "Sala de Guerra",
+    "2018-09-28",
+    878000
+   ],
+   [
+    349727,
+    "2025-03-09",
+    "YAMATO: a história completa do SUPERCOURAÇADO japonês",
+    "Sala de Guerra",
+    "2018-09-28",
+    878000
+   ],
+   [
+    75992,
+    "2026-02-25",
+    "QUEM é PUNCH? O BEBÊ MACACO MAIS AMADO DO JAPÃO (História Completa!) 💗🐒",
+    "PeritoAnimal",
+    "2016-10-24",
+    1660000
+   ],
+   [
+    74552,
+    "2025-09-22",
+    "A HISTÓRIA COMPLETA do JAPÃO | DAS ANTIGAS DINASTIAS IMPERIAIS ATÉ A POTÊNCIA AT",
+    "Dormindo com História",
+    "2021-08-09",
+    2790
+   ],
+   [
+    42027,
+    "2026-03-05",
+    "A História Completa do Japão: Do Ano 1 d.C até 2026 – Tudo que Você Precisa Sabe",
+    "História do Mundo em HQ",
+    "2025-09-25",
+    29900
+   ],
+   [
+    26948,
+    "2025-07-12",
+    "A Historia Completa de Oda Nobunaga - O Grande Unificador do Japão",
+    "Foca na História",
+    "2016-01-30",
+    1510000
+   ],
+   [
+    11874,
+    "2025-07-14",
+    "Toda a história do Japão antigo | Documentário",
+    "Era Humana",
+    "2025-02-02",
+    18300
+   ],
+   [
+    7225,
+    "2026-06-19",
+    "A História Completa do Japão: De Tribos Isoladas a Superpotência Mundial",
+    "História Destilada",
+    "2026-05-22",
+    2390
+   ]
+  ],
+  "molde_12m_gt50k": 1,
+  "porta": [
+   [
+    253426,
+    "2026-07-04",
+    "Por Que China e Japão São Tão Rivais? | A Disputa Histórica que Marcou a Ásia",
+    "História do Mundo",
+    "2026-05-27",
+    11300
+   ],
+   [
+    244751,
+    "2026-04-12",
+    "Os Mongóis Eram MÁQUINAS INVENCÍVEIS | Até O Dia Que Encontraram Os DEMÔNIOS Sam",
+    "Guerra De Impérios",
+    "2026-02-13",
+    12900
+   ],
+   [
+    195410,
+    "2026-06-20",
+    "Por que os europeus nunca colonizaram o Japão?",
+    "História do Mundo",
+    "2026-05-27",
+    11300
+   ],
+   [
+    106503,
+    "2026-08-30",
+    "A História do Japão Inteiro: Da Origem dos Samurais ao Japão Moderno",
+    "História do Mundo",
+    "2026-05-27",
+    11300
+   ]
+  ],
+  "canais_top10_12m": 8,
+  "top10_12m": [
+   [
+    253426,
+    "2026-07-04",
+    32,
+    "Por Que China e Japão São Tão Rivais? | A Disputa Histórica que Marcou a Ásia",
+    "História do Mundo",
+    "tzfbDkQx7Hw"
+   ],
+   [
+    244751,
+    "2026-04-12",
+    22,
+    "Os Mongóis Eram MÁQUINAS INVENCÍVEIS | Até O Dia Que Encontraram Os DEMÔNIOS Sam",
+    "Guerra De Impérios",
+    "RvGNPSkl8U8"
+   ],
+   [
+    195410,
+    "2026-06-20",
+    30,
+    "Por que os europeus nunca colonizaram o Japão?",
+    "História do Mundo",
+    "SmVTBEPXjAE"
+   ],
+   [
+    184266,
+    "2026-02-23",
+    39,
+    "BATALHA DE TSUSHIMA: 80 SAMURAIS CONTRA 20.000 MONGÓIS — O MASSACRE QUE QUASE DE",
+    "Sociedade Épica",
+    "_qWLODA2LBM"
+   ],
+   [
+    168736,
+    "2025-11-22",
+    13,
+    "Quem foi Miyamoto Musashi? A história do maior samurai do Japão",
+    "123 Japonês",
+    "nMPIUsASeKI"
+   ],
+   [
+    106503,
+    "2026-08-30",
+    34,
+    "A História do Japão Inteiro: Da Origem dos Samurais ao Japão Moderno",
+    "História do Mundo",
+    "ZJM7109si6M"
+   ],
+   [
+    90979,
+    "2026-07-31",
+    79,
+    "TODA A Segunda Guerra Mundial Sob A Perspectiva JAPONESA | EM CORES VIVAS",
+    "Der Kommandant POR",
+    "AAARVY3ayY8"
+   ],
+   [
+    75992,
+    "2026-02-25",
+    4,
+    "QUEM é PUNCH? O BEBÊ MACACO MAIS AMADO DO JAPÃO (História Completa!) 💗🐒",
+    "PeritoAnimal",
+    "d1kYh8Xl7K4"
+   ],
+   [
+    50471,
+    "2026-06-20",
+    32,
+    "JAPÃO: O Mundo Subterrâneo da Yakuza [Documentário Completo]",
+    "Asian Docs ",
+    "HJmh7jFihaw"
+   ],
+   [
+    47678,
+    "2026-11-01",
+    79,
+    "A História do Japão | Documentário Histórico",
+    "EconoSimples",
+    "OlrBlPasziY"
+   ]
+  ]
+ },
+ "pt:russia": {
+  "n": 54,
+  "n12": 25,
+  "med_top10_12m": 52716,
+  "med_top10_total": 902372,
+  "top1": [
+   8826769,
+   "Entenda a guerra entre RÚSSIA e UCRÂNIA - Doc Nostalgia",
+   "Canal Nostalgia",
+   "2022-04-03"
+  ],
+  "rec_gt100k": 2,
+  "rec": [
+   [
+    461207,
+    "2026-09-09",
+    "ALEMANHA vs RÚSSIA: prontas para uma guerra?",
+    "Canal Top10"
+   ],
+   [
+    235160,
+    "2026-10-19",
+    "Toda a história da Rússia em 37 minutos",
+    "História em minutos"
+   ]
+  ],
+  "ano_gt100k": 4,
+  "molde": [
+   [
+    235160,
+    "2026-10-19",
+    "Toda a história da Rússia em 37 minutos",
+    "História em minutos",
+    "2026-08-23",
+    5050
+   ],
+   [
+    25473,
+    "2022-03-15",
+    "RÚSSIA x UCRÂNIA: Toda a História!",
+    "reVisão",
+    "2014-10-27",
+    579000
+   ],
+   [
+    15683,
+    "2026-10-24",
+    "A História COMPLETA da União Soviética (1922–1991) | TOTALMENTE em Cores | DOCUM",
+    "Der Kommandant POR",
+    "2024-08-17",
+    54100
+   ],
+   [
+    2731,
+    "2026-10-14",
+    "Como a OTAN Chegou à Porta da Rússia: A História Completa",
+    "GeoMaps Brasil",
+    "2026-09-28",
+    22600
+   ],
+   [
+    587,
+    "2026-10-02",
+    "A História COMPLETA da União Soviética em 15 Minutos",
+    "Histórias Contadas",
+    "2022-04-13",
+    26
+   ],
+   [
+    231,
+    "2026-10-14",
+    "A História INTEIRA da RÚSSIA em 18 Minutos",
+    "Atlas do Tempo",
+    "2026-10-02",
+    9
+   ],
+   [
+    182,
+    "2025-12-26",
+    "A história COMPLETA da Rússia",
+    "Esquerda Convicta",
+    "2025-12-09",
+    71
+   ],
+   [
+    130,
+    "2025-11-24",
+    "A Historia Completa da Rússia | Documentário Legendado - PT BR",
+    "O Mapa da História",
+    "2025-10-11",
+    591
+   ]
+  ],
+  "molde_12m_gt50k": 1,
+  "porta": [
+   [
+    235160,
+    "2026-10-19",
+    "Toda a história da Rússia em 37 minutos",
+    "História em minutos",
+    "2026-08-23",
+    5050
+   ]
+  ],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    685359,
+    "2026-08-06",
+    21,
+    "STALINGRADO: A BATALHA QUE EXPLICA A RÚSSIA DE PUTIN I Professor HOC",
+    "Professor HOC",
+    "v7YAHPrMimo"
+   ],
+   [
+    461207,
+    "2026-09-09",
+    36,
+    "ALEMANHA vs RÚSSIA: prontas para uma guerra?",
+    "Canal Top10",
+    "JXkTGVTl-o4"
+   ],
+   [
+    235160,
+    "2026-10-19",
+    37,
+    "Toda a história da Rússia em 37 minutos",
+    "História em minutos",
+    "aMld6kMmcm4"
+   ],
+   [
+    200810,
+    "2026-03-26",
+    141,
+    "Rússia: 1.200 Anos de Conquistas, Guerras e Poder que Mudaram o Mundo",
+    "História do Mundo em HQ",
+    "GN-ybIXIpww"
+   ],
+   [
+    61041,
+    "2026-04-09",
+    44,
+    "Dinastias Reais: Os Romanovs | A Dinastia que Governou a Rússia por 300 Anos",
+    "Royalworld - Nobreza e Dinastias",
+    "r8SRBJliOHM"
+   ],
+   [
+    44392,
+    "2026-03-14",
+    12,
+    "Unificação Alemã e as Guerras da Prússia",
+    "História na Marra",
+    "LJfso9fw6nE"
+   ],
+   [
+    35426,
+    "2026-05-23",
+    48,
+    "SPETSNAZ VS SSO: COMO A UCRÂNIA CRIOU UMA \"STARTUP DE GUERRA\" PARA PARALISAR A R",
+    "Almanaque Militar",
+    "fmSpuzKvFAI"
+   ],
+   [
+    27749,
+    "2026-06-23",
+    100,
+    "Como a Prússia Transformou a Europa e Criou a Alemanha Moderna? A História que M",
+    "Atlas de Impérios e Civilizações",
+    "O_5tZ5ZEYVs"
+   ],
+   [
+    24308,
+    "2026-10-23",
+    82,
+    "Como a Prússia CRIOU a Alemanha e Unificou um Império | DOCUMENTÁRIO",
+    "Der Kommandant POR",
+    "AYzC7wIaRbM"
+   ],
+   [
+    15683,
+    "2026-10-24",
+    81,
+    "A História COMPLETA da União Soviética (1922–1991) | TOTALMENTE em Cores | DOCUM",
+    "Der Kommandant POR",
+    "gDsdGoPKDaU"
+   ]
+  ]
+ },
+ "pt:ucrania": {
+  "n": 31,
+  "n12": 14,
+  "med_top10_12m": 332859,
+  "med_top10_total": 765330,
+  "top1": [
+   8826769,
+   "Entenda a guerra entre RÚSSIA e UCRÂNIA - Doc Nostalgia",
+   "Canal Nostalgia",
+   "2022-04-03"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    217198,
+    "2026-11-02",
+    "Brasileira enfrenta a dura realidade da guerra na Ucrânia após deixar seu país",
+    "Domingo Espetacular"
+   ]
+  ],
+  "ano_gt100k": 7,
+  "molde": [
+   [
+    25473,
+    "2022-03-15",
+    "RÚSSIA x UCRÂNIA: Toda a História!",
+    "reVisão",
+    "2014-10-27",
+    579000
+   ],
+   [
+    25067,
+    "2026-10-13",
+    "A história completa da Ucrânia em 30 minutos.",
+    "História em minutos",
+    "2026-08-23",
+    5050
+   ],
+   [
+    1716,
+    "2026-10-10",
+    "A História da Ucrânia em 22 minutos",
+    "História em Minutos",
+    "2026-10-08",
+    15
+   ],
+   [
+    140,
+    "2026-10-10",
+    "A História INTEIRA da UCRÂNIA em 19 Minutos",
+    "Atlas do Tempo",
+    "2026-10-02",
+    9
+   ],
+   [
+    18,
+    "2026-10-15",
+    "Guerra da Ucrânia: A História Completa de 2022 a 2026 | Rússia x Ucrânia",
+    "SENTINELA GLOBAL",
+    "2026-08-27",
+    160
+   ],
+   [
+    17,
+    "2026-10-12",
+    "Por que a Rússia invadiu a Ucrânia? A história completa",
+    "Forjando Inteligencia",
+    "2015-03-14",
+    5
+   ],
+   [
+    16,
+    "2026-10-10",
+    "O Que Causou a Guerra? A História Completa de Rússia e Ucrânia!",
+    "Mundo em Eras",
+    "2026-10-04",
+    6
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    397676,
+    "2026-04-21",
+    "Sua Vida Como Mercenário Brasileiro na Guerra da Ucrânia",
+    "Dentro do Sistema",
+    "2026-03-17",
+    63900
+   ]
+  ],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    2066319,
+    "2026-07-24",
+    15,
+    "Por que brasileiros estão entre os que mais morrem na Guerra na Ucrânia",
+    "DW Brasil",
+    "ESAXuqRpoxU"
+   ],
+   [
+    775829,
+    "2026-05-13",
+    8,
+    "Ex-traficantes brasileiros são recrutados para lutar na guerra da Ucrânia | 'Dom",
+    "RECORD EUROPA",
+    "oHPK2OdCRbg"
+   ],
+   [
+    397676,
+    "2026-04-21",
+    18,
+    "Sua Vida Como Mercenário Brasileiro na Guerra da Ucrânia",
+    "Dentro do Sistema",
+    "lOVQMQ8Ma74"
+   ],
+   [
+    386909,
+    "2026-05-11",
+    8,
+    "Ex-traficantes brasileiros são recrutados para lutar na guerra da Ucrânia",
+    "Domingo Espetacular",
+    "LCpYR67Lgq4"
+   ],
+   [
+    384777,
+    "2026-07-01",
+    27,
+    "A HISTÓRIA JÁ MOSTROU COMO AS GUERRAS NO IRÃ E NA UCRÂNIA VÃO ACABAR I Professor",
+    "Professor HOC",
+    "rUkj2HzzBwU"
+   ],
+   [
+    280941,
+    "2026-05-11",
+    8,
+    "Ex-traficantes brasileiros são recrutados para lutar na guerra da Ucrânia",
+    "RECORD JAPAN",
+    "dp7oDgAVvbM"
+   ],
+   [
+    217198,
+    "2026-11-02",
+    7,
+    "Brasileira enfrenta a dura realidade da guerra na Ucrânia após deixar seu país",
+    "Domingo Espetacular",
+    "y_9RmTBeZFM"
+   ],
+   [
+    35426,
+    "2026-05-23",
+    48,
+    "SPETSNAZ VS SSO: COMO A UCRÂNIA CRIOU UMA \"STARTUP DE GUERRA\" PARA PARALISAR A R",
+    "Almanaque Militar",
+    "fmSpuzKvFAI"
+   ],
+   [
+    25067,
+    "2026-10-13",
+    30,
+    "A história completa da Ucrânia em 30 minutos.",
+    "História em minutos",
+    "wkqu-my0TZE"
+   ],
+   [
+    1716,
+    "2026-10-10",
+    22,
+    "A História da Ucrânia em 22 minutos",
+    "História em Minutos",
+    "jMyBJGOq6Ow"
+   ]
+  ]
+ },
+ "pt:britanico": {
+  "n": 44,
+  "n12": 23,
+  "med_top10_12m": 26623,
+  "med_top10_total": 306311,
+  "top1": [
+   1405330,
+   "A História da Inglaterra",
+   "Impérios AD",
+   "2018-12-22"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 3,
+  "molde": [
+   [
+    918684,
+    "2022-11-13",
+    "BATALHA DA INGLATERRA: A HISTÓRIA COMPLETA - DOC #203",
+    "Sala de Guerra",
+    "2018-09-28",
+    878000
+   ],
+   [
+    28521,
+    "2026-04-18",
+    "Dinastias Reais da Inglaterra: A História Completa da Monarquia Inglesa | Docume",
+    "Perfis Dinásticos",
+    "2026-02-13",
+    3560
+   ],
+   [
+    7831,
+    "2025-12-03",
+    "A História Completa da Escócia vs. Inglaterra | Documentário Medieval",
+    "Forgotten Kingdoms Português",
+    "2021-01-19",
+    2270
+   ],
+   [
+    1652,
+    "2025-10-23",
+    "O Império Britânico – A história do império onde o sol nunca se punha | História",
+    "Lendas do Sono",
+    "2025-07-02",
+    609
+   ],
+   [
+    1310,
+    "2025-11-15",
+    "A História Completa Do Império Britânico | Documentário A PURO COR",
+    "O Diário de Tutancámon",
+    "2021-03-25",
+    2310
+   ],
+   [
+    539,
+    "2026-03-26",
+    "A História Completa do Império Britânico – O Império onde o sol nunca se põe",
+    "Explore o Mundo",
+    "2012-02-11",
+    6620
+   ],
+   [
+    465,
+    "2025-10-02",
+    "Império Britânico: A História Completa da Maior Potência do Mundo",
+    "História em Transe",
+    "2011-12-09",
+    2910
+   ],
+   [
+    434,
+    "2026-09-29",
+    "A História Completa da Monarquia Britânica: Reis, Guerras, Revoluções, Império e",
+    "Bruno Santtos | Biblioteca Falada",
+    "2026-08-03",
+    6020
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    355526,
+    "2026-04-24",
+    "Isabel I | Ano 1603 | A Última Tudor e a Maior Rainha da Inglaterra",
+    "Civilizações Explicadas",
+    "2025-12-28",
+    21200
+   ]
+  ],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    355526,
+    "2026-04-24",
+    28,
+    "Isabel I | Ano 1603 | A Última Tudor e a Maior Rainha da Inglaterra",
+    "Civilizações Explicadas",
+    "ifrUQvogZGQ"
+   ],
+   [
+    182859,
+    "2026-06-16",
+    10,
+    "A queda de Singapura: a maior derrota do Império Britânico! | SEGUNDA GUERRA MUN",
+    "Canal History Brasil",
+    "N_Q9TJ7-mV4"
+   ],
+   [
+    140937,
+    "2026-01-08",
+    98,
+    "A História da Inglaterra: Dos Celtas ao Século Vinte e Um - Documentário Complet",
+    "História do Mundo em HQ",
+    "bT60qGIM6l8"
+   ],
+   [
+    53572,
+    "2026-09-12",
+    78,
+    "Segundo Império Britânico | O Império Que Nunca Acabou",
+    "Moconomy - Economia e Finanças",
+    "2Yl6r1H7igw"
+   ],
+   [
+    28521,
+    "2026-04-18",
+    72,
+    "Dinastias Reais da Inglaterra: A História Completa da Monarquia Inglesa | Docume",
+    "Perfis Dinásticos",
+    "O2Bg_iGU2YE"
+   ],
+   [
+    24725,
+    "2026-02-27",
+    43,
+    "Lanças contra Fuzis: O Dia em que o Império Britânico foi Humilhado pelos Zulus",
+    "O Mapa Fantasma",
+    "bo8RfaqAL0g"
+   ],
+   [
+    19717,
+    "2026-10-18",
+    14,
+    "Como os Zulus HUMILHARAM o Império Britânico?",
+    "História na Marra",
+    "EfUsKf-BIVE"
+   ],
+   [
+    10787,
+    "2026-06-15",
+    35,
+    "Os Maiores Fracassos Idiotas do Império Britânico",
+    "História Ridícula",
+    "n_YGD9LyPIA"
+   ],
+   [
+    7831,
+    "2025-12-03",
+    80,
+    "A História Completa da Escócia vs. Inglaterra | Documentário Medieval",
+    "Forgotten Kingdoms Português",
+    "vl3o2GP1Zvc"
+   ],
+   [
+    3826,
+    "2025-12-02",
+    8,
+    "A Batalha de Stamford Bridge – O Dia em que os Vikings Caíram na Inglaterra",
+    "Tempo de Historias",
+    "NtqfvRjtFdw"
+   ]
+  ]
+ },
+ "pt:grecia": {
+  "n": 65,
+  "n12": 32,
+  "med_top10_12m": 82198,
+  "med_top10_total": 972120,
+  "top1": [
+   1873371,
+   "GRÉCIA ANTIGA - RESUMO DESENHADO",
+   "HISTORIAR-TE",
+   "2021-08-03"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 3,
+  "molde": [
+   [
+    307928,
+    "2025-06-27",
+    "Durma Com História | Toda a História da Grécia Antiga: Filosofia, Guerra, Glória",
+    "Descanse com Histórias",
+    "2025-05-17",
+    30300
+   ],
+   [
+    126012,
+    "2025-09-24",
+    "Toda a HISTÓRIA da Grécia: Atenas, Sparta e Alexandre, o Grande",
+    "Reinos Esquecidos",
+    "2025-08-30",
+    4710
+   ],
+   [
+    86641,
+    "2026-02-12",
+    "A História COMPLETA da Grécia Antiga | Documentário",
+    "Era Humana",
+    "2025-02-02",
+    18300
+   ],
+   [
+    35619,
+    "2026-02-10",
+    "4000 Anos de Grécia: Da Civilização Minóica até a Crise Atual - A História Compl",
+    "História do Mundo em HQ",
+    "2025-09-25",
+    29900
+   ],
+   [
+    28196,
+    "2026-01-01",
+    "A HISTÓRIA COMPLETA da GRÉCIA ANTIGA: GUERRAS, CULTURA e LEGADO - Para dormir",
+    "Apenas durma com história",
+    "2025-05-18",
+    1070
+   ],
+   [
+    12522,
+    "2026-09-17",
+    "ATENAS — A HISTÓRIA COMPLETA DA CIDADE QUE CRIOU A DEMOCRACIA | Além da História",
+    "Além da História",
+    "2026-06-25",
+    4040
+   ],
+   [
+    8548,
+    "2025-12-06",
+    "A História Completa de Leônidas de Esparta e seus 300 Espartanos",
+    "Foca na História",
+    "2016-01-30",
+    1510000
+   ],
+   [
+    8531,
+    "2026-08-20",
+    "Como a Grécia Antiga Mudou a Humanidade Para Sempre? A História Completa",
+    "Atlas de Impérios e Civilizações",
+    "2026-04-03",
+    5670
+   ]
+  ],
+  "molde_12m_gt50k": 1,
+  "porta": [
+   [
+    163413,
+    "2026-04-09",
+    "Assim Era a Vida de AQUILES na Grécia Antiga há 3200 anos | Reconstrução com IA",
+    "Reconstrução do Passado",
+    "2026-03-07",
+    68900
+   ]
+  ],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    1837602,
+    "2026-03-29",
+    103,
+    "um TOUR pela GRÉCIA ANTIGA",
+    "Tinocando TV",
+    "l4cy3ni-4dE"
+   ],
+   [
+    163413,
+    "2026-04-09",
+    21,
+    "Assim Era a Vida de AQUILES na Grécia Antiga há 3200 anos | Reconstrução com IA",
+    "Reconstrução do Passado",
+    "8A3Fhw-5HF4"
+   ],
+   [
+    162313,
+    "2026-02-08",
+    201,
+    "Você não SOBREVIVERIA nem 1 HORA na Grécia Antiga 👀",
+    "Histórias Chatas Para Dormir",
+    "-NqjjUuQeDY"
+   ],
+   [
+    86641,
+    "2026-02-12",
+    161,
+    "A História COMPLETA da Grécia Antiga | Documentário",
+    "Era Humana",
+    "Anl6Y5Yv4Cw"
+   ],
+   [
+    84209,
+    "2026-05-16",
+    100,
+    "A Queda da Grécia Antiga: O Fim da Civilização que Mudou o Mundo | Documentário ",
+    "História do Mundo",
+    "1kNC6FlCmNc"
+   ],
+   [
+    80188,
+    "2025-12-16",
+    12,
+    "HISTÓRIA para crianças 🏺🌍 Grécia Antiga, Egito e Roma",
+    "Smile and Learn - Português",
+    "5irqtGd3T8k"
+   ],
+   [
+    49200,
+    "2026-06-09",
+    8,
+    "Grécia Antiga: Política, Cultura e Períodos Históricos | Resumo Completo para o ",
+    "Toda Matéria",
+    "xG7_VtgqYuc"
+   ],
+   [
+    35619,
+    "2026-02-10",
+    90,
+    "4000 Anos de Grécia: Da Civilização Minóica até a Crise Atual - A História Compl",
+    "História do Mundo em HQ",
+    "5t5Tb6MoX3s"
+   ],
+   [
+    28196,
+    "2026-01-01",
+    229,
+    "A HISTÓRIA COMPLETA da GRÉCIA ANTIGA: GUERRAS, CULTURA e LEGADO - Para dormir",
+    "Apenas durma com história",
+    "VSBTZN6hMKU"
+   ],
+   [
+    12522,
+    "2026-09-17",
+    150,
+    "ATENAS — A HISTÓRIA COMPLETA DA CIDADE QUE CRIOU A DEMOCRACIA | Além da História",
+    "Além da História",
+    "p9_3wrJ-uzI"
+   ]
+  ]
+ },
+ "pt:otomano": {
+  "n": 52,
+  "n12": 29,
+  "med_top10_12m": 19103,
+  "med_top10_total": 329899,
+  "top1": [
+   894428,
+   "A História do Império Otomano",
+   "Impérios AD",
+   "2019-08-31"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 0,
+  "molde": [
+   [
+    390585,
+    "2023-03-12",
+    "TURQUIA: O Misterioso Mosteiro de Sümela em Trabzon – História Completa em Portu",
+    "TURQUIA PARA VOCÊ",
+    "2018-06-20",
+    80700
+   ],
+   [
+    4541,
+    "2026-10-03",
+    "Otomanos: 600 anos de um império que mudou o mundo — a história completa (Docume",
+    "Miguel – História Esquecida",
+    "2026-08-23",
+    261
+   ],
+   [
+    3673,
+    "2025-09-20",
+    "História Completa do IMPÉRIO OTOMANO Dos Sultões à Queda Segredos Poder e Mistér",
+    "Cruzando Tempos",
+    "2025-08-11",
+    850
+   ],
+   [
+    2226,
+    "2026-10-14",
+    "Toda a História do Império Otomano em 16 Minutos",
+    "Depois do Poder",
+    "2024-02-20",
+    267
+   ],
+   [
+    1612,
+    "2025-08-24",
+    "Toda a História do Império Otomano para Dormir",
+    "Sussurros Antigos",
+    "2025-07-14",
+    540
+   ],
+   [
+    927,
+    "2026-07-18",
+    "O Império Otomano: A História Completa de 600 Anos de Domínio Mundial (Reconstit",
+    "Atlas das Civilizações",
+    "2026-01-05",
+    8000
+   ],
+   [
+    514,
+    "2024-09-22",
+    "APRENDA a História Completa da Turquia em MENOS de 5 Minutos!",
+    "Professor Nômade",
+    "2023-09-21",
+    708
+   ],
+   [
+    153,
+    "2026-10-15",
+    "Toda a História do Império Otomano",
+    "Eco Do Passado ",
+    "2026-10-15",
+    1
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 8,
+  "top10_12m": [
+   [
+    96734,
+    "2026-03-11",
+    86,
+    "Império Otomano: o segredo de um poder que durou 600 anos",
+    "Explore o Mundo",
+    "408i_Ku4LpM"
+   ],
+   [
+    50491,
+    "2026-09-23",
+    50,
+    "Império Otomano - Do sultão Osman à queda do califado, a saga completa dos otoma",
+    "História do Mundo em HQ",
+    "G77T4Xza40w"
+   ],
+   [
+    34576,
+    "2026-06-24",
+    24,
+    "Ataturk - O fim do Império Otomano e o começo da Turquia",
+    "Cultura e Opinião com André Sturm",
+    "DwxV2m9-55w"
+   ],
+   [
+    33690,
+    "2026-09-03",
+    40,
+    "Por que o Império Otomano caiu? (ft. Heitor Loureiro)",
+    "Uma Tupá no Tempo",
+    "Sn44uLGTd1k"
+   ],
+   [
+    25592,
+    "2026-06-13",
+    96,
+    "Turquia De Osman I a Atatürk A Incrível Transformação do Maior Império Islâmico ",
+    "Atlas de Impérios e Civilizações",
+    "NO3kJtznwcI"
+   ],
+   [
+    12615,
+    "2026-06-14",
+    12,
+    "Portugal vs. Império Otomano: 600 Soldados Contra Milhares - Diu - 1538",
+    "Impérios e Lendas",
+    "EAqbYdWY78k"
+   ],
+   [
+    12067,
+    "2026-06-11",
+    8,
+    "Jovens Turcos – O golpe que derrubou o Império Otomano",
+    "Cultura e Opinião com André Sturm",
+    "BvaY0UsrNRs"
+   ],
+   [
+    9853,
+    "2026-11-05",
+    35,
+    "A Defesa Mais Insana da História: Como 500 Cavaleiros Usaram Esgoto para HUMILHA",
+    "Guerras Medievais",
+    "_NtSxyAdzHM"
+   ],
+   [
+    9424,
+    "2026-07-26",
+    24,
+    "O Maior MASSACRE da História do Império Otomano | Eugênio de Saboia | Zenta, 169",
+    "Guerra De Impérios",
+    "LpsM8Km1bgo"
+   ],
+   [
+    9370,
+    "2026-04-22",
+    14,
+    "Como os mongóis criaram involuntariamente o Império Otomano?",
+    "Guerras Medievais",
+    "U3Y04nHlHtE"
+   ]
+  ]
+ },
+ "pt:portugal": {
+  "n": 60,
+  "n12": 28,
+  "med_top10_12m": 159400,
+  "med_top10_total": 1777760,
+  "top1": [
+   12061513,
+   "A Bela Adormecida em Português | Historia completa | desenho animado  com Os Amiguinhos",
+   "Os Amiguinhos",
+   "2016-07-14"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    1149335,
+    "2026-10-22",
+    "Por Que Hitler Nunca Invadiu Portugal?",
+    "PORTUGAL PARA TODOS"
+   ]
+  ],
+  "ano_gt100k": 6,
+  "molde": [
+   [
+    12061513,
+    "2016-07-14",
+    "A Bela Adormecida em Português | Historia completa | desenho animado  com Os Ami",
+    "Os Amiguinhos",
+    "2014-11-15",
+    10200000
+   ],
+   [
+    390585,
+    "2023-03-12",
+    "TURQUIA: O Misterioso Mosteiro de Sümela em Trabzon – História Completa em Portu",
+    "TURQUIA PARA VOCÊ",
+    "2018-06-20",
+    80700
+   ],
+   [
+    25730,
+    "2026-02-22",
+    "A HISTÓRIA COMPLETA DE PORTUGAL — COMO UM PEQUENO PAÍS MUDOU O MUNDO PARA SEMPRE",
+    "Sociedade Épica",
+    "2025-08-30",
+    26900
+   ],
+   [
+    25333,
+    "2026-04-06",
+    "Toda a História de Portugal: Da Fundação ao Império dos Mares - Parte 1",
+    "História do Mundo em HQ",
+    "2025-09-25",
+    29900
+   ],
+   [
+    13479,
+    "2026-08-16",
+    "Fernão de Magalhães: A História Completa do Homem Que Portugal Recusou",
+    "Impérios e Lendas",
+    "2025-04-08",
+    20200
+   ],
+   [
+    11382,
+    "2025-09-19",
+    "O Império Português – Da idade de ouro ao declínio | História Completa e Imersiv",
+    "Lendas do Sono",
+    "2025-07-02",
+    609
+   ],
+   [
+    9329,
+    "2025-10-09",
+    "A História Completa das Grandes Navegações de Portugal",
+    "Histórias que Todos Ouvem Até o Fim",
+    "2025-06-05",
+    9870
+   ],
+   [
+    4369,
+    "2025-05-04",
+    "A História Completa da Casa de Bragança: De Portugal ao Brasil",
+    "Marcos Da História ",
+    "2022-06-29",
+    2010
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    366306,
+    "2026-04-25",
+    "A História Real de Inês de Castro | Ano 1355 | O Amor Proibido que Mudou Portuga",
+    "Civilizações Explicadas",
+    "2025-12-28",
+    21200
+   ]
+  ],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    1149335,
+    "2026-10-22",
+    17,
+    "Por Que Hitler Nunca Invadiu Portugal?",
+    "PORTUGAL PARA TODOS",
+    "oNkKg04ZBAE"
+   ],
+   [
+    366306,
+    "2026-04-25",
+    29,
+    "A História Real de Inês de Castro | Ano 1355 | O Amor Proibido que Mudou Portuga",
+    "Civilizações Explicadas",
+    "2wyq7DYJ2Gs"
+   ],
+   [
+    190850,
+    "2025-11-13",
+    44,
+    "A BATALHA DE DIU: O DIA EM QUE PORTUGAL DOMINOU O MUNDO",
+    "Sociedade Épica",
+    "j8ai0BJVLI0"
+   ],
+   [
+    180208,
+    "2026-07-24",
+    9,
+    "Rafael Portugal em: 1.000 Dólares ou um ENJOO MISTERIOSO? | Que História é Essa,",
+    "Canal GNT",
+    "tdN40pRi6_s"
+   ],
+   [
+    161044,
+    "2026-03-13",
+    13,
+    "Quando Portugal Dominou o Estreito de Ormuz e o Golfo Pérsico | Histórias Descon",
+    "À Descoberta de Portugal",
+    "BgDHPsgCtlA"
+   ],
+   [
+    157757,
+    "2026-05-01",
+    31,
+    "A Batalha de Ourique: O Milagre que Criou Portugal | Documentário Épico",
+    "PORTUGAL PARA TODOS",
+    "dUX_MN78eXs"
+   ],
+   [
+    73459,
+    "2026-06-27",
+    19,
+    "O Resumo da História de Portugal...",
+    "Clips do Wuant",
+    "CEKEP_HrWgw"
+   ],
+   [
+    73149,
+    "2026-02-15",
+    10,
+    "Por que Portugal APAGOU Pedro Álvares Cabral da História? (A Verdade)",
+    "História Ibérica",
+    "Oty-l0mxX4U"
+   ],
+   [
+    54266,
+    "2026-05-19",
+    13,
+    "PORTUGAL: 28 NOMES PARA TENTAR FAZER HISTÓRIA ",
+    "Arthur Quezada",
+    "Mgs4GR7fct4"
+   ],
+   [
+    47302,
+    "2026-06-25",
+    17,
+    "A Geometria Oculta da Fundação de Portugal",
+    "História Oculta Portugal",
+    "l_IzFvh7DP0"
+   ]
+  ]
+ },
+ "pt:eua": {
+  "n": 47,
+  "n12": 31,
+  "med_top10_12m": 71405,
+  "med_top10_total": 498123,
+  "top1": [
+   1908038,
+   "A História dos Estados Unidos da América",
+   "Impérios AD",
+   "2019-01-07"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    295861,
+    "2026-09-27",
+    "Guerra do Vietnã: Como os EUA Entraram — e Por Que Perderam",
+    "O Mundo na História"
+   ]
+  ],
+  "ano_gt100k": 4,
+  "molde": [
+   [
+    733785,
+    "2026-03-01",
+    "EUA x IRÃ: A História Completa (Petróleo, Golpes e Tensão)",
+    "Canal Top10",
+    "2016-07-27",
+    10000000
+   ],
+   [
+    493475,
+    "2023-03-11",
+    "História dos ESTADOS UNIDOS em 10 Minutos 🇺🇲 - CountryBalls",
+    "Black Diamond",
+    "2016-05-08",
+    403000
+   ],
+   [
+    96652,
+    "2026-01-30",
+    "A História dos Estados Unidos em 11 Minutos",
+    "Legados da História",
+    "2025-09-29",
+    2300
+   ],
+   [
+    46158,
+    "2026-03-02",
+    "Irã, Israel e EUA: A História Completa do Conflito e da Revolução Islâmica",
+    "EDUARDO BOLSONARO",
+    "2015-04-16",
+    1930000
+   ],
+   [
+    45084,
+    "2026-05-23",
+    "Estados Unidos: Das 13 Colônias à Superpotência Mundial — A História Completa",
+    "Atlas de Impérios e Civilizações",
+    "2026-04-03",
+    5670
+   ],
+   [
+    15220,
+    "2025-11-12",
+    "A História Completa dos Estados Unidos da América | Documentário Histórico",
+    "O Diário de Tutancámon",
+    "2021-03-25",
+    2310
+   ],
+   [
+    2901,
+    "2026-08-11",
+    "A HISTÓRIA COMPLETA DOS ESTADOS UNIDOS | Além da História",
+    "Além da História",
+    "2026-06-25",
+    4040
+   ],
+   [
+    1534,
+    "2026-09-05",
+    "A História Completa dos Estados Unidos da América",
+    "História do Mundo",
+    "2026-05-27",
+    11300
+   ]
+  ],
+  "molde_12m_gt50k": 2,
+  "porta": [
+   [
+    295861,
+    "2026-09-27",
+    "Guerra do Vietnã: Como os EUA Entraram — e Por Que Perderam",
+    "O Mundo na História",
+    "2026-09-01",
+    3600
+   ]
+  ],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    733785,
+    "2026-03-01",
+    25,
+    "EUA x IRÃ: A História Completa (Petróleo, Golpes e Tensão)",
+    "Canal Top10",
+    "la109i8TiSU"
+   ],
+   [
+    409375,
+    "2026-03-29",
+    19,
+    "Entenda tudo sobre a guerra EUA/Israel vs Irã",
+    "Brasil Paralelo",
+    "Ikm86iFu10c"
+   ],
+   [
+    315892,
+    "2026-08-01",
+    10,
+    "EUA anuncia apoia a Grã-Bretanha contra Hitler  | SEGUNDA GUERRA MUNDIAL COM TOM",
+    "Canal History Brasil",
+    "h_itaYECnUQ"
+   ],
+   [
+    295861,
+    "2026-09-27",
+    40,
+    "Guerra do Vietnã: Como os EUA Entraram — e Por Que Perderam",
+    "O Mundo na História",
+    "_mgBkiEKY6E"
+   ],
+   [
+    96652,
+    "2026-01-30",
+    11,
+    "A História dos Estados Unidos em 11 Minutos",
+    "Legados da História",
+    "eGGsyg3HJZo"
+   ],
+   [
+    46158,
+    "2026-03-02",
+    57,
+    "Irã, Israel e EUA: A História Completa do Conflito e da Revolução Islâmica",
+    "EDUARDO BOLSONARO",
+    "YiqOSJXzolw"
+   ],
+   [
+    45084,
+    "2026-05-23",
+    92,
+    "Estados Unidos: Das 13 Colônias à Superpotência Mundial — A História Completa",
+    "Atlas de Impérios e Civilizações",
+    "uHV0DaoNEdw"
+   ],
+   [
+    15220,
+    "2025-11-12",
+    92,
+    "A História Completa dos Estados Unidos da América | Documentário Histórico",
+    "O Diário de Tutancámon",
+    "HNPBIkxqiGc"
+   ],
+   [
+    4130,
+    "2026-01-24",
+    68,
+    "Os Pais Fundadores dos EUA: Um Documentário Imperdível",
+    "A Nova Enciclopédia",
+    "bpXy6BnBTLM"
+   ],
+   [
+    2901,
+    "2026-08-11",
+    62,
+    "A HISTÓRIA COMPLETA DOS ESTADOS UNIDOS | Além da História",
+    "Além da História",
+    "kRVBc6ZsCig"
+   ]
+  ]
+ },
+ "pt:mongois": {
+  "n": 58,
+  "n12": 38,
+  "med_top10_12m": 53196,
+  "med_top10_total": 317821,
+  "top1": [
+   1412119,
+   "O Império Mongol: A Ascensão e Queda de um Grande Império (História Completa) - Foca na História",
+   "Foca na História",
+   "2021-05-24"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    105688,
+    "2026-09-14",
+    "A Batalha que Acabou com o Império de Genghis Khan para Sempre | Cerco à Fortale",
+    "Guerras Medievais"
+   ]
+  ],
+  "ano_gt100k": 3,
+  "molde": [
+   [
+    1412119,
+    "2021-05-24",
+    "O Império Mongol: A Ascensão e Queda de um Grande Império (História Completa) - ",
+    "Foca na História",
+    "2016-01-30",
+    1510000
+   ],
+   [
+    1790,
+    "2026-05-16",
+    "Do Nada ao Domínio do Mundo: A História Completa do Império Mongol (Reconstituiç",
+    "Atlas das Civilizações",
+    "2026-01-05",
+    8000
+   ],
+   [
+    1311,
+    "2026-01-05",
+    "Toda a história do Mongol que virou Imperador Chinês - Histórias para relaxar e ",
+    "Historias para relaxar e dormir",
+    "2025-05-24",
+    18500
+   ],
+   [
+    1056,
+    "2026-01-09",
+    "A HISTÓRIA COMPLETA do IMPÉRIO MONGOL: QUEM FOI GENGIS KHAN? Documentário para d",
+    "Apenas durma com história",
+    "2025-05-18",
+    1070
+   ],
+   [
+    901,
+    "2026-10-18",
+    "toda a história do império mongol em menos de 15 minutos",
+    "Tronos e Impérios ",
+    "2024-02-05",
+    26
+   ],
+   [
+    862,
+    "2026-09-03",
+    "A História Completa dos Mongóis: de Gêngis Khan à Queda do Império — 1206–1368",
+    "ARQUIVO DA ANTIGUIDADE",
+    "2007-08-07",
+    52
+   ],
+   [
+    855,
+    "2026-02-15",
+    "O Império Mongol: A História Completa de Gêngis Khan (Documentário)",
+    "O Enigma Global",
+    "2025-10-25",
+    200
+   ],
+   [
+    561,
+    "2026-09-20",
+    "Toda a história do Império Mongol: sua ascensão impressionante e seu colapso ine",
+    "ATLAS DO PODER",
+    "2026-02-03",
+    62
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    244751,
+    "2026-04-12",
+    "Os Mongóis Eram MÁQUINAS INVENCÍVEIS | Até O Dia Que Encontraram Os DEMÔNIOS Sam",
+    "Guerra De Impérios",
+    "2026-02-13",
+    12900
+   ]
+  ],
+  "canais_top10_12m": 7,
+  "top10_12m": [
+   [
+    244751,
+    "2026-04-12",
+    22,
+    "Os Mongóis Eram MÁQUINAS INVENCÍVEIS | Até O Dia Que Encontraram Os DEMÔNIOS Sam",
+    "Guerra De Impérios",
+    "RvGNPSkl8U8"
+   ],
+   [
+    184266,
+    "2026-02-23",
+    39,
+    "BATALHA DE TSUSHIMA: 80 SAMURAIS CONTRA 20.000 MONGÓIS — O MASSACRE QUE QUASE DE",
+    "Sociedade Épica",
+    "_qWLODA2LBM"
+   ],
+   [
+    105688,
+    "2026-09-14",
+    35,
+    "A Batalha que Acabou com o Império de Genghis Khan para Sempre | Cerco à Fortale",
+    "Guerras Medievais",
+    "UlGMdfXRv7M"
+   ],
+   [
+    86892,
+    "2026-04-20",
+    19,
+    "Como Ivan, o Terrível, Destruiu o Último Império Mongol? — A Batalha de Kazan, 1",
+    "Guerras Medievais",
+    "zlwDJX6-LE0"
+   ],
+   [
+    83281,
+    "2026-04-20",
+    32,
+    "A BATALHA QUE ENCERROU O IMPÉRIO DE GENGHIS KHAN PARA SEMPRE",
+    "Sociedade Épica",
+    "J1fN2IsQPoY"
+   ],
+   [
+    23112,
+    "2026-06-25",
+    91,
+    "Império Mongol: Foi Assim que Caiu o Colosso que Conquistou Meio Mundo",
+    "História do Mundo",
+    "OANGPYpjpzE"
+   ],
+   [
+    17398,
+    "2026-02-08",
+    44,
+    "E SE O IMPÉRIO MONGOL NUNCA TIVESSE CAIDO? A HISTÓRIA PERFEITA PARA A MONGÓLIA !",
+    "O TV Maper - Vinicius Tondelli ",
+    "0AiTki8Vnu8"
+   ],
+   [
+    14850,
+    "2026-09-01",
+    54,
+    "O Império Mongol: Como um Povo Nômade Conquistou o Maior Território da História",
+    "História do Mundo em HQ",
+    "_ZKeIu2RAac"
+   ],
+   [
+    13763,
+    "2026-01-31",
+    12,
+    "E se o Império Mongol não caísse?",
+    "Video Mapas",
+    "GlU9yNwXQX4"
+   ],
+   [
+    9370,
+    "2026-04-22",
+    14,
+    "Como os mongóis criaram involuntariamente o Império Otomano?",
+    "Guerras Medievais",
+    "U3Y04nHlHtE"
+   ]
+  ]
+ },
+ "pt:israel": {
+  "n": 57,
+  "n12": 23,
+  "med_top10_12m": 350225,
+  "med_top10_total": 1895039,
+  "top1": [
+   3343193,
+   "A História do Estado de Israel: O Conflito de Israel e Palestina",
+   "Impérios AD",
+   "2019-12-05"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    101058,
+    "2026-09-21",
+    "Esse é o Melhor Vídeo sobre a Origem do Povo de Israel: Como foi o Seu Início at",
+    "Bíblia Aprofundada"
+   ]
+  ],
+  "ano_gt100k": 9,
+  "molde": [
+   [
+    520563,
+    "2025-07-24",
+    "A História Completa de Jacó: O Deus de Abraão, Isaque, Israel - De Enganador a P",
+    "Deus de Verdades",
+    "2025-05-28",
+    13300
+   ],
+   [
+    419898,
+    "2024-10-19",
+    "A História COMPLETA das 12 TRIBOS de ISRAEL - Será que Elas Realmente Desaparece",
+    "Bíblia Viva",
+    "2023-08-10",
+    807000
+   ],
+   [
+    257512,
+    "2026-03-24",
+    "A História Completa de Israel em 1 Hora — De Abraão ao Apocalipse | DOCUMENTÁRIO",
+    "Vestígios Sagrados",
+    "2015-09-28",
+    50500
+   ],
+   [
+    191216,
+    "2026-01-07",
+    "Toda a História do território de Israel: Dos primeiros povos a fundação de Israe",
+    "História do Mundo em HQ",
+    "2025-09-25",
+    29900
+   ],
+   [
+    70349,
+    "2026-10-29",
+    "TODA a História de ISRAEL em 16 Minutos",
+    "Total History",
+    "2023-01-14",
+    72600
+   ],
+   [
+    46497,
+    "2026-01-08",
+    "Toda a História dos Judeus",
+    "História do Mundo em HQ",
+    "2025-09-25",
+    29900
+   ],
+   [
+    46158,
+    "2026-03-02",
+    "Irã, Israel e EUA: A História Completa do Conflito e da Revolução Islâmica",
+    "EDUARDO BOLSONARO",
+    "2015-04-16",
+    1930000
+   ],
+   [
+    38125,
+    "2026-10-17",
+    "A história COMPLETA das 12 tribos de Israel: De uma família a uma nação dividida",
+    "Bíblia Íntegra",
+    "2014-02-27",
+    4850
+   ]
+  ],
+  "molde_12m_gt50k": 3,
+  "porta": [
+   [
+    101058,
+    "2026-09-21",
+    "Esse é o Melhor Vídeo sobre a Origem do Povo de Israel: Como foi o Seu Início at",
+    "Bíblia Aprofundada",
+    "2026-09-14",
+    2700
+   ]
+  ],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    975117,
+    "2026-02-26",
+    26,
+    "A ORIGEM BÍBLICA DO ÓDIO ENTRE ISRAEL E IRÃ — TUDO COMEÇOU COM ABRAÃO",
+    "CÓDIGO DAS ESCRITURAS",
+    "PIAH8CcWtMU"
+   ],
+   [
+    750302,
+    "2026-03-05",
+    47,
+    "A história do IRÃ e sua ligação PROFÉTICA com ISRAEL na Bíblia com Rodrigo Silva",
+    "Rodrigo Silva Arqueologia",
+    "Cg9tc9zTrUc"
+   ],
+   [
+    623966,
+    "2025-11-13",
+    27,
+    "Maravilhas de ISRAEL - Onde a História Foi Esculpida em Pedra | Atrações e Tesou",
+    "Passaporte Nomade",
+    "bXpSX0TQ78A"
+   ],
+   [
+    575113,
+    "2026-06-05",
+    132,
+    "A História de Saul 👑| O Rei de Israel | Minha Primeira Bíblia | Histórias da Bíb",
+    "Minha Primeira Bíblia",
+    "eeXHDfcshI0"
+   ],
+   [
+    409375,
+    "2026-03-29",
+    19,
+    "Entenda tudo sobre a guerra EUA/Israel vs Irã",
+    "Brasil Paralelo",
+    "Ikm86iFu10c"
+   ],
+   [
+    291076,
+    "2025-11-28",
+    218,
+    "A incrível história do Antigo Testamento – Da criação do mundo ao exílio de Isra",
+    "Caminhos da Bíblia",
+    "W-PwYDKg2yg"
+   ],
+   [
+    257512,
+    "2026-03-24",
+    66,
+    "A História Completa de Israel em 1 Hora — De Abraão ao Apocalipse | DOCUMENTÁRIO",
+    "Vestígios Sagrados",
+    "LcEiwEd7tyw"
+   ],
+   [
+    191216,
+    "2026-01-07",
+    60,
+    "Toda a História do território de Israel: Dos primeiros povos a fundação de Israe",
+    "História do Mundo em HQ",
+    "oaeUmmaTO1Y"
+   ],
+   [
+    101058,
+    "2026-09-21",
+    60,
+    "Esse é o Melhor Vídeo sobre a Origem do Povo de Israel: Como foi o Seu Início at",
+    "Bíblia Aprofundada",
+    "yzL1RocbM2k"
+   ],
+   [
+    77542,
+    "2025-12-23",
+    86,
+    "Por Que Deus Fez Israel Vagar 40 Anos Pelo Deserto? | História Bíblica",
+    "Jerusalem History Português",
+    "99QGWBX-xQ8"
+   ]
+  ]
+ },
+ "pt:alemanha": {
+  "n": 60,
+  "n12": 42,
+  "med_top10_12m": 178137,
+  "med_top10_total": 609661,
+  "top1": [
+   3960226,
+   "A Guerra Franco-Prussiana e a Unificação da Alemanha",
+   "DGP Mundo",
+   "2018-09-18"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    461207,
+    "2026-09-09",
+    "ALEMANHA vs RÚSSIA: prontas para uma guerra?",
+    "Canal Top10"
+   ]
+  ],
+  "ano_gt100k": 8,
+  "molde": [
+   [
+    127049,
+    "2026-03-22",
+    "Toda a história da ALEMANHA: 2000 Anos de História, Guerras, Impérios e Renascim",
+    "História do Mundo em HQ",
+    "2025-09-25",
+    29900
+   ],
+   [
+    28720,
+    "2025-09-14",
+    "Toda a HISTÓRIA da Alemanha—e a Primeira Guerra Mundial",
+    "Reinos Esquecidos",
+    "2025-08-30",
+    4710
+   ],
+   [
+    7892,
+    "2025-12-19",
+    "A História Completa da Alemanha | Documentário História",
+    "Der Kommandant POR",
+    "2024-08-17",
+    54100
+   ],
+   [
+    2693,
+    "2026-08-14",
+    "A história completa do Fusca: da Alemanha nazista ao Brasil",
+    "Fusca Clássico Oficial",
+    "2026-08-12",
+    1480
+   ],
+   [
+    1194,
+    "2026-10-16",
+    "A História Completa da Alemanha",
+    "História do Mundo",
+    "2026-05-27",
+    11300
+   ],
+   [
+    1091,
+    "2026-09-17",
+    "Toda a história da Alemanha: do Sacro Império à queda do Muro de Berlim",
+    "ATLAS DO PODER",
+    "2026-02-03",
+    62
+   ],
+   [
+    666,
+    "2026-06-29",
+    "Por que a Bandeira da Alemanha tem essas cores? | História COMPLETA!",
+    "Reino das Bandeiras",
+    "2025-12-25",
+    388
+   ],
+   [
+    442,
+    "2026-07-19",
+    "Adolf Hitler: A Ascensão e Queda da Alemanha Nazista | História Completa da Segu",
+    "RETROSPECTIVA HISTÓRICA",
+    "2026-01-13",
+    1930
+   ]
+  ],
+  "molde_12m_gt50k": 1,
+  "porta": [],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    713683,
+    "2026-03-29",
+    77,
+    "Por que A Alemanha Perdeu A Segunda Guerra Mundial: Erros Fatais De Hitler",
+    "Arquivos Históricos da Guerra",
+    "Go59QwMBEvw"
+   ],
+   [
+    461207,
+    "2026-09-09",
+    36,
+    "ALEMANHA vs RÚSSIA: prontas para uma guerra?",
+    "Canal Top10",
+    "JXkTGVTl-o4"
+   ],
+   [
+    286298,
+    "2026-04-02",
+    27,
+    "O Mundo Riu Quando o Brasil Declarou Guerra à Alemanha — Até 25.000 Soldados Emb",
+    "Ecos do Chumbo",
+    "E8M_x04OhzY"
+   ],
+   [
+    233176,
+    "2026-04-22",
+    23,
+    "FANTA: A Bebida Criada na Alemanha Nazista com Sobras da Guerra",
+    "Raphael H. Alves",
+    "bAqWjvrBP0Y"
+   ],
+   [
+    229226,
+    "2026-03-28",
+    72,
+    "A Vida na Alemanha Após a Queda dos Nazistas (1945-1946) | Documentário",
+    "Frontline War Memoirs Português",
+    "XKU7Frphac0"
+   ],
+   [
+    127049,
+    "2026-03-22",
+    153,
+    "Toda a história da ALEMANHA: 2000 Anos de História, Guerras, Impérios e Renascim",
+    "História do Mundo em HQ",
+    "kNwFIjWSYNQ"
+   ],
+   [
+    123234,
+    "2026-07-11",
+    72,
+    "Como a Alemanha Se Livrou dos Nazistas ao Terminar a Segunda Guerra Mundial?",
+    "Der Kommandant POR",
+    "eO-5qe5_4Wo"
+   ],
+   [
+    103740,
+    "2026-05-03",
+    88,
+    "GESTAPO: O Império do Terror que Dominou a Alemanha Durante 12 Anos | Documentár",
+    "Der Legionär Português",
+    "DVJT_OISJgg"
+   ],
+   [
+    86326,
+    "2026-02-13",
+    28,
+    "Os Alemães e a Incrível História da Alemanha",
+    "Geo-História",
+    "5A1_sD3ZHjs"
+   ],
+   [
+    80787,
+    "2026-09-27",
+    81,
+    "Por Que a Alemanha Iniciou uma GUERRA para a Qual Não Estava Preparada? | DOCUME",
+    "Der Kommandant POR",
+    "2CoZrZb8bXs"
+   ]
+  ]
+ },
+ "pt:franca": {
+  "n": 39,
+  "n12": 22,
+  "med_top10_12m": 17398,
+  "med_top10_total": 442341,
+  "top1": [
+   7281013,
+   "COMO A REVOLUÇÃO FRANCESA MUDOU O MUNDO - Nostalgia História",
+   "Canal Nostalgia",
+   "2023-12-23"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    167450,
+    "2026-10-23",
+    "Toda a história da França em 38 minutos",
+    "História em minutos"
+   ]
+  ],
+  "ano_gt100k": 2,
+  "molde": [
+   [
+    167450,
+    "2026-10-23",
+    "Toda a história da França em 38 minutos",
+    "História em minutos",
+    "2026-08-23",
+    5050
+   ],
+   [
+    27174,
+    "2026-09-24",
+    "Toda a História da França em 11 Minutos",
+    "Depois do Poder",
+    "2024-02-20",
+    267
+   ],
+   [
+    12887,
+    "2026-07-27",
+    "Joseph Fouché: O Maior Traidor da Revolução Francesa | A História Completa",
+    "RETROSPECTIVA HISTÓRICA",
+    "2026-01-13",
+    1930
+   ],
+   [
+    11281,
+    "2026-07-15",
+    "A História Completa da REVOLUÇÃO FRANCESA | Além da História",
+    "Além da História",
+    "2026-06-25",
+    4040
+   ],
+   [
+    4894,
+    "2025-11-06",
+    "Toda a HISTÓRIA da França Medieval — 13 Reis, 9 Guerras e 1 Reino Eterno",
+    "Reinos Esquecidos",
+    "2025-08-30",
+    4710
+   ],
+   [
+    1220,
+    "2026-08-02",
+    "Père Joseph: A Eminência Parda Que Controlou a França em Segredo | História Comp",
+    "RETROSPECTIVA HISTÓRICA",
+    "2026-01-13",
+    1930
+   ],
+   [
+    829,
+    "2026-09-21",
+    "Toda a história da França: de Carlos Magno à Quinta República",
+    "ATLAS DO PODER",
+    "2026-02-03",
+    62
+   ],
+   [
+    824,
+    "2025-09-18",
+    "Toda a História da Revolução Francesa para Dormir",
+    "Sussurros Antigos",
+    "2025-07-14",
+    540
+   ]
+  ],
+  "molde_12m_gt50k": 1,
+  "porta": [
+   [
+    167450,
+    "2026-10-23",
+    "Toda a história da França em 38 minutos",
+    "História em minutos",
+    "2026-08-23",
+    5050
+   ]
+  ],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    167450,
+    "2026-10-23",
+    38,
+    "Toda a história da França em 38 minutos",
+    "História em minutos",
+    "7amJtj96T0w"
+   ],
+   [
+    149119,
+    "2026-05-22",
+    26,
+    "Como a França Foi Formada? A História da Gália aos Francos",
+    "Canal Páginas do Passado",
+    "9O3YhSHJgHo"
+   ],
+   [
+    27174,
+    "2026-09-24",
+    12,
+    "Toda a História da França em 11 Minutos",
+    "Depois do Poder",
+    "BzP0S_j6QN0"
+   ],
+   [
+    26999,
+    "2026-07-13",
+    19,
+    "História do Maranhão - Aula 1 - Concurso PM e CBM Maranhão 2026 - França Equinoc",
+    "Diogo Xavier",
+    "jtOL6EEVHTA"
+   ],
+   [
+    18456,
+    "2026-03-27",
+    28,
+    "A VERDADEIRA História da França: de Clóvis a Napoleão",
+    "Marcelo Andrade ",
+    "DlTRrJ6JlAI"
+   ],
+   [
+    16340,
+    "2026-07-23",
+    82,
+    "A França que os livros de história escondem, dos gauleses a Napoleão",
+    "História do Mundo em HQ",
+    "XyX0-_PGR74"
+   ],
+   [
+    12887,
+    "2026-07-27",
+    47,
+    "Joseph Fouché: O Maior Traidor da Revolução Francesa | A História Completa",
+    "RETROSPECTIVA HISTÓRICA",
+    "XQlc04tlwZk"
+   ],
+   [
+    11281,
+    "2026-07-15",
+    44,
+    "A História Completa da REVOLUÇÃO FRANCESA | Além da História",
+    "Além da História",
+    "qE3s7bc7AtA"
+   ],
+   [
+    6810,
+    "2026-04-08",
+    12,
+    "A História da França que a Esquerda não te conta",
+    "Marcelo Andrade ",
+    "6r3qO-a1wjk"
+   ],
+   [
+    6154,
+    "2026-05-04",
+    33,
+    "HISTÓRIA ENEM: Idade Contemporânea em 30 MIN (Revolução Francesa à Guerra Fria)",
+    "Repertório ENEM",
+    "TqHP4j0Wnmo"
+   ]
+  ]
+ },
+ "pt:espanha": {
+  "n": 30,
+  "n12": 14,
+  "med_top10_12m": 23507,
+  "med_top10_total": 293899,
+  "top1": [
+   684014,
+   "A História da Espanha",
+   "Impérios AD",
+   "2019-01-11"
+  ],
+  "rec_gt100k": 2,
+  "rec": [
+   [
+    611541,
+    "2026-09-13",
+    "Por que a Espanha detém a COROA DE JERUSALÉM se nunca conquistou o território?",
+    "História Ibérica"
+   ],
+   [
+    123084,
+    "2026-08-16",
+    "História da Espanha Como a Península Ibérica se Dividiu? | Documentário Históric",
+    "EconoSimples"
+   ]
+  ],
+  "ano_gt100k": 4,
+  "molde": [
+   [
+    23013,
+    "2026-07-03",
+    "ESPANHA: A História Completa do Império que Conquistou o Mundo e Quase se Destru",
+    "História do Mundo em HQ",
+    "2025-09-25",
+    29900
+   ],
+   [
+    3099,
+    "2026-11-06",
+    "A História Completa da Guerra entre PORTUGAL e ESPANHA",
+    "Total History",
+    "2023-01-14",
+    72600
+   ],
+   [
+    2773,
+    "2025-11-28",
+    " A História Completa - Por Que a Espanha Deixou de Ser a Maior Potência do Mundo",
+    "Cruzando Tempos",
+    "2025-08-11",
+    850
+   ],
+   [
+    1612,
+    "2025-09-05",
+    "Toda a História da Espanha para Dormir",
+    "Sussurros Antigos",
+    "2025-07-14",
+    540
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    611541,
+    "2026-09-13",
+    13,
+    "Por que a Espanha detém a COROA DE JERUSALÉM se nunca conquistou o território?",
+    "História Ibérica",
+    "t4TMG3iegMs"
+   ],
+   [
+    212931,
+    "2026-01-19",
+    25,
+    "Em 2026, Essa História Ainda Envergonha a Espanha",
+    "Marcos Campos",
+    "npHU5dl9iDo"
+   ],
+   [
+    158220,
+    "2025-12-31",
+    63,
+    "A Guerra Civil Espanhola",
+    "MysterionLL",
+    "0Q2ezhf_wsc"
+   ],
+   [
+    123084,
+    "2026-08-16",
+    61,
+    "História da Espanha Como a Península Ibérica se Dividiu? | Documentário Históric",
+    "EconoSimples",
+    "bCCzP3W5uDM"
+   ],
+   [
+    24002,
+    "2026-02-01",
+    25,
+    "Por Que a Espanha NUNCA Conseguiu Conquistar Portugal? (5,5x MAIOR e Falhou)",
+    "Impérios e Lendas",
+    "o-LDwqCNCMs"
+   ],
+   [
+    23013,
+    "2026-07-03",
+    94,
+    "ESPANHA: A História Completa do Império que Conquistou o Mundo e Quase se Destru",
+    "História do Mundo em HQ",
+    "XKywO6O1CLM"
+   ],
+   [
+    7451,
+    "2026-09-12",
+    29,
+    "UMA CAUSA E 3 MIL ATENTADOS: A HISTÓRIA DO ETA NA ESPANHA.",
+    "Vá e Veja: História e Literatura",
+    "nJoqJWJEmu8"
+   ],
+   [
+    4012,
+    "2026-01-23",
+    7,
+    "Curiosidades da Espanha: Cultura, História e Surpresas!",
+    "Fatos e Curiosidades do Mundo",
+    "hSzWGMPG5Ik"
+   ],
+   [
+    3905,
+    "2026-05-16",
+    93,
+    "Como a Espanha Construiu o Maior Império da História e Depois o Perdeu Tudo?",
+    "Atlas de Impérios e Civilizações",
+    "shigK_9br30"
+   ],
+   [
+    3099,
+    "2026-11-06",
+    16,
+    "A História Completa da Guerra entre PORTUGAL e ESPANHA",
+    "Total History",
+    "wWEn1XKajT0"
+   ]
+  ]
+ },
+ "pt:coreia": {
+  "n": 43,
+  "n12": 21,
+  "med_top10_12m": 42901,
+  "med_top10_total": 378793,
+  "top1": [
+   4453457,
+   "A Guerra da Coreia",
+   "DGP Mundo",
+   "2017-09-02"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    114201,
+    "2026-08-26",
+    "Guerra da Coreia - Uma história esquecida e mal contada",
+    "Cultura e Opinião com André Sturm"
+   ]
+  ],
+  "ano_gt100k": 3,
+  "molde": [
+   [
+    2210630,
+    "2024-06-06",
+    "GUERRA DA COREIA - A HISTÓRIA COMPLETA - Nostalgia História",
+    "Canal Nostalgia",
+    "2008-09-20",
+    15200000
+   ],
+   [
+    193368,
+    "2017-03-27",
+    "Coreia do Norte: A História Completa do País Mais Fechado do Mundo (IMAGENS REAI",
+    "SULAMERICANOS OFICIAL",
+    "2015-11-29",
+    29300
+   ],
+   [
+    42696,
+    "2026-04-28",
+    "Coreia: 5.000 Anos a história Completa: Das Origens Antigas à Divisão que Mudou ",
+    "História do Mundo em HQ",
+    "2025-09-25",
+    29900
+   ],
+   [
+    23767,
+    "2026-02-04",
+    "História da Coreia do Norte em 12 Minutos EXPLICADA",
+    "Legados da História",
+    "2025-09-29",
+    2300
+   ],
+   [
+    2571,
+    "2026-01-24",
+    "A História Completa dos Três Reinos da Coreia | Para Relaxar e Dormir",
+    "Historias para relaxar e dormir",
+    "2025-05-24",
+    18500
+   ],
+   [
+    414,
+    "2026-01-05",
+    "A Guerra da Coreia: O Conflito Esquecido Que Ainda Divide o Mundo | História Com",
+    "Cruzando Tempos",
+    "2025-08-11",
+    850
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    113698,
+    "2026-06-16",
+    "A Guerra da Coreia e a Origem da Tensão Entre as Duas Coreias",
+    "História Destilada",
+    "2026-05-22",
+    2390
+   ]
+  ],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    228220,
+    "2025-12-13",
+    22,
+    "Por Que a Coreia do Norte Nunca Vai Cair",
+    "Versed em Português",
+    "gUhKKWN7LJ8"
+   ],
+   [
+    114201,
+    "2026-08-26",
+    16,
+    "Guerra da Coreia - Uma história esquecida e mal contada",
+    "Cultura e Opinião com André Sturm",
+    "D8kZeLon0bg"
+   ],
+   [
+    113698,
+    "2026-06-16",
+    14,
+    "A Guerra da Coreia e a Origem da Tensão Entre as Duas Coreias",
+    "História Destilada",
+    "qEHgXWdXjVM"
+   ],
+   [
+    79797,
+    "2026-10-20",
+    291,
+    "Invadi a Coreia do Norte pra evitar a 3ª Guerra Mundial (MW4 completo)",
+    "Cadu Caos",
+    "rAdc0qmQJDo"
+   ],
+   [
+    43106,
+    "2025-12-14",
+    28,
+    "COMO FOI COMPETIR NA COREIA? MINHA HISTÓRIA E DESAFIOS ( Sem hormônios)",
+    "VIVENDO NA COREIA 🇰🇷",
+    "fmm3NMKJyHg"
+   ],
+   [
+    42696,
+    "2026-04-28",
+    61,
+    "Coreia: 5.000 Anos a história Completa: Das Origens Antigas à Divisão que Mudou ",
+    "História do Mundo em HQ",
+    "AcgUcIFOQMw"
+   ],
+   [
+    23767,
+    "2026-02-04",
+    12,
+    "História da Coreia do Norte em 12 Minutos EXPLICADA",
+    "Legados da História",
+    "x7Bb2d-ctK4"
+   ],
+   [
+    18305,
+    "2026-03-24",
+    15,
+    "A PRIMAVERA CHEGOU NA COREIA + HISTÓRIA ",
+    "VIVENDO NA COREIA 🇰🇷",
+    "H2UF_RutIfY"
+   ],
+   [
+    9232,
+    "2026-02-18",
+    9,
+    "Atlético Sorocaba x Coreia do Norte | Vogalizando a História",
+    "Paulistão",
+    "WSNl4FP2nWY"
+   ],
+   [
+    4283,
+    "2025-11-11",
+    11,
+    "A Ascensão da Dinastia Kim: A História da Coreia do Norte | Ep:1",
+    "FATOS PASSADOS",
+    "wMG8PLakw84"
+   ]
+  ]
+ },
+ "pt:mexico": {
+  "n": 62,
+  "n12": 26,
+  "med_top10_12m": 19652,
+  "med_top10_total": 350145,
+  "top1": [
+   1221127,
+   "A História dos Astecas",
+   "Impérios AD",
+   "2020-05-13"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 1,
+  "molde": [
+   [
+    33712,
+    "2026-02-18",
+    "A História Completa da Civilização Maia em 15 minutos (Reconstrução por IA)",
+    "Reconstruindo Histórias",
+    "2026-01-26",
+    3250
+   ],
+   [
+    10223,
+    "2026-05-17",
+    "A História Completa dos Maias: Deuses, Guerras e o Mistério do Colapso de 900 d.",
+    "História do Mundo em HQ",
+    "2025-09-25",
+    29900
+   ],
+   [
+    2741,
+    "2026-07-18",
+    "A História Completa da Civilização Maia | Além da História",
+    "Além da História",
+    "2026-06-25",
+    4040
+   ],
+   [
+    2329,
+    "2026-02-10",
+    "Resumo da civilização asteca em 49 minutos",
+    "Explore o Mundo",
+    "2012-02-11",
+    6620
+   ],
+   [
+    2106,
+    "2026-02-18",
+    "História Completa da Cidade do México (Tenochtitlán) (reconstrução por IA)",
+    "Memória Das Cidades",
+    "2023-02-02",
+    51600
+   ],
+   [
+    1785,
+    "2026-09-08",
+    "Como os Maias Construíram um Império na Selva? A História Completa",
+    "Atlas de Impérios e Civilizações",
+    "2026-04-03",
+    5670
+   ],
+   [
+    622,
+    "2026-08-08",
+    "Toltecas: A Civilização Guerreira que Dominou o México Antes dos Astecas — A His",
+    "Atlas de Impérios e Civilizações",
+    "2026-04-03",
+    5670
+   ],
+   [
+    588,
+    "2025-09-25",
+    "A História COMPLETA das Chinampas — O Segredo Agrícola dos Astecas",
+    "Era Cronos",
+    "2025-09-10",
+    17
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 8,
+  "top10_12m": [
+   [
+    179681,
+    "2026-07-23",
+    14,
+    "Os Maias Não Desapareceram  O Que Realmente Aconteceu Com A Civilização Deles",
+    "Ligado no Desconhecído",
+    "3_ALnfArkEc"
+   ],
+   [
+    65448,
+    "2025-12-18",
+    94,
+    "🔥 A história desconhecida dos ASTECAS | EXPLORAÇÃO ASTECA | 🔥 Maratona!",
+    "Canal History Brasil",
+    "C-jiI7z_0Mo"
+   ],
+   [
+    33712,
+    "2026-02-18",
+    15,
+    "A História Completa da Civilização Maia em 15 minutos (Reconstrução por IA)",
+    "Reconstruindo Histórias",
+    "wpnEIaqss4k"
+   ],
+   [
+    23042,
+    "2026-05-23",
+    82,
+    "Império Asteca: Como uma Civilização Inteira Desapareceu",
+    "História do Mundo",
+    "aQUOrCkyRgA"
+   ],
+   [
+    21122,
+    "2026-02-25",
+    18,
+    "O fim das civilizações perdidas: por que Incas, Maias e Astecas desapareceram?",
+    "Linha do Passado",
+    "W7GM6EqJiSA"
+   ],
+   [
+    18182,
+    "2026-05-31",
+    81,
+    "O Colapso Maia: O Maior Mistério da História Antiga",
+    "História do Mundo",
+    "FS8Riau4URo"
+   ],
+   [
+    13151,
+    "2026-06-10",
+    88,
+    "CONHEÇA a IMPRESSIONANTE HISTÓRIA do MÉXICO!",
+    "Marcelo Andrade ",
+    "-E8IoroEovM"
+   ],
+   [
+    10392,
+    "2026-06-15",
+    119,
+    "Do Império Asteca à Democracia: A História do México que Ninguém Contou",
+    "História do Mundo em HQ",
+    "nro32bYAzMo"
+   ],
+   [
+    10223,
+    "2026-05-17",
+    70,
+    "A História Completa dos Maias: Deuses, Guerras e o Mistério do Colapso de 900 d.",
+    "História do Mundo em HQ",
+    "2_76SolqyjI"
+   ],
+   [
+    8005,
+    "2026-02-14",
+    42,
+    "Os Astecas: Um Império Destruído em um Momento da História (Reconstrução IA)",
+    "Atlas das Civilizações",
+    "xF_KFLani1M"
+   ]
+  ]
+ },
+ "pt:argentina": {
+  "n": 15,
+  "n12": 5,
+  "med_top10_12m": 33913,
+  "med_top10_total": 107400,
+  "top1": [
+   997859,
+   "Como Milei mudou a Argentina | Documentário",
+   "DW Brasil",
+   "2025-01-08"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 1,
+  "molde": [
+   [
+    106,
+    "2026-10-25",
+    "Como a Argentina Foi de Rica a Falida | A História INTEIRA em 14 Minutos",
+    "Toda a História",
+    "2013-12-16",
+    51
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 5,
+  "top10_12m": [
+   [
+    108206,
+    "2026-07-20",
+    52,
+    "MESSI: O GÊNIO QUE REESCREVEU A HISTÓRIA DA ARGENTINA",
+    "Gustavo Marques",
+    "5VH91rSQLk4"
+   ],
+   [
+    97301,
+    "2026-10-15",
+    31,
+    "As guerras entre o Brasil e a Argentina",
+    "Vogalizando a História",
+    "7HgbnQr1laY"
+   ],
+   [
+    33913,
+    "2026-07-21",
+    48,
+    "A HISTÓRIA DO PENSAMENTO RACISTA NA ARGENTINA",
+    "Caçador de Histórias",
+    "rDZsTQ3QQMA"
+   ],
+   [
+    1829,
+    "2025-12-06",
+    39,
+    "História da Argentina",
+    "História em Meia Hora",
+    "z5mSjMlzZMo"
+   ],
+   [
+    106,
+    "2026-10-25",
+    14,
+    "Como a Argentina Foi de Rica a Falida | A História INTEIRA em 14 Minutos",
+    "Toda a História",
+    "ffqX9RlyThg"
+   ]
+  ]
+ },
+ "pt:bizancio": {
+  "n": 51,
+  "n12": 25,
+  "med_top10_12m": 21886,
+  "med_top10_total": 492878,
+  "top1": [
+   1196587,
+   "A História do Império Bizantino",
+   "Impérios AD",
+   "2020-01-01"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 2,
+  "molde": [
+   [
+    41414,
+    "2026-05-07",
+    "O IMPÉRIO BIZANTINO EM 15 MINUTOS: A História do Império Romano que Sobreviveu a",
+    "Histórias Romanas",
+    "2018-08-28",
+    295000
+   ],
+   [
+    1922,
+    "2026-07-30",
+    "A História Completa do Império Bizantino | Documentário Completo",
+    "Além da História",
+    "2026-06-25",
+    4040
+   ],
+   [
+    1776,
+    "2026-09-21",
+    "A história COMPLETA de Constantinopla explicada em 17 minutos",
+    "Orbis do Tempo",
+    "2021-09-27",
+    43
+   ],
+   [
+    1235,
+    "2026-07-13",
+    "A História Completa do Império Bizantino – A Ascensão e Queda de Constantinopla",
+    "Viajante do tempo",
+    "2026-05-24",
+    1130
+   ],
+   [
+    1207,
+    "2026-07-21",
+    "1000 Anos de Glória e Queda: A História Completa do Império Bizantino (Reconstit",
+    "Atlas das Civilizações",
+    "2026-01-05",
+    8000
+   ],
+   [
+    511,
+    "2026-04-26",
+    "A História Completa de Istambul - antiga Constantinopla em 08 minutos (Reconstru",
+    "Reconstruindo Histórias",
+    "2026-01-26",
+    3250
+   ],
+   [
+    509,
+    "2026-10-05",
+    "A História Completa do Império Bizantino: Da Roma Oriental à Queda de Constantin",
+    "O Passado Completo",
+    "2026-09-10",
+    2850
+   ],
+   [
+    424,
+    "2025-09-05",
+    "A HISTÓRIA COMPLETA do IMPÉRIO BIZANTINO - Com som de chuva para dormir",
+    "Dormindo com História",
+    "2021-08-09",
+    2790
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 8,
+  "top10_12m": [
+   [
+    142566,
+    "2026-01-10",
+    13,
+    "A ÚLTIMA Batalha do Império Romano | A Queda de Constantinopla (1453)",
+    "Histórias Romanas",
+    "J0EHcrCdPZs"
+   ],
+   [
+    125852,
+    "2026-04-06",
+    18,
+    "VIKINGS VS ROMANOS: A Batalha dos Rus’ de Kiev Nos Portões de CONSTANTINOPLA!",
+    "Histórias Romanas",
+    "E5dzoYcjPbw"
+   ],
+   [
+    71056,
+    "2025-11-11",
+    14,
+    "1453: Como Constantinopla Caiu em 53 Dias | A Queda do Império Bizantino",
+    "Impérios e Lendas",
+    "dU1yF0M7mjc"
+   ],
+   [
+    41414,
+    "2026-05-07",
+    16,
+    "O IMPÉRIO BIZANTINO EM 15 MINUTOS: A História do Império Romano que Sobreviveu a",
+    "Histórias Romanas",
+    "IzTZxRsCT8I"
+   ],
+   [
+    24093,
+    "2026-03-18",
+    83,
+    "Império Bizantino 330 d.C. e 1453: O Segredo do Império que Roma Nunca Conseguiu",
+    "História do Mundo em HQ",
+    "sOkBZeDjZHs"
+   ],
+   [
+    19680,
+    "2025-11-26",
+    54,
+    "A Queda de Constantinopla: o trágico fim do Império Bizantino",
+    "Lucas Lancaster ⚜️ Escola de História da Igreja",
+    "DbDV-cCfDYw"
+   ],
+   [
+    17374,
+    "2026-02-27",
+    25,
+    "CONSTANTINOPLA EM 1453 — A Última Imagem Antes da Queda do Império Bizantino",
+    "Arquivo Temporal",
+    "5eAU5vBSIvg"
+   ],
+   [
+    10466,
+    "2026-01-03",
+    10,
+    "A arma mais aterrorizante do Império Bizantino🔥 | INEXPLICÁVEL COM WILLIAM SHATN",
+    "Canal History Brasil",
+    "xUBqcVgjg7I"
+   ],
+   [
+    9765,
+    "2026-08-15",
+    104,
+    "Antes de Cair, Governou o Mundo por Mil Anos — O Segredo do Império Bizantino (I",
+    "Rafael - Os Mundos da História",
+    "uHy8R3p60fM"
+   ],
+   [
+    7827,
+    "2025-12-20",
+    13,
+    "Antes da Queda de Constantinopla: A Turbulenta Criação do Império Otomano",
+    "Lendas e Fatos",
+    "sb2L3838Sos"
+   ]
+  ]
+ },
+ "pt:vikings": {
+  "n": 44,
+  "n12": 21,
+  "med_top10_12m": 10421,
+  "med_top10_total": 594147,
+  "top1": [
+   4322946,
+   "A História dos Vikings - 20 COISAS QUE VOCÊ NÃO SABIA SOBRE OS VIKINGS",
+   "Você Sabia?",
+   "2020-09-25"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    272172,
+    "2026-09-06",
+    "ESSA FOI A BATALHA QUE DEU FIM A ERA DOS VIKINGS!",
+    "Histórias Milenares"
+   ]
+  ],
+  "ano_gt100k": 2,
+  "molde": [
+   [
+    812891,
+    "2022-03-15",
+    "RESUMO DE VIKINGS (A HISTÓRIA COMPLETA DE VIKINGS EM ORDEM CRONOLÓGICA!) | Yoo",
+    "Yoo",
+    "2021-04-01",
+    135000
+   ],
+   [
+    83726,
+    "2025-06-01",
+    "Toda a História da Era Viking | Documentário",
+    "Era Humana",
+    "2025-02-02",
+    18300
+   ],
+   [
+    12908,
+    "2026-07-08",
+    "A história completa dos Vikings | Além da História",
+    "Além da História",
+    "2026-06-25",
+    4040
+   ],
+   [
+    2431,
+    "2026-10-01",
+    "A História Completa dos Vikings: De Lindisfarne ao Fim da Era Viking",
+    "O Passado Completo",
+    "2026-09-10",
+    2850
+   ],
+   [
+    1577,
+    "2025-07-24",
+    "Toda a História dos Viking para Dormir",
+    "Sussurros Antigos",
+    "2025-07-14",
+    540
+   ],
+   [
+    866,
+    "2026-10-17",
+    "A história completa dos vikings: de tribos isoladas ao terror da Europa",
+    "ranotormi1985",
+    "2026-10-13",
+    23
+   ],
+   [
+    845,
+    "2026-02-10",
+    "A História Completa dos Vikings Explicada Em 17 Minutos (Reconstrução por IA)",
+    "Além da História",
+    "2026-02-09",
+    482
+   ],
+   [
+    839,
+    "2025-12-08",
+    "A Historia Completa da Suécia — Como Vikings, Guerras e Crises Criaram o País Ma",
+    "Cruzando Tempos",
+    "2025-08-11",
+    850
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    272172,
+    "2026-09-06",
+    25,
+    "ESSA FOI A BATALHA QUE DEU FIM A ERA DOS VIKINGS!",
+    "Histórias Milenares",
+    "prN85p4NPr0"
+   ],
+   [
+    125852,
+    "2026-04-06",
+    18,
+    "VIKINGS VS ROMANOS: A Batalha dos Rus’ de Kiev Nos Portões de CONSTANTINOPLA!",
+    "Histórias Romanas",
+    "E5dzoYcjPbw"
+   ],
+   [
+    32086,
+    "2026-06-30",
+    48,
+    "Por que os Vikings Desapareceram da História?",
+    "História do Mundo",
+    "Eh55EGl3C6k"
+   ],
+   [
+    16113,
+    "2026-07-04",
+    15,
+    "Os Vikings que chegaram antes de Cabral — a história por trás da teoria",
+    "A História na Mão",
+    "a4KESoKtExs"
+   ],
+   [
+    12908,
+    "2026-07-08",
+    30,
+    "A história completa dos Vikings | Além da História",
+    "Além da História",
+    "4spWWA9NvOA"
+   ],
+   [
+    7935,
+    "2026-07-21",
+    13,
+    "Como Surgiu a Noruega? A História Antes dos Vikings",
+    "Canal Páginas do Passado",
+    "7B7ZPdu7dWU"
+   ],
+   [
+    7385,
+    "2025-11-09",
+    199,
+    "Como Vikings Suecos criaram o Império Russo - Histórias para relaxar",
+    "Historias para relaxar e dormir",
+    "gLrFDR-ghXw"
+   ],
+   [
+    5986,
+    "2026-06-02",
+    146,
+    "Vikings, Húngaros e Sarracenos: O Século em que a Europa Quase Caiu",
+    "Historias para relaxar e dormir",
+    "ZJLVjXX93jc"
+   ],
+   [
+    3826,
+    "2025-12-02",
+    8,
+    "A Batalha de Stamford Bridge – O Dia em que os Vikings Caíram na Inglaterra",
+    "Tempo de Historias",
+    "NtqfvRjtFdw"
+   ],
+   [
+    2963,
+    "2026-05-28",
+    98,
+    "Vikings: De Guerreiros Nórdicos a Construtores de Impérios — A História Épica Co",
+    "Atlas de Impérios e Civilizações",
+    "Sf2wRMZj4Wg"
+   ]
+  ]
+ },
+ "pt:mesopotamia": {
+  "n": 27,
+  "n12": 14,
+  "med_top10_12m": 24236,
+  "med_top10_total": 482904,
+  "top1": [
+   3438856,
+   "Grandes Civilizações da era de Bronze   Babilônios - Sumérios - Acádios - Minóicos - Fenícios",
+   "Foca na História",
+   "2021-02-08"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 3,
+  "molde": [
+   [
+    26874,
+    "2026-02-05",
+    "Resumo da civilização mesopotâmica em 33 minutos",
+    "Explore o Mundo",
+    "2012-02-11",
+    6620
+   ],
+   [
+    21598,
+    "2026-02-03",
+    "4500 a.C. A história completa da Mesopotâmia",
+    "História do Mundo em HQ",
+    "2025-09-25",
+    29900
+   ],
+   [
+    20751,
+    "2025-06-11",
+    "Durma com História | História COMPLETA da Antiga Mesopotâmia",
+    "Descanse com Histórias",
+    "2025-05-17",
+    30300
+   ],
+   [
+    11430,
+    "2026-03-28",
+    "Eles Começaram Tudo: A História Completa da Mesopotâmia (Reconstituição por IA)",
+    "Atlas das Civilizações",
+    "2026-01-05",
+    8000
+   ],
+   [
+    2197,
+    "2026-07-05",
+    "A História Completa da Mesopotâmia: A Origem das Primeiras Cidades do Mundo",
+    "DocuPt",
+    "2026-04-18",
+    5760
+   ],
+   [
+    495,
+    "2026-10-28",
+    "A História Inteira dos Sumérios | História Para Dormir",
+    "Museu do Sono",
+    "2026-10-22",
+    5
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    1441180,
+    "2026-07-11",
+    "OS SUMÉRIOS: A Primeira Civilização da Antiguidade | Documentário Completo",
+    "Um Documentário",
+    "2026-04-11",
+    125000
+   ],
+   [
+    451465,
+    "2026-04-21",
+    "BABILÔNIA | COMO O MAIOR IMPÉRIO QUE JÁ EXISTIU ACABOU VIRANDO PÓ?",
+    "Antes da Ruína",
+    "2026-04-03",
+    4160
+   ]
+  ],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    1441180,
+    "2026-07-11",
+    55,
+    "OS SUMÉRIOS: A Primeira Civilização da Antiguidade | Documentário Completo",
+    "Um Documentário",
+    "cmGmJLC-CNo"
+   ],
+   [
+    451465,
+    "2026-04-21",
+    24,
+    "BABILÔNIA | COMO O MAIOR IMPÉRIO QUE JÁ EXISTIU ACABOU VIRANDO PÓ?",
+    "Antes da Ruína",
+    "_oVbhWmEfL4"
+   ],
+   [
+    206871,
+    "2026-04-12",
+    19,
+    "O FIM DA MESOPOTÂMIA: Como a Primeira Civilização do Mundo Desapareceu | DOCUMEN",
+    "Histórias Milenares",
+    "6K8UDuimH88"
+   ],
+   [
+    90853,
+    "2026-02-18",
+    113,
+    "O Primeiro Mundo | A Mesopotâmia Antes da História",
+    "O Arquivista Noturno",
+    "GN-4DfXrY5A"
+   ],
+   [
+    26874,
+    "2026-02-05",
+    33,
+    "Resumo da civilização mesopotâmica em 33 minutos",
+    "Explore o Mundo",
+    "uID9Nr5-3fE"
+   ],
+   [
+    21598,
+    "2026-02-03",
+    46,
+    "4500 a.C. A história completa da Mesopotâmia",
+    "História do Mundo em HQ",
+    "rpFjthzUuVo"
+   ],
+   [
+    14866,
+    "2026-06-02",
+    144,
+    "A Primeira Civilização do Mundo: Mesopotâmia — Onde Tudo Começou (Reconstituição",
+    "Atlas das Civilizações",
+    "5-ZzvqEs3pk"
+   ],
+   [
+    12637,
+    "2026-06-25",
+    105,
+    "A Civilização que Inventou Tudo: A História Épica e Completa da Mesopotâmia",
+    "Atlas de Impérios e Civilizações",
+    "U3uyWClKTzE"
+   ],
+   [
+    11430,
+    "2026-03-28",
+    174,
+    "Eles Começaram Tudo: A História Completa da Mesopotâmia (Reconstituição por IA)",
+    "Atlas das Civilizações",
+    "AUuvUHq-3jo"
+   ],
+   [
+    9718,
+    "2026-08-14",
+    84,
+    "Mesopotâmia: Foi Assim que Caiu o Berço da Primeira Grande Civilização",
+    "História do Mundo",
+    "4mH1p9RVpAc"
+   ]
+  ]
+ },
+ "pt:incas": {
+  "n": 29,
+  "n12": 9,
+  "med_top10_12m": 3656,
+  "med_top10_total": 298074,
+  "top1": [
+   1083304,
+   "História do Império Inca | Nerdologia",
+   "Nerdologia",
+   "2018-08-07"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 2,
+  "molde": [
+   [
+    1937,
+    "2026-08-19",
+    "Os Incas: Da Ascensão à Queda do Maior Império da América. História Completa",
+    "História do Mundo",
+    "2026-05-15",
+    17700
+   ],
+   [
+    1898,
+    "2026-03-07",
+    "A História dos Incas em 12 minutos (Reconstrução por IA)",
+    "Reconstruindo Histórias",
+    "2026-01-26",
+    3250
+   ],
+   [
+    260,
+    "2026-01-30",
+    "A HISTÓRIA COMPLETA do IMPÉRIO INCA - Com som de chuva para dormir",
+    "Dormindo com História",
+    "2021-08-09",
+    2790
+   ],
+   [
+    253,
+    "2025-09-28",
+    "História Completa do Império Inca: Do Ouro Perdido à Queda Mais Misteriosa da Hi",
+    "Cruzando Tempos",
+    "2025-08-11",
+    850
+   ],
+   [
+    54,
+    "2026-11-01",
+    "O IMPÉRIO INCA: A História Completa de Uma Civilização Extraordinária | História",
+    "Raízes da Espécie",
+    "2023-03-13",
+    53
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    406612,
+    "2026-06-06",
+    "A Queda do Império Inca. O Final Que Ninguém Esperava",
+    "História do Mundo",
+    "2026-05-15",
+    17700
+   ]
+  ],
+  "canais_top10_12m": 8,
+  "top10_12m": [
+   [
+    406612,
+    "2026-06-06",
+    83,
+    "A Queda do Império Inca. O Final Que Ninguém Esperava",
+    "História do Mundo",
+    "L3vpR_eblV4"
+   ],
+   [
+    310215,
+    "2026-04-19",
+    21,
+    "Como os Incas Construíram Estradas Impossíveis — Sem Rodas Nem Ferro. Documentár",
+    "Mundo Subliminar",
+    "s1L0lf5ycl0"
+   ],
+   [
+    21122,
+    "2026-02-25",
+    18,
+    "O fim das civilizações perdidas: por que Incas, Maias e Astecas desapareceram?",
+    "Linha do Passado",
+    "W7GM6EqJiSA"
+   ],
+   [
+    8392,
+    "2026-03-02",
+    45,
+    "Os Incas: Senhores dos Andes e o Império Perdido nas Montanhas (Reconstrução IA)",
+    "Atlas das Civilizações",
+    "MIaPoU1GJ_M"
+   ],
+   [
+    3656,
+    "2026-08-30",
+    16,
+    "OS INCAS: História, Religião, Cultura e a Queda do Império",
+    "Vozes da história",
+    "ehEwRFrf7c4"
+   ],
+   [
+    1937,
+    "2026-08-19",
+    91,
+    "Os Incas: Da Ascensão à Queda do Maior Império da América. História Completa",
+    "História do Mundo",
+    "yPF9dHcsZ3g"
+   ],
+   [
+    1898,
+    "2026-03-07",
+    12,
+    "A História dos Incas em 12 minutos (Reconstrução por IA)",
+    "Reconstruindo Histórias",
+    "P4R4h1wvWZc"
+   ],
+   [
+    260,
+    "2026-01-30",
+    198,
+    "A HISTÓRIA COMPLETA do IMPÉRIO INCA - Com som de chuva para dormir",
+    "Dormindo com História",
+    "D24j_tZAlVU"
+   ],
+   [
+    54,
+    "2026-11-01",
+    60,
+    "O IMPÉRIO INCA: A História Completa de Uma Civilização Extraordinária | História",
+    "Raízes da Espécie",
+    "TsgUom4Gm1U"
+   ]
+  ]
+ },
+ "pt:italia": {
+  "n": 19,
+  "n12": 9,
+  "med_top10_12m": 208532,
+  "med_top10_total": 309182,
+  "top1": [
+   895233,
+   "A História da Itália",
+   "Impérios AD",
+   "2019-10-28"
+  ],
+  "rec_gt100k": 2,
+  "rec": [
+   [
+    186475,
+    "2026-09-06",
+    "🚨 HUMILHAÇÃO HISTÓRICA NO GP ITÁLIA! ANTONELLI DESTRÓI RUSSELL EM EXIBIÇÃO MEMOR",
+    "RessacaMotor"
+   ],
+   [
+    168715,
+    "2026-08-25",
+    "A Verdadeira História da Pizza — A Comida da Qual a Itália Tinha Vergonha",
+    "A Origem Das Coisas"
+   ]
+  ],
+  "ano_gt100k": 7,
+  "molde": [
+   [
+    4827,
+    "2021-10-06",
+    "A História da Itália em 9 minutos 🇮🇹",
+    "Quer saber sobre História?",
+    "2015-07-29",
+    3030
+   ],
+   [
+    206,
+    "2025-10-28",
+    "História da Itália em 5 Minutos 🇮🇹 : Da Roma Antiga à Itália Moderna",
+    "História Em Alguns Minutos",
+    "2025-04-11",
+    372
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    346074,
+    "2026-03-04",
+    "A Itália de um jeito que você nunca viu - Documentário",
+    "Mundo Revelado",
+    "2026-01-20",
+    26300
+   ],
+   [
+    168715,
+    "2026-08-25",
+    "A Verdadeira História da Pizza — A Comida da Qual a Itália Tinha Vergonha",
+    "A Origem Das Coisas",
+    "2026-05-15",
+    6970
+   ]
+  ],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    782023,
+    "2026-04-11",
+    16,
+    "QUANDO OS ROMANOS SE TORNARAM ITALIANOS? A História de uma Identidade Perdida",
+    "Histórias Romanas",
+    "GZiriGu6Kno"
+   ],
+   [
+    616964,
+    "2026-05-14",
+    24,
+    "Juliana Didone e Alejandroo Claveaux: Vinho, Itália e DUENDES | Que História é e",
+    "Canal GNT",
+    "5nQ1ECrWAeo"
+   ],
+   [
+    346074,
+    "2026-03-04",
+    28,
+    "A Itália de um jeito que você nunca viu - Documentário",
+    "Mundo Revelado",
+    "nG2TecC175s"
+   ],
+   [
+    318167,
+    "2026-02-08",
+    49,
+    "História da Itália | Documentário Histórico (Primeiro povo, queda de Roma, Tempo",
+    "EconoSimples",
+    "qZiew5iz6MM"
+   ],
+   [
+    208532,
+    "2026-03-15",
+    60,
+    "A ITÁLIA BRASILEIRA QUE POUCOS CONHECEM | Antônio Prado (Documentário)",
+    "Rolê Família",
+    "puZTxsbRjc4"
+   ],
+   [
+    186475,
+    "2026-09-06",
+    14,
+    "🚨 HUMILHAÇÃO HISTÓRICA NO GP ITÁLIA! ANTONELLI DESTRÓI RUSSELL EM EXIBIÇÃO MEMOR",
+    "RessacaMotor",
+    "xkYnJBi31L0"
+   ],
+   [
+    168715,
+    "2026-08-25",
+    30,
+    "A Verdadeira História da Pizza — A Comida da Qual a Itália Tinha Vergonha",
+    "A Origem Das Coisas",
+    "Y0DHbZH18Zo"
+   ],
+   [
+    32400,
+    "2026-04-20",
+    88,
+    "A História da Itália: Do Império Romano ao País que Moldou o Mundo",
+    "História do Mundo em HQ",
+    "_ymy4yI3LUU"
+   ],
+   [
+    5353,
+    "2025-11-10",
+    48,
+    "A História da Itália: Como um Pequeno País Mudou o Mundo para Sempre",
+    "Cruzando Tempos",
+    "HxDW21L2pNU"
+   ]
+  ]
+ },
+ "pt:cartago": {
+  "n": 34,
+  "n12": 23,
+  "med_top10_12m": 19873,
+  "med_top10_total": 37984,
+  "top1": [
+   254117,
+   "As Guerras Púnicas entre Roma e Cartago | Nerdologia",
+   "Nerdologia",
+   "2022-04-19"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 1,
+  "molde": [
+   [
+    481,
+    "2026-08-11",
+    "Cartago: A História Completa do Império que Desafiou Roma (Reconstituição por IA",
+    "Atlas das Civilizações",
+    "2026-01-05",
+    8000
+   ],
+   [
+    391,
+    "2025-10-10",
+    "HISTORIA COMPLETA DE CARTAGO: O IMPÉRIO QUE ENFRENTOU ROMA — A VERDADE POR TRÁS ",
+    "Cruzando Tempos",
+    "2025-08-11",
+    850
+   ],
+   [
+    150,
+    "2026-09-02",
+    "A História Completa de Cartago: O Império que Quase Destruiu Roma | Reconstituiç",
+    "Grandes Civilizações do Passado",
+    "2026-03-06",
+    1290
+   ],
+   [
+    104,
+    "2026-10-20",
+    "A História INTEIRA de CARTAGO em 18 Minutos — A Rival de Roma",
+    "Atlas do Tempo",
+    "2026-10-02",
+    9
+   ],
+   [
+    41,
+    "2026-10-16",
+    "Cartago: A História Completa da Cidade Que Quase Destruiu Roma",
+    "Bússola das Eras",
+    "2025-09-04",
+    10
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 6,
+  "top10_12m": [
+   [
+    162631,
+    "2026-07-20",
+    87,
+    "ANÍBAL: O HOMEM QUE QUASE DESTRUIU ROMA | DOCUMENTÁRIO",
+    "Histórias Romanas",
+    "TR23K_R1VKM"
+   ],
+   [
+    30059,
+    "2026-09-27",
+    105,
+    "Cartago: A Civilização Proibida que Desafiou o Império Romano",
+    "Afonso – História da Antiguidade",
+    "CBShxayTTZk"
+   ],
+   [
+    29612,
+    "2026-05-30",
+    15,
+    "QUANDO CARTAGO SE TORNOU A TUNÍSIA? A História da Destruição ao Renascimento.",
+    "Histórias Romanas",
+    "S74agSHKPps"
+   ],
+   [
+    22444,
+    "2026-05-11",
+    13,
+    "O Maior Combate Naval da Antiguidade | Roma e Cartago se Enfrentam",
+    "Histórias Romanas",
+    "d7qm1PNOokM"
+   ],
+   [
+    20778,
+    "2026-06-19",
+    94,
+    "Cartago: O Império Que Roma Temia e Apagou da História",
+    "História do Mundo",
+    "cNet1wQOD9Y"
+   ],
+   [
+    18968,
+    "2026-06-14",
+    22,
+    "TRAÍDOS POR CARTAGO | A Guerra Inexpiável",
+    "Jornada do Tempo",
+    "ppJzsndfBKU"
+   ],
+   [
+    4728,
+    "2026-02-26",
+    43,
+    "Cartago: O Império que Desafiou Roma (Reconstrução IA)",
+    "Atlas das Civilizações",
+    "JFudinKi3zM"
+   ],
+   [
+    4584,
+    "2026-04-10",
+    22,
+    "A Vida Cotidiana em Cartago Romana em 117 d.C. — A Segunda Cidade do Império Com",
+    "História em Reconstrução",
+    "l4gv7ktS3vM"
+   ],
+   [
+    1716,
+    "2026-07-12",
+    43,
+    "O MAIOR CERCO DA ANTIGUIDADE | O Último Suspiro de Cartago",
+    "Jornada do Tempo",
+    "BoczPDTXt1I"
+   ],
+   [
+    1547,
+    "2026-07-15",
+    28,
+    "O ÚLTIMO DIA DE CARTAGO | O Fim das Guerras Púnicas",
+    "Jornada do Tempo",
+    "0CPd12kypMk"
+   ]
+  ]
+ },
+ "pt:africa": {
+  "n": 19,
+  "n12": 4,
+  "med_top10_12m": 20788,
+  "med_top10_total": 192511,
+  "top1": [
+   422223,
+   "OS REINOS AFRICANOS || VOGALIZANDO A HISTÓRIA",
+   "Vogalizando a História",
+   "2022-07-14"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 1,
+  "molde": [],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    205352,
+    "2026-08-01",
+    "Como esta tribo sobrevive no maior pântano da África?  | Documentário Completo",
+    "CronaOrigem",
+    "2025-11-20",
+    37100
+   ]
+  ],
+  "canais_top10_12m": 4,
+  "top10_12m": [
+   [
+    205352,
+    "2026-08-01",
+    21,
+    "Como esta tribo sobrevive no maior pântano da África?  | Documentário Completo",
+    "CronaOrigem",
+    "Zv0zk4B9DE0"
+   ],
+   [
+    24513,
+    "2026-06-21",
+    64,
+    "África: Das Primeiras Civilizações ao Século Vinte e Um, a História que Nunca te",
+    "História do Mundo em HQ",
+    "LpmgpmIhLQs"
+   ],
+   [
+    17064,
+    "2026-03-20",
+    79,
+    "Os Deuses da África Antiga e as Lendas de 5000 Anos",
+    "O Selo Da Biblia",
+    "JP9RreHiVdE"
+   ],
+   [
+    379,
+    "2026-08-25",
+    95,
+    "O Império Africano que Quase Destruiu Roma | A História de Cartago (Reconstrução",
+    "Alexandre - Mundos que Fizeram História",
+    "GRaGVVS9dwk"
+   ]
+  ]
+ },
+ "es:kgb": {
+  "n": 60,
+  "n12": 41,
+  "med_top10_12m": 126649,
+  "med_top10_total": 240056,
+  "top1": [
+   1832674,
+   "LA HISTORIA DE LA KGB (Completo)",
+   "USAHavana",
+   "2015-04-22"
+  ],
+  "rec_gt100k": 3,
+  "rec": [
+   [
+    283864,
+    "2026-10-18",
+    "CÓMO ANDRÓPOV VENGÓ A SU HIJA: LA OPERACIÓN SECRETA DE LA KGB SIN JUICIO",
+    "La Cara Oculta de Moscú"
+   ],
+   [
+    196249,
+    "2026-10-30",
+    "La HISTORIA COMPLETA de la KGB",
+    "Te lo Pinto"
+   ],
+   [
+    190899,
+    "2026-09-22",
+    "🇨🇴 EL “KGB” DEL CÁRTEL DE CALI: EL \"SERVICIO DE CONTRAINTELIGENCIA NARCO\" MÁS SO",
+    "Señor Guerra"
+   ]
+  ],
+  "ano_gt100k": 6,
+  "molde": [
+   [
+    196249,
+    "2026-10-30",
+    "La HISTORIA COMPLETA de la KGB",
+    "Te lo Pinto",
+    "2024-04-06",
+    599000
+   ],
+   [
+    51511,
+    "2026-11-02",
+    "TODA la Historia de la CIA vs. KGB en 22 Minutos | El Duelo de Espías Más Grande",
+    "Atlas del Tiempo",
+    "2023-12-27",
+    1320
+   ],
+   [
+    40710,
+    "2026-10-28",
+    "TODA la Historia de la KGB en 20 Minutos | Los Espías que Cambiaron el Siglo XX",
+    "Atlas del Tiempo",
+    "2023-12-27",
+    1320
+   ],
+   [
+    4247,
+    "2026-11-05",
+    "TODA la Historia del Mossad vs. KGB en 20 Minutos | La Guerra Secreta de Israel ",
+    "Atlas del Tiempo",
+    "2023-12-27",
+    1320
+   ],
+   [
+    3684,
+    "2026-11-04",
+    "TODA la Historia del MI6 vs. KGB en 21 Minutos| La Guerra Secreta de Londres",
+    "Atlas del Tiempo",
+    "2023-12-27",
+    1320
+   ],
+   [
+    2410,
+    "2025-02-18",
+    "Toda la Historia de El KGB",
+    "Curiosity World",
+    "2023-06-19",
+    4780
+   ],
+   [
+    153,
+    "2026-11-06",
+    "TODA la historia de la KGB en 17 minutos",
+    "Archivo en Minutos",
+    "2025-10-03",
+    53
+   ],
+   [
+    75,
+    "2026-11-01",
+    "La historia COMPLETA de la KGB en 13 minutos",
+    "Civilizations & Lost History",
+    "2026-09-22",
+    5
+   ]
+  ],
+  "molde_12m_gt50k": 2,
+  "porta": [
+   [
+    113205,
+    "2025-12-16",
+    "La Operación del Mossad que Humilló a la KGB",
+    "Ascenso y Ruina",
+    "2025-12-12",
+    1780
+   ]
+  ],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    283864,
+    "2026-10-18",
+    24,
+    "CÓMO ANDRÓPOV VENGÓ A SU HIJA: LA OPERACIÓN SECRETA DE LA KGB SIN JUICIO",
+    "La Cara Oculta de Moscú",
+    "TWj1tidqPTk"
+   ],
+   [
+    196249,
+    "2026-10-30",
+    36,
+    "La HISTORIA COMPLETA de la KGB",
+    "Te lo Pinto",
+    "by7uTDjSx7Y"
+   ],
+   [
+    190899,
+    "2026-09-22",
+    11,
+    "🇨🇴 EL “KGB” DEL CÁRTEL DE CALI: EL \"SERVICIO DE CONTRAINTELIGENCIA NARCO\" MÁS SO",
+    "Señor Guerra",
+    "-FL7RdKskys"
+   ],
+   [
+    141918,
+    "2026-01-25",
+    18,
+    "Los LADA ROTATIVOS de la KGB: La historia del Proyecto \"Arkan\"",
+    "Garaje Hermético",
+    "mXSwXnL_Dtg"
+   ],
+   [
+    140094,
+    "2026-05-11",
+    42,
+    "¿CÓMO CASTIGÓ ANDROPOV A LOS VIOLADORES DE SU HIJA? ¡LA VENGANZA BRUTAL DEL KGB ",
+    "La verdadera URSS",
+    "dkJyfG5n0s0"
+   ],
+   [
+    113205,
+    "2025-12-16",
+    55,
+    "La Operación del Mossad que Humilló a la KGB",
+    "Ascenso y Ruina",
+    "lSwpe8i3aK4"
+   ],
+   [
+    98019,
+    "2025-12-05",
+    40,
+    "Hugo Alconada Mon con Laura Ramos: \"Mi niñera era una espía de la KGB\"",
+    "LA NACION",
+    "SmWV1Ctn5yA"
+   ],
+   [
+    67876,
+    "2026-09-17",
+    22,
+    "Tu Vida en Cada Rango de la KGB",
+    "POV Rangos",
+    "TIh8QUZtWxQ"
+   ],
+   [
+    51511,
+    "2026-11-02",
+    22,
+    "TODA la Historia de la CIA vs. KGB en 22 Minutos | El Duelo de Espías Más Grande",
+    "Atlas del Tiempo",
+    "dXRO17KlRUw"
+   ],
+   [
+    42546,
+    "2026-08-27",
+    58,
+    "SECRETOS DE LA LUBYANKA: Así Entrenaba el KGB a sus Agentes",
+    "Ecos de la URSS",
+    "n9bKoGWe8lQ"
+   ]
+  ]
+ },
+ "es:templarios": {
+  "n": 80,
+  "n12": 39,
+  "med_top10_12m": 190887,
+  "med_top10_total": 912199,
+  "top1": [
+   2480091,
+   "TEMPLARIOS EN AMÉRICA | EPISODIO COMPLETO",
+   "History Latinoamérica",
+   "2023-09-01"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    134350,
+    "2026-09-08",
+    "Ave Maria - El Sagrado Canto Templario que Toca el Alma | Canto Gregoriano Épico",
+    "Ironhelm ESP"
+   ]
+  ],
+  "ano_gt100k": 8,
+  "molde": [
+   [
+    1348590,
+    "2021-07-05",
+    "✅ La historia de los CABALLEROS TEMPLARIOS en 10 minutos",
+    "Memorias de Pez",
+    "2017-03-01",
+    2970000
+   ],
+   [
+    375667,
+    "2025-06-05",
+    "DUERME ESCUCHANDO LA HISTORIA COMPLETA DE LOS TEMPLARIOS | MISTERIOS OCULTOS Y R",
+    "Pergaminos Olvidados",
+    "2025-05-19",
+    48100
+   ],
+   [
+    127750,
+    "2026-07-29",
+    "DUÉRMETE con la historia COMPLETA de los Templarios — Guerreros, riqueza y miste",
+    "Tras las Huellas de la Historia",
+    "2017-08-02",
+    9030
+   ],
+   [
+    31300,
+    "2025-08-13",
+    "Toda La Historia de Los Caballeros Templarios de la Edad Media | Historia Aburri",
+    "El Historiador Nocturno",
+    "2021-10-24",
+    308000
+   ],
+   [
+    17029,
+    "2026-10-28",
+    "Templarios: La Historia Completa de los Monjes Guerreros Más Temidos",
+    "Imperios y Misterios",
+    "2026-01-28",
+    5640
+   ],
+   [
+    8271,
+    "2026-04-26",
+    "Cada Órden Militar Católica Explicada en 9 Minutos — De los Templarios a los Hos",
+    "Entiende La Fe",
+    "2026-03-29",
+    31000
+   ],
+   [
+    3455,
+    "2025-10-31",
+    "LOS CABALLEROS TEMPLARIOS - HISTORIA COMPLETA de la ORDEN y sus MISTERIOS | Docu",
+    "Historia Olvidada",
+    "2016-09-25",
+    34900
+   ],
+   [
+    2791,
+    "2026-09-12",
+    "DUÉRMETE con la historia COMPLETA de los Templarios — La Inquisición y el fin de",
+    "Tras las Huellas del Pasado",
+    "2026-06-06",
+    3090
+   ]
+  ],
+  "molde_12m_gt50k": 1,
+  "porta": [
+   [
+    520036,
+    "2026-05-23",
+    "El Tesoro de los Templarios | Nicolas Cage",
+    "LÍMITE CERO",
+    "2025-12-25",
+    42800
+   ],
+   [
+    134350,
+    "2026-09-08",
+    "Ave Maria - El Sagrado Canto Templario que Toca el Alma | Canto Gregoriano Épico",
+    "Ironhelm ESP",
+    "2026-08-10",
+    2120
+   ]
+  ],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    2202534,
+    "2026-05-29",
+    19,
+    "Tu vida en Cada Rango de Caballero Templario",
+    "Te lo Pinto",
+    "G7VYGchTvjs"
+   ],
+   [
+    577363,
+    "2026-03-30",
+    11,
+    "PUEBLO TEMPLARIO DE HACE CASI 1.000 AÑOS",
+    "Laura Wanderlust",
+    "WoPEXn_pvps"
+   ],
+   [
+    520036,
+    "2026-05-23",
+    112,
+    "El Tesoro de los Templarios | Nicolas Cage",
+    "LÍMITE CERO",
+    "U0Mw-JSRt58"
+   ],
+   [
+    286606,
+    "2026-07-18",
+    40,
+    "Encontré los vestigios de un PUEBLO TEMPLARIO abandonado",
+    "Claux.7",
+    "vZVK3cDX_Pw"
+   ],
+   [
+    247424,
+    "2026-03-07",
+    9,
+    "⚔️ RAP de Los TEMPLARIOS ⚔️ | Los Monjes Guerreros Más Poderosos de la Edad Medi",
+    "Emprende Rapeando",
+    "j0WaTh08ccU"
+   ],
+   [
+    134350,
+    "2026-09-08",
+    5,
+    "Ave Maria - El Sagrado Canto Templario que Toca el Alma | Canto Gregoriano Épico",
+    "Ironhelm ESP",
+    "aFWjV_H4LUc"
+   ],
+   [
+    127750,
+    "2026-07-29",
+    122,
+    "DUÉRMETE con la historia COMPLETA de los Templarios — Guerreros, riqueza y miste",
+    "Tras las Huellas de la Historia",
+    "I9SHQLxpW6k"
+   ],
+   [
+    106958,
+    "2025-11-29",
+    10,
+    "¿QUIÉNES FUERON LOS TEMPLARIOS? El Secreto Detrás de la Orden Medieval",
+    "Infonimados",
+    "y6GwP0gV2L0"
+   ],
+   [
+    96327,
+    "2025-11-14",
+    82,
+    "Los Caballeros Templarios (1119-1312 ) | Documental Histórico",
+    "El Diario de Tutankamón",
+    "fqVJa6dBYJA"
+   ],
+   [
+    95616,
+    "2026-07-20",
+    82,
+    "Los Templarios en España: El Imperio Secreto que Nadie Pudo Destruir",
+    "Imperios y Misterios",
+    "scxPjNurQkw"
+   ]
+  ]
+ },
+ "es:inquisicion": {
+  "n": 121,
+  "n12": 78,
+  "med_top10_12m": 129452,
+  "med_top10_total": 1348600,
+  "top1": [
+   4707745,
+   "La inquisición en 15 minutos",
+   "Academia Play",
+   "2018-06-05"
+  ],
+  "rec_gt100k": 2,
+  "rec": [
+   [
+    680834,
+    "2026-10-16",
+    "Black Mango #112 - La SANTA INQUISICIÓN | El Terror de las Brujas y los Herejes",
+    "Black Mango"
+   ],
+   [
+    137332,
+    "2026-10-21",
+    "Tomás de Torquemada: El hombre más temido de la Inquisición Española",
+    "Black Mango Shorts"
+   ]
+  ],
+  "ano_gt100k": 7,
+  "molde": [
+   [
+    4707745,
+    "2018-06-05",
+    "La inquisición en 15 minutos",
+    "Academia Play",
+    "2015-09-07",
+    3780000
+   ],
+   [
+    247784,
+    "2023-10-09",
+    "🔥LA SANTA INQUISICIÓN ESPAÑOLA en 10 minutos🔥 | Historia, mitos y leyendas",
+    "Memorias de Pez",
+    "2017-03-01",
+    2970000
+   ],
+   [
+    34079,
+    "2025-01-13",
+    "La Santa Inquisición — Historia Completa y Orígenes",
+    "Filosofía Apuntes",
+    "2014-06-21",
+    56700
+   ],
+   [
+    2791,
+    "2026-09-12",
+    "DUÉRMETE con la historia COMPLETA de los Templarios — La Inquisición y el fin de",
+    "Tras las Huellas del Pasado",
+    "2026-06-06",
+    3090
+   ],
+   [
+    8,
+    "2026-11-06",
+    "La Inquisición española: la HISTORIA COMPLETA en 11 minutos",
+    "Bruno Expedientes",
+    "2026-11-03",
+    0
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    187868,
+    "2026-04-19",
+    "Torquemada y la Inquisición: La Historia Oscura que Cambió Europa",
+    "Mundos Reinventados",
+    "2026-02-20",
+    14400
+   ],
+   [
+    113516,
+    "2026-07-26",
+    "30 Apellidos Españoles que Eran Prohibidos por la Inquisición",
+    "Memoria del Mundo",
+    "2026-05-09",
+    13400
+   ]
+  ],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    680834,
+    "2026-10-16",
+    152,
+    "Black Mango #112 - La SANTA INQUISICIÓN | El Terror de las Brujas y los Herejes",
+    "Black Mango",
+    "GYfgqfglIr8"
+   ],
+   [
+    259812,
+    "2026-04-08",
+    70,
+    "Profecías prohibidas: Inquisición, niñas videntes y Garabandal | Lourdes Gómez",
+    "Historias y Fantasmas",
+    "UbrlEAjbGzs"
+   ],
+   [
+    187868,
+    "2026-04-19",
+    18,
+    "Torquemada y la Inquisición: La Historia Oscura que Cambió Europa",
+    "Mundos Reinventados",
+    "7FXPNemldRE"
+   ],
+   [
+    175485,
+    "2026-04-06",
+    27,
+    "Así Era la Inquisición en la Ciudad de México | 1571 d.C. | Lo Que Nunca Te Cont",
+    "Las Raíces Desconocidas",
+    "Fobvr0NZEGk"
+   ],
+   [
+    137332,
+    "2026-10-21",
+    27,
+    "Tomás de Torquemada: El hombre más temido de la Inquisición Española",
+    "Black Mango Shorts",
+    "5x6tWl1S-JM"
+   ],
+   [
+    121573,
+    "2026-04-24",
+    14,
+    "La Inquisición Española explicada: Por qué nos han Mentido durante Siglos",
+    "Tengo un Plan",
+    "J1TDLyCs424"
+   ],
+   [
+    113516,
+    "2026-07-26",
+    34,
+    "30 Apellidos Españoles que Eran Prohibidos por la Inquisición",
+    "Memoria del Mundo",
+    "X7oyBCTMAtI"
+   ],
+   [
+    87437,
+    "2026-08-25",
+    24,
+    "20 Apellidos Mexicanos que la Inquisición Prohibió y que Aún Existen",
+    "Historias Inesperadas",
+    "j7MfkEKPFOc"
+   ],
+   [
+    79758,
+    "2026-08-05",
+    26,
+    "Lo más escalofriante de la SANTA INQUISICIÓN En México que todos debemos conocer",
+    "Historia Incomprendida",
+    "qGigtVlfdhc"
+   ],
+   [
+    58573,
+    "2026-10-14",
+    58,
+    "La VERDAD sobre la INQUISICIÓN: Brujería, Torturas y Castigos | Úrsula Camba",
+    "Historias y Fantasmas",
+    "Xl4L1sIoRyI"
+   ]
+  ]
+ },
+ "es:masoneria": {
+  "n": 102,
+  "n12": 53,
+  "med_top10_12m": 430150,
+  "med_top10_total": 1179630,
+  "top1": [
+   4446768,
+   "SOCIEDADES SECRETAS 🔮 Masones, Illuminatis y Rosacruz - ¿Existieron realmente? 🔮 MITOS Y LEYENDAS 16",
+   "Pero eso es otra Historia",
+   "2019-08-13"
+  ],
+  "rec_gt100k": 6,
+  "rec": [
+   [
+    550214,
+    "2026-09-22",
+    "La verdad de los MASONES | ¿Son un peligro para la humanidad?",
+    "Se Regalan Sustos"
+   ],
+   [
+    401939,
+    "2026-08-13",
+    "MASONES: La TEORÍA del PODER MUNDIAL más Polémica",
+    "Magnus Mefisto"
+   ],
+   [
+    166713,
+    "2026-10-07",
+    "ILLUMINATI y MASONES: La Historia Real que Nadie Te Contó",
+    "Tus Noches de Historia"
+   ],
+   [
+    161429,
+    "2026-09-20",
+    "MASONES: la sociedad secreta que nadie ha explicado bien",
+    "Tus Noches de Historia"
+   ],
+   [
+    132315,
+    "2026-09-26",
+    "MASONERÍA: lo que no te cuentan | Pablo Sánchez Acero",
+    "VADE RETRO por Luis Piccinali"
+   ]
+  ],
+  "ano_gt100k": 15,
+  "molde": [
+   [
+    45064,
+    "2026-04-01",
+    "¿Quiénes son los MASONES? | TODA la Historia Explicada al COMPLETO | Aprende Mie",
+    "Aprendes Mientras Duermes",
+    "2025-11-07",
+    34200
+   ],
+   [
+    161,
+    "2026-04-27",
+    "¿Quiénes MUEVEN los HILOS? | Todo lo que necesitas saber de la MASONERIA (En 15 ",
+    "Alex sin respuesta",
+    "2020-03-21",
+    1340
+   ],
+   [
+    47,
+    "2026-10-01",
+    "Toda la HISTORIA de la Masonería Explicada: De los Gremios Medievales al Temor G",
+    "La Cronoteca Nocturna",
+    "2026-07-12",
+    5720
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    166713,
+    "2026-10-07",
+    "ILLUMINATI y MASONES: La Historia Real que Nadie Te Contó",
+    "Tus Noches de Historia",
+    "2026-08-26",
+    3980
+   ],
+   [
+    161429,
+    "2026-09-20",
+    "MASONES: la sociedad secreta que nadie ha explicado bien",
+    "Tus Noches de Historia",
+    "2026-08-26",
+    3980
+   ]
+  ],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    1154214,
+    "2026-05-25",
+    26,
+    "INGLATERRA Y LA MASONERÍA ROMPIERON HISPANOAMÉRICA",
+    "Aladetres",
+    "IMDL2WMbf7M"
+   ],
+   [
+    789565,
+    "2026-04-22",
+    19,
+    "LA MASONERÍA",
+    "Academia Play",
+    "OyQMNlGbwEI"
+   ],
+   [
+    776826,
+    "2026-06-20",
+    62,
+    "Maximiliano de Habsburgo | ¿Un masón gobernó México?",
+    "Juan Miguel Zunzunegui",
+    "j2yKmKHq4Do"
+   ],
+   [
+    550214,
+    "2026-09-22",
+    71,
+    "La verdad de los MASONES | ¿Son un peligro para la humanidad?",
+    "Se Regalan Sustos",
+    "O_NO-gMQccY"
+   ],
+   [
+    458362,
+    "2026-06-04",
+    10,
+    "¡VALE 40 MIL DÓLARES! ¿MONEDA MASÓNICA? El secreto oculto de Washington - El pre",
+    "History Latinoamérica",
+    "iJEX_PqIAgk"
+   ],
+   [
+    401939,
+    "2026-08-13",
+    53,
+    "MASONES: La TEORÍA del PODER MUNDIAL más Polémica",
+    "Magnus Mefisto",
+    "b_9OXSLJkS8"
+   ],
+   [
+    393522,
+    "2026-02-23",
+    40,
+    "LA MASONERÍA ENSEÑADA POR UN MASÓN",
+    "Laura Wanderlust",
+    "78e5ukSq_YM"
+   ],
+   [
+    303855,
+    "2025-12-08",
+    82,
+    "El predicador que hizo temblar a masones… y brilló con luz divina al morir— San ",
+    "HISTORIAS DE SANTOS PARA DORMIR",
+    "i2FAkiKh7cE"
+   ],
+   [
+    192659,
+    "2026-07-14",
+    87,
+    "🚨 Asesinato En El Grado 33  \" Yo Estuve Allí \" Masonería En El Vaticano | Docume",
+    "Conoce Ama Y Vive Tu Fe con Luis Roman",
+    "iHAzEEiw7sA"
+   ],
+   [
+    188523,
+    "2025-11-27",
+    164,
+    "MASONES e ILLUMINATI: La Historia REAL de las Sociedades Secretas y sus Enigmas",
+    "El Historiador Nocturno",
+    "vWyu2T7P038"
+   ]
+  ]
+ },
+ "es:jesuitas": {
+  "n": 81,
+  "n12": 47,
+  "med_top10_12m": 73916,
+  "med_top10_total": 351243,
+  "top1": [
+   730272,
+   "JESUITAS -  Los Mayores ENEMIGOS Acérrimos de Los Cristianos Verdaderos",
+   "Elias Tisbita",
+   "2014-10-08"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 5,
+  "molde": [
+   [
+    3754,
+    "2026-01-24",
+    "LA MASACRE DE LOS JESUITAS en 39 minutos Historia Cuscatleca",
+    "Historia Cuscatleca",
+    "2025-03-24",
+    1240
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    247764,
+    "2026-04-26",
+    "Los Jesuitas: El Ejército Secreto Del Papa Que Controló Medio Mundo",
+    "Imperios en Cenizas",
+    "2026-01-21",
+    2780
+   ]
+  ],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    602090,
+    "2026-05-10",
+    64,
+    "La TERRIBLE Historia de los JESUITAS: El Ejército Secreto que Movió Imperios des",
+    "Palacios Oscuros",
+    "Vtgbx7rYGac"
+   ],
+   [
+    247764,
+    "2026-04-26",
+    27,
+    "Los Jesuitas: El Ejército Secreto Del Papa Que Controló Medio Mundo",
+    "Imperios en Cenizas",
+    "-m8yzQH3jWc"
+   ],
+   [
+    179339,
+    "2026-04-10",
+    78,
+    "LOS JESUITAS: El Ejército Secreto del Vaticano que Cambió la Historia del Mundo",
+    "Acero Templario",
+    "LGrlcirLFp0"
+   ],
+   [
+    107216,
+    "2026-04-07",
+    48,
+    "Impactante: Toda la Verdad sobre los Jesuitas | Invitado Profesor Damián Galerón",
+    "Rafael Diaz ",
+    "bSpRlojWe4U"
+   ],
+   [
+    101104,
+    "2026-06-28",
+    123,
+    "DUÉRMETE CON LOS SECRETOS MÁS OSCUROS DE LOS JESUITAS | HISTORIAS REALES",
+    "Detrás De La Historia",
+    "q8FYFWnMrI0"
+   ],
+   [
+    46728,
+    "2026-07-20",
+    15,
+    "Cristianismo en Japón: El fracaso de la misión jesuita",
+    "La barba roja de Barbarroja",
+    "vRPmvno7eGc"
+   ],
+   [
+    43186,
+    "2026-05-27",
+    59,
+    "Los Jesuitas: 52 Haciendas y el Imperio Más Poderoso que Desapareció de México e",
+    "Las Casas del Poder",
+    "8YlBoTSsbkw"
+   ],
+   [
+    42531,
+    "2025-12-13",
+    52,
+    "El Plan Secreto de los Jesuitas | Con Jorge Guerra",
+    "El Mercurio - Ahora o Nunca",
+    "7tPc7CcG5tI"
+   ],
+   [
+    22015,
+    "2026-04-18",
+    58,
+    "La caída de un imperio: la expulsión de los jesuitas en 1767",
+    "Hablemos de Quito con Rodolfo Muñoz",
+    "2PjCbF_Imbw"
+   ],
+   [
+    21589,
+    "2026-09-18",
+    133,
+    "La Verdadera Historia de los Jesuitas | La Historia de la Compañía de Jesús",
+    "Vercingétorix",
+    "23s4GtR4B5o"
+   ]
+  ]
+ },
+ "es:condor": {
+  "n": 70,
+  "n12": 35,
+  "med_top10_12m": 26647,
+  "med_top10_total": 226417,
+  "top1": [
+   766126,
+   "Operación Cóndor",
+   "Academia Play",
+   "2024-11-10"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    356537,
+    "2026-08-21",
+    "🦅💀 OPERACIÓN CÓNDOR ⚠️ LA RED SECRETA DE DICTADURAS MILITARES QUE ATERRORIZÓ SUD",
+    "Armapedia"
+   ]
+  ],
+  "ano_gt100k": 2,
+  "molde": [
+   [
+    2,
+    "2026-11-09",
+    "La Historia COMPLETA de la Operación Cóndor en 16 Minutos",
+    "Mapa del Ayer",
+    "2025-09-17",
+    0
+   ],
+   [
+    2,
+    "2026-11-08",
+    "La historia COMPLETA de la Operación Cóndor en 11 Minutos",
+    "Archivos en Minutos",
+    "2026-07-18",
+    1
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    356537,
+    "2026-08-21",
+    31,
+    "🦅💀 OPERACIÓN CÓNDOR ⚠️ LA RED SECRETA DE DICTADURAS MILITARES QUE ATERRORIZÓ SUD",
+    "Armapedia",
+    "GKD2J4A-HMA"
+   ],
+   [
+    217582,
+    "2026-05-20",
+    9,
+    "El PLAN CONDOR para secuestrar y asesinar",
+    "A toda leche",
+    "M5fU_TVwXAM"
+   ],
+   [
+    66420,
+    "2026-09-28",
+    41,
+    " ¿Qué fue el OPERATIVO CÓNDOR? | Industria Nacional con ROSEMBLAT",
+    "GELATINA",
+    "g2lRNA-BPkM"
+   ],
+   [
+    32383,
+    "2025-12-16",
+    103,
+    "#Retrovisor || EL REGRESO DEL PLAN CÓNDOR",
+    "Chamuco Media",
+    "a5fl2eVAmqc"
+   ],
+   [
+    26674,
+    "2026-09-13",
+    14,
+    "#Análisis ¬ El Golpe en Chile, el plan Cóndor en México, la CIA y los cárteles",
+    "SinEmbargo Al Aire",
+    "BiAX3Ts1ZOc"
+   ],
+   [
+    26621,
+    "2026-03-06",
+    51,
+    "Operación Cóndor: La Guerra Sucia de Washington en Latinoamérica (Documental Com",
+    "Explicame",
+    "3v060vBWCC0"
+   ],
+   [
+    16262,
+    "2026-10-26",
+    5,
+    "¿Nueva Operación Cóndor?",
+    "JP+",
+    "BHQhY_JT1rI"
+   ],
+   [
+    11488,
+    "2026-08-07",
+    26,
+    "El Plan Cóndor 2.0",
+    "la diaria",
+    "BeLyDYO6Ry8"
+   ],
+   [
+    9159,
+    "2026-11-08",
+    42,
+    "La Operación Cóndor: cómo seis dictaduras se unieron para cazar a sus exiliados ",
+    "Archivo Desclasificado",
+    "tFg1qi_OOiU"
+   ],
+   [
+    3854,
+    "2025-11-14",
+    122,
+    "Trump ATACA América: El Plan Cóndor 2.0",
+    "DELIREO",
+    "TV245J5znSo"
+   ]
+  ]
+ },
+ "es:illuminati": {
+  "n": 41,
+  "n12": 18,
+  "med_top10_12m": 132968,
+  "med_top10_total": 1015684,
+  "top1": [
+   4446768,
+   "SOCIEDADES SECRETAS 🔮 Masones, Illuminatis y Rosacruz - ¿Existieron realmente? 🔮 MITOS Y LEYENDAS 16",
+   "Pero eso es otra Historia",
+   "2019-08-13"
+  ],
+  "rec_gt100k": 2,
+  "rec": [
+   [
+    231836,
+    "2026-08-21",
+    "¿Los ILLUMINATI en verdad controlan el mundo? | El nuevo orden mundial",
+    "Se Regalan Sustos"
+   ],
+   [
+    166713,
+    "2026-10-07",
+    "ILLUMINATI y MASONES: La Historia Real que Nadie Te Contó",
+    "Tus Noches de Historia"
+   ]
+  ],
+  "ano_gt100k": 5,
+  "molde": [],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    166713,
+    "2026-10-07",
+    "ILLUMINATI y MASONES: La Historia Real que Nadie Te Contó",
+    "Tus Noches de Historia",
+    "2026-08-26",
+    3980
+   ]
+  ],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    2922353,
+    "2026-06-12",
+    32,
+    "¿Los ILUMINATI realmente EXISTEN? | Ángeles y Demonios | Relato y Reflexiones",
+    "Farid Dieck",
+    "UhH4U9S8AVQ"
+   ],
+   [
+    231836,
+    "2026-08-21",
+    81,
+    "¿Los ILLUMINATI en verdad controlan el mundo? | El nuevo orden mundial",
+    "Se Regalan Sustos",
+    "7ZcjIdPqbuk"
+   ],
+   [
+    188523,
+    "2025-11-27",
+    164,
+    "MASONES e ILLUMINATI: La Historia REAL de las Sociedades Secretas y sus Enigmas",
+    "El Historiador Nocturno",
+    "vWyu2T7P038"
+   ],
+   [
+    176916,
+    "2026-02-14",
+    10,
+    "EL OJO DE LOS ILUMINATIS - ALINÍGENAS ANCESTRALES",
+    "History Latinoamérica",
+    "MP7kri3CkEw"
+   ],
+   [
+    166713,
+    "2026-10-07",
+    117,
+    "ILLUMINATI y MASONES: La Historia Real que Nadie Te Contó",
+    "Tus Noches de Historia",
+    "HZosALLjxRU"
+   ],
+   [
+    99223,
+    "2026-02-04",
+    18,
+    "¿REALMENTE EXISTEN LOS ILLUMINATI? | WESTCOL ",
+    "WestCOL",
+    "JOo2SpYAj8s"
+   ],
+   [
+    14843,
+    "2026-07-13",
+    13,
+    "Illuminati, su plan secreto.",
+    "Noche de Misterio con Juan Jesús Vallejo",
+    "vIqdevZuprE"
+   ],
+   [
+    12140,
+    "2026-03-04",
+    34,
+    "ILLUMINATI | La SECTA RADICAL que INTENTÓ DOMINAR Europa | Documental Histórico",
+    "Historias Para Dormir",
+    "fwF1YblXvG4"
+   ],
+   [
+    8432,
+    "2026-10-18",
+    64,
+    "Les ILLUMINATI : la vraie société secrète de Bavière (1776-1785) — comment l’Éta",
+    "Fragments d’Histoire",
+    "E-y4BkDfxBM"
+   ],
+   [
+    3497,
+    "2026-07-16",
+    112,
+    "La Orden Secreta que Fue Prohibida por un Imperio Entero: los Illuminati de Bavi",
+    "Órdenes Secretas",
+    "hDYPE2-ax0c"
+   ]
+  ]
+ },
+ "es:opusdei": {
+  "n": 52,
+  "n12": 38,
+  "med_top10_12m": 160351,
+  "med_top10_total": 439678,
+  "top1": [
+   16588153,
+   "Fe, poder, manipulación - Los secretos de la secta del Opus Dei | DW Documental",
+   "DW Documental",
+   "2022-06-30"
+  ],
+  "rec_gt100k": 3,
+  "rec": [
+   [
+    274217,
+    "2026-10-18",
+    "🔺La HISTORIA del OPUS DEI: Un IMPERIO INVISIBLE",
+    "La Nueva Enciclopedia"
+   ],
+   [
+    131347,
+    "2026-09-28",
+    "Los Secretos Jamás Contados del Opus Dei | Mònica Terribas",
+    "B3TTER "
+   ],
+   [
+    127292,
+    "2026-10-20",
+    "Fui numerario del OPUS DEI: “Intentaron curar mi homosexualidad”",
+    "Juanje Diánez"
+   ]
+  ],
+  "ano_gt100k": 7,
+  "molde": [],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    542953,
+    "2026-06-25",
+    41,
+    "OPUS DEI: Los Secretos que el Vaticano Quiere Esconder",
+    "Magnus Mefisto",
+    "0u-pWCG0IF0"
+   ],
+   [
+    402497,
+    "2026-05-11",
+    115,
+    "Fui del OPUS DEI: no te imaginas cómo es vivir dentro 20 años",
+    "Juanje Diánez",
+    "FmH26FcjUvk"
+   ],
+   [
+    287888,
+    "2026-06-04",
+    106,
+    "¿QUÉ ESCONDE EL OPUS DEI? | La verdad sobre su influencia real",
+    "Detrás De La Historia",
+    "9HeAcC2LiM0"
+   ],
+   [
+    274217,
+    "2026-10-18",
+    26,
+    "🔺La HISTORIA del OPUS DEI: Un IMPERIO INVISIBLE",
+    "La Nueva Enciclopedia",
+    "frVDatN_0WM"
+   ],
+   [
+    189355,
+    "2026-07-12",
+    144,
+    "\"Tienen Mucho Más Poder de lo que Crees” Exmiembro del Opus Dei Advierte",
+    "El Sentido De La Birra con Ricardo Moya",
+    "CGb2ClwFn0k"
+   ],
+   [
+    131347,
+    "2026-09-28",
+    74,
+    "Los Secretos Jamás Contados del Opus Dei | Mònica Terribas",
+    "B3TTER ",
+    "_v9CgUWsAu8"
+   ],
+   [
+    127292,
+    "2026-10-20",
+    108,
+    "Fui numerario del OPUS DEI: “Intentaron curar mi homosexualidad”",
+    "Juanje Diánez",
+    "sooSID4qMaY"
+   ],
+   [
+    71219,
+    "2026-10-11",
+    131,
+    "“Estuve 23 Años en el OPUS DEI y Esta es la VERDAD que No te Cuentan” | Ramón Ro",
+    "Golden Circle",
+    "h0YcP7Qk-aY"
+   ],
+   [
+    60280,
+    "2026-10-02",
+    6,
+    "Mensaje del Prelado del Opus Dei: “Ser contemplativos es posible” | 2 octubre 20",
+    "Prelature of Opus Dei",
+    "flw2RLs4g4E"
+   ],
+   [
+    55953,
+    "2026-05-07",
+    105,
+    "La Orden Católica Secreta que controla el Mundo Moderno: el Opus Dei.",
+    "Órdenes Secretas",
+    "dfrLEEwNDFE"
+   ]
+  ]
+ },
+ "es:yakuza": {
+  "n": 40,
+  "n12": 22,
+  "med_top10_12m": 160092,
+  "med_top10_total": 677280,
+  "top1": [
+   3175040,
+   "25 cosas escalofriantes de la YAKUZA LA MAFIA JAPONESA",
+   "Historia Incomprendida",
+   "2021-09-22"
+  ],
+  "rec_gt100k": 3,
+  "rec": [
+   [
+    355715,
+    "2026-10-09",
+    "[Doblado Esp] Una Asesina Se Infiltra en la Yakuza—¡Y Mata al Jefe de la Mafia!",
+    "Hit Español"
+   ],
+   [
+    188161,
+    "2026-09-20",
+    "¿La Yakuza Nació para Enfrentar a los Samuráis del Japón Feudal?",
+    "Rastros de la Humanidad"
+   ],
+   [
+    168252,
+    "2026-10-03",
+    "Japón: la jubilación de los yakuzas | ARTE.tv Documentales",
+    "ARTE.tv Documentales"
+   ]
+  ],
+  "ano_gt100k": 8,
+  "molde": [
+   [
+    9310,
+    "2024-08-04",
+    "La razón por la cual la YAKUZA usa TATUAJES (HISTORIA COMPLETA)",
+    "Universo Irezumi",
+    "2023-03-05",
+    12000
+   ],
+   [
+    1726,
+    "2026-04-22",
+    "La HISTORIA completa de la YAKUZA: 400 AÑOS de la MAFIA JAPONESA | ascenso y caí",
+    "Pioneros y Leyendas",
+    "2025-01-18",
+    6660
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    355715,
+    "2026-10-09",
+    "[Doblado Esp] Una Asesina Se Infiltra en la Yakuza—¡Y Mata al Jefe de la Mafia!",
+    "Hit Español",
+    "2026-01-05",
+    31300
+   ]
+  ],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    1206140,
+    "2026-02-08",
+    24,
+    "Cómo es Ser Cada Rango de la Yakuza",
+    "Te lo Pinto",
+    "aN_Wl0RYbbQ"
+   ],
+   [
+    355715,
+    "2026-10-09",
+    87,
+    "[Doblado Esp] Una Asesina Se Infiltra en la Yakuza—¡Y Mata al Jefe de la Mafia!",
+    "Hit Español",
+    "LKSTcdnOiAo"
+   ],
+   [
+    188161,
+    "2026-09-20",
+    25,
+    "¿La Yakuza Nació para Enfrentar a los Samuráis del Japón Feudal?",
+    "Rastros de la Humanidad",
+    "sDWrUKmcJ5w"
+   ],
+   [
+    182358,
+    "2026-05-29",
+    47,
+    "SECRETOS DE LA YAKUZA y el festival más peligroso de Japón | El mundo al revés",
+    "El mundo al revés",
+    "0lWQOX5j9eE"
+   ],
+   [
+    168252,
+    "2026-10-03",
+    14,
+    "Japón: la jubilación de los yakuzas | ARTE.tv Documentales",
+    "ARTE.tv Documentales",
+    "vkgrFTuD_og"
+   ],
+   [
+    151933,
+    "2026-03-04",
+    28,
+    "POV: Eres el asesino Yakuza más letal del inframundo",
+    "El Perezoso Explica",
+    "C2AWdtY-W10"
+   ],
+   [
+    138691,
+    "2026-06-16",
+    18,
+    "Los 8 Rangos más peligrosos de los Yakuza",
+    "Level 8",
+    "HQYUx_HS5SY"
+   ],
+   [
+    105344,
+    "2025-11-11",
+    20,
+    "ASI VIVE LA YAKUZA HOY: explicado por uno de sus líderes ",
+    "Antonio Gutiérrez",
+    "tX38MRy1b3M"
+   ],
+   [
+    34081,
+    "2026-08-12",
+    35,
+    "🤯 El jefe de la Yakuza pensó que era débil... pero no sabía que era Bruce Lee[Hi",
+    "Historias de Titanes",
+    "LX6AENCJGW0"
+   ],
+   [
+    29309,
+    "2026-10-10",
+    217,
+    "La YAKUZA: ¿Cómo Es La Mafia Más Extraña y Peligrosa del Mundo?",
+    "El Historiador Nocturno",
+    "A-E8nBkeZCk"
+   ]
+  ]
+ },
+ "es:asesinos": {
+  "n": 66,
+  "n12": 44,
+  "med_top10_12m": 45692,
+  "med_top10_total": 169971,
+  "top1": [
+   1834067,
+   "Los 13 ASESINOS SERIALES más Aterradores de la historia",
+   "Historia Incomprendida",
+   "2021-03-17"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 2,
+  "molde": [
+   [
+    77473,
+    "2026-09-22",
+    "DUÉRMETE con la historia COMPLETA de los Asesinos — La secta que aterrorizó al m",
+    "Tras las Huellas del Pasado",
+    "2026-06-06",
+    3090
+   ],
+   [
+    3571,
+    "2026-10-12",
+    "Los Asesinos de Alamut: La Historia Completa (La Orden Que Dominó Oriente Sin un",
+    "Mochi Historia",
+    "2026-09-08",
+    119
+   ]
+  ],
+  "molde_12m_gt50k": 1,
+  "porta": [
+   [
+    210122,
+    "2026-04-25",
+    "Los Hashashin: La Secta Islámica Más Letal De La Edad Media",
+    "Sombras Eternas",
+    "2026-01-22",
+    2240
+   ],
+   [
+    117573,
+    "2026-05-14",
+    "Los Samuráis Eran INVENCIBLES | Hasta Que Despertaron La FURIA De Los NINJAS Los",
+    "Registros de guerra",
+    "2026-04-27",
+    2740
+   ]
+  ],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    210122,
+    "2026-04-25",
+    25,
+    "Los Hashashin: La Secta Islámica Más Letal De La Edad Media",
+    "Sombras Eternas",
+    "gpczm4l32os"
+   ],
+   [
+    117573,
+    "2026-05-14",
+    33,
+    "Los Samuráis Eran INVENCIBLES | Hasta Que Despertaron La FURIA De Los NINJAS Los",
+    "Registros de guerra",
+    "YZkBG3LH2NA"
+   ],
+   [
+    77473,
+    "2026-09-22",
+    131,
+    "DUÉRMETE con la historia COMPLETA de los Asesinos — La secta que aterrorizó al m",
+    "Tras las Huellas del Pasado",
+    "PU2NlroH2e4"
+   ],
+   [
+    69105,
+    "2026-10-09",
+    17,
+    "Explicando Todos los Asesinos Seriales Más Peligrosos en un Video",
+    "Historia Explicada",
+    "r7abl4UEKrU"
+   ],
+   [
+    67237,
+    "2025-12-29",
+    79,
+    "La Orden de ASESINOS que se Convirtió en la PEOR PESADILLA de los Mongoles",
+    "LOS DOCUMENTALES",
+    "HR5my_JlTcc"
+   ],
+   [
+    24148,
+    "2026-10-11",
+    80,
+    "Los ASESINOS: la secta que aterrorizó al mundo",
+    "Tus Noches de Historia",
+    "TiJxwnl8tlY"
+   ],
+   [
+    11864,
+    "2026-11-03",
+    87,
+    "Una Familia de Vaqueros Desafía a Despiadados Asesinos | Western Completo HD",
+    "Oeste Legendario",
+    "u6c2EArfx7k"
+   ],
+   [
+    8241,
+    "2026-08-23",
+    51,
+    "Con un SOLO Cuchillo Pusieron de Rodillas a un Imperio | Los Asesinos de Alamut",
+    "Guerra Brutal",
+    "2ZbZ39cr5-A"
+   ],
+   [
+    7903,
+    "2025-11-15",
+    160,
+    "Hasan Sabbah y los Asesinos | La Orden Secreta de Alamut [audiolibro] Referencia",
+    "alexandria | Audiolibros en Español",
+    "fOWthxGCbz8"
+   ],
+   [
+    4683,
+    "2026-02-23",
+    86,
+    "El Fin de la ORDEN DE ASESINOS: Las Máquinas Mongolas que DESTRUYERON Alamut",
+    "LOS DOCUMENTALES",
+    "BnmT4c1umz8"
+   ]
+  ]
+ },
+ "es:guardiasuiza": {
+  "n": 34,
+  "n12": 14,
+  "med_top10_12m": 373,
+  "med_top10_total": 45003,
+  "top1": [
+   389514,
+   "La Guardia Suiza Pontificia 2018",
+   "Guardia Svizzera Pontificia",
+   "2018-05-28"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 0,
+  "molde": [
+   [
+    18371,
+    "2025-02-13",
+    "La historia del uniforme de la Guardia Suiza Pontificia en 6 minutos",
+    "Dosier Abellán",
+    "2022-06-13",
+    18900
+   ],
+   [
+    1826,
+    "2025-05-03",
+    "💂‍♂️ La GUARDIA SUIZA Del Vaticano El Ejercito Del PAPA En 5 Minutos ⏳ - Histori",
+    "HistoriaEnComic",
+    "2025-05-01",
+    6110
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    4760,
+    "2026-05-07",
+    79,
+    "EN DIRECTO | Juramento de la Guardia Suiza con el Papa León XIV desde el Vatican",
+    "EWTN ESPAÑA",
+    "WFIgK-Qjol0"
+   ],
+   [
+    1033,
+    "2026-10-31",
+    68,
+    "😱 3 MUERTOS EN EL VATICANO: El Oscuro Crimen de la Guardia Suiza que Desató un M",
+    "  La Zona Cero ",
+    "VFPX1a2UZ7k"
+   ],
+   [
+    735,
+    "2025-12-16",
+    6,
+    "“HONOR IN ARMOR”: UN FILM SOBRE LA GUARDIA SUIZA",
+    "EWTN News Español",
+    "HXwUt7iSNt4"
+   ],
+   [
+    463,
+    "2026-04-01",
+    10,
+    "¿Se Ocultó la Verdad? Triple Crimen de la Guardia Suiza",
+    "La Verdad Oculta con Mario Escudero",
+    "MbO6i0Fu7Tc"
+   ],
+   [
+    411,
+    "2025-12-20",
+    60,
+    "147 Héroes del Vaticano: La última resistencia de la Guardia Suiza",
+    "Secretos Históricos",
+    "rS-U6hS6_H8"
+   ],
+   [
+    336,
+    "2025-11-25",
+    72,
+    "La Guardia Suiza Pontificia, los guardaespaldas del Papa - Los Bardos de la Hist",
+    "lechuviza",
+    "dtTS0Vz2Wqw"
+   ],
+   [
+    183,
+    "2026-04-14",
+    17,
+    "【Hasta el Último Hombre】 El heroico y sangriento sacrificio de la Guardia Suiza ",
+    "Imperio y Batallas",
+    "I_6UyQXPN70"
+   ],
+   [
+    119,
+    "2026-10-12",
+    18,
+    "Tu vida en cada rango en el Vaticano (Guardia Suiza)",
+    "Rumi see",
+    "sHfgqAbf9nQ"
+   ],
+   [
+    85,
+    "2026-11-01",
+    6,
+    "Guardia Suiza: apariencia antigua, fuerza real",
+    "RealMente",
+    "ZXt9Y3bcD3A"
+   ],
+   [
+    62,
+    "2026-03-08",
+    9,
+    "La Guardia Suiza: los soldados que murieron para salvar al Papa (1527)",
+    "Historiacruda",
+    "4ExjqSOibPo"
+   ]
+  ]
+ },
+ "es:mafiarusa": {
+  "n": 39,
+  "n12": 24,
+  "med_top10_12m": 87243,
+  "med_top10_total": 382061,
+  "top1": [
+   1211288,
+   "► LA MAFIA RUSA",
+   "Armapedia",
+   "2018-01-26"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 4,
+  "molde": [],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    556838,
+    "2026-01-16",
+    155,
+    "Black Mango #85 - LA MAFIA RUSA | La terrible Bratva | secretos, leyendas y cast",
+    "Black Mango",
+    "8RfixVO5V7o"
+   ],
+   [
+    436505,
+    "2026-06-12",
+    19,
+    "Tu Vida en Cada Nivel de la MAFIA RUSA",
+    "Te lo Pinto",
+    "kGtGYEKwjL8"
+   ],
+   [
+    196547,
+    "2026-01-24",
+    41,
+    "Los terribles Códigos de la Mafia Rusa en el Mundo Real",
+    "Black Mango Shorts",
+    "HIhMdx6O_3c"
+   ],
+   [
+    149402,
+    "2026-01-19",
+    22,
+    "La Mafia Rusa - Así trabaja la mafia más temida del mundo",
+    "Black Mango Shorts",
+    "zoFxZ1bnOeU"
+   ],
+   [
+    88699,
+    "2026-06-25",
+    22,
+    "La mafia rusa mató a su esposa sin saber que era un asesino de élite | En Minuto",
+    "Te Cuento Ahora",
+    "xKhM-ATlmUI"
+   ],
+   [
+    85788,
+    "2026-05-07",
+    44,
+    "Mafia Rusa en Brooklyn: La Desaparición del \"Oso Ruso\" | Creencias Mortales",
+    "Discovery Investigación España",
+    "wuOfEgh71Y0"
+   ],
+   [
+    79881,
+    "2026-02-07",
+    13,
+    "Cómo es estar en cada rango de la Bratva rusa",
+    "ú Eres El Protagonista",
+    "sda-uz_ZSZo"
+   ],
+   [
+    44402,
+    "2026-08-28",
+    41,
+    "MAFIA RUSA: ASÍ LOGRARON DOMINAR EL MUNDO",
+    "CÓDIGO OSCURO",
+    "kQimf8u-hes"
+   ],
+   [
+    13538,
+    "2026-04-30",
+    6,
+    "MAFIA RUSA: la temida y poderosa Bratva I De los gulags al poder global y las so",
+    "CLARÍN",
+    "1OjmnH4zcP8"
+   ],
+   [
+    10152,
+    "2026-05-30",
+    69,
+    "LAS 7 GUERRAS que DESTRUYERON la MAFIA desde DENTRO | Cosa Nostra, Camorra y Maf",
+    "Pioneros y Leyendas",
+    "CH3xfXcYuM4"
+   ]
+  ]
+ },
+ "es:stasi": {
+  "n": 21,
+  "n12": 14,
+  "med_top10_12m": 4662,
+  "med_top10_total": 13899,
+  "top1": [
+   1328659,
+   "La Stasi y el Muro de Berlín | DW Documental",
+   "DW Documental",
+   "2021-08-11"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 0,
+  "molde": [
+   [
+    7444,
+    "2026-11-05",
+    "TODA la Historia de la Stasi en 18 Minutos | La Policía Secreta Más Grande de la",
+    "Atlas del Tiempo",
+    "2023-12-27",
+    1320
+   ],
+   [
+    8,
+    "2026-10-31",
+    "La historia COMPLETA de la Stasi en 13 minutos",
+    "Civilizations & Lost History",
+    "2026-09-22",
+    5
+   ],
+   [
+    3,
+    "2026-11-06",
+    "La Historia COMPLETA de la Stasi en 12 Minutos",
+    "Caja B",
+    "2016-09-02",
+    1
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    81724,
+    "2026-05-05",
+    36,
+    "Raúl Castro y la Stasi: la orden que amplió la vigilancia militar cubana",
+    "Secreta Cuba",
+    "-S-IFZTC_co"
+   ],
+   [
+    59169,
+    "2026-08-23",
+    13,
+    "La HISTORIA REAL de la STASI: el espionaje que destruyó familias en Alemania 🇩🇪",
+    "AndyGM en Berlín",
+    "J8pI3BM3K2Y"
+   ],
+   [
+    12171,
+    "2026-10-31",
+    16,
+    "Caída del Muro de Berlín: el oficial de la STASI que lo abrió",
+    "ArchivoEnemigo",
+    "3ptv1ciS5Kg"
+   ],
+   [
+    7444,
+    "2026-11-05",
+    18,
+    "TODA la Historia de la Stasi en 18 Minutos | La Policía Secreta Más Grande de la",
+    "Atlas del Tiempo",
+    "ufBVdt1y0bA"
+   ],
+   [
+    7332,
+    "2026-09-17",
+    34,
+    "La caída de la Stasi: la policía secreta más temida de Alemania Oriental",
+    "Caídos del Poder",
+    "wMI2OlTIfVc"
+   ],
+   [
+    1992,
+    "2026-02-25",
+    28,
+    "LA STASI: EL ESTADO QUE TODO LO VEÍA | LA HISTORIA SIN FIN (25 DE FEBRERO DE 202",
+    "La Metro TV",
+    "1hTpPfdyBAQ"
+   ],
+   [
+    1554,
+    "2025-12-13",
+    14,
+    "Me INFILTRÉ en la CÁRCEL más PERTURBADORA de la \"CIA\" en la ALEMANIA COMUNISTA",
+    "Universo Mariano",
+    "Tw_g6WFv33s"
+   ],
+   [
+    1502,
+    "2025-12-07",
+    43,
+    "La historia oculta de los cubanos en Alemania: bebés perdidos, Stasi y exilio",
+    "El Show con Tony Benítez",
+    "utrWy1aHM0g"
+   ],
+   [
+    243,
+    "2026-10-26",
+    11,
+    "La Stasi: la policía secreta que espió a todo un país",
+    "Mr San",
+    "mRZBUj3cLEA"
+   ],
+   [
+    156,
+    "2026-04-11",
+    35,
+    "La Stasi: La Policía Secreta de Alemania del Este que Espiaba a su Propio Pueblo",
+    "KarmaBird",
+    "wXD-3e1xfjY"
+   ]
+  ]
+ },
+ "es:gestapo": {
+  "n": 27,
+  "n12": 16,
+  "med_top10_12m": 103143,
+  "med_top10_total": 155030,
+  "top1": [
+   528787,
+   "La Gestapo [2/3]",
+   "pococteam",
+   "2013-08-08"
+  ],
+  "rec_gt100k": 3,
+  "rec": [
+   [
+    134162,
+    "2026-09-27",
+    "Peor que los nazis: La espía que entregó a sus amigos a la Gestapo",
+    "World History ES"
+   ],
+   [
+    120387,
+    "2026-11-04",
+    "La HISTORIA COMPLETA del Gestapo en Minutos",
+    "Te lo Pinto"
+   ],
+   [
+    105875,
+    "2026-09-14",
+    "¿Cómo Funcionaba REALMENTE la Gestapo? | La ORDEN NEGRA de Heydrich",
+    "Der Kommandant Español"
+   ]
+  ],
+  "ano_gt100k": 6,
+  "molde": [
+   [
+    120387,
+    "2026-11-04",
+    "La HISTORIA COMPLETA del Gestapo en Minutos",
+    "Te lo Pinto",
+    "2024-04-06",
+    599000
+   ],
+   [
+    20711,
+    "2026-05-19",
+    "TODA la Historia de la GESTAPO desde la Perspectiva ALEMANA | 1933-1945",
+    "Der Kommandant Español",
+    "2023-04-27",
+    259000
+   ],
+   [
+    534,
+    "2026-10-31",
+    "La HISTORIA Completa de la GESTAPO en 15 minutos",
+    "Pestaña de Crónicas",
+    "2017-12-01",
+    11
+   ],
+   [
+    3,
+    "2026-11-08",
+    "La Historia COMPLETA de la Gestapo en 11 Minutos",
+    "CEOculto",
+    "2026-11-04",
+    1
+   ]
+  ],
+  "molde_12m_gt50k": 1,
+  "porta": [
+   [
+    132160,
+    "2026-03-14",
+    "La llamaban “La Ratona Blanca” — 32 agentes de la Gestapo la cazaron, ninguno so",
+    "Archivos WW2",
+    "2025-12-17",
+    12800
+   ]
+  ],
+  "canais_top10_12m": 7,
+  "top10_12m": [
+   [
+    175898,
+    "2025-12-21",
+    69,
+    "Gestapo: El Imperio del Terror | Documental Histórico a PURO COLOR",
+    "Der Panzer Español",
+    "88vcNlzCMx4"
+   ],
+   [
+    134162,
+    "2026-09-27",
+    16,
+    "Peor que los nazis: La espía que entregó a sus amigos a la Gestapo",
+    "World History ES",
+    "Lo3yULuRqrU"
+   ],
+   [
+    132160,
+    "2026-03-14",
+    41,
+    "La llamaban “La Ratona Blanca” — 32 agentes de la Gestapo la cazaron, ninguno so",
+    "Archivos WW2",
+    "XwuKtOyXS6w"
+   ],
+   [
+    120387,
+    "2026-11-04",
+    43,
+    "La HISTORIA COMPLETA del Gestapo en Minutos",
+    "Te lo Pinto",
+    "oWkkPoYFC5o"
+   ],
+   [
+    105875,
+    "2026-09-14",
+    77,
+    "¿Cómo Funcionaba REALMENTE la Gestapo? | La ORDEN NEGRA de Heydrich",
+    "Der Kommandant Español",
+    "Sv6pY_3biuM"
+   ],
+   [
+    100412,
+    "2026-02-26",
+    13,
+    "Ejecución del Agente de la Gestapo Nazi y Su Esposa: Grandclément",
+    "World History ES",
+    "Bkc4pdaJjJ8"
+   ],
+   [
+    56132,
+    "2026-02-18",
+    66,
+    "Gestapo: El Terror Nazi En Su Estado Más PURO | Documental Histórico a COLOR",
+    "Der Panzer Español",
+    "jh8H6ZaVk14"
+   ],
+   [
+    36037,
+    "2026-08-05",
+    11,
+    "Caterina: la radio de contrabando que la Gestapo nunca encontró",
+    "Teoría del Ánodo",
+    "SjOAg4OCPOc"
+   ],
+   [
+    28945,
+    "2026-06-25",
+    14,
+    "Cuando 10 agentes de la Gestapo finalmente pagaron: 1947",
+    "World History ES",
+    "fzcpqlZHmkI"
+   ],
+   [
+    28408,
+    "2025-11-21",
+    76,
+    "Dentro del Imperio de la Gestapo | Documental a PURO COLOR",
+    "The Soldier's Diary ES",
+    "Uq0LaxoCPEE"
+   ]
+  ]
+ },
+ "es:ss": {
+  "n": 11,
+  "n12": 7,
+  "med_top10_12m": 243210,
+  "med_top10_total": 273361,
+  "top1": [
+   1908017,
+   "¿Banalidad del Mal? Lo Que Pensaban los SS Durante el Holocausto | SLICE HISTORIA | DOC COMPLETO",
+   "SLICE Historia",
+   "2025-07-26"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    748076,
+    "2026-10-17",
+    "MEGA EPISODIO: Dentro de las SS, los hombres de Hitler cuentan su historia | SLI",
+    "SLICE Historia"
+   ]
+  ],
+  "ano_gt100k": 5,
+  "molde": [
+   [
+    96,
+    "2026-11-08",
+    "La historia COMPLETA de las SS en 21 minutos",
+    "Luigi",
+    "2026-10-19",
+    1
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 5,
+  "top10_12m": [
+   [
+    748076,
+    "2026-10-17",
+    84,
+    "MEGA EPISODIO: Dentro de las SS, los hombres de Hitler cuentan su historia | SLI",
+    "SLICE Historia",
+    "mO-vJm51VPE"
+   ],
+   [
+    547318,
+    "2025-12-01",
+    69,
+    "Cómo los Prisioneros Ejecutaron a los Guardias Nazis de las SS tras la Liberació",
+    "The Soldier's Diary ES",
+    "yM987wKO8xg"
+   ],
+   [
+    303513,
+    "2026-05-23",
+    18,
+    "¿Qué se SENTÍA ser un SOLDADO de las SS nazi en la 2° Guerra Mundial?",
+    "Historia Militar",
+    "EdrwT1QTSbM"
+   ],
+   [
+    243210,
+    "2026-03-04",
+    93,
+    "Ernst Kaltenbrunner | Así Era El Nazi Más Brutal De Las SS",
+    "Der Kommandant Español",
+    "duZSvTTTMCQ"
+   ],
+   [
+    194537,
+    "2026-05-29",
+    75,
+    "El Nazi al que Adolf Hitler y las SS Temían | Obergruppenführer SS",
+    "Der Kommandant Español",
+    "XCputXa18SY"
+   ],
+   [
+    11791,
+    "2026-07-09",
+    78,
+    "¿Qué se SENTÍA ser un SOLDADO de las SS nazi en la 2° Guerra Mundial? | Dentro d",
+    "Der Kommandant Español",
+    "KBLJeNUnWfY"
+   ],
+   [
+    96,
+    "2026-11-08",
+    22,
+    "La historia COMPLETA de las SS en 21 minutos",
+    "Luigi",
+    "GzQ7gYfWSwM"
+   ]
+  ]
+ },
+ "es:kkk": {
+  "n": 22,
+  "n12": 10,
+  "med_top10_12m": 150122,
+  "med_top10_total": 319566,
+  "top1": [
+   2705610,
+   "The Wild Project #358 - Antonio Pampliega | Infiltrado en el Ku Klux Klan, Secuestrado por Al Qaeda",
+   "The Wild Project",
+   "2026-01-22"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 7,
+  "molde": [
+   [
+    2257529,
+    "2025-01-06",
+    "LA HISTORIA DEL KU KLUX KLAN EN 8 MINUTOS CORTO Y FÁCIL",
+    "Haroo",
+    "2013-03-09",
+    2510000
+   ],
+   [
+    180367,
+    "2026-04-29",
+    "La Historia completa del Ku Klux Klan en 14 minutos - Reacción a Haroo 🤓",
+    "Miguelillo_RL",
+    "2015-12-27",
+    1500000
+   ]
+  ],
+  "molde_12m_gt50k": 1,
+  "porta": [
+   [
+    306248,
+    "2026-03-13",
+    "El Crimen que Expuso al Ku Klux Klan | Los Archivos del FBI",
+    "El Rastro Criminal - Documentales en español",
+    "2025-12-26",
+    30000
+   ]
+  ],
+  "canais_top10_12m": 8,
+  "top10_12m": [
+   [
+    2705610,
+    "2026-01-22",
+    194,
+    "The Wild Project #358 - Antonio Pampliega | Infiltrado en el Ku Klux Klan, Secue",
+    "The Wild Project",
+    "9OcuBZ1a6ps"
+   ],
+   [
+    1792649,
+    "2026-01-23",
+    16,
+    "Este periodista entró en el KU KLUX KLAN para investigarlos: esto fue lo más per",
+    "The Wild Project",
+    "zdF7pPp6DRI"
+   ],
+   [
+    321783,
+    "2026-06-17",
+    120,
+    "DUÉRMETE CON LA VERDADERA HISTORIA DEL KU KLUX KLAN QUE NADIE CONOCE",
+    "Detrás De La Historia",
+    "xSmP0g7LaH8"
+   ],
+   [
+    306248,
+    "2026-03-13",
+    52,
+    "El Crimen que Expuso al Ku Klux Klan | Los Archivos del FBI",
+    "El Rastro Criminal - Documentales en español",
+    "zdQjr12KzSo"
+   ],
+   [
+    180367,
+    "2026-04-29",
+    15,
+    "La Historia completa del Ku Klux Klan en 14 minutos - Reacción a Haroo 🤓",
+    "Miguelillo_RL",
+    "JUyupqWnHLc"
+   ],
+   [
+    119878,
+    "2026-01-01",
+    98,
+    "EL KU KLUX KLAN: LA HISTORIA REAL DEL TERROR ORGANIZADO",
+    "Detrás De La Historia",
+    "91awzMMeJ-4"
+   ],
+   [
+    109945,
+    "2025-12-10",
+    21,
+    "¿Qué Les Sucede a los Miembros del KKK en la Prisión?",
+    "Crime Lab ESP",
+    "fkKhvQegqZI"
+   ],
+   [
+    81774,
+    "2026-09-17",
+    17,
+    "Cuando El KKK Retó A Un Equipo Negro De Beisbol (1925)",
+    "Alan Flores",
+    "MvV8DLlmp7E"
+   ],
+   [
+    32775,
+    "2026-08-03",
+    18,
+    "El Ku Klux Klan y otros casos (solo audio)| Relatos del lado oscuro",
+    "Relatos del Lado Oscuro",
+    "Wh5yup2Jw1Y"
+   ],
+   [
+    20225,
+    "2026-05-25",
+    22,
+    "Infiltrado en el Ku Klux Klan: \"Había niños de 5 años mamando ese odio\"",
+    "Uri Sabat",
+    "FhLtnFs8zS4"
+   ]
+  ]
+ },
+ "es:eta": {
+  "n": 46,
+  "n12": 24,
+  "med_top10_12m": 140218,
+  "med_top10_total": 291968,
+  "top1": [
+   2244415,
+   "El fin de ETA | Documental",
+   "EL PAÍS",
+   "2021-10-17"
+  ],
+  "rec_gt100k": 3,
+  "rec": [
+   [
+    170529,
+    "2026-10-14",
+    "💣La ETA: HISTORIA del TERRORISMO SEPARATISTA en ESPAÑA",
+    "La Nueva Enciclopedia"
+   ],
+   [
+    155344,
+    "2026-10-11",
+    "Documental \"CASA Y CUARTEL, ETA CONTRA LA BENEMÉRITA\"",
+    "Fundación Miguel Ángel Blanco"
+   ],
+   [
+    102458,
+    "2026-10-18",
+    "ETA le Cambió la Vida con 10 Años: El Niño de la Bomba y el Silencio de una Soci",
+    "El Director - David Jiménez "
+   ]
+  ],
+  "ano_gt100k": 9,
+  "molde": [
+   [
+    645367,
+    "2018-05-21",
+    "LA HISTORIA DE ETA EN 8 MINUTOS",
+    "Memorias de Pez",
+    "2017-03-01",
+    2970000
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    249762,
+    "2026-08-08",
+    "Bidart 1992: La caída de la cúpula de ETA | Operación Broma Queso [Documental]",
+    "Orbis Imperii",
+    "2025-12-19",
+    464
+   ]
+  ],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    282710,
+    "2026-06-21",
+    81,
+    "POLICÍA ANTINARC0TRÁFICO (Policías Corruptos, ETA, 33 años de Servicio)",
+    "MOWLIHAWK",
+    "3DsWk2rcwi4"
+   ],
+   [
+    249762,
+    "2026-08-08",
+    9,
+    "Bidart 1992: La caída de la cúpula de ETA | Operación Broma Queso [Documental]",
+    "Orbis Imperii",
+    "TVOfb8PT0gY"
+   ],
+   [
+    198442,
+    "2026-05-07",
+    8,
+    "La FUGA de CÁRCEL más famosa de ETA - 1976",
+    "A toda leche",
+    "J2oV3qbQuAM"
+   ],
+   [
+    170529,
+    "2026-10-14",
+    27,
+    "💣La ETA: HISTORIA del TERRORISMO SEPARATISTA en ESPAÑA",
+    "La Nueva Enciclopedia",
+    "bTa9APIlgQs"
+   ],
+   [
+    155344,
+    "2026-10-11",
+    63,
+    "Documental \"CASA Y CUARTEL, ETA CONTRA LA BENEMÉRITA\"",
+    "Fundación Miguel Ángel Blanco",
+    "ZhKOlpONeOo"
+   ],
+   [
+    125093,
+    "2026-02-12",
+    29,
+    "El Ascenso y Caída de ETA | La Organización Terrorista de España",
+    "ChronIQ",
+    "NFA_egZWX-Y"
+   ],
+   [
+    117537,
+    "2026-04-07",
+    129,
+    "De ETA a los GAL: la Historia Prohibida",
+    "El Canal del Coronel",
+    "aPvqH5z33cQ"
+   ],
+   [
+    107351,
+    "2026-05-12",
+    54,
+    "¿Cómo Surgió Realmente ETA y Quiénes la Fundaron? | Documental Doblado al Españo",
+    "DocuMundo",
+    "3tzP5Ce7r8Y"
+   ],
+   [
+    102458,
+    "2026-10-18",
+    92,
+    "ETA le Cambió la Vida con 10 Años: El Niño de la Bomba y el Silencio de una Soci",
+    "El Director - David Jiménez ",
+    "ghs0on4M0Hs"
+   ],
+   [
+    96505,
+    "2025-12-28",
+    63,
+    "SOTO IVARS: Para que ETA NO GANE EL RELATO hay que ESCUCHAR A tipazos como IÑAKI",
+    "Juan Soto Ivars",
+    "A2ubxHFBH9A"
+   ]
+  ]
+ },
+ "es:hospitalarios": {
+  "n": 38,
+  "n12": 18,
+  "med_top10_12m": 1071,
+  "med_top10_total": 40223,
+  "top1": [
+   523512,
+   "Orden de Malta, el país sin territorio",
+   "Un Mundo Inmenso",
+   "2023-04-18"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 0,
+  "molde": [
+   [
+    11711,
+    "2025-10-25",
+    "DUERME ESCUCHANDO LA HISTORIA COMPLETA DE LOS CABALLEROS HOSPITALARIOS | DOCUMEN",
+    "Pergaminos Olvidados",
+    "2025-05-19",
+    48100
+   ],
+   [
+    8271,
+    "2026-04-26",
+    "Cada Órden Militar Católica Explicada en 9 Minutos — De los Templarios a los Hos",
+    "Entiende La Fe",
+    "2026-03-29",
+    31000
+   ],
+   [
+    169,
+    "2026-01-21",
+    "DUERME ESCUCHANDO LA HISTORIA COMPLETA DE LOS CABALLEROS HOSPITALARIOS | DOCUMEN",
+    "Pergaminos Olvidados de la Historia",
+    "2024-11-15",
+    1080
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    23168,
+    "2026-01-07",
+    11,
+    "La Historia de la Orden de Malta - La Primera Cruzada",
+    "La Verdad Oculta con Mario Escudero",
+    "mmhAyJFoubM"
+   ],
+   [
+    13451,
+    "2025-11-23",
+    17,
+    "Cuando los caballeros hospitalarios, Toscana, Brandemburgo y otros colonizaron A",
+    "Ultra Argentina",
+    "NWPByfh5EHY"
+   ],
+   [
+    8271,
+    "2026-04-26",
+    9,
+    "Cada Órden Militar Católica Explicada en 9 Minutos — De los Templarios a los Hos",
+    "Entiende La Fe",
+    "sVXfDD1_2Fo"
+   ],
+   [
+    4239,
+    "2026-07-26",
+    6,
+    "La Orden de Malta | Caballeros Hospitalarios",
+    "Verdad Sintética - Topic",
+    "4uewCUW_530"
+   ],
+   [
+    1169,
+    "2026-05-17",
+    23,
+    "Los Caballeros Hospitalarios: 900 Años De Guerra Santa Y La Orden Que Nunca Muri",
+    "Sombras Eternas",
+    "1qfLQnbPNnc"
+   ],
+   [
+    973,
+    "2026-10-28",
+    71,
+    "#175 - CQ WW SSB 2026 y DXCC Orden de Malta",
+    "CQ en Frecuencia - Radioaficionados",
+    "6A0K0aBXLAU"
+   ],
+   [
+    946,
+    "2026-04-05",
+    55,
+    "Espacio en Blanco - Fantasmas, Tragedias y la Orden de Malta (Zamora P1) (04/04/",
+    "Misterio y Conspiración",
+    "aK5ARNp1hKQ"
+   ],
+   [
+    839,
+    "2026-08-20",
+    65,
+    "Los Hospitalarios Quién Heredó las Fortalezas del Temple",
+    "Crónicas del Templo",
+    "YLH9U8ixCMk"
+   ],
+   [
+    745,
+    "2026-07-14",
+    110,
+    "Así Funciona la Orden de Malta Por Dentro: Los Votos Secretos Que Nadie Te Expli",
+    "Órdenes Secretas",
+    "W7Xta3IO5n0"
+   ],
+   [
+    665,
+    "2026-06-04",
+    71,
+    "CABALLEROS HOSPITALARIOS: La Orden Secreta que Salvó Europa y Sigue Existiendo H",
+    "Crónicas de Acero",
+    "PuZIPGJ-VM4"
+   ]
+  ]
+ },
+ "es:navyseals": {
+  "n": 58,
+  "n12": 30,
+  "med_top10_12m": 376644,
+  "med_top10_total": 1329022,
+  "top1": [
+   5162514,
+   "Todas las Fuerzas Especiales de EEUU Explicadas",
+   "Te lo Pinto",
+   "2026-02-27"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    1776255,
+    "2026-09-14",
+    "🥾🔥 ¿POR QUÉ LAS FUERZAS ESPECIALES AMAN LOS ZAPATOS SALOMON?",
+    "Señor Guerra"
+   ]
+  ],
+  "ano_gt100k": 9,
+  "molde": [
+   [
+    38118,
+    "2026-08-30",
+    "Todas las Fuerzas Especiales de Estados Unidos Explicadas en 11 Minutos",
+    "Historia Explicada",
+    "2025-05-06",
+    34900
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    301706,
+    "2026-01-09",
+    "Enviaron a 40 “criminales” contra 30.000 japoneses — lo que pasó creó a los Navy",
+    "Archivos WW2",
+    "2025-12-17",
+    12800
+   ]
+  ],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    5162514,
+    "2026-02-27",
+    19,
+    "Todas las Fuerzas Especiales de EEUU Explicadas",
+    "Te lo Pinto",
+    "GerlkKMdGP8"
+   ],
+   [
+    1776255,
+    "2026-09-14",
+    6,
+    "🥾🔥 ¿POR QUÉ LAS FUERZAS ESPECIALES AMAN LOS ZAPATOS SALOMON?",
+    "Señor Guerra",
+    "VJzxnXgoyH8"
+   ],
+   [
+    1523539,
+    "2026-03-22",
+    19,
+    "Tu Vida en Cada Nivel de los NAVY SEAL",
+    "Te lo Pinto",
+    "n89_M5gKGHg"
+   ],
+   [
+    735045,
+    "2026-01-10",
+    9,
+    "Así Capturaron a Nicolás Maduro: 200 Fuerzas Especiales de EEUU y la Operación A",
+    "Táctica Militar",
+    "RkvX-5bS3j4"
+   ],
+   [
+    417590,
+    "2026-03-16",
+    14,
+    "🔵☠️ El RESCATE de JESSICA BUCHANAN de PIRATAS SOMALÍES por DEVGRU (Navy SEALs) ⚠",
+    "Armapedia",
+    "NXkjIRKwCKc"
+   ],
+   [
+    335699,
+    "2025-12-23",
+    12,
+    "¿Podrían 30 Navy Seals Eliminar a Pablo Escobar?",
+    "CurioVersus",
+    "wzfmhxU3a2w"
+   ],
+   [
+    301706,
+    "2026-01-09",
+    35,
+    "Enviaron a 40 “criminales” contra 30.000 japoneses — lo que pasó creó a los Navy",
+    "Archivos WW2",
+    "kBfF0Aqwb90"
+   ],
+   [
+    279021,
+    "2025-12-13",
+    21,
+    "Tu CEREBRO Te ESTAFA: La Regla del 40% que Usan los NAVY SEALS | ESTOICISMO",
+    "El Aprendiz Estoico",
+    "slcHedH6Fqo"
+   ],
+   [
+    216645,
+    "2026-03-05",
+    18,
+    "POV: Eres el mejor francotirador de los Navy SEAL",
+    "El Perezoso Explica",
+    "_9BiWDoq52M"
+   ],
+   [
+    93086,
+    "2026-06-18",
+    22,
+    "Las 8 Fuerzas Especiales Más Letales de la Historia",
+    "Level 8",
+    "2IdT51AqP2U"
+   ]
+  ]
+ },
+ "es:pinkerton": {
+  "n": 14,
+  "n12": 9,
+  "med_top10_12m": 372,
+  "med_top10_total": 1649,
+  "top1": [
+   28485,
+   "E330: La Agencia de Detectives Pinkerton (Parte 1)",
+   "El Dollop",
+   "2025-11-03"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 0,
+  "molde": [],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 8,
+  "top10_12m": [
+   [
+    17787,
+    "2025-11-10",
+    54,
+    "E331: La Agencia de Detectives Pinkerton (Parte 2)",
+    "El Dollop",
+    "aFkYFuDs0MU"
+   ],
+   [
+    3445,
+    "2026-08-17",
+    10,
+    "¿Los Pinkerton fueron PEOR en la realidad que en RDR2?",
+    "sunchocornio",
+    "GaiU4NR6drU"
+   ],
+   [
+    2460,
+    "2026-01-02",
+    26,
+    "Los Pinkerton: las Fuerzas Paraestatales del Capital",
+    "Red Planeta",
+    "whi0d0iJsnw"
+   ],
+   [
+    417,
+    "2026-07-08",
+    53,
+    "Los Pinkerton | La Primera Agencia de Detectives de la Historia",
+    "Momentos Históricos ",
+    "UhV71vvkqOU"
+   ],
+   [
+    372,
+    "2026-01-17",
+    37,
+    "Pinkerton: Los Detectives Más Letales del Oeste",
+    "El Lejano Oeste",
+    "mZhPnaBnuuY"
+   ],
+   [
+    66,
+    "2026-01-04",
+    34,
+    "No Toques a Mi Caballo: La Mujer Más Letal de Pinkerton Durante 15 Años",
+    "Fronteras de Sombra del Oeste",
+    "v5-bJVpLdhM"
+   ],
+   [
+    54,
+    "2026-07-08",
+    21,
+    "Charles Siringo: El Detective Vaquero de Pinkerton",
+    "Historias de detectives de verdad",
+    "dsV8uRWgraM"
+   ],
+   [
+    41,
+    "2026-07-03",
+    12,
+    "V595   La historia de la Agencia Pinkerton: Espías, Trenes y Pistoleros:",
+    "Victoria Qui Audet Vincit",
+    "c42MdD6XFPA"
+   ],
+   [
+    40,
+    "2026-06-11",
+    22,
+    "Allan Pinkerton: el origen del detective moderno en América",
+    "Historias de detectives de verdad",
+    "MqufG3n6Xw4"
+   ]
+  ]
+ },
+ "es:camorra": {
+  "n": 25,
+  "n12": 16,
+  "med_top10_12m": 7987,
+  "med_top10_total": 64668,
+  "top1": [
+   370449,
+   "Nicola Gratteri: el hombre al que quiere matar la ‘Ndrangheta, la mafia más poderosa de Italia",
+   "BBC News Mundo",
+   "2023-02-04"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 0,
+  "molde": [
+   [
+    331,
+    "2026-07-29",
+    "La Historia Completa de la Camorra en 18 Minutos",
+    "Señor Mafia",
+    "2026-07-21",
+    1360
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 6,
+  "top10_12m": [
+   [
+    74304,
+    "2025-12-19",
+    98,
+    "La Historia REAL de la MAFIA Italiana: COSA NOSTRA, ’NDRANGHETA y CAMORRA",
+    "Cruzada Hostil",
+    "mfRFUwHoqX0"
+   ],
+   [
+    71633,
+    "2026-10-02",
+    63,
+    "Los 10 CAPOS de la CAMORRA y sus FINALES: La Historia REAL detrás de GOMORRA",
+    "Pioneros y Leyendas",
+    "WbrXnD_eO20"
+   ],
+   [
+    14319,
+    "2026-10-14",
+    70,
+    "10 CAPOS DE LA CAMORRA Y SU BRUTAL FINAL: LA VERDADERA GOMORRA",
+    "CÓDIGO OSCURO",
+    "OAy9uDrcpDo"
+   ],
+   [
+    11941,
+    "2026-07-14",
+    6,
+    "Nápoles: del dominio de la Camorra al renacer turístico • FRANCE 24 Español",
+    "FRANCE 24 Español",
+    "j0t0-ieJ1WM"
+   ],
+   [
+    10152,
+    "2026-05-30",
+    69,
+    "LAS 7 GUERRAS que DESTRUYERON la MAFIA desde DENTRO | Cosa Nostra, Camorra y Maf",
+    "Pioneros y Leyendas",
+    "CH3xfXcYuM4"
+   ],
+   [
+    5822,
+    "2026-08-07",
+    93,
+    "Cómo TERMINÓ Cada CAPO de la NDRANGHETA, La Mafia Que Nadie Pudo Destruir",
+    "Pioneros y Leyendas",
+    "xEMNjmINvBE"
+   ],
+   [
+    5199,
+    "2026-06-16",
+    53,
+    "LA 'NDRANGHETA: La MAFIA invisible que controla la COCAÍNA de EUROPA",
+    "Pioneros y Leyendas",
+    "AwHjuvWGc0k"
+   ],
+   [
+    4968,
+    "2026-03-05",
+    14,
+    "Maradona y la Camorra: La oscura verdad que nadie te contó",
+    "Investigación Criminal",
+    "oFI9E-mSuGY"
+   ],
+   [
+    1143,
+    "2025-11-20",
+    61,
+    "LA CAMORRA: 200 años de sangre, poder y silencio, desde sus orígenes hasta la er",
+    "Pioneros y Leyendas",
+    "fxcwz4zF0JU"
+   ],
+   [
+    331,
+    "2026-07-29",
+    18,
+    "La Historia Completa de la Camorra en 18 Minutos",
+    "Señor Mafia",
+    "oTa2Gj-_nWk"
+   ]
+  ]
+ },
+ "es:triadas": {
+  "n": 27,
+  "n12": 16,
+  "med_top10_12m": 3932,
+  "med_top10_total": 35142,
+  "top1": [
+   1867739,
+   "LAS TRIADAS",
+   "TWINTURBO",
+   "2021-01-01"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 1,
+  "molde": [],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    404398,
+    "2026-06-23",
+    143,
+    "Black Mango #101 - LA MAFIA CHINA | Las Tríadas: la sociedad criminal más secret",
+    "Black Mango",
+    "Gu3yrzBzA30"
+   ],
+   [
+    34094,
+    "2026-09-02",
+    94,
+    "TRÍADAS: LA MAFIA CHINA QUE OPERA DESDE LAS SOMBRAS",
+    "CÓDIGO OSCURO",
+    "JECsDCojdo0"
+   ],
+   [
+    22724,
+    "2026-08-28",
+    13,
+    "MAFIA vs TRÍADAS: ¿Quién tiene el Código más BRUTAL?",
+    "CODIGO INFILTRADO HD",
+    "uAHAWl7FhG0"
+   ],
+   [
+    7333,
+    "2026-10-28",
+    24,
+    "El Origen de las Tríadas: ¿La Mafia China Nació de los Monjes Shaolin?",
+    "Rastros de la Humanidad",
+    "dny6ypfzHAQ"
+   ],
+   [
+    4146,
+    "2026-06-10",
+    11,
+    "Yakuza vs Tríadas: ¿Cuál es la Mafia Más Violenta del Mundo?",
+    "Curiosidad Pintada",
+    "e9PW9ABXoDw"
+   ],
+   [
+    3719,
+    "2026-06-30",
+    18,
+    "Tu Vida en Cada Rango de la Mafia China (Las Tríadas)",
+    "Recien Pintado",
+    "Co0cje8tNGc"
+   ],
+   [
+    632,
+    "2026-02-20",
+    15,
+    "Tu vida como cada rango de la triada china",
+    "DENTRO DEL SISTEMA",
+    "ktlUkZ1udrA"
+   ],
+   [
+    256,
+    "2026-03-11",
+    9,
+    "Tríadas: Hong Kong en los años 90",
+    "Criminología En Serie",
+    "6BNxxPjk3Q0"
+   ],
+   [
+    37,
+    "2026-10-08",
+    28,
+    "Las Tríadas: De la Ciudad Amurallada a una Red Global",
+    "Historias Prohibidas",
+    "Uwu9hw_5CGc"
+   ],
+   [
+    26,
+    "2026-07-28",
+    8,
+    "Tu vida en cada rango de la Triada china",
+    "AMERICAN URB-BULLS",
+    "PtE8jDjvh_4"
+   ]
+  ]
+ },
+ "es:dina": {
+  "n": 21,
+  "n12": 9,
+  "med_top10_12m": 260,
+  "med_top10_total": 76207,
+  "top1": [
+   2599807,
+   "Ex agente de la Dina relata los horrores y el exterminio en el cuartel Simón Bolivar",
+   "CNN Chile",
+   "2012-07-11"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 0,
+  "molde": [
+   [
+    115,
+    "2026-10-31",
+    "La DINA: La Historia Completa | De Londres 38 Al Coche Bomba De Washington",
+    "Chile Completa",
+    "2026-10-19",
+    12
+   ],
+   [
+    0,
+    "2026-11-08",
+    "La Historia COMPLETA de la DINA de Pinochet",
+    "Mapa del Ayer",
+    "2025-09-17",
+    0
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    14806,
+    "2026-01-10",
+    29,
+    "Rodrigo Cid autor del libro el horror enmascarado sobre la DINA",
+    "Hitos De La Historia",
+    "x-5r8JJqsHQ"
+   ],
+   [
+    12334,
+    "2026-09-22",
+    15,
+    "Caso Letelier: el juicio que condenó a los jefes de la DINA | 24 Horas TVN Chile",
+    "24 Horas - TVN Chile",
+    "YaeSq3cpaiM"
+   ],
+   [
+    11857,
+    "2026-09-08",
+    20,
+    "¿Quién MATÓ a Eugenio Berríos? Nicolás Vidal REVELA las redes de la DINA en demo",
+    "Turno",
+    "O89YZWfm8Y0"
+   ],
+   [
+    1415,
+    "2026-11-04",
+    27,
+    "\"Cocaína Negra\": se estrena documental sobre exquímico de la DINA Eugenio Berrío",
+    "ADN Chile",
+    "qKnxgwRseyc"
+   ],
+   [
+    260,
+    "2026-08-05",
+    10,
+    "EL QUÍMICO DE LA DINA: EUGENIO BERRÍOS",
+    "domi munita",
+    "BuHqBksvzIY"
+   ],
+   [
+    115,
+    "2026-10-31",
+    40,
+    "La DINA: La Historia Completa | De Londres 38 Al Coche Bomba De Washington",
+    "Chile Completa",
+    "kyemlfOdUg8"
+   ],
+   [
+    61,
+    "2026-03-23",
+    4,
+    "La DINA en República 550: Relato de Walter Saldías",
+    "Cristian Amaya Aninat",
+    "6vmFXKfWVQw"
+   ],
+   [
+    29,
+    "2026-10-21",
+    35,
+    "UNA BOMBA EN EL CORAZÓN DE WASHINGTON: ASÍ MATÓ LA DINA DE PINOCHET A ORLANDO LE",
+    "Ah Tun",
+    "VGoxdZSLXPU"
+   ],
+   [
+    0,
+    "2026-11-08",
+    20,
+    "La Historia COMPLETA de la DINA de Pinochet",
+    "Mapa del Ayer",
+    "Bfm4ofAreW4"
+   ]
+  ]
+ },
+ "es:spetsnaz": {
+  "n": 42,
+  "n12": 30,
+  "med_top10_12m": 8450,
+  "med_top10_total": 123233,
+  "top1": [
+   3851612,
+   "¿Cómo es la Vida de un Spetsnaz? (Fuerzas Especiales Rusas)",
+   "La Armería",
+   "2019-08-11"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 2,
+  "molde": [
+   [
+    0,
+    "2026-11-04",
+    "La historia completa de la NKVD en 16 minutos: planes de terror",
+    "Archivo de Historias",
+    "2026-10-30",
+    0
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 8,
+  "top10_12m": [
+   [
+    188163,
+    "2025-11-13",
+    8,
+    "🇷🇺💀 ¿Quiénes —o qué— son REALMENTE los “SPETSNAZ”? La Verdad detrás del Mito",
+    "Señor Guerra",
+    "0LU1wqDo1x8"
+   ],
+   [
+    181420,
+    "2026-05-16",
+    22,
+    "Las 7 Misiones más Peligrosas de los Spetsnaz de Rusia",
+    "La Armería",
+    "RDx8r8_LBNE"
+   ],
+   [
+    22635,
+    "2026-09-05",
+    8,
+    "⚔️ El Arma Letal de los SPETSNAZ, La PSS VUL...",
+    "Bitácora BélicaEs",
+    "gLhjQmbD6ls"
+   ],
+   [
+    10179,
+    "2026-09-24",
+    52,
+    "Por qué Stalin mantuvo vivo a Beria cuando fusiló a los otros jefes del NKVD",
+    "ARCHIVOS OCULTOS DE LA URSS",
+    "pTOcwjHTIy8"
+   ],
+   [
+    9779,
+    "2026-02-11",
+    31,
+    "El Jefe de la NKVD que Sabía Demasiado: Lavrenti Beria",
+    "Caídos del Poder",
+    "2tvAjBI63aA"
+   ],
+   [
+    7122,
+    "2026-10-28",
+    24,
+    "LA PRISIÓN SECRETA DEL NKVD DONDE BERIA CASTIGÓ A LA ESPOSA DE MÓLOTOV",
+    "La Cara Oculta de Moscú",
+    "83Rdfxc1zgw"
+   ],
+   [
+    7119,
+    "2026-10-04",
+    49,
+    "Cómo la Checa se convirtió en el NKVD: la policía secreta que construyó el imper",
+    "ARCHIVOS OCULTOS DE LA URSS",
+    "xLHX6TFi9ro"
+   ],
+   [
+    5235,
+    "2026-05-23",
+    86,
+    "LAS ÚLTIMAS HORAS DE YEZHOV…Cómo quebraron y humillaron al jefe de la NKVD antes",
+    "Crónicas soviéticas",
+    "yuWk10M0p20"
+   ],
+   [
+    4775,
+    "2026-03-22",
+    28,
+    "El héroe soviético que ni la NKVD pudo destruir: Vasili Blücher",
+    "Caídos del Poder",
+    "tsqCz4-1kXo"
+   ],
+   [
+    3935,
+    "2026-10-23",
+    64,
+    "Sobrevivió al NKVD. Y Stalin le pidió perdón…",
+    "osototeo",
+    "e499ZMu3o-8"
+   ]
+  ]
+ },
+ "es:vaticano": {
+  "n": 64,
+  "n12": 36,
+  "med_top10_12m": 227094,
+  "med_top10_total": 316721,
+  "top1": [
+   3047070,
+   "El Vaticano desde Dentro: La Verdad Sobre la Muerte del Papa Juan Pablo I - Padre Charles Murr #301",
+   "WORLDCA$T",
+   "2026-10-08"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    3047070,
+    "2026-10-08",
+    "El Vaticano desde Dentro: La Verdad Sobre la Muerte del Papa Juan Pablo I - Padr",
+    "WORLDCA$T"
+   ]
+  ],
+  "ano_gt100k": 8,
+  "molde": [
+   [
+    1826,
+    "2025-05-03",
+    "💂‍♂️ La GUARDIA SUIZA Del Vaticano El Ejercito Del PAPA En 5 Minutos ⏳ - Histori",
+    "HistoriaEnComic",
+    "2025-05-01",
+    6110
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    3047070,
+    "2026-10-08",
+    119,
+    "El Vaticano desde Dentro: La Verdad Sobre la Muerte del Papa Juan Pablo I - Padr",
+    "WORLDCA$T",
+    "0c5JfN2qeu0"
+   ],
+   [
+    1815441,
+    "2026-04-02",
+    98,
+    "Experto en el Vaticano: \"hay archivos que el Vaticano nunca abrirá y sé exactame",
+    "Tiene Sentido Pódcast",
+    "rLGs5AXE5iQ"
+   ],
+   [
+    542953,
+    "2026-06-25",
+    41,
+    "OPUS DEI: Los Secretos que el Vaticano Quiere Esconder",
+    "Magnus Mefisto",
+    "0u-pWCG0IF0"
+   ],
+   [
+    273620,
+    "2026-05-02",
+    44,
+    "El Iceberg de lo más Aterrador del Vaticano 💀 (misterios, encuentros, secretos)",
+    "Ment3curiosa🧠",
+    "9BWrlwFTzsM"
+   ],
+   [
+    261530,
+    "2026-08-02",
+    59,
+    "Esto es lo que el VATICANO quiere ESCONDER - Paula Bistagnino | #72",
+    "CACHETADA",
+    "frLQgR3u760"
+   ],
+   [
+    192659,
+    "2026-07-14",
+    87,
+    "🚨 Asesinato En El Grado 33  \" Yo Estuve Allí \" Masonería En El Vaticano | Docume",
+    "Conoce Ama Y Vive Tu Fe con Luis Roman",
+    "iHAzEEiw7sA"
+   ],
+   [
+    179339,
+    "2026-04-10",
+    78,
+    "LOS JESUITAS: El Ejército Secreto del Vaticano que Cambió la Historia del Mundo",
+    "Acero Templario",
+    "LGrlcirLFp0"
+   ],
+   [
+    146287,
+    "2026-07-18",
+    127,
+    "El Secreto Oculto del Vaticano que el Papa León XIV Descubrió Tras 48 Años de Si",
+    "Voz de la Justicia",
+    "wH7h8rcU5Ao"
+   ],
+   [
+    46658,
+    "2026-08-24",
+    37,
+    "Opus Dei: Los Secretos Oscuros que Esconde el Vaticano (Más Poderosos que los Ma",
+    "El DoQmentalista",
+    "4pjchXEeImY"
+   ],
+   [
+    40862,
+    "2026-10-01",
+    77,
+    "El Mossad, y su unidad secreta: KIDON | Los secretos del Vaticano | Hitler  Espi",
+    "Podcracks",
+    "2y2De8VjScU"
+   ]
+  ]
+ },
+ "es:legion": {
+  "n": 34,
+  "n12": 17,
+  "med_top10_12m": 8519,
+  "med_top10_total": 113414,
+  "top1": [
+   1222855,
+   "La Legión Extranjera, la excepción francesa",
+   "FRANCE 24 Español",
+   "2018-05-08"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 1,
+  "molde": [],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 10,
+  "top10_12m": [
+   [
+    761124,
+    "2025-11-13",
+    42,
+    "Legión Extranjera: reclutas a prueba | DW Documental",
+    "DW Documental",
+    "5LgNP8QLUoY"
+   ],
+   [
+    43175,
+    "2026-06-09",
+    121,
+    "#164 - Correr 90KM con los Pies Sangrando; Dormir DESNUDOS - Así es la LEGIÓN EX",
+    "GÉNESIS 2:24",
+    "bA4nNH2YbWo"
+   ],
+   [
+    20455,
+    "2026-05-28",
+    20,
+    "Tu vida en cada rango de la Legión Extranjera Francesa",
+    "Punto Ciego",
+    "6_Vx-IDYptg"
+   ],
+   [
+    12295,
+    "2026-06-01",
+    13,
+    "65 contra 3,000: La Masacre de CAMARÓN y la Legión Extranjera (1863)",
+    "Cronicas Belicas Mexico",
+    "1bkulgLcw1k"
+   ],
+   [
+    12028,
+    "2025-11-13",
+    9,
+    "Los Nazis que se ocultaron en la Legión Extranjera Francesa tras la Segunda Guer",
+    "Simple History en Español",
+    "RciOrzLbGA4"
+   ],
+   [
+    5011,
+    "2026-02-13",
+    18,
+    "LA VERDAD SOBRE CÓMO ENTRÉ EN LA LEGIÓN EXTRANJERA FRANCESA",
+    "andres Meneses",
+    "pkMyKVEoEio"
+   ],
+   [
+    4716,
+    "2026-04-06",
+    16,
+    "La Legión Extranjera Francesa",
+    "Mira la Historia / Mitologia",
+    "a7_g3CKzvmc"
+   ],
+   [
+    3821,
+    "2026-02-23",
+    19,
+    "¿Qué es la Legión Extranjera Francesa? La verdad sobre su temida unidad",
+    "General Discharge en Español",
+    "muhoMMsNdHk"
+   ],
+   [
+    3573,
+    "2026-03-20",
+    11,
+    "Tu Vida en Cada Rango de la Legión Extranjera Francesa",
+    "MRPOV",
+    "OE-Q-Xtb9WI"
+   ],
+   [
+    2445,
+    "2026-05-20",
+    11,
+    "\"SON UNOS BORRACHOS\" EXPLICA LAS DIFERENCIAS entre la LEGIÓN EXTRANJERA FRANCESA",
+    "ClipsDeLaMili",
+    "A_4HVeXMqCo"
+   ]
+  ]
+ },
+ "es:rosacruces": {
+  "n": 48,
+  "n12": 22,
+  "med_top10_12m": 3569,
+  "med_top10_total": 218437,
+  "top1": [
+   4446768,
+   "SOCIEDADES SECRETAS 🔮 Masones, Illuminatis y Rosacruz - ¿Existieron realmente? 🔮 MITOS Y LEYENDAS 16",
+   "Pero eso es otra Historia",
+   "2019-08-13"
+  ],
+  "rec_gt100k": 0,
+  "rec": [],
+  "ano_gt100k": 0,
+  "molde": [],
+  "molde_12m_gt50k": 0,
+  "porta": [],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    82563,
+    "2026-10-29",
+    219,
+    "La Historia De Los Rosacruces: El Misterio De Christian Rosencreutz | Para Dormi",
+    "Historias Nocturnas",
+    "Y9M74KnAvfg"
+   ],
+   [
+    28804,
+    "2026-04-28",
+    96,
+    "Rosacruces: La Orden Oculta Que Une Cristianismo, Islam y Judaísmo en Secreto",
+    "Órdenes Secretas",
+    "jq2hcVsBk98"
+   ],
+   [
+    15387,
+    "2026-05-14",
+    34,
+    "El Secreto Que Los Rosacruces Escondieron Durante 400 Años",
+    "La Biblioteca de Hermes",
+    "4bZEu6KdxhY"
+   ],
+   [
+    5684,
+    "2026-05-30",
+    33,
+    "EL SECRETO DEL CRISTO CÓSMICO QUE LOS ROSACRUCES OCULTARON PERO Rudolf Steiner R",
+    "Enseñanzas de Rudolf Steiner",
+    "Lrzur9Z9FF8"
+   ],
+   [
+    3857,
+    "2025-11-30",
+    35,
+    "El Misterio de los Rosacruces en París: Historia de la orden Rosacruz",
+    "Historia, Mitología, Filosofía y Cultura",
+    "69HbV6XW4yQ"
+   ],
+   [
+    3281,
+    "2026-03-10",
+    97,
+    "¡MAGIA O CIENCIA! Spinoza EXPONE la Verdad Sobre los Rosacruces y los Alquimista",
+    "Baruch Spinoza | El Pulidor de Lentes",
+    "vPB4-hKWGzk"
+   ],
+   [
+    1912,
+    "2026-06-22",
+    49,
+    "LOS ROSACRUCES SEGÚN Rudolf Steiner",
+    "Enseñanzas de Rudolf Steiner",
+    "RbL_Quo8fMM"
+   ],
+   [
+    813,
+    "2026-10-11",
+    52,
+    "🌙🔺 LOS ROSACRUCES | LA ORDEN SECRETA QUE INTRIGÓ A TODA EUROPA | HISTORIA PARA D",
+    "Susurros de la Historia",
+    "KUtdACP0IRE"
+   ],
+   [
+    557,
+    "2026-06-07",
+    17,
+    "La Orden Rosa Cruz AMORC: Su Historia y Secretos Revelados #glh #rosacruz #AMORC",
+    "SOY ROSACRUZ",
+    "qacqd4Fdzhc"
+   ],
+   [
+    226,
+    "2026-07-19",
+    5,
+    "La Historia de las Sociedades SECRETAS REVELADA | Toda La Magia | Masones y Rosa",
+    "Jero Krohnengold. Escuela de Metahumanos",
+    "tz1jpVQfxq0"
+   ]
+  ]
+ },
+ "es:ninjas": {
+  "n": 37,
+  "n12": 18,
+  "med_top10_12m": 112146,
+  "med_top10_total": 343773,
+  "top1": [
+   11966356,
+   "LA MEJOR ESCENA DE NINJAS DE LA HISTORIA DEL CINE",
+   "loulogio",
+   "2012-01-17"
+  ],
+  "rec_gt100k": 1,
+  "rec": [
+   [
+    106720,
+    "2026-10-23",
+    "El Día que los Samuráis Fueron a Exterminar a los Verdaderos Ninjas del Japón Fe",
+    "Rastros de la Humanidad"
+   ]
+  ],
+  "ano_gt100k": 6,
+  "molde": [
+   [
+    38809,
+    "2026-09-08",
+    "TODA LA HISTORIA DE LOS NINJAS: La Verdad Detrás del Mito",
+    "Historias Nocturnas",
+    "2022-06-03",
+    10700
+   ],
+   [
+    18791,
+    "2025-06-15",
+    "DUERME ESCUCHANDO LA HISTORIA COMPLETA DE LOS NINJAS | HISTORIAS PARA RELAJARSE ",
+    "Pergaminos Olvidados",
+    "2025-05-19",
+    48100
+   ],
+   [
+    4866,
+    "2025-08-25",
+    "Toda la Historia de los Ninjas | Documental Sereno Para Dormir",
+    "Duerme Aprendiendo",
+    "2025-07-16",
+    1260
+   ],
+   [
+    2730,
+    "2026-09-27",
+    "DUÉRMETE con la historia COMPLETA de los Ninjas — Los guerreros de las sombras d",
+    "Tras las Huellas del Pasado",
+    "2026-06-06",
+    3090
+   ]
+  ],
+  "molde_12m_gt50k": 0,
+  "porta": [
+   [
+    117573,
+    "2026-05-14",
+    "Los Samuráis Eran INVENCIBLES | Hasta Que Despertaron La FURIA De Los NINJAS Los",
+    "Registros de guerra",
+    "2026-04-27",
+    2740
+   ]
+  ],
+  "canais_top10_12m": 9,
+  "top10_12m": [
+   [
+    438436,
+    "2026-03-18",
+    167,
+    "TMNT: Las Tortugas Ninja | ¡Cada aparición de Shredder! | Nickelodeon en Español",
+    "Nickelodeon en Español",
+    "vKC7acLBerI"
+   ],
+   [
+    294156,
+    "2026-04-25",
+    9,
+    "Construí la VIDA de un NINJA en LEGO...",
+    "ByBeezon Esp",
+    "yGmoAOGmHmQ"
+   ],
+   [
+    182270,
+    "2025-12-08",
+    12,
+    "8 Habilidades Ninja Reales que Superan a la Ficción",
+    "Crónicas Ocultas",
+    "UydTu7suTt0"
+   ],
+   [
+    155303,
+    "2025-11-21",
+    21,
+    "LEGO Ninjago | ¡El Ninja Verde visita a su padre! | WildBrain Historias De Miedo",
+    "WildBrain Casa Embrujada",
+    "9HkfYUAMiMg"
+   ],
+   [
+    117573,
+    "2026-05-14",
+    33,
+    "Los Samuráis Eran INVENCIBLES | Hasta Que Despertaron La FURIA De Los NINJAS Los",
+    "Registros de guerra",
+    "YZkBG3LH2NA"
+   ],
+   [
+    106720,
+    "2026-10-23",
+    23,
+    "El Día que los Samuráis Fueron a Exterminar a los Verdaderos Ninjas del Japón Fe",
+    "Rastros de la Humanidad",
+    "2IIHpIwNMwM"
+   ],
+   [
+    69075,
+    "2026-07-07",
+    17,
+    "La Vida de un Ninja Era Mucho Peor de lo que Crees",
+    "Japón Brutal",
+    "XwM_E9-tNfk"
+   ],
+   [
+    66524,
+    "2026-11-03",
+    30,
+    "Soy La Única Chica Ninja En Mi Escuela",
+    "Mi Diario Animado Español",
+    "QWiISHsKT3M"
+   ],
+   [
+    61493,
+    "2026-02-04",
+    192,
+    "La Verdadera Historia de los Ninjas: Los Guerreros de las Sombras del Japón Feud",
+    "El Historiador Nocturno",
+    "F99_UHDZPNw"
+   ],
+   [
+    44092,
+    "2025-12-18",
+    13,
+    "Las 14 Armas Ninjas más Ingeniosas (Explicadas)",
+    "Crónicas Ocultas",
+    "WI-EcuyPQDs"
+   ]
+  ]
+ }
+}
