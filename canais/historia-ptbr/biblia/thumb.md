@@ -45,6 +45,9 @@ Pedido do Rodrigo: 3 estilos diferentes para o "Testar e comparar" (`videos/004-
 ## Roma 006 (09/11/2026). **Hipótese**, medir CTR
 `videos/006-roma/entrega/` (US$ 0,28; 6 bases, as 6 usáveis; 1 com emenda lateral descartada): 1 **bonecos** "ROMA HUMILHADA" + "390 a.C." (Breno rindo com a espada na balança de ouro, senador em desespero); 2 **HiM** "ROMA" + "753 a.C. – 476" (Coliseu, Fórum, Panteão, aqueduto + general de louros com contorno de adesivo); 3 **queda** "ROMA CAIU!" + "410" (Alarico com a águia, Roma em chamas, senador pagando resgate). Código `videos/006-roma/thumbs/compose.py`.
 
+## Rússia 007 (09/11/2026). **Hipótese**, medir CTR
+`videos/007-russia/entrega/` (US$ 0,37; 8 bases): 1 **bonecos** "UM VIKING / NO TRONO?" + "862" (o príncipe viking rindo com a coroa oferecida pelo ancião eslavo nervoso, aldeões brigando atrás); 2 **HiM** "RÚSSIA" + "862 – 2026" (inverno claro: São Basílio, Kremlin, Palácio de Inverno, trem na neve + Pedro, o Grande, com contorno de adesivo); 3 **mito** "O INVERNO / VENCEU?" + "1812" (Napoleão congelando, General Inverno de neve soprando, Moscou em chamas). As 2 tomadas do 3º saíram com **emenda de painel** no terço direito (o pedido "RIGHT 38% darker and simpler" virou outro quadro): pedir "ONE single continuous scene… no split panels, no divider line: on the RIGHT side the same plain simply continues". Código `videos/007-russia/thumbs/compose.py`.
+
 - Texto **sempre composto no código** (`src/Thumbnail.jsx`), nunca escrito pela IA. Hoje: Libre Caslon 700 + Open Sans 800. [BRIEF.md 001; QA.md 001]
 - No máximo 2–3 palavras na arte, legíveis em 320×180; o resto vai no título. [estilo.md antigo]
 - Base em qualidade alta (`high` no gpt-image-2) e **3 variações** para o "Testar e comparar".

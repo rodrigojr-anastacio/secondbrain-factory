@@ -1,0 +1,51 @@
+# Fontes e checagem de fatos · historia-ptbr/007 Rússia (youtube.videos id 16)
+
+Checagem feita **antes da voz** (09/11/2026). Fontes de referência: *Crônica dos Tempos Passados* (Povest' vremennykh let, trad. Cross & Sherbowitz-Wetzor, 1953); Janet Martin, *Medieval Russia 980–1584* (Cambridge, 2007); Geoffrey Hosking, *Russia and the Russians* (2001); Orlando Figes, *Natasha's Dance* e *A People's Tragedy*; Lindsey Hughes, *Russia in the Age of Peter the Great* (1998); Adam Zamoyski, *1812: Napoleon's Fatal March on Moscow* (2004); Encyclopaedia Britannica (verbetes citados); Wikipedia (só para datas cruzadas com Britannica). Transcrição da referência: `ref/clone-russia-aMld6kMmcm4.txt` (clone "História em minutos", 235 mil views).
+
+| Bloco | Afirmação | Fonte / nota |
+|---|---|---|
+| N001–N004 | 862: tribos do norte brigam, chamam os varegues: "Nossa terra é grande e rica, mas não há ordem nela. Venham reinar sobre nós"; Rúrik | Crônica dos Tempos Passados, ano 6370 (862). Compilada em Kiev c. 1113 (~250 anos depois). Historicidade debatida (normanistas × antinormanistas): o texto diz isso. |
+| N007–N008 | Planície sem barreiras; rede de rios Báltico ↔ mar Negro; varegues levam peles, mel, cera e escravos a Constantinopla; arrasto de barcos por terra (portagem) | Britannica "Varangian"; rota "dos varegues aos gregos" (Constantino VII, *De administrando imperio*, c. 950, descreve as portagens do Dniepre). "Cera" saiu do texto por orçamento. |
+| N009 | Sucessores de Rúrik (Olegue) tomam Kiev em 882; Rus de Kiev = berço comum de russos, ucranianos e bielorrussos | Crônica, 882; Britannica "Kievan Rus". Formulação neutra pedida no brief. |
+| N011–N013 | 988: Vladimir recebe muçulmanos, judeus, cristãos latinos e gregos; recusa o islã: "beber é a alegria da Rus"; enviados em Santa Sofia "não sabiam se estavam no céu ou na terra"; batismo no Dniepre | Crônica, anos 986–988. Data do batismo de Kiev: 988 (Britannica "Vladimir I"). O relato das embaixadas é tradição da crônica (marcado: "segundo a crônica"). |
+| N014 | Igrejas de cúpula, ícones e alfabeto cirílico vieram com a escolha | O cirílico nasceu na Bulgária (séc. IX/X) e chegou à Rus com a liturgia eslava após 988 (Britannica "Cyrillic alphabet"). Texto diz "vieram junto com essa escolha", não "vieram de Constantinopla". As cúpulas em cebola são posteriores: o texto diz só "igrejas de cúpula". |
+| N015 | Kiev rica; poder repartido entre irmãos, primos e sobrinhos (sistema rotativo), lutas internas | Martin, cap. 1–2. As filhas de Iaroslav (Ana, rainha da França; Isabel, Noruega; Anastácia, Hungria) saíram por orçamento. |
+| N016–N017 | Inverno de 1237: Batu (neto de Gengis Khan) avança pelos rios congelados; Riazan cai (dez. 1237), Vladimir (fev. 1238); Kiev arrasada (dez. 1240) | Britannica "Batu", "Mongol invasion of Rus". |
+| N018 | Horda Dourada cobra tributo via príncipes russos com licença (iarlik) do cã | Martin, cap. 6; Britannica "yarlyk". |
+| N019–N020 | Ivan I "Kalita" (= bolsa de dinheiro) vira o cobrador do tributo; parte fica em Moscou ("ao que tudo indica"); o metropolita passa a residir em Moscou (c. 1325) | Britannica "Ivan I". Metropolita Pedro morre em Moscou em 1326 e o sucessor fixa a sé lá. "Ao que tudo indica" marca a interpretação. |
+| N022–N023 | 1480, rio Ugra: semanas de impasse, a Grande Horda se retira; fim do domínio (1240–1480, "mais de dois séculos") | Britannica "Great Stand on the Ugra River". |
+| N024 | Ivan III casado (1472) com Sofia Paleóloga, sobrinha de Constantino XI; Constantinopla tomada em 1453; águia bicéfala (selo de 1497); monge Filoteu: "duas Romas caíram… a terceira… uma quarta não haverá" | Britannica "Ivan III", "Sophia Palaeologa". **Correção antes da voz:** as cartas de Filoteu são dos anos 1520 (Basílio III), não do tempo de Ivan III → texto ajustado para "e, anos depois, um monge escreve". |
+| N025–N026 | Moscou cercada de inimigos (Lituânia-Polônia a oeste, canatos tártaros ao sul e leste); defesa = avançar | Hosking, introdução; interpretação geopolítica comum (também na referência). Apresentada como "parecia funcionar". |
+| N027 | 1547: Ivan IV coroado aos 16 anos, 1º czar coroado; "czar" vem de "César" | Britannica "Ivan the Terrible", "tsar". Nasceu em ago. 1530: 16 anos em jan. 1547. |
+| N028 | Toma Kazan (1552); São Basílio comemora a vitória (1555–61); opríchnina (1565–72): guarda de preto que mata nobres e saqueia cidades (Novgorod, 1570) | Britannica "oprichnina", "Saint Basil's Cathedral". |
+| N029 | 1581: golpeia o filho Ivan com o bastão; o herdeiro morre dias depois | Britannica "Ivan the Terrible" (morreu em 19 nov. 1581, dias após o golpe). |
+| N030–N031 | Iermak (c. 1581–82) entra na Sibéria; peles como riqueza do Estado; Pacífico em 1639 (Moskvitin, mar de Okhotsk) | Britannica "Yermak", "Siberia: Russian conquest". "Menos de sessenta anos" ✔ (1581→1639). Brasil ainda concentrado no litoral em 1639 ✔ (as grandes bandeiras para o interior distante são das décadas seguintes). |
+| N032 | Morte de Fiódor I em 1598 sem herdeiro: fim da dinastia ruríquida de Moscou | Britannica "Fyodor I". |
+| N033–N034 | Huaynaputina (Peru), fev. 1600, maior erupção histórica da América do Sul; esfriamento; fome russa de 1601–03, ~2 milhões de mortos | Verosub & Lippman 2008 (*Eos* 89:15) ligam a erupção à fome russa; Britannica "Time of Troubles". Texto diz "talvez dois milhões". |
+| N035–N036 | Tempo das Dificuldades: falsos Dmítri, revoltas; poloneses no Kremlin (1610–12); Minin (comerciante) e Pojarski (príncipe) libertam Moscou (1612); assembleia (Zemski Sobor) escolhe Miguel Romanov, 16 anos (1613) | Britannica "Time of Troubles", "Michael (tsar)". |
+| N037 | 1649: Código (Sobornoe Ulozhenie) prende o camponês e os descendentes ao senhor, sem prazo para recuperar fugitivos | Britannica "Ulozhenie"; Hosking. |
+| N039–N040 | Grande Embaixada (1697–98): Pedro viaja disfarçado como "Pedro Mikhailov", trabalha em estaleiro na Holanda; ~2,03 m | Hughes, cap. 1; Britannica "Peter I". "Ou todo mundo finge" = o disfarce era conhecido (Hughes). |
+| N041 | Narva (nov. 1700): sueco ~10 mil × russo ~35–40 mil; sinos fundidos em canhões (1701); Poltava (1709) | Britannica "Battle of Narva", "Battle of Poltava". |
+| N042 | São Petersburgo (1703) num pântano do Neva; milhares de trabalhadores forçados mortos | Britannica "Saint Petersburg"; números debatidos (dezenas de milhares nas estimativas altas): texto diz "milhares". |
+| N043 | Imposto sobre a barba com moedinha de recibo (1698/1705) | Britannica "Peter I"; os "beard tokens" existem em museus. |
+| N045–N046 | Catarina (Sofia de Anhalt-Zerbst, alemã) derruba o marido Pedro III (1762); anexa a Crimeia (1783); partilhas da Polônia (1772–95); Pugachev (1773–75) se dizia Pedro III, o marido morto dela | Britannica "Catherine the Great", "Pugachov Rebellion". |
+| N047–N049 | 1812: ~600 mil homens; russos recuam e queimam; calor, tifo e disenteria matam dezenas de milhares antes do frio; Moscou vazia e incendiada; espera ~5 semanas; retirada no inverno; a grande maioria não volta | Zamoyski; Britannica "French invasion of Russia". Mito desmontado: a maior parte das perdas veio antes do inverno ("O inverno levou a fama"). |
+| N050 | Russos em Paris (1814) | Britannica "Alexander I". A lenda do "bistrô" saiu do texto por orçamento. |
+| N051 | Guerra da Crimeia: aliados com navios a vapor; Rússia sem ferrovia até o sul | Figes, *Crimea* (2010); Britannica "Crimean War". |
+| N052–N053 | 1861: Alexandre II emancipa ~23 milhões de servos de particulares ("mais de vinte milhões"); Brasil abole a escravidão em 1888 (27 anos depois); pagamentos de resgate em 49 anos | Britannica "Emancipation Manifesto", "Lei Áurea". |
+| N054 | 1881: Vontade do Povo mata Alexandre II com bomba; Alexandre III e Nicolau II recuam nas reformas | Britannica "Alexander II", "Alexander III". |
+| N055 | Domingo Sangrento: 22 jan. 1905 (9 jan. no calendário juliano), marcha com ícones e retratos do czar | Britannica "Bloody Sunday". |
+| N056–N057 | Fevereiro de 1917: soldados se recusam a atirar; Nicolau II abdica; fim de 304 anos de Romanov ("trezentos anos"); Revolução de Outubro = 7 nov. no calendário gregoriano | Britannica "Russian Revolution of 1917". |
+| N058 | Capital volta a Moscou (1918); guerra civil; URSS (dez. 1922) com quase todo o território do império | Britannica "Union of Soviet Socialist Republics". **Correção antes da voz:** "o território fica" → "quase todo o território fica" (perderam-se Finlândia, Bálticos e Polônia). |
+| N059–N060 | Coletivização (1929–33); planos quinquenais; fome de 1932–33 com milhões de mortos, sobretudo Ucrânia e Cazaquistão; expurgos de 1937–38 (~680 mil execuções) e Gulag | Britannica "collectivization", "Holodomor", "Great Purge". Formulação neutra, sem entrar no debate de intencionalidade. |
+| N061 | 1941: invasão alemã; ~27 milhões de mortos soviéticos; Berlim (1945). Minas Gerais: 20,5 milhões (Censo IBGE 2022) | Britannica "World War II: casualties"; IBGE 2022. |
+| N062 | Gagárin, 12 abr. 1961, "Poyekhali!" ("vamos lá!") | Britannica "Yuri Gagarin". |
+| N063 | Invasores entraram (mongóis, Napoleão, Hitler) e nenhum ficou de vez; ordens russas caíram por dentro (1610, 1917, 1991) | Síntese interpretativa (3ª peça da resposta). **Correção antes da voz:** "e de novo agora" → "e estava para acontecer de novo" (evita soar como comentário sobre o presente). |
+| N064 | Gorbatchov (perestroika/glasnost); 25 dez. 1991 a bandeira soviética desce do Kremlin; 15 países; a Rússia continua o maior país do mundo | Britannica "Mikhail Gorbachev", "collapse of the Soviet Union". Única frase pós-1991, neutra (pedido do brief). |
+
+## Neutralidade (brief)
+- Termina em 1991, com 1 frase neutra ("continua sendo o maior país do mundo, mas sem o império em volta"). Nada sobre guerra atual nem sobre governos depois de 1991.
+- Ucrânia: só como berço comum da Rus de Kiev (N009) e na fome de 1932–33 (N060), em tom factual.
+
+## Lendas e interpretações marcadas no texto
+"Pelo menos, é o que contam monges… e os historiadores discutem até hoje" (862); "Segundo a crônica" (Vladimir); "ao que tudo indica" (Kalita); "talvez dois milhões" (fome de 1601); "O inverno levou a fama, mas quem venceu foi a distância" (mito do General Inverno desmontado).

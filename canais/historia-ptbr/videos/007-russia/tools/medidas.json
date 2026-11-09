@@ -1,0 +1,41 @@
+{
+ "gaps-antigos.mp3": {
+  "dur_s": 101.5,
+  "palavras": 216,
+  "ppm": 128,
+  "pausas_>=0.25s": 45,
+  "silencio_pct": 24,
+  "trechos": 41,
+  "repeticao_melodica": 0.21,
+  "queda_media_st": -4.1,
+  "f0_mediana_hz": 101.6,
+  "f0_desvio_st": 4.07,
+  "f0_faixa_p10_p90_st": 11.19
+ },
+ "gaps-novos.mp3": {
+  "dur_s": 100.5,
+  "palavras": 216,
+  "ppm": 129,
+  "pausas_>=0.25s": 45,
+  "silencio_pct": 23,
+  "trechos": 41,
+  "repeticao_melodica": 0.15,
+  "queda_media_st": -3.37,
+  "f0_mediana_hz": 101.8,
+  "f0_desvio_st": 4.06,
+  "f0_faixa_p10_p90_st": 11.14
+ },
+ "gaps-novos-60.mp3": {
+  "dur_s": 60.0,
+  "palavras": 216,
+  "ppm": 216,
+  "pausas_>=0.25s": 27,
+  "silencio_pct": 22,
+  "trechos": 26,
+  "repeticao_melodica": 0.19,
+  "queda_media_st": -3.55,
+  "f0_mediana_hz": 99.9,
+  "f0_desvio_st": 4.21,
+  "f0_faixa_p10_p90_st": 11.52
+ }
+}
