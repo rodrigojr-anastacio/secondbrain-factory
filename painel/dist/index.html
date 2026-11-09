@@ -1,0 +1,454 @@
+<title>Painel da Fábrica</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<style>
+:root{
+  --bg:#f7f7f5; --surface:#ffffff; --surface-2:#f0f0ed; --text:#17171a; --muted:#6b6b72; --faint:#9c9ca3;
+  --line:#e6e6e2; --accent:#2c54c9; --accent-soft:#e8edfb; --accent-text:#2447ad;
+  --ok:#1f7a4d; --ok-soft:#e3f3ea; --warn:#a15c00; --warn-soft:#fbefd9; --crit:#b42318; --crit-soft:#fde7e4;
+  --shadow:0 1px 2px rgba(20,20,30,.05),0 2px 8px rgba(20,20,30,.04);
+  --radius:10px; --font:"Geist",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"Geist Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,"Roboto Mono","DejaVu Sans Mono","Liberation Mono",monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f0f11; --surface:#17171a; --surface-2:#1e1e22; --text:#ececee; --muted:#9d9da6; --faint:#6e6e77;
+    --line:#2a2a30; --accent:#7f9cf5; --accent-soft:#1d2440; --accent-text:#a9bcf8;
+    --ok:#5cc690; --ok-soft:#14291e; --warn:#e6a54a; --warn-soft:#2d2212; --crit:#f2786b; --crit-soft:#331714;
+    --shadow:0 1px 2px rgba(0,0,0,.4); color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f0f11; --surface:#17171a; --surface-2:#1e1e22; --text:#ececee; --muted:#9d9da6; --faint:#6e6e77;
+  --line:#2a2a30; --accent:#7f9cf5; --accent-soft:#1d2440; --accent-text:#a9bcf8;
+  --ok:#5cc690; --ok-soft:#14291e; --warn:#e6a54a; --warn-soft:#2d2212; --crit:#f2786b; --crit-soft:#331714;
+  --shadow:0 1px 2px rgba(0,0,0,.4); color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);font-size:15px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:var(--accent-text);text-decoration:none}
+a:hover{text-decoration:underline}
+.num,.mono{font-family:var(--mono);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+
+/* header */
+header.top{position:sticky;top:env(safe-area-inset-top, 0px);z-index:10;background:color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding-block:14px 6px}
+.brand h1{font-size:17px;font-weight:600;margin:0;letter-spacing:-.01em}
+.brand .meta{font-size:12px;color:var(--muted)}
+.brand button{font:inherit;font-size:12px;color:var(--muted);background:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px;cursor:pointer}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding-block:6px 10px;margin:0 -4px}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs a{flex:0 0 auto;padding:6px 12px;border-radius:999px;color:var(--muted);font-size:14px;font-weight:500;text-decoration:none;white-space:nowrap}
+nav.tabs a[aria-current="page"]{background:var(--text);color:var(--bg)}
+
+main{padding-block:24px 64px}
+section.view{display:none}
+section.view.on{display:block}
+h2{font-size:22px;font-weight:600;letter-spacing:-.02em;margin:0 0 4px}
+h3{font-size:15px;font-weight:600;margin:0}
+.sub{color:var(--muted);font-size:13px;margin:0 0 20px}
+.label{font-size:12px;color:var(--muted);font-weight:500;text-transform:uppercase;letter-spacing:.06em}
+.block{margin-bottom:36px}
+.block-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px}
+
+/* chips */
+.chip{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;line-height:1;padding:5px 9px;border-radius:999px;
+  background:var(--surface-2);color:var(--muted);white-space:nowrap}
+.chip::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.8}
+.chip.pronto{background:var(--accent);color:#fff}
+:root[data-theme="dark"] .chip.pronto{color:#0f0f11}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .chip.pronto{color:#0f0f11}}
+.chip.publicado,.chip.ok,.chip.ativo{background:var(--ok-soft);color:var(--ok)}
+.chip.roteiro,.chip.producao,.chip.qa,.chip.em-teste{background:var(--accent-soft);color:var(--accent-text)}
+.chip.alerta,.chip.stand-by{background:var(--warn-soft);color:var(--warn)}
+.chip.critico{background:var(--crit-soft);color:var(--crit)}
+.chip.plain::before{display:none}
+
+/* filtros */
+.seg{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px}
+.seg button{font:inherit;font-size:13px;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.seg button[aria-pressed="true"]{border-color:var(--text);color:var(--text);font-weight:500}
+
+/* alertas */
+.alerts{display:grid;gap:8px;margin-bottom:28px}
+.alert{display:flex;gap:10px;align-items:flex-start;padding:12px 14px;border-radius:var(--radius);font-size:14px}
+.alert.alerta{background:var(--warn-soft);color:var(--warn)}
+.alert.critico{background:var(--crit-soft);color:var(--crit)}
+.alert strong{font-weight:600}
+.alert .dot{flex:0 0 8px;height:8px;margin-top:7px;border-radius:50%;background:currentColor}
+
+/* resumo */
+.kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 16px;margin-bottom:36px}
+@media (min-width:720px){.kpis{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.kpi .v{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:26px;font-weight:500;letter-spacing:-.03em;line-height:1.15}
+.kpi .k{font-size:13px;color:var(--muted)}
+.kpi .v.accent{color:var(--accent-text)}
+.channels{display:grid;gap:12px}
+@media (min-width:720px){.channels{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ch{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.ch-h{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:14px}
+.ch-h .n{font-weight:600;font-size:15px}
+.ch-h .s{font-size:12px;color:var(--muted)}
+.trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:14px}
+.trio div b{display:block;font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:20px;font-weight:500}
+.trio div span{font-size:12px;color:var(--muted)}
+.trio .hl b{color:var(--accent-text)}
+dl.rows{margin:0;display:grid;grid-template-columns:1fr auto;gap:6px 12px;font-size:13px;border-top:1px solid var(--line);padding-top:12px}
+dl.rows dt{color:var(--muted)}
+dl.rows dd{margin:0;text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.none{color:var(--faint);font-style:normal}
+
+/* listas */
+.list{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.item{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:4px 12px;align-items:start;padding:12px 14px;border-top:1px solid var(--line)}
+.item:first-child{border-top:0}
+.item .nr{font-family:var(--mono);font-size:12px;color:var(--faint);padding-top:2px}
+.item .t{font-size:14px;font-weight:500;overflow-wrap:anywhere}
+.item .m{grid-column:2 / 4;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted)}
+.item .m .num{color:var(--text)}
+.item.is-pronto{background:var(--accent-soft)}
+.item.is-arquivado{opacity:.55}
+.group-h{display:flex;align-items:baseline;gap:10px;margin:28px 0 10px}
+.group-h:first-child{margin-top:0}
+.group-h .c{font-size:13px;color:var(--muted)}
+.callout{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:var(--radius);padding:14px 16px;margin-bottom:28px}
+.callout h3{margin-bottom:8px}
+.callout ul{margin:0;padding:0;list-style:none;display:grid;gap:6px;font-size:14px}
+.callout li{display:flex;justify-content:space-between;gap:10px}
+.callout li span:first-child{overflow-wrap:anywhere}
+
+/* tabelas */
+.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:8px 12px;border-top:1px solid var(--line);vertical-align:top}
+thead th{border-top:0;font-weight:500;color:var(--muted);font-size:12px;white-space:nowrap;background:var(--surface)}
+td.r,th.r{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* markdown */
+.prose{font-size:14px;line-height:1.65;overflow-wrap:anywhere;max-width:760px}
+.prose h1{font-size:19px;letter-spacing:-.01em;margin:0 0 12px;line-height:1.3}
+.prose h2{font-size:16px;margin:24px 0 8px}
+.prose h3{font-size:14px;margin:18px 0 6px}
+.prose p,.prose ul,.prose ol{margin:0 0 10px}
+.prose ul,.prose ol{padding-left:20px}
+.prose code{font-family:var(--mono);font-size:12.5px;background:var(--surface-2);padding:1px 5px;border-radius:5px}
+.prose pre{overflow-x:auto;background:var(--surface-2);padding:12px;border-radius:8px}
+.prose pre code{background:none;padding:0}
+.prose blockquote{margin:0 0 10px;padding-left:12px;border-left:2px solid var(--line);color:var(--muted)}
+.prose .tbl{margin:0 0 14px;max-width:100%}
+.prose table{font-size:12.5px;min-width:520px}
+.prose td,.prose th{overflow-wrap:normal;word-break:normal;min-width:72px}
+.prose hr{border:0;border-top:1px solid var(--line);margin:20px 0}
+.prose img{max-width:100%}
+
+/* pesquisas */
+details.doc{border-top:1px solid var(--line)}
+details.doc:first-child{border-top:0}
+details.doc summary{list-style:none;cursor:pointer;padding:12px 14px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px}
+details.doc summary::-webkit-details-marker{display:none}
+details.doc summary .t{font-size:14px;font-weight:500;overflow-wrap:anywhere}
+details.doc summary .d{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
+details.doc summary .o{grid-column:1 / 3;font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+details.doc[open] summary{background:var(--surface-2)}
+details.doc .body{padding:16px 14px 20px}
+
+/* galeria */
+.gallery{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.card .img{aspect-ratio:16/9;background:var(--surface-2);display:block;width:100%;object-fit:cover}
+.card .noimg{aspect-ratio:16/9;background:var(--surface-2);display:grid;place-items:center;color:var(--faint);font-size:13px}
+.card .strip{display:flex;gap:6px;padding:8px 10px 0}
+.card .strip button{padding:0;border:1px solid var(--line);border-radius:5px;overflow:hidden;width:52px;aspect-ratio:16/9;cursor:pointer;background:var(--surface-2)}
+.card .strip button[aria-pressed="true"]{outline:2px solid var(--accent);outline-offset:1px}
+.card .strip img{width:100%;height:100%;object-fit:cover;display:block}
+.card .cb{padding:10px 12px 14px;display:grid;gap:8px}
+.card .cb .t{font-size:14px;font-weight:500;line-height:1.35}
+.card .cb .row{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;border-top:1px solid var(--line);padding-top:8px}
+.stats div{font-size:11px;color:var(--muted)}
+.stats b{display:block;font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:500;font-size:14px;color:var(--text)}
+
+/* barras */
+.bars{display:grid;gap:10px}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;font-size:13px}
+.bar .track{grid-column:1 / 3;height:6px;border-radius:3px;background:var(--surface-2);overflow:hidden}
+.bar .fill{height:100%;background:var(--accent);border-radius:3px}
+.month{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:12px}
+.month-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px}
+.month-h .v{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:22px;font-weight:500;letter-spacing:-.02em}
+details.more summary{cursor:pointer;font-size:13px;color:var(--accent-text);margin-top:14px;list-style:none}
+details.more summary::-webkit-details-marker{display:none}
+details.more[open] summary{margin-bottom:10px}
+.foot{font-size:12px;color:var(--faint);margin-top:12px}
+.loading{color:var(--muted);padding:40px 0}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Fábrica</h1>
+      <div style="display:flex;gap:10px;align-items:center"><span class="meta" id="gerado"></span><button id="tema" type="button" aria-label="Alternar tema">tema</button></div>
+    </div>
+    <nav class="tabs" id="tabs">
+      <a href="#resumo">Resumo</a>
+      <a href="#esteira">Esteira</a>
+      <a href="#backlog">Backlog</a>
+      <a href="#pesquisas">Pesquisas</a>
+      <a href="#videos">Vídeos</a>
+      <a href="#gastos">Gastos</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="app">
+  <p class="loading" id="loading">Carregando dados…</p>
+  <section class="view" id="v-resumo"></section>
+  <section class="view" id="v-esteira"></section>
+  <section class="view" id="v-backlog"></section>
+  <section class="view" id="v-pesquisas"></section>
+  <section class="view" id="v-videos"></section>
+  <section class="view" id="v-gastos"></section>
+</main>
+
+<script>
+(function(){
+"use strict";
+const VIEWS=["resumo","esteira","backlog","pesquisas","videos","gastos"];
+const ORDEM_STATUS=["pronto","qa","producao","roteiro","ideia","publicado","arquivado"];
+const NOME_STATUS={ideia:"ideia",roteiro:"roteiro",producao:"produção",qa:"QA",pronto:"pronto para subir",publicado:"publicado",arquivado:"arquivado"};
+const MES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+let D=null;
+
+const store={get(k,d){try{const v=localStorage.getItem("painel:"+k);return v===null?d:v}catch(e){return d}},
+             set(k,v){try{localStorage.setItem("painel:"+k,v)}catch(e){}}};
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const SD='<span class="none">sem dado</span>';
+const isNum=v=>v!==null&&v!==undefined&&v!==""&&!isNaN(v);
+const brl=v=>isNum(v)?"R$ "+Number(v).toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2}):SD;
+const brl0=v=>isNum(v)?"R$ "+Math.round(Number(v)).toLocaleString("pt-BR"):SD;
+const usd=v=>isNum(v)?"US$ "+Number(v).toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2}):SD;
+const int=v=>isNum(v)?Number(v).toLocaleString("pt-BR"):SD;
+const pct=v=>isNum(v)?Number(v).toLocaleString("pt-BR",{minimumFractionDigits:1,maximumFractionDigits:1})+"%":SD;
+const compact=v=>{if(!isNum(v))return SD;v=Number(v);if(v>=1e6)return (v/1e6).toLocaleString("pt-BR",{maximumFractionDigits:1})+" mi";if(v>=1e4)return Math.round(v/1e3).toLocaleString("pt-BR")+" mil";return v.toLocaleString("pt-BR")};
+const dur=s=>isNum(s)?Math.floor(s/60)+":"+String(Math.round(s%60)).padStart(2,"0"):SD;
+const dia=iso=>{if(!iso)return SD;const [y,m,d]=iso.slice(0,10).split("-");return d+"/"+m};
+const diaAno=iso=>{if(!iso)return SD;const [y,m,d]=iso.slice(0,10).split("-");return d+"/"+m+"/"+y};
+const mesNome=iso=>{const [y,m]=iso.split("-");return MES[+m-1]+" "+y};
+const chip=(st,txt)=>`<span class="chip ${esc(String(st).replace(/\s+/g,"-").replace("ç","c").replace("ã","a"))}">${esc(txt??NOME_STATUS[st]??st)}</span>`;
+const canalNome=slug=>{const c=(D.canais||[]).find(c=>c.slug===slug);return c?c.nome.replace(/\s*\(provis[^)]*\)\s*/i,"").trim():slug};
+
+function md(txt){
+  if(window.marked&&typeof marked.parse==="function"){
+    let html=marked.parse(txt||"",{gfm:true,breaks:false});
+    return html.replace(/<table>/g,'<div class="tbl"><table>').replace(/<\/table>/g,"</table></div>");
+  }
+  return "<pre>"+esc(txt)+"</pre>";
+}
+
+/* ------------------------------------------------------------ resumo */
+function vResumo(){
+  const saldos=D.gastos.saldos||[];
+  const ruins=saldos.filter(s=>s.nivel!=="ok");
+  const prontos=D.videos.filter(v=>v.status==="pronto");
+  const mes=(D.gastos.meses||[]).find(m=>m.mes===D.mes_atual);
+  const ativos=D.canais;
+  const pub=D.videos.filter(v=>v.status==="publicado").length;
+  const prod=D.videos.filter(v=>["roteiro","producao","qa"].includes(v.status)).length;
+  let h=`<h2>Resumo</h2><p class="sub">Dados de ${diaAno(D.gerado_em)} · Studio (28 dias) e finanças do mês de ${mesNome(D.mes_atual)}</p>`;
+  if(ruins.length){
+    h+=`<div class="alerts">`+ruins.map(s=>`<div class="alert ${s.nivel}"><span class="dot"></span><div><strong>${esc(s.fornecedor)}: ${usd(s.saldo)}</strong> de saldo pré-pago${s.nivel==="critico"?" (negativo: recarga não lançada ou crédito acabou)":" (abaixo de US$ "+D.saldo_alerta_usd+")"}</div></div>`).join("")+`</div>`;
+  }
+  h+=`<div class="kpis">
+    <div class="kpi"><div class="v accent">${prontos.length}</div><div class="k">prontos para subir</div></div>
+    <div class="kpi"><div class="v">${pub}</div><div class="k">publicados</div></div>
+    <div class="kpi"><div class="v">${prod}</div><div class="k">em produção</div></div>
+    <div class="kpi"><div class="v">${mes?brl0(mes.total_brl):SD}</div><div class="k">gasto em ${mesNome(D.mes_atual).split(" ")[0]} (fábrica)</div></div>
+  </div>`;
+  if(prontos.length){
+    h+=`<div class="callout"><h3>Pronto para subir</h3><ul>`+prontos.sort((a,b)=>a.canal_slug.localeCompare(b.canal_slug)||a.numero-b.numero)
+      .map(v=>`<li><span>${esc(v.titulo)}</span><span class="mono" style="color:var(--muted);font-size:12px">${dur(v.duracao_s)}</span></li>`).join("")+`</ul></div>`;
+  }
+  h+=`<div class="block-h"><span class="label">Canais</span></div><div class="channels">`;
+  for(const c of ativos){
+    const s=c.studio_28d;
+    h+=`<div class="ch"><div class="ch-h"><div><div class="n">${c.youtube_url?`<a href="${esc(c.youtube_url)}" target="_blank" rel="noopener" style="color:inherit">${esc(canalNome(c.slug))}</a>`:esc(canalNome(c.slug))}</div><div class="s">${esc(c.slug)} · ${esc(c.idioma||"")}</div></div>${chip(c.status)}</div>
+      <div class="trio"><div><b>${c.publicados}</b><span>publicados</span></div><div class="${c.prontos?"hl":""}"><b>${c.prontos}</b><span>prontos</span></div><div><b>${c.em_producao}</b><span>em produção</span></div></div>
+      <dl class="rows">
+        <dt>Impressões (28 d)</dt><dd>${s?int(s.impressoes):SD}</dd>
+        <dt>CTR (28 d, ponderado)</dt><dd>${s?pct(s.ctr_pct):SD}</dd>
+        <dt>Views (28 d)</dt><dd>${s?int(s.views):SD}</dd>
+        <dt>Inscritos (API)</dt><dd>${c.api?int(c.api.inscritos):SD}</dd>
+        <dt>Gasto direto no mês</dt><dd>${brl(c.gasto_mes_brl)}</dd>
+      </dl>
+      ${s?`<div class="foot">Studio ${dia(s.periodo_inicio)}–${dia(s.periodo_fim)}, ${s.videos} vídeo(s)</div>`:(c.sem_registro_no_banco?`<div class="foot">Ainda sem linha em youtube.canais; pesquisa em ${esc(c.pesquisa)}</div>`:"")}
+    </div>`;
+  }
+  h+=`</div>`;
+  return h;
+}
+
+/* ------------------------------------------------------------ esteira */
+function vEsteira(){
+  const f=store.get("esteira","todos");
+  const canais=[...new Set(D.videos.map(v=>v.canal_slug))].filter(s=>D.canais.some(c=>c.slug===s));
+  let h=`<h2>Esteira</h2><p class="sub">Cada vídeo do banco (youtube.videos), do mais urgente ao publicado. Custo direto = API paga; Claude = preço de lista equivalente.</p>`;
+  h+=`<div class="seg" data-seg="esteira">`+["todos",...canais].map(s=>`<button type="button" data-v="${s}" aria-pressed="${f===s}">${s==="todos"?"Todos":esc(canalNome(s))}</button>`).join("")+`</div>`;
+  for(const slug of canais){
+    if(f!=="todos"&&f!==slug)continue;
+    const vs=D.videos.filter(v=>v.canal_slug===slug).sort((a,b)=>ORDEM_STATUS.indexOf(a.status)-ORDEM_STATUS.indexOf(b.status)||(b.numero-a.numero));
+    const pr=vs.filter(v=>v.status==="pronto").length;
+    h+=`<div class="group-h"><h3>${esc(canalNome(slug))}</h3><span class="c">${vs.length} vídeos${pr?` · ${pr} pronto${pr>1?"s":""} para subir`:""}</span></div><div class="list">`;
+    for(const v of vs){
+      const custo=isNum(v.custo_direto_brl)&&v.custo_direto_brl>0?brl(v.custo_direto_brl):SD;
+      h+=`<div class="item is-${esc(v.status)}"><span class="nr">${String(v.numero??"").padStart(3,"0")}</span><span class="t">${v.youtube_url?`<a href="${esc(v.youtube_url)}" target="_blank" rel="noopener" style="color:inherit">${esc(v.titulo)}</a>`:esc(v.titulo)}</span>${chip(v.status)}
+        <div class="m"><span>${v.status==="publicado"?"publicado "+dia(v.publicado_em):"atualizado "+dia(v.atualizado_em)}</span><span>duração <span class="num">${dur(v.duracao_s)}</span></span><span>custo direto <span class="num">${custo}</span></span>${isNum(v.claude_usd_equiv)?`<span>Claude <span class="num">${usd(v.claude_usd_equiv)}</span></span>`:""}${v.youtube_url?`<a href="${esc(v.youtube_url)}" target="_blank" rel="noopener">abrir no YouTube</a>`:""}</div></div>`;
+    }
+    h+=`</div>`;
+  }
+  return h;
+}
+
+/* ------------------------------------------------------------ backlog */
+function vBacklog(){
+  const bs=D.backlogs||[];
+  if(!bs.length)return `<h2>Backlog</h2><p class="sub">sem dado</p>`;
+  let f=store.get("backlog",bs[0].canal); if(!bs.some(b=>b.canal===f))f=bs[0].canal;
+  const b=bs.find(b=>b.canal===f);
+  return `<h2>Backlog</h2><p class="sub">Fila de ideias e status de cada canal (canais/&lt;slug&gt;/backlog.md).</p>
+    <div class="seg" data-seg="backlog">`+bs.map(x=>`<button type="button" data-v="${x.canal}" aria-pressed="${x.canal===f}">${esc(canalNome(x.canal))}</button>`).join("")+`</div>
+    <p class="foot" style="margin:-8px 0 16px">${esc(b.caminho)} · atualizado ${diaAno(b.atualizado)}</p>
+    <div class="prose">${md(b.md)}</div>`;
+}
+
+/* ------------------------------------------------------------ pesquisas */
+function vPesquisas(){
+  let h=`<h2>Pesquisas</h2><p class="sub">Relatórios de nicho, rotinas e garimpo, do mais recente ao mais antigo.</p>`;
+  const g=D.garimpo||{};
+  h+=`<div class="block"><div class="block-h"><span class="label">Último garimpo</span><span class="foot" style="margin:0">${g.execucao?diaAno(g.execucao.executado_em)+" · "+int(g.execucao.canais_vistos)+" canais vistos":""}</span></div>`;
+  if(g.canais&&g.canais.length){
+    h+=`<div class="list">`+g.canais.map(c=>`<div class="item" style="grid-template-columns:minmax(0,1fr) auto"><span class="t">${c.url?`<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.titulo)}</a>`:esc(c.titulo)}</span>${c.decisao?chip(c.decisao==="investir"?"ok":c.decisao==="testar"?"em-teste":"arquivado",c.decisao):'<span class="chip plain">sem decisão</span>'}
+      <div class="m" style="grid-column:1 / 3"><span>média <span class="num">${compact(c.media_views)}</span> views</span><span><span class="num">${compact(c.inscritos)}</span> inscritos</span><span><span class="num">${isNum(c.idade_dias)?c.idade_dias:"?"}</span> dias</span>${c.formula?`<span style="flex-basis:100%">${esc(c.formula)}</span>`:""}</div></div>`).join("")+`</div>`;
+  } else h+=`<p class="none">sem dado</p>`;
+  h+=`</div>`;
+  const kw=D.palavras_chave||[];
+  h+=`<div class="block"><div class="block-h"><span class="label">Palavras-chave da semana</span><span class="foot" style="margin:0">${kw.length?diaAno(kw[0].data):""}</span></div>`;
+  if(kw.length){
+    const val=kw.filter(k=>k.validado), out=kw.filter(k=>!k.validado);
+    const tab=rows=>`<div class="tbl"><table><thead><tr><th>Termo</th><th>Idioma</th><th>Destino</th><th class="r">Score</th><th class="r">Mediana top-10</th><th class="r">Recentes &gt;100 mil</th><th>Tendência</th></tr></thead><tbody>`+
+      rows.map(k=>`<tr><td style="min-width:150px">${esc(k.termo)}${k.porta_aberta?` <span class="chip ok plain">porta aberta</span>`:""}</td><td>${esc(k.idioma)}</td><td>${esc(k.destino)}${k.categoria?`<br><span style="color:var(--muted);font-size:12px">${esc(k.categoria)}</span>`:""}</td><td class="r">${isNum(k.score)?Number(k.score).toLocaleString("pt-BR",{maximumFractionDigits:1}):SD}</td><td class="r">${compact(k.mediana_top10)}</td><td class="r">${int(k.recentes_100k)}</td><td>${esc(k.tendencia||"")}</td></tr>`).join("")+`</tbody></table></div>`;
+    h+=`<p class="foot" style="margin:0 0 8px">Validados (${val.length})</p>`+tab(val);
+    if(out.length)h+=`<details class="more"><summary>Mais ${out.length} termos dos nossos canais (sem validação)</summary>${tab(out)}</details>`;
+  } else h+=`<p class="none">sem dado</p>`;
+  h+=`</div>`;
+  const ps=D.pesquisas||[];
+  h+=`<div class="block"><div class="block-h"><span class="label">Relatórios (${ps.length})</span></div><div class="list">`+
+    ps.map((p,i)=>`<details class="doc" data-i="${i}"><summary><span class="t">${esc(p.titulo)}</span><span class="d">${dia(p.data)}</span><span class="o">${esc(p.origem)} · ${esc(p.caminho)} · ${int(p.palavras)} palavras</span></summary><div class="body prose"></div></details>`).join("")+`</div></div>`;
+  return h;
+}
+
+/* ------------------------------------------------------------ vídeos */
+function vVideos(){
+  const f=store.get("videos","todos");
+  const vs=D.videos.filter(v=>v.status!=="arquivado");
+  const canais=[...new Set(vs.map(v=>v.canal_slug))];
+  let h=`<h2>Vídeos</h2><p class="sub">Thumb no ar (ou a principal) e variantes; métricas do Studio dos últimos 28 dias quando existem.</p>`;
+  h+=`<div class="seg" data-seg="videos">`+["todos",...canais].map(s=>`<button type="button" data-v="${s}" aria-pressed="${f===s}">${s==="todos"?"Todos":esc(canalNome(s))}</button>`).join("")+`</div>`;
+  for(const slug of canais){
+    if(f!=="todos"&&f!==slug)continue;
+    const lista=vs.filter(v=>v.canal_slug===slug).sort((a,b)=>b.numero-a.numero);
+    h+=`<div class="group-h"><h3>${esc(canalNome(slug))}</h3><span class="c">${lista.length}</span></div><div class="gallery">`;
+    for(const v of lista){
+      const t=v.thumbs||[], s=v.studio, a=v.api;
+      const img=t.length?`<img class="img" loading="eager" src="${esc(t[0].arquivo)}" alt="Thumb de ${esc(v.titulo)}" data-main>`:`<div class="noimg">sem thumb</div>`;
+      const strip=t.length>1?`<div class="strip">`+t.map((x,i)=>`<button type="button" data-src="${esc(x.arquivo)}" aria-pressed="${i===0}" aria-label="Variante ${i+1}"><img src="${esc(x.arquivo)}" alt="" loading="lazy"></button>`).join("")+`</div>`:"";
+      const views=s?s.views:(a?a.views:null);
+      const ret=s&&isNum(s.pct_visualizada)?s.pct_visualizada:(a?a.pct_assistido:null);
+      h+=`<article class="card">${v.youtube_url?`<a href="${esc(v.youtube_url)}" target="_blank" rel="noopener">${img}</a>`:img}${strip}
+        <div class="cb"><div class="t">${esc(v.titulo)}</div>
+        <div class="row"><span>${String(v.numero).padStart(3,"0")} · <span class="num">${dur(v.duracao_s)}</span></span>${chip(v.status)}</div>
+        ${v.status==="publicado"?`<div class="stats"><div><b>${s?compact(s.impressoes):SD}</b>impr.</div><div><b>${s?pct(s.ctr_pct):SD}</b>CTR</div><div><b>${compact(views)}</b>views</div><div><b>${pct(ret)}</b>visto</div></div>`:""}
+        </div></article>`;
+    }
+    h+=`</div>`;
+  }
+  return h;
+}
+
+/* ------------------------------------------------------------ gastos */
+function vGastos(){
+  const G=D.gastos;
+  let h=`<h2>Gastos</h2><p class="sub">${esc(G.nota)}</p>`;
+  h+=`<div class="block"><div class="block-h"><span class="label">Saldos pré-pagos</span></div><div class="list">`+
+    (G.saldos||[]).map(s=>`<div class="item" style="grid-template-columns:minmax(0,1fr) auto auto"><span class="t">${esc(s.fornecedor)}</span><span class="num" style="font-size:15px">${usd(s.saldo)}</span>${chip(s.nivel,s.nivel==="ok"?"ok":s.nivel==="alerta"?"baixo":"negativo")}
+      <div class="m" style="grid-column:1 / 4">recarregado <span class="num">${usd(s.recarregado)}</span> · consumido <span class="num">${usd(s.consumido)}</span></div></div>`).join("")+`</div></div>`;
+  const med=G.media_por_video||[];
+  h+=`<div class="block"><div class="block-h"><span class="label">Custo médio por vídeo</span></div>`+
+    (med.length?`<div class="tbl"><table><thead><tr><th>Canal</th><th class="r">Vídeos</th><th class="r">Direto médio</th><th class="r">Com rateio fixo</th><th class="r">Direto total</th></tr></thead><tbody>`+
+    med.sort((a,b)=>b.videos-a.videos).map(m=>`<tr><td style="white-space:nowrap">${esc(canalNome(m.canal_slug))}</td><td class="r">${m.videos}</td><td class="r">${brl(m.direto_medio_brl)}</td><td class="r">${brl(m.total_medio_brl)}</td><td class="r">${brl(m.direto_total_brl)}</td></tr>`).join("")+`</tbody></table></div>`:`<p class="none">sem dado</p>`)+`</div>`;
+  h+=`<div class="block"><div class="block-h"><span class="label">Por mês</span></div>`;
+  for(const m of (G.meses||[])){
+    const max=Math.max(...m.por_projeto.map(p=>p.total_brl),1);
+    h+=`<div class="month"><div class="month-h"><h3>${mesNome(m.mes)}${m.mes===D.mes_atual?' <span class="chip plain" style="margin-left:6px">atual</span>':""}</h3><span class="v">${brl(m.total_brl)}</span></div>
+      <div class="bars">`+m.por_projeto.map(p=>`<div class="bar"><span>${esc(p.projeto)}</span><span class="num">${brl(p.total_brl)}</span><div class="track"><div class="fill" style="width:${Math.max(1,p.total_brl/max*100).toFixed(1)}%"></div></div></div>`).join("")+`</div>
+      ${m.itens&&m.itens.length?`<details class="more"><summary>Ver ${m.itens.length} lançamentos por categoria</summary><div class="tbl"><table><thead><tr><th>Projeto</th><th>Categoria</th><th>Fornecedor</th><th class="r">Valor</th></tr></thead><tbody>`+
+        m.itens.map(i=>`<tr><td>${esc(i.projeto)}</td><td>${esc(i.categoria)}</td><td>${esc(i.fornecedor||"")}</td><td class="r">${brl(i.valor_brl)}</td></tr>`).join("")+`</tbody></table></div></details>`:""}
+    </div>`;
+  }
+  h+=`</div>`;
+  return h;
+}
+
+/* ------------------------------------------------------------ roteamento */
+const RENDER={resumo:vResumo,esteira:vEsteira,backlog:vBacklog,pesquisas:vPesquisas,videos:vVideos,gastos:vGastos};
+function render(view){
+  const el=document.getElementById("v-"+view);
+  try{el.innerHTML=RENDER[view]()}catch(e){el.innerHTML=`<p class="none">Erro ao montar esta seção: ${esc(e.message)}</p>`}
+}
+function go(){
+  let v=(location.hash||"").replace("#","");
+  if(!VIEWS.includes(v))v=store.get("aba","resumo");
+  if(!VIEWS.includes(v))v="resumo";
+  store.set("aba",v);
+  for(const x of VIEWS)document.getElementById("v-"+x).classList.toggle("on",x===v);
+  for(const a of document.querySelectorAll("#tabs a")){
+    const on=a.getAttribute("href")==="#"+v;
+    if(on){a.setAttribute("aria-current","page");a.scrollIntoView({block:"nearest",inline:"nearest"})}else a.removeAttribute("aria-current");
+  }
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest(".seg button");
+  if(b){const k=b.parentElement.dataset.seg;store.set(k,b.dataset.v);render(k);return}
+  const t=e.target.closest(".strip button");
+  if(t){const card=t.closest(".card");card.querySelector("[data-main]").src=t.dataset.src;
+    card.querySelectorAll(".strip button").forEach(x=>x.setAttribute("aria-pressed",String(x===t)));}
+});
+document.addEventListener("toggle",e=>{
+  const d=e.target;
+  if(d.classList&&d.classList.contains("doc")&&d.open){const body=d.querySelector(".body");if(!body.dataset.ok){body.innerHTML=md(D.pesquisas[+d.dataset.i].md);body.dataset.ok="1"}}
+},true);
+window.addEventListener("hashchange",go);
+
+/* tema: segue o sistema; o botão força claro/escuro só nesta visita */
+const root=document.documentElement;
+document.getElementById("tema").addEventListener("click",()=>{
+  const escuroAgora=root.getAttribute("data-theme")?root.getAttribute("data-theme")==="dark":matchMedia("(prefers-color-scheme: dark)").matches;
+  const novo=escuroAgora?"light":"dark";root.setAttribute("data-theme",novo);
+});
+
+fetch("data.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(data=>{
+  D=data;
+  document.getElementById("loading").remove();
+  document.getElementById("gerado").textContent="atualizado "+dia(D.gerado_em)+" "+(D.gerado_em||"").slice(11,16);
+  for(const v of VIEWS)render(v);
+  go();
+}).catch(e=>{document.getElementById("loading").textContent="Não consegui carregar data.json ("+e.message+").";});
+})();
+</script>
