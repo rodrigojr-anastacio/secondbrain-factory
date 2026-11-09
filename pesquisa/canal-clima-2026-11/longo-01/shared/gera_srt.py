@@ -1,4 +1,4 @@
-# out/legendas.srt a partir dos cartões da legenda (cues.palavras: "|" separa cartões) + capítulos do YouTube.
+# out/legendas-v2.srt (v2; a v1 ficou em out/legendas.srt) a partir dos cartões da legenda (cues.palavras: "|" separa cartões) + capítulos do YouTube.
 import json
 from pathlib import Path
 A = Path(__file__).parent; R = A.parent
@@ -20,11 +20,11 @@ for i, cd in enumerate(cartoes):
     a = max(fim_ant + 0.01, t0 - 0.05); b = max(t1, a + 0.6); fim_ant = b
     out.append(f"{i+1}\n{ts(a)} --> {ts(b)}\n{' '.join(w for w, _ in cd)}\n")
 (R / "out").mkdir(exist_ok=True)
-open(R / "out/legendas.srt", "w").write("\n".join(out))
+open(R / "out/legendas-v2.srt", "w").write("\n".join(out))
 caps = [("0:00", "7 tornados em 6 dias: a pergunta")]
 mapa = {"DIA 1 · 2/11": "Dia a dia: Maringá (2/11)", "DIA 3 · 4/11": "4/11: Chapecó, Xanxerê, Erval Grande, Rio Negrinho", "DIA 6 · 7/11": "7/11: Santo Augusto e Palmeira das Missões",
-        "É INÉDITO?": "Isso é inédito?", "CAIXA 1 · POR QUÊ": "Caixa 1: por que acontece aqui", "EL NIÑO": "El Niño 2026: o que a ciência diz",
-        "CAIXA 2 · RISCO": "Caixa 2: o risco de voltar", "CAIXA 3 · ATÉ ONDE": "Caixa 3: até onde pode chegar", "O QUE FAZER": "O que fazer", "A RESPOSTA": "A resposta"}
+        "É INÉDITO?": "Isso é inédito?", "PERGUNTA 1/3 · POR QUÊ": "Pergunta 1: por que acontece aqui", "EL NIÑO": "El Niño 2026: o que a ciência diz",
+        "PERGUNTA 2/3 · RISCO": "Pergunta 2: vai voltar a acontecer?", "PERGUNTA 3/3 · ATÉ ONDE": "Pergunta 3: até onde pode chegar", "O QUE FAZER": "O que fazer", "A RESPOSTA": "A resposta"}
 for cp in c["capitulos"]:
     if cp["nome"] in mapa and mapa[cp["nome"]] not in [x[1] for x in caps]:
         t = cp["t"]; caps.append((f"{int(t // 60)}:{int(t % 60):02d}", mapa[cp["nome"]]))

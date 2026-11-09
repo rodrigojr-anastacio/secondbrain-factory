@@ -5,10 +5,10 @@ A = Path(__file__).parent; R = A.parent
 bl = json.load(open(A / "blocos.json")); tp = {b["id"]: b for b in json.load(open(A / "tempos.json"))["blocos"]}
 c = json.load(open(A / "cues.json"))
 def mmss(t): return f"{int(t // 60)}:{t % 60:04.1f}"
-L = ["| Bloco | Tempo | Aba | Marcha | Texto (tela) |", "|---|---|---|---|---|"]
+L = ["| Bloco | Tempo | Aba | Atempo | Texto (tela) |", "|---|---|---|---|---|"]
 for b in bl:
     t = tp[b["id"]]
-    L.append(f"| {b['id']} | {mmss(t['s'])}–{mmss(t['e'])} | {b['cap']} | {b['marcha']} | {b['tela'].replace('|', '/')} |")
+    L.append(f"| {b['id']} | {mmss(t['s'])}–{mmss(t['e'])} | {b['cap']} | {t.get("atempo", b["marcha"])} | {b["tela"].replace('|', '/')} |")
 open(R / "work/roteiro-tabela.md", "w").write("\n".join(L))
 S = ["| # | Tempo | Transição | SFX |", "|---|---|---|---|"]
 sfx = {"nuvem": "whoosh longo", "whip": "swish + whoosh curto", "luz": "whoosh médio baixo", "corte": "impacto grave", "orbital": "whoosh longo",

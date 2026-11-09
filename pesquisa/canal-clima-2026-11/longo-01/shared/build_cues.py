@@ -163,10 +163,10 @@ num(tw("maior", "b02"), "50 ANOS", "MAIOR EVENTO CLIMÁTICO · DEFESA CIVIL")
 num_off(S("b03")); num(tw("50", "b03"), de=0, para=50, dur=0.8, unidade="casas", faixa="DESTELHADAS · SANTO AUGUSTO · 07/11")
 num(t7, de=3, para=7, dur=1.8, unidade="tornados", faixa="CONFIRMADOS EM 6 DIAS · 2 A 7/11"); num_off(S("b05") - 0.1)
 tab(luz, S("b05") - 0.3, 0.5, 0.8); tab(luz, S("b07") - 0.4, 1.0, 0.8)
-pergunta = {"t0": S("b05") - 0.1, "t1": S("b06") - 0.1, "texto": "O que está acontecendo no Sul do Brasil para ter tantos eventos dessa magnitude?"}
+pergunta = {"t0": S("b05") - 0.1, "t1": tw("Por", "b06") - 0.15, "texto": "O que está acontecendo no Sul do Brasil? Por que tantos eventos dessa magnitude?"}  # v2: fica até as 3 perguntas
 cx_itens = [{"n": 1, "texto": "POR QUE ISSO ESTÁ ACONTECENDO?", "t": tw("Por", "b06")}, {"n": 2, "texto": "QUAL O RISCO DE VOLTAR?", "t": tw("Qual", "b06")},
             {"n": 3, "texto": "ATÉ QUE PROPORÇÃO PODE CHEGAR?", "t": tw("proporção", "b06") - 0.5}]
-cx_estados = [{"t": cx_itens[0]["t"], "modo": "grande", "ativa": 0, "feitas": []}, {"t": tw("caixinhas", "b07") + 0.3, "modo": "compacta", "ativa": 0, "feitas": []},
+cx_estados = [{"t": cx_itens[0]["t"], "modo": "grande", "ativa": 0, "feitas": []}, {"t": S("b07") + 0.3, "modo": "compacta", "ativa": 0, "feitas": []},
               {"t": S("b08") - 0.5, "modo": "oculto"}]
 
 # T1: push-in que atravessa a nuvem → Maringá de madrugada
@@ -176,7 +176,7 @@ tab(noite, t_T1 - 0.2, 0.75, 0.6)
 
 # ======================= DIA 1 (b08–b10): Maringá =======================
 cal = {"t0": S("b08") - 0.2, "t1": E("b18") + 0.8, "dias": [2, 3, 4, 5, 6, 7], "eventos": []}
-cal["eventos"].append({"t": tw("primeiro", "b08"), "dia": 1, "tipo": "foco"})
+cal["eventos"].append({"t": tw("primeiro|1", "b08"), "dia": 1, "tipo": "foco"})
 cam(t_T1 + 0.25, P(-50.5, -28.5), 9.0, 50, -4, corte=True)
 CIC = P(-48.6, -31.9)
 cam(F("b08", 1) + 1.5, P(-50.0, -29.5), 15.0, 55, 4)
@@ -236,7 +236,7 @@ clip("chapeco-palmeiras", S("b13"), F("b13", 1) - 0.1, pino="ch4")
 num(tw("2400", "b13") if False else tw("cerca", "b13"), de=0, para=2400, dur=1.2, faixa="CASAS E INDÚSTRIAS DESTELHADAS · BALANÇO DE 05/11")
 clip("chapeco-telhas", F("b13", 1), E("b13") + 0.4, lado="esq")
 num(tw("15", "b13"), "15 MIN", "AVISO DE TEMPORAL ANTES DO TORNADO · DEFESA CIVIL")
-t_xa = tw("Xanxerê|Chanch|Xanx", "b14")
+t_xa = tw("Xanxerê|Chanch|Xanx|Shanx", "b14")
 cam(S("b14") + 0.5, off(CH, 0.2, -0.2), 7.5, 50, 0); cam(t_xa + 0.5, XA, 6.6, 46, -10); cam(E("b14"), XA, 7.0, 50, 6)
 num(tw("18|Dezoito", "b14"), "18 MIN", "DEPOIS · MESMA LINHA DE TEMPESTADES")
 fios.append({"pontos": [CH, XA], "t0": tw("18|Dezoito", "b14"), "t1": t_xa, "t2": E("b16")})
@@ -246,7 +246,7 @@ funis.append({"x": XA[0] + 0.1, "z": XA[1] - 0.1, "t0": t_xa + 0.1, "t1": E("b14
 num(tw("40", "b14"), "~40 km", "DE CHAPECÓ")
 clip("xanxere-rodovia", tw("Caminhões", "b14") - 0.3, E("b14") + 0.7, pino="xa4")
 num_off(F("b14", 1))
-t_eg, t_rn = tw("Erval", "b15"), tw("Negrinho", "b15")
+t_eg, t_rn = tw("Erval|Ervao|Erva", "b15"), tw("Negrinho", "b15")
 cam(S("b15") + 1.0, EG, 6.8, 48, -6); cam(F("b15", 1) - 0.3, EG, 6.4, 46, 8)
 clip("xanxere-drone", S("b15") - 0.6, t_eg - 0.2, lado="esq")
 pino("eg4", "ERVAL GRANDE", "ERVAL GRANDE · RS", "04/11 · MANHÃ", t_eg, t2=E("b16"))
@@ -277,7 +277,7 @@ cal["eventos"].append({"t": tw("Sábado", "b17"), "dia": 7, "tipo": "foco"})
 cam(t_T3 + 0.7, [-1.9, 0.4], 10, 54, -10); cam(F("b17", 1) + 1, [-1.9, 0.4], 9, 52, 0)
 sats.append({"img": "img/sat-sa-ir.jpg", "caixa": SUL_BOX, "op": janela_op(F("b17", 1) - 0.2, F("b17", 2) + 0.5, 0.5)})
 foto("sat-sa-ir.jpg", F("b17", 1) + 0.3, F("b17", 2) + 0.3, "SATÉLITE · 07/11 · MADRUGADA", "IMAGEM: GOES-19 · NOAA/NASA (GIBS)", lado="dir")
-t_sa7, t_pm = tw("Santo", "b17"), tw("Palmeira", "b17")
+t_sa7, t_pm = (tw("Augusto", "b17") - 0.3), tw("Palmeira", "b17")
 cam(t_sa7, SA, 6.4, 44, -8); cam(F("b17", 3), off(SA, 0.25, 0.05), 6.8, 48, 4); cam(t_pm + 0.3, PM, 6.6, 46, 10)
 pino("sa7", "SANTO AUGUSTO", "SANTO AUGUSTO · RS", "07/11 · 1H18", t_sa7, t2=E("b17") + 0.5)
 pino("pm7", "PALMEIRA DAS MISSÕES", "PALMEIRA DAS MISSÕES · RS", "07/11 · 1H54", t_pm, t2=E("b17") + 0.5)
@@ -313,7 +313,7 @@ tab(arquivo, t_T4, 0.85, 0.05); tab(arquivo, F("b22", 0) - 0.4, 0.0, 0.8)
 cam(t_T4, off(XA, -0.6, -0.2), 9, 56, 20, corte=True); cam(E("b19"), off(XA, -0.6, -0.3), 8, 52, 8)
 cartao(S("b19") + 0.5, E("b19") + 0.2, "A PERGUNTA", "Isso é inédito?", carimbo="NÃO.", t_carimbo=tw("não", "b19", apos=F("b19", 2)))
 foto("modis-xanxere2015.jpg", F("b19", 1) + 0.2, E("b19") + 1.0, "SATÉLITE · 20/04/2015 · O DIA DO TORNADO DE XANXERÊ", "IMAGEM: NASA (MODIS TERRA, GIBS) · DOMÍNIO PÚBLICO", lado="dir")
-t_x15 = tw("Xanxerê|Chanch|Xanx", "b20")
+t_x15 = tw("Xanxerê|Chanch|Xanx|Shanx", "b20")
 cam(t_x15, XA, 6.6, 46, -6); cam(F("b20", 1) - 0.4, XA, 7.0, 48, 6)
 pino("x15", "XANXERÊ", "XANXERÊ · SC", "20/04/2015", tw("abril", "b20"), t2=E("b21") + 0.4, cor="#1F2A44")
 dest("XANXERÊ", tw("abril", "b20") + 0.3, t2=F("b20", 1), cor="#B98B5A")
@@ -333,12 +333,12 @@ pino("rbi", "RIO BONITO DO IGUAÇU", "RIO BONITO DO IGUAÇU · PR", "07/11/2025 
 dest("RIO BONITO DO IGUAÇU", t_rbi + 0.2, t2=E("b21") + 0.4, cor="#B98B5A"); dest("QUEDAS DO IGUAÇU", t_rbi + 0.4, t2=E("b21") + 0.4, cor="#B98B5A")
 rbi_ini = off(QI, -0.15, -0.05); rbi_fim = [RBI[0] + (RBI[0] - QI[0]) * 1.15, RBI[1] + (RBI[1] - QI[1]) * 1.15]
 rastros.append({"pontos": [rbi_ini, rbi_fim], "largura": 0.04, "t0": F("b21", 1) - 0.2, "t1": F("b21", 1) + 2.4, "t2": E("b21") + 0.3})
-num(tw("F4", "b21"), "F4", "LAUDO FINAL DO SIMEPAR · 26/11/2025")
+num((tw("F4|4", "b21") - 0.2), "F4", "LAUDO FINAL DO SIMEPAR · 26/11/2025")
 num(tw("75", "b21"), de=0, para=75, dur=1.0, unidade="km", faixa="DE RASTRO · ATÉ 3,2 KM DE LARGURA")
-clip("rbi-comercio", tw("F4", "b21") + 0.3, F("b21", 2) - 0.1, pino="rbi")
+clip("rbi-comercio", (tw("F4|4", "b21") - 0.2) + 0.3, F("b21", 2) - 0.1, pino="rbi")
 clip("rbi-rastro", F("b21", 2), E("b21") + 0.6, lado="esq")
 num(tw("90", "b21"), "90%", "DA ÁREA URBANA ATINGIDA · SIMEPAR")
-num(tw("Sete", "b21", apos=F("b21", 2) + 1), "7", "MORTES NO PARANÁ", unidade="mortes")
+num(tw("Sete|7", "b21", apos=F("b21", 2) + 1), "7", "MORTES NO PARANÁ", unidade="mortes")
 num_off(E("b21") + 0.3)
 cam(S("b22") + 0.5, SUL, 16, 62, -6); cam(E("b23"), SUL, 15, 64, 8)
 tab(luz, S("b22") - 0.3, 0.6, 0.6); tab(luz, E("b23") + 0.2, 1.0, 0.8)
@@ -365,7 +365,7 @@ t_T5 = meio("b24", "b25")
 trans(t_T5, "orbital", 1.4, "zoom-out orbital: a câmera gira e sobe até revelar o continente, da Amazônia aos Andes")
 cam(t_T5 + 0.5, P(-58, -22), 52, 64, 30); cam(E("b25"), CONT, 70, 66, 6)
 
-# ======================= CAIXA 1: POR QUÊ (b25–b33) =======================
+# ======================= PERGUNTA 1: POR QUÊ (b25–b33) =======================
 cx_estados += [{"t": S("b25") - 0.3, "modo": "grande", "ativa": 1, "feitas": [], "volta": True}, {"t": E("b25") + 0.3, "modo": "compacta", "ativa": 1, "feitas": []}]
 AMZ = P(-62, -6)
 cam(F("b26", 1), P(-61, -10), 52, 60, -6); cam(F("b26", 2), P(-60, -16), 56, 58, 4); cam(E("b26"), P(-60, -20), 58, 56, 10)
@@ -421,9 +421,9 @@ foto("us-nuvem-funil-descendo-noaa.jpg", F("b32", 1) + 0.6, E("b32") + 1.2, "NUV
 manchete(F("b32", 1) + 0.2, E("b32") + 0.8, "NOAA/NSSL · SEVERE WEATHER 101", "“A verdade é que não entendemos totalmente.”", "não entendemos totalmente")
 cam(S("b33") + 0.3, CONT, 62, 64, -4); cam(E("b33") + 0.6, CONT, 64, 66, 6)
 checklists.append({"t0": S("b33") - 0.1, "t1": E("b33") + 0.9, "titulo": "OS 4 INGREDIENTES", "itens": [
-    ["UMIDADE DA AMAZÔNIA", tw("Umidade", "b33")], ["A PAREDE DOS ANDES", tw("parede", "b33")], ["FRENTES FRIAS", tw("frentes", "b33")], ["VENTO QUE MUDA COM A ALTURA", tw("vento", "b33")]]})
+    ["UMIDADE DA AMAZÔNIA", tw("Umidade|Humidade", "b33")], ["A PAREDE DOS ANDES", tw("parede", "b33")], ["FRENTES FRIAS", tw("frentes", "b33")], ["VENTO QUE MUDA COM A ALTURA", tw("vento", "b33")]]})
 tab(andes_t, tw("parede", "b33"), 0.7, 0.5); tab(andes_t, E("b33") + 0.5, 0.0, 0.8)
-seta("#E07A3A", jato, tw("Umidade", "b33"), tw("Umidade", "b33") + 1.2, E("b33") + 0.4, y=1.6, r=0.5) if False else None
+seta("#E07A3A", jato, tw("Umidade|Humidade", "b33"), tw("Umidade|Humidade", "b33") + 1.2, E("b33") + 0.4, y=1.6, r=0.5) if False else None
 seta("#4C7FB8", [(-64.0, -39.0), (-61.5, -35.5), (-58.8, -32.0), (-56.0, -29.4), (-53.8, -28.2)], tw("frentes", "b33"), tw("frentes", "b33") + 1.2, E("b33") + 0.4, y=1.2, r=0.45)
 
 # T6: rack focus → El Niño
@@ -435,7 +435,7 @@ tab(desfoque, t_T6 - 0.4, 1.0, 0.6); tab(desfoque, S("b35") - 0.3, 0.0, 0.8)
 cam(t_T6 + 0.2, P(-75, -12), 75, 70, -10); cam(E("b34"), P(-72, -14), 72, 68, 0)
 tab(quente, S("b34"), 0.75, 1.2); tab(quente, E("b36") + 0.6, 0.0, 1.0)
 foto("sst-anom.jpg", S("b34") + 0.1, F("b34", 3) - 0.2, "TEMPERATURA DO MAR ACIMA DO NORMAL · 05/11/2026", "IMAGEM: NASA JPL (MUR SST, GIBS) · DOMÍNIO PÚBLICO", lado="centro", fmt="grande")
-num(tw("dois", "b34") - 0.2, "+2 °C", "PACÍFICO EQUATORIAL · ACIMA DO NORMAL · NOAA")
+num(tw("dois|2", "b34") - 0.2, "+2 °C", "PACÍFICO EQUATORIAL · ACIMA DO NORMAL · NOAA")
 num(tw("muito", "b34"), "MUITO FORTE", "EL NIÑO · E AINDA SE FORTALECENDO")
 oni = [l.split() for l in open(A.parent / "dl/dados/oni.ascii.txt").read().split("\n")[1:] if l.strip()]
 anual = {}
@@ -464,7 +464,7 @@ RISK_C = P(-53.3, -27.0)
 cam(t_T7 + 0.05, RISK_C, 11, 62, 4, corte=True)
 regioes.append({"anel": anel_elipse((-53.3, -27.0), 0, 1.9, 1.6, 40), "cor": "#E8505B", "op": janela_op(t_T7, E("b37") + 0.3, 1.0, 0.3, 0.9), "max": 0.4, "pulsa": True}); cam(E("b37"), RISK_C, 12, 62, 10)
 
-# ======================= CAIXA 2: RISCO (b37–b41) =======================
+# ======================= PERGUNTA 2: RISCO (b37–b41) =======================
 cx_estados += [{"t": S("b37") - 0.3, "modo": "grande", "ativa": 2, "feitas": [1], "volta": True}, {"t": E("b37") + 0.3, "modo": "compacta", "ativa": 2, "feitas": [1]}]
 num(tw("Alto", "b37"), "ALTO", "RISCO DE NOVOS TEMPORAIS SEVEROS · ATÉ O VERÃO")
 num_off(E("b37") + 0.3)
@@ -493,17 +493,17 @@ num_off(E("b41") + 0.3)
 
 # T8: whip pan vertical → escala
 t_T8 = meio("b41", "b42")
-trans(t_T8, "whip_v", 0.6, "whip pan vertical (tilt rápido) com motion blur para a caixinha 3")
+trans(t_T8, "whip_v", 0.6, "whip pan vertical (tilt rápido) com motion blur para a pergunta 3")
 cam(t_T8 - 0.25, [0.6, -3.0], 19, 64, 12); cam(t_T8 + 0.25, SUL, 22, 70, -8, corte=True)
 
-# ======================= CAIXA 3: ATÉ ONDE (b42–b46) =======================
+# ======================= PERGUNTA 3: ATÉ ONDE (b42–b46) =======================
 cx_estados += [{"t": S("b42") - 0.3, "modo": "grande", "ativa": 3, "feitas": [1, 2], "volta": True}, {"t": E("b42") + 0.3, "modo": "compacta", "ativa": 3, "feitas": [1, 2]}]
 cam(E("b43"), SUL, 21, 70, 6)
 tab(luz, S("b43") - 0.2, 0.6, 0.6); tab(luz, E("b43") + 0.2, 1.0, 0.6)
 foto("us-moore-2013-dano-ef5-nws.jpg", F("b43", 3) - 0.1, E("b43") + 0.8, "O QUE SOBRA DEPOIS DE UM EF5 · MOORE, EUA, 2013", "FOTO: NWS NORMAN/NOAA · DOMÍNIO PÚBLICO", lado="dir")
 graficos.append({"tipo": "escala", "t0": S("b43") + 0.2, "t1": E("b43") + 0.5, "titulo": "ESCALA FUJITA (F) · VENTO ESTIMADO PELO ESTRAGO",
                  "faixas": [["F0", 64, 116], ["F1", 117, 180], ["F2", 182, 253], ["F3", 254, 332], ["F4", 333, 418], ["F5", 419, 512]],
-                 "marcas": [["F2", "MARINGÁ 2026", tw("Maringá", "b43")], ["F4", "RIO BONITO DO IGUAÇU 2025", tw("Rio", "b43")], ["F5", "?", tw("F5|cinco", "b43", apos=F("b43", 3) + 1.0)]],
+                 "marcas": [["F2", "MARINGÁ 2026", tw("Maringá", "b43")], ["F4", "RIO BONITO DO IGUAÇU 2025", tw("Rio", "b43")], ["F5", "?", tw("F5|cinco|FR5", "b43", apos=F("b43", 3) + 1.0)]],
                  "t_barras": S("b43") + 0.4, "fonte": "NOAA/NWS"})
 t_sj = tw("San", "b44")
 UGA = P(-57.08, -29.76)
@@ -512,7 +512,7 @@ pino("sj", "SAN JUSTO", "SAN JUSTO · ARGENTINA", "10/01/1973 · F5", t_sj, t2=E
 fios.append({"pontos": [UGA, SJ], "t0": tw("300", "b44") - 0.4, "t1": tw("300", "b44") + 1.0, "t2": E("b44") + 0.5, "grosso": 2})
 rot("~300 KM", None, tw("300", "b44") + 0.5, E("b44") + 0.4, xz=[(UGA[0] + SJ[0]) / 2, (UGA[1] + SJ[1]) / 2 - 0.6])
 funis.append({"x": SJ[0] + 0.1, "z": SJ[1] - 0.1, "t0": t_sj + 0.2, "t1": E("b44") + 0.3, "s": 1.5})
-num(tw("F5", "b44"), "0", "F5 CONFIRMADOS NO BRASIL")
+num(tw("F5|F", "b44"), "0", "F5 CONFIRMADOS NO BRASIL")
 num(t_sj + 0.2, "F5", "SAN JUSTO · ARGENTINA · 10/01/1973")
 num(tw("63", "b44"), "63", "MORTOS · O ÚNICO F5 DA AMÉRICA DO SUL", unidade="mortos")
 num_off(E("b44") + 0.4)

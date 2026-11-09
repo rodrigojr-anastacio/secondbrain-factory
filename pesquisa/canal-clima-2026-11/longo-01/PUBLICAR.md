@@ -1,6 +1,6 @@
 # PUBLICAR: longo 01 (o Rodrigo publica; nada foi enviado ao YouTube)
 
-**Arquivo:** `out/video.mp4` (1920×1080, 30 fps, áudio AAC −14 LUFS). **Legendas:** `out/legendas.srt` (pt-BR). **Thumbs:** `out/thumb-1.jpg`, `out/thumb-2.jpg`, `out/thumb-3.jpg` (para o "Testar e comparar").
+**Arquivo (v2, 08/11):** `out/video-v2.mp4` (1920×1080, 30 fps, áudio AAC −14 LUFS). **Legendas:** `out/legendas-v2.srt` (pt-BR). **Thumbs:** `out/thumb-1.jpg`, `out/thumb-2.jpg`, `out/thumb-3.jpg` (para o "Testar e comparar"; sem mudança na v2: nenhum texto das thumbs citava "caixinha").
 
 ## Título
 **7 tornados em 6 dias: o que está acontecendo no Sul do Brasil?**
@@ -16,16 +16,16 @@ Alertas da Defesa Civil: mande seu CEP por SMS para 40199 (grátis). Emergência
 
 CAPÍTULOS
 0:00 7 tornados em 6 dias: a pergunta
-0:50 Dia a dia: Maringá (2/11)
+0:53 Dia a dia: Maringá (2/11)
 1:33 4/11: Chapecó, Xanxerê, Erval Grande, Rio Negrinho
-2:54 7/11: Santo Augusto e Palmeira das Missões
-3:25 Isso é inédito?
-5:03 Caixa 1: por que acontece aqui
-6:56 El Niño 2026: o que a ciência diz
-7:54 Caixa 2: o risco de voltar
-8:56 Caixa 3: até onde pode chegar
-10:09 O que fazer
-10:51 A resposta
+2:42 7/11: Santo Augusto e Palmeira das Missões
+3:10 Isso é inédito?
+4:35 Pergunta 1: por que acontece aqui
+6:21 El Niño 2026: o que a ciência diz
+7:12 Pergunta 2: vai voltar a acontecer?
+8:09 Pergunta 3: até onde pode chegar
+9:14 O que fazer
+9:55 A resposta
 
 FONTES
 • Simepar (Maringá F2, 02/11; laudo de Rio Bonito do Iguaçu F4, 26/11/2025)
@@ -71,8 +71,8 @@ Efeitos sonoros: "WWS Typewriter" – Work With Sounds / Konrad Gutkowski (CC BY
 tornado, tornados no Brasil, tornado Santa Catarina, tornado Chapecó, tornado Maringá, tornado Xanxerê, tornado Rio Grande do Sul, Santo Augusto, El Niño 2026, supercélula, corredor de tornados, clima extremo, Defesa Civil, tempestade, Sul do Brasil
 
 ## Ao publicar
-- **Categoria:** Educação (ou Notícias e política). Idioma: português (Brasil). Envie `out/legendas.srt` como legenda pt-BR.
-- "Conteúdo alterado ou sintético": **não** (mapa e gráficos são animação; imagens reais sem alteração; a voz é sintética de TTS, mas narra um texto nosso: o YouTube pede a marcação só para conteúdo realista que possa enganar — Hipótese; se preferir, marque "sim").
+- **Categoria:** Educação (ou Notícias e política). Idioma: português (Brasil). Envie `out/legendas-v2.srt` como legenda pt-BR.
+- "Conteúdo alterado ou sintético": **não** (mapa e gráficos são animação; imagens reais sem alteração; a voz é sintética (ElevenLabs v3), mas narra um texto nosso: o YouTube pede a marcação só para conteúdo realista que possa enganar — Hipótese; se preferir, marque "sim").
 - Não é para crianças.
 - Antes de publicar: reconferir a discussão do El Niño da NOAA/CPC de **12/11/2026** e se a contagem de 7 tornados mudou (ver `SOURCES.md`).
 - Os trechos de terceiros vão **sem pedido de autorização** (decisão do Rodrigo, 08/11), com crédito na tela e aqui. Se algum autor pedir remoção, troque o trecho: `shared/clipes.py` + re-render só da parte afetada (`shared/render.sh N` e `junta`).
