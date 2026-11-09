@@ -1,0 +1,437 @@
+[
+ {
+  "id": "N001",
+  "texto": "Londres, septiembre de mil novecientos setenta y ocho. Un hombre espera el autobús junto al puente de Waterloo.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "Siente un pinchazo en el muslo. Detrás, un desconocido recoge un paraguas y se sube a un taxi.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "Cuatro días después, Georgi Markov está muerto. En su muslo hay una bolita de metal de menos de dos milímetros.",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "Esta es TODA la historia de la KGB. Y de cómo aprendió a alcanzar a sus enemigos en cualquier lugar del mundo.",
+  "ideia": true
+ },
+ {
+  "id": "N005",
+  "texto": "La Comisión. Petrogrado, veinte de diciembre de mil novecientos diecisiete. Lenin lleva seis semanas en el poder y teme perderlo.",
+  "ideia": false
+ },
+ {
+  "id": "N006",
+  "texto": "Hay huelgas, sabotajes y oficiales del zar que conspiran. Así que crea una Comisión Extraordinaria. Por sus iniciales en ruso, la llaman Cheká.",
+  "ideia": false
+ },
+ {
+  "id": "N007",
+  "texto": "La dirige Félix Dzerzhinski, un noble polaco que pasó más de diez años entre cárceles, trabajos forzados y destierro. Al principio, tiene unas pocas decenas de hombres.",
+  "ideia": false
+ },
+ {
+  "id": "N008",
+  "texto": "Treinta de agosto de mil novecientos dieciocho. Lenin recibe dos disparos a la salida de una fábrica en Moscú. Sobrevive.",
+  "ideia": false
+ },
+ {
+  "id": "N009",
+  "texto": "Días después, un decreto lleva un nombre oficial: Terror Rojo. La Cheká puede detener y fusilar sin juicio. En pocos años, con sus tropas, suma más de doscientos mil hombres.",
+  "ideia": true
+ },
+ {
+  "id": "N010",
+  "texto": "El Edificio. Mil novecientos dieciocho. El gobierno se muda a Moscú, y la Cheká se instala en la plaza Lubianka, en la sede de una compañía de seguros.",
+  "ideia": false
+ },
+ {
+  "id": "N011",
+  "texto": "Su nombre se vuelve sinónimo del organismo. Lubianka significa interrogatorios, celdas y gente que entra y no vuelve a salir.",
+  "ideia": false
+ },
+ {
+  "id": "N012",
+  "texto": "En Moscú circula un chiste: es el edificio más alto de la ciudad, porque desde el sótano ya se ve Siberia.",
+  "ideia": false
+ },
+ {
+  "id": "N013",
+  "texto": "La Cheká cambia de nombre: GPU, OGPU y, en mil novecientos treinta y cuatro, NKVD. Las siglas cambian. El edificio, no.",
+  "ideia": false
+ },
+ {
+  "id": "N014",
+  "texto": "Y en mil novecientos treinta y siete, el Kremlin le pide algo nuevo: números.",
+  "ideia": true
+ },
+ {
+  "id": "N015",
+  "texto": "La Cuota. Treinta de julio de mil novecientos treinta y siete. El jefe del NKVD, Nikolái Yezhov, firma la orden número cero cero cuatro cuatro siete.",
+  "ideia": false
+ },
+ {
+  "id": "N016",
+  "texto": "No investiga ningún delito. Reparte cifras. Cada región recibe un número de personas que fusilar y otro que enviar a los campos de trabajo.",
+  "ideia": false
+ },
+ {
+  "id": "N017",
+  "texto": "En la primera tabla hay casi setenta y seis mil fusilamientos. Muchas regiones piden que les suban la cuota.",
+  "ideia": false
+ },
+ {
+  "id": "N018",
+  "texto": "Entre mil novecientos treinta y siete y mil novecientos treinta y ocho, los registros soviéticos cuentan unas seiscientas ochenta mil ejecuciones. Es el Gran Terror.",
+  "ideia": false
+ },
+ {
+  "id": "N019",
+  "texto": "Y el terror devora a quien lo dirige. Yezhov es apartado, arrestado y fusilado. Su lugar lo ocupa Lavrenti Beria.",
+  "ideia": false
+ },
+ {
+  "id": "N020",
+  "texto": "Pero Stalin todavía tiene un enemigo vivo. Al otro lado del océano.",
+  "ideia": true
+ },
+ {
+  "id": "N021",
+  "texto": "El Piolet. Coyoacán, Ciudad de México, mil novecientos cuarenta. León Trotski, el gran rival de Stalin, vive exiliado en una casa de muros altos.",
+  "ideia": false
+ },
+ {
+  "id": "N022",
+  "texto": "En mayo, un comando armado ametralla su dormitorio de madrugada. Lo encabeza el pintor David Alfaro Siqueiros. Trotski y su esposa se salvan tirándose al suelo.",
+  "ideia": false
+ },
+ {
+  "id": "N023",
+  "texto": "Veinte de agosto. Un visitante conocido de la casa, novio de una militante trotskista estadounidense, le pide que revise un artículo.",
+  "ideia": false
+ },
+ {
+  "id": "N024",
+  "texto": "Mientras Trotski lee, el hombre saca de su gabardina un piolet de alpinista y lo golpea en la cabeza. Trotski muere al día siguiente.",
+  "ideia": false
+ },
+ {
+  "id": "N025",
+  "texto": "El asesino es Ramón Mercader, un comunista español reclutado por el NKVD. Pasa veinte años preso en México. Al salir, Moscú lo condecora como Héroe de la Unión Soviética.",
+  "ideia": false
+ },
+ {
+  "id": "N026",
+  "texto": "Muere en La Habana, en mil novecientos setenta y ocho. El mismo año del paraguas de Londres.",
+  "ideia": true
+ },
+ {
+  "id": "N027",
+  "texto": "La Bomba. En la Segunda Guerra Mundial, el mayor secreto del planeta es estadounidense: la bomba atómica.",
+  "ideia": false
+ },
+ {
+  "id": "N028",
+  "texto": "La inteligencia soviética entra desde dentro. Klaus Fuchs, un físico de Los Álamos nacido en Alemania, pasa a Moscú detalles de la bomba de plutonio.",
+  "ideia": false
+ },
+ {
+  "id": "N029",
+  "texto": "Veintinueve de agosto de mil novecientos cuarenta y nueve. En Kazajistán, la Unión Soviética detona su primera bomba atómica, años antes de lo que esperaba Washington.",
+  "ideia": false
+ },
+ {
+  "id": "N030",
+  "texto": "Su diseño se parece mucho al de la bomba de Nagasaki. El espionaje no ganó la carrera solo, pero les ahorró tiempo.",
+  "ideia": false
+ },
+ {
+  "id": "N031",
+  "texto": "Y el hombre que supervisa ese proyecto atómico es el mismo que manda en la policía secreta: Beria.",
+  "ideia": true
+ },
+ {
+  "id": "N032",
+  "texto": "El Escudo. Marzo de mil novecientos cincuenta y tres. Muere Stalin. Beria controla la policía secreta y parece su heredero. Los demás líderes le tienen miedo.",
+  "ideia": false
+ },
+ {
+  "id": "N033",
+  "texto": "En junio, en una reunión en el Kremlin, sus propios colegas lo arrestan. En diciembre, lo fusilan.",
+  "ideia": false
+ },
+ {
+  "id": "N034",
+  "texto": "Para que nadie vuelva a acumular tanto poder, la policía secreta queda bajo la vigilancia del Partido.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "Trece de marzo de mil novecientos cincuenta y cuatro. Nace un nombre nuevo: Comité de Seguridad del Estado. En ruso, KGB.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "Su emblema: un escudo y una espada. Y para entonces, sus espías ya viven en Estados Unidos como vecinos cualquiera.",
+  "ideia": true
+ },
+ {
+  "id": "N037",
+  "texto": "La Moneda. Brooklyn, mil novecientos cincuenta y tres. Un repartidor de periódicos recibe una moneda de cinco centavos. Se le cae y se parte en dos.",
+  "ideia": false
+ },
+ {
+  "id": "N038",
+  "texto": "Es hueca. Dentro hay un microfilm con columnas de números. El FBI tarda cuatro años en saber de quién es.",
+  "ideia": false
+ },
+ {
+  "id": "N039",
+  "texto": "En mil novecientos cincuenta y siete, un espía soviético entra en la embajada estadounidense de París y se entrega. Y lleva al FBI hasta un pintor aficionado de Brooklyn.",
+  "ideia": false
+ },
+ {
+  "id": "N040",
+  "texto": "Es un coronel de la KGB que se hace llamar Rudolf Abel. Lo condenan a treinta años de cárcel.",
+  "ideia": false
+ },
+ {
+  "id": "N041",
+  "texto": "Pero en mil novecientos sesenta y dos, en un puente de Berlín, lo cambian por un piloto estadounidense derribado sobre la Unión Soviética: Francis Gary Powers.",
+  "ideia": false
+ },
+ {
+  "id": "N042",
+  "texto": "Ese mismo año, la Guerra Fría llega a una isla del Caribe.",
+  "ideia": true
+ },
+ {
+  "id": "N043",
+  "texto": "El Almuerzo. Octubre de mil novecientos sesenta y dos. Estados Unidos descubre misiles nucleares soviéticos en Cuba. El mundo está al borde de una guerra nuclear.",
+  "ideia": false
+ },
+ {
+  "id": "N044",
+  "texto": "El viernes veintiséis, el jefe de la KGB en Washington, Alexandr Feklisov, invita a almorzar a un periodista de la televisión estadounidense, John Scali.",
+  "ideia": false
+ },
+ {
+  "id": "N045",
+  "texto": "Le plantea una salida: Moscú retira los misiles y Washington promete no invadir Cuba. Esa misma tarde, Scali lo cuenta en el Departamento de Estado.",
+  "ideia": false
+ },
+ {
+  "id": "N046",
+  "texto": "Todavía se discute si hablaba por orden de Moscú o por su cuenta. Pero el acuerdo final se parece mucho a lo que dijo en esa mesa.",
+  "ideia": false
+ },
+ {
+  "id": "N047",
+  "texto": "En Cuba, mientras tanto, la KGB ya tiene un aliado. Según historiadores del espionaje, ayudó a formar y entrenar a los servicios de inteligencia de Fidel Castro.",
+  "ideia": false
+ },
+ {
+  "id": "N048",
+  "texto": "Un año después, la KGB recibe en México a un visitante inesperado.",
+  "ideia": true
+ },
+ {
+  "id": "N049",
+  "texto": "La Embajada. Ciudad de México, finales de septiembre de mil novecientos sesenta y tres. Un joven estadounidense entra en la embajada soviética y pide una visa urgente.",
+  "ideia": false
+ },
+ {
+  "id": "N050",
+  "texto": "Lo reciben oficiales de la KGB con cargo de diplomáticos. Uno de ellos, Oleg Nechiporenko, contará después que el joven estaba alterado y que puso un revólver sobre la mesa.",
+  "ideia": false
+ },
+ {
+  "id": "N051",
+  "texto": "No le dan la visa. Se llama Lee Harvey Oswald. Ocho semanas después, en Dallas, es detenido por el asesinato del presidente John F. Kennedy.",
+  "ideia": false
+ },
+ {
+  "id": "N052",
+  "texto": "La CIA vigilaba esa embajada con cámaras ocultas. Ninguna investigación oficial encontró pruebas de que la KGB participara en el asesinato.",
+  "ideia": true
+ },
+ {
+  "id": "N053",
+  "texto": "El Hospital. Mil novecientos sesenta y siete. Yuri Andrópov se convierte en jefe de la KGB. Lo será durante quince años, más que nadie.",
+  "ideia": false
+ },
+ {
+  "id": "N054",
+  "texto": "Once años antes, como embajador en Budapest, vio cómo los tanques soviéticos aplastaban la revolución húngara. Según sus biógrafos, aprendió una lección: la disidencia hay que cortarla pronto.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "Crea un departamento solo para eso, la Quinta Dirección. Y la KGB recurre cada vez más a un arma: el diagnóstico.",
+  "ideia": false
+ },
+ {
+  "id": "N056",
+  "texto": "Hay disidentes que terminan en hospitales psiquiátricos, diagnosticados con esquizofrenia lenta, una enfermedad que casi solo existía en la Unión Soviética. Según los propios disidentes, a menudo el único síntoma era disentir.",
+  "ideia": false
+ },
+ {
+  "id": "N057",
+  "texto": "Ni la fama protege. En mil novecientos ochenta, Andréi Sájarov, padre de la bomba de hidrógeno soviética y Nobel de la Paz, es desterrado a Gorki, una ciudad cerrada.",
+  "ideia": false
+ },
+ {
+  "id": "N058",
+  "texto": "Pero contra los enemigos que viven en Occidente, la KGB tiene otros métodos.",
+  "ideia": true
+ },
+ {
+  "id": "N059",
+  "texto": "Si te gustan estos expedientes, suscríbete. Y ahora, volvemos al puente de Waterloo.",
+  "ideia": true
+ },
+ {
+  "id": "N060",
+  "texto": "El Paraguas. Georgi Markov era un escritor búlgaro exiliado en Londres. En la BBC y en Radio Europa Libre se burlaba del dictador de Bulgaria, Todor Zhivkov.",
+  "ideia": false
+ },
+ {
+  "id": "N061",
+  "texto": "La bolita de su muslo tenía dos agujeros diminutos. Los forenses británicos no hallaron rastro del veneno, pero concluyeron que probablemente era ricina, un veneno sin antídoto.",
+  "ideia": false
+ },
+ {
+  "id": "N062",
+  "texto": "Según los investigadores, la operación fue del servicio secreto búlgaro. Y el exgeneral de la KGB Oleg Kalugin afirmó después que Andrópov aprobó la ayuda y que el veneno salió de un laboratorio de la KGB.",
+  "ideia": false
+ },
+ {
+  "id": "N063",
+  "texto": "Menos de dos semanas antes, en el metro de París, otro exiliado búlgaro, Vladimir Kostov, había sentido el mismo pinchazo. Sobrevivió.",
+  "ideia": false
+ },
+ {
+  "id": "N064",
+  "texto": "Nadie fue condenado jamás.",
+  "ideia": true
+ },
+ {
+  "id": "N065",
+  "texto": "La KGB era temida en Occidente. Pero algunos de sus enemigos más peligrosos estaban dentro.",
+  "ideia": true
+ },
+ {
+  "id": "N066",
+  "texto": "La Bolsa. Mayo de mil novecientos ochenta y cinco. Oleg Gordievski, coronel de la KGB en Londres, lleva once años trabajando en secreto para el MI6 británico. Y lo llaman a Moscú.",
+  "ideia": false
+ },
+ {
+  "id": "N067",
+  "texto": "Allí lo drogan y lo interrogan. Sospechan de él, pero todavía no tienen pruebas.",
+  "ideia": false
+ },
+ {
+  "id": "N068",
+  "texto": "Una tarde de julio, se queda quieto en una esquina de Moscú con una bolsa de un supermercado británico. Un agente británico pasa a su lado comiendo una barra de chocolate. Es la señal.",
+  "ideia": false
+ },
+ {
+  "id": "N069",
+  "texto": "Días después sale a correr, despista a sus vigilantes y viaja hacia la frontera. Cruza a Finlandia en el maletero de un coche de diplomáticos británicos, mientras los perros de los guardias rodean el coche.",
+  "ideia": false
+ },
+ {
+  "id": "N070",
+  "texto": "La KGB lo condena a muerte en ausencia. Quien probablemente lo delató fue un oficial de la CIA que vendía secretos a Moscú: Aldrich Ames.",
+  "ideia": false
+ },
+ {
+  "id": "N071",
+  "texto": "Seis años después, quien se derrumba es la propia KGB.",
+  "ideia": true
+ },
+ {
+  "id": "N072",
+  "texto": "La Estatua. Agosto de mil novecientos noventa y uno. El jefe de la KGB, Vladímir Kriuchkov, encabeza con otros un golpe contra Mijaíl Gorbachov. Dura tres días y fracasa.",
+  "ideia": false
+ },
+ {
+  "id": "N073",
+  "texto": "La noche del veintidós de agosto, una multitud rodea la Lubianka. En el centro de la plaza está la estatua de Félix Dzerzhinski, el fundador de la Cheká.",
+  "ideia": false
+ },
+ {
+  "id": "N074",
+  "texto": "Una grúa la levanta por el cuello y la arranca del pedestal. La gente aplaude.",
+  "ideia": false
+ },
+ {
+  "id": "N075",
+  "texto": "En diciembre, la Unión Soviética desaparece y la KGB queda dividida en varios servicios. El de seguridad interior acabará llamándose FSB.",
+  "ideia": false
+ },
+ {
+  "id": "N076",
+  "texto": "Meses después, un jubilado entra en una embajada con una bolsa llena de papeles.",
+  "ideia": true
+ },
+ {
+  "id": "N077",
+  "texto": "El Archivista. Riga, Letonia, marzo de mil novecientos noventa y dos. Vasili Mitrojin entra en la embajada británica. En una bolsa vieja trae notas copiadas a mano.",
+  "ideia": false
+ },
+ {
+  "id": "N078",
+  "texto": "Durante años fue archivista de la inteligencia exterior de la KGB. Leía expedientes secretos y copiaba lo que podía. Escondía las notas en los zapatos.",
+  "ideia": false
+ },
+ {
+  "id": "N079",
+  "texto": "En casa las pasaba a limpio y las escondía en bidones de leche, bajo el suelo de su casa de campo. Así durante doce años.",
+  "ideia": false
+ },
+ {
+  "id": "N080",
+  "texto": "Los británicos lo sacan del país con su familia y miles de páginas. Es una de las mayores filtraciones de inteligencia de la historia.",
+  "ideia": false
+ },
+ {
+  "id": "N081",
+  "texto": "Entre ellas aparece América Latina. Según esas notas, la KGB entregó dinero a la campaña de Salvador Allende en Chile, en mil novecientos setenta. La misma elección en la que la CIA pagaba propaganda contra él.",
+  "ideia": false
+ },
+ {
+  "id": "N082",
+  "texto": "Y en mil novecientos noventa y nueve, sus notas revelan a una espía británica de ochenta y siete años. Había pasado secretos atómicos a Moscú durante décadas.",
+  "ideia": true
+ },
+ {
+  "id": "N083",
+  "texto": "La Bolita. La Cheká nació con unas decenas de hombres. La KGB llegó a tener cientos de miles.",
+  "ideia": false
+ },
+ {
+  "id": "N084",
+  "texto": "Pero el arma más recordada de aquellos años medía menos de dos milímetros.",
+  "ideia": true
+ },
+ {
+  "id": "N085",
+  "texto": "La KGB no necesitaba estar en todas partes. Le bastaba con que todos creyeran que podía estar.",
+  "ideia": true
+ },
+ {
+  "id": "N086",
+  "texto": "Hoy, el edificio amarillo de la Lubianka sigue en pie.",
+  "ideia": false
+ },
+ {
+  "id": "N087",
+  "texto": "Y tú, ¿qué es más peligroso en una policía secreta: lo que hace o el miedo que provoca? Déjalo en los comentarios. Y el otro lado de la Guerra Fría, el expediente completo de la CIA, está aquí.",
+  "ideia": false
+ }
+]
