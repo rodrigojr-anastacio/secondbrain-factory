@@ -6,6 +6,8 @@
 
 Última revisão: 2026-11-04 (caixinhas por canal: fórmulas e dados por canal movidos para as bíblias).
 
+
+> **Lente de apoio (não é regra):** antes de propor, passe a ideia pelas 5 condições de decisão por atalho em `conhecimento/decisao-do-clique.md` (09/11/2026).
 ---
 
 ## Regras gerais

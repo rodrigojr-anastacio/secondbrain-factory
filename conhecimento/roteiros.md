@@ -1,5 +1,7 @@
 # Roteiros: regras gerais de escrita e de processo
 
+> **Lente de apoio (não é regra):** antes de propor, passe a ideia pelas 5 condições de decisão por atalho em `conhecimento/decisao-do-clique.md` (09/11/2026).
+
 > **Regras gerais. Regra de canal está em `canais/<slug>/biblia/` e sempre prevalece.** Estrutura, hook, capítulos, transições, fecho, tamanho e tom de cada canal estão em `canais/<slug>/biblia/roteiro.md`. Aqui só entra o que vale para **qualquer** canal.
 
 **Como atualizar:** só aprendizado **comprovadamente geral** (vale em mais de um canal, ou é da ferramenta/processo). Aprendizado de um vídeo vai primeiro para a bíblia do canal dele. Cada entrada leva **data e fonte**; sem dado = **Hipótese**. Commit descritivo.
