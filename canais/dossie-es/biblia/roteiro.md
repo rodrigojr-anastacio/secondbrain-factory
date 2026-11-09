@@ -49,3 +49,6 @@ Base: `pesquisa/archive-in-minutes/LEVANTAMENTO.md` §2 (anatomia, 2026-11-04), 
 - [ ] Anedota paga; cierre volta ao objeto do hook + pergunta.
 - [ ] Toda acusação atribuída a fonte; ângulo América Latina presente.
 - [ ] Revisão nativa feita; nenhuma palavra em português.
+
+## Métricas 2026-11-09 (relatório semanal)
+- **CIA** (11:47): 83% em 0:42, 70% em 1:17, 52% em 3–5 min, 48% em 6:00, 35% em 7:46; 45,2% assistido (39 views). **Mossad** (13:43): 68% em 0:49, 60% em 1:30, 53% em 4:15, 43% em 5:37–7:40, 38% em 8:22–9:03; 44,3% assistido, 206 views em 3 dias. Retenção acima dos "similares" nos dois. Queda visível no trecho 6:00–7:46 da CIA (**Hipótese:** testar uma virada/anedota ali). FBI (4 views) e Cosa Nostra (0) sem retenção ainda: os hooks de 003/004 seguem **Hipótese**. Fonte: `report.py dossie-es --retencao`, `pesquisa/metricas/2026-11-09.md`.

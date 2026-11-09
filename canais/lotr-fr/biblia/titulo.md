@@ -23,3 +23,6 @@ Regra de canal: **prevalece** sobre `conhecimento/titulos.md`.
 ## Não faça
 - Biografia longa ("L'histoire complète de Legolas", 15 min: 408 views, 41%).
 - Capítulos fora de ordem na descrição: no `out/description.txt` do 001, "6:38 La plus grande ville" veio antes de "6:23 Récapitulatif". O YouTube exige ordem crescente desde 0:00.
+
+## Métricas 2026-11-09
+- "Pergunta curiosa + ~8 min" no 001: 61 views e 16% assistido em 7 dias; a Hipótese fica **em xeque** (não derrubada: falta CTR). No acervo 2024, o maior é "Que s'est il passé avec les orcs…" (16.302 views, 160 inscritos, 34% assistido): estrutura "o que aconteceu depois" a testar. Fonte: `report.py lotr-fr`, 2026-11-09.

@@ -145,3 +145,7 @@ Rode `python3 canais/historia-ptbr/tools/checklist_roteiro_v2.py canais/historia
 - [ ] Aviso (não bloqueia): 1–2 falas de personagem (9); ≤ 2 capítulos abrindo com data; média ≤ 12,5 palavras/frase.
 - [ ] **Manual:** 1 cena por capítulo antes dos fatos (5); humor seco a cada ~40–60 s (6); teste da troca, fio condutor em ≥ 3 capítulos, todo loop pago; todo fato com fonte em `SOURCES.md`.
 - **Resultado de referência no 004 China (v1, 07/11/2026):** reprova em 12 itens obrigatórios: pergunta não declarada, volta 1× (alvo 3), conectivos 0,91, 4/10 capítulos fecham com problema, 3 aberturas de sucessão seca (caps. 4, 7 e 10), "você" 0,19 e ponte em 2/10 capítulos, 4 "guarde", cap. 1 aos 1:17, promessa de ~3 itens, 129 ppm, fecho de 0:51. Passa: pergunta aos 0:42. É o retrato do que a v2 corrige.
+
+## Métricas 2026-11-09 (relatório semanal)
+- Retenção (`report.py --retencao`): **Egito** (hook 0:49) 57% em 1:01, 39% em 3:34, 26–30% de 11 min ao fim, **34,3% assistido** (132 views); **Índia** (hook 2:21) 43% em 1:10, 30% em 2:08, 17% em 9–12 min, **21,3%** assistido (141 views). A Hipótese do hook curto ganha apoio (13 p.p. no min 1 e 13 p.p. no final), mas continua Hipótese (amostra pequena, temas diferentes). Irã/China/Brasil ainda sem retenção (8/3/0 views). Fonte: `youtube.metricas_video`, `pesquisa/metricas/2026-11-09.md`.
+- Referência: Archive in Minutes (dossie-es) retém 68–83% no primeiro minuto; o HiM, 43–57%. Não é motivo para trocar de molde.

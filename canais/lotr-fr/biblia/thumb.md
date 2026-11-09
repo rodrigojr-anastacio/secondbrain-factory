@@ -20,3 +20,6 @@ Regra de canal: **prevalece** sobre `conhecimento/thumbnails/README.md`. Thumbs 
 
 ## Pendências
 - CTR do Studio da variação A (e a janela). Registrar se o "Testar e comparar" A × B × C foi usado e qual venceu.
+
+## Métricas 2026-11-09
+- Thumb A: views 11 → 36 → 54 → 61 e **estagnadas em 61 de 05 a 09/11**, 0 inscritos. Não há sinal de ganho a atribuir à troca; **CTR do Studio ainda pendente** (continua Hipótese). Fonte: `youtube.metricas_video`; `pesquisa/metricas/2026-11-09.md`.

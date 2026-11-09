@@ -21,3 +21,6 @@ Regra de canal: **prevalece** sobre `conhecimento/roteiros.md` e `conhecimento/h
 - [ ] Hook ≤ 45 s, do familiar à pergunta, com loop aberto pago no fim.
 - [ ] Fio condutor/placar claro; cronologia pelas Eras.
 - [ ] ~1.200 palavras; toda estimativa avisada; fontes de Tolkien no `SOURCES.md`.
+
+## Métricas 2026-11-09 (relatório semanal)
+- O 001 (8:19) caiu para **16,2% assistido** (média 1:20) em 06–09/11, contra 49,7% lido em 04/11 com 54 views; views paradas em 61 desde 05/11. A Hipótese "8 min retêm ~47–50%" **não se sustenta para o 001** (amostra de 61 views; sem curva de retenção, Analytics sem volume). Fonte: `youtube.metricas_video` 87BdomKxa-M; `pesquisa/metricas/2026-11-09.md`.
