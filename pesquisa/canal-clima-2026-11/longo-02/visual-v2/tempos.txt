@@ -1,0 +1,17 @@
+estilo=- quadros=9900-10019 total=55.4s s/quadro=0.462
+estilo=A quadros=9900-10019 total=286.9s s/quadro=2.391
+estilo=B quadros=9900-10019 total=287.6s s/quadro=2.397
+estilo=C quadros=9900-10019 total=302.0s s/quadro=2.517
+# otimizado: Lambert + anisotropy 1
+estilo=B quadros=9900-9959 total=125.6s s/quadro=2.093
+estilo=B perf={"seg":0.4} quadros=9900-9939 total=56.4s s/quadro=1.41
+estilo=B perf={"semLargo":true} quadros=9900-9939 total=67.0s s/quadro=1.675
+estilo=B perf={"semLinhas":true} quadros=9900-9939 total=90.0s s/quadro=2.25
+estilo=B perf={"semSombra":true} quadros=9900-9939 total=83.6s s/quadro=2.09
+estilo=- perf= quadros=9900-9939 total=20.2s s/quadro=0.505
+estilo=B perf={"seg":0.02} quadros=9900-9939 total=44.6s s/quadro=1.115
+estilo=B perf={"seg":0.3,"segLargo":0.12} quadros=9900-9939 total=51.0s s/quadro=1.275
+# malha reduzida (seg 0.3 / largo 0.12) = config proposta
+estilo=B perf={"seg":0.3,"segLargo":0.12} quadros=9900-10049 total=158.2s s/quadro=1.055
+estilo=- perf= quadros=2100-2219 total=61.0s s/quadro=0.508
+estilo=B perf= quadros=2100-2219 total=70.0s s/quadro=0.583
