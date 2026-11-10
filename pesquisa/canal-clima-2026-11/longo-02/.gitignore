@@ -1,0 +1,14 @@
+work/
+dl/
+audio/
+out/*.mp4
+dados/ne110.json
+remotion/node_modules/
+remotion/public/clips/
+remotion/public/img/
+remotion/public/audio/
+remotion/public/*.wav
+remotion/public/fotos/
+remotion/public/sat/
+remotion/node_modules
+qa/cs/

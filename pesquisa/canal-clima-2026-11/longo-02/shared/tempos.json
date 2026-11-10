@@ -1,0 +1,1311 @@
+{
+ "duracao": 729.857,
+ "voz": "eleven",
+ "slot": {
+  "s": 252.402,
+  "ids": [
+   "b19",
+   "b20",
+   "b21"
+  ],
+  "e": 308.184,
+  "dur": 55.782,
+  "fala": 54.282
+ },
+ "blocos": [
+  {
+   "id": "b01",
+   "s": 0.15,
+   "e": 12.386,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 0.15,
+     "e": 1.49,
+     "txt": "Manaus, nove de outubro."
+    },
+    {
+     "s": 1.87,
+     "e": 4.37,
+     "txt": "A fumaça das queimadas fecha escolas e universidades."
+    },
+    {
+     "s": 4.83,
+     "e": 9.83,
+     "txt": "De manhã, os sensores da cidade marcam quase duzentos microgramas de fumaça fina por metro cúbico de ar."
+    },
+    {
+     "s": 10.31,
+     "e": 12.386,
+     "txt": "A OMS recomenda no máximo quinze."
+    }
+   ]
+  },
+  {
+   "id": "b02",
+   "s": 13.736,
+   "e": 21.686,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 13.736,
+     "e": 18.876,
+     "txt": "No mesmo mês, em Dionísio Cerqueira, Santa Catarina, chovem quinhentos e oitenta e um milímetros."
+    },
+    {
+     "s": 19.556,
+     "e": 21.686,
+     "txt": "Mais de meio metro de água em um mês."
+    }
+   ]
+  },
+  {
+   "id": "b03",
+   "s": 23.036,
+   "e": 27.632,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 23.036,
+     "e": 27.632,
+     "txt": "E do outro lado dos Andes, na costa do Peru, o mar está cinco graus e meio acima do normal."
+    }
+   ]
+  },
+  {
+   "id": "b04",
+   "s": 28.982,
+   "e": 36.167,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 28.982,
+     "e": 33.162,
+     "txt": "Fumaça no Norte. Água demais no Sul. Mar quente no Pacífico."
+    },
+    {
+     "s": 33.162,
+     "e": 34.502,
+     "txt": "Parecem três notícias diferentes."
+    },
+    {
+     "s": 35.122,
+     "e": 36.167,
+     "txt": "Mas têm o mesmo nome."
+    }
+   ]
+  },
+  {
+   "id": "b05",
+   "s": 36.587,
+   "e": 42.455,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 36.587,
+     "e": 39.267,
+     "txt": "Então... esse é mesmo o tal Super El Niño?"
+    },
+    {
+     "s": 40.367,
+     "e": 42.455,
+     "txt": "E o que ele vai fazer com o Brasil neste verão?"
+    }
+   ]
+  },
+  {
+   "id": "b06",
+   "s": 42.875,
+   "e": 51.992,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 42.875,
+     "e": 44.795,
+     "txt": "Isso nos leva às seguintes perguntas."
+    },
+    {
+     "s": 44.955,
+     "e": 45.955,
+     "txt": "O que é, afinal, o El Niño?"
+    },
+    {
+     "s": 46.875,
+     "e": 48.015,
+     "txt": "Por que este é diferente?"
+    },
+    {
+     "s": 48.935,
+     "e": 50.035,
+     "txt": "O que muda na minha região?"
+    },
+    {
+     "s": 50.795,
+     "e": 51.992,
+     "txt": "E até quando isso vai durar?"
+    }
+   ]
+  },
+  {
+   "id": "b07",
+   "s": 52.412,
+   "e": 61.289,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 52.412,
+     "e": 54.692,
+     "txt": "Mas antes, é preciso entender uma coisa."
+    },
+    {
+     "s": 55.052,
+     "e": 56.952,
+     "txt": "O El Niño não começa no Brasil."
+    },
+    {
+     "s": 57.212,
+     "e": 61.289,
+     "txt": "Começa a mais de dez mil quilômetros daqui, no meio do oceano."
+    }
+   ]
+  },
+  {
+   "id": "b08",
+   "s": 62.639,
+   "e": 75.308,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 62.639,
+     "e": 67.419,
+     "txt": "Imagine o Pacífico equatorial como uma piscina que ocupa quase metade da volta do planeta."
+    },
+    {
+     "s": 67.959,
+     "e": 72.519,
+     "txt": "Normalmente, ventos constantes, os alísios, sopram de leste para oeste."
+    },
+    {
+     "s": 72.959,
+     "e": 75.308,
+     "txt": "Da América do Sul em direção à Indonésia."
+    }
+   ]
+  },
+  {
+   "id": "b09",
+   "s": 76.008,
+   "e": 91.657,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 76.008,
+     "e": 79.388,
+     "txt": "Esses ventos empurram a água quente da superfície para o oeste."
+    },
+    {
+     "s": 79.888,
+     "e": 82.208,
+     "txt": "Ela se acumula lá, do lado da Indonésia."
+    },
+    {
+     "s": 82.588,
+     "e": 85.968,
+     "txt": "O mar chega a ficar meio metro mais alto do que na costa do Equador."
+    },
+    {
+     "s": 86.408,
+     "e": 91.657,
+     "txt": "E, no lugar da água quente que foi embora, sobe água fria do fundo, perto da América do Sul."
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "s": 92.357,
+   "e": 103.78,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 92.357,
+     "e": 95.897,
+     "txt": "Onde a água é quente, o ar sobe, forma nuvens e chove."
+    },
+    {
+     "s": 96.277,
+     "e": 98.337,
+     "txt": "É por isso que chove tanto na Indonésia."
+    },
+    {
+     "s": 98.757,
+     "e": 101.597,
+     "txt": "Do lado de cá, sobre a água fria, o ar desce."
+    },
+    {
+     "s": 102.057,
+     "e": 103.78,
+     "txt": "E ar que desce é ar seco."
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "s": 104.48,
+   "e": 120.635,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 104.48,
+     "e": 105.8,
+     "txt": "Agora, o El Niño."
+    },
+    {
+     "s": 106.32,
+     "e": 109.16,
+     "txt": "A cada dois a sete anos, esses ventos enfraquecem."
+    },
+    {
+     "s": 109.58,
+     "e": 113.58,
+     "txt": "E a água quente, que estava represada a oeste, escorre de volta para o leste."
+    },
+    {
+     "s": 113.96,
+     "e": 115.04,
+     "txt": "Como numa gangorra."
+    },
+    {
+     "s": 115.54,
+     "e": 120.635,
+     "txt": "Uma faixa de mar quente se espalha pelo meio do Pacífico, até a costa da América do Sul."
+    }
+   ]
+  },
+  {
+   "id": "b12",
+   "s": 121.335,
+   "e": 133.557,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 121.335,
+     "e": 123.215,
+     "txt": "E a chuva vai junto com a água quente."
+    },
+    {
+     "s": 123.695,
+     "e": 127.095,
+     "txt": "O lugar onde o ar sobe se desloca milhares de quilômetros."
+    },
+    {
+     "s": 127.595,
+     "e": 130.935,
+     "txt": "E isso reorganiza a circulação do ar de meio planeta."
+    },
+    {
+     "s": 131.455,
+     "e": 133.557,
+     "txt": "Inclusive em cima do Brasil."
+    }
+   ]
+  },
+  {
+   "id": "b13",
+   "s": 134.257,
+   "e": 147.634,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 134.257,
+     "e": 136.637,
+     "txt": "O nome veio dos pescadores do Peru, no século dezenove."
+    },
+    {
+     "s": 137.977,
+     "e": 141.897,
+     "txt": "De alguns em alguns anos, eles percebiam a água esquentar perto do Natal."
+    },
+    {
+     "s": 141.897,
+     "e": 144.497,
+     "txt": "E chamaram aquela corrente de El Niño."
+    },
+    {
+     "s": 144.937,
+     "e": 145.457,
+     "txt": "O Menino."
+    },
+    {
+     "s": 145.937,
+     "e": 147.634,
+     "txt": "Uma referência ao menino Jesus."
+    }
+   ]
+  },
+  {
+   "id": "b14",
+   "s": 148.334,
+   "e": 168.416,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 148.334,
+     "e": 153.394,
+     "txt": "Para medir o El Niño, os cientistas olham um retângulo específico no meio do Pacífico, chamado Niño três ponto quatro."
+    },
+    {
+     "s": 155.334,
+     "e": 158.794,
+     "txt": "Se a água fica meio grau acima do normal, por alguns meses, é El Niño."
+    },
+    {
+     "s": 159.694,
+     "e": 161.654,
+     "txt": "Acima de um grau e meio, é forte."
+    },
+    {
+     "s": 162.234,
+     "e": 164.354,
+     "txt": "Acima de dois, muito forte."
+    },
+    {
+     "s": 164.874,
+     "e": 168.416,
+     "txt": "E é aqui que aparece a palavra que você tem ouvido: super."
+    }
+   ]
+  },
+  {
+   "id": "b15",
+   "s": 169.766,
+   "e": 174.579,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 169.766,
+     "e": 171.546,
+     "txt": "Então, por que este é diferente?"
+    },
+    {
+     "s": 172.546,
+     "e": 174.579,
+     "txt": "Ele é mesmo um super El Niño?"
+    }
+   ]
+  },
+  {
+   "id": "b16",
+   "s": 175.279,
+   "e": 195.512,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 175.279,
+     "e": 176.619,
+     "txt": "Primeiro, os fatos."
+    },
+    {
+     "s": 177.079,
+     "e": 179.259,
+     "txt": "Em junho, o Pacífico ainda estava morno."
+    },
+    {
+     "s": 179.619,
+     "e": 181.399,
+     "txt": "Em setembro, já era outra coisa."
+    },
+    {
+     "s": 181.859,
+     "e": 187.819,
+     "txt": "E em outubro, segundo o Inméti, aquela região teve a maior anomalia para o mês desde que existe registro."
+    },
+    {
+     "s": 188.219,
+     "e": 189.559,
+     "txt": "Maior até que a de mil novecentos e oitenta e dois."
+    },
+    {
+     "s": 191.939,
+     "e": 195.512,
+     "txt": "Na costa do Peru, o mar passa dos cinco graus acima do normal."
+    }
+   ]
+  },
+  {
+   "id": "b17",
+   "s": 196.212,
+   "e": 225.025,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 196.212,
+     "e": 198.972,
+     "txt": "Agora, compare com os grandes El Niños da história."
+    },
+    {
+     "s": 200.372,
+     "e": 209.352,
+     "txt": "Mil novecentos e oitenta e dois e oitenta e três. Noventa e sete e noventa e oito. Dois mil e quinze e dezesseis. E o mais recente, de dois mil e vinte e três e vinte e quatro."
+    },
+    {
+     "s": 210.412,
+     "e": 215.552,
+     "txt": "Pelo termômetro tradicional, o El Niño de dois mil e vinte e seis já passou o de oitenta e dois e o de noventa e sete."
+    },
+    {
+     "s": 216.992,
+     "e": 219.912,
+     "txt": "E está a pouco mais de um décimo de grau do recorde de dois mil e quinze."
+    },
+    {
+     "s": 221.132,
+     "e": 225.025,
+     "txt": "Isso em outubro. Dois ou três meses antes do pico."
+    }
+   ]
+  },
+  {
+   "id": "b18",
+   "s": 225.725,
+   "e": 251.702,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 225.725,
+     "e": 228.185,
+     "txt": "Mas tem um detalhe que quase ninguém conta."
+    },
+    {
+     "s": 228.845,
+     "e": 230.705,
+     "txt": "O planeta inteiro está mais quente."
+    },
+    {
+     "s": 230.705,
+     "e": 233.605,
+     "txt": "E o oceano tropical todo esquentou junto."
+    },
+    {
+     "s": 234.385,
+     "e": 241.505,
+     "txt": "Por isso, este ano, a NOAA, a agência americana que é a referência mundial no assunto, passou a usar um termômetro novo."
+    },
+    {
+     "s": 242.245,
+     "e": 248.345,
+     "txt": "Ele desconta esse aquecimento geral e mede só o quanto o Pacífico está mais quente que o resto dos trópicos."
+    },
+    {
+     "s": 248.705,
+     "e": 251.702,
+     "txt": "Porque é essa diferença que mexe com o clima."
+    }
+   ]
+  },
+  {
+   "id": "b19",
+   "s": 252.402,
+   "e": 271.727,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 252.402,
+     "e": 255.202,
+     "txt": "E, com esse termômetro, a história muda."
+    },
+    {
+     "s": 255.442,
+     "e": 261.542,
+     "txt": "O recorde passa a ser o de mil novecentos e oitenta e dois e oitenta e três, com dois graus e quatro décimos."
+    },
+    {
+     "s": 262.202,
+     "e": 265.122,
+     "txt": "O de dois mil e vinte e seis está, hoje, em dois graus."
+    },
+    {
+     "s": 265.582,
+     "e": 268.062,
+     "txt": "Já é muito forte. Já passou o de dois mil e vinte e três."
+    },
+    {
+     "s": 269.462,
+     "e": 271.727,
+     "txt": "Mas ainda não é o maior da história."
+    }
+   ]
+  },
+  {
+   "id": "b20",
+   "s": 272.427,
+   "e": 291.785,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 272.427,
+     "e": 273.027,
+     "txt": "Pode virar?"
+    },
+    {
+     "s": 273.627,
+     "e": 273.907,
+     "txt": "Pode."
+    },
+    {
+     "s": 274.567,
+     "e": 284.307,
+     "txt": "No último boletim, a própria NOAA calculou entre setenta e oitenta e três por cento de chance de ele se tornar o mais forte desde mil novecentos e cinquenta, quando as medições começaram."
+    },
+    {
+     "s": 284.727,
+     "e": 291.785,
+     "txt": "E os vinte e sete modelos de previsão acompanhados pela Universidade Columbia apontam para um El Niño muito forte até fevereiro."
+    }
+   ]
+  },
+  {
+   "id": "b21",
+   "s": 292.485,
+   "e": 306.684,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 292.485,
+     "e": 293.665,
+     "txt": "Então, ele é super?"
+    },
+    {
+     "s": 294.405,
+     "e": 296.305,
+     "txt": "Super é um apelido da imprensa."
+    },
+    {
+     "s": 296.725,
+     "e": 298.785,
+     "txt": "Nenhuma agência oficial usa essa palavra."
+    },
+    {
+     "s": 299.245,
+     "e": 300.925,
+     "txt": "O termo técnico é muito forte."
+    },
+    {
+     "s": 301.565,
+     "e": 302.765,
+     "txt": "E isso ele já é."
+    },
+    {
+     "s": 303.265,
+     "e": 306.684,
+     "txt": "Se vai virar recorde, a resposta vem nas próximas semanas."
+    }
+   ]
+  },
+  {
+   "id": "b22",
+   "s": 308.884,
+   "e": 324.021,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 308.884,
+     "e": 311.524,
+     "txt": "E, antes de ir para o Brasil, uma coisa importante."
+    },
+    {
+     "s": 312.184,
+     "e": 314.444,
+     "txt": "O El Niño não é causado pelo aquecimento global."
+    },
+    {
+     "s": 315.144,
+     "e": 316.604,
+     "txt": "Ele existe há milhares de anos."
+    },
+    {
+     "s": 317.224,
+     "e": 319.984,
+     "txt": "Mas agora ele acontece por cima de um planeta mais quente."
+    },
+    {
+     "s": 320.484,
+     "e": 324.021,
+     "txt": "É como uma onda de calor que chega num dia que já estava quente."
+    }
+   ]
+  },
+  {
+   "id": "b23",
+   "s": 325.371,
+   "e": 332.432,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 325.371,
+     "e": 328.771,
+     "txt": "Agora, a pergunta que mais importa para quem está aqui."
+    },
+    {
+     "s": 329.751,
+     "e": 332.432,
+     "txt": "O que muda na minha região?"
+    }
+   ]
+  },
+  {
+   "id": "b24",
+   "s": 333.132,
+   "e": 358.258,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 333.132,
+     "e": 336.972,
+     "txt": "Lembra do ar que sobe sobre a água quente e desce sobre a água fria?"
+    },
+    {
+     "s": 337.692,
+     "e": 342.372,
+     "txt": "Com o El Niño, esse ar passa a descer em cima da Amazônia e do norte do Nordeste."
+    },
+    {
+     "s": 342.992,
+     "e": 345.992,
+     "txt": "Ar que desce não forma nuvem. Menos chuva."
+    },
+    {
+     "s": 346.772,
+     "e": 348.352,
+     "txt": "No Sul acontece o contrário."
+    },
+    {
+     "s": 348.912,
+     "e": 356.792,
+     "txt": "A corrente de vento lá do alto, o jato subtropical, fica mais forte e segura as frentes frias e as tempestades em cima da região."
+    },
+    {
+     "s": 357.452,
+     "e": 358.258,
+     "txt": "Mais chuva."
+    }
+   ]
+  },
+  {
+   "id": "b25",
+   "s": 358.958,
+   "e": 378.031,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 358.958,
+     "e": 363.498,
+     "txt": "É esse o desenho que a previsão oficial mostra para novembro, dezembro e janeiro."
+    },
+    {
+     "s": 363.878,
+     "e": 367.738,
+     "txt": "O governo federal montou um painel só para o El Niño, com sete órgãos."
+    },
+    {
+     "s": 368.098,
+     "e": 369.018,
+     "txt": "E o resumo é este."
+    },
+    {
+     "s": 369.478,
+     "e": 371.058,
+     "txt": "Chuva acima da média no Sul."
+    },
+    {
+     "s": 371.438,
+     "e": 374.458,
+     "txt": "Abaixo da média em boa parte do Norte e do Nordeste."
+    },
+    {
+     "s": 374.898,
+     "e": 378.031,
+     "txt": "E calor acima do normal em quase todo o país."
+    }
+   ]
+  },
+  {
+   "id": "b26",
+   "s": 379.381,
+   "e": 390.326,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 379.381,
+     "e": 380.241,
+     "txt": "Comece pelo Norte."
+    },
+    {
+     "s": 380.801,
+     "e": 390.326,
+     "txt": "Em Roraima, no início de setembro, o rio Branco, em Boa Vista, ficou abaixo de todos os mínimos já registrados para aquela época do ano, segundo o Serviço Geológico do Brasil."
+    }
+   ]
+  },
+  {
+   "id": "b27",
+   "s": 391.026,
+   "e": 403.223,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 391.026,
+     "e": 395.886,
+     "txt": "No Amazonas, os focos de queimada em setembro foram quase quatro vezes os do ano passado."
+    },
+    {
+     "s": 398.026,
+     "e": 398.526,
+     "txt": "Três mil setecentos e vinte e seis contra novecentos e quarenta e dois."
+    },
+    {
+     "s": 400.426,
+     "e": 403.223,
+     "txt": "E foi essa fumaça que fechou as escolas de Manaus."
+    }
+   ]
+  },
+  {
+   "id": "b28",
+   "s": 403.923,
+   "e": 425.495,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 403.923,
+     "e": 404.443,
+     "txt": "Mas atenção."
+    },
+    {
+     "s": 405.023,
+     "e": 408.443,
+     "txt": "Não é a seca de dois mil e vinte e três e vinte e quatro se repetindo igual."
+    },
+    {
+     "s": 409.063,
+     "e": 413.703,
+     "txt": "O rio Negro, em Manaus, está uns quatro metros acima do que estava nesta mesma data em dois mil e vinte e quatro."
+    },
+    {
+     "s": 415.123,
+     "e": 417.443,
+     "txt": "O ponto crítico agora é o norte da Amazônia."
+    },
+    {
+     "s": 417.863,
+     "e": 420.463,
+     "txt": "Roraima, o alto rio Negro e o Amapá."
+    },
+    {
+     "s": 421.123,
+     "e": 425.495,
+     "txt": "E, em Roraima, o pior período de fogo costuma ir de dezembro a abril."
+    }
+   ]
+  },
+  {
+   "id": "b29",
+   "s": 426.845,
+   "e": 448.891,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 426.845,
+     "e": 428.785,
+     "txt": "No Nordeste, a seca já avança."
+    },
+    {
+     "s": 429.205,
+     "e": 434.465,
+     "txt": "A área em seca grave passou de dezesseis para vinte e oito por cento da região entre agosto e setembro."
+    },
+    {
+     "s": 435.005,
+     "e": 444.505,
+     "txt": "No país, os municípios em seca extrema foram de quatro para sessenta e oito em dois meses, a maioria no Nordeste: Alagoas, Bahia, Sergipe e Pernambuco."
+    },
+    {
+     "s": 444.865,
+     "e": 448.891,
+     "txt": "Para o verão, a previsão é de menos chuva e mais calor no semiárido."
+    }
+   ]
+  },
+  {
+   "id": "b30",
+   "s": 450.241,
+   "e": 469.596,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 450.241,
+     "e": 453.441,
+     "txt": "No Centro-Oeste e no Sudeste, o sinal mais claro é o calor."
+    },
+    {
+     "s": 454.081,
+     "e": 455.981,
+     "txt": "Temperaturas acima do normal no verão."
+    },
+    {
+     "s": 456.301,
+     "e": 457.541,
+     "txt": "A chuva fica irregular."
+    },
+    {
+     "s": 458.161,
+     "e": 461.841,
+     "txt": "Acima da média em São Paulo, no Triângulo Mineiro e no Mato Grosso do Sul."
+    },
+    {
+     "s": 462.201,
+     "e": 464.981,
+     "txt": "Abaixo no norte de Minas e do Espírito Santo."
+    },
+    {
+     "s": 465.421,
+     "e": 469.596,
+     "txt": "E, em janeiro, cresce o risco de cheia nos rios Doce e Paraíba do Sul."
+    }
+   ]
+  },
+  {
+   "id": "b31",
+   "s": 470.296,
+   "e": 485.145,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 470.296,
+     "e": 473.316,
+     "txt": "E a pergunta que sempre aparece: vai faltar luz?"
+    },
+    {
+     "s": 473.956,
+     "e": 476.216,
+     "txt": "Os números de agora não apontam para isso."
+    },
+    {
+     "s": 476.616,
+     "e": 479.456,
+     "txt": "Em outubro, os reservatórios das hidrelétricas estavam com sessenta e cinco vírgula nove por cento."
+    },
+    {
+     "s": 481.916,
+     "e": 485.145,
+     "txt": "O segundo maior nível para a data desde dois mil e quinze."
+    }
+   ]
+  },
+  {
+   "id": "b32",
+   "s": 486.495,
+   "e": 505.914,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 486.495,
+     "e": 489.135,
+     "txt": "E chegamos ao Sul, onde o El Niño mais pesa."
+    },
+    {
+     "s": 489.575,
+     "e": 495.075,
+     "txt": "Em setembro, o rio Taquari voltou a inundar cidades como Muçum, Encantado, Estrela e Lajeado."
+    },
+    {
+     "s": 496.055,
+     "e": 499.115,
+     "txt": "Em outubro, o Inméti registrou chuva recorde no Sul."
+    },
+    {
+     "s": 499.495,
+     "e": 505.914,
+     "txt": "E, só na primeira semana de novembro, foram sete tornados confirmados na região, segundo o levantamento da Climatempo."
+    }
+   ]
+  },
+  {
+   "id": "b33",
+   "s": 506.614,
+   "e": 513.669,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 506.614,
+     "e": 513.669,
+     "txt": "Na primeira semana de novembro, os temporais atingiram mais de duzentos e sessenta municípios no Rio Grande do Sul e em Santa Catarina."
+    }
+   ]
+  },
+  {
+   "id": "b34",
+   "s": 514.369,
+   "e": 531.695,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 514.369,
+     "e": 516.549,
+     "txt": "O El Niño não causa cada tempestade."
+    },
+    {
+     "s": 516.909,
+     "e": 518.029,
+     "txt": "Ele aumenta as chances."
+    },
+    {
+     "s": 518.549,
+     "e": 525.109,
+     "txt": "É o padrão que ele favorece no Sul: mais chuva, mais dias de temporal, solo encharcado e rios cheios."
+    },
+    {
+     "s": 525.569,
+     "e": 531.695,
+     "txt": "Se você quer entender por que o Sul virou corredor de tornados, a gente fez um vídeo inteiro só sobre isso."
+    }
+   ]
+  },
+  {
+   "id": "b35",
+   "s": 532.395,
+   "e": 542.07,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 532.395,
+     "e": 534.415,
+     "txt": "E um detalhe que vai contra a intuição."
+    },
+    {
+     "s": 534.915,
+     "e": 538.155,
+     "txt": "No Rio Grande do Sul, a previsão é de temperatura abaixo do normal."
+    },
+    {
+     "s": 538.675,
+     "e": 542.07,
+     "txt": "Com mais nuvem e mais chuva, o calor fica contido."
+    }
+   ]
+  },
+  {
+   "id": "b36",
+   "s": 542.77,
+   "e": 561.548,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 542.77,
+     "e": 544.53,
+     "txt": "E o Sul conhece bem esse filme."
+    },
+    {
+     "s": 544.97,
+     "e": 555.61,
+     "txt": "Em mil novecentos e oitenta e três, durante um dos El Niños mais fortes da história, o rio Iguaçu, em União da Vitória, no Paraná, saiu de dois metros e meio para mais de dez metros."
+    },
+    {
+     "s": 556.45,
+     "e": 557.53,
+     "txt": "Dezoito pessoas morreram."
+    },
+    {
+     "s": 558.03,
+     "e": 561.548,
+     "txt": "Em Blumenau, o Itajaí-Açu passou dos quinze metros."
+    }
+   ]
+  },
+  {
+   "id": "b37",
+   "s": 562.248,
+   "e": 578.17,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 562.248,
+     "e": 565.548,
+     "txt": "E a grande enchente de dois mil e vinte e quatro, no Rio Grande do Sul?"
+    },
+    {
+     "s": 566.068,
+     "e": 571.628,
+     "txt": "Os cientistas que estudaram o caso apontam o El Niño como um dos fatores, junto com o aquecimento global."
+    },
+    {
+     "s": 571.628,
+     "e": 574.668,
+     "txt": "E ela veio quando ele já estava perdendo força."
+    },
+    {
+     "s": 575.268,
+     "e": 578.17,
+     "txt": "Ou seja, o perigo não termina junto com o pico."
+    }
+   ]
+  },
+  {
+   "id": "b38",
+   "s": 579.52,
+   "e": 599.246,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 579.52,
+     "e": 581.16,
+     "txt": "E o efeito vai muito além do Brasil."
+    },
+    {
+     "s": 581.64,
+     "e": 584.66,
+     "txt": "O planeta sente o El Niño com uns três meses de atraso."
+    },
+    {
+     "s": 585.02,
+     "e": 591.42,
+     "txt": "Outubro de dois mil e vinte e seis já foi o outubro mais quente da história, segundo o Copernicus, o serviço europeu de clima."
+    },
+    {
+     "s": 591.96,
+     "e": 599.246,
+     "txt": "E uma análise do site Carbon Brief dá noventa e seis por cento de chance de dois mil e vinte e sete ser o ano mais quente já registrado."
+    }
+   ]
+  },
+  {
+   "id": "b39",
+   "s": 600.596,
+   "e": 605.476,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 600.596,
+     "e": 601.536,
+     "txt": "E a última pergunta."
+    },
+    {
+     "s": 602.176,
+     "e": 605.476,
+     "txt": "A mais buscada de todas: até quando isso vai durar?"
+    }
+   ]
+  },
+  {
+   "id": "b40",
+   "s": 606.176,
+   "e": 617.1,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 606.176,
+     "e": 609.096,
+     "txt": "O pico deve chegar até dezembro, no máximo em janeiro."
+    },
+    {
+     "s": 609.496,
+     "e": 610.836,
+     "txt": "Bem no meio do nosso verão."
+    },
+    {
+     "s": 611.356,
+     "e": 617.1,
+     "txt": "A agência de meteorologia da Austrália e a maioria dos modelos apontam para o auge em novembro ou dezembro."
+    }
+   ]
+  },
+  {
+   "id": "b41",
+   "s": 617.8,
+   "e": 628.801,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 617.8,
+     "e": 619.86,
+     "txt": "Depois, ele perde força devagar."
+    },
+    {
+     "s": 620.4,
+     "e": 623.62,
+     "txt": "A NOAA espera El Niño até o outono, entre março e maio de dois mil e vinte e sete."
+    },
+    {
+     "s": 625.08,
+     "e": 628.801,
+     "txt": "E, a partir de abril, o mais provável é que o Pacífico volte ao normal."
+    }
+   ]
+  },
+  {
+   "id": "b42",
+   "s": 629.501,
+   "e": 651.943,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 629.501,
+     "e": 629.941,
+     "txt": "E depois?"
+    },
+    {
+     "s": 630.481,
+     "e": 638.121,
+     "txt": "Depois de oitenta e três, de noventa e oito e de dois mil e dezesseis, o Pacífico esfriou e virou para o lado oposto."
+    },
+    {
+     "s": 638.661,
+     "e": 645.541,
+     "txt": "É a La Niña, a irmã do El Niño, que costuma inverter o desenho no Brasil: seca no Sul, chuva no Norte."
+    },
+    {
+     "s": 646.061,
+     "e": 649.401,
+     "txt": "Mas, para dois mil e vinte e sete, ninguém confirmou isso ainda."
+    },
+    {
+     "s": 650.021,
+     "e": 651.943,
+     "txt": "É comum. Não é garantido."
+    }
+   ]
+  },
+  {
+   "id": "b43",
+   "s": 652.643,
+   "e": 663.489,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 652.643,
+     "e": 653.223,
+     "txt": "E lembre de dois mil e vinte e quatro."
+    },
+    {
+     "s": 654.663,
+     "e": 663.489,
+     "txt": "O próprio painel do governo avisa: o El Niño deve enfraquecer depois do primeiro trimestre, mas os efeitos dele na circulação do ar podem continuar."
+    }
+   ]
+  },
+  {
+   "id": "b44",
+   "s": 664.839,
+   "e": 668.477,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 664.839,
+     "e": 666.159,
+     "txt": "Então, o que fazer?"
+    },
+    {
+     "s": 667.059,
+     "e": 668.477,
+     "txt": "Depende de onde você mora."
+    }
+   ]
+  },
+  {
+   "id": "b45",
+   "s": 669.177,
+   "e": 680.816,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 669.177,
+     "e": 671.637,
+     "txt": "No Sul, receba os alertas da Defesa Civil."
+    },
+    {
+     "s": 672.037,
+     "e": 676.537,
+     "txt": "Mande o seu cép por SMS para quatro, zero, um, nove, nove. É de graça."
+    },
+    {
+     "s": 676.957,
+     "e": 680.816,
+     "txt": "E, em temporal, fique longe de rios, de encostas e de árvores."
+    }
+   ]
+  },
+  {
+   "id": "b46",
+   "s": 681.516,
+   "e": 699.714,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 681.516,
+     "e": 688.076,
+     "txt": "No Norte, nos dias de fumaça, feche portas e janelas e, se precisar sair, use máscara do tipo PFF dois."
+    },
+    {
+     "s": 690.136,
+     "e": 699.714,
+     "txt": "E, onde o calor apertar, beba água mesmo sem sede, fuja do sol nas horas mais quentes e tenha atenção dobrada com idosos e crianças."
+    }
+   ]
+  },
+  {
+   "id": "b47",
+   "s": 701.064,
+   "e": 719.112,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 701.064,
+     "e": 702.524,
+     "txt": "Então, voltando ao começo."
+    },
+    {
+     "s": 703.164,
+     "e": 708.004,
+     "txt": "A fumaça em Manaus, a chuva em Santa Catarina e o mar quente no Peru são a mesma história."
+    },
+    {
+     "s": 708.484,
+     "e": 710.844,
+     "txt": "Um vento que enfraqueceu no meio do Pacífico."
+    },
+    {
+     "s": 711.124,
+     "e": 713.564,
+     "txt": "O El Niño de dois mil e vinte e seis já é muito forte."
+    },
+    {
+     "s": 713.924,
+     "e": 715.144,
+     "txt": "Pode virar o maior desde mil novecentos e cinquenta."
+    },
+    {
+     "s": 716.264,
+     "e": 719.112,
+     "txt": "E o pico chega agora, no nosso verão."
+    }
+   ]
+  },
+  {
+   "id": "b48",
+   "s": 719.812,
+   "e": 727.358,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 719.812,
+     "e": 723.792,
+     "txt": "Manda este vídeo para quem vai passar o verão no Sul, no Norte ou no Nordeste."
+    },
+    {
+     "s": 723.792,
+     "e": 727.358,
+     "txt": "E se inscreve: a gente volta aqui quando os números mudarem."
+    }
+   ]
+  }
+ ]
+}

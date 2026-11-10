@@ -1,0 +1,434 @@
+[
+ {
+  "id": "b01",
+  "cap": "MANAUS",
+  "marcha": 1,
+  "fala": "Manaus, nove de outubro.\nA fumaça das queimadas fecha escolas e universidades.\nDe manhã, os sensores da cidade marcam quase duzentos microgramas de fumaça fina por metro cúbico de ar.\nA OMS recomenda no máximo quinze.",
+  "fala_tts": "[serious] Manaus, nove de outubro.\nA fumaça das queimadas fecha escolas e universidades.\nDe manhã, os sensores da cidade marcam quase duzentos microgramas de fumaça fina por metro cúbico de ar.\nA OMS recomenda no máximo quinze.",
+  "tela": "Manaus, 9 de outubro. | A fumaça das queimadas fecha escolas e universidades. | De manhã, os sensores da cidade marcam | quase 200 microgramas de fumaça fina por metro cúbico de ar. | A OMS recomenda no máximo 15.",
+  "atualizar": false
+ },
+ {
+  "id": "b02",
+  "cap": "SANTA CATARINA",
+  "marcha": 1,
+  "fala": "No mesmo mês, em Dionísio Cerqueira, Santa Catarina, chovem quinhentos e oitenta e um milímetros.\nMais de meio metro de água em um mês.",
+  "fala_tts": "[serious] No mesmo mês, em Dionísio Cerqueira, Santa Catarina, chovem quinhentos e oitenta e um milímetros.\nMais de meio metro de água em um mês.",
+  "tela": "No mesmo mês, em Dionísio Cerqueira, Santa Catarina, | chovem 581 milímetros. | Mais de meio metro de água em um mês.",
+  "atualizar": false
+ },
+ {
+  "id": "b03",
+  "cap": "PACÍFICO",
+  "marcha": 1,
+  "fala": "E do outro lado dos Andes, na costa do Peru, o mar está cinco graus e meio acima do normal.",
+  "fala_tts": "[serious] E do outro lado dos Andes, na costa do Peru, o mar está cinco graus e meio acima do normal.",
+  "tela": "E do outro lado dos Andes, na costa do Peru, | o mar está 5 graus e meio acima do normal.",
+  "atualizar": false
+ },
+ {
+  "id": "b04",
+  "cap": "A PERGUNTA",
+  "marcha": 1,
+  "fala": "Fumaça no Norte. Água demais no Sul. Mar quente no Pacífico.\nParecem três notícias diferentes.\nMas têm o mesmo nome.",
+  "fala_tts": "Fumaça no Norte. Água demais no Sul. Mar quente no Pacífico.\nParecem três notícias diferentes.\nMas têm o mesmo nome.",
+  "tela": "Fumaça no Norte. Água demais no Sul. Mar quente no Pacífico. | Parecem 3 notícias diferentes. | Mas têm o mesmo nome.",
+  "atualizar": false
+ },
+ {
+  "id": "b05",
+  "cap": "A PERGUNTA",
+  "marcha": 1,
+  "fala": "Então... esse é mesmo o tal Super El Niño?\nE o que ele vai fazer com o Brasil neste verão?",
+  "fala_tts": "[curious] Então... esse é mesmo o tal Super El Niño?\n[intrigued] E o que ele vai fazer com o Brasil neste verão?",
+  "tela": "Então... esse é mesmo o tal Super El Niño? | E o que ele vai fazer com o Brasil neste verão?",
+  "atualizar": false
+ },
+ {
+  "id": "b06",
+  "cap": "A PERGUNTA",
+  "marcha": 1,
+  "fala": "Isso nos leva às seguintes perguntas.\nO que é, afinal, o El Niño?\nPor que este é diferente?\nO que muda na minha região?\nE até quando isso vai durar?",
+  "fala_tts": "[serious] Isso nos leva às seguintes perguntas.\n[curious] O que é, afinal, o El Niño?\n[curious] Por que este é diferente?\n[curious] O que muda na minha região?\n[intrigued] E até quando isso vai durar?",
+  "tela": "Isso nos leva às seguintes perguntas. | O que é, afinal, o El Niño? | Por que este é diferente? | O que muda na minha região? | E até quando isso vai durar?",
+  "atualizar": false
+ },
+ {
+  "id": "b07",
+  "cap": "A PERGUNTA",
+  "marcha": 1,
+  "fala": "Mas antes, é preciso entender uma coisa.\nO El Niño não começa no Brasil.\nComeça a mais de dez mil quilômetros daqui, no meio do oceano.",
+  "fala_tts": "[serious] Mas antes, é preciso entender uma coisa.\nO El Niño não começa no Brasil.\nComeça a mais de dez mil quilômetros daqui, no meio do oceano.",
+  "tela": "Mas antes, é preciso entender uma coisa. | O El Niño não começa no Brasil. | Começa a mais de 10 mil quilômetros daqui, no meio do oceano.",
+  "atualizar": false
+ },
+ {
+  "id": "b08",
+  "cap": "PERGUNTA 1/4 · O QUE É",
+  "marcha": 2,
+  "fala": "Imagine o Pacífico equatorial como uma piscina que ocupa quase metade da volta do planeta.\nNormalmente, ventos constantes, os alísios, sopram de leste para oeste.\nDa América do Sul em direção à Indonésia.",
+  "fala_tts": "Imagine o Pacífico equatorial como uma piscina que ocupa quase metade da volta do planeta.\nNormalmente, ventos constantes, os alísios, sopram de leste para oeste.\nDa América do Sul em direção à Indonésia.",
+  "tela": "Imagine o Pacífico equatorial como uma piscina | que ocupa quase metade da volta do planeta. | Normalmente, ventos constantes, os alísios, | sopram de leste para oeste. | Da América do Sul em direção à Indonésia.",
+  "atualizar": false
+ },
+ {
+  "id": "b09",
+  "cap": "PERGUNTA 1/4 · O QUE É",
+  "marcha": 2,
+  "fala": "Esses ventos empurram a água quente da superfície para o oeste.\nEla se acumula lá, do lado da Indonésia.\nO mar chega a ficar meio metro mais alto do que na costa do Equador.\nE, no lugar da água quente que foi embora, sobe água fria do fundo, perto da América do Sul.",
+  "fala_tts": "Esses ventos empurram a água quente da superfície para o oeste.\nEla se acumula lá, do lado da Indonésia.\nO mar chega a ficar meio metro mais alto do que na costa do Equador.\nE, no lugar da água quente que foi embora, sobe água fria do fundo, perto da América do Sul.",
+  "tela": "Esses ventos empurram a água quente da superfície para o oeste. | Ela se acumula lá, do lado da Indonésia. | O mar chega a ficar meio metro mais alto | do que na costa do Equador. | E, no lugar da água quente que foi embora, | sobe água fria do fundo, perto da América do Sul.",
+  "atualizar": false
+ },
+ {
+  "id": "b10",
+  "cap": "PERGUNTA 1/4 · O QUE É",
+  "marcha": 2,
+  "fala": "Onde a água é quente, o ar sobe, forma nuvens e chove.\nÉ por isso que chove tanto na Indonésia.\nDo lado de cá, sobre a água fria, o ar desce.\nE ar que desce é ar seco.",
+  "fala_tts": "Onde a água é quente, o ar sobe, forma nuvens e chove.\nÉ por isso que chove tanto na Indonésia.\nDo lado de cá, sobre a água fria, o ar desce.\nE ar que desce é ar seco.",
+  "tela": "Onde a água é quente, o ar sobe, forma nuvens e chove. | É por isso que chove tanto na Indonésia. | Do lado de cá, sobre a água fria, o ar desce. | E ar que desce é ar seco.",
+  "atualizar": false
+ },
+ {
+  "id": "b11",
+  "cap": "PERGUNTA 1/4 · O QUE É",
+  "marcha": 2,
+  "fala": "Agora, o El Niño.\nA cada dois a sete anos, esses ventos enfraquecem.\nE a água quente, que estava represada a oeste, escorre de volta para o leste.\nComo numa gangorra.\nUma faixa de mar quente se espalha pelo meio do Pacífico, até a costa da América do Sul.",
+  "fala_tts": "Agora, o El Niño.\nA cada dois a sete anos, esses ventos enfraquecem.\nE a água quente, que estava represada a oeste, escorre de volta para o leste.\nComo numa gangorra.\nUma faixa de mar quente se espalha pelo meio do Pacífico, até a costa da América do Sul.",
+  "tela": "Agora, o El Niño. | A cada 2 a 7 anos, esses ventos enfraquecem. | E a água quente, que estava represada a oeste, | escorre de volta para o leste. | Como numa gangorra. | Uma faixa de mar quente se espalha pelo meio do Pacífico, | até a costa da América do Sul.",
+  "atualizar": false
+ },
+ {
+  "id": "b12",
+  "cap": "PERGUNTA 1/4 · O QUE É",
+  "marcha": 2,
+  "fala": "E a chuva vai junto com a água quente.\nO lugar onde o ar sobe se desloca milhares de quilômetros.\nE isso reorganiza a circulação do ar de meio planeta.\nInclusive em cima do Brasil.",
+  "fala_tts": "E a chuva vai junto com a água quente.\nO lugar onde o ar sobe se desloca milhares de quilômetros.\nE isso reorganiza a circulação do ar de meio planeta.\nInclusive em cima do Brasil.",
+  "tela": "E a chuva vai junto com a água quente. | O lugar onde o ar sobe se desloca milhares de quilômetros. | E isso reorganiza a circulação do ar de meio planeta. | Inclusive em cima do Brasil.",
+  "atualizar": false
+ },
+ {
+  "id": "b13",
+  "cap": "PERGUNTA 1/4 · O QUE É",
+  "marcha": 2,
+  "fala": "O nome veio dos pescadores do Peru, no século dezenove.\nDe alguns em alguns anos, eles percebiam a água esquentar perto do Natal.\nE chamaram aquela corrente de El Niño.\nO Menino.\nUma referência ao menino Jesus.",
+  "fala_tts": "O nome veio dos pescadores do Peru, no século dezenove.\nDe alguns em alguns anos, eles percebiam a água esquentar perto do Natal.\nE chamaram aquela corrente de El Niño.\nO Menino.\nUma referência ao menino Jesus.",
+  "tela": "O nome veio dos pescadores do Peru, no século 19. | De alguns em alguns anos, | eles percebiam a água esquentar perto do Natal. | E chamaram aquela corrente de El Niño. | O Menino. | Uma referência ao menino Jesus.",
+  "atualizar": false
+ },
+ {
+  "id": "b14",
+  "cap": "PERGUNTA 1/4 · O QUE É",
+  "marcha": 2,
+  "fala": "Para medir o El Niño, os cientistas olham um retângulo específico no meio do Pacífico, chamado Niño três ponto quatro.\nSe a água fica meio grau acima do normal, por alguns meses, é El Niño.\nAcima de um grau e meio, é forte.\nAcima de dois, muito forte.\nE é aqui que aparece a palavra que você tem ouvido: super.",
+  "fala_tts": "Para medir o El Niño, os cientistas olham um retângulo específico no meio do Pacífico, chamado Niño três ponto quatro.\nSe a água fica meio grau acima do normal, por alguns meses, é El Niño.\nAcima de um grau e meio, é forte.\nAcima de dois, muito forte.\nE é aqui que aparece a palavra que você tem ouvido: super.",
+  "tela": "Para medir o El Niño, os cientistas olham um retângulo | no meio do Pacífico, chamado Niño 3.4. | Se a água fica meio grau acima do normal, por alguns meses, é El Niño. | Acima de 1 grau e meio, é forte. | Acima de 2, muito forte. | E é aqui que aparece a palavra que você tem ouvido: super.",
+  "atualizar": false
+ },
+ {
+  "id": "b15",
+  "cap": "PERGUNTA 2/4 · É SUPER?",
+  "marcha": 2,
+  "fala": "Então, por que este é diferente?\nEle é mesmo um super El Niño?",
+  "fala_tts": "[curious] Então, por que este é diferente?\n[curious] Ele é mesmo um super El Niño?",
+  "tela": "Então, por que este é diferente? | Ele é mesmo um super El Niño?",
+  "atualizar": false
+ },
+ {
+  "id": "b16",
+  "cap": "PERGUNTA 2/4 · É SUPER?",
+  "marcha": 2,
+  "fala": "Primeiro, os fatos.\nEm junho, o Pacífico ainda estava morno.\nEm setembro, já era outra coisa.\nE em outubro, segundo o Inméti, aquela região teve a maior anomalia para o mês desde que existe registro.\nMaior até que a de mil novecentos e oitenta e dois.\nNa costa do Peru, o mar passa dos cinco graus acima do normal.",
+  "fala_tts": "Primeiro, os fatos.\nEm junho, o Pacífico ainda estava morno.\nEm setembro, já era outra coisa.\nE em outubro, segundo o Inméti, aquela região teve a maior anomalia para o mês desde que existe registro.\nMaior até que a de mil novecentos e oitenta e dois.\nNa costa do Peru, o mar passa dos cinco graus acima do normal.",
+  "tela": "Primeiro, os fatos. | Em junho, o Pacífico ainda estava morno. | Em setembro, já era outra coisa. | E em outubro, segundo o Inmet, aquela região teve | a maior anomalia para o mês desde que existe registro. | Maior até que a de 1982. | Na costa do Peru, o mar passa dos 5 graus acima do normal.",
+  "atualizar": false
+ },
+ {
+  "id": "b17",
+  "cap": "PERGUNTA 2/4 · É SUPER?",
+  "marcha": 2,
+  "fala": "Agora, compare com os grandes El Niños da história.\nMil novecentos e oitenta e dois e oitenta e três. Noventa e sete e noventa e oito. Dois mil e quinze e dezesseis. E o mais recente, de dois mil e vinte e três e vinte e quatro.\nPelo termômetro tradicional, o El Niño de dois mil e vinte e seis já passou o de oitenta e dois e o de noventa e sete.\nE está a pouco mais de um décimo de grau do recorde de dois mil e quinze.\nIsso em outubro. Dois ou três meses antes do pico.",
+  "fala_tts": "Agora, compare com os grandes El Niños da história.\nMil novecentos e oitenta e dois e oitenta e três. Noventa e sete e noventa e oito. Dois mil e quinze e dezesseis. E o mais recente, de dois mil e vinte e três e vinte e quatro.\nPelo termômetro tradicional, o El Niño de dois mil e vinte e seis já passou o de oitenta e dois e o de noventa e sete.\nE está a pouco mais de um décimo de grau do recorde de dois mil e quinze.\nIsso em outubro. Dois ou três meses antes do pico.",
+  "tela": "Agora, compare com os grandes El Niños da história. | 1982 e 83. 97 e 98. 2015 e 16. | E o mais recente, de 2023 e 24. | Pelo termômetro tradicional, o El Niño de 2026 | já passou o de 82 e o de 97. | E está a pouco mais de 1 décimo de grau do recorde de 2015. | Isso em outubro. Dois ou três meses antes do pico.",
+  "atualizar": false
+ },
+ {
+  "id": "b18",
+  "cap": "PERGUNTA 2/4 · É SUPER?",
+  "marcha": 2,
+  "fala": "Mas tem um detalhe que quase ninguém conta.\nO planeta inteiro está mais quente.\nE o oceano tropical todo esquentou junto.\nPor isso, este ano, a NOAA, a agência americana que é a referência mundial no assunto, passou a usar um termômetro novo.\nEle desconta esse aquecimento geral e mede só o quanto o Pacífico está mais quente que o resto dos trópicos.\nPorque é essa diferença que mexe com o clima.",
+  "fala_tts": "[intrigued] Mas tem um detalhe que quase ninguém conta.\nO planeta inteiro está mais quente.\nE o oceano tropical todo esquentou junto.\nPor isso, este ano, a NOAA, a agência americana que é a referência mundial no assunto, passou a usar um termômetro novo.\nEle desconta esse aquecimento geral e mede só o quanto o Pacífico está mais quente que o resto dos trópicos.\nPorque é essa diferença que mexe com o clima.",
+  "tela": "Mas tem um detalhe que quase ninguém conta. | O planeta inteiro está mais quente. | E o oceano tropical todo esquentou junto. | Por isso, este ano, a NOAA, a agência americana | que é a referência mundial no assunto, | passou a usar um termômetro novo. | Ele desconta esse aquecimento geral | e mede só o quanto o Pacífico está mais quente que o resto dos trópicos. | Porque é essa diferença que mexe com o clima.",
+  "atualizar": false
+ },
+ {
+  "id": "b19",
+  "cap": "PERGUNTA 2/4 · É SUPER?",
+  "marcha": 2,
+  "fala": "E, com esse termômetro, a história muda.\nO recorde passa a ser o de mil novecentos e oitenta e dois e oitenta e três, com dois graus e quatro décimos.\nO de dois mil e vinte e seis está, hoje, em dois graus.\nJá é muito forte. Já passou o de dois mil e vinte e três.\nMas ainda não é o maior da história.",
+  "fala_tts": "E, com esse termômetro, a história muda.\nO recorde passa a ser o de mil novecentos e oitenta e dois e oitenta e três, com dois graus e quatro décimos.\nO de dois mil e vinte e seis está, hoje, em dois graus.\nJá é muito forte. Já passou o de dois mil e vinte e três.\nMas ainda não é o maior da história.",
+  "tela": "E, com esse termômetro, a história muda. | O recorde passa a ser o de 1982 e 83, com 2 graus e 4 décimos. | O de 2026 está, hoje, em 2 graus. | Já é muito forte. Já passou o de 2023. | Mas ainda não é o maior da história.",
+  "atualizar": true
+ },
+ {
+  "id": "b20",
+  "cap": "PERGUNTA 2/4 · É SUPER?",
+  "marcha": 2,
+  "fala": "Pode virar?\nPode.\nNo último boletim, a própria NOAA calculou entre setenta e oitenta e três por cento de chance de ele se tornar o mais forte desde mil novecentos e cinquenta, quando as medições começaram.\nE os vinte e sete modelos de previsão acompanhados pela Universidade Columbia apontam para um El Niño muito forte até fevereiro.",
+  "fala_tts": "[curious] Pode virar?\nPode.\nNo último boletim, a própria NOAA calculou entre setenta e oitenta e três por cento de chance de ele se tornar o mais forte desde mil novecentos e cinquenta, quando as medições começaram.\nE os vinte e sete modelos de previsão acompanhados pela Universidade Columbia apontam para um El Niño muito forte até fevereiro.",
+  "tela": "Pode virar? | Pode. | No último boletim, a própria NOAA calculou entre 70 e 83% de chance | de ele se tornar o mais forte desde 1950, quando as medições começaram. | E os 27 modelos de previsão acompanhados pela Universidade Columbia | apontam para um El Niño muito forte até fevereiro.",
+  "atualizar": true
+ },
+ {
+  "id": "b21",
+  "cap": "PERGUNTA 2/4 · É SUPER?",
+  "marcha": 2,
+  "fala": "Então, ele é super?\nSuper é um apelido da imprensa.\nNenhuma agência oficial usa essa palavra.\nO termo técnico é muito forte.\nE isso ele já é.\nSe vai virar recorde, a resposta vem nas próximas semanas.",
+  "fala_tts": "[curious] Então, ele é super?\nSuper é um apelido da imprensa.\nNenhuma agência oficial usa essa palavra.\nO termo técnico é muito forte.\nE isso ele já é.\nSe vai virar recorde, a resposta vem nas próximas semanas.",
+  "tela": "Então, ele é super? | Super é um apelido da imprensa. | Nenhuma agência oficial usa essa palavra. | O termo técnico é muito forte. | E isso ele já é. | Se vai virar recorde, a resposta vem nas próximas semanas.",
+  "atualizar": true
+ },
+ {
+  "id": "b22",
+  "cap": "PERGUNTA 2/4 · É SUPER?",
+  "marcha": 2,
+  "fala": "E, antes de ir para o Brasil, uma coisa importante.\nO El Niño não é causado pelo aquecimento global.\nEle existe há milhares de anos.\nMas agora ele acontece por cima de um planeta mais quente.\nÉ como uma onda de calor que chega num dia que já estava quente.",
+  "fala_tts": "E, antes de ir para o Brasil, uma coisa importante.\nO El Niño não é causado pelo aquecimento global.\nEle existe há milhares de anos.\nMas agora ele acontece por cima de um planeta mais quente.\nÉ como uma onda de calor que chega num dia que já estava quente.",
+  "tela": "E, antes de ir para o Brasil, uma coisa importante. | O El Niño não é causado pelo aquecimento global. | Ele existe há milhares de anos. | Mas agora ele acontece por cima de um planeta mais quente. | É como uma onda de calor que chega num dia que já estava quente.",
+  "atualizar": false
+ },
+ {
+  "id": "b23",
+  "cap": "PERGUNTA 3/4 · MINHA REGIÃO",
+  "marcha": 2,
+  "fala": "Agora, a pergunta que mais importa para quem está aqui.\nO que muda na minha região?",
+  "fala_tts": "[curious] Agora, a pergunta que mais importa para quem está aqui.\n[curious] O que muda na minha região?",
+  "tela": "Agora, a pergunta que mais importa para quem está aqui. | O que muda na minha região?",
+  "atualizar": false
+ },
+ {
+  "id": "b24",
+  "cap": "PERGUNTA 3/4 · MINHA REGIÃO",
+  "marcha": 2,
+  "fala": "Lembra do ar que sobe sobre a água quente e desce sobre a água fria?\nCom o El Niño, esse ar passa a descer em cima da Amazônia e do norte do Nordeste.\nAr que desce não forma nuvem. Menos chuva.\nNo Sul acontece o contrário.\nA corrente de vento lá do alto, o jato subtropical, fica mais forte e segura as frentes frias e as tempestades em cima da região.\nMais chuva.",
+  "fala_tts": "Lembra do ar que sobe sobre a água quente e desce sobre a água fria?\nCom o El Niño, esse ar passa a descer em cima da Amazônia e do norte do Nordeste.\nAr que desce não forma nuvem. Menos chuva.\nNo Sul acontece o contrário.\nA corrente de vento lá do alto, o jato subtropical, fica mais forte e segura as frentes frias e as tempestades em cima da região.\nMais chuva.",
+  "tela": "Lembra do ar que sobe sobre a água quente e desce sobre a água fria? | Com o El Niño, esse ar passa a descer | em cima da Amazônia e do norte do Nordeste. | Ar que desce não forma nuvem. Menos chuva. | No Sul acontece o contrário. | A corrente de vento lá do alto, o jato subtropical, fica mais forte | e segura as frentes frias e as tempestades em cima da região. | Mais chuva.",
+  "atualizar": false
+ },
+ {
+  "id": "b25",
+  "cap": "PERGUNTA 3/4 · MINHA REGIÃO",
+  "marcha": 2,
+  "fala": "É esse o desenho que a previsão oficial mostra para novembro, dezembro e janeiro.\nO governo federal montou um painel só para o El Niño, com sete órgãos.\nE o resumo é este.\nChuva acima da média no Sul.\nAbaixo da média em boa parte do Norte e do Nordeste.\nE calor acima do normal em quase todo o país.",
+  "fala_tts": "É esse o desenho que a previsão oficial mostra para novembro, dezembro e janeiro.\nO governo federal montou um painel só para o El Niño, com sete órgãos.\nE o resumo é este.\nChuva acima da média no Sul.\nAbaixo da média em boa parte do Norte e do Nordeste.\nE calor acima do normal em quase todo o país.",
+  "tela": "É esse o desenho que a previsão oficial mostra | para novembro, dezembro e janeiro. | O governo federal montou um painel só para o El Niño, com 7 órgãos. | E o resumo é este. | Chuva acima da média no Sul. | Abaixo da média em boa parte do Norte e do Nordeste. | E calor acima do normal em quase todo o país.",
+  "atualizar": false
+ },
+ {
+  "id": "b26",
+  "cap": "NORTE",
+  "marcha": 2,
+  "fala": "Comece pelo Norte.\nEm Roraima, no início de setembro, o rio Branco, em Boa Vista, ficou abaixo de todos os mínimos já registrados para aquela época do ano, segundo o Serviço Geológico do Brasil.",
+  "fala_tts": "Comece pelo Norte.\nEm Roraima, no início de setembro, o rio Branco, em Boa Vista, ficou abaixo de todos os mínimos já registrados para aquela época do ano, segundo o Serviço Geológico do Brasil.",
+  "tela": "Comece pelo Norte. | Em Roraima, no início de setembro, o rio Branco, em Boa Vista, | ficou abaixo de todos os mínimos já registrados para aquela época do ano, | segundo o Serviço Geológico do Brasil.",
+  "atualizar": false
+ },
+ {
+  "id": "b27",
+  "cap": "NORTE",
+  "marcha": 2,
+  "fala": "No Amazonas, os focos de queimada em setembro foram quase quatro vezes os do ano passado.\nTrês mil setecentos e vinte e seis contra novecentos e quarenta e dois.\nE foi essa fumaça que fechou as escolas de Manaus.",
+  "fala_tts": "No Amazonas, os focos de queimada em setembro foram quase quatro vezes os do ano passado.\nTrês mil setecentos e vinte e seis contra novecentos e quarenta e dois.\nE foi essa fumaça que fechou as escolas de Manaus.",
+  "tela": "No Amazonas, os focos de queimada em setembro | foram quase 4 vezes os do ano passado. | 3.726 contra 942. | E foi essa fumaça que fechou as escolas de Manaus.",
+  "atualizar": false
+ },
+ {
+  "id": "b28",
+  "cap": "NORTE",
+  "marcha": 2,
+  "fala": "Mas atenção.\nNão é a seca de dois mil e vinte e três e vinte e quatro se repetindo igual.\nO rio Negro, em Manaus, está uns quatro metros acima do que estava nesta mesma data em dois mil e vinte e quatro.\nO ponto crítico agora é o norte da Amazônia.\nRoraima, o alto rio Negro e o Amapá.\nE, em Roraima, o pior período de fogo costuma ir de dezembro a abril.",
+  "fala_tts": "[serious] Mas atenção.\nNão é a seca de dois mil e vinte e três e vinte e quatro se repetindo igual.\nO rio Negro, em Manaus, está uns quatro metros acima do que estava nesta mesma data em dois mil e vinte e quatro.\nO ponto crítico agora é o norte da Amazônia.\nRoraima, o alto rio Negro e o Amapá.\nE, em Roraima, o pior período de fogo costuma ir de dezembro a abril.",
+  "tela": "Mas atenção. | Não é a seca de 2023 e 2024 se repetindo igual. | O rio Negro, em Manaus, está uns 4 metros acima | do que estava nesta mesma data em 2024. | O ponto crítico agora é o norte da Amazônia. | Roraima, o alto rio Negro e o Amapá. | E, em Roraima, o pior período de fogo costuma ir de dezembro a abril.",
+  "atualizar": false
+ },
+ {
+  "id": "b29",
+  "cap": "NORDESTE",
+  "marcha": 2,
+  "fala": "No Nordeste, a seca já avança.\nA área em seca grave passou de dezesseis para vinte e oito por cento da região entre agosto e setembro.\nNo país, os municípios em seca extrema foram de quatro para sessenta e oito em dois meses, a maioria no Nordeste: Alagoas, Bahia, Sergipe e Pernambuco.\nPara o verão, a previsão é de menos chuva e mais calor no semiárido.",
+  "fala_tts": "No Nordeste, a seca já avança.\nA área em seca grave passou de dezesseis para vinte e oito por cento da região entre agosto e setembro.\nNo país, os municípios em seca extrema foram de quatro para sessenta e oito em dois meses, a maioria no Nordeste: Alagoas, Bahia, Sergipe e Pernambuco.\nPara o verão, a previsão é de menos chuva e mais calor no semiárido.",
+  "tela": "No Nordeste, a seca já avança. | A área em seca grave passou de 16 para 28% da região | entre agosto e setembro. | No país, os municípios em seca extrema foram de 4 para 68 em 2 meses, | a maioria no Nordeste: Alagoas, Bahia, Sergipe e Pernambuco. | Para o verão, a previsão é de menos chuva e mais calor no semiárido.",
+  "atualizar": false
+ },
+ {
+  "id": "b30",
+  "cap": "CENTRO-OESTE E SUDESTE",
+  "marcha": 2,
+  "fala": "No Centro-Oeste e no Sudeste, o sinal mais claro é o calor.\nTemperaturas acima do normal no verão.\nA chuva fica irregular.\nAcima da média em São Paulo, no Triângulo Mineiro e no Mato Grosso do Sul.\nAbaixo no norte de Minas e do Espírito Santo.\nE, em janeiro, cresce o risco de cheia nos rios Doce e Paraíba do Sul.",
+  "fala_tts": "No Centro-Oeste e no Sudeste, o sinal mais claro é o calor.\nTemperaturas acima do normal no verão.\nA chuva fica irregular.\nAcima da média em São Paulo, no Triângulo Mineiro e no Mato Grosso do Sul.\nAbaixo no norte de Minas e do Espírito Santo.\nE, em janeiro, cresce o risco de cheia nos rios Doce e Paraíba do Sul.",
+  "tela": "No Centro-Oeste e no Sudeste, o sinal mais claro é o calor. | Temperaturas acima do normal no verão. | A chuva fica irregular. | Acima da média em São Paulo, no Triângulo Mineiro e no Mato Grosso do Sul. | Abaixo no norte de Minas e do Espírito Santo. | E, em janeiro, cresce o risco de cheia nos rios Doce e Paraíba do Sul.",
+  "atualizar": false
+ },
+ {
+  "id": "b31",
+  "cap": "CENTRO-OESTE E SUDESTE",
+  "marcha": 2,
+  "fala": "E a pergunta que sempre aparece: vai faltar luz?\nOs números de agora não apontam para isso.\nEm outubro, os reservatórios das hidrelétricas estavam com sessenta e cinco vírgula nove por cento.\nO segundo maior nível para a data desde dois mil e quinze.",
+  "fala_tts": "[curious] E a pergunta que sempre aparece: vai faltar luz?\nOs números de agora não apontam para isso.\nEm outubro, os reservatórios das hidrelétricas estavam com sessenta e cinco vírgula nove por cento.\nO segundo maior nível para a data desde dois mil e quinze.",
+  "tela": "E a pergunta que sempre aparece: vai faltar luz? | Os números de agora não apontam para isso. | Em outubro, os reservatórios das hidrelétricas estavam com 65,9%. | O 2º maior nível para a data desde 2015.",
+  "atualizar": false
+ },
+ {
+  "id": "b32",
+  "cap": "SUL",
+  "marcha": 2,
+  "fala": "E chegamos ao Sul, onde o El Niño mais pesa.\nEm setembro, o rio Taquari voltou a inundar cidades como Muçum, Encantado, Estrela e Lajeado.\nEm outubro, o Inméti registrou chuva recorde no Sul.\nE, só na primeira semana de novembro, foram sete tornados confirmados na região, segundo o levantamento da Climatempo.",
+  "fala_tts": "E chegamos ao Sul, onde o El Niño mais pesa.\nEm setembro, o rio Taquari voltou a inundar cidades como Muçum, Encantado, Estrela e Lajeado.\nEm outubro, o Inméti registrou chuva recorde no Sul.\nE, só na primeira semana de novembro, foram sete tornados confirmados na região, segundo o levantamento da Climatempo.",
+  "tela": "E chegamos ao Sul, onde o El Niño mais pesa. | Em setembro, o rio Taquari voltou a inundar cidades | como Muçum, Encantado, Estrela e Lajeado. | Em outubro, o Inmet registrou chuva recorde no Sul. | E, só na primeira semana de novembro, foram 7 tornados confirmados na região, | segundo o levantamento da Climatempo.",
+  "atualizar": false
+ },
+ {
+  "id": "b33",
+  "cap": "SUL",
+  "marcha": 2,
+  "fala": "Na primeira semana de novembro, os temporais atingiram mais de duzentos e sessenta municípios no Rio Grande do Sul e em Santa Catarina.",
+  "fala_tts": "Na primeira semana de novembro, os temporais atingiram mais de duzentos e sessenta municípios no Rio Grande do Sul e em Santa Catarina.",
+  "tela": "Na primeira semana de novembro, os temporais atingiram | mais de 260 municípios no Rio Grande do Sul e em Santa Catarina.",
+  "atualizar": false
+ },
+ {
+  "id": "b34",
+  "cap": "SUL",
+  "marcha": 2,
+  "fala": "O El Niño não causa cada tempestade.\nEle aumenta as chances.\nÉ o padrão que ele favorece no Sul: mais chuva, mais dias de temporal, solo encharcado e rios cheios.\nSe você quer entender por que o Sul virou corredor de tornados, a gente fez um vídeo inteiro só sobre isso.",
+  "fala_tts": "O El Niño não causa cada tempestade.\nEle aumenta as chances.\nÉ o padrão que ele favorece no Sul: mais chuva, mais dias de temporal, solo encharcado e rios cheios.\nSe você quer entender por que o Sul virou corredor de tornados, a gente fez um vídeo inteiro só sobre isso.",
+  "tela": "O El Niño não causa cada tempestade. | Ele aumenta as chances. | É o padrão que ele favorece no Sul: mais chuva, mais dias de temporal, | solo encharcado e rios cheios. | Se você quer entender por que o Sul virou corredor de tornados, | a gente fez um vídeo inteiro só sobre isso.",
+  "atualizar": false
+ },
+ {
+  "id": "b35",
+  "cap": "SUL",
+  "marcha": 2,
+  "fala": "E um detalhe que vai contra a intuição.\nNo Rio Grande do Sul, a previsão é de temperatura abaixo do normal.\nCom mais nuvem e mais chuva, o calor fica contido.",
+  "fala_tts": "[intrigued] E um detalhe que vai contra a intuição.\nNo Rio Grande do Sul, a previsão é de temperatura abaixo do normal.\nCom mais nuvem e mais chuva, o calor fica contido.",
+  "tela": "E um detalhe que vai contra a intuição. | No Rio Grande do Sul, a previsão é de temperatura abaixo do normal. | Com mais nuvem e mais chuva, o calor fica contido.",
+  "atualizar": false
+ },
+ {
+  "id": "b36",
+  "cap": "SUL",
+  "marcha": 2,
+  "fala": "E o Sul conhece bem esse filme.\nEm mil novecentos e oitenta e três, durante um dos El Niños mais fortes da história, o rio Iguaçu, em União da Vitória, no Paraná, saiu de dois metros e meio para mais de dez metros.\nDezoito pessoas morreram.\nEm Blumenau, o Itajaí-Açu passou dos quinze metros.",
+  "fala_tts": "E o Sul conhece bem esse filme.\nEm mil novecentos e oitenta e três, durante um dos El Niños mais fortes da história, o rio Iguaçu, em União da Vitória, no Paraná, saiu de dois metros e meio para mais de dez metros.\nDezoito pessoas morreram.\nEm Blumenau, o Itajaí-Açu passou dos quinze metros.",
+  "tela": "E o Sul conhece bem esse filme. | Em 1983, durante um dos El Niños mais fortes da história, | o rio Iguaçu, em União da Vitória, no Paraná, | saiu de 2 metros e meio para mais de 10 metros. | 18 pessoas morreram. | Em Blumenau, o Itajaí-Açu passou dos 15 metros.",
+  "atualizar": false
+ },
+ {
+  "id": "b37",
+  "cap": "SUL",
+  "marcha": 2,
+  "fala": "E a grande enchente de dois mil e vinte e quatro, no Rio Grande do Sul?\nOs cientistas que estudaram o caso apontam o El Niño como um dos fatores, junto com o aquecimento global.\nE ela veio quando ele já estava perdendo força.\nOu seja, o perigo não termina junto com o pico.",
+  "fala_tts": "[curious] E a grande enchente de dois mil e vinte e quatro, no Rio Grande do Sul?\nOs cientistas que estudaram o caso apontam o El Niño como um dos fatores, junto com o aquecimento global.\nE ela veio quando ele já estava perdendo força.\nOu seja, o perigo não termina junto com o pico.",
+  "tela": "E a grande enchente de 2024, no Rio Grande do Sul? | Os cientistas que estudaram o caso apontam o El Niño como um dos fatores, | junto com o aquecimento global. | E ela veio quando ele já estava perdendo força. | Ou seja, o perigo não termina junto com o pico.",
+  "atualizar": false
+ },
+ {
+  "id": "b38",
+  "cap": "O MUNDO",
+  "marcha": 2,
+  "fala": "E o efeito vai muito além do Brasil.\nO planeta sente o El Niño com uns três meses de atraso.\nOutubro de dois mil e vinte e seis já foi o outubro mais quente da história, segundo o Copernicus, o serviço europeu de clima.\nE uma análise do site Carbon Brief dá noventa e seis por cento de chance de dois mil e vinte e sete ser o ano mais quente já registrado.",
+  "fala_tts": "E o efeito vai muito além do Brasil.\nO planeta sente o El Niño com uns três meses de atraso.\nOutubro de dois mil e vinte e seis já foi o outubro mais quente da história, segundo o Copernicus, o serviço europeu de clima.\nE uma análise do site Carbon Brief dá noventa e seis por cento de chance de dois mil e vinte e sete ser o ano mais quente já registrado.",
+  "tela": "E o efeito vai muito além do Brasil. | O planeta sente o El Niño com uns 3 meses de atraso. | Outubro de 2026 já foi o outubro mais quente da história, | segundo o Copernicus, o serviço europeu de clima. | E uma análise do site Carbon Brief dá 96% de chance | de 2027 ser o ano mais quente já registrado.",
+  "atualizar": false
+ },
+ {
+  "id": "b39",
+  "cap": "PERGUNTA 4/4 · ATÉ QUANDO",
+  "marcha": 2,
+  "fala": "E a última pergunta.\nA mais buscada de todas: até quando isso vai durar?",
+  "fala_tts": "[curious] E a última pergunta.\nA mais buscada de todas: até quando isso vai durar?",
+  "tela": "E a última pergunta. | A mais buscada de todas: até quando isso vai durar?",
+  "atualizar": false
+ },
+ {
+  "id": "b40",
+  "cap": "PERGUNTA 4/4 · ATÉ QUANDO",
+  "marcha": 2,
+  "fala": "O pico deve chegar até dezembro, no máximo em janeiro.\nBem no meio do nosso verão.\nA agência de meteorologia da Austrália e a maioria dos modelos apontam para o auge em novembro ou dezembro.",
+  "fala_tts": "O pico deve chegar até dezembro, no máximo em janeiro.\nBem no meio do nosso verão.\nA agência de meteorologia da Austrália e a maioria dos modelos apontam para o auge em novembro ou dezembro.",
+  "tela": "O pico deve chegar até dezembro, no máximo em janeiro. | Bem no meio do nosso verão. | A agência de meteorologia da Austrália e a maioria dos modelos | apontam para o auge em novembro ou dezembro.",
+  "atualizar": false
+ },
+ {
+  "id": "b41",
+  "cap": "PERGUNTA 4/4 · ATÉ QUANDO",
+  "marcha": 2,
+  "fala": "Depois, ele perde força devagar.\nA NOAA espera El Niño até o outono, entre março e maio de dois mil e vinte e sete.\nE, a partir de abril, o mais provável é que o Pacífico volte ao normal.",
+  "fala_tts": "Depois, ele perde força devagar.\nA NOAA espera El Niño até o outono, entre março e maio de dois mil e vinte e sete.\nE, a partir de abril, o mais provável é que o Pacífico volte ao normal.",
+  "tela": "Depois, ele perde força devagar. | A NOAA espera El Niño até o outono, entre março e maio de 2027. | E, a partir de abril, o mais provável é que o Pacífico volte ao normal.",
+  "atualizar": false
+ },
+ {
+  "id": "b42",
+  "cap": "PERGUNTA 4/4 · ATÉ QUANDO",
+  "marcha": 2,
+  "fala": "E depois?\nDepois de oitenta e três, de noventa e oito e de dois mil e dezesseis, o Pacífico esfriou e virou para o lado oposto.\nÉ a La Niña, a irmã do El Niño, que costuma inverter o desenho no Brasil: seca no Sul, chuva no Norte.\nMas, para dois mil e vinte e sete, ninguém confirmou isso ainda.\nÉ comum. Não é garantido.",
+  "fala_tts": "[curious] E depois?\nDepois de oitenta e três, de noventa e oito e de dois mil e dezesseis, o Pacífico esfriou e virou para o lado oposto.\nÉ a La Niña, a irmã do El Niño, que costuma inverter o desenho no Brasil: seca no Sul, chuva no Norte.\nMas, para dois mil e vinte e sete, ninguém confirmou isso ainda.\nÉ comum. Não é garantido.",
+  "tela": "E depois? | Depois de 83, de 98 e de 2016, o Pacífico esfriou | e virou para o lado oposto. | É a La Niña, a irmã do El Niño, que costuma inverter o desenho no Brasil: | seca no Sul, chuva no Norte. | Mas, para 2027, ninguém confirmou isso ainda. | É comum. Não é garantido.",
+  "atualizar": false
+ },
+ {
+  "id": "b43",
+  "cap": "PERGUNTA 4/4 · ATÉ QUANDO",
+  "marcha": 2,
+  "fala": "E lembre de dois mil e vinte e quatro.\nO próprio painel do governo avisa: o El Niño deve enfraquecer depois do primeiro trimestre, mas os efeitos dele na circulação do ar podem continuar.",
+  "fala_tts": "E lembre de dois mil e vinte e quatro.\nO próprio painel do governo avisa: o El Niño deve enfraquecer depois do primeiro trimestre, mas os efeitos dele na circulação do ar podem continuar.",
+  "tela": "E lembre de 2024. | O próprio painel do governo avisa: | o El Niño deve enfraquecer depois do primeiro trimestre, | mas os efeitos dele na circulação do ar podem continuar.",
+  "atualizar": false
+ },
+ {
+  "id": "b44",
+  "cap": "O QUE FAZER",
+  "marcha": 2,
+  "fala": "Então, o que fazer?\nDepende de onde você mora.",
+  "fala_tts": "[curious] Então, o que fazer?\nDepende de onde você mora.",
+  "tela": "Então, o que fazer? | Depende de onde você mora.",
+  "atualizar": false
+ },
+ {
+  "id": "b45",
+  "cap": "O QUE FAZER",
+  "marcha": 2,
+  "fala": "No Sul, receba os alertas da Defesa Civil.\nMande o seu cép por SMS para quatro, zero, um, nove, nove. É de graça.\nE, em temporal, fique longe de rios, de encostas e de árvores.",
+  "fala_tts": "No Sul, receba os alertas da Defesa Civil.\nMande o seu cép por SMS para quatro, zero, um, nove, nove. É de graça.\nE, em temporal, fique longe de rios, de encostas e de árvores.",
+  "tela": "No Sul, receba os alertas da Defesa Civil. | Mande o seu CEP por SMS para 40199. É de graça. | E, em temporal, fique longe de rios, de encostas e de árvores.",
+  "atualizar": false
+ },
+ {
+  "id": "b46",
+  "cap": "O QUE FAZER",
+  "marcha": 2,
+  "fala": "No Norte, nos dias de fumaça, feche portas e janelas e, se precisar sair, use máscara do tipo PFF dois.\nE, onde o calor apertar, beba água mesmo sem sede, fuja do sol nas horas mais quentes e tenha atenção dobrada com idosos e crianças.",
+  "fala_tts": "No Norte, nos dias de fumaça, feche portas e janelas e, se precisar sair, use máscara do tipo PFF dois.\nE, onde o calor apertar, beba água mesmo sem sede, fuja do sol nas horas mais quentes e tenha atenção dobrada com idosos e crianças.",
+  "tela": "No Norte, nos dias de fumaça, feche portas e janelas | e, se precisar sair, use máscara do tipo PFF2. | E, onde o calor apertar, beba água mesmo sem sede, | fuja do sol nas horas mais quentes | e tenha atenção dobrada com idosos e crianças.",
+  "atualizar": false
+ },
+ {
+  "id": "b47",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Então, voltando ao começo.\nA fumaça em Manaus, a chuva em Santa Catarina e o mar quente no Peru são a mesma história.\nUm vento que enfraqueceu no meio do Pacífico.\nO El Niño de dois mil e vinte e seis já é muito forte.\nPode virar o maior desde mil novecentos e cinquenta.\nE o pico chega agora, no nosso verão.",
+  "fala_tts": "[serious] Então, voltando ao começo.\nA fumaça em Manaus, a chuva em Santa Catarina e o mar quente no Peru são a mesma história.\nUm vento que enfraqueceu no meio do Pacífico.\nO El Niño de dois mil e vinte e seis já é muito forte.\nPode virar o maior desde mil novecentos e cinquenta.\nE o pico chega agora, no nosso verão.",
+  "tela": "Então, voltando ao começo. | A fumaça em Manaus, a chuva em Santa Catarina | e o mar quente no Peru são a mesma história. | Um vento que enfraqueceu no meio do Pacífico. | O El Niño de 2026 já é muito forte. | Pode virar o maior desde 1950. | E o pico chega agora, no nosso verão.",
+  "atualizar": false
+ },
+ {
+  "id": "b48",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Manda este vídeo para quem vai passar o verão no Sul, no Norte ou no Nordeste.\nE se inscreve: a gente volta aqui quando os números mudarem.",
+  "fala_tts": "Manda este vídeo para quem vai passar o verão no Sul, no Norte ou no Nordeste.\nE se inscreve: a gente volta aqui quando os números mudarem.",
+  "tela": "Manda este vídeo para quem vai passar o verão no Sul, no Norte ou no Nordeste. | E se inscreve: a gente volta aqui quando os números mudarem.",
+  "atualizar": false
+ }
+]
