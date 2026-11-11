@@ -1,0 +1,2252 @@
+[
+ {
+  "nicho": "geo",
+  "lang": "en",
+  "q": "geopolitics explained",
+  "mediana_top10": 1265975,
+  "ano_100k_longos": 31,
+  "d90_100k_longos": 17,
+  "d90_100k_todos": 23
+ },
+ {
+  "nicho": "geo",
+  "lang": "en",
+  "q": "geography of russia explained",
+  "mediana_top10": 247326,
+  "ano_100k_longos": 3,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "geo",
+  "lang": "en",
+  "q": "why borders are so weird",
+  "mediana_top10": 420852,
+  "ano_100k_longos": 10,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "geo",
+  "lang": "en",
+  "q": "how geography shapes countries",
+  "mediana_top10": 120840,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "geo",
+  "lang": "en",
+  "q": "border dispute explained map",
+  "mediana_top10": 802051,
+  "ano_100k_longos": 16,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "geo",
+  "lang": "es",
+  "q": "geopolítica explicada",
+  "mediana_top10": 240267,
+  "ano_100k_longos": 15,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "geo",
+  "lang": "es",
+  "q": "geografía explicada mapas",
+  "mediana_top10": 132697,
+  "ano_100k_longos": 10,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "geo",
+  "lang": "pt",
+  "q": "geopolítica explicada",
+  "mediana_top10": 147797,
+  "ano_100k_longos": 19,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 5
+ },
+ {
+  "nicho": "geo",
+  "lang": "pt",
+  "q": "geografia explicada no mapa",
+  "mediana_top10": 348711,
+  "ano_100k_longos": 10,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "geo",
+  "lang": "fr",
+  "q": "géopolitique expliquée",
+  "mediana_top10": 282586,
+  "ano_100k_longos": 8,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "geo",
+  "lang": "fr",
+  "q": "géographie expliquée carte",
+  "mediana_top10": 142628,
+  "ano_100k_longos": 14,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "geo",
+  "lang": "de",
+  "q": "Geopolitik erklärt",
+  "mediana_top10": 5307,
+  "ano_100k_longos": 2,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "geo",
+  "lang": "de",
+  "q": "Geographie erklärt Karte",
+  "mediana_top10": 163415,
+  "ano_100k_longos": 1,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "desastre",
+  "lang": "en",
+  "q": "natural disaster documentary",
+  "mediana_top10": 393013,
+  "ano_100k_longos": 47,
+  "d90_100k_longos": 31,
+  "d90_100k_todos": 32
+ },
+ {
+  "nicho": "desastre",
+  "lang": "en",
+  "q": "deadliest disaster explained",
+  "mediana_top10": 1361237,
+  "ano_100k_longos": 23,
+  "d90_100k_longos": 10,
+  "d90_100k_todos": 12
+ },
+ {
+  "nicho": "desastre",
+  "lang": "en",
+  "q": "how hurricanes form",
+  "mediana_top10": 268589,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 5
+ },
+ {
+  "nicho": "desastre",
+  "lang": "en",
+  "q": "worst flood in history",
+  "mediana_top10": 570519,
+  "ano_100k_longos": 22,
+  "d90_100k_longos": 6,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "desastre",
+  "lang": "en",
+  "q": "volcano eruption documentary",
+  "mediana_top10": 668319,
+  "ano_100k_longos": 29,
+  "d90_100k_longos": 12,
+  "d90_100k_todos": 12
+ },
+ {
+  "nicho": "desastre",
+  "lang": "es",
+  "q": "desastres naturales documental",
+  "mediana_top10": 406576,
+  "ano_100k_longos": 42,
+  "d90_100k_longos": 27,
+  "d90_100k_todos": 28
+ },
+ {
+  "nicho": "desastre",
+  "lang": "es",
+  "q": "peores desastres de la historia",
+  "mediana_top10": 388214,
+  "ano_100k_longos": 20,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "desastre",
+  "lang": "pt",
+  "q": "desastres naturais documentário",
+  "mediana_top10": 1383296,
+  "ano_100k_longos": 43,
+  "d90_100k_longos": 29,
+  "d90_100k_todos": 29
+ },
+ {
+  "nicho": "desastre",
+  "lang": "pt",
+  "q": "maiores tragédias da história",
+  "mediana_top10": 842116,
+  "ano_100k_longos": 25,
+  "d90_100k_longos": 10,
+  "d90_100k_todos": 10
+ },
+ {
+  "nicho": "desastre",
+  "lang": "fr",
+  "q": "catastrophe naturelle documentaire",
+  "mediana_top10": 433183,
+  "ano_100k_longos": 28,
+  "d90_100k_longos": 11,
+  "d90_100k_todos": 11
+ },
+ {
+  "nicho": "desastre",
+  "lang": "fr",
+  "q": "pires catastrophes de l'histoire",
+  "mediana_top10": 43720,
+  "ano_100k_longos": 21,
+  "d90_100k_longos": 6,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "desastre",
+  "lang": "de",
+  "q": "Naturkatastrophe Doku",
+  "mediana_top10": 103725,
+  "ano_100k_longos": 19,
+  "d90_100k_longos": 6,
+  "d90_100k_todos": 8
+ },
+ {
+  "nicho": "desastre",
+  "lang": "de",
+  "q": "schlimmste Katastrophen der Geschichte",
+  "mediana_top10": 54206,
+  "ano_100k_longos": 8,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "espaco",
+  "lang": "en",
+  "q": "space documentary",
+  "mediana_top10": 553460,
+  "ano_100k_longos": 47,
+  "d90_100k_longos": 25,
+  "d90_100k_todos": 25
+ },
+ {
+  "nicho": "espaco",
+  "lang": "en",
+  "q": "james webb telescope discoveries",
+  "mediana_top10": 731885,
+  "ano_100k_longos": 33,
+  "d90_100k_longos": 18,
+  "d90_100k_todos": 18
+ },
+ {
+  "nicho": "espaco",
+  "lang": "en",
+  "q": "how big is the universe",
+  "mediana_top10": 4874389,
+  "ano_100k_longos": 26,
+  "d90_100k_longos": 7,
+  "d90_100k_todos": 7
+ },
+ {
+  "nicho": "espaco",
+  "lang": "en",
+  "q": "mars explained",
+  "mediana_top10": 640303,
+  "ano_100k_longos": 17,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "espaco",
+  "lang": "en",
+  "q": "apollo moon landing documentary",
+  "mediana_top10": 1074127,
+  "ano_100k_longos": 24,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "espaco",
+  "lang": "es",
+  "q": "documental del espacio",
+  "mediana_top10": 91830,
+  "ano_100k_longos": 30,
+  "d90_100k_longos": 10,
+  "d90_100k_todos": 10
+ },
+ {
+  "nicho": "espaco",
+  "lang": "es",
+  "q": "el universo explicado",
+  "mediana_top10": 1019258,
+  "ano_100k_longos": 24,
+  "d90_100k_longos": 6,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "espaco",
+  "lang": "pt",
+  "q": "documentário espaço universo",
+  "mediana_top10": 237821,
+  "ano_100k_longos": 30,
+  "d90_100k_longos": 8,
+  "d90_100k_todos": 8
+ },
+ {
+  "nicho": "espaco",
+  "lang": "pt",
+  "q": "o universo explicado",
+  "mediana_top10": 1255101,
+  "ano_100k_longos": 24,
+  "d90_100k_longos": 7,
+  "d90_100k_todos": 7
+ },
+ {
+  "nicho": "espaco",
+  "lang": "fr",
+  "q": "documentaire espace univers",
+  "mediana_top10": 134180,
+  "ano_100k_longos": 26,
+  "d90_100k_longos": 7,
+  "d90_100k_todos": 7
+ },
+ {
+  "nicho": "espaco",
+  "lang": "fr",
+  "q": "l'univers expliqué",
+  "mediana_top10": 304908,
+  "ano_100k_longos": 16,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "espaco",
+  "lang": "de",
+  "q": "Weltraum Doku",
+  "mediana_top10": 51563,
+  "ano_100k_longos": 21,
+  "d90_100k_longos": 6,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "espaco",
+  "lang": "de",
+  "q": "Universum erklärt",
+  "mediana_top10": 801976,
+  "ano_100k_longos": 9,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "mega",
+  "lang": "en",
+  "q": "megaprojects explained",
+  "mediana_top10": 782337,
+  "ano_100k_longos": 6,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "mega",
+  "lang": "en",
+  "q": "how was it built engineering",
+  "mediana_top10": 1106785,
+  "ano_100k_longos": 25,
+  "d90_100k_longos": 12,
+  "d90_100k_todos": 12
+ },
+ {
+  "nicho": "mega",
+  "lang": "en",
+  "q": "biggest engineering projects",
+  "mediana_top10": 931956,
+  "ano_100k_longos": 35,
+  "d90_100k_longos": 20,
+  "d90_100k_todos": 20
+ },
+ {
+  "nicho": "mega",
+  "lang": "en",
+  "q": "megastructures documentary",
+  "mediana_top10": 197550,
+  "ano_100k_longos": 22,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "mega",
+  "lang": "en",
+  "q": "how does a dam work",
+  "mediana_top10": 687846,
+  "ano_100k_longos": 11,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "mega",
+  "lang": "es",
+  "q": "megaconstrucciones documental",
+  "mediana_top10": 787988,
+  "ano_100k_longos": 21,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "mega",
+  "lang": "es",
+  "q": "megaproyectos explicados",
+  "mediana_top10": 204280,
+  "ano_100k_longos": 5,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "mega",
+  "lang": "pt",
+  "q": "megaconstruções documentário",
+  "mediana_top10": 600879,
+  "ano_100k_longos": 1,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "mega",
+  "lang": "pt",
+  "q": "megaprojetos explicados",
+  "mediana_top10": 5572,
+  "ano_100k_longos": 1,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "mega",
+  "lang": "fr",
+  "q": "mégastructures documentaire",
+  "mediana_top10": 125408,
+  "ano_100k_longos": 21,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "mega",
+  "lang": "fr",
+  "q": "méga projets expliqués",
+  "mediana_top10": 26616,
+  "ano_100k_longos": 3,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "mega",
+  "lang": "de",
+  "q": "Megabauten Doku",
+  "mediana_top10": 296925,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "mega",
+  "lang": "de",
+  "q": "Megaprojekte erklärt",
+  "mediana_top10": 260234,
+  "ano_100k_longos": 5,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "en",
+  "q": "cold war documentary",
+  "mediana_top10": 288469,
+  "ano_100k_longos": 32,
+  "d90_100k_longos": 17,
+  "d90_100k_todos": 18
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "en",
+  "q": "space race documentary",
+  "mediana_top10": 305675,
+  "ano_100k_longos": 23,
+  "d90_100k_longos": 6,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "en",
+  "q": "cuban missile crisis explained",
+  "mediana_top10": 664227,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "en",
+  "q": "history of nuclear weapons",
+  "mediana_top10": 1128647,
+  "ano_100k_longos": 23,
+  "d90_100k_longos": 9,
+  "d90_100k_todos": 9
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "en",
+  "q": "berlin wall history",
+  "mediana_top10": 315487,
+  "ano_100k_longos": 6,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "es",
+  "q": "guerra fría documental",
+  "mediana_top10": 85522,
+  "ano_100k_longos": 34,
+  "d90_100k_longos": 19,
+  "d90_100k_todos": 19
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "es",
+  "q": "carrera espacial documental",
+  "mediana_top10": 22578,
+  "ano_100k_longos": 21,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "pt",
+  "q": "guerra fria documentário",
+  "mediana_top10": 58485,
+  "ano_100k_longos": 26,
+  "d90_100k_longos": 10,
+  "d90_100k_todos": 10
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "pt",
+  "q": "corrida espacial documentário",
+  "mediana_top10": 46446,
+  "ano_100k_longos": 18,
+  "d90_100k_longos": 5,
+  "d90_100k_todos": 5
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "fr",
+  "q": "guerre froide documentaire",
+  "mediana_top10": 320661,
+  "ano_100k_longos": 26,
+  "d90_100k_longos": 12,
+  "d90_100k_todos": 12
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "fr",
+  "q": "course à l'espace documentaire",
+  "mediana_top10": 97636,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "de",
+  "q": "Kalter Krieg Doku",
+  "mediana_top10": 49979,
+  "ano_100k_longos": 23,
+  "d90_100k_longos": 11,
+  "d90_100k_todos": 11
+ },
+ {
+  "nicho": "guerrafria",
+  "lang": "de",
+  "q": "Wettlauf ins All Doku",
+  "mediana_top10": 21165,
+  "ano_100k_longos": 3,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "economia",
+  "lang": "en",
+  "q": "economy explained",
+  "mediana_top10": 814827,
+  "ano_100k_longos": 36,
+  "d90_100k_longos": 21,
+  "d90_100k_todos": 25
+ },
+ {
+  "nicho": "economia",
+  "lang": "en",
+  "q": "why is this country so rich",
+  "mediana_top10": 254628,
+  "ano_100k_longos": 23,
+  "d90_100k_longos": 16,
+  "d90_100k_todos": 16
+ },
+ {
+  "nicho": "economia",
+  "lang": "en",
+  "q": "how inflation works explained",
+  "mediana_top10": 789050,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "economia",
+  "lang": "en",
+  "q": "economic collapse explained",
+  "mediana_top10": 352615,
+  "ano_100k_longos": 40,
+  "d90_100k_longos": 23,
+  "d90_100k_todos": 23
+ },
+ {
+  "nicho": "economia",
+  "lang": "en",
+  "q": "how this company makes money",
+  "mediana_top10": 81158,
+  "ano_100k_longos": 34,
+  "d90_100k_longos": 20,
+  "d90_100k_todos": 20
+ },
+ {
+  "nicho": "economia",
+  "lang": "es",
+  "q": "economía explicada",
+  "mediana_top10": 282552,
+  "ano_100k_longos": 27,
+  "d90_100k_longos": 9,
+  "d90_100k_todos": 9
+ },
+ {
+  "nicho": "economia",
+  "lang": "es",
+  "q": "por qué este país es tan rico",
+  "mediana_top10": 623863,
+  "ano_100k_longos": 17,
+  "d90_100k_longos": 6,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "economia",
+  "lang": "pt",
+  "q": "economia explicada",
+  "mediana_top10": 218028,
+  "ano_100k_longos": 24,
+  "d90_100k_longos": 7,
+  "d90_100k_todos": 7
+ },
+ {
+  "nicho": "economia",
+  "lang": "pt",
+  "q": "por que esse país é tão rico",
+  "mediana_top10": 82406,
+  "ano_100k_longos": 0,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "economia",
+  "lang": "fr",
+  "q": "économie expliquée",
+  "mediana_top10": 211080,
+  "ano_100k_longos": 26,
+  "d90_100k_longos": 11,
+  "d90_100k_todos": 11
+ },
+ {
+  "nicho": "economia",
+  "lang": "fr",
+  "q": "pourquoi ce pays est si riche",
+  "mediana_top10": 1189,
+  "ano_100k_longos": 3,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "economia",
+  "lang": "de",
+  "q": "Wirtschaft erklärt",
+  "mediana_top10": 207058,
+  "ano_100k_longos": 17,
+  "d90_100k_longos": 8,
+  "d90_100k_todos": 9
+ },
+ {
+  "nicho": "economia",
+  "lang": "de",
+  "q": "warum ist dieses Land so reich",
+  "mediana_top10": 5478,
+  "ano_100k_longos": 0,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "natureza",
+  "lang": "en",
+  "q": "wildlife documentary",
+  "mediana_top10": 241827,
+  "ano_100k_longos": 46,
+  "d90_100k_longos": 29,
+  "d90_100k_todos": 29
+ },
+ {
+  "nicho": "natureza",
+  "lang": "en",
+  "q": "animal facts documentary",
+  "mediana_top10": 2829951,
+  "ano_100k_longos": 21,
+  "d90_100k_longos": 5,
+  "d90_100k_todos": 5
+ },
+ {
+  "nicho": "natureza",
+  "lang": "en",
+  "q": "deadliest animals in the world",
+  "mediana_top10": 1050035,
+  "ano_100k_longos": 26,
+  "d90_100k_longos": 9,
+  "d90_100k_todos": 9
+ },
+ {
+  "nicho": "natureza",
+  "lang": "en",
+  "q": "amazon rainforest documentary",
+  "mediana_top10": 3572485,
+  "ano_100k_longos": 43,
+  "d90_100k_longos": 23,
+  "d90_100k_todos": 23
+ },
+ {
+  "nicho": "natureza",
+  "lang": "en",
+  "q": "animal migration documentary",
+  "mediana_top10": 278877,
+  "ano_100k_longos": 29,
+  "d90_100k_longos": 11,
+  "d90_100k_todos": 11
+ },
+ {
+  "nicho": "natureza",
+  "lang": "es",
+  "q": "documental de animales",
+  "mediana_top10": 1689125,
+  "ano_100k_longos": 44,
+  "d90_100k_longos": 24,
+  "d90_100k_todos": 24
+ },
+ {
+  "nicho": "natureza",
+  "lang": "es",
+  "q": "animales más peligrosos del mundo",
+  "mediana_top10": 269800,
+  "ano_100k_longos": 27,
+  "d90_100k_longos": 10,
+  "d90_100k_todos": 10
+ },
+ {
+  "nicho": "natureza",
+  "lang": "pt",
+  "q": "documentário de animais",
+  "mediana_top10": 1115101,
+  "ano_100k_longos": 44,
+  "d90_100k_longos": 24,
+  "d90_100k_todos": 24
+ },
+ {
+  "nicho": "natureza",
+  "lang": "pt",
+  "q": "animais mais perigosos do mundo",
+  "mediana_top10": 1169069,
+  "ano_100k_longos": 36,
+  "d90_100k_longos": 17,
+  "d90_100k_todos": 17
+ },
+ {
+  "nicho": "natureza",
+  "lang": "fr",
+  "q": "documentaire animalier",
+  "mediana_top10": 349120,
+  "ano_100k_longos": 48,
+  "d90_100k_longos": 28,
+  "d90_100k_todos": 28
+ },
+ {
+  "nicho": "natureza",
+  "lang": "fr",
+  "q": "animaux les plus dangereux du monde",
+  "mediana_top10": 759669,
+  "ano_100k_longos": 19,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "natureza",
+  "lang": "de",
+  "q": "Tierdoku",
+  "mediana_top10": 129257,
+  "ano_100k_longos": 8,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "natureza",
+  "lang": "de",
+  "q": "gefährlichste Tiere der Welt",
+  "mediana_top10": 254641,
+  "ano_100k_longos": 15,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "en",
+  "q": "true crime documentary",
+  "mediana_top10": 140699,
+  "ano_100k_longos": 50,
+  "d90_100k_longos": 29,
+  "d90_100k_todos": 29
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "en",
+  "q": "unsolved mysteries explained",
+  "mediana_top10": 912551,
+  "ano_100k_longos": 29,
+  "d90_100k_longos": 7,
+  "d90_100k_todos": 7
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "en",
+  "q": "disappearance explained documentary",
+  "mediana_top10": 762290,
+  "ano_100k_longos": 24,
+  "d90_100k_longos": 7,
+  "d90_100k_todos": 7
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "en",
+  "q": "biggest heist explained",
+  "mediana_top10": 2307116,
+  "ano_100k_longos": 29,
+  "d90_100k_longos": 11,
+  "d90_100k_todos": 12
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "en",
+  "q": "cold case documentary",
+  "mediana_top10": 2311283,
+  "ano_100k_longos": 42,
+  "d90_100k_longos": 20,
+  "d90_100k_todos": 21
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "es",
+  "q": "crimen real documental",
+  "mediana_top10": 268381,
+  "ano_100k_longos": 44,
+  "d90_100k_longos": 23,
+  "d90_100k_todos": 24
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "es",
+  "q": "misterios sin resolver",
+  "mediana_top10": 305003,
+  "ano_100k_longos": 35,
+  "d90_100k_longos": 14,
+  "d90_100k_todos": 14
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "pt",
+  "q": "caso criminal documentário",
+  "mediana_top10": 490286,
+  "ano_100k_longos": 42,
+  "d90_100k_longos": 25,
+  "d90_100k_todos": 26
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "pt",
+  "q": "mistérios não resolvidos",
+  "mediana_top10": 41427,
+  "ano_100k_longos": 37,
+  "d90_100k_longos": 21,
+  "d90_100k_todos": 21
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "fr",
+  "q": "affaire criminelle documentaire",
+  "mediana_top10": 182282,
+  "ano_100k_longos": 47,
+  "d90_100k_longos": 27,
+  "d90_100k_todos": 27
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "fr",
+  "q": "mystères non résolus",
+  "mediana_top10": 147613,
+  "ano_100k_longos": 34,
+  "d90_100k_longos": 21,
+  "d90_100k_todos": 21
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "de",
+  "q": "True Crime Doku",
+  "mediana_top10": 202191,
+  "ano_100k_longos": 44,
+  "d90_100k_longos": 23,
+  "d90_100k_todos": 25
+ },
+ {
+  "nicho": "truecrime",
+  "lang": "de",
+  "q": "ungelöste Rätsel",
+  "mediana_top10": 7323,
+  "ano_100k_longos": 11,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "cidades",
+  "lang": "en",
+  "q": "why does this city exist",
+  "mediana_top10": 275600,
+  "ano_100k_longos": 16,
+  "d90_100k_longos": 10,
+  "d90_100k_todos": 10
+ },
+ {
+  "nicho": "cidades",
+  "lang": "en",
+  "q": "why is this city so",
+  "mediana_top10": 208037,
+  "ano_100k_longos": 19,
+  "d90_100k_longos": 8,
+  "d90_100k_todos": 8
+ },
+ {
+  "nicho": "cidades",
+  "lang": "en",
+  "q": "how this city grew",
+  "mediana_top10": 250378,
+  "ano_100k_longos": 1,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "cidades",
+  "lang": "en",
+  "q": "country explained documentary",
+  "mediana_top10": 355313,
+  "ano_100k_longos": 17,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "cidades",
+  "lang": "en",
+  "q": "why nobody lives here",
+  "mediana_top10": 919155,
+  "ano_100k_longos": 21,
+  "d90_100k_longos": 7,
+  "d90_100k_todos": 7
+ },
+ {
+  "nicho": "cidades",
+  "lang": "es",
+  "q": "por qué esta ciudad existe",
+  "mediana_top10": 564703,
+  "ano_100k_longos": 14,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "cidades",
+  "lang": "es",
+  "q": "por qué nadie vive aquí",
+  "mediana_top10": 559112,
+  "ano_100k_longos": 20,
+  "d90_100k_longos": 5,
+  "d90_100k_todos": 5
+ },
+ {
+  "nicho": "cidades",
+  "lang": "pt",
+  "q": "por que essa cidade existe",
+  "mediana_top10": 18281,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "cidades",
+  "lang": "pt",
+  "q": "por que ninguém mora aqui",
+  "mediana_top10": 2182862,
+  "ano_100k_longos": 15,
+  "d90_100k_longos": 8,
+  "d90_100k_todos": 8
+ },
+ {
+  "nicho": "cidades",
+  "lang": "fr",
+  "q": "pourquoi cette ville existe",
+  "mediana_top10": 14154,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "cidades",
+  "lang": "fr",
+  "q": "pourquoi personne ne vit ici",
+  "mediana_top10": 293,
+  "ano_100k_longos": 2,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "cidades",
+  "lang": "de",
+  "q": "warum gibt es diese Stadt",
+  "mediana_top10": 2103,
+  "ano_100k_longos": 1,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "cidades",
+  "lang": "de",
+  "q": "warum lebt hier niemand",
+  "mediana_top10": 71134,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "militar",
+  "lang": "en",
+  "q": "aircraft carrier explained",
+  "mediana_top10": 1418202,
+  "ano_100k_longos": 29,
+  "d90_100k_longos": 12,
+  "d90_100k_todos": 12
+ },
+ {
+  "nicho": "militar",
+  "lang": "en",
+  "q": "fighter jet explained",
+  "mediana_top10": 381689,
+  "ano_100k_longos": 32,
+  "d90_100k_longos": 13,
+  "d90_100k_todos": 13
+ },
+ {
+  "nicho": "militar",
+  "lang": "en",
+  "q": "military documentary",
+  "mediana_top10": 1142452,
+  "ano_100k_longos": 43,
+  "d90_100k_longos": 27,
+  "d90_100k_todos": 29
+ },
+ {
+  "nicho": "militar",
+  "lang": "en",
+  "q": "battleship history documentary",
+  "mediana_top10": 292562,
+  "ano_100k_longos": 23,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "militar",
+  "lang": "en",
+  "q": "submarine explained",
+  "mediana_top10": 909454,
+  "ano_100k_longos": 22,
+  "d90_100k_longos": 6,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "militar",
+  "lang": "es",
+  "q": "documental militar",
+  "mediana_top10": 749662,
+  "ano_100k_longos": 35,
+  "d90_100k_longos": 15,
+  "d90_100k_todos": 24
+ },
+ {
+  "nicho": "militar",
+  "lang": "es",
+  "q": "portaaviones explicado",
+  "mediana_top10": 71825,
+  "ano_100k_longos": 0,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "militar",
+  "lang": "pt",
+  "q": "documentário militar",
+  "mediana_top10": 542333,
+  "ano_100k_longos": 37,
+  "d90_100k_longos": 25,
+  "d90_100k_todos": 26
+ },
+ {
+  "nicho": "militar",
+  "lang": "pt",
+  "q": "porta-aviões explicado",
+  "mediana_top10": 98244,
+  "ano_100k_longos": 2,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "militar",
+  "lang": "fr",
+  "q": "documentaire militaire",
+  "mediana_top10": 404296,
+  "ano_100k_longos": 39,
+  "d90_100k_longos": 19,
+  "d90_100k_todos": 26
+ },
+ {
+  "nicho": "militar",
+  "lang": "fr",
+  "q": "porte-avions expliqué",
+  "mediana_top10": 123032,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "militar",
+  "lang": "de",
+  "q": "Militär Doku",
+  "mediana_top10": 332580,
+  "ano_100k_longos": 37,
+  "d90_100k_longos": 16,
+  "d90_100k_todos": 24
+ },
+ {
+  "nicho": "militar",
+  "lang": "de",
+  "q": "Flugzeugträger erklärt",
+  "mediana_top10": 47601,
+  "ano_100k_longos": 3,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "escala",
+  "lang": "en",
+  "q": "size comparison",
+  "mediana_top10": 2463983,
+  "ano_100k_longos": 38,
+  "d90_100k_longos": 23,
+  "d90_100k_todos": 23
+ },
+ {
+  "nicho": "escala",
+  "lang": "en",
+  "q": "real size of",
+  "mediana_top10": 919973,
+  "ano_100k_longos": 23,
+  "d90_100k_longos": 5,
+  "d90_100k_todos": 5
+ },
+ {
+  "nicho": "escala",
+  "lang": "en",
+  "q": "scale of the universe",
+  "mediana_top10": 3294448,
+  "ano_100k_longos": 31,
+  "d90_100k_longos": 11,
+  "d90_100k_todos": 11
+ },
+ {
+  "nicho": "escala",
+  "lang": "en",
+  "q": "how deep is the ocean",
+  "mediana_top10": 533251,
+  "ano_100k_longos": 34,
+  "d90_100k_longos": 21,
+  "d90_100k_todos": 22
+ },
+ {
+  "nicho": "escala",
+  "lang": "en",
+  "q": "how big is",
+  "mediana_top10": 4584734,
+  "ano_100k_longos": 33,
+  "d90_100k_longos": 15,
+  "d90_100k_todos": 15
+ },
+ {
+  "nicho": "escala",
+  "lang": "es",
+  "q": "comparación de tamaño",
+  "mediana_top10": 12870227,
+  "ano_100k_longos": 25,
+  "d90_100k_longos": 8,
+  "d90_100k_todos": 9
+ },
+ {
+  "nicho": "escala",
+  "lang": "es",
+  "q": "el tamaño real de",
+  "mediana_top10": 4513,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 7,
+  "d90_100k_todos": 7
+ },
+ {
+  "nicho": "escala",
+  "lang": "pt",
+  "q": "comparação de tamanho",
+  "mediana_top10": 159205,
+  "ano_100k_longos": 11,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "escala",
+  "lang": "pt",
+  "q": "o tamanho real de",
+  "mediana_top10": 1479,
+  "ano_100k_longos": 8,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "escala",
+  "lang": "fr",
+  "q": "comparaison de taille",
+  "mediana_top10": 11058,
+  "ano_100k_longos": 18,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "escala",
+  "lang": "fr",
+  "q": "la vraie taille de",
+  "mediana_top10": 168868,
+  "ano_100k_longos": 11,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "escala",
+  "lang": "de",
+  "q": "Größenvergleich",
+  "mediana_top10": 199884,
+  "ano_100k_longos": 15,
+  "d90_100k_longos": 7,
+  "d90_100k_todos": 7
+ },
+ {
+  "nicho": "escala",
+  "lang": "de",
+  "q": "wie groß ist wirklich",
+  "mediana_top10": 9507,
+  "ano_100k_longos": 6,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "oceano",
+  "lang": "en",
+  "q": "deep sea documentary",
+  "mediana_top10": 4349680,
+  "ano_100k_longos": 47,
+  "d90_100k_longos": 25,
+  "d90_100k_todos": 25
+ },
+ {
+  "nicho": "oceano",
+  "lang": "en",
+  "q": "mariana trench explained",
+  "mediana_top10": 2637568,
+  "ano_100k_longos": 25,
+  "d90_100k_longos": 9,
+  "d90_100k_todos": 9
+ },
+ {
+  "nicho": "oceano",
+  "lang": "en",
+  "q": "deep ocean creatures",
+  "mediana_top10": 4772332,
+  "ano_100k_longos": 41,
+  "d90_100k_longos": 23,
+  "d90_100k_todos": 24
+ },
+ {
+  "nicho": "oceano",
+  "lang": "en",
+  "q": "titanic wreck explained",
+  "mediana_top10": 3384396,
+  "ano_100k_longos": 22,
+  "d90_100k_longos": 6,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "oceano",
+  "lang": "en",
+  "q": "what lies beneath the ocean",
+  "mediana_top10": 2935829,
+  "ano_100k_longos": 13,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "oceano",
+  "lang": "es",
+  "q": "documental del fondo del mar",
+  "mediana_top10": 1169888,
+  "ano_100k_longos": 32,
+  "d90_100k_longos": 12,
+  "d90_100k_todos": 12
+ },
+ {
+  "nicho": "oceano",
+  "lang": "es",
+  "q": "fosa de las marianas explicada",
+  "mediana_top10": 1528621,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "oceano",
+  "lang": "pt",
+  "q": "documentário fundo do mar",
+  "mediana_top10": 589270,
+  "ano_100k_longos": 48,
+  "d90_100k_longos": 25,
+  "d90_100k_todos": 25
+ },
+ {
+  "nicho": "oceano",
+  "lang": "pt",
+  "q": "fossa das marianas explicada",
+  "mediana_top10": 433614,
+  "ano_100k_longos": 8,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "oceano",
+  "lang": "fr",
+  "q": "documentaire fonds marins",
+  "mediana_top10": 579204,
+  "ano_100k_longos": 26,
+  "d90_100k_longos": 7,
+  "d90_100k_todos": 7
+ },
+ {
+  "nicho": "oceano",
+  "lang": "fr",
+  "q": "fosse des mariannes expliquée",
+  "mediana_top10": 275540,
+  "ano_100k_longos": 3,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "oceano",
+  "lang": "de",
+  "q": "Tiefsee Doku",
+  "mediana_top10": 76682,
+  "ano_100k_longos": 31,
+  "d90_100k_longos": 14,
+  "d90_100k_todos": 14
+ },
+ {
+  "nicho": "oceano",
+  "lang": "de",
+  "q": "Marianengraben erklärt",
+  "mediana_top10": 518655,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "en",
+  "q": "plane crash explained",
+  "mediana_top10": 2003664,
+  "ano_100k_longos": 33,
+  "d90_100k_longos": 20,
+  "d90_100k_todos": 22
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "en",
+  "q": "air crash investigation documentary",
+  "mediana_top10": 846029,
+  "ano_100k_longos": 32,
+  "d90_100k_longos": 17,
+  "d90_100k_todos": 22
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "en",
+  "q": "industrial disaster explained",
+  "mediana_top10": 357139,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "en",
+  "q": "engineering disaster explained",
+  "mediana_top10": 117798,
+  "ano_100k_longos": 15,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "en",
+  "q": "train crash explained",
+  "mediana_top10": 163693,
+  "ano_100k_longos": 26,
+  "d90_100k_longos": 17,
+  "d90_100k_todos": 24
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "es",
+  "q": "accidente aéreo explicado",
+  "mediana_top10": 776226,
+  "ano_100k_longos": 21,
+  "d90_100k_longos": 11,
+  "d90_100k_todos": 13
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "es",
+  "q": "desastre industrial explicado",
+  "mediana_top10": 14501,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "pt",
+  "q": "acidente aéreo explicado",
+  "mediana_top10": 1754069,
+  "ano_100k_longos": 9,
+  "d90_100k_longos": 5,
+  "d90_100k_todos": 15
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "pt",
+  "q": "desastre industrial explicado",
+  "mediana_top10": 46371,
+  "ano_100k_longos": 2,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "fr",
+  "q": "crash aérien expliqué",
+  "mediana_top10": 522495,
+  "ano_100k_longos": 30,
+  "d90_100k_longos": 19,
+  "d90_100k_todos": 21
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "fr",
+  "q": "catastrophe industrielle expliquée",
+  "mediana_top10": 222130,
+  "ano_100k_longos": 2,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "de",
+  "q": "Flugzeugabsturz erklärt",
+  "mediana_top10": 288310,
+  "ano_100k_longos": 6,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "acidentes",
+  "lang": "de",
+  "q": "Industriekatastrophe erklärt",
+  "mediana_top10": 2903,
+  "ano_100k_longos": 0,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "historia20",
+  "lang": "en",
+  "q": "20th century history documentary",
+  "mediana_top10": 462145,
+  "ano_100k_longos": 33,
+  "d90_100k_longos": 13,
+  "d90_100k_todos": 13
+ },
+ {
+  "nicho": "historia20",
+  "lang": "en",
+  "q": "archival footage history",
+  "mediana_top10": 55880,
+  "ano_100k_longos": 17,
+  "d90_100k_longos": 11,
+  "d90_100k_todos": 11
+ },
+ {
+  "nicho": "historia20",
+  "lang": "en",
+  "q": "what really happened in 1969",
+  "mediana_top10": 125046,
+  "ano_100k_longos": 6,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "historia20",
+  "lang": "en",
+  "q": "history of the atomic bomb",
+  "mediana_top10": 1002473,
+  "ano_100k_longos": 9,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 9
+ },
+ {
+  "nicho": "historia20",
+  "lang": "en",
+  "q": "great depression explained",
+  "mediana_top10": 1569491,
+  "ano_100k_longos": 19,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "historia20",
+  "lang": "es",
+  "q": "historia del siglo xx documental",
+  "mediana_top10": 53283,
+  "ano_100k_longos": 29,
+  "d90_100k_longos": 10,
+  "d90_100k_todos": 10
+ },
+ {
+  "nicho": "historia20",
+  "lang": "es",
+  "q": "imágenes de archivo historia",
+  "mediana_top10": 13076,
+  "ano_100k_longos": 6,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "historia20",
+  "lang": "pt",
+  "q": "história do século xx documentário",
+  "mediana_top10": 3426,
+  "ano_100k_longos": 25,
+  "d90_100k_longos": 6,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "historia20",
+  "lang": "pt",
+  "q": "imagens de arquivo história",
+  "mediana_top10": 891,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "historia20",
+  "lang": "fr",
+  "q": "histoire du xxe siècle documentaire",
+  "mediana_top10": 48468,
+  "ano_100k_longos": 12,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "historia20",
+  "lang": "fr",
+  "q": "images d'archives histoire",
+  "mediana_top10": 6980,
+  "ano_100k_longos": 23,
+  "d90_100k_longos": 8,
+  "d90_100k_todos": 8
+ },
+ {
+  "nicho": "historia20",
+  "lang": "de",
+  "q": "Geschichte 20. Jahrhundert Doku",
+  "mediana_top10": 95210,
+  "ano_100k_longos": 20,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "historia20",
+  "lang": "de",
+  "q": "Archivaufnahmen Geschichte",
+  "mediana_top10": 28015,
+  "ano_100k_longos": 1,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "economia",
+  "lang": "en",
+  "q": "why is this country so poor",
+  "mediana_top10": 381368,
+  "ano_100k_longos": 24,
+  "d90_100k_longos": 10,
+  "d90_100k_todos": 10
+ },
+ {
+  "nicho": "economia",
+  "lang": "en",
+  "q": "economic history explained",
+  "mediana_top10": 58296,
+  "ano_100k_longos": 24,
+  "d90_100k_longos": 7,
+  "d90_100k_todos": 7
+ },
+ {
+  "nicho": "economia",
+  "lang": "en",
+  "q": "currency crisis explained",
+  "mediana_top10": 617014,
+  "ano_100k_longos": 33,
+  "d90_100k_longos": 19,
+  "d90_100k_todos": 21
+ },
+ {
+  "nicho": "economia",
+  "lang": "en",
+  "q": "resource curse explained",
+  "mediana_top10": 10897,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "economia",
+  "lang": "es",
+  "q": "por qué este país es pobre",
+  "mediana_top10": 424239,
+  "ano_100k_longos": 29,
+  "d90_100k_longos": 8,
+  "d90_100k_todos": 8
+ },
+ {
+  "nicho": "economia",
+  "lang": "es",
+  "q": "historia económica explicada",
+  "mediana_top10": 348096,
+  "ano_100k_longos": 16,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "economia",
+  "lang": "es",
+  "q": "crisis económica explicada",
+  "mediana_top10": 433926,
+  "ano_100k_longos": 32,
+  "d90_100k_longos": 8,
+  "d90_100k_todos": 9
+ },
+ {
+  "nicho": "economia",
+  "lang": "es",
+  "q": "maldición de los recursos",
+  "mediana_top10": 1544,
+  "ano_100k_longos": 2,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "economia",
+  "lang": "pt",
+  "q": "por que esse país é pobre",
+  "mediana_top10": 161806,
+  "ano_100k_longos": 17,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "economia",
+  "lang": "pt",
+  "q": "história econômica explicada",
+  "mediana_top10": 218302,
+  "ano_100k_longos": 5,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "economia",
+  "lang": "pt",
+  "q": "crise econômica explicada",
+  "mediana_top10": 43939,
+  "ano_100k_longos": 14,
+  "d90_100k_longos": 8,
+  "d90_100k_todos": 8
+ },
+ {
+  "nicho": "economia",
+  "lang": "fr",
+  "q": "pourquoi ce pays est pauvre",
+  "mediana_top10": 64351,
+  "ano_100k_longos": 6,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "economia",
+  "lang": "fr",
+  "q": "histoire économique expliquée",
+  "mediana_top10": 216402,
+  "ano_100k_longos": 9,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "economia",
+  "lang": "fr",
+  "q": "crise économique expliquée",
+  "mediana_top10": 285017,
+  "ano_100k_longos": 18,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 5
+ },
+ {
+  "nicho": "economia",
+  "lang": "de",
+  "q": "warum ist dieses Land so arm",
+  "mediana_top10": 14494,
+  "ano_100k_longos": 0,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "economia",
+  "lang": "de",
+  "q": "Wirtschaftsgeschichte erklärt",
+  "mediana_top10": 94,
+  "ano_100k_longos": 0,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "economia",
+  "lang": "de",
+  "q": "Wirtschaftskrise erklärt",
+  "mediana_top10": 360833,
+  "ano_100k_longos": 5,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "mega",
+  "lang": "en",
+  "q": "how it was built",
+  "mediana_top10": 1163863,
+  "ano_100k_longos": 27,
+  "d90_100k_longos": 10,
+  "d90_100k_todos": 10
+ },
+ {
+  "nicho": "mega",
+  "lang": "en",
+  "q": "why it doesn't collapse engineering",
+  "mediana_top10": 3429,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 5,
+  "d90_100k_todos": 5
+ },
+ {
+  "nicho": "mega",
+  "lang": "en",
+  "q": "engineering explained",
+  "mediana_top10": 1258980,
+  "ano_100k_longos": 43,
+  "d90_100k_longos": 23,
+  "d90_100k_todos": 23
+ },
+ {
+  "nicho": "mega",
+  "lang": "en",
+  "q": "how does this bridge work",
+  "mediana_top10": 2583410,
+  "ano_100k_longos": 21,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "mega",
+  "lang": "es",
+  "q": "cómo se construyó",
+  "mediana_top10": 158322,
+  "ano_100k_longos": 33,
+  "d90_100k_longos": 15,
+  "d90_100k_todos": 15
+ },
+ {
+  "nicho": "mega",
+  "lang": "es",
+  "q": "por qué no se cae",
+  "mediana_top10": 325000,
+  "ano_100k_longos": 32,
+  "d90_100k_longos": 19,
+  "d90_100k_todos": 21
+ },
+ {
+  "nicho": "mega",
+  "lang": "es",
+  "q": "ingeniería explicada",
+  "mediana_top10": 89824,
+  "ano_100k_longos": 17,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "mega",
+  "lang": "es",
+  "q": "cómo funciona este puente",
+  "mediana_top10": 53135,
+  "ano_100k_longos": 0,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "mega",
+  "lang": "pt",
+  "q": "como foi construído",
+  "mediana_top10": 203776,
+  "ano_100k_longos": 10,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 5
+ },
+ {
+  "nicho": "mega",
+  "lang": "pt",
+  "q": "por que não cai",
+  "mediana_top10": 509253,
+  "ano_100k_longos": 32,
+  "d90_100k_longos": 20,
+  "d90_100k_todos": 20
+ },
+ {
+  "nicho": "mega",
+  "lang": "pt",
+  "q": "engenharia explicada",
+  "mediana_top10": 109343,
+  "ano_100k_longos": 6,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "mega",
+  "lang": "fr",
+  "q": "comment a été construit",
+  "mediana_top10": 38879,
+  "ano_100k_longos": 29,
+  "d90_100k_longos": 9,
+  "d90_100k_todos": 9
+ },
+ {
+  "nicho": "mega",
+  "lang": "fr",
+  "q": "ingénierie expliquée",
+  "mediana_top10": 168981,
+  "ano_100k_longos": 13,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "mega",
+  "lang": "fr",
+  "q": "pourquoi il ne s'effondre pas",
+  "mediana_top10": 1289,
+  "ano_100k_longos": 10,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "mega",
+  "lang": "de",
+  "q": "wie wurde gebaut",
+  "mediana_top10": 96233,
+  "ano_100k_longos": 11,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "mega",
+  "lang": "de",
+  "q": "Ingenieurskunst erklärt",
+  "mediana_top10": 22831,
+  "ano_100k_longos": 3,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "mega",
+  "lang": "de",
+  "q": "warum stürzt es nicht ein",
+  "mediana_top10": 23330,
+  "ano_100k_longos": 1,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "militar",
+  "lang": "en",
+  "q": "how it actually worked military",
+  "mediana_top10": 675443,
+  "ano_100k_longos": 25,
+  "d90_100k_longos": 14,
+  "d90_100k_todos": 14
+ },
+ {
+  "nicho": "militar",
+  "lang": "en",
+  "q": "cold war weapons explained",
+  "mediana_top10": 117699,
+  "ano_100k_longos": 18,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "militar",
+  "lang": "en",
+  "q": "battleship explained",
+  "mediana_top10": 289596,
+  "ano_100k_longos": 19,
+  "d90_100k_longos": 5,
+  "d90_100k_todos": 5
+ },
+ {
+  "nicho": "militar",
+  "lang": "en",
+  "q": "nuclear submarine explained",
+  "mediana_top10": 2248287,
+  "ano_100k_longos": 18,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "militar",
+  "lang": "es",
+  "q": "cómo funcionaba realmente",
+  "mediana_top10": 148207,
+  "ano_100k_longos": 30,
+  "d90_100k_longos": 13,
+  "d90_100k_todos": 13
+ },
+ {
+  "nicho": "militar",
+  "lang": "es",
+  "q": "armas de la guerra fría",
+  "mediana_top10": 446728,
+  "ano_100k_longos": 23,
+  "d90_100k_longos": 9,
+  "d90_100k_todos": 9
+ },
+ {
+  "nicho": "militar",
+  "lang": "es",
+  "q": "acorazado explicado",
+  "mediana_top10": 29313,
+  "ano_100k_longos": 2,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "militar",
+  "lang": "es",
+  "q": "submarino nuclear explicado",
+  "mediana_top10": 384551,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "militar",
+  "lang": "pt",
+  "q": "como funcionava de verdade",
+  "mediana_top10": 393004,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 5,
+  "d90_100k_todos": 6
+ },
+ {
+  "nicho": "militar",
+  "lang": "pt",
+  "q": "armas da guerra fria",
+  "mediana_top10": 181380,
+  "ano_100k_longos": 11,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "militar",
+  "lang": "pt",
+  "q": "submarino nuclear explicado",
+  "mediana_top10": 132029,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "militar",
+  "lang": "fr",
+  "q": "comment ça fonctionnait vraiment",
+  "mediana_top10": 40036,
+  "ano_100k_longos": 9,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "militar",
+  "lang": "fr",
+  "q": "cuirassé expliqué",
+  "mediana_top10": 116641,
+  "ano_100k_longos": 3,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "militar",
+  "lang": "fr",
+  "q": "sous-marin nucléaire expliqué",
+  "mediana_top10": 97879,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "militar",
+  "lang": "de",
+  "q": "wie funktionierte eigentlich",
+  "mediana_top10": 29773,
+  "ano_100k_longos": 0,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "militar",
+  "lang": "de",
+  "q": "Schlachtschiff erklärt",
+  "mediana_top10": 35284,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "militar",
+  "lang": "de",
+  "q": "Atom-U-Boot erklärt",
+  "mediana_top10": 87312,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "espaco",
+  "lang": "en",
+  "q": "what nasa found",
+  "mediana_top10": 1439446,
+  "ano_100k_longos": 32,
+  "d90_100k_longos": 11,
+  "d90_100k_todos": 11
+ },
+ {
+  "nicho": "espaco",
+  "lang": "en",
+  "q": "black hole explained",
+  "mediana_top10": 8496986,
+  "ano_100k_longos": 28,
+  "d90_100k_longos": 10,
+  "d90_100k_todos": 10
+ },
+ {
+  "nicho": "espaco",
+  "lang": "en",
+  "q": "voyager explained",
+  "mediana_top10": 2006759,
+  "ano_100k_longos": 17,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "espaco",
+  "lang": "en",
+  "q": "solar system explained",
+  "mediana_top10": 2443742,
+  "ano_100k_longos": 28,
+  "d90_100k_longos": 9,
+  "d90_100k_todos": 10
+ },
+ {
+  "nicho": "espaco",
+  "lang": "es",
+  "q": "lo que encontró la nasa",
+  "mediana_top10": 212980,
+  "ano_100k_longos": 12,
+  "d90_100k_longos": 4,
+  "d90_100k_todos": 4
+ },
+ {
+  "nicho": "espaco",
+  "lang": "es",
+  "q": "agujero negro explicado",
+  "mediana_top10": 751313,
+  "ano_100k_longos": 12,
+  "d90_100k_longos": 5,
+  "d90_100k_todos": 5
+ },
+ {
+  "nicho": "espaco",
+  "lang": "es",
+  "q": "sistema solar explicado",
+  "mediana_top10": 4418609,
+  "ano_100k_longos": 8,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "espaco",
+  "lang": "es",
+  "q": "la sonda voyager",
+  "mediana_top10": 523770,
+  "ano_100k_longos": 27,
+  "d90_100k_longos": 7,
+  "d90_100k_todos": 7
+ },
+ {
+  "nicho": "espaco",
+  "lang": "pt",
+  "q": "o que a nasa encontrou",
+  "mediana_top10": 291692,
+  "ano_100k_longos": 17,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "espaco",
+  "lang": "pt",
+  "q": "buraco negro explicado",
+  "mediana_top10": 486058,
+  "ano_100k_longos": 13,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "espaco",
+  "lang": "pt",
+  "q": "sistema solar explicado",
+  "mediana_top10": 1534661,
+  "ano_100k_longos": 11,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "espaco",
+  "lang": "fr",
+  "q": "ce que la nasa a trouvé",
+  "mediana_top10": 1224,
+  "ano_100k_longos": 7,
+  "d90_100k_longos": 2,
+  "d90_100k_todos": 2
+ },
+ {
+  "nicho": "espaco",
+  "lang": "fr",
+  "q": "trou noir expliqué",
+  "mediana_top10": 1130007,
+  "ano_100k_longos": 12,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "espaco",
+  "lang": "fr",
+  "q": "système solaire expliqué",
+  "mediana_top10": 1188175,
+  "ano_100k_longos": 4,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ },
+ {
+  "nicho": "espaco",
+  "lang": "de",
+  "q": "was die NASA gefunden hat",
+  "mediana_top10": 79467,
+  "ano_100k_longos": 9,
+  "d90_100k_longos": 3,
+  "d90_100k_todos": 3
+ },
+ {
+  "nicho": "espaco",
+  "lang": "de",
+  "q": "schwarzes Loch erklärt",
+  "mediana_top10": 1023106,
+  "ano_100k_longos": 9,
+  "d90_100k_longos": 1,
+  "d90_100k_todos": 1
+ },
+ {
+  "nicho": "espaco",
+  "lang": "de",
+  "q": "Sonnensystem erklärt",
+  "mediana_top10": 561604,
+  "ano_100k_longos": 1,
+  "d90_100k_longos": 0,
+  "d90_100k_todos": 0
+ }
+]
