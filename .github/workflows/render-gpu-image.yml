@@ -1,8 +1,8 @@
 # Constrói a imagem de render em GPU (só dependências) e publica em ghcr.io/rodrigojr-anastacio/fabrica-render-gpu.
 # Usada por tools/render_runpod.sh. O Runpod puxa sem credencial: o pacote precisa estar PÚBLICO
 # (github.com/users/rodrigojr-anastacio/packages → fabrica-render-gpu → Package settings → Change visibility → Public).
-# Nota (11/11/2026): o runner do GitHub NÃO resolve archive.ubuntu.com (nem no host; ele usa o espelho da Azure). O build
-# recebe o espelho do apt do runner em UBUNTU_MIRROR. Sem buildx; --network host para o contêiner usar o DNS do host. O log do Actions exige login: erros viram anotação (::error::),
+# Nota (11/11/2026): o runner do GitHub NÃO resolve *.ubuntu.com (nem no host), mas resolve deb.debian.org, nodejs.org,
+# registry.npmjs.org e remotion.media: por isso a imagem é Debian. Sem buildx; --network host = DNS do host no build. O log do Actions exige login: erros viram anotação (::error::),
 # que a API pública mostra.
 name: render-gpu-image
 on:
@@ -24,20 +24,16 @@ jobs:
       - uses: actions/checkout@v4
         with:
           sparse-checkout: tools/render-gpu-image
-      - name: diagnóstico de rede (vira anotação)
-        run: |
-          {
-            for h in archive.ubuntu.com azure.archive.ubuntu.com nodejs.org registry.npmjs.org remotion.media; do echo "$h: $(getent ahostsv4 $h | awk 'NR==1{print $1}')"; done
-            echo "espelho do runner: $(grep -rhoE 'https?://[^ ]*ubuntu[^ ]*' /etc/apt/sources.list /etc/apt/sources.list.d/ 2>/dev/null | sort -u | tr '\n' ' ')"
-          } > diag.txt 2>&1
-          echo "::notice title=rede::$(sed ':a;N;$!ba;s/\n/%0A/g' diag.txt)"
       - name: build
         run: |
           set +e
-          # o runner não resolve archive.ubuntu.com: usa o espelho do apt do próprio runner (Azure)
-          M=$(grep -rhoE 'https?://[^ ]*ubuntu[^ ]*' /etc/apt/sources.list.d/ /etc/apt/sources.list 2>/dev/null | grep -v security | grep -iE 'azure|archive' | head -1 | sed 's|/$||')
-          echo "espelho: $M"
-          docker build --network host --build-arg UBUNTU_MIRROR=$M \
+          # o runner não resolve *.ubuntu.com (11/11/2026): imagem Debian, espelho = o 1º da lista que resolve aqui
+          M=""
+          for u in http://deb.debian.org/debian http://cdn-fastly.deb.debian.org/debian http://mirrors.edge.kernel.org/debian http://ftp.us.debian.org/debian http://mirror.leaseweb.net/debian; do
+            h=${u#http://}; h=${h%%/*}; getent ahostsv4 $h >/dev/null && { M=$u; break; }
+          done
+          [ -z "$M" ] && { echo "::error title=apt::nenhum espelho Debian resolve no runner"; exit 1; }
+          docker build --network host --build-arg APT_MIRROR=$M \
             --label org.opencontainers.image.source=https://github.com/${{ github.repository }} \
             --label "org.opencontainers.image.description=Render Remotion em GPU (Runpod): Node, Chrome Headless Shell, libs GL/EGL/Vulkan, ffmpeg, fontes. Sem projeto, mídia ou segredo." \
             -t $IMG:latest -t $IMG:${{ github.sha }} tools/render-gpu-image > build.txt 2>&1
