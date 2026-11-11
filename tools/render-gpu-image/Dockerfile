@@ -14,8 +14,11 @@ ENV DEBIAN_FRONTEND=noninteractive \
     NVIDIA_DRIVER_CAPABILITIES=all \
     NVIDIA_VISIBLE_DEVICES=all
 
+# espelho do apt: o runner do GitHub não resolve archive.ubuntu.com (11/11/2026); o workflow passa o espelho que o runner usa
+ARG UBUNTU_MIRROR=
 COPY pacotes.txt /tmp/pacotes.txt
-RUN echo 'Acquire::Retries "5";' > /etc/apt/apt.conf.d/80retries \
+RUN if [ -n "$UBUNTU_MIRROR" ]; then sed -i "s|http://archive.ubuntu.com/ubuntu/\?|$UBUNTU_MIRROR/|g; s|http://security.ubuntu.com/ubuntu/\?|$UBUNTU_MIRROR/|g" /etc/apt/sources.list; fi \
+    && echo 'Acquire::Retries "5";' > /etc/apt/apt.conf.d/80retries \
     && for t in 1 2 3; do apt-get update && apt-get install -y --no-install-recommends $(grep -v '^#' /tmp/pacotes.txt) && break; \
          [ $t = 3 ] && exit 1; sleep 20; done \
     && rm -rf /var/lib/apt/lists/* \
