@@ -1,5 +1,7 @@
 # ATUALIZAR em 12/11/2026 (boletim da NOAA/CPC, ~11h de Brasília)
 
+> **Visual v2 (10/11/2026):** o vídeo no ar/Drive agora é o render `LongoV2` (mistura satélite A + relevo editorial B, fotos grandes). Para o boletim, use **`shared/render_v2.sh`** (passo 4 abaixo), não o `shared/render.sh` antigo (que renderiza o visual v1). O slot b19–b21 = blocos 64–78 de `work/partes_v2/plano.json` (quadros 7566–9251), todos no estilo B.
+
 O boletim mensal do CPC sai na quinta, **12/11**: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
 O vídeo foi produzido com o boletim vigente (**08/10/2026**). Só os blocos **b19, b20 e b21** dependem do boletim novo. Eles ficam num **slot de duração fixa** (`shared/slot.json`, criado na 1ª montagem com a ElevenLabs), com partes de render só deles. Trocar esses blocos **não mexe** em nada antes ou depois.
 
@@ -48,8 +50,11 @@ python3 shared/gera_voz_eleven.py b19 b20 b21
 ~/workspace/fabrica-youtube/tools/.venv/bin/python shared/monta_audio_v2.py     # encaixa no slot (atempo extra se passar)
 # 3. conferir que os tempos fora do slot não mudaram (diff em work/confere_voz_eleven.txt) e regenerar cues, mix, srt
 python3 shared/build_cues.py && ~/tts/venv-kokoro/bin/python shared/mix_audio.py && python3 shared/gera_srt.py
-# 4. re-render só do slot + junção
-REBUNDLE=1 bash shared/render.sh slot && bash shared/render.sh junta
+# 4. re-render só do slot no VISUAL V2 (mistura A/B + fotos grandes; o slot é todo estilo B) + junção
+#    são 15 blocos (~20–40 min de render, conforme a carga da VPS); cada "continua" roda < 10 min: repita até aparecer "faltam 0 de 185 blocos"
+REBUNDLE=1 bash shared/render_v2.sh slot
+bash shared/render_v2.sh continua 420     # repetir até "faltam 0"
+bash shared/render_v2.sh junta
 # 5. QA rápido do trecho e entrega
 bash tools/qa.sh out/video.mp4 out/contact-sheet.jpg
 rclone copy out/video.mp4 "gdrive:Youtube/Em Relevo/002-el-nino/" && rclone copy out/legendas.srt "gdrive:Youtube/Em Relevo/002-el-nino/"

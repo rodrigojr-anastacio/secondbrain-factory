@@ -29,12 +29,22 @@ Notas de licença:
 - Muçum (Cadu Gomes/VPR, CC BY 2.0): foto recortada (permitido); indicar "foto recortada" na descrição.
 - Boa Vista (NASA HLS): "Contém dados Copernicus Sentinel modificados [2025/2026]" está na tela e vai na descrição.
 
+## Visual v2 (fase 2, 10/11/2026)
+- **Crédito do mapa na tela** (canto inferior direito, sempre que o 3D aparece; troca junto com a textura da cena, ver `shared/estilo_v2.json`):
+  - trechos A (satélite): `MAPA: NASA BLUE MARBLE · RELEVO: NOAA ETOPO 2022 · LIMITES: IBGE / NATURAL EARTH`
+  - trechos B (relevo editorial): `RELEVO: NOAA ETOPO 2022 · COR: NASA BLUE MARBLE · RIOS E LIMITES: NATURAL EARTH / IBGE`
+- **Fotos e imagens de satélite em formato grande** (1240 px = 65% da largura; 1150 px quando há número no topo; duas lado a lado com 860 px): legenda e crédito continuam **dentro** da foto (faixa coral + linha de crédito de 19 px). Celular e monitor mantêm o formato. A lista de créditos acima não muda.
+- Detalhes do download e recriação: `visual-v2/FONTES-E-LICENCAS.md`.
+
 ## Dados desenhados por nós (material próprio)
 | O quê | Fonte dos dados | Licença |
 |---|---|---|
 | Relevo de calor do Pacífico e da costa do Peru (24 datas, 03/06 → 08/11/2026) e globo | NOAA OISST v2.1 (NCEI), anomalia diária, via NOAA PSL | Domínio público (governo dos EUA) |
 | Régua de montanhas (ONI e RONI), mostrador, barras de probabilidade, ano seguinte | NOAA/CPC (oni.ascii, RONI.ascii, boletim de 08/10/2026) · IRI/Columbia | Domínio público / dado citado |
 | Mapa do Brasil, municípios, UFs | IBGE (malhas) · Natural Earth | Livre (IBGE) · domínio público (Natural Earth) |
+| **Base do mapa 3D (visual v2, 10/11/2026):** altura e relevo sombreado, batimetria | NOAA NCEI ETOPO 2022 (60″, superfície), via OPeNDAP | Domínio público (governo dos EUA) |
+| **Base do mapa 3D (visual v2):** cor real nos trechos A (satélite) e 28% da cor no B (relevo editorial) | NASA Blue Marble Next Generation, via NASA GIBS | Domínio público (NASA) |
+| **Base do mapa 3D (visual v2):** rios e lagos pintados na textura | Natural Earth 10 m | Domínio público |
 | Seca grave no Nordeste (ago/set 2026) | Monitor de Secas (ANA), shapefiles oficiais | Dado público, desenhado por nós |
 | Previsão por região, reservatórios, municípios em seca | Painel El Niño 2026-27, Boletim nº 05 (out/2026) | Dado público citado |
 

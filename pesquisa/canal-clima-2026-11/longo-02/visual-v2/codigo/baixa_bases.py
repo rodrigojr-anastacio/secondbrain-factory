@@ -15,7 +15,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 REG = {
     "br_largo": (-140.0, 20.0, -75.0, 35.0, 8192, 6),
     "br_det":   (-84.0, -28.0, -40.0, 8.0, 8192, 2),
-    "pac":      (95.0, 295.0, -45.0, 45.0, 8192, 6),
+    "pac":      (85.0, 310.0, -45.0, 65.0, 8192, 6),
 }
 GIBS = "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
 CAMADAS = {"bm": "BlueMarble_NextGeneration", "bmsr": "BlueMarble_ShadedRelief_Bathymetry"}

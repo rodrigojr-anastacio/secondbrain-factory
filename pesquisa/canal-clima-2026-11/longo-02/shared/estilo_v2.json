@@ -1,0 +1,20 @@
+{
+  "_doc": "Visual v2 fase 2 (10/11/2026): mistura aprovada pelo Rodrigo. Cada trecho começa em t (s de audio/narracao.wav) com o estilo e (A = satélite NASA Blue Marble + ETOPO; B = relevo editorial ETOPO). fade = duração do crossfade de textura em s (só com a câmera parada); sem fade = troca no corte de câmera (tempo exato do 'corte' em cues.camera). Os tempos fora do slot b19-b21 não mudam com a regravação de 12/11. Lido por remotion/src/LongoV2.jsx.",
+  "trechos": [
+    {"t": 0, "e": "A", "por": "hook: fumaça sobre a Amazônia em Manaus, chuva em SC, costa do Peru com o relevo de calor (mundo real, impacto)"},
+    {"t": 30.2, "e": "B", "fade": 1.6, "por": "a pergunta: rótulos FUMAÇA / ÁGUA DEMAIS / MAR QUENTE, fios e a barra das 4 perguntas (câmera parada 0:29.8-0:36.2)"},
+    {"t": 62.164, "e": "A", "por": "abertura do cap. 1 (nuvem): o Pacífico inteiro"},
+    {"t": 73.6, "e": "B", "fade": 1.6, "por": "explicação: diorama em corte, alísios, circulação de Walker, gangorra (câmera parada 1:02.2-1:15.3)"},
+    {"t": 127.595, "e": "A", "por": "globo, arquivo dos pescadores do Peru, Pacífico real com a região Niño 3.4"},
+    {"t": 195.962, "e": "B", "por": "régua de montanhas (ONI): dado"},
+    {"t": 225.475, "e": "A", "por": "Pacífico com o véu coral: o planeta inteiro mais quente (impacto)"},
+    {"t": 252.102, "e": "B", "por": "régua RONI + slot do boletim (b19-b21) + prancha do que a ciência diz: dado, números"},
+    {"t": 324.996, "e": "A", "por": "abertura do cap. 3: zoom-out orbital do Pacífico para a América do Sul, jato e ar que desce"},
+    {"t": 344.6, "e": "B", "fade": 1.8, "por": "Brasil por região: UFs tingidas da previsão nov-jan (câmera parada 5:33.6-5:46.8)"},
+    {"t": 379.381, "e": "A", "por": "Norte: Roraima e o rio Branco, focos no AM, rio Negro em Manaus (zoom em natureza)"},
+    {"t": 426.42, "e": "B", "por": "Nordeste (seca grave por região), Centro-Oeste/Sudeste (tintas, rios), Sul (municípios em coral, pinos, tintas): dado"},
+    {"t": 542.42, "e": "A", "por": "enchente de 1983 (arquivo), enchente de 2024 em Porto Alegre e o mundo com o mar quente (impacto, mundo)"},
+    {"t": 599.971, "e": "B", "por": "cap. 4 até quando: probabilidades por trimestre, relevo de calor encolhendo, La Niña? (dado); cortiça cobre o 3D 11:04-11:40"},
+    {"t": 700.464, "e": "A", "por": "a resposta: o continente ao entardecer com os 3 pinos do hook (fecho, mundo real)"}
+  ]
+}

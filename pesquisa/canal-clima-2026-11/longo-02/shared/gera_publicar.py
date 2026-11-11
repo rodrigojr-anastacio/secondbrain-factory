@@ -50,7 +50,7 @@ FONTES
 IMAGENS (crédito também na tela)
 Satélite: NASA GIBS – MODIS Terra (Manaus, 09/10/2026; Sul, 04/11/2026) e NASA JPL MUR (Pacífico, 08/11/2026), domínio público. Rio Branco em Boa Vista: NASA HLS – contém dados Copernicus Sentinel modificados [2025, 2026].
 {chr(10).join(fotos)}
-Mapa: IBGE e Natural Earth.
+Mapa 3D: relevo e batimetria NOAA NCEI ETOPO 2022; imagem de satélite NASA Blue Marble Next Generation (NASA GIBS); domínio público. Rios, lagos e limites: Natural Earth (domínio público) e IBGE (malhas).
 
 MÚSICA
 "Echoes of Time", "Ossuary 6 - Air" e "Frozen Star" – Kevin MacLeod (incompetech.com)

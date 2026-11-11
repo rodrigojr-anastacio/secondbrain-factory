@@ -73,7 +73,8 @@ export function criarMundo(THREE, cues, geo, tex = {}, opts = {}) {
   mesa.rotation.x = -Math.PI / 2; mesa.position.set(-250, -0.002, 0); mesa.receiveShadow = true;
   scene.add(mesa);
   const V2 = !!(opts.estilo && opts.terreno);
-  if (V2) { fundo.set(ESTILOS[opts.estilo].fundo); scene.background.copy(fundo); scene.fog.color.copy(fundo); mesa.material.color.set(ESTILOS[opts.estilo].fundo); mesa.position.y = -0.08; }
+  const EV2 = V2 ? ESTILOS[opts.estilo === 'AB' ? 'B' : opts.estilo] : null;
+  if (V2) { fundo.set(EV2.fundo); scene.background.copy(fundo); scene.fog.color.copy(fundo); mesa.material.color.set(EV2.fundo); mesa.position.y = -0.08; }
 
   // vizinhos (outras UFs e países); a Amazônia Legal ganha tom verde-papel quando "amazonia" > 0
   const matBR = [new THREE.MeshStandardMaterial({ color: '#DCCDB0', roughness: 1 }), new THREE.MeshStandardMaterial({ color: '#BFAA86', roughness: 1 })];
@@ -506,6 +507,7 @@ export function criarMundo(THREE, cues, geo, tex = {}, opts = {}) {
     camera.updateMatrixWorld();
     const dist = Math.hypot(p[0] - a[0], p[1] - a[1], p[2] - a[2]);
     if (terreno) terreno.atualizar(t, a, dist, interpTabela);
+    if (terreno) { fundo.copy(terreno.corFundo); mesa.material.color.copy(terreno.corFundo); }
     scene.fog.near = dist * 1.35; scene.fog.far = dist * 3.2;
     const sh = Math.max(9, dist * 0.75);
     const scam = sol.shadow.camera; scam.left = -sh; scam.right = sh; scam.top = sh; scam.bottom = -sh; scam.near = 1; scam.far = sh * 5; scam.updateProjectionMatrix();

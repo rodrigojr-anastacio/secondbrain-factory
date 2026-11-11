@@ -12,9 +12,10 @@ export const ESTILOS = {
 };
 // regiões das texturas (iguais às de gera_texturas.py)
 export const REGIOES = {
-  br_largo: [-140, 20, -75, 35], br_det: [-84, -28, -40, 8], pac: [95, 295, -45, 45],
+  br_largo: [-140, 20, -75, 35], br_det: [-84, -28, -40, 8], pac: [85, 310, -45, 65],   // fase 2: até 65°N e 50°W (sem faixa escura no topo nem no canto)
 };
-export const arquivosTerreno = (estilo) => Object.keys(REGIOES).flatMap((r) => [`v2/${estilo}_${r}.jpg`, `v2/alt_${r}.png`]);
+// estilo 'AB' (fase 2, aprovado em 10/11): carrega as texturas A e B e alterna pela linha do tempo shared/estilo_v2.json
+export const arquivosTerreno = (estilo) => Object.keys(REGIOES).flatMap((r) => [...(estilo === 'AB' ? ['A', 'B'] : [estilo]).map((e) => `v2/${e}_${r}.jpg`), `v2/alt_${r}.png`]);
 
 // decodifica o png de altura (R = alto, G = baixo) -> metros
 export async function lerAltura(url) {
@@ -30,7 +31,9 @@ export async function lerAltura(url) {
 }
 
 export function criarTerreno(THREE, scene, geo, cues, opts) {
-  const E = ESTILOS[opts.estilo];
+  // fase 2: estilo 'AB' = base B com trechos A (shared/estilo_v2.json, valor 1 = A); os parâmetros e as texturas cruzam suave
+  const AB = opts.estilo === 'AB';
+  const E = ESTILOS[AB ? 'B' : opts.estilo], EA = ESTILOS.A;
   const T = opts.terreno; // { tex: {chave: THREE.Texture}, alt: {regiao: {w,h,z}} }
   const PJ = geo.proj, PAC = geo.pac;
   const brXZ = (lon, lat) => [(lon - PJ.lon0) * PJ.cos * PJ.k, -(lat - PJ.lat0) * PJ.k];
@@ -61,21 +64,29 @@ export function criarTerreno(THREE, scene, geo, cues, opts) {
   const cx = cv.getContext('2d');
   const texMask = new THREE.CanvasTexture(cv); texMask.colorSpace = THREE.SRGBColorSpace;
 
-  const uniFoco = { uFoco: { value: new THREE.Vector2() }, uRaio: { value: 30 }, uDim: { value: E.dim }, uDessat: { value: E.dessat } };
-  const material = (mapa, comMascara, recorte) => {
+  // x máximo dos Andes na cena (lon -63) para o brilho do "acende Andes" (cues.andes) sobre o relevo real
+  const uniFoco = { uFoco: { value: new THREE.Vector2() }, uRaio: { value: 30 }, uDim: { value: E.dim }, uDessat: { value: E.dessat },
+    uAndes: { value: 0 }, uAndesX: { value: brXZ(-63, 0)[0] }, uTempo: { value: 0 } };
+  const mats = [];
+  const material = (mapa, comMascara, recorte, andes = false) => {
     const m = new THREE.MeshLambertMaterial({ map: mapa, color: new THREE.Color(E.brilho, E.brilho, E.brilho) });   // Lambert: mesmo difuso do Standard, sem o especular (mais barato)
+    m.userData.outra = { value: mapa }; m.userData.peso = { value: 0 };
     m.onBeforeCompile = (sh) => {
-      Object.assign(sh.uniforms, uniFoco, { uMask: { value: texMask }, uMin: { value: new THREE.Vector2(dx0, dz0) }, uMax: { value: new THREE.Vector2(dx1, dz1) } });
+      Object.assign(sh.uniforms, uniFoco, { uMask: { value: texMask }, uMin: { value: new THREE.Vector2(dx0, dz0) }, uMax: { value: new THREE.Vector2(dx1, dz1) }, uOutra: m.userData.outra, uPeso: m.userData.peso });
       sh.vertexShader = 'varying vec3 vWp;\n' + sh.vertexShader.replace('#include <project_vertex>', '#include <project_vertex>\n vWp = (modelMatrix * vec4(transformed, 1.0)).xyz;');
-      sh.fragmentShader = 'varying vec3 vWp;\nuniform vec2 uFoco; uniform float uRaio, uDim, uDessat; uniform sampler2D uMask; uniform vec2 uMin, uMax;\n' +
-        sh.fragmentShader.replace('#include <map_fragment>', `#include <map_fragment>
+      sh.fragmentShader = 'varying vec3 vWp;\nuniform vec2 uFoco; uniform float uRaio, uDim, uDessat, uPeso, uAndes, uAndesX, uTempo; uniform sampler2D uMask, uOutra; uniform vec2 uMin, uMax;\n' +
+        sh.fragmentShader.replace('#include <emissivemap_fragment>', `#include <emissivemap_fragment>
+  ${andes ? 'float gA = uAndes * smoothstep(0.26, 0.47, vWp.y) * (1.0 - smoothstep(uAndesX - 1.5, uAndesX + 1.5, vWp.x)); totalEmissiveRadiance += vec3(0.91, 0.31, 0.36) * gA * (0.42 + 0.1 * sin(uTempo * 4.0));' : ''}`)
+        .replace('#include <map_fragment>', `#include <map_fragment>
+  if (uPeso > 0.002) diffuseColor.rgb = mix(diffuseColor.rgb, texture2D(uOutra, vMapUv).rgb * diffuse, uPeso);
   vec2 muv = (vWp.xz - uMin) / (uMax - uMin);
   ${recorte ? 'if (muv.x > 0.004 && muv.x < 0.996 && muv.y > 0.004 && muv.y < 0.996) discard;' : ''}
-  ${comMascara ? 'if (muv.x > 0.0 && muv.x < 1.0 && muv.y > 0.0 && muv.y < 1.0) { vec4 mk = texture2D(uMask, vec2(muv.x, 1.0 - muv.y)); diffuseColor.rgb = mix(diffuseColor.rgb, mk.rgb * ' + E.brilho.toFixed(3) + ', mk.a); }' : ''}
+  ${comMascara ? 'if (muv.x > 0.0 && muv.x < 1.0 && muv.y > 0.0 && muv.y < 1.0) { vec4 mk = texture2D(uMask, vec2(muv.x, 1.0 - muv.y)); diffuseColor.rgb = mix(diffuseColor.rgb, mk.rgb * diffuse, mk.a); }' : ''}
   float fq = smoothstep(0.55, 1.45, distance(vWp.xz, uFoco) / uRaio) * uDim;
   float lu = dot(diffuseColor.rgb, vec3(0.299, 0.587, 0.114));
   diffuseColor.rgb = mix(diffuseColor.rgb, mix(diffuseColor.rgb, vec3(lu), uDessat) * 0.45, fq);`);
     };
+    mats.push(m);
     return m;
   };
 
@@ -92,10 +103,13 @@ export function criarTerreno(THREE, scene, geo, cues, opts) {
   };
   const tx = (k) => { const t = T.tex[k]; t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = opts.aniso ?? 1; return t; };   // anisotrópico custa caro no SwiftShader (medido em tempos.txt)
   const PF = opts.perf || {}; const SEG = PF.seg ?? 0.35;   // malha: 0.35 da original (vértices custam caro no SwiftShader; o relevo fino já vem sombreado na textura)
-  const det = plano('br_det', brXZ, brLL, yBR, Math.max(8, Math.round(520 * SEG)), material(tx(`v2/${opts.estilo}_br_det.jpg`), true, false));
-  const largo = plano('br_largo', brXZ, brLL, yBR, Math.max(8, Math.round(360 * (PF.segLargo ?? 0.12))), material(tx(`v2/${opts.estilo}_br_largo.jpg`), false, true));
+  const eB = AB ? 'B' : opts.estilo;
+  const det = plano('br_det', brXZ, brLL, yBR, Math.max(8, Math.round(520 * SEG)), material(tx(`v2/${eB}_br_det.jpg`), true, false, true));
+  const largo = plano('br_largo', brXZ, brLL, yBR, Math.max(8, Math.round(360 * (PF.segLargo ?? 0.12))), material(tx(`v2/${eB}_br_largo.jpg`), false, true, true));
   largo.position.y = -0.004; if (PF.semLargo) largo.visible = false;
-  const pac = plano('pac', pacXZ, pacLL, yPAC, Math.max(8, Math.round(420 * SEG)), material(tx(`v2/${opts.estilo}_pac.jpg`), false, false));
+  const pac = plano('pac', pacXZ, pacLL, yPAC, Math.max(8, Math.round(420 * SEG)), material(tx(`v2/${eB}_pac.jpg`), false, false));
+  // texturas A e B de cada plano (para a troca)
+  const texAB = AB ? [[det, 'br_det'], [largo, 'br_largo'], [pac, 'pac']].map(([m, r]) => ({ mat: m.material, A: tx(`v2/A_${r}.jpg`), B: tx(`v2/B_${r}.jpg`) })) : [];
 
   // linhas drapeadas: fronteiras de países, UFs, contorno do Sul e municípios
   const linhas = (aneis, cor, op, dy = 0.008) => {
@@ -113,10 +127,27 @@ export function criarTerreno(THREE, scene, geo, cues, opts) {
     const l = new THREE.LineSegments(g, new THREE.LineBasicMaterial({ color: cor, transparent: true, opacity: op, depthWrite: false }));
     l.renderOrder = 1; if (!PF.semLinhas) scene.add(l); return l;
   };
-  linhas(geo.vizinhos.filter((v) => !v.br).map((v) => v.anel), ...E.pais);
-  linhas(geo.vizinhos.filter((v) => v.br).map((v) => v.anel), ...E.uf);
-  linhas(geo.mun, ...E.mun, 0.006);
-  linhas(Object.values(geo.estados).flat(), ...E.sul, 0.01);
+  const lPais = linhas(geo.vizinhos.filter((v) => !v.br).map((v) => v.anel), ...E.pais);
+  const lUF = linhas(geo.vizinhos.filter((v) => v.br).map((v) => v.anel), ...E.uf);
+  const lMun = linhas(geo.mun, ...E.mun, 0.006);
+  const lSul = linhas(Object.values(geo.estados).flat(), ...E.sul, 0.01);
+  const LIN = [[lPais, 'pais'], [lUF, 'uf'], [lMun, 'mun'], [lSul, 'sul']].map(([l, k]) => ({ l, cB: new THREE.Color(E[k][0]), oB: E[k][1], cA: new THREE.Color(EA[k][0]), oA: EA[k][1] }));
+  const corFundo = new THREE.Color(E.fundo), fB = new THREE.Color(E.fundo), fA = new THREE.Color(EA.fundo);
+  let ultimoMix = -1;
+  function aplicarMistura(x) {   // x = 0 (B) .. 1 (A)
+    if (!AB || Math.abs(x - ultimoMix) < 1e-4) return;
+    ultimoMix = x;
+    const L = (a, b) => a + (b - a) * x;
+    for (const { mat, A, B } of texAB) {
+      const base = x < 0.5 ? B : A, outra = x < 0.5 ? A : B;
+      if (mat.map !== base) mat.map = base;
+      mat.userData.outra.value = outra; mat.userData.peso.value = x < 0.5 ? x : 1 - x;
+      const br = L(E.brilho, EA.brilho); mat.color.setRGB(br, br, br);
+    }
+    uniFoco.uDim.value = L(E.dim, EA.dim); uniFoco.uDessat.value = L(E.dessat, EA.dessat);
+    for (const o of LIN) { o.l.material.color.copy(o.cB).lerp(o.cA, x); o.l.material.opacity = L(o.oB, o.oA); }
+    corFundo.copy(fB).lerp(fA, x);
+  }
 
   // máscara: redesenha só quando o estado das tintas muda
   const anelUF = {};
@@ -147,8 +178,10 @@ export function criarTerreno(THREE, scene, geo, cues, opts) {
   }
 
   return {
-    alturaBR,
+    alturaBR, corFundo,
     atualizar(t, alvo, dist, interp) {
+      if (AB) aplicarMistura(interp(cues.estiloAB, t));
+      uniFoco.uAndes.value = interp(cues.andes, t); uniFoco.uTempo.value = t;
       uniFoco.uFoco.value.set(alvo[0], alvo[2]);
       uniFoco.uRaio.value = Math.max(4, dist * 0.5);
       pintarMascara(t, interp);

@@ -14,8 +14,11 @@ RAIZ = Path(__file__).resolve().parents[2]
 WK, PUB = RAIZ / "work" / "v2", RAIZ / "remotion" / "public" / "v2"
 PUB.mkdir(parents=True, exist_ok=True)
 # (lon0, lon1, lat0, lat1, largura final da textura, passo do ETOPO em minutos)
-REG = {"br_largo": (-140.0, 20.0, -75.0, 35.0, 6144, 6), "br_det": (-84.0, -28.0, -40.0, 8.0, 8192, 2), "pac": (95.0, 295.0, -45.0, 45.0, 6144, 6)}
-ESTILOS = sys.argv[1:] or ["A", "B", "C"]
+REG = {"br_largo": (-140.0, 20.0, -75.0, 35.0, 6144, 6), "br_det": (-84.0, -28.0, -40.0, 8.0, 8192, 2), "pac": (85.0, 310.0, -45.0, 65.0, 6144, 6)}
+ESTILOS = [a for a in sys.argv[1:] if a in "ABC"] or ["A", "B", "C"]
+# fase 2: REGIOES=pac python3 gera_texturas.py A B  -> só as regiões pedidas
+import os
+if os.environ.get("REGIOES"): REG = {k: v for k, v in REG.items() if k in os.environ["REGIOES"].split(",")}
 rng = np.random.default_rng(7)
 
 

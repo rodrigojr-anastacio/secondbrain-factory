@@ -10,8 +10,11 @@
 Também baixamos a camada `BlueMarble_ShadedRelief_Bathymetry` (GIBS, domínio público), mas não a usamos: o oceano é gerado do ETOPO.
 
 **Crédito na tela (canto inferior direito, sempre que o 3D aparece):**
-- estilo A: `MAPA: NASA BLUE MARBLE · RELEVO: NOAA ETOPO 2022`
-- estilos B e C: `RELEVO: NOAA ETOPO 2022 · NATURAL EARTH · IBGE` (o B usa 28% da cor do Blue Marble; na fase 2 o crédito do B passa a incluir NASA BLUE MARBLE)
+- fase 2 (vídeo final, mistura A/B; o crédito troca junto com a textura):
+  - A: `MAPA: NASA BLUE MARBLE · RELEVO: NOAA ETOPO 2022 · LIMITES: IBGE / NATURAL EARTH`
+  - B: `RELEVO: NOAA ETOPO 2022 · COR: NASA BLUE MARBLE · RIOS E LIMITES: NATURAL EARTH / IBGE`
+- (fase 1, amostras: A `MAPA: NASA BLUE MARBLE · RELEVO: NOAA ETOPO 2022`; B/C `RELEVO: NOAA ETOPO 2022 · NATURAL EARTH · IBGE`)
+- Fase 2: o recorte do Pacífico passou a 85°E–310°E × 45°S–65°N (`codigo/baixa_bases.py`, `codigo/gera_texturas.py`; `REGIOES=pac python3 gera_texturas.py A B`).
 
 **Na descrição (fase 2):** "Mapa: NASA Blue Marble (GIBS) e NOAA ETOPO 2022 (domínio público); rios: Natural Earth."
 

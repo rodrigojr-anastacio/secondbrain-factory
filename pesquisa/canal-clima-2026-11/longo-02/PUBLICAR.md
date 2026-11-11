@@ -57,7 +57,7 @@ Satélite: NASA GIBS – MODIS Terra (Manaus, 09/10/2026; Sul, 04/11/2026) e NAS
 • Flórida (Eua) · Coral Branqueado · Jul/2023: NOAA – Domínio público (PD-USGov-NOAA) – https://commons.wikimedia.org/wiki/File:World%E2%80%99s_Fourth_Mass_Coral_Bleaching_Event_Likely_Ended_in_2025_(NESDIS_2026-06-02_NOAA_Cheeca-Rocks_07312023_7-e).jpg
 • Rio Do Sul (Sc) · Enchente · Out/2023: Parzeus – CC BY-SA 4.0 – https://commons.wikimedia.org/wiki/File:Enchente_em_Rio_do_Sul_-_SC,_Outubro_de_2023_01.jpg
 • Brasília · Fumaça · Set/2024: Leopoldo Silva/Agência Senado – CC BY 2.0 – https://commons.wikimedia.org/wiki/File:Fuma%C3%A7a_em_Bras%C3%ADlia_(53999901146).jpg
-Mapa: IBGE e Natural Earth.
+Mapa 3D: relevo e batimetria NOAA NCEI ETOPO 2022; imagem de satélite NASA Blue Marble Next Generation (NASA GIBS); domínio público. Rios, lagos e limites: Natural Earth (domínio público) e IBGE (malhas).
 
 MÚSICA
 "Echoes of Time", "Ossuary 6 - Air" e "Frozen Star" – Kevin MacLeod (incompetech.com)

@@ -13,6 +13,19 @@ import geo from '../../shared/geo.json';
 import sst from '../../shared/sst_pacifico.json';
 import { criarMundo, interpTabela } from '../../shared/cena3d_v2.js';
 import { arquivosTerreno, lerAltura } from '../../shared/terreno_v2.js';
+import estiloV2 from '../../shared/estilo_v2.json';
+// fase 2: linha do tempo da mistura A/B (1 = A satélite, 0 = B editorial); troca no corte ou crossfade de 'fade' s
+const ESTILO_AB = (() => {
+  const tab = []; let ant = null;
+  for (const tr of estiloV2.trechos) {
+    const v = tr.e === 'A' ? 1 : 0;
+    if (ant === null) tab.push([tr.t, v]);
+    else if (tr.fade) tab.push([tr.t, ant], [tr.t + tr.fade, v]);
+    else tab.push([tr.t - 0.001, ant], [tr.t, v]);
+    ant = v;
+  }
+  return tab;
+})();
 import { numeroEm, capituloEm, legendaEm, pop, janela, clamp01, easeOut, fmt } from '../../shared/camadas.js';
 
 const P = cues.paleta;
@@ -227,6 +240,18 @@ const Midia = ({ c, t, proj, fps }) => {
   );
 };
 
+// ---------------------------------------------------------------- v2: crédito da base do mapa (acompanha a textura da cena)
+const CRED_MAPA = { A: 'MAPA: NASA BLUE MARBLE · RELEVO: NOAA ETOPO 2022 · LIMITES: IBGE / NATURAL EARTH',
+  B: 'RELEVO: NOAA ETOPO 2022 · COR: NASA BLUE MARBLE · RIOS E LIMITES: NATURAL EARTH / IBGE' };
+const CreditoMapa = ({ t, estilo }) => {
+  const x = estilo === 'AB' ? interpTabela(ESTILO_AB, t) : estilo === 'A' ? 1 : 0;
+  const st = { position: 'absolute', right: 22, bottom: 8, fontFamily: MONO, fontWeight: 500, fontSize: 14, letterSpacing: '0.08em', color: 'rgba(255,255,255,0.82)', textShadow: '0 1px 3px rgba(0,0,0,0.9), 0 0 2px rgba(0,0,0,0.8)', whiteSpace: 'nowrap' };
+  return (<>
+    {x > 0.5 && <div style={{ ...st, opacity: clamp01(x * 2 - 1) }}>{CRED_MAPA.A}</div>}
+    {x < 0.5 && <div style={{ ...st, opacity: clamp01(1 - x * 2) }}>{CRED_MAPA.B}</div>}
+  </>);
+};
+
 // ---------------------------------------------------------------- v2: fotos grandes (60-70% da tela, mapa ao fundo escurecido)
 // pol/grande -> quadro largo 16:9 com Ken Burns; duas ao mesmo tempo -> lado a lado; cel/mon mantêm a moldura
 const FotosGrandes = ({ t, proj, fps }) => {
@@ -239,16 +264,18 @@ const FotosGrandes = ({ t, proj, fps }) => {
       {fundo > 0 && <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 50% 50%, rgba(12,14,22,0.35), rgba(12,14,22,0.62))', opacity: Math.min(1, fundo) }} />}
       {ativas.map((c) => (c.fmt === 'cel' || c.fmt === 'mon')
         ? <Midia key={c.id + c.t0} c={c} t={t} proj={proj} fps={fps} />
-        : <FotoGrande key={c.id + c.t0} c={c} t={t} proj={proj} fps={fps} dupla={largas.length > 1} idx={largas.indexOf(c)} />)}
+        : <FotoGrande key={c.id + c.t0} c={c} t={t} proj={proj} fps={fps} dupla={largas.length > 1} idx={largas.indexOf(c)} num={!!numeroEm(cues, t)} />)}
     </>
   );
 };
-const FotoGrande = ({ c, t, proj, fps, dupla, idx }) => {
+const FOTO_DZ = 3.6;
+const FotoGrande = ({ c, t, proj, fps, dupla, idx, num }) => {
+  // fase 2: com número grande no topo (Numero, até ~y 200) a foto desce e fica em 60% da largura, sem cobrir o número nem a legenda
   const a = janela(t, c.t0, c.t1, 0.45, 0.35);
   const e = easeOut(clamp01((t - c.t0) / 0.55));
-  const Wq = dupla ? 860 : 1240, ih = Math.round((Wq - 20) * (dupla ? 0.75 : 0.5625));
+  const Wq = dupla ? 860 : num ? 1150 : 1240, ih = Math.round((Wq - 20) * (dupla ? 0.75 : 0.5625));
   const x = dupla ? (idx === 0 ? 80 : W - 80 - Wq) : c.lado === 'esq' ? 110 : c.lado === 'centro' ? (W - Wq) / 2 : W - 110 - Wq;
-  const y = dupla ? 170 : 128;
+  const y = num ? 215 : dupla ? 170 : 128;
   const rot = (c.lado === 'esq' || idx === 0 ? -1 : 1) * 0.9 * (1 - 0.4 * e);
   const dur = Math.max(1, c.t1 - c.t0), u = clamp01((t - c.t0) / dur);
   const kb = `scale(${1.06 + 0.1 * u}) translate(${(c.lado === 'esq' ? 1 : -1) * 1.6 * u}%, ${-1.2 * u}%)`;
@@ -343,20 +370,23 @@ const Caixas = ({ t }) => {
   const grande = e.modo === 'grande' || e.modo === 'final';
   const primeira = cx.estados[0] === e;
   return (
-    <div style={{ position: 'absolute', top: grande ? (e.modo === 'final' ? 600 : 640) : 40, left: grande ? 160 : 1390, width: grande ? 1600 : undefined,
-      display: 'flex', flexDirection: grande ? 'row' : 'column', gap: grande ? 18 : 8, opacity: grande ? 1 : clamp01((t - e.t) / 0.4) }}>
+    <div style={{ position: 'absolute', top: grande ? (e.modo === 'final' ? 600 : 640) : 40, left: grande ? 160 : 1370, width: grande ? 1600 : 510,
+      display: grande ? 'grid' : 'flex', gridTemplateColumns: 'repeat(4, minmax(0, 1fr))', alignItems: 'stretch', flexDirection: 'column', gap: grande ? 34 : 8, opacity: grande ? 1 : clamp01((t - e.t) / 0.4) }}>
       {cx.itens.map((it, i) => {
         const s = primeira ? pop(t, it.t, 0.4) : e.volta || e.modo === 'final' ? pop(t, e.t + 0.12 * i, 0.35) : 1;
         if (s <= 0) return null;
         const ativa = it.n === e.ativa, feita = e.feitas.includes(it.n);
-        const sz = grande ? 28 : 18;
+        const sz = grande ? 25 : 18;
+        // fase 2 (pedido do Rodrigo, 10/11): no modo grande o "▶ AGORA" vira etiqueta acima do card (não ocupa largura) e o ativo
+        // cresce 4% pelo centro: 4% de ~375 px = 7,5 px por lado, menos que metade do gap de 34 px, então não encosta no vizinho
         return (
-          <div key={it.n} style={{ flex: grande ? 1 : undefined, transform: `scale(${s * (ativa && grande ? 1.06 : 1)})`, transformOrigin: 'left center', display: 'flex', alignItems: 'center',
-            gap: 14, background: ativa ? '#F6E7DF' : P.branco, border: `3px solid ${ativa ? P.coral : P.navy}`, borderRadius: 6, padding: grande ? '14px 18px' : '6px 12px',
-            fontFamily: MONO, fontWeight: 700, fontSize: sz, color: P.tinta, boxShadow: '0 10px 24px rgba(0,0,0,0.3)', opacity: feita && !ativa && e.modo !== 'final' ? 0.6 : 1 }}>
-            <span style={{ background: ativa ? P.coral : P.navy, color: P.branco, borderRadius: 4, padding: '2px 10px', fontFamily: 'Anton', fontWeight: 400, fontSize: sz * 1.15 }}>{it.n}</span>
-            <span style={{ flex: 1 }}>{it.texto}</span>
-            <span style={{ fontSize: sz * 0.8, color: ativa || feita ? P.coral : '#8a8178', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: 6 }}>{feita ? <Icone tipo="check" cor={P.coral} size={sz * 1.1} /> : ativa ? <><Icone tipo="play" cor={P.coral} size={sz * 0.8} />AGORA</> : <Icone tipo="box" cor="#8a8178" size={sz * 0.9} />}</span>
+          <div key={it.n} style={{ position: 'relative', minWidth: 0, transform: `scale(${s * (ativa && grande ? 1.04 : 1)})`, transformOrigin: grande ? 'center center' : 'left center', display: 'flex', alignItems: 'center',
+            gap: grande ? 12 : 14, background: ativa ? '#F6E7DF' : P.branco, border: `3px solid ${ativa ? P.coral : P.navy}`, borderRadius: 6, padding: grande ? '14px 16px' : '6px 12px',
+            fontFamily: MONO, fontWeight: 700, fontSize: sz, lineHeight: 1.15, color: P.tinta, boxShadow: '0 10px 24px rgba(0,0,0,0.3)', opacity: feita && !ativa && e.modo !== 'final' ? 0.6 : 1 }}>
+            {grande && ativa && <div style={{ position: 'absolute', left: 12, top: -34, display: 'flex', alignItems: 'center', gap: 6, background: P.coral, color: P.branco, fontSize: 18, letterSpacing: '0.1em', padding: '4px 10px', borderRadius: 4, boxShadow: '0 6px 14px rgba(0,0,0,0.3)' }}><Icone tipo="play" cor={P.branco} size={14} />AGORA</div>}
+            <span style={{ flexShrink: 0, background: ativa ? P.coral : P.navy, color: P.branco, borderRadius: 4, padding: '2px 10px', fontFamily: 'Anton', fontWeight: 400, fontSize: sz * 1.15 }}>{it.n}</span>
+            <span style={{ flex: 1, minWidth: 0, overflowWrap: 'break-word' }}>{it.texto}</span>
+            {(!grande || !ativa) && <span style={{ flexShrink: 0, fontSize: sz * 0.8, color: ativa || feita ? P.coral : '#8a8178', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: 6 }}>{feita ? <Icone tipo="check" cor={P.coral} size={sz * 1.1} /> : ativa ? <><Icone tipo="play" cor={P.coral} size={sz * 0.8} />AGORA</> : <Icone tipo="box" cor="#8a8178" size={sz * 0.9} />}</span>}
           </div>
         );
       })}
@@ -761,14 +791,23 @@ const Cortica = ({ t, fps }) => {
           );
         }
         if (it.tipo === 'fotoimg') {
+          // fase 2: a foto entra grande (65% da tela, Ken Burns, crédito legível) por FOTO_DZ s e depois pousa no quadro
           const iw = it.w - 28, ih2 = Math.round(iw * 0.75);
+          const sq = pop(t, it.t + FOTO_DZ - 0.35, 0.4);
+          const grande = t < it.t + FOTO_DZ + 0.4 ? (
+            <React.Fragment key={'g' + i}>
+              <AbsoluteFill style={{ background: 'rgba(12,14,22,0.55)', opacity: janela(t, it.t, it.t + FOTO_DZ, 0.35, 0.35) }} />
+              <FotoGrande c={{ id: it.src, tipo: 'img', src: it.src, legenda: it.legenda, credito: it.credito, lado: 'centro', t0: it.t, t1: it.t + FOTO_DZ }} t={t} proj={{ pinos: [] }} fps={fps} dupla={false} idx={0} num={false} />
+            </React.Fragment>) : null;
+          if (sq <= 0) return grande;
           return (
-            <div key={i} style={{ ...base, background: '#FBF8F1', padding: '14px 14px 0' }}>
+            <React.Fragment key={i}>{grande}
+            <div style={{ ...base, transform: `rotate(${it.rot}deg) scale(${sq})`, background: '#FBF8F1', padding: '14px 14px 0' }}>
               <div style={{ width: iw, height: ih2, overflow: 'hidden', background: '#222' }}><Img src={staticFile(it.src)} style={{ width: iw, height: ih2, objectFit: 'cover' }} /></div>
               <div style={{ fontFamily: MONO, fontWeight: 700, fontSize: 15, color: P.tinta, padding: '8px 2px 0' }}>{it.legenda}</div>
               <div style={{ fontFamily: MONO, fontWeight: 500, fontSize: 11, color: '#6b625a', padding: '0 2px 10px' }}>{it.credito}</div>
               {tachinha}
-            </div>
+            </div></React.Fragment>
           );
         }
         if (it.tipo === 'foto') {
@@ -865,12 +904,12 @@ const Cta = ({ t }) => {
   );
 };
 
-export const LongoV2 = ({ tempo, soMapa = false, estilo = 'B', fotos = 'grande', perf = null }) => {
+export const LongoV2 = ({ tempo, soMapa = false, estilo = 'AB', fotos = 'grande', perf = { seg: 0.3, segLargo: 0.12 } }) => {
   const tex = useRecursos(estilo);
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
   const t = tempo ?? frame / fps;
-  const mundo = useMemo(() => (tex ? criarMundo(THREE, { ...cues, largura: width, altura: height }, geo, tex, { fov: 32, sombra: 1024, sst, estilo, terreno: estilo ? { tex, alt: tex.__alt } : null, perf }) : null), [tex, width, height, estilo]);
+  const mundo = useMemo(() => (tex ? criarMundo(THREE, { ...cues, estiloAB: ESTILO_AB, largura: width, altura: height }, geo, tex, { fov: 32, sombra: 1024, sst, estilo, terreno: estilo ? { tex, alt: tex.__alt } : null, perf }) : null), [tex, width, height, estilo]);
   if (!mundo) return null;
   const cobre = dentro(cues.cobre3d, t);
   let proj = { pinos: cues.pinos.map((p) => ({ id: p.id, x: 0, y: 0, ok: false })), rotulos: [] };
@@ -889,8 +928,12 @@ export const LongoV2 = ({ tempo, soMapa = false, estilo = 'B', fotos = 'grande',
     </AbsoluteFill>
   ) : null;
   if (soMapa) return <AbsoluteFill style={{ background: '#B9A47F' }}>{fundoCena}</AbsoluteFill>;
+  // fase 2: o fundo do quadro aparece onde o 3D não tem geometria (horizonte nas cenas baixas: diorama, globo, régua);
+  // no v1 era o papel #B9A47F, igual à mesa; no v2 acompanha o fundo navy do estilo (A #0E2A50, B #1F2A44)
+  const xab = estilo === 'AB' ? interpTabela(ESTILO_AB, t) : estilo === 'A' ? 1 : 0;
+  const fundoQuadro = estilo ? `rgb(${Math.round(31 + (14 - 31) * xab)},${Math.round(42)},${Math.round(68 + (80 - 68) * xab)})` : '#B9A47F';
   return (
-    <AbsoluteFill style={{ background: '#B9A47F' }}>
+    <AbsoluteFill style={{ background: fundoQuadro }}>
       {fundoCena}
       {!cobre && <Etiquetas t={t} proj={proj} estilo={estilo} />}
       {!cobre && <RotulosMontanhas t={t} proj={proj} />}
@@ -910,8 +953,7 @@ export const LongoV2 = ({ tempo, soMapa = false, estilo = 'B', fotos = 'grande',
       <Capitulo t={t} />
       <Legenda t={t} />
       <Fontes t={t} />
-      {!cobre && estilo && <div style={{ position: 'absolute', right: 22, bottom: 8, fontFamily: MONO, fontWeight: 500, fontSize: 13, letterSpacing: '0.08em', color: 'rgba(255,255,255,0.75)', textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}>
-        {estilo === 'A' ? 'MAPA: NASA BLUE MARBLE · RELEVO: NOAA ETOPO 2022' : 'RELEVO: NOAA ETOPO 2022 · NATURAL EARTH · IBGE'}</div>}
+      {!cobre && estilo && <CreditoMapa t={t} estilo={estilo} />}
     </AbsoluteFill>
   );
 };
