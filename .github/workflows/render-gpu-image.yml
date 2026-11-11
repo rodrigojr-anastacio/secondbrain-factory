@@ -1,0 +1,39 @@
+# Constrói a imagem de render em GPU (só dependências) e publica em ghcr.io/rodrigojr-anastacio/fabrica-render-gpu.
+# Usada por tools/render_runpod.sh. O Runpod puxa sem credencial: o pacote precisa estar PÚBLICO
+# (github.com/users/rodrigojr-anastacio/packages → fabrica-render-gpu → Package settings → Change visibility → Public).
+name: render-gpu-image
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - tools/render-gpu-image/**
+      - .github/workflows/render-gpu-image.yml
+permissions:
+  contents: read
+  packages: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: tools/render-gpu-image
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: tools/render-gpu-image
+          push: true
+          tags: |
+            ghcr.io/rodrigojr-anastacio/fabrica-render-gpu:latest
+            ghcr.io/rodrigojr-anastacio/fabrica-render-gpu:${{ github.sha }}
+          labels: |
+            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+            org.opencontainers.image.description=Render Remotion em GPU (Runpod): Node, Chrome Headless Shell do Remotion, libs GL/EGL/Vulkan, ffmpeg e fontes. Sem projeto, mídia ou segredo.
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
