@@ -38,7 +38,7 @@ jobs:
             --label "org.opencontainers.image.description=Render Remotion em GPU (Runpod): Node, Chrome Headless Shell, libs GL/EGL/Vulkan, ffmpeg, fontes. Sem projeto, mídia ou segredo." \
             -t $IMG:latest -t $IMG:${{ github.sha }} tools/render-gpu-image > build.txt 2>&1
           rc=$?
-          if [ $rc != 0 ]; then echo "::error title=docker build::espelho $M%0A$(tail -25 build.txt | sed ':a;N;$!ba;s/\n/%0A/g')"; exit 1; fi
+          if [ $rc != 0 ]; then echo "::error title=docker build::espelho $M%0A$(grep -v '^#[0-9]* [0-9.]* \(Setting up\|Unpacking\|Selecting\|Preparing\|Get:\|Processing\)' build.txt | tail -30 | tr -d '\r' | sed 's/%/%25/g' | sed ':a;N;$!ba;s/\n/%0A/g')"; exit 1; fi
           echo "::notice title=imagem::$(docker image ls $IMG:latest --format '{{.Size}}') espelho $M"
       - name: push
         run: |
