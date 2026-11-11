@@ -30,6 +30,8 @@ for s in $S; do ln -sfn $F/$s ~/.hermes/profiles/produtor/skills/fabrica-youtube
 ```
 Conferir: `hermes skills list | grep fabrica-youtube` e `hermes -p produtor skills list | grep fabrica-youtube`; no Claude Code, as skills aparecem pelo nome (ex.: `/produzir-video`). Skill nova = pasta nova aqui + os mesmos symlinks.
 
+**Base de erros do QA:** [`conhecimento/erros-qa.md`](../conhecimento/erros-qa.md) (toda reprovação vira entrada; checklist de pré-render, obrigatório antes de render > 10 min, ver `montagem-render`).
+
 ## Regras comuns a todas as skills
 1. **Caixinha do canal primeiro.** Antes de agir, leia `canais/<slug>/biblia/README.md` e o arquivo da bíblia da etapa (`roteiro.md`, `titulo.md`, `thumb.md`, `visual.md`, `voz.md`); depois o `canal.yaml` e as **regras gerais** de `conhecimento/` (`anti-padroes.md` vale para todas). **A bíblia prevalece** sobre `conhecimento/`.
    - **Nunca aplique padrão de outro canal** (estrutura, hook, título, thumb, visual, voz), nem copie código/roteiro de vídeo de outro canal como modelo. Erro real: capítulos-objeto do Archive (dossie-es) no Irã do historia-ptbr, 04/11/2026 (`conhecimento/anti-padroes.md` §8).

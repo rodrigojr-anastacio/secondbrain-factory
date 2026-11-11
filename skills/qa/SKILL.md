@@ -10,7 +10,7 @@ Procedimento-base: checklist de `playbooks/produzir-video.md` §6 e §7. Modelo 
 
 ## Antes de agir
 0. **Primeiro a bíblia do canal** (caixinha): `canais/<slug>/biblia/README.md` (canal-modelo e "o que NÃO fazer aqui") e **todos** os arquivos de `canais/<slug>/biblia/` (roteiro, título, thumb, visual, voz): é contra eles que o vídeo é julgado. A bíblia **prevalece** sobre `conhecimento/` (só regras gerais). Nunca aplique padrão de outro canal.
-1. Regras gerais: todo `conhecimento/` (sobretudo `anti-padroes.md`).
+1. Regras gerais: todo `conhecimento/` (sobretudo `anti-padroes.md` e `erros-qa.md`, a base de erros já pegos e o checklist de pré-render).
 2. Leia `canais/<slug>/canal.yaml`.
 3. Leia `$V/BRIEF.md` (meta e critérios de pronto), `$V/ETAPA*.md` e o `QA.md` do vídeo anterior do canal (formato).
 4. Ferramentas do vídeo: `$V/tools/qa.sh`, `$V/tools/transcrever.py`, `$V/tools/compara_voz.py` (copie de `canais/historia-ptbr/videos/002-india/tools/` se faltar).
@@ -26,7 +26,7 @@ Procedimento-base: checklist de `playbooks/produzir-video.md` §6 e §7. Modelo 
      - **historia-ptbr: v2 vale a partir do 006; vídeos 001–005 seguem a v1 em `biblia/roteiro-v1.md`** (julgue o 005 e anteriores pela v1). Em vídeo ≥ 006, rode o checklist v2 com os tempos reais da legenda: `python3 ~/workspace/fabrica-youtube/canais/historia-ptbr/tools/checklist_roteiro_v2.py $V` (usa `out/legendas.srt`), cole a saída no `QA.md` e confira `biblia_versao='v2'` em `youtube.videos`. Item obrigatório reprovado = roteiro reprovado (volta à skill `roteiro`), exceto o ritmo 140–145 ppm, que é Hipótese: anote o desvio sem reprovar. Não vale para outros canais;
    - **título** na fórmula de `biblia/titulo.md`; **thumb** no template de `biblia/thumb.md`; **visual** (contact sheet) com a identidade de `biblia/visual.md`; **voz** = a de `biblia/voz.md`;
    - nada da lista "O que NÃO fazer aqui" do `biblia/README.md`. Qualquer item de outro canal = **reprovado**, volta para a skill culpada.
-7. Escreva `$V/QA.md`: checklist marcado com números, problemas, correções feitas, pendências. Status: `UPDATE youtube.videos SET status='qa'` durante; `pronto` quando aprovado.
+7. Escreva `$V/QA.md`: checklist marcado com números, problemas, correções feitas, pendências e a seção **"Reprovações"** (ver Loop, passo 3). Status: `UPDATE youtube.videos SET status='qa'` durante; `pronto` quando aprovado.
 
 ## Critérios de aprovação (objetivos)
 - [ ] Duração = meta (± 30 s) e = N do título.
@@ -41,6 +41,6 @@ Procedimento-base: checklist de `playbooks/produzir-video.md` §6 e §7. Modelo 
 ## Loop de melhoria
 1. **Avaliar:** marque cada item com o número medido.
 2. **Corrigir:** **no máximo 2 rodadas** (devolva à skill da etapa culpada: `voz`, `imagens`, `montagem-render`...). O que sobrar vai como pendência no `QA.md` e no relatório.
-3. **Registrar:** erro de formato/estilo do canal vira entrada na **bíblia do canal** (`canais/<slug>/biblia/<arquivo>.md`); erro de ferramenta, processo ou custo (vale para todos) vai para `conhecimento/anti-padroes.md` (o que, quanto custou, como evitar). Sempre com **data e fonte** (`QA.md <canal>/<NNN>`); sem dado = **Hipótese**. Se mudar procedimento, ajuste o playbook.
-4. **Commitar:** `git add $V/QA.md` (+ bíblia/conhecimento tocados) e
+3. **Registrar (obrigatório; sem isso o QA não está concluído):** toda reprovação ou correção vira (a) seção **"Reprovações"** no `QA.md` do vídeo (o que estava errado, causa raiz, como foi detectado, correção) e (b) uma entrada em [`conhecimento/erros-qa.md`](../../conhecimento/erros-qa.md) (campos: data · canal/vídeo · o que estava errado · causa raiz · detectado por · custo do erro · como evitar · regra criada), mais recente no topo; se o erro for novo de tipo, acrescente item ao checklist de pré-render de lá. Depois, o destino de cada regra: erro de formato/estilo do canal vira entrada na **bíblia do canal** (`canais/<slug>/biblia/<arquivo>.md`); erro de ferramenta, processo ou custo (vale para todos) vai para `conhecimento/anti-padroes.md` (o que, quanto custou, como evitar). Sempre com **data e fonte** (`QA.md <canal>/<NNN>`); sem dado = **Hipótese**. Se mudar procedimento, ajuste o playbook.
+4. **Commitar:** `git add $V/QA.md conhecimento/erros-qa.md` (+ bíblia/conhecimento tocados) e
    `git commit -m "<canal>/<NNN>: QA aprovado (Whisper X%, -15 LUFS, 0 pretas)"` (ou "QA com N pendências").

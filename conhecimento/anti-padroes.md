@@ -4,6 +4,8 @@
 
 **Como atualizar:** todo agente que errar, ou vir um erro no QA, registra aqui. Também alimentam: **Métricas** (o que derrubou views ou retenção), **Tendências** (o que as referências evitam) e o **feedback do Rodrigo**. Cada entrada leva **data e fonte**. Sem dado, marque **Hipótese**. Depois de editar, faça commit descritivo (ex.: `conhecimento/anti-padroes: imagens em dobro na Índia`).
 
+**Erros pegos no QA (com causa, custo e checklist de pré-render): [`erros-qa.md`](erros-qa.md).**
+
 Última revisão: 2026-11-04 (caixinhas por canal: §8 mistura de canais; detalhes de canal apontam para as bíblias).
 
 ---
