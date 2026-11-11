@@ -1,5 +1,5 @@
 # pacotes apt da imagem (Debian 12 bookworm)
-ca-certificates curl xz-utils openssh-server tar procps
+ca-certificates curl xz-utils openssh-server tar procps libatomic1
 libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3
 libxrandr2 libgbm1 libasound2 libpango-1.0-0 libcairo2 libegl1 libgl1 libgles2 libglvnd0 libvulkan1
 libx11-xcb1 libxshmfence1 libdbus-1-3
