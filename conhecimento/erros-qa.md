@@ -12,13 +12,13 @@ Modelo de entrada:
 - Fonte: …
 ```
 
-Última revisão: 2026-11-10.
+Última revisão: 2026-11-11.
 
 ---
 
 ## Checklist de pré-render (destilado das entradas abaixo)
 
-Antes de qualquer render > 10 min: stills a cada ~10 s e em toda troca de cena/estilo, em grade ([`montagem-render`](../skills/montagem-render/SKILL.md) passo 4). Em cada quadro, olhe:
+Antes do render do vídeo (que vai para a GPU do Runpod): stills a cada ~10 s e em toda troca de cena/estilo, em grade ([`montagem-render`](../skills/montagem-render/SKILL.md) passo 4). Em cada quadro, olhe:
 
 1. **Fundo e bordas:** faixa chapada, listra, buraco ou emenda atrás de mapa/globo/relevo; nada de z-fighting (listras no mar); fundo igual em todas as trocas de estilo.
 2. **Moldura / margem / faixa preta** nas imagens de IA (detector de bordas + olho); medalhão ou recorte que cortou rosto.
@@ -30,10 +30,19 @@ Antes de qualquer render > 10 min: stills a cada ~10 s e em toda troca de cena/e
 8. **Imagem preta** (filtro do fal devolve sem erro): luminância média < 15.
 9. **Voz** (antes do render, por bloco): frase faltando, palavra trocada, pergunta sem entonação, nomes estrangeiros testados antes.
 10. **Mudou código/estilo no meio?** Refaça a varredura inteira, não só o trecho mexido.
+11. **Render em GPU (Runpod) confere com a VPS em todo o vídeo, não em 3 quadros:** use `tools/render_runpod.sh` com as conferências ligadas (prova antes + um quadro a cada 10 s de cada bloco contra stills da VPS). A mesma GPU já perdeu textura satélite em trechos sem dar erro (11/11/2026). Nunca `chrome-for-testing` (some o 3D).
 
 ---
 
 ## Entradas (mais recente primeiro)
+
+### 2026-11-11 · Em Relevo 002 v2 (validação do render em GPU) · textura de satélite sumiu sem erro numa RTX 4090 do Runpod
+- **Errado:** no render do vídeo inteiro numa RTX 4090 Secure do Runpod (driver 595.91, `--gl=angle-egl`, concorrência 16, pico de 21 GB de memória de vídeo), trechos saíram **sem a textura satélite**: fundo azul-marinho com faixas diagonais e um bloco marrom no lugar do continente (quadros 1700 e 10100: SSIM 0,57 e 0,66 contra a VPS; quadro 300 com faixas leves no fundo: 0,93). Os outros trechos saíram iguais (0,97–0,99). **Nenhum erro no log.** Já tinha acontecido em 11/11 de manhã noutra 4090 Secure (quadro 17000: 0,89); a 3090 Community saiu certa no vídeo inteiro.
+- **Causa raiz:** **Hipótese** (sem confirmar): falha ao carregar/alocar textura grande no WebGL dessas máquinas com muitas abas em paralelo (memória de vídeo perto do limite; a 3090 usou 9,8 GB na mesma concorrência). Stills isolados na mesma máquina saem certos (as 5 provas deram 0,997–0,999), então o defeito só aparece no render concorrente.
+- **Detectado por:** comparação de 17 quadros espalhados do mp4 contra o vídeo publicado, feita à mão depois do script. **A trava do script não pegou:** as provas (stills) e os 5 quadros conferidos no mp4 caíram em trechos bons.
+- **Custo do erro:** US$ 0,19 (render descartado); nenhum vídeo publicado afetado.
+- **Como evitar:** o `tools/render_runpod.sh` agora renderiza em **blocos de 60 s** e confere **um quadro a cada 10 s** de cada bloco contra stills da VPS (480p, SSIM ≥ 0,97; bons ≈ 0,99, ruins 0,52–0,93); bloco reprovado é refeito com metade da concorrência antes de destruir o Pod. Concorrência padrão caiu de 16 para 8. Calibração em `pesquisa/render-gpu-2026-11/RELATORIO.md`. **Regra criada:** item 11 do checklist acima e passo 5 de [`montagem-render`](../skills/montagem-render/SKILL.md).
+- Fonte: `pesquisa/render-gpu-2026-11/RELATORIO.md` (seção "Rodada completa", 11/11/2026); quadros em `pesquisa/render-gpu-2026-11/validacao/quadros/` (fora do git).
 
 ### 2026-11-10 · Em Relevo 002 (El Niño) v2 · fundo atrás do mapa reprovou o render inteiro
 - **Errado:** render do vídeo inteiro reprovado no QA: faixa escura chapada no corte do Pacífico e listras verticais sobre o globo; 2ª rodada do bloco 19 em diante. Quadros em `pesquisa/canal-clima-2026-11/longo-02/qa/v2/` (`f091.jpg`, `f127.jpg`, `cmp1.jpg`).

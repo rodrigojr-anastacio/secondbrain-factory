@@ -71,6 +71,8 @@ Referência: o mp4 da própria VPS contra o still da VPS dá 0,985–0,991. Logo
 Refazer um trecho (slot, correção de QA) vira questão de minutos, não de horas.
 
 ## Receita reprodutível
+> **Atualização 11/11 (tarde):** o script virou `tools/render_runpod.sh` (genérico, com conferência densa e render em blocos; ver "Virou padrão" no fim). A descrição abaixo é a da versão do teste.
+
 `render_runpod.sh <dir remotion> <dir bundle> <composição> <saida.mp4> [a-b] [conc]`. O script liga o Pod (lista de GPUs em ordem, Community e depois Secure), envia por tar via ssh, instala, renderiza mudo com `angle-egl`, confere a GPU, traz o mp4 e **destrói o Pod no trap** (em qualquer saída ou erro). A chave vai num arquivo de header temporário (600), fora do código e do log. O áudio é juntado na VPS como no `render_v2.sh junta` (ffmpeg `-c:v copy` + mix).
 
 Travas do script:
@@ -99,3 +101,67 @@ A conferência do mp4 dentro do script entrou depois da última rodada e só foi
 3. **Imagem própria** (`runpod-build-template`): cortaria os ~6 min de setup para ~1 min.
 4. Encaixar na skill `montagem-render` como opção ("render > 10 min → Runpod"), mantendo o pré-QA de stills na VPS e o QA do mp4 que volta. **Precisa da aprovação do Rodrigo:** é gasto recorrente novo, pequeno.
 5. Nunca usar `--chrome-mode=chrome-for-testing` (some o 3D) e nunca desligar a trava de QA: GPUs diferentes podem errar sem dar erro.
+
+---
+
+# Virou padrão da fábrica (11/11/2026, tarde)
+Brief: `~/workspace/referencias/BRIEF-render-gpu-padrao.md`. Aprovado pelo Rodrigo: **todo render de vídeo vai para o Runpod** (VPS = stills, thumbs, grades do pré-QA, testes de segundos e fallback).
+
+## Rodada completa (vídeo inteiro do Em Relevo 002 v2, `LongoV2`, bundle `work/bundle-v2`)
+Resultados em `validacao/` (fora do git): `video_gpu3.mp4` (instalação na imagem base) e `video_gpu4.mp4` (imagem da fábrica), logs `rodada*.log`, SSIM em `ssim_vs_publicado*.txt`, quadros em `quadros/`.
+
+| Rodada | Máquina | Pod | Custo | Resultado |
+|---|---|---|---|---|
+| 1 (script da manhã) | 4090 Secure US$ 0,89/h | 772 s | US$ 0,19 | **reprovada no olho:** provas 0,997–0,999 e 5 quadros do mp4 ≥ 0,97, mas **trechos sem a textura satélite** (quadros 1700 e 10100: SSIM 0,57 e 0,66 contra o publicado; faixas diagonais e bloco marrom) |
+| 2 (conferência densa, limiar 0,97) | A5000 0,27/h | 669 s | US$ 0,05 | falso positivo: quadro 15 (escuro, início) dá 0,9695 sempre; o próprio vídeo publicado dá 0,972 → limiar caiu para **0,95** |
+| 3 (instalação) | 3090 0,50/h | 903 s | US$ 0,13 | 12 blocos, 85 amostras, 0 refeitos, SSIM 480p mín. 0,969 |
+| 4 (imagem da fábrica) | RTX PRO 4500 0,50/h | 1008 s | US$ 0,14 | idem, mín. 0,970 |
+| teste final (trecho 900 q) | 4090 Secure 0,89/h | 262 s | US$ 0,06 | ok, 901/901 quadros |
+
+Rodadas 3 e 4 saíram com código 3 por um **bug meu** na divisão em blocos (o "rabo" foi fundido no bloco errado e o último bloco veio repetido: 23.696 quadros); a conferência de nº de quadros pegou. Os blocos 0–10 cobrem exatamente o vídeo e passaram na conferência; o mp4 foi cortado em 21.896 quadros (`-c:v copy`) e recebeu o áudio. Bug corrigido e retestado (teste final).
+
+**Comparação com `longo-02/out/video.mp4`** (rodadas 3 e 4, iguais entre si):
+- duração 729,87 s, 21.896 quadros, 1920×1080 30 fps, AAC 48 kHz mono; loudness -14,0 LUFS, LRA 2,2;
+- **áudio idêntico bit a bit** (md5 do áudio decodificado igual ao publicado);
+- SSIM de 17 quadros espalhados (mp4 × mp4, 1080p): **0,957–0,991** (1700: 0,966; 10100: 0,960; o vídeo publicado contra o still da VPS dá 0,967–0,99, então a diferença é compressão).
+
+## Por que a conferência mudou (o que a rodada 1 ensinou)
+A prova com stills isolados passa até na máquina que erra: o defeito só aparece no render concorrente (**Hipótese:** memória de vídeo/carga de textura com muitas abas; a 4090 da rodada 1 chegou a 21 GB com concorrência 16, a 3090 da manhã usou 9,8 GB). O `tools/render_runpod.sh` agora:
+- renderiza em **blocos de 60 s** (`BLOCO_S`) e confere **um quadro a cada 10 s** (`AMOSTRA_S`) de cada bloco contra stills da VPS, em 480p (calibração: bons 0,97–0,99, quadro escuro 0,9695, defeitos 0,52–0,93; limiar `LIMIAR_MP4` 0,95);
+- bloco reprovado é **refeito no mesmo Pod** com metade da concorrência (até 2×); reprovação idêntica nas 2 rodadas = diferença estável (não é a GPU) e para;
+- concorrência padrão **8** (era 16): pico de 8–11 GB nas cenas 3D;
+- stills de referência com **um navegador só** (`tools/remotion_stills.cjs`, ~7 s/still 1080p na VPS; 79 stills = 8–10 min, antes de ligar o Pod) e cache opcional `REFS=<dir>` para refações;
+- custo gravado em `financas.consumo` (custo/h × tempo; saldo antes/depois nas notas), Pod destruído no trap e conferido pela API.
+
+## Imagem pronta (só dependências)
+- `tools/render-gpu-image/` (Dockerfile Debian 12 + libs Chrome/GL/EGL/Vulkan + ffmpeg + fontes + sshd + Node 26.12.1 + `node_modules` do Remotion 4.0.541 com o Chrome Headless Shell), construída pelo GitHub Actions (`.github/workflows/render-gpu-image.yml`, `GITHUB_TOKEN`, minutos gratuitos, ~1,5 min) em **`ghcr.io/rodrigojr-anastacio/fabrica-render-gpu:latest`** (1,43 GB). **Já nasceu pública** (pull anônimo dá HTTP 200): nenhum passo do Rodrigo.
+- Armadilhas do runner (11/11/2026): o GitHub Actions **não resolve `*.ubuntu.com`** (nem no host; o apt do runner só aponta para packages.microsoft.com), por isso a base é Debian (`deb.debian.org` resolve). O log do Actions exige login; o workflow escreve os erros como anotação (`::error::`), que a API pública mostra. A API pública tem limite de 60 consultas/h.
+- Projeto com o mesmo `package-lock.json` da imagem (sha256 em `/opt/deps/lock.sha256`) usa o `node_modules` dela; lock diferente roda `npm ci` (5 s) no Pod.
+
+| Tempo até o Pod ficar pronto | SSH | envio | setup | total |
+|---|---|---|---|---|
+| Teste da manhã (imagem base, apt + npm + Chrome) | 16–35 s | 54–146 s | 216 s – ~6 min | ~5–8 min |
+| Imagem base, script novo (rodada 3) | 27 s | 58 s (Node em xz na hora) | 59 s | **144 s** |
+| Imagem base + Node em cache (teste final) | 37 s | 26 s | 63 s | **126 s** |
+| **Imagem da fábrica** (rodada 4) | 145 s (pull de 1,43 GB num host frio) | 18 s | 4 s | **167 s** |
+| Imagem da fábrica, testes seguintes (áudio, MKV, Masones) | 83 s / 136 s / 28 s | 17–57 s* | 4–9 s | **107 / 156 / 94 s** |
+
+\* o Masones envia 379 MB de `public/` e roda `npm ci` (lock diferente).
+
+**Leitura honesta (4 Pods com a imagem, 3 sem):** a instalação já tinha caído de ~6 min para ~2 min (apt mais enxuto, `npm ci` de 5 s, Node pré-comprimido), e o pull da imagem num host que não a tem custa o mesmo que se ganha. Ficou como **padrão** a imagem da fábrica (o script cai sozinho para a base + instalação se ela não estiver acessível) porque tira apt e npm do caminho do Pod (o apt já falhou calado na manhã); o custo de 1 min a mais ou a menos é ~US$ 0,004. **Hipótese:** em hosts que já baixaram a imagem o pull some; medir nos próximos renders e, se não melhorar, voltar o padrão para a base (`IMG=runpod/pytorch:...`).
+- Alternativa avaliada e descartada: network volume com as deps (prende o Pod a um datacenter, o que reduz a oferta de GPU que já oscila; US$ 0,07/GB/mês; e as libs do sistema não ficam no volume).
+
+## Tempo e custo reais por vídeo (12 min, com 3D)
+- Pod ~15–17 min no total: ~2–3 min até ficar pronto, ~12 min de render + conferência (12 blocos de ~55–65 s com concorrência 8), ~5 s para juntar.
+- **US$ 0,06 (3090 Community a 0,22/h) a US$ 0,14 (máquinas a 0,50/h)**; 4090 Secure a 0,89/h ≈ US$ 0,25. VPS antes: ~9,8 h.
+- Antes do Pod, ~8–10 min de stills na VPS (grátis; com `REFS` uma refação reaproveita).
+- Estoque: em 9 criações, 5 saíram na 1ª tentativa, 3 na 2ª (1 min) e 1 na 6ª (5 min). A lista aceita 3090, A5000, 4090, A4500, A4000, L4, Community e depois Secure; o Runpod já entregou também uma RTX PRO 4500 (passou na prova).
+
+## Testes do caminho dos canais e do áudio
+- **Padrão dos canais** (`dossie-es/006-masones`, só leitura, trecho 3000–3899, bundle feito pelo script com `ENTRY=src/index.jsx`, `AUDIO=public/audio/mix.wav`, lock 4.0.539 ≠ imagem → `npm ci` de 2 s): RTX A4500 US$ 0,19/h, Pod 145 s, **US$ 0,008**; prova SSIM 1,000; 900/900 quadros; contra o `out/video.mp4` publicado 0,986–0,990 (crf 18 × 20). Cenas 2D não usam a GPU (pico 2 MiB), e mesmo assim o Pod sai mais rápido que a VPS.
+- **Áudio dentro da composição:** (1) passada `--codec=wav` separada levou 5 min no Pod para 30 s (sem `--gl`, caiu em CPU); (2) blocos `h264-mkv` + PCM saíram com SSIM 0,61–0,63 nas amostras no Pod (no VPS o mesmo MKV confere 0,996; causa não investigada). Como **nenhum canal usa** (todos renderizam mudo + `mix.wav`), o caminho foi removido: o script exige `AUDIO=` ou `MUDO=1`.
+- Trecho `[a-b]` com `AUDIO`: o áudio começa em a/fps (clipe certo para refação).
+- Um teste foi morto pelo `timeout` do meu comando no meio do render: o trap destruiu o Pod e registrou o custo (confirma a destruição em erro).
+
+## Custo desta tarefa
+Runpod: **US$ 0,77** em 9 Pods (`financas.consumo` 185–193, `ref_id` 17); saldo pela API **39,6981 → 38,9263 (US$ 0,772)**, igual ao estimado pelo script. Com o teste da manhã (US$ 0,30), a validação inteira custou US$ 1,07. GitHub Actions: 10 builds (9 falhas de rede/pacote até achar o caminho), minutos gratuitos. Teto US$ 2.

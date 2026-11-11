@@ -109,6 +109,15 @@ Fonte: `financas.custo_por_video` e `financas.consumo` (consulta de 2026-11-04).
 - Testes de estilo e voz sem `ref_id` (ids 1–5 e 18): ~US$ 0,15 (R$ 0,87), fora do custo por vídeo.
 - Os ETAPA*.md citam custos com rateio diferente (R$ 30,39, R$ 80,38, R$ 70,20) porque, na época, o Claude Max ainda não estava lançado. Use sempre a view, com a data.
 
+### Render em GPU alugada (Runpod), custo e tempo reais (11/11/2026)
+Fonte: `pesquisa/render-gpu-2026-11/RELATORIO.md` (teste da manhã + "Virou padrão"); `financas.consumo` 183–190. **Todo render de vídeo vai para o Runpod** (`tools/render_runpod.sh`; decisão do Rodrigo, 11/11).
+- **Vídeo de 12 min com 3D (Em Relevo 002):** VPS ~9,8 h × Pod ~15–17 min (2–3 min até ficar pronto + ~12 min de render em blocos com conferência). **US$ 0,06 (3090 Community, 0,22/h) a 0,14 (0,50/h)**; 4090 Secure (0,89/h) ≈ 0,25. Antes do Pod, ~8–10 min de stills de referência na VPS (grátis).
+- **Trecho/refação (~30 s de vídeo):** ~4–5 min de Pod, US$ 0,03–0,06.
+- **Armadilhas que custaram:** `--chrome-mode=chrome-for-testing` some o 3D; sem `NVIDIA_DRIVER_CAPABILITIES=all` o Chrome cai em software; concorrência acima dos vCPU do Pod o Remotion recusa; uma 4090 Secure perdeu a textura satélite em trechos **sem erro** (só a conferência densa pega; [`erros-qa.md`](erros-qa.md) 11/11); o estoque com IP público oscila minuto a minuto (o script repete a cada 1 min por até 30 min, depois VPS).
+- **Imagem própria** (`ghcr.io/rodrigojr-anastacio/fabrica-render-gpu`, Actions grátis): setup 4 s, mas o pull de 1,43 GB num host frio leva ~2,4 min, o mesmo que a instalação enxuta (~2 min). Ganho real é tirar apt/npm do caminho, não tempo. No runner do Actions `*.ubuntu.com` não resolve: use base Debian.
+- Vídeo 2D de canal (dossie-es, trecho de 30 s): US$ 0,008 numa A4500 a 0,19/h; o render só usa CPU do Pod, que tem 16+ vCPU.
+- Custo da validação toda (manhã + tarde): **US$ 1,07** de Runpod (saldo pela API = estimado pelo script).
+
 ### 7. Job headless morto por tarefa de fundo (BRIEF-canal-archive, 2026-11-04)
 - O job disparou um subagente e um shell em segundo plano, respondeu "ainda está rodando, quando terminar eu faço o resto" e encerrou o turno. Em `claude -p` não há "depois": o harness esperou 10 min ("Background tasks still running 10m after the last turn ... stopping them") e matou tudo; trabalho pela metade, sem commit. [referencias/canal-archive.log]
 - Correção: regra em `~/.claude/CLAUDE.md` (primeiro plano, commit+push antes de responder, senão `BLOQUEIO.md`) e `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0` em `~/.claude/settings.json`, `claude_run.py` e `_rotina_claude.sh`. Atenção: na doc, `0` = esperar indefinidamente (não desliga a espera), então a variável só segura o processo; o `--timeout` do `claude_run.py` continua sendo o limite. Para proibir background de vez existe `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS=1` (não aplicado; **Hipótese** de que resolveria).
