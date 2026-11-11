@@ -1,6 +1,9 @@
 # Constrói a imagem de render em GPU (só dependências) e publica em ghcr.io/rodrigojr-anastacio/fabrica-render-gpu.
 # Usada por tools/render_runpod.sh. O Runpod puxa sem credencial: o pacote precisa estar PÚBLICO
 # (github.com/users/rodrigojr-anastacio/packages → fabrica-render-gpu → Package settings → Change visibility → Public).
+# Nota (11/11/2026): no runner o DNS não resolve dentro de contêiner na rede bridge ("Could not resolve archive.ubuntu.com");
+# por isso docker build com --network host (sem buildx). O log do Actions exige login: erros viram anotação (::error::),
+# que a API pública mostra.
 name: render-gpu-image
 on:
   workflow_dispatch:
@@ -12,37 +15,27 @@ on:
 permissions:
   contents: read
   packages: write
+env:
+  IMG: ghcr.io/rodrigojr-anastacio/fabrica-render-gpu
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:
           sparse-checkout: tools/render-gpu-image
-      - name: testa a lista de pacotes (erro vira anotação pública; o log do Actions exige login)
+      - name: build
         run: |
           set +e
-          docker run --rm -v "$PWD/tools/render-gpu-image:/x:ro" -e DEBIAN_FRONTEND=noninteractive ubuntu:22.04 bash -c \
-            'apt-get update && apt-get install -y --no-install-recommends --dry-run $(grep -v "^#" /x/pacotes.txt)' > apt.txt 2>&1
+          docker build --network host \
+            --label org.opencontainers.image.source=https://github.com/${{ github.repository }} \
+            --label "org.opencontainers.image.description=Render Remotion em GPU (Runpod): Node, Chrome Headless Shell, libs GL/EGL/Vulkan, ffmpeg, fontes. Sem projeto, mídia ou segredo." \
+            -t $IMG:latest -t $IMG:${{ github.sha }} tools/render-gpu-image > build.txt 2>&1
           rc=$?
-          echo "::notice title=apt-inicio::$(head -25 apt.txt | sed ':a;N;$!ba;s/\n/%0A/g')"
-          if [ $rc != 0 ]; then echo "::error title=apt::$(tail -15 apt.txt | sed ':a;N;$!ba;s/\n/%0A/g')"; exit 1; fi
-          tail -3 apt.txt
-      - uses: docker/setup-buildx-action@v3
-      - uses: docker/login-action@v3
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-      - uses: docker/build-push-action@v6
-        with:
-          context: tools/render-gpu-image
-          push: true
-          tags: |
-            ghcr.io/rodrigojr-anastacio/fabrica-render-gpu:latest
-            ghcr.io/rodrigojr-anastacio/fabrica-render-gpu:${{ github.sha }}
-          labels: |
-            org.opencontainers.image.source=https://github.com/${{ github.repository }}
-            org.opencontainers.image.description=Render Remotion em GPU (Runpod): Node, Chrome Headless Shell do Remotion, libs GL/EGL/Vulkan, ffmpeg e fontes. Sem projeto, mídia ou segredo.
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+          if [ $rc != 0 ]; then echo "::error title=docker build::$(tail -25 build.txt | sed ':a;N;$!ba;s/\n/%0A/g')"; exit 1; fi
+          echo "::notice title=imagem::$(docker image ls $IMG:latest --format '{{.Size}}')"
+      - name: push
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+          docker push $IMG:latest > push.txt 2>&1 && docker push $IMG:${{ github.sha }} >> push.txt 2>&1 \
+            || { echo "::error title=docker push::$(tail -10 push.txt | sed ':a;N;$!ba;s/\n/%0A/g')"; exit 1; }
