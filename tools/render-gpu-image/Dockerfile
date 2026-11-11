@@ -14,12 +14,10 @@ ENV DEBIAN_FRONTEND=noninteractive \
     NVIDIA_DRIVER_CAPABILITIES=all \
     NVIDIA_VISIBLE_DEVICES=all
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
-      ca-certificates curl xz-utils openssh-server tar procps \
-      libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 \
-      libxrandr2 libgbm1 libasound2 libpango-1.0-0 libcairo2 libegl1 libgl1 libgles2 libglvnd0 libvulkan1 \
-      libx11-xcb1 libxshmfence1 libdbus-1-3 \
-      ffmpeg fonts-liberation fonts-dejavu-core fonts-noto-core fonts-noto-color-emoji \
+COPY pacotes.txt /tmp/pacotes.txt
+RUN echo 'Acquire::Retries "5";' > /etc/apt/apt.conf.d/80retries \
+    && for t in 1 2 3; do apt-get update && apt-get install -y --no-install-recommends $(grep -v '^#' /tmp/pacotes.txt) && break; \
+         [ $t = 3 ] && exit 1; sleep 20; done \
     && rm -rf /var/lib/apt/lists/* \
     && mkdir -p /run/sshd /root/.ssh && chmod 700 /root/.ssh \
     && sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin prohibit-password/; s/^#\?PasswordAuthentication.*/PasswordAuthentication no/' /etc/ssh/sshd_config
