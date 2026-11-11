@@ -25,6 +25,7 @@ jobs:
           docker run --rm -v "$PWD/tools/render-gpu-image:/x:ro" -e DEBIAN_FRONTEND=noninteractive ubuntu:22.04 bash -c \
             'apt-get update && apt-get install -y --no-install-recommends --dry-run $(grep -v "^#" /x/pacotes.txt)' > apt.txt 2>&1
           rc=$?
+          echo "::notice title=apt-inicio::$(head -25 apt.txt | sed ':a;N;$!ba;s/\n/%0A/g')"
           if [ $rc != 0 ]; then echo "::error title=apt::$(tail -15 apt.txt | sed ':a;N;$!ba;s/\n/%0A/g')"; exit 1; fi
           tail -3 apt.txt
       - uses: docker/setup-buildx-action@v3
