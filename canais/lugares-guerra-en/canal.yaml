@@ -1,0 +1,47 @@
+slug: lugares-guerra-en
+nome: Clearance Required        # provisório; 3 opções com handle conferido em identidade.md (decisão do Rodrigo)
+channel_id:                     # canal ainda NÃO criado (decisão do Rodrigo)
+handle_sugerido: "@clearancerequired"   # livre em 12/11/2026 (channels.list forHandle)
+idioma: en                      # inglês americano; matriz em pesquisa/lugares-guerra/IDIOMA.md (en 7,70 · es 6,15)
+idioma_2: es                    # versão futura do mesmo conteúdo (reescrita nativa + voz), só se o en provar
+nicho: lugares de guerra americanos que hoje não se pode visitar (ou quase) + os documentos oficiais que explicam por quê
+token: lugares-guerra-en        # ~/.segredos/youtube/tokens/lugares-guerra-en.json (após o OAuth, feito pelo Rodrigo)
+status: "em preparação (fase 1 = blueprint + teste de estilo, 12/11/2026; piloto youtube.videos id 30)"
+pesquisa:
+  - pesquisa/lugares-guerra/LEVANTAMENTO.md     # decisão e números
+  - pesquisa/lugares-guerra/CONCORRENCIA.md     # 81 canais nas tabelas, clones, demanda por tema
+  - pesquisa/lugares-guerra/IDIOMA.md           # matriz de idioma
+  - pesquisa/lugares-guerra/ANATOMIA.md         # 8 vídeos assistidos, thumbs, hooks
+  - pesquisa/lugares-guerra/material/MATERIAL.md  # material livre por tema e licenças
+formula:
+  modelo: Where They Stood (lugar + "e hoje?") com a assinatura de documento do Civil War Fine Print
+  titulo: "Why Can't You Visit <lugar famoso>?"         # principal; variações em biblia/titulo.md
+  titulo_alternativo: "What's Still <under/inside/on> <lugar>?"
+  duracao_min: 16-20             # alvo 18
+  palavras: ~2.700 para 18 min (~150 palavras/min)
+  estrutura: "hoje (o portão fechado) → o documento-chave → o que aconteceu ali → por que fechou → o que ainda está lá → volta ao documento"
+cadencia: 2 longos/semana + 2-3 Shorts/semana no teste (3 longos em ~2 semanas); nunca template em massa
+voz:
+  motor: fish                    # en; amostra a gerar na fase 2 (≤ US$ 0,50): candidatas Adrian, Ethan, Slax, Voice DL (pesquisa/lugares-guerra/IDIOMA.md §6)
+  voz: null                      # decisão do Rodrigo
+  modelo: s2.1-pro
+  tom: narrador americano grave e calmo, documental, sem drama de trailer
+visual:
+  # Matéria-prima = foto/filme/documento REAL de domínio público (NARA, NHHC, DVIDS, USFWS, NPS, LoC, Commons por arquivo).
+  # Imagem gerada só na THUMB (e, raramente, um corte "SCHEMATIC" rotulado). Nada de 3D. Ver biblia/visual.md.
+  gerador: fal
+  modelo: fal-ai/nano-banana     # SÓ para a base da thumb; escolhido no teste de 12/11 (testes/ESTILO.md)
+  tamanho: landscape_16_9
+  parametros:
+    image_size: {width: 1536, height: 864}   # gpt-image-2 via fal; sem isto sai 1024x768 (4:3)
+  estilo_prompt: "Vibrant editorial illustration for a YouTube thumbnail, clean cutaway cross-section view, highly saturated colors: deep sky blue, rust orange earth, glowing bright cyan highlights on the hidden object, crisp outlines, simple bold shapes, high contrast, readable at small size, 16:9, no text, no letters, no numbers, no captions, no watermark, no flags with insignia, no swastikas or extremist insignia"
+  cores:
+    ciano: "#2BCEE2"
+    amarelo_texto: "#FDD505"
+    ferrugem: "#C8561E"
+    tinta: "#111418"
+    papel: "#EDE6D6"
+    grifo: "#FFE14D"
+render: runpod                   # tools/render_runpod.sh (decisão de 11/11/2026); VPS só stills e testes de segundos
+piloto:
+  - "Why Can't You Visit Midway Atoll?"     # youtube.videos id 30, canais/lugares-guerra-en/videos/001-midway

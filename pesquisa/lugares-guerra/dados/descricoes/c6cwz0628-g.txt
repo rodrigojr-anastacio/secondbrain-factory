@@ -1,0 +1,31 @@
+Right now, inside a hill in the middle of Germany, there's a rocket factory: two tunnels, each more than a mile long, with forty-six halls between them like the rungs of a ladder. This is where the Nazis built the V-2, the world's first long-range guided missile, with the forced labor of concentration camp prisoners. About 20,000 of the 60,000 people who passed through the Mittelbau-Dora camps didn't survive. The entrances were blown shut in 1947. Today a short stretch can be visited with a guide, and almost all of it stays closed.
+
+In this video: why the factory went into this hill; what the American soldiers found on April 11, 1945; the nine-day race to ship a hundred rockets' worth of parts out before the Soviets took over; the men who ran the factory and the rockets they built for the Moon; what divers found in the flooded halls; why the hill is still sealed; and the words the memorial itself uses about the tunnel.
+
+The 3D in this video is our reconstruction from Thuringia's 1-meter terrain model and the tunnel plan on OpenStreetMap; the flooded halls are drawn from the memorial's and the divers' own descriptions. Nobody can film the sealed part.
+
+🔔 Subscribe so you don't miss the next one 🔔
+
+Visiting: the Mittelbau-Dora Memorial, Nordhausen, Germany: https://www.dora.de/en/ (grounds and museum free; tunnel tours by guide only, book ahead)
+
+Sources:
+Mittelbau-Dora Memorial (dora.de): the tunnel system, the visitor tunnel, the memorial's own words on the tunnel
+Michael J. Neufeld, Smithsonian National Air and Space Museum: The Rocket and the Reich; interview, The National WWII Museum
+James P. Delgado: the Mittelwerk dive (Adventures of a Sea Hunter)
+Testimony of Franz Rosenbach, René Steenbeke, Aurio Pierro (via the Jewish Virtual Library / Nizkor); Sgt. Ragene Farris's account (JewishGen)
+Defense Media Network and v2rocket.com: Special Mission V-2; Wikipedia's articles on Mittelbau-Dora, the Mittelwerk, Wernher von Braun, Walter Dornberger, Arthur Rudolph, the Cinema Rex bombing, Sergei Korolev, Albrecht Weinberg
+dpa (November 2025): the father and son in the closed tunnels; European Design Awards 2025: the tunnel's redesign
+
+SOURCES & CREDITS
+Film: U.S. Army Signal Corps, War Department, U.S. Air Force, NASA and Universal Newsreel films, 1943-1969 (the U.S. Army's film of Dora, May 1945; captured German film of the A-4/V-2 tests; White Sands 1946-47; NASA's Apollo 11 films): public domain, via the U.S. National Archives, the Internet Archive and Wikimedia Commons.
+Footage of the memorial today (CC BY, creativecommons.org/licenses/by/3.0): Ciekawe Lokacje, "Niemiecki Obóz Zagłady Mittelbau-Dora #61" (https://www.youtube.com/watch?v=5kuZc_G11Vo); Włodek Gąsiewski, "Mittelwerk-Dora FABRYKA CIEMNOŚCI" (https://www.youtube.com/watch?v=HfRwnWJ-e2o).
+Photos: U.S. Army, NASA, Imperial War Museum (public domain), the Bundesarchiv (CC BY-SA 3.0 de), and Wikimedia Commons: public domain unless noted. Licensed under Creative Commons (thank you; each file's page is in the comments):
+CC BY 3.0 (creativecommons.org/licenses/by/3.0): Cor2701; Dguendel; Eckbert John (Eckie22); Recording Archaeology
+CC BY 4.0 (creativecommons.org/licenses/by/4.0): Ministry of Defence of the Russian Federation; mos.ru; Vintage Fan 5678; Музей космонавтики / Главархив Москвы (via mos.ru)
+CC BY-SA 2.0 (creativecommons.org/licenses/by-sa/2.0): Sage Ross
+CC BY-SA 3.0 (creativecommons.org/licenses/by-sa/3.0): Carsten Wiehe; Frank Vincentz; Gregory Varnum; Matthias Becker; P.H. Louw at Dutch Wikipedia; Tommy; Vincent van Zeijst
+CC BY-SA 3.0 de (creativecommons.org/licenses/by-sa/3.0/de): Bundesarchiv; Bundesarchiv / Friedrich Franz Bauer; Der Glindower; JesterWr; Jürgen Ludwig
+CC BY-SA 4.0 (creativecommons.org/licenses/by-sa/4.0): Alexey Bubnov; Badmanontour; Bent-Niklas Brandt; Beyond My Ken; Cani25; Gmbo 2013; Jiří Nedas; MaikeVará; Matthias Süßen; NiSaTi; Reinhard Kraasch; Sdkb; Stilfehler; Vincent Eisfeld
+3D: terrain (c) GDI-Th (2025), dl-de/by-2-0; the tunnel plan (c) OpenStreetMap contributors (ODbL); textures: Poly Haven (CC0). Maps: AWS Terrain Tiles; Natural Earth.
+Sound: Sonniss GDC 2023 Game Audio Bundle; Freesound CC0. Music: original, made for this channel.
+The 3D of the sealed tunnels (labelled 3D MODEL), the maps and the cards were made for this video.

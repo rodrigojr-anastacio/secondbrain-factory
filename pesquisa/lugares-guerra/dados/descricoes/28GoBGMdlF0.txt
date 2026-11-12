@@ -1,0 +1,34 @@
+Sixty feet under the water off Omaha Beach, there's an American tank. Its gun is still pointing at the beach. On the morning of D-Day, the Army drove it off a boat into the open sea on purpose, because it was built to swim. Twenty-nine of these swimming tanks went in together. Twenty-seven of them never reached the sand, and right behind them came the first wave, with a 19-year-old medic named Charles Shay.
+
+In this video, we follow the call two captains made over a radio, three miles out, and what it left on the bottom of the Channel: the swimming tanks, the warning nobody heeded, a troopship that 2,689 people got off alive, a whole harbor the sea took back in three days, a World War One battleship sunk on purpose, the one swimming tank the U.S. government sold for $50, and the sonar scan that found one of them still aiming at the beach. And what happened to the men who made that call, and to the medic who went back into the surf for the wounded.
+
+How we made this video: we wrote it from the U.S. Army's own histories of D-Day and the 2002 sonar survey of the sunken tanks. The 3D reconstructions of the swimming tanks, the seabed maps (drawn from real elevation and sea-depth data) and the sonar scan reconstruction were all built for this video. The archive film and photos are credited below.
+
+🔔 Subscribe so you don't miss the next one 🔔
+
+Sources:
+War Department Historical Division, Omaha Beachhead (1945)
+University of New Hampshire Center for Coastal & Ocean Mapping and the U.S. Navy (Naval History and Heritage Command), D-Day survey of Omaha Beach (2000-2002)
+French Ministry of Culture / DRASSM, Maritime archaeology of the Normandy landings
+American Battle Monuments Commission
+Alan D. Wiener, "The First Wave", American Heritage (1987)
+The National WWII Museum; Military Times Hall of Valor; The Citadel Memorial Europe; Fields of Honor database
+Exercise Tiger Memorial, Torcross; Swanage News; DiverNet
+Charles Shay: The Associated Press (2025); Task & Purpose (2022); Smithsonian's American Indian Magazine (2018); DVIDS, "The Healer" (2024); First Nations Development Institute
+D-Day 82 at the Normandy American Cemetery: Stars and Stripes (June 6, 2026)
+Footage of Charles Shay: U.S. Department of Veterans Affairs ("Charles Shay - Returning to the Beaches of Normandy", 2024) and U.S. Navy (D-Day 78th anniversary, 2022), via DVIDS. D-Day 82 (June 2026): AFN Europe and the U.S. Army, via DVIDS.
+
+SOURCES & CREDITS
+Archive film: U.S. Navy, U.S. Coast Guard and U.S. Army film of 1944 from the National Archives (via the Internet Archive), public domain. Modern footage: DVIDS (U.S. Department of Defense), public domain.
+Photos: Wikimedia Commons (public domain unless noted):
+- DD Floating Tank, June 1944 (14158275310).jpg - CC BY 2.0 - USMC Archives from Quantico, USA - https://commons.wikimedia.org/wiki/File:DD_Floating_Tank,_June_1944_(14158275310).jpg
+- Flickr photo 50035016862 by RussellHarryLee - CC BY 2.0 - https://www.flickr.com/photo.gne?id=50035016862
+- Memorial to soldiers killed near Fort Henry, Studland.jpg - CC BY 4.0 - Harry Bond - https://commons.wikimedia.org/wiki/File:Memorial_to_soldiers_killed_near_Fort_Henry,_Studland.jpg
+- Mulberry Arromanches beach.jpg - CC0 - Jebulon - https://commons.wikimedia.org/wiki/File:Mulberry_Arromanches_beach.jpg
+- Flickr photo 51387963386 by ABMC - CC0 1.0 - https://www.flickr.com/photo.gne?id=51387963386
+- Flickr photo 51063696641 by ABMC - CC0 1.0 - https://www.flickr.com/photo.gne?id=51063696641
+3D reconstructions built for this video in Blender. This work is based on "M4 Sherman" (https://sketchfab.com/3d-models/m4-sherman-8766b7d04637437e884c511f89126a98) by barking_dogo (https://sketchfab.com/barking_dogo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/); modified: weathered, sunk, fitted with the swimming tank's screen. Textures and sky: Poly Haven (CC0).
+Maps drawn for this video. Land relief: contains modified Copernicus DEM data (c) DLR e.V. 2010-2014 and (c) Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA. Sea depths: EMODnet Bathymetry Consortium, EMODnet Digital Bathymetry (DTM), CC BY 4.0.
+Diagrams drawn for this video.
+The sonar scan is a reconstruction: a multibeam survey simulated on our 3D wreck, following the 2002 survey's published description (University of New Hampshire CCOM / U.S. Navy).
+Thumbnail: an illustration.

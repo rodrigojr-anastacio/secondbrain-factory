@@ -1,0 +1,27 @@
+Right now, inside a mountain in Colorado, there's a city that's been waiting sixty years for World War Three. Fifteen steel buildings stand on giant steel springs, under almost two thousand feet of granite, behind two blast doors that weigh twenty-five tons each. Hundreds of people work inside it every day. And you're not allowed in.
+
+In this video, we follow the chain of reasons that keeps you out: the newspaper typo that turned the men who watch for nuclear missiles into Santa trackers, the night in 1979 when the mountain's own computers told America a Soviet attack had begun, the 46-cent chip that did it again seven months later, the movie that made a president ask "Could something like this really happen?", the morning the blast doors swung shut on September 11th, and why, after the military moved out of the mountain, it moved back in.
+
+How we made this video: we wrote it from declassified records on the 1979 and 1980 false alarms (the National Security Archive), a GAO report, and Space Force and Defense Department records. The 3D model of the mountain and the complex inside it was built for this video from public dimensions and USGS elevation data, and the maps and the reconstructed warning displays were drawn for it. The archive film and photos are credited below.
+
+🔔 Subscribe so you don't miss the next one 🔔
+
+Sources:
+The National Security Archive, Electronic Briefing Book No. 371, "The 3 A.M. Phone Call: False Warnings of Soviet Missile Attacks during 1979-80" (2012)
+Robert M. Gates, From the Shadows (1996)
+Fred Kaplan, Dark Territory: The Secret History of Cyber War (2016)
+U.S. Government Accountability Office, GAO-07-803R (2007)
+NSDD-145, National Policy on Telecommunications and Automated Information Systems Security (1984)
+Foreign Relations of the United States, 1977-1980, Volume IV
+Air & Space Forces Magazine, "Fifty Years of Mission in the Mountain" (2016)
+Air & Space Magazine (Smithsonian), "NORAD at 60" (2018)
+The Washington Post (2006); Defense News and the Associated Press (2015); The War Zone (2020)
+NPR StoryCorps (2014); The Gazette, Colorado Springs; Aviation Week; Westword
+U.S. Space Force and DVIDS: Cheyenne Mountain Space Force Station, the Missile Warning Center (2026), NORAD Tracks Santa (2025)
+
+SOURCES & CREDITS
+Footage and photos: DVIDS (U.S. Department of Defense) and U.S. Air Force / Department of Defense films via the Internet Archive, public domain. Photos: Wikimedia Commons (public domain unless noted), including the National Archives and the Ronald Reagan Presidential Library.
+Documents: The National Security Archive (Electronic Briefing Book No. 371), GAO-07-803R, NSDD-145.
+The 3D model of Cheyenne Mountain and the complex (labelled SCHEMATIC on screen) was built for this video in Blender from public dimensions. Terrain: USGS 3D Elevation Program and USGS imagery (The National Map), public domain. Rock textures: Poly Haven (CC0).
+Warning and counter displays labelled RECONSTRUCTION were drawn for this video in the style of the 1984 Air Force film's real displays. Maps drawn for this video.
+Thumbnail: an illustration.

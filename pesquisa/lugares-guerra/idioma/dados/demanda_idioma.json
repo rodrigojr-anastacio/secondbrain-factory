@@ -1,0 +1,992 @@
+{
+ "en": {
+  "temas": {
+   "Iwo Jima": {
+    "n": 33,
+    "top1": 6134097,
+    "top1_t": "Terrible Price of Victory -  Battle of Iwo Jima (WW2 Documentary)",
+    "top10_med": 1430244,
+    "gt100k_2026": 18,
+    "gt100k": 32,
+    "n2026": 18
+   },
+   "Pearl Harbor": {
+    "n": 34,
+    "top1": 31916665,
+    "top1_t": "Pearl Harbor Suite (Main Theme)",
+    "top10_med": 5480647,
+    "gt100k_2026": 17,
+    "gt100k": 30,
+    "n2026": 18
+   },
+   "Omaha Beach Normandy": {
+    "n": 52,
+    "top1": 12924744,
+    "top1_t": "The Battle For Omaha Beach - WW2 stop motion",
+    "top10_med": 2246911,
+    "gt100k_2026": 18,
+    "gt100k": 32,
+    "n2026": 32
+   },
+   "Hiroshima": {
+    "n": 29,
+    "top1": 132340839,
+    "top1_t": "Hiroshima: Dropping The Bomb - Hiroshima - BBC",
+    "top10_med": 1064295,
+    "gt100k_2026": 11,
+    "gt100k": 25,
+    "n2026": 14
+   },
+   "Area 51": {
+    "n": 19,
+    "top1": 205878859,
+    "top1_t": "I Spent 24 Hours Straight At Area 51",
+    "top10_med": 4545927,
+    "gt100k_2026": 11,
+    "gt100k": 19,
+    "n2026": 11
+   }
+  },
+  "formula": {
+   "n": 22,
+   "n_clones_desde_0927": 20,
+   "mediana_clones": 54,
+   "max_clone": 4535929,
+   "canais_clones": 18,
+   "top_2026": [
+    [
+     4535929,
+     "2026-10-04",
+     "Why Can't You Visit Iwo Jima?",
+     "Where They Stood"
+    ],
+    [
+     340795,
+     "2026-10-22",
+     "What's Still Under the Water at Omaha Beach?",
+     "Where They Stood"
+    ],
+    [
+     88694,
+     "2026-05-02",
+     "Inside the Forgotten German Bunkers of Omaha Beach — What's Still Ther",
+     "WW2 Wayfinder"
+    ],
+    [
+     5833,
+     "2026-11-09",
+     "If You Drained Pearl Harbor, This Is What's Still on the Bottom",
+     "Godwin Bassey"
+    ]
+   ],
+   "clones_ex": [
+    [
+     4535929,
+     "2026-10-04",
+     "Why Can't You Visit Iwo Jima?",
+     "Where They Stood"
+    ],
+    [
+     340795,
+     "2026-10-22",
+     "What's Still Under the Water at Omaha Beach?",
+     "Where They Stood"
+    ],
+    [
+     5833,
+     "2026-11-09",
+     "If You Drained Pearl Harbor, This Is What's Still on the Bottom",
+     "Godwin Bassey"
+    ],
+    [
+     910,
+     "2026-11-03",
+     "Why Can't You Visit Iwo Jima?",
+     "WW2 Sitrep"
+    ]
+   ]
+  },
+  "resumo": {
+   "mediana_top10_5temas": 2246911,
+   "soma_gt100k_2026": 75,
+   "soma_gt100k": 138,
+   "n_videos": 167
+  },
+  "local": {
+   "n": 83,
+   "top10_med": 2953824,
+   "gt100k_2026": 7,
+   "top3": [
+    [
+     28522730,
+     "2015-04-30",
+     "Vietnam War, 1970: CBS camera rolls as platoon comes under fire",
+     "CBS Evening News"
+    ],
+    [
+     16585957,
+     "2016-03-11",
+     "Last Witness to President Abraham Lincoln Assassination I've Got A Sec",
+     "HistoryFlicks4u"
+    ],
+    [
+     5188972,
+     "2019-06-27",
+     "Gettysburg: Animated Battle Map",
+     "American Battlefield Trust"
+    ]
+   ]
+  }
+ },
+ "es": {
+  "temas": {
+   "Iwo Jima": {
+    "n": 17,
+    "top1": 505864,
+    "top1_t": "La Brutal Batalla de Iwo Jima 1945 | La Sangrienta Trampa de Kuribayas",
+    "top10_med": 155214,
+    "gt100k_2026": 5,
+    "gt100k": 8,
+    "n2026": 7
+   },
+   "Pearl Harbor": {
+    "n": 10,
+    "top1": 3403119,
+    "top1_t": "FSO - Pearl Harbor - \"Suite\" (Hans Zimmer)",
+    "top10_med": 447733,
+    "gt100k_2026": 3,
+    "gt100k": 9,
+    "n2026": 4
+   },
+   "Playa Omaha Normandía": {
+    "n": 27,
+    "top1": 5718239,
+    "top1_t": "De Normandía a París: Los 100 días del Día D | SLICE Iberia | DOCUMENT",
+    "top10_med": 1126939,
+    "gt100k_2026": 5,
+    "gt100k": 18,
+    "n2026": 7
+   },
+   "Hiroshima": {
+    "n": 18,
+    "top1": 14251037,
+    "top1_t": "Visitando HIROSHIMA, 73 años después de la bomba atómica",
+    "top10_med": 1533384,
+    "gt100k_2026": 3,
+    "gt100k": 15,
+    "n2026": 3
+   },
+   "Área 51": {
+    "n": 21,
+    "top1": 24657156,
+    "top1_t": "Logré Enseñarles la Verdadera Área 51",
+    "top10_med": 2595038,
+    "gt100k_2026": 6,
+    "gt100k": 19,
+    "n2026": 6
+   }
+  },
+  "formula": {
+   "n": 4,
+   "n_clones_desde_0927": 3,
+   "mediana_clones": 74,
+   "max_clone": 115,
+   "canais_clones": 3,
+   "top_2026": [
+    [
+     115,
+     "2026-10-25",
+     "¿Por qué CASI NADIE puede pisar IWO JIMA?",
+     "El Origen del Presente"
+    ],
+    [
+     74,
+     "2026-11-07",
+     "¿Por qué no puedes visitar Iwo Jima?",
+     "Lo Que Aún Queda X"
+    ],
+    [
+     58,
+     "2026-11-11",
+     "IWO JIMA:La isla maldita donde todavía descansan miles de soldados de ",
+     "Actualidadmilitar"
+    ]
+   ],
+   "clones_ex": [
+    [
+     115,
+     "2026-10-25",
+     "¿Por qué CASI NADIE puede pisar IWO JIMA?",
+     "El Origen del Presente"
+    ],
+    [
+     74,
+     "2026-11-07",
+     "¿Por qué no puedes visitar Iwo Jima?",
+     "Lo Que Aún Queda X"
+    ],
+    [
+     58,
+     "2026-11-11",
+     "IWO JIMA:La isla maldita donde todavía descansan miles de soldados de ",
+     "Actualidadmilitar"
+    ]
+   ]
+  },
+  "resumo": {
+   "mediana_top10_5temas": 1126939,
+   "soma_gt100k_2026": 22,
+   "soma_gt100k": 69,
+   "n_videos": 93
+  },
+  "local": {
+   "n": 71,
+   "top10_med": 1257137,
+   "gt100k_2026": 6,
+   "top3": [
+    [
+     2257030,
+     "2016-11-21",
+     "LAS HUELLAS DE LA GUERRA DEL CHACO - PRIMERA PARTE",
+     "MinTrabajoBol"
+    ],
+    [
+     1526075,
+     "2025-09-21",
+     "La Ciudad EUROPEA de la que NADIE HABLA | En SHOCK y en SOLITARIO",
+     "Kibara"
+    ],
+    [
+     1486244,
+     "2023-04-05",
+     "Acá se dió el COMBATE más SANGIR3NTO de la GUERRA de MALVINAS",
+     "LESA"
+    ]
+   ]
+  }
+ },
+ "pt": {
+  "temas": {
+   "Iwo Jima": {
+    "n": 10,
+    "top1": 613794,
+    "top1_t": "CENAS REAIS! A BATALHA DE IWO JIMA - INFERNO NO PACÍFICO (DOCUMENTÁRIO",
+    "top10_med": 87191,
+    "gt100k_2026": 1,
+    "gt100k": 4,
+    "n2026": 4
+   },
+   "Pearl Harbor": {
+    "n": 12,
+    "top1": 1332708,
+    "top1_t": "IMAGENS REAIS! PEARL HARBOR - O ATAQUE JAPONÊS EM 1941",
+    "top10_med": 415522,
+    "gt100k_2026": 0,
+    "gt100k": 9,
+    "n2026": 1
+   },
+   "Praia de Omaha Normandia": {
+    "n": 25,
+    "top1": 1592836,
+    "top1_t": "CENAS REAIS DE OMAHA BEACH | 4K COLORIDO",
+    "top10_med": 579125,
+    "gt100k_2026": 3,
+    "gt100k": 10,
+    "n2026": 5
+   },
+   "Hiroshima": {
+    "n": 19,
+    "top1": 2539584,
+    "top1_t": "HIROSHIMA E NAGASAKI: A HISTÓRIA NAO CONTADA DO MAIOR MASSACRE NUCLEAR",
+    "top10_med": 1162401,
+    "gt100k_2026": 5,
+    "gt100k": 14,
+    "n2026": 7
+   },
+   "Área 51": {
+    "n": 26,
+    "top1": 16177616,
+    "top1_t": "AREA 51 - 10 COISAS QUE VOCÊ PRECISA SABER !!",
+    "top10_med": 1878676,
+    "gt100k_2026": 7,
+    "gt100k": 19,
+    "n2026": 13
+   }
+  },
+  "formula": {
+   "n": 4,
+   "n_clones_desde_0927": 4,
+   "mediana_clones": 451,
+   "max_clone": 3601,
+   "canais_clones": 4,
+   "top_2026": [
+    [
+     3601,
+     "2026-10-31",
+     "Por que ninguém pode visitar o outro navio afundado de Pearl Harbor",
+     "Colossos do Mar"
+    ],
+    [
+     878,
+     "2026-10-08",
+     "Por que ninguém nunca resgatou o encouraçado de Pearl Harbor",
+     "Fantasmas do Oceano"
+    ],
+    [
+     24,
+     "2026-10-29",
+     "Por que quase ninguém pode visitar Iwo Jima?",
+     "GuerraDocumentada"
+    ],
+    [
+     6,
+     "2026-11-10",
+     "Iwo Jima: O Que Ainda Está Escondido na Ilha Onde Milhares Morreram?",
+     "Arquivo Oculto X"
+    ]
+   ],
+   "clones_ex": [
+    [
+     3601,
+     "2026-10-31",
+     "Por que ninguém pode visitar o outro navio afundado de Pearl Harbor",
+     "Colossos do Mar"
+    ],
+    [
+     878,
+     "2026-10-08",
+     "Por que ninguém nunca resgatou o encouraçado de Pearl Harbor",
+     "Fantasmas do Oceano"
+    ],
+    [
+     24,
+     "2026-10-29",
+     "Por que quase ninguém pode visitar Iwo Jima?",
+     "GuerraDocumentada"
+    ],
+    [
+     6,
+     "2026-11-10",
+     "Iwo Jima: O Que Ainda Está Escondido na Ilha Onde Milhares Morreram?",
+     "Arquivo Oculto X"
+    ]
+   ]
+  },
+  "resumo": {
+   "mediana_top10_5temas": 579125,
+   "soma_gt100k_2026": 16,
+   "soma_gt100k": 56,
+   "n_videos": 92
+  },
+  "local": {
+   "n": 82,
+   "top10_med": 1377416,
+   "gt100k_2026": 4,
+   "top3": [
+    [
+     9038033,
+     "2018-08-15",
+     "A Guerra do Paraguai",
+     "DGP Mundo"
+    ],
+    [
+     2639564,
+     "2015-07-28",
+     "Guerra do Paraguai - A nossa Grande Guerra",
+     "Marcio NETTO"
+    ],
+    [
+     2082416,
+     "2022-03-13",
+     "A COBRA FUMOU: a história completa da Força Expedicionária Brasileira ",
+     "Sala de Guerra"
+    ]
+   ]
+  }
+ },
+ "fr": {
+  "temas": {
+   "Iwo Jima": {
+    "n": 7,
+    "top1": 328248,
+    "top1_t": "IWO JIMA, L’île sanglante (1945)",
+    "top10_med": 14281,
+    "gt100k_2026": 0,
+    "gt100k": 2,
+    "n2026": 3
+   },
+   "Pearl Harbor": {
+    "n": 10,
+    "top1": 1722533,
+    "top1_t": "Pourquoi le Japon a-t-il attaqué PEARL HARBOR ?",
+    "top10_med": 75031,
+    "gt100k_2026": 2,
+    "gt100k": 5,
+    "n2026": 5
+   },
+   "plage d'Omaha Normandie": {
+    "n": 18,
+    "top1": 1276586,
+    "top1_t": "Le débarquement chaotique de la plage d'Omaha",
+    "top10_med": 56611,
+    "gt100k_2026": 0,
+    "gt100k": 4,
+    "n2026": 4
+   },
+   "Hiroshima": {
+    "n": 17,
+    "top1": 29095036,
+    "top1_t": "Hiroshima : Des Images Rares d’un Monde Anéanti",
+    "top10_med": 1364986,
+    "gt100k_2026": 2,
+    "gt100k": 11,
+    "n2026": 3
+   },
+   "Zone 51": {
+    "n": 1,
+    "top1": 4123,
+    "top1_t": "AREA 51 : CE QUE LA CIA A OFFICIELLEMENT DÉCLASSIFIÉ",
+    "top10_med": 4123,
+    "gt100k_2026": 0,
+    "gt100k": 0,
+    "n2026": 1
+   }
+  },
+  "formula": {
+   "n": 0,
+   "n_clones_desde_0927": 0,
+   "mediana_clones": 0,
+   "max_clone": 0,
+   "canais_clones": 0,
+   "top_2026": [],
+   "clones_ex": []
+  },
+  "resumo": {
+   "mediana_top10_5temas": 56611,
+   "soma_gt100k_2026": 4,
+   "soma_gt100k": 22,
+   "n_videos": 53
+  },
+  "local": {
+   "n": 56,
+   "top10_med": 380294,
+   "gt100k_2026": 5,
+   "top3": [
+    [
+     2529709,
+     "2016-03-17",
+     "Que reste t-il de la bataille de Verdun ?",
+     "Nicolas CHATEAUNEUF"
+    ],
+    [
+     1075255,
+     "2023-09-15",
+     "Les Héros de Verdun - Documentaire sur la bataille de Verdun",
+     "Rivenzi"
+    ],
+    [
+     880874,
+     "2022-06-27",
+     "La citadelle imprenable de Verdun - Première Guerre mondiale",
+     "Nota Bene"
+    ]
+   ]
+  }
+ },
+ "de": {
+  "temas": {
+   "Iwo Jima": {
+    "n": 5,
+    "top1": 34816,
+    "top1_t": "Warum 450 Schiffe Iwo Jima nicht in fünf Tagen erobern konnten",
+    "top10_med": 989,
+    "gt100k_2026": 0,
+    "gt100k": 0,
+    "n2026": 2
+   },
+   "Pearl Harbor": {
+    "n": 1,
+    "top1": 19832700,
+    "top1_t": "Pearl Harbor-The Battle",
+    "top10_med": 19832700,
+    "gt100k_2026": 0,
+    "gt100k": 1,
+    "n2026": 0
+   },
+   "Omaha Beach Normandie": {
+    "n": 20,
+    "top1": 1228183,
+    "top1_t": "5 überraschende Fakten über D-Day | Terra X",
+    "top10_med": 52219,
+    "gt100k_2026": 1,
+    "gt100k": 4,
+    "n2026": 8
+   },
+   "Hiroshima": {
+    "n": 10,
+    "top1": 1688014,
+    "top1_t": "Hiroshima: Warum wurde die Atombombe abgeworfen? | Terra X",
+    "top10_med": 188450,
+    "gt100k_2026": 2,
+    "gt100k": 6,
+    "n2026": 5
+   },
+   "Area 51": {
+    "n": 1,
+    "top1": 920158,
+    "top1_t": "Roswell und Area 51: Was steckt hinter der UFO-Legende? | ZDFinfo Doku",
+    "top10_med": 920158,
+    "gt100k_2026": 0,
+    "gt100k": 1,
+    "n2026": 0
+   }
+  },
+  "formula": {
+   "n": 1,
+   "n_clones_desde_0927": 1,
+   "mediana_clones": 111,
+   "max_clone": 111,
+   "canais_clones": 1,
+   "top_2026": [
+    [
+     111,
+     "2026-10-22",
+     "Warum darf niemand nach Iwo Jima?",
+     "Cain Brown"
+    ]
+   ],
+   "clones_ex": [
+    [
+     111,
+     "2026-10-22",
+     "Warum darf niemand nach Iwo Jima?",
+     "Cain Brown"
+    ]
+   ]
+  },
+  "resumo": {
+   "mediana_top10_5temas": 188450,
+   "soma_gt100k_2026": 3,
+   "soma_gt100k": 12,
+   "n_videos": 37
+  },
+  "local": {
+   "n": 83,
+   "top10_med": 1323116,
+   "gt100k_2026": 3,
+   "top3": [
+    [
+     4657100,
+     "2020-02-29",
+     "Der Westwall - vom NS-Bollwerk zum grünen Band | SWR Doku",
+     "SWR Doku"
+    ],
+    [
+     2068867,
+     "2025-12-04",
+     "Ich Erkunde Verlassene Orte aus dem 2. Weltkrieg",
+     "Fabian Baggeler"
+    ],
+    [
+     1579889,
+     "2024-09-15",
+     "Alpenwall - Mussolinis geheime Bunker gegen Hitler | Terra X",
+     "Terra X History"
+    ]
+   ]
+  }
+ },
+ "it": {
+  "temas": {
+   "Iwo Jima": {
+    "n": 5,
+    "top1": 37896,
+    "top1_t": "Iwo Jima: La battaglia più sanguinosa della Seconda Guerra Mondiale",
+    "top10_med": 11501,
+    "gt100k_2026": 0,
+    "gt100k": 0,
+    "n2026": 3
+   },
+   "Pearl Harbor": {
+    "n": 10,
+    "top1": 161236,
+    "top1_t": "PEARL HARBOR: perché il GIAPPONE ha attaccato gli STATI UNITI?",
+    "top10_med": 47963,
+    "gt100k_2026": 1,
+    "gt100k": 2,
+    "n2026": 3
+   },
+   "spiaggia di Omaha Normandia": {
+    "n": 19,
+    "top1": 575794,
+    "top1_t": "Come si SBARCA in NORMANDIA? | Salvate il soldato Ryan e Band of Broth",
+    "top10_med": 37151,
+    "gt100k_2026": 1,
+    "gt100k": 2,
+    "n2026": 4
+   },
+   "Hiroshima": {
+    "n": 13,
+    "top1": 1040173,
+    "top1_t": "Le due bombe atomiche che hanno cambiato il mondo: la ricostruzione 3D",
+    "top10_med": 124031,
+    "gt100k_2026": 1,
+    "gt100k": 6,
+    "n2026": 5
+   },
+   "Area 51": {
+    "n": 10,
+    "top1": 276934,
+    "top1_t": "Tutta la verità sull'AREA 51",
+    "top10_med": 128105,
+    "gt100k_2026": 2,
+    "gt100k": 5,
+    "n2026": 4
+   }
+  },
+  "formula": {
+   "n": 0,
+   "n_clones_desde_0927": 0,
+   "mediana_clones": 0,
+   "max_clone": 0,
+   "canais_clones": 0,
+   "top_2026": [],
+   "clones_ex": []
+  },
+  "resumo": {
+   "mediana_top10_5temas": 47963,
+   "soma_gt100k_2026": 5,
+   "soma_gt100k": 15,
+   "n_videos": 57
+  },
+  "local": {
+   "n": 22,
+   "top10_med": 37081,
+   "gt100k_2026": 0,
+   "top3": [
+    [
+     301548,
+     "2019-06-30",
+     "Assalto alla linea Gotica",
+     "Stefano Ticci"
+    ],
+    [
+     202830,
+     "2015-06-07",
+     "Linea Gotica film completo gothic line film 1944",
+     "#mario pratesi Videomaker  "
+    ],
+    [
+     155611,
+     "2023-03-26",
+     "Linea Gotica, l'ultimo caduto USA ritrovato sul campo di battaglia del",
+     "ArchaeoReporter"
+    ]
+   ]
+  }
+ },
+ "ru": {
+  "temas": {
+   "Иводзима": {
+    "n": 24,
+    "top1": 250114,
+    "top1_t": "Discovery. Битва за Иводзиму. Ад на земле /  The fight for Iwo Jima (2",
+    "top10_med": 11530,
+    "gt100k_2026": 0,
+    "gt100k": 1,
+    "n2026": 9
+   },
+   "Перл-Харбор": {
+    "n": 20,
+    "top1": 7437799,
+    "top1_t": "Перл Харбор Wishmaster HD 1080 / Nightwish Wishmaster Pearl Harbor HD ",
+    "top10_med": 1064652,
+    "gt100k_2026": 3,
+    "gt100k": 15,
+    "n2026": 6
+   },
+   "Нормандия Омаха": {
+    "n": 6,
+    "top1": 10762,
+    "top1_t": "Нормандия: Пуэнт-дю-Ок, высадка на Омаха-Бич | Normandy: Pointe du Hoc",
+    "top10_med": 846,
+    "gt100k_2026": 0,
+    "gt100k": 0,
+    "n2026": 0
+   },
+   "Хиросима": {
+    "n": 21,
+    "top1": 6180330,
+    "top1_t": "Хиросима и Нагасаки: истории выживших. Япония. Мир наизнанку - 11 сери",
+    "top10_med": 2231013,
+    "gt100k_2026": 1,
+    "gt100k": 16,
+    "n2026": 1
+   },
+   "Зона 51": {
+    "n": 22,
+    "top1": 2877827,
+    "top1_t": "ЗОНА 51: Что находится внутри самой секретной базы США / @chtivomag",
+    "top10_med": 300694,
+    "gt100k_2026": 2,
+    "gt100k": 6,
+    "n2026": 8
+   }
+  },
+  "formula": {
+   "n": 2,
+   "n_clones_desde_0927": 0,
+   "mediana_clones": 0,
+   "max_clone": 0,
+   "canais_clones": 0,
+   "top_2026": [
+    [
+     56581,
+     "2026-02-23",
+     "Почему ЗОНА 51 до сих пор ЗАСЕКРЕЧЕНА? | История Для Сна",
+     "Эхо Земли"
+    ],
+    [
+     351,
+     "2026-03-27",
+     "Иводзима: Почему остров до сих пор засекречен до 2027 года и что скрыв",
+     "ХРОНИКИ ЗАБЫТОГО"
+    ]
+   ],
+   "clones_ex": []
+  },
+  "resumo": {
+   "mediana_top10_5temas": 300694,
+   "soma_gt100k_2026": 6,
+   "soma_gt100k": 38,
+   "n_videos": 93
+  },
+  "local": {
+   "n": 0,
+   "top10_med": 0,
+   "gt100k_2026": 0,
+   "top3": []
+  }
+ },
+ "pl": {
+  "temas": {
+   "Iwo Jima": {
+    "n": 4,
+    "top1": 173446,
+    "top1_t": "Iwo Jima. Bitwa o kopiec termitów.",
+    "top10_med": 28747,
+    "gt100k_2026": 0,
+    "gt100k": 1,
+    "n2026": 1
+   },
+   "Pearl Harbor": {
+    "n": 0,
+    "top1": 0,
+    "top1_t": "",
+    "top10_med": 0,
+    "gt100k_2026": 0,
+    "gt100k": 0,
+    "n2026": 0
+   },
+   "Normandia Omaha": {
+    "n": 5,
+    "top1": 465573,
+    "top1_t": "Jak niemieccy żołnierze wspominali obronę plaży Omaha",
+    "top10_med": 1058,
+    "gt100k_2026": 1,
+    "gt100k": 2,
+    "n2026": 3
+   },
+   "Hiroszima": {
+    "n": 14,
+    "top1": 1808748,
+    "top1_t": "Atomowa apokalipsa - Hiroszima i Nagasaki. Historia Bez Cenzury",
+    "top10_med": 112558,
+    "gt100k_2026": 1,
+    "gt100k": 5,
+    "n2026": 5
+   },
+   "Strefa 51": {
+    "n": 11,
+    "top1": 1808368,
+    "top1_t": "Strefa 51: tajne archiwa CIA – poznaj pilnie strzeżone programy wojsko",
+    "top10_med": 69110,
+    "gt100k_2026": 1,
+    "gt100k": 4,
+    "n2026": 3
+   }
+  },
+  "formula": {
+   "n": 1,
+   "n_clones_desde_0927": 0,
+   "mediana_clones": 0,
+   "max_clone": 0,
+   "canais_clones": 0,
+   "top_2026": [
+    [
+     87135,
+     "2026-04-13",
+     "Dlaczego nie było amerykańskich lotniskowców podczas ataku na Pearl Ha",
+     "Podcast Wojenne Historie"
+    ]
+   ],
+   "clones_ex": []
+  },
+  "resumo": {
+   "mediana_top10_5temas": 48928,
+   "soma_gt100k_2026": 3,
+   "soma_gt100k": 12,
+   "n_videos": 34
+  },
+  "local": {
+   "n": 0,
+   "top10_med": 0,
+   "gt100k_2026": 0,
+   "top3": []
+  }
+ },
+ "ja": {
+  "temas": {
+   "硫黄島": {
+    "n": 42,
+    "top1": 2462307,
+    "top1_t": "【硫黄島に上陸】アメリカ軍を最も苦しめた地獄の戦場を現地からわかりやすく解説",
+    "top10_med": 1271546,
+    "gt100k_2026": 13,
+    "gt100k": 28,
+    "n2026": 22
+   },
+   "真珠湾": {
+    "n": 40,
+    "top1": 2977498,
+    "top1_t": "真珠湾攻撃78年目の真実 ～日米ソの壮絶スパイ戦争【シリーズ終戦特集①】",
+    "top10_med": 929146,
+    "gt100k_2026": 9,
+    "gt100k": 21,
+    "n2026": 21
+   },
+   "ノルマンディー オマハビーチ": {
+    "n": 13,
+    "top1": 1587220,
+    "top1_t": "【CoD WW2】#1 ノルマンディー上陸作戦、史上最大の上陸作戦【Call of Duty World War Ⅱ・第二次世界大戦】",
+    "top10_med": 643278,
+    "gt100k_2026": 1,
+    "gt100k": 8,
+    "n2026": 4
+   },
+   "広島 原爆": {
+    "n": 42,
+    "top1": 5307444,
+    "top1_t": "💣💥 爆発の大きさ比較 💥💣 もし広島原爆リトルボーイが東京に落ちたら",
+    "top10_med": 1611683,
+    "gt100k_2026": 19,
+    "gt100k": 34,
+    "n2026": 25
+   },
+   "エリア51": {
+    "n": 21,
+    "top1": 2454763,
+    "top1_t": "エリア51で働いた男、ボブ・ラザールとは？！",
+    "top10_med": 475499,
+    "gt100k_2026": 3,
+    "gt100k": 8,
+    "n2026": 13
+   }
+  },
+  "formula": {
+   "n": 5,
+   "n_clones_desde_0927": 0,
+   "mediana_clones": 0,
+   "max_clone": 0,
+   "canais_clones": 0,
+   "top_2026": [
+    [
+     94525,
+     "2026-08-26",
+     "広島原爆の100倍を宇宙で爆発させた。世界初の通信衛星が破壊され64年後の今も脅威が続く史上最大の宇宙核実験【ゆっくり解説】",
+     "ゆっくり事故検証"
+    ],
+    [
+     69573,
+     "2026-08-06",
+     "「弟が真っ黒になって死んでた」　原爆の爆心地“半径500m以内”で被爆　”最後の生存者”の90歳男性が語るあの日の光景　染色体の一部が欠損　",
+     "カンテレNEWS"
+    ]
+   ],
+   "clones_ex": []
+  },
+  "resumo": {
+   "mediana_top10_5temas": 929146,
+   "soma_gt100k_2026": 45,
+   "soma_gt100k": 99,
+   "n_videos": 158
+  },
+  "local": {
+   "n": 0,
+   "top10_med": 0,
+   "gt100k_2026": 0,
+   "top3": []
+  }
+ },
+ "tr": {
+  "temas": {
+   "Iwo Jima": {
+    "n": 2,
+    "top1": 315156,
+    "top1_t": "Iwo Jima Muharebesi (1945) || 2.DÜNYA SAVAŞI || DFT Tarih Belgesel",
+    "top10_med": 160064,
+    "gt100k_2026": 0,
+    "gt100k": 1,
+    "n2026": 0
+   },
+   "Pearl Harbor": {
+    "n": 0,
+    "top1": 0,
+    "top1_t": "",
+    "top10_med": 0,
+    "gt100k_2026": 0,
+    "gt100k": 0,
+    "n2026": 0
+   },
+   "Normandiya Omaha": {
+    "n": 20,
+    "top1": 546965,
+    "top1_t": "Normandiya Çıkarması  || 2.Dünya Savaşı Dönüm Noktası",
+    "top10_med": 5477,
+    "gt100k_2026": 0,
+    "gt100k": 2,
+    "n2026": 9
+   },
+   "Hiroşima": {
+    "n": 0,
+    "top1": 0,
+    "top1_t": "",
+    "top10_med": 0,
+    "gt100k_2026": 0,
+    "gt100k": 0,
+    "n2026": 0
+   }
+  },
+  "formula": {
+   "n": 0,
+   "n_clones_desde_0927": 0,
+   "mediana_clones": 0,
+   "max_clone": 0,
+   "canais_clones": 0,
+   "top_2026": [],
+   "clones_ex": []
+  },
+  "resumo": {
+   "mediana_top10_5temas": 82770,
+   "soma_gt100k_2026": 0,
+   "soma_gt100k": 3,
+   "n_videos": 22
+  },
+  "local": {
+   "n": 0,
+   "top10_med": 0,
+   "gt100k_2026": 0,
+   "top3": []
+  }
+ }
+}
