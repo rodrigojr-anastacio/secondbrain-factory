@@ -17,7 +17,7 @@ from _paths import TOOLS, TOKENS
 from db import conectar
 from report import creds_for
 
-PADRAO = ["historia-ptbr", "dossie-es", "em-relevo", "lotr-fr"]
+PADRAO = ["historia-ptbr", "dossie-es", "em-relevo", "lugares-guerra-en", "lotr-fr"]
 PRIVACIDADE = {}
 RODADA = dt.datetime.now(dt.timezone.utc)
 REL = os.path.expanduser("~/workspace/relatorios/metricas")
