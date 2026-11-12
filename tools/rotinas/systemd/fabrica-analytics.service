@@ -1,0 +1,9 @@
+[Unit]
+Description=Fábrica YouTube — métricas completas (Analytics + Reporting API), sem IA e sem Telegram
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/workspace/fabrica-youtube/tools
+ExecStart=%h/workspace/fabrica-youtube/tools/.venv/bin/python analytics_completo.py
+TimeoutStartSec=1h

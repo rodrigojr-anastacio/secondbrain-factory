@@ -20,7 +20,8 @@ fabrica-youtube/
 │   ├── revisar-metricas.md
 │   └── novo-canal.md    ← avaliar nicho e montar canal novo (skill novo-canal)
 ├── tools/               ← comandos determinísticos (Python em tools/.venv)
-│   ├── report.py  métricas e retenção (YouTube Data + Analytics API; sem CTR, que só existe no Studio)
+│   ├── report.py  métricas e retenção (YouTube Data + Analytics API). Impressões/CTR vêm pela Reporting API (`reporting.py`, 1–2 dias de atraso; tempo real só no Studio)
+│   ├── analytics_completo.py  tudo da Analytics API por vídeo/dia (retenção, tráfego e detalhe, público) → `youtube.analytics_*`; relatório em `~/workspace/relatorios/metricas/`; timer a cada 3 dias
 │   ├── trends.py  garimpo de canais novos com tração
 │   ├── keywords.py palavras-chave em alta (autocomplete via WARP + validação ≤ 2.500 un.) → youtube.palavras_chave
 │   ├── watch.py   "assiste" vídeos: hook transcrito, frames, ritmo, anúncios (via WARP)

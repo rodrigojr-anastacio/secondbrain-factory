@@ -6,6 +6,7 @@
 | métricas | `fabrica-metricas.timer` (seg 08:15) | `metricas.sh` | relatório semanal por canal, custos, 3 ajustes por canal, Hipóteses confirmadas/derrubadas |
 | tendências | `fabrica-tendencias.timer` (seg e qui 09:30) | `tendencias.sh` | garimpo (`playbooks/garimpo-tendencias.md`): trends.py, watch.py, 3 fórmulas, INVESTIR/TESTAR/DESCARTAR |
 | palavras-chave | `fabrica-palavras-chave.timer` (qua 09:30) | `palavras-chave.sh` | `playbooks/palavras-chave.md`: keywords.py (autocomplete via WARP + 20 termos validados, ≤ 2.500 un. de cota) → top 5 temas por canal, padrões de título, até 3 ideias de canal novo. Só sugere |
+| analytics completo | `fabrica-analytics.timer` (dias 1,4,7… do mês, 07:10; pedido do Rodrigo: a cada 3 dias) | `../analytics_completo.py` | tudo da Analytics API por canal/vídeo desde o 1º vídeo (dia, retenção, origem e detalhe de tráfego, público, receita se houver) + baixa a Reporting API (impressões/CTR) → `youtube.analytics_*`/`alcance_diario`; relatório em `~/workspace/relatorios/metricas/`. Sem IA, sem Telegram. Na mão: `systemctl --user start fabrica-analytics.service` |
 
 ## Como funcionam `metricas.sh`, `tendencias.sh` e `palavras-chave.sh`
 - Os três chamam `_rotina_claude.sh <rotina>`, que monta o prompt de `prompts/<rotina>.md` (troca `{{DATA}}`, `{{MODO}}`, `{{RELATORIO}}`, `{{RESUMO}}`) e roda `tools/claude_run.sh --etapa <rotina>` (sem `--video`, modelo sonnet, trava anti-duplicação e registro em `youtube.execucoes_claude`; `--permission-mode bypassPermissions`).
@@ -20,7 +21,7 @@ Os unit files ficam em `systemd/` (versionados) e são symlinks em `~/.config/sy
 cd ~/workspace/fabrica-youtube/tools/rotinas/systemd
 for f in fabrica-*; do ln -sf "$PWD/$f" ~/.config/systemd/user/$f; done
 systemctl --user daemon-reload
-systemctl --user enable --now fabrica-metricas.timer fabrica-tendencias.timer fabrica-palavras-chave.timer
+systemctl --user enable --now fabrica-analytics.timer fabrica-metricas.timer fabrica-tendencias.timer fabrica-palavras-chave.timer
 ```
 
 ## Testes (04/11/2026)

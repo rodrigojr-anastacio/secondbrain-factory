@@ -1,0 +1,9 @@
+[Unit]
+Description=Métricas completas dos canais a cada 3 dias (dias 1,4,7,... 07:10)
+
+[Timer]
+OnCalendar=*-*-01/3 07:10:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
