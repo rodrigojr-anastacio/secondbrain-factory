@@ -33,3 +33,30 @@ O padrão **continua** "A história INTEIRA de X em N minutos". Nos vídeos da b
 - N diferente da duração.
 - Republicar ou trocar título sem atualizar `youtube.videos` e `../backlog.md` (o banco ficou com o ID morto do Egito até 04/11). [conhecimento/anti-padroes.md §6]
 - Fórmula "TODA la historia…"/sigla de organização (é do `dossie-es`) ou pergunta curiosa solta, sem a pergunta central do roteiro (é do `lotr-fr`; o título-pergunta daqui só existe como braço B do teste acima).
+
+## Padrões das referências (12/11/2026)
+Fonte: yt-dlp via WARP (views de 12/11/2026, últimos ~80 vídeos de cada canal; o yt-dlp não dá data na lista, mas os canais são de 2026) de History in Minutes (2 canais), Ziro History, CountryCorns/Animated History, Atlas del Tiempo e Fragmentos da História (este é biografia, fora do molde: só serve de contraste). Método em `conhecimento/titulos.md`. Brutos em `pesquisa/padroes-titulos-2026-11-12.md`.
+
+| Padrão | Exemplo real | Views | Canal |
+|---|---|---|---|
+| The ENTIRE History of [país/império grande] in N Minutes | The ENTIRE History of Israel in 10 Minutes | 1,1 mi | CountryCorns |
+| idem, com recorte "From A to B" | The ENTIRE History of India, From Harappa to Today, in 16 Minutes | 637 mil | History in Minutes |
+| idem (nosso molde exato) | The ENTIRE History of Egypt in 17 Minutes | 558 mil | History in Minutes |
+| Why Did [A] Become Rich While [B] Stayed Poor? | Why Did the U.S. Become Rich While Latin America Stayed Poor? | 297 mil | Ziro History |
+| idem, par de países vizinhos | Why South Korea Became Rich While North Korea Stayed Poor | 185 mil | Ziro History |
+| Why Every Empire Wanted [X] (Full History) | Why Every Empire Wanted Ukraine (Full History) | 179 mil | History in Minutes |
+| [X] Never Died. It Just Changed Its Name. | Persia Never Died. It Just Changed Its Name. (History of Iran) | 91 mil | History in Minutes |
+| How [recurso] Decided Who Ruled [X] for N Years | How Water Decided Who Ruled China for 4,000 Years | 57 mil | History in Minutes |
+| [País]: The [Superlativo] Country That Never Had [falta] | Russia: The Biggest Country That Never Had Enough People | 43 mil | History in Minutes |
+| Why Did [A] Unite While [B] Stayed Divided? | Why Did Russia Unite While Europe Stayed Divided? | 41 mil | Ziro History |
+
+**Os 5–6 que mais rendem:** (1) "ENTIRE History of [país grande]"; (2) "Why Did A … While B Stayed …" (contraste de destinos); (3) "Why Every Empire Wanted X"; (4) "X Never Died. It Just Changed Its Name."; (5) "How [recurso/geografia] Decided …"; (6) "[País]: o maior país que nunca teve …".
+**O que têm em comum:** abrem uma **tensão sem fechar** (por que um enriqueceu e o outro não? por que todo império queria isso? como "morreu" e não morreu?). O padrão 1 só funciona com **país de enorme demanda** (Israel, Índia, Egito, Rússia): o tema decide, o título só não atrapalha.
+
+**Leitura honesta:** os padrões 2–9 só aparecem nos canais maiores/melhores do molde (HiM usa o "ENTIRE" nos hits de demanda e o título-pergunta nos temas médios: 43–179 mil). Não dá para separar título de tamanho de canal com esses dados: **Hipótese** até testar.
+
+**Regra (12/11/2026, Rodrigo): 3 títulos de 3 padrões diferentes, cada um pareado com uma thumb; nunca entregar a resposta.** Para o Irã, por ex.: A "A história INTEIRA do Irã em 18 minutos" (padrão 1) · B "A Pérsia nunca morreu. Só mudou de nome." (padrão 7) · C "Por que todo império quis o Irã?" (padrão 6).
+
+### Onde estamos fora do padrão (títulos no ar, `youtube.videos`; só registro, nenhum alterado)
+- Os 7 títulos usam só o padrão 1 ("A história INTEIRA de X em N minutos", com "COMPLETA" na Índia). É o padrão certo, mas é o **único**: nunca testamos os de tensão (Why A… while B…, Never died, Every empire wanted), que rendem nos temas médios. Egito 343 e Índia 197 views vs. 558–637 mil na referência: o título é igual; a diferença está em canal novo e thumb (não nos títulos).
+- Temas fora do que a referência prova: Brasil, Roma, Irã. Pedem o padrão 3/7 (tensão) em vez do "ENTIRE" puro, que depende de demanda do país.
