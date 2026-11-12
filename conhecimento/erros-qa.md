@@ -136,3 +136,8 @@ Antes do render do vídeo (que vai para a GPU do Runpod): stills a cada ~10 s e 
 
 ### Outros erros de processo (não são de QA de vídeo, ver anti-padroes)
 - Job headless morto por tarefa de fundo (§7); render > 10 min por comando (última seção); YAML inválido no `canal.yaml`; saldo do fal divergente. Todos em [`anti-padroes.md`](anti-padroes.md).
+
+### 12/11/2026 — Render de fallback na VPS esgotou a memória (OOM) e derrubou sessão e job (Clearance Required 001)
+- **Sintoma:** Remote Control do Rodrigo desconectou; job de produção morreu no meio do render; `journalctl --user`: "tmux-spawn-….scope: The kernel OOM killer killed some processes".
+- **Causa:** bloco 12 falhou 3× no Runpod ("render falhou", não textura) → job renderizou o trecho na VPS (`remotion render --concurrency=2`, ~2,5 GB) com outros processos (Claude, Hermes, WARP) → 8 GB cheios. Os jobs nasciam no mesmo scope da sessão, então o OOM levou tudo junto.
+- **Correção/prevenção:** jobs disparados em `systemd-run --user --scope -p MemoryMax=3500M` (CLAUDE.md do orquestrador); skill montagem-render: antes da VPS, refazer no Runpod em faixas menores e achar a mídia que quebra; VPS só com `--concurrency=1`, ≤ 900 quadros e ≥ 3 GB livres.
