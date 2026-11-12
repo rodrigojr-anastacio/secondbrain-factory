@@ -18,6 +18,8 @@ from db import conectar
 from report import creds_for
 
 PADRAO = ["historia-ptbr", "dossie-es", "em-relevo", "lotr-fr"]
+PRIVACIDADE = {}
+RODADA = dt.datetime.now(dt.timezone.utc)
 REL = os.path.expanduser("~/workspace/relatorios/metricas")
 VID_METRICAS = ["views", "engagedViews", "estimatedMinutesWatched", "averageViewDuration", "averageViewPercentage",
                 "subscribersGained", "subscribersLost", "likes", "dislikes", "comments", "shares",
@@ -55,20 +57,29 @@ def sincronizar_videos(con, slug, yt):
             break
     info = {}
     for i in range(0, len(ids), 50):
-        for v in yt.videos().list(part="snippet,contentDetails", id=",".join(ids[i:i + 50])).execute()["items"]:
+        for v in yt.videos().list(part="snippet,contentDetails,status,statistics", id=",".join(ids[i:i + 50])).execute()["items"]:
             info[v["id"]] = (v["snippet"]["title"], v["snippet"]["publishedAt"][:10])
+            st, stt = v.get("status", {}), v.get("statistics", {})
+            PRIVACIDADE[v["id"]] = st.get("privacyStatus")
+            con.execute("INSERT INTO videos_contador (canal_slug,video_id,lido_em,status,publish_at,views,likes,comentarios) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)"
+                        " ON CONFLICT (video_id,lido_em) DO NOTHING",
+                        (slug, v["id"], RODADA, st.get("privacyStatus"), st.get("publishAt"),
+                         f(stt.get("viewCount"), int), f(stt.get("likeCount"), int), f(stt.get("commentCount"), int)))
     sem_id = {r[0]: norm(r[1]) for r in con.execute("SELECT id,titulo FROM videos WHERE canal_slug=%s AND youtube_id IS NULL", (slug,))}
     for vid, (titulo, pub) in info.items():
         if con.execute("SELECT 1 FROM videos WHERE youtube_id=%s", (vid,)).fetchone():
             continue
         n = norm(titulo)
         alvo = next((i for i, t in sem_id.items() if t == n or t[:30] == n[:30]), None)
+        publico_ = PRIVACIDADE.get(vid) == "public"
         if alvo:
-            con.execute("UPDATE videos SET youtube_id=%s, publicado_em=%s, status='publicado', atualizado_em=now() WHERE id=%s", (vid, pub, alvo))
+            con.execute("UPDATE videos SET youtube_id=%s, publicado_em=CASE WHEN %s THEN %s::date END, status=CASE WHEN %s THEN 'publicado' ELSE status END, atualizado_em=now() WHERE id=%s",
+                        (vid, publico_, pub, publico_, alvo))
             sem_id.pop(alvo)
             print(f"   youtube_id gravado em videos.id={alvo} ({titulo[:50]})")
         else:
-            con.execute("INSERT INTO videos (canal_slug,titulo,status,youtube_id,publicado_em) VALUES (%s,%s,'publicado',%s,%s)", (slug, titulo, vid, pub))
+            con.execute("INSERT INTO videos (canal_slug,titulo,status,youtube_id,publicado_em) VALUES (%s,%s,%s,%s,%s)",
+                        (slug, titulo, "publicado" if publico_ else "pronto", vid, pub if publico_ else None))
             print(f"   vídeo novo no banco: {titulo[:50]}")
     return info
 
@@ -102,9 +113,9 @@ def coletar_video(con, ya, slug, vid, ini, fim):
     res = q(ya, startDate=ini, endDate=fim, dimensions="elapsedVideoTimeRatio", metrics="audienceWatchRatio,relativeRetentionPerformance", filters=f"video=={vid}")
     if res:
         for r in res[1]:
-            con.execute("INSERT INTO analytics_retencao (canal_slug,video_id,ratio,audiencia_ratio,retencao_relativa) VALUES (%s,%s,%s,%s,%s)"
-                        " ON CONFLICT (video_id,ratio) DO UPDATE SET audiencia_ratio=EXCLUDED.audiencia_ratio, retencao_relativa=EXCLUDED.retencao_relativa, atualizado_em=now()",
-                        (slug, vid, r[0], r[1], r[2]))
+            con.execute("INSERT INTO analytics_retencao (canal_slug,video_id,ratio,audiencia_ratio,retencao_relativa,lido_em,rodada) VALUES (%s,%s,%s,%s,%s,current_date,%s)"
+                        " ON CONFLICT (video_id,ratio,lido_em) DO UPDATE SET audiencia_ratio=EXCLUDED.audiencia_ratio, retencao_relativa=EXCLUDED.retencao_relativa, rodada=EXCLUDED.rodada, atualizado_em=now()",
+                        (slug, vid, r[0], r[1], r[2], RODADA))
     # tráfego por dia
     res = q(ya, startDate=ini, endDate=fim, dimensions="day,insightTrafficSourceType", metrics="views,estimatedMinutesWatched", filters=f"video=={vid}")
     if res:
@@ -118,9 +129,9 @@ def coletar_video(con, ya, slug, vid, ini, fim):
                 filters=f"video=={vid};insightTrafficSourceType=={tipo}", sort="-views", maxResults=25)
         if res:
             for r in res[1]:
-                con.execute("INSERT INTO analytics_trafego_detalhe (canal_slug,video_id,tipo,detalhe,views,minutos) VALUES (%s,%s,%s,%s,%s,%s)"
-                            " ON CONFLICT (video_id,tipo,detalhe) DO UPDATE SET views=EXCLUDED.views, minutos=EXCLUDED.minutos, atualizado_em=now()",
-                            (slug, vid, tipo, r[0], r[1], r[2]))
+                con.execute("INSERT INTO analytics_trafego_detalhe (canal_slug,video_id,tipo,detalhe,views,minutos,lido_em,rodada) VALUES (%s,%s,%s,%s,%s,%s,current_date,%s)"
+                            " ON CONFLICT (video_id,tipo,detalhe,lido_em) DO UPDATE SET views=EXCLUDED.views, minutos=EXCLUDED.minutos, rodada=EXCLUDED.rodada, atualizado_em=now()",
+                            (slug, vid, tipo, r[0], r[1], r[2], RODADA))
     # público (acumulado) do vídeo
     publico(con, ya, slug, vid, ini, fim, f"video=={vid}")
     return n
@@ -149,9 +160,9 @@ def publico(con, ya, slug, vid, ini, fim, filtro):
             nd = dims.count(",") + 1
             chave = "|".join(str(x) for x in r[:nd])
             d = dict(zip(hd[nd:], r[nd:]))
-            con.execute("INSERT INTO analytics_publico (canal_slug,video_id,dimensao,chave,views,minutos,viewer_pct) VALUES (%s,%s,%s,%s,%s,%s,%s)"
-                        " ON CONFLICT (canal_slug,video_id,dimensao,chave) DO UPDATE SET views=EXCLUDED.views, minutos=EXCLUDED.minutos, viewer_pct=EXCLUDED.viewer_pct, atualizado_em=now()",
-                        (slug, vid or "", nome, chave, f(d.get("views"), int), f(d.get("estimatedMinutesWatched")), f(d.get("viewerPercentage"))))
+            con.execute("INSERT INTO analytics_publico (canal_slug,video_id,dimensao,chave,views,minutos,viewer_pct,lido_em,rodada) VALUES (%s,%s,%s,%s,%s,%s,%s,current_date,%s)"
+                        " ON CONFLICT (canal_slug,video_id,dimensao,chave,lido_em) DO UPDATE SET views=EXCLUDED.views, minutos=EXCLUDED.minutos, viewer_pct=EXCLUDED.viewer_pct, rodada=EXCLUDED.rodada, atualizado_em=now()",
+                        (slug, vid or "", nome, chave, f(d.get("views"), int), f(d.get("estimatedMinutesWatched")), f(d.get("viewerPercentage")), RODADA))
 
 
 def resolver_relacionados(con, yt, slug):
@@ -200,19 +211,25 @@ def processar(con, slug, desde):
 def secao(con, slug, nome, meta, anterior):
     L = [f"## {nome} (`{slug}`)"]
     views, minutos, subs, nv = meta["tot"]
-    L.append(f"- Acumulado desde {meta['ini']}: **{views} views**, {float(minutos)/60:.1f} h assistidas, {subs:+d} inscritos líquidos, {nv} vídeos com dados.")
+    ate = con.execute("SELECT max(data) FROM analytics_video_dia WHERE canal_slug=%s", (slug,)).fetchone()[0]
+    ate_s = ate.strftime("%d/%m") if ate else "?"
+    cont = con.execute("SELECT coalesce(sum(views),0), coalesce(sum(likes),0), count(*) FROM videos_contador WHERE canal_slug=%s AND lido_em=%s", (slug, RODADA)).fetchone()
+    L.append(f"- **Contador atual (Data API, {dt.datetime.now().strftime('%d/%m %H:%M')}): {cont[0]} views, {cont[1]} likes em {cont[2]} vídeos.**")
+    L.append(f"- Analytics até {ate_s} (atraso ~2 dias; não é o total atual): {views} views desde {meta['ini']}, {float(minutos)/60:.1f} h assistidas, {int(subs):+d} inscritos líquidos, {nv} vídeos com dados.")
     if anterior:
-        L.append(f"- Desde a última rodada: {views - anterior[0]:+d} views, {float(minutos - anterior[1])/60:+.1f} h, {subs - anterior[2]:+d} inscritos.")
+        L.append(f"- Desde a última rodada: {int(views - anterior[0]):+d} views, {float(minutos - anterior[1])/60:+.1f} h, {int(subs - anterior[2]):+d} inscritos.")
     else:
         L.append("- Primeira rodada: sem comparação.")
     r = con.execute("SELECT sum(pct_media*views)/nullif(sum(views),0), sum(duracao_media_s*views)/nullif(sum(views),0) FROM analytics_video_dia WHERE canal_slug=%s", (slug,)).fetchone()
     if r[0] is not None:
         L.append(f"- Retenção média (ponderada por views): {float(r[0]):.1f}% do vídeo, {float(r[1])/60:.1f} min por view.")
-    L.append("- Por vídeo (views | ret.% | inscr. | likes):")
-    for t, v, p, s, lk in con.execute(
-            "SELECT coalesce(vi.titulo,a.video_id), sum(a.views), sum(a.pct_media*a.views)/nullif(sum(a.views),0), sum(a.inscritos_ganhos-a.inscritos_perdidos), sum(a.likes)"
-            " FROM analytics_video_dia a LEFT JOIN videos vi ON vi.youtube_id=a.video_id WHERE a.canal_slug=%s GROUP BY 1 ORDER BY 2 DESC", (slug,)):
-        L.append(f"  - {t[:55]}: {v} | {float(p or 0):.1f}% | {s} | {lk}")
+    L.append(f"- Por vídeo (contador atual | status | Analytics até {ate_s}: views | ret.% | inscr. | likes):")
+    for t, c, stt, v, p, s, lk in con.execute(
+            "SELECT coalesce(vi.titulo,c.video_id), c.views, c.status || coalesce(' ' || to_char(c.publish_at AT TIME ZONE 'America/Sao_Paulo','DD/MM HH24:MI'),''),"
+            " coalesce(sum(a.views),0), sum(a.pct_media*a.views)/nullif(sum(a.views),0), sum(a.inscritos_ganhos-a.inscritos_perdidos), sum(a.likes)"
+            " FROM videos_contador c LEFT JOIN videos vi ON vi.youtube_id=c.video_id LEFT JOIN analytics_video_dia a ON a.video_id=c.video_id"
+            " WHERE c.canal_slug=%s AND c.lido_em=%s GROUP BY c.video_id, vi.titulo, c.views, c.status, c.publish_at ORDER BY c.views DESC NULLS LAST", (slug, RODADA)):
+        L.append(f"  - {t[:55]}: {c} | {stt} | {v} | {float(p or 0):.1f}% | {s} | {lk}")
     org = con.execute("SELECT origem, sum(views) FROM analytics_trafego WHERE canal_slug=%s GROUP BY 1 ORDER BY 2 DESC LIMIT 6", (slug,)).fetchall()
     tv = sum(o[1] for o in org) or 1
     if org:
@@ -263,7 +280,7 @@ def main():
                 v, m, s, n = meta["tot"]
                 con.execute("INSERT INTO analytics_rodadas (canal_slug,views,minutos,inscritos_liquidos,videos) VALUES (%s,%s,%s,%s,%s)", (slug, v, m, s, n))
             except Exception as e:  # noqa: BLE001
-                print(f"== {slug}: ERRO {type(e).__name__}: {str(e)[:200]}", file=sys.stderr)
+                import traceback; traceback.print_exc(); print(f"== {slug}: ERRO {type(e).__name__}: {str(e)[:200]}", file=sys.stderr)
                 secoes.append(f"## {slug}\n- ERRO nesta rodada: {type(e).__name__}")
     os.makedirs(REL, exist_ok=True)
     hoje = dt.date.today().isoformat()
