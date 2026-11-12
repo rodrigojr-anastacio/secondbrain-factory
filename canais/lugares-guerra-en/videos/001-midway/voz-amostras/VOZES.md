@@ -52,3 +52,20 @@ Script `gerar3.py` (mesmo hook B01, "Ah-kah-gee", s2.1-pro, por frase + 0,32 s, 
 **Licença (não confirmada na fonte):** os termos do Fish que achei dizem que quem usa serviços pagos tem licença de uso comercial; o plano gratuito é só não comercial. Não achei texto sobre o autor retirar uma voz da biblioteca nem sobre uso comercial de voz de terceiros ([termos](https://fish.audio/pt/terms/), versão de 2024). Risco prático: voz de terceiro pode sumir e o canal perde consistência. Vozes **Fish Official** (Ethan, Adrian) são as seguras. Entre as novas, as de uso alto (Slax 556 mil, Calm storyteller 221 mil) sobrevivem melhor; a Eldrin (15 usos) é a mais frágil. Se o Rodrigo escolher uma de terceiros, vale checar com o suporte do Fish e guardar o áudio de referência/id.
 
 **Recomendação curta vs Brian:** nenhuma Fish iguala o calor do Brian, mas **L (Deep/Godmode)** é a mais próxima: americana, grave, calma, 153 ppm, 99% no Whisper, tudo certo em Akagi e números. **I (Calm storyteller)** é a 2ª (mais calorosa, mais usada). Britânica: **N (Eldrin)** é a melhor de timbre e pronúncia, mas frágil (15 usos); **M (F1)** mais segura em uso, com 2 deslizes. Descartar J (lenta, pronúncia ruim) e K (errou o 92). Só o ouvido decide; se nenhuma convencer, o Ethan (B, oficial) segue o fallback barato.
+
+## Rodada 4 (12/11/2026, brief clearance-vozes-fish2): O–T, "um pouco menos deep que a L"
+Script `gerar4.py` (hook B01, "Ah-kah-gee", s2.1-pro, por frase + 0,32 s, sem processamento de tom). Busca `GET /model?sort_by=task_count&language=en&tag=…` (narrator, documentary, storyteller, warm, mature, american, baritone). Gerei 8 candidatas, 2 reprovadas no QA e trocadas (arquivos fora do git). Celebridades (Elon, Michael Jackson, Attenborough, Markiplier) ignoradas. **Sotaque e timbre não são confirmáveis por texto: só o ouvido.**
+
+| arquivo | voz (id, autor) | ppm | Whisper | usos / likes | impressão (tags + QA) |
+|---|---|---|---|---|---|
+| **O-fish-bii2.mp3** | Bii2 (9d1efa16, Veo Pika) | 140 | 99,0% | 67 mil / 140 | "male, middle-aged, deep, authoritative, professional"; nomes e números certos; -17,9 LUFS |
+| **P-fish-narrator-maxn.mp3** | Narrator (0327fdb5, Max N) | 151 | 98,1% | 104 mil / 450 | "young, calm, measured, documentary": ritmo-alvo, nomes certos; tag "young" pode ser mais leve que a L |
+| **Q-fish-jjk.mp3** | JJK (d6777f50, Locked Downed) | 122 | 99,0% | 48 mil / 229 | "old, deep, calm, serious, authoritative"; nomes certos; lento |
+| **R-fish-heistys-voice.mp3** | Heisty's Voice (3054685d, 4y4xn) | 129 | 97,1% | 147 mil / 673 | "old, narration, deep, clear, authoritative"; nomes certos; um pouco lento |
+| **S-fish-w2w.mp3** | w2w (4746f1b4, nixise2572) | 118 | 99,0% | 84 mil / 103 | "middle-aged, narration, conversational"; nomes certos, mas lenta; nome genérico |
+| **T-fish-news-reporter.mp3** | News reporter (05aff7ff, Yassine El-Hilaly) | 148 | 95,7% | 39 mil / 107 | "young, serious, measured, authoritative": ritmo bom; Whisper leu "Its … report" (talvez só do Whisper) |
+
+Reprovadas e fora: **Atomic** (96 ppm, errou "Akagi/Soryu/Hiryu"), **WNBA Voiceover** (156 ppm, Whisper leu "$307": leitura de número duvidosa).
+**Modelo cobrado (não fechou exato):** saldo do Fish 46,89077 → 46,83839 = US$ 0,0524, mas 4.656 bytes a US$ 15/M (s2.1-pro) dariam US$ 0,0698, valor lançado em `financas.consumo` (ref_id 30). A diferença pode ser atraso do contador de crédito (leitura 8 s depois); não vi sinal de outro modelo, mas **não confirmado**. **Custo da rodada: US$ 0,052–0,070** (teto 0,25).
+
+**Recomendação (2 finalistas):** **P (Narrator, Max N)**: ritmo exato 151 ppm, 104 mil usos, tudo certo; é a mais provável de soar "médio-grave documental" sem ser baixo demais. **O (Bii2)**: "deep, authoritative, middle-aged", 140 ppm, 99%; é a mais próxima do timbre da L em autoridade com o ritmo aceitável. Se nenhuma agradar, L segue a referência de estilo e o Ethan (B, oficial) o fallback. Mesma ressalva de licença/remoção das vozes de terceiros da rodada 3.
