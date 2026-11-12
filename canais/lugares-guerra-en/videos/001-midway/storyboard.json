@@ -1,0 +1,5158 @@
+{
+ "stats": {
+  "planos": 198,
+  "duracao_s": 1074.8,
+  "duracao": "17:54.8",
+  "planos_por_min": 11.1,
+  "real_pct": 85.4,
+  "reuso_pct": 35.2,
+  "componentes": {
+   "DocGrifo": 43,
+   "Filme": 43,
+   "KenBurns": 79,
+   "Número": 16,
+   "Mapa2D": 11,
+   "Cartela": 3,
+   "EntaoAgora": 2,
+   "Card": 1
+  },
+  "docs_distintos": 15,
+  "docs_grifados": 12,
+  "numeros": 44,
+  "mapas_distintos": 11,
+  "entao_agora": 2,
+  "imagens_ia": 0,
+  "palavras": 2687,
+  "blocos_audio": 87
+ },
+ "pontos": {
+  "MIDWAY": [
+   182.63,
+   28.21
+  ],
+  "HONOLULU": [
+   202.14,
+   21.31
+  ],
+  "PEARL HARBOR": [
+   202.03,
+   21.35
+  ],
+  "TOKYO": [
+   139.69,
+   35.68
+  ],
+  "SAN FRANCISCO": [
+   237.58,
+   37.77
+  ],
+  "WAKE": [
+   166.65,
+   19.28
+  ],
+  "GUAM": [
+   144.79,
+   13.44
+  ],
+  "MANILA": [
+   120.98,
+   14.6
+  ],
+  "POINT LUCK": [
+   187.0,
+   32.0
+  ],
+  "JAPANESE CARRIERS": [
+   180.71,
+   30.6
+  ],
+  "ADAK": [
+   183.35,
+   51.88
+  ],
+  "YORKTOWN (WRECK)": [
+   183.4,
+   30.6
+  ],
+  "KAGA (WRECK)": [
+   180.7,
+   30.3
+  ],
+  "AKAGI (WRECK)": [
+   181.2,
+   30.5
+  ]
+ },
+ "planos": [
+  {
+   "id": "P001",
+   "bloco": "B01a",
+   "tipo": "DocGrifo",
+   "arq": "doc_cincpac_p1.jpg",
+   "enq": "secret",
+   "inicio": 0.0,
+   "dur": 4.8,
+   "frase": "This page was typed in June 1942, and somebody stamped it SECRET.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 28 1942 · PEARL HARBOR",
+    "Nimitz (CINCPAC) to COMINCH: \"Battle of Midway\"",
+    "National Archives, RG 38 · Unrestricted"
+   ],
+   "frase_doc": "SECRET",
+   "grifo": [
+    [
+     0.095,
+     0.184,
+     0.31,
+     0.053
+    ],
+    [
+     0.68,
+     0.169,
+     0.153,
+     0.028
+    ]
+   ],
+   "literal": true,
+   "em": "This page was typed"
+  },
+  {
+   "id": "P002",
+   "bloco": "B01a",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "462.2-468.0",
+   "inicio": 4.8,
+   "dur": 5.2,
+   "frase": "It's Admiral Chester Nimitz's report to Washington on a battle three weeks old.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "The flag over Midway during the Japanese raid",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 462.2,
+   "tout": 468.0,
+   "vel": 1.0,
+   "em": "It's Admiral Chester"
+  },
+  {
+   "id": "P003",
+   "bloco": "B01b",
+   "tipo": "DocGrifo",
+   "arq": "doc_cincpac_p1.jpg",
+   "enq": "a",
+   "inicio": 10.0,
+   "dur": 9.6,
+   "frase": "Read line (a). \"4 CV sunk – Akagi, Kaga, Soryu, Hiryu – with the loss of all their planes and many of their personnel.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 28 1942 · PEARL HARBOR",
+    "Nimitz (CINCPAC) to COMINCH: \"Battle of Midway\"",
+    "National Archives, RG 38 · Unrestricted"
+   ],
+   "frase_doc": "with the loss of all their planes and many of their personnel",
+   "grifo": [
+    [
+     0.282,
+     0.709,
+     0.6,
+     0.018
+    ],
+    [
+     0.327,
+     0.725,
+     0.557,
+     0.018
+    ],
+    [
+     0.327,
+     0.741,
+     0.09,
+     0.018
+    ]
+   ],
+   "literal": true,
+   "em": "Read line (a)."
+  },
+  {
+   "id": "P004",
+   "bloco": "B01b",
+   "tipo": "KenBurns",
+   "arq": "foto_hiryu_chamas1942.jpg",
+   "enq": "detalhe:0.55,0.55",
+   "inicio": 19.6,
+   "dur": 2.0,
+   "frase": "Four Japanese aircraft carriers, gone.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 5 1942 · AT SEA",
+    "Hiryu adrift and burning",
+    "Naval History and Heritage Command NH 73064 · PD"
+   ],
+   "num": [
+    "4",
+    "CARRIERS SUNK"
+   ],
+   "de": [
+    0.55,
+    0.55,
+    1.35
+   ],
+   "para": [
+    0.55,
+    0.55,
+    1.55
+   ],
+   "em": "Four Japanese aircraft"
+  },
+  {
+   "id": "P005",
+   "bloco": "B01c",
+   "tipo": "DocGrifo",
+   "arq": "doc_cincpac_p1.jpg",
+   "enq": "92",
+   "inicio": 21.6,
+   "dur": 7.2,
+   "frase": "Now do the math at the bottom. \"Ninety-two officers and two hundred and fifteen men.\" The American cost.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 28 1942 · PEARL HARBOR",
+    "Nimitz (CINCPAC) to COMINCH: \"Battle of Midway\"",
+    "National Archives, RG 38 · Unrestricted"
+   ],
+   "frase_doc": "Ninety-two officers and two hundred and fifteen men",
+   "grifo": [
+    [
+     0.097,
+     0.915,
+     0.752,
+     0.018
+    ]
+   ],
+   "literal": true,
+   "em": "Now do the math"
+  },
+  {
+   "id": "P006",
+   "bloco": "B01c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:92 + 215 = 307",
+   "inicio": 28.8,
+   "dur": 2.8,
+   "frase": "Three hundred and seven. Remember that number.",
+   "real": false,
+   "reuso": false,
+   "valor": "92 + 215 = 307",
+   "rotulo": "AMERICAN DEAD (OFFICIAL COUNT)",
+   "em": "Three hundred and seven."
+  },
+  {
+   "id": "P007",
+   "bloco": "B01d",
+   "tipo": "DocGrifo",
+   "arq": "doc_cincpac_p1.jpg",
+   "enq": "subject",
+   "inicio": 31.6,
+   "dur": 2.8,
+   "frase": "The subject line reads: Battle of Midway.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 28 1942 · PEARL HARBOR",
+    "Nimitz (CINCPAC) to COMINCH: \"Battle of Midway\"",
+    "National Archives, RG 38 · Unrestricted"
+   ],
+   "frase_doc": "Battle of Midway",
+   "grifo": [
+    [
+     0.095,
+     0.275,
+     0.39,
+     0.019
+    ]
+   ],
+   "literal": true,
+   "em": "The subject line"
+  },
+  {
+   "id": "P008",
+   "bloco": "B01d",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "89.6-96.6",
+   "inicio": 34.4,
+   "dur": 7.2,
+   "frase": "That place is still out there, in the middle of the Pacific. And you're not allowed to go.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "Midway's islands from the sea",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 89.6,
+   "tout": 96.6,
+   "vel": 0.95,
+   "em": "That place is still"
+  },
+  {
+   "id": "P009",
+   "bloco": "B02a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:havai_midway",
+   "inicio": 41.6,
+   "dur": 10.0,
+   "frase": "Midway Atoll is a ring of coral more than twelve hundred miles northwest of Honolulu. About forty people live there. Nobody else gets to land.",
+   "real": false,
+   "reuso": false,
+   "nome": "havai_midway",
+   "pontos": [
+    "HONOLULU",
+    "MIDWAY"
+   ],
+   "linhas": [
+    [
+     "HONOLULU",
+     "MIDWAY",
+     "1,200+ MI"
+    ]
+   ],
+   "nota": "Número sobreposto «~40 PEOPLE LIVE THERE»",
+   "em": "Midway Atoll is"
+  },
+  {
+   "id": "P010",
+   "bloco": "B02b",
+   "tipo": "KenBurns",
+   "arq": "foto_iss2001.jpg",
+   "enq": "zoom-in",
+   "inicio": 51.6,
+   "dur": 2.8,
+   "frase": "And two things there are very strange.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "2001 · MIDWAY ATOLL",
+    "Seen from the International Space Station",
+    "NASA ISS002-E-8828 · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "And two things"
+  },
+  {
+   "id": "P011",
+   "bloco": "B02b",
+   "tipo": "KenBurns",
+   "arq": "foto_henderson_f18_2015.jpg",
+   "enq": "pan-dir",
+   "inicio": 54.4,
+   "dur": 7.6,
+   "frase": "A runway that's still kept ready, in case a jet full of passengers gets into trouble over the Pacific.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 14 2015 · HENDERSON FIELD",
+    "Marine F-18s after an emergency landing",
+    "USFWS / D. Dow · PD"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "A runway that's"
+  },
+  {
+   "id": "P012",
+   "bloco": "B02c",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "161.2-164.6",
+   "inicio": 62.0,
+   "dur": 4.0,
+   "frase": "And a bird that was already nesting here in 1956,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1942 · MIDWAY",
+    "Laysan albatross on Midway, filmed by Ford",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "num": [
+    "1956",
+    "BANDED"
+   ],
+   "tin": 161.2,
+   "tout": 164.6,
+   "vel": 0.85,
+   "em": "And a bird"
+  },
+  {
+   "id": "P013",
+   "bloco": "B02c",
+   "tipo": "KenBurns",
+   "arq": "foto_wisdom2023_a.jpg",
+   "enq": "detalhe:0.62,0.42",
+   "inicio": 66.0,
+   "dur": 7.2,
+   "frase": "when a scientist put a band on her leg. She's still coming back. Keep that year in mind.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 3 2023 · SAND ISLAND",
+    "Wisdom, Laysan albatross (banded 1956)",
+    "USFWS · PD"
+   ],
+   "de": [
+    0.62,
+    0.42,
+    1.35
+   ],
+   "para": [
+    0.62,
+    0.42,
+    1.55
+   ],
+   "em": "when a scientist"
+  },
+  {
+   "id": "P014",
+   "bloco": "B03a",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhhc_discurso2017.png",
+   "enq": "wreath",
+   "inicio": 73.2,
+   "dur": 5.6,
+   "frase": "In 2017, two old Marines laid a wreath on Midway. One was John Miniclier.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 5 2017 · WASHINGTON",
+    "NHHC director, Battle of Midway 75th anniversary",
+    "Naval History and Heritage Command · PD"
+   ],
+   "frase_doc": "lay a wreath",
+   "grifo": [
+    [
+     0.4094,
+     0.459,
+     0.3255,
+     0.0278
+    ]
+   ],
+   "literal": false,
+   "em": "In 2017, two old"
+  },
+  {
+   "id": "P015",
+   "bloco": "B03a",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "1036.0-1041.6",
+   "inicio": 78.8,
+   "dur": 7.6,
+   "frase": "On June 4th, 1942, he was a young private on Sand Island, on top of a thirty-foot searchlight tower,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "A lookout scans the sky (not Miniclier)",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 1036.0,
+   "tout": 1041.6,
+   "vel": 0.74,
+   "em": "On June 4th, 1942,"
+  },
+  {
+   "id": "P016",
+   "bloco": "B03a",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "494.1-495.6",
+   "inicio": 86.4,
+   "dur": 1.2,
+   "frase": "counting Japanese planes.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "Flak bursts over the atoll",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 494.1,
+   "tout": 495.6,
+   "vel": 1.0,
+   "em": "counting Japanese planes."
+  },
+  {
+   "id": "P017",
+   "bloco": "B03b",
+   "tipo": "KenBurns",
+   "arq": "foto_comemoracao2022.jpg",
+   "enq": "zoom-out",
+   "inicio": 87.6,
+   "dur": 7.2,
+   "frase": "In 2025, he died at a hundred and three, the last known survivor of the Battle of Midway.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 2022 · MIDWAY ATOLL",
+    "80th commemoration of the Battle of Midway",
+    "USFWS · PD"
+   ],
+   "num": [
+    "103",
+    "LAST KNOWN SURVIVOR"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "In 2025, he died"
+  },
+  {
+   "id": "P018",
+   "bloco": "B03c",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "1046.6-1053.4",
+   "inicio": 94.8,
+   "dur": 6.8,
+   "frase": "So why? Why can't you visit Midway Atoll, the place where the war in the Pacific turned?",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "The flag above the burning base",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 1046.6,
+   "tout": 1053.4,
+   "vel": 1.0,
+   "em": "So why?"
+  },
+  {
+   "id": "P019",
+   "bloco": "B03d",
+   "tipo": "KenBurns",
+   "arq": "foto_casamata_s6_2015.jpg",
+   "enq": "pan-esq",
+   "inicio": 101.6,
+   "dur": 4.0,
+   "frase": "It isn't a military secret. The Navy left decades ago.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "APR 15 2015 · SAND ISLAND",
+    "WWII concrete pillbox S-6",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "It isn't a military"
+  },
+  {
+   "id": "P020",
+   "bloco": "B03d",
+   "tipo": "KenBurns",
+   "arq": "foto_eastern_memorial2015.jpg",
+   "enq": "zoom-in",
+   "inicio": 105.6,
+   "dur": 2.8,
+   "frase": "It isn't forgotten. It's a national memorial.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "APR 16 2015 · EASTERN ISLAND",
+    "Original Henderson Field memorial, now an albatross colony",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "It isn't forgotten."
+  },
+  {
+   "id": "P021",
+   "bloco": "B03e",
+   "tipo": "DocGrifo",
+   "arq": "doc_doi2014_topo.png",
+   "enq": "topo",
+   "inicio": 108.4,
+   "dur": 6.4,
+   "frase": "And it isn't that nobody wants to go. For years, people flew in to see it.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 20 2014 · U.S. HOUSE",
+    "USFWS testimony on Midway Atoll NWR",
+    "U.S. Department of the Interior · PD"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "And it isn't that"
+  },
+  {
+   "id": "P022",
+   "bloco": "B03e",
+   "tipo": "DocGrifo",
+   "arq": "doc_gao16382_p1.png",
+   "enq": "capa",
+   "inicio": 114.8,
+   "dur": 5.2,
+   "frase": "What keeps you out is a chain of decisions, a few million birds,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 2 2016 · GAO-16-382",
+    "Report: Midway Atoll, historic properties and visitation",
+    "U.S. Government Accountability Office · PD"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "What keeps you out"
+  },
+  {
+   "id": "P023",
+   "bloco": "B03e",
+   "tipo": "KenBurns",
+   "arq": "foto_posto_comando2015.jpg",
+   "enq": "zoom-in",
+   "inicio": 120.0,
+   "dur": 2.8,
+   "frase": "and an island that's slowly falling apart.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "APR 14 2015 · SAND ISLAND",
+    "1942 command post, crumbling",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "and an island that's"
+  },
+  {
+   "id": "P024",
+   "bloco": "B03f",
+   "tipo": "KenBurns",
+   "arq": "foto_rochefort1934.jpg",
+   "enq": "custom",
+   "inicio": 122.8,
+   "dur": 7.6,
+   "frase": "Along the way, you'll hear about a fake message about drinking water that told America where Japan would strike,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "SEP 15 1934",
+    "Lt. Joseph J. Rochefort, USN",
+    "Naval History and Heritage Command NH 64844 · PD"
+   ],
+   "de": [
+    0.5,
+    0.33,
+    1.25
+   ],
+   "para": [
+    0.5,
+    0.3,
+    1.45
+   ],
+   "em": "Along the way,"
+  },
+  {
+   "id": "P025",
+   "bloco": "B03f",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "521.9-525.3",
+   "inicio": 130.4,
+   "dur": 3.2,
+   "frase": "a Hollywood director knocked out on a rooftop,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "Oil tanks burning after the raid",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 521.9,
+   "tout": 525.3,
+   "vel": 1.0,
+   "em": "a Hollywood director"
+  },
+  {
+   "id": "P026",
+   "bloco": "B03f",
+   "tipo": "KenBurns",
+   "arq": "foto_kaga1936.jpg",
+   "enq": "pan-dir",
+   "inicio": 133.6,
+   "dur": 3.2,
+   "frase": "and what a robot found three miles down.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "c. 1936 · JAPAN",
+    "Aircraft carrier Kaga",
+    "Naval History and Heritage Command NH 73060 · PD"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "and what a robot"
+  },
+  {
+   "id": "P027",
+   "bloco": "B04a",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "81.8-86.1",
+   "inicio": 136.8,
+   "dur": 4.4,
+   "frase": "To understand why anybody would fight over two specks of sand,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · MIDWAY",
+    "Midway's islands from a patrol plane",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 81.8,
+   "tout": 86.1,
+   "vel": 1.0,
+   "em": "To understand why"
+  },
+  {
+   "id": "P028",
+   "bloco": "B04a",
+   "tipo": "KenBurns",
+   "arq": "foto_cabo1935.jpg",
+   "enq": "zoom-in",
+   "inicio": 141.2,
+   "dur": 6.0,
+   "frase": "start with a wire. In 1903, a cable company built a station on Sand Island.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "MAY 1935 · SAND ISLAND",
+    "The Commercial Pacific Cable station from the air",
+    "U.S. Navy, NHHC NH 96598 · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "start with a wire."
+  },
+  {
+   "id": "P029",
+   "bloco": "B04a",
+   "tipo": "KenBurns",
+   "arq": "foto_estacao_cabo2015.jpg",
+   "enq": "pan-dir",
+   "inicio": 147.2,
+   "dur": 4.8,
+   "frase": "It was the final link in a telegraph line across the Pacific,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "APR 2015 · SAND ISLAND",
+    "Cable station building (1903) and the colony",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "It was the final link"
+  },
+  {
+   "id": "P030",
+   "bloco": "B04a",
+   "tipo": "DocGrifo",
+   "arq": "doc_eo13022_p1.png",
+   "enq": "pagina",
+   "inicio": 152.0,
+   "dur": 4.0,
+   "frase": "and President Theodore Roosevelt used it to send a message.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "OCT 31 1996 · WASHINGTON",
+    "Executive Order 13022, Administration of the Midway Islands",
+    "Federal Register 61 FR 56875 · PD"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "and President Theodore"
+  },
+  {
+   "id": "P031",
+   "bloco": "B04b",
+   "tipo": "DocGrifo",
+   "arq": "doc_eo13022_p1.png",
+   "enq": "199a",
+   "inicio": 156.0,
+   "dur": 5.6,
+   "frase": "That same year, a presidential order put the atoll under the United States Navy.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "OCT 31 1996 · WASHINGTON",
+    "Executive Order 13022, Administration of the Midway Islands",
+    "Federal Register 61 FR 56875 · PD"
+   ],
+   "frase_doc": "Executive Order 199-A",
+   "grifo": [
+    [
+     0.392,
+     0.362,
+     0.425,
+     0.016
+    ]
+   ],
+   "literal": false,
+   "em": "That same year"
+  },
+  {
+   "id": "P032",
+   "bloco": "B04c",
+   "tipo": "KenBurns",
+   "arq": "foto_clipper1936.jpg",
+   "enq": "pan-esq",
+   "inicio": 161.6,
+   "dur": 4.8,
+   "frase": "In 1935, Pan American Airways arrived. Its big flying boats, the Clippers,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "c. 1936 · SAN FRANCISCO",
+    "Pan Am China Clipper (route via Honolulu, Midway, Wake)",
+    "Clyde H. Sunderland, Library of Congress · PD"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "In 1935, Pan American"
+  },
+  {
+   "id": "P033",
+   "bloco": "B04c",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:clipper",
+   "inicio": 166.4,
+   "dur": 5.2,
+   "frase": "landed in Midway's lagoon on weekly flights across the Pacific, and Pan Am",
+   "real": false,
+   "reuso": false,
+   "nome": "clipper",
+   "pontos": [
+    "SAN FRANCISCO",
+    "HONOLULU",
+    "MIDWAY",
+    "WAKE",
+    "GUAM",
+    "MANILA"
+   ],
+   "linhas": [
+    [
+     "SAN FRANCISCO",
+     "HONOLULU",
+     ""
+    ],
+    [
+     "HONOLULU",
+     "MIDWAY",
+     ""
+    ],
+    [
+     "MIDWAY",
+     "WAKE",
+     ""
+    ],
+    [
+     "WAKE",
+     "GUAM",
+     ""
+    ],
+    [
+     "GUAM",
+     "MANILA",
+     "PAN AM CLIPPER · 1935"
+    ]
+   ],
+   "nota": "exige base regenerada até 238°E (São Francisco)",
+   "em": "landed in Midway's"
+  },
+  {
+   "id": "P034",
+   "bloco": "B04c",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "97.0-99.0",
+   "inicio": 171.6,
+   "dur": 2.8,
+   "frase": "built a small hotel on the sand.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · SAND ISLAND",
+    "Sand Island's dock and seaplane ramp",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 97.0,
+   "tout": 99.0,
+   "vel": 0.56,
+   "em": "built a small hotel"
+  },
+  {
+   "id": "P035",
+   "bloco": "B04d",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "101.2-108.6",
+   "inicio": 174.4,
+   "dur": 8.0,
+   "frase": "Then the Navy started building for real: dredging the lagoon, a seaplane base on Sand Island, runways on Eastern Island.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · SAND ISLAND",
+    "PBY Catalinas at the Sand Island seaplane base",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 101.2,
+   "tout": 108.6,
+   "vel": 0.92,
+   "em": "Then the Navy started"
+  },
+  {
+   "id": "P036",
+   "bloco": "B04d",
+   "tipo": "KenBurns",
+   "arq": "foto_aerea1941.jpg",
+   "enq": "zoom-out",
+   "inicio": 182.4,
+   "dur": 5.2,
+   "frase": "This photo was taken on November 24th, 1941. Look how finished it is.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 24 1941 · MIDWAY ATOLL",
+    "Aerial view, two weeks before the war",
+    "U.S. Navy 80-G-451086, National Archives · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "This photo was taken"
+  },
+  {
+   "id": "P037",
+   "bloco": "B04e",
+   "tipo": "KenBurns",
+   "arq": "foto_canhao_historico.jpg",
+   "enq": "zoom-in",
+   "inicio": 187.6,
+   "dur": 6.0,
+   "frase": "Two weeks later, on the same day as Pearl Harbor, Japanese warships shelled Midway too.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "MIDWAY ATOLL",
+    "WWII-era gun among the albatrosses",
+    "USFWS / National Archives 022-DP-06622 · PD"
+   ],
+   "num": [
+    "DEC 7, 1941",
+    "MIDWAY SHELLED"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Two weeks later"
+  },
+  {
+   "id": "P038",
+   "bloco": "B04e",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "124.0-133.3",
+   "inicio": 193.6,
+   "dur": 9.2,
+   "frase": "A Marine officer killed in that attack, George Cannon, became the first Marine to earn the Medal of Honor in World War Two.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1942 · MIDWAY",
+    "Marines of the Midway garrison (Cannon not shown)",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "num": [
+    "MEDAL OF HONOR",
+    "1ST LT. GEORGE H. CANNON · DEC 7 1941"
+   ],
+   "tin": 124.0,
+   "tout": 133.3,
+   "vel": 1.0,
+   "em": "A Marine officer killed"
+  },
+  {
+   "id": "P039",
+   "bloco": "B05a",
+   "tipo": "KenBurns",
+   "arq": "foto_akagi1941.jpg",
+   "enq": "pan-dir",
+   "inicio": 202.8,
+   "dur": 4.8,
+   "frase": "By the spring of 1942, Japan had been winning for six months.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1941 · JAPAN",
+    "Aircraft carrier Akagi",
+    "Naval History and Heritage Command NH 73059 · PD"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "By the spring"
+  },
+  {
+   "id": "P040",
+   "bloco": "B05a",
+   "tipo": "KenBurns",
+   "arq": "foto_yamamoto.jpg",
+   "enq": "custom",
+   "inicio": 207.6,
+   "dur": 6.4,
+   "frase": "Admiral Isoroku Yamamoto wanted to lure the American carriers into one big fight and finish them.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "EARLY 1940s",
+    "Adm. Isoroku Yamamoto, Combined Fleet",
+    "Naval History and Heritage Command NH 63430 · PD"
+   ],
+   "de": [
+    0.5,
+    0.35,
+    1.2
+   ],
+   "para": [
+    0.5,
+    0.32,
+    1.4
+   ],
+   "em": "Admiral Isoroku"
+  },
+  {
+   "id": "P041",
+   "bloco": "B05a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:isca",
+   "inicio": 214.0,
+   "dur": 2.0,
+   "frase": "The bait would be Midway.",
+   "real": false,
+   "reuso": false,
+   "nome": "isca",
+   "pontos": [
+    "TOKYO",
+    "MIDWAY",
+    "PEARL HARBOR"
+   ],
+   "linhas": [
+    [
+     "TOKYO",
+     "MIDWAY",
+     "THE BAIT"
+    ]
+   ],
+   "nota": "",
+   "em": "The bait would be"
+  },
+  {
+   "id": "P042",
+   "bloco": "B05b",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:isca_hypo",
+   "inicio": 216.0,
+   "dur": 7.6,
+   "frase": "But at Pearl Harbor, a Navy codebreaking unit called Station Hypo was reading parts of the Japanese navy's code.",
+   "real": false,
+   "reuso": false,
+   "nome": "isca_hypo",
+   "pontos": [
+    "TOKYO",
+    "MIDWAY",
+    "PEARL HARBOR"
+   ],
+   "linhas": [
+    [
+     "PEARL HARBOR",
+     "PEARL HARBOR",
+     "STATION HYPO"
+    ]
+   ],
+   "nota": "",
+   "em": "But at Pearl Harbor"
+  },
+  {
+   "id": "P043",
+   "bloco": "B05b",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhhc_h006-2_af.png",
+   "enq": "af",
+   "inicio": 223.6,
+   "dur": 3.6,
+   "frase": "The intercepts kept pointing to a target called \"AF.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NHHC · H-GRAM 006",
+    "The Navy's own history of the Midway codebreaking",
+    "Naval History and Heritage Command · PD"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "The intercepts kept"
+  },
+  {
+   "id": "P044",
+   "bloco": "B05b",
+   "tipo": "KenBurns",
+   "arq": "foto_rochefort1934.jpg",
+   "enq": "custom",
+   "inicio": 227.2,
+   "dur": 5.2,
+   "frase": "The unit's commander, Joseph Rochefort, was sure AF was Midway. Washington wasn't convinced.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "SEP 15 1934",
+    "Lt. Joseph J. Rochefort, USN",
+    "Naval History and Heritage Command NH 64844 · PD"
+   ],
+   "de": [
+    0.5,
+    0.3,
+    1.6
+   ],
+   "para": [
+    0.5,
+    0.36,
+    1.3
+   ],
+   "em": "The unit's commander"
+  },
+  {
+   "id": "P045",
+   "bloco": "B05c",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhhc_h006-2_af.png",
+   "enq": "holmes",
+   "inicio": 232.4,
+   "dur": 4.8,
+   "frase": "So one of his staff, Jasper Holmes, came up with a trick.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NHHC · H-GRAM 006",
+    "The Navy's own history of the Midway codebreaking",
+    "Naval History and Heritage Command · PD"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "So one of his staff"
+  },
+  {
+   "id": "P046",
+   "bloco": "B05c",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:PEARL → MIDWAY  (UNDERSEA CABLE)",
+   "inicio": 237.2,
+   "dur": 5.2,
+   "frase": "The instructions went to Midway over the undersea cable, where Japan couldn't listen.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "PEARL → MIDWAY  (UNDERSEA CABLE)",
+    "SEND IN THE CLEAR: FRESH-WATER PLANT BROKEN"
+   ],
+   "selo": "SCHEMATIC",
+   "em": "The instructions went"
+  },
+  {
+   "id": "P047",
+   "bloco": "B05c",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhhc_h006-2_af.png",
+   "enq": "agua",
+   "inicio": 242.4,
+   "dur": 6.4,
+   "frase": "Then Midway sent a fake radio message, in the clear: its fresh-water plant had broken down.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NHHC · H-GRAM 006",
+    "The Navy's own history of the Midway codebreaking",
+    "Naval History and Heritage Command · PD"
+   ],
+   "frase_doc": "a phony radio message in the clear",
+   "grifo": [
+    [
+     0.451,
+     0.3889,
+     0.1927,
+     0.0125
+    ]
+   ],
+   "literal": false,
+   "em": "Then Midway sent"
+  },
+  {
+   "id": "P048",
+   "bloco": "B05d",
+   "tipo": "KenBurns",
+   "arq": "foto_rochefort1934.jpg",
+   "enq": "detalhe:0.5,0.28",
+   "inicio": 248.8,
+   "dur": 7.6,
+   "frase": "Japanese listeners took the bait and passed the news along. Hypo decoded that, too. AF was short of water.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "SEP 15 1934",
+    "Lt. Joseph J. Rochefort, USN",
+    "Naval History and Heritage Command NH 64844 · PD"
+   ],
+   "num": [
+    "AF = MIDWAY",
+    "SHORT OF WATER"
+   ],
+   "de": [
+    0.5,
+    0.28,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.28,
+    1.55
+   ],
+   "em": "Japanese listeners"
+  },
+  {
+   "id": "P049",
+   "bloco": "B05e",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhhc_h006-2_af.png",
+   "enq": "twist",
+   "inicio": 256.4,
+   "dur": 8.4,
+   "frase": "The Navy's own historians add a twist. The trick wasn't really meant to convince Nimitz. It was meant to convince Washington.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NHHC · H-GRAM 006",
+    "The Navy's own history of the Midway codebreaking",
+    "Naval History and Heritage Command · PD"
+   ],
+   "frase_doc": "not to convince Nimitz",
+   "grifo": [
+    [
+     0.4094,
+     0.359,
+     0.2318,
+     0.0125
+    ]
+   ],
+   "literal": false,
+   "em": "The Navy's own"
+  },
+  {
+   "id": "P050",
+   "bloco": "B06a",
+   "tipo": "KenBurns",
+   "arq": "foto_akagi1941.jpg",
+   "enq": "detalhe:0.45,0.5",
+   "inicio": 264.8,
+   "dur": 7.6,
+   "frase": "Nimitz already believed it. His intelligence officer, Edwin Layton, even predicted where the Japanese carriers would first be spotted:",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1941 · JAPAN",
+    "Aircraft carrier Akagi",
+    "Naval History and Heritage Command NH 73059 · PD"
+   ],
+   "de": [
+    0.45,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.45,
+    0.5,
+    1.55
+   ],
+   "em": "Nimitz already"
+  },
+  {
+   "id": "P051",
+   "bloco": "B06a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:teatro",
+   "inicio": 272.4,
+   "dur": 6.4,
+   "frase": "bearing 325 degrees, 175 nautical miles from Midway, at six in the morning on June 4th.",
+   "real": false,
+   "reuso": false,
+   "nome": "teatro",
+   "pontos": [
+    "MIDWAY",
+    "JAPANESE CARRIERS"
+   ],
+   "linhas": [
+    [
+     "MIDWAY",
+     "JAPANESE CARRIERS",
+     "325° · 175 NM · 06:00"
+    ]
+   ],
+   "nota": "",
+   "em": "bearing 325 degrees"
+  },
+  {
+   "id": "P052",
+   "bloco": "B06b",
+   "tipo": "DocGrifo",
+   "arq": "doc_trackchart.jpg",
+   "enq": "detalhe",
+   "inicio": 278.8,
+   "dur": 12.0,
+   "frase": "Nimitz later said Layton was off by only \"five degrees, five miles, and five minutes.\" The Navy's historians say it was a little more than that, but not by much.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · CINCPAC",
+    "Track chart of the Battle of Midway (composite)",
+    "National Archives, RG 38 · Unrestricted"
+   ],
+   "num": [
+    "5° · 5 MI · 5 MIN",
+    "LAYTON'S MISS, PER NIMITZ"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "Nimitz later said"
+  },
+  {
+   "id": "P053",
+   "bloco": "B06c",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "586.1-588.9",
+   "inicio": 290.8,
+   "dur": 2.4,
+   "frase": "So three American carriers were waiting",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · AT SEA",
+    "A U.S. carrier group at sea",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 586.1,
+   "tout": 588.9,
+   "vel": 1.0,
+   "em": "So three American"
+  },
+  {
+   "id": "P054",
+   "bloco": "B06c",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "589.1-593.6",
+   "inicio": 293.2,
+   "dur": 3.2,
+   "frase": "northeast of the island. Yorktown, Enterprise and Hornet.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · AT SEA",
+    "A U.S. carrier during the battle",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 589.1,
+   "tout": 593.6,
+   "vel": 1.0,
+   "em": "northeast of the island"
+  },
+  {
+   "id": "P055",
+   "bloco": "B06d",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "385.1-389.2",
+   "inicio": 296.4,
+   "dur": 4.8,
+   "frase": "On the morning of June 4th, 108 Japanese planes came for Midway.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "Japanese planes over the runway",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "num": [
+    "108",
+    "JAPANESE PLANES"
+   ],
+   "tin": 385.1,
+   "tout": 389.2,
+   "vel": 0.85,
+   "em": "On the morning"
+  },
+  {
+   "id": "P056",
+   "bloco": "B06d",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "382.1-384.9",
+   "inicio": 301.2,
+   "dur": 1.6,
+   "frase": "The Marines were ready.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "Marine gun crew in a sandbagged pit",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 382.1,
+   "tout": 384.9,
+   "vel": 1.0,
+   "em": "The Marines were ready."
+  },
+  {
+   "id": "P057",
+   "bloco": "B06d",
+   "tipo": "KenBurns",
+   "arq": "foto_b17_decolagem1942.jpg",
+   "enq": "pan-dir",
+   "inicio": 302.8,
+   "dur": 5.2,
+   "frase": "Every plane on the atoll that could fly was already in the air.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "MAY 31 1942 · MIDWAY",
+    "Army B-17s take off from Midway",
+    "U.S. Army Air Forces USAF-22635-AC · PD"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Every plane on the atoll"
+  },
+  {
+   "id": "P058",
+   "bloco": "B06d",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "433.1-438.0",
+   "inicio": 308.0,
+   "dur": 4.4,
+   "frase": "The fighting over the islands themselves lasted about half an hour.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "Bombs fall on the islands",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "num": [
+    "~30",
+    "MINUTES"
+   ],
+   "tin": 433.1,
+   "tout": 438.0,
+   "vel": 1.0,
+   "em": "The fighting over"
+  },
+  {
+   "id": "P059",
+   "bloco": "B07a",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhhc_ford_oral.png",
+   "enq": "titulo",
+   "inicio": 312.4,
+   "dur": 9.2,
+   "frase": "One of the men watching from a rooftop was a Hollywood director. John Ford was now a Navy commander with a movie camera.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NHHC · ORAL HISTORY",
+    "John Ford remembers filming the Battle of Midway",
+    "Naval History and Heritage Command · PD"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "One of the men"
+  },
+  {
+   "id": "P060",
+   "bloco": "B07a",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "457.8-462.0",
+   "inicio": 321.6,
+   "dur": 4.8,
+   "frase": "He'd been posted on top of the power house on Sand Island,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "Men on a rooftop during the raid",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 457.8,
+   "tout": 462.0,
+   "vel": 0.87,
+   "em": "He'd been posted"
+  },
+  {
+   "id": "P061",
+   "bloco": "B07a",
+   "tipo": "KenBurns",
+   "arq": "foto_posto_comando2015.jpg",
+   "enq": "pan-esq",
+   "inicio": 326.4,
+   "dur": 2.8,
+   "frase": "with phones wired to the command post.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "APR 14 2015 · SAND ISLAND",
+    "1942 command post, crumbling",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "with phones wired"
+  },
+  {
+   "id": "P062",
+   "bloco": "B07b",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "440.3-445.2",
+   "inicio": 329.2,
+   "dur": 7.6,
+   "frase": "He had his camera lined up on a hangar, guessing it would be one of the first things hit.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "A hangar burning during the raid",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 440.3,
+   "tout": 445.2,
+   "vel": 0.64,
+   "em": "He had his camera"
+  },
+  {
+   "id": "P063",
+   "bloco": "B07b",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "450.2-453.5",
+   "inicio": 336.8,
+   "dur": 1.2,
+   "frase": "He was right.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "A bomb hits near the camera",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 450.2,
+   "tout": 453.5,
+   "vel": 1.0,
+   "em": "He was right."
+  },
+  {
+   "id": "P064",
+   "bloco": "B07b",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhhc_ford_oral.png",
+   "enq": "grifo",
+   "inicio": 338.0,
+   "dur": 11.2,
+   "frase": "In his own words: \"A Zero flew about 50 feet over it and dropped a bomb and hit it, the whole thing went up. I was knocked unconscious.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NHHC · ORAL HISTORY",
+    "John Ford remembers filming the Battle of Midway",
+    "Naval History and Heritage Command · PD"
+   ],
+   "frase_doc": "dropped a bomb and hit it",
+   "grifo": [
+    [
+     0.6867,
+     0.3736,
+     0.0625,
+     0.0125
+    ],
+    [
+     0.4094,
+     0.3889,
+     0.3016,
+     0.0125
+    ]
+   ],
+   "literal": true,
+   "em": "In his own words"
+  },
+  {
+   "id": "P065",
+   "bloco": "B07c",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "486.6-489.5",
+   "inicio": 349.2,
+   "dur": 3.2,
+   "frase": "He came to, and he got the shot.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "Fire beside the water towers",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 486.6,
+   "tout": 489.5,
+   "vel": 0.9,
+   "em": "He came to,"
+  },
+  {
+   "id": "P066",
+   "bloco": "B07c",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "489.7-493.9",
+   "inicio": 352.4,
+   "dur": 4.8,
+   "frase": "It's in the film he made that year, *The Battle of Midway*.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "Marines in a gun pit, from Ford's film",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 489.7,
+   "tout": 493.9,
+   "vel": 0.87,
+   "em": "It's in the film"
+  },
+  {
+   "id": "P067",
+   "bloco": "B07c",
+   "tipo": "KenBurns",
+   "arq": "foto_hangar1942.jpg",
+   "enq": "zoom-in",
+   "inicio": 357.2,
+   "dur": 5.6,
+   "frase": "This is the seaplane hangar on Sand Island after the raid. Remember that hangar.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 4 1942 · SAND ISLAND",
+    "The seaplane hangar after the raid",
+    "U.S. Navy 80-G-17081, National Archives · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "This is the seaplane"
+  },
+  {
+   "id": "P068",
+   "bloco": "B07d",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "366.8-368.7",
+   "inicio": 362.8,
+   "dur": 1.2,
+   "frase": "Across the island,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "A lookout with binoculars",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 366.8,
+   "tout": 368.7,
+   "vel": 1.0,
+   "em": "Across the island"
+  },
+  {
+   "id": "P069",
+   "bloco": "B07d",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "1036.0-1041.6",
+   "inicio": 364.0,
+   "dur": 4.0,
+   "frase": "John Miniclier was still up on his searchlight tower, counting.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "A lookout scans the sky (not Miniclier)",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 1036.0,
+   "tout": 1041.6,
+   "vel": 1.0,
+   "em": "John Miniclier was still"
+  },
+  {
+   "id": "P070",
+   "bloco": "B07d",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "373.4-377.6",
+   "inicio": 368.0,
+   "dur": 5.6,
+   "frase": "He remembered about thirty-eight of them, coming in on a line, straight toward him.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "Flak bursts around the formation",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "num": [
+    "~38",
+    "PLANES, ON A LINE"
+   ],
+   "tin": 373.4,
+   "tout": 377.6,
+   "vel": 0.75,
+   "em": "He remembered about"
+  },
+  {
+   "id": "P071",
+   "bloco": "B08a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:ataques",
+   "inicio": 373.6,
+   "dur": 3.6,
+   "frase": "Out at sea, the American counterattack was going badly.",
+   "real": false,
+   "reuso": false,
+   "nome": "ataques",
+   "pontos": [
+    "MIDWAY",
+    "JAPANESE CARRIERS",
+    "POINT LUCK"
+   ],
+   "linhas": [
+    [
+     "POINT LUCK",
+     "JAPANESE CARRIERS",
+     "TORPEDO SQUADRONS"
+    ],
+    [
+     "MIDWAY",
+     "JAPANESE CARRIERS",
+     ""
+    ]
+   ],
+   "nota": "",
+   "em": "Out at sea"
+  },
+  {
+   "id": "P072",
+   "bloco": "B08a",
+   "tipo": "Filme",
+   "arq": "filme_torpedo_squadron_8.mp4",
+   "enq": "123.5-130.4",
+   "inicio": 377.2,
+   "dur": 6.8,
+   "frase": "Wave after wave of torpedo planes found the Japanese carriers, and wave after wave was shot down.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 4 1942 · USS HORNET",
+    "TBD Devastators launch from USS Hornet",
+    "Torpedo Squadron 8 (U.S. Navy, 1942) · National Archives 428-MN-2004"
+   ],
+   "tin": 123.5,
+   "tout": 130.4,
+   "vel": 1.0,
+   "em": "Wave after wave"
+  },
+  {
+   "id": "P073",
+   "bloco": "B08b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:41 → 6",
+   "inicio": 384.0,
+   "dur": 5.2,
+   "frase": "From the three American carriers, forty-one torpedo bombers went in. Six came back.",
+   "real": false,
+   "reuso": false,
+   "valor": "41 → 6",
+   "rotulo": "TORPEDO BOMBERS WENT IN · CAME BACK",
+   "em": "From the three"
+  },
+  {
+   "id": "P074",
+   "bloco": "B08b",
+   "tipo": "Filme",
+   "arq": "filme_torpedo_squadron_8.mp4",
+   "enq": "87.0-96.7",
+   "inicio": 389.2,
+   "dur": 4.8,
+   "frase": "Torpedo Squadron Eight, from the Hornet, lost all fifteen of its planes.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · USS HORNET",
+    "Torpedo Squadron 8 on USS Hornet",
+    "Torpedo Squadron 8 (U.S. Navy, 1942) · National Archives 428-MN-2004"
+   ],
+   "num": [
+    "15 / 15",
+    "PLANES LOST"
+   ],
+   "tin": 87.0,
+   "tout": 96.7,
+   "vel": 1.0,
+   "em": "Torpedo Squadron Eight"
+  },
+  {
+   "id": "P075",
+   "bloco": "B08c",
+   "tipo": "Filme",
+   "arq": "filme_torpedo_squadron_8.mp4",
+   "enq": "165.1-174.8",
+   "inicio": 394.0,
+   "dur": 3.2,
+   "frase": "Its skipper, John Waldron, had told his men",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1942 · USS HORNET",
+    "Lt. Cdr. John Waldron (left), VT-8 skipper",
+    "Torpedo Squadron 8 (U.S. Navy, 1942) · National Archives 428-MN-2004"
+   ],
+   "tin": 165.1,
+   "tout": 174.8,
+   "vel": 1.0,
+   "em": "Its skipper"
+  },
+  {
+   "id": "P076",
+   "bloco": "B08c",
+   "tipo": "KenBurns",
+   "arq": "foto_soryu_b17_1942.jpg",
+   "enq": "custom",
+   "inicio": 397.2,
+   "dur": 7.2,
+   "frase": "that if only one plane was left, he wanted that man to go in and get a hit.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 4 1942 · NORTHWEST OF MIDWAY",
+    "Carrier Soryu circling under B-17 attack",
+    "U.S. Army Air Forces USAF-ID-4845 · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "para": [
+    0.24,
+    0.72,
+    1.5
+   ],
+   "em": "that if only one"
+  },
+  {
+   "id": "P077",
+   "bloco": "B08d",
+   "tipo": "Filme",
+   "arq": "filme_torpedo_squadron_8.mp4",
+   "enq": "141.0-146.8",
+   "inicio": 404.4,
+   "dur": 3.6,
+   "frase": "The last plane was flown by Ensign George Gay.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1942 · USS HORNET",
+    "A VT-8 TBD Devastator takes off",
+    "Torpedo Squadron 8 (U.S. Navy, 1942) · National Archives 428-MN-2004"
+   ],
+   "tin": 141.0,
+   "tout": 146.8,
+   "vel": 1.0,
+   "em": "The last plane"
+  },
+  {
+   "id": "P078",
+   "bloco": "B08d",
+   "tipo": "KenBurns",
+   "arq": "foto_soryu_b17_1942.jpg",
+   "enq": "navio",
+   "inicio": 408.0,
+   "dur": 3.2,
+   "frase": "He dropped his torpedo at the carrier Soryu.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 4 1942 · NORTHWEST OF MIDWAY",
+    "Carrier Soryu circling under B-17 attack",
+    "U.S. Army Air Forces USAF-ID-4845 · PD"
+   ],
+   "de": [
+    0.2,
+    0.68,
+    1.9
+   ],
+   "para": [
+    0.2,
+    0.68,
+    2.2
+   ],
+   "em": "He dropped his torpedo"
+  },
+  {
+   "id": "P079",
+   "bloco": "B08d",
+   "tipo": "Filme",
+   "arq": "filme_torpedo_squadron_8.mp4",
+   "enq": "440.4-445.5",
+   "inicio": 411.2,
+   "dur": 2.8,
+   "frase": "It missed, and he was shot down.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · AT SEA",
+    "The open sea where VT-8 attacked",
+    "Torpedo Squadron 8 (U.S. Navy, 1942) · National Archives 428-MN-2004"
+   ],
+   "tin": 440.4,
+   "tout": 445.5,
+   "vel": 1.0,
+   "em": "It missed, and"
+  },
+  {
+   "id": "P080",
+   "bloco": "B08d",
+   "tipo": "KenBurns",
+   "arq": "foto_george_gay1942.jpg",
+   "enq": "custom",
+   "inicio": 414.0,
+   "dur": 8.8,
+   "frase": "Gay was the only man in that attack to survive. This is him a few days later, recovering in a hospital bed.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · PEARL HARBOR",
+    "Ens. George Gay, VT-8, in the hospital",
+    "National Archives 80-G-17678 · Unrestricted"
+   ],
+   "de": [
+    0.62,
+    0.52,
+    1.0
+   ],
+   "para": [
+    0.62,
+    0.48,
+    1.12
+   ],
+   "crop": [
+    0.27,
+    0.06,
+    0.71,
+    0.9
+   ],
+   "em": "Gay was the only"
+  },
+  {
+   "id": "P081",
+   "bloco": "B09a",
+   "tipo": "Filme",
+   "arq": "filme_torpedo_squadron_8.mp4",
+   "enq": "446.0-451.8",
+   "inicio": 422.8,
+   "dur": 3.2,
+   "frase": "But those sacrifices kept the Japanese carriers busy.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · AT SEA",
+    "The open sea northwest of Midway",
+    "Torpedo Squadron 8 (U.S. Navy, 1942) · National Archives 428-MN-2004"
+   ],
+   "tin": 446.0,
+   "tout": 451.8,
+   "vel": 1.0,
+   "em": "But those sacrifices"
+  },
+  {
+   "id": "P082",
+   "bloco": "B09a",
+   "tipo": "KenBurns",
+   "arq": "foto_hiryu_b17_1942.jpg",
+   "enq": "tilt-baixo",
+   "inicio": 426.0,
+   "dur": 4.8,
+   "frase": "Their crews were launching fighters, landing them, and swerving to dodge torpedoes.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 4 1942 · NORTHWEST OF MIDWAY",
+    "Carrier Hiryu maneuvering under B-17 attack",
+    "U.S. Army Air Forces USAF 75712 AC · PD"
+   ],
+   "de": [
+    0.5,
+    0.44,
+    1.12
+   ],
+   "para": [
+    0.5,
+    0.56,
+    1.12
+   ],
+   "em": "Their crews were"
+  },
+  {
+   "id": "P083",
+   "bloco": "B09a",
+   "tipo": "KenBurns",
+   "arq": "foto_b17_ataque1942.jpg",
+   "enq": "custom",
+   "inicio": 430.8,
+   "dur": 4.0,
+   "frase": "Nobody had time to get a counterstrike into the air.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 4 1942 · NORTHWEST OF MIDWAY",
+    "Japanese carrier evading B-17 bombs",
+    "U.S. Army Air Forces 342-FH, National Archives · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "para": [
+    0.17,
+    0.8,
+    1.6
+   ],
+   "crop": [
+    0.13,
+    0.0,
+    0.87,
+    1.0
+   ],
+   "em": "Nobody had time"
+  },
+  {
+   "id": "P084",
+   "bloco": "B09b",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "594.0-597.0",
+   "inicio": 434.8,
+   "dur": 4.8,
+   "frase": "Then, at 10:20 that morning, forty-eight American dive bombers showed up overhead.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · AT SEA",
+    "U.S. Navy dive bombers in formation",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "num": [
+    "10:20",
+    "48 DIVE BOMBERS"
+   ],
+   "tin": 594.0,
+   "tout": 597.0,
+   "vel": 0.57,
+   "em": "Then, at 10:20"
+  },
+  {
+   "id": "P085",
+   "bloco": "B09b",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "597.1-604.5",
+   "inicio": 439.6,
+   "dur": 6.8,
+   "frase": "Two squadrons from Enterprise and one from Yorktown arrived at almost the same moment, by pure coincidence.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · AT SEA",
+    "U.S. Navy SBD dive bombers",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 597.1,
+   "tout": 604.5,
+   "vel": 1.0,
+   "em": "Two squadrons from"
+  },
+  {
+   "id": "P086",
+   "bloco": "B09c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:5 MIN",
+   "inicio": 446.4,
+   "dur": 4.8,
+   "frase": "In about five minutes, Akagi, Kaga and Soryu were wrecks on fire.",
+   "real": false,
+   "reuso": false,
+   "valor": "5 MIN",
+   "rotulo": "AKAGI · KAGA · SORYU",
+   "em": "In about five"
+  },
+  {
+   "id": "P087",
+   "bloco": "B09d",
+   "tipo": "KenBurns",
+   "arq": "foto_hiryu_b17_1942.jpg",
+   "enq": "detalhe:0.5,0.55",
+   "inicio": 451.2,
+   "dur": 2.4,
+   "frase": "The fourth carrier, Hiryu, hit back.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 4 1942 · NORTHWEST OF MIDWAY",
+    "Carrier Hiryu maneuvering under B-17 attack",
+    "U.S. Army Air Forces USAF 75712 AC · PD"
+   ],
+   "de": [
+    0.5,
+    0.55,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.55,
+    1.55
+   ],
+   "em": "The fourth carrier"
+  },
+  {
+   "id": "P088",
+   "bloco": "B09d",
+   "tipo": "KenBurns",
+   "arq": "foto_yorktown_torpedo1942.jpg",
+   "enq": "push-navio",
+   "inicio": 453.6,
+   "dur": 4.8,
+   "frase": "Her planes found the Yorktown and left her badly damaged and listing.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 4 1942 · AT SEA",
+    "USS Yorktown (CV-5) hit by a torpedo",
+    "U.S. Navy, National Archives · PD"
+   ],
+   "de": [
+    0.5,
+    0.6,
+    1.04
+   ],
+   "para": [
+    0.3,
+    0.8,
+    1.35
+   ],
+   "em": "Her planes found"
+  },
+  {
+   "id": "P089",
+   "bloco": "B09d",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "710.8-713.0",
+   "inicio": 458.4,
+   "dur": 3.2,
+   "frase": "That afternoon, American dive bombers caught Hiryu too.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · AT SEA",
+    "Dive bombers heading out",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 710.8,
+   "tout": 713.0,
+   "vel": 0.7,
+   "em": "That afternoon"
+  },
+  {
+   "id": "P090",
+   "bloco": "B09e",
+   "tipo": "KenBurns",
+   "arq": "foto_hiryu_chamas1942.jpg",
+   "enq": "pan-esq",
+   "inicio": 461.6,
+   "dur": 8.8,
+   "frase": "By the next morning, all four Japanese carriers had been sunk by their own side's torpedoes, so the Americans couldn't capture them.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 5 1942 · AT SEA",
+    "Hiryu adrift and burning",
+    "Naval History and Heritage Command NH 73064 · PD"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "By the next morning"
+  },
+  {
+   "id": "P091",
+   "bloco": "B10a",
+   "tipo": "DocGrifo",
+   "arq": "doc_trackchart.jpg",
+   "enq": "yorktown",
+   "inicio": 470.4,
+   "dur": 7.2,
+   "frase": "The Yorktown almost made it. Her crew kept her afloat for two days, under tow toward Pearl Harbor.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUNE 1942 · CINCPAC",
+    "Track chart of the Battle of Midway (composite)",
+    "National Archives, RG 38 · Unrestricted"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "The Yorktown almost"
+  },
+  {
+   "id": "P092",
+   "bloco": "B10b",
+   "tipo": "KenBurns",
+   "arq": "foto_yorktown_bomba1942.jpg",
+   "enq": "custom",
+   "inicio": 477.6,
+   "dur": 7.6,
+   "frase": "Then, on June 6th, the Japanese submarine I-168 put torpedoes into the Yorktown and the destroyer Hammann beside her.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 4 1942 · AT SEA",
+    "USS Yorktown under attack by Hiryu's planes",
+    "U.S. Navy 80-G-414423, National Archives · PD"
+   ],
+   "de": [
+    0.5,
+    0.55,
+    1.04
+   ],
+   "para": [
+    0.45,
+    0.8,
+    1.4
+   ],
+   "crop": [
+    0.0,
+    0.0,
+    1.0,
+    0.9
+   ],
+   "em": "Then, on June 6th"
+  },
+  {
+   "id": "P093",
+   "bloco": "B10b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:JUNE 7, 1942",
+   "inicio": 485.2,
+   "dur": 4.4,
+   "frase": "Hammann sank almost at once. Yorktown went down the next morning.",
+   "real": false,
+   "reuso": false,
+   "valor": "JUNE 7, 1942",
+   "rotulo": "YORKTOWN SINKS",
+   "em": "Hammann sank"
+  },
+  {
+   "id": "P094",
+   "bloco": "B10c",
+   "tipo": "KenBurns",
+   "arq": "foto_mikuma1942.jpg",
+   "enq": "pan-dir",
+   "inicio": 489.6,
+   "dur": 7.2,
+   "frase": "Japan also lost the heavy cruiser Mikuma. Her sister ship, Mogami, was badly damaged, but she got away.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 6 1942 · AT SEA",
+    "Heavy cruiser Mikuma, sinking",
+    "U.S. Navy 80-G-414422, National Archives · PD"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Japan also lost"
+  },
+  {
+   "id": "P095",
+   "bloco": "B10d",
+   "tipo": "DocGrifo",
+   "arq": "doc_cincpac_p1.jpg",
+   "enq": "c",
+   "inicio": 496.8,
+   "dur": 8.4,
+   "frase": "Now go back to Nimitz's page. Line (c). \"2 CA sunk – Mogami, Mikuma.\" One of those two cruisers didn't sink.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 28 1942 · PEARL HARBOR",
+    "Nimitz (CINCPAC) to COMINCH: \"Battle of Midway\"",
+    "National Archives, RG 38 · Unrestricted"
+   ],
+   "frase_doc": "2 CA sunk – Mogami, Mikuma",
+   "grifo": [
+    [
+     0.282,
+     0.775,
+     0.35,
+     0.018
+    ]
+   ],
+   "literal": true,
+   "em": "Now go back"
+  },
+  {
+   "id": "P096",
+   "bloco": "B10d",
+   "tipo": "KenBurns",
+   "arq": "foto_mikuma1942.jpg",
+   "enq": "detalhe:0.35,0.55",
+   "inicio": 505.2,
+   "dur": 1.6,
+   "frase": "Hold on to that.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 6 1942 · AT SEA",
+    "Heavy cruiser Mikuma, sinking",
+    "U.S. Navy 80-G-414422, National Archives · PD"
+   ],
+   "de": [
+    0.35,
+    0.55,
+    1.35
+   ],
+   "para": [
+    0.35,
+    0.55,
+    1.55
+   ],
+   "em": "Hold on to that."
+  },
+  {
+   "id": "P097",
+   "bloco": "B10e",
+   "tipo": "DocGrifo",
+   "arq": "doc_cincpac_p1.jpg",
+   "enq": "g",
+   "inicio": 506.8,
+   "dur": 3.6,
+   "frase": "The page also estimates that Japan lost 4,800 men.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 28 1942 · PEARL HARBOR",
+    "Nimitz (CINCPAC) to COMINCH: \"Battle of Midway\"",
+    "National Archives, RG 38 · Unrestricted"
+   ],
+   "num": [
+    "4,800",
+    "PAGE ESTIMATE"
+   ],
+   "frase_doc": "4,800",
+   "grifo": [
+    [
+     0.282,
+     0.853,
+     0.6,
+     0.018
+    ]
+   ],
+   "literal": false,
+   "em": "The page also"
+  },
+  {
+   "id": "P098",
+   "bloco": "B10e",
+   "tipo": "KenBurns",
+   "arq": "foto_prisioneiros_hiryu1942.jpg",
+   "enq": "zoom-out",
+   "inicio": 510.4,
+   "dur": 7.2,
+   "frase": "Navy historians today say more than 3,000, including over 700 of the mechanics who kept their planes flying.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · MIDWAY",
+    "Hiryu survivors picked up by the U.S. Navy",
+    "U.S. Navy 80-G-79984-28, National Archives · PD"
+   ],
+   "num": [
+    "3,000+",
+    "JAPANESE DEAD (NHHC)"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Navy historians today"
+  },
+  {
+   "id": "P099",
+   "bloco": "B10f",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:248",
+   "inicio": 517.6,
+   "dur": 3.2,
+   "frase": "All 248 of the carriers' planes were lost.",
+   "real": false,
+   "reuso": false,
+   "valor": "248",
+   "rotulo": "CARRIER PLANES LOST",
+   "em": "All 248"
+  },
+  {
+   "id": "P100",
+   "bloco": "B10f",
+   "tipo": "KenBurns",
+   "arq": "foto_kaga1936.jpg",
+   "enq": "zoom-out",
+   "inicio": 520.8,
+   "dur": 7.6,
+   "frase": "After six months of winning, Japan's carrier fleet had finally been stopped, and Japan never got those ships back.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "c. 1936 · JAPAN",
+    "Aircraft carrier Kaga",
+    "Naval History and Heritage Command NH 73060 · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "After six months"
+  },
+  {
+   "id": "P101",
+   "bloco": "B11a",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "774.0-778.6",
+   "inicio": 528.4,
+   "dur": 6.4,
+   "frase": "Japan never took Midway. But the strangest part of this story starts after the shooting stops.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · SAND ISLAND",
+    "Sailors walk past the damaged hangar",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 774.0,
+   "tout": 778.6,
+   "vel": 0.72,
+   "em": "Japan never took"
+  },
+  {
+   "id": "P102",
+   "bloco": "B11a",
+   "tipo": "KenBurns",
+   "arq": "foto_midway1945.jpg",
+   "enq": "zoom-in",
+   "inicio": 534.8,
+   "dur": 1.6,
+   "frase": "The Navy didn't leave.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "APRIL 1945 · MIDWAY ATOLL",
+    "Naval Air Station Midway",
+    "U.S. Navy, National Archives (RG 313) · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The Navy didn't"
+  },
+  {
+   "id": "P103",
+   "bloco": "B11b",
+   "tipo": "KenBurns",
+   "arq": "foto_guerrafria1959.jpg",
+   "enq": "custom",
+   "inicio": 536.4,
+   "dur": 4.0,
+   "frase": "In 1957, a forty-million-dollar building program began on Sand Island.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1959 · SAND ISLAND",
+    "NAS Midway, base of the Pacific Barrier patrols",
+    "U.S. Navy, All Hands (Aug 1959) · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "para": [
+    0.52,
+    0.5,
+    1.08
+   ],
+   "em": "In 1957, a forty"
+  },
+  {
+   "id": "P104",
+   "bloco": "B11b",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:barreira",
+   "inicio": 540.4,
+   "dur": 4.4,
+   "frase": "Midway became home to the Pacific end of America's early-warning line,",
+   "real": false,
+   "reuso": false,
+   "nome": "barreira",
+   "pontos": [
+    "MIDWAY",
+    "ADAK"
+   ],
+   "linhas": [
+    [
+     "MIDWAY",
+     "ADAK",
+     "PACIFIC BARRIER"
+    ]
+   ],
+   "selo": "SCHEMATIC",
+   "nota": "exige base com lat até 53°N (Adak)",
+   "em": "Midway became home"
+  },
+  {
+   "id": "P105",
+   "bloco": "B11b",
+   "tipo": "KenBurns",
+   "arq": "foto_midway1945.jpg",
+   "enq": "detalhe:0.35,0.62",
+   "inicio": 544.8,
+   "dur": 6.0,
+   "frase": "a chain of radar meant to give early warning of an attack on North America.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "APRIL 1945 · MIDWAY ATOLL",
+    "Naval Air Station Midway",
+    "U.S. Navy, National Archives (RG 313) · PD"
+   ],
+   "de": [
+    0.35,
+    0.62,
+    1.35
+   ],
+   "para": [
+    0.35,
+    0.62,
+    1.55
+   ],
+   "em": "a chain of radar"
+  },
+  {
+   "id": "P106",
+   "bloco": "B11c",
+   "tipo": "KenBurns",
+   "arq": "foto_midway1945.jpg",
+   "enq": "abre",
+   "inicio": 550.8,
+   "dur": 4.0,
+   "frase": "At one time, the atoll supported more than 5,000 people.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "APRIL 1945 · MIDWAY ATOLL",
+    "Naval Air Station Midway",
+    "U.S. Navy, National Archives (RG 313) · PD"
+   ],
+   "num": [
+    "5,000+",
+    "PEOPLE AT ITS PEAK"
+   ],
+   "de": [
+    0.35,
+    0.62,
+    1.5
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "At one time"
+  },
+  {
+   "id": "P107",
+   "bloco": "B11c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:1993",
+   "inicio": 554.8,
+   "dur": 5.2,
+   "frase": "Then the Cold War ended. In 1993, Naval Air Facility Midway Island closed.",
+   "real": false,
+   "reuso": false,
+   "valor": "1993",
+   "rotulo": "NAVAL AIR FACILITY CLOSES",
+   "em": "Then the Cold War"
+  },
+  {
+   "id": "P108",
+   "bloco": "B11d",
+   "tipo": "KenBurns",
+   "arq": "foto_oficina_albatrozes2015.jpg",
+   "enq": "pan-dir",
+   "inicio": 560.0,
+   "dur": 4.8,
+   "frase": "And the question became: what do you do with a little city",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "APR 13 2015 · SAND ISLAND",
+    "Old Navy machine shop and nesting albatrosses",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "And the question"
+  },
+  {
+   "id": "P109",
+   "bloco": "B11d",
+   "tipo": "KenBurns",
+   "arq": "foto_carpintaria_albatrozes2015.jpg",
+   "enq": "zoom-out",
+   "inicio": 564.8,
+   "dur": 4.8,
+   "frase": "in the middle of the ocean that nobody needs to defend anymore?",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "APR 13 2015 · SAND ISLAND",
+    "Old Navy carpentry shop and albatrosses",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "in the middle of the ocean"
+  },
+  {
+   "id": "P110",
+   "bloco": "B12a",
+   "tipo": "DocGrifo",
+   "arq": "doc_eo13022_p1.png",
+   "enq": "titulo",
+   "inicio": 569.6,
+   "dur": 4.4,
+   "frase": "On October 31st, 1996, President Bill Clinton signed Executive Order 13022.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "OCT 31 1996 · WASHINGTON",
+    "Executive Order 13022, Administration of the Midway Islands",
+    "Federal Register 61 FR 56875 · PD"
+   ],
+   "grifo": [
+    [
+     0.338,
+     0.152,
+     0.34,
+     0.018
+    ]
+   ],
+   "literal": false,
+   "em": "On October 31st"
+  },
+  {
+   "id": "P111",
+   "bloco": "B12a",
+   "tipo": "KenBurns",
+   "arq": "foto_canhao_historico.jpg",
+   "enq": "pan-esq",
+   "inicio": 574.0,
+   "dur": 4.8,
+   "frase": "It moved Midway from the Navy to the Department of the Interior.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "MIDWAY ATOLL",
+    "WWII-era gun among the albatrosses",
+    "USFWS / National Archives 022-DP-06622 · PD"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "It moved Midway"
+  },
+  {
+   "id": "P112",
+   "bloco": "B12b",
+   "tipo": "DocGrifo",
+   "arq": "doc_eo13022_p1.png",
+   "enq": "sec3a",
+   "inicio": 578.8,
+   "dur": 8.0,
+   "frase": "Read section three. The Fish and Wildlife Service \"shall administer the Midway Islands as the Midway Atoll National Wildlife Refuge.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "OCT 31 1996 · WASHINGTON",
+    "Executive Order 13022, Administration of the Midway Islands",
+    "Federal Register 61 FR 56875 · PD"
+   ],
+   "frase_doc": "shall administer the Midway Islands as the Midway Atoll National Wildlife Refuge",
+   "grifo": [
+    [
+     0.5,
+     0.534,
+     0.427,
+     0.015
+    ],
+    [
+     0.338,
+     0.548,
+     0.245,
+     0.015
+    ]
+   ],
+   "literal": true,
+   "em": "Read section three."
+  },
+  {
+   "id": "P113",
+   "bloco": "B12b",
+   "tipo": "KenBurns",
+   "arq": "foto_albatroz_ninho.jpg",
+   "enq": "pan-esq",
+   "inicio": 586.8,
+   "dur": 3.6,
+   "frase": "Now look at the first purpose on its list:",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "APR 2 2026 · MIDWAY ATOLL",
+    "Laysan albatross colony",
+    "USFWS / Dan Rapp · PD"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Now look at the first"
+  },
+  {
+   "id": "P114",
+   "bloco": "B12b",
+   "tipo": "DocGrifo",
+   "arq": "doc_eo13022_p1.png",
+   "enq": "1",
+   "inicio": 590.4,
+   "dur": 3.6,
+   "frase": "\"maintaining and restoring natural biological diversity within the refuge.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "OCT 31 1996 · WASHINGTON",
+    "Executive Order 13022, Administration of the Midway Islands",
+    "Federal Register 61 FR 56875 · PD"
+   ],
+   "frase_doc": "maintaining and restoring natural biological diversity within the refuge",
+   "grifo": [
+    [
+     0.38,
+     0.58,
+     0.546,
+     0.015
+    ]
+   ],
+   "literal": true,
+   "em": "\"maintaining and"
+  },
+  {
+   "id": "P115",
+   "bloco": "B12c",
+   "tipo": "DocGrifo",
+   "arq": "doc_eo13022_p1.png",
+   "enq": "5",
+   "inicio": 594.0,
+   "dur": 5.2,
+   "frase": "History comes fifth: \"recognize and maintain the historic significance of the Midway Islands.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "OCT 31 1996 · WASHINGTON",
+    "Executive Order 13022, Administration of the Midway Islands",
+    "Federal Register 61 FR 56875 · PD"
+   ],
+   "frase_doc": "recognize and maintain the historic significance of the Midway Islands",
+   "grifo": [
+    [
+     0.817,
+     0.708,
+     0.11,
+     0.015
+    ],
+    [
+     0.338,
+     0.722,
+     0.48,
+     0.015
+    ]
+   ],
+   "literal": true,
+   "em": "History comes fifth"
+  },
+  {
+   "id": "P116",
+   "bloco": "B12c",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "149.5-155.6",
+   "inicio": 599.2,
+   "dur": 6.4,
+   "frase": "So the island's new boss was a wildlife agency, and on paper, the birds came first.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1942 · MIDWAY",
+    "Laysan albatross on Midway, filmed by Ford",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 149.5,
+   "tout": 155.6,
+   "vel": 0.95,
+   "em": "So the island's new"
+  },
+  {
+   "id": "P117",
+   "bloco": "B12d",
+   "tipo": "KenBurns",
+   "arq": "foto_bateria_a_2015.jpg",
+   "enq": "zoom-in",
+   "inicio": 605.6,
+   "dur": 3.2,
+   "frase": "The last Navy personnel left the next year.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "APR 15 2015 · SAND ISLAND",
+    "Battery A, 5-inch gun position",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The last Navy"
+  },
+  {
+   "id": "P118",
+   "bloco": "B12d",
+   "tipo": "KenBurns",
+   "arq": "foto_eastern_memorial2015.jpg",
+   "enq": "pan-dir",
+   "inicio": 608.8,
+   "dur": 5.2,
+   "frase": "In 2000, the refuge was also named the Battle of Midway National Memorial.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "APR 16 2015 · EASTERN ISLAND",
+    "Original Henderson Field memorial, now an albatross colony",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "In 2000, the refuge"
+  },
+  {
+   "id": "P119",
+   "bloco": "B12d",
+   "tipo": "DocGrifo",
+   "arq": "doc_doi2014_topo.png",
+   "enq": "visitas",
+   "inicio": 614.0,
+   "dur": 6.8,
+   "frase": "And for a while, you could still go. Small groups flew in for wildlife and history tours.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 20 2014 · U.S. HOUSE",
+    "USFWS testimony on Midway Atoll NWR",
+    "U.S. Department of the Interior · PD"
+   ],
+   "num": [
+    "~300",
+    "VISITORS A YEAR (UNTIL 2012)"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "And for a while"
+  },
+  {
+   "id": "P120",
+   "bloco": "B13a",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "242.0-245.7",
+   "inicio": 620.8,
+   "dur": 5.6,
+   "frase": "But the Navy left something behind besides runways. Many of the buildings on Midway",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · EASTERN ISLAND",
+    "Navy B-17 on Midway's runway",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 242.0,
+   "tout": 245.7,
+   "vel": 0.66,
+   "em": "But the Navy left"
+  },
+  {
+   "id": "P121",
+   "bloco": "B13a",
+   "tipo": "KenBurns",
+   "arq": "foto_estacao_cabo_descascando2015.jpg",
+   "enq": "zoom-in",
+   "inicio": 626.4,
+   "dur": 3.6,
+   "frase": "were finished with lead-based paint. As the paint flaked,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "APR 2015 · SAND ISLAND",
+    "Cable station: cracking, peeling paint",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "were finished with"
+  },
+  {
+   "id": "P122",
+   "bloco": "B13a",
+   "tipo": "KenBurns",
+   "arq": "foto_posto_comando2015.jpg",
+   "enq": "detalhe:0.5,0.75",
+   "inicio": 630.0,
+   "dur": 6.8,
+   "frase": "it ended up in the soil, and albatross chicks nesting right next to the walls swallowed it.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "APR 14 2015 · SAND ISLAND",
+    "1942 command post, crumbling",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.5,
+    0.75,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.75,
+    1.55
+   ],
+   "em": "it ended up in the soil"
+  },
+  {
+   "id": "P123",
+   "bloco": "B13b",
+   "tipo": "DocGrifo",
+   "arq": "doc_doi2014_chumbo.png",
+   "enq": "grifo",
+   "inicio": 636.8,
+   "dur": 12.0,
+   "frase": "In 2014, a Fish and Wildlife official told Congress: \"Lead poisoning has caused the mortality of approximately 10,000 albatross chicks annually, creating a conservation crisis.\" Ten thousand chicks a year.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 20 2014 · U.S. HOUSE",
+    "USFWS testimony: lead paint and albatross chicks",
+    "U.S. Department of the Interior · PD"
+   ],
+   "num": [
+    "10,000",
+    "CHICKS A YEAR"
+   ],
+   "frase_doc": "Lead poisoning has caused the mortality of approximately 10,000 albatross chicks annually",
+   "grifo": [
+    [
+     0.3865,
+     0.3889,
+     0.4073,
+     0.0257
+    ]
+   ],
+   "literal": true,
+   "em": "In 2014, a Fish"
+  },
+  {
+   "id": "P124",
+   "bloco": "B13c",
+   "tipo": "KenBurns",
+   "arq": "foto_estacao_cabo2015.jpg",
+   "enq": "pan-esq",
+   "inicio": 648.8,
+   "dur": 8.8,
+   "frase": "Starting in 2011, the Service has been scraping, sealing and tearing down. Of the old cable station buildings that were shedding paint,",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "APR 2015 · SAND ISLAND",
+    "Cable station building (1903) and the colony",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Starting in 2011"
+  },
+  {
+   "id": "P125",
+   "bloco": "B13c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:3",
+   "inicio": 657.6,
+   "dur": 4.4,
+   "frase": "three were removed because they were too far gone to save.",
+   "real": false,
+   "reuso": false,
+   "valor": "3",
+   "rotulo": "CABLE STATION BUILDINGS REMOVED",
+   "em": "three were removed"
+  },
+  {
+   "id": "P126",
+   "bloco": "B13c",
+   "tipo": "DocGrifo",
+   "arq": "doc_gao16382_p2.png",
+   "enq": "demol",
+   "inicio": 662.0,
+   "dur": 6.0,
+   "frase": "A federal audit later counted seven historic buildings demolished as part of the lead cleanup.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 2 2016 · GAO-16-382",
+    "Highlights: budget cuts, visitation, historic buildings",
+    "U.S. Government Accountability Office · PD"
+   ],
+   "num": [
+    "7",
+    "HISTORIC BUILDINGS DEMOLISHED"
+   ],
+   "frase_doc": "demolished seven historic",
+   "grifo": [
+    [
+     0.6976,
+     0.5476,
+     0.1925,
+     0.0167
+    ],
+    [
+     0.3525,
+     0.5621,
+     0.0725,
+     0.0167
+    ]
+   ],
+   "literal": false,
+   "em": "A federal audit"
+  },
+  {
+   "id": "P127",
+   "bloco": "B14a",
+   "tipo": "DocGrifo",
+   "arq": "doc_gao16382_p2.png",
+   "enq": "demol",
+   "inicio": 668.0,
+   "dur": 3.2,
+   "frase": "Then came the money. Running Midway is expensive.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUN 2 2016 · GAO-16-382",
+    "Highlights: budget cuts, visitation, historic buildings",
+    "U.S. Government Accountability Office · PD"
+   ],
+   "grifo": [
+    [
+     0.6976,
+     0.5476,
+     0.1925,
+     0.0167
+    ],
+    [
+     0.3525,
+     0.5621,
+     0.0725,
+     0.0167
+    ]
+   ],
+   "literal": false,
+   "em": "Then came the money."
+  },
+  {
+   "id": "P128",
+   "bloco": "B14a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:suprimento",
+   "inicio": 671.2,
+   "dur": 4.4,
+   "frase": "Food, fuel and building materials come from Hawaii or the mainland.",
+   "real": false,
+   "reuso": false,
+   "nome": "suprimento",
+   "pontos": [
+    "HONOLULU",
+    "MIDWAY"
+   ],
+   "linhas": [
+    [
+     "HONOLULU",
+     "MIDWAY",
+     "EVERYTHING SHIPPED IN"
+    ]
+   ],
+   "nota": "",
+   "em": "Food, fuel and"
+  },
+  {
+   "id": "P129",
+   "bloco": "B14a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:$760,000",
+   "inicio": 675.6,
+   "dur": 4.8,
+   "frase": "A single barge of supplies can cost about 760,000 dollars per trip.",
+   "real": false,
+   "reuso": false,
+   "valor": "$760,000",
+   "rotulo": "PER BARGE TRIP",
+   "em": "A single barge"
+  },
+  {
+   "id": "P130",
+   "bloco": "B14b",
+   "tipo": "KenBurns",
+   "arq": "foto_carpintaria_albatrozes2015.jpg",
+   "enq": "detalhe:0.5,0.45",
+   "inicio": 680.4,
+   "dur": 6.8,
+   "frase": "For fiscal years 2012 and 2013, the Service cut Midway's budget by more than a million dollars.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "APR 13 2015 · SAND ISLAND",
+    "Old Navy carpentry shop and albatrosses",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "num": [
+    "−$1M+",
+    "BUDGET, FY2012–13"
+   ],
+   "de": [
+    0.5,
+    0.45,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.45,
+    1.55
+   ],
+   "em": "For fiscal years"
+  },
+  {
+   "id": "P131",
+   "bloco": "B14b",
+   "tipo": "DocGrifo",
+   "arq": "doc_gao16382_p1.png",
+   "enq": "capa2",
+   "inicio": 687.2,
+   "dur": 4.8,
+   "frase": "A report by the Government Accountability Office spells out what happened next.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 2 2016 · GAO-16-382",
+    "Report: Midway Atoll, historic properties and visitation",
+    "U.S. Government Accountability Office · PD"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "A report by"
+  },
+  {
+   "id": "P132",
+   "bloco": "B14c",
+   "tipo": "DocGrifo",
+   "arq": "doc_gao16382_p2.png",
+   "enq": "susp",
+   "inicio": 692.0,
+   "dur": 6.4,
+   "frase": "Officials said the lower budget \"led to suspension of public visitation on Midway in November 2012.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 2 2016 · GAO-16-382",
+    "Highlights: budget cuts, visitation, historic buildings",
+    "U.S. Government Accountability Office · PD"
+   ],
+   "frase_doc": "led to suspension of public visitation",
+   "grifo": [
+    [
+     0.4706,
+     0.3367,
+     0.2161,
+     0.0167
+    ]
+   ],
+   "literal": true,
+   "em": "Officials said"
+  },
+  {
+   "id": "P133",
+   "bloco": "B14c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:NOV 2012",
+   "inicio": 698.4,
+   "dur": 1.6,
+   "frase": "The same report found",
+   "real": false,
+   "reuso": false,
+   "valor": "NOV 2012",
+   "rotulo": "VISITS SUSPENDED",
+   "em": "The same report found"
+  },
+  {
+   "id": "P134",
+   "bloco": "B14c",
+   "tipo": "DocGrifo",
+   "arq": "doc_gao16382_p2.png",
+   "enq": "reparo",
+   "inicio": 700.0,
+   "dur": 6.4,
+   "frase": "that the building used to house visitors was \"almost beyond the point of repair and renovation.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 2 2016 · GAO-16-382",
+    "Highlights: budget cuts, visitation, historic buildings",
+    "U.S. Government Accountability Office · PD"
+   ],
+   "frase_doc": "almost beyond the point of repair and renovation",
+   "grifo": [
+    [
+     0.4243,
+     0.7876,
+     0.2376,
+     0.0167
+    ]
+   ],
+   "literal": true,
+   "em": "that the building"
+  },
+  {
+   "id": "P135",
+   "bloco": "B14d",
+   "tipo": "KenBurns",
+   "arq": "foto_bateria_a_2015.jpg",
+   "enq": "detalhe:0.45,0.55",
+   "inicio": 706.4,
+   "dur": 6.0,
+   "frase": "To bring visitors back, the Service estimated it would need 1.2 million dollars a year.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "APR 15 2015 · SAND ISLAND",
+    "Battery A, 5-inch gun position",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "num": [
+    "$1.2M",
+    "A YEAR TO REOPEN"
+   ],
+   "de": [
+    0.45,
+    0.55,
+    1.35
+   ],
+   "para": [
+    0.45,
+    0.55,
+    1.55
+   ],
+   "em": "To bring visitors"
+  },
+  {
+   "id": "P136",
+   "bloco": "B14d",
+   "tipo": "DocGrifo",
+   "arq": "doc_pmnm_acesso.png",
+   "enq": "grifo",
+   "inicio": 712.4,
+   "dur": 7.6,
+   "frase": "Today, the government's own page for the monument says it plainly. \"Historical and eco-tour access is currently not offered.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · PAPAHĀNAUMOKUĀKEA",
+    "Monument access page (NOAA / USFWS)",
+    "papahanaumokuakea.gov · PD"
+   ],
+   "frase_doc": "eco-tour access is currently not offered",
+   "grifo": [
+    [
+     0.3964,
+     0.2266,
+     0.125,
+     0.0125
+    ]
+   ],
+   "literal": true,
+   "em": "Today, the government's"
+  },
+  {
+   "id": "P137",
+   "bloco": "B15a",
+   "tipo": "KenBurns",
+   "arq": "foto_henderson_f18_2015.jpg",
+   "enq": "zoom-out",
+   "inicio": 720.0,
+   "dur": 7.6,
+   "frase": "So the visitors stopped. One thing didn't. The runway, Henderson Field, is still maintained as an emergency landing site.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 14 2015 · HENDERSON FIELD",
+    "Marine F-18s after an emergency landing",
+    "USFWS / D. Dow · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "So the visitors"
+  },
+  {
+   "id": "P138",
+   "bloco": "B15a",
+   "tipo": "DocGrifo",
+   "arq": "doc_doi2014_35mil_jatos.png",
+   "enq": "grifo",
+   "inicio": 727.6,
+   "dur": 7.2,
+   "frase": "In the Service's own words to Congress, it's there \"for nearly 35,000 jet aircraft transiting the Pacific Ocean.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 20 2014 · U.S. HOUSE",
+    "USFWS testimony: Henderson Field",
+    "U.S. Department of the Interior · PD"
+   ],
+   "num": [
+    "35,000",
+    "JETS CROSSING THE PACIFIC"
+   ],
+   "frase_doc": "35,000 jet aircraft transiting the Pacific Ocean",
+   "grifo": [
+    [
+     0.4203,
+     0.3889,
+     0.1536,
+     0.0111
+    ]
+   ],
+   "literal": true,
+   "em": "In the Service's"
+  },
+  {
+   "id": "P139",
+   "bloco": "B15b",
+   "tipo": "KenBurns",
+   "arq": "foto_oficina_albatrozes2015.jpg",
+   "enq": "detalhe:0.55,0.45",
+   "inicio": 734.8,
+   "dur": 6.4,
+   "frase": "But there's one more reason Midway stays closed, and you can see it in the buildings.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "APR 13 2015 · SAND ISLAND",
+    "Old Navy machine shop and nesting albatrosses",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.55,
+    0.45,
+    1.35
+   ],
+   "para": [
+    0.55,
+    0.45,
+    1.55
+   ],
+   "em": "But there's one more"
+  },
+  {
+   "id": "P140",
+   "bloco": "B15b",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "440.3-445.2",
+   "inicio": 741.2,
+   "dur": 5.6,
+   "frase": "Remember the seaplane hangar, the one hit on the morning of June 4th, 1942?",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "A hangar burning during the raid",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 440.3,
+   "tout": 445.2,
+   "vel": 0.87,
+   "em": "Remember the seaplane"
+  },
+  {
+   "id": "P141",
+   "bloco": "B15b",
+   "tipo": "KenBurns",
+   "arq": "foto_hangar2015.jpg",
+   "enq": "pan-dir",
+   "inicio": 746.8,
+   "dur": 7.6,
+   "frase": "After the battle, only half of it was rebuilt. For eighty years, salt, wind and rain worked on it.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "APR 13 2015 · SAND ISLAND",
+    "The seaplane hangar, half rebuilt, rusting",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "After the battle"
+  },
+  {
+   "id": "P142",
+   "bloco": "B15c",
+   "tipo": "DocGrifo",
+   "arq": "doc_usfws2022_hangar.png",
+   "enq": "pagina",
+   "inicio": 754.4,
+   "dur": 5.6,
+   "frase": "In January 2022, after weeks of storms, the Fish and Wildlife Service posted this.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JAN 18 2022 · USFWS",
+    "Winter storms impact Midway: the seaplane hangar",
+    "U.S. Fish and Wildlife Service · PD"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "In January 2022"
+  },
+  {
+   "id": "P143",
+   "bloco": "B15c",
+   "tipo": "DocGrifo",
+   "arq": "doc_usfws2022_hangar.png",
+   "enq": "grifo",
+   "inicio": 760.0,
+   "dur": 4.8,
+   "frase": "\"Sadly, the seaplane hangar collapsed on January 13 during a torrential downpour.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JAN 18 2022 · USFWS",
+    "Winter storms impact Midway: the seaplane hangar",
+    "U.S. Fish and Wildlife Service · PD"
+   ],
+   "frase_doc": "the seaplane hangar collapsed on January 13",
+   "grifo": [
+    [
+     0.4688,
+     0.3889,
+     0.1661,
+     0.0153
+    ]
+   ],
+   "literal": true,
+   "em": "\"Sadly, the seaplane"
+  },
+  {
+   "id": "P144",
+   "bloco": "B15d",
+   "tipo": "EntaoAgora",
+   "arq": "foto_hangar1942.jpg",
+   "arq2": "foto_hangar2022.jpg",
+   "enq": "ea",
+   "inicio": 764.8,
+   "dur": 12.0,
+   "frase": "Same building. Then and now. And the water is rising. The Service says sea level at Midway is going up about five millimeters a year, faster than the global average.",
+   "real": true,
+   "reuso": true,
+   "num": [
+    "5 MM",
+    "SEA LEVEL RISE PER YEAR"
+   ],
+   "rot1": "JUNE 4, 1942",
+   "rot2": "2022",
+   "em": "Same building."
+  },
+  {
+   "id": "P145",
+   "bloco": "B16a",
+   "tipo": "KenBurns",
+   "arq": "foto_iss2001.jpg",
+   "enq": "detalhe:0.62,0.42",
+   "inicio": 776.8,
+   "dur": 5.6,
+   "frase": "Midway sits barely above the sea, and in 2011, the sea came over it.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "2001 · MIDWAY ATOLL",
+    "Seen from the International Space Station",
+    "NASA ISS002-E-8828 · PD"
+   ],
+   "de": [
+    0.62,
+    0.42,
+    1.35
+   ],
+   "para": [
+    0.62,
+    0.42,
+    1.55
+   ],
+   "em": "Midway sits barely"
+  },
+  {
+   "id": "P146",
+   "bloco": "B16a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:tsunami",
+   "inicio": 782.4,
+   "dur": 5.2,
+   "frase": "On March 11th, an earthquake off Japan sent a tsunami across the Pacific.",
+   "real": false,
+   "reuso": false,
+   "nome": "tsunami",
+   "pontos": [
+    "TOKYO",
+    "MIDWAY"
+   ],
+   "linhas": [
+    [
+     "TOKYO",
+     "MIDWAY",
+     "TSUNAMI · MAR 11 2011"
+    ]
+   ],
+   "nota": "",
+   "em": "On March 11th"
+  },
+  {
+   "id": "P147",
+   "bloco": "B16b",
+   "tipo": "KenBurns",
+   "arq": "foto_tsunami_eastern2011.jpg",
+   "enq": "pan-dir",
+   "inicio": 787.6,
+   "dur": 7.2,
+   "frase": "It washed completely over Spit Island and covered about sixty percent of Eastern Island. No people were hurt.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "MAR 13 2011 · EASTERN ISLAND",
+    "Debris line left by the tsunami",
+    "USFWS / Pete Leary · PD"
+   ],
+   "num": [
+    "~60%",
+    "OF EASTERN ISLAND FLOODED"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "It washed completely"
+  },
+  {
+   "id": "P148",
+   "bloco": "B16c",
+   "tipo": "KenBurns",
+   "arq": "foto_tsunami_lagoa2011.jpg",
+   "enq": "custom",
+   "inicio": 794.8,
+   "dur": 2.0,
+   "frase": "The birds weren't so lucky.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "MAR 12 2011 · MIDWAY LAGOON",
+    "Tsunami debris and birds in the lagoon",
+    "USFWS / Pete Leary · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.08
+   ],
+   "em": "The birds weren't"
+  },
+  {
+   "id": "P149",
+   "bloco": "B16c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:110,000+",
+   "inicio": 796.8,
+   "dur": 8.4,
+   "frase": "Counting the tsunami and two winter storms just before it, the Service found that more than 110,000 albatross chicks were lost.",
+   "real": false,
+   "reuso": false,
+   "valor": "110,000+",
+   "rotulo": "ALBATROSS CHICKS LOST",
+   "em": "Counting the tsunami"
+  },
+  {
+   "id": "P150",
+   "bloco": "B16c",
+   "tipo": "KenBurns",
+   "arq": "foto_albatroz_ninho.jpg",
+   "enq": "zoom-in",
+   "inicio": 805.2,
+   "dur": 5.2,
+   "frase": "About twenty-two percent of that year's chicks. And at least two thousand adults.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "APR 2 2026 · MIDWAY ATOLL",
+    "Laysan albatross colony",
+    "USFWS / Dan Rapp · PD"
+   ],
+   "num": [
+    "22% · 2,000+",
+    "OF THE YEAR'S CHICKS · ADULTS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "About twenty-two"
+  },
+  {
+   "id": "P151",
+   "bloco": "B17a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:1956",
+   "inicio": 810.4,
+   "dur": 2.0,
+   "frase": "Now, that bird from 1956.",
+   "real": false,
+   "reuso": false,
+   "valor": "1956",
+   "rotulo": "BANDED",
+   "em": "Now, that bird"
+  },
+  {
+   "id": "P152",
+   "bloco": "B17a",
+   "tipo": "KenBurns",
+   "arq": "foto_wisdom2023_a.jpg",
+   "enq": "pan-esq",
+   "inicio": 812.4,
+   "dur": 3.2,
+   "frase": "Her name is Wisdom. She's a Laysan albatross.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 3 2023 · SAND ISLAND",
+    "Wisdom, Laysan albatross (banded 1956)",
+    "USFWS · PD"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Her name is Wisdom."
+  },
+  {
+   "id": "P153",
+   "bloco": "B17a",
+   "tipo": "KenBurns",
+   "arq": "foto_robbins.jpg",
+   "enq": "detalhe:0.4,0.4",
+   "inicio": 815.6,
+   "dur": 8.0,
+   "frase": "In 1956, a federal scientist named Chandler Robbins put a band on her leg while she sat on an egg.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "USGS · PATUXENT",
+    "Chandler Robbins, who banded Wisdom in 1956",
+    "Barbara Dowell, USGS · PD"
+   ],
+   "de": [
+    0.4,
+    0.4,
+    1.35
+   ],
+   "para": [
+    0.4,
+    0.4,
+    1.55
+   ],
+   "em": "In 1956, a federal"
+  },
+  {
+   "id": "P154",
+   "bloco": "B17a",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "158.9-161.1",
+   "inicio": 823.6,
+   "dur": 3.6,
+   "frase": "He guessed she was at least five years old.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1942 · MIDWAY",
+    "Laysan albatross on Midway, filmed by Ford",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "num": [
+    "5+",
+    "YEARS OLD IN 1956"
+   ],
+   "tin": 158.9,
+   "tout": 161.1,
+   "vel": 0.6,
+   "em": "He guessed she"
+  },
+  {
+   "id": "P155",
+   "bloco": "B17b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:75+",
+   "inicio": 827.2,
+   "dur": 6.0,
+   "frase": "That makes her at least seventy-five now, the oldest known wild bird in the world.",
+   "real": false,
+   "reuso": false,
+   "valor": "75+",
+   "rotulo": "OLDEST KNOWN WILD BIRD",
+   "em": "That makes her"
+  },
+  {
+   "id": "P156",
+   "bloco": "B17b",
+   "tipo": "KenBurns",
+   "arq": "foto_wisdom2023_b.jpg",
+   "enq": "zoom-in",
+   "inicio": 833.2,
+   "dur": 4.0,
+   "frase": "She outlived the lead paint, the tsunami and the storms.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 3 2023 · SAND ISLAND",
+    "Wisdom, Laysan albatross (banded 1956)",
+    "USFWS · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "She outlived"
+  },
+  {
+   "id": "P157",
+   "bloco": "B17c",
+   "tipo": "KenBurns",
+   "arq": "foto_wisdom2023_b.jpg",
+   "enq": "detalhe:0.6,0.4",
+   "inicio": 837.2,
+   "dur": 7.2,
+   "frase": "In late 2024, she laid another egg, with a new mate. It hatched, but the chick didn't survive.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 3 2023 · SAND ISLAND",
+    "Wisdom, Laysan albatross (banded 1956)",
+    "USFWS · PD"
+   ],
+   "de": [
+    0.6,
+    0.4,
+    1.35
+   ],
+   "para": [
+    0.6,
+    0.4,
+    1.55
+   ],
+   "em": "In late 2024"
+  },
+  {
+   "id": "P158",
+   "bloco": "B17c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:NOV 2025",
+   "inicio": 844.4,
+   "dur": 5.6,
+   "frase": "In November 2025, she flew in again, a little earlier than in recent years.",
+   "real": false,
+   "reuso": false,
+   "valor": "NOV 2025",
+   "rotulo": "WISDOM RETURNS",
+   "em": "In November 2025"
+  },
+  {
+   "id": "P159",
+   "bloco": "B17c",
+   "tipo": "KenBurns",
+   "arq": "foto_wisdom2023_a.jpg",
+   "enq": "detalhe:0.45,0.45",
+   "inicio": 850.0,
+   "dur": 4.4,
+   "frase": "Biologists estimate she's laid fifty to sixty eggs in her life.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 3 2023 · SAND ISLAND",
+    "Wisdom, Laysan albatross (banded 1956)",
+    "USFWS · PD"
+   ],
+   "num": [
+    "50–60",
+    "EGGS IN HER LIFE"
+   ],
+   "de": [
+    0.45,
+    0.45,
+    1.35
+   ],
+   "para": [
+    0.45,
+    0.45,
+    1.55
+   ],
+   "em": "Biologists estimate"
+  },
+  {
+   "id": "P160",
+   "bloco": "B18a",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "165.1-171.6",
+   "inicio": 854.4,
+   "dur": 6.4,
+   "frase": "Every chick on Midway is fed by its parents, with whatever they scoop off the ocean.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1942 · MIDWAY",
+    "Albatross chick and adult on Midway, filmed by Ford",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 165.1,
+   "tout": 171.6,
+   "vel": 1.0,
+   "em": "Every chick on Midway"
+  },
+  {
+   "id": "P161",
+   "bloco": "B18a",
+   "tipo": "KenBurns",
+   "arq": "foto_lixo_marinho2017.jpg",
+   "enq": "zoom-in",
+   "inicio": 860.8,
+   "dur": 4.0,
+   "frase": "And the ocean is full of plastic. The Service estimates",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "2017 · MIDWAY ATOLL",
+    "Marine debris removed from the atoll",
+    "USFWS · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "And the ocean is"
+  },
+  {
+   "id": "P162",
+   "bloco": "B18a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:5 TONS",
+   "inicio": 864.8,
+   "dur": 5.2,
+   "frase": "adult albatrosses bring about five tons of plastic to the atoll every year.",
+   "real": false,
+   "reuso": false,
+   "valor": "5 TONS",
+   "rotulo": "OF PLASTIC A YEAR",
+   "em": "adult albatrosses bring"
+  },
+  {
+   "id": "P163",
+   "bloco": "B18a",
+   "tipo": "KenBurns",
+   "arq": "foto_albatroz_moli.jpg",
+   "enq": "pan-dir",
+   "inicio": 870.0,
+   "dur": 4.0,
+   "frase": "Almost all chicks hatched on Midway have plastic inside them.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "MIDWAY ATOLL NWR",
+    "Laysan albatross (mōlī)",
+    "USFWS · PD"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Almost all chicks"
+  },
+  {
+   "id": "P164",
+   "bloco": "B18b",
+   "tipo": "DocGrifo",
+   "arq": "doc_usfws_msp_camundongos.png",
+   "enq": "texto",
+   "inicio": 874.0,
+   "dur": 8.4,
+   "frase": "Then there's the strangest thing still living there. The rats were wiped out back in 1996. The house mice were not.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "AUG 15 2023 · USFWS",
+    "Midway Seabird Protection Project, Update #5",
+    "U.S. Fish and Wildlife Service · PD"
+   ],
+   "regiao": [
+    0.25,
+    0.3,
+    0.55,
+    0.31
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "Then there's the"
+  },
+  {
+   "id": "P165",
+   "bloco": "B18b",
+   "tipo": "KenBurns",
+   "arq": "foto_albatroz_ninho.jpg",
+   "enq": "detalhe:0.5,0.6",
+   "inicio": 882.4,
+   "dur": 4.8,
+   "frase": "At the end of 2015, biologists caught those mice attacking nesting albatrosses,",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "APR 2 2026 · MIDWAY ATOLL",
+    "Laysan albatross colony",
+    "USFWS / Dan Rapp · PD"
+   ],
+   "de": [
+    0.5,
+    0.6,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.6,
+    1.55
+   ],
+   "em": "At the end of 2015"
+  },
+  {
+   "id": "P166",
+   "bloco": "B18b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:6–7 FT",
+   "inicio": 887.2,
+   "dur": 6.0,
+   "frase": "birds with wings longer than a man is tall, while they sat on their eggs.",
+   "real": false,
+   "reuso": false,
+   "valor": "6–7 FT",
+   "rotulo": "WINGSPAN",
+   "em": "birds with wings"
+  },
+  {
+   "id": "P167",
+   "bloco": "B18c",
+   "tipo": "KenBurns",
+   "arq": "foto_iss2001.jpg",
+   "enq": "sand",
+   "inicio": 893.2,
+   "dur": 10.8,
+   "frase": "In July 2023, crews dropped poison bait from the air across Sand Island to wipe the mice out. A month later, the project admitted it hadn't worked.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "2001 · MIDWAY ATOLL",
+    "Seen from the International Space Station",
+    "NASA ISS002-E-8828 · PD"
+   ],
+   "de": [
+    0.42,
+    0.62,
+    1.4
+   ],
+   "para": [
+    0.46,
+    0.6,
+    1.7
+   ],
+   "em": "In July 2023"
+  },
+  {
+   "id": "P168",
+   "bloco": "B18c",
+   "tipo": "DocGrifo",
+   "arq": "doc_usfws_msp_camundongos.png",
+   "enq": "grifo",
+   "inicio": 904.0,
+   "dur": 7.2,
+   "frase": "\"Mice are still present in many areas of the island, and a root cause is not immediately evident.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "AUG 15 2023 · USFWS",
+    "Midway Seabird Protection Project, Update #5",
+    "U.S. Fish and Wildlife Service · PD"
+   ],
+   "frase_doc": "root cause is not immediately evident",
+   "grifo": [
+    [
+     0.5839,
+     0.3889,
+     0.138,
+     0.0153
+    ]
+   ],
+   "literal": true,
+   "em": "\"Mice are still"
+  },
+  {
+   "id": "P169",
+   "bloco": "B18d",
+   "tipo": "KenBurns",
+   "arq": "foto_henderson_f18_2015.jpg",
+   "enq": "detalhe:0.6,0.6",
+   "inicio": 911.2,
+   "dur": 6.4,
+   "frase": "It's one more reason every person and every crate that lands on Midway needs a permit.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 14 2015 · HENDERSON FIELD",
+    "Marine F-18s after an emergency landing",
+    "USFWS / D. Dow · PD"
+   ],
+   "de": [
+    0.6,
+    0.6,
+    1.35
+   ],
+   "para": [
+    0.6,
+    0.6,
+    1.55
+   ],
+   "em": "It's one more reason"
+  },
+  {
+   "id": "P170",
+   "bloco": "B19a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:naufragios",
+   "inicio": 917.6,
+   "dur": 5.2,
+   "frase": "And the battle itself? It's still out there, just not on the island.",
+   "real": false,
+   "reuso": false,
+   "nome": "naufragios",
+   "pontos": [
+    "MIDWAY",
+    "YORKTOWN (WRECK)",
+    "KAGA (WRECK)",
+    "AKAGI (WRECK)"
+   ],
+   "linhas": [],
+   "selo": "SCHEMATIC",
+   "nota": "posições aproximadas",
+   "em": "And the battle itself"
+  },
+  {
+   "id": "P171",
+   "bloco": "B19a",
+   "tipo": "DocGrifo",
+   "arq": "doc_cincpac_p1.jpg",
+   "enq": "a",
+   "inicio": 922.8,
+   "dur": 5.6,
+   "frase": "Remember line (a). Four carriers sunk. For decades, nobody knew exactly where they lay.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 28 1942 · PEARL HARBOR",
+    "Nimitz (CINCPAC) to COMINCH: \"Battle of Midway\"",
+    "National Archives, RG 38 · Unrestricted"
+   ],
+   "frase_doc": "four carriers sunk",
+   "grifo": [
+    [
+     0.282,
+     0.709,
+     0.6,
+     0.018
+    ],
+    [
+     0.327,
+     0.725,
+     0.557,
+     0.018
+    ],
+    [
+     0.327,
+     0.741,
+     0.09,
+     0.018
+    ]
+   ],
+   "literal": false,
+   "em": "Remember line (a)."
+  },
+  {
+   "id": "P172",
+   "bloco": "B19b",
+   "tipo": "KenBurns",
+   "arq": "foto_yorktown_torpedo1942.jpg",
+   "enq": "detalhe:0.3,0.8",
+   "inicio": 928.4,
+   "dur": 8.4,
+   "frase": "In 1998, an expedition led by Robert Ballard, with the Navy and National Geographic, found the Yorktown, about three miles down.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 4 1942 · AT SEA",
+    "USS Yorktown (CV-5) hit by a torpedo",
+    "U.S. Navy, National Archives · PD"
+   ],
+   "num": [
+    "3 MILES",
+    "DOWN: YORKTOWN WRECK, FOUND 1998"
+   ],
+   "de": [
+    0.3,
+    0.8,
+    1.35
+   ],
+   "para": [
+    0.3,
+    0.8,
+    1.55
+   ],
+   "em": "In 1998, an expedition"
+  },
+  {
+   "id": "P173",
+   "bloco": "B19b",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:DEPTH PROFILE",
+   "inicio": 936.8,
+   "dur": 7.2,
+   "frase": "In October 2019, the research ship Petrel found the Kaga at around 5,400 meters, more than 17,000 feet.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "DEPTH PROFILE",
+    "KAGA · ~5,400 M (17,700 FT) · OCT 2019"
+   ],
+   "selo": "SCHEMATIC",
+   "em": "In October 2019"
+  },
+  {
+   "id": "P174",
+   "bloco": "B19b",
+   "tipo": "KenBurns",
+   "arq": "foto_akagi1941.jpg",
+   "enq": "zoom-out",
+   "inicio": 944.0,
+   "dur": 2.4,
+   "frase": "Days later, it found the Akagi.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1941 · JAPAN",
+    "Aircraft carrier Akagi",
+    "Naval History and Heritage Command NH 73059 · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Days later, it found"
+  },
+  {
+   "id": "P175",
+   "bloco": "B19c",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:DEPTH PROFILE",
+   "inicio": 946.4,
+   "dur": 5.2,
+   "frase": "In September 2023, the ship Nautilus sent a robot down to all three.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "DEPTH PROFILE",
+    "ROV DIVES BELOW 5,100 M · SEP 2023",
+    "YORKTOWN · KAGA · AKAGI"
+   ],
+   "selo": "SCHEMATIC",
+   "em": "In September 2023"
+  },
+  {
+   "id": "P176",
+   "bloco": "B19c",
+   "tipo": "KenBurns",
+   "arq": "foto_kaga1936.jpg",
+   "enq": "detalhe:0.55,0.45",
+   "inicio": 951.6,
+   "dur": 5.2,
+   "frase": "The dives went below 5,100 meters, the deepest that ship had ever worked.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "c. 1936 · JAPAN",
+    "Aircraft carrier Kaga",
+    "Naval History and Heritage Command NH 73060 · PD"
+   ],
+   "num": [
+    "5,100 M+",
+    "ROV DIVES TO THE WRECKS, 2023"
+   ],
+   "de": [
+    0.55,
+    0.45,
+    1.35
+   ],
+   "para": [
+    0.55,
+    0.45,
+    1.55
+   ],
+   "em": "The dives went"
+  },
+  {
+   "id": "P177",
+   "bloco": "B19c",
+   "tipo": "KenBurns",
+   "arq": "foto_kaga1936.jpg",
+   "enq": "detalhe:0.62,0.42",
+   "inicio": 956.8,
+   "dur": 6.8,
+   "frase": "On the decks, as one of the scientists put it, \"many anti-aircraft guns were still pointing up.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "c. 1936 · JAPAN",
+    "Aircraft carrier Kaga",
+    "Naval History and Heritage Command NH 73060 · PD"
+   ],
+   "de": [
+    0.62,
+    0.42,
+    1.35
+   ],
+   "para": [
+    0.62,
+    0.42,
+    1.55
+   ],
+   "em": "On the decks"
+  },
+  {
+   "id": "P178",
+   "bloco": "B19d",
+   "tipo": "DocGrifo",
+   "arq": "doc_cincpac_p1.jpg",
+   "enq": "c2",
+   "inicio": 963.6,
+   "dur": 6.8,
+   "frase": "And line (c)? There's no Mogami down there. She survived Midway. The page was wrong about her.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 28 1942 · PEARL HARBOR",
+    "Nimitz (CINCPAC) to COMINCH: \"Battle of Midway\"",
+    "National Archives, RG 38 · Unrestricted"
+   ],
+   "frase_doc": "Mogami",
+   "grifo": [
+    [
+     0.282,
+     0.775,
+     0.35,
+     0.018
+    ]
+   ],
+   "literal": false,
+   "em": "And line (c)?"
+  },
+  {
+   "id": "P179",
+   "bloco": "B19d",
+   "tipo": "Filme",
+   "arq": "filme_torpedo_squadron_8.mp4",
+   "enq": "452.5-457.5",
+   "inicio": 970.4,
+   "dur": 4.0,
+   "frase": "The ocean keeps a better record than the paper does.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · AT SEA",
+    "The Pacific near Midway",
+    "Torpedo Squadron 8 (U.S. Navy, 1942) · National Archives 428-MN-2004"
+   ],
+   "tin": 452.5,
+   "tout": 457.5,
+   "vel": 1.0,
+   "em": "The ocean keeps"
+  },
+  {
+   "id": "P180",
+   "bloco": "B20a",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "89.6-92.2",
+   "inicio": 974.4,
+   "dur": 2.4,
+   "frase": "So why can't you visit Midway?",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUNE 4, 1942 · MIDWAY",
+    "Midway's islands from the sea",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 89.6,
+   "tout": 92.2,
+   "vel": 1.0,
+   "em": "So why can't you"
+  },
+  {
+   "id": "P181",
+   "bloco": "B20a",
+   "tipo": "DocGrifo",
+   "arq": "doc_eo13022_p1.png",
+   "enq": "1b",
+   "inicio": 976.8,
+   "dur": 9.6,
+   "frase": "Because in 1996 it stopped being a Navy base and became a wildlife refuge, and the order that did it put the birds first.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "OCT 31 1996 · WASHINGTON",
+    "Executive Order 13022, Administration of the Midway Islands",
+    "Federal Register 61 FR 56875 · PD"
+   ],
+   "grifo": [
+    [
+     0.38,
+     0.58,
+     0.546,
+     0.015
+    ]
+   ],
+   "literal": false,
+   "em": "Because in 1996"
+  },
+  {
+   "id": "P182",
+   "bloco": "B20b",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:havai_midway_2",
+   "inicio": 986.4,
+   "dur": 3.6,
+   "frase": "Because it's more than twelve hundred miles from Honolulu,",
+   "real": false,
+   "reuso": false,
+   "nome": "havai_midway_2",
+   "pontos": [
+    "HONOLULU",
+    "MIDWAY"
+   ],
+   "linhas": [
+    [
+     "HONOLULU",
+     "MIDWAY",
+     "1,200+ MI"
+    ]
+   ],
+   "nota": "",
+   "em": "Because it's more"
+  },
+  {
+   "id": "P183",
+   "bloco": "B20b",
+   "tipo": "KenBurns",
+   "arq": "foto_henderson_f18_2015.jpg",
+   "enq": "pan-esq",
+   "inicio": 990.0,
+   "dur": 5.2,
+   "frase": "and every person, meal and nail has to be flown or shipped in.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 14 2015 · HENDERSON FIELD",
+    "Marine F-18s after an emergency landing",
+    "USFWS / D. Dow · PD"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "and every person"
+  },
+  {
+   "id": "P184",
+   "bloco": "B20c",
+   "tipo": "DocGrifo",
+   "arq": "doc_gao16382_p2.png",
+   "enq": "reparo2",
+   "inicio": 995.2,
+   "dur": 6.8,
+   "frase": "Because the money ran out in 2012, and the building visitors slept in was almost beyond repair.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 2 2016 · GAO-16-382",
+    "Highlights: budget cuts, visitation, historic buildings",
+    "U.S. Government Accountability Office · PD"
+   ],
+   "grifo": [
+    [
+     0.4243,
+     0.7876,
+     0.2376,
+     0.0167
+    ]
+   ],
+   "literal": false,
+   "em": "Because the money"
+  },
+  {
+   "id": "P185",
+   "bloco": "B20c",
+   "tipo": "KenBurns",
+   "arq": "foto_posto_comando2015.jpg",
+   "enq": "pan-dir",
+   "inicio": 1002.0,
+   "dur": 6.8,
+   "frase": "Because the old base is still shedding lead paint and falling down around nearly three million birds.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "APR 14 2015 · SAND ISLAND",
+    "1942 command post, crumbling",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Because the old base"
+  },
+  {
+   "id": "P186",
+   "bloco": "B20d",
+   "tipo": "KenBurns",
+   "arq": "foto_estacao_cabo2015.jpg",
+   "enq": "detalhe:0.5,0.4",
+   "inicio": 1008.8,
+   "dur": 2.8,
+   "frase": "And because the government itself says so:",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "APR 2015 · SAND ISLAND",
+    "Cable station building (1903) and the colony",
+    "U.S. GAO (GAO-16-382) · PD"
+   ],
+   "de": [
+    0.5,
+    0.4,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.4,
+    1.55
+   ],
+   "em": "And because the"
+  },
+  {
+   "id": "P187",
+   "bloco": "B20d",
+   "tipo": "DocGrifo",
+   "arq": "doc_doi2014_suspensao.png",
+   "enq": "grifo",
+   "inicio": 1011.6,
+   "dur": 5.6,
+   "frase": "\"Funding, conservation, staffing, and safety challenges have caused the Service to suspend visitor services.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 20 2014 · U.S. HOUSE",
+    "USFWS testimony: visitor services suspended",
+    "U.S. Department of the Interior · PD"
+   ],
+   "frase_doc": "have caused the Service to suspend visitor services",
+   "grifo": [
+    [
+     0.587,
+     0.3889,
+     0.1911,
+     0.0118
+    ]
+   ],
+   "literal": true,
+   "em": "\"Funding, conservation"
+  },
+  {
+   "id": "P188",
+   "bloco": "B21a",
+   "tipo": "DocGrifo",
+   "arq": "doc_cincpac_p1.jpg",
+   "enq": "92b",
+   "inicio": 1017.2,
+   "dur": 6.0,
+   "frase": "Go back to Nimitz's page one more time. Ninety-two officers. Two hundred and fifteen men.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 28 1942 · PEARL HARBOR",
+    "Nimitz (CINCPAC) to COMINCH: \"Battle of Midway\"",
+    "National Archives, RG 38 · Unrestricted"
+   ],
+   "frase_doc": "Ninety-two officers",
+   "grifo": [
+    [
+     0.097,
+     0.915,
+     0.752,
+     0.018
+    ]
+   ],
+   "literal": false,
+   "em": "Go back to Nimitz's"
+  },
+  {
+   "id": "P189",
+   "bloco": "B21a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:307",
+   "inicio": 1023.2,
+   "dur": 5.6,
+   "frase": "Three hundred and seven. Eighty-four years later, that is still the official American count.",
+   "real": false,
+   "reuso": false,
+   "valor": "307",
+   "rotulo": "STILL THE OFFICIAL U.S. COUNT",
+   "em": "Three hundred and seven."
+  },
+  {
+   "id": "P190",
+   "bloco": "B21b",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "984.7-990.1",
+   "inicio": 1028.8,
+   "dur": 5.6,
+   "frase": "The men who could tell you what that morning looked like are gone now.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · MIDWAY",
+    "Marines on Midway, June 1942",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 984.7,
+   "tout": 990.1,
+   "vel": 0.96,
+   "em": "The men who could"
+  },
+  {
+   "id": "P191",
+   "bloco": "B21b",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhhc_discurso2017.png",
+   "enq": "wreath2",
+   "inicio": 1034.4,
+   "dur": 2.8,
+   "frase": "John Miniclier was the last of them.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 5 2017 · WASHINGTON",
+    "NHHC director, Battle of Midway 75th anniversary",
+    "Naval History and Heritage Command · PD"
+   ],
+   "grifo": [
+    [
+     0.4094,
+     0.459,
+     0.3255,
+     0.0278
+    ]
+   ],
+   "literal": false,
+   "em": "John Miniclier was"
+  },
+  {
+   "id": "P192",
+   "bloco": "B21b",
+   "tipo": "KenBurns",
+   "arq": "foto_hangar2022.jpg",
+   "enq": "detalhe:0.4,0.45",
+   "inicio": 1037.2,
+   "dur": 4.4,
+   "frase": "The seaplane hangar that was hit that morning has fallen in.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JAN 13 2022 · SAND ISLAND",
+    "The seaplane hangar after its collapse",
+    "USFWS · PD"
+   ],
+   "de": [
+    0.4,
+    0.45,
+    1.35
+   ],
+   "para": [
+    0.4,
+    0.45,
+    1.55
+   ],
+   "em": "The seaplane hangar that"
+  },
+  {
+   "id": "P193",
+   "bloco": "B21b",
+   "tipo": "KenBurns",
+   "arq": "foto_akagi1941.jpg",
+   "enq": "detalhe:0.55,0.5",
+   "inicio": 1041.6,
+   "dur": 4.8,
+   "frase": "The carriers are three miles down, guns still pointing at the surface.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1941 · JAPAN",
+    "Aircraft carrier Akagi",
+    "Naval History and Heritage Command NH 73059 · PD"
+   ],
+   "de": [
+    0.55,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.55,
+    0.5,
+    1.55
+   ],
+   "em": "The carriers are"
+  },
+  {
+   "id": "P194",
+   "bloco": "B21c",
+   "tipo": "EntaoAgora",
+   "arq": "foto_aerea1941.jpg",
+   "arq2": "foto_iss2001.jpg",
+   "enq": "ea",
+   "inicio": 1046.4,
+   "dur": 4.8,
+   "frase": "And every November, on an island almost nobody is allowed to see,",
+   "real": true,
+   "reuso": true,
+   "rot1": "1941",
+   "rot2": "2001",
+   "em": "And every November"
+  },
+  {
+   "id": "P195",
+   "bloco": "B21c",
+   "tipo": "KenBurns",
+   "arq": "foto_wisdom2023_a.jpg",
+   "enq": "final",
+   "inicio": 1051.2,
+   "dur": 5.2,
+   "frase": "a seventy-five-year-old albatross lands on the sand, looks around, and stays a while.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 3 2023 · SAND ISLAND",
+    "Wisdom, Laysan albatross (banded 1956)",
+    "USFWS · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "a seventy-five-year-old"
+  },
+  {
+   "id": "P196",
+   "bloco": "B21d",
+   "tipo": "Filme",
+   "arq": "filme_battle_of_midway.mp4",
+   "enq": "714.5-720.8",
+   "inicio": 1056.4,
+   "dur": 7.2,
+   "frase": "If someone in your family served at Midway, on the island, on the Yorktown, or in the air,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUNE 1942 · AT SEA",
+    "A Navy flier back from the battle",
+    "The Battle of Midway (U.S. Navy, 1942) · National Archives"
+   ],
+   "tin": 714.5,
+   "tout": 720.8,
+   "vel": 0.83,
+   "em": "If someone in your"
+  },
+  {
+   "id": "P197",
+   "bloco": "B21d",
+   "tipo": "KenBurns",
+   "arq": "foto_comemoracao2022.jpg",
+   "enq": "detalhe:0.5,0.5",
+   "inicio": 1063.6,
+   "dur": 4.4,
+   "frase": "tell us their name and where they were in the comments.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 2022 · MIDWAY ATOLL",
+    "80th commemoration of the Battle of Midway",
+    "USFWS · PD"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.55
+   ],
+   "em": "tell us their name"
+  },
+  {
+   "id": "P198",
+   "bloco": "B21d",
+   "tipo": "Card",
+   "arq": "codigo",
+   "enq": "card",
+   "inicio": 1068.0,
+   "dur": 6.8,
+   "frase": "This is Clearance Required. We go where the record goes. If you want the next one, subscribe.",
+   "real": false,
+   "reuso": false,
+   "em": "This is Clearance"
+  }
+ ]
+}

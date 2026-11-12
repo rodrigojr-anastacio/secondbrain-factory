@@ -1,0 +1,71 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/lugares-guerra-en/videos/001-midway/preqa/grade_04_6m02-8m05.jpg",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.0124,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 1,
+  "medio": 2,
+  "baixo": 3
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "P073 (Número): o texto \"41 → 6 TORPEDO BOMBERS IN → BACK\" é confuso e a seta repetida dificulta a leitura. P074 mostra \"15 / 15 PLANES LOST\" sobre a foto, e esse dado conflita com o 41→6 anterior (Torpedo Squadron 8 teve 15 aviões). Os números precisam de conferência.",
+   "t": null,
+   "arquivo": "grade_04_6m02-8m05.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "P071 (Mapa2D): o mapa é só fundo azul com linhas e rótulos, sem terra nem contexto geográfico. Ao contrário da bíblia (terra areia, Natural Earth), parece placeholder. Os rótulos \"TORPEDO SQUADRONS\" e \"JAPANESE CARRIERS\" ficam encavalados perto das linhas.",
+   "t": null,
+   "arquivo": "grade_04_6m02-8m05.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Repetição: vários planos marcados REUSO (P069, P078, P087, P090, P091) e as mesmas fotos aéreas do Kaga/Hiryu aparecem em P076, P078, P082, P083, P087. Também P079 e P081 mostram o mesmo céu. Isso enfraquece o ritmo.",
+   "t": null,
+   "arquivo": "grade_04_6m02-8m05.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "legenda",
+   "severidade": "baixo",
+   "descricao": "As fichas inferiores têm fonte muito pequena e baixo contraste sobre fundos claros (P079, P081, P074), então a legibilidade é fraca. Em P080 a ficha cobre parte da foto.",
+   "t": null,
+   "arquivo": "grade_04_6m02-8m05.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "P091 (DocGrifo): o documento (track chart) está pequeno e ilegível, sem zoom nem marca-texto amarelo visíveis. Ele não cumpre a função de documento legível.",
+   "t": null,
+   "arquivo": "grade_04_6m02-8m05.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "P076, P078 e P083 estão muito escuros, com a imagem aérea quase preta. O conteúdo mal se distingue, e P083 é o mais escuro.",
+   "t": null,
+   "arquivo": "grade_04_6m02-8m05.jpg"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": null,
+   "nome": "grade_04_6m02-8m05.jpg",
+   "sinais": []
+  }
+ ]
+}

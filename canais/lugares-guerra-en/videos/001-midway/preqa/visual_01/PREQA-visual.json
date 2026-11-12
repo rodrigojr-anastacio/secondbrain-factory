@@ -1,0 +1,87 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/lugares-guerra-en/videos/001-midway/preqa/grade_01_0m00-2m00.jpg",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.0242,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 2,
+  "medio": 4,
+  "baixo": 2
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "P001: a ficha (caixa escura inferior) cobre o fim do texto do documento, e as linhas 'Enclosures' ficam cortadas e sobrepostas pela ficha.",
+   "t": null,
+   "arquivo": "grade_01_0m00-2m00.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "elemento_fora",
+   "severidade": "alto",
+   "descricao": "P009 Mapa2D: o rótulo 'HONOLULU' está cortado pela borda direita e atrás do selo '~40 PEOPLE LIVE THERE', que se sobrepõe ao ponto do mapa. O mapa está muito vazio, sem terra visível (areia), e a linha sai do quadro.",
+   "t": null,
+   "arquivo": "grade_01_0m00-2m00.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "P003 e P005: a ficha inferior cobre trechos do documento e o texto sai cortado pela borda do quadro, ainda que isso seja zoom DocGrifo intencional. Na P005 o marca-texto amarelo fica colado na ficha, o que prejudica a leitura.",
+   "t": null,
+   "arquivo": "grade_01_0m00-2m00.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "P006: a conta '92 + 215 = 307' é mostrada com ênfase, mas o valor de 92 não aparece em nenhum outro lugar do storyboard e a contagem oficial parece incongruente com o documento (215). Conferir os dados.",
+   "t": null,
+   "arquivo": "grade_01_0m00-2m00.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "P012: o selo '1956 BANDED' no canto inferior direito se sobrepõe à imagem do albatroz e fica muito colado à borda. P016 e P017: os números (103 LAST KNOWN SURVIVOR) cobrem parte da imagem.",
+   "t": null,
+   "arquivo": "grade_01_0m00-2m00.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "P014 e P021: documentos de página web moderna (captura de tela) usados como DocGrifo, texto minúsculo e ilegível em P021, com ficha sobre o texto em P014. Legibilidade fraca.",
+   "t": null,
+   "arquivo": "grade_01_0m00-2m00.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "P022: capa do GAO com fundo preto largo nas laterais (documento pequeno no centro), pouco aproveitamento da tela e ficha sobre a página.",
+   "t": null,
+   "arquivo": "grade_01_0m00-2m00.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Repetição: DocGrifo REUSO do mesmo documento em P003, P005 e P007, e várias cenas de fumaça/bandeira em sequência (P002, P018) reduzem a variedade visual.",
+   "t": null,
+   "arquivo": "grade_01_0m00-2m00.jpg"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": null,
+   "nome": "grade_01_0m00-2m00.jpg",
+   "sinais": []
+  }
+ ]
+}

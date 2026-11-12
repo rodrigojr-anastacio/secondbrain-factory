@@ -1,0 +1,71 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/lugares-guerra-en/videos/001-midway/preqa/grade_08_14m04-16m03.jpg",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.0236,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 1,
+  "medio": 3,
+  "baixo": 2
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "texto_cortado",
+   "severidade": "alto",
+   "descricao": "P173 e P175 (Cartela): o título no topo ('KAGA · ~5,400 M (17,700 FT) · OCT 2019' e 'ROV DIVES BELOW 5,100 M · SEP 2023') está cortado pela borda superior do quadro, com metade das letras fora de vista.",
+   "t": null,
+   "arquivo": "grade_08_14m04-16m03.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "P173/P175: a legenda 'YORKTOWN · ~3 MI' e o rótulo do perfil ficam sobre o fundo de areia/mar, e o ponto de Akagi fica na borda direita. Os marcadores ficam apertados, com pouca margem.",
+   "t": null,
+   "arquivo": "grade_08_14m04-16m03.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "P172: o Número '3 MILES' com 'DOWN: YORKTOWN WRECK, FOUND 1998' tapa o canto da foto. O número fica sobre a ficha e os textos ficam apertados e pouco legíveis.",
+   "t": null,
+   "arquivo": "grade_08_14m04-16m03.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "legenda",
+   "severidade": "medio",
+   "descricao": "P164 e P168: a Ficha cobre parte do texto do documento, e o recorte do DocGrifo corta palavras nas bordas esquerda e direita. Pode ser simulação do storyboard, mas atrapalha a leitura da linha.",
+   "t": null,
+   "arquivo": "grade_08_14m04-16m03.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Repetição: P175 repete P173 quase igual (mesmo perfil de profundidade, só muda a linha do ROV). P176 e P177 usam o mesmo Kaga quase idêntico em sequência. A mesma foto de Akagi (P174) tem pouco movimento.",
+   "t": null,
+   "arquivo": "grade_08_14m04-16m03.jpg"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "P170 (Mapa2D): o mapa tem só pontos soltos sobre mar azul liso, sem terra nem contexto geográfico, e tem selo SCHEMATIC. Está coerente com o plano, mas é pobre visualmente. Em P176/P177 a ficha diz 'c. 1936' para o Kaga em cena de 1941/42, o que gera dúvida de datação.",
+   "t": null,
+   "arquivo": "grade_08_14m04-16m03.jpg"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": null,
+   "nome": "grade_08_14m04-16m03.jpg",
+   "sinais": []
+  }
+ ]
+}
