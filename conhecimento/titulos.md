@@ -39,3 +39,18 @@ Todo vídeo sai com **3 títulos** para o "Testar e comparar", cada um com um **
 - **Lacuna com reticências:** "Super El Niño: ele vai fazer isso com o Brasil neste verão..."
 - **Choque/número, proibido/segredo, perda/medo, contraste antes×depois.**
 Cada título casa com uma das 3 thumbs (o Rodrigo testa pares título+thumb). Fonte: Rodrigo, 12/11/2026, nos A/B do Em Relevo 001/002.
+
+## Método (12/11/2026): título se modela das referências, não se inventa
+Regra do Rodrigo: "o que manda é o cara clicar: thumb boa + título bom". Antes de escrever título, **puxe os títulos das referências do canal com views** (`youtube.garimpo_videos` ou yt-dlp) e use os padrões que mais renderam. Título bom **mostra algo estranho/proibido/escondido e não entrega a resposta** (abre um loop). Título que já responde ("The Ships Are Still Down There", "Now the Birds Own It") **não gera clique**.
+
+Exemplo de tabela de padrões (Where They Stood + Civil War Fine Print, 12/11/2026):
+| Padrão | Exemplo real | Views |
+|---|---|---|
+| Why Can't You Visit X? | Why Can't You Visit Iwo Jima? | 4,5 mi |
+| The X You Weren't Supposed to See | The Pictures of Lincoln's Death You Weren't Supposed to See | 879 mil |
+| What's Still Under/In X? | What's Still Under the Water at Omaha Beach? | 340 mil |
+| Why Is [país] Still Digging Up X? | Why Is America Still Digging Up Normandy? | 119 mil |
+| What Happened to the Real X? | What Happened To The Real Hacksaw Ridge? | 94 mil |
+| Why Is There a [coisa estranha] in [lugar]? | Why Is There a Japanese Submarine in Alaska? | 33 mil |
+Palavras-gatilho recorrentes: **still**, **can't**, **weren't supposed to**, **real**, coisa concreta e estranha (submarino, 400 nukes, B-52 num lago).
+Cada bíblia de canal deve ter a **sua** tabela de padrões das referências (atualizar a cada garimpo). Os 3 títulos do "Testar e comparar" saem de 3 padrões diferentes da tabela, cada um pareado com uma thumb.

@@ -18,3 +18,8 @@ Fonte: 11 vídeos do WTS, 6 do CWFP e 21 clones (`pesquisa/lugares-guerra/ANATOM
 - Título idêntico a um vídeo existente com milhões (disputa a mesma busca com o original).
 - Clickbait que o vídeo não paga (o "can't visit" tem de ser verdade: fechado ao público, só militar, ou só 1 dia por ano).
 - Datas, "WW2 documentary", emoji, CAIXA ALTA inteira.
+
+## Padrões das referências (12/11/2026, prevalece)
+Use **só** padrões provados pelas referências (tabela em `conhecimento/titulos.md`, seção "Método"): Why Can't You Visit X? · The X You Weren't Supposed to See/Read · What's Still Under/In X? · Why Is [país] Still Digging Up X? · What Happened to the Real X? · Why Is There a [coisa estranha] in [lugar]?
+Nunca entregar a resposta no título. 3 títulos de 3 padrões diferentes, cada um com a sua thumb.
+Midway (001): A "Why Can't You Visit Midway Atoll?" · B "What's Still Under the Water at Midway?" · C "The Midway Report You Weren't Supposed to Read" (ou, com a thumb dos pássaros, "Why Is There a WWII Airbase Full of Birds?").
