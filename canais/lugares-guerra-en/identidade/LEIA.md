@@ -14,9 +14,11 @@
 - Avatares 800×800 PNG; banners 2560×1440 JPG (< 1 MB). Texto composto no código (Anton + IBM Plex Mono Bold; Barlow Condensed não estava na VPS); o script falha se o texto sair da área segura. Nenhuma imagem de IA: custo US$ 0. Mapa Natural Earth 50m (domínio público).
 - Sem insígnia militar real. Refazer: `~/workspace/fabrica-youtube/tools/.venv/bin/python tools/compor.py`.
 
-## Descrição do canal (en, colar no "Sobre")
-Places America fought for that you're not allowed to visit, and the paperwork that explains why. Every video takes one famous military place, reads the government's own records on screen, and shows what is still there today.
+## Descrição do canal (en, colar no "Sobre") — versão aprovada 12/11, sem amarrar a um país
+Places the world fought over that you're still not allowed to visit, and the records that explain why.
 
-Archive photos, film and documents come from the U.S. National Archives, the Naval History and Heritage Command, DVIDS, the National Park Service and the U.S. Fish & Wildlife Service, credited in every description.
+Every video takes one famous military site, reads the original documents on screen, and shows what is still there today: islands closed to visitors, sealed tunnels, ships left where they sank, bases the public never sees.
 
-New videos every week. Independent channel, not affiliated with any government agency.
+All archive photos, film and documents come from public archives and government collections, and every source is credited in the description.
+
+New documentaries every week. Independent channel, not affiliated with any government agency.
