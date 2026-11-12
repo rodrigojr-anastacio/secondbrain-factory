@@ -12,7 +12,7 @@ def n(t):
     return re.findall(r"[a-z0-9']+", t.replace("-", " "))
 ref = n(TEXTO); nw = len(TEXTO.split())
 m = WhisperModel("small.en", device="cpu", compute_type="int8", cpu_threads=2)
-for f in sorted(glob.glob(f"{A}/*.mp3")):
+for f in sorted(glob.glob(f"{A}/"+os.environ.get("QA_GLOB","*")+".mp3")):
     raw = subprocess.run(["ffmpeg","-v","error","-i",f,"-ac","1","-ar","16000","-f","f32le","-"],capture_output=True,check=True).stdout
     segs,_ = m.transcribe(np.frombuffer(raw,dtype=np.float32), language="en", beam_size=5)
     tr = " ".join(s.text.strip() for s in segs); h = n(tr)

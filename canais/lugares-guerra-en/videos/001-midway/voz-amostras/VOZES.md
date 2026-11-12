@@ -34,3 +34,21 @@ Pedido: mais vozes na linha do Brian + britânicas, e "Akagi" corrigido. Script 
 **Custo:** US$ 0 marginal; 5 × 589 = 2.945 caracteres do plano Starter (contador ~11,5k → ~14,4k de 38.634; passou dos ~2.000 estimados no brief porque o texto tem 589 car., não 276). Lançado em `financas.consumo` (custo 0, ref_id 30). Fish não usado.
 **Uso comercial:** o plano Starter inclui licença comercial; vozes premade (Adam, Bill, George, Daniel) valem nele. **Flint** é voz da Voice Library: comercial liberado para quem tem plano pago, mas o autor pode retirá-la; para canal de longo prazo prefira premade. Não confirmei os termos na página do ElevenLabs (sem acesso a ela daqui), só pelo que o plano e a categoria indicam.
 **Recomendação curta:** linha Brian → **D (Adam)**, ritmo mais perto dos 150 ppm; mais grave → **F (Flint)** se aceitar a dependência da biblioteca. Britânico → **H (Daniel)**, limpo, 100% no Whisper e premade. Tudo ElevenLabs sai de graça no plano até ~2 vídeos/mês; acima disso o Fish Ethan (B) segue o mais barato por vídeo.
+
+## Rodada 3 (12/11/2026, brief clearance-vozes-fish): I–N, vozes da biblioteca do Fish
+Script `gerar3.py` (mesmo hook B01, "Ah-kah-gee", s2.1-pro, por frase + 0,32 s, sem tag de estilo). Busca por `GET /model?sort_by=task_count&language=en&tag=...` (documentary, narrator, deep, british, warm). Descartei clones de celebridade (Elon Musk, Morgan Freeman, David Attenborough, Kurzgesagt, Paddington): risco de direitos/remoção. QA: `QA_GLOB='[I-N]-*' python qa.py`.
+
+| arquivo | voz (id, autor) | sotaque | ppm | Whisper | usos / likes | custo/vídeo | impressão |
+|---|---|---|---|---|---|---|---|
+| **I-fish-calm-storyteller.mp3** | calm storyteller male (e686ae64, Blazing) | americano | 146 | 99,0% | 221 mil / 444 | ~US$ 0,25 | tags "deep, calm, measured, documentary"; Akagi certo |
+| **J-fish-slax.mp3** | Slax (9032b5f2, Bahoz Denli) | americano (velho) | 120 | 96,2% | 556 mil / 824 | ~US$ 0,25 | lento (120 ppm); Whisper leu "Akka. G. K. Ga" e "Kiryu": pronúncia ruim |
+| **K-fish-documentary.mp3** | Documentary (c3958f08, Hamo) | americano (velho) | 149 | 98,1% | 122 mil / 132 | ~US$ 0,25 | tags "old, deep, calm, authoritative"; **leu "Twenty-two officers" no lugar de 92** (erro de número, reprovada sem regerar); "Arkagi" |
+| **L-fish-deep-godmode.mp3** | Deep (bb742915, Godmode) | americano | 153 | 99,0% | 42 mil / 207 | ~US$ 0,25 | "deep, smooth, calm, storytelling"; ritmo exato, tudo certo no Whisper |
+| **M-fish-f1-uk.mp3** | F1 (59b8d12e, Selman Türkoğlu) | britânico | 149 | 97,1% | 52 mil / 145 | ~US$ 0,25 | "British, documentary, authoritative"; "Arkagi"; leu "Now to the math" |
+| **N-fish-eldrin-uk.mp3** | Eldrin (6428df0a, Sunny) | britânico RP | 135 | 99,0% | 15 / 1 | ~US$ 0,25 | "deep baritone, RP, deliberate"; Whisper 100% nos nomes e números; mais baixo (-17,9 LUFS); pouquíssimo usado, risco de sumir |
+
+**Modelo cobrado:** crédito 46,94315 → 46,89077 = US$ 0,0524 para 3.492 bytes = US$ 15/M bytes (s2.1-pro). Confirmado. **Custo total da rodada: US$ 0,052** (teto 0,25), lançado em `financas.consumo` (ref_id 30). ElevenLabs não usado.
+
+**Licença (não confirmada na fonte):** os termos do Fish que achei dizem que quem usa serviços pagos tem licença de uso comercial; o plano gratuito é só não comercial. Não achei texto sobre o autor retirar uma voz da biblioteca nem sobre uso comercial de voz de terceiros ([termos](https://fish.audio/pt/terms/), versão de 2024). Risco prático: voz de terceiro pode sumir e o canal perde consistência. Vozes **Fish Official** (Ethan, Adrian) são as seguras. Entre as novas, as de uso alto (Slax 556 mil, Calm storyteller 221 mil) sobrevivem melhor; a Eldrin (15 usos) é a mais frágil. Se o Rodrigo escolher uma de terceiros, vale checar com o suporte do Fish e guardar o áudio de referência/id.
+
+**Recomendação curta vs Brian:** nenhuma Fish iguala o calor do Brian, mas **L (Deep/Godmode)** é a mais próxima: americana, grave, calma, 153 ppm, 99% no Whisper, tudo certo em Akagi e números. **I (Calm storyteller)** é a 2ª (mais calorosa, mais usada). Britânica: **N (Eldrin)** é a melhor de timbre e pronúncia, mas frágil (15 usos); **M (F1)** mais segura em uso, com 2 deslizes. Descartar J (lenta, pronúncia ruim) e K (errou o 92). Só o ouvido decide; se nenhuma convencer, o Ethan (B, oficial) segue o fallback barato.
