@@ -140,9 +140,9 @@ export const DocGrifo = ({ p }) => {
   let acc = 0;
   return (
     <AbsoluteFill style={{ background: fundoEscuro, overflow: 'hidden' }}>
-      <div style={{ position: 'absolute', left: W / 2 + off - cx * s, top: H / 2 - cy * s, width: p.iw * s, height: p.ih * s, boxShadow: '0 30px 90px rgba(0,0,0,.75)',
+      <div style={{ position: 'absolute', left: W / 2 + off - cx * s, top: H / 2 - cy * s, width: p.iw * s, height: p.ih * s, boxShadow: p.iw * s < W * 1.3 ? '0 30px 90px rgba(0,0,0,.75)' : 'none',  // sombra só quando a página aparece inteira (memória)
         clipPath: p.regiao ? `inset(${p.regiao[1] * 100}% ${(1 - p.regiao[0] - p.regiao[2]) * 100}% ${(1 - p.regiao[1] - p.regiao[3]) * 100}% ${p.regiao[0] * 100}%)` : undefined }}>
-        <Img src={staticFile('img/' + p.img)} style={{ width: '100%', height: '100%', maxWidth: 'none', filter: 'contrast(1.06)' }} />
+        <Img src={staticFile('img/' + p.img)} style={{ width: '100%', height: '100%', maxWidth: 'none' }} />
         {g.map((r, i) => {
           const fr = Math.min(1, Math.max(0, (prog - acc) / r[2])); acc += r[2];
           if (fr <= 0) return null;

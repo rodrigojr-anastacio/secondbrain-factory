@@ -196,7 +196,9 @@ def legendas(blocos, whisper):
 def img_publica(arq, crop=None):
     """Cópia reduzida em public/img (docs até 5.600 px no lado maior, fotos até 3.400 px), JPEG q90. Devolve (nome, w, h)."""
     src = V / "midia" / arq
-    dst_nome = re.sub(r"\.(png|jpg|jpeg)$", "", arq) + ".jpg"
+    doc = arq.startswith("doc_")
+    # docs: contraste 1,06 "assado" no arquivo (= CSS contrast(1.06)); filter em elemento de ~7.000 px estourava a memória do render (12/11)
+    dst_nome = re.sub(r"\.(png|jpg|jpeg)$", "", arq) + (".c106.jpg" if doc else ".jpg")
     dst = V / "public/img" / dst_nome
     if not dst.exists() or dst.stat().st_mtime < src.stat().st_mtime:
         im = Image.open(src)
@@ -204,6 +206,10 @@ def img_publica(arq, crop=None):
         lim = 5600 if arq.startswith("doc_") else 3400
         if max(im.size) > lim:
             f = lim / max(im.size); im = im.resize((round(im.width * f), round(im.height * f)), Image.LANCZOS)
+        if doc:
+            import numpy as np
+            a8 = np.asarray(im).astype(np.float32)
+            im = Image.fromarray(np.clip((a8 - 127.5) * 1.06 + 127.5, 0, 255).round().astype(np.uint8), mode=im.mode)
         dst.parent.mkdir(parents=True, exist_ok=True)
         im.save(dst, quality=90)
     with Image.open(dst) as im:

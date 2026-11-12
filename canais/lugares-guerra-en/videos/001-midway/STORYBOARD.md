@@ -1,7 +1,7 @@
 # STORYBOARD: 001-midway (lugares-guerra-en, "Clearance Required")
 
 Gerado por `roteiro.py` (não editar à mão). Tempos estimados a 150 ppm; recalcular com o áudio real no `build.py`.
-**200 planos · 17:55.2 · 11.2 planos/min · material real 85.3% · reuso 33.5% · imagens IA 0**
+**200 planos · 17:55.2 · 11.2 planos/min · material real 85.3% · reuso 33.9% · imagens IA 0**
 
 Componentes: Card 1, Cartela 3, DocGrifo 42, EntaoAgora 2, Filme 45, KenBurns 80, Mapa2D 11, Número 16 · docs distintos 15 (grifados 12) · Números 44 (tela cheia + sobrepostos) · mapas distintos 11 · EntaoAgora 2
 
@@ -311,8 +311,8 @@ Componentes: Card 1, Cartela 3, DocGrifo 42, EntaoAgora 2, Filme 45, KenBurns 80
 
 | # | t | s | tela | material / parâmetros | cobre |
 |---|---|---|---|---|---|
-| P086 | 7:15.2 | 4.8 | Filme | `filme_battle_of_midway.mp4` 594.0–596.9 s vel 0.57 (sem áudio) · Ficha: JUNE 1942 · AT SEA / U.S. Navy dive bombers in formation · Número «10:20 48 DIVE BOMBERS» | Then, at 10:20 that morning, forty-eight American dive bombers showed up overhead. |
-| P087 | 7:20.0 | 6.8 | Filme | `filme_battle_of_midway.mp4` 597.8–604.6 s (sem áudio) · Ficha: JUNE 1942 · AT SEA / U.S. Navy SBD dive bombers | Two squadrons from Enterprise and one from Yorktown arrived at almost the same moment, by … |
+| P086 | 7:15.2 | 4.8 | Filme ♻ | `filme_battle_of_midway.mp4` 589.0–593.9 s vel 0.9 (sem áudio) · Ficha: JUNE 1942 · AT SEA / A U.S. carrier seen from the air · Número «10:20 48 DIVE BOMBERS» | Then, at 10:20 that morning, forty-eight American dive bombers showed up overhead. |
+| P087 | 7:20.0 | 6.8 | Filme | `filme_battle_of_midway.mp4` 598.3–604.6 s vel 0.92 (sem áudio) · Ficha: JUNE 1942 · AT SEA / U.S. Navy SBD dive bombers | Two squadrons from Enterprise and one from Yorktown arrived at almost the same moment, by … |
 
 ## B09c [7:26.8]
 > In about five minutes, Akagi, Kaga and Soryu were wrecks on fire.

@@ -364,8 +364,8 @@ bloco("B09a", '''But those sacrifices kept the Japanese carriers busy. Their cre
       kb("Nobody had time", "foto_b17_ataque1942.jpg", ((0.5, 0.5, 1.0), (0.17, 0.8, 1.6)), crop=(0.13, 0.0, 0.87, 1.0)),
       ideia=True)
 bloco("B09b", '''Then, at 10:20 that morning, forty-eight American dive bombers showed up overhead. Two squadrons from Enterprise and one from Yorktown arrived at almost the same moment, by pure coincidence.''',
-      filme("Then, at 10:20", BOM, 594.0, 596.9, "U.S. Navy dive bombers in formation", data="JUNE 1942 · AT SEA", vel=0.57, num=("10:20", "48 DIVE BOMBERS")),
-      filme("Two squadrons from", BOM, 597.8, 604.6, "U.S. Navy SBD dive bombers", data="JUNE 1942 · AT SEA"))
+      filme("Then, at 10:20", BOM, 589.0, 593.9, "A U.S. carrier seen from the air", data="JUNE 1942 · AT SEA", vel=0.9, num=("10:20", "48 DIVE BOMBERS")),
+      filme("Two squadrons from", BOM, 598.3, 604.6, "U.S. Navy SBD dive bombers", data="JUNE 1942 · AT SEA", vel=0.92))
 bloco("B09c", '''In about five minutes, Akagi, Kaga and Soryu were wrecks on fire.''',
       num("In about five", "5 MIN", "AKAGI · KAGA · SORYU"))
 bloco("B09d", '''The fourth carrier, Hiryu, hit back. Her planes found the Yorktown and left her badly damaged and listing. That afternoon, American dive bombers caught Hiryu too.''',

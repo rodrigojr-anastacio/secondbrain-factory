@@ -16,6 +16,8 @@
 #   MUDO=1                     sem áudio. Um dos dois (AUDIO ou MUDO) é obrigatório: áudio dentro da composição NÃO é suportado
 #                              (teste de 11/11 com MKV+PCM saiu errado no Pod; nenhum canal usa: todos renderizam mudo + mix.wav)
 #   REFS=<dir>                 guarda/reaproveita os stills de referência da VPS (<dir>/<quadro>.png; mesmo bundle!): refação não repete ~8 s/still
+#   RFLAGS="..."               flags extras do `remotion render` no Pod (ex.: --offthreadvideo-cache-size-in-bytes=1000000000; Clearance 001, 12/11:
+#                              blocos com doc ampliado + filtro CSS estouravam a memória do contêiner e a sessão SSH morria sem log)
 #   CONC=8 CRF=18 GPUS=... IMG=... ESPERA_MIN=30 TENTATIVAS_QA=2 LIMIAR=0.95 LIMIAR_MP4=0.95 TETO_S=5400
 #
 # Passos: (1) stills de referência na VPS (amostras + provas; swangle, ~8 s cada, antes de ligar o Pod: espera não custa);
@@ -240,7 +242,7 @@ log "concorrência $CONC (vCPU do Pod: $QV)"
 render_bloco() {  # $1 = índice, $2 = concorrência → 0 se renderizou e voltou
   local i=$1 c=$2 ab=${BLOCOS[$1]}
   S "export PATH=/root/node/bin:\$PATH; cd /root/proj/remotion
-npx remotion render ../bundle $COMP ../b$i.$EXT --frames=$ab --gl=angle-egl --concurrency=$c $CODEC --crf=$CRF --timeout=240000 --log=error > ../render_b$i.log 2>&1 & P=\$!
+npx remotion render ../bundle $COMP ../b$i.$EXT --frames=$ab --gl=angle-egl --concurrency=$c $CODEC --crf=$CRF --timeout=240000 ${RFLAGS:-} --log=error > ../render_b$i.log 2>&1 & P=\$!
 M=0; while kill -0 \$P 2>/dev/null; do m=\$(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits | head -1); [ \"\$m\" -gt \"\$M\" ] && M=\$m; sleep 2; done
 echo \$M > ../gpu_b$i.txt
 wait \$P || { echo 'RENDER FALHOU:'; grep -v -E 'dbus|^\\s*at ' ../render_b$i.log | head -20; exit 1; }" || return 1

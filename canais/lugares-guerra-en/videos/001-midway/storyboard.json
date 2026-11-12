@@ -5,7 +5,7 @@
   "duracao": "17:55.2",
   "planos_por_min": 11.2,
   "real_pct": 85.3,
-  "reuso_pct": 33.5,
+  "reuso_pct": 33.9,
   "componentes": {
    "DocGrifo": 42,
    "Filme": 45,
@@ -2253,24 +2253,24 @@
    "bloco": "B09b",
    "tipo": "Filme",
    "arq": "filme_battle_of_midway.mp4",
-   "enq": "594.0-596.9",
+   "enq": "589.0-593.9",
    "inicio": 435.2,
    "dur": 4.8,
    "frase": "Then, at 10:20 that morning, forty-eight American dive bombers showed up overhead.",
    "real": true,
-   "reuso": false,
+   "reuso": true,
    "ficha": [
     "JUNE 1942 · AT SEA",
-    "U.S. Navy dive bombers in formation",
+    "A U.S. carrier seen from the air",
     "The Battle of Midway (U.S. Navy, 1942) · National Archives"
    ],
    "num": [
     "10:20",
     "48 DIVE BOMBERS"
    ],
-   "tin": 594.0,
-   "tout": 596.9,
-   "vel": 0.57,
+   "tin": 589.0,
+   "tout": 593.9,
+   "vel": 0.9,
    "em": "Then, at 10:20"
   },
   {
@@ -2278,7 +2278,7 @@
    "bloco": "B09b",
    "tipo": "Filme",
    "arq": "filme_battle_of_midway.mp4",
-   "enq": "597.8-604.6",
+   "enq": "598.3-604.6",
    "inicio": 440.0,
    "dur": 6.8,
    "frase": "Two squadrons from Enterprise and one from Yorktown arrived at almost the same moment, by pure coincidence.",
@@ -2289,9 +2289,9 @@
     "U.S. Navy SBD dive bombers",
     "The Battle of Midway (U.S. Navy, 1942) · National Archives"
    ],
-   "tin": 597.8,
+   "tin": 598.3,
    "tout": 604.6,
-   "vel": 1.0,
+   "vel": 0.92,
    "em": "Two squadrons from"
   },
   {

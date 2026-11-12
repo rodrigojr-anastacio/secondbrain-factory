@@ -1,0 +1,2 @@
+# QA 001-midway (12/11/2026)
+Specs ok (1080p30, H.264/AAC) · 16:57 · −15,0 LUFS / pico −2,6 dBFS · 0 telas pretas ≥ 0,2 s · 0 silêncios > 1,5 s · Whisper por bloco média 98,7% (mín. 92,1%, falso alerta) · pré-QA visual 0 bloqueante · emendas das partes conferidas (quadros 5399/5400, 9449/9450, 15449/15450, 21599/21600) · filme de Ford: todos os trechos < 7 s e sem áudio · sem crédito em tela; créditos completos no youtube.txt · voz sintética declarada. Detalhes: ETAPA3.md, PREQA-visual.md.
