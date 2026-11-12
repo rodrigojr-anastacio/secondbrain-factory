@@ -23,7 +23,7 @@ Procedimento-base: `playbooks/produzir-video.md` §7. Modelo recomendado: **sonn
    - **Descrição:** 2 linhas de gancho (não repetir o título), CTA de comentário (a pergunta do fecho do roteiro), capítulos, fontes resumidas de `SOURCES.md`, créditos de imagem/música, nota de voz sintética.
    - **Capítulos:** de `qa/capitulos.json`, formato `M:SS Título`, começando em `0:00`, em ordem crescente, ≥ 3 capítulos de ≥ 10 s; confira cada tempo pela legenda.
    - **Tags** (10–15, idioma do canal), **categoria** (Educação) e idioma do vídeo.
-3. No fim do arquivo, o lembrete para o Rodrigo: idioma do vídeo; **"conteúdo alterado ou sintético" = sim**; "não é para crianças"; subir as 3 thumbs no "Testar e comparar"; usar o mp4 1080p (nunca o do Telegram).
+3. No fim do arquivo, o lembrete para o Rodrigo: idioma do vídeo; **"conteúdo alterado ou sintético" = sim**; "não é para crianças"; subir as 3 thumbs e os **3 títulos com gatilhos diferentes** (ver `conhecimento/titulos.md`, regra de 12/11) no "Testar e comparar"; usar o mp4 1080p (nunca o do Telegram).
 4. Copie também o essencial (título e capítulos) para `$V/ETAPA3.md`, porque `out/` fica fora do git.
 5. **Entrega final no Google Drive do Rodrigo** (não no Mac): monte `entrega/` e rode `tools/entregar_drive.sh <canal_slug> <NNN-slug>` → `Youtube/<nome do canal>/<NNN-slug>/` (nome vem do `canal.yaml`; só copia, nunca apaga). Logos/capas: `tools/entregar_drive.sh <canal_slug> identidade`. Usa rclone (remote `gdrive`); se faltar, veja `BLOQUEIO-drive.md`. O conector claude.ai Drive só serve para arquivos de texto pequenos (binário passaria pelo contexto do modelo).
 

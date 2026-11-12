@@ -30,3 +30,12 @@
 - "INTEIRA" × "COMPLETA" (Egito republicado, Índia) e a fórmula do historia-ptbr → `canais/historia-ptbr/biblia/titulo.md`.
 - Tabela "pergunta curiosa × biografia" do lotr-fr → `canais/lotr-fr/biblia/titulo.md`.
 - Fórmula "TODA la historia…" e temas que performam no Archive → `canais/dossie-es/biblia/titulo.md`.
+
+## Regra do Rodrigo (12/11/2026): sempre 3 títulos, com gatilhos diferentes
+Todo vídeo sai com **3 títulos** para o "Testar e comparar", cada um com um **gatilho emocional diferente**, não 3 perguntas parecidas. Combinar entre:
+- **Curiosidade/pergunta:** "Why Can't You Visit Midway Atoll?"
+- **Afirmação/prova:** "7 tornados em 6 dias no Sul do Brasil. Isso não é normal"
+- **Promessa/utilidade com prazo:** "El Niño 2026: o que muda na sua região até março"
+- **Lacuna com reticências:** "Super El Niño: ele vai fazer isso com o Brasil neste verão..."
+- **Choque/número, proibido/segredo, perda/medo, contraste antes×depois.**
+Cada título casa com uma das 3 thumbs (o Rodrigo testa pares título+thumb). Fonte: Rodrigo, 12/11/2026, nos A/B do Em Relevo 001/002.
