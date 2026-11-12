@@ -10,7 +10,7 @@
 
 ## Motor: Claude pela API (desde 12/11/2026), fora da cota do Max
 - O Rodrigo recebe **US$ 100/mês de créditos da API Anthropic** junto com o Max (valem para API, Agent SDK, Managed Agents e Playground; **não** para sessões do Claude Code). As rotinas automáticas usam esses créditos: `_rotina_claude.sh` chama **`rotina_api.py`** (Agent SDK em Python: mesmas ferramentas do Claude Code, mesmo prompt, mesmo cwd, `bypassPermissions`, CLAUDE.md do projeto carregado) com a chave `~/.segredos/anthropic/rotinas.env`, passada só ao processo filho. O script confere no `init` que a autenticação é a chave (`apiKeySource=ANTHROPIC_API_KEY`) e aborta se não for.
-- **Modelo e orçamento por execução:** tendências sonnet (US$ 4), palavras-chave sonnet (US$ 3), métricas sonnet (US$ 1,5); `MODELO=` e `ORCAMENTO=` sobrescrevem. Teto mensal do grupo rotinas+garimpo: **US$ 65** (`tools/anthropic_api.py`; a rotina não começa se o gasto do mês + orçamento passar).
+- **Modelo e orçamento por execução:** tendências sonnet (US$ 4), palavras-chave sonnet (US$ 3), métricas sonnet (US$ 1,5); `MODELO=` e `ORCAMENTO=` sobrescrevem. Teto mensal do grupo rotinas+garimpo: **US$ 30** (`tools/anthropic_api.py`; a rotina não começa se o gasto do mês + orçamento passar).
 - **Falha da API** (rede, 401/429/5xx, orçamento, teto): a rotina grava o erro no resumo, manda no Telegram e **não chama `claude -p` sozinha**. Na mão, para comparar ou com a API fora: `MOTOR=claude-code tools/rotinas/<rotina>.sh` (cota do Max, via `claude_run.sh`).
 - **Custo real** em `financas.consumo` (fornecedor `Anthropic API`, servico `rotina:<rotina>`) e uma linha em `youtube.execucoes_claude` (modelo `api:<modelo>`). Saldo do mês: `select * from financas.saldo_pre_pago where fornecedor='Anthropic API'` (o crédito de US$ 100 é lançado todo mês em `financas.lancamentos`, `valor_brl` 0).
 - **Estimativa (12/11/2026, Sonnet 5.5 a US$ 2/10 por MTok):** métricas ~US$ 0,20–0,40, tendências ~US$ 0,15 (teste) a ~0,60 (completo), palavras-chave ~US$ 0,50 por execução → **~US$ 8–12/mês** nas rotinas; garimpo em lote ~US$ 0,5–1,1 por rodada → ~US$ 5–10/mês. Total ~US$ 15–20 de US$ 65.
@@ -51,3 +51,16 @@ systemctl --user enable --now fabrica-analytics.timer fabrica-metricas.timer fab
 - **Hermes desktop:** abra o perfil `produtor` ou peça ao default ("produza o vídeo X do canal Y"), que delega ao `produtor`.
 - **Claude Code interativo:** `cd ~/workspace/fabrica-youtube && claude` e peça para usar o subagente `produtor` (fonte em `agentes-claude/produtor.md`) ou a skill `produzir-video`.
 - **Headless (uma etapa por vez):** `tools/claude_run.sh --video <id> --etapa <roteiro|producao|montagem-render|qa|...> --cwd canais/<slug>/videos/NNN-slug --prompt-file BRIEF-ETAPA.md`. Detalhes em `playbooks/produzir-video.md`.
+
+## Pesquisas e jobs pela API: `tools/job_api.sh` (12/11/2026)
+Tetos mensais dos créditos (US$ 100): **rotinas+garimpo 30**, **qa 30**, **dev 40** (`TETOS` em `tools/anthropic_api.py`; `servico` = `dev:<nome>` em `financas.consumo`).
+```
+nohup tools/job_api.sh ~/workspace/referencias/BRIEF-<tema>.md ~/workspace/referencias/<tema>.log --modelo opus --orcamento 8 >/dev/null 2>&1 &
+```
+- Faz o que `claude -p "Execute o brief em …"` faz, pelo Agent SDK (`job_api.py`, motor de `rotina_api.py`): lê o brief, usa Bash/Read/Write/Edit/Glob/Grep (+ WebFetch/WebSearch pelo preset) no repo, commita (push só se o brief mandar) e escreve a resposta final no log. Opções: `--modelo opus|sonnet|haiku` (padrão sonnet), `--orcamento` US$ (padrão 5), `--timeout` (7200 s), `--max-turns` (400).
+- A chave `rotinas.env` vai só no processo filho; `ANTHROPIC_API_KEY` é removida do ambiente do script (não vaza para `claude -p`). Confere `apiKeySource` e aborta se não for a chave. Trava por nome do brief; recusa se o teto `dev` do mês estourar (código 4). Registro em `youtube.execucoes_claude` (etapa `job:<nome>`, modelo `api:<m>`).
+- **Quando usar qual:** API para pesquisa, garimpo avulso, análise, desenvolvimento leve e rotinas (custo real, cabe nos US$ 100). **Max (`claude -p`)** para produção pesada de vídeo (roteiro, storyboard, imagens, render: muitas horas e tokens; sessão do Claude Code não é coberta pelos créditos).
+- Teste: brief mínimo, US$ 0,06.
+
+## Garimpo em lote no banco
+`youtube.garimpo_analises` (PK video_id+lote): hook, tipo de título (`gatilho_titulo`, `formula`), thumb (elementos/texto/cores/personagem/composição), edição, nicho, formato (`nota_formato`, `modelavel_faceless`), notas e o JSON completo em `json_completo`. `garimpo_batch.py` grava a cada lote coletado (`ON CONFLICT DO NOTHING`); `garimpo_batch.py --importar` reimporta todos os jsonl (importados os 164 de 12/11/2026). Os arquivos continuam.

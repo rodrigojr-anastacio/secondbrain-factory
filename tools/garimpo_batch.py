@@ -223,10 +223,45 @@ def coletar(cli, pend, meta_por_id):
                 erros += 1
                 linha["erro"] = r.result.type + ": " + str(getattr(getattr(r.result, "error", None), "error", ""))[:300]
             fh.write(json.dumps(linha, ensure_ascii=False) + "\n")
+    try:
+        log(f"banco: {gravar_banco(ok)} análises novas em youtube.garimpo_analises")
+    except Exception as e:  # noqa: BLE001
+        log(f"AVISO: não gravei no banco ({type(e).__name__}: {str(e)[:200]}); o jsonl segue e `--importar` refaz")
     A.registrar_consumo(custo, "batch:garimpo", tokens, "tokens",
                         notas=f"garimpo_batch.py lote {pend['batch_id']} ({pend['data']}): {len(ok)} ok, {erros} erros; preço de lote (50%)")
     log(f"lote {pend['batch_id']}: {len(ok)} ok, {erros} erros, {tokens} tokens, US$ {custo:.4f} → {os.path.relpath(saida, FAB)}")
     return ok, saida, custo
+
+
+SCHEMA_SQL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "db", "schema_garimpo_analises.sql")
+
+
+def gravar_banco(linhas):
+    """Grava as análises (linhas dos jsonl com ok=True) em youtube.garimpo_analises. Idempotente (video_id+lote)."""
+    from psycopg.types.json import Jsonb
+    n = 0
+    with conectar() as con:
+        con.execute(open(SCHEMA_SQL, encoding="utf-8").read())
+        for l in linhas:
+            if not l.get("ok"):
+                continue
+            an = l["analise"]
+            th, hk = an.get("thumb") or {}, an.get("hook") or {}
+            r = con.execute(
+                "INSERT INTO youtube.garimpo_analises (video_id, lote, channel_id, analisado_em, modelo, titulo, canal,"
+                " formula, gatilho_titulo, nicho, idioma, thumb_elementos, thumb_texto, thumb_cores, thumb_personagem,"
+                " thumb_composicao, hook_frases, hook_tecnica, edicao, modelavel_faceless, motivo_modelavel,"
+                " por_que_funciona, nota_formato, views, duracao_min, json_completo)"
+                " VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+                " ON CONFLICT (video_id, lote) DO NOTHING",
+                (l["video_id"], l["lote"], l.get("channel_id"), l.get("data"), l.get("modelo"), l.get("titulo"),
+                 l.get("canal"), an.get("formula"), an.get("gatilho_titulo"), an.get("nicho"), an.get("idioma"),
+                 th.get("elementos"), th.get("texto"), th.get("cores"), th.get("personagem"), th.get("composicao"),
+                 hk.get("primeiras_frases"), hk.get("tecnica"), an.get("edicao"), an.get("modelavel_faceless"),
+                 an.get("motivo_modelavel"), an.get("por_que_funciona"), an.get("nota_formato"), l.get("views"),
+                 l.get("duracao_min"), Jsonb(l)))
+            n += r.rowcount
+    return n
 
 
 def agregar(analises):
@@ -346,10 +381,16 @@ def main():
     ap.add_argument("--sem-sintese", action="store_true")
     ap.add_argument("--sem-commit", action="store_true")
     ap.add_argument("--sintese-de", nargs="+", metavar="JSONL", help="refaz só a síntese a partir de jsonl já coletados")
+    ap.add_argument("--importar", action="store_true", help="importa para o banco todos os jsonl já coletados (sem duplicar)")
     ap.add_argument("--dry-run", action="store_true", help="mostra quantos vídeos iriam e o 1º pedido (sem imagem), sem gastar")
     a = ap.parse_args()
     os.makedirs(BDIR, exist_ok=True)
     data = dt.date.today().isoformat()
+
+    if a.importar:
+        linhas = [json.loads(l) for f in sorted(glob.glob(os.path.join(BDIR, "*.jsonl"))) for l in open(f, encoding="utf-8") if l.strip()]
+        print(json.dumps({"jsonl_ok": sum(1 for x in linhas if x.get("ok")), "novas_no_banco": gravar_banco(linhas)}))
+        return
 
     if a.sintese_de:
         analises = [json.loads(l) for f in a.sintese_de for l in open(f, encoding="utf-8") if l.strip()]
