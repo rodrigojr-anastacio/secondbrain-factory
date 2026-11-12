@@ -8,7 +8,8 @@ Uso (normalmente via tools/job_api.sh):
 
 Motor e registros são os de rotina_api.py (chave só no env do processo filho, confere apiKeySource, trava por nome),
 mas o custo vai para financas.consumo com servico 'dev:<nome>' e conta no teto mensal do grupo `dev` (US$ 40).
-Códigos: 0 ok, 1 erro/timeout, 2 argumento, 3 trava ocupada, 4 teto mensal.
+Falha da API ou teto mensal: registra em ops.event_log e cai 1× para o plano Max (claude -p, fallback_max.py).
+Códigos: 0 ok, 1 erro/timeout (ou fallback falhou), 2 argumento, 3 trava ocupada.
 """
 import argparse
 import asyncio
@@ -21,6 +22,8 @@ import time
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "rotinas"))
 import rotina_api as R  # noqa: E402  (também põe tools/ no path)
 import anthropic_api as A  # noqa: E402
+import fallback_max as F  # noqa: E402
+import tempfile  # noqa: E402
 from db import tentar  # noqa: E402
 
 R.REGRAS_HEADLESS = R.REGRAS_HEADLESS.replace("Não faça push.", "Commit só dos seus caminhos; push só se o brief mandar.") \
@@ -47,11 +50,26 @@ def main():
     if trava is None:
         print(f"[job_api] AVISO: job '{nome}' já em andamento; nada foi chamado.", file=sys.stderr)
         sys.exit(3)
+    origem = "job_api"
+
+    def cair_para_max(tipo, texto):
+        if tipo != "teto_atingido":  # o teto já foi registrado por A.checar_teto
+            F.registrar_falha(origem, tipo, texto, "dev", A.modelo_id(a.modelo), nome)
+        trava.close()  # libera a trava: o claude_run usa a mesma (etapa job-<nome>)
+        with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False) as tf:
+            tf.write(prompt)
+        try:
+            rc = F.rodar_no_max(origem, f"job-{nome}", tf.name, a.modelo, a.timeout, ref=nome, max_turns=a.max_turns,
+                                motivo=tipo, detalhes={"texto": texto[:200]})
+        finally:
+            os.unlink(tf.name)
+        sys.exit(rc)
+
     try:
         A.checar_teto("dev", previsto=a.orcamento)
     except A.TetoExcedido as e:
-        print(f"[job_api] ERRO: {e}. Nada foi chamado.", file=sys.stderr)
-        sys.exit(4)
+        print(f"[job_api] AVISO: {e}.", file=sys.stderr)
+        cair_para_max("teto_atingido", str(e))
 
     inicio = dt.datetime.now(dt.timezone.utc)
     t0 = time.monotonic()
@@ -72,6 +90,8 @@ def main():
     subtype = "erro_api" if erro else (res.subtype if res else "sem_resultado")
     texto = (res.result if res and res.result else erro) or "(sem saída)"
     tokens = A.tokens_total(u)
+    falha_api = F.classificar(" ".join([erro or "", str(res.result) if res and res.is_error and res.result else "",
+                                        " ".join(R.CLI_ERR[-10:])])) if is_error and subtype != "error_max_budget_usd" and not (erro or "").startswith("timeout") else None
 
     if custo > 0 or tokens:
         A.registrar_consumo(custo, f"dev:{nome}", tokens, "tokens",
@@ -89,6 +109,10 @@ def main():
              u.get("cache_read_input_tokens"), u.get("cache_creation_input_tokens"), custo, is_error, subtype,
              str(texto)[:2000], R.FAB, "[API job] " + prompt[:280])).fetchone()[0]
     rid = tentar(reg)
+
+    if falha_api:
+        print(f"[job_api] falha da API ({falha_api}): {str(texto)[:300]}", file=sys.stderr)
+        cair_para_max(falha_api, " ".join([str(texto), " ".join(R.CLI_ERR[-10:])]))
 
     print(texto)
     print(f"\n[job_api] {nome} · {modelos} · {dur / 1000:.0f}s · {res.num_turns if res else '?'} turnos · {tokens} tokens · "

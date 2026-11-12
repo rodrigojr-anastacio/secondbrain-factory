@@ -16,8 +16,10 @@ Uso (normalmente chamado por _rotina_claude.sh):
   rotina nunca rodam juntas, seja pela API ou pelo claude -p.
 - Registro: custo real em financas.consumo (servico 'rotina:<rotina>') e uma linha em youtube.execucoes_claude
   (modelo 'api:<modelo>'; custo_usd_equivalente = custo real cobrado nos créditos).
-- Falha da API (rede, 401, 429, 5xx, orçamento): sai com código ≠ 0 e o motivo no stderr; NÃO chama claude -p.
-  Códigos: 0 ok, 1 erro/timeout, 2 argumento, 3 trava ocupada, 4 teto mensal.
+- Falha da API (rede, 401, 429, 5xx/overload, crédito esgotado) ou teto mensal do grupo: registra em ops.event_log e
+  **cai 1× para o plano Max** (`claude -p` via claude_run.sh, sem ANTHROPIC_API_KEY; fallback_max.py) com o mesmo prompt.
+  Orçamento da execução estourado e timeout NÃO acionam fallback. Códigos: 0 ok, 1 erro/timeout (ou fallback falhou),
+  2 argumento, 3 trava ocupada.
 """
 import argparse
 import asyncio
@@ -30,6 +32,7 @@ import time
 TOOLS = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, TOOLS)
 import anthropic_api as A  # noqa: E402
+import fallback_max as F  # noqa: E402
 from db import tentar  # noqa: E402
 
 FAB = os.path.dirname(TOOLS)
@@ -43,6 +46,9 @@ REGRAS_HEADLESS = (
     "- Responda em português do Brasil. Segredos ficam em ~/.segredos/: nunca imprima, copie nem commite.\n"
     "- Nunca rode `claude` (Claude Code) de dentro desta execução.\n"
     "- `git add` só dos caminhos que você mudou; se houver .git/index.lock, espere e tente de novo. Não faça push.\n")
+
+
+CLI_ERR = []  # últimas linhas do stderr do CLI do Agent SDK (para classificar a falha da API)
 
 
 def travar(rotina):
@@ -76,7 +82,7 @@ async def rodar(a, prompt, chave):
         model=A.modelo_id(a.modelo), cwd=FAB, permission_mode="bypassPermissions",
         setting_sources=["project"], max_turns=a.max_turns, max_budget_usd=a.orcamento, env=env,
         system_prompt={"type": "preset", "preset": "claude_code", "append": REGRAS_HEADLESS},
-        stderr=lambda s: print(f"[cli] {s.rstrip()}", file=sys.stderr))
+        stderr=lambda s: (CLI_ERR.append(s.rstrip()[:500]), print(f"[cli] {s.rstrip()}", file=sys.stderr)))
     resultado = None
     async for msg in query(prompt=prompt, options=opts):
         if isinstance(msg, SystemMessage) and msg.subtype == "init":
@@ -115,11 +121,20 @@ def main():
     if trava is None:
         print(f"[rotina_api] AVISO: rotina '{a.rotina}' já em andamento; nada foi chamado.", file=sys.stderr)
         sys.exit(3)
+    origem = f"rotina:{a.rotina}"
+
+    def cair_para_max(tipo, texto):
+        if tipo != "teto_atingido":  # o teto já foi registrado por A.checar_teto
+            F.registrar_falha(origem, tipo, texto, "rotinas", A.modelo_id(a.modelo), a.rotina)
+        trava.close()  # libera a trava: o claude_run usa a mesma
+        sys.exit(F.rodar_no_max(origem, a.rotina, a.prompt_file, a.modelo, a.timeout, ref=a.rotina,
+                                max_turns=a.max_turns, motivo=tipo, detalhes={"texto": texto[:200]}))
+
     try:
         A.checar_teto("rotinas", previsto=a.orcamento)
     except A.TetoExcedido as e:
-        print(f"[rotina_api] ERRO: {e}. Nada foi chamado.", file=sys.stderr)
-        sys.exit(4)
+        print(f"[rotina_api] AVISO: {e}.", file=sys.stderr)
+        cair_para_max("teto_atingido", str(e))
 
     inicio = dt.datetime.now(dt.timezone.utc)
     t0 = time.monotonic()
@@ -140,6 +155,8 @@ def main():
     subtype = "erro_api" if erro else (res.subtype if res else "sem_resultado")
     texto = (res.result if res and res.result else erro) or "(sem saída)"
     tokens = A.tokens_total(u)
+    falha_api = F.classificar(" ".join([erro or "", str(res.result) if res and res.is_error and res.result else "",
+                                        " ".join(CLI_ERR[-10:])])) if is_error and subtype != "error_max_budget_usd" and not (erro or "").startswith("timeout") else None
 
     if custo > 0 or tokens:
         A.registrar_consumo(custo, f"rotina:{a.rotina}", tokens, "tokens",
@@ -157,6 +174,10 @@ def main():
              u.get("cache_read_input_tokens"), u.get("cache_creation_input_tokens"), custo, is_error, subtype,
              str(texto)[:2000], FAB, "[API] " + prompt[:290])).fetchone()[0]
     rid = tentar(reg)
+
+    if falha_api:
+        print(f"[rotina_api] falha da API ({falha_api}): {str(texto)[:300]}", file=sys.stderr)
+        cair_para_max(falha_api, " ".join([str(texto), " ".join(CLI_ERR[-10:])]))
 
     print(texto)
     print(f"\n[rotina_api] {a.rotina} · {modelos} · {dur / 1000:.0f}s · {res.num_turns if res else '?'} turnos · "

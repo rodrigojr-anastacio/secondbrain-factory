@@ -47,8 +47,9 @@ def modelo_id(m):
 
 
 def carregar_chave(nome):
-    """Lê ANTHROPIC_API_KEY de ~/.segredos/anthropic/<nome>.env e devolve a string (nunca imprime)."""
-    caminho = os.path.join(SEGREDOS, f"{nome}.env")
+    """Lê ANTHROPIC_API_KEY de ~/.segredos/anthropic/<nome>.env e devolve a string (nunca imprime).
+    Teste: FABRICA_CHAVE_ARQUIVO=<arquivo .env falso> troca o arquivo (sem tocar nas chaves reais)."""
+    caminho = os.environ.get("FABRICA_CHAVE_ARQUIVO") or os.path.join(SEGREDOS, f"{nome}.env")
     with open(caminho, encoding="utf-8") as f:
         for linha in f:
             linha = linha.strip()
@@ -109,12 +110,23 @@ def gasto_mes(grupo, quando=None):
 def checar_teto(grupo, previsto=0.0):
     """Levanta TetoExcedido se gasto do mês + previsto passar do teto do grupo. Se o banco falhar, avisa e deixa seguir."""
     teto, _ = TETOS[grupo]
+    if os.environ.get("FABRICA_TETO_TESTE"):  # só para teste do fallback: teto artificial em US$
+        teto = float(os.environ["FABRICA_TETO_TESTE"])
     try:
         g = gasto_mes(grupo)
     except Exception as e:  # noqa: BLE001
         print(f"[anthropic_api] aviso: não consegui ler o gasto do mês ({type(e).__name__}); sigo.", file=sys.stderr)
         return None
+    if g >= 0.8 * teto and not os.environ.get("FABRICA_TETO_TESTE"):
+        from event_log import existe, registrar
+        if not existe("teto:%", "teto_aviso", filtro_detalhes={"grupo": grupo}):
+            registrar(f"teto:{grupo}", "teto_aviso", "aviso",
+                      f"grupo '{grupo}' em {g / teto:.0%} do teto mensal (US$ {g:.2f} de {teto:.0f})",
+                      {"grupo": grupo, "gasto_mes_usd": round(g, 2), "teto_usd": teto})
     if g + previsto > teto:
+        from event_log import registrar
+        registrar(f"teto:{grupo}", "teto_atingido", "erro", f"teto mensal do grupo '{grupo}' atingido",
+                  {"grupo": grupo, "gasto_mes_usd": round(g, 2), "previsto_usd": round(previsto, 2), "teto_usd": teto})
         raise TetoExcedido(f"teto mensal do grupo '{grupo}' (US$ {teto:.0f}): gasto US$ {g:.2f} + previsto US$ {previsto:.2f}")
     return teto - g
 

@@ -97,7 +97,7 @@ def main():
 
     if not re.fullmatch(r"[a-z0-9][a-z0-9-]*", a.etapa):
         ap.error("etapa inválida (use letras minúsculas, números e '-')")
-    if a.video is None and a.etapa not in SEM_VIDEO:
+    if a.video is None and a.etapa not in SEM_VIDEO and not a.etapa.startswith("job-"):
         ap.error("--video é obrigatório (só as etapas " + ", ".join(sorted(SEM_VIDEO)) + " rodam sem vídeo)")
     cwd = os.path.abspath(os.path.expanduser(a.cwd))
     if not os.path.isdir(cwd):

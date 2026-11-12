@@ -35,6 +35,7 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import anthropic_api as A  # noqa: E402
+import fallback_max as F  # noqa: E402
 from db import conectar  # noqa: E402
 
 FAB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -373,6 +374,26 @@ def commit(caminhos, msg):
 
 
 def main():
+    """Falha da API (chave, crédito, 5xx/overload): registra em ops.event_log e segue sem bloquear (Batch API não tem
+    equivalente no plano Max; a rotina continua e a próxima rodada tenta de novo)."""
+    try:
+        _main()
+    except SystemExit:
+        raise
+    except Exception as e:  # noqa: BLE001
+        texto = f"{type(e).__name__}: {str(e)[:300]}"
+        tipo = F.classificar(texto)
+        if tipo is None and type(e).__module__.startswith("anthropic"):
+            tipo = "api_erro"
+        if tipo is None:
+            raise
+        F.registrar_falha("batch", tipo, texto, "rotinas", None)
+        log(f"API falhou ({tipo}); garimpo em lote não rodou, sigo sem bloquear: {texto}")
+        print(json.dumps({"analisados": 0, "lotes": [], "pendentes": [], "custo_usd": 0, "relatorio": None,
+                          "erro": tipo}, ensure_ascii=False))
+
+
+def _main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--max", type=int, default=300)
     ap.add_argument("--espera", type=int, default=40, help="minutos esperando o lote terminar (depois fica pendente)")
@@ -417,8 +438,11 @@ def main():
     try:
         A.checar_teto("rotinas", previsto=len(novos) * (0.01 if "sonnet" in a.modelo else 0.002) + 0.2)
     except A.TetoExcedido as e:
-        log("ERRO:", e)
-        sys.exit(4)
+        log("AVISO: teto mensal; garimpo em lote não rodou (sem equivalente no Max):", e)
+        F.registrar("batch", "info", "aviso", "garimpo em lote não rodou: teto mensal do grupo rotinas", {"motivo": str(e)[:200]})
+        print(json.dumps({"analisados": 0, "lotes": [], "pendentes": [], "custo_usd": 0, "relatorio": None,
+                          "erro": "teto_atingido"}, ensure_ascii=False))
+        return
     cli = A.cliente("rotinas")
     pendentes = json.load(open(PENDENTE)) if os.path.exists(PENDENTE) else []
     if novos:

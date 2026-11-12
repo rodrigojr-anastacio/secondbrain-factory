@@ -34,6 +34,7 @@ import tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import anthropic_api as A  # noqa: E402
+import fallback_max as F  # noqa: E402
 
 FAB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ERROS_QA = os.path.join(FAB, "conhecimento", "erros-qa.md")
@@ -194,6 +195,22 @@ def analisar(cli, modelo, quadros, contexto, sistema_cache):
     return json.loads(txt), m
 
 
+def falha_api(tipo, texto, a):
+    F.registrar_falha("preqa", tipo, texto, "qa", A.modelo_id(a.modelo), str(a.video) if a.video else None)
+
+
+def nao_rodou(saida, motivo, escrever_md=True):
+    """API indisponível: registra e segue sem bloquear (a conferência manual vale). Não faz fallback para o Max."""
+    aviso = f"pré-QA visual não rodou ({motivo}); a conferência manual vale."
+    F.registrar("preqa", "info", "aviso", aviso, {"motivo": motivo[:200]})
+    print(f"[preqa_visual] AVISO: {aviso}", file=sys.stderr)
+    if escrever_md:
+        os.makedirs(saida, exist_ok=True)
+        open(os.path.join(saida, "PREQA-visual.md"), "w", encoding="utf-8").write(
+            f"# Pré-QA visual automático\n\n**{aviso[0].upper() + aviso[1:]}**\n")
+    sys.exit(0)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("alvo")
@@ -251,13 +268,17 @@ def main():
     try:
         A.checar_teto("qa", previsto=previsto)
     except A.TetoExcedido as e:
-        print(f"[preqa_visual] ERRO: {e}", file=sys.stderr)
-        sys.exit(4)
+        print(f"[preqa_visual] AVISO: {e}", file=sys.stderr)
+        nao_rodou(saida, f"teto mensal do grupo qa atingido ({e})")
 
     ctx = "\n\n".join(x for x in [contexto_canal(alvo), a.contexto] if x)
     sistema = [{"type": "text", "text": SISTEMA + "\n\n# Checklist de pré-render (conhecimento/erros-qa.md)\n" + checklist()
                 + ("\n\n# Contexto do canal/vídeo\n" + ctx if ctx else ""), "cache_control": {"type": "ephemeral"}}]
-    cli = A.cliente("qa")
+    try:
+        cli = A.cliente("qa")
+    except Exception as e:  # noqa: BLE001  (chave ausente/ilegível)
+        falha_api("api_erro", f"{type(e).__name__}: {e}", a)
+        nao_rodou(saida, f"chave da API indisponível ({type(e).__name__})")
     problemas, oks, custo, tokens, modelo_real, falhas = [], set(), 0.0, 0, None, []
     for k in range(0, len(quadros), a.lote):
         lote = quadros[k:k + a.lote]
@@ -265,6 +286,8 @@ def main():
             r, m = analisar(cli, a.modelo, lote, ctx, sistema)
         except Exception as e:  # noqa: BLE001
             falhas.append(f"{lote[0]['id']}–{lote[-1]['id']}: {type(e).__name__}: {str(e)[:200]}")
+            if len(falhas) == 1:  # registra a 1ª falha do tipo API no event_log
+                falha_api(F.classificar(f"{type(e).__name__} {e}") or "api_erro", f"{type(e).__name__}: {str(e)[:300]}", a)
             print(f"[preqa_visual] lote {lote[0]['id']}–{lote[-1]['id']} falhou: {type(e).__name__}", file=sys.stderr)
             continue
         custo += A.custo_usd(m.model, m.usage)
@@ -296,6 +319,8 @@ def main():
           ""]
     if falhas:
         md += ["**Lotes que falharam (não analisados):** " + "; ".join(falhas), ""]
+        if not problemas and not oks:
+            md += ["**Pré-QA visual não rodou (API indisponível); a conferência manual vale.**", ""]
     if problemas:
         md += ["| Tempo | Quadro | Severidade | Categoria | Problema |", "|---|---|---|---|---|"]
         for p in problemas:
@@ -320,7 +345,7 @@ def main():
     print(f"[preqa_visual] {len(quadros)} quadros · bloqueante {n['bloqueante']} · alto {n['alto']} · médio {n['medio']} · "
           f"baixo {n['baixo']} · US$ {custo:.3f} → {os.path.join(saida, 'PREQA-visual.md')}", file=sys.stderr)
     if falhas and not problemas and not oks:
-        sys.exit(1)
+        nao_rodou(saida, "todos os lotes falharam na API", escrever_md=False)
     sys.exit(2 if bloq else 0)
 
 

@@ -38,7 +38,7 @@ else
   ARGS=(--rotina "$ROTINA" --prompt-file "$PROMPT" --timeout "$TIMEOUT")
   [ -n "${MODELO:-}" ] && ARGS+=(--modelo "$MODELO")
   [ -n "${ORCAMENTO:-}" ] && ARGS+=(--orcamento "$ORCAMENTO")
-  "$PY" "$FAB/tools/rotinas/rotina_api.py" "${ARGS[@]}" >>"$LOG" 2>&1
+  "$PY" "$FAB/tools/rotinas/rotina_api.py" "${ARGS[@]}" >>"$LOG" 2>&1   # falha da API → cai 1× para o Max (fallback_max.py)
 fi
 RC=$?
 echo "== $(date -Is) motor $MOTOR saiu com $RC" | tee -a "$LOG"
@@ -56,9 +56,11 @@ try:
     j=json.loads(sys.argv[1])
 except Exception:
     print("Garimpo em lote: falhou (ver log)."); sys.exit()
+if j.get("erro"):
+    print(f"Garimpo em lote não rodou ({j["erro"]}); segue na próxima rodada."); sys.exit()
 p=" · lote pendente para a próxima rodada" if j.get("pendentes") else ""
 r=(" · " + j["relatorio"]) if j.get("relatorio") else ""
-print(f"Garimpo em lote (Batch API): {j[\"analisados\"]} vídeos analisados, US$ {j[\"custo_usd\"]:.2f}{r}{p}.")' "$BJSON")
+print(f"Garimpo em lote (Batch API): {j["analisados"]} vídeos analisados, US$ {j["custo_usd"]:.2f}{r}{p}.")' "$BJSON")
 fi
 
 # Resumo: o arquivo que o Claude escreveu; senão, o fim do log (texto final do claude ou o erro da API)
@@ -69,6 +71,12 @@ fi
 if [ -n "$LINHA_BATCH" ]; then
   # MEDIA: fica no fim; a linha do lote entra antes delas
   MSG=$(printf '%s\n' "$MSG" | grep -v '^MEDIA:'; echo "$LINHA_BATCH"; printf '%s\n' "$MSG" | grep '^MEDIA:')
+  printf '%s\n' "$MSG" > "$RESUMO"
+fi
+# Linha de alerta: fallback/erro de API nas últimas 48 h (ops.event_log)
+LINHA_EVT=$("$PY" "$FAB/tools/event_log.py" --resumo 48 2>/dev/null)
+if [ -n "$LINHA_EVT" ]; then
+  MSG=$(printf '%s\n' "$MSG" | grep -v '^MEDIA:'; echo "$LINHA_EVT"; printf '%s\n' "$MSG" | grep '^MEDIA:')
   printf '%s\n' "$MSG" > "$RESUMO"
 fi
 [ -s "$REL" ] && MSG="$MSG"$'\n'"MEDIA:$REL"
