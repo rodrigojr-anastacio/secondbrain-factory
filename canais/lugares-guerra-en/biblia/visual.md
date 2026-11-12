@@ -10,13 +10,15 @@ Amostras do estilo: `../amostras/frame-DocGrifo.mp4`, `frame-EntaoAgora.mp4`, `f
 - Cada vídeo tem `licencas.md` (arquivo → URL oficial → licença → crédito) para disputar Content ID. Regras completas: `pesquisa/lugares-guerra/material/MATERIAL.md` §Regras práticas.
 - Critério de pauta: ≥ 1 filme de época PD, ≥ 15 fotos de época ≥ 3.000 px, ≥ 1 documento legível, ≥ 5 imagens atuais livres, ≥ 1 par então × agora.
 
+**Sem crédito em tela (decisão do Rodrigo, 12/11/2026):** créditos de imagem, filme e documento (NARA, NHHC, USFWS, "filmed by Ford", nº de catálogo, "Map: Natural Earth") vão **só na descrição** (`youtube.txt`, bloco SOURCES & CREDITS, completo). Na tela fica só o que conta a história: data, lugar, nome de quem aparece, nome do documento. O `licencas.md`/`midia.csv` continua com tudo, para disputa de Content ID.
+
 ## Gramática de tela (componentes Remotion reutilizáveis)
 | Componente | Uso | Regra |
 |---|---|---|
 | **KenBurns** | toda foto | zoom 1,04→1,16 ou pan lento; nunca parada > 3 s |
 | **Filme** | clipes de 4–8 s de arquivo/DVIDS | sem som original de terceiros; no hook e nas viradas |
 | **DocGrifo** | documento escaneado | página inteira 0,5 s → zoom na linha → marca-texto amarelo `rgba(255,225,77,.55)` → a narração lê a linha literal |
-| **Ficha** | toda imagem real | caixa escura com barra amarela: linha 1 DATA · LUGAR (mono bold), linha 2 o que é, linha 3 acervo e licença |
+| **Ficha** | toda imagem real | caixa escura com barra amarela, **1 linha**: DATA · LUGAR (ou quem aparece), mono bold. **Sem crédito/acervo em tela** (ver abaixo) |
 | **Número** | 1 por minuto | Anton amarelo, contador animado, unidade em Barlow Condensed |
 | **Mapa2D** | 1 por bloco | Natural Earth (PD), terra areia `#D9CBA8`, mar `#0E2A3B`, linha amarela animada, pontos com rótulo; sem relevo |
 | **EntaoAgora** | ≥ 1 por vídeo | cortina vertical amarela entre 19xx e hoje, rótulos de data grandes |

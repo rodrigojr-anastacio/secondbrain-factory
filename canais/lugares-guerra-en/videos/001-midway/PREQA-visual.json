@@ -1,0 +1,2255 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/lugares-guerra-en/videos/001-midway/preqa/stills",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.4786,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 3,
+  "medio": 20,
+  "baixo": 46
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "A última linha do documento (item D das Enclosures) está cortada pela borda inferior, mas o documento está em zoom/pan de Ken Burns, então é enquadramento normal. Registrado só por precaução.",
+   "t": 3.8,
+   "arquivo": "114.png"
+  },
+  {
+   "quadro": "Q03",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O sinal automático acusa faixa uniforme na borda direita (20% do quadro, RGB 32,32,39). Visualmente parece fumaça escura do próprio filme, então pode ser conteúdo da cena, não defeito. Conferir se não há barra chapada de pillarbox no filme de 1942.",
+   "t": 8.533333333333333,
+   "arquivo": "256.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O grifo amarelo está em animação (ainda cobre só 'Bat' de 'Battle'), o que é esperado. O texto do documento é cortado pelas bordas direita e esquerda por causa do zoom, o que é enquadramento normal.",
+   "t": 35.766666666666666,
+   "arquivo": "1073.png"
+  },
+  {
+   "quadro": "Q13",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O rótulo 'MIDWAY' encosta no anel ciano e no ponto, e a linha amarela começa em cima do ponto. A leitura fica um pouco apertada. As ilhas do Havaí aparecem pequenas e cortadas na borda direita, e o Número '~40 PEOPLE LIVE THERE' cobre parte da ilha grande do Havaí no canto inferior direito, o que é permitido em mapas.",
+   "t": 49.06666666666667,
+   "arquivo": "1472.png"
+  },
+  {
+   "quadro": "Q16",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "A Ficha no canto inferior esquerdo diz '1942 · MIDWAY', mas o Número no canto superior direito mostra '1956 BANDED'. Pelo contexto, números sobre imagem de outra data são intencionais quando a narração cita o dado, mas a combinação pode confundir o espectador. Vale confirmar se a imagem é mesmo de 1942 ou se o filme é de 1956.",
+   "t": 62.166666666666664,
+   "arquivo": "1865.png"
+  },
+  {
+   "quadro": "Q22",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O Número '103 LAST KNOWN SURVIVOR' aparece sobre foto de flores de jun 2022. É intencional quando a narração cita o dado, mas confirme que a narração fala do dado neste ponto.",
+   "t": 89.23333333333333,
+   "arquivo": "2677.png"
+  },
+  {
+   "quadro": "Q23",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "A fumaça preta ocupa cerca de 22% da borda direita e fica quase preta (RGB 8,11,16). É parte da cena (fumaça do incêndio), não faixa chapada; só vale conferir que não vire bloco preto de fato após a compressão.",
+   "t": 95.43333333333334,
+   "arquivo": "2863.png"
+  },
+  {
+   "quadro": "Q24",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "No topo há uma faixa de céu cinza-claro (~7%) sobre o mar turquesa. Parece céu real da foto, então é provável que não seja defeito.",
+   "t": 100.03333333333333,
+   "arquivo": "3001.png"
+  },
+  {
+   "quadro": "Q26",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "A Ficha inferior esquerda ('NOV 20 2014 · U.S. HOUSE') parece cortada: a caixa termina de forma abrupta sobre o screenshot, e o texto parece truncado (possivelmente 'U.S. HOUSE …'). Também o topo direito do screenshot (caixa 'Search or ask anythi') está cortado pela borda. Dúvida entre enquadramento de zoom e defeito.",
+   "t": 107.66666666666667,
+   "arquivo": "3230.png"
+  },
+  {
+   "quadro": "Q26",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "A página é mostrada deslocada à direita, com grande área escura vazia à esquerda e o conteúdo cortado na borda direita e inferior. Provável efeito de pré-zoom intencional, mas o enquadramento está desequilibrado.",
+   "t": 107.66666666666667,
+   "arquivo": "3230.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Foto atual do prédio abandonado tem 'ABANDON BUILDING KEEP OUT' real na parede, é texto da cena e não inventado. Sem defeito, só observação de legibilidade da Ficha sobre o chão.",
+   "t": 115.0,
+   "arquivo": "3450.png"
+  },
+  {
+   "quadro": "Q33",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Na borda superior há duas torres/estruturas brancas cortadas pelo topo, parte da foto de época. Enquadramento normal, só registro.",
+   "t": 135.33333333333334,
+   "arquivo": "4060.png"
+  },
+  {
+   "quadro": "Q35",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O sinal automático de faixa escura na borda direita é o fundo escuro do documento página inteira, que é intencional. Vinheta presente, sem defeito real. A Ficha 'OCT 31 1996 · WASHINGTON' está no canto inferior esquerdo, como previsto.",
+   "t": 142.86666666666667,
+   "arquivo": "4286.png"
+  },
+  {
+   "quadro": "Q42",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Sinal automático de faixa uniforme na base (RGB 54,85,102). É apenas o mar azul do filme, parte da cena. Não parece defeito.",
+   "t": 168.66666666666666,
+   "arquivo": "5060.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Número amarelo 'DEC 7, 1941 / MIDWAY SHELLED' sobre filme colorido de 1942 com bandeira de regimento ('SIXTH DEF...'). A data do número difere da imagem, o que é intencional quando a narração cita o dado. Confirmar que a narração fala do bombardeio de 7 dez 1941 nesse ponto.",
+   "t": 180.5,
+   "arquivo": "5415.png"
+  },
+  {
+   "quadro": "Q46",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "Número 'MEDAL OF HONOR / 1ST LT. GEORGE H. CANNON · DEC 7 1941' sobre filme de 1942 com fuzileiros marchando. A Ficha inferior diz '1942 · MIDWAY'. Pode ser intencional se a narração citar o dado, mas a imagem não mostra Cannon. Texto do Número longo, mas dentro do quadro.",
+   "t": 188.46666666666667,
+   "arquivo": "5654.png"
+  },
+  {
+   "quadro": "Q49",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Mapa 2D: a linha amarela de Tokyo para Midway está parada no meio do mar, parando antes de chegar a Midway. Se não for o meio da animação de traçado, a rota fica incompleta. O sinal de faixa na borda direita é só mar aberto, que é intencional, e não é defeito.",
+   "t": 202.33333333333334,
+   "arquivo": "6070.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Página de documento inteira sobre fundo escuro, como pretendido antes do zoom. O texto da página é minúsculo e ilegível nessa fase, mas a Ficha está legível. Só registro por dúvida de legibilidade fraca.",
+   "t": 212.2,
+   "arquivo": "6366.png"
+  },
+  {
+   "quadro": "Q54",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Cartão SCHEMATIC com todo o conteúdo concentrado na metade superior e a parte inferior (cerca de 1/3 do quadro) vazia. A faixa escura é fundo liso com vinheta, intencional, mas a composição fica desequilibrada. Texto pequeno 'UNDERSEA CABLE · NO RADIO' em cinza, com contraste fraco.",
+   "t": 227.0,
+   "arquivo": "6810.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O documento (carta de navegação) não preenche o quadro: sobra faixa preta à esquerda e no topo e uma faixa branca fina na base. Pode ser o 'documento sobre fundo escuro' intencional, mas a margem é assimétrica e a faixa branca embaixo parece borda do scan.",
+   "t": 272.8666666666667,
+   "arquivo": "8186.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O Número amarelo '5° · 5 MI · 5 MIN' no canto superior direito cobre parte do cabeçalho do mapa. Aceitável pelo estilo, mas tapa conteúdo do documento.",
+   "t": 272.8666666666667,
+   "arquivo": "8186.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Cena do filme é muito escura, com a maior parte do quadro preta. O navio em esteira branca ainda é visível, então é só legibilidade fraca de material de arquivo. A faixa preta nas bordas vem do conteúdo do filme.",
+   "t": 277.1333333333333,
+   "arquivo": "8314.png"
+  },
+  {
+   "quadro": "Q64",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Filme borrado e escuro, com uma faixa bege/rosada no rodapé (provável convés em primeiro plano). Parece parte da cena, não é defeito de render.",
+   "t": 281.06666666666666,
+   "arquivo": "8432.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "A página do documento (John Ford) está sobre fundo escuro com o texto muito pequeno e ilegível no tamanho de página inteira, e a Ficha 'JOHN FORD · IN HIS OWN WORDS' é maior que as demais. Provavelmente é a etapa de página inteira antes do zoom, que é intencional. Na dúvida, registrado como médio para conferir se o zoom e o grifo entram depois.",
+   "t": 302.5,
+   "arquivo": "9075.png"
+  },
+  {
+   "quadro": "Q70",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Cena muito escura, com o lado direito quase preto e silhuetas pouco legíveis. Provavelmente é o filme original em baixa luz, não tela preta, mas a legibilidade é fraca.",
+   "t": 306.73333333333335,
+   "arquivo": "9202.png"
+  },
+  {
+   "quadro": "Q74",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Documento (página de transcrição) ocupa o quadro inteiro, sem fundo escuro visível. A faixa branca na borda esquerda é a margem da página, não é defeito de render. O contexto prevê página inteira sobre fundo escuro antes do zoom, então vale conferir se esse enquadramento é o previsto.",
+   "t": 322.03333333333336,
+   "arquivo": "9661.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "legenda",
+   "severidade": "baixo",
+   "descricao": "A Ficha usa o formato 'JUN 4 1942 · SAND ISLAND', diferente do 'JUNE 4, 1942 · MIDWAY' dos outros quadros. É inconsistência de formato de data e de lugar entre as fichas.",
+   "t": 333.1666666666667,
+   "arquivo": "9995.png"
+  },
+  {
+   "quadro": "Q81",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O Número '~38 PLANES, ON A LINE' no canto superior direito cobre parte de uma nuvem de explosão antiaérea (flak) na borda direita. Detalhe pequeno, sem prejuízo à leitura.",
+   "t": 343.0,
+   "arquivo": "10290.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O Número no canto superior direito mostra '15 / 15 PLANES LOST', mas a imagem é uma foto de grupo dos pilotos, sem relação visual com o dado. A narração pode citar o dado e o canal permite isso, então a dúvida é se o valor está correto e sincronizado.",
+   "t": 364.06666666666666,
+   "arquivo": "10922.png"
+  },
+  {
+   "quadro": "Q94",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme escura (RGB 26,26,26) no topo, ocupando 29% do quadro. Visualmente é o mar escuro da foto aérea, que faz parte da cena, sem emenda ou faixa chapada visível. Registrado só por conferência.",
+   "t": 399.3333333333333,
+   "arquivo": "11980.png"
+  },
+  {
+   "quadro": "Q96",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "O quadro é quase todo céu azul-escuro liso, com aviões cortados nos cantos (um no canto inferior esquerdo, outros no canto superior direito). Dá para suspeitar de enquadramento ruim no zoom/pan do filme. Provavelmente é céu da cena, mas fica quase sem conteúdo e pode parecer tela vazia.",
+   "t": 410.3,
+   "arquivo": "12309.png"
+  },
+  {
+   "quadro": "Q100",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A Ficha usa 'JUNE 1942' por extenso, enquanto os outros quadros usam 'JUN 4 1942'. É inconsistência pequena de formato e a data é vaga. O filme é de 1942 e estilo intencional, sem outros defeitos visíveis.",
+   "t": 426.8666666666667,
+   "arquivo": "12806.png"
+  },
+  {
+   "quadro": "Q102",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O documento (track chart) não preenche o quadro: há faixa preta chapada à esquerda (~80px) e faixa branca na base. A Ficha 'JUNE 4-7, 1942 · TRACK CHART' cobre o canto inferior esquerdo do documento. O contexto diz que página inteira sobre fundo escuro é intencional, mas a faixa branca embaixo e a margem desigual parecem corte de escaneamento. Dúvida entre estilo e defeito.",
+   "t": 440.96666666666664,
+   "arquivo": "13229.png"
+  },
+  {
+   "quadro": "Q109",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O Número '4,800' e a legenda ficam em caixa escura sobre o texto do documento, cobrindo parte do trecho '(a) ... SORYU, HIRYU' e da linha de cima. É a posição prevista (canto superior direito), mas a sobreposição esconde texto do documento. Se a narração não estiver lendo essa linha, é aceitável.",
+   "t": 477.8666666666667,
+   "arquivo": "14336.png"
+  },
+  {
+   "quadro": "Q110",
+   "categoria": "fundo/faixa",
+   "severidade": "alto",
+   "descricao": "Faixa preta chapada na borda inferior do quadro, abaixo do documento (cerca de 10 px). Em Q109 não aparece, então o documento parece ter deslocado ou ficado sem cobrir a base durante o zoom/pan.",
+   "t": 479.1666666666667,
+   "arquivo": "14375.png"
+  },
+  {
+   "quadro": "Q111",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Rótulo '3,000+ JAPANESE DEAD · TODAY'S COUNT' sobre foto de prisioneiros japoneses sobreviventes. Sobrepor um número a imagem de outro contexto é aceito quando a narração cita o dado. O número também difere do 4,800 mostrado em Q109/Q110 (estimativa de Nimitz versus contagem atual), o que é coerente. Na dúvida, confirmar com a narração.",
+   "t": 484.0,
+   "arquivo": "14520.png"
+  },
+  {
+   "quadro": "Q111",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou uma faixa cinza clara na borda inferior (RGB 190,190,190). Visualmente é o convés/chão claro da foto, então é provavelmente parte da cena. Vale conferir se não há uma faixa de fato.",
+   "t": 484.0,
+   "arquivo": "14520.png"
+  },
+  {
+   "quadro": "Q113",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A foto do porta-aviões japonês (Kaga, c. 1936) tem muitos pontos brancos e riscos de granulação ou poeira, em especial sobre o navio. Parece defeito do arquivo original, mas pode ser lido como sujeira.",
+   "t": 494.73333333333335,
+   "arquivo": "14842.png"
+  },
+  {
+   "quadro": "Q119",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O Número '5,000+ PEOPLE AT ITS PEAK' aparece sobre foto de abril de 1945 no canto superior direito. Isso é intencional quando a narração cita o dado, mas a Ficha diz 1945 e o pico de população pode ser de outra data. Vale confirmar com a narração.",
+   "t": 520.6333333333333,
+   "arquivo": "15619.png"
+  },
+  {
+   "quadro": "Q125",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A Ficha traz só 'MIDWAY ATOLL', sem data, ao contrário das outras (DATA · LUGAR). Pode ser omissão de data. Imagem muito escura/silhueta, mas parece ser estilo da foto.",
+   "t": 545.2666666666667,
+   "arquivo": "16358.png"
+  },
+  {
+   "quadro": "Q136",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A captura do site .gov aparece deslocada para a direita sobre fundo escuro. A barra de busca do site ('Search or ask anythi...') fica cortada na borda direita, e o selo 'Número' (~300 VISITORS A YEAR) cobre parte do cabeçalho da página. Pode ser o enquadramento pré-zoom do documento (intencional), mas o corte do texto na borda e a sobreposição merecem conferência.",
+   "t": 584.4666666666667,
+   "arquivo": "17534.png"
+  },
+  {
+   "quadro": "Q137",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa azul uniforme no topo (9%), mas é o céu liso do filme de 1942, parte da cena. Só registrado por precaução; o céu tem pequenos pontos brancos (sujeira do filme), que são normais em filme antigo.",
+   "t": 589.9,
+   "arquivo": "17697.png"
+  },
+  {
+   "quadro": "Q140",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A página do documento está inteira sobre fundo branco, sem fundo escuro e sem Ficha, ao contrário do descrito no contexto do canal (página inteira sobre fundo escuro antes do zoom). Pode ser um zoom já em andamento, com a página ocupando o quadro; dúvida de estilo. O grifo amarelo está no ponto certo, mas termina no meio da palavra 'Beginning' ('Be'), provavelmente animação do grifo.",
+   "t": 608.4,
+   "arquivo": "18252.png"
+  },
+  {
+   "quadro": "Q145",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "A caixa do Número (7 / HISTORIC BUILDINGS DEMOLISHED) no canto superior direito cobre o texto do documento e corta linhas como 'but has demolished', 'which is not consistent' e 'National Historic'. O texto cortado é do documento, não é texto novo. A sobreposição já esteve no limite no checklist, mas aqui o Número está semitransparente e deixa as letras do documento atravessarem a caixa, o que prejudica a leitura do rótulo.",
+   "t": 629.2666666666667,
+   "arquivo": "18878.png"
+  },
+  {
+   "quadro": "Q146",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "Mesmo problema de Q145: o texto do documento aparece por trás da caixa semitransparente do Número 7 e se mistura com 'HISTORIC BUILDINGS DEMOLISHED', o que diminui a legibilidade do rótulo e das linhas do documento atrás dele.",
+   "t": 630.8333333333334,
+   "arquivo": "18925.png"
+  },
+  {
+   "quadro": "Q149",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "No mapa 2D, o rótulo amarelo 'EVERYTHING SHIPPED IN' fica em cima da linha amarela animada, que passa pelo meio das letras ('EVERYTHING'). Reduz um pouco a legibilidade. O fundo azul liso e o mar aberto são intencionais, então a faixa detectada não é defeito.",
+   "t": 638.2333333333333,
+   "arquivo": "19147.png"
+  },
+  {
+   "quadro": "Q153",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O selo 'NOV 2012 / VISITS SUSPENDED' no canto superior direito cobre palavras do documento (\"was ... fic\", \"allocation ... Midw\"). O Número sobre o documento é intencional, mas a caixa tapa texto do parágrafo ao lado do trecho grifado; é aceitável se a linha lida não for afetada.",
+   "t": 660.5333333333333,
+   "arquivo": "19816.png"
+  },
+  {
+   "quadro": "Q154",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "A caixa 'NOV 2012' no canto superior direito tapa trechos do texto do documento, perto de \"has w... fic\" e \"allocation\". Mesma situação de Q153, sem afetar a frase grifada.",
+   "t": 662.6666666666666,
+   "arquivo": "19880.png"
+  },
+  {
+   "quadro": "Q158",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Faixa branca uniforme no topo (~6%), que é a margem da página web capturada. Faz parte da captura .gov e é provavelmente intencional. Anotado só pelo sinal automático.",
+   "t": 678.8666666666667,
+   "arquivo": "20366.png"
+  },
+  {
+   "quadro": "Q161",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "O Número '35,000 JETS CROSSING THE PACIFIC' cobre parte do texto da página e o parágrafo é cortado nas bordas esquerda e direita. Há também 'Siteproviding' sem espaço, defeito de origem do texto da captura. Aceitável num zoom de documento, mas o Número está sobre a linha acima do trecho grifado.",
+   "t": 694.7666666666667,
+   "arquivo": "20843.png"
+  },
+  {
+   "quadro": "Q166",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A página do documento está deslocada para a direita, sobre fundo escuro com degradê. A Ficha 'JAN 18 2022 · MIDWAY ATOLL' invade a borda esquerda da página branca e cobre um pedaço dela. O texto da página é minúsculo e ilegível, mas o quadro mostra a página inteira antes do zoom, como previsto.",
+   "t": 718.0333333333333,
+   "arquivo": "21541.png"
+  },
+  {
+   "quadro": "Q172",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "Foto de 13 mar 2011 com número '~60% OF EASTERN ISLAND FLOODED' sobre imagem que não mostra alagamento, apenas detritos e ninho. É intencional se a narração citar o dado, então só vale conferir a coerência.",
+   "t": 752.1666666666666,
+   "arquivo": "22565.png"
+  },
+  {
+   "quadro": "Q175",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O Número no canto superior direito mostra dois valores juntos ('22% · 2,000+') em uma caixa só, com legenda 'OF THE YEAR'S CHICKS · ADULTS'. Fica poluído e a leitura é confusa; a bíblia pede 1 número por vez. O Número também vem acompanhado de Ficha, o que é aceitável, mas a caixa está grande e quase encosta no topo.",
+   "t": 767.6,
+   "arquivo": "23028.png"
+  },
+  {
+   "quadro": "Q184",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O Número amarelo '50-60 EGGS IN HER LIFE' no canto superior direito cobre parte da cabeça/bico da segunda ave (que está cortada pela borda). Isso é aceitável como sobreposição intencional, mas vale conferir se o recorte não atrapalha.",
+   "t": 809.3666666666667,
+   "arquivo": "24281.png"
+  },
+  {
+   "quadro": "Q189",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Captura do documento .gov em faixa larga e baixa no meio da tela, com texto muito pequeno e quase ilegível antes do zoom. É o padrão 'página inteira' do canal, mas a leitura está fraca. Dúvida entre estilo e defeito, por isso baixo.",
+   "t": 833.4666666666667,
+   "arquivo": "25004.png"
+  },
+  {
+   "quadro": "Q196",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O mapa 2D schematic mostra só pontos soltos sobre fundo azul liso, sem terra nem linha de costa. O Midway aparece como anel ciano sem atol. É estilo intencional (mar aberto), mas o mapa fica pobre. Além disso, o ponto do AKAGI fica solto e o rótulo está deslocado do marcador.",
+   "t": 869.9333333333333,
+   "arquivo": "26098.png"
+  },
+  {
+   "quadro": "Q199",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "O Número amarelo '3 MILES' diz 'DOWN: YORKTOWN WRECK, FOUND 1998' sobre foto de 1942 do Yorktown sendo atingido; é intencional quando a narração cita o dado. Nenhum defeito visual claro.",
+   "t": 883.6666666666666,
+   "arquivo": "26510.png"
+  },
+  {
+   "quadro": "Q200",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Perfil schematic com faixa chapada de cor areia no fundo e faixa azul no topo; é esquemático e provavelmente intencional. Dúvida: a faixa areia (seabed) parece o fundo do mar, mas o rótulo 'YORKTOWN ~3 MI (~5,000 M)' encosta/sobrepõe o marcador de 5,000 M à esquerda, e o título de Kaga (5,400 m) mostra Yorktown mais raso, o que é coerente.",
+   "t": 892.6333333333333,
+   "arquivo": "26779.png"
+  },
+  {
+   "quadro": "Q202",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O esquema mostra a linha 'ROV DIVES > 5,100 M (2023)' descendo só até ~5.000 m e termina acima do fundo, e o Akagi não tem profundidade no rótulo, enquanto Yorktown e Kaga têm. O título usa 'BELOW 5,100 M', mas os naufrágios estão desenhados em ~5.000–5.400 m, o que gera inconsistência de dados.",
+   "t": 901.4666666666667,
+   "arquivo": "27044.png"
+  },
+  {
+   "quadro": "Q202",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Os sinais de faixa no topo (título, azul-acinzentado) e na base (areia) são o próprio layout do esquema, e não um defeito. Dúvida de estilo: a faixa do título tem tom diferente do gradiente do mar e fica bem marcada.",
+   "t": 901.4666666666667,
+   "arquivo": "27044.png"
+  },
+  {
+   "quadro": "Q203",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O Número '5,100 M+' ocupa o canto superior direito em foto de c. 1936, que mostra o Akagi/porta-aviões antes da guerra. A narração cita o dado, então a sobreposição é intencional. O contraste do texto é bom e não há defeito.",
+   "t": 906.5666666666667,
+   "arquivo": "27197.png"
+  },
+  {
+   "quadro": "Q207",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O filme colorido de 1942 está muito escuro e desfocado, com o navio quase invisível no horizonte inferior. A legibilidade da cena é fraca, mas é material de arquivo.",
+   "t": 923.5333333333333,
+   "arquivo": "27706.png"
+  },
+  {
+   "quadro": "Q211",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Mapa 2D com muito mar vazio, e o rótulo 'MIDWAY' encosta no anel ciano e no ponto. A linha amarela atravessa o rótulo '1,200+ MI'. Legibilidade ligeiramente comprometida.",
+   "t": 937.1666666666666,
+   "arquivo": "28115.png"
+  },
+  {
+   "quadro": "Q213",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Faixa cinza clara na borda esquerda do documento, margem da página escaneada que aparece fora do conteúdo. Provavelmente faz parte da captura, mas destoa do padrão 'página inteira sobre fundo escuro'.",
+   "t": 945.8666666666667,
+   "arquivo": "28376.png"
+  },
+  {
+   "quadro": "Q214",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Faixa cinza na borda esquerda, mesma margem da página escaneada. Texto do documento cortado pela borda direita durante o zoom, o que é aceitável como enquadramento.",
+   "t": 947.4333333333333,
+   "arquivo": "28423.png"
+  },
+  {
+   "quadro": "Q217",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O grifo amarelo está em animação e termina no meio da palavra 'visitor'. Isso é normal na animação do grifo e não é defeito. O texto do documento é cortado nas bordas esquerda e direita, mas é zoom intencional em captura .gov. Só registro a dúvida, sem ação necessária.",
+   "t": 961.1333333333333,
+   "arquivo": "28834.png"
+  },
+  {
+   "quadro": "Q222",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Ficha 'JUNE 1942 · MIDWAY' no canto inferior esquerdo fica parcialmente sobre o capacete escuro ao fundo, com leitura um pouco comprometida. A ficha tem barra amarela e segue o estilo do canal, então é só detalhe de legibilidade.",
+   "t": 977.8333333333334,
+   "arquivo": "29335.png"
+  },
+  {
+   "quadro": "Q226",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A Ficha diz '1941 · JAPAN' e o quadro mostra um porta-aviões visto de cima com bandeira no mastro. A imagem é de baixa resolução e granulada, mas é foto de época e a legenda é coerente. Só confirmar se a bandeira e a data estão certas.",
+   "t": 987.5333333333333,
+   "arquivo": "29626.png"
+  },
+  {
+   "quadro": "Q227",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O Número '2001' amarelo no canto superior direito está sobre a imagem de satélite, sem Ficha. Segue o padrão de então × agora, mas não há rótulo de lugar. Confirmar que a narração cita a data.",
+   "t": 991.7333333333333,
+   "arquivo": "29752.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 3.8,
+   "nome": "114.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 5.3,
+   "nome": "159.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 8.533333333333333,
+   "nome": "256.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 20% do quadro, cor RGB(32,32,39)"
+   ]
+  },
+  {
+   "id": "Q04",
+   "t": 17.166666666666668,
+   "nome": "515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 20.166666666666668,
+   "nome": "605.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 22.4,
+   "nome": "672.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 28.3,
+   "nome": "849.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 30.3,
+   "nome": "909.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 32.5,
+   "nome": "975.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 14% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 15% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q10",
+   "t": 35.766666666666666,
+   "nome": "1073.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 36.63333333333333,
+   "nome": "1099.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 40.7,
+   "nome": "1221.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 49.06666666666667,
+   "nome": "1472.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 28% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda esquerda: 16% do quadro, cor RGB(14,42,59)"
+   ]
+  },
+  {
+   "id": "Q14",
+   "t": 53.6,
+   "nome": "1608.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 58.06666666666667,
+   "nome": "1742.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 62.166666666666664,
+   "nome": "1865.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 67.43333333333334,
+   "nome": "2023.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 73.83333333333333,
+   "nome": "2215.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 9% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 6% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q19",
+   "t": 75.66666666666667,
+   "nome": "2270.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 9% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 5% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q20",
+   "t": 80.6,
+   "nome": "2418.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(19,31,51)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(14,21,34)"
+   ]
+  },
+  {
+   "id": "Q21",
+   "t": 84.1,
+   "nome": "2523.png",
+   "sinais": [
+    "faixa uniforme na borda base: 5% do quadro, cor RGB(46,40,41)"
+   ]
+  },
+  {
+   "id": "Q22",
+   "t": 89.23333333333333,
+   "nome": "2677.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 95.43333333333334,
+   "nome": "2863.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 22% do quadro, cor RGB(8,11,16)"
+   ]
+  },
+  {
+   "id": "Q24",
+   "t": 100.03333333333333,
+   "nome": "3001.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 7% do quadro, cor RGB(153,167,177)"
+   ]
+  },
+  {
+   "id": "Q25",
+   "t": 103.33333333333333,
+   "nome": "3100.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 107.66666666666667,
+   "nome": "3230.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(11,13,16)"
+   ]
+  },
+  {
+   "id": "Q27",
+   "t": 112.1,
+   "nome": "3363.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 14% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q28",
+   "t": 115.0,
+   "nome": "3450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 119.96666666666667,
+   "nome": "3599.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 123.53333333333333,
+   "nome": "3706.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 126.33333333333333,
+   "nome": "3790.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 130.13333333333333,
+   "nome": "3904.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(26,36,49)",
+    "faixa uniforme na borda base: 5% do quadro, cor RGB(8,16,29)",
+    "faixa uniforme na borda direita: 3% do quadro, cor RGB(13,28,42)"
+   ]
+  },
+  {
+   "id": "Q33",
+   "t": 135.33333333333334,
+   "nome": "4060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 139.7,
+   "nome": "4191.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 142.86666666666667,
+   "nome": "4286.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 14% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q36",
+   "t": 147.2,
+   "nome": "4416.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q37",
+   "t": 148.56666666666666,
+   "nome": "4457.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q38",
+   "t": 153.13333333333333,
+   "nome": "4594.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 158.33333333333334,
+   "nome": "4750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 161.3,
+   "nome": "4839.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 164.7,
+   "nome": "4941.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 168.66666666666666,
+   "nome": "5060.png",
+   "sinais": [
+    "faixa uniforme na borda base: 5% do quadro, cor RGB(54,85,102)"
+   ]
+  },
+  {
+   "id": "Q43",
+   "t": 174.26666666666668,
+   "nome": "5228.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 180.5,
+   "nome": "5415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 184.63333333333333,
+   "nome": "5539.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 188.46666666666667,
+   "nome": "5654.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 193.53333333333333,
+   "nome": "5806.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 199.43333333333334,
+   "nome": "5983.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 202.33333333333334,
+   "nome": "6070.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 15% do quadro, cor RGB(14,42,59)"
+   ]
+  },
+  {
+   "id": "Q50",
+   "t": 207.53333333333333,
+   "nome": "6226.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 14% do quadro, cor RGB(14,42,59)"
+   ]
+  },
+  {
+   "id": "Q51",
+   "t": 212.2,
+   "nome": "6366.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 217.76666666666668,
+   "nome": "6533.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 222.46666666666667,
+   "nome": "6674.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 227.0,
+   "nome": "6810.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 16% do quadro, cor RGB(12,14,18)"
+   ]
+  },
+  {
+   "id": "Q55",
+   "t": 232.73333333333332,
+   "nome": "6982.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 234.43333333333334,
+   "nome": "7033.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 239.66666666666666,
+   "nome": "7190.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 247.43333333333334,
+   "nome": "7423.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 249.7,
+   "nome": "7491.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 255.56666666666666,
+   "nome": "7667.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 263.6333333333333,
+   "nome": "7909.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda esquerda: 33% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda direita: 33% do quadro, cor RGB(14,42,59)"
+   ]
+  },
+  {
+   "id": "Q62",
+   "t": 272.8666666666667,
+   "nome": "8186.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 277.1333333333333,
+   "nome": "8314.png",
+   "sinais": [
+    "faixa preta na borda base: 6% do quadro",
+    "faixa preta na borda direita: 33% do quadro"
+   ]
+  },
+  {
+   "id": "Q64",
+   "t": 281.06666666666666,
+   "nome": "8432.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(47,50,58)"
+   ]
+  },
+  {
+   "id": "Q65",
+   "t": 286.3,
+   "nome": "8589.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 289.0,
+   "nome": "8670.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(122,120,113)"
+   ]
+  },
+  {
+   "id": "Q67",
+   "t": 292.0,
+   "nome": "8760.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 11% do quadro, cor RGB(138,138,138)"
+   ]
+  },
+  {
+   "id": "Q68",
+   "t": 295.8666666666667,
+   "nome": "8876.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(143,135,126)"
+   ]
+  },
+  {
+   "id": "Q69",
+   "t": 302.5,
+   "nome": "9075.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 306.73333333333335,
+   "nome": "9202.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 18% do quadro, cor RGB(20,27,35)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(10,11,16)"
+   ]
+  },
+  {
+   "id": "Q71",
+   "t": 309.43333333333334,
+   "nome": "9283.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 313.4,
+   "nome": "9402.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 316.4,
+   "nome": "9492.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 322.03333333333336,
+   "nome": "9661.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 10% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q75",
+   "t": 324.0,
+   "nome": "9720.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 10% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q76",
+   "t": 325.8333333333333,
+   "nome": "9775.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 328.96666666666664,
+   "nome": "9869.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 333.1666666666667,
+   "nome": "9995.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 335.6333333333333,
+   "nome": "10069.png",
+   "sinais": [
+    "faixa preta na borda direita: 5% do quadro"
+   ]
+  },
+  {
+   "id": "Q80",
+   "t": 338.56666666666666,
+   "nome": "10157.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 12% do quadro, cor RGB(17,25,39)"
+   ]
+  },
+  {
+   "id": "Q81",
+   "t": 343.0,
+   "nome": "10290.png",
+   "sinais": [
+    "faixa uniforme na borda base: 5% do quadro, cor RGB(39,38,42)"
+   ]
+  },
+  {
+   "id": "Q82",
+   "t": 347.6666666666667,
+   "nome": "10430.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 30% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda base: 30% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda esquerda: 32% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda direita: 22% do quadro, cor RGB(14,42,59)"
+   ]
+  },
+  {
+   "id": "Q83",
+   "t": 353.23333333333335,
+   "nome": "10597.png",
+   "sinais": [
+    "faixa uniforme na borda base: 4% do quadro, cor RGB(44,45,53)"
+   ]
+  },
+  {
+   "id": "Q84",
+   "t": 359.1,
+   "nome": "10773.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 21% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 21% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q85",
+   "t": 364.06666666666666,
+   "nome": "10922.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(159,162,172)"
+   ]
+  },
+  {
+   "id": "Q86",
+   "t": 367.4,
+   "nome": "11022.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 371.5,
+   "nome": "11145.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 375.06666666666666,
+   "nome": "11252.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(79,92,131)"
+   ]
+  },
+  {
+   "id": "Q89",
+   "t": 377.9,
+   "nome": "11337.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 380.5,
+   "nome": "11415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 386.23333333333335,
+   "nome": "11587.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 391.23333333333335,
+   "nome": "11737.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 395.93333333333334,
+   "nome": "11878.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 399.3333333333333,
+   "nome": "11980.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 29% do quadro, cor RGB(26,26,26)"
+   ]
+  },
+  {
+   "id": "Q95",
+   "t": 403.96666666666664,
+   "nome": "12119.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(70,74,82)"
+   ]
+  },
+  {
+   "id": "Q96",
+   "t": 410.3,
+   "nome": "12309.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,20,36)",
+    "faixa uniforme na borda base: 4% do quadro, cor RGB(27,34,49)"
+   ]
+  },
+  {
+   "id": "Q97",
+   "t": 415.8666666666667,
+   "nome": "12476.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q98",
+   "t": 419.3666666666667,
+   "nome": "12581.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 423.1,
+   "nome": "12693.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 426.8666666666667,
+   "nome": "12806.png",
+   "sinais": [
+    "faixa uniforme na borda base: 5% do quadro, cor RGB(53,60,84)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(35,43,65)"
+   ]
+  },
+  {
+   "id": "Q101",
+   "t": 433.76666666666665,
+   "nome": "13013.png",
+   "sinais": [
+    "faixa uniforme na borda base: 4% do quadro, cor RGB(29,28,28)"
+   ]
+  },
+  {
+   "id": "Q102",
+   "t": 440.96666666666664,
+   "nome": "13229.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 449.26666666666665,
+   "nome": "13478.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 455.0,
+   "nome": "13650.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 18% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 18% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q105",
+   "t": 461.6,
+   "nome": "13848.png",
+   "sinais": []
+  },
+  {
+   "id": "Q106",
+   "t": 470.53333333333336,
+   "nome": "14116.png",
+   "sinais": []
+  },
+  {
+   "id": "Q107",
+   "t": 473.26666666666665,
+   "nome": "14198.png",
+   "sinais": []
+  },
+  {
+   "id": "Q108",
+   "t": 474.23333333333335,
+   "nome": "14227.png",
+   "sinais": []
+  },
+  {
+   "id": "Q109",
+   "t": 477.8666666666667,
+   "nome": "14336.png",
+   "sinais": []
+  },
+  {
+   "id": "Q110",
+   "t": 479.1666666666667,
+   "nome": "14375.png",
+   "sinais": []
+  },
+  {
+   "id": "Q111",
+   "t": 484.0,
+   "nome": "14520.png",
+   "sinais": [
+    "faixa uniforme na borda base: 4% do quadro, cor RGB(190,190,190)"
+   ]
+  },
+  {
+   "id": "Q112",
+   "t": 488.6333333333333,
+   "nome": "14659.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q113",
+   "t": 494.73333333333335,
+   "nome": "14842.png",
+   "sinais": []
+  },
+  {
+   "id": "Q114",
+   "t": 501.26666666666665,
+   "nome": "15038.png",
+   "sinais": []
+  },
+  {
+   "id": "Q115",
+   "t": 504.06666666666666,
+   "nome": "15122.png",
+   "sinais": []
+  },
+  {
+   "id": "Q116",
+   "t": 508.2,
+   "nome": "15246.png",
+   "sinais": []
+  },
+  {
+   "id": "Q117",
+   "t": 512.6666666666666,
+   "nome": "15380.png",
+   "sinais": [
+    "faixa uniforme na borda base: 4% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda esquerda: 6% do quadro, cor RGB(14,42,59)"
+   ]
+  },
+  {
+   "id": "Q118",
+   "t": 516.6333333333333,
+   "nome": "15499.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 11% do quadro, cor RGB(19,19,19)"
+   ]
+  },
+  {
+   "id": "Q119",
+   "t": 520.6333333333333,
+   "nome": "15619.png",
+   "sinais": []
+  },
+  {
+   "id": "Q120",
+   "t": 526.0666666666667,
+   "nome": "15782.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 30% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 31% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q121",
+   "t": 530.0333333333333,
+   "nome": "15901.png",
+   "sinais": []
+  },
+  {
+   "id": "Q122",
+   "t": 533.6333333333333,
+   "nome": "16009.png",
+   "sinais": []
+  },
+  {
+   "id": "Q123",
+   "t": 540.4666666666667,
+   "nome": "16214.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 9% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q124",
+   "t": 542.7666666666667,
+   "nome": "16283.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 9% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q125",
+   "t": 545.2666666666667,
+   "nome": "16358.png",
+   "sinais": []
+  },
+  {
+   "id": "Q126",
+   "t": 551.9333333333333,
+   "nome": "16558.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 11% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q127",
+   "t": 554.2333333333333,
+   "nome": "16627.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 11% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q128",
+   "t": 556.0333333333333,
+   "nome": "16681.png",
+   "sinais": []
+  },
+  {
+   "id": "Q129",
+   "t": 559.7333333333333,
+   "nome": "16792.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 4% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 10% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q130",
+   "t": 560.9,
+   "nome": "16827.png",
+   "sinais": [
+    "faixa uniforme na borda base: 3% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda esquerda: 4% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q131",
+   "t": 565.3,
+   "nome": "16959.png",
+   "sinais": [
+    "faixa uniforme na borda base: 3% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda esquerda: 11% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q132",
+   "t": 567.0,
+   "nome": "17010.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 11% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q133",
+   "t": 570.7666666666667,
+   "nome": "17123.png",
+   "sinais": []
+  },
+  {
+   "id": "Q134",
+   "t": 574.3666666666667,
+   "nome": "17231.png",
+   "sinais": []
+  },
+  {
+   "id": "Q135",
+   "t": 578.7333333333333,
+   "nome": "17362.png",
+   "sinais": []
+  },
+  {
+   "id": "Q136",
+   "t": 584.4666666666667,
+   "nome": "17534.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(11,13,16)"
+   ]
+  },
+  {
+   "id": "Q137",
+   "t": 589.9,
+   "nome": "17697.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(57,80,105)"
+   ]
+  },
+  {
+   "id": "Q138",
+   "t": 593.9,
+   "nome": "17817.png",
+   "sinais": []
+  },
+  {
+   "id": "Q139",
+   "t": 598.5,
+   "nome": "17955.png",
+   "sinais": []
+  },
+  {
+   "id": "Q140",
+   "t": 608.4,
+   "nome": "18252.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 9% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 10% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q141",
+   "t": 611.9,
+   "nome": "18357.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 9% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q142",
+   "t": 613.5,
+   "nome": "18405.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 26% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 26% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q143",
+   "t": 619.6333333333333,
+   "nome": "18589.png",
+   "sinais": []
+  },
+  {
+   "id": "Q144",
+   "t": 624.3666666666667,
+   "nome": "18731.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 24% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 25% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q145",
+   "t": 629.2666666666667,
+   "nome": "18878.png",
+   "sinais": []
+  },
+  {
+   "id": "Q146",
+   "t": 630.8333333333334,
+   "nome": "18925.png",
+   "sinais": []
+  },
+  {
+   "id": "Q147",
+   "t": 633.8333333333334,
+   "nome": "19015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q148",
+   "t": 634.9333333333333,
+   "nome": "19048.png",
+   "sinais": []
+  },
+  {
+   "id": "Q149",
+   "t": 638.2333333333333,
+   "nome": "19147.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 28% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda base: 16% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda esquerda: 16% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(14,42,59)"
+   ]
+  },
+  {
+   "id": "Q150",
+   "t": 642.9333333333333,
+   "nome": "19288.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 26% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 26% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q151",
+   "t": 648.9666666666667,
+   "nome": "19469.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(60,122,181)"
+   ]
+  },
+  {
+   "id": "Q152",
+   "t": 654.0,
+   "nome": "19620.png",
+   "sinais": []
+  },
+  {
+   "id": "Q153",
+   "t": 660.5333333333333,
+   "nome": "19816.png",
+   "sinais": []
+  },
+  {
+   "id": "Q154",
+   "t": 662.6666666666666,
+   "nome": "19880.png",
+   "sinais": []
+  },
+  {
+   "id": "Q155",
+   "t": 666.2,
+   "nome": "19986.png",
+   "sinais": []
+  },
+  {
+   "id": "Q156",
+   "t": 667.5333333333333,
+   "nome": "20026.png",
+   "sinais": []
+  },
+  {
+   "id": "Q157",
+   "t": 671.6,
+   "nome": "20148.png",
+   "sinais": []
+  },
+  {
+   "id": "Q158",
+   "t": 678.8666666666667,
+   "nome": "20366.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(254,254,254)"
+   ]
+  },
+  {
+   "id": "Q159",
+   "t": 681.1333333333333,
+   "nome": "20434.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(254,254,254)"
+   ]
+  },
+  {
+   "id": "Q160",
+   "t": 687.0,
+   "nome": "20610.png",
+   "sinais": []
+  },
+  {
+   "id": "Q161",
+   "t": 694.7666666666667,
+   "nome": "20843.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 10% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q162",
+   "t": 696.9333333333333,
+   "nome": "20908.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 10% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q163",
+   "t": 700.4666666666667,
+   "nome": "21014.png",
+   "sinais": []
+  },
+  {
+   "id": "Q164",
+   "t": 705.8333333333334,
+   "nome": "21175.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 12% do quadro, cor RGB(82,49,32)"
+   ]
+  },
+  {
+   "id": "Q165",
+   "t": 711.9,
+   "nome": "21357.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(36,78,144)"
+   ]
+  },
+  {
+   "id": "Q166",
+   "t": 718.0333333333333,
+   "nome": "21541.png",
+   "sinais": []
+  },
+  {
+   "id": "Q167",
+   "t": 723.7333333333333,
+   "nome": "21712.png",
+   "sinais": [
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q168",
+   "t": 725.2666666666667,
+   "nome": "21758.png",
+   "sinais": [
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q169",
+   "t": 733.5333333333333,
+   "nome": "22006.png",
+   "sinais": []
+  },
+  {
+   "id": "Q170",
+   "t": 741.0666666666667,
+   "nome": "22232.png",
+   "sinais": []
+  },
+  {
+   "id": "Q171",
+   "t": 746.1333333333333,
+   "nome": "22384.png",
+   "sinais": [
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda direita: 16% do quadro, cor RGB(14,42,59)"
+   ]
+  },
+  {
+   "id": "Q172",
+   "t": 752.1666666666666,
+   "nome": "22565.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(125,139,162)"
+   ]
+  },
+  {
+   "id": "Q173",
+   "t": 755.5333333333333,
+   "nome": "22666.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(135,141,158)",
+    "faixa uniforme na borda base: 4% do quadro, cor RGB(62,92,92)"
+   ]
+  },
+  {
+   "id": "Q174",
+   "t": 761.5666666666667,
+   "nome": "22847.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 29% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 29% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q175",
+   "t": 767.6,
+   "nome": "23028.png",
+   "sinais": []
+  },
+  {
+   "id": "Q176",
+   "t": 771.5,
+   "nome": "23145.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q177",
+   "t": 774.9666666666667,
+   "nome": "23249.png",
+   "sinais": []
+  },
+  {
+   "id": "Q178",
+   "t": 781.0666666666667,
+   "nome": "23432.png",
+   "sinais": []
+  },
+  {
+   "id": "Q179",
+   "t": 784.8,
+   "nome": "23544.png",
+   "sinais": []
+  },
+  {
+   "id": "Q180",
+   "t": 788.9333333333333,
+   "nome": "23668.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 31% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 32% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q181",
+   "t": 792.9,
+   "nome": "23787.png",
+   "sinais": []
+  },
+  {
+   "id": "Q182",
+   "t": 798.7333333333333,
+   "nome": "23962.png",
+   "sinais": []
+  },
+  {
+   "id": "Q183",
+   "t": 804.7666666666667,
+   "nome": "24143.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 26% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 26% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q184",
+   "t": 809.3666666666667,
+   "nome": "24281.png",
+   "sinais": []
+  },
+  {
+   "id": "Q185",
+   "t": 814.8,
+   "nome": "24444.png",
+   "sinais": []
+  },
+  {
+   "id": "Q186",
+   "t": 818.6,
+   "nome": "24558.png",
+   "sinais": []
+  },
+  {
+   "id": "Q187",
+   "t": 822.8666666666667,
+   "nome": "24686.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q188",
+   "t": 827.0,
+   "nome": "24810.png",
+   "sinais": []
+  },
+  {
+   "id": "Q189",
+   "t": 833.4666666666667,
+   "nome": "25004.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 5% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q190",
+   "t": 839.5666666666667,
+   "nome": "25187.png",
+   "sinais": []
+  },
+  {
+   "id": "Q191",
+   "t": 844.2666666666667,
+   "nome": "25328.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q192",
+   "t": 852.6333333333333,
+   "nome": "25579.png",
+   "sinais": []
+  },
+  {
+   "id": "Q193",
+   "t": 859.2666666666667,
+   "nome": "25778.png",
+   "sinais": [
+    "faixa uniforme na borda base: 14% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q194",
+   "t": 860.7,
+   "nome": "25821.png",
+   "sinais": [
+    "faixa uniforme na borda base: 14% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q195",
+   "t": 864.7333333333333,
+   "nome": "25942.png",
+   "sinais": []
+  },
+  {
+   "id": "Q196",
+   "t": 869.9333333333333,
+   "nome": "26098.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda base: 4% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda esquerda: 6% do quadro, cor RGB(14,42,59)"
+   ]
+  },
+  {
+   "id": "Q197",
+   "t": 875.5333333333333,
+   "nome": "26266.png",
+   "sinais": []
+  },
+  {
+   "id": "Q198",
+   "t": 877.1666666666666,
+   "nome": "26315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q199",
+   "t": 883.6666666666666,
+   "nome": "26510.png",
+   "sinais": []
+  },
+  {
+   "id": "Q200",
+   "t": 892.6333333333333,
+   "nome": "26779.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(40,70,96)",
+    "faixa uniforme na borda base: 3% do quadro, cor RGB(217,203,168)"
+   ]
+  },
+  {
+   "id": "Q201",
+   "t": 897.0666666666667,
+   "nome": "26912.png",
+   "sinais": []
+  },
+  {
+   "id": "Q202",
+   "t": 901.4666666666667,
+   "nome": "27044.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(40,70,96)",
+    "faixa uniforme na borda base: 3% do quadro, cor RGB(217,203,168)"
+   ]
+  },
+  {
+   "id": "Q203",
+   "t": 906.5666666666667,
+   "nome": "27197.png",
+   "sinais": []
+  },
+  {
+   "id": "Q204",
+   "t": 912.3666666666667,
+   "nome": "27371.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 7% do quadro, cor RGB(188,189,188)"
+   ]
+  },
+  {
+   "id": "Q205",
+   "t": 919.1666666666666,
+   "nome": "27575.png",
+   "sinais": []
+  },
+  {
+   "id": "Q206",
+   "t": 921.1666666666666,
+   "nome": "27635.png",
+   "sinais": []
+  },
+  {
+   "id": "Q207",
+   "t": 923.5333333333333,
+   "nome": "27706.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 19% do quadro, cor RGB(55,63,89)",
+    "faixa uniforme na borda base: 5% do quadro, cor RGB(35,39,54)"
+   ]
+  },
+  {
+   "id": "Q208",
+   "t": 926.3666666666667,
+   "nome": "27791.png",
+   "sinais": []
+  },
+  {
+   "id": "Q209",
+   "t": 932.6,
+   "nome": "27978.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 4% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q210",
+   "t": 934.8,
+   "nome": "28044.png",
+   "sinais": [
+    "faixa uniforme na borda base: 3% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda esquerda: 4% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q211",
+   "t": 937.1666666666666,
+   "nome": "28115.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 28% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda base: 16% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda esquerda: 16% do quadro, cor RGB(14,42,59)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(14,42,59)"
+   ]
+  },
+  {
+   "id": "Q212",
+   "t": 940.8333333333334,
+   "nome": "28225.png",
+   "sinais": []
+  },
+  {
+   "id": "Q213",
+   "t": 945.8666666666667,
+   "nome": "28376.png",
+   "sinais": []
+  },
+  {
+   "id": "Q214",
+   "t": 947.4333333333333,
+   "nome": "28423.png",
+   "sinais": []
+  },
+  {
+   "id": "Q215",
+   "t": 951.7666666666667,
+   "nome": "28553.png",
+   "sinais": []
+  },
+  {
+   "id": "Q216",
+   "t": 955.7,
+   "nome": "28671.png",
+   "sinais": []
+  },
+  {
+   "id": "Q217",
+   "t": 961.1333333333333,
+   "nome": "28834.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 10% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q218",
+   "t": 962.9666666666667,
+   "nome": "28889.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q219",
+   "t": 967.6,
+   "nome": "29028.png",
+   "sinais": []
+  },
+  {
+   "id": "Q220",
+   "t": 969.4,
+   "nome": "29082.png",
+   "sinais": []
+  },
+  {
+   "id": "Q221",
+   "t": 973.4666666666667,
+   "nome": "29204.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 32% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 28% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 28% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q222",
+   "t": 977.8333333333334,
+   "nome": "29335.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 19% do quadro, cor RGB(14,27,55)"
+   ]
+  },
+  {
+   "id": "Q223",
+   "t": 980.5666666666667,
+   "nome": "29417.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 9% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 6% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q224",
+   "t": 981.1333333333333,
+   "nome": "29434.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 9% do quadro, cor RGB(255,255,255)",
+    "faixa uniforme na borda direita: 6% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q225",
+   "t": 983.6,
+   "nome": "29508.png",
+   "sinais": []
+  },
+  {
+   "id": "Q226",
+   "t": 987.5333333333333,
+   "nome": "29626.png",
+   "sinais": []
+  },
+  {
+   "id": "Q227",
+   "t": 991.7333333333333,
+   "nome": "29752.png",
+   "sinais": []
+  },
+  {
+   "id": "Q228",
+   "t": 997.2333333333333,
+   "nome": "29917.png",
+   "sinais": []
+  },
+  {
+   "id": "Q229",
+   "t": 1003.1666666666666,
+   "nome": "30095.png",
+   "sinais": []
+  },
+  {
+   "id": "Q230",
+   "t": 1007.0,
+   "nome": "30210.png",
+   "sinais": []
+  },
+  {
+   "id": "Q231",
+   "t": 1013.9666666666667,
+   "nome": "30419.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 27% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 26% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 14% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 14% do quadro, cor RGB(12,15,18)"
+   ]
+  }
+ ]
+}

@@ -133,6 +133,8 @@ FICHAS = {
     "foto_posto_comando2015.jpg": ("APR 14 2015 · SAND ISLAND", "1942 command post, crumbling", "U.S. GAO (GAO-16-382) · PD"),
     "foto_rochefort1934.jpg": ("SEP 15 1934", "Lt. Joseph J. Rochefort, USN", "Naval History and Heritage Command NH 64844 · PD"),
     "foto_kaga1936.jpg": ("c. 1936 · JAPAN", "Aircraft carrier Kaga", "Naval History and Heritage Command NH 73060 · PD"),
+    "foto_nimitz_midway1942.jpg": ("c. JUNE 1942 · MIDWAY", "Adm. Chester W. Nimitz (CINCPAC) at a bunker on Midway", "Naval History and Heritage Command NH 62674 · PD"),
+    "foto_cannon.jpg": ("1ST LT. GEORGE H. CANNON, USMC", "Killed on Sand Island, Dec 7 1941 · Medal of Honor", "U.S. Marine Corps History Division · PD"),
     "foto_akagi1941.jpg": ("1941 · JAPAN", "Aircraft carrier Akagi", "Naval History and Heritage Command NH 73059 · PD"),
     "foto_cabo1935.jpg": ("MAY 1935 · SAND ISLAND", "The Commercial Pacific Cable station from the air", "U.S. Navy, NHHC NH 96598 · PD"),
     "foto_clipper1936.jpg": ("c. 1936 · SAN FRANCISCO", "Pan Am China Clipper (route via Honolulu, Midway, Wake)", "Clyde H. Sunderland, Library of Congress · PD"),
@@ -143,6 +145,7 @@ FICHAS = {
     "foto_hangar1942.jpg": ("JUN 4 1942 · SAND ISLAND", "The seaplane hangar after the raid", "U.S. Navy 80-G-17081, National Archives · PD"),
     "foto_soryu_b17_1942.jpg": ("JUN 4 1942 · NORTHWEST OF MIDWAY", "Carrier Soryu circling under B-17 attack", "U.S. Army Air Forces USAF-ID-4845 · PD"),
     "foto_george_gay1942.jpg": ("JUNE 1942 · PEARL HARBOR", "Ens. George Gay, VT-8, in the hospital", "National Archives 80-G-17678 · Unrestricted"),
+    "foto_george_gay1942_rot.jpg": ("JUNE 1942 · PEARL HARBOR", "Ens. George Gay, VT-8, in the hospital", "National Archives 80-G-17678 · Unrestricted"),
     "foto_hiryu_b17_1942.jpg": ("JUN 4 1942 · NORTHWEST OF MIDWAY", "Carrier Hiryu maneuvering under B-17 attack", "U.S. Army Air Forces USAF 75712 AC · PD"),
     "foto_b17_ataque1942.jpg": ("JUN 4 1942 · NORTHWEST OF MIDWAY", "Japanese carrier evading B-17 bombs", "U.S. Army Air Forces 342-FH, National Archives · PD"),
     "foto_yorktown_torpedo1942.jpg": ("JUN 4 1942 · AT SEA", "USS Yorktown (CV-5) hit by a torpedo", "U.S. Navy, National Archives · PD"),
@@ -181,7 +184,7 @@ G = {
     "cinc_92": [(0.097, 0.915, 0.752, 0.018)],
     "cinc_subject": [(0.095, 0.275, 0.39, 0.019)],
     "eo_titulo": [(0.338, 0.152, 0.34, 0.018)],
-    "eo_199a": [(0.392, 0.362, 0.425, 0.016)],
+    "eo_199a": [(0.452, 0.362, 0.355, 0.016)],   # só "Executive Order 199-A of January 20, 1903" (still do Remotion, 12/11)
     "eo_sec3a": [(0.50, 0.534, 0.427, 0.015), (0.338, 0.548, 0.245, 0.015)],
     "eo_1": [(0.38, 0.580, 0.546, 0.015)],
     "eo_5": [(0.817, 0.708, 0.11, 0.015), (0.338, 0.722, 0.48, 0.015)],
@@ -189,7 +192,7 @@ G = {
     "ford": [px([2637, 1076, 240, 36], 3840, 2880), px([1572, 1120, 1158, 36], 3840, 2880)],   # "A Zero flew about 50 / feet over it and dropped a bomb and hit it, the whole thing went up. I was knocked unconscious."
     "h006_twist": [px([1572, 1034, 890, 36], 3840, 2880)],  # "...to get / Washington to believe that "AF" stood for Midway, not to convince Nimitz."
     "h006": [px([1732, 1120, 740, 36], 3840, 2880)],
-    "chumbo": [px([1484, 1120, 1564, 74], 3840, 2880)],
+    "chumbo": [px([2990, 1120, 62, 36], 3840, 2880), px([1484, 1158, 1556, 36], 3840, 2880), px([1484, 1196, 112, 36], 3840, 2880)],  # só a frase lida (12/11)
     "jatos": [px([1614, 1120, 590, 32], 3840, 2880)],
     "suspdoi": [px([2254, 1120, 734, 34], 3840, 2880)],
     "pmnm": [px([1522, 582, 480, 32], 3840, 2568)],
@@ -244,7 +247,7 @@ bloco("B02c", '''And a bird that was already nesting here in 1956, when a scient
 # ===== Bloco 2: âncora humana + pergunta do título =====
 bloco("B03a", '''In 2017, two old Marines laid a wreath on Midway. One was John Miniclier. On June 4th, 1942, he was a young private on Sand Island, on top of a thirty-foot searchlight tower, counting Japanese planes.''',
       doc("In 2017, two old", "doc_nhhc_discurso2017.png", "wreath", G["discurso"], frase="lay a wreath", literal=False),
-      filme("On June 4th, 1942,", BOM, 1036.0, 1041.6, "A lookout scans the sky (not Miniclier)", vel=0.74),
+      filme("On June 4th, 1942,", BOM, 1036.0, 1041.6, "A lookout scans the sky", vel=0.74),
       filme("counting Japanese planes.", BOM, 494.1, 495.6, "Flak bursts over the atoll"),
       ideia=True)
 bloco("B03b", '''In 2025, he died at a hundred and three, the last known survivor of the Battle of Midway.''',
@@ -274,17 +277,19 @@ bloco("B04a", '''To understand why anybody would fight over two specks of sand, 
 bloco("B04b", '''That same year, a presidential order put the atoll under the United States Navy.''',
       doc("That same year", EO, "199a", G["eo_199a"], frase="Executive Order 199-A", literal=False))
 bloco("B04c", '''In 1935, Pan American Airways arrived. Its big flying boats, the Clippers, landed in Midway's lagoon on weekly flights across the Pacific, and Pan Am built a small hotel on the sand.''',
-      kb("In 1935, Pan American", "foto_clipper1936.jpg", "pan-esq"),
+      kb("In 1935, Pan American", "foto_clipper1936.jpg", "pan-esq", crop=(0.05, 0.0, 0.95, 1.0)),  # sem a borda do scan à esquerda
       mapa("landed in Midway's", "clipper", ["SAN FRANCISCO", "HONOLULU", "MIDWAY", "WAKE", "GUAM", "MANILA"],
            [("SAN FRANCISCO", "HONOLULU", ""), ("HONOLULU", "MIDWAY", ""), ("MIDWAY", "WAKE", ""), ("WAKE", "GUAM", ""), ("GUAM", "MANILA", "PAN AM CLIPPER · 1935")],
            nota="exige base regenerada até 238°E (São Francisco)"),
       filme("built a small hotel", BOM, 97.0, 99.0, "Sand Island's dock and seaplane ramp", data="JUNE 1942 · SAND ISLAND", vel=0.56))
 bloco("B04d", '''Then the Navy started building for real: dredging the lagoon, a seaplane base on Sand Island, runways on Eastern Island. This photo was taken on November 24th, 1941. Look how finished it is.''',
-      filme("Then the Navy started", BOM, 101.2, 108.6, "PBY Catalinas at the Sand Island seaplane base", data="JUNE 1942 · SAND ISLAND", vel=0.92),
+      filme("Then the Navy started", BOM, 101.2, 104.9, "Sand Island's dock and lagoon", data="JUNE 1942 · SAND ISLAND", vel=0.92),
+      filme("a seaplane base", BOM, 105.0, 108.9, "PBY Catalinas at the Sand Island seaplane base", data="JUNE 1942 · SAND ISLAND", vel=0.92),
       kb("This photo was taken", "foto_aerea1941.jpg", "zoom-out"))
 bloco("B04e", '''Two weeks later, on the same day as Pearl Harbor, Japanese warships shelled Midway too. A Marine officer killed in that attack, George Cannon, became the first Marine to earn the Medal of Honor in World War Two.''',
-      kb("Two weeks later", "foto_canhao_historico.jpg", "zoom-in", num=("DEC 7, 1941", "MIDWAY SHELLED")),
-      filme("A Marine officer killed", BOM, 124.0, 133.3, "Marines of the Midway garrison (Cannon not shown)", data="1942 · MIDWAY",
+      filme("Two weeks later", BOM, 124.0, 129.5, "Marines of the Midway garrison", data="1942 · MIDWAY", vel=0.88, num=("DEC 7, 1941", "MIDWAY SHELLED")),
+      kb("A Marine officer killed", "foto_cannon.jpg", ((0.5, 0.36, 1.04), (0.5, 0.30, 1.22))),
+      filme("became the first Marine", BOM, 129.6, 133.3, "Marines of the Midway garrison", data="1942 · MIDWAY", vel=0.64,
             num=("MEDAL OF HONOR", "1ST LT. GEORGE H. CANNON · DEC 7 1941")),
       ideia=True)
 bloco("B05a", '''By the spring of 1942, Japan had been winning for six months. Admiral Isoroku Yamamoto wanted to lure the American carriers into one big fight and finish them. The bait would be Midway.''',
@@ -306,7 +311,7 @@ bloco("B05e", '''The Navy's own historians add a twist. The trick wasn't really 
       doc("The Navy's own", "doc_nhhc_h006-2_af.png", "twist", G["h006_twist"], frase="not to convince Nimitz", literal=False),
       ideia=True)
 bloco("B06a", '''Nimitz already believed it. His intelligence officer, Edwin Layton, even predicted where the Japanese carriers would first be spotted: bearing 325 degrees, 175 nautical miles from Midway, at six in the morning on June 4th.''',
-      kb("Nimitz already", "foto_akagi1941.jpg", "detalhe:0.45,0.5"),
+      kb("Nimitz already", "foto_nimitz_midway1942.jpg", ((0.5, 0.68, 1.0), (0.49, 0.64, 1.3))),
       mapa("bearing 325 degrees", "teatro", ["MIDWAY", "JAPANESE CARRIERS"], [("MIDWAY", "JAPANESE CARRIERS", "325° · 175 NM · 06:00")]),
       ideia=True)
 bloco("B06b", '''Nimitz later said Layton was off by only "five degrees, five miles, and five minutes." The Navy's historians say it was a little more than that, but not by much.''',
@@ -328,14 +333,14 @@ bloco("B07a", '''One of the men watching from a rooftop was a Hollywood director
 bloco("B07b", '''He had his camera lined up on a hangar, guessing it would be one of the first things hit. He was right. In his own words: "A Zero flew about 50 feet over it and dropped a bomb and hit it, the whole thing went up. I was knocked unconscious."''',
       filme("He had his camera", BOM, 440.3, 445.2, "A hangar burning during the raid", vel=0.64),
       filme("He was right.", BOM, 450.2, 453.5, "A bomb hits near the camera"),
-      doc("In his own words", "doc_nhhc_ford_oral.png", "grifo", G["ford"], frase="dropped a bomb and hit it"))
+      doc("A Zero flew", "doc_nhhc_ford_oral.png", "grifo", G["ford"], frase="dropped a bomb and hit it"))
 bloco("B07c", '''He came to, and he got the shot. It's in the film he made that year, *The Battle of Midway*. This is the seaplane hangar on Sand Island after the raid. Remember that hangar.''',
       filme("He came to,", BOM, 486.6, 489.5, "Fire beside the water towers", vel=0.9),
       filme("It's in the film", BOM, 489.7, 493.9, "Marines in a gun pit, from Ford's film", vel=0.87),
       kb("This is the seaplane", "foto_hangar1942.jpg", "zoom-in"))
 bloco("B07d", '''Across the island, John Miniclier was still up on his searchlight tower, counting. He remembered about thirty-eight of them, coming in on a line, straight toward him.''',
       filme("Across the island", BOM, 366.8, 368.7, "A lookout with binoculars"),
-      filme("John Miniclier was still", BOM, 1036.0, 1041.6, "A lookout scans the sky (not Miniclier)"),
+      filme("John Miniclier was still", BOM, 1036.0, 1041.6, "A lookout scans the sky"),
       filme("He remembered about", BOM, 373.4, 377.6, "Flak bursts around the formation", vel=0.75, num=("~38", "PLANES, ON A LINE")))
 bloco("B08a", '''Out at sea, the American counterattack was going badly. Wave after wave of torpedo planes found the Japanese carriers, and wave after wave was shot down.''',
       mapa("Out at sea", "ataques", ["MIDWAY", "JAPANESE CARRIERS", "POINT LUCK"],
@@ -352,15 +357,15 @@ bloco("B08d", '''The last plane was flown by Ensign George Gay. He dropped his t
       filme("The last plane", VT8, 141.0, 146.8, "A VT-8 TBD Devastator takes off", data="1942 · USS HORNET"),
       kb("He dropped his torpedo", "foto_soryu_b17_1942.jpg", ((0.2, 0.68, 1.9), (0.2, 0.68, 2.2)), enq="navio"),
       filme("It missed, and", VT8, 440.4, 445.5, "The open sea where VT-8 attacked", data="JUNE 1942 · AT SEA"),
-      kb("Gay was the only", "foto_george_gay1942.jpg", ((0.62, 0.52, 1.0), (0.62, 0.48, 1.12)), crop=(0.27, 0.06, 0.71, 0.9)))
+      kb("Gay was the only", "foto_george_gay1942_rot.jpg", ((0.55, 0.66, 1.0), (0.62, 0.45, 1.1))))  # foto montada de lado na ficha do NARA: recortada e girada (12/11)
 bloco("B09a", '''But those sacrifices kept the Japanese carriers busy. Their crews were launching fighters, landing them, and swerving to dodge torpedoes. Nobody had time to get a counterstrike into the air.''',
       filme("But those sacrifices", VT8, 446.0, 451.8, "The open sea northwest of Midway", data="JUNE 1942 · AT SEA"),
       kb("Their crews were", "foto_hiryu_b17_1942.jpg", "tilt-baixo"),
       kb("Nobody had time", "foto_b17_ataque1942.jpg", ((0.5, 0.5, 1.0), (0.17, 0.8, 1.6)), crop=(0.13, 0.0, 0.87, 1.0)),
       ideia=True)
 bloco("B09b", '''Then, at 10:20 that morning, forty-eight American dive bombers showed up overhead. Two squadrons from Enterprise and one from Yorktown arrived at almost the same moment, by pure coincidence.''',
-      filme("Then, at 10:20", BOM, 594.0, 597.0, "U.S. Navy dive bombers in formation", data="JUNE 1942 · AT SEA", vel=0.57, num=("10:20", "48 DIVE BOMBERS")),
-      filme("Two squadrons from", BOM, 597.1, 604.5, "U.S. Navy SBD dive bombers", data="JUNE 1942 · AT SEA"))
+      filme("Then, at 10:20", BOM, 594.0, 596.9, "U.S. Navy dive bombers in formation", data="JUNE 1942 · AT SEA", vel=0.57, num=("10:20", "48 DIVE BOMBERS")),
+      filme("Two squadrons from", BOM, 597.8, 604.6, "U.S. Navy SBD dive bombers", data="JUNE 1942 · AT SEA"))
 bloco("B09c", '''In about five minutes, Akagi, Kaga and Soryu were wrecks on fire.''',
       num("In about five", "5 MIN", "AKAGI · KAGA · SORYU"))
 bloco("B09d", '''The fourth carrier, Hiryu, hit back. Her planes found the Yorktown and left her badly damaged and listing. That afternoon, American dive bombers caught Hiryu too.''',
@@ -382,8 +387,8 @@ bloco("B10d", '''Now go back to Nimitz's page. Line (c). "2 CA sunk – Mogami, 
       kb("Hold on to that.", "foto_mikuma1942.jpg", "detalhe:0.35,0.55"),
       ideia=True)
 bloco("B10e", '''The page also estimates that Japan lost 4,800 men. Navy historians today say more than 3,000, including over 700 of the mechanics who kept their planes flying.''',
-      doc("The page also", CINC, "g", G["cinc_g"], frase="4,800", literal=False, num=("4,800", "PAGE ESTIMATE")),
-      kb("Navy historians today", "foto_prisioneiros_hiryu1942.jpg", "zoom-out", num=("3,000+", "JAPANESE DEAD (NHHC)")))
+      doc("The page also", CINC, "g", G["cinc_g"], frase="4,800", literal=False, num=("4,800", "JAPANESE LOSSES · NIMITZ'S ESTIMATE")),
+      kb("Navy historians today", "foto_prisioneiros_hiryu1942.jpg", "zoom-out", num=("3,000+", "JAPANESE DEAD · TODAY'S COUNT")))
 bloco("B10f", '''All 248 of the carriers' planes were lost. After six months of winning, Japan's carrier fleet had finally been stopped, and Japan never got those ships back.''',
       num("All 248", "248", "CARRIER PLANES LOST"),
       kb("After six months", "foto_kaga1936.jpg", "zoom-out"))
@@ -426,7 +431,8 @@ bloco("B13a", '''But the Navy left something behind besides runways. Many of the
       ideia=True)
 bloco("B13b", '''In 2014, a Fish and Wildlife official told Congress: "Lead poisoning has caused the mortality of approximately 10,000 albatross chicks annually, creating a conservation crisis." Ten thousand chicks a year.''',
       doc("In 2014, a Fish", "doc_doi2014_chumbo.png", "grifo", G["chumbo"],
-          frase="Lead poisoning has caused the mortality of approximately 10,000 albatross chicks annually", num=("10,000", "CHICKS A YEAR")))
+          frase="Lead poisoning has caused the mortality of approximately 10,000 albatross chicks annually"),
+      num("Ten thousand chicks", "10,000", "ALBATROSS CHICKS A YEAR (2014)"))
 bloco("B13c", '''Starting in 2011, the Service has been scraping, sealing and tearing down. Of the old cable station buildings that were shedding paint, three were removed because they were too far gone to save. A federal audit later counted seven historic buildings demolished as part of the lead cleanup.''',
       kb("Starting in 2011", "foto_estacao_cabo2015.jpg", "pan-esq"),
       num("three were removed", "3", "CABLE STATION BUILDINGS REMOVED"),
@@ -438,10 +444,9 @@ bloco("B14a", '''Then came the money. Running Midway is expensive. Food, fuel an
       ideia=True)
 bloco("B14b", '''For fiscal years 2012 and 2013, the Service cut Midway's budget by more than a million dollars. A report by the Government Accountability Office spells out what happened next.''',
       kb("For fiscal years", "foto_carpintaria_albatrozes2015.jpg", "detalhe:0.5,0.45", num=("−$1M+", "BUDGET, FY2012–13")),
-      doc("A report by", "doc_gao16382_p1.png", "capa2", G["pagina"], literal=False))
+      kb("A report by", "foto_casamata_s6_2015.jpg", "detalhe:0.5,0.5"))
 bloco("B14c", '''Officials said the lower budget "led to suspension of public visitation on Midway in November 2012." The same report found that the building used to house visitors was "almost beyond the point of repair and renovation."''',
-      doc("Officials said", GAO2, "susp", G["gao_susp"], frase="led to suspension of public visitation"),
-      num("The same report found", "NOV 2012", "VISITS SUSPENDED"),
+      doc("Officials said", GAO2, "susp", G["gao_susp"], frase="led to suspension of public visitation", num=("NOV 2012", "VISITS SUSPENDED")),
       doc("that the building", GAO2, "reparo", G["gao_reparo"], frase="almost beyond the point of repair and renovation"))
 bloco("B14d", '''To bring visitors back, the Service estimated it would need 1.2 million dollars a year. Today, the government's own page for the monument says it plainly. "Historical and eco-tour access is currently not offered."''',
       kb("To bring visitors", "foto_bateria_a_2015.jpg", "detalhe:0.45,0.55", num=("$1.2M", "A YEAR TO REOPEN")),
@@ -493,7 +498,7 @@ bloco("B18a", '''Every chick on Midway is fed by its parents, with whatever they
       kb("Almost all chicks", "foto_albatroz_moli.jpg", "pan-dir"),
       ideia=True)
 bloco("B18b", '''Then there's the strangest thing still living there. The rats were wiped out back in 1996. The house mice were not. At the end of 2015, biologists caught those mice attacking nesting albatrosses, birds with wings longer than a man is tall, while they sat on their eggs.''',
-      doc("Then there's the", "doc_usfws_msp_camundongos.png", "texto", G["pagina"], literal=False, regiao=(0.25, 0.30, 0.55, 0.31)),
+      doc("Then there's the", "doc_usfws_msp_camundongos.png", "texto", G["pagina"], literal=False, regiao=(0.07, 0.295, 0.86, 0.215)),  # só o texto (a foto aérea do topo pode ser de parceiro)
       kb("At the end of 2015", "foto_albatroz_ninho.jpg", "detalhe:0.5,0.6"),
       num("birds with wings", "6–7 FT", "WINGSPAN"),
       ideia=True)
@@ -689,14 +694,20 @@ def main():
             for a, z in FILME_PROIBIDO[q["arq"]]:
                 if q["tin"] < z and q["tout"] > a:
                     ERROS.append(f"{q['bloco']}: trecho {q['tin']}–{q['tout']} toca cartela/créditos ({a}–{z}) em {q['arq']}")
-    # 3. tipo de tela: no máximo RUN_MAX s seguidos
+    # 3. tipo de tela: no máximo RUN_MAX s seguidos (com a voz real: durações de qa/tempos.json, gravado pelo tools/build.py)
+    reais = {}
+    if (AQUI / "qa/tempos.json").exists():
+        reais = {(t["bloco"], t["em"]): t["d"] for t in json.load(open(AQUI / "qa/tempos.json"))}
     run_t, run_tipo, run_ini = 0.0, None, None
     for q in planos:
+        d = reais.get((q["bloco"], q["em"]), q["dur"])
         if q["tipo"] == run_tipo:
-            run_t += q["dur"]
+            run_t += d
         else:
-            run_tipo, run_t, run_ini = q["tipo"], q["dur"], q
-        if run_t > RUN_MAX + 1e-6:
+            run_tipo, run_t, run_ini = q["tipo"], d, q
+        # com a voz real a conta inclui a pausa de bloco/capítulo (o 1º plano começa no meio dela): tolerância de 1 s;
+        # Filme até 14 s (cada trecho é outro plano de câmera, todos < 7 s pela regra do Ford)
+        if run_t > (14.0 if run_tipo == "Filme" else RUN_MAX) + (1.0 if reais else 0) + 1e-6:
             ERROS.append(f"{q['bloco']}: {run_tipo} por {run_t:.1f} s seguidos (desde {run_ini['bloco']} «{run_ini['em']}»); máximo {RUN_MAX:.0f} s")
 
     # 4. reuso: aparições (planos consecutivos do mesmo arquivo = 1 aparição)
