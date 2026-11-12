@@ -1,0 +1,1874 @@
+{
+ "gerado_em": "2026-11-12T12:31:43.320113+00:00",
+ "buscas": [
+  "entire history of",
+  "history explained",
+  "ancient civilizations",
+  "mythology explained",
+  "lore explained",
+  "unsolved mysteries",
+  "true crime documentary",
+  "documentary",
+  "what if",
+  "geography explained",
+  "economics explained",
+  "science explained",
+  "space documentary",
+  "psychology explained",
+  "philosophy explained",
+  "biography documentary",
+  "war history",
+  "bible stories",
+  "horror stories",
+  "animated story"
+ ],
+ "criterios": {
+  "max_idade_dias": 120,
+  "max_videos": 20,
+  "min_media_views": 20000
+ },
+ "candidatos": [
+  {
+   "id": "UCdgIMUacfx6cyAGD8miZesw",
+   "titulo": "Lullorin",
+   "url": "https://www.youtube.com/channel/UCdgIMUacfx6cyAGD8miZesw",
+   "pais": "US",
+   "criado": "2026-10-19",
+   "primeiro_video": "2026-10-29",
+   "idade_dias": 14,
+   "videos": 14,
+   "views": 5764826,
+   "inscritos": 26500,
+   "media_views": 411773,
+   "views_por_inscrito": 217.5,
+   "descricao": "Every lullaby was a warning.\n\nLullorin is analog horror for the hours after the lights go out. Rules for the things that happen in your home at night: a bed that’s already warm, a goodnight said twice, a dog that won’t stop staring at the ceiling. Each story is one situation, and the rules that get ",
+   "buscas": [
+    "horror stories",
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "wU_PUYMs5Bo",
+     "titulo": "If Your Mom Ever Says Goodnight to You Twice... LOCK YOUR DOOR",
+     "publicado": "2026-10-29",
+     "duracao_min": 13.7,
+     "views": 2970304,
+     "thumb": "https://i.ytimg.com/vi/wU_PUYMs5Bo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=wU_PUYMs5Bo"
+    },
+    {
+     "id": "kLXmB-ctWns",
+     "titulo": "If Your Sibling Ever Asks What Your Name Is... LIE",
+     "publicado": "2026-11-04",
+     "duracao_min": 10.4,
+     "views": 816689,
+     "thumb": "https://i.ytimg.com/vi/kLXmB-ctWns/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=kLXmB-ctWns"
+    },
+    {
+     "id": "W4zEEBGSNQ8",
+     "titulo": "If Your Bed is Ever Already Warm... GET OUT SLOWLY",
+     "publicado": "2026-11-03",
+     "duracao_min": 9.6,
+     "views": 402881,
+     "thumb": "https://i.ytimg.com/vi/W4zEEBGSNQ8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=W4zEEBGSNQ8"
+    },
+    {
+     "id": "tx0NADp5V_o",
+     "titulo": "If Find My iPhone Ever Shows You at Home When You're Not... DON'T GO HOME",
+     "publicado": "2026-11-07",
+     "duracao_min": 13.5,
+     "views": 319069,
+     "thumb": "https://i.ytimg.com/vi/tx0NADp5V_o/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=tx0NADp5V_o"
+    },
+    {
+     "id": "w805sZ9_Jhw",
+     "titulo": "If Your Dog Ever Barks at an Empty Chair... DONT SIT DOWN",
+     "publicado": "2026-11-02",
+     "duracao_min": 9.4,
+     "views": 298778,
+     "thumb": "https://i.ytimg.com/vi/w805sZ9_Jhw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=w805sZ9_Jhw"
+    },
+    {
+     "id": "JLx3fRU6wVE",
+     "titulo": "If Your Mom Ever Leaves You a Voicemail While Sitting Next to You... DON'T PLAY IT",
+     "publicado": "2026-11-07",
+     "duracao_min": 13.3,
+     "views": 216457,
+     "thumb": "https://i.ytimg.com/vi/JLx3fRU6wVE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=JLx3fRU6wVE"
+    },
+    {
+     "id": "L3yhbpntbGo",
+     "titulo": "If Your Dog Ever Death Stares at the Ceiling... DON'T LOOK UP",
+     "publicado": "2026-10-31",
+     "duracao_min": 9.9,
+     "views": 197053,
+     "thumb": "https://i.ytimg.com/vi/L3yhbpntbGo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=L3yhbpntbGo"
+    },
+    {
+     "id": "O_1kSOykgss",
+     "titulo": "If Your Dad Ever Checks on You After Midnight... KEEP SNORING",
+     "publicado": "2026-11-09",
+     "duracao_min": 12.3,
+     "views": 195435,
+     "thumb": "https://i.ytimg.com/vi/O_1kSOykgss/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=O_1kSOykgss"
+    },
+    {
+     "id": "M2KvIO8MBrc",
+     "titulo": "If Your Face ID Ever Stops Recognizing You... DONT LOOK IN THE MIRROR",
+     "publicado": "2026-11-05",
+     "duracao_min": 13.8,
+     "views": 175036,
+     "thumb": "https://i.ytimg.com/vi/M2KvIO8MBrc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=M2KvIO8MBrc"
+    },
+    {
+     "id": "_Tbck9z2H9w",
+     "titulo": "If Your AirPods Ever Connect to Someone Else's Phone... DON'T SAY ANYTHING",
+     "publicado": "2026-11-06",
+     "duracao_min": 14.2,
+     "views": 157700,
+     "thumb": "https://i.ytimg.com/vi/_Tbck9z2H9w/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=_Tbck9z2H9w"
+    },
+    {
+     "id": "jSIMKU-6KEM",
+     "titulo": "If Your Instagram Story Ever Gets a View From an Account With No Name... DON'T POST AGAIN",
+     "publicado": "2026-11-11",
+     "duracao_min": 11.6,
+     "views": 44263,
+     "thumb": "https://i.ytimg.com/vi/jSIMKU-6KEM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=jSIMKU-6KEM"
+    },
+    {
+     "id": "ohBUXBGHIeU",
+     "titulo": "If Your Parents Ever Lock You Out of the House at Night... DON'T KNOCK",
+     "publicado": "2026-11-12",
+     "duracao_min": 12.8,
+     "views": 36611,
+     "thumb": "https://i.ytimg.com/vi/ohBUXBGHIeU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ohBUXBGHIeU"
+    },
+    {
+     "id": "5tMDSvGipRM",
+     "titulo": "If Your Pillow Ever Smells Like Someone Else... DON'T SLEEP ON IT",
+     "publicado": "2026-11-10",
+     "duracao_min": 11.7,
+     "views": 33189,
+     "thumb": "https://i.ytimg.com/vi/5tMDSvGipRM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5tMDSvGipRM"
+    },
+    {
+     "id": "Gkdk5ftk3PM",
+     "titulo": "Welcome to Lullorin!",
+     "publicado": "2026-11-10",
+     "duracao_min": 3.2,
+     "views": 10742,
+     "thumb": "https://i.ytimg.com/vi/Gkdk5ftk3PM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Gkdk5ftk3PM"
+    }
+   ],
+   "score": 411773,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 828122
+  },
+  {
+   "id": "UCt-GhchW5nGSjr-ETeGab_g",
+   "titulo": "ConChaser",
+   "url": "https://www.youtube.com/channel/UCt-GhchW5nGSjr-ETeGab_g",
+   "pais": null,
+   "criado": "2026-10-16",
+   "primeiro_video": "2026-10-23",
+   "idade_dias": 19,
+   "videos": 19,
+   "views": 7107362,
+   "inscritos": 24000,
+   "media_views": 374071,
+   "views_por_inscrito": 296.1,
+   "descricao": "Reality is strange enough. Now imagine breaking its rules.\n\nImpossible abilities, alternate realities, and the kind of questions that keep your brain awake at 3 AM.\n\nThink beyond the obvious.\n\nContact: avraham.partners@gmail.com\n",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "DK4EOHCrVvM",
+     "titulo": "What If You Could See Everyone's Future Wealth?",
+     "publicado": "2026-10-25",
+     "duracao_min": 10.8,
+     "views": 1850753,
+     "thumb": "https://i.ytimg.com/vi/DK4EOHCrVvM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=DK4EOHCrVvM"
+    },
+    {
+     "id": "2TsZSQ77E9o",
+     "titulo": "What If You Could See Everyone's IQ?",
+     "publicado": "2026-10-30",
+     "duracao_min": 13.8,
+     "views": 1709001,
+     "thumb": "https://i.ytimg.com/vi/2TsZSQ77E9o/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=2TsZSQ77E9o"
+    },
+    {
+     "id": "i7xw0ZRT-DI",
+     "titulo": "What If You Could See Everyone's Future Height?",
+     "publicado": "2026-10-31",
+     "duracao_min": 18.4,
+     "views": 921370,
+     "thumb": "https://i.ytimg.com/vi/i7xw0ZRT-DI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=i7xw0ZRT-DI"
+    },
+    {
+     "id": "iKZw4OZ6S6E",
+     "titulo": "What If You Could See How Many People Have a Crush on You?",
+     "publicado": "2026-10-27",
+     "duracao_min": 13.5,
+     "views": 668135,
+     "thumb": "https://i.ytimg.com/vi/iKZw4OZ6S6E/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=iKZw4OZ6S6E"
+    },
+    {
+     "id": "k00lF9AQx0U",
+     "titulo": "What If You Could See Who Finds You Attractive?",
+     "publicado": "2026-11-07",
+     "duracao_min": 16.0,
+     "views": 520155,
+     "thumb": "https://i.ytimg.com/vi/k00lF9AQx0U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=k00lF9AQx0U"
+    },
+    {
+     "id": "rTwtWqOFPDA",
+     "titulo": "What If You Could See Winning Lottery Tickets?",
+     "publicado": "2026-10-28",
+     "duracao_min": 16.6,
+     "views": 317297,
+     "thumb": "https://i.ytimg.com/vi/rTwtWqOFPDA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=rTwtWqOFPDA"
+    },
+    {
+     "id": "J0pP4q9nOAM",
+     "titulo": "What If You Could See Everyone's Biggest Regret?",
+     "publicado": "2026-10-29",
+     "duracao_min": 17.3,
+     "views": 264546,
+     "thumb": "https://i.ytimg.com/vi/J0pP4q9nOAM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=J0pP4q9nOAM"
+    },
+    {
+     "id": "L3PPO4MdLyY",
+     "titulo": "What If You Could See How Many Days People Have Left?",
+     "publicado": "2026-10-24",
+     "duracao_min": 14.9,
+     "views": 261880,
+     "thumb": "https://i.ytimg.com/vi/L3PPO4MdLyY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=L3PPO4MdLyY"
+    },
+    {
+     "id": "dlJ_roZ_fAM",
+     "titulo": "What If You Could See How Many Lives Everyone Has Saved?",
+     "publicado": "2026-11-03",
+     "duracao_min": 14.4,
+     "views": 171630,
+     "thumb": "https://i.ytimg.com/vi/dlJ_roZ_fAM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=dlJ_roZ_fAM"
+    },
+    {
+     "id": "BepbYfGBO5I",
+     "titulo": "What If You Could See 10 Seconds Into the Future?",
+     "publicado": "2026-10-23",
+     "duracao_min": 10.7,
+     "views": 160269,
+     "thumb": "https://i.ytimg.com/vi/BepbYfGBO5I/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=BepbYfGBO5I"
+    },
+    {
+     "id": "JvorMSW9zDE",
+     "titulo": "What If You Went Back 10 Years With All Your Memories?",
+     "publicado": "2026-11-02",
+     "duracao_min": 12.5,
+     "views": 105039,
+     "thumb": "https://i.ytimg.com/vi/JvorMSW9zDE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=JvorMSW9zDE"
+    },
+    {
+     "id": "grnsQxRNEII",
+     "titulo": "What If You Could See How Many Partners Everyone Has Had?",
+     "publicado": "2026-10-26",
+     "duracao_min": 13.0,
+     "views": 69181,
+     "thumb": "https://i.ytimg.com/vi/grnsQxRNEII/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=grnsQxRNEII"
+    },
+    {
+     "id": "qpfFDh9ZTWc",
+     "titulo": "What If You Could See Who Is Smarter Than You?",
+     "publicado": "2026-11-05",
+     "duracao_min": 17.1,
+     "views": 63809,
+     "thumb": "https://i.ytimg.com/vi/qpfFDh9ZTWc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=qpfFDh9ZTWc"
+    },
+    {
+     "id": "r-2AwgUYods",
+     "titulo": "What If You Could See Who Will Become Famous?",
+     "publicado": "2026-11-06",
+     "duracao_min": 15.3,
+     "views": 57030,
+     "thumb": "https://i.ytimg.com/vi/r-2AwgUYods/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=r-2AwgUYods"
+    },
+    {
+     "id": "FWiZVL0ekwg",
+     "titulo": "What If You Could See Who Talks Behind Your Back?",
+     "publicado": "2026-11-09",
+     "duracao_min": 20.4,
+     "views": 48981,
+     "thumb": "https://i.ytimg.com/vi/FWiZVL0ekwg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=FWiZVL0ekwg"
+    },
+    {
+     "id": "iBg7NlaVLJ4",
+     "titulo": "What If You Could See Everyone's Biggest Mistake?",
+     "publicado": "2026-11-01",
+     "duracao_min": 10.8,
+     "views": 39018,
+     "thumb": "https://i.ytimg.com/vi/iBg7NlaVLJ4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=iBg7NlaVLJ4"
+    },
+    {
+     "id": "WefHf8KgZHM",
+     "titulo": "What If You Could See Who the Antichrist Is?",
+     "publicado": "2026-11-04",
+     "duracao_min": 15.7,
+     "views": 25500,
+     "thumb": "https://i.ytimg.com/vi/WefHf8KgZHM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WefHf8KgZHM"
+    },
+    {
+     "id": "-TobwH3z_7k",
+     "titulo": "What If Everyone Could Hear Your Thoughts?",
+     "publicado": "2026-11-11",
+     "duracao_min": 16.6,
+     "views": 21508,
+     "thumb": "https://i.ytimg.com/vi/-TobwH3z_7k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=-TobwH3z_7k"
+    },
+    {
+     "id": "PQ5n2vlysBc",
+     "titulo": "What If You Played GTA 6 Before Anyone Else?",
+     "publicado": "2026-11-08",
+     "duracao_min": 14.4,
+     "views": 21320,
+     "thumb": "https://i.ytimg.com/vi/PQ5n2vlysBc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PQ5n2vlysBc"
+    }
+   ],
+   "score": 374072,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 1099826
+  },
+  {
+   "id": "UCtoxoIsudLFxMl8HGMHF6wA",
+   "titulo": "Bodycam C4",
+   "url": "https://www.youtube.com/channel/UCtoxoIsudLFxMl8HGMHF6wA",
+   "pais": "US",
+   "criado": "2026-09-09",
+   "primeiro_video": "2026-09-26",
+   "idade_dias": 46,
+   "videos": 19,
+   "views": 15663579,
+   "inscritos": 24800,
+   "media_views": 824398,
+   "views_por_inscrito": 631.6,
+   "descricao": "C4 Bodycam is an Independent Documentary channel covering real police Encounters using Body Camera Footage obtained directly from Law Enforcement agencies via Public records requests. \n\nEvery Video is Produced in House, we file Records requests, verify case details and documents, add original narrat",
+   "buscas": [
+    "documentary",
+    "true crime documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "jQWZF2qwt40",
+     "titulo": "Predator Brain Surgeon Caught Recording 50 Nurses in Restroom",
+     "publicado": "2026-10-30",
+     "duracao_min": 17.5,
+     "views": 2911090,
+     "thumb": "https://i.ytimg.com/vi/jQWZF2qwt40/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=jQWZF2qwt40"
+    },
+    {
+     "id": "d_uAsoejDK0",
+     "titulo": "Predator Police Officer Realizes He's Doing 65 Years In Prison After Phone Search",
+     "publicado": "2026-09-29",
+     "duracao_min": 20.2,
+     "views": 2106076,
+     "thumb": "https://i.ytimg.com/vi/d_uAsoejDK0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=d_uAsoejDK0"
+    },
+    {
+     "id": "h-md_aZ9vBk",
+     "titulo": "Police Surprise Chinese National During Credit Card Fraud Shopping Spree",
+     "publicado": "2026-10-07",
+     "duracao_min": 16.0,
+     "views": 1590012,
+     "thumb": "https://i.ytimg.com/vi/h-md_aZ9vBk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=h-md_aZ9vBk"
+    },
+    {
+     "id": "aQ43bCkjZoM",
+     "titulo": "Brinks Truck Driver Robs Coworker & Steals $700,000",
+     "publicado": "2026-10-10",
+     "duracao_min": 19.1,
+     "views": 1526980,
+     "thumb": "https://i.ytimg.com/vi/aQ43bCkjZoM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=aQ43bCkjZoM"
+    },
+    {
+     "id": "9FeTFkk5NDU",
+     "titulo": "Teacher Accused of Hosting 'Diddy' Parties & R*ping M*nors",
+     "publicado": "2026-11-03",
+     "duracao_min": 34.0,
+     "views": 1391727,
+     "thumb": "https://i.ytimg.com/vi/9FeTFkk5NDU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=9FeTFkk5NDU"
+    },
+    {
+     "id": "wrQTSL4eJrA",
+     "titulo": "Husband Realizes His Wife is the Sickest Predator in the State of Washington",
+     "publicado": "2026-10-17",
+     "duracao_min": 26.3,
+     "views": 1269509,
+     "thumb": "https://i.ytimg.com/vi/wrQTSL4eJrA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=wrQTSL4eJrA"
+    },
+    {
+     "id": "PiO5zakHJj0",
+     "titulo": "Armored Truck Driver Steals $1.1M After Faking a Kidnapping & Robbery",
+     "publicado": "2026-10-21",
+     "duracao_min": 16.4,
+     "views": 768615,
+     "thumb": "https://i.ytimg.com/vi/PiO5zakHJj0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PiO5zakHJj0"
+    },
+    {
+     "id": "xhH61s9aCDo",
+     "titulo": "High IQ Shoplifters Use TinFoil to ByPass Security Alarm l Bodycam Analysis",
+     "publicado": "2026-09-26",
+     "duracao_min": 12.1,
+     "views": 699007,
+     "thumb": "https://i.ytimg.com/vi/xhH61s9aCDo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xhH61s9aCDo"
+    },
+    {
+     "id": "nkuMdGdpnXA",
+     "titulo": "$11,000,000 of Cocaine Found in Semi Truck Leads to 75 Prison Sentence",
+     "publicado": "2026-10-24",
+     "duracao_min": 25.1,
+     "views": 689211,
+     "thumb": "https://i.ytimg.com/vi/nkuMdGdpnXA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=nkuMdGdpnXA"
+    },
+    {
+     "id": "offbsC9ZRDg",
+     "titulo": "SnapChat Cybertip Leads Police to Cheating Wife's Disturbing Videos",
+     "publicado": "2026-10-26",
+     "duracao_min": 34.6,
+     "views": 544671,
+     "thumb": "https://i.ytimg.com/vi/offbsC9ZRDg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=offbsC9ZRDg"
+    },
+    {
+     "id": "i1HI8UHf61M",
+     "titulo": "Police Find Disturbing Videos of Woman with Her Husky",
+     "publicado": "2026-10-18",
+     "duracao_min": 23.9,
+     "views": 485619,
+     "thumb": "https://i.ytimg.com/vi/i1HI8UHf61M/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=i1HI8UHf61M"
+    },
+    {
+     "id": "wFgswxNvLIg",
+     "titulo": "Woman Attacks BF on Airplane After Finding Out He Cheated l Airport Bodycam Analysis",
+     "publicado": "2026-09-28",
+     "duracao_min": 19.2,
+     "views": 379474,
+     "thumb": "https://i.ytimg.com/vi/wFgswxNvLIg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=wFgswxNvLIg"
+    },
+    {
+     "id": "8NImhSLscV0",
+     "titulo": "Predator Teacher Says She Fell in Love with Girl in Her Class",
+     "publicado": "2026-11-05",
+     "duracao_min": 22.0,
+     "views": 310504,
+     "thumb": "https://i.ytimg.com/vi/8NImhSLscV0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8NImhSLscV0"
+    },
+    {
+     "id": "iRX0mj4RRgE",
+     "titulo": "Armored Truck Driver Robs His Company for $70,000",
+     "publicado": "2026-10-13",
+     "duracao_min": 17.1,
+     "views": 294378,
+     "thumb": "https://i.ytimg.com/vi/iRX0mj4RRgE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=iRX0mj4RRgE"
+    },
+    {
+     "id": "CRG5N8Awq1A",
+     "titulo": "Mortgage Lender Embezzles $630,000 From Her Employer",
+     "publicado": "2026-10-16",
+     "duracao_min": 14.0,
+     "views": 236533,
+     "thumb": "https://i.ytimg.com/vi/CRG5N8Awq1A/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=CRG5N8Awq1A"
+    },
+    {
+     "id": "9tnfgPXxtTo",
+     "titulo": "Armored Truck Robber Steals $320,000 & Leads Helicopter Chase",
+     "publicado": "2026-11-08",
+     "duracao_min": 19.2,
+     "views": 220879,
+     "thumb": "https://i.ytimg.com/vi/9tnfgPXxtTo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=9tnfgPXxtTo"
+    },
+    {
+     "id": "e4fZqVRgerE",
+     "titulo": "Predator Pastor Caught at Church After Cybertip Links Disturbing Images to Church WiFi",
+     "publicado": "2026-11-10",
+     "duracao_min": 20.3,
+     "views": 141140,
+     "thumb": "https://i.ytimg.com/vi/e4fZqVRgerE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=e4fZqVRgerE"
+    },
+    {
+     "id": "-MFIorkUzjs",
+     "titulo": "18 y/o Accused of R*ping His Sleeping Girlfriend & Recording It",
+     "publicado": "2026-10-28",
+     "duracao_min": 19.2,
+     "views": 129222,
+     "thumb": "https://i.ytimg.com/vi/-MFIorkUzjs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=-MFIorkUzjs"
+    },
+    {
+     "id": "TWq0O_42iW8",
+     "titulo": "Entitled Woman Chases Airplane After She Missing Her Flight I Airport Bodycam Analysis",
+     "publicado": "2026-10-01",
+     "duracao_min": 12.1,
+     "views": 101728,
+     "thumb": "https://i.ytimg.com/vi/TWq0O_42iW8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=TWq0O_42iW8"
+    }
+   ],
+   "score": 340513,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 1096085
+  },
+  {
+   "id": "UCAGRnC0u-hiBa7eUvrFtFow",
+   "titulo": "Awaken",
+   "url": "https://www.youtube.com/channel/UCAGRnC0u-hiBa7eUvrFtFow",
+   "pais": "US",
+   "criado": "2016-10-04",
+   "primeiro_video": "2026-10-20",
+   "idade_dias": 22,
+   "videos": 8,
+   "views": 6877296,
+   "inscritos": 22700,
+   "media_views": 859662,
+   "views_por_inscrito": 303.0,
+   "descricao": "Big questions. Small characters. A world of curiosity.\n\nAwaken Studios is an independent team of writers, artists, and animators turning science, history, and unusual “what if” questions into colorful animated stories.\n\nAt the heart of the studio, we have developed our own in-house 2D/3D animation s",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "6oZ9fdM0n50",
+     "titulo": "Can 2 People Really Restart Humanity?",
+     "publicado": "2026-10-20",
+     "duracao_min": 7.0,
+     "views": 5316794,
+     "thumb": "https://i.ytimg.com/vi/6oZ9fdM0n50/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=6oZ9fdM0n50"
+    },
+    {
+     "id": "fFziW8Hgf84",
+     "titulo": "What if You Were The Last Girl On Earth?",
+     "publicado": "2026-10-30",
+     "duracao_min": 8.2,
+     "views": 759873,
+     "thumb": "https://i.ytimg.com/vi/fFziW8Hgf84/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=fFziW8Hgf84"
+    },
+    {
+     "id": "XbXiFizyGko",
+     "titulo": "What if You’re The Last Guy on Earth?",
+     "publicado": "2026-10-27",
+     "duracao_min": 8.2,
+     "views": 739208,
+     "thumb": "https://i.ytimg.com/vi/XbXiFizyGko/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=XbXiFizyGko"
+    },
+    {
+     "id": "4OJqcmRRUYI",
+     "titulo": "Could 8 Billion People Live in ONE City?",
+     "publicado": "2026-10-25",
+     "duracao_min": 7.1,
+     "views": 26600,
+     "thumb": "https://i.ytimg.com/vi/4OJqcmRRUYI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4OJqcmRRUYI"
+    },
+    {
+     "id": "UY0HURd95d4",
+     "titulo": "Male Orgasm vs Female Orgasm: The Science Behind It",
+     "publicado": "2026-11-03",
+     "duracao_min": 8.1,
+     "views": 16863,
+     "thumb": "https://i.ytimg.com/vi/UY0HURd95d4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=UY0HURd95d4"
+    },
+    {
+     "id": "J17CZfV7u4k",
+     "titulo": "Could 2 People Restart Humanity? 😳 #shorts",
+     "publicado": "2026-10-22",
+     "duracao_min": 1.1,
+     "views": 14090,
+     "thumb": "https://i.ytimg.com/vi/J17CZfV7u4k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=J17CZfV7u4k"
+    },
+    {
+     "id": "Q3Z8ed3K8xo",
+     "titulo": "The Only Men Who Ever Escaped Alcatraz? #Shorts #Alcatraz #History #TrueStory #Mystery #Escape",
+     "publicado": "2026-11-02",
+     "duracao_min": 0.8,
+     "views": 12290,
+     "thumb": "https://i.ytimg.com/vi/Q3Z8ed3K8xo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Q3Z8ed3K8xo"
+    },
+    {
+     "id": "gVvCEyDkVL4",
+     "titulo": "The Man Who Walked Across the The Twin Towers",
+     "publicado": "2026-11-03",
+     "duracao_min": 0.5,
+     "views": 6779,
+     "thumb": "https://i.ytimg.com/vi/gVvCEyDkVL4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=gVvCEyDkVL4"
+    }
+   ],
+   "score": 312604,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 213974
+  },
+  {
+   "id": "UCqz5azvs6eeE_c99UONUncg",
+   "titulo": "Braids Reacts",
+   "url": "https://www.youtube.com/channel/UCqz5azvs6eeE_c99UONUncg",
+   "pais": "US",
+   "criado": "2026-07-30",
+   "primeiro_video": "2026-10-29",
+   "idade_dias": 13,
+   "videos": 6,
+   "views": 3335833,
+   "inscritos": 18300,
+   "media_views": 555972,
+   "views_por_inscrito": 182.3,
+   "descricao": "Explore the world of Roblox through unique shorts that reveal hidden truths. braids Reacts offers engaging content for gamers and story lovers alike. Dive into narratives where characters see shadows and lies, and where wishes and emotions shape experiences. Discover how players navigate through mys",
+   "buscas": [
+    "animated story"
+   ],
+   "videos_lista": [
+    {
+     "id": "34N0adyKxvY",
+     "titulo": "In This Town / In This World Roblox Story Animation Compilation",
+     "publicado": "2026-10-29",
+     "duracao_min": 19.3,
+     "views": 2446863,
+     "thumb": "https://i.ytimg.com/vi/34N0adyKxvY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=34N0adyKxvY"
+    },
+    {
+     "id": "xKlmvSYJp5c",
+     "titulo": "In This Town / In This World Roblox Story Animation Compilation (#3)",
+     "publicado": "2026-11-01",
+     "duracao_min": 23.5,
+     "views": 400858,
+     "thumb": "https://i.ytimg.com/vi/xKlmvSYJp5c/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xKlmvSYJp5c"
+    },
+    {
+     "id": "nR6pF4-3fqU",
+     "titulo": "In This World Roblox Animation Epic Compilation",
+     "publicado": "2026-11-04",
+     "duracao_min": 26.5,
+     "views": 218198,
+     "thumb": "https://i.ytimg.com/vi/nR6pF4-3fqU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=nR6pF4-3fqU"
+    },
+    {
+     "id": "SH5icP5HeFE",
+     "titulo": "In This Town / In This World Roblox Story Compilation",
+     "publicado": "2026-11-03",
+     "duracao_min": 26.7,
+     "views": 172613,
+     "thumb": "https://i.ytimg.com/vi/SH5icP5HeFE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=SH5icP5HeFE"
+    },
+    {
+     "id": "5Xy69fLhTgc",
+     "titulo": "In This Town / In This World Roblox Story Animation Compilation (#5)",
+     "publicado": "2026-11-06",
+     "duracao_min": 23.9,
+     "views": 102167,
+     "thumb": "https://i.ytimg.com/vi/5Xy69fLhTgc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5Xy69fLhTgc"
+    },
+    {
+     "id": "P2gmbeomRKM",
+     "titulo": "In This Town / In This World Roblox Story Animation Compilation (#6)",
+     "publicado": "2026-11-10",
+     "duracao_min": 17.6,
+     "views": 1335,
+     "thumb": "https://i.ytimg.com/vi/P2gmbeomRKM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=P2gmbeomRKM"
+    }
+   ],
+   "score": 256603,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 2488501
+  },
+  {
+   "id": "UCQsCEFC98OK-uBAZlu3My_g",
+   "titulo": "Factora Visuals",
+   "url": "https://www.youtube.com/channel/UCQsCEFC98OK-uBAZlu3My_g",
+   "pais": "GB",
+   "criado": "2026-10-29",
+   "primeiro_video": "2026-10-31",
+   "idade_dias": 12,
+   "videos": 6,
+   "views": 3058781,
+   "inscritos": 4580,
+   "media_views": 509796,
+   "views_por_inscrito": 667.9,
+   "descricao": "Factora Visuals tells the stories of history, and what they mean for the world today.\n\nFrom ancient empires and forgotten wars to the turning points of the modern world, we explain how events unfolded, why they mattered, and what came after. When something big happens today, we go back to the moment",
+   "buscas": [
+    "war history"
+   ],
+   "videos_lista": [
+    {
+     "id": "oDpg7brCTeo",
+     "titulo": "Trump Just Lost Congress. History Says 3 Things Happen Next",
+     "publicado": "2026-11-04",
+     "duracao_min": 11.6,
+     "views": 2843781,
+     "thumb": "https://i.ytimg.com/vi/oDpg7brCTeo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=oDpg7brCTeo"
+    },
+    {
+     "id": "BhLAjaaHsnM",
+     "titulo": "Can a Major American Party Die?",
+     "publicado": "2026-11-08",
+     "duracao_min": 11.9,
+     "views": 150290,
+     "thumb": "https://i.ytimg.com/vi/BhLAjaaHsnM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=BhLAjaaHsnM"
+    },
+    {
+     "id": "4IdWHFSpVK8",
+     "titulo": "Hegseth Is in Trouble. History Says 3 Things Happen Next",
+     "publicado": "2026-11-06",
+     "duracao_min": 10.8,
+     "views": 64233,
+     "thumb": "https://i.ytimg.com/vi/4IdWHFSpVK8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4IdWHFSpVK8"
+    },
+    {
+     "id": "9Q43y9lNSxI",
+     "titulo": "Why the Falklands War Never Really Ended",
+     "publicado": "2026-11-03",
+     "duracao_min": 13.9,
+     "views": 3691,
+     "thumb": "https://i.ytimg.com/vi/9Q43y9lNSxI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=9Q43y9lNSxI"
+    },
+    {
+     "id": "tNmDS8hWbWU",
+     "titulo": "The Romans Who Refused to Fall | The ENTIRE History of the Byzantine Empire in 13 Minutes",
+     "publicado": "2026-10-31",
+     "duracao_min": 13.4,
+     "views": 2273,
+     "thumb": "https://i.ytimg.com/vi/tNmDS8hWbWU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=tNmDS8hWbWU"
+    },
+    {
+     "id": "smRHVXnoCNk",
+     "titulo": "China Had the World's Silver. Its Government Still Went Broke",
+     "publicado": "2026-11-10",
+     "duracao_min": 15.0,
+     "views": 1152,
+     "thumb": "https://i.ytimg.com/vi/smRHVXnoCNk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=smRHVXnoCNk"
+    }
+   ],
+   "score": 254898,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 158374
+  },
+  {
+   "id": "UCQ8rNg4xGQRV3qt87Y-3aYw",
+   "titulo": "Gloam",
+   "url": "https://www.youtube.com/channel/UCQ8rNg4xGQRV3qt87Y-3aYw",
+   "pais": "US",
+   "criado": "2025-11-12",
+   "primeiro_video": "2026-10-30",
+   "idade_dias": 12,
+   "videos": 3,
+   "views": 2556848,
+   "inscritos": 8120,
+   "media_views": 852282,
+   "views_por_inscrito": 314.9,
+   "descricao": "Documentaries about the darker side of history.. Wars, crimes, politics, hacks, and whatever else I can't stop reading about..\n\nI rebuild the places in 3D so you can see where it happened. I'll get things wrong sometimes, so my sources are always in the description..\n\nNew videos when they're done, n",
+   "buscas": [
+    "documentary",
+    "history explained"
+   ],
+   "videos_lista": [
+    {
+     "id": "5eZj1OnC1C4",
+     "titulo": "How Binance Lost $6,300,000,000 in One Night",
+     "publicado": "2026-10-30",
+     "duracao_min": 14.9,
+     "views": 2501460,
+     "thumb": "https://i.ytimg.com/vi/5eZj1OnC1C4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5eZj1OnC1C4"
+    },
+    {
+     "id": "xSY1EB9nQvE",
+     "titulo": "How 9 People Died: Inside the Florida Learjet 60 Before The Crash",
+     "publicado": "2026-11-03",
+     "duracao_min": 10.8,
+     "views": 33358,
+     "thumb": "https://i.ytimg.com/vi/xSY1EB9nQvE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xSY1EB9nQvE"
+    },
+    {
+     "id": "UBkfCKphPsU",
+     "titulo": "Could Any Pilot Have Saved This Learjet 60 Once Its Tail Broke?",
+     "publicado": "2026-11-05",
+     "duracao_min": 19.4,
+     "views": 31232,
+     "thumb": "https://i.ytimg.com/vi/UBkfCKphPsU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=UBkfCKphPsU"
+    }
+   ],
+   "score": 213071,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 89746
+  },
+  {
+   "id": "UC6AYjWAC_CPRepkeDrFPeFA",
+   "titulo": "Minute Zero",
+   "url": "https://www.youtube.com/channel/UC6AYjWAC_CPRepkeDrFPeFA",
+   "pais": "US",
+   "criado": "2026-04-08",
+   "primeiro_video": "2026-10-10",
+   "idade_dias": 32,
+   "videos": 16,
+   "views": 6324357,
+   "inscritos": 23100,
+   "media_views": 395272,
+   "views_por_inscrito": 273.8,
+   "descricao": "We answer questions.",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "gpLC_ELulyg",
+     "titulo": "What If You Sped Up and Couldn’t Stop?",
+     "publicado": "2026-10-12",
+     "duracao_min": 9.0,
+     "views": 2362096,
+     "thumb": "https://i.ytimg.com/vi/gpLC_ELulyg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=gpLC_ELulyg"
+    },
+    {
+     "id": "5gbgKYMEySI",
+     "titulo": "What If Time Sped Up and Couldn't Stop?",
+     "publicado": "2026-10-13",
+     "duracao_min": 9.0,
+     "views": 2142938,
+     "thumb": "https://i.ytimg.com/vi/5gbgKYMEySI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5gbgKYMEySI"
+    },
+    {
+     "id": "xxBeQuOn4vA",
+     "titulo": "What if Your Car Couldn't Stop Speeding Up?",
+     "publicado": "2026-10-22",
+     "duracao_min": 9.0,
+     "views": 588039,
+     "thumb": "https://i.ytimg.com/vi/xxBeQuOn4vA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xxBeQuOn4vA"
+    },
+    {
+     "id": "YwyEzQVNynU",
+     "titulo": "What If Time Ran Backwards and Couldn't Stop?",
+     "publicado": "2026-10-14",
+     "duracao_min": 10.0,
+     "views": 412534,
+     "thumb": "https://i.ytimg.com/vi/YwyEzQVNynU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=YwyEzQVNynU"
+    },
+    {
+     "id": "sgM6Fm0B_0E",
+     "titulo": "What If You Grew and Couldn't Stop?",
+     "publicado": "2026-10-10",
+     "duracao_min": 8.0,
+     "views": 261060,
+     "thumb": "https://i.ytimg.com/vi/sgM6Fm0B_0E/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=sgM6Fm0B_0E"
+    },
+    {
+     "id": "B3LKxqhCFUU",
+     "titulo": "What if you jumped into a hole through the Earth?",
+     "publicado": "2026-10-10",
+     "duracao_min": 0.9,
+     "views": 243321,
+     "thumb": "https://i.ytimg.com/vi/B3LKxqhCFUU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=B3LKxqhCFUU"
+    },
+    {
+     "id": "J57PubEJMqM",
+     "titulo": "What If You Got Stronger and Couldn't Stop?",
+     "publicado": "2026-10-21",
+     "duracao_min": 9.0,
+     "views": 91649,
+     "thumb": "https://i.ytimg.com/vi/J57PubEJMqM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=J57PubEJMqM"
+    },
+    {
+     "id": "_lapgnd3DMo",
+     "titulo": "What If Time Slowed Down and Couldn't Stop?",
+     "publicado": "2026-10-19",
+     "duracao_min": 10.0,
+     "views": 63664,
+     "thumb": "https://i.ytimg.com/vi/_lapgnd3DMo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=_lapgnd3DMo"
+    },
+    {
+     "id": "5RSCK6a27fA",
+     "titulo": "What If Gravity Got Weaker and Couldn't Stop?",
+     "publicado": "2026-10-18",
+     "duracao_min": 9.0,
+     "views": 49372,
+     "thumb": "https://i.ytimg.com/vi/5RSCK6a27fA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5RSCK6a27fA"
+    },
+    {
+     "id": "4pjb8dBlTM0",
+     "titulo": "What If You Jumped Higher and Couldn't Stop?",
+     "publicado": "2026-10-20",
+     "duracao_min": 10.0,
+     "views": 35392,
+     "thumb": "https://i.ytimg.com/vi/4pjb8dBlTM0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4pjb8dBlTM0"
+    },
+    {
+     "id": "g0UqSIG3EEA",
+     "titulo": "What If You Got More Electric and Couldn't Stop?",
+     "publicado": "2026-10-27",
+     "duracao_min": 9.0,
+     "views": 22528,
+     "thumb": "https://i.ytimg.com/vi/g0UqSIG3EEA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=g0UqSIG3EEA"
+    },
+    {
+     "id": "oj-cbDekrc0",
+     "titulo": "What If You Sped Up and Couldn’t Stop? Part 2",
+     "publicado": "2026-10-28",
+     "duracao_min": 9.0,
+     "views": 16930,
+     "thumb": "https://i.ytimg.com/vi/oj-cbDekrc0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=oj-cbDekrc0"
+    },
+    {
+     "id": "onMjGbeEHxY",
+     "titulo": "What If You Threw Harder and Couldn't Stop?",
+     "publicado": "2026-10-25",
+     "duracao_min": 9.0,
+     "views": 13132,
+     "thumb": "https://i.ytimg.com/vi/onMjGbeEHxY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=onMjGbeEHxY"
+    },
+    {
+     "id": "NhnkdxBtJwU",
+     "titulo": "What If You Got Louder and Couldn't Stop?",
+     "publicado": "2026-10-26",
+     "duracao_min": 9.0,
+     "views": 13082,
+     "thumb": "https://i.ytimg.com/vi/NhnkdxBtJwU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=NhnkdxBtJwU"
+    },
+    {
+     "id": "Lxb3iJnnoS4",
+     "titulo": "What If You Slowed Down and Couldn't Stop?",
+     "publicado": "2026-10-31",
+     "duracao_min": 9.0,
+     "views": 12782,
+     "thumb": "https://i.ytimg.com/vi/Lxb3iJnnoS4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Lxb3iJnnoS4"
+    },
+    {
+     "id": "5IWCAPUkCvg",
+     "titulo": "Best What If Videos to Eat & Sleep to. Minute Zero Compilation",
+     "publicado": "2026-10-30",
+     "duracao_min": 118.9,
+     "views": 6378,
+     "thumb": "https://i.ytimg.com/vi/5IWCAPUkCvg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5IWCAPUkCvg"
+    }
+   ],
+   "score": 197636,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 90392
+  },
+  {
+   "id": "UCkMQyMQcjJtKCiT_Rig1xow",
+   "titulo": "Stupid Dupid ",
+   "url": "https://www.youtube.com/channel/UCkMQyMQcjJtKCiT_Rig1xow",
+   "pais": null,
+   "criado": "2025-07-14",
+   "primeiro_video": "2026-11-06",
+   "idade_dias": 5,
+   "videos": 12,
+   "views": 1198887,
+   "inscritos": 14000,
+   "media_views": 99907,
+   "views_por_inscrito": 85.6,
+   "descricao": "Sub = girlfriend ",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "y271pfesEYs",
+     "titulo": "What If You And Your Crush Were Alone On The Planet?",
+     "publicado": "2026-11-07",
+     "duracao_min": 18.1,
+     "views": 329960,
+     "thumb": "https://i.ytimg.com/vi/y271pfesEYs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=y271pfesEYs"
+    },
+    {
+     "id": "RsnpKukfvlw",
+     "titulo": "What If You Turned Into A Girl?",
+     "publicado": "2026-11-06",
+     "duracao_min": 21.2,
+     "views": 303719,
+     "thumb": "https://i.ytimg.com/vi/RsnpKukfvlw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=RsnpKukfvlw"
+    },
+    {
+     "id": "4mdSlCzkT6o",
+     "titulo": "What If You and Your Crush Were the Last Two Humans Alive?",
+     "publicado": "2026-11-10",
+     "duracao_min": 20.0,
+     "views": 189684,
+     "thumb": "https://i.ytimg.com/vi/4mdSlCzkT6o/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4mdSlCzkT6o"
+    },
+    {
+     "id": "oUBrE7YDj1o",
+     "titulo": "What if you could hear every girls thoughts?",
+     "publicado": "2026-11-06",
+     "duracao_min": 19.9,
+     "views": 179743,
+     "thumb": "https://i.ytimg.com/vi/oUBrE7YDj1o/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=oUBrE7YDj1o"
+    },
+    {
+     "id": "ECnEJef7vsE",
+     "titulo": "What If You Were The Only Man On An Island of 100 Native American Girls?",
+     "publicado": "2026-11-11",
+     "duracao_min": 20.8,
+     "views": 84710,
+     "thumb": "https://i.ytimg.com/vi/ECnEJef7vsE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ECnEJef7vsE"
+    },
+    {
+     "id": "lI3SJQ_PP0g",
+     "titulo": "What If You Could Master Anything Instantly",
+     "publicado": "2026-11-08",
+     "duracao_min": 26.0,
+     "views": 62388,
+     "thumb": "https://i.ytimg.com/vi/lI3SJQ_PP0g/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=lI3SJQ_PP0g"
+    },
+    {
+     "id": "kjFVpv9b35U",
+     "titulo": "What If Everyone Could Hear What Your Thinking?",
+     "publicado": "2026-11-09",
+     "duracao_min": 20.8,
+     "views": 55801,
+     "thumb": "https://i.ytimg.com/vi/kjFVpv9b35U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=kjFVpv9b35U"
+    },
+    {
+     "id": "XbbYUjWxxfQ",
+     "titulo": "What If You Had 7 Days Left With Your Crush",
+     "publicado": "2026-11-07",
+     "duracao_min": 9.9,
+     "views": 47327,
+     "thumb": "https://i.ytimg.com/vi/XbbYUjWxxfQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=XbbYUjWxxfQ"
+    },
+    {
+     "id": "cjfPcGIQJDc",
+     "titulo": "What If Every Step You Took Earned You 1 Dollar?",
+     "publicado": "2026-11-10",
+     "duracao_min": 17.8,
+     "views": 46898,
+     "thumb": "https://i.ytimg.com/vi/cjfPcGIQJDc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=cjfPcGIQJDc"
+    },
+    {
+     "id": "fFvBLCsZZ3E",
+     "titulo": "What If Your Crush Confessed Every Day",
+     "publicado": "2026-11-08",
+     "duracao_min": 14.1,
+     "views": 34385,
+     "thumb": "https://i.ytimg.com/vi/fFvBLCsZZ3E/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=fFvBLCsZZ3E"
+    },
+    {
+     "id": "lpDE60GsJ8A",
+     "titulo": "What If You Could See Everyones Real Attractiveness?",
+     "publicado": "2026-11-09",
+     "duracao_min": 23.6,
+     "views": 16229,
+     "thumb": "https://i.ytimg.com/vi/lpDE60GsJ8A/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=lpDE60GsJ8A"
+    },
+    {
+     "id": "s5NiJPN7GiQ",
+     "titulo": "What If You and Your Crush Were the Last 2 People Stuck on an Island",
+     "publicado": "2026-11-12",
+     "duracao_min": 21.6,
+     "views": 10369,
+     "thumb": "https://i.ytimg.com/vi/s5NiJPN7GiQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=s5NiJPN7GiQ"
+    }
+   ],
+   "score": 171270,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UChY6sPOC2XIvN_thMyB-1Yw",
+   "titulo": "Ali Wildlife Hunt",
+   "url": "https://www.youtube.com/channel/UChY6sPOC2XIvN_thMyB-1Yw",
+   "pais": "US",
+   "criado": "2026-09-17",
+   "primeiro_video": "2026-09-19",
+   "idade_dias": 53,
+   "videos": 3,
+   "views": 7892200,
+   "inscritos": 6630,
+   "media_views": 2630733,
+   "views_por_inscrito": 1190.4,
+   "descricao": "Welcome to Ali Wildlife Hunt 🌍🦁\nExplore the wild world of animals through realistic AI wildlife documentaries, animal encounters, survival stories, powerful battles, hunting moments, and fascinating nature scenes.\nFrom the African savanna to rivers and forests, every video brings you closer to the a",
+   "buscas": [
+    "documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "0ilC6ccFmgw",
+     "titulo": "Great Horned Owl Life Cycle: Egg to First Flight | Wildlife Documentary",
+     "publicado": "2026-10-19",
+     "duracao_min": 11.1,
+     "views": 7867984,
+     "thumb": "https://i.ytimg.com/vi/0ilC6ccFmgw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=0ilC6ccFmgw"
+    },
+    {
+     "id": "FPaBdmkVRQU",
+     "titulo": "Great Grey Owl Life Cycle: From Egg to First Flight | Wildlife Documentary",
+     "publicado": "2026-09-30",
+     "duracao_min": 10.7,
+     "views": 63948,
+     "thumb": "https://i.ytimg.com/vi/FPaBdmkVRQU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=FPaBdmkVRQU"
+    },
+    {
+     "id": "DUKXJbfc7tg",
+     "titulo": "Lioness Faces a Giant Hippo… Then an Eagle and Badger Enter the Fight | Wildlife Documentary",
+     "publicado": "2026-09-19",
+     "duracao_min": 7.5,
+     "views": 4839,
+     "thumb": "https://i.ytimg.com/vi/DUKXJbfc7tg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=DUKXJbfc7tg"
+    }
+   ],
+   "score": 148909,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 416292
+  },
+  {
+   "id": "UCdvdV0Wc1fhVpnnCUDn-T6g",
+   "titulo": "D-Cypher",
+   "url": "https://www.youtube.com/channel/UCdvdV0Wc1fhVpnnCUDn-T6g",
+   "pais": null,
+   "criado": "2026-06-12",
+   "primeiro_video": "2026-10-31",
+   "idade_dias": 11,
+   "videos": 17,
+   "views": 1606293,
+   "inscritos": 5790,
+   "media_views": 94487,
+   "views_por_inscrito": 277.4,
+   "descricao": "Welcome to D-Cypher.\n\nWe tell the stories behind the most fascinating empires, events, and modern phenomena shaping our world.\n\nFrom remarkable growth stories and visionary strategies to high-stakes mysteries, geopolitical shifts, and historic downfalls—we decode the complex forces driving history, ",
+   "buscas": [
+    "war history"
+   ],
+   "videos_lista": [
+    {
+     "id": "68QElF9y-gQ",
+     "titulo": "Trump Just Lost Congress. Here's What History Says Happens Next",
+     "publicado": "2026-11-08",
+     "duracao_min": 10.1,
+     "views": 1435097,
+     "thumb": "https://i.ytimg.com/vi/68QElF9y-gQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=68QElF9y-gQ"
+    },
+    {
+     "id": "nPwttlqg3Wg",
+     "titulo": "Democrats Won the House and Senate. What Does That Change?",
+     "publicado": "2026-11-06",
+     "duracao_min": 2.6,
+     "views": 169624,
+     "thumb": "https://i.ytimg.com/vi/nPwttlqg3Wg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=nPwttlqg3Wg"
+    },
+    {
+     "id": "WvIFvD4lxFM",
+     "titulo": "Trump Lost Congress. Will History Repeat Itself?",
+     "publicado": "2026-11-09",
+     "duracao_min": 2.3,
+     "views": 22637,
+     "thumb": "https://i.ytimg.com/vi/WvIFvD4lxFM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WvIFvD4lxFM"
+    },
+    {
+     "id": "M4koP-uz-rY",
+     "titulo": "Can Democrats Stop Trump's Veto? 😱 #shorts #politics #congress",
+     "publicado": "2026-11-07",
+     "duracao_min": 2.5,
+     "views": 10790,
+     "thumb": "https://i.ytimg.com/vi/M4koP-uz-rY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=M4koP-uz-rY"
+    },
+    {
+     "id": "w9uhbv366A0",
+     "titulo": "Trump Might Get Impeached Again.",
+     "publicado": "2026-11-11",
+     "duracao_min": 9.2,
+     "views": 2393,
+     "thumb": "https://i.ytimg.com/vi/w9uhbv366A0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=w9uhbv366A0"
+    },
+    {
+     "id": "-fMIuJ6BNcY",
+     "titulo": "Why Enron Employees Lost It All After 9/11",
+     "publicado": "2026-11-01",
+     "duracao_min": 2.0,
+     "views": 1709,
+     "thumb": "https://i.ytimg.com/vi/-fMIuJ6BNcY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=-fMIuJ6BNcY"
+    },
+    {
+     "id": "7ydyRMrtepY",
+     "titulo": "Government Shutdown: Explained.",
+     "publicado": "2026-11-10",
+     "duracao_min": 9.7,
+     "views": 1698,
+     "thumb": "https://i.ytimg.com/vi/7ydyRMrtepY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=7ydyRMrtepY"
+    },
+    {
+     "id": "Hl6QWVhax5A",
+     "titulo": "Nobody Believed Him About \"Madoff\". Turns Out He Was Right.",
+     "publicado": "2026-11-02",
+     "duracao_min": 2.6,
+     "views": 1515,
+     "thumb": "https://i.ytimg.com/vi/Hl6QWVhax5A/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Hl6QWVhax5A"
+    },
+    {
+     "id": "-Y9gYd0pDS8",
+     "titulo": "Could Trump Be Impeached a Third Time? The Number That Decides It",
+     "publicado": "2026-11-11",
+     "duracao_min": 1.2,
+     "views": 1369,
+     "thumb": "https://i.ytimg.com/vi/-Y9gYd0pDS8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=-Y9gYd0pDS8"
+    },
+    {
+     "id": "XFgpX_fAzAA",
+     "titulo": "The $5 billion dollar heist that killed Toys \"R\" Us",
+     "publicado": "2026-10-31",
+     "duracao_min": 8.5,
+     "views": 1257,
+     "thumb": "https://i.ytimg.com/vi/XFgpX_fAzAA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=XFgpX_fAzAA"
+    },
+    {
+     "id": "OLJXpw3J2eg",
+     "titulo": "The Ruthless Trick That Destroyed Toys \"R\" Us. #Shorts #Money",
+     "publicado": "2026-11-01",
+     "duracao_min": 1.0,
+     "views": 1113,
+     "thumb": "https://i.ytimg.com/vi/OLJXpw3J2eg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=OLJXpw3J2eg"
+    },
+    {
+     "id": "n0wLA8UBCN8",
+     "titulo": "Why Elizabeth Holmes Is in Prison (and Wants Trump to Let Her Out)",
+     "publicado": "2026-11-12",
+     "duracao_min": 1.5,
+     "views": 942,
+     "thumb": "https://i.ytimg.com/vi/n0wLA8UBCN8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=n0wLA8UBCN8"
+    },
+    {
+     "id": "F3W77VP2vSs",
+     "titulo": "How Bernie Madoff Stole $64.8 Billion and Left Investors Hanging Like a Towel Rack",
+     "publicado": "2026-11-02",
+     "duracao_min": 7.8,
+     "views": 626,
+     "thumb": "https://i.ytimg.com/vi/F3W77VP2vSs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=F3W77VP2vSs"
+    },
+    {
+     "id": "8mXC70NGbG4",
+     "titulo": "The Biggest Crypto Hack Ever: Is This FTX All Over Again?",
+     "publicado": "2026-11-03",
+     "duracao_min": 1.3,
+     "views": 571,
+     "thumb": "https://i.ytimg.com/vi/8mXC70NGbG4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8mXC70NGbG4"
+    },
+    {
+     "id": "L9nO7I16R3k",
+     "titulo": "Why Their Employees Lost It All After 9/11",
+     "publicado": "2026-11-01",
+     "duracao_min": 8.8,
+     "views": 467,
+     "thumb": "https://i.ytimg.com/vi/L9nO7I16R3k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=L9nO7I16R3k"
+    },
+    {
+     "id": "MkPXjQVmNAs",
+     "titulo": "North Korean Hackers Stole $6.3 Billion From Binance in 20 Minutes",
+     "publicado": "2026-11-03",
+     "duracao_min": 18.2,
+     "views": 383,
+     "thumb": "https://i.ytimg.com/vi/MkPXjQVmNAs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=MkPXjQVmNAs"
+    },
+    {
+     "id": "6UR__zzW-AE",
+     "titulo": "Elizabeth Holmes Fooled Everyone for 12 Years. Here's What Really Happened",
+     "publicado": "2026-11-12",
+     "duracao_min": 12.9,
+     "views": 71,
+     "thumb": "https://i.ytimg.com/vi/6UR__zzW-AE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=6UR__zzW-AE"
+    }
+   ],
+   "score": 146027,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCjXCoo0SOXZD8BFgb5ABlMg",
+   "titulo": "IFNation",
+   "url": "https://www.youtube.com/channel/UCjXCoo0SOXZD8BFgb5ABlMg",
+   "pais": null,
+   "criado": "2015-04-27",
+   "primeiro_video": "2026-10-28",
+   "idade_dias": 14,
+   "videos": 10,
+   "views": 2034830,
+   "inscritos": 6000,
+   "media_views": 203483,
+   "views_por_inscrito": 339.1,
+   "descricao": "If Nation let's your imagination run wild",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "zqQZXZ-eUnE",
+     "titulo": "What If Everyone Could Hear Your Thoughts?",
+     "publicado": "2026-11-05",
+     "duracao_min": 11.2,
+     "views": 787308,
+     "thumb": "https://i.ytimg.com/vi/zqQZXZ-eUnE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=zqQZXZ-eUnE"
+    },
+    {
+     "id": "Ba6P05ndlw4",
+     "titulo": "What If You Grew 1 Inch Every Time You Said Sorry?",
+     "publicado": "2026-11-02",
+     "duracao_min": 7.3,
+     "views": 482836,
+     "thumb": "https://i.ytimg.com/vi/Ba6P05ndlw4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Ba6P05ndlw4"
+    },
+    {
+     "id": "G63ZpgzmSGo",
+     "titulo": "What If You Had 500 Charisma?",
+     "publicado": "2026-11-11",
+     "duracao_min": 9.5,
+     "views": 293393,
+     "thumb": "https://i.ytimg.com/vi/G63ZpgzmSGo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=G63ZpgzmSGo"
+    },
+    {
+     "id": "QNWwwpcVDHU",
+     "titulo": "What If You Could Hear What Everyone Says Behind Your Back?",
+     "publicado": "2026-11-03",
+     "duracao_min": 7.2,
+     "views": 274653,
+     "thumb": "https://i.ytimg.com/vi/QNWwwpcVDHU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=QNWwwpcVDHU"
+    },
+    {
+     "id": "EeruWNQ0CDM",
+     "titulo": "What If You Could See Who Misses You?",
+     "publicado": "2026-10-31",
+     "duracao_min": 11.2,
+     "views": 219204,
+     "thumb": "https://i.ytimg.com/vi/EeruWNQ0CDM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=EeruWNQ0CDM"
+    },
+    {
+     "id": "1QZ0EuH46rU",
+     "titulo": "What If You Could See Who Would Come to Your Funeral?",
+     "publicado": "2026-11-01",
+     "duracao_min": 10.8,
+     "views": 86005,
+     "thumb": "https://i.ytimg.com/vi/1QZ0EuH46rU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=1QZ0EuH46rU"
+    },
+    {
+     "id": "QsRdIy2CQ-I",
+     "titulo": "What If You Could See How Much Everyone Envies You?",
+     "publicado": "2026-11-01",
+     "duracao_min": 10.4,
+     "views": 43012,
+     "thumb": "https://i.ytimg.com/vi/QsRdIy2CQ-I/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=QsRdIy2CQ-I"
+    },
+    {
+     "id": "anJnDZ8OjN4",
+     "titulo": "What If You Could See Who's Faking Being Your Friend?",
+     "publicado": "2026-10-30",
+     "duracao_min": 11.3,
+     "views": 24515,
+     "thumb": "https://i.ytimg.com/vi/anJnDZ8OjN4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=anJnDZ8OjN4"
+    },
+    {
+     "id": "8rvHH0DoWyY",
+     "titulo": "What If Every Girl on Earth Had a Crush on You",
+     "publicado": "2026-10-29",
+     "duracao_min": 7.9,
+     "views": 21262,
+     "thumb": "https://i.ytimg.com/vi/8rvHH0DoWyY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8rvHH0DoWyY"
+    },
+    {
+     "id": "WhnlFrGeCow",
+     "titulo": "What If You Could See Who Secretly Has a Crush on You?",
+     "publicado": "2026-10-28",
+     "duracao_min": 8.1,
+     "views": 7287,
+     "thumb": "https://i.ytimg.com/vi/WhnlFrGeCow/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WhnlFrGeCow"
+    }
+   ],
+   "score": 145345,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCYXp1WiSFOgx5W4jLaDlJVQ",
+   "titulo": "Dr. Marvel",
+   "url": "https://www.youtube.com/channel/UCYXp1WiSFOgx5W4jLaDlJVQ",
+   "pais": "US",
+   "criado": "2022-10-14",
+   "primeiro_video": "2026-09-19",
+   "idade_dias": 53,
+   "videos": 16,
+   "views": 7350221,
+   "inscritos": 5490,
+   "media_views": 459388,
+   "views_por_inscrito": 1338.8,
+   "descricao": "I love to nerd out about the MCU.\n\nMarvel lore explained & much more.\n\nDr. Marvel delivers fact-checked Marvel breakdowns, explaining characters, teams, powers, stories, and the hidden details across Marvel Comics and the MCU. Our content is educational, entertaining, and based on established Marvel",
+   "buscas": [
+    "history explained"
+   ],
+   "videos_lista": [
+    {
+     "id": "kl4TPeq0iCE",
+     "titulo": "The Entire MCU Timeline Till Doomsday Explained in 22 Minutes",
+     "publicado": "2026-10-19",
+     "duracao_min": 22.4,
+     "views": 351289,
+     "thumb": "https://i.ytimg.com/vi/kl4TPeq0iCE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=kl4TPeq0iCE"
+    },
+    {
+     "id": "WaNKzMxp1hA",
+     "titulo": "Every CRAZY Doomsday Theory Explained in 14 Minutes",
+     "publicado": "2026-10-01",
+     "duracao_min": 14.3,
+     "views": 250608,
+     "thumb": "https://i.ytimg.com/vi/WaNKzMxp1hA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WaNKzMxp1hA"
+    },
+    {
+     "id": "5wZCGMkXayo",
+     "titulo": "Every Unanswered Question Before Doomsday Explained",
+     "publicado": "2026-10-09",
+     "duracao_min": 13.4,
+     "views": 189259,
+     "thumb": "https://i.ytimg.com/vi/5wZCGMkXayo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5wZCGMkXayo"
+    },
+    {
+     "id": "BBOthGP97M4",
+     "titulo": "Every Team in Avengers Doomsday Explained in 12 Minutes",
+     "publicado": "2026-11-03",
+     "duracao_min": 12.4,
+     "views": 139227,
+     "thumb": "https://i.ytimg.com/vi/BBOthGP97M4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=BBOthGP97M4"
+    },
+    {
+     "id": "uOvObJPyjlM",
+     "titulo": "Every NEW Doomsday Theory After Avengers Endgame Encore Explained",
+     "publicado": "2026-10-04",
+     "duracao_min": 14.3,
+     "views": 113516,
+     "thumb": "https://i.ytimg.com/vi/uOvObJPyjlM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=uOvObJPyjlM"
+    },
+    {
+     "id": "qgIOzEQKJEM",
+     "titulo": "Every Artifact in Doom’s Lab for Avengers Doomsday Explained (NYCC)",
+     "publicado": "2026-10-16",
+     "duracao_min": 10.8,
+     "views": 48932,
+     "thumb": "https://i.ytimg.com/vi/qgIOzEQKJEM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=qgIOzEQKJEM"
+    },
+    {
+     "id": "iMjJTBER_LA",
+     "titulo": "The ONLY RECAP You NEED Before Avengers Doomsday",
+     "publicado": "2026-09-23",
+     "duracao_min": 14.7,
+     "views": 48501,
+     "thumb": "https://i.ytimg.com/vi/iMjJTBER_LA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=iMjJTBER_LA"
+    },
+    {
+     "id": "iyFtqfIhmNo",
+     "titulo": "10 New Details You MISSED in Avengers Endgame Encore",
+     "publicado": "2026-10-06",
+     "duracao_min": 12.0,
+     "views": 28446,
+     "thumb": "https://i.ytimg.com/vi/iyFtqfIhmNo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=iyFtqfIhmNo"
+    },
+    {
+     "id": "asrHlec0PPU",
+     "titulo": "Every Member of Doctor Doom’s Team Explained in 13 Minutes",
+     "publicado": "2026-10-23",
+     "duracao_min": 13.1,
+     "views": 27356,
+     "thumb": "https://i.ytimg.com/vi/asrHlec0PPU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=asrHlec0PPU"
+    },
+    {
+     "id": "wOT0kvlI6Jc",
+     "titulo": "7 New Details We Missed in The Avengers Doomsday Trailer Explained",
+     "publicado": "2026-09-25",
+     "duracao_min": 10.6,
+     "views": 26589,
+     "thumb": "https://i.ytimg.com/vi/wOT0kvlI6Jc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=wOT0kvlI6Jc"
+    },
+    {
+     "id": "RAySts650Hs",
+     "titulo": "Every X-Men in Avengers Doomsday Explained",
+     "publicado": "2026-10-14",
+     "duracao_min": 13.2,
+     "views": 24076,
+     "thumb": "https://i.ytimg.com/vi/RAySts650Hs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=RAySts650Hs"
+    },
+    {
+     "id": "GdKd_4FcAK8",
+     "titulo": "The 4 NEW Scenes in Avengers Endgame Encore Explained",
+     "publicado": "2026-09-28",
+     "duracao_min": 8.1,
+     "views": 12421,
+     "thumb": "https://i.ytimg.com/vi/GdKd_4FcAK8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=GdKd_4FcAK8"
+    },
+    {
+     "id": "-O3AwKXA1N4",
+     "titulo": "Every Doctor Doom Suit Explained in 9 Minutes",
+     "publicado": "2026-10-12",
+     "duracao_min": 9.3,
+     "views": 8587,
+     "thumb": "https://i.ytimg.com/vi/-O3AwKXA1N4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=-O3AwKXA1N4"
+    },
+    {
+     "id": "v69c3ce_5x8",
+     "titulo": "Everything You MISSED In The Avengers Doomsday Trailer EXPLAINED",
+     "publicado": "2026-09-19",
+     "duracao_min": 9.8,
+     "views": 5488,
+     "thumb": "https://i.ytimg.com/vi/v69c3ce_5x8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=v69c3ce_5x8"
+    },
+    {
+     "id": "vVbhlKkhJ0k",
+     "titulo": "Doctor Doom's TRAGIC Origin Story Explained.",
+     "publicado": "2026-11-09",
+     "duracao_min": 10.4,
+     "views": 2056,
+     "thumb": "https://i.ytimg.com/vi/vVbhlKkhJ0k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vVbhlKkhJ0k"
+    },
+    {
+     "id": "qg85PbS3vNA",
+     "titulo": "Paul Bettany's 7 Marvel Characters Explained",
+     "publicado": "2026-11-11",
+     "duracao_min": 8.5,
+     "views": 1623,
+     "thumb": "https://i.ytimg.com/vi/qg85PbS3vNA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=qg85PbS3vNA"
+    }
+   ],
+   "score": 138683,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 650392
+  },
+  {
+   "id": "UCUt7wPSxHRObHObdAW-26JQ",
+   "titulo": "Where They Stood",
+   "url": "https://www.youtube.com/channel/UCUt7wPSxHRObHObdAW-26JQ",
+   "pais": "US",
+   "criado": "2026-09-27",
+   "primeiro_video": "2026-10-03",
+   "idade_dias": 39,
+   "videos": 11,
+   "views": 5184153,
+   "inscritos": 3670,
+   "media_views": 471286,
+   "views_por_inscrito": 1412.6,
+   "descricao": "What America's wars left behind and why it's still there.\n\nEvery video takes one famous American military place or machine and tells what happened there and what stands there today, using the government's own photos, maps and records.\n\nSubscribe!\n\nFor Business Inquiries: wheretheystood@gmail.com\n",
+   "buscas": [
+    "war history"
+   ],
+   "videos_lista": [
+    {
+     "id": "hEsjPdO3YQM",
+     "titulo": "Why Can't You Visit Iwo Jima?",
+     "publicado": "2026-10-04",
+     "duracao_min": 20.0,
+     "views": 4535131,
+     "thumb": "https://i.ytimg.com/vi/hEsjPdO3YQM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=hEsjPdO3YQM"
+    },
+    {
+     "id": "28GoBGMdlF0",
+     "titulo": "What's Still Under the Water at Omaha Beach?",
+     "publicado": "2026-10-22",
+     "duracao_min": 19.0,
+     "views": 340575,
+     "thumb": "https://i.ytimg.com/vi/28GoBGMdlF0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=28GoBGMdlF0"
+    },
+    {
+     "id": "D0mwYK5g1Ms",
+     "titulo": "Why Is America Still Digging Up Normandy?",
+     "publicado": "2026-11-02",
+     "duracao_min": 23.0,
+     "views": 118953,
+     "thumb": "https://i.ytimg.com/vi/D0mwYK5g1Ms/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=D0mwYK5g1Ms"
+    },
+    {
+     "id": "kZbPoOfx2M0",
+     "titulo": "What Happened To The Real Hacksaw Ridge?",
+     "publicado": "2026-10-26",
+     "duracao_min": 19.6,
+     "views": 94429,
+     "thumb": "https://i.ytimg.com/vi/kZbPoOfx2M0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=kZbPoOfx2M0"
+    },
+    {
+     "id": "OXeIdFod08U",
+     "titulo": "Why Is There a Japanese Submarine in Alaska?",
+     "publicado": "2026-10-29",
+     "duracao_min": 21.5,
+     "views": 32567,
+     "thumb": "https://i.ytimg.com/vi/OXeIdFod08U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=OXeIdFod08U"
+    },
+    {
+     "id": "c6cwz0628-g",
+     "titulo": "Why Can't You Visit Hitler's Rocket Mountain?",
+     "publicado": "2026-11-05",
+     "duracao_min": 23.7,
+     "views": 29634,
+     "thumb": "https://i.ytimg.com/vi/c6cwz0628-g/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=c6cwz0628-g"
+    },
+    {
+     "id": "4OEP2LN6QBA",
+     "titulo": "Why Are 400 Nukes Still Buried in American Farmland?",
+     "publicado": "2026-10-03",
+     "duracao_min": 23.8,
+     "views": 29171,
+     "thumb": "https://i.ytimg.com/vi/4OEP2LN6QBA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4OEP2LN6QBA"
+    },
+    {
+     "id": "gnzKt88W5hg",
+     "titulo": "Why Is There Still a B-52 in a Lake in Hanoi?",
+     "publicado": "2026-11-10",
+     "duracao_min": 23.4,
+     "views": 26721,
+     "thumb": "https://i.ytimg.com/vi/gnzKt88W5hg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=gnzKt88W5hg"
+    },
+    {
+     "id": "68gVFsvze6g",
+     "titulo": "Why Is America Still Digging Up Germany?",
+     "publicado": "2026-11-07",
+     "duracao_min": 23.4,
+     "views": 7173,
+     "thumb": "https://i.ytimg.com/vi/68gVFsvze6g/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=68gVFsvze6g"
+    },
+    {
+     "id": "Nr0x7alVzyk",
+     "titulo": "Why Can't You Go Inside Cheyenne Mountain?",
+     "publicado": "2026-10-24",
+     "duracao_min": 21.8,
+     "views": 4937,
+     "thumb": "https://i.ytimg.com/vi/Nr0x7alVzyk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Nr0x7alVzyk"
+    },
+    {
+     "id": "Wl_R_z9b3HI",
+     "titulo": "Why Is Laos Still Full of American Bombs?",
+     "publicado": "2026-11-01",
+     "duracao_min": 23.3,
+     "views": 1587,
+     "thumb": "https://i.ytimg.com/vi/Wl_R_z9b3HI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Wl_R_z9b3HI"
+    }
+   ],
+   "score": 132927,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCE1gBqF9TF6JswS0zsxdGTg",
+   "titulo": "Civil War Fine Print",
+   "url": "https://www.youtube.com/channel/UCE1gBqF9TF6JswS0zsxdGTg",
+   "pais": "US",
+   "criado": "2026-11-07",
+   "primeiro_video": "2026-11-07",
+   "idade_dias": 4,
+   "videos": 6,
+   "views": 919508,
+   "inscritos": 3070,
+   "media_views": 153251,
+   "views_por_inscrito": 299.5,
+   "descricao": "The American Civil War, and the parts the textbook leaves out. True stories you think you already know, told from an angle you don't normally see: the letters, photographs and court records, who was really there, and what happened after. From Fort Sumter to Appomattox.\n\nTold by a real human, in thei",
+   "buscas": [
+    "war history"
+   ],
+   "videos_lista": [
+    {
+     "id": "2X3gH8jud_Q",
+     "titulo": "The Pictures of Lincoln's Death You Weren't Supposed to See",
+     "publicado": "2026-11-07",
+     "duracao_min": 14.5,
+     "views": 879130,
+     "thumb": "https://i.ytimg.com/vi/2X3gH8jud_Q/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=2X3gH8jud_Q"
+    },
+    {
+     "id": "JMe7X3VG_OI",
+     "titulo": "They Stripped the Room Where the Civil War Ended #civilwar #appomattox #history #shorts",
+     "publicado": "2026-11-10",
+     "duracao_min": 3.0,
+     "views": 207040,
+     "thumb": "https://i.ytimg.com/vi/JMe7X3VG_OI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=JMe7X3VG_OI"
+    },
+    {
+     "id": "VT09UITmhfY",
+     "titulo": "He told TV he saw Lincoln shot. Ford's Theatre isn't sure #lincoln #civilwar #history #shorts",
+     "publicado": "2026-11-09",
+     "duracao_min": 2.2,
+     "views": 11618,
+     "thumb": "https://i.ytimg.com/vi/VT09UITmhfY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=VT09UITmhfY"
+    },
+    {
+     "id": "WpAksE_qSIA",
+     "titulo": "The only photograph of Lincoln dead #lincoln #civilwar #history #shorts",
+     "publicado": "2026-11-07",
+     "duracao_min": 2.2,
+     "views": 5014,
+     "thumb": "https://i.ytimg.com/vi/WpAksE_qSIA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WpAksE_qSIA"
+    },
+    {
+     "id": "jOVS26IeTAw",
+     "titulo": "What Happened to the Man Who Hosted General Lee's Surrender?",
+     "publicado": "2026-11-10",
+     "duracao_min": 14.6,
+     "views": 4967,
+     "thumb": "https://i.ytimg.com/vi/jOVS26IeTAw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=jOVS26IeTAw"
+    },
+    {
+     "id": "Nj58tH8RyjI",
+     "titulo": "Robert Smalls Sailed a Confederate Gunboat Past Fort Sumter #veteransday #civilwar #shorts",
+     "publicado": "2026-11-11",
+     "duracao_min": 2.7,
+     "views": 3177,
+     "thumb": "https://i.ytimg.com/vi/Nj58tH8RyjI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Nj58tH8RyjI"
+    }
+   ],
+   "score": 131358,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  }
+ ]
+}

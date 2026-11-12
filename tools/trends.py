@@ -90,7 +90,7 @@ def main():
         nao_latino = sum(bool(re.search(r"[^\x00-\u024F\u2000-\u2BFF\U0001F000-\U0001FAFF]", t)) for t in titulos) / len(titulos)
         audio = [v["snippet"].get("defaultAudioLanguage", "") for v in vids if v["snippet"].get("defaultAudioLanguage")]
         nao_en = audio and sum(not a.startswith("en") for a in audio) / len(audio) > 0.5
-        shorts = sum(segundos(v["contentDetails"]["duration"]) <= 75 for v in vids) / len(vids)
+        shorts = sum(segundos(v["contentDetails"].get("duration", "PT0S")) <= 75 for v in vids) / len(vids)
         if idade > MAX_IDADE_DIAS or nao_latino > 0.3 or nao_en or shorts > 0.5:
             continue
         n, views = int(st.get("videoCount", 0)), int(st.get("viewCount", 0))
@@ -103,7 +103,7 @@ def main():
             "descricao": sn.get("description", "")[:300], "buscas": sorted(achados[ch["id"]]),
             "videos_lista": sorted(({
                 "id": v["id"], "titulo": v["snippet"]["title"], "publicado": v["snippet"]["publishedAt"][:10],
-                "duracao_min": round(segundos(v["contentDetails"]["duration"]) / 60, 1),
+                "duracao_min": round(segundos(v["contentDetails"].get("duration", "PT0S")) / 60, 1),
                 "views": int(v["statistics"].get("viewCount", 0)),
                 "thumb": v["snippet"]["thumbnails"].get("maxres", v["snippet"]["thumbnails"].get("high", {})).get("url"),
                 "url": f"https://www.youtube.com/watch?v={v['id']}",
