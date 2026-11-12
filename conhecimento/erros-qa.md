@@ -31,6 +31,7 @@ Antes do render do vídeo (que vai para a GPU do Runpod): stills a cada ~10 s e 
 9. **Voz** (antes do render, por bloco): frase faltando, palavra trocada, pergunta sem entonação, nomes estrangeiros testados antes.
 10. **Mudou código/estilo no meio?** Refaça a varredura inteira, não só o trecho mexido.
 11. **Render em GPU (Runpod) confere com a VPS em todo o vídeo, não em 3 quadros:** use `tools/render_runpod.sh` com as conferências ligadas (prova antes + um quadro a cada 10 s de cada bloco contra stills da VPS). A mesma GPU já perdeu textura satélite em trechos sem dar erro (11/11/2026). Nunca `chrome-for-testing` (some o 3D).
+12. **Pré-QA visual automático** (desde 12/11/2026): `tools/preqa_visual.py <pasta do vídeo>` manda os stills de `preqa/` (ou os frames do mp4) ao Claude Sonnet com visão contra este checklist e sai ≠ 0 com bloqueante; no teste pegou a faixa bege e as listras do Em Relevo 002 v2 (`f091`, `f127`) como bloqueantes e 0 bloqueante no Rússia publicado. Complementa o olho, não substitui. Skills [`montagem-render`](../skills/montagem-render/SKILL.md) (passo 4) e [`qa`](../skills/qa/SKILL.md) (passo 3).
 
 ---
 

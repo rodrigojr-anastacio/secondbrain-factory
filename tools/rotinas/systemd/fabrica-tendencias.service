@@ -1,9 +1,9 @@
 [Unit]
-Description=Fábrica YouTube — garimpo de tendências (claude -p, sem Hermes)
+Description=Fábrica YouTube — garimpo de tendências (Claude pela API — Agent SDK, créditos do Max; sem Hermes)
 After=network-online.target
 
 [Service]
 Type=oneshot
 Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
 ExecStart=%h/workspace/fabrica-youtube/tools/rotinas/tendencias.sh
-TimeoutStartSec=2h
+TimeoutStartSec=3h

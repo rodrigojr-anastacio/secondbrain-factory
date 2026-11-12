@@ -18,7 +18,8 @@ Procedimento-base: checklist de `playbooks/produzir-video.md` §6 e §7. Modelo 
 ## Passos
 1. **Render:** `cd $V && bash tools/qa.sh | tee qa/qa.txt` (specs, `out/contact-sheet.jpg` de 20 frames, cortes no 1º min, telas pretas, loudness, silêncios).
 2. **Voz × roteiro:** `cd $V && ~/workspace/fabrica-youtube/tools/.venv/bin/python tools/transcrever.py` (gera `qa/transcricao.json`) e depois `python3 tools/compara_voz.py` (gera `qa/voz_diff.txt`).
-3. **Visual:** olhe só o `out/contact-sheet.jpg` e **1 frame de cada cena com nome próprio** (extraia com `ffmpeg -ss <t> -i out/video.mp4 -frames:v 1`, tempos em `src/timeline.json`), montados numa grade única. Nada de revisar frame a frame.
+3. **Visual automático:** `tools/.venv/bin/python tools/preqa_visual.py $V/out/video.mp4 --video <id> --saida $V/qa` (a partir da raiz do repo; 1 frame a cada 10 s do render final, Claude Sonnet com visão e o checklist de `erros-qa.md`; ~US$ 0,15–0,25). Sai ≠ 0 se houver **bloqueante**: confira cada item no frame (o modelo erra para os dois lados) e trate os confirmados como reprovação. Cite o `qa/PREQA-visual.md` no `QA.md`.
+3b. **Visual:** olhe só o `out/contact-sheet.jpg` e **1 frame de cada cena com nome próprio** (extraia com `ffmpeg -ss <t> -i out/video.mp4 -frames:v 1`, tempos em `src/timeline.json`), montados numa grade única. Nada de revisar frame a frame.
 4. **Legenda:** 3 pontos (início, meio, fim) do `.srt` batem com a fala.
 5. **Pacote:** valide `out/youtube.txt` e `out/thumbnail.jpg` pelos critérios da skill `pacote-youtube`.
 6. **Segue a bíblia do canal?** (obrigatório) Confira o vídeo contra cada arquivo de `canais/<slug>/biblia/`:
@@ -33,6 +34,7 @@ Procedimento-base: checklist de `playbooks/produzir-video.md` §6 e §7. Modelo 
 - [ ] 1080p30 H.264/AAC; ~-15 LUFS; pico < -1 dBTP; voz acima da trilha.
 - [ ] 0 telas pretas ≥ 0,2 s; 0 silêncios > 1,5 s fora de capítulo; ≥ ~21 cortes no 1º minuto.
 - [ ] Whisper × roteiro ≥ ~93% no total e sem bloco com frase faltando ou tag falada.
+- [ ] `preqa_visual.py` no render final sem bloqueante confirmado (`qa/PREQA-visual.md`).
 - [ ] Cenas nomeadas fiéis; nenhum lugar real no lugar de fictício; nenhum frame de filme; nada cortado/sobreposto; nenhum texto gerado pela IA; um HUD por vez.
 - [ ] `.srt` sincronizada; capítulos em ordem desde 0:00; thumb JPG < 2 MB.
 - [ ] **Segue a bíblia do canal** (roteiro, título, thumb, visual, voz) e nada de "O que NÃO fazer aqui"; resultado de cada arquivo anotado.

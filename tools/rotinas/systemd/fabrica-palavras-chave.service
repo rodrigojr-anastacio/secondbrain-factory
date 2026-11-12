@@ -1,5 +1,5 @@
 [Unit]
-Description=Fábrica YouTube — palavras-chave em alta → sugestões de vídeo e canal (claude -p, sem Hermes)
+Description=Fábrica YouTube — palavras-chave em alta → sugestões de vídeo e canal (Claude pela API — Agent SDK, créditos do Max; sem Hermes)
 After=network-online.target
 
 [Service]

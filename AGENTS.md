@@ -29,6 +29,9 @@ fabrica-youtube/
 │   ├── tts_fish.py narração Fish Audio com a voz do canal; registra o custo em financas.consumo
 │   ├── img_openai.py / img_fal.py imagens no estilo do canal; registram o custo em financas.consumo; trava por pasta (.img.lock)
 │   ├── claude_run.py / .sh uma etapa do Claude Code por vídeo (claude -p): modelo por etapa, trava, custo em youtube.execucoes_claude
+│   ├── anthropic_api.py créditos da API Anthropic (chaves rotinas/qa, preços, custo em financas.consumo, tetos mensais)
+│   ├── garimpo_batch.py análise em lote (Batch API) dos vídeos do garimpo → conhecimento/padroes-garimpo.md
+│   ├── preqa_visual.py pré-QA visual com Claude (visão) contra o checklist de erros-qa.md → PREQA-visual.md
 │   ├── db.py, _paths.py, _trava.py, db/ (schemas e seed), rotinas/diaria.sh (coleta + backup)
 │   └── auth.py    login OAuth de um canal (feito pelo Rodrigo)
 ├── canais/<slug>/
@@ -79,10 +82,11 @@ Acesso local sem senha, como o usuário do sistema: `psql -d vida`, ou `tools/db
 | view `custo_claude_por_video` | soma por vídeo e etapa (ignora `etapa = 'teste'` e as rotinas sem vídeo) | — |
 - Na análise do garimpo, grave a fórmula e a decisão em `garimpo_canais.formula` e `garimpo_canais.decisao` (investir | testar | descartar).
 - Arquivos continuam sendo a saída de mídia e texto longo. O banco é a fonte para consultas, histórico e números.
-- Rotinas (systemd user, independentes do Hermes; guia em `tools/rotinas/README.md`): `diaria.sh` (06:30, coleta + backup em `~/backups/vida`, 14 dias), `metricas.sh` (seg 08:15), `tendencias.sh` (seg/qui 09:30) e `palavras-chave.sh` (qua 09:30, `playbooks/palavras-chave.md`; só sugere, não edita backlog nem bíblia). As três últimas rodam `claude -p` via `claude_run.py` (etapas `metricas`/`tendencias`/`palavras-chave`, sem vídeo), gravam em `~/workspace/relatorios/<rotina>/` e mandam o resumo no Telegram.
+- Rotinas (systemd user, independentes do Hermes; guia em `tools/rotinas/README.md`): `diaria.sh` (06:30, coleta + backup em `~/backups/vida`, 14 dias), `metricas.sh` (seg 08:15), `tendencias.sh` (seg/qui 09:30) e `palavras-chave.sh` (qua 09:30, `playbooks/palavras-chave.md`; só sugere, não edita backlog nem bíblia). As três últimas rodam o Claude **pela API** (créditos do Max, desde 12/11/2026) via `tools/rotinas/rotina_api.py` (Agent SDK; antes `claude -p` via `claude_run.py`; etapas `metricas`/`tendencias`/`palavras-chave`, sem vídeo; a de tendências roda também o garimpo em lote `garimpo_batch.py`), gravam em `~/workspace/relatorios/<rotina>/` e mandam o resumo no Telegram.
 - Subagentes do Claude Code: `agentes-claude/` (`produtor`, `tendencias`, `metricas`); entrada em `CLAUDE.md`. Todos leem a bíblia do canal primeiro; a skill `qa` reprova vídeo que não segue a bíblia do canal.
 
 ## Custos
+- **Créditos da API Anthropic:** US$ 100/mês incluídos no Max (lançados como pré-pago em `financas.lancamentos`, `valor_brl` 0). Cobrem as rotinas automáticas (`tools/rotinas/rotina_api.py`, Agent SDK), o garimpo em lote (`garimpo_batch.py`) e o pré-QA visual (`preqa_visual.py`); **não** cobrem sessões do Claude Code (`claude -p` segue na cota do Max). Nunca deixe `ANTHROPIC_API_KEY` no ambiente de um `claude -p` da esteira (faria o Claude Code cobrar pela API). Tetos: rotinas+garimpo US$ 65/mês, qa US$ 30/mês.
 - Toda geração paga (TTS, imagens etc.) deve registrar o custo em `financas.consumo`, com `ref_id` = `youtube.videos.id` do vídeo. O `tts_fish.py --video <id>` já faz isso.
 - Antes de produzir um vídeo, crie a linha dele em `youtube.videos` para ter o id. Consulte o custo em `financas.custo_por_video`.
 - Saldo de crédito pré-pago (Fish, OpenAI, fal.ai): `SELECT * FROM financas.saldo_pre_pago`. O da OpenAI só é confiável se todas as recargas estiverem lançadas em `financas.lancamentos`; em 04/11/2026 estava negativo por falta de lançamento.

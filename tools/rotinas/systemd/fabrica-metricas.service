@@ -1,5 +1,5 @@
 [Unit]
-Description=Fábrica YouTube — relatório semanal de métricas (claude -p, sem Hermes)
+Description=Fábrica YouTube — relatório semanal de métricas (Claude pela API — Agent SDK, créditos do Max; sem Hermes)
 After=network-online.target
 
 [Service]

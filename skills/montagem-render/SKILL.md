@@ -21,6 +21,8 @@ Procedimento-base: `playbooks/produzir-video.md` §4–5 (sobretudo "Ambiente" e
 3. Confira o JSON impresso (duração × meta; `plano_min_s` ≥ ~1,5 s) antes de renderizar.
 4. **Pré-QA obrigatório antes do render do vídeo** (na VPS; `node tools/remotion_stills.cjs <dir> <bundle> <Composição> <saída> swangle 0.5 q1,q2,…` faz todos os stills com um navegador só) (Em Relevo 002, 10/11/2026: ~8 h de render perdidas por fundo errado atrás do mapa, que uma varredura teria pego em minutos):
    - renderize **stills a cada ~10 s** do vídeo e **em toda troca de cena/estilo** (`npx remotion still`, um por vez, baixa resolução serve), monte uma **grade** (contact sheet) e confira cada quadro contra o **checklist de pré-render** de [`conhecimento/erros-qa.md`](../../conhecimento/erros-qa.md);
+   - **pré-QA visual automático (obrigatório, desde 12/11/2026):** com os stills em `$V/preqa/` (nome `<quadro>.png`, saída do `remotion_stills.cjs`), rode
+     `tools/.venv/bin/python tools/preqa_visual.py $V --video <id>` (a partir da raiz do repo; `--fps` se não for 30). Ele manda os quadros ao Claude Sonnet com visão (chave `~/.segredos/anthropic/qa.env`, créditos da API) com o checklist de `erros-qa.md`, grava `$V/PREQA-visual.md` (+ `.json`) com tempo e severidade e **sai ≠ 0 se houver bloqueante**: não renderize com bloqueante aberto (corrija, refaça os stills do trecho e rode de novo; falso positivo = anote no `ETAPA3.md` e siga). Custo ~US$ 0,002/quadro (~US$ 0,15–0,25 por vídeo de 12 min), gravado em `financas.consumo` com o vídeo. Ele **não substitui o seu olho na grade**: os dois juntos;
    - corrija e refaça os stills dos trechos afetados; só então renderize tudo;
    - **vale de novo sempre que código ou estilo mudar no meio** (nova cena 3D, novo componente, troca de fundo/mapa): refaça a varredura inteira, não só o trecho mexido;
    - registre no `ETAPA3.md` quantos stills e o que a grade pegou; o que pegar vira entrada em `erros-qa.md`.
@@ -45,7 +47,7 @@ Rode `cd $V && bash tools/qa.sh` (specs, contact sheet, cortes no 1º minuto, te
 - 1920x1080, 30 fps, H.264 + AAC.
 - Loudness integrada ~-15 LUFS, pico < -1 dBTP; voz acima da trilha.
 - 0 telas pretas ≥ 0,2 s; 0 silêncios > 1,5 s fora de capítulo; ≥ ~21 cortes no 1º minuto.
-- **Pré-QA feito** (grade de stills conferida contra o checklist de `erros-qa.md`) antes do render completo.
+- **Pré-QA feito** (grade de stills conferida contra o checklist de `erros-qa.md` **e** `tools/preqa_visual.py` sem bloqueante aberto, `$V/PREQA-visual.md`) antes do render completo.
 - Texto na tela, placas e trilha no padrão da `biblia/visual.md` do canal.
 - `.srt` e capítulos gerados. Relatório em `$V/ETAPA3.md`.
 
