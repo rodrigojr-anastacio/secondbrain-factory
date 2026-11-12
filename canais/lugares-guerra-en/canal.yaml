@@ -22,10 +22,12 @@ formula:
   estrutura: "hoje (o portão fechado) → o documento-chave → o que aconteceu ali → por que fechou → o que ainda está lá → volta ao documento"
 cadencia: 2 longos/semana + 2-3 Shorts/semana no teste (3 longos em ~2 semanas); nunca template em massa
 voz:
-  motor: fish                    # en; amostra a gerar na fase 2 (≤ US$ 0,50): candidatas Adrian, Ethan, Slax, Voice DL (pesquisa/lugares-guerra/IDIOMA.md §6)
-  voz: null                      # decisão do Rodrigo
+  motor: fish
+  voz: 0327fdb5da9e4fd782899a8058c8ae2b   # "Narrator" (Max N, biblioteca Fish); escolhida pelo Rodrigo em 12/11/2026 (amostra P-fish-narrator-maxn.mp3)
   modelo: s2.1-pro
-  tom: narrador americano grave e calmo, documental, sem drama de trailer
+  modo: por_frase                # 1 chamada por frase + 0,32 s (igual à amostra), ~150 ppm
+  sintetica: true                # declarar "voz sintética" na descrição
+  tom: narrador americano calmo e medido, documental, sem drama de trailer
 visual:
   # Matéria-prima = foto/filme/documento REAL de domínio público (NARA, NHHC, DVIDS, USFWS, NPS, LoC, Commons por arquivo).
   # Imagem gerada só na THUMB (e, raramente, um corte "SCHEMATIC" rotulado). Nada de 3D. Ver biblia/visual.md.

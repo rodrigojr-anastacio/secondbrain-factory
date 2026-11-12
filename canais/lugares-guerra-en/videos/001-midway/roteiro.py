@@ -596,6 +596,24 @@ def fmt(s):
     return f"{int(s // 60)}:{s % 60:04.1f}"
 
 
+# Grafia para a voz (Fish s2.1-pro, Narrator/Max N; decisão do Rodrigo 12/11/2026). O texto da tela e do .srt continua o original.
+VOZ_SUBS = [
+    ("*", ""),
+    ('"4 CV sunk – Akagi, Kaga, Soryu, Hiryu – with', '"Four C-V sunk. Ah-kah-gee, Kaga, Soryu, Hiryu. With'),
+    ('"2 CA sunk – Mogami, Mikuma."', '"Two C-A sunk. Mogami, Mikuma."'),
+    ("line (a)", "line A"), ("Line (c)", "Line C"), ("line (c)", "line C"),
+    ("Akagi, Kaga and Soryu", "Ah-kah-gee, Kaga, and Soryu"),  # B09c: sem a vírgula saiu "Akaga" (Whisper, 12/11)
+    ("Akagi", "Ah-kah-gee"), ('"AF."', '"A-F."'), ("AF was", "A-F was"),
+    ("I-168", "I-one sixty-eight"), ("10:20", "ten twenty"), ("Order 13022", "Order thirteen-oh-twenty-two"),
+]
+
+
+def voz(t):
+    for a, b in VOZ_SUBS:
+        t = t.replace(a, b)
+    return t
+
+
 def main():
     # 1. narração idêntica ao SCRIPT.md
     ref = script_md()
@@ -761,7 +779,7 @@ def main():
                  mapas_distintos=len(mapas), entao_agora=n_ea, imagens_ia=len(CENAS), palavras=sum(palavras(b["texto"]) for b in B),
                  blocos_audio=len(B))
 
-    blocos = [dict(id=b["id"], texto=b["texto"], texto_voz=b["texto"].replace("*", ""), ideia=b["ideia"],
+    blocos = [dict(id=b["id"], texto=b["texto"], texto_voz=voz(b["texto"]), ideia=b["ideia"],
                    inicio_est=b["inicio"], dur_est=b["dur"]) for b in B]
     chaves = ["id", "bloco", "tipo", "arq", "arq2", "enq", "inicio", "dur", "frase", "real", "reuso", "ficha", "num", "de", "para",
               "crop", "regiao", "frase_doc", "tin", "tout", "vel", "grifo", "literal", "valor", "rotulo", "nome", "pontos", "linhas", "selo", "nota",

@@ -10,7 +10,7 @@
  {
   "id": "B01b",
   "texto": "Read line (a). \"4 CV sunk – Akagi, Kaga, Soryu, Hiryu – with the loss of all their planes and many of their personnel.\" Four Japanese aircraft carriers, gone.",
-  "texto_voz": "Read line (a). \"4 CV sunk – Akagi, Kaga, Soryu, Hiryu – with the loss of all their planes and many of their personnel.\" Four Japanese aircraft carriers, gone.",
+  "texto_voz": "Read line A. \"Four C-V sunk. Ah-kah-gee, Kaga, Soryu, Hiryu. With the loss of all their planes and many of their personnel.\" Four Japanese aircraft carriers, gone.",
   "ideia": false,
   "inicio_est": 10.0,
   "dur_est": 11.6
@@ -154,7 +154,7 @@
  {
   "id": "B05b",
   "texto": "But at Pearl Harbor, a Navy codebreaking unit called Station Hypo was reading parts of the Japanese navy's code. The intercepts kept pointing to a target called \"AF.\" The unit's commander, Joseph Rochefort, was sure AF was Midway. Washington wasn't convinced.",
-  "texto_voz": "But at Pearl Harbor, a Navy codebreaking unit called Station Hypo was reading parts of the Japanese navy's code. The intercepts kept pointing to a target called \"AF.\" The unit's commander, Joseph Rochefort, was sure AF was Midway. Washington wasn't convinced.",
+  "texto_voz": "But at Pearl Harbor, a Navy codebreaking unit called Station Hypo was reading parts of the Japanese navy's code. The intercepts kept pointing to a target called \"A-F.\" The unit's commander, Joseph Rochefort, was sure A-F was Midway. Washington wasn't convinced.",
   "ideia": false,
   "inicio_est": 216.0,
   "dur_est": 16.4
@@ -170,7 +170,7 @@
  {
   "id": "B05d",
   "texto": "Japanese listeners took the bait and passed the news along. Hypo decoded that, too. AF was short of water.",
-  "texto_voz": "Japanese listeners took the bait and passed the news along. Hypo decoded that, too. AF was short of water.",
+  "texto_voz": "Japanese listeners took the bait and passed the news along. Hypo decoded that, too. A-F was short of water.",
   "ideia": false,
   "inicio_est": 248.8,
   "dur_est": 7.6
@@ -290,7 +290,7 @@
  {
   "id": "B09b",
   "texto": "Then, at 10:20 that morning, forty-eight American dive bombers showed up overhead. Two squadrons from Enterprise and one from Yorktown arrived at almost the same moment, by pure coincidence.",
-  "texto_voz": "Then, at 10:20 that morning, forty-eight American dive bombers showed up overhead. Two squadrons from Enterprise and one from Yorktown arrived at almost the same moment, by pure coincidence.",
+  "texto_voz": "Then, at ten twenty that morning, forty-eight American dive bombers showed up overhead. Two squadrons from Enterprise and one from Yorktown arrived at almost the same moment, by pure coincidence.",
   "ideia": false,
   "inicio_est": 434.8,
   "dur_est": 11.6
@@ -298,7 +298,7 @@
  {
   "id": "B09c",
   "texto": "In about five minutes, Akagi, Kaga and Soryu were wrecks on fire.",
-  "texto_voz": "In about five minutes, Akagi, Kaga and Soryu were wrecks on fire.",
+  "texto_voz": "In about five minutes, Ah-kah-gee, Kaga, and Soryu were wrecks on fire.",
   "ideia": false,
   "inicio_est": 446.4,
   "dur_est": 4.8
@@ -330,7 +330,7 @@
  {
   "id": "B10b",
   "texto": "Then, on June 6th, the Japanese submarine I-168 put torpedoes into the Yorktown and the destroyer Hammann beside her. Hammann sank almost at once. Yorktown went down the next morning.",
-  "texto_voz": "Then, on June 6th, the Japanese submarine I-168 put torpedoes into the Yorktown and the destroyer Hammann beside her. Hammann sank almost at once. Yorktown went down the next morning.",
+  "texto_voz": "Then, on June 6th, the Japanese submarine I-one sixty-eight put torpedoes into the Yorktown and the destroyer Hammann beside her. Hammann sank almost at once. Yorktown went down the next morning.",
   "ideia": false,
   "inicio_est": 477.6,
   "dur_est": 12.0
@@ -346,7 +346,7 @@
  {
   "id": "B10d",
   "texto": "Now go back to Nimitz's page. Line (c). \"2 CA sunk – Mogami, Mikuma.\" One of those two cruisers didn't sink. Hold on to that.",
-  "texto_voz": "Now go back to Nimitz's page. Line (c). \"2 CA sunk – Mogami, Mikuma.\" One of those two cruisers didn't sink. Hold on to that.",
+  "texto_voz": "Now go back to Nimitz's page. Line C. \"Two C-A sunk. Mogami, Mikuma.\" One of those two cruisers didn't sink. Hold on to that.",
   "ideia": true,
   "inicio_est": 496.8,
   "dur_est": 10.0
@@ -402,7 +402,7 @@
  {
   "id": "B12a",
   "texto": "On October 31st, 1996, President Bill Clinton signed Executive Order 13022. It moved Midway from the Navy to the Department of the Interior.",
-  "texto_voz": "On October 31st, 1996, President Bill Clinton signed Executive Order 13022. It moved Midway from the Navy to the Department of the Interior.",
+  "texto_voz": "On October 31st, 1996, President Bill Clinton signed Executive Order thirteen-oh-twenty-two. It moved Midway from the Navy to the Department of the Interior.",
   "ideia": true,
   "inicio_est": 569.6,
   "dur_est": 9.2
@@ -602,7 +602,7 @@
  {
   "id": "B19a",
   "texto": "And the battle itself? It's still out there, just not on the island. Remember line (a). Four carriers sunk. For decades, nobody knew exactly where they lay.",
-  "texto_voz": "And the battle itself? It's still out there, just not on the island. Remember line (a). Four carriers sunk. For decades, nobody knew exactly where they lay.",
+  "texto_voz": "And the battle itself? It's still out there, just not on the island. Remember line A. Four carriers sunk. For decades, nobody knew exactly where they lay.",
   "ideia": true,
   "inicio_est": 917.6,
   "dur_est": 10.8
@@ -610,7 +610,7 @@
  {
   "id": "B19b",
   "texto": "In 1998, an expedition led by Robert Ballard, with the Navy and National Geographic, found the Yorktown, about three miles down. In October 2019, the research ship Petrel found the Kaga at around 5,400 meters, more than 17,000 feet. Days later, it found the Akagi.",
-  "texto_voz": "In 1998, an expedition led by Robert Ballard, with the Navy and National Geographic, found the Yorktown, about three miles down. In October 2019, the research ship Petrel found the Kaga at around 5,400 meters, more than 17,000 feet. Days later, it found the Akagi.",
+  "texto_voz": "In 1998, an expedition led by Robert Ballard, with the Navy and National Geographic, found the Yorktown, about three miles down. In October 2019, the research ship Petrel found the Kaga at around 5,400 meters, more than 17,000 feet. Days later, it found the Ah-kah-gee.",
   "ideia": false,
   "inicio_est": 928.4,
   "dur_est": 18.0
@@ -626,7 +626,7 @@
  {
   "id": "B19d",
   "texto": "And line (c)? There's no Mogami down there. She survived Midway. The page was wrong about her. The ocean keeps a better record than the paper does.",
-  "texto_voz": "And line (c)? There's no Mogami down there. She survived Midway. The page was wrong about her. The ocean keeps a better record than the paper does.",
+  "texto_voz": "And line C? There's no Mogami down there. She survived Midway. The page was wrong about her. The ocean keeps a better record than the paper does.",
   "ideia": true,
   "inicio_est": 963.6,
   "dur_est": 10.8
