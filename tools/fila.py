@@ -150,7 +150,7 @@ def disparar(con, job, dry, retomada=False):
         cmd = [str(REPO / "tools/job_api.sh"), brief, job["log"], "--modelo", job["modelo"]]
     else:
         prompt = (f"Continue o brief {brief} de onde parou; tudo em primeiro plano" if retomada else f"Execute o brief em {brief}")
-        cmd = ["claude", "-p", prompt, "--model", job["modelo"], "--max-turns", "400", "--allowedTools", ",".join(TOOLS)]
+        cmd = [str(Path.home() / ".local/bin/claude"), "-p", prompt, "--model", job["modelo"], "--max-turns", "400", "--allowedTools", ",".join(TOOLS)]
         if retomada:
             cmd += ["--resume", job["session_id"]]
     full = ["systemd-run", "--user", "--scope", f"--unit={unit}", "-p", "MemoryMax=3500M", "-p", "MemorySwapMax=512M", "-q"] + cmd
