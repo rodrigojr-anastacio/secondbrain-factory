@@ -1,0 +1,56 @@
+TÍTULOS (3, pareados às thumbs para o 'Testar e comparar')
+A. Por que o Brasil teve seca e enchente no mesmo ano?   ←  thumb-A.jpg · MESMO ANO
+B. O El Niño de 1983 que partiu o Brasil ao meio   ←  thumb-B.jpg · 1983 (satélite de ago/1983)
+C. E se o El Niño de 1983 voltar em 2026?   ←  thumb-C.jpg · 1983 → 2026?
+
+TÍTULO PRINCIPAL (A): Por que o Brasil teve seca e enchente no mesmo ano?
+
+DESCRIÇÃO
+Julho de 1983: o rio Iguaçu chega a 10,42 metros em União da Vitória (PR) e cobre a cidade. Em Blumenau (SC), o Itajaí-Açu passa dos 15 metros pela terceira vez no ano. A 2.500 quilômetros dali, o sertão do Ceará vive o quinto ano de uma seca que começou em 1979: em agosto, 5 mil flagelados invadem um armazém de comida em Canindé. Foi o mesmo El Niño puxando o Brasil para os dois lados. Neste vídeo, no mapa 3D com relevo real, a gente responde 4 perguntas: o que aconteceu no Sul, o que aconteceu no sertão, por que os dois ao mesmo tempo (o El Niño de 1982-83, o mais forte desde 1950 no índice RONI da NOAA) e o que 1983 diz sobre 2026 (boletim da NOAA de 12/11/2026: cerca de 60% de chance de um El Niño histórico, sem prever enchente nem seca).
+
+CAPÍTULOS
+0:00 União da Vitória, julho de 1983
+0:47 A pergunta: o mesmo país, o mesmo ano
+1:23 O que aconteceu no Sul
+3:27 O que aconteceu no sertão
+5:07 Por que os dois ao mesmo tempo
+7:20 E em 2026?
+9:19 A resposta
+
+Observações: números de Santa Catarina (78 municípios em calamidade, 49 mortos, quase 200 mil desabrigados) são do levantamento da geógrafa Maria Lúcia Herrmann (UFSC); o de Canindé e os 10 milhões de flagelados vêm do Memorial da Democracia; não existe número oficial confiável de mortos pela seca de 1983, por isso o vídeo não cita nenhum. Fotos de outros anos levam o ano na legenda; não há foto livre da enchente nem da seca de 1983. As imagens de satélite de 3 de julho e 4 de agosto de 1983 são do Landsat 4 (USGS), com o mesmo tratamento de cor nas duas datas. A linha do tempo do rio usa a cota diária da ANA (estação 65310000). Trajetos e posição dos rios no mapa são aproximados.
+
+Veja também o vídeo anterior do canal sobre o El Niño de 2026: https://youtu.be/FeSLzHvlkbo
+
+FONTES
+ANA HidroWeb (cota diária do Iguaçu em União da Vitória, estação 65310000; chuva de Mombaça, estação 00539001, DNOCS) · Defesa Civil do Paraná, "Enchente de União da Vitória de 1983" · Defesa Civil de Blumenau, "Enchentes registradas" · Herrmann (2001), via Revista Brasileira de Geografia Física · Memorial da Democracia, "País descobre a tragédia da seca" (12/08/1983) · SUDENE, via Revista de Economia Política (SciELO) · NOAA/CPC (índice RONI e boletim ENSO de 12/11/2026) · Kousky e Cavalcanti (1984, INPE) · Grimm et al. (UFPR) · INMET (outubro de 2026) · Funceme · ASA/P1MC (cisternas) · NOAA ERSSTv5 · NOAA ETOPO 2022 e NASA Blue Marble (relevo e satélite) · IBGE / Natural Earth (limites).
+
+CRÉDITOS DAS IMAGENS (fotos cortadas/redimensionadas, sem outra alteração)
+- NASA/USGS Landsat 4 MSS, domínio público, processado pela produção · UNIÃO DA VITÓRIA · LANDSAT 4 · 3 JUL 1983
+- charles242 / Wikimedia Commons, CC BY 3.0 · BLUMENAU · CENTRO E RIO ITAJAÍ-AÇU · 2010
+- Porto Neto / Wikimedia Commons, CC BY-SA 4.0 · AÇUDE SECO · SANTA QUITÉRIA (CE) · 2018
+- Marcosmoreira / Wikimedia Commons, CC BY-SA 3.0 · UNIÃO DA VITÓRIA · RIO IGUAÇU · 2009
+- Roberto de vasconcel… / Wikimedia Commons, CC BY-SA 3.0 · UNIÃO DA VITÓRIA E PORTO UNIÃO · 2014
+- NASA/USGS Landsat 4 MSS, domínio público, processado pela produção · UNIÃO DA VITÓRIA · LANDSAT 4 · 4 AGO 1983
+- W.Feistler / Wikimedia Commons, CC BY-SA 3.0 · BLUMENAU · RIO ITAJAÍ-AÇU EM ESTIAGEM · 2006
+- Cristian Janke / Wikimedia Commons, CC BY-SA 2.0 · BLUMENAU · ENCHENTE DE 2008
+- AndersonPv / Wikimedia Commons, CC0 · AÇUDE DE COREMAS (PB) · SECA · 2017
+- Centro de Memória - Unicamp / Wikimedia Commons, CC BY-SA 4.0 · RETIRANTES · PERNAMBUCO · FOTO DE ACERVO (SEM DATA)
+- Marina P P Lima / Wikimedia Commons, CC BY-SA 4.0 · SERTÃO · CAATINGA NA ESTIAGEM · 2013
+- Maulucioni / Wikimedia Commons, CC BY-SA 4.0 · PACÍFICO · JAN 1983
+- NOAA NWS/NCEP Climate Prediction Center / Wikimedia Commons, Public domain · NOAA · IMPACTOS DO EL NIÑO · JUN–AGO
+- Clarinda Aparecida Iuskiu / Wikimedia Commons, CC BY-SA 4.0 · UNIÃO DA VITÓRIA · RIO IGUAÇU · 2016
+- Marcello Casal Jr/Agência Brasil / Wikimedia Commons, CC BY 3.0 br · SOBRADINHO (BA) · RESERVATÓRIO BAIXO · 2015
+
+MÚSICA
+Kevin MacLeod (incompetech.com): "Echoes of Time", "Ossuary 6 - Air" e "Frozen Star", licença Creative Commons BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+
+Narração sintética (ElevenLabs) sobre texto e pesquisa do canal.
+
+TAGS
+El Niño 1983, El Niño, El Niño 2026, enchente de 1983, União da Vitória, Blumenau, rio Iguaçu, Itajaí-Açu, seca de 1983, seca no Nordeste, sertão, Mombaça, Canindé, clima do Brasil, Landsat, NOAA, história do clima, Em Relevo
+
+CATEGORIA: Educação (27)
+Idioma do vídeo: português (Brasil) · legendas: legendas.srt
+Conteúdo alterado ou sintético: SIM para a voz (narração sintética); mapas e gráficos são animação de dados; fotos reais com corte/redimensionamento.
+Não é para crianças.
+Lembretes ao publicar: marcar 'Testar e comparar' com as 3 thumbs; sem card de próximo vídeo (regra do Rodrigo 13/11); cartão/descrição puxando o vídeo do El Niño 2026 (FeSLzHvlkbo, já publicado); conferir a licença do slide 'Retirantes' (Unicamp) na página.

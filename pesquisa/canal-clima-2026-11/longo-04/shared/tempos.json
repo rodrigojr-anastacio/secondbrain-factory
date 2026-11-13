@@ -1,0 +1,1078 @@
+{
+ "duracao": 606.868,
+ "voz": "eleven",
+ "slot": null,
+ "blocos": [
+  {
+   "id": "b01",
+   "s": 0.15,
+   "e": 12.833,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 0.15,
+     "e": 1.91,
+     "txt": "União da Vitória, no Paraná. Julho de mil novecentos e oitenta e três."
+    },
+    {
+     "s": 3.79,
+     "e": 6.15,
+     "txt": "Normalmente, o rio Iguaçu passa ali com uns dois metros e meio."
+    },
+    {
+     "s": 6.57,
+     "e": 9.47,
+     "txt": "No dia dezoito, ele chegou a dez metros e quarenta e dois centímetros."
+    },
+    {
+     "s": 10.03,
+     "e": 12.833,
+     "txt": "A água cobriu a cidade. Dezoito pessoas morreram."
+    }
+   ]
+  },
+  {
+   "id": "b02",
+   "s": 14.183,
+   "e": 21.661,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 14.183,
+     "e": 18.163,
+     "txt": "Uns duzentos quilômetros a leste, em Blumenau, o Itajaí-Açu passou dos quinze metros."
+    },
+    {
+     "s": 18.483,
+     "e": 20.083,
+     "txt": "Era a terceira cheia do rio naquele ano."
+    },
+    {
+     "s": 20.483,
+     "e": 21.661,
+     "txt": "E ainda viria uma quarta."
+    }
+   ]
+  },
+  {
+   "id": "b03",
+   "s": 23.011,
+   "e": 36.233,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 23.011,
+     "e": 25.891,
+     "txt": "Agora, suba dois mil e quinhentos quilômetros no mapa."
+    },
+    {
+     "s": 27.091,
+     "e": 28.431,
+     "txt": "Sertão do Ceará, no mesmo ano."
+    },
+    {
+     "s": 28.931,
+     "e": 32.191,
+     "txt": "Em Mombaça, o pluviômetro marcou menos da metade da chuva normal."
+    },
+    {
+     "s": 32.711,
+     "e": 36.233,
+     "txt": "Era o quinto ano de uma seca que tinha começado em mil novecentos e setenta e nove."
+    }
+   ]
+  },
+  {
+   "id": "b04",
+   "s": 37.583,
+   "e": 46.179,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 37.583,
+     "e": 43.283,
+     "txt": "Em agosto, segundo o Memorial da Democracia, cinco mil flagelados invadiram um armazém de comida do governo em Canindé, no Ceará."
+    },
+    {
+     "s": 43.583,
+     "e": 46.179,
+     "txt": "No Nordeste, já eram dez milhões de flagelados."
+    }
+   ]
+  },
+  {
+   "id": "b05",
+   "s": 47.529,
+   "e": 58.121,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 47.529,
+     "e": 49.209,
+     "txt": "O mesmo país. O mesmo ano."
+    },
+    {
+     "s": 49.589,
+     "e": 52.549,
+     "txt": "Uma parte com água demais. A outra sem água nenhuma."
+    },
+    {
+     "s": 53.109,
+     "e": 58.121,
+     "txt": "E agora, com o El Niño de dois mil e vinte e seis, muita gente pergunta: isso pode acontecer de novo?"
+    }
+   ]
+  },
+  {
+   "id": "b06",
+   "s": 58.541,
+   "e": 67.077,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 58.541,
+     "e": 60.281,
+     "txt": "Isso nos leva às seguintes perguntas."
+    },
+    {
+     "s": 60.601,
+     "e": 61.541,
+     "txt": "O que aconteceu no Sul?"
+    },
+    {
+     "s": 61.981,
+     "e": 62.961,
+     "txt": "O que aconteceu no sertão?"
+    },
+    {
+     "s": 63.701,
+     "e": 64.741,
+     "txt": "Por que os dois ao mesmo tempo?"
+    },
+    {
+     "s": 64.961,
+     "e": 67.077,
+     "txt": "E o que isso diz sobre dois mil e vinte e seis?"
+    }
+   ]
+  },
+  {
+   "id": "b07",
+   "s": 67.497,
+   "e": 82.493,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 67.497,
+     "e": 69.097,
+     "txt": "Mas antes, olhe o mapa."
+    },
+    {
+     "s": 69.657,
+     "e": 72.937,
+     "txt": "O Sul recebe chuva o ano inteiro, trazida pelas frentes frias."
+    },
+    {
+     "s": 73.637,
+     "e": 77.297,
+     "txt": "O sertão depende de poucos meses de chuva, de fevereiro a maio."
+    },
+    {
+     "s": 77.937,
+     "e": 82.493,
+     "txt": "Em mil novecentos e oitenta e três, os dois foram empurrados para extremos opostos."
+    }
+   ]
+  },
+  {
+   "id": "b08",
+   "s": 83.843,
+   "e": 96.038,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 83.843,
+     "e": 84.963,
+     "txt": "Comece pelo Iguaçu."
+    },
+    {
+     "s": 85.603,
+     "e": 89.183,
+     "txt": "Ele nasce perto de Curitiba e corre para o oeste, até as Cataratas."
+    },
+    {
+     "s": 89.603,
+     "e": 93.063,
+     "txt": "Em União da Vitória, ele faz curvas largas numa várzea plana."
+    },
+    {
+     "s": 93.543,
+     "e": 96.038,
+     "txt": "E a cidade cresceu dentro dessas curvas."
+    }
+   ]
+  },
+  {
+   "id": "b09",
+   "s": 96.738,
+   "e": 110.857,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 96.738,
+     "e": 98.038,
+     "txt": "A chuva começou cedo."
+    },
+    {
+     "s": 98.518,
+     "e": 102.618,
+     "txt": "Em novembro de mil novecentos e oitenta e dois, o rio já tinha passado dos seis metros."
+    },
+    {
+     "s": 103.318,
+     "e": 105.218,
+     "txt": "Em maio de oitenta e três, de novo."
+    },
+    {
+     "s": 105.838,
+     "e": 110.857,
+     "txt": "No começo de julho, ele estava em quase cinco metros. Cheio, mas sob controle."
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "s": 111.557,
+   "e": 124.933,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 111.557,
+     "e": 113.677,
+     "txt": "Aí veio uma semana inteira de chuva."
+    },
+    {
+     "s": 114.597,
+     "e": 117.617,
+     "txt": "Segundo a Defesa Civil do Paraná, choveram uns oitocentos milímetros."
+    },
+    {
+     "s": 118.197,
+     "e": 120.697,
+     "txt": "A média de junho e julho, somados, é de cento e trinta e oito."
+    },
+    {
+     "s": 122.237,
+     "e": 124.933,
+     "txt": "Quase seis vezes mais, em uma semana."
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "s": 125.633,
+   "e": 137.579,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 125.633,
+     "e": 126.513,
+     "txt": "O rio respondeu."
+    },
+    {
+     "s": 126.973,
+     "e": 134.593,
+     "txt": "Em quinze dias, subiu mais de cinco metros e meio, até os dez metros e quarenta e dois, no dia dezoito de julho."
+    },
+    {
+     "s": 134.673,
+     "e": 137.579,
+     "txt": "E ficou acima dos seis metros por mais de um mês."
+    }
+   ]
+  },
+  {
+   "id": "b12",
+   "s": 138.279,
+   "e": 149.859,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 138.279,
+     "e": 142.099,
+     "txt": "A cidade ficou sem luz, sem água potável e sem comida chegando."
+    },
+    {
+     "s": 142.679,
+     "e": 145.739,
+     "txt": "Mais de duas mil e quatrocentas famílias ficaram desamparadas."
+    },
+    {
+     "s": 146.359,
+     "e": 149.859,
+     "txt": "Muitas foram para a casa de parentes. A maioria, para abrigos."
+    }
+   ]
+  },
+  {
+   "id": "b13",
+   "s": 150.559,
+   "e": 167.733,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 150.559,
+     "e": 152.459,
+     "txt": "Do espaço, dá para ver o tamanho disso."
+    },
+    {
+     "s": 152.919,
+     "e": 158.199,
+     "txt": "Este é o satélite Landsat 4 sobre União da Vitória no dia três de julho, antes da cheia grande."
+    },
+    {
+     "s": 158.839,
+     "e": 165.539,
+     "txt": "E este é o mesmo lugar no dia quatro de agosto, mais de duas semanas depois do pico, com o rio ainda acima dos sete metros."
+    },
+    {
+     "s": 166.119,
+     "e": 167.733,
+     "txt": "A várzea virou um lago."
+    }
+   ]
+  },
+  {
+   "id": "b14",
+   "s": 168.433,
+   "e": 176.924,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 168.433,
+     "e": 171.353,
+     "txt": "No vale do Itajaí, em Santa Catarina, o problema é outro."
+    },
+    {
+     "s": 171.893,
+     "e": 173.553,
+     "txt": "O rio corre apertado entre morros."
+    },
+    {
+     "s": 173.933,
+     "e": 176.924,
+     "txt": "Quando enche, não tem para onde se espalhar. Sobe."
+    }
+   ]
+  },
+  {
+   "id": "b15",
+   "s": 177.624,
+   "e": 190.512,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 177.624,
+     "e": 181.924,
+     "txt": "Em Blumenau, a régua do Itajaí-Açu passou dos dez metros em março."
+    },
+    {
+     "s": 182.164,
+     "e": 183.524,
+     "txt": "Dos doze, em maio."
+    },
+    {
+     "s": 183.964,
+     "e": 187.764,
+     "txt": "No dia nove de julho, chegou a quinze metros e trinta e quatro centímetros."
+    },
+    {
+     "s": 188.284,
+     "e": 190.512,
+     "txt": "E, em setembro, o rio encheu de novo."
+    }
+   ]
+  },
+  {
+   "id": "b16",
+   "s": 191.212,
+   "e": 206.877,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 191.212,
+     "e": 193.332,
+     "txt": "Santa Catarina inteira foi atingida."
+    },
+    {
+     "s": 193.652,
+     "e": 202.492,
+     "txt": "Segundo um levantamento da geógrafa Maria Lúcia Herrmann, da Universidade Federal de Santa Catarina, setenta e oito municípios decretaram calamidade pública em julho."
+    },
+    {
+     "s": 202.792,
+     "e": 206.877,
+     "txt": "Foram quarenta e nove mortos e quase duzentos mil desabrigados."
+    }
+   ]
+  },
+  {
+   "id": "b17",
+   "s": 208.227,
+   "e": 216.529,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 208.227,
+     "e": 209.727,
+     "txt": "Agora, o sertão."
+    },
+    {
+     "s": 210.427,
+     "e": 212.547,
+     "txt": "Lá, a seca não tinha começado em oitenta e três."
+    },
+    {
+     "s": 213.867,
+     "e": 216.529,
+     "txt": "Ela vinha desde mil novecentos e setenta e nove."
+    }
+   ]
+  },
+  {
+   "id": "b18",
+   "s": 217.229,
+   "e": 238.077,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 217.229,
+     "e": 221.409,
+     "txt": "Mombaça, no centro do Ceará, tem um pluviômetro do Dnócs que mede a chuva desde mil novecentos e dez."
+    },
+    {
+     "s": 223.189,
+     "e": 226.309,
+     "txt": "Na média, chove ali uns setecentos e oitenta milímetros por ano."
+    },
+    {
+     "s": 226.769,
+     "e": 228.149,
+     "txt": "Em oitenta e um, choveram quatrocentos e setenta e dois."
+    },
+    {
+     "s": 230.269,
+     "e": 230.389,
+     "txt": "Em oitenta e dois, quatrocentos e sete."
+    },
+    {
+     "s": 233.349,
+     "e": 238.077,
+     "txt": "E em oitenta e três, trezentos e sessenta e seis. Menos da metade."
+    }
+   ]
+  },
+  {
+   "id": "b19",
+   "s": 238.777,
+   "e": 251.287,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 238.777,
+     "e": 240.857,
+     "txt": "No sertão, um ano ruim se aguenta."
+    },
+    {
+     "s": 241.297,
+     "e": 242.217,
+     "txt": "Três seguidos, não."
+    },
+    {
+     "s": 242.797,
+     "e": 246.917,
+     "txt": "No primeiro, a roça falha. No segundo, acaba o que estava guardado."
+    },
+    {
+     "s": 247.477,
+     "e": 251.287,
+     "txt": "No terceiro, secam os açudes pequenos e o gado começa a morrer."
+    }
+   ]
+  },
+  {
+   "id": "b20",
+   "s": 251.987,
+   "e": 268.869,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 251.987,
+     "e": 259.347,
+     "txt": "Sem colheita, o que sobrava era o trabalho que o governo oferecia nas frentes de emergência: obras de açude, de estrada e de poço."
+    },
+    {
+     "s": 259.867,
+     "e": 265.567,
+     "txt": "Pelos números da Sudene, em mil novecentos e oitenta e três, mais de três milhões de pessoas se alistaram nelas."
+    },
+    {
+     "s": 266.047,
+     "e": 268.869,
+     "txt": "Em setenta e nove, tinham sido menos de quinhentas mil."
+    }
+   ]
+  },
+  {
+   "id": "b21",
+   "s": 269.569,
+   "e": 284.789,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 269.569,
+     "e": 271.609,
+     "txt": "Em agosto, a fome virou revolta."
+    },
+    {
+     "s": 272.769,
+     "e": 276.649,
+     "txt": "Flagelados ocuparam a sede do governo do Ceará, em Fortaleza, pedindo comida."
+    },
+    {
+     "s": 277.129,
+     "e": 284.789,
+     "txt": "Dois dias depois, em Canindé, a multidão invadiu o armazém da Cobal, a companhia de abastecimento do governo, e levou os alimentos."
+    }
+   ]
+  },
+  {
+   "id": "b22",
+   "s": 285.489,
+   "e": 299.121,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 285.489,
+     "e": 286.589,
+     "txt": "Quantas pessoas morreram?"
+    },
+    {
+     "s": 287.029,
+     "e": 287.809,
+     "txt": "Ninguém contou."
+    },
+    {
+     "s": 288.309,
+     "e": 292.969,
+     "txt": "Não existe um número oficial confiável, e as estimativas que circulam variam demais."
+    },
+    {
+     "s": 293.729,
+     "e": 299.121,
+     "txt": "Mas os relatos da época falam de muitas crianças mortas de fome e de doenças da desnutrição."
+    }
+   ]
+  },
+  {
+   "id": "b23",
+   "s": 299.821,
+   "e": 306.795,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 299.821,
+     "e": 302.561,
+     "txt": "Foi uma das maiores secas do século vinte no Brasil."
+    },
+    {
+     "s": 303.161,
+     "e": 306.795,
+     "txt": "Só em mil novecentos e oitenta e quatro a chuva voltou ao normal."
+    }
+   ]
+  },
+  {
+   "id": "b24",
+   "s": 308.145,
+   "e": 316.063,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 308.145,
+     "e": 311.385,
+     "txt": "Então, por que o Brasil teve as duas coisas no mesmo ano?"
+    },
+    {
+     "s": 312.205,
+     "e": 313.645,
+     "txt": "A resposta não está no Brasil."
+    },
+    {
+     "s": 314.025,
+     "e": 316.063,
+     "txt": "Está no meio do oceano Pacífico."
+    }
+   ]
+  },
+  {
+   "id": "b25",
+   "s": 316.763,
+   "e": 333.941,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 316.763,
+     "e": 323.443,
+     "txt": "Entre oitenta e dois e oitenta e três, o Pacífico tropical esquentou como nunca, desde que as medições modernas começaram, em mil novecentos e cinquenta."
+    },
+    {
+     "s": 325.323,
+     "e": 331.723,
+     "txt": "Pelo índice que a NOAA usa hoje para comparar El Niños, aquele chegou a dois graus e quatro décimos acima do normal."
+    },
+    {
+     "s": 332.303,
+     "e": 333.941,
+     "txt": "Até hoje, é o recorde."
+    }
+   ]
+  },
+  {
+   "id": "b26",
+   "s": 334.641,
+   "e": 347.407,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 334.641,
+     "e": 337.841,
+     "txt": "No nosso vídeo sobre o El Niño, a gente mostrou como isso funciona."
+    },
+    {
+     "s": 338.381,
+     "e": 340.861,
+     "txt": "O ar sobe em cima da água quente do Pacífico."
+    },
+    {
+     "s": 340.861,
+     "e": 344.821,
+     "txt": "E desce em outros lugares. Um deles é o norte do Nordeste."
+    },
+    {
+     "s": 345.401,
+     "e": 347.407,
+     "txt": "E ar que desce não forma nuvem."
+    }
+   ]
+  },
+  {
+   "id": "b27",
+   "s": 348.107,
+   "e": 359.88,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 348.107,
+     "e": 349.527,
+     "txt": "E o calendário piorou tudo."
+    },
+    {
+     "s": 350.087,
+     "e": 352.367,
+     "txt": "O pico do El Niño foi em dezembro e janeiro."
+    },
+    {
+     "s": 352.667,
+     "e": 355.987,
+     "txt": "Bem na entrada da época de chuva do sertão, de fevereiro a maio."
+    },
+    {
+     "s": 356.307,
+     "e": 359.88,
+     "txt": "O inverno do sertanejo veio fraco, pelo terceiro ano seguido."
+    }
+   ]
+  },
+  {
+   "id": "b28",
+   "s": 360.58,
+   "e": 377.905,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 360.58,
+     "e": 362.24,
+     "txt": "No Sul, acontece o contrário."
+    },
+    {
+     "s": 362.56,
+     "e": 366.7,
+     "txt": "O El Niño reforça uma corrente de vento lá no alto, o jato subtropical."
+    },
+    {
+     "s": 367.16,
+     "e": 370.36,
+     "txt": "Ele segura as frentes frias e as tempestades em cima da região."
+    },
+    {
+     "s": 370.94,
+     "e": 377.905,
+     "txt": "E, em oitenta e três, um estudo do Inpe também encontrou bloqueios: o tempo travado no mesmo lugar, chovendo por dias."
+    }
+   ]
+  },
+  {
+   "id": "b29",
+   "s": 378.605,
+   "e": 391.491,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 378.605,
+     "e": 380.965,
+     "txt": "E aqui tem um detalhe que quase ninguém percebe."
+    },
+    {
+     "s": 381.445,
+     "e": 386.405,
+     "txt": "Em julho de oitenta e três, quando o Iguaçu bateu os dez metros, o Pacífico já estava esfriando."
+    },
+    {
+     "s": 386.925,
+     "e": 388.285,
+     "txt": "O El Niño estava acabando."
+    },
+    {
+     "s": 388.905,
+     "e": 391.491,
+     "txt": "E mesmo assim, a pior enchente veio ali."
+    }
+   ]
+  },
+  {
+   "id": "b30",
+   "s": 392.191,
+   "e": 411.906,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 392.191,
+     "e": 393.251,
+     "txt": "Isso tem explicação."
+    },
+    {
+     "s": 393.731,
+     "e": 401.811,
+     "txt": "No Sul do Brasil, o El Niño costuma trazer chuva a mais em duas épocas: na primavera em que ele começa, e no outono e no inverno do ano seguinte."
+    },
+    {
+     "s": 402.551,
+     "e": 407.391,
+     "txt": "Foi o que aconteceu: cheia em novembro de oitenta e dois, cheias em maio e julho de oitenta e três."
+    },
+    {
+     "s": 408.731,
+     "e": 411.906,
+     "txt": "Guarde isso. Vai importar em dois mil e vinte e seis."
+    }
+   ]
+  },
+  {
+   "id": "b31",
+   "s": 412.606,
+   "e": 423.772,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 412.606,
+     "e": 418.566,
+     "txt": "Ou seja, o mesmo aquecimento do Pacífico desligou a chuva no sertão e ligou a chuva no Sul."
+    },
+    {
+     "s": 419.106,
+     "e": 423.772,
+     "txt": "Duas pontas do mesmo fenômeno, a dois mil e quinhentos quilômetros uma da outra."
+    }
+   ]
+  },
+  {
+   "id": "b32",
+   "s": 424.472,
+   "e": 440.025,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 424.472,
+     "e": 425.932,
+     "txt": "Mas o clima não explica tudo."
+    },
+    {
+     "s": 426.472,
+     "e": 430.252,
+     "txt": "No sertão, sofreu mais quem não tinha água guardada nem outra renda."
+    },
+    {
+     "s": 430.772,
+     "e": 433.392,
+     "txt": "No Sul, quem morava na várzea, colado no rio."
+    },
+    {
+     "s": 433.912,
+     "e": 440.025,
+     "txt": "O El Niño escolheu os lugares. A forma como a gente ocupa esses lugares escolheu quem ia sofrer mais."
+    }
+   ]
+  },
+  {
+   "id": "b33",
+   "s": 441.375,
+   "e": 447.239,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 441.375,
+     "e": 442.215,
+     "txt": "E a última pergunta."
+    },
+    {
+     "s": 442.935,
+     "e": 447.239,
+     "txt": "O que mil novecentos e oitenta e três diz sobre dois mil e vinte e seis?"
+    }
+   ]
+  },
+  {
+   "id": "b34",
+   "s": 447.939,
+   "e": 467.808,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 447.939,
+     "e": 450.179,
+     "txt": "O El Niño deste ano já é muito forte."
+    },
+    {
+     "s": 450.679,
+     "e": 456.819,
+     "txt": "No boletim de doze de novembro, a NOAA mediu a região que define o El Niño dois graus e meio acima do normal."
+    },
+    {
+     "s": 456.819,
+     "e": 461.919,
+     "txt": "E calculou cerca de sessenta por cento de chance de ele virar o mais forte desde mil novecentos e cinquenta."
+    },
+    {
+     "s": 463.919,
+     "e": 467.808,
+     "txt": "Ou seja: é mais provável que sim. Mas não é certeza."
+    }
+   ]
+  },
+  {
+   "id": "b35",
+   "s": 468.508,
+   "e": 486.903,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 468.508,
+     "e": 469.748,
+     "txt": "E o Sul já sentiu."
+    },
+    {
+     "s": 470.228,
+     "e": 480.488,
+     "txt": "Em outubro, o Inmet registrou chuva recorde na região, com quase seiscentos milímetros no mês em Laranjeiras do Sul, no Paraná, e em Dionísio Cerqueira, em Santa Catarina."
+    },
+    {
+     "s": 481.048,
+     "e": 486.903,
+     "txt": "E, no começo de novembro, temporais causaram estragos em cinquenta e quatro cidades catarinenses."
+    }
+   ]
+  },
+  {
+   "id": "b36",
+   "s": 487.603,
+   "e": 506.277,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 487.603,
+     "e": 489.203,
+     "txt": "Agora, lembra do detalhe de oitenta e três?"
+    },
+    {
+     "s": 490.483,
+     "e": 493.423,
+     "txt": "A pior enchente veio quando o El Niño já estava acabando."
+    },
+    {
+     "s": 493.863,
+     "e": 497.103,
+     "txt": "A NOAA prevê que o de agora comece a enfraquecer no início de dois mil e vinte e sete."
+    },
+    {
+     "s": 498.683,
+     "e": 506.277,
+     "txt": "Isso não é previsão de enchente. Mas, pelo que oitenta e três mostrou, o outono e o inverno do ano que vem também merecem atenção no Sul."
+    }
+   ]
+  },
+  {
+   "id": "b37",
+   "s": 506.977,
+   "e": 526.192,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 506.977,
+     "e": 507.257,
+     "txt": "E o sertão?"
+    },
+    {
+     "s": 508.217,
+     "e": 515.737,
+     "txt": "A previsão oficial para novembro, dezembro e janeiro é de chuva abaixo da média em áreas do Nordeste, principalmente no norte da região."
+    },
+    {
+     "s": 516.277,
+     "e": 519.677,
+     "txt": "Mas o que decide é a época de chuva de fevereiro a maio de dois mil e vinte e sete."
+    },
+    {
+     "s": 521.337,
+     "e": 526.192,
+     "txt": "E a Funceme, o órgão de meteorologia do Ceará, diz que ainda é cedo para prever."
+    }
+   ]
+  },
+  {
+   "id": "b38",
+   "s": 526.892,
+   "e": 543.706,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 526.892,
+     "e": 528.652,
+     "txt": "E o Brasil de hoje não é o de oitenta e três."
+    },
+    {
+     "s": 529.852,
+     "e": 535.912,
+     "txt": "No semiárido, há mais de um milhão e duzentas mil cisternas guardando água da chuva ao lado das casas."
+    },
+    {
+     "s": 536.432,
+     "e": 543.706,
+     "txt": "A seca de dois mil e doze a dois mil e dezessete, uma das piores em décadas, não trouxe a fome em massa das secas do passado."
+    }
+   ]
+  },
+  {
+   "id": "b39",
+   "s": 544.406,
+   "e": 558.161,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 544.406,
+     "e": 551.426,
+     "txt": "No Sul, os vales do Iguaçu e do Itajaí têm hoje sistemas de alerta de cheia, e a Defesa Civil manda aviso no celular."
+    },
+    {
+     "s": 551.786,
+     "e": 554.026,
+     "txt": "Mas as várzeas continuam ocupadas."
+    },
+    {
+     "s": 554.506,
+     "e": 558.161,
+     "txt": "E um rio que já subiu dez metros pode subir de novo."
+    }
+   ]
+  },
+  {
+   "id": "b40",
+   "s": 559.511,
+   "e": 578.435,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 559.511,
+     "e": 561.311,
+     "txt": "Então, voltando a julho de mil novecentos e oitenta e três."
+    },
+    {
+     "s": 563.511,
+     "e": 566.111,
+     "txt": "O Iguaçu a dez metros em União da Vitória."
+    },
+    {
+     "s": 566.691,
+     "e": 571.891,
+     "txt": "E, a dois mil e quinhentos quilômetros dali, o sertão no quinto ano de seca."
+    },
+    {
+     "s": 572.811,
+     "e": 574.671,
+     "txt": "Não foram duas tragédias sem ligação."
+    },
+    {
+     "s": 575.331,
+     "e": 578.435,
+     "txt": "Foi o mesmo El Niño, puxando o Brasil para os dois lados."
+    }
+   ]
+  },
+  {
+   "id": "b41",
+   "s": 579.135,
+   "e": 591.804,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 579.135,
+     "e": 584.935,
+     "txt": "O de dois mil e vinte e seis pode repetir esse padrão. Ou não: nenhum El Niño é igual ao outro."
+    },
+    {
+     "s": 585.535,
+     "e": 588.035,
+     "txt": "Mas mil novecentos e oitenta e três deixou uma lição."
+    },
+    {
+     "s": 588.595,
+     "e": 591.804,
+     "txt": "O perigo não acaba quando o Pacífico começa a esfriar."
+    }
+   ]
+  },
+  {
+   "id": "b42",
+   "s": 592.504,
+   "e": 604.369,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 592.504,
+     "e": 596.984,
+     "txt": "Se você quer entender como o El Niño funciona, o nosso vídeo sobre ele está aqui no canal."
+    },
+    {
+     "s": 597.484,
+     "e": 601.024,
+     "txt": "Se você tem família no Sul ou no sertão, manda este vídeo para ela."
+    },
+    {
+     "s": 601.024,
+     "e": 604.369,
+     "txt": "E se inscreve no canal, para entender o clima do Brasil."
+    }
+   ]
+  }
+ ]
+}

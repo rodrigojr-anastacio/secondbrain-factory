@@ -15,6 +15,19 @@ def utm(lat, lon, zone=22):  # WGS84 -> UTM (northing negativo no sul, convenç�
     return x, y
 CX, CY = utm(-26.235, -51.075)   # centro: União da Vitória / Porto União
 W, H = 1200, 675                 # px de 60 m -> 72 × 40,5 km
+# v2 (13/11/2026): estiramento COMUM às duas datas (por banda, percentis da união das cenas, sem nuvem) para as cores serem comparáveis
+def recorte(mtl, b):
+    t = mtl.read_text(); sid = mtl.name[:-8]
+    ulx = float(re.search(r"CORNER_UL_PROJECTION_X_PRODUCT = ([\d.-]+)", t).group(1)) - 30
+    uly = float(re.search(r"CORNER_UL_PROJECTION_Y_PRODUCT = ([\d.-]+)", t).group(1)) + 30
+    col = int((CX-ulx)/60) - W//2; row = int((uly-CY)/60) - H//2
+    im = np.array(Image.open(src/f"{sid}_{b}.TIF")).astype(float)
+    pad = np.zeros((im.shape[0]+2*H, im.shape[1]+2*W)); pad[H:H+im.shape[0], W:W+im.shape[1]] = im
+    return pad[row+H:row+2*H, col+W:col+2*W]
+LIM = {}
+for b in ("B4", "B3", "B2"):
+    vs = [recorte(m, b) for m in sorted(src.glob("*_MTL.txt"))]
+    v = np.concatenate([c[c > 0] for c in vs]); LIM[b] = (np.percentile(v, 1), np.percentile(v, 99.0))
 for mtl in sorted(src.glob("*_MTL.txt")):
     t = mtl.read_text(); sid = mtl.name[:-8]
     ulx = float(re.search(r"CORNER_UL_PROJECTION_X_PRODUCT = ([\d.-]+)", t).group(1)) - 30
@@ -25,7 +38,7 @@ for mtl in sorted(src.glob("*_MTL.txt")):
         im = np.array(Image.open(src/f"{sid}_{b}.TIF")).astype(float)
         pad = np.zeros((im.shape[0]+2*H, im.shape[1]+2*W)); pad[H:H+im.shape[0], W:W+im.shape[1]] = im
         c = pad[row+H:row+2*H, col+W:col+2*W]
-        v = c[c > 0]; lo, hi = (np.percentile(v, 1), np.percentile(v, 99.3)) if v.size else (0, 1)
+        lo, hi = LIM[b]
         bands.append(np.clip((c-lo)/(hi-lo+1e-6), 0, 1) ** 0.85)
     rgb = (np.dstack(bands)*255).astype(np.uint8)
     data = re.search(r"_(\d{8})_", sid).group(1)
