@@ -67,3 +67,18 @@ Busca em 13/11/2026 pela API do Wikimedia Commons (`extmetadata` + wikitext: tem
 - **Retratos:** `Auto retrato Rodolfo Teofilo Allou` (escultura de outro Rodolfo, Museu da Selva) é homônimo, descartado. Não existe foto de época de Rodolpho Theophilo no Commons com licença livre; ficou o óleo de 1956 (`teofilo-retrato-1956`, CC BY-SA 4.0) e a foto dele vacinando (1907).
 - **Seringueiros nordestinos:** não há foto livre de cearenses na Amazônia (1877–80). `seringal-acre-1910` mostra um seringal; `seringueiro-acre-2010` é foto de hoje (CC BY 2.0).
 - **Dry land in Ceará (Porto Neto, 2016):** boa, mas já usada no longo-02 (`seca-santa-quiteria-2016-1.jpg`); reaproveitável de `../longo-02/dl/fotos/`.
+
+## Tentativa em alta resolução pelo WARP (13/11/2026, 2ª rodada): não consegui
+
+Resultado: **nenhuma foto nova**; as fotos de retirantes seguem só nas cópias baixas do Commons (221–400 px de largura). O que foi testado, para ninguém repetir:
+
+| Alvo | Resultado |
+|---|---|
+| Brasiliana Fotográfica (`brasilianafotografica.bn.gov.br`) | Com o proxy WARP (`socks5h://127.0.0.1:40000`) ainda dá 403 com desafio Cloudflare ("Just a moment..."), em busca e em `wp-json`. WebFetch também 403. Só um navegador de verdade passa. |
+| BN Digital (`bndigital.bn.gov.br`) | Responde 200, mas é só uma página de aviso estática (o portal mudou); não há busca nem objetos. |
+| Originais antigos (`objdigital.bn.br` / `objdigital.bn.gov.br/acervo_digital/div_iconografia/icon838865.jpg`, `icon1_4_7.jpg`) | O `.br` não resolve; o `.gov.br` dá 404 (home 403). São os links de origem dos arquivos do Commons. |
+| Hemeroteca Digital (`memoria.bn.gov.br`) | Abre pelo WARP, mas o catálogo é ASP.NET com combo carregado sob demanda e não achei o código (`bib`) de "O Besouro". Os PDFs ficam em `https://hemeroteca-pdf.bn.gov.br/<bib>/per<bib>_<ano>_<NNNNN>.pdf` e baixam com ou sem proxy (ex.: Gazeta de Notícias, bib 103730, `per103730_1878_00130.pdf`, 4 páginas, JPEG ~2220×2910 dentro de Flate: extraível sem poppler). Revista Illustrada (bib 332747) não responde nesse padrão. |
+| **O Besouro de 20/07/1878** (reportagem "Páginas Tristes: scenas e aspectos do Ceará", de José do Patrocínio, com litogravuras copiadas das fotos de J. A. Corrêa) | Não achei no acervo da BN. As cópias digitalizadas conhecidas estão em `hemerotecadigital.cm-lisboa.pt/Periodicos/OBesouro/OBesouro.htm` (Cloudflare, 403 mesmo pelo WARP; é a fonte do Commons para a capa do nº 1) e no repositório da Casa de Rui Barbosa (`rubi.casaruibarbosa.gov.br/handle/fcrb/281`), que só tem `O Besouro - v. 1, n. 1.pdf` (6/04/1878), sem o número de julho. |
+| Fortaleza 1870–1900 e abarracamentos na Brasiliana | Inacessível pelo mesmo bloqueio. Existe no acervo da BN o álbum da Estrada de Ferro de Baturité (1877, ref. FOTOS-ARM.14.1.11), mas só com navegador. |
+
+**Próximo passo sugerido (manual, Rodrigo, em navegador comum):** salvar do site da Brasiliana Fotográfica (busca "seca 1877", "retirantes", autor "Corrêa") as fotos da série *Secca de 1877/78* e, no site da Hemeroteca Digital de Lisboa, o número de 20/07/1878 de O Besouro, colocando-as em `dl/fotos/` com a URL da página; depois reprocessar em `dl/fotos/video/`. Obras de 1877–78: domínio público.
