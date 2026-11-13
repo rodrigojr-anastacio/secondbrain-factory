@@ -1,0 +1,1281 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/historia-ptbr/videos/008-franca/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2778,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 7,
+  "medio": 21,
+  "baixo": 38
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q04",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Clóvis aparece com um diadema dourado e capa vermelha, e os guerreiros usam elmos com cota de malha, mais medievais que do século V. O estilo é aceitável, mas vale conferir. O amontoado de tesouro (baú, ânfora) está coerente.",
+   "t": 10.4,
+   "arquivo": "312.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A coroa do rei é de formato europeu medieval, com pontas retas. É aceitável para um rei franco, mas a cota de malha e os elmos nasais dão aparência mais tardia (medieval pleno). Dúvida entre estilo e defeito.",
+   "t": 32.0,
+   "arquivo": "960.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Cena de multidão com barretes vermelhos (frígios), tricórnio com roseta tricolor e bandeira tricolor azul-branca-vermelha à direita, com a Notre-Dame ao fundo: é Revolução Francesa, mas o vídeo trata de Clóvis (486–487). Anacronismo claro de bandeira, uniforme e arquitetura, a menos que a cena seja intencional (ex.: transição para a França moderna). Confirmar o contexto da narração.",
+   "t": 42.0,
+   "arquivo": "1260.png"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O guarda de elmo com barba ruiva e lança, e o interior de pedra com cadeira de espaldar, parecem medievais. O contexto da cena é incerto, então o anacronismo pode ser falso.",
+   "t": 62.0,
+   "arquivo": "1860.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O rótulo 'GÁLIA' está sobre a costa oeste, quase no mar, e não bem no interior do território. O mapa mostra a França atual com fronteiras e regiões coloridas e inclui o Mediterrâneo. Dúvida entre estilo e erro: é um mapa moderno rotulado como Gália do séc. I a.C.",
+   "t": 70.66666666666667,
+   "arquivo": "2120.png"
+  },
+  {
+   "quadro": "Q12",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Guerreiros gauleses com elmos de chifres no estilo viking, anacrônicos para a Gália do séc. I a.C. Aparecem à esquerda e à direita do centro, na cena de briga.",
+   "t": 82.0,
+   "arquivo": "2460.png"
+  },
+  {
+   "quadro": "Q12",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa azul uniforme de 4% no topo. É só o céu liso da cena, que faz parte do desenho e não é defeito.",
+   "t": 82.0,
+   "arquivo": "2460.png"
+  },
+  {
+   "quadro": "Q16",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O elmo de Vercingetórix tem estilo medieval/nórdico, e as espadas longas e retas parecem mais medievais do que gaulesas. Detalhe pequeno.",
+   "t": 105.4,
+   "arquivo": "3162.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa uniforme no topo (RGB 152,161,167), mas visualmente é só o céu nublado e liso da cena. Provável falso positivo, sem defeito real.",
+   "t": 112.0,
+   "arquivo": "3360.png"
+  },
+  {
+   "quadro": "Q22",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Batismo de Clóvis por volta de 500. A mitra alta do bispo, o báculo e os vitrais coloridos são mais medievais do que do século V. Na dúvida entre estilo e defeito, registro como médio.",
+   "t": 154.23333333333332,
+   "arquivo": "4627.png"
+  },
+  {
+   "quadro": "Q23",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Cena de Remígio com Clóvis por volta de 500, mas o rei usa coroa dourada de estilo medieval tardio e manto de arminho, e há estandartes heráldicos ao fundo (à direita, azul com emblema dourado). A arquitetura gótica com vitrais também não é do século V. Isso destoa da época. A cruz com crucifixo e o incensário são coerentes com o contexto.",
+   "t": 161.76666666666668,
+   "arquivo": "4853.png"
+  },
+  {
+   "quadro": "Q24",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Mesmo quadro de Q23, com o mesmo anacronismo. A coroa e o manto de arminho são medievais tardios, os estandartes heráldicos aparecem nas paredes e a arquitetura é gótica.",
+   "t": 162.0,
+   "arquivo": "4860.png"
+  },
+  {
+   "quadro": "Q24",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Q23 e Q24 aparecem em t=2:42 com imagem quase idêntica, com leve diferença de enquadramento. Pode ser um frame duplicado ou um crossfade/zoom, então confirmar se não há duplicação de cena.",
+   "t": 162.0,
+   "arquivo": "4860.png"
+  },
+  {
+   "quadro": "Q26",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Gregório de Tours usa mitra alta de bispo, de estilo bem posterior ao século VI. Detalhe pequeno de época.",
+   "t": 187.93333333333334,
+   "arquivo": "5638.png"
+  },
+  {
+   "quadro": "Q27",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Mesmo bispo de Q26 com mitra alta, de estilo posterior ao século VI.",
+   "t": 192.0,
+   "arquivo": "5760.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Igreja gótica com bancos de igreja (pews) e vitrais, anacrônica para a época franca inicial. O personagem à direita está cortado pela borda, o que é enquadramento normal.",
+   "t": 202.0,
+   "arquivo": "6060.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Catedral gótica com vitrais altos e armaduras de placas, num batismo/sagração de rei franco do período merovíngio/carolíngio. É anacronismo leve de arquitetura e equipamento, possivelmente aceitável pelo estilo.",
+   "t": 212.0,
+   "arquivo": "6360.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo ('CAPÍTULO 3 / Um império que coube numa vida') cobre o personagem ajoelhado e o altar na parte inferior. O selo '800' no canto superior esquerdo fica sobre o lustre. Pode ser o layout padrão, mas a placa esconde o rosto e o corpo do ajoelhado.",
+   "t": 244.43333333333334,
+   "arquivo": "7333.png"
+  },
+  {
+   "quadro": "Q33",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa 'CAPÍTULO 3 / Um império que coube numa vida' cobre o rosto e o corpo do rei ajoelhado e a base do bispo. O ano '800' no canto superior esquerdo fica sobre o lustre. Pode ser a placa de capítulo intencional, mas a composição esconde o personagem principal.",
+   "t": 244.66666666666666,
+   "arquivo": "7340.png"
+  },
+  {
+   "quadro": "Q33",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A coroa que o bispo segura é de estilo europeu tardio (arcos, forro de veludo vermelho), e a mitra e os vitrais são de estilo gótico, não de 800 d.C. Dúvida: pode ser tolerado como estilo do canal.",
+   "t": 244.66666666666666,
+   "arquivo": "7340.png"
+  },
+  {
+   "quadro": "Q35",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O rótulo 'IMPÉRIO DE CARLOS MAGNO' fica sobre o litoral oeste da França e o mar, deslocado do centro do território. A leitura é boa, mas a posição é discutível.",
+   "t": 262.0,
+   "arquivo": "7860.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Mapa de divisão do império (Oeste/Meio/Leste) com bonequinhos e navios minúsculos espalhados sem função, e as cores azul, amarelo e vermelho chapadas. O 'Meio' deveria incluir Itália e a Lotaríngia, mas o amarelo vaza para a Itália de forma imprecisa e o leste cobre região demais, incluindo os Bálcãs. Possível erro geográfico.",
+   "t": 282.0,
+   "arquivo": "8460.png"
+  },
+  {
+   "quadro": "Q38",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A personagem à direita é cortada pela borda, o que é enquadramento normal. Os estandartes coloridos no topo lembram bandeiras, mas são genéricos e sem símbolos reconhecíveis. Sem defeito grave.",
+   "t": 292.0,
+   "arquivo": "8760.png"
+  },
+  {
+   "quadro": "Q39",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Um dos vikings usa capacete com chifres, estereótipo anacrônico. É um detalhe pequeno no barco à esquerda.",
+   "t": 293.56666666666666,
+   "arquivo": "8807.png"
+  },
+  {
+   "quadro": "Q41",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'CAPÍTULO 4 / O rei que mandava numa ilha' cobre a parte inferior da multidão e os carregadores do escudo. Ela está legível, mas esconde bastante da cena. Pode ser a animação de entrada do capítulo; se for fixa, vale conferir.",
+   "t": 320.8333333333333,
+   "arquivo": "9625.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O mapa da França medieval com o rótulo 'DOMÍNIO DO REI' tem o domínio em azul na região de Paris, mas o rótulo fica no alto, afastado da área azul e perto de uma região laranja. O leitor pode ligar o rótulo à região errada. O mapa também tem muitos cursos de rio e fronteiras que parecem inventados.",
+   "t": 332.0,
+   "arquivo": "9960.png"
+  },
+  {
+   "quadro": "Q45",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Sala com berços de bebês coroados. Os berços se acumulam em perspectiva confusa no lado esquerdo e há um tecido cortado no canto inferior direito. É aceitável como enquadramento, mas a composição é poluída.",
+   "t": 342.0,
+   "arquivo": "10260.png"
+  },
+  {
+   "quadro": "Q46",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Há flor-de-lis em estandarte e brasão no castelo, o que é coerente com o rei francês em 1152. Mas a torre tem telhados cônicos azuis de estilo mais tardio, de conto de fadas. Não é grave.",
+   "t": 351.3666666666667,
+   "arquivo": "10541.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "No mapa, a legenda 'REI FRANCÊS' fica sobre a área azul e cobre parte dela, e há um pequeno texto ilegível ao lado, perto do rio, que parece letra inventada pela IA. O rótulo 'REI INGLÊS' está no mar, longe da área vermelha. A ilha da Grã-Bretanha também aparece sem coerência com a região vermelha.",
+   "t": 362.0,
+   "arquivo": "10860.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O personagem em primeiro plano (carimbando o documento) é cortado pela borda; o clérigo à direita também é cortado. Provavelmente é enquadramento normal, mas o rosto do clérigo na borda fica muito cortado.",
+   "t": 382.0,
+   "arquivo": "11460.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A placa do capítulo cobre os pés e a base dos personagens da multidão, mas sem atrapalhar a leitura. Os dois personagens coroados no canto inferior esquerdo ficam cortados pela placa. Provavelmente é aceitável.",
+   "t": 388.8,
+   "arquivo": "11664.png"
+  },
+  {
+   "quadro": "Q54",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Os três guerreiros têm armaduras, barbas e texturas semi-realistas, com sombreamento detalhado. Fogem do estilo de bonequinho cartoon da bíblia visual, embora as cabeças sejam redondas. Pode ser estilo, mas vale conferir.",
+   "t": 402.0,
+   "arquivo": "12060.png"
+  },
+  {
+   "quadro": "Q58",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O mapa 'FRANÇA, 1420' mostra a França em vermelho e azul sem legenda. Os contornos regionais parecem imprecisos para 1420 (o território borgonhês/inglês não bate com o real). O rótulo está solto sobre o oceano, longe da França.",
+   "t": 432.0,
+   "arquivo": "12960.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "O mapa é um zoom do Q58, sem rótulos. A geografia está estilizada e imprecisa (Alpes/Itália), e o recorte corta a França pela borda esquerda. Pode ser só enquadramento de pan.",
+   "t": 442.0,
+   "arquivo": "13260.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A coroação tem uma coroa dourada sobre um grande chapéu de pele preto, que parece estranho e pouco coerente com uma coroação medieval francesa. Há dúvida entre estilo e defeito. Os rostos ao fundo, no alto à direita, são pequenos e estranhos.",
+   "t": 462.0,
+   "arquivo": "13860.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O rótulo '1453' sobre uma torre medieval genérica não deixa clara a cena (fim da Guerra dos Cem Anos). Um pano branco caído no chão, sem sentido claro. Detalhe discreto.",
+   "t": 463.26666666666665,
+   "arquivo": "13898.png"
+  },
+  {
+   "quadro": "Q64",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os barcos têm velame e cordame confusos, com mastros sem lógica estrutural, e a embarcação em primeiro plano está cortada. Os soldados de capacete lembram o estilo medieval correto. Defeito estético pequeno.",
+   "t": 472.0,
+   "arquivo": "14160.png"
+  },
+  {
+   "quadro": "Q65",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'CAPÍTULO 6 / Paris bem vale uma missa' cobre as pessoas em primeiro plano e a base da cena. Parece enquadramento intencional, mas esconde pernas e personagens. Fica a dúvida entre estilo e defeito.",
+   "t": 491.93333333333334,
+   "arquivo": "14758.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A placa pendurada na loja (sino dourado) não tem letras, então o risco é pequeno. Há pequenos itens de feira e uma faixa de bandeirolas coloridas ao fundo no arco. Não há bandeiras nacionais legíveis.",
+   "t": 502.0,
+   "arquivo": "15060.png"
+  },
+  {
+   "quadro": "Q70",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A etiqueta 'HENRIQUE IV' fica no canto inferior esquerdo sobre soldados, cobrindo parte deles. O estilo é intencional e a leitura é boa.",
+   "t": 527.9666666666667,
+   "arquivo": "15839.png"
+  },
+  {
+   "quadro": "Q71",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Mesma cena de Q70, com leve zoom. A etiqueta 'HENRIQUE IV' cobre soldados no canto, mas a leitura é boa.",
+   "t": 528.4,
+   "arquivo": "15852.png"
+  },
+  {
+   "quadro": "Q73",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cena de 1598 (Édito de Nantes) tem personagens com golas de época correta, mas também turbantes e figuras com visual oriental no salão; o pergaminho tem rabiscos ilegíveis (aceitável como textura). Dúvida de estilo: aperto de mão moderno entre clérigo e huguenote, bandeiras/estandartes heráldicos inventados ao fundo.",
+   "t": 543.4333333333333,
+   "arquivo": "16303.png"
+  },
+  {
+   "quadro": "Q75",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Legenda 1649 com castelo de Versalhes já em estilo final (fachada do séc. XVII tardio) e carruagem; os ocupantes usam coroas, incluindo uma figura com rosto não redondo/cartoon (terceira pessoa de rosa). Dúvida de estilo versus anacronismo.",
+   "t": 562.0,
+   "arquivo": "16860.png"
+  },
+  {
+   "quadro": "Q75",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "Placa de capítulo 'O rei que virou o Estado' cobre a parte inferior da carruagem e as rodas; é sobreposição normal de título, mas esconde bastante da ilustração.",
+   "t": 562.0,
+   "arquivo": "16860.png"
+  },
+  {
+   "quadro": "Q76",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Quadro idêntico ao Q75 (mesmo tempo 9:22), possível duplicação de quadro/estado do render, sem animação de entrada diferente.",
+   "t": 562.3333333333334,
+   "arquivo": "16870.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Luís XIV (séc. XVII) num salão gótico medieval com trono gótico, armaduras e túnicas medievais, estandartes e tapeçarias medievais; arquitetura não condiz com a corte barroca.",
+   "t": 576.0666666666667,
+   "arquivo": "17282.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Rótulo 'LUÍS XIV' no canto inferior esquerdo sobrepõe parcialmente os pés/manto de um personagem e a borda do tapete.",
+   "t": 576.0666666666667,
+   "arquivo": "17282.png"
+  },
+  {
+   "quadro": "Q79",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Sinal automático de faixa azul no topo é apenas o céu liso da cena (parte da ilustração), não é defeito. Observação: vários personagens cortados na borda inferior, enquadramento normal.",
+   "t": 582.1,
+   "arquivo": "17463.png"
+  },
+  {
+   "quadro": "Q80",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Luís XIV com flor-de-lis no manto está correto; porém, a figura em primeiro plano no canto inferior esquerdo e outros personagens são cortados pela borda, enquadramento normal. Rosto do rei com bigode fino, estilo mantido.",
+   "t": 592.0,
+   "arquivo": "17760.png"
+  },
+  {
+   "quadro": "Q83",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cena do tesouro vazio com personagem de turbante e túnica orientalizada e guardas com elmos de aparência egípcia/oriental, num porão de arquitetura românica europeia. Mistura de estilos que não combina claramente com a França. Pode ser intencional (tesoureiro), mas há dúvida.",
+   "t": 622.0,
+   "arquivo": "18660.png"
+  },
+  {
+   "quadro": "Q86",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Paris congelada com Notre-Dame ao fundo à direita e ponte de pedra. Detalhes arquitetônicos pequenos e genéricos. Personagens em primeiro plano (esquerda e canto inferior direito) têm rostos semi-realistas com bochechas e cabelo, fugindo do estilo de cabeça redonda branca.",
+   "t": 642.0,
+   "arquivo": "19260.png"
+  },
+  {
+   "quadro": "Q87",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O rótulo 'LUÍS XVI' fica no canto inferior esquerdo, parcialmente sobre a mesa e as folhas de papel, e é cortado pela borda do papel. O retrato ao fundo à direita mostra um rosto semi-realista, fora do estilo de bonequinhos.",
+   "t": 650.7,
+   "arquivo": "19521.png"
+  },
+  {
+   "quadro": "Q93",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A guilhotina aparece sobre a mesa de madeira ao lado de um machado medieval, em um porão com escudo e espada. O cenário parece genérico, medieval e sem relação clara com a cena. Pode ser estilo intencional.",
+   "t": 692.0,
+   "arquivo": "20760.png"
+  },
+  {
+   "quadro": "Q94",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Bandeira tricolor pequena no meio da multidão, atrás dos personagens, em cena de 1791-92. A bandeira é discreta e as cores/ordem não são claras. A convenção do canal pede 'no flags' em cenas de época.",
+   "t": 702.0,
+   "arquivo": "21060.png"
+  },
+  {
+   "quadro": "Q96",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'CAPÍTULO 9 / O trono que nunca ficou vazio' cobre as pernas e os corpos de vários personagens da multidão e de Napoleão na parte de baixo. O texto está legível. A dúvida é de estética: a placa tapa o personagem principal.",
+   "t": 719.1666666666666,
+   "arquivo": "21575.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa 'CAPÍTULO 9 / O trono que nunca ficou vazio' cobre a parte de baixo da cena e esconde personagens e os pés do Napoleão. Provavelmente é intencional (placa de capítulo), mas o selo '1804' fica no canto superior esquerdo ao mesmo tempo. Confirmar se os dois elementos devem aparecer juntos.",
+   "t": 719.4,
+   "arquivo": "21582.png"
+  },
+  {
+   "quadro": "Q101",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Duas figuras em primeiro plano usam coroinhas na cabeça (mulher de azul e mulher de vestido vermelho), o que combina com a fuga da corte. As outras figuras do primeiro plano trazem chapéus de época variados, o que dá um visual misturado. O cenário do porto é mediterrâneo, e não está claro se representa o lugar certo.",
+   "t": 752.0,
+   "arquivo": "22560.png"
+  },
+  {
+   "quadro": "Q103",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O quebra-cabeça tem uma peça solta no topo, presa por um fio fino, e o buraco no tabuleiro mostra cinza chapado. A fila mistura figuras de épocas diferentes (rei, romano, monge, sultão), o que é metafórico. Verificar se a imagem faz sentido com a narração.",
+   "t": 762.0,
+   "arquivo": "22860.png"
+  },
+  {
+   "quadro": "Q105",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cena de 1871 (Sedan/rendição francesa): os prussianos usam capacete de ponta (pickelhaube), o que é correto, mas o oficial francês usa quepe azul-acinzentado com uniforme que lembra a Guerra Civil Americana (ombreiras de franja douradas). Pequena dúvida de fidelidade histórica.",
+   "t": 779.4,
+   "arquivo": "23382.png"
+  },
+  {
+   "quadro": "Q107",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "Mapa: Alsácia-Lorena aparece em cinza escuro (alemão) mas o rótulo 'ALSÁCIA-LORENA' está fora da região, sobre a Suíça/leste, sem apontar para ela. A França em azul termina na borda leste incorreta. O rótulo 'AL...' do canto direito está cortado pela borda (provável 'ALEMANHA').",
+   "t": 802.0,
+   "arquivo": "24060.png"
+  },
+  {
+   "quadro": "Q107",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "Rótulo 'AL…' (Alemanha) cortado pela borda direita do quadro, no canto superior direito.",
+   "t": 802.0,
+   "arquivo": "24060.png"
+  },
+  {
+   "quadro": "Q108",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Sinal automático de faixa uniforme no topo (4%, cinza RGB 142,153,157); na imagem é apenas céu nublado cinza, parte da cena. Não é defeito real.",
+   "t": 804.0333333333333,
+   "arquivo": "24121.png"
+  },
+  {
+   "quadro": "Q112",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Quadro de provável contexto 1940 (Pétain): telefone e pena de escrever com tinteiro convivem; mistura de objetos de épocas diferentes, detalhe discreto.",
+   "t": 832.0,
+   "arquivo": "24960.png"
+  },
+  {
+   "quadro": "Q113",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O quepe tem formato de kepi francês alto (De Gaulle), o que é coerente. Um relógio aparece cortado no canto superior direito, o que é aceitável.",
+   "t": 842.0,
+   "arquivo": "25260.png"
+  },
+  {
+   "quadro": "Q114",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Há um personagem cortado na borda inferior, no centro, e outros nos cantos. Parece enquadramento normal, sem defeito real.",
+   "t": 852.0,
+   "arquivo": "25560.png"
+  },
+  {
+   "quadro": "Q119",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A bandeira tricolor francesa aparece cortada na borda direita, ao lado de camponeses medievais. Pode ser intencional, já que a cena é um mapa-quebra-cabeça que reúne várias épocas, mas vale conferir. A bandeira de lis azul na cena medieval é coerente.",
+   "t": 892.0,
+   "arquivo": "26760.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 1.1,
+   "nome": "33.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 1.3333333333333333,
+   "nome": "40.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 2.0,
+   "nome": "60.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 10.4,
+   "nome": "312.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 22.0,
+   "nome": "660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 25.566666666666666,
+   "nome": "767.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 32.0,
+   "nome": "960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 42.0,
+   "nome": "1260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 62.0,
+   "nome": "1860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 70.66666666666667,
+   "nome": "2120.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 70.76666666666667,
+   "nome": "2123.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 82.0,
+   "nome": "2460.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(99,196,243)"
+   ]
+  },
+  {
+   "id": "Q13",
+   "t": 87.53333333333333,
+   "nome": "2626.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 88.06666666666666,
+   "nome": "2642.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 92.0,
+   "nome": "2760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 105.4,
+   "nome": "3162.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 105.6,
+   "nome": "3168.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 112.0,
+   "nome": "3360.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(152,161,167)"
+   ]
+  },
+  {
+   "id": "Q19",
+   "t": 132.0,
+   "nome": "3960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 142.0,
+   "nome": "4260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 152.0,
+   "nome": "4560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 154.23333333333332,
+   "nome": "4627.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 161.76666666666668,
+   "nome": "4853.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 162.0,
+   "nome": "4860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 172.0,
+   "nome": "5160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 187.93333333333334,
+   "nome": "5638.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 192.0,
+   "nome": "5760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 202.0,
+   "nome": "6060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 212.0,
+   "nome": "6360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 232.0,
+   "nome": "6960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 242.0,
+   "nome": "7260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 244.43333333333334,
+   "nome": "7333.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 244.66666666666666,
+   "nome": "7340.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 252.0,
+   "nome": "7560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 262.0,
+   "nome": "7860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 272.0,
+   "nome": "8160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 282.0,
+   "nome": "8460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 292.0,
+   "nome": "8760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 293.56666666666666,
+   "nome": "8807.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 312.0,
+   "nome": "9360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 320.8333333333333,
+   "nome": "9625.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 320.93333333333334,
+   "nome": "9628.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 321.06666666666666,
+   "nome": "9632.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 332.0,
+   "nome": "9960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 342.0,
+   "nome": "10260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 351.3666666666667,
+   "nome": "10541.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 352.0,
+   "nome": "10560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 362.0,
+   "nome": "10860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 370.4,
+   "nome": "11112.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 371.23333333333335,
+   "nome": "11137.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 382.0,
+   "nome": "11460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 388.8,
+   "nome": "11664.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 388.9,
+   "nome": "11667.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 402.0,
+   "nome": "12060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 410.8,
+   "nome": "12324.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 412.0,
+   "nome": "12360.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(113,198,242)"
+   ]
+  },
+  {
+   "id": "Q57",
+   "t": 422.0,
+   "nome": "12660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 432.0,
+   "nome": "12960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 442.0,
+   "nome": "13260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 445.6666666666667,
+   "nome": "13370.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 452.0,
+   "nome": "13560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 462.0,
+   "nome": "13860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 463.26666666666665,
+   "nome": "13898.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 472.0,
+   "nome": "14160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 491.93333333333334,
+   "nome": "14758.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 492.0,
+   "nome": "14760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 492.03333333333336,
+   "nome": "14761.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 502.0,
+   "nome": "15060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 522.0,
+   "nome": "15660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 527.9666666666667,
+   "nome": "15839.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 528.4,
+   "nome": "15852.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 542.0,
+   "nome": "16260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 543.4333333333333,
+   "nome": "16303.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 552.0,
+   "nome": "16560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 562.0,
+   "nome": "16860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 562.3333333333334,
+   "nome": "16870.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 572.0,
+   "nome": "17160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 576.0666666666667,
+   "nome": "17282.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 582.1,
+   "nome": "17463.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(78,186,246)"
+   ]
+  },
+  {
+   "id": "Q80",
+   "t": 592.0,
+   "nome": "17760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 596.4666666666667,
+   "nome": "17894.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 602.0,
+   "nome": "18060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 622.0,
+   "nome": "18660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 631.5333333333333,
+   "nome": "18946.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 631.6333333333333,
+   "nome": "18949.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 642.0,
+   "nome": "19260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 650.7,
+   "nome": "19521.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 651.5333333333333,
+   "nome": "19546.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 652.0,
+   "nome": "19560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 668.5333333333333,
+   "nome": "20056.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 672.0,
+   "nome": "20160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 682.0,
+   "nome": "20460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 692.0,
+   "nome": "20760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 702.0,
+   "nome": "21060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 712.0,
+   "nome": "21360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 719.1666666666666,
+   "nome": "21575.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 719.4,
+   "nome": "21582.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 722.0,
+   "nome": "21660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 732.0,
+   "nome": "21960.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(126,205,243)"
+   ]
+  },
+  {
+   "id": "Q100",
+   "t": 742.0,
+   "nome": "22260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q101",
+   "t": 752.0,
+   "nome": "22560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 754.6333333333333,
+   "nome": "22639.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 762.0,
+   "nome": "22860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 773.7666666666667,
+   "nome": "23213.png",
+   "sinais": []
+  },
+  {
+   "id": "Q105",
+   "t": 779.4,
+   "nome": "23382.png",
+   "sinais": []
+  },
+  {
+   "id": "Q106",
+   "t": 782.0,
+   "nome": "23460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q107",
+   "t": 802.0,
+   "nome": "24060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q108",
+   "t": 804.0333333333333,
+   "nome": "24121.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(142,153,157)"
+   ]
+  },
+  {
+   "id": "Q109",
+   "t": 804.1333333333333,
+   "nome": "24124.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(142,153,157)"
+   ]
+  },
+  {
+   "id": "Q110",
+   "t": 812.0,
+   "nome": "24360.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 10% do quadro, cor RGB(118,133,137)"
+   ]
+  },
+  {
+   "id": "Q111",
+   "t": 825.7333333333333,
+   "nome": "24772.png",
+   "sinais": []
+  },
+  {
+   "id": "Q112",
+   "t": 832.0,
+   "nome": "24960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q113",
+   "t": 842.0,
+   "nome": "25260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q114",
+   "t": 852.0,
+   "nome": "25560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q115",
+   "t": 856.2666666666667,
+   "nome": "25688.png",
+   "sinais": []
+  },
+  {
+   "id": "Q116",
+   "t": 862.0,
+   "nome": "25860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q117",
+   "t": 872.0,
+   "nome": "26160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q118",
+   "t": 882.1333333333333,
+   "nome": "26464.png",
+   "sinais": []
+  },
+  {
+   "id": "Q119",
+   "t": 892.0,
+   "nome": "26760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q120",
+   "t": 902.0,
+   "nome": "27060.png",
+   "sinais": []
+  }
+ ]
+}

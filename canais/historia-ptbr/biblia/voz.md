@@ -38,3 +38,6 @@ A `roteiro.md` v2 (regra 10) mira ~140–145 ppm com pausas (hoje 127–129 no d
 ## Não faça
 - Voz "Dio Historias"/espanhol neutro (é do `dossie-es`) ou Kokoro `ff_siwis` (é do `lotr-fr`).
 - Tags de direção ("[serious, calm]", "[low voice]") e velocidade 0,97 (A/B do 003).
+
+## 008 França (13/11/2026)
+- 2.000 palavras = 15:16 (131 ppm, 54 blocos). Whisper fonético mín 92,5%, média 99,1%. Grafias de voz do `FALA` (Suassôn, Rrãns, Verdân, Orleã, Crecí, Azancúr, Calê, Buvíne, Nânt, Notrrí Dâm, Uóterlu, Sedã, Gól, Alézia, Capêto) saíram sem troca; o Whisper ouve "Sua som" e "Hans" para Soissons e Reims (Hipótese: é limite do Whisper, não da voz; ouvir). Hook: 4 tomadas, melhor combinação por bloco = repetição 0,10 (tomadas únicas 0,16–0,30), confirmando a regra do 005. [ETAPA2.md 008]
