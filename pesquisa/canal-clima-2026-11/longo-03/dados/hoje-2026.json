@@ -1,0 +1,37 @@
+{
+ "meta": {
+  "acesso": "2026-11-13"
+ },
+ "monitor_secas": {
+  "arquivo": "dados/monitor-secas-2026-09.json",
+  "mes": "2026-09",
+  "nota": "mapa mais recente publicado: setembro/2026 (divulgado ~20/10/2026). O de outubro/2026 ainda NÃO existe (s3 da ANA retorna 404 em outubro2026.zip em 13/11/2026; costuma sair ~dia 20 do mês seguinte). Mesmo arquivo do longo-02; categorias SI/S0/S1/S2 (sem S3/S4).",
+  "fontes": [
+   "https://ana-monitor-secas-files.s3.sa-east-1.amazonaws.com/uploads/mapas/setembro2026.zip",
+   "Correio da Manhã 23/10/2026: seca em 96% do território do Nordeste; avançou em 14 estados; seca grave se expandiu na BA, PE, PI; SE, AL, PB passaram de moderada a grave",
+   "O Liberal 20/10/2026: seca grave no Nordeste 28% (ago-set, fontes divergem entre agosto e setembro)"
+  ],
+  "ceara_jan2026": "68 municípios em seca extrema (S3) em jan/2026, pior cenário desde fev/2019; seca excepcional não atinge o CE desde jan/2018 (Diário do Nordeste 23/02/2026). Ceará inteiro com algum nível de seca em jan/2026."
+ },
+ "cisternas": {
+  "p1mc_total": "mais de 1,2 milhão de cisternas de consumo humano construídas (ASA, marca celebrada em 2023 nos 20 anos do programa; matéria de fev/2026 repete '>1,2 milhão')",
+  "fontes": [
+   "ASA / Brasil de Fato 2024-04-11",
+   "IHU Unisinos 2023-11-28 '20 anos do programa Cisterna'"
+  ],
+  "obs": "não foi achado número oficial de 2026 com data de corte; ritmo médio ~50 mil por ano; 1.262 municípios do semiárido"
+ },
+ "previsao": {
+  "el_nino": "NOAA/CPC (atualização citada em 10/09/2026): 93% de chance de El Niño 'muito forte' no outono/inverno boreal; 69% de chance de atingir níveis históricos em out-dez, acima dos eventos desde 1950. Nosso cálculo ERSSTv5: Niño 3.4 em out/2026 = +3,06 °C vs 1991-2020 (maior valor de toda a série 1854-2026).",
+  "funceme": "Funceme (set/2026): ainda não é possível dizer como será a quadra chuvosa 2027 (fev-mai); El Niño pode trazer 'maior irregularidade de precipitações', veranicos e temperaturas mais altas; Atlântico tropical também decide; atualização 'nos próximos meses' (uma fonte diz janeiro).",
+  "inmet": "Boletim Painel El Niño de outubro: nov/2026-jan/2027 com maior chance de chuva abaixo do normal em grande parte do Norte e áreas do Nordeste; impactos no Nordeste concentrados em verão e outono, especialmente no norte da região. Previsão trimestral detalhada de dez-fev para o semiárido não foi verificada no PDF original.",
+  "fontes": [
+   "https://diariodonordeste.verdesmares.com.br/ceara/el-nino-tem-93-de-chance-de-vir-muito-forte-e-causar-impactos-na-quadra-chuvosa-alerta-funceme-1.3790630",
+   "https://portal.inmet.gov.br/noticias/painel-el-niño-boletim-de-outubro-é-divulgado",
+   "https://www.cnnbrasil.com.br/nacional/brasil/boletim-aponta-el-nino-muito-forte-e-maior-risco-de-desastres-no-brasil/"
+  ]
+ },
+ "acudes_ce": {
+  "inicio_outubro_2026": "46% da capacidade armazenada (O Povo 03/10/2026; 3º maior volume da década 2017-2026); bacias Sertões de Crateús, Baixo Jaguaribe, Banabuiú e Médio Jaguaribe abaixo de 30%; 33 açudes < 30% no início de setembro (Diário do Nordeste); Cogerh espera mais evaporação com El Niño. Valor de novembro não achado: ver Portal Hidrológico do Ceará."
+ }
+}
