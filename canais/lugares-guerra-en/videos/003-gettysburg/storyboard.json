@@ -1,0 +1,4613 @@
+{
+ "stats": {
+  "planos": 179,
+  "duracao_s": 951.8,
+  "duracao": "15:51",
+  "planos_por_min": 11.3,
+  "real_pct": 85.4,
+  "reuso_pct": 49.3,
+  "componentes": {
+   "DocGrifo": 27,
+   "KenBurns": 89,
+   "Número": 24,
+   "Dupla": 23,
+   "EntaoAgora": 5,
+   "Mapa2D": 5,
+   "Cartela": 5,
+   "Card": 1
+  },
+  "docs_distintos": 14,
+  "docs_grifados": 8,
+  "citacoes_literais": 11,
+  "numeros": 39,
+  "mapas_distintos": 5,
+  "entao_agora": 5,
+  "imagens_ia": 0,
+  "palavras": 2665,
+  "blocos_audio": 76
+ },
+ "pontos": {
+  "GETTYSBURG": [
+   282.769,
+   39.831
+  ],
+  "SEMINARY RIDGE": [
+   282.756,
+   39.833
+  ],
+  "McPHERSON'S WOODS": [
+   282.748,
+   39.836
+  ],
+  "CEMETERY HILL": [
+   282.77,
+   39.821
+  ],
+  "CULP'S HILL": [
+   282.78,
+   39.82
+  ],
+  "LITTLE ROUND TOP": [
+   282.763,
+   39.792
+  ],
+  "DEVIL'S DEN": [
+   282.758,
+   39.792
+  ],
+  "ROSE FARM": [
+   282.752,
+   39.796
+  ],
+  "RAILROAD CUT": [
+   282.755,
+   39.838
+  ],
+  "FREDERICKSBURG": [
+   282.54,
+   38.303
+  ],
+  "WASHINGTON": [
+   282.963,
+   38.907
+  ],
+  "RICHMOND": [
+   282.564,
+   37.541
+  ],
+  "HARRISBURG": [
+   283.116,
+   40.274
+  ],
+  "SLOPE": [
+   282.7578,
+   39.7915
+  ],
+  "THE NOOK": [
+   282.7575,
+   39.7918
+  ]
+ },
+ "planos": [
+  {
+   "id": "P001",
+   "bloco": "B01a",
+   "tipo": "DocGrifo",
+   "arq": "foto_toca_montada_1863.jpg",
+   "enq": "pagina",
+   "inicio": 0.0,
+   "dur": 3.57,
+   "frase": "Look at this photograph. You've almost certainly seen it before.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN",
+    "",
+    "Alexander Gardner, July 1863. Library of Congress"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "Look at this photograph."
+  },
+  {
+   "id": "P002",
+   "bloco": "B01a",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "enq": "zoom-out",
+   "inicio": 3.57,
+   "dur": 10.0,
+   "frase": "A young soldier lies dead behind a low stone wall, in a nest of boulders at Gettysburg, Pennsylvania, in July of 1863. His head rests on a knapsack.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "num": [
+    "JULY 1863",
+    "GETTYSBURG, PENNSYLVANIA"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "A young soldier lies dead"
+  },
+  {
+   "id": "P003",
+   "bloco": "B01b",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "enq": "detalhe:0.42,0.52",
+   "inicio": 13.57,
+   "dur": 2.86,
+   "frase": "A rifle leans against the rock above him.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.42,
+    0.52,
+    1.35
+   ],
+   "para": [
+    0.42,
+    0.52,
+    1.55
+   ],
+   "em": "A rifle leans"
+  },
+  {
+   "id": "P004",
+   "bloco": "B01b",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_p41.jpg",
+   "enq": "titulo",
+   "inicio": 16.43,
+   "dur": 8.21,
+   "frase": "The man who sold this picture called it \"The Home of a Rebel Sharpshooter,\" and he wrote a story to go with it.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1866 · SKETCH BOOK · TEXT FOR PLATE 41",
+    "",
+    "Gardner's Sketch Book (1866), text for plate 41"
+   ],
+   "frase_doc": "The Home of a Rebel Sharpshooter",
+   "grifo": [
+    [
+     0.3068,
+     0.2912,
+     0.3864,
+     0.0441
+    ]
+   ],
+   "literal": true,
+   "em": "The man who sold this picture"
+  },
+  {
+   "id": "P005",
+   "bloco": "B01b",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "enq": "detalhe:0.33,0.28",
+   "inicio": 24.64,
+   "dur": 5.71,
+   "frase": "How the sharpshooter built this wall with his own hands. How a shell burst over him.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.33,
+    0.28,
+    1.35
+   ],
+   "para": [
+    0.33,
+    0.28,
+    1.55
+   ],
+   "em": "How the sharpshooter built"
+  },
+  {
+   "id": "P006",
+   "bloco": "B01c",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_p41.jpg",
+   "enq": "await",
+   "inicio": 30.36,
+   "dur": 3.93,
+   "frase": "How he lay down on his blanket to wait for death.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1866 · SKETCH BOOK · TEXT FOR PLATE 41",
+    "",
+    "Gardner's Sketch Book (1866), text for plate 41"
+   ],
+   "grifo": [
+    [
+     0.1695,
+     0.5344,
+     0.2045,
+     0.0171
+    ]
+   ],
+   "literal": false,
+   "em": "How he lay down"
+  },
+  {
+   "id": "P007",
+   "bloco": "B01c",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "enq": "detalhe:0.42,0.52",
+   "inicio": 34.29,
+   "dur": 2.86,
+   "frase": "Now look at the rifle again. Remember it.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.42,
+    0.52,
+    1.35
+   ],
+   "para": [
+    0.42,
+    0.52,
+    1.55
+   ],
+   "em": "Now look at the rifle again."
+  },
+  {
+   "id": "P008",
+   "bloco": "B01c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:2",
+   "inicio": 37.14,
+   "dur": 3.93,
+   "frase": "Because two things about this picture are not what they seem.",
+   "real": false,
+   "reuso": false,
+   "valor": "2",
+   "rotulo": "THINGS THAT AREN'T WHAT THEY SEEM",
+   "em": "Because two things"
+  },
+  {
+   "id": "P009",
+   "bloco": "B01d",
+   "tipo": "Dupla",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "arq2": "foto_encosta_negativo.jpg",
+   "enq": "dupla",
+   "inicio": 41.07,
+   "dur": 4.64,
+   "frase": "This man was probably not a sharpshooter. And he did not die here.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Alexander Gardner, July 1863. Library of Congress"
+   ],
+   "rot1": "THE FAMOUS PLATE",
+   "rot2": "THE SAME MAN, 40 YARDS AWAY",
+   "em": "This man was probably"
+  },
+  {
+   "id": "P010",
+   "bloco": "B02a",
+   "tipo": "KenBurns",
+   "arq": "foto_devils_den_1863.jpg",
+   "enq": "zoom-in",
+   "inicio": 45.71,
+   "dur": 5.36,
+   "frase": "In 1975, a historian named William Frassanito published a book built on a simple idea.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1863 · DEVIL'S DEN",
+    "",
+    "1863. Library of Congress"
+   ],
+   "num": [
+    "1975",
+    "WILLIAM FRASSANITO"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "In 1975, a historian"
+  },
+  {
+   "id": "P011",
+   "bloco": "B02a",
+   "tipo": "EntaoAgora",
+   "arq": "foto_vista_lrt_1863.jpg",
+   "arq2": "hoje_lrt_vista_highsmith.jpg",
+   "enq": "ea",
+   "inicio": 51.07,
+   "dur": 8.93,
+   "frase": "He took the original glass-plate photographs from Gettysburg out to the battlefield and compared them with the ground itself. Rock by rock, tree by tree.",
+   "real": true,
+   "reuso": false,
+   "rot1": "1863",
+   "rot2": "TODAY",
+   "em": "He took the original"
+  },
+  {
+   "id": "P012",
+   "bloco": "B02b",
+   "tipo": "Dupla",
+   "arq": "foto_encosta_negativo.jpg",
+   "arq2": "foto_toca_gardner_1863.jpg",
+   "enq": "dupla",
+   "inicio": 60.0,
+   "dur": 3.57,
+   "frase": "And the photographs began to argue with their own captions.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Alexander Gardner, July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "rot1": "PLATE 40",
+   "rot2": "PLATE 41",
+   "em": "And the photographs began"
+  },
+  {
+   "id": "P013",
+   "bloco": "B02b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:?",
+   "inicio": 63.57,
+   "dur": 3.93,
+   "frase": "So what are the Gettysburg photos you weren't supposed to see?",
+   "real": false,
+   "reuso": false,
+   "valor": "?",
+   "rotulo": "THE PHOTOS YOU WEREN'T SUPPOSED TO SEE",
+   "em": "So what are the Gettysburg"
+  },
+  {
+   "id": "P014",
+   "bloco": "B02b",
+   "tipo": "KenBurns",
+   "arq": "foto_galeria_gardner.jpg",
+   "enq": "zoom-in",
+   "inicio": 67.5,
+   "dur": 2.14,
+   "frase": "They weren't classified. They weren't censored.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "WASHINGTON, D.C. · GARDNER'S GALLERY",
+    "",
+    "Gardner's Gallery, 7th & D Streets, Washington"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "They weren't classified."
+  },
+  {
+   "id": "P015",
+   "bloco": "B02c",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_osullivan_estereo.jpg",
+   "enq": "zoom-out",
+   "inicio": 69.64,
+   "dur": 5.0,
+   "frase": "Some of them were on sale to the public within months of the battle.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · THE 'SHARPSHOOTER'S DEN'",
+    "",
+    "Timothy O'Sullivan (Gardner's gallery), July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Some of them were on sale"
+  },
+  {
+   "id": "P016",
+   "bloco": "B02c",
+   "tipo": "Dupla",
+   "arq": "foto_encosta_vista3.jpg",
+   "arq2": "foto_encosta_vista4.jpg",
+   "enq": "dupla",
+   "inicio": 74.64,
+   "dur": 7.86,
+   "frase": "The photos you weren't supposed to see are the other plates. The ones taken a few minutes earlier, a few yards away,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Gardner's gallery (Gardner/O'Sullivan), July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Gardner's gallery, July 1863. Library of Congress"
+   ],
+   "rot1": "THE SLOPE",
+   "rot2": "THE SLOPE, ANOTHER ANGLE",
+   "em": "The photos you weren't supposed"
+  },
+  {
+   "id": "P017",
+   "bloco": "B02c",
+   "tipo": "KenBurns",
+   "arq": "foto_linha_vista_b.jpg",
+   "enq": "pan-esq",
+   "inicio": 82.5,
+   "dur": 3.21,
+   "frase": "or from the other side of the same field.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "or from the other side"
+  },
+  {
+   "id": "P018",
+   "bloco": "B02d",
+   "tipo": "KenBurns",
+   "arq": "foto_rose_carroca.jpg",
+   "enq": "zoom-in",
+   "inicio": 85.71,
+   "dur": 3.57,
+   "frase": "The ones that show how the famous pictures were made.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 5, 1863 · ROSE WOODS",
+    "",
+    "Gardner's gallery, July 5, 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The ones that show how"
+  },
+  {
+   "id": "P019",
+   "bloco": "B02d",
+   "tipo": "DocGrifo",
+   "arq": "doc_nara_2013.png",
+   "enq": "100",
+   "inicio": 89.29,
+   "dur": 5.71,
+   "frase": "The National Archives puts it bluntly: for over 100 years, historians did not question the captions.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "2013 · U.S. NATIONAL ARCHIVES",
+    "",
+    "U.S. National Archives, 'The true story behind the Gettysburg sharpshooter' (2013)"
+   ],
+   "frase_doc": "historians did not question the captions",
+   "grifo": [
+    [
+     0.8214,
+     0.8854,
+     0.0821,
+     0.0135
+    ],
+    [
+     0.0429,
+     0.9014,
+     0.6393,
+     0.0141
+    ]
+   ],
+   "literal": true,
+   "em": "The National Archives puts it"
+  },
+  {
+   "id": "P020",
+   "bloco": "B02e",
+   "tipo": "KenBurns",
+   "arq": "foto_encosta_vista4.jpg",
+   "enq": "pan-dir",
+   "inicio": 95.0,
+   "dur": 3.93,
+   "frase": "Along the way, you'll see a body carried across a hillside,",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Gardner's gallery, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Along the way, you'll see"
+  },
+  {
+   "id": "P021",
+   "bloco": "B02e",
+   "tipo": "Dupla",
+   "arq": "foto_linha_vista_a.jpg",
+   "arq2": "foto_linha_vista_b.jpg",
+   "enq": "dupla",
+   "inicio": 98.93,
+   "dur": 3.21,
+   "frase": "the same dead men given to two different armies,",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "rot1": "VIEW A",
+   "rot2": "VIEW B",
+   "em": "the same dead men"
+  },
+  {
+   "id": "P022",
+   "bloco": "B02e",
+   "tipo": "KenBurns",
+   "arq": "foto_multidao_lincoln_1863.jpg",
+   "enq": "zoom-out",
+   "inicio": 102.14,
+   "dur": 3.93,
+   "frase": "and a crowd photograph that kept its secret for eighty-nine years.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 19, 1863 · GETTYSBURG",
+    "",
+    "Brady studio, November 19, 1863. National Archives (111-B-4975)"
+   ],
+   "num": [
+    "89",
+    "YEARS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "and a crowd photograph"
+  },
+  {
+   "id": "P023",
+   "bloco": "B03a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:invasao",
+   "inicio": 106.07,
+   "dur": 9.64,
+   "frase": "In the summer of 1863, the Civil War was in its third year. Robert E. Lee had taken the Confederate Army of Northern Virginia north, into Pennsylvania.",
+   "real": false,
+   "reuso": false,
+   "nome": "invasao",
+   "pontos": [
+    "FREDERICKSBURG",
+    "WASHINGTON",
+    "RICHMOND",
+    "GETTYSBURG",
+    "HARRISBURG"
+   ],
+   "linhas": [
+    [
+     "FREDERICKSBURG",
+     "GETTYSBURG",
+     "LEE MARCHES NORTH · JUNE 1863"
+    ]
+   ],
+   "nota": "",
+   "em": "In the summer of 1863,"
+  },
+  {
+   "id": "P024",
+   "bloco": "B03b",
+   "tipo": "KenBurns",
+   "arq": "foto_seminario_1863.jpg",
+   "enq": "pan-dir",
+   "inicio": 115.71,
+   "dur": 4.64,
+   "frase": "On the morning of July 1st, outside a small crossroads town called Gettysburg,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · SEMINARY RIDGE",
+    "",
+    "Brady's studio, July 1863. Library of Congress"
+   ],
+   "num": [
+    "JULY 1",
+    "1863"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "On the morning of July 1st,"
+  },
+  {
+   "id": "P025",
+   "bloco": "B03b",
+   "tipo": "KenBurns",
+   "arq": "foto_mcpherson_1863.jpg",
+   "enq": "zoom-in",
+   "inicio": 120.36,
+   "dur": 3.57,
+   "frase": "his men ran into the Union Army of the Potomac.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · McPHERSON'S WOODS",
+    "",
+    "Brady's studio, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "his men ran into"
+  },
+  {
+   "id": "P026",
+   "bloco": "B03c",
+   "tipo": "Mapa2D",
+   "arq": "mapa_ditterline_1863.jpg",
+   "enq": "mapa:campo",
+   "inicio": 123.93,
+   "dur": 4.64,
+   "frase": "For three days, the two armies fought across ridges, orchards and wheat fields,",
+   "real": false,
+   "reuso": false,
+   "nome": "campo",
+   "pontos": [
+    "GETTYSBURG",
+    "SEMINARY RIDGE",
+    "CEMETERY HILL",
+    "CULP'S HILL",
+    "LITTLE ROUND TOP",
+    "DEVIL'S DEN"
+   ],
+   "linhas": [],
+   "nota": "base: mapa de Ditterline (1863)",
+   "em": "For three days,"
+  },
+  {
+   "id": "P027",
+   "bloco": "B03c",
+   "tipo": "KenBurns",
+   "arq": "foto_little_round_top_1863.jpg",
+   "enq": "pan-esq",
+   "inicio": 128.57,
+   "dur": 2.5,
+   "frase": "around a hill called Little Round Top",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1863 · LITTLE ROUND TOP",
+    "",
+    "Brady/Gardner era photograph, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "around a hill called"
+  },
+  {
+   "id": "P028",
+   "bloco": "B03c",
+   "tipo": "KenBurns",
+   "arq": "foto_devils_den_1863.jpg",
+   "enq": "zoom-in",
+   "inicio": 131.07,
+   "dur": 3.93,
+   "frase": "and a jumble of giant boulders known as the Devil's Den.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1863 · DEVIL'S DEN",
+    "",
+    "1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "and a jumble of giant boulders"
+  },
+  {
+   "id": "P029",
+   "bloco": "B03c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:51,000+",
+   "inicio": 135.0,
+   "dur": 4.64,
+   "frase": "When it ended, more than fifty-one thousand men were dead, wounded or missing.",
+   "real": false,
+   "reuso": false,
+   "valor": "51,000+",
+   "rotulo": "DEAD, WOUNDED OR MISSING",
+   "em": "When it ended,"
+  },
+  {
+   "id": "P030",
+   "bloco": "B03d",
+   "tipo": "KenBurns",
+   "arq": "foto_culps_hill_arvores.jpg",
+   "enq": "tilt-cima",
+   "inicio": 139.64,
+   "dur": 2.86,
+   "frase": "It was the costliest battle of the war.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · CULP'S HILL",
+    "",
+    "Brady's studio, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.56,
+    1.12
+   ],
+   "para": [
+    0.5,
+    0.44,
+    1.12
+   ],
+   "em": "It was the costliest"
+  },
+  {
+   "id": "P031",
+   "bloco": "B03d",
+   "tipo": "KenBurns",
+   "arq": "foto_prisioneiros_1863.jpg",
+   "enq": "zoom-in",
+   "inicio": 142.5,
+   "dur": 4.29,
+   "frase": "On the Fourth of July, in the rain, Lee began his retreat.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · CONFEDERATE PRISONERS",
+    "",
+    "Brady's studio, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "On the Fourth of July,"
+  },
+  {
+   "id": "P032",
+   "bloco": "B03d",
+   "tipo": "KenBurns",
+   "arq": "foto_rose_pomar.jpg",
+   "enq": "pan-dir",
+   "inicio": 146.79,
+   "dur": 3.57,
+   "frase": "And the people of Gettysburg were left with the dead.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 5, 1863 · ROSE FARM",
+    "",
+    "Gardner's gallery, July 5, 1863. Library of Congress"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "And the people of Gettysburg"
+  },
+  {
+   "id": "P033",
+   "bloco": "B03d",
+   "tipo": "DocGrifo",
+   "arq": "doc_nps_2015.png",
+   "enq": "pagina",
+   "inicio": 150.36,
+   "dur": 5.71,
+   "frase": "In the words of the National Park Service, every farm field or garden was a graveyard.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NATIONAL PARK SERVICE · GETTYSBURG",
+    "",
+    ""
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "In the words of the National"
+  },
+  {
+   "id": "P034",
+   "bloco": "B04a",
+   "tipo": "KenBurns",
+   "arq": "foto_rose_enterro.jpg",
+   "enq": "zoom-in",
+   "inicio": 156.07,
+   "dur": 5.71,
+   "frase": "Into those fields, a day or two later, came a wagon full of glass and chemicals.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 5, 1863 · ROSE FARM",
+    "",
+    "Gardner's gallery, July 5, 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Into those fields,"
+  },
+  {
+   "id": "P035",
+   "bloco": "B04a",
+   "tipo": "Dupla",
+   "arq": "foto_gardner_1863.jpg",
+   "arq2": "foto_gardner_autorretrato.jpg",
+   "enq": "dupla",
+   "inicio": 161.79,
+   "dur": 5.71,
+   "frase": "Alexander Gardner was a Scottish-born photographer who had spent years running Mathew Brady's gallery in Washington.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1863 · ALEXANDER GARDNER",
+    "",
+    "James Gardner, 1863"
+   ],
+   "ficha2": [
+    "c. 1864 · ALEXANDER GARDNER",
+    "",
+    "Alexander Gardner, c. 1864"
+   ],
+   "rot1": "ALEXANDER GARDNER",
+   "rot2": "SCOTTISH-BORN PHOTOGRAPHER",
+   "em": "Alexander Gardner was"
+  },
+  {
+   "id": "P036",
+   "bloco": "B04a",
+   "tipo": "KenBurns",
+   "arq": "foto_brady_mcpherson.jpg",
+   "enq": "pan-dir",
+   "inicio": 167.5,
+   "dur": 5.0,
+   "frase": "Brady was the most famous name in American photography. But Brady had a habit.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · MATHEW BRADY AT McPHERSON'S WOODS",
+    "",
+    "Brady's studio, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Brady was the most famous"
+  },
+  {
+   "id": "P037",
+   "bloco": "B04b",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"PHOTOGRAPHED BY BRADY\"",
+   "inicio": 172.5,
+   "dur": 4.64,
+   "frase": "Pictures his employees made went out to the world as \"Photographed by Brady.\"",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"PHOTOGRAPHED BY BRADY\"",
+    "— THE CREDIT LINE ON HIS STUDIO'S PICTURES"
+   ],
+   "selo": "QUOTED",
+   "em": "Pictures his employees"
+  },
+  {
+   "id": "P038",
+   "bloco": "B04b",
+   "tipo": "KenBurns",
+   "arq": "foto_galeria_gardner.jpg",
+   "enq": "pan-esq",
+   "inicio": 177.14,
+   "dur": 8.21,
+   "frase": "In May of 1863, Gardner left and opened his own studio in Washington, and he took some of Brady's best people with him.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "WASHINGTON, D.C. · GARDNER'S GALLERY",
+    "",
+    "Gardner's Gallery, 7th & D Streets, Washington"
+   ],
+   "num": [
+    "MAY 1863",
+    "GARDNER'S GALLERY"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "In May of 1863,"
+  },
+  {
+   "id": "P039",
+   "bloco": "B04b",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_osullivan_estereo.jpg",
+   "enq": "zoom-in",
+   "inicio": 185.36,
+   "dur": 3.57,
+   "frase": "One of them was a young cameraman named Timothy O'Sullivan.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · THE 'SHARPSHOOTER'S DEN'",
+    "",
+    "Timothy O'Sullivan (Gardner's gallery), July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "One of them was a young"
+  },
+  {
+   "id": "P040",
+   "bloco": "B04c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:JULY 5",
+   "inicio": 188.93,
+   "dur": 5.0,
+   "frase": "On July 5th, two days after the fighting stopped, Gardner and O'Sullivan reached Gettysburg.",
+   "real": false,
+   "reuso": false,
+   "valor": "JULY 5",
+   "rotulo": "1863 · GARDNER REACHES GETTYSBURG",
+   "em": "On July 5th,"
+  },
+  {
+   "id": "P041",
+   "bloco": "B04c",
+   "tipo": "KenBurns",
+   "arq": "foto_brady_mcpherson.jpg",
+   "enq": "detalhe:0.62,0.55",
+   "inicio": 193.93,
+   "dur": 5.71,
+   "frase": "Brady's own team would arrive later, after most of the dead were already in the ground.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · MATHEW BRADY AT McPHERSON'S WOODS",
+    "",
+    "Brady's studio, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.62,
+    0.55,
+    1.35
+   ],
+   "para": [
+    0.62,
+    0.55,
+    1.55
+   ],
+   "em": "Brady's own team"
+  },
+  {
+   "id": "P042",
+   "bloco": "B04d",
+   "tipo": "Dupla",
+   "arq": "foto_rose_borda.jpg",
+   "arq2": "foto_rose_bosque.jpg",
+   "enq": "dupla",
+   "inicio": 199.64,
+   "dur": 6.79,
+   "frase": "For a few days, the most powerful pictures of the war belonged to the man who had quit him.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 5, 1863 · ROSE WOODS",
+    "",
+    "Gardner's gallery, July 5, 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 5, 1863 · ROSE WOODS",
+    "",
+    "Gardner's gallery, July 5, 1863. Library of Congress"
+   ],
+   "rot1": "JULY 1863",
+   "rot2": "GARDNER'S PLATES",
+   "em": "For a few days,"
+  },
+  {
+   "id": "P043",
+   "bloco": "B05a",
+   "tipo": "KenBurns",
+   "arq": "foto_john_burns.jpg",
+   "enq": "zoom-in",
+   "inicio": 206.43,
+   "dur": 3.93,
+   "frase": "To understand what happened next, you have to understand the camera.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Brady's studio, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "To understand what happened"
+  },
+  {
+   "id": "P044",
+   "bloco": "B05a",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:WET PLATE · 1863",
+   "inicio": 210.36,
+   "dur": 10.0,
+   "frase": "In 1863, a photographer coated a sheet of glass with wet chemicals, slid it into the camera, and opened the lens for anywhere from five to twenty seconds.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "WET PLATE · 1863",
+    "GLASS + WET CHEMICALS → CAMERA → 5–20 SECONDS → DEVELOP BEFORE IT DRIES"
+   ],
+   "selo": "SCHEMATIC",
+   "em": "In 1863, a photographer"
+  },
+  {
+   "id": "P045",
+   "bloco": "B05b",
+   "tipo": "KenBurns",
+   "arq": "foto_rose_carroca.jpg",
+   "enq": "detalhe:0.08,0.62",
+   "inicio": 220.36,
+   "dur": 5.71,
+   "frase": "Then he had minutes to develop the plate before it dried, inside a darkroom on wheels.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 5, 1863 · ROSE WOODS",
+    "",
+    "Gardner's gallery, July 5, 1863. Library of Congress"
+   ],
+   "de": [
+    0.08,
+    0.62,
+    1.35
+   ],
+   "para": [
+    0.08,
+    0.62,
+    1.55
+   ],
+   "em": "Then he had minutes"
+  },
+  {
+   "id": "P046",
+   "bloco": "B05b",
+   "tipo": "KenBurns",
+   "arq": "foto_culps_hill_bosque.jpg",
+   "enq": "zoom-in",
+   "inicio": 226.07,
+   "dur": 6.07,
+   "frase": "Nothing that moved could be photographed clearly. Not a charge, not a cannon firing, not a battle.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · CULP'S HILL",
+    "",
+    "Brady's studio, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Nothing that moved"
+  },
+  {
+   "id": "P047",
+   "bloco": "B05b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:5–20 SEC",
+   "inicio": 232.14,
+   "dur": 4.29,
+   "frase": "The camera could only record what was left when the fighting stopped.",
+   "real": false,
+   "reuso": false,
+   "valor": "5–20 SEC",
+   "rotulo": "ONE EXPOSURE",
+   "em": "The camera could only record"
+  },
+  {
+   "id": "P048",
+   "bloco": "B05c",
+   "tipo": "KenBurns",
+   "arq": "foto_caixao_mula.jpg",
+   "enq": "zoom-out",
+   "inicio": 236.43,
+   "dur": 2.5,
+   "frase": "And what was left lay perfectly still.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Gardner's gallery, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "And what was left"
+  },
+  {
+   "id": "P049",
+   "bloco": "B05c",
+   "tipo": "KenBurns",
+   "arq": "foto_galeria_gardner.jpg",
+   "enq": "detalhe:0.5,0.4",
+   "inicio": 238.93,
+   "dur": 5.36,
+   "frase": "Gardner knew his customers. Within months, he was selling these views from his Washington gallery,",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "WASHINGTON, D.C. · GARDNER'S GALLERY",
+    "",
+    "Gardner's Gallery, 7th & D Streets, Washington"
+   ],
+   "de": [
+    0.5,
+    0.4,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.4,
+    1.55
+   ],
+   "em": "Gardner knew his customers."
+  },
+  {
+   "id": "P050",
+   "bloco": "B05c",
+   "tipo": "Dupla",
+   "arq": "foto_toca_album_1866.jpg",
+   "arq2": "foto_toca_osullivan_estereo.jpg",
+   "enq": "dupla",
+   "inicio": 244.29,
+   "dur": 6.07,
+   "frase": "as large prints and as cards for the stereoscope, the 3D viewer that sat in Victorian parlors.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "PLATE 41 · 'HOME OF A REBEL SHARPSHOOTER'",
+    "",
+    "Alexander Gardner, Gardner's Photographic Sketch Book of the War, plate 41. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · THE 'SHARPSHOOTER'S DEN'",
+    "",
+    "Timothy O'Sullivan (Gardner's gallery), July 1863. Library of Congress"
+   ],
+   "rot1": "LARGE PRINT",
+   "rot2": "STEREO CARD",
+   "em": "as large prints"
+  },
+  {
+   "id": "P051",
+   "bloco": "B05d",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_frontispicio.jpg",
+   "enq": "pagina",
+   "inicio": 250.36,
+   "dur": 7.14,
+   "frase": "Years later, he would publish the best of them in a two-volume album, Gardner's Photographic Sketch Book of the War,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1866 · GARDNER'S PHOTOGRAPHIC SKETCH BOOK OF THE WAR",
+    "",
+    "A. R. Waud (del.), Gardner's Photographic Sketch Book of the War, 1866. Library of Congress"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "Years later,"
+  },
+  {
+   "id": "P052",
+   "bloco": "B05d",
+   "tipo": "Dupla",
+   "arq": "foto_toca_album_1866.jpg",
+   "arq2": "doc_sketchbook_p41.jpg",
+   "enq": "dupla",
+   "inicio": 257.5,
+   "dur": 5.71,
+   "frase": "each plate with a page of his own words beside it. Those words are the problem.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "PLATE 41 · 'HOME OF A REBEL SHARPSHOOTER'",
+    "",
+    "Alexander Gardner, Gardner's Photographic Sketch Book of the War, plate 41. Library of Congress"
+   ],
+   "ficha2": [
+    "1866 · SKETCH BOOK · TEXT FOR PLATE 41",
+    "",
+    "Gardner's Sketch Book (1866), text for plate 41"
+   ],
+   "rot1": "THE PLATE",
+   "rot2": "HIS WORDS",
+   "em": "each plate with a page"
+  },
+  {
+   "id": "P053",
+   "bloco": "B05d",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:1866",
+   "inicio": 263.21,
+   "dur": 2.5,
+   "frase": "Remember one more thing he wrote there.",
+   "real": false,
+   "reuso": false,
+   "valor": "1866",
+   "rotulo": "THE SKETCH BOOK",
+   "em": "Remember one more thing"
+  },
+  {
+   "id": "P054",
+   "bloco": "B05e",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:NOV 19",
+   "inicio": 265.71,
+   "dur": 5.0,
+   "frase": "He said he came back to Gettysburg on November 19th, 1863. Remember that date.",
+   "real": false,
+   "reuso": false,
+   "valor": "NOV 19",
+   "rotulo": "1863",
+   "em": "He said he came back"
+  },
+  {
+   "id": "P055",
+   "bloco": "B06a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:JULY 5–6",
+   "inicio": 270.71,
+   "dur": 3.21,
+   "frase": "On July 5th and 6th, Gardner's team worked fast.",
+   "real": false,
+   "reuso": false,
+   "valor": "JULY 5–6",
+   "rotulo": "1863",
+   "em": "On July 5th and 6th,"
+  },
+  {
+   "id": "P056",
+   "bloco": "B06a",
+   "tipo": "Dupla",
+   "arq": "foto_rose_pomar.jpg",
+   "arq2": "foto_rose_borda.jpg",
+   "enq": "dupla",
+   "inicio": 273.93,
+   "dur": 6.07,
+   "frase": "Near the Rose family's farm, they found the dead of the second day's fighting, many still unburied,",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 5, 1863 · ROSE FARM",
+    "",
+    "Gardner's gallery, July 5, 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 5, 1863 · ROSE WOODS",
+    "",
+    "Gardner's gallery, July 5, 1863. Library of Congress"
+   ],
+   "rot1": "THE ROSE FARM",
+   "rot2": "THE EDGE OF THE ROSE WOODS",
+   "em": "Near the Rose family's farm,"
+  },
+  {
+   "id": "P057",
+   "bloco": "B06a",
+   "tipo": "KenBurns",
+   "arq": "foto_rose_carroca.jpg",
+   "enq": "pan-carroca",
+   "inicio": 280.0,
+   "dur": 5.71,
+   "frase": "some gathered in rows for the burial parties. Look at the far left of this frame.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 5, 1863 · ROSE WOODS",
+    "",
+    "Gardner's gallery, July 5, 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.2,
+    0.6,
+    1.3
+   ],
+   "em": "some gathered in rows"
+  },
+  {
+   "id": "P058",
+   "bloco": "B06b",
+   "tipo": "Mapa2D",
+   "arq": "mapa_ditterline_1863.jpg",
+   "enq": "mapa:rose",
+   "inicio": 285.71,
+   "dur": 11.43,
+   "frase": "That wagon is very likely the photographers' own, caught by accident. In one open field nearby, O'Sullivan set up his camera in front of a line of bodies stretched across the grass.",
+   "real": false,
+   "reuso": true,
+   "nome": "rose",
+   "pontos": [
+    "ROSE FARM",
+    "DEVIL'S DEN",
+    "LITTLE ROUND TOP",
+    "GETTYSBURG"
+   ],
+   "linhas": [],
+   "nota": "",
+   "em": "That wagon is very likely"
+  },
+  {
+   "id": "P059",
+   "bloco": "B06b",
+   "tipo": "KenBurns",
+   "arq": "foto_linha_vista_a.jpg",
+   "enq": "zoom-in",
+   "inicio": 297.14,
+   "dur": 1.43,
+   "frase": "He made one exposure.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "He made one exposure."
+  },
+  {
+   "id": "P060",
+   "bloco": "B06c",
+   "tipo": "KenBurns",
+   "arq": "foto_linha_vista_b.jpg",
+   "enq": "pan-esq",
+   "inicio": 298.57,
+   "dur": 5.36,
+   "frase": "Then he moved around to the other side of the same row and made another.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Then he moved around"
+  },
+  {
+   "id": "P061",
+   "bloco": "B06c",
+   "tipo": "Dupla",
+   "arq": "foto_linha_vista_a.jpg",
+   "arq2": "foto_linha_vista_b.jpg",
+   "enq": "dupla",
+   "inicio": 303.93,
+   "dur": 8.57,
+   "frase": "The men in these pictures had been stripped of their shoes. In 1863, shoes were precious, and the living took them from the dead.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "rot1": "ONE SIDE",
+   "rot2": "THE OTHER SIDE",
+   "em": "The men in these pictures"
+  },
+  {
+   "id": "P062",
+   "bloco": "B06c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:THE SHOES",
+   "inicio": 312.5,
+   "dur": 0.71,
+   "frase": "Remember that.",
+   "real": false,
+   "reuso": false,
+   "valor": "THE SHOES",
+   "rotulo": "",
+   "em": "Remember that."
+  },
+  {
+   "id": "P063",
+   "bloco": "B06d",
+   "tipo": "KenBurns",
+   "arq": "foto_covas_inacabadas.jpg",
+   "enq": "zoom-in",
+   "inicio": 313.21,
+   "dur": 8.21,
+   "frase": "The shoes. These were real men, with names their families might never learn. Gardner would give them a name of a different kind.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · UNFINISHED GRAVES",
+    "",
+    "Gardner's gallery, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The shoes. These were real men,"
+  },
+  {
+   "id": "P064",
+   "bloco": "B07a",
+   "tipo": "EntaoAgora",
+   "arq": "foto_devils_den_1863.jpg",
+   "arq2": "hoje_devils_den_highsmith.jpg",
+   "enq": "ea",
+   "inicio": 321.43,
+   "dur": 3.57,
+   "frase": "On July 6th, the team climbed into the Devil's Den.",
+   "real": true,
+   "reuso": true,
+   "num": [
+    "JULY 6",
+    "1863"
+   ],
+   "rot1": "JULY 1863",
+   "rot2": "TODAY",
+   "em": "On July 6th, the team"
+  },
+  {
+   "id": "P065",
+   "bloco": "B07a",
+   "tipo": "KenBurns",
+   "arq": "foto_trincheiras_lrt.jpg",
+   "enq": "pan-dir",
+   "inicio": 325.0,
+   "dur": 7.14,
+   "frase": "Here, on the second day of the battle, Confederate soldiers had pushed up through the boulders toward Little Round Top.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1863 · LITTLE ROUND TOP",
+    "",
+    "1863. Library of Congress"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Here, on the second day"
+  },
+  {
+   "id": "P066",
+   "bloco": "B07a",
+   "tipo": "DocGrifo",
+   "arq": "foto_encosta_prancha40.jpg",
+   "enq": "pagina",
+   "inicio": 332.14,
+   "dur": 5.0,
+   "frase": "On the southern slope, the photographers came across the body of one young soldier.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "PLATE 40 · 'A SHARPSHOOTER'S LAST SLEEP'",
+    "",
+    "Alexander Gardner, Sketch Book plate 40, 1866. Library of Congress"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "On the southern slope,"
+  },
+  {
+   "id": "P067",
+   "bloco": "B07b",
+   "tipo": "KenBurns",
+   "arq": "foto_encosta_negativo.jpg",
+   "enq": "zoom-out",
+   "inicio": 337.14,
+   "dur": 2.14,
+   "frase": "Something about him held their attention.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Alexander Gardner, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Something about him"
+  },
+  {
+   "id": "P068",
+   "bloco": "B07b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:1 PLATE",
+   "inicio": 339.29,
+   "dur": 6.43,
+   "frase": "At a time when every plate cost time and money, they photographed this one man again and again.",
+   "real": false,
+   "reuso": false,
+   "valor": "1 PLATE",
+   "rotulo": "= TIME AND MONEY",
+   "em": "At a time when every plate"
+  },
+  {
+   "id": "P069",
+   "bloco": "B07b",
+   "tipo": "KenBurns",
+   "arq": "foto_encosta_negativo.jpg",
+   "enq": "pan-esq",
+   "inicio": 345.71,
+   "dur": 5.71,
+   "frase": "They photographed him lying among the rocks, a rifle beside him, a cap behind his head.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Alexander Gardner, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "They photographed him lying"
+  },
+  {
+   "id": "P070",
+   "bloco": "B07c",
+   "tipo": "Dupla",
+   "arq": "foto_encosta_vista3.jpg",
+   "arq2": "foto_encosta_vista4.jpg",
+   "enq": "dupla",
+   "inicio": 351.43,
+   "dur": 6.07,
+   "frase": "Then from another angle, and another, one with the boulder-strewn valley called the Slaughter Pen behind him.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Gardner's gallery (Gardner/O'Sullivan), July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Gardner's gallery, July 1863. Library of Congress"
+   ],
+   "rot1": "ANOTHER ANGLE",
+   "rot2": "AND ANOTHER",
+   "em": "Then from another angle,"
+  },
+  {
+   "id": "P071",
+   "bloco": "B07c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:6",
+   "inicio": 357.5,
+   "dur": 4.64,
+   "frase": "In all, the Park Service counts six separate images of this one soldier.",
+   "real": false,
+   "reuso": false,
+   "valor": "6",
+   "rotulo": "PLATES OF ONE SOLDIER",
+   "em": "In all, the Park Service counts"
+  },
+  {
+   "id": "P072",
+   "bloco": "B07c",
+   "tipo": "KenBurns",
+   "arq": "hoje_nps_encosta_thennow.jpg",
+   "enq": "zoom-in",
+   "inicio": 362.14,
+   "dur": 5.36,
+   "frase": "Four of them were made right here, on the slope where he most likely fell.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "THEN & NOW · WHERE HE MOST LIKELY FELL",
+    "",
+    "National Park Service"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "crop": [
+    0.0,
+    0.0,
+    0.62,
+    1.0
+   ],
+   "em": "Four of them were made"
+  },
+  {
+   "id": "P073",
+   "bloco": "B07d",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "enq": "zoom-in",
+   "inicio": 367.5,
+   "dur": 7.14,
+   "frase": "Which raises a question. If he died here, on the open hillside, how did he end up behind a wall?",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Which raises a question."
+  },
+  {
+   "id": "P074",
+   "bloco": "B08a",
+   "tipo": "Dupla",
+   "arq": "foto_encosta_vista4.jpg",
+   "arq2": "hoje_nps_stereo263_thennow.jpg",
+   "enq": "dupla",
+   "inicio": 374.64,
+   "dur": 2.14,
+   "frase": "Frassanito's answer was in the rocks.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Gardner's gallery, July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "THEN & NOW · GARDNER STEREO #263",
+    "",
+    "National Park Service"
+   ],
+   "rot1": "1863",
+   "rot2": "THE SAME ROCK TODAY",
+   "em": "Frassanito's answer"
+  },
+  {
+   "id": "P075",
+   "bloco": "B08a",
+   "tipo": "Dupla",
+   "arq": "foto_encosta_negativo.jpg",
+   "arq2": "foto_encosta_vista3.jpg",
+   "enq": "dupla",
+   "inicio": 376.79,
+   "dur": 7.5,
+   "frase": "In the background of four of the photographs, he could match the boulders to the southern edge of the Devil's Den.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Alexander Gardner, July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Gardner's gallery (Gardner/O'Sullivan), July 1863. Library of Congress"
+   ],
+   "rot1": "SOUTHERN SLOPE",
+   "rot2": "SOUTHERN SLOPE",
+   "em": "In the background of four"
+  },
+  {
+   "id": "P076",
+   "bloco": "B08b",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "enq": "detalhe:0.33,0.28",
+   "inicio": 384.29,
+   "dur": 8.21,
+   "frase": "In the other two, the famous ones, the background was different: a narrow gap between two huge rocks, closed by a stone wall.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.33,
+    0.28,
+    1.35
+   ],
+   "para": [
+    0.33,
+    0.28,
+    1.55
+   ],
+   "em": "In the other two,"
+  },
+  {
+   "id": "P077",
+   "bloco": "B08b",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:toca",
+   "inicio": 392.5,
+   "dur": 2.5,
+   "frase": "That spot is about forty yards away.",
+   "real": false,
+   "reuso": false,
+   "nome": "toca",
+   "pontos": [
+    "SLOPE",
+    "THE NOOK"
+   ],
+   "linhas": [
+    [
+     "SLOPE",
+     "THE NOOK",
+     "~40 YARDS"
+    ]
+   ],
+   "selo": "SCHEMATIC",
+   "nota": "esquema simples (2 pontos), não precisa de base cartográfica",
+   "em": "That spot is about forty yards"
+  },
+  {
+   "id": "P078",
+   "bloco": "B08b",
+   "tipo": "EntaoAgora",
+   "arq": "foto_encosta_negativo.jpg",
+   "arq2": "foto_toca_gardner_1863.jpg",
+   "enq": "ea",
+   "inicio": 395.0,
+   "dur": 3.57,
+   "frase": "The body is the same. The face is the same.",
+   "real": true,
+   "reuso": true,
+   "rot1": "THE SLOPE",
+   "rot2": "THE 'DEN'",
+   "em": "The body is the same."
+  },
+  {
+   "id": "P079",
+   "bloco": "B08c",
+   "tipo": "Dupla",
+   "arq": "foto_encosta_vista3.jpg",
+   "arq2": "foto_toca_osullivan_estereo.jpg",
+   "enq": "dupla",
+   "inicio": 398.57,
+   "dur": 9.29,
+   "frase": "The uniform is the same. The only explanation that fits is that, after taking their pictures on the slope, the photographers noticed that dramatic little nook,",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Gardner's gallery (Gardner/O'Sullivan), July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · THE 'SHARPSHOOTER'S DEN'",
+    "",
+    "Timothy O'Sullivan (Gardner's gallery), July 1863. Library of Congress"
+   ],
+   "rot1": "BEFORE",
+   "rot2": "AFTER",
+   "em": "The uniform is the same."
+  },
+  {
+   "id": "P080",
+   "bloco": "B08c",
+   "tipo": "KenBurns",
+   "arq": "hoje_devils_den_highsmith.jpg",
+   "enq": "zoom-in",
+   "inicio": 407.86,
+   "dur": 3.21,
+   "frase": "carried the dead man there, and photographed him again.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · DEVIL'S DEN",
+    "",
+    "Carol M. Highsmith Archive, Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "carried the dead man there,"
+  },
+  {
+   "id": "P081",
+   "bloco": "B08d",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_osullivan_estereo.jpg",
+   "enq": "zoom-in",
+   "inicio": 411.07,
+   "dur": 8.93,
+   "frase": "In one stereo view of the new setting, you can see a blanket under the body. It may be what they used to carry him.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · THE 'SHARPSHOOTER'S DEN'",
+    "",
+    "Timothy O'Sullivan (Gardner's gallery), July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "In one stereo view"
+  },
+  {
+   "id": "P082",
+   "bloco": "B08d",
+   "tipo": "DocGrifo",
+   "arq": "foto_toca_album_1866.jpg",
+   "enq": "pagina",
+   "inicio": 420.0,
+   "dur": 4.64,
+   "frase": "And then they made their picture. A body in a nest of stone.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "PLATE 41 · 'HOME OF A REBEL SHARPSHOOTER'",
+    "",
+    "Alexander Gardner, Gardner's Photographic Sketch Book of the War, plate 41. Library of Congress"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "And then they made their picture."
+  },
+  {
+   "id": "P083",
+   "bloco": "B08e",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "enq": "detalhe:0.42,0.52",
+   "inicio": 424.64,
+   "dur": 4.29,
+   "frase": "A knapsack under the head. And a rifle, leaning against the rock.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.42,
+    0.52,
+    1.35
+   ],
+   "para": [
+    0.42,
+    0.52,
+    1.55
+   ],
+   "em": "A knapsack under the head."
+  },
+  {
+   "id": "P084",
+   "bloco": "B09a",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "enq": "detalhe:0.42,0.52",
+   "inicio": 428.93,
+   "dur": 1.07,
+   "frase": "Remember the rifle.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.42,
+    0.52,
+    1.35
+   ],
+   "para": [
+    0.42,
+    0.52,
+    1.55
+   ],
+   "em": "Remember the rifle."
+  },
+  {
+   "id": "P085",
+   "bloco": "B09a",
+   "tipo": "DocGrifo",
+   "arq": "doc_loc_camera_3.png",
+   "enq": "prop",
+   "inicio": 430.0,
+   "dur": 6.07,
+   "frase": "According to the Library of Congress, it isn't the kind of weapon a sharpshooter would have used.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "LIBRARY OF CONGRESS · 'THE CASE OF THE MOVED BODY'",
+    "",
+    "Library of Congress, 'The Case of the Moved Body'"
+   ],
+   "frase_doc": "probably was the photographer's prop",
+   "grifo": [
+    [
+     0.4632,
+     0.62,
+     0.3263,
+     0.0192
+    ]
+   ],
+   "literal": false,
+   "em": "According to the Library"
+  },
+  {
+   "id": "P086",
+   "bloco": "B09a",
+   "tipo": "Dupla",
+   "arq": "foto_encosta_negativo.jpg",
+   "arq2": "foto_toca_gardner_1863.jpg",
+   "enq": "dupla",
+   "inicio": 436.07,
+   "dur": 9.29,
+   "frase": "And the same rifle turns up in a number of Gardner's other Gettysburg pictures. It was most likely the photographer's prop, carried from scene to scene.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Alexander Gardner, July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "rot1": "PLATE 40",
+   "rot2": "PLATE 41",
+   "em": "And the same rifle"
+  },
+  {
+   "id": "P087",
+   "bloco": "B09b",
+   "tipo": "KenBurns",
+   "arq": "foto_encosta_vista3.jpg",
+   "enq": "zoom-out",
+   "inicio": 445.36,
+   "dur": 3.57,
+   "frase": "Frassanito also noticed something about the time this all took.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Gardner's gallery (Gardner/O'Sullivan), July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Frassanito also noticed"
+  },
+  {
+   "id": "P088",
+   "bloco": "B09b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:~1 HOUR",
+   "inicio": 448.93,
+   "dur": 5.36,
+   "frase": "A whole series of photographs, roughly an hour of work, spent on a single body.",
+   "real": false,
+   "reuso": false,
+   "valor": "~1 HOUR",
+   "rotulo": "ONE BODY",
+   "em": "A whole series"
+  },
+  {
+   "id": "P089",
+   "bloco": "B09b",
+   "tipo": "KenBurns",
+   "arq": "foto_slaughter_pen.jpg",
+   "enq": "pan-esq",
+   "inicio": 454.29,
+   "dur": 6.79,
+   "frase": "It suggests he may have been one of the last bodies still unburied in that part of the field.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · THE SLAUGHTER PEN",
+    "",
+    "Gardner's gallery, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "It suggests he may have been"
+  },
+  {
+   "id": "P090",
+   "bloco": "B09c",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_album_1866.jpg",
+   "enq": "zoom-in",
+   "inicio": 461.07,
+   "dur": 5.0,
+   "frase": "Gardner may have felt he was running out of subjects. So he made one.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "PLATE 41 · 'HOME OF A REBEL SHARPSHOOTER'",
+    "",
+    "Alexander Gardner, Gardner's Photographic Sketch Book of the War, plate 41. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Gardner may have felt"
+  },
+  {
+   "id": "P091",
+   "bloco": "B09c",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:HE WAS REAL.",
+   "inicio": 466.07,
+   "dur": 3.57,
+   "frase": "None of this means the soldier wasn't real. He was.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "HE WAS REAL."
+   ],
+   "em": "None of this means"
+  },
+  {
+   "id": "P092",
+   "bloco": "B09d",
+   "tipo": "KenBurns",
+   "arq": "hoje_vista_lrt_highsmith.jpg",
+   "enq": "zoom-in",
+   "inicio": 469.64,
+   "dur": 6.43,
+   "frase": "He died at Gettysburg, and he was most likely an ordinary infantryman, killed as he climbed that slope.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · VIEW FROM LITTLE ROUND TOP",
+    "",
+    "Carol M. Highsmith Archive, Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "He died at Gettysburg,"
+  },
+  {
+   "id": "P093",
+   "bloco": "B09d",
+   "tipo": "DocGrifo",
+   "arq": "foto_toca_montada_1863.jpg",
+   "enq": "pagina",
+   "inicio": 476.07,
+   "dur": 8.93,
+   "frase": "But the man in the most famous photograph of the battle has spent more than a hundred and sixty years being somebody he never was.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN",
+    "",
+    "Alexander Gardner, July 1863. Library of Congress"
+   ],
+   "num": [
+    "160+",
+    "YEARS"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "But the man in the most famous"
+  },
+  {
+   "id": "P094",
+   "bloco": "B10a",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_album_1866.jpg",
+   "enq": "zoom-out",
+   "inicio": 485.0,
+   "dur": 7.5,
+   "frase": "But the strangest part of this story isn't what Gardner did with his camera. It's what he did with his pen.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "PLATE 41 · 'HOME OF A REBEL SHARPSHOOTER'",
+    "",
+    "Alexander Gardner, Gardner's Photographic Sketch Book of the War, plate 41. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "But the strangest part"
+  },
+  {
+   "id": "P095",
+   "bloco": "B10a",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_frontispicio.jpg",
+   "enq": "pagina",
+   "inicio": 492.5,
+   "dur": 5.71,
+   "frase": "When the Sketch Book came out after the war, each photograph faced a page of text.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1866 · GARDNER'S PHOTOGRAPHIC SKETCH BOOK OF THE WAR",
+    "",
+    "A. R. Waud (del.), Gardner's Photographic Sketch Book of the War, 1866. Library of Congress"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "When the Sketch Book came out"
+  },
+  {
+   "id": "P096",
+   "bloco": "B10a",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "enq": "zoom-in",
+   "inicio": 498.21,
+   "dur": 3.21,
+   "frase": "For the man by the wall, Gardner wrote this.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "For the man by the wall,"
+  },
+  {
+   "id": "P097",
+   "bloco": "B10b",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_p41.jpg",
+   "enq": "built",
+   "inicio": 501.43,
+   "dur": 8.21,
+   "frase": "\"The Confederate soldier had built up between two huge rocks, a stone wall, from the crevices of which he had directed his shots.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1866 · SKETCH BOOK · TEXT FOR PLATE 41",
+    "",
+    "Gardner's Sketch Book (1866), text for plate 41"
+   ],
+   "frase_doc": "The Confederate soldier had built up between two huge rocks, a stone wall, from the crevices of which he had directed his shots",
+   "grifo": [
+    [
+     0.3873,
+     0.4591,
+     0.3682,
+     0.0171
+    ],
+    [
+     0.145,
+     0.4776,
+     0.08,
+     0.0171
+    ]
+   ],
+   "literal": true,
+   "em": "\"The Confederate soldier"
+  },
+  {
+   "id": "P098",
+   "bloco": "B10b",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_p41.jpg",
+   "enq": "await",
+   "inicio": 509.64,
+   "dur": 5.36,
+   "frase": "Then he described how the sharpshooter \"had laid down upon his blanket to await death.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1866 · SKETCH BOOK · TEXT FOR PLATE 41",
+    "",
+    "Gardner's Sketch Book (1866), text for plate 41"
+   ],
+   "frase_doc": "had laid down upon his blanket to await death",
+   "grifo": [
+    [
+     0.1695,
+     0.5344,
+     0.2045,
+     0.0171
+    ]
+   ],
+   "literal": true,
+   "em": "Then he described how"
+  },
+  {
+   "id": "P099",
+   "bloco": "B10c",
+   "tipo": "KenBurns",
+   "arq": "foto_encosta_prancha40.jpg",
+   "enq": "zoom-in",
+   "inicio": 515.0,
+   "dur": 7.14,
+   "frase": "Now turn back one page, to plate forty, the same body on the slope. That page tells a different story.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "PLATE 40 · 'A SHARPSHOOTER'S LAST SLEEP'",
+    "",
+    "Alexander Gardner, Sketch Book plate 40, 1866. Library of Congress"
+   ],
+   "num": [
+    "PLATE 40",
+    "THE SAME MAN"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Now turn back one page,"
+  },
+  {
+   "id": "P100",
+   "bloco": "B10c",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_p40.jpg",
+   "enq": "fell",
+   "inicio": 522.14,
+   "dur": 6.79,
+   "frase": "A burial party \"found, in a secluded spot, a sharpshooter lying as he fell when struck by the bullet.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1866 · SKETCH BOOK · TEXT FOR PLATE 40",
+    "",
+    "Gardner's Sketch Book (1866), text for plate 40"
+   ],
+   "frase_doc": "found, in a secluded spot, a sharpshooter lying as he fell when struck by the bullet",
+   "grifo": [
+    [
+     0.3818,
+     0.4312,
+     0.3591,
+     0.0162
+    ],
+    [
+     0.1261,
+     0.4497,
+     0.0273,
+     0.0162
+    ]
+   ],
+   "literal": true,
+   "em": "A burial party"
+  },
+  {
+   "id": "P101",
+   "bloco": "B10c",
+   "tipo": "KenBurns",
+   "arq": "foto_encosta_negativo.jpg",
+   "enq": "zoom-in",
+   "inicio": 528.93,
+   "dur": 1.43,
+   "frase": "Lying as he fell.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Alexander Gardner, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Lying as he fell."
+  },
+  {
+   "id": "P102",
+   "bloco": "B10d",
+   "tipo": "Dupla",
+   "arq": "foto_encosta_prancha40.jpg",
+   "arq2": "foto_toca_album_1866.jpg",
+   "enq": "dupla",
+   "inicio": 530.36,
+   "dur": 3.21,
+   "frase": "Two plates, one man, two deaths, forty yards apart.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "PLATE 40 · 'A SHARPSHOOTER'S LAST SLEEP'",
+    "",
+    "Alexander Gardner, Sketch Book plate 40, 1866. Library of Congress"
+   ],
+   "ficha2": [
+    "PLATE 41 · 'HOME OF A REBEL SHARPSHOOTER'",
+    "",
+    "Alexander Gardner, Gardner's Photographic Sketch Book of the War, plate 41. Library of Congress"
+   ],
+   "rot1": "PLATE 40: \"LYING AS HE FELL\"",
+   "rot2": "PLATE 41: \"LAID DOWN TO AWAIT DEATH\"",
+   "em": "Two plates, one man,"
+  },
+  {
+   "id": "P103",
+   "bloco": "B10d",
+   "tipo": "DocGrifo",
+   "arq": "doc_nara_2013.png",
+   "enq": "100b",
+   "inicio": 533.57,
+   "dur": 3.93,
+   "frase": "And for over a hundred years, almost nobody questioned either one.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "2013 · U.S. NATIONAL ARCHIVES",
+    "",
+    "U.S. National Archives, 'The true story behind the Gettysburg sharpshooter' (2013)"
+   ],
+   "grifo": [
+    [
+     0.8214,
+     0.8854,
+     0.0821,
+     0.0135
+    ],
+    [
+     0.0429,
+     0.9014,
+     0.6393,
+     0.0141
+    ]
+   ],
+   "literal": false,
+   "em": "And for over a hundred years,"
+  },
+  {
+   "id": "P104",
+   "bloco": "B11a",
+   "tipo": "KenBurns",
+   "arq": "foto_linha_vista_a.jpg",
+   "enq": "zoom-out",
+   "inicio": 537.5,
+   "dur": 3.57,
+   "frase": "And then there are the men from the open field.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "And then there are the men"
+  },
+  {
+   "id": "P105",
+   "bloco": "B11a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:THE SHOES",
+   "inicio": 541.07,
+   "dur": 1.07,
+   "frase": "Remember the shoes.",
+   "real": false,
+   "reuso": false,
+   "valor": "THE SHOES",
+   "rotulo": "",
+   "em": "Remember the shoes."
+  },
+  {
+   "id": "P106",
+   "bloco": "B11a",
+   "tipo": "KenBurns",
+   "arq": "foto_colheita_prancha36.jpg",
+   "enq": "zoom-out",
+   "inicio": 542.14,
+   "dur": 8.57,
+   "frase": "Gardner used one of O'Sullivan's two exposures as plate thirty-six, and he gave it the title that made it famous: \"A Harvest of Death.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "PLATE 36 · 'A HARVEST OF DEATH'",
+    "",
+    "Timothy O'Sullivan, July 1863; print by Alexander Gardner. Library of Congress"
+   ],
+   "num": [
+    "PLATE 36",
+    "\"A HARVEST OF DEATH\""
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Gardner used one of"
+  },
+  {
+   "id": "P107",
+   "bloco": "B11a",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_p36.jpg",
+   "enq": "pagina",
+   "inicio": 550.71,
+   "dur": 2.5,
+   "frase": "His text says the dead are Confederates.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1866 · SKETCH BOOK · TEXT FOR PLATE 36",
+    "",
+    "Alexander Gardner, Gardner's Photographic Sketch Book of the War, vol. I (1866), text for plate 36"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "His text says"
+  },
+  {
+   "id": "P108",
+   "bloco": "B11b",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_p36.jpg",
+   "enq": "shoes",
+   "inicio": 553.21,
+   "dur": 3.21,
+   "frase": "\"The rebels represented in the photograph are without shoes.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1866 · SKETCH BOOK · TEXT FOR PLATE 36",
+    "",
+    "Alexander Gardner, Gardner's Photographic Sketch Book of the War, vol. I (1866), text for plate 36"
+   ],
+   "frase_doc": "The rebels represented in the photograph are without shoes.",
+   "grifo": [
+    [
+     0.683,
+     0.5059,
+     0.0489,
+     0.0162
+    ],
+    [
+     0.1205,
+     0.5244,
+     0.1739,
+     0.0162
+    ]
+   ],
+   "literal": true,
+   "em": "\"The rebels represented"
+  },
+  {
+   "id": "P109",
+   "bloco": "B11b",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_p36.jpg",
+   "enq": "treason",
+   "inicio": 556.43,
+   "dur": 7.14,
+   "frase": "It says they died attacking \"an army of patriots,\" and that \"they paid with life the price of their treason.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1866 · SKETCH BOOK · TEXT FOR PLATE 36",
+    "",
+    "Alexander Gardner, Gardner's Photographic Sketch Book of the War, vol. I (1866), text for plate 36"
+   ],
+   "frase_doc": "they paid with life the price of their treason",
+   "grifo": [
+    [
+     0.1545,
+     0.5994,
+     0.1886,
+     0.0162
+    ]
+   ],
+   "literal": true,
+   "em": "It says they died attacking"
+  },
+  {
+   "id": "P110",
+   "bloco": "B11b",
+   "tipo": "KenBurns",
+   "arq": "foto_reynolds_prancha37.jpg",
+   "enq": "zoom-in",
+   "inicio": 563.57,
+   "dur": 4.64,
+   "frase": "Now look at plate thirty-seven, which Gardner titled \"Field where General Reynolds Fell.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "PLATE 37 · 'FIELD WHERE GENERAL REYNOLDS FELL'",
+    "",
+    "Timothy O'Sullivan; print by Alexander Gardner. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Now look at plate thirty-seven,"
+  },
+  {
+   "id": "P111",
+   "bloco": "B11c",
+   "tipo": "KenBurns",
+   "arq": "foto_linha_vista_b.jpg",
+   "enq": "zoom-in",
+   "inicio": 568.21,
+   "dur": 3.57,
+   "frase": "It's the other exposure, the one from the opposite side.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "It's the other exposure,"
+  },
+  {
+   "id": "P112",
+   "bloco": "B11c",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_p37.jpg",
+   "enq": "own",
+   "inicio": 571.79,
+   "dur": 6.07,
+   "frase": "And the text for this one says: \"The dead shown in the photograph were our own men.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1866 · SKETCH BOOK · TEXT FOR PLATE 37",
+    "",
+    "Gardner's Sketch Book (1866), text for plate 37"
+   ],
+   "frase_doc": "The dead shown in the photograph were our own men.",
+   "grifo": [
+    [
+     0.1648,
+     0.5744,
+     0.2068,
+     0.0162
+    ]
+   ],
+   "literal": true,
+   "em": "And the text for this one says:"
+  },
+  {
+   "id": "P113",
+   "bloco": "B11c",
+   "tipo": "KenBurns",
+   "arq": "foto_linha_vista_b.jpg",
+   "enq": "pan-dir",
+   "inicio": 577.86,
+   "dur": 5.0,
+   "frase": "Our own men. Calm, peaceful, looking as if they might rise and keep fighting.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Our own men."
+  },
+  {
+   "id": "P114",
+   "bloco": "B11d",
+   "tipo": "Dupla",
+   "arq": "foto_linha_vista_a.jpg",
+   "arq2": "foto_linha_vista_b.jpg",
+   "enq": "dupla",
+   "inicio": 582.86,
+   "dur": 8.93,
+   "frase": "When Frassanito matched the bodies, it was the same row of dead. The same hands, the same feet, the same rumpled coat in the grass.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "selo": "SAME ROW",
+   "rot1": "PLATE 36: \"REBELS\"",
+   "rot2": "PLATE 37: \"OUR OWN MEN\"",
+   "em": "When Frassanito matched"
+  },
+  {
+   "id": "P115",
+   "bloco": "B11d",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:◆",
+   "inicio": 591.79,
+   "dur": 5.71,
+   "frase": "And on that coat, a diamond-shaped badge, the kind worn only by the Union Third Corps.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "◆",
+    "THE DIAMOND BADGE OF THE UNION THIRD CORPS",
+    "(VISIBLE ON A COAT IN BOTH VIEWS)"
+   ],
+   "selo": "SCHEMATIC",
+   "em": "And on that coat,"
+  },
+  {
+   "id": "P116",
+   "bloco": "B11d",
+   "tipo": "KenBurns",
+   "arq": "foto_colheita_prancha36.jpg",
+   "enq": "zoom-out",
+   "inicio": 597.5,
+   "dur": 3.21,
+   "frase": "The men Gardner sold as traitors were Union soldiers.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "PLATE 36 · 'A HARVEST OF DEATH'",
+    "",
+    "Timothy O'Sullivan, July 1863; print by Alexander Gardner. Library of Congress"
+   ],
+   "num": [
+    "UNION",
+    "SOLDIERS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "The men Gardner sold"
+  },
+  {
+   "id": "P117",
+   "bloco": "B12a",
+   "tipo": "KenBurns",
+   "arq": "foto_gardner_autorretrato.jpg",
+   "enq": "zoom-in",
+   "inicio": 600.71,
+   "dur": 7.5,
+   "frase": "Why would he do it? Gardner was a Union man, selling to a Northern audience in the middle of a war.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "c. 1864 · ALEXANDER GARDNER",
+    "",
+    "Alexander Gardner, c. 1864"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Why would he do it?"
+  },
+  {
+   "id": "P118",
+   "bloco": "B12a",
+   "tipo": "Dupla",
+   "arq": "foto_linha_vista_a.jpg",
+   "arq2": "foto_linha_vista_b.jpg",
+   "enq": "dupla",
+   "inicio": 608.21,
+   "dur": 5.71,
+   "frase": "A row of dead Confederates read one way. A row of fallen Union boys read another.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "rot1": "\"REBELS\"",
+   "rot2": "\"OUR OWN MEN\"",
+   "em": "A row of dead Confederates"
+  },
+  {
+   "id": "P119",
+   "bloco": "B12b",
+   "tipo": "Mapa2D",
+   "arq": "mapa_ditterline_1863.jpg",
+   "enq": "mapa:reynolds",
+   "inicio": 613.93,
+   "dur": 3.57,
+   "frase": "And Gardner's title for the second plate was wrong too.",
+   "real": false,
+   "reuso": true,
+   "nome": "reynolds",
+   "pontos": [
+    "McPHERSON'S WOODS",
+    "ROSE FARM",
+    "GETTYSBURG"
+   ],
+   "linhas": [
+    [
+     "McPHERSON'S WOODS",
+     "ROSE FARM",
+     ""
+    ]
+   ],
+   "nota": "McPherson's = onde Reynolds caiu; Rose farm = onde a foto foi feita",
+   "em": "And Gardner's title"
+  },
+  {
+   "id": "P120",
+   "bloco": "B12b",
+   "tipo": "KenBurns",
+   "arq": "foto_mcpherson_1863.jpg",
+   "enq": "pan-esq",
+   "inicio": 617.5,
+   "dur": 6.07,
+   "frase": "General John Reynolds was killed on the first day, in a different part of the battlefield altogether.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · McPHERSON'S WOODS",
+    "",
+    "Brady's studio, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "General John Reynolds"
+  },
+  {
+   "id": "P121",
+   "bloco": "B12c",
+   "tipo": "DocGrifo",
+   "arq": "doc_loc_camera_1.png",
+   "enq": "rearr",
+   "inicio": 623.57,
+   "dur": 10.36,
+   "frase": "The Library of Congress, looking back at the Sketch Book, says it plainly: Gardner sometimes rearranged the elements in his photographs or departed from the facts in his writing.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "LIBRARY OF CONGRESS · 'DOES THE CAMERA EVER LIE?'",
+    "",
+    "Library of Congress, 'Does the Camera Ever Lie?' (American Memory)"
+   ],
+   "frase_doc": "Gardner sometimes rearranged the elements in his photographs or departed from the facts in his writing",
+   "grifo": [
+    [
+     0.0711,
+     0.8343,
+     0.8816,
+     0.0357
+    ]
+   ],
+   "literal": true,
+   "em": "The Library of Congress,"
+  },
+  {
+   "id": "P122",
+   "bloco": "B12d",
+   "tipo": "KenBurns",
+   "arq": "foto_cemiterio_tipton.jpg",
+   "enq": "zoom-in",
+   "inicio": 633.93,
+   "dur": 9.29,
+   "frase": "The book came out in the years right after the war, when families across the country were still searching for sons who had never come home.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1880s · SOLDIERS' NATIONAL CEMETERY",
+    "",
+    "William H. Tipton, Soldiers' National Cemetery"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The book came out"
+  },
+  {
+   "id": "P123",
+   "bloco": "B12d",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_album_1866.jpg",
+   "enq": "zoom-out",
+   "inicio": 643.21,
+   "dur": 3.21,
+   "frase": "Gardner gave them stories. They just weren't always true.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "PLATE 41 · 'HOME OF A REBEL SHARPSHOOTER'",
+    "",
+    "Alexander Gardner, Gardner's Photographic Sketch Book of the War, plate 41. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Gardner gave them stories."
+  },
+  {
+   "id": "P124",
+   "bloco": "B13a",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_p41.jpg",
+   "enq": "pagina",
+   "inicio": 646.43,
+   "dur": 5.0,
+   "frase": "There's one more line in the sharpshooter's caption, and it's the boldest of all.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1866 · SKETCH BOOK · TEXT FOR PLATE 41",
+    "",
+    "Gardner's Sketch Book (1866), text for plate 41"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "There's one more line"
+  },
+  {
+   "id": "P125",
+   "bloco": "B13a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:NOV 19",
+   "inicio": 651.43,
+   "dur": 1.07,
+   "frase": "Remember November 19th.",
+   "real": false,
+   "reuso": false,
+   "valor": "NOV 19",
+   "rotulo": "1863",
+   "em": "Remember November 19th."
+  },
+  {
+   "id": "P126",
+   "bloco": "B13a",
+   "tipo": "KenBurns",
+   "arq": "hoje_devils_den_highsmith.jpg",
+   "enq": "zoom-in",
+   "inicio": 652.5,
+   "dur": 4.64,
+   "frase": "Gardner wrote that on that day he went back to the Devil's Den.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · DEVIL'S DEN",
+    "",
+    "Carol M. Highsmith Archive, Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Gardner wrote that on that day"
+  },
+  {
+   "id": "P127",
+   "bloco": "B13b",
+   "tipo": "DocGrifo",
+   "arq": "doc_sketchbook_p41.jpg",
+   "enq": "musket",
+   "inicio": 657.14,
+   "dur": 8.21,
+   "frase": "\"The musket, rusted by many storms, still leaned against the rock, and the skeleton of the soldier lay undisturbed within the mouldering uniform.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1866 · SKETCH BOOK · TEXT FOR PLATE 41",
+    "",
+    "Gardner's Sketch Book (1866), text for plate 41"
+   ],
+   "frase_doc": "The musket, rusted by many storms, still leaned against the rock, and the skeleton of the soldier lay undisturbed within the mouldering uniform",
+   "grifo": [
+    [
+     0.7057,
+     0.6121,
+     0.0505,
+     0.0171
+    ],
+    [
+     0.145,
+     0.6309,
+     0.45,
+     0.0171
+    ]
+   ],
+   "literal": true,
+   "em": "\"The musket, rusted"
+  },
+  {
+   "id": "P128",
+   "bloco": "B13b",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "enq": "zoom-out",
+   "inicio": 665.36,
+   "dur": 5.71,
+   "frase": "Four months, and nobody had found him. It's a haunting image. It's also almost certainly invented.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Four months, and nobody"
+  },
+  {
+   "id": "P129",
+   "bloco": "B13c",
+   "tipo": "KenBurns",
+   "arq": "foto_covas_inacabadas.jpg",
+   "enq": "pan-dir",
+   "inicio": 671.07,
+   "dur": 6.79,
+   "frase": "By November, burial parties had swept the field, and relic hunters had carried off anything that could be carried.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · UNFINISHED GRAVES",
+    "",
+    "Gardner's gallery, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "By November, burial parties"
+  },
+  {
+   "id": "P130",
+   "bloco": "B13c",
+   "tipo": "DocGrifo",
+   "arq": "doc_loc_camera_3.png",
+   "enq": "relic",
+   "inicio": 677.86,
+   "dur": 3.93,
+   "frase": "A rifle left in plain sight would never have survived them.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "LIBRARY OF CONGRESS · 'THE CASE OF THE MOVED BODY'",
+    "",
+    "Library of Congress, 'The Case of the Moved Body'"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "A rifle left in plain sight"
+  },
+  {
+   "id": "P131",
+   "bloco": "B13c",
+   "tipo": "KenBurns",
+   "arq": "foto_portao_cemiterio_1863.jpg",
+   "enq": "zoom-in",
+   "inicio": 681.79,
+   "dur": 5.36,
+   "frase": "But Gardner was right about one thing. He really was at Gettysburg on November 19th.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1863 · CEMETERY HILL GATEHOUSE",
+    "",
+    "1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "But Gardner was right"
+  },
+  {
+   "id": "P132",
+   "bloco": "B13d",
+   "tipo": "KenBurns",
+   "arq": "foto_multidao_discurso.jpg",
+   "enq": "pan-dir",
+   "inicio": 687.14,
+   "dur": 7.86,
+   "frase": "So was a crowd of more than ten thousand people. They had come to dedicate a new cemetery for the Union dead,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 19, 1863 · GETTYSBURG",
+    "",
+    "November 19, 1863. Library of Congress"
+   ],
+   "num": [
+    "10,000+",
+    "PEOPLE"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "So was a crowd"
+  },
+  {
+   "id": "P133",
+   "bloco": "B13d",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:\"A FEW APPROPRIATE REMARKS\"",
+   "inicio": 695.0,
+   "dur": 5.0,
+   "frase": "and the President of the United States had come to say a few words.",
+   "real": false,
+   "reuso": false,
+   "valor": "\"A FEW APPROPRIATE REMARKS\"",
+   "rotulo": "WHAT LINCOLN WAS INVITED TO GIVE",
+   "em": "and the President"
+  },
+  {
+   "id": "P134",
+   "bloco": "B14a",
+   "tipo": "KenBurns",
+   "arq": "foto_lincoln_8nov1863.jpg",
+   "enq": "tilt-cima",
+   "inicio": 700.0,
+   "dur": 6.79,
+   "frase": "Eleven days earlier, on November 8th, Abraham Lincoln had sat for a portrait in Gardner's own studio in Washington.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 8, 1863 · GARDNER'S STUDIO, WASHINGTON",
+    "",
+    "Alexander Gardner, November 8, 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.56,
+    1.12
+   ],
+   "para": [
+    0.5,
+    0.44,
+    1.12
+   ],
+   "em": "Eleven days earlier,"
+  },
+  {
+   "id": "P135",
+   "bloco": "B14a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:NOV 8",
+   "inicio": 706.79,
+   "dur": 0.71,
+   "frase": "This one.",
+   "real": false,
+   "reuso": false,
+   "valor": "NOV 8",
+   "rotulo": "1863 · GARDNER'S STUDIO",
+   "em": "This one."
+  },
+  {
+   "id": "P136",
+   "bloco": "B14a",
+   "tipo": "KenBurns",
+   "arq": "foto_multidao_lincoln_1863.jpg",
+   "enq": "zoom-out",
+   "inicio": 707.5,
+   "dur": 6.79,
+   "frase": "Now here is a photograph taken on the morning of November 19th, by a camera from Mathew Brady's studio.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 19, 1863 · GETTYSBURG",
+    "",
+    "Brady studio, November 19, 1863. National Archives (111-B-4975)"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Now here is a photograph"
+  },
+  {
+   "id": "P137",
+   "bloco": "B14b",
+   "tipo": "KenBurns",
+   "arq": "foto_multidao_lincoln_1863.jpg",
+   "enq": "pan-dir",
+   "inicio": 714.29,
+   "dur": 5.71,
+   "frase": "It shows the crowd around the speakers' platform, around noon, about three hours before Lincoln spoke.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 19, 1863 · GETTYSBURG",
+    "",
+    "Brady studio, November 19, 1863. National Archives (111-B-4975)"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "It shows the crowd"
+  },
+  {
+   "id": "P138",
+   "bloco": "B14b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:?",
+   "inicio": 720.0,
+   "dur": 1.43,
+   "frase": "Try to find him.",
+   "real": false,
+   "reuso": false,
+   "valor": "?",
+   "rotulo": "FIND THE PRESIDENT",
+   "em": "Try to find him."
+  },
+  {
+   "id": "P139",
+   "bloco": "B14b",
+   "tipo": "KenBurns",
+   "arq": "foto_multidao_lincoln_1863.jpg",
+   "enq": "pan-esq",
+   "inicio": 721.43,
+   "dur": 6.43,
+   "frase": "For eighty-nine years, nobody did. The glass plate sat with thousands of other Brady negatives in government hands.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 19, 1863 · GETTYSBURG",
+    "",
+    "Brady studio, November 19, 1863. National Archives (111-B-4975)"
+   ],
+   "num": [
+    "89",
+    "YEARS"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "For eighty-nine years,"
+  },
+  {
+   "id": "P140",
+   "bloco": "B14c",
+   "tipo": "DocGrifo",
+   "arq": "foto_cobb_nara.jpg",
+   "enq": "pagina",
+   "inicio": 727.86,
+   "dur": 8.21,
+   "frase": "Then, in 1952, the chief of the still photo section at the National Archives, a woman named Josephine Cobb, decided to look closer.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JOSEPHINE COBB · NATIONAL ARCHIVES",
+    "",
+    "National Archives (64-NA-1595)"
+   ],
+   "num": [
+    "1952",
+    "JOSEPHINE COBB"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "Then, in 1952,"
+  },
+  {
+   "id": "P141",
+   "bloco": "B14c",
+   "tipo": "KenBurns",
+   "arq": "foto_multidao_lincoln_1863.jpg",
+   "enq": "detalhe:0.43,0.41",
+   "inicio": 736.07,
+   "dur": 5.71,
+   "frase": "She found the President's bodyguard, Ward Hill Lamon. She worked out where the crowd was looking.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 19, 1863 · GETTYSBURG",
+    "",
+    "Brady studio, November 19, 1863. National Archives (111-B-4975)"
+   ],
+   "de": [
+    0.43,
+    0.41,
+    1.35
+   ],
+   "para": [
+    0.43,
+    0.41,
+    1.55
+   ],
+   "em": "She found the President's bodyguard,"
+  },
+  {
+   "id": "P142",
+   "bloco": "B14d",
+   "tipo": "KenBurns",
+   "arq": "foto_multidao_lincoln_1863.jpg",
+   "enq": "zoom-lincoln",
+   "inicio": 741.79,
+   "dur": 7.14,
+   "frase": "And when she enlarged that corner of the plate, there he was. Right here, in the middle of the crowd.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 19, 1863 · GETTYSBURG",
+    "",
+    "Brady studio, November 19, 1863. National Archives (111-B-4975)"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.418,
+    0.424,
+    3.2
+   ],
+   "em": "And when she enlarged"
+  },
+  {
+   "id": "P143",
+   "bloco": "B14d",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:1",
+   "inicio": 748.93,
+   "dur": 5.71,
+   "frase": "The National Archives calls it the first, and possibly the only, photograph of Lincoln at Gettysburg.",
+   "real": false,
+   "reuso": false,
+   "valor": "1",
+   "rotulo": "PHOTO OF LINCOLN AT GETTYSBURG",
+   "em": "The National Archives calls it"
+  },
+  {
+   "id": "P144",
+   "bloco": "B15a",
+   "tipo": "KenBurns",
+   "arq": "foto_multidao_discurso.jpg",
+   "enq": "zoom-out",
+   "inicio": 754.64,
+   "dur": 3.21,
+   "frase": "The main speaker that day talked for two hours.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 19, 1863 · GETTYSBURG",
+    "",
+    "November 19, 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "The main speaker"
+  },
+  {
+   "id": "P145",
+   "bloco": "B15a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:~2 MIN",
+   "inicio": 757.86,
+   "dur": 4.29,
+   "frase": "Then Lincoln stood up and spoke for about two minutes. Ten sentences.",
+   "real": false,
+   "reuso": false,
+   "valor": "~2 MIN",
+   "rotulo": "10 SENTENCES",
+   "em": "Then Lincoln stood up"
+  },
+  {
+   "id": "P146",
+   "bloco": "B15a",
+   "tipo": "KenBurns",
+   "arq": "foto_multidao_lincoln_1863.jpg",
+   "enq": "pan-esq",
+   "inicio": 762.14,
+   "dur": 4.29,
+   "frase": "Many people at the back of the crowd didn't hear a word.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 19, 1863 · GETTYSBURG",
+    "",
+    "Brady studio, November 19, 1863. National Archives (111-B-4975)"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Many people at the back"
+  },
+  {
+   "id": "P147",
+   "bloco": "B15b",
+   "tipo": "DocGrifo",
+   "arq": "doc_discurso_bliss.jpg",
+   "enq": "pagina",
+   "inicio": 766.43,
+   "dur": 10.71,
+   "frase": "In one of those sentences, he made a prediction. \"The world will little note, nor long remember what we say here, but it can never forget what they did here.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "ABRAHAM LINCOLN · GETTYSBURG ADDRESS (BLISS COPY)",
+    "",
+    "Abraham Lincoln, Gettysburg Address (Bliss copy)"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "In one of those sentences,"
+  },
+  {
+   "id": "P148",
+   "bloco": "B15b",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"THE WORLD WILL LITTLE NOTE, NOR LONG REMEMBER WHAT WE SAY HERE…\"",
+   "inicio": 777.14,
+   "dur": 2.5,
+   "frase": "He was wrong about the first half.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"THE WORLD WILL LITTLE NOTE, NOR LONG REMEMBER WHAT WE SAY HERE…\""
+   ],
+   "selo": "QUOTED",
+   "em": "He was wrong"
+  },
+  {
+   "id": "P149",
+   "bloco": "B15c",
+   "tipo": "KenBurns",
+   "arq": "hoje_cerimonia_2013.jpg",
+   "enq": "zoom-in",
+   "inicio": 779.64,
+   "dur": 7.14,
+   "frase": "The speech became one of the most famous ever given in English. But he was right about the second half,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "2013 · SOLDIERS' NATIONAL CEMETERY",
+    "",
+    "U.S. Navy photo by Danian Douglas, 2013"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The speech became"
+  },
+  {
+   "id": "P150",
+   "bloco": "B15c",
+   "tipo": "Dupla",
+   "arq": "foto_encosta_vista3.jpg",
+   "arq2": "foto_toca_album_1866.jpg",
+   "enq": "dupla",
+   "inicio": 786.79,
+   "dur": 2.86,
+   "frase": "and that's where Gardner's photographs come back in.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Gardner's gallery (Gardner/O'Sullivan), July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "PLATE 41 · 'HOME OF A REBEL SHARPSHOOTER'",
+    "",
+    "Alexander Gardner, Gardner's Photographic Sketch Book of the War, plate 41. Library of Congress"
+   ],
+   "rot1": "JULY 6, 1863",
+   "rot2": "THE SKETCH BOOK",
+   "em": "and that's where Gardner's"
+  },
+  {
+   "id": "P151",
+   "bloco": "B15c",
+   "tipo": "KenBurns",
+   "arq": "foto_rose_bosque.jpg",
+   "enq": "pan-esq",
+   "inicio": 789.64,
+   "dur": 4.29,
+   "frase": "Because what they did there is all the camera could ever show.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 5, 1863 · ROSE WOODS",
+    "",
+    "Gardner's gallery, July 5, 1863. Library of Congress"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Because what they did there"
+  },
+  {
+   "id": "P152",
+   "bloco": "B15d",
+   "tipo": "Dupla",
+   "arq": "foto_encosta_vista3.jpg",
+   "arq2": "foto_little_round_top_1863.jpg",
+   "enq": "dupla",
+   "inicio": 793.93,
+   "dur": 6.07,
+   "frase": "Not the charge up the slope, but the young man who didn't make it to the top.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Gardner's gallery (Gardner/O'Sullivan), July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "1863 · LITTLE ROUND TOP",
+    "",
+    "Brady/Gardner era photograph, July 1863. Library of Congress"
+   ],
+   "rot1": "THE SLOPE",
+   "rot2": "LITTLE ROUND TOP",
+   "em": "Not the charge up the slope,"
+  },
+  {
+   "id": "P153",
+   "bloco": "B15d",
+   "tipo": "KenBurns",
+   "arq": "foto_rose_pomar.jpg",
+   "enq": "zoom-out",
+   "inicio": 800.0,
+   "dur": 3.57,
+   "frase": "Not the speeches, but the fields that made them necessary.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 5, 1863 · ROSE FARM",
+    "",
+    "Gardner's gallery, July 5, 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Not the speeches,"
+  },
+  {
+   "id": "P154",
+   "bloco": "B16a",
+   "tipo": "KenBurns",
+   "arq": "hoje_parque_highsmith.jpg",
+   "enq": "pan-dir",
+   "inicio": 803.57,
+   "dur": 5.71,
+   "frase": "So what's still out there today? The dead Gardner photographed are no longer in those fields.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · GETTYSBURG",
+    "",
+    "Carol M. Highsmith Archive, Library of Congress"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "So what's still out there today?"
+  },
+  {
+   "id": "P155",
+   "bloco": "B16a",
+   "tipo": "EntaoAgora",
+   "arq": "foto_cemiterio_tipton.jpg",
+   "arq2": "hoje_cemiterio_highsmith.jpg",
+   "enq": "ea",
+   "inicio": 809.29,
+   "dur": 5.71,
+   "frase": "Most of the Union dead were moved to the new national cemetery, the one Lincoln dedicated.",
+   "real": true,
+   "reuso": true,
+   "rot1": "1880s",
+   "rot2": "TODAY",
+   "em": "Most of the Union dead"
+  },
+  {
+   "id": "P156",
+   "bloco": "B16b",
+   "tipo": "KenBurns",
+   "arq": "hoje_cerimonia_2013.jpg",
+   "enq": "pan-esq",
+   "inicio": 815.0,
+   "dur": 6.79,
+   "frase": "More than thirty-five hundred are buried there, and nine hundred seventy-nine of them are marked only by a number.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "2013 · SOLDIERS' NATIONAL CEMETERY",
+    "",
+    "U.S. Navy photo by Danian Douglas, 2013"
+   ],
+   "num": [
+    "979",
+    "UNKNOWN"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "More than thirty-five hundred"
+  },
+  {
+   "id": "P157",
+   "bloco": "B16b",
+   "tipo": "KenBurns",
+   "arq": "foto_covas_inacabadas.jpg",
+   "enq": "zoom-out",
+   "inicio": 821.79,
+   "dur": 3.57,
+   "frase": "The Confederate dead stayed in their field graves for years.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · UNFINISHED GRAVES",
+    "",
+    "Gardner's gallery, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "The Confederate dead stayed"
+  },
+  {
+   "id": "P158",
+   "bloco": "B16c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:1871–1873",
+   "inicio": 825.36,
+   "dur": 7.5,
+   "frase": "Between 1871 and 1873, most of them were dug up and carried south, the majority to Hollywood Cemetery in Richmond, Virginia.",
+   "real": false,
+   "reuso": false,
+   "valor": "1871–1873",
+   "rotulo": "CONFEDERATE DEAD MOVED SOUTH",
+   "em": "Between 1871 and 1873,"
+  },
+  {
+   "id": "P159",
+   "bloco": "B16c",
+   "tipo": "KenBurns",
+   "arq": "hoje_parque_highsmith.jpg",
+   "enq": "zoom-in",
+   "inicio": 832.86,
+   "dur": 2.86,
+   "frase": "And not all of the dead were found.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · GETTYSBURG",
+    "",
+    "Carol M. Highsmith Archive, Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "And not all of the dead"
+  },
+  {
+   "id": "P160",
+   "bloco": "B16c",
+   "tipo": "DocGrifo",
+   "arq": "doc_nps_2015.png",
+   "enq": "1996",
+   "inicio": 835.71,
+   "dur": 4.64,
+   "frase": "In 1996, erosion near a railroad embankment on the battlefield exposed human bones.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NATIONAL PARK SERVICE · GETTYSBURG",
+    "",
+    "National Park Service, Gettysburg National Military Park (2015)"
+   ],
+   "grifo": [
+    [
+     0.0667,
+     0.9301,
+     0.6667,
+     0.0108
+    ]
+   ],
+   "literal": false,
+   "em": "In 1996, erosion"
+  },
+  {
+   "id": "P161",
+   "bloco": "B16d",
+   "tipo": "KenBurns",
+   "arq": "hoje_cemiterio_highsmith.jpg",
+   "enq": "pan-dir",
+   "inicio": 840.36,
+   "dur": 5.36,
+   "frase": "Scientists from the Smithsonian confirmed they came from the battle. The man was never identified.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · SOLDIERS' NATIONAL CEMETERY",
+    "",
+    "Carol M. Highsmith Archive, Library of Congress"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Scientists from the Smithsonian"
+  },
+  {
+   "id": "P162",
+   "bloco": "B16d",
+   "tipo": "DocGrifo",
+   "arq": "doc_nps_2015.png",
+   "enq": "unknown",
+   "inicio": 845.71,
+   "dur": 6.79,
+   "frase": "In 1997 he was buried in the national cemetery, under a stone that reads simply, \"Unknown Civil War Remains.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NATIONAL PARK SERVICE · GETTYSBURG",
+    "",
+    "National Park Service, Gettysburg National Military Park (2015)"
+   ],
+   "frase_doc": "Unknown Civil War Remains",
+   "grifo": [
+    [
+     0.4667,
+     0.9783,
+     0.3267,
+     0.0108
+    ]
+   ],
+   "literal": true,
+   "em": "In 1997 he was buried"
+  },
+  {
+   "id": "P163",
+   "bloco": "B17a",
+   "tipo": "KenBurns",
+   "arq": "hoje_toca_2015.jpg",
+   "enq": "zoom-in",
+   "inicio": 852.5,
+   "dur": 5.36,
+   "frase": "And the sharpshooter's den? You can still stand in it. The two boulders are there.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "2015 · THE 'SHARPSHOOTER'S DEN' TODAY",
+    "",
+    "U.S. Army National Guard photo, July 11, 2015"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "And the sharpshooter's den?"
+  },
+  {
+   "id": "P164",
+   "bloco": "B17a",
+   "tipo": "EntaoAgora",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "arq2": "hoje_toca_2015.jpg",
+   "enq": "ea",
+   "inicio": 857.86,
+   "dur": 3.21,
+   "frase": "The low stone wall is still there, between them.",
+   "real": true,
+   "reuso": true,
+   "rot1": "1863",
+   "rot2": "2015",
+   "em": "The low stone wall"
+  },
+  {
+   "id": "P165",
+   "bloco": "B17b",
+   "tipo": "KenBurns",
+   "arq": "hoje_nps_toca_thennow.jpg",
+   "enq": "zoom-out",
+   "inicio": 861.07,
+   "dur": 7.5,
+   "frase": "Park Service photographers have shot it from the same angle as the 1863 plate, and the rocks line up almost perfectly.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "THEN & NOW · NATIONAL PARK SERVICE",
+    "",
+    "National Park Service, Gettysburg NMP"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Park Service photographers"
+  },
+  {
+   "id": "P166",
+   "bloco": "B17b",
+   "tipo": "Dupla",
+   "arq": "hoje_toca_2015.jpg",
+   "arq2": "hoje_devils_den_cc0.jpg",
+   "enq": "dupla",
+   "inicio": 868.57,
+   "dur": 7.14,
+   "frase": "Visitors climb in and crouch where the young soldier lay. Most of them have no idea he was carried there.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "2015 · THE 'SHARPSHOOTER'S DEN' TODAY",
+    "",
+    "U.S. Army National Guard photo, July 11, 2015"
+   ],
+   "ficha2": [
+    "TODAY · DEVIL'S DEN",
+    "",
+    "Wikimedia Commons user (CC0)"
+   ],
+   "rot1": "THE 'DEN' TODAY",
+   "rot2": "DEVIL'S DEN TODAY",
+   "em": "Visitors climb in"
+  },
+  {
+   "id": "P167",
+   "bloco": "B17b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:?",
+   "inicio": 875.71,
+   "dur": 2.5,
+   "frase": "As for who he was, nobody knows.",
+   "real": false,
+   "reuso": false,
+   "valor": "?",
+   "rotulo": "WHO WAS HE?",
+   "em": "As for who he was,"
+  },
+  {
+   "id": "P168",
+   "bloco": "B17c",
+   "tipo": "KenBurns",
+   "arq": "hoje_devils_den_cc0.jpg",
+   "enq": "pan-dir",
+   "inicio": 878.21,
+   "dur": 5.36,
+   "frase": "A Park Service historian, John Heiser, has argued, from where the fighting took place and",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · DEVIL'S DEN",
+    "",
+    "Wikimedia Commons user (CC0)"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "A Park Service historian,"
+  },
+  {
+   "id": "P169",
+   "bloco": "B17c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:\"2\"",
+   "inicio": 883.57,
+   "dur": 3.57,
+   "frase": "from what may be the number 2 on his knapsack,",
+   "real": false,
+   "reuso": false,
+   "valor": "\"2\"",
+   "rotulo": "ON THE KNAPSACK?",
+   "em": "from what may be the number 2"
+  },
+  {
+   "id": "P170",
+   "bloco": "B17c",
+   "tipo": "KenBurns",
+   "arq": "hoje_den_haer.jpg",
+   "enq": "zoom-in",
+   "inicio": 887.14,
+   "dur": 6.07,
+   "frase": "that he was probably a Georgian, from one of the brigades that attacked through the Den. Probably.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEVIL'S DEN · HAER SURVEY",
+    "",
+    "David W. Haas, HAER (NPS), Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "that he was probably a Georgian,"
+  },
+  {
+   "id": "P171",
+   "bloco": "B17d",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_album_1866.jpg",
+   "enq": "zoom-out",
+   "inicio": 893.21,
+   "dur": 6.79,
+   "frase": "After a hundred and sixty years, he has no name. He has only the role a photographer gave him.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "PLATE 41 · 'HOME OF A REBEL SHARPSHOOTER'",
+    "",
+    "Alexander Gardner, Gardner's Photographic Sketch Book of the War, plate 41. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "After a hundred and sixty years,"
+  },
+  {
+   "id": "P172",
+   "bloco": "B18a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:?",
+   "inicio": 900.0,
+   "dur": 3.93,
+   "frase": "So what are the Gettysburg photos you weren't supposed to see?",
+   "real": false,
+   "reuso": false,
+   "valor": "?",
+   "rotulo": "THE PHOTOS YOU WEREN'T SUPPOSED TO SEE",
+   "em": "So what are the Gettysburg photos"
+  },
+  {
+   "id": "P173",
+   "bloco": "B18a",
+   "tipo": "Dupla",
+   "arq": "foto_encosta_negativo.jpg",
+   "arq2": "foto_encosta_vista4.jpg",
+   "enq": "dupla",
+   "inicio": 903.93,
+   "dur": 7.14,
+   "frase": "The quiet pictures of a young man where he most likely fell, before he was carried to a better backdrop.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Alexander Gardner, July 1863. Library of Congress"
+   ],
+   "ficha2": [
+    "JULY 1863 · SOUTHERN SLOPE, DEVIL'S DEN",
+    "",
+    "Gardner's gallery, July 1863. Library of Congress"
+   ],
+   "rot1": "WHERE HE MOST LIKELY FELL",
+   "rot2": "BEFORE THE 'DEN'",
+   "em": "The quiet pictures"
+  },
+  {
+   "id": "P174",
+   "bloco": "B18b",
+   "tipo": "KenBurns",
+   "arq": "foto_linha_vista_b.jpg",
+   "enq": "zoom-in",
+   "inicio": 911.07,
+   "dur": 7.14,
+   "frase": "The second view of a row of dead men, the one that shows they were wearing the Union's own badge.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "num": [
+    "UNION",
+    "THIRD CORPS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The second view"
+  },
+  {
+   "id": "P175",
+   "bloco": "B18b",
+   "tipo": "Dupla",
+   "arq": "foto_multidao_lincoln_1863.jpg",
+   "arq2": "foto_lincoln_8nov1863.jpg",
+   "enq": "dupla",
+   "inicio": 918.21,
+   "dur": 8.21,
+   "frase": "And a crowd on November 19th, where the man who gave the most famous speech of the war stood unnoticed for eighty-nine years.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 19, 1863 · GETTYSBURG",
+    "",
+    "Brady studio, November 19, 1863. National Archives (111-B-4975)"
+   ],
+   "ficha2": [
+    "NOV 8, 1863 · GARDNER'S STUDIO, WASHINGTON",
+    "",
+    "Alexander Gardner, November 8, 1863. Library of Congress"
+   ],
+   "rot1": "NOV 19, 1863",
+   "rot2": "NOV 8, 1863",
+   "em": "And a crowd on November 19th,"
+  },
+  {
+   "id": "P176",
+   "bloco": "B18c",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "enq": "zoom-out",
+   "inicio": 926.43,
+   "dur": 6.43,
+   "frase": "Now look at the first photograph one more time. The wall. The knapsack. The rifle that wasn't his.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Now look at the first photograph"
+  },
+  {
+   "id": "P177",
+   "bloco": "B18d",
+   "tipo": "KenBurns",
+   "arq": "foto_toca_gardner_1863.jpg",
+   "enq": "detalhe:0.42,0.52",
+   "inicio": 932.86,
+   "dur": 4.64,
+   "frase": "Everything in this picture is real, and almost nothing in it is true.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JULY 1863 · DEVIL'S DEN, GETTYSBURG",
+    "",
+    "Alexander Gardner / Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "de": [
+    0.42,
+    0.52,
+    1.35
+   ],
+   "para": [
+    0.42,
+    0.52,
+    1.55
+   ],
+   "em": "Everything in this picture"
+  },
+  {
+   "id": "P178",
+   "bloco": "B18d",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:?",
+   "inicio": 937.5,
+   "dur": 8.21,
+   "frase": "Here's my question for you. If the dead are real, does it matter that the scene was arranged? Tell me in the comments.",
+   "real": false,
+   "reuso": false,
+   "valor": "?",
+   "rotulo": "DOES IT MATTER THAT THE SCENE WAS ARRANGED?",
+   "em": "Here's my question for you."
+  },
+  {
+   "id": "P179",
+   "bloco": "B18e",
+   "tipo": "Card",
+   "arq": "codigo",
+   "enq": "card",
+   "inicio": 945.71,
+   "dur": 6.07,
+   "frase": "This is Clearance Required. We go where the record goes. If you want the next one, subscribe.",
+   "real": false,
+   "reuso": false,
+   "em": "This is Clearance Required."
+  }
+ ]
+}
