@@ -1,0 +1,380 @@
+[
+ {
+  "id": "b01",
+  "cap": "UNIÃO DA VITÓRIA (PR) · JULHO DE 1983",
+  "marcha": 1,
+  "fala": "União da Vitória, no Paraná. Julho de mil novecentos e oitenta e três.\nNormalmente, o rio Iguaçu passa ali com uns dois metros e meio.\nNo dia dezoito, ele chegou a dez metros e quarenta e dois centímetros.\nA água cobriu a cidade. Dezoito pessoas morreram.",
+  "fala_tts": "[serious] União da Vitória, no Paraná. Julho de mil novecentos e oitenta e três.\nNormalmente, o rio Iguaçu passa ali com uns dois metros e meio.\nNo dia dezoito, ele chegou a dez metros e quarenta e dois centímetros.\nA água cobriu a cidade. Dezoito pessoas morreram.",
+  "tela": "União da Vitória, no Paraná. Julho de 1983. | Normalmente, o rio Iguaçu passa ali com uns 2,5 metros. | No dia 18, ele chegou a 10,42 metros. | A água cobriu a cidade. Dezoito pessoas morreram.",
+  "fonte": "F1, F2"
+ },
+ {
+  "id": "b02",
+  "cap": "BLUMENAU (SC) · JULHO DE 1983",
+  "marcha": 1,
+  "fala": "Uns duzentos quilômetros a leste, em Blumenau, o Itajaí-Açu passou dos quinze metros.\nEra a terceira cheia do rio naquele ano.\nE ainda viria uma quarta.",
+  "fala_tts": "Uns duzentos quilômetros a leste, em Blumenau, o Itajaí-Açu passou dos quinze metros.\nEra a terceira cheia do rio naquele ano.\nE ainda viria uma quarta.",
+  "tela": "Uns 200 quilômetros a leste, em Blumenau, | o Itajaí-Açu passou dos 15 metros. | Era a terceira cheia do rio naquele ano. | E ainda viria uma quarta.",
+  "fonte": "F3, F17"
+ },
+ {
+  "id": "b03",
+  "cap": "MOMBAÇA (CE) · 1983",
+  "marcha": 1,
+  "fala": "Agora, suba dois mil e quinhentos quilômetros no mapa.\nSertão do Ceará, no mesmo ano.\nEm Mombaça, o pluviômetro marcou menos da metade da chuva normal.\nEra o quinto ano de uma seca que tinha começado em mil novecentos e setenta e nove.",
+  "fala_tts": "[serious] Agora, suba dois mil e quinhentos quilômetros no mapa.\nSertão do Ceará, no mesmo ano.\nEm Mombaça, o pluviômetro marcou menos da metade da chuva normal.\nEra o quinto ano de uma seca que tinha começado em mil novecentos e setenta e nove.",
+  "tela": "Agora, suba 2.500 quilômetros no mapa. | Sertão do Ceará, no mesmo ano. | Em Mombaça, o pluviômetro marcou menos da metade da chuva normal. | Era o quinto ano de uma seca que tinha começado em 1979.",
+  "fonte": "F5, F10, F17"
+ },
+ {
+  "id": "b04",
+  "cap": "CANINDÉ (CE) · AGOSTO DE 1983",
+  "marcha": 1,
+  "fala": "Em agosto, segundo o Memorial da Democracia, cinco mil flagelados invadiram um armazém de comida do governo em Canindé, no Ceará.\nNo Nordeste, já eram dez milhões de flagelados.",
+  "fala_tts": "Em agosto, segundo o Memorial da Democracia, cinco mil flagelados invadiram um armazém de comida do governo em Canindé, no Ceará.\nNo Nordeste, já eram dez milhões de flagelados.",
+  "tela": "Em agosto, segundo o Memorial da Democracia, | 5 mil flagelados invadiram um armazém de comida do governo | em Canindé, no Ceará. | No Nordeste, já eram 10 milhões de flagelados.",
+  "fonte": "F8, F9"
+ },
+ {
+  "id": "b05",
+  "cap": "A PERGUNTA",
+  "marcha": 1,
+  "fala": "O mesmo país. O mesmo ano.\nUma parte com água demais. A outra sem água nenhuma.\nE agora, com o El Niño de dois mil e vinte e seis, muita gente pergunta: isso pode acontecer de novo?",
+  "fala_tts": "[curious] O mesmo país. O mesmo ano.\nUma parte com água demais. A outra sem água nenhuma.\n[intrigued] E agora, com o El Niño de dois mil e vinte e seis, muita gente pergunta: isso pode acontecer de novo?",
+  "tela": "O mesmo país. O mesmo ano. | Uma parte com água demais. A outra sem água nenhuma. | E agora, com o El Niño de 2026, muita gente pergunta: | isso pode acontecer de novo?",
+  "fonte": ""
+ },
+ {
+  "id": "b06",
+  "cap": "A PERGUNTA",
+  "marcha": 1,
+  "fala": "Isso nos leva às seguintes perguntas.\nO que aconteceu no Sul?\nO que aconteceu no sertão?\nPor que os dois ao mesmo tempo?\nE o que isso diz sobre dois mil e vinte e seis?",
+  "fala_tts": "[serious] Isso nos leva às seguintes perguntas.\n[curious] O que aconteceu no Sul?\n[curious] O que aconteceu no sertão?\n[curious] Por que os dois ao mesmo tempo?\n[intrigued] E o que isso diz sobre dois mil e vinte e seis?",
+  "tela": "Isso nos leva às seguintes perguntas. | O que aconteceu no Sul? | O que aconteceu no sertão? | Por que os dois ao mesmo tempo? | E o que isso diz sobre 2026?",
+  "fonte": ""
+ },
+ {
+  "id": "b07",
+  "cap": "A PERGUNTA",
+  "marcha": 2,
+  "fala": "Mas antes, olhe o mapa.\nO Sul recebe chuva o ano inteiro, trazida pelas frentes frias.\nO sertão depende de poucos meses de chuva, de fevereiro a maio.\nEm mil novecentos e oitenta e três, os dois foram empurrados para extremos opostos.",
+  "fala_tts": "[serious] Mas antes, olhe o mapa.\nO Sul recebe chuva o ano inteiro, trazida pelas frentes frias.\nO sertão depende de poucos meses de chuva, de fevereiro a maio.\nEm mil novecentos e oitenta e três, os dois foram empurrados para extremos opostos.",
+  "tela": "Mas antes, olhe o mapa. | O Sul recebe chuva o ano inteiro, trazida pelas frentes frias. | O sertão depende de poucos meses de chuva, de fevereiro a maio. | Em 1983, os dois foram empurrados para extremos opostos.",
+  "fonte": "F16 (longo-02 b24, longo-03 b07)"
+ },
+ {
+  "id": "b08",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU NO SUL",
+  "marcha": 2,
+  "fala": "Comece pelo Iguaçu.\nEle nasce perto de Curitiba e corre para o oeste, até as Cataratas.\nEm União da Vitória, ele faz curvas largas numa várzea plana.\nE a cidade cresceu dentro dessas curvas.",
+  "fala_tts": "Comece pelo Iguaçu.\nEle nasce perto de Curitiba e corre para o oeste, até as Cataratas.\nEm União da Vitória, ele faz curvas largas numa várzea plana.\nE a cidade cresceu dentro dessas curvas.",
+  "tela": "Comece pelo Iguaçu. | Ele nasce perto de Curitiba e corre para o oeste, até as Cataratas. | Em União da Vitória, ele faz curvas largas numa várzea plana. | E a cidade cresceu dentro dessas curvas.",
+  "fonte": "geografia (relevo ETOPO/Landsat)"
+ },
+ {
+  "id": "b09",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU NO SUL",
+  "marcha": 2,
+  "fala": "A chuva começou cedo.\nEm novembro de mil novecentos e oitenta e dois, o rio já tinha passado dos seis metros.\nEm maio de oitenta e três, de novo.\nNo começo de julho, ele estava em quase cinco metros. Cheio, mas sob controle.",
+  "fala_tts": "A chuva começou cedo.\nEm novembro de mil novecentos e oitenta e dois, o rio já tinha passado dos seis metros.\nEm maio de oitenta e três, de novo.\nNo começo de julho, ele estava em quase cinco metros. Cheio, mas sob controle.",
+  "tela": "A chuva começou cedo. | Em novembro de 1982, o rio já tinha passado dos 6 metros. | Em maio de 83, de novo. | No começo de julho, ele estava em quase 5 metros. | Cheio, mas sob controle.",
+  "fonte": "F2"
+ },
+ {
+  "id": "b10",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU NO SUL",
+  "marcha": 2,
+  "fala": "Aí veio uma semana inteira de chuva.\nSegundo a Defesa Civil do Paraná, choveram uns oitocentos milímetros.\nA média de junho e julho, somados, é de cento e trinta e oito.\nQuase seis vezes mais, em uma semana.",
+  "fala_tts": "[serious] Aí veio uma semana inteira de chuva.\nSegundo a Defesa Civil do Paraná, choveram uns oitocentos milímetros.\nA média de junho e julho, somados, é de cento e trinta e oito.\nQuase seis vezes mais, em uma semana.",
+  "tela": "Aí veio uma semana inteira de chuva. | Segundo a Defesa Civil do Paraná, choveram uns 800 milímetros. | A média de junho e julho, somados, é de 138. | Quase 6 vezes mais, em uma semana.",
+  "fonte": "F1"
+ },
+ {
+  "id": "b11",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU NO SUL",
+  "marcha": 2,
+  "fala": "O rio respondeu.\nEm quinze dias, subiu mais de cinco metros e meio, até os dez metros e quarenta e dois, no dia dezoito de julho.\nE ficou acima dos seis metros por mais de um mês.",
+  "fala_tts": "O rio respondeu.\nEm quinze dias, subiu mais de cinco metros e meio, até os dez metros e quarenta e dois, no dia dezoito de julho.\nE ficou acima dos seis metros por mais de um mês.",
+  "tela": "O rio respondeu. | Em 15 dias, subiu mais de 5,5 metros, | até os 10,42 metros, no dia 18 de julho. | E ficou acima dos 6 metros por mais de um mês.",
+  "fonte": "F2"
+ },
+ {
+  "id": "b12",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU NO SUL",
+  "marcha": 2,
+  "fala": "A cidade ficou sem luz, sem água potável e sem comida chegando.\nMais de duas mil e quatrocentas famílias ficaram desamparadas.\nMuitas foram para a casa de parentes. A maioria, para abrigos.",
+  "fala_tts": "A cidade ficou sem luz, sem água potável e sem comida chegando.\nMais de duas mil e quatrocentas famílias ficaram desamparadas.\nMuitas foram para a casa de parentes. A maioria, para abrigos.",
+  "tela": "A cidade ficou sem luz, sem água potável e sem comida chegando. | Mais de 2.400 famílias ficaram desamparadas. | Muitas foram para a casa de parentes. | A maioria, para abrigos.",
+  "fonte": "F1"
+ },
+ {
+  "id": "b13",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU NO SUL",
+  "marcha": 2,
+  "fala": "Do espaço, dá para ver o tamanho disso.\nEste é o satélite Landsat 4 sobre União da Vitória no dia três de julho, antes da cheia grande.\nE este é o mesmo lugar no dia quatro de agosto, mais de duas semanas depois do pico, com o rio ainda acima dos sete metros.\nA várzea virou um lago.",
+  "fala_tts": "Do espaço, dá para ver o tamanho disso.\nEste é o satélite Landsat 4 sobre União da Vitória no dia três de julho, antes da cheia grande.\nE este é o mesmo lugar no dia quatro de agosto, mais de duas semanas depois do pico, com o rio ainda acima dos sete metros.\nA várzea virou um lago.",
+  "tela": "Do espaço, dá para ver o tamanho disso. | Este é o satélite Landsat 4 sobre União da Vitória | no dia 3 de julho, antes da cheia grande. | E este é o mesmo lugar no dia 4 de agosto, | mais de duas semanas depois do pico, | com o rio ainda acima dos 7 metros. | A várzea virou um lago.",
+  "fonte": "F2 (7,42 m em 04/08), cenas Landsat em FATOS §imagem"
+ },
+ {
+  "id": "b14",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU NO SUL",
+  "marcha": 2,
+  "fala": "No vale do Itajaí, em Santa Catarina, o problema é outro.\nO rio corre apertado entre morros.\nQuando enche, não tem para onde se espalhar. Sobe.",
+  "fala_tts": "No vale do Itajaí, em Santa Catarina, o problema é outro.\nO rio corre apertado entre morros.\nQuando enche, não tem para onde se espalhar. Sobe.",
+  "tela": "No vale do Itajaí, em Santa Catarina, o problema é outro. | O rio corre apertado entre morros. | Quando enche, não tem para onde se espalhar. | Sobe.",
+  "fonte": "geografia (relevo)"
+ },
+ {
+  "id": "b15",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU NO SUL",
+  "marcha": 2,
+  "fala": "Em Blumenau, a régua do Itajaí-Açu passou dos dez metros em março.\nDos doze, em maio.\nNo dia nove de julho, chegou a quinze metros e trinta e quatro centímetros.\nE, em setembro, o rio encheu de novo.",
+  "fala_tts": "Em Blumenau, a régua do Itajaí-Açu passou dos dez metros em março.\nDos doze, em maio.\nNo dia nove de julho, chegou a quinze metros e trinta e quatro centímetros.\nE, em setembro, o rio encheu de novo.",
+  "tela": "Em Blumenau, a régua do Itajaí-Açu passou dos 10 metros em março. | Dos 12, em maio. | No dia 9 de julho, chegou a 15,34 metros. | E, em setembro, o rio encheu de novo.",
+  "fonte": "F3"
+ },
+ {
+  "id": "b16",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU NO SUL",
+  "marcha": 2,
+  "fala": "Santa Catarina inteira foi atingida.\nSegundo um levantamento da geógrafa Maria Lúcia Herrmann, da Universidade Federal de Santa Catarina, setenta e oito municípios decretaram calamidade pública em julho.\nForam quarenta e nove mortos e quase duzentos mil desabrigados.",
+  "fala_tts": "[serious] Santa Catarina inteira foi atingida.\nSegundo um levantamento da geógrafa Maria Lúcia Herrmann, da Universidade Federal de Santa Catarina, setenta e oito municípios decretaram calamidade pública em julho.\nForam quarenta e nove mortos e quase duzentos mil desabrigados.",
+  "tela": "Santa Catarina inteira foi atingida. | Segundo um levantamento da geógrafa Maria Lúcia Herrmann, da UFSC, | 78 municípios decretaram calamidade pública em julho. | Foram 49 mortos e quase 200 mil desabrigados.",
+  "fonte": "F4"
+ },
+ {
+  "id": "b17",
+  "cap": "PERGUNTA 2/4 · O QUE ACONTECEU NO SERTÃO",
+  "marcha": 2,
+  "fala": "Agora, o sertão.\nLá, a seca não tinha começado em oitenta e três.\nEla vinha desde mil novecentos e setenta e nove.",
+  "fala_tts": "[curious] Agora, o sertão.\nLá, a seca não tinha começado em oitenta e três.\nEla vinha desde mil novecentos e setenta e nove.",
+  "tela": "Agora, o sertão. | Lá, a seca não tinha começado em 83. | Ela vinha desde 1979.",
+  "fonte": "F10"
+ },
+ {
+  "id": "b18",
+  "cap": "PERGUNTA 2/4 · O QUE ACONTECEU NO SERTÃO",
+  "marcha": 2,
+  "fala": "Mombaça, no centro do Ceará, tem um pluviômetro do Dnócs que mede a chuva desde mil novecentos e dez.\nNa média, chove ali uns setecentos e oitenta milímetros por ano.\nEm oitenta e um, choveram quatrocentos e setenta e dois.\nEm oitenta e dois, quatrocentos e sete.\nE em oitenta e três, trezentos e sessenta e seis. Menos da metade.",
+  "fala_tts": "Mombaça, no centro do Ceará, tem um pluviômetro do Dnócs que mede a chuva desde mil novecentos e dez.\nNa média, chove ali uns setecentos e oitenta milímetros por ano.\nEm oitenta e um, choveram quatrocentos e setenta e dois.\nEm oitenta e dois, quatrocentos e sete.\n[serious] E em oitenta e três, trezentos e sessenta e seis. Menos da metade.",
+  "tela": "Mombaça, no centro do Ceará, tem um pluviômetro do DNOCS | que mede a chuva desde 1910. | Na média, chove ali uns 780 milímetros por ano. | Em 81, choveram 472. | Em 82, 407. | E em 83, 366. Menos da metade.",
+  "fonte": "F5"
+ },
+ {
+  "id": "b19",
+  "cap": "PERGUNTA 2/4 · O QUE ACONTECEU NO SERTÃO",
+  "marcha": 2,
+  "fala": "No sertão, um ano ruim se aguenta.\nTrês seguidos, não.\nNo primeiro, a roça falha. No segundo, acaba o que estava guardado.\nNo terceiro, secam os açudes pequenos e o gado começa a morrer.",
+  "fala_tts": "No sertão, um ano ruim se aguenta.\nTrês seguidos, não.\nNo primeiro, a roça falha. No segundo, acaba o que estava guardado.\nNo terceiro, secam os açudes pequenos e o gado começa a morrer.",
+  "tela": "No sertão, um ano ruim se aguenta. | Três seguidos, não. | No primeiro, a roça falha. | No segundo, acaba o que estava guardado. | No terceiro, secam os açudes pequenos e o gado começa a morrer.",
+  "fonte": "didático (Hipótese de narração, sem número)"
+ },
+ {
+  "id": "b20",
+  "cap": "PERGUNTA 2/4 · O QUE ACONTECEU NO SERTÃO",
+  "marcha": 2,
+  "fala": "Sem colheita, o que sobrava era o trabalho que o governo oferecia nas frentes de emergência: obras de açude, de estrada e de poço.\nPelos números da Sudene, em mil novecentos e oitenta e três, mais de três milhões de pessoas se alistaram nelas.\nEm setenta e nove, tinham sido menos de quinhentas mil.",
+  "fala_tts": "Sem colheita, o que sobrava era o trabalho que o governo oferecia nas frentes de emergência: obras de açude, de estrada e de poço.\nPelos números da Sudene, em mil novecentos e oitenta e três, mais de três milhões de pessoas se alistaram nelas.\nEm setenta e nove, tinham sido menos de quinhentas mil.",
+  "tela": "Sem colheita, o que sobrava era o trabalho que o governo oferecia | nas frentes de emergência: | obras de açude, de estrada e de poço. | Pelos números da Sudene, em 1983, | mais de 3 milhões de pessoas se alistaram nelas. | Em 79, tinham sido menos de 500 mil.",
+  "fonte": "F7"
+ },
+ {
+  "id": "b21",
+  "cap": "PERGUNTA 2/4 · O QUE ACONTECEU NO SERTÃO",
+  "marcha": 2,
+  "fala": "Em agosto, a fome virou revolta.\nFlagelados ocuparam a sede do governo do Ceará, em Fortaleza, pedindo comida.\nDois dias depois, em Canindé, a multidão invadiu o armazém da Cobal, a companhia de abastecimento do governo, e levou os alimentos.",
+  "fala_tts": "[serious] Em agosto, a fome virou revolta.\nFlagelados ocuparam a sede do governo do Ceará, em Fortaleza, pedindo comida.\nDois dias depois, em Canindé, a multidão invadiu o armazém da Cobal, a companhia de abastecimento do governo, e levou os alimentos.",
+  "tela": "Em agosto, a fome virou revolta. | Flagelados ocuparam a sede do governo do Ceará, em Fortaleza, | pedindo comida. | Dois dias depois, em Canindé, a multidão invadiu o armazém da Cobal, | a companhia de abastecimento do governo, | e levou os alimentos.",
+  "fonte": "F8"
+ },
+ {
+  "id": "b22",
+  "cap": "PERGUNTA 2/4 · O QUE ACONTECEU NO SERTÃO",
+  "marcha": 2,
+  "fala": "Quantas pessoas morreram?\nNinguém contou.\nNão existe um número oficial confiável, e as estimativas que circulam variam demais.\nMas os relatos da época falam de muitas crianças mortas de fome e de doenças da desnutrição.",
+  "fala_tts": "Quantas pessoas morreram?\nNinguém contou.\nNão existe um número oficial confiável, e as estimativas que circulam variam demais.\n[serious] Mas os relatos da época falam de muitas crianças mortas de fome e de doenças da desnutrição.",
+  "tela": "Quantas pessoas morreram? | Ninguém contou. | Não existe um número oficial confiável, | e as estimativas que circulam variam demais. | Mas os relatos da época falam de muitas crianças mortas | de fome e de doenças da desnutrição.",
+  "fonte": "F9b (número fora), Memorial"
+ },
+ {
+  "id": "b23",
+  "cap": "PERGUNTA 2/4 · O QUE ACONTECEU NO SERTÃO",
+  "marcha": 2,
+  "fala": "Foi uma das maiores secas do século vinte no Brasil.\nSó em mil novecentos e oitenta e quatro a chuva voltou ao normal.",
+  "fala_tts": "Foi uma das maiores secas do século vinte no Brasil.\nSó em mil novecentos e oitenta e quatro a chuva voltou ao normal.",
+  "tela": "Foi uma das maiores secas do século 20 no Brasil. | Só em 1984 a chuva voltou ao normal.",
+  "fonte": "F10, F5 (1984 = 101% da média em Mombaça)"
+ },
+ {
+  "id": "b24",
+  "cap": "PERGUNTA 3/4 · POR QUE OS DOIS AO MESMO TEMPO",
+  "marcha": 2,
+  "fala": "Então, por que o Brasil teve as duas coisas no mesmo ano?\nA resposta não está no Brasil.\nEstá no meio do oceano Pacífico.",
+  "fala_tts": "[curious] Então, por que o Brasil teve as duas coisas no mesmo ano?\nA resposta não está no Brasil.\nEstá no meio do oceano Pacífico.",
+  "tela": "Então, por que o Brasil teve as duas coisas no mesmo ano? | A resposta não está no Brasil. | Está no meio do oceano Pacífico.",
+  "fonte": ""
+ },
+ {
+  "id": "b25",
+  "cap": "PERGUNTA 3/4 · POR QUE OS DOIS AO MESMO TEMPO",
+  "marcha": 2,
+  "fala": "Entre oitenta e dois e oitenta e três, o Pacífico tropical esquentou como nunca, desde que as medições modernas começaram, em mil novecentos e cinquenta.\nPelo índice que a NOAA usa hoje para comparar El Niños, aquele chegou a dois graus e quatro décimos acima do normal.\nAté hoje, é o recorde.",
+  "fala_tts": "Entre oitenta e dois e oitenta e três, o Pacífico tropical esquentou como nunca, desde que as medições modernas começaram, em mil novecentos e cinquenta.\nPelo índice que a NOAA usa hoje para comparar El Niños, aquele chegou a dois graus e quatro décimos acima do normal.\n[serious] Até hoje, é o recorde.",
+  "tela": "Entre 82 e 83, o Pacífico tropical esquentou como nunca, | desde que as medições modernas começaram, em 1950. | Pelo índice que a NOAA usa hoje para comparar El Niños, | aquele chegou a 2,4 graus acima do normal. | Até hoje, é o recorde.",
+  "fonte": "F11"
+ },
+ {
+  "id": "b26",
+  "cap": "PERGUNTA 3/4 · POR QUE OS DOIS AO MESMO TEMPO",
+  "marcha": 2,
+  "fala": "No nosso vídeo sobre o El Niño, a gente mostrou como isso funciona.\nO ar sobe em cima da água quente do Pacífico.\nE desce em outros lugares. Um deles é o norte do Nordeste.\nE ar que desce não forma nuvem.",
+  "fala_tts": "No nosso vídeo sobre o El Niño, a gente mostrou como isso funciona.\nO ar sobe em cima da água quente do Pacífico.\nE desce em outros lugares. Um deles é o norte do Nordeste.\nE ar que desce não forma nuvem.",
+  "tela": "No nosso vídeo sobre o El Niño, a gente mostrou como isso funciona. | O ar sobe em cima da água quente do Pacífico. | E desce em outros lugares. Um deles é o norte do Nordeste. | E ar que desce não forma nuvem.",
+  "fonte": "F16"
+ },
+ {
+  "id": "b27",
+  "cap": "PERGUNTA 3/4 · POR QUE OS DOIS AO MESMO TEMPO",
+  "marcha": 2,
+  "fala": "E o calendário piorou tudo.\nO pico do El Niño foi em dezembro e janeiro.\nBem na entrada da época de chuva do sertão, de fevereiro a maio.\nO inverno do sertanejo veio fraco, pelo terceiro ano seguido.",
+  "fala_tts": "E o calendário piorou tudo.\nO pico do El Niño foi em dezembro e janeiro.\nBem na entrada da época de chuva do sertão, de fevereiro a maio.\nO inverno do sertanejo veio fraco, pelo terceiro ano seguido.",
+  "tela": "E o calendário piorou tudo. | O pico do El Niño foi em dezembro e janeiro. | Bem na entrada da época de chuva do sertão, de fevereiro a maio. | O inverno do sertanejo veio fraco, pelo terceiro ano seguido.",
+  "fonte": "F11 (DJF 1983 +2,40; MAM +1,30), F5"
+ },
+ {
+  "id": "b28",
+  "cap": "PERGUNTA 3/4 · POR QUE OS DOIS AO MESMO TEMPO",
+  "marcha": 2,
+  "fala": "No Sul, acontece o contrário.\nO El Niño reforça uma corrente de vento lá no alto, o jato subtropical.\nEle segura as frentes frias e as tempestades em cima da região.\nE, em oitenta e três, um estudo do Inpe também encontrou bloqueios: o tempo travado no mesmo lugar, chovendo por dias.",
+  "fala_tts": "No Sul, acontece o contrário.\nO El Niño reforça uma corrente de vento lá no alto, o jato subtropical.\nEle segura as frentes frias e as tempestades em cima da região.\nE, em oitenta e três, um estudo do Inpe também encontrou bloqueios: o tempo travado no mesmo lugar, chovendo por dias.",
+  "tela": "No Sul, acontece o contrário. | O El Niño reforça uma corrente de vento lá no alto, o jato subtropical. | Ele segura as frentes frias e as tempestades em cima da região. | E, em 83, um estudo do Inpe também encontrou bloqueios: | o tempo travado no mesmo lugar, chovendo por dias.",
+  "fonte": "F14"
+ },
+ {
+  "id": "b29",
+  "cap": "PERGUNTA 3/4 · POR QUE OS DOIS AO MESMO TEMPO",
+  "marcha": 2,
+  "fala": "E aqui tem um detalhe que quase ninguém percebe.\nEm julho de oitenta e três, quando o Iguaçu bateu os dez metros, o Pacífico já estava esfriando.\nO El Niño estava acabando.\nE mesmo assim, a pior enchente veio ali.",
+  "fala_tts": "[intrigued] E aqui tem um detalhe que quase ninguém percebe.\nEm julho de oitenta e três, quando o Iguaçu bateu os dez metros, o Pacífico já estava esfriando.\nO El Niño estava acabando.\n[serious] E mesmo assim, a pior enchente veio ali.",
+  "tela": "E aqui tem um detalhe que quase ninguém percebe. | Em julho de 83, quando o Iguaçu bateu os 10 metros, | o Pacífico já estava esfriando. | O El Niño estava acabando. | E mesmo assim, a pior enchente veio ali.",
+  "fonte": "F11 (MJJ 1983 +0,47), F2"
+ },
+ {
+  "id": "b30",
+  "cap": "PERGUNTA 3/4 · POR QUE OS DOIS AO MESMO TEMPO",
+  "marcha": 2,
+  "fala": "Isso tem explicação.\nNo Sul do Brasil, o El Niño costuma trazer chuva a mais em duas épocas: na primavera em que ele começa, e no outono e no inverno do ano seguinte.\nFoi o que aconteceu: cheia em novembro de oitenta e dois, cheias em maio e julho de oitenta e três.\nGuarde isso. Vai importar em dois mil e vinte e seis.",
+  "fala_tts": "Isso tem explicação.\nNo Sul do Brasil, o El Niño costuma trazer chuva a mais em duas épocas: na primavera em que ele começa, e no outono e no inverno do ano seguinte.\nFoi o que aconteceu: cheia em novembro de oitenta e dois, cheias em maio e julho de oitenta e três.\n[serious] Guarde isso. Vai importar em dois mil e vinte e seis.",
+  "tela": "Isso tem explicação. | No Sul do Brasil, o El Niño costuma trazer chuva a mais em duas épocas: | na primavera em que ele começa, | e no outono e no inverno do ano seguinte. | Foi o que aconteceu: cheia em novembro de 82, | cheias em maio e julho de 83. | Guarde isso. Vai importar em 2026.",
+  "fonte": "F15, F2"
+ },
+ {
+  "id": "b31",
+  "cap": "PERGUNTA 3/4 · POR QUE OS DOIS AO MESMO TEMPO",
+  "marcha": 2,
+  "fala": "Ou seja, o mesmo aquecimento do Pacífico desligou a chuva no sertão e ligou a chuva no Sul.\nDuas pontas do mesmo fenômeno, a dois mil e quinhentos quilômetros uma da outra.",
+  "fala_tts": "Ou seja, o mesmo aquecimento do Pacífico desligou a chuva no sertão e ligou a chuva no Sul.\nDuas pontas do mesmo fenômeno, a dois mil e quinhentos quilômetros uma da outra.",
+  "tela": "Ou seja, o mesmo aquecimento do Pacífico | desligou a chuva no sertão e ligou a chuva no Sul. | Duas pontas do mesmo fenômeno, | a 2.500 quilômetros uma da outra.",
+  "fonte": "F16, F17"
+ },
+ {
+  "id": "b32",
+  "cap": "PERGUNTA 3/4 · POR QUE OS DOIS AO MESMO TEMPO",
+  "marcha": 2,
+  "fala": "Mas o clima não explica tudo.\nNo sertão, sofreu mais quem não tinha água guardada nem outra renda.\nNo Sul, quem morava na várzea, colado no rio.\nO El Niño escolheu os lugares. A forma como a gente ocupa esses lugares escolheu quem ia sofrer mais.",
+  "fala_tts": "Mas o clima não explica tudo.\nNo sertão, sofreu mais quem não tinha água guardada nem outra renda.\nNo Sul, quem morava na várzea, colado no rio.\n[serious] O El Niño escolheu os lugares. A forma como a gente ocupa esses lugares escolheu quem ia sofrer mais.",
+  "tela": "Mas o clima não explica tudo. | No sertão, sofreu mais quem não tinha água guardada nem outra renda. | No Sul, quem morava na várzea, colado no rio. | O El Niño escolheu os lugares. | A forma como a gente ocupa esses lugares escolheu quem ia sofrer mais.",
+  "fonte": "fecho editorial (sem número)"
+ },
+ {
+  "id": "b33",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "E a última pergunta.\nO que mil novecentos e oitenta e três diz sobre dois mil e vinte e seis?",
+  "fala_tts": "[curious] E a última pergunta.\nO que mil novecentos e oitenta e três diz sobre dois mil e vinte e seis?",
+  "tela": "E a última pergunta. | O que 1983 diz sobre 2026?",
+  "fonte": ""
+ },
+ {
+  "id": "b34",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "O El Niño deste ano já é muito forte.\nNo boletim de doze de novembro, a NOAA mediu a região que define o El Niño dois graus e meio acima do normal.\nE calculou cerca de sessenta por cento de chance de ele virar o mais forte desde mil novecentos e cinquenta.\nOu seja: é mais provável que sim. Mas não é certeza.",
+  "fala_tts": "O El Niño deste ano já é muito forte.\nNo boletim de doze de novembro, a NOAA mediu a região que define o El Niño dois graus e meio acima do normal.\nE calculou cerca de sessenta por cento de chance de ele virar o mais forte desde mil novecentos e cinquenta.\nOu seja: é mais provável que sim. Mas não é certeza.",
+  "tela": "O El Niño deste ano já é muito forte. | No boletim de 12 de novembro, a NOAA mediu a região que define o El Niño | 2,5 graus acima do normal. | E calculou cerca de 60% de chance | de ele virar o mais forte desde 1950. | Ou seja: é mais provável que sim. Mas não é certeza.",
+  "fonte": "F13"
+ },
+ {
+  "id": "b35",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "E o Sul já sentiu.\nEm outubro, o Inmet registrou chuva recorde na região, com quase seiscentos milímetros no mês em Laranjeiras do Sul, no Paraná, e em Dionísio Cerqueira, em Santa Catarina.\nE, no começo de novembro, temporais causaram estragos em cinquenta e quatro cidades catarinenses.",
+  "fala_tts": "E o Sul já sentiu.\nEm outubro, o Inmet registrou chuva recorde na região, com quase seiscentos milímetros no mês em Laranjeiras do Sul, no Paraná, e em Dionísio Cerqueira, em Santa Catarina.\nE, no começo de novembro, temporais causaram estragos em cinquenta e quatro cidades catarinenses.",
+  "tela": "E o Sul já sentiu. | Em outubro, o Inmet registrou chuva recorde na região, | com quase 600 milímetros no mês | em Laranjeiras do Sul (PR) e em Dionísio Cerqueira (SC). | E, no começo de novembro, | temporais causaram estragos em 54 cidades catarinenses.",
+  "fonte": "F18, F19"
+ },
+ {
+  "id": "b36",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "Agora, lembra do detalhe de oitenta e três?\nA pior enchente veio quando o El Niño já estava acabando.\nA NOAA prevê que o de agora comece a enfraquecer no início de dois mil e vinte e sete.\nIsso não é previsão de enchente. Mas, pelo que oitenta e três mostrou, o outono e o inverno do ano que vem também merecem atenção no Sul.",
+  "fala_tts": "Agora, lembra do detalhe de oitenta e três?\nA pior enchente veio quando o El Niño já estava acabando.\nA NOAA prevê que o de agora comece a enfraquecer no início de dois mil e vinte e sete.\n[serious] Isso não é previsão de enchente. Mas, pelo que oitenta e três mostrou, o outono e o inverno do ano que vem também merecem atenção no Sul.",
+  "tela": "Agora, lembra do detalhe de 83? | A pior enchente veio quando o El Niño já estava acabando. | A NOAA prevê que o de agora comece a enfraquecer no início de 2027. | Isso não é previsão de enchente. | Mas, pelo que 83 mostrou, o outono e o inverno do ano que vem | também merecem atenção no Sul.",
+  "fonte": "F13, F15"
+ },
+ {
+  "id": "b37",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "E o sertão?\nA previsão oficial para novembro, dezembro e janeiro é de chuva abaixo da média em áreas do Nordeste, principalmente no norte da região.\nMas o que decide é a época de chuva de fevereiro a maio de dois mil e vinte e sete.\nE a Funceme, o órgão de meteorologia do Ceará, diz que ainda é cedo para prever.",
+  "fala_tts": "E o sertão?\nA previsão oficial para novembro, dezembro e janeiro é de chuva abaixo da média em áreas do Nordeste, principalmente no norte da região.\nMas o que decide é a época de chuva de fevereiro a maio de dois mil e vinte e sete.\nE a Funceme, o órgão de meteorologia do Ceará, diz que ainda é cedo para prever.",
+  "tela": "E o sertão? | A previsão oficial para novembro, dezembro e janeiro | é de chuva abaixo da média em áreas do Nordeste, | principalmente no norte da região. | Mas o que decide é a época de chuva de fevereiro a maio de 2027. | E a Funceme, o órgão de meteorologia do Ceará, | diz que ainda é cedo para prever.",
+  "fonte": "F20"
+ },
+ {
+  "id": "b38",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "E o Brasil de hoje não é o de oitenta e três.\nNo semiárido, há mais de um milhão e duzentas mil cisternas guardando água da chuva ao lado das casas.\nA seca de dois mil e doze a dois mil e dezessete, uma das piores em décadas, não trouxe a fome em massa das secas do passado.",
+  "fala_tts": "E o Brasil de hoje não é o de oitenta e três.\nNo semiárido, há mais de um milhão e duzentas mil cisternas guardando água da chuva ao lado das casas.\nA seca de dois mil e doze a dois mil e dezessete, uma das piores em décadas, não trouxe a fome em massa das secas do passado.",
+  "tela": "E o Brasil de hoje não é o de 83. | No semiárido, há mais de 1,2 milhão de cisternas | guardando água da chuva ao lado das casas. | A seca de 2012 a 2017, uma das piores em décadas, | não trouxe a fome em massa das secas do passado.",
+  "fonte": "F21, longo-03 b43"
+ },
+ {
+  "id": "b39",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "No Sul, os vales do Iguaçu e do Itajaí têm hoje sistemas de alerta de cheia, e a Defesa Civil manda aviso no celular.\nMas as várzeas continuam ocupadas.\nE um rio que já subiu dez metros pode subir de novo.",
+  "fala_tts": "No Sul, os vales do Iguaçu e do Itajaí têm hoje sistemas de alerta de cheia, e a Defesa Civil manda aviso no celular.\nMas as várzeas continuam ocupadas.\n[serious] E um rio que já subiu dez metros pode subir de novo.",
+  "tela": "No Sul, os vales do Iguaçu e do Itajaí têm hoje sistemas de alerta de cheia, | e a Defesa Civil manda aviso no celular. | Mas as várzeas continuam ocupadas. | E um rio que já subiu 10 metros pode subir de novo.",
+  "fonte": "F22 (genérico)"
+ },
+ {
+  "id": "b40",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Então, voltando a julho de mil novecentos e oitenta e três.\nO Iguaçu a dez metros em União da Vitória.\nE, a dois mil e quinhentos quilômetros dali, o sertão no quinto ano de seca.\nNão foram duas tragédias sem ligação.\nFoi o mesmo El Niño, puxando o Brasil para os dois lados.",
+  "fala_tts": "[serious] Então, voltando a julho de mil novecentos e oitenta e três.\nO Iguaçu a dez metros em União da Vitória.\nE, a dois mil e quinhentos quilômetros dali, o sertão no quinto ano de seca.\nNão foram duas tragédias sem ligação.\nFoi o mesmo El Niño, puxando o Brasil para os dois lados.",
+  "tela": "Então, voltando a julho de 1983. | O Iguaçu a 10 metros em União da Vitória. | E, a 2.500 quilômetros dali, o sertão no quinto ano de seca. | Não foram duas tragédias sem ligação. | Foi o mesmo El Niño, puxando o Brasil para os dois lados.",
+  "fonte": ""
+ },
+ {
+  "id": "b41",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "O de dois mil e vinte e seis pode repetir esse padrão. Ou não: nenhum El Niño é igual ao outro.\nMas mil novecentos e oitenta e três deixou uma lição.\nO perigo não acaba quando o Pacífico começa a esfriar.",
+  "fala_tts": "O de dois mil e vinte e seis pode repetir esse padrão. Ou não: nenhum El Niño é igual ao outro.\n[serious] Mas mil novecentos e oitenta e três deixou uma lição.\nO perigo não acaba quando o Pacífico começa a esfriar.",
+  "tela": "O de 2026 pode repetir esse padrão. Ou não: | nenhum El Niño é igual ao outro. | Mas 1983 deixou uma lição. | O perigo não acaba quando o Pacífico começa a esfriar.",
+  "fonte": ""
+ },
+ {
+  "id": "b42",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Se você quer entender como o El Niño funciona, o nosso vídeo sobre ele está aqui no canal.\nSe você tem família no Sul ou no sertão, manda este vídeo para ela.\nE se inscreve no canal, para entender o clima do Brasil.",
+  "fala_tts": "Se você quer entender como o El Niño funciona, o nosso vídeo sobre ele está aqui no canal.\nSe você tem família no Sul ou no sertão, manda este vídeo para ela.\nE se inscreve no canal, para entender o clima do Brasil.",
+  "tela": "Se você quer entender como o El Niño funciona, | o nosso vídeo sobre ele está aqui no canal. | Se você tem família no Sul ou no sertão, manda este vídeo para ela. | E se inscreve no canal, para entender o clima do Brasil.",
+  "fonte": "CTA: puxa sessão para FeSLzHvlkbo (publicado); sem gancho de próximo vídeo"
+ }
+]

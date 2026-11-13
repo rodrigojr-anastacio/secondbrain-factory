@@ -1,0 +1,369 @@
+{
+ "_doc": "Lista plana de planos/mídias (nenhuma imagem de IA; fotos de dl/fotos/video/ e dl/fotos/satelite/).",
+ "cenas": [
+  {
+   "bloco": "b01",
+   "tipo": "foto",
+   "arquivo": "landsat4-uv-19830703-par.jpg",
+   "gatilho": "Iguaçu",
+   "formato": "fundo de 2 s antes do 3D: satélite real de 1983 com legenda UNIÃO DA VITÓRIA · LANDSAT 4 · 3 JUL 1983"
+  },
+  {
+   "bloco": "b01",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abre baixo sobre o vale do Iguaçu em satélite, céu de chuva; dolly até a curva do rio e pousa em União da Vitória (pino coral). Régua de nível vertical gigante cravada no rio (componente novo 'régua'), começando em 2,5 m."
+  },
+  {
+   "bloco": "b02",
+   "tipo": "foto",
+   "arquivo": "blumenau-aerea-2010.jpg",
+   "gatilho": "Blumenau",
+   "formato": "quadro grande à direita 3 s; legenda BLUMENAU · CENTRO E RIO ITAJAÍ-AÇU · 2010"
+  },
+  {
+   "bloco": "b02",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Câmera corre 200 km pelo relevo até o vale do Itajaí, encaixado entre morros; pino BLUMENAU; segunda régua 15,34 M."
+  },
+  {
+   "bloco": "b03",
+   "tipo": "foto",
+   "arquivo": "acude-seco-santa-quiteria-ce-2018.jpg",
+   "gatilho": "pluviômetro",
+   "formato": "quadro grande 3 s; legenda AÇUDE SECO · SANTA QUITÉRIA (CE) · 2018"
+  },
+  {
+   "bloco": "b03",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Plano-assinatura começa: câmera sobe do Sul, o Brasil inteiro aparece, régua de distância 2.500 KM se desenha de União da Vitória a Mombaça; mergulho no sertão seco, céu limpo, luz dura."
+  },
+  {
+   "bloco": "b04",
+   "tipo": "foto",
+   "arquivo": "retirantes-pernambuco-slide-janjao-sem-data.jpg",
+   "gatilho": "flagelados",
+   "formato": "quadro médio inclinado sobre o papel 3 s; legenda RETIRANTES · PERNAMBUCO · FOTO DE ACERVO (SEM DATA) — nunca escrever 1983"
+  },
+  {
+   "bloco": "b04",
+   "tipo": "arquivo",
+   "estilo": "arquivo",
+   "descricao": "Página de jornal sépia (tipografia, sem foto): manchete composta por nós 'FLAGELADOS INVADEM ARMAZÉM EM CANINDÉ' com data AGO/1983; número 5 MIL carimbado."
+  },
+  {
+   "bloco": "b05",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "TELA PARTIDA (assinatura): Brasil inteiro em relevo editorial, linha diagonal divide o país; Sul tinge em azul-água pulsando, Nordeste em coral seco rachando. Mesmo relógio '1983' no centro."
+  },
+  {
+   "bloco": "b06",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Câmera parada na tela partida; barra das 4 perguntas (componente do longo-02/03) entra pergunta a pergunta."
+  },
+  {
+   "bloco": "b07",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Dois anéis de 12 meses (componente do longo-03), um sobre o Sul (todos os meses com gotas iguais) e um sobre o sertão (só FEV–MAI com gota). Na última frase, o anel do Sul transborda e o do sertão apaga."
+  },
+  {
+   "bloco": "b08",
+   "tipo": "foto",
+   "arquivo": "uniao-da-vitoria-vista-aerea-2009.jpg",
+   "gatilho": "cresceu",
+   "formato": "quadro grande 4 s; legenda UNIÃO DA VITÓRIA · RIO IGUAÇU · 2009"
+  },
+  {
+   "bloco": "b08",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abertura do cap. 1: o Iguaçu se desenha como fio azul brilhante do leste do PR (perto de Curitiba) até Foz; câmera desce e acompanha as curvas até a península de União da Vitória/Porto União."
+  },
+  {
+   "bloco": "b09",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "HIDROGRAMA EM RELEVO (peça nova): a cota diária de nov/1982 a set/1983 (dados/ana_65310000_cota.json) vira uma serra de água azul que cresce da esquerda para a direita; linha tracejada 6 M = transbordamento."
+  },
+  {
+   "bloco": "b10",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "O hidrograma pausa no começo de julho; ao lado, dois pluviômetros: MÉDIA JUN+JUL 138 MM × 1 SEMANA EM JUL/83 ~800 MM; o segundo transborda."
+  },
+  {
+   "bloco": "b11",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "O hidrograma retoma: em 15 dias a serra azul dispara de 4,94 a 10,42 M (18/07) e fica acima da linha de 6 m até 10/08."
+  },
+  {
+   "bloco": "b12",
+   "tipo": "foto",
+   "arquivo": "porto-uniao-centro-2014.jpg",
+   "gatilho": "famílias",
+   "formato": "quadro médio 3 s; legenda PONTE SOBRE O IGUAÇU · UNIÃO DA VITÓRIA E PORTO UNIÃO · 2014"
+  },
+  {
+   "bloco": "b12",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "União da Vitória em 3D com o plano de água no nível de 10,42 m cobrindo a várzea e a península; câmera em órbita lenta, chuva fina."
+  },
+  {
+   "bloco": "b13",
+   "tipo": "foto",
+   "arquivo": "landsat4-uv-19830703-par.jpg",
+   "gatilho": "três de julho",
+   "formato": "tela cheia (equalizar cores com a de 04/08; corrigir a falsa-cor para água azul e vegetação verde-escura)"
+  },
+  {
+   "bloco": "b13",
+   "tipo": "foto",
+   "arquivo": "landsat4-uv-19830804-par.jpg",
+   "gatilho": "agosto",
+   "formato": "tela cheia; recortar a parte sem nuvem (várzea a sudeste) — nuvens sobre a cidade"
+  },
+  {
+   "bloco": "b13",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Satélite real de 1983 em tela cheia, ANTES × DEPOIS com cortina deslizante: landsat4-uv-19830703-par.jpg → landsat4-uv-19830804-par.jpg (mesma janela de 72 × 40 km). Cortina na palavra 'quatro de agosto'; zoom lento na várzea a sudeste da cidade, que fica larga e clara (alagada)."
+  },
+  {
+   "bloco": "b14",
+   "tipo": "foto",
+   "arquivo": "blumenau-rio-itajai-acu-2006.jpg",
+   "gatilho": "apertado",
+   "formato": "quadro grande 3 s; legenda BLUMENAU · RIO ITAJAÍ-AÇU EM ESTIAGEM · 2006 (o mesmo rio baixo)"
+  },
+  {
+   "bloco": "b14",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Vale do Itajaí em 3D, câmera baixa entre os morros; seção transversal desenhada: vale em V estreito × várzea larga do Iguaçu (miniatura)."
+  },
+  {
+   "bloco": "b15",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Régua de Blumenau grande ao lado do mapa: quatro marcas de 1983 sobem em sequência (10,60 · 12,52 · 15,34 · 11,75 M) com as datas; a de 9 de julho acende em coral."
+  },
+  {
+   "bloco": "b16",
+   "tipo": "foto",
+   "arquivo": "blumenau-enchente-2008-exercito-NAO-1983.jpg",
+   "gatilho": "atingida",
+   "formato": "OPCIONAL quadro médio 2 s SÓ com legenda BLUMENAU · ENCHENTE DE 2008 (é outra enchente; se houver dúvida, não use)"
+  },
+  {
+   "bloco": "b16",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Santa Catarina em relevo editorial: municípios em calamidade tingem de coral (ilustrativo, sem afirmar quais), contadores sobem."
+  },
+  {
+   "bloco": "b17",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abertura do cap. 2: a tela partida volta por 1 s e a câmera voa para o sertão do Ceará em satélite, terreno marrom, céu sem nuvem."
+  },
+  {
+   "bloco": "b18",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Régua de montanhas (componente do longo-03) com a chuva anual de Mombaça 1911–2024 (dados/ana_539001_chuva.json, só anos completos); linha da média 783 mm; 1981–82–83 afundam em sequência."
+  },
+  {
+   "bloco": "b19",
+   "tipo": "foto",
+   "arquivo": "acude-coremas-seco-2017.jpg",
+   "gatilho": "açudes",
+   "formato": "quadro grande panorâmico 3 s; legenda AÇUDE DE COREMAS (PB) · SECA · 2017"
+  },
+  {
+   "bloco": "b19",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Três cartões de papel em sequência sobre o sertão em relevo: ANO 1 roça · ANO 2 reserva · ANO 3 açude/gado, cada um riscado ao entrar."
+  },
+  {
+   "bloco": "b20",
+   "tipo": "foto",
+   "arquivo": "sertao-caatinga-arido-2013.jpg",
+   "gatilho": "estrada",
+   "formato": "quadro grande 3 s; legenda SERTÃO · CAATINGA NA ESTIAGEM · 2013"
+  },
+  {
+   "bloco": "b20",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Mapa do Nordeste semiárido (../longo-03/dados/semiarido.json) com ícones de obra (açude, estrada, poço) se espalhando; contador."
+  },
+  {
+   "bloco": "b21",
+   "tipo": "arquivo",
+   "estilo": "arquivo",
+   "descricao": "Papel sépia com linha do tempo de agosto de 1983: pino FORTALEZA · PALÁCIO DA LUZ, seta 'DOIS DIAS DEPOIS', pino CANINDÉ · ARMAZÉM DA COBAL."
+  },
+  {
+   "bloco": "b22",
+   "tipo": "arquivo",
+   "estilo": "arquivo",
+   "descricao": "Mesmo papel: grande ponto de interrogação em tinta sobre 'MORTOS: ?'; a interrogação não é preenchida (não mostramos número)."
+  },
+  {
+   "bloco": "b23",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Nordeste em relevo; a régua de Mombaça reaparece pequena e 1984 sobe de volta à média (792 mm)."
+  },
+  {
+   "bloco": "b24",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Globo em satélite gira do Brasil para o Pacífico equatorial."
+  },
+  {
+   "bloco": "b25",
+   "tipo": "foto",
+   "arquivo": "elnino-1982-83-anomalia-temp-pacifico-jan1983.jpg",
+   "gatilho": "Pacífico",
+   "formato": "quadro grande 3 s; legenda PACÍFICO · JAN 1983 (NOAA)"
+  },
+  {
+   "bloco": "b25",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Maquete do Pacífico (mesa do longo-02) com o relevo de calor de 1982-83; depois régua de montanhas RONI (dados/roni.txt): 1982-83 · 1997-98 · 2015-16 · 2026 (até ASO) lado a lado; 1982-83 é a mais alta."
+  },
+  {
+   "bloco": "b26",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Circulação de Walker (componente do longo-02): ar sobe sobre o Pacífico quente, setas descem sobre a Amazônia e o norte do Nordeste."
+  },
+  {
+   "bloco": "b27",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Anel de 12 meses do sertão (b07) com uma onda coral (RONI mensal 1982-83) passando por cima: o pico DEZ–JAN encosta na quadra FEV–MAI, que apaga."
+  },
+  {
+   "bloco": "b28",
+   "tipo": "foto",
+   "arquivo": "noaa-cpc-elnino-impactos-globais-jun-ago.jpg",
+   "gatilho": "contrário",
+   "formato": "quadro grande 3 s (mapa NOAA de impactos JUN–AGO: Sul úmido); legenda NOAA · IMPACTOS DO EL NIÑO · JUN–AGO"
+  },
+  {
+   "bloco": "b28",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "América do Sul em satélite; o jato subtropical como fita de vento branca/azul animada em altitude, cruzando o Sul; frentes frias (linhas com triângulos) chegam e PARAM debaixo da fita; um 'cadeado' de alta pressão (H) aparece sobre o Atlântico na palavra 'bloqueios'."
+  },
+  {
+   "bloco": "b29",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Volta o hidrograma do Iguaçu (b09–b11) e, sobreposta na mesma linha do tempo, a onda RONI 1982-83 em coral: no pico do rio (18/07/83) a onda do Pacífico já desceu para +0,5."
+  },
+  {
+   "bloco": "b30",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Anel de 24 meses (2 anos) sobre o Sul: acendem PRIMAVERA DO ANO 1 e OUTONO–INVERNO DO ANO 2; os picos reais do Iguaçu (NOV/82, MAI/83, JUL/83) caem exatamente nas faixas acesas."
+  },
+  {
+   "bloco": "b31",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Volta à tela partida (assinatura) com o Pacífico à esquerda: dois fios saem do Pacífico, um coral até o sertão (chave DESLIGA) e um azul até o Sul (chave LIGA)."
+  },
+  {
+   "bloco": "b32",
+   "tipo": "foto",
+   "arquivo": "uniao-da-vitoria-rio-iguacu-helicoptero-2016.jpg",
+   "gatilho": "várzea",
+   "formato": "quadro médio 2 s; legenda UNIÃO DA VITÓRIA · RIO IGUAÇU · 2016 (cortar o painel do helicóptero)"
+  },
+  {
+   "bloco": "b32",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Câmera baixa alterna entre a várzea ocupada de União da Vitória (3D) e o sertão seco (3D), mesma luz de fim de tarde."
+  },
+  {
+   "bloco": "b33",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Globo de hoje; Pacífico com o relevo de calor de out/nov 2026 (dados do longo-02/03)."
+  },
+  {
+   "bloco": "b34",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Maquete do Pacífico 2026; mostrador de probabilidade (componente do longo-02) gira até ~60%."
+  },
+  {
+   "bloco": "b35",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Sul em relevo editorial; dois pinos com colunas de chuva de outubro/2026; SC com 54 pinos pequenos piscando (estragos 7–8/11)."
+  },
+  {
+   "bloco": "b36",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "O anel de 24 meses de b30 volta, agora rotulado 2026–2027: PRIMAVERA 2026 já acesa; OUTONO–INVERNO 2027 em contorno pontilhado (atenção, não previsão)."
+  },
+  {
+   "bloco": "b37",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Nordeste em relevo editorial; norte da região tingido em coral claro (abaixo da média NDJ); anel do sertão com FEV–MAI 2027 em interrogação."
+  },
+  {
+   "bloco": "b38",
+   "tipo": "foto",
+   "arquivo": "sobradinho-represa-seca-2015.jpg",
+   "gatilho": "dois mil e doze",
+   "formato": "quadro grande 3 s; legenda SOBRADINHO (BA) · RESERVATÓRIO BAIXO · 2015"
+  },
+  {
+   "bloco": "b38",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Sertão em satélite de hoje; pinos se acendem em cachos (cisternas, ilustrativo)."
+  },
+  {
+   "bloco": "b39",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Vale do Iguaçu em 3D de hoje com ícone de alerta (sino/celular) pulsando sobre União da Vitória e Blumenau; a régua de 1983 (10,42 M) aparece fantasma ao lado do rio."
+  },
+  {
+   "bloco": "b40",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Reprise da tela partida com o relógio parado em JULHO 1983: régua do Iguaçu a 10,42 M no Sul, pluviômetro de Mombaça vazio no sertão; um único fio do Pacífico puxa os dois lados."
+  },
+  {
+   "bloco": "b41",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Globo: Pacífico de 2026 esfriando lentamente (animação da cor) enquanto o Brasil continua aceso nas duas pontas."
+  },
+  {
+   "bloco": "b42",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Encerramento do canal: card do vídeo EL NIÑO 2026 (FeSLzHvlkbo, publicado) + logo EM RELEVO + botão inscrever (sem card de próximo vídeo)."
+  }
+ ]
+}
