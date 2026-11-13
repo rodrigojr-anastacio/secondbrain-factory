@@ -36,3 +36,6 @@
 - "Estrutura nova do historia-ptbr a partir do 003" (capítulos-objeto falados, fim que é o título do próximo, CTA no meio, fecho que volta ao começo, narração no presente, rótulo em 1 de 2 planos) → **revogada no historia-ptbr**; é o molde Archive e foi para `canais/dossie-es/biblia/roteiro.md` (e o texto na tela para `canais/dossie-es/biblia/visual.md`).
 - Linha "CIA dossie-es 001" da tabela de evidências (1.686 palavras, 11:46) e os "Aprendizados do piloto 001" do `canais/dossie-es/estilo.md` → `canais/dossie-es/biblia/roteiro.md`, `voz.md` e `visual.md`.
 - Retenção do lotr-fr por duração e o fio condutor "la couronne" → `canais/lotr-fr/biblia/roteiro.md` e `titulo.md`.
+
+## Sem gancho de próximo vídeo (Rodrigo, 13/11/2026)
+Não anunciar no roteiro, na tela ou na descrição o tema do próximo vídeo ("no próximo vídeo…"): compromete a pauta. Puxar sessão só para vídeos já publicados. Vale para todos os canais.
