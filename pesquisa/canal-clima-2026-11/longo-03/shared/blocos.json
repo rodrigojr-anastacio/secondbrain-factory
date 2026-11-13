@@ -417,9 +417,9 @@
   "id": "b47",
   "cap": "A RESPOSTA",
   "marcha": 2,
-  "fala": "Se você tem família no sertão, manda este vídeo para ela.\nE se inscreve: no próximo, o furacão que não devia existir no Brasil.",
-  "fala_tts": "Se você tem família no sertão, manda este vídeo para ela.\nE se inscreve: no próximo, o furacão que não devia existir no Brasil.",
-  "tela": "Se você tem família no sertão, manda este vídeo para ela. | E se inscreve: no próximo, o furacão que não devia existir no Brasil.",
+  "fala": "Se você tem família no sertão, manda este vídeo para ela.\nE se inscreve no canal, para entender o clima do Brasil.",
+  "fala_tts": "Se você tem família no sertão, manda este vídeo para ela.\nE se inscreve no canal, para entender o clima do Brasil.",
+  "tela": "Se você tem família no sertão, manda este vídeo para ela. | E se inscreve no canal, para entender o clima do Brasil.",
   "fonte": ""
  }
 ]

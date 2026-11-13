@@ -206,8 +206,8 @@ b("A RESPOSTA",
   "Aquela seca levou trilhos para o sertão, fez nascer o primeiro grande açude e empurrou nordestinos até o Acre.\nO El Niño de dois mil e vinte e seis pode trazer outra seca.\n[serious] Mas o que transforma seca em tragédia não é só o clima.\nÉ o que se faz antes dela.",
   "Aquela seca levou trilhos para o sertão, | fez nascer o primeiro grande açude | e empurrou nordestinos até o Acre. | O El Niño de 2026 pode trazer outra seca. | Mas o que transforma seca em tragédia não é só o clima. | É o que se faz antes dela.")
 b("A RESPOSTA",
-  "Se você tem família no sertão, manda este vídeo para ela.\nE se inscreve: no próximo, o furacão que não devia existir no Brasil.",
-  "Se você tem família no sertão, manda este vídeo para ela. | E se inscreve: no próximo, o furacão que não devia existir no Brasil.")
+  "Se você tem família no sertão, manda este vídeo para ela.\nE se inscreve no canal, para entender o clima do Brasil.",
+  "Se você tem família no sertão, manda este vídeo para ela. | E se inscreve no canal, para entender o clima do Brasil.")
 
 if __name__ == "__main__":
     json.dump(B, open(Path(__file__).parent / "blocos.json", "w"), ensure_ascii=False, indent=1)

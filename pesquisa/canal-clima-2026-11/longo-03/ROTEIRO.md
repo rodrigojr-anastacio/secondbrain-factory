@@ -2,7 +2,7 @@
 
 Fonte única: `shared/roteiro.py` → `shared/blocos.json`. Checagem: `pesquisa/CHECAGEM.md` (fatos com fonte, faixas e correções da pauta). Etapa 1, 13/11/2026: tempos ainda não existem (saem da voz na etapa 2); estimativa ~11 min (1.850 palavras).
 
-Estrutura (molde do longo-02): hook com 3 cenas de Fortaleza 1878 → a pergunta → barra das 4 perguntas → PERGUNTA 1/4 O que aconteceu · 2/4 Por que não choveu · 3/4 O que mudou no mapa · 4/4 E em 2026? → A RESPOSTA (volta ao hook) → CTA para o próximo (Catarina).
+Estrutura (molde do longo-02): hook com 3 cenas de Fortaleza 1878 → a pergunta → barra das 4 perguntas → PERGUNTA 1/4 O que aconteceu · 2/4 Por que não choveu · 3/4 O que mudou no mapa · 4/4 E em 2026? → A RESPOSTA (volta ao hook) → CTA genérico (sem gancho de próximo vídeo).
 
 | Bloco | Aba | Fala (tela) | Fonte |
 |---|---|---|---|
@@ -52,4 +52,4 @@ Estrutura (molde do longo-02): hook com 3 cenas de Fortaleza 1878 → a pergunta
 | b44 | PERGUNTA 4/4 · E EM 2026? | O risco de hoje é outro. / Água racionada, colheita perdida, / gado vendido às pressas e calor. / E ele pesa mais para quem vive longe da rede de água. | Hipótese de fecho (sem número) |
 | b45 | A RESPOSTA | Então, voltando a Fortaleza, 1878. / Uma cidade de 25 mil pessoas, que recebeu mais de 100 mil. / Não foi só a falta de chuva. / Foi um dos El Niños mais fortes da história, / um Atlântico que segurou as nuvens longe do Ceará / e um país que demorou a agir. | — |
 | b46 | A RESPOSTA | Aquela seca levou trilhos para o sertão, / fez nascer o primeiro grande açude / e empurrou nordestinos até o Acre. / O El Niño de 2026 pode trazer outra seca. / Mas o que transforma seca em tragédia não é só o clima. / É o que se faz antes dela. | — |
-| b47 | A RESPOSTA | Se você tem família no sertão, manda este vídeo para ela. / E se inscreve: no próximo, o furacão que não devia existir no Brasil. | — |
+| b47 | A RESPOSTA | Se você tem família no sertão, manda este vídeo para ela. / E se inscreve no canal, para entender o clima do Brasil. | — |

@@ -104,7 +104,7 @@ S = {
 "b45": ("A", "zoom-out: do sertão ao Nordeste inteiro (whoosh longo)", "Volta ao plano do hook: Fortaleza 1878 com os rios de pontinhos; os 3 fatores entram como pinos ligados por fio (PACÍFICO · ATLÂNTICO · GOVERNO).", ["contador 25 MIL → 100 MIL+ (reprise)"], []),
 "b46": ("A", "", "Câmera sobe: ferrovia, Cedro e a rota até o Acre acendem juntos sobre o continente ao entardecer (os 'trilhos do mapa' do cap. 3).",
         ["frase final em tipografia grande: O QUE TRANSFORMA SECA EM TRAGÉDIA É O QUE SE FAZ ANTES DELA"], []),
-"b47": ("B", "", "Encerramento do canal: logo EM RELEVO + card do próximo vídeo (Catarina: espiral no Atlântico Sul, silhueta) + botão inscrever.", ["card PRÓXIMO: O FURACÃO QUE NÃO DEVIA EXISTIR"], []),
+"b47": ("B", "", "Encerramento do canal: logo EM RELEVO + botão inscrever (sem card de próximo vídeo).", [], []),
 }
 
 t, out, cenas = 0.4, [], []

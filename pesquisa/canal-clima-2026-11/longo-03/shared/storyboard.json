@@ -769,10 +769,8 @@
    "dur_est": 9.0,
    "estilo": "B",
    "transicao": "",
-   "plano": "Encerramento do canal: logo EM RELEVO + card do próximo vídeo (Catarina: espiral no Atlântico Sul, silhueta) + botão inscrever.",
-   "camadas": [
-    "card PRÓXIMO: O FURACÃO QUE NÃO DEVIA EXISTIR"
-   ],
+   "plano": "Encerramento do canal: logo EM RELEVO + botão inscrever (sem card de próximo vídeo).",
+   "camadas": [],
    "midias": []
   }
  ]

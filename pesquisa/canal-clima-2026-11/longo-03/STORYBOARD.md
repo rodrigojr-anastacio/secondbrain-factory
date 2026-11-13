@@ -88,4 +88,4 @@ Reuso direto do longo-02: maquete do Pacífico + relevo de calor, globo, circula
 | b44 | 10:13.4 | A | — | Sertão de hoje em satélite ao entardecer, câmera em órbita lenta. | ícones simples: torneira, colheita, gado, termômetro | — |
 | b45 | 10:23.8 | A | zoom-out: do sertão ao Nordeste inteiro (whoosh longo) | Volta ao plano do hook: Fortaleza 1878 com os rios de pontinhos; os 3 fatores entram como pinos ligados por fio (PACÍFICO · ATLÂNTICO · GOVERNO). | contador 25 MIL → 100 MIL+ (reprise) | — |
 | b46 | 10:43.8 | A | — | Câmera sobe: ferrovia, Cedro e a rota até o Acre acendem juntos sobre o continente ao entardecer (os 'trilhos do mapa' do cap. 3). | frase final em tipografia grande: O QUE TRANSFORMA SECA EM TRAGÉDIA É O QUE SE FAZ ANTES DELA | — |
-| b47 | 11:02.4 | B | — | Encerramento do canal: logo EM RELEVO + card do próximo vídeo (Catarina: espiral no Atlântico Sul, silhueta) + botão inscrever. | card PRÓXIMO: O FURACÃO QUE NÃO DEVIA EXISTIR | — |
+| b47 | 11:02.4 | B | — | Encerramento do canal: logo EM RELEVO + botão inscrever (sem card de próximo vídeo). | — | — |
