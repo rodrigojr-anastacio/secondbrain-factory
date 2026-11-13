@@ -70,3 +70,5 @@ O procedimento completo está em `playbooks/produzir-video.md`. A skill `skills/
   - `playbooks/produzir-video: trava contra 2 img_openai em paralelo`
 - Todo aprendizado entra **com data e fonte**: o de um canal na **bíblia dele** (`canais/<slug>/biblia/`); em `conhecimento/` só o que for **comprovadamente geral**. O que não tem dado fica marcado como **Hipótese**. Exemplos de commit: `historia-ptbr/biblia: CTR do Egito <X>% (Studio, <data>)`; `conhecimento/anti-padroes: fal devolve imagem preta`.
 - O push é diário (`~/workspace/_infra/git-diario.sh`, que só faz push se o remote existir). Nunca commite mídia pesada nem segredo: antes do commit, rode `git status` e confira.
+
+- **Limpeza de disco (13/11/2026):** `tools/limpeza_disco.py|.sh [--dry-run]` apaga só classe A (node_modules/out/partes/imagens-orig de vídeos publicados/arquivados, `~/cache` antigo, caches npm/pip/uv, logs > 30 dias; nunca pastas ativas na fila); timer `fabrica-limpeza.timer` diário 05:30; relatório em `~/workspace/relatorios/limpeza/`, alerta (`ops.event_log` severidade erro) se disco > 85%.

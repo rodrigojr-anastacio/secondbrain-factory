@@ -1,0 +1,6 @@
+[Unit]
+Description=Fábrica YouTube — limpeza de disco da VPS (classe A)
+
+[Service]
+Type=oneshot
+ExecStart=%h/workspace/fabrica-youtube/tools/limpeza_disco.sh
