@@ -1,0 +1,326 @@
+[
+ {
+  "id": "N001",
+  "texto": "[serious] Suassôn, quatrocentos e oitenta e seis. Imagine você entre guerreiros francos, diante do saque de uma batalha.",
+  "tela": "[serious] Soissons, quatrocentos e oitenta e seis. Imagine você entre guerreiros francos, diante do saque de uma batalha.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "Na pilha, um vaso precioso de igreja. O rei Clóvis pede o vaso para devolver a um bispo. Só que um guerreiro racha o vaso com o machado e diz: o rei só leva o que a sorte der.",
+  "tela": "Na pilha, um vaso precioso de igreja. O rei Clóvis pede o vaso para devolver a um bispo. Só que um guerreiro racha o vaso com o machado e diz: o rei só leva o que a sorte der.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "Um ano depois, na revista da tropa, Clóvis joga o machado desse guerreiro no chão. Quando o homem se abaixa, o rei racha a cabeça dele: [slightly dramatic] assim você fez com o vaso em Suassôn.",
+  "tela": "Um ano depois, na revista da tropa, Clóvis joga o machado desse guerreiro no chão. Quando o homem se abaixa, o rei racha a cabeça dele: [slightly dramatic] assim você fez com o vaso em Soissons.",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "[serious] Mil e trezentos anos depois, a França corta a cabeça do próprio rei. Então, a pergunta: como o país que nasceu do machado de um rei acabou cortando a cabeça de outro, e por que, mesmo assim, nunca conseguiu viver sem alguém no trono?",
+  "tela": "[serious] Mil e trezentos anos depois, a França corta a cabeça do próprio rei. Então, a pergunta: como o país que nasceu do machado de um rei acabou cortando a cabeça de outro, e por que, mesmo assim, nunca conseguiu viver sem alguém no trono?",
+  "ideia": true
+ },
+ {
+  "id": "N005",
+  "texto": "Essa é a história inteira da França. Guarde esse machado: ele volta. E tudo começa numa terra que ainda nem se chamava França.",
+  "tela": "Essa é a história inteira da França. Guarde esse machado: ele volta. E tudo começa numa terra que ainda nem se chamava França.",
+  "ideia": false
+ },
+ {
+  "id": "N006",
+  "texto": "Olhe para esse mapa há dois mil e cem anos. Dezenas de povos celtas, cada um com o seu chefe, os seus deuses e as suas brigas. Os romanos chamavam todos de gauleses, mas um país, aquilo não era.",
+  "tela": "Olhe para esse mapa há dois mil e cem anos. Dezenas de povos celtas, cada um com o seu chefe, os seus deuses e as suas brigas. Os romanos chamavam todos de gauleses, mas um país, aquilo não era.",
+  "ideia": false
+ },
+ {
+  "id": "N007",
+  "texto": "Aí aparece um general romano com dívidas e ambição: Júlio César. Ele joga tribo contra tribo e, em seis anos, engole quase tudo. [curious] Depois escreve o relato da guerra ele mesmo, falando de si na terceira pessoa.",
+  "tela": "Aí aparece um general romano com dívidas e ambição: Júlio César. Ele joga tribo contra tribo e, em seis anos, engole quase tudo. [curious] Depois escreve o relato da guerra ele mesmo, falando de si na terceira pessoa.",
+  "ideia": false
+ },
+ {
+  "id": "N008",
+  "texto": "Só no fim os gauleses se unem, atrás de um chefe jovem, Vercingetórix. Ele se tranca na fortaleza de Alézia. César cerca a colina com uma muralha para dentro e outra para fora. Imagine estar lá em cima: a comida acabando, e o socorro preso do outro lado.",
+  "tela": "Só no fim os gauleses se unem, atrás de um chefe jovem, Vercingetórix. Ele se tranca na fortaleza de Alésia. César cerca a colina com uma muralha para dentro e outra para fora. Imagine estar lá em cima: a comida acabando, e o socorro preso do outro lado.",
+  "ideia": true
+ },
+ {
+  "id": "N009",
+  "texto": "Vercingetórix se rende. E aqui está o paradoxo: a derrota cria a base da França. Roma traz estradas, cidades e o latim. [curious] O francês descende da língua de César, e o português que você fala também.",
+  "tela": "Vercingetórix se rende. E aqui está o paradoxo: a derrota cria a base da França. Roma traz estradas, cidades e o latim. [curious] O francês descende da língua de César, e o português que você fala também.",
+  "ideia": false
+ },
+ {
+  "id": "N010",
+  "texto": "Mas o império envelhece. No século cinco, povos germânicos atravessam o Reno. E alguém vai ter que mandar nessa terra.",
+  "tela": "Mas o império envelhece. No século cinco, povos germânicos atravessam o Reno. E alguém vai ter que mandar nessa terra.",
+  "ideia": false
+ },
+ {
+  "id": "N011",
+  "texto": "Rrãns, por volta do ano quinhentos. Clóvis, o do machado, entra numa igreja para ser batizado pelo bispo Remígio. Repare na escolha: os outros reis germânicos eram cristãos de outra vertente, a ariana, que os bispos chamavam de heresia.",
+  "tela": "Reims, por volta do ano quinhentos. Clóvis, o do machado, entra numa igreja para ser batizado pelo bispo Remígio. Repare na escolha: os outros reis germânicos eram cristãos de outra vertente, a ariana, que os bispos chamavam de heresia.",
+  "ideia": false
+ },
+ {
+  "id": "N012",
+  "texto": "Clóvis vira católico, como os bispos e o povo que ele governava. Então os bispos, que tinham a única administração que sobrou de Roma, passam a trabalhar para ele.",
+  "tela": "Clóvis vira católico, como os bispos e o povo que ele governava. Então os bispos, que tinham a única administração que sobrou de Roma, passam a trabalhar para ele.",
+  "ideia": false
+ },
+ {
+  "id": "N013",
+  "texto": "[curious] Quem conta essa história, e a do vaso, é um bispo, Gregório de Tours, quase cem anos depois. Bispo nenhum ia perder um rei tão bom de propaganda.",
+  "tela": "[curious] Quem conta essa história, e a do vaso, é um bispo, Gregório de Tours, quase cem anos depois. Bispo nenhum ia perder um rei tão bom de propaganda.",
+  "ideia": false
+ },
+ {
+  "id": "N014",
+  "texto": "Séculos depois, um arcebispo de Rrãns espalha uma lenda: no batismo de Clóvis, uma pomba desceu do céu com um frasco de óleo. É a Santa Ampola. Com ela, quase todo rei francês vai ser ungido em Rrãns, como Clóvis.",
+  "tela": "Séculos depois, um arcebispo de Reims espalha uma lenda: no batismo de Clóvis, uma pomba desceu do céu com um frasco de óleo. É a Santa Ampola. Com ela, quase todo rei francês vai ser ungido em Reims, como Clóvis.",
+  "ideia": true
+ },
+ {
+  "id": "N015",
+  "texto": "[curious] E tem mais: o nome Clóvis, em latim, virou Luís. A contagem dos reis Luís da França chega a dezoito. Imagine o drama de um professor de história com tanto Luís.",
+  "tela": "[curious] E tem mais: o nome Clóvis, em latim, virou Luís. A contagem dos reis Luís da França chega a dezoito. Imagine o drama de um professor de história com tanto Luís.",
+  "ideia": false
+ },
+ {
+  "id": "N016",
+  "texto": "Só que os francos tinham um costume: o reino era dividido entre os filhos, como herança de fazenda. E irmão com reino vizinho não fica em paz por muito tempo.",
+  "tela": "Só que os francos tinham um costume: o reino era dividido entre os filhos, como herança de fazenda. E irmão com reino vizinho não fica em paz por muito tempo.",
+  "ideia": false
+ },
+ {
+  "id": "N017",
+  "texto": "Depois de séculos de briga, uma família junta tudo de novo. Roma, Natal do ano oitocentos: o papa põe uma coroa de imperador na cabeça de Carlos Magno.",
+  "tela": "Depois de séculos de briga, uma família junta tudo de novo. Roma, Natal do ano oitocentos: o papa põe uma coroa de imperador na cabeça de Carlos Magno.",
+  "ideia": false
+ },
+ {
+  "id": "N018",
+  "texto": "O império dele vai dos Pirineus até o meio da Alemanha. [curious] Ele mal sabia escrever e, segundo o biógrafo dele, guardava tabuinhas debaixo do travesseiro para treinar as letras. Repare no rei de copas do baralho francês: ele tem nome, Charles. É ele.",
+  "tela": "O império dele vai dos Pirineus até o meio da Alemanha. [curious] Ele mal sabia escrever e, segundo o biógrafo dele, guardava tabuinhas debaixo do travesseiro para treinar as letras. Repare no rei de copas do baralho francês: ele tem nome, Charles. É ele.",
+  "ideia": false
+ },
+ {
+  "id": "N019",
+  "texto": "Só que o costume franco volta. Em oitocentos e quarenta e três, em Verdân, os netos dele cortam o império em três fatias. A do oeste vai virar a França. A do leste, a Alemanha. E a do meio, motivo de briga por mil anos.",
+  "tela": "Só que o costume franco volta. Em oitocentos e quarenta e três, em Verdun, os netos dele cortam o império em três fatias. A do oeste vai virar a França. A do leste, a Alemanha. E a do meio, motivo de briga por mil anos.",
+  "ideia": true
+ },
+ {
+  "id": "N020",
+  "texto": "E a fatia do oeste nasce fraca. Os vikings sobem os rios e saqueiam até Paris. O rei não consegue defender ninguém, então cada senhor ergue o próprio castelo. Se você morasse ali, quem ia te proteger era o senhor do castelo, não um rei distante. E quem tem castelo não obedece rei.",
+  "tela": "E a fatia do oeste nasce fraca. Os vikings sobem os rios e saqueiam até Paris. O rei não consegue defender ninguém, então cada senhor ergue o próprio castelo. Se você morasse ali, quem ia te proteger era o senhor do castelo, não um rei distante. E quem tem castelo não obedece rei.",
+  "ideia": false
+ },
+ {
+  "id": "N021",
+  "texto": "Ano novecentos e oitenta e sete. Os grandes senhores escolhem um rei: Hugo Capêto. Imagine o reino dele: uma faixa entre Paris e Orleã. Muito duque mandava mais do que o rei.",
+  "tela": "Ano novecentos e oitenta e sete. Os grandes senhores escolhem um rei: Hugo Capeto. Imagine o reino dele: uma faixa entre Paris e Orléans. Muito duque mandava mais do que o rei.",
+  "ideia": false
+ },
+ {
+  "id": "N022",
+  "texto": "Mas os Capêtos tinham uma arma secreta: filhos homens. Por mais de trezentos anos, cada rei deixou um filho vivo para herdar. [curious] Tente achar outra família real da época com essa sorte.",
+  "tela": "Mas os Capetos tinham uma arma secreta: filhos homens. Por mais de trezentos anos, cada rei deixou um filho vivo para herdar. [curious] Tente achar outra família real da época com essa sorte.",
+  "ideia": false
+ },
+ {
+  "id": "N023",
+  "texto": "Só que, em mil cento e cinquenta e dois, uma mulher muda o mapa. Leonôr da Aquitânia se separa do rei da França e casa com Henrique, que logo vira rei da Inglaterra. De repente, o rei inglês tem mais terra na França do que o próprio rei francês.",
+  "tela": "Só que, em mil cento e cinquenta e dois, uma mulher muda o mapa. Leonor da Aquitânia se separa do rei da França e casa com Henrique, que logo vira rei da Inglaterra. De repente, o rei inglês tem mais terra na França do que o próprio rei francês.",
+  "ideia": true
+ },
+ {
+  "id": "N024",
+  "texto": "O filho do rei traído, Filipe Augusto, toma de volta a Normandia e, em Buvíne, derrota ingleses e alemães juntos. Ele já não assina rei dos francos. Assina rei da França. Mas os ingleses não tinham desistido.",
+  "tela": "O filho do rei traído, Filipe Augusto, toma de volta a Normandia e, em Bouvines, derrota ingleses e alemães juntos. Ele já não assina rei dos francos. Assina rei da França. Mas os ingleses não tinham desistido.",
+  "ideia": false
+ },
+ {
+  "id": "N025",
+  "texto": "Mil trezentos e vinte e oito. O último Capêto direto morre sem filho, e o rei da Inglaterra, sobrinho dele, quer a coroa. Os nobres franceses dizem não. Então começa a Guerra dos Cem Anos. Pense nisso: uma guerra que começa com o seu bisavô e acaba com o seu bisneto.",
+  "tela": "Mil trezentos e vinte e oito. O último Capeto direto morre sem filho, e o rei da Inglaterra, sobrinho dele, quer a coroa. Os nobres franceses dizem não. Então começa a Guerra dos Cem Anos. Pense nisso: uma guerra que começa com o seu bisavô e acaba com o seu bisneto.",
+  "ideia": false
+ },
+ {
+  "id": "N026",
+  "texto": "Mas ela começa como um desastre para a França. Em Crecí, os arqueiros ingleses derrubam a cavalaria francesa. Aí chega a Peste Negra e mata talvez um terço do país. Em Azancúr, de novo, os cavaleiros afundam na lama.",
+  "tela": "Mas ela começa como um desastre para a França. Em Crécy, os arqueiros ingleses derrubam a cavalaria francesa. Aí chega a Peste Negra e mata talvez um terço do país. Em Azincourt, de novo, os cavaleiros afundam na lama.",
+  "ideia": false
+ },
+ {
+  "id": "N027",
+  "texto": "Em mil quatrocentos e vinte, um tratado entrega a França ao rei inglês. Metade do país obedece Londres. O herdeiro francês, Carlos, não consegue nem ser coroado: Rrãns está nas mãos do inimigo.",
+  "tela": "Em mil quatrocentos e vinte, um tratado entrega a França ao rei inglês. Metade do país obedece Londres. O herdeiro francês, Carlos, não consegue nem ser coroado: Reims está nas mãos do inimigo.",
+  "ideia": false
+ },
+ {
+  "id": "N028",
+  "texto": "Aí aparece uma camponesa de dezessete anos, Joana. Ela diz que ouve vozes de santos. Veste armadura, ajuda a libertar Orleã e leva Carlos até Rrãns. Ali, onde Clóvis foi batizado, ele é ungido rei.",
+  "tela": "Aí aparece uma camponesa de dezessete anos, Joana. Ela diz que ouve vozes de santos. Veste armadura, ajuda a libertar Orléans e leva Carlos até Reims. Ali, onde Clóvis foi batizado, ele é ungido rei.",
+  "ideia": true
+ },
+ {
+  "id": "N029",
+  "texto": "Os ingleses capturam Joana e a queimam em Ruão. Mas, em mil quatrocentos e cinquenta e três, saem da França, menos de Calê.",
+  "tela": "Os ingleses capturam Joana e a queimam em Ruão. Mas, em mil quatrocentos e cinquenta e três, saem da França, menos de Calais.",
+  "ideia": false
+ },
+ {
+  "id": "N030",
+  "texto": "E aqui está a primeira peça da resposta. Para vencer, o rei ganha imposto fixo e um exército só dele. A França sobreviveu porque juntou tudo numa coroa. O problema é que uma coroa só não une uma fé dividida.",
+  "tela": "E aqui está a primeira peça da resposta. Para vencer, o rei ganha imposto fixo e um exército só dele. A França sobreviveu porque juntou tudo numa coroa. O problema é que uma coroa só não une uma fé dividida.",
+  "ideia": false
+ },
+ {
+  "id": "N031",
+  "texto": "Paris, agosto de mil quinhentos e setenta e dois. A cidade está em festa: uma princesa católica casa com Henrique de Navárra, um dos chefes dos protestantes, os huguenotes. Seis dias depois, na noite de São Bartolomeu, os sinos tocam.",
+  "tela": "Paris, agosto de mil quinhentos e setenta e dois. A cidade está em festa: uma princesa católica casa com Henrique de Navarra, um dos chefes dos protestantes, os huguenotes. Seis dias depois, na noite de São Bartolomeu, os sinos tocam.",
+  "ideia": false
+ },
+ {
+  "id": "N032",
+  "texto": "[serious] Imagine acordar com esses sinos. Católicos matam milhares de protestantes, primeiro em Paris, depois pelo país. Somando tudo, são mais de trinta anos de guerra em que o inimigo pode ser o seu vizinho.",
+  "tela": "[serious] Imagine acordar com esses sinos. Católicos matam milhares de protestantes, primeiro em Paris, depois pelo país. Somando tudo, são mais de trinta anos de guerra em que o inimigo pode ser o seu vizinho.",
+  "ideia": false
+ },
+ {
+  "id": "N033",
+  "texto": "Aí o trono cai no colo justamente de Henrique, o protestante. Só que Paris, católica, não abre as portas. Então ele se converte, e a tradição põe na boca dele uma frase: [curious] Paris bem vale uma missa.",
+  "tela": "Aí o trono cai no colo justamente de Henrique, o protestante. Só que Paris, católica, não abre as portas. Então ele se converte, e a tradição põe na boca dele uma frase: [curious] Paris bem vale uma missa.",
+  "ideia": true
+ },
+ {
+  "id": "N034",
+  "texto": "Com o Édito de Nânt, ele dá liberdade aos protestantes em várias cidades, e, conta-se, queria que todo camponês tivesse uma galinha na panela no domingo. Mas um fanático o mata a facadas. E os nobres voltam a desafiar a coroa.",
+  "tela": "Com o Édito de Nantes, ele dá liberdade aos protestantes em várias cidades, e, conta-se, queria que todo camponês tivesse uma galinha na panela no domingo. Mas um fanático o mata a facadas. E os nobres voltam a desafiar a coroa.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "Paris, uma noite de mil seiscentos e quarenta e nove. Com a cidade revoltada, a família real foge às escondidas. No meio dela, um menino de dez anos: Luís, o Décimo Quarto. Repare nesse menino. Ele nunca vai esquecer essa noite.",
+  "tela": "Paris, uma noite de mil seiscentos e quarenta e nove. Com a cidade revoltada, a família real foge às escondidas. No meio dela, um menino de dez anos: Luís, o Décimo Quarto. Repare nesse menino. Ele nunca vai esquecer essa noite.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "Então, adulto, ele constrói Versálhes, e põe os nobres para morar lá, perto dos olhos dele. Imagine o duque mais poderoso do reino disputando a honra de segurar a camisa do rei de manhã.",
+  "tela": "Então, adulto, ele constrói Versalhes, e põe os nobres para morar lá, perto dos olhos dele. Imagine o duque mais poderoso do reino disputando a honra de segurar a camisa do rei de manhã.",
+  "ideia": false
+ },
+ {
+  "id": "N037",
+  "texto": "Ele reina setenta e dois anos e usa salto alto vermelho. [curious] A frase o Estado sou eu ele provavelmente nunca disse, mas ela resume o reinado. Só que ele proíbe os protestantes, uns duzentos mil fogem, e ele faz guerra atrás de guerra.",
+  "tela": "Ele reina setenta e dois anos e usa salto alto vermelho. [curious] A frase o Estado sou eu ele provavelmente nunca disse, mas ela resume o reinado. Só que ele proíbe os protestantes, uns duzentos mil fogem, e ele faz guerra atrás de guerra.",
+  "ideia": false
+ },
+ {
+  "id": "N038",
+  "texto": "E aqui está a segunda peça da resposta. Quando tudo gira em volta de um homem, a culpa também ganha um endereço só. Só que o Estado que podia tudo estava ficando sem dinheiro.",
+  "tela": "E aqui está a segunda peça da resposta. Quando tudo gira em volta de um homem, a culpa também ganha um endereço só. Só que o Estado que podia tudo estava ficando sem dinheiro.",
+  "ideia": true
+ },
+ {
+  "id": "N039",
+  "texto": "Julho de mil setecentos e oitenta e oito. Uma chuva de granizo destrói as colheitas, e vem um inverno gelado. Na primavera, o pão come mais da metade do salário de um trabalhador de Paris. Imagine gastar metade do que você ganha só no pão.",
+  "tela": "Julho de mil setecentos e oitenta e oito. Uma chuva de granizo destrói as colheitas, e vem um inverno gelado. Na primavera, o pão come mais da metade do salário de um trabalhador de Paris. Imagine gastar metade do que você ganha só no pão.",
+  "ideia": false
+ },
+ {
+  "id": "N040",
+  "texto": "O rei, Luís Dezesseis, falido também por ter pago a guerra da independência americana, convoca os Estados Gerais. Em julho de mil setecentos e oitenta e nove, Paris toma a Bastílha. [curious] Lá dentro havia sete presos.",
+  "tela": "O rei, Luís Dezesseis, falido também por ter pago a guerra da independência americana, convoca os Estados Gerais. Em julho de mil setecentos e oitenta e nove, Paris toma a Bastilha. [curious] Lá dentro havia sete presos.",
+  "ideia": false
+ },
+ {
+  "id": "N041",
+  "texto": "Dois anos depois, o rei tenta fugir disfarçado. Conta-se que um funcionário do correio o reconhece pelo rosto impresso numa nota de dinheiro. [serious] Lembra da nossa pergunta? Agora ela fica difícil: o rei virou suspeito.",
+  "tela": "Dois anos depois, o rei tenta fugir disfarçado. Conta-se que um funcionário do correio o reconhece pelo rosto impresso numa nota de dinheiro. [serious] Lembra da nossa pergunta? Agora ela fica difícil: o rei virou suspeito.",
+  "ideia": true
+ },
+ {
+  "id": "N042",
+  "texto": "Em janeiro de mil setecentos e noventa e três, a lâmina desce sobre Luís Dezesseis. Lembra do machado de Suassôn? Agora ele cai sobre o rei. E, em Rrãns, um revolucionário quebra a Santa Ampola em praça pública.",
+  "tela": "Em janeiro de mil setecentos e noventa e três, a lâmina desce sobre Luís Dezesseis. Lembra do machado de Soissons? Agora ele cai sobre o rei. E, em Reims, um revolucionário quebra a Santa Ampola em praça pública.",
+  "ideia": false
+ },
+ {
+  "id": "N043",
+  "texto": "Vem o Terror: milhares de guilhotinados. Os revolucionários inventam até o metro e o quilo. Você compra arroz por quilo por causa deles. Mas, sem rei, quem ia pôr ordem nisso tudo?",
+  "tela": "Vem o Terror: milhares de guilhotinados. Os revolucionários inventam até o metro e o quilo. Você compra arroz por quilo por causa deles. Mas, sem rei, quem ia pôr ordem nisso tudo?",
+  "ideia": false
+ },
+ {
+  "id": "N044",
+  "texto": "Então aparece um general da Córsega, Napoleão Bonapárte, que dá um golpe em mil setecentos e noventa e nove. Cinco anos depois, em Notrrí Dâm, com o papa ao lado, ele mesmo põe a coroa na cabeça. [curious] O papa veio de Roma para assistir.",
+  "tela": "Então aparece um general da Córsega, Napoleão Bonaparte, que dá um golpe em mil setecentos e noventa e nove. Cinco anos depois, em Notre-Dame, com o papa ao lado, ele mesmo põe a coroa na cabeça. [curious] O papa veio de Roma para assistir.",
+  "ideia": false
+ },
+ {
+  "id": "N045",
+  "texto": "Ele cria o Código Civil e põe um chefe nomeado por Paris, o prefeito, em cada canto do país. Em mil oitocentos e sete, invade Portugal, e a corte portuguesa foge… para o Brasil. Você conhece o resto.",
+  "tela": "Ele cria o Código Civil e põe um chefe nomeado por Paris, o prefeito, em cada canto do país. Em mil oitocentos e sete, invade Portugal, e a corte portuguesa foge… para o Brasil. Você conhece o resto.",
+  "ideia": false
+ },
+ {
+  "id": "N046",
+  "texto": "Napoleão cai em Uóterlu. E aqui está a terceira peça da resposta. Os franceses cortaram a cabeça do rei, mas guardaram a máquina que ele montou. E o trono vazio sempre achava alguém: os reis voltam, caem de novo em mil oitocentos e trinta e em mil oitocentos e quarenta e oito, e um sobrinho de Napoleão vira imperador.",
+  "tela": "Napoleão cai em Waterloo. E aqui está a terceira peça da resposta. Os franceses cortaram a cabeça do rei, mas guardaram a máquina que ele montou. E o trono vazio sempre achava alguém: os reis voltam, caem de novo em mil oitocentos e trinta e em mil oitocentos e quarenta e oito, e um sobrinho de Napoleão vira imperador.",
+  "ideia": true
+ },
+ {
+  "id": "N047",
+  "texto": "Só que esse sobrinho vai à guerra contra a Prússia e é capturado em Sedã. No cerco de Paris, os parisienses chegam a comer os elefantes do zoológico. Em mil oitocentos e setenta e um, os alemães proclamam o império deles no Salão dos Espelhos, em Versálhes. O vizinho do outro lado da fatia agora era um gigante.",
+  "tela": "Só que esse sobrinho vai à guerra contra a Prússia e é capturado em Sedan. No cerco de Paris, os parisienses chegam a comer os elefantes do zoológico. Em mil oitocentos e setenta e um, os alemães proclamam o império deles no Salão dos Espelhos, em Versalhes. O vizinho do outro lado da fatia agora era um gigante.",
+  "ideia": false
+ },
+ {
+  "id": "N048",
+  "texto": "Verdân, mil novecentos e dezesseis: a mesma cidade do tratado dos netos de Carlos Magno, na mesma fronteira mal resolvida. Imagine dez meses de bombardeio numa trincheira. A França sai vencedora, e o tratado de paz é assinado… no mesmo Salão dos Espelhos.",
+  "tela": "Verdun, mil novecentos e dezesseis: a mesma cidade do tratado dos netos de Carlos Magno, na mesma fronteira mal resolvida. Imagine dez meses de bombardeio numa trincheira. A França sai vencedora, e o tratado de paz é assinado… no mesmo Salão dos Espelhos.",
+  "ideia": false
+ },
+ {
+  "id": "N049",
+  "texto": "Vinte e um anos depois, os alemães voltam e tomam a França em seis semanas. Pense: seis semanas. Um marechal velho governa o que sobrou, colaborando com Berlim. E um general quase desconhecido fala pelo rádio, de Londres: [slightly dramatic] a chama da resistência francesa não vai se apagar.",
+  "tela": "Vinte e um anos depois, os alemães voltam e tomam a França em seis semanas. Pense: seis semanas. Um marechal velho governa o que sobrou, colaborando com Berlim. E um general quase desconhecido fala pelo rádio, de Londres: [slightly dramatic] a chama da resistência francesa não vai se apagar.",
+  "ideia": false
+ },
+ {
+  "id": "N050",
+  "texto": "Em mil novecentos e quarenta e quatro, Paris é libertada. E, em mil novecentos e cinquenta e oito, esse general, De Gól, cria a Quinta República: um presidente com tanto poder que os próprios franceses falam em monarca republicano.",
+  "tela": "Em mil novecentos e quarenta e quatro, Paris é libertada. E, em mil novecentos e cinquenta e oito, esse general, De Gaulle, cria a Quinta República: um presidente com tanto poder que os próprios franceses falam em monarca republicano.",
+  "ideia": true
+ },
+ {
+  "id": "N051",
+  "texto": "Desde então, o Brasil já trocou de Constituição duas vezes. A França continua com a mesma, remendada. E o vizinho da fatia do leste virou o sócio da Europa.",
+  "tela": "Desde então, o Brasil já trocou de Constituição duas vezes. A França continua com a mesma, remendada. E o vizinho da fatia do leste virou o sócio da Europa.",
+  "ideia": false
+ },
+ {
+  "id": "N052",
+  "texto": "E a resposta da nossa pergunta: o machado de Clóvis criou uma coroa que juntou tudo. Por isso, quando a lâmina cortou a cabeça do rei, a máquina continuou de pé, procurando alguém para sentar no trono.",
+  "tela": "E a resposta da nossa pergunta: o machado de Clóvis criou uma coroa que juntou tudo. Por isso, quando a lâmina cortou a cabeça do rei, a máquina continuou de pé, procurando alguém para sentar no trono.",
+  "ideia": true
+ },
+ {
+  "id": "N053",
+  "texto": "[warm] Talvez a pergunta nunca tenha sido como os franceses se livraram dos reis. E sim por que eles sempre quiseram alguém mandando tanto.",
+  "tela": "[warm] Talvez a pergunta nunca tenha sido como os franceses se livraram dos reis. E sim por que eles sempre quiseram alguém mandando tanto.",
+  "ideia": false
+ },
+ {
+  "id": "N054",
+  "texto": "E para você: qual foi o momento em que a França podia ter virado outra coisa? Conta aí nos comentários.",
+  "tela": "E para você: qual foi o momento em que a França podia ter virado outra coisa? Conta aí nos comentários.",
+  "ideia": false
+ }
+]

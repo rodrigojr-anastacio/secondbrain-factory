@@ -11,6 +11,7 @@ Título padrão: "A história INTEIRA de X em N minutos" (N = duração real). I
 | 005 | A história INTEIRA do Brasil em 17 minutos | pronto, no Drive, agendar seg 09/11 (youtube.videos id 12; videos/005-brasil/entrega/) | 2026-11-07 | — |
 | 006 | A história INTEIRA de Roma em 17 minutos | pronto, no Drive, aguardando publicação (youtube.videos id 13; 1º da bíblia v2; videos/006-roma/entrega/) | 2026-11-09 | — |
 | 007 | A história INTEIRA da Rússia em 17 minutos | pronto, no Drive, aguardando publicação (youtube.videos id 16; 2º da bíblia v2; videos/007-russia/entrega/) | 2026-11-09 | — |
+| 008 | A história INTEIRA da França em 16 minutos | etapa 1 pronta (roteiro v2 + storyboard, 13/11; youtube.videos id 33; videos/008-franca/); publica dom 15/11 | 2026-11-15 | — |
 
 ## Próximos: ordem recomendada em 09/11/2026 (`pesquisa/proximos-temas-2026-11/RELATORIO.md`)
 | Ordem | Tema | Evidência [O] | O que medir (vs. Egito/Índia: ~1 mil impressões, CTR 3,7–4%, 42–45% visualizado) |
