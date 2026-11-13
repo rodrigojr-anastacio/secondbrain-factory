@@ -21,6 +21,7 @@ Formatos: **Lugar** (molde WTS) ou **Documento** (2º molde, teste CWFP: 1 docum
 - **Risco:** o título "Midway" puxa documentário de batalha (bruta 2,9 mi) que não é nossa busca; a thumb e o "Can't" precisam deixar claro que é o lugar hoje. Sem CC BY-SA relevante. Reabrir a conta de demanda "só lugar" 96 mil: é teto baixo, piso incerto.
 
 ## 2. Bikini Atoll / Operation Crossroads — Lugar · Testes nucleares
+- **STATUS (13/11/2026): PRODUZIDO** → `videos/002-bikini/` (youtube.videos id 32), publicação prevista dom 15/11. Títulos A/B/C: "Why Can't You Visit Bikini Atoll?" · "What's Still Under the Water at Bikini Atoll?" · "Why Is There an Aircraft Carrier at the Bottom of Bikini?". O "hoje" saiu de Sentinel-2/Landsat/ISS + fotos NPS 1989–90; filme da reunião de Wyatt achado na NARA (428-NPC-18008).
 - **A (33):** Why Can't You Visit Bikini Atoll?
 - **B:** What's Still Under Bikini Atoll's Water?
 - **Por que:** bruta 278 mil / só lugar **207 mil** / 8 ≥100 mil (1 nos últimos 12 m); **5 títulos why/still** na amostra (maior da lista) e nº 1 de 2,19 mi (1946 Report, Vivid History) [O]. Concorrência com dono forte não observada nesta amostra.

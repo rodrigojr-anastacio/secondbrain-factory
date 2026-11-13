@@ -29,3 +29,10 @@ Amostras do estilo: `../amostras/frame-DocGrifo.mp4`, `frame-EntaoAgora.mp4`, `f
 
 ## Render
 Remotion 1080p30; render completo no Runpod (`tools/render_runpod.sh`), VPS só stills e testes de segundos.
+
+## Aprendizados do 002-bikini (13/11/2026)
+- **Filme bruto da Marinha (NARA 428-NPC)** dá cena que foto não dá (a reunião de Wyatt, Rongerik). A claquete da Marinha que aparece no meio é prova: no 002 ela ficou de propósito sob a frase "it took seven takes" (encenação narrada). Fora disso, cortar.
+- **"Hoje" sem foto em terra**: Sentinel-2 (crédito "Contains modified Copernicus Sentinel data [ano]" na descrição), Landsat, fotos da ISS (NASA) e fotos/desenhos do levantamento submarino do NPS (1989–90) bastaram para 3 pares então × agora.
+- **Citação que só existe em fonte secundária** (falas de Wyatt e Juda "as recorded in Navy records", via Weisgall 1980) vai em **Cartela tipográfica com Selo "QUOTED"**, nunca como documento fingido.
+- **Página .gov com fotos de terceiros** (LLNL): DocGrifo com `regiao` só no texto.
+- Técnico (Remotion do canal): `crop` do KenBurns é **(x, y, largura, altura)**, não (x0, y0, x1, y1) (1ª versão do 002 deixou faixa preta); trechos de filme de telecine (DOE 720×540) com margem clara: o `build.py` do 002 corta 2% de cada borda; a regra de ≤ 12 s por tipo de tela só fecha com os tempos reais da voz (rodar `roteiro.py` de novo depois do `build.py`).

@@ -3,6 +3,7 @@
 Base: transcrições completas do Iwo Jima (WTS, 4,5 mi) e do Lincoln (CWFP, 882 mil) em `pesquisa/lugares-guerra/transcricoes/`, análise em `pesquisa/lugares-guerra/ANATOMIA.md` §2 (12/11/2026). [O] = observado na referência; [I] = nossa regra/hipótese.
 
 ## Tamanho e ritmo
+- **Medido com a voz Narrator (002, 13/11/2026):** 2.549 palavras = 15,2 min de fala ≈ 168 ppm; com pausas, vídeo de 16:04. Para 18 min, ~2.850 palavras.
 - **16–20 min, alvo 18** → ~2.600–2.900 palavras a ~150 palavras/min (Iwo: 161 ppm [O]; Lincoln: 203 ppm [O]). Medir com a voz escolhida e ajustar.
 - Troca de **tipo de tela a cada 8–12 s** (foto → doc → número → mapa → filme), não "cortes por minuto" (11–26 cortes/min nos 8 vídeos, sem relação com views [O]).
 

@@ -1,0 +1,64 @@
+TITLES (Test & compare) — paired with the thumbnails
+A: Why Can't You Visit Bikini Atoll?                          → thumb-A.jpg ("THEY NEVER CAME BACK")
+B: What's Still Under the Water at Bikini Atoll?              → thumb-B.jpg ("A WHOLE FLEET")
+C: Why Is There an Aircraft Carrier at the Bottom of Bikini?  → thumb-C.jpg ("SUNK ON PURPOSE")
+Default when uploading: title A + thumbnail A; put B and C in "Test & compare" with their pairs.
+
+DESCRIPTION
+In March 1946, a Navy commodore asked 167 people to give up their island "for the good of mankind." Then the United States tested 23 nuclear weapons there. Eighty years later, the people of Bikini still can't go home to stay.
+We follow the paper trail: the goodbye that was staged for the cameras, the bomb that missed, the aircraft carrier that sank with its planes still aboard, the hydrogen bomb that was far bigger than planned, the island declared "safe" in 1968, and the $563 million award that was 99.6% unpaid.
+
+If someone in your family served at Operation Crossroads, on a target ship, a support ship, or in the air, tell us their name and their ship.
+
+CHAPTERS
+0:00 The staged goodbye
+0:47 Two strange things
+1:18 Why can't you visit Bikini?
+2:09 Operation Crossroads
+2:48 A Sunday in February
+3:42 Rongerik
+4:27 Kwajalein, then Kili
+5:04 Test Able
+6:04 Test Baker
+6:57 Measured in minutes
+7:47 Twenty-three tests
+8:20 Castle Bravo
+9:21 "Safe for human habitation"
+10:00 The coconut
+10:50 The bill
+11:56 The ground
+12:56 The crater from space
+13:23 Still on board
+14:24 Kili today
+15:00 So why can't you visit?
+15:24 One more time
+
+SOURCES
+- Defense Nuclear Agency, "Operation Crossroads 1946" (DNA 6032F, 1984) and "Castle Series 1954" (DNA 6035F, 1982), via GovInfo.
+- U.S. Department of Energy, "United States Nuclear Tests, July 1945 through September 1992" (DOE/NV-209 Rev. 16).
+- U.S. Atomic Energy Commission, press release L-191 (Aug. 12, 1968); U.S. Department of the Interior, "Bikini Resettlement Program" (c. 1969).
+- N. A. Greenhouse et al., "Dosimetry Methods and Results for the Former Residents of Bikini Atoll" (Brookhaven National Laboratory, BNL 26797, 1979).
+- U.S. House of Representatives hearing, "The United States Nuclear Legacy in the Marshall Islands" (May 25, 2005); Congressional Research Service RL32811 (2005).
+- People of Bikini v. United States, U.S. Court of Appeals for the Federal Circuit, No. 2007-5175 (Jan. 29, 2009).
+- Lawrence Livermore National Laboratory / DOE, The Marshall Islands Program: Bikini Atoll.
+- National Park Service, "The Archeology of the Atomic Bomb" (Delgado et al., 1991).
+- J. Weisgall, "The Nuclear Nomads of Bikini," Foreign Policy 39 (1980); J. Niedenthal, Health Physics 73(1) (1997).
+- Abella et al., PNAS 116:15425 (2019); Topping et al., PNAS (2019).
+- UNESCO World Heritage List, Bikini Atoll Nuclear Test Site (1339). Smithsonian Magazine (the bikini swimsuit). RNZ and Pacific Island Times (Kili, 2016–2024).
+
+CREDITS
+Film: 428-NPC-18008 and 428-NPC-18022 (U.S. Navy, 1946; National Archives), 111-DD-278-69 (U.S. Army, 1969; National Archives), "Project Crossroads" (JTF-1, 1946; U.S. Department of Energy), "Operation Crossroads" (U.S. Navy / Joint Task Force One, 1949), "Operation Castle" (USAF Lookout Mountain Laboratory, 1954; U.S. Department of Energy). Films are shown without their original sound.
+Photos: U.S. Navy / National Archives (80-G series), Naval History and Heritage Command, U.S. Department of Energy, National Park Service (Submerged Cultural Resources Unit, 1989–90 survey photos and drawings), NASA (ISS crew Earth observations), USGS/NASA Landsat 8. Contains modified Copernicus Sentinel data [2025].
+Documents: as listed in SOURCES. Maps: Natural Earth. Quotations from Commodore Wyatt and Juda are as recorded in Navy records (quoted by J. Weisgall, 1980).
+U.S. government works are in the public domain. On-screen dates and places only; full credits are listed here. Music: original, made for this channel.
+Narration voice is synthetic (AI text-to-speech).
+
+TAGS
+Bikini Atoll, Why can't you visit Bikini Atoll, Operation Crossroads, Castle Bravo, USS Saratoga wreck, Nagato wreck, nuclear testing, Marshall Islands, Bikini islanders, Kili Island, atomic bomb test 1946, Cold War history, restricted places, World War II ships
+
+CATEGORY: Education · LANGUAGE: English (US)
+
+REMINDER FOR UPLOAD (Rodrigo)
+- Video language: English. "Altered or synthetic content": YES (synthetic narration voice). Not made for kids.
+- Upload the 3 thumbnails in "Test & compare" (A main) and the title alternatives if the test is available.
+- Upload legendas.srt as English subtitles. Use video.mp4 (1080p).
