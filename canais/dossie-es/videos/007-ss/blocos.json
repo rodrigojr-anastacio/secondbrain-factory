@@ -1,0 +1,457 @@
+[
+ {
+  "id": "N001",
+  "texto": "Bertioga, Brasil, siete de febrero de mil novecientos setenta y nueve. Un anciano se mete al mar, sufre un derrame cerebral y se ahoga.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "Lo entierran en Embu con el nombre de Wolfgang Gerhard. Seis años después, la policía abre la tumba.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "Los huesos son de Josef Mengele, médico de las SS en Auschwitz.",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "Esta es TODA la historia de las SS. Una escolta de doscientos ochenta hombres por la que pasó cerca de un millón.",
+  "ideia": true
+ },
+ {
+  "id": "N005",
+  "texto": "El Granjero. Múnich, mil novecientos veinticinco. El partido nazi crea una pequeña escolta para proteger a Hitler en sus mítines. La llama Schutzstaffel, escuadra de protección. Las SS.",
+  "ideia": false
+ },
+ {
+  "id": "N006",
+  "texto": "Son unas decenas de hombres, a la sombra de las SA, la enorme milicia de camisas pardas.",
+  "ideia": false
+ },
+ {
+  "id": "N007",
+  "texto": "En enero de mil novecientos veintinueve, la escolta recibe un nuevo jefe: Heinrich Himmler, de veintiocho años.",
+  "ideia": false
+ },
+ {
+  "id": "N008",
+  "texto": "Estudió agronomía y tuvo una granja de gallinas que fracasó. Es miope, meticuloso y obsesionado con los registros.",
+  "ideia": false
+ },
+ {
+  "id": "N009",
+  "texto": "Hereda unos doscientos ochenta hombres. A finales de mil novecientos treinta y dos ya son más de cincuenta mil.",
+  "ideia": false
+ },
+ {
+  "id": "N010",
+  "texto": "Para elegirlos, Himmler no mira solo el físico. Mira el árbol genealógico.",
+  "ideia": true
+ },
+ {
+  "id": "N011",
+  "texto": "El Certificado. Para entrar en las SS hay que probar una supuesta ascendencia aria hasta el año mil ochocientos. Los oficiales, hasta mil setecientos cincuenta.",
+  "ideia": false
+ },
+ {
+  "id": "N012",
+  "texto": "El candidato reúne actas de bautismo y registros de parroquia. Hasta la estatura cuenta.",
+  "ideia": false
+ },
+ {
+  "id": "N013",
+  "texto": "En diciembre de mil novecientos treinta y uno, Himmler da otra orden. Ningún miembro puede casarse sin permiso. La novia también tiene que probar su árbol genealógico.",
+  "ideia": false
+ },
+ {
+  "id": "N014",
+  "texto": "Una oficina de las SS, la de Raza y Asentamiento, revisa cada expediente.",
+  "ideia": false
+ },
+ {
+  "id": "N015",
+  "texto": "Es una teoría racial sin ninguna base científica. Sobre esa mentira se forma la orden. Y en mil novecientos treinta y cuatro, recibe su primera orden de matar.",
+  "ideia": true
+ },
+ {
+  "id": "N016",
+  "texto": "Los Cuchillos. Junio de mil novecientos treinta y cuatro. Las SA tienen ya millones de miembros. Su jefe, Ernst Röhm, quiere convertirlas en el nuevo ejército de Alemania.",
+  "ideia": false
+ },
+ {
+  "id": "N017",
+  "texto": "El ejército y los grandes empresarios desconfían de él. Hitler decide.",
+  "ideia": false
+ },
+ {
+  "id": "N018",
+  "texto": "Al amanecer del treinta de junio, Hitler llega en persona a un hotel de Bad Wiessee, donde descansa Röhm. Lo detiene en su habitación.",
+  "ideia": false
+ },
+ {
+  "id": "N019",
+  "texto": "En tres días, hombres de las SS y de la Gestapo asesinan a decenas de jefes de las SA y a viejos rivales de Hitler. Hay al menos ochenta y cinco muertos documentados.",
+  "ideia": false
+ },
+ {
+  "id": "N020",
+  "texto": "A Röhm le dejan una pistola en la celda para que se mate. Se niega. Lo matan dos oficiales de las SS. Uno de ellos es Theodor Eicke.",
+  "ideia": false
+ },
+ {
+  "id": "N021",
+  "texto": "Tres semanas después, Hitler premia a las SS: dejan de depender de las SA. Y Eicke recibe su recompensa: la inspección de todos los campos de concentración.",
+  "ideia": true
+ },
+ {
+  "id": "N022",
+  "texto": "El Reglamento. Dachau, cerca de Múnich, marzo de mil novecientos treinta y tres. Himmler, jefe de la policía de Múnich, anuncia a la prensa un campo de concentración. Dice que es para presos políticos.",
+  "ideia": false
+ },
+ {
+  "id": "N023",
+  "texto": "Los primeros presos son comunistas, socialdemócratas y sindicalistas. Después llegarán judíos, romaníes, homosexuales y testigos de Jehová.",
+  "ideia": false
+ },
+ {
+  "id": "N024",
+  "texto": "En octubre, Eicke escribe un reglamento. Fija los castigos: palizas, celdas de aislamiento y pena de muerte para quien proteste o intente huir.",
+  "ideia": false
+ },
+ {
+  "id": "N025",
+  "texto": "Dachau se convierte en el modelo. Sus guardias, las unidades Calavera, se entrenan ahí y luego dirigen los demás campos.",
+  "ideia": false
+ },
+ {
+  "id": "N026",
+  "texto": "Entre esos guardias está un hombre que años después será comandante de Auschwitz: Rudolf Höss.",
+  "ideia": false
+ },
+ {
+  "id": "N027",
+  "texto": "Pero para vigilar a un país entero, los campos no alcanzan. Hace falta la policía.",
+  "ideia": true
+ },
+ {
+  "id": "N028",
+  "texto": "El Organigrama. Berlín, diecisiete de junio de mil novecientos treinta y seis. Hitler nombra a Himmler jefe de toda la policía alemana.",
+  "ideia": false
+ },
+ {
+  "id": "N029",
+  "texto": "Su hombre clave es Reinhard Heydrich, expulsado de la marina por romper una promesa de matrimonio. Dirige el SD, el servicio de inteligencia de las SS.",
+  "ideia": false
+ },
+ {
+  "id": "N030",
+  "texto": "En septiembre de mil novecientos treinta y nueve, todo se une en una sola oficina: la Oficina Central de Seguridad del Reich.",
+  "ideia": false
+ },
+ {
+  "id": "N031",
+  "texto": "Bajo ese techo están la Gestapo, la policía criminal y el SD. Un mismo jefe para espiar, detener y mandar a un campo sin juicio.",
+  "ideia": false
+ },
+ {
+  "id": "N032",
+  "texto": "La Gestapo merece su propio expediente. Lo que importa aquí es el organigrama. Y en la cima están las SS.",
+  "ideia": false
+ },
+ {
+  "id": "N033",
+  "texto": "Pero años antes, Himmler ya había buscado otra cosa para su orden: un castillo.",
+  "ideia": true
+ },
+ {
+  "id": "N034",
+  "texto": "El Castillo. Wewelsburg, Westfalia, mil novecientos treinta y cuatro. Himmler alquila un castillo triangular del siglo diecisiete por un marco al año.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "Quiere convertirlo en un centro para la cúpula de la orden: una escuela de oficiales, con salas de ceremonias y una cripta.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "Para las obras usa presos de un campo construido al lado. Mueren más de mil doscientos.",
+  "ideia": false
+ },
+ {
+  "id": "N037",
+  "texto": "Himmler también funda la Ahnenerbe, un instituto que busca pruebas de un supuesto pasado ario glorioso. Llega a mandar una expedición al Tíbet.",
+  "ideia": false
+ },
+ {
+  "id": "N038",
+  "texto": "Esa misma ciencia falsa, unos años después, servirá para justificar el asesinato en masa.",
+  "ideia": true
+ },
+ {
+  "id": "N039",
+  "texto": "El Informe. Septiembre de mil novecientos treinta y nueve. Alemania invade Polonia. Detrás del ejército entran grupos especiales de las SS y la policía: los Einsatzgruppen.",
+  "ideia": false
+ },
+ {
+  "id": "N040",
+  "texto": "Su misión: asesinar a maestros, sacerdotes, nobles y políticos. A cualquiera que pueda dirigir una resistencia.",
+  "ideia": false
+ },
+ {
+  "id": "N041",
+  "texto": "En junio de mil novecientos cuarenta y uno, Alemania invade la Unión Soviética. Los Einsatzgruppen avanzan detrás del ejército. Ahora asesinan a los judíos: hombres, mujeres y niños.",
+  "ideia": false
+ },
+ {
+  "id": "N042",
+  "texto": "En el barranco de Babi Yar, cerca de Kiev, asesinan a treinta y tres mil setecientos setenta y un judíos en dos días de septiembre. Ellos mismos anotan la cifra.",
+  "ideia": false
+ },
+ {
+  "id": "N043",
+  "texto": "El primero de diciembre, el coronel de las SS Karl Jäger firma un informe para sus jefes. Es una tabla: fecha, lugar, asesinados. Su comando, sobre todo en Lituania, suma ciento treinta y siete mil trescientas cuarenta y seis personas.",
+  "ideia": false
+ },
+ {
+  "id": "N044",
+  "texto": "Hasta mil novecientos cuarenta y tres, los Einsatzgruppen asesinan a más de un millón de personas. Pero en Berlín ya planean matar a una escala mayor.",
+  "ideia": true
+ },
+ {
+  "id": "N045",
+  "texto": "La Villa. Wannsee, a orillas de un lago de Berlín, veinte de enero de mil novecientos cuarenta y dos. Heydrich preside una reunión de quince participantes.",
+  "ideia": false
+ },
+ {
+  "id": "N046",
+  "texto": "Dura unos noventa minutos. El tema: coordinar la llamada solución final, el asesinato de los judíos de Europa.",
+  "ideia": false
+ },
+ {
+  "id": "N047",
+  "texto": "El acta la escribe un oficial de las SS, Adolf Eichmann. Enumera once millones de judíos. De treinta copias, solo una sobrevive a la guerra.",
+  "ideia": false
+ },
+ {
+  "id": "N048",
+  "texto": "Cuatro meses después, en Praga, dos paracaidistas checoslovacos atacan el automóvil de Heydrich con una granada. Muere días después, el cuatro de junio.",
+  "ideia": false
+ },
+ {
+  "id": "N049",
+  "texto": "La maquinaria que Heydrich coordinó siguió funcionando sin él.",
+  "ideia": true
+ },
+ {
+  "id": "N050",
+  "texto": "Si te gustan estos expedientes, suscríbete. Volvemos a Josef Mengele.",
+  "ideia": false
+ },
+ {
+  "id": "N051",
+  "texto": "La Rampa. Auschwitz-Birkenau, Polonia ocupada, mayo de mil novecientos cuarenta y tres. Llega un nuevo médico de las SS: Josef Mengele, de treinta y dos años.",
+  "ideia": false
+ },
+ {
+  "id": "N052",
+  "texto": "Las SS administran el campo. Los trenes llegan a una rampa. Ahí, los médicos de las SS hacen la selección. A un lado, el trabajo forzado. Al otro, las cámaras de gas.",
+  "ideia": false
+ },
+ {
+  "id": "N053",
+  "texto": "Mengele selecciona a gemelos, casi todos niños, para experimentos criminales y sin valor científico.",
+  "ideia": false
+ },
+ {
+  "id": "N054",
+  "texto": "En Auschwitz, las SS asesinan a cerca de un millón cien mil personas. Casi un millón son judíos.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "Por allí pasaron unos ocho mil miembros de las SS. Después de la guerra, solo unos ochocientos fueron juzgados.",
+  "ideia": false
+ },
+ {
+  "id": "N056",
+  "texto": "En enero de mil novecientos cuarenta y cinco, con los soviéticos cerca, Mengele se va del campo. Se lleva sus notas.",
+  "ideia": true
+ },
+ {
+  "id": "N057",
+  "texto": "El Pueblo. Las SS también tienen su propio ejército: las Waffen-SS. Nacen de la guardia personal de Hitler. En total pasan por ellas unos novecientos mil hombres, muchos de ellos extranjeros.",
+  "ideia": false
+ },
+ {
+  "id": "N058",
+  "texto": "Oradour-sur-Glane, Francia, diez de junio de mil novecientos cuarenta y cuatro. Cuatro días después del desembarco de Normandía, llega una compañía de la división Das Reich.",
+  "ideia": false
+ },
+ {
+  "id": "N059",
+  "texto": "Reúnen a los habitantes. Encierran a los hombres en graneros. A las mujeres y a los niños, en la iglesia.",
+  "ideia": false
+ },
+ {
+  "id": "N060",
+  "texto": "Matan a más de seiscientas cuarenta personas. Después queman el pueblo.",
+  "ideia": false
+ },
+ {
+  "id": "N061",
+  "texto": "Francia decidió no reconstruirlo. Las ruinas siguen ahí, como las dejaron.",
+  "ideia": false
+ },
+ {
+  "id": "N062",
+  "texto": "En abril de mil novecientos cuarenta y cinco, el hombre que dirigió todo esto prepara su salida.",
+  "ideia": true
+ },
+ {
+  "id": "N063",
+  "texto": "El Parche. Abril de mil novecientos cuarenta y cinco. Con Berlín rodeado, Himmler negocia a espaldas de Hitler con un diplomático sueco, el conde Folke Bernadotte. Ofrece rendirse a los aliados occidentales.",
+  "ideia": false
+ },
+ {
+  "id": "N064",
+  "texto": "Cuando Hitler se entera, lo destituye de todos sus cargos y ordena detenerlo. Dos días después, se suicida.",
+  "ideia": false
+ },
+ {
+  "id": "N065",
+  "texto": "Himmler se afeita el bigote, se pone un parche en el ojo y usa los papeles falsos de un sargento: Heinrich Hitzinger.",
+  "ideia": false
+ },
+ {
+  "id": "N066",
+  "texto": "En mayo, un control británico cerca de Bremervörde lo detiene. No saben quién es.",
+  "ideia": false
+ },
+ {
+  "id": "N067",
+  "texto": "Ya en un campo británico, se quita el parche y dice su nombre. Lo llevan a Lüneburg. El veintitrés de mayo, en el examen médico, muerde una cápsula de cianuro.",
+  "ideia": false
+ },
+ {
+  "id": "N068",
+  "texto": "Himmler no llega a un juicio. Pero su organización sí se sentará en el banquillo.",
+  "ideia": true
+ },
+ {
+  "id": "N069",
+  "texto": "La Sentencia. Núremberg, primero de octubre de mil novecientos cuarenta y seis. El Tribunal Militar Internacional lee su veredicto.",
+  "ideia": false
+ },
+ {
+  "id": "N070",
+  "texto": "El tribunal juzga a personas, pero también a organizaciones. Declara criminales a las SS, con pocas excepciones.",
+  "ideia": false
+ },
+ {
+  "id": "N071",
+  "texto": "Quien entró o siguió como voluntario después de septiembre de mil novecientos treinta y nueve, sabiendo de sus crímenes, puede ser juzgado por ello.",
+  "ideia": false
+ },
+ {
+  "id": "N072",
+  "texto": "Después, en el juicio de los Einsatzgruppen, catorce acusados son condenados a muerte. Solo cuatro son ejecutados.",
+  "ideia": false
+ },
+ {
+  "id": "N073",
+  "texto": "Pero miles de miembros de las SS nunca se sientan ante un juez. A muchos les basta un pasaporte.",
+  "ideia": true
+ },
+ {
+  "id": "N074",
+  "texto": "El Pasaporte. Génova, mil novecientos cuarenta y nueve. Un hombre llamado Helmut Gregor sube a un barco rumbo a Buenos Aires. Lleva un documento de viaje de la Cruz Roja.",
+  "ideia": false
+ },
+ {
+  "id": "N075",
+  "texto": "Es Josef Mengele. Pasó más de tres años escondido en una granja de Baviera, trabajando como peón.",
+  "ideia": false
+ },
+ {
+  "id": "N076",
+  "texto": "No es el único. Por las llamadas rutas de las ratas escapan cientos de criminales nazis. Los ayudan algunos clérigos y redes de simpatizantes. Muchos llegan a Sudamérica.",
+  "ideia": false
+ },
+ {
+  "id": "N077",
+  "texto": "El gobierno de Perón recibe a muchos de ellos en Argentina. Adolf Eichmann llega en mil novecientos cincuenta. Su captura está en nuestro expediente del Mossad.",
+  "ideia": false
+ },
+ {
+  "id": "N078",
+  "texto": "Walter Rauff, el oficial de las SS a cargo de los camiones de gas, vive en Chile hasta su muerte en mil novecientos ochenta y cuatro. Chile nunca lo extradita.",
+  "ideia": false
+ },
+ {
+  "id": "N079",
+  "texto": "Klaus Barbie, jefe de la Gestapo en Lyon, vive en Bolivia con otro nombre y asesora a gobiernos militares. En mil novecientos ochenta y tres lo expulsan a Francia.",
+  "ideia": false
+ },
+ {
+  "id": "N080",
+  "texto": "Mengele pasa de Argentina a Paraguay y luego a Brasil. Nunca lo encuentran con vida.",
+  "ideia": true
+ },
+ {
+  "id": "N081",
+  "texto": "La Entrevista. Bariloche, Argentina, mayo de mil novecientos noventa y cuatro. Un equipo de la televisión estadounidense busca a un vecino respetado de la ciudad: Erich Priebke.",
+  "ideia": false
+ },
+ {
+  "id": "N082",
+  "texto": "Preside la asociación cultural que sostiene la escuela alemana. Durante la guerra fue capitán de las SS en Roma.",
+  "ideia": false
+ },
+ {
+  "id": "N083",
+  "texto": "En marzo de mil novecientos cuarenta y cuatro participó en la matanza de las Fosas Ardeatinas: trescientas treinta y cinco personas asesinadas.",
+  "ideia": false
+ },
+ {
+  "id": "N084",
+  "texto": "Ante la cámara, Priebke no lo niega. Dice que cumplía órdenes.",
+  "ideia": false
+ },
+ {
+  "id": "N085",
+  "texto": "Argentina lo extradita a Italia en mil novecientos noventa y cinco. En mil novecientos noventa y ocho lo condenan a cadena perpetua. Muere en Roma en dos mil trece, a los cien años, bajo arresto domiciliario.",
+  "ideia": false
+ },
+ {
+  "id": "N086",
+  "texto": "Cumplir órdenes. La misma excusa que el tribunal de Núremberg había rechazado medio siglo antes.",
+  "ideia": true
+ },
+ {
+  "id": "N087",
+  "texto": "La Tumba. Embu, São Paulo, seis de junio de mil novecientos ochenta y cinco. Los forenses exhuman los restos de Wolfgang Gerhard ante decenas de periodistas.",
+  "ideia": false
+ },
+ {
+  "id": "N088",
+  "texto": "Expertos de Brasil, Alemania y Estados Unidos los examinan. En mil novecientos noventa y dos, una prueba de ADN lo confirma: es Mengele.",
+  "ideia": false
+ },
+ {
+  "id": "N089",
+  "texto": "Su familia no los reclama. Desde dos mil dieciséis, los huesos sirven para enseñar medicina forense en la Universidad de São Paulo.",
+  "ideia": false
+ },
+ {
+  "id": "N090",
+  "texto": "El régimen al que servían las SS prometía durar mil años. Duró doce. Y el médico que decidía en la rampa quién vivía y quién moría terminó como material de estudio.",
+  "ideia": true
+ },
+ {
+  "id": "N091",
+  "texto": "Y tú, ¿crees que la justicia llegó tarde o que nunca llegó? Déjalo en los comentarios. Si quieres saber cómo atraparon a Eichmann, aquí tienes el expediente completo del Mossad.",
+  "ideia": false
+ }
+]

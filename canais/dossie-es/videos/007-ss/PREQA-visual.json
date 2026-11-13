@@ -1,0 +1,1057 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/dossie-es/videos/007-ss/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2268,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 3,
+  "medio": 18,
+  "baixo": 31
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Fusca/carro compacto antigo estacionado na praia à direita; a cena é de 1979, então é plausível, mas o veículo é discreto e vale conferir a época.",
+   "t": 1.6,
+   "arquivo": "48.png"
+  },
+  {
+   "quadro": "Q03",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Policiais/guardas de uniforme azul com quepe e cinto vermelho cavando a sepultura; uniformes ambíguos para o contexto (Bertioga, 1979). Há também pequenas manchas e emblemas vermelhos nas golas/braços que podem ser insígnias. Conferir se não lembram insígnias SS.",
+   "t": 15.0,
+   "arquivo": "450.png"
+  },
+  {
+   "quadro": "Q05",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O carimbo 'CLASIFICADO' sobrepõe a aba 'EXPEDIENTE 1' e a borda do cartão. Parece intencional como carimbo, mas encosta no cartão; legibilidade ok.",
+   "t": 33.03333333333333,
+   "arquivo": "991.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Sete homens idênticos de uniforme cinza-azulado com colarinho preto, boné e pequena medalha vermelha no peito, lembrando uniforme paramilitar. Há pequenos distintivos vermelhos no peito, o que pode contrariar a regra de uniformes sem insígnias. Os rostos e poses são quase clonados.",
+   "t": 45.0,
+   "arquivo": "1350.png"
+  },
+  {
+   "quadro": "Q11",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa uniforme de 8% no topo (RGB 79,96,103), mas visualmente é só o céu liso cinza-azulado da cena, sem listra nem emenda. Provável falso positivo; confira o topo antes do render.",
+   "t": 65.0,
+   "arquivo": "1950.png"
+  },
+  {
+   "quadro": "Q13",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os papéis sobre a mesa abaixo do cartão têm texto ilegível, tolerado pela regra do canal. O cartão tem 'Nº 007' e 'Expediente 2', que parecem texto de código intencional.",
+   "t": 84.5,
+   "arquivo": "2535.png"
+  },
+  {
+   "quadro": "Q15",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "A pasta à direita tem etiqueta com rabisco que parece palavra (\"Bericht\"), e o livro aberto tem tabelas com escrita falsa. Está pequeno e discreto, mas é texto inventado pela IA. Há também dupla exposição fantasma (figuras translúcidas nos cantos), que pode ser crossfade.",
+   "t": 95.0,
+   "arquivo": "2850.png"
+  },
+  {
+   "quadro": "Q19",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa 'LOS CUCHILLOS' e a aba 'EXPEDIENTE 3' cobrem o rosto do personagem (testa/olhos/nariz). Parece intencional como cartão de capítulo, mas esconde o rosto inteiro; o selo 'CLASIFICADO' encosta na aba. A faixa uniforme no topo (7%, RGB 44,45,41) detectada pelo sinal automático parece ser só o fundo escuro da cena, provável vinheta.",
+   "t": 131.86666666666667,
+   "arquivo": "3956.png"
+  },
+  {
+   "quadro": "Q22",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O quadro na parede, atrás da cama, mostra um rabisco que lembra letras (tipo 'N'). É pequeno e ilegível. Há um objeto no chão que parece um megafone/sino, de função pouco clara.",
+   "t": 155.0,
+   "arquivo": "4650.png"
+  },
+  {
+   "quadro": "Q23",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A folha na mesa tem linhas de texto falso, ilegível, com riscos vermelhos. Sem números nem palavras legíveis, então o fundo de papel é tolerado. Só registro por cautela.",
+   "t": 165.0,
+   "arquivo": "4950.png"
+  },
+  {
+   "quadro": "Q26",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "O cartão 'LUGAR Y FECHA' mostra só 'DACHAU,', sem data. É animação de digitação, então é normal. A faixa de 5% no topo é céu liso, não é defeito.",
+   "t": 195.0,
+   "arquivo": "5850.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático aponta faixa uniforme no topo (16%), mas é só o céu liso em degradê da cena, o que é intencional. Registro por precaução; não precisa corrigir.",
+   "t": 215.0,
+   "arquivo": "6450.png"
+  },
+  {
+   "quadro": "Q30",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Uniformes azul-acinzentados com bonés de campo e braçadeira vermelha lisa à direita, sem insígnias legíveis. Está dentro do tolerado pelo contexto do canal e não é defeito.",
+   "t": 235.0,
+   "arquivo": "7050.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "moldura",
+   "severidade": "alto",
+   "descricao": "Faixa preta vertical na borda esquerda (~5% do quadro, confirmada pelo sinal automático); parece resíduo de letterbox/moldura da imagem de IA e precisa de recorte.",
+   "t": 275.0,
+   "arquivo": "8250.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Respingos vermelhos parecem sangue sobre o organograma, perto do limite da regra 'sem sangue'. Estilo duvidoso, mas são gotas pequenas e pontuais.",
+   "t": 275.0,
+   "arquivo": "8250.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Faixa uniforme no topo (13%, RGB 35,45,50). Parece céu liso escuro da cena, não defeito claro. Registrado por dúvida entre estilo e defeito; conferir se não há emenda visível.",
+   "t": 305.0,
+   "arquivo": "9150.png"
+  },
+  {
+   "quadro": "Q39",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Bandeiras vermelhas lisas nas torres do castelo e prisioneiros de uniforme listrado. Sem insígnias visíveis, aceitável. Conferir se não há símbolo nas bandeiras.",
+   "t": 325.0,
+   "arquivo": "9750.png"
+  },
+  {
+   "quadro": "Q42",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Soldados com capacete e caminhões verdes em aldeia, coerente com 1941. Não vi insígnia nem bandeira. Só registro a dúvida sobre os caminhões, que parecem genéricos.",
+   "t": 355.0,
+   "arquivo": "10650.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "moldura",
+   "severidade": "medio",
+   "descricao": "Faixa preta fina no topo do quadro (letterbox leve, cerca de 2-3% da altura) acima da sala de aula. Parece resquício de moldura de IA e deve ser recortada.",
+   "t": 365.0,
+   "arquivo": "10950.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme no topo, mas é só o céu liso azul-acinzentado da cena, com gradiente suave. Provavelmente é falso positivo; vale conferir se não há emenda.",
+   "t": 375.0,
+   "arquivo": "11250.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Bandeira vermelha lisa, rasgada, presa a um mastro cruzado no canto inferior direito, parcialmente cortada pela borda. Sem emblema, é tolerada, mas vale conferir se o enquadramento é intencional.",
+   "t": 415.0,
+   "arquivo": "12450.png"
+  },
+  {
+   "quadro": "Q50",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "As folhas de papel sobre a mesa têm escrita manuscrita falsa. Ela é ilegível e sem números ou palavras legíveis, então é tolerada pelo contexto. Fica registrada só pela dúvida.",
+   "t": 435.0,
+   "arquivo": "13050.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "moldura",
+   "severidade": "medio",
+   "descricao": "O sinal automático indica faixa preta na borda esquerda (6%). Visualmente ela se confunde com a cortina escura da cena. Há dúvida entre estilo e defeito; vale conferir e recortar se for faixa de IA.",
+   "t": 445.0,
+   "arquivo": "13350.png"
+  },
+  {
+   "quadro": "Q53",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O sinal automático acusa faixa uniforme no topo (12%, RGB 51,61,67). Visualmente é céu nublado liso que faz parte da cena, sem emenda evidente. Há dúvida, então fica registrado como médio.",
+   "t": 465.0,
+   "arquivo": "13950.png"
+  },
+  {
+   "quadro": "Q54",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa uniforme no topo (22%). É o céu escuro liso atrás da placa de capítulo e parece fazer parte da cena. Provável falso positivo.",
+   "t": 475.0,
+   "arquivo": "14250.png"
+  },
+  {
+   "quadro": "Q55",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A maleta tem uma cruz vermelha e o médico traz uma braçadeira vermelha discreta. Os dois itens são tolerados pelo contexto do canal. Fica só como observação.",
+   "t": 485.0,
+   "arquivo": "14550.png"
+  },
+  {
+   "quadro": "Q58",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme no topo (RGB 75,89,96), mas é só céu nublado da cena, sem emenda visível. Provável falso positivo; confirmar no render.",
+   "t": 515.0,
+   "arquivo": "15450.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os pôsteres na parede à esquerda têm rabiscos que parecem texto, e há uma etiqueta no livro à frente. Estão ilegíveis, o que a bíblia tolera. Registro só por precaução.",
+   "t": 525.0,
+   "arquivo": "15750.png"
+  },
+  {
+   "quadro": "Q60",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "No soldado da frente há um pequeno emblema vermelho no peito/gola e marcas no capacete. Pode contar como insígnia, contra a regra de uniformes sem insígnias. Verificar.",
+   "t": 535.0,
+   "arquivo": "16050.png"
+  },
+  {
+   "quadro": "Q61",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Os tanques têm números/marcas brancas no casco e na torre, e um tripulante usa lenço vermelho. Há dúvida se a marcação é insígnia ou detalhe de estilo. A bíblia pede uniformes sem insígnias; conferir.",
+   "t": 545.0,
+   "arquivo": "16350.png"
+  },
+  {
+   "quadro": "Q61",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme no topo (RGB 81,99,112). É céu liso cinza-azulado da cena, sem emenda visível. Provável falso positivo.",
+   "t": 545.0,
+   "arquivo": "16350.png"
+  },
+  {
+   "quadro": "Q65",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa 'EXPEDIENTE 11 / EL PARCHE' cobre o rosto e parte do tronco do homem sentado à esquerda. Pode ser composição intencional de placa de capítulo, mas esconde o personagem. O carimbo 'CLASIFICADO' encosta na borda da placa.",
+   "t": 585.0,
+   "arquivo": "17550.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A braçadeira branca com cruz vermelha é tolerada pelo contexto do canal. A mão do homem tem dedos estranhos, com um dedo extra ou deformado, e o rosto está cortado pelo enquadramento. Defeito pequeno de IA.",
+   "t": 595.0,
+   "arquivo": "17850.png"
+  },
+  {
+   "quadro": "Q67",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O mostrador do rádio tem marcações minúsculas e ilegíveis, e o mapa na mesa tem rabiscos. A bandeira ao fundo mostra um escudo escuro liso, sem texto legível. Nada bloqueante.",
+   "t": 605.0,
+   "arquivo": "18150.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Os capacetes dos soldados lembram o modelo britânico da Primeira Guerra (tipo Brodie), e as perneiras são de estilo antigo, o que destoa de 1945. A bandeira britânica combina com o contexto. O cartão 'LUGAR Y FECHA' está completo e legível. O emblema vermelho no caminhão é uma insígnia pouco clara.",
+   "t": 615.0,
+   "arquivo": "18450.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os uniformes cinza-azulados com quepes e emblemas vermelhos pequenos são genéricos e sem insígnia legível, aceitáveis. O soldado em pé tem um tapa-olho.",
+   "t": 625.0,
+   "arquivo": "18750.png"
+  },
+  {
+   "quadro": "Q75",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "Carimbo 'CLASIFICADO' sobrepõe a borda superior direita da placa de capítulo e quase toca a etiqueta; legível, mas apertado. Maleta com mancha vermelha no cais.",
+   "t": 685.0,
+   "arquivo": "20550.png"
+  },
+  {
+   "quadro": "Q76",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Transatlântico com várias chaminés ao estilo Titanic (anos 1910) numa cena sobre fuga de 1949; discutível como estilo.",
+   "t": 695.0,
+   "arquivo": "20850.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Rótulo escreve 'GENOVA' (sem acento) enquanto Q78/Q79 mostram 'GÉNOVA' com acento; marcador sobre a Itália/Mediterrâneo fica ligeiramente deslocado. Inconsistência de grafia entre quadros do mesmo mapa.",
+   "t": 702.6,
+   "arquivo": "21078.png"
+  },
+  {
+   "quadro": "Q80",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Rótulo 'GENOVA' sem acento, inconsistente com 'GÉNOVA' de Q78/Q79; o mapa volta ao estado inicial sem rota depois de Q79 (t=11:46), possível reinício de animação fora de ordem.",
+   "t": 705.6,
+   "arquivo": "21168.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O topo tem céu liso em tom azul-ardósia, que faz parte da cena. O sinal automático acusou uma faixa uniforme de 8%. Não há emenda visível, então é só uma dúvida de estilo.",
+   "t": 715.0,
+   "arquivo": "21450.png"
+  },
+  {
+   "quadro": "Q83",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O carro verde parece um Fiat 124/Lada dos anos 70, e o poste de luz é moderno. A época fica duvidosa, embora possa ser coerente com o contexto. Registrado pela dúvida entre estilo e defeito.",
+   "t": 725.0,
+   "arquivo": "21750.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "A cena é de 1983, mas o avião e o carro azul à direita parecem de época indefinida. Os policiais têm uniformes azuis com distintivo vermelho no braço, em estilo genérico moderno. O número '1983' na escada do avião é texto escrito pela IA e não vem do código.",
+   "t": 745.0,
+   "arquivo": "22350.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O topo da imagem tem uma faixa lisa e escura (cerca de 11%), mas parece ser céu ou vinheta do fundo da cena. Provavelmente é intencional. Registrado só porque o sinal automático acusou.",
+   "t": 755.0,
+   "arquivo": "22650.png"
+  },
+  {
+   "quadro": "Q89",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O microfone do repórter à direita traz uma bandeirinha com letras ilegíveis e inventadas pela IA. É pequeno, mas dá para notar.",
+   "t": 765.0,
+   "arquivo": "22950.png"
+  },
+  {
+   "quadro": "Q90",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Soldados de uniforme cinza-azulado em rua de estilo italiano, com um lenço vermelho no pescoço e fogo ao fundo. O contexto é duvidoso: o uniforme pode não corresponder à época ou ao grupo da narração. Sem insígnias legíveis, e o lenço vermelho é pontual e talvez intencional.",
+   "t": 775.0,
+   "arquivo": "23250.png"
+  },
+  {
+   "quadro": "Q91",
+   "categoria": "texto_inventado",
+   "severidade": "alto",
+   "descricao": "A placa pendurada no poste à direita, na rua da vila, traz rabiscos que parecem texto inventado e ilegível. As janelas e placas de madeira nas casas ao fundo estão em branco, o que é correto.",
+   "t": 785.0,
+   "arquivo": "23550.png"
+  },
+  {
+   "quadro": "Q94",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os policiais têm quepes com insígnia e uma divisa vermelha no braço, e os fotógrafos usam câmeras modernas. Pode não bater com Embu em 1985. É um detalhe pequeno e discutível, pois a estética é de graphic novel.",
+   "t": 815.0,
+   "arquivo": "24450.png"
+  },
+  {
+   "quadro": "Q96",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A lousa à esquerda tem rabiscos pseudo-científicos ilegíveis. Os papéis e livros na mesa também. É texto de fundo sem palavras ou números legíveis, tolerado.",
+   "t": 835.0,
+   "arquivo": "25050.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "No canto direito da multidão há uma pessoa com braçadeira vermelha lisa. É tolerada pelo contexto do canal, mas vale conferir que não aparece símbolo nela.",
+   "t": 845.0,
+   "arquivo": "25350.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O círculo vermelho com um traço sobre a capa do livro parece um símbolo inventado, sem relação clara com a cena. Pode ser lido como marca ou emblema. Na dúvida entre estilo e defeito, registro como médio.",
+   "t": 855.0,
+   "arquivo": "25650.png"
+  },
+  {
+   "quadro": "Q99",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Nos papéis à esquerda e no canto inferior há rabiscos que parecem letras (ex.: 'YBC', números/linhas). Parecem texto ilegível de fundo, tolerado, mas há grafia semilegível. O respingo vermelho exagerado lembra sangue, e o canal pede cenas sem sangue; é tinta de carimbo, mas pode ser lido como sangue.",
+   "t": 865.0,
+   "arquivo": "25950.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 1.6,
+   "nome": "48.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 5.0,
+   "nome": "150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 15.0,
+   "nome": "450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 25.0,
+   "nome": "750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 33.03333333333333,
+   "nome": "991.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 33.6,
+   "nome": "1008.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 35.0,
+   "nome": "1050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 45.0,
+   "nome": "1350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 54.333333333333336,
+   "nome": "1630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 55.0,
+   "nome": "1650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 65.0,
+   "nome": "1950.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(79,96,103)"
+   ]
+  },
+  {
+   "id": "Q12",
+   "t": 75.0,
+   "nome": "2250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 84.5,
+   "nome": "2535.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 85.0,
+   "nome": "2550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 95.0,
+   "nome": "2850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 105.0,
+   "nome": "3150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 115.0,
+   "nome": "3450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 125.0,
+   "nome": "3750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 131.86666666666667,
+   "nome": "3956.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 7% do quadro, cor RGB(44,45,41)"
+   ]
+  },
+  {
+   "id": "Q20",
+   "t": 135.0,
+   "nome": "4050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 145.0,
+   "nome": "4350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 155.0,
+   "nome": "4650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 165.0,
+   "nome": "4950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 175.0,
+   "nome": "5250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 185.0,
+   "nome": "5550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 195.0,
+   "nome": "5850.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(81,89,91)"
+   ]
+  },
+  {
+   "id": "Q27",
+   "t": 205.0,
+   "nome": "6150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 215.0,
+   "nome": "6450.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 16% do quadro, cor RGB(68,84,90)"
+   ]
+  },
+  {
+   "id": "Q29",
+   "t": 225.0,
+   "nome": "6750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 235.0,
+   "nome": "7050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 245.0,
+   "nome": "7350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 255.0,
+   "nome": "7650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 265.0,
+   "nome": "7950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 275.0,
+   "nome": "8250.png",
+   "sinais": [
+    "faixa preta na borda esquerda: 5% do quadro"
+   ]
+  },
+  {
+   "id": "Q35",
+   "t": 285.0,
+   "nome": "8550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 295.0,
+   "nome": "8850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 305.0,
+   "nome": "9150.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 13% do quadro, cor RGB(35,45,50)"
+   ]
+  },
+  {
+   "id": "Q38",
+   "t": 315.0,
+   "nome": "9450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 325.0,
+   "nome": "9750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 335.0,
+   "nome": "10050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 345.0,
+   "nome": "10350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 355.0,
+   "nome": "10650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 365.0,
+   "nome": "10950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 375.0,
+   "nome": "11250.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(87,107,114)"
+   ]
+  },
+  {
+   "id": "Q45",
+   "t": 385.0,
+   "nome": "11550.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(94,102,103)"
+   ]
+  },
+  {
+   "id": "Q46",
+   "t": 395.0,
+   "nome": "11850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 405.0,
+   "nome": "12150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 415.0,
+   "nome": "12450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 425.0,
+   "nome": "12750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 435.0,
+   "nome": "13050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 445.0,
+   "nome": "13350.png",
+   "sinais": [
+    "faixa preta na borda esquerda: 6% do quadro"
+   ]
+  },
+  {
+   "id": "Q52",
+   "t": 455.0,
+   "nome": "13650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 465.0,
+   "nome": "13950.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 12% do quadro, cor RGB(51,61,67)"
+   ]
+  },
+  {
+   "id": "Q54",
+   "t": 475.0,
+   "nome": "14250.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 22% do quadro, cor RGB(44,51,55)"
+   ]
+  },
+  {
+   "id": "Q55",
+   "t": 485.0,
+   "nome": "14550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 495.0,
+   "nome": "14850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 505.0,
+   "nome": "15150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 515.0,
+   "nome": "15450.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(75,89,96)"
+   ]
+  },
+  {
+   "id": "Q59",
+   "t": 525.0,
+   "nome": "15750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 535.0,
+   "nome": "16050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 545.0,
+   "nome": "16350.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(81,99,112)"
+   ]
+  },
+  {
+   "id": "Q62",
+   "t": 555.0,
+   "nome": "16650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 565.0,
+   "nome": "16950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 575.0,
+   "nome": "17250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 585.0,
+   "nome": "17550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 595.0,
+   "nome": "17850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 605.0,
+   "nome": "18150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 615.0,
+   "nome": "18450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 625.0,
+   "nome": "18750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 635.0,
+   "nome": "19050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 645.0,
+   "nome": "19350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 655.0,
+   "nome": "19650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 665.0,
+   "nome": "19950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 675.0,
+   "nome": "20250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 685.0,
+   "nome": "20550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 695.0,
+   "nome": "20850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 702.6,
+   "nome": "21078.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 705.0,
+   "nome": "21150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 705.1,
+   "nome": "21153.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 705.6,
+   "nome": "21168.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 708.1,
+   "nome": "21243.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 715.0,
+   "nome": "21450.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(68,87,90)"
+   ]
+  },
+  {
+   "id": "Q83",
+   "t": 725.0,
+   "nome": "21750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 735.0,
+   "nome": "22050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 745.0,
+   "nome": "22350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 747.4333333333333,
+   "nome": "22423.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 750.4666666666667,
+   "nome": "22514.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 755.0,
+   "nome": "22650.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 11% do quadro, cor RGB(57,68,75)"
+   ]
+  },
+  {
+   "id": "Q89",
+   "t": 765.0,
+   "nome": "22950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 775.0,
+   "nome": "23250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 785.0,
+   "nome": "23550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 795.0,
+   "nome": "23850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 805.0,
+   "nome": "24150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 815.0,
+   "nome": "24450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 825.0,
+   "nome": "24750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 835.0,
+   "nome": "25050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 845.0,
+   "nome": "25350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 855.0,
+   "nome": "25650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 865.0,
+   "nome": "25950.png",
+   "sinais": []
+  }
+ ]
+}
