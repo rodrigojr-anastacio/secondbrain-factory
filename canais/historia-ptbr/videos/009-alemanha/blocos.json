@@ -1,0 +1,386 @@
+[
+ {
+  "id": "N001",
+  "texto": "[serious] Versálhes, dezoito de janeiro de mil oitocentos e setenta e um. Imagine você no palácio dos reis da França, no Salão dos Espelhos. Lá fora, Paris está cercada e com fome.",
+  "tela": "[serious] Versalhes, dezoito de janeiro de mil oitocentos e setenta e um. Imagine você no palácio dos reis da França, no Salão dos Espelhos. Lá fora, Paris está cercada e com fome.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "Lá dentro, centenas de oficiais alemães erguem as espadas e gritam viva para um rei da Prússia, que acaba de virar imperador. [curious] De um país que nasce ali mesmo, na casa do inimigo.",
+  "tela": "Lá dentro, centenas de oficiais alemães erguem as espadas e gritam viva para um rei da Prússia, que acaba de virar imperador. [curious] De um país que nasce ali mesmo, na casa do inimigo.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "Setenta e cinco anos antes, dois dos maiores poetas da língua alemã, Guête e Chíler, tinham escrito: Alemanha? Mas onde fica? Eu não sei encontrar esse país.",
+  "tela": "Setenta e cinco anos antes, dois dos maiores poetas da língua alemã, Goethe e Schiller, tinham escrito: Alemanha? Mas onde fica? Eu não sei encontrar esse país.",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "[serious] Então, a pergunta: por que um povo com a mesma língua levou mil anos para virar um país, e por que, mesmo depois disso, ninguém sabia dizer onde a Alemanha começava e terminava?",
+  "tela": "[serious] Então, a pergunta: por que um povo com a mesma língua levou mil anos para virar um país, e por que, mesmo depois disso, ninguém sabia dizer onde a Alemanha começava e terminava?",
+  "ideia": true
+ },
+ {
+  "id": "N005",
+  "texto": "Essa é a história inteira da Alemanha. Guarde esse salão de espelhos: ele volta. E tudo começa numa floresta onde Roma perdeu um exército inteiro.",
+  "tela": "Essa é a história inteira da Alemanha. Guarde esse salão de espelhos: ele volta. E tudo começa numa floresta onde Roma perdeu um exército inteiro.",
+  "ideia": false
+ },
+ {
+  "id": "N006",
+  "texto": "Ano nove. Olhe para essa floresta a leste do Reno: escura, encharcada, sem estrada. Três legiões romanas marcham por ela em fila comprida, debaixo de chuva. Imagine o barro até o joelho.",
+  "tela": "Ano nove. Olhe para essa floresta a leste do Reno: escura, encharcada, sem estrada. Três legiões romanas marcham por ela em fila comprida, debaixo de chuva. Imagine o barro até o joelho.",
+  "ideia": false
+ },
+ {
+  "id": "N007",
+  "texto": "Quem guia é Armínio, um chefe germânico que cresceu entre os romanos e serviu no exército deles. Só que ele leva os romanos direto para uma armadilha. Em poucos dias, as três legiões somem.",
+  "tela": "Quem guia é Armínio, um chefe germânico que cresceu entre os romanos e serviu no exército deles. Só que ele leva os romanos direto para uma armadilha. Em poucos dias, as três legiões somem.",
+  "ideia": false
+ },
+ {
+  "id": "N008",
+  "texto": "[curious] Conta-se que o imperador Augusto, em Roma, batia a cabeça na porta e gritava: Varo, devolva as minhas legiões!",
+  "tela": "[curious] Conta-se que o imperador Augusto, em Roma, batia a cabeça na porta e gritava: Varo, devolva as minhas legiões!",
+  "ideia": false
+ },
+ {
+  "id": "N009",
+  "texto": "Roma desiste da floresta, e o Reno vira fronteira. Repare: Colônia, Máintz e Tréveris nasceram romanas, do lado de cá. [curious] Colônia vem de colônia romana. A água-de-colônia que você já passou é de lá.",
+  "tela": "Roma desiste da floresta, e o Reno vira fronteira. Repare: Colônia, Mainz e Tréveris nasceram romanas, do lado de cá. [curious] Colônia vem de colônia romana. A água-de-colônia que você já passou é de lá.",
+  "ideia": true
+ },
+ {
+  "id": "N010",
+  "texto": "Mas aqueles povos nunca foram um povo só: querúscos, suêvos, saxões, francos, cada um com o seu chefe. Então, quando Roma enfraquece, no século cinco, eles atravessam o Reno e repartem o império.",
+  "tela": "Mas aqueles povos nunca foram um povo só: queruscos, suevos, saxões, francos, cada um com o seu chefe. Então, quando Roma enfraquece, no século cinco, eles atravessam o Reno e repartem o império.",
+  "ideia": false
+ },
+ {
+  "id": "N011",
+  "texto": "Um rei franco, Carlos Magno, junta quase tudo de novo no ano oitocentos. Só que os netos dele repartem o império em três. E repare: a fatia do leste ia levar mil anos para virar um país.",
+  "tela": "Um rei franco, Carlos Magno, junta quase tudo de novo no ano oitocentos. Só que os netos dele repartem o império em três. E repare: a fatia do leste ia levar mil anos para virar um país.",
+  "ideia": false
+ },
+ {
+  "id": "N012",
+  "texto": "Canóssa, janeiro de mil e setenta e sete. Diante de um castelo nas montanhas, um homem espera na neve, descalço, com roupa de penitente. É o imperador, Henrique Quarto. E o papa, lá dentro, o faz esperar três dias.",
+  "tela": "Canossa, janeiro de mil e setenta e sete. Diante de um castelo nas montanhas, um homem espera na neve, descalço, com roupa de penitente. É o imperador, Henrique Quarto. E o papa, lá dentro, o faz esperar três dias.",
+  "ideia": false
+ },
+ {
+  "id": "N013",
+  "texto": "Como um imperador chegou a isso? Desde Otão, o Grande, coroado em novecentos e sessenta e dois, os reis alemães também eram coroados imperadores. Só que brigavam com o papa, e o papa podia expulsar o imperador da Igreja. Aí os príncipes aproveitavam para se rebelar.",
+  "tela": "Como um imperador chegou a isso? Desde Otão, o Grande, coroado em novecentos e sessenta e dois, os reis alemães também eram coroados imperadores. Só que brigavam com o papa, e o papa podia expulsar o imperador da Igreja. Aí os príncipes aproveitavam para se rebelar.",
+  "ideia": false
+ },
+ {
+  "id": "N014",
+  "texto": "Pior: o imperador não herdava a coroa. Era eleito pelos grandes príncipes e, a partir de mil trezentos e cinquenta e seis, por sete eleitores. Imagine um chefe escolhido pelos próprios subordinados. Quem você acha que mandava?",
+  "tela": "Pior: o imperador não herdava a coroa. Era eleito pelos grandes príncipes e, a partir de mil trezentos e cinquenta e seis, por sete eleitores. Imagine um chefe escolhido pelos próprios subordinados. Quem você acha que mandava?",
+  "ideia": true
+ },
+ {
+  "id": "N015",
+  "texto": "[curious] Era o Sacro Império Romano-Germânico. Séculos depois, Voltér debochou: não era nem sacro, nem romano, nem império. Eram mais de trezentos pedaços, cada um com o seu senhor.",
+  "tela": "[curious] Era o Sacro Império Romano-Germânico. Séculos depois, Voltaire debochou: não era nem sacro, nem romano, nem império. Eram mais de trezentos pedaços, cada um com o seu senhor.",
+  "ideia": false
+ },
+ {
+  "id": "N016",
+  "texto": "Um império com coroa, mas sem centro. O problema é que uma ideia ia correr por esses pedaços mais rápido que qualquer exército.",
+  "tela": "Um império com coroa, mas sem centro. O problema é que uma ideia ia correr por esses pedaços mais rápido que qualquer exército.",
+  "ideia": false
+ },
+ {
+  "id": "N017",
+  "texto": "Vítenberg, mil quinhentos e dezessete. Um monge, Martinho Lutéro, está furioso: um pregador vende indulgências na região. Pague, e a alma do seu parente sai do purgatório mais cedo.",
+  "tela": "Wittenberg, mil quinhentos e dezessete. Um monge, Martinho Lutero, está furioso: um pregador vende indulgências na região. Pague, e a alma do seu parente sai do purgatório mais cedo.",
+  "ideia": false
+ },
+ {
+  "id": "N018",
+  "texto": "[curious] O slogan, segundo os críticos: quando a moeda cai no cofre, a alma sai do purgatório. Então Lutéro escreve noventa e cinco teses contra isso e, diz a tradição, prega na porta de uma igreja.",
+  "tela": "[curious] O slogan, segundo os críticos: quando a moeda cai no cofre, a alma sai do purgatório. Então Lutero escreve noventa e cinco teses contra isso e, diz a tradição, prega na porta de uma igreja.",
+  "ideia": false
+ },
+ {
+  "id": "N019",
+  "texto": "Só que, setenta anos antes, em Máintz, Gútenberg tinha montado a prensa de tipos móveis. Então as teses correm o império em poucas semanas. Pense nisso como o primeiro texto que viralizou.",
+  "tela": "Só que, setenta anos antes, em Mainz, Gutenberg tinha montado a prensa de tipos móveis. Então as teses correm o império em poucas semanas. Pense nisso como o primeiro texto que viralizou.",
+  "ideia": false
+ },
+ {
+  "id": "N020",
+  "texto": "Escondido num castelo, Lutéro traduz o Novo Testamento para o alemão em umas onze semanas, com palavras que se entendiam do norte ao sul. Imagine o Brasil sem um português escrito comum. Era quase assim antes dele.",
+  "tela": "Escondido num castelo, Lutero traduz o Novo Testamento para o alemão em umas onze semanas, com palavras que se entendiam do norte ao sul. Imagine o Brasil sem um português escrito comum. Era quase assim antes dele.",
+  "ideia": true
+ },
+ {
+  "id": "N021",
+  "texto": "E aqui está a primeira peça da resposta. A Alemanha ganha uma língua escrita comum, mas a fé se parte ao meio: metade dos príncipes vira protestante, metade fica católica.",
+  "tela": "E aqui está a primeira peça da resposta. A Alemanha ganha uma língua escrita comum, mas a fé se parte ao meio: metade dos príncipes vira protestante, metade fica católica.",
+  "ideia": false
+ },
+ {
+  "id": "N022",
+  "texto": "Em mil quinhentos e cinquenta e cinco, a regra vira: cada príncipe escolhe a religião do seu território. A língua une. Mas o poder, e agora a fé, dividem. E uma casa dividida assim só precisava de uma faísca.",
+  "tela": "Em mil quinhentos e cinquenta e cinco, a regra vira: cada príncipe escolhe a religião do seu território. A língua une. Mas o poder, e agora a fé, dividem. E uma casa dividida assim só precisava de uma faísca.",
+  "ideia": false
+ },
+ {
+  "id": "N023",
+  "texto": "Prága, maio de mil seiscentos e dezoito. Nobres protestantes invadem o castelo e jogam três funcionários do imperador católico pela janela. [curious] Os três sobrevivem. Os católicos dizem que foi um anjo. Os protestantes, que foi um monte de esterco.",
+  "tela": "Praga, maio de mil seiscentos e dezoito. Nobres protestantes invadem o castelo e jogam três funcionários do imperador católico pela janela. [curious] Os três sobrevivem. Os católicos dizem que foi um anjo. Os protestantes, que foi um monte de esterco.",
+  "ideia": false
+ },
+ {
+  "id": "N024",
+  "texto": "Começa a Guerra dos Trinta Anos. E o que era briga de religião vira briga de reis: Suécia, Dinamarca, Espanha, e até a França católica do lado dos protestantes. [curious] A religião, já dava para ver, era desculpa.",
+  "tela": "Começa a Guerra dos Trinta Anos. E o que era briga de religião vira briga de reis: Suécia, Dinamarca, Espanha, e até a França católica do lado dos protestantes. [curious] A religião, já dava para ver, era desculpa.",
+  "ideia": false
+ },
+ {
+  "id": "N025",
+  "texto": "Imagine a sua cidade saqueada, ocupada e saqueada de novo, por exércitos que nem falam a sua língua. Em algumas regiões, mais da metade da população morre. No total, algo entre um quinto e um terço.",
+  "tela": "Imagine a sua cidade saqueada, ocupada e saqueada de novo, por exércitos que nem falam a sua língua. Em algumas regiões, mais da metade da população morre. No total, algo entre um quinto e um terço.",
+  "ideia": false
+ },
+ {
+  "id": "N026",
+  "texto": "Na Paz de Vestfália, em mil seiscentos e quarenta e oito, cada um dos cerca de trezentos príncipes ganha quase a independência. Repare: o império continua, mas só no papel.",
+  "tela": "Na Paz de Vestfália, em mil seiscentos e quarenta e oito, cada um dos cerca de trezentos príncipes ganha quase a independência. Repare: o império continua, mas só no papel.",
+  "ideia": true
+ },
+ {
+  "id": "N027",
+  "texto": "Só que território fraco no meio da Europa vira estrada para o exército dos outros. Alguém ia ter que virar muralha.",
+  "tela": "Só que território fraco no meio da Europa vira estrada para o exército dos outros. Alguém ia ter que virar muralha.",
+  "ideia": false
+ },
+ {
+  "id": "N028",
+  "texto": "Pótsdam, por volta de mil setecentos e trinta. Um rei rabugento passa em revista o seu regimento preferido: só gigantes, alguns com mais de dois metros, comprados ou sequestrados pela Europa.",
+  "tela": "Potsdam, por volta de mil setecentos e trinta. Um rei rabugento passa em revista o seu regimento preferido: só gigantes, alguns com mais de dois metros, comprados ou sequestrados pela Europa.",
+  "ideia": false
+ },
+ {
+  "id": "N029",
+  "texto": "[curious] Era o único luxo daquele rei pão-duro. A Prússia era areia, frio e nenhuma montanha para se esconder. Então virou quartel. Uma frase da época resume: a Prússia não é um país com um exército. É um exército com um país.",
+  "tela": "[curious] Era o único luxo daquele rei pão-duro. A Prússia era areia, frio e nenhuma montanha para se esconder. Então virou quartel. Uma frase da época resume: a Prússia não é um país com um exército. É um exército com um país.",
+  "ideia": false
+ },
+ {
+  "id": "N030",
+  "texto": "O filho dele, Frederico, o Grande, tocava flauta e enfrentava, sem perder o reino, vizinhos muito maiores. E mandou plantar batata por decreto. Da próxima vez que você comer salada de batata, agradeça a ele.",
+  "tela": "O filho dele, Frederico, o Grande, tocava flauta e enfrentava, sem perder o reino, vizinhos muito maiores. E mandou plantar batata por decreto. Da próxima vez que você comer salada de batata, agradeça a ele.",
+  "ideia": false
+ },
+ {
+  "id": "N031",
+  "texto": "Então vem Napoleão. Em mil oitocentos e seis, sob a pressão dele, o Sacro Império acaba depois de oito séculos e meio. Meses depois, ele esmaga a Prússia em Iêna e entra em Berlim.",
+  "tela": "Então vem Napoleão. Em mil oitocentos e seis, sob a pressão dele, o Sacro Império acaba depois de oito séculos e meio. Meses depois, ele esmaga a Prússia em Jena e entra em Berlim.",
+  "ideia": true
+ },
+ {
+  "id": "N032",
+  "texto": "Aí dois irmãos, os Grím, saem recolhendo histórias do povo: Branca de Neve, Chapeuzinho Vermelho, João e Maria. Você cresceu com elas. Eles queriam provar que existia um povo alemão, mesmo sem país.",
+  "tela": "Aí dois irmãos, os Grimm, saem recolhendo histórias do povo: Branca de Neve, Chapeuzinho Vermelho, João e Maria. Você cresceu com elas. Eles queriam provar que existia um povo alemão, mesmo sem país.",
+  "ideia": false
+ },
+ {
+  "id": "N033",
+  "texto": "Um povo, eles já tinham. Faltava fazer o país. E a dúvida era: de baixo para cima, com o povo, ou de cima para baixo, com um exército?",
+  "tela": "Um povo, eles já tinham. Faltava fazer o país. E a dúvida era: de baixo para cima, com o povo, ou de cima para baixo, com um exército?",
+  "ideia": false
+ },
+ {
+  "id": "N034",
+  "texto": "Frânkfurt, mil oitocentos e quarenta e nove. Um parlamento eleito, cheio de professores, escreve a constituição de uma Alemanha unida e oferece a coroa ao rei da Prússia.",
+  "tela": "Frankfurt, mil oitocentos e quarenta e nove. Um parlamento eleito, cheio de professores, escreve a constituição de uma Alemanha unida e oferece a coroa ao rei da Prússia.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "[curious] Ele recusa. Numa carta, chama aquilo de coroa vinda da sarjeta: rei de verdade só aceitava coroa de Deus e de outros príncipes. Repare na diferença: os professores tinham os votos. Mas quem tinha os canhões era a Prússia.",
+  "tela": "[curious] Ele recusa. Numa carta, chama aquilo de coroa vinda da sarjeta: rei de verdade só aceitava coroa de Deus e de outros príncipes. Repare na diferença: os professores tinham os votos. Mas quem tinha os canhões era a Prússia.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "Treze anos depois, o novo chefe do governo prussiano, Otto von Bísmark, diz aos deputados: as grandes questões não se decidem com discursos e votações, mas com ferro e sangue.",
+  "tela": "Treze anos depois, o novo chefe do governo prussiano, Otto von Bismarck, diz aos deputados: as grandes questões não se decidem com discursos e votações, mas com ferro e sangue.",
+  "ideia": true
+ },
+ {
+  "id": "N037",
+  "texto": "E ele cumpre: três guerras curtas. Contra a Dinamarca, contra a Áustria e, em mil oitocentos e setenta, contra a França, que ele provoca editando um telegrama para soar como insulto.",
+  "tela": "E ele cumpre: três guerras curtas. Contra a Dinamarca, contra a Áustria e, em mil oitocentos e setenta, contra a França, que ele provoca editando um telegrama para soar como insulto.",
+  "ideia": false
+ },
+ {
+  "id": "N038",
+  "texto": "Os estados do sul correm para o lado da Prússia, o imperador francês é capturado, e voltamos ao Salão dos Espelhos. [curious] O novo imperador estava emburrado: queria ser imperador da Alemanha, não imperador alemão. E desce do palanque sem apertar a mão de Bísmark.",
+  "tela": "Os estados do sul correm para o lado da Prússia, o imperador francês é capturado, e voltamos ao Salão dos Espelhos. [curious] O novo imperador estava emburrado: queria ser imperador da Alemanha, não imperador alemão. E desce do palanque sem apertar a mão de Bismarck.",
+  "ideia": false
+ },
+ {
+  "id": "N039",
+  "texto": "E aqui está a segunda peça da resposta. A Alemanha não nasceu de uma votação. Nasceu de três guerras, e por isso nasceu na casa do inimigo. Só que país feito na guerra tem fronteira feita na guerra.",
+  "tela": "E aqui está a segunda peça da resposta. A Alemanha não nasceu de uma votação. Nasceu de três guerras, e por isso nasceu na casa do inimigo. Só que país feito na guerra tem fronteira feita na guerra.",
+  "ideia": false
+ },
+ {
+  "id": "N040",
+  "texto": "Vale do Rúr, mil e novecentos. Imagine chaminés até o horizonte, fornos acesos dia e noite, trens de carvão. Em poucas décadas, a Alemanha produz mais aço que a Inglaterra.",
+  "tela": "Vale do Ruhr, mil e novecentos. Imagine chaminés até o horizonte, fornos acesos dia e noite, trens de carvão. Em poucas décadas, a Alemanha produz mais aço que a Inglaterra.",
+  "ideia": false
+ },
+ {
+  "id": "N041",
+  "texto": "Dali saem o carro a gasolina, de Bénts, e a aspirina, da Báier. [curious] Aquele comprimido na sua gaveta tem passaporte alemão.",
+  "tela": "Dali saem o carro a gasolina, de Benz, e a aspirina, da Bayer. [curious] Aquele comprimido na sua gaveta tem passaporte alemão.",
+  "ideia": false
+ },
+ {
+  "id": "N042",
+  "texto": "Só que, em mil oitocentos e oitenta e oito, sobe ao trono Guilherme Segundo, jovem e impaciente. Ele demite Bísmark, quer colônias e uma marinha para encarar a britânica. Então consegue juntar contra si França, Rússia e Inglaterra.",
+  "tela": "Só que, em mil oitocentos e oitenta e oito, sobe ao trono Guilherme Segundo, jovem e impaciente. Ele demite Bismarck, quer colônias e uma marinha para encarar a britânica. Então consegue juntar contra si França, Rússia e Inglaterra.",
+  "ideia": true
+ },
+ {
+  "id": "N043",
+  "texto": "Em mil novecentos e catorze vem a guerra em duas frentes que Bísmark temia. Pense: quatro anos de trincheira. Em mil novecentos e dezoito, com fome pelo bloqueio, a Alemanha se rende, e o imperador foge para a Holanda.",
+  "tela": "Em mil novecentos e catorze vem a guerra em duas frentes que Bismarck temia. Pense: quatro anos de trincheira. Em mil novecentos e dezoito, com fome pelo bloqueio, a Alemanha se rende, e o imperador foge para a Holanda.",
+  "ideia": false
+ },
+ {
+  "id": "N044",
+  "texto": "Lembra do Salão dos Espelhos? Em mil novecentos e dezenove, os vencedores escolhem o mesmo salão para a Alemanha assinar a paz. Ela perde cerca de um oitavo do território e as colônias, e assume a culpa pela guerra. Só que quem herda essa conta é uma república recém-nascida.",
+  "tela": "Lembra do Salão dos Espelhos? Em mil novecentos e dezenove, os vencedores escolhem o mesmo salão para a Alemanha assinar a paz. Ela perde cerca de um oitavo do território e as colônias, e assume a culpa pela guerra. Só que quem herda essa conta é uma república recém-nascida.",
+  "ideia": false
+ },
+ {
+  "id": "N045",
+  "texto": "Berlim, novembro de mil novecentos e vinte e três. Uma mulher empurra um carrinho de mão cheio de notas até a padaria: um pão custa duzentos bilhões de marcos. [curious] Conta-se que um ladrão levou o carrinho e deixou o dinheiro na calçada.",
+  "tela": "Berlim, novembro de mil novecentos e vinte e três. Uma mulher empurra um carrinho de mão cheio de notas até a padaria: um pão custa duzentos bilhões de marcos. [curious] Conta-se que um ladrão levou o carrinho e deixou o dinheiro na calçada.",
+  "ideia": false
+ },
+ {
+  "id": "N046",
+  "texto": "Se os seus pais viveram a inflação do Brasil antes do Plano Real, eles conhecem esse filme. Agora imagine os preços dobrando a cada poucos dias. E quem leva a culpa é a república de Váimar, a primeira democracia alemã.",
+  "tela": "Se os seus pais viveram a inflação do Brasil antes do Plano Real, eles conhecem esse filme. Agora imagine os preços dobrando a cada poucos dias. E quem leva a culpa é a república de Weimar, a primeira democracia alemã.",
+  "ideia": false
+ },
+ {
+  "id": "N047",
+  "texto": "Aí os inimigos da república espalham uma mentira: o exército não tinha perdido a guerra; tinha sido apunhalado pelas costas por políticos, comunistas e judeus. Era falso. Mas muita gente quis acreditar.",
+  "tela": "Aí os inimigos da república espalham uma mentira: o exército não tinha perdido a guerra; tinha sido apunhalado pelas costas por políticos, comunistas e judeus. Era falso. Mas muita gente quis acreditar.",
+  "ideia": true
+ },
+ {
+  "id": "N048",
+  "texto": "Então, no meio da festa dos anos vinte, a bolsa de Nova York quebra. É mil novecentos e vinte e nove. Os empréstimos americanos somem, e seis milhões de alemães ficam sem emprego.",
+  "tela": "Então, no meio da festa dos anos vinte, a bolsa de Nova York quebra. É mil novecentos e vinte e nove. Os empréstimos americanos somem, e seis milhões de alemães ficam sem emprego.",
+  "ideia": false
+ },
+ {
+  "id": "N049",
+  "texto": "Lembra da nossa pergunta? Agora ela fica perigosa: um partido promete devolver tudo o que foi perdido, e mais. Em janeiro de mil novecentos e trinta e três, conservadores convencem o presidente a nomear Adolf Rítler chanceler, achando que iam controlá-lo. Estavam errados.",
+  "tela": "Lembra da nossa pergunta? Agora ela fica perigosa: um partido promete devolver tudo o que foi perdido, e mais. Em janeiro de mil novecentos e trinta e três, conservadores convencem o presidente a nomear Adolf Hitler chanceler, achando que iam controlá-lo. Estavam errados.",
+  "ideia": false
+ },
+ {
+  "id": "N050",
+  "texto": "[serious] Berlim, dez de novembro de mil novecentos e trinta e oito. De manhã, as calçadas estão cobertas de vidro. Na noite anterior, sinagogas foram queimadas e lojas de judeus destruídas pelo país inteiro. É a Noite dos Cristais.",
+  "tela": "[serious] Berlim, dez de novembro de mil novecentos e trinta e oito. De manhã, as calçadas estão cobertas de vidro. Na noite anterior, sinagogas foram queimadas e lojas de judeus destruídas pelo país inteiro. É a Noite dos Cristais.",
+  "ideia": false
+ },
+ {
+  "id": "N051",
+  "texto": "Repare como se chegou ali: passo a passo, com leis. Em mil novecentos e trinta e três, a democracia acaba, e os primeiros campos de concentração recebem opositores. Em mil novecentos e trinta e cinco, os judeus alemães perdem a cidadania.",
+  "tela": "Repare como se chegou ali: passo a passo, com leis. Em mil novecentos e trinta e três, a democracia acaba, e os primeiros campos de concentração recebem opositores. Em mil novecentos e trinta e cinco, os judeus alemães perdem a cidadania.",
+  "ideia": false
+ },
+ {
+  "id": "N052",
+  "texto": "Em setembro de mil novecentos e trinta e nove, a Alemanha invade a Polônia, e começa a Segunda Guerra Mundial. Em dois anos, ela domina quase toda a Europa e invade a União Soviética.",
+  "tela": "Em setembro de mil novecentos e trinta e nove, a Alemanha invade a Polônia, e começa a Segunda Guerra Mundial. Em dois anos, ela domina quase toda a Europa e invade a União Soviética.",
+  "ideia": true
+ },
+ {
+  "id": "N053",
+  "texto": "Atrás da frente de batalha, o regime nazista assassina seis milhões de judeus europeus, além de ciganos roma e sinti, pessoas com deficiência, prisioneiros soviéticos e opositores. É o Holocausto: um genocídio planejado e executado pela máquina de um Estado.",
+  "tela": "Atrás da frente de batalha, o regime nazista assassina seis milhões de judeus europeus, além de ciganos roma e sinti, pessoas com deficiência, prisioneiros soviéticos e opositores. É o Holocausto: um genocídio planejado e executado pela máquina de um Estado.",
+  "ideia": false
+ },
+ {
+  "id": "N054",
+  "texto": "Depois de Stalingrádo, em mil novecentos e quarenta e três, a guerra vira. Em maio de quarenta e cinco, com Berlim em ruínas e Rítler morto, a Alemanha se rende sem condições. O problema: o país nascido pela guerra fica sem governo, com a fronteira desenhada pelos outros.",
+  "tela": "Depois de Stalingrado, em mil novecentos e quarenta e três, a guerra vira. Em maio de quarenta e cinco, com Berlim em ruínas e Hitler morto, a Alemanha se rende sem condições. O problema: o país nascido pela guerra fica sem governo, com a fronteira desenhada pelos outros.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "Berlim, verão de mil novecentos e quarenta e cinco. Mulheres passam tijolos de mão em mão, tirando o entulho das ruas. Os alemães chamam esse momento de hora zero.",
+  "tela": "Berlim, verão de mil novecentos e quarenta e cinco. Mulheres passam tijolos de mão em mão, tirando o entulho das ruas. Os alemães chamam esse momento de hora zero.",
+  "ideia": false
+ },
+ {
+  "id": "N056",
+  "texto": "Mas a conta vem inteira: a Alemanha perde as terras a leste do rio Óder, e milhões de alemães são expulsos de lá. Em mil novecentos e quarenta e nove, viram dois países: a Ocidental, democrática, e a Oriental, comunista, sob Moscou.",
+  "tela": "Mas a conta vem inteira: a Alemanha perde as terras a leste do rio Oder, e milhões de alemães são expulsos de lá. Em mil novecentos e quarenta e nove, viram dois países: a Ocidental, democrática, e a Oriental, comunista, sob Moscou.",
+  "ideia": false
+ },
+ {
+  "id": "N057",
+  "texto": "E aqui está a terceira peça da resposta. Feita pela guerra, a Alemanha foi desfeita pela guerra. Por quarenta anos, onde fica a Alemanha dependia de que lado do muro você estava.",
+  "tela": "E aqui está a terceira peça da resposta. Feita pela guerra, a Alemanha foi desfeita pela guerra. Por quarenta anos, onde fica a Alemanha dependia de que lado do muro você estava.",
+  "ideia": false
+ },
+ {
+  "id": "N058",
+  "texto": "No lado ocidental, vem o milagre econômico. O Fusca que você viu na garagem do seu avô saiu dessa Alemanha. No oriental, a polícia política espiona até vizinho e parente.",
+  "tela": "No lado ocidental, vem o milagre econômico. O Fusca que você viu na garagem do seu avô saiu dessa Alemanha. No oriental, a polícia política espiona até vizinho e parente.",
+  "ideia": false
+ },
+ {
+  "id": "N059",
+  "texto": "Nove de novembro de mil novecentos e oitenta e nove. Depois de semanas de protestos pacíficos, um porta-voz do governo oriental anuncia ao vivo que a fronteira vai abrir. Perguntado quando, ele olha os papéis e responde: imediatamente.",
+  "tela": "Nove de novembro de mil novecentos e oitenta e nove. Depois de semanas de protestos pacíficos, um porta-voz do governo oriental anuncia ao vivo que a fronteira vai abrir. Perguntado quando, ele olha os papéis e responde: imediatamente.",
+  "ideia": true
+ },
+ {
+  "id": "N060",
+  "texto": "Milhares correm para o muro, e os guardas, sem ordens, abrem a passagem. Em três de outubro de mil novecentos e noventa, a Alemanha se reunifica sem um tiro. E num tratado com os vencedores da guerra, aceita as fronteiras de hoje como definitivas.",
+  "tela": "Milhares correm para o muro, e os guardas, sem ordens, abrem a passagem. Em três de outubro de mil novecentos e noventa, a Alemanha se reunifica sem um tiro. E num tratado com os vencedores da guerra, aceita as fronteiras de hoje como definitivas.",
+  "ideia": false
+ },
+ {
+  "id": "N061",
+  "texto": "Hoje, é a maior economia da Europa, e lembra o próprio passado com memoriais no centro da capital. Então, dá para responder a Guête?",
+  "tela": "Hoje, é a maior economia da Europa, e lembra o próprio passado com memoriais no centro da capital. Então, dá para responder a Goethe?",
+  "ideia": false
+ },
+ {
+  "id": "N062",
+  "texto": "E a resposta da nossa pergunta: a língua uniu os alemães cedo, mas o poder ficou em pedaços por mil anos. Quando o país nasceu, nasceu pela guerra, e a fronteira mudava a cada guerra. Só em mil novecentos e noventa, com uma assinatura, ela parou.",
+  "tela": "E a resposta da nossa pergunta: a língua uniu os alemães cedo, mas o poder ficou em pedaços por mil anos. Quando o país nasceu, nasceu pela guerra, e a fronteira mudava a cada guerra. Só em mil novecentos e noventa, com uma assinatura, ela parou.",
+  "ideia": true
+ },
+ {
+  "id": "N063",
+  "texto": "[warm] Talvez a pergunta de Guête nunca tenha sido onde fica a Alemanha. E sim quem desenha o mapa: o canhão ou a assinatura.",
+  "tela": "[warm] Talvez a pergunta de Goethe nunca tenha sido onde fica a Alemanha. E sim quem desenha o mapa: o canhão ou a assinatura.",
+  "ideia": false
+ },
+ {
+  "id": "N064",
+  "texto": "E para você: qual virada da história alemã mais te surpreendeu? Conta aí nos comentários.",
+  "tela": "E para você: qual virada da história alemã mais te surpreendeu? Conta aí nos comentários.",
+  "ideia": false
+ }
+]
