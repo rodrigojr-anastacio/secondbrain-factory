@@ -1,0 +1,60 @@
+TITLES (Test & compare, approved by Rodrigo 12/11) — paired with the thumbnails
+A: Why Can't You Visit Midway Atoll?            → thumb-A.jpg ("NO VISITORS ALLOWED")
+B: What's Still Under the Water at Midway?      → thumb-B.jpg ("3 MILES DOWN")
+C: The Midway Report You Weren't Supposed to Read → thumb-C.jpg ("THE BIRDS WON")
+Default when uploading: title A + thumbnail A (out/thumbnail.jpg = thumb-A); put B and C in "Test & compare" with their pairs.
+
+DESCRIPTION
+In June 1942, Admiral Nimitz signed a secret page about a battle at a ring of coral in the middle of the Pacific. 307 Americans died there. Today, almost nobody is allowed to land.
+We follow the paper trail: the codebreakers, the director on the rooftop, the order that handed the island to the birds, the money that ran out, and what is still out there, three miles down.
+
+If someone in your family served at Midway, on the island, on the Yorktown, or in the air, tell us their name and where they were.
+
+CHAPTERS
+0:00 The page Nimitz stamped SECRET
+0:42 The island you can't land on
+1:09 The last man who was there
+2:07 A wire, a fleet and an airline
+3:09 The fake water message
+4:09 June 4, 1942
+4:57 The director on the rooftop
+5:44 Torpedo Squadron Eight
+6:28 Five minutes
+7:16 Line (c)
+8:16 The base that stayed
+8:54 Executive Order 13022
+9:46 The paint
+10:30 The money
+11:21 The hangar
+12:17 The tsunami
+12:49 Wisdom
+13:30 The strangest thing on Midway
+14:26 Three miles down
+15:24 So why can't you visit?
+
+SOURCES
+- CINCPAC (Nimitz) to COMINCH, "Battle of Midway," ser. 01849, June 28, 1942. National Archives, RG 38 (NAID 133919628).
+- Naval History and Heritage Command: H-Gram 006 (RAdm Sam Cox); "John Ford Remembers Filming Battle of Midway" (oral history); RAdm Sam Cox, 75th anniversary remarks on Midway (June 5, 2017); Medal of Honor citation, 1stLt George H. Cannon.
+- Executive Order 13022, "Administration of the Midway Islands," Oct. 31, 1996 (61 FR 56875).
+- U.S. House Natural Resources Subcommittee hearing, "Is the Midway Atoll National Wildlife Refuge Being Properly Managed?", Nov. 20, 2014 (testimony of Kevin Foerster, USFWS).
+- U.S. GAO, GAO-16-382, "Midway Atoll: U.S. Fish and Wildlife Service Faces Many Competing Priorities," June 2, 2016.
+- U.S. Fish and Wildlife Service: Midway Atoll NWR pages and stories (2011 seabird losses; 2022 winter storms; Wisdom updates; Midway Seabird Protection Project, Aug. 15, 2023; "A Great Monument to the People Who Passed Here," 2026).
+- Papahānaumokuākea Marine National Monument, "Monument Access."
+- National Park Service, "World War II Facilities at Midway."
+- Ocean Exploration Trust / NOAA, Midway shipwreck dives (Sept. 2023); Kaga and Akagi discoveries (Oct. 2019, R/V Petrel).
+- ACAP (Agreement on the Conservation of Albatrosses and Petrels) news on Wisdom and the Midway mouse project.
+
+CREDITS
+Film: "The Battle of Midway" (U.S. Navy, 1942; National Archives 80-MN-1433 / 342-USAF-16985) and "Torpedo Squadron 8" (U.S. Navy, 1942; National Archives 428-MN-2004). Photos: U.S. Navy and U.S. Army Air Forces / National Archives (80-G, 342-FH series), Naval History and Heritage Command, U.S. Marine Corps History Division, U.S. Fish and Wildlife Service, U.S. Government Accountability Office, U.S. Geological Survey, NASA, and the Library of Congress (China Clipper, Clyde H. Sunderland, LC-USZ62-111417). Documents: CINCPAC report "Battle of Midway," June 28, 1942 (National Archives, RG 38, NAID 133919628); Battle of Midway Track Chart (NAID 152914619); Executive Order 13022 (Federal Register, 1996); GAO-16-382 (2016); USFWS testimony to Congress (Nov. 20, 2014); NHHC H-Gram 006 and oral history of John Ford; USFWS Midway Seabird Protection Project update (Aug. 15, 2023); Papahānaumokuākea Marine National Monument. Maps: Natural Earth. Shipwreck depths and positions are shown as schematics. U.S. government works are in the public domain. Narration voice is synthetic.
+On-screen dates and places only; full credits are listed here. Music: original, made for this channel.
+Narration voice is synthetic (AI text-to-speech).
+
+TAGS
+Midway Atoll, Battle of Midway, Why can't you visit Midway, Midway Island, World War II, WW2 history, Pacific War, Admiral Nimitz, John Ford Battle of Midway, Laysan albatross, Wisdom albatross, Papahanaumokuakea, USS Yorktown wreck, Kaga Akagi wrecks, restricted places
+
+CATEGORY: Education · LANGUAGE: English (US)
+
+REMINDER FOR UPLOAD (Rodrigo)
+- Video language: English. "Altered or synthetic content": YES (synthetic narration voice). Not made for kids.
+- Upload the 3 thumbnails in "Test & compare" (B main) and the title alternatives if the test is available.
+- Upload out/legendas.srt as English subtitles. Use out/video.mp4 (1080p).
