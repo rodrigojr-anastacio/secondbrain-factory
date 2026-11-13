@@ -1,0 +1,779 @@
+{
+ "_doc": "Etapa 1: plano por bloco (tempos estimados). A etapa 2 converte em cues.json amarrado ao Whisper.",
+ "duracao_est_s": 671.4,
+ "blocos": [
+  {
+   "id": "b01",
+   "cap": "FORTALEZA · 1878",
+   "t_est": 0.4,
+   "dur_est": 11.0,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Abre no Nordeste em satélite ao entardecer, câmera baixa sobre o sertão seco do Ceará; dolly até a costa e pousa em Fortaleza (pino coral).",
+   "camadas": [
+    "cartão de lugar FORTALEZA · 1878",
+    "contador de população 25 MIL (ícones de gente empilhados ao lado do pino)",
+    "na palavra 'chegam': rios de pontinhos claros saem do sertão (Quixadá, Crato, Icó, Sobral) e escorrem até Fortaleza; contador sobe para 100 MIL+"
+   ],
+   "midias": [
+    {
+     "arquivo": "fortaleza-planta-1875.jpg",
+     "gatilho": "cidade",
+     "formato": "quadro grande à direita, 3 s, papel antigo"
+    }
+   ]
+  },
+  {
+   "id": "b02",
+   "cap": "FORTALEZA · 1878",
+   "t_est": 11.4,
+   "dur_est": 10.7,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Câmera parada sobre Fortaleza; os pontinhos continuam chegando e formam mancha ao redor da planta da cidade.",
+   "camadas": [
+    "contador 160 MIL (Theophilo) com etiqueta 'SEGUNDO RODOLPHO THEOPHILO, QUE VIVEU AQUILO'",
+    "barra comparativa 25 MIL × 160 MIL = '6×'"
+   ],
+   "midias": [
+    {
+     "arquivo": "teofilo-vacinando-1907.jpg",
+     "gatilho": "Theophilo",
+     "formato": "quadro grande à esquerda 4 s; legenda 'RODOLPHO THEOPHILO (À DIREITA) · FORTALEZA · 1907'"
+    }
+   ]
+  },
+  {
+   "id": "b03",
+   "cap": "FORTALEZA · 1878",
+   "t_est": 22.1,
+   "dur_est": 5.5,
+   "estilo": "arquivo",
+   "transicao": "corte seco no impacto (impacto grave)",
+   "plano": "Tela de papel sépia: data 10/12/1878 carimbada; número 1.004 grande cresce em tinta.",
+   "camadas": [
+    "número 1.004 em contador rápido",
+    "legenda MORTOS DE VARÍOLA · 1 DIA"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b04",
+   "cap": "A PERGUNTA",
+   "t_est": 27.6,
+   "dur_est": 14.5,
+   "estilo": "B",
+   "transicao": "corte seco de volta ao mapa (impacto suave)",
+   "plano": "Zoom-out do Ceará para o Brasil inteiro em relevo editorial; províncias do Norte de 1877 (CE, RN, PB, PE, PI, AL, SE, BA) tingidas de coral.",
+   "camadas": [
+    "contador 500 MIL (etiqueta 'ESTIMATIVAS')",
+    "pizza/anel 5% DA POPULAÇÃO DO IMPÉRIO",
+    "título A GRANDE SECA · 1877–1879"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b05",
+   "cap": "A PERGUNTA",
+   "t_est": 42.1,
+   "dur_est": 9.7,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Câmera parada; o coral pulsa; aparece no canto o Pacífico com o relevo de calor de 2026 (miniatura do longo-02) e '1877 ↔ 2026'.",
+   "camadas": [
+    "rótulo QUASE NINGUÉM FALA DELA (papel rasgado)",
+    "pergunta: E EM 2026?"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b06",
+   "cap": "A PERGUNTA",
+   "t_est": 51.8,
+   "dur_est": 12.8,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Câmera parada; barra das 4 perguntas (mesmo componente do longo-02) entra pergunta a pergunta.",
+   "camadas": [
+    "barra 4 perguntas: O QUE ACONTECEU? · POR QUE NÃO CHOVEU? · O QUE MUDOU NO MAPA? · E EM 2026?"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b07",
+   "cap": "A PERGUNTA",
+   "t_est": 64.6,
+   "dur_est": 14.5,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Câmera desce para o Ceará; calendário em anel de 12 meses ao lado do mapa: FEV–MAI acende (gotas), o resto apaga.",
+   "camadas": [
+    "anel de meses com a quadra chuvosa FEV–MAI destacada",
+    "rótulo O 'INVERNO' DO SERTÃO"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b08",
+   "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+   "t_est": 79.1,
+   "dur_est": 13.1,
+   "estilo": "A",
+   "transicao": "push-in que atravessa nuvens secas (whoosh longo)",
+   "plano": "Abertura do cap. 1: sertão do Ceará em satélite, terreno seco; céu sem nuvem.",
+   "camadas": [
+    "barra das perguntas: ▶ 1/4",
+    "folhinha 19 DE MARÇO · SÃO JOSÉ com gota que não cai"
+   ],
+   "midias": [
+    {
+     "arquivo": "hoje-santa-quiteria-2018.jpg",
+     "gatilho": "chuva",
+     "formato": "quadro grande (cenário do sertão seco; legenda com lugar e ano reais)"
+    }
+   ]
+  },
+  {
+   "id": "b09",
+   "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+   "t_est": 92.2,
+   "dur_est": 23.1,
+   "estilo": "B",
+   "transicao": "whip pan para o gráfico (swish)",
+   "plano": "Régua de montanhas (componente do longo-02) com 153 barras = chuva anual de Fortaleza 1849–2018; linha da média 1.450 mm.",
+   "camadas": [
+    "barras crescem da esquerda para a direita",
+    "na palavra 'quatrocentos': 1877 afunda e acende em coral (468 MM · 32%)",
+    "'segundo': 1878 acende (503 MM)",
+    "pluviômetro lateral: 1.450 × 468"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b10",
+   "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+   "t_est": 115.3,
+   "dur_est": 10.4,
+   "estilo": "A",
+   "transicao": "whip pan de volta ao mapa (swish)",
+   "plano": "Sertão em satélite, câmera em órbita lenta; o verde (se houver) dessatura para marrom.",
+   "camadas": [
+    "ícones simples: pasto, gado, roça (milho/feijão/mandioca) riscados em sequência"
+   ],
+   "midias": [
+    {
+     "arquivo": "hoje-coremas-seca-2017.jpg",
+     "gatilho": "gado",
+     "formato": "quadro grande, panorâmica"
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+   "t_est": 125.7,
+   "dur_est": 15.2,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Ceará em relevo editorial com contorno; contador 721.686 (1872); pontinhos espalhados pelo estado inteiro.",
+   "camadas": [
+    "CEARÁ · 1872 · 721 MIL HABITANTES (censo)"
+   ],
+   "midias": [
+    {
+     "arquivo": "mapa-seca-1877-rebouças.jpg",
+     "gatilho": "andou",
+     "formato": "documento grande à direita com pan lento (mapa da região da seca de 1877)"
+    }
+   ]
+  },
+  {
+   "id": "b12",
+   "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+   "t_est": 140.9,
+   "dur_est": 7.6,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Plano-assinatura: câmera alta, os pontinhos viram rios que 'escorrem' pelos vales (seguindo o relevo real e os rios Jaguaribe, Banabuiú, Acaraú, Curu) até a costa.",
+   "camadas": [
+    "rótulo RETIRANTES (entra na palavra)",
+    "rios de dados/rios-ce.json acesos fracos"
+   ],
+   "midias": [
+    {
+     "arquivo": "retirantes-1878-grupo.jpg",
+     "gatilho": "retirantes",
+     "formato": "carte-de-visite pequena (é o tamanho original da foto) pousada sobre o mapa, moldura de papel; 4 s"
+    }
+   ]
+  },
+  {
+   "id": "b13",
+   "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+   "t_est": 148.5,
+   "dur_est": 11.7,
+   "estilo": "B",
+   "transicao": "rack focus para Fortaleza (whoosh médio)",
+   "plano": "Fortaleza em zoom: planta de 1875 (Herbster) estendida sobre o terreno como textura; ao redor, barracas (ícones) se multiplicam nos arredores.",
+   "camadas": [
+    "contador ABARRACADOS · AGO/1878 → 113.900",
+    "rótulo ABARRACAMENTOS"
+   ],
+   "midias": [
+    {
+     "arquivo": "fortaleza-planta-1875.jpg",
+     "gatilho": "Fortaleza",
+     "formato": "textura sobre o mapa (não quadro)"
+    }
+   ]
+  },
+  {
+   "id": "b14",
+   "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+   "t_est": 160.2,
+   "dur_est": 9.7,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Rota de navios chegando ao porto de Fortaleza (linhas do mar para a costa); sacos empilhados que não sobem até o sertão.",
+   "camadas": [
+    "etiquetas carimbadas CARNE ESTRAGADA · FARINHA COM CAL (DENÚNCIAS, 1878)"
+   ],
+   "midias": [
+    {
+     "arquivo": "mapa-seca-1878-ferrovias.jpg",
+     "gatilho": "mar",
+     "formato": "documento grande, detalhe do litoral cearense"
+    }
+   ]
+  },
+  {
+   "id": "b15",
+   "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+   "t_est": 169.9,
+   "dur_est": 15.5,
+   "estilo": "arquivo",
+   "transicao": "corte seco (impacto grave)",
+   "plano": "Papel sépia com calendário de 1878; manchas de varíola (pontos coral) se espalham pela planta de Fortaleza.",
+   "camadas": [
+    "barras mensais: NOV 9.844 · DEZ 15.352 (14.491 VARÍOLA)"
+   ],
+   "midias": [
+    {
+     "arquivo": "retirante-corrêa-1877-a.jpg",
+     "gatilho": "fome",
+     "formato": "carte-de-visite pequena no papel, SEM zoom no corpo; 4 s; legenda CEARÁ · 1877"
+    }
+   ]
+  },
+  {
+   "id": "b16",
+   "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+   "t_est": 185.4,
+   "dur_est": 13.5,
+   "estilo": "arquivo",
+   "transicao": "",
+   "plano": "Mesmo papel; o '10' de dezembro é circulado em tinta; 1.004 volta (paga o hook).",
+   "camadas": [
+    "1.004 · 10/12/1878",
+    "rótulo O DIA DOS MIL MORTOS (tipografia de jornal)"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b17",
+   "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+   "t_est": 198.9,
+   "dur_est": 14.1,
+   "estilo": "B",
+   "transicao": "corte seco de volta ao mapa colorido (impacto suave)",
+   "plano": "Nordeste em relevo editorial; faixa 150 MIL ↔ 500 MIL como régua com ponta incerta (degradê).",
+   "camadas": [
+    "régua de estimativas: 150 MIL (NYT, 1879) · 400–500 MIL (estimativas)",
+    "linha do tempo 1877 · 1878 · 1879 · 1880 (gota volta em 1880)"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b18",
+   "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+   "t_est": 213.0,
+   "dur_est": 17.3,
+   "estilo": "arquivo",
+   "transicao": "match cut: o mapa vira a página de jornal (impacto suave + whoosh)",
+   "plano": "Mesa de papel com recortes: cartes-de-visite de retirantes lado a lado, como foram publicadas.",
+   "camadas": [
+    "rótulo RIO DE JANEIRO · 1878 · O BESOURO",
+    "carimbo 'PRIMEIRO FOTOJORNALISMO DO BRASIL?'"
+   ],
+   "midias": [
+    {
+     "arquivo": "retirante-corrêa-1878-b.jpg",
+     "gatilho": "fotografias",
+     "formato": "carte-de-visite original com moldura dourada, pequena"
+    },
+    {
+     "arquivo": "retirantes-1878-grupo.jpg",
+     "gatilho": "fotografias",
+     "formato": "carte-de-visite pequena"
+    },
+    {
+     "arquivo": "patrocinio-1879.jpg",
+     "gatilho": "historiadores",
+     "formato": "retrato pequeno no canto (José do Patrocínio, que trabalhou com Corrêa na série)"
+    }
+   ]
+  },
+  {
+   "id": "b19",
+   "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+   "t_est": 230.3,
+   "dur_est": 6.6,
+   "estilo": "A",
+   "transicao": "zoom-out orbital do Ceará até o globo (whoosh longo)",
+   "plano": "Globo em satélite gira do Atlântico para o Pacífico.",
+   "camadas": [
+    "barra das perguntas: ▶ 2/4"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b20",
+   "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+   "t_est": 236.9,
+   "dur_est": 19.0,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Maquete do Pacífico (mesa do longo-02) com o RELEVO DE CALOR de nov/1877–fev/1878 (dados/sst_1877.json) subindo; depois régua de montanhas Niño 3.4 (dados/nino34-resumo.json, NDJ): 1877 · 1982 · 1997 · 2015 lado a lado.",
+   "camadas": [
+    "rótulo PACÍFICO · DEZ/1877 · RECONSTRUÇÃO",
+    "montanhas: 1877 +2,4 · 1982 +2,1 · 1997 +2,4 · 2015 +2,6 °C (fonte na descrição: NOAA ERSSTv5)"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b21",
+   "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+   "t_est": 255.9,
+   "dur_est": 16.2,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Circulação de Walker (componente do longo-02): ar sobe sobre o Pacífico quente, setas descem sobre o norte do Nordeste.",
+   "camadas": [
+    "card 'ASSISTA: EL NIÑO 2026' (vídeo anterior) por 3 s",
+    "seta AR QUE DESCE = SEM NUVEM"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b22",
+   "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+   "t_est": 272.1,
+   "dur_est": 22.1,
+   "estilo": "B",
+   "transicao": "whip pan para o Atlântico (swish)",
+   "plano": "Atlântico tropical em relevo editorial; faixa de nuvens (ZCIT) como fita branca animada sobre o equador; Atlântico Norte ganha véu coral e a fita sobe para o norte, deixando o Ceará descoberto.",
+   "camadas": [
+    "rótulos ATLÂNTICO NORTE MAIS QUENTE · FAIXA DE NUVENS (ZCIT) · CEARÁ SEM CHUVA",
+    "selo 1878 · RECORDE NO ATLÂNTICO NORTE"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b23",
+   "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+   "t_est": 294.2,
+   "dur_est": 13.5,
+   "estilo": "A",
+   "transicao": "zoom-out orbital até o globo inteiro (whoosh longo)",
+   "plano": "Globo com a anomalia de dez/1877 (dados/sst_1877_global.json); 3 pinos: Nordeste do Brasil, Índia (Madras/Bombaim/Mysore), norte da China (Shanxi/Henan/Shandong); fios vermelhos ligando os 3.",
+   "camadas": [
+    "contadores por pino: ÍNDIA 5,5–9,6 MI · CHINA 9–13 MI · BRASIL ATÉ 500 MIL"
+   ],
+   "midias": [
+    {
+     "arquivo": "india-1877-graphic-bellary.jpg",
+     "gatilho": "Índia",
+     "formato": "quadro grande (gravura de jornal de 1877); não há imagem da fome na China com licença: o pino da China fica só no globo"
+    }
+   ]
+  },
+  {
+   "id": "b24",
+   "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+   "t_est": 307.7,
+   "dur_est": 12.1,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Globo gira devagar com os 3 pinos acesos.",
+   "camadas": [
+    "número > 50 MILHÕES (etiqueta 'ESTIMATIVAS')",
+    "selo ESTUDO DE 2018 · JOURNAL OF CLIMATE"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b25",
+   "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+   "t_est": 319.8,
+   "dur_est": 17.9,
+   "estilo": "B",
+   "transicao": "rack focus de volta ao Ceará (whoosh médio)",
+   "plano": "Ceará em relevo editorial em 1877: só o trecho Fortaleza–Pacatuba da ferrovia existe (linha curta); interior vazio; ícone de navio no porto e trilhas a pé até o sertão.",
+   "camadas": [
+    "rótulos 0 GRANDES AÇUDES · FERROVIA: SÓ ATÉ PACATUBA (1873)"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b26",
+   "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+   "t_est": 337.7,
+   "dur_est": 14.8,
+   "estilo": "arquivo",
+   "transicao": "corte seco (impacto grave)",
+   "plano": "Papel do Senado: citação em tipografia de época, aspas grandes.",
+   "camadas": [
+    "citação “A SOLUÇÃO DEPENDE DA DIVINA PROVIDÊNCIA, E NÃO DE NÓS.” — SINIMBU, CHEFE DO GOVERNO",
+    "carimbo CPI · NÃO APROVADA"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b27",
+   "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+   "t_est": 352.5,
+   "dur_est": 5.5,
+   "estilo": "A",
+   "transicao": "corte seco de volta ao mapa, luz da manhã (whoosh médio)",
+   "plano": "Ceará em satélite, câmera alta; abertura do cap. 3.",
+   "camadas": [
+    "barra das perguntas: ▶ 3/4"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b28",
+   "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+   "t_est": 358.0,
+   "dur_est": 20.0,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "A Estrada de Ferro de Baturité se desenha como fio vermelho sobre o relevo (dados/historia.json): Fortaleza → Baturité (1882) → Quixadá (1891), etiquetas de ano surgindo nas estações.",
+   "camadas": [
+    "etiquetas 1878 OBRA DE SOCORRO · 1882 BATURITÉ · 1891 QUIXADÁ",
+    "ícones de retirantes trabalhando ao longo da linha"
+   ],
+   "midias": [
+    {
+     "arquivo": "ferrovia-baturite-estacao.jpg",
+     "gatilho": "Baturité",
+     "formato": "quadro grande (estação de 1882, foto de hoje)"
+    },
+    {
+     "arquivo": "ferrovia-quixada-estacao.jpg",
+     "gatilho": "Quixadá",
+     "formato": "quadro grande"
+    }
+   ]
+  },
+  {
+   "id": "b29",
+   "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+   "t_est": 378.0,
+   "dur_est": 10.4,
+   "estilo": "B",
+   "transicao": "whip pan para o norte (swish)",
+   "plano": "Ferrovia Camocim → Sobral se desenha (31/12/1882).",
+   "camadas": [
+    "etiqueta SOBRAL · 31/12/1882"
+   ],
+   "midias": [
+    {
+     "arquivo": "mapa-seca-1878-ferrovias.jpg",
+     "gatilho": "ferrovia",
+     "formato": "documento de época com as ferrovias de socorro, detalhe"
+    }
+   ]
+  },
+  {
+   "id": "b30",
+   "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+   "t_est": 388.4,
+   "dur_est": 22.1,
+   "estilo": "A",
+   "transicao": "whip pan para Quixadá (swish)",
+   "plano": "Mergulho no relevo real dos monólitos de Quixadá; pino AÇUDE DO CEDRO; o lago enche em azul (animação simples do espelho d'água).",
+   "camadas": [
+    "etiquetas 1884 → 1906 · 22 ANOS",
+    "rótulo 1º GRANDE AÇUDE PÚBLICO DO PAÍS"
+   ],
+   "midias": [
+    {
+     "arquivo": "cedro-galinha-choca-pd.jpg",
+     "gatilho": "Galinha",
+     "formato": "quadro GRANDE (a foto mais bonita do vídeo), 5 s"
+    },
+    {
+     "arquivo": "cedro-barragem-detalhe.jpg",
+     "gatilho": "República",
+     "formato": "quadro grande"
+    }
+   ]
+  },
+  {
+   "id": "b31",
+   "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+   "t_est": 410.5,
+   "dur_est": 14.5,
+   "estilo": "arquivo",
+   "transicao": "corte seco (impacto suave)",
+   "plano": "Papel com coroa desenhada em traço; carimbo LENDA sobre a frase.",
+   "camadas": [
+    "frase atribuída em itálico",
+    "carimbo coral SEM DOCUMENTO"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b32",
+   "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+   "t_est": 425.0,
+   "dur_est": 14.8,
+   "estilo": "A",
+   "transicao": "zoom-out orbital do Ceará para a América do Sul (whoosh longo)",
+   "plano": "Rota marítima pontilhada animada Fortaleza → Belém → Manaus (dados/historia.json); navios pequenos; a floresta em satélite.",
+   "camadas": [
+    "contador AMAZONAS · JUN/1877–AGO/1878 → 4.963",
+    "rótulo PASSAGEM PAGA PELO GOVERNO"
+   ],
+   "midias": [
+    {
+     "arquivo": "seringal-acre-1910.jpg",
+     "gatilho": "borracha",
+     "formato": "quadro grande, vertical à direita"
+    }
+   ]
+  },
+  {
+   "id": "b33",
+   "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+   "t_est": 439.8,
+   "dur_est": 17.6,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "A rota sobe o Purus até o Acre; o Acre aparece listrado (BOLÍVIA) e, na palavra 'mil novecentos e três', vira coral (BRASIL) com selo TRATADO DE PETRÓPOLIS.",
+   "camadas": [
+    "etiquetas SERINGUEIROS NORDESTINOS · ACRE: BOLÍVIA → BRASIL · 1903"
+   ],
+   "midias": [
+    {
+     "arquivo": "seringueiro-acre-2010.jpg",
+     "gatilho": "seringueiros",
+     "formato": "quadro médio (foto de hoje; legenda com o ano real)"
+    }
+   ]
+  },
+  {
+   "id": "b34",
+   "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+   "t_est": 457.4,
+   "dur_est": 11.7,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Câmera abre para o Brasil inteiro: a fronteira oeste brilha em coral, ligada por fio vermelho ao Ceará.",
+   "camadas": [
+    "rótulo A SECA AJUDOU A DESENHAR A FRONTEIRA"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b35",
+   "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+   "t_est": 469.1,
+   "dur_est": 20.7,
+   "estilo": "arquivo",
+   "transicao": "corte seco (impacto grave)",
+   "plano": "Mapa do Ceará em papel sépia com 7 pinos dos campos de 1932 (Fortaleza ×2, Senador Pompeu, Crato, Quixeramobim, Cariús, Ipu) e 1 de 1915 (Alagadiço); cercas desenhadas em traço.",
+   "camadas": [
+    "etiquetas 1915 · ALAGADIÇO · 1932 · 7 CAMPOS · +70 MIL",
+    "rótulo 'CURRAIS DO GOVERNO'"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b36",
+   "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+   "t_est": 489.8,
+   "dur_est": 8.6,
+   "estilo": "B",
+   "transicao": "corte seco de volta ao mapa (impacto suave)",
+   "plano": "Semiárido oficial (dados/semiarido.json) se desenha sobre o Nordeste em relevo editorial.",
+   "camadas": [
+    "selo 1909 · INSPETORIA DE OBRAS CONTRA AS SECAS → DNOCS"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b37",
+   "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+   "t_est": 498.4,
+   "dur_est": 18.6,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Câmera parada sobre o Ceará; quatro fichas de papel entram uma a uma (POBRES DO SERTÃO · LONGE DA CAPITAL · CORPOS SEM CONTAGEM · CPI BARRADA); a última vira uma pilha de anos de seca (1915, 1932, 1958, 1983, 2012).",
+   "camadas": [],
+   "midias": []
+  },
+  {
+   "id": "b38",
+   "cap": "PERGUNTA 4/4 · E EM 2026?",
+   "t_est": 517.0,
+   "dur_est": 7.3,
+   "estilo": "A",
+   "transicao": "zoom-out orbital até o globo (whoosh longo)",
+   "plano": "Globo de hoje; Pacífico com o relevo de calor de out/2026 (dados/sst_comparativo.json).",
+   "camadas": [
+    "barra das perguntas: ▶ 4/4"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b39",
+   "cap": "PERGUNTA 4/4 · E EM 2026?",
+   "t_est": 524.3,
+   "dur_est": 19.7,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Maquete do Pacífico: o relevo de calor de 1877 (fantasma, contorno) e o de 2026 (cheio) sobrepostos; régua Niño 3.4 com 2026 crescendo ao vivo até passar 1877.",
+   "camadas": [
+    "montanhas 1877 · 2026 (fonte na descrição: NOAA ERSSTv5, mesma base)",
+    "card PREVISÃO NOV–JAN: CHUVA ABAIXO DA MÉDIA EM ÁREAS DO NE (INMET)"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b40",
+   "cap": "PERGUNTA 4/4 · E EM 2026?",
+   "t_est": 544.0,
+   "dur_est": 15.9,
+   "estilo": "B",
+   "transicao": "whip pan para o Atlântico/Ceará (swish)",
+   "plano": "Ceará em relevo editorial; anel de meses de novo com FEV–MAI 2027 em interrogação; fita da ZCIT oscila sobre o Atlântico.",
+   "camadas": [
+    "rótulo O QUE DECIDE: FEV–MAI 2027",
+    "selo FUNCEME: AINDA É CEDO"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b41",
+   "cap": "PERGUNTA 4/4 · E EM 2026?",
+   "t_est": 559.9,
+   "dur_est": 9.7,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Monitor de Secas de set/2026 (dados/monitor-secas-2026-09.json) tinge o Nordeste nas cores S0–S2.",
+   "camadas": [
+    "contador 96% DO NORDESTE EM SECA · SET/2026"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b42",
+   "cap": "PERGUNTA 4/4 · E EM 2026?",
+   "t_est": 569.6,
+   "dur_est": 23.8,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Sertão em satélite de hoje; pinos se acendem em cachos (cisternas, ilustrativo), Castanhão em azul, linha da transposição (Eixo Norte) chegando ao Ceará.",
+   "camadas": [
+    "contador 1,2 MILHÃO DE CISTERNAS",
+    "etiquetas CASTANHÃO · TRANSPOSIÇÃO · 2020"
+   ],
+   "midias": [
+    {
+     "arquivo": "hoje-castanhao.jpg",
+     "gatilho": "Castanhão",
+     "formato": "quadro grande"
+    },
+    {
+     "arquivo": "hoje-transposicao-jati.jpg",
+     "gatilho": "transposição",
+     "formato": "quadro grande (satélite; cortar a borda preta)"
+    }
+   ]
+  },
+  {
+   "id": "b43",
+   "cap": "PERGUNTA 4/4 · E EM 2026?",
+   "t_est": 593.4,
+   "dur_est": 20.0,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Linha do tempo de secas 1877 → 2012–2017 com marcador de mortes em massa só em 1877.",
+   "camadas": [
+    "régua 1877 · 1915 · 1932 · 2012–2017",
+    "ícones carro-pipa/emergência sobre 2012–2017"
+   ],
+   "midias": [
+    {
+     "arquivo": "hoje-pipa-caninde-2026.jpg",
+     "gatilho": "carro-pipa",
+     "formato": "quadro grande"
+    }
+   ]
+  },
+  {
+   "id": "b44",
+   "cap": "PERGUNTA 4/4 · E EM 2026?",
+   "t_est": 613.4,
+   "dur_est": 10.4,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Sertão de hoje em satélite ao entardecer, câmera em órbita lenta.",
+   "camadas": [
+    "ícones simples: torneira, colheita, gado, termômetro"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b45",
+   "cap": "A RESPOSTA",
+   "t_est": 623.8,
+   "dur_est": 20.0,
+   "estilo": "A",
+   "transicao": "zoom-out: do sertão ao Nordeste inteiro (whoosh longo)",
+   "plano": "Volta ao plano do hook: Fortaleza 1878 com os rios de pontinhos; os 3 fatores entram como pinos ligados por fio (PACÍFICO · ATLÂNTICO · GOVERNO).",
+   "camadas": [
+    "contador 25 MIL → 100 MIL+ (reprise)"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b46",
+   "cap": "A RESPOSTA",
+   "t_est": 643.8,
+   "dur_est": 18.6,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Câmera sobe: ferrovia, Cedro e a rota até o Acre acendem juntos sobre o continente ao entardecer (os 'trilhos do mapa' do cap. 3).",
+   "camadas": [
+    "frase final em tipografia grande: O QUE TRANSFORMA SECA EM TRAGÉDIA É O QUE SE FAZ ANTES DELA"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b47",
+   "cap": "A RESPOSTA",
+   "t_est": 662.4,
+   "dur_est": 9.0,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Encerramento do canal: logo EM RELEVO + card do próximo vídeo (Catarina: espiral no Atlântico Sul, silhueta) + botão inscrever.",
+   "camadas": [
+    "card PRÓXIMO: O FURACÃO QUE NÃO DEVIA EXISTIR"
+   ],
+   "midias": []
+  }
+ ]
+}

@@ -1,0 +1,448 @@
+{
+ "_doc": "Lista plana de planos/mídias (nenhuma imagem de IA; fotos de dl/fotos/video/).",
+ "cenas": [
+  {
+   "bloco": "b01",
+   "tipo": "foto",
+   "arquivo": "fortaleza-planta-1875.jpg",
+   "gatilho": "cidade",
+   "formato": "quadro grande à direita, 3 s, papel antigo"
+  },
+  {
+   "bloco": "b01",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abre no Nordeste em satélite ao entardecer, câmera baixa sobre o sertão seco do Ceará; dolly até a costa e pousa em Fortaleza (pino coral)."
+  },
+  {
+   "bloco": "b02",
+   "tipo": "foto",
+   "arquivo": "teofilo-vacinando-1907.jpg",
+   "gatilho": "Theophilo",
+   "formato": "quadro grande à esquerda 4 s; legenda 'RODOLPHO THEOPHILO (À DIREITA) · FORTALEZA · 1907'"
+  },
+  {
+   "bloco": "b02",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Câmera parada sobre Fortaleza; os pontinhos continuam chegando e formam mancha ao redor da planta da cidade."
+  },
+  {
+   "bloco": "b03",
+   "tipo": "arquivo",
+   "estilo": "arquivo",
+   "descricao": "Tela de papel sépia: data 10/12/1878 carimbada; número 1.004 grande cresce em tinta."
+  },
+  {
+   "bloco": "b04",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Zoom-out do Ceará para o Brasil inteiro em relevo editorial; províncias do Norte de 1877 (CE, RN, PB, PE, PI, AL, SE, BA) tingidas de coral."
+  },
+  {
+   "bloco": "b05",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Câmera parada; o coral pulsa; aparece no canto o Pacífico com o relevo de calor de 2026 (miniatura do longo-02) e '1877 ↔ 2026'."
+  },
+  {
+   "bloco": "b06",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Câmera parada; barra das 4 perguntas (mesmo componente do longo-02) entra pergunta a pergunta."
+  },
+  {
+   "bloco": "b07",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Câmera desce para o Ceará; calendário em anel de 12 meses ao lado do mapa: FEV–MAI acende (gotas), o resto apaga."
+  },
+  {
+   "bloco": "b08",
+   "tipo": "foto",
+   "arquivo": "hoje-santa-quiteria-2018.jpg",
+   "gatilho": "chuva",
+   "formato": "quadro grande (cenário do sertão seco; legenda com lugar e ano reais)"
+  },
+  {
+   "bloco": "b08",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abertura do cap. 1: sertão do Ceará em satélite, terreno seco; céu sem nuvem."
+  },
+  {
+   "bloco": "b09",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Régua de montanhas (componente do longo-02) com 153 barras = chuva anual de Fortaleza 1849–2018; linha da média 1.450 mm."
+  },
+  {
+   "bloco": "b10",
+   "tipo": "foto",
+   "arquivo": "hoje-coremas-seca-2017.jpg",
+   "gatilho": "gado",
+   "formato": "quadro grande, panorâmica"
+  },
+  {
+   "bloco": "b10",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Sertão em satélite, câmera em órbita lenta; o verde (se houver) dessatura para marrom."
+  },
+  {
+   "bloco": "b11",
+   "tipo": "foto",
+   "arquivo": "mapa-seca-1877-rebouças.jpg",
+   "gatilho": "andou",
+   "formato": "documento grande à direita com pan lento (mapa da região da seca de 1877)"
+  },
+  {
+   "bloco": "b11",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Ceará em relevo editorial com contorno; contador 721.686 (1872); pontinhos espalhados pelo estado inteiro."
+  },
+  {
+   "bloco": "b12",
+   "tipo": "foto",
+   "arquivo": "retirantes-1878-grupo.jpg",
+   "gatilho": "retirantes",
+   "formato": "carte-de-visite pequena (é o tamanho original da foto) pousada sobre o mapa, moldura de papel; 4 s"
+  },
+  {
+   "bloco": "b12",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Plano-assinatura: câmera alta, os pontinhos viram rios que 'escorrem' pelos vales (seguindo o relevo real e os rios Jaguaribe, Banabuiú, Acaraú, Curu) até a costa."
+  },
+  {
+   "bloco": "b13",
+   "tipo": "foto",
+   "arquivo": "fortaleza-planta-1875.jpg",
+   "gatilho": "Fortaleza",
+   "formato": "textura sobre o mapa (não quadro)"
+  },
+  {
+   "bloco": "b13",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Fortaleza em zoom: planta de 1875 (Herbster) estendida sobre o terreno como textura; ao redor, barracas (ícones) se multiplicam nos arredores."
+  },
+  {
+   "bloco": "b14",
+   "tipo": "foto",
+   "arquivo": "mapa-seca-1878-ferrovias.jpg",
+   "gatilho": "mar",
+   "formato": "documento grande, detalhe do litoral cearense"
+  },
+  {
+   "bloco": "b14",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Rota de navios chegando ao porto de Fortaleza (linhas do mar para a costa); sacos empilhados que não sobem até o sertão."
+  },
+  {
+   "bloco": "b15",
+   "tipo": "foto",
+   "arquivo": "retirante-corrêa-1877-a.jpg",
+   "gatilho": "fome",
+   "formato": "carte-de-visite pequena no papel, SEM zoom no corpo; 4 s; legenda CEARÁ · 1877"
+  },
+  {
+   "bloco": "b15",
+   "tipo": "arquivo",
+   "estilo": "arquivo",
+   "descricao": "Papel sépia com calendário de 1878; manchas de varíola (pontos coral) se espalham pela planta de Fortaleza."
+  },
+  {
+   "bloco": "b16",
+   "tipo": "arquivo",
+   "estilo": "arquivo",
+   "descricao": "Mesmo papel; o '10' de dezembro é circulado em tinta; 1.004 volta (paga o hook)."
+  },
+  {
+   "bloco": "b17",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Nordeste em relevo editorial; faixa 150 MIL ↔ 500 MIL como régua com ponta incerta (degradê)."
+  },
+  {
+   "bloco": "b18",
+   "tipo": "foto",
+   "arquivo": "retirante-corrêa-1878-b.jpg",
+   "gatilho": "fotografias",
+   "formato": "carte-de-visite original com moldura dourada, pequena"
+  },
+  {
+   "bloco": "b18",
+   "tipo": "foto",
+   "arquivo": "retirantes-1878-grupo.jpg",
+   "gatilho": "fotografias",
+   "formato": "carte-de-visite pequena"
+  },
+  {
+   "bloco": "b18",
+   "tipo": "foto",
+   "arquivo": "patrocinio-1879.jpg",
+   "gatilho": "historiadores",
+   "formato": "retrato pequeno no canto (José do Patrocínio, que trabalhou com Corrêa na série)"
+  },
+  {
+   "bloco": "b18",
+   "tipo": "arquivo",
+   "estilo": "arquivo",
+   "descricao": "Mesa de papel com recortes: cartes-de-visite de retirantes lado a lado, como foram publicadas."
+  },
+  {
+   "bloco": "b19",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Globo em satélite gira do Atlântico para o Pacífico."
+  },
+  {
+   "bloco": "b20",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Maquete do Pacífico (mesa do longo-02) com o RELEVO DE CALOR de nov/1877–fev/1878 (dados/sst_1877.json) subindo; depois régua de montanhas Niño 3.4 (dados/nino34-resumo.json, NDJ): 1877 · 1982 · 1997 · 2015 lado a lado."
+  },
+  {
+   "bloco": "b21",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Circulação de Walker (componente do longo-02): ar sobe sobre o Pacífico quente, setas descem sobre o norte do Nordeste."
+  },
+  {
+   "bloco": "b22",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Atlântico tropical em relevo editorial; faixa de nuvens (ZCIT) como fita branca animada sobre o equador; Atlântico Norte ganha véu coral e a fita sobe para o norte, deixando o Ceará descoberto."
+  },
+  {
+   "bloco": "b23",
+   "tipo": "foto",
+   "arquivo": "india-1877-graphic-bellary.jpg",
+   "gatilho": "Índia",
+   "formato": "quadro grande (gravura de jornal de 1877); não há imagem da fome na China com licença: o pino da China fica só no globo"
+  },
+  {
+   "bloco": "b23",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Globo com a anomalia de dez/1877 (dados/sst_1877_global.json); 3 pinos: Nordeste do Brasil, Índia (Madras/Bombaim/Mysore), norte da China (Shanxi/Henan/Shandong); fios vermelhos ligando os 3."
+  },
+  {
+   "bloco": "b24",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Globo gira devagar com os 3 pinos acesos."
+  },
+  {
+   "bloco": "b25",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Ceará em relevo editorial em 1877: só o trecho Fortaleza–Pacatuba da ferrovia existe (linha curta); interior vazio; ícone de navio no porto e trilhas a pé até o sertão."
+  },
+  {
+   "bloco": "b26",
+   "tipo": "arquivo",
+   "estilo": "arquivo",
+   "descricao": "Papel do Senado: citação em tipografia de época, aspas grandes."
+  },
+  {
+   "bloco": "b27",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Ceará em satélite, câmera alta; abertura do cap. 3."
+  },
+  {
+   "bloco": "b28",
+   "tipo": "foto",
+   "arquivo": "ferrovia-baturite-estacao.jpg",
+   "gatilho": "Baturité",
+   "formato": "quadro grande (estação de 1882, foto de hoje)"
+  },
+  {
+   "bloco": "b28",
+   "tipo": "foto",
+   "arquivo": "ferrovia-quixada-estacao.jpg",
+   "gatilho": "Quixadá",
+   "formato": "quadro grande"
+  },
+  {
+   "bloco": "b28",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "A Estrada de Ferro de Baturité se desenha como fio vermelho sobre o relevo (dados/historia.json): Fortaleza → Baturité (1882) → Quixadá (1891), etiquetas de ano surgindo nas estações."
+  },
+  {
+   "bloco": "b29",
+   "tipo": "foto",
+   "arquivo": "mapa-seca-1878-ferrovias.jpg",
+   "gatilho": "ferrovia",
+   "formato": "documento de época com as ferrovias de socorro, detalhe"
+  },
+  {
+   "bloco": "b29",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Ferrovia Camocim → Sobral se desenha (31/12/1882)."
+  },
+  {
+   "bloco": "b30",
+   "tipo": "foto",
+   "arquivo": "cedro-galinha-choca-pd.jpg",
+   "gatilho": "Galinha",
+   "formato": "quadro GRANDE (a foto mais bonita do vídeo), 5 s"
+  },
+  {
+   "bloco": "b30",
+   "tipo": "foto",
+   "arquivo": "cedro-barragem-detalhe.jpg",
+   "gatilho": "República",
+   "formato": "quadro grande"
+  },
+  {
+   "bloco": "b30",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Mergulho no relevo real dos monólitos de Quixadá; pino AÇUDE DO CEDRO; o lago enche em azul (animação simples do espelho d'água)."
+  },
+  {
+   "bloco": "b31",
+   "tipo": "arquivo",
+   "estilo": "arquivo",
+   "descricao": "Papel com coroa desenhada em traço; carimbo LENDA sobre a frase."
+  },
+  {
+   "bloco": "b32",
+   "tipo": "foto",
+   "arquivo": "seringal-acre-1910.jpg",
+   "gatilho": "borracha",
+   "formato": "quadro grande, vertical à direita"
+  },
+  {
+   "bloco": "b32",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Rota marítima pontilhada animada Fortaleza → Belém → Manaus (dados/historia.json); navios pequenos; a floresta em satélite."
+  },
+  {
+   "bloco": "b33",
+   "tipo": "foto",
+   "arquivo": "seringueiro-acre-2010.jpg",
+   "gatilho": "seringueiros",
+   "formato": "quadro médio (foto de hoje; legenda com o ano real)"
+  },
+  {
+   "bloco": "b33",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "A rota sobe o Purus até o Acre; o Acre aparece listrado (BOLÍVIA) e, na palavra 'mil novecentos e três', vira coral (BRASIL) com selo TRATADO DE PETRÓPOLIS."
+  },
+  {
+   "bloco": "b34",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Câmera abre para o Brasil inteiro: a fronteira oeste brilha em coral, ligada por fio vermelho ao Ceará."
+  },
+  {
+   "bloco": "b35",
+   "tipo": "arquivo",
+   "estilo": "arquivo",
+   "descricao": "Mapa do Ceará em papel sépia com 7 pinos dos campos de 1932 (Fortaleza ×2, Senador Pompeu, Crato, Quixeramobim, Cariús, Ipu) e 1 de 1915 (Alagadiço); cercas desenhadas em traço."
+  },
+  {
+   "bloco": "b36",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Semiárido oficial (dados/semiarido.json) se desenha sobre o Nordeste em relevo editorial."
+  },
+  {
+   "bloco": "b37",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Câmera parada sobre o Ceará; quatro fichas de papel entram uma a uma (POBRES DO SERTÃO · LONGE DA CAPITAL · CORPOS SEM CONTAGEM · CPI BARRADA); a última vira uma pilha de anos de seca (1915, 1932, 1958, 1983, 2012)."
+  },
+  {
+   "bloco": "b38",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Globo de hoje; Pacífico com o relevo de calor de out/2026 (dados/sst_comparativo.json)."
+  },
+  {
+   "bloco": "b39",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Maquete do Pacífico: o relevo de calor de 1877 (fantasma, contorno) e o de 2026 (cheio) sobrepostos; régua Niño 3.4 com 2026 crescendo ao vivo até passar 1877."
+  },
+  {
+   "bloco": "b40",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Ceará em relevo editorial; anel de meses de novo com FEV–MAI 2027 em interrogação; fita da ZCIT oscila sobre o Atlântico."
+  },
+  {
+   "bloco": "b41",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Monitor de Secas de set/2026 (dados/monitor-secas-2026-09.json) tinge o Nordeste nas cores S0–S2."
+  },
+  {
+   "bloco": "b42",
+   "tipo": "foto",
+   "arquivo": "hoje-castanhao.jpg",
+   "gatilho": "Castanhão",
+   "formato": "quadro grande"
+  },
+  {
+   "bloco": "b42",
+   "tipo": "foto",
+   "arquivo": "hoje-transposicao-jati.jpg",
+   "gatilho": "transposição",
+   "formato": "quadro grande (satélite; cortar a borda preta)"
+  },
+  {
+   "bloco": "b42",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Sertão em satélite de hoje; pinos se acendem em cachos (cisternas, ilustrativo), Castanhão em azul, linha da transposição (Eixo Norte) chegando ao Ceará."
+  },
+  {
+   "bloco": "b43",
+   "tipo": "foto",
+   "arquivo": "hoje-pipa-caninde-2026.jpg",
+   "gatilho": "carro-pipa",
+   "formato": "quadro grande"
+  },
+  {
+   "bloco": "b43",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Linha do tempo de secas 1877 → 2012–2017 com marcador de mortes em massa só em 1877."
+  },
+  {
+   "bloco": "b44",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Sertão de hoje em satélite ao entardecer, câmera em órbita lenta."
+  },
+  {
+   "bloco": "b45",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Volta ao plano do hook: Fortaleza 1878 com os rios de pontinhos; os 3 fatores entram como pinos ligados por fio (PACÍFICO · ATLÂNTICO · GOVERNO)."
+  },
+  {
+   "bloco": "b46",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Câmera sobe: ferrovia, Cedro e a rota até o Acre acendem juntos sobre o continente ao entardecer (os 'trilhos do mapa' do cap. 3)."
+  },
+  {
+   "bloco": "b47",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Encerramento do canal: logo EM RELEVO + card do próximo vídeo (Catarina: espiral no Atlântico Sul, silhueta) + botão inscrever."
+  }
+ ]
+}

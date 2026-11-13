@@ -1,0 +1,425 @@
+[
+ {
+  "id": "b01",
+  "cap": "FORTALEZA · 1878",
+  "marcha": 1,
+  "fala": "Fortaleza, mil oitocentos e setenta e oito.\nUma cidade de uns vinte e cinco mil habitantes.\nEm poucos meses, chegam mais de cem mil pessoas.\nA pé. Vindas do sertão.",
+  "fala_tts": "[serious] Fortaleza, mil oitocentos e setenta e oito.\nUma cidade de uns vinte e cinco mil habitantes.\nEm poucos meses, chegam mais de cem mil pessoas.\nA pé. Vindas do sertão.",
+  "tela": "Fortaleza, 1878. | Uma cidade de uns 25 mil habitantes. | Em poucos meses, chegam mais de 100 mil pessoas. | A pé. Vindas do sertão.",
+  "fonte": "C3"
+ },
+ {
+  "id": "b02",
+  "cap": "FORTALEZA · 1878",
+  "marcha": 1,
+  "fala": "No fim daquele ano, segundo o farmacêutico Rodolpho Theophilo, que viveu tudo aquilo, a cidade tinha cento e sessenta mil pessoas.\nMais de seis vezes o tamanho de antes.",
+  "fala_tts": "[serious] No fim daquele ano, segundo o farmacêutico Rodolpho Theophilo, que viveu tudo aquilo, a cidade tinha cento e sessenta mil pessoas.\nMais de seis vezes o tamanho de antes.",
+  "tela": "No fim daquele ano, segundo o farmacêutico Rodolpho Theophilo, | que viveu tudo aquilo, | a cidade tinha 160 mil pessoas. | Mais de 6 vezes o tamanho de antes.",
+  "fonte": "C3"
+ },
+ {
+  "id": "b03",
+  "cap": "FORTALEZA · 1878",
+  "marcha": 1,
+  "fala": "E num único dia, dez de dezembro, a varíola matou mil e quatro pessoas.",
+  "fala_tts": "[serious] E num único dia, dez de dezembro, a varíola matou mil e quatro pessoas.",
+  "tela": "E num único dia, 10 de dezembro, | a varíola matou 1.004 pessoas.",
+  "fonte": "C4"
+ },
+ {
+  "id": "b04",
+  "cap": "A PERGUNTA",
+  "marcha": 1,
+  "fala": "Essa é a Grande Seca de mil oitocentos e setenta e sete.\nAs estimativas chegam a quinhentos mil mortos.\nPelas contas mais altas, cinco por cento de toda a população do Império.\nProporcionalmente, a maior catástrofe da história do Brasil.",
+  "fala_tts": "Essa é a Grande Seca de mil oitocentos e setenta e sete.\nAs estimativas chegam a quinhentos mil mortos.\nPelas contas mais altas, cinco por cento de toda a população do Império.\nProporcionalmente, a maior catástrofe da história do Brasil.",
+  "tela": "Essa é a Grande Seca de 1877. | As estimativas chegam a 500 mil mortos. | Pelas contas mais altas, 5% de toda a população do Império. | Proporcionalmente, a maior catástrofe da história do Brasil.",
+  "fonte": "C2 (Agência Senado)"
+ },
+ {
+  "id": "b05",
+  "cap": "A PERGUNTA",
+  "marcha": 1,
+  "fala": "Mesmo assim, quase ninguém fala dela.\nE agora, com o El Niño de dois mil e vinte e seis, uma pergunta voltou: aquilo pode se repetir?",
+  "fala_tts": "[curious] Mesmo assim, quase ninguém fala dela.\n[intrigued] E agora, com o El Niño de dois mil e vinte e seis, uma pergunta voltou: aquilo pode se repetir?",
+  "tela": "Mesmo assim, quase ninguém fala dela. | E agora, com o El Niño de 2026, uma pergunta voltou: | aquilo pode se repetir?",
+  "fonte": "C11"
+ },
+ {
+  "id": "b06",
+  "cap": "A PERGUNTA",
+  "marcha": 1,
+  "fala": "Isso nos leva às seguintes perguntas.\nO que aconteceu, afinal?\nPor que não choveu?\nO que essa seca mudou no mapa do Brasil?\nE ela pode se repetir em dois mil e vinte e seis?",
+  "fala_tts": "[serious] Isso nos leva às seguintes perguntas.\n[curious] O que aconteceu, afinal?\n[curious] Por que não choveu?\n[curious] O que essa seca mudou no mapa do Brasil?\n[intrigued] E ela pode se repetir em dois mil e vinte e seis?",
+  "tela": "Isso nos leva às seguintes perguntas. | O que aconteceu, afinal? | Por que não choveu? | O que essa seca mudou no mapa do Brasil? | E ela pode se repetir em 2026?",
+  "fonte": ""
+ },
+ {
+  "id": "b07",
+  "cap": "A PERGUNTA",
+  "marcha": 1,
+  "fala": "Mas antes, é preciso entender uma coisa.\nNo sertão do Ceará, quase toda a chuva do ano cai em poucos meses, de fevereiro a maio.\nO sertanejo chama essa época de inverno.\nSe esses meses falham, o ano inteiro falha.",
+  "fala_tts": "[serious] Mas antes, é preciso entender uma coisa.\nNo sertão do Ceará, quase toda a chuva do ano cai em poucos meses, de fevereiro a maio.\nO sertanejo chama essa época de inverno.\nSe esses meses falham, o ano inteiro falha.",
+  "tela": "Mas antes, é preciso entender uma coisa. | No sertão do Ceará, quase toda a chuva do ano cai em poucos meses, | de fevereiro a maio. | O sertanejo chama essa época de inverno. | Se esses meses falham, o ano inteiro falha.",
+  "fonte": "C8b"
+ },
+ {
+  "id": "b08",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+  "marcha": 2,
+  "fala": "Março de mil oitocentos e setenta e sete.\nNo sertão, a tradição diz que, se chover até o dia de São José, dezenove de março, o inverno vai ser bom.\nNaquele ano, a chuva não veio.",
+  "fala_tts": "Março de mil oitocentos e setenta e sete.\nNo sertão, a tradição diz que, se chover até o dia de São José, dezenove de março, o inverno vai ser bom.\nNaquele ano, a chuva não veio.",
+  "tela": "Março de 1877. | No sertão, a tradição diz que, se chover até o dia de São José, | 19 de março, o inverno vai ser bom. | Naquele ano, a chuva não veio.",
+  "fonte": "C1"
+ },
+ {
+  "id": "b09",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+  "marcha": 2,
+  "fala": "Fortaleza tem uma das séries de chuva mais longas do Brasil, medida desde mil oitocentos e quarenta e nove.\nNa média, chove mais de mil e quatrocentos milímetros por ano.\nEm mil oitocentos e setenta e sete, choveram quatrocentos e sessenta e oito.\nUm terço do normal.\nO ano mais seco de todo o registro.\nE mil oitocentos e setenta e oito foi o segundo.",
+  "fala_tts": "Fortaleza tem uma das séries de chuva mais longas do Brasil, medida desde mil oitocentos e quarenta e nove.\nNa média, chove mais de mil e quatrocentos milímetros por ano.\nEm mil oitocentos e setenta e sete, choveram quatrocentos e sessenta e oito.\nUm terço do normal.\nO ano mais seco de todo o registro.\n[serious] E mil oitocentos e setenta e oito foi o segundo.",
+  "tela": "Fortaleza tem uma das séries de chuva mais longas do Brasil, | medida desde 1849. | Na média, chove mais de 1.400 milímetros por ano. | Em 1877, choveram 468. | Um terço do normal. | O ano mais seco de todo o registro. | E 1878 foi o segundo.",
+  "fonte": "C8"
+ },
+ {
+  "id": "b10",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+  "marcha": 2,
+  "fala": "E isso é no litoral. No sertão, onde já chove bem menos, o pasto secou, o gado morreu e as roças de milho, feijão e mandioca não vingaram.",
+  "fala_tts": "E isso é no litoral. No sertão, onde já chove bem menos, o pasto secou, o gado morreu e as roças de milho, feijão e mandioca não vingaram.",
+  "tela": "E isso é no litoral. | No sertão, onde já chove bem menos, o pasto secou, | o gado morreu | e as roças de milho, feijão e mandioca não vingaram.",
+  "fonte": "C1"
+ },
+ {
+  "id": "b11",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+  "marcha": 2,
+  "fala": "Em mil oitocentos e setenta e dois, o Ceará tinha pouco mais de setecentas mil pessoas.\nE uma multidão fez a mesma coisa: pegou o que tinha e andou.\nPara o litoral, onde havia porto, comida chegando de navio e o governo.",
+  "fala_tts": "Em mil oitocentos e setenta e dois, o Ceará tinha pouco mais de setecentas mil pessoas.\nE uma multidão fez a mesma coisa: pegou o que tinha e andou.\nPara o litoral, onde havia porto, comida chegando de navio e o governo.",
+  "tela": "Em 1872, o Ceará tinha pouco mais de 700 mil pessoas. | E uma multidão fez a mesma coisa: | pegou o que tinha e andou. | Para o litoral, onde havia porto, comida chegando de navio e o governo.",
+  "fonte": "C2b"
+ },
+ {
+  "id": "b12",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+  "marcha": 2,
+  "fala": "No mapa, é como se o sertão inteiro escorresse para a costa.\nEssas pessoas ficaram conhecidas por um nome: retirantes.",
+  "fala_tts": "No mapa, é como se o sertão inteiro escorresse para a costa.\nEssas pessoas ficaram conhecidas por um nome: retirantes.",
+  "tela": "No mapa, é como se o sertão inteiro escorresse para a costa. | Essas pessoas ficaram conhecidas por um nome: | retirantes.",
+  "fonte": ""
+ },
+ {
+  "id": "b13",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+  "marcha": 2,
+  "fala": "Fortaleza não estava preparada.\nO governo montou abarracamentos, campos de barracas nos arredores da cidade.\nEm agosto de mil oitocentos e setenta e oito, eram quase cento e catorze mil pessoas abarracadas.",
+  "fala_tts": "Fortaleza não estava preparada.\nO governo montou abarracamentos, campos de barracas nos arredores da cidade.\nEm agosto de mil oitocentos e setenta e oito, eram quase cento e catorze mil pessoas abarracadas.",
+  "tela": "Fortaleza não estava preparada. | O governo montou abarracamentos, | campos de barracas nos arredores da cidade. | Em agosto de 1878, | eram quase 114 mil pessoas abarracadas.",
+  "fonte": "C3b"
+ },
+ {
+  "id": "b14",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+  "marcha": 2,
+  "fala": "A comida vinha por mar, mas não dava.\nE o que chegava nem sempre servia: houve denúncias de carne estragada e de farinha misturada com cal.",
+  "fala_tts": "A comida vinha por mar, mas não dava.\nE o que chegava nem sempre servia: houve denúncias de carne estragada e de farinha misturada com cal.",
+  "tela": "A comida vinha por mar, mas não dava. | E o que chegava nem sempre servia: | houve denúncias de carne estragada | e de farinha misturada com cal.",
+  "fonte": "C5"
+ },
+ {
+  "id": "b15",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+  "marcha": 2,
+  "fala": "E aí veio a varíola.\nEm gente fraca de fome, amontoada em barracas, o vírus se espalhou depressa.\nEm novembro de mil oitocentos e setenta e oito, quase dez mil mortes em Fortaleza.\nEm dezembro, mais de quinze mil, quase todas de varíola.",
+  "fala_tts": "[serious] E aí veio a varíola.\nEm gente fraca de fome, amontoada em barracas, o vírus se espalhou depressa.\nEm novembro de mil oitocentos e setenta e oito, quase dez mil mortes em Fortaleza.\nEm dezembro, mais de quinze mil, quase todas de varíola.",
+  "tela": "E aí veio a varíola. | Em gente fraca de fome, amontoada em barracas, | o vírus se espalhou depressa. | Em novembro de 1878, quase 10 mil mortes em Fortaleza. | Em dezembro, mais de 15 mil, quase todas de varíola.",
+  "fonte": "C4b"
+ },
+ {
+  "id": "b16",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+  "marcha": 2,
+  "fala": "No dia dez de dezembro, foram mil e quatro mortos.\nOs coveiros não deram conta, e mais de duzentos corpos ficaram para o dia seguinte.\nFortaleza chama essa data, até hoje, de o Dia dos Mil Mortos.",
+  "fala_tts": "[serious] No dia dez de dezembro, foram mil e quatro mortos.\nOs coveiros não deram conta, e mais de duzentos corpos ficaram para o dia seguinte.\nFortaleza chama essa data, até hoje, de o Dia dos Mil Mortos.",
+  "tela": "No dia 10 de dezembro, foram 1.004 mortos. | Os coveiros não deram conta, | e mais de 200 corpos ficaram para o dia seguinte. | Fortaleza chama essa data, até hoje, | de o Dia dos Mil Mortos.",
+  "fonte": "C4"
+ },
+ {
+  "id": "b17",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+  "marcha": 2,
+  "fala": "Quantas pessoas a seca matou, no total?\nNinguém contou direito.\nAs estimativas vão de cento e cinquenta mil a quinhentos mil, no Ceará e nas províncias vizinhas.\nE a chuva só voltou de verdade em mil oitocentos e oitenta.",
+  "fala_tts": "Quantas pessoas a seca matou, no total?\nNinguém contou direito.\nAs estimativas vão de cento e cinquenta mil a quinhentos mil, no Ceará e nas províncias vizinhas.\nE a chuva só voltou de verdade em mil oitocentos e oitenta.",
+  "tela": "Quantas pessoas a seca matou, no total? | Ninguém contou direito. | As estimativas vão de 150 mil a 500 mil, | no Ceará e nas províncias vizinhas. | E a chuva só voltou de verdade em 1880.",
+  "fonte": "C2, C1"
+ },
+ {
+  "id": "b18",
+  "cap": "PERGUNTA 1/4 · O QUE ACONTECEU",
+  "marcha": 2,
+  "fala": "No Rio de Janeiro, a capital do Império, a seca era notícia distante.\nAté que, em mil oitocentos e setenta e oito, um jornal ilustrado da corte, O Besouro, publicou fotografias de retirantes feitas em Fortaleza.\nPara os historiadores, é possivelmente a primeira experiência de fotojornalismo do Brasil.",
+  "fala_tts": "No Rio de Janeiro, a capital do Império, a seca era notícia distante.\nAté que, em mil oitocentos e setenta e oito, um jornal ilustrado da corte, O Besouro, publicou fotografias de retirantes feitas em Fortaleza.\nPara os historiadores, é possivelmente a primeira experiência de fotojornalismo do Brasil.",
+  "tela": "No Rio de Janeiro, a capital do Império, a seca era notícia distante. | Até que, em 1878, um jornal ilustrado da corte, O Besouro, | publicou fotografias de retirantes feitas em Fortaleza. | Para os historiadores, é possivelmente | a primeira experiência de fotojornalismo do Brasil.",
+  "fonte": "C9"
+ },
+ {
+  "id": "b19",
+  "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+  "marcha": 2,
+  "fala": "Agora, por que não choveu?\nA resposta não está no Ceará.\nEstá do outro lado do planeta.",
+  "fala_tts": "[curious] Agora, por que não choveu?\nA resposta não está no Ceará.\nEstá do outro lado do planeta.",
+  "tela": "Agora, por que não choveu? | A resposta não está no Ceará. | Está do outro lado do planeta.",
+  "fonte": ""
+ },
+ {
+  "id": "b20",
+  "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+  "marcha": 2,
+  "fala": "Entre mil oitocentos e setenta e sete e setenta e oito, o Pacífico tropical esquentou como poucas vezes na história.\nFoi um El Niño.\nE, pelas reconstruções da temperatura do mar, um dos mais fortes já registrados.\nNo mesmo nível dos de oitenta e dois, noventa e sete e dois mil e quinze.",
+  "fala_tts": "Entre mil oitocentos e setenta e sete e setenta e oito, o Pacífico tropical esquentou como poucas vezes na história.\nFoi um El Niño.\nE, pelas reconstruções da temperatura do mar, um dos mais fortes já registrados.\nNo mesmo nível dos de oitenta e dois, noventa e sete e dois mil e quinze.",
+  "tela": "Entre 1877 e 78, o Pacífico tropical esquentou | como poucas vezes na história. | Foi um El Niño. | E, pelas reconstruções da temperatura do mar, | um dos mais fortes já registrados. | No mesmo nível dos de 82, 97 e 2015.",
+  "fonte": "C7, D2"
+ },
+ {
+  "id": "b21",
+  "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+  "marcha": 2,
+  "fala": "No nosso vídeo sobre o El Niño, a gente mostrou como isso funciona.\nQuando o Pacífico esquenta, o ar sobe lá, em cima da água quente.\nE desce em outros lugares.\nUm deles é o norte do Nordeste.\nE ar que desce não forma nuvem.",
+  "fala_tts": "No nosso vídeo sobre o El Niño, a gente mostrou como isso funciona.\nQuando o Pacífico esquenta, o ar sobe lá, em cima da água quente.\nE desce em outros lugares.\nUm deles é o norte do Nordeste.\nE ar que desce não forma nuvem.",
+  "tela": "No nosso vídeo sobre o El Niño, a gente mostrou como isso funciona. | Quando o Pacífico esquenta, o ar sobe lá, em cima da água quente. | E desce em outros lugares. | Um deles é o norte do Nordeste. | E ar que desce não forma nuvem.",
+  "fonte": "longo-02 b24"
+ },
+ {
+  "id": "b22",
+  "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+  "marcha": 2,
+  "fala": "Mas, no Ceará, o Atlântico também manda.\nA chuva de fevereiro a maio vem de uma faixa de nuvens que acompanha a linha do equador.\nQuando o Atlântico Norte fica mais quente que o do Sul, essa faixa sobe, e não chega até o Ceará.\nE, em mil oitocentos e setenta e oito, o Atlântico Norte esteve quente como nunca no registro.",
+  "fala_tts": "Mas, no Ceará, o Atlântico também manda.\nA chuva de fevereiro a maio vem de uma faixa de nuvens que acompanha a linha do equador.\nQuando o Atlântico Norte fica mais quente que o do Sul, essa faixa sobe, e não chega até o Ceará.\n[serious] E, em mil oitocentos e setenta e oito, o Atlântico Norte esteve quente como nunca no registro.",
+  "tela": "Mas, no Ceará, o Atlântico também manda. | A chuva de fevereiro a maio vem de uma faixa de nuvens | que acompanha a linha do equador. | Quando o Atlântico Norte fica mais quente que o do Sul, | essa faixa sobe, e não chega até o Ceará. | E, em 1878, o Atlântico Norte esteve quente como nunca no registro.",
+  "fonte": "C7, C8b"
+ },
+ {
+  "id": "b23",
+  "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+  "marcha": 2,
+  "fala": "E o Brasil não estava sozinho.\nO mesmo clima secou a Índia e o norte da China.\nNa Índia, de cinco milhões e meio a quase dez milhões de mortos.\nNa China, de nove a treze milhões.",
+  "fala_tts": "E o Brasil não estava sozinho.\nO mesmo clima secou a Índia e o norte da China.\nNa Índia, de cinco milhões e meio a quase dez milhões de mortos.\nNa China, de nove a treze milhões.",
+  "tela": "E o Brasil não estava sozinho. | O mesmo clima secou a Índia e o norte da China. | Na Índia, de 5,5 milhões a quase 10 milhões de mortos. | Na China, de 9 a 13 milhões.",
+  "fonte": "C7b, C7c"
+ },
+ {
+  "id": "b24",
+  "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+  "marcha": 2,
+  "fala": "Um estudo de dois mil e dezoito ligou essas fomes ao mesmo El Niño, junto com o oceano Índico e o Atlântico.\nE as estimativas de mortos, no mundo, passam de cinquenta milhões.",
+  "fala_tts": "Um estudo de dois mil e dezoito ligou essas fomes ao mesmo El Niño, junto com o oceano Índico e o Atlântico.\nE as estimativas de mortos, no mundo, passam de cinquenta milhões.",
+  "tela": "Um estudo de 2018 ligou essas fomes ao mesmo El Niño, | junto com o oceano Índico e o Atlântico. | E as estimativas de mortos, no mundo, | passam de 50 milhões.",
+  "fonte": "C7"
+ },
+ {
+  "id": "b25",
+  "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+  "marcha": 2,
+  "fala": "Mas o clima explica a falta de chuva.\nNão explica, sozinho, tantas mortes.\nNo Ceará de mil oitocentos e setenta e sete, não havia nenhum grande açude, e nenhuma ferrovia chegava ao sertão.\nO socorro chegava de navio, e daí para dentro era a pé ou no lombo de animal.",
+  "fala_tts": "[serious] Mas o clima explica a falta de chuva.\nNão explica, sozinho, tantas mortes.\nNo Ceará de mil oitocentos e setenta e sete, não havia nenhum grande açude, e nenhuma ferrovia chegava ao sertão.\nO socorro chegava de navio, e daí para dentro era a pé ou no lombo de animal.",
+  "tela": "Mas o clima explica a falta de chuva. | Não explica, sozinho, tantas mortes. | No Ceará de 1877, não havia nenhum grande açude, | e nenhuma ferrovia chegava ao sertão. | O socorro chegava de navio, | e daí para dentro era a pé ou no lombo de animal.",
+  "fonte": "C5c, C5d, D5"
+ },
+ {
+  "id": "b26",
+  "cap": "PERGUNTA 2/4 · POR QUE NÃO CHOVEU",
+  "marcha": 2,
+  "fala": "No governo, a resposta foi lenta.\nO chefe do governo, o senador Sinimbu, chegou a dizer: a solução depende da Divina Providência, e não de nós.\nE, no Senado, um pedido de investigação sobre o dinheiro do socorro não foi aprovado.",
+  "fala_tts": "No governo, a resposta foi lenta.\nO chefe do governo, o senador Sinimbu, chegou a dizer: a solução depende da Divina Providência, e não de nós.\nE, no Senado, um pedido de investigação sobre o dinheiro do socorro não foi aprovado.",
+  "tela": "No governo, a resposta foi lenta. | O chefe do governo, o senador Sinimbu, chegou a dizer: | a solução depende da Divina Providência, e não de nós. | E, no Senado, um pedido de investigação | sobre o dinheiro do socorro não foi aprovado.",
+  "fonte": "C5"
+ },
+ {
+  "id": "b27",
+  "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+  "marcha": 2,
+  "fala": "Então, o que essa seca mudou no mapa do Brasil?\nMais do que parece.",
+  "fala_tts": "[curious] Então, o que essa seca mudou no mapa do Brasil?\nMais do que parece.",
+  "tela": "Então, o que essa seca mudou no mapa do Brasil? | Mais do que parece.",
+  "fonte": ""
+ },
+ {
+  "id": "b28",
+  "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+  "marcha": 2,
+  "fala": "Primeiro, os trilhos.\nEm mil oitocentos e setenta e oito, o governo assumiu a Estrada de Ferro de Baturité e pôs os retirantes para trabalhar nela, como obra de socorro.\nOs trilhos chegaram a Baturité em mil oitocentos e oitenta e dois.\nE a Quixadá, no coração do sertão, em mil oitocentos e noventa e um.",
+  "fala_tts": "Primeiro, os trilhos.\nEm mil oitocentos e setenta e oito, o governo assumiu a Estrada de Ferro de Baturité e pôs os retirantes para trabalhar nela, como obra de socorro.\nOs trilhos chegaram a Baturité em mil oitocentos e oitenta e dois.\nE a Quixadá, no coração do sertão, em mil oitocentos e noventa e um.",
+  "tela": "Primeiro, os trilhos. | Em 1878, o governo assumiu a Estrada de Ferro de Baturité | e pôs os retirantes para trabalhar nela, como obra de socorro. | Os trilhos chegaram a Baturité em 1882. | E a Quixadá, no coração do sertão, em 1891.",
+  "fonte": "C5c, D5"
+ },
+ {
+  "id": "b29",
+  "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+  "marcha": 2,
+  "fala": "No norte da província, a mesma coisa.\nA ferrovia que saía do porto de Camocim chegou a Sobral no último dia de mil oitocentos e oitenta e dois.",
+  "fala_tts": "No norte da província, a mesma coisa.\nA ferrovia que saía do porto de Camocim chegou a Sobral no último dia de mil oitocentos e oitenta e dois.",
+  "tela": "No norte da província, a mesma coisa. | A ferrovia que saía do porto de Camocim | chegou a Sobral no último dia de 1882.",
+  "fonte": "D5"
+ },
+ {
+  "id": "b30",
+  "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+  "marcha": 2,
+  "fala": "Depois, a água.\nA seca convenceu o governo a represar o sertão.\nEm Quixadá, começou em mil oitocentos e oitenta e quatro a obra do Açude do Cedro, ao pé de uma pedra famosa, a Galinha Choca.\nFoi o primeiro grande açude público do país.\nLevou vinte e dois anos e só ficou pronto em mil novecentos e seis, já na República.",
+  "fala_tts": "Depois, a água.\nA seca convenceu o governo a represar o sertão.\nEm Quixadá, começou em mil oitocentos e oitenta e quatro a obra do Açude do Cedro, ao pé de uma pedra famosa, a Galinha Choca.\nFoi o primeiro grande açude público do país.\nLevou vinte e dois anos e só ficou pronto em mil novecentos e seis, já na República.",
+  "tela": "Depois, a água. | A seca convenceu o governo a represar o sertão. | Em Quixadá, começou em 1884 a obra do Açude do Cedro, | ao pé de uma pedra famosa, a Galinha Choca. | Foi o primeiro grande açude público do país. | Levou 22 anos e só ficou pronto em 1906, já na República.",
+  "fonte": "C5d"
+ },
+ {
+  "id": "b31",
+  "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+  "marcha": 2,
+  "fala": "E aqui entra uma lenda.\nDiz a tradição que Dom Pedro Segundo prometeu vender até a última joia da Coroa para que nenhum cearense morresse de fome.\nNão há documento que prove essa frase.\nE as joias não foram vendidas.",
+  "fala_tts": "[curious] E aqui entra uma lenda.\nDiz a tradição que Dom Pedro Segundo prometeu vender até a última joia da Coroa para que nenhum cearense morresse de fome.\nNão há documento que prove essa frase.\nE as joias não foram vendidas.",
+  "tela": "E aqui entra uma lenda. | Diz a tradição que Dom Pedro II prometeu vender até a última joia da Coroa | para que nenhum cearense morresse de fome. | Não há documento que prove essa frase. | E as joias não foram vendidas.",
+  "fonte": "C5b"
+ },
+ {
+  "id": "b32",
+  "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+  "marcha": 2,
+  "fala": "Mas a mudança maior foi de gente.\nCom passagem paga pelo governo, milhares de cearenses embarcaram para a Amazônia, onde a borracha começava a valer muito dinheiro.\nSó para o Amazonas, foram quase cinco mil em pouco mais de um ano.",
+  "fala_tts": "Mas a mudança maior foi de gente.\nCom passagem paga pelo governo, milhares de cearenses embarcaram para a Amazônia, onde a borracha começava a valer muito dinheiro.\nSó para o Amazonas, foram quase cinco mil em pouco mais de um ano.",
+  "tela": "Mas a mudança maior foi de gente. | Com passagem paga pelo governo, milhares de cearenses embarcaram para a Amazônia, | onde a borracha começava a valer muito dinheiro. | Só para o Amazonas, foram quase 5 mil em pouco mais de um ano.",
+  "fonte": "C5, C6"
+ },
+ {
+  "id": "b33",
+  "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+  "marcha": 2,
+  "fala": "Foi o começo de uma onda que não parou mais.\nNas décadas seguintes, seringueiros nordestinos subiram os rios até um território que era da Bolívia: o Acre.\nE, em mil novecentos e três, depois de uma revolta desses seringueiros, o Brasil ficou com o Acre, pelo Tratado de Petrópolis.",
+  "fala_tts": "Foi o começo de uma onda que não parou mais.\nNas décadas seguintes, seringueiros nordestinos subiram os rios até um território que era da Bolívia: o Acre.\nE, em mil novecentos e três, depois de uma revolta desses seringueiros, o Brasil ficou com o Acre, pelo Tratado de Petrópolis.",
+  "tela": "Foi o começo de uma onda que não parou mais. | Nas décadas seguintes, seringueiros nordestinos subiram os rios | até um território que era da Bolívia: o Acre. | E, em 1903, depois de uma revolta desses seringueiros, | o Brasil ficou com o Acre, pelo Tratado de Petrópolis.",
+  "fonte": "C6b, C6c"
+ },
+ {
+  "id": "b34",
+  "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+  "marcha": 2,
+  "fala": "Ou seja, a seca de mil oitocentos e setenta e sete ajudou a desenhar a fronteira oeste do Brasil.\nNão sozinha.\nMas os historiadores apontam essa seca como o começo desse caminho.",
+  "fala_tts": "Ou seja, a seca de mil oitocentos e setenta e sete ajudou a desenhar a fronteira oeste do Brasil.\nNão sozinha.\nMas os historiadores apontam essa seca como o começo desse caminho.",
+  "tela": "Ou seja, a seca de 1877 ajudou a desenhar a fronteira oeste do Brasil. | Não sozinha. | Mas os historiadores apontam essa seca como o começo desse caminho.",
+  "fonte": "C6b"
+ },
+ {
+  "id": "b35",
+  "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+  "marcha": 2,
+  "fala": "E tem uma coisa que demorou muito a mudar.\nNas secas de mil novecentos e quinze e de mil novecentos e trinta e dois, o governo do Ceará cercou retirantes em campos, para que não chegassem a Fortaleza.\nO povo chamava de currais do governo.\nEm trinta e dois, foram sete campos, com mais de setenta mil pessoas.",
+  "fala_tts": "[serious] E tem uma coisa que demorou muito a mudar.\nNas secas de mil novecentos e quinze e de mil novecentos e trinta e dois, o governo do Ceará cercou retirantes em campos, para que não chegassem a Fortaleza.\nO povo chamava de currais do governo.\nEm trinta e dois, foram sete campos, com mais de setenta mil pessoas.",
+  "tela": "E tem uma coisa que demorou muito a mudar. | Nas secas de 1915 e de 1932, o governo do Ceará cercou retirantes em campos, | para que não chegassem a Fortaleza. | O povo chamava de currais do governo. | Em 32, foram 7 campos, com mais de 70 mil pessoas.",
+  "fonte": "C10, C10b"
+ },
+ {
+  "id": "b36",
+  "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+  "marcha": 2,
+  "fala": "Só em mil novecentos e nove o país criou um órgão permanente contra as secas.\nA inspetoria que, mais tarde, virou o Dnócs.",
+  "fala_tts": "Só em mil novecentos e nove o país criou um órgão permanente contra as secas.\nA inspetoria que, mais tarde, virou o Dnócs.",
+  "tela": "Só em 1909 o país criou um órgão permanente contra as secas. | A inspetoria que, mais tarde, virou o DNOCS.",
+  "fonte": "C10c"
+ },
+ {
+  "id": "b37",
+  "cap": "PERGUNTA 3/4 · O QUE MUDOU NO MAPA",
+  "marcha": 2,
+  "fala": "E por que quase ninguém fala da seca de mil oitocentos e setenta e sete?\nParte da resposta está aqui.\nOs mortos eram pobres, do sertão, longe da capital.\nNinguém contou os corpos direito.\nA investigação foi barrada.\nE as secas seguintes repetiram a história, até o país se acostumar com ela.",
+  "fala_tts": "[curious] E por que quase ninguém fala da seca de mil oitocentos e setenta e sete?\nParte da resposta está aqui.\nOs mortos eram pobres, do sertão, longe da capital.\nNinguém contou os corpos direito.\nA investigação foi barrada.\nE as secas seguintes repetiram a história, até o país se acostumar com ela.",
+  "tela": "E por que quase ninguém fala da seca de 1877? | Parte da resposta está aqui. | Os mortos eram pobres, do sertão, longe da capital. | Ninguém contou os corpos direito. | A investigação foi barrada. | E as secas seguintes repetiram a história, | até o país se acostumar com ela.",
+  "fonte": "C2, C5"
+ },
+ {
+  "id": "b38",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "E a última pergunta.\nCom o El Niño de dois mil e vinte e seis, aquilo pode se repetir?",
+  "fala_tts": "[curious] E a última pergunta.\nCom o El Niño de dois mil e vinte e seis, aquilo pode se repetir?",
+  "tela": "E a última pergunta. | Com o El Niño de 2026, aquilo pode se repetir?",
+  "fonte": ""
+ },
+ {
+  "id": "b39",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "O El Niño deste ano já é muito forte.\nPela mesma reconstrução da temperatura do mar, ele já está no nível do de mil oitocentos e setenta e sete, ou acima.\nE a previsão oficial para novembro, dezembro e janeiro é de chuva abaixo da média em áreas do Nordeste, principalmente no norte da região.",
+  "fala_tts": "O El Niño deste ano já é muito forte.\nPela mesma reconstrução da temperatura do mar, ele já está no nível do de mil oitocentos e setenta e sete, ou acima.\nE a previsão oficial para novembro, dezembro e janeiro é de chuva abaixo da média em áreas do Nordeste, principalmente no norte da região.",
+  "tela": "O El Niño deste ano já é muito forte. | Pela mesma reconstrução da temperatura do mar, | ele já está no nível do de 1877, ou acima. | E a previsão oficial para novembro, dezembro e janeiro | é de chuva abaixo da média em áreas do Nordeste, | principalmente no norte da região.",
+  "fonte": "C11, D2"
+ },
+ {
+  "id": "b40",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "Mas, para o sertão do Ceará, o que decide é o inverno de fevereiro a maio de dois mil e vinte e sete.\nE aí o Atlântico também pesa.\nA Funceme, o órgão de meteorologia do Ceará, diz que ainda é cedo para prever.",
+  "fala_tts": "Mas, para o sertão do Ceará, o que decide é o inverno de fevereiro a maio de dois mil e vinte e sete.\nE aí o Atlântico também pesa.\nA Funceme, o órgão de meteorologia do Ceará, diz que ainda é cedo para prever.",
+  "tela": "Mas, para o sertão do Ceará, o que decide | é o inverno de fevereiro a maio de 2027. | E aí o Atlântico também pesa. | A Funceme, o órgão de meteorologia do Ceará, | diz que ainda é cedo para prever.",
+  "fonte": "C11, D7"
+ },
+ {
+  "id": "b41",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "E o Nordeste já está seco agora.\nEm setembro, segundo o Monitor de Secas, havia seca em noventa e seis por cento do território da região.",
+  "fala_tts": "E o Nordeste já está seco agora.\nEm setembro, segundo o Monitor de Secas, havia seca em noventa e seis por cento do território da região.",
+  "tela": "E o Nordeste já está seco agora. | Em setembro, segundo o Monitor de Secas, | havia seca em 96% do território da região.",
+  "fonte": "D7"
+ },
+ {
+  "id": "b42",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "Então, pode faltar chuva de novo?\nPode.\nMas o sertão de dois mil e vinte e seis não é o de mil oitocentos e setenta e sete.\nHoje há mais de um milhão e duzentas mil cisternas guardando a água da chuva ao lado das casas.\nAçudes como o Castanhão.\nE a água do rio São Francisco chegando ao Ceará pela transposição, desde dois mil e vinte.",
+  "fala_tts": "Então, pode faltar chuva de novo?\nPode.\nMas o sertão de dois mil e vinte e seis não é o de mil oitocentos e setenta e sete.\nHoje há mais de um milhão e duzentas mil cisternas guardando a água da chuva ao lado das casas.\nAçudes como o Castanhão.\nE a água do rio São Francisco chegando ao Ceará pela transposição, desde dois mil e vinte.",
+  "tela": "Então, pode faltar chuva de novo? | Pode. | Mas o sertão de 2026 não é o de 1877. | Hoje há mais de 1,2 milhão de cisternas | guardando a água da chuva ao lado das casas. | Açudes como o Castanhão. | E a água do rio São Francisco chegando ao Ceará | pela transposição, desde 2020.",
+  "fonte": "C11b, C11c"
+ },
+ {
+  "id": "b43",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "E, principalmente, a seca deixou de matar de fome em massa.\nDe dois mil e doze a dois mil e dezessete, o semiárido viveu uma das piores secas em décadas.\nCentenas de cidades em emergência, carro-pipa, perda de safra e de gado.\nMas sem as mortes em massa de mil oitocentos e setenta e sete.",
+  "fala_tts": "E, principalmente, a seca deixou de matar de fome em massa.\nDe dois mil e doze a dois mil e dezessete, o semiárido viveu uma das piores secas em décadas.\nCentenas de cidades em emergência, carro-pipa, perda de safra e de gado.\nMas sem as mortes em massa de mil oitocentos e setenta e sete.",
+  "tela": "E, principalmente, a seca deixou de matar de fome em massa. | De 2012 a 2017, o semiárido viveu uma das piores secas em décadas. | Centenas de cidades em emergência, carro-pipa, | perda de safra e de gado. | Mas sem as mortes em massa de 1877.",
+  "fonte": "C11"
+ },
+ {
+  "id": "b44",
+  "cap": "PERGUNTA 4/4 · E EM 2026?",
+  "marcha": 2,
+  "fala": "O risco de hoje é outro.\nÁgua racionada, colheita perdida, gado vendido às pressas e calor.\nE ele pesa mais para quem vive longe da rede de água.",
+  "fala_tts": "O risco de hoje é outro.\nÁgua racionada, colheita perdida, gado vendido às pressas e calor.\nE ele pesa mais para quem vive longe da rede de água.",
+  "tela": "O risco de hoje é outro. | Água racionada, colheita perdida, | gado vendido às pressas e calor. | E ele pesa mais para quem vive longe da rede de água.",
+  "fonte": "Hipótese de fecho (sem número)"
+ },
+ {
+  "id": "b45",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Então, voltando a Fortaleza, mil oitocentos e setenta e oito.\nUma cidade de vinte e cinco mil pessoas, que recebeu mais de cem mil.\nNão foi só a falta de chuva.\nFoi um dos El Niños mais fortes da história, um Atlântico que segurou as nuvens longe do Ceará e um país que demorou a agir.",
+  "fala_tts": "[serious] Então, voltando a Fortaleza, mil oitocentos e setenta e oito.\nUma cidade de vinte e cinco mil pessoas, que recebeu mais de cem mil.\nNão foi só a falta de chuva.\nFoi um dos El Niños mais fortes da história, um Atlântico que segurou as nuvens longe do Ceará e um país que demorou a agir.",
+  "tela": "Então, voltando a Fortaleza, 1878. | Uma cidade de 25 mil pessoas, que recebeu mais de 100 mil. | Não foi só a falta de chuva. | Foi um dos El Niños mais fortes da história, | um Atlântico que segurou as nuvens longe do Ceará | e um país que demorou a agir.",
+  "fonte": ""
+ },
+ {
+  "id": "b46",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Aquela seca levou trilhos para o sertão, fez nascer o primeiro grande açude e empurrou nordestinos até o Acre.\nO El Niño de dois mil e vinte e seis pode trazer outra seca.\nMas o que transforma seca em tragédia não é só o clima.\nÉ o que se faz antes dela.",
+  "fala_tts": "Aquela seca levou trilhos para o sertão, fez nascer o primeiro grande açude e empurrou nordestinos até o Acre.\nO El Niño de dois mil e vinte e seis pode trazer outra seca.\n[serious] Mas o que transforma seca em tragédia não é só o clima.\nÉ o que se faz antes dela.",
+  "tela": "Aquela seca levou trilhos para o sertão, | fez nascer o primeiro grande açude | e empurrou nordestinos até o Acre. | O El Niño de 2026 pode trazer outra seca. | Mas o que transforma seca em tragédia não é só o clima. | É o que se faz antes dela.",
+  "fonte": ""
+ },
+ {
+  "id": "b47",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Se você tem família no sertão, manda este vídeo para ela.\nE se inscreve: no próximo, o furacão que não devia existir no Brasil.",
+  "fala_tts": "Se você tem família no sertão, manda este vídeo para ela.\nE se inscreve: no próximo, o furacão que não devia existir no Brasil.",
+  "tela": "Se você tem família no sertão, manda este vídeo para ela. | E se inscreve: no próximo, o furacão que não devia existir no Brasil.",
+  "fonte": ""
+ }
+]
