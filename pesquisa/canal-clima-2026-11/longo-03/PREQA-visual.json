@@ -1,0 +1,1799 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/pesquisa/canal-clima-2026-11/longo-03/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.3352,
+ "contagem": {
+  "bloqueante": 18,
+  "alto": 27,
+  "medio": 44,
+  "baixo": 24
+ },
+ "bloqueante": true,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "No rodapé, a linha de fontes ('FONTES: THEOPHILO · CENSO DE 1872…') fica colada sobre o terreno e quase ilegível. A linha de créditos do mapa ('MAPA: NASA BLUE MARBLE…') está logo abaixo, também pouco legível. O rótulo 'FORTALEZA · 1878' no topo esquerdo tem contraste fraco sobre o mar escuro.",
+   "t": 0.0,
+   "arquivo": "0.png"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Faixa uniforme escura no topo (~5%), cor RGB(17,26,38), mesma cor do mar. Provavelmente só o oceano liso do mapa 3D, mas confirmar que não é emenda ou borda do terreno.",
+   "t": 0.0,
+   "arquivo": "0.png"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Textura do terreno borrada/pixelada na parte inferior direita e no centro-inferior, perto dos rios, com baixa resolução do satélite.",
+   "t": 0.0,
+   "arquivo": "0.png"
+  },
+  {
+   "quadro": "Q02",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A legenda 'Uma cidade de uns 25' fica logo abaixo da moldura da planta, quase encostada na borda inferior. A faixa de fontes no rodapé também fica colada à legenda, deixando o rodapé apertado.",
+   "t": 3.7333333333333334,
+   "arquivo": "112.png"
+  },
+  {
+   "quadro": "Q04",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A foto 'THEOPHILO VACINA · 1907' é de 1907, mas o quadro está no contexto de Fortalezas 1878 (selo 'FORTALEZA · 1878' no canto). É anacronismo de contexto, embora a legenda da imagem declare a data. Dúvida: pode ser intencional como ilustração de apoio.",
+   "t": 11.533333333333333,
+   "arquivo": "346.png"
+  },
+  {
+   "quadro": "Q05",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Sinal automático de faixa bege no topo (RGB 199,176,130). O fundo parece um papel bege liso intencional, sem emenda visível, então só vale conferir. Há listras horizontais finas de textura de papel em todo o quadro.",
+   "t": 19.266666666666666,
+   "arquivo": "578.png"
+  },
+  {
+   "quadro": "Q05",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Linha de créditos 'MAPA: NASA BLUE MARBLE · RELEVO…' no rodapé direito está quase ilegível sobre o fundo bege, e cita um mapa que não aparece nesta cena.",
+   "t": 19.266666666666666,
+   "arquivo": "578.png"
+  },
+  {
+   "quadro": "Q06",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A legenda 'E num único dia,' fica colada embaixo do rótulo 'MORTOS DE VARÍOLA EM 1 DIA', quase encostando, e a caixa da legenda ainda está em animação. Apertado, mas legível.",
+   "t": 20.0,
+   "arquivo": "600.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O contador animado mostra 876 aos 0:20, depois de mostrar 655 no quadro anterior no mesmo segundo. O valor final deveria ser 1.004 ou similar (o texto da narração fala '10 de…'); a contagem passa por valores intermediários, confirmar se o número final chega ao correto. Também há risco de o contador estar errado em relação ao rótulo 'MORTOS DE VARÍOLA EM 1 DIA'.",
+   "t": 20.3,
+   "arquivo": "609.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "Duas legendas/textos de digitação simultâneos: a faixa grande '5% D▌' (cartão branco inclinado) e a legenda menor 'Pelas contas▌' logo abaixo, mais o rótulo 'PELAS CONTAS MAIS ALTAS'. Três camadas de texto repetido disputando a atenção no terço inferior, com duplicação de conteúdo.",
+   "t": 30.0,
+   "arquivo": "900.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A faixa uniforme na borda esquerda (RGB 27,33,41) parece ser só o oceano escuro do mapa; mas o rótulo 'O IMPÉRIO · 1877' flutua sobre o mapa sem fundo, com legibilidade baixa sobre o relevo claro.",
+   "t": 30.0,
+   "arquivo": "900.png"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A caixa de texto grande (barra branca com 'E' e cursor) está quase vazia e sobrepõe o mapa e a faixa 'QUASE NINGUÉM FALA DELA'. Provavelmente é animação de digitação, mas a legenda 'Mesmo as' aparece ao mesmo tempo, o que cria duplicidade confusa de texto na tela.",
+   "t": 36.8,
+   "arquivo": "1104.png"
+  },
+  {
+   "quadro": "Q13",
+   "categoria": "fundo/faixa",
+   "severidade": "alto",
+   "descricao": "O quadro inteiro é um fundo bege/branco liso, sem mapa nem conteúdo, apesar do rótulo 'PERGUNTA 1/4'. Só há legenda e rodapé. Pode ser uma transição entre cenas, mas parece um mapa que não carregou ou uma cena vazia. Há também uma faixa clara na borda direita.",
+   "t": 66.16666666666667,
+   "arquivo": "1985.png"
+  },
+  {
+   "quadro": "Q13",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O crédito do canto inferior direito ('MAPA: NASA BLUE MARBLE · RELEVO...') tem baixo contraste sobre o fundo claro e fica quase ilegível.",
+   "t": 66.16666666666667,
+   "arquivo": "1985.png"
+  },
+  {
+   "quadro": "Q16",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "A foto 'SANTA QUITÉRIA (CE) · AÇUDE SECO · 2018' ocupa quase todo o quadro e cobre o mapa. A faixa vermelha da legenda da foto fica colada na borda inferior. Dúvida entre estilo e defeito: a foto parece real, mas a vegetação verde destoa de um 'açude seco'.",
+   "t": 77.46666666666667,
+   "arquivo": "2324.png"
+  },
+  {
+   "quadro": "Q16",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O mapa de fundo está muito escuro, quase preto, com os detalhes do terreno sumidos. Pode ser vinheta intencional, mas a leitura do mapa fica fraca.",
+   "t": 77.46666666666667,
+   "arquivo": "2324.png"
+  },
+  {
+   "quadro": "Q17",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "Listras verticais regulares cobrem quase todo o quadro, a partir de x≈130 até a borda direita, sobre o mapa desfocado. Parece artefato de render ou z-fighting, não transição intencional.",
+   "t": 79.56666666666666,
+   "arquivo": "2387.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "O rótulo do eixo X '1850' está cortado na borda esquerda do cartão e aparece como '850'.",
+   "t": 80.0,
+   "arquivo": "2400.png"
+  },
+  {
+   "quadro": "Q19",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O rótulo 'MÉDIA 1.450 MM' fica sobreposto às barras do gráfico, o que dificulta a leitura. Além disso, o '1850' do eixo está cortado na borda esquerda ('850').",
+   "t": 90.0,
+   "arquivo": "2700.png"
+  },
+  {
+   "quadro": "Q20",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "Listras verticais claras sobre todo o fundo do mapa, atrás e ao redor do cartão do gráfico.",
+   "t": 100.0,
+   "arquivo": "3000.png"
+  },
+  {
+   "quadro": "Q20",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "O rótulo vermelho '1877 · 468 MM' fica por cima das barras do gráfico e é cortado pela barra vertical vermelha. O '468' fica ilegível e o texto está distorcido/espremido.",
+   "t": 100.0,
+   "arquivo": "3000.png"
+  },
+  {
+   "quadro": "Q21",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "Listras verticais fortes sobre todo o fundo do mapa (x≈130 em diante). A cena está em transição, mas o padrão de listras é artefato.",
+   "t": 100.9,
+   "arquivo": "3027.png"
+  },
+  {
+   "quadro": "Q24",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A legenda diz 'Em 1872,' mas a placa do mapa diz 'REBOUÇAS · 1877'. Pode haver incoerência de datas; vale conferir. Há também texto histórico da imagem do mapa, que é documento real e talvez aceitável.",
+   "t": 112.3,
+   "arquivo": "3369.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "legenda",
+   "severidade": "medio",
+   "descricao": "A legenda mostra só 'Forta' (palavra cortada). Provavelmente é animação de digitação, então não é defeito. Mas há um pequeno traço vermelho solto no meio do mapa (~x 217, y 348) que parece um elemento perdido.",
+   "t": 133.6,
+   "arquivo": "4008.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O mapa está muito desfocado no zoom, e a faixa superior tem cor uniforme (29,39,56). O desfoque pode ser intencional (movimento de câmera). Registro só como dúvida.",
+   "t": 133.6,
+   "arquivo": "4008.png"
+  },
+  {
+   "quadro": "Q30",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O mapa histórico (1878) no cartão tem texto em letra pequena e antiga (PARAHYBA, PERNAMBUCO, ALAGOAS etc.). É um mapa de arquivo e pode ser intencional, mas se tiver sido gerado por IA há risco de rótulos falsos. Confirmar a origem. O 'PERNAMBUCO' fica parcialmente coberto pelo relevo.",
+   "t": 149.5,
+   "arquivo": "4485.png"
+  },
+  {
+   "quadro": "Q30",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "No canto direito, na altura de y≈145, uma seta/tubo de rota sai por trás do cartão e é cortado pela borda do cartão. Fica estranho, mas é provavelmente intencional.",
+   "t": 149.5,
+   "arquivo": "4485.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "outro",
+   "severidade": "alto",
+   "descricao": "O quadro inteiro é um fundo de pergaminho bege vazio, sem conteúdo. Só há um texto minúsculo e ilegível no centro (~y 335), a legenda 'E a' e os selos de fonte. Parece uma cena que não carregou (placeholder) ou uma imagem faltando. Se for transição de cena, confirmar.",
+   "t": 156.36666666666667,
+   "arquivo": "4691.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O texto minúsculo e ilegível no centro do pergaminho (~x 480, y 335) parece um título que não renderizou direito ou escrita falsa. Não dá para ler.",
+   "t": 156.36666666666667,
+   "arquivo": "4691.png"
+  },
+  {
+   "quadro": "Q33",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Fundo bege de papel com listras horizontais finas visíveis em todo o quadro; o sinal automático acusa faixa uniforme de 3% no topo (RGB 199,176,130). Pode ser textura de papel intencional, mas conferir se não é faixa/z-fighting.",
+   "t": 157.4,
+   "arquivo": "4722.png"
+  },
+  {
+   "quadro": "Q33",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "A linha de créditos 'MAPA: NASA BLUE MARBLE...' no canto inferior direito fica colada e parcialmente sobreposta à caixa 'FONTES: GHCN V2...'. Além disso, os créditos citam mapa e relevo num quadro sem mapa.",
+   "t": 157.4,
+   "arquivo": "4722.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Mesmo fundo bege com listras horizontais; sinal de faixa no topo. Conferir se é textura intencional.",
+   "t": 160.0,
+   "arquivo": "4800.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O título 'FORTALEZA · 1878 · MORTES POR MÊS' fica sozinho no meio do quadro, sem gráfico nem dado, e deixa uma tela quase vazia. Parece elemento ainda não carregado.",
+   "t": 160.0,
+   "arquivo": "4800.png"
+  },
+  {
+   "quadro": "Q35",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Fundo com listras horizontais e sinal de faixa no topo (RGB 199,176,130).",
+   "t": 164.03333333333333,
+   "arquivo": "4921.png"
+  },
+  {
+   "quadro": "Q35",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Título no meio do quadro sem gráfico ou dado visível; o quadro fica vazio.",
+   "t": 164.03333333333333,
+   "arquivo": "4921.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Toda a área à direita da foto está vazia, com a composição desequilibrada. Parece que falta o gráfico de mortes por mês.",
+   "t": 164.56666666666666,
+   "arquivo": "4937.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "legenda",
+   "severidade": "baixo",
+   "descricao": "A legenda da foto polaroide ('CEARÁ · VÍTIMA DA GRANDE SECA · 1877') está quase ilegível, com contraste muito baixo sobre o papel claro.",
+   "t": 164.56666666666666,
+   "arquivo": "4937.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O contador mostra 980 enquanto a legenda ainda diz 'No dia 10 de dezembro,'. Pode ser animação em curso, mas o valor é anterior ao dado final.",
+   "t": 173.9,
+   "arquivo": "5217.png"
+  },
+  {
+   "quadro": "Q41",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "A caixa mostra \"1880\" enquanto a legenda ainda diz \"A chuva só voltou de verdade em\" (digitação em andamento), e o termômetro de mortos já está preenchido de 150 a 500 mil. Pode ser animação, mas o valor já aparece antes da narração chegar nele.",
+   "t": 200.0,
+   "arquivo": "6000.png"
+  },
+  {
+   "quadro": "Q41",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A linha de crédito inferior (\"RELEVO: NOAA ETOPO 2022 · COR: NASA BLUE MARBLE…\") está encostada no canto e sobreposta à faixa \"FONTES: GHCN V2…\", com texto minúsculo e pouco legível.",
+   "t": 200.0,
+   "arquivo": "6000.png"
+  },
+  {
+   "quadro": "Q42",
+   "categoria": "elemento_fora",
+   "severidade": "alto",
+   "descricao": "O círculo vermelho no centro não destaca nada (o mapa/fundo atrás sumiu), e a legenda \"No Rio\" fica colada na borda inferior do círculo.",
+   "t": 202.5,
+   "arquivo": "6075.png"
+  },
+  {
+   "quadro": "Q42",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Fundo de papel bege com linhas horizontais; o sinal automático acusa faixa uniforme no topo (RGB 199,176,130). Provavelmente é a textura intencional de pergaminho, mas fica a dúvida. O mapa sumiu, com um círculo vermelho vazio no centro.",
+   "t": 202.5,
+   "arquivo": "6075.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "elemento_fora",
+   "severidade": "alto",
+   "descricao": "Quadro quase vazio: só fundo bege com linhas e a legenda \"No Rio de Janeiro, a capital\". Falta o conteúdo visual (mapa ou imagem), parece cena que não carregou.",
+   "t": 203.53333333333333,
+   "arquivo": "6106.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O título \"RIO DE JANEIRO · 1878 · O BESOURO\" está no meio do quadro sobre fundo bege vazio, sem imagem, em vez de no topo como em Q45. Sensação de cena vazia.",
+   "t": 207.93333333333334,
+   "arquivo": "6238.png"
+  },
+  {
+   "quadro": "Q45",
+   "categoria": "texto_inventado",
+   "severidade": "alto",
+   "descricao": "A foto da esquerda (Ceará · retirante) tem moldura preta e dourada irregular e texto ilegível invertido/inventado nas laterais da imagem de IA. A legenda da polaroide está quase invisível, em bege claro sobre branco.",
+   "t": 208.46666666666667,
+   "arquivo": "6254.png"
+  },
+  {
+   "quadro": "Q45",
+   "categoria": "legenda",
+   "severidade": "baixo",
+   "descricao": "As legendas das polaroides (\"CEARÁ · RETIRANTE · 1878\") têm contraste muito baixo e são praticamente ilegíveis.",
+   "t": 208.46666666666667,
+   "arquivo": "6254.png"
+  },
+  {
+   "quadro": "Q46",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Alterna com Q45: o título está no centro e as fotos sumiram, o que dá a impressão de piscada/falha de composição entre dois layouts. Fundo bege vazio.",
+   "t": 208.53333333333333,
+   "arquivo": "6256.png"
+  },
+  {
+   "quadro": "Q47",
+   "categoria": "texto_inventado",
+   "severidade": "alto",
+   "descricao": "A foto da esquerda mantém moldura preta/dourada e texto falso e ilegível escrito pela IA nas laterais da imagem.",
+   "t": 209.06666666666666,
+   "arquivo": "6272.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O título no centro com fundo bege vazio, sem imagem, repete a alternância de layouts. A legenda está em digitação (aceitável).",
+   "t": 210.0,
+   "arquivo": "6300.png"
+  },
+  {
+   "quadro": "Q49",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Fundo bege com listras horizontais finas e manchas ovais. A faixa de topo RGB(207,190,158) sinalizada é só o fundo de papel, provavelmente estilo intencional. Pergunta 1/4 combina com 'O QUE ACONTECEU'.",
+   "t": 220.0,
+   "arquivo": "6600.png"
+  },
+  {
+   "quadro": "Q49",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O carimbo rosa 'PRIMEIRO FOTOJORNALISMO DO BRASIL?' sobrepõe a palavra 'BESOURO' da linha 'RIO DE JANEIRO · 1878 · O BESOURO', cortando a leitura. A legenda mostra 'Br' em animação de digitação (não é defeito).",
+   "t": 220.0,
+   "arquivo": "6600.png"
+  },
+  {
+   "quadro": "Q50",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Quadro quase todo branco/cinza claro, vazio, só com legenda e rodapé. Pode ser uma transição ou cena de papel intencional; as faixas de borda são sutis.",
+   "t": 221.4,
+   "arquivo": "6642.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "Atrás do globo 3D há uma faixa chapada azul-marinho no topo (cerca de 30% da altura) com corte reto contra o fundo cinza-escuro, formando uma emenda horizontal visível atrás do globo.",
+   "t": 222.36666666666667,
+   "arquivo": "6671.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "elemento_fora",
+   "severidade": "alto",
+   "descricao": "O mapa de anomalia de temperatura do Pacífico aparece como uma placa 3D recortada, com bordas serrilhadas à esquerda e blocos de relevo saltando no canto superior direito, que cobrem a lista de perguntas. As bordas expostas e a emenda ficam visíveis sobre a base de satélite.",
+   "t": 230.0,
+   "arquivo": "6900.png"
+  },
+  {
+   "quadro": "Q53",
+   "categoria": "elemento_fora",
+   "severidade": "alto",
+   "descricao": "No canto superior direito, bloco 3D vermelho serrilhado ('caixote') saindo da borda da placa de dados, junto à costa da América do Norte. É um artefato de geometria. As bordas da placa ficam expostas no topo.",
+   "t": 240.0,
+   "arquivo": "7200.png"
+  },
+  {
+   "quadro": "Q54",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "Listras verticais claras sobre todo o quadro, da esquerda para a direita, cobrindo mapa e barras. Parece defeito de render ou z-fighting, e não transição. Também há faixa azul chapada no topo, acima de ~y=85.",
+   "t": 246.1,
+   "arquivo": "7383.png"
+  },
+  {
+   "quadro": "Q54",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Os rótulos dos valores (2,53; 2,33; 2,40; 2,71) estão borrados atrás das listras, e uma caixa branca com 'N' aparece sobre a terceira barra. Parece legenda ou placeholder truncado. Pode ser animação em andamento.",
+   "t": 246.1,
+   "arquivo": "7383.png"
+  },
+  {
+   "quadro": "Q55",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "Faixa azul chapada no topo (até ~y=75) com corte reto contra o fundo cinza-escuro atrás do mapa 3D inclinado, uma emenda de fundo visível.",
+   "t": 250.0,
+   "arquivo": "7500.png"
+  },
+  {
+   "quadro": "Q55",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Rótulo 'O NOSSO VÍDEO ANTERIOR' no canto superior esquerdo está minúsculo e quase ilegível, com a linha de cima em vermelho ilegível. Está solto e desproporcional ao resto do layout.",
+   "t": 250.0,
+   "arquivo": "7500.png"
+  },
+  {
+   "quadro": "Q56",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "Faixa azul chapada no topo (até ~y=50) com corte reto e emenda contra o fundo escuro atrás do mapa 3D.",
+   "t": 260.0,
+   "arquivo": "7800.png"
+  },
+  {
+   "quadro": "Q57",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "Listras verticais regulares cobrem quase todo o quadro, da esquerda até a direita, sobre o mapa desfocado. Parece z-fighting ou artefato de render, e o mapa fica ilegível.",
+   "t": 261.23333333333335,
+   "arquivo": "7837.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "elemento_fora",
+   "severidade": "alto",
+   "descricao": "A linha da faixa de nuvens (ZCIT) está colada no topo do quadro e passa por trás do rótulo 'PERGUNTA 2/4'. Fica deslocada em relação ao mapa e ao rótulo 'FAIXA DE NUVENS' que aparecia no Q58. Há também manchas circulares translúcidas e uma faixa cinza no topo.",
+   "t": 280.0,
+   "arquivo": "8400.png"
+  },
+  {
+   "quadro": "Q60",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "O quadro inteiro é um fundo branco/bege quase chapado, sem mapa, globo ou conteúdo. Só aparecem o rótulo e as fontes. Fora de uma transição clara, parece tela vazia com o mapa sumido. Sinal de faixa à direita (RGB 222,220,217).",
+   "t": 281.3,
+   "arquivo": "8439.png"
+  },
+  {
+   "quadro": "Q61",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "Atrás do globo há um fundo dividido em dois blocos chapados: azul royal no topo e azul quase preto embaixo, com uma linha horizontal dura em y≈145. Parece emenda de fundo, e uma sombra escura enorme aparece no canto inferior direito.",
+   "t": 290.0,
+   "arquivo": "8700.png"
+  },
+  {
+   "quadro": "Q61",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O título '9-13 MI · NORTE DA CHINA · MORTOS ESTIMADOS' fica sobre um globo centrado na África e no Oceano Índico, sem a China visível. A legenda fala da Índia (5,5 a 10 milhões). Dado e mapa não batem. O título grande também encosta no topo do quadro.",
+   "t": 290.0,
+   "arquivo": "8700.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "Mesma emenda de fundo atrás do globo: bloco azul no topo, bloco azul-escuro chapado embaixo e linha horizontal dura em y≈135. Há também sombra escura no canto inferior direito.",
+   "t": 300.0,
+   "arquivo": "9000.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "O mapa está muito desfocado e com grade de pixels/quadriculado visível, provavelmente textura de baixa resolução. Pode ser desfoque de transição intencional, mas a grade fica aparente. Sinal de faixa no topo.",
+   "t": 305.76666666666665,
+   "arquivo": "9173.png"
+  },
+  {
+   "quadro": "Q65",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O rótulo vermelho sobre o mapa diz \"O GRANDES AÇUDES\", com um \"O\" sobrando ou erro de texto no início. A pergunta 2/4 não parece ter bug de dados, mas o rótulo deve ser revisado.",
+   "t": 320.0,
+   "arquivo": "9600.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Fundo bege liso com listras horizontais finas (textura de papel) e sem mapa, por trás só da legenda \"No go\". O sinal automático de faixa no topo é só a textura/vinheta do papel, sendo provável que seja um cartão intencional. Se o papel não for estilo intencional, vale a dúvida: parece cena vazia.",
+   "t": 325.0,
+   "arquivo": "9750.png"
+  },
+  {
+   "quadro": "Q67",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Mesmo fundo bege com listras horizontais e nenhum elemento além da legenda, que está em digitação (\"a resposta fo\"). Provável cartão de papel intencional, mas a cena está vazia e vale confirmar.",
+   "t": 326.06666666666666,
+   "arquivo": "9782.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Fundo bege listrado, vazio, só com a legenda \"O chefe do governo, o senador Sinimbu, chegou a dizer:\". Confirmar se o cartão de papel liso é intencional (cena de citação) e não uma imagem que falhou ao carregar.",
+   "t": 330.0,
+   "arquivo": "9900.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Quadro bem escuro no topo (vinheta forte) e o rótulo \"PERGUNTA 3/4 · O QUE MUDOU NO MAPA\" quase invisível no canto superior esquerdo, sem caixa de fundo. Provavelmente é o fade de entrada da transição, mas a legibilidade é fraca.",
+   "t": 340.0,
+   "arquivo": "10200.png"
+  },
+  {
+   "quadro": "Q73",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "A legenda mostra 'E a Q' com espaçamento estranho entre as letras, no início da animação de digitação. Provavelmente é a animação, portanto não é defeito claro.",
+   "t": 359.8333333333333,
+   "arquivo": "10795.png"
+  },
+  {
+   "quadro": "Q75",
+   "categoria": "fundo/faixa",
+   "severidade": "alto",
+   "descricao": "Listras verticais claras sobre todo o mapa, com bordas desfocadas. Pode ser efeito de transição, mas parece z-fighting ou grade de faixas. Se não for intencional, é defeito de render. O mesmo padrão aparece em Q78.",
+   "t": 364.1333333333333,
+   "arquivo": "10924.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "fundo/faixa",
+   "severidade": "alto",
+   "descricao": "Listras verticais regulares sobre o mapa desfocado, como em Q75. Se não forem uma transição intencional, é artefato de render.",
+   "t": 372.9,
+   "arquivo": "11187.png"
+  },
+  {
+   "quadro": "Q79",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O rótulo 'AÇUDE DO CEDRO' tem um '1' cortado ou sobrando à direita da caixa, parecendo texto truncado. Além disso, o marcador vermelho está sobreposto ao disco azul e à haste, o que deixa a leitura confusa.",
+   "t": 380.0,
+   "arquivo": "11400.png"
+  },
+  {
+   "quadro": "Q80",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O rótulo 'AÇUDE DO CEDRO' no topo aparece parcialmente coberto pela foto, com o '01' cortado. Os dados do rótulo ficam parcialmente escondidos.",
+   "t": 384.7,
+   "arquivo": "11541.png"
+  },
+  {
+   "quadro": "Q81",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Atrás das fotos, o marcador vermelho 3D do mapa e a placa 'AÇUDE DO CEDRO 1884 → 1906' aparecem parcialmente cobertos pelas fotos. Um '91' vaza ao lado da placa, no topo, e o marcador vermelho aparece cortado entre as duas fotos.",
+   "t": 386.1333333333333,
+   "arquivo": "11584.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "O número grande '22 ANOS' está por cima da placa 'AÇUDE DO CEDRO' no topo. Resta apenas o fragmento '91' ao lado, e o texto da placa fica ilegível, encavalado com o título.",
+   "t": 390.0,
+   "arquivo": "11700.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O marcador vermelho 3D está cortado pela borda superior. O diorama circular (disco azul) tem aspecto de placeholder, com um fio ou rio sobre ele, e a hastes pretas parecem soltas.",
+   "t": 390.0,
+   "arquivo": "11700.png"
+  },
+  {
+   "quadro": "Q83",
+   "categoria": "fundo/faixa",
+   "severidade": "alto",
+   "descricao": "Fundo bege de pergaminho com listras horizontais finas (linhas de varredura) em todo o quadro, e uma faixa mais escura no topo (RGB 199,176,130). O quadro está praticamente vazio.",
+   "t": 393.6333333333333,
+   "arquivo": "11809.png"
+  },
+  {
+   "quadro": "Q83",
+   "categoria": "texto_cortado",
+   "severidade": "alto",
+   "descricao": "A legenda 'E aqu' está incompleta e há um texto minúsculo ilegível no centro do quadro (~y=335). Se não for animação de digitação, é texto quebrado.",
+   "t": 393.6333333333333,
+   "arquivo": "11809.png"
+  },
+  {
+   "quadro": "Q84",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Fundo bege com listras horizontais visíveis e faixa uniforme na borda superior, sem imagem ou mapa. O título 'FRASE ATRIBUÍDA A DOM PEDRO II' fica sobre fundo liso, e a frase em si não aparece.",
+   "t": 394.6666666666667,
+   "arquivo": "11840.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Quadro quase todo branco/creme, sem conteúdo além da legenda 'Mas a' (provavelmente em digitação). É um quadro vazio fora de transição, com faixas claras nas bordas.",
+   "t": 408.06666666666666,
+   "arquivo": "12242.png"
+  },
+  {
+   "quadro": "Q86",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O rótulo 'FORTALEZA' está no mar, bem longe da costa, e o mapa mostra o litoral do Maranhão/Pará, então a posição parece errada para o lugar real.",
+   "t": 410.0,
+   "arquivo": "12300.png"
+  },
+  {
+   "quadro": "Q87",
+   "categoria": "outro",
+   "severidade": "alto",
+   "descricao": "A foto histórica 'RIO ACRE · SERINGAL' está rotacionada 90° (de lado), então a cena fica irreconhecível. Além disso, a legenda diz c. 1910, em um contexto de 1877.",
+   "t": 418.96666666666664,
+   "arquivo": "12569.png"
+  },
+  {
+   "quadro": "Q87",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "O rótulo 'MANAUS' está cortado pela foto, e o 'FORT...' à direita também fica coberto.",
+   "t": 418.96666666666664,
+   "arquivo": "12569.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "outro",
+   "severidade": "alto",
+   "descricao": "A foto do seringal continua girada 90° (de lado). O contador '4.764' já aparece completo enquanto a legenda ainda diz 'quase 5', então valor e fala ficam descasados.",
+   "t": 420.0,
+   "arquivo": "12600.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "Os rótulos 'MANAUS' e 'FOR...' ficam pela metade, cortados pela foto, e a faixa azul 'PARA O AMAZONAS' fica perto demais da foto.",
+   "t": 420.0,
+   "arquivo": "12600.png"
+  },
+  {
+   "quadro": "Q89",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático aponta faixa uniforme de 5% no topo, cor RGB(50,45,38). No quadro, é o fundo escuro do mapa com vinheta; a foto emoldurada fica sobre ele. Provavelmente é estilo intencional, não faixa de cor errada. Vale conferir se há emenda no topo.",
+   "t": 426.23333333333335,
+   "arquivo": "12787.png"
+  },
+  {
+   "quadro": "Q92",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Os rótulos 'ACRE · BRASIL · 1903' e 'ACRE' se sobrepõem na região do Acre. A linha vermelha e a sombra cruzam o texto do rótulo, o que prejudica a leitura.",
+   "t": 450.0,
+   "arquivo": "13500.png"
+  },
+  {
+   "quadro": "Q95",
+   "categoria": "texto_encavalado",
+   "severidade": "bloqueante",
+   "descricao": "O título '7 CAMPOS · +70 MIL' no topo está cortado pela borda superior e fica atrás/encavalado com a placa 'PERGUNTA 3/4'. O rótulo 'ALAGADIÇO · 1915' está coberto pela faixa '1932 · CERCADOS PARA NÃO CHEGAR A FORTALEZA' e pelos pinos, então fica ilegível.",
+   "t": 470.0,
+   "arquivo": "14100.png"
+  },
+  {
+   "quadro": "Q96",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "Há uma caixa de legenda grande e vazia, com só um 'V' e o cursor, logo abaixo da faixa '1909 · INSPETORIA DE OBRAS CONTRA AS SECAS'. Ao mesmo tempo aparece outra legenda pequena 'Só e', fora de posição. São duas caixas de legenda simultâneas e uma está quase vazia. Se não for animação de digitação intencional, é defeito.",
+   "t": 472.3333333333333,
+   "arquivo": "14170.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "O cartão da checklist 'Por que quase ninguém fala' cobre a parte esquerda do cartão da linha do tempo (título 'ROTEIRO' e primeiros anos cortados, só '2', 1958, 1983, 2012 visíveis). Dois elementos de tela se sobrepõem e a leitura do roteiro fica prejudicada.",
+   "t": 498.8,
+   "arquivo": "14964.png"
+  },
+  {
+   "quadro": "Q99",
+   "categoria": "tela_preta",
+   "severidade": "bloqueante",
+   "descricao": "O quadro inteiro é um fundo branco/bege chapado, sem mapa nem conteúdo. Só aparecem o rótulo, a legenda e as fontes. O mapa sumiu, o que parece falha de render ou fundo vazio fora de transição. Os sinais automáticos de faixas uniformes no topo e na direita confirmam.",
+   "t": 500.0,
+   "arquivo": "15000.png"
+  },
+  {
+   "quadro": "Q100",
+   "categoria": "tela_preta",
+   "severidade": "bloqueante",
+   "descricao": "O fundo é bege/branco chapado, sem mapa nem imagem. Só aparecem o rótulo 'PERGUNTA 4/4', a legenda e as fontes. Faixas uniformes no topo e na direita. A legenda 'até o país se acostumar com ela.' ficou repetida do quadro anterior, mas o rótulo já mudou para a pergunta 4/4, então o fundo vazio persiste na troca de cena.",
+   "t": 500.3666666666667,
+   "arquivo": "15011.png"
+  },
+  {
+   "quadro": "Q101",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "Atrás do globo 3D há uma faixa azul-marinho chapada no topo (~30% do quadro) e um bloco cinza-escuro embaixo, com uma divisão horizontal dura em y≈165. O fundo tem duas cores e parece um chão/horizonte estranho. O globo flutua sobre essa emenda, e há uma sombra elíptica escura no canto inferior direito.",
+   "t": 501.3333333333333,
+   "arquivo": "15040.png"
+  },
+  {
+   "quadro": "Q102",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "A camada de anomalia de temperatura do Pacífico é um retângulo plano com bordas retas e emendas visíveis, que cobre o mapa. Há blocos 3D deformados e brancos no canto direito (costa oeste da América do Norte) e na esquerda (Austrália/Nova Guiné), com artefatos de extrusão e z-fighting. O relevo está quebrado e a faixa não se integra ao mapa.",
+   "t": 510.0,
+   "arquivo": "15300.png"
+  },
+  {
+   "quadro": "Q103",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "O mapa ocupa só a faixa superior e termina numa borda reta e inclinada. Abaixo há um bloco chapado azul-escuro vazio (mais da metade do quadro) onde estão as pirâmides 3D de dados. O mapa e a textura sumiram atrás das barras.",
+   "t": 520.0,
+   "arquivo": "15600.png"
+  },
+  {
+   "quadro": "Q103",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Os valores '2,53' e '3,06' sobre as pirâmides têm contorno escuro e baixo contraste sobre o fundo escuro, o que dificulta a leitura. As pirâmides estão cortadas pela borda inferior e não há rótulo dizendo o que cada uma representa.",
+   "t": 520.0,
+   "arquivo": "15600.png"
+  },
+  {
+   "quadro": "Q104",
+   "categoria": "fundo/faixa",
+   "severidade": "bloqueante",
+   "descricao": "Listras verticais claras regulares cobrem o quadro inteiro, da borda esquerda à direita, sobre o mapa do Nordeste. Parece defeito de render, z-fighting ou grade de textura, e não uma transição intencional.",
+   "t": 525.8666666666667,
+   "arquivo": "15776.png"
+  },
+  {
+   "quadro": "Q105",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "Os créditos 'RELEVO: NOAA ETOPO 2022…' no canto inferior direito ficam colados à linha 'FONTES: …' e têm contraste fraco sobre o mapa, o que prejudica a leitura.",
+   "t": 530.0,
+   "arquivo": "15900.png"
+  },
+  {
+   "quadro": "Q110",
+   "categoria": "moldura",
+   "severidade": "alto",
+   "descricao": "A imagem de satélite de Jati (CE) tem um bloco preto chapado no canto superior esquerdo, dentro da moldura (cunha de dados ausentes da cena). Parece borda sem imagem, não conteúdo.",
+   "t": 570.0,
+   "arquivo": "17100.png"
+  },
+  {
+   "quadro": "Q111",
+   "categoria": "elemento_fora",
+   "severidade": "alto",
+   "descricao": "O cartão da linha do tempo 'SECAS DO NORDESTE' cobre o centro do mapa e esconde os pontos vermelhos das cisternas, deixando só a parte inferior visível. O rótulo 'TRANSPOSIÇÃO · 2020' fica colado na base do cartão e parece solto.",
+   "t": 576.8333333333334,
+   "arquivo": "17305.png"
+  },
+  {
+   "quadro": "Q111",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "A linha do tempo mostra os marcos 1915, 1932 e 2012-17 sem destaque nem animação, e o espaçamento não é proporcional aos anos. Pode ser estado inicial da animação ou estilo; vale conferir.",
+   "t": 576.8333333333334,
+   "arquivo": "17305.png"
+  },
+  {
+   "quadro": "Q112",
+   "categoria": "elemento_fora",
+   "severidade": "alto",
+   "descricao": "Mesmo problema de Q111: o cartão da linha do tempo cobre os pontos do mapa, e 'TRANSPOSIÇÃO · 2020' parece solto, colado na borda do cartão.",
+   "t": 580.0,
+   "arquivo": "17400.png"
+  },
+  {
+   "quadro": "Q113",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "O cartão bege da linha do tempo 'SECAS DO NORDESTE' fica por cima da foto do carro-pipa e cobre boa parte do caminhão (cabine e rodas dianteiras). Os dois elementos competem e o enquadramento fica poluído. Pode ser composição intencional, então registro com dúvida.",
+   "t": 583.2333333333333,
+   "arquivo": "17497.png"
+  },
+  {
+   "quadro": "Q113",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Na linha do tempo, só 1877 está destacado; 1915, 1932 e 2012-17 aparecem sem marcação clara, e o título diz 'SÓ EM 1877 MORTES EM MASSA'. Pode ser animação em andamento, mas o ponto vermelho de 1877 fica deslocado do número.",
+   "t": 583.2333333333333,
+   "arquivo": "17497.png"
+  },
+  {
+   "quadro": "Q115",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O fundo é bege/branco liso, sem mapa, em um quadro de transição para 'A RESPOSTA'. O canto inferior direito escurece (RGB 216,214,210) e a faixa clara no topo é uniforme. Parece fundo intencional, mas o quadro está vazio e destoa do mapa 3D escuro dos demais.",
+   "t": 600.0,
+   "arquivo": "18000.png"
+  },
+  {
+   "quadro": "Q116",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Fundo bege liso e quase vazio, só com a legenda em digitação ('En'). O sinal automático de faixa uniforme na borda direita e no topo provavelmente vem do degradê do fundo. Dúvida entre estilo e defeito.",
+   "t": 600.2,
+   "arquivo": "18006.png"
+  },
+  {
+   "quadro": "Q118",
+   "categoria": "glifo",
+   "severidade": "baixo",
+   "descricao": "O item 4 'E EM 2026?' mostra um quadradinho vazio (☐) no lugar do check. Parece ser a caixa de seleção pendente, mas pode ser lido como tofu. Vale conferir se é intencional.",
+   "t": 610.0,
+   "arquivo": "18300.png"
+  },
+  {
+   "quadro": "Q119",
+   "categoria": "glifo",
+   "severidade": "baixo",
+   "descricao": "O item 4 mostra um quadradinho vazio à direita de 'E EM 2026?', que pode ser confundido com glifo tofu. Provavelmente é checkbox pendente intencional.",
+   "t": 620.0,
+   "arquivo": "18600.png"
+  },
+  {
+   "quadro": "Q120",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "A caixa grande 'É O' (título 'O QUE TRANSFORMA SECA EM TRAGÉDIA') cobre o rótulo 'ACRE', que fica parcialmente escondido sob a caixa. A legenda 'Ma' aparece ao mesmo tempo, em outra posição, o que gera elementos de texto duplicados.",
+   "t": 630.0,
+   "arquivo": "18900.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 0.0,
+   "nome": "0.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(17,26,38)"
+   ]
+  },
+  {
+   "id": "Q02",
+   "t": 3.7333333333333334,
+   "nome": "112.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 10.0,
+   "nome": "300.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 11.533333333333333,
+   "nome": "346.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 19.266666666666666,
+   "nome": "578.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q06",
+   "t": 20.0,
+   "nome": "600.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q07",
+   "t": 20.3,
+   "nome": "609.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q08",
+   "t": 30.0,
+   "nome": "900.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(27,33,41)"
+   ]
+  },
+  {
+   "id": "Q09",
+   "t": 36.8,
+   "nome": "1104.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(33,38,48)"
+   ]
+  },
+  {
+   "id": "Q10",
+   "t": 40.0,
+   "nome": "1200.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(34,42,49)"
+   ]
+  },
+  {
+   "id": "Q11",
+   "t": 46.266666666666666,
+   "nome": "1388.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 50.0,
+   "nome": "1500.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 66.16666666666667,
+   "nome": "1985.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(246,245,243)",
+    "faixa uniforme na borda direita: 12% do quadro, cor RGB(222,220,216)"
+   ]
+  },
+  {
+   "id": "Q14",
+   "t": 67.13333333333334,
+   "nome": "2014.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(14,21,31)"
+   ]
+  },
+  {
+   "id": "Q15",
+   "t": 70.0,
+   "nome": "2100.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(15,22,32)"
+   ]
+  },
+  {
+   "id": "Q16",
+   "t": 77.46666666666667,
+   "nome": "2324.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(14,19,28)"
+   ]
+  },
+  {
+   "id": "Q17",
+   "t": 79.56666666666666,
+   "nome": "2387.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 80.0,
+   "nome": "2400.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(25,31,40)"
+   ]
+  },
+  {
+   "id": "Q19",
+   "t": 90.0,
+   "nome": "2700.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(31,37,44)"
+   ]
+  },
+  {
+   "id": "Q20",
+   "t": 100.0,
+   "nome": "3000.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 100.9,
+   "nome": "3027.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 105.1,
+   "nome": "3153.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(13,18,27)"
+   ]
+  },
+  {
+   "id": "Q23",
+   "t": 110.0,
+   "nome": "3300.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 112.3,
+   "nome": "3369.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(22,26,34)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(46,40,35)"
+   ]
+  },
+  {
+   "id": "Q25",
+   "t": 130.0,
+   "nome": "3900.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 132.53333333333333,
+   "nome": "3976.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 133.06666666666666,
+   "nome": "3992.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 133.6,
+   "nome": "4008.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(29,39,56)"
+   ]
+  },
+  {
+   "id": "Q29",
+   "t": 140.0,
+   "nome": "4200.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 149.5,
+   "nome": "4485.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(13,19,28)"
+   ]
+  },
+  {
+   "id": "Q31",
+   "t": 150.0,
+   "nome": "4500.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(15,23,33)"
+   ]
+  },
+  {
+   "id": "Q32",
+   "t": 156.36666666666667,
+   "nome": "4691.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q33",
+   "t": 157.4,
+   "nome": "4722.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q34",
+   "t": 160.0,
+   "nome": "4800.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q35",
+   "t": 164.03333333333333,
+   "nome": "4921.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q36",
+   "t": 164.56666666666666,
+   "nome": "4937.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q37",
+   "t": 173.9,
+   "nome": "5217.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q38",
+   "t": 180.0,
+   "nome": "5400.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q39",
+   "t": 187.63333333333333,
+   "nome": "5629.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 190.0,
+   "nome": "5700.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 200.0,
+   "nome": "6000.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 202.5,
+   "nome": "6075.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q43",
+   "t": 203.53333333333333,
+   "nome": "6106.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q44",
+   "t": 207.93333333333334,
+   "nome": "6238.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q45",
+   "t": 208.46666666666667,
+   "nome": "6254.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q46",
+   "t": 208.53333333333333,
+   "nome": "6256.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q47",
+   "t": 209.06666666666666,
+   "nome": "6272.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q48",
+   "t": 210.0,
+   "nome": "6300.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q49",
+   "t": 220.0,
+   "nome": "6600.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(207,190,158)"
+   ]
+  },
+  {
+   "id": "Q50",
+   "t": 221.4,
+   "nome": "6642.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(246,245,244)",
+    "faixa uniforme na borda direita: 12% do quadro, cor RGB(222,220,216)"
+   ]
+  },
+  {
+   "id": "Q51",
+   "t": 222.36666666666667,
+   "nome": "6671.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(17,39,71)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(26,33,47)"
+   ]
+  },
+  {
+   "id": "Q52",
+   "t": 230.0,
+   "nome": "6900.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 240.0,
+   "nome": "7200.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 246.1,
+   "nome": "7383.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(21,35,56)"
+   ]
+  },
+  {
+   "id": "Q55",
+   "t": 250.0,
+   "nome": "7500.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(17,39,71)"
+   ]
+  },
+  {
+   "id": "Q56",
+   "t": 260.0,
+   "nome": "7800.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(17,39,71)"
+   ]
+  },
+  {
+   "id": "Q57",
+   "t": 261.23333333333335,
+   "nome": "7837.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 270.0,
+   "nome": "8100.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 280.0,
+   "nome": "8400.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(123,125,128)"
+   ]
+  },
+  {
+   "id": "Q60",
+   "t": 281.3,
+   "nome": "8439.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(246,245,244)",
+    "faixa uniforme na borda direita: 12% do quadro, cor RGB(222,220,217)"
+   ]
+  },
+  {
+   "id": "Q61",
+   "t": 290.0,
+   "nome": "8700.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(26,33,46)"
+   ]
+  },
+  {
+   "id": "Q62",
+   "t": 300.0,
+   "nome": "9000.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(26,32,45)"
+   ]
+  },
+  {
+   "id": "Q63",
+   "t": 305.76666666666665,
+   "nome": "9173.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(34,43,58)"
+   ]
+  },
+  {
+   "id": "Q64",
+   "t": 310.0,
+   "nome": "9300.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 320.0,
+   "nome": "9600.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 325.0,
+   "nome": "9750.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q67",
+   "t": 326.06666666666666,
+   "nome": "9782.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q68",
+   "t": 330.0,
+   "nome": "9900.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q69",
+   "t": 340.0,
+   "nome": "10200.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(15,23,33)"
+   ]
+  },
+  {
+   "id": "Q70",
+   "t": 340.7,
+   "nome": "10221.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(20,31,41)"
+   ]
+  },
+  {
+   "id": "Q71",
+   "t": 341.1,
+   "nome": "10233.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(20,31,41)"
+   ]
+  },
+  {
+   "id": "Q72",
+   "t": 350.0,
+   "nome": "10500.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(34,43,52)"
+   ]
+  },
+  {
+   "id": "Q73",
+   "t": 359.8333333333333,
+   "nome": "10795.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(23,28,36)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(50,45,39)"
+   ]
+  },
+  {
+   "id": "Q74",
+   "t": 360.0,
+   "nome": "10800.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(23,28,36)"
+   ]
+  },
+  {
+   "id": "Q75",
+   "t": 364.1333333333333,
+   "nome": "10924.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 367.1333333333333,
+   "nome": "11014.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(25,30,38)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(49,44,38)"
+   ]
+  },
+  {
+   "id": "Q77",
+   "t": 370.0,
+   "nome": "11100.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(27,32,39)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(49,44,38)"
+   ]
+  },
+  {
+   "id": "Q78",
+   "t": 372.9,
+   "nome": "11187.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 380.0,
+   "nome": "11400.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(17,27,38)"
+   ]
+  },
+  {
+   "id": "Q80",
+   "t": 384.7,
+   "nome": "11541.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(14,20,30)"
+   ]
+  },
+  {
+   "id": "Q81",
+   "t": 386.1333333333333,
+   "nome": "11584.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 390.0,
+   "nome": "11700.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 393.6333333333333,
+   "nome": "11809.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q84",
+   "t": 394.6666666666667,
+   "nome": "11840.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q85",
+   "t": 408.06666666666666,
+   "nome": "12242.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(246,245,243)",
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(222,220,215)"
+   ]
+  },
+  {
+   "id": "Q86",
+   "t": 410.0,
+   "nome": "12300.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 418.96666666666664,
+   "nome": "12569.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 420.0,
+   "nome": "12600.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 426.23333333333335,
+   "nome": "12787.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(50,45,38)"
+   ]
+  },
+  {
+   "id": "Q90",
+   "t": 430.0,
+   "nome": "12900.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 440.0,
+   "nome": "13200.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 450.0,
+   "nome": "13500.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 452.56666666666666,
+   "nome": "13577.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 460.0,
+   "nome": "13800.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 470.0,
+   "nome": "14100.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 472.3333333333333,
+   "nome": "14170.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 490.0,
+   "nome": "14700.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 498.8,
+   "nome": "14964.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 500.0,
+   "nome": "15000.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(242,241,239)",
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(212,210,206)"
+   ]
+  },
+  {
+   "id": "Q100",
+   "t": 500.3666666666667,
+   "nome": "15011.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(246,245,244)",
+    "faixa uniforme na borda direita: 12% do quadro, cor RGB(222,220,216)"
+   ]
+  },
+  {
+   "id": "Q101",
+   "t": 501.3333333333333,
+   "nome": "15040.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(17,39,71)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(28,36,51)"
+   ]
+  },
+  {
+   "id": "Q102",
+   "t": 510.0,
+   "nome": "15300.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 520.0,
+   "nome": "15600.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 525.8666666666667,
+   "nome": "15776.png",
+   "sinais": []
+  },
+  {
+   "id": "Q105",
+   "t": 530.0,
+   "nome": "15900.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(37,46,55)"
+   ]
+  },
+  {
+   "id": "Q106",
+   "t": 540.0,
+   "nome": "16200.png",
+   "sinais": []
+  },
+  {
+   "id": "Q107",
+   "t": 550.0,
+   "nome": "16500.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(19,29,41)"
+   ]
+  },
+  {
+   "id": "Q108",
+   "t": 560.0,
+   "nome": "16800.png",
+   "sinais": []
+  },
+  {
+   "id": "Q109",
+   "t": 564.5333333333333,
+   "nome": "16936.png",
+   "sinais": []
+  },
+  {
+   "id": "Q110",
+   "t": 570.0,
+   "nome": "17100.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(16,21,30)"
+   ]
+  },
+  {
+   "id": "Q111",
+   "t": 576.8333333333334,
+   "nome": "17305.png",
+   "sinais": []
+  },
+  {
+   "id": "Q112",
+   "t": 580.0,
+   "nome": "17400.png",
+   "sinais": []
+  },
+  {
+   "id": "Q113",
+   "t": 583.2333333333333,
+   "nome": "17497.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(25,30,38)"
+   ]
+  },
+  {
+   "id": "Q114",
+   "t": 590.0,
+   "nome": "17700.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(17,25,37)"
+   ]
+  },
+  {
+   "id": "Q115",
+   "t": 600.0,
+   "nome": "18000.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(244,243,241)",
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(216,214,210)"
+   ]
+  },
+  {
+   "id": "Q116",
+   "t": 600.2,
+   "nome": "18006.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(246,245,243)",
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(221,219,215)"
+   ]
+  },
+  {
+   "id": "Q117",
+   "t": 609.5333333333333,
+   "nome": "18286.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(17,23,33)"
+   ]
+  },
+  {
+   "id": "Q118",
+   "t": 610.0,
+   "nome": "18300.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(17,23,33)"
+   ]
+  },
+  {
+   "id": "Q119",
+   "t": 620.0,
+   "nome": "18600.png",
+   "sinais": []
+  },
+  {
+   "id": "Q120",
+   "t": 630.0,
+   "nome": "18900.png",
+   "sinais": []
+  }
+ ]
+}

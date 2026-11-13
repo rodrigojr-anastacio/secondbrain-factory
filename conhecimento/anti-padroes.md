@@ -153,3 +153,6 @@ Fonte: `pesquisa/render-gpu-2026-11/RELATORIO.md` (teste da manhã + "Virou padr
 - **/tmp da VPS é tmpfs (RAM, 3,9 GB).** Partes de vídeo e stills em /tmp somam na memória e o OOM killer mata o job. Partes, junção e REFS em disco (`~/render-<video>/`, `TMPDIR=` também).
 - **Render longo nunca dentro do timeout da ferramenta:** um `render_runpod.sh` morto pelo timeout deixou Pod órfão RUNNING (apagado pela API). Rode como `systemd-run --user --unit=render-<x> ...` e espere a unidade terminar; confira `GET /v1/pods` vazio no fim.
 - Trecho de filme de arquivo perto de fade/cartela: o fade para preto entra no clipe (tela preta). Rode `blackdetect` nos `public/clips/` antes do render.
+
+## Render GPU: A4500 perdeu a textura satélite (Em Relevo 003, 13/11/2026)
+Numa RTX A4500 (Runpod) o primeiro bloco reprovou na conferência (SSIM 0,57 no quadro 15: textura satélite em faixas), igual nas 2 rodadas; outra GPU (A4000) renderizou o mesmo bundle com SSIM mín. 0,985. A prova de quadros (900/7500/8700/15600) passou na A4500: a falha estava no começo do bloco. Solução: repetir com `GPUS` sem a A4500. Pod de 3090 ficou 22 min sem SSH: matar o script (`kill <pid>`, o trap destrói o Pod) e trocar a lista.

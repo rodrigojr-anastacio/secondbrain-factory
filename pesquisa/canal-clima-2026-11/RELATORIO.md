@@ -226,3 +226,11 @@ Também comparar Q × E × R (qual tipo segura melhor) e o piloto en × a versã
   - Disasters Explained: "Most people think every tornado looks the same. They don't";
   - Ciência Todo Dia: "Existe uma crença popular de que tornados não acontecem no Brasil, mas isso é absolutamente falso".
 - Padrão [O]: o hook é data + hora + número, e a promessa vem "minuto a minuto".
+
+## Aprendizados do longo-03 (Grande Seca de 1877, 13/11/2026)
+- Pipeline reaproveitável: `longo-03/shared/build_cues.py` (cues amarrados à palavra do Whisper), `remotion/src/Novos.jsx` (papel de arquivo + painéis de dado), `LongoV3.jsx`. Fotos de baixa resolução entram como formato `carte` (pequenas, sem Ken Burns, `estatica`).
+- O Whisper acha a 1ª menção da palavra: para contadores amarrados a "Índia"/"China" usar `n=1` quando a frase de abertura cita as duas.
+- `caixas.feitas` é 1-based (n da pergunta); `ativa` é índice 0-based. Pino precisa de `t2` para sumir do 3D (`ate` só vale para a etiqueta).
+- Globo: rot ≈ −(longitude central) − 75° em rad (0,87 = Pacífico; −2,6 = Índia).
+- Papel de arquivo deve ser desenhado antes das fotos (senão cobre as cartes).
+- Pré-QA automático dá falso positivo em picos de transição (whip/nuvem) e no fundo navy atrás de globo/régua; conferir o quadro antes de corrigir.

@@ -1,0 +1,61 @@
+TÍTULOS (3, pareados às thumbs para o 'Testar e comparar')
+A. Por que quase ninguém fala da seca que matou 500 mil brasileiros?   ←  thumb-A.jpg · 500 MIL
+B. A seca que mudou o mapa do Brasil   ←  thumb-B.jpg · MUDOU O MAPA
+C. O El Niño de 1877 vai se repetir em 2026?   ←  thumb-C.jpg · 1877 = 2026?
+
+TÍTULO PRINCIPAL (A): Por que quase ninguém fala da seca que matou 500 mil brasileiros?
+
+DESCRIÇÃO
+Fortaleza, 1878: uma cidade de uns 25 mil habitantes recebe mais de 100 mil retirantes que chegam a pé do sertão. Em 10 de dezembro, a varíola mata 1.004 pessoas em um único dia. É a Grande Seca de 1877: as estimativas de mortos chegam a 500 mil (faixa de 150 mil a 500 mil), pelas contas mais altas 5% da população do Império. Neste vídeo, no mapa 3D com relevo real, respondemos 4 perguntas: o que aconteceu, por que não choveu (El Niño no Pacífico e Atlântico Norte mais quente), o que a seca mudou no mapa do Brasil (ferrovias, o primeiro grande açude, a migração para o Acre) e se pode se repetir com o El Niño de 2026.
+
+CAPÍTULOS
+0:00 Fortaleza, 1878
+0:23 A pergunta: a seca que quase ninguém conta
+1:06 O que aconteceu em 1877-78
+3:41 Por que não choveu (El Niño e Atlântico)
+5:40 O que a seca mudou no mapa do Brasil
+8:20 Pode se repetir em 2026?
+9:59 A resposta
+
+Observações: a frase "venderei até a última joia da Coroa" atribuída a Dom Pedro II não tem documento que a comprove. O número de mortos é estimativa (ninguém contou direito). Os dados de temperatura do mar anteriores a 1900 são reconstrução estatística (NOAA ERSSTv5, grade de 2°): mostram o padrão de grande escala, não o detalhe local. As rotas de retirantes no mapa são ilustrativas (direção e destino reais; a quantidade não é dado).
+
+FONTES
+Agência Senado (Ricardo Westin, 01/10/2021) · Rodolpho Theophilo, "História da Secca do Ceará" · Singh et al. (2018), Journal of Climate · Barboza (2015), Revista Brasileira de História · O Povo · Diário do Nordeste · Instituto do Ceará · FAPESP "Memórias da seca" · Funceme · INMET (Painel El Niño, out/2026) · ANA, Monitor de Secas (set/2026) · ASA/P1MC (cisternas) · NOAA ERSSTv5 e NOAA/CPC · GHCN v2 (chuva de Fortaleza, 1849–2018) · IBGE/SUDENE (semiárido) · OpenStreetMap (rios e trilhos, ODbL) · NOAA ETOPO 2022 e NASA Blue Marble (relevo e satélite).
+
+CRÉDITOS DAS IMAGENS (fotos cortadas/redimensionadas, sem outra alteração)
+- ADOLFO HERBSTER · DOMÍNIO PÚBLICO · FORTALEZA · PLANTA DE HERBSTER · 1875
+- AUTOR DESCONHECIDO (MUSEU DO CEARÁ) · DOMÍNIO PÚBLICO · FORTALEZA · THEOPHILO VACINA · 1907
+- PORTO NETO · CC BY-SA 4.0 · SANTA QUITÉRIA (CE) · AÇUDE SECO · 2018
+- ANDERSONPV · DOMÍNIO PÚBLICO · AÇUDE DE COREMAS (PB) · SECA · 2017
+- ANDRÉ REBOUÇAS · DOMÍNIO PÚBLICO · MAPA DA REGIÃO DA SECA · REBOUÇAS · 1877
+- AUTOR DESCONHECIDO · DOMÍNIO PÚBLICO · CEARÁ · RETIRANTES · 1878
+- AUTOR DESCONHECIDO (CÓPIA DO ARQUIVO NACIONAL) · DOMÍNIO PÚBLICO · NORDESTE · FERROVIAS DE SOCORRO · 1878
+- JOAQUIM ANTÔNIO CORRÊA (J. A. CORRÊA) · DOMÍNIO PÚBLICO · CEARÁ · VÍTIMA DA GRANDE SECA · 1877
+- J. A. CORRÊA (ATRIBUÍDO) · DOMÍNIO PÚBLICO · CEARÁ · RETIRANTE · 1878
+- AUTOR DESCONHECIDO · DOMÍNIO PÚBLICO · JOSÉ DO PATROCÍNIO · 1879
+- HORACE HARRAL · DOMÍNIO PÚBLICO · ÍNDIA · THE GRAPHIC · OUT/1877
+- GLANDOVSKY · CC BY-SA 4.0 · BATURITÉ · ESTAÇÃO DE 1882
+- GLANDOVSKY · CC BY-SA 4.0 · QUIXADÁ · ESTAÇÃO FERROVIÁRIA
+- FÁBIO BARROS · DOMÍNIO PÚBLICO · QUIXADÁ · AÇUDE DO CEDRO
+- GLANDOVSKY · CC BY-SA 4.0 · AÇUDE DO CEDRO · BARRAGEM · 1882–1906
+- FOTÓGRAFO DESCONHECIDO · CC BY-SA 4.0 · RIO ACRE · SERINGAL · c. 1910
+- AGÊNCIA DE NOTÍCIAS DO ACRE · CC BY 2.0 · SERINGUEIRO · FLORESTA AMAZÔNICA
+- FÁBIO BARROS (FABIOBARROS) · CC BY-SA 4.0 · CASTANHÃO (CE) · VERTEDOURO · 2010
+- COORDENAÇÃO-GERAL DE OBSERVAÇÃO DA TERRA (INPE) · CC BY-SA 2.0 · JATI (CE) · EIXO NORTE · 2018
+- FELIPE BRADFORD · CC BY-SA 4.0 · CANINDÉ (CE) · CARRO-PIPA · 2026
+
+MÚSICA
+Kevin MacLeod (incompetech.com): "Echoes of Time", "Ossuary 6 - Air" e "Frozen Star", licença Creative Commons BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+Efeito de máquina de escrever: "WWS Typewriter", Work With Sounds / Konrad Gutkowski, Wikimedia Commons, CC BY 4.0.
+
+Narração sintética (ElevenLabs) sobre texto e pesquisa do canal.
+
+TAGS
+grande seca de 1877, seca de 1877, grande seca, Ceará, Fortaleza 1878, retirantes, Dia dos Mil Mortos, varíola, El Niño, El Niño 2026, El Niño 1877, seca no Nordeste, história do Brasil, história do Nordeste, semiárido, Açude do Cedro, Estrada de Ferro de Baturité, Acre, Dom Pedro II, Theophilo, Em Relevo
+
+CATEGORIA: Educação (27)
+Idioma do vídeo: português (Brasil) · legendas: legendas.srt
+Conteúdo alterado ou sintético: SIM para a voz (narração sintética); mapas e gráficos são animação de dados; fotos reais com corte/redimensionamento.
+Não é para crianças.
+Comentário fixado (sugestão): o mapa ilustra as rotas dos retirantes; os números de mortos são estimativas (faixa 150–500 mil).
+Lembretes ao publicar: marcar 'Testar e comparar' com as 3 thumbs; sem card de próximo vídeo (regra do Rodrigo 13/11); puxar o vídeo sobre o El Niño 2026 como card/descrição (já publicado).

@@ -1,0 +1,1163 @@
+{
+ "duracao": 644.898,
+ "voz": "eleven",
+ "slot": null,
+ "blocos": [
+  {
+   "id": "b01",
+   "s": 0.15,
+   "e": 9.739,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 0.15,
+     "e": 0.73,
+     "txt": "Fortaleza, mil oitocentos e setenta e oito."
+    },
+    {
+     "s": 2.65,
+     "e": 4.47,
+     "txt": "Uma cidade de uns vinte e cinco mil habitantes."
+    },
+    {
+     "s": 4.99,
+     "e": 7.33,
+     "txt": "Em poucos meses, chegam mais de cem mil pessoas."
+    },
+    {
+     "s": 7.95,
+     "e": 9.739,
+     "txt": "A pé. Vindas do sertão."
+    }
+   ]
+  },
+  {
+   "id": "b02",
+   "s": 10.159,
+   "e": 18.535,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 10.159,
+     "e": 15.979,
+     "txt": "No fim daquele ano, segundo o farmacêutico Rodolpho Theophilo, que viveu tudo aquilo, a cidade tinha cento e sessenta mil pessoas."
+    },
+    {
+     "s": 16.499,
+     "e": 18.535,
+     "txt": "Mais de seis vezes o tamanho de antes."
+    }
+   ]
+  },
+  {
+   "id": "b03",
+   "s": 18.955,
+   "e": 22.911,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 18.955,
+     "e": 22.911,
+     "txt": "E num único dia, dez de dezembro, a varíola matou mil e quatro pessoas."
+    }
+   ]
+  },
+  {
+   "id": "b04",
+   "s": 24.261,
+   "e": 35.973,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 24.261,
+     "e": 25.301,
+     "txt": "Essa é a Grande Seca de mil oitocentos e setenta e sete."
+    },
+    {
+     "s": 27.041,
+     "e": 29.201,
+     "txt": "As estimativas chegam a quinhentos mil mortos."
+    },
+    {
+     "s": 29.441,
+     "e": 32.841,
+     "txt": "Pelas contas mais altas, cinco por cento de toda a população do Império."
+    },
+    {
+     "s": 33.421,
+     "e": 35.973,
+     "txt": "Proporcionalmente, a maior catástrofe da história do Brasil."
+    }
+   ]
+  },
+  {
+   "id": "b05",
+   "s": 36.393,
+   "e": 42.758,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 36.393,
+     "e": 38.053,
+     "txt": "Mesmo assim, quase ninguém fala dela."
+    },
+    {
+     "s": 38.413,
+     "e": 42.758,
+     "txt": "E agora, com o El Niño de dois mil e vinte e seis, uma pergunta voltou: aquilo pode se repetir?"
+    }
+   ]
+  },
+  {
+   "id": "b06",
+   "s": 43.178,
+   "e": 52.3,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 43.178,
+     "e": 45.158,
+     "txt": "Isso nos leva às seguintes perguntas."
+    },
+    {
+     "s": 45.278,
+     "e": 46.258,
+     "txt": "O que aconteceu, afinal?"
+    },
+    {
+     "s": 46.818,
+     "e": 47.578,
+     "txt": "Por que não choveu?"
+    },
+    {
+     "s": 48.078,
+     "e": 49.918,
+     "txt": "O que essa seca mudou no mapa do Brasil?"
+    },
+    {
+     "s": 50.458,
+     "e": 52.3,
+     "txt": "E ela pode se repetir em dois mil e vinte e seis?"
+    }
+   ]
+  },
+  {
+   "id": "b07",
+   "s": 52.72,
+   "e": 65.096,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 52.72,
+     "e": 54.62,
+     "txt": "Mas antes, é preciso entender uma coisa."
+    },
+    {
+     "s": 55.14,
+     "e": 59.8,
+     "txt": "No sertão do Ceará, quase toda a chuva do ano cai em poucos meses, de fevereiro a maio."
+    },
+    {
+     "s": 60.22,
+     "e": 62.12,
+     "txt": "O sertanejo chama essa época de inverno."
+    },
+    {
+     "s": 62.5,
+     "e": 65.096,
+     "txt": "Se esses meses falham, o ano inteiro falha."
+    }
+   ]
+  },
+  {
+   "id": "b08",
+   "s": 66.446,
+   "e": 78.672,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 66.446,
+     "e": 67.126,
+     "txt": "Março de mil oitocentos e setenta e sete."
+    },
+    {
+     "s": 69.626,
+     "e": 75.966,
+     "txt": "No sertão, a tradição diz que, se chover até o dia de São José, dezenove de março, o inverno vai ser bom."
+    },
+    {
+     "s": 76.606,
+     "e": 78.672,
+     "txt": "Naquele ano, a chuva não veio."
+    }
+   ]
+  },
+  {
+   "id": "b09",
+   "s": 79.372,
+   "e": 100.108,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 79.372,
+     "e": 83.352,
+     "txt": "Fortaleza tem uma das séries de chuva mais longas do Brasil, medida desde mil oitocentos e quarenta e nove."
+    },
+    {
+     "s": 85.492,
+     "e": 88.792,
+     "txt": "Na média, chove mais de mil e quatrocentos milímetros por ano."
+    },
+    {
+     "s": 89.312,
+     "e": 91.472,
+     "txt": "Em mil oitocentos e setenta e sete, choveram quatrocentos e sessenta e oito."
+    },
+    {
+     "s": 93.232,
+     "e": 94.352,
+     "txt": "Um terço do normal."
+    },
+    {
+     "s": 95.012,
+     "e": 97.052,
+     "txt": "O ano mais seco de todo o registro."
+    },
+    {
+     "s": 99.312,
+     "e": 100.108,
+     "txt": "E mil oitocentos e setenta e oito foi o segundo."
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "s": 100.808,
+   "e": 109.922,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 100.808,
+     "e": 109.922,
+     "txt": "E isso é no litoral. No sertão, onde já chove bem menos, o pasto secou, o gado morreu e as roças de milho, feijão e mandioca não vingaram."
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "s": 110.622,
+   "e": 124.79,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 110.622,
+     "e": 115.562,
+     "txt": "Em mil oitocentos e setenta e dois, o Ceará tinha pouco mais de setecentas mil pessoas."
+    },
+    {
+     "s": 115.902,
+     "e": 119.882,
+     "txt": "E uma multidão fez a mesma coisa: pegou o que tinha e andou."
+    },
+    {
+     "s": 119.882,
+     "e": 124.79,
+     "txt": "Para o litoral, onde havia porto, comida chegando de navio e o governo."
+    }
+   ]
+  },
+  {
+   "id": "b12",
+   "s": 125.49,
+   "e": 132.701,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 125.49,
+     "e": 129.11,
+     "txt": "No mapa, é como se o sertão inteiro escorresse para a costa."
+    },
+    {
+     "s": 129.25,
+     "e": 132.701,
+     "txt": "Essas pessoas ficaram conhecidas por um nome: retirantes."
+    }
+   ]
+  },
+  {
+   "id": "b13",
+   "s": 133.401,
+   "e": 145.709,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 133.401,
+     "e": 135.301,
+     "txt": "Fortaleza não estava preparada."
+    },
+    {
+     "s": 135.661,
+     "e": 139.661,
+     "txt": "O governo montou abarracamentos, campos de barracas nos arredores da cidade."
+    },
+    {
+     "s": 140.141,
+     "e": 145.709,
+     "txt": "Em agosto de mil oitocentos e setenta e oito, eram quase cento e catorze mil pessoas abarracadas."
+    }
+   ]
+  },
+  {
+   "id": "b14",
+   "s": 146.409,
+   "e": 155.361,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 146.409,
+     "e": 148.569,
+     "txt": "A comida vinha por mar, mas não dava."
+    },
+    {
+     "s": 149.029,
+     "e": 155.361,
+     "txt": "E o que chegava nem sempre servia: houve denúncias de carne estragada e de farinha misturada com cal."
+    }
+   ]
+  },
+  {
+   "id": "b15",
+   "s": 156.061,
+   "e": 171.846,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 156.061,
+     "e": 157.321,
+     "txt": "E aí veio a varíola."
+    },
+    {
+     "s": 158.101,
+     "e": 161.961,
+     "txt": "Em gente fraca de fome, amontoada em barracas, o vírus se espalhou depressa."
+    },
+    {
+     "s": 163.181,
+     "e": 167.661,
+     "txt": "Em novembro de mil oitocentos e setenta e oito, quase dez mil mortes em Fortaleza."
+    },
+    {
+     "s": 168.321,
+     "e": 171.846,
+     "txt": "Em dezembro, mais de quinze mil, quase todas de varíola."
+    }
+   ]
+  },
+  {
+   "id": "b16",
+   "s": 172.546,
+   "e": 186.647,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 172.546,
+     "e": 175.946,
+     "txt": "No dia dez de dezembro, foram mil e quatro mortos."
+    },
+    {
+     "s": 176.706,
+     "e": 181.326,
+     "txt": "Os coveiros não deram conta, e mais de duzentos corpos ficaram para o dia seguinte."
+    },
+    {
+     "s": 182.286,
+     "e": 186.647,
+     "txt": "Fortaleza chama essa data, até hoje, de o Dia dos Mil Mortos."
+    }
+   ]
+  },
+  {
+   "id": "b17",
+   "s": 187.347,
+   "e": 201.5,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 187.347,
+     "e": 189.127,
+     "txt": "Quantas pessoas a seca matou, no total?"
+    },
+    {
+     "s": 189.967,
+     "e": 190.967,
+     "txt": "Ninguém contou direito."
+    },
+    {
+     "s": 191.747,
+     "e": 197.347,
+     "txt": "As estimativas vão de cento e cinquenta mil a quinhentos mil, no Ceará e nas províncias vizinhas."
+    },
+    {
+     "s": 198.127,
+     "e": 201.5,
+     "txt": "E a chuva só voltou de verdade em mil oitocentos e oitenta."
+    }
+   ]
+  },
+  {
+   "id": "b18",
+   "s": 202.2,
+   "e": 220.323,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 202.2,
+     "e": 205.96,
+     "txt": "No Rio de Janeiro, a capital do Império, a seca era notícia distante."
+    },
+    {
+     "s": 206.48,
+     "e": 214.74,
+     "txt": "Até que, em mil oitocentos e setenta e oito, um jornal ilustrado da corte, O Besouro, publicou fotografias de retirantes feitas em Fortaleza."
+    },
+    {
+     "s": 215.38,
+     "e": 220.323,
+     "txt": "Para os historiadores, é possivelmente a primeira experiência de fotojornalismo do Brasil."
+    }
+   ]
+  },
+  {
+   "id": "b19",
+   "s": 221.673,
+   "e": 227.443,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 221.673,
+     "e": 222.613,
+     "txt": "Agora, por que não choveu?"
+    },
+    {
+     "s": 223.653,
+     "e": 225.173,
+     "txt": "A resposta não está no Ceará."
+    },
+    {
+     "s": 225.513,
+     "e": 227.443,
+     "txt": "Está do outro lado do planeta."
+    }
+   ]
+  },
+  {
+   "id": "b20",
+   "s": 228.143,
+   "e": 245.313,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 228.143,
+     "e": 234.503,
+     "txt": "Entre mil oitocentos e setenta e sete e setenta e oito, o Pacífico tropical esquentou como poucas vezes na história."
+    },
+    {
+     "s": 234.863,
+     "e": 235.263,
+     "txt": "Foi um El Niño."
+    },
+    {
+     "s": 236.183,
+     "e": 240.643,
+     "txt": "E, pelas reconstruções da temperatura do mar, um dos mais fortes já registrados."
+    },
+    {
+     "s": 241.183,
+     "e": 245.313,
+     "txt": "No mesmo nível dos de oitenta e dois, noventa e sete e dois mil e quinze."
+    }
+   ]
+  },
+  {
+   "id": "b21",
+   "s": 246.013,
+   "e": 260.331,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 246.013,
+     "e": 249.293,
+     "txt": "No nosso vídeo sobre o El Niño, a gente mostrou como isso funciona."
+    },
+    {
+     "s": 249.793,
+     "e": 253.393,
+     "txt": "Quando o Pacífico esquenta, o ar sobe lá, em cima da água quente."
+    },
+    {
+     "s": 253.773,
+     "e": 255.013,
+     "txt": "E desce em outros lugares."
+    },
+    {
+     "s": 255.713,
+     "e": 257.613,
+     "txt": "Um deles é o norte do Nordeste."
+    },
+    {
+     "s": 258.093,
+     "e": 260.331,
+     "txt": "E ar que desce não forma nuvem."
+    }
+   ]
+  },
+  {
+   "id": "b22",
+   "s": 261.031,
+   "e": 280.534,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 261.031,
+     "e": 263.431,
+     "txt": "Mas, no Ceará, o Atlântico também manda."
+    },
+    {
+     "s": 264.191,
+     "e": 268.451,
+     "txt": "A chuva de fevereiro a maio vem de uma faixa de nuvens que acompanha a linha do equador."
+    },
+    {
+     "s": 269.051,
+     "e": 274.351,
+     "txt": "Quando o Atlântico Norte fica mais quente que o do Sul, essa faixa sobe, e não chega até o Ceará."
+    },
+    {
+     "s": 275.131,
+     "e": 280.534,
+     "txt": "E, em mil oitocentos e setenta e oito, o Atlântico Norte esteve quente como nunca no registro."
+    }
+   ]
+  },
+  {
+   "id": "b23",
+   "s": 281.234,
+   "e": 293.611,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 281.234,
+     "e": 282.814,
+     "txt": "E o Brasil não estava sozinho."
+    },
+    {
+     "s": 283.334,
+     "e": 286.014,
+     "txt": "O mesmo clima secou a Índia e o norte da China."
+    },
+    {
+     "s": 286.574,
+     "e": 290.374,
+     "txt": "Na Índia, de cinco milhões e meio a quase dez milhões de mortos."
+    },
+    {
+     "s": 290.794,
+     "e": 293.611,
+     "txt": "Na China, de nove a treze milhões."
+    }
+   ]
+  },
+  {
+   "id": "b24",
+   "s": 294.311,
+   "e": 304.862,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 294.311,
+     "e": 300.371,
+     "txt": "Um estudo de dois mil e dezoito ligou essas fomes ao mesmo El Niño, junto com o oceano Índico e o Atlântico."
+    },
+    {
+     "s": 300.851,
+     "e": 304.862,
+     "txt": "E as estimativas de mortos, no mundo, passam de cinquenta milhões."
+    }
+   ]
+  },
+  {
+   "id": "b25",
+   "s": 305.562,
+   "e": 324.013,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 305.562,
+     "e": 307.462,
+     "txt": "Mas o clima explica a falta de chuva."
+    },
+    {
+     "s": 308.222,
+     "e": 311.262,
+     "txt": "Não explica, sozinho, tantas mortes."
+    },
+    {
+     "s": 311.862,
+     "e": 318.542,
+     "txt": "No Ceará de mil oitocentos e setenta e sete, não havia nenhum grande açude, e nenhuma ferrovia chegava ao sertão."
+    },
+    {
+     "s": 319.122,
+     "e": 324.013,
+     "txt": "O socorro chegava de navio, e daí para dentro era a pé ou no lombo de animal."
+    }
+   ]
+  },
+  {
+   "id": "b26",
+   "s": 324.713,
+   "e": 339.05,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 324.713,
+     "e": 326.613,
+     "txt": "No governo, a resposta foi lenta."
+    },
+    {
+     "s": 327.173,
+     "e": 333.533,
+     "txt": "O chefe do governo, o senador Sinimbu, chegou a dizer: a solução depende da Divina Providência, e não de nós."
+    },
+    {
+     "s": 334.153,
+     "e": 339.05,
+     "txt": "E, no Senado, um pedido de investigação sobre o dinheiro do socorro não foi aprovado."
+    }
+   ]
+  },
+  {
+   "id": "b27",
+   "s": 340.4,
+   "e": 344.7,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 340.4,
+     "e": 343.06,
+     "txt": "Então, o que essa seca mudou no mapa do Brasil?"
+    },
+    {
+     "s": 343.58,
+     "e": 344.7,
+     "txt": "Mais do que parece."
+    }
+   ]
+  },
+  {
+   "id": "b28",
+   "s": 345.4,
+   "e": 363.228,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 345.4,
+     "e": 346.66,
+     "txt": "Primeiro, os trilhos."
+    },
+    {
+     "s": 347.24,
+     "e": 355.32,
+     "txt": "Em mil oitocentos e setenta e oito, o governo assumiu a Estrada de Ferro de Baturité e pôs os retirantes para trabalhar nela, como obra de socorro."
+    },
+    {
+     "s": 355.88,
+     "e": 357.5,
+     "txt": "Os trilhos chegaram a Baturité em mil oitocentos e oitenta e dois."
+    },
+    {
+     "s": 358.88,
+     "e": 363.228,
+     "txt": "E a Quixadá, no coração do sertão, em mil oitocentos e noventa e um."
+    }
+   ]
+  },
+  {
+   "id": "b29",
+   "s": 363.928,
+   "e": 371.992,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 363.928,
+     "e": 365.908,
+     "txt": "No norte da província, a mesma coisa."
+    },
+    {
+     "s": 366.468,
+     "e": 371.992,
+     "txt": "A ferrovia que saía do porto de Camocim chegou a Sobral no último dia de mil oitocentos e oitenta e dois."
+    }
+   ]
+  },
+  {
+   "id": "b30",
+   "s": 372.692,
+   "e": 392.625,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 372.692,
+     "e": 373.912,
+     "txt": "Depois, a água."
+    },
+    {
+     "s": 374.552,
+     "e": 377.252,
+     "txt": "A seca convenceu o governo a represar o sertão."
+    },
+    {
+     "s": 377.712,
+     "e": 385.012,
+     "txt": "Em Quixadá, começou em mil oitocentos e oitenta e quatro a obra do Açude do Cedro, ao pé de uma pedra famosa, a Galinha Choca."
+    },
+    {
+     "s": 385.252,
+     "e": 387.452,
+     "txt": "Foi o primeiro grande açude público do país."
+    },
+    {
+     "s": 387.852,
+     "e": 392.625,
+     "txt": "Levou vinte e dois anos e só ficou pronto em mil novecentos e seis, já na República."
+    }
+   ]
+  },
+  {
+   "id": "b31",
+   "s": 393.325,
+   "e": 407.073,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 393.325,
+     "e": 394.525,
+     "txt": "E aqui entra uma lenda."
+    },
+    {
+     "s": 395.105,
+     "e": 401.865,
+     "txt": "Diz a tradição que Dom Pedro Segundo prometeu vender até a última joia da Coroa para que nenhum cearense morresse de fome."
+    },
+    {
+     "s": 402.465,
+     "e": 404.445,
+     "txt": "Não há documento que prove essa frase."
+    },
+    {
+     "s": 404.985,
+     "e": 407.073,
+     "txt": "E as joias não foram vendidas."
+    }
+   ]
+  },
+  {
+   "id": "b32",
+   "s": 407.773,
+   "e": 421.821,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 407.773,
+     "e": 409.793,
+     "txt": "Mas a mudança maior foi de gente."
+    },
+    {
+     "s": 410.413,
+     "e": 417.633,
+     "txt": "Com passagem paga pelo governo, milhares de cearenses embarcaram para a Amazônia, onde a borracha começava a valer muito dinheiro."
+    },
+    {
+     "s": 418.013,
+     "e": 421.821,
+     "txt": "Só para o Amazonas, foram quase cinco mil em pouco mais de um ano."
+    }
+   ]
+  },
+  {
+   "id": "b33",
+   "s": 422.521,
+   "e": 439.655,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 422.521,
+     "e": 424.581,
+     "txt": "Foi o começo de uma onda que não parou mais."
+    },
+    {
+     "s": 425.281,
+     "e": 431.781,
+     "txt": "Nas décadas seguintes, seringueiros nordestinos subiram os rios até um território que era da Bolívia: o Acre."
+    },
+    {
+     "s": 432.361,
+     "e": 439.655,
+     "txt": "E, em mil novecentos e três, depois de uma revolta desses seringueiros, o Brasil ficou com o Acre, pelo Tratado de Petrópolis."
+    }
+   ]
+  },
+  {
+   "id": "b34",
+   "s": 440.355,
+   "e": 451.562,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 440.355,
+     "e": 445.915,
+     "txt": "Ou seja, a seca de mil oitocentos e setenta e sete ajudou a desenhar a fronteira oeste do Brasil."
+    },
+    {
+     "s": 446.615,
+     "e": 447.455,
+     "txt": "Não sozinha."
+    },
+    {
+     "s": 447.995,
+     "e": 451.562,
+     "txt": "Mas os historiadores apontam essa seca como o começo desse caminho."
+    }
+   ]
+  },
+  {
+   "id": "b35",
+   "s": 452.262,
+   "e": 471.324,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 452.262,
+     "e": 454.322,
+     "txt": "E tem uma coisa que demorou muito a mudar."
+    },
+    {
+     "s": 455.282,
+     "e": 463.422,
+     "txt": "Nas secas de mil novecentos e quinze e de mil novecentos e trinta e dois, o governo do Ceará cercou retirantes em campos, para que não chegassem a Fortaleza."
+    },
+    {
+     "s": 464.102,
+     "e": 466.162,
+     "txt": "O povo chamava de currais do governo."
+    },
+    {
+     "s": 467.042,
+     "e": 471.324,
+     "txt": "Em trinta e dois, foram sete campos, com mais de setenta mil pessoas."
+    }
+   ]
+  },
+  {
+   "id": "b36",
+   "s": 472.024,
+   "e": 479.675,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 472.024,
+     "e": 476.264,
+     "txt": "Só em mil novecentos e nove o país criou um órgão permanente contra as secas."
+    },
+    {
+     "s": 476.764,
+     "e": 479.675,
+     "txt": "A inspetoria que, mais tarde, virou o Dnócs."
+    }
+   ]
+  },
+  {
+   "id": "b37",
+   "s": 480.375,
+   "e": 499.291,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 480.375,
+     "e": 482.615,
+     "txt": "E por que quase ninguém fala da seca de mil oitocentos e setenta e sete?"
+    },
+    {
+     "s": 484.635,
+     "e": 486.175,
+     "txt": "Parte da resposta está aqui."
+    },
+    {
+     "s": 486.795,
+     "e": 490.155,
+     "txt": "Os mortos eram pobres, do sertão, longe da capital."
+    },
+    {
+     "s": 490.915,
+     "e": 492.395,
+     "txt": "Ninguém contou os corpos direito."
+    },
+    {
+     "s": 492.895,
+     "e": 494.295,
+     "txt": "A investigação foi barrada."
+    },
+    {
+     "s": 495.015,
+     "e": 499.291,
+     "txt": "E as secas seguintes repetiram a história, até o país se acostumar com ela."
+    }
+   ]
+  },
+  {
+   "id": "b38",
+   "s": 500.641,
+   "e": 505.852,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 500.641,
+     "e": 501.541,
+     "txt": "E a última pergunta."
+    },
+    {
+     "s": 502.141,
+     "e": 505.852,
+     "txt": "Com o El Niño de dois mil e vinte e seis, aquilo pode se repetir?"
+    }
+   ]
+  },
+  {
+   "id": "b39",
+   "s": 506.552,
+   "e": 524.974,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 506.552,
+     "e": 508.572,
+     "txt": "O El Niño deste ano já é muito forte."
+    },
+    {
+     "s": 509.112,
+     "e": 515.872,
+     "txt": "Pela mesma reconstrução da temperatura do mar, ele já está no nível do de mil oitocentos e setenta e sete, ou acima."
+    },
+    {
+     "s": 516.472,
+     "e": 524.974,
+     "txt": "E a previsão oficial para novembro, dezembro e janeiro é de chuva abaixo da média em áreas do Nordeste, principalmente no norte da região."
+    }
+   ]
+  },
+  {
+   "id": "b40",
+   "s": 525.674,
+   "e": 539.14,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 525.674,
+     "e": 530.694,
+     "txt": "Mas, para o sertão do Ceará, o que decide é o inverno de fevereiro a maio de dois mil e vinte e sete."
+    },
+    {
+     "s": 532.274,
+     "e": 533.414,
+     "txt": "E aí o Atlântico também pesa."
+    },
+    {
+     "s": 535.474,
+     "e": 539.14,
+     "txt": "A Funceme, o órgão de meteorologia do Ceará, diz que ainda é cedo para prever."
+    }
+   ]
+  },
+  {
+   "id": "b41",
+   "s": 539.84,
+   "e": 547.849,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 539.84,
+     "e": 541.68,
+     "txt": "E o Nordeste já está seco agora."
+    },
+    {
+     "s": 542.12,
+     "e": 547.849,
+     "txt": "Em setembro, segundo o Monitor de Secas, havia seca em noventa e seis por cento do território da região."
+    }
+   ]
+  },
+  {
+   "id": "b42",
+   "s": 548.549,
+   "e": 570.146,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 548.549,
+     "e": 550.549,
+     "txt": "Então, pode faltar chuva de novo?"
+    },
+    {
+     "s": 551.189,
+     "e": 551.569,
+     "txt": "Pode."
+    },
+    {
+     "s": 552.089,
+     "e": 554.529,
+     "txt": "Mas o sertão de dois mil e vinte e seis não é o de mil oitocentos e setenta e sete."
+    },
+    {
+     "s": 556.749,
+     "e": 562.129,
+     "txt": "Hoje há mais de um milhão e duzentas mil cisternas guardando a água da chuva ao lado das casas."
+    },
+    {
+     "s": 563.349,
+     "e": 564.209,
+     "txt": "Açudes como o Castanhão."
+    },
+    {
+     "s": 564.789,
+     "e": 570.146,
+     "txt": "E a água do rio São Francisco chegando ao Ceará pela transposição, desde dois mil e vinte."
+    }
+   ]
+  },
+  {
+   "id": "b43",
+   "s": 570.846,
+   "e": 588.957,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 570.846,
+     "e": 574.146,
+     "txt": "E, principalmente, a seca deixou de matar de fome em massa."
+    },
+    {
+     "s": 574.826,
+     "e": 579.706,
+     "txt": "De dois mil e doze a dois mil e dezessete, o semiárido viveu uma das piores secas em décadas."
+    },
+    {
+     "s": 580.286,
+     "e": 584.986,
+     "txt": "Centenas de cidades em emergência, carro-pipa, perda de safra e de gado."
+    },
+    {
+     "s": 585.506,
+     "e": 588.957,
+     "txt": "Mas sem as mortes em massa de mil oitocentos e setenta e sete."
+    }
+   ]
+  },
+  {
+   "id": "b44",
+   "s": 589.657,
+   "e": 598.76,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 589.657,
+     "e": 591.017,
+     "txt": "O risco de hoje é outro."
+    },
+    {
+     "s": 591.437,
+     "e": 595.397,
+     "txt": "Água racionada, colheita perdida, gado vendido às pressas e calor."
+    },
+    {
+     "s": 595.857,
+     "e": 598.76,
+     "txt": "E ele pesa mais para quem vive longe da rede de água."
+    }
+   ]
+  },
+  {
+   "id": "b45",
+   "s": 600.11,
+   "e": 617.788,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 600.11,
+     "e": 601.59,
+     "txt": "Então, voltando a Fortaleza, mil oitocentos e setenta e oito."
+    },
+    {
+     "s": 603.97,
+     "e": 607.91,
+     "txt": "Uma cidade de vinte e cinco mil pessoas, que recebeu mais de cem mil."
+    },
+    {
+     "s": 608.53,
+     "e": 609.89,
+     "txt": "Não foi só a falta de chuva."
+    },
+    {
+     "s": 610.15,
+     "e": 617.788,
+     "txt": "Foi um dos El Niños mais fortes da história, um Atlântico que segurou as nuvens longe do Ceará e um país que demorou a agir."
+    }
+   ]
+  },
+  {
+   "id": "b46",
+   "s": 618.488,
+   "e": 635.427,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 618.488,
+     "e": 625.308,
+     "txt": "Aquela seca levou trilhos para o sertão, fez nascer o primeiro grande açude e empurrou nordestinos até o Acre."
+    },
+    {
+     "s": 625.908,
+     "e": 629.268,
+     "txt": "O El Niño de dois mil e vinte e seis pode trazer outra seca."
+    },
+    {
+     "s": 629.888,
+     "e": 633.208,
+     "txt": "Mas o que transforma seca em tragédia não é só o clima."
+    },
+    {
+     "s": 633.728,
+     "e": 635.427,
+     "txt": "É o que se faz antes dela."
+    }
+   ]
+  },
+  {
+   "id": "b47",
+   "s": 636.127,
+   "e": 642.399,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 636.127,
+     "e": 639.027,
+     "txt": "Se você tem família no sertão, manda este vídeo para ela."
+    },
+    {
+     "s": 639.027,
+     "e": 642.399,
+     "txt": "E se inscreve no canal, para entender o clima do Brasil."
+    }
+   ]
+  }
+ ]
+}
