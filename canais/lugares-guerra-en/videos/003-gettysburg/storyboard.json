@@ -4,13 +4,13 @@
   "duracao_s": 951.8,
   "duracao": "15:51",
   "planos_por_min": 11.3,
-  "real_pct": 85.4,
-  "reuso_pct": 49.3,
+  "real_pct": 85.6,
+  "reuso_pct": 48.8,
   "componentes": {
-   "DocGrifo": 27,
-   "KenBurns": 89,
-   "Número": 24,
-   "Dupla": 23,
+   "DocGrifo": 26,
+   "KenBurns": 90,
+   "Número": 23,
+   "Dupla": 24,
    "EntaoAgora": 5,
    "Mapa2D": 5,
    "Cartela": 5,
@@ -19,7 +19,7 @@
   "docs_distintos": 14,
   "docs_grifados": 8,
   "citacoes_literais": 11,
-  "numeros": 39,
+  "numeros": 38,
   "mapas_distintos": 5,
   "entao_agora": 5,
   "imagens_ia": 0,
@@ -939,21 +939,27 @@
   {
    "id": "P033",
    "bloco": "B03d",
-   "tipo": "DocGrifo",
-   "arq": "doc_nps_2015.png",
-   "enq": "pagina",
+   "tipo": "Dupla",
+   "arq": "foto_centro_campo.jpg",
+   "arq2": "foto_mortos_federais_1jul.jpg",
+   "enq": "dupla",
    "inicio": 150.36,
    "dur": 5.71,
    "frase": "In the words of the National Park Service, every farm field or garden was a graveyard.",
    "real": true,
    "reuso": false,
    "ficha": [
-    "NATIONAL PARK SERVICE · GETTYSBURG",
+    "JULY 1863 · GETTYSBURG",
     "",
-    ""
+    "Gardner's gallery, July 1863. Library of Congress"
    ],
-   "grifo": [],
-   "literal": false,
+   "ficha2": [
+    "JULY 1863 · GETTYSBURG",
+    "",
+    "Timothy O'Sullivan, July 1863. Library of Congress"
+   ],
+   "rot1": "CONFEDERATE DEAD",
+   "rot2": "UNION DEAD",
    "em": "In the words of the National"
   },
   {
@@ -1433,16 +1439,29 @@
   {
    "id": "P053",
    "bloco": "B05d",
-   "tipo": "Número",
-   "arq": "codigo",
-   "enq": "num:1866",
+   "tipo": "KenBurns",
+   "arq": "doc_sketchbook_titulo.jpg",
+   "enq": "zoom-in",
    "inicio": 263.21,
    "dur": 2.5,
    "frase": "Remember one more thing he wrote there.",
-   "real": false,
+   "real": true,
    "reuso": false,
-   "valor": "1866",
-   "rotulo": "THE SKETCH BOOK",
+   "ficha": [
+    "1866 · SKETCH BOOK, VOL. I",
+    "",
+    "Gardner's Photographic Sketch Book of the War, vol. I"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
    "em": "Remember one more thing"
   },
   {
@@ -4141,7 +4160,7 @@
    "dur": 4.64,
    "frase": "In 1996, erosion near a railroad embankment on the battlefield exposed human bones.",
    "real": true,
-   "reuso": true,
+   "reuso": false,
    "ficha": [
     "NATIONAL PARK SERVICE · GETTYSBURG",
     "",

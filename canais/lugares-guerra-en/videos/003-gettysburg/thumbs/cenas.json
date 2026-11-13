@@ -1,8 +1,29 @@
 [
- {"id": "thumb_A", "titulo": "The Gettysburg Photos You Weren't Supposed to See", "palavras": ["THEY MOVED", "HIM"],
-  "prompt": "Vibrant editorial illustration for a YouTube thumbnail: a huge boulder field like Gettysburg's Devil's Den under a deep saturated blue sky, a narrow gap between two giant rust-orange granite boulders closed by a low stone wall; in the foreground an 1863 wooden bellows view camera on a tripod with a black cloth, seen from behind, aimed at the gap; a glowing bright cyan dotted path curves across the rocks from an empty patch of grass on the slope up to the stone wall, ending at a cyan-outlined rifle leaning against the rock; no people, no bodies, no blood; crisp outlines, simple bold shapes, high contrast, readable at small size, 16:9, no text, no letters, no numbers, no captions, no watermark, no flags"},
- {"id": "thumb_B", "titulo": "Why Is the Same Dead Soldier in Two Gettysburg Photos?", "palavras": ["SAME MAN", "40 YARDS"],
-  "prompt": "Vibrant editorial illustration for a YouTube thumbnail: two vintage sepia photograph prints with white mounts lying side by side on a saturated rust-orange background, each print shows the same simplified boulder landscape of Devil's Den from a different angle with a small soldier's cap and a rifle on the ground (no body, no face), a thick glowing bright cyan dotted arrow jumps from the left print to the right print, a magnifying glass over the right print with a cyan rim light; crisp outlines, bold shapes, high contrast, readable at small size, 16:9, no text, no letters, no numbers, no captions, no watermark"},
- {"id": "thumb_C", "titulo": "What Happened to the Real \"Harvest of Death\"?", "palavras": ["WRONG", "ARMY"],
-  "prompt": "Vibrant editorial illustration for a YouTube thumbnail, clean cutaway cross-section: on top a misty green summer field at Gettysburg in 1863 with a split-rail fence and an 1863 wooden view camera on a tripod, deep blue sky; below the surface, in the brown earth layer, a single folded blue wool soldier's coat with a glowing bright cyan diamond-shaped badge on it, cyan light rays; no bodies, no bones, no blood, no faces; crisp outlines, simple bold shapes, high contrast, readable at small size, 16:9, no text, no letters, no numbers, no captions, no watermark, no flags"}
+ {
+  "id": "thumb_A",
+  "titulo": "The Gettysburg Photos You Weren't Supposed to See",
+  "palavras": [
+   "THEY MOVED",
+   "HIM"
+  ],
+  "prompt": "Vibrant editorial illustration for a YouTube thumbnail: a huge boulder field like Gettysburg's Devil's Den under a deep saturated blue sky, a narrow gap between two giant rust-orange granite boulders closed by a low stone wall; in the foreground an 1863 wooden bellows view camera on a tripod with a black cloth, seen from behind, aimed at the gap; a glowing bright cyan dotted path curves across the rocks from an empty patch of grass on the slope up to the stone wall, ending at a cyan-outlined rifle leaning against the rock; no people, no bodies, no blood; crisp outlines, simple bold shapes, high contrast, readable at small size, full-bleed artwork that fills the entire canvas edge to edge, no border, no frame, no white margin, no panel outline, a single scene only, 16:9, no text, no letters, no numbers, no captions, no watermark, no flags"
+ },
+ {
+  "id": "thumb_B",
+  "titulo": "Why Is the Same Dead Soldier in Two Gettysburg Photos?",
+  "palavras": [
+   "SAME MAN",
+   "40 YARDS"
+  ],
+  "prompt": "Vibrant editorial illustration for a YouTube thumbnail: two vintage sepia photograph prints with white mounts lying side by side (exactly two prints and nothing else in the picture) on a saturated rust-orange background, each print shows the same simplified boulder landscape of Devil's Den from a different angle with a small soldier's cap and a rifle on the ground (no body, no face), a thick glowing bright cyan dotted arrow jumps from the left print to the right print, a magnifying glass over the right print with a cyan rim light; crisp outlines, bold shapes, high contrast, readable at small size, full-bleed artwork that fills the entire canvas edge to edge, no border, no frame, no white margin, no panel outline, a single scene only, 16:9, no text, no letters, no numbers, no captions, no watermark"
+ },
+ {
+  "id": "thumb_C",
+  "titulo": "What Happened to the Real \"Harvest of Death\"?",
+  "palavras": [
+   "WRONG",
+   "ARMY"
+  ],
+  "prompt": "Vibrant editorial illustration for a YouTube thumbnail, clean cutaway cross-section: on top a misty green summer field at Gettysburg in 1863 with a split-rail fence and an 1863 wooden view camera on a tripod, deep blue sky; below the surface, in the brown earth layer, a single folded blue wool soldier's coat with a glowing bright cyan diamond-shaped badge on it, cyan light rays; no bodies, no bones, no blood, no faces; crisp outlines, simple bold shapes, high contrast, readable at small size, full-bleed artwork that fills the entire canvas edge to edge, no border, no frame, no white margin, no panel outline, a single scene only, 16:9, no text, no letters, no numbers, no captions, no watermark, no flags"
+ }
 ]

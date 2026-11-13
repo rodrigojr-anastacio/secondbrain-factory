@@ -36,3 +36,10 @@ Remotion 1080p30; render completo no Runpod (`tools/render_runpod.sh`), VPS só 
 - **Citação que só existe em fonte secundária** (falas de Wyatt e Juda "as recorded in Navy records", via Weisgall 1980) vai em **Cartela tipográfica com Selo "QUOTED"**, nunca como documento fingido.
 - **Página .gov com fotos de terceiros** (LLNL): DocGrifo com `regiao` só no texto.
 - Técnico (Remotion do canal): `crop` do KenBurns é **(x, y, largura, altura)**, não (x0, y0, x1, y1) (1ª versão do 002 deixou faixa preta); trechos de filme de telecine (DOE 720×540) com margem clara: o `build.py` do 002 corta 2% de cada borda; a regra de ≤ 12 s por tipo de tela só fecha com os tempos reais da voz (rodar `roteiro.py` de novo depois do `build.py`).
+
+## Aprendizados do 003 Gettysburg (13/11/2026, só fotos, sem filme)
+- Componente `Dupla` (2 fotos reais lado a lado, rótulo curto embaixo) serviu bem para "mesmo corpo/duas chapas"; ver `videos/003-gettysburg/src/componentes.jsx`.
+- Mapa sobre mapa histórico (Ditterline 1863): afim por 3 pontos de controle (`mapa_base` no `tools/build.py`); posições são aproximadas, por isso a tela diz "1863 MAP · POSITIONS APPROXIMATE". Conferir coordenadas dos pontos no mapa (McPherson's Woods estava ao norte da cidade na etapa 1; corrigido).
+- Número com texto longo: encolher/quebrar em 2 linhas; Cartela com linha longa: fonte proporcional (o pré-QA pegou os dois). Glifo ◆ vira losango CSS (a fonte mono não tem).
+- Captura de página web inteira (alta e estreita) fica ilegível: usar `regiao` do topo. Página do NPS sobre o crânio de 2015 não serve de fundo para a frase do "graveyard".
+- Thumbs: nano-banana devolve moldura/letterbox; pedir "full-bleed, no border" e recortar se ainda vier.

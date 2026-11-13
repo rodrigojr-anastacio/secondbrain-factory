@@ -1,9 +1,9 @@
 # STORYBOARD: 003-gettysburg (lugares-guerra-en, "Clearance Required")
 
 Gerado por `roteiro.py` (não editar à mão). Tempos estimados a 168 ppm (voz Narrator); recalcular com o áudio real no `build.py` da etapa 2.
-**179 planos · 15:51 · 11.3 planos/min · material real 85.4% · reuso 49.3% · imagens IA 0**
+**179 planos · 15:51 · 11.3 planos/min · material real 85.6% · reuso 48.8% · imagens IA 0**
 
-Componentes: Card 1, Cartela 5, DocGrifo 27, Dupla 23, EntaoAgora 5, KenBurns 89, Mapa2D 5, Número 24 · docs distintos 14 (grifados 8, citações lidas literalmente 11) · Números 39 · mapas 5 · EntaoAgora 5
+Componentes: Card 1, Cartela 5, DocGrifo 26, Dupla 24, EntaoAgora 5, KenBurns 90, Mapa2D 5, Número 23 · docs distintos 14 (grifados 8, citações lidas literalmente 11) · Números 38 · mapas 5 · EntaoAgora 5
 
 ## B01a [0:00] · IDEIA
 > Look at this photograph. You've almost certainly seen it before. A young soldier lies dead behind a low stone wall, in a nest of boulders at Gettysburg, Pennsylvania, in July of 1863. His head rests on a knapsack.
@@ -114,7 +114,7 @@ Componentes: Card 1, Cartela 5, DocGrifo 27, Dupla 23, EntaoAgora 5, KenBurns 89
 | P030 | 2:19 | 2.9 | KenBurns | `foto_culps_hill_arvores.jpg` tilt-cima (0.5, 0.56, 1.12)→(0.5, 0.44, 1.12) · Ficha: JULY 1863 · CULP'S HILL | It was the costliest battle of the war. |
 | P031 | 2:22 | 4.3 | KenBurns | `foto_prisioneiros_1863.jpg` zoom-in (0.5, 0.5, 1.04)→(0.5, 0.5, 1.16) · Ficha: JULY 1863 · CONFEDERATE PRISONERS | On the Fourth of July, in the rain, Lee began his retreat. |
 | P032 | 2:26 | 3.6 | KenBurns | `foto_rose_pomar.jpg` pan-dir (0.44, 0.5, 1.12)→(0.56, 0.5, 1.12) · Ficha: JULY 5, 1863 · ROSE FARM | And the people of Gettysburg were left with the dead. |
-| P033 | 2:30 | 5.7 | DocGrifo | `doc_nps_2015.png` [pagina] página/zoom (não literal) · Ficha: NATIONAL PARK SERVICE · GETTYSBURG | In the words of the National Park Service, every farm field or garden was a graveyard. |
+| P033 | 2:30 | 5.7 | Dupla | `foto_centro_campo.jpg` «CONFEDERATE DEAD» | `foto_mortos_federais_1jul.jpg` «UNION DEAD» | In the words of the National Park Service, every farm field or garden was a graveyard. |
 
 ## B04a [2:36] · IDEIA
 > Into those fields, a day or two later, came a wagon full of glass and chemicals. Alexander Gardner was a Scottish-born photographer who had spent years running Mathew Brady's gallery in Washington. Brady was the most famous name in American photography. But Brady had a habit.
@@ -182,7 +182,7 @@ Componentes: Card 1, Cartela 5, DocGrifo 27, Dupla 23, EntaoAgora 5, KenBurns 89
 |---|---|---|---|---|---|
 | P051 | 4:10 | 7.1 | DocGrifo | `doc_sketchbook_frontispicio.jpg` [pagina] página/zoom (não literal) · Ficha: 1866 · GARDNER'S PHOTOGRAPHIC SKETCH BOOK OF THE WAR | Years later, he would publish the best of them in a two-volume album, Gardner's Photograph… |
 | P052 | 4:17 | 5.7 | Dupla ♻ | `foto_toca_album_1866.jpg` «THE PLATE» | `doc_sketchbook_p41.jpg` «HIS WORDS» | each plate with a page of his own words beside it. Those words are the problem. |
-| P053 | 4:23 | 2.5 | Número | código: **1866** THE SKETCH BOOK | Remember one more thing he wrote there. |
+| P053 | 4:23 | 2.5 | KenBurns | `doc_sketchbook_titulo.jpg` zoom-in (0.5, 0.5, 1.04)→(0.5, 0.5, 1.16) · Ficha: 1866 · SKETCH BOOK, VOL. I | Remember one more thing he wrote there. |
 
 ## B05e [4:25]
 > He said he came back to Gettysburg on November 19th, 1863. Remember that date.
@@ -559,7 +559,7 @@ Componentes: Card 1, Cartela 5, DocGrifo 27, Dupla 23, EntaoAgora 5, KenBurns 89
 |---|---|---|---|---|---|
 | P158 | 13:45 | 7.5 | Número | código: **1871–1873** CONFEDERATE DEAD MOVED SOUTH | Between 1871 and 1873, most of them were dug up and carried south, the majority to Hollywo… |
 | P159 | 13:52 | 2.9 | KenBurns ♻ | `hoje_parque_highsmith.jpg` zoom-in (0.5, 0.5, 1.04)→(0.5, 0.5, 1.16) · Ficha: TODAY · GETTYSBURG | And not all of the dead were found. |
-| P160 | 13:55 | 4.6 | DocGrifo ♻ | `doc_nps_2015.png` [1996] grifo (não literal) · Ficha: NATIONAL PARK SERVICE · GETTYSBURG | In 1996, erosion near a railroad embankment on the battlefield exposed human bones. |
+| P160 | 13:55 | 4.6 | DocGrifo | `doc_nps_2015.png` [1996] grifo (não literal) · Ficha: NATIONAL PARK SERVICE · GETTYSBURG | In 1996, erosion near a railroad embankment on the battlefield exposed human bones. |
 
 ## B16d [14:00]
 > Scientists from the Smithsonian confirmed they came from the battle. The man was never identified. In 1997 he was buried in the national cemetery, under a stone that reads simply, "Unknown Civil War Remains."

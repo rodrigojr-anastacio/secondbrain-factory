@@ -120,7 +120,7 @@ G = {
 }
 
 # Pontos de mapa (lon E 0–360, lat). Mapa "campo" usa como base o mapa de Ditterline (1863, LoC): georreferenciar na etapa 2.
-P = {"GETTYSBURG": (282.769, 39.831), "SEMINARY RIDGE": (282.756, 39.833), "McPHERSON'S WOODS": (282.748, 39.836),
+P = {"GETTYSBURG": (282.769, 39.831), "SEMINARY RIDGE": (282.756, 39.833), "McPHERSON'S WOODS": (282.751, 39.8285)   # etapa 2: Reynolds caiu a ~1,5 km a oeste/sudoeste da cidade (antes 39.836 = norte, errado),
      "CEMETERY HILL": (282.770, 39.821), "CULP'S HILL": (282.780, 39.820), "LITTLE ROUND TOP": (282.763, 39.792),
      "DEVIL'S DEN": (282.758, 39.792), "ROSE FARM": (282.752, 39.796), "RAILROAD CUT": (282.755, 39.838),
      "FREDERICKSBURG": (282.540, 38.303), "WASHINGTON": (282.963, 38.907), "RICHMOND": (282.564, 37.541),
@@ -202,8 +202,7 @@ bloco("B03d",
       kb("It was the costliest", "foto_culps_hill_arvores.jpg", "tilt-cima"),
       kb("On the Fourth of July,", "foto_prisioneiros_1863.jpg", "zoom-in"),
       kb("And the people of Gettysburg", "foto_rose_pomar.jpg", "pan-dir"),
-      doc("In the words of the National", "doc_nps_2015.png", "pagina", G["pagina"], literal=False,
-          ficha=("NATIONAL PARK SERVICE · GETTYSBURG", "", "")))
+      dupla("In the words of the National", "foto_centro_campo.jpg", "foto_mortos_federais_1jul.jpg", "CONFEDERATE DEAD", "UNION DEAD"))   # etapa 2 (13/11): a página doc_nps_2015 é sobre um crânio de 2015, não a frase do "graveyard"
 # Nota: a frase "every farm field or garden was a graveyard" é da página Gettysburg Overview do NPS; aqui só a página do parque
 # como fundo (não literal). Etapa 2 pode trocar por captura da página Overview com o grifo (FATOS.md F07).
 
@@ -239,7 +238,7 @@ bloco("B05c",
 bloco("B05d",
       doc("Years later,", "doc_sketchbook_frontispicio.jpg", "pagina", G["pagina"]),
       dupla("each plate with a page", ALB41, S41, "THE PLATE", "HIS WORDS"),
-      num("Remember one more thing", "1866", "THE SKETCH BOOK"))
+      kb("Remember one more thing", "doc_sketchbook_titulo.jpg", "zoom-in"))   # etapa 2: 3 Números seguidos (13 s) → página-título do Sketch Book
 bloco("B05e",
       num("He said he came back", "NOV 19", "1863"))
 
@@ -379,7 +378,7 @@ bloco("B13b",
       kb("Four months, and nobody", TOCA, "zoom-out"))
 bloco("B13c",
       kb("By November, burial parties", "foto_covas_inacabadas.jpg", "pan-dir"),
-      doc("A rifle left in plain sight", "doc_loc_camera_3.png", "relic", G["pagina"], literal=False),
+      doc("A rifle left in plain sight", "doc_loc_camera_3.png", "relic", G["pagina"], literal=False, regiao=[0, 0, 1, 0.4]),
       kb("But Gardner was right", "foto_portao_cemiterio_1863.jpg", "zoom-in"))
 bloco("B13d",
       kb("So was a crowd", "foto_multidao_discurso.jpg", "pan-dir", num=("10,000+", "PEOPLE")),
