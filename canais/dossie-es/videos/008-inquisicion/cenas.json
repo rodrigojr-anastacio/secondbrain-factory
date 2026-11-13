@@ -21,7 +21,7 @@
  },
  {
   "id": "I006",
-  "prompt": "A large dark canvas awning being torn away by a sudden whirlwind over a crowded colonial square, ropes snapping, dust in the air, people looking up, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "A large dark canvas awning being torn away by a sudden whirlwind over a crowded Spanish colonial square in Lima in the 1630s, ropes snapping, dust in the air, people looking up, men in wide-brimmed hats, dark doublets and capes, women in long dark mantos, 17th century Spanish clothing only, no tricorn hats, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I007",
@@ -41,7 +41,7 @@
  },
  {
   "id": "I011",
-  "prompt": "A young woman in a 17th century Spanish dress and dark shawl sitting alone by a window with lowered eyes, a candle beside her, Chile, 1620s, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "Wide interior shot filling the whole frame, a young woman in a 17th century Spanish dress and dark shawl sitting alone by a window with lowered eyes, a candle beside her, Chile, 1620s, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I012",
@@ -85,7 +85,7 @@
  },
  {
   "id": "I022",
-  "prompt": "flat scan of an old printed paper map seen from directly above, muted colors, only coastlines, borders and terrain shading, completely blank: no labels, no text, no letters, no pins, no markers, no arrows, no table, no frame, western Europe with France, Spain and Italy, the Mediterranean in the lower part, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "flat scan of an old printed paper map seen from directly above, muted colors, only coastlines, borders and terrain shading, completely blank: no labels, no text, no letters, no pins, no markers, no arrows, no table, no frame, the western Mediterranean region with Spain and Portugal on the left, France in the upper center and Italy on the right, the sea in the lower part, all ocean and sea areas completely blank without names, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I023",
@@ -189,7 +189,7 @@
  },
  {
   "id": "I048",
-  "prompt": "Close-up of a notary's hands unrolling a long handwritten scroll on a wooden lectern, a crowd blurred behind, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "Close-up of a friar's hands in a wide black wool sleeve unrolling a long scroll on a wooden lectern, a crowd in 15th century clothing blurred behind, no suit, no cuffs, no buttons, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I049",
@@ -349,7 +349,7 @@
  },
  {
   "id": "I088",
-  "prompt": "flat scan of an old printed paper map seen from directly above, muted colors, only coastlines, borders and terrain shading, completely blank: no labels, no text, no letters, no pins, no markers, no arrows, no table, no frame, the Mediterranean Sea with Spain, Portugal, North Africa, Italy and the Ottoman lands, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "flat scan of an old printed paper map seen from directly above, muted colors, only coastlines, borders and terrain shading, completely blank: no labels, no text, no letters, no pins, no markers, no arrows, no table, no frame, the whole Mediterranean with Spain and Portugal at the far left edge, Italy, Greece and Turkey in the middle, Morocco and North Africa below, all sea areas completely blank without names, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I089",
@@ -477,7 +477,7 @@
  },
  {
   "id": "I120",
-  "prompt": "flat scan of an old printed paper map seen from directly above, muted colors, only coastlines, borders and terrain shading, completely blank: no labels, no text, no letters, no pins, no markers, no arrows, no table, no frame, the whole of South America and Panama, the Pacific and Atlantic oceans, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "flat scan of an old printed paper map seen from directly above, muted colors, only coastlines, borders and terrain shading, completely blank: no labels, no text, no letters, no pins, no markers, no arrows, no table, no frame, the whole of South America and Panama, with plain empty blue oceans on both sides, no ocean names, no lettering anywhere on the water, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I121",
@@ -609,7 +609,7 @@
  },
  {
   "id": "I153",
-  "prompt": "Officers arresting a bearded surgeon in his doorway in a small Chilean colonial town, his wife and child watching, 1627, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "Two 17th century Spanish officers in leather jerkins and plain steel morion helmets arresting a bearded surgeon in a plain linen shirt in his doorway in a small Chilean colonial town, his wife and child watching, 1627, no red cross, no bag, no modern uniform, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I154",
@@ -625,7 +625,7 @@
  },
  {
   "id": "I157",
-  "prompt": "A grand colonial mansion in Lima with carved wooden balconies, officers carrying out chests of silver, 1635, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "A grand colonial mansion in Lima with carved wooden balconies, men in 17th century leather jerkins and plain steel morion helmets carrying out chests of silver, 1635, no bicorn hats, no green coats, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I158",
@@ -637,7 +637,7 @@
  },
  {
   "id": "I160",
-  "prompt": "Valencia in 1826, an old square with a gothic tower, summer morning, a silent crowd seen from far away, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "Wide cinematic shot of a Valencia street in 1826 with a gothic tower rising behind rooftops, summer morning, a silent crowd of townspeople filling the foreground, detailed background on every side, nothing on a white background, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I161",
@@ -741,6 +741,6 @@
  },
  {
   "id": "thumb-C",
-  "prompt": "a thin surgeon in his mid forties with a long untidy dark beard streaked with grey, hollow cheeks and intense dark eyes, wearing a plain coarse yellow penitent's tunic with a simple red diagonal cross, no other symbols, small handmade notebooks hanging from his neck on string, in half body on the LEFT third of the frame, looking up at the sky with a defiant face, wind in his beard, behind him a crowded colonial plaza of Lima with a cathedral and a dark awning torn by the wind; the RIGHT half of the image is plain empty pale dusty sky, no pointed hoods, no conical hats, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "a thin surgeon in his mid forties with a long untidy dark beard streaked with grey, hollow cheeks and intense dark eyes, wearing a plain coarse yellow penitent's tunic with a simple red diagonal cross, no other symbols, two small old hand-sewn leather-bound books hanging from his neck on cords (no spiral binding, no modern notebooks), in half body on the LEFT third of the frame, looking up at the sky with a defiant face, wind in his beard, behind him a crowd in 17th century Spanish colonial clothing in a plaza of Lima with a cathedral and a dark awning torn by the wind; the RIGHT half of the image is plain empty pale dusty sky, no pointed hoods, no conical hats, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  }
 ]

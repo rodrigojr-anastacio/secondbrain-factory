@@ -71,13 +71,13 @@ b("Lleva al cuello los libros que escribió en la cárcel.",
   f"books_neck|Close-up of small handmade notebooks tied with string hanging from the neck of {MALDONADO}, worn yellow cloth, the pages covered with tiny unreadable handwriting" + SEM,
   "bone_pen|Close-up of a crude improvised pen carved from a thin sliver of bone beside a scrap of paper and a pot of black ink in a stone prison cell, candlelight" + SEM)
 b("Un remolino arranca el toldo. Él mira al cielo: según la crónica, dice que el Dios de Israel viene a verlo cara a cara.",
-  "awning|A large dark canvas awning being torn away by a sudden whirlwind over a crowded colonial square, ropes snapping, dust in the air, people looking up",
+  "awning|A large dark canvas awning being torn away by a sudden whirlwind over a crowded Spanish colonial square in Lima in the 1630s, ropes snapping, dust in the air, people looking up, men in wide-brimmed hats, dark doublets and capes, women in long dark mantos, 17th century Spanish clothing only, no tricorn hats",
   f"looks_up|{MALDONADO} looking up at the sky with a serene face, wind in his beard, dust swirling, low angle",
   "toldo_detail|Close-up of a torn dark canvas awning flapping violently against a bright sky, broken ropes whipping in the wind",
   "crowd_up|A crowd of 17th century Spaniards in a colonial square shielding their faces from a gust of wind, hats flying")
 b("Ese mismo día muere en la hoguera. Lo había denunciado su propia hermana.",
   "smoke_lima|A column of dark smoke rising behind the low colonial houses of Lima at dusk" + FOGO,
-  "sister|A young woman in a 17th century Spanish dress and dark shawl sitting alone by a window with lowered eyes, a candle beside her, Chile, 1620s")
+  "sister|Wide interior shot filling the whole frame, a young woman in a 17th century Spanish dress and dark shawl sitting alone by a window with lowered eyes, a candle beside her, Chile, 1620s")
 b("Esta es TODA la historia de la Inquisición. Y de cómo hizo de cada vecino un testigo.",
   "files_desk|A long dark desk covered with open brown case files tied with red string and old handwritten parchment documents, a red wax seal and a magnifying glass, lamp light" + SEM,
   "red_stamp|A hand slamming a red rubber stamp onto a brown paper case file, ink splash, dramatic close-up" + SEM,
@@ -95,7 +95,7 @@ b("Explica cómo interrogar a cada tipo de acusado. Qué preguntar. Qué respues
   "peasant_face|Close-up of a frightened medieval peasant man in a rough tunic, sweat on his brow, candlelight")
 b("La Inquisición no nace en España. Toma forma aquí, hacia mil doscientos treinta. El papa envía frailes contra los cátaros, cristianos que rechazaban a la Iglesia de Roma.",
   "languedoc|The rolling hills of Languedoc in southern France in the 13th century, a fortified village on a hill, vineyards, morning light",
-  "map_europa|" + MAPA + ", western Europe with France, Spain and Italy, the Mediterranean in the lower part",
+  "map_europa|" + MAPA + ", the western Mediterranean region with Spain and Portugal on the left, France in the upper center and Italy on the right, the sea in the lower part, all ocean and sea areas completely blank without names",
   "pope_med|A medieval pope in white robes handing a sealed parchment with a red wax seal to two Dominican friars kneeling before him in a dim hall, 1230s" + SEM,
   "cathars|A small group of medieval men and women in plain dark robes praying quietly in a stone farmhouse in southern France, firelight")
 b("Gui condena a más de seiscientas personas en quince años. Unas cuarenta terminan en la hoguera.",
@@ -136,7 +136,7 @@ b("El Primer Auto. Sevilla, seis de febrero de mil cuatrocientos ochenta y uno. 
   "procession|A solemn procession of friars carrying a green cross through a Seville street in 1481, condemned people in plain yellow tunics walking behind with candles, a silent crowd" + NOHOOD,
   "smoke_seville|A column of smoke rising in a field outside the walls of Seville at dawn" + FOGO, card="SEVILLA, 1481")
 b("Es el primer auto de fe de la Inquisición española: una ceremonia pública en la que se leen las sentencias ante la multitud.",
-  "scroll_reading|Close-up of a notary's hands unrolling a long handwritten scroll on a wooden lectern, a crowd blurred behind" + SEM + "",
+  "scroll_reading|Close-up of a friar's hands in a wide black wool sleeve unrolling a long scroll on a wooden lectern, a crowd in 15th century clothing blurred behind, no suit, no cuffs, no buttons" + SEM + "",
   "auto_stage|A wooden stage in a Spanish town square with a notary reading sentences from a long scroll to a large crowd, 15th century" + SEM,
   "crowd_listen|Faces of a crowd of 15th century Spaniards listening in silence in a town square, men, women and children")
 b("El tribunal no ejecuta a nadie. Entrega al condenado a la justicia del rey, que lo lleva a la hoguera. Lo llama «relajar».",
@@ -207,7 +207,7 @@ b("Tienen hasta finales de julio para irse. No pueden llevarse oro ni plata.",
 b("Los historiadores no coinciden en cuántos se fueron: entre unas cuarenta mil y más de cien mil personas.",
   "keys#detalhe-centro",
   "port_1492|A crowded Spanish harbor in 1492, families boarding small sailing ships with their bundles, seen from far away",
-  "map_exilio|" + MAPA + ", the Mediterranean Sea with Spain, Portugal, North Africa, Italy and the Ottoman lands")
+  "map_exilio|" + MAPA + ", the whole Mediterranean with Spain and Portugal at the far left edge, Italy, Greece and Turkey in the middle, Morocco and North Africa below, all sea areas completely blank without names")
 b("Otros se bautizan para quedarse. Y cada nuevo bautizado es, para el tribunal, un sospechoso más.",
   "baptism_group|A priest baptizing a line of Jewish men and women at a church font in 1492, their faces sad",
   "eyes_door#detalhe-centro")
@@ -266,7 +266,7 @@ b("El Tribunal. Felipe segundo lleva el Santo Oficio a América. Abre en Lima en
   "lima_1570|Colonial Lima in 1570, a new grid of low adobe houses and churches by the river, dry hills behind",
   "tribunal_hall|The audience hall of the Inquisition in colonial Lima, a long table with a green cross and candles under a carved wooden ceiling, empty" + SEM, card="LIMA, 1570")
 b("El de Lima vigila casi toda la Sudamérica española, de Quito a Chile y el Río de la Plata.",
-  "map_sudamerica|" + MAPA + ", the whole of South America and Panama, the Pacific and Atlantic oceans")
+  "map_sudamerica|" + MAPA + ", the whole of South America and Panama, with plain empty blue oceans on both sides, no ocean names, no lettering anywhere on the water")
 b("En mil seiscientos diez abre un tercero en Cartagena de Indias, el gran puerto de esclavos del Caribe.",
   "cartagena|The walled port of Cartagena de Indias in the 17th century, ships in the bay, fortress walls, tropical light",
   "cartagena_port|Enslaved Africans being unloaded from a ship at the docks of Cartagena in the 17th century, seen from far away, Spanish officials watching")
@@ -332,14 +332,14 @@ b("Lo crían católico. Pero de joven lee, estudia y decide volver, en secreto, 
   "old_books|Old Latin books open on a table in a colonial house, a candle burning low" + SEM)
 b("En Chile se lo confiesa a su hermana Isabel. Ella lo denuncia, empujada por su confesor. En mil seiscientos veintisiete, lo detienen.",
   "sister#médio-esq",
-  "concepcion_arrest|Officers arresting a bearded surgeon in his doorway in a small Chilean colonial town, his wife and child watching, 1627", card="CHILE, 1627")
+  "concepcion_arrest|Two 17th century Spanish officers in leather jerkins and plain steel morion helmets arresting a bearded surgeon in a plain linen shirt in his doorway in a small Chilean colonial town, his wife and child watching, 1627, no red cross, no bag, no modern uniform", card="CHILE, 1627")
 b("Pasa casi doce años preso. Ayuna, discute con los teólogos y no se retracta.",
   f"cell_writing|{MALDONADO} writing with a bone pen in a dim stone prison cell, thin from fasting",
   "theologians|Three theologians in black and white robes arguing with a gaunt bearded prisoner across a table in a prison room" + SEM,
   "bone_pen#detalhe-centro")
 b("Al mismo auto llegan decenas de portugueses de Lima. El tribunal los acusa de una supuesta conspiración judía, que llama la complicidad grande. Entre ellos, el rico mercader Manuel Bautista Pérez.",
   "merchants|Wealthy Portuguese merchants in black 17th century suits being led in a line through a Lima street by officers",
-  "perez_house|A grand colonial mansion in Lima with carved wooden balconies, officers carrying out chests of silver, 1635")
+  "perez_house|A grand colonial mansion in Lima with carved wooden balconies, men in 17th century leather jerkins and plain steel morion helmets carrying out chests of silver, 1635, no bicorn hats, no green coats")
 b("El veintitrés de enero de mil seiscientos treinta y nueve, el tribunal entrega a la hoguera a once personas. Entre ellas, Maldonado y Bautista Pérez. Confisca fortunas enteras.",
   "lima_plaza#detalhe-alto", "smoke_lima#médio-esq", "inventory#detalhe-centro")
 b("Diez años después, en la Ciudad de México, el gran auto de fe de mil seiscientos cuarenta y nueve juzga a ciento nueve personas. Tomás Treviño de Sobremonte es el único que va vivo a la hoguera.",
@@ -351,7 +351,7 @@ b("En el siglo dieciocho los autos se vuelven raros. Pero el tribunal sigue en p
 # ───────────────────────── 13. EL MAESTRO ─────────────────────────
 cap("13. El Maestro")
 b("El Maestro. Valencia, veintiséis de julio de mil ochocientos veintiséis. Cayetano Ripoll, un maestro de escuela, es ahorcado.",
-  "valencia|Valencia in 1826, an old square with a gothic tower, summer morning, a silent crowd seen from far away",
+  "valencia|Wide cinematic shot of a Valencia street in 1826 with a gothic tower rising behind rooftops, summer morning, a silent crowd of townspeople filling the foreground, detailed background on every side, nothing on a white background",
   f"ripoll|{RIPOLL} in portrait, a simple classroom behind him@@CAYETANO RIPOLL", card="VALENCIA, 1826")
 b("Lo acusan de deísmo: de enseñar a sus alumnos sin misa ni oraciones. Lo juzga una Junta de Fe, que muchos ven como la Inquisición con otro nombre. Es la última ejecución por herejía en España.",
   "classroom_1826|A simple village classroom in 1826 in Spain, children on benches, a teacher at a blackboard with simple drawings" + SEM,
@@ -415,7 +415,7 @@ SANGRIA = ", full-bleed illustration filling the entire frame edge to edge, no b
 THUMBS = [
     {"id": "thumb-A", "prompt": f"{TORQUEMADA}, in half body on the LEFT third of the frame, holding up a rolled parchment with a large red wax seal, cold stare at the viewer, behind him a dark candlelit stone tribunal hall with a green cross on a table; the RIGHT half of the image is plain dark empty stone wall in shadow" + NOHOOD + SEM},
     {"id": "thumb-B", "prompt": "A Spanish man in a black 17th century suit and white ruff in half body on the LEFT third of the frame, whispering behind his hand toward the viewer with a sly look, a folded paper note in his other hand, behind him a dim colonial street at night with a lantern and a half-open shutter; the RIGHT half of the image is plain empty dark night wall" + NOHOOD + SEM},
-    {"id": "thumb-C", "prompt": f"{MALDONADO}, wearing {SAMB}, small handmade notebooks hanging from his neck on string, in half body on the LEFT third of the frame, looking up at the sky with a defiant face, wind in his beard, behind him a crowded colonial plaza of Lima with a cathedral and a dark awning torn by the wind; the RIGHT half of the image is plain empty pale dusty sky" + NOHOOD + SEM},
+    {"id": "thumb-C", "prompt": f"{MALDONADO}, wearing {SAMB}, two small old hand-sewn leather-bound books hanging from his neck on cords (no spiral binding, no modern notebooks), in half body on the LEFT third of the frame, looking up at the sky with a defiant face, wind in his beard, behind him a crowd in 17th century Spanish colonial clothing in a plaza of Lima with a cathedral and a dark awning torn by the wind; the RIGHT half of the image is plain empty pale dusty sky" + NOHOOD + SEM},
 ]
 # ───────────────────────── geração ─────────────────────────
 TAG = re.compile(r"\[[^\]]*\]\s*")   # [break], [long-break], [emphasis] e as tags de tom ([curious] etc.)

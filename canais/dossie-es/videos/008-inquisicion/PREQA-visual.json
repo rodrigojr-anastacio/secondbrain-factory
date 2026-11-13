@@ -1,0 +1,1233 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/dossie-es/videos/008-inquisicion/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2661,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 1,
+  "medio": 27,
+  "baixo": 29
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q06",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme no topo (8%, RGB 41,50,52). No quadro, é só o céu escuro liso da cena e parece fazer parte dela; sem emenda visível. Conferir se não há corte seco entre o céu e a imagem.",
+   "t": 31.0,
+   "arquivo": "930.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O carimbo 'CLASIFICADO' fica sobre a borda superior direita da placa e cobre parte da torre e da bandeira. Pode ser estilo intencional, mas o carimbo ultrapassa a placa e a leitura fica um pouco apertada.",
+   "t": 32.5,
+   "arquivo": "975.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Mesmo sinal de faixa no topo (RGB 40,50,52). Parece céu escuro liso e contínuo, sem emenda. Só vale confirmar.",
+   "t": 32.5,
+   "arquivo": "975.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "A página do livro aberto, à direita, traz escrita e desenhos ilegíveis inventados pela IA. É pequena e discreta, mas visível. O nome 'BERNARDO GUI' é rótulo do código e está correto.",
+   "t": 39.03333333333333,
+   "arquivo": "1171.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "As duas figuras no caminho estão de costas, com capas simples. O castelo tem bandeirolas vermelhas pequenas sem marcas legíveis. Não é erro claro, só uma observação de época.",
+   "t": 51.0,
+   "arquivo": "1530.png"
+  },
+  {
+   "quadro": "Q11",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "No mapa, o rótulo TOULOUSE fica colado na borda esquerda e o ponto de Toulouse está quase no canto. O enquadramento deixa a França quase toda fora do quadro. Além disso, há pequenas manchas vermelhas soltas (Albânia, Líbia, Egito, canto direito) que parecem artefatos do mapa.",
+   "t": 54.86666666666667,
+   "arquivo": "1646.png"
+  },
+  {
+   "quadro": "Q16",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Roma 1478 mostra uma cúpula e fachadas de estilo barroco (igreja com cúpula ao centro), posteriores a 1478. A cena é de IA e pode passar, mas há dúvida de época. A faixa de cor sinalizada pelo detector no topo é só o céu liso do pôr do sol, o que é aceitável.",
+   "t": 81.0,
+   "arquivo": "2430.png"
+  },
+  {
+   "quadro": "Q19",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Faixa cinza-esverdeada lisa (RGB 55,60,58) no topo, cerca de 4% do quadro, acima das torres. Parece céu liso ou vinheta da cena, mas pode ser uma faixa chapada. Na dúvida entre estilo e defeito, registro como médio.",
+   "t": 121.0,
+   "arquivo": "3630.png"
+  },
+  {
+   "quadro": "Q20",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Faixa lisa cinza-esverdeada no topo, a mesma do Q19. Parece céu intencional, mas há dúvida se é uma faixa chapada.",
+   "t": 121.63333333333334,
+   "arquivo": "3649.png"
+  },
+  {
+   "quadro": "Q21",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Faixa lisa cinza-esverdeada no topo, a mesma dos quadros anteriores. Parece céu liso, com dúvida entre estilo e defeito.",
+   "t": 122.06666666666666,
+   "arquivo": "3662.png"
+  },
+  {
+   "quadro": "Q23",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "À direita, o carrasco encapuzado junto à mesa/cavalete vermelho fica pouco legível, e a alabarda sai do quadro pela borda. É um enquadramento aceitável, sem gravidade.",
+   "t": 141.0,
+   "arquivo": "4230.png"
+  },
+  {
+   "quadro": "Q24",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os manuscritos na mesa têm linhas de escrita simulada, e os tapeçarias ao fundo têm figuras. São rabiscos ilegíveis, discretos e sem leitura clara. As manchas vermelhas nas mãos do frade parecem sangue, o que pode destoar do tema sem tortura gráfica.",
+   "t": 151.0,
+   "arquivo": "4530.png"
+  },
+  {
+   "quadro": "Q26",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa de título 'EL EDICTO' cobre a maior parte da torre do sino. A pomba atrás do canto da placa e o carimbo 'CLASIFICADO' sobre o contorno criam um aglomerado leve, mas o texto continua legível.",
+   "t": 170.33333333333334,
+   "arquivo": "5110.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Galeria de museu com vitrines de vidro e figurantes em trajes do séc. XIX. O contexto diz que é intencional, mas o conteúdo das vitrines (aparelhos de laboratório e máquinas) é genérico e não deixa claro que se trata de objetos da Inquisição. Dúvida entre estilo e defeito.",
+   "t": 221.0,
+   "arquivo": "6630.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa 'EL SAMBENITO' cobre a figura em sambenito amarelo na porta da igreja. Só aparecem as pernas e a barra da roupa, então o elemento central do capítulo fica quase escondido.",
+   "t": 223.43333333333334,
+   "arquivo": "6703.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Granada/Alhambra com bandeirinhas vermelhas nas torres. Não dá para ver emblema legível. Na dúvida entre estilo e defeito, conferir se não lembram bandeira anacrônica.",
+   "t": 263.0,
+   "arquivo": "7890.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa uniforme de 5% no topo (RGB 49,54,53). Visualmente é o céu escuro da ilustração, que se funde ao fundo. Provável vinheta/céu liso intencional, sem defeito claro; vale conferir o corte do topo.",
+   "t": 263.0,
+   "arquivo": "7890.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Mesmo sinal de faixa no topo (RGB 49,55,54). Parece só o céu escuro da cena, sem emenda visível. Na dúvida, conferir se não é uma faixa chapada.",
+   "t": 263.4,
+   "arquivo": "7902.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Mapa com fronteiras modernas (Norte da África com linhas retas de países atuais) numa narrativa de 1492. Dúvida entre estilo e erro. O rótulo 'Imperio Otomano' está sobre a Anatólia, aceitável. Há pontinhos vermelhos soltos (Irã, Arábia, Egito) que parecem ruído de textura.",
+   "t": 283.96666666666664,
+   "arquivo": "8519.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Rótulo 'PORTUGAL' encostado na borda esquerda do quadro, quase cortado. Rótulo 'NORTE DE ÁFRICA' sobreposto a linhas de fronteira.",
+   "t": 283.96666666666664,
+   "arquivo": "8519.png"
+  },
+  {
+   "quadro": "Q42",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa uniforme de 4% no topo, mas é o céu escuro da cena, sem emenda visível. Provavelmente falso positivo.",
+   "t": 301.0,
+   "arquivo": "9030.png"
+  },
+  {
+   "quadro": "Q47",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O pergaminho segurado pelo terceiro homem da esquerda traz glifos/escrita pseudo-asteca ilegíveis. Pode ser aceitável como códice, mas é texto inventado pela IA e bem visível.",
+   "t": 321.0,
+   "arquivo": "9630.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Um cocar de penas vermelho aparece no meio da multidão ajoelhada, à esquerda do centro. Em cena de missa cristã com indígenas convertidos, o cocar pode ser anacrônico ou estereotipado. Na dúvida entre estilo e defeito, registro como médio.",
+   "t": 331.0,
+   "arquivo": "9930.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Riscos e linhas de transparência (reflexos finos) atravessam a imagem, sobretudo no céu e sobre as colunas. Parecem artefato de IA ou de overlay, discretos.",
+   "t": 331.0,
+   "arquivo": "9930.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático apontou faixa uniforme no topo (21%, RGB 55,64,67), mas na imagem é só o céu nublado escuro da cena, com nuvens visíveis. Provável falso positivo; registrado só por precaução.",
+   "t": 357.03333333333336,
+   "arquivo": "10711.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Mesmo sinal de faixa no topo do Q51. O céu é nublado e faz parte da cena, então provavelmente não é defeito.",
+   "t": 357.46666666666664,
+   "arquivo": "10724.png"
+  },
+  {
+   "quadro": "Q54",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Na parede ao fundo há uma placa/brasão com símbolos pseudo-escritos e o número '1572'. A IA gerou esse texto, que pode ser falso. A legenda 'FRAY LUIS DE LEÓN' é do código e está legível, mas fica perto da borda inferior esquerda e sobre as cabeças dos frades.",
+   "t": 378.43333333333334,
+   "arquivo": "11353.png"
+  },
+  {
+   "quadro": "Q56",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os tapeçarias na parede têm cenas com figuras e possíveis grafismos pseudo-escritos. São discretos e sem letras legíveis.",
+   "t": 391.0,
+   "arquivo": "11730.png"
+  },
+  {
+   "quadro": "Q57",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O rótulo MEXICO está sem acento (no Q59 aparece MÉXICO) e o pino cai no litoral do Golfo (Tamaulipas/Veracruz), não na cidade do México. Pode ser intencional, mas é inconsistente com os quadros seguintes.",
+   "t": 395.8666666666667,
+   "arquivo": "11876.png"
+  },
+  {
+   "quadro": "Q58",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Mesmo problema do Q57: rótulo MEXICO sem acento, inconsistente com MÉXICO no Q59, e pino no litoral do Golfo.",
+   "t": 398.1666666666667,
+   "arquivo": "11945.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Rótulo CHILE aponta para um pino no litoral central, enquanto Lima usa fonte maior que os demais rótulos. Os rótulos têm tamanhos de fonte diferentes e parecem inconsistentes.",
+   "t": 414.1333333333333,
+   "arquivo": "12424.png"
+  },
+  {
+   "quadro": "Q64",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Mesma inconsistência do Q63: o rótulo LIMA tem fonte maior que os demais.",
+   "t": 418.23333333333335,
+   "arquivo": "12547.png"
+  },
+  {
+   "quadro": "Q65",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Os soldados no forte usam casacas azuis e chapéus de aba tipo século XVIII, e as bandeiras vermelhas lisas nos navios e no forte são genéricas. Dúvida sobre a época (colônia hispânica), sem erro claro.",
+   "t": 421.0,
+   "arquivo": "12630.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo mostra 'EXPEDIENTE 10' e 'Nº 008', e o carimbo 'CLASIFICADO' encosta na aba da placa e invade a imagem. Pode haver numeração inconsistente entre os dois campos. Também há dúvida sobre estilo ou defeito: o carimbo se sobrepõe à aba 'EXPEDIENTE 10'.",
+   "t": 458.8,
+   "arquivo": "13764.png"
+  },
+  {
+   "quadro": "Q72",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O pequeno crucifixo na mão do padre tem um letreiro minúsculo ilegível (INRI inventado), e a coluna à direita tem '1611' gravado pela IA. Provavelmente o '1611' é intencional, mas a data vem da imagem e não do código.",
+   "t": 478.7,
+   "arquivo": "14361.png"
+  },
+  {
+   "quadro": "Q74",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Na página do manuscrito aberto há linhas de escrita cursiva ilegível, inventada pela IA. É discreta e funciona como textura de manuscrito, mas é letra falsa visível.",
+   "t": 491.0,
+   "arquivo": "14730.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme no topo (17%, RGB 43,52,56). Na imagem é céu escuro liso com leve gradiente, parte da cena e da vinheta, atrás do domo. Sem defeito claro; registrado só por causa do sinal.",
+   "t": 523.8333333333334,
+   "arquivo": "15715.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Mesmo sinal de faixa uniforme no topo (17%). Parece céu escuro liso da cena, sem emenda visível. Há dúvida entre estilo e defeito.",
+   "t": 524.2666666666667,
+   "arquivo": "15728.png"
+  },
+  {
+   "quadro": "Q79",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Galileu ajoelhado se sobrepõe à ponta da mesa dos cardeais, e as mãos dele parecem encostar na borda da mesa. Há leve confusão de profundidade, mas é aceitável.",
+   "t": 531.0,
+   "arquivo": "15930.png"
+  },
+  {
+   "quadro": "Q81",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Praça com colunata tipo São Pedro e fogueira com grande coluna de fumaça no centro; a multidão ao redor das chamas é pequena e discreta, mas há risco de a fogueira parecer figura/cena de queima gráfica. Também há uma faixa vermelha cortada na borda esquerda (bandeira/pano) e uma fatia de prédio cortada na borda direita; é só enquadramento, mas confira se são bandeiras anacrônicas.",
+   "t": 551.0,
+   "arquivo": "16530.png"
+  },
+  {
+   "quadro": "Q84",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Praça de Lima com multidão densa e tendas; as bandeirolas vermelhas soltas são pequenas e sem emblema. Fachada azul chapada da catedral parece achatada, estética discutível mas provavelmente intencional.",
+   "t": 581.0,
+   "arquivo": "17430.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Sinal automático de faixa uniforme no topo (13%, RGB 38,47,51): é o céu escuro liso da cena atrás da placa de capítulo, sem faixa chapada de cor errada. Não é defeito, só registro.",
+   "t": 583.8,
+   "arquivo": "17514.png"
+  },
+  {
+   "quadro": "Q87",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Os dois livros abertos têm linhas de escrita falsa/ornamentos ilegíveis nas páginas. Pequeno e em estilo de manuscrito decorativo, mas é texto inventado pela IA.",
+   "t": 601.0,
+   "arquivo": "18030.png"
+  },
+  {
+   "quadro": "Q91",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Soldado em primeiro plano à direita carrega baú com pingos caindo da base; detalhe estranho, sem prejuízo à leitura.",
+   "t": 631.0,
+   "arquivo": "18930.png"
+  },
+  {
+   "quadro": "Q92",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Pequenos fragmentos avermelhados soltos no ar ao redor da coluna de fumaça parecem artefatos; o incêndio sem figuras nas chamas é aceitável.",
+   "t": 641.0,
+   "arquivo": "19230.png"
+  },
+  {
+   "quadro": "Q95",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Multidão de roupas do séc. XIX (coletes, faixas vermelhas na cintura) ao fundo da placa 'El Maestro'; provavelmente intencional (cena de 1817 e posteriores), mas há dúvida se combina com o restante do capítulo.",
+   "t": 670.4333333333333,
+   "arquivo": "20113.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O quadro-negro ao fundo tem rabiscos de giz pseudo-letras ilegíveis (símbolos tipo 'A', 'FA'). São garranchos que parecem texto falso da IA, mas pouco legíveis e discretos.",
+   "t": 676.9666666666667,
+   "arquivo": "20309.png"
+  },
+  {
+   "quadro": "Q101",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A bandeira à esquerda e a do canto direito mostram emblemas indefinidos. Têm aspecto de estandarte inventado, e o enquadramento mostra dois estandartes sem identificação clara (dúvida entre estilo e defeito).",
+   "t": 707.1,
+   "arquivo": "21213.png"
+  },
+  {
+   "quadro": "Q104",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os mapas nas paredes têm contornos inventados, sem texto legível, e a geografia é fictícia. O defeito é discreto. O frasco de lacre vermelho tem um desenho confuso.",
+   "t": 731.0,
+   "arquivo": "21930.png"
+  },
+  {
+   "quadro": "Q109",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Crossfade entre as cenas deixa transparência de uma figura sobre a pilha de livros. É transição, não defeito; só confirmar que não permanece.",
+   "t": 751.0,
+   "arquivo": "22530.png"
+  },
+  {
+   "quadro": "Q110",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Os dois monges no canto inferior direito estão cortados pela borda e parecem ligeiramente deformados. O frade da direita segura um objeto indefinido. Pode ser só enquadramento normal; registrado por dúvida.",
+   "t": 771.0,
+   "arquivo": "23130.png"
+  },
+  {
+   "quadro": "Q111",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "As páginas do livro aberto trazem tabela com manuscrito falso e ilegível, escrito pela IA. É pequeno e decorativo, e o texto é ilegível de propósito, mas é texto inventado visível. Registrado por dúvida.",
+   "t": 781.0,
+   "arquivo": "23430.png"
+  },
+  {
+   "quadro": "Q112",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "No mapa da América do Sul, o rótulo \"CHILE\" está no litoral do Pacífico na altura do norte do Chile, fora da posição correta, e o rótulo \"RÍO DE LA PLATA\" aponta para a costa atlântica da Argentina/Uruguai. \"Cartagena\" e \"Quito\" estão aproximadamente certos. O ponto de Lima parece certo. O pin de Chile fica mal posicionado.",
+   "t": 783.0333333333333,
+   "arquivo": "23491.png"
+  },
+  {
+   "quadro": "Q113",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Rótulo \"CHILE\" marca um país/região inteira, enquanto os demais rótulos são cidades. Além disso, o ponto está na costa e a geografia do mapa parece levemente distorcida (Cartagena no topo ok). Possível inconsistência de rótulos; confirmar se é o desejado pelo roteiro.",
+   "t": 785.9333333333333,
+   "arquivo": "23578.png"
+  },
+  {
+   "quadro": "Q115",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Na colunata à esquerda há um painel/placa retangular em branco e na fachada da basílica detalhes minúsculos que podem parecer letreiro. Nada legível, mas o painel liso chama atenção.",
+   "t": 801.0,
+   "arquivo": "24030.png"
+  },
+  {
+   "quadro": "Q116",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Placa de título com 'CLASIFICADO' e 'EXPEDIENTE CERRADO' cobre boa parte da fachada. Sem erro de texto, só a sobreposição ao fundo. O carimbo vermelho encosta na palmeira, mas sem prejuízo de leitura.",
+   "t": 813.5,
+   "arquivo": "24405.png"
+  },
+  {
+   "quadro": "Q118",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Os livros pendurados no pescoço do homem têm páginas com escrita falsa/ilegível gerada pela IA. É texto manuscrito pequeno, em tom de rabisco, bem visível em primeiro plano. Dúvida entre estilo e defeito.",
+   "t": 821.0,
+   "arquivo": "24630.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 1.0,
+   "nome": "30.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 1.6,
+   "nome": "48.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 1.6666666666666667,
+   "nome": "50.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 11.0,
+   "nome": "330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 21.0,
+   "nome": "630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 31.0,
+   "nome": "930.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(41,50,52)"
+   ]
+  },
+  {
+   "id": "Q07",
+   "t": 32.5,
+   "nome": "975.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(40,50,52)"
+   ]
+  },
+  {
+   "id": "Q08",
+   "t": 39.03333333333333,
+   "nome": "1171.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 41.0,
+   "nome": "1230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 51.0,
+   "nome": "1530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 54.86666666666667,
+   "nome": "1646.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 61.0,
+   "nome": "1830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 74.86666666666666,
+   "nome": "2246.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 78.13333333333334,
+   "nome": "2344.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 78.53333333333333,
+   "nome": "2356.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 81.0,
+   "nome": "2430.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(155,130,90)"
+   ]
+  },
+  {
+   "id": "Q17",
+   "t": 91.0,
+   "nome": "2730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 101.0,
+   "nome": "3030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 121.0,
+   "nome": "3630.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(55,60,58)"
+   ]
+  },
+  {
+   "id": "Q20",
+   "t": 121.63333333333334,
+   "nome": "3649.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(55,60,58)"
+   ]
+  },
+  {
+   "id": "Q21",
+   "t": 122.06666666666666,
+   "nome": "3662.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(55,60,58)"
+   ]
+  },
+  {
+   "id": "Q22",
+   "t": 131.0,
+   "nome": "3930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 141.0,
+   "nome": "4230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 151.0,
+   "nome": "4530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 161.0,
+   "nome": "4830.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(77,100,103)"
+   ]
+  },
+  {
+   "id": "Q26",
+   "t": 170.33333333333334,
+   "nome": "5110.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 171.0,
+   "nome": "5130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 181.0,
+   "nome": "5430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 191.0,
+   "nome": "5730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 211.0,
+   "nome": "6330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 221.0,
+   "nome": "6630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 223.43333333333334,
+   "nome": "6703.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 231.0,
+   "nome": "6930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 241.0,
+   "nome": "7230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 251.0,
+   "nome": "7530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 263.0,
+   "nome": "7890.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(49,54,53)"
+   ]
+  },
+  {
+   "id": "Q37",
+   "t": 263.4,
+   "nome": "7902.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(49,55,54)"
+   ]
+  },
+  {
+   "id": "Q38",
+   "t": 271.0,
+   "nome": "8130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 281.0,
+   "nome": "8430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 283.96666666666664,
+   "nome": "8519.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 299.46666666666664,
+   "nome": "8984.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 301.0,
+   "nome": "9030.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(47,58,64)"
+   ]
+  },
+  {
+   "id": "Q43",
+   "t": 302.4,
+   "nome": "9072.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(44,54,59)"
+   ]
+  },
+  {
+   "id": "Q44",
+   "t": 302.8333333333333,
+   "nome": "9085.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 7% do quadro, cor RGB(44,54,59)"
+   ]
+  },
+  {
+   "id": "Q45",
+   "t": 305.56666666666666,
+   "nome": "9167.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 311.0,
+   "nome": "9330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 321.0,
+   "nome": "9630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 331.0,
+   "nome": "9930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 341.0,
+   "nome": "10230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 351.0,
+   "nome": "10530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 357.03333333333336,
+   "nome": "10711.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 21% do quadro, cor RGB(55,64,67)"
+   ]
+  },
+  {
+   "id": "Q52",
+   "t": 357.46666666666664,
+   "nome": "10724.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 21% do quadro, cor RGB(55,63,67)"
+   ]
+  },
+  {
+   "id": "Q53",
+   "t": 371.0,
+   "nome": "11130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 378.43333333333334,
+   "nome": "11353.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 381.0,
+   "nome": "11430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 391.0,
+   "nome": "11730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 395.8666666666667,
+   "nome": "11876.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 398.1666666666667,
+   "nome": "11945.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 401.0,
+   "nome": "12030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 402.9,
+   "nome": "12087.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 403.3333333333333,
+   "nome": "12100.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 411.0,
+   "nome": "12330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 414.1333333333333,
+   "nome": "12424.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 418.23333333333335,
+   "nome": "12547.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 421.0,
+   "nome": "12630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 431.0,
+   "nome": "12930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 441.0,
+   "nome": "13230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 451.0,
+   "nome": "13530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 458.8,
+   "nome": "13764.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 461.0,
+   "nome": "13830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 471.0,
+   "nome": "14130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 478.7,
+   "nome": "14361.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 481.0,
+   "nome": "14430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 491.0,
+   "nome": "14730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 501.0,
+   "nome": "15030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 521.0,
+   "nome": "15630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 523.8333333333334,
+   "nome": "15715.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 17% do quadro, cor RGB(43,52,56)"
+   ]
+  },
+  {
+   "id": "Q78",
+   "t": 524.2666666666667,
+   "nome": "15728.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 17% do quadro, cor RGB(43,52,56)"
+   ]
+  },
+  {
+   "id": "Q79",
+   "t": 531.0,
+   "nome": "15930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 531.2,
+   "nome": "15936.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 551.0,
+   "nome": "16530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 561.0,
+   "nome": "16830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 571.0,
+   "nome": "17130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 581.0,
+   "nome": "17430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 583.8,
+   "nome": "17514.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 13% do quadro, cor RGB(38,47,51)"
+   ]
+  },
+  {
+   "id": "Q86",
+   "t": 591.0,
+   "nome": "17730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 601.0,
+   "nome": "18030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 604.9,
+   "nome": "18147.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 611.0,
+   "nome": "18330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 621.0,
+   "nome": "18630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 631.0,
+   "nome": "18930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 641.0,
+   "nome": "19230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 651.0,
+   "nome": "19530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 661.0,
+   "nome": "19830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 670.4333333333333,
+   "nome": "20113.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 670.8666666666667,
+   "nome": "20126.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 671.0,
+   "nome": "20130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 676.9666666666667,
+   "nome": "20309.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 691.0,
+   "nome": "20730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 701.0,
+   "nome": "21030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q101",
+   "t": 707.1,
+   "nome": "21213.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 711.0,
+   "nome": "21330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 718.4666666666667,
+   "nome": "21554.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 731.0,
+   "nome": "21930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q105",
+   "t": 741.0,
+   "nome": "22230.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 17% do quadro, cor RGB(46,53,56)"
+   ]
+  },
+  {
+   "id": "Q106",
+   "t": 741.5,
+   "nome": "22245.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 17% do quadro, cor RGB(46,53,56)"
+   ]
+  },
+  {
+   "id": "Q107",
+   "t": 741.9,
+   "nome": "22257.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 13% do quadro, cor RGB(47,55,58)"
+   ]
+  },
+  {
+   "id": "Q108",
+   "t": 748.1666666666666,
+   "nome": "22445.png",
+   "sinais": []
+  },
+  {
+   "id": "Q109",
+   "t": 751.0,
+   "nome": "22530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q110",
+   "t": 771.0,
+   "nome": "23130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q111",
+   "t": 781.0,
+   "nome": "23430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q112",
+   "t": 783.0333333333333,
+   "nome": "23491.png",
+   "sinais": []
+  },
+  {
+   "id": "Q113",
+   "t": 785.9333333333333,
+   "nome": "23578.png",
+   "sinais": []
+  },
+  {
+   "id": "Q114",
+   "t": 791.0,
+   "nome": "23730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q115",
+   "t": 801.0,
+   "nome": "24030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q116",
+   "t": 813.5,
+   "nome": "24405.png",
+   "sinais": []
+  },
+  {
+   "id": "Q117",
+   "t": 813.9,
+   "nome": "24417.png",
+   "sinais": []
+  },
+  {
+   "id": "Q118",
+   "t": 821.0,
+   "nome": "24630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q119",
+   "t": 831.0,
+   "nome": "24930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q120",
+   "t": 841.0,
+   "nome": "25230.png",
+   "sinais": []
+  }
+ ]
+}

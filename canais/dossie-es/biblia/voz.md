@@ -17,6 +17,7 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md`. Configuraç�
 - Siglas como no uso latino ("la ce-i-a", "el ka-ge-be", "el efe-be-i"); confira na 1ª amostra do roteiro.
 - Números por extenso quando o Fish ler mal; datas "27 de junio de 1954".
 - **Whisper por bloco ≥ 95%** depois da voz; nomes próprios conferidos à parte. [estilo.md de 04/11]
+- Medido no 008 Inquisición (13/11): Whisper 97,9% (média; 8 blocos < 93%, todos grafia). Respelling do Fish funcionou ('Ometóch-tsin', 'Tescóco', 'Sugarra-múrdi', 'Yorénte', 'Ripóy', 'Tulús'); o Whisper ouviu 'Gui' como 'Guy' e 'Zumárraga' ('Sumárraga') quebrado em 'su ma raga': conferir de ouvido. Aspas «» e algarismo romano por extenso saem bem. Custo da voz de 14 min: US$ 0,18. [`videos/008-inquisicion/QA.md`]
 
 ## Não faça
 - Vozes que imitam pessoas reais (dubladores, políticos, Iker Jiménez) nem a voz de TikTok mais usada (`locutor k`).
