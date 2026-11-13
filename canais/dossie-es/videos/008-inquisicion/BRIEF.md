@@ -1,0 +1,8 @@
+# BRIEF: dossie-es 008, La Inquisición (`youtube.videos` id 35)
+
+Origem: `~/workspace/referencias/BRIEF-lote-dossie-008-inquisicion.md` + `BRIEF-lote-fds-COMUM.md` (lote 15–16/11, aprovado pelo Rodrigo em 13/11). Publica **segunda 16/11**. Teto **US$ 10** (fal + Fish + Runpod).
+- **Por que agora** [pauta `pesquisa/pauta-2026-11-15/RELATORIO.md` §2]: melhor histórico no molde exato em es (Academia Play "La inquisición en 15 minutos" 4,7 mi, 2018); busca es mediana top-10 386 mil; ninguém fez no molde em 2026 (Archive/Atlas não têm). Muda de cluster depois da SS. **Hipótese:** sem vizinho rodando o tema agora, pode puxar menos sugeridos.
+- **Cuidados:** separar fato documentado × lenda negra (números com fonte e faixa); sem tortura gráfica (nem no texto nem na imagem); fogueira só como fumaça de longe; nada de capuz pontudo (lembra KKK); sambenito liso; tom equilibrado em tema religioso (nada de ataque à Igreja de hoje nem apologia).
+- **Hook:** Lima, 23/01/1639: Francisco Maldonado da Silva, cirurgião de Tucumán, com os livros escritos na cela pendurados no pescoço; o redemoinho arranca o toldo; queimado no mesmo dia; denunciado pela própria irmã. Trocado em relação à pauta (1649 no México), que virou parte do expediente 12: motivo em `SOURCES.md`.
+- 14 expedientes: El Manual, La Bula, El Primer Auto, El Edicto, El Sambenito, El Decreto, El Cacique, El Índice, El Tribunal, [CTA] Las Brujas, El Telescopio, La Complicidad (paga o hook), El Maestro, El Archivo; cierre Los Libros.
+- Voz Fish "Dio Historias" s2.1-pro; imagens nano-banana; trilha e SFX do 001–007; render no Runpod.
