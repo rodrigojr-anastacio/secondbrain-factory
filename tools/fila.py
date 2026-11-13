@@ -193,11 +193,21 @@ def _num(path):
 
 
 def cg_medidas(unit):
-    """(mem_mb, pico_mb, cpu_seg) do scope; None onde não existe."""
+    """(mem_mb, pico_mb, cpu_seg, anon_mb, oom_kill) do scope; None onde não existe."""
     d = cg_dir(unit)
     if not d:
-        return None, None, None
+        return None, None, None, None, None
     mem, pico = _num(d / "memory.current"), _num(d / "memory.peak")
+    anon, oom = None, None
+    try:
+        for ln in (d / "memory.stat").read_text().splitlines():
+            if ln.startswith("anon "):
+                anon = int(ln.split()[1]) / 1048576
+        for ln in (d / "memory.events").read_text().splitlines():
+            if ln.startswith("oom_kill "):
+                oom = int(ln.split()[1])
+    except (OSError, ValueError):
+        pass
     cpu = None
     try:
         for ln in (d / "cpu.stat").read_text().splitlines():
@@ -205,7 +215,7 @@ def cg_medidas(unit):
                 cpu = int(ln.split()[1]) / 1e6
     except OSError:
         pass
-    return (mem / 1048576 if mem is not None else None, pico / 1048576 if pico is not None else None, cpu)
+    return (mem / 1048576 if mem is not None else None, pico / 1048576 if pico is not None else None, cpu, anon, oom)
 
 
 def meminfo_mb():
@@ -227,13 +237,13 @@ def amostrar(con, rodando):
         for j in rodando:
             if not j["unit"]:
                 continue
-            mem, pico, cpu = cg_medidas(j["unit"])
+            mem, pico, cpu, anon, oom = cg_medidas(j["unit"])
             if mem is None:
                 continue
-            con.execute("INSERT INTO ops.fila_amostras (job_nome,mem_mb,mem_pico_mb,cpu_seg) VALUES (%s,%s,%s,%s)", (j["nome"], mem, pico, cpu))
+            con.execute("INSERT INTO ops.fila_amostras (job_nome,mem_mb,mem_pico_mb,cpu_seg,mem_anon_mb,oom_kill) VALUES (%s,%s,%s,%s,%s,%s)", (j["nome"], mem, pico, cpu, anon, oom))
             # pico/cpu do scope são cumulativos desde a criação: guarda o maior já visto no job
-            con.execute("UPDATE ops.fila_jobs SET mem_pico_mb=GREATEST(COALESCE(mem_pico_mb,0),%s), cpu_seg=GREATEST(COALESCE(cpu_seg,0),%s) WHERE id=%s",
-                        (int(pico or mem), cpu or 0, j["id"]))
+            con.execute("UPDATE ops.fila_jobs SET mem_pico_mb=GREATEST(COALESCE(mem_pico_mb,0),%s), cpu_seg=GREATEST(COALESCE(cpu_seg,0),%s), mem_anon_pico_mb=GREATEST(COALESCE(mem_anon_pico_mb,0),%s), oom_kill=GREATEST(COALESCE(oom_kill,0),%s) WHERE id=%s",
+                        (int(pico or mem), cpu or 0, int(anon or 0), int(oom or 0), j["id"]))
     except Exception as e:  # noqa: BLE001
         print(f"[amostrar] aviso: {type(e).__name__}: {e}")
 
@@ -506,6 +516,10 @@ def fmt_tok(n):
     return f"{n / 1e6:.1f}M" if n >= 1e6 else f"{n / 1e3:.0f}k"
 
 
+def fmb(x):
+    return "-" if x is None else f"{float(x):.0f} MB"
+
+
 def cmd_capacidade(a):
     ago = datetime.now(TZ)
     L = [f"# Capacidade da fila ({ago:%d/%m/%Y %H:%M})", "", "Gerado por `tools/fila.sh capacidade` (medições de `ops.fila_amostras`, `ops.fila_jobs`, `ops.max_janelas`). Custo-equivalente = preço de lista da API (`anthropic_api.PRECOS`), não o que o Max cobra.", ""]
@@ -521,23 +535,26 @@ def cmd_capacidade(a):
         L.append(f"RAM total {total / 1024:.1f} GB, 2 vCPU. Amostras da VPS: {v[0]}" + (f" desde {v[1].astimezone(TZ):%d/%m %H:%M}" if v[1] else "") + ".")
         if v[0]:
             L.append(f"Pico com {v[2]} job(s) simultâneo(s): RAM disponível mínima {v[3] / 1024:.1f} GB, swap máx {v[4] / 1024:.1f} GB, load1 máx {v[5]:.1f} (média {v[6]:.1f}), disco livre mín {v[7]:.0f} GB.")
-        rows = con.execute("""SELECT job_nome, count(*), avg(mem_mb), max(GREATEST(mem_mb,COALESCE(mem_pico_mb,0))), max(cpu_seg), min(ts), max(ts)
+        rows = con.execute("""SELECT job_nome, count(*), avg(mem_mb), max(GREATEST(mem_mb,COALESCE(mem_pico_mb,0))), max(cpu_seg), min(ts), max(ts), avg(mem_anon_mb), max(mem_anon_mb), max(oom_kill)
                               FROM ops.fila_amostras WHERE job_nome IS NOT NULL GROUP BY 1 ORDER BY 1""").fetchall()
         medias, picos = [], []
         if rows:
-            L += ["", "| job | amostras | RAM média | RAM pico | CPU (s) | CPU média (núcleos) |", "|---|---|---|---|---|---|"]
-            for n, c, mm, mp, cpu, t0, t1 in rows:
+            L += ["", "| job | amostras | anon média | anon pico | RAM total pico (c/ cache) | oom_kill | CPU (s) | CPU média (núcleos) |", "|---|---|---|---|---|---|---|---|"]
+            for n, c, mm, mp, cpu, t0, t1, am, ap, ok in rows:
                 dt = max((t1 - t0).total_seconds(), 1)
                 # CPU média: delta do cumulativo / tempo amostrado
                 c0 = con.execute("SELECT cpu_seg FROM ops.fila_amostras WHERE job_nome=%s ORDER BY ts LIMIT 1", (n,)).fetchone()[0] or 0
-                nuc = f"{((cpu or 0) - c0) / dt:.2f}" if c > 1 else "-"
-                L.append(f"| {n} | {c} | {mm:.0f} MB | {mp:.0f} MB | {cpu or 0:.0f} | {nuc} |")
-                medias.append(float(mm)); picos.append(float(mp))
+                nuc = f"{(float(cpu or 0) - float(c0)) / dt:.2f}" if c > 1 else "-"
+                L.append(f"| {n} | {c} | {fmb(am)} | {fmb(ap)} | {mp:.0f} MB | {ok if ok is not None else '-'} | {cpu or 0:.0f} | {nuc} |")
+                if ap is not None:  # dimensiona pelo anon (cache é recuperável); sem anon, cai no total
+                    medias.append(float(am)); picos.append(float(ap))
+                else:
+                    medias.append(float(mm)); picos.append(float(mp))
         if picos:
             pico_medio = sum(picos) / len(picos)
             base = max(total - (v[3] if v[0] and v[2] else mi["MemAvailable"]) - sum(m for m in medias[-int(v[2] or 1):]), 0) if v[0] else 0
             cabem = int(max(total - 1536 - base, 0) // pico_medio)
-            L += ["", f"Pico médio por job {pico_medio:.0f} MB (inclui cache de arquivos do scope; é teto conservador). Base da VPS fora dos jobs ≈ {base / 1024:.1f} GB. **Cabem ~{cabem} job(s) com folga de 1,5 GB** (limite técnico: `MemoryMax=3500M` por job; CPU de 2 vCPU limita render a 1 por vez)."]
+            L += ["", f"Pico médio por job {pico_medio:.0f} MB (anon = memória não recuperável; o cache de arquivo do scope, que infla `memory.current`/`peak`, o kernel libera sob pressão). Base da VPS fora dos jobs ≈ {base / 1024:.1f} GB. **Cabem ~{cabem} job(s) com folga de 1,5 GB** (limite técnico: `MemoryMax=3500M` por job; CPU de 2 vCPU limita render a 1 por vez)."]
         else:
             L += ["", "Sem amostras por job ainda (próximos ticks preenchem)."]
         # --- Max

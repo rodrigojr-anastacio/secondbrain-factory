@@ -1,20 +1,18 @@
-# Capacidade da fila (13/11/2026 10:16)
+# Capacidade da fila (13/11/2026 10:18)
 
 Gerado por `tools/fila.sh capacidade` (medições de `ops.fila_amostras`, `ops.fila_jobs`, `ops.max_janelas`). Custo-equivalente = preço de lista da API (`anthropic_api.PRECOS`), não o que o Max cobra.
 
-_Backfill: 0 job(s) da fila preenchidos a partir dos jsonl._
-
 ## VPS (RAM / CPU)
 
-RAM total 7.7 GB, 2 vCPU. Amostras da VPS: 1 desde 13/11 10:16.
-Pico com 2 job(s) simultâneo(s): RAM disponível mínima 5.6 GB, swap máx 1.3 GB, load1 máx 0.9 (média 0.9), disco livre mín 34 GB.
+RAM total 7.7 GB, 2 vCPU. Amostras da VPS: 3 desde 13/11 10:16.
+Pico com 2 job(s) simultâneo(s): RAM disponível mínima 5.4 GB, swap máx 1.3 GB, load1 máx 0.9 (média 0.8), disco livre mín 33 GB.
 
-| job | amostras | RAM média | RAM pico | CPU (s) | CPU média (núcleos) |
-|---|---|---|---|---|---|
-| lote-clearance-002-bikini | 1 | 3500 MB | 3501 MB | 127 | - |
-| lote-dossie-007-ss | 1 | 231 MB | 347 MB | 19 | - |
+| job | amostras | anon média | anon pico | RAM total pico (c/ cache) | oom_kill | CPU (s) | CPU média (núcleos) |
+|---|---|---|---|---|---|---|---|
+| lote-clearance-002-bikini | 3 | 277 MB | 277 MB | 3501 MB | 0 | 146 | 0.15 |
+| lote-dossie-007-ss | 3 | 210 MB | 210 MB | 347 MB | 0 | 22 | 0.03 |
 
-Pico médio por job 1924 MB (inclui cache de arquivos do scope; é teto conservador). Base da VPS fora dos jobs ≈ 0.0 GB. **Cabem ~3 job(s) com folga de 1,5 GB** (limite técnico: `MemoryMax=3500M` por job; CPU de 2 vCPU limita render a 1 por vez).
+Pico médio por job 243 MB (anon = memória não recuperável; o cache de arquivo do scope, que infla `memory.current`/`peak`, o kernel libera sob pressão). Base da VPS fora dos jobs ≈ 1.9 GB. **Cabem ~18 job(s) com folga de 1,5 GB** (limite técnico: `MemoryMax=3500M` por job; CPU de 2 vCPU limita render a 1 por vez).
 
 ## Claude Max (limite de 5 h / semanal)
 
@@ -112,18 +110,20 @@ Histórico dos jobs `claude -p` anteriores (jsonl; backfill; duração = 1ª a �
 | BRIEF-clearance-identidade.md | 0k/12k/552k+62k | 0.4 | 2 min |
 | BRIEF-padroes-titulos.md | 0k/15k/769k+69k | 0.4 | 2 min |
 | BRIEF-pauta-fds-15-16.md | 0k/34k/2.8M+133k | 1.9 | 7 min |
-| BRIEF-lote-dossie-007-ss.md | 0k/39k/1.3M+129k | 2.1 | 6 min |
+| BRIEF-lote-dossie-007-ss.md | 0k/39k/1.5M+135k | 2.2 | 10 min |
 | BRIEF-lote-clearance-002-bikini.md | 0k/22k/4.5M+144k | 2.5 | 7 min |
 | BRIEF-fila-jobs.md | 0k/13k/359k+43k | 0.3 | 1 min |
-| BRIEF-fila-capacidade.md | 0k/14k/388k+48k | 0.3 | 1 min |
+| BRIEF-fila-capacidade.md | 0k/15k/573k+53k | 0.3 | 2 min |
+| BRIEF-serie-g1-el-nino.md | 0k/3k/291k+35k | 0.1 | 1 min |
+| BRIEF-fila-capacidade-anon.md | 0k/3k/265k+28k | 0.1 | 0 min |
 
-Consumo médio por tipo de job: pesquisa/outros: US$ 2.3 (n=60); produção de vídeo: US$ 6.6 (n=27).
+Consumo médio por tipo de job: pesquisa/outros: US$ 2.2 (n=62); produção de vídeo: US$ 6.6 (n=27).
 
 ## API Anthropic (mês)
 
 - rotinas: US$ 1.85 / 30 (6%)
 - qa: US$ 1.26 / 30 (4%)
-- dev: US$ 2.63 / 40 (7%)
+- dev: US$ 2.97 / 40 (7%)
 
 ## Custo por vídeo (financas.consumo, direto, US$)
 
@@ -136,6 +136,6 @@ Consumo médio por tipo de job: pesquisa/outros: US$ 2.3 (n=60); produção de v
 
 ## Recomendação
 
-- `MAX_CONCORRENCIA`: manter 2; RAM comporta ~3, mas o Max (cota) e o render limitam antes. Subir para 3 só se não houver `pausado_limite` nas janelas. **Hipótese** (menos de 4 jobs medidos).
+- `MAX_CONCORRENCIA`: manter 2; RAM comporta ~18, mas o Max (cota) e o render limitam antes. Subir para 3 só se não houver `pausado_limite` nas janelas. **Hipótese** (menos de 4 jobs medidos).
 - Enviar à API (`--motor api`, grupo dev/rotinas) o que é curto e barato por job (pesquisa, garimpo, QA); manter no Max os jobs longos de produção, que têm cache alto e custo-equivalente grande. **Hipótese** (menos de 4 jobs medidos).
 - Se uma janela de 5 h estourar com 2 jobs, o fila.py já pausa e retoma; o sinal de que há folga é a ausência de `pausado_limite` por 24 h.

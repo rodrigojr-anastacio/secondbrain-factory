@@ -66,3 +66,7 @@ CREATE TABLE IF NOT EXISTS ops.max_janelas (
     sessoes         int
 );
 CREATE UNIQUE INDEX IF NOT EXISTS max_janelas_uni ON ops.max_janelas (job_nome, reseta_em, tipo);
+
+-- Anon vs cache (13/11/2026): memory.current/peak incluem cache de arquivo; o que conta p/ OOM é o anon.
+ALTER TABLE ops.fila_amostras ADD COLUMN IF NOT EXISTS mem_anon_mb numeric, ADD COLUMN IF NOT EXISTS oom_kill int;
+ALTER TABLE ops.fila_jobs ADD COLUMN IF NOT EXISTS mem_anon_pico_mb int, ADD COLUMN IF NOT EXISTS oom_kill int;
