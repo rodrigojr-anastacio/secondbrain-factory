@@ -51,13 +51,14 @@ Prontos/publicados recentes: França (pronto, dom 15/11); Alemanha (pronto, seg 
 | 007 | A história INTEIRA da Rússia em 17 minutos | pronto, no Drive, aguardando publicação (youtube.videos id 16; 2º da bíblia v2; videos/007-russia/entrega/) | 2026-11-09 | — |
 | 008 | A história INTEIRA da França em 15 minutos | **pronto** 13/11 (15:16, checklist v2 13/14, US$ 9,41 fal+Fish; youtube.videos id 33; `videos/008-franca/entrega/`, falta subir ao Drive); publica dom 15/11 | 2026-11-15 | — |
 | 009 | A história INTEIRA da Alemanha em 17 minutos | etapa 1 pronta 13/11 (roteiro v2 checklist APROVADO, 2.179 palavras, 215 imagens planejadas; youtube.videos id 37; `videos/009-alemanha/ETAPA1-PRONTA.md`); etapa 2 pronta 13/11 (17:22, −15,2 LUFS, 0 telas pretas, thumbs A/B/C, `entrega/`; `videos/009-alemanha/ETAPA2.md`); publica seg 16/11 | 2026-11-16 | — |
+| 010 | Japão: T1 "O Japão COPIAVA todo mundo. Por que ninguém o conquistava?" / T2 "Como o MAR protegeu o Japão (até o dia em que parou)" | etapa 1 pronta 14/11 (1º com embalagem + crivo antes do roteiro: aprovado na r2; roteiro v2 checklist APROVADO, 2.006 palavras, ~16 min, 218 imagens planejadas pelo Codex; youtube.videos id 40; `videos/010-japao/ETAPA1-PRONTA.md`); publica qua 18/11 (data a confirmar) | 2026-11-18 | — |
 
 ## Próximos: ordem recomendada em 09/11/2026 (`pesquisa/proximos-temas-2026-11/RELATORIO.md`)
 | Ordem | Tema | Evidência [O] | O que medir (vs. Egito/Índia: ~1 mil impressões, CTR 3,7–4%, 42–45% visualizado) |
 |---|---|---|---|
 | 006 ✔ (pronto 09/11) | **Roma** | Maior demanda pt: med. top-10 (12 m) 544 mil, 21 vídeos > 100 mil; porta aberta (Arquivos do Velho Mundo, 3,3 mil insc., 425 mil); no molde curto em pt o melhor tem 24,9 mil; liga com o Egito. Hook: Breno e o "ai dos vencidos" (Lívio 5.48) | impressões no dia 7 (meta > 2 mil), % tráfego de Pesquisa, CTR, % visualizado |
 | 007 ✔ (pronto 09/11) | **Rússia** | Clone "História em minutos" (08/2026, 5 mil insc.) fez 235 mil em 21 dias, ~120× o Japão do mesmo canal; HiM en 43 mil. Risco: guerra atual (fechar em ~1991–2000, neutro). Hook: "nossa terra é grande e rica, mas não há ordem nela" (862) | impressões no dia 7, % tráfego de Sugeridos (Hipótese: Rússia vem por navegação) |
-| 008 (reserva) | Japão | Med. 12 m 138 mil; Genius en 869 mil; História do Mundo (05/2026) 106 mil; mas o clone fez só 2 mil. Liga com a China | — |
+| 010 ✔ (etapa 1 em 14/11) | Japão | Med. 12 m 138 mil; Genius en **1,0 mi** (`ecnCTOzIivE`, 14/10/2026; medido 14/11); História do Mundo (05/2026) 106 mil; mas o clone fez só 2 mil. Liga com a China | — |
 | depois | Portugal (sessão com o Brasil, med. 159 mil), França (clone 167 mil), Alemanha (178 mil) | | |
 | evitar | Ucrânia e Israel (demanda é da guerra atual), Otomano e Britânico (19–27 mil em pt), Mongóis (53 mil) | | |
 

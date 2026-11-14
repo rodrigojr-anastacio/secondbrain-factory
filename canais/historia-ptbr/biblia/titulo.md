@@ -95,3 +95,8 @@ Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/emba
 3. Antes de fechar o título, buscar colisão no tema (yt-dlp). A fórmula "N anos em N minutos" e "A história INTEIRA" só entram se o tema ainda não existe nela.
 4. "Como [agente concreto] [verbo] [lugar]" (padrão do canal-modelo) tem prova em pt; a pergunta central do roteiro v2 já é um título pronto.
 5. Se o gargalo for impressão, o nome do país vai no título; a thumb leva a lacuna (ver `thumb.md`).
+
+### 010 Japão: 1ª embalagem antes do roteiro (14/11/2026). **Hipótese**, medir CTR
+- Aprovados no crivo r2: T1 "O Japão COPIAVA todo mundo. Por que ninguém o conquistava?" (afirmação estranha + pergunta = pergunta central) · T2 "Como o MAR protegeu o Japão (até o dia em que parou)" (agente concreto + virada no parêntese) · thumb "SÓ SORTE?" + 1281. [`videos/010-japao/EMBALAGEM.md`, `CRIVO.md`]
+- **Reprovado na r1** (vale para os próximos): T2 "Japão: a ilha que aprendia com todos e não obedecia a ninguém": (a) "ilha" para arquipélago = erro de fato; (b) afirmação absoluta que a história desmente (investiduras chinesas, tributo dos Ashikaga aos Ming) = comentário "não é verdade" no 1º dia; (c) o paradoxo abstrato não casava com a thumb. Prefira verbo no imperfeito ("conquistava") ou parêntese com a virada a afirmações absolutas ("nunca", "ninguém").
+- Colisão medida no tema: "Por que o Japão nunca foi colonizado?" (Total History, 456.960), "Por que os europeus nunca colonizaram o Japão?" (História do Mundo, 196.051) e cópia literal "POR QUE NINGUÉM Jamais Conseguiu INVADIR O JAPÃO?" (43): a pergunta crua "ninguém invadiu" já existe; o 2º elemento ("COPIAVA todo mundo") é o que diferencia (lição 2). A fórmula "história INTEIRA do Japão" também já existe em pt (4 vídeos).
