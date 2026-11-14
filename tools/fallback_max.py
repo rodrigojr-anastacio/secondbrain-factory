@@ -81,3 +81,28 @@ def rodar_no_max(origem, etapa, prompt_file, modelo, timeout, ref=None, max_turn
     else:
         registrar(origem, "fallback_falhou", "erro", f"fallback no plano Max terminou com código {rc}", {**det, "codigo": rc}, ref)
     return rc
+
+
+def tmp_dir(sub):
+    """Pasta temporária em disco (nunca /tmp, que é tmpfs): $TMPDIR ou ~/cache/tmp."""
+    base = os.environ.get("TMPDIR") or os.path.expanduser("~/cache/tmp")
+    d = os.path.join(base, sub)
+    os.makedirs(d, exist_ok=True)
+    return d
+
+
+def rodar_max_json(origem, etapa, prompt, saida, modelo, timeout=3600, ref=None, max_turns=120, motivo=None, detalhes=None):
+    """Roda `prompt` no Max (claude -p) e devolve o texto que o modelo gravou em `saida` (None se falhou/não gravou).
+    O prompt deve mandar o modelo gravar o resultado exatamente em `saida`."""
+    import tempfile
+    if os.path.exists(saida):
+        os.unlink(saida)
+    with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False, dir=tmp_dir("fallback-prompts"), encoding="utf-8") as tf:
+        tf.write(prompt)
+    try:
+        rc = rodar_no_max(origem, etapa, tf.name, modelo, timeout, ref=ref, max_turns=max_turns, motivo=motivo, detalhes=detalhes)
+    finally:
+        os.unlink(tf.name)
+    if rc != 0 or not os.path.exists(saida):
+        return None
+    return open(saida, encoding="utf-8").read()

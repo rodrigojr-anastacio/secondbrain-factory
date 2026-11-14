@@ -20,6 +20,10 @@ O que faz:
 6. Custo real (tokens × preço; lote com 50%) em financas.consumo: 'batch:garimpo' e 'batch:garimpo-sintese'
    (chave ~/.segredos/anthropic/rotinas.env; teto mensal do grupo rotinas, tools/anthropic_api.py).
 7. Commit só dos próprios arquivos (sem push). Códigos: 0 ok (ou lote pendente), 1 erro, 4 teto.
+8. Teto do grupo rotinas ou API fora (14/11/2026): a Batch API não existe no Max, então a rodada cai 1× para o plano Max em
+   modo reduzido (até --max-max vídeos, padrão 40, em claude -p de 20 vídeos; mesmo prompt/esquema, mesmo jsonl/banco/síntese;
+   lote 'max-<data>-<hhmm>', modelo 'max:<modelo>'). Os vídeos que não couberem não são perdidos: continuam sem análise e
+   entram na próxima rodada. Se o Max também falhar, só registra (ops.event_log) e segue.
 """
 import argparse
 import base64
@@ -285,7 +289,7 @@ def agregar(analises):
     return linhas
 
 
-def sintese(cli, analises, data, lotes, modelo="sonnet"):
+def pedido_sintese(analises, data, lotes, via="Batch API"):
     agreg = agregar(analises)
     compacto = []
     for a in sorted(analises, key=lambda x: -(x.get("views") or 0)):
@@ -296,7 +300,7 @@ def sintese(cli, analises, data, lotes, modelo="sonnet"):
                          "thumb": an.get("thumb"), "hook": an.get("hook"), "edicao": an.get("edicao"),
                          "modelavel": an.get("modelavel_faceless"), "nota": an.get("nota_formato"),
                          "porque": an.get("por_que_funciona")})
-    pedido = f"""Data: {data}. Lotes: {', '.join(lotes)}. {len(analises)} vídeos de concorrentes analisados em lote (Batch API) nesta rodada.
+    pedido = f"""Data: {data}. Lotes: {', '.join(lotes)}. {len(analises)} vídeos de concorrentes analisados em lote ({via}) nesta rodada.
 
 Agregado por fórmula (calculado em Python, números observados):
 {json.dumps(agreg[:40], ensure_ascii=False)}
@@ -314,6 +318,11 @@ Escreva em português do Brasil, em markdown, curto e com números:
 ## Para a fábrica (até 5 bullets: o que testar, em qual canal nosso ou canal novo; marque Hipótese quando for inferência)
 Depois, uma linha só com `---PADROES---` e, abaixo, de 5 a 8 bullets curtos (1 linha cada) com os padrões mais fortes desta rodada para o
 arquivo acumulado, cada um com o número que o sustenta (ex.: "Títulos 'What's Still Under X?' — 3 canais, mediana 210 mil views")."""
+    return pedido, agreg
+
+
+def sintese(cli, analises, data, lotes, modelo="sonnet"):
+    pedido, agreg = pedido_sintese(analises, data, lotes)
     with cli.messages.stream(model=A.modelo_id(modelo), max_tokens=24000, output_config={"effort": "medium"},
                              messages=[{"role": "user", "content": pedido}]) as st:
         m = st.get_final_message()
@@ -373,9 +382,116 @@ def commit(caminhos, msg):
     return False
 
 
+MAX_LOTE = 20  # vídeos por claude -p no fallback
+
+
+def pedido_max(v, modelo, d):
+    """Texto do pedido de um vídeo para o Max: o mesmo conteúdo do pedido da Batch API; imagens viram arquivos (Read)."""
+    import urllib.request
+    p = montar_pedido(v, modelo, thumb_url=True)
+    partes, n = [], 0
+    for c in p["params"]["messages"][0]["content"]:
+        if c["type"] == "text":
+            partes.append(c["text"])
+            continue
+        n += 1
+        arq = os.path.join(d, f"{v['video_id']}-{n}.jpg")
+        try:
+            if c["source"]["type"] == "url":
+                urllib.request.urlretrieve(c["source"]["url"], arq)
+            else:
+                open(arq, "wb").write(base64.b64decode(c["source"]["data"]))
+            partes.append(f"[imagem {n} (thumb ou frames): {arq}]")
+        except Exception as e:  # noqa: BLE001
+            partes.append(f"[imagem {n} indisponível ({type(e).__name__})]")
+    return "\n".join(partes)
+
+
+def rodada_max(a, data, motivo):
+    """Fallback para o plano Max (modo reduzido). Devolve o dict de resumo da rodada ou None se nada foi analisado."""
+    log(f"caindo para o Max ({motivo}): até {a.max_max} vídeos, {MAX_LOTE} por claude -p")
+    novos = [] if a.so_coletar else candidatos(a.max_max, ja_analisados())
+    if not novos:
+        log("Max: nada novo para analisar")
+        return None
+    d = F.tmp_dir("garimpo-max")
+    hora = dt.datetime.now().strftime("%H%M")
+    lote_id = f"max-{data}-{hora}"
+    ok, erros = [], 0
+    for k in range(0, len(novos), MAX_LOTE):
+        parte = novos[k:k + MAX_LOTE]
+        saida = os.path.join(d, f"analises-{os.getpid()}-{k}.jsonl")
+        pedidos = "\n\n=====\n\n".join(pedido_max(v, a.modelo, d) for v in parte)
+        prompt = (SISTEMA + "\n\n# Tarefa (modo Max)\nAnalise os " + str(len(parte)) + " vídeos abaixo, um a um. Para as imagens indicadas, use a ferramenta Read no "
+                  "caminho. Não leia nem altere mais nada. Grave com a ferramenta Write, em " + saida + ", um JSON por linha (JSONL, sem markdown), "
+                  'cada linha {"video_id": "<id>", "analise": <objeto no esquema abaixo>}. Esquema de "analise":\n'
+                  + json.dumps(ESQUEMA, ensure_ascii=False) + "\nResponda no chat apenas 'ok'.\n\n# Vídeos\n\n" + pedidos)
+        txt = F.rodar_max_json("batch", "job-garimpo-fallback", prompt, saida, a.modelo, timeout=3600, ref=lote_id, max_turns=150,
+                               motivo=motivo, detalhes={"videos": len(parte)})
+        por_id = {v["video_id"]: v for v in parte}
+        achou = set()
+        for linha in (txt or "").splitlines():
+            try:
+                j = json.loads(linha)
+                an = j["analise"]
+                v = por_id[j["video_id"]]
+                if not all(c in an for c in ESQUEMA["required"]):
+                    raise KeyError("campos faltando")
+            except (json.JSONDecodeError, KeyError, TypeError):
+                continue
+            achou.add(v["video_id"])
+            meta = {c: v[c] for c in ("titulo", "canal", "channel_id", "views", "duracao_min", "publicado", "idade_dias", "inscritos", "n_videos")}
+            ok.append({"video_id": v["video_id"], "lote": lote_id, "data": data, "ok": True, **meta, "modelo": f"max:{a.modelo}", "analise": an})
+        erros += len(parte) - len(achou)
+    if not ok:
+        return None
+    os.makedirs(BDIR, exist_ok=True)
+    jsonl = os.path.join(BDIR, f"{data}-max{hora}.jsonl")
+    with open(jsonl, "w", encoding="utf-8") as fh:
+        for l in ok:
+            fh.write(json.dumps(l, ensure_ascii=False) + "\n")
+    try:
+        log(f"banco: {gravar_banco(ok)} análises novas em youtube.garimpo_analises")
+    except Exception as e:  # noqa: BLE001
+        log(f"AVISO: não gravei no banco ({type(e).__name__}: {str(e)[:200]}); `--importar` refaz")
+    log(f"Max: {len(ok)} ok, {erros} sem análise (voltam na próxima rodada) → {os.path.relpath(jsonl, FAB)}")
+    md = None
+    if not a.sem_sintese:
+        saida = os.path.join(d, f"sintese-{os.getpid()}.md")
+        pedido, _ = pedido_sintese(ok, data, [lote_id], via="plano Max, modo reduzido")
+        prompt = (pedido + "\n\nGrave o texto completo (markdown, incluindo a linha ---PADROES---) com a ferramenta Write em " + saida
+                  + ". Não use outras ferramentas. Responda no chat apenas 'ok'.")
+        txt = F.rodar_max_json("batch", "job-garimpo-fallback", prompt, saida, "sonnet", timeout=2400, ref=lote_id, max_turns=20,
+                               motivo=motivo, detalhes={"fase": "sintese"})
+        if txt and txt.strip():
+            corpo, _, padroes = txt.partition("---PADROES---")
+            md = escrever(data, corpo.strip(), padroes.strip(), ok, [lote_id], 0.0, [jsonl])
+            log(f"relatório (Max) → {os.path.relpath(md, FAB)}")
+        else:
+            log("síntese pelo Max falhou; análises ficam no jsonl")
+    if not a.sem_commit:
+        commit([jsonl] + ([md, PADROES] if md else []),
+               f"garimpo em lote {data}: {len(ok)} vídeos analisados pelo plano Max (fallback, modo reduzido)")
+    return {"analisados": len(ok), "lotes": [lote_id], "pendentes": [], "custo_usd": 0, "fallback": "max",
+            "relatorio": os.path.relpath(md, FAB) if md else None}
+
+
+def sem_bloqueio(a, data, tipo, texto):
+    """Teto/API fora: tenta o Max; se também falhar, registra e segue sem bloquear."""
+    res = None
+    try:
+        res = rodada_max(a, data, tipo)
+    except Exception as e:  # noqa: BLE001
+        F.registrar("batch", "fallback_falhou", "erro", f"fallback do garimpo falhou: {type(e).__name__}: {str(e)[:200]}", {"motivo": tipo})
+    if res is None:
+        F.registrar("batch", "info", "aviso", f"garimpo em lote não rodou ({tipo}); Max também sem análise", {"motivo": texto[:200]})
+        res = {"analisados": 0, "lotes": [], "pendentes": [], "custo_usd": 0, "relatorio": None, "erro": tipo}
+    print(json.dumps(res, ensure_ascii=False))
+
+
 def main():
-    """Falha da API (chave, crédito, 5xx/overload): registra em ops.event_log e segue sem bloquear (Batch API não tem
-    equivalente no plano Max; a rotina continua e a próxima rodada tenta de novo)."""
+    """Falha da API (chave, crédito, 5xx/overload) ou teto: registra em ops.event_log e cai 1× para o Max em modo reduzido
+    (rodada_max); só se o Max também falhar segue sem bloquear (a próxima rodada tenta de novo)."""
     try:
         _main()
     except SystemExit:
@@ -388,14 +504,17 @@ def main():
         if tipo is None:
             raise
         F.registrar_falha("batch", tipo, texto, "rotinas", None)
-        log(f"API falhou ({tipo}); garimpo em lote não rodou, sigo sem bloquear: {texto}")
-        print(json.dumps({"analisados": 0, "lotes": [], "pendentes": [], "custo_usd": 0, "relatorio": None,
-                          "erro": tipo}, ensure_ascii=False))
+        log(f"API falhou ({tipo}): {texto}")
+        sem_bloqueio(_ARGS[0], dt.date.today().isoformat(), tipo, texto)
+
+
+_ARGS = [None]
 
 
 def _main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--max", type=int, default=300)
+    ap.add_argument("--max-max", type=int, default=40, help="vídeos por rodada no fallback para o plano Max (modo reduzido)")
     ap.add_argument("--espera", type=int, default=40, help="minutos esperando o lote terminar (depois fica pendente)")
     ap.add_argument("--modelo", default="sonnet")
     ap.add_argument("--so-coletar", action="store_true", help="só coleta lotes pendentes")
@@ -405,6 +524,7 @@ def _main():
     ap.add_argument("--importar", action="store_true", help="importa para o banco todos os jsonl já coletados (sem duplicar)")
     ap.add_argument("--dry-run", action="store_true", help="mostra quantos vídeos iriam e o 1º pedido (sem imagem), sem gastar")
     a = ap.parse_args()
+    _ARGS[0] = a
     os.makedirs(BDIR, exist_ok=True)
     data = dt.date.today().isoformat()
 
@@ -438,10 +558,8 @@ def _main():
     try:
         A.checar_teto("rotinas", previsto=len(novos) * (0.01 if "sonnet" in a.modelo else 0.002) + 0.2)
     except A.TetoExcedido as e:
-        log("AVISO: teto mensal; garimpo em lote não rodou (sem equivalente no Max):", e)
-        F.registrar("batch", "info", "aviso", "garimpo em lote não rodou: teto mensal do grupo rotinas", {"motivo": str(e)[:200]})
-        print(json.dumps({"analisados": 0, "lotes": [], "pendentes": [], "custo_usd": 0, "relatorio": None,
-                          "erro": "teto_atingido"}, ensure_ascii=False))
+        log("AVISO: teto mensal do grupo rotinas; caindo para o Max (modo reduzido):", e)
+        sem_bloqueio(a, data, "teto_atingido", str(e))
         return
     cli = A.cliente("rotinas")
     pendentes = json.load(open(PENDENTE)) if os.path.exists(PENDENTE) else []

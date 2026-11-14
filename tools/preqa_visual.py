@@ -12,7 +12,8 @@ Uso (a partir do repo):
     - um mp4 (frames a cada --intervalo s);
     - uma imagem (grade/contact sheet ou quadro solto).
 Saída: PREQA-visual.md na pasta do vídeo (ou em --saida / ao lado do alvo) e PREQA-visual.json.
-Código de saída: 0 sem bloqueante · 2 há bloqueante · 1 erro (API, arquivo) · 4 teto mensal do grupo qa (US$ 30).
+Código de saída: 0 sem bloqueante · 2 há bloqueante · 1 erro (API, arquivo) · 4 teto mensal do grupo qa (US$ 25).
+Teto/API fora → cai 1× para o plano Max (claude -p lê os mesmos quadros com Read; fallback_max.py); só se o Max também falhar: "não rodou".
 
 - Cada lote de até 8 quadros vai numa chamada (quadro a 1280 px de largura, rotulado com o tempo). Antes, sinais
   automáticos grátis (PIL): luminância média < 15 (tela preta) e faixa uniforme colada na borda (≥ 3% da altura/largura,
@@ -195,12 +196,52 @@ def analisar(cli, modelo, quadros, contexto, sistema_cache):
     return json.loads(txt), m
 
 
+def analisar_no_max(quadros, sistema_txt, a, motivo):
+    """Fallback: mesmo checklist e mesmos quadros, pelo plano Max (claude -p com Read). Devolve (problemas, oks, falhas)
+    ou None se o Max não analisou nada. Lotes de 30 quadros por chamada."""
+    problemas, oks, falhas, algum = [], set(), [], False
+    d = F.tmp_dir("preqa-max")
+    ref = str(a.video) if a.video else None
+    for k in range(0, len(quadros), 30):
+        lote = quadros[k:k + 30]
+        saida = os.path.join(d, f"resultado-{os.getpid()}-{k}.json")
+        linhas = []
+        for q in lote:
+            rot = f"{q['id']} · t={mmss(q['t'])}" if q["t"] is not None else f"{q['id']} · {q['nome']}"
+            if q["sinais"]:
+                rot += " · sinais automáticos: " + "; ".join(q["sinais"])
+            linhas.append(f"- {rot} · arquivo: {q['arquivo']}")
+        prompt = (sistema_txt + "\n\n# Tarefa (modo Max)\nAbra CADA imagem abaixo com a ferramenta Read (caminho absoluto) e analise-a contra o checklist. "
+                  "Não leia nem altere mais nada. Quadros:\n" + "\n".join(linhas) +
+                  "\n\nQuando terminar, grave com a ferramenta Write, em " + saida + ", SÓ o JSON (sem markdown, sem texto extra) no esquema:\n"
+                  + json.dumps(ESQUEMA, ensure_ascii=False) + "\nUse os rótulos (Q01…) exatamente como listados; quadros sem problema vão em quadros_ok. "
+                  "Responda no chat apenas 'ok'.")
+        txt = F.rodar_max_json("preqa", "job-preqa-fallback", prompt, saida, a.modelo, timeout=1800, ref=ref, max_turns=80,
+                               motivo=motivo, detalhes={"quadros": len(lote)})
+        r = None
+        if txt:
+            try:
+                m = re.search(r"\{.*\}", txt, re.S)
+                r = json.loads(m.group(0))
+            except (AttributeError, json.JSONDecodeError):
+                r = None
+        if r is None:
+            falhas.append(f"{lote[0]['id']}–{lote[-1]['id']}: Max não devolveu JSON válido")
+            continue
+        algum = True
+        ids = {q["id"] for q in lote}
+        problemas += [p for p in r.get("problemas", []) if p.get("quadro") in ids and p.get("severidade") in SEVERIDADES]
+        oks |= set(r.get("quadros_ok", [])) & ids
+        print(f"[preqa_visual] (Max) {lote[0]['id']}–{lote[-1]['id']}: {len(r.get('problemas', []))} problema(s)", file=sys.stderr)
+    return (problemas, oks, falhas) if algum else None
+
+
 def falha_api(tipo, texto, a):
     F.registrar_falha("preqa", tipo, texto, "qa", A.modelo_id(a.modelo), str(a.video) if a.video else None)
 
 
 def nao_rodou(saida, motivo, escrever_md=True):
-    """API indisponível: registra e segue sem bloquear (a conferência manual vale). Não faz fallback para o Max."""
+    """API e Max indisponíveis: registra e segue sem bloquear (a conferência manual vale)."""
     aviso = f"pré-QA visual não rodou ({motivo}); a conferência manual vale."
     F.registrar("preqa", "info", "aviso", aviso, {"motivo": motivo[:200]})
     print(f"[preqa_visual] AVISO: {aviso}", file=sys.stderr)
@@ -265,38 +306,52 @@ def main():
         quadros.append({"id": f"Q{i:02d}", "arquivo": f, "t": t, "nome": os.path.basename(f), "sinais": s})
 
     previsto = len(quadros) * (0.01 if "opus" in a.modelo else 0.004)
+    usar_max = None  # motivo, se a análise tiver de ir pelo Max
     try:
         A.checar_teto("qa", previsto=previsto)
     except A.TetoExcedido as e:
         print(f"[preqa_visual] AVISO: {e}", file=sys.stderr)
-        nao_rodou(saida, f"teto mensal do grupo qa atingido ({e})")
+        usar_max = "teto_atingido"
 
     ctx = "\n\n".join(x for x in [contexto_canal(alvo), a.contexto] if x)
-    sistema = [{"type": "text", "text": SISTEMA + "\n\n# Checklist de pré-render (conhecimento/erros-qa.md)\n" + checklist()
-                + ("\n\n# Contexto do canal/vídeo\n" + ctx if ctx else ""), "cache_control": {"type": "ephemeral"}}]
-    try:
-        cli = A.cliente("qa")
-    except Exception as e:  # noqa: BLE001  (chave ausente/ilegível)
-        falha_api("api_erro", f"{type(e).__name__}: {e}", a)
-        nao_rodou(saida, f"chave da API indisponível ({type(e).__name__})")
-    problemas, oks, custo, tokens, modelo_real, falhas = [], set(), 0.0, 0, None, []
-    for k in range(0, len(quadros), a.lote):
-        lote = quadros[k:k + a.lote]
+    sistema_txt = (SISTEMA + "\n\n# Checklist de pré-render (conhecimento/erros-qa.md)\n" + checklist()
+                   + ("\n\n# Contexto do canal/vídeo\n" + ctx if ctx else ""))
+    sistema = [{"type": "text", "text": sistema_txt, "cache_control": {"type": "ephemeral"}}]
+    cli = None
+    if not usar_max:
         try:
-            r, m = analisar(cli, a.modelo, lote, ctx, sistema)
-        except Exception as e:  # noqa: BLE001
-            falhas.append(f"{lote[0]['id']}–{lote[-1]['id']}: {type(e).__name__}: {str(e)[:200]}")
-            if len(falhas) == 1:  # registra a 1ª falha do tipo API no event_log
-                falha_api(F.classificar(f"{type(e).__name__} {e}") or "api_erro", f"{type(e).__name__}: {str(e)[:300]}", a)
-            print(f"[preqa_visual] lote {lote[0]['id']}–{lote[-1]['id']} falhou: {type(e).__name__}", file=sys.stderr)
-            continue
-        custo += A.custo_usd(m.model, m.usage)
-        tokens += A.tokens_total(m.usage)
-        modelo_real = m.model
-        ids = {q["id"] for q in lote}
-        problemas += [p for p in r.get("problemas", []) if p.get("quadro") in ids]
-        oks |= set(r.get("quadros_ok", [])) & ids
-        print(f"[preqa_visual] {lote[0]['id']}–{lote[-1]['id']}: {len(r.get('problemas', []))} problema(s)", file=sys.stderr)
+            cli = A.cliente("qa")
+        except Exception as e:  # noqa: BLE001  (chave ausente/ilegível)
+            falha_api("api_erro", f"{type(e).__name__}: {e}", a)
+            usar_max = "api_erro"
+    problemas, oks, custo, tokens, modelo_real, falhas = [], set(), 0.0, 0, None, []
+    if not usar_max:
+        for k in range(0, len(quadros), a.lote):
+            lote = quadros[k:k + a.lote]
+            try:
+                r, m = analisar(cli, a.modelo, lote, ctx, sistema)
+            except Exception as e:  # noqa: BLE001
+                falhas.append(f"{lote[0]['id']}–{lote[-1]['id']}: {type(e).__name__}: {str(e)[:200]}")
+                if len(falhas) == 1:  # registra a 1ª falha do tipo API no event_log
+                    falha_api(F.classificar(f"{type(e).__name__} {e}") or "api_erro", f"{type(e).__name__}: {str(e)[:300]}", a)
+                print(f"[preqa_visual] lote {lote[0]['id']}–{lote[-1]['id']} falhou: {type(e).__name__}", file=sys.stderr)
+                continue
+            custo += A.custo_usd(m.model, m.usage)
+            tokens += A.tokens_total(m.usage)
+            modelo_real = m.model
+            ids = {q["id"] for q in lote}
+            problemas += [p for p in r.get("problemas", []) if p.get("quadro") in ids]
+            oks |= set(r.get("quadros_ok", [])) & ids
+            print(f"[preqa_visual] {lote[0]['id']}–{lote[-1]['id']}: {len(r.get('problemas', []))} problema(s)", file=sys.stderr)
+        if falhas and not problemas and not oks:
+            usar_max = "api_erro"  # a API não analisou nada: tenta o Max
+    if usar_max:
+        res = analisar_no_max(quadros, sistema_txt, a, usar_max)
+        if res is None:
+            nao_rodou(saida, f"API indisponível ({usar_max}) e o Max também não analisou os quadros")
+        problemas, oks, falhas = res
+        modelo_real = f"max:{a.modelo}"
+        custo, tokens = 0.0, 0
 
     if custo or tokens:
         A.registrar_consumo(custo, "preqa-visual", tokens, "tokens", video=a.video,
@@ -313,7 +368,7 @@ def main():
           "",
           f"- Alvo: `{os.path.relpath(origem, FAB) if origem.startswith(FAB) else origem}` · {len(quadros)} quadros"
           + (f" (1 a cada {a.intervalo:.0f} s)" if origem.lower().endswith(".mp4") else "")
-          + f" · modelo `{modelo_real or A.modelo_id(a.modelo)}` · custo US$ {custo:.3f} · `tools/preqa_visual.py`",
+          + f" · modelo `{modelo_real or A.modelo_id(a.modelo)}` · custo US$ {custo:.3f}" + (" (plano Max, fallback)" if str(modelo_real).startswith("max:") else "") + " · `tools/preqa_visual.py`",
           f"- Resultado: **{'REPROVADO (há bloqueante)' if bloq else 'sem bloqueante'}** · bloqueante {n['bloqueante']} · alto {n['alto']} · médio {n['medio']} · baixo {n['baixo']}",
           "- Confira cada item no quadro (o modelo erra para os dois lados): falso positivo → anote e siga; defeito real → corrija e refaça os stills do trecho.",
           ""]
