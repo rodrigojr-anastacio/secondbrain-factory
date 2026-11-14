@@ -60,3 +60,6 @@ Fonte: yt-dlp via WARP (views de 12/11/2026, últimos ~80 vídeos de cada canal;
 ### Onde estamos fora do padrão (títulos no ar, `youtube.videos`; só registro, nenhum alterado)
 - Os 7 títulos usam só o padrão 1 ("A história INTEIRA de X em N minutos", com "COMPLETA" na Índia). É o padrão certo, mas é o **único**: nunca testamos os de tensão (Why A… while B…, Never died, Every empire wanted), que rendem nos temas médios. Egito 343 e Índia 197 views vs. 558–637 mil na referência: o título é igual; a diferença está em canal novo e thumb (não nos títulos).
 - Temas fora do que a referência prova: Brasil, Roma, Irã. Pedem o padrão 3/7 (tensão) em vez do "ENTIRE" puro, que depende de demanda do país.
+
+## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
+Título (e os 3 do "Testar e comparar"), descrição e tags **sem** morte/morreu/morto/assassinado/assassinato (es: muerte/murió/muerto/asesinado/asesinato; en: death/died/dead/killed/murdered/assassinated/murder) nem massacre/chacina/"chocante"/"perturbador"/"nojento". Troque por vítimas, baixas, atentado, golpe, caso. Na narração pode, com contexto factual.

@@ -23,3 +23,6 @@ Regra de canal: **prevalece** sobre `conhecimento/thumbnails/README.md`. Thumbs 
 
 ## Métricas 2026-11-09
 - Thumb A: views 11 → 36 → 54 → 61 e **estagnadas em 61 de 05 a 09/11**, 0 inscritos. Não há sinal de ganho a atribuir à troca; **CTR do Studio ainda pendente** (continua Hipótese). Fonte: `youtube.metricas_video`; `pesquisa/metricas/2026-11-09.md`.
+
+## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
+Thumb sem foto real de morto, sem sangue/ferimento/caveira e sem as palavras proibidas no texto. Em IA: pintura sem sangue, ferimento ou cadáver.

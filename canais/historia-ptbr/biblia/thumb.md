@@ -68,3 +68,6 @@ Pedido do Rodrigo: 3 estilos diferentes para o "Testar e comparar" (`videos/004-
 - Layout "pôster de expediente" (personagem à esquerda + SIGLA gigante + sello rojo + aba de pasta): é do `dossie-es`.
 - Pintura a óleo romântica com pergunta: é do `lotr-fr`.
 - Texto pequeno em várias linhas.
+
+## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
+Thumb sem foto real de morto, sem sangue/ferimento/caveira e sem as palavras proibidas no texto. Em IA: bonequinhos sem sangue, ferimento ou cadáver; guerra sugerida por objeto, bandeira, silhueta.

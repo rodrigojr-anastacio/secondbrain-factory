@@ -15,3 +15,6 @@ Regra de canal: **prevalece** sobre `conhecimento/thumbnails/README.md`. Ainda s
 - Bonequinho de cabeça redonda, panorama com nome de país, papiro (é do `historia-ptbr`).
 - Suástica, runas SS e insígnias extremistas; armas na thumb de cartel. Texto em português.
 - Copiar a composição exata do Archive (céu azul chapado + selo redondo).
+
+## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
+Thumb sem foto real de morto, sem sangue/ferimento/caveira e sem as palavras proibidas no texto. Em IA: ilustração sem corpo em destaque, sangue, ferimento ou caveira.

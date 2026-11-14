@@ -38,6 +38,7 @@ Procedimento-base: checklist de `playbooks/produzir-video.md` §6 e §7. Modelo 
 - [ ] Cenas nomeadas fiéis; nenhum lugar real no lugar de fictício; nenhum frame de filme; nada cortado/sobreposto; nenhum texto gerado pela IA; um HUD por vez.
 - [ ] `.srt` sincronizada; capítulos em ordem desde 0:00; thumb JPG < 2 MB.
 - [ ] **Segue a bíblia do canal** (roteiro, título, thumb, visual, voz) e nada de "O que NÃO fazer aqui"; resultado de cada arquivo anotado.
+- [ ] **Políticas do YouTube** (`conhecimento/politicas-youtube.md`): 0 foto/vídeo real de cadáver ou pessoa morta (vídeo e thumbs); 0 plano apelativo (corpo em destaque, sangue, ferimento, sofrimento explícito); título, descrição e tags **sem** morte/morreu/morto/assassinado/assassinato (e equivalentes es/en) nem "chocante/perturbador/massacre"; `youtube.txt` sem menção a IA/voz sintética.
 - [ ] Custo total ≤ teto: `psql -d vida -c "SELECT * FROM financas.custo_por_video WHERE id=<id>"`.
 
 ## Loop de melhoria

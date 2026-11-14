@@ -46,3 +46,6 @@ Fonte: yt-dlp via WARP, views de 12/11/2026 (últimos ~80 vídeos) de Archive in
 ### Onde estamos fora do padrão (só registro; Dossier em teste A/B, nenhum título alterado)
 - Os 7 títulos são 100% o padrão 1 em es ("TODA/COMPLETA la historia de X en N minutos"), sem o subtítulo de superlativo do Atlas ("| El Servicio Secreto Más Temido del Mundo") e sem testar os padrões 2–4. O padrão 1 vale (temas SS/Gestapo/MI6 nem entraram), mas Mossad 319, CIA 80, FBI 39 views (12/11) com o tema forte indicam que o gargalo é descoberta/thumb, não só a fórmula.
 - Temas fora do que renderia: Cosa Nostra/Masones são "evento/tema difuso" (o que flopou no Archive). Faltam SS, Gestapo, MI6, Stasi em es.
+
+## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
+Título (e os 3 do "Testar e comparar"), descrição e tags **sem** morte/morreu/morto/assassinado/assassinato (es: muerte/murió/muerto/asesinado/asesinato; en: death/died/dead/killed/murdered/assassinated/murder) nem massacre/chacina/"chocante"/"perturbador"/"nojento". Troque por vítimas, baixas, atentado, golpe, caso. Na narração pode, com contexto factual.

@@ -27,6 +27,7 @@ Procedimento-base: `playbooks/produzir-video.md` §4. Modelo recomendado: **opus
 - Reuso 0% antes de 3:00; nenhum enquadramento repetido em < 60 s (a validação do `roteiro.py` passa).
 - Toda cena com nome próprio tem prompt específico e fiel; prompts sem estilo e sem texto.
 - Nada da lista "O que NÃO fazer aqui" da bíblia (ex.: rostos realistas no historia-ptbr; bonequinhos no dossie-es).
+- **Políticas do YouTube (`conhecimento/politicas-youtube.md`, 14/11/2026):** nenhum plano com foto/vídeo real de cadáver ou pessoa morta (nem de acervo de domínio público); em cena de IA, morte só sugerida (objeto, lugar, documento, sombra, mapa), sem corpo em destaque, sangue, ferimento ou sofrimento explícito. Planeje a troca por paisagem de hoje, objeto, documento ou mapa.
 - Nº de imagens × preço ≤ teto do BRIEF.
 - Anote em `$V/ETAPA1.md`: nº de planos, imagens novas, % de reuso, custo previsto.
 

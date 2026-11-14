@@ -33,6 +33,7 @@ Procedimento-base: `playbooks/produzir-video.md` §3 (parágrafo "Imagens") e §
 - 0 gerações duplicadas (nº de chamadas pagas no log = nº de imagens novas).
 - Custo em `financas.consumo` (`ref_id=<id>`) ≤ teto do BRIEF.
 - Amostra visual (contact sheet de ~12 imagens com `ffmpeg ... -vf tile`, não imagem por imagem): **a identidade da `biblia/visual.md`** (ex.: bonequinhos de cabeça redonda no historia-ptbr; graphic novel com rostos adultos no dossie-es; pintura a óleo no lotr-fr), nenhum texto/letra gerado pela IA, lugares nomeados fiéis.
+- **Políticas (`conhecimento/politicas-youtube.md`):** nenhuma imagem com corpo em destaque, sangue, ferimento ou sofrimento explícito (a morte é só sugerida); prompts sem esses termos. Se a IA devolver algo apelativo, refaça.
 - Relatório em `$V/ETAPA2.md` (imagens, custo, falhas, reusos de cobertura).
 
 ## Loop de melhoria

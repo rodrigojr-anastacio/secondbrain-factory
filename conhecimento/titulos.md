@@ -40,6 +40,9 @@ Todo vídeo sai com **3 títulos** para o "Testar e comparar", cada um com um **
 - **Choque/número, proibido/segredo, perda/medo, contraste antes×depois.**
 Cada título casa com uma das 3 thumbs (o Rodrigo testa pares título+thumb). Fonte: Rodrigo, 12/11/2026, nos A/B do Em Relevo 001/002.
 
+## Políticas do YouTube (14/11/2026, Rodrigo)
+Título, descrição e tags **sem** morte/morreu/morto/assassinado/assassinato (es: muerte/murió/muerto/asesinado/asesinato; en: death/died/dead/killed/murdered/assassinated/murder) nem sinônimos chocantes (massacre, chacina, "chocante", "perturbador", "nojento"). Os exemplos de referência abaixo que contêm essas palavras (ex.: "Lincoln's Death") são só dados de mercado: **não copie a palavra**. Detalhe e substituições: `conhecimento/politicas-youtube.md`.
+
 ## Método (12/11/2026): título se modela das referências, não se inventa
 Regra do Rodrigo: "o que manda é o cara clicar: thumb boa + título bom". Antes de escrever título, **puxe os títulos das referências do canal com views** (`youtube.garimpo_videos` ou yt-dlp) e use os padrões que mais renderam. Título bom **mostra algo estranho/proibido/escondido e não entrega a resposta** (abre um loop). Título que já responde ("The Ships Are Still Down There", "Now the Birds Own It") **não gera clique**.
 

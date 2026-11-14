@@ -15,3 +15,6 @@ Base: 11/11 thumbs do WTS medidas em pixel (`pesquisa/lugares-guerra/ANATOMIA.md
 - Copiar "SEALED SINCE 1945" ou a montanha com túneis do WTS.
 - Bandeira/insígnia nacional com suástica ou sol nascente militar; rosto em pânico; foto real de morto.
 - Texto escrito pela IA na base (o prompt sempre "no text, no letters, no numbers").
+
+## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
+Thumb sem foto real de morto, sem sangue/ferimento/caveira e sem as palavras proibidas no texto. Em IA: foto real de morto, corpo em destaque, sangue ou ferimento (já vedado; reforçado em 14/11/2026).

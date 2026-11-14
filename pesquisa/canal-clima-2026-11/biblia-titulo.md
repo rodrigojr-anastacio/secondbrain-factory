@@ -27,3 +27,6 @@ Fonte: yt-dlp via WARP, views de 12/11/2026 (últimos ~80 vídeos) de Mundo Entr
 ### Onde estamos fora do padrão (`youtube.videos`)
 - "O que está acontecendo com o clima no Sul do Brasil?" é o molde "What is HAPPENING to SANTA CATARINA?!" (Mundo Entrópico, 443 mil: mediano), vago e sem anomalia concreta. Melhor: nomear a coisa estranha (padrão 1 ou 3).
 - "El Niño 2026 vai ser o mais forte da história?" é pergunta sim/não, sem lugar nem anomalia (a referência Astrum, 2,4 mi, afirma o fato, e o Jubilut fez 5,9 mi com "o que esperar?"). Sem padrão da tabela; trocar por "Por que… / O que ninguém mostra sobre o El Niño no mapa".
+
+## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
+Em Relevo (sem pasta em `canais/`; esta é a bíblia de título/thumb): título, descrição e tags **sem** morte/morreu/morto/assassinado e sinônimos chocantes ("matou 500 mil" vira "500 mil vítimas" ou sai); thumb sem foto real de morto/vítima em destaque (use mapa, satélite, gráfico, lugar hoje); fotos de acervo de vítimas/retirantes só como contexto distante, nunca close; `youtube.txt` sem menção a IA/voz sintética (padrão em `conhecimento/politicas-youtube.md`).

@@ -5,6 +5,7 @@
 **Arquivos:** [`roteiro.md`](roteiro.md) · [`titulo.md`](titulo.md) · [`thumb.md`](thumb.md) · [`visual.md`](visual.md) · [`voz.md`](voz.md). Esta bíblia **prevalece** sobre `conhecimento/` (só regras gerais).
 
 **O que NÃO fazer aqui:**
+- **Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`):** **nenhuma foto ou filme real de cadáver/pessoa morta** (nem de acervo PD) e nada apelativo; foto de acervo de guerra só se mostrar lugar, objeto, documento, vivos. Título, descrição e tags sem morte/morreu/morto/assassinado/assassinato (e equivalentes no idioma do canal) nem "chocante/perturbador/massacre"; `youtube.txt` sem menção a IA.
 - **Bonequinhos** de cabeça redonda, cartoon chapado, narrativa de país inteiro em eras ("mas… então…") e loops "guarde isso" no estilo HiM: é o `historia-ptbr`.
 - **EXPEDIENTES** numerados, pasta parda, sello rojo, graphic novel em tinta, "TODA la historia de <organização>": é o `dossie-es`. (Aqui o documento é **prova real** escaneada, não estética de dossiê.)
 - **Pintura a óleo romântica** e lore de ficção: é o `lotr-fr`.

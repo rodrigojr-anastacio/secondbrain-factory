@@ -26,3 +26,6 @@ Regra de canal: **prevalece** sobre `conhecimento/titulos.md`.
 
 ## Métricas 2026-11-09
 - "Pergunta curiosa + ~8 min" no 001: 61 views e 16% assistido em 7 dias; a Hipótese fica **em xeque** (não derrubada: falta CTR). No acervo 2024, o maior é "Que s'est il passé avec les orcs…" (16.302 views, 160 inscritos, 34% assistido): estrutura "o que aconteceu depois" a testar. Fonte: `report.py lotr-fr`, 2026-11-09.
+
+## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
+Título (e os 3 do "Testar e comparar"), descrição e tags **sem** morte/morreu/morto/assassinado/assassinato (es: muerte/murió/muerto/asesinado/asesinato; en: death/died/dead/killed/murdered/assassinated/murder) nem massacre/chacina/"chocante"/"perturbador"/"nojento". Troque por vítimas, baixas, atentado, golpe, caso. Na narração pode, com contexto factual.

@@ -34,6 +34,7 @@ Procedimento-base: `playbooks/produzir-video.md` §2. Modelo recomendado: **opus
 ## Critérios de pronto (avaliar)
 - **Passa no checklist de `canais/<slug>/biblia/roteiro.md`** item por item (marque cada um no `ETAPA1.md`).
 - Nada da lista "O que NÃO fazer aqui" do `biblia/README.md` (ex.: no historia-ptbr, nenhum capítulo-objeto; no dossie-es, nenhuma narrativa sem expedientes).
+- Título (e os 3 do `youtube.txt`) sem morte/morreu/morto/assassinado e equivalentes es/en, nem "chocante/perturbador/massacre" (`conhecimento/politicas-youtube.md`); na narração a morte entra com contexto factual (quem, quando, onde, por quê), sem adjetivo chocante.
 - Tamanho dentro da faixa da bíblia para a duração-alvo.
 - Todo loop aberto é pago; todo fato tem fonte em `SOURCES.md`; `[PENDENTE]` sempre com alternativa.
 - `python3 roteiro.py` roda sem erro e `blocos.json` tem `ideia` nos blocos certos.
