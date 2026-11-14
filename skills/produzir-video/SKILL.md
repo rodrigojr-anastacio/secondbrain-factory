@@ -19,7 +19,10 @@ O orquestrador (Hermes, Claude Code ou outro) **planeja, dispara e confere**; o 
 ## Etapa 0: brief (no próprio orquestrador, curta)
 Siga a skill `pesquisa-referencia`: referência com `tools/watch.py`, linha em `youtube.videos` (anote o `<id>`), pasta `$V` e `$V/BRIEF.md` com **teto de custo em US$**. Sem `BRIEF.md` com teto, não dispare nada pago.
 
-## As 3 execuções (uma por vez, em background, timeout longo)
+## Execuções
+**Padrão (lotes, desde 13/11/2026):** cada vídeo entra na fila em 2 etapas: `tools/fila.sh add <nome>-e1 <brief-ETAPA1>` (Opus: pesquisa, roteiro, fatos, storyboard; grava `ETAPA1-PRONTA.md`) e `tools/fila.sh add <nome>-e2 <brief-ETAPA2> --depende-de <nome>-e1` (Sonnet: voz, imagens, montagem, render, QA, entrega). Modelo de brief: `~/workspace/referencias/BRIEF-lote-*-ETAPA1/2.md`. O timer dispara, retoma e mede.
+
+**Avulso (um vídeo, fora da fila):** as 3 execuções abaixo, uma por vez, em background, timeout longo.
 Para cada etapa, escreva o briefing `$V/.prompt-<etapa>.md` com: objetivo; **"leia primeiro `canais/<slug>/biblia/` (caminho absoluto); ela prevalece sobre `conhecimento/`; não use padrão de outro canal"** e as 3–5 regras da bíblia que mais pesam nesta etapa; "siga `skills/<a>/SKILL.md` e `skills/<b>/SKILL.md`" (caminhos absolutos); id do vídeo; teto restante; critérios de pronto; restrições (um processo de imagem por pasta, um render por vez, não publicar, não ler `~/.segredos/`); e "escreva `ETAPA<n>.md` e commite".
 
 | # | `--etapa` | Modelo | Skills | Sai quando |
@@ -44,7 +47,7 @@ nohup tools/claude_run.sh --video <id> --etapa roteiro-storyboard --cwd $V \
 - `youtube.videos.status`: `ideia` (etapa 0) → `roteiro` (1) → `producao` (2) → `qa` (3) → `pronto` (QA aprovado). Atualize sempre com `atualizado_em=now()`. No historia-ptbr, `biblia_versao` marca a bíblia de roteiro do vídeo (`'v1'` = 001–005, `'v2'` = 006+; gravada na etapa 0/roteiro) para o comparativo do `canais/historia-ptbr/biblia/README.md`. `publicado` só depois que o Rodrigo publicar (aí grave `youtube_id`, `publicado_em`, título no ar e atualize `backlog.md`).
 
 ## Relatório final (ao Rodrigo, curto)
-- Título, duração, caminhos de `out/` (no Telegram, anexe com `MEDIA:/caminho` a thumb e o contact sheet; o mp4 1080p fica na VPS).
+- Título, duração e caminhos de `out/`. O vídeo vai para o Drive (`tools/entregar_drive.sh`); pelo chat, só a thumb e o contact sheet.
 - Custo: `SELECT * FROM financas.custo_por_video WHERE id=<id>` (BRL) + soma em US$ do `financas.consumo` + Claude equivalente; comparação com o teto.
 - Resultado do QA (números), pendências e o checklist de publicação de `pacote-youtube` (sintético = sim, não é para crianças, 3 thumbs no "Testar e comparar").
 

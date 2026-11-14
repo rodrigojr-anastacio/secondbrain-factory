@@ -16,15 +16,16 @@ Procedimento-base: `playbooks/produzir-video.md` §3 (parágrafo "Imagens") e §
 4. Saldo: `psql -d vida -c "SELECT * FROM financas.saldo_pre_pago"`. Custo previsto = nº de imagens que faltam × US$ 0,055 (`medium`). Se o saldo não cobrir (o da OpenAI pode estar negativo por recarga não lançada), **pergunte ao Rodrigo** antes de gastar: dinheiro é decisão dele.
 
 ## Passos
-1. **Um processo só**, em background, da raiz do repo:
+1. **Um processo só**, em primeiro plano (timeout alto; em `claude -p`, processo em segundo plano morre no fim do turno), da raiz do repo:
    ```bash
    mkdir -p $V/logs
-   nohup tools/.venv/bin/python tools/img_openai.py <slug> $V/cenas.json $V/imagens --video <id> --qualidade medium --paralelo 8 \
-     > $V/logs/img.log 2>&1 &
+   tools/.venv/bin/python tools/img_openai.py <slug> $V/cenas.json $V/imagens --video <id> --qualidade medium --paralelo 8 \
+     2>&1 | tee $V/logs/img.log
    ```
+   Lote grande: divida o `cenas.json` em partes de ~60 imagens (~8 min cada, cabe no timeout de 10 min de um comando); a tool pula ids que já existem.
    Alternativa (canal com `gerador: fal`): `tools/.venv/bin/python tools/img_fal.py <slug> $V/cenas.json $V/imagens --video <id> --paralelo 8`.
 2. As tools travam a pasta (`$V/imagens/.img.lock`; 2º processo sai com código 3) e pulam ids já existentes. **Não** lance outro processo "para acelerar".
-3. Acompanhe pela contagem: `ls $V/imagens | wc -l` (o log e o custo só saem no fim; 204 imagens ≈ 25 min).
+3. Conte no fim: `ls $V/imagens | wc -l` (o custo sai no fim do processo; 204 imagens ≈ 25 min).
 4. Se aparecer `insufficient_quota`/"no credits": pare o processo, escreva `$V/BLOQUEIO.md` e cubra as faltas com reuso no storyboard. Se o processo morrer antes do fim, lance o custo do lote à mão em `financas.consumo`.
 
 ## Critérios de pronto (avaliar)

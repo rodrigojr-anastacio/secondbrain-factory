@@ -20,7 +20,7 @@ São os mesmos papéis dos perfis Hermes (`~/.hermes/profiles/<p>/SOUL.md`).
 - **Caixinha por canal:** antes de qualquer etapa, leia **primeiro** `canais/<slug>/biblia/` (README + roteiro/título/thumb/visual/voz). Ela prevalece sobre `conhecimento/` (só regras gerais). **Nunca aplique padrão de outro canal**; aprendizado de um vídeo vai para a bíblia do canal dele e só sobe para `conhecimento/` se for comprovadamente geral.
 - **Segredos** em `~/.segredos/`: nunca imprima, copie, mova nem commite. Rode `git status` antes de commitar.
 - **`~/workspace/cerebro-rodrigo` não é deste repo** e não é dos especialistas: não leia nem escreva lá.
-- **Custo:** toda geração paga com `--video <id>` e dentro do teto do `BRIEF.md`; confira `financas.saldo_pre_pago`. Claude Code headless sempre via `tools/claude_run.sh` (trava + registro em `youtube.execucoes_claude`). Gastar dinheiro, contas e publicar são decisões do Rodrigo.
+- **Custo:** toda geração paga com `--video <id>` e dentro do teto do `BRIEF.md`; confira `financas.saldo_pre_pago`. Claude Code headless: lotes via `tools/fila.sh` (dispara, retoma e mede; vídeo = etapa 1 Opus + etapa 2 Sonnet); etapa avulsa via `tools/claude_run.sh` (trava + registro em `youtube.execucoes_claude`). Gastar dinheiro, contas e publicar são decisões do Rodrigo.
 - Todo aprendizado vai para `conhecimento/` com data e fonte (ou como **Hipótese**) e vira commit descritivo.
 
 ## Execução headless (`claude -p`)

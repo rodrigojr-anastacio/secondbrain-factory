@@ -19,7 +19,7 @@ Procedimento-base: `playbooks/produzir-video.md` §7. Modelo recomendado: **sonn
 ## Passos
 1. Pegue a duração real: `ffprobe -v error -show_entries format=duration -of csv=p=0 $V/out/video.mp4`. O **N do título** é essa duração arredondada em minutos.
 2. Escreva `$V/out/youtube.txt` com as seções:
-   - **Título** (fórmula da `biblia/titulo.md`; ≤ 100 caracteres) e 1–2 alternativas para teste **dentro da mesma fórmula**.
+   - **Título** (fórmula da `biblia/titulo.md`; ≤ 100 caracteres) e 2 alternativas com gatilhos diferentes, **dentro da mesma fórmula** (3 títulos para o "Testar e comparar").
    - **Descrição:** 2 linhas de gancho (não repetir o título), CTA de comentário (a pergunta do fecho do roteiro), capítulos, fontes resumidas de `SOURCES.md`, créditos de imagem/música, nota de voz sintética.
    - **Capítulos:** de `qa/capitulos.json`, formato `M:SS Título`, começando em `0:00`, em ordem crescente, ≥ 3 capítulos de ≥ 10 s; confira cada tempo pela legenda.
    - **Tags** (10–15, idioma do canal), **categoria** (Educação) e idioma do vídeo.

@@ -1,6 +1,6 @@
 # Fábrica de conteúdo do YouTube
 
-Esteira de produção de vídeos para vários canais do Rodrigo, hoje 2 e no plano 10–15. Este arquivo é o manual para **qualquer agente** que opere a fábrica (Hermes, Claude Code ou outro no futuro): tudo o que é necessário para operar está aqui, nos playbooks e em `conhecimento/`, não na memória de um agente específico.
+Esteira de produção de vídeos para vários canais do Rodrigo (pastas em `canais/`; meta 10–15). Este arquivo é o manual para **qualquer agente** que opere a fábrica (Hermes, Claude Code ou outro no futuro): tudo o que é necessário para operar está aqui, nos playbooks e em `conhecimento/`, não na memória de um agente específico.
 
 A pasta é o repositório git **cerebro-fabrica**: todos os agentes leem e escrevem nela. Comece pelo `MAPA.md` (o que existe e onde, o que fica fora do git e a regra de commit).
 
