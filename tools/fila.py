@@ -2,9 +2,12 @@
 """Fila de jobs `claude -p` em ops.fila_jobs: dispara, acompanha e retoma sozinho (tick a cada 3 min pelo timer fabrica-fila).
 
 Uso:
-  fila.sh add <nome> <brief> [--modelo opus|sonnet] [--motor max|api] [--prioridade N] [--prazo 'YYYY-MM-DD HH:MM'] [--depende-de nome] [--log caminho]
-  fila.sh list | tick [--dry-run] | cancel <nome> | retomar <nome> | capacidade [--backfill]
-Config opcional: ~/.config/fabrica/fila.env (MAX_CONCORRENCIA=2, MEM_MIN_GB=2.5).
+  fila.sh add <nome> <brief> [--modelo opus|sonnet] [--motor max|api] [--prioridade N] [--prazo 'YYYY-MM-DD HH:MM'] [--depende-de nome] [--log caminho] [--agora]
+  fila.sh list | tick [--dry-run] | cancel <nome> | retomar <nome> | agora <nome> | capacidade [--backfill]
+Config opcional: ~/.config/fabrica/fila.env (MAX_CONCORRENCIA=2, MEM_MIN_GB=2.5, FILA_JANELA=20-07).
+Janela noturna (14/11/2026): job novo só INICIA dentro de FILA_JANELA (padrão 20-07; "off" desliga). Fora dela só
+sobem: retomadas (limite/retentativa), jobs com `--agora` (bypass do Rodrigo/orquestrador; `fila.sh agora <nome>`
+liga num job já na fila) e jobs com `--depende-de` (continuação de cadeia já iniciada, ex.: o e2 de um vídeo).
 Nunca mata processos. Lock (flock) impede dois ticks juntos.
 """
 import argparse
@@ -34,12 +37,12 @@ PROJ = HOME / ".claude/projects"
 CAP_MD = REPO / "conhecimento/capacidade-fila.md"
 TOOLS = ["Bash", "Read", "Write", "Edit", "Glob", "Grep", "Task", "WebFetch", "WebSearch"]
 DB = os.environ.get("FABRICA_DB", "dbname=vida")
-COLS = "id,nome,brief,log,modelo,motor,prioridade,prazo,depende_de,status,unit,session_id,retomar_em,tentativas,iniciado_em,terminado_em,obs"
+COLS = "id,nome,brief,log,modelo,motor,prioridade,prazo,depende_de,status,unit,session_id,retomar_em,tentativas,iniciado_em,terminado_em,obs,agora"
 LIMIT_RE = re.compile(r"hit your[^\n]*?limit[^\n]*?resets\s+(\d{1,2})(?::(\d{2}))?\s*(am|pm)?", re.I)
 
 
 def cfg():
-    c = {"MAX_CONCORRENCIA": "2", "MEM_MIN_GB": "2.5"}
+    c = {"MAX_CONCORRENCIA": "2", "MEM_MIN_GB": "2.5", "FILA_JANELA": "20-07"}
     f = HOME / ".config/fabrica/fila.env"
     if f.exists():
         for ln in f.read_text().splitlines():
@@ -47,6 +50,21 @@ def cfg():
                 k, v = ln.split("=", 1)
                 c[k.strip()] = v.strip()
     return c
+
+
+def na_janela(agora, janela):
+    """FILA_JANELA "20-07" ou "20:00-07:00" (pode virar a meia-noite); "off"/vazio = sempre. Hora local (America/Sao_Paulo)."""
+    janela = (janela or "").strip().lower()
+    if janela in ("", "off", "0", "sempre", "none"):
+        return True
+    try:
+        a, b = janela.split("-")
+        ma = int(a.split(":")[0]) * 60 + (int(a.split(":")[1]) if ":" in a else 0)
+        mb = int(b.split(":")[0]) * 60 + (int(b.split(":")[1]) if ":" in b else 0)
+    except ValueError:
+        return True  # config inválida não trava a fila
+    m = agora.hour * 60 + agora.minute
+    return (ma <= m < mb) if ma < mb else (m >= ma or m < mb)
 
 
 def logar(msg, nome=None, tipo="info", sev="info", dry=False):
@@ -407,7 +425,10 @@ def tick(dry):
         else:
             rodando = jobs(con, "status='rodando'")
             n_max = sum(1 for r in rodando if r["motor"] == "max")
+            janela_ok = na_janela(agora, c["FILA_JANELA"])
             for j in jobs(con, "status='fila'"):
+                if not janela_ok and not j["agora"] and not j["depende_de"]:
+                    continue  # fora da janela noturna: só bypass (--agora) ou continuação de cadeia
                 if j["motor"] == "max" and n_max >= int(c["MAX_CONCORRENCIA"]):
                     continue
                 if j["depende_de"]:
@@ -436,6 +457,8 @@ def escrever_status(con):
             det = f"retoma {j['retomar_em'].astimezone(TZ):%d/%m %H:%M}"
         if j["status"] == "fila" and j["depende_de"]:
             det = f"depende de {j['depende_de']}"
+        elif j["status"] == "fila" and not j["agora"] and not na_janela(datetime.now(TZ), cfg()["FILA_JANELA"]):
+            det = f"aguarda a janela {cfg()['FILA_JANELA']}"
         pz = j["prazo"].astimezone(TZ).strftime("%d/%m %H:%M") if j["prazo"] else "-"
         L.append(f"| {j['prioridade']} | {j['nome']} | {j['status']} | {pz} | {det} |")
     STATUS_MD.write_text("\n".join(L) + "\n")
@@ -445,9 +468,11 @@ def cmd_add(a):
     with psycopg.connect(DB, autocommit=True) as con:
         brief = a.brief
         log = a.log or str(REF / (a.nome + ".log"))
-        con.execute("INSERT INTO ops.fila_jobs (nome,brief,log,modelo,motor,prioridade,prazo,depende_de) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)",
-                    (a.nome, brief, log, a.modelo, a.motor, a.prioridade, (a.prazo + " -03") if a.prazo else None, a.depende_de))
-    print("ok:", a.nome)
+        con.execute("INSERT INTO ops.fila_jobs (nome,brief,log,modelo,motor,prioridade,prazo,depende_de,agora) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)",
+                    (a.nome, brief, log, a.modelo, a.motor, a.prioridade, (a.prazo + " -03") if a.prazo else None, a.depende_de, a.agora))
+    jan = cfg()["FILA_JANELA"]
+    fora = not a.agora and not a.depende_de and not na_janela(datetime.now(TZ), jan)
+    print("ok:", a.nome + (f" (fora da janela {jan}: inicia na próxima janela; --agora ou `fila.sh agora {a.nome}` para já)" if fora else ""))
 
 
 def cmd_list(_):
@@ -455,7 +480,7 @@ def cmd_list(_):
         for j in jobs(con, "true"):
             extra = f" retoma {j['retomar_em'].astimezone(TZ):%d/%m %H:%M}" if j["retomar_em"] else ""
             pz = j["prazo"].astimezone(TZ).strftime("%d/%m %H:%M") if j["prazo"] else "-"
-            print(f"{j['prioridade']} {j['nome']:<34} {j['status']:<15} prazo {pz} {('dep:' + j['depende_de']) if j['depende_de'] else ''}{extra}")
+            print(f"{j['prioridade']} {j['nome']:<34} {j['status']:<15} prazo {pz} {('dep:' + j['depende_de']) if j['depende_de'] else ''}{' agora' if j['agora'] else ''}{extra}")
 
 
 def cmd_set(a, status, extra=""):
@@ -630,10 +655,11 @@ def main():
     p.add_argument("nome"); p.add_argument("brief")
     p.add_argument("--modelo", default="opus"); p.add_argument("--motor", default="max")
     p.add_argument("--prioridade", type=int, default=5); p.add_argument("--prazo"); p.add_argument("--depende-de"); p.add_argument("--log")
+    p.add_argument("--agora", action="store_true", help="bypass da janela noturna (FILA_JANELA)")
     sp.add_parser("list")
     p = sp.add_parser("capacidade"); p.add_argument("--backfill", action="store_true")
     p = sp.add_parser("tick"); p.add_argument("--dry-run", action="store_true")
-    for n in ("cancel", "retomar"):
+    for n in ("cancel", "retomar", "agora"):
         sp.add_parser(n).add_argument("nome")
     a = ap.parse_args()
     if a.c == "add":
@@ -646,6 +672,10 @@ def main():
         tick(a.dry_run)
     elif a.c == "cancel":
         cmd_set(a, "cancelado")
+    elif a.c == "agora":  # bypass da janela num job já na fila
+        with psycopg.connect(DB, autocommit=True) as con:
+            r = con.execute("UPDATE ops.fila_jobs SET agora=true WHERE nome=%s AND status='fila' RETURNING id", (a.nome,)).fetchone()
+            print("ok (inicia no próximo tick)" if r else "não achei na fila", a.nome)
     else:  # retomar: volta a 'pausado_limite' com reset vencido (ou 'fila' se não tem sessão)
         cmd_set(a, "pausado_limite", ", retomar_em=now()")
 

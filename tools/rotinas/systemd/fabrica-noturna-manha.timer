@@ -1,0 +1,9 @@
+[Unit]
+Description=Resumo da manhã da produção noturna (todo dia 07:30; só manda se houve noite)
+
+[Timer]
+OnCalendar=*-*-* 07:30:00
+Persistent=false
+
+[Install]
+WantedBy=timers.target

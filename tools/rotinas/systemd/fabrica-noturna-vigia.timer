@@ -1,0 +1,9 @@
+[Unit]
+Description=Vigia da produção noturna a cada 10 min
+
+[Timer]
+OnCalendar=*:0/10
+Persistent=false
+
+[Install]
+WantedBy=timers.target

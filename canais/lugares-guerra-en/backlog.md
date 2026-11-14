@@ -4,6 +4,43 @@ Data: 2026-11-12 · Custo US$ 0 (só dados já coletados).
 Fontes: `biblia/README.md`, `biblia/titulo.md`; `pesquisa/lugares-guerra/CONCORRENCIA.md` (§4 demanda en, §2 concorrentes, §3 documentos); `ANATOMIA.md` §3; `material/MATERIAL.md` e `material.json` (nota 0–5 e contagens de 12/11/2026); `dados.json`.
 Legenda: **[O]** observado nos arquivos acima · **[I]** inferência · **Hipótese** = sem dado.
 
+<!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
+
+## Backlog vivo (14/11/2026 15:53)
+
+Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) pega o 1º item agendado na véspera de cada publicação. Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
+
+### Calendário (próximos 14 dias)
+
+| data | tema | status |
+|---|---|---|
+| dom 15/11 | Bikini Atoll | pronto |
+| seg 16/11 | Gettysburg (fotos) | pronto |
+| qua 18/11 | Pearl Harbor (Ford Island e Hickam: a parte que fica atrás do portão) | agendado |
+| sex 20/11 | Tarawa (Betio: as escavações que não acabam) | agendado |
+| sáb 21/11 | Runit Dome (Enewetak): a cúpula nuclear do Pacífico | agendado |
+| seg 23/11 | Nevada Test Site (NNSS) | agendado |
+| qua 25/11 | Kaho'olawe: a ilha que a Marinha bombardeou por 50 anos | agendado |
+| sex 27/11 | Fort Drum: o 'encouraçado de concreto' da baía de Manila | agendado |
+
+### Temas (ordem da fila)
+
+| id | tema | nota (D·E·U) | status | publicação | janela | evidência principal |
+|---|---|---|---|---|---|---|
+| 34 | Pearl Harbor (Ford Island e Hickam: a parte que fica atrás do portão) | 8.3 (9·7·9) | agendado | qua 18/11 | 07/12 | [Jared Owen: 9,47 mi views (USS Arizona, evergreen)](https://www.youtube.com/watch?v=WZI_g6WMbCk) |
+| 35 | Tarawa (Betio: as escavações que não acabam) | 6.5 (5·7·8) | agendado | sex 20/11 | 23/11 | [WUSA9 (heroes found under a parking lot in Tarawa): 462 mil views](https://www.youtube.com/watch?v=VCnAUGlt3fY) |
+| 36 | Runit Dome (Enewetak): a cúpula nuclear do Pacífico | 6.5 (8·7·5) | agendado | sáb 21/11 | perene | [ABC News In-depth (Concrete Dome... Toxic Timebomb): 9,42 mi views](https://www.youtube.com/watch?v=autMHvj3exA) |
+| 37 | Nevada Test Site (NNSS) | 6.0 (6·9·4) | agendado | seg 23/11 | perene | [atomcentral (Atomic Journeys - The Nevada Test Site): 1,64 mi views](https://www.youtube.com/watch?v=Z7X7QNDi1mQ) |
+| 38 | Kaho'olawe: a ilha que a Marinha bombardeou por 50 anos | 5.8 (5·8·5) | agendado | qua 25/11 | 07/12 | [Vox (How Native Hawaiians fought the US Navy, and won): 1,01 mi views](https://www.youtube.com/watch?v=6nWZ15JeZnc) |
+| 39 | Fort Drum: o 'encouraçado de concreto' da baía de Manila | 5.8 (8·6·4) | agendado | sex 27/11 | perene | [Calum (Fort Drum: America's Unsinkable 'Concrete Battleship'): 4,68 mi views](https://www.youtube.com/watch?v=2RYoK0zmUM0) |
+| 40 | Attu (Aleutas): o campo de batalha em solo americano fechado aos americanos | 5.8 (6·8·4) | proposto | - | perene | [Simple History (The Only Land Battle Fought on U.S. soil in WWII): 4,39 mi views](https://www.youtube.com/watch?v=k2pcLtkzg2M) |
+| 41 | Guadalcanal (o que ainda está enterrado) | 5.5 (7·8·3) | proposto | - | perene | [The History Underground (Ghostly Remains of Guadalcanal): 723 mil views](https://www.youtube.com/watch?v=sbVc6rVUdXo) |
+
+Prontos/publicados recentes: Bikini Atoll (pronto, dom 15/11); Gettysburg (fotos) (pronto, seg 16/11)
+
+<!-- backlog-vivo:fim -->
+
+
 ## Como a ordem foi feita
 Demanda provada (mediana top-10 "só lugar", nº ≥100 mil, prova em concorrente) × material (nota ≥ 3,5 obrigatória: todos os 20 passam) × dono fraco. Lição do WTS: o tema pesa mais que o molde ("Can't" sozinho não salva: Cheyenne 4,9 mil [O]); por isso o ranking pesa a demanda do lugar, não a beleza do tema. Alternância: Pacífico, nuclear, Guerra Civil, Guerra Fria, Europa. Temas já feitos pelo WTS não aparecem nos 10 primeiros (Okinawa, Omaha/Pointe du Hoc, Aleutians entram depois, marcados **[WTS]** e com ângulo diferente).
 Regra de verdade do título: o "can't visit / still there" tem de ser verdadeiro; onde o lugar é visitável, o título usa "still" (B/C) e o A fica como alternativa a confirmar na pesquisa do vídeo. Fatos marcados "[I, conferir]" vêm de conhecimento geral e **precisam de fonte oficial no roteiro**.

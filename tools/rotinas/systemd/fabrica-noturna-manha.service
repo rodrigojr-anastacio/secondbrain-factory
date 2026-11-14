@@ -1,0 +1,8 @@
+[Unit]
+Description=Fábrica YouTube — resumo da manhã da produção noturna (Telegram)
+
+[Service]
+Type=oneshot
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=%h/workspace/fabrica-youtube/tools/rotinas/noturna.sh manha
+TimeoutStartSec=90min

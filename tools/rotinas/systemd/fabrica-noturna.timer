@@ -1,0 +1,9 @@
+[Unit]
+Description=Produção noturna na véspera de cada publicação (dom/ter/qui/sex/sáb 20:00; o script só trabalha se amanhã for dia de publicação)
+
+[Timer]
+OnCalendar=Sun,Tue,Thu,Fri,Sat *-*-* 20:00:00
+Persistent=false
+
+[Install]
+WantedBy=timers.target

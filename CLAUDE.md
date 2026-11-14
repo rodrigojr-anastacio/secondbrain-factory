@@ -14,7 +14,7 @@ São os mesmos papéis dos perfis Hermes (`~/.hermes/profiles/<p>/SOUL.md`).
 `produzir-video` (orquestradora), `pesquisa-referencia`, `embalagem` (título + thumb + crivo, **antes** do roteiro; portão do vídeo desde 14/11/2026), `roteiro`, `storyboard`, `voz`, `imagens`, `montagem-render`, `thumbnail`, `pacote-youtube`, `qa`. Mapa e critérios em `skills/README.md`.
 
 ## Rotinas (systemd user, sem depender do Hermes)
-`tools/rotinas/`: `diaria.sh` (06:30), `metricas.sh` (seg 08:15) e `tendencias.sh` (seg/qui 09:30). Veja `tools/rotinas/README.md`.
+`tools/rotinas/`: `diaria.sh` (06:30), `metricas.sh` (seg 08:15) e `tendencias.sh` (seg/qui 09:30, encadeia `backlog.sh`: reordena o backlog vivo). **Fábrica noturna (14/11/2026):** `noturna.sh planejar` (dom/ter/qui/sex/sáb 20:00, véspera de cada publicação: pré-voo + pauta do `youtube.backlog` + fila), `vigia` (10 min: embalagem reprovada → substituto na mesma noite; pronto → Drive) e `manha` (07:30, Telegram). A fila só **inicia** jobs entre 20:00 e 07:00 (`FILA_JANELA`; bypass `fila.sh add … --agora`). Veja `tools/rotinas/README.md`.
 
 ## Regras que não podem falhar
 - **Caixinha por canal:** antes de qualquer etapa, leia **primeiro** `canais/<slug>/biblia/` (README + roteiro/título/thumb/visual/voz). Ela prevalece sobre `conhecimento/` (só regras gerais). **Nunca aplique padrão de outro canal**; aprendizado de um vídeo vai para a bíblia do canal dele e só sobe para `conhecimento/` se for comprovadamente geral.

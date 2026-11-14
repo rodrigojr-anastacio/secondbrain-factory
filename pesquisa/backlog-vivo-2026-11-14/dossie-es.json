@@ -1,0 +1,415 @@
+[
+ {
+  "tema": "La Gestapo",
+  "slug": "gestapo",
+  "angulo": "La Paz, 1983: Bolivia expulsa a un empresario alemán llamado Klaus Altmann; en Lyon lo conocían como Klaus Barbie, jefe de la Gestapo local [I, conferir]. Ângulo América Latina + a polícia que vivia de denúncias de vizinhos (Gellately, Würzburg) [I, conferir].",
+  "titulo_candidato": "Cómo funcionaba la Gestapo: la policía secreta que encontraron en Bolivia",
+  "evidencias": [
+   {
+    "tipo": "concorrente",
+    "fonte": "Te lo Pinto (es, 603 mil insc.)",
+    "link": "https://youtube.com/watch?v=oWkkPoYFC5o",
+    "numero": "202.778 views em 10 dias (pub. 04/11) 'Así Funcionaba por Dentro la Policía Nazi del Tercer Reich'",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "referencia",
+    "fonte": "Archive in Minutes",
+    "link": "https://youtube.com/watch?v=pbIzG1QvoWs",
+    "numero": "453 mil views hoje; 362.927 no garimpo de 05/11 (+90 mil em 9 dias)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "tendencia",
+    "fonte": "youtube.garimpo_videos (snapshot 05/11) x yt-dlp 14/11",
+    "link": "https://youtube.com/watch?v=pbIzG1QvoWs",
+    "numero": "Gestapo do Archive ainda cresce ~10 mil/dia, 3 semanas após publicar",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "pesquisa/proximos-temas-2026-11/dados/demanda.json (busca yt-dlp es, 09/11)",
+    "link": "https://www.youtube.com/results?search_query=historia+de+la+gestapo",
+    "numero": "mediana top-10 (12 m) em es 103.143; 6 vídeos > 100 mil no ano, 3 recentes",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Atlas del Tiempo (colisão de fórmula)",
+    "link": "https://youtube.com/watch?v=HdIxK2y7v9E",
+    "numero": "'TODA la Historia de la Gestapo en 17 Minutos' 12.076 views (31/10): fórmula já usada no tema → título em outro padrão",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Historia Militar (es)",
+    "link": "https://youtube.com/watch?v=Rk46IEjqV-w",
+    "numero": "65.702 views no último mês 'Así fue CAPTURADO… el JEFE de la Gestapo! Klaus Barbie' (ângulo Bolívia tem público)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "nosso",
+    "fonte": "youtube.studio_video (export 14/11)",
+    "link": "https://youtube.com/watch?v=it37m7pz0hI",
+    "numero": "Mossad 6.287 impressões (CTR 2,62%) saindo com o vizinho bombando no tema vs. Masones 8 impressões sem onda",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 7,
+  "encaixe": 9,
+  "urgencia": 8,
+  "nota": 8.0,
+  "janela_ate": "2026-11-30",
+  "riscos": "Tema nazista: não publicar colado na SS (15/11); sair a partir de 18/11, depois da Inquisición. Sem suástica/runas, sem cadáver; vocabulário de perpetrador (bíblia 007). Título sem as palavras proibidas."
+ },
+ {
+  "tema": "El Cártel de Medellín",
+  "slug": "cartel-medellin",
+  "angulo": "Norman's Cay, Bahamas, 1978: um colombiano compra meia ilha, expulsa os moradores e transforma a pista em escala da cocaína para a Flórida; era Carlos Lehder, sócio de Escobar [I, conferir]. Contar pelo Estado e pelas vítimas, não pelo chefe.",
+  "titulo_candidato": "TODA la historia del Cártel de Medellín en N minutos",
+  "evidencias": [
+   {
+    "tipo": "busca",
+    "fonte": "canais/dossie-es/backlog.md (busca es 04/11)",
+    "link": "https://www.youtube.com/results?search_query=historia+del+cartel+de+medellin",
+    "numero": "mediana top-10 em es 2,99 mi; 32 vídeos de 2026 > 100 mil (maior demanda do nicho em es)",
+    "data": "2026-11-04"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "psql vida: youtube.palavras_chave (idioma es, data 2026-11-11)",
+    "link": "psql: select * from youtube.palavras_chave where termo ilike '%medell%'",
+    "numero": "'cartel de medellin historia' 1ª posição no autocomplete (score 7,92); 'historia completa del cartel de medellín' 2ª (7,43)",
+    "data": "2026-11-11"
+   },
+   {
+    "tipo": "tendencia",
+    "fonte": "djvlad (en, 6,5 mi insc.)",
+    "link": "https://youtube.com/watch?v=Qt8j6ujqfbA",
+    "numero": "220.530 views em 10 dias (pub. 04/11): Carlos Lehder conta a história do cartel (Lehder em circulação agora)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Dieck Docs (es), filtro 'este ano'",
+    "link": "https://youtube.com/watch?v=aUMcUbijZug",
+    "numero": "13,35 mi views '¿Cómo lograron ATRAPAR a PABLO ESCOBAR?' (2026)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Mapa del Ayer (clone es no molde)",
+    "link": "pesquisa/proximos-temas-2026-11/RELATORIO.md",
+    "numero": "'Cartel de Medellín' no molde com 0 views (09/11): ninguém com tração no molde",
+    "data": "2026-11-09"
+   }
+  ],
+  "demanda": 10,
+  "encaixe": 7,
+  "urgencia": 5,
+  "nota": 7.0,
+  "janela_ate": null,
+  "riscos": "ALTO: anúncio limitado e glamourização (bíblia/backlog). Tom de Estado e vítimas, sem arma/dinheiro/droga na thumb, sem 'sicario' no título; nada de corpo ou sangue; atribuições com fonte."
+ },
+ {
+  "tema": "Los Templarios",
+  "slug": "templarios",
+  "angulo": "14/09/1307: o rei da França manda cartas seladas a todo o reino para abrir no mesmo dia; ao amanhecer de 13/10/1307 todos os templários da França são presos [I, conferir]. Embalagem já aprovada no crivo (teste 14/11, r3 3/3).",
+  "titulo_candidato": "TEMPLARIOS: los monjes que guardaban el tesoro de Francia y amanecieron presos",
+  "evidencias": [
+   {
+    "tipo": "busca",
+    "fonte": "pesquisa/proximos-temas-2026-11/dados/demanda.json (busca yt-dlp es, 09/11)",
+    "link": "https://www.youtube.com/results?search_query=historia+de+los+templarios",
+    "numero": "mediana top-10 (12 m) em es 190.887; 8 vídeos > 100 mil no ano; top total 912 mil",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "psql vida: youtube.palavras_chave (idioma es, data 2026-11-11)",
+    "link": "psql: select * from youtube.palavras_chave where termo ilike '%templar%'",
+    "numero": "'historia de los templarios' 1ª posição no autocomplete (score 7,92) + 10 variações (documental, santo grial, España)",
+    "data": "2026-11-11"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Te lo Pinto (es)",
+    "link": "https://youtube.com/watch?v=G7VYGchTvjs",
+    "numero": "2.235.221 views 'Tu vida en Cada Rango de Caballero Templario' (pub. 29/05/2026)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Crónicas del Medievo (es, 2 mil insc.)",
+    "link": "https://youtube.com/watch?v=cZ_iqsugPGM",
+    "numero": "84.649 views em 22 dias (pub. 23/10) 'Drogas Medievales que los Caballeros Templarios Usaban…'",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Memorias de Pez (es)",
+    "link": "https://youtube.com/watch?v=JWjRUliaGPg",
+    "numero": "172.429 views em 29 dias (pub. 16/10) 'La EDAD MEDIA: VIKINGOS, CRUZADAS, TEMPLARIOS…'",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "nosso",
+    "fonte": "pesquisa/teste-embalagem-2026-11-14/RESULTADO.md",
+    "link": "pesquisa/teste-embalagem-2026-11-14/EMBALAGEM.md",
+    "numero": "T1/T2 + thumb aprovados no crivo r3 (3/3); pronto para entrar na esteira",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 9,
+  "urgencia": 4,
+  "nota": 6.6,
+  "janela_ate": null,
+  "riscos": "Baixo. Lenda (tesouro, Graal) se infiltra nos fatos: separar documento de lenda. Mesmo cluster de Masones/Inquisición: não colar com a Inquisición (16/11)."
+ },
+ {
+  "tema": "El MI6",
+  "slug": "mi6",
+  "angulo": "Londres, 1909: o serviço secreto britânico começa com um único oficial num escritório alugado, que assina tudo com 'C' em tinta verde [I, conferir]. Ângulo América Latina: Malvinas 1982 e os Cinco de Cambridge [I, conferir].",
+  "titulo_candidato": "TODA la historia del MI6 en N minutos",
+  "evidencias": [
+   {
+    "tipo": "referencia",
+    "fonte": "Archive in Minutes",
+    "link": "https://youtube.com/watch?v=zDaBuuCTCg0",
+    "numero": "276 mil views em 14 dias (pub. 31/10); 124.752 no garimpo de 05/11 (+121% em 9 dias)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Archivo Desclasificado (es, 7,6 mil insc.)",
+    "link": "https://youtube.com/watch?v=LRkkK07TcvQ",
+    "numero": "77.418 views em 19 dias (pub. 26/10) 'Los Cinco de Cambridge: Kim Philby y los topos soviéticos del MI6'",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "canais/dossie-es/backlog.md + biblia/titulo.md",
+    "link": "https://www.youtube.com/results?search_query=historia+del+mi6",
+    "numero": "mediana top-10 em es só ~16 mil (demanda de busca fraca em es)",
+    "data": "2026-11-04"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "psql vida: youtube.palavras_chave (idioma es, data 2026-11-11)",
+    "link": "psql: select * from youtube.palavras_chave where termo='historia del mi6'",
+    "numero": "'historia del mi6' 1ª posição no autocomplete (score 7,92)",
+    "data": "2026-11-11"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Atlas del Tiempo",
+    "link": "https://youtube.com/watch?v=iuW2SNn-Luo",
+    "numero": "'MI6 vs. KGB' 4,3 mil (04/11): ninguém tem o MI6 sozinho em es no molde",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 4,
+  "encaixe": 8,
+  "urgencia": 7,
+  "nota": 6.1,
+  "janela_ate": "2026-11-30",
+  "riscos": "Baixo. Busca es fraca: depende de sugeridos do Archive/Archivo Desclasificado; Malvinas pede tom neutro (público argentino)."
+ },
+ {
+  "tema": "Los Jesuitas",
+  "slug": "jesuitas",
+  "angulo": "Roma, 13/03/2013: sai na sacada o primeiro papa jesuíta, de uma ordem que outro papa tinha suprimido em 1773 e que a Espanha expulsou da América numa só noite em 1767 [I, conferir]. Missões do Paraguai, México e Argentina.",
+  "titulo_candidato": "TODA la historia de los Jesuitas en N minutos",
+  "evidencias": [
+   {
+    "tipo": "concorrente",
+    "fonte": "Palacios Oscuros (es, 302 insc.)",
+    "link": "https://youtube.com/watch?v=Vtgbx7rYGac",
+    "numero": "602.502 views 'La TERRIBLE Historia de los JESUITAS: El Ejército Secreto…' (pub. 10/05/2026): porta aberta para canal pequeno",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Imperios en Cenizas (es, 2,8 mil insc.)",
+    "link": "https://youtube.com/watch?v=-m8yzQH3jWc",
+    "numero": "248.489 views 'Los Jesuitas: El Ejército Secreto Del Papa…' (pub. 26/04/2026)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "psql vida: youtube.palavras_chave (idioma es, data 2026-11-11)",
+    "link": "psql: select * from youtube.palavras_chave where termo ilike '%jesuit%'",
+    "numero": "'historia de los jesuitas' 1ª posição no autocomplete (7,92) + variações México (7,14), misiones, Argentina, Paraguay",
+    "data": "2026-11-11"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "pesquisa/proximos-temas-2026-11/dados/demanda.json (busca yt-dlp es, 09/11)",
+    "link": "https://www.youtube.com/results?search_query=historia+de+los+jesuitas",
+    "numero": "mediana top-10 (12 m) em es 73.916; 5 > 100 mil no ano; 0 recentes; nenhum no molde",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "nosso",
+    "fonte": "youtube.studio_video (export 14/11)",
+    "link": "https://youtube.com/watch?v=DBLonwmeQ7c",
+    "numero": "Masones (tema de busca sem vizinho rodando) 8 impressões: evergreen sem onda puxa pouco",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 6,
+  "encaixe": 9,
+  "urgencia": 4,
+  "nota": 6.0,
+  "janela_ate": null,
+  "riscos": "Baixo–médio (religião; mito de 'exército secreto do papa' pede atribuição, regra do 006). Hook de expulsão em uma noite parece o dos Templários: não publicar os dois em sequência."
+ },
+ {
+  "tema": "La Yakuza",
+  "slug": "yakuza",
+  "angulo": "Kobe, janeiro de 1995: depois do terremoto, os primeiros a distribuir comida na rua não são do governo, são da Yamaguchi-gumi [I, conferir]. Dos jogadores e camelôs do período Edo à lei de 1992.",
+  "titulo_candidato": "TODA la historia de la Yakuza en N minutos",
+  "evidencias": [
+   {
+    "tipo": "concorrente",
+    "fonte": "Te lo Pinto (es)",
+    "link": "https://youtube.com/watch?v=aN_Wl0RYbbQ",
+    "numero": "1.219.273 views 'Cómo es Ser Cada Rango de la Yakuza' (pub. 08/02/2026)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "POVrank (es), filtro 'este ano'",
+    "link": "https://youtube.com/watch?v=9_EHJAc63V0",
+    "numero": "444.421 views 'Tu vida en cada rango de la Yakuza' (2026)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "pesquisa/proximos-temas-2026-11/dados/demanda.json (busca yt-dlp es, 09/11)",
+    "link": "https://www.youtube.com/results?search_query=historia+de+la+yakuza",
+    "numero": "mediana top-10 (12 m) em es 160.092; 8 > 100 mil no ano, 3 recentes; ninguém no molde",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "psql vida: youtube.palavras_chave (idioma es, data 2026-11-11)",
+    "link": "psql: select * from youtube.palavras_chave where termo ilike '%yakuza%'",
+    "numero": "'historia de la yakuza japonesa' 2ª posição no autocomplete (4,74); 'toda la historia de yakuza' aparece",
+    "data": "2026-11-11"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "CÓDIGO OSCURO (es, 3,7 mil insc.)",
+    "link": "https://youtube.com/watch?v=h7IVKuonQGw",
+    "numero": "12.918 views 'LA YAKUZA: LA MAFIA JAPONESA… SU HISTORIA' (21/08): o formato 'história inteira' em es ainda sem dono",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "nosso",
+    "fonte": "youtube.studio_video (export 14/11)",
+    "link": "https://youtube.com/watch?v=gmA0LkJqf_U",
+    "numero": "Cosa Nostra (outra máfia) 107 impressões, 45 views: máfia sem vizinho rodando rendeu pouco",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 7,
+  "encaixe": 7,
+  "urgencia": 4,
+  "nota": 5.8,
+  "janela_ate": null,
+  "riscos": "Médio: crime organizado (glamourização, anúncio). Sem ângulo América Latina forte; a demanda está no formato 'rangos' (Te lo Pinto), não no 'história inteira'."
+ },
+ {
+  "tema": "El Opus Dei",
+  "slug": "opus-dei",
+  "angulo": "Madri, 2 de outubro de 1928: um padre de 26 anos diz ter 'visto' a obra que fundaria; 30 anos depois, ministros dela governam a economia de Franco [I, conferir]. Organização viva e polêmica, com ramificação forte na América Latina.",
+  "titulo_candidato": "TODA la historia del Opus Dei en N minutos",
+  "evidencias": [
+   {
+    "tipo": "busca",
+    "fonte": "pesquisa/proximos-temas-2026-11/dados/demanda.json (busca yt-dlp es, 09/11)",
+    "link": "https://www.youtube.com/results?search_query=historia+del+opus+dei",
+    "numero": "mediana top-10 (12 m) em es 160.351; 7 > 100 mil no ano, 3 recentes; nenhum no molde",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Juanje Diánez (es), filtro 'este ano'",
+    "link": "https://youtube.com/watch?v=FmH26FcjUvk",
+    "numero": "407.494 views 'Fui del OPUS DEI: no te imaginas cómo es vivir dentro 20 años' (2026)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Detrás De La Historia (es), filtro 'este ano'",
+    "link": "https://youtube.com/watch?v=9HeAcC2LiM0",
+    "numero": "289.481 views '¿QUÉ ESCONDE EL OPUS DEI? | La verdad sobre su influencia real' (2026)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "psql vida: youtube.palavras_chave (idioma es, data 2026-11-11)",
+    "link": "psql: select * from youtube.palavras_chave where termo='historia del opus dei'",
+    "numero": "'historia del opus dei' no autocomplete, mas score baixo (0,50)",
+    "data": "2026-11-11"
+   }
+  ],
+  "demanda": 7,
+  "encaixe": 6,
+  "urgencia": 4,
+  "nota": 5.5,
+  "janela_ate": null,
+  "riscos": "Médio: organização viva (risco de difamação e de comentários polarizados); toda acusação com atribuição e a versão da instituição. Sem morte no título. Pouca 'cena' de ação: encaixe menor nos expedientes."
+ },
+ {
+  "tema": "La Stasi",
+  "slug": "stasi",
+  "angulo": "Berlim Oriental, 15/01/1990: manifestantes entram na sede da Stasi e acham milhares de sacos de papel picado; os arquivos ainda estão sendo remontados à mão [I, conferir]. Ângulo América Latina: Stasi treinando a segurança cubana [I, conferir].",
+  "titulo_candidato": "Stasi: la policía que espiaba a un país entero y no alcanzó a destruir sus archivos",
+  "evidencias": [
+   {
+    "tipo": "referencia",
+    "fonte": "Archive in Minutes",
+    "link": "https://youtube.com/watch?v=u9pNQ9APBks",
+    "numero": "161 mil views; 120.136 no garimpo de 05/11 (+34% em 9 dias)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Atlas del Tiempo (colisão de fórmula)",
+    "link": "https://youtube.com/watch?v=ufBVdt1y0bA",
+    "numero": "8,7 mil views em 9 dias (pub. 05/11), o melhor 'história completa' do Atlas no mês fora o CIA vs KGB",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "pesquisa/proximos-temas-2026-11/dados/demanda.json (busca yt-dlp es, 09/11)",
+    "link": "https://www.youtube.com/results?search_query=historia+de+la+stasi",
+    "numero": "mediana top-10 (12 m) em es só 4.662; 0 > 100 mil no ano",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "psql vida: youtube.palavras_chave (idioma es, data 2026-11-11)",
+    "link": "psql: select * from youtube.palavras_chave where termo='historia de la stasi'",
+    "numero": "'historia de la stasi' 1ª posição no autocomplete (score 7,92)",
+    "data": "2026-11-11"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Secreta Cuba (es), filtro 'este ano'",
+    "link": "https://youtube.com/watch?v=-S-IFZTC_co",
+    "numero": "81.731 views 'Raúl Castro y la Stasi…' (2026): ângulo Cuba tem público",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 4,
+  "encaixe": 9,
+  "urgencia": 4,
+  "nota": 5.2,
+  "janela_ate": null,
+  "riscos": "Baixo. Demanda de busca em es fraca (bíblia: 'fica para depois'); Atlas e o clone Archivos en Minutos (52 views) já usaram a fórmula → título em outro padrão."
+ }
+]

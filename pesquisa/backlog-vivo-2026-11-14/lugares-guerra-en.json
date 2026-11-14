@@ -1,0 +1,387 @@
+[
+ {
+  "tema": "Pearl Harbor (Ford Island e Hickam: a parte que fica atrás do portão)",
+  "slug": "pearl-harbor",
+  "angulo": "85 anos depois, a maior parte de Pearl Harbor ainda é base ativa: o memorial do USS Utah e os prédios de Hickam com marcas de tiro de 1941 só abrem com credencial do DoD; e em 7/12/2026 começa a exumação dos 'unknowns' [I, conferir]. Hook: a parede crivada de 1941 que só militar vê.",
+  "titulo_candidato": "Why Is Pearl Harbor Still Full of Bullet Holes?",
+  "evidencias": [
+   {
+    "tipo": "concorrente",
+    "fonte": "Jared Owen",
+    "link": "https://www.youtube.com/watch?v=WZI_g6WMbCk",
+    "numero": "9,47 mi views (USS Arizona, evergreen)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "referencia",
+    "fonte": "Ship Tales (900 Men Inside)",
+    "link": "https://www.youtube.com/watch?v=NIys6UZBr-M",
+    "numero": "944 mil views desde 12/10/2026",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "referencia",
+    "fonte": "Forgotten Fleet (Why Can't You Visit the USS Utah)",
+    "link": "https://www.youtube.com/watch?v=0F3PpD3qBwI",
+    "numero": "154 mil views; prova o 'can't' em Pearl, mas ocupa o título do Utah",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "The History Underground (bullet-damaged hangars, Ford Island)",
+    "link": "https://www.youtube.com/watch?v=JNn16NynMmQ",
+    "numero": "411 mil views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "yt-dlp ytsearch20 'pearl harbor today what's still there' (≥4 min)",
+    "link": "https://www.youtube.com/results?search_query=pearl+harbor+today+what%27s+still+there",
+    "numero": "mediana top-10 656 mil; 11 vídeos ≥100 mil",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "youtube.palavras_chave (en, 2026-11-11)",
+    "link": "psql -d vida: youtube.palavras_chave",
+    "numero": "'why did japan attack pearl harbour' autocomplete, score 3,95 (estável)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "tendencia",
+    "fonte": "Star-Advertiser: eventos do 85º aniversário",
+    "link": "https://www.staradvertiser.com/2026/10/11/hawaii-news/memorial-events-for-pearl-harbor-anniversary-announced/",
+    "numero": "85º aniversário seg 07/12/2026; cerimônia no memorial do Utah 06/12",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "tendencia",
+    "fonte": "FOX 29: exumação dos unknowns começa no 85º aniversário",
+    "link": "https://www.fox29.com/news/sailors-marines-killed-during-pearl-harbor-attack-buried-uknowns-be-exhumed-identification",
+    "numero": "notícia com data fixa 07/12/2026",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 9,
+  "encaixe": 7,
+  "urgencia": 9,
+  "nota": 8.3,
+  "janela_ate": "2026-12-07",
+  "riscos": "Nicho mais saturado do grupo (Forgotten Fleet e Ship Tales postam 4-5/sem sobre Pearl); não usar 'Why Can't You Visit the USS Utah' (título do FF, 154 mil) nem navio/içamento. Material nota 5 (NARA 3.782 fotos + 390 filmes, NHHC, DVIDS), mas nada de foto de vítima nem da exumação; título sem 'dead/killed'. Publicar até ~03/12 para pegar a semana."
+ },
+ {
+  "tema": "Tarawa (Betio: as escavações que não acabam)",
+  "slug": "tarawa",
+  "angulo": "Em 2019, sob um estacionamento em Betio, uma equipe achou fuzileiros enterrados desde 1943; a busca continua e a ilha de 1943 virou bairro [I, conferir: History Flight/DPAA]. Pergunta em 0:15: por que a América ainda cava em Tarawa?",
+  "titulo_candidato": "Why Is America Still Digging Up Tarawa?",
+  "evidencias": [
+   {
+    "tipo": "concorrente",
+    "fonte": "WUSA9 (heroes found under a parking lot in Tarawa)",
+    "link": "https://www.youtube.com/watch?v=VCnAUGlt3fY",
+    "numero": "462 mil views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "referencia",
+    "fonte": "Where They Stood: Why Is America Still Digging Up Normandy?",
+    "link": "https://www.youtube.com/watch?v=D0mwYK5g1Ms",
+    "numero": "137 mil views em 12 dias (publicado 02/11)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "referencia",
+    "fonte": "Where They Stood: Why Is America Still Digging Up Germany?",
+    "link": "https://www.youtube.com/watch?v=68gVFsvze6g",
+    "numero": "9,6 mil views (07/11): o molde depende do lugar",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "yt-dlp ytsearch20 'tarawa still buried' (≥4 min)",
+    "link": "https://www.youtube.com/results?search_query=tarawa+still+buried",
+    "numero": "mediana top-10 16 mil; 2 ≥100 mil (demanda média-baixa)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "tendencia",
+    "fonte": "Aniversário da batalha (20-23/11/1943)",
+    "link": "https://www.smithsonianmag.com/smart-news/remains-30-service-members-killed-wwii-unearthed-tarawa-180972512/",
+    "numero": "83º aniversário 20-23/11/2026; 272 recuperados desde 2015 (History Flight)",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 5,
+  "encaixe": 7,
+  "urgencia": 8,
+  "nota": 6.5,
+  "janela_ate": "2026-11-23",
+  "riscos": "Janela de 9 dias: precisa de produção expressa. Tema = restos humanos: só fotos de equipes, ferramentas, lugar e documentos, nunca ossadas; título sem 'dead/bodies'. Lugar visitável (Kiribati): usar 'still', nunca 'can't'. Material com nota NÃO medida (Commons 'Battle of Tarawa' 238 arquivos; filme 'With the Marines at Tarawa', 1944, USMC [I, conferir PD]). LATG 'Okinawa Still Digging' fez só 2,1 mil."
+ },
+ {
+  "tema": "Runit Dome (Enewetak): a cúpula nuclear do Pacífico",
+  "slug": "runit-dome",
+  "angulo": "Continuação natural do nosso Bikini: na ilha vizinha, os EUA enterraram ~85 mil m³ de solo radioativo sob uma tampa de concreto que já racha [I, conferir DOE/GAO]. Objeto único na thumb: a cúpula.",
+  "titulo_candidato": "What's Still Under the Concrete Dome on Enewetak?",
+  "evidencias": [
+   {
+    "tipo": "concorrente",
+    "fonte": "ABC News In-depth (Concrete Dome... Toxic Timebomb)",
+    "link": "https://www.youtube.com/watch?v=autMHvj3exA",
+    "numero": "9,42 mi views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "VICE News (Marshall Islands)",
+    "link": "https://www.youtube.com/watch?v=e_QvTPNEXFQ",
+    "numero": "3,66 mi views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Places (Cactus Dome: The Nuclear Tomb in Paradise)",
+    "link": "https://www.youtube.com/watch?v=qpcpR44swQk",
+    "numero": "665 mil views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "yt-dlp ytsearch20 'runit dome' (≥4 min)",
+    "link": "https://www.youtube.com/results?search_query=runit+dome",
+    "numero": "mediana top-10 167 mil; 6 ≥100 mil",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "nosso",
+    "fonte": "youtube.videos id 32 (Bikini, publicação 15/11)",
+    "link": "https://www.youtube.com/watch?v=wrtyMGsqtcc",
+    "numero": "0 views (ainda não público); vizinho próprio para sugeridos",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 7,
+  "urgencia": 5,
+  "nota": 6.5,
+  "janela_ate": null,
+  "riscos": "Material nota 3,5 (NARA 798 fotos + 87 filmes; fotos DOE do domo [I, conferir PD]); dois nucleares seguidos podem canibalizar (publicar 1-2 semanas após o Bikini). Tema sensível (marshaleses): respeito e fontes. Não usar 'Toxic Timebomb' (título do ABC)."
+ },
+ {
+  "tema": "Nevada Test Site (NNSS)",
+  "slug": "nevada-test-site",
+  "angulo": "A 100 km de Las Vegas, um deserto com centenas de crateras de testes que o público só vê em visita rara, com fila e checagem; e desde out/2025 é o único lugar onde os EUA poderiam voltar a testar [I, conferir NNSA/CRS].",
+  "titulo_candidato": "Why Can't You Visit the Nevada Test Site?",
+  "evidencias": [
+   {
+    "tipo": "concorrente",
+    "fonte": "atomcentral (Atomic Journeys - The Nevada Test Site)",
+    "link": "https://www.youtube.com/watch?v=Z7X7QNDi1mQ",
+    "numero": "1,64 mi views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Vegas PBS (Touring the Nevada Test Site)",
+    "link": "https://www.youtube.com/watch?v=BsASpj-y9lY",
+    "numero": "886 mil views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "referencia",
+    "fonte": "Where They Stood: Why Are 400 Nukes Still Buried in American Farmland?",
+    "link": "https://www.youtube.com/watch?v=4OEP2LN6QBA",
+    "numero": "29 mil views (03/10): nuclear em solo americano no molde",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "yt-dlp ytsearch20 'nevada test site' (≥4 min)",
+    "link": "https://www.youtube.com/results?search_query=nevada+test+site",
+    "numero": "mediana top-10 232 mil; 5 ≥100 mil (muito filme antigo)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "tendencia",
+    "fonte": "NPR: Trump quer retomar testes nucleares",
+    "link": "https://npr.org/2025/10/30/nx-s1-5590818/trump-nuclear-testing",
+    "numero": "pauta viva desde 30/10/2025; sem notícia nova achada em 11/2026",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 6,
+  "encaixe": 9,
+  "urgencia": 4,
+  "nota": 6.0,
+  "janela_ate": null,
+  "riscos": "Demanda 'só lugar' nunca medida no levantamento; a mediana vem de filme de arquivo. Não confundir com Area 51 (dono MrBeast). Material nota 5 (NARA/NNSA 22.125 fotos). Conferir se as visitas públicas estão abertas antes de afirmar o 'can't'."
+ },
+ {
+  "tema": "Kaho'olawe: a ilha que a Marinha bombardeou por 50 anos",
+  "slug": "kahoolawe",
+  "angulo": "Logo após Pearl Harbor a Marinha tomou Kaho'olawe como alvo; décadas de bombardeio depois, a ilha foi devolvida ao Havaí, mas segue fechada por munição não detonada e só voluntários autorizados pisam lá [I, conferir KIRC/Navy].",
+  "titulo_candidato": "Why Can't You Visit Hawaii's Bombed Island?",
+  "evidencias": [
+   {
+    "tipo": "concorrente",
+    "fonte": "Vox (How Native Hawaiians fought the US Navy, and won)",
+    "link": "https://www.youtube.com/watch?v=6nWZ15JeZnc",
+    "numero": "1,01 mi views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Park Vibes (This Forbidden Hawaiian Island is Quietly Coming Back to Life)",
+    "link": "https://www.youtube.com/watch?v=N5NUr6g60Mk",
+    "numero": "86 mil views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Park Vibes (What's Hidden on Hawaii's Forbidden Island?, Ni'ihau)",
+    "link": "https://www.youtube.com/watch?v=XrMGJPv8n1U",
+    "numero": "1,30 mi views: 'ilha proibida do Havaí' é busca forte",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "yt-dlp ytsearch20 'kahoolawe island' (≥4 min)",
+    "link": "https://www.youtube.com/results?search_query=kahoolawe+island",
+    "numero": "mediana top-10 19,6 mil; 1 ≥100 mil",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 5,
+  "encaixe": 8,
+  "urgencia": 5,
+  "nota": 5.8,
+  "janela_ate": "2026-12-07",
+  "riscos": "Demanda direta pelo nome é baixa (vive do 'forbidden Hawaii'); Park Vibes tem o ângulo ecológico (fugir dele: Marinha + documentos). Material: Commons 179 arquivos, fotos da Navy [I, conferir PD]; nota não medida. Entra no pacote de 7/12 (Pearl), mas não publicar colado no Pearl."
+ },
+ {
+  "tema": "Fort Drum: o 'encouraçado de concreto' da baía de Manila",
+  "slug": "fort-drum",
+  "angulo": "Uma ilha inteira transformada em encouraçado de concreto pelo Exército dos EUA, que resistiu ao cerco de 1942 e hoje está abandonada, sem acesso, no meio da baía de Manila [I, conferir]. Objeto único e absurdo na thumb.",
+  "titulo_candidato": "Why Is There a Concrete Battleship in Manila Bay?",
+  "evidencias": [
+   {
+    "tipo": "concorrente",
+    "fonte": "Calum (Fort Drum: America's Unsinkable 'Concrete Battleship')",
+    "link": "https://www.youtube.com/watch?v=2RYoK0zmUM0",
+    "numero": "4,68 mi views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "The Fat Electrician (USS No-Go)",
+    "link": "https://www.youtube.com/watch?v=0hoflGSRDhY",
+    "numero": "2,21 mi views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "referencia",
+    "fonte": "Where They Stood: Why Is There Still a B-52 in a Lake in Hanoi?",
+    "link": "https://www.youtube.com/watch?v=gnzKt88W5hg",
+    "numero": "55 mil views em 4 dias (10/11): molde 'Why Is There a [objeto] in [lugar]'",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "yt-dlp ytsearch20 'fort drum concrete battleship' (≥4 min)",
+    "link": "https://www.youtube.com/results?search_query=fort+drum+concrete+battleship",
+    "numero": "mediana top-10 77 mil; 5 ≥100 mil",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 6,
+  "urgencia": 4,
+  "nota": 5.8,
+  "janela_ate": null,
+  "riscos": "Dois donos fortes (4,7 mi e 2,2 mi): bom vizinho para sugeridos, mas o ângulo precisa do documento (relatórios da Coast Artillery, NARA) para não ser clone. Material NÃO medido (Commons não respondeu, rate limit). Lugar fora dos EUA (Filipinas). O fim de 1945 (fogo dentro do forte) é sensível: sem descrição gráfica."
+ },
+ {
+  "tema": "Attu (Aleutas): o campo de batalha em solo americano fechado aos americanos",
+  "slug": "attu",
+  "angulo": "A única batalha terrestre da 2ª Guerra em solo americano incorporado foi em Attu; desde que a Guarda Costeira saiu (2010) a ilha não tem ninguém, é refúgio federal e quase ninguém consegue chegar [I, conferir USFWS]. Padrão do Wake ('closed to Americans').",
+  "titulo_candidato": "Why Can't Americans Visit the Only WWII Battlefield in Alaska?",
+  "evidencias": [
+   {
+    "tipo": "concorrente",
+    "fonte": "Simple History (The Only Land Battle Fought on U.S. soil in WWII)",
+    "link": "https://www.youtube.com/watch?v=k2pcLtkzg2M",
+    "numero": "4,39 mi views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "referencia",
+    "fonte": "Long After The Guns: Why Is Wake Island Still Closed to Americans?",
+    "link": "https://www.youtube.com/watch?v=82yxT4SiAyA",
+    "numero": "633 mil views em 16 dias (29/10)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "referencia",
+    "fonte": "Where They Stood: Why Is There a Japanese Submarine in Alaska?",
+    "link": "https://www.youtube.com/watch?v=OXeIdFod08U",
+    "numero": "33 mil views (29/10)",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "yt-dlp ytsearch20 'attu island' (≥4 min)",
+    "link": "https://www.youtube.com/results?search_query=attu+island",
+    "numero": "mediana top-10 115 mil; 5 ≥100 mil (Across the Globe 'Alaska's Forbidden Island' 231 mil)",
+    "data": "2026-11-14"
+   }
+  ],
+  "demanda": 6,
+  "encaixe": 8,
+  "urgencia": 4,
+  "nota": 5.8,
+  "janela_ate": null,
+  "riscos": "WTS já tocou as Aleutas (submarino de Kiska, 33 mil). Título com 59 caracteres: encurtar no crivo ('Why Is Attu Still Closed to Americans?' colide com o padrão do Wake). Material nota 3,5 (NARA 567 fotos + 90 filmes; 'Report from the Aleutians', 1943 [I, conferir PD])."
+ },
+ {
+  "tema": "Guadalcanal (o que ainda está enterrado)",
+  "slug": "guadalcanal",
+  "angulo": "O aeroporto onde você pousa em Honiara é a pista de 1942, e a baía ao lado tem tantos navios no fundo que virou Iron Bottom Sound; munição ainda aparece em quintais [I, conferir]. Molde 'still', lugar visitável.",
+  "titulo_candidato": "What's Still Buried on Guadalcanal?",
+  "evidencias": [
+   {
+    "tipo": "concorrente",
+    "fonte": "The History Underground (Ghostly Remains of Guadalcanal)",
+    "link": "https://www.youtube.com/watch?v=sbVc6rVUdXo",
+    "numero": "723 mil views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "concorrente",
+    "fonte": "Kings and Generals (Guadalcanal Campaign)",
+    "link": "https://www.youtube.com/watch?v=FI4eNk69E8Q",
+    "numero": "2,24 mi views",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "yt-dlp ytsearch20 'guadalcanal today' (≥4 min)",
+    "link": "https://www.youtube.com/results?search_query=guadalcanal+today",
+    "numero": "mediana top-10 435 mil; 14 ≥100 mil",
+    "data": "2026-11-14"
+   },
+   {
+    "tipo": "busca",
+    "fonte": "pesquisa/lugares-guerra/CONCORRENCIA.md §4",
+    "link": "https://www.youtube.com/results?search_query=guadalcanal",
+    "numero": "só lugar 283 mil; 0 títulos why/still (vaga)",
+    "data": "2026-11-12"
+   }
+  ],
+  "demanda": 7,
+  "encaixe": 8,
+  "urgencia": 3,
+  "nota": 5.5,
+  "janela_ate": null,
+  "riscos": "Aniversário naval (12-15/11) acabou de passar; próximo marco é 07/08. Não é 'can't' (visitável). Material nota 5 (NARA 1.451 fotos + 147 filmes, DVIDS 633); 'hoje' pode ter CC BY-SA. Evitar documentário de batalha."
+ }
+]

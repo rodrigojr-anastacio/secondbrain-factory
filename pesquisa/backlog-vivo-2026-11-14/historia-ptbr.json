@@ -1,0 +1,345 @@
+[
+  {
+    "tema": "Estados Unidos",
+    "slug": "estados-unidos",
+    "angulo": "Fio: um punhado de colonos à beira do fracasso vira a maior potência do mundo, sempre empurrando a fronteira ('mas… então…': terra → escravidão → guerra civil → indústria → guerras mundiais). Hook candidato: Jamestown, inverno de 1609–10, a colônia quase abandonada [I, conferir números].",
+    "titulo_candidato": "Como 13 colônias viraram a maior potência do mundo?",
+    "evidencias": [
+      {
+        "tipo": "referencia",
+        "fonte": "Genius History",
+        "link": "https://youtube.com/watch?v=tn2ehtuk1Gk",
+        "numero": "545.739 views em 36 dias (publicado 09/10/2026; ~15 mil/dia)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Legados da História (pt, 2,3 mil insc.)",
+        "link": "https://youtube.com/watch?v=eGGsyg3HJZo",
+        "numero": "'A História dos Estados Unidos em 11 Minutos' 96.855 views (30/01/2026; 42× os inscritos): único no molde curto em pt",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "BBC News Brasil",
+        "link": "https://youtube.com/watch?v=fjwNJpyAxHk",
+        "numero": "'Como os Estados Unidos viraram um país' 542.196 views (02/07/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch20 via WARP, filtro 'este ano' (sp=EgIIBQ), vídeos ≥ 4 min: 'história dos estados unidos'",
+        "link": "ytsearch20:história dos estados unidos",
+        "numero": "mediana top-10 de 2026 = 335 mil; 9 vídeos > 100 mil",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 8,
+    "encaixe": 9,
+    "urgencia": 6,
+    "nota": 7.6,
+    "janela_ate": "2026-11-30",
+    "riscos": "Política atual (Trump, eleições): fechar com 1 frase neutra. Escravidão e Guerra Civil com contexto factual, sem imagem apelativa. Título fórmula colide (Legados, BTN 'A História COMPLETA dos EUA'): usar o de tensão."
+  },
+  {
+    "tema": "Portugal",
+    "slug": "portugal",
+    "angulo": "Fio: o país pequeno, espremido entre a Espanha e o oceano, que só tinha o mar como saída e por isso dividiu o mundo (Tordesilhas) e acabou mudando a capital para a colônia. Hook candidato: novembro de 1807, a corte embarca no Tejo com Junot a um dia de Lisboa [I, conferir].",
+    "titulo_candidato": "Como um país minúsculo dividiu o mundo ao meio?",
+    "evidencias": [
+      {
+        "tipo": "concorrente",
+        "fonte": "Reimagined Worlds (pt, 109 insc.)",
+        "link": "https://youtube.com/watch?v=qWPL11MOzOg",
+        "numero": "'O Dia em que Portugal se Mudou para o Brasil' 773.598 views (16/03/2026): porta aberta para canal minúsculo",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Impérios e Lendas (pt, 20,3 mil insc.)",
+        "link": "https://youtube.com/watch?v=k7bO4Ioya3U",
+        "numero": "'A Vida Completa de Afonso Henriques' 210.658 views (10/08/2026; 10× os inscritos)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch20 via WARP, filtro 'este ano' (sp=EgIIBQ), vídeos ≥ 4 min: 'história de portugal'",
+        "link": "ytsearch20:história de portugal",
+        "numero": "mediana top-10 de 2026 = 158 mil; 9 > 100 mil (em 13/11, mediana 12 m = 360 mil, pauta-2026-11-15)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "História do Mundo em HQ (molde 'Toda a história', pt)",
+        "link": "https://youtube.com/watch?v=S4Xk0lGpJfg",
+        "numero": "'Toda a História de Portugal – Parte 1' só 25.822 views (06/04/2026): molde longo não pegou",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "nosso",
+        "fonte": "youtube.metricas_video",
+        "link": "psql: historia-ptbr id 12",
+        "numero": "nosso Brasil 53 views em 5 dias: a sessão Brasil→Portugal ainda não ajuda",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 7,
+    "encaixe": 9,
+    "urgencia": 6,
+    "nota": 7.2,
+    "janela_ate": "2026-12-01",
+    "riscos": "1º/12 = Restauração da Independência (1640): publicar antes. Clones de 10/2026 com Portugal fizeram 2–9 views (benchmark 14/11): a demanda é de busca, não de sugeridos. Impérios AD domina o acumulado (2,18 mi)."
+  },
+  {
+    "tema": "União Soviética (URSS)",
+    "slug": "uniao-sovietica",
+    "angulo": "Fio: o país feito para durar para sempre que sumiu do mapa sem perder uma guerra ('mas… então…': revolução → guerra civil → Stálin → vitória de 1945 → corrida espacial → estagnação → 1991). Hook candidato: 25/12/1991, a bandeira vermelha baixada no Kremlin à noite [I, conferir horário].",
+    "titulo_candidato": "URSS: o país que sumiu do mapa sem perder uma guerra",
+    "evidencias": [
+      {
+        "tipo": "tendencia",
+        "fonte": "youtube.garimpo_videos: Archive in Minutes",
+        "link": "https://youtube.com/watch?v=v-HJWqWPvJI",
+        "numero": "'The ENTIRE History of the Soviet Union in 16 Minutes' 133.577 views (17/10/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Professor HOC (pt)",
+        "link": "https://youtube.com/watch?v=0_6CekBxM80",
+        "numero": "'O colapso da União Soviética e o fim da Guerra Fria' 303.945 views (16/07/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "clone pt 'História em minutos' (5,6 mil insc.)",
+        "link": "https://youtube.com/watch?v=aMld6kMmcm4",
+        "numero": "'Toda a história da Rússia em 37 minutos' 255.138 views (19/10/2026): o aglomerado russo em pt está quente",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch20 via WARP, filtro 'este ano' (sp=EgIIBQ), vídeos ≥ 4 min: 'história da união soviética'",
+        "link": "ytsearch20:história da união soviética",
+        "numero": "mediana top-10 de 2026 = 206 mil; 6 > 100 mil; ninguém no molde curto pt (gap-2026-11-14)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "History Easy Guide (pt)",
+        "link": "https://youtube.com/watch?v=dkKgPHEzS74",
+        "numero": "'Guerra Fria…' 7.291 views em 7 dias (07/11): sinal contra no molde de bonequinhos",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 8,
+    "encaixe": 6,
+    "urgencia": 6,
+    "nota": 6.6,
+    "janela_ate": "2026-11-30",
+    "riscos": "Sobrepõe 2 eras do nosso 007 Rússia (publicado 13/11): roteiro tem de focar 1917–1991 e não recontar a Rússia. Fome/expurgos sem cadáver nem imagem apelativa; título sem palavras proibidas. KGB só de passagem (tema do dossie-es); não copiar a estrutura de capítulos do Archive (molde do dossie-es). Comentários polarizados."
+  },
+  {
+    "tema": "Inglaterra / Reino Unido",
+    "slug": "inglaterra",
+    "angulo": "Fio: a ilha que o mar protegia e ao mesmo tempo obrigava a sair, até mandar em um quarto da Terra e depois encolher de volta à ilha. Hook candidato: 1588, a Armada espanhola desfeita por tempestades no Mar do Norte [I, conferir].",
+    "titulo_candidato": "Como uma ilha chuvosa passou a mandar em 1/4 do mundo?",
+    "evidencias": [
+      {
+        "tipo": "referencia",
+        "fonte": "Genius History",
+        "link": "https://youtube.com/watch?v=cqGJ5ZRLAvs",
+        "numero": "'The ENTIRE History of British Empire Explained' 235.507 views (02/08/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "As Histórias Não Contadas (pt)",
+        "link": "https://youtube.com/watch?v=5YKGArG_LlM",
+        "numero": "'Assim Era a Vida de Henrique VIII' 601.370 views (25/04/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Historia Global (es, 14,5 mil insc.)",
+        "link": "https://youtube.com/watch?v=JoyRulN0hoI",
+        "numero": "'El Origen de Inglaterra: la historia completa' 510.358 views (25/09/2026; 35× os inscritos)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch20 via WARP, filtro 'este ano' (sp=EgIIBQ), vídeos ≥ 4 min: 'história da inglaterra' × 'império britânico'",
+        "link": "ytsearch20:história da inglaterra",
+        "numero": "'história da inglaterra' mediana 2026 = 188 mil (8 > 100 mil); 'império britânico' só 4,9 mil (0 > 100 mil)",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 7,
+    "encaixe": 9,
+    "urgencia": 4,
+    "nota": 6.3,
+    "janela_ate": null,
+    "riscos": "Enquadrar como Inglaterra/Reino Unido, não 'Império Britânico' (pt quase sem demanda nesse termo). Colonialismo e Grande Fome irlandesa com contexto, sem imagem apelativa."
+  },
+  {
+    "tema": "Argentina",
+    "slug": "argentina",
+    "angulo": "Fio: o país que em 1910 estava entre os mais ricos do mundo e passou o século seguinte em crise ('mas… então…': pampa → imigração → golpes → Perón → ditadura → Malvinas → 2001 → hoje). Hook candidato: centenário de 1910, Buenos Aires 'a Paris da América' [I, conferir PIB per capita].",
+    "titulo_candidato": "A Argentina já foi mais rica que a França. O que houve?",
+    "evidencias": [
+      {
+        "tipo": "concorrente",
+        "fonte": "Vogalizando a História (pt)",
+        "link": "https://youtube.com/watch?v=CRyur-3Z9e4",
+        "numero": "'Os Nazistas na Argentina' 586.035 views (21/08/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "oipedrodaher (pt)",
+        "link": "https://youtube.com/watch?v=tyAMGbZ0AA4",
+        "numero": "'ARGENTINA: Era uma vez uma dívida' 480.648 views (26/11/2025)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Plano Piloto (pt)",
+        "link": "https://youtube.com/watch?v=GLWUKUsHS0w",
+        "numero": "'Argentina: De potência ao caos' 853.551 views (2021): o ângulo rico→pobre é provado em pt",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch20 via WARP, filtro 'este ano' (sp=EgIIBQ), vídeos ≥ 4 min: 'história da argentina'",
+        "link": "ytsearch20:história da argentina",
+        "numero": "mediana top-10 de 2026 = 433 mil; 8 > 100 mil (amostra mistura vídeos em espanhol)",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 7,
+    "encaixe": 8,
+    "urgencia": 4,
+    "nota": 6.1,
+    "janela_ate": null,
+    "riscos": "Ruído de Copa/rivalidade na busca. Ditadura 1976–83 e desaparecidos com contexto, sem imagem apelativa; título sem palavras proibidas. Política atual (Milei) em 1 frase neutra. Clone de 10/2026 com Argentina flopou (benchmark 14/11)."
+  },
+  {
+    "tema": "Espanha",
+    "slug": "espanha",
+    "angulo": "Fio: um país unido à força (Reconquista, 1492) que montou o primeiro império global e passou 500 anos brigando com as próprias regiões. Hook candidato: 1492, no mesmo ano a queda de Granada, a expulsão dos judeus e Colombo [I, conferir].",
+    "titulo_candidato": "Como a Espanha dominou o mundo e perdeu tudo?",
+    "evidencias": [
+      {
+        "tipo": "concorrente",
+        "fonte": "Academia Play (es)",
+        "link": "https://youtube.com/watch?v=1PAEeroCy9w",
+        "numero": "'Toda la Historia de España en 30 minutos' 662.453 views (17/06/2026), molde da história inteira",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Capital Financeiro (pt)",
+        "link": "https://youtube.com/watch?v=CJZi3RpS6Xc",
+        "numero": "'Por que a Geografia da Espanha é Inabitável' 259.496 views (08/03/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Impérios AD (pt)",
+        "link": "https://youtube.com/watch?v=Gwm7eF4NG0A",
+        "numero": "'A História da Espanha' 684.552 views (2019): demanda pt existe, sem vídeo novo no molde",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch20 via WARP, filtro 'este ano' (sp=EgIIBQ), vídeos ≥ 4 min: 'história da espanha'",
+        "link": "ytsearch20:história da espanha",
+        "numero": "mediana top-10 de 2026 = 143 mil; 7 > 100 mil (em 13/11, com filtro de história, só 24 mil: demanda pt incerta)",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 6,
+    "encaixe": 9,
+    "urgencia": 4,
+    "nota": 6.0,
+    "janela_ate": null,
+    "riscos": "Guerra Civil e Franco com contexto, sem imagem apelativa; Catalunha/País Basco neutro. Busca contaminada por viagem e futebol."
+  },
+  {
+    "tema": "Cuba",
+    "slug": "cuba",
+    "angulo": "Fio: a ilha a 150 km de um gigante, que trocou de 'dono' por 500 anos (Espanha → EUA → URSS) ('mas… então…': taínos → açúcar e escravidão → 1898 → Batista → revolução → mísseis → período especial → hoje). Hook candidato: 15/02/1898, a explosão do USS Maine no porto de Havana [I, conferir].",
+    "titulo_candidato": "Espanha, EUA, URSS: por que Cuba nunca ficou sozinha?",
+    "evidencias": [
+      {
+        "tipo": "concorrente",
+        "fonte": "BBC News Brasil",
+        "link": "https://youtube.com/watch?v=Oh-Or9BOma0",
+        "numero": "'Cuba e Estados Unidos: as origens de uma relação complicada' 298.587 views (21/05/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Wozzy (pt, 1,9 mil insc.)",
+        "link": "https://youtube.com/watch?v=iHEsS5GbpK4",
+        "numero": "'Cuba: A Ilha Proibida Que Nenhum Império Conseguiu Apagar' 16.557 views (19/05/2026; 8,8× os inscritos)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Elementar (pt)",
+        "link": "https://youtube.com/watch?v=yAvQFvoolyg",
+        "numero": "'O que aconteceu com CUBA?' 2.392.946 views (2021): tema evergreen forte em pt",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch20 via WARP, filtro 'este ano' (sp=EgIIBQ), vídeos ≥ 4 min: 'história de cuba'",
+        "link": "ytsearch20:história de cuba",
+        "numero": "mediana top-10 de 2026 = 242 mil; 7 > 100 mil",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 6,
+    "encaixe": 8,
+    "urgencia": 4,
+    "nota": 5.8,
+    "janela_ate": null,
+    "riscos": "Polarização política no Brasil (Fidel, Che): narrar fatos dos dois lados, sem adjetivo. Título não pode colidir com o do Wozzy ('nenhum império conseguiu apagar'). Contexto Venezuela/Maduro (g1 1,46 mi) pode aquecer o Caribe, mas é Hipótese."
+  },
+  {
+    "tema": "Vikings",
+    "slug": "vikings",
+    "angulo": "Fio: fiordes sem terra para plantar empurram um povo para o mar, e ele acaba fundando a Rússia (Rurik), a Normandia e chegando à América antes de Colombo; liga com o nosso 007 Rússia e o 008 França. Hook candidato: 793, o ataque ao mosteiro de Lindisfarne [I, conferir].",
+    "titulo_candidato": "Como os vikings chegaram da Rússia à América?",
+    "evidencias": [
+      {
+        "tipo": "concorrente",
+        "fonte": "Reconstrução Histórica (pt, 70,6 mil insc.)",
+        "link": "https://youtube.com/watch?v=4BmrcZ-TEtQ",
+        "numero": "'Os Vikings | Como Desapareceu o Povo Mais Temido do Mundo' 420.711 views (22/04/2026; 6× os inscritos)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Canal History Brasil",
+        "link": "https://youtube.com/watch?v=QOrLgd0kW9Y",
+        "numero": "'Os VIKINGS não eram como você pensa' 1.088.614 views (2026, filtro 'este ano')",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch20 via WARP, filtro 'este ano' (sp=EgIIBQ), vídeos ≥ 4 min: 'vikings história'",
+        "link": "ytsearch20:vikings história",
+        "numero": "mediana top-10 de 2026 = 221 mil; 9 > 100 mil (em 13/11, mediana 12 m com filtro = 10 mil: demanda incerta)",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 7,
+    "encaixe": 6,
+    "urgencia": 3,
+    "nota": 5.0,
+    "janela_ate": null,
+    "riscos": "Civilização, não país 'até hoje' (encaixe médio: fechar na Escandinávia moderna). Incursões sem sangue nem corpo; separar história de série/mito."
+  }
+]

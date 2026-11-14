@@ -1,0 +1,9 @@
+[Unit]
+Description=Fábrica YouTube — reordenação do backlog vivo (Claude pela API; encadeada depois do garimpo de seg/qui)
+After=network-online.target
+
+[Service]
+Type=oneshot
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=%h/workspace/fabrica-youtube/tools/rotinas/backlog.sh
+TimeoutStartSec=2h

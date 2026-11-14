@@ -7,3 +7,5 @@ Type=oneshot
 Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
 ExecStart=%h/workspace/fabrica-youtube/tools/rotinas/tendencias.sh
 TimeoutStartSec=3h
+# Encadeamento (14/11/2026): ao terminar (com sucesso ou não), reordena o backlog vivo
+ExecStopPost=/bin/systemctl --user start --no-block fabrica-backlog.service

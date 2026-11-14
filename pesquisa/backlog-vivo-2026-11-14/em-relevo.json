@@ -1,0 +1,345 @@
+[
+  {
+    "tema": "Enchente de 2024: por que Porto Alegre ficou debaixo d'água",
+    "slug": "enchente-porto-alegre-2024",
+    "angulo": "Reconstrução no mapa 3D do funil de rios (Taquari, Jacuí, Caí, Sinos) que deságua no Guaíba; hook: em maio de 2024 o Guaíba passou dos 5,3 m e superou a marca de 1941, a cheia para a qual o Muro da Mauá foi feito [I, conferir cotas na ANA/SGB].",
+    "titulo_candidato": "Por que PORTO ALEGRE ficou DEBAIXO D'ÁGUA?",
+    "evidencias": [
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch via WARP (pesquisa/gap-2026-11-14/dados/em-relevo/demanda-temas.json)",
+        "link": "https://www.youtube.com/results?search_query=enchente+rio+grande+do+sul+2024",
+        "numero": "mediana dos longos no top-15 = 325.654 views; 11 vídeos ≥ 100 mil",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Jornal da Record",
+        "link": "https://youtu.be/HlHLV5VqI7w",
+        "numero": "830.888 views (publicado 04/05/2024)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "referencia",
+        "fonte": "Mundo Entrópico: Por que o RIO GRANDE DO SUL vai começar a ENCOLHER?",
+        "link": "https://youtu.be/EGVFIQtvflg",
+        "numero": "259 mil views em ~3 semanas (pub. ~25/10/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "referencia",
+        "fonte": "AntigamenteBR: Porto Alegre 1941, instantes antes de ser devorada pelas águas",
+        "link": "https://youtu.be/2nPuEUL7npA",
+        "numero": "40.998 views em 21 dias (pub. 24/10/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "tendencia",
+        "fonte": "MetSul: chuva de até 300 mm trará enchentes no Sul",
+        "link": "https://youtu.be/iIOi9qPZ_tM",
+        "numero": "90.931 views (pub. 20/10/2026); INMET/Climatempo preveem chuva acima da média no Sul em OND 2026 com o El Niño",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "busca",
+        "fonte": "Google Trends BR 12 meses (canal-clima-2026-11/dados/gtrends.json)",
+        "link": "https://trends.google.com/trends/explore?date=today%2012-m&geo=BR&q=tornado,ciclone,enchente,el%20ni%C3%B1o,granizo",
+        "numero": "'enchente' = 10 na semana 8–14/11/2026 contra média de 6,1 no ano",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 9,
+    "encaixe": 9,
+    "urgencia": 6,
+    "nota": 7.9,
+    "janela_ate": "2026-12-31",
+    "riscos": "Sensível (vítimas recentes): título/tags sem 'morte' e sinônimos, thumb sem vítima; zero imagem de TV (os hits da busca são Record/Band); usar Sentinel-1/2 (Copernicus) e NASA para o antes/depois, fotos Agência Brasil/Wikimedia conferidas uma a uma; sem prever 'nova enchente de 2024' (não há previsão científica disso)."
+  },
+  {
+    "tema": "Caraguatatuba 1967: a serra que desceu sobre a cidade",
+    "slug": "caraguatatuba-1967",
+    "angulo": "Reconstrução da Serra do Mar em relevo 3D: chuva de 2 dias sobre uma encosta de 700 m e a montanha escorrega sobre a cidade; fio até São Sebastião 2023 (por que se repete todo verão). Hook: em março de 1967 choveu em 48 h o que se espera para meses, e a encosta inteira veio abaixo [I, conferir volumes e datas].",
+    "titulo_candidato": "Por que a SERRA DO MAR desaba sobre o litoral?",
+    "evidencias": [
+      {
+        "tipo": "referencia",
+        "fonte": "AntigamenteBR: Caraguatatuba instantes antes da serra engolir a cidade (1967)",
+        "link": "https://youtu.be/wsYvujpyi28",
+        "numero": "1.998.389 views (pub. 28/08/2026), o maior do canal",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Histórias da Tragédia: Como a serra desceu sobre Caraguatatuba em 1967",
+        "link": "https://youtu.be/ToXuPrJ8814",
+        "numero": "243.655 views em 11 dias (pub. 03/11/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "referencia",
+        "fonte": "AntigamenteBR: Petrópolis instantes antes do rio de lama",
+        "link": "https://youtu.be/jPeb9azNKvA",
+        "numero": "106.374 views em 6 semanas (pub. 02/10/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch20 'caraguatatuba 1967' via WARP",
+        "link": "https://www.youtube.com/results?search_query=caraguatatuba+1967",
+        "numero": "5 dos top-20 com ≥ 100 mil views (2,0 mi, 247 mil, 244 mil, 131 mil, 102 mil)",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 8,
+    "encaixe": 10,
+    "urgencia": 5,
+    "nota": 7.4,
+    "janela_ate": "2027-03-31",
+    "riscos": "Tema de tragédia: título sem 'morte/soterrou', thumb com relevo/encosta e não com vítima; dois concorrentes recentes (o nosso diferencial é o relevo explicado, não o minuto a minuto); fotos de 1967 só de acervo com licença (Arquivo Público SP/Wikimedia), DEM SRTM/Copernicus para a serra; urgência real só começa com as chuvas de verão (dez–mar)."
+  },
+  {
+    "tema": "Granizo e as tempestades gigantes da Bacia do Prata",
+    "slug": "granizo-tempestades-sul",
+    "angulo": "Por que as tempestades mais intensas do planeta se formam no Sul do Brasil/norte da Argentina (estudos de satélite TRMM/GPM) e trazem granizo do tamanho de laranjas; GOES-19 (domínio público) mostra as nuvens no mapa. Hook: telhados furados por gelo no RS num dia de primavera [I, conferir evento e o estudo de Zipser et al. 2006].",
+    "titulo_candidato": "Por que as MAIORES tempestades do mundo nascem ao lado do Brasil?",
+    "evidencias": [
+      {
+        "tipo": "concorrente",
+        "fonte": "Natureza em Fúria: URGENTE NO RS: bombardeio de granizo gigante",
+        "link": "https://youtu.be/nK9u70S_efk",
+        "numero": "633.044 views (pub. 27/09/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "UOL: Chuva de granizo atinge cidades do RS",
+        "link": "https://youtu.be/6mUsLh24-NU",
+        "numero": "317.629 views (pub. 27/09/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "referencia",
+        "fonte": "MetSul: Onde El Niño irá pesar mais nas próximas semanas",
+        "link": "https://youtu.be/jWXqXSQaRLw",
+        "numero": "257.435 views em 17 dias (pub. 28/10/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "tendencia",
+        "fonte": "Climatempo: temporais marcam o fim de novembro no Sul",
+        "link": "https://www.climatempo.com.br/noticia/temporal/temporais-marcam-o-fim-do-mes-de-novembro-no-sul-do-brasil",
+        "numero": "temporada de temporais ativa; INMET deu alerta vermelho de granizo/vento > 100 km/h em 04/11/2026",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "nosso",
+        "fonte": "youtube.studio_video: 'O que está acontecendo com o clima no Sul do Brasil?'",
+        "link": "https://youtu.be/bG6-E4qjXYc",
+        "numero": "15 views, 184 impressões, CTR 2,72% (17/10–13/11): ângulo de notícia rendeu pouco",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 7,
+    "encaixe": 7,
+    "urgencia": 8,
+    "nota": 7.3,
+    "janela_ate": "2026-12-15",
+    "riscos": "Sobrepõe o vídeo 1 (Sul/tornados: Andes + jato de umidade); só vale com o ângulo 'tempestades mais intensas do mundo' e sem notícia no título; fotos de granizo reais exigem licença (Defesa Civil por e-mail, Wikimedia); os hits do tema são flagrante/TV."
+  },
+  {
+    "tema": "O calor do verão do Super El Niño, no mapa",
+    "slug": "calor-verao-el-nino",
+    "angulo": "Mapa de temperatura de superfície (MODIS/VIIRS, NASA) mostrando onde o Brasil ferve neste verão e por quê: ilhas de calor, relevo e o El Niño perto do pico em dezembro. Hook: um lugar concreto batendo recorde (cidade + °C) [I, escolher o recorde da semana na hora do roteiro].",
+    "titulo_candidato": "Por que o Brasil vai FERVER até março?",
+    "evidencias": [
+      {
+        "tipo": "concorrente",
+        "fonte": "Band Jornalismo: Inmet emite alerta de calor extremo para oito estados",
+        "link": "https://youtu.be/oJTMMUZvhHo",
+        "numero": "337.126 views (pub. 26/09/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "CNN Brasil: El Niño impulsiona onda de calor nos próximos dias",
+        "link": "https://youtu.be/JSk7yLFyKFo",
+        "numero": "223.407 views (pub. 27/09/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "tendencia",
+        "fonte": "Agência Gov/Defesa Civil: temperaturas altas e ondas de calor nos próximos meses",
+        "link": "https://agenciagov.ebc.com.br/noticias/202610/brasil-deve-enfrentar-temperaturas-altas-e-ondas-de-calor-nos-proximos-meses",
+        "numero": "previsão de excesso de calor na maior parte do Brasil em nov–dez–jan; El Niño com pico provável em dez/2026 (Climatempo)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "tendencia",
+        "fonte": "Climatempo: clima em novembro de 2026",
+        "link": "https://www.climatempo.com.br/noticia/primavera/clima-em-novembro-de-2026-no-brasil",
+        "numero": "calor acima do normal nas capitais do Norte e Nordeste em novembro",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 7,
+    "encaixe": 6,
+    "urgencia": 8,
+    "nota": 7.0,
+    "janela_ate": "2026-12-31",
+    "riscos": "Escorrega para notícia (o que a bíblia diz não funcionar) e sobrepõe o vídeo do El Niño (12/11); precisa de um lugar-protagonista e de um recorde confirmado pelo INMET; imagem real de calor é genérica (risco de banco de imagem repetitivo)."
+  },
+  {
+    "tema": "O litoral do Rio Grande do Sul: 600 km de praia reta",
+    "slug": "litoral-rs-reta",
+    "angulo": "Por que o litoral gaúcho é uma faixa de areia quase sem baía, com a Lagoa dos Patos atrás e mar agitado: planície costeira formada por barreiras de areia, vento nordeste e corrente fria, em relevo 3D. Hook: dá para dirigir na praia do Chuí ao Cassino sem curva [I, conferir extensão (~620 km) e a praia do Cassino].",
+    "titulo_candidato": "Por que o MAR do Rio Grande do Sul não tem uma única BAÍA?",
+    "evidencias": [
+      {
+        "tipo": "referencia",
+        "fonte": "Capital Financeiro: Por que tão poucos brasileiros vivem no litoral do RS?",
+        "link": "https://youtu.be/tJaKMpSbnwc",
+        "numero": "1.380.178 views (pub. 16/02/2025)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "referencia",
+        "fonte": "Elzinga: Por que as praias gaúchas são tão feias?",
+        "link": "https://youtu.be/-Ids_vnWfZ8",
+        "numero": "1.368.786 views (pub. 09/07/2023)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "referencia",
+        "fonte": "Chão do Sul: Por que o litoral de SC só faz crescer e o do RS é tão VAZIO?",
+        "link": "https://youtu.be/AOT94deYKLQ",
+        "numero": "1.858 views no 1º dia (pub. 14/11/2026): o vizinho que modelamos está rodando o tema agora",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch via WARP (gap demanda-temas.json)",
+        "link": "https://www.youtube.com/results?search_query=lagoa+dos+patos",
+        "numero": "'lagoa dos patos' mediana 53.302 e 'litoral do rio grande do sul' mediana 45.831 (4 vídeos ≥ 100 mil cada)",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 8,
+    "encaixe": 8,
+    "urgencia": 5,
+    "nota": 6.8,
+    "janela_ate": "2026-12-15",
+    "riscos": "Colisão direta com o Chão do Sul (14/11) e o Capital Financeiro: o ângulo tem de ser o físico (relevo/vento/mar), não o 'vazio' econômico; clima entra como causa, não como notícia; janela curta para pegar carona no vídeo do vizinho."
+  },
+  {
+    "tema": "Neve no Brasil: por que só o Sul tem",
+    "slug": "neve-sul",
+    "angulo": "Planalto de 1.000–1.800 m + massa polar que sobe pela Argentina: o bloco 3D da Serra Catarinense explica por que neva em Urupema e São Joaquim e não no resto do país. Hook: no mesmo dia, carros cobertos de gelo na serra e banho de mar a 28 °C no Nordeste [I, conferir datas/temperaturas].",
+    "titulo_candidato": "Por que SÓ o Sul do Brasil tem NEVE?",
+    "evidencias": [
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch via WARP (gap demanda-temas.json)",
+        "link": "https://www.youtube.com/results?search_query=por+que+neva+no+sul+do+brasil",
+        "numero": "mediana dos longos 65.543; 4 vídeos ≥ 100 mil",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "referencia",
+        "fonte": "Elzinga: A vida na cidade mais fria do Brasil (Urupema)",
+        "link": "https://youtu.be/ddyMUeeKXNE",
+        "numero": "1.053.769 views (pub. 17/08/2025)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "referencia",
+        "fonte": "Chão do Sul: Por que a Região Sul é o OPOSTO… (abre com a neve)",
+        "link": "https://youtu.be/xpBOF8FXXHM",
+        "numero": "739.646 views em 21 dias (pub. 24/10/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "tendencia",
+        "fonte": "MetSul: forte massa de ar frio avança com geada em pleno novembro",
+        "link": "https://youtu.be/qewnYRlhyzI",
+        "numero": "157.362 views em 9 dias (pub. 05/11/2026)",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 8,
+    "encaixe": 9,
+    "urgencia": 4,
+    "nota": 6.6,
+    "janela_ate": null,
+    "riscos": "Fora de temporada (o pico de busca é jun–ago); o gap recomenda como ajuste nº 1, mas pode render mais se guardado para o inverno de 2027; fotos de neve com licença (Wikimedia) são fáceis."
+  },
+  {
+    "tema": "Os cânions do Sul (Aparados da Serra)",
+    "slug": "canions-aparados-da-serra",
+    "angulo": "O relevo é o assunto: derrames de lava de 130 milhões de anos (Serra Geral) cortados por rios até paredões de ~700 m no Itaimbezinho e Fortaleza; a separação África–América em 3D. Hook: o paredão onde o planalto acaba e o mar aparece lá embaixo [I, conferir alturas e idade].",
+    "titulo_candidato": "O paredão de 700 metros que corta o Sul do Brasil",
+    "evidencias": [
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch via WARP (gap demanda-temas.json)",
+        "link": "https://www.youtube.com/results?search_query=c%C3%A2nions+do+sul+do+brasil",
+        "numero": "mediana dos longos 56.600; 5 vídeos ≥ 100 mil (doc. de Cambará do Sul do Elzinga com 1,65 mi)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Hugo Corelli: O lugar mais surreal que já vi no Sul do Brasil",
+        "link": "https://youtu.be/Blno3ZMRXls",
+        "numero": "162.822 views (pub. 28/12/2025, na temporada de verão)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "concorrente",
+        "fonte": "Num Pulo: Documentário Aparados da Serra",
+        "link": "https://youtu.be/XhRAHk7CpMQ",
+        "numero": "151.165 views (pub. 15/07/2024)",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 6,
+    "encaixe": 10,
+    "urgencia": 4,
+    "nota": 6.2,
+    "janela_ate": null,
+    "riscos": "Pouco clima (é geologia/relevo): conferir se o Rodrigo aceita a fatia 'geografia' do canal; os hits são de viagem/turismo, não de explicação; fotos do ICMBio/Wikimedia com licença."
+  },
+  {
+    "tema": "Geada negra de 1975: a noite em que o café saiu do Paraná",
+    "slug": "geada-negra-1975",
+    "angulo": "Reconstrução no mapa: a massa polar de 17–18/07/1975 queima os cafezais do norte do Paraná e o mapa do café migra para Minas e o Cerrado. Hook: numa noite, o maior produtor de café do Brasil deixa de ser [I, conferir datas e números do IBC/Conab].",
+    "titulo_candidato": "A noite que mudou o mapa do café no Brasil",
+    "evidencias": [
+      {
+        "tipo": "referencia",
+        "fonte": "AntigamenteBR: Londrina instantes antes da geada negra devorar os cafezais (1975)",
+        "link": "https://youtu.be/NBR5XGW42Yk",
+        "numero": "418 mil views em ~1 mês (pub. ~15/10/2026)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "busca",
+        "fonte": "yt-dlp ytsearch via WARP (gap demanda-temas.json)",
+        "link": "https://www.youtube.com/results?search_query=geada+negra+1975",
+        "numero": "mediana dos longos 11.574; 3 vídeos ≥ 100 mil (AntigamenteBR 418 mil, José Wille 344 mil, Maringá Histórica 323 mil)",
+        "data": "2026-11-14"
+      },
+      {
+        "tipo": "tendencia",
+        "fonte": "MetSul: geada em pleno novembro",
+        "link": "https://youtu.be/qewnYRlhyzI",
+        "numero": "157.362 views (pub. 05/11/2026): frio fora de época vira assunto",
+        "data": "2026-11-14"
+      }
+    ],
+    "demanda": 6,
+    "encaixe": 8,
+    "urgencia": 4,
+    "nota": 5.8,
+    "janela_ate": null,
+    "riscos": "Busca de cauda (mediana 12 mil): vive de título/thumb; foto de 1975 só de acervo com licença; aniversário (julho) longe; melhor como reconstrução perene."
+  }
+]
