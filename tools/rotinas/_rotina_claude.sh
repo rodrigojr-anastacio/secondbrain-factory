@@ -1,7 +1,7 @@
 #!/bin/bash
 # Roda uma rotina da fábrica com o Claude pela API (Agent SDK, créditos de US$ 100/mês do Max, chave
 # ~/.segredos/anthropic/rotinas.env), fora da cota do Claude Max. Desde 12/11/2026; antes era claude -p.
-# Uso: _rotina_claude.sh <tendencias|metricas|palavras-chave> [--teste] [--sem-telegram]
+# Uso: _rotina_claude.sh <tendencias|metricas|palavras-chave|reembalagem> [--teste] [--sem-telegram]
 # Saídas: ~/workspace/relatorios/<rotina>/<data>.md (relatório), <data>-resumo.txt (resumo executivo),
 #         logs/<data>-<hora>.log; resumo entregue no Telegram (home channel do default) por `hermes send`,
 #         que usa o token do bot direto, sem LLM e sem gateway. Se o envio falhar, fica só o arquivo.
@@ -26,7 +26,7 @@ REL="$OUT/$DATA$SUF.md"; RESUMO="$OUT/$DATA$SUF-resumo.txt"; LOG="$OUT/logs/$DAT
 TIMEOUT=${TIMEOUT:-5400}
 MOTOR=${MOTOR:-api}
 PROMPT=$(mktemp); trap 'rm -f "$PROMPT"' EXIT
-sed -e "s|{{DATA}}|$DATA|g" -e "s|{{MODO}}|$MODO|g" -e "s|{{RELATORIO}}|$REL|g" -e "s|{{RESUMO}}|$RESUMO|g" \
+sed -e "s|{{DATA}}|$DATA|g" -e "s|{{SUF}}|$SUF|g" -e "s|{{MODO}}|$MODO|g" -e "s|{{RELATORIO}}|$REL|g" -e "s|{{RESUMO}}|$RESUMO|g" \
   "$FAB/tools/rotinas/prompts/$ROTINA.md" > "$PROMPT"
 rm -f "$RESUMO"
 

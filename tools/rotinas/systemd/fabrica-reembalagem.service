@@ -1,0 +1,10 @@
+[Unit]
+Description=Fábrica YouTube — reembalagem semanal (padrão Lutz: CTR × retenção × views; Claude pela API; Telegram)
+After=network-online.target
+
+[Service]
+Type=oneshot
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+Environment=TMPDIR=%h/cache/tmp
+ExecStart=%h/workspace/fabrica-youtube/tools/rotinas/reembalagem.sh
+TimeoutStartSec=2h

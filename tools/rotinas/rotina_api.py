@@ -37,8 +37,8 @@ from db import tentar  # noqa: E402
 
 FAB = os.path.dirname(TOOLS)
 LOCKS = os.path.expanduser(os.environ.get("FABRICA_LOCKS", "~/.cache/fabrica/locks"))
-MODELO_PADRAO = {"tendencias": "sonnet", "palavras-chave": "sonnet", "metricas": "sonnet"}
-ORCAMENTO_PADRAO = {"tendencias": 4.0, "palavras-chave": 3.0, "metricas": 1.5}
+MODELO_PADRAO = {"tendencias": "sonnet", "palavras-chave": "sonnet", "metricas": "sonnet", "reembalagem": "sonnet"}
+ORCAMENTO_PADRAO = {"tendencias": 4.0, "palavras-chave": 3.0, "metricas": 1.5, "reembalagem": 4.0}
 REGRAS_HEADLESS = (
     "\n\n# Execução automática (rotina da fábrica pela API)\n"
     "- Ninguém vai responder perguntas: decida e siga; não pare por pendência menor.\n"
