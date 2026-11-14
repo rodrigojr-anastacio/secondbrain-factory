@@ -1,0 +1,14 @@
+HTTP/2 200 
+date: Fri, 13 Nov 2026 13:14:37 GMT
+content-type: text/html;charset=utf-8
+content-length: 94821
+server: 
+strict-transport-security: max-age=31536000; includeSubdomains;
+content-security-policy: frame-ancestors 'self' *.history.navy.mil;
+x-frame-options: SAMEORIGIN
+cache-control: no-cache, no-store, must-revalidate
+pragma: no-cache
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-content-type-options: nosniff
+vary: Origin
+

@@ -1,27 +1,42 @@
-# Capacidade da fila (13/11/2026 10:18)
+# Capacidade da fila (13/11/2026 14:47)
 
 Gerado por `tools/fila.sh capacidade` (medições de `ops.fila_amostras`, `ops.fila_jobs`, `ops.max_janelas`). Custo-equivalente = preço de lista da API (`anthropic_api.PRECOS`), não o que o Max cobra.
 
 ## VPS (RAM / CPU)
 
-RAM total 7.7 GB, 2 vCPU. Amostras da VPS: 3 desde 13/11 10:16.
-Pico com 2 job(s) simultâneo(s): RAM disponível mínima 5.4 GB, swap máx 1.3 GB, load1 máx 0.9 (média 0.8), disco livre mín 33 GB.
+RAM total 7.7 GB, 2 vCPU. Amostras da VPS: 93 desde 13/11 10:16.
+Pico com 2 job(s) simultâneo(s): RAM disponível mínima 4.6 GB, swap máx 1.6 GB, load1 máx 6.2 (média 1.2), disco livre mín 24 GB.
 
 | job | amostras | anon média | anon pico | RAM total pico (c/ cache) | oom_kill | CPU (s) | CPU média (núcleos) |
 |---|---|---|---|---|---|---|---|
-| lote-clearance-002-bikini | 3 | 277 MB | 277 MB | 3501 MB | 0 | 146 | 0.15 |
-| lote-dossie-007-ss | 3 | 210 MB | 210 MB | 347 MB | 0 | 22 | 0.03 |
+| lote-clearance-002-bikini | 49 | 523 MB | 1567 MB | 3501 MB | 0 | 6525 | 0.78 |
+| lote-dossie-007-ss | 29 | 327 MB | 1220 MB | 3500 MB | 0 | 987 | 0.20 |
+| lote-historia-008-franca-e1 | 5 | 173 MB | 191 MB | 333 MB | 0 | 16 | 0.02 |
+| lote-historia-008-franca-e2 | 5 | 475 MB | 1594 MB | 2675 MB | 0 | 195 | 0.02 |
+| lote-relevo-003-seca-1877-e1 | 11 | 238 MB | 253 MB | 1396 MB | 0 | 81 | 0.04 |
+| lote-relevo-003-seca-1877-e2 | 3 | 366 MB | 752 MB | 841 MB | 0 | 145 | 0.02 |
 
-Pico médio por job 243 MB (anon = memória não recuperável; o cache de arquivo do scope, que infla `memory.current`/`peak`, o kernel libera sob pressão). Base da VPS fora dos jobs ≈ 1.9 GB. **Cabem ~18 job(s) com folga de 1,5 GB** (limite técnico: `MemoryMax=3500M` por job; CPU de 2 vCPU limita render a 1 por vez).
+Pico médio por job 930 MB (anon = memória não recuperável; o cache de arquivo do scope, que infla `memory.current`/`peak`, o kernel libera sob pressão). Base da VPS fora dos jobs ≈ 2.6 GB. **Cabem ~4 job(s) com folga de 1,5 GB** (limite técnico: `MemoryMax=3500M` por job; CPU de 2 vCPU limita render a 1 por vez).
 
 ## Claude Max (limite de 5 h / semanal)
 
-Nenhum limite batido desde o início da medição (a coleta registra cada "hit your … limit"); capacidade ainda desconhecida.
+| detectado | reseta | tipo | por | tokens in/out/cache | custo-eq. US$ | sessões |
+|---|---|---|---|---|---|---|
+| 13/11 12:45 | 13/11 14:42 | 5h | lote-relevo-003-seca-1877-e2 | 2k/963k/167.3M+4.1M | 70 | 25 |
+| 13/11 12:48 | 13/11 14:42 | 5h | lote-historia-008-franca-e2 | 2k/964k/167.9M+4.1M | 70 | 25 |
+
+Capacidade medida por janela de 5 h: ~US$ 70 custo-equivalente (n=2, mín 70, máx 70).
 
 Consumo por job da fila (preço de lista equivalente):
 
 | job | tipo | status | duração | tokens in/out/cache | custo-eq. US$ | limites |
 |---|---|---|---|---|---|---|
+| lote-dossie-007-ss | produção de vídeo | concluido | 90 min | 0k/104k/30.0M+303k | 10.5 | 0 |
+| lote-clearance-002-bikini | produção de vídeo | concluido | 148 min | 0k/135k/36.0M+381k | 13.0 | 0 |
+| lote-historia-008-franca-e1 | produção de vídeo | concluido | 15 min | 0k/72k/6.5M+213k | 4.4 | 0 |
+| lote-relevo-003-seca-1877-e1 | produção de vídeo | concluido | 36 min | 0k/69k/7.3M+216k | 4.6 | 0 |
+| lote-historia-008-franca-e2 | produção de vídeo | rodando | 15 min | 0k/7k/1.4M+86k | 0.5 | 1 |
+| lote-relevo-003-seca-1877-e2 | produção de vídeo | rodando | 9 min | 0k/12k/2.4M+149k | 1.0 | 1 |
 
 Histórico dos jobs `claude -p` anteriores (jsonl; backfill; duração = 1ª a última mensagem, inclui pausas):
 
@@ -110,32 +125,38 @@ Histórico dos jobs `claude -p` anteriores (jsonl; backfill; duração = 1ª a �
 | BRIEF-clearance-identidade.md | 0k/12k/552k+62k | 0.4 | 2 min |
 | BRIEF-padroes-titulos.md | 0k/15k/769k+69k | 0.4 | 2 min |
 | BRIEF-pauta-fds-15-16.md | 0k/34k/2.8M+133k | 1.9 | 7 min |
-| BRIEF-lote-dossie-007-ss.md | 0k/39k/1.5M+135k | 2.2 | 10 min |
-| BRIEF-lote-clearance-002-bikini.md | 0k/22k/4.5M+144k | 2.5 | 7 min |
+| BRIEF-lote-dossie-007-ss.md | 0k/104k/30.0M+303k | 10.5 | 89 min |
+| BRIEF-lote-clearance-002-bikini.md | 0k/135k/36.0M+381k | 13.0 | 147 min |
 | BRIEF-fila-jobs.md | 0k/13k/359k+43k | 0.3 | 1 min |
 | BRIEF-fila-capacidade.md | 0k/15k/573k+53k | 0.3 | 2 min |
-| BRIEF-serie-g1-el-nino.md | 0k/3k/291k+35k | 0.1 | 1 min |
-| BRIEF-fila-capacidade-anon.md | 0k/3k/265k+28k | 0.1 | 0 min |
+| BRIEF-serie-g1-el-nino.md | 0k/9k/557k+52k | 0.3 | 2 min |
+| BRIEF-fila-capacidade-anon.md | 0k/4k/348k+29k | 0.2 | 1 min |
+| BRIEF-limpeza-vps.md | 0k/12k/673k+52k | 0.3 | 2 min |
+| BRIEF-lote-historia-008-franca-ETAPA1.md | 0k/72k/6.5M+213k | 4.4 | 13 min |
+| BRIEF-lote-relevo-003-seca-1877-ETAPA1.md | 0k/69k/7.3M+216k | 4.6 | 33 min |
+| BRIEF-lote-historia-008-franca-ETAPA2.md | 0k/17k/2.9M+211k | 1.3 | 134 min |
+| BRIEF-lote-relevo-003-seca-1877-ETAPA2.md | 0k/26k/3.8M+331k | 2.0 | 130 min |
 
-Consumo médio por tipo de job: pesquisa/outros: US$ 2.2 (n=62); produção de vídeo: US$ 6.6 (n=27).
+Consumo médio por tipo de job: produção de vídeo: US$ 6.9 (n=35); pesquisa/outros: US$ 2.2 (n=63).
+Vídeos completos por janela de 5 h ≈ 10.1 (capacidade média ÷ custo médio de produção).
 
 ## API Anthropic (mês)
 
 - rotinas: US$ 1.85 / 30 (6%)
-- qa: US$ 1.26 / 30 (4%)
-- dev: US$ 2.97 / 40 (7%)
+- qa: US$ 2.59 / 30 (9%)
+- dev: US$ 3.71 / 40 (9%)
 
 ## Custo por vídeo (financas.consumo, direto, US$)
 
 | fornecedor | vídeos | total | por vídeo |
 |---|---|---|---|
-| Fish Audio | 14 | 3.29 | 0.24 |
+| Fish Audio | 17 | 4.43 | 0.26 |
 | OpenAI | 3 | 19.74 | 6.58 |
-| Runpod | 2 | 1.43 | 0.71 |
-| fal.ai | 15 | 114.52 | 7.63 |
+| Runpod | 4 | 1.70 | 0.42 |
+| fal.ai | 17 | 131.56 | 7.74 |
 
 ## Recomendação
 
-- `MAX_CONCORRENCIA`: manter 2; RAM comporta ~18, mas o Max (cota) e o render limitam antes. Subir para 3 só se não houver `pausado_limite` nas janelas. **Hipótese** (menos de 4 jobs medidos).
-- Enviar à API (`--motor api`, grupo dev/rotinas) o que é curto e barato por job (pesquisa, garimpo, QA); manter no Max os jobs longos de produção, que têm cache alto e custo-equivalente grande. **Hipótese** (menos de 4 jobs medidos).
+- `MAX_CONCORRENCIA`: manter 2; RAM comporta ~4, mas o Max (cota) e o render limitam antes. Subir para 3 só se não houver `pausado_limite` nas janelas.
+- Enviar à API (`--motor api`, grupo dev/rotinas) o que é curto e barato por job (pesquisa, garimpo, QA); manter no Max os jobs longos de produção, que têm cache alto e custo-equivalente grande.
 - Se uma janela de 5 h estourar com 2 jobs, o fila.py já pausa e retoma; o sinal de que há folga é a ausência de `pausado_limite` por 24 h.
