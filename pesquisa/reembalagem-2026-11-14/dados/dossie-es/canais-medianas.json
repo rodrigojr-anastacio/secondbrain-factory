@@ -1,0 +1,3545 @@
+{
+ "medianas": {
+  "UC9A4SgqQRUWJG-mCd9qb23A": {
+   "mediana": 11752.5,
+   "n": 30
+  },
+  "UCNDM0eq9WmBDr5UwMQFeFew": {
+   "mediana": 7988.5,
+   "n": 30
+  },
+  "UCvGAXaf8b6NDwCWIAltRFww": {
+   "mediana": 14467.0,
+   "n": 30
+  },
+  "UCgmaAyKSpKzvLgKBBdnGd1w": {
+   "mediana": 50121.5,
+   "n": 30
+  },
+  "UC6aWeOEBWTSzr1bIXLAQ47w": {
+   "mediana": 41695.5,
+   "n": 30
+  },
+  "UCFjOxBC4RqL1Qq1_bAKmUSw": {
+   "mediana": 84490.5,
+   "n": 30
+  },
+  "UC_AtJdND3C_WfDbDFM-RoRw": {
+   "mediana": 11247.0,
+   "n": 30
+  },
+  "UCYjWp1meDQGx7kfy_fPVNJg": {
+   "mediana": 31075.5,
+   "n": 30
+  },
+  "UCrc7GbWUxdQvQl_qzl1zm0A": {
+   "mediana": 687,
+   "n": 11
+  },
+  "UChM8UYPiXD3h62rgUFKHMUQ": {
+   "mediana": 489106,
+   "n": 7
+  },
+  "UCmHLnSliNdlo6VJQ2yDSEaA": {
+   "mediana": 231.0,
+   "n": 22
+  },
+  "UC9MAhZQQd9egwWCxrwSIsJQ": {
+   "mediana": 60390.5,
+   "n": 30
+  },
+  "UCxMqpMwOxHnH7nH92t7YYKA": {
+   "mediana": 3318.0,
+   "n": 14
+  },
+  "UCbitWKTIHZnoLYuOnZzRBZQ": {
+   "mediana": 31958,
+   "n": 29
+  },
+  "UCugC9R-gE-6mgUgIqNy387Q": {
+   "mediana": 191116,
+   "n": 11
+  },
+  "UCvLRBbXcii7xlc7M99T-jcQ": {
+   "mediana": 21381.5,
+   "n": 30
+  },
+  "UCFYqNfxE5JWNeYuZuaM4YNQ": {
+   "mediana": 38161.5,
+   "n": 30
+  },
+  "UCp-prTXJYTJXmfoxmpOjpWw": {
+   "mediana": 36362.0,
+   "n": 30
+  },
+  "UC1PcXyOXmnAvxVDQTpglj2w": {
+   "mediana": 37928.0,
+   "n": 30
+  },
+  "UCpm62a6Py6-gxNm1HGtydmw": {
+   "mediana": 43952.5,
+   "n": 30
+  },
+  "UCjl9zpIHKkIeIuAhrCbzNNw": {
+   "mediana": 16511.0,
+   "n": 30
+  },
+  "UC0_bwOfcrJ1tkk0io-F0hIg": {
+   "mediana": 16656.0,
+   "n": 22
+  },
+  "UCVvwbez-BNlWvbxtpOx0MGQ": {
+   "mediana": 5975.5,
+   "n": 30
+  },
+  "UCopVhz5SlujUpiDiYzWtbpw": {
+   "mediana": 186193.0,
+   "n": 30
+  },
+  "UCHKiTFete80LTEJ3oOSff5g": {
+   "mediana": 23093.5,
+   "n": 30
+  },
+  "UCQfKdb2FWuaPCR8BxzMkF4w": {
+   "mediana": 42331,
+   "n": 25
+  },
+  "UCHLQ0IVP__944AsRjFmRo1A": {
+   "mediana": 107152,
+   "n": 27
+  },
+  "UCTRgu3iuyGXbhz5kYNjpObw": {
+   "mediana": 16366.5,
+   "n": 30
+  },
+  "UCP5p1NK552h71Dhk8Wkgc4Q": {
+   "mediana": 16732.0,
+   "n": 30
+  },
+  "UCQvkda3QeQcLoAx_E2AokVg": {
+   "mediana": 95106.5,
+   "n": 30
+  },
+  "UCrkONla60pQPsppl7PPDHyQ": {
+   "mediana": 163487.5,
+   "n": 30
+  },
+  "UCy5-ES0_mSak4qifQRcpwPw": {
+   "mediana": 283079,
+   "n": 25
+  },
+  "UCBkAk6uvJ-MIID1BUSAxtKA": {
+   "mediana": 22102.5,
+   "n": 30
+  },
+  "UCoJk1vT4Vuq4VKPjRXGh1gg": {
+   "mediana": 1116,
+   "n": 15
+  },
+  "UCnG4NueTQOomV6JaLgUI6zg": {
+   "mediana": 1027.5,
+   "n": 8
+  },
+  "UCv_s43bNUv_z-SChXD0qfiw": {
+   "mediana": 5046.5,
+   "n": 30
+  },
+  "UCTsUTKTUBtY2YjFGrAiLgKg": {
+   "mediana": 99764.5,
+   "n": 30
+  },
+  "UCyr-mGOzY0oMe4Ghd4KBSNA": {
+   "mediana": 16932.5,
+   "n": 30
+  },
+  "UC50uCdUubc04xXZz7bqv5ng": {
+   "mediana": 141957.0,
+   "n": 20
+  },
+  "UCkCvLSWRn0yHrnYy4eAb7zQ": {
+   "mediana": 22747.5,
+   "n": 30
+  },
+  "UC3NYsLnKLnWd103V6szsoNQ": {
+   "mediana": 7656,
+   "n": 29
+  },
+  "UC8OuBSqzp2ah49nPixJYGcA": {
+   "mediana": 46466.5,
+   "n": 28
+  },
+  "UCqHBhR4PZlqXLBQeroBHyYw": {
+   "mediana": 7177.0,
+   "n": 30
+  },
+  "UCv05qOuJ6Igbe-EyQibJgwQ": {
+   "mediana": 196343.0,
+   "n": 16
+  },
+  "UCR7HxXaPZcrW-wNk2FSkobg": {
+   "mediana": 228923.5,
+   "n": 30
+  },
+  "UCAo35tlx8pBwB6EdR9BFpNQ": {
+   "mediana": 578.0,
+   "n": 30
+  },
+  "UCrsCS63s7UKSPUJemh_4-_g": {
+   "mediana": 87457.5,
+   "n": 30
+  },
+  "UCd1TjmUZYdZfpnf_-6MSxIA": {
+   "mediana": 78171.5,
+   "n": 30
+  },
+  "UC9YHiT3jzNv3_6Ewk2_-fQg": {
+   "mediana": 32951.0,
+   "n": 26
+  },
+  "UCTqb7oZzCYpzOhPenq6AOyQ": {
+   "mediana": 603684,
+   "n": 21
+  },
+  "UCeGfgM5oI9RSpFIjl_AaOXg": {
+   "mediana": 261151,
+   "n": 19
+  },
+  "UC8EDg4anzeq0HjNVZAVW7Qg": {
+   "mediana": 3739.5,
+   "n": 30
+  },
+  "UCxUxYF-NlQXyxzsCMOSQQRw": {
+   "mediana": 19587.5,
+   "n": 30
+  },
+  "UCYr9BpHaw0vKjUPE4dZl1UA": {
+   "mediana": 1607132.5,
+   "n": 30
+  },
+  "UCrdn_FLz1jbeN5cHN6taYTA": {
+   "mediana": 10739,
+   "n": 5
+  },
+  "UCvbSb3eTAh3KboRbWDa6izg": {
+   "mediana": 226837.5,
+   "n": 30
+  },
+  "UCv9LjgucvXX6u0Ny_3CYX0A": {
+   "mediana": 10481.0,
+   "n": 30
+  },
+  "UCWK4FoXBxAP6ZN5bDqlBzsQ": {
+   "mediana": 4125.5,
+   "n": 30
+  },
+  "UCupe8Nf87-FhnS7t3hEzoCg": {
+   "mediana": 394.0,
+   "n": 30
+  },
+  "UCPSV0tFjPko6qrzzn1nhEbg": {
+   "mediana": 40109.5,
+   "n": 30
+  },
+  "UCJT-pYv37CfQxYdRPTnAv_w": {
+   "mediana": 5573.0,
+   "n": 30
+  },
+  "UCgYjfWvSBfhoLpA1gXPbEaQ": {
+   "mediana": 33138,
+   "n": 15
+  },
+  "UCHlkOSoJGr-RPujFgO_Ictg": {
+   "mediana": 28528.0,
+   "n": 30
+  },
+  "UCJNTMH2twsiBEuiPK0sIKvA": {
+   "mediana": 2592,
+   "n": 7
+  },
+  "UCESk4MuhoTazdqZ87Wzb4DA": {
+   "mediana": 7265.5,
+   "n": 30
+  },
+  "UCEXDCxwktpMMFhTSGdEP3EA": {
+   "mediana": 35468.0,
+   "n": 22
+  },
+  "UCTtIr7Q_mz1QkzbZc0RWUrw": {
+   "mediana": 1309.0,
+   "n": 30
+  },
+  "UCkDnC4aEBfy4OWPApef41-w": {
+   "mediana": 8850.0,
+   "n": 30
+  },
+  "UCceIiarX67UCUC2F5IdRXEA": {
+   "mediana": 132706.5,
+   "n": 30
+  },
+  "UC1gMJbPatMRNcWKQGfmw8MQ": {
+   "mediana": 623.5,
+   "n": 30
+  },
+  "UCKIQzEa8oTxk8VcyUcAJh8Q": {
+   "mediana": 242.0,
+   "n": 30
+  },
+  "UCx-coWjyb-Szznb1sgG6e-Q": {
+   "mediana": 814.0,
+   "n": 30
+  },
+  "UCeJNattv4QSuyBcJiU9gjqA": {
+   "mediana": 37785.5,
+   "n": 30
+  }
+ },
+ "canais": {
+  "UCtx3osZp53SjzXLGvGmkwRQ": {
+   "nome": "Huella Histórica",
+   "inscritos": 414,
+   "uploads": "UUtx3osZp53SjzXLGvGmkwRQ",
+   "pais": "ES"
+  },
+  "UCPSV0tFjPko6qrzzn1nhEbg": {
+   "nome": "History Exposé",
+   "inscritos": 266000,
+   "uploads": "UUPSV0tFjPko6qrzzn1nhEbg",
+   "pais": null
+  },
+  "UC2Xq2PK-got3Rtz9ZJ32hLQ": {
+   "nome": "Noticias Caracol",
+   "inscritos": 7990000,
+   "uploads": "UU2Xq2PK-got3Rtz9ZJ32hLQ",
+   "pais": "US"
+  },
+  "UCZagoENurE9r5TRlHvFRqdg": {
+   "nome": "ElDiaQue",
+   "inscritos": 1780000,
+   "uploads": "UUZagoENurE9r5TRlHvFRqdg",
+   "pais": "AR"
+  },
+  "UCH0JoDWOVpc2r1UL1zdD_Gw": {
+   "nome": "Nyla reyes",
+   "inscritos": 1,
+   "uploads": "UUH0JoDWOVpc2r1UL1zdD_Gw",
+   "pais": null
+  },
+  "UCfVGrx2SNvSCMczCqO6-Sbg": {
+   "nome": "Audiohistorias de Israel",
+   "inscritos": 710,
+   "uploads": "UUfVGrx2SNvSCMczCqO6-Sbg",
+   "pais": null
+  },
+  "UCtBWBU4oZdCjE4RZa2IYWHA": {
+   "nome": " Hapo Documentales",
+   "inscritos": 25100,
+   "uploads": "UUtBWBU4oZdCjE4RZa2IYWHA",
+   "pais": "AR"
+  },
+  "UCRG7f2hoGz5qaO3zXtidhfg": {
+   "nome": "Raw / Random ",
+   "inscritos": 2910,
+   "uploads": "UURG7f2hoGz5qaO3zXtidhfg",
+   "pais": "AU"
+  },
+  "UCFsr05d7Vl7tN3pg1S-FZ1Q": {
+   "nome": "Archivo Estratégico",
+   "inscritos": 25,
+   "uploads": "UUFsr05d7Vl7tN3pg1S-FZ1Q",
+   "pais": "CL"
+  },
+  "UCGogJnM5tQWg176SUeeGq1w": {
+   "nome": "Ciber Place",
+   "inscritos": 6380,
+   "uploads": "UUGogJnM5tQWg176SUeeGq1w",
+   "pais": null
+  },
+  "UC_5rYlpBpkxwbhEqebVMXDA": {
+   "nome": "Poder e Historia",
+   "inscritos": 1080,
+   "uploads": "UU_5rYlpBpkxwbhEqebVMXDA",
+   "pais": "ES"
+  },
+  "UCCTjxzyv0sRzd0YcSMyFqWA": {
+   "nome": "MAFIA FORUM",
+   "inscritos": 4780,
+   "uploads": "UUCTjxzyv0sRzd0YcSMyFqWA",
+   "pais": null
+  },
+  "UCCTb0JR54wgskDER0mzVrAQ": {
+   "nome": "AriguanaboTV",
+   "inscritos": 4270,
+   "uploads": "UUCTb0JR54wgskDER0mzVrAQ",
+   "pais": null
+  },
+  "UC-irPsIjq0BNYSoWx_zl_tg": {
+   "nome": "Covert Tales",
+   "inscritos": 56100,
+   "uploads": "UU-irPsIjq0BNYSoWx_zl_tg",
+   "pais": "US"
+  },
+  "UCdNA6Kv-xl3JRKv1H-jc_Rg": {
+   "nome": "Megaprojekts",
+   "inscritos": 465000,
+   "uploads": "UUdNA6Kv-xl3JRKv1H-jc_Rg",
+   "pais": "ES"
+  },
+  "UCmT2-ZS4XZOn1GbpANu6d9A": {
+   "nome": "AncientAI",
+   "inscritos": 1070,
+   "uploads": "UUmT2-ZS4XZOn1GbpANu6d9A",
+   "pais": null
+  },
+  "UCZXrodgqVvNI3k7JsKzXhuw": {
+   "nome": "WTF History",
+   "inscritos": 2,
+   "uploads": "UUZXrodgqVvNI3k7JsKzXhuw",
+   "pais": "US"
+  },
+  "UCbitWKTIHZnoLYuOnZzRBZQ": {
+   "nome": "Tiene Sentido Pódcast",
+   "inscritos": 1060000,
+   "uploads": "UUbitWKTIHZnoLYuOnZzRBZQ",
+   "pais": "ES"
+  },
+  "UCu4fwxB8gRQdt94PjeMitmg": {
+   "nome": "Crónicas de Archivo Bélico",
+   "inscritos": 3900,
+   "uploads": "UUu4fwxB8gRQdt94PjeMitmg",
+   "pais": "ES"
+  },
+  "UCHTK-2W11Vh1V4uwofOfR4w": {
+   "nome": "AP Archive",
+   "inscritos": 6060000,
+   "uploads": "UUHTK-2W11Vh1V4uwofOfR4w",
+   "pais": null
+  },
+  "UCFxHplbcoJK9m70c4VyTIxg": {
+   "nome": "MILENIO",
+   "inscritos": 8320000,
+   "uploads": "UUFxHplbcoJK9m70c4VyTIxg",
+   "pais": "MX"
+  },
+  "UCHWx8yiQcUPF8iKCNtL-pXg": {
+   "nome": "Elite Force",
+   "inscritos": 3580,
+   "uploads": "UUHWx8yiQcUPF8iKCNtL-pXg",
+   "pais": null
+  },
+  "UCBkAk6uvJ-MIID1BUSAxtKA": {
+   "nome": "El Historiador Nocturno",
+   "inscritos": 308000,
+   "uploads": "UUBkAk6uvJ-MIID1BUSAxtKA",
+   "pais": "AR"
+  },
+  "UCuE3x7t9yHCqHsfZtvjWcog": {
+   "nome": "GerardM",
+   "inscritos": 131000,
+   "uploads": "UUuE3x7t9yHCqHsfZtvjWcog",
+   "pais": null
+  },
+  "UCj6PcyLvpnIRT_2W_mwa9Aw": {
+   "nome": "Todo Noticias",
+   "inscritos": 5200000,
+   "uploads": "UUj6PcyLvpnIRT_2W_mwa9Aw",
+   "pais": "AR"
+  },
+  "UCcyXD-vTR8JYhn113vgIscQ": {
+   "nome": "Perto de Gaza",
+   "inscritos": 8020,
+   "uploads": "UUcyXD-vTR8JYhn113vgIscQ",
+   "pais": "IL"
+  },
+  "UCEua5Jtm_HPil8Rd_4t9PLg": {
+   "nome": "Il canto della Storia",
+   "inscritos": 6020,
+   "uploads": "UUEua5Jtm_HPil8Rd_4t9PLg",
+   "pais": "IT"
+  },
+  "UCBt13kv4QFGQJ7P_6xp-nXQ": {
+   "nome": "Central de las Escrituras",
+   "inscritos": 202000,
+   "uploads": "UUBt13kv4QFGQJ7P_6xp-nXQ",
+   "pais": null
+  },
+  "UC6I_QAKw1LJ4HD-umlD4Tjw": {
+   "nome": "Imperio Criminal",
+   "inscritos": 372,
+   "uploads": "UU6I_QAKw1LJ4HD-umlD4Tjw",
+   "pais": "ES"
+  },
+  "UCavKRa92UMX1gBsd2whU9GQ": {
+   "nome": "Viciados Mesa",
+   "inscritos": 39600,
+   "uploads": "UUavKRa92UMX1gBsd2whU9GQ",
+   "pais": null
+  },
+  "UCghHA25647hIrvB0krPWLlQ": {
+   "nome": "Caminho de Guerra",
+   "inscritos": 6940,
+   "uploads": "UUghHA25647hIrvB0krPWLlQ",
+   "pais": "PT"
+  },
+  "UCmE44gpkHmf5bKIVTPSwxnQ": {
+   "nome": "Judith Tiral",
+   "inscritos": 758000,
+   "uploads": "UUmE44gpkHmf5bKIVTPSwxnQ",
+   "pais": "ES"
+  },
+  "UC4moDiwIJPtcjk8ITj_I7VQ": {
+   "nome": "زي الكتاب مابيقول",
+   "inscritos": 1240000,
+   "uploads": "UU4moDiwIJPtcjk8ITj_I7VQ",
+   "pais": "EG"
+  },
+  "UCiKglynK17Ej4gzn13feRBQ": {
+   "nome": "Anatomía Bélica",
+   "inscritos": 123,
+   "uploads": "UUiKglynK17Ej4gzn13feRBQ",
+   "pais": "ES"
+  },
+  "UC44pgC5JxSFX0IJIC4K4kUQ": {
+   "nome": "Armapedia",
+   "inscritos": 4690000,
+   "uploads": "UU44pgC5JxSFX0IJIC4K4kUQ",
+   "pais": "MX"
+  },
+  "UChFwS_2YcKTFbIyoaf9PxUg": {
+   "nome": "DrSecrets",
+   "inscritos": 349,
+   "uploads": "UUhFwS_2YcKTFbIyoaf9PxUg",
+   "pais": "US"
+  },
+  "UCdcE9W7k-RDb7-E4DuiSLmA": {
+   "nome": "Captain Mr. Oracle",
+   "inscritos": 5920,
+   "uploads": "UUdcE9W7k-RDb7-E4DuiSLmA",
+   "pais": "US"
+  },
+  "UCzAUfH8U7LbMt-7_DU4H37Q": {
+   "nome": "Un Clic Al Pasado",
+   "inscritos": 9670,
+   "uploads": "UUzAUfH8U7LbMt-7_DU4H37Q",
+   "pais": null
+  },
+  "UC9cWeOgdG3ltNYuqUk4xTDg": {
+   "nome": "Codex Documentales",
+   "inscritos": 23100,
+   "uploads": "UU9cWeOgdG3ltNYuqUk4xTDg",
+   "pais": "MX"
+  },
+  "UCxHbBpWi5yjpvx-vaUPcvxw": {
+   "nome": "DeFunes",
+   "inscritos": 11200,
+   "uploads": "UUxHbBpWi5yjpvx-vaUPcvxw",
+   "pais": "IT"
+  },
+  "UC8ItUk7b3hyc7UpIeXlNjdg": {
+   "nome": "Archivo en Minutos",
+   "inscritos": 16,
+   "uploads": "UU8ItUk7b3hyc7UpIeXlNjdg",
+   "pais": "ES"
+  },
+  "UC2CfVZRR9jdeZhkinDBJZFg": {
+   "nome": "val6ntina",
+   "inscritos": 1180,
+   "uploads": "UU2CfVZRR9jdeZhkinDBJZFg",
+   "pais": null
+  },
+  "UCXmzVfipHfCgd3iKgaJdWDQ": {
+   "nome": "Dilo Que Algo Queda",
+   "inscritos": 1810,
+   "uploads": "UUXmzVfipHfCgd3iKgaJdWDQ",
+   "pais": "DO"
+  },
+  "UCv_s43bNUv_z-SChXD0qfiw": {
+   "nome": "Historia de la Mafia",
+   "inscritos": 1700,
+   "uploads": "UUv_s43bNUv_z-SChXD0qfiw",
+   "pais": "US"
+  },
+  "UCrsCS63s7UKSPUJemh_4-_g": {
+   "nome": "Laura Wanderlust",
+   "inscritos": 132000,
+   "uploads": "UUrsCS63s7UKSPUJemh_4-_g",
+   "pais": "GB"
+  },
+  "UCtyLTl4zPoCrzlpB_qPEZwA": {
+   "nome": "FFF Escena Del Crimen | Pelis y Series Policíacas",
+   "inscritos": 49000,
+   "uploads": "UUtyLTl4zPoCrzlpB_qPEZwA",
+   "pais": null
+  },
+  "UCku9KB11TReyHHC1kK9CCEw": {
+   "nome": "Atlas del Tiempo",
+   "inscritos": 1770,
+   "uploads": "UUku9KB11TReyHHC1kK9CCEw",
+   "pais": null
+  },
+  "UC_tikNk1ehoEtHwnty_ZWCg": {
+   "nome": "Asociación Lanza el dado",
+   "inscritos": 180,
+   "uploads": "UU_tikNk1ehoEtHwnty_ZWCg",
+   "pais": null
+  },
+  "UCODRuCq0n0t8V5g1gSYWGag": {
+   "nome": "45 ACP",
+   "inscritos": 3890,
+   "uploads": "UUODRuCq0n0t8V5g1gSYWGag",
+   "pais": "FR"
+  },
+  "UCbEG_3ES8v9tV6Vqb87nkIw": {
+   "nome": "FACES FROM SHADOW",
+   "inscritos": 25,
+   "uploads": "UUbEG_3ES8v9tV6Vqb87nkIw",
+   "pais": "MA"
+  },
+  "UCL6mYBdTVmcoJpjI65rP1XQ": {
+   "nome": "GCS25",
+   "inscritos": 149,
+   "uploads": "UUL6mYBdTVmcoJpjI65rP1XQ",
+   "pais": "DO"
+  },
+  "UCtugcEa5XAj1TQATVCXQZeg": {
+   "nome": "Sabiduría Secreta",
+   "inscritos": 141,
+   "uploads": "UUtugcEa5XAj1TQATVCXQZeg",
+   "pais": "NZ"
+  },
+  "UC3okl7m78ZsdLCxWXNmmqVA": {
+   "nome": "Jaume Sanz",
+   "inscritos": 21,
+   "uploads": "UU3okl7m78ZsdLCxWXNmmqVA",
+   "pais": null
+  },
+  "UC83J3suUsNnOacIkqOyKvhw": {
+   "nome": "Farid Dieck",
+   "inscritos": 13800000,
+   "uploads": "UU83J3suUsNnOacIkqOyKvhw",
+   "pais": "MX"
+  },
+  "UCAvznBVr2uGAu7qzcJwgljA": {
+   "nome": "milut711",
+   "inscritos": 7880,
+   "uploads": "UUAvznBVr2uGAu7qzcJwgljA",
+   "pais": null
+  },
+  "UCzSyUol6pQa8tI2QJ0E4nMA": {
+   "nome": "Dentro de la Historia",
+   "inscritos": 3950,
+   "uploads": "UUzSyUol6pQa8tI2QJ0E4nMA",
+   "pais": "MX"
+  },
+  "UCNmjL7iDnRIYJPU8oX7mZFQ": {
+   "nome": "Caracol Producciones",
+   "inscritos": 4110,
+   "uploads": "UUNmjL7iDnRIYJPU8oX7mZFQ",
+   "pais": "GT"
+  },
+  "UC3NYsLnKLnWd103V6szsoNQ": {
+   "nome": "ANTIMAFIADuemila TV",
+   "inscritos": 94200,
+   "uploads": "UU3NYsLnKLnWd103V6szsoNQ",
+   "pais": "IT"
+  },
+  "UCiciOsypkXcqSFqSPd-NRVA": {
+   "nome": "Kallmekris",
+   "inscritos": 13200000,
+   "uploads": "UUiciOsypkXcqSFqSPd-NRVA",
+   "pais": "CA"
+  },
+  "UCBwUuqsELhdcvHowbrEQZRw": {
+   "nome": "A Sombra da História",
+   "inscritos": 11300,
+   "uploads": "UUBwUuqsELhdcvHowbrEQZRw",
+   "pais": "BR"
+  },
+  "UCWzrjL4YtqSm5WRYN6oFLfA": {
+   "nome": "Memórias Ocultas da URSS",
+   "inscritos": 6770,
+   "uploads": "UUWzrjL4YtqSm5WRYN6oFLfA",
+   "pais": null
+  },
+  "UCpwi6R4_DraKxa8u-nsXWfw": {
+   "nome": "Whispers From The Morgue",
+   "inscritos": 237,
+   "uploads": "UUpwi6R4_DraKxa8u-nsXWfw",
+   "pais": "US"
+  },
+  "UCXDpWoUWeSWu_V1aiozYOGg": {
+   "nome": "Planeta Novo",
+   "inscritos": 3830000,
+   "uploads": "UUXDpWoUWeSWu_V1aiozYOGg",
+   "pais": "BR"
+  },
+  "UCHYaeDO7wKyIXm4jyrJQCvw": {
+   "nome": "caixondesastre",
+   "inscritos": 761,
+   "uploads": "UUHYaeDO7wKyIXm4jyrJQCvw",
+   "pais": null
+  },
+  "UCJ9tHJbCa8ZoMbapfJLy0ZQ": {
+   "nome": "imineo Documentaires",
+   "inscritos": 3610000,
+   "uploads": "UUJ9tHJbCa8ZoMbapfJLy0ZQ",
+   "pais": "FR"
+  },
+  "UC6wskAQcqibDscswxEBR_TA": {
+   "nome": "A Nova Enciclopédia",
+   "inscritos": 21900,
+   "uploads": "UU6wskAQcqibDscswxEBR_TA",
+   "pais": "BR"
+  },
+  "UCrtnESl6ZxshjouO_7bV0qw": {
+   "nome": "Luanda tv ",
+   "inscritos": 4790,
+   "uploads": "UUrtnESl6ZxshjouO_7bV0qw",
+   "pais": "BR"
+  },
+  "UCxFmw3IUMDUC1Hh7qDjtjZQ": {
+   "nome": "Gizmodo",
+   "inscritos": 144000,
+   "uploads": "UUxFmw3IUMDUC1Hh7qDjtjZQ",
+   "pais": "US"
+  },
+  "UCQcZvubD6QrvECYjRkXkpvQ": {
+   "nome": "Te lo explico con dibujos",
+   "inscritos": 39,
+   "uploads": "UUQcZvubD6QrvECYjRkXkpvQ",
+   "pais": "CL"
+  },
+  "UCK8lNmi9SDkZ3hhUeyofO7Q": {
+   "nome": "País de los Sueños",
+   "inscritos": 1170,
+   "uploads": "UUK8lNmi9SDkZ3hhUeyofO7Q",
+   "pais": "ES"
+  },
+  "UCG57PbMFYEUfHsqFXeb_83g": {
+   "nome": "FATOS HISTÓRICOS",
+   "inscritos": 1530,
+   "uploads": "UUG57PbMFYEUfHsqFXeb_83g",
+   "pais": "BR"
+  },
+  "UC-QhL6rIj5RDnwU0dSZrb-Q": {
+   "nome": "Relatos Para Ti",
+   "inscritos": 85700,
+   "uploads": "UU-QhL6rIj5RDnwU0dSZrb-Q",
+   "pais": "DE"
+  },
+  "UCDXH5ejGK-emanX71polvqQ": {
+   "nome": "Historias Embrujadas Podcast",
+   "inscritos": 230000,
+   "uploads": "UUDXH5ejGK-emanX71polvqQ",
+   "pais": "MX"
+  },
+  "UCtKKKITpX5Eo9ipFZM26scg": {
+   "nome": "Criminalmente",
+   "inscritos": 970000,
+   "uploads": "UUtKKKITpX5Eo9ipFZM26scg",
+   "pais": "MX"
+  },
+  "UCqQnFUybHooxUVJ8IVyIxsQ": {
+   "nome": "Imperium Bellum",
+   "inscritos": 9680,
+   "uploads": "UUqQnFUybHooxUVJ8IVyIxsQ",
+   "pais": "BR"
+  },
+  "UCNqyou8x4oz0l_eExhO1Hlw": {
+   "nome": "Subir Cuesta",
+   "inscritos": 70,
+   "uploads": "UUNqyou8x4oz0l_eExhO1Hlw",
+   "pais": "ES"
+  },
+  "UC1h-xgJrv-crScYWu7SpM5w": {
+   "nome": "Recomiendo # Cine",
+   "inscritos": 17800,
+   "uploads": "UU1h-xgJrv-crScYWu7SpM5w",
+   "pais": null
+  },
+  "UCRvXK8ddxDUPtQhp6cp_fSA": {
+   "nome": "O Avesso Soviético",
+   "inscritos": 185,
+   "uploads": "UURvXK8ddxDUPtQhp6cp_fSA",
+   "pais": null
+  },
+  "UCpOmVqc8wfiLVqPyoUFNDPg": {
+   "nome": "ScoutsArgentina",
+   "inscritos": 9410,
+   "uploads": "UUpOmVqc8wfiLVqPyoUFNDPg",
+   "pais": null
+  },
+  "UCft01Wf4P7JkDZQ_Th7ICaQ": {
+   "nome": "Iconografia da História",
+   "inscritos": 2020000,
+   "uploads": "UUft01Wf4P7JkDZQ_Th7ICaQ",
+   "pais": "BR"
+  },
+  "UCQvMp1Md59sFtHZC93z8fWA": {
+   "nome": "Docutami",
+   "inscritos": 307000,
+   "uploads": "UUQvMp1Md59sFtHZC93z8fWA",
+   "pais": "ES"
+  },
+  "UCmWP4f7x5sO4EaJvmCAi0vw": {
+   "nome": "DocuReal",
+   "inscritos": 217000,
+   "uploads": "UUmWP4f7x5sO4EaJvmCAi0vw",
+   "pais": "GB"
+  },
+  "UCvLRBbXcii7xlc7M99T-jcQ": {
+   "nome": "Espía Real",
+   "inscritos": 36700,
+   "uploads": "UUvLRBbXcii7xlc7M99T-jcQ",
+   "pais": null
+  },
+  "UCqwuxoMO7wQSyZZD4nMY4pA": {
+   "nome": "Magnetpraetorian",
+   "inscritos": 4870,
+   "uploads": "UUqwuxoMO7wQSyZZD4nMY4pA",
+   "pais": null
+  },
+  "UCpBOydBWF4dkT0a00tHnK-g": {
+   "nome": "ParmAteneo Unipr",
+   "inscritos": 544,
+   "uploads": "UUpBOydBWF4dkT0a00tHnK-g",
+   "pais": null
+  },
+  "UChojFzThpgObGHmdMS1rpvA": {
+   "nome": "Fernando Díaz Villanueva",
+   "inscritos": 277000,
+   "uploads": "UUhojFzThpgObGHmdMS1rpvA",
+   "pais": "ES"
+  },
+  "UCCST8_H3CCGBGwufX8XbSzg": {
+   "nome": "Aprendes Mientras Duermes",
+   "inscritos": 34300,
+   "uploads": "UUCST8_H3CCGBGwufX8XbSzg",
+   "pais": "ES"
+  },
+  "UCbveWhuDlEkACPP5Z_ddsQg": {
+   "nome": "HISTORIAS DOCUMENTALES",
+   "inscritos": 395,
+   "uploads": "UUbveWhuDlEkACPP5Z_ddsQg",
+   "pais": "CO"
+  },
+  "UCa-F6gSTUk6tV7OGi8tSbFw": {
+   "nome": "Historias de la Guerra Fría",
+   "inscritos": 26,
+   "uploads": "UUa-F6gSTUk6tV7OGi8tSbFw",
+   "pais": "MX"
+  },
+  "UC1s9576cQFdQq3QTtTxocmA": {
+   "nome": "Real Crime",
+   "inscritos": 2190000,
+   "uploads": "UU1s9576cQFdQq3QTtTxocmA",
+   "pais": "GB"
+  },
+  "UCdJktxODKSAsbVnhxsxi0aA": {
+   "nome": "Distrito Alternativo",
+   "inscritos": 10,
+   "uploads": "UUdJktxODKSAsbVnhxsxi0aA",
+   "pais": null
+  },
+  "UCdEzVl0PJP9zff-AwpPUTwQ": {
+   "nome": "Archivos de Historias",
+   "inscritos": 0,
+   "uploads": "UUdEzVl0PJP9zff-AwpPUTwQ",
+   "pais": null
+  },
+  "UCr72zC-nTQV-C7f8jXeBtmQ": {
+   "nome": "Archivio Criminale - Storie vere dal crimine",
+   "inscritos": 26700,
+   "uploads": "UUr72zC-nTQV-C7f8jXeBtmQ",
+   "pais": "IT"
+  },
+  "UCGgkIJwlERFu1TA1aFrIv-Q": {
+   "nome": "Historias y Misterios Ocultos",
+   "inscritos": 148,
+   "uploads": "UUGgkIJwlERFu1TA1aFrIv-Q",
+   "pais": "PT"
+  },
+  "UCBFq_-sCEIFZO4i2X9m3njw": {
+   "nome": "Historia Militar",
+   "inscritos": 1200000,
+   "uploads": "UUBFq_-sCEIFZO4i2X9m3njw",
+   "pais": "AR"
+  },
+  "UCHQXLvA972NkakcPy-U6t-Q": {
+   "nome": "Anonymous Guatemala",
+   "inscritos": 6510,
+   "uploads": "UUHQXLvA972NkakcPy-U6t-Q",
+   "pais": null
+  },
+  "UCdrNJIAfB5ag3od5rg9Q_7w": {
+   "nome": "Vogalizando a História",
+   "inscritos": 1370000,
+   "uploads": "UUdrNJIAfB5ag3od5rg9Q_7w",
+   "pais": "BR"
+  },
+  "UCjmJDM5pRKbUlVIzDYYWb6g": {
+   "nome": "Warner Bros.",
+   "inscritos": 12900000,
+   "uploads": "UUjmJDM5pRKbUlVIzDYYWb6g",
+   "pais": "US"
+  },
+  "UCjHUihuGx9bcd48CSNwNE6w": {
+   "nome": "USAHavana",
+   "inscritos": 35300,
+   "uploads": "UUjHUihuGx9bcd48CSNwNE6w",
+   "pais": "US"
+  },
+  "UCDX_UmOEi4uuDKvz8w2ZzWw": {
+   "nome": "TheObscureWrtr",
+   "inscritos": 5140,
+   "uploads": "UUDX_UmOEi4uuDKvz8w2ZzWw",
+   "pais": null
+  },
+  "UClNy1t7SNAAfXLXViKNEHKA": {
+   "nome": "Desempacotando",
+   "inscritos": 14800,
+   "uploads": "UUlNy1t7SNAAfXLXViKNEHKA",
+   "pais": "BR"
+  },
+  "UCGcB-End4UWEkb-dHLtUE-w": {
+   "nome": "Elif",
+   "inscritos": 11100,
+   "uploads": "UUGcB-End4UWEkb-dHLtUE-w",
+   "pais": "AR"
+  },
+  "UC1gMJbPatMRNcWKQGfmw8MQ": {
+   "nome": "OID MORTALES",
+   "inscritos": 38600,
+   "uploads": "UU1gMJbPatMRNcWKQGfmw8MQ",
+   "pais": "AR"
+  },
+  "UCOS34vlQabZvm53dzHMr8hA": {
+   "nome": "Penguin History",
+   "inscritos": 320000,
+   "uploads": "UUOS34vlQabZvm53dzHMr8hA",
+   "pais": "DK"
+  },
+  "UCYaMaLJVbMlLwpPACbxPUuQ": {
+   "nome": "Alan Delmonte",
+   "inscritos": 63000,
+   "uploads": "UUYaMaLJVbMlLwpPACbxPUuQ",
+   "pais": "GT"
+  },
+  "UCqRA8jL2sI3eyIY3JOYhyzQ": {
+   "nome": "ARCHIVOS MOSSAD",
+   "inscritos": 17,
+   "uploads": "UUqRA8jL2sI3eyIY3JOYhyzQ",
+   "pais": null
+  },
+  "UC9VJ78snwynyuWG5lGfFGTQ": {
+   "nome": "Seventeen Moments in Soviet History",
+   "inscritos": 6020,
+   "uploads": "UU9VJ78snwynyuWG5lGfFGTQ",
+   "pais": "US"
+  },
+  "UC1KvIFoJjqZ_n8J39mqTRtA": {
+   "nome": "Life with Dr. Trish Varner",
+   "inscritos": 39000,
+   "uploads": "UU1KvIFoJjqZ_n8J39mqTRtA",
+   "pais": "US"
+  },
+  "UCiZw8EIFqdpR8UjbwsEEuLQ": {
+   "nome": "cahalote",
+   "inscritos": 62,
+   "uploads": "UUiZw8EIFqdpR8UjbwsEEuLQ",
+   "pais": null
+  },
+  "UCMBOLHgWL5RBZmSq2acXdWw": {
+   "nome": "HISTORY NERDS UNITED",
+   "inscritos": 32400,
+   "uploads": "UUMBOLHgWL5RBZmSq2acXdWw",
+   "pais": "US"
+  },
+  "UCUsaaFEhRYhxjLeaOmUw6IQ": {
+   "nome": "Virus y Dioses",
+   "inscritos": 6250,
+   "uploads": "UUUsaaFEhRYhxjLeaOmUw6IQ",
+   "pais": "GB"
+  },
+  "UC0DPqxDl0chVKxgTpHwlVEg": {
+   "nome": "Poder Criminal",
+   "inscritos": 4280,
+   "uploads": "UU0DPqxDl0chVKxgTpHwlVEg",
+   "pais": "BR"
+  },
+  "UCzKhkSlAyiTZVoTG-cmvkcA": {
+   "nome": "Relatos Para La Noche & Recopilaciones",
+   "inscritos": 140000,
+   "uploads": "UUzKhkSlAyiTZVoTG-cmvkcA",
+   "pais": "MX"
+  },
+  "UC-mXS6bcEuWwgmUZWes5Q4A": {
+   "nome": "Estudio Alejandría",
+   "inscritos": 3760,
+   "uploads": "UU-mXS6bcEuWwgmUZWes5Q4A",
+   "pais": "ES"
+  },
+  "UCAx8AK17j6BKqdQefiHWGag": {
+   "nome": "Historias Vivas | Gente, Vida, Documentales ",
+   "inscritos": 659000,
+   "uploads": "UUAx8AK17j6BKqdQefiHWGag",
+   "pais": "FR"
+  },
+  "UCUdOoVWuWmgo1wByzcsyKDQ": {
+   "nome": "FRANCE 24 Español",
+   "inscritos": 2170000,
+   "uploads": "UUUdOoVWuWmgo1wByzcsyKDQ",
+   "pais": "FR"
+  },
+  "UCyyLbgl2WWJuxufpnG_TrSw": {
+   "nome": "87Randori",
+   "inscritos": 11100,
+   "uploads": "UUyyLbgl2WWJuxufpnG_TrSw",
+   "pais": null
+  },
+  "UC_0j0mtBAGTj1U7LD3J0dhQ": {
+   "nome": "Raquel de la Morena",
+   "inscritos": 1400000,
+   "uploads": "UU_0j0mtBAGTj1U7LD3J0dhQ",
+   "pais": "ES"
+  },
+  "UCHKiTFete80LTEJ3oOSff5g": {
+   "nome": "Документальный Сборник Фактов",
+   "inscritos": 57100,
+   "uploads": "UUHKiTFete80LTEJ3oOSff5g",
+   "pais": null
+  },
+  "UCR7HxXaPZcrW-wNk2FSkobg": {
+   "nome": "Rose Bennet",
+   "inscritos": 693000,
+   "uploads": "UUR7HxXaPZcrW-wNk2FSkobg",
+   "pais": "ES"
+  },
+  "UC6NDlpV9hqY_UHrMgIFvt3Q": {
+   "nome": "Atti giudiziari - Le confessioni della mafia",
+   "inscritos": 2090,
+   "uploads": "UU6NDlpV9hqY_UHrMgIFvt3Q",
+   "pais": "IT"
+  },
+  "UCv05qOuJ6Igbe-EyQibJgwQ": {
+   "nome": "Academia Play",
+   "inscritos": 3780000,
+   "uploads": "UUv05qOuJ6Igbe-EyQibJgwQ",
+   "pais": "ES"
+  },
+  "UCtZh2AHi2y9CS8TAPGSWNIw": {
+   "nome": "Camino de Guerra",
+   "inscritos": 4720,
+   "uploads": "UUtZh2AHi2y9CS8TAPGSWNIw",
+   "pais": "ES"
+  },
+  "UC5BoL9r0SYd9zgpWPFhBBag": {
+   "nome": "TibsonTV",
+   "inscritos": 111000,
+   "uploads": "UU5BoL9r0SYd9zgpWPFhBBag",
+   "pais": "ES"
+  },
+  "UC2sPqAvrtsl85lEzX-i7Eyg": {
+   "nome": "Proffixa Med",
+   "inscritos": 10,
+   "uploads": "UU2sPqAvrtsl85lEzX-i7Eyg",
+   "pais": null
+  },
+  "UCqVXPX0uHiRaw45fEAoRAGQ": {
+   "nome": "Historia 360",
+   "inscritos": 2310,
+   "uploads": "UUqVXPX0uHiRaw45fEAoRAGQ",
+   "pais": "FR"
+  },
+  "UCRbXP3R0Ua9jrO50DJ_W6Wg": {
+   "nome": "Investigaciones históricas",
+   "inscritos": 4,
+   "uploads": "UURbXP3R0Ua9jrO50DJ_W6Wg",
+   "pais": "CO"
+  },
+  "UCfg9kqA_BcBsW7lsVwVcxnA": {
+   "nome": "Revelando el Velo En Español",
+   "inscritos": 429000,
+   "uploads": "UUfg9kqA_BcBsW7lsVwVcxnA",
+   "pais": "AR"
+  },
+  "UClqke4UVPYkktZh9d9K4aog": {
+   "nome": "xy51",
+   "inscritos": 3430,
+   "uploads": "UUlqke4UVPYkktZh9d9K4aog",
+   "pais": null
+  },
+  "UCoJk1vT4Vuq4VKPjRXGh1gg": {
+   "nome": "Simple History en Español",
+   "inscritos": 31700,
+   "uploads": "UUoJk1vT4Vuq4VKPjRXGh1gg",
+   "pais": "MX"
+  },
+  "UCZM5aON36Iw0o0ngTaQSWVA": {
+   "nome": "Will Media",
+   "inscritos": 350000,
+   "uploads": "UUZM5aON36Iw0o0ngTaQSWVA",
+   "pais": "IT"
+  },
+  "UCTqb7oZzCYpzOhPenq6AOyQ": {
+   "nome": "Solo Fonseca",
+   "inscritos": 1370000,
+   "uploads": "UUTqb7oZzCYpzOhPenq6AOyQ",
+   "pais": "CZ"
+  },
+  "UCfQnwaf54cc_qbAsfeGNOng": {
+   "nome": "TheBfaulk92",
+   "inscritos": 154,
+   "uploads": "UUfQnwaf54cc_qbAsfeGNOng",
+   "pais": null
+  },
+  "UCvGAXaf8b6NDwCWIAltRFww": {
+   "nome": "Free Documentary Español",
+   "inscritos": 211000,
+   "uploads": "UUvGAXaf8b6NDwCWIAltRFww",
+   "pais": "DE"
+  },
+  "UCHLQ0IVP__944AsRjFmRo1A": {
+   "nome": "El Canal del Coronel",
+   "inscritos": 994000,
+   "uploads": "UUHLQ0IVP__944AsRjFmRo1A",
+   "pais": "ES"
+  },
+  "UCx-coWjyb-Szznb1sgG6e-Q": {
+   "nome": "Órdenes Secretas",
+   "inscritos": 5560,
+   "uploads": "UUx-coWjyb-Szznb1sgG6e-Q",
+   "pais": "ES"
+  },
+  "UCLnqtIyWgshr6ALZxj__XAg": {
+   "nome": "Descanso Histórico",
+   "inscritos": 14400,
+   "uploads": "UULnqtIyWgshr6ALZxj__XAg",
+   "pais": "AR"
+  },
+  "UCCGvq-qmjFmmMD4e-PLQqGg": {
+   "nome": "The Cold War",
+   "inscritos": 456000,
+   "uploads": "UUCGvq-qmjFmmMD4e-PLQqGg",
+   "pais": null
+  },
+  "UC3SBuQKzSgDfO2xPhxUJu9g": {
+   "nome": "unProfesor",
+   "inscritos": 1590000,
+   "uploads": "UU3SBuQKzSgDfO2xPhxUJu9g",
+   "pais": "ES"
+  },
+  "UCsYI3C4JrikUhWhdkMsRjNQ": {
+   "nome": "La Neura",
+   "inscritos": 36300,
+   "uploads": "UUsYI3C4JrikUhWhdkMsRjNQ",
+   "pais": "CL"
+  },
+  "UCBhjYZy8kjnbgsPpGkVRxcg": {
+   "nome": "James Anderson",
+   "inscritos": 0,
+   "uploads": "UUBhjYZy8kjnbgsPpGkVRxcg",
+   "pais": null
+  },
+  "UCU9X20mRkgGlnS6orKsX6eg": {
+   "nome": "Crimen e Investigación - Documentales en Español",
+   "inscritos": 475000,
+   "uploads": "UUU9X20mRkgGlnS6orKsX6eg",
+   "pais": null
+  },
+  "UCJNTMH2twsiBEuiPK0sIKvA": {
+   "nome": "Mafia Secreta",
+   "inscritos": 175,
+   "uploads": "UUJNTMH2twsiBEuiPK0sIKvA",
+   "pais": "US"
+  },
+  "UC9e285si-YGgTLmVvdvncDA": {
+   "nome": "Pequeños Pasatiempos",
+   "inscritos": 297000,
+   "uploads": "UU9e285si-YGgTLmVvdvncDA",
+   "pais": "AR"
+  },
+  "UCKVtMu6QLSEA528Li51ndPQ": {
+   "nome": "Nat Geo en Español",
+   "inscritos": 1710000,
+   "uploads": "UUKVtMu6QLSEA528Li51ndPQ",
+   "pais": null
+  },
+  "UC8Yr51qIA84E4lODR-9p1lw": {
+   "nome": "DavidochB",
+   "inscritos": 59,
+   "uploads": "UU8Yr51qIA84E4lODR-9p1lw",
+   "pais": null
+  },
+  "UC7fWeaHhqgM4Ry-RMpM2YYw": {
+   "nome": "TRT World",
+   "inscritos": 10300000,
+   "uploads": "UU7fWeaHhqgM4Ry-RMpM2YYw",
+   "pais": "TR"
+  },
+  "UCNDM0eq9WmBDr5UwMQFeFew": {
+   "nome": "World View - Documentary",
+   "inscritos": 46200,
+   "uploads": "UUNDM0eq9WmBDr5UwMQFeFew",
+   "pais": "GB"
+  },
+  "UCnsgMxUmnYMIqj-3SefCJvg": {
+   "nome": "Misterio Documental TV",
+   "inscritos": 5220,
+   "uploads": "UUnsgMxUmnYMIqj-3SefCJvg",
+   "pais": "PE"
+  },
+  "UCq0PCZgOTyv_BGOZof7pFsg": {
+   "nome": "Historias Secretas de Guerra",
+   "inscritos": 3200,
+   "uploads": "UUq0PCZgOTyv_BGOZof7pFsg",
+   "pais": null
+  },
+  "UC4A_eQiXs8-ESgVmyxNUMGw": {
+   "nome": "Mapa del Ayer",
+   "inscritos": 0,
+   "uploads": "UU4A_eQiXs8-ESgVmyxNUMGw",
+   "pais": null
+  },
+  "UCCMUSMmzy9J2kcxJAVgVtxA": {
+   "nome": "Señal Maligna",
+   "inscritos": 16,
+   "uploads": "UUCMUSMmzy9J2kcxJAVgVtxA",
+   "pais": null
+  },
+  "UCBIMW0ZhwULY_x7fdaPRPiQ": {
+   "nome": "Pero eso es otra Historia",
+   "inscritos": 2070000,
+   "uploads": "UUBIMW0ZhwULY_x7fdaPRPiQ",
+   "pais": "ES"
+  },
+  "UCysuZYaCPUv484P51IayxZA": {
+   "nome": "Doc_Choc ",
+   "inscritos": 865,
+   "uploads": "UUysuZYaCPUv484P51IayxZA",
+   "pais": null
+  },
+  "UCdssq4zDpnh7Ql6ak7YOeOw": {
+   "nome": "A.M.V.",
+   "inscritos": 549,
+   "uploads": "UUdssq4zDpnh7Ql6ak7YOeOw",
+   "pais": null
+  },
+  "UC_F6K6FdR6UCjRM08qPLeSA": {
+   "nome": "Arquivos Proibidos",
+   "inscritos": 12600,
+   "uploads": "UU_F6K6FdR6UCjRM08qPLeSA",
+   "pais": "BR"
+  },
+  "UCP3CtEXi5nxbhei_aBfIOVA": {
+   "nome": "Marcelo Andrade ",
+   "inscritos": 474000,
+   "uploads": "UUP3CtEXi5nxbhei_aBfIOVA",
+   "pais": "BR"
+  },
+  "UC7WQuU-b8Wszz69y-c2U3Og": {
+   "nome": "Aprende con un café",
+   "inscritos": 572,
+   "uploads": "UU7WQuU-b8Wszz69y-c2U3Og",
+   "pais": "ES"
+  },
+  "UCqZCVjN9I-g9Q5MLBjoY8jg": {
+   "nome": "John Posey",
+   "inscritos": 4900,
+   "uploads": "UUqZCVjN9I-g9Q5MLBjoY8jg",
+   "pais": null
+  },
+  "UCLudYE-TtOV89-1vrw_hUYQ": {
+   "nome": "Mundo Bélico",
+   "inscritos": 681000,
+   "uploads": "UULudYE-TtOV89-1vrw_hUYQ",
+   "pais": "AR"
+  },
+  "UCmHLnSliNdlo6VJQ2yDSEaA": {
+   "nome": "Ecos de la URSS",
+   "inscritos": 1770,
+   "uploads": "UUmHLnSliNdlo6VJQ2yDSEaA",
+   "pais": null
+  },
+  "UCkxtAeNctO0la85IEYVGk1A": {
+   "nome": "Logia Ciudadania Universal",
+   "inscritos": 214,
+   "uploads": "UUkxtAeNctO0la85IEYVGk1A",
+   "pais": "AR"
+  },
+  "UCHGeKe0SP7PpNFrg5HYkHKQ": {
+   "nome": "Sofá, manta y crimen",
+   "inscritos": 7780,
+   "uploads": "UUHGeKe0SP7PpNFrg5HYkHKQ",
+   "pais": "ES"
+  },
+  "UCRP5p2RfxJgnKyWgve5pJ-Q": {
+   "nome": "Canal History Brasil",
+   "inscritos": 5460000,
+   "uploads": "UURP5p2RfxJgnKyWgve5pJ-Q",
+   "pais": "BR"
+  },
+  "UCTtIr7Q_mz1QkzbZc0RWUrw": {
+   "nome": "BELLUMARTIS HISTORIA MILITAR",
+   "inscritos": 109000,
+   "uploads": "UUTtIr7Q_mz1QkzbZc0RWUrw",
+   "pais": "ES"
+  },
+  "UC2V4TEXzsQ2nQlQtH5ctCRw": {
+   "nome": "backup_dokus2016",
+   "inscritos": 3420,
+   "uploads": "UU2V4TEXzsQ2nQlQtH5ctCRw",
+   "pais": "DE"
+  },
+  "UClE2-OhpVjZ5YLusTqUFAcw": {
+   "nome": "Caídos del Poder",
+   "inscritos": 19000,
+   "uploads": "UUlE2-OhpVjZ5YLusTqUFAcw",
+   "pais": null
+  },
+  "UCUUT3RG993Au-b28vgl0OVg": {
+   "nome": "kevin nivek",
+   "inscritos": 1460,
+   "uploads": "UUUUT3RG993Au-b28vgl0OVg",
+   "pais": null
+  },
+  "UC-e25eS3oTJMFw-eHRCol3g": {
+   "nome": "Podcast Extra Anormal",
+   "inscritos": 2570000,
+   "uploads": "UU-e25eS3oTJMFw-eHRCol3g",
+   "pais": "MX"
+  },
+  "UCGfU_fJmmIDPogQ8Aecn7aA": {
+   "nome": "Vestigios del Poder",
+   "inscritos": 447,
+   "uploads": "UUGfU_fJmmIDPogQ8Aecn7aA",
+   "pais": "ES"
+  },
+  "UCeGfgM5oI9RSpFIjl_AaOXg": {
+   "nome": "La Base América Latina",
+   "inscritos": 776000,
+   "uploads": "UUeGfgM5oI9RSpFIjl_AaOXg",
+   "pais": "ES"
+  },
+  "UCjMGMWnToRcQRqmyVB4R2xQ": {
+   "nome": "CLARÍN",
+   "inscritos": 1580000,
+   "uploads": "UUjMGMWnToRcQRqmyVB4R2xQ",
+   "pais": "AR"
+  },
+  "UCZKCW7cvCjTH5FXgbVmbf9A": {
+   "nome": "Lo Que Moscú Calló",
+   "inscritos": 1,
+   "uploads": "UUZKCW7cvCjTH5FXgbVmbf9A",
+   "pais": null
+  },
+  "UCLx-NdKBStV8X8GzqkYrAOA": {
+   "nome": "tecnodocumentales",
+   "inscritos": 17500,
+   "uploads": "UULx-NdKBStV8X8GzqkYrAOA",
+   "pais": "ES"
+  },
+  "UCLIR62zur22xAG3XbPrRkJw": {
+   "nome": "Temas belicos y otros....",
+   "inscritos": 359,
+   "uploads": "UULIR62zur22xAG3XbPrRkJw",
+   "pais": null
+  },
+  "UCidDWnuRF78vi1kS463SQoQ": {
+   "nome": "VERDADES INCOMODAS",
+   "inscritos": 335,
+   "uploads": "UUidDWnuRF78vi1kS463SQoQ",
+   "pais": null
+  },
+  "UCIPASaOk7gd2WuWjs9o9bUw": {
+   "nome": "A URSS Esquecida",
+   "inscritos": 424,
+   "uploads": "UUIPASaOk7gd2WuWjs9o9bUw",
+   "pais": null
+  },
+  "UC89njlJSUNV4YWFZ3xlcyxA": {
+   "nome": "Historica Esoterica",
+   "inscritos": 121,
+   "uploads": "UU89njlJSUNV4YWFZ3xlcyxA",
+   "pais": null
+  },
+  "UCPQPRymppHUJxnSylmI9k5w": {
+   "nome": "Abraham Shalom",
+   "inscritos": 158000,
+   "uploads": "UUPQPRymppHUJxnSylmI9k5w",
+   "pais": null
+  },
+  "UCIu6bODadupRu1gYza9omJQ": {
+   "nome": "Historia",
+   "inscritos": 25400,
+   "uploads": "UUIu6bODadupRu1gYza9omJQ",
+   "pais": null
+  },
+  "UCYmj0OazVI2rgRKd_GSOAoQ": {
+   "nome": "Crónicas soviéticas",
+   "inscritos": 2970,
+   "uploads": "UUYmj0OazVI2rgRKd_GSOAoQ",
+   "pais": null
+  },
+  "UCs5QhJQF9I1m81bCJy0WO-w": {
+   "nome": "Real History",
+   "inscritos": 550000,
+   "uploads": "UUs5QhJQF9I1m81bCJy0WO-w",
+   "pais": null
+  },
+  "UCuDm45jKrsTeEpx7BayVaiw": {
+   "nome": "WORLDCA$T",
+   "inscritos": 2090000,
+   "uploads": "UUuDm45jKrsTeEpx7BayVaiw",
+   "pais": "ES"
+  },
+  "UCHZRnXoYcnIW_wL1lzjDBkA": {
+   "nome": "identikitblog identikitblog",
+   "inscritos": 18900,
+   "uploads": "UUHZRnXoYcnIW_wL1lzjDBkA",
+   "pais": "IT"
+  },
+  "UCFYqNfxE5JWNeYuZuaM4YNQ": {
+   "nome": "Santiago Armesilla",
+   "inscritos": 437000,
+   "uploads": "UUFYqNfxE5JWNeYuZuaM4YNQ",
+   "pais": "ES"
+  },
+  "UCYjWp1meDQGx7kfy_fPVNJg": {
+   "nome": "Italia Mistero",
+   "inscritos": 129000,
+   "uploads": "UUYjWp1meDQGx7kfy_fPVNJg",
+   "pais": "IT"
+  },
+  "UCkCvLSWRn0yHrnYy4eAb7zQ": {
+   "nome": "Italy on a click | Film completi in Italiano",
+   "inscritos": 48100,
+   "uploads": "UUkCvLSWRn0yHrnYy4eAb7zQ",
+   "pais": "IT"
+  },
+  "UC9MAhZQQd9egwWCxrwSIsJQ": {
+   "nome": "HISTORY",
+   "inscritos": 15500000,
+   "uploads": "UU9MAhZQQd9egwWCxrwSIsJQ",
+   "pais": "US"
+  },
+  "UC4_KeNFWSKD1Ie1eYzrcvog": {
+   "nome": "La Razón",
+   "inscritos": 155000,
+   "uploads": "UU4_KeNFWSKD1Ie1eYzrcvog",
+   "pais": "ES"
+  },
+  "UC_LlGpG22OWkKPsLJfZ8CZg": {
+   "nome": "Preguntas Incómodas",
+   "inscritos": 917000,
+   "uploads": "UU_LlGpG22OWkKPsLJfZ8CZg",
+   "pais": "ES"
+  },
+  "UCbAiIkPobUFy71zlmwVw3jw": {
+   "nome": "Fatos Desconhecidos",
+   "inscritos": 23000000,
+   "uploads": "UUbAiIkPobUFy71zlmwVw3jw",
+   "pais": "BR"
+  },
+  "UC_ViDWteHf0zGmTHM3F7ejg": {
+   "nome": "Curious",
+   "inscritos": 39800,
+   "uploads": "UU_ViDWteHf0zGmTHM3F7ejg",
+   "pais": "GB"
+  },
+  "UC5hQs5T2mc_Rw5FPGpDodtA": {
+   "nome": "El Rincón del Botánico",
+   "inscritos": 1050,
+   "uploads": "UU5hQs5T2mc_Rw5FPGpDodtA",
+   "pais": "MX"
+  },
+  "UC_ulVnWh4dIKxz2wWZH-Lgw": {
+   "nome": "La Prueba Guardada",
+   "inscritos": 51,
+   "uploads": "UU_ulVnWh4dIKxz2wWZH-Lgw",
+   "pais": null
+  },
+  "UCgwnU1ybWHt-Yyj_nbJpGjQ": {
+   "nome": "Lucky Bisht ",
+   "inscritos": 1110000,
+   "uploads": "UUgwnU1ybWHt-Yyj_nbJpGjQ",
+   "pais": "IN"
+  },
+  "UCmFXdlIY6zCikjgkdeJ5-9g": {
+   "nome": "El Común de los Sentidos",
+   "inscritos": 6660,
+   "uploads": "UUmFXdlIY6zCikjgkdeJ5-9g",
+   "pais": "ES"
+  },
+  "UC3QlHpSgRGJgaXFLvzt7uHg": {
+   "nome": "Respetable Logia Simbólica Camino a Santiago 259",
+   "inscritos": 1920,
+   "uploads": "UU3QlHpSgRGJgaXFLvzt7uHg",
+   "pais": "MX"
+  },
+  "UC_AtJdND3C_WfDbDFM-RoRw": {
+   "nome": "Detrás Del Poder",
+   "inscritos": 8980,
+   "uploads": "UU_AtJdND3C_WfDbDFM-RoRw",
+   "pais": "ES"
+  },
+  "UCRijH1MWsrQlNeWdB88LWhA": {
+   "nome": "La Huella",
+   "inscritos": 87800,
+   "uploads": "UURijH1MWsrQlNeWdB88LWhA",
+   "pais": "FR"
+  },
+  "UCUceu-U7sCHLMb3VZPMrtZg": {
+   "nome": "C-BR1",
+   "inscritos": 2590,
+   "uploads": "UUUceu-U7sCHLMb3VZPMrtZg",
+   "pais": "IT"
+  },
+  "UC8CrY6qaEgTnxhLSQsP2P1A": {
+   "nome": "Mossad Mundo",
+   "inscritos": 10600,
+   "uploads": "UU8CrY6qaEgTnxhLSQsP2P1A",
+   "pais": "DE"
+  },
+  "UCNQ79dBlfRd4_TfeaNr2KrA": {
+   "nome": "Gialli e Criminologia",
+   "inscritos": 361,
+   "uploads": "UUNQ79dBlfRd4_TfeaNr2KrA",
+   "pais": null
+  },
+  "UClnDI2sdehVm1zm_LmUHsjQ": {
+   "nome": "Biographics",
+   "inscritos": 2440000,
+   "uploads": "UUlnDI2sdehVm1zm_LmUHsjQ",
+   "pais": "US"
+  },
+  "UCWiuDfH3g0RQjFE7OoziVEA": {
+   "nome": "Los Secretos de Medianoche",
+   "inscritos": 24,
+   "uploads": "UUWiuDfH3g0RQjFE7OoziVEA",
+   "pais": "MX"
+  },
+  "UCi7WXJmvPa9YI7FTh0n9E2A": {
+   "nome": "Manuel Roca",
+   "inscritos": 65300,
+   "uploads": "UUi7WXJmvPa9YI7FTh0n9E2A",
+   "pais": null
+  },
+  "UCOpiNCwK0UmT4C0Ob95tkfg": {
+   "nome": "EL HURONCITO TE LO CUENTA",
+   "inscritos": 4330,
+   "uploads": "UUOpiNCwK0UmT4C0Ob95tkfg",
+   "pais": "PE"
+  },
+  "UC_Y97FGEBqWJ0yXxFKikNOQ": {
+   "nome": "Abre la Historia",
+   "inscritos": 319,
+   "uploads": "UU_Y97FGEBqWJ0yXxFKikNOQ",
+   "pais": "ES"
+  },
+  "UCzXXtjW9vP1_GPm_y6Fz27Q": {
+   "nome": "Archivo Público",
+   "inscritos": 1340,
+   "uploads": "UUzXXtjW9vP1_GPm_y6Fz27Q",
+   "pais": "ES"
+  },
+  "UCycga0oCTfeWwFts5tJYaOw": {
+   "nome": "La Hora Desclasificada",
+   "inscritos": 0,
+   "uploads": "UUycga0oCTfeWwFts5tJYaOw",
+   "pais": "US"
+  },
+  "UClgpmGAriRgdh8q8Fw3nteg": {
+   "nome": "Umbral Espiritual",
+   "inscritos": 1230,
+   "uploads": "UUlgpmGAriRgdh8q8Fw3nteg",
+   "pais": "ES"
+  },
+  "UClgevvAYKcfuthTWppKT0IQ": {
+   "nome": "WatchMojo Español",
+   "inscritos": 8200000,
+   "uploads": "UUlgevvAYKcfuthTWppKT0IQ",
+   "pais": "CA"
+  },
+  "UCiBxHh6wl9o_ush37g9EEcg": {
+   "nome": "História do mundo - Prof. Pedro ",
+   "inscritos": 164000,
+   "uploads": "UUiBxHh6wl9o_ush37g9EEcg",
+   "pais": "BR"
+  },
+  "UC6g3aD7VrqY8oCVzuY1Cf3w": {
+   "nome": "Mente Uno | Un Curso de Milagros",
+   "inscritos": 23400,
+   "uploads": "UU6g3aD7VrqY8oCVzuY1Cf3w",
+   "pais": "PY"
+  },
+  "UCTP3ZmViPJ2wsu9aDAZ_ttA": {
+   "nome": "Viper Protocol",
+   "inscritos": 3,
+   "uploads": "UUTP3ZmViPJ2wsu9aDAZ_ttA",
+   "pais": null
+  },
+  "UCyr-mGOzY0oMe4Ghd4KBSNA": {
+   "nome": "Chamuco Media",
+   "inscritos": 170000,
+   "uploads": "UUyr-mGOzY0oMe4Ghd4KBSNA",
+   "pais": "MX"
+  },
+  "UC94vOSeustDxM4oW7fKiyMQ": {
+   "nome": "Ciencia del Energismo (Gnosis)",
+   "inscritos": 202000,
+   "uploads": "UU94vOSeustDxM4oW7fKiyMQ",
+   "pais": "MX"
+  },
+  "UCVvwbez-BNlWvbxtpOx0MGQ": {
+   "nome": "History Latinoamérica",
+   "inscritos": 8270000,
+   "uploads": "UUVvwbez-BNlWvbxtpOx0MGQ",
+   "pais": "MX"
+  },
+  "UCKIQzEa8oTxk8VcyUcAJh8Q": {
+   "nome": "Acero Templario",
+   "inscritos": 2390,
+   "uploads": "UUKIQzEa8oTxk8VcyUcAJh8Q",
+   "pais": "ES"
+  },
+  "UCHlBQeMyy7OIJXYiF_CJAyw": {
+   "nome": "Bibi Rondspecht",
+   "inscritos": 1010,
+   "uploads": "UUHlBQeMyy7OIJXYiF_CJAyw",
+   "pais": null
+  },
+  "UCVCYqeuCwTWC7Lqez_qeWRA": {
+   "nome": "Dossier en minutos",
+   "inscritos": 3,
+   "uploads": "UUVCYqeuCwTWC7Lqez_qeWRA",
+   "pais": "BR"
+  },
+  "UCceIiarX67UCUC2F5IdRXEA": {
+   "nome": "Detrás del titular",
+   "inscritos": 35700,
+   "uploads": "UUceIiarX67UCUC2F5IdRXEA",
+   "pais": "FR"
+  },
+  "UCVBn0ntY6AOkjFq8vsUD6nA": {
+   "nome": " La Máquina de la Historia",
+   "inscritos": 545,
+   "uploads": "UUVBn0ntY6AOkjFq8vsUD6nA",
+   "pais": null
+  },
+  "UCrCF4jfLgkZlUXEQnNFpz5A": {
+   "nome": "Bass雅文",
+   "inscritos": 172,
+   "uploads": "UUrCF4jfLgkZlUXEQnNFpz5A",
+   "pais": null
+  },
+  "UC9iwIrOFMldWCDOrYfRKy0w": {
+   "nome": "pabloci2002",
+   "inscritos": 0,
+   "uploads": "UU9iwIrOFMldWCDOrYfRKy0w",
+   "pais": null
+  },
+  "UCzuqE7-t13O4NIDYJfakrhw": {
+   "nome": "Democracy Now!",
+   "inscritos": 3450000,
+   "uploads": "UUzuqE7-t13O4NIDYJfakrhw",
+   "pais": "US"
+  },
+  "UCMRoXcYmj3kWjBHZsiRLZZg": {
+   "nome": "A Million Other Choices",
+   "inscritos": 5190,
+   "uploads": "UUMRoXcYmj3kWjBHZsiRLZZg",
+   "pais": "CA"
+  },
+  "UCxX04NmV0xQIHgOhsE5YJbg": {
+   "nome": "John Yoo",
+   "inscritos": 2630,
+   "uploads": "UUxX04NmV0xQIHgOhsE5YJbg",
+   "pais": null
+  },
+  "UC6oWUCSL28m22eO--R7oK2g": {
+   "nome": "Inside History in English",
+   "inscritos": 516,
+   "uploads": "UU6oWUCSL28m22eO--R7oK2g",
+   "pais": "US"
+  },
+  "UCjEepVESC0z984zX0a6d-pA": {
+   "nome": "QNTLC",
+   "inscritos": 561000,
+   "uploads": "UUjEepVESC0z984zX0a6d-pA",
+   "pais": "AR"
+  },
+  "UCf31iS2kNHwnNT_4BgN_PaA": {
+   "nome": "Mundo JesPed",
+   "inscritos": 11700,
+   "uploads": "UUf31iS2kNHwnNT_4BgN_PaA",
+   "pais": "ES"
+  },
+  "UChTgZYziDnDVp4C_-UPd8zA": {
+   "nome": "Mega Historias",
+   "inscritos": 65000,
+   "uploads": "UUhTgZYziDnDVp4C_-UPd8zA",
+   "pais": "US"
+  },
+  "UCkVx6TXjapD521kn7UQp7Tw": {
+   "nome": "Letícia Azevedo ",
+   "inscritos": 1790,
+   "uploads": "UUkVx6TXjapD521kn7UQp7Tw",
+   "pais": null
+  },
+  "UCjlIJgTF7sYTIRhhZkgcCoA": {
+   "nome": "Masonería al Descubierto",
+   "inscritos": 1100,
+   "uploads": "UUjlIJgTF7sYTIRhhZkgcCoA",
+   "pais": "US"
+  },
+  "UCMPj8lNNDW2zOLsnmB-e_lQ": {
+   "nome": "J 77",
+   "inscritos": 3420,
+   "uploads": "UUMPj8lNNDW2zOLsnmB-e_lQ",
+   "pais": "AR"
+  },
+  "UCY5-EZ5nAZ-dv677r4UFcOg": {
+   "nome": "History & Organised Crime",
+   "inscritos": 27900,
+   "uploads": "UUY5-EZ5nAZ-dv677r4UFcOg",
+   "pais": "GB"
+  },
+  "UCFuDPgVXVURoemPnGQDHM1Q": {
+   "nome": "YouTube Video Promoters",
+   "inscritos": 142,
+   "uploads": "UUFuDPgVXVURoemPnGQDHM1Q",
+   "pais": null
+  },
+  "UC_usFP9_hHDdAZ1EjRoKIkw": {
+   "nome": "Un podcast de Historia en Youtube",
+   "inscritos": 21100,
+   "uploads": "UU_usFP9_hHDdAZ1EjRoKIkw",
+   "pais": null
+  },
+  "UCyhEZKz-LOwgktptEOh6_Iw": {
+   "nome": "Andrew Klavan",
+   "inscritos": 813000,
+   "uploads": "UUyhEZKz-LOwgktptEOh6_Iw",
+   "pais": "US"
+  },
+  "UCHlkOSoJGr-RPujFgO_Ictg": {
+   "nome": "La Sombra de la Historia",
+   "inscritos": 28100,
+   "uploads": "UUHlkOSoJGr-RPujFgO_Ictg",
+   "pais": "ES"
+  },
+  "UC5JyAlHfdfHusXdxek9eXgQ": {
+   "nome": "Felipe Pigna",
+   "inscritos": 351000,
+   "uploads": "UU5JyAlHfdfHusXdxek9eXgQ",
+   "pais": "AR"
+  },
+  "UCtfdxngUADnFnNAF1v1V-7Q": {
+   "nome": "Tutoreales 7.8.7",
+   "inscritos": 11900,
+   "uploads": "UUtfdxngUADnFnNAF1v1V-7Q",
+   "pais": "BR"
+  },
+  "UC5Ihgtj7aS5vepGofQe5aDg": {
+   "nome": "LaMilicia1981",
+   "inscritos": 165,
+   "uploads": "UU5Ihgtj7aS5vepGofQe5aDg",
+   "pais": null
+  },
+  "UCUYokk2dJxFZf7NgxTL-ROg": {
+   "nome": "Blu Radio",
+   "inscritos": 1730000,
+   "uploads": "UUUYokk2dJxFZf7NgxTL-ROg",
+   "pais": "CO"
+  },
+  "UCesjFI2rO6xtR6u1B7WMgYA": {
+   "nome": "AlvoConfirmado",
+   "inscritos": 12900,
+   "uploads": "UUesjFI2rO6xtR6u1B7WMgYA",
+   "pais": "BR"
+  },
+  "UCRAAdF42hZcTHAorbbDuivw": {
+   "nome": "Wonder",
+   "inscritos": 2320000,
+   "uploads": "UURAAdF42hZcTHAorbbDuivw",
+   "pais": "US"
+  },
+  "UCj5fyU2i1lExHx3cdmJYgGQ": {
+   "nome": "Archivos AM",
+   "inscritos": 87,
+   "uploads": "UUj5fyU2i1lExHx3cdmJYgGQ",
+   "pais": null
+  },
+  "UCjX5sGavQYZe23vLBnaG6xQ": {
+   "nome": "Archivo Mossad",
+   "inscritos": 1030,
+   "uploads": "UUjX5sGavQYZe23vLBnaG6xQ",
+   "pais": "BR"
+  },
+  "UCvJS-YNyaWyOucx8bGrHVvw": {
+   "nome": "AGENCIA EFE",
+   "inscritos": 1280000,
+   "uploads": "UUvJS-YNyaWyOucx8bGrHVvw",
+   "pais": "ES"
+  },
+  "UC-m8leCyln_AosENF4SdfVQ": {
+   "nome": "Cronopedia",
+   "inscritos": 11400,
+   "uploads": "UU-m8leCyln_AosENF4SdfVQ",
+   "pais": "ES"
+  },
+  "UC0_bwOfcrJ1tkk0io-F0hIg": {
+   "nome": "POV Rangos",
+   "inscritos": 1680,
+   "uploads": "UU0_bwOfcrJ1tkk0io-F0hIg",
+   "pais": "VN"
+  },
+  "UCk7J2cxOyZR6WawYksYjTwg": {
+   "nome": "Martha Anspach",
+   "inscritos": 55,
+   "uploads": "UUk7J2cxOyZR6WawYksYjTwg",
+   "pais": null
+  },
+  "UCR2bdMyJMvRJ2HxvtYCZ6ow": {
+   "nome": "Pensamiento Criminal ",
+   "inscritos": 8650,
+   "uploads": "UUR2bdMyJMvRJ2HxvtYCZ6ow",
+   "pais": "CO"
+  },
+  "UC1vziHBEp0gc9gAhR740fCw": {
+   "nome": "Dentro La Storia",
+   "inscritos": 144000,
+   "uploads": "UU1vziHBEp0gc9gAhR740fCw",
+   "pais": "IT"
+  },
+  "UCMBpw3CbVOghiiAX1D_MGig": {
+   "nome": "INCREÍBLE!",
+   "inscritos": 2400,
+   "uploads": "UUMBpw3CbVOghiiAX1D_MGig",
+   "pais": null
+  },
+  "UCL0eefxukaTgorisqqhrnSQ": {
+   "nome": "Andrea11",
+   "inscritos": 3710,
+   "uploads": "UUL0eefxukaTgorisqqhrnSQ",
+   "pais": null
+  },
+  "UCOComvEa7d9NSP81uiy_eRw": {
+   "nome": "Vicsion Spear",
+   "inscritos": 55300,
+   "uploads": "UUOComvEa7d9NSP81uiy_eRw",
+   "pais": "VE"
+  },
+  "UCOvpPEl39JpdhbnrN0u0DAQ": {
+   "nome": "Zacatrus",
+   "inscritos": 66200,
+   "uploads": "UUOvpPEl39JpdhbnrN0u0DAQ",
+   "pais": "ES"
+  },
+  "UCVbOEcs6RMxXXX3WWNtl_Fw": {
+   "nome": "El Mapa de Sebas",
+   "inscritos": 1270000,
+   "uploads": "UUVbOEcs6RMxXXX3WWNtl_Fw",
+   "pais": null
+  },
+  "UCopVhz5SlujUpiDiYzWtbpw": {
+   "nome": "Inna Afinogenova",
+   "inscritos": 742000,
+   "uploads": "UUopVhz5SlujUpiDiYzWtbpw",
+   "pais": "ES"
+  },
+  "UCjD5JnrdbGqyrSM-QmtzeNw": {
+   "nome": "osototeo",
+   "inscritos": 3860,
+   "uploads": "UUjD5JnrdbGqyrSM-QmtzeNw",
+   "pais": null
+  },
+  "UCpm62a6Py6-gxNm1HGtydmw": {
+   "nome": "FBI Investigates",
+   "inscritos": 79300,
+   "uploads": "UUpm62a6Py6-gxNm1HGtydmw",
+   "pais": null
+  },
+  "UCvQTzJsswM9STHVWgL0EwWQ": {
+   "nome": "Mawelulu Onwuku",
+   "inscritos": 6440,
+   "uploads": "UUvQTzJsswM9STHVWgL0EwWQ",
+   "pais": null
+  },
+  "UCRd5OhHqOxuQ0OLHYqf4ymg": {
+   "nome": "Italia Rossa",
+   "inscritos": 15000,
+   "uploads": "UURd5OhHqOxuQ0OLHYqf4ymg",
+   "pais": null
+  },
+  "UCHd0Ep6j1FOfv1LycxSz1aw": {
+   "nome": "Reis Do Crime",
+   "inscritos": 125000,
+   "uploads": "UUHd0Ep6j1FOfv1LycxSz1aw",
+   "pais": "BR"
+  },
+  "UCF42Kl8wTdREDSpelOyIoog": {
+   "nome": "IANOTICIAS",
+   "inscritos": 359,
+   "uploads": "UUF42Kl8wTdREDSpelOyIoog",
+   "pais": "ES"
+  },
+  "UCIbyKcfOCUrgqNK5FHz1KBw": {
+   "nome": "Doku Kanal - Militär und Geschichte",
+   "inscritos": 19100,
+   "uploads": "UUIbyKcfOCUrgqNK5FHz1KBw",
+   "pais": "DE"
+  },
+  "UCagrNlWgrRJQyHFicAORy8w": {
+   "nome": "Clave Secreta",
+   "inscritos": 1,
+   "uploads": "UUagrNlWgrRJQyHFicAORy8w",
+   "pais": null
+  },
+  "UCmOCpBKeoBPp-HwarhIBA2g": {
+   "nome": "Best Documentary",
+   "inscritos": 8450000,
+   "uploads": "UUmOCpBKeoBPp-HwarhIBA2g",
+   "pais": "US"
+  },
+  "UCUsN5ZwHx2kILm84-jPDeXw": {
+   "nome": "Comedy Central",
+   "inscritos": 12700000,
+   "uploads": "UUUsN5ZwHx2kILm84-jPDeXw",
+   "pais": "US"
+  },
+  "UCZulh0rqCEh7hGGHFaeMkyA": {
+   "nome": "Registro de la Historia",
+   "inscritos": 36200,
+   "uploads": "UUZulh0rqCEh7hGGHFaeMkyA",
+   "pais": "CL"
+  },
+  "UCPSV8CjCbKR12FY9rltNsbQ": {
+   "nome": "Aquí se escucha",
+   "inscritos": 7260,
+   "uploads": "UUPSV8CjCbKR12FY9rltNsbQ",
+   "pais": "ES"
+  },
+  "UCXFPkzxW-nLGt4kSYAt91TQ": {
+   "nome": "La Incógnita de lo Incierto",
+   "inscritos": 910,
+   "uploads": "UUXFPkzxW-nLGt4kSYAt91TQ",
+   "pais": "MX"
+  },
+  "UCKARV7TfiudYewrT1X6XFzA": {
+   "nome": "Adeyinka Makinde",
+   "inscritos": 121000,
+   "uploads": "UUKARV7TfiudYewrT1X6XFzA",
+   "pais": null
+  },
+  "UCkDnC4aEBfy4OWPApef41-w": {
+   "nome": "El Rastro Criminal - Documentales en español",
+   "inscritos": 30100,
+   "uploads": "UUkDnC4aEBfy4OWPApef41-w",
+   "pais": "FR"
+  },
+  "UC92i1w8XVLQeNG8GnV6DkXw": {
+   "nome": "Por Dentro da História",
+   "inscritos": 2230,
+   "uploads": "UU92i1w8XVLQeNG8GnV6DkXw",
+   "pais": "BR"
+  },
+  "UC8aUNnDUf3WsYqgqm5diDqA": {
+   "nome": "Potęga Nawyków",
+   "inscritos": 65,
+   "uploads": "UU8aUNnDUf3WsYqgqm5diDqA",
+   "pais": null
+  },
+  "UCRCWJCFoZUvkkWzIqzfBy6g": {
+   "nome": "Nova Lectio",
+   "inscritos": 1620000,
+   "uploads": "UURCWJCFoZUvkkWzIqzfBy6g",
+   "pais": "IT"
+  },
+  "UC54VR-KYqGY7hbSxGJAkvOg": {
+   "nome": "Red Web",
+   "inscritos": 58800,
+   "uploads": "UU54VR-KYqGY7hbSxGJAkvOg",
+   "pais": "US"
+  },
+  "UCeJNattv4QSuyBcJiU9gjqA": {
+   "nome": "Cruzada Hostil",
+   "inscritos": 95300,
+   "uploads": "UUeJNattv4QSuyBcJiU9gjqA",
+   "pais": "CO"
+  },
+  "UCQfKdb2FWuaPCR8BxzMkF4w": {
+   "nome": "SLICE Historia",
+   "inscritos": 223000,
+   "uploads": "UUQfKdb2FWuaPCR8BxzMkF4w",
+   "pais": "FR"
+  },
+  "UCYG-LWVMgBglRo8laBXW6oA": {
+   "nome": "THE AFTERMATH",
+   "inscritos": 4480,
+   "uploads": "UUYG-LWVMgBglRo8laBXW6oA",
+   "pais": "US"
+  },
+  "UCN_w0-Z8_M7LiUCwTc93tEA": {
+   "nome": "Turismo Colón Entre Ríos",
+   "inscritos": 1300,
+   "uploads": "UUN_w0-Z8_M7LiUCwTc93tEA",
+   "pais": "AR"
+  },
+  "UCXS9Md8KZ2zFMOfVSXbFirw": {
+   "nome": "Mega Hampa",
+   "inscritos": 71300,
+   "uploads": "UUXS9Md8KZ2zFMOfVSXbFirw",
+   "pais": null
+  },
+  "UCozpgsKsmKA_Hdw6IUdnjyw": {
+   "nome": "El podcast de los investigadores de la verdad",
+   "inscritos": 84700,
+   "uploads": "UUozpgsKsmKA_Hdw6IUdnjyw",
+   "pais": "ES"
+  },
+  "UC1KM-h8PCTXx-v2w6yOw4sg": {
+   "nome": "Misterios Inexplorados",
+   "inscritos": 501,
+   "uploads": "UU1KM-h8PCTXx-v2w6yOw4sg",
+   "pais": "DE"
+  },
+  "UCt-h-CAzCguDLb8aIMNiAXw": {
+   "nome": "Pasajes de la Historia",
+   "inscritos": 206,
+   "uploads": "UUt-h-CAzCguDLb8aIMNiAXw",
+   "pais": "MX"
+  },
+  "UC6mhprLcbB8p0RC0jI5jEOw": {
+   "nome": "Bill Santana",
+   "inscritos": 3360,
+   "uploads": "UU6mhprLcbB8p0RC0jI5jEOw",
+   "pais": null
+  },
+  "UCrV6p-WVOs8l9l0R9zBRE9Q": {
+   "nome": "Canal TLV1",
+   "inscritos": 38800,
+   "uploads": "UUrV6p-WVOs8l9l0R9zBRE9Q",
+   "pais": "AR"
+  },
+  "UCEVuTZmQPCh6-Olz1Z5v8HQ": {
+   "nome": "Una Breve Historia",
+   "inscritos": 17900,
+   "uploads": "UUEVuTZmQPCh6-Olz1Z5v8HQ",
+   "pais": "CA"
+  },
+  "UCkK91iIUXZCEEwSsTmDR_zw": {
+   "nome": "Ricardo Marquina Montañana",
+   "inscritos": 101000,
+   "uploads": "UUkK91iIUXZCEEwSsTmDR_zw",
+   "pais": "ES"
+  },
+  "UCJ5kKhnQUbZmABUeJJvj9aw": {
+   "nome": "FORGOTTEN HISTORY",
+   "inscritos": 1120000,
+   "uploads": "UUJ5kKhnQUbZmABUeJJvj9aw",
+   "pais": "US"
+  },
+  "UCw5NoboZrlUyt_EJz4zuGMA": {
+   "nome": "Ninotchka999",
+   "inscritos": 794,
+   "uploads": "UUw5NoboZrlUyt_EJz4zuGMA",
+   "pais": null
+  },
+  "UCT4Jg8h03dD0iN3Pb5L0PMA": {
+   "nome": "DW Español",
+   "inscritos": 5630000,
+   "uploads": "UUT4Jg8h03dD0iN3Pb5L0PMA",
+   "pais": "DE"
+  },
+  "UCH0QGmDInf7Dv0AOQ15RILw": {
+   "nome": "Pablo Campo",
+   "inscritos": 972,
+   "uploads": "UUH0QGmDInf7Dv0AOQ15RILw",
+   "pais": null
+  },
+  "UCAo35tlx8pBwB6EdR9BFpNQ": {
+   "nome": "The Dossier Room ",
+   "inscritos": 13600,
+   "uploads": "UUAo35tlx8pBwB6EdR9BFpNQ",
+   "pais": "US"
+  },
+  "UC88lvyJe7aHZmcvzvubDFRg": {
+   "nome": "Timeline - World History Documentaries",
+   "inscritos": 5910000,
+   "uploads": "UU88lvyJe7aHZmcvzvubDFRg",
+   "pais": "GB"
+  },
+  "UCWowz12YysSoqxb83Q_wevA": {
+   "nome": "CÓDIGO OSCURO",
+   "inscritos": 3720,
+   "uploads": "UUWowz12YysSoqxb83Q_wevA",
+   "pais": "MX"
+  },
+  "UCqe5r1nLTSW7--0Yql2f_Vg": {
+   "nome": "Revelación Divina",
+   "inscritos": 2850,
+   "uploads": "UUqe5r1nLTSW7--0Yql2f_Vg",
+   "pais": "CO"
+  },
+  "UCvsU0EGXN7Su7MfNqcTGNHg": {
+   "nome": "Infobae",
+   "inscritos": 1970000,
+   "uploads": "UUvsU0EGXN7Su7MfNqcTGNHg",
+   "pais": "AR"
+  },
+  "UCoDTIJsjwkNzFEGXhj07gwA": {
+   "nome": "Dario Moccia",
+   "inscritos": 321000,
+   "uploads": "UUoDTIJsjwkNzFEGXhj07gwA",
+   "pais": null
+  },
+  "UCOW-Vxx6WpH3R2fACK5iyJw": {
+   "nome": "HUB Scuola",
+   "inscritos": 410000,
+   "uploads": "UUOW-Vxx6WpH3R2fACK5iyJw",
+   "pais": "IT"
+  },
+  "UCkvQxbl1tPMyOVMIjwr7ZpQ": {
+   "nome": "The Dark Vault",
+   "inscritos": 36,
+   "uploads": "UUkvQxbl1tPMyOVMIjwr7ZpQ",
+   "pais": "AZ"
+  },
+  "UCNJGkNEm5JjtmcqZof2PcvA": {
+   "nome": "Burt",
+   "inscritos": 91,
+   "uploads": "UUNJGkNEm5JjtmcqZof2PcvA",
+   "pais": "BE"
+  },
+  "UCzMuxd2g-xMRdffya7rJuCA": {
+   "nome": "Dossier Nero – Verità Criminali",
+   "inscritos": 2090,
+   "uploads": "UUzMuxd2g-xMRdffya7rJuCA",
+   "pais": "IT"
+  },
+  "UCsp3Yt_ZYC3_JsKGecui5RQ": {
+   "nome": "NYTN",
+   "inscritos": 204000,
+   "uploads": "UUsp3Yt_ZYC3_JsKGecui5RQ",
+   "pais": "US"
+  },
+  "UCjB9OChgVzzAJ0uUCZhIoKA": {
+   "nome": "The Federal File",
+   "inscritos": 20200,
+   "uploads": "UUjB9OChgVzzAJ0uUCZhIoKA",
+   "pais": null
+  },
+  "UCexfvJjzRo86II3ZmtIHjYQ": {
+   "nome": "Masoneria 357",
+   "inscritos": 3560,
+   "uploads": "UUexfvJjzRo86II3ZmtIHjYQ",
+   "pais": null
+  },
+  "UCizEaMamvTjQ5kHkLa38s6g": {
+   "nome": "DOSSIÊ CONFIDENCIAL ",
+   "inscritos": 860,
+   "uploads": "UUizEaMamvTjQ5kHkLa38s6g",
+   "pais": "BR"
+  },
+  "UC9A4SgqQRUWJG-mCd9qb23A": {
+   "nome": "Allan L. Dos Santos",
+   "inscritos": 136000,
+   "uploads": "UU9A4SgqQRUWJG-mCd9qb23A",
+   "pais": "US"
+  },
+  "UCD6TPU-PvTMvqgzC_AM7_uA": {
+   "nome": "The People Profiles",
+   "inscritos": 1680000,
+   "uploads": "UUD6TPU-PvTMvqgzC_AM7_uA",
+   "pais": "GB"
+  },
+  "UCn0NAcCNKL9gHxrvp6bjKiA": {
+   "nome": "†•PITBULL•†",
+   "inscritos": 92900,
+   "uploads": "UUn0NAcCNKL9gHxrvp6bjKiA",
+   "pais": "IT"
+  },
+  "UCu4XcDBdnZkV6-5z2f16M0g": {
+   "nome": "Real Stories",
+   "inscritos": 6770000,
+   "uploads": "UUu4XcDBdnZkV6-5z2f16M0g",
+   "pais": "GB"
+  },
+  "UCEgBVAcaLgqyBYPSeiJNcTw": {
+   "nome": "Claux.7",
+   "inscritos": 849000,
+   "uploads": "UUEgBVAcaLgqyBYPSeiJNcTw",
+   "pais": "CL"
+  },
+  "UCpXWDoPHo9yP8jVeplvz9rQ": {
+   "nome": "Secretos Americanos",
+   "inscritos": 7,
+   "uploads": "UUpXWDoPHo9yP8jVeplvz9rQ",
+   "pais": "US"
+  },
+  "UCl5_DYR2sGbS3JrdHWvuN4A": {
+   "nome": "AsesinosSeriales",
+   "inscritos": 44,
+   "uploads": "UUl5_DYR2sGbS3JrdHWvuN4A",
+   "pais": "ES"
+  },
+  "UC-XQtlUGLSLxzLLpgASdGwg": {
+   "nome": "InsideAmerica",
+   "inscritos": 171,
+   "uploads": "UU-XQtlUGLSLxzLLpgASdGwg",
+   "pais": null
+  },
+  "UCGqju61vnRKLXTcrY-5NRyw": {
+   "nome": "Armas Perdidas Decodificadas",
+   "inscritos": 60,
+   "uploads": "UUGqju61vnRKLXTcrY-5NRyw",
+   "pais": null
+  },
+  "UCTGhVqu5npJr7FtpRRglsvA": {
+   "nome": "PublicDomainFootage",
+   "inscritos": 80800,
+   "uploads": "UUTGhVqu5npJr7FtpRRglsvA",
+   "pais": "US"
+  },
+  "UCv2BcgqxHSrl2QQfIkjR5Eg": {
+   "nome": "Telemadrid",
+   "inscritos": 1450000,
+   "uploads": "UUv2BcgqxHSrl2QQfIkjR5Eg",
+   "pais": "ES"
+  },
+  "UCd1TjmUZYdZfpnf_-6MSxIA": {
+   "nome": "Historia Incomprendida",
+   "inscritos": 4470000,
+   "uploads": "UUd1TjmUZYdZfpnf_-6MSxIA",
+   "pais": "US"
+  },
+  "UConNpqQ-YGTodTHTsQlpiwA": {
+   "nome": "ViajerosDelPasado",
+   "inscritos": 1540,
+   "uploads": "UUonNpqQ-YGTodTHTsQlpiwA",
+   "pais": null
+  },
+  "UCSusB-3cBTorVTYfSNC08mg": {
+   "nome": "War&History",
+   "inscritos": 42600,
+   "uploads": "UUSusB-3cBTorVTYfSNC08mg",
+   "pais": "US"
+  },
+  "UC9QtQdTF9dEHxfnpVS_81ng": {
+   "nome": "Cross Examination - CHANNEL",
+   "inscritos": 39500,
+   "uploads": "UU9QtQdTF9dEHxfnpVS_81ng",
+   "pais": "IT"
+  },
+  "UCs6Bh-_wgfYZQmv_b86WKjw": {
+   "nome": "Elías Alejandro Amado",
+   "inscritos": 689,
+   "uploads": "UUs6Bh-_wgfYZQmv_b86WKjw",
+   "pais": null
+  },
+  "UCgIyPdd1eTR76FXDNvlDiIA": {
+   "nome": "Néstor Armando Alzate - Y lógico",
+   "inscritos": 555000,
+   "uploads": "UUgIyPdd1eTR76FXDNvlDiIA",
+   "pais": "CO"
+  },
+  "UCWWMJL5uRaCETIY5hNWu7zw": {
+   "nome": "Codigos del Conocimiento",
+   "inscritos": 11,
+   "uploads": "UUWWMJL5uRaCETIY5hNWu7zw",
+   "pais": "BR"
+  },
+  "UCLudkNpZRPiseVtgt-Oarqw": {
+   "nome": "†HerMax⁷⁷⁷",
+   "inscritos": 259,
+   "uploads": "UULudkNpZRPiseVtgt-Oarqw",
+   "pais": null
+  },
+  "UC1PcXyOXmnAvxVDQTpglj2w": {
+   "nome": "Relato Mafioso",
+   "inscritos": 80700,
+   "uploads": "UU1PcXyOXmnAvxVDQTpglj2w",
+   "pais": "US"
+  },
+  "UCCgtcdo54uVzVxrl2U-VsRg": {
+   "nome": "Uncover Mole",
+   "inscritos": 9,
+   "uploads": "UUCgtcdo54uVzVxrl2U-VsRg",
+   "pais": "US"
+  },
+  "UC3Mm1bYun_9_TmLhcRiFlJQ": {
+   "nome": "Fusgo",
+   "inscritos": 1770000,
+   "uploads": "UU3Mm1bYun_9_TmLhcRiFlJQ",
+   "pais": "MX"
+  },
+  "UCfFgeTMzA7uzbiMGAvzOmRA": {
+   "nome": "Il Collegio",
+   "inscritos": 1060000,
+   "uploads": "UUfFgeTMzA7uzbiMGAvzOmRA",
+   "pais": "IT"
+  },
+  "UCLMW1yaFf9e5AVow1doCZsA": {
+   "nome": "ElSurProfundo",
+   "inscritos": 18500,
+   "uploads": "UULMW1yaFf9e5AVow1doCZsA",
+   "pais": null
+  },
+  "UCNxXSNvvLrvuQKvXwq6FOIA": {
+   "nome": "MASONERIA 593 - OFICIAL",
+   "inscritos": 730,
+   "uploads": "UUNxXSNvvLrvuQKvXwq6FOIA",
+   "pais": "EC"
+  },
+  "UCTm2IfGmZZDroTWU5HfVfqA": {
+   "nome": "Mossad: Arquivos Sombrios",
+   "inscritos": 14000,
+   "uploads": "UUTm2IfGmZZDroTWU5HfVfqA",
+   "pais": null
+  },
+  "UC1T-ONCUQyyUhgGgc28tTTA": {
+   "nome": "Bender Rodríguez",
+   "inscritos": 232,
+   "uploads": "UU1T-ONCUQyyUhgGgc28tTTA",
+   "pais": null
+  },
+  "UCGBoWe1mzCvbbqDNncmxm8A": {
+   "nome": "FINAiUS",
+   "inscritos": 806000,
+   "uploads": "UUGBoWe1mzCvbbqDNncmxm8A",
+   "pais": "US"
+  },
+  "UCSvQIaXSik2emJ83jlwvQLQ": {
+   "nome": "Rishabh Bidhuri",
+   "inscritos": 2420000,
+   "uploads": "UUSvQIaXSik2emJ83jlwvQLQ",
+   "pais": "IN"
+  },
+  "UCDVExeRlnWBjpZ6rIFSjrGg": {
+   "nome": "MegaShow TV em Português",
+   "inscritos": 1200,
+   "uploads": "UUDVExeRlnWBjpZ6rIFSjrGg",
+   "pais": "BR"
+  },
+  "UCbdTb3ONMBcvZtj3KS_1SwQ": {
+   "nome": "Guatemala Oculta",
+   "inscritos": 21,
+   "uploads": "UUbdTb3ONMBcvZtj3KS_1SwQ",
+   "pais": null
+  },
+  "UCklwQHpY4IXl8oUx-XFQ0tw": {
+   "nome": "El diario paranormal ",
+   "inscritos": 4110,
+   "uploads": "UUklwQHpY4IXl8oUx-XFQ0tw",
+   "pais": "MX"
+  },
+  "UCupe8Nf87-FhnS7t3hEzoCg": {
+   "nome": "Mossad Oculto",
+   "inscritos": 464,
+   "uploads": "UUupe8Nf87-FhnS7t3hEzoCg",
+   "pais": null
+  },
+  "UCfHzs9YA3gFkxXtSUmfviaw": {
+   "nome": "Inside Soviet Economy",
+   "inscritos": 6440,
+   "uploads": "UUfHzs9YA3gFkxXtSUmfviaw",
+   "pais": "US"
+  },
+  "UCOc0uMY5CH_wOmYunmJQgww": {
+   "nome": "Mucho Más Historia",
+   "inscritos": 1110,
+   "uploads": "UUOc0uMY5CH_wOmYunmJQgww",
+   "pais": "MX"
+  },
+  "UChUBcLdjUDxa5sUugLJwfYQ": {
+   "nome": "Aladetres",
+   "inscritos": 824000,
+   "uploads": "UUhUBcLdjUDxa5sUugLJwfYQ",
+   "pais": "ES"
+  },
+  "UCLUZ6ShyBV3vnUAVMlUs4_g": {
+   "nome": "Absolute Documentaries",
+   "inscritos": 572000,
+   "uploads": "UULUZ6ShyBV3vnUAVMlUs4_g",
+   "pais": "GB"
+  },
+  "UCvbSb3eTAh3KboRbWDa6izg": {
+   "nome": "Kin",
+   "inscritos": 149000,
+   "uploads": "UUvbSb3eTAh3KboRbWDa6izg",
+   "pais": "ES"
+  },
+  "UCQQCC-eRivp5EsSaWxX3dKg": {
+   "nome": "TheLiberal Hindu",
+   "inscritos": 1410000,
+   "uploads": "UUQQCC-eRivp5EsSaWxX3dKg",
+   "pais": "IN"
+  },
+  "UC9Ekg0MHF9yhODZjOeIM_Sg": {
+   "nome": "Mafia Rivelata",
+   "inscritos": 9010,
+   "uploads": "UU9Ekg0MHF9yhODZjOeIM_Sg",
+   "pais": "IT"
+  },
+  "UCi8e0iOVk1fEOogdfu4YgfA": {
+   "nome": "Rotten Tomatoes Trailers",
+   "inscritos": 16200000,
+   "uploads": "UUi8e0iOVk1fEOogdfu4YgfA",
+   "pais": "US"
+  },
+  "UCOs29WlhZOvWlnKD0QkVsYw": {
+   "nome": "Visione TV",
+   "inscritos": 304000,
+   "uploads": "UUOs29WlhZOvWlnKD0QkVsYw",
+   "pais": "IT"
+  },
+  "UCxFutgKQDz5H2Gsz5dsr1qg": {
+   "nome": "Misterios de la Historia",
+   "inscritos": 8580,
+   "uploads": "UUxFutgKQDz5H2Gsz5dsr1qg",
+   "pais": "BR"
+  },
+  "UCBb8T6xEP_DjV9XMjJtC7ow": {
+   "nome": "Alef Eduardo Godoi da Rosa",
+   "inscritos": 510,
+   "uploads": "UUBb8T6xEP_DjV9XMjJtC7ow",
+   "pais": "BR"
+  },
+  "UCFhhlOPVfHvRkPHUpMYpk6Q": {
+   "nome": "ATLAS TUBE",
+   "inscritos": 13300,
+   "uploads": "UUFhhlOPVfHvRkPHUpMYpk6Q",
+   "pais": "US"
+  },
+  "UCTRgu3iuyGXbhz5kYNjpObw": {
+   "nome": "Get.history",
+   "inscritos": 183000,
+   "uploads": "UUTRgu3iuyGXbhz5kYNjpObw",
+   "pais": "DE"
+  },
+  "UCaSuU1uDj-1cTb4EniMiimA": {
+   "nome": "Salvatore Opinion Leader",
+   "inscritos": 2010,
+   "uploads": "UUaSuU1uDj-1cTb4EniMiimA",
+   "pais": null
+  },
+  "UC8iy8eBgUBt-zSSuwO6rl7Q": {
+   "nome": "Toy Panzer",
+   "inscritos": 15200,
+   "uploads": "UU8iy8eBgUBt-zSSuwO6rl7Q",
+   "pais": null
+  },
+  "UCpYAuptXbDmlTFy0t7mqA1w": {
+   "nome": "Slav",
+   "inscritos": 7080,
+   "uploads": "UUpYAuptXbDmlTFy0t7mqA1w",
+   "pais": "CL"
+  },
+  "UCFjOxBC4RqL1Qq1_bAKmUSw": {
+   "nome": "Granmisterio Podcast",
+   "inscritos": 135000,
+   "uploads": "UUFjOxBC4RqL1Qq1_bAKmUSw",
+   "pais": "ES"
+  },
+  "UCCIhqcQ4tcleNkPHgIfODdA": {
+   "nome": "Der Legionär Español",
+   "inscritos": 68100,
+   "uploads": "UUCIhqcQ4tcleNkPHgIfODdA",
+   "pais": "ES"
+  },
+  "UCthbIFAxbXTTQEC7EcQvP1Q": {
+   "nome": "BBC News Brasil",
+   "inscritos": 5080000,
+   "uploads": "UUthbIFAxbXTTQEC7EcQvP1Q",
+   "pais": "BR"
+  },
+  "UCHLyP4MuA-JAFBCwxXOEDdA": {
+   "nome": "FOX 5 Washington DC",
+   "inscritos": 666000,
+   "uploads": "UUHLyP4MuA-JAFBCwxXOEDdA",
+   "pais": null
+  },
+  "UCc-N24Y5OA0gqbjBwe1ttfA": {
+   "nome": "Weird History",
+   "inscritos": 4740000,
+   "uploads": "UUc-N24Y5OA0gqbjBwe1ttfA",
+   "pais": "US"
+  },
+  "UCwM4g999Q94nkJr4gC881AA": {
+   "nome": "Israel com a Aline",
+   "inscritos": 2790000,
+   "uploads": "UUwM4g999Q94nkJr4gC881AA",
+   "pais": "BR"
+  },
+  "UCcAkhiSkyT3Yn5maCFRHHNA": {
+   "nome": " História da máfia",
+   "inscritos": 14300,
+   "uploads": "UUcAkhiSkyT3Yn5maCFRHHNA",
+   "pais": "US"
+  },
+  "UCfdNM3NAhaBOXCafH7krzrA": {
+   "nome": "The Infographics Show",
+   "inscritos": 15500000,
+   "uploads": "UUfdNM3NAhaBOXCafH7krzrA",
+   "pais": "US"
+  },
+  "UCiluwGIzEGgID4_ZZSLHKIw": {
+   "nome": "ScuolaZoo",
+   "inscritos": 389000,
+   "uploads": "UUiluwGIzEGgID4_ZZSLHKIw",
+   "pais": "IT"
+  },
+  "UCu-hKYfmlvO0upyv8Rhopxw": {
+   "nome": "Upside Down Entertainment",
+   "inscritos": 1010,
+   "uploads": "UUu-hKYfmlvO0upyv8Rhopxw",
+   "pais": "US"
+  },
+  "UCwkvmdwunsdiazE0G5CzWaw": {
+   "nome": "PICTURE STAR",
+   "inscritos": 1100,
+   "uploads": "UUwkvmdwunsdiazE0G5CzWaw",
+   "pais": "AU"
+  },
+  "UCFq4LHPw_cEFfiA9a-jUFEQ": {
+   "nome": "Crime Noir",
+   "inscritos": 5570,
+   "uploads": "UUFq4LHPw_cEFfiA9a-jUFEQ",
+   "pais": "US"
+  },
+  "UCrc7GbWUxdQvQl_qzl1zm0A": {
+   "nome": "Tus Noches de Historia",
+   "inscritos": 4090,
+   "uploads": "UUrc7GbWUxdQvQl_qzl1zm0A",
+   "pais": "ES"
+  },
+  "UCvvOHrs5pzdWg_zaFIpO8xQ": {
+   "nome": "SLICE Iberia",
+   "inscritos": 283000,
+   "uploads": "UUvvOHrs5pzdWg_zaFIpO8xQ",
+   "pais": "FR"
+  },
+  "UCpz8zcDjlE_85eT4vG1CD4Q": {
+   "nome": "Tekton Centro Televisivo - Canal Youtube Católico",
+   "inscritos": 1410000,
+   "uploads": "UUpz8zcDjlE_85eT4vG1CD4Q",
+   "pais": "ES"
+  },
+  "UCPH3Oz99Y_jrVBCQMjQZNSg": {
+   "nome": "Memorias de Pez",
+   "inscritos": 2970000,
+   "uploads": "UUPH3Oz99Y_jrVBCQMjQZNSg",
+   "pais": "ES"
+  },
+  "UCrdn_FLz1jbeN5cHN6taYTA": {
+   "nome": "Ascenso y Ruina",
+   "inscritos": 1790,
+   "uploads": "UUrdn_FLz1jbeN5cHN6taYTA",
+   "pais": "US"
+  },
+  "UC1Zd2NpJEhqSqBIb5kMo-7w": {
+   "nome": "First Casualty",
+   "inscritos": 11,
+   "uploads": "UU1Zd2NpJEhqSqBIb5kMo-7w",
+   "pais": null
+  },
+  "UCESk4MuhoTazdqZ87Wzb4DA": {
+   "nome": "Pioneros y Leyendas",
+   "inscritos": 6690,
+   "uploads": "UUESk4MuhoTazdqZ87Wzb4DA",
+   "pais": "ES"
+  },
+  "UCOF4BsC_g6qnWxm6kmpF_pg": {
+   "nome": "DOCUMENTALES TV",
+   "inscritos": 658,
+   "uploads": "UUOF4BsC_g6qnWxm6kmpF_pg",
+   "pais": null
+  },
+  "UC9tse8G9R9Stdjw7L1G-BEg": {
+   "nome": "Flashmag TV Online",
+   "inscritos": 234,
+   "uploads": "UU9tse8G9R9Stdjw7L1G-BEg",
+   "pais": null
+  },
+  "UCo88rc_4iPukcSkAX9oKxqQ": {
+   "nome": "EL MÁS LETAL",
+   "inscritos": 228,
+   "uploads": "UUo88rc_4iPukcSkAX9oKxqQ",
+   "pais": "VE"
+  },
+  "UCA0AXvVu2kZ4nauMgXs_Naw": {
+   "nome": "El DoQmentalista",
+   "inscritos": 4090000,
+   "uploads": "UUA0AXvVu2kZ4nauMgXs_Naw",
+   "pais": "MX"
+  },
+  "UCpP53feF4aah7UK9Z7b2S4A": {
+   "nome": "The Blind Spot",
+   "inscritos": 3,
+   "uploads": "UUpP53feF4aah7UK9Z7b2S4A",
+   "pais": "AR"
+  },
+  "UCYr9BpHaw0vKjUPE4dZl1UA": {
+   "nome": "Detrás del Enigma",
+   "inscritos": 595000,
+   "uploads": "UUYr9BpHaw0vKjUPE4dZl1UA",
+   "pais": "ES"
+  },
+  "UCFj4Ro_o3X46urym82UetqQ": {
+   "nome": "SECRETSOFMOSCOW",
+   "inscritos": 0,
+   "uploads": "UUFj4Ro_o3X46urym82UetqQ",
+   "pais": "KZ"
+  },
+  "UCqyABNNYlcqAavOBCXg_WeA": {
+   "nome": "MegaShow TV en Español",
+   "inscritos": 803,
+   "uploads": "UUqyABNNYlcqAavOBCXg_WeA",
+   "pais": "MX"
+  },
+  "UCutrj9cR0cNi2PfiTMGAWrA": {
+   "nome": "DCM TV",
+   "inscritos": 572000,
+   "uploads": "UUutrj9cR0cNi2PfiTMGAWrA",
+   "pais": "BR"
+  },
+  "UCCsr9D0j0sQrZKAQBhMFBMg": {
+   "nome": "Proven Conspiracies",
+   "inscritos": 14900,
+   "uploads": "UUCsr9D0j0sQrZKAQBhMFBMg",
+   "pais": "US"
+  },
+  "UCkhjduVkvPqzg_wpEvtk4-g": {
+   "nome": "Quiz Diaro",
+   "inscritos": 110000,
+   "uploads": "UUkhjduVkvPqzg_wpEvtk4-g",
+   "pais": null
+  },
+  "UCpVm7bg6pXKo1Pr6k5kxG9A": {
+   "nome": "National Geographic",
+   "inscritos": 26600000,
+   "uploads": "UUpVm7bg6pXKo1Pr6k5kxG9A",
+   "pais": "US"
+  },
+  "UCy5-ES0_mSak4qifQRcpwPw": {
+   "nome": "Magnus Mefisto",
+   "inscritos": 2240000,
+   "uploads": "UUy5-ES0_mSak4qifQRcpwPw",
+   "pais": "AR"
+  },
+  "UC42UHdv7wwSBmA3ZXcHqZzw": {
+   "nome": "La Misteriosa Historia Oculta",
+   "inscritos": 126,
+   "uploads": "UU42UHdv7wwSBmA3ZXcHqZzw",
+   "pais": "ES"
+  },
+  "UCtzhkCfnQFiNp4_vvK_b3Qg": {
+   "nome": "Crónicas Bajo Llave 🔐",
+   "inscritos": 24,
+   "uploads": "UUtzhkCfnQFiNp4_vvK_b3Qg",
+   "pais": "ES"
+  },
+  "UCamrixRB3Y3se0Zccfu7-NA": {
+   "nome": "Sombras del Mossad",
+   "inscritos": 203,
+   "uploads": "UUamrixRB3Y3se0Zccfu7-NA",
+   "pais": "ES"
+  },
+  "UCjlEe_SwAkSBMEyL0efQjRQ": {
+   "nome": "La7 Attualità..",
+   "inscritos": 6320,
+   "uploads": "UUjlEe_SwAkSBMEyL0efQjRQ",
+   "pais": "IT"
+  },
+  "UC8EDg4anzeq0HjNVZAVW7Qg": {
+   "nome": "Documental Nocturno by Eric",
+   "inscritos": 19200,
+   "uploads": "UU8EDg4anzeq0HjNVZAVW7Qg",
+   "pais": "ES"
+  },
+  "UCOMspcPhwTeL0uvgsyFHEDw": {
+   "nome": "EL CIELO DE LOS HORRORES",
+   "inscritos": 963,
+   "uploads": "UUOMspcPhwTeL0uvgsyFHEDw",
+   "pais": "ES"
+  },
+  "UC50uCdUubc04xXZz7bqv5ng": {
+   "nome": "Investigation",
+   "inscritos": 5400000,
+   "uploads": "UU50uCdUubc04xXZz7bqv5ng",
+   "pais": "FR"
+  },
+  "UClkXc1-Rku52l7nPam3LQiQ": {
+   "nome": "Cult & Sect Documentaries",
+   "inscritos": 15600,
+   "uploads": "UUlkXc1-Rku52l7nPam3LQiQ",
+   "pais": null
+  },
+  "UC0BBLAPwVy4G1l-nxa497dg": {
+   "nome": "The American Story - US History Documentaries",
+   "inscritos": 138000,
+   "uploads": "UU0BBLAPwVy4G1l-nxa497dg",
+   "pais": null
+  },
+  "UCrmm_7RDZJeQzq2-wvmjueg": {
+   "nome": "The Real News Network",
+   "inscritos": 1110000,
+   "uploads": "UUrmm_7RDZJeQzq2-wvmjueg",
+   "pais": "US"
+  },
+  "UCqqjiYoD0nP1fR6vf5AcSfQ": {
+   "nome": "Amanpour and Company",
+   "inscritos": 628000,
+   "uploads": "UUqqjiYoD0nP1fR6vf5AcSfQ",
+   "pais": "US"
+  },
+  "UCGGT1f1Viv4pMaVsUYqooFQ": {
+   "nome": "Joseantrule",
+   "inscritos": 20400,
+   "uploads": "UUGGT1f1Viv4pMaVsUYqooFQ",
+   "pais": "ES"
+  },
+  "UClVF8RcTN3UqAognWFGlJcg": {
+   "nome": "Stephanie Harlowe",
+   "inscritos": 1030000,
+   "uploads": "UUlVF8RcTN3UqAognWFGlJcg",
+   "pais": "US"
+  },
+  "UCcDZjabOIQTCfSDSSoMlwzQ": {
+   "nome": "Brinkwell",
+   "inscritos": 1020,
+   "uploads": "UUcDZjabOIQTCfSDSSoMlwzQ",
+   "pais": "IN"
+  },
+  "UCgUtFSFHul6sm_bDRWEtsOQ": {
+   "nome": "SEGRETO PUBBLICO",
+   "inscritos": 56000,
+   "uploads": "UUgUtFSFHul6sm_bDRWEtsOQ",
+   "pais": "IT"
+  },
+  "UCAXFey2-9XBz0WZWcURKDcQ": {
+   "nome": "Crime & Justice",
+   "inscritos": 140000,
+   "uploads": "UUAXFey2-9XBz0WZWcURKDcQ",
+   "pais": "GB"
+  },
+  "UCOYmpAS90wJkB-MPPp5cjNw": {
+   "nome": "Historias sin Tiempo",
+   "inscritos": 27900,
+   "uploads": "UUOYmpAS90wJkB-MPPp5cjNw",
+   "pais": "CO"
+  },
+  "UCgYjfWvSBfhoLpA1gXPbEaQ": {
+   "nome": "Dustmind",
+   "inscritos": 5520,
+   "uploads": "UUgYjfWvSBfhoLpA1gXPbEaQ",
+   "pais": "ES"
+  },
+  "UCB7pAF9mfvUNlCXKzQZWNgg": {
+   "nome": "Ana Méndez Ferrell & Emerson Ferrell",
+   "inscritos": 105000,
+   "uploads": "UUB7pAF9mfvUNlCXKzQZWNgg",
+   "pais": "US"
+  },
+  "UChM8UYPiXD3h62rgUFKHMUQ": {
+   "nome": "Vida de un Gángster",
+   "inscritos": 24900,
+   "uploads": "UUhM8UYPiXD3h62rgUFKHMUQ",
+   "pais": null
+  },
+  "UC1WAWCoybIkwR4UGDx6zRQw": {
+   "nome": "O Ponto Cego",
+   "inscritos": 138,
+   "uploads": "UU1WAWCoybIkwR4UGDx6zRQw",
+   "pais": "BR"
+  },
+  "UCEXDCxwktpMMFhTSGdEP3EA": {
+   "nome": "ViOne ",
+   "inscritos": 463000,
+   "uploads": "UUEXDCxwktpMMFhTSGdEP3EA",
+   "pais": "ES"
+  },
+  "UCL9qWGflQIt1YdAPN1HLrWw": {
+   "nome": "Almanaque Militar",
+   "inscritos": 189000,
+   "uploads": "UUL9qWGflQIt1YdAPN1HLrWw",
+   "pais": "BR"
+  },
+  "UCCONFkWYe3g6uTbvMbiQhpg": {
+   "nome": "Europology ",
+   "inscritos": 7650,
+   "uploads": "UUCONFkWYe3g6uTbvMbiQhpg",
+   "pais": "PK"
+  },
+  "UC5jNySD9ab4YOsusAyGg7_A": {
+   "nome": "FenwickTV",
+   "inscritos": 12700,
+   "uploads": "UU5jNySD9ab4YOsusAyGg7_A",
+   "pais": "US"
+  },
+  "UCtKCSLGwZTiOjtfMmo68xBw": {
+   "nome": "Dossierquotidiano",
+   "inscritos": 4190,
+   "uploads": "UUtKCSLGwZTiOjtfMmo68xBw",
+   "pais": "IT"
+  },
+  "UCUBIrDsIVzRpKsClMlSlTpQ": {
+   "nome": "BBC News Mundo",
+   "inscritos": 4900000,
+   "uploads": "UUUBIrDsIVzRpKsClMlSlTpQ",
+   "pais": "MX"
+  },
+  "UCA1vMPfVrCB_NPnvuiMQ8PQ": {
+   "nome": "Relatos del Lado Oscuro",
+   "inscritos": 1490000,
+   "uploads": "UUA1vMPfVrCB_NPnvuiMQ8PQ",
+   "pais": "MX"
+  },
+  "UCHQnhw4b8KxNObwRIwgRV6g": {
+   "nome": "INFINITY HISTORIAS",
+   "inscritos": 91,
+   "uploads": "UUHQnhw4b8KxNObwRIwgRV6g",
+   "pais": "PY"
+  },
+  "UCp-prTXJYTJXmfoxmpOjpWw": {
+   "nome": "World View - Documentales",
+   "inscritos": 40800,
+   "uploads": "UUp-prTXJYTJXmfoxmpOjpWw",
+   "pais": "MX"
+  },
+  "UClu2KGQkq7qBnaGlIrWWteg": {
+   "nome": "expedientesineditos",
+   "inscritos": 14,
+   "uploads": "UUlu2KGQkq7qBnaGlIrWWteg",
+   "pais": null
+  },
+  "UCn7PDRYGRIL5ZAVRIOaPU9g": {
+   "nome": "Street Archives",
+   "inscritos": 15600,
+   "uploads": "UUn7PDRYGRIL5ZAVRIOaPU9g",
+   "pais": null
+  },
+  "UCh0gIeCwcUBEJudnd1Lb8FQ": {
+   "nome": "Aldo “aldoruf” Marchese",
+   "inscritos": 874,
+   "uploads": "UUh0gIeCwcUBEJudnd1Lb8FQ",
+   "pais": "IT"
+  },
+  "UCJT-pYv37CfQxYdRPTnAv_w": {
+   "nome": "El Archivo Secreto",
+   "inscritos": 11500,
+   "uploads": "UUJT-pYv37CfQxYdRPTnAv_w",
+   "pais": "ES"
+  },
+  "UC430ec6Va5UWExs8ZzHmb0A": {
+   "nome": "Hegemon",
+   "inscritos": 6,
+   "uploads": "UU430ec6Va5UWExs8ZzHmb0A",
+   "pais": null
+  },
+  "UCQvkda3QeQcLoAx_E2AokVg": {
+   "nome": "La Nueva Enciclopedia",
+   "inscritos": 544000,
+   "uploads": "UUQvkda3QeQcLoAx_E2AokVg",
+   "pais": "CA"
+  },
+  "UCd2kBIacuHlJa0b9RNVt8Aw": {
+   "nome": "Sombras del Mossad",
+   "inscritos": 3840,
+   "uploads": "UUd2kBIacuHlJa0b9RNVt8Aw",
+   "pais": null
+  },
+  "UCIA_u0DDPf2Ph2rtEce_E9g": {
+   "nome": "Poder Paralelo",
+   "inscritos": 996,
+   "uploads": "UUIA_u0DDPf2Ph2rtEce_E9g",
+   "pais": "BR"
+  },
+  "UCGxY-9tNk10utIUZ3Ux2giQ": {
+   "nome": "CREATIVE CROWN",
+   "inscritos": 1570,
+   "uploads": "UUGxY-9tNk10utIUZ3Ux2giQ",
+   "pais": null
+  },
+  "UCkK1rFxHbsCYYAEdUHdtx_g": {
+   "nome": "Mat documental",
+   "inscritos": 2840,
+   "uploads": "UUkK1rFxHbsCYYAEdUHdtx_g",
+   "pais": "ES"
+  },
+  "UCO7P9-IALQ5CzAko9Ml8Pgg": {
+   "nome": "Cronofolio",
+   "inscritos": 15,
+   "uploads": "UUO7P9-IALQ5CzAko9Ml8Pgg",
+   "pais": null
+  },
+  "UC7yDuiVvRi7vkwYmiJXcfig": {
+   "nome": "Despierta Wake Up",
+   "inscritos": 63,
+   "uploads": "UU7yDuiVvRi7vkwYmiJXcfig",
+   "pais": "MX"
+  },
+  "UCwbI9_kO6r8zTA5O_nksLaQ": {
+   "nome": "Mighty Monk",
+   "inscritos": 1590000,
+   "uploads": "UUwbI9_kO6r8zTA5O_nksLaQ",
+   "pais": "IN"
+  },
+  "UCTsUTKTUBtY2YjFGrAiLgKg": {
+   "nome": "La Francy Ti Racconta ",
+   "inscritos": 26800,
+   "uploads": "UUTsUTKTUBtY2YjFGrAiLgKg",
+   "pais": "IT"
+  },
+  "UC8OuBSqzp2ah49nPixJYGcA": {
+   "nome": "Vaquero Podcast",
+   "inscritos": 211000,
+   "uploads": "UU8OuBSqzp2ah49nPixJYGcA",
+   "pais": "ES"
+  },
+  "UC1t8ZKKaEXKyE86ga4xFFTg": {
+   "nome": "Powojnie",
+   "inscritos": 361000,
+   "uploads": "UU1t8ZKKaEXKyE86ga4xFFTg",
+   "pais": "PL"
+  },
+  "UCNOq5vSwcmH7KVJ7BYD_xNA": {
+   "nome": "Robert Sweet",
+   "inscritos": 865,
+   "uploads": "UUNOq5vSwcmH7KVJ7BYD_xNA",
+   "pais": null
+  },
+  "UCTNFDvqGq_zZ_spphDCQaHg": {
+   "nome": "BELLUMARTIS ACTUALIDAD MILITAR Y GEOPOLÍTICA",
+   "inscritos": 81400,
+   "uploads": "UUTNFDvqGq_zZ_spphDCQaHg",
+   "pais": "ES"
+  },
+  "UChEkPtHs5J7rY5BTHLKtKEQ": {
+   "nome": "Mega Militar",
+   "inscritos": 41500,
+   "uploads": "UUhEkPtHs5J7rY5BTHLKtKEQ",
+   "pais": "ES"
+  },
+  "UCIfycFCmurfUiaP_vTIXAZQ": {
+   "nome": "Nicor Files",
+   "inscritos": 25,
+   "uploads": "UUIfycFCmurfUiaP_vTIXAZQ",
+   "pais": "US"
+  },
+  "UCcfe_-ZzSMoshy3Z30PcxVw": {
+   "nome": "infolivetvspanish",
+   "inscritos": 19300,
+   "uploads": "UUcfe_-ZzSMoshy3Z30PcxVw",
+   "pais": null
+  },
+  "UC6uEIhmbCzFIYEL39aMaj7Q": {
+   "nome": "Israel Consulado",
+   "inscritos": 2670,
+   "uploads": "UU6uEIhmbCzFIYEL39aMaj7Q",
+   "pais": null
+  },
+  "UCoiRZbfYK3ztTX4LWuaA3fQ": {
+   "nome": "RMF FM",
+   "inscritos": 277000,
+   "uploads": "UUoiRZbfYK3ztTX4LWuaA3fQ",
+   "pais": "PL"
+  },
+  "UCv9LjgucvXX6u0Ny_3CYX0A": {
+   "nome": "Dossier Global",
+   "inscritos": 7380,
+   "uploads": "UUv9LjgucvXX6u0Ny_3CYX0A",
+   "pais": "MX"
+  },
+  "UCfGWtNoPhlpXqBra_MRUTrg": {
+   "nome": "Renato Calabuch",
+   "inscritos": 10,
+   "uploads": "UUfGWtNoPhlpXqBra_MRUTrg",
+   "pais": null
+  },
+  "UCM3BBpIoN1rtDDHjLOKSgUA": {
+   "nome": "HoodBanker Tales ",
+   "inscritos": 70,
+   "uploads": "UUM3BBpIoN1rtDDHjLOKSgUA",
+   "pais": "US"
+  },
+  "UCP5p1NK552h71Dhk8Wkgc4Q": {
+   "nome": "War Quarters",
+   "inscritos": 16000,
+   "uploads": "UUP5p1NK552h71Dhk8Wkgc4Q",
+   "pais": null
+  },
+  "UCnG4NueTQOomV6JaLgUI6zg": {
+   "nome": "Efecto Folelé",
+   "inscritos": 17500,
+   "uploads": "UUnG4NueTQOomV6JaLgUI6zg",
+   "pais": "ES"
+  },
+  "UClXV2piGyrsQuRMIyvJgU0w": {
+   "nome": "ObjetivoConfirmado",
+   "inscritos": 3510,
+   "uploads": "UUlXV2piGyrsQuRMIyvJgU0w",
+   "pais": null
+  },
+  "UCiDP-ZDw3eBqk_saBIRXQyg": {
+   "nome": "El Rango Guy",
+   "inscritos": 105,
+   "uploads": "UUiDP-ZDw3eBqk_saBIRXQyg",
+   "pais": null
+  },
+  "UCdgUQ1Uqae5AkLpMtOZuXQg": {
+   "nome": "Asi Fue la Historia",
+   "inscritos": 96100,
+   "uploads": "UUdgUQ1Uqae5AkLpMtOZuXQg",
+   "pais": "US"
+  },
+  "UCXmAOGwFYxIq5qrScJeeV4g": {
+   "nome": "El Economista",
+   "inscritos": 521000,
+   "uploads": "UUXmAOGwFYxIq5qrScJeeV4g",
+   "pais": "MX"
+  },
+  "UCiAuHmu6i5hSErlHfy3EEAg": {
+   "nome": "MILITAR X",
+   "inscritos": 889,
+   "uploads": "UUiAuHmu6i5hSErlHfy3EEAg",
+   "pais": null
+  },
+  "UCNizY6xT6F2cctx0pRiFzhA": {
+   "nome": "Nieopowiedziane dzieje",
+   "inscritos": 51700,
+   "uploads": "UUNizY6xT6F2cctx0pRiFzhA",
+   "pais": "PL"
+  },
+  "UCalnYH6R2SwWjrPuOPs1RKw": {
+   "nome": "lubiankamusic",
+   "inscritos": 96,
+   "uploads": "UUalnYH6R2SwWjrPuOPs1RKw",
+   "pais": null
+  },
+  "UCtIctoNU4XUzPSAT3pms_mQ": {
+   "nome": "infoguayana",
+   "inscritos": 1900,
+   "uploads": "UUtIctoNU4XUzPSAT3pms_mQ",
+   "pais": null
+  },
+  "UCR8RCmqSvn7GDhFjoq4FURA": {
+   "nome": "Mossad: Archivos Secretos",
+   "inscritos": 104,
+   "uploads": "UUR8RCmqSvn7GDhFjoq4FURA",
+   "pais": "MX"
+  },
+  "UC3UFkTHg06-dSTG0PAQcMdA": {
+   "nome": "Black Power Media",
+   "inscritos": 62100,
+   "uploads": "UU3UFkTHg06-dSTG0PAQcMdA",
+   "pais": "US"
+  },
+  "UC7X7poWJfksHYzMBjjcsaTg": {
+   "nome": "Historias De Latinoamérica",
+   "inscritos": 37400,
+   "uploads": "UU7X7poWJfksHYzMBjjcsaTg",
+   "pais": "GT"
+  },
+  "UC_f6WCscrvVy1-Io-YJgzjw": {
+   "nome": "Trinxeraire",
+   "inscritos": 1290,
+   "uploads": "UU_f6WCscrvVy1-Io-YJgzjw",
+   "pais": "ES"
+  },
+  "UC-OAb1sTjfO6cJYVdn_1GgA": {
+   "nome": "RECORD EUROPA",
+   "inscritos": 1560000,
+   "uploads": "UU-OAb1sTjfO6cJYVdn_1GgA",
+   "pais": "PT"
+  },
+  "UCu_YgPbnpZLZ4C0d7j2tEag": {
+   "nome": "Félix Rodríguez Sanjurjo",
+   "inscritos": 150000,
+   "uploads": "UUu_YgPbnpZLZ4C0d7j2tEag",
+   "pais": "ES"
+  },
+  "UCugC9R-gE-6mgUgIqNy387Q": {
+   "nome": "Leyendas Legendarias",
+   "inscritos": 1210000,
+   "uploads": "UUugC9R-gE-6mgUgIqNy387Q",
+   "pais": "MX"
+  },
+  "UCnXnlv0jkt0WCQifhXo-LGg": {
+   "nome": "Documentales Online",
+   "inscritos": 15600,
+   "uploads": "UUnXnlv0jkt0WCQifhXo-LGg",
+   "pais": "MX"
+  },
+  "UCgyAyRPhwIsGbg3-upQdaog": {
+   "nome": "Archivo en Minutos",
+   "inscritos": 89,
+   "uploads": "UUgyAyRPhwIsGbg3-upQdaog",
+   "pais": "ES"
+  },
+  "UCWCreFX8bTVLJ6Y9lh6eZ5A": {
+   "nome": "Black Journals",
+   "inscritos": 784000,
+   "uploads": "UUWCreFX8bTVLJ6Y9lh6eZ5A",
+   "pais": "CA"
+  },
+  "UCL1ITQtr7ogwPN-5w96kG7Q": {
+   "nome": "Black Mango",
+   "inscritos": 800000,
+   "uploads": "UUL1ITQtr7ogwPN-5w96kG7Q",
+   "pais": "ES"
+  },
+  "UC6ofGjJJb2xRcu-DwHErbYQ": {
+   "nome": "Documentales TV - DEG",
+   "inscritos": 2050,
+   "uploads": "UU6ofGjJJb2xRcu-DwHErbYQ",
+   "pais": "ES"
+  },
+  "UCmfRRKReC0yL1JVtBX35uiA": {
+   "nome": "A engrenagem de tudo",
+   "inscritos": 2270,
+   "uploads": "UUmfRRKReC0yL1JVtBX35uiA",
+   "pais": "BR"
+  },
+  "UCxaufqKvM9AbOrMsF7Ngfhg": {
+   "nome": "Historias Reales de Espías",
+   "inscritos": 8090,
+   "uploads": "UUxaufqKvM9AbOrMsF7Ngfhg",
+   "pais": "MX"
+  },
+  "UCKUzdt2sELyxd6mz-bAx3bA": {
+   "nome": "Rai",
+   "inscritos": 6680000,
+   "uploads": "UUKUzdt2sELyxd6mz-bAx3bA",
+   "pais": "IT"
+  },
+  "UCkZgVbcloYoQRvI7kxFwmqA": {
+   "nome": "El Noctilian",
+   "inscritos": 258,
+   "uploads": "UUkZgVbcloYoQRvI7kxFwmqA",
+   "pais": "PE"
+  },
+  "UCuBPBGhZS4pubGk0L9nMFJg": {
+   "nome": "Fran Quintero",
+   "inscritos": 501,
+   "uploads": "UUuBPBGhZS4pubGk0L9nMFJg",
+   "pais": "ES"
+  },
+  "UCu8nzKV_wq1RoNh3SjjjqvQ": {
+   "nome": "Memoriae in Minuto",
+   "inscritos": 1240,
+   "uploads": "UUu8nzKV_wq1RoNh3SjjjqvQ",
+   "pais": null
+  },
+  "UCpVTs1kHF5c6E1s-fJPfM9g": {
+   "nome": "HISTORIA DE LATINOAMERICA",
+   "inscritos": 321,
+   "uploads": "UUpVTs1kHF5c6E1s-fJPfM9g",
+   "pais": "AR"
+  },
+  "UC9KbUAcSiyUFtOawmfO-t2A": {
+   "nome": "Archivo Paranormal",
+   "inscritos": 0,
+   "uploads": "UU9KbUAcSiyUFtOawmfO-t2A",
+   "pais": "PE"
+  },
+  "UC84SSZ1vLE4SXGpIlwXvHIw": {
+   "nome": "Intervenciones Gringas",
+   "inscritos": 774000,
+   "uploads": "UU84SSZ1vLE4SXGpIlwXvHIw",
+   "pais": "MX"
+  },
+  "UCVOhlyz_xads-U-ysLO104Q": {
+   "nome": "Mafia & dintorni",
+   "inscritos": 40300,
+   "uploads": "UUVOhlyz_xads-U-ysLO104Q",
+   "pais": "IT"
+  },
+  "UCkTBjLbkWiQGBNfnBIHNSNQ": {
+   "nome": "Axis Mundi Podcast",
+   "inscritos": 779,
+   "uploads": "UUkTBjLbkWiQGBNfnBIHNSNQ",
+   "pais": "US"
+  },
+  "UCWK4FoXBxAP6ZN5bDqlBzsQ": {
+   "nome": "Archivos de la 2ª Guerra Mundial",
+   "inscritos": 25000,
+   "uploads": "UUWK4FoXBxAP6ZN5bDqlBzsQ",
+   "pais": "BR"
+  },
+  "UCsUWNk5gtFqnNYZfc7Z61yg": {
+   "nome": "Obscura Archives",
+   "inscritos": 0,
+   "uploads": "UUsUWNk5gtFqnNYZfc7Z61yg",
+   "pais": "US"
+  },
+  "UCmsucNA3Wh0MB9XXfvbR9lA": {
+   "nome": "Jóvenes Líderes ",
+   "inscritos": 425000,
+   "uploads": "UUmsucNA3Wh0MB9XXfvbR9lA",
+   "pais": "MX"
+  },
+  "UCMYifiJYmVvQNv-zeEE9V4A": {
+   "nome": "Pete Crigler",
+   "inscritos": 1010,
+   "uploads": "UUMYifiJYmVvQNv-zeEE9V4A",
+   "pais": "US"
+  },
+  "UC6keHG4ZPycaO08-5GWfRog": {
+   "nome": "Normalmen88",
+   "inscritos": 620,
+   "uploads": "UU6keHG4ZPycaO08-5GWfRog",
+   "pais": null
+  },
+  "UCL2x1vrPlB7ooc0AkjMUkPg": {
+   "nome": "MOBFAX",
+   "inscritos": 172000,
+   "uploads": "UUL2x1vrPlB7ooc0AkjMUkPg",
+   "pais": null
+  },
+  "UCvUv8n5j1K1nEAYlWrrwrBQ": {
+   "nome": "Crime & Justice",
+   "inscritos": 41600,
+   "uploads": "UUvUv8n5j1K1nEAYlWrrwrBQ",
+   "pais": "IT"
+  },
+  "UCYpLveaSWLBG-y8GuR2FJWQ": {
+   "nome": "La pupila asombrada",
+   "inscritos": 41600,
+   "uploads": "UUYpLveaSWLBG-y8GuR2FJWQ",
+   "pais": "CU"
+  },
+  "UCH5EJUrA1WX2uCZhqZlLVXw": {
+   "nome": "Doc Militar",
+   "inscritos": 28600,
+   "uploads": "UUH5EJUrA1WX2uCZhqZlLVXw",
+   "pais": "BR"
+  },
+  "UCfYW5GXBXueSO5p9bxD45qg": {
+   "nome": "BBC Global",
+   "inscritos": 812000,
+   "uploads": "UUfYW5GXBXueSO5p9bxD45qg",
+   "pais": "GB"
+  },
+  "UCrkONla60pQPsppl7PPDHyQ": {
+   "nome": "Te lo Pinto",
+   "inscritos": 603000,
+   "uploads": "UUrkONla60pQPsppl7PPDHyQ",
+   "pais": "ES"
+  },
+  "UCjl9zpIHKkIeIuAhrCbzNNw": {
+   "nome": "Frontline War Memoirs ES",
+   "inscritos": 26900,
+   "uploads": "UUjl9zpIHKkIeIuAhrCbzNNw",
+   "pais": "MX"
+  },
+  "UCRbGHxTNQazN_aDNIif_tSA": {
+   "nome": "J's Archive",
+   "inscritos": 2700,
+   "uploads": "UURbGHxTNQazN_aDNIif_tSA",
+   "pais": "US"
+  },
+  "UCSDy3E-x-OSM02ghTCu_HEQ": {
+   "nome": "El Gremio Secreto",
+   "inscritos": 5620,
+   "uploads": "UUSDy3E-x-OSM02ghTCu_HEQ",
+   "pais": "MX"
+  },
+  "UCY5X5NkEiLfxXlbj6zL_5qw": {
+   "nome": "Dan L",
+   "inscritos": 146,
+   "uploads": "UUY5X5NkEiLfxXlbj6zL_5qw",
+   "pais": null
+  },
+  "UCLHMUoAE9In-zlJtBYKe2GA": {
+   "nome": "Der Legionär Português",
+   "inscritos": 12500,
+   "uploads": "UULHMUoAE9In-zlJtBYKe2GA",
+   "pais": "PT"
+  },
+  "UCDUxOvbwu1bnyD7AucP0ESw": {
+   "nome": "Al Rojo Vivo",
+   "inscritos": 5680000,
+   "uploads": "UUDUxOvbwu1bnyD7AucP0ESw",
+   "pais": "US"
+  },
+  "UCZjuBnVb_fLCiy1yUHenv1w": {
+   "nome": "InvestigatingPower",
+   "inscritos": 1210,
+   "uploads": "UUZjuBnVb_fLCiy1yUHenv1w",
+   "pais": null
+  },
+  "UC6aWeOEBWTSzr1bIXLAQ47w": {
+   "nome": "Mossad Ops",
+   "inscritos": 24700,
+   "uploads": "UU6aWeOEBWTSzr1bIXLAQ47w",
+   "pais": "US"
+  },
+  "UCbfvSN7DWVgFZOeA1Z9P0_w": {
+   "nome": "Documentales por el Mundo",
+   "inscritos": 2430,
+   "uploads": "UUbfvSN7DWVgFZOeA1Z9P0_w",
+   "pais": "US"
+  },
+  "UCgjgM_uJYY-3VUAZPtud4aQ": {
+   "nome": "Dein Hörbuch",
+   "inscritos": 4400,
+   "uploads": "UUgjgM_uJYY-3VUAZPtud4aQ",
+   "pais": null
+  },
+  "UCTdraFrZCccy07QF38lvx1g": {
+   "nome": "Saca Só a História",
+   "inscritos": 654,
+   "uploads": "UUTdraFrZCccy07QF38lvx1g",
+   "pais": "BR"
+  },
+  "UCWdwi-hKGCSqGw2p2Zx5jKQ": {
+   "nome": "La Cara Oculta de Moscú",
+   "inscritos": 1010,
+   "uploads": "UUWdwi-hKGCSqGw2p2Zx5jKQ",
+   "pais": null
+  },
+  "UCxMqpMwOxHnH7nH92t7YYKA": {
+   "nome": "Simple History em Português",
+   "inscritos": 25600,
+   "uploads": "UUxMqpMwOxHnH7nH92t7YYKA",
+   "pais": "BR"
+  },
+  "UC2Xv0Oq7cEFHQZVTPjzSHkA": {
+   "nome": "Atlas de lo extraño",
+   "inscritos": 58,
+   "uploads": "UU2Xv0Oq7cEFHQZVTPjzSHkA",
+   "pais": null
+  },
+  "UCC4leKu2BwJZpv9jaUXpC4w": {
+   "nome": "FIRE",
+   "inscritos": 65800,
+   "uploads": "UUC4leKu2BwJZpv9jaUXpC4w",
+   "pais": "US"
+  },
+  "UCE9EbutzE4abe1mKiNxe2XA": {
+   "nome": "FrontAtlas ES",
+   "inscritos": 18000,
+   "uploads": "UUE9EbutzE4abe1mKiNxe2XA",
+   "pais": "ES"
+  },
+  "UC9YHiT3jzNv3_6Ewk2_-fQg": {
+   "nome": "Inspira brand",
+   "inscritos": 70600,
+   "uploads": "UU9YHiT3jzNv3_6Ewk2_-fQg",
+   "pais": "ES"
+  },
+  "UCktsyeM35MDEgq47257ZYQA": {
+   "nome": "La verdadera URSS",
+   "inscritos": 4410,
+   "uploads": "UUktsyeM35MDEgq47257ZYQA",
+   "pais": null
+  },
+  "UCRbWAj1vluDoMpKrotLpu5A": {
+   "nome": "Grunge Español",
+   "inscritos": 642000,
+   "uploads": "UURbWAj1vluDoMpKrotLpu5A",
+   "pais": "US"
+  },
+  "UCo2b5FomMvhDGShWyX7jtEA": {
+   "nome": "Documentales-ES - A.D.C.",
+   "inscritos": 45200,
+   "uploads": "UUo2b5FomMvhDGShWyX7jtEA",
+   "pais": "AD"
+  },
+  "UCk5Sdd2zJWCbmAHPr2vWp9Q": {
+   "nome": "Penguin Argentina",
+   "inscritos": 52000,
+   "uploads": "UUk5Sdd2zJWCbmAHPr2vWp9Q",
+   "pais": "AR"
+  },
+  "UComgnk9cE024YQ0srLFV2FA": {
+   "nome": "The Infographics Show - Spanish",
+   "inscritos": 97200,
+   "uploads": "UUomgnk9cE024YQ0srLFV2FA",
+   "pais": "MX"
+  },
+  "UCDAZb72RzUEC80iuygqkOUg": {
+   "nome": "Ocular Delusions",
+   "inscritos": 868,
+   "uploads": "UUDAZb72RzUEC80iuygqkOUg",
+   "pais": "US"
+  },
+  "UCIrSRPQmwJ2FoOgp4mKJwNQ": {
+   "nome": "Dark History Explainer",
+   "inscritos": 11800,
+   "uploads": "UUIrSRPQmwJ2FoOgp4mKJwNQ",
+   "pais": null
+  },
+  "UCtpWvCsUTBanhFTpDmaOinA": {
+   "nome": "Lost Proof",
+   "inscritos": 12,
+   "uploads": "UUtpWvCsUTBanhFTpDmaOinA",
+   "pais": "GR"
+  },
+  "UCTlQlBRWWXGf6s5C5HUMTyA": {
+   "nome": "Secretos",
+   "inscritos": 37200,
+   "uploads": "UUTlQlBRWWXGf6s5C5HUMTyA",
+   "pais": null
+  },
+  "UCuGffoRdqZ5Lv1qGAeYOd5A": {
+   "nome": "Frontline War Memoirs Português",
+   "inscritos": 19700,
+   "uploads": "UUuGffoRdqZ5Lv1qGAeYOd5A",
+   "pais": "PT"
+  },
+  "UCh_chnQ7OJPQ8mZ7vbXFpIQ": {
+   "nome": "Europa Press",
+   "inscritos": 647000,
+   "uploads": "UUh_chnQ7OJPQ8mZ7vbXFpIQ",
+   "pais": null
+  },
+  "UCuKAz3newO0Cudv1fOb-c5w": {
+   "nome": "Asuntos de Dinero",
+   "inscritos": 4250,
+   "uploads": "UUuKAz3newO0Cudv1fOb-c5w",
+   "pais": "KZ"
+  },
+  "UCHX_fH3kv4WiF1Mtzk_XYEA": {
+   "nome": "TAR-ZAM - La Experiencia Completa",
+   "inscritos": 172,
+   "uploads": "UUHX_fH3kv4WiF1Mtzk_XYEA",
+   "pais": null
+  },
+  "UCVl8wSHUZDsvvi29HOQ0eUw": {
+   "nome": "𝖶𝖶𝟐 HistoriasReales",
+   "inscritos": 1630,
+   "uploads": "UUVl8wSHUZDsvvi29HOQ0eUw",
+   "pais": "US"
+  },
+  "UCE1-5usy7EpFGfpL6Zhhq3w": {
+   "nome": "Archivos De La Historia | Andrey",
+   "inscritos": 29000,
+   "uploads": "UUE1-5usy7EpFGfpL6Zhhq3w",
+   "pais": "ES"
+  },
+  "UCgmaAyKSpKzvLgKBBdnGd1w": {
+   "nome": "Los Archivos del FBI",
+   "inscritos": 537000,
+   "uploads": "UUgmaAyKSpKzvLgKBBdnGd1w",
+   "pais": null
+  },
+  "UC3pB2Bd1evoGnbPXQAsDEwA": {
+   "nome": "Como Dice La Historia",
+   "inscritos": 6110,
+   "uploads": "UU3pB2Bd1evoGnbPXQAsDEwA",
+   "pais": null
+  },
+  "UCWoaN0kWQHfOjhxwqNdkvhA": {
+   "nome": "Prof. Dawdson, O Lembrador",
+   "inscritos": 9010,
+   "uploads": "UUWoaN0kWQHfOjhxwqNdkvhA",
+   "pais": "BR"
+  },
+  "UCLlIlOJwMQh316HSYWhbRIg": {
+   "nome": "AlejoCol ",
+   "inscritos": 700,
+   "uploads": "UULlIlOJwMQh316HSYWhbRIg",
+   "pais": "CO"
+  },
+  "UCv3_dDiRi-i3M3NmOKER2IA": {
+   "nome": "kevin72557",
+   "inscritos": 477,
+   "uploads": "UUv3_dDiRi-i3M3NmOKER2IA",
+   "pais": null
+  },
+  "UCqHBhR4PZlqXLBQeroBHyYw": {
+   "nome": "Rastro Químico",
+   "inscritos": 31400,
+   "uploads": "UUqHBhR4PZlqXLBQeroBHyYw",
+   "pais": "BR"
+  },
+  "UCR7pXz_YWqluYNSzqsL8DYw": {
+   "nome": "Noches De Historia",
+   "inscritos": 6060,
+   "uploads": "UUR7pXz_YWqluYNSzqsL8DYw",
+   "pais": "ES"
+  },
+  "UCMostEHH_J2UrBRIKn0JpFQ": {
+   "nome": "Geodeta US",
+   "inscritos": 32,
+   "uploads": "UUMostEHH_J2UrBRIKn0JpFQ",
+   "pais": "US"
+  },
+  "UCOJLOCtUmSgQw9anZrDSQUA": {
+   "nome": "A la Sombra de la Fama",
+   "inscritos": 98,
+   "uploads": "UUOJLOCtUmSgQw9anZrDSQUA",
+   "pais": "TR"
+  },
+  "UCpMrpIcj11wvJLZZ78vevNg": {
+   "nome": "MAFIA EN EL MUNDO ",
+   "inscritos": 564,
+   "uploads": "UUpMrpIcj11wvJLZZ78vevNg",
+   "pais": "ES"
+  },
+  "UCvpmZyxGJ3W0GxmZbNfHDhw": {
+   "nome": "El ingeniero Javier",
+   "inscritos": 53,
+   "uploads": "UUvpmZyxGJ3W0GxmZbNfHDhw",
+   "pais": "ES"
+  },
+  "UC0uVZd8N7FfIZnPu0y7o95A": {
+   "nome": "ReasonTV",
+   "inscritos": 1430000,
+   "uploads": "UU0uVZd8N7FfIZnPu0y7o95A",
+   "pais": "US"
+  },
+  "UCn4sPeUomNGIr26bElVdDYg": {
+   "nome": "NowThis Impact",
+   "inscritos": 5290000,
+   "uploads": "UUn4sPeUomNGIr26bElVdDYg",
+   "pais": "US"
+  },
+  "UC9qdGmmXCRoMA2LwX1y7B_A": {
+   "nome": "Amanda Salinas",
+   "inscritos": 0,
+   "uploads": "UU9qdGmmXCRoMA2LwX1y7B_A",
+   "pais": null
+  },
+  "UCa81SE6SxNsANTHs8wyztvg": {
+   "nome": "Historia con Patricio Lons",
+   "inscritos": 225000,
+   "uploads": "UUa81SE6SxNsANTHs8wyztvg",
+   "pais": "AR"
+  },
+  "UCjwnIOTx995XGl2HJonbnrQ": {
+   "nome": "TVDATA",
+   "inscritos": 2530,
+   "uploads": "UUjwnIOTx995XGl2HJonbnrQ",
+   "pais": "GB"
+  },
+  "UCxUxYF-NlQXyxzsCMOSQQRw": {
+   "nome": "Der Kommandant Español",
+   "inscritos": 259000,
+   "uploads": "UUxUxYF-NlQXyxzsCMOSQQRw",
+   "pais": "ES"
+  },
+  "UC4fraizNH44ZJhIhJ3FVNSA": {
+   "nome": "Operación Umbral",
+   "inscritos": 633,
+   "uploads": "UU4fraizNH44ZJhIhJ3FVNSA",
+   "pais": null
+  },
+  "UCHuUp7ObMMNGXk1w9RSF-cg": {
+   "nome": "Hugo castro",
+   "inscritos": 28,
+   "uploads": "UUHuUp7ObMMNGXk1w9RSF-cg",
+   "pais": "GT"
+  },
+  "UC8n_7_pm2Kdi-2ScikYWdtA": {
+   "nome": "El expediente silenciado",
+   "inscritos": 39,
+   "uploads": "UU8n_7_pm2Kdi-2ScikYWdtA",
+   "pais": null
+  }
+ },
+ "cota_unidades": 172
+}

@@ -1,0 +1,35 @@
+# Crivo dossie-es-006-masones · rodada 1
+
+Conferido em 14/11/2026: `videos.list` (13 ids) + medianas dos últimos 35–50 uploads de 6 canais via `playlistItems`; timestamps por grep em `out/legendas.srt`; `len()` dos títulos; mosaico `mosaicos/dossie-es-006-masones.jpg`.
+
+## Título 1: APROVADO (com ressalvas)
+"TODA la Historia de los Masones en 14 Minutos | Un Secreto que Lleva 3 Siglos a la Venta"
+1 Evidência: ok. Atlas del Tiempo Mossad `9LyvAHVecwY` 86.033 (01/11), mediana real do canal 1.026 (84×); Atlas CIA vs KGB `dXRO17KlRUw` 100.582 (02/11). Os dois são do mesmo canal. Ressalva: Te lo Pinto KGB `by7uTDjSx7Y` (246.788) **não** usa este padrão (o título é "La HISTORIA COMPLETA de la KGB": sem N minutos e sem subtítulo), e a mediana do canal é 107 mil, não 163 mil (35% abaixo do que o pesquisador citou). Mesmo assim fica acima da mediana. Nenhuma referência T1 é de maçonaria, mas o nicho (história de organização, es) é o mesmo.
+2 Promessa: ok, com ressalva. "TODA la historia" é paga ao longo do vídeo (anunciada em 0:24–0:27). "Tres siglos" aparece em 0:27–0:31, mas como "sospechas", não "a la venta". O "a la venta" é pago em parte em 7:04–7:09 ("El libro sale igual… se vende como nunca") e por inteiro só em 13:46–13:50 ("lleva casi trescientos años a la venta"), os últimos 30 s. É ressalva forte, mas o título não depende só disso: o núcleo é a história completa.
+3 Título×thumb: ok, com ressalva. Com a thumb dos próceres a combinação gera pergunta (história completa + "os próceres eram maçons?"). Mas "MASONES" aparece no título e de novo gigante na thumb (repetição; a bíblia pede a sigla, então aceito).
+5 Diferenciação: ok, no limite. É a fórmula do Atlas ("TODA la Historia de X en N Minutos | subtítulo") e é a nossa própria, copiada pelo clone Archivo en Minutos. O que salva é o subtítulo: o paradoxo "secreto… a la venta" é próprio e foge do "lo que NO te contaron" gasto pelos concorrentes de maçonaria.
+6 Regras: ok. 88 car.; sem termo proibido; a bíblia mantém "en N minutos" e N=14 bate com 14:11.
+7 Faz sentido: sim, com reserva. Quem viu Academia Play / Historiador Nocturno / Historia Incomprendida só leu promessas de "verdade oculta". O paradoxo "secreto à venda" é novidade e a completude curta (14 min) concorre bem com o mega-episódio. Só que o título é quase igual ao atual (8 impressões), e o teste pode não ensinar nada: o ganho vem do subtítulo e da thumb.
+
+## Título 2: REPROVADO
+"Cómo un Libro de 1826 Puso a Estados Unidos Contra los Masones"
+1 Evidência: ok. Archivos de la 2ª GM `GUtFyu4d9bE` 158.385 (20/12/2025), mediana real 3.216 (49×); Mossad Oculto `VXBP7zImGgg` 109.113 (11/10), mediana real 501 (218×); Rastro Criminal 141.889 (26/05, mediana não conferida). Ressalva: nenhum "Cómo" do nicho maçonaria. Todos são de espionagem/crime com uma operação concreta.
+2 Promessa: falha parcial. O livro é anunciado em 0:04–0:10 (Batavia, 1826) e o "contra los masones" é pago em 7:04–7:45 (o livro sai, vende, "indigna al país", nasce o Partido Antimasónico em 7:25). Mas: (a) segundo o próprio vídeo, o que indigna o país (7:20–7:25) é o sumiço de Morgan e as penas leves ("los masones se protegen entre sí, jueces incluidos"), não o livro; (b) o caso Morgan ocupa cerca de 2,5 min de 14. Quem clica num "Cómo" espera a história dessa operação e recebe a história geral da ordem (Lautaro, Bolívar, P2, Vaticano). É o risco de CTR com retenção baixa.
+3 Título×thumb: falha. A única thumb (Bolívar + San Martín + "¿LOS PRÓCERES?") fala de América do Sul e o título fala dos EUA em 1826. As duas peças não se completam nem formam uma pergunta juntas: o espectador vê dois próceres e lê sobre um livro americano. O próprio pesquisador admite "três portas" separadas.
+5 Diferenciação: ok. Não é cópia de clone nem de referência.
+6 Regras: ok. 62 car.; sem termo proibido.
+7 Faz sentido: não, com esta thumb. O público de maçonaria em es (dos 6 refs, 4 têm ângulo de poder ou conspiração) não tem razão forte para preferir um episódio eleitoral americano de 1826, e a thumb promete outra coisa.
+Correção pedida: (a) parear o T2 com uma thumb própria de **objeto** (H2): o livro de Morgan em tinta, com esquadro e compasso no lacre, sello "1826" ou "PROHIBIDO", 1 foco; e trocar "Un Libro… Puso" por algo fiel ao vídeo, ex. **"Cómo la Desaparición de un Albañil Puso a Estados Unidos Contra los Masones"** (proibido "muerte/asesinato": "desaparición" é permitido e o fato aparece em 0:21); (b) ou trocar o T2 por um "Cómo" alinhado à thumb dos próceres (Lautaro/Bolívar, pago em 5:56–6:37 e 8:07–8:20).
+
+## Thumb: REPROVADO
+Bolívar + San Martín em tinta, esquadro e compasso dourados no meio, "MASONES" + sello "¿LOS PRÓCERES?"
+1 Evidência: ok, mas fraca. El Historiador Nocturno `vWyu2T7P038` 190.574 (27/11/2025), mediana real 26.082 (7×), ok. Historia Incomprendida `mukgvolxlrE` 134.920 (26/11/2025), mediana real 122.148: só 1,1×, "acima da mediana" por pouco. SLICE 344.735 confere (mediana não conferida).
+2 Promessa: ok, com ressalva. San Martín/Alvear/Lautaro em 5:56–6:29 ("¿Era una logia masónica? Los historiadores no se ponen de acuerdo") e Bolívar em 6:30–6:37 e 8:07–8:20 (iniciado em Paris, depois proíbe as sociedades secretas). A resposta "depende" é honesta. Mas tudo isso vem depois de 5:56: o 1º minuto é Batavia/EUA. Quem clicou pelos próceres espera 6 min (risco de retenção).
+3 Título×thumb: falha. Com o T1 até funciona. Com o T2 há dissonância (EUA × América do Sul, ver acima). E "MASONES" repete a palavra-chave dos dois títulos.
+4 Celular: falha. São 2 rostos lado a lado + símbolo dourado no meio + sigla + sello + aba + colunas, ou seja, 2–3 focos, não 1. A 320×180, dois bustos em tinta de próceres (rosto gerado por IA, parecido nem sempre) brigam entre si e com o símbolo. O texto (3 palavras) passa.
+5 Diferenciação: falha. A referência que mais rende neste tema (Historiador Nocturno, mosaico linha 2, col. 1) é justamente **San Martín + Bolívar** (+ Churchill e Juárez) com pergunta grande embaixo. Ficar com os mesmos 2 próceres + pergunta é a mesma ideia enxugada. Na grade, parece o mesmo vídeo, e trocar a pergunta conspiratória por uma histórica não muda o que o olho vê em meio segundo.
+6 Regras: ok. Sem sangue, caveira ou palavra proibida. Desvios da bíblia declarados (sello sem período; personagem que não é chefe). Aceitáveis.
+7 Faz sentido: não. Quem viu a thumb do Historiador Nocturno reconhece "os próceres + pergunta" e tende a achar que já viu. Quem não viu recebe uma thumb com 2 focos que se lê mal no celular.
+Correção pedida: **1 foco só**. Opção A (paga mais cedo, alinha com T1): **Bolívar sozinho** em meio corpo à esquerda (padrão da bíblia), segurando o esquadro e compasso como quem esconde algo, "MASONES" à direita, sello **"¿MASÓN?"**. Fica diferente da galeria do Historiador e o vídeo responde em 6:30 e 8:07–8:20. Opção B (para o T2 do caso Morgan): objeto H2, o livro lacrado com o esquadro e compasso, sello "1826"/"PROHIBIDO". Cada título com a sua thumb.
+
+## Veredito: 1 de 3 aprovados

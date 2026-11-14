@@ -1,0 +1,34 @@
+# Crivo historia-ptbr-003-ira · rodada 1
+
+Conferido em 14/11/2026: `videos.list` + `playlistItems` (últimos 50 uploads → mediana) de 11 vídeos e 7 canais; 18 frases procuradas na `legendas.srt` (duração real 17:59); thumbs de Tinocando, Animated History e Brasil Paralelo baixadas via WARP; mosaico e base `c1-persia-ira-a.png` vistos.
+
+## Título 1: APROVADO
+"Por que a Pérsia virou Irã e nunca virou árabe?"
+1 Evidência: ok — Histórias Milenares jvM3cR235yw 294.166 views (19/04/26), mediana real dos 50 últimos 40,6 mil → acima; Além do Mapa LwC-YJMsYuY 62.529 (04/03/26), mediana real 1,0 mil (o pesquisador disse 2,7 mil; conclusão igual) → acima. Explore o Mundo 222.147 (mediana 186) e Brasil Paralelo 3mwAf9TW1MU 61.880 (mediana 9,9 mil) também confirmam. Views batem (< 1% de diferença).
+2 Promessa: ok — 00:54 tese ("invadido por gregos, árabes…"), 02:52–03:13 terra dos árias / apelido grego / "largue o apelido", 07:25 "Mas o Irã não virou árabe", 08:46 "Era a língua", 12:27–12:30 "O mundo agora devia dizer Irã, e não Pérsia". As duas metades da pergunta são pagas; a 1ª entra no 1º minuto (tese) e a resposta do nome aos ~3 min. O vídeo corrige a premissa ("Irã" é o nome nativo, "Pérsia" o apelido grego): isso paga a pergunta, não é isca.
+3 Título×thumb: ok — o título pergunta a troca e a thumb mostra as duas pontas com "MESMO PAÍS?", sem repetir "Pérsia/Irã".
+5 Diferenciação: ok, com ressalva — a 1ª metade é a pergunta saturada (8 cópias com 1–180 views), mas o 2º gancho "e nunca virou árabe?" não aparece em nenhum título pt conferido e é exatamente o diferencial do vídeo (Ferdowsi/língua).
+6 Regras: ok — 47 caracteres, nenhuma palavra proibida. Ajuste da bíblia (`titulo.md`: palavra de destaque em caixa alta): publicar como "Por que a Pérsia virou Irã e NUNCA virou árabe?" (47).
+7 Faz sentido: sim. Quem viu "POR QUE A PÉRSIA MUDOU SEU NOME" já tem a 1ª resposta, mas não a 2ª (Egito, Síria e Iraque viraram árabes, o Irã não): é uma pergunta nova sobre o mesmo assunto que ele já quis saber.
+
+## Título 2: REPROVADO
+"De Ciro aos aiatolás: a história INTEIRA do Irã em 18 minutos"
+1 Evidência: ok — HQ dTIFl2db3As 280.657 (17/02/26), mediana real 25,1 mil (pesquisador disse 13,6 mil, diferença > 30% na mediana, mas segue acima); Crônicas de Ferro uEDDMWJ04Vo 1.484.776 (12/03/26), mediana 52,5 mil → acima. Echoes _cc_sdKBh14 2.118.515 (en) confirma o recorte "From Cyrus… to Khamenei".
+2 Promessa: ok — Ciro 03:20 ("Ele se chamava Ciro", 559 a.C. às 03:22); aiatolás 13:53–16:31 (Khomeini 14:01, Khamenei 15:03, Mojtaba 16:21, "de pai para filho" 16:24–16:31). "18 minutos" = 17:59, ok.
+3 Título×thumb: falha — a thumb proposta desenha exatamente as duas pontas do título (rei aquemênida × aiatolá) e a pílula "559 a.C. · 2026" repete o recorte "De Ciro aos aiatolás": imagem e título dizem a mesma coisa; só o "MESMO PAÍS?" acrescenta.
+5 Diferenciação: falha — é a fórmula commodity "A história INTEIRA do Irã em N minutos" (a do clone Crônicas de Ferro, 1,48 mi, e a do título que já está no ar, "A história COMPLETA do Irã (Pérsia) em 18 minutos") com o recorte do Echoes traduzido na frente ("From Cyrus the Great to Ali Khamenei"). O próprio pesquisador classifica T-A como "commodity, 10+ canais". O prefixo não basta: quase não muda a promessa.
+6 Regras: ok — 61 caracteres; sem palavras proibidas; "em N minutos" a bíblia mantém.
+7 Faz sentido: não. Quem viu "Toda a história do Irã em 20 minutos" (1,48 mi) não clica em outra história inteira do Irã; e, como braço do "Testar e comparar", fica quase igual ao controle no ar (CTR 6,0% em só 166 impressões), então o teste não aprende nada.
+Correção pedida: trocar por um título de tensão de outro padrão, pago no 1º minuto, que não seja a fórmula: ex. "Gregos, árabes, mongóis: por que TODOS viraram persas?" (54 car.; paga 00:54–01:00, 09:36 "ele os digeriu", 17:46) ou "O país que TODO invasor acabou imitando" (39 car.). Trazer ≥ 2 refs pt acima da mediana do padrão escolhido. Não usar o exemplo da bíblia "A Pérsia nunca morreu…" ("morreu" é proibido; a bíblia `titulo.md` precisa ser corrigida nesse exemplo). Se a fórmula precisar ficar como controle, o controle é o título que já está no ar, não um braço novo.
+
+## Thumb: APROVADO
+"MESMO PAÍS?" (antes × depois, rei aquemênida sereno × clérigo carrancudo, rachadura, pílula "559 a.C. · 2026")
+1 Evidência: ok, com ressalva — Brasil Paralelo 3mwAf9TW1MU (Ciro × Khamenei em tela dividida + "POR QUE MUDOU?") 61.880, mediana real 9,9 mil → acima; Tinocando nOCIGkJlGII (busto de Nero × rosto moderno, rachadura, "IMPERADOR LOUCO") 663.291, mediana real 301,5 mil → acima, mas o rosto moderno é do apresentador (não é "o mesmo país antes × depois"): evidência de tela dividida antigo × moderno, mais fraca. Apoio en: Animated History pBJpDpMqigw 1.265.775 (thumb conferida: "1279 · 2026 HOW?", líder antigo × Putin sobre mapa). Contra-exemplo: Fatos Desconhecidos (rosto dividido) abaixo da mediana. Padrão real, mas não garantido.
+2 Promessa: ok — "MESMO PAÍS?" é a tese paga em 00:51–01:00 ("Essa é a história inteira do Irã… ensinando os invasores a viver como persas") e fechada em 17:23–17:35 ("o nome sumiu e voltou, a coroa caiu para o turbante… e a língua de Ferdowsi segue viva"). 559 a.C. dito às 03:22.
+3 Título×thumb: ok com o T1 (pergunta × pergunta complementares: "por que mudou de nome e não virou árabe?" + "é o mesmo país?"); falha com o T2 (ver acima). Como o T2 cai, ok.
+4 Celular: ok — base vista: 2 rostos grandes de cabeça redonda, rachadura branca no meio, fundos ouro × vermelho-escuro de alto contraste; 2 palavras + pílula curta. Legível a 320×180. Dois rostos = dois focos, mas é a natureza da tela dividida e eles ocupam ~60% da altura.
+5 Diferenciação: ok, com ressalva — a ideia (rei antigo × aiatolá) é a mais repetida do nicho (Brasil Paralelo, Fatos Desconhecidos, Echoes, Além do Mapa); o traço de bonequinho e o texto diferente bastam, mas a pílula "559 a.C." é o mesmo selo do Brasil Paralelo. Ajuste pedido (barato, só composição): trocar a pílula por "2.500 ANOS" (dito às 16:38: "Há mais de dois mil e quinhentos anos, o Irã escolheu um rei…"), que reforça o "MESMO PAÍS?" sem copiar o selo. Atenção: o par coroa × turbante é o mesmo do controle COROA × TURBANTE; o teste mede emoção/texto (raiva × serenidade, conflito × pergunta), não o par. Registrar assim.
+6 Regras: ok — sem sangue, cadáver, ferimento ou caveira; texto sem palavras proibidas; bonequinho no padrão do canal (`thumb.md`).
+7 Faz sentido: sim, com ressalva. No feed de fotos realistas do Khamenei, um cartoon claro de cabeça redonda com "MESMO PAÍS?" se destaca e promete o que o vídeo cumpre; quem viu o Brasil Paralelo reconhece o assunto, mas a pergunta é outra (identidade, não troca de nome). Custo zero (base pronta).
+
+## Veredito: 2 de 3 aprovados

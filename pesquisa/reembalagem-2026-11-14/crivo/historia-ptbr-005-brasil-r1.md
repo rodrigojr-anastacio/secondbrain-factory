@@ -1,0 +1,35 @@
+# Crivo historia-ptbr-005-brasil · rodada 1
+
+Conferido em 14/11/2026: `videos.list` + `playlistItems` (mediana dos últimos ≤ 50 uploads de cada canal), legenda `canais/historia-ptbr/videos/005-brasil/out/legendas.srt`, mosaico `mosaicos/historia-ptbr-005-brasil.jpg` e busca de colisão via yt-dlp + WARP (`ytsearch`, não `search.list`).
+
+## Título 1: REPROVADO
+"500 ANOS de Brasil em 17 minutos"
+1 Evidência: ok (com ressalva). Conferi: Histórias Épicas da Bíblia HCzD29KIlo4, 1.967.178 views, 13/12/2025 (mediana dos últimos 50: 6,5 mil, e não 358 mil como diz a entrada, mas segue acima); ElHistorian 52TY3RdXIaM, 33.666 views, 07/11/2026 (mediana 887); Atlas das Eras alBh1Urra80, 70.199 views, 05/11/2026 (mediana 232). Os números batem (< 1%). Ressalva: no tema Brasil o padrão já foi usado e quase sempre flopa (veja o item 5).
+2 Promessa: ok. O escopo é pago aos 0:50–1:00 ("Essa é a história inteira do Brasil… virou um país de mais de duzentos milhões", legenda 00:00:50,110). "Quinhentos anos depois" está aos 16:39 (00:16:39,610). 17:23 → "17 minutos" está certo.
+3 Título×thumb: falha parcial. "500 ANOS" + pílulas "1511 | 2026" dizem a mesma coisa duas vezes. Só o "MESMO NAVIO?" acrescenta uma pergunta.
+5 Diferenciação: **falha.** O ytsearch "500 anos de Brasil em minutos" achou a mesma fórmula, no mesmo tema e no mesmo idioma: **Atlas das Eras "500 Anos em 25 Minutos: Toda a História do Brasil"** (daNkoDIqU8E, 6.115 views, 07/11/2026, há 1 semana), Canal Nostalgia "500 anos em 1 hora" (Q7E4XrfGGnE, 20,4 mi pelo yt-dlp; o vídeo-âncora do tema), Fragmentos da História "500 Anos em 20 MINUTOS…" (1.050), Histórias Ocultas "500 Anos de História do Brasil… em Poucos Minutos" (124), CAPI BRAZIL "500 Anos do Brasil em 8 Minutos" (16), Evolua (66) e Palitolândia (34). Trocar "A história INTEIRA" por "500 ANOS" é trocar um clone por outro.
+6 Regras: ok. 32 caracteres, nenhuma palavra proibida, e "em N minutos" a bíblia mantém.
+7 Faz sentido: não. Quem viu o Canal Nostalgia (20 mi) ou o Atlas das Eras da semana passada vê no feed o mesmo título com um N diferente, sem nenhum motivo novo para clicar. E "500 anos" é a menor escala do padrão T1 (os hits têm 1.000–6.000 anos).
+Correção pedida: tirar "500 anos … em N minutos". Usar um padrão de tensão com um fato que só o nosso vídeo tem e que seja pago cedo. Por exemplo, T2 "Por que 'BRASILEIRO' era nome de profissão?" (pago aos 3:08–3:17, "nome de ofício, como ferreiro ou marinheiro"; a busca não achou colisão) ou T5 com a fuga da corte (7:46, "único caso conhecido de uma metrópole…"). Antes, confirmar que não há colisão (ytsearch via WARP).
+
+## Título 2: APROVADO
+"O Brasil nasceu numa LISTA DE CARGA. O que ia no navio?"
+1 Evidência: ok. Por Quê, Hein? As5HdY_D-uI, 77.373 views, 19/10/2026 (mediana 36 mil); Mente Primata kZ3YWuGWF0k, 396.445 views, 04/10/2026 (mediana 489). O padrão (afirmação estranha + pergunta) é o mesmo, no mesmo nicho e idioma, e os números batem.
+2 Promessa: ok. Na legenda: "Bretoa" 00:00:02,8; "o que tem lá dentro?" 00:00:12,5; carga 00:00:14–27; "Numa lista de carga" 00:00:35,8; "a terra que nasceu numa lista de carga" 00:00:52,8; refrão "o que vai no navio…" 00:01:15,9 e 00:16:48,1. É pago nos primeiros 40 s, sem isca.
+3 Título×thumb: ok. O título vende a origem (o que ia no navio em 1511); a thumb pergunta se hoje é igual. Juntos formam um "então… e agora?". Ressalva: a palavra "navio" aparece nos dois. Se a thumb mudar para "NADA MUDOU?" (correção abaixo), isso some.
+5 Diferenciação: ok. O ytsearch "Brasil lista de carga navio Bretoa" não achou nada parecido, e nenhum clone usa esse ângulo.
+6 Regras: ok. 55 caracteres (≤ 60 da bíblia), destaque em caixa alta, nenhuma palavra proibida.
+7 Faz sentido: sim. É o único título do nicho que traz um fato concreto e estranho ("nasceu numa lista de carga") em vez de "história completa", então se destaca entre 6 clones iguais. Ressalva menor: a pergunta central do roteiro é "como virou país?" (roteiro.py l. 7), e a resposta a "O que ia no navio?" sai aos 0:14. Se quiser alinhar à regra da bíblia, há a variante "O Brasil nasceu numa LISTA DE CARGA. Como virou país?" (51 caracteres). Não bloqueia.
+
+## Thumb: REPROVADO
+Split diagonal: nau 1511 com pau-brasil × graneleiro 2026 com soja; estivador intrigado no centro (~55%); pílulas "1511" e "2026"; "MESMO NAVIO?".
+1 Evidência: falha parcial. As 2 refs em pt existem e estão acima da mediana: Titus Valério UfGD0lqHObI, 2.216.514 views, 04/08/2026 (mediana 3,5 mil; a entrada diz 65 mil); História do Mundo tzfbDkQx7Hw, 258.131 views, 04/07/2026 (mediana 870). Mas no mosaico e na descrição as duas são **duelo de pessoas** (2 rostos/2 guerreiros cara a cara), não um "então × agora" com objetos. O split de dois tempos só tem 1 ref, e em en (Animated History "221BC | 2026"). Em pt, o padrão proposto não tem as 2 refs exigidas.
+2 Promessa: falha parcial. O contraste 1511 × hoje só é pago de forma explícita aos 16:22–16:51 ("E os navios?… Quinhentos anos depois, os navios saem cheios de soja"), no último minuto. No 1º minuto só há a nau (0:02) e o refrão (1:15). Ressalva forte.
+3 Título×thumb: falha parcial. Com o T1, as datas repetem o "500 ANOS". Com o T2, complementa (veja acima).
+4 Celular: **falha.** São 4 leituras ("1511", "2026", "MESMO", "NAVIO?") e 3 focos (2 navios + boneco central). Com o boneco ocupando o centro, cada navio fica com ~90 px de largura a 320×180, e as toras e a soja viram mancha. A emoção "intrigado" é fraca (a bíblia pede emoção forte). E a pergunta se derruba sozinha: caravela e graneleiro são visivelmente navios diferentes, então "MESMO NAVIO?" tem resposta óbvia ("não") e não gera lacuna. A ideia do vídeo é a mesma lógica/carga, não o mesmo navio.
+5 Diferenciação: ok. Foge do panorama "BRASIL 1500–2026" dos clones (HEG, História Inteira e a nossa atual, todas iguais no mosaico).
+6 Regras: ok. Não mostra pessoas escravizadas, sangue nem sofrimento. Texto sem palavras proibidas.
+7 Faz sentido: não, como está. Ao lado do 1808 e da Cabanagem do Mundos Reimaginados (cena cinematográfica com 1 foco), um quadro com 2 navios pequenos e uma pergunta de resposta óbvia parece vídeo de logística/economia, não de história.
+Correção pedida: manter o split de dois tempos, mas: (a) **1 foco por lado e sem boneco no meio**: à esquerda o escrivão-bonequinho da Bretoa (já existe na base da thumb-1 "À VENDA?" de `videos/005-brasil/entrega/`) em choque com a lista e as toras vermelhas; à direita o mesmo boneco, de roupa atual, diante de uma pilha de soja/minério num porto, na mesma pose espelhada (a rima visual é o gancho); (b) **uma pílula só** "1511 · 2026" no topo, ao centro (padrão da bíblia); (c) texto **"NADA MUDOU?"** (NADA em ouro), que é pago aos 16:45–16:53 ("a pergunta continua a mesma… Mas uma coisa mudou") e evita repetir "navio" do T2; (d) emoção forte nos dois rostos. Para a evidência, trazer ≥ 2 thumbs pt de "antes × hoje" acima da mediana ou assumir como **Hipótese** de teste ao lado da thumb-1 "À VENDA?" (que paga o hook aos 0:00–0:37).
+
+## Veredito: 1 de 3 aprovados

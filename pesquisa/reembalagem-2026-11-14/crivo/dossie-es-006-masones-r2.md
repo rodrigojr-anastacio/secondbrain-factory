@@ -1,0 +1,27 @@
+# Crivo dossie-es-006-masones · rodada 2
+
+Conferido em 14/11/2026: `videos.list` (11 ids, views/datas/títulos), medianas recalculadas por mim (últimos ≤ 50 uploads ≥ 3 min via `playlistItems`), timestamps por `grep` na `out/legendas.srt`, `len()` dos títulos, mosaicos `dossie-es-006-masones.jpg` e `-r2-thumbH2.jpg` vistos. 0 `search.list`.
+
+## Título 1 [MANTIDO]: APROVADO
+3 Título×thumb: ok. "Un Secreto que Lleva 3 Siglos a la Venta" + livro lacrado com "RITUALES" → "os rituais estão à venda?"; a thumb mostra o objeto, sem repetir o subtítulo. "MASONES" na thumb repete a palavra do título, mas é a sigla de identidade (aceita na r1). Ressalva: a thumb quase entrega qual é o segredo; a pergunta que resta ("à venda? como?") ainda se sustenta.
+6 Regras: ok. 88 car.; nenhuma palavra proibida; "en 14 Minutos" é o molde da bíblia (`titulo.md`) e bate com 14:11.
+
+## Título 2 [REESCRITO]: APROVADO (com ressalva no item 1)
+1 Evidência: ok, mas apertado. Padrão "caso concreto + plural de operações da organização": 5r4dbVvCwis 241.005 (11/04/2026), mediana recalculada 10.211 → 23,6×; Qgl2iWi7vjk 160.395 (15/05/2026), mediana 22.260 → 7,2×; os dois em es, espionagem. Ressalva: o Qgl2 é clone do 5r4d (a mesma ideia testada 2×), os dois são compilações de 1 h+, e a construção "y Otros N Expedientes" não tem referência própria. Nos 2 History Latinoamérica (ppoG 74.331, gutX 124.662, mediana 7.291), "Expedientes" é o nome da série, não um plural de casos, então não provam a construção. Hipótese dentro do padrão, como a própria proposta registra.
+2 Promessa: ok. 0:04 "El albañil William Morgan anuncia un libro…", 0:17 "…a la fuerza a un carruaje", 0:21 "Nadie volvió a ver a William Morgan", 7:02 "Ahí se pierde su rastro". Tudo conferido, pago no 1º minuto. "Otros 13": o SCRIPT tem 14 capítulos e o Morgan é o nº 8 → 13 outros, conta exata; "expedientes" é falado em 6:37 e 14:02. O caso ocupa só ~1,5 min a mais (6:44–8:10), mas o título avisa que é o 1 de 14, então não é isca.
+3 Título×thumb: ok. T2 não diz por que ele sumiu; a thumb mostra o livro que ele ia publicar → "sumiu por causa disto?". Nenhuma palavra repetida.
+5 Diferenciação: ok. Nenhum título de maçonaria no mosaico usa o caso Morgan nem o trocadilho albañil/masón. Não copia ref nem clone.
+6 Regras: ok. 64 car.; "desapareció" é a troca sugerida pela própria política; sem muerte/asesinato.
+7 Faz sentido: sim. Numa grade de "lo que NO te contaron" e "La verdadera historia", um caso concreto e misterioso, com um número que promete volume, é a única lacuna específica. Quem viu o History Latinoamérica (expedientes de maçonaria) tem motivo para clicar: é um caso que ele não viu.
+
+## Thumb [REESCRITO]: APROVADO (com ressalvas nos itens 2 e 4)
+1 Evidência: ok. Padrão "objeto do caso dominante, sem rosto": GUtFyu4d9bE 158.385 (20/12/2025, 49,2×) e gutXBSXvOTk 124.662 (08/10/2025, ~17×), os dois em es, nicho espionagem/história, views conferidas. Ressalva: esses dois são objetos espetaculares (MiG). Nas 3 refs de objeto banal há um rosto ou pessoas dividindo o quadro: no ramo do Mossad Oculto o objeto é pequeno e circulado e as pessoas dominam, então ele não é bem "objeto dominante". Livro banal sem rosto continua Hipótese A/B, como admitido. A frase "nenhum usa um livro" está imprecisa: Academia Play e Magnus Mefisto têm livros, mas como coadjuvantes, não como foco.
+2 Promessa: ok, com ressalva forte. O livro de rituais é pago em 0:04 e 6:47, e o destino dele em 7:04 e 13:30. Porém o vídeo **nunca mostra o conteúdo dos rituais**: só "la Palabra del Masón" (1:13), uma iniciação citada (4:23) e "grados y contraseñas" publicados em 1730 (13:39). O sello "RITUALES" pode ser lido como "rituais revelados", e o público de maçonaria (Academia Play, "Jerarquía explicada") procura justamente isso. A virada "o segredo sempre esteve à venda" paga isso, mas só em 13:46. Mantenho porque a imagem é de um livro **lacrado** (não promete abrir) e o objeto existe aos 0:04. Se o A/B mostrar CTR alto com retenção baixa, a 1ª troca a testar é o sello "PUBLICADO" (pago em 7:04: "El libro sale igual").
+3 Título×thumb: ok. Com T1, mostra o que está "à venda"; com T2, mostra o motivo do sumiço. Não repete nenhum título (exceto a sigla).
+4 Celular: ok, com condição de produção. São 1 foco (livro em diagonal, ~55%), 2 palavras de leitura e fundo claro. Condição: o sello vermelho fica "sobre a capa" de couro marrom, e vermelho #B3261E sobre marrom some a 320×180. O sello tem de ter fundo creme e borda vermelha, como o "1717-HOY" atual, e o lacre esquadro+compasso tem de ser grande (≥ 1/4 da altura) para ler como maçonaria no celular.
+5 Diferenciação: ok. A ref mais próxima, ppoG ("EL SÍMBOLO PROHIBIDO"), é um objeto ornamentado com esquadro e compasso + uma palavra de interdição + rosto. A nossa é livro em tinta, lacre, fundo papel e sem rosto: o conceito é vizinho, a execução e o objeto são outros. Ninguém no mosaico tem um livro como foco.
+6 Regras: ok. Sem sangue, caveira, rito violento ou palavra proibida; é ilustração.
+7 Faz sentido: sim. O mosaico de maçonaria é todo escuro (templos, encapuzados) ou cheio de rostos; um livro lacrado em papel claro, com "RITUALES", destoa na grade e mexe com a curiosidade nº 1 do tema. O risco está na retenção (item 2), não no clique.
+Pendência (não é deste crivo): a proposta registra 2 desvios da bíblia de thumb (objeto no lugar do personagem; sello sem período), que o Rodrigo precisa aprovar.
+
+## Veredito: 3 de 3 aprovados

@@ -1,0 +1,34 @@
+# Crivo historia-ptbr-004-china · rodada 1
+
+Conferido em 14/11/2026: `videos.list` de 9 ids (views e datas batem com a proposta, diferença < 1%) e a mediana dos últimos ≤ 50 uploads de 7 canais (`playlistItems` + `videos.list`). As medianas citadas pelo pesquisador estão erradas em vários canais (Histórias Épicas 6,5 mil, não 358 mil; Fatos Desconhecidos 158 mil, não 244 mil; Histórias Romanas 32,7 mil, não 62 mil; Por Quê, Hein? 36 mil, não 49 mil; Soldado P&B 2,5 mil, não 1,2 mil; Atlas das Eras 232, não 281). Em todos os casos o vídeo segue **acima** da mediana, então o critério "acima" se sustenta, mas os números da tabela não são confiáveis. Legenda: termina em 16:12.
+
+## Título 1: APROVADO
+"3.000 ANOS de China em 16 minutos"
+1 Evidência: ok. Atlas das Eras "3.000 Anos em 25 Minutos: Toda a História do Egito Antigo" (alBh1Urra80): 70.199 views, 05/11/2026, mediana do canal 232. Histórias Épicas da Bíblia "6000 Anos em 30 Minutos…" (HCzD29KIlo4): 1.967.178 views, 13/12/2025, mediana 6,5 mil (nicho vizinho, história bíblica pt). Apoio en: Animated History (wuhnBi8jNl0) 1.199.853 views, 28/08/2026, mediana 555 mil (no limite: 2,2× a mediana). Contra-exemplo honesto citado (Canal Nostalgia 1,43 mi, abaixo da mediana dele).
+2 Promessa: ok. "três mil anos" aos 3:27 ("E todo mundo usou essa brecha, por três mil anos", 00:03:27,283) e aos 15:55; o vídeo vai dos Shang (oráculos em osso, ~2:09) até hoje. A duração bate (legenda até 16:12). Ressalva: a thumb HiM no ar diz "1600 a.C. – 2026" (3.600 anos). "3.000" fica arredondado para baixo, não é promessa falsa.
+3 Título×thumb: ok. O título dá a escala e o custo baixo; a thumb dá o rosto e a pergunta ("IMORTAL?"), sem repetir palavra. Juntos: "quem é esse cara de 210 a.C., e o que ele tem a ver com 3.000 anos?".
+5 Diferenciação: ok, com ressalva. "N anos em N minutos" aparece em 4+ canais sem dono (é padrão, não assinatura de clone, ao contrário de "A história INTEIRA de X em N minutos"). Mas é quase o título do Atlas das Eras (inclusive o número 3.000). Fica aceitável porque o tema é outro (Egito × China) e sai da fórmula saturada dos clones; não usar "Toda a história" no subtítulo, senão vira cópia.
+6 Regras: ok. 33 caracteres; nenhuma palavra proibida; "em N minutos" mantido pela bíblia (N = 16, real 16:12).
+7 Faz sentido: sim. Quem viu o "5 MIL ANOS EM 1 HORA" (1,43 mi) ou o Animated History tem motivo para clicar num recorte mais curto e em pt; a promessa é de baixo custo de tempo, que é o gatilho que o padrão prova. Risco menor: o público pode estranhar "3.000" para um país vendido como "5.000 anos".
+
+## Título 2: REPROVADO
+"Por que NINGUÉM abriu o túmulo do 1º imperador da China?"
+1 Evidência: ok. Fatos Desconhecidos "Por que nunca entramos na maior tumba da Terra?" (NCr1f_SUsLk): 754.669 views, 01/03/2026, mediana 158 mil. Soldado Preto e Branco (RH30MX3g5Rg): 548.266 views, 12/01/2026, mediana 2,5 mil. Padrão e tema provados.
+2 Promessa: falha. A pergunta está aos 0:35 ("E o túmulo dele, guardado por um exército de barro… ninguém abriu até hoje", 00:00:35,760). A pista do mercúrio vem aos 4:59–5:06. Mas a **resposta ao "por quê"** só vem aos 15:22–15:31 ("Os arqueólogos preferem esperar: ninguém sabe preservar o que tem lá dentro… e tem o mercúrio"), no último minuto. O túmulo ocupa ~35 s de 16 min. O título inteiro depende disso; pela regra, é reprovação. Quem clica querendo o mistério do túmulo (público do vídeo de 755 mil) recebe 15 minutos de dinastias: é o risco de CTR alto com retenção baixa, num vídeo que já tem 38%.
+3 Título×thumb: ok isoladamente ("IMORTAL?" + túmulo dá uma 2ª lacuna sem repetir palavra).
+5 Diferenciação: falha leve. É a mesma pergunta, com outras palavras, do Fatos Desconhecidos (755 mil) e do Vodar ("…Têm Medo de Abrir o Mausoléu de Qin", 50 mil). Não é cópia literal, mas é o 3º "por que não abrem o túmulo de Qin" no feed pt.
+6 Regras: ok. 56 caracteres (a proposta diz 55); nenhuma palavra proibida. Mas fere a bíblia (`titulo.md`, "Não faça"): título-pergunta só como braço igual à **pergunta central** do roteiro; aqui a pergunta central é "o país que morreu mais vezes do que qualquer outro… e sempre voltou. Como?" (N006, 0:45), não o túmulo (que é um loop secundário, "guarde esse túmulo fechado", N008).
+7 Faz sentido: não. Quem viu o Fatos Desconhecidos clicaria, sim, mas para ver o túmulo, e o vídeo não é sobre o túmulo: vira promessa de outro vídeo.
+Correção pedida: trocar por um título-pergunta igual à pergunta central (padrão T2/T5), pago no 1º minuto (0:45) e ao longo do vídeo inteiro (o Mandato do Céu, 2:59–3:31, e cada queda e volta de dinastia), sem "morreu", que é proibido em título. Ex.: "Por que a China SEMPRE voltou depois de cair?" (45 caracteres) ou "O país que caiu mais vezes que qualquer outro (e sempre voltou)". O túmulo fica para a thumb 3 (porta, TH-D), não para o título.
+
+## Thumb: APROVADO
+`entrega/thumbs-v2/thumb-4-bonecos.jpg`: Qin bonequinho suando, esfera de mercúrio brilhando, exército de barro na penumbra, "IMORTAL?" em ouro, pílula "210 a.C."
+1 Evidência: ok. TH-C: Histórias Romanas "POR QUE ROMA NUNCA CONQUISTOU A ÍNDIA?" (guiOxLd8X3M) 126.614 views, 04/05/2026, mediana 32,7 mil; Por Quê, Hein? (As5HdY_D-uI) 77.373 views, 19/10/2026, mediana 36 mil (bonecos de cabeça redonda, "POR QUE NÃO CHINA?"). Ressalva: as referências usam pergunta de 3–4 palavras; a nossa usa 1, o que é uma variação do padrão, não o padrão exato.
+2 Promessa: ok. É paga de imediato: 0:03–0:10 ("está morrendo… e ele tem um plano para não morrer"), 0:15 ("viver para sempre"), 0:22–0:26 ("pílulas… de mercúrio"), e fechada aos 15:31 ("queria viver para sempre, e não conseguiu"). Ressalva: a lacuna "IMORTAL?" é respondida em ~0:30 (N004); daí a retenção depende do loop do túmulo e da pergunta central, que o roteiro abre logo em seguida.
+3 Título×thumb: ok. Com o T1, escala (título) + rosto e pergunta (thumb), sem repetir palavra. Com o T2 (reprovado) também não repetia. Com o título corrigido ("Por que a China SEMPRE voltou…"), ainda funciona: o imperador que quis durar para sempre × o país que durou.
+4 Celular: ok. 1 palavra grande em ouro sobre o canto escuro, mais a pílula de data; 1 foco (rosto + esfera); alto contraste. Legível a 320×180. A pílula "210 a.C." fica pequena, mas é secundária.
+5 Diferenciação: ok. Nenhuma das 11 referências do mosaico tem rosto em close com objeto e 1 palavra; o escuro com brilho prata destoa do feed claro e dourado (Genius, nossa HiM, Foca, Canal Nostalgia). O traço lembra o do Por Quê, Hein?, mas a composição é outra.
+6 Regras: ok. Sem sangue, sem ferimento, sem cadáver nem caveira; suor e medo, sem apelação; nenhuma palavra proibida no texto.
+7 Faz sentido: sim. Quem viu o vídeo de 755 mil sobre o túmulo de Qin reconhece o personagem e o exército de barro, e o "IMORTAL?" promete a história por trás do túmulo, que o vídeo entrega no 1º minuto.
+
+## Veredito: 2 de 3 aprovados
