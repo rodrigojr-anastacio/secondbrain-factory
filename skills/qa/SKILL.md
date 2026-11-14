@@ -27,6 +27,7 @@ Procedimento-base: checklist de `playbooks/produzir-video.md` §6 e §7. Modelo 
      - **historia-ptbr: v2 vale a partir do 006; vídeos 001–005 seguem a v1 em `biblia/roteiro-v1.md`** (julgue o 005 e anteriores pela v1). Em vídeo ≥ 006, rode o checklist v2 com os tempos reais da legenda: `python3 ~/workspace/fabrica-youtube/canais/historia-ptbr/tools/checklist_roteiro_v2.py $V` (usa `out/legendas.srt`), cole a saída no `QA.md` e confira `biblia_versao='v2'` em `youtube.videos`. Item obrigatório reprovado = roteiro reprovado (volta à skill `roteiro`), exceto o ritmo 140–145 ppm, que é Hipótese: anote o desvio sem reprovar. Não vale para outros canais;
    - **título** na fórmula de `biblia/titulo.md`; **thumb** no template de `biblia/thumb.md`; **visual** (contact sheet) com a identidade de `biblia/visual.md`; **voz** = a de `biblia/voz.md`;
    - nada da lista "O que NÃO fazer aqui" do `biblia/README.md`. Qualquer item de outro canal = **reprovado**, volta para a skill culpada.
+6b. **Embalagem cumprida** (vídeos com `EMBALAGEM.md`, desde 14/11/2026): (a) a **promessa foi paga**: ache a frase-âncora na `out/legendas.srt` (`grep -n`) e anote o timestamp; paga depois de 1:00 = ressalva, não paga = **reprovado** (volta ao `roteiro`); (b) a **thumb final** (`out/thumbnail.jpg` e as variações) bate com o conceito aprovado (composição, foco, texto ≤ 3 palavras); conceito trocado sem registro = reprovado (volta à `thumbnail`); (c) títulos A/B do `youtube.txt` = T1/T2 aprovados.
 7. Escreva `$V/QA.md`: checklist marcado com números, problemas, correções feitas, pendências e a seção **"Reprovações"** (ver Loop, passo 3). Status: `UPDATE youtube.videos SET status='qa'` durante; `pronto` quando aprovado.
 
 ## Critérios de aprovação (objetivos)
@@ -37,6 +38,7 @@ Procedimento-base: checklist de `playbooks/produzir-video.md` §6 e §7. Modelo 
 - [ ] `preqa_visual.py` no render final sem bloqueante confirmado (`qa/PREQA-visual.md`).
 - [ ] Cenas nomeadas fiéis; nenhum lugar real no lugar de fictício; nenhum frame de filme; nada cortado/sobreposto; nenhum texto gerado pela IA; um HUD por vez.
 - [ ] `.srt` sincronizada; capítulos em ordem desde 0:00; thumb JPG < 2 MB.
+- [ ] **Embalagem cumprida:** promessa do `EMBALAGEM.md` paga em mm:ss (conferido na `legendas.srt`, ideal ≤ 1:00); thumb final = conceito aprovado; A/B = T1/T2.
 - [ ] **Segue a bíblia do canal** (roteiro, título, thumb, visual, voz) e nada de "O que NÃO fazer aqui"; resultado de cada arquivo anotado.
 - [ ] **Políticas do YouTube** (`conhecimento/politicas-youtube.md`): 0 foto/vídeo real de cadáver ou pessoa morta (vídeo e thumbs); 0 plano apelativo (corpo em destaque, sangue, ferimento, sofrimento explícito); título, descrição e tags **sem** morte/morreu/morto/assassinado/assassinato (e equivalentes es/en) nem "chocante/perturbador/massacre"; `youtube.txt` sem menção a IA/voz sintética.
 - [ ] Custo total ≤ teto: `psql -d vida -c "SELECT * FROM financas.custo_por_video WHERE id=<id>"`.

@@ -11,7 +11,7 @@ Responda em português do Brasil. Comece pelo `MAPA.md` (o que existe, onde, que
 São os mesmos papéis dos perfis Hermes (`~/.hermes/profiles/<p>/SOUL.md`).
 
 ## Skills (`skills/<nome>/SKILL.md`, symlink em `~/.claude/skills/` e `~/.hermes/skills/`)
-`produzir-video` (orquestradora), `pesquisa-referencia`, `roteiro`, `storyboard`, `voz`, `imagens`, `montagem-render`, `thumbnail`, `pacote-youtube`, `qa`. Mapa e critérios em `skills/README.md`.
+`produzir-video` (orquestradora), `pesquisa-referencia`, `embalagem` (título + thumb + crivo, **antes** do roteiro; portão do vídeo desde 14/11/2026), `roteiro`, `storyboard`, `voz`, `imagens`, `montagem-render`, `thumbnail`, `pacote-youtube`, `qa`. Mapa e critérios em `skills/README.md`.
 
 ## Rotinas (systemd user, sem depender do Hermes)
 `tools/rotinas/`: `diaria.sh` (06:30), `metricas.sh` (seg 08:15) e `tendencias.sh` (seg/qui 09:30). Veja `tools/rotinas/README.md`.

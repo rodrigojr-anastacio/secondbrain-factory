@@ -29,12 +29,15 @@ Procedimento-base: `playbooks/produzir-video.md` §0–1.
 5. **Escreva `BRIEF.md`** com: tema; título de trabalho (fórmula de `biblia/titulo.md`); duração-alvo e nº de palavras (tabela "Tamanho" de `biblia/roteiro.md`); **link para a bíblia do canal** (`canais/<slug>/biblia/`) e as 3 regras dela que mais importam neste tema; idioma; referência (ID, views, idade, duração, hook real transcrito, estrutura em capítulos, cortes/min); fio condutor e loops candidatos; **teto de custo em US$** (voz + imagens + thumb; base real em `conhecimento/anti-padroes.md`); critérios de pronto e restrições do canal.
 6. Atualize `canais/<slug>/backlog.md` (item em produção).
 
+**Próximo passo obrigatório (desde 14/11/2026):** a skill `embalagem` (título + thumb + crivo) roda **antes** do roteiro, a partir deste BRIEF. Por isso o BRIEF precisa trazer as **fontes** principais e os fatos fortes do tema (a promessa da embalagem tem de ser cumprível com eles). O título de trabalho aqui é provisório: o título real sai do `EMBALAGEM.md` aprovado.
+
 ## Critérios de pronto (avaliar)
 - A referência tem tração comprovada (views/idade anotados) e é da mesma fórmula.
 - O hook real da referência está transcrito no BRIEF (não traduzido para uso; só para modelar).
 - Título de trabalho sem as palavras proibidas (morte/morreu/assassinado e equivalentes; `conhecimento/politicas-youtube.md`), e a pauta não depende de foto/vídeo real de cadáver (se depender, descarte ou mude o ângulo).
 - Título de trabalho segue a fórmula de `canais/<slug>/biblia/titulo.md`; a referência é do canal-modelo da bíblia.
 - Duração-alvo, nº de palavras e **teto de custo** explícitos.
+- Fontes principais e 3–6 fatos/casos fortes listados (matéria-prima da promessa da `embalagem`).
 - `youtube.videos` tem a linha (id anotado no topo do BRIEF) e a pasta existe sem `node_modules` copiado.
 
 ## Loop de melhoria

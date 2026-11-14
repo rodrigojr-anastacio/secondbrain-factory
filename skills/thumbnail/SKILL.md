@@ -13,7 +13,8 @@ Procedimento-base: `playbooks/produzir-video.md` §7. Modelo recomendado: **sonn
 1. Veja as thumbs no ar **do mesmo canal** em `conhecimento/thumbnails/<slug>-*.jpg` (a galeria; a análise está na bíblia).
 2. Regras gerais: `conhecimento/thumbnails/README.md` e `conhecimento/anti-padroes.md`.
 3. Leia o bloco `visual` do `canal.yaml`.
-4. Leia `$V/BRIEF.md` (título, teto) e a thumb da referência (`pesquisa/tendencias/assets/<data>/<id>/thumb.jpg`, se houver).
+4. **Leia `$V/EMBALAGEM.md` (seção Thumb) e `$V/CRIVO.md`**: desde 14/11/2026 a thumb **parte do conceito aprovado no crivo** (composição, objeto/personagem, texto ≤ 3 palavras, cores). Não invente outro conceito; as 3 variações do "Testar e comparar" saem dele (mudam texto, expressão ou enquadramento, não o conceito) e pareiam com T1/T2 (+ a 3ª variação do pacote).
+4b. Leia `$V/BRIEF.md` (teto) e a thumb da referência (`pesquisa/tendencias/assets/<data>/<id>/thumb.jpg`, se houver).
 5. Modelo: o `src/Thumbnail.jsx` do **vídeo anterior do mesmo canal** (nunca o template de outro canal).
 
 ## Passos
@@ -26,6 +27,7 @@ Procedimento-base: `playbooks/produzir-video.md` §7. Modelo recomendado: **sonn
 
 ## Critérios de pronto (avaliar)
 - Gere uma prévia em 320x180 (`ffmpeg -i v1.jpg -vf scale=320:180 prev.jpg`) e olhe: o nome lê no tamanho de celular? (2–3 palavras na arte).
+- **Bate com o conceito do `EMBALAGEM.md`** (mesma composição, foco, texto e promessa); se a arte obrigou a mudar algo, registre em `ETAPA*.md` o quê e por quê.
 - Segue o template da `biblia/thumb.md` e nada da lista "O que NÃO fazer aqui" (ex.: nada de pôster de expediente no historia-ptbr).
 - O lugar é reconhecível e **fiel** ao tema (nada de lugar real no lugar de fictício; nada de pintura que não representa o lugar).
 - Nenhum texto escrito pela IA na base.

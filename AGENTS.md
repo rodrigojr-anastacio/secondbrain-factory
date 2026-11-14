@@ -12,7 +12,7 @@ fabrica-youtube/
 ├── conhecimento/        ← só REGRAS GERAIS (valem para qualquer canal), com data e fonte
 │   ├── hooks.md, titulos.md, roteiros.md, anti-padroes.md (ferramentas, processo, custos por vídeo)
 │   └── thumbnails/      ← galeria das thumbs no ar (<canal>-<video>.jpg, < 500 KB) + regras gerais
-├── skills/<nome>/SKILL.md ← 10 skills do Produtor + novo-canal (Agent Skills; symlink em ~/.claude/skills e ~/.hermes/skills/fabrica-youtube) + README.md (mapa)
+├── skills/<nome>/SKILL.md ← 11 skills do Produtor (com `embalagem`, antes do roteiro) + novo-canal (Agent Skills; symlink em ~/.claude/skills e ~/.hermes/skills/fabrica-youtube) + README.md (mapa)
 ├── playbooks/           ← procedimentos (siga-os; melhore-os)
 │   ├── produzir-video.md
 │   ├── garimpo-tendencias.md
@@ -58,7 +58,7 @@ Python: `~/workspace/fabrica-youtube/tools/.venv/bin/python`. Rode os scripts a 
 
 ## Regras da fábrica
 1. **Cada canal é uma caixinha.** A identidade de formato de cada canal (estrutura de roteiro, hook, título, thumb, visual, voz) está na **bíblia** `canais/<slug>/biblia/`, e ela **prevalece** sobre `conhecimento/`. Antes de qualquer etapa, leia **primeiro** a bíblia do canal (README + o arquivo da etapa). **Nunca aplique padrão de outro canal**, nem copie roteiro/código de vídeo de outro canal como modelo. Erro real que motivou a regra: os capítulos-objeto do Archive in Minutes (molde do `dossie-es`) usados no Irã do `historia-ptbr`, que modela o History in Minutes (04/11/2026; `conhecimento/anti-padroes.md` §8). O `estilo.md` é só um índice para a bíblia (decisão de 04/11/2026: assim nenhum link antigo quebra e não há dois lugares com regra).
-2. **Todo vídeo novo** é uma pasta em `canais/<slug>/videos/NNN-slug/` e segue `playbooks/produzir-video.md`.
+2. **Todo vídeo novo** é uma pasta em `canais/<slug>/videos/NNN-slug/` e segue `playbooks/produzir-video.md`. **Desde 14/11/2026 (Rodrigo), a embalagem vem antes do roteiro:** pesquisa-referencia → skill `embalagem` (2 títulos + 1 conceito de thumb + promessa, com pesquisa real) → **crivo independente** (`skills/embalagem/CRIVO.md`, máx. 3 rodadas; reprovado = `BLOQUEIO.md`) → roteiro (hook paga a promessa) → storyboard → voz → imagens → render. O portão é só o crivo; o Rodrigo não aprova cada embalagem.
 3. **Leia a bíblia do canal e depois `conhecimento/` antes de produzir.** **Registre o que aprender, sempre com data e fonte** (sem dado = **Hipótese**):
    - aprendizado de um vídeo (hook que funcionou, padrão de thumb, CTR, retenção, voz, estilo de imagem) vai para a **bíblia do canal dele**;
    - só sobe para `conhecimento/` o que for **comprovadamente geral** (vale para qualquer canal: armadilha de ferramenta, custo, processo, como medir). Na dúvida, fica na bíblia;

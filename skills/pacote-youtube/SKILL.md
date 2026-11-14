@@ -13,13 +13,13 @@ Procedimento-base: `playbooks/produzir-video.md` §7. Modelo recomendado: **sonn
 1. Regras gerais: `conhecimento/titulos.md` (N = duração) e `conhecimento/roteiros.md` (capítulos fora de ordem já aconteceram).
 2. Leia `conhecimento/anti-padroes.md`.
 3. Leia `canais/<slug>/canal.yaml` (idioma).
-4. Leia `$V/BRIEF.md`, `$V/SOURCES.md`, `$V/qa/capitulos.json` (gerado pelo `build.py`) e `$V/out/legendas.srt`.
+4. Leia `$V/EMBALAGEM.md` (T1/T2 e promessa aprovados no crivo), `$V/BRIEF.md`, `$V/SOURCES.md`, `$V/qa/capitulos.json` (gerado pelo `build.py`) e `$V/out/legendas.srt`.
 5. Modelo: o `out/youtube.txt` do **vídeo anterior do mesmo canal** (fora do git; leia se existir).
 
 ## Passos
 1. Pegue a duração real: `ffprobe -v error -show_entries format=duration -of csv=p=0 $V/out/video.mp4`. O **N do título** é essa duração arredondada em minutos.
 2. Escreva `$V/out/youtube.txt` (e copie para `$V/entrega/pacote/youtube.txt`) no **padrão de 14/11/2026** (`conhecimento/politicas-youtube.md`), no idioma do canal, **nesta ordem**:
-   - **TÍTULOS:** 3, de 3 padrões diferentes dentro da fórmula da `biblia/titulo.md`, pareados às thumbs A/B/C (≤ 100 caracteres cada).
+   - **TÍTULOS:** 3, pareados às thumbs A/B/C (≤ 100 caracteres cada). **A = T1 e B = T2 do `EMBALAGEM.md` aprovado** (desde 14/11/2026; só ajuste o N de minutos à duração real, sem mudar o padrão); **C = variação** de T1/T2 com outro gatilho (pode ser a fórmula da bíblia, se ela não colidir). Vídeo sem `EMBALAGEM.md` (anterior a 14/11): 3 padrões diferentes da `biblia/titulo.md`.
    - **DESCRIÇÃO** (o texto que vai no campo do YouTube, nesta ordem): (1) **CTA curto** de inscrever-se, curtir e compartilhar (1–2 linhas, natural); (2) **descrição breve** do vídeo (2–4 linhas, sem repetir o título, sem entregar a resposta; a pergunta do fecho pode entrar aqui); (3) **capítulos** de `qa/capitulos.json`, `M:SS Título`, começando em `0:00`, crescentes, ≥ 3 de ≥ 10 s, cada tempo conferido na `legendas.srt`; (4) **fontes e créditos** (fontes de `SOURCES.md`; acervo, fotos e música com licença; créditos só aqui, nunca na tela).
    - **TAGS:** 10–15, idioma do canal.
    - **CATEGORIA** (Educação) e **idioma** do vídeo.
@@ -32,7 +32,7 @@ Procedimento-base: `playbooks/produzir-video.md` §7. Modelo recomendado: **sonn
 ## Critérios de pronto (avaliar)
 Valide com um one-liner Python sobre `out/youtube.txt`:
 - Capítulos em ordem estritamente crescente, o primeiro `0:00`, o último < duração.
-- N do título = duração arredondada (± 1 min); título na fórmula da bíblia do canal e no idioma do canal.
+- N do título = duração arredondada (± 1 min); títulos A/B = T1/T2 do `EMBALAGEM.md` (vídeos desde 14/11/2026) e no idioma do canal.
 - Título ≤ 100 caracteres; descrição na ordem CTA → resumo → capítulos → fontes/créditos; fontes presentes.
 - **0** ocorrências das palavras proibidas em títulos/descrição/tags e **0** menção a IA/voz sintética no `youtube.txt`; checklist do Rodrigo com "Uso de IA = Sim".
 - Arquivos do pacote presentes: `out/video.mp4`, `out/thumbnail.jpg` (< 2 MB), `out/legendas.srt`, `out/youtube.txt`.
