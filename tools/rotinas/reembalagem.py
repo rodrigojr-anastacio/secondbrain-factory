@@ -534,7 +534,7 @@ def marcar(a):
         u = ultima(con, a.youtube_id)
         if not u:
             sys.exit("vídeo sem sugestão registrada")
-        con.execute("UPDATE reembalagem SET status='aplicado', aplicado_em=%s, detectado_por='manual', notas=concat_ws(' | ', notas, %s),"
+        con.execute("UPDATE reembalagem SET status='aplicado', aplicado_em=%s::date, detectado_por='manual', notas=concat_ws(' | ', notas, %s::text),"
                     " atualizado_em=now() WHERE id=%s", (a.aplicado, a.notas, u["id"]))
     print(f"id {u['id']} marcado como aplicado em {a.aplicado}")
 
