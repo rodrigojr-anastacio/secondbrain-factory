@@ -33,3 +33,34 @@ Em Relevo (sem pasta em `canais/`; esta é a bíblia de título/thumb): título,
 
 ## Thumbs da reembalagem 14/11/2026 (teste aprovado pelo Rodrigo): fundo navy, 1 objeto-herói. **Hipótese (teste aprovado 14/11/2026)**, medir CTR
 `pesquisa/reembalagem-2026-11-14/thumbs/emrelevo.py` (custo US$ 0, 100% dados reais, sem IA de imagem): El Niño = língua de anomalia ≥ 2 °C da NOAA OISST (08/11) em laranja/vermelho sobre oceano navy, termômetro grosso cravado no Niño 3.4, seta amarela até o Brasil em coral, "SÓ 2 °C?"; Sul = Cone Sul oblíquo com Andes como parede de cume branco, fita ciano (rio de umidade) colada à encosta até o Sul em coral, sem ponta de seta, "CULPA DOS ANDES?". Fundo escuro em vez do bege/polaroid (conceitos em `pesquisa/reembalagem-2026-11-14/PROPOSTAS.md`). Geração por homografia em PIL (sem cartopy/matplotlib).
+
+## Embalagem antes do roteiro (14/11/2026)
+Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/embalagem/`) **antes** do roteiro; o hook paga a promessa. Fonte: decisão do Rodrigo, 14/11/2026; base `pesquisa/reembalagem-2026-11-14/padroes.md` e `PROPOSTAS.md` (seção Em Relevo). Esta bíblia cobre título e thumb (não há `biblia-thumb.md`). Views e datas de 14/11/2026; "×med" = views ÷ mediana real do canal da referência. Sem dado de CTR nosso: tudo **Hipótese (reembalagem 14/11/2026, CTR a medir)**.
+
+### Padrões de título medidos
+- **"Por que [LUGAR] é/tem [anomalia]?"** (lugar como sujeito, sem dar a causa): [Por que a Região Sul é o OPOSTO das outras regiões do Brasil?](https://youtu.be/xpBOF8FXXHM) 736.562 · 24/10/2026 · 15,4× (mediana frágil, 8 vídeos); [Por que Existem Duas Guianas?…](https://youtu.be/it5Vsv851Rc) 512.180 · 11/09/2026 · 14,3×.
+- **"O/A [coisa concreta] que [faz algo]"** (o objeto aparece, a causa não): [O EF5 de Smithville: O Tornado que Arrancou o Asfalto](https://youtu.be/obG4EMWkCcA) 651.512 · 30/05/2026 · 3,6×; [O Estado ISOLADO que pode MUDAR o FUTURO do Brasil](https://youtu.be/ZSBraswH1To) 114.189 · 20/05/2026 · 3,2×.
+- **Contraste Norte × Sul + "por que":** [SUPER EL NIÑO 2026: por que o Norte vai SECAR e o Sul vai AFOGAR](https://youtu.be/GnEXgEaYz1M) 149.915 · 22/05/2026 · 6,2×; [O El Niño RACHOU o Brasil ao meio!](https://youtu.be/BpIY4ex2u6E) 142.907 · 10/11/2026 · 5,9×.
+
+### Padrões de thumb medidos
+- **Pergunta curta (2–3 palavras, branco + amarelo) sobre mapa escuro com 1 região destacada:** [it5Vsv851Rc](https://youtu.be/it5Vsv851Rc) ("POR QUE?") 14,3×; [O que está ACONTECENDO com SANTA CATARINA?!](https://youtu.be/CMHf4Cqpcrs) 447.720 · 30/10/2026 · 12,5×.
+- **Anomalia do Pacífico em tela cheia + 2–3 palavras:** [Super EL NIÑO NO BRASIL: o que esperar?](https://youtu.be/BAf4EYZ1AGk) 5.930.950 · 27/08/2026 · 27,9×; [O VERDADEIRO IMPACTO DO SUPER EL NIÑO NA SUA VIDA](https://youtu.be/IGgMxhMxHao) 1.462.609 · 27/07/2026 · 3,3×.
+- **Número grande sobre mapa escuro:** BpIY4ex2u6E ("7 TORNADOS em 6 DIAS") 5,9×; [O CORREDOR DE TORNADOS NO BRASIL: 524 Casos Confirmados](https://youtu.be/TfTiDfsKK04) 56.483 · 13/09/2026 · 3,2×.
+- **Bloco 3D do lugar / o invisível tornado visível:** xpBOF8FXXHM (bloco 3D + seta amarela) 15,4×; [Tem um oceano escondido no Sul do Brasil que ninguém vê](https://youtu.be/pm0Pgr5BlqA) 86.922 · 25/10/2026 · 1,8×.
+
+### O que NÃO funciona neste canal
+- **Notícia no título** ("7 tornados…", "tornado em Chapecó"): 18 dos 25 primeiros da busca são TV ou flagrante.
+- **Molde genérico sem objeto** ("O detalhe que quase ninguém conta sobre o Super El Niño…"): promessa vaga e desencontrada da thumb; reprovado na r1 (El Niño T2).
+- **Pergunta sim/não sobre recorde** ("vai ser o mais forte da história?"): esgota a curiosidade.
+- **"O pior ainda vem":** perto da mediana (1,0–1,4×).
+- **Thumb com 3+ focos:** língua + fumaça + chuva + relevo ("VEM DAQUI", El Niño v1); 6 elementos com o Sul a ~15% da altura ("NÃO É AZAR", Sul v1). Ambas reprovadas na r1.
+- **Pintar o Pacífico inteiro de vermelho:** 5 das 12 thumbs do tema já fazem isso.
+- **Continente de satélite + Sul vermelho + funil:** é a composição do Além do Mapa (06/11).
+- **Bege + polaroid pequeno:** as nossas eram as únicas claras da grade e somem a 320×180.
+
+### As 5 lições, adaptadas a vídeo novo (PROPOSTAS.md (b), 14/11/2026)
+1. Notícia sai do título: lugar + anomalia concreta, sem dar a causa (a TV domina o "7 tornados").
+2. Nomear o objeto concreto do achado (termômetro, rio invisível), nunca "o detalhe que ninguém conta".
+3. Thumb escura com 1 herói (região, língua quente ou fluxo) e pergunta de 2–3 palavras; fugir do Pacífico inteiro vermelho e do "Sul vermelho + funil".
+4. Se o pagamento estiver no meio do vídeo, o capítulo leva o termo do título (no Sul, o "rio" só aparecia aos 48%).
+5. Prévia de 320×180 ao lado dos concorrentes antes de aprovar; e o hook já abre a pergunta do título (os 4 hooks do canal repetiam a moldura de aula, gap 5 de `pesquisa/gap-2026-11-14/RELATORIO.md`).

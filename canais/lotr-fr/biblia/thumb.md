@@ -26,3 +26,6 @@ Regra de canal: **prevalece** sobre `conhecimento/thumbnails/README.md`. Thumbs 
 
 ## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
 Thumb sem foto real de morto, sem sangue/ferimento/caveira e sem as palavras proibidas no texto. Em IA: pintura sem sangue, ferimento ou cadáver.
+
+## Embalagem antes do roteiro (14/11/2026)
+Todo vídeo novo do canal passa pela skill `embalagem` + crivo independente (`skills/embalagem/`) antes do roteiro (decisão do Rodrigo, 14/11/2026); o conceito de thumb aprovado no crivo é o ponto de partida da arte, dentro do padrão desta bíblia (pintura a óleo romântica, pergunta curta). Sem lições de outros canais.

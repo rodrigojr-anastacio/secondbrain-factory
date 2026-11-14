@@ -1,10 +1,10 @@
 # Títulos: regras gerais
 
-> **Regras gerais. Regra de canal está em `canais/<slug>/biblia/` e sempre prevalece.** A fórmula de título de cada canal, com dados, está em `canais/<slug>/biblia/titulo.md`: `historia-ptbr` = "A história INTEIRA de X em N minutos"; `dossie-es` = "TODA la historia de <organización> en N minutos"; `lotr-fr` = pergunta curiosa.
+> **Regras gerais. Regra de canal está em `canais/<slug>/biblia/` e sempre prevalece.** A fórmula de título de cada canal, com dados, está em `canais/<slug>/biblia/titulo.md` (`historia-ptbr`, `dossie-es`, `lotr-fr`, `lugares-guerra-en`; Em Relevo em `pesquisa/canal-clima-2026-11/biblia-titulo.md`). A fórmula fica na bíblia e muda com dado; a etapa de **embalagem** (skill `embalagem`, 14/11/2026) mede a colisão da fórmula com os clones no tema antes de usá-la (ex.: "A história INTEIRA de X" e "TODA la historia de X" só onde o tema ainda não existe nela). `lotr-fr` = pergunta curiosa.
 
 **Como atualizar:** **Tendências** (títulos que viralizam lá fora), **Métricas** (views, % assistido e o CTR do Studio que o Rodrigo passar) e **feedback do Rodrigo**. Padrão de um canal vai para a bíblia dele. Cada entrada leva **data e fonte**; sem dado = **Hipótese**. Commit descritivo.
 
-Última revisão: 2026-11-04 (caixinhas por canal: fórmulas e dados por canal movidos para as bíblias).
+Última revisão: 2026-11-14 (embalagem + crivo; antes, 2026-11-04: caixinhas por canal, fórmulas e dados por canal movidos para as bíblias).
 
 
 > **Lente de apoio (não é regra):** antes de propor, passe a ideia pelas 5 condições de decisão por atalho em `conhecimento/decisao-do-clique.md` (09/11/2026).
@@ -57,3 +57,14 @@ Exemplo de tabela de padrões (Where They Stood + Civil War Fine Print, 12/11/20
 | Why Is There a [coisa estranha] in [lugar]? | Why Is There a Japanese Submarine in Alaska? | 33 mil |
 Palavras-gatilho recorrentes: **still**, **can't**, **weren't supposed to**, **real**, coisa concreta e estranha (submarino, 400 nukes, B-52 num lago).
 Cada bíblia de canal deve ter a **sua** tabela de padrões das referências (atualizar a cada garimpo). Os 3 títulos do "Testar e comparar" saem de 3 padrões diferentes da tabela, cada um pareado com uma thumb.
+
+## Embalagem + crivo (14/11/2026)
+Todo vídeo novo passa por `skills/embalagem/` (2 títulos + 1 conceito de thumb + promessa, com pesquisa real no YouTube) e por um crivo independente (`skills/embalagem/CRIVO.md`) **antes do roteiro** (decisão do Rodrigo, 14/11/2026). Na reembalagem dos 15 vídeos publicados o crivo reprovou 19 de 45 elementos na r1 e aprovou 45 de 45 na r2 (`pesquisa/reembalagem-2026-11-14/PROPOSTAS.md`). Só entra aqui o que apareceu em **2+ canais**; o resto fica na bíblia do canal.
+- **A promessa do título é paga cedo e sustentada pelo vídeo inteiro.** Reprovaram: título de um caso só num vídeo de vários (dossie-es: MiG ~80 s de 13:43, Paraguas ~75 s), curiosidade resolvida em segundos (historia-ptbr: Cleópatra × iPhone, 6 s), promessa paga só no fim (historia-ptbr: "como Roma caiu", queda aos 12:47) e subtítulo que o vídeo não paga (dossie-es: "Los Archivos Secretos de Hoover", ~15 s). Em Relevo teve a mesma ressalva (pagamento do T2 em 4:12 e 5:02). A promessa vira obrigação escrita para o roteiro. [`PROPOSTAS.md` (a) e (b)]
+- **Colisão de fórmula com clones no mesmo tema** conta como cópia: o N diferente não diferencia. historia-ptbr: "N anos em N minutos" colidiu no Egito (7 títulos) e no Brasil (7); dossie-es: "TODA la Historia… | subtítulo" fica na mediana onde o Atlas já fez o tema (CIA 1.055). Medir a colisão (yt-dlp via WARP) antes de fechar o título. [`pesquisa/reembalagem-2026-11-14/padroes.md`; `pesquisa/gap-2026-11-14/RELATORIO.md` gap 2]
+- **Referências medidas, não de olho:** ≥ 2 vídeos reais com o mesmo padrão, mesmo nicho e idioma, ≤ ~400 d, **acima da mediana real** do canal deles (últimos 50 uploads via `playlistItems` + `videos.list`; o script `skills/embalagem/scripts/pesquisa_embalagem.py` calcula). As medianas "de olho" da r1 erraram em vários canais. [`padroes.md`, cabeçalho]
+- **Título e thumb são uma dupla que cria uma pergunta**: a thumb não repete palavra do título (reprovações em historia-ptbr: Rússia e Irã; dossie-es: KGB e FBI). Detalhe em `conhecimento/thumbnails/README.md`.
+- **Notícia, pergunta crua de tema e promessa vaga** saem do título nos 3 canais da reembalagem (pergunta crua é commodity em pt; "o detalhe que ninguém conta" no Em Relevo; "Lo que NO te contaron" no dossie-es). Entra um 2º elemento concreto (objeto, agente, anomalia).
+
+### Próximo passo (não implementado)
+**Eval automático do crivo da embalagem:** usar o histórico `embalagem/crivo-r*.md` (e `EMBALAGEM-r*.md`) + o CTR/retenção do Studio dos vídeos publicados para calibrar a régua do crivo. Decisão do Rodrigo de 14/11/2026: deixar para um segundo momento.

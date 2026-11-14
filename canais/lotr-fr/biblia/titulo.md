@@ -29,3 +29,6 @@ Regra de canal: **prevalece** sobre `conhecimento/titulos.md`.
 
 ## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
 Título (e os 3 do "Testar e comparar"), descrição e tags **sem** morte/morreu/morto/assassinado/assassinato (es: muerte/murió/muerto/asesinado/asesinato; en: death/died/dead/killed/murdered/assassinated/murder) nem massacre/chacina/"chocante"/"perturbador"/"nojento". Troque por vítimas, baixas, atentado, golpe, caso. Na narração pode, com contexto factual.
+
+## Embalagem antes do roteiro (14/11/2026)
+Todo vídeo novo do canal passa pela skill `embalagem` + crivo independente (`skills/embalagem/`) antes do roteiro (decisão do Rodrigo, 14/11/2026): 2 títulos, 1 conceito de thumb e a promessa que o hook paga. A pergunta curiosa e a pintura desta bíblia continuam valendo; o canal não entrou na reembalagem dos 15 vídeos, então não há lições de outros canais aqui.

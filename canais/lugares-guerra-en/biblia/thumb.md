@@ -18,3 +18,9 @@ Base: 11/11 thumbs do WTS medidas em pixel (`pesquisa/lugares-guerra/ANATOMIA.md
 
 ## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
 Thumb sem foto real de morto, sem sangue/ferimento/caveira e sem as palavras proibidas no texto. Em IA: foto real de morto, corpo em destaque, sangue ou ferimento (já vedado; reforçado em 14/11/2026).
+
+## Embalagem antes do roteiro (14/11/2026)
+Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/embalagem/`) **antes** do roteiro; o hook paga a promessa, e a thumb nasce do conceito aprovado. Canal fora da reembalagem: lições GERAIS do crivo, **Hipótese para este canal** (fonte: `pesquisa/reembalagem-2026-11-14/PROPOSTAS.md` (b); `pesquisa/gap-2026-11-14/RELATORIO.md` gaps 3 e 4; Rodrigo, 14/11/2026).
+- **1 foco só**, legível a 320×180 numa maquete ao lado do mosaico do tema. Thumb com 3+ focos foi reprovada em 3 canais da fábrica.
+- **Não repetir palavra do título** na arte (já valia aqui: "complementam, nunca repetem"); título e thumb juntos devem criar a pergunta.
+- **Objeto de guerra ocupando ≥ 45% do quadro** (gap 3: herói pequeno ou difuso some a 320×180; o WTS usa objeto único: tanque, B-52, "98").

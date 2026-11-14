@@ -26,3 +26,10 @@ Midway (001): A "Why Can't You Visit Midway Atoll?" · B "What's Still Under the
 
 ## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
 Título (e os 3 do "Testar e comparar"), descrição e tags **sem** morte/morreu/morto/assassinado/assassinato (es: muerte/murió/muerto/asesinado/asesinato; en: death/died/dead/killed/murdered/assassinated/murder) nem massacre/chacina/"chocante"/"perturbador"/"nojento". Troque por vítimas, baixas, atentado, golpe, caso. Na narração pode, com contexto factual.
+
+## Embalagem antes do roteiro (14/11/2026)
+Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/embalagem/`) **antes** do roteiro; o hook paga a promessa. Este canal **não** entrou na reembalagem dos 15 vídeos publicados: abaixo vão só as lições GERAIS do crivo, todas **Hipótese para este canal** (vieram de historia-ptbr, dossie-es e Em Relevo; `pesquisa/reembalagem-2026-11-14/PROPOSTAS.md` (b) e `padroes.md`). Fonte da decisão: Rodrigo, 14/11/2026.
+- **Promessa paga cedo e sustentada pelo vídeo inteiro:** a pergunta do título tem de ser verdade e aparecer logo (gap 5 do `pesquisa/gap-2026-11-14/RELATORIO.md`: aqui a pergunta chegava aos 1:32–1:36, e o Wake, 529 mil, a faz aos 0:15). Título de um caso que ocupa 1 minuto de vídeo longo, curiosidade resolvida em segundos ou pagamento só no fim foram reprovados em 2 canais.
+- **Colisão de fórmula com clones no mesmo tema** (gap 2): "Why Can't You Visit X?" para um lugar que já tem esse título com milhões disputa a mesma busca; medir antes de fechar.
+- **Medianas reais e ≥ 2 referências acima da mediana** do canal delas, mesmo idioma; a mediana de olho errou na r1 da reembalagem.
+- **O objeto concreto no título** (gap 4: 10 dos 12 maiores do grupo têm um objeto) combina com a regra "still" desta bíblia.

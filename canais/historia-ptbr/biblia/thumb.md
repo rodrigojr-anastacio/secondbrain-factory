@@ -74,3 +74,26 @@ Thumb sem foto real de morto, sem sangue/ferimento/caveira e sem as palavras pro
 
 ## Reembalagem 14/11/2026 (teste aprovado pelo Rodrigo): 1 foco + lacuna, sem nome de país. **Hipótese (teste aprovado 14/11/2026)**, medir CTR
 7 thumbs novas (`videos/NNN/reembalagem-2026-11-14/thumb-nova.jpg`; código `pesquisa/reembalagem-2026-11-14/thumbs/compose.py`; conceitos e referências em `pesquisa/reembalagem-2026-11-14/PROPOSTAS.md`): 2 a 3 palavras-pergunta em Libre Caslon (1ª em ouro) sobre degradê escuro, no máximo 1 pílula de data, **1 foco por lado e sem panorama**: Egito (Cleópatra grande + pirâmide lisa "JÁ ERA ANTIGA"), Índia (duelo "CHUVA × CANHÃO"), Irã ("MESMO PAÍS?"), China ("IMORTAL?"), Brasil (diagonal "NADA MUDOU?", 1511 × 2026), Roma (senador chorando "DE NOVO?"), Rússia (só o mapa aceso, sem personagem, "TUDO ISSO?": desvio pequeno da bíblia, vale o 3º estilo "mapa-império aceso"). Aprendizado de ferramenta: nano-banana-2.1/edit acerta personagem + cenário com pedido de "RIGHT x% simple/dark"; para o Brasil, 2 bases separadas (1511 e 2026) e a diagonal no código (reposicione cada base na tela antes de cortar).
+
+## Embalagem antes do roteiro (14/11/2026)
+Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/embalagem/`) **antes** do roteiro; o hook paga a promessa. A thumb nasce do conceito aprovado no crivo (1 foco, lacuna, sem palavra do título), e a skill `thumbnail` só executa a arte. Fonte: decisão do Rodrigo, 14/11/2026; base `pesquisa/reembalagem-2026-11-14/padroes.md` e `PROPOSTAS.md`.
+
+### Padrões de thumb medidos (Hipótese (reembalagem 14/11/2026, CTR a medir): sem CTR nosso)
+- **Personagem grande (50–70% da altura) + monumento ao entardecer + 2–3 palavras:** [Egito de Cleópatra…](https://youtu.be/1LImwJdMRaA) 240.167 · 16/09/2026 · 13,7×; [EGITO ANTIGO: A História Completa em 20 Minutos…](https://youtu.be/GPt6u5mj74E) 438.952 · 03/05/2026 · 10,8×.
+- **Duelo A × B, dois bonequinhos cara a cara:** [Por Que China e Japão São Tão Rivais?…](https://youtu.be/tzfbDkQx7Hw) 258.141 · 04/07/2026 · 297×; [A China Esteve na Frente por 700 Anos…](https://youtu.be/As5HdY_D-uI) 77.373 · 19/10/2026 · 2,1×.
+- **Pergunta curta + personagem com emoção:** [POR QUE ROMA NUNCA CONQUISTOU A ÍNDIA?](https://youtu.be/guiOxLd8X3M) 3,9×; As5HdY_D-uI 2,1×. Ressalva: as refs usam 3–4 palavras.
+- **Antes × depois (tela dividida ou diagonal do mesmo lugar) + 2 palavras:** [Revolução Industrial… Antes e Depois das Fábricas](https://youtu.be/g60GrTMKyiA) 562.325 · 03/03/2026 · 6,6×; [A História do Rio São Francisco (1500–2026)…](https://youtu.be/XexidjTKJGY) 96.520 · 12/08/2026 · 33×.
+- **1 figura grande com emoção forte, fundo escuro e quente:** [A QUEDA DE ROMA: O DIA em Que o IMPÉRIO ROMANO Acabou de Vez!](https://youtu.be/cM9084oMpXc) 189.497 · 04/04/2026 · 3,3×; [58Um0ZXSXx4](https://youtu.be/58Um0ZXSXx4) 16,5×. As claras e didáticas de Roma ficam perto da mediana.
+- **Mapa aceso como foco único + 2 palavras:** [O País Africano Que Nunca Foi Colonizado](https://youtu.be/n23GEcINbCg) 219.681 · 19/06/2026 (mediana frágil); [Por que a Rússia é formada por 21 países diferentes](https://youtu.be/T6f2gWo9kS0) 33.935 · 07/02/2026 · 18,5×.
+
+### O que NÃO funciona neste canal
+- **Thumb com muitos focos:** Roma v1 (senador + ouro + pimenta + balança + godo + Coliseu + fumaça + pílula com seta, 8 elementos); Brasil v1 "MESMO NAVIO?" (4 leituras, 3 focos, navios de 90 px). Ambas reprovadas no crivo r1.
+- **Thumb que repete o título:** viking + tamanho no título e na thumb (Rússia v1); pílula "559 a.C. · 2026" = "De Ciro aos aiatolás" (Irã v1).
+- **Líder atual + cidade em chamas + NOME + datas:** molde dos clones.
+- **Thumbs claras e didáticas de Roma:** ficam perto da mediana; as que rendem são escuras e de perda.
+- **Pergunta cuja resposta é óbvia ou 2 focos sem base** (Rússia v1 "TUDO ISSO?" com viking pequeno + pílula 862→1991, ref errada).
+
+### Lições adaptadas a vídeo novo (PROPOSTAS.md (b), 14/11/2026)
+- Thumb com **lacuna** (pergunta, não resposta), **1 foco**, sem palavra do título, conferida numa maquete 320×180 ao lado do mosaico do tema.
+- Se o gargalo é impressão, o nome do país vai no **título**, não na arte (compatível com a regra de 2–3 palavras acima).
+- Entregar os 3 estilos continua valendo para o "Testar e comparar", mas todos partem do **conceito aprovado** na embalagem; o que varia é texto, expressão ou enquadramento.
