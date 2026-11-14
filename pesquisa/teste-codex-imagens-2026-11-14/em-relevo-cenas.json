@@ -1,0 +1,13 @@
+{"_doc": "10 cenas do Em Relevo longo-04 (blocos b01..b28) reescritas em inglês como BASE de mapa sem texto (no vídeo real, rótulos, pinos e réguas são do código Remotion). Gerado para o teste Codex de 14/11/2026.",
+ "cenas": [
+  {"id": "b01", "prompt": "Low oblique aerial view over the Iguacu river valley in southern Brazil (Parana state), real satellite terrain texture, dark green forest and farmland, the river drawn as a glowing blue line curving through the valley, a small city on a river bend, rainy overcast sky haze"},
+  {"id": "b03", "prompt": "Oblique aerial satellite view of the dry backlands of Ceara in northeastern Brazil, brown and ochre terrain, scattered dry vegetation, the Atlantic coast visible at the top, harsh clear light, no clouds"},
+  {"id": "b05", "prompt": "Satellite view of the whole of Brazil and South America seen from high above, realistic terrain, the northeast region of Brazil tinted in translucent coral red and the south of Brazil tinted in translucent water blue, dark navy ocean"},
+  {"id": "b08", "prompt": "Oblique aerial satellite view of Parana state in southern Brazil, the Iguacu river drawn as a bright glowing blue ribbon running from east to west across dark green terrain, small white dots along the river"},
+  {"id": "b12", "prompt": "3D terrain view of a small riverside city in southern Brazil (Uniao da Vitoria) flooded: a flat plane of muddy water covering the floodplain and a peninsula, rooftops emerging, low orbiting camera, light rain, grey sky"},
+  {"id": "b14", "prompt": "3D satellite terrain view of the Itajai valley in Santa Catarina, Brazil: a narrow V-shaped valley between steep green forested hills with a river at the bottom and a city along it, low camera between the hills"},
+  {"id": "b17", "prompt": "High oblique satellite view of the state of Ceara in northeastern Brazil, brown dry terrain, cloudless sky, the whole state region tinted in translucent coral red with thin white borders, dark navy ocean"},
+  {"id": "b24", "prompt": "Realistic satellite globe of the Earth seen from space, rotated to show the equatorial Pacific Ocean with South America on the right edge, deep navy ocean, thin cloud swirls, black space background"},
+  {"id": "b26", "prompt": "Educational 3D diagram of the Walker circulation over a satellite view of the equatorial Pacific and South America: a large arc of rising warm air over the Pacific drawn as a translucent orange arrow, descending air arrows over the Amazon, simple clean arrows"},
+  {"id": "b28", "prompt": "Satellite view of South America at night-dusk, the subtropical jet stream drawn as a wide animated-looking ribbon of white and pale blue wind flowing high above southern Brazil, a few pale blue upward arrows from the ground"}
+ ]}
