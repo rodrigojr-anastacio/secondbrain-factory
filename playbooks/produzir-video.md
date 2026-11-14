@@ -7,7 +7,7 @@ O vídeo **não** roda numa sessão só. São 3 execuções de `tools/claude_run
 
 | # | Etapa (`--etapa`) | Modelo | Cobre |
 |---|---|---|---|
-| 1 | `roteiro-storyboard` | opus | §1–2 e storyboard: `roteiro.py` → `SCRIPT.md`, `blocos.json`, `cenas.json`, `STORYBOARD.md`, `storyboard.json` |
+| 1 | `roteiro-storyboard` | opus | §1, §1b (embalagem + crivo), §2 e storyboard: `roteiro.py` → `SCRIPT.md`, `blocos.json`, `cenas.json`, `STORYBOARD.md`, `storyboard.json` |
 | 2 | `producao` | sonnet | §3–4: voz (`tts_fish.py`) + imagens (`img_openai.py`) + thumb-base |
 | 3 | `montagem-render` | sonnet | §5–7: `build.py`, render, QA (`QA.md`), thumbnail final e `out/youtube.txt` |
 
@@ -38,6 +38,9 @@ tools/claude_run.sh --video $ID --etapa producao --cwd $V --prompt-file $V/.prom
 - **Modelo de referência** (vídeo que performou, do **canal-modelo da bíblia** ou do mesmo formato): estrutura, hook, duração. Modele a estrutura; nunca traduza ou copie o texto.
 - Use `tools/watch.py <ID>` na referência para ter o hook real e os frames.
 - Critérios de pronto e restrições do canal.
+
+## 1b. Embalagem + crivo (antes do roteiro; desde 14/11/2026)
+Título (T1/T2) + conceito de thumb + promessa com pesquisa real no YouTube, avaliados por crivo independente: `skills/embalagem/SKILL.md` e `CRIVO.md`. Saída `EMBALAGEM.md` + `CRIVO.md`; reprovado 3× = `BLOQUEIO.md`. O portão é só o crivo (o Rodrigo não aprova cada embalagem). O roteiro abaixo paga a promessa no hook/1º minuto.
 
 ## 2. Roteiro (`SCRIPT.md` + `SOURCES.md`)
 - **Estrutura, hook, capítulos, transições, fecho e tamanho: `canais/<slug>/biblia/roteiro.md`** (cada canal tem a sua; ex.: historia-ptbr = narrativa contínua em eras ligadas; dossie-es = expedientes encadeados; lotr-fr = do familiar à pergunta com payoff no fim).
