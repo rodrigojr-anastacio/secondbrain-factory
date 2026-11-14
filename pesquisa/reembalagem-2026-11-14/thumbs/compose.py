@@ -94,7 +94,7 @@ def aba(im, n):
 def dossie(base, sigla, n, selo_txt, selo_xy, selo_sz, out, cx=985, seam=None, sigla_y=330, ang=-7, maxw=560, hi=420):
     im = fit(Image.open(base).convert("RGB"))
     if seam: im = feather(im, seam[0], seam[1])
-    d = ImageDraw.Draw(im); ls = sigla.split("\n"); f = fitfont(d, max(ls, key=len), maxw, hi if len(ls) == 1 else 260, 120, bebas)
+    d = ImageDraw.Draw(im); ls = sigla.split("\n") if sigla else []; f = fitfont(d, max(ls, key=len), maxw, hi if len(ls) == 1 else 260, 120, bebas) if ls else None
     for i, l in enumerate(ls):
         d.text((cx, sigla_y + (i - (len(ls) - 1) / 2) * f.size * 0.95), l, font=f, fill=TINTA, anchor="mm")
     sello(im, selo_xy[0], selo_xy[1], selo_txt, selo_sz, ang=ang)
@@ -193,8 +193,8 @@ def cia():
 def mossad():
     return dossie(f"{DV}/002-mossad/reembalagem-2026-11-14/base/mossad1.jpg", "MOSSAD", 2, "FUGA", (400, 470), 90, None, seam=(795, 90), maxw=520, sigla_y=300), f"{DV}/002-mossad"
 def fbi():
-    im = dossie(f"{DV}/003-fbi/reembalagem-2026-11-14/base/fbi5.jpg", "FBI", 3, "¿QUIÉNES?", (270, 628), 84, None, seam=(850, 50))
-    d = ImageDraw.Draw(im); d.text((270, 250), "FBI", font=bebas(230), fill=(18, 18, 18), anchor="mm")   # "FBI" pintado no vidro
+    im = dossie(f"{DV}/003-fbi/reembalagem-2026-11-14/base/fbi5.jpg", "", 3, "¿QUIÉNES?", (270, 628), 84, None, seam=(850, 50))
+    d = ImageDraw.Draw(im); d.text((270, 250), "FBI", font=bebas(290), fill=(18, 18, 18), anchor="mm")   # "FBI" pintado no vidro
     return im, f"{DV}/003-fbi"
 def cosa():
     return dossie(f"{DV}/004-cosa-nostra/reembalagem-2026-11-14/base/cosa2.jpg", "COSA\nNOSTRA", 4, "TRAIDOR", (445, 500), 90, None, maxw=560), f"{DV}/004-cosa-nostra"
