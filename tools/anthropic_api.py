@@ -9,8 +9,8 @@
   Batch API = 50% do preço normal.
 - Todo custo vai para financas.consumo (fornecedor 'Anthropic API'); o crédito do mês está em financas.lancamentos
   (pre_pago), então financas.saldo_pre_pago mostra o saldo.
-- Teto mensal por grupo (brief 12/11/2026): rotinas+garimpo ≤ US$ 30, qa ≤ US$ 30, dev (desenvolvimento e
-  pesquisas pela API, servico 'dev:<nome>', tools/job_api.py) ≤ US$ 40. Total 100. `checar_teto()` levanta
+- Teto mensal por grupo (brief 12/11/2026): rotinas+garimpo ≤ US$ 50 (era 30; Rodrigo 14/11), qa ≤ US$ 25, dev (desenvolvimento e
+  pesquisas pela API, servico 'dev:<nome>', tools/job_api.py) ≤ US$ 25. Total 100. `checar_teto()` levanta
   TetoExcedido antes de gastar.
 """
 import datetime as dt
@@ -34,8 +34,8 @@ APELIDOS = {"opus": "claude-opus-5-5", "sonnet": "claude-sonnet-5-5", "haiku": "
             "fable": "claude-fable-5-2"}
 
 # grupos de teto: servico em financas.consumo começa com um destes prefixos
-TETOS = {"rotinas": (30.0, ("rotina:", "batch:")), "qa": (30.0, ("preqa",)),
-         "dev": (40.0, ("dev:",))}
+TETOS = {"rotinas": (50.0, ("rotina:", "batch:")), "qa": (25.0, ("preqa",)),
+         "dev": (25.0, ("dev:",))}
 
 
 class TetoExcedido(RuntimeError):
