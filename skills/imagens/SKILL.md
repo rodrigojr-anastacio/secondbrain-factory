@@ -13,7 +13,7 @@ Procedimento-base: `playbooks/produzir-video.md` §3 (parágrafo "Imagens") e §
 1. Leia o bloco `visual` de `canais/<slug>/canal.yaml` (`gerador`, `modelo`, `qualidade`, `tamanho`, `estilo_prompt`). **Não troque de motor** sem amostra aprovada no estilo da bíblia: trocar o motor muda a identidade do canal (`conhecimento/anti-padroes.md` §3b).
 2. Leia `conhecimento/anti-padroes.md` (nada de `low`; nada de 2 processos na mesma pasta; saldo; fidelidade) e `conhecimento/thumbnails/README.md` se for gerar a base da thumb.
 3. Leia `$V/BRIEF.md` (teto) e `$V/cenas.json` (nº de imagens).
-4. Saldo: `psql -d vida -c "SELECT * FROM financas.saldo_pre_pago"`. Custo previsto = nº de imagens que faltam × US$ 0,055 (`medium`). Se o saldo não cobrir (o da OpenAI pode estar negativo por recarga não lançada), **pergunte ao Rodrigo** antes de gastar: dinheiro é decisão dele.
+4. Saldo (com `gerador: codex`, só para a reserva do fal): `psql -d vida -c "SELECT * FROM financas.saldo_pre_pago"`. Custo previsto = nº de imagens que faltam × US$ 0,055 (`medium`). Se o saldo não cobrir (o da OpenAI pode estar negativo por recarga não lançada), **pergunte ao Rodrigo** antes de gastar: dinheiro é decisão dele.
 
 ## Passos
 1. **Um processo só**, em primeiro plano (timeout alto; em `claude -p`, processo em segundo plano morre no fim do turno), da raiz do repo:
@@ -24,6 +24,12 @@ Procedimento-base: `playbooks/produzir-video.md` §3 (parágrafo "Imagens") e §
    ```
    Lote grande: divida o `cenas.json` em partes de ~60 imagens (~8 min cada, cabe no timeout de 10 min de um comando); a tool pula ids que já existem.
    Alternativa (canal com `gerador: fal`): `tools/.venv/bin/python tools/img_fal.py <slug> $V/cenas.json $V/imagens --video <id> --paralelo 8`.
+   **Canal com `gerador: codex` (hoje só o `historia-ptbr`, desde 14/11/2026):** Codex CLI do ChatGPT Plus, US$ 0, com fallback automático para o fal (`gerador_fallback: fal`):
+   ```bash
+   tools/.venv/bin/python tools/img_codex.py <slug> $V/cenas.json $V/imagens --video <id> --paralelo 3 --teto <teto do BRIEF> \
+     2>&1 | tee -a $V/logs/img.log
+   ```
+   ~45 s por imagem, ~18 s efetivos com 3 em paralelo: **lotes de ~25 cenas por comando** (`--so`, cabe no timeout de 10 min; rode de novo até 0 faltando, ele pula o que existe). Não passe de `--paralelo 3`. Falha/recusa/imagem preta ou com moldura → só aquela imagem vai para o `img_fal.py`; limite de cota ou 3 falhas seguidas → o resto do lote vai para o fal (o custo do fal é registrado como sempre, notas "fallback codex"; o `--teto` vale para ele). Log por imagem em `$V/imagens/codex_log.jsonl`; acompanhamento em `tools/codex_uso.sh`. No relatório da etapa, informe **imagens Codex × fallback** e a cota 5 h/semanal que o fim do comando imprime. Armadilhas do Codex: `conhecimento/anti-padroes.md` §3c. **Outros canais não usam o Codex** (dossie-es segue 100% fal).
 2. As tools travam a pasta (`$V/imagens/.img.lock`; 2º processo sai com código 3) e pulam ids já existentes. **Não** lance outro processo "para acelerar".
 3. Conte no fim: `ls $V/imagens | wc -l` (o custo sai no fim do processo; 204 imagens ≈ 25 min).
 4. Se aparecer `insufficient_quota`/"no credits": pare o processo, escreva `$V/BLOQUEIO.md` e cubra as faltas com reuso no storyboard. Se o processo morrer antes do fim, lance o custo do lote à mão em `financas.consumo`.

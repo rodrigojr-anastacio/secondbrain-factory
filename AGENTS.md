@@ -28,6 +28,7 @@ fabrica-youtube/
 │   ├── transcrever.py transcrição Whisper de um vídeo do YouTube (via WARP)
 │   ├── tts_fish.py narração Fish Audio com a voz do canal; registra o custo em financas.consumo
 │   ├── img_openai.py / img_fal.py imagens no estilo do canal; registram o custo em financas.consumo; trava por pasta (.img.lock)
+│   ├── img_codex.py imagens pelo Codex CLI (ChatGPT Plus, US$ 0, sem chave de API) com fallback automático para o img_fal.py; canais com visual.gerador: codex (historia-ptbr desde 14/11/2026); codex_uso.sh = resumo por dia
 │   ├── claude_run.py / .sh uma etapa do Claude Code por vídeo (claude -p): modelo por etapa, trava, custo em youtube.execucoes_claude
 │   ├── anthropic_api.py créditos da API Anthropic (chaves rotinas/qa, preços, custo em financas.consumo, tetos mensais)
 │   ├── garimpo_batch.py análise em lote (Batch API) dos vídeos do garimpo → conhecimento/padroes-garimpo.md
@@ -50,6 +51,7 @@ Python: `~/workspace/fabrica-youtube/tools/.venv/bin/python`. Rode os scripts a 
 
 ## Recursos fora da fábrica
 - **Segredos:** `~/.segredos/` (permissão 600). Tokens do YouTube em `~/.segredos/youtube/tokens/<canal>.json`. Nunca imprima, copie ou commite.
+- **Codex CLI (ChatGPT Plus do Rodrigo, 14/11/2026):** `~/.local/bin/codex`, login já feito (`~/.codex/auth.json`: nunca leia nem imprima). Gera imagens pela cota do Plus via `tools/img_codex.py` (só no `historia-ptbr`; fallback fal automático). Uso e limites: `tools/codex_uso.sh`. Armadilhas: `conhecimento/anti-padroes.md` §3d.
 - **Voz Kokoro (local, grátis):** `~/tts/venv-kokoro/bin/python`; exemplo em `~/tts/gen_kokoro.py`.
 - **Proxy WARP:** `socks5://127.0.0.1:40000`, para tudo que acessa o YouTube como usuário (assistir, baixar, abrir a página). O YouTube bloqueia o IP da VPS.
 - **Navegador:** Chromium do Hermes (bibliotecas do sistema instaladas). Para o YouTube, use o proxy WARP.

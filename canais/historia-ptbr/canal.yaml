@@ -21,7 +21,8 @@ piloto:
   - A HISTÓRIA COMPLETA do Egito em N minutos
   - A HISTÓRIA COMPLETA de Roma em N minutos
 visual:
-  gerador: fal              # fal.ai (tools/img_fal.py). Decisão do Rodrigo em 05/11/2026: nano-banana-2.1/edit com refs gpt-image-2 do canal
+  gerador: codex            # 14/11/2026 (Rodrigo): cenas e thumb pelo Codex CLI (ChatGPT Plus, US$ 0, tools/img_codex.py), com as mesmas refs/ref_instrucao/estilo_prompt
+  gerador_fallback: fal     # reserva automática (tools/img_fal.py com o `modelo` abaixo) em erro, recusa, limite de cota ou imagem ruim; antes de 14/11 o gerador era o fal (05/11: nano-banana-2.1/edit + refs)
   modelo_openai: gpt-image-2
   qualidade: medium         # low ficou ruim no vídeo (feedback do Rodrigo, 02/11); thumbnail em high
   modelo: google/nano-banana-2.1/edit   # 05/11/2026; o fal-ai/flux/dev SAIU do canal (sumiam os bonequinhos, 003 v1)

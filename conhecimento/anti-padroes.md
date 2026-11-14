@@ -74,6 +74,15 @@ Fonte: `canais/dossie-es/videos/001-cia/RELATORIO.md` (falhas 1–3) e `QA.md`; 
 - **Mapas:** texto falso ("CASPARIN SEA", "ACSPRIN SEA") mesmo com "completely blank", e enquadramento errado (as Américas sem o Chile). Cubra o texto com o rótulo do código ou use base vetorial de domínio público.
 - Resolução 1344×768: reduzi os zooms do Ken Burns (máx. 1,44x, contra 1,68x no historia-ptbr) para não borrar.
 
+### 3d. Armadilhas do Codex CLI como gerador de imagem (ChatGPT Plus, 14/11/2026)
+Fonte: `pesquisa/teste-codex-imagens-2026-11-14/RELATORIO.md` (30 imagens) e teste do `tools/img_codex.py` (4 cenas do 009-alemanha + fallback forçado, `ops.event_log` origem `img_codex`).
+- **Sem o `codex-code-mode-host`** (instalado à parte em `~/.local/bin/`, release `rust-v0.169.0`) toda ferramenta do Codex falha com "codex-code-mode-host not found". Se o `codex` for atualizado, atualize os dois juntos.
+- **Lento:** ~45 s por imagem (28–77 s; ~11 s são geração, o resto é o agente). 3 em paralelo ≈ 18 s efetivos; 200 imagens ≈ 1 h (o fal faz em ~25 min). Em `claude -p`, rode em lotes de ~25 (`--so`) para caber no timeout de 10 min por comando.
+- **Cota é do Plus, não dinheiro:** ~34 execuções = 6–7% da janela de 5 h e 1% da semanal (indicativo, passos de 1%). O limite aparece no rollout (`rate_limits.rate_limit_reached_type`) ou como erro "usage limit": o `img_codex.py` cai para o fal no resto do lote e grava `codex_limite`. Acompanhe com `tools/codex_uso.sh`.
+- **Inventa contexto e marcos fora de época** que o prompt não pede: Torre Eiffel (1889) e Sacré-Cœur (1875+) numa Paris de 1870 (I003/I004 do 009, teste de 14/11); no dossie-es, conquistadores num mapa "completely blank" e sangue num cirurgião. Em cena de época, escreva o que **não** pode aparecer ("no Eiffel Tower", "no landmarks after 1870") e confira as pranchas como no fal.
+- **Nunca** deixe `OPENAI_API_KEY` no ambiente do codex (cobraria pela API); a tool remove a variável. Nunca leia nem imprima `~/.codex/auth.json`.
+- O PNG original (1672×941, ~2 MB) fica em `~/.codex/generated_images/<thread>/`: a tool apaga depois de converter. Os rollouts em `~/.codex/sessions/` continuam crescendo (texto, pequenos).
+
 ### 4. Saldo zerado no meio da geração (Índia, 2026-11-03, ~19:45)
 - A OpenAI respondeu "You have no credits remaining"; faltaram 2 imagens (`charkha`, `journey_lineup`), cobertas com reuso. [BLOQUEIO.md 002]
 - O banco não reflete o saldo real: `financas.saldo_pre_pago` mostra a OpenAI com US$ 10,00 recarregados, US$ 19,87 consumidos e **saldo de −US$ 9,87** (2026-11-04). Faltam lançar recargas em `financas.lancamentos` (dado do Rodrigo).

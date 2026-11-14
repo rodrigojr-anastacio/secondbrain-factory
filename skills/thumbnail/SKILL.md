@@ -20,6 +20,8 @@ Procedimento-base: `playbooks/produzir-video.md` §7. Modelo recomendado: **sonn
 ## Passos
 1. **Base:** escreva 1–3 cenas de thumb num json no formato de `cenas.json` (ex.: `$V/thumb-cenas.json`, prompt do lugar reconhecível, área livre para o texto, sem texto) e gere em `high`:
    `tools/.venv/bin/python tools/img_openai.py <slug> $V/thumb-cenas.json $V/thumb-var --video <id> --qualidade high` (~US$ 0,22 cada) ou `img_fal.py` com o modelo do canal; confira `financas.saldo_pre_pago` antes.
+   **Canal com `gerador: codex` no `canal.yaml` (hoje só o `historia-ptbr`, desde 14/11/2026):** a base da thumb também sai pelo Codex (US$ 0), com fallback automático para o fal:
+   `tools/.venv/bin/python tools/img_codex.py <slug> $V/thumb-cenas.json $V/thumb-var --video <id> --paralelo 3 --tamanho 1536x864` (a base fica maior que a thumb 1280×720 para o recorte do `Thumbnail.jsx`; não existe "high" no Codex: a qualidade é fixa). Gere 2–3 bases por conceito e escolha. Outros canais seguem como acima.
 2. **Texto no código:** ajuste `src/Thumbnail.jsx` no template da `biblia/thumb.md` (2–3 palavras grandes; fontes e cores do canal) e renderize um still por variação:
    `export PATH=$HOME/.hermes/tools/node-26.12.1-linux-x64/bin:$PATH; cd $V && npx remotion still src/index.jsx Thumbnail thumb-var/final/v1.png` (props/variações como no `thumb-variacoes.json` do 002).
 3. Converta para JPG < 2 MB: `ffmpeg -y -i thumb-var/final/v1.png -q:v 3 thumb-var/final/v1.jpg`. Escolha a principal e copie para `out/thumbnail.jpg`.
