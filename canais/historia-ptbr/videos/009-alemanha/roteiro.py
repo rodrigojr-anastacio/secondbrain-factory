@@ -85,7 +85,7 @@ FW4 = "a round-white-head cartoon bald, chubby Prussian king of 1849, beardless,
 DEPUT = "round-white-head cartoon German members of parliament of 1848, professors and lawyers with spectacles, frock coats and big sideburns"
 BISM = "a round-white-head cartoon tall bald Prussian statesman of the 1860s with a simple flat bushy grey mustache shape, a dark blue uniform coat and a spiked helmet under his arm"
 WILH1 = "a round-white-head cartoon old Prussian king with big simple flat white side whiskers and mustache shapes, a dark blue uniform, a red sash and medals"
-PRUS = "round-white-head cartoon Prussian and German officers of 1871 in dark blue uniforms with spiked leather helmets and swords"
+PRUS = "round-white-head cartoon Prussian and German officers of 1871 in dark blue uniforms with plain spiked leather helmets with smooth fronts (no badge, no emblem, no eagle) and swords"
 WILH2 = "a round-white-head cartoon young German emperor of 1890 with a simple flat upturned waxed mustache shape, a white uniform with a breastplate and a shiny spiked helmet with a plain top, no emblems"
 TROPAS = "round-white-head cartoon German soldiers of 1916 in grey uniforms and round steel helmets"
 WEIM = "round-white-head cartoon Berliners of the 1920s, men in flat caps and coats, women in cloche hats and short coats"
@@ -188,7 +188,7 @@ b("Como um imperador chegou a isso? Desde Otão, o Grande, coroado em novecentos
   card="962")
 b("§ Pior: o imperador não herdava a coroa. Era eleito pelos grandes príncipes e, a partir de mil trezentos e cinquenta e seis, por sete eleitores. Imagine um chefe escolhido pelos próprios subordinados. Quem você acha que mandava?",
   f"electors|{ELEITORES} sitting in a semicircle in a medieval hall, voting by raising their hands, an emperor-candidate waiting nervously" + "@@OS SETE ELEITORES",
-  "golden_bull|A big medieval parchment document with a heavy golden seal hanging from it on a red velvet table, candles" + SEMTXT,
+  "golden_bull|A big completely blank medieval parchment sheet (no writing at all) with a heavy golden seal hanging from it on a red velvet table, candles" + SEMTXT,
   card="1356")
 b("[curious] Era o Sacro Império Romano-Germânico. Séculos depois, Voltaire debochou: não era nem sacro, nem romano, nem império. Eram mais de trezentos pedaços, cada um com o seu senhor.",
   "map_hre|Map of central Europe in the 16th century covered by a dense patchwork of more than three hundred small territories in many different colors, " + MAPA,
@@ -197,19 +197,19 @@ b("[curious] Era o Sacro Império Romano-Germânico. Séculos depois, Voltaire d
   "little_lords|A comic line of round-white-head cartoon little German lords, bishops and city mayors, each standing proudly in front of his own tiny castle" + SEMBAND)
 b("Um império com coroa, mas sem centro. O problema é que uma ideia ia correr por esses pedaços mais rápido que qualquer exército.",
   "crown_no_center|Symbolic scene: a golden imperial crown floating over a map broken into hundreds of small pieces, warm light" + SEMTXT,
-  "sparks_press|Close view of a wooden printing press in a dark workshop with a beam of light, symbolic" + SEMTXT)
+  "sparks_press|Close view of a wooden printing press in a dark workshop with a beam of light, symbolic, no flags anywhere" + SEMTXT)
 
 # ───────────────────────── 3. A PRENSA E O MONGE ─────────────────────────
 cap("3. Uma língua para todos e uma fé partida")
 b("Wittenberg, mil quinhentos e dezessete. Um monge, Martinho Lutero, está furioso: um pregador vende indulgências na região. Pague, e a alma do seu parente sai do purgatório mais cedo.",
-  "wittenberg|A small German university town of 1517 with a castle church with a tall round tower, half-timbered houses and a market square, autumn",
+  "wittenberg|A small German university town of 1517 with a castle church with a tall round tower, half-timbered houses and a market square, autumn, the church door is plain wood with no posters, no writing, no signs anywhere",
   f"luther_angry|{LUTERO}, sitting at a desk in a monastery cell, frowning and writing furiously by candlelight" + SEMTXT + "@@MARTINHO LUTERO",
   f"tetzel|{TETZEL} preaching in a town square to worried round-white-head cartoon peasants dropping coins into the chest, comic" + SEMTXT,
   "coins_chest|Close view of coins falling into a big iron money chest with a heavy lock, warm light" + SEMTXT,
   card="1517")
 b("[curious] O slogan, segundo os críticos: quando a moeda cai no cofre, a alma sai do purgatório. Então Lutero escreve noventa e cinco teses contra isso e, diz a tradição, prega na porta de uma igreja.",
   "soul_jump|A comic symbolic scene: a tiny happy cartoon soul with wings jumping out of a cloud of smoke when a coin falls into a chest" + SEMTXT,
-  f"luther_door|{LUTERO} nailing a big sheet of paper to a heavy wooden church door with a hammer, townspeople watching curious" + SEMTXT,
+  f"luther_door|{LUTERO} nailing a big completely blank sheet of paper (no writing at all) to a heavy wooden church door with a hammer, townspeople watching curious" + SEMTXT,
   "door_paper|Close view of a big sheet of paper nailed to an old wooden church door, a hammer hanging next to it, only tiny unreadable lines on the paper" + SEMTXT)
 b("Só que, setenta anos antes, em Mainz, Gutenberg tinha montado a prensa de tipos móveis. Então as teses correm o império em poucas semanas. Pense nisso como o primeiro texto que viralizou.",
   f"gutenberg|{GUTEN} pulling the big wooden lever of a printing press in a workshop full of paper sheets, proud" + SEMTXT + "@@GUTENBERG",
@@ -312,7 +312,7 @@ b("Os estados do sul correm para o lado da Prússia, o imperador francês é cap
   card="1871")
 b("E aqui está a segunda peça da resposta. A Alemanha não nasceu de uma votação. Nasceu de três guerras, e por isso nasceu na casa do inimigo. Só que país feito na guerra tem fronteira feita na guerra.",
   "piece_two|A second golden puzzle piece placed next to the first, showing a sword lying across a map of central Europe, symbolic" + SEMTXT,
-  "map_1871|Map of Europe in 1871 with the new German Empire painted dark blue in the center and France, Austria and Russia in pale colors around it, " + MAPA,
+  "map_1871|Map of Europe in 1871 with the new German Empire painted dark blue in the center and France, Austria and Russia in pale colors around it, absolutely no letters or country names written on the map, " + MAPA,
   "neighbors_watch|Round-white-head cartoon French, Russian and British gentlemen of 1871 peeking nervously over a fence at a big new factory and barracks, comic" + SEMBAND)
 
 # ───────────────────────── 7. O GIGANTE ─────────────────────────
@@ -327,7 +327,7 @@ b("Dali saem o carro a gasolina, de Benz, e a aspirina, da Bayer. [curious] Aque
   "old_pension|A round-white-head cartoon old German worker of 1890 receiving a few coins at a post office counter and smiling, Bismarck watching from a portrait with a sly face, comic" + SEMTXT)
 b("§ Só que, em mil oitocentos e oitenta e oito, sobe ao trono Guilherme Segundo, jovem e impaciente. Ele demite Bismarck, quer colônias e uma marinha para encarar a britânica. Então consegue juntar contra si França, Rússia e Inglaterra.",
   f"wilhelm2|{WILH2}, posing proudly with one hand on his sword on a big warship deck" + SEMBAND + "@@GUILHERME II",
-  "bismarck_leaves|A round-white-head cartoon old bald statesman with a big grey mustache walking down the stairs of a ship with a suitcase, a young emperor waving from above, comic",
+  "bismarck_leaves|A round-white-head cartoon old bald statesman with a big grey mustache walking down the stairs of a ship with a suitcase, a young emperor waving from above, 1890 harbour with a modern steamship only, no galleon, no Roman soldiers, no crowns on bystanders, comic",
   "warships|A line of big grey battleships of 1905 with tall funnels sailing in the North Sea, smoke" + SEMBAND,
   "alliance|Round-white-head cartoon French, Russian and British leaders of 1907 shaking hands in a circle and looking sideways toward Germany, comic" + SEMBAND,
   card="1888")
@@ -338,7 +338,7 @@ b("Em mil novecentos e catorze vem a guerra em duas frentes que Bismarck temia. 
   card="1918")
 b("Lembra do Salão dos Espelhos? Em mil novecentos e dezenove, os vencedores escolhem o mesmo salão para a Alemanha assinar a paz. Ela perde cerca de um oitavo do território e as colônias, e assume a culpa pela guerra. Só que quem herda essa conta é uma república recém-nascida.",
   "hall_mirrors_empty",
-  "treaty_1919|Round-white-head cartoon diplomats in dark suits at a long table in the Hall of Mirrors of Versailles in 1919, two German delegates signing with grim faces, photographers" + SEMTXT,
+  "treaty_1919|Round-white-head cartoon diplomats in dark suits at a long table in the Hall of Mirrors of Versailles in 1919, two German delegates signing with grim faces, photographers, every man has a plain simple round white head with dot eyes and an optional simple big mustache shape, nobody has a toothbrush mustache or side-parted hair" + SEMTXT,
   "map_1919|Map of Germany in 1919 in dark blue with small areas on its edges in the west, north and east colored grey to show lost lands, " + MAPA,
   "bill_republic|A round-white-head cartoon young woman in 1919 clothes representing a new republic receiving an absurdly long unrolled bill from stern diplomats, comic" + SEMTXT,
   card="1919")
@@ -352,14 +352,14 @@ b("Berlim, novembro de mil novecentos e vinte e três. Uma mulher empurra um car
   "kids_banknotes|Round-white-head cartoon children of 1923 playing with bundles of worthless banknotes like building blocks in a street, comic" + SEMTXT,
   card="1923")
 b("Se os seus pais viveram a inflação do Brasil antes do Plano Real, eles conhecem esse filme. Agora imagine os preços dobrando a cada poucos dias. E quem leva a culpa é a república de Weimar, a primeira democracia alemã.",
-  "brazil_market|A round-white-head cartoon Brazilian supermarket employee of 1990 putting new price stickers on top of old price stickers on cans with a price gun, comic" + SEMTXT,
+  "brazil_market|A round-white-head cartoon Brazilian supermarket employee of 1990 putting new price stickers on top of old price stickers on cans with a price gun, comic, the price stickers are plain colored circles with no numbers and the can labels are plain colors, no dollar signs" + SEMTXT,
   "weimar_assembly|Round-white-head cartoon German politicians of 1919 in dark suits at a national assembly in a theater hall, serious faces" + SEMTXT + SEMBAND,
   "worthless_money|Round-white-head cartoon Berliners of 1923 using bundles of banknotes as fuel in a stove, comic" + SEMTXT)
 b("§ Aí os inimigos da república espalham uma mentira: o exército não tinha perdido a guerra; tinha sido apunhalado pelas costas por políticos, comunistas e judeus. Era falso. Mas muita gente quis acreditar.",
   f"lie_whisper|{WEIM} whispering rumors to each other in a dark smoky beer hall, suspicious faces" + SEMTXT,
   "newspaper_lies|A stack of newspapers of 1920 with only big dark blocks instead of headlines on a street kiosk, round-white-head cartoon passersby frowning" + SEMTXT)
 b("Então, no meio da festa dos anos vinte, a bolsa de Nova York quebra. É mil novecentos e vinte e nove. Os empréstimos americanos somem, e seis milhões de alemães ficam sem emprego.",
-  "berlin_twenties|A lively Berlin street at night in 1927 with cabaret lights, trams, cars and round-white-head cartoon people dancing, cheerful" + SEMTXT,
+  "berlin_twenties|A lively Berlin street at night in 1927 with cabaret lights, trams, cars and round-white-head cartoon people dancing, cheerful, all neon signs and theatre marquees are plain glowing shapes with no letters, no words" + SEMTXT,
   "wall_street_crash|Round-white-head cartoon stockbrokers of 1929 panicking in front of a stock exchange building in New York, papers flying" + SEMTXT,
   f"unemployed|A long line of {WEIM} unemployed men waiting in front of a closed factory gate in winter 1931, sad" + SEMTXT,
   card="1929")

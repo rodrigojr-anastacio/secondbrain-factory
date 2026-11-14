@@ -21,7 +21,7 @@
  },
  {
   "id": "I006",
-  "prompt": "The Hall of Mirrors of Versailles packed with round-white-head cartoon Prussian and German officers of 1871 in dark blue uniforms with spiked leather helmets and swords raising their swords and cheering toward a small stage where a round-white-head cartoon old Prussian king with big simple flat white side whiskers and mustache shapes, a dark blue uniform, a red sash and medals stands, no flags, no letters on shields or banners"
+  "prompt": "The Hall of Mirrors of Versailles packed with round-white-head cartoon Prussian and German officers of 1871 in dark blue uniforms with plain spiked leather helmets with smooth fronts (no badge, no emblem, no eagle) and swords raising their swords and cheering toward a small stage where a round-white-head cartoon old Prussian king with big simple flat white side whiskers and mustache shapes, a dark blue uniform, a red sash and medals stands, no flags, no letters on shields or banners"
  },
  {
   "id": "I007",
@@ -277,7 +277,7 @@
  },
  {
   "id": "I070",
-  "prompt": "A big medieval parchment document with a heavy golden seal hanging from it on a red velvet table, candles, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "A big completely blank medieval parchment sheet (no writing at all) with a heavy golden seal hanging from it on a red velvet table, candles, no readable writing, no letters anywhere, no signs, no boards"
  },
  {
   "id": "I071",
@@ -301,11 +301,11 @@
  },
  {
   "id": "I076",
-  "prompt": "Close view of a wooden printing press in a dark workshop with a beam of light, symbolic, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "Close view of a wooden printing press in a dark workshop with a beam of light, symbolic, no flags anywhere, no readable writing, no letters anywhere, no signs, no boards"
  },
  {
   "id": "I077",
-  "prompt": "A small German university town of 1517 with a castle church with a tall round tower, half-timbered houses and a market square, autumn"
+  "prompt": "A small German university town of 1517 with a castle church with a tall round tower, half-timbered houses and a market square, autumn, the church door is plain wood with no posters, no writing, no signs anywhere"
  },
  {
   "id": "I078",
@@ -325,7 +325,7 @@
  },
  {
   "id": "I082",
-  "prompt": "a round-white-head cartoon German monk of 1517, beardless, chubby, with the round tonsure haircut and a black monk's habit nailing a big sheet of paper to a heavy wooden church door with a hammer, townspeople watching curious, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "a round-white-head cartoon German monk of 1517, beardless, chubby, with the round tonsure haircut and a black monk's habit nailing a big completely blank sheet of paper (no writing at all) to a heavy wooden church door with a hammer, townspeople watching curious, no readable writing, no letters anywhere, no signs, no boards"
  },
  {
   "id": "I083",
@@ -565,7 +565,7 @@
  },
  {
   "id": "I142",
-  "prompt": "Map of Europe in 1871 with the new German Empire painted dark blue in the center and France, Austria and Russia in pale colors around it, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
+  "prompt": "Map of Europe in 1871 with the new German Empire painted dark blue in the center and France, Austria and Russia in pale colors around it, absolutely no letters or country names written on the map, painted like a blank parchment terrain map seen from directly above, only coastlines, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
  },
  {
   "id": "I143",
@@ -597,7 +597,7 @@
  },
  {
   "id": "I150",
-  "prompt": "A round-white-head cartoon old bald statesman with a big grey mustache walking down the stairs of a ship with a suitcase, a young emperor waving from above, comic"
+  "prompt": "A round-white-head cartoon old bald statesman with a big grey mustache walking down the stairs of a ship with a suitcase, a young emperor waving from above, 1890 harbour with a modern steamship only, no galleon, no Roman soldiers, no crowns on bystanders, comic"
  },
  {
   "id": "I151",
@@ -621,7 +621,7 @@
  },
  {
   "id": "I156",
-  "prompt": "Round-white-head cartoon diplomats in dark suits at a long table in the Hall of Mirrors of Versailles in 1919, two German delegates signing with grim faces, photographers, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "Round-white-head cartoon diplomats in dark suits at a long table in the Hall of Mirrors of Versailles in 1919, two German delegates signing with grim faces, photographers, every man has a plain simple round white head with dot eyes and an optional simple big mustache shape, nobody has a toothbrush mustache or side-parted hair, no readable writing, no letters anywhere, no signs, no boards"
  },
  {
   "id": "I157",
@@ -649,7 +649,7 @@
  },
  {
   "id": "I163",
-  "prompt": "A round-white-head cartoon Brazilian supermarket employee of 1990 putting new price stickers on top of old price stickers on cans with a price gun, comic, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "A round-white-head cartoon Brazilian supermarket employee of 1990 putting new price stickers on top of old price stickers on cans with a price gun, comic, the price stickers are plain colored circles with no numbers and the can labels are plain colors, no dollar signs, no readable writing, no letters anywhere, no signs, no boards"
  },
  {
   "id": "I164",
@@ -669,7 +669,7 @@
  },
  {
   "id": "I168",
-  "prompt": "A lively Berlin street at night in 1927 with cabaret lights, trams, cars and round-white-head cartoon people dancing, cheerful, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "A lively Berlin street at night in 1927 with cabaret lights, trams, cars and round-white-head cartoon people dancing, cheerful, all neon signs and theatre marquees are plain glowing shapes with no letters, no words, no readable writing, no letters anywhere, no signs, no boards"
  },
  {
   "id": "I169",

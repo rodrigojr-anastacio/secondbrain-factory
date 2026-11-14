@@ -1,0 +1,1354 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/historia-ptbr/videos/009-alemanha/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2772,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 7,
+  "medio": 34,
+  "baixo": 34
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme no topo (RGB 132,146,157), mas visualmente é só o céu nublado liso da cena, sem emenda aparente. Provável falso positivo; vale conferir a borda superior.",
+   "t": 1.0,
+   "arquivo": "30.png"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os soldados prussianos têm capacete com ponta (Pickelhaube) e emblema dourado, coerentes com 1871. Sem bandeira visível. Só o emblema pequeno merece conferência.",
+   "t": 1.0,
+   "arquivo": "30.png"
+  },
+  {
+   "quadro": "Q02",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Mesmo sinal de faixa no topo do Q01; é o céu cinza liso da cena, sem emenda visível. Provável falso positivo.",
+   "t": 1.2666666666666666,
+   "arquivo": "38.png"
+  },
+  {
+   "quadro": "Q06",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Mistura intencional de reis, cavaleiros, turbante e elmos ao redor do mapa da Europa. Na dúvida entre estilo e defeito: as fronteiras coloridas no mapa são aproximadas e não correspondem a nenhum período claro.",
+   "t": 43.766666666666666,
+   "arquivo": "1313.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os pergaminhos na mesa têm rabiscos de letra falsa, e o mapa-múndi e os brasões nas paredes não têm texto legível. Detalhe pequeno e discreto.",
+   "t": 45.0,
+   "arquivo": "1350.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O rótulo ALEMANHA está deslocado, sobre a Bélgica/oeste da Alemanha e fora do centro da área verde. Já a área verde cobre a Alemanha atual, não a de 1871, o que pode ser impreciso para o contexto histórico.",
+   "t": 57.93333333333333,
+   "arquivo": "1738.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "A placa de capítulo 'A floresta que Roma não engoliu' cobre os pés e parte dos soldados e da carroça na parte inferior. É comum em placas de capítulo, mas esconde a ação.",
+   "t": 70.0,
+   "arquivo": "2100.png"
+  },
+  {
+   "quadro": "Q11",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Mapa da Europa com 'Império Romano' em vermelho. A área vermelha cobre Gália, Hispânia e Itália, mas a Britânia está toda em bege, o que é coerente com 9 d.C. O contorno do Império e da Germânia parece aproximado, com a Germânia cobrindo uma área enorme de floresta. Dúvida entre estilo e erro geográfico; vale conferir se a fronteira (Reno/Danúbio) está correta.",
+   "t": 72.93333333333334,
+   "arquivo": "2188.png"
+  },
+  {
+   "quadro": "Q13",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Alguns guerreiros germânicos têm rostos realistas e semi-realistas, com barba e bigode desenhados, fora do padrão 'cabeça redonda branca' do canal. Mistura de estilos entre os personagens ao fundo e os da frente.",
+   "t": 95.0,
+   "arquivo": "2850.png"
+  },
+  {
+   "quadro": "Q15",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cidade romana fortificada com anfiteatro e torres de madeira à beira do rio. O jogo de elementos de época é plausível. Os barcos à vela parecem medievais/vikings, o que é discutível para o período.",
+   "t": 125.0,
+   "arquivo": "3750.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Rótulo 'CARLOS MAGNO' com o ano 843, mas Carlos Magno morreu em 814 (843 é o Tratado de Verdun). Pode ser valor errado no texto. Além disso, o trono tem um rei de barba branca com coroa europeia em salão românico, dentro do estilo do canal. Conferir o ano.",
+   "t": 148.36666666666667,
+   "arquivo": "4451.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Os bonequinhos brancos no canto inferior esquerdo se sobrepõem ao rótulo 'CARLOS MAGNO'. As cabeças redondas ficam atrás da placa, o que é discreto e não atrapalha a leitura.",
+   "t": 148.36666666666667,
+   "arquivo": "4451.png"
+  },
+  {
+   "quadro": "Q19",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O mapa sobre a mesa é um mapa fictício sem rótulos legíveis. Um pergaminho com marcações aparece no estilo do canal, sem letras visíveis. Registro apenas por precaução.",
+   "t": 155.0,
+   "arquivo": "4650.png"
+  },
+  {
+   "quadro": "Q20",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme no topo (3%, RGB 98,183,234). Visualmente é só céu azul liso da cena, sem emenda, então não é defeito real.",
+   "t": 164.63333333333333,
+   "arquivo": "4939.png"
+  },
+  {
+   "quadro": "Q23",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena de 962 (coroação de Otão) mostra o papa com tiara tripla, que é posterior à época. Os monges franciscanos de hábito marrom com corda também são anacrônicos, pois a ordem surgiu só no séc. XIII. Dúvida entre estilo e defeito.",
+   "t": 185.0,
+   "arquivo": "5550.png"
+  },
+  {
+   "quadro": "Q23",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O mosaico da abside, no alto à direita, tem figuras e um livro com possíveis letras inventadas. É pequeno e discreto.",
+   "t": 185.0,
+   "arquivo": "5550.png"
+  },
+  {
+   "quadro": "Q25",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "Na borda inferior, sob a placa 'OS SETE ELEITORES', aparece um pequeno elemento de piso cortado pela borda (detalhe quase imperceptível). Pode ser ignorado.",
+   "t": 205.2,
+   "arquivo": "6156.png"
+  },
+  {
+   "quadro": "Q27",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O rótulo 'SACRO IMPÉRIO' cobre um personagem pequeno no centro da Alemanha, que fica meio escondido atrás da placa. Mapa com cores muito saturadas e fronteiras fictícias; há dúvida entre estilo e defeito.",
+   "t": 223.13333333333333,
+   "arquivo": "6694.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Personagem à direita usa chapéu e corrente de estilo renascentista, misturado com reis e bispos medievais. Pouco relevante.",
+   "t": 235.0,
+   "arquivo": "7050.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Papéis pregados na parede (canto superior direito) e a folha na prensa têm rabiscos que simulam texto ('OFC' e linhas ilegíveis). Discretos e pequenos.",
+   "t": 245.0,
+   "arquivo": "7350.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Folhas na mesa com rabiscos ondulados que imitam escrita. Aceitável por parecer escrita genérica, sem letras legíveis.",
+   "t": 255.0,
+   "arquivo": "7650.png"
+  },
+  {
+   "quadro": "Q33",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "As folhas penduradas no varal e as pilhas de papel têm rabiscos que imitam texto. São pequenos e em segundo plano, mas dá para notar. Os rótulos 'c. 1450' e 'GUTENBERG' estão legíveis e dentro do quadro.",
+   "t": 281.1666666666667,
+   "arquivo": "8435.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O jornal/folheto na mão do personagem à direita tem linhas de texto rabiscado, com um título ilegível. O efeito é discreto e coerente com o estilo.",
+   "t": 295.0,
+   "arquivo": "8850.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O mapa-quebra-cabeça da Europa tem formas de países duvidosas e simplificadas. O livro aberto no centro mostra texto rabiscado. Não há rótulos legíveis. Há dúvida entre estilo e defeito.",
+   "t": 315.0,
+   "arquivo": "9450.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A igreja da direita mistura arquitetura gótica com adornos dourados, e a cena mistura trajes de reis, turbante e bispos. A cena é simbólica (cisma), então provavelmente é estilo intencional. Registrado só por dúvida.",
+   "t": 325.0,
+   "arquivo": "9750.png"
+  },
+  {
+   "quadro": "Q38",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou uma faixa uniforme azul (71,192,248) no topo, mas é só o céu liso da cena, sem emenda ou faixa visível. Falso positivo provável. O rótulo '1555' está legível.",
+   "t": 327.8333333333333,
+   "arquivo": "9835.png"
+  },
+  {
+   "quadro": "Q39",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O mapa do Sacro Império com cores laranja e roxa não tem legenda nem rótulos. As regiões e fronteiras são aproximadas e as formas das costas parecem distorcidas. Há dúvida se a imprecisão geográfica é aceitável.",
+   "t": 335.0,
+   "arquivo": "10050.png"
+  },
+  {
+   "quadro": "Q41",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Mapa de fundo com metade esquerda colorida (laranja e roxo) e metade direita bege vazia, sem colorir. Pode ser intencional (transição ou animação de preenchimento), mas na dúvida vale conferir se o preenchimento deveria cobrir a direita. O estilo de cores também difere do Q48.",
+   "t": 345.0,
+   "arquivo": "10350.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Os três nobres no monte de palha usam tricórnios e um deles peruca branca empoada, estilo do século XVIII. Em 1618 o correto seriam chapéus de aba larga e golas de renda, como em Q43, e a cena fica inconsistente com Q43.",
+   "t": 365.0,
+   "arquivo": "10950.png"
+  },
+  {
+   "quadro": "Q47",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O pergaminho longo sobre a mesa traz linhas de escrita inventada pela IA. Há também papéis menores na parede à direita e uma tapeçaria com leão e brasão. Os textos são pequenos e ilegíveis, então o risco é baixo, mas é letra falsa.",
+   "t": 405.0,
+   "arquivo": "12150.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "moldura",
+   "severidade": "alto",
+   "descricao": "Na borda esquerda há uma linha preta vertical com faixa bege lisa (margem do pergaminho) ao lado do mapa. Pode ser parte do pan/zoom do Ken Burns, mas parece margem/emenda da imagem.",
+   "t": 419.46666666666664,
+   "arquivo": "12584.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cena de c. 1730 com granadeiros de mitra dourada e uniforme azul/vermelho, estilo prussiano, o que é plausível. Os soldados e o oficial têm traço mais realista que o estilo de bonequinhos do canal, o que pode ser dúvida de estilo.",
+   "t": 425.0,
+   "arquivo": "12750.png"
+  },
+  {
+   "quadro": "Q54",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O rei usa coroa europeia com flor-de-lis e jaqueta militar azul. Dúvida de contexto: pode destoar do rei prussiano do período, mas é plausível.",
+   "t": 445.0,
+   "arquivo": "13350.png"
+  },
+  {
+   "quadro": "Q55",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "A área azul da Prússia é só um pedaço pequeno e fragmentado, com cor igual à do mar. Tem pouco contraste e pode confundir. O rótulo 'PRÚSSIA' fica sobre a costa e é pequeno.",
+   "t": 447.56666666666666,
+   "arquivo": "13427.png"
+  },
+  {
+   "quadro": "Q56",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "O forte de paliçada de madeira com torres e casas de estilo antigo lembra um forte antigo, não um quartel do séc. XVIII. Dúvida de contexto histórico.",
+   "t": 455.0,
+   "arquivo": "13650.png"
+  },
+  {
+   "quadro": "Q57",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena de 1756 com Frederico, o Grande: estilo e figurinos plausíveis, mas a folha de partitura no cravo tem pautas e notas ilegíveis. É texto/símbolo inventado pela IA, pequeno e discreto.",
+   "t": 459.76666666666665,
+   "arquivo": "13793.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cena de 1806 em Berlim. A multidão usa cartolas e vestidos que parecem mais de meados do século XIX, e o Portão de Brandemburgo está um pouco diferente do real. Dúvida entre estilo e anacronismo.",
+   "t": 476.8666666666667,
+   "arquivo": "14306.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Bandeiras alemãs preto-vermelho-dourado no prédio do Reichstag, no canto superior esquerdo, ao lado de um castelo medieval com soldados de capacete de ponta. A bandeira roxa/amarela ao lado da alemã está errada. Mistura épocas e inclui bandeira inventada.",
+   "t": 515.0,
+   "arquivo": "15450.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Bandeira alemã preto-vermelho-dourado no parlamento de 1849. É plausível para a Assembleia de Frankfurt, mas há microfone sobre o púlpito, o que é anacrônico. Além disso, a placa 'CAPÍTULO 6' cobre parte da plateia, o que é aceitável.",
+   "t": 521.5666666666667,
+   "arquivo": "15647.png"
+  },
+  {
+   "quadro": "Q64",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Microfone sobre o púlpito, em cena de parlamento do século XIX. É anacronismo pequeno. Bandeira com faixas preto-vermelho-dourado, plausível para 1849.",
+   "t": 525.0,
+   "arquivo": "15750.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "A bandeira pendurada ao fundo tem águia preta em faixas azul e branca, o que não corresponde à bandeira da Prússia em 1862. Há dúvida se é só estilização, mas parece bandeira inventada.",
+   "t": 554.1333333333333,
+   "arquivo": "16624.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Bismarck e os deputados foram desenhados com rostos semi-realistas, fora do estilo de bonequinhos de cabeça redonda. Só alguns figurantes têm cabeça redonda branca, o que deixa o estilo misturado.",
+   "t": 554.1333333333333,
+   "arquivo": "16624.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Nos quadros de batalha na parede há figuras e detalhes pequenos sem sentido, mas sem texto legível.",
+   "t": 554.1333333333333,
+   "arquivo": "16624.png"
+  },
+  {
+   "quadro": "Q67",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "A cena é uma bala de canhão sobre a mesa com um cabo de espada ao lado, em estilo diferente do canal (sem bonequinhos, sombreamento e textura mais pesados). No fundo há um mapa na parede com desenho de continentes sem sentido.",
+   "t": 565.0,
+   "arquivo": "16950.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "As trincheiras e sacos de areia lembram a 1ª Guerra Mundial, mais que 1870. Os uniformes dos defensores, com chapéus de pele russos e cinza, não parecem franceses (képi azul e calça vermelha).",
+   "t": 569.0666666666667,
+   "arquivo": "17072.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Quadros muito parecidos com Q70, com a mesma cena em enquadramento diferente (zoom). Pode ser uma animação Ken Burns, não um defeito. O oficial francês entrega a espada com um soldado ao lado em calça vermelha, mas o uniforme prussiano é preto, não azul.",
+   "t": 583.8666666666667,
+   "arquivo": "17516.png"
+  },
+  {
+   "quadro": "Q71",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena medieval, com rei de coroa e personagem com chapéu renascentista, mostra um mapa-quebra-cabeça da Europa. O mapa tem rótulos ilegíveis, mas sem texto legível.",
+   "t": 605.0,
+   "arquivo": "18150.png"
+  },
+  {
+   "quadro": "Q72",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O mapa mostra o Império Alemão sem a Alsácia-Lorena, a leste, e sem as fronteiras corretas de 1871. A Prússia Oriental aparece desconexa e as bordas estão distorcidas. Mapa com países/regiões duvidosos.",
+   "t": 609.8333333333334,
+   "arquivo": "18295.png"
+  },
+  {
+   "quadro": "Q72",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O grupo de personagens no canto inferior esquerdo está cortado pela borda e parece apoiado em um pedaço de terreno bege flutuando sobre o mapa. O rótulo 'IMPÉRIO ALEMÃO' é pequeno e de legibilidade fraca.",
+   "t": 609.8333333333334,
+   "arquivo": "18295.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "A placa pendurada no balcão (topo, centro-direita) tem rabiscos que imitam escrita, e há papéis na bancada com linhas de texto falso. É pequeno e ilegível, mas é o tipo de texto inventado pela IA.",
+   "t": 645.0,
+   "arquivo": "19350.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "O retrato na parede mostra um oficial com capacete prussiano (Pickelhaube) e rosto realista, fora do estilo de cabeça redonda. É coerente com a Alemanha de 1900, mas o rosto é semirrealista. Vale confirmar se é estilo ou defeito.",
+   "t": 645.0,
+   "arquivo": "19350.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O navio ao fundo e as chaminés lembram um transatlântico de época. Há um personagem de uniforme verde-oliva moderno no convés (alto, à esquerda), que destoa do período.",
+   "t": 655.0,
+   "arquivo": "19650.png"
+  },
+  {
+   "quadro": "Q79",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A faixa tricolor azul, branca e vermelha no personagem central (a França) é a bandeira em cena de época. O uniforme do oficial russo e o capacete prussiano combinam com 1900. Conferir se a faixa é intencional.",
+   "t": 665.0,
+   "arquivo": "19950.png"
+  },
+  {
+   "quadro": "Q79",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa uma faixa uniforme azul-clara no topo (3%). Pela imagem, é só céu liso da cena, sem emenda visível. Provável falso positivo.",
+   "t": 665.0,
+   "arquivo": "19950.png"
+  },
+  {
+   "quadro": "Q80",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "No canto superior direito há um objeto bege cortado pela borda (toldo ou placa). A leitura é fraca, mas é enquadramento normal.",
+   "t": 675.0,
+   "arquivo": "20250.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Personagens com rostos mais detalhados, como o homem de óculos e bigode no canto inferior esquerdo, fogem um pouco do estilo de bonequinhos de cabeça redonda. Os bonequinhos em si seguem o padrão do canal.",
+   "t": 695.0,
+   "arquivo": "20850.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'CAPÍTULO 8 / O pão de duzentos bilhões' cobre a parte de baixo da cena, incluindo a base do carrinho de dinheiro e parte das mãos da mulher. É o padrão normal de placa de capítulo, mas esconde o elemento principal (carrinho com notas), então fica registrado na dúvida.",
+   "t": 706.5333333333333,
+   "arquivo": "21196.png"
+  },
+  {
+   "quadro": "Q86",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa 'CAPÍTULO 8' cobre a base do carrinho de dinheiro e parte da cena inferior. Provavelmente é um quadro posterior do mesmo Ken Burns, mas a placa tapa o objeto central. Dúvida entre estilo e defeito.",
+   "t": 707.1333333333333,
+   "arquivo": "21214.png"
+  },
+  {
+   "quadro": "Q87",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Cena de supermercado moderno (iluminação fluorescente, carrinho de metal, etiquetadora de preços) sem qualquer marcação de época. Se o trecho for de 1923, é anacrônico. Se for uma analogia moderna de inflação, é aceitável, então vale confirmar com o roteiro.",
+   "t": 725.0,
+   "arquivo": "21750.png"
+  },
+  {
+   "quadro": "Q89",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Na cena de bar dos anos 1920-30 aparecem chapéus cloche e bonés, o que é coerente com a época. Há muitos rostos pequenos ao fundo com traços borrados, mas isso é um detalhe discreto. Nenhum texto visível.",
+   "t": 755.0,
+   "arquivo": "22650.png"
+  },
+  {
+   "quadro": "Q90",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os letreiros de neon e a marquise do cinema trazem formas parecidas com letras, em rabiscos ilegíveis (por exemplo o neon roxo e o laranja). Não há texto legível, só ornamento. A marquise do cinema está em branco, o que é aceitável. O rótulo '1929' no canto superior esquerdo está nítido e inteiro.",
+   "t": 759.0666666666667,
+   "arquivo": "22772.png"
+  },
+  {
+   "quadro": "Q93",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O sinal automático acusa faixa uniforme na borda esquerda (33% do quadro, RGB 17,25,36). Visualmente é um fundo escuro com degradê e vinheta, que parece intencional. Na dúvida registro como médio. Vale conferir se não é uma faixa chapada de cor diferente. Os fios soltos e o boneco cortado embaixo são enquadramento normal.",
+   "t": 795.0,
+   "arquivo": "23850.png"
+  },
+  {
+   "quadro": "Q95",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Há um pequeno friso ou inscrição acima da porta central da sinagoga, com marcas parecidas com letras, mas é minúsculo e ilegível. Pode ser notado em tela cheia. Nenhum outro defeito.",
+   "t": 805.0,
+   "arquivo": "24150.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "No mapa da Europa, o território marrom escuro cobre França, Alemanha, Europa Central e Balcãs, e a cor se estende como um bloco chapado sobre quase todo o continente. Pode ser a intenção de mostrar a expansão do Eixo, mas a mancha vira massa sem distinção. Dúvida entre estilo e defeito.",
+   "t": 841.0333333333333,
+   "arquivo": "25231.png"
+  },
+  {
+   "quadro": "Q100",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme no topo (RGB 120,129,139), mas no quadro ela é só o céu cinza nublado liso, que faz parte da cena. Não parece defeito; registro por precaução.",
+   "t": 849.4,
+   "arquivo": "25482.png"
+  },
+  {
+   "quadro": "Q104",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Um círculo multicolorido (pizza) aparece sobre a zona vermelha, no centro de Berlim. Parece ser o marcador intencional da cidade dividida, mas não dá para ter certeza. Confirmar se é elemento planejado ou resíduo da IA.",
+   "t": 890.3333333333334,
+   "arquivo": "26710.png"
+  },
+  {
+   "quadro": "Q104",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O mapa colorido da Alemanha ocupada tem contornos de zonas e fronteiras duvidosos. A zona vermelha soviética e a Prússia Oriental aparecem estranhas, e a zona azul/britânica avança até o norte com forma pouco precisa. Conferir a geografia.",
+   "t": 890.3333333333334,
+   "arquivo": "26710.png"
+  },
+  {
+   "quadro": "Q108",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "Mapa da Alemanha dividida em 1945-49: a zona oriental em vermelho cobre só a área da futura RDA, sem Berlim isolada, e o mapa mostra fronteiras modernas (Polônia, Tchéquia) que não existiam assim em 1945. Os rótulos 'OCIDENTAL' e 'ORIENTAL' estão sem o substantivo (Alemanha), o que pode ser intencional. A zona vermelha parece correta, mas a dúvida é de estilo.",
+   "t": 913.2333333333333,
+   "arquivo": "27397.png"
+  },
+  {
+   "quadro": "Q111",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O quebra-cabeça com o mapa e o muro tem um mapa ilegível e a silhueta da Alemanha é imprecisa, mas sem letras inventadas. A torre de vigia aparece dentro do mapa, de forma confusa. A dúvida é de estética.",
+   "t": 926.2,
+   "arquivo": "27786.png"
+  },
+  {
+   "quadro": "Q112",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Muro de Berlim com grafites coloridos no lado ocidental em cena de 1961: os grafites só surgiram bem depois. Há também 'ouriços tchecos' na faixa da morte, que são plausíveis.",
+   "t": 935.0,
+   "arquivo": "28050.png"
+  },
+  {
+   "quadro": "Q115",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cena de 1990 mostra a Porta de Brandemburgo com a quadriga e o muro com grafites. É plausível, mas a Porta aparece iluminada à noite, sem a faixa de fronteira. Provável estilo, só vale conferir.",
+   "t": 973.9333333333333,
+   "arquivo": "29218.png"
+  },
+  {
+   "quadro": "Q116",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Mesma cena do Q115 (quase idêntica, provável zoom do Ken Burns). Mesma dúvida de contexto histórico e nada novo.",
+   "t": 975.0,
+   "arquivo": "29250.png"
+  },
+  {
+   "quadro": "Q117",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Vista aérea de Berlim atual em estilo de cartum com traço mais realista, sem bonequinhos de cabeça redonda (pessoas minúsculas). Bandeiras alemãs pequenas aparecem no prédio vermelho e no Reichstag. É coerente com a Berlim atual, mas foge um pouco do estilo do canal.",
+   "t": 995.0,
+   "arquivo": "29850.png"
+  },
+  {
+   "quadro": "Q119",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Caneta-tinteiro moderna cruzada com espada medieval sobre a mesa. É metáfora intencional (pena e espada), mas sem bonequinhos, estilo mais realista que o do canal.",
+   "t": 1015.0,
+   "arquivo": "30450.png"
+  },
+  {
+   "quadro": "Q120",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O mapa no cavalete mostra uma Alemanha colorida com bússola, sem texto legível. O estilo dos personagens é mais realista (cabelo, rosto), com menos cara de bonequinho de cabeça redonda. Verificar se o mapa está correto para a época.",
+   "t": 1025.0,
+   "arquivo": "30750.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 1.0,
+   "nome": "30.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(132,146,157)"
+   ]
+  },
+  {
+   "id": "Q02",
+   "t": 1.2666666666666666,
+   "nome": "38.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(132,146,157)"
+   ]
+  },
+  {
+   "id": "Q03",
+   "t": 5.0,
+   "nome": "150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 25.0,
+   "nome": "750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 35.0,
+   "nome": "1050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 43.766666666666666,
+   "nome": "1313.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 45.0,
+   "nome": "1350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 57.93333333333333,
+   "nome": "1738.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 65.0,
+   "nome": "1950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 70.0,
+   "nome": "2100.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 72.93333333333334,
+   "nome": "2188.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 85.0,
+   "nome": "2550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 95.0,
+   "nome": "2850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 105.0,
+   "nome": "3150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 125.0,
+   "nome": "3750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 130.33333333333334,
+   "nome": "3910.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 145.0,
+   "nome": "4350.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(134,194,228)"
+   ]
+  },
+  {
+   "id": "Q18",
+   "t": 148.36666666666667,
+   "nome": "4451.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 155.0,
+   "nome": "4650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 164.63333333333333,
+   "nome": "4939.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(98,183,234)"
+   ]
+  },
+  {
+   "id": "Q21",
+   "t": 165.23333333333332,
+   "nome": "4957.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 175.0,
+   "nome": "5250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 185.0,
+   "nome": "5550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 195.0,
+   "nome": "5850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 205.2,
+   "nome": "6156.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 215.0,
+   "nome": "6450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 223.13333333333333,
+   "nome": "6694.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 235.0,
+   "nome": "7050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 245.0,
+   "nome": "7350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 250.56666666666666,
+   "nome": "7517.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 255.0,
+   "nome": "7650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 275.0,
+   "nome": "8250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 281.1666666666667,
+   "nome": "8435.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 295.0,
+   "nome": "8850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 297.03333333333336,
+   "nome": "8911.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 315.0,
+   "nome": "9450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 325.0,
+   "nome": "9750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 327.8333333333333,
+   "nome": "9835.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(71,192,248)"
+   ]
+  },
+  {
+   "id": "Q39",
+   "t": 335.0,
+   "nome": "10050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 337.6333333333333,
+   "nome": "10129.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 345.0,
+   "nome": "10350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 346.53333333333336,
+   "nome": "10396.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 355.0,
+   "nome": "10650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 365.0,
+   "nome": "10950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 385.0,
+   "nome": "11550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 395.0,
+   "nome": "11850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 405.0,
+   "nome": "12150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 409.3666666666667,
+   "nome": "12281.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 415.0,
+   "nome": "12450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 416.56666666666666,
+   "nome": "12497.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 419.46666666666664,
+   "nome": "12584.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 425.0,
+   "nome": "12750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 425.3666666666667,
+   "nome": "12761.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 445.0,
+   "nome": "13350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 447.56666666666666,
+   "nome": "13427.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 455.0,
+   "nome": "13650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 459.76666666666665,
+   "nome": "13793.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 475.0,
+   "nome": "14250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 476.8666666666667,
+   "nome": "14306.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 495.0,
+   "nome": "14850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 505.0,
+   "nome": "15150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 515.0,
+   "nome": "15450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 521.5666666666667,
+   "nome": "15647.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 525.0,
+   "nome": "15750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 545.0,
+   "nome": "16350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 554.1333333333333,
+   "nome": "16624.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 565.0,
+   "nome": "16950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 569.0666666666667,
+   "nome": "17072.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 583.8666666666667,
+   "nome": "17516.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 585.0,
+   "nome": "17550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 605.0,
+   "nome": "18150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 609.8333333333334,
+   "nome": "18295.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 615.0,
+   "nome": "18450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 619.8333333333334,
+   "nome": "18595.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 620.4333333333333,
+   "nome": "18613.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 635.0,
+   "nome": "19050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 645.0,
+   "nome": "19350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 655.0,
+   "nome": "19650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 665.0,
+   "nome": "19950.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(119,201,242)"
+   ]
+  },
+  {
+   "id": "Q80",
+   "t": 675.0,
+   "nome": "20250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 684.5333333333333,
+   "nome": "20536.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 695.0,
+   "nome": "20850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 697.5333333333333,
+   "nome": "20926.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 705.0,
+   "nome": "21150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 706.5333333333333,
+   "nome": "21196.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 707.1333333333333,
+   "nome": "21214.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 725.0,
+   "nome": "21750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 735.0,
+   "nome": "22050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 755.0,
+   "nome": "22650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 759.0666666666667,
+   "nome": "22772.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 773.0666666666667,
+   "nome": "23192.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 775.0,
+   "nome": "23250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 795.0,
+   "nome": "23850.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 33% do quadro, cor RGB(17,25,36)",
+    "faixa uniforme na borda direita: 3% do quadro, cor RGB(45,52,60)"
+   ]
+  },
+  {
+   "id": "Q94",
+   "t": 796.3,
+   "nome": "23889.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 805.0,
+   "nome": "24150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 815.0,
+   "nome": "24450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 835.0,
+   "nome": "25050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 841.0333333333333,
+   "nome": "25231.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 843.9666666666667,
+   "nome": "25319.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 849.4,
+   "nome": "25482.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(120,129,139)"
+   ]
+  },
+  {
+   "id": "Q101",
+   "t": 855.0,
+   "nome": "25650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 871.1333333333333,
+   "nome": "26134.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 875.0,
+   "nome": "26250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 890.3333333333334,
+   "nome": "26710.png",
+   "sinais": []
+  },
+  {
+   "id": "Q105",
+   "t": 892.9666666666667,
+   "nome": "26789.png",
+   "sinais": []
+  },
+  {
+   "id": "Q106",
+   "t": 895.0,
+   "nome": "26850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q107",
+   "t": 905.0,
+   "nome": "27150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q108",
+   "t": 913.2333333333333,
+   "nome": "27397.png",
+   "sinais": []
+  },
+  {
+   "id": "Q109",
+   "t": 915.0,
+   "nome": "27450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q110",
+   "t": 916.5666666666667,
+   "nome": "27497.png",
+   "sinais": []
+  },
+  {
+   "id": "Q111",
+   "t": 926.2,
+   "nome": "27786.png",
+   "sinais": []
+  },
+  {
+   "id": "Q112",
+   "t": 935.0,
+   "nome": "28050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q113",
+   "t": 955.0,
+   "nome": "28650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q114",
+   "t": 955.2666666666667,
+   "nome": "28658.png",
+   "sinais": []
+  },
+  {
+   "id": "Q115",
+   "t": 973.9333333333333,
+   "nome": "29218.png",
+   "sinais": []
+  },
+  {
+   "id": "Q116",
+   "t": 975.0,
+   "nome": "29250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q117",
+   "t": 995.0,
+   "nome": "29850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q118",
+   "t": 1003.9333333333333,
+   "nome": "30118.png",
+   "sinais": []
+  },
+  {
+   "id": "Q119",
+   "t": 1015.0,
+   "nome": "30450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q120",
+   "t": 1025.0,
+   "nome": "30750.png",
+   "sinais": []
+  }
+ ]
+}

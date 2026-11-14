@@ -48,3 +48,8 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md` (armadilhas d
 ## 008 França (13/11/2026)
 - 183 imagens nano-banana-2.1/edit + refs: 0 refeitas, custo US$ 0,046/imagem, lote-prova de 6 já representativo. Mapas pedidos sem letras saíram limpos; rótulos no código (`labels.jsx`) precisam de checagem em still: o pan/zoom do plano corta rótulo perto da borda (ALEMANHA) — manter rótulos entre x 0,2 e 0,8 da imagem. Trilha: Ré dórico, alaúde (caps. 1–5) e cravo (cap. 6 em diante) sintetizados. Pré-QA visual marca coroa/arquitetura "medievais" em época anterior como alto: falso positivo no estilo do canal. [ETAPA2.md 008]
 - Thumbs: A = HiM (Luís XIV + panorama, `t2-him-2` com céu livre), B = REI × POVO (`t3-reixpovo-2`, texto embaixo), C = POR UM VASO? (`t1-bonecos-2`).
+
+## 009 Alemanha (13/11/2026)
+- Prompts de capacete de ponta: pedir "plain spiked helmets with smooth fronts (no badge, no emblem, no eagle)"; sem isso o nano-banana põe águia dourada (I006). Documentos/cartazes/etiquetas/néon: pedir "completely blank" ou "plain shapes", senão saem letras e preços inventados (pré-QA pegou 1 bloqueante e 5 altos). Rostos de "ditador" em tratado de 1919: pedir bigode simples e sem repartido.
+- Mapas: rótulos em `src/labels.jsx`; o fundo do mapa com zoom/pan muda a posição: conferir stills de início e fim do plano (OCIDENTAL/ORIENTAL).
+- Trilha: Lá eólio (alaúde → cravo). Fonte: 009 ETAPA2.md.

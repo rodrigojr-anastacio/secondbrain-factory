@@ -12,7 +12,7 @@ Título padrão: "A história INTEIRA de X em N minutos" (N = duração real). I
 | 006 | A história INTEIRA de Roma em 17 minutos | pronto, no Drive, aguardando publicação (youtube.videos id 13; 1º da bíblia v2; videos/006-roma/entrega/) | 2026-11-09 | — |
 | 007 | A história INTEIRA da Rússia em 17 minutos | pronto, no Drive, aguardando publicação (youtube.videos id 16; 2º da bíblia v2; videos/007-russia/entrega/) | 2026-11-09 | — |
 | 008 | A história INTEIRA da França em 15 minutos | **pronto** 13/11 (15:16, checklist v2 13/14, US$ 9,41 fal+Fish; youtube.videos id 33; `videos/008-franca/entrega/`, falta subir ao Drive); publica dom 15/11 | 2026-11-15 | — |
-| 009 | A história INTEIRA da Alemanha em 17 minutos | etapa 1 pronta 13/11 (roteiro v2 checklist APROVADO, 2.179 palavras, 215 imagens planejadas; youtube.videos id 37; `videos/009-alemanha/ETAPA1-PRONTA.md`); etapa 2 pendente; publica seg 16/11 | 2026-11-16 | — |
+| 009 | A história INTEIRA da Alemanha em 17 minutos | etapa 1 pronta 13/11 (roteiro v2 checklist APROVADO, 2.179 palavras, 215 imagens planejadas; youtube.videos id 37; `videos/009-alemanha/ETAPA1-PRONTA.md`); etapa 2 pronta 13/11 (17:22, −15,2 LUFS, 0 telas pretas, thumbs A/B/C, `entrega/`; `videos/009-alemanha/ETAPA2.md`); publica seg 16/11 | 2026-11-16 | — |
 
 ## Próximos: ordem recomendada em 09/11/2026 (`pesquisa/proximos-temas-2026-11/RELATORIO.md`)
 | Ordem | Tema | Evidência [O] | O que medir (vs. Egito/Índia: ~1 mil impressões, CTR 3,7–4%, 42–45% visualizado) |
