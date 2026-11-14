@@ -1,0 +1,4 @@
+dados/*/thumbs/
+*.thumb.jpg
+dados/**/*.jpg
+dados/**/*.png
