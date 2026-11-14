@@ -9,7 +9,7 @@ Ranking de 2026-11-04 para o **mercado em espanhol** (`pesquisa/archive-in-minut
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (14/11/2026 15:53)
+## Backlog vivo (14/11/2026 15:54)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) pega o 1º item agendado na véspera de cada publicação. Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
