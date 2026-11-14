@@ -9,7 +9,7 @@ Nunca usa search.list. Nunca imprime tokens.
 Uso (rode com tools/.venv/bin/python, a partir de qualquer pasta):
   pesquisa_embalagem.py buscar  <saida> --idioma es "templarios historia" "caballeros templarios" ...
   pesquisa_embalagem.py enriquecer <saida> [--dias 400] [--min-dur 180] [--top 15]
-  pesquisa_embalagem.py thumbs <saida> [--top 9] [--nossos ID1,ID2]   # baixa thumbs + mosaico.jpg (≤ 1 MB)
+  pesquisa_embalagem.py thumbs <saida> [--top 9] [--nossos ID1,ID2] [--ids ID,...] [--nome mosaico-es]   # thumbs + mosaico (≤ 1 MB); --ids = curadoria (tira filmes/podcasts)
 
 <saida> = <pasta do vídeo>/embalagem (ou pesquisa/<teste>/embalagem). Grava:
   busca/*.jsonl, refs.csv (todas, com mediana do canal e ×med), medianas.json, thumbs/*.jpg, mosaico.jpg
@@ -97,10 +97,15 @@ def enriquecer(a):
 
 def thumbs(a):
     from PIL import Image, ImageDraw, ImageFont
-    rows = [r for r in csv.DictReader(open(f'{a.saida}/refs.csv')) if r['na_janela'] == 'True'][:a.top]
+    todas = list(csv.DictReader(open(f'{a.saida}/refs.csv')))
+    if a.ids:  # curadoria: só os ids pedidos, na ordem dada (tira filmes, idioma errado etc.)
+        por_id = {r['id']: r for r in todas}
+        rows = [por_id[i] for i in a.ids.split(',') if i in por_id]
+    else:
+        rows = [r for r in todas if r['na_janela'] == 'True'][:a.top]
     nossos = [x for x in (a.nossos or '').split(',') if x]
     os.makedirs(f'{a.saida}/thumbs', exist_ok=True)
-    lista = [(v, 'NOSSO') for v in nossos] + [(r['id'], f"{(r['canal'] or '?')[:20]} · {int(r['views']):,} v · {r['x_mediana']}×".replace(',', '.')) for r in rows]
+    lista = [(v, 'NOSSO') for v in nossos] + [(r['id'], f"{(r['canal'] or '?')[:20]} · {int(r['views']):,} v · {r['x_mediana']}x med".replace(',', '.')) for r in rows]
     for vid, _ in lista:
         f = f'{a.saida}/thumbs/{vid}.jpg'
         if not os.path.exists(f):
@@ -118,13 +123,13 @@ def thumbs(a):
         x, y = (k % cols) * W, (k // cols) * (H + 28)
         d.rectangle([x, y, x + W - 1, y + H - 1], fill='#1f5fbf' if lab == 'NOSSO' else '#b3261e'); m.paste(im, (x + 4, y + 4))
         d.text((x + 6, y + H + 3), lab, fill='black', font=font)
-    f, q = f'{a.saida}/mosaico.jpg', 85
+    f, q = f'{a.saida}/{a.nome}.jpg', 85
     while True:
         m.save(f, quality=q)
         if os.path.getsize(f) < 1_000_000 or q < 40: break
         q -= 10
     # prévia de celular: o mesmo mosaico reduzido para cada quadro ter ~320 px de largura
-    m.resize((cols * 320, int(nrow * (H + 28) * 320 / W))).save(f'{a.saida}/mosaico-320.jpg', quality=80)
+    m.resize((cols * 320, int(nrow * (H + 28) * 320 / W))).save(f'{a.saida}/{a.nome}-320.jpg', quality=80)
     print(f, os.path.getsize(f), '·', len(lista), 'quadros')
 
 
@@ -132,6 +137,6 @@ if __name__ == '__main__':
     p = argparse.ArgumentParser(); s = p.add_subparsers(dest='cmd', required=True)
     b = s.add_parser('buscar'); b.add_argument('saida'); b.add_argument('termos', nargs='+'); b.add_argument('--idioma', default='es'); b.add_argument('--n', type=int, default=30)
     e = s.add_parser('enriquecer'); e.add_argument('saida'); e.add_argument('--dias', type=int, default=400); e.add_argument('--min-dur', type=int, default=180); e.add_argument('--top', type=int, default=15)
-    t = s.add_parser('thumbs'); t.add_argument('saida'); t.add_argument('--top', type=int, default=9); t.add_argument('--nossos', default='')
+    t = s.add_parser('thumbs'); t.add_argument('saida'); t.add_argument('--top', type=int, default=9); t.add_argument('--nossos', default=''); t.add_argument('--ids', default=''); t.add_argument('--nome', default='mosaico')
     a = p.parse_args(); a.saida = os.path.abspath(a.saida)
     {'buscar': buscar, 'enriquecer': enriquecer, 'thumbs': thumbs}[a.cmd](a)

@@ -30,6 +30,7 @@ Modelo: **opus** (etapa 1 do lote). O crivo roda num **Task separado** (revisor 
    $P $S buscar $V/embalagem --idioma <es|pt|en|fr> "<termo 1>" "<termo 2>" ...   # 4–8 termos: nome do tema, sinônimos, ângulo do BRIEF, "historia/história de X"
    $P $S enriquecer $V/embalagem --dias 400       # videos.list + channels.list + mediana real (últimos ≤ 30 longos) → refs.csv
    $P $S thumbs $V/embalagem --top 9 --nossos <id1,id2>   # thumbs via WARP + mosaico.jpg (≤ 1 MB) + mosaico-320.jpg
+   $P $S thumbs $V/embalagem --ids <id,id,...> --nome mosaico-<idioma>   # mosaico curado: o top por views traz filmes/podcasts (Templarios: 2 filmes do Nicolas Cage); refaça só com vídeos do nicho
    ```
    - yt-dlp e download de thumb **só via `socks5://127.0.0.1:40000`** (o script já usa). Data API só `videos.list`/`channels.list`/`playlistItems` (1 unidade). `search.list` (100 unidades) no máx. **2 por vídeo** e só se o yt-dlp falhar. Anote a cota gasta no `EMBALAGEM.md`.
    - Janela ~12 meses (≤ 400 d). "Acima da mediana" = views > mediana real do canal da referência (o script calcula; medianas de olho erraram na reembalagem r1).
@@ -87,6 +88,12 @@ Por que não é cópia: …
 ## Crivo
 Rodada r<n>: <veredito> (CRIVO.md)
 ```
+
+## Armadilhas vistas no teste a seco (Templarios, 14/11/2026: r1 0/3 → r2 1/3 → r3 3/3; `pesquisa/teste-embalagem-2026-11-14/RESULTADO.md`)
+- **Uma promessa só** para T1, T2 e thumb, e o hook planejado paga **essa** promessa (r1 caiu: título sobre o arresto, hook sobre Chinon).
+- Todo verbo do título ("cómo", "en una mañana") e o **objeto da thumb** precisam de fato com fonte no BRIEF; senão, acrescente a fonte antes ou mude a promessa (r2 caiu: "cómo" sem fato; chave dourada que não é do caso).
+- Sello/texto da thumb abre pergunta: não responde o título ("DEUDA") nem forma frase com a sigla ("TEMPLARIOS ABSUELTOS").
+- Recalcule os ×med com as medianas do dia (o revisor confere e aponta).
 
 ## Critérios de pronto (avaliar)
 - `CRIVO.md` com **APROVADO** (3 de 3) em ≤ 3 rodadas, ou `BLOQUEIO.md` e etapa parada.
