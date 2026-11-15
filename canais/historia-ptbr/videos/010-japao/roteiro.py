@@ -60,6 +60,7 @@ MAPA = ("painted like a blank parchment terrain map seen from directly above, on
         "completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame")
 SEMTXT = ", no readable writing, no letters anywhere, no signs, no boards"
 SEMBAND = ", no flags, no banners with symbols, no letters on sails, shields or banners"
+NJ = ", set in Japan, any people are plain Japanese round-white-head cartoon figures with black hair, no Egyptian headdress, no pharaoh, no turbans, no crowns, no pyramids, no desert, no Roman or Greek ruins"
 SEMSOL = ", no rising sun flag, no red sun disc anywhere"
 ANTIGO = ", prehistoric setting: no castles, no pagodas, no temples, no metal tools, no modern objects"
 MEDIEVAL = (", medieval Japan: low wooden buildings with thatched or simple tiled roofs, no stone castles, no tall white castle towers, "
@@ -110,7 +111,7 @@ cap("Hook")
 b("[serious] Japão, agosto de mil duzentos e oitenta e um. Imagine você em cima de um muro de pedra, numa praia, olhando para o mar.",
   f"wall_dusk|A long low wall of piled grey stones running along a sandy beach in southern Japan at dusk in 1281, a few {SAM12} standing on top looking at the sea" + MEDIEVAL + SEMSOL,
   f"pov_wall|View from behind a round-white-head cartoon young samurai of 1281 in simple lamellar armor standing on a stone wall, looking at a calm grey sea at dusk" + SEMSOL,
-  "sea_horizon|A wide calm grey sea at dusk seen from a Japanese beach, dozens of small dark sails appearing on the horizon, ominous clouds",
+  "sea_horizon|A wide calm grey sea at dusk seen from a Japanese beach, dozens of small dark sails appearing on the horizon, ominous clouds, empty beach in the foreground with nobody on it" + SEMSOL + SEMBAND,
   "stones_close|Close view of a rough stone wall on a beach with waves breaking below it, a samurai's straw sandals and the end of a longbow resting on top, dusk light",
   card="1281")
 b("Na sua frente, segundo as crônicas, a maior frota de invasão que o mundo já tinha visto: milhares de navios de Kublai Khan, neto de Gêngis e dono da China.",
@@ -167,10 +168,10 @@ b("E arroz muda tudo, porque arrozal pede canal, vizinho e chefe. Os chefes brig
   f"mound_builders|Hundreds of {YAYOI} carrying baskets of earth up a huge half-built burial mound, a chief watching from a litter" + ANTIGO.replace("no metal tools, ", ""))
 b("§ Um clã sai na frente, os Yamato, e anuncia que descende da deusa do sol, Amaterasu. Spoiler: a família continua no trono até hoje. É a monarquia hereditária mais antiga do mundo.",
   f"yamato_chief|{YAMATO}, standing proudly before kneeling villagers on a hill, holding up a shining bronze mirror" + ANTIGO.replace("no metal tools, ", "") + "@@CLÃ YAMATO",
-  "amaterasu|A cartoon sun goddess with a round white head, long black hair and white and red robes stepping out of a cave and spreading golden light over the mountains, mythical, no sun disc symbol",
+  "amaterasu|A cartoon sun goddess with a round white head, long black hair and white and red robes stepping out of a cave and spreading golden light over green forested Japanese mountains, a few Japanese villagers in plain hemp clothes with black hair kneeling below, mythical, no sun disc symbol"+NJ,
   "family_tree|Symbolic scene: a giant ancient tree whose branches go from a simple ancient chief at the roots up to a modern man in a suit at the top, all round-white-head cartoon figures" + SEMTXT,
-  "mirror_sword_jewel|Close view of a bronze mirror, a straight ancient sword and a curved green jade jewel on a silk cloth, sacred atmosphere" + SEMTXT,
-  "spoiler_throne|Symbolic comic scene: a long line of round-white-head cartoon emperors from ancient robes to a modern suit, all standing one behind the other in front of the same simple throne" + SEMTXT,
+  "mirror_sword_jewel|Close view of a bronze mirror, a straight ancient sword and a curved green jade jewel on a silk cloth, sacred atmosphere, only the three objects on the cloth, a plain wooden Shinto shrine room behind, nobody in the picture" + SEMTXT,
+  "spoiler_throne|Symbolic comic scene: a long line of round-white-head cartoon emperors from ancient robes to a modern suit, all standing one behind the other in front of the same simple throne, every one of them a Japanese emperor of Japan in Japanese court robes (finally a modern dark suit), black hair, no European kings, no crowns, no capes"+NJ+SEMTXT,
   "ise_shrine|A simple ancient wooden Shinto shrine with a thatched roof and crossed roof beams in a cedar forest, morning mist" + ANTIGO.replace("no temples, ", ""))
 b("Se você acha comprida a árvore da sua família, pense nessa. Mas um clã com deusa na família tinha um problema: do outro lado do mar havia um império mais rico, que se achava o centro do mundo.",
   f"guide_tree|{GUIA} looking up at an enormously tall family tree drawn as a real tree disappearing into the clouds, impressed, comic" + SEMTXT,
@@ -193,7 +194,7 @@ b("Imagine agora a corte da China, no ano seiscentos e sete. Um enviado japonês
   f"envoy_letter|{ENVIADO} holding out a sealed scroll with both hands, nervous smile" + SEMTXT,
   f"emperor_reads|{YANG} unrolling a scroll on his throne, eyebrows rising" + SEMTXT + "@@IMPERADOR YANG",
   "sunrise_sunset|Symbolic split scene: on the left a sun rising over green Japanese islands, on the right a sun setting over a golden Chinese palace, no symbols" + SEMTXT,
-  "letter_seal|Close view of a rolled silk scroll tied with a red cord and a small round wax seal resting on a lacquer tray, the scroll closed" + SEMTXT,
+  "letter_seal|Close view of a rolled silk scroll tied with a red cord and a small round wax seal resting on a lacquer tray, the scroll closed, nobody in the picture, a Japanese wooden room with paper screens behind" + SEMTXT,
   "shotoku_writes|" + SHOTOKU + ", writing with a brush at a low desk in a simple wooden palace, a cheeky smile" + SEMTXT + "@@PRÍNCIPE SHŌTOKU",
   card="607")
 b("O imperador Yang não gosta nem um pouco. Na China só cabia um Filho do Céu, e ele não estava se pondo. Quando você chama o Japão de terra do sol nascente, está ecoando essa carta.",
@@ -361,7 +362,7 @@ b("Agora imagine um navio saindo de Yokohama com boa parte do governo a bordo. E
   f"iwakura_school|{IWAKURA} looking into a European classroom with children at desks" + SEMTXT,
   card="1871")
 b("Imagine boa parte dos ministros do Brasil viajando dois anos para copiar o mundo. Eles voltam e copiam tudo: a ferrovia inglesa, a constituição alemã, o exército, a escola. Os samurais perdem até o direito de andar de espada.",
-  f"guide_suitcases|{GUIA} watching a long line of tiny ministers in suits carrying suitcases onto a ship, comic" + SEMTXT,
+  f"guide_suitcases|{GUIA} watching a long line of tiny ministers in suits carrying suitcases onto a ship, comic, the narrator wears a plain straw travel hat and nothing else on his head, the ministers are Japanese men in dark Western suits of 1871, a steamship at a Japanese harbor"+NJ+SEMTXT,
   "first_train|The first Japanese train of 1872: a small British-style steam locomotive leaving a station among round-white-head cartoon Japanese people in kimonos and Western clothes, amazed" + SEMTXT,
   "meiji_school|A Meiji-era Japanese classroom with round-white-head cartoon children in kimonos at Western desks and a teacher in a suit with a blackboard covered only in simple drawings" + SEMTXT,
   "swords_down|A round-white-head cartoon old samurai sadly placing his two swords on a table in front of a policeman in a Western uniform" + SEMTXT)
@@ -377,7 +378,7 @@ b("Três anos depois, o navio Kasato Maru chega a Santos com setecentos e oitent
   "coffee_farm|Round-white-head cartoon Japanese immigrants of 1908 working on a Brazilian coffee plantation, rows of coffee trees, red earth, blue sky",
   card="1908")
 b("Só que o Japão não copiou só fábricas. Copiou também o que as potências faziam com elas: colônias.",
-  "empire_copy|Symbolic scene: a round-white-head cartoon Japanese official of 1900 in a frock coat copying a European colonial map onto a blank map with a brush, serious" + SEMTXT,
+  "empire_copy|Symbolic scene: a round-white-head cartoon Japanese official of 1900 in a frock coat copying a European colonial map onto a blank map with a brush, serious, no flags anywhere, no flag on the wall or the building outside" + SEMTXT + SEMBAND + SEMSOL,
   "map_colonies|Map of the world in 1900 with large colonial territories in Africa and Asia painted in different flat colors, " + MAPA)
 
 # ───────────────────────── 9. O INVASOR (1931–45; sem humor) ─────────────────────────
@@ -390,17 +391,17 @@ b("§ [serious] Primeiro, Taiwan. Depois, a Coreia, anexada em mil novecentos e 
 b("Em mil novecentos e trinta e sete, vem a guerra com a China. Em Nanquim, soldados japoneses matam dezenas de milhares de civis; algumas estimativas passam de duzentos mil.",
   "nanjing_wall|The old grey city wall of Nanjing with a large gate under a dark smoky sky, empty road, no people" + SEMSIMB,
   "empty_shoes|A pair of small worn shoes and a broken umbrella on an empty street of an old Chinese city, ash in the air, no people" + SEMSIMB,
-  "candles_memorial|Many small candles burning in the dark in front of a stone memorial wall, quiet and solemn" + SEMSIMB,
+  "candles_memorial|Many small candles burning in the dark in front of a plain stone memorial wall at night in a Japanese city park, a few modern Japanese people in dark everyday clothes standing quietly with black hair, quiet and solemn"+NJ+SEMSIMB,
   card="1937")
 b("§ Em dezembro de mil novecentos e quarenta e um, o Japão ataca Pearl Harbor e entra em guerra com os Estados Unidos. E, quando a guerra vira, ele procura de novo aquele vento: os pilotos suicidas ganham o nome de kamikaze.",
   "pearl_harbor|American battleships at anchor in a harbor in Hawaii under a smoky sky, small planes far away, seen from a distance, no fire on people" + SEMSIMB,
-  "pacific_map|Map of the Pacific Ocean in 1942 with islands and coastlines, a large area around Japan shaded in dark red, " + MAPA,
+  "pacific_map|Map of the Pacific Ocean in 1942 with islands and coastlines, a large area around Japan shaded in dark red, " + MAPA + ", no flags, no rising sun flag, no flag in the corner, no soldiers, no people",
   "lone_plane|A single small propeller plane flying toward the clouds over a grey ocean at dawn, seen from far away, lonely" + SEMSIMB,
   "wind_returns|The same swirling wind cloud over the sea as in 1281, now with a small plane flying into it, symbolic, solemn" + SEMSIMB,
   card="1941")
 b("Em agosto de mil novecentos e quarenta e cinco, duas bombas atômicas destroem Hiroshima e Nagasaki. Mais de cem mil pessoas morrem até o fim daquele ano.",
-  "stopped_watch|Close view of an old pocket watch stopped at a quarter past eight, lying on grey ash, solemn" + SEMSIMB,
-  "hiroshima_dome|A ruined domed building standing alone among flattened grey ruins of a city under a pale sky, seen from far away, no people" + SEMSIMB,
+  "stopped_watch|Close view of an old pocket watch stopped at a quarter past eight, lying on grey ash and small stones, plain empty grey background, nothing else, no ruins in the background, no mountain, no volcano, solemn" + SEMSIMB,
+  "hiroshima_dome|A ruined domed building standing alone among flattened grey ruins of a city under a pale sky, seen from far away, in a green Japanese river city setting with a calm river and trees, no people, no desert, no sand, no arches, no Middle Eastern or Roman buildings" + SEMSIMB,
   "paper_cranes|Thousands of colorful paper cranes on strings hanging at a quiet memorial, soft light" + SEMSIMB,
   card="1945")
 b("Dias depois, imagine ouvir no rádio, pela primeira vez, a voz do imperador. Ele pede ao povo que suporte o insuportável. É a rendição.",
@@ -420,7 +421,7 @@ b("§ Tóquio, outubro de mil novecentos e sessenta e quatro. Imagine você na p
   "olympic_stadium|A big modern stadium in Tokyo in 1964 full of people, fireworks, no flags, no rings, no logos" + SEMTXT,
   card="1964")
 b("Dezenove anos depois das bombas, o Japão recebe o mundo. Como? Primeiro, porque os americanos escrevem uma constituição que renuncia à guerra, e o país troca o quartel pela fábrica.",
-  "constitution|Round-white-head cartoon Japanese and American officials of 1946 around a table with a thick blank document, serious but calm" + SEMTXT,
+  "constitution|Round-white-head cartoon Japanese and American officials of 1946 around a table with a thick blank document, serious but calm, absolutely no flags of any country anywhere in the room, nothing on the walls" + SEMTXT + SEMBAND + SEMSOL,
   "soldier_to_worker|Symbolic split scene: on the left a pile of old plain helmets, on the right round-white-head cartoon workers of the 1950s in a busy factory" + SEMSIMB)
 b("E aí ele faz o que sempre fez: copia e melhora. Rádio, carro, televisão. Em mil novecentos e sessenta e oito, já é a segunda maior economia do mundo.",
   "factory_radios|A 1960s Japanese factory line with round-white-head cartoon workers in white caps assembling small transistor radios" + SEMTXT,

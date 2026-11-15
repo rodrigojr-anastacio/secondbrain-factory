@@ -9,7 +9,7 @@ export const LABELS = {
   ],
   map_japan_sea: [
     { t: 'JAPÃO', x: 0.66, y: 0.45, size: 44 },
-    { t: 'CHINA', x: 0.25, y: 0.5, size: 32 },
+    { t: 'COREIA', x: 0.26, y: 0.4, size: 32 },
   ],
   map_crossing: [
     { t: 'COREIA', x: 0.3, y: 0.35, size: 32 },
@@ -17,7 +17,7 @@ export const LABELS = {
   ],
   map_china_japan: [
     { t: 'CHINA', x: 0.35, y: 0.5, size: 44 },
-    { t: 'JAPÃO', x: 0.76, y: 0.4, size: 32 },
+    { t: 'JAPÃO', x: 0.8, y: 0.68, size: 32 },
   ],
   map_korea_route: [
     { t: 'CHINA', x: 0.3, y: 0.5, size: 34 },
@@ -32,7 +32,7 @@ export const LABELS = {
     { t: 'EUROPA', x: 0.22, y: 0.35, size: 30 },
     { t: 'JAPÃO', x: 0.78, y: 0.4, size: 30 },
   ],
-  map_1905: [{ t: 'IMPÉRIO DO JAPÃO, 1905', x: 0.6, y: 0.55, size: 28 }],
-  map_expansion: [{ t: 'IMPÉRIO DO JAPÃO, 1932', x: 0.55, y: 0.45, size: 28 }],
+  map_1905: [{ t: 'IMPÉRIO DO JAPÃO, 1905', x: 0.72, y: 0.45, size: 28 }],
+  map_expansion: [{ t: 'IMPÉRIO DO JAPÃO', x: 0.7, y: 0.5, size: 28 }],
   pacific_map: [{ t: 'OCEANO PACÍFICO', x: 0.6, y: 0.65, size: 30 }],
 };

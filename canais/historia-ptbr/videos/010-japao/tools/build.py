@@ -48,8 +48,8 @@ def salvar(p, x):
 
 # ───────────── trilha original gerada no código (sem samples) ─────────────
 def trilha(dur, troca=None):
-    """009-alemanha: pad e drone de Lá, dedilhado em modo eólio de Lá. Antes de `troca` (início do cap. 6): alaúde (Karplus-Strong suave, oitava média);
-    depois: cravo (Karplus-Strong brilhante, decaimento curto, uma oitava acima) com sino de catedral a cada ~30 s. Tudo sintetizado aqui (regra do visual.md: região/época do tema)."""
+    """010-japao: pad e drone de Lá. Antes de `troca` (início do cap. 6): koto (Karplus-Strong brilhante) na escala pentatônica japonesa *in* de Lá (Lá Sib Ré Mi Fá)
+    com sopro de shakuhachi (seno com vibrato) a cada ~25 s; depois: piano esparso (Karplus-Strong suave) em Lá eólio, sem sino nem marcha. Tudo sintetizado aqui."""
     rng = np.random.default_rng(42)
     N = int(dur * SR); t = np.arange(N) / SR
     troca = troca if troca else dur * 0.45
@@ -57,7 +57,7 @@ def trilha(dur, troca=None):
     out = np.zeros(N)
     out += 0.05 * np.sin(2 * np.pi * hz(33) * t) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 19))
     out += 0.03 * np.sin(2 * np.pi * hz(40) * t + 1) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 27 + 2))
-    prog = [[45, 52, 57, 60], [43, 50, 55, 59], [41, 48, 53, 57], [45, 52, 57, 60], [48, 55, 60, 64], [40, 47, 52, 55]]   # Am, G, F, Am, C, Em (Lá eólio)
+    prog = [[45, 52, 57], [45, 52, 58], [43, 50, 57], [45, 53, 57], [45, 52, 60], [43, 50, 55]]   # drones abertos de Lá (quinta, Sib, Fá)
     CH = 12.0
     for c in range(int(dur / CH) + 2):
         s0 = int((c * CH - 3) * SR); L = int((CH + 6) * SR)
@@ -71,7 +71,9 @@ def trilha(dur, troca=None):
                 fr = hz(m) * 2 ** (det / 12); ph = rng.uniform(0, 6.3)
                 seg += np.sin(2 * np.pi * fr * tt + ph) + 0.15 * np.sin(4 * np.pi * fr * tt + ph)
         out[a_:b_] += 0.012 * seg * env
-    escala = [57, 59, 60, 62, 64, 65, 67, 69, 71, 72]   # Lá Si Dó Ré Mi Fá Sol Lá Si Dó (eólio)
+    refs_sh = [69, 64, 70, 65]
+    escala_in = [57, 58, 62, 64, 65, 69, 70, 74]   # in-scale de Lá
+    escala = [57, 59, 60, 62, 64, 65, 67, 69, 71, 72]   # Lá eólio (piano, depois da troca)
     def corda(m, n, perda, bril):
         L = int(SR / hz(m)); buf = rng.uniform(-1, 1, L)
         for _ in range(bril): buf = 0.5 * (buf + np.roll(buf, 1))   # suaviza o ataque (menos = mais brilhante)
@@ -79,24 +81,26 @@ def trilha(dur, troca=None):
         for i in range(n):
             y[i] = buf[i % L]; buf[i % L] = perda * 0.5 * (buf[i % L] + buf[(i + 1) % L])
         return y
-    alaude = {m: corda(m, int(0.9 * SR), 0.996, 2) for m in escala}
-    cravo = {m: corda(m + 12, int(0.5 * SR), 0.985, 0) for m in escala}
+    alaude = {m: corda(m, int(1.1 * SR), 0.997, 0) for m in escala_in}   # koto
+    cravo = {m: corda(m, int(1.4 * SR), 0.998, 3) for m in escala}      # piano suave
     passo = 0.0
     while passo < dur - 2:
-        passo += rng.choice([1.5, 2.25, 3.0, 4.5] if passo < troca else [0.75, 1.5, 2.25, 3.0])
+        passo += rng.choice([1.5, 2.25, 3.0, 4.5] if passo < troca else [2.25, 3.0, 4.5, 6.0])
         if passo >= dur - 1: break
-        nota = int(rng.choice(escala))
-        arp = [nota] if rng.random() < 0.5 else [nota, escala[min(len(escala) - 1, escala.index(nota) + 2)], escala[min(len(escala) - 1, escala.index(nota) + 4)]]
+        esc = escala_in if passo < troca else escala
+        nota = int(rng.choice(esc))
+        arp = [nota] if rng.random() < 0.6 else [nota, esc[min(len(esc) - 1, esc.index(nota) + 2)]]
         for r, m in enumerate(arp):
             y = (alaude if passo < troca else cravo)[m] * rng.uniform(0.6, 1.0)
             i0 = int((passo + r * 0.18) * SR); i1 = min(N, i0 + len(y))
             if i0 < N: out[i0:i1] += (0.035 if passo < troca else 0.022) * y[: i1 - i0]
-    for k in range(int(dur / 30)):
-        i0 = int((troca + 8 + k * 30) * SR); L = min(N - i0, int(6 * SR))
+    for k in range(int(troca / 25)):   # shakuhachi: sopro lento com vibrato (só antes da troca)
+        i0 = int((6 + k * 25) * SR); L = min(N - i0, int(5 * SR))
         if L <= 0: break
-        tt = np.arange(L) / SR
-        sino = sum(a_ * np.sin(2 * np.pi * hz(33) * r * tt) * np.exp(-tt / d) for r, a_, d in ((1, 1, 3.5), (2.0, 0.6, 2.5), (2.4, 0.5, 2.0), (3.0, 0.35, 1.5), (4.2, 0.25, 1.0)))
-        out[i0:i0 + L] += 0.03 * sino
+        tt = np.arange(L) / SR; f0 = hz(refs_sh[k % len(refs_sh)])
+        env = np.clip(tt / 1.2, 0, 1) * np.clip((5 - tt) / 1.5, 0, 1)
+        sh = np.sin(2 * np.pi * (f0 + 2.5 * np.sin(2 * np.pi * 5 * tt)) * tt) + 0.2 * np.sin(4 * np.pi * f0 * tt) + 0.05 * rng.standard_normal(L)
+        out[i0:i0 + L] += 0.018 * sh * env
     fi = int(2 * SR); out[:fi] *= np.linspace(0, 1, fi); out[-int(3 * SR):] *= np.linspace(1, 0, int(3 * SR))
     return out / (np.max(np.abs(out)) + 1e-9) * 0.5
 

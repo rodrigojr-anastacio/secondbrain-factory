@@ -1,0 +1,1253 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/historia-ptbr/videos/010-japao/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.3947,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 13,
+  "medio": 24,
+  "baixo": 29
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q04",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Rótulo 'JAPÃO' está no mar/costa da China, fora das ilhas japonesas, e não aponta claramente para o Japão. O mapa também mostra o Império Mongol de forma geográfica imprecisa, cobrindo toda a Rússia e a Ásia.",
+   "t": 15.9,
+   "arquivo": "477.png"
+  },
+  {
+   "quadro": "Q05",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Navios com cabines em formato de pagode e telhado dourado, bem estilizados. Dúvida de estilo: o tipo de navio parece mais um junco chinês genérico, o que é aceitável para a frota mongol-chinesa.",
+   "t": 21.0,
+   "arquivo": "630.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Ferraria japonesa com mosquetes/arcabuzes de pederneira em cena que parece medieval (contexto de 1281). Armas de fogo europeias só chegaram ao Japão em 1543. Só é aceitável se o trecho for sobre o Japão posterior.",
+   "t": 41.0,
+   "arquivo": "1230.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "Rótulo 'CHINA' está sobre a península coreana (Coreia), e não sobre a China. 'JAPÃO' está posicionado sobre Honshu, cobrindo parte da ilha. Rótulo de mapa errado.",
+   "t": 48.833333333333336,
+   "arquivo": "1465.png"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Os invasores à esquerda e ao centro/direita (almirantes do século XVIII com tricórnio e peruca) e o navio a vapor com chaminé aparecem junto de um navio de vela antigo, misturando épocas. Se a cena trata de ameaças ao Japão, há mistura de períodos. O castelo japonês de vários andares e o torii também podem ser anacrônicos para a cena. Confirmar com o roteiro.",
+   "t": 51.0,
+   "arquivo": "1530.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Castelo japonês de estilo tardio (torre de vários andares) sobre a falésia junto a um viajante de chapéu de palha. Pode ser anacrônico se o trecho for pré-histórico, mas aqui parece cena de época posterior. Dúvida de contexto.",
+   "t": 61.0,
+   "arquivo": "1830.png"
+  },
+  {
+   "quadro": "Q11",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Placa de capítulo bege cobre parte da fogueira e do pote e cortada por elementos da cena, mas o texto 'CAPÍTULO 1 / Gente que chegou pelo mar' está legível. Detalhe de estética apenas.",
+   "t": 67.06666666666666,
+   "arquivo": "2012.png"
+  },
+  {
+   "quadro": "Q14",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "Mapa com rótulos COREIA e JAPÃO legíveis, mas a posição do rótulo COREIA fica sobre a costa leste da península e o mapa está estilizado. Estética discutível, sem defeito claro.",
+   "t": 90.46666666666667,
+   "arquivo": "2714.png"
+  },
+  {
+   "quadro": "Q20",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O rótulo \"JAPÃO\" está sobre a península da Coreia, e não sobre as ilhas japonesas (verdes, à direita). Rótulo no lugar errado do mapa; a Coreia nem está identificada.",
+   "t": 137.03333333333333,
+   "arquivo": "4111.png"
+  },
+  {
+   "quadro": "Q23",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os trajes de corte japoneses com chapéu preto alto e as flores de cerejeira são plausíveis para a época. O padrão de crisântemo nos tecidos e nas cortinas remete ao brasão imperial, um detalhe posterior, mas discreto.",
+   "t": 151.0,
+   "arquivo": "4530.png"
+  },
+  {
+   "quadro": "Q24",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Os trajes e prédios misturam épocas: o castelo japonês de vários andares (estilo Himeji, séc. XVII) e a armadura de samurai com elmo de chifres de lua não existiam no Japão do período Asuka (séc. VI-VII), que o capítulo parece retratar. Na dúvida entre estilo e erro, fica como médio.",
+   "t": 155.43333333333334,
+   "arquivo": "4663.png"
+  },
+  {
+   "quadro": "Q24",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Os rótulos \"CHINA\" e \"COREIA\" ficam por cima ou colados nos personagens, e \"COREIA\" encosta na cabeça do personagem de chapéu preto. A leitura continua possível, mas fica apertada.",
+   "t": 155.43333333333334,
+   "arquivo": "4663.png"
+  },
+  {
+   "quadro": "Q26",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena mistura um castelo japonês de vários andares (estilo muito posterior ao período) e samurais de armadura com os trajes do período Asuka/Sui (~607). Pode ser um recurso simbólico, mas também pode ser anacronismo.",
+   "t": 171.0,
+   "arquivo": "5130.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Os personagens usam quimono com obi e katana no estilo de épocas posteriores. A pagode de cinco andares é aceitável, mas a roupa lembra o período Edo, não o Japão de ~607.",
+   "t": 191.0,
+   "arquivo": "5730.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Um personagem usa armadura estilo samurai posterior ao período retratado. Detalhe pequeno ao fundo à esquerda.",
+   "t": 221.0,
+   "arquivo": "6630.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa de capítulo cobre a parte inferior da personagem e da mesa. Isso é normal em placa de capítulo, mas o texto fica sobre uma área detalhada e o fundo atrás dela é movimentado.",
+   "t": 227.26666666666668,
+   "arquivo": "6818.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A placa 'QUIOTO' no canto inferior esquerdo é um rótulo de código, não texto inventado pela IA. A grafia é 'Quioto' em português, então parece correta. Ela cobre parte do personagem escrevendo e das flores, mas é aceitável.",
+   "t": 241.0,
+   "arquivo": "7230.png"
+  },
+  {
+   "quadro": "Q35",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena de caligrafia tem arquitetura chinesa (pontes, torres e muralha) e um personagem com coque e fita, enquanto o trecho trata do Japão (Q33-Q39). Pode ser intencional como referência à China, mas a dúvida fica: se o texto falar de caligrafia japonesa, o cenário está errado.",
+   "t": 251.0,
+   "arquivo": "7530.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A placa '1185' no canto superior esquerdo cobre parcialmente a folhagem e o telhado. Ela é rótulo de código e o ano é plausível (início do xogunato). Nada a corrigir além de conferir o posicionamento.",
+   "t": 261.0,
+   "arquivo": "7830.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena mostra um imperador mongol/chinês com chapéu de pele, trono dourado e palácio chinês, com um mapa do Japão na mesa. O mapa do Japão é plausível para a invasão mongol. O palácio e o estilo chinês estão coerentes com o contexto Yuan, mas vale confirmar se era essa a intenção.",
+   "t": 301.0,
+   "arquivo": "9030.png"
+  },
+  {
+   "quadro": "Q41",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo \"CAPÍTULO 4 / O vento divino\" cobre a parte da frente da mesa e o pergaminho com selo. Está legível, mas tapa o pergaminho. Pode ser a placa de capítulo intencional; confirmar a posição.",
+   "t": 302.3,
+   "arquivo": "9069.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Mapa estilizado com rótulos \"COREIA\" e \"KYUSHU\" no código. A geografia está muito distorcida: a Coreia aparece como massa sem forma e Kyushu como península sem forma reconhecível. Dúvida entre estilo e erro de mapa.",
+   "t": 315.0,
+   "arquivo": "9450.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Rótulos em fonte serifada com caixa bege, em estilo diferente do resto do canal. Texto legível e coerente, sem letra falsa.",
+   "t": 315.0,
+   "arquivo": "9450.png"
+  },
+  {
+   "quadro": "Q45",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "As explosões com fumaça e destroços na praia lembram granadas (Mongol 'tetsuhau'), o que é coerente com a história. Os navios ao fundo têm velas de aparência chinesa, aceitável. Sem defeito claro, só registro de dúvida.",
+   "t": 331.0,
+   "arquivo": "9930.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Mistura de trajes de épocas diferentes na mesma sala: cortesã Heian (jūnihitoe), samurai com armadura e elmo de época posterior, e cortesão com chapéu eboshi. Pode ser aceitável como estilo, mas a coerência histórica é duvidosa.",
+   "t": 391.0,
+   "arquivo": "11730.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa 'CAPÍTULO 5 / Os bárbaros do sul' cobre a parte de baixo do mapa do Japão (Shikoku/Kyushu). Pode ser uma placa de capítulo intencional, mas o mapa é pintado pela IA e tem divisões coloridas sem rótulos legíveis; vale conferir a posição da placa.",
+   "t": 396.56666666666666,
+   "arquivo": "11897.png"
+  },
+  {
+   "quadro": "Q55",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cena do Japão do séc. XVI com castelo de torre e navio português com cruzes nas velas. É plausível para a chegada dos portugueses, mas o castelo parece de período posterior e há dúvida sobre a adequação. O brasão no noren (cortina) à direita é uma flor circular genérica, sem texto.",
+   "t": 421.0,
+   "arquivo": "12630.png"
+  },
+  {
+   "quadro": "Q57",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O noren azul na barraca à esquerda traz um desenho de pão cortado pela borda, sem letras. O desenho é discreto e não atrapalha. Ressalva: o português com chapéu e capa europeus do séc. XVI está coerente com a cena.",
+   "t": 441.0,
+   "arquivo": "13230.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A fortaleza ao fundo à direita tem estilo coreano e os navios têm estilo misto. Isso parece intencional na cena da invasão da Coreia, mas vale conferir.",
+   "t": 461.0,
+   "arquivo": "13830.png"
+  },
+  {
+   "quadro": "Q60",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A sombra gigante da mitra papal com cruz projetada sobre a baía e a cidade japonesa é um recurso simbólico, mas parece um bloco azul-escuro chapado e estranho no céu e no mar. Em dúvida entre estilo e defeito. A sombra cobre a montanha e parte do castelo de forma pouco natural.",
+   "t": 471.0,
+   "arquivo": "14130.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "elemento_fora",
+   "severidade": "alto",
+   "descricao": "A placa '1641' no canto superior esquerdo fica colada na borda e sobre o mastro e as velas do navio. O ano cobre o desenho e parece sobreposto. A placa de capítulo 'Capítulo 6 – A porta trancada' continua visível ao mesmo tempo, então há dois elementos de texto empilhados.",
+   "t": 481.0,
+   "arquivo": "14430.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Rótulo \"JAPÃO\" fica na costa da Coreia/China continental, não sobre o arquipélago japonês, que está no canto direito da imagem. A rota tracejada termina no canto, sem relação clara com o rótulo. Mapa de estilo cartoon com geografia imprecisa.",
+   "t": 537.9666666666667,
+   "arquivo": "16139.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "O rótulo \"EUROPA\" está sobre o Mar Negro/Bálcãs, perto da Turquia, e não no centro da Europa. Posição discutível.",
+   "t": 541.0,
+   "arquivo": "16230.png"
+  },
+  {
+   "quadro": "Q70",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "Mesmo problema do Q69: o rótulo \"EUROPA\" está sobre o Mar Negro/Bálcãs. É quase idêntico ao quadro anterior, mas sem a transição.",
+   "t": 541.2666666666667,
+   "arquivo": "16238.png"
+  },
+  {
+   "quadro": "Q72",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena de estaleiro industrial, com cartolas, casco de ferro rebitado e chaminés de tijolo, parece da Europa do séc. XIX. O contexto do vídeo (Japão Edo) não está claro. Se a cena não for de contraste com a Europa industrial, é anacronismo ou lugar errado.",
+   "t": 561.0,
+   "arquivo": "16830.png"
+  },
+  {
+   "quadro": "Q73",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Os 'navios negros' ao fundo são veleiros de três mastros com velas claras e sem fumaça. Os navios de Perry eram casco negro a vapor. Na dúvida, registrado como médio.",
+   "t": 565.5,
+   "arquivo": "16965.png"
+  },
+  {
+   "quadro": "Q75",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Perry usa bicorne e casaca de almirante napoleônica, com marinheiros de gola marinheira branca. O uniforme não corresponde à marinha dos EUA de 1853. Ao fundo, a costa tem pagode e casas, e a legenda MATTHEW PERRY está em inglês.",
+   "t": 581.0,
+   "arquivo": "17430.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Os navios dentro dos balões de pensamento são vapores com chaminés, mas as embarcações reais no mar são veleiros tradicionais. A cena é simbólica, então a incoerência é discutível. Os balões saem pela borda direita, e o último está cortado.",
+   "t": 601.0,
+   "arquivo": "18030.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Cena de canhoneio com soldados de casaca vermelha britânica, junques chineses e fortaleza de estilo chinês. Se o trecho é sobre o Japão e Perry, o lugar e o uniforme estão errados. Se for a Guerra do Ópio, é um contexto distinto. O almirante também usa bicorne napoleônico.",
+   "t": 611.0,
+   "arquivo": "18330.png"
+  },
+  {
+   "quadro": "Q79",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "No canto inferior, o mapa no pergaminho tem contornos ilegíveis e aparência de texto/linhas inventadas pela IA. É pouco visível.",
+   "t": 621.0,
+   "arquivo": "18630.png"
+  },
+  {
+   "quadro": "Q80",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Samurai de armadura do período Sengoku diante de um canhão europeu gigante e antigo, de estilo medieval. A escala do canhão é exagerada, mas pode ser licença estilística.",
+   "t": 631.0,
+   "arquivo": "18930.png"
+  },
+  {
+   "quadro": "Q81",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A placa de capítulo cobre parte dos personagens ajoelhados na parte inferior. Dúvida entre estilo e defeito, pois é o padrão de placa de capítulo.",
+   "t": 635.3666666666667,
+   "arquivo": "19061.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena de entrega das chaves do castelo mistura um samurai de armadura completa e soldados de uniforme ocidental com fuzis. Mistura plausível para 1870, mas a armadura do samurai aparece ao lado de uniformes modernos. Registrado como dúvida de estilo.",
+   "t": 641.0,
+   "arquivo": "19230.png"
+  },
+  {
+   "quadro": "Q84",
+   "categoria": "elemento_fora",
+   "severidade": "alto",
+   "descricao": "No canto esquerdo aparece um personagem com toucado de faraó egípcio, fora de contexto numa cena de porto com executivos de terno embarcando (capítulo do Japão). Além disso, o navio é um galeão de vela antigo e a arquitetura é árabe/indiana, incompatível com a cena do Japão Meiji.",
+   "t": 661.0,
+   "arquivo": "19830.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O rótulo 'IMPÉRIO DO JAPÃO, 1905' está sobre o mar da costa da China, longe do Japão, e o rótulo está colado numa linha de rio/costa. Em vermelho aparece também a Manchúria/norte da Coreia, mas a Coreia está em bege (em 1905 era protetorado japonês). Posição do rótulo e cores do mapa podem confundir.",
+   "t": 695.7666666666667,
+   "arquivo": "20873.png"
+  },
+  {
+   "quadro": "Q90",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Chapéus cônicos de palha (estilo asiático) numa fazenda de café brasileira, com imigrantes; pode ser intencional (imigrantes japoneses), mas o chapéu cônico é um estereótipo e destoa de uma fazenda paulista. Na dúvida, registrado como médio.",
+   "t": 711.0,
+   "arquivo": "21330.png"
+  },
+  {
+   "quadro": "Q91",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'CAPÍTULO 9 – O país que ninguém conquistava' cobre a parte de baixo do mapa e os personagens, e o rótulo 'IMPÉRIO DO JAPÃO, 1932' fica sobre o mapa. Não se sobrepõem diretamente, mas a composição está carregada. O rótulo de 1932 aparece junto do ano 1910 nos quadros seguintes.",
+   "t": 720.3,
+   "arquivo": "21609.png"
+  },
+  {
+   "quadro": "Q92",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O selo de ano mostra '1910', mas o rótulo no mapa diz 'IMPÉRIO DO JAPÃO, 1932' e a área vermelha já inclui a Manchúria. Os dois anos se contradizem na mesma tela.",
+   "t": 721.0,
+   "arquivo": "21630.png"
+  },
+  {
+   "quadro": "Q93",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O selo '1910' no canto superior esquerdo contradiz o rótulo do mapa 'IMPÉRIO DO JAPÃO, 1932'. Também há texto empilhado, com o selo de ano, o rótulo e a placa de capítulo ao mesmo tempo.",
+   "t": 721.5,
+   "arquivo": "21645.png"
+  },
+  {
+   "quadro": "Q94",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O mapa traz a Manchúria em vermelho (1932) enquanto o selo de ano de 1910 não está mais visível. O rótulo está solto sobre o mapa, sem ligação clara com a região. Detalhe menor.",
+   "t": 725.2666666666667,
+   "arquivo": "21758.png"
+  },
+  {
+   "quadro": "Q95",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena de Seul/Coreia colonial com soldados de uniforme caqui amarelado e chapéu; plausível para o período, mas a fortaleza ao fundo e as roupas misturam estilos. Só vale conferir.",
+   "t": 731.0,
+   "arquivo": "21930.png"
+  },
+  {
+   "quadro": "Q96",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Cena sem personagens, na qual a muralha e o portão têm arquitetura chinesa e uma fumaça escura sobe no céu. Foge do estilo dos bonequinhos de cabeça redonda, sem nenhuma pessoa; pode ser cena intencional de cenário.",
+   "t": 741.0,
+   "arquivo": "22230.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "texto_inventado",
+   "severidade": "alto",
+   "descricao": "No canto superior esquerdo, sobre a palmeira, há uma placa translúcida e quase ilegível com \"1941\". Parece um rótulo de ano semitransparente, em fade ou quebrado, que fica sobreposto à folhagem. Se não for animação de entrada, é um defeito de legibilidade.",
+   "t": 751.0,
+   "arquivo": "22530.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O cenário lembra Pearl Harbor, mas a cratera ao fundo parece Diamond Head, em Waikiki, e há uma torre de controle pouco típica. Os encouraçados estão estilizados. É um detalhe de lugar discutível.",
+   "t": 751.0,
+   "arquivo": "22530.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O mapa pinta de vermelho China, Coreia, Sudeste Asiático, Indonésia e Papua-Nova Guiné, além de ilhas do Pacífico, como domínio japonês. O Japão aparece com a mesma cor dos territórios. A leitura é confusa, pois a China inteira aparece como ocupada e não há legenda. Na dúvida entre estilo e erro de dados.",
+   "t": 755.1333333333333,
+   "arquivo": "22654.png"
+  },
+  {
+   "quadro": "Q99",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "É o mesmo mapa do Q98 com zoom. O vermelho cobre a China inteira, a Índia fica fora e o rótulo \"OCEANO PACÍFICO\" está perto da borda direita. A extensão do domínio japonês é discutível.",
+   "t": 758.0,
+   "arquivo": "22740.png"
+  },
+  {
+   "quadro": "Q101",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O relógio de bolso tem ponteiros sem numerais e as marcações das horas estão irregulares, com uma marca faltando perto das 9h. É detalhe estético, sem texto ilegível.",
+   "t": 771.0,
+   "arquivo": "23130.png"
+  },
+  {
+   "quadro": "Q103",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "A placa \"1945\" aparece com o Japão exibindo uma frota de navios de guerra, oficiais de uniforme do século XIX, quimonos e cerejeiras. Os navios parecem pré-guerra, com várias chaminés e mastros altos, e não da frota de 1945. O oficial usa uniforme de gala azul com dragonas, incoerente com o ano.",
+   "t": 791.0,
+   "arquivo": "23730.png"
+  },
+  {
+   "quadro": "Q104",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Soldados aliados de capacete verde marcham em uma Hiroshima em ruínas, com a Cúpula da Bomba Atômica ao fundo. O cenário é coerente com o fim da guerra. Os uniformes são genéricos e não identificam nenhuma nação, o que é um detalhe discutível.",
+   "t": 801.0,
+   "arquivo": "24030.png"
+  },
+  {
+   "quadro": "Q105",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Cena de 1964 (capítulo 10) mostra a Torre de Tóquio no canto superior direito, ao lado do castelo e do Monte Fuji; a torre existe desde 1958, então o ponto é leve, mas a paisagem mistura marcos de forma irreal. Registrar como dúvida: castelo e Fuji juntos com a Torre de Tóquio não existem na mesma vista.",
+   "t": 808.8666666666667,
+   "arquivo": "24266.png"
+  },
+  {
+   "quadro": "Q106",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A Torre de Tóquio fica cortada pela borda direita (só a ponta aparece) e o selo '1964' no canto superior esquerdo fica colado ao canto. Enquadramento aceitável, mas apertado.",
+   "t": 811.0,
+   "arquivo": "24330.png"
+  },
+  {
+   "quadro": "Q109",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Fábrica de rádios com a Torre de Tóquio e o Fuji ao fundo, ao lado de chaminé. Combinação irreal de marcos, mas plausível como estilo.",
+   "t": 841.0,
+   "arquivo": "25230.png"
+  },
+  {
+   "quadro": "Q110",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Na TV em preto e branco aparece um astronauta na Lua com cabeça redonda. Pode ser anacrônico conforme a data da cena (pouso é de 1969). Dúvida: se a cena for anterior a 1969, é anacronismo.",
+   "t": 851.0,
+   "arquivo": "25530.png"
+  },
+  {
+   "quadro": "Q111",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Samurai saindo da TV com aro de luz, estilo intencional; a TV está cortada pela borda esquerda. Sem defeito claro, só observar.",
+   "t": 861.0,
+   "arquivo": "25830.png"
+  },
+  {
+   "quadro": "Q115",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Cena sem personagens, num canal de bonequinhos de cabeça redonda; o céu tem nuvens em espiral estilizadas, em traço diferente do restante. A dúvida é se isso é estilo ou inconsistência, e a cena também não mostra nada claramente japonês (casas e palmeiras de estética mediterrânea/árabe). Pode ser cena de transição intencional, mas vale conferir o contexto da narração.",
+   "t": 891.0,
+   "arquivo": "26730.png"
+  },
+  {
+   "quadro": "Q116",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Navios negros da frota de Perry: dois veleiros sem vapor na frente e dois navios a vapor com rodas de pás atrás, o que pode ser aceitável. Os marinheiros de uniforme azul são minúsculos e com rostos pouco definidos, e o navio do canto direito está cortado pela borda. Provável estilo, mas há dúvida sobre a precisão histórica. Os vilarejos ao fundo parecem ter casas de aparência moderna.",
+   "t": 901.0,
+   "arquivo": "27030.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 0.6666666666666666,
+   "nome": "20.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 1.0,
+   "nome": "30.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 11.0,
+   "nome": "330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 15.9,
+   "nome": "477.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 21.0,
+   "nome": "630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 31.0,
+   "nome": "930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 41.0,
+   "nome": "1230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 48.833333333333336,
+   "nome": "1465.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 51.0,
+   "nome": "1530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 61.0,
+   "nome": "1830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 67.06666666666666,
+   "nome": "2012.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 71.0,
+   "nome": "2130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 81.0,
+   "nome": "2430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 90.46666666666667,
+   "nome": "2714.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 91.0,
+   "nome": "2730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 101.0,
+   "nome": "3030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 111.0,
+   "nome": "3330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 121.0,
+   "nome": "3630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 131.0,
+   "nome": "3930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 137.03333333333333,
+   "nome": "4111.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 141.0,
+   "nome": "4230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 146.4,
+   "nome": "4392.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 151.0,
+   "nome": "4530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 155.43333333333334,
+   "nome": "4663.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 161.0,
+   "nome": "4830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 171.0,
+   "nome": "5130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 181.0,
+   "nome": "5430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 191.0,
+   "nome": "5730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 201.0,
+   "nome": "6030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 211.0,
+   "nome": "6330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 221.0,
+   "nome": "6630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 227.26666666666668,
+   "nome": "6818.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 231.0,
+   "nome": "6930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 241.0,
+   "nome": "7230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 251.0,
+   "nome": "7530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 261.0,
+   "nome": "7830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 271.0,
+   "nome": "8130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 281.0,
+   "nome": "8430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 291.0,
+   "nome": "8730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 301.0,
+   "nome": "9030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 302.3,
+   "nome": "9069.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 311.0,
+   "nome": "9330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 315.0,
+   "nome": "9450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 321.0,
+   "nome": "9630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 331.0,
+   "nome": "9930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 341.0,
+   "nome": "10230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 351.0,
+   "nome": "10530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 361.0,
+   "nome": "10830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 371.0,
+   "nome": "11130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 381.0,
+   "nome": "11430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 391.0,
+   "nome": "11730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 396.56666666666666,
+   "nome": "11897.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 401.0,
+   "nome": "12030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 411.0,
+   "nome": "12330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 421.0,
+   "nome": "12630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 431.0,
+   "nome": "12930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 441.0,
+   "nome": "13230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 451.0,
+   "nome": "13530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 461.0,
+   "nome": "13830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 471.0,
+   "nome": "14130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 480.76666666666665,
+   "nome": "14423.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 481.0,
+   "nome": "14430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 491.0,
+   "nome": "14730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 501.0,
+   "nome": "15030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 511.0,
+   "nome": "15330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 521.0,
+   "nome": "15630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 531.0,
+   "nome": "15930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 537.9666666666667,
+   "nome": "16139.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 541.0,
+   "nome": "16230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 541.2666666666667,
+   "nome": "16238.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 551.0,
+   "nome": "16530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 561.0,
+   "nome": "16830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 565.5,
+   "nome": "16965.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 571.0,
+   "nome": "17130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 581.0,
+   "nome": "17430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 591.0,
+   "nome": "17730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 601.0,
+   "nome": "18030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 611.0,
+   "nome": "18330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 621.0,
+   "nome": "18630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 631.0,
+   "nome": "18930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 635.3666666666667,
+   "nome": "19061.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 641.0,
+   "nome": "19230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 651.0,
+   "nome": "19530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 661.0,
+   "nome": "19830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 671.0,
+   "nome": "20130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 681.0,
+   "nome": "20430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 691.0,
+   "nome": "20730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 695.7666666666667,
+   "nome": "20873.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 701.0,
+   "nome": "21030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 711.0,
+   "nome": "21330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 720.3,
+   "nome": "21609.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 721.0,
+   "nome": "21630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 721.5,
+   "nome": "21645.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 725.2666666666667,
+   "nome": "21758.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 731.0,
+   "nome": "21930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 741.0,
+   "nome": "22230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 751.0,
+   "nome": "22530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 755.1333333333333,
+   "nome": "22654.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 758.0,
+   "nome": "22740.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 761.0,
+   "nome": "22830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q101",
+   "t": 771.0,
+   "nome": "23130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 781.0,
+   "nome": "23430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 791.0,
+   "nome": "23730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 801.0,
+   "nome": "24030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q105",
+   "t": 808.8666666666667,
+   "nome": "24266.png",
+   "sinais": []
+  },
+  {
+   "id": "Q106",
+   "t": 811.0,
+   "nome": "24330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q107",
+   "t": 821.0,
+   "nome": "24630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q108",
+   "t": 831.0,
+   "nome": "24930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q109",
+   "t": 841.0,
+   "nome": "25230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q110",
+   "t": 851.0,
+   "nome": "25530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q111",
+   "t": 861.0,
+   "nome": "25830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q112",
+   "t": 871.0,
+   "nome": "26130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q113",
+   "t": 881.0,
+   "nome": "26430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q114",
+   "t": 881.5,
+   "nome": "26445.png",
+   "sinais": []
+  },
+  {
+   "id": "Q115",
+   "t": 891.0,
+   "nome": "26730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q116",
+   "t": 901.0,
+   "nome": "27030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q117",
+   "t": 911.0,
+   "nome": "27330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q118",
+   "t": 921.0,
+   "nome": "27630.png",
+   "sinais": []
+  }
+ ]
+}

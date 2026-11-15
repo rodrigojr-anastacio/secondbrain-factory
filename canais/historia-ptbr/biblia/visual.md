@@ -54,3 +54,11 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md` (armadilhas d
 - Prompts de capacete de ponta: pedir "plain spiked helmets with smooth fronts (no badge, no emblem, no eagle)"; sem isso o nano-banana põe águia dourada (I006). Documentos/cartazes/etiquetas/néon: pedir "completely blank" ou "plain shapes", senão saem letras e preços inventados (pré-QA pegou 1 bloqueante e 5 altos). Rostos de "ditador" em tratado de 1919: pedir bigode simples e sem repartido.
 - Mapas: rótulos em `src/labels.jsx`; o fundo do mapa com zoom/pan muda a posição: conferir stills de início e fim do plano (OCIDENTAL/ORIENTAL).
 - Trilha: Lá eólio (alaúde → cravo). Fonte: 009 ETAPA2.md.
+
+## 010 Japão (14/11/2026) — motor: Codex desde 14/11/2026
+Primeiro vídeo inteiro pelo Codex (`img_codex.py`, 233 imagens, 2 no fallback fal). Fonte: `videos/010-japao/ETAPA2.md`.
+- O estilo (bonequinhos de cabeça redonda, contorno grosso, cel shading) saiu consistente com as 3 refs do canal, ~40 s/imagem; 3 em paralelo, lotes de 25 por comando.
+- **As refs de estilo vêm do Egito e vazam conteúdo**: sem `NJ` (cenário no Japão, "no Egyptian headdress, no pharaoh, no turbans, no crowns, no pyramids, no desert, no Roman or Greek ruins") o Codex pôs faraó em objeto/guia, turbante e coroa em multidão, deserto e ruína grega na cúpula de Hiroshima. Em cena de objeto, "nobody in the picture".
+- Bandeira/Sol Nascente aparecem sem pedir (praia com estandarte, mapa com bandeirinha, sala de acordo): repetir `SEMBAND + SEMSOL` em toda cena de 1868–1945 e de acordo/diplomacia.
+- Mapas: rótulos no código (`labels.jsx`), conferir em still depois do pan; fundo de mapa sem letras saiu limpo.
+- Thumb: 5 bases pelo Codex, nenhuma moldura/emenda pedindo "ONE single continuous scene, no split panels" e "lower right corner darker and simple" para o texto; 3 usáveis.

@@ -111,7 +111,7 @@ const ChapterTitle = ({ title, dur }) => {
   );
 };
 
-export const Alemanha = () => {
+export const Japao = () => {
   const { shots, cards, chapters } = timeline;
   return (
     <AbsoluteFill style={{ background: '#000' }}>

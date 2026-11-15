@@ -9,7 +9,7 @@
  },
  {
   "id": "I003",
-  "prompt": "A wide calm grey sea at dusk seen from a Japanese beach, dozens of small dark sails appearing on the horizon, ominous clouds"
+  "prompt": "A wide calm grey sea at dusk seen from a Japanese beach, dozens of small dark sails appearing on the horizon, ominous clouds, empty beach in the foreground with nobody on it, no rising sun flag, no red sun disc anywhere, no flags, no banners with symbols, no letters on sails, shields or banners"
  },
  {
   "id": "I004",
@@ -181,7 +181,7 @@
  },
  {
   "id": "I046",
-  "prompt": "A cartoon sun goddess with a round white head, long black hair and white and red robes stepping out of a cave and spreading golden light over the mountains, mythical, no sun disc symbol"
+  "prompt": "A cartoon sun goddess with a round white head, long black hair and white and red robes stepping out of a cave and spreading golden light over green forested Japanese mountains, a few Japanese villagers in plain hemp clothes with black hair kneeling below, mythical, no sun disc symbol, set in Japan, any people are plain Japanese round-white-head cartoon figures with black hair, no Egyptian headdress, no pharaoh, no turbans, no crowns, no pyramids, no desert, no Roman or Greek ruins"
  },
  {
   "id": "I047",
@@ -189,11 +189,11 @@
  },
  {
   "id": "I048",
-  "prompt": "Close view of a bronze mirror, a straight ancient sword and a curved green jade jewel on a silk cloth, sacred atmosphere, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "Close view of a bronze mirror, a straight ancient sword and a curved green jade jewel on a silk cloth, sacred atmosphere, only the three objects on the cloth, a plain wooden Shinto shrine room behind, nobody in the picture, no readable writing, no letters anywhere, no signs, no boards"
  },
  {
   "id": "I049",
-  "prompt": "Symbolic comic scene: a long line of round-white-head cartoon emperors from ancient robes to a modern suit, all standing one behind the other in front of the same simple throne, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "Symbolic comic scene: a long line of round-white-head cartoon emperors from ancient robes to a modern suit, all standing one behind the other in front of the same simple throne, every one of them a Japanese emperor of Japan in Japanese court robes (finally a modern dark suit), black hair, no European kings, no crowns, no capes, set in Japan, any people are plain Japanese round-white-head cartoon figures with black hair, no Egyptian headdress, no pharaoh, no turbans, no crowns, no pyramids, no desert, no Roman or Greek ruins, no readable writing, no letters anywhere, no signs, no boards"
  },
  {
   "id": "I050",
@@ -261,7 +261,7 @@
  },
  {
   "id": "I066",
-  "prompt": "Close view of a rolled silk scroll tied with a red cord and a small round wax seal resting on a lacquer tray, the scroll closed, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "Close view of a rolled silk scroll tied with a red cord and a small round wax seal resting on a lacquer tray, the scroll closed, nobody in the picture, a Japanese wooden room with paper screens behind, no readable writing, no letters anywhere, no signs, no boards"
  },
  {
   "id": "I067",
@@ -681,7 +681,7 @@
  },
  {
   "id": "I171",
-  "prompt": "a cheerful little cartoon narrator character with a round white head and dot eyes watching a long line of tiny ministers in suits carrying suitcases onto a ship, comic, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "a cheerful little cartoon narrator character with a round white head and dot eyes watching a long line of tiny ministers in suits carrying suitcases onto a ship, comic, the narrator wears a plain straw travel hat and nothing else on his head, the ministers are Japanese men in dark Western suits of 1871, a steamship at a Japanese harbor, set in Japan, any people are plain Japanese round-white-head cartoon figures with black hair, no Egyptian headdress, no pharaoh, no turbans, no crowns, no pyramids, no desert, no Roman or Greek ruins, no readable writing, no letters anywhere, no signs, no boards"
  },
  {
   "id": "I172",
@@ -725,7 +725,7 @@
  },
  {
   "id": "I182",
-  "prompt": "Symbolic scene: a round-white-head cartoon Japanese official of 1900 in a frock coat copying a European colonial map onto a blank map with a brush, serious, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "Symbolic scene: a round-white-head cartoon Japanese official of 1900 in a frock coat copying a European colonial map onto a blank map with a brush, serious, no flags anywhere, no flag on the wall or the building outside, no readable writing, no letters anywhere, no signs, no boards, no flags, no banners with symbols, no letters on sails, shields or banners, no rising sun flag, no red sun disc anywhere"
  },
  {
   "id": "I183",
@@ -753,7 +753,7 @@
  },
  {
   "id": "I189",
-  "prompt": "Many small candles burning in the dark in front of a stone memorial wall, quiet and solemn, absolutely no symbols of any kind, no flags, no rising sun, no red sun discs, no insignia, no emblems, no armbands, no letters, no blood, no injuries, no violence shown"
+  "prompt": "Many small candles burning in the dark in front of a plain stone memorial wall at night in a Japanese city park, a few modern Japanese people in dark everyday clothes standing quietly with black hair, quiet and solemn, set in Japan, any people are plain Japanese round-white-head cartoon figures with black hair, no Egyptian headdress, no pharaoh, no turbans, no crowns, no pyramids, no desert, no Roman or Greek ruins, absolutely no symbols of any kind, no flags, no rising sun, no red sun discs, no insignia, no emblems, no armbands, no letters, no blood, no injuries, no violence shown"
  },
  {
   "id": "I190",
@@ -761,7 +761,7 @@
  },
  {
   "id": "I191",
-  "prompt": "Map of the Pacific Ocean in 1942 with islands and coastlines, a large area around Japan shaded in dark red, painted like a blank parchment terrain map seen from directly above, only coastlines, seas, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
+  "prompt": "Map of the Pacific Ocean in 1942 with islands and coastlines, a large area around Japan shaded in dark red, painted like a blank parchment terrain map seen from directly above, only coastlines, seas, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame, no flags, no rising sun flag, no flag in the corner, no soldiers, no people"
  },
  {
   "id": "I192",
@@ -773,11 +773,11 @@
  },
  {
   "id": "I194",
-  "prompt": "Close view of an old pocket watch stopped at a quarter past eight, lying on grey ash, solemn, absolutely no symbols of any kind, no flags, no rising sun, no red sun discs, no insignia, no emblems, no armbands, no letters, no blood, no injuries, no violence shown"
+  "prompt": "Close view of an old pocket watch stopped at a quarter past eight, lying on grey ash and small stones, plain empty grey background, nothing else, no ruins in the background, no mountain, no volcano, solemn, absolutely no symbols of any kind, no flags, no rising sun, no red sun discs, no insignia, no emblems, no armbands, no letters, no blood, no injuries, no violence shown"
  },
  {
   "id": "I195",
-  "prompt": "A ruined domed building standing alone among flattened grey ruins of a city under a pale sky, seen from far away, no people, absolutely no symbols of any kind, no flags, no rising sun, no red sun discs, no insignia, no emblems, no armbands, no letters, no blood, no injuries, no violence shown"
+  "prompt": "A ruined domed building standing alone among flattened grey ruins of a city under a pale sky, seen from far away, in a green Japanese river city setting with a calm river and trees, no people, no desert, no sand, no arches, no Middle Eastern or Roman buildings, absolutely no symbols of any kind, no flags, no rising sun, no red sun discs, no insignia, no emblems, no armbands, no letters, no blood, no injuries, no violence shown"
  },
  {
   "id": "I196",
@@ -817,7 +817,7 @@
  },
  {
   "id": "I205",
-  "prompt": "Round-white-head cartoon Japanese and American officials of 1946 around a table with a thick blank document, serious but calm, no readable writing, no letters anywhere, no signs, no boards"
+  "prompt": "Round-white-head cartoon Japanese and American officials of 1946 around a table with a thick blank document, serious but calm, absolutely no flags of any country anywhere in the room, nothing on the walls, no readable writing, no letters anywhere, no signs, no boards, no flags, no banners with symbols, no letters on sails, shields or banners, no rising sun flag, no red sun disc anywhere"
  },
  {
   "id": "I206",
