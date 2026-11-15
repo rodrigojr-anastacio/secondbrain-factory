@@ -75,3 +75,7 @@ Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/emba
 3. O subtítulo ou aposto traz um fato concreto **pago cedo** (o chefe sem nome em 1:14, o juramento em 0:28), nunca algo abstrato ou que o vídeo não paga; a promessa vira obrigação do roteiro.
 4. Thumb H2: o objeto do caso dominante, 1 foco, sello de lacuna que não repete o título nem lê junto com a sigla (ver `thumb.md`).
 5. Medir a retenção no ponto em que o hook vira "toda la historia" (0:30 na CIA); hook ≤ 20 s é ajuste do gap 5 (`pesquisa/gap-2026-11-14/RELATORIO.md`).
+
+### Embalagem do 009 Gestapo (15/11/2026, crivo r1 aprovado 3 de 3)
+- Tema com a fórmula já usada 3× em es (Atlas 12 mil, Archivo en Minutos 3,7 mil, Der Kommandant "TODA la Historia de la GESTAPO…" 1,0×) → T1 **"SIGLA: aposto"** com o ângulo que mais puxa no nicho em es ("…y sus hombres en Sudamérica"; "Nazis en Sudamérica/Argentina" 7,6–62,6× a mediana) e T2 **"Cómo funcionaba X: de A a B"** (Der Kommandant 5,2–5,5×; o percurso concreto diferencia da forma dos clones). Thumb H2: sobretudo de couro **vazio** + janela andina + sello "1983" (o mosaico do tema é 9/12 "homem de sobretudo + prédio + 1933–1945"). Ressalva do revisor: "La policía secreta de Hitler" é o subtítulo do Atlas; testar "GESTAPO: Los hombres de Hitler que terminaron en Sudamérica" como título C. **Hipótese** até CTR. [`videos/009-gestapo/EMBALAGEM.md`, `CRIVO.md`]
+
