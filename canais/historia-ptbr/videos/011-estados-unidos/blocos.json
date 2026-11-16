@@ -1,0 +1,398 @@
+[
+ {
+  "id": "N001",
+  "texto": "[serious] Rótchester, Nova York, cinco de julho de mil oitocentos e cinquenta e dois. Imagine você numa plateia ainda com cheiro dos fogos da véspera.",
+  "tela": "[serious] Rochester, Nova York, cinco de julho de mil oitocentos e cinquenta e dois. Imagine você numa plateia ainda com cheiro dos fogos da véspera.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "Sobe ao palco um homem que nasceu escravizado e fugiu aos vinte anos: Frédérik Dâglas. Pediram que ele falasse do Quatro de Julho. Ele escolheu o dia cinco.",
+  "tela": "Sobe ao palco um homem que nasceu escravizado e fugiu aos vinte anos: Frederick Douglass. Pediram que ele falasse do Quatro de Julho. Ele escolheu o dia cinco.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "E pergunta: o que é, para o escravo, o seu Quatro de Julho? [break] Este Quatro de Julho é de vocês. Não meu.",
+  "tela": "E pergunta: o que é, para o escravo, o seu Quatro de Julho? [break] Este Quatro de Julho é de vocês. Não meu.",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "Setenta e seis anos antes, esse país tinha escrito que todos os homens são criados iguais. Então, como um país fundado numa frase que ele mesmo não cumpria virou a maior potência do mundo?",
+  "tela": "Setenta e seis anos antes, esse país tinha escrito que todos os homens são criados iguais. Então, como um país fundado numa frase que ele mesmo não cumpria virou a maior potência do mundo?",
+  "ideia": false
+ },
+ {
+  "id": "N005",
+  "texto": "Até o Sino da Liberdade, em Filadélfia, já está rachado e mudo. Só que a frase continua escrita. E o que está escrito pode ser cobrado.",
+  "tela": "Até o Sino da Liberdade, em Filadélfia, já está rachado e mudo. Só que a frase continua escrita. E o que está escrito pode ser cobrado.",
+  "ideia": false
+ },
+ {
+  "id": "N006",
+  "texto": "Essa é a história inteira dos Estados Unidos. [break] Guarde a pergunta de Dâglas: ela volta. E tudo começa num verão em que duas coisas chegam juntas.",
+  "tela": "Essa é a história inteira dos Estados Unidos. [break] Guarde a pergunta de Douglass: ela volta. E tudo começa num verão em que duas coisas chegam juntas.",
+  "ideia": false
+ },
+ {
+  "id": "N007",
+  "texto": "Djêimstáun, Virgínia, julho de mil seiscentos e dezenove. Numa igrejinha de madeira, vinte e dois homens eleitos pelos colonos se sentam para fazer leis.",
+  "tela": "Jamestown, Virgínia, julho de mil seiscentos e dezenove. Numa igrejinha de madeira, vinte e dois homens eleitos pelos colonos se sentam para fazer leis.",
+  "ideia": true
+ },
+ {
+  "id": "N008",
+  "texto": "É a primeira assembleia eleita da América inglesa. Repare na data. Semanas depois, um navio chamado Uáit Láion ancora ali perto e troca comida por vinte e poucos africanos escravizados.",
+  "tela": "É a primeira assembleia eleita da América inglesa. Repare na data. Semanas depois, um navio chamado White Lion ancora ali perto e troca comida por vinte e poucos africanos escravizados.",
+  "ideia": false
+ },
+ {
+  "id": "N009",
+  "texto": "Mesmo verão, mesma colônia. O voto e a escravidão desembarcam juntos, e vão crescer juntos. [break] Se você perguntasse, ninguém ali chamaria isso de contradição.",
+  "tela": "Mesmo verão, mesma colônia. O voto e a escravidão desembarcam juntos, e vão crescer juntos. [break] Se você perguntasse, ninguém ali chamaria isso de contradição.",
+  "ideia": false
+ },
+ {
+  "id": "N010",
+  "texto": "Cento e cinquenta anos depois, já são treze colônias, ricas de tabaco, arroz e trabalho forçado. E acostumadas a votar as próprias leis.",
+  "tela": "Cento e cinquenta anos depois, já são treze colônias, ricas de tabaco, arroz e trabalho forçado. E acostumadas a votar as próprias leis.",
+  "ideia": true
+ },
+ {
+  "id": "N011",
+  "texto": "Só que a Grã-Bretanha sai endividada de uma guerra contra a França e manda a conta para a América: impostos. O problema é que os colonos não tinham voto em Londres.",
+  "tela": "Só que a Grã-Bretanha sai endividada de uma guerra contra a França e manda a conta para a América: impostos. O problema é que os colonos não tinham voto em Londres.",
+  "ideia": false
+ },
+ {
+  "id": "N012",
+  "texto": "Filadélfia, junho de mil setecentos e setenta e seis. Num quarto alugado, um advogado da Virgínia de trinta e três anos escreve à luz de vela.",
+  "tela": "Filadélfia, junho de mil setecentos e setenta e seis. Num quarto alugado, um advogado da Virgínia de trinta e três anos escreve à luz de vela.",
+  "ideia": true
+ },
+ {
+  "id": "N013",
+  "texto": "Tômas Djéferson tem pouco tempo para explicar ao mundo por que treze colônias vão se separar do rei. E ele escreve: todos os homens são criados iguais.",
+  "tela": "Thomas Jefferson tem pouco tempo para explicar ao mundo por que treze colônias vão se separar do rei. E ele escreve: todos os homens são criados iguais.",
+  "ideia": false
+ },
+ {
+  "id": "N014",
+  "texto": "Repare: ele não escreveu todos os ingleses, nem todos os proprietários. Escreveu todos. Só que o próprio Djéferson escravizou mais de seiscentas pessoas ao longo da vida.",
+  "tela": "Repare: ele não escreveu todos os ingleses, nem todos os proprietários. Escreveu todos. Só que o próprio Jefferson escravizou mais de seiscentas pessoas ao longo da vida.",
+  "ideia": false
+ },
+ {
+  "id": "N015",
+  "texto": "No rascunho, ele culpava o rei pelo tráfico de escravizados. O Congresso cortou o parágrafo inteiro. Mas, em quatro de julho, o resto é aprovado.",
+  "tela": "No rascunho, ele culpava o rei pelo tráfico de escravizados. O Congresso cortou o parágrafo inteiro. Mas, em quatro de julho, o resto é aprovado.",
+  "ideia": false
+ },
+ {
+  "id": "N016",
+  "texto": "Meses antes, Ábigueil Édams tinha escrito ao marido, Djón, que estava no Congresso: lembre-se das senhoras. Djón respondeu que não podia deixar de rir. [break] Spoiler: elas lembraram dele.",
+  "tela": "Meses antes, Abigail Adams tinha escrito ao marido, John, que estava no Congresso: lembre-se das senhoras. John respondeu que não podia deixar de rir. [break] Spoiler: elas lembraram dele.",
+  "ideia": true
+ },
+ {
+  "id": "N017",
+  "texto": "Cinco dias depois, em Nova York, a Declaração é lida em voz alta. A multidão derruba a estátua de chumbo do rei Djórdj. E o chumbo vira balas, mais de quarenta mil.",
+  "tela": "Cinco dias depois, em Nova York, a Declaração é lida em voz alta. A multidão derruba a estátua de chumbo do rei George. E o chumbo vira balas, mais de quarenta mil.",
+  "ideia": false
+ },
+ {
+  "id": "N018",
+  "texto": "A guerra dura até mil setecentos e oitenta e um. E aqui está a primeira peça da resposta: a frase era grande demais para quem a escreveu. Mas estava escrita, para todos.",
+  "tela": "A guerra dura até mil setecentos e oitenta e um. E aqui está a primeira peça da resposta: a frase era grande demais para quem a escreveu. Mas estava escrita, para todos.",
+  "ideia": false
+ },
+ {
+  "id": "N019",
+  "texto": "O problema: agora era preciso fazer um país com ela. E fazer um país é fazer contas.",
+  "tela": "O problema: agora era preciso fazer um país com ela. E fazer um país é fazer contas.",
+  "ideia": false
+ },
+ {
+  "id": "N020",
+  "texto": "Mil setecentos e oitenta e sete, de novo em Filadélfia, no mesmo prédio de tijolos. Imagine você ali: portas fechadas, janelas fechadas, um calor de rachar. E uma pergunta prática: quem conta como gente?",
+  "tela": "Mil setecentos e oitenta e sete, de novo em Filadélfia, no mesmo prédio de tijolos. Imagine você ali: portas fechadas, janelas fechadas, um calor de rachar. E uma pergunta prática: quem conta como gente?",
+  "ideia": true
+ },
+ {
+  "id": "N021",
+  "texto": "Os estados do Sul querem contar os escravizados, para ter mais deputados. Mas sem dar a eles voto nenhum. A saída é uma conta: cada pessoa escravizada vale três quintos de uma pessoa.",
+  "tela": "Os estados do Sul querem contar os escravizados, para ter mais deputados. Mas sem dar a eles voto nenhum. A saída é uma conta: cada pessoa escravizada vale três quintos de uma pessoa.",
+  "ideia": false
+ },
+ {
+  "id": "N022",
+  "texto": "Tente explicar essa matemática para uma criança. A Constituição ainda dá vinte anos de prazo para o tráfico de escravizados. A frase dizia todos; as contas diziam três quintos.",
+  "tela": "Tente explicar essa matemática para uma criança. A Constituição ainda dá vinte anos de prazo para o tráfico de escravizados. A frase dizia todos; as contas diziam três quintos.",
+  "ideia": false
+ },
+ {
+  "id": "N023",
+  "texto": "E o país cresce rápido. Em mil oitocentos e três, Djéferson, agora presidente, compra da França um território que dobra o tamanho do país.",
+  "tela": "E o país cresce rápido. Em mil oitocentos e três, Jefferson, agora presidente, compra da França um território que dobra o tamanho do país.",
+  "ideia": true
+ },
+ {
+  "id": "N024",
+  "texto": "Mas cada pedaço de terra novo traz a mesma pergunta: de quem é essa terra? E quem já vive nela?",
+  "tela": "Mas cada pedaço de terra novo traz a mesma pergunta: de quem é essa terra? E quem já vive nela?",
+  "ideia": false
+ },
+ {
+  "id": "N025",
+  "texto": "Geórgia, mil oitocentos e vinte e oito. Numa gráfica de madeira, sai um jornal impresso em duas línguas, inglês e tcherokí. Imagine o trabalho: a escrita tcherokí tinha sido inventada poucos anos antes por um homem só, Sicóia.",
+  "tela": "Geórgia, mil oitocentos e vinte e oito. Numa gráfica de madeira, sai um jornal impresso em duas línguas, inglês e cherokee. Imagine o trabalho: a escrita cherokee tinha sido inventada poucos anos antes por um homem só, Sequoyah.",
+  "ideia": true
+ },
+ {
+  "id": "N026",
+  "texto": "Os Tcherokí fizeram o que o país dizia admirar. Escreveram uma constituição, criaram tribunais, abriram escolas. Então acharam ouro nas terras deles.",
+  "tela": "Os Cherokee fizeram o que o país dizia admirar. Escreveram uma constituição, criaram tribunais, abriram escolas. Então acharam ouro nas terras deles.",
+  "ideia": false
+ },
+ {
+  "id": "N027",
+  "texto": "Aí a Geórgia quis as terras. E os Tcherokí fizeram uma coisa muito americana: processaram. Em mil oitocentos e trinta e dois, a Suprema Corte deu razão a eles.",
+  "tela": "Aí a Geórgia quis as terras. E os Cherokee fizeram uma coisa muito americana: processaram. Em mil oitocentos e trinta e dois, a Suprema Corte deu razão a eles.",
+  "ideia": false
+ },
+ {
+  "id": "N028",
+  "texto": "Só que o presidente Éndru Djéquisson não fez cumprir. Em mil oitocentos e trinta e oito, o exército tira cerca de dezesseis mil Tcherokí de casa e os leva a pé para o oeste. Pelas estimativas, uns quatro mil morrem no caminho.",
+  "tela": "Só que o presidente Andrew Jackson não fez cumprir. Em mil oitocentos e trinta e oito, o exército tira cerca de dezesseis mil Cherokee de casa e os leva a pé para o oeste. Pelas estimativas, uns quatro mil morrem no caminho.",
+  "ideia": false
+ },
+ {
+  "id": "N029",
+  "texto": "Cobrar pela lei nem sempre bastava. O problema estava ficando grande demais para caber num país só.",
+  "tela": "Cobrar pela lei nem sempre bastava. O problema estava ficando grande demais para caber num país só.",
+  "ideia": false
+ },
+ {
+  "id": "N030",
+  "texto": "Na mesma época, em Filadélfia, um sino velho ganha apelido novo. Os abolicionistas leem a inscrição dele, proclamai liberdade em toda a terra, e em mil oitocentos e trinta e cinco o chamam de Sino da Liberdade.",
+  "tela": "Na mesma época, em Filadélfia, um sino velho ganha apelido novo. Os abolicionistas leem a inscrição dele, proclamai liberdade em toda a terra, e em mil oitocentos e trinta e cinco o chamam de Sino da Liberdade.",
+  "ideia": true
+ },
+ {
+  "id": "N031",
+  "texto": "Os abolicionistas deram ao sino o nome de liberdade. Poucos anos depois, ele rachou. E em mil oitocentos e quarenta e seis, calou para sempre. Se você for a Filadélfia hoje, a rachadura continua lá.",
+  "tela": "Os abolicionistas deram ao sino o nome de liberdade. Poucos anos depois, ele rachou. E em mil oitocentos e quarenta e seis, calou para sempre. Se você for a Filadélfia hoje, a rachadura continua lá.",
+  "ideia": false
+ },
+ {
+  "id": "N032",
+  "texto": "Sêneca Fóls, Nova York, julho de mil oitocentos e quarenta e oito. Numa capela, umas trezentas pessoas ouvem Elízabeth Quêidi Stânton ler um texto que parece familiar.",
+  "tela": "Seneca Falls, Nova York, julho de mil oitocentos e quarenta e oito. Numa capela, umas trezentas pessoas ouvem Elizabeth Cady Stanton ler um texto que parece familiar.",
+  "ideia": true
+ },
+ {
+  "id": "N033",
+  "texto": "É a Declaração de Independência, com duas palavras a mais: todos os homens e mulheres são criados iguais. Cem pessoas assinam. Uma delas é aquele homem do Quatro de Julho, Dâglas.",
+  "tela": "É a Declaração de Independência, com duas palavras a mais: todos os homens e mulheres são criados iguais. Cem pessoas assinam. Uma delas é aquele homem do Quatro de Julho, Douglass.",
+  "ideia": false
+ },
+ {
+  "id": "N034",
+  "texto": "E aqui está a segunda peça da resposta: ninguém precisou inventar uma ideia nova. Bastava pegar a frase de mil setecentos e setenta e seis e ler em voz alta, querendo dizer todos.",
+  "tela": "E aqui está a segunda peça da resposta: ninguém precisou inventar uma ideia nova. Bastava pegar a frase de mil setecentos e setenta e seis e ler em voz alta, querendo dizer todos.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "Só que o Sul tinha construído a riqueza em cima de quatro milhões de escravizados. E quando Abraão Líncoln é eleito, em mil oitocentos e sessenta, onze estados saem do país. Aí a cobrança vira guerra.",
+  "tela": "Só que o Sul tinha construído a riqueza em cima de quatro milhões de escravizados. E quando Abraham Lincoln é eleito, em mil oitocentos e sessenta, onze estados saem do país. Aí a cobrança vira guerra.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "Guétisburg, Pensilvânia, novembro de mil oitocentos e sessenta e três. Num cemitério ainda sendo aberto, onde quatro meses antes aconteceu a maior batalha da guerra.",
+  "tela": "Gettysburg, Pensilvânia, novembro de mil oitocentos e sessenta e três. Num cemitério ainda sendo aberto, onde quatro meses antes aconteceu a maior batalha da guerra.",
+  "ideia": true
+ },
+ {
+  "id": "N037",
+  "texto": "O orador principal fala duas horas. Ninguém lembra do discurso dele. Depois, Líncoln fala por uns dois minutos. Duzentas e setenta e duas palavras: cabe na tela do seu celular.",
+  "tela": "O orador principal fala duas horas. Ninguém lembra do discurso dele. Depois, Lincoln fala por uns dois minutos. Duzentas e setenta e duas palavras: cabe na tela do seu celular.",
+  "ideia": false
+ },
+ {
+  "id": "N038",
+  "texto": "E a primeira frase é uma conta: oitenta e sete anos atrás. Repare: oitenta e sete anos antes não é a Constituição. É mil setecentos e setenta e seis. Líncoln diz que o país nasceu daquela frase.",
+  "tela": "E a primeira frase é uma conta: oitenta e sete anos atrás. Repare: oitenta e sete anos antes não é a Constituição. É mil setecentos e setenta e seis. Lincoln diz que o país nasceu daquela frase.",
+  "ideia": false
+ },
+ {
+  "id": "N039",
+  "texto": "A guerra termina em mil oitocentos e sessenta e cinco, com algo entre seiscentos e vinte e setecentos e cinquenta mil mortos. Aí vêm três emendas: acaba a escravidão, quem nasce no país é cidadão, e homem negro pode votar.",
+  "tela": "A guerra termina em mil oitocentos e sessenta e cinco, com algo entre seiscentos e vinte e setecentos e cinquenta mil mortos. Aí vêm três emendas: acaba a escravidão, quem nasce no país é cidadão, e homem negro pode votar.",
+  "ideia": false
+ },
+ {
+  "id": "N040",
+  "texto": "Então, pela primeira vez, a frase entra na lei. Só que no Sul, em poucos anos, novas leis tiram o voto de volta e separam escolas, trens e bebedouros. A conta foi paga, e logo depois, estornada.",
+  "tela": "Então, pela primeira vez, a frase entra na lei. Só que no Sul, em poucos anos, novas leis tiram o voto de volta e separam escolas, trens e bebedouros. A conta foi paga, e logo depois, estornada.",
+  "ideia": false
+ },
+ {
+  "id": "N041",
+  "texto": "Filadélfia, quatro de julho de mil oitocentos e setenta e seis, cem anos da Declaração. No meio da festa oficial, cinco mulheres sobem até a tribuna com um papel que ninguém pediu.",
+  "tela": "Filadélfia, quatro de julho de mil oitocentos e setenta e seis, cem anos da Declaração. No meio da festa oficial, cinco mulheres sobem até a tribuna com um papel que ninguém pediu.",
+  "ideia": true
+ },
+ {
+  "id": "N042",
+  "texto": "É a Declaração dos Direitos das Mulheres. Lá fora, Súzan Bí Éntoni lê o texto para a multidão. Imagine a cara das autoridades: era o aniversário da liberdade, e a liberdade veio cobrar.",
+  "tela": "É a Declaração dos Direitos das Mulheres. Lá fora, Susan B. Anthony lê o texto para a multidão. Imagine a cara das autoridades: era o aniversário da liberdade, e a liberdade veio cobrar.",
+  "ideia": false
+ },
+ {
+  "id": "N043",
+  "texto": "Nas décadas seguintes, os Estados Unidos viram a maior economia industrial do mundo. Aço, trilhos, petróleo. Agora olhe para quem acende os fornos: milhões de imigrantes.",
+  "tela": "Nas décadas seguintes, os Estados Unidos viram a maior economia industrial do mundo. Aço, trilhos, petróleo. Agora olhe para quem acende os fornos: milhões de imigrantes.",
+  "ideia": true
+ },
+ {
+  "id": "N044",
+  "texto": "Aqui está a outra metade da nossa pergunta, a potência. Ela foi feita com gente que chegava. Em mil oitocentos e oitenta e seis, a França dá de presente uma estátua: a Liberdade.",
+  "tela": "Aqui está a outra metade da nossa pergunta, a potência. Ela foi feita com gente que chegava. Em mil oitocentos e oitenta e seis, a França dá de presente uma estátua: a Liberdade.",
+  "ideia": false
+ },
+ {
+  "id": "N045",
+  "texto": "Só que, quatro anos antes, uma lei tinha proibido a entrada de trabalhadores chineses. A porta abria e fechava ao mesmo tempo.",
+  "tela": "Só que, quatro anos antes, uma lei tinha proibido a entrada de trabalhadores chineses. A porta abria e fechava ao mesmo tempo.",
+  "ideia": false
+ },
+ {
+  "id": "N046",
+  "texto": "Aí um cozinheiro de São Francisco, filho de chineses, volta de viagem e é barrado no porto. Uóng Quim Árk cobra a frase pela emenda de mil oitocentos e sessenta e oito: eu nasci aqui.",
+  "tela": "Aí um cozinheiro de São Francisco, filho de chineses, volta de viagem e é barrado no porto. Wong Kim Ark cobra a frase pela emenda de mil oitocentos e sessenta e oito: eu nasci aqui.",
+  "ideia": false
+ },
+ {
+  "id": "N047",
+  "texto": "Em mil oitocentos e noventa e oito, a Suprema Corte concorda: quem nasce no país é cidadão, mesmo filho de estrangeiros. É isso que transforma imigrante em americano em uma geração. O problema: e as americanas, que ainda não votavam?",
+  "tela": "Em mil oitocentos e noventa e oito, a Suprema Corte concorda: quem nasce no país é cidadão, mesmo filho de estrangeiros. É isso que transforma imigrante em americano em uma geração. O problema: e as americanas, que ainda não votavam?",
+  "ideia": false
+ },
+ {
+  "id": "N048",
+  "texto": "Washington, mil novecentos e dezessete. O presidente Uúdrou Uílson leva o país à Primeira Guerra Mundial para que o mundo fique seguro para a democracia. Na calçada da Casa Branca, mulheres com faixas perguntam: e aqui?",
+  "tela": "Washington, mil novecentos e dezessete. O presidente Woodrow Wilson leva o país à Primeira Guerra Mundial para que o mundo fique seguro para a democracia. Na calçada da Casa Branca, mulheres com faixas perguntam: e aqui?",
+  "ideia": true
+ },
+ {
+  "id": "N049",
+  "texto": "Algumas vão presas por isso. Mas a guerra acaba, e a pressão não. Em agosto de mil novecentos e vinte, falta um estado para a emenda do voto feminino valer. O Ténessi.",
+  "tela": "Algumas vão presas por isso. Mas a guerra acaba, e a pressão não. Em agosto de mil novecentos e vinte, falta um estado para a emenda do voto feminino valer. O Tennessee.",
+  "ideia": false
+ },
+ {
+  "id": "N050",
+  "texto": "Aí um deputado de vinte e quatro anos, Rári Bârn, que vinha votando contra, tem no bolso uma carta da mãe dele. Ela escreveu: seja um bom menino. Ele vota sim.",
+  "tela": "Aí um deputado de vinte e quatro anos, Harry Burn, que vinha votando contra, tem no bolso uma carta da mãe dele. Ela escreveu: seja um bom menino. Ele vota sim.",
+  "ideia": false
+ },
+ {
+  "id": "N051",
+  "texto": "Pense nisso da próxima vez que você ignorar uma mensagem da sua mãe. Mais de vinte e cinco milhões de mulheres ganham o voto.",
+  "tela": "Pense nisso da próxima vez que você ignorar uma mensagem da sua mãe. Mais de vinte e cinco milhões de mulheres ganham o voto.",
+  "ideia": false
+ },
+ {
+  "id": "N052",
+  "texto": "Depois vem a quebra da bolsa de mil novecentos e vinte e nove, e o governo passa a garantir o que nunca garantiu: aposentadoria e salário mínimo. Só que, lá fora, o mundo estava de novo pegando fogo.",
+  "tela": "Depois vem a quebra da bolsa de mil novecentos e vinte e nove, e o governo passa a garantir o que nunca garantiu: aposentadoria e salário mínimo. Só que, lá fora, o mundo estava de novo pegando fogo.",
+  "ideia": true
+ },
+ {
+  "id": "N053",
+  "texto": "Dezembro de mil novecentos e quarenta e um, depois de Pérl Rárbor. Em poucos meses, fábricas de carros passam a fazer tanques e aviões. Imagine a sua avó rebitando a asa de um bombardeiro.",
+  "tela": "Dezembro de mil novecentos e quarenta e um, depois de Pearl Harbor. Em poucos meses, fábricas de carros passam a fazer tanques e aviões. Imagine a sua avó rebitando a asa de um bombardeiro.",
+  "ideia": true
+ },
+ {
+  "id": "N054",
+  "texto": "Seis milhões de mulheres entram nas fábricas. O país produz mais armas que todo o Eixo junto. Só que mais de um milhão de soldados negros servem em tropas separadas.",
+  "tela": "Seis milhões de mulheres entram nas fábricas. O país produz mais armas que todo o Eixo junto. Só que mais de um milhão de soldados negros servem em tropas separadas.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "Em mil novecentos e quarenta e dois, um jornal negro de Pítsburg lança uma campanha: Duplo V. Vitória lá fora, e vitória aqui dentro.",
+  "tela": "Em mil novecentos e quarenta e dois, um jornal negro de Pittsburgh lança uma campanha: Duplo V. Vitória lá fora, e vitória aqui dentro.",
+  "ideia": false
+ },
+ {
+  "id": "N056",
+  "texto": "Em mil novecentos e quarenta e cinco, a guerra acaba. Então os Estados Unidos saem dela com cerca de metade da produção industrial do mundo. É a maior potência da Terra.",
+  "tela": "Em mil novecentos e quarenta e cinco, a guerra acaba. Então os Estados Unidos saem dela com cerca de metade da produção industrial do mundo. É a maior potência da Terra.",
+  "ideia": false
+ },
+ {
+  "id": "N057",
+  "texto": "E aí vem a parte estranha. Em setembro, em Hanói, um líder que meses antes trabalhava com agentes americanos declara a independência do Vietnã. A primeira frase ele pega emprestada: todos os homens são criados iguais.",
+  "tela": "E aí vem a parte estranha. Em setembro, em Hanói, um líder que meses antes trabalhava com agentes americanos declara a independência do Vietnã. A primeira frase ele pega emprestada: todos os homens são criados iguais.",
+  "ideia": false
+ },
+ {
+  "id": "N058",
+  "texto": "A frase tinha virado produto de exportação. E isso criou um problema.",
+  "tela": "A frase tinha virado produto de exportação. E isso criou um problema.",
+  "ideia": false
+ },
+ {
+  "id": "N059",
+  "texto": "Mil novecentos e cinquenta e dois. Na Guerra Fria, a União Soviética usa fotos da segregação americana como propaganda. Então o próprio governo dos Estados Unidos escreve à Suprema Corte: a discriminação racial dá munição aos comunistas.",
+  "tela": "Mil novecentos e cinquenta e dois. Na Guerra Fria, a União Soviética usa fotos da segregação americana como propaganda. Então o próprio governo dos Estados Unidos escreve à Suprema Corte: a discriminação racial dá munição aos comunistas.",
+  "ideia": true
+ },
+ {
+  "id": "N060",
+  "texto": "Repare na terceira peça da resposta: virar potência deixou o país exposto. Pense bem: quem quer liderar o mundo livre precisa parecer livre. Em mil novecentos e cinquenta e quatro, a Corte declara inconstitucional a escola separada.",
+  "tela": "Repare na terceira peça da resposta: virar potência deixou o país exposto. Pense bem: quem quer liderar o mundo livre precisa parecer livre. Em mil novecentos e cinquenta e quatro, a Corte declara inconstitucional a escola separada.",
+  "ideia": false
+ },
+ {
+  "id": "N061",
+  "texto": "Washington, agosto de mil novecentos e sessenta e três. Duzentas e cinquenta mil pessoas diante do memorial de Líncoln. Mártin Lúter King diz que os fundadores assinaram uma nota promissória.",
+  "tela": "Washington, agosto de mil novecentos e sessenta e três. Duzentas e cinquenta mil pessoas diante do memorial de Lincoln. Martin Luther King diz que os fundadores assinaram uma nota promissória.",
+  "ideia": true
+ },
+ {
+  "id": "N062",
+  "texto": "E que a América deu a uma parte dos seus cidadãos um cheque sem fundos. Mas, diz King: nós nos recusamos a acreditar que o banco da justiça está falido.",
+  "tela": "E que a América deu a uma parte dos seus cidadãos um cheque sem fundos. Mas, diz King: nós nos recusamos a acreditar que o banco da justiça está falido.",
+  "ideia": false
+ },
+ {
+  "id": "N063",
+  "texto": "Em dois anos vêm as leis dos direitos civis, do voto, e de uma imigração sem cota por país de origem. Em mil novecentos e noventa e um, a União Soviética acaba, e sobra uma superpotência só. Então, lembra da nossa pergunta?",
+  "tela": "Em dois anos vêm as leis dos direitos civis, do voto, e de uma imigração sem cota por país de origem. Em mil novecentos e noventa e um, a União Soviética acaba, e sobra uma superpotência só. Então, lembra da nossa pergunta?",
+  "ideia": false
+ },
+ {
+  "id": "N064",
+  "texto": "A frase não fez dos Estados Unidos uma potência sozinha. Construiu o país porque estava escrita, para todos, e qualquer um podia cobrar. Cada cobrança paga abriu a porta para mais gente: no voto, na fábrica, no exército.",
+  "tela": "A frase não fez dos Estados Unidos uma potência sozinha. Construiu o país porque estava escrita, para todos, e qualquer um podia cobrar. Cada cobrança paga abriu a porta para mais gente: no voto, na fábrica, no exército.",
+  "ideia": true
+ },
+ {
+  "id": "N065",
+  "texto": "Dâglas perguntou de quem era aquele Quatro de Julho. Em dois mil e vinte e seis, o país fez duzentos e cinquenta anos, e a resposta continua mudando a cada cobrança.",
+  "tela": "Douglass perguntou de quem era aquele Quatro de Julho. Em dois mil e vinte e seis, o país fez duzentos e cinquenta anos, e a resposta continua mudando a cada cobrança.",
+  "ideia": false
+ },
+ {
+  "id": "N066",
+  "texto": "[warm] Talvez a pergunta nunca tenha sido como eles viraram potência apesar da frase. E sim por causa dela. Qual dessas cobranças te surpreendeu mais? Conta nos comentários.",
+  "tela": "[warm] Talvez a pergunta nunca tenha sido como eles viraram potência apesar da frase. E sim por causa dela. Qual dessas cobranças te surpreendeu mais? Conta nos comentários.",
+  "ideia": false
+ }
+]

@@ -1,0 +1,137 @@
+{
+ "pasta": "canais/historia-ptbr/videos/011-estados-unidos",
+ "roteiro": "canais/historia-ptbr/videos/011-estados-unidos/blocos.json",
+ "idioma": "pt",
+ "blocos": 66,
+ "nota": 1.1,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0103,
+ "blocos_consenso_manada": [],
+ "referencias": [
+  {
+   "cobertura": 0.015151515151515152,
+   "ordem": 0.0,
+   "ngramas": 0.002982107355864811,
+   "sim_media": 0.13619518527769772,
+   "gemeos": 1,
+   "blocos": 66,
+   "posicoes": [
+    [
+     19,
+     125
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 19,
+     "cos": 0.32,
+     "nosso": "O problema: agora era preciso fazer um país com ela. E fazer um país é fazer contas.",
+     "ref": "amanhã. Podemos fazer hoje à noite? Eu deveria ter pedido mais dinheiro. Ótimo, agora a América tem mais um enorme pedaço de terra. Agora só precisa"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/011-estados-unidos/ref/manada-5Pm_s2wzxo0.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2244,
+   "nota": 1.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.015151515151515152,
+   "ordem": 0.0,
+   "ngramas": 0.0019880715705765406,
+   "sim_media": 0.13181299570133995,
+   "gemeos": 1,
+   "blocos": 66,
+   "posicoes": [
+    [
+     11,
+     41
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 11,
+     "cos": 0.3,
+     "nosso": "Só que a Grã-Bretanha sai endividada de uma guerra contra a França e manda a conta para a América: impostos. O problema é que os colonos não tinham voto em Londres.",
+     "ref": "tinham muito mais colonos no território. Com a ajuda de combatentes coloniais, a Grã-Bretanha esmagou a França, assumindo o controle completo do Canadá e de todas as terras a leste do rio"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/011-estados-unidos/ref/manada-tn2ehtuk1Gk.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2193,
+   "nota": 1.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0019880715705765406,
+   "sim_media": 0.1277087524608537,
+   "gemeos": 0,
+   "blocos": 66,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/011-estados-unidos/ref/manada-9g1aRtjfGSs.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 2163,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0019880715705765406,
+   "sim_media": 0.11622413605042335,
+   "gemeos": 0,
+   "blocos": 66,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/011-estados-unidos/ref/manada-eGGsyg3HJZo.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1682,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.002982107355864811,
+   "sim_media": 0.11738039945101537,
+   "gemeos": 0,
+   "blocos": 66,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/011-estados-unidos/ref/manada-fjwNJpyAxHk.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 929,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0019880715705765406,
+   "sim_media": 0.11888762546794049,
+   "gemeos": 0,
+   "blocos": 66,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/011-estados-unidos/ref/manada-kquAIJg8vRE.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 1872,
+   "nota": 0.2,
+   "veredito": "ok"
+  }
+ ]
+}
