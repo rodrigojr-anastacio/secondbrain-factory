@@ -6,7 +6,7 @@ Legenda: **[O]** observado nos arquivos acima · **[I]** inferência · **Hipót
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (16/11/2026 09:45)
+## Backlog vivo (16/11/2026 09:46)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) pega o 1º item agendado na véspera de cada publicação. Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
