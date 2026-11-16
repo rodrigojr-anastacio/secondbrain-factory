@@ -6,7 +6,7 @@ Promessa: Como um país fundado numa frase que ele mesmo não cumpria ("todos os
 
 Títulos: T1 "Os EUA prometeram o que NÃO cumpriam. Como viraram potência?" / T2 "Como UMA FRASE construiu os Estados Unidos" / T3 "Como 13 colônias viraram potência? A resposta é uma PROMESSA"
 
-Gerado por `roteiro.py` (fonte única; edite lá). 1983 palavras, ~15:52.3 estimados a 126 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 2008 palavras, ~16:04.2 estimados a 126 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
@@ -142,13 +142,13 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## 9. O arsenal e o Duplo V
 
-**[N053]** Dezembro de mil novecentos e quarenta e um, depois de Pearl Harbor. Em poucos meses, fábricas de carros passam a fazer tanques e aviões. Imagine a sua avó rebitando a asa de um bombardeiro.
+**[N053]** Junho de mil novecentos e quarenta e um. As fábricas americanas já fazem armas para a guerra na Europa, mas quase não contratam negros. Então um sindicalista, A. Philip Randolph, promete levar cem mil pessoas a Washington.
 
-**[N054]** Seis milhões de mulheres entram nas fábricas. O país produz mais armas que todo o Eixo junto. Só que mais de um milhão de soldados negros servem em tropas separadas.
+**[N054]** Uma semana antes da data, o presidente Roosevelt assina uma ordem proibindo a discriminação nas fábricas de guerra. Imagine conseguir isso só com a ameaça de uma passeata.
 
-**[N055]** Em mil novecentos e quarenta e dois, um jornal negro de Pittsburgh lança uma campanha: Duplo V. Vitória lá fora, e vitória aqui dentro.
+**[N055]** Aí vem Pearl Harbor, e o país inteiro vira fábrica. Só que mais de um milhão de soldados negros servem em tropas separadas. Em mil novecentos e quarenta e dois, um jornal negro de Pittsburgh lança uma campanha: Duplo V. Vitória lá fora, e vitória aqui dentro.
 
-**[N056]** Em mil novecentos e quarenta e cinco, a guerra acaba. Então os Estados Unidos saem dela com cerca de metade da produção industrial do mundo. É a maior potência da Terra.
+**[N056]** Em mil novecentos e quarenta e cinco, a guerra acaba. Então os Estados Unidos saem dela com cerca de metade da produção industrial do mundo. Repare: é a maior potência da Terra.
 
 **[N057]** E aí vem a parte estranha. Em setembro, em Hanói, um líder que meses antes trabalhava com agentes americanos declara a independência do Vietnã. A primeira frase ele pega emprestada: todos os homens são criados iguais.
 

@@ -99,6 +99,8 @@ WONG = "a round-white-head cartoon Wong Kim Ark, a young Chinese American cook o
 WILSON = "a round-white-head cartoon President Woodrow Wilson of 1917 with small round glasses, a long face shape and a dark suit"
 SENTINELAS = "round-white-head cartoon American suffragists of 1917 in long coats and wide hats holding plain purple, white and gold sashes"
 BURN = "a round-white-head cartoon young Harry Burn, 24-year-old Tennessee legislator of 1920, with slicked dark hair, a light suit and a red rose on the lapel"
+RANDOLPH = "a round-white-head cartoon A. Philip Randolph of 1941, a tall dignified union leader with a thin mustache shape, in a three-piece suit"
+FDR = "a round-white-head cartoon President Franklin D. Roosevelt of 1941 with small round glasses and a cigarette holder, in a grey suit"
 OPERARIAS = "round-white-head cartoon American women factory workers of 1942 in blue work overalls and red bandanas"
 SOLD42 = "round-white-head cartoon African American soldiers of 1942 in plain olive uniforms and garrison caps"
 HO = "a round-white-head cartoon Ho Chi Minh of 1945 with a thin wispy goatee shape and a simple khaki tunic, speaking at a microphone"
@@ -409,26 +411,29 @@ b("§ Depois vem a quebra da bolsa de mil novecentos e vinte e nove, e o governo
 
 # ───────────────────────── 9. O ARSENAL E O DUPLO V ─────────────────────────
 cap("9. O arsenal e o Duplo V")
-b("§ Dezembro de mil novecentos e quarenta e um, depois de Pearl Harbor. Em poucos meses, fábricas de carros passam a fazer tanques e aviões. Imagine a sua avó rebitando a asa de um bombardeiro.",
+b("§ Junho de mil novecentos e quarenta e um. As fábricas americanas já fazem armas para a guerra na Europa, mas quase não contratam negros. Então um sindicalista, A. Philip Randolph, promete levar cem mil pessoas a Washington.",
+  "factory_gate_1941|The gate of a big American arms factory in 1941 with a long line of round-white-head cartoon job seekers, Black workers being turned away by a guard, serious" + SEMSIMB,
+  f"randolph|{RANDOLPH}, speaking to a meeting of railroad porters in a union hall, raising his hand, determined" + SEMSIMB,
+  "march_flyer|Close view of a stack of 1941 leaflets on a table with a drawing of the Capitol dome and only abstract illegible marks" + SEMSIMB,
+  "porters_organize|Round-white-head cartoon African American sleeping car porters of 1941 in uniforms and caps handing out leaflets on a train platform" + SEMSIMB,
+  card="1941")
+b("Uma semana antes da data, o presidente Roosevelt assina uma ordem proibindo a discriminação nas fábricas de guerra. Imagine conseguir isso só com a ameaça de uma passeata.",
+  f"fdr_sign|{FDR}, sitting at his desk in the Oval Office signing a paper, aides around him" + SEMSIMB,
+  f"guide_march|{GUIA} holding a blank sign and looking amazed at a signed paper flying out of a window of the White House, comic" + SEMSIMB,
+  "workers_hired|Round-white-head cartoon Black and white workers of 1942 side by side on an aircraft assembly line, riveting" + SEMSIMB,
+  f"randolph_smile|{RANDOLPH}, reading a newspaper and smiling slightly" + SEMSIMB)
+b("Aí vem Pearl Harbor, e o país inteiro vira fábrica. Só que mais de um milhão de soldados negros servem em tropas separadas. Em mil novecentos e quarenta e dois, um jornal negro de Pittsburgh lança uma campanha: Duplo V. Vitória lá fora, e vitória aqui dentro.",
   "pearl_smoke|A naval harbor in Hawaii in December 1941 seen from far away, columns of dark smoke rising over grey ships, palm trees, nobody visible" + SEMSIMB,
   "factory_tanks|A huge American car factory of 1942 converted to build tanks, long assembly lines of olive green tanks, sparks" + SEMSIMB,
-  f"rosie_rivet|{OPERARIAS}, riveting the aluminum wing of a big bomber in a factory, confident" + SEMSIMB,
-  f"guide_grandma|{GUIA} next to a round-white-head cartoon young woman of 1942 in overalls and a red bandana flexing her arm, both smiling, comic" + SEMSIMB,
-  card="1941")
-b("Seis milhões de mulheres entram nas fábricas. O país produz mais armas que todo o Eixo junto. Só que mais de um milhão de soldados negros servem em tropas separadas.",
-  "women_factory|Hundreds of round-white-head cartoon women workers of 1943 at an aircraft assembly line, rows of shiny planes" + SEMSIMB,
-  "planes_rows|Rows of hundreds of new military airplanes parked on an airfield in 1944 seen from above" + SEMSIMB,
   f"segregated_units|{SOLD42}, standing in formation at a separate camp, white soldiers in another camp in the distance, serious" + SEMSIMB,
-  "two_barracks|Two rows of wooden army barracks separated by a fence, serious" + SEMSIMB)
-b("Em mil novecentos e quarenta e dois, um jornal negro de Pittsburgh lança uma campanha: Duplo V. Vitória lá fora, e vitória aqui dentro.",
   "courier_press|Inside a newspaper office in Pittsburgh in 1942, round-white-head cartoon African American journalists in shirtsleeves and vests at typewriters and a big printing press" + SEMSIMB,
   "double_v|Symbolic scene: two big golden V shapes, one overlapping the other, glowing on a dark blue background, no letters, no other symbols",
   f"soldier_letter|{SOLD42}: one soldier writing a letter on a wooden crate, determined" + SEMSIMB)
-b("Em mil novecentos e quarenta e cinco, a guerra acaba. Então os Estados Unidos saem dela com cerca de metade da produção industrial do mundo. É a maior potência da Terra.",
+b("Em mil novecentos e quarenta e cinco, a guerra acaba. Então os Estados Unidos saem dela com cerca de metade da produção industrial do mundo. Repare: é a maior potência da Terra.",
   "ruins_vs_factories|Symbolic split scene: on the left a ruined European city in 1945 with broken buildings, on the right a busy American industrial city with working factories and ships, no people in danger" + SEMSIMB,
   "port_1945|A huge busy American port in 1945 full of cargo ships, cranes and trains" + SEMSIMB,
   "map_usa_today#aberto",
-  "power_symbols#médio-esq")
+  "planes_rows|Rows of hundreds of new military airplanes parked on an airfield in 1944 seen from above" + SEMSIMB)
 b("E aí vem a parte estranha. Em setembro, em Hanói, um líder que meses antes trabalhava com agentes americanos declara a independência do Vietnã. A primeira frase ele pega emprestada: todos os homens são criados iguais.",
   "hanoi_square|A large square in Hanoi in September 1945 full of round-white-head cartoon Vietnamese people in white shirts and conical hats, facing a simple wooden stage, trees around" + SEMSIMB,
   f"ho_speech|{HO}, reading from a sheet of paper on a simple wooden stage, calm" + SEMSIMB,
@@ -494,7 +499,7 @@ FALA = [("Rochester", "Rótchester"), ("Frederick Douglass", "Frédérik Dâglas
         ("Abraham Lincoln", "Abraão Líncoln"), ("Lincoln", "Líncoln"), ("Gettysburg", "Guétisburg"), ("Pensilvânia", "Pensilvânia"),
         ("Susan B. Anthony", "Súzan Bí Éntoni"), ("Wong Kim Ark", "Uóng Quim Árk"), ("São Francisco", "São Francisco"),
         ("Woodrow Wilson", "Uúdrou Uílson"), ("Tennessee", "Ténessi"), ("Harry Burn", "Rári Bârn"), ("Pearl Harbor", "Pérl Rárbor"),
-        ("Pittsburgh", "Pítsburg"), ("Hanói", "Hanói"), ("Martin Luther King", "Mártin Lúter King"), ("King", "King"),
+        ("Pittsburgh", "Pítsburg"), ("A. Philip Randolph", "Ei Fílip Rêndolf"), ("Roosevelt", "Rôusvelt"), ("Hanói", "Hanói"), ("Martin Luther King", "Mártin Lúter King"), ("King", "King"),
         ("Virgínia", "Virgínia"), ("Cherokee", "Tcherokí"), ("cherokee", "tcherokí")]
 def fala(t):
     for a, z in FALA: t = re.sub(r"(?<![\wÀ-ú])" + re.escape(a) + r"(?![\wÀ-ú])", z, t)

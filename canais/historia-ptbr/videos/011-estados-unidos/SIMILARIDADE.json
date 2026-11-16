@@ -10,14 +10,14 @@
   "COPIA": 30
  },
  "limiar_gemeo": 0.3,
- "custo_traducao_usd": 0.0103,
+ "custo_traducao_usd": 0.0,
  "blocos_consenso_manada": [],
  "referencias": [
   {
    "cobertura": 0.015151515151515152,
    "ordem": 0.0,
-   "ngramas": 0.002982107355864811,
-   "sim_media": 0.13619518527769772,
+   "ngramas": 0.0029296875,
+   "sim_media": 0.13716340902644295,
    "gemeos": 1,
    "blocos": 66,
    "posicoes": [
@@ -29,7 +29,7 @@
    "trechos": [
     {
      "bloco": 19,
-     "cos": 0.32,
+     "cos": 0.33,
      "nosso": "O problema: agora era preciso fazer um país com ela. E fazer um país é fazer contas.",
      "ref": "amanhã. Podemos fazer hoje à noite? Eu deveria ter pedido mais dinheiro. Ótimo, agora a América tem mais um enorme pedaço de terra. Agora só precisa"
     }
@@ -44,8 +44,8 @@
   {
    "cobertura": 0.015151515151515152,
    "ordem": 0.0,
-   "ngramas": 0.0019880715705765406,
-   "sim_media": 0.13181299570133995,
+   "ngramas": 0.0009765625,
+   "sim_media": 0.12778129569625907,
    "gemeos": 1,
    "blocos": 66,
    "posicoes": [
@@ -66,14 +66,14 @@
    "idioma_ref": "en",
    "traduzido": true,
    "palavras_ref": 2193,
-   "nota": 1.0,
+   "nota": 0.9,
    "veredito": "ok"
   },
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0019880715705765406,
-   "sim_media": 0.1277087524608537,
+   "ngramas": 0.001953125,
+   "sim_media": 0.12826763602505883,
    "gemeos": 0,
    "blocos": 66,
    "posicoes": [],
@@ -88,8 +88,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0019880715705765406,
-   "sim_media": 0.11622413605042335,
+   "ngramas": 0.001953125,
+   "sim_media": 0.11592093585470799,
    "gemeos": 0,
    "blocos": 66,
    "posicoes": [],
@@ -104,8 +104,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.002982107355864811,
-   "sim_media": 0.11738039945101537,
+   "ngramas": 0.0029296875,
+   "sim_media": 0.11915559828422444,
    "gemeos": 0,
    "blocos": 66,
    "posicoes": [],
@@ -120,8 +120,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0019880715705765406,
-   "sim_media": 0.11888762546794049,
+   "ngramas": 0.001953125,
+   "sim_media": 0.11875484407864521,
    "gemeos": 0,
    "blocos": 66,
    "posicoes": [],

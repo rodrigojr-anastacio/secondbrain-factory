@@ -1,12 +1,12 @@
 # Similaridade do roteiro × referências · canais/historia-ptbr/videos/011-estados-unidos
-Roteiro: `canais/historia-ptbr/videos/011-estados-unidos/blocos.json` (66 blocos, pt) · gerado por `tools/similaridade_roteiro.py` · tradução US$ 0.010
+Roteiro: `canais/historia-ptbr/videos/011-estados-unidos/blocos.json` (66 blocos, pt) · gerado por `tools/similaridade_roteiro.py` · tradução US$ 0.000
 
 ## Nota máxima: **1/100 → ok** (atenção ≥ 18, cópia ≥ 30)
 
 | Referência | idioma | nota | veredito | cobertura (gêmeos) | ordem | trigramas |
 |---|---|---|---|---|---|---|
 | `manada-5Pm_s2wzxo0.txt` | en → pt | 1 | ok | 2% (1/66) | 0% | 0.3% |
-| `manada-tn2ehtuk1Gk.txt` | en → pt | 1 | ok | 2% (1/66) | 0% | 0.2% |
+| `manada-tn2ehtuk1Gk.txt` | en → pt | 1 | ok | 2% (1/66) | 0% | 0.1% |
 | `manada-9g1aRtjfGSs.txt` | pt | 0 | ok | 0% (0/66) | 0% | 0.2% |
 | `manada-eGGsyg3HJZo.txt` | pt | 0 | ok | 0% (0/66) | 0% | 0.2% |
 | `manada-fjwNJpyAxHk.txt` | pt | 0 | ok | 0% (0/66) | 0% | 0.3% |
@@ -16,7 +16,7 @@ Blocos do nosso roteiro com gêmeo em 2+ referências (consenso da manada): nenh
 
 ## Trechos mais parecidos com `manada-5Pm_s2wzxo0.txt`
 
-- **bloco 19** (cos 0.32): O problema: agora era preciso fazer um país com ela. E fazer um país é fazer contas.
+- **bloco 19** (cos 0.33): O problema: agora era preciso fazer um país com ela. E fazer um país é fazer contas.
   - ref: amanhã. Podemos fazer hoje à noite? Eu deveria ter pedido mais dinheiro. Ótimo, agora a América tem mais um enorme pedaço de terra. Agora só precisa
 
 ## Trechos mais parecidos com `manada-tn2ehtuk1Gk.txt`
