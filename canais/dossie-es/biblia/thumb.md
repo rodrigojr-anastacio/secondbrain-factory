@@ -4,7 +4,7 @@ Regra de canal: **prevalece** sobre `conhecimento/thumbnails/README.md`. Ainda s
 
 ## Layout "pôster de expediente" (nosso)
 - Personagem-ícone em meio corpo à **esquerda** (chefe ou agente arquetípico, com **objeto na mão** que conta o tema) + cenário reconhecível + **SIGLA gigante** (Bebas Neue ou Oswald 700, preta) à direita + **sello rojo inclinado com o período** ("1947–HOY") + **aba de pasta parda** no canto superior direito com "EXPEDIENTE Nº 001". A aba é a nossa assinatura na grade. [estilo.md de 04/11; identidade.md]
-- Base em `fal-ai/nano-banana` com "right half empty, no signage, no lettering"; texto em `src/Thumbnail.jsx`. 3 variações para o "Testar e comparar". No teste de estilo es, a base C6 (agente de fedora à esquerda, pasta e selo vermelho, metade direita livre) saiu "pronta para o layout". [testes/ESTILO-es.md]
+- Base em `fal-ai/nano-banana` com "right half empty, no signage, no lettering"; texto em `src/Thumbnail.jsx`. Para o "Testar e comparar": **3 thumbs, uma por conceito A/B/C aprovado na embalagem, de padrões visuais diferentes** (16/11/2026, Rodrigo; antes: 3 variações do pôster). Ex.: pôster de expediente com personagem (`rosto-emocao`, controle) × objeto do caso dominante sem rosto (H2, `objeto-simbolo`) × documento/prova (`documento-evidencia`); sempre na paleta e no traço graphic novel do canal. No teste de estilo es, a base C6 (agente de fedora à esquerda, pasta e selo vermelho, metade direita livre) saiu "pronta para o layout". [testes/ESTILO-es.md]
 - Cores: azul-ardósia `#2E3A46`, papel `#E9DFC9`, rojo sello `#B3261E`, tinta `#1A1A1A`. [identidade.md]
 
 ## Referência (não copiar)

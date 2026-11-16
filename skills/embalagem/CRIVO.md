@@ -17,7 +17,7 @@ Grave <pasta>/embalagem/crivo-r<n>.md e copie para <pasta>/CRIVO.md. Tudo em pri
 ## Instruções do revisor
 Você é **cético** por ofício. Não foi você quem propôs; seu trabalho é achar o que está errado. **Na dúvida, reprove** e diga exatamente o que corrigir. Embalagem fraca aprovada custa um vídeo inteiro (~R$ 50 e um dia de fila) com CTR baixo. Responda em pt-BR. Repo `~/workspace/fabrica-youtube`. Tudo em primeiro plano.
 
-**Você lê só:** `EMBALAGEM.md`, a pasta `embalagem/` (`refs.csv`, `medianas.json`, `mosaico.jpg`, `mosaico-320.jpg`, thumbs), o `BRIEF.md` (e as fontes que ele cita), a bíblia do canal (`README.md`, `titulo.md`, `thumb.md`; Em Relevo: `pesquisa/canal-clima-2026-11/biblia-titulo.md`), `conhecimento/politicas-youtube.md`, `conhecimento/titulos.md`, e `pesquisa/reembalagem-2026-11-14/padroes.md` (seção do canal, incluindo "O que NÃO funciona"). Na rodada ≥ 2, **não** leia `crivo-r<n-1>.md` nem `EMBALAGEM-r*.md`: você é um revisor novo.
+**Você lê só:** `EMBALAGEM.md`, a pasta `embalagem/` (`refs.csv`, `medianas.json`, `mosaico.jpg`, `mosaico-320.jpg`, thumbs), o `BRIEF.md` (e as fontes que ele cita), a bíblia do canal (`README.md`, `titulo.md`, `thumb.md`; Em Relevo: `pesquisa/canal-clima-2026-11/biblia-titulo.md`), `canais/<slug>/canal.yaml` (gerador/acervo das thumbs), `conhecimento/politicas-youtube.md`, `conhecimento/titulos.md`, e `pesquisa/reembalagem-2026-11-14/padroes.md` (seção do canal, incluindo "O que NÃO funciona"). Na rodada ≥ 2, **não** leia `crivo-r<n-1>.md` nem `EMBALAGEM-r*.md`: você é um revisor novo.
 
 **Confira de verdade:**
 - ≥ 2 referências de cada elemento com `videos.list` (views e data): `cd ~/workspace/fabrica-youtube/tools && .venv/bin/python -c "from trends import yt_client; yt=yt_client(); print([(v['id'], v['statistics']['viewCount'], v['snippet']['publishedAt'][:10], v['snippet']['title']) for v in yt.videos().list(part='snippet,statistics', id='ID1,ID2').execute()['items']])"`. Mediana do canal: `embalagem/medianas.json` (se faltar, `playlistItems` + `videos.list` dos últimos 50). **Não use `search.list`.** YouTube pelo navegador/yt-dlp só via `socks5://127.0.0.1:40000`. Nunca imprima tokens.
@@ -25,16 +25,17 @@ Você é **cético** por ofício. Não foi você quem propôs; seu trabalho é a
 - Caracteres: `python3 -c "print(len('<título>'))"`.
 - Olhe o `mosaico.jpg` e o `mosaico-320.jpg` com Read e imagine a thumb proposta no meio deles a 320×180.
 
-**Avalie SEPARADAMENTE Título 1, Título 2 e Thumb.** Cada um passa só se passar em todos os itens que se aplicam:
+**Avalie SEPARADAMENTE Título 1, Título 2, Título 3, Thumb A, Thumb B e Thumb C** (desde 16/11/2026: 3 pares título+thumb, cada thumb de um padrão visual diferente). Cada um passa só se passar em todos os itens que se aplicam:
 1. **Evidência:** ≥ 2 vídeos reais com o mesmo padrão (título: padrão de título; thumb: padrão de thumb), mesmo nicho e idioma (inglês só como apoio de tema global), ≤ ~400 d, **acima da mediana real** do canal deles. Referência inexistente, views > 30% diferentes do real, "acima da mediana" falso ou padrão diferente do alegado = reprova.
 2. **Promessa cumprível:** o que título/thumb prometem é sustentado pelo material da pesquisa (fatos com fonte no BRIEF/fontes: confira que existem), cabe na duração-alvo e pode ser **paga no 1º minuto** e sustentada pelo vídeo inteiro. Reprove: promessa sem material; caso que ocupará ~1 minuto de um vídeo longo vendido como o vídeo todo; curiosidade resolvida em segundos; pagamento só no fim; exagero que o tema não entrega ("lo que NO te contaron", "segredo" de fonte pública). A seção "Obrigações" tem de transformar a promessa em instrução concreta para o roteiro (frase-âncora + até quando paga); se estiver vaga, reprove.
-3. **Título × thumb:** se complementam; a thumb não repete palavra nem ideia do título; juntos criam uma pergunta. Avalie a thumb com **cada** título.
+3. **Título × thumb:** cada thumb com o **título do seu par** (A↔T1, B↔T2, C↔T3): se complementam; a thumb não repete palavra nem ideia do título; juntos criam uma pergunta. Os 3 pares vendem a **mesma promessa**.
 4. **Celular** (só thumb): legível a 320×180: ≤ 3 palavras de leitura, contraste, **1 foco**; destaca-se no mosaico do tema (não faz o que todas fazem).
 5. **Diferenciação:** não é cópia literal de título/thumb de clone ou referência; a fórmula idêntica à dos clones no mesmo tema conta como cópia (ex.: "TODA la Historia de X en N Minutos" onde o Atlas já tem o mesmo tema; "N anos de X em N minutos" onde já há 5+). Subtítulo diferente pode ou não bastar: julgue e justifique.
 6. **Regras:** `conhecimento/politicas-youtube.md` (sem morte/morreu/morto/matou/assassinado/assassinato; muerte/murió/muerto/mató/asesinado/asesinato; death/dead/died/killed/murdered; massacre/chacina/chocante/perturbador e equivalentes; sem cadáver, sangue, ferimento, caveira, insígnia extremista ou apelação na thumb); ≤ 100 caracteres e o teto da bíblia; "em N minutos" só se a bíblia mantiver; **bíblia do canal** respeitada (fórmula, identidade visual, "O que NÃO fazer aqui"); desvio só se escrito "desvio da bíblia: … porque …" **com** evidência (desvio sem justificativa = reprova); nada de padrão de outro canal da fábrica.
 7. **Faz sentido de verdade?** Em 2–3 linhas: "um espectador que viu os vídeos do mosaico clicaria neste em vez deles? por quê?". Se a resposta honesta for "não" ou "talvez", reprove.
+8. **Thumbs diferentes entre si** (só thumbs; item novo de 16/11/2026, pedido do Rodrigo): cada thumb declara um padrão do vocabulário de `skills/embalagem/SKILL.md` passo 5 (`rosto-emocao`, `objeto-simbolo`, `conflito-xvy`, `numero-estatistica`, `mapa-lugar`, `antes-depois`, `cena-acao`, `documento-evidencia`) e os 3 são **diferentes**; e, de fato (não só no rótulo), as 3 têm **composição, elemento dominante e tipo de texto** distintos. Descreva cada uma em 5 palavras: se duas descrições diferem só no texto (ex.: dois "mapa escuro + ano", dois rostos de perfil com uma palavra, dois números grandes), **reprove as duas** e diga qual eixo usar no lugar. Confira também que `embalagem/variantes.json` existe com A/B/C e bate com o `EMBALAGEM.md`; que **pelo menos 2 das 3** fogem do padrão dominante da **grade do próprio canal** (thumbs no ar/entregues do canal: `conhecimento/thumbnails/<slug>-*.jpg` e `entrega/thumb-*.jpg` dos vídeos recentes) e nenhuma repete uma vizinha (mesmo elemento dominante + mesmo tipo de texto); e que cada conceito é executável com o gerador/acervo do `canal.yaml` (canal sem `canal.yaml`, como o Em Relevo: `pesquisa/estilo-mapa-relevo-3d/PADRAO.md`, sem IA de cena; rosto de IA ali reprova). No item 1, os 2 padrões de **exploração** podem ter evidência de **nicho amplo** (mesmo tipo de canal explicativo, idioma do canal ou inglês, ≤ 400 d, acima da mediana) quando o padrão não existe no tema, desde que declarado; o de **controle** precisa de evidência do tema ou da bíblia.
 
-**Rodada ≥ 2:** avalie completamente cada elemento `[REESCRITO]`. Nos `[MANTIDO]`, confira os itens 3 e 6 (casam com os elementos novos?) e reprove só se passaram a conflitar ou violar regra. Na rodada 3, lembre: reprovar aqui bloqueia o vídeo; seja justo e específico, mas não baixe a régua.
+**Rodada ≥ 2:** avalie completamente cada elemento `[REESCRITO]`. Nos `[MANTIDO]`, confira os itens 3, 6 e 8 (casam com os elementos novos?) e reprove só se passaram a conflitar ou violar regra. Na rodada 3, lembre: reprovar aqui bloqueia o vídeo; seja justo e específico, mas não baixe a régua.
 
 ## Saída: `embalagem/crivo-r<n>.md` (e cópia idêntica em `CRIVO.md`)
 ```text
@@ -49,14 +50,18 @@ Conferido: videos.list (N ids), medianas, mosaico, fontes do BRIEF (quais)
 7 Faz sentido: …
 Correção pedida (se reprovado): …
 ## Título 2: … (mesmos itens)
-## Thumb: … (itens 1–7)
+## Título 3: … (mesmos itens)
+## Thumb A (padrão `<eixo>`, par T1): APROVADO | REPROVADO (itens 1–8)
+## Thumb B (padrão `<eixo>`, par T2): … (itens 1–8)
+## Thumb C (padrão `<eixo>`, par T3): … (itens 1–8)
+## Diferenciação entre as 3 thumbs: ok | falha — A em 5 palavras / B / C
 ## Obrigações para o roteiro: suficientes | vagas (o que falta)
-## Veredito: APROVADO (3 de 3) | REPROVADO (X de 3) — rodada <n> de 3
+## Veredito: APROVADO (6 de 6) | REPROVADO (X de 6) — rodada <n> de 3
 - 1 linha por elemento reprovado com a correção pedida
 ```
 Não escreva em nenhum outro lugar. Não faça commit. Resposta final a quem disparou: o bloco "Veredito".
 
 ## Regra do portão
-- **APROVADO** = T1, T2 e Thumb aprovados **e** obrigações suficientes. Só aí a etapa 1 segue para o roteiro (e só aí grava `ETAPA1-PRONTA.md` no fim).
+- **APROVADO** = T1, T2, T3 e Thumbs A, B, C aprovados (com as 3 thumbs diferentes entre si, item 8) **e** obrigações suficientes. Só aí a etapa 1 segue para o roteiro (e só aí grava `ETAPA1-PRONTA.md` no fim).
 - Reprovado → quem propôs reescreve só o reprovado e chama um revisor novo. **Máx. 3 rodadas.** Reprovado na 3ª → `BLOQUEIO.md` na pasta do vídeo e a etapa para.
 - Toda reprovação fica no histórico (`embalagem/crivo-r*.md` + `EMBALAGEM-r*.md`): é a base do futuro eval automático (próximo passo em `conhecimento/titulos.md`, não implementado).

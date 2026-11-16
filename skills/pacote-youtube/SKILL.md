@@ -1,6 +1,6 @@
 ---
 name: pacote-youtube
-description: Use quando o vídeo da fábrica do YouTube estiver renderizado para montar o pacote de publicação em out/ - youtube.txt com 3 títulos, descrição (CTA + resumo + capítulos + fontes/créditos), capítulos em ordem crescente desde 0:00, fontes, créditos, tags e categoria - e o lembrete do que o Rodrigo marca ao publicar (sem menção a IA no texto; padrão de 14/11/2026).
+description: Use quando o vídeo da fábrica do YouTube estiver renderizado para montar o pacote de publicação em out/ - youtube.txt com os 3 pares título+thumb (A/B/C, com o padrão de cada um), descrição (CTA + resumo + capítulos + fontes/créditos), capítulos em ordem crescente desde 0:00, fontes, créditos, tags e categoria - e o lembrete do que o Rodrigo marca ao publicar (sem menção a IA no texto; padrão de 14/11/2026).
 ---
 
 # pacote-youtube: out/youtube.txt + checklist de publicação
@@ -13,17 +13,24 @@ Procedimento-base: `playbooks/produzir-video.md` §7. Modelo recomendado: **sonn
 1. Regras gerais: `conhecimento/titulos.md` (N = duração) e `conhecimento/roteiros.md` (capítulos fora de ordem já aconteceram).
 2. Leia `conhecimento/anti-padroes.md`.
 3. Leia `canais/<slug>/canal.yaml` (idioma).
-4. Leia `$V/EMBALAGEM.md` (T1/T2 e promessa aprovados no crivo), `$V/BRIEF.md`, `$V/SOURCES.md`, `$V/qa/capitulos.json` (gerado pelo `build.py`) e `$V/out/legendas.srt`.
+4. Leia `$V/EMBALAGEM.md` (T1/T2/T3, Thumbs A/B/C e promessa aprovados no crivo), `$V/embalagem/variantes.json`, `$V/BRIEF.md`, `$V/SOURCES.md`, `$V/qa/capitulos.json` (gerado pelo `build.py`) e `$V/out/legendas.srt`.
 5. Modelo: o `out/youtube.txt` do **vídeo anterior do mesmo canal** (fora do git; leia se existir).
 
 ## Passos
 1. Pegue a duração real: `ffprobe -v error -show_entries format=duration -of csv=p=0 $V/out/video.mp4`. O **N do título** é essa duração arredondada em minutos.
 2. Escreva `$V/out/youtube.txt` (e copie para `$V/entrega/pacote/youtube.txt`) no **padrão de 14/11/2026** (`conhecimento/politicas-youtube.md`), no idioma do canal, **nesta ordem**:
-   - **TÍTULOS:** 3, pareados às thumbs A/B/C (≤ 100 caracteres cada). **A = T1 e B = T2 do `EMBALAGEM.md` aprovado** (desde 14/11/2026; só ajuste o N de minutos à duração real, sem mudar o padrão); **C = variação** de T1/T2 com outro gatilho (pode ser a fórmula da bíblia, se ela não colidir). Vídeo sem `EMBALAGEM.md` (anterior a 14/11): 3 padrões diferentes da `biblia/titulo.md`.
+   - **TESTAR E COMPARAR (3 pares título+thumb):** um bloco por par, no topo do arquivo, para o Rodrigo marcar no Studio (≤ 100 caracteres cada título):
+     ```
+     A · título: <T1>  · padrão do título: <nome> · thumb: entrega/thumb-A.jpg · padrão da thumb: <eixo> (<elemento dominante + texto>)
+     B · título: <T2>  · …
+     C · título: <T3>  · …
+     ```
+     **A/B/C = T1/T2/T3 do `EMBALAGEM.md` aprovado** (desde 16/11/2026; só ajuste o N de minutos à duração real, sem mudar o padrão), cada um com a thumb do seu par. Vídeo com `EMBALAGEM.md` de 14–15/11 (só T1/T2 e 1 conceito): C = variação de T1/T2 com outro gatilho, thumbs = 3 variações. Vídeo sem `EMBALAGEM.md` (anterior a 14/11): 3 padrões diferentes da `biblia/titulo.md`.
+     Depois, **registre os pares no banco** (a rotina de reembalagem e o Métricas aprendem com isso qual padrão ganha por canal): atualize `$V/embalagem/variantes.json` com os títulos finais e `thumb_arquivo` e rode `tools/.venv/bin/python tools/rotinas/embalagem_variantes.py registrar --video <id> --json $V/embalagem/variantes.json`.
    - **DESCRIÇÃO** (o texto que vai no campo do YouTube, nesta ordem): (1) **CTA curto** de inscrever-se, curtir e compartilhar (1–2 linhas, natural); (2) **descrição breve** do vídeo (2–4 linhas, sem repetir o título, sem entregar a resposta; a pergunta do fecho pode entrar aqui); (3) **capítulos** de `qa/capitulos.json`, `M:SS Título`, começando em `0:00`, crescentes, ≥ 3 de ≥ 10 s, cada tempo conferido na `legendas.srt`; (4) **fontes e créditos** (fontes de `SOURCES.md`; acervo, fotos e música com licença; créditos só aqui, nunca na tela).
    - **TAGS:** 10–15, idioma do canal.
    - **CATEGORIA** (Educação) e **idioma** do vídeo.
-   - **CHECKLIST DE PUBLICAÇÃO** (para o Rodrigo, **fora da descrição**): Uso de IA = **Sim** (Studio → Atributos), não é para crianças, idioma, 3 thumbs + 3 títulos no "Testar e comparar", mp4 1080p (nunca o do Telegram), legendas `legendas.srt`.
+   - **CHECKLIST DE PUBLICAÇÃO** (para o Rodrigo, **fora da descrição**): Uso de IA = **Sim** (Studio → Atributos), não é para crianças, idioma, 3 thumbs + 3 títulos no "Testar e comparar" **pareados como no bloco A/B/C** (thumb-A com o título A etc.) e, depois do resultado, avisar qual venceu (o Métricas grava em `youtube.embalagem_variantes`), mp4 1080p (nunca o do Telegram), legendas `legendas.srt`.
    - **Proibido no arquivo:** qualquer menção a IA, voz sintética ou "conteúdo gerado/alterado" (o Rodrigo declara no campo "Uso de IA"); e, em títulos, descrição e tags, morte/morreu/morto/assassinado/assassinato (es: muerte/murió/muerto/asesinado/asesinato; en: death/died/dead/killed/murdered/assassinated/murder) e sinônimos chocantes (massacre, chacina, "chocante", "perturbador", "nojento"). Rode `grep -n -i` com essas palavras no arquivo antes de fechar.
 3. A **Hipótese de título/descrição** novas vão para a bíblia (ver Loop). O checklist do item acima é o lembrete ao Rodrigo; não repita na descrição.
 4. Copie também o essencial (título e capítulos) para `$V/ETAPA3.md`, porque `out/` fica fora do git.
@@ -32,10 +39,10 @@ Procedimento-base: `playbooks/produzir-video.md` §7. Modelo recomendado: **sonn
 ## Critérios de pronto (avaliar)
 Valide com um one-liner Python sobre `out/youtube.txt`:
 - Capítulos em ordem estritamente crescente, o primeiro `0:00`, o último < duração.
-- N do título = duração arredondada (± 1 min); títulos A/B = T1/T2 do `EMBALAGEM.md` (vídeos desde 14/11/2026) e no idioma do canal.
+- N do título = duração arredondada (± 1 min); títulos A/B/C = T1/T2/T3 do `EMBALAGEM.md` (vídeos desde 16/11/2026; A/B = T1/T2 nos de 14–15/11) e no idioma do canal; bloco TESTAR E COMPARAR com o padrão de título e de thumb de cada par; 3 linhas em `youtube.embalagem_variantes` para o vídeo (`select letra, padrao_thumb, thumb_arquivo from youtube.embalagem_variantes where video_id=<id>`).
 - Título ≤ 100 caracteres; descrição na ordem CTA → resumo → capítulos → fontes/créditos; fontes presentes.
 - **0** ocorrências das palavras proibidas em títulos/descrição/tags e **0** menção a IA/voz sintética no `youtube.txt`; checklist do Rodrigo com "Uso de IA = Sim".
-- Arquivos do pacote presentes: `out/video.mp4`, `out/thumbnail.jpg` (< 2 MB), `out/legendas.srt`, `out/youtube.txt`.
+- Arquivos do pacote presentes: `out/video.mp4`, `out/thumbnail.jpg` (< 2 MB), `entrega/thumb-A/B/C.jpg`, `out/legendas.srt`, `out/youtube.txt`.
 
 ## Loop de melhoria
 1. **Avaliar:** rode a validação e o checklist acima.

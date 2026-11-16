@@ -139,9 +139,16 @@ def drive_livre_mb():
 
 
 def preflight(con, c):
-    pf = {"saldos": {}, "avisos": []}
-    for forn, saldo in con.execute("SELECT fornecedor, saldo FROM financas.saldo_pre_pago").fetchall():
+    pf = {"saldos": {}, "avisos": [], "fonte_saldo": {}}
+    try:  # saldo real das APIs (Runpod) → financas.saldo_lido; a view usa a leitura (≤ 3 d) no lugar do calculado (16/11/2026)
+        import saldo_lido
+        saldo_lido.ler_e_gravar()  # conexão própria: não comita a transação do planejamento
+    except Exception as e:  # noqa: BLE001
+        log(f"preflight: leitura de saldo pela API falhou ({type(e).__name__}); sigo com o calculado")
+    # só fornecedores com alerta ativo (OpenAI API inativa desde 16/11/2026: financas.fornecedor_status)
+    for forn, saldo, fonte in con.execute("SELECT fornecedor, saldo, fonte_saldo FROM financas.saldo_pre_pago").fetchall():
         pf["saldos"][forn] = float(saldo)
+        pf["fonte_saldo"][forn] = fonte
     r = con.execute("SELECT lido_em, pct_semana, reseta_semana, pct_5h, reseta_5h FROM ops.max_leituras ORDER BY lido_em DESC LIMIT 1").fetchone()
     agora = datetime.now(TZ)
     if r:
@@ -216,6 +223,15 @@ def vaga_e_item(con, canal, noite, horizonte, excluir=()):
     return vaga, (it[0] if it else None)
 
 
+def proximo_planejamento(con, noite):
+    """Próxima noite de planejamento depois de `noite` (véspera da próxima publicação), ou None."""
+    try:
+        vs = B.slots(con, noite + timedelta(days=2), noite + timedelta(days=9))
+        return vs[0] - timedelta(days=1) if vs else None
+    except Exception:  # noqa: BLE001
+        return None
+
+
 def nome_canal_curto(canal):
     return B.CANAIS[canal]["curto"]
 
@@ -233,7 +249,7 @@ def gerar_briefs(canal, it, vid_id, numero, pasta, vaga, noite, prazo, destino=R
     evid = "\n".join(f"  - [{e.get('tipo', '')}] {e.get('fonte', '')}: {e.get('numero', '')} ({e.get('data', '')}) {e.get('link', '')}".rstrip()
                      for e in (it["evidencias"] or []))
     entrega_drive = ("**Não rode `entregar_drive.sh` nem `rclone`.** Deixe tudo em `" + pasta + "/entrega/` (video.mp4, legendas.srt, "
-                     "thumb-A/B/C.jpg, thumbnail.jpg, pacote/youtube.txt com os 3 títulos pareados às thumbs). A rotina noturna "
+                     "thumb-A/B/C.jpg, thumbnail.jpg, pacote/youtube.txt com os 3 pares título+thumb e o padrão de cada um). A rotina noturna "
                      "(`noturna.py vigia`) sobe ao Drive se houver espaço e avisa o Rodrigo se não houver.")
     txt = f"""# BRIEF lote noturno: {cfgc['nome']} {nnn} — {it['tema']} (publica {B.fmt_d(vaga)}/{vaga:%Y})
 <!-- Gerado por tools/rotinas/noturna.py em {datetime.now(TZ):%d/%m/%Y %H:%M} (noite de {noite:%d/%m}) a partir do backlog vivo
@@ -258,7 +274,7 @@ Repo `~/workspace/fabrica-youtube`. Leia `~/.claude/CLAUDE.md` (headless), `MAPA
 ## Regras gerais do lote noturno
 - Outros vídeos rodam antes/depois/em paralelo: `git add` só da sua pasta (+ bíblia do seu canal para aprendizados); **não edite a seção "Backlog vivo" do `backlog.md`** (é gerada pelo `backlog.py`). `index.lock` → espere e tente de novo. `git pull --rebase` antes do push.
 - Memória da VPS: nunca grave em `/tmp` (é RAM): use `$TMPDIR` (= `~/cache/tmp`). Render só no Runpod (`tools/render_runpod.sh`, skill `montagem-render`), em partes. Pré-QA visual (`tools/preqa_visual.py`) antes do render.
-- **3 títulos + 3 thumbs** pareadas (A = T1, B = T2, C = variação) para o "Testar e comparar". Sem gancho de próximo vídeo (nunca anuncie o próximo; puxar sessão para vídeo já publicado pode). Pauta proibida: `conhecimento/politicas-youtube.md` e a lista "evitar" da bíblia.
+- **3 pares título+thumb** (A = T1, B = T2, C = T3) para o "Testar e comparar", com **3 thumbs de padrões visuais diferentes** (uma por conceito aprovado no crivo; nunca 3 variações do mesmo: pedido do Rodrigo, 16/11/2026). Sem gancho de próximo vídeo (nunca anuncie o próximo; puxar sessão para vídeo já publicado pode). Pauta proibida: `conhecimento/politicas-youtube.md` e a lista "evitar" da bíblia.
 - Embalagem reprovada no crivo (3 rodadas) → `BLOQUEIO.md` na pasta com a palavra "crivo" e **pare**: a rotina noturna põe o próximo tema do backlog na mesma noite.
 - **Entrega:** {entrega_drive}
 - Custos em `financas.consumo` com o id {vid_id}. Confira saldos antes (outros jobs gastam ao mesmo tempo).
@@ -272,6 +288,7 @@ Repo `~/workspace/fabrica-youtube`. Leia `~/.claude/CLAUDE.md` (headless), `MAPA
         m = re.sub(r"<!--.*?-->\n?", "", m, flags=re.S)
         m = m.replace(f"BRIEF-lote-<canal>-<NNN>-<slug>.md", principal.name)
         m = m.replace("<pasta do vídeo>", pasta)
+        m = m.replace("--video <id>", f"--video {vid_id}")
         m = m.replace("canais/<slug>/biblia/", biblia)
         m = m.replace("<com ou sem Drive, conforme o brief do lote>", "sem Drive: deixe em `entrega/`; a rotina noturna sobe")
         return m
@@ -348,18 +365,23 @@ def planejar(a):
         cands.sort(key=lambda x: (x["vaga"], ordem[x["canal"]]))
         aprov, cortes = cortar(pf, cands, c)
         feitos = [enfileirar(con, x["canal"], x["item"], x["vaga"], noite, c, a.dry_run, prioridade=3 + 2 * i) for i, x in enumerate(aprov)]
+        prox = proximo_planejamento(con, noite)
         for x in cortes:
             cc = next(k for k in cands if k["canal"] == x["canal"])
             x.update({"tema": cc["item"]["tema"], "vaga": str(cc["vaga"])})
+            # motivo datado (16/11/2026): o resumo da manhã não pode parecer pré-voo de agora (o de 16/11 disse "disco 24 GB" já com 54 GB)
+            obs = (f"adiado no planejamento de {B.fmt_d(noite)} 20:00 por {x['motivo']}"
+                   + (f"; volta à pauta no planejamento de {B.fmt_d(prox)} 20:00" if prox else ""))
             if not a.dry_run:
                 con.execute("INSERT INTO youtube.producao_noturna (noite, canal_slug, backlog_id, data_publicacao, status, obs) VALUES (%s,%s,%s,%s,'adiado',%s) "
-                            "ON CONFLICT DO NOTHING", (noite, x["canal"], cc["item"]["id"], cc["vaga"], x["motivo"]))
+                            "ON CONFLICT DO NOTHING", (noite, x["canal"], cc["item"]["id"], cc["vaga"], obs))
         if not a.dry_run:
             con.execute("INSERT INTO youtube.noites (noite, preflight, cortes) VALUES (%s,%s,%s) ON CONFLICT (noite) DO UPDATE SET preflight=EXCLUDED.preflight, "
                         "cortes=youtube.noites.cortes || EXCLUDED.cortes", (noite, Jsonb(pf), Jsonb(cortes)))
         # relatório
         L = [f"Fábrica noturna {noite:%d/%m} ({'DRY-RUN, nada enfileirado' if a.dry_run else 'enfileirado'})", "",
-             "Pré-voo: " + ", ".join(f"{k} US$ {v:.2f}" for k, v in pf["saldos"].items() if k in ("fal.ai", "Fish Audio", "Runpod"))
+             "Pré-voo: " + ", ".join(f"{k} US$ {v:.2f}" + (" (API)" if pf.get("fonte_saldo", {}).get(k) == "api" else "")
+                                     for k, v in pf["saldos"].items() if k in ("fal.ai", "Fish Audio", "Runpod"))
              + ((f"; Max semanal {pf['max']['pct_semana']}% (lido {datetime.fromisoformat(pf['max']['lido_em']):%d/%m %H:%M}, {pf['max']['idade_h']:.0f} h"
                  + (", reset já passou" if pf['max'].get('reset_passou') else "") + ")") if pf.get("max") else "; Max semanal sem leitura")
              + ((f"; Drive {pf['drive_livre_mb'] / 1024:.1f} GB livres") if pf["drive_livre_mb"] is not None else "; Drive: não consegui ler"),
@@ -552,7 +574,13 @@ def manha(a):
             nome = B.CANAIS[r["canal_slug"]]["nome"]
             tema = it["tema"] if it else "?"
             if r["status"] == "adiado":
-                L.append(f"{icone['adiado']} {nome}: {tema} adiado ({r['obs']})")
+                obs = r["obs"] or "?"
+                if "planejamento" not in obs:  # registros antigos (antes de 16/11/2026) sem data
+                    obs = f"adiado no planejamento de {B.fmt_d(noite)} 20:00 por {obs}"
+                if "disco" in obs:  # mostra o disco de agora para não confundir com o da noite
+                    st = os.statvfs(Path.home())
+                    obs += f"; disco agora: {st.f_bavail * st.f_frsize / 1e9:.0f} GB livres"
+                L.append(f"{icone['adiado']} {nome}: {tema}: {obs}")
                 continue
             vt = con.execute("SELECT titulo FROM youtube.videos WHERE id=%s", (r["video_id"],)).fetchone() if r["video_id"] else None
             tit = titulo_aprovado(it["pasta"], vt[0] if vt else tema) if it and it["pasta"] else tema

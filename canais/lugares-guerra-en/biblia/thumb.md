@@ -7,7 +7,7 @@ Base: 11/11 thumbs do WTS medidas em pixel (`pesquisa/lugares-guerra/ANATOMIA.md
 2. **2–3 palavras** em amarelo `#FDD505`, Anton, contorno preto grosso (~7% do corpo) + sombra, em 2 linhas no canto livre (esquerdo ou direito). As palavras **complementam** o título, nunca repetem ("3 MILES DOWN", "THE BIRDS WON", "NO VISITORS ALLOWED").
 3. **Selo "RESTRICTED"** vermelho pequeno inclinado sob as palavras: a nossa marca (o WTS não tem).
 4. Paleta: amarelo `#FDD505` + ciano `#2BCEE2` + ferrugem `#C8561E` + azul céu, tudo saturado.
-5. 3 variações por vídeo para o "Testar e comparar": **A** corte do lugar, **B** o objeto-herói submerso/enterrado, **C** a cena inesperada de hoje (ex.: albatrozes no canhão).
+5. 3 thumbs por vídeo para o "Testar e comparar", **uma por conceito A/B/C aprovado na embalagem, de padrões visuais diferentes** (16/11/2026, Rodrigo: composição, elemento dominante e tipo de texto distintos, nunca o mesmo corte com outro texto). Os eixos naturais do canal: **A** corte do lugar (`mapa-lugar`), **B** o objeto-herói submerso/enterrado (`objeto-simbolo`), **C** a cena inesperada de hoje (`cena-acao`, ex.: albatrozes no canhão).
 6. Texto composto no código (`src/Thumbnail.jsx` do vídeo; modelo: `../testes/estilo/src/Thumbnail.jsx`). Prévia 320×180 legível.
 
 ## Não fazer

@@ -50,7 +50,7 @@ Pedido do Rodrigo: 3 estilos diferentes para o "Testar e comparar" (`videos/004-
 
 - Texto **sempre composto no código** (`src/Thumbnail.jsx`), nunca escrito pela IA. Hoje: Libre Caslon 700 + Open Sans 800. [BRIEF.md 001; QA.md 001]
 - No máximo 2–3 palavras na arte, legíveis em 320×180; o resto vai no título. [estilo.md antigo]
-- Base em qualidade alta (`high` no gpt-image-2) e **3 variações** para o "Testar e comparar".
+- Base pelo gerador do `canal.yaml` (Codex desde 14/11/2026, fallback fal) e **3 thumbs, uma por conceito A/B/C** para o "Testar e comparar" (16/11/2026; antes: 3 variações).
 - Direção do Rodrigo (até o 002): inspirada na referência, mas com **identidade nossa**: personagem-guia (o bonequinho do canal) reagindo ao lugar/época; assinatura de tempo (selo com o período, sempre no mesmo canto e na mesma cor); cor de destaque fixa do canal (amarelo-ouro ou laranja). [estilo.md antigo]
 - **Hipótese (04/11):** falta curiosidade (lacuna de informação, conflito, rosto com emoção). Panorama bonito + nome do país não cria pergunta.
 
@@ -96,4 +96,4 @@ Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/emba
 ### Lições adaptadas a vídeo novo (PROPOSTAS.md (b), 14/11/2026)
 - Thumb com **lacuna** (pergunta, não resposta), **1 foco**, sem palavra do título, conferida numa maquete 320×180 ao lado do mosaico do tema.
 - Se o gargalo é impressão, o nome do país vai no **título**, não na arte (compatível com a regra de 2–3 palavras acima).
-- Entregar os 3 estilos continua valendo para o "Testar e comparar", mas todos partem do **conceito aprovado** na embalagem; o que varia é texto, expressão ou enquadramento.
+- **3 thumbs realmente diferentes (Rodrigo, 16/11/2026):** os 3 estilos do "Testar e comparar" viram os **3 conceitos A/B/C aprovados na embalagem** (`skills/embalagem/SKILL.md` passo 5), cada um de um padrão visual diferente do vocabulário (ex.: bonecos = `rosto-emocao` ou `conflito-xvy`; pegada HiM = `mapa-lugar`; terceiro = `objeto-simbolo`/`cena-acao`), pareados a T1/T2/T3, com composição, elemento dominante e tipo de texto distintos. Nada de 3 variações do mesmo conceito. O estilo do canal (bonequinhos, paleta, fontes) não muda. Vencedor de cada teste em `youtube.embalagem_variantes` (placar: `tools/rotinas/embalagem_variantes.py placar --canal historia-ptbr`).

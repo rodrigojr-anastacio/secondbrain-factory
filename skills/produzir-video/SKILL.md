@@ -21,7 +21,7 @@ O orquestrador (Hermes, Claude Code ou outro) **planeja, dispara e confere**; o 
 Siga a skill `pesquisa-referencia`: referência com `tools/watch.py`, linha em `youtube.videos` (anote o `<id>`), pasta `$V` e `$V/BRIEF.md` com **teto de custo em US$**. Sem `BRIEF.md` com teto, não dispare nada pago.
 
 ## Etapa 0b: embalagem + crivo (todo vídeo novo desde 14/11/2026, antes do roteiro)
-Ordem nova (decisão do Rodrigo, 14/11/2026): **pesquisa-referencia → embalagem + crivo → roteiro → hook → storyboard → voz → imagens → render.** Siga a skill `embalagem` (`skills/embalagem/SKILL.md`): pesquisa real no YouTube, 2 títulos (T1/T2) + 1 conceito de thumb + a promessa, em `$V/EMBALAGEM.md`; um revisor independente (Task separado, `skills/embalagem/CRIVO.md`) grava `$V/CRIVO.md`.
+Ordem nova (decisão do Rodrigo, 14/11/2026): **pesquisa-referencia → embalagem + crivo → roteiro → hook → storyboard → voz → imagens → render.** Siga a skill `embalagem` (`skills/embalagem/SKILL.md`): pesquisa real no YouTube, 3 pares título+thumb (T1/T2/T3 + Thumbs A/B/C de **3 padrões visuais diferentes**, desde 16/11/2026) + a promessa, em `$V/EMBALAGEM.md` e `$V/embalagem/variantes.json`; um revisor independente (Task separado, `skills/embalagem/CRIVO.md`) grava `$V/CRIVO.md`.
 - **Portão = só o crivo** (o Rodrigo não aprova cada embalagem). Reprovado → reescreve e passa de novo, **máx. 3 rodadas**; ainda reprovado → `$V/BLOQUEIO.md` e o vídeo para.
 - Sem `CRIVO.md` aprovado, **não comece o roteiro**; a etapa 1 do lote só grava `ETAPA1-PRONTA.md` com `CRIVO.md` aprovado.
 - Não vale para vídeos feitos, agendados ou com etapa 1 já concluída.
@@ -35,7 +35,7 @@ Para cada etapa, escreva o briefing `$V/.prompt-<etapa>.md` com: objetivo; **"le
 | # | `--etapa` | Modelo | Skills | Sai quando |
 |---|---|---|---|---|
 | 1 | `roteiro-storyboard` | opus | `embalagem` (+ crivo em Task separado), `roteiro`, `storyboard` | `EMBALAGEM.md` + `CRIVO.md` aprovado (senão `BLOQUEIO.md` e para), `SCRIPT.md`, `blocos.json`, `cenas.json`, `STORYBOARD.md`, `storyboard.json`, `ETAPA1.md` |
-| 2 | `producao` | sonnet | `voz`, `imagens`, `thumbnail` (só a base `high`, do conceito aprovado em `EMBALAGEM.md`) | `audio/` e `imagens/` completos, `thumb-var/`, `ETAPA2.md` |
+| 2 | `producao` | sonnet | `voz`, `imagens`, `thumbnail` (3 bases, uma por conceito A/B/C aprovado em `EMBALAGEM.md`) | `audio/` e `imagens/` completos, `thumb-var/`, `ETAPA2.md` |
 | 3 | `montagem-render` | sonnet | `montagem-render`, `thumbnail` (final), `pacote-youtube`, `qa` | `out/video.mp4`, `out/thumbnail.jpg`, `out/legendas.srt`, `out/youtube.txt`, `QA.md`, `ETAPA3.md` |
 
 ```bash
@@ -54,12 +54,12 @@ nohup tools/claude_run.sh --video <id> --etapa roteiro-storyboard --cwd $V \
 - `youtube.videos.status`: `ideia` (etapa 0) → `roteiro` (1) → `producao` (2) → `qa` (3) → `pronto` (QA aprovado). Atualize sempre com `atualizado_em=now()`. No historia-ptbr, `biblia_versao` marca a bíblia de roteiro do vídeo (`'v1'` = 001–005, `'v2'` = 006+; gravada na etapa 0/roteiro) para o comparativo do `canais/historia-ptbr/biblia/README.md`. `publicado` só depois que o Rodrigo publicar (aí grave `youtube_id`, `publicado_em`, título no ar e atualize `backlog.md`).
 
 ## Relatório final (ao Rodrigo, curto)
-- Título, duração e caminhos de `out/`; T1/T2 e a promessa do `EMBALAGEM.md` (rodada em que o crivo aprovou) e onde o vídeo a paga. O vídeo vai para o Drive (`tools/entregar_drive.sh`); pelo chat, só a thumb e o contact sheet.
+- Título, duração e caminhos de `out/`; os 3 pares A/B/C (título + padrão da thumb) e a promessa do `EMBALAGEM.md` (rodada em que o crivo aprovou) e onde o vídeo a paga. O vídeo vai para o Drive (`tools/entregar_drive.sh`); pelo chat, só a thumb e o contact sheet.
 - Custo: `SELECT * FROM financas.custo_por_video WHERE id=<id>` (BRL) + soma em US$ do `financas.consumo` + Claude equivalente; comparação com o teto.
-- Resultado do QA (números), pendências e o checklist de publicação de `pacote-youtube` (sintético = sim, não é para crianças, 3 thumbs no "Testar e comparar").
+- Resultado do QA (números), pendências e o checklist de publicação de `pacote-youtube` (sintético = sim, não é para crianças, 3 pares título+thumb de padrões diferentes no "Testar e comparar").
 
 ## Loop de melhoria
-1. **Avaliar:** cada etapa passou nos critérios da própria skill? Quantas rodadas o crivo da embalagem pediu? O QA confirmou a promessa paga (timestamp) e a thumb no conceito? O QA confirmou que o vídeo **segue a bíblia do canal**? Custo ≤ teto? Quantas rodadas de correção? Tempo por etapa (`youtube.execucoes_claude.duracao_s`, turnos).
+1. **Avaliar:** cada etapa passou nos critérios da própria skill? Quantas rodadas o crivo da embalagem pediu? O QA confirmou a promessa paga (timestamp) e cada thumb no seu conceito (3 diferentes)? O QA confirmou que o vídeo **segue a bíblia do canal**? Custo ≤ teto? Quantas rodadas de correção? Tempo por etapa (`youtube.execucoes_claude.duracao_s`, turnos).
 2. **Corrigir:** até 2 rodadas por etapa; o resto vira pendência no relatório e no `QA.md`.
 3. **Registrar:** aprendizado de formato/estilo na **bíblia do canal** (`canais/<slug>/biblia/`); custos reais do vídeo e erros de ferramenta/processo em `conhecimento/anti-padroes.md`; ajustes de procedimento em `playbooks/produzir-video.md` e nas skills; tudo com **data e fonte**; sem dado = **Hipótese** (o Métricas confirma depois de 3–7 dias com `playbooks/revisar-metricas.md`).
 4. **Commitar:** `git status` (sem mídia nem segredo) → `git add` dos textos → `git commit -m "<canal>/<NNN>: pronto para publicar (MM:SS, US$ X)"`.
