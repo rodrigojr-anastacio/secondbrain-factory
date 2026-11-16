@@ -1,0 +1,570 @@
+[
+ {
+  "id": "B01a",
+  "texto": "Look at this wall. Count the marks. Some are small chips. Some are craters as wide as a hand.",
+  "texto_voz": "Look at this wall. Count the marks. Some are small chips. Some are craters as wide as a hand.",
+  "ideia": true,
+  "inicio_est": 0.0,
+  "dur_est": 6.79
+ },
+ {
+  "id": "B01b",
+  "texto": "They're bullet and shrapnel strikes, and they come from one morning: December 7th, 1941. This is Pearl Harbor, the place everyone thinks they've already seen. And these marks were never patched. They were left there on purpose.",
+  "texto_voz": "They're bullet and shrapnel strikes, and they come from one morning: December 7th, 1941. This is Pearl Harbor, the place everyone thinks they've already seen. And these marks were never patched. They were left there on purpose.",
+  "ideia": false,
+  "inicio_est": 6.79,
+  "dur_est": 13.21
+ },
+ {
+  "id": "B01c",
+  "texto": "And unless you carry a military ID, or someone who does signs you in, you can't get anywhere near this wall. So why are there still bullet holes at Pearl Harbor?",
+  "texto_voz": "And unless you carry a military ID, or someone who does signs you in, you can't get anywhere near this wall. So why are there still bullet holes at Pearl Harbor?",
+  "ideia": false,
+  "inicio_est": 20.0,
+  "dur_est": 11.07
+ },
+ {
+  "id": "B02a",
+  "texto": "It isn't neglect. It isn't secret. And it isn't a museum. This wall belongs to a working headquarters: Pacific Air Forces, the command for American air power across the entire Pacific.",
+  "texto_voz": "It isn't neglect. It isn't secret. And it isn't a museum. This wall belongs to a working headquarters: Pacific Air Forces, the command for American air power across the entire Pacific.",
+  "ideia": true,
+  "inicio_est": 31.07,
+  "dur_est": 11.07
+ },
+ {
+  "id": "B02b",
+  "texto": "It sits on what was once Hickam Field, about two miles from the dock where tourists board the boat to the USS Arizona Memorial. On the other side of a gate. In 1941, this was a barracks. A young military policeman named Durward Swanson slept here.",
+  "texto_voz": "It sits on what was once Hickam Field, about two miles from the dock where tourists board the boat to the USS Arizona Memorial. On the other side of a gate. In 1941, this was a barracks. A young military policeman named Durward Swanson slept here.",
+  "ideia": false,
+  "inicio_est": 42.14,
+  "dur_est": 16.43
+ },
+ {
+  "id": "B02c",
+  "texto": "Decades later, he came back and stood in the same room, which by then belonged to base security. He remembered that morning simply. \"I saw a plane banking and the rising sun on the wing, and at that moment knew immediately, we were at war.\"",
+  "texto_voz": "Decades later, he came back and stood in the same room, which by then belonged to base security. He remembered that morning simply. \"I saw a plane banking and the rising sun on the wing, and at that moment knew immediately, we were at war.\"",
+  "ideia": false,
+  "inicio_est": 58.57,
+  "dur_est": 16.07
+ },
+ {
+  "id": "B02d",
+  "texto": "Along the way, you'll see what happened to this building, the paper that explains why nobody fixed it, and everything else that still sits behind that gate.",
+  "texto_voz": "Along the way, you'll see what happened to this building, the paper that explains why nobody fixed it, and everything else that still sits behind that gate.",
+  "ideia": false,
+  "inicio_est": 74.64,
+  "dur_est": 9.64
+ },
+ {
+  "id": "B03a",
+  "texto": "Most visitors never think about the gate, because the part of Pearl Harbor they visit is built for them. A visitor center. A boat. A white memorial over a sunken battleship.",
+  "texto_voz": "Most visitors never think about the gate, because the part of Pearl Harbor they visit is built for them. A visitor center. A boat. A white memorial over a sunken battleship.",
+  "ideia": true,
+  "inicio_est": 84.29,
+  "dur_est": 11.07
+ },
+ {
+  "id": "B03b",
+  "texto": "But almost everything around it is Joint Base Pearl Harbor-Hickam, an active military installation. And the building with the scarred walls is two things at once. It's a headquarters, full of people who plan air operations across half the planet. And it's part of a National Historic Landmark.",
+  "texto_voz": "But almost everything around it is Joint Base Pearl Harbor-Hickam, an active military installation. And the building with the scarred walls is two things at once. It's a headquarters, full of people who plan air operations across half the planet. And it's part of a National Historic Landmark.",
+  "ideia": false,
+  "inicio_est": 95.36,
+  "dur_est": 17.14
+ },
+ {
+  "id": "B03c",
+  "texto": "As one historian of Hickam Field put it, \"Since the buildings are protected by law, the military can't change the appearance.\" So the most guarded building on the base is also one of the best preserved. And it's not alone.",
+  "texto_voz": "As one historian of Hickam Field put it, \"Since the buildings are protected by law, the military can't change the appearance.\" So the most guarded building on the base is also one of the best preserved. And it's not alone.",
+  "ideia": false,
+  "inicio_est": 112.5,
+  "dur_est": 14.29
+ },
+ {
+  "id": "B03d",
+  "texto": "Behind the same gate there are hangars from 1941, still in use. There's a memorial to a battleship that most visitors can only reach on a guided bus. And in the lobby of this building, behind glass, there's something else from that morning. We'll come back to it.",
+  "texto_voz": "Behind the same gate there are hangars from 1941, still in use. There's a memorial to a battleship that most visitors can only reach on a guided bus. And in the lobby of this building, behind glass, there's something else from that morning. We'll come back to it.",
+  "ideia": false,
+  "inicio_est": 126.79,
+  "dur_est": 17.14
+ },
+ {
+  "id": "B04a",
+  "texto": "To understand the marks, you have to see this place before them. In the 1930s, the Army Air Corps built a new air base right next to the Navy's anchorage at Pearl Harbor. They named it Hickam Field. At its heart was one enormous building, finished in 1940.",
+  "texto_voz": "To understand the marks, you have to see this place before them. In the 1930s, the Army Air Corps built a new air base right next to the Navy's anchorage at Pearl Harbor. They named it Hickam Field. At its heart was one enormous building, finished in 1940.",
+  "ideia": true,
+  "inicio_est": 143.93,
+  "dur_est": 17.14
+ },
+ {
+  "id": "B04b",
+  "texto": "The Air Force calls it a 3,200-man barracks, the largest in the Army Air Forces at the time. The men called it the Big Barracks. In Hawaiian, it was Hale Makai, the House by the Sea.",
+  "texto_voz": "The Air Force calls it a 3,200-man barracks, the largest in the Army Air Forces at the time. The men called it the Big Barracks. In Hawaiian, it was Hale Makai, the House by the Sea.",
+  "ideia": false,
+  "inicio_est": 161.07,
+  "dur_est": 12.86
+ },
+ {
+  "id": "B04c",
+  "texto": "On the morning of December 7th, 1941, fifty-one airplanes were parked on the ground at Hickam. Big B-17 bombers stood out on the flight line. And a flight of twelve more B-17s was on its way from California. They were expected that morning.",
+  "texto_voz": "On the morning of December 7th, 1941, fifty-one airplanes were parked on the ground at Hickam. Big B-17 bombers stood out on the flight line. And a flight of twelve more B-17s was on its way from California. They were expected that morning.",
+  "ideia": false,
+  "inicio_est": 173.93,
+  "dur_est": 15.36
+ },
+ {
+  "id": "B05a",
+  "texto": "At 7:55 a.m., the first wave arrived: 183 Japanese aircraft. One of the first bombs fell on the Navy's air station on Ford Island, in the middle of the harbor. Minutes later, a message went out.",
+  "texto_voz": "At 7:55 a.m., the first wave arrived: 183 Japanese aircraft. One of the first bombs fell on the Navy's air station on Ford Island, in the middle of the harbor. Minutes later, a message went out.",
+  "ideia": true,
+  "inicio_est": 189.29,
+  "dur_est": 12.86
+ },
+ {
+  "id": "B05b",
+  "texto": "This is a copy of it, received thousands of miles away at a naval air station near Boston. \"Air raid on Pearl Harbor. This is not drill.\"",
+  "texto_voz": "This is a copy of it, received thousands of miles away at a naval air station near Boston. \"Air raid on Pearl Harbor. This is not drill.\"",
+  "ideia": false,
+  "inicio_est": 202.14,
+  "dur_est": 9.64
+ },
+ {
+  "id": "B05c",
+  "texto": "The Navy's own report records the words slightly differently, \"this is no drill,\" and notes an identical message from the Pacific Fleet's commander. Either way, the warning came after the bombs. Remember one word: unprepared. It'll come back.",
+  "texto_voz": "The Navy's own report records the words slightly differently, \"this is no drill,\" and notes an identical message from the Pacific Fleet's commander. Either way, the warning came after the bombs. Remember one word: unprepared. It'll come back.",
+  "ideia": false,
+  "inicio_est": 211.79,
+  "dur_est": 13.57
+ },
+ {
+  "id": "B05d",
+  "texto": "A few miles away, at Hickam, fighters and dive bombers went straight for the flight line and the hangars. They were concentrating on the B-17s.",
+  "texto_voz": "A few miles away, at Hickam, fighters and dive bombers went straight for the flight line and the hangars. They were concentrating on the B-17s.",
+  "ideia": false,
+  "inicio_est": 225.36,
+  "dur_est": 8.93
+ },
+ {
+  "id": "B06a",
+  "texto": "And in the middle of all this, the twelve bombers from California arrived. They had come all the way from the mainland. They were unarmed, and they were low on fuel. Instead of a welcome, they found Hickam on fire.",
+  "texto_voz": "And in the middle of all this, the twelve bombers from California arrived. They had come all the way from the mainland. They were unarmed, and they were low on fuel. Instead of a welcome, they found Hickam on fire.",
+  "ideia": true,
+  "inicio_est": 234.29,
+  "dur_est": 14.29
+ },
+ {
+  "id": "B06b",
+  "texto": "Their crews landed wherever they could. The Air Force lists one at Bellows Field, one at Wheeler, one on a golf course at Kahuku, two on a tiny fighter strip on the North Shore, and the rest at Hickam, under attack. Three hangars took direct hits.",
+  "texto_voz": "Their crews landed wherever they could. The Air Force lists one at Bellows Field, one at Wheeler, one on a golf course at Kahuku, two on a tiny fighter strip on the North Shore, and the rest at Hickam, under attack. Three hangars took direct hits.",
+  "ideia": false,
+  "inicio_est": 248.57,
+  "dur_est": 16.43
+ },
+ {
+  "id": "B06c",
+  "texto": "The Park Service's landmark report says one was reduced to a twisted ruin. At 8:40, a second wave struck. By 9:45 it was over. About half the airplanes at Hickam had been destroyed or badly damaged.",
+  "texto_voz": "The Park Service's landmark report says one was reduced to a twisted ruin. At 8:40, a second wave struck. By 9:45 it was over. About half the airplanes at Hickam had been destroyed or badly damaged.",
+  "ideia": false,
+  "inicio_est": 265.0,
+  "dur_est": 12.86
+ },
+ {
+  "id": "B07a",
+  "texto": "And the Big Barracks? It was hit again and again. Planes strafed it. Bombs hit it.",
+  "texto_voz": "And the Big Barracks? It was hit again and again. Planes strafed it. Bombs hit it.",
+  "ideia": true,
+  "inicio_est": 277.86,
+  "dur_est": 5.71
+ },
+ {
+  "id": "B07b",
+  "texto": "Part of it caught fire. Many of the men had been at breakfast when the attack began, and a bomb struck the mess hall in the center of the building. Air Force captions call it \"reportedly the most bombed building on Oahu.\"",
+  "texto_voz": "Part of it caught fire. Many of the men had been at breakfast when the attack began, and a bomb struck the mess hall in the center of the building. Air Force captions call it \"reportedly the most bombed building on Oahu.\"",
+  "ideia": false,
+  "inicio_est": 283.57,
+  "dur_est": 15.0
+ },
+ {
+  "id": "B07c",
+  "texto": "When the smoke cleared, the Air Force counts 189 men lost at Hickam that day, and 303 wounded. The building was repaired. It went back to work. So the question is the one you came here with.",
+  "texto_voz": "When the smoke cleared, the Air Force counts 189 men lost at Hickam that day, and 303 wounded. The building was repaired. It went back to work. So the question is the one you came here with.",
+  "ideia": false,
+  "inicio_est": 298.57,
+  "dur_est": 13.21
+ },
+ {
+  "id": "B08a",
+  "texto": "Why keep the marks? The Air Force answers that in its own words. \"This former 'Big Barracks' now serves as headquarters of the Pacific Air Forces, and its bullet-scarred walls are carefully preserved to serve as a constant reminder to never again be caught unprepared.\" There's the word.",
+  "texto_voz": "Why keep the marks? The Air Force answers that in its own words. \"This former 'Big Barracks' now serves as headquarters of the Pacific Air Forces, and its bullet-scarred walls are carefully preserved to serve as a constant reminder to never again be caught unprepared.\" There's the word.",
+  "ideia": true,
+  "inicio_est": 311.79,
+  "dur_est": 17.14
+ },
+ {
+  "id": "B08b",
+  "texto": "Unprepared. That's the official reason. The headquarters for American air power in the Pacific walks past the evidence of the moment that power was caught on the ground. Every officer who goes to work in that building passes the wall on the way in.",
+  "texto_voz": "Unprepared. That's the official reason. The headquarters for American air power in the Pacific walks past the evidence of the moment that power was caught on the ground. Every officer who goes to work in that building passes the wall on the way in.",
+  "ideia": false,
+  "inicio_est": 328.93,
+  "dur_est": 15.71
+ },
+ {
+  "id": "B08c",
+  "texto": "But the strangest part of this story isn't the reason. It's the paper that made it permanent.",
+  "texto_voz": "But the strangest part of this story isn't the reason. It's the paper that made it permanent.",
+  "ideia": false,
+  "inicio_est": 344.64,
+  "dur_est": 6.07
+ },
+ {
+  "id": "B09a",
+  "texto": "In 1984, the National Park Service wrote a nomination for Hickam Field as a National Historic Landmark. The Secretary of the Interior designated it in 1985: the flight line, the hangars, the operations building, and the old barracks. Eighty-one acres of an active airfield, frozen on paper.",
+  "texto_voz": "In 1984, the National Park Service wrote a nomination for Hickam Field as a National Historic Landmark. The Secretary of the Interior designated it in 1985: the flight line, the hangars, the operations building, and the old barracks. Eighty-one acres of an active airfield, frozen on paper.",
+  "ideia": true,
+  "inicio_est": 350.71,
+  "dur_est": 16.79
+ },
+ {
+  "id": "B09b",
+  "texto": "Two years later, Wheeler Field, a few miles inland, got the same status. The form describes the barracks plainly. \"The bomb and fire damage has long since been repaired, but a large number of spatter holes remain on the exterior walls where bullets hit the concrete.\"",
+  "texto_voz": "Two years later, Wheeler Field, a few miles inland, got the same status. The form describes the barracks plainly. \"The bomb and fire damage has long since been repaired, but a large number of spatter holes remain on the exterior walls where bullets hit the concrete.\"",
+  "ideia": false,
+  "inicio_est": 367.5,
+  "dur_est": 16.43
+ },
+ {
+  "id": "B09c",
+  "texto": "The hangars, it says, carry their own scars. \"A bullet hole clear through a steel column.\" And then one sentence that sounds like an invitation.",
+  "texto_voz": "The hangars, it says, carry their own scars. \"A bullet hole clear through a steel column.\" And then one sentence that sounds like an invitation.",
+  "ideia": false,
+  "inicio_est": 383.93,
+  "dur_est": 8.93
+ },
+ {
+  "id": "B09d",
+  "texto": "\"Here, one captures the feeling of the pre-World War II military environment in Hawaii, as well as coming into contact with the physical damage of the surprise attack.\" Coming into contact. That's the thing. The landmark exists so that someone can stand in front of these walls. The base exists so that almost no one can.",
+  "texto_voz": "\"Here, one captures the feeling of the pre-World War II military environment in Hawaii, as well as coming into contact with the physical damage of the surprise attack.\" Coming into contact. That's the thing. The landmark exists so that someone can stand in front of these walls. The base exists so that almost no one can.",
+  "ideia": false,
+  "inicio_est": 392.86,
+  "dur_est": 20.0
+ },
+ {
+  "id": "B10a",
+  "texto": "So the marks are protected twice: by the Air Force, as a reminder, and by federal law, as part of a landmark. When the building was renovated, the scars came through it.",
+  "texto_voz": "So the marks are protected twice: by the Air Force, as a reminder, and by federal law, as part of a landmark. When the building was renovated, the scars came through it.",
+  "ideia": true,
+  "inicio_est": 412.86,
+  "dur_est": 11.43
+ },
+ {
+  "id": "B10b",
+  "texto": "The firm that did the work says the strafing and blast marks were preserved through every phase, and that fire-damaged beams uncovered inside were built into the finished rooms. The same historian, Jessie Higa, described the outside this way.",
+  "texto_voz": "The firm that did the work says the strafing and blast marks were preserved through every phase, and that fire-damaged beams uncovered inside were built into the finished rooms. The same historian, Jessie Higa, described the outside this way.",
+  "ideia": false,
+  "inicio_est": 424.29,
+  "dur_est": 13.93
+ },
+ {
+  "id": "B10c",
+  "texto": "\"The outside markings from the December 7 damage become a birthmark.\" In 2017, an airman was given special permission to make a cast of one of the pockmarks, and the copies became farewell gifts. Think about that.",
+  "texto_voz": "\"The outside markings from the December 7 damage become a birthmark.\" In 2017, an airman was given special permission to make a cast of one of the pockmarks, and the copies became farewell gifts. Think about that.",
+  "ideia": false,
+  "inicio_est": 438.21,
+  "dur_est": 13.21
+ },
+ {
+  "id": "B10d",
+  "texto": "To carry a piece of this wall off the base, someone had to make a mold of it.",
+  "texto_voz": "To carry a piece of this wall off the base, someone had to make a mold of it.",
+  "ideia": false,
+  "inicio_est": 451.43,
+  "dur_est": 6.43
+ },
+ {
+  "id": "B11a",
+  "texto": "Now, the thing behind the glass. That morning, an American flag was flying over Hickam. Photographers caught it on its pole, with smoke rising from the barracks behind it. It flew through both waves.",
+  "texto_voz": "Now, the thing behind the glass. That morning, an American flag was flying over Hickam. Photographers caught it on its pole, with smoke rising from the barracks behind it. It flew through both waves.",
+  "ideia": true,
+  "inicio_est": 457.86,
+  "dur_est": 12.14
+ },
+ {
+  "id": "B11b",
+  "texto": "That night, around nine, Durward Swanson and his best friend, Albert Lloyd, a man everyone called Stud, noticed it was still up. Swanson remembered telling him, \"Stud, the flag is still flying. We've got to take that down.\"",
+  "texto_voz": "That night, around nine, Durward Swanson and his best friend, Albert Lloyd, a man everyone called Stud, noticed it was still up. Swanson remembered telling him, \"Stud, the flag is still flying. We've got to take that down.\"",
+  "ideia": false,
+  "inicio_est": 470.0,
+  "dur_est": 13.57
+ },
+ {
+  "id": "B11c",
+  "texto": "They lowered it and folded it, as he put it, \"the best we could as shattered as it was.\" That flag is now in a case in the lobby of the old barracks, the same building with the scarred walls.",
+  "texto_voz": "They lowered it and folded it, as he put it, \"the best we could as shattered as it was.\" That flag is now in a case in the lobby of the old barracks, the same building with the scarred walls.",
+  "ideia": false,
+  "inicio_est": 483.57,
+  "dur_est": 14.29
+ },
+ {
+  "id": "B11d",
+  "texto": "The Air Force calls it \"the tattered flag that flew over the base that day.\" It's torn. It's never been mended either. And like the wall, almost nobody gets to see it in person.",
+  "texto_voz": "The Air Force calls it \"the tattered flag that flew over the base that day.\" It's torn. It's never been mended either. And like the wall, almost nobody gets to see it in person.",
+  "ideia": false,
+  "inicio_est": 497.86,
+  "dur_est": 12.14
+ },
+ {
+  "id": "B12a",
+  "texto": "So why can't a tourist just drive over and look? Because in 2010, Hickam Air Force Base and Naval Station Pearl Harbor were merged into one installation, Joint Base Pearl Harbor-Hickam, supporting Air Force and Navy missions across the Pacific.",
+  "texto_voz": "So why can't a tourist just drive over and look? Because in 2010, Hickam Air Force Base and Naval Station Pearl Harbor were merged into one installation, Joint Base Pearl Harbor-Hickam, supporting Air Force and Navy missions across the Pacific.",
+  "ideia": true,
+  "inicio_est": 510.0,
+  "dur_est": 14.29
+ },
+ {
+  "id": "B12b",
+  "texto": "It isn't a historic park with a base inside it. It's a base with history inside it. To get in without military ID, a civilian needs a sponsor, someone with access who submits the paperwork on their behalf.",
+  "texto_voz": "It isn't a historic park with a base inside it. It's a base with history inside it. To get in without military ID, a civilian needs a sponsor, someone with access who submits the paperwork on their behalf.",
+  "ideia": false,
+  "inicio_est": 524.29,
+  "dur_est": 13.57
+ },
+ {
+  "id": "B12c",
+  "texto": "The Navy's own instructions say requests come \"from authorized sponsors only.\" Even the identification is controlled: since May 2025, only REAL ID cards are accepted at the visitor center by the Nimitz Gate. None of that is about hiding the wall. It's about everything around it.",
+  "texto_voz": "The Navy's own instructions say requests come \"from authorized sponsors only.\" Even the identification is controlled: since May 2025, only REAL ID cards are accepted at the visitor center by the Nimitz Gate. None of that is about hiding the wall. It's about everything around it.",
+  "ideia": false,
+  "inicio_est": 537.86,
+  "dur_est": 16.43
+ },
+ {
+  "id": "B12d",
+  "texto": "The marks just happen to be on the wrong side of the fence. And there's a paper for that, too. In 2019, Congress created the Pearl Harbor National Memorial. The law says it plainly.",
+  "texto_voz": "The marks just happen to be on the wrong side of the fence. And there's a paper for that, too. In 2019, Congress created the Pearl Harbor National Memorial. The law says it plainly.",
+  "ideia": false,
+  "inicio_est": 554.29,
+  "dur_est": 12.14
+ },
+ {
+  "id": "B12e",
+  "texto": "\"There is established the Pearl Harbor National Memorial in the State of Hawai'i as a unit of the National Park System.\" But the law doesn't list the places. It points to a map.",
+  "texto_voz": "\"There is established the Pearl Harbor National Memorial in the State of Hawai'i as a unit of the National Park System.\" But the law doesn't list the places. It points to a map.",
+  "ideia": false,
+  "inicio_est": 566.43,
+  "dur_est": 11.79
+ },
+ {
+  "id": "B12f",
+  "texto": "And on the Park Service's own list, the memorial is the Arizona, the Oklahoma and Utah memorials, six small bungalows on Ford Island, three mooring quays along Battleship Row, and the visitor center. The barracks at Hickam aren't on it.",
+  "texto_voz": "And on the Park Service's own list, the memorial is the Arizona, the Oklahoma and Utah memorials, six small bungalows on Ford Island, three mooring quays along Battleship Row, and the visitor center. The barracks at Hickam aren't on it.",
+  "ideia": false,
+  "inicio_est": 578.21,
+  "dur_est": 14.29
+ },
+ {
+  "id": "B12g",
+  "texto": "So the most visited part of Pearl Harbor is a national park. The most scarred building is not. It's a landmark inside a base, guarded by the same people it was built to remind.",
+  "texto_voz": "So the most visited part of Pearl Harbor is a national park. The most scarred building is not. It's a landmark inside a base, guarded by the same people it was built to remind.",
+  "ideia": false,
+  "inicio_est": 592.5,
+  "dur_est": 12.14
+ },
+ {
+  "id": "B13a",
+  "texto": "There's one more reason the gate matters. Look at the middle of the harbor. This is Ford Island. In 1941, it was a naval air station, home of the Navy's patrol planes.",
+  "texto_voz": "There's one more reason the gate matters. Look at the middle of the harbor. This is Ford Island. In 1941, it was a naval air station, home of the Navy's patrol planes.",
+  "ideia": true,
+  "inicio_est": 604.64,
+  "dur_est": 11.43
+ },
+ {
+  "id": "B13b",
+  "texto": "The Navy's historians say thirty-three aircraft were put out of commission there, and one big hangar was gutted. Reportedly, the very first bomb of the whole attack burst there. That's what set off the message you saw earlier. Today Ford Island is still part of the base.",
+  "texto_voz": "The Navy's historians say thirty-three aircraft were put out of commission there, and one big hangar was gutted. Reportedly, the very first bomb of the whole attack burst there. That's what set off the message you saw earlier. Today Ford Island is still part of the base.",
+  "ideia": false,
+  "inicio_est": 616.07,
+  "dur_est": 16.79
+ },
+ {
+  "id": "B13c",
+  "texto": "But part of it opened to visitors: a shuttle runs from the visitor center to a battleship museum and an aviation museum in two of the old hangars. And in one of them, Hangar 79, you can see what Hickam's wall looks like up close.",
+  "texto_voz": "But part of it opened to visitors: a shuttle runs from the visitor center to a battleship museum and an aviation museum in two of the old hangars. And in one of them, Hangar 79, you can see what Hickam's wall looks like up close.",
+  "ideia": false,
+  "inicio_est": 632.86,
+  "dur_est": 16.07
+ },
+ {
+  "id": "B13d",
+  "texto": "Its windows still have bullet holes in the glass. The museum says the Navy didn't replace them, as a reminder that sailors were working in a combat zone.",
+  "texto_voz": "Its windows still have bullet holes in the glass. The museum says the Navy didn't replace them, as a reminder that sailors were working in a combat zone.",
+  "ideia": false,
+  "inicio_est": 648.93,
+  "dur_est": 10.0
+ },
+ {
+  "id": "B14a",
+  "texto": "And the museum adds something most visitors never hear. That night, American fighters from the carrier Enterprise tried to land on Ford Island in the dark. Nervous gunners opened fire, aiming across the runway toward Hangar 79. So some of those holes may not be Japanese at all.",
+  "texto_voz": "And the museum adds something most visitors never hear. That night, American fighters from the carrier Enterprise tried to land on Ford Island in the dark. Nervous gunners opened fire, aiming across the runway toward Hangar 79. So some of those holes may not be Japanese at all.",
+  "ideia": true,
+  "inicio_est": 658.93,
+  "dur_est": 17.14
+ },
+ {
+  "id": "B14b",
+  "texto": "The glass records the whole day, not just the attack. Out on the old seaplane ramp and the aircraft parking areas, government surveyors in the 1990s photographed the concrete and noted strafing marks still in it. Those areas are part of the working base.",
+  "texto_voz": "The glass records the whole day, not just the attack. Out on the old seaplane ramp and the aircraft parking areas, government surveyors in the 1990s photographed the concrete and noted strafing marks still in it. Those areas are part of the working base.",
+  "ideia": false,
+  "inicio_est": 676.07,
+  "dur_est": 15.71
+ },
+ {
+  "id": "B14c",
+  "texto": "Ford Island is the one place where the public can see a scar from that morning. And it's the place that proves how much more of it sits out of reach.",
+  "texto_voz": "Ford Island is the one place where the public can see a scar from that morning. And it's the place that proves how much more of it sits out of reach.",
+  "ideia": false,
+  "inicio_est": 691.79,
+  "dur_est": 11.07
+ },
+ {
+  "id": "B15a",
+  "texto": "Because a few hundred yards from those hangars is the third strange thing. The USS Utah. A target ship, struck by two torpedoes, capsized in about twelve minutes. Fifty-eight of her crew were lost.",
+  "texto_voz": "Because a few hundred yards from those hangars is the third strange thing. The USS Utah. A target ship, struck by two torpedoes, capsized in about twelve minutes. Fifty-eight of her crew were lost.",
+  "ideia": true,
+  "inicio_est": 702.86,
+  "dur_est": 12.14
+ },
+ {
+  "id": "B15b",
+  "texto": "She was never raised. A memorial was dedicated just off the shore in 1972. But it's on the base side of Ford Island. The Park Service puts it plainly.",
+  "texto_voz": "She was never raised. A memorial was dedicated just off the shore in 1972. But it's on the base side of Ford Island. The Park Service puts it plainly.",
+  "ideia": false,
+  "inicio_est": 715.0,
+  "dur_est": 10.36
+ },
+ {
+  "id": "B15c",
+  "texto": "\"To visit these memorials, which are located on an active-duty military base, you must reserve a seat on the Ford Island Bus Tour if you do not have an Active-Duty Military ID.\"",
+  "texto_voz": "\"To visit these memorials, which are located on an active-duty military base, you must reserve a seat on the Ford Island Bus Tour if you do not have an Active-Duty Military ID.\"",
+  "ideia": false,
+  "inicio_est": 725.36,
+  "dur_est": 11.43
+ },
+ {
+  "id": "B15d",
+  "texto": "The tour runs on Mondays, Wednesdays and Fridays, in the afternoon, and the Park Service warns that base security can cancel it on short notice.",
+  "texto_voz": "The tour runs on Mondays, Wednesdays and Fridays, in the afternoon, and the Park Service warns that base security can cancel it on short notice.",
+  "ideia": false,
+  "inicio_est": 736.79,
+  "dur_est": 8.93
+ },
+ {
+  "id": "B15e",
+  "texto": "Even the anniversary ceremony at the Utah, on December 6th this year, is open to the public, as long as you have military base access to Ford Island. The same goes for the ceremony the next afternoon at the Oklahoma memorial, which honors 429 of her crew. Open to the public. Inside the gate.",
+  "texto_voz": "Even the anniversary ceremony at the Utah, on December 6th this year, is open to the public, as long as you have military base access to Ford Island. The same goes for the ceremony the next afternoon at the Oklahoma memorial, which honors 429 of her crew. Open to the public. Inside the gate.",
+  "ideia": false,
+  "inicio_est": 745.71,
+  "dur_est": 19.29
+ },
+ {
+  "id": "B16a",
+  "texto": "December 7th, 2026, is the eighty-fifth anniversary. And this year, the ceremonies reach behind the gate in a new way. For decades, eighty-six unidentified sailors from the USS Arizona have rested in graves marked \"unknown\" at the national cemetery in Honolulu.",
+  "texto_voz": "December 7th, 2026, is the eighty-fifth anniversary. And this year, the ceremonies reach behind the gate in a new way. For decades, eighty-six unidentified sailors from the USS Arizona have rested in graves marked \"unknown\" at the national cemetery in Honolulu.",
+  "ideia": true,
+  "inicio_est": 765.0,
+  "dur_est": 14.64
+ },
+ {
+  "id": "B16b",
+  "texto": "Now the Defense POW/MIA Accounting Agency has begun bringing them back for identification. It waited until DNA reference samples had come in from enough of the families, sixty percent, before it would start.",
+  "texto_voz": "Now the Defense POW/MIA Accounting Agency has begun bringing them back for identification. It waited until DNA reference samples had come in from enough of the families, sixty percent, before it would start.",
+  "ideia": false,
+  "inicio_est": 779.64,
+  "dur_est": 11.79
+ },
+ {
+  "id": "B16c",
+  "texto": "The first eight caskets were moved this month, earlier than planned, because of heavy rain and aging steel caskets. They went to the agency's laboratory, which sits on Joint Base Pearl Harbor-Hickam.",
+  "texto_voz": "The first eight caskets were moved this month, earlier than planned, because of heavy rain and aging steel caskets. They went to the agency's laboratory, which sits on Joint Base Pearl Harbor-Hickam.",
+  "ideia": false,
+  "inicio_est": 791.43,
+  "dur_est": 11.43
+ },
+ {
+  "id": "B16d",
+  "texto": "On the anniversary, more than seven hundred family members are expected at a ceremony on the base, at Kilo Pier. So even the work of giving those men back their names is happening on the side of the fence most people never cross.",
+  "texto_voz": "On the anniversary, more than seven hundred family members are expected at a ceremony on the base, at Kilo Pier. So even the work of giving those men back their names is happening on the side of the fence most people never cross.",
+  "ideia": false,
+  "inicio_est": 802.86,
+  "dur_est": 15.36
+ },
+ {
+  "id": "B17a",
+  "texto": "Every year, around one and a half million people visit the Pearl Harbor National Memorial. They watch the film. They take the boat. They look down at the oil still rising from the Arizona.",
+  "texto_voz": "Every year, around one and a half million people visit the Pearl Harbor National Memorial. They watch the film. They take the boat. They look down at the oil still rising from the Arizona.",
+  "ideia": true,
+  "inicio_est": 818.21,
+  "dur_est": 12.14
+ },
+ {
+  "id": "B17b",
+  "texto": "It's a powerful visit, and it's real. But it's built on a small piece of the battlefield, carved out of a working base. Ford Island tells that story from above. Here it is four weeks before the attack, with the battleships moored along its edge.",
+  "texto_voz": "It's a powerful visit, and it's real. But it's built on a small piece of the battlefield, carved out of a working base. Ford Island tells that story from above. Here it is four weeks before the attack, with the battleships moored along its edge.",
+  "ideia": false,
+  "inicio_est": 830.36,
+  "dur_est": 16.07
+ },
+ {
+  "id": "B17c",
+  "texto": "And here it is now, still an airfield shape in the middle of the harbor, still behind a gate. About two miles away, the Big Barracks still stands, with its walls the way the morning left them. Here it is in 1941, burning.",
+  "texto_voz": "And here it is now, still an airfield shape in the middle of the harbor, still behind a gate. About two miles away, the Big Barracks still stands, with its walls the way the morning left them. Here it is in 1941, burning.",
+  "ideia": false,
+  "inicio_est": 846.43,
+  "dur_est": 15.36
+ },
+ {
+  "id": "B17d",
+  "texto": "And here it is today, with the same lines on the same walls. The fire is gone. The roof is new. The people inside plan for a war nobody wants.",
+  "texto_voz": "And here it is today, with the same lines on the same walls. The fire is gone. The roof is new. The people inside plan for a war nobody wants.",
+  "ideia": false,
+  "inicio_est": 861.79,
+  "dur_est": 10.71
+ },
+ {
+  "id": "B17e",
+  "texto": "And the marks are still in the concrete, because somebody decided they should be.",
+  "texto_voz": "And the marks are still in the concrete, because somebody decided they should be.",
+  "ideia": false,
+  "inicio_est": 872.5,
+  "dur_est": 5.0
+ },
+ {
+  "id": "B18a",
+  "texto": "So why are there still bullet holes at Pearl Harbor? Because the Air Force keeps them on purpose, as a reminder never to be caught unprepared. Because federal law protects the buildings they're in, so they can't be smoothed away.",
+  "texto_voz": "So why are there still bullet holes at Pearl Harbor? Because the Air Force keeps them on purpose, as a reminder never to be caught unprepared. Because federal law protects the buildings they're in, so they can't be smoothed away.",
+  "ideia": true,
+  "inicio_est": 877.5,
+  "dur_est": 14.29
+ },
+ {
+  "id": "B18b",
+  "texto": "And because the wall belongs to a headquarters on an active base, which is why almost nobody gets to stand in front of it. Now look at the wall one more time. Count the marks.",
+  "texto_voz": "And because the wall belongs to a headquarters on an active base, which is why almost nobody gets to stand in front of it. Now look at the wall one more time. Count the marks.",
+  "ideia": false,
+  "inicio_est": 891.79,
+  "dur_est": 12.5
+ },
+ {
+  "id": "B18c",
+  "texto": "Every one of them is a few seconds of a single morning, kept for eighty-five years by the people who could have erased it. Here's my question for you.",
+  "texto_voz": "Every one of them is a few seconds of a single morning, kept for eighty-five years by the people who could have erased it. Here's my question for you.",
+  "ideia": false,
+  "inicio_est": 904.29,
+  "dur_est": 10.36
+ },
+ {
+  "id": "B18d",
+  "texto": "Should places like this stay closed and working, or should the public be able to walk up and touch that wall? Tell me in the comments. This is Clearance Required. We go where the record goes. If you want the next one, subscribe.",
+  "texto_voz": "Should places like this stay closed and working, or should the public be able to walk up and touch that wall? Tell me in the comments. This is Clearance Required. We go where the record goes. If you want the next one, subscribe.",
+  "ideia": false,
+  "inicio_est": 914.64,
+  "dur_est": 15.36
+ }
+]

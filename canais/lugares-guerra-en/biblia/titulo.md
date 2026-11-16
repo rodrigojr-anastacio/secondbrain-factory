@@ -33,3 +33,10 @@ Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/emba
 - **Colisão de fórmula com clones no mesmo tema** (gap 2): "Why Can't You Visit X?" para um lugar que já tem esse título com milhões disputa a mesma busca; medir antes de fechar.
 - **Medianas reais e ≥ 2 referências acima da mediana** do canal delas, mesmo idioma; a mediana de olho errou na r1 da reembalagem.
 - **O objeto concreto no título** (gap 4: 10 dos 12 maiores do grupo têm um objeto) combina com a regra "still" desta bíblia.
+
+## Lições do crivo do 004 Pearl Harbor (15/11/2026, 3 rodadas; `videos/004-pearl-harbor/embalagem/crivo-r1..r3.md`) — Hipótese até ter CTR
+- **"Why Can't You Visit X?" cai quando a resposta é adivinhável** ("é base militar"): reprovado 2× (r1 "Most of Pearl Harbor", r2 "Pearl Harbor's Scarred Barracks"). Só usar o molde A quando o "porquê" não é óbvio (Iwo Jima: tratado/terreno sagrado), ou quando o lugar é o objeto buscado.
+- **Padrão D adaptado passou:** "The <objeto concreto> Tourists Aren't Allowed to See" — o "not allowed" literal (é público em foto, proibido em pessoa) evita vender segredo de fonte pública; refs CWFP Lincoln 1,18 mi (94×) e History X "…They Weren't Supposed to Find" 423 mil.
+- **"Still Full of …" é evitável:** o WTS testou "Why Is Laos Still Full of American Bombs?" (1,7 mil, 0,04× da mediana, 01/11/2026).
+- **O canal-modelo ocupa padrões por tema:** o WTS publicou "What's Still at the Bottom of Pearl Harbor?" em 14/11/2026 → o padrão B ficou fora em Pearl Harbor. Medir os uploads do WTS (playlistItems) antes de fechar o título.
+- **Thumb:** "NEVER FIXED" repetiu a ideia de "still" do T1 (reprovado); "ON PURPOSE" acrescenta um fato novo e passou. Furos pequenos acesos em ciano não leem a 320×180: crateras grandes, ciano só como brilho.

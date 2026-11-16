@@ -1,4 +1,4 @@
-# FATOS-pesquisa: Pearl Harbor, Ford Island e Hickam, a parte atrás do portão (lugares-guerra-en/004, youtube.videos id 42)
+# FATOS: Why Are There Still Bullet Holes at Pearl Harbor? (lugares-guerra-en/004, youtube.videos id 42)
 
 Pesquisa de 15/11/2026, só web pública, custo zero. Status: **[CONFIRMADO]** (fonte oficial/primária, trecho literal copiado da página lida), **[SECUNDÁRIA]** (fonte séria não oficial), **[CONFLITO]** (fontes divergem; as duas mostradas), **[NÃO ACHADO]**.
 Notas de acesso: `15wing.af.mil` não resolve mais (DNS); a página foi lida no Wayback Machine. `af.mil/pacaf.af.mil/cnrh.cnic.navy.mil` dão 403 direto, lidos via `web.archive.org/web/<ano>/…`. `history.navy.mil` deu erro de certificado no WebFetch e foi lido por curl. O formulário NHL do NPGallery é PDF escaneado com camada de OCR: o texto foi extraído da camada de OCR (erros de OCR possíveis, ex. "MakaL"); "pág. do PDF" = ordem das páginas do arquivo de 8 páginas.
@@ -203,3 +203,19 @@ Trechos marcados "(via WebFetch)" foram devolvidos pelo resumidor do WebFetch en
 8. **A regra do portão**: Navy exige patrocinador, REAL ID e DBIDS (prédio 3455, Nimitz Gate); para o Utah, "Active-Duty Military ID" ou Bus Tour só seg/qua/sex 15:15–16:45, reserva no Recreation.gov (CNIC-VCC, NPS-FIBT).
 9. **85º aniversário**: cerimônia do Utah 6/12 às 16h30 é "open to the public", mas "must have military base access to Ford Island"; cerimônia do Arizona em Kilo Pier 7/12 com os primeiros 8 desconhecidos exumados em 2/11 (86 no total), sem mostrar restos (SA-85, NWW2M, Stripes).
 10. **Hangar 79**: janelas com furos de 1941 mantidas pela Marinha "to remind sailors that they were working in a combat zone", e o fogo amigo da noite de 7/12 como camada honesta (PHAM-79).
+
+---
+
+## Fatos acrescentados na redação do roteiro (15/11/2026, Opus)
+| Fato | Status | Fonte e trecho / nota |
+|---|---|---|
+| F81 Distância Visitor Center → QG da PACAF "about two miles" | [I] | Linha reta entre coordenadas aproximadas (Visitor Center 21.3676 N, 157.9393 W; Hale Makai ~21.339 N, 157.946 W) ≈ 3,3 km ≈ 2,0 mi. **Etapa 2: conferir a coordenada do Hale Makai no mapa antes do build** (se der > 2,5 mi, trocar por "a few miles" no SCRIPT e no Mapa2D). |
+| F82 PACAF = comando do poder aéreo americano no Pacífico; área de responsabilidade "half the planet" | [CONFIRMADO, aproximado] | PACAF fact sheet (pacaf.af.mil/Info/Fact-Sheets): AOR "52 percent of the Earth's surface", 38 nações, 16 fusos. O roteiro diz "across half the planet". |
+| F83 Utah = antigo navio-alvo/treinamento; dois torpedos; virou; nunca reerguido (salvamento tentado e abandonado em 1944) | [SECUNDÁRIA] + NPS-UTAH | Archaeology Magazine (jan/fev 2017, "The Battleships"); NPS-UTAH "never salvaged". Roteiro usa "never raised" (verdade nas duas versões). |
+| F84 Óleo ainda sobe do Arizona | [SECUNDÁRIA] | Civil Beat (fev/2020), Maritime Executive (estudo 2025): vazamento lento contínuo. Fato notório; dito só como o que o visitante vê. |
+| F85 "Some are small chips. Some are craters as wide as a hand." | [I] visual | Foto oficial `midia/hoje_hickam_qg_marcas_tiro.jpg` (marcas pequenas e crateras grandes na moldura art déco). "Bullet and shrapnel" porque o DVIDS-WAB fala de "pockmark caused by bomb shrapnel" e o NHL de "spatter holes … where bullets hit". |
+| F86 DPAA esperou 60% de amostras de DNA de familiares | [CONFIRMADO] | Release DPAA republicado no DVIDS 563394 (texto em `midia/doc_dpaa_arizona_unknowns_texto.png`, recomposição): "the 60% threshold of DNA Family Reference Samples has been met for the USS Arizona (BB-39) Unknown Identification Project". |
+| F87 "Swanson voltou ao mesmo quarto, hoje da segurança da base" | [CONFIRMADO] | PACAF-SW (F78): "security forces Airmen who currently work in the same room where he slept". |
+| F88 Citação de Higa (protegido por lei; "birthmark") | [CONFIRMADO, atribuir a Jessie Higa] | DVIDS news 238931 (USAF, 13/04/2017), recomposição em `midia/doc_dvids_pacaf_marcas_protegidas_lei.png`. Na tela: Cartela QUOTED, nunca como scan. |
+
+**Regra de tela das citações sem scan:** AF-FS ("carefully preserved…"), NHL pág. 2 "Here, one captures…" (fora do recorte do scan), Higa, Swanson, PatWing Two ("NO DRILL"), P.L. 116-9 §2206, DPAA e "authorized sponsors only" (CNIC) vão em **Cartela com Selo QUOTED**. Os 4 DocGrifo usam só scans/capturas reais: despacho NARA 596244, NHL capa e pág. 2, FAQ do NPS.

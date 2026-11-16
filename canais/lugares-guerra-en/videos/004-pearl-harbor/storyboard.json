@@ -1,0 +1,5021 @@
+{
+ "stats": {
+  "planos": 190,
+  "duracao_s": 930.0,
+  "duracao": "15:30",
+  "planos_por_min": 12.3,
+  "real_pct": 85.2,
+  "reuso_pct": 51.1,
+  "componentes": {
+   "KenBurns": 106,
+   "Filme": 12,
+   "Número": 12,
+   "Mapa2D": 3,
+   "Dupla": 28,
+   "Cartela": 9,
+   "DocGrifo": 14,
+   "EntaoAgora": 5,
+   "Card": 1
+  },
+  "docs_distintos": 4,
+  "docs_grifados": 4,
+  "citacoes_literais": 5,
+  "numeros": 36,
+  "mapas_distintos": 3,
+  "entao_agora": 5,
+  "imagens_ia": 0,
+  "palavras": 2604,
+  "blocos_audio": 71
+ },
+ "pontos": {
+  "VISITOR CENTER": [
+   202.0607,
+   21.3676
+  ],
+  "USS ARIZONA MEMORIAL": [
+   202.05,
+   21.3649
+  ],
+  "FORD ISLAND": [
+   202.039,
+   21.364
+  ],
+  "USS UTAH MEMORIAL": [
+   202.038,
+   21.3685
+  ],
+  "PACAF HQ (HALE MAKAI)": [
+   202.0539,
+   21.3389
+  ],
+  "HICKAM FIELD": [
+   202.06,
+   21.33
+  ],
+  "PEARL HARBOR": [
+   202.02,
+   21.37
+  ],
+  "HONOLULU": [
+   202.142,
+   21.307
+  ],
+  "WHEELER": [
+   201.962,
+   21.481
+  ],
+  "BELLOWS": [
+   202.288,
+   21.366
+  ],
+  "KAHUKU": [
+   202.03,
+   21.69
+  ],
+  "HALEIWA": [
+   201.89,
+   21.585
+  ],
+  "KILO PIER": [
+   202.043,
+   21.355
+  ]
+ },
+ "planos": [
+  {
+   "id": "P001",
+   "bloco": "B01a",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "zoom-in",
+   "inicio": 0.0,
+   "dur": 1.43,
+   "frase": "Look at this wall.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Look at this wall."
+  },
+  {
+   "id": "P002",
+   "bloco": "B01a",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "detalhe:0.87,0.22",
+   "inicio": 1.43,
+   "dur": 1.07,
+   "frase": "Count the marks.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.87,
+    0.22,
+    1.35
+   ],
+   "para": [
+    0.87,
+    0.22,
+    1.55
+   ],
+   "em": "Count the marks."
+  },
+  {
+   "id": "P003",
+   "bloco": "B01a",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "detalhe:0.6,0.6",
+   "inicio": 2.5,
+   "dur": 4.29,
+   "frase": "Some are small chips. Some are craters as wide as a hand.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.6,
+    0.6,
+    1.35
+   ],
+   "para": [
+    0.6,
+    0.6,
+    1.55
+   ],
+   "em": "Some are small chips."
+  },
+  {
+   "id": "P004",
+   "bloco": "B01b",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_replica_marca_tiro_b.jpg",
+   "enq": "zoom-in",
+   "inicio": 6.79,
+   "dur": 1.79,
+   "frase": "They're bullet and shrapnel strikes,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "They're bullet and shrapnel strikes,"
+  },
+  {
+   "id": "P005",
+   "bloco": "B01b",
+   "tipo": "Filme",
+   "arq": "filme_ataque_fumaca_pearl_harbor_nara76168.mp4",
+   "enq": "0.5-6.5",
+   "inicio": 8.57,
+   "dur": 3.21,
+   "frase": "and they come from one morning: December 7th, 1941.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · PEARL HARBOR",
+    "",
+    "U.S. Navy (Naval Photographic Center), National Archives, NAID 76168"
+   ],
+   "num": [
+    "DEC 7, 1941",
+    "PEARL HARBOR"
+   ],
+   "em": "and they come from one morning:"
+  },
+  {
+   "id": "P006",
+   "bloco": "B01b",
+   "tipo": "Filme",
+   "arq": "filme_ataque_aviao_sobre_navio_nara76168.mp4",
+   "enq": "24.0-31.0",
+   "inicio": 11.79,
+   "dur": 3.93,
+   "frase": "This is Pearl Harbor, the place everyone thinks they've already seen.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · PEARL HARBOR",
+    "",
+    "U.S. Navy (Naval Photographic Center), National Archives, NAID 76168"
+   ],
+   "em": "This is Pearl Harbor,"
+  },
+  {
+   "id": "P007",
+   "bloco": "B01b",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_predio_marcas_tiro_134arw.jpg",
+   "enq": "pan-esq",
+   "inicio": 15.71,
+   "dur": 2.14,
+   "frase": "And these marks were never patched.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · HICKAM, 'BUILDINGS WITH BULLET HOLES'",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "And these marks were never patched."
+  },
+  {
+   "id": "P008",
+   "bloco": "B01b",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "detalhe:0.78,0.47",
+   "inicio": 17.86,
+   "dur": 2.14,
+   "frase": "They were left there on purpose.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.78,
+    0.47,
+    1.35
+   ],
+   "para": [
+    0.78,
+    0.47,
+    1.55
+   ],
+   "em": "They were left there on purpose."
+  },
+  {
+   "id": "P009",
+   "bloco": "B01c",
+   "tipo": "KenBurns",
+   "arq": "hoje_jbphh_portao_omalley_a.jpg",
+   "enq": "zoom-in",
+   "inicio": 20.0,
+   "dur": 5.0,
+   "frase": "And unless you carry a military ID, or someone who does signs you in,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · JBPHH, O'MALLEY GATE",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "And unless you carry a military ID,"
+  },
+  {
+   "id": "P010",
+   "bloco": "B01c",
+   "tipo": "KenBurns",
+   "arq": "hoje_jbphh_portao_omalley_b.jpg",
+   "enq": "pan-dir",
+   "inicio": 25.0,
+   "dur": 2.5,
+   "frase": "you can't get anywhere near this wall.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · JBPHH, ENTRY CONTROL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "you can't get anywhere near this wall."
+  },
+  {
+   "id": "P011",
+   "bloco": "B01c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:?",
+   "inicio": 27.5,
+   "dur": 3.57,
+   "frase": "So why are there still bullet holes at Pearl Harbor?",
+   "real": false,
+   "reuso": false,
+   "valor": "?",
+   "rotulo": "WHY ARE THERE STILL BULLET HOLES AT PEARL HARBOR?",
+   "em": "So why are there still bullet holes"
+  },
+  {
+   "id": "P012",
+   "bloco": "B02a",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "pan-dir",
+   "inicio": 31.07,
+   "dur": 2.14,
+   "frase": "It isn't neglect. It isn't secret.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "It isn't neglect."
+  },
+  {
+   "id": "P013",
+   "bloco": "B02a",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_courtyard_heroes.jpg",
+   "enq": "zoom-in",
+   "inicio": 33.21,
+   "dur": 1.79,
+   "frase": "And it isn't a museum.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · HICKAM, COURTYARD OF HEROES",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "And it isn't a museum."
+  },
+  {
+   "id": "P014",
+   "bloco": "B02a",
+   "tipo": "KenBurns",
+   "arq": "hoje_pacaf_qg_staff_ride.jpg",
+   "enq": "zoom-out",
+   "inicio": 35.0,
+   "dur": 7.14,
+   "frase": "This wall belongs to a working headquarters: Pacific Air Forces, the command for American air power across the entire Pacific.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "num": [
+    "PACAF",
+    "PACIFIC AIR FORCES HEADQUARTERS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "This wall belongs to a working headquarters:"
+  },
+  {
+   "id": "P015",
+   "bloco": "B02b",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:porto",
+   "inicio": 42.14,
+   "dur": 8.57,
+   "frase": "It sits on what was once Hickam Field, about two miles from the dock where tourists board the boat to the USS Arizona Memorial.",
+   "real": false,
+   "reuso": false,
+   "nome": "porto",
+   "pontos": [
+    "VISITOR CENTER",
+    "USS ARIZONA MEMORIAL",
+    "FORD ISLAND",
+    "PACAF HQ (HALE MAKAI)"
+   ],
+   "linhas": [
+    [
+     "VISITOR CENTER",
+     "PACAF HQ (HALE MAKAI)",
+     "~2 MILES"
+    ]
+   ],
+   "nota": "linha reta Visitor Center → QG; conferir distância",
+   "em": "It sits on what was once Hickam Field,"
+  },
+  {
+   "id": "P016",
+   "bloco": "B02b",
+   "tipo": "KenBurns",
+   "arq": "hoje_jbphh_portao_omalley_b.jpg",
+   "enq": "zoom-in",
+   "inicio": 50.71,
+   "dur": 2.5,
+   "frase": "On the other side of a gate.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · JBPHH, ENTRY CONTROL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "On the other side of a gate."
+  },
+  {
+   "id": "P017",
+   "bloco": "B02b",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_quartel_hangar_ave_1941.jpg",
+   "enq": "zoom-in",
+   "inicio": 53.21,
+   "dur": 5.36,
+   "frase": "In 1941, this was a barracks. A young military policeman named Durward Swanson slept here.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "num": [
+    "DURWARD SWANSON",
+    "MILITARY POLICE · HICKAM FIELD, 1941"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "In 1941, this was a barracks."
+  },
+  {
+   "id": "P018",
+   "bloco": "B02c",
+   "tipo": "Dupla",
+   "arq": "hoje_cerimonia_7dez_2013_hickam.jpg",
+   "arq2": "foto_hickam_quartel_hangar_ave_1941.jpg",
+   "enq": "dupla",
+   "inicio": 58.57,
+   "dur": 8.21,
+   "frase": "Decades later, he came back and stood in the same room, which by then belonged to base security. He remembered that morning simply.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 2013 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "num": [
+    "2011",
+    "BACK IN HIS OLD ROOM"
+   ],
+   "rot1": "HICKAM SURVIVORS, 2013",
+   "rot2": "HIS BARRACKS, 1941",
+   "em": "Decades later, he came back"
+  },
+  {
+   "id": "P019",
+   "bloco": "B02c",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"I SAW A PLANE BANKING AND THE RISING SUN ON THE WING…",
+   "inicio": 66.79,
+   "dur": 7.86,
+   "frase": "\"I saw a plane banking and the rising sun on the wing, and at that moment knew immediately, we were at war.\"",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"I SAW A PLANE BANKING AND THE RISING SUN ON THE WING…",
+    "WE WERE AT WAR.\"",
+    "— DURWARD SWANSON (PACAF, 2011)"
+   ],
+   "selo": "QUOTED",
+   "em": "\"I saw a plane banking"
+  },
+  {
+   "id": "P020",
+   "bloco": "B02d",
+   "tipo": "Dupla",
+   "arq": "foto_hickam_quartel_hangar_ave_1941.jpg",
+   "arq2": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "dupla",
+   "inicio": 74.64,
+   "dur": 3.57,
+   "frase": "Along the way, you'll see what happened to this building,",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "rot1": "1941",
+   "rot2": "TODAY",
+   "em": "Along the way, you'll see"
+  },
+  {
+   "id": "P021",
+   "bloco": "B02d",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhl_hickam_capa.png",
+   "enq": "pagina",
+   "inicio": 78.21,
+   "dur": 2.86,
+   "frase": "the paper that explains why nobody fixed it,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1985 · HICKAM FIELD, NATIONAL HISTORIC LANDMARK",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "the paper that explains"
+  },
+  {
+   "id": "P022",
+   "bloco": "B02d",
+   "tipo": "KenBurns",
+   "arq": "hoje_utah_memorial_aerea_2016.jpg",
+   "enq": "zoom-in",
+   "inicio": 81.07,
+   "dur": 3.21,
+   "frase": "and everything else that still sits behind that gate.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · USS UTAH MEMORIAL",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "and everything else that still sits"
+  },
+  {
+   "id": "P023",
+   "bloco": "B03a",
+   "tipo": "KenBurns",
+   "arq": "hoje_arizona_barco_visitantes_fuqua.jpg",
+   "enq": "pan-dir",
+   "inicio": 84.29,
+   "dur": 6.79,
+   "frase": "Most visitors never think about the gate, because the part of Pearl Harbor they visit is built for them.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by PO3 Robert Stirrup, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Most visitors never think about the gate,"
+  },
+  {
+   "id": "P024",
+   "bloco": "B03a",
+   "tipo": "Dupla",
+   "arq": "hoje_arizona_barco_finn.jpg",
+   "arq2": "hoje_arizona_memorial_visita_2012.jpg",
+   "enq": "dupla",
+   "inicio": 91.07,
+   "dur": 4.29,
+   "frase": "A visitor center. A boat. A white memorial over a sunken battleship.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by DVIDS, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "rot1": "THE BOAT",
+   "rot2": "THE MEMORIAL",
+   "em": "A visitor center. A boat."
+  },
+  {
+   "id": "P025",
+   "bloco": "B03b",
+   "tipo": "KenBurns",
+   "arq": "hoje_ford_island_aerea_2023.jpg",
+   "enq": "pan-esq",
+   "inicio": 95.36,
+   "dur": 5.0,
+   "frase": "But almost everything around it is Joint Base Pearl Harbor-Hickam, an active military installation.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · FORD ISLAND",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Sgt Gabrielle Zagorski, via DVIDS"
+   ],
+   "num": [
+    "JBPHH",
+    "ACTIVE MILITARY BASE"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "But almost everything around it"
+  },
+  {
+   "id": "P026",
+   "bloco": "B03b",
+   "tipo": "Dupla",
+   "arq": "hoje_hickam_predio_marcas_tiro_134arw.jpg",
+   "arq2": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "dupla",
+   "inicio": 100.36,
+   "dur": 4.29,
+   "frase": "And the building with the scarred walls is two things at once.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, 'BUILDINGS WITH BULLET HOLES'",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "rot1": "HICKAM",
+   "rot2": "THE OLD BARRACKS",
+   "em": "And the building with the scarred walls"
+  },
+  {
+   "id": "P027",
+   "bloco": "B03b",
+   "tipo": "KenBurns",
+   "arq": "hoje_pacaf_qg_staff_ride.jpg",
+   "enq": "pan-dir",
+   "inicio": 104.64,
+   "dur": 5.0,
+   "frase": "It's a headquarters, full of people who plan air operations across half the planet.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "It's a headquarters,"
+  },
+  {
+   "id": "P028",
+   "bloco": "B03b",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhl_hickam_capa.png",
+   "enq": "nome",
+   "inicio": 109.64,
+   "dur": 2.86,
+   "frase": "And it's part of a National Historic Landmark.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1985 · HICKAM FIELD, NATIONAL HISTORIC LANDMARK",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "grifo": [
+    [
+     0.1592,
+     0.4854,
+     0.1202,
+     0.0406
+    ]
+   ],
+   "literal": false,
+   "em": "And it's part of a National Historic Landmark."
+  },
+  {
+   "id": "P029",
+   "bloco": "B03c",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"SINCE THE BUILDINGS ARE PROTECTED BY LAW, THE MILITARY CAN'T CHANGE THE APPEARANCE.\"",
+   "inicio": 112.5,
+   "dur": 7.5,
+   "frase": "As one historian of Hickam Field put it, \"Since the buildings are protected by law, the military can't change the appearance.\"",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"SINCE THE BUILDINGS ARE PROTECTED BY LAW, THE MILITARY CAN'T CHANGE THE APPEARANCE.\"",
+    "— JESSIE HIGA, HICKAM HISTORIAN (DVIDS, 2017)"
+   ],
+   "selo": "QUOTED",
+   "em": "As one historian of Hickam Field put it,"
+  },
+  {
+   "id": "P030",
+   "bloco": "B03c",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "zoom-out",
+   "inicio": 120.0,
+   "dur": 5.36,
+   "frase": "So the most guarded building on the base is also one of the best preserved.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "So the most guarded building"
+  },
+  {
+   "id": "P031",
+   "bloco": "B03c",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_base_ops_historiadora.jpg",
+   "enq": "zoom-in",
+   "inicio": 125.36,
+   "dur": 1.43,
+   "frase": "And it's not alone.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · HICKAM, BASE OPERATIONS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "And it's not alone."
+  },
+  {
+   "id": "P032",
+   "bloco": "B03d",
+   "tipo": "KenBurns",
+   "arq": "hoje_hangar6_habs_frente.jpg",
+   "enq": "pan-dir",
+   "inicio": 126.79,
+   "dur": 4.29,
+   "frase": "Behind the same gate there are hangars from 1941, still in use.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1990s · FORD ISLAND, HANGAR 6",
+    "",
+    "Library of Congress, HABS/HAER (via Wikimedia Commons)"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Behind the same gate there are hangars"
+  },
+  {
+   "id": "P033",
+   "bloco": "B03d",
+   "tipo": "Dupla",
+   "arq": "hoje_utah_memorial_1988.jpg",
+   "arq2": "hoje_utah_memorial_aerea_2016.jpg",
+   "enq": "dupla",
+   "inicio": 131.07,
+   "dur": 5.71,
+   "frase": "There's a memorial to a battleship that most visitors can only reach on a guided bus.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1988 · USS UTAH MEMORIAL",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "TODAY · USS UTAH MEMORIAL",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "rot1": "USS UTAH MEMORIAL",
+   "rot2": "FORD ISLAND",
+   "em": "There's a memorial to a battleship"
+  },
+  {
+   "id": "P034",
+   "bloco": "B03d",
+   "tipo": "KenBurns",
+   "arq": "hoje_pacaf_qg_staff_ride.jpg",
+   "enq": "detalhe:0.75,0.4",
+   "inicio": 136.79,
+   "dur": 5.36,
+   "frase": "And in the lobby of this building, behind glass, there's something else from that morning.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "de": [
+    0.75,
+    0.4,
+    1.35
+   ],
+   "para": [
+    0.75,
+    0.4,
+    1.55
+   ],
+   "em": "And in the lobby of this building,"
+  },
+  {
+   "id": "P035",
+   "bloco": "B03d",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:?",
+   "inicio": 142.14,
+   "dur": 1.79,
+   "frase": "We'll come back to it.",
+   "real": false,
+   "reuso": false,
+   "valor": "?",
+   "rotulo": "BEHIND THE GLASS",
+   "em": "We'll come back to it."
+  },
+  {
+   "id": "P036",
+   "bloco": "B04a",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_campo_antes.jpg",
+   "enq": "pan-dir",
+   "inicio": 143.93,
+   "dur": 4.29,
+   "frase": "To understand the marks, you have to see this place before them.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "BEFORE DEC 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "To understand the marks,"
+  },
+  {
+   "id": "P037",
+   "bloco": "B04a",
+   "tipo": "Dupla",
+   "arq": "foto_ford_aerea_1940-05-03.jpg",
+   "arq2": "foto_hickam_entrada_1937.jpg",
+   "enq": "dupla",
+   "inicio": 148.21,
+   "dur": 7.5,
+   "frase": "In the 1930s, the Army Air Corps built a new air base right next to the Navy's anchorage at Pearl Harbor.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "MAY 3, 1940 · PEARL HARBOR",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "1937 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "rot1": "PEARL HARBOR, 1940",
+   "rot2": "HICKAM FIELD, 1937",
+   "em": "In the 1930s, the Army Air Corps"
+  },
+  {
+   "id": "P038",
+   "bloco": "B04a",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_entrada_1937.jpg",
+   "enq": "zoom-in",
+   "inicio": 155.71,
+   "dur": 1.79,
+   "frase": "They named it Hickam Field.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1937 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "They named it Hickam Field."
+  },
+  {
+   "id": "P039",
+   "bloco": "B04a",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_quartel_hangar_ave_1941.jpg",
+   "enq": "pan-esq",
+   "inicio": 157.5,
+   "dur": 3.57,
+   "frase": "At its heart was one enormous building, finished in 1940.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "At its heart was one enormous building,"
+  },
+  {
+   "id": "P040",
+   "bloco": "B04b",
+   "tipo": "EntaoAgora",
+   "arq": "foto_hickam_quartel_hangar_ave_1941.jpg",
+   "arq2": "hoje_hickam_courtyard_heroes.jpg",
+   "enq": "ea",
+   "inicio": 161.07,
+   "dur": 8.93,
+   "frase": "The Air Force calls it a 3,200-man barracks, the largest in the Army Air Forces at the time. The men called it the Big Barracks.",
+   "real": true,
+   "reuso": true,
+   "num": [
+    "3,200",
+    "MEN · BIGGEST BARRACKS IN THE ARMY AIR FORCES"
+   ],
+   "rot1": "1941",
+   "rot2": "TODAY",
+   "em": "The Air Force calls it"
+  },
+  {
+   "id": "P041",
+   "bloco": "B04b",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_courtyard_heroes.jpg",
+   "enq": "detalhe:0.5,0.35",
+   "inicio": 170.0,
+   "dur": 3.93,
+   "frase": "In Hawaiian, it was Hale Makai, the House by the Sea.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · HICKAM, COURTYARD OF HEROES",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "num": [
+    "HALE MAKAI",
+    "\"HOUSE BY THE SEA\""
+   ],
+   "de": [
+    0.5,
+    0.35,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.35,
+    1.55
+   ],
+   "em": "In Hawaiian, it was Hale Makai,"
+  },
+  {
+   "id": "P042",
+   "bloco": "B04c",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhl_hickam_marcas.png",
+   "enq": "pagina",
+   "inicio": 173.93,
+   "dur": 5.71,
+   "frase": "On the morning of December 7th, 1941, fifty-one airplanes were parked on the ground at Hickam.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NHL FORM · HICKAM FIELD",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "num": [
+    "51",
+    "AIRPLANES ON THE GROUND AT HICKAM"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "On the morning of December 7th, 1941,"
+  },
+  {
+   "id": "P043",
+   "bloco": "B04c",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_b17s_1941.jpg",
+   "enq": "zoom-in",
+   "inicio": 179.64,
+   "dur": 3.21,
+   "frase": "Big B-17 bombers stood out on the flight line.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Big B-17 bombers stood out"
+  },
+  {
+   "id": "P044",
+   "bloco": "B04c",
+   "tipo": "Filme",
+   "arq": "filme_pearl_navy_yard_antes_nara77339.mp4",
+   "enq": "4.0-12.0",
+   "inicio": 182.86,
+   "dur": 6.43,
+   "frase": "And a flight of twelve more B-17s was on its way from California. They were expected that morning.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "BEFORE DEC 1941 · PEARL HARBOR",
+    "",
+    "U.S. Navy (Naval Photographic Center), National Archives, NAID 77339"
+   ],
+   "em": "And a flight of twelve more B-17s"
+  },
+  {
+   "id": "P045",
+   "bloco": "B05a",
+   "tipo": "KenBurns",
+   "arq": "foto_ford_japonesa_80g30550.jpg",
+   "enq": "zoom-in",
+   "inicio": 189.29,
+   "dur": 3.57,
+   "frase": "At 7:55 a.m., the first wave arrived: 183 Japanese aircraft.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · PEARL HARBOR",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "num": [
+    "183",
+    "JAPANESE AIRCRAFT · FIRST WAVE"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "At 7:55 a.m.,"
+  },
+  {
+   "id": "P046",
+   "bloco": "B05a",
+   "tipo": "KenBurns",
+   "arq": "foto_ford_japonesa_80g30553_lado_norte.jpg",
+   "enq": "zoom-in",
+   "inicio": 192.86,
+   "dur": 7.14,
+   "frase": "One of the first bombs fell on the Navy's air station on Ford Island, in the middle of the harbor.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · FORD ISLAND",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "One of the first bombs fell"
+  },
+  {
+   "id": "P047",
+   "bloco": "B05a",
+   "tipo": "Filme",
+   "arq": "filme_ataque_aviao_sobre_navio_nara76168.mp4",
+   "enq": "2.0-8.0",
+   "inicio": 200.0,
+   "dur": 2.14,
+   "frase": "Minutes later, a message went out.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · PEARL HARBOR",
+    "",
+    "U.S. Navy (Naval Photographic Center), National Archives, NAID 76168"
+   ],
+   "em": "Minutes later, a message went out."
+  },
+  {
+   "id": "P048",
+   "bloco": "B05b",
+   "tipo": "DocGrifo",
+   "arq": "doc_despacho_not_drill_nara596244.png",
+   "enq": "pagina",
+   "inicio": 202.14,
+   "dur": 6.43,
+   "frase": "This is a copy of it, received thousands of miles away at a naval air station near Boston.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · RECEIVED DISPATCH",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "This is a copy of it,"
+  },
+  {
+   "id": "P049",
+   "bloco": "B05b",
+   "tipo": "DocGrifo",
+   "arq": "doc_despacho_not_drill_nara596244.png",
+   "enq": "drill",
+   "inicio": 208.57,
+   "dur": 3.21,
+   "frase": "\"Air raid on Pearl Harbor. This is not drill.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · RECEIVED DISPATCH",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "frase_doc": "this is not drill",
+   "grifo": [
+    [
+     0.1274,
+     0.6349,
+     0.6075,
+     0.0327
+    ]
+   ],
+   "literal": true,
+   "em": "\"Air raid on Pearl Harbor."
+  },
+  {
+   "id": "P050",
+   "bloco": "B05c",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"AIR RAID PEARL HARBOR X THIS IS NO DRILL\"",
+   "inicio": 211.79,
+   "dur": 8.21,
+   "frase": "The Navy's own report records the words slightly differently, \"this is no drill,\" and notes an identical message from the Pacific Fleet's commander.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"AIR RAID PEARL HARBOR X THIS IS NO DRILL\"",
+    "— PATROL WING TWO ACTION REPORT, 0758"
+   ],
+   "selo": "QUOTED",
+   "em": "The Navy's own report records"
+  },
+  {
+   "id": "P051",
+   "bloco": "B05c",
+   "tipo": "Filme",
+   "arq": "filme_ataque_fumaca_pearl_harbor_nara76168.mp4",
+   "enq": "9.0-16.0",
+   "inicio": 220.0,
+   "dur": 2.86,
+   "frase": "Either way, the warning came after the bombs.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · PEARL HARBOR",
+    "",
+    "U.S. Navy (Naval Photographic Center), National Archives, NAID 76168"
+   ],
+   "em": "Either way, the warning came after"
+  },
+  {
+   "id": "P052",
+   "bloco": "B05c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:UNPREPARED",
+   "inicio": 222.86,
+   "dur": 2.5,
+   "frase": "Remember one word: unprepared. It'll come back.",
+   "real": false,
+   "reuso": false,
+   "valor": "UNPREPARED",
+   "rotulo": "",
+   "em": "Remember one word:"
+  },
+  {
+   "id": "P053",
+   "bloco": "B05d",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_kate_sobrevoa_1941.jpg",
+   "enq": "pan-dir",
+   "inicio": 225.36,
+   "dur": 6.79,
+   "frase": "A few miles away, at Hickam, fighters and dive bombers went straight for the flight line and the hangars.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "A few miles away, at Hickam,"
+  },
+  {
+   "id": "P054",
+   "bloco": "B05d",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_b17_hangar5_1941.jpg",
+   "enq": "zoom-in",
+   "inicio": 232.14,
+   "dur": 2.14,
+   "frase": "They were concentrating on the B-17s.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "They were concentrating on the B-17s."
+  },
+  {
+   "id": "P055",
+   "bloco": "B06a",
+   "tipo": "Dupla",
+   "arq": "foto_hickam_b17s_1941.jpg",
+   "arq2": "foto_hickam_80g32899.jpg",
+   "enq": "dupla",
+   "inicio": 234.29,
+   "dur": 7.86,
+   "frase": "And in the middle of all this, the twelve bombers from California arrived. They had come all the way from the mainland.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "rot1": "12 B-17s FROM CALIFORNIA",
+   "rot2": "HICKAM, DEC 7",
+   "em": "And in the middle of all this,"
+  },
+  {
+   "id": "P056",
+   "bloco": "B06a",
+   "tipo": "Filme",
+   "arq": "filme_ataque_aviao_sobre_navio_nara76168.mp4",
+   "enq": "14.0-21.0",
+   "inicio": 242.14,
+   "dur": 3.21,
+   "frase": "They were unarmed, and they were low on fuel.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · PEARL HARBOR",
+    "",
+    "U.S. Navy (Naval Photographic Center), National Archives, NAID 76168"
+   ],
+   "em": "They were unarmed,"
+  },
+  {
+   "id": "P057",
+   "bloco": "B06a",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_80g32899.jpg",
+   "enq": "zoom-in",
+   "inicio": 245.36,
+   "dur": 3.21,
+   "frase": "Instead of a welcome, they found Hickam on fire.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Instead of a welcome,"
+  },
+  {
+   "id": "P058",
+   "bloco": "B06b",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_cratera_hangares_1941.jpg",
+   "enq": "zoom-in",
+   "inicio": 248.57,
+   "dur": 2.14,
+   "frase": "Their crews landed wherever they could.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Their crews landed wherever they could."
+  },
+  {
+   "id": "P059",
+   "bloco": "B06b",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:oahu",
+   "inicio": 250.71,
+   "dur": 10.0,
+   "frase": "The Air Force lists one at Bellows Field, one at Wheeler, one on a golf course at Kahuku, two on a tiny fighter strip on the North Shore,",
+   "real": false,
+   "reuso": false,
+   "nome": "oahu",
+   "pontos": [
+    "HICKAM FIELD",
+    "WHEELER",
+    "BELLOWS",
+    "KAHUKU",
+    "HALEIWA"
+   ],
+   "linhas": [
+    [
+     "HICKAM FIELD",
+     "BELLOWS",
+     ""
+    ],
+    [
+     "HICKAM FIELD",
+     "WHEELER",
+     ""
+    ],
+    [
+     "HICKAM FIELD",
+     "KAHUKU",
+     ""
+    ],
+    [
+     "HICKAM FIELD",
+     "HALEIWA",
+     ""
+    ]
+   ],
+   "nota": "onde pousaram os 12 B-17 (AF-FS)",
+   "em": "The Air Force lists one at Bellows Field,"
+  },
+  {
+   "id": "P060",
+   "bloco": "B06b",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_aerea_7dez.jpg",
+   "enq": "zoom-in",
+   "inicio": 260.71,
+   "dur": 2.5,
+   "frase": "and the rest at Hickam, under attack.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "and the rest at Hickam, under attack."
+  },
+  {
+   "id": "P061",
+   "bloco": "B06b",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_hangar11_1941.jpg",
+   "enq": "pan-dir",
+   "inicio": 263.21,
+   "dur": 1.79,
+   "frase": "Three hangars took direct hits.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Three hangars took direct hits."
+  },
+  {
+   "id": "P062",
+   "bloco": "B06c",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_cratera_hangar7_1941.jpg",
+   "enq": "zoom-in",
+   "inicio": 265.0,
+   "dur": 4.64,
+   "frase": "The Park Service's landmark report says one was reduced to a twisted ruin.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The Park Service's landmark report"
+  },
+  {
+   "id": "P063",
+   "bloco": "B06c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:8:40",
+   "inicio": 269.64,
+   "dur": 3.93,
+   "frase": "At 8:40, a second wave struck. By 9:45 it was over.",
+   "real": false,
+   "reuso": false,
+   "valor": "8:40",
+   "rotulo": "SECOND WAVE · OVER BY 9:45",
+   "em": "At 8:40, a second wave struck."
+  },
+  {
+   "id": "P064",
+   "bloco": "B06c",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_b18_danificados_1941.jpg",
+   "enq": "zoom-in",
+   "inicio": 273.57,
+   "dur": 4.29,
+   "frase": "About half the airplanes at Hickam had been destroyed or badly damaged.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "About half the airplanes"
+  },
+  {
+   "id": "P065",
+   "bloco": "B07a",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_quartel_hangar_ave_1941.jpg",
+   "enq": "zoom-in",
+   "inicio": 277.86,
+   "dur": 3.57,
+   "frase": "And the Big Barracks? It was hit again and again.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "And the Big Barracks?"
+  },
+  {
+   "id": "P066",
+   "bloco": "B07a",
+   "tipo": "Filme",
+   "arq": "filme_ford_hangar_escombros_fumaca_nara76171.mp4",
+   "enq": "30.0-37.0",
+   "inicio": 281.43,
+   "dur": 2.14,
+   "frase": "Planes strafed it. Bombs hit it.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · FORD ISLAND",
+    "",
+    "U.S. Navy (Naval Photographic Center), National Archives, NAID 76171"
+   ],
+   "em": "Planes strafed it."
+  },
+  {
+   "id": "P067",
+   "bloco": "B07b",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_bandeira_fumaca_1941.jpg",
+   "enq": "tilt-baixo",
+   "inicio": 283.57,
+   "dur": 1.79,
+   "frase": "Part of it caught fire.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.44,
+    1.12
+   ],
+   "para": [
+    0.5,
+    0.56,
+    1.12
+   ],
+   "em": "Part of it caught fire."
+  },
+  {
+   "id": "P068",
+   "bloco": "B07b",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_bombeiros_quartel_incendio_1941.jpg",
+   "enq": "pan-dir",
+   "inicio": 285.36,
+   "dur": 8.93,
+   "frase": "Many of the men had been at breakfast when the attack began, and a bomb struck the mess hall in the center of the building.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Many of the men had been at breakfast"
+  },
+  {
+   "id": "P069",
+   "bloco": "B07b",
+   "tipo": "Dupla",
+   "arq": "foto_hickam_quartel_hangar_ave_1941.jpg",
+   "arq2": "foto_hickam_bandeira_fumaca_1941.jpg",
+   "enq": "dupla",
+   "inicio": 294.29,
+   "dur": 4.29,
+   "frase": "Air Force captions call it \"reportedly the most bombed building on Oahu.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "num": [
+    "\"MOST BOMBED\"",
+    "BUILDING ON OAHU (REPORTEDLY)"
+   ],
+   "rot1": "THE BIG BARRACKS",
+   "rot2": "DEC 7, 1941",
+   "em": "Air Force captions call it"
+  },
+  {
+   "id": "P070",
+   "bloco": "B07c",
+   "tipo": "Dupla",
+   "arq": "hoje_hickam_memorial_1991.jpg",
+   "arq2": "hoje_hickam_courtyard_heroes.jpg",
+   "enq": "dupla",
+   "inicio": 298.57,
+   "dur": 6.43,
+   "frase": "When the smoke cleared, the Air Force counts 189 men lost at Hickam that day, and 303 wounded.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · HICKAM, COURTYARD OF HEROES",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "num": [
+    "189",
+    "MEN LOST AT HICKAM · 303 WOUNDED"
+   ],
+   "rot1": "HICKAM MEMORIAL, 1991",
+   "rot2": "COURTYARD OF HEROES",
+   "em": "When the smoke cleared,"
+  },
+  {
+   "id": "P071",
+   "bloco": "B07c",
+   "tipo": "Filme",
+   "arq": "filme_pearl_navios_danificados_rescaldo_nara76169.mp4",
+   "enq": "4.0-11.0",
+   "inicio": 305.0,
+   "dur": 3.21,
+   "frase": "The building was repaired. It went back to work.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 1941 · PEARL HARBOR",
+    "",
+    "U.S. Navy (Naval Photographic Center), National Archives, NAID 76169"
+   ],
+   "em": "The building was repaired."
+  },
+  {
+   "id": "P072",
+   "bloco": "B07c",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "zoom-in",
+   "inicio": 308.21,
+   "dur": 3.57,
+   "frase": "So the question is the one you came here with.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "So the question is the one"
+  },
+  {
+   "id": "P073",
+   "bloco": "B08a",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "detalhe:0.87,0.22",
+   "inicio": 311.79,
+   "dur": 4.64,
+   "frase": "Why keep the marks? The Air Force answers that in its own words.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.87,
+    0.22,
+    1.35
+   ],
+   "para": [
+    0.87,
+    0.22,
+    1.55
+   ],
+   "em": "Why keep the marks?"
+  },
+  {
+   "id": "P074",
+   "bloco": "B08a",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"…ITS BULLET-SCARRED WALLS ARE CAREFULLY PRESERVED TO SERVE AS A CONSTANT REMINDER",
+   "inicio": 316.43,
+   "dur": 11.43,
+   "frase": "\"This former 'Big Barracks' now serves as headquarters of the Pacific Air Forces, and its bullet-scarred walls are carefully preserved to serve as a constant reminder to never again be caught unprepared.\"",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"…ITS BULLET-SCARRED WALLS ARE CAREFULLY PRESERVED TO SERVE AS A CONSTANT REMINDER",
+    "TO NEVER AGAIN BE CAUGHT UNPREPARED.\"",
+    "— U.S. AIR FORCE FACT SHEET, \"DECEMBER 7, 1941 ATTACK\""
+   ],
+   "selo": "QUOTED",
+   "em": "\"This former 'Big Barracks'"
+  },
+  {
+   "id": "P075",
+   "bloco": "B08a",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_predio_marcas_tiro_134arw.jpg",
+   "enq": "zoom-in",
+   "inicio": 327.86,
+   "dur": 1.07,
+   "frase": "There's the word.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, 'BUILDINGS WITH BULLET HOLES'",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "There's the word."
+  },
+  {
+   "id": "P076",
+   "bloco": "B08b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:UNPREPARED",
+   "inicio": 328.93,
+   "dur": 1.79,
+   "frase": "Unprepared. That's the official reason.",
+   "real": false,
+   "reuso": false,
+   "valor": "UNPREPARED",
+   "rotulo": "THE OFFICIAL REASON",
+   "em": "Unprepared."
+  },
+  {
+   "id": "P077",
+   "bloco": "B08b",
+   "tipo": "KenBurns",
+   "arq": "hoje_pacaf_qg_staff_ride.jpg",
+   "enq": "pan-esq",
+   "inicio": 330.71,
+   "dur": 8.21,
+   "frase": "The headquarters for American air power in the Pacific walks past the evidence of the moment that power was caught on the ground.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "The headquarters for American air power"
+  },
+  {
+   "id": "P078",
+   "bloco": "B08b",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "pan-esq",
+   "inicio": 338.93,
+   "dur": 5.71,
+   "frase": "Every officer who goes to work in that building passes the wall on the way in.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Every officer who goes to work"
+  },
+  {
+   "id": "P079",
+   "bloco": "B08c",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhl_hickam_capa.png",
+   "enq": "pagina",
+   "inicio": 344.64,
+   "dur": 6.07,
+   "frase": "But the strangest part of this story isn't the reason. It's the paper that made it permanent.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1985 · HICKAM FIELD, NATIONAL HISTORIC LANDMARK",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "But the strangest part"
+  },
+  {
+   "id": "P080",
+   "bloco": "B09a",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhl_hickam_capa.png",
+   "enq": "nome",
+   "inicio": 350.71,
+   "dur": 6.07,
+   "frase": "In 1984, the National Park Service wrote a nomination for Hickam Field as a National Historic Landmark.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1985 · HICKAM FIELD, NATIONAL HISTORIC LANDMARK",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "num": [
+    "1985",
+    "NATIONAL HISTORIC LANDMARK"
+   ],
+   "frase_doc": "Hickam Field",
+   "grifo": [
+    [
+     0.1592,
+     0.4854,
+     0.1202,
+     0.0406
+    ]
+   ],
+   "literal": true,
+   "em": "In 1984, the National Park Service"
+  },
+  {
+   "id": "P081",
+   "bloco": "B09a",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_aerea_7dez.jpg",
+   "enq": "pan-dir",
+   "inicio": 356.79,
+   "dur": 10.71,
+   "frase": "The Secretary of the Interior designated it in 1985: the flight line, the hangars, the operations building, and the old barracks. Eighty-one acres of an active airfield, frozen on paper.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "num": [
+    "81",
+    "ACRES OF AN ACTIVE AIRFIELD"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "The Secretary of the Interior designated it in 1985:"
+  },
+  {
+   "id": "P082",
+   "bloco": "B09b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:1987",
+   "inicio": 367.5,
+   "dur": 4.64,
+   "frase": "Two years later, Wheeler Field, a few miles inland, got the same status.",
+   "real": false,
+   "reuso": false,
+   "valor": "1987",
+   "rotulo": "WHEELER FIELD · SAME STATUS",
+   "em": "Two years later, Wheeler Field,"
+  },
+  {
+   "id": "P083",
+   "bloco": "B09b",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhl_hickam_marcas.png",
+   "enq": "hale",
+   "inicio": 372.14,
+   "dur": 2.14,
+   "frase": "The form describes the barracks plainly.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NHL FORM · HICKAM FIELD",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "grifo": [
+    [
+     0.4206,
+     0.5759,
+     0.5108,
+     0.0576
+    ],
+    [
+     0.0551,
+     0.6309,
+     0.2354,
+     0.0576
+    ]
+   ],
+   "literal": false,
+   "em": "The form describes the barracks plainly."
+  },
+  {
+   "id": "P084",
+   "bloco": "B09b",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhl_hickam_marcas.png",
+   "enq": "repaired",
+   "inicio": 374.29,
+   "dur": 9.64,
+   "frase": "\"The bomb and fire damage has long since been repaired, but a large number of spatter holes remain on the exterior walls where bullets hit the concrete.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NHL FORM · HICKAM FIELD",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "frase_doc": "but a large number of spatter holes remain on the exterior walls where bullets hit the concrete",
+   "grifo": [
+    [
+     0.2844,
+     0.6911,
+     0.646,
+     0.0576
+    ],
+    [
+     0.0551,
+     0.7461,
+     0.8753,
+     0.0576
+    ],
+    [
+     0.0551,
+     0.801,
+     0.2063,
+     0.055
+    ]
+   ],
+   "literal": true,
+   "em": "\"The bomb and fire damage"
+  },
+  {
+   "id": "P085",
+   "bloco": "B09c",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_hangar11_1941.jpg",
+   "enq": "zoom-in",
+   "inicio": 383.93,
+   "dur": 2.86,
+   "frase": "The hangars, it says, carry their own scars.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The hangars, it says,"
+  },
+  {
+   "id": "P086",
+   "bloco": "B09c",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhl_hickam_marcas.png",
+   "enq": "steel",
+   "inicio": 386.79,
+   "dur": 2.86,
+   "frase": "\"A bullet hole clear through a steel column.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NHL FORM · HICKAM FIELD",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "frase_doc": "a bullet hole clear through a steel column",
+   "grifo": [
+    [
+     0.4006,
+     0.2356,
+     0.4732,
+     0.0576
+    ]
+   ],
+   "literal": true,
+   "em": "\"A bullet hole clear through"
+  },
+  {
+   "id": "P087",
+   "bloco": "B09c",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_ninho_corvo_a.jpg",
+   "enq": "zoom-in",
+   "inicio": 389.64,
+   "dur": 3.21,
+   "frase": "And then one sentence that sounds like an invitation.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · HICKAM, BASE OPERATIONS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "And then one sentence"
+  },
+  {
+   "id": "P088",
+   "bloco": "B09d",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"HERE, ONE CAPTURES THE FEELING OF THE PRE-WORLD WAR II MILITARY ENVIRONMENT IN HAWAII,",
+   "inicio": 392.86,
+   "dur": 10.0,
+   "frase": "\"Here, one captures the feeling of the pre-World War II military environment in Hawaii, as well as coming into contact with the physical damage of the surprise attack.\"",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"HERE, ONE CAPTURES THE FEELING OF THE PRE-WORLD WAR II MILITARY ENVIRONMENT IN HAWAII,",
+    "AS WELL AS COMING INTO CONTACT WITH THE PHYSICAL DAMAGE OF THE SURPRISE ATTACK.\"",
+    "— NHL NOMINATION, HICKAM FIELD (1984)"
+   ],
+   "selo": "QUOTED",
+   "em": "\"Here, one captures the feeling"
+  },
+  {
+   "id": "P089",
+   "bloco": "B09d",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_replica_marca_tiro_c.jpg",
+   "enq": "zoom-in",
+   "inicio": 402.86,
+   "dur": 2.14,
+   "frase": "Coming into contact. That's the thing.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Coming into contact."
+  },
+  {
+   "id": "P090",
+   "bloco": "B09d",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "detalhe:0.78,0.47",
+   "inicio": 405.0,
+   "dur": 4.64,
+   "frase": "The landmark exists so that someone can stand in front of these walls.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.78,
+    0.47,
+    1.35
+   ],
+   "para": [
+    0.78,
+    0.47,
+    1.55
+   ],
+   "em": "The landmark exists so that someone"
+  },
+  {
+   "id": "P091",
+   "bloco": "B09d",
+   "tipo": "KenBurns",
+   "arq": "hoje_jbphh_portao_omalley_a.jpg",
+   "enq": "pan-esq",
+   "inicio": 409.64,
+   "dur": 3.21,
+   "frase": "The base exists so that almost no one can.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · JBPHH, O'MALLEY GATE",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "The base exists so that almost no one can."
+  },
+  {
+   "id": "P092",
+   "bloco": "B10a",
+   "tipo": "Dupla",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "arq2": "doc_nhl_hickam_capa.png",
+   "enq": "dupla",
+   "inicio": 412.86,
+   "dur": 7.86,
+   "frase": "So the marks are protected twice: by the Air Force, as a reminder, and by federal law, as part of a landmark.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "1985 · HICKAM FIELD, NATIONAL HISTORIC LANDMARK",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "rot1": "THE AIR FORCE: A REMINDER",
+   "rot2": "THE LAW: A LANDMARK",
+   "em": "So the marks are protected twice:"
+  },
+  {
+   "id": "P093",
+   "bloco": "B10a",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_predio_marcas_tiro_134arw.jpg",
+   "enq": "pan-dir",
+   "inicio": 420.71,
+   "dur": 3.57,
+   "frase": "When the building was renovated, the scars came through it.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, 'BUILDINGS WITH BULLET HOLES'",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "When the building was renovated,"
+  },
+  {
+   "id": "P094",
+   "bloco": "B10b",
+   "tipo": "Dupla",
+   "arq": "hoje_hickam_predio_marcas_tiro_134arw.jpg",
+   "arq2": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "dupla",
+   "inicio": 424.29,
+   "dur": 6.07,
+   "frase": "The firm that did the work says the strafing and blast marks were preserved through every phase,",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, 'BUILDINGS WITH BULLET HOLES'",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "rot1": "STRAFING MARKS",
+   "rot2": "PRESERVED",
+   "em": "The firm that did the work says"
+  },
+  {
+   "id": "P095",
+   "bloco": "B10b",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_courtyard_heroes.jpg",
+   "enq": "zoom-out",
+   "inicio": 430.36,
+   "dur": 4.29,
+   "frase": "and that fire-damaged beams uncovered inside were built into the finished rooms.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, COURTYARD OF HEROES",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "and that fire-damaged beams"
+  },
+  {
+   "id": "P096",
+   "bloco": "B10b",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_base_ops_historiadora.jpg",
+   "enq": "detalhe:0.3,0.45",
+   "inicio": 434.64,
+   "dur": 3.57,
+   "frase": "The same historian, Jessie Higa, described the outside this way.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, BASE OPERATIONS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "de": [
+    0.3,
+    0.45,
+    1.35
+   ],
+   "para": [
+    0.3,
+    0.45,
+    1.55
+   ],
+   "em": "The same historian, Jessie Higa,"
+  },
+  {
+   "id": "P097",
+   "bloco": "B10c",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"THE OUTSIDE MARKINGS FROM THE DECEMBER 7 DAMAGE BECOME A BIRTHMARK…\"",
+   "inicio": 438.21,
+   "dur": 3.93,
+   "frase": "\"The outside markings from the December 7 damage become a birthmark.\"",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"THE OUTSIDE MARKINGS FROM THE DECEMBER 7 DAMAGE BECOME A BIRTHMARK…\"",
+    "— JESSIE HIGA (DVIDS, 2017)"
+   ],
+   "selo": "QUOTED",
+   "em": "\"The outside markings"
+  },
+  {
+   "id": "P098",
+   "bloco": "B10c",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_replica_marca_tiro_a.jpg",
+   "enq": "zoom-in",
+   "inicio": 442.14,
+   "dur": 8.21,
+   "frase": "In 2017, an airman was given special permission to make a cast of one of the pockmarks, and the copies became farewell gifts.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "num": [
+    "2017",
+    "A CAST OF ONE POCKMARK"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "In 2017, an airman was given"
+  },
+  {
+   "id": "P099",
+   "bloco": "B10c",
+   "tipo": "Dupla",
+   "arq": "hoje_hickam_replica_marca_tiro_b.jpg",
+   "arq2": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "dupla",
+   "inicio": 450.36,
+   "dur": 1.07,
+   "frase": "Think about that.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "rot1": "THE COPY",
+   "rot2": "THE ORIGINAL",
+   "em": "Think about that."
+  },
+  {
+   "id": "P100",
+   "bloco": "B10d",
+   "tipo": "Dupla",
+   "arq": "hoje_hickam_replica_marca_tiro_c.jpg",
+   "arq2": "hoje_hickam_predio_marcas_tiro_134arw.jpg",
+   "enq": "dupla",
+   "inicio": 451.43,
+   "dur": 6.43,
+   "frase": "To carry a piece of this wall off the base, someone had to make a mold of it.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · HICKAM, 'BUILDINGS WITH BULLET HOLES'",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "rot1": "THE MOLD",
+   "rot2": "THE WALL",
+   "em": "To carry a piece of this wall"
+  },
+  {
+   "id": "P101",
+   "bloco": "B11a",
+   "tipo": "KenBurns",
+   "arq": "hoje_pacaf_qg_staff_ride.jpg",
+   "enq": "detalhe:0.75,0.4",
+   "inicio": 457.86,
+   "dur": 2.14,
+   "frase": "Now, the thing behind the glass.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "de": [
+    0.75,
+    0.4,
+    1.35
+   ],
+   "para": [
+    0.75,
+    0.4,
+    1.55
+   ],
+   "em": "Now, the thing behind the glass."
+  },
+  {
+   "id": "P102",
+   "bloco": "B11a",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_bandeira_fumaca_1941.jpg",
+   "enq": "zoom-out",
+   "inicio": 460.0,
+   "dur": 8.21,
+   "frase": "That morning, an American flag was flying over Hickam. Photographers caught it on its pole, with smoke rising from the barracks behind it.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "That morning, an American flag"
+  },
+  {
+   "id": "P103",
+   "bloco": "B11a",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_bandeira_fumaca_1941.jpg",
+   "enq": "detalhe:0.45,0.25",
+   "inicio": 468.21,
+   "dur": 1.79,
+   "frase": "It flew through both waves.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.45,
+    0.25,
+    1.35
+   ],
+   "para": [
+    0.45,
+    0.25,
+    1.55
+   ],
+   "em": "It flew through both waves."
+  },
+  {
+   "id": "P104",
+   "bloco": "B11b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:9 P.M.",
+   "inicio": 470.0,
+   "dur": 1.43,
+   "frase": "That night, around nine,",
+   "real": false,
+   "reuso": false,
+   "valor": "9 P.M.",
+   "rotulo": "DEC 7, 1941",
+   "em": "That night, around nine,"
+  },
+  {
+   "id": "P105",
+   "bloco": "B11b",
+   "tipo": "KenBurns",
+   "arq": "hoje_cerimonia_7dez_2013_hickam.jpg",
+   "enq": "zoom-in",
+   "inicio": 471.43,
+   "dur": 6.43,
+   "frase": "Durward Swanson and his best friend, Albert Lloyd, a man everyone called Stud, noticed it was still up.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 2013 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Durward Swanson and his best friend,"
+  },
+  {
+   "id": "P106",
+   "bloco": "B11b",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"STUD, THE FLAG IS STILL FLYING.",
+   "inicio": 477.86,
+   "dur": 5.71,
+   "frase": "Swanson remembered telling him, \"Stud, the flag is still flying. We've got to take that down.\"",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"STUD, THE FLAG IS STILL FLYING.",
+    "WE'VE GOT TO TAKE THAT DOWN.\"",
+    "— DURWARD SWANSON (PACAF, 2011)"
+   ],
+   "selo": "QUOTED",
+   "em": "Swanson remembered telling him,"
+  },
+  {
+   "id": "P107",
+   "bloco": "B11c",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_bandeira_1941_exposta.jpg",
+   "enq": "detalhe:0.5,0.55",
+   "inicio": 483.57,
+   "dur": 6.79,
+   "frase": "They lowered it and folded it, as he put it, \"the best we could as shattered as it was.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.55,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.55,
+    1.55
+   ],
+   "em": "They lowered it and folded it,"
+  },
+  {
+   "id": "P108",
+   "bloco": "B11c",
+   "tipo": "EntaoAgora",
+   "arq": "foto_hickam_bandeira_fumaca_1941.jpg",
+   "arq2": "hoje_hickam_bandeira_1941_exposta.jpg",
+   "enq": "ea",
+   "inicio": 490.36,
+   "dur": 7.5,
+   "frase": "That flag is now in a case in the lobby of the old barracks, the same building with the scarred walls.",
+   "real": true,
+   "reuso": true,
+   "rot1": "DEC 7, 1941",
+   "rot2": "TODAY",
+   "em": "That flag is now in a case"
+  },
+  {
+   "id": "P109",
+   "bloco": "B11d",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_bandeira_1941_exposta.jpg",
+   "enq": "zoom-out",
+   "inicio": 497.86,
+   "dur": 5.36,
+   "frase": "The Air Force calls it \"the tattered flag that flew over the base that day.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "The Air Force calls it"
+  },
+  {
+   "id": "P110",
+   "bloco": "B11d",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_bandeira_1941_exposta.jpg",
+   "enq": "detalhe:0.62,0.5",
+   "inicio": 503.21,
+   "dur": 2.5,
+   "frase": "It's torn. It's never been mended either.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.62,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.62,
+    0.5,
+    1.55
+   ],
+   "em": "It's torn."
+  },
+  {
+   "id": "P111",
+   "bloco": "B11d",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "pan-esq",
+   "inicio": 505.71,
+   "dur": 4.29,
+   "frase": "And like the wall, almost nobody gets to see it in person.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "And like the wall,"
+  },
+  {
+   "id": "P112",
+   "bloco": "B12a",
+   "tipo": "Dupla",
+   "arq": "hoje_jbphh_portao_omalley_a.jpg",
+   "arq2": "hoje_jbphh_portao_omalley_b.jpg",
+   "enq": "dupla",
+   "inicio": 510.0,
+   "dur": 3.57,
+   "frase": "So why can't a tourist just drive over and look?",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · JBPHH, O'MALLEY GATE",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · JBPHH, ENTRY CONTROL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "rot1": "O'MALLEY GATE",
+   "rot2": "ENTRY CONTROL",
+   "em": "So why can't a tourist"
+  },
+  {
+   "id": "P113",
+   "bloco": "B12a",
+   "tipo": "KenBurns",
+   "arq": "hoje_ford_aerea_2022a.jpg",
+   "enq": "pan-dir",
+   "inicio": 513.57,
+   "dur": 10.71,
+   "frase": "Because in 2010, Hickam Air Force Base and Naval Station Pearl Harbor were merged into one installation, Joint Base Pearl Harbor-Hickam, supporting Air Force and Navy missions across the Pacific.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · FORD ISLAND",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "num": [
+    "2010",
+    "JOINT BASE PEARL HARBOR-HICKAM"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Because in 2010,"
+  },
+  {
+   "id": "P114",
+   "bloco": "B12b",
+   "tipo": "Dupla",
+   "arq": "hoje_arizona_memorial_visita_2012.jpg",
+   "arq2": "hoje_ford_island_aerea_2023.jpg",
+   "enq": "dupla",
+   "inicio": 524.29,
+   "dur": 6.07,
+   "frase": "It isn't a historic park with a base inside it. It's a base with history inside it.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "TODAY · FORD ISLAND",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Sgt Gabrielle Zagorski, via DVIDS"
+   ],
+   "rot1": "THE PARK",
+   "rot2": "THE BASE",
+   "em": "It isn't a historic park"
+  },
+  {
+   "id": "P115",
+   "bloco": "B12b",
+   "tipo": "KenBurns",
+   "arq": "hoje_jbphh_portao_omalley_a.jpg",
+   "enq": "detalhe:0.45,0.45",
+   "inicio": 530.36,
+   "dur": 7.5,
+   "frase": "To get in without military ID, a civilian needs a sponsor, someone with access who submits the paperwork on their behalf.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · JBPHH, O'MALLEY GATE",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "de": [
+    0.45,
+    0.45,
+    1.35
+   ],
+   "para": [
+    0.45,
+    0.45,
+    1.55
+   ],
+   "em": "To get in without military ID,"
+  },
+  {
+   "id": "P116",
+   "bloco": "B12c",
+   "tipo": "Dupla",
+   "arq": "hoje_jbphh_portao_omalley_b.jpg",
+   "arq2": "hoje_pacaf_qg_staff_ride.jpg",
+   "enq": "dupla",
+   "inicio": 537.86,
+   "dur": 3.93,
+   "frase": "The Navy's own instructions say requests come \"from authorized sponsors only.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · JBPHH, ENTRY CONTROL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "rot1": "VISITORS",
+   "rot2": "\"AUTHORIZED SPONSORS ONLY\"",
+   "em": "The Navy's own instructions say"
+  },
+  {
+   "id": "P117",
+   "bloco": "B12c",
+   "tipo": "KenBurns",
+   "arq": "hoje_jbphh_portao_omalley_b.jpg",
+   "enq": "detalhe:0.55,0.5",
+   "inicio": 541.79,
+   "dur": 7.86,
+   "frase": "Even the identification is controlled: since May 2025, only REAL ID cards are accepted at the visitor center by the Nimitz Gate.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · JBPHH, ENTRY CONTROL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "num": [
+    "REAL ID",
+    "REQUIRED SINCE MAY 2025"
+   ],
+   "de": [
+    0.55,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.55,
+    0.5,
+    1.55
+   ],
+   "em": "Even the identification is controlled:"
+  },
+  {
+   "id": "P118",
+   "bloco": "B12c",
+   "tipo": "Dupla",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "arq2": "hoje_ford_aerea_2022a.jpg",
+   "enq": "dupla",
+   "inicio": 549.64,
+   "dur": 4.64,
+   "frase": "None of that is about hiding the wall. It's about everything around it.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "TODAY · FORD ISLAND",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "rot1": "THE WALL",
+   "rot2": "EVERYTHING AROUND IT",
+   "em": "None of that is about hiding the wall."
+  },
+  {
+   "id": "P119",
+   "bloco": "B12d",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_predio_marcas_tiro_134arw.jpg",
+   "enq": "zoom-out",
+   "inicio": 554.29,
+   "dur": 7.14,
+   "frase": "The marks just happen to be on the wrong side of the fence. And there's a paper for that, too.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, 'BUILDINGS WITH BULLET HOLES'",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "The marks just happen to be"
+  },
+  {
+   "id": "P120",
+   "bloco": "B12d",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:2019",
+   "inicio": 561.43,
+   "dur": 3.21,
+   "frase": "In 2019, Congress created the Pearl Harbor National Memorial.",
+   "real": false,
+   "reuso": false,
+   "valor": "2019",
+   "rotulo": "PEARL HARBOR NATIONAL MEMORIAL",
+   "em": "In 2019, Congress created"
+  },
+  {
+   "id": "P121",
+   "bloco": "B12d",
+   "tipo": "KenBurns",
+   "arq": "hoje_arizona_memorial_navsup.jpg",
+   "enq": "zoom-in",
+   "inicio": 564.64,
+   "dur": 1.79,
+   "frase": "The law says it plainly.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Jessica McClanahan, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The law says it plainly."
+  },
+  {
+   "id": "P122",
+   "bloco": "B12e",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"THERE IS ESTABLISHED THE PEARL HARBOR NATIONAL MEMORIAL IN THE STATE OF HAWAI'I",
+   "inicio": 566.43,
+   "dur": 7.5,
+   "frase": "\"There is established the Pearl Harbor National Memorial in the State of Hawai'i as a unit of the National Park System.\"",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"THERE IS ESTABLISHED THE PEARL HARBOR NATIONAL MEMORIAL IN THE STATE OF HAWAI'I",
+    "AS A UNIT OF THE NATIONAL PARK SYSTEM.\"",
+    "— PUBLIC LAW 116-9, SEC. 2206 (2019)"
+   ],
+   "selo": "QUOTED",
+   "em": "\"There is established"
+  },
+  {
+   "id": "P123",
+   "bloco": "B12e",
+   "tipo": "KenBurns",
+   "arq": "hoje_arizona_memorial_visita_2012.jpg",
+   "enq": "pan-dir",
+   "inicio": 573.93,
+   "dur": 4.29,
+   "frase": "But the law doesn't list the places. It points to a map.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "But the law doesn't list the places."
+  },
+  {
+   "id": "P124",
+   "bloco": "B12f",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:memorial",
+   "inicio": 578.21,
+   "dur": 11.79,
+   "frase": "And on the Park Service's own list, the memorial is the Arizona, the Oklahoma and Utah memorials, six small bungalows on Ford Island, three mooring quays along Battleship Row, and the visitor center.",
+   "real": false,
+   "reuso": false,
+   "nome": "memorial",
+   "pontos": [
+    "VISITOR CENTER",
+    "USS ARIZONA MEMORIAL",
+    "FORD ISLAND",
+    "USS UTAH MEMORIAL",
+    "PACAF HQ (HALE MAKAI)"
+   ],
+   "linhas": [],
+   "nota": "pontos do memorial em amarelo; o QG (fora do memorial) em vermelho",
+   "em": "And on the Park Service's own list,"
+  },
+  {
+   "id": "P125",
+   "bloco": "B12f",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "zoom-out",
+   "inicio": 590.0,
+   "dur": 2.5,
+   "frase": "The barracks at Hickam aren't on it.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "The barracks at Hickam aren't on it."
+  },
+  {
+   "id": "P126",
+   "bloco": "B12g",
+   "tipo": "Dupla",
+   "arq": "hoje_arizona_barco_visitantes_fuqua.jpg",
+   "arq2": "hoje_hickam_predio_marcas_tiro_134arw.jpg",
+   "enq": "dupla",
+   "inicio": 592.5,
+   "dur": 6.43,
+   "frase": "So the most visited part of Pearl Harbor is a national park. The most scarred building is not.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by PO3 Robert Stirrup, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · HICKAM, 'BUILDINGS WITH BULLET HOLES'",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "rot1": "NATIONAL PARK",
+   "rot2": "NOT ON THE LIST",
+   "em": "So the most visited part"
+  },
+  {
+   "id": "P127",
+   "bloco": "B12g",
+   "tipo": "KenBurns",
+   "arq": "hoje_pacaf_qg_staff_ride.jpg",
+   "enq": "zoom-out",
+   "inicio": 598.93,
+   "dur": 5.71,
+   "frase": "It's a landmark inside a base, guarded by the same people it was built to remind.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "It's a landmark inside a base,"
+  },
+  {
+   "id": "P128",
+   "bloco": "B13a",
+   "tipo": "KenBurns",
+   "arq": "hoje_ford_aerea_2022a.jpg",
+   "enq": "zoom-in",
+   "inicio": 604.64,
+   "dur": 5.0,
+   "frase": "There's one more reason the gate matters. Look at the middle of the harbor.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · FORD ISLAND",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "There's one more reason"
+  },
+  {
+   "id": "P129",
+   "bloco": "B13a",
+   "tipo": "Dupla",
+   "arq": "foto_ford_aerea_1941-06_overhead.jpg",
+   "arq2": "hoje_ford_island_aerea_2023.jpg",
+   "enq": "dupla",
+   "inicio": 609.64,
+   "dur": 6.43,
+   "frase": "This is Ford Island. In 1941, it was a naval air station, home of the Navy's patrol planes.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUN 1941 · FORD ISLAND",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "TODAY · FORD ISLAND",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Sgt Gabrielle Zagorski, via DVIDS"
+   ],
+   "rot1": "JUNE 1941",
+   "rot2": "2023",
+   "em": "This is Ford Island."
+  },
+  {
+   "id": "P130",
+   "bloco": "B13b",
+   "tipo": "KenBurns",
+   "arq": "foto_ford_pby_destruidos_nara306552.jpg",
+   "enq": "pan-dir",
+   "inicio": 616.07,
+   "dur": 4.29,
+   "frase": "The Navy's historians say thirty-three aircraft were put out of commission there,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · FORD ISLAND",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "num": [
+    "33",
+    "AIRCRAFT PUT OUT OF ACTION"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "The Navy's historians say"
+  },
+  {
+   "id": "P131",
+   "bloco": "B13b",
+   "tipo": "Filme",
+   "arq": "filme_ford_hangares_avioes_danificados_nara76169.mp4",
+   "enq": "6.0-13.0",
+   "inicio": 620.36,
+   "dur": 2.14,
+   "frase": "and one big hangar was gutted.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 1941 · FORD ISLAND",
+    "",
+    "U.S. Navy (Naval Photographic Center), National Archives, NAID 76169"
+   ],
+   "em": "and one big hangar was gutted."
+  },
+  {
+   "id": "P132",
+   "bloco": "B13b",
+   "tipo": "KenBurns",
+   "arq": "foto_ford_hangar_incendio_nara306544.jpg",
+   "enq": "zoom-in",
+   "inicio": 622.5,
+   "dur": 3.93,
+   "frase": "Reportedly, the very first bomb of the whole attack burst there.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · FORD ISLAND",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Reportedly, the very first bomb"
+  },
+  {
+   "id": "P133",
+   "bloco": "B13b",
+   "tipo": "DocGrifo",
+   "arq": "doc_despacho_not_drill_nara596244.png",
+   "enq": "data",
+   "inicio": 626.43,
+   "dur": 3.21,
+   "frase": "That's what set off the message you saw earlier.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · RECEIVED DISPATCH",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "grifo": [
+    [
+     0.7386,
+     0.3635,
+     0.1369,
+     0.0369
+    ]
+   ],
+   "literal": false,
+   "em": "That's what set off the message"
+  },
+  {
+   "id": "P134",
+   "bloco": "B13b",
+   "tipo": "KenBurns",
+   "arq": "hoje_ford_island_aerea_2023.jpg",
+   "enq": "pan-esq",
+   "inicio": 629.64,
+   "dur": 3.21,
+   "frase": "Today Ford Island is still part of the base.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · FORD ISLAND",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Sgt Gabrielle Zagorski, via DVIDS"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Today Ford Island is still part of the base."
+  },
+  {
+   "id": "P135",
+   "bloco": "B13c",
+   "tipo": "KenBurns",
+   "arq": "hoje_ford_torre_controle.jpg",
+   "enq": "tilt-cima",
+   "inicio": 632.86,
+   "dur": 10.0,
+   "frase": "But part of it opened to visitors: a shuttle runs from the visitor center to a battleship museum and an aviation museum in two of the old hangars.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · FORD ISLAND CONTROL TOWER",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.56,
+    1.12
+   ],
+   "para": [
+    0.5,
+    0.44,
+    1.12
+   ],
+   "em": "But part of it opened to visitors:"
+  },
+  {
+   "id": "P136",
+   "bloco": "B13c",
+   "tipo": "Dupla",
+   "arq": "hoje_hangar79_habs_1991.jpg",
+   "arq2": "hoje_hangar79_voluntarios_c.jpg",
+   "enq": "dupla",
+   "inicio": 642.86,
+   "dur": 6.07,
+   "frase": "And in one of them, Hangar 79, you can see what Hickam's wall looks like up close.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1991 · FORD ISLAND, HANGAR 79",
+    "",
+    "Library of Congress, HABS/HAER (via Wikimedia Commons)"
+   ],
+   "ficha2": [
+    "JUL 2024 · FORD ISLAND, HANGAR 79",
+    "",
+    "U.S. Air Force/Navy/DoD photo by MSgt Rachelle Morris, via DVIDS"
+   ],
+   "rot1": "HANGAR 79, 1991",
+   "rot2": "HANGAR 79, 2024",
+   "em": "And in one of them, Hangar 79,"
+  },
+  {
+   "id": "P137",
+   "bloco": "B13d",
+   "tipo": "KenBurns",
+   "arq": "hoje_hangar79_voluntarios_a.jpg",
+   "enq": "detalhe:0.7,0.3",
+   "inicio": 648.93,
+   "dur": 3.21,
+   "frase": "Its windows still have bullet holes in the glass.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 2024 · FORD ISLAND, HANGAR 79",
+    "",
+    "U.S. Air Force/Navy/DoD photo by MSgt Rachelle Morris, via DVIDS"
+   ],
+   "de": [
+    0.7,
+    0.3,
+    1.35
+   ],
+   "para": [
+    0.7,
+    0.3,
+    1.55
+   ],
+   "em": "Its windows still have bullet holes"
+  },
+  {
+   "id": "P138",
+   "bloco": "B13d",
+   "tipo": "KenBurns",
+   "arq": "hoje_hangar79_habs_1991.jpg",
+   "enq": "zoom-in",
+   "inicio": 652.14,
+   "dur": 6.79,
+   "frase": "The museum says the Navy didn't replace them, as a reminder that sailors were working in a combat zone.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1991 · FORD ISLAND, HANGAR 79",
+    "",
+    "Library of Congress, HABS/HAER (via Wikimedia Commons)"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The museum says the Navy didn't replace them,"
+  },
+  {
+   "id": "P139",
+   "bloco": "B14a",
+   "tipo": "KenBurns",
+   "arq": "hoje_hangar79_voluntarios_b.jpg",
+   "enq": "zoom-in",
+   "inicio": 658.93,
+   "dur": 3.21,
+   "frase": "And the museum adds something most visitors never hear.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 2024 · FORD ISLAND, HANGAR 79",
+    "",
+    "U.S. Air Force/Navy/DoD photo by MSgt Rachelle Morris, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "And the museum adds something"
+  },
+  {
+   "id": "P140",
+   "bloco": "B14a",
+   "tipo": "Filme",
+   "arq": "filme_ford_hangar_escombros_fumaca_nara76171.mp4",
+   "enq": "40.0-47.0",
+   "inicio": 662.14,
+   "dur": 6.07,
+   "frase": "That night, American fighters from the carrier Enterprise tried to land on Ford Island in the dark.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · FORD ISLAND",
+    "",
+    "U.S. Navy (Naval Photographic Center), National Archives, NAID 76171"
+   ],
+   "em": "That night, American fighters"
+  },
+  {
+   "id": "P141",
+   "bloco": "B14a",
+   "tipo": "Filme",
+   "arq": "filme_ford_hangar_escombros_fumaca_nara76171.mp4",
+   "enq": "10.0-17.0",
+   "inicio": 668.21,
+   "dur": 3.93,
+   "frase": "Nervous gunners opened fire, aiming across the runway toward Hangar 79.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · FORD ISLAND",
+    "",
+    "U.S. Navy (Naval Photographic Center), National Archives, NAID 76171"
+   ],
+   "em": "Nervous gunners opened fire,"
+  },
+  {
+   "id": "P142",
+   "bloco": "B14a",
+   "tipo": "KenBurns",
+   "arq": "hoje_hangar79_habs_1991.jpg",
+   "enq": "pan-esq",
+   "inicio": 672.14,
+   "dur": 3.93,
+   "frase": "So some of those holes may not be Japanese at all.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1991 · FORD ISLAND, HANGAR 79",
+    "",
+    "Library of Congress, HABS/HAER (via Wikimedia Commons)"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "So some of those holes"
+  },
+  {
+   "id": "P143",
+   "bloco": "B14b",
+   "tipo": "KenBurns",
+   "arq": "hoje_hangar79_voluntarios_a.jpg",
+   "enq": "zoom-out",
+   "inicio": 676.07,
+   "dur": 3.57,
+   "frase": "The glass records the whole day, not just the attack.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2024 · FORD ISLAND, HANGAR 79",
+    "",
+    "U.S. Air Force/Navy/DoD photo by MSgt Rachelle Morris, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "The glass records the whole day,"
+  },
+  {
+   "id": "P144",
+   "bloco": "B14b",
+   "tipo": "Dupla",
+   "arq": "hoje_ford_rampa_marcas_tiro_habs.jpg",
+   "arq2": "hoje_ford_estacionamento_marcas_tiro_habs.jpg",
+   "enq": "dupla",
+   "inicio": 679.64,
+   "dur": 9.29,
+   "frase": "Out on the old seaplane ramp and the aircraft parking areas, government surveyors in the 1990s photographed the concrete and noted strafing marks still in it.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1990s · FORD ISLAND, SEAPLANE RAMP",
+    "",
+    "Library of Congress, HABS/HAER (via Wikimedia Commons)"
+   ],
+   "ficha2": [
+    "1990s · FORD ISLAND, AIRCRAFT PARKING",
+    "",
+    "Library of Congress, HABS/HAER (via Wikimedia Commons)"
+   ],
+   "rot1": "SEAPLANE RAMP",
+   "rot2": "AIRCRAFT PARKING",
+   "em": "Out on the old seaplane ramp"
+  },
+  {
+   "id": "P145",
+   "bloco": "B14b",
+   "tipo": "KenBurns",
+   "arq": "hoje_ford_island_aerea_2023.jpg",
+   "enq": "zoom-in",
+   "inicio": 688.93,
+   "dur": 2.86,
+   "frase": "Those areas are part of the working base.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · FORD ISLAND",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Sgt Gabrielle Zagorski, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Those areas are part of the working base."
+  },
+  {
+   "id": "P146",
+   "bloco": "B14c",
+   "tipo": "EntaoAgora",
+   "arq": "foto_ford_hangar6_destrocos_1941.jpg",
+   "arq2": "hoje_hangar6_habs_frente.jpg",
+   "enq": "ea",
+   "inicio": 691.79,
+   "dur": 5.71,
+   "frase": "Ford Island is the one place where the public can see a scar from that morning.",
+   "real": true,
+   "reuso": true,
+   "rot1": "1941",
+   "rot2": "1990s",
+   "em": "Ford Island is the one place"
+  },
+  {
+   "id": "P147",
+   "bloco": "B14c",
+   "tipo": "Dupla",
+   "arq": "hoje_hangar79_habs_1991.jpg",
+   "arq2": "hoje_jbphh_portao_omalley_a.jpg",
+   "enq": "dupla",
+   "inicio": 697.5,
+   "dur": 5.36,
+   "frase": "And it's the place that proves how much more of it sits out of reach.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1991 · FORD ISLAND, HANGAR 79",
+    "",
+    "Library of Congress, HABS/HAER (via Wikimedia Commons)"
+   ],
+   "ficha2": [
+    "TODAY · JBPHH, O'MALLEY GATE",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "rot1": "YOU CAN SEE THIS",
+   "rot2": "BUT NOT PAST THIS",
+   "em": "And it's the place that proves"
+  },
+  {
+   "id": "P148",
+   "bloco": "B15a",
+   "tipo": "KenBurns",
+   "arq": "hoje_utah_memorial_aerea_2016.jpg",
+   "enq": "zoom-in",
+   "inicio": 702.86,
+   "dur": 5.71,
+   "frase": "Because a few hundred yards from those hangars is the third strange thing. The USS Utah.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · USS UTAH MEMORIAL",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Because a few hundred yards"
+  },
+  {
+   "id": "P149",
+   "bloco": "B15a",
+   "tipo": "KenBurns",
+   "arq": "foto_ford_utah_emborcado_80g266626.jpg",
+   "enq": "zoom-in",
+   "inicio": 708.57,
+   "dur": 4.29,
+   "frase": "A target ship, struck by two torpedoes, capsized in about twelve minutes.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · FORD ISLAND",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "A target ship,"
+  },
+  {
+   "id": "P150",
+   "bloco": "B15a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:58",
+   "inicio": 712.86,
+   "dur": 2.14,
+   "frase": "Fifty-eight of her crew were lost.",
+   "real": false,
+   "reuso": false,
+   "valor": "58",
+   "rotulo": "CREW LOST · USS UTAH",
+   "em": "Fifty-eight of her crew were lost."
+  },
+  {
+   "id": "P151",
+   "bloco": "B15b",
+   "tipo": "KenBurns",
+   "arq": "hoje_utah_memorial_1988.jpg",
+   "enq": "pan-dir",
+   "inicio": 715.0,
+   "dur": 1.43,
+   "frase": "She was never raised.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1988 · USS UTAH MEMORIAL",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "She was never raised."
+  },
+  {
+   "id": "P152",
+   "bloco": "B15b",
+   "tipo": "KenBurns",
+   "arq": "hoje_utah_memorial_74_comemoracao.jpg",
+   "enq": "zoom-in",
+   "inicio": 716.43,
+   "dur": 6.79,
+   "frase": "A memorial was dedicated just off the shore in 1972. But it's on the base side of Ford Island.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 2015 · USS UTAH MEMORIAL",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "num": [
+    "1972",
+    "USS UTAH MEMORIAL"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "A memorial was dedicated"
+  },
+  {
+   "id": "P153",
+   "bloco": "B15b",
+   "tipo": "KenBurns",
+   "arq": "hoje_jbphh_portao_omalley_b.jpg",
+   "enq": "pan-esq",
+   "inicio": 723.21,
+   "dur": 2.14,
+   "frase": "The Park Service puts it plainly.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · JBPHH, ENTRY CONTROL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "The Park Service puts it plainly."
+  },
+  {
+   "id": "P154",
+   "bloco": "B15c",
+   "tipo": "DocGrifo",
+   "arq": "doc_nps_faq_utah.png",
+   "enq": "tour",
+   "inicio": 725.36,
+   "dur": 11.43,
+   "frase": "\"To visit these memorials, which are located on an active-duty military base, you must reserve a seat on the Ford Island Bus Tour if you do not have an Active-Duty Military ID.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NPS FAQ · USS UTAH & OKLAHOMA MEMORIALS",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "frase_doc": "you must reserve a seat on the Ford Island Bus Tour if you do not have an Active-Duty Military ID",
+   "grifo": [
+    [
+     0.0091,
+     0.1895,
+     0.9659,
+     0.0463
+    ],
+    [
+     0.0091,
+     0.2453,
+     0.2173,
+     0.0463
+    ]
+   ],
+   "literal": true,
+   "em": "\"To visit these memorials,"
+  },
+  {
+   "id": "P155",
+   "bloco": "B15d",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:MON · WED · FRI",
+   "inicio": 736.79,
+   "dur": 3.93,
+   "frase": "The tour runs on Mondays, Wednesdays and Fridays, in the afternoon,",
+   "real": false,
+   "reuso": false,
+   "valor": "MON · WED · FRI",
+   "rotulo": "AFTERNOONS · RESERVATION REQUIRED",
+   "em": "The tour runs on Mondays,"
+  },
+  {
+   "id": "P156",
+   "bloco": "B15d",
+   "tipo": "DocGrifo",
+   "arq": "doc_nps_faq_utah.png",
+   "enq": "cancel",
+   "inicio": 740.71,
+   "dur": 5.0,
+   "frase": "and the Park Service warns that base security can cancel it on short notice.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NPS FAQ · USS UTAH & OKLAHOMA MEMORIALS",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "grifo": [
+    [
+     0.0418,
+     0.8632,
+     0.7091,
+     0.0484
+    ]
+   ],
+   "literal": false,
+   "em": "and the Park Service warns"
+  },
+  {
+   "id": "P157",
+   "bloco": "B15e",
+   "tipo": "KenBurns",
+   "arq": "hoje_utah_memorial_74_comemoracao.jpg",
+   "enq": "pan-esq",
+   "inicio": 745.71,
+   "dur": 10.0,
+   "frase": "Even the anniversary ceremony at the Utah, on December 6th this year, is open to the public, as long as you have military base access to Ford Island.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 2015 · USS UTAH MEMORIAL",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "num": [
+    "DEC 6",
+    "UTAH CEREMONY · BASE ACCESS REQUIRED"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Even the anniversary ceremony at the Utah,"
+  },
+  {
+   "id": "P158",
+   "bloco": "B15e",
+   "tipo": "Dupla",
+   "arq": "hoje_cerimonia_7dez_2016.jpg",
+   "arq2": "hoje_jbphh_portao_omalley_b.jpg",
+   "enq": "dupla",
+   "inicio": 755.71,
+   "dur": 6.79,
+   "frase": "The same goes for the ceremony the next afternoon at the Oklahoma memorial, which honors 429 of her crew.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 2016 · PEARL HARBOR",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "TODAY · JBPHH, ENTRY CONTROL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "rot1": "DEC 7 CEREMONIES",
+   "rot2": "BASE ACCESS REQUIRED",
+   "em": "The same goes for the ceremony"
+  },
+  {
+   "id": "P159",
+   "bloco": "B15e",
+   "tipo": "KenBurns",
+   "arq": "hoje_jbphh_portao_omalley_a.jpg",
+   "enq": "zoom-in",
+   "inicio": 762.5,
+   "dur": 2.5,
+   "frase": "Open to the public. Inside the gate.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · JBPHH, O'MALLEY GATE",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Open to the public. Inside the gate."
+  },
+  {
+   "id": "P160",
+   "bloco": "B16a",
+   "tipo": "KenBurns",
+   "arq": "hoje_cerimonia_7dez_2016.jpg",
+   "enq": "pan-dir",
+   "inicio": 765.0,
+   "dur": 7.14,
+   "frase": "December 7th, 2026, is the eighty-fifth anniversary. And this year, the ceremonies reach behind the gate in a new way.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 2016 · PEARL HARBOR",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "num": [
+    "85",
+    "YEARS · DEC 7, 2026"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "December 7th, 2026,"
+  },
+  {
+   "id": "P161",
+   "bloco": "B16a",
+   "tipo": "Dupla",
+   "arq": "hoje_arizona_memorial_visita_2012.jpg",
+   "arq2": "hoje_arizona_memorial_navsup.jpg",
+   "enq": "dupla",
+   "inicio": 772.14,
+   "dur": 7.5,
+   "frase": "For decades, eighty-six unidentified sailors from the USS Arizona have rested in graves marked \"unknown\" at the national cemetery in Honolulu.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Jessica McClanahan, via DVIDS"
+   ],
+   "num": [
+    "86",
+    "USS ARIZONA UNKNOWNS"
+   ],
+   "rot1": "USS ARIZONA MEMORIAL",
+   "rot2": "THE WALL OF NAMES",
+   "em": "For decades, eighty-six unidentified sailors"
+  },
+  {
+   "id": "P162",
+   "bloco": "B16b",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:DEFENSE POW/MIA ACCOUNTING AGENCY",
+   "inicio": 779.64,
+   "dur": 4.64,
+   "frase": "Now the Defense POW/MIA Accounting Agency has begun bringing them back for identification.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "DEFENSE POW/MIA ACCOUNTING AGENCY",
+    "USS ARIZONA (BB-39) UNKNOWN IDENTIFICATION PROJECT",
+    "\"…THE 60% THRESHOLD OF DNA FAMILY REFERENCE SAMPLES HAS BEEN MET…\""
+   ],
+   "selo": "QUOTED",
+   "em": "Now the Defense POW/MIA Accounting Agency"
+  },
+  {
+   "id": "P163",
+   "bloco": "B16b",
+   "tipo": "KenBurns",
+   "arq": "hoje_cerimonia_7dez_2013_hickam.jpg",
+   "enq": "pan-esq",
+   "inicio": 784.29,
+   "dur": 7.14,
+   "frase": "It waited until DNA reference samples had come in from enough of the families, sixty percent, before it would start.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 2013 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "It waited until DNA reference samples"
+  },
+  {
+   "id": "P164",
+   "bloco": "B16c",
+   "tipo": "Dupla",
+   "arq": "hoje_ford_island_aerea_2023.jpg",
+   "arq2": "hoje_jbphh_portao_omalley_b.jpg",
+   "enq": "dupla",
+   "inicio": 791.43,
+   "dur": 11.43,
+   "frase": "The first eight caskets were moved this month, earlier than planned, because of heavy rain and aging steel caskets. They went to the agency's laboratory, which sits on Joint Base Pearl Harbor-Hickam.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · FORD ISLAND",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Sgt Gabrielle Zagorski, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · JBPHH, ENTRY CONTROL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "num": [
+    "8 OF 86",
+    "NOVEMBER 2026"
+   ],
+   "rot1": "JOINT BASE PEARL HARBOR-HICKAM",
+   "rot2": "DPAA LAB · ON BASE",
+   "em": "The first eight caskets were moved this month,"
+  },
+  {
+   "id": "P165",
+   "bloco": "B16d",
+   "tipo": "KenBurns",
+   "arq": "hoje_cerimonia_7dez_2016.jpg",
+   "enq": "zoom-out",
+   "inicio": 802.86,
+   "dur": 7.14,
+   "frase": "On the anniversary, more than seven hundred family members are expected at a ceremony on the base, at Kilo Pier.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 2016 · PEARL HARBOR",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "num": [
+    "700+",
+    "FAMILY MEMBERS EXPECTED"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "On the anniversary,"
+  },
+  {
+   "id": "P166",
+   "bloco": "B16d",
+   "tipo": "Dupla",
+   "arq": "hoje_arizona_memorial_navsup.jpg",
+   "arq2": "hoje_jbphh_portao_omalley_a.jpg",
+   "enq": "dupla",
+   "inicio": 810.0,
+   "dur": 8.21,
+   "frase": "So even the work of giving those men back their names is happening on the side of the fence most people never cross.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Jessica McClanahan, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · JBPHH, O'MALLEY GATE",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "rot1": "THE NAMES",
+   "rot2": "BEHIND THE GATE",
+   "em": "So even the work of giving those men"
+  },
+  {
+   "id": "P167",
+   "bloco": "B17a",
+   "tipo": "KenBurns",
+   "arq": "hoje_arizona_barco_visitantes_fuqua.jpg",
+   "enq": "zoom-in",
+   "inicio": 818.21,
+   "dur": 6.79,
+   "frase": "Every year, around one and a half million people visit the Pearl Harbor National Memorial. They watch the film.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by PO3 Robert Stirrup, via DVIDS"
+   ],
+   "num": [
+    "~1.5M",
+    "VISITORS A YEAR"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Every year, around one and a half million"
+  },
+  {
+   "id": "P168",
+   "bloco": "B17a",
+   "tipo": "Dupla",
+   "arq": "hoje_arizona_barco_finn.jpg",
+   "arq2": "hoje_arizona_memorial_visita_2012.jpg",
+   "enq": "dupla",
+   "inicio": 825.0,
+   "dur": 5.36,
+   "frase": "They take the boat. They look down at the oil still rising from the Arizona.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "U.S. Air Force/Navy/DoD photo by DVIDS, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · USS ARIZONA MEMORIAL",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "rot1": "THE BOAT",
+   "rot2": "THE MEMORIAL",
+   "em": "They take the boat."
+  },
+  {
+   "id": "P169",
+   "bloco": "B17b",
+   "tipo": "Filme",
+   "arq": "filme_pearl_navios_danificados_rescaldo_nara76169.mp4",
+   "enq": "20.0-27.0",
+   "inicio": 830.36,
+   "dur": 2.5,
+   "frase": "It's a powerful visit, and it's real.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 1941 · PEARL HARBOR",
+    "",
+    "U.S. Navy (Naval Photographic Center), National Archives, NAID 76169"
+   ],
+   "em": "It's a powerful visit,"
+  },
+  {
+   "id": "P170",
+   "bloco": "B17b",
+   "tipo": "KenBurns",
+   "arq": "hoje_ford_island_aerea_2023.jpg",
+   "enq": "zoom-out",
+   "inicio": 832.86,
+   "dur": 5.71,
+   "frase": "But it's built on a small piece of the battlefield, carved out of a working base.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · FORD ISLAND",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Sgt Gabrielle Zagorski, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "But it's built on a small piece"
+  },
+  {
+   "id": "P171",
+   "bloco": "B17b",
+   "tipo": "KenBurns",
+   "arq": "foto_ford_aerea_1941-11-10.jpg",
+   "enq": "zoom-in",
+   "inicio": 838.57,
+   "dur": 2.5,
+   "frase": "Ford Island tells that story from above.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 10, 1941 · FORD ISLAND",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Ford Island tells that story"
+  },
+  {
+   "id": "P172",
+   "bloco": "B17b",
+   "tipo": "KenBurns",
+   "arq": "foto_ford_aerea_1941-11-10.jpg",
+   "enq": "detalhe:0.6,0.55",
+   "inicio": 841.07,
+   "dur": 5.36,
+   "frase": "Here it is four weeks before the attack, with the battleships moored along its edge.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 10, 1941 · FORD ISLAND",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.6,
+    0.55,
+    1.35
+   ],
+   "para": [
+    0.6,
+    0.55,
+    1.55
+   ],
+   "em": "Here it is four weeks before the attack,"
+  },
+  {
+   "id": "P173",
+   "bloco": "B17c",
+   "tipo": "EntaoAgora",
+   "arq": "foto_ford_aerea_1941-11-10.jpg",
+   "arq2": "hoje_ford_aerea_2022a.jpg",
+   "enq": "ea",
+   "inicio": 846.43,
+   "dur": 6.79,
+   "frase": "And here it is now, still an airfield shape in the middle of the harbor, still behind a gate.",
+   "real": true,
+   "reuso": true,
+   "rot1": "NOV 10, 1941",
+   "rot2": "2022",
+   "em": "And here it is now,"
+  },
+  {
+   "id": "P174",
+   "bloco": "B17c",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_predio_marcas_tiro_134arw.jpg",
+   "enq": "pan-dir",
+   "inicio": 853.21,
+   "dur": 6.43,
+   "frase": "About two miles away, the Big Barracks still stands, with its walls the way the morning left them.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, 'BUILDINGS WITH BULLET HOLES'",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "About two miles away,"
+  },
+  {
+   "id": "P175",
+   "bloco": "B17c",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_quartel_hangar_ave_1941.jpg",
+   "enq": "zoom-in",
+   "inicio": 859.64,
+   "dur": 2.14,
+   "frase": "Here it is in 1941, burning.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Here it is in 1941, burning."
+  },
+  {
+   "id": "P176",
+   "bloco": "B17d",
+   "tipo": "EntaoAgora",
+   "arq": "foto_hickam_quartel_hangar_ave_1941.jpg",
+   "arq2": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "ea",
+   "inicio": 861.79,
+   "dur": 4.64,
+   "frase": "And here it is today, with the same lines on the same walls.",
+   "real": true,
+   "reuso": true,
+   "rot1": "1941",
+   "rot2": "TODAY",
+   "em": "And here it is today,"
+  },
+  {
+   "id": "P177",
+   "bloco": "B17d",
+   "tipo": "KenBurns",
+   "arq": "foto_hickam_bombeiros_1941.jpg",
+   "enq": "zoom-out",
+   "inicio": 866.43,
+   "dur": 2.86,
+   "frase": "The fire is gone. The roof is new.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DEC 7, 1941 · HICKAM FIELD",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "The fire is gone."
+  },
+  {
+   "id": "P178",
+   "bloco": "B17d",
+   "tipo": "KenBurns",
+   "arq": "hoje_pacaf_qg_staff_ride.jpg",
+   "enq": "pan-dir",
+   "inicio": 869.29,
+   "dur": 3.21,
+   "frase": "The people inside plan for a war nobody wants.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "The people inside plan"
+  },
+  {
+   "id": "P179",
+   "bloco": "B17e",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "zoom-marcas",
+   "inicio": 872.5,
+   "dur": 5.0,
+   "frase": "And the marks are still in the concrete, because somebody decided they should be.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.82,
+    0.35,
+    1.6
+   ],
+   "em": "And the marks are still in the concrete,"
+  },
+  {
+   "id": "P180",
+   "bloco": "B18a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:?",
+   "inicio": 877.5,
+   "dur": 3.57,
+   "frase": "So why are there still bullet holes at Pearl Harbor?",
+   "real": false,
+   "reuso": false,
+   "valor": "?",
+   "rotulo": "WHY ARE THERE STILL BULLET HOLES AT PEARL HARBOR?",
+   "em": "So why are there still bullet holes"
+  },
+  {
+   "id": "P181",
+   "bloco": "B18a",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_predio_marcas_tiro_134arw.jpg",
+   "enq": "zoom-in",
+   "inicio": 881.07,
+   "dur": 5.71,
+   "frase": "Because the Air Force keeps them on purpose, as a reminder never to be caught unprepared.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, 'BUILDINGS WITH BULLET HOLES'",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Because the Air Force keeps them on purpose,"
+  },
+  {
+   "id": "P182",
+   "bloco": "B18a",
+   "tipo": "DocGrifo",
+   "arq": "doc_nhl_hickam_marcas.png",
+   "enq": "repaired2",
+   "inicio": 886.79,
+   "dur": 5.0,
+   "frase": "Because federal law protects the buildings they're in, so they can't be smoothed away.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NHL FORM · HICKAM FIELD",
+    "",
+    "U.S. National Archives / National Park Service / GPO / DVIDS (ver url)"
+   ],
+   "grifo": [
+    [
+     0.2844,
+     0.6911,
+     0.646,
+     0.0576
+    ],
+    [
+     0.0551,
+     0.7461,
+     0.8753,
+     0.0576
+    ],
+    [
+     0.0551,
+     0.801,
+     0.2063,
+     0.055
+    ]
+   ],
+   "literal": false,
+   "em": "Because federal law protects the buildings"
+  },
+  {
+   "id": "P183",
+   "bloco": "B18b",
+   "tipo": "Dupla",
+   "arq": "hoje_jbphh_portao_omalley_a.jpg",
+   "arq2": "hoje_pacaf_qg_staff_ride.jpg",
+   "enq": "dupla",
+   "inicio": 891.79,
+   "dur": 8.57,
+   "frase": "And because the wall belongs to a headquarters on an active base, which is why almost nobody gets to stand in front of it.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · JBPHH, O'MALLEY GATE",
+    "",
+    "U.S. Air Force/Navy/DoD photo by SrA Aden Brown, via DVIDS"
+   ],
+   "ficha2": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by Theanne Tangen, via DVIDS"
+   ],
+   "rot1": "AN ACTIVE BASE",
+   "rot2": "A WORKING HEADQUARTERS",
+   "em": "And because the wall belongs to a headquarters"
+  },
+  {
+   "id": "P184",
+   "bloco": "B18b",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "zoom-out",
+   "inicio": 900.36,
+   "dur": 2.86,
+   "frase": "Now look at the wall one more time.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Now look at the wall one more time."
+  },
+  {
+   "id": "P185",
+   "bloco": "B18b",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "detalhe:0.87,0.22",
+   "inicio": 903.21,
+   "dur": 1.07,
+   "frase": "Count the marks.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.87,
+    0.22,
+    1.35
+   ],
+   "para": [
+    0.87,
+    0.22,
+    1.55
+   ],
+   "em": "Count the marks."
+  },
+  {
+   "id": "P186",
+   "bloco": "B18c",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "detalhe:0.6,0.6",
+   "inicio": 904.29,
+   "dur": 4.29,
+   "frase": "Every one of them is a few seconds of a single morning,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.6,
+    0.6,
+    1.35
+   ],
+   "para": [
+    0.6,
+    0.6,
+    1.55
+   ],
+   "em": "Every one of them is a few seconds"
+  },
+  {
+   "id": "P187",
+   "bloco": "B18c",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_bandeira_1941_exposta.jpg",
+   "enq": "zoom-in",
+   "inicio": 908.57,
+   "dur": 4.29,
+   "frase": "kept for eighty-five years by the people who could have erased it.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · PACAF HEADQUARTERS",
+    "",
+    "U.S. Air Force/Navy/DoD photo by TSgt Melissa Dearstone, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "kept for eighty-five years"
+  },
+  {
+   "id": "P188",
+   "bloco": "B18c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:?",
+   "inicio": 912.86,
+   "dur": 1.79,
+   "frase": "Here's my question for you.",
+   "real": false,
+   "reuso": false,
+   "valor": "?",
+   "rotulo": "CLOSED AND WORKING, OR OPEN TO THE PUBLIC?",
+   "em": "Here's my question for you."
+  },
+  {
+   "id": "P189",
+   "bloco": "B18d",
+   "tipo": "KenBurns",
+   "arq": "hoje_hickam_qg_marcas_tiro.jpg",
+   "enq": "pan-dir",
+   "inicio": 914.64,
+   "dur": 9.29,
+   "frase": "Should places like this stay closed and working, or should the public be able to walk up and touch that wall? Tell me in the comments.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "TODAY · HICKAM, PACAF HEADQUARTERS",
+    "",
+    "Official U.S. Government photograph (Navy/USAAF/NPS/NARA), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Should places like this stay closed"
+  },
+  {
+   "id": "P190",
+   "bloco": "B18d",
+   "tipo": "Card",
+   "arq": "codigo",
+   "enq": "card",
+   "inicio": 923.93,
+   "dur": 6.07,
+   "frase": "This is Clearance Required. We go where the record goes. If you want the next one, subscribe.",
+   "real": false,
+   "reuso": false,
+   "em": "This is Clearance Required."
+  }
+ ]
+}
