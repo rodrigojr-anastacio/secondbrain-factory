@@ -1,8 +1,8 @@
 [Unit]
-Description=Produção noturna na véspera de cada publicação (dom/ter/qui/sex/sáb 20:00; o script só trabalha se amanhã for dia de publicação)
+Description=Produção noturna em dias fixos: sáb, dom, seg e ter 20:00 (1 vídeo por canal; publicação é escolha do Rodrigo, 16/11/2026)
 
 [Timer]
-OnCalendar=Sun,Tue,Thu,Fri,Sat *-*-* 20:00:00
+OnCalendar=Sat,Sun,Mon,Tue *-*-* 20:00:00
 Persistent=false
 
 [Install]

@@ -4,12 +4,15 @@
 Fonte da verdade: youtube.backlog (DDL tools/db/schema_backlog.sql). O backlog.md de cada canal ganha uma seção
 "Backlog vivo" GERADA por este script (entre marcadores); não edite essa seção à mão.
 
-Calendário: 4 vídeos por canal por semana: seg, qua, sex + 1 no fim de semana, alternando sábado numa semana e
-domingo na outra (semana de 16/11/2026 = sábado). O dia usado em cada semana fica em youtube.calendario_semanas.
+Calendário (16/11/2026, Rodrigo: produção desacoplada da publicação): a fábrica PRODUZ 1 vídeo por canal nas noites
+de sábado, domingo, segunda e terça (20:00); quarta, quinta e sexta não produz. data_prevista = NOITE DE PRODUÇÃO
+prevista. Quem escolhe o dia de ir ao ar é o Rodrigo; a fábrica só sugere a janela (JANELA abaixo; coluna gerada
+youtube.backlog.janela_publicacao): sáb → dom ou seg; dom → seg ou qua; seg → qua ou sex; ter → sex ou sáb.
+(Até 15/11 o calendário era de publicação, seg/qua/sex + sáb/dom alternados em youtube.calendario_semanas: aposentado.)
 
 Uso (tools/.venv/bin/python tools/rotinas/backlog.py …):
   listar [--canal X] [--todos]           temas e status
-  calendario [--canal X] [--dias 14]     slots de publicação e o que ocupa cada um
+  calendario [--canal X] [--dias 14]     noites de produção, janela sugerida e o que ocupa cada uma
   importar <arquivo.json> --canal X [--fonte F]   carga/atualização de temas (upsert por slug; congelados não mudam)
   add --canal X --tema T --slug S [--status ...] [--data AAAA-MM-DD] [--video-id N] [--pasta P] [--nota ...] --motivo M
   nota <id> --demanda D --encaixe E --urgencia U --motivo M      reavalia (recalcula a nota)
@@ -18,7 +21,7 @@ Uso (tools/.venv/bin/python tools/rotinas/backlog.py …):
   descartar <id> --motivo M              tira da fila (proibido para em_producao/pronto/publicado)
   status <id> <status> --motivo M        muda status à mão (congelados só avançam)
   sync                                   youtube.videos → backlog (pronto/publicado, video_id pela pasta)
-  agendar [--canal X]                    vence janelas, ordena pela nota e distribui os temas nos slots livres
+  agendar [--canal X]                    vence janelas, ordena pela nota e distribui os temas nas noites livres (hoje incluso)
   md [--canal X]                         reescreve a seção "Backlog vivo" do backlog.md
   tudo                                   sync + agendar + md (o que as rotinas chamam)
 Regra de congelamento: item em_producao, pronto ou publicado nunca é trocado, reavaliado nem descartado.
@@ -38,7 +41,9 @@ from psycopg.types.json import Jsonb
 REPO = Path.home() / "workspace/fabrica-youtube"
 DB = os.environ.get("FABRICA_DB", "dbname=vida")
 TZ = ZoneInfo("America/Sao_Paulo")
-REF_SEMANA = date(2026, 11, 16)   # segunda; nesta semana o fim de semana é SÁBADO, na seguinte DOMINGO, e assim por diante
+REF_SEMANA = date(2026, 11, 16)   # (aposentado em 16/11/2026) referência da alternância sáb/dom do calendário antigo
+NOITES = (5, 6, 0, 1)             # weekday() das noites de produção: sáb, dom, seg, ter (16/11/2026)
+JANELA = {5: "dom ou seg", 6: "seg ou qua", 0: "qua ou sex", 1: "sex ou sáb"}   # = coluna gerada janela_publicacao
 HORIZONTE_DIAS = 14               # quantos dias à frente o agendar distribui temas
 CONGELADOS = ("em_producao", "pronto", "publicado")
 OCUPA_SLOT = ("em_producao", "pronto", "publicado")
@@ -93,14 +98,13 @@ def dia_fds(con, d, registrar=True):
 
 
 def eh_slot(con, d):
-    wd = d.weekday()
-    if wd in (0, 2, 4):
-        return True
-    if wd == 5:
-        return dia_fds(con, d) == "sab"
-    if wd == 6:
-        return dia_fds(con, d) == "dom"
-    return False
+    """d é noite de produção (sáb/dom/seg/ter)? `con` fica pela compatibilidade."""
+    return d.weekday() in NOITES
+
+
+def janela(d):
+    """Janela sugerida de publicação para o vídeo produzido na noite d ('qua ou sex'), ou '-'."""
+    return JANELA.get(d.weekday(), "-") if d else "-"
 
 
 def slots(con, ini, fim):
@@ -201,7 +205,7 @@ def sync(con):
     for it in itens(con, "video_id IS NOT NULL AND status IN ('em_producao','pronto','agendado')"):
         st, pub = con.execute("SELECT status, publicado_em FROM youtube.videos WHERE id=%s", (it["video_id"],)).fetchone()
         if st == "publicado" and it["status"] != "publicado":
-            mudar(con, it["id"], "publicado (youtube.videos)", status="publicado", data_prevista=pub or it["data_prevista"])
+            mudar(con, it["id"], f"publicado (youtube.videos{', em ' + str(pub) if pub else ''})", status="publicado")  # data_prevista = noite de produção
             n += 1
         elif st == "pronto" and it["status"] in ("em_producao", "agendado"):
             mudar(con, it["id"], "vídeo pronto (youtube.videos)", status="pronto")
@@ -210,16 +214,20 @@ def sync(con):
 
 
 def agendar(con, canal=None, ref=None):
-    """Vence janelas, ordena pela nota e distribui proposto/agendado nos slots livres dos próximos HORIZONTE_DIAS."""
+    """Vence janelas, ordena pela nota e distribui proposto/agendado nas noites de produção livres de `ref` (inclusive:
+    a noite de hoje ainda não rodou ou já está ocupada pelo em_producao dela) até ref + HORIZONTE_DIAS."""
     ref = ref or hoje()
     canais = [canal] if canal else list(CANAIS)
     amanha = ref + timedelta(days=1)
     for c in canais:
         for it in itens(con, "canal_slug=%s AND status IN ('proposto','agendado') AND janela_ate IS NOT NULL AND janela_ate < %s", (c, amanha)):
             mudar(con, it["id"], f"perdeu a janela (janela_ate {it['janela_ate']:%d/%m})", status="descartado", data_prevista=None)
-        ocupados = {r[0] for r in con.execute("SELECT data_prevista FROM youtube.backlog WHERE canal_slug=%s AND status IN ('em_producao','pronto','publicado') "
-                                              "AND data_prevista >= %s", (c, amanha)).fetchall()}
-        livres = [d for d in slots(con, amanha, ref + timedelta(days=HORIZONTE_DIAS)) if d not in ocupados]
+        ocupados = {r[0] for r in con.execute("SELECT data_prevista FROM youtube.backlog WHERE canal_slug=%s AND status IN ('em_producao','pronto') "
+                                              "AND data_prevista >= %s", (c, ref)).fetchall()}
+        # publicado fica fora: nos itens antigos data_prevista é a publicação (calendário até 15/11/2026), não a noite
+        ocupados |= {r[0] for r in con.execute("SELECT noite FROM youtube.producao_noturna WHERE canal_slug=%s AND noite >= %s "
+                                               "AND status IN ('enfileirado','pronto')", (c, ref)).fetchall()}
+        livres = [d for d in slots(con, ref, ref + timedelta(days=HORIZONTE_DIAS)) if d not in ocupados]
         resto = itens(con, "canal_slug=%s AND status IN ('proposto','agendado')", (c,))   # já em ordem de nota
         fila = []
         for k, d in enumerate(livres):   # pela nota, mas o tema cuja janela fecha antes do próximo slot fura a fila
@@ -235,7 +243,7 @@ def agendar(con, canal=None, ref=None):
             d = livres[i] if i < len(livres) else None
             st = "agendado" if d else "proposto"
             if it["data_prevista"] != d or it["status"] != st:
-                mudar(con, it["id"], f"agendar: ordem pela nota ({it['nota']})" if d else "agendar: sem slot nos próximos 14 dias",
+                mudar(con, it["id"], f"agendar: ordem pela nota ({it['nota']}), noite {fmt_d(d)} (ao ar: {janela(d)})" if d else "agendar: sem noite livre nos próximos 14 dias",
                       status=st, data_prevista=d)
 
 
@@ -254,26 +262,27 @@ def gerar_md(con, canal):
     L = [INI, "", f"## Backlog vivo ({datetime.now(TZ):%d/%m/%Y %H:%M})", "",
          "Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por "
          "`tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna "
-         "(`tools/rotinas/noturna.py`) pega o 1º item agendado na véspera de cada publicação. "
+         "(`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; "
+         "a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). "
          "Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.", "",
-         "### Calendário (próximos 14 dias)", "", "| data | tema | status |", "|---|---|---|"]
+         "### Noites de produção (próximos 14 dias)", "", "| noite | pode ir ao ar | tema | status |", "|---|---|---|---|"]
     por_data = {}
-    for it in itens(con, "canal_slug=%s AND data_prevista IS NOT NULL AND status <> 'descartado'", (canal,)):
+    for it in itens(con, "canal_slug=%s AND data_prevista IS NOT NULL AND status IN ('agendado','em_producao','pronto')", (canal,)):
         por_data.setdefault(it["data_prevista"], []).append(it)
     for d in slots(con, ref, ref + timedelta(days=HORIZONTE_DIAS)):
         its = por_data.get(d, [])
         if its:
             for it in its:
-                L.append(f"| {fmt_d(d)} | {it['tema']} | {it['status']} |")
+                L.append(f"| {fmt_d(d)} | {janela(d)} | {it['tema']} | {it['status']} |")
         else:
-            L.append(f"| {fmt_d(d)} | — (vaga) | |")
-    L += ["", "### Temas (ordem da fila)", "", "| id | tema | nota (D·E·U) | status | publicação | janela | evidência principal |", "|---|---|---|---|---|---|---|"]
+            L.append(f"| {fmt_d(d)} | {janela(d)} | — (vaga) | |")
+    L += ["", "### Temas (ordem da fila)", "", "| id | tema | nota (D·E·U) | status | noite (ao ar) | janela do tema | evidência principal |", "|---|---|---|---|---|---|---|"]
     ordem = {"em_producao": 0, "agendado": 1, "proposto": 2}
     ativos = sorted(itens(con, "canal_slug=%s AND status IN ('em_producao','agendado','proposto')", (canal,)),
                     key=lambda i: (ordem[i["status"]], i["data_prevista"] or date(2100, 1, 1), -(float(i["nota"] or 0))))
     for it in ativos:
         dd = f"{float(it['demanda'] or 0):g}·{float(it['encaixe'] or 0):g}·{float(it['urgencia'] or 0):g}" if it["demanda"] is not None else "-"
-        L.append(f"| {it['id']} | {it['tema']} | {it['nota'] if it['nota'] is not None else '-'} ({dd}) | {it['status']} | {fmt_d(it['data_prevista'])} | "
+        L.append(f"| {it['id']} | {it['tema']} | {it['nota'] if it['nota'] is not None else '-'} ({dd}) | {it['status']} | {fmt_d(it['data_prevista'])}{' (' + janela(it['data_prevista']) + ')' if it['data_prevista'] else ''} | "
                  f"{it['janela_ate'].strftime('%d/%m') if it['janela_ate'] else 'perene'} | {evid_principal(it)} |")
     feitos = itens(con, "canal_slug=%s AND status IN ('pronto','publicado') AND data_prevista >= %s", (canal, ref - timedelta(days=7)))
     if feitos:
@@ -352,10 +361,10 @@ def main():
             for c in ([a.canal] if a.canal else CANAIS):
                 print(f"== {c}")
                 occ = {}
-                for it in itens(con, "canal_slug=%s AND data_prevista IS NOT NULL AND status<>'descartado'", (c,)):
+                for it in itens(con, "canal_slug=%s AND data_prevista IS NOT NULL AND status IN ('agendado','em_producao','pronto')", (c,)):
                     occ.setdefault(it["data_prevista"], []).append(f"{it['tema']} [{it['status']}]")
                 for d in slots(con, ref, ref + timedelta(days=a.dias)):
-                    print(f"  {fmt_d(d)} ({dia_fds(con, d)}-semana): {', '.join(occ.get(d, ['— vaga']))}")
+                    print(f"  noite {fmt_d(d)} (ao ar: {janela(d)}): {', '.join(occ.get(d, ['— vaga']))}")
         elif a.c == "importar":
             importar(con, a.arquivo, a.canal, a.fonte)
         elif a.c == "add":

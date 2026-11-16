@@ -1,17 +1,18 @@
 #!/usr/bin/env python
 """Fábrica noturna (14/11/2026, decisão do Rodrigo): 4 vídeos por canal por semana, produzidos de noite.
 
-Calendário: publica seg, qua, sex + 1 no fim de semana (sábado numa semana, domingo na outra; tools/rotinas/backlog.py).
-A produção roda na NOITE ANTERIOR a cada publicação (20:00): o timer fabrica-noturna dispara dom/ter/qui/sex/sáb e
-o script só trabalha se amanhã for dia de publicação (sex só na semana de sábado; sáb só na semana de domingo).
+Dias fixos (16/11/2026, Rodrigo: produção desacoplada da publicação): produz 1 vídeo por canal nas noites de
+SÁBADO, DOMINGO, SEGUNDA e TERÇA (20:00; timer fabrica-noturna); quarta, quinta e sexta não produz. Quem escolhe o
+dia de ir ao ar é o Rodrigo, na hora do upload; a fábrica só sugere a janela (backlog.JANELA): sáb → dom ou seg;
+dom → seg ou qua; seg → qua ou sex; ter → sex ou sáb.
 
 Subcomandos (tools/rotinas/noturna.sh <sub> …):
   planejar [--noite AAAA-MM-DD] [--dry-run] [--forcar] [--sem-telegram] [--canal X]
-        20:00. Pré-voo (fal/Fish/Runpod, Max semanal, Drive, disco) → pauta: por canal, o 1º item do backlog vivo
-        para a 1ª vaga do calendário (amanhã ou, se amanhã já tem vídeo pronto, a próxima vaga em até 7 dias) →
+        20:00 (só em noite de produção). Pré-voo (fal/Fish/Runpod, Max semanal, Drive, disco) → pauta: por canal,
+        o item agendado para esta noite (senão o 1º agendado/proposto do backlog vivo, ordem da nota) →
         youtube.videos + pasta + briefs ETAPA1/2 (modelos BRIEF-lote-MODELO-*) → fila (e1 Opus, e2 Sonnet
         --depende-de, prazo 07:00) → backlog em_producao. Falta de recurso: produz o que couber, na ordem do
-        calendário, e avisa no Telegram.
+        prioridade de CANAIS, e avisa no Telegram.
   vigia [--sem-telegram]
         a cada 10 min (timer fabrica-noturna-vigia): sincroniza status; embalagem reprovada no crivo (BLOQUEIO.md)
         → descarta o tema e põe o próximo do backlog NA MESMA NOITE (1×, até LIMITE_SUBSTITUTO); vídeo pronto →
@@ -19,7 +20,7 @@ Subcomandos (tools/rotinas/noturna.sh <sub> …):
         fila de entrega e avisa 1× no Telegram.
   manha [--noite AAAA-MM-DD] [--sem-telegram] [--dry-run]
         07:30 (timer fabrica-noturna-manha): resumo curto por canal no Telegram (pronto?, título aprovado,
-        data de publicação, Drive, custo da noite, falhas).
+        "pode ir ao ar: qua ou sex", Drive, custo da noite, falhas).
 Tabelas: youtube.backlog, youtube.calendario_semanas, youtube.producao_noturna, youtube.noites (tools/db/schema_backlog.sql).
 Config opcional: ~/.config/fabrica/noturna.env (chaves abaixo em PADRAO).
 """
@@ -45,7 +46,6 @@ LOGDIR = Path.home() / "workspace/relatorios/noturna"
 PADRAO = {
     "CANAIS": "historia-ptbr,dossie-es,lugares-guerra-en,em-relevo",  # ordem = prioridade no corte
     "INICIO": "2026-11-15",         # 1ª noite de produção (Rodrigo: começa dom 15/11 20:00); antes disso o timer não faz nada
-    "HORIZONTE_VAGA": "7",          # dias à frente para achar a vaga a produzir
     "PRAZO_HORA": "07:00",
     "LIMITE_SUBSTITUTO": "03:30",   # depois disso, embalagem reprovada não ganha substituto na mesma noite
     "FOLGA_FAL": "5", "FOLGA_FISH": "2", "FOLGA_RUNPOD": "1",
@@ -207,36 +207,25 @@ def cortar(pf, candidatos, c):
 
 
 # ---------------- pauta ----------------
-def vaga_e_item(con, canal, noite, horizonte, excluir=()):
-    """1ª vaga do calendário (de amanhã até amanhã+horizonte) e o item do backlog para ela."""
-    amanha = noite + timedelta(days=1)
-    ocup = {r[0] for r in con.execute("SELECT data_prevista FROM youtube.backlog WHERE canal_slug=%s AND status IN ('em_producao','pronto','publicado') "
-                                      "AND data_prevista >= %s", (canal, amanha)).fetchall()}
-    vagas = [d for d in B.slots(con, amanha, amanha + timedelta(days=horizonte)) if d not in ocup]
-    if not vagas:
-        return None, None
-    vaga = vagas[0]
-    ex = tuple(excluir) or (0,)
-    it = B.itens(con, "canal_slug=%s AND status='agendado' AND data_prevista=%s AND NOT (id = ANY(%s))", (canal, vaga, list(ex)))
+def item_da_noite(con, canal, noite, excluir=()):
+    """Item do backlog para produzir nesta noite: o agendado para ela; senão o 1º agendado/proposto (ordem da nota)."""
+    ex = list(excluir) or [0]
+    it = B.itens(con, "canal_slug=%s AND status='agendado' AND data_prevista=%s AND NOT (id = ANY(%s))", (canal, noite, ex))
     if not it:
-        it = B.itens(con, "canal_slug=%s AND status IN ('agendado','proposto') AND NOT (id = ANY(%s))", (canal, list(ex)))
-    return vaga, (it[0] if it else None)
+        it = B.itens(con, "canal_slug=%s AND status IN ('agendado','proposto') AND NOT (id = ANY(%s))", (canal, ex))
+    return it[0] if it else None
 
 
 def proximo_planejamento(con, noite):
-    """Próxima noite de planejamento depois de `noite` (véspera da próxima publicação), ou None."""
-    try:
-        vs = B.slots(con, noite + timedelta(days=2), noite + timedelta(days=9))
-        return vs[0] - timedelta(days=1) if vs else None
-    except Exception:  # noqa: BLE001
-        return None
+    """Próxima noite de produção depois de `noite`."""
+    return next((noite + timedelta(days=k) for k in range(1, 8) if B.eh_slot(con, noite + timedelta(days=k))), None)
 
 
 def nome_canal_curto(canal):
     return B.CANAIS[canal]["curto"]
 
 
-def gerar_briefs(canal, it, vid_id, numero, pasta, vaga, noite, prazo, destino=REF):
+def gerar_briefs(canal, it, vid_id, numero, pasta, noite, prazo, destino=REF):
     cfgc = B.CANAIS[canal]
     curto = cfgc["curto"]
     pasta_nome = Path(pasta).name
@@ -251,7 +240,7 @@ def gerar_briefs(canal, it, vid_id, numero, pasta, vaga, noite, prazo, destino=R
     entrega_drive = ("**Não rode `entregar_drive.sh` nem `rclone`.** Deixe tudo em `" + pasta + "/entrega/` (video.mp4, legendas.srt, "
                      "thumb-A/B/C.jpg, thumbnail.jpg, pacote/youtube.txt com os 3 pares título+thumb e o padrão de cada um). A rotina noturna "
                      "(`noturna.py vigia`) sobe ao Drive se houver espaço e avisa o Rodrigo se não houver.")
-    txt = f"""# BRIEF lote noturno: {cfgc['nome']} {nnn} — {it['tema']} (publica {B.fmt_d(vaga)}/{vaga:%Y})
+    txt = f"""# BRIEF lote noturno: {cfgc['nome']} {nnn} — {it['tema']} (noite de {B.fmt_d(noite)}/{noite:%Y}; pode ir ao ar: {B.janela(noite)})
 <!-- Gerado por tools/rotinas/noturna.py em {datetime.now(TZ):%d/%m/%Y %H:%M} (noite de {noite:%d/%m}) a partir do backlog vivo
      (youtube.backlog id {it['id']}). Etapas: {e1.name} (Opus) e {e2.name} (Sonnet, --depende-de). -->
 
@@ -265,7 +254,7 @@ Repo `~/workspace/fabrica-youtube`. Leia `~/.claude/CLAUDE.md` (headless), `MAPA
 - Evidências da pauta (fonte `{it['fonte'] or 'youtube.backlog'}`):
 {evid or '  - (sem evidência registrada)'}
 - Riscos: {it['riscos'] or '-'}
-- Publicação: **{B.fmt_d(vaga)}/{vaga:%Y}** (upload manual do Rodrigo de manhã). **Prazo: tudo pronto até {prazo:%d/%m %H:%M}.**
+- Publicação: o **Rodrigo escolhe o dia** no upload manual (janela sugerida: **{B.janela(noite)}**). **Prazo: tudo pronto até {prazo:%d/%m %H:%M}.**
 - Teto em dinheiro do vídeo (etapa 2): **US$ {TETO[canal]}**. Toda geração paga com `--video {vid_id}`.
 
 ## Regras do canal
@@ -293,31 +282,31 @@ Repo `~/workspace/fabrica-youtube`. Leia `~/.claude/CLAUDE.md` (headless), `MAPA
         m = m.replace("canais/<slug>/biblia/", biblia)
         m = m.replace("<com ou sem Drive, conforme o brief do lote>", "sem Drive: deixe em `entrega/`; a rotina noturna sobe")
         return m
-    hdr = f"<!-- Gerado por tools/rotinas/noturna.py (noite de {noite:%d/%m}); vídeo id {vid_id}, pasta {pasta}, publica {vaga:%d/%m}. -->\n"
+    hdr = f"<!-- Gerado por tools/rotinas/noturna.py (noite de {noite:%d/%m}); vídeo id {vid_id}, pasta {pasta}, pode ir ao ar: {B.janela(noite)}. -->\n"
     e1.write_text(hdr + sub(m1) + f"\n- Pasta e linha em `youtube.videos` (id {vid_id}) **já existem**: o passo 1 completa o `BRIEF.md`, não cria outra linha.\n")
     e2.write_text(hdr + sub(m2) + f"\n- Prazo: pronto até {prazo:%d/%m %H:%M}. Teto US$ {TETO[canal]}. Entrega: só `entrega/` (a rotina noturna sobe ao Drive).\n")
     return principal, e1, e2
 
 
-def enfileirar(con, canal, it, vaga, noite, c, dry, tentativa=1, prioridade=3):
+def enfileirar(con, canal, it, noite, c, dry, tentativa=1, prioridade=3):
     numero = B.proximo_numero(con, canal)
     pasta = f"{B.CANAIS[canal]['videos']}/{B.CANAIS[canal]['pasta_fmt'].format(n=numero, slug=it['slug'])}"
     h, mi = map(int, c["PRAZO_HORA"].split(":"))
     prazo = datetime.combine(noite + timedelta(days=1), datetime.min.time()).replace(hour=h, minute=mi, tzinfo=TZ)
     nome = f"lote-{B.CANAIS[canal]['curto']}-{numero:03d}-{it['slug']}"
-    res = {"canal": canal, "tema": it["tema"], "backlog_id": it["id"], "vaga": str(vaga), "numero": numero, "pasta": pasta,
+    res = {"canal": canal, "tema": it["tema"], "backlog_id": it["id"], "janela": B.janela(noite), "numero": numero, "pasta": pasta,
            "jobs": [f"{nome}-e1", f"{nome}-e2"], "tentativa": tentativa}
     if dry:  # prévia dos briefs (fora da fila e fora de referencias/): referencias/previa-noturna-<noite>/
         prev = REF / f"previa-noturna-{noite:%Y-%m-%d}"
-        p, e1, e2 = gerar_briefs(canal, it, "<id na hora>", numero, pasta, vaga, noite, prazo, destino=prev)
+        p, e1, e2 = gerar_briefs(canal, it, "<id na hora>", numero, pasta, noite, prazo, destino=prev)
         res["briefs"] = [str(x.relative_to(REF)) for x in (p, e1, e2)]
         return res
     titulo = it["titulo_candidato"] or it["tema"]
     vid = con.execute("INSERT INTO youtube.videos (canal_slug, numero, titulo, status, pasta, notas, biblia_versao) VALUES (%s,%s,%s,'roteiro',%s,%s,%s) RETURNING id",
-                      (canal, numero, titulo, pasta, f"fábrica noturna {noite:%d/%m}: backlog id {it['id']}, publica {vaga:%d/%m}",
+                      (canal, numero, titulo, pasta, f"fábrica noturna {noite:%d/%m}: backlog id {it['id']}, pode ir ao ar: {B.janela(noite)}",
                        "v2" if canal == "historia-ptbr" else None)).fetchone()[0]
     (REPO / pasta).mkdir(parents=True, exist_ok=True)
-    p, e1, e2 = gerar_briefs(canal, it, vid, numero, pasta, vaga, noite, prazo)
+    p, e1, e2 = gerar_briefs(canal, it, vid, numero, pasta, noite, prazo)
     res["briefs"] = [p.name, e1.name, e2.name]
     res["video_id"] = vid
     pz = f"{prazo:%Y-%m-%d %H:%M}"
@@ -325,11 +314,11 @@ def enfileirar(con, canal, it, vaga, noite, c, dry, tentativa=1, prioridade=3):
                  [f"{nome}-e2", str(e2), "--modelo", "sonnet", "--prioridade", str(prioridade + 1), "--prazo", pz, "--depende-de", f"{nome}-e1"]):
         r = subprocess.run([str(FILA), "add", *args], capture_output=True, text=True)
         log(f"fila add {args[0]}: {(r.stdout or r.stderr).strip()}")
-    B.mudar(con, it["id"], f"produção noturna {noite:%d/%m} (tentativa {tentativa}) para {B.fmt_d(vaga)}",
-            status="em_producao", data_prevista=vaga, video_id=vid, pasta=pasta)
-    con.execute("INSERT INTO youtube.producao_noturna (noite, canal_slug, tentativa, backlog_id, video_id, data_publicacao, job_e1, job_e2) "
-                "VALUES (%s,%s,%s,%s,%s,%s,%s,%s) ON CONFLICT (noite, canal_slug, tentativa) DO NOTHING",
-                (noite, canal, tentativa, it["id"], vid, vaga, f"{nome}-e1", f"{nome}-e2"))
+    B.mudar(con, it["id"], f"produção noturna {B.fmt_d(noite)} (tentativa {tentativa}); pode ir ao ar: {B.janela(noite)}",
+            status="em_producao", data_prevista=noite, video_id=vid, pasta=pasta)
+    con.execute("INSERT INTO youtube.producao_noturna (noite, canal_slug, tentativa, backlog_id, video_id, job_e1, job_e2) "
+                "VALUES (%s,%s,%s,%s,%s,%s,%s) ON CONFLICT (noite, canal_slug, tentativa) DO NOTHING",
+                (noite, canal, tentativa, it["id"], vid, f"{nome}-e1", f"{nome}-e2"))
     return res
 
 
@@ -342,9 +331,8 @@ def planejar(a):
         return
     con = B.conectar(autocommit=False)
     try:
-        amanha = noite + timedelta(days=1)
-        if not B.eh_slot(con, amanha) and not a.forcar:
-            log(f"noite {noite:%d/%m}: amanhã ({B.fmt_d(amanha)}) não é dia de publicação; nada a fazer")
+        if not B.eh_slot(con, noite) and not a.forcar:
+            log(f"noite {B.fmt_d(noite)}: não é noite de produção (só sáb, dom, seg e ter); nada a fazer")
             con.rollback() if a.dry_run else con.commit()
             return
         B.sync(con)
@@ -355,32 +343,28 @@ def planejar(a):
             if con.execute("SELECT 1 FROM youtube.producao_noturna WHERE noite=%s AND canal_slug=%s", (noite, canal)).fetchone():
                 sem.append({"canal": canal, "motivo": "já enfileirado nesta noite"})
                 continue
-            vaga, it = vaga_e_item(con, canal, noite, int(c["HORIZONTE_VAGA"]))
-            if not vaga:
-                sem.append({"canal": canal, "motivo": f"calendário coberto até {amanha + timedelta(days=int(c['HORIZONTE_VAGA'])):%d/%m}"})
-            elif not it:
+            it = item_da_noite(con, canal, noite)
+            if not it:
                 sem.append({"canal": canal, "motivo": "backlog vazio (rode a rotina backlog)"})
             else:
-                cands.append({"canal": canal, "vaga": vaga, "item": it})
-        ordem = {k: i for i, k in enumerate(canais)}
-        cands.sort(key=lambda x: (x["vaga"], ordem[x["canal"]]))
+                cands.append({"canal": canal, "item": it})
         aprov, cortes = cortar(pf, cands, c)
-        feitos = [enfileirar(con, x["canal"], x["item"], x["vaga"], noite, c, a.dry_run, prioridade=3 + 2 * i) for i, x in enumerate(aprov)]
+        feitos = [enfileirar(con, x["canal"], x["item"], noite, c, a.dry_run, prioridade=3 + 2 * i) for i, x in enumerate(aprov)]
         prox = proximo_planejamento(con, noite)
         for x in cortes:
             cc = next(k for k in cands if k["canal"] == x["canal"])
-            x.update({"tema": cc["item"]["tema"], "vaga": str(cc["vaga"])})
+            x.update({"tema": cc["item"]["tema"]})
             # motivo datado (16/11/2026): o resumo da manhã não pode parecer pré-voo de agora (o de 16/11 disse "disco 24 GB" já com 54 GB)
             obs = (f"adiado no planejamento de {B.fmt_d(noite)} 20:00 por {x['motivo']}"
                    + (f"; volta à pauta no planejamento de {B.fmt_d(prox)} 20:00" if prox else ""))
             if not a.dry_run:
-                con.execute("INSERT INTO youtube.producao_noturna (noite, canal_slug, backlog_id, data_publicacao, status, obs) VALUES (%s,%s,%s,%s,'adiado',%s) "
-                            "ON CONFLICT DO NOTHING", (noite, x["canal"], cc["item"]["id"], cc["vaga"], obs))
+                con.execute("INSERT INTO youtube.producao_noturna (noite, canal_slug, backlog_id, status, obs) VALUES (%s,%s,%s,'adiado',%s) "
+                            "ON CONFLICT DO NOTHING", (noite, x["canal"], cc["item"]["id"], obs))
         if not a.dry_run:
             con.execute("INSERT INTO youtube.noites (noite, preflight, cortes) VALUES (%s,%s,%s) ON CONFLICT (noite) DO UPDATE SET preflight=EXCLUDED.preflight, "
                         "cortes=youtube.noites.cortes || EXCLUDED.cortes", (noite, Jsonb(pf), Jsonb(cortes)))
         # relatório
-        L = [f"Fábrica noturna {noite:%d/%m} ({'DRY-RUN, nada enfileirado' if a.dry_run else 'enfileirado'})", "",
+        L = [f"Fábrica noturna {B.fmt_d(noite)} (pode ir ao ar: {B.janela(noite)}) ({'DRY-RUN, nada enfileirado' if a.dry_run else 'enfileirado'})", "",
              "Pré-voo: " + ", ".join(f"{k} US$ {v:.2f}" + (" (API)" if pf.get("fonte_saldo", {}).get(k) == "api" else "")
                                      for k, v in pf["saldos"].items() if k in ("fal.ai", "Fish Audio", "Runpod"))
              + ((f"; Max semanal {pf['max']['pct_semana']}% (lido {datetime.fromisoformat(pf['max']['lido_em']):%d/%m %H:%M}, {pf['max']['idade_h']:.0f} h"
@@ -388,10 +372,10 @@ def planejar(a):
              + ((f"; Drive {pf['drive_livre_mb'] / 1024:.1f} GB livres") if pf["drive_livre_mb"] is not None else "; Drive: não consegui ler"),
              f"Disco local {pf['disco_livre_gb']:.0f} GB livres." + (" Avisos: " + " | ".join(pf["avisos"]) if pf["avisos"] else ""), ""]
         for f in feitos:
-            L.append(f"+ {f['canal']}: {f['tema']} → publica {B.fmt_d(date.fromisoformat(f['vaga']))} · pasta {f['pasta']} · jobs {', '.join(f['jobs'])}")
+            L.append(f"+ {f['canal']}: {f['tema']} → pode ir ao ar: {f['janela']} · pasta {f['pasta']} · jobs {', '.join(f['jobs'])}")
             L.append(f"    briefs: {', '.join(f['briefs'])}")
         for x in cortes:
-            L.append(f"- {x['canal']}: ADIADO {x['tema']} ({B.fmt_d(date.fromisoformat(x['vaga']))}): {x['motivo']}")
+            L.append(f"- {x['canal']}: ADIADO {x['tema']}: {x['motivo']}")
         for x in sem:
             L.append(f"· {x['canal']}: nada a produzir ({x['motivo']})")
         rel = "\n".join(L)
@@ -402,10 +386,10 @@ def planejar(a):
             con.commit()
             log(f"planejar {noite:%d/%m}: {len(feitos)} enfileirado(s), {len(cortes)} adiado(s)")
             for f in feitos:
-                evento("noturna_enfileirado", "info", f"{f['canal']} {f['tema']} → {f['vaga']}", ref=f["jobs"][0])
+                evento("noturna_enfileirado", "info", f"{f['canal']} {f['tema']} (noite {noite}, ao ar: {f['janela']})", ref=f["jobs"][0])
             if cortes or pf["avisos"]:
-                msg = [f"Noite {noite:%d/%m}: {len(feitos)} vídeo(s) na fila."]
-                msg += [f"⚠ {x['canal']}: {x['tema']} ({B.fmt_d(date.fromisoformat(x['vaga']))}) adiado: {x['motivo']}." for x in cortes]
+                msg = [f"Noite {B.fmt_d(noite)}: {len(feitos)} vídeo(s) na fila (pode ir ao ar: {B.janela(noite)})."]
+                msg += [f"⚠ {x['canal']}: {x['tema']} adiado: {x['motivo']}." for x in cortes]
                 msg += [f"⚠ {w}" for w in pf["avisos"]]
                 if pf["drive_livre_mb"] is not None and pf["drive_livre_mb"] < 1500:
                     msg.append(f"⚠ Drive com {pf['drive_livre_mb'] / 1024:.1f} GB: os vídeos ficam na fila de entrega se não couberem.")
@@ -505,9 +489,9 @@ def vigia(a):
                     if row["tentativa"] == 1 and agora < limite:
                         tentados = [r[0] for r in con.execute("SELECT backlog_id FROM youtube.producao_noturna WHERE noite=%s AND canal_slug=%s", (row["noite"], canal)).fetchall()]
                         B.agendar(con, canal, ref=row["noite"])
-                        vaga, novo = vaga_e_item(con, canal, row["noite"], int(c["HORIZONTE_VAGA"]), excluir=tentados)
+                        novo = item_da_noite(con, canal, row["noite"], excluir=tentados)
                         if novo:
-                            f = enfileirar(con, canal, novo, row["data_publicacao"] or vaga, row["noite"], c, False, tentativa=2, prioridade=2)
+                            f = enfileirar(con, canal, novo, row["noite"], c, False, tentativa=2, prioridade=2)
                             log(f"vigia: {canal} embalagem reprovada ({it['tema']}) → substituto {novo['tema']} ({', '.join(f['jobs'])})")
                             telegram("[fábrica] embalagem reprovada", f"{B.CANAIS[canal]['nome']}: o crivo reprovou \"{it['tema']}\"; entrou \"{novo['tema']}\" na mesma noite.", enviar)
                         else:
@@ -592,13 +576,13 @@ def manha(a):
             if r["status"] == "pronto":
                 drive = {"entregue": f"Drive: Youtube/{nome}/{Path(it['pasta']).name}", "sem_espaco": "Drive SEM ESPAÇO (fila de entrega)",
                          "pendente": "Drive: subindo", "erro": "Drive: erro na entrega (tento de novo)"}.get(r["entrega"], "Drive: ?")
-                L.append(f"{icone['pronto']} {nome}: \"{tit}\" · publica {B.fmt_d(r['data_publicacao'])} · {drive} · US$ {usd:.2f}")
+                L.append(f"{icone['pronto']} {nome}: \"{tit}\" · pode ir ao ar: {B.janela(r['noite'])} · {drive} · US$ {usd:.2f}")
             elif r["status"] == "embalagem_reprovada":
                 L.append(f"{icone['embalagem_reprovada']} {nome}: crivo reprovou \"{tema}\" (substituto abaixo, se houver)")
             else:
                 s1, s2 = status_job(con, r["job_e1"]), status_job(con, r["job_e2"])
                 det = r["obs"] or f"e1 {s1}, e2 {s2}"
-                L.append(f"{icone.get(r['status'], '?')} {nome}: {tema} · {r['status']} ({det[:120]}) · publica {B.fmt_d(r['data_publicacao'])}")
+                L.append(f"{icone.get(r['status'], '?')} {nome}: {tema} · {r['status']} ({det[:120]}) · pode ir ao ar: {B.janela(r['noite'])}")
         L.append(f"Custo da noite: US$ {total_usd:.2f} pago" + (f" · Max ~US$ {total_eq:.0f} equivalente" if total_eq else ""))
         txt = "\n".join(L)
         if a.dry_run:
@@ -614,7 +598,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sp = ap.add_subparsers(dest="c", required=True)
     p = sp.add_parser("planejar"); p.add_argument("--noite"); p.add_argument("--dry-run", action="store_true")
-    p.add_argument("--forcar", action="store_true", help="roda mesmo se amanhã não for dia de publicação"); p.add_argument("--sem-telegram", action="store_true")
+    p.add_argument("--forcar", action="store_true", help="roda mesmo fora das noites de produção (sáb/dom/seg/ter) ou antes do INICIO"); p.add_argument("--sem-telegram", action="store_true")
     p.add_argument("--canal")
     p = sp.add_parser("vigia"); p.add_argument("--sem-telegram", action="store_true")
     p = sp.add_parser("manha"); p.add_argument("--noite"); p.add_argument("--sem-telegram", action="store_true"); p.add_argument("--dry-run", action="store_true")

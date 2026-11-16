@@ -5,7 +5,7 @@ Data de hoje: {{DATA}}. Modo: {{MODO}}.
 ## Contexto
 - Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`). Mexa **só pelo script** `tools/.venv/bin/python tools/rotinas/backlog.py` (`--help` mostra tudo): `listar`, `calendario`, `add`, `nota`, `descartar`, `tudo`. Nunca edite a tabela com SQL nem a seção "Backlog vivo" dos `backlog.md` à mão (é gerada).
 - Canais: `historia-ptbr` (molde History in Minutes, países/impérios em pt), `dossie-es` (molde Archive in Minutes, organizações em es), `em-relevo` (clima/geografia do Brasil em mapa 3D, pt; regras em `pesquisa/canal-clima-2026-11/`), `lugares-guerra-en` (Clearance Required, lugares militares fechados + documentos, en). `lotr-fr` está em stand-by: fora.
-- Calendário: 4 vídeos por canal por semana (seg, qua, sex + sábado ou domingo alternados). A produção noturna (`tools/rotinas/noturna.py`) pega, na véspera, o item `agendado` da 1ª vaga.
+- Calendário (16/11/2026): a fábrica **produz** 1 vídeo por canal nas noites de **sáb, dom, seg e ter** (20:00); 4 por canal por semana. `data_prevista` = **noite de produção** prevista; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela: sáb → dom ou seg; dom → seg ou qua; seg → qua ou sex; ter → sex ou sáb; coluna gerada `janela_publicacao`). A produção noturna (`tools/rotinas/noturna.py`) pega o item `agendado` da noite.
 - **Congelamento:** item `em_producao`, `pronto` ou `publicado` nunca é trocado, reavaliado nem descartado (o script recusa).
 - Nota = (demanda × encaixe × urgência)^(1/3), cada uma de 1 a 10: demanda (busca + views recentes da referência no tema), encaixe (bíblia do canal), urgência (janela de tendência; perene = 3–4).
 - Pauta proibida: `conhecimento/politicas-youtube.md` (sem cadáver, sem "morte"/"death" no título etc.) e as listas "evitar" de cada bíblia (`canais/<slug>/biblia/README.md`; Em Relevo: `pesquisa/canal-clima-2026-11/RELATORIO.md`).
@@ -24,7 +24,7 @@ Data de hoje: {{DATA}}. Modo: {{MODO}}.
 6. Modo `teste`: faça os passos 1–3 e **só escreva no relatório** o que mudaria (não rode `add`/`nota`/`descartar`).
 
 ## Saídas (obrigatórias)
-- Relatório em `{{RELATORIO}}` (crie a pasta se faltar): por canal, o calendário das próximas 2 semanas, o que entrou/saiu/mudou de nota e por quê (número + link), e limitações. No modo `completo`, copie para `pesquisa/backlog-vivo/{{DATA}}.md`.
+- Relatório em `{{RELATORIO}}` (crie a pasta se faltar): por canal, as noites de produção das próximas 2 semanas (com a janela sugerida), o que entrou/saiu/mudou de nota e por quê (número + link), e limitações. No modo `completo`, copie para `pesquisa/backlog-vivo/{{DATA}}.md`.
 - Commit descritivo só de `pesquisa/backlog-vivo/{{DATA}}.md` e dos `backlog.md` regenerados (`canais/historia-ptbr/backlog.md`, `canais/dossie-es/backlog.md`, `canais/em-relevo/backlog.md`, `canais/lugares-guerra-en/backlog.md`): `git add` por caminho, nunca `-A`; `index.lock` → espere e tente de novo. Não faça push (o `git-diario.sh` faz).
 - Resumo para o Telegram (texto simples, 5 a 8 linhas) em `{{RESUMO}}`: por canal, os 2 próximos temas com data e o que entrou/saiu.
 

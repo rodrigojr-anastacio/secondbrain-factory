@@ -20,7 +20,8 @@ CREATE TABLE IF NOT EXISTS youtube.backlog (
     riscos           text,
     status           text NOT NULL DEFAULT 'proposto'
                      CHECK (status IN ('proposto','agendado','em_producao','pronto','publicado','descartado')),
-    data_prevista    date,                          -- data de publicação (slot do calendário)
+    data_prevista    date,                          -- NOITE DE PRODUÇÃO prevista (sáb/dom/seg/ter 20:00) desde 16/11/2026;
+                                                   -- antes era a data de publicação (itens antigos/publicados guardam isso)
     video_id         int REFERENCES youtube.videos(id),
     pasta            text,                          -- pasta do vídeo (relativa ao repo), quando existir
     fonte            text,                          -- arquivo da pesquisa que trouxe o tema
@@ -32,8 +33,17 @@ CREATE TABLE IF NOT EXISTS youtube.backlog (
 );
 CREATE INDEX IF NOT EXISTS backlog_canal_status_idx ON youtube.backlog (canal_slug, status);
 CREATE INDEX IF NOT EXISTS backlog_data_idx ON youtube.backlog (data_prevista);
+-- Dias fixos de produção (16/11/2026, Rodrigo): produção desacoplada da publicação. Quem escolhe o dia de ir ao ar é o
+-- Rodrigo; a fábrica só sugere a janela pela noite de produção: sáb → dom ou seg; dom → seg ou qua; seg → qua ou sex;
+-- ter → sex ou sáb. Coluna gerada (nunca grave nela); a mesma tabela está em backlog.JANELA.
+ALTER TABLE youtube.backlog ADD COLUMN IF NOT EXISTS janela_publicacao text GENERATED ALWAYS AS (
+    CASE WHEN status IN ('agendado','em_producao','pronto') THEN
+        CASE extract(isodow FROM data_prevista)::int WHEN 6 THEN 'dom ou seg' WHEN 7 THEN 'seg ou qua'
+                                                      WHEN 1 THEN 'qua ou sex' WHEN 2 THEN 'sex ou sáb' END
+    END) STORED;
 
 -- Fim de semana alternado (sábado numa semana, domingo na outra): registra qual dia valeu em cada semana.
+-- APOSENTADA em 16/11/2026 (dias fixos de produção; a publicação é escolha do Rodrigo). Mantida só como histórico.
 CREATE TABLE IF NOT EXISTS youtube.calendario_semanas (
     semana_ini date PRIMARY KEY,                    -- segunda-feira
     dia_fds    text NOT NULL CHECK (dia_fds IN ('sab','dom')),
@@ -49,7 +59,7 @@ CREATE TABLE IF NOT EXISTS youtube.producao_noturna (
     tentativa        int NOT NULL DEFAULT 1,
     backlog_id       int REFERENCES youtube.backlog(id),
     video_id         int REFERENCES youtube.videos(id),
-    data_publicacao  date,
+    data_publicacao  date,                          -- até 15/11/2026: publicação prevista; desde 16/11 NULL (janela = pela noite)
     job_e1           text,
     job_e2           text,
     status           text NOT NULL DEFAULT 'enfileirado'
