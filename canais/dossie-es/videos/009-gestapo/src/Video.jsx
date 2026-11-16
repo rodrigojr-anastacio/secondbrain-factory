@@ -4,7 +4,7 @@ import { Audio } from '@remotion/media';
 import { loadFont as loadElite } from '@remotion/google-fonts/SpecialElite';
 import { loadFont as loadBebas } from '@remotion/google-fonts/BebasNeue';
 import timeline from './timeline.json';
-import { LABELS } from './labels.jsx';
+import { labelsDe } from './labels.jsx';
 
 // Identidade do Dossier en Minutos (canais/dossie-es/estilo.md e identidade.md):
 // papel #E9DFC9, sello rojo #B3261E, tinta #1A1A1A, pasta parda; Special Elite (máquina de escrever) e Bebas Neue (títulos).
@@ -42,7 +42,7 @@ const kb = (s) => (s.enq !== 'aberto' && ENQ[s.enq]) || MOV[s.mov] || MOV['zoom-
 
 const Shot = ({ s, fade }) => {
   const f = useCurrentFrame();
-  const mapa = (LABELS[s.chave] || []).length > 0;
+  const mapa = labelsDe(s).length > 0;
   const [z0, z1, x0, y0, x1, y1] = mapa ? [1.0, 1.06, 0.5, 0.5, 0.5, 0.5] : kb(s);   // mapa: quase parado, para os pinos ficarem na tela
   const p = interpolate(f, [0, s.dur + XF], [0, 1], { ...clamp, easing: SOFT });
   const z = z0 + (z1 - z0) * p, fx = x0 + (x1 - x0) * p, fy = y0 + (y1 - y0) * p;
@@ -50,7 +50,7 @@ const Shot = ({ s, fade }) => {
   const left = Math.min(0, Math.max(W - w, W / 2 - fx * w));
   const top = Math.min(0, Math.max(H - h, H / 2 - fy * h));
   const o = fade ? interpolate(f, [0, XF], [0, 1], clamp) : 1;
-  const labels = LABELS[s.chave] || [];
+  const labels = labelsDe(s);
   return (
     <AbsoluteFill style={{ opacity: o, overflow: 'hidden', background: '#000' }}>
       <div style={{ position: 'absolute', left, top, width: w, height: h }}>
@@ -148,7 +148,7 @@ export const Expediente = ({ title, dur }) => {
         <div style={{ width: 1100, padding: '46px 70px 54px', background: PASTA, borderRadius: '0 14px 14px 14px', boxShadow: '12px 14px 0 rgba(0,0,0,.5)',
           borderTop: `6px solid ${PASTA_ESC}` }}>
           <div style={{ background: PAPEL, padding: '26px 40px 18px', transform: 'rotate(0.8deg)', boxShadow: '3px 3px 0 rgba(0,0,0,.25)' }}>
-            <div style={{ fontFamily: TYPE, fontSize: 28, color: '#5b4a33', letterSpacing: 4 }}>DOSSIER · LA INQUISICIÓN · Nº 008</div>
+            <div style={{ fontFamily: TYPE, fontSize: 28, color: '#5b4a33', letterSpacing: 4 }}>DOSSIER · LA GESTAPO · Nº 009</div>
             <div style={{ fontFamily: DISPLAY, fontSize: 168, lineHeight: 1, color: TINTA, letterSpacing: 4 }}>{m[2].toUpperCase()}</div>
           </div>
         </div>

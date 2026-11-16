@@ -5,7 +5,7 @@
  },
  {
   "id": "I002",
-  "prompt": "a stocky German businessman of nearly seventy with thinning grey hair combed back, heavy eyelids, a thin mouth and a dark suit and tie, 1983, resembling Klaus Barbie in old age being escorted out of an office building by two Bolivian plainclothes policemen in 1980s suits, a city street in La Paz, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "a stocky German businessman of nearly seventy with thinning grey hair combed back, heavy eyelids, a thin mouth and a dark suit and tie, 1983, resembling Klaus Barbie in old age being escorted out of an office building by two Bolivian plainclothes policemen in 1980s suits, a city street in La Paz, plain stone walls with no plaques, no signs, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I003",
@@ -17,7 +17,7 @@
  },
  {
   "id": "I005",
-  "prompt": "Close-up of a stack of old Bolivian official documents and an unpaid invoice on a wooden desk, an ink stamp and a pen, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "Stack of blank cream-colored sheets of paper on a wooden desk seen from a few steps away, a red ink stamp pad and a pen beside it, every sheet completely empty, no writing, no marks, no signs, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I006",
@@ -97,7 +97,7 @@
  },
  {
   "id": "I025",
-  "prompt": "The burnt-out glass dome of the Reichstag at dawn after the fire, smoke still rising, February 1933, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "The burnt-out glass dome of the Reichstag at dawn after the fire, smoke still rising, February 1933, no lettering anywhere, no inscription on the building, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I026",
@@ -121,7 +121,7 @@
  },
  {
   "id": "I031",
-  "prompt": "Close-up of a typed list of names on a clipboard held by a gloved hand, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "A gloved hand holding a clipboard seen from behind so only the back of the board and the hand are visible, dim office, no paper visible, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I032",
@@ -201,7 +201,7 @@
  },
  {
   "id": "I051",
-  "prompt": "A street in Munich in the 1920s with tram lines and old facades, a policeman in a long coat on the corner, rainy, no insignia, no armbands, no eagles, no swastikas, no runes, no flags, no badges, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "A street in Munich in the 1920s with tram lines and old facades, a policeman in a long coat on the corner, rainy, no street signs, no shop signs, no signboards, no lettering anywhere, no insignia, no armbands, no eagles, no swastikas, no runes, no flags, no badges, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I052",
@@ -257,7 +257,7 @@
  },
  {
   "id": "I065",
-  "prompt": "Two men whispering at a table in a smoky 1930s German beer hall, a third man at the next table listening, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "Two men whispering at a table in a smoky 1930s German beer hall, a third man at the next table listening, nobody holds a newspaper, no posters on the walls, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I066",
@@ -421,7 +421,7 @@
  },
  {
   "id": "I106",
-  "prompt": "Close-up of a typed order on military paper with a signature, lying on a dark desk, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "A folded sheet of blank paper with a fountain pen resting on it, on a dark desk, lamp light, the paper is empty, no writing, no signature, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I107",
@@ -481,7 +481,7 @@
  },
  {
   "id": "I121",
-  "prompt": "An old 1940s teleprinter machine with a strip of paper coming out of it, lamp light, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "An old 1940s teleprinter machine seen from the side in lamp light, a short strip of completely blank paper curling out of it, no characters printed, no buttons with symbols, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I122",
@@ -509,7 +509,7 @@
  },
  {
   "id": "I128",
-  "prompt": "Close-up of a long strip of teleprinter paper with typed lines and a signature, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "Close-up of a long strip of completely blank teleprinter paper curling over a dark desk, only faint perforation dots along the edges, no characters, no writing, no signature, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I129",
@@ -549,7 +549,7 @@
  },
  {
   "id": "I138",
-  "prompt": "Close-up of a judge's hands holding a typed verdict, headphones on the desk, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "Close-up of a judge's hands holding a blank folded sheet, a Nuremberg courtroom desk behind, a wooden gavel only, no electronics, no writing, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I139",
@@ -557,7 +557,7 @@
  },
  {
   "id": "I140",
-  "prompt": "A middle-aged man in a 1950s suit and hat walking calmly down a German street, seen from behind, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "A middle-aged man in a 1950s suit and hat walking calmly down a German street seen from behind, plain house facades with every shop window and sign blank, no signs, no shop names, no lettering anywhere, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I141",
@@ -589,7 +589,7 @@
  },
  {
   "id": "I148",
-  "prompt": "Close-up of a hand placing an identity booklet on top of a travel document on a table, an ink stamp beside it, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "Close-up of a hand placing an identity booklet on top of a travel document on a table, an ink stamp beside it, both booklets have plain blank dark covers with no emblem, no text, no writing inside, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I149",
@@ -721,11 +721,11 @@
  },
  {
   "id": "I181",
-  "prompt": "Close-up of a television microphone held toward an old man's face, his mouth set hard, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "Close-up of a television microphone held toward an old man's face, his mouth set hard, plain wall behind him, no signs, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I182",
-  "prompt": "A passenger airplane taking off from an airport with mountains behind, 1995, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "A passenger airplane taking off from an airport with mountains behind, 1995, plain white fuselage with no airline name, no logo, no tail emblem, no lettering anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I183",

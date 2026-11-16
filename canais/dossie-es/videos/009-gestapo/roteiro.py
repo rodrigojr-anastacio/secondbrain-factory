@@ -65,11 +65,11 @@ MAPA = "flat scan of an old printed paper map seen from directly above, muted co
 cap("Hook")
 b("La Paz, mil novecientos ochenta y tres. La policía detiene a un empresario alemán.",
   "lapaz_1983|The city of La Paz, Bolivia, in 1983 seen from above, red brick houses climbing the steep sides of a deep valley, the snow-capped Illimani mountain behind, cold morning light",
-  f"altmann_arrest|{ALTMANN} being escorted out of an office building by two Bolivian plainclothes policemen in 1980s suits, a city street in La Paz",
+  f"altmann_arrest|{ALTMANN} being escorted out of an office building by two Bolivian plainclothes policemen in 1980s suits, a city street in La Paz, plain stone walls with no plaques, no signs, no lettering anywhere",
   "police_car|A 1980s Bolivian police car parked on a steep cobbled street of La Paz, a policeman at the door, morning" + SEM, card="LA PAZ, 1983")
 b("Se llama Klaus Altmann. Le reclaman una deuda de diez mil dólares.",
   f"altmann_face|{ALTMANN} in portrait, sitting behind a desk with a calm unreadable expression, 1983@@KLAUS ALTMANN",
-  "debt_papers|Close-up of a stack of old Bolivian official documents and an unpaid invoice on a wooden desk, an ink stamp and a pen" + SEM)
+  "debt_papers|Stack of blank cream-colored sheets of paper on a wooden desk seen from a few steps away, a red ink stamp pad and a pen beside it, every sheet completely empty, no writing, no marks, no signs" + SEM)
 b("Días después, lo expulsan a Francia.",
   "plane_night|A military transport propeller plane on a dark runway at night, floodlights, a man in a suit escorted up the stairs between guards")
 b("Lo encierran en Lyon, en la cárcel de Montluc. Allí, cuarenta años antes, él encerraba a sus víctimas.",
@@ -100,7 +100,7 @@ b("Se instala en la calle Prinz Albrecht, número ocho. Arriba, oficinas. En el 
   "cell_inside|Inside a small bare basement cell: a wooden plank bed, a bucket and a tiny high window, cold light, empty")
 b("No hace falta un juez. Tras el incendio del Reichstag, en febrero, un decreto permite la llamada custodia protectora.",
   "reichstag_fire|The Reichstag building in Berlin burning at night in February 1933, the glass dome glowing orange, smoke, crowds watching from far away",
-  "fire_ruin|The burnt-out glass dome of the Reichstag at dawn after the fire, smoke still rising, February 1933",
+  "fire_ruin|The burnt-out glass dome of the Reichstag at dawn after the fire, smoke still rising, February 1933" + SEM + ", no inscription on the building",
   "decree|Close-up of a printed government decree on official paper lying on a desk next to a fountain pen" + SEM)
 b("Es decir: encerrar a cualquiera sin cargos, sin abogado y sin fecha de salida.",
   "arrest_night|Plainclothes policemen in leather coats taking a man in pajamas and a coat out of an apartment building at night, a neighbor watching from a window" + NOINS,
@@ -108,7 +108,7 @@ b("Es decir: encerrar a cualquiera sin cargos, sin abogado y sin fecha de salida
 b("En unos meses, decenas de miles de opositores pasan por sótanos, cuarteles y los primeros campos. Sobre todo, comunistas y socialistas.",
   "truck_prisoners|An open truck full of arrested men in civilian clothes guarded by men in dark coats on a Berlin street, 1933" + NOINS,
   "camp_gate|The wooden gate and barbed-wire fence of an early 1933 detention camp in the German countryside, a watchtower, grey sky, no people" + NOINS + SEM,
-  "lists|Close-up of a typed list of names on a clipboard held by a gloved hand" + SEM)
+  "lists|A gloved hand holding a clipboard seen from behind so only the back of the board and the hand are visible, dim office, no paper visible" + SEM)
 b("Pero esa policía es de Göring. Y otro hombre la quiere: Heinrich Himmler, el jefe de las SS.",
   f"himmler_shadow|{HIMMLER} watching from a doorway in the half dark, glasses glinting" + NOINS,
   "goring_himmler|Two German officials in dark civilian suits facing each other across a desk in a tense silence, a closed folder between them, 1934" + NOINS + SEM,
@@ -138,7 +138,7 @@ b("Ese mismo año, Himmler pasa a ser jefe de toda la policía alemana.",
 b("El trabajo diario queda en manos de Heinrich Müller, un detective de Múnich que había pasado años persiguiendo comunistas.",
   f"muller|{MULLER} in portrait in an office, a hard stare@@HEINRICH MÜLLER",
   f"muller_files|{MULLER} going through a pile of files with two assistants in a smoky office" + NOINS + SEM,
-  "munich_1930|A street in Munich in the 1920s with tram lines and old facades, a policeman in a long coat on the corner, rainy" + NOINS)
+  "munich_1930|A street in Munich in the 1920s with tram lines and old facades, a policeman in a long coat on the corner, rainy, no street signs, no shop signs, no signboards, no lettering anywhere" + NOINS)
 b("Con tanto poder, uno imagina un ejército de agentes. Los números dicen otra cosa.",
   "army_shadow|Long shadows of men in hats stretching across a cobbled street at sunset, seen from above",
   "empty_office|A small provincial police office of the 1930s with only three desks and a typewriter, empty chairs", ideia=True)
@@ -161,7 +161,7 @@ b("La portera denuncia al inquilino. El empleado, a su jefe. La esposa, al marid
   "office_worker|A clerk in a 1930s office looking sideways at his boss behind a glass door",
   "wife|A woman standing at the door of an apartment watching her husband leave down the stairs, a cold look, 1930s")
 b("Una ley de diciembre de mil novecientos treinta y cuatro castiga hasta un comentario contra el régimen.",
-  "pub_whisper|Two men whispering at a table in a smoky 1930s German beer hall, a third man at the next table listening",
+  "pub_whisper|Two men whispering at a table in a smoky 1930s German beer hall, a third man at the next table listening, nobody holds a newspaper, no posters on the walls, no lettering anywhere",
   "ear_wall|Close-up of a woman's ear pressed against a thin apartment wall, flowered wallpaper",
   "radio_joke|A small group of German workers laughing quietly around a 1930s radio set in a factory canteen, one of them glancing over his shoulder")
 b("La propia Gestapo se queja de que muchas denuncias son falsas: venganzas, peleas de vecinos, celos.",
@@ -239,7 +239,7 @@ b("Sus familias no reciben ninguna noticia. Ni dónde están, ni si siguen con v
   "mother_wait|A French woman in her fifties standing at the window of a village house in fog, holding a photograph",
   "empty_chair|An empty chair at a set dinner table in a French kitchen, a plate and a candle")
 b("Keitel lo explica por escrito: para sembrar el terror, la familia no debe saber qué pasó con el detenido.",
-  "keitel_paper|Close-up of a typed order on military paper with a signature, lying on a dark desk" + SEM)
+  "keitel_paper|A folded sheet of blank paper with a fountain pen resting on it, on a dark desk, lamp light, the paper is empty, no writing, no signature" + SEM)
 b("Lo aplican la Gestapo y la policía de seguridad. Hasta abril de mil novecientos cuarenta y cuatro, al menos seis mil seiscientas personas desaparecen así.",
   "fog_figures|A line of prisoners in civilian coats walking into fog between guards, seen from far away" + VIOL + NOINS,
   "folder_nn|A thin brown case file lying alone on a dark desk in a cold office, lamp light" + SEM)
@@ -269,7 +269,7 @@ b("Según los testimonios de su juicio, Barbie torturaba con sus propias manos. 
   "interrogation|A bare interrogation room with a table, a lamp and an empty chair, a man's shadow on the wall" + NOINS,
   "survivor|An elderly French woman in the 1980s looking at an old photograph, a serious face")
 b("Si te gustan estos expedientes, suscríbete. Porque una de las pruebas que más pesaron contra Barbie no fue un testimonio. Fue un papel.",
-  "telex_machine|An old 1940s teleprinter machine with a strip of paper coming out of it, lamp light" + SEM, ideia=True)
+  "telex_machine|An old 1940s teleprinter machine seen from the side in lamp light, a short strip of completely blank paper curling out of it, no characters printed, no buttons with symbols" + SEM, ideia=True)
 
 # ───────────────────────── 8. EL TÉLEX ─────────────────────────
 cap("8. El Télex")
@@ -283,7 +283,7 @@ b("Llegan camiones. Se llevan a cuarenta y cuatro niños y a siete adultos.",
   "trucks_izieu|Two military trucks driving up a dusty country road toward a farmhouse in the hills, seen from far away" + NOINS,
   "empty_yard|The empty yard of a farmhouse with a stone fountain, a child's shoe left on the ground")
 b("Esa noche, Barbie firma un télex para París. Informa de la redada en el hogar de Izieu.",
-  "telex_strip|Close-up of a long strip of teleprinter paper with typed lines and a signature" + SEM,
+  "telex_strip|Close-up of a long strip of completely blank teleprinter paper curling over a dark desk, only faint perforation dots along the edges, no characters, no writing, no signature" + SEM,
   "barbie_sign|Close-up of a man's hand signing a typed message at a desk at night, a lamp" + SEM)
 b("Casi todos son asesinados en Auschwitz. Ninguno de los niños sobrevive. De los adultos, solo vuelve una mujer.",
   "rails|Railway tracks disappearing into the distance under a grey sky, a single signal light",
@@ -305,10 +305,10 @@ b("Himmler se envenena tras ser capturado por los británicos. Heinrich Müller 
   "muller_empty|An empty office chair behind a desk covered in dust and fallen plaster in a ruined Berlin office, 1945" + SEM)
 b("En Núremberg, en mil novecientos cuarenta y seis, el tribunal internacional declara a la Gestapo organización criminal.",
   "nuremberg|The courtroom of the Nuremberg trials in 1946, judges at a long bench, defendants in two rows, military police in white helmets" + NOINS + SEM,
-  "verdict|Close-up of a judge's hands holding a typed verdict, headphones on the desk" + SEM, card="NÚREMBERG, 1946")
+  "verdict|Close-up of a judge's hands holding a blank folded sheet, a Nuremberg courtroom desk behind, a wooden gavel only, no electronics, no writing" + SEM, card="NÚREMBERG, 1946")
 b("Pero condenar a una organización no es juzgar a sus hombres. La mayoría nunca pisa un tribunal. Muchos vuelven a ser policías en Alemania Occidental.",
   "west_police|A West German police station in the 1950s, officers in new uniforms at desks, a calendar on the wall" + NOINS + SEM,
-  "ex_agent|A middle-aged man in a 1950s suit and hat walking calmly down a German street, seen from behind")
+  "ex_agent|A middle-aged man in a 1950s suit and hat walking calmly down a German street seen from behind, plain house facades with every shop window and sign blank, no signs, no shop names, no lettering anywhere" + SEM)
 b("Y a algunos les llega una oferta de trabajo. Viene de los Estados Unidos.",
   "us_jeep|A US Army jeep parked in a ruined German street in 1947, two American soldiers smoking" + SEM, ideia=True)
 
@@ -324,7 +324,7 @@ b("Lo dice un informe del Departamento de Justicia de Estados Unidos, de mil nov
   "report_1983|Close-up of a thick typed government report with a plain cover lying on a desk, 1983" + SEM,
   "us_officers|Two American intelligence officers in 1950 talking quietly in a corridor, one holding a folder" + SEM)
 b("En mil novecientos cincuenta y uno, le consiguen documentos con otro nombre.",
-  "new_papers|Close-up of a hand placing an identity booklet on top of a travel document on a table, an ink stamp beside it" + SEM, ideia=True)
+  "new_papers|Close-up of a hand placing an identity booklet on top of a travel document on a table, an ink stamp beside it, both booklets have plain blank dark covers with no emblem, no text, no writing inside" + SEM, ideia=True)
 
 # ───────────────────────── 11. LA RUTA ─────────────────────────
 cap("11. La Ruta")
@@ -406,9 +406,9 @@ b("En mil novecientos cuarenta y cuatro era capitán de la policía de seguridad
   "rome_1944|A quiet street in Rome in 1944 with old ochre buildings, passers-by hurrying" + NOINS)
 b("Ante la cámara admite que participó en la masacre de las Fosas Ardeatinas: trescientas treinta y cinco personas fusiladas como represalia.",
   "ardeatine|The entrance to old quarry caves in the countryside outside Rome, dark openings in the rock, 1944, no people",
-  "microphone|Close-up of a television microphone held toward an old man's face, his mouth set hard" + SEM)
+  "microphone|Close-up of a television microphone held toward an old man's face, his mouth set hard, plain wall behind him, no signs" + SEM)
 b("Argentina lo extradita a Italia en mil novecientos noventa y cinco. Lo condenan a cadena perpetua, que cumple en arresto domiciliario. Muere en Roma en dos mil trece, con cien años.",
-  "plane_1995|A passenger airplane taking off from an airport with mountains behind, 1995",
+  "plane_1995|A passenger airplane taking off from an airport with mountains behind, 1995, plain white fuselage with no airline name, no logo, no tail emblem, no lettering anywhere",
   "rome_window|An old man's silhouette behind the shutters of an apartment window in Rome, evening")
 b("Hombres de la Gestapo vivieron décadas en Sudamérica. A uno, al final, lo sacaron de allí con una excusa: una deuda.",
   "coat_hook#médio-dir", ideia=True)

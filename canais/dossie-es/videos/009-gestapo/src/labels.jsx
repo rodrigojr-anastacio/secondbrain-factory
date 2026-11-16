@@ -1,39 +1,34 @@
 // Mapas: base gerada sem texto nem pinos; tudo o que é nome, pino e seta é feito aqui (posição em fração da imagem).
-// { t, x, y, size, pin } → rótulo (com pino vermelho em x,y se pin: true; o rótulo fica do lado indicado em "lado")
-// { arrow: [x0, y0, x1, y1] } → seta vermelha animada
-// 008 La Inquisición: posições medidas com grade nas imagens (qa/grade-*.jpg, 13/11/2026) e conferidas num still do render.
+// Chave `chave:bloco` (variante por uso) ou só `chave`. { t, x, y, size, pin, lado } rótulo com pino; { arrow: [x0,y0,x1,y1] } seta.
+// 009 La Gestapo: posições medidas com grade nas bases I075 (mundo) e I088 (Europa), 15/11/2026; y em fração da altura da imagem.
 export const LABELS = {
-  // Expediente 1 (Toulouse 1323 / Roma 1478)
-  map_europa: [
-    { t: 'TOULOUSE', x: 0.09, y: 0.23, size: 30, pin: true, lado: 'dir' },
-    { t: 'ROMA', x: 0.37, y: 0.42, size: 30, pin: true, lado: 'esq' },
+  // Exp. 4: Río de Janeiro → Hamburgo
+  'map_atlantico:N029': [
+    { arrow: [0.405, 0.675, 0.60, 0.22] },
+    { t: 'RÍO DE JANEIRO', x: 0.405, y: 0.675, size: 26, pin: true, lado: 'esq' },
+    { t: 'HAMBURGO', x: 0.60, y: 0.22, size: 26, pin: true, lado: 'dir' },
   ],
-  // Expediente 6 (Exilio): setas de España hacia Portugal, norte de África, Italia e Imperio otomano
-  map_exilio: [
-    { arrow: [0.20, 0.38, 0.115, 0.40] },
-    { arrow: [0.20, 0.38, 0.30, 0.56] },
-    { arrow: [0.20, 0.38, 0.385, 0.25] },
-    { arrow: [0.20, 0.38, 0.72, 0.38] },
-    { t: 'ESPAÑA', x: 0.20, y: 0.38, size: 28, pin: true, lado: 'baixo' },
-    { t: 'PORTUGAL', x: 0.115, y: 0.40, size: 22, pin: true, lado: 'esq' },
-    { t: 'NORTE DE ÁFRICA', x: 0.30, y: 0.56, size: 22, pin: true, lado: 'baixo' },
-    { t: 'ITALIA', x: 0.385, y: 0.25, size: 22, pin: true, lado: 'dir' },
-    { t: 'IMPERIO OTOMANO', x: 0.72, y: 0.38, size: 22, pin: true, lado: 'baixo' },
+  // Exp. 11: Génova → Buenos Aires → La Paz
+  'map_atlantico:N079': [
+    { arrow: [0.585, 0.285, 0.365, 0.75] },
+    { arrow: [0.365, 0.75, 0.338, 0.645] },
+    { t: 'GÉNOVA', x: 0.585, y: 0.285, size: 24, pin: true, lado: 'esq' },
+    { t: 'BUENOS AIRES', x: 0.365, y: 0.75, size: 24, pin: true, lado: 'dir' },
+    { t: 'LA PAZ', x: 0.338, y: 0.645, size: 24, pin: true, lado: 'esq' },
   ],
-  // Expediente 6 e 8: España → Antillas / México
-  map_atlantico: [
-    { arrow: [0.865, 0.26, 0.375, 0.535] },
-    { arrow: [0.865, 0.26, 0.20, 0.47] },
-    { t: 'ESPAÑA', x: 0.865, y: 0.26, size: 26, pin: true, lado: 'baixo' },
-    { t: 'ANTILLAS', x: 0.375, y: 0.535, size: 24, pin: true, lado: 'baixo' },
-    { t: 'MÉXICO', x: 0.20, y: 0.47, size: 24, pin: true, lado: 'baixo' },
+  // Fim do exp. 4 / exp. 5: só Berlín
+  'map_europa:N037': [
+    { t: 'BERLÍN', x: 0.445, y: 0.455, size: 30, pin: true, lado: 'dir' },
   ],
-  // Expediente 9 e 14: Lima, Cartagena, Quito, Chile, Río de la Plata
-  map_sudamerica: [
-    { t: 'CARTAGENA', x: 0.428, y: 0.105, size: 22, pin: true, lado: 'esq' },
-    { t: 'QUITO', x: 0.415, y: 0.285, size: 22, pin: true, lado: 'esq' },
-    { t: 'LIMA', x: 0.445, y: 0.41, size: 26, pin: true, lado: 'esq' },
-    { t: 'CHILE', x: 0.475, y: 0.655, size: 22, pin: true, lado: 'esq' },
-    { t: 'RÍO DE LA PLATA', x: 0.556, y: 0.672, size: 22, pin: true, lado: 'dir' },
+  // Exp. 6: Francia, Bélgica y Holanda → Alemania
+  'map_europa:N047': [
+    { arrow: [0.30, 0.52, 0.43, 0.44] },
+    { arrow: [0.36, 0.445, 0.43, 0.43] },
+    { arrow: [0.355, 0.385, 0.43, 0.42] },
+    { t: 'FRANCIA', x: 0.30, y: 0.52, size: 22, pin: true, lado: 'esq' },
+    { t: 'BÉLGICA', x: 0.36, y: 0.445, size: 20, pin: true, lado: 'esq' },
+    { t: 'HOLANDA', x: 0.355, y: 0.385, size: 20, pin: true, lado: 'esq' },
+    { t: 'ALEMANIA', x: 0.43, y: 0.44, size: 26, pin: true, lado: 'dir' },
   ],
 };
+export const labelsDe = (s) => LABELS[`${s.chave}:${s.bloco}`] || LABELS[s.chave] || [];
