@@ -34,6 +34,11 @@ voz:
   modo: por_bloco                # 1 request por bloco (campo fala_tts do blocos.json, com tags de emoção); brutos em audio/eleven-brutos/ (fora do git)
   velocidade: "atempo no ffmpeg (o v3 não tem parâmetro): hook b01–b06 1,36×, resto 1,1×; alvo ~173 palavras/min (shared/monta_audio_v2.py do 005)"
   chave: "~/.segredos/elevenlabs/api_key (plano mensal de caracteres; nunca imprimir)"
+  reserva:                       # escolhida pelo Rodrigo em 16/11/2026 (amostra C de amostras-voz-reserva/); usar só se a ElevenLabs não puder (saldo/plano/erro)
+    motor: fish
+    voz: e8bccb7beecd46c6a1c64813e0238fa9   # "#NATASHA" (Fish)
+    modelo: drama-3              # não usar s2.1-pro nesta voz (ruído entre blocos)
+    obs: "tirar as tags do v3 do fala_tts antes de gerar; casar ritmo ~173 pal/min (ver amostras-voz-reserva/LEIA.md)"
   sintetica: true                # a descrição do CANAL declara voz sintética; o youtube.txt do vídeo não menciona IA (conhecimento/politicas-youtube.md)
 visual:
   # Mapa 3D com relevo real/satélite conduz; fotos reais com licença dão realidade. Sem IA de cena. Detalhes em biblia/visual.md.
