@@ -20,9 +20,9 @@ Procedimento-base: `playbooks/produzir-video.md` §2. Modelo recomendado: **opus
 4. Use como modelo o `roteiro.py` do **vídeo anterior do mesmo canal** (nunca de outro canal), exceto onde a bíblia revogou algo depois dele.
 
 ## Passos
-0. **Estude a referência pela transcrição completa** (não só o hook): `tools/.venv/bin/python tools/transcrever.py <ID> $V/ref/<nome>.txt <idioma>`, em 1–3 vídeos **do canal-modelo da bíblia** sobre o tema ou a fórmula. Anote como a referência faz o que a bíblia pede (tempo até a promessa, capítulos, transições, loops, fecho). Transcrição de outro canal-modelo não serve de molde.
+0. **Forma da referência, conteúdo nosso (16/11/2026).** Leia o `$V/ANGULO.md` (skill `pesquisa-referencia`, passo 7; sem ele, faça-o antes). A transcrição do canal-modelo (`$V/ref/`) serve **só para a forma** que a seção "Forma (modelada)" da bíblia descreve (tempo até a promessa, transições, loops, fecho). **Proibido:** reescrever/traduzir a transcrição, seguir a ordem de beats dela, usar a anedota-hook ou as anedotas/números que o `ANGULO.md` marcou como consenso da manada como cena principal. **Fatos vêm de pesquisa própria** (livros, artigos acadêmicos, enciclopédias, arquivos, dados oficiais) e vão para o `SOURCES.md` com a fonte de verdade; transcrição de concorrente **nunca** é fonte de fato nem de sequência. Cumpra a **cota de anedotas/dados próprios** da seção "Conteúdo (nosso)" da bíblia do canal (fora de todas as transcrições da manada) e marque no `SOURCES.md` quais são.
 1. **Estrutura:** monte o esqueleto exatamente como `biblia/roteiro.md` define (hook, nº e tipo de capítulo, ligação entre capítulos, fecho). Defina o **fio condutor** e os **loops** e onde cada um é pago.
-2. **Hook:** o molde da bíblia, **pagando a promessa do `EMBALAGEM.md`** (o espectador que clicou pelo T1/T2 + thumb reconhece nos primeiros 30–60 s o que foi prometido). Modele a técnica da referência; **nunca traduza nem copie** o texto. Se, ao escrever, a promessa se mostrar incumprível com os fatos, **não mude o título por conta própria**: registre em `ETAPA1.md` e volte à skill `embalagem` (nova rodada de crivo).
+2. **Hook:** o molde da bíblia, **pagando a promessa do `EMBALAGEM.md`** (o espectador que clicou pelo T1/T2 + thumb reconhece nos primeiros 30–60 s o que foi prometido). Modele a técnica da referência; **nunca traduza nem copie** o texto, e a anedota do hook **não** pode ser a de nenhum vídeo da manada (`ANGULO.md`). Se, ao escrever, a promessa se mostrar incumprível com os fatos, **não mude o título por conta própria**: registre em `ETAPA1.md` e volte à skill `embalagem` (nova rodada de crivo).
 3. **Escreva no `roteiro.py`** (nunca nos arquivos gerados): um bloco `N...` = um arquivo de áudio (2–4 frases); marque `IDEIA` nos blocos que abrem ideia nova (vira `"ideia": true`, usado nas pausas do `build.py`).
    **Escreva para a fala** (regra geral em `conhecimento/roteiros.md`): frases de 4–14 palavras, vírgula onde se respira, "…" só na virada, números por extenso. Tags de tom, `[break]` e pausas: siga `biblia/voz.md` do canal.
    **Texto na tela** (rótulos, cartões de data, placas de capítulo): siga `biblia/visual.md` do canal. Mapas sem texto + rótulos em `src/labels.jsx`.
@@ -30,6 +30,12 @@ Procedimento-base: `playbooks/produzir-video.md` §2. Modelo recomendado: **opus
 5. **Gere e valide:** `cd $V && python3 roteiro.py` (gera `SCRIPT.md`, `blocos.json` e, se o storyboard já estiver no arquivo, `cenas.json`/`STORYBOARD.md`/`storyboard.json`).
 6. Conte as palavras: `python3 -c "import json,re;b=json.load(open('blocos.json'));print(sum(len(re.sub(r'\[[^]]*\]','',x['texto']).split()) for x in b))"` e compare com a tabela "Tamanho" da bíblia (ritmo medido da voz do canal).
 6b. **Só historia-ptbr ≥ 006 (checklist v2):** `python3 ~/workspace/fabrica-youtube/canais/historia-ptbr/tools/checklist_roteiro_v2.py $V` (estima os tempos a 130 ppm antes da voz). Código 1 = reprovou: corrija e rode de novo (vale o limite de 2 rodadas do loop). Cole a saída no `ETAPA1.md`; os 3 itens MANUAL (cena por capítulo, humor, teste da troca) você confere lendo.
+6c. **Detector de cópia + crivo de ângulo (todo vídeo novo, desde 16/11/2026; antes do storyboard e da voz):**
+   ```bash
+   tools/.venv/bin/python tools/similaridade_roteiro.py $V --video <id>     # refs = $V/ref/manada-*.txt (+ outras .txt/.vtt de ref/)
+   ```
+   Grava `$V/SIMILARIDADE.md/.json`: nota 0–100 por referência (cobertura de blocos "gêmeos" × mesma ordem × trigramas; referência em outro idioma é traduzida pelo Haiku com cache, ~US$ 0,01). Código 0 = ok, 2 = atenção, 3 = **cópia**. Depois, dispare o **crivo de ângulo** num Task separado, em primeiro plano, com o prompt de [`CRIVO-ANGULO.md`](CRIVO-ANGULO.md) (revisor sem o seu contexto: recebe só os arquivos). Ele grava `$V/roteiro-crivo/crivo-angulo-r<n>.md` e copia a última rodada para `$V/CRIVO-ANGULO.md`.
+   - **Cópia (código 3) = reprovado automático**; atenção = o crivo decide olhando os trechos. Reprovado → reescreva os blocos/capítulos apontados (troque cena, ordem, anedota; nunca só sinônimos), rode o detector de novo e chame um revisor **novo**. **Máx. 2 rodadas de reescrita**; ainda reprovado → `$V/BLOQUEIO.md` (com a palavra "ângulo") e pare a etapa.
 7. Atualize o status: `psql -d vida -c "UPDATE youtube.videos SET status='roteiro', atualizado_em=now() WHERE id=<id>"`. No historia-ptbr ≥ 006, junto: `biblia_versao='v2'` (versões em `canais/historia-ptbr/biblia/README.md`).
 
 ## Critérios de pronto (avaliar)
@@ -38,7 +44,8 @@ Procedimento-base: `playbooks/produzir-video.md` §2. Modelo recomendado: **opus
 - Nada da lista "O que NÃO fazer aqui" do `biblia/README.md` (ex.: no historia-ptbr, nenhum capítulo-objeto; no dossie-es, nenhuma narrativa sem expedientes).
 - Título (e os 3 do `youtube.txt`) sem morte/morreu/morto/assassinado e equivalentes es/en, nem "chocante/perturbador/massacre" (`conhecimento/politicas-youtube.md`); na narração a morte entra com contexto factual (quem, quando, onde, por quê), sem adjetivo chocante.
 - Tamanho dentro da faixa da bíblia para a duração-alvo.
-- Todo loop aberto é pago; todo fato tem fonte em `SOURCES.md`; `[PENDENTE]` sempre com alternativa.
+- Todo loop aberto é pago; todo fato tem fonte em `SOURCES.md` (fonte própria; transcrição de concorrente não conta); `[PENDENTE]` sempre com alternativa.
+- **Ângulo próprio:** `SIMILARIDADE.md` abaixo do limite de cópia, `CRIVO-ANGULO.md` APROVADO, cota de anedotas próprias da bíblia cumprida (lista no `SOURCES.md`); nota e rodada anotadas no `ETAPA1.md`.
 - `python3 roteiro.py` roda sem erro e `blocos.json` tem `ideia` nos blocos certos.
 - Escreva o resumo da etapa em `$V/ETAPA1.md` (palavras, duração estimada, fio condutor, loops, checklist da bíblia, pendências).
 

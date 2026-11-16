@@ -5,6 +5,22 @@ Base: `pesquisa/archive-in-minutes/LEVANTAMENTO.md` §2 (anatomia, 2026-11-04), 
 
 ---
 
+## Forma (modelada) × Conteúdo (nosso) — desde 16/11/2026
+Diretriz do Rodrigo (16/11/2026): tema com demanda, **ângulo fora da manada**, forma de canal de sucesso. Motivo: no historia-ptbr a regra "remodelar a transcrição" fez o 005-brasil sair quase igual ao History in Minutes (detector 47/100). Aqui a auditoria de 16/11 (`pesquisa/roteiro-angulo-2026-11/AUDITORIA.md`) deu **007 SS = 28 × Archive SS** (`PmpWyltn08s`: a fuga de Himmler com o parche, Oradour e a Noite dos Longos Punhais na mesma ordem e com os mesmos detalhes) e 21 × o clone The Full Record; 008 Inquisición 3; 009 Gestapo ver auditoria.
+
+### Forma (modelada): o que copiamos do Archive in Minutes, de propósito
+- Hook-anedota de 25–35 s (data + lugar → cena → desfecho seco → "Esta es TODA la historia de X" → promessa em 1 linha); 11–14 EXPEDIENTES de 45–75 s com título-objeto falado; cada expediente puxa o próximo; anedota paga no meio ou no fim; cierre que volta ao objeto do hook + aforismo + pergunta; CTA no meio colado num re-hook. Evidência: Archive Gestapo `pbIzG1QvoWs`, KGB `VNJhu4rh6OY`, SS `PmpWyltn08s`; `pesquisa/archive-in-minutes/LEVANTAMENTO.md` §2; retenção nossa 68–83% no 1º minuto (CIA, Mossad; métricas de 09/11).
+- Tom: presente histórico, seco, atribuição a documento; tamanho 11–16 min.
+
+### Conteúdo (nosso): o que nunca vem da referência
+- **Ângulo próprio** (`ANGULO.md`): transcreva a manada (o Archive do tema se existir, os 2–3 de mais views em es/en e os clones: Archivo en Minutos, The Full Record; `tools/manada.py`) e escolha um recorte que ninguém faz. O **ângulo América Latina** (abaixo, "Tom") é o nosso diferencial padrão, mas precisa ser o fio do vídeo, não 1 expediente.
+- **Proibido:** hook do Archive ou dos clones (já era regra); **expediente-objeto que o Archive (ou um vídeo da manada) usa como capítulo** (já era regra no 009; agora vale para toda a manada); a sequência de cenas de um vídeo da manada; traduzir/reescrever transcrição.
+- **Cota: ≥ 50% dos expedientes** com objeto/cena que **não** aparece em nenhuma transcrição da manada (o formato vive de objetos curiosos: os nossos têm de ser outros), listados no `SOURCES.md`. **Hipótese** (16/11/2026).
+- **Fatos de pesquisa própria** (documentos desclassificados, livros, artigos, arquivos, enciclopédias), nunca de transcrição de concorrente.
+- **Portão:** `tools/similaridade_roteiro.py` < 30 e `CRIVO-ANGULO.md` APROVADO (`skills/roteiro/CRIVO-ANGULO.md`) antes do storyboard/voz.
+
+---
+
 ## Estrutura (do hook ao cierre)
 1. **Hook de 25–35 s, molde anedota:** data + lugar → cena humana concreta em 2–4 frases curtas, no presente → **desfecho seco ou reviravolta** → "Esta es TODA la historia de X" → promessa em 1 linha. Sem "hola", sem vinheta, sem pedir inscrição.
    - Archive [O]: Gestapo "In 1943, a war widow tells a colleague at her munitions factory a joke… The colleague reports her. She is put to death. This is the entire history of the Gestapo, and how a small police force watched 80 million people." (promessa aos 9 s, hook ~18 s) · KGB "December 1989, Dresden. A KGB officer burns files so fast the furnace bursts… His name is Vladimir Putin." (13 s; ~22 s) · SS "…thousands of silver rings with a skull… They have never been found."
@@ -64,6 +80,7 @@ Base: `pesquisa/archive-in-minutes/LEVANTAMENTO.md` §2 (anatomia, 2026-11-04), 
 - [ ] Anedota paga; cierre volta ao objeto do hook + pergunta.
 - [ ] Toda acusação atribuída a fonte; ângulo América Latina presente.
 - [ ] Revisão nativa feita; nenhuma palavra em português.
+- [ ] **Ângulo próprio (16/11/2026):** `SIMILARIDADE.md` < 30, `CRIVO-ANGULO.md` APROVADO, ≥ 50% dos expedientes fora da manada (lista no `SOURCES.md`).
 
 ## Métricas 2026-11-09 (relatório semanal)
 - **CIA** (11:47): 83% em 0:42, 70% em 1:17, 52% em 3–5 min, 48% em 6:00, 35% em 7:46; 45,2% assistido (39 views). **Mossad** (13:43): 68% em 0:49, 60% em 1:30, 53% em 4:15, 43% em 5:37–7:40, 38% em 8:22–9:03; 44,3% assistido, 206 views em 3 dias. Retenção acima dos "similares" nos dois. Queda visível no trecho 6:00–7:46 da CIA (**Hipótese:** testar uma virada/anedota ali). FBI (4 views) e Cosa Nostra (0) sem retenção ainda: os hooks de 003/004 seguem **Hipótese**. Fonte: `report.py dossie-es --retencao`, `pesquisa/metricas/2026-11-09.md`.

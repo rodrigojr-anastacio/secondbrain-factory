@@ -44,7 +44,7 @@ Nos nossos roteiros:
 - Narrador que **conta**: passado narrativo, com presente nas cenas vivas e nos hooks ("Olhe para a Índia do espaço em maio…"). Linguagem falada, frases curtas, humor seco ocasional. [O: HiM Irã; SCRIPT.md 002]
 - Escreva para a fala (regra geral em `conhecimento/roteiros.md`): frases de 4–14 palavras, vírgula onde se respira, "…" só na virada.
 - Sem "olá, pessoal", sem vinheta e sem pedido de inscrição no hook. CTA de inscrição no meio: **Hipótese** não testada neste canal (veio do Archive); se usar, cole num re-hook e não quebre o fluxo.
-- **Remodelar a transcrição da referência** (mesma ordem, beats e números, texto reescrito em pt-BR) funcionou na Índia. Troque as autorreferências do concorrente por um equivalente brasileiro do mesmo fato (a fome de 1876 na Índia ↔ a Grande Seca de 1877 no Ceará; Vasco da Gama → Cabral). [estilo.md antigo, aprendizados do 002]
+- **[REVOGADO em 16/11/2026: ver "Forma (modelada) × Conteúdo (nosso)" em `roteiro.md`; o 005-brasil saiu quase igual ao HiM e ao History Easy Guide]** ~~Remodelar a transcrição da referência (mesma ordem, beats e números, texto reescrito em pt-BR) funcionou na Índia.~~ Troque as autorreferências do concorrente por um equivalente brasileiro do mesmo fato (a fome de 1876 na Índia ↔ a Grande Seca de 1877 no Ceará; Vasco da Gama → Cabral). [estilo.md antigo, aprendizados do 002]
 
 ## Tamanho (com a voz do canal)
 | Vídeo | Palavras | Estrutura | Duração | Fonte |

@@ -8,6 +8,23 @@ Checklist mensurável: `python3 canais/historia-ptbr/tools/checklist_roteiro_v2.
 
 ---
 
+## Forma (modelada) × Conteúdo (nosso) — desde 16/11/2026
+Diretriz do Rodrigo (16/11/2026): *"não fazer o que todo mundo está fazendo: identificar um tema que tem demanda, mas abordá-lo de outro ângulo, para fugir da manada. Mas ter um padrão claro de roteiro que funciona em canais de sucesso."* Motivo: o 005-brasil (09/11) saiu praticamente igual ao History in Minutes "Brazil" (`Vug2cLY3nxk`) e ao clone History Easy Guide (`sD0cIJ8JMYw`, 27/10), porque esta bíblia mandava remodelar a transcrição. Detector (`tools/similaridade_roteiro.py`, 16/11): **47/100 × HiM e 38 × HEG = cópia**; vídeos independentes do mesmo tema dão 3–13 (`pesquisa/roteiro-angulo-2026-11/CALIBRAGEM.md`).
+
+### Forma (modelada): o que copiamos dos canais de sucesso, de propósito
+- **Esqueleto HiM:** anedota-porta no presente → pergunta central → "essa é a história inteira de X" → 8–10 eras cronológicas ligadas por causa→consequência → fecho que responde e paga o hook (HiM Irã `XVwr1Rm_9jc`, Brasil `Vug2cLY3nxk`; `pesquisa/roteiro-historia-2026-11/RELATORIO.md` §2).
+- **Técnicas medidas** (as 12 regras abaixo): pergunta até ~0:50 que volta ≥ 3× (grupo A 0:14–0:56; História na Marra 1:30→22:48→24:26); problema → solução → novo problema com ≥ 1,5 conectivo/100 (HnM 1,2–2,5); "você/imagine" ≥ 1/100 (Ink 2,5–3,8); cena antes dos fatos; humor seco; ≤ 2 "guarde"; hook ≤ 45 s; fecho ≤ 45 s.
+- Ritmo, tamanho e tom (tabela "Tamanho"; voz em `voz.md`).
+
+### Conteúdo (nosso): o que nunca vem da referência
+- **Ângulo próprio** (`ANGULO.md`, skill `pesquisa-referencia` passo 7): antes da embalagem, transcreva a manada (3–5 vídeos de mais views do tema em pt/en + o vídeo do HiM/Genius sobre o tema + clones pt como o History Easy Guide; `tools/manada.py`), mapeie o consenso e escolha uma **tese/recorte/fio condutor que nenhum deles usa**. A pergunta central (regra 1) é a forma do ângulo: ela tem de ser diferente da pergunta dos vídeos da manada.
+- **Proibido:** reescrever ou traduzir a transcrição; seguir a ordem de beats de um vídeo da manada; abrir com a anedota-hook de qualquer um deles (ex.: Zweig/"país do futuro" no Brasil; ver `pesquisa/roteiro-angulo-2026-11/`); usar como cena principal uma anedota que 2+ vídeos repetem (fato obrigatório do tema pode aparecer de passagem, com palavras e lugar nossos).
+- **Cota: ≥ 40% das anedotas/cenas principais** (as cenas de abertura de era, o hook e as falas de personagem) **fora de todas as transcrições da manada**, listadas no `SOURCES.md` com a fonte. **Hipótese** (16/11/2026) a calibrar com as primeiras medições.
+- **Fatos de pesquisa própria:** livros, artigos acadêmicos, enciclopédias (Britannica, verbetes acadêmicos), arquivos e dados oficiais no `SOURCES.md`. Transcrição de concorrente só mapeia a manada; nunca é fonte de fato nem de sequência.
+- **Portão:** `tools/similaridade_roteiro.py` < 30 (cópia) e `CRIVO-ANGULO.md` APROVADO (`skills/roteiro/CRIVO-ANGULO.md`) antes do storyboard/voz.
+
+---
+
 ## O que não muda (essência do molde)
 - **Narrativa contínua, não fichas.** O vídeo é uma história só, que dá vontade de continuar ouvindo. Cada era nasce da anterior e causa a próxima. Se der para trocar dois capítulos de lugar sem quebrar nada, o roteiro está errado. Feedback do Rodrigo no 003 v1 (04/11/2026): "não tem cara de história, falta conexão entre as partes"; "parece que o cara tá lendo corrido, e não contando uma história".
 - **Nada de capítulo-objeto** do Archive in Minutes (é do `dossie-es`; ver `README.md`).
@@ -100,7 +117,7 @@ Começo do capítulo 1:
 ## Tom e escrita (continua da v1, ajustado)
 - Narrador que **conta**: presente nas cenas e no hook, passado narrativo no resto. Linguagem falada (`conhecimento/roteiros.md`): frases de 4–14 palavras, vírgula onde se respira, "…" só na virada, nunca 3 frases seguidas abrindo com data.
 - Sem "olá, pessoal", vinheta ou pedido de inscrição no hook.
-- **Remodelar a transcrição da referência** continua valendo (mesma ordem, beats e números, texto reescrito em pt-BR, ~30% mais curto), **mas passando pelas regras da v2**: trocar a ficha por cena, pôr o "você", cortar a lista do hook. Troque autorreferências do concorrente por equivalente brasileiro do mesmo fato (fome de 1876 na Índia ↔ Grande Seca de 1877 no Ceará).
+- ~~Remodelar a transcrição da referência (mesma ordem, beats e números)~~ **REVOGADO em 16/11/2026** (Rodrigo): era a causa de o 005-brasil sair quase igual ao History in Minutes `Vug2cLY3nxk` e ao clone History Easy Guide `sD0cIJ8JMYw`. A referência é molde de **forma**; o conteúdo segue "Conteúdo (nosso)" acima. A ponte brasileira (fome de 1876 na Índia ↔ Grande Seca de 1877 no Ceará) continua boa ideia, como anedota nossa.
 
 ## Tamanho (com a voz do canal)
 | Vídeo | Bíblia | Palavras | Estrutura | Duração | ppm (com pausas) | Fonte |
@@ -143,6 +160,7 @@ Rode `python3 canais/historia-ptbr/tools/checklist_roteiro_v2.py canais/historia
 - [ ] ≤ 2 "guarde" (7). Cap. 1 entre 1:00 e 1:15; promessa ≤ 2 itens (8).
 - [ ] Ritmo 140–145 ppm depois da voz (10; Hipótese, não bloqueia o 006 se o resto passar e o desvio estiver anotado). Fecho ≤ 45 s (11).
 - [ ] Aviso (não bloqueia): 1–2 falas de personagem (9); ≤ 2 capítulos abrindo com data; média ≤ 12,5 palavras/frase.
+- [ ] **Ângulo próprio (16/11/2026):** `SIMILARIDADE.md` < 30 contra toda a manada, `CRIVO-ANGULO.md` APROVADO, ≥ 40% das cenas principais fora das transcrições (lista no `SOURCES.md`).
 - [ ] **Manual:** 1 cena por capítulo antes dos fatos (5); humor seco a cada ~40–60 s (6); teste da troca, fio condutor em ≥ 3 capítulos, todo loop pago; todo fato com fonte em `SOURCES.md`.
 - **Resultado de referência no 004 China (v1, 07/11/2026):** reprova em 12 itens obrigatórios: pergunta não declarada, volta 1× (alvo 3), conectivos 0,91, 4/10 capítulos fecham com problema, 3 aberturas de sucessão seca (caps. 4, 7 e 10), "você" 0,19 e ponte em 2/10 capítulos, 4 "guarde", cap. 1 aos 1:17, promessa de ~3 itens, 129 ppm, fecho de 0:51. Passa: pergunta aos 0:42. É o retrato do que a v2 corrige.
 - **1º vídeo v2, 006 Roma (09/11/2026):** passa em 13/14 obrigatórios com os tempos reais (pergunta 0:48, volta 5×, conectivos 1,57, "você" 1,03, ponte 10/10, 1 "guarde", cap. 1 em 1:11, fecho 0:43); reprova só o ritmo (128 ppm). O que ajudou a passar de primeira: escrever a pergunta central igual no `PERGUNTA` do `roteiro.py` e no hook; frases de retorno explícitas ("primeira/segunda/terceira peça da resposta", "lembra da nossa pergunta?"); "O problema…" ou pergunta na última frase de cada capítulo. Atenção ao orçamento: 2.224 palavras deram 17:29 (acima dos 17); mire ~2.050. Retenção ainda não medida (Hipótese). [QA.md 006]

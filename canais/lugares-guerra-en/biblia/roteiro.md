@@ -2,6 +2,20 @@
 
 Base: transcrições completas do Iwo Jima (WTS, 4,5 mi) e do Lincoln (CWFP, 882 mil) em `pesquisa/lugares-guerra/transcricoes/`, análise em `pesquisa/lugares-guerra/ANATOMIA.md` §2 (12/11/2026). [O] = observado na referência; [I] = nossa regra/hipótese.
 
+## Forma (modelada) × Conteúdo (nosso) — desde 16/11/2026
+Diretriz do Rodrigo (16/11/2026): tema com demanda, **ângulo fora da manada**, forma de canal de sucesso (no historia-ptbr, remodelar a transcrição fez o 005-brasil sair quase igual ao History in Minutes: detector 47/100). Auditoria de 16/11: **004 Pearl Harbor = 2/100** contra 6 vídeos (Jared Owen, Forgotten Fleet, Where They Stood): ângulo próprio (`pesquisa/roteiro-angulo-2026-11/AUDITORIA.md`).
+
+### Forma (modelada): o que copiamos, de propósito
+- Os 6 blocos abaixo (portão fechado + papel → âncora humana + pergunta do título → o que aconteceu → por que fechou → o que ainda está lá → fecho "because… because…"): Where They Stood "Iwo Jima" (4,5 mi) e Civil War Fine Print "Lincoln" (882 mil), transcrições em `pesquisa/lugares-guerra/transcricoes/`, `ANATOMIA.md` §2.
+- Documento lido literalmente e grifado; plantas pagas; troca de tipo de tela a cada 8–12 s.
+
+### Conteúdo (nosso): o que nunca vem da referência
+- **Ângulo próprio** (`ANGULO.md`): transcreva a manada do lugar (WTS, Forgotten Fleet, Jared Owen e os 2–3 de mais views; `tools/manada.py`) e escolha **o documento e a pergunta que ninguém usou** (o nosso diferencial é o papel oficial: o documento-âncora tem de ser outro que o deles).
+- **Proibido:** o hook "Right now, …" e o pacote do WTS (já era regra); a sequência de cenas de um vídeo da manada; a âncora humana que eles usam; traduzir/reescrever transcrição.
+- **Cota: ≥ 40% das cenas/documentos principais** fora de todas as transcrições da manada, listados no `SOURCES.md`. **Hipótese** (16/11/2026).
+- **Fatos de fonte primária** (NARA, NHHC, NPS, DPAA, relatórios oficiais), nunca de transcrição.
+- **Portão:** `tools/similaridade_roteiro.py` < 30 e `CRIVO-ANGULO.md` APROVADO antes do storyboard/voz.
+
 ## Tamanho e ritmo
 - **Medido com a voz Narrator (002, 13/11/2026):** 2.549 palavras = 15,2 min de fala ≈ 168 ppm; com pausas, vídeo de 16:04. Para 18 min, ~2.850 palavras.
 - **16–20 min, alvo 18** → ~2.600–2.900 palavras a ~150 palavras/min (Iwo: 161 ppm [O]; Lincoln: 203 ppm [O]). Medir com a voz escolhida e ajustar.
@@ -29,4 +43,5 @@ Base: transcrições completas do Iwo Jima (WTS, 4,5 mi) e do Lincoln (CWFP, 882
 - [ ] 3 plantas pagas; fecho volta ao objeto do hook.
 - [ ] ≥ 4 documentos lidos e grifados; ≥ 1 então × agora; ≥ 3 números grandes; ≥ 2 mapas 2D.
 - [ ] Toda afirmação em `SOURCES.md`; material só PD/CC0/CC BY com crédito (`licencas.md`).
+- [ ] **Ângulo próprio (16/11/2026):** `SIMILARIDADE.md` < 30, `CRIVO-ANGULO.md` APROVADO, ≥ 40% das cenas/documentos fora da manada.
 - [ ] 2.600–2.900 palavras; capítulos na descrição em ordem crescente desde 0:00.
