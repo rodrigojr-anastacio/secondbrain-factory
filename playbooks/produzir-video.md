@@ -35,9 +35,12 @@ tools/claude_run.sh --video $ID --etapa producao --cwd $V --prompt-file $V/.prom
 
 ## 1. Brief (`BRIEF.md`)
 - Tema, título de trabalho, duração-alvo, idioma, fórmula do canal.
-- **Modelo de referência** (vídeo que performou, do **canal-modelo da bíblia** ou do mesmo formato): estrutura, hook, duração. Modele a estrutura; nunca traduza ou copie o texto.
+- **Modelo de referência** (vídeo que performou, do **canal-modelo da bíblia** ou do mesmo formato): estrutura, hook, duração. Modele só a **forma**; ordem dos beats, anedotas e números vêm do nosso ângulo e de fontes próprias; nunca traduza, reescreva ou copie o texto.
 - Use `tools/watch.py <ID>` na referência para ter o hook real e os frames.
 - Critérios de pronto e restrições do canal.
+
+## 1a. Ângulo (antes da embalagem; desde 16/11/2026)
+Forma modelada dos canais de sucesso, **conteúdo e ângulo nossos** (Rodrigo, 16/11/2026: "tema com demanda, outro ângulo, fugir da manada"). `tools/manada.py buscar/transcrever` nos 3–5 vídeos de mais views do tema (+ canal-modelo + clones) → `ANGULO.md` com o consenso da manada e o ângulo escolhido (`skills/pesquisa-referencia/SKILL.md`, passo 7). No fim do roteiro: `tools/similaridade_roteiro.py` (cópia ≥ 30 reprova) + crivo de ângulo independente (`skills/roteiro/CRIVO-ANGULO.md`, máx. 2 reescritas; reprovado = `BLOQUEIO.md`).
 
 ## 1b. Embalagem + crivo (antes do roteiro; desde 14/11/2026)
 Título (T1/T2) + conceito de thumb + promessa com pesquisa real no YouTube, avaliados por crivo independente: `skills/embalagem/SKILL.md` e `CRIVO.md`. Saída `EMBALAGEM.md` + `CRIVO.md`; reprovado 3× = `BLOQUEIO.md`. O portão é só o crivo (o Rodrigo não aprova cada embalagem). O roteiro abaixo paga a promessa no hook/1º minuto.

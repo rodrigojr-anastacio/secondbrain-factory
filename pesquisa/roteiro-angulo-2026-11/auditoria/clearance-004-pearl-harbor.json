@@ -1,0 +1,159 @@
+{
+ "pasta": "canais/lugares-guerra-en/videos/004-pearl-harbor",
+ "roteiro": "canais/lugares-guerra-en/videos/004-pearl-harbor/blocos.json",
+ "idioma": "en",
+ "blocos": 71,
+ "nota": 2.2,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [],
+ "referencias": [
+  {
+   "cobertura": 0.028169014084507043,
+   "ordem": 0.0,
+   "ngramas": 0.008032128514056224,
+   "sim_media": 0.14831276963109918,
+   "gemeos": 2,
+   "blocos": 71,
+   "posicoes": [
+    [
+     57,
+     115
+    ],
+    [
+     58,
+     122
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 58,
+     "cos": 0.35,
+     "nosso": "Even the anniversary ceremony at the Utah, on December 6th this year, is open to the public, as long as you have military base access to Ford Island. The same goes for the ceremony the next afternoon at the Oklahoma memorial, which honors 429 of her crew. Open",
+     "ref": "7th, the Navy holds a sunset ceremony right at the memorial itself. It's technically open to the public, but open to the public still means you need a valid military, government,"
+    },
+    {
+     "bloco": 57,
+     "cos": 0.33,
+     "nosso": "The tour runs on Mondays, Wednesdays and Fridays, in the afternoon, and the Park Service warns that base security can cancel it on short notice.",
+     "ref": "Island bus tour, run jointly by the National Park Service and the Navy. It operates just three days a week, Monday, Wednesday, and Friday for a single 90minute round"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/clearance-004-pearl-harbor/manada-0F3PpD3qBwI.txt",
+   "idioma_ref": "en",
+   "traduzido": false,
+   "palavras_ref": 2520,
+   "nota": 2.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014084507042253521,
+   "ordem": 0.0,
+   "ngramas": 0.00321285140562249,
+   "sim_media": 0.11440707896212736,
+   "gemeos": 1,
+   "blocos": 71,
+   "posicoes": [
+    [
+     63,
+     61
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 63,
+     "cos": 0.34,
+     "nosso": "Every year, around one and a half million people visit the Pearl Harbor National Memorial. They watch the film. They take the boat. They look down at the oil still rising from the Arizona.",
+     "ref": "victory. It straddles the wreck without touching it. More than 2 million people visit every year. From the sides of the memorial, you can look directly down at the hull of the ship below the surface. And if you watch long"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/clearance-004-pearl-harbor/manada-S8Gd74x5N6w.txt",
+   "idioma_ref": "en",
+   "traduzido": false,
+   "palavras_ref": 1385,
+   "nota": 1.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014084507042253521,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.12614239107024092,
+   "gemeos": 1,
+   "blocos": 71,
+   "posicoes": [
+    [
+     65,
+     0
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 65,
+     "cos": 0.34,
+     "nosso": "And here it is now, still an airfield shape in the middle of the harbor, still behind a gate. A few miles away, the Big Barracks still stands, with its walls the way the morning left them. Here it is in 1941, burning.",
+     "ref": "Right now, in the middle of Hanoi, an American B52 bomber is sitting in a pond. This is what's left of it. It's a big piece of the bomber's middle with its landing gear still standing in the water."
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/clearance-004-pearl-harbor/manada-gnzKt88W5hg.txt",
+   "idioma_ref": "en",
+   "traduzido": false,
+   "palavras_ref": 3726,
+   "nota": 0.8,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.00321285140562249,
+   "sim_media": 0.1236195451762441,
+   "gemeos": 0,
+   "blocos": 71,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/clearance-004-pearl-harbor/manada-WZI_g6WMbCk.txt",
+   "idioma_ref": "en",
+   "traduzido": false,
+   "palavras_ref": 2267,
+   "nota": 0.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.001606425702811245,
+   "sim_media": 0.1225881359531115,
+   "gemeos": 0,
+   "blocos": 71,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/clearance-004-pearl-harbor/manada-D0mwYK5g1Ms.txt",
+   "idioma_ref": "en",
+   "traduzido": false,
+   "palavras_ref": 3780,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.001606425702811245,
+   "sim_media": 0.09792784131359179,
+   "gemeos": 0,
+   "blocos": 71,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/clearance-004-pearl-harbor/manada-JDj50jwj5ko.txt",
+   "idioma_ref": "en",
+   "traduzido": false,
+   "palavras_ref": 566,
+   "nota": 0.1,
+   "veredito": "ok"
+  }
+ ]
+}

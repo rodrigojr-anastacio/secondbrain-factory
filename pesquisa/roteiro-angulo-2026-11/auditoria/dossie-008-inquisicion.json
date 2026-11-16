@@ -1,0 +1,219 @@
+{
+ "pasta": "canais/dossie-es/videos/008-inquisicion",
+ "roteiro": "canais/dossie-es/videos/008-inquisicion/blocos.json",
+ "idioma": "es",
+ "blocos": 96,
+ "nota": 3.4,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [
+  66
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.041666666666666664,
+   "ordem": 0.75,
+   "ngramas": 0.004366812227074236,
+   "sim_media": 0.1732918269357027,
+   "gemeos": 4,
+   "blocos": 96,
+   "posicoes": [
+    [
+     17,
+     135
+    ],
+    [
+     60,
+     130
+    ],
+    [
+     83,
+     308
+    ],
+    [
+     85,
+     340
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 17,
+     "cos": 0.52,
+     "nosso": "Es el primer auto de fe de la Inquisición española: una ceremonia pública en la que se leen las sentencias ante la multitud.",
+     "ref": "sometidos a un auto de fe, es decir, un acto de fe: ceremonias públicas celebradas por la Inquisición en las que se leían las sentencias ante una"
+    },
+    {
+     "bloco": 60,
+     "cos": 0.41,
+     "nosso": "Uno de los inquisidores, Alonso de Salazar y Frías, recorre la región durante meses.",
+     "ref": "brujas que se reunía en una cueva; la prueba era que había soñado con ello. El inquisidor Alonso de Salazar y Frías vino"
+    },
+    {
+     "bloco": 85,
+     "cos": 0.39,
+     "nosso": "El Archivo. París, mil ochocientos diecisiete. Juan Antonio Llorente, que había sido secretario de la Inquisición, publica su historia del tribunal.",
+     "ref": "leyenda negra también fue impulsada por un secretario desertor: Juan Antonio Llorente, antiguo secretario de la Inquisición en Madrid."
+    },
+    {
+     "bloco": 83,
+     "cos": 0.36,
+     "nosso": "El quince de julio de mil ochocientos treinta y cuatro, la Inquisición española queda abolida para siempre.",
+     "ref": "vez. La Inquisición española fue abolida definitivamente en julio de 1834. A lo largo de sus casi 4 siglos de existencia,"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/dossie-008-inquisicion/manada-FQXDIUjr41M.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4301,
+   "nota": 3.4,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.03125,
+   "ordem": 1.0,
+   "ngramas": 0.0,
+   "sim_media": 0.15975182109910233,
+   "gemeos": 3,
+   "blocos": 96,
+   "posicoes": [
+    [
+     16,
+     60
+    ],
+    [
+     34,
+     93
+    ],
+    [
+     66,
+     213
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 66,
+     "cos": 0.38,
+     "nosso": "Treinta y tres años antes, la misma Inquisición había condenado a la hoguera, en Roma, al filósofo Giordano Bruno.",
+     "ref": "Italia la inquisición portuguesa y la romana. La romana es famosa por condenar a la hoguera a Giordano Bruno y por investigar a Galileo"
+    },
+    {
+     "bloco": 16,
+     "cos": 0.37,
+     "nosso": "El Primer Auto. Sevilla, seis de febrero de mil cuatrocientos ochenta y uno. Seis personas mueren en la hoguera a las afueras de la ciudad.",
+     "ref": "estableció en la corona de Aragón. El primer auto de fe se celebró en Sevilla en 1481 donde fueron quemadas seis personas"
+    },
+    {
+     "bloco": 34,
+     "cos": 0.32,
+     "nosso": "El Decreto. Granada, treinta y uno de marzo de mil cuatrocientos noventa y dos. Isabel y Fernando firman la expulsión de los judíos que no se bauticen.",
+     "ref": "expulsión de los judíos de España mediante el edicto de Granada con la finalidad, según el decreto, de impedir que siguieran influyendo"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/dossie-008-inquisicion/manada-dXrCFN1Z4MI.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2541,
+   "nota": 2.5,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.020833333333333332,
+   "ordem": 0.0,
+   "ngramas": 0.002183406113537118,
+   "sim_media": 0.14253673357721725,
+   "gemeos": 2,
+   "blocos": 96,
+   "posicoes": [
+    [
+     19,
+     73
+    ],
+    [
+     66,
+     174
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 19,
+     "cos": 0.35,
+     "nosso": "En mil cuatrocientos ochenta y tres, un fraile dominico se convierte en inquisidor general: Tomás de Torquemada.",
+     "ref": "Fray Tomás de torque mada llegaría al cargo de inquisidor General centralizando así la dirección de la inquisición"
+    },
+    {
+     "bloco": 66,
+     "cos": 0.32,
+     "nosso": "Treinta y tres años antes, la misma Inquisición había condenado a la hoguera, en Roma, al filósofo Giordano Bruno.",
+     "ref": "inquisición no era Solo español también existía La Romana o la portuguesa de hecho La Romana fue la que llevó la hoguera a Giordano Bruno por sus opiniones"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/dossie-008-inquisicion/manada-HHMscaS3jGc.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2449,
+   "nota": 1.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.010416666666666666,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.15224382575692774,
+   "gemeos": 1,
+   "blocos": 96,
+   "posicoes": [
+    [
+     29,
+     141
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 29,
+     "cos": 0.38,
+     "nosso": "El penitente la lleva puesta en público durante meses o años.",
+     "ref": "rituales públicos de sentencia y penitencia. Durante estos juicios públicos, los acusados debían vestir prendas penitenciales"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/dossie-008-inquisicion/manada-gVaBl_vklI4.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2799,
+   "nota": 0.6,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.010416666666666666,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.1250215543834591,
+   "gemeos": 1,
+   "blocos": 96,
+   "posicoes": [
+    [
+     14,
+     39
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 14,
+     "cos": 0.3,
+     "nosso": "Se los acusa de seguir con el judaísmo en secreto. El tribunal los llama judaizantes.",
+     "ref": "practicaban el judaísmo en secreto. El odio hacia los conversos era tanto religioso como económico, ya que los conversos constituían la mayoría"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/dossie-008-inquisicion/manada-zmcKS47BsAo.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 761,
+   "nota": 0.6,
+   "veredito": "ok"
+  }
+ ]
+}

@@ -20,8 +20,11 @@ O orquestrador (Hermes, Claude Code ou outro) **planeja, dispara e confere**; o 
 ## Etapa 0: brief (no próprio orquestrador, curta)
 Siga a skill `pesquisa-referencia`: referência com `tools/watch.py`, linha em `youtube.videos` (anote o `<id>`), pasta `$V` e `$V/BRIEF.md` com **teto de custo em US$**. Sem `BRIEF.md` com teto, não dispare nada pago.
 
+## Etapa 0a: ângulo (todo vídeo novo desde 16/11/2026, antes da embalagem)
+Pedido do Rodrigo (16/11/2026): tema com demanda, **ângulo fora da manada**, forma de canal de sucesso (o 005-brasil saiu quase igual ao History in Minutes: detector 47/100). Skill `pesquisa-referencia`, passo 7: `tools/manada.py` transcreve os 3–5 vídeos de mais views do tema (+ canal-modelo + clones) → `$V/ANGULO.md` (consenso da manada, 2–3 ângulos, 1 escolhido, anedotas próprias previstas). A embalagem vende esse ângulo; o roteiro o executa e, no fim da etapa 1, passa pelo **detector de cópia** (`tools/similaridade_roteiro.py`, cópia ≥ 30) e pelo **crivo de ângulo** (`skills/roteiro/CRIVO-ANGULO.md`, Task independente, máx. 2 reescritas; reprovado = `BLOQUEIO.md`). Forma × conteúdo de cada canal: seções "Forma (modelada)" e "Conteúdo (nosso)" da bíblia de roteiro.
+
 ## Etapa 0b: embalagem + crivo (todo vídeo novo desde 14/11/2026, antes do roteiro)
-Ordem nova (decisão do Rodrigo, 14/11/2026): **pesquisa-referencia → embalagem + crivo → roteiro → hook → storyboard → voz → imagens → render.** Siga a skill `embalagem` (`skills/embalagem/SKILL.md`): pesquisa real no YouTube, 3 pares título+thumb (T1/T2/T3 + Thumbs A/B/C de **3 padrões visuais diferentes**, desde 16/11/2026) + a promessa, em `$V/EMBALAGEM.md` e `$V/embalagem/variantes.json`; um revisor independente (Task separado, `skills/embalagem/CRIVO.md`) grava `$V/CRIVO.md`.
+Ordem (14/11/2026; ângulo e detector desde 16/11/2026): **pesquisa-referencia → ângulo (`ANGULO.md`) → embalagem + crivo → roteiro → detector de cópia + crivo de ângulo → storyboard → voz → imagens → render.** Siga a skill `embalagem` (`skills/embalagem/SKILL.md`): pesquisa real no YouTube, 3 pares título+thumb (T1/T2/T3 + Thumbs A/B/C de **3 padrões visuais diferentes**, desde 16/11/2026) + a promessa, em `$V/EMBALAGEM.md` e `$V/embalagem/variantes.json`; um revisor independente (Task separado, `skills/embalagem/CRIVO.md`) grava `$V/CRIVO.md`.
 - **Portão = só o crivo** (o Rodrigo não aprova cada embalagem). Reprovado → reescreve e passa de novo, **máx. 3 rodadas**; ainda reprovado → `$V/BLOQUEIO.md` e o vídeo para.
 - Sem `CRIVO.md` aprovado, **não comece o roteiro**; a etapa 1 do lote só grava `ETAPA1-PRONTA.md` com `CRIVO.md` aprovado.
 - Não vale para vídeos feitos, agendados ou com etapa 1 já concluída.
@@ -34,7 +37,7 @@ Para cada etapa, escreva o briefing `$V/.prompt-<etapa>.md` com: objetivo; **"le
 
 | # | `--etapa` | Modelo | Skills | Sai quando |
 |---|---|---|---|---|
-| 1 | `roteiro-storyboard` | opus | `embalagem` (+ crivo em Task separado), `roteiro`, `storyboard` | `EMBALAGEM.md` + `CRIVO.md` aprovado (senão `BLOQUEIO.md` e para), `SCRIPT.md`, `blocos.json`, `cenas.json`, `STORYBOARD.md`, `storyboard.json`, `ETAPA1.md` |
+| 1 | `roteiro-storyboard` | opus | `pesquisa-referencia` (passo 7: ângulo), `embalagem` (+ crivo em Task separado), `roteiro` (+ detector + crivo de ângulo), `storyboard` | `ANGULO.md`, `EMBALAGEM.md` + `CRIVO.md` aprovado (senão `BLOQUEIO.md` e para), `SIMILARIDADE.md` + `CRIVO-ANGULO.md` aprovado, `SCRIPT.md`, `blocos.json`, `cenas.json`, `STORYBOARD.md`, `storyboard.json`, `ETAPA1.md` |
 | 2 | `producao` | sonnet | `voz`, `imagens`, `thumbnail` (3 bases, uma por conceito A/B/C aprovado em `EMBALAGEM.md`) | `audio/` e `imagens/` completos, `thumb-var/`, `ETAPA2.md` |
 | 3 | `montagem-render` | sonnet | `montagem-render`, `thumbnail` (final), `pacote-youtube`, `qa` | `out/video.mp4`, `out/thumbnail.jpg`, `out/legendas.srt`, `out/youtube.txt`, `QA.md`, `ETAPA3.md` |
 

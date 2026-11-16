@@ -16,6 +16,7 @@ Modelo: **opus** (etapa 1 do lote). O crivo roda num **Task separado** (revisor 
 
 ## Entrada
 - Tema + `$V/BRIEF.md` (saída da `pesquisa-referencia`: referência, fontes, duração-alvo, teto).
+- **`$V/ANGULO.md`** (desde 16/11/2026; `pesquisa-referencia` passo 7): a manada do tema, o consenso que o vídeo não repete e o **ângulo escolhido**. A promessa (passo 4) **vende o ângulo** (não o consenso da manada) e os títulos não devem prometer o hook/recorte de um vídeo da manada. Sem `ANGULO.md`, faça-o antes.
 - Sem `BRIEF.md`, não comece.
 
 ## Antes de agir

@@ -28,6 +28,7 @@ Procedimento-base: checklist de `playbooks/produzir-video.md` §6 e §7. Modelo 
    - **título** na fórmula de `biblia/titulo.md`; **thumb** no template de `biblia/thumb.md`; **visual** (contact sheet) com a identidade de `biblia/visual.md`; **voz** = a de `biblia/voz.md`;
    - nada da lista "O que NÃO fazer aqui" do `biblia/README.md`. Qualquer item de outro canal = **reprovado**, volta para a skill culpada.
 6b. **Embalagem cumprida** (vídeos com `EMBALAGEM.md`, desde 14/11/2026): (a) a **promessa foi paga**: ache a frase-âncora na `out/legendas.srt` (`grep -n`) e anote o timestamp; paga depois de 1:00 = ressalva, não paga = **reprovado** (volta ao `roteiro`); (b) a **thumb final** (`out/thumbnail.jpg` e as variações) bate com o conceito aprovado (composição, foco, texto ≤ 3 palavras); conceito trocado sem registro = reprovado (volta à `thumbnail`); (c) títulos A/B do `youtube.txt` = T1/T2 aprovados.
+6c. **Ângulo próprio** (vídeos com `ANGULO.md`, desde 16/11/2026; auditoria de vídeo antigo também): confira que `SIMILARIDADE.md` e `CRIVO-ANGULO.md` existem e aprovaram. Se o roteiro mudou depois da etapa 1, rode de novo `tools/.venv/bin/python tools/similaridade_roteiro.py $V --video <id>` (cache de tradução: ~US$ 0). Nota ≥ 30 (cópia) = **reprovado** (volta ao `roteiro`); 18–29 = ressalva com os trechos no `QA.md`.
 7. Escreva `$V/QA.md`: checklist marcado com números, problemas, correções feitas, pendências e a seção **"Reprovações"** (ver Loop, passo 3). Status: `UPDATE youtube.videos SET status='qa'` durante; `pronto` quando aprovado.
 
 ## Critérios de aprovação (objetivos)
@@ -38,6 +39,7 @@ Procedimento-base: checklist de `playbooks/produzir-video.md` §6 e §7. Modelo 
 - [ ] `preqa_visual.py` no render final sem bloqueante confirmado (`qa/PREQA-visual.md`).
 - [ ] Cenas nomeadas fiéis; nenhum lugar real no lugar de fictício; nenhum frame de filme; nada cortado/sobreposto; nenhum texto gerado pela IA; um HUD por vez.
 - [ ] `.srt` sincronizada; capítulos em ordem desde 0:00; thumb JPG < 2 MB.
+- [ ] **Ângulo próprio:** `SIMILARIDADE.md` < 30 (nota anotada) e `CRIVO-ANGULO.md` APROVADO.
 - [ ] **Embalagem cumprida:** promessa do `EMBALAGEM.md` paga em mm:ss (conferido na `legendas.srt`, ideal ≤ 1:00); thumb final = conceito aprovado; A/B = T1/T2.
 - [ ] **Segue a bíblia do canal** (roteiro, título, thumb, visual, voz) e nada de "O que NÃO fazer aqui"; resultado de cada arquivo anotado.
 - [ ] **Políticas do YouTube** (`conhecimento/politicas-youtube.md`): 0 foto/vídeo real de cadáver ou pessoa morta (vídeo e thumbs); 0 plano apelativo (corpo em destaque, sangue, ferimento, sofrimento explícito); título, descrição e tags **sem** morte/morreu/morto/assassinado/assassinato (e equivalentes es/en) nem "chocante/perturbador/massacre"; `youtube.txt` sem menção a IA/voz sintética.

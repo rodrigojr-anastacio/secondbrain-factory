@@ -1,0 +1,173 @@
+{
+ "pasta": "canais/historia-ptbr/videos/010-japao",
+ "roteiro": "canais/historia-ptbr/videos/010-japao/blocos.json",
+ "idioma": "pt",
+ "blocos": 63,
+ "nota": 7.1,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [
+  53
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.07936507936507936,
+   "ordem": 1.0,
+   "ngramas": 0.009970089730807577,
+   "sim_media": 0.1786490881938443,
+   "gemeos": 5,
+   "blocos": 63,
+   "posicoes": [
+    [
+     10,
+     34
+    ],
+    [
+     12,
+     42
+    ],
+    [
+     15,
+     53
+    ],
+    [
+     53,
+     201
+    ],
+    [
+     54,
+     203
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 15,
+     "cos": 0.39,
+     "nosso": "E aqui está a primeira peça da resposta: o Japão copiava, mas não se ajoelhava. A capital, Nára, é uma miniatura da capital chinesa. Alguns chefes até aceitaram títulos da China, quando isso dava comércio. Só que nenhum imperador chinês mandou no Japão.",
+     "ref": "chinesa, a moda da corte chinesa e a medicina chinesa. Chegaram até a projetar sua primeira capital permanente, Nara, como uma miniatura exata da capital chinesa. Em 794,"
+    },
+    {
+     "bloco": 10,
+     "cos": 0.37,
+     "nosso": "Um clã sai na frente, os Iamáto, e anuncia que descende da deusa do sol, Amaterássu. Spoiler: a família continua no trono até hoje. É a monarquia hereditária mais antiga do mundo.",
+     "ref": "hoje ocupa o trono do crisântemo, pertence exatamente a essa mesma família imperial, o que a torna a monarquia hereditária contínua mais antiga da história humana. Esses primeiros japoneses praticavam"
+    },
+    {
+     "bloco": 12,
+     "cos": 0.33,
+     "nosso": "Esse império era a China. E o que vinha de lá chegava pelo mar, quase sempre passando pela Coreia: a escrita, as ideias, e, no século seis, uma estátua dourada do Buda.",
+     "ref": "barco atravessou o mar vindo da Coreia, carregando uma estátua dourada de Buda e uma pilha de textos sagrados. Uma grande discussão eclodiu"
+    },
+    {
+     "bloco": 54,
+     "cos": 0.33,
+     "nosso": "Dias depois, imagine ouvir no rádio, pela primeira vez, a voz do imperador. Ele pede ao povo que suporte o insuportável. É a rendição.",
+     "ref": "imperador Hirohito falou pelo rádio pela primeira vez na história, anunciando a seus cidadãos chorosos que o Japão deveria suportar o insuportável e se render. O Japão estava completamente arruinado,"
+    },
+    {
+     "bloco": 53,
+     "cos": 0.3,
+     "nosso": "Em agosto de mil novecentos e quarenta e cinco, duas bombas atômicas destroem Iroxíma e Nagassáki. Mais de cem mil pessoas morrem até o fim daquele ano.",
+     "ref": "Unidos lançaram duas bombas atômicas sobre as cidades de Hiroshima e Nagasaki, incinerando mais de 100.000 pessoas em frações de segundo. Diante da aniquilação total da nação,"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-010-japao/manada-ecnCTOzIivE.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3234,
+   "nota": 7.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.031746031746031744,
+   "ordem": 0.0,
+   "ngramas": 0.006979062811565304,
+   "sim_media": 0.14346637207769147,
+   "gemeos": 2,
+   "blocos": 63,
+   "posicoes": [
+    [
+     3,
+     50
+    ],
+    [
+     53,
+     194
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 53,
+     "cos": 0.39,
+     "nosso": "Em agosto de mil novecentos e quarenta e cinco, duas bombas atômicas destroem Iroxíma e Nagassáki. Mais de cem mil pessoas morrem até o fim daquele ano.",
+     "ref": "lançaram duas bombas atômicas sobre as cidades de Hiroshima e Nagasaki, causando a morte de mais de 100.000 pessoas. A rendição do Japão foi comunicada aos Aliados em 14 de agosto"
+    },
+    {
+     "bloco": 3,
+     "cos": 0.36,
+     "nosso": "Aí, numa noite, vem um tufão. De manhã, quase não sobra frota. Os japoneses chamam aquele vento de camicáze: o vento divino.",
+     "ref": "virou a favor dos defensores japoneses quando um poderoso tufão, chamado kamikaze ou \"vento divino\", atravessou repentinamente a região e destruiu praticamente toda a frota mongol."
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-010-japao/manada-sM34lfjEos4.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3169,
+   "nota": 2.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.003988035892323031,
+   "sim_media": 0.15084708576322953,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-010-japao/manada-dA5XTdU_j0Y.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 5335,
+   "nota": 0.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0009970089730807576,
+   "sim_media": 0.10732570709161018,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-010-japao/manada-7YQiiTHuyNs.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1037,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0009970089730807576,
+   "sim_media": 0.10547481256282029,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-010-japao/manada-rxQcQ5DJqqE.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 1270,
+   "nota": 0.1,
+   "veredito": "ok"
+  }
+ ]
+}

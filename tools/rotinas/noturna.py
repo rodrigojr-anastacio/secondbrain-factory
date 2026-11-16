@@ -77,7 +77,7 @@ REGRAS_CANAL = {
 - Não leia nem copie os canais `historia-ptbr`/`dossie-es`. Referência de código/estrutura: SOMENTE `videos/002-bikini` e `003-gettysburg`.
 - **Acervo real** (NARA, DoD/DVIDS, LOC, Wikimedia PD/CC com licença conferida por arquivo); **IA só na base da thumb** (fal conforme `canal.yaml`). Créditos só na descrição. Voz conforme `canal.yaml`.
 - Restos humanos/vítimas: nada de ossadas ou corpos na tela, nada de "dead/death" no título.""",
-    "em-relevo": """- Canal **Em Relevo** (pt-BR): clima e geografia do Brasil em mapa 3D/satélite + fotos reais grandes. **Sem IA de cena.** O canal não tem pasta `canais/`: as regras moram em `pesquisa/canal-clima-2026-11/` (`RELATORIO.md`, `biblia-titulo.md` = bíblia de título/thumb, `IDEIAS-A-DISCUTIR.md`) e `pesquisa/estilo-mapa-relevo-3d/PADRAO.md`; as regras de lote de `~/workspace/referencias/BRIEF-lote-fds-COMUM.md` valem, **exceto a seção Entrega** (aqui quem entrega é a rotina noturna).
+    "em-relevo": """- Canal **Em Relevo** (pt-BR): clima e geografia do Brasil em mapa 3D/satélite + fotos reais grandes. **Sem IA de cena.** O canal não tem pasta `canais/`: as regras moram em `pesquisa/canal-clima-2026-11/` (`RELATORIO.md`, `biblia-titulo.md` = bíblia de título/thumb, `biblia-roteiro.md` = bíblia de roteiro: forma × conteúdo, `IDEIAS-A-DISCUTIR.md`) e `pesquisa/estilo-mapa-relevo-3d/PADRAO.md`; as regras de lote de `~/workspace/referencias/BRIEF-lote-fds-COMUM.md` valem, **exceto a seção Entrega** (aqui quem entrega é a rotina noturna).
 - Pipeline/código: copie de `pesquisa/canal-clima-2026-11/longo-04/` (e `longo-03/`), sem `node_modules`. Escreva só na sua pasta `longo-NN/`.
 - Imagens: Landsat/USGS, NOAA, INMET, Wikimedia com licença conferida por arquivo, arquivos públicos com licença clara. **Nenhuma imagem da Globo/TV.** Créditos só na descrição. Voz ElevenLabs (a mesma do 002; confira o saldo de caracteres).
 - Números com fonte primária (sem fonte vira "segundo X" ou sai). Sem alarmismo em previsão: probabilidades com fonte.""",
@@ -245,7 +245,7 @@ def gerar_briefs(canal, it, vid_id, numero, pasta, vaga, noite, prazo, destino=R
     destino.mkdir(parents=True, exist_ok=True)
     principal = destino / f"{base}.md"
     e1, e2 = destino / f"{base}-ETAPA1.md", destino / f"{base}-ETAPA2.md"
-    biblia = {"em-relevo": "pesquisa/canal-clima-2026-11/ (RELATORIO.md, biblia-titulo.md) + pesquisa/estilo-mapa-relevo-3d/PADRAO.md"}.get(canal, f"canais/{canal}/biblia/")
+    biblia = {"em-relevo": "pesquisa/canal-clima-2026-11/ (RELATORIO.md, biblia-titulo.md, biblia-roteiro.md) + pesquisa/estilo-mapa-relevo-3d/PADRAO.md"}.get(canal, f"canais/{canal}/biblia/")
     evid = "\n".join(f"  - [{e.get('tipo', '')}] {e.get('fonte', '')}: {e.get('numero', '')} ({e.get('data', '')}) {e.get('link', '')}".rstrip()
                      for e in (it["evidencias"] or []))
     entrega_drive = ("**Não rode `entregar_drive.sh` nem `rclone`.** Deixe tudo em `" + pasta + "/entrega/` (video.mp4, legendas.srt, "
@@ -260,7 +260,7 @@ Repo `~/workspace/fabrica-youtube`. Leia `~/.claude/CLAUDE.md` (headless), `MAPA
 ## O vídeo
 - Canal `{canal}`. Pasta **já criada**: `{pasta}/`. Linha **já criada** em `youtube.videos`: **id {vid_id}** (número {numero}): use-a (não crie outra), atualize `titulo` com o T1 aprovado e avance `status` a cada etapa até `pronto`.
 - Tema (backlog vivo, nota {it['nota']}: demanda {it['demanda']} × encaixe {it['encaixe']} × urgência {it['urgencia']}): **{it['tema']}**.
-- Ângulo/hook candidato (ponto de partida; confira os fatos): {it['angulo'] or '-'}
+- Ângulo candidato do backlog (fora da manada; ponto de partida do `ANGULO.md`, que confere com a manada transcrita e escolhe o final): {it['angulo'] or '-'}
 - Título candidato (ponto de partida; a **embalagem + crivo** decide): {it['titulo_candidato'] or '-'}
 - Evidências da pauta (fonte `{it['fonte'] or 'youtube.backlog'}`):
 {evid or '  - (sem evidência registrada)'}
@@ -275,6 +275,7 @@ Repo `~/workspace/fabrica-youtube`. Leia `~/.claude/CLAUDE.md` (headless), `MAPA
 - Outros vídeos rodam antes/depois/em paralelo: `git add` só da sua pasta (+ bíblia do seu canal para aprendizados); **não edite a seção "Backlog vivo" do `backlog.md`** (é gerada pelo `backlog.py`). `index.lock` → espere e tente de novo. `git pull --rebase` antes do push.
 - Memória da VPS: nunca grave em `/tmp` (é RAM): use `$TMPDIR` (= `~/cache/tmp`). Render só no Runpod (`tools/render_runpod.sh`, skill `montagem-render`), em partes. Pré-QA visual (`tools/preqa_visual.py`) antes do render.
 - **3 pares título+thumb** (A = T1, B = T2, C = T3) para o "Testar e comparar", com **3 thumbs de padrões visuais diferentes** (uma por conceito aprovado no crivo; nunca 3 variações do mesmo: pedido do Rodrigo, 16/11/2026). Sem gancho de próximo vídeo (nunca anuncie o próximo; puxar sessão para vídeo já publicado pode). Pauta proibida: `conhecimento/politicas-youtube.md` e a lista "evitar" da bíblia.
+- **Ângulo próprio (Rodrigo, 16/11/2026):** forma modelada dos canais de sucesso, **conteúdo nosso**. Antes da embalagem, `ANGULO.md` (manada transcrita com `tools/manada.py`); no fim do roteiro, `tools/similaridade_roteiro.py` (cópia ≥ 30 reprova) + crivo de ângulo independente (`skills/roteiro/CRIVO-ANGULO.md`, máx. 2 reescritas; reprovado = `BLOQUEIO.md` com "ângulo"). Nunca reescreva/traduza a transcrição da referência; fatos de fontes próprias.
 - Embalagem reprovada no crivo (3 rodadas) → `BLOQUEIO.md` na pasta com a palavra "crivo" e **pare**: a rotina noturna põe o próximo tema do backlog na mesma noite.
 - **Entrega:** {entrega_drive}
 - Custos em `financas.consumo` com o id {vid_id}. Confira saldos antes (outros jobs gastam ao mesmo tempo).

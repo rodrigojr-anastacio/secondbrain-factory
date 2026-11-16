@@ -1,0 +1,634 @@
+{
+ "pasta": "canais/dossie-es/videos/009-gestapo",
+ "roteiro": "canais/dossie-es/videos/009-gestapo/blocos.json",
+ "idioma": "es",
+ "blocos": 107,
+ "nota": 23.5,
+ "veredito": "atenção",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [
+  5,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  14,
+  17,
+  18,
+  19,
+  22,
+  39,
+  41,
+  53,
+  56,
+  66,
+  70
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.2616822429906542,
+   "ordem": 0.8928571428571429,
+   "ngramas": 0.040380047505938245,
+   "sim_media": 0.24996701306934507,
+   "gemeos": 28,
+   "blocos": 107,
+   "posicoes": [
+    [
+     5,
+     159
+    ],
+    [
+     7,
+     7
+    ],
+    [
+     8,
+     12
+    ],
+    [
+     9,
+     17
+    ],
+    [
+     10,
+     20
+    ],
+    [
+     11,
+     21
+    ],
+    [
+     12,
+     22
+    ],
+    [
+     14,
+     30
+    ],
+    [
+     17,
+     39
+    ],
+    [
+     18,
+     41
+    ],
+    [
+     19,
+     43
+    ],
+    [
+     21,
+     48
+    ],
+    [
+     22,
+     51
+    ],
+    [
+     23,
+     53
+    ],
+    [
+     24,
+     55
+    ],
+    [
+     26,
+     58
+    ],
+    [
+     39,
+     92
+    ],
+    [
+     40,
+     94
+    ],
+    [
+     41,
+     95
+    ],
+    [
+     53,
+     159
+    ],
+    [
+     55,
+     160
+    ],
+    [
+     56,
+     155
+    ],
+    [
+     57,
+     162
+    ],
+    [
+     66,
+     23
+    ],
+    [
+     67,
+     187
+    ],
+    [
+     69,
+     189
+    ],
+    [
+     70,
+     192
+    ],
+    [
+     71,
+     194
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 40,
+     "cos": 0.82,
+     "nosso": "La Gestapo pasa a ser su Departamento Cuatro, bajo Müller.",
+     "ref": "Heydrich. La Gestapo pasa a ser su departamento cuatro, bajo Müller. Dentro del departamento cuatro, una pequeña"
+    },
+    {
+     "bloco": 39,
+     "cos": 0.71,
+     "nosso": "Himmler une la Gestapo, la policía criminal y el servicio de inteligencia de las SS. Nace la Oficina Central de Seguridad del Reich. La dirige Heydrich.",
+     "ref": "fusiona la Gestapo, la policía criminal y el servicio de inteligencia de las SS en un solo organismo, la Oficina Central de Seguridad del Reich, dirigida"
+    },
+    {
+     "bloco": 7,
+     "cos": 0.62,
+     "nosso": "El Sótano. Berlín, veintiséis de abril de mil novecientos treinta y tres. Hermann Göring, ministro del Interior de Prusia, crea una nueva policía política.",
+     "ref": "canciller, Hermann Göring, el nuevo ministro del Interior de Prusia, crea una policía política propia."
+    },
+    {
+     "bloco": 8,
+     "cos": 0.62,
+     "nosso": "La llaman Policía Secreta del Estado. En alemán, Geheime Staatspolizei. Gestapo.",
+     "ref": "mete en una nueva oficina, la policía secreta del Estado. En alemán, Geheime Staatspolizei. Un empleado de correos"
+    },
+    {
+     "bloco": 12,
+     "cos": 0.6,
+     "nosso": "En unos meses, decenas de miles de opositores pasan por sótanos, cuarteles y los primeros campos. Sobre todo, comunistas y socialistas.",
+     "ref": "abogado. Para el verano de 1933, decenas de miles de opositores están encerrados en sótanos, cuarteles y en los primeros campos,"
+    },
+    {
+     "bloco": 19,
+     "cos": 0.58,
+     "nosso": "El trabajo diario queda en manos de Heinrich Müller, un detective de Múnich que había pasado años persiguiendo comunistas.",
+     "ref": "manos de un discreto detective bávaro, Heinrich Müller, que se había pasado los años 20 cazando comunistas. Müller"
+    },
+    {
+     "bloco": 71,
+     "cos": 0.58,
+     "nosso": "Pero condenar a una organización no es juzgar a sus hombres. La mayoría nunca pisa un tribunal. Muchos vuelven a ser policías en Alemania Occidental.",
+     "ref": "mayoría de sus agentes nunca se les juzga y muchos vuelven discretamente a trabajar en la policía de Alemania Occidental. Durante décadas,"
+    },
+    {
+     "bloco": 9,
+     "cos": 0.54,
+     "nosso": "Se instala en la calle Prinz Albrecht, número ocho. Arriba, oficinas. En el sótano, celdas.",
+     "ref": "número 8 de la Prinz-Albrecht-Straße, en pleno centro de Berlín. Arriba hay escritorios y ficheros. En el sótano,"
+    },
+    {
+     "bloco": 17,
+     "cos": 0.54,
+     "nosso": "En febrero de mil novecientos treinta y seis, una ley prusiana decide que los tribunales administrativos no pueden revisar las órdenes de la Gestapo.",
+     "ref": "cuchillos largos. En febrero de 1936, una ley prusiana declara que las órdenes de la Gestapo no pueden ser revisadas"
+    },
+    {
+     "bloco": 18,
+     "cos": 0.52,
+     "nosso": "Ese mismo año, Himmler pasa a ser jefe de toda la policía alemana.",
+     "ref": "ningún tribunal. En junio, Himmler se convierte en jefe de toda la policía alemana. El trabajo diario de la Gestapo pasa"
+    },
+    {
+     "bloco": 70,
+     "cos": 0.51,
+     "nosso": "En Núremberg, en mil novecientos cuarenta y seis, el tribunal internacional declara a la Gestapo organización criminal.",
+     "ref": "muerte de Hitler. Luego, se esfuma. En Núremberg, en 1946, el tribunal declara a la Gestapo organización criminal. Aun así,"
+    },
+    {
+     "bloco": 5,
+     "cos": 0.49,
+     "nosso": "En Lyon no lo llamaban Altmann. Lo llamaban Klaus Barbie, jefe de la Gestapo.",
+     "ref": "Lyon es un oficial de 29 años llamado Klaus Barbie. El 21 de junio de 1943, los hombres de Barbie"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/dossie-009-gestapo/manada-OnGBjUOSE4Y.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2338,
+   "nota": 23.5,
+   "veredito": "atenção"
+  },
+  {
+   "cobertura": 0.12149532710280374,
+   "ordem": 0.9230769230769231,
+   "ngramas": 0.0166270783847981,
+   "sim_media": 0.16015261127335242,
+   "gemeos": 13,
+   "blocos": 107,
+   "posicoes": [
+    [
+     7,
+     7
+    ],
+    [
+     8,
+     12
+    ],
+    [
+     9,
+     17
+    ],
+    [
+     10,
+     20
+    ],
+    [
+     11,
+     21
+    ],
+    [
+     12,
+     22
+    ],
+    [
+     14,
+     30
+    ],
+    [
+     15,
+     32
+    ],
+    [
+     17,
+     40
+    ],
+    [
+     18,
+     42
+    ],
+    [
+     19,
+     43
+    ],
+    [
+     22,
+     51
+    ],
+    [
+     66,
+     23
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 8,
+     "cos": 0.62,
+     "nosso": "La llaman Policía Secreta del Estado. En alemán, Geheime Staatspolizei. Gestapo.",
+     "ref": "una nueva oficina, la Policía Secreta del Estado. En alemán, Geheime Staatspolizei. Un empleado de correos que debe"
+    },
+    {
+     "bloco": 12,
+     "cos": 0.59,
+     "nosso": "En unos meses, decenas de miles de opositores pasan por sótanos, cuarteles y los primeros campos. Sobre todo, comunistas y socialistas.",
+     "ref": "abogado. En el verano de 1933, decenas de miles de opositores están encerrados en sótanos, cuarteles y los primeros campos,"
+    },
+    {
+     "bloco": 7,
+     "cos": 0.57,
+     "nosso": "El Sótano. Berlín, veintiséis de abril de mil novecientos treinta y tres. Hermann Göring, ministro del Interior de Prusia, crea una nueva policía política.",
+     "ref": "Göring, el nuevo ministro del Interior de Prusia, crea una fuerza policial política propia. Prusia"
+    },
+    {
+     "bloco": 17,
+     "cos": 0.55,
+     "nosso": "En febrero de mil novecientos treinta y seis, una ley prusiana decide que los tribunales administrativos no pueden revisar las órdenes de la Gestapo.",
+     "ref": "1936, una ley prusiana declara que las órdenes de la Gestapo no pueden ser revisadas por ningún tribunal. En junio,"
+    },
+    {
+     "bloco": 18,
+     "cos": 0.48,
+     "nosso": "Ese mismo año, Himmler pasa a ser jefe de toda la policía alemana.",
+     "ref": "Himmler se convierte en jefe de toda la policía alemana. El trabajo diario de la Gestapo pasa a un discreto detective bávaro,"
+    },
+    {
+     "bloco": 19,
+     "cos": 0.48,
+     "nosso": "El trabajo diario queda en manos de Heinrich Müller, un detective de Múnich que había pasado años persiguiendo comunistas.",
+     "ref": "diario de la Gestapo pasa a un discreto detective bávaro, Heinrich Müller, que había pasado los años veinte cazando"
+    },
+    {
+     "bloco": 10,
+     "cos": 0.47,
+     "nosso": "No hace falta un juez. Tras el incendio del Reichstag, en febrero, un decreto permite la llamada custodia protectora.",
+     "ref": "Según un decreto firmado tras el incendio del Reichstag, cualquiera puede ser retenido en custodia protectora sin cargos"
+    },
+    {
+     "bloco": 9,
+     "cos": 0.47,
+     "nosso": "Se instala en la calle Prinz Albrecht, número ocho. Arriba, oficinas. En el sótano, celdas.",
+     "ref": "8 de la Prinz-Albrecht-Straße, en el centro de Berlín. Arriba hay escritorios y fichas. En el sótano, los almacenes se convierten"
+    },
+    {
+     "bloco": 14,
+     "cos": 0.42,
+     "nosso": "El Fichero. Abril de mil novecientos treinta y cuatro. Göring le cede la Gestapo a Himmler.",
+     "ref": "estados alemanes excepto Prusia. En abril, Göring cede y le entrega también la Gestapo. Himmler trae a su adjunto,"
+    },
+    {
+     "bloco": 22,
+     "cos": 0.41,
+     "nosso": "Unos diecinueve mil expedientes de esa oficina sobrevivieron. El historiador Robert Gellately los estudió.",
+     "ref": "policía ordinaria. Entonces, ¿cómo sabe tanto? Cuando el historiador Robert Gellately lee miles de expedientes"
+    },
+    {
+     "bloco": 15,
+     "cos": 0.34,
+     "nosso": "Al frente pone a su número dos, Reinhard Heydrich, de treinta años, que venía del servicio de inteligencia de las SS.",
+     "ref": "Reinhard Heydrich, un alto joven de 30 años que había sido expulsado de la Marina. Dos meses después, el nuevo"
+    },
+    {
+     "bloco": 11,
+     "cos": 0.32,
+     "nosso": "Es decir: encerrar a cualquiera sin cargos, sin abogado y sin fecha de salida.",
+     "ref": "cualquiera puede ser retenido en custodia protectora sin cargos y sin abogado. En el verano de 1933, decenas de miles de opositores"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/dossie-009-gestapo/manada-pbIzG1QvoWs.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 568,
+   "nota": 10.8,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.102803738317757,
+   "ordem": 0.5454545454545454,
+   "ngramas": 0.007125890736342043,
+   "sim_media": 0.19711426277923413,
+   "gemeos": 11,
+   "blocos": 107,
+   "posicoes": [
+    [
+     5,
+     415
+    ],
+    [
+     6,
+     437
+    ],
+    [
+     10,
+     45
+    ],
+    [
+     37,
+     416
+    ],
+    [
+     39,
+     297
+    ],
+    [
+     41,
+     300
+    ],
+    [
+     47,
+     175
+    ],
+    [
+     53,
+     415
+    ],
+    [
+     56,
+     419
+    ],
+    [
+     58,
+     417
+    ],
+    [
+     70,
+     433
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 70,
+     "cos": 0.62,
+     "nosso": "En Núremberg, en mil novecientos cuarenta y seis, el tribunal internacional declara a la Gestapo organización criminal.",
+     "ref": "completo a la justicia. En Núremberg, el Tribunal Militar Internacional declaró que la Gestapo, junto con el SD, era una organización criminal"
+    },
+    {
+     "bloco": 56,
+     "cos": 0.39,
+     "nosso": "Detienen a Jean Moulin, el enviado de De Gaulle que había unido a la Resistencia francesa.",
+     "ref": "vinculado al arresto de Jean Moulin, una de las figuras más importantes de la resistencia francesa, quien fue torturado bajo custodia"
+    },
+    {
+     "bloco": 6,
+     "cos": 0.38,
+     "nosso": "Esta es TODA la historia de la Gestapo. Y de cómo sus hombres llegaron a Sudamérica.",
+     "ref": "Gestapo dejó de existir. Y con eso llegamos al final de la historia de hoy. La historia de cómo una organización policial relativamente"
+    },
+    {
+     "bloco": 37,
+     "cos": 0.37,
+     "nosso": "Para entonces, la Gestapo ya era parte de una oficina mucho más grande.",
+     "ref": "Gestapo en Lyon y adquirió una reputación de brutalidad tan grande que se le conoció como el carnicero de Lyon. Sus oficiales"
+    },
+    {
+     "bloco": 41,
+     "cos": 0.37,
+     "nosso": "Dentro, una sección pequeña, la IV B4, organiza la persecución de los judíos. La dirige Adolf Eichmann.",
+     "ref": "departamento llamado 4B4, Asuntos Judíos y Evacuación, dirigido por cierto Adolf Eichmann. Eichmann era un administrador"
+    },
+    {
+     "bloco": 53,
+     "cos": 0.37,
+     "nosso": "Al frente de la sección de la Gestapo en Lyon está Klaus Barbie.",
+     "ref": "encontrados con relativa facilidad. Klaus Barbie había dirigido la Gestapo en Lyon y adquirió una reputación de brutalidad"
+    },
+    {
+     "bloco": 47,
+     "cos": 0.37,
+     "nosso": "En Francia, Bélgica y Holanda, los sospechosos de resistencia son llevados en secreto a Alemania.",
+     "ref": "enormemente entre países y personas. Algunos policías resistieron a los alemanes, avisaron en secreto a los sospechosos o, finalmente, se unieron"
+    },
+    {
+     "bloco": 58,
+     "cos": 0.36,
+     "nosso": "Según los testimonios de su juicio, Barbie torturaba con sus propias manos. Los sobrevivientes lo llamaron el Carnicero de Lyon.",
+     "ref": "tan grande que se le conoció como el carnicero de Lyon. Sus oficiales torturaban a los prisioneros de la resistencia, y Barbie estuvo personalmente"
+    },
+    {
+     "bloco": 5,
+     "cos": 0.33,
+     "nosso": "En Lyon no lo llamaban Altmann. Lo llamaban Klaus Barbie, jefe de la Gestapo.",
+     "ref": "encontrados con relativa facilidad. Klaus Barbie había dirigido la Gestapo en Lyon y adquirió una reputación de brutalidad"
+    },
+    {
+     "bloco": 39,
+     "cos": 0.31,
+     "nosso": "Himmler une la Gestapo, la policía criminal y el servicio de inteligencia de las SS. Nace la Oficina Central de Seguridad del Reich. La dirige Heydrich.",
+     "ref": "enorme maquinaria. ¿Recuerdan que en 1939 la Gestapo se había convertido en la Oficina 4 de la Oficina Central de Seguridad del Reich,"
+    },
+    {
+     "bloco": 10,
+     "cos": 0.3,
+     "nosso": "No hace falta un juez. Tras el incendio del Reichstag, en febrero, un decreto permite la llamada custodia protectora.",
+     "ref": "lugares para encarcelar a opositores políticos. Tras el incendio del Reichstag en febrero de 1933, hasta 25.000 comunistas"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/dossie-009-gestapo/manada-UZejS0a2d7c.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4942,
+   "nota": 7.6,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.04672897196261682,
+   "ordem": 0.8,
+   "ngramas": 0.004750593824228029,
+   "sim_media": 0.13871723757494553,
+   "gemeos": 5,
+   "blocos": 107,
+   "posicoes": [
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     18,
+     42
+    ],
+    [
+     19,
+     55
+    ],
+    [
+     39,
+     52
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 8,
+     "cos": 0.53,
+     "nosso": "La llaman Policía Secreta del Estado. En alemán, Geheime Staatspolizei. Gestapo.",
+     "ref": "alemán, *Geheime Staatspolizei*. En aquella época no existía una policía federal alemana, y cada estado mantenía su propio"
+    },
+    {
+     "bloco": 18,
+     "cos": 0.39,
+     "nosso": "Ese mismo año, Himmler pasa a ser jefe de toda la policía alemana.",
+     "ref": "Alemania, entregando a Himmler el puesto de jefe de la policía alemana. Con esta medida, la policía alemana fue, en la práctica, fusionada"
+    },
+    {
+     "bloco": 39,
+     "cos": 0.39,
+     "nosso": "Himmler une la Gestapo, la policía criminal y el servicio de inteligencia de las SS. Nace la Oficina Central de Seguridad del Reich. La dirige Heydrich.",
+     "ref": "Polonia, se creó la Oficina Principal de Seguridad del Reich, más conocida por su sigla RSHA, dirigida por Heydrich. La Gestapo"
+    },
+    {
+     "bloco": 7,
+     "cos": 0.37,
+     "nosso": "El Sótano. Berlín, veintiséis de abril de mil novecientos treinta y tres. Hermann Göring, ministro del Interior de Prusia, crea una nueva policía política.",
+     "ref": "Hermann Göring, el número dos del Partido Nazi, para el cargo de ministro del Interior de Prusia, el estado alemán"
+    },
+    {
+     "bloco": 19,
+     "cos": 0.32,
+     "nosso": "El trabajo diario queda en manos de Heinrich Müller, un detective de Múnich que había pasado años persiguiendo comunistas.",
+     "ref": "manos de Heinrich Müller, quedando obviamente excluidos los líderes de primer nivel del Partido Nazi. La Gestapo"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/dossie-009-gestapo/manada-nbur1myaj0c.txt",
+   "idioma_ref": "pt",
+   "traduzido": true,
+   "palavras_ref": 1157,
+   "nota": 3.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.037383177570093455,
+   "ordem": 1.0,
+   "ngramas": 0.0023752969121140144,
+   "sim_media": 0.17005191859608146,
+   "gemeos": 4,
+   "blocos": 107,
+   "posicoes": [
+    [
+     41,
+     106
+    ],
+    [
+     42,
+     110
+    ],
+    [
+     53,
+     247
+    ],
+    [
+     70,
+     373
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 70,
+     "cos": 0.6,
+     "nosso": "En Núremberg, en mil novecientos cuarenta y seis, el tribunal internacional declara a la Gestapo organización criminal.",
+     "ref": "Nuremberg. En este tribunal internacional, Gestapo fue declarada oficialmente una organización criminal. Esta distinción fue crucial. significaba"
+    },
+    {
+     "bloco": 53,
+     "cos": 0.4,
+     "nosso": "Al frente de la sección de la Gestapo en Lyon está Klaus Barbie.",
+     "ref": "Alemania. Como jefe de la sección cuarta en Lyon, Francia. Barbie no solo la represión, sino que participaba personalmente en las torturas."
+    },
+    {
+     "bloco": 42,
+     "cos": 0.37,
+     "nosso": "Desde ahí se preparan las listas y los trenes que llevan a los judíos de Europa a los campos de exterminio.",
+     "ref": "tiempo. Fue el encargado de organizar la deportación masiva de millones de judíos desde toda Europa hacia los campos de exterminio."
+    },
+    {
+     "bloco": 41,
+     "cos": 0.31,
+     "nosso": "Dentro, una sección pequeña, la IV B4, organiza la persecución de los judíos. La dirige Adolf Eichmann.",
+     "ref": "Gestapo supervisada por Müller, existía una oficina específica para los asuntos judíos dirigida por Adolf Ik. Si Müer"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/dossie-009-gestapo/manada-Zisp8I4Bzds.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 4584,
+   "nota": 3.2,
+   "veredito": "ok"
+  }
+ ]
+}

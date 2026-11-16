@@ -1,0 +1,340 @@
+{
+ "pasta": "canais/historia-ptbr/videos/009-alemanha",
+ "roteiro": "canais/historia-ptbr/videos/009-alemanha/blocos.json",
+ "idioma": "pt",
+ "blocos": 64,
+ "nota": 14.2,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [
+  1,
+  7,
+  15,
+  24,
+  36,
+  52
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.15625,
+   "ordem": 1.0,
+   "ngramas": 0.021447721179624665,
+   "sim_media": 0.21370737810370768,
+   "gemeos": 10,
+   "blocos": 64,
+   "posicoes": [
+    [
+     7,
+     16
+    ],
+    [
+     11,
+     31
+    ],
+    [
+     15,
+     37
+    ],
+    [
+     21,
+     59
+    ],
+    [
+     24,
+     65
+    ],
+    [
+     36,
+     100
+    ],
+    [
+     38,
+     106
+    ],
+    [
+     47,
+     141
+    ],
+    [
+     52,
+     164
+    ],
+    [
+     53,
+     172
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 53,
+     "cos": 0.5,
+     "nosso": "Atrás da frente de batalha, o regime nazista assassina seis milhões de judeus europeus, além de ciganos roma e sinti, pessoas com deficiência, prisioneiros soviéticos e opositores. É o Holocausto: um genocídio planejado e executado pela máquina de um Estado.",
+     "ref": "industriais, frias e burocráticas, como Auschwitz e Treblinka, os nazistas assassinaram sistematicamente 6 milhões de judeus europeus, além de milhões de prisioneiros soviéticos, ciganos, pessoas com deficiência"
+    },
+    {
+     "bloco": 7,
+     "cos": 0.45,
+     "nosso": "Quem guia é Armínio, um chefe germânico que cresceu entre os romanos e serviu no exército deles. Só que ele leva os romanos direto para uma armadilha. Em poucos dias, as três legiões somem.",
+     "ref": "comando de um governador chamado Varo. Foram levados a uma armadilha por Armínio, um chefe germânico que crescera em Roma, servira no exército romano e conhecia"
+    },
+    {
+     "bloco": 47,
+     "cos": 0.38,
+     "nosso": "Aí os inimigos da república espalham uma mentira: o exército não tinha perdido a guerra; tinha sido apunhalado pelas costas por políticos, comunistas e judeus. Era falso. Mas muita gente quis acreditar.",
+     "ref": "mentira de que seu exército invicto havia sido apunhalado pelas costas por políticos socialistas, comunistas e judeus no próprio país. Em 1923, quando o governo imprimiu trilhões de marcos para pagar suas dívidas,"
+    },
+    {
+     "bloco": 15,
+     "cos": 0.37,
+     "nosso": "Era o Sacro Império Romano-Germânico. Séculos depois, Voltér debochou: não era nem sacro, nem romano, nem império. Eram mais de trezentos pedaços, cada um com o seu senhor.",
+     "ref": "fez a famosa piada de que ele não era nem sagrado, nem romano, nem um império. Era, essencialmente, um clube frouxo e confuso formado por mais de 300 territórios independentes,"
+    },
+    {
+     "bloco": 36,
+     "cos": 0.36,
+     "nosso": "Treze anos depois, o novo chefe do governo prussiano, Otto von Bísmark, diz aos deputados: as grandes questões não se decidem com discursos e votações, mas com ferro e sangue.",
+     "ref": "famosamente, que as grandes questões da época não seriam decididas por discursos e resoluções da maioria, mas por ferro e sangue. Bismarck planejou três guerras curtas e brilhantes para unir a Alemanha"
+    },
+    {
+     "bloco": 24,
+     "cos": 0.36,
+     "nosso": "Começa a Guerra dos Trinta Anos. E o que era briga de religião vira briga de reis: Suécia, Dinamarca, Espanha, e até a França católica do lado dos protestantes. A religião, já dava para ver, era desculpa.",
+     "ref": "Começou como uma luta religiosa entre católicos e protestantes alemães, mas logo todas as grandes potências da Europa, Espanha, Suécia e França, entraram na disputa, transformando o campo alemão"
+    },
+    {
+     "bloco": 38,
+     "cos": 0.35,
+     "nosso": "Os estados do sul correm para o lado da Prússia, o imperador francês é capturado, e voltamos ao Salão dos Espelhos. O novo imperador estava emburrado: queria ser imperador da Alemanha, não imperador alemão. E desce do palanque sem apertar a mão de Bísmark.",
+     "ref": "Estados independentes do sul da Alemanha a correr para os braços da Prússia em busca de proteção. Os exércitos alemães esmagaram a França, capturaram o imperador francês e marcharam sobre Paris. E, na máxima"
+    },
+    {
+     "bloco": 11,
+     "cos": 0.34,
+     "nosso": "Um rei franco, Carlos Magno, junta quase tudo de novo no ano oitocentos. Só que os netos dele repartem o império em três. E repare: a fatia do leste ia levar mil anos para virar um país.",
+     "ref": "cabeça de Carlos Magno, proclamando-o imperador. Mas, quando Carlos Magno morreu, seu vasto império foi dividido entre três netos que viviam brigando. A fatia ocidental acabou evoluindo"
+    },
+    {
+     "bloco": 52,
+     "cos": 0.33,
+     "nosso": "Em setembro de mil novecentos e trinta e nove, a Alemanha invade a Polônia, e começa a Segunda Guerra Mundial. Em dois anos, ela domina quase toda a Europa e invade a União Soviética.",
+     "ref": "tentavam apaziguá-lo. Então, em 1º de setembro de 1939, tanques alemães atravessaram a fronteira com a Polônia. A Segunda Guerra Mundial havia começado. Usando a tática revolucionária da Blitzkrieg, a guerra-relâmpago,"
+    },
+    {
+     "bloco": 21,
+     "cos": 0.3,
+     "nosso": "E aqui está a primeira peça da resposta. A Alemanha ganha uma língua escrita comum, mas a fé se parte ao meio: metade dos príncipes vira protestante, metade fica católica.",
+     "ref": "alemãs como um incêndio. Nascia a Reforma Protestante. Metade dos príncipes alemães aderiu ao protestantismo, em parte por convicção religiosa, mas principalmente para deixar de enviar impostos ao papa"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-009-alemanha/manada-wrPmVXTr91s.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3302,
+   "nota": 14.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.15625,
+   "ordem": 0.8,
+   "ngramas": 0.01876675603217158,
+   "sim_media": 0.21190165504277755,
+   "gemeos": 10,
+   "blocos": 64,
+   "posicoes": [
+    [
+     1,
+     208
+    ],
+    [
+     7,
+     15
+    ],
+    [
+     8,
+     24
+    ],
+    [
+     12,
+     105
+    ],
+    [
+     15,
+     90
+    ],
+    [
+     20,
+     134
+    ],
+    [
+     23,
+     149
+    ],
+    [
+     24,
+     154
+    ],
+    [
+     36,
+     203
+    ],
+    [
+     45,
+     228
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 8,
+     "cos": 0.61,
+     "nosso": "Conta-se que o imperador Augusto, em Roma, batia a cabeça na porta e gritava: Varo, devolva as minhas legiões!",
+     "ref": "notícia chegou a Roma, o imperador Augusto teria corrido pelo palácio gritando uma única coisa: \"Varo, devolva-me as minhas legiões!\" >> VARO, DEVOLVA-ME AS MINHAS"
+    },
+    {
+     "bloco": 15,
+     "cos": 0.46,
+     "nosso": "Era o Sacro Império Romano-Germânico. Séculos depois, Voltér debochou: não era nem sacro, nem romano, nem império. Eram mais de trezentos pedaços, cada um com o seu senhor.",
+     "ref": "Sacro Império Romano. Quando li pela primeira vez a opinião de Voltaire sobre isso, eu realmente dei risada alto. Ele disse que não era nem sacro, nem romano, nem um império."
+    },
+    {
+     "bloco": 24,
+     "cos": 0.41,
+     "nosso": "Começa a Guerra dos Trinta Anos. E o que era briga de religião vira briga de reis: Suécia, Dinamarca, Espanha, e até a França católica do lado dos protestantes. A religião, já dava para ver, era desculpa.",
+     "ref": "esterco. Esse foi o momento em que a Guerra dos 30 Anos começou. O que começou como uma briga religiosa dentro da Alemanha rapidamente se tornou algo muito pior. A Suécia invadiu. A França"
+    },
+    {
+     "bloco": 7,
+     "cos": 0.39,
+     "nosso": "Quem guia é Armínio, um chefe germânico que cresceu entre os romanos e serviu no exército deles. Só que ele leva os romanos direto para uma armadilha. Em poucos dias, as três legiões somem.",
+     "ref": "guia local em quem confiava plenamente, um chefe germânico chamado Armínio, que falava latim perfeito e de fato havia servido no exército romano. O que Varo não sabia era que Armínio"
+    },
+    {
+     "bloco": 1,
+     "cos": 0.36,
+     "nosso": "Versálhes, dezoito de janeiro de mil oitocentos e setenta e um. Imagine você no palácio dos reis da França, no Salão dos Espelhos. Lá fora, Paris está cercada e com fome.",
+     "ref": "França declarou guerra indignada. Bismarck estava contando exatamente com isso. Em 18 de janeiro de 1871, no Salão dos Espelhos do Palácio de Versalhes, dentro do próprio palácio do inimigo, foi proclamado"
+    },
+    {
+     "bloco": 23,
+     "cos": 0.35,
+     "nosso": "Prága, maio de mil seiscentos e dezoito. Nobres protestantes invadem o castelo e jogam três funcionários do imperador católico pela janela. Os três sobrevivem. Os católicos dizem que foi um anjo. Os protestantes, que foi um monte de esterco.",
+     "ref": "homens por uma janela, e matou 8 milhões de pessoas. Em 23 de maio de 1618, um grupo de nobres protestantes em Praga já tinha se cansado. O rei católico havia abolido"
+    },
+    {
+     "bloco": 20,
+     "cos": 0.35,
+     "nosso": "Escondido num castelo, Lutéro traduz o Novo Testamento para o alemão em umas onze semanas, com palavras que se entendiam do norte ao sul. Imagine o Brasil sem um português escrito comum. Era quase assim antes dele.",
+     "ref": "proteção e o escondeu no Castelo de Wartburg. E aqui está a parte em que não acreditei quando a descobri. Escondido em um castelo, disfarçado de cavaleiro alemão, Lutero traduziu o Novo Testamento inteiro do grego"
+    },
+    {
+     "bloco": 36,
+     "cos": 0.33,
+     "nosso": "Treze anos depois, o novo chefe do governo prussiano, Otto von Bísmark, diz aos deputados: as grandes questões não se decidem com discursos e votações, mas com ferro e sangue.",
+     "ref": "uma única frase. >> As grandes questões do momento não serão resolvidas por discursos e decisões da maioria, mas por sangue e ferro. Depois, ele provou. 3 guerras, 7 anos. Dinamarca"
+    },
+    {
+     "bloco": 12,
+     "cos": 0.32,
+     "nosso": "Canóssa, janeiro de mil e setenta e sete. Diante de um castelo nas montanhas, um homem espera na neve, descalço, com roupa de penitente. É o imperador, Henrique Quarto. E o papa, lá dentro, o faz esperar três dias.",
+     "ref": "descalço pela neve até o castelo do papa na Itália e ficou do lado de fora por 3 dias, implorando para ser recebido. O governante mais poderoso da Europa, descalço em uma nevasca. 3 dias?"
+    },
+    {
+     "bloco": 45,
+     "cos": 0.3,
+     "nosso": "Berlim, novembro de mil novecentos e vinte e três. Uma mulher empurra um carrinho de mão cheio de notas até a padaria: um pão custa duzentos bilhões de marcos. Conta-se que um ladrão levou o carrinho e deixou o dinheiro na calçada.",
+     "ref": "dólar. Para colocar em perspectiva, um carrinho de mão cheio de dinheiro não conseguia comprar um pão. Um estudante em um café pediu um cafezinho"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-009-alemanha/manada-csonTUj_cv0.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4869,
+   "nota": 13.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.046875,
+   "ordem": 0.6666666666666666,
+   "ngramas": 0.01161751563896336,
+   "sim_media": 0.18036477088490088,
+   "gemeos": 3,
+   "blocos": 64,
+   "posicoes": [
+    [
+     1,
+     204
+    ],
+    [
+     34,
+     179
+    ],
+    [
+     52,
+     274
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 34,
+     "cos": 0.37,
+     "nosso": "Frânkfurt, mil oitocentos e quarenta e nove. Um parlamento eleito, cheio de professores, escreve a constituição de uma Alemanha unida e oferece a coroa ao rei da Prússia.",
+     "ref": "uma assembleia nacional de toda a Alemanha se reuniu e chegou a redigir uma constituição para uma Alemanha unida, oferecendo a coroa imperial ao rei da Prússia. Mas o movimento fracassou."
+    },
+    {
+     "bloco": 52,
+     "cos": 0.34,
+     "nosso": "Em setembro de mil novecentos e trinta e nove, a Alemanha invade a Polônia, e começa a Segunda Guerra Mundial. Em dois anos, ela domina quase toda a Europa e invade a União Soviética.",
+     "ref": "alemã na Áustria e na Tchecoslováquia. Então, em 1º de setembro de 1939, a Alemanha nazista invadiu a Polônia. 2 dias depois, a Grã-Bretanha e a França declararam guerra à Alemanha, marcando"
+    },
+    {
+     "bloco": 1,
+     "cos": 0.34,
+     "nosso": "Versálhes, dezoito de janeiro de mil oitocentos e setenta e um. Imagine você no palácio dos reis da França, no Salão dos Espelhos. Lá fora, Paris está cercada e com fome.",
+     "ref": "Bismarck e os príncipes alemães concordaram em proclamar um Império Alemão unificado. E em 18 de janeiro de 1871, no suntuoso Salão dos Espelhos do Palácio de Versalhes, o rei Guilherme"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-009-alemanha/manada-OBwQWIu_kMU.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4788,
+   "nota": 4.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.006255585344057194,
+   "sim_media": 0.15775188295770082,
+   "gemeos": 0,
+   "blocos": 64,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-009-alemanha/manada-Ts3I-3T5JGI.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3709,
+   "nota": 0.5,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0035746201966041107,
+   "sim_media": 0.12179399985080293,
+   "gemeos": 0,
+   "blocos": 64,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-009-alemanha/manada-ifmHLOAVP3s.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1465,
+   "nota": 0.3,
+   "veredito": "ok"
+  }
+ ]
+}

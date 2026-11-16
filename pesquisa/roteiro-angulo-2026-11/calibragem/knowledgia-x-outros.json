@@ -1,0 +1,97 @@
+{
+ "pasta": "canais/historia-ptbr/videos/005-brasil",
+ "roteiro": "pesquisa/roteiro-angulo-2026-11/refs/historia-005-brasil/manada-rqT51lU1IJw.txt",
+ "idioma": "pt",
+ "blocos": 47,
+ "nota": 5.1,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [],
+ "referencias": [
+  {
+   "cobertura": 0.06382978723404255,
+   "ordem": 0.6666666666666666,
+   "ngramas": 0.006009615384615385,
+   "sim_media": 0.19870623502609722,
+   "gemeos": 3,
+   "blocos": 47,
+   "posicoes": [
+    [
+     6,
+     50
+    ],
+    [
+     45,
+     255
+    ],
+    [
+     47,
+     131
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 45,
+     "cos": 0.32,
+     "nosso": "uma notável colônia e depois reino próprio. E graças à ajuda dos monarcas exilados de Portugal, a colônia que virou reino logo se tornaria um império soberano que virou república. Os recursos naturais e o",
+     "ref": "europeia viver em uma colônia. A solução então foi fazer essa colônia deixar de ser uma colônia. Aí, em 1815, o Brasil virou um reino. Brasil e Portugal agora formavam"
+    },
+    {
+     "bloco": 6,
+     "cos": 0.31,
+     "nosso": "por Pedro Álvares Cabral. Cabral estava realmente a caminho da Índia, mas foi desviado imensamente do curso e acabou avistando terra. Isso levou a frota a desembarcar em Porto Seguro e iniciou a linha do",
+     "ref": "linha seriam portuguesas e as terras para esquerda seriam da Espanha. E foi com esse tratado no bolso que uma enorme frota de caravelas portuguesas, liderada e comandada por Pedro Álvares Cabral,"
+    },
+    {
+     "bloco": 47,
+     "cos": 0.3,
+     "nosso": "único produto do lado português da linha de Tordesilhas…",
+     "ref": "crescer. Como as fazendas eram enormes, os portugueses precisavam de mão de obra para dar conta de tanta produção. Só que também esse não foi o único motivo. Aumentar a produção da cana, claro, era importante."
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-005-brasil/manada-q7E4XrfGGnE.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 10854,
+   "nota": 5.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.007211538461538462,
+   "sim_media": 0.15618326579569208,
+   "gemeos": 0,
+   "blocos": 47,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-005-brasil/manada-Vug2cLY3nxk.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2466,
+   "nota": 0.6,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.007211538461538462,
+   "sim_media": 0.16825154984507687,
+   "gemeos": 0,
+   "blocos": 47,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-005-brasil/manada-W9tBXt1YZ_w.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2501,
+   "nota": 0.6,
+   "veredito": "ok"
+  }
+ ]
+}

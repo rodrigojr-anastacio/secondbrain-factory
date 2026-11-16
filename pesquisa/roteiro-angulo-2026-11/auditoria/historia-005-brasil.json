@@ -1,0 +1,906 @@
+{
+ "pasta": "canais/historia-ptbr/videos/005-brasil",
+ "roteiro": "canais/historia-ptbr/videos/005-brasil/blocos.json",
+ "idioma": "pt",
+ "blocos": 101,
+ "nota": 47.4,
+ "veredito": "CÓPIA",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [
+  6,
+  14,
+  15,
+  17,
+  24,
+  26,
+  28,
+  30,
+  34,
+  35,
+  43,
+  44,
+  46,
+  49,
+  53,
+  56,
+  57,
+  58,
+  61,
+  62,
+  63,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  73,
+  79,
+  80,
+  84,
+  85,
+  89,
+  94
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.5148514851485149,
+   "ordem": 0.9615384615384616,
+   "ngramas": 0.08419083255378859,
+   "sim_media": 0.33989913177944614,
+   "gemeos": 52,
+   "blocos": 101,
+   "posicoes": [
+    [
+     14,
+     23
+    ],
+    [
+     17,
+     26
+    ],
+    [
+     21,
+     41
+    ],
+    [
+     24,
+     46
+    ],
+    [
+     27,
+     49
+    ],
+    [
+     28,
+     51
+    ],
+    [
+     29,
+     52
+    ],
+    [
+     30,
+     57
+    ],
+    [
+     31,
+     59
+    ],
+    [
+     32,
+     61
+    ],
+    [
+     34,
+     64
+    ],
+    [
+     35,
+     66
+    ],
+    [
+     38,
+     73
+    ],
+    [
+     39,
+     75
+    ],
+    [
+     40,
+     77
+    ],
+    [
+     43,
+     90
+    ],
+    [
+     44,
+     92
+    ],
+    [
+     46,
+     104
+    ],
+    [
+     47,
+     106
+    ],
+    [
+     49,
+     109
+    ],
+    [
+     50,
+     110
+    ],
+    [
+     51,
+     115
+    ],
+    [
+     53,
+     118
+    ],
+    [
+     54,
+     122
+    ],
+    [
+     55,
+     123
+    ],
+    [
+     56,
+     129
+    ],
+    [
+     57,
+     133
+    ],
+    [
+     62,
+     142
+    ],
+    [
+     63,
+     146
+    ],
+    [
+     64,
+     139
+    ],
+    [
+     66,
+     151
+    ],
+    [
+     67,
+     154
+    ],
+    [
+     68,
+     156
+    ],
+    [
+     69,
+     158
+    ],
+    [
+     70,
+     161
+    ],
+    [
+     71,
+     164
+    ],
+    [
+     73,
+     166
+    ],
+    [
+     74,
+     167
+    ],
+    [
+     75,
+     172
+    ],
+    [
+     76,
+     173
+    ],
+    [
+     78,
+     180
+    ],
+    [
+     79,
+     181
+    ],
+    [
+     80,
+     183
+    ],
+    [
+     81,
+     186
+    ],
+    [
+     84,
+     193
+    ],
+    [
+     85,
+     198
+    ],
+    [
+     86,
+     200
+    ],
+    [
+     88,
+     206
+    ],
+    [
+     89,
+     209
+    ],
+    [
+     91,
+     213
+    ],
+    [
+     92,
+     217
+    ],
+    [
+     94,
+     14
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 62,
+     "cos": 0.83,
+     "nosso": "Então veio a guerra mais sangrenta da América do Sul: Brasil, Argentina e Uruguai contra o Paraguai, por mais de cinco anos.",
+     "ref": "guerra mais sangrenta da história sul-americana. Brasil, Argentina e Uruguai se alinharam contra o Paraguai por mais de 5"
+    },
+    {
+     "bloco": 64,
+     "cos": 0.82,
+     "nosso": "Na Filadélfia, o imperador pegou o telefone novo de Graham Bell e, conta-se, exclamou: meu Deus, isto fala!",
+     "ref": "novo telefone de Alexander Graham Bell e, segundo se conta, exclamou: \"Meu Deus, ele fala.\" Mas todo o seu império"
+    },
+    {
+     "bloco": 74,
+     "cos": 0.8,
+     "nosso": "Hoje, o Brasil tem a maior comunidade japonesa fora do Japão.",
+     "ref": "Itália, da Alemanha e do Japão. Hoje, o Brasil tem a maior comunidade japonesa fora do Japão. Longe do café,"
+    },
+    {
+     "bloco": 84,
+     "cos": 0.69,
+     "nosso": "Dois anos depois, Juscelino Kubitchéque prometeu cinquenta anos de progresso em cinco.",
+     "ref": "maior promessa da história do país. Juscelino Kubitschek disse que o Brasil faria 50 anos de progresso"
+    },
+    {
+     "bloco": 86,
+     "cos": 0.69,
+     "nosso": "Era o futuro, feito de concreto… e pago com uma montanha de dívida. Quatro anos depois, os tanques saíram às ruas.",
+     "ref": "futuro, construído em concreto e pago com uma montanha de dívidas. Quatro anos depois, os tanques entraram em movimento."
+    },
+    {
+     "bloco": 44,
+     "cos": 0.67,
+     "nosso": "Fugiu. Entre dez e quinze mil pessoas embarcaram com o tesouro, os arquivos e a biblioteca real.",
+     "ref": "extraordinário. Fugiu. Entre 10 e 15 mil pessoas se amontoaram em navios com o tesouro, os arquivos e a biblioteca real."
+    },
+    {
+     "bloco": 57,
+     "cos": 0.66,
+     "nosso": "Pedro durou pouco. Em mil oitocentos e trinta e um, abdicou e foi lutar pelo trono da filha em Portugal. Deixou aqui o herdeiro… de cinco anos.",
+     "ref": "Pedro não durou muito. Menos de 9 anos depois, abdicou e navegou para lutar pelo trono de sua filha em Portugal. Deixou para trás"
+    },
+    {
+     "bloco": 71,
+     "cos": 0.62,
+     "nosso": "São Paulo, do café, e Minas, do leite, se revezavam na presidência. O povo chamou de política do café com leite.",
+     "ref": "rica em leite Minas Gerais se revezavam na escolha do presidente, por isso o sistema foi chamado de política do café com leite."
+    },
+    {
+     "bloco": 43,
+     "cos": 0.61,
+     "nosso": "Em novembro de mil oitocentos e sete, o exército de Napoleão marchava sobre Lisboa. E a família real portuguesa fez o que nenhuma outra tinha feito.",
+     "ref": "Napoleão. Em novembro de 1807, tropas francesas marchavam sobre Lisboa, e a família real portuguesa fez algo"
+    },
+    {
+     "bloco": 28,
+     "cos": 0.59,
+     "nosso": "Quase cinco milhões de africanos escravizados chegaram vivos ao Brasil. Quase metade de todos os que desembarcaram nas Américas. Nenhum lugar recebeu mais.",
+     "ref": "africanos escravizados chegaram vivos ao Brasil. Isso equivale a quase metade de todos os que sobreviveram à travessia, mais do que em qualquer outro lugar"
+    },
+    {
+     "bloco": 35,
+     "cos": 0.58,
+     "nosso": "Seu último grande líder, Zumbi, foi morto em vinte de novembro de mil seiscentos e noventa e cinco. Hoje, esse dia é feriado nacional: o Dia da Consciência Negra.",
+     "ref": "grande líder, Zumbi, foi morto em 1695, e o Brasil hoje marca o Dia da Consciência Negra nesse"
+    },
+    {
+     "bloco": 49,
+     "cos": 0.57,
+     "nosso": "Em poucos meses, a colônia ganhou portos abertos ao mundo, um banco, uma imprensa e um jardim botânico.",
+     "ref": "portos abertos, um banco, uma tipografia e um jardim botânico. E o príncipe gostou. Ele se tornou"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-005-brasil/manada-Vug2cLY3nxk.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2466,
+   "nota": 47.4,
+   "veredito": "CÓPIA"
+  },
+  {
+   "cobertura": 0.44554455445544555,
+   "ordem": 0.7777777777777778,
+   "ngramas": 0.05519176800748363,
+   "sim_media": 0.29902053974819187,
+   "gemeos": 45,
+   "blocos": 101,
+   "posicoes": [
+    [
+     4,
+     32
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     7,
+     138
+    ],
+    [
+     9,
+     8
+    ],
+    [
+     12,
+     10
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     17
+    ],
+    [
+     15,
+     19
+    ],
+    [
+     17,
+     31
+    ],
+    [
+     20,
+     38
+    ],
+    [
+     24,
+     41
+    ],
+    [
+     26,
+     43
+    ],
+    [
+     28,
+     48
+    ],
+    [
+     30,
+     56
+    ],
+    [
+     33,
+     59
+    ],
+    [
+     34,
+     51
+    ],
+    [
+     35,
+     54
+    ],
+    [
+     36,
+     61
+    ],
+    [
+     43,
+     77
+    ],
+    [
+     44,
+     78
+    ],
+    [
+     46,
+     81
+    ],
+    [
+     49,
+     83
+    ],
+    [
+     53,
+     89
+    ],
+    [
+     56,
+     105
+    ],
+    [
+     57,
+     94
+    ],
+    [
+     58,
+     96
+    ],
+    [
+     59,
+     4
+    ],
+    [
+     61,
+     109
+    ],
+    [
+     62,
+     105
+    ],
+    [
+     63,
+     106
+    ],
+    [
+     66,
+     113
+    ],
+    [
+     67,
+     114
+    ],
+    [
+     68,
+     116
+    ],
+    [
+     70,
+     102
+    ],
+    [
+     71,
+     121
+    ],
+    [
+     73,
+     123
+    ],
+    [
+     79,
+     125
+    ],
+    [
+     80,
+     128
+    ],
+    [
+     82,
+     133
+    ],
+    [
+     84,
+     136
+    ],
+    [
+     85,
+     138
+    ],
+    [
+     87,
+     143
+    ],
+    [
+     94,
+     6
+    ],
+    [
+     98,
+     161
+    ],
+    [
+     99,
+     31
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 71,
+     "cos": 0.82,
+     "nosso": "São Paulo, do café, e Minas, do leite, se revezavam na presidência. O povo chamou de política do café com leite.",
+     "ref": "Paulo e de Minas Gerais, que se revezavam na presidência. Era a política do café com leite. São Paulo do café, Minas do leite."
+    },
+    {
+     "bloco": 84,
+     "cos": 0.73,
+     "nosso": "Dois anos depois, Juscelino Kubitchéque prometeu cinquenta anos de progresso em cinco.",
+     "ref": "1954. Depois veio Juscelino Kubitschek, com uma promessa ousada: 50 anos de progresso em cinco. Ele trouxe"
+    },
+    {
+     "bloco": 62,
+     "cos": 0.71,
+     "nosso": "Então veio a guerra mais sangrenta da América do Sul: Brasil, Argentina e Uruguai contra o Paraguai, por mais de cinco anos.",
+     "ref": "guerra mais sangrenta da história da América do Sul, a Guerra do Paraguai, de 1864 a 1870. Brasil, Argentina e Uruguai"
+    },
+    {
+     "bloco": 35,
+     "cos": 0.7,
+     "nosso": "Seu último grande líder, Zumbi, foi morto em vinte de novembro de mil seiscentos e noventa e cinco. Hoje, esse dia é feriado nacional: o Dia da Consciência Negra.",
+     "ref": "Zumbi foi morto em 20 de novembro de 1695. Hoje, essa data é o dia da consciência negra, feriado nacional."
+    },
+    {
+     "bloco": 28,
+     "cos": 0.68,
+     "nosso": "Quase cinco milhões de africanos escravizados chegaram vivos ao Brasil. Quase metade de todos os que desembarcaram nas Américas. Nenhum lugar recebeu mais.",
+     "ref": "africanos desembarcaram no Brasil. Quase metade de todo o tráfico do Atlântico. Nenhum outro lugar das Américas recebeu tanta"
+    },
+    {
+     "bloco": 17,
+     "cos": 0.61,
+     "nosso": "Ouro, ninguém achou. Mas havia uma árvore de madeira vermelha cor de brasa, que dava tinta: o pau-brasil. E a terra ficou com o nome da madeira.",
+     "ref": "Europa. O pau-brasil. A madeira tinha cor de brasa. E foi da brasa que veio o nome da árvore e depois o nome do país."
+    },
+    {
+     "bloco": 9,
+     "cos": 0.58,
+     "nosso": "Mas, muito antes de qualquer navio, essa terra já tinha gente. Milhões de pessoas, de centenas de povos diferentes.",
+     "ref": "Brasil. Mas muito antes de qualquer europeu chegar, essa terra já tinha dono. Eram milhões de pessoas divididas em centenas de povos"
+    },
+    {
+     "bloco": 58,
+     "cos": 0.55,
+     "nosso": "Depois de anos de revoltas, do Pará ao Rio Grande do Sul, os políticos declararam o menino maior de idade, aos catorze anos.",
+     "ref": "anos de idade. Sem imperador, o país quase se despedaçou. Estouraram revoltas do Pará ao Rio Grande do Sul. Então, os políticos"
+    },
+    {
+     "bloco": 94,
+     "cos": 0.54,
+     "nosso": "Em oito anos, o Brasil trocou de moeda cinco vezes. A quinta, o real, deu certo, e está aí até hoje.",
+     "ref": "trocou de moeda cinco vezes em oito anos. Hoje ela tem mais de 213 milhões de habitantes. Essa é a história inteira"
+    },
+    {
+     "bloco": 24,
+     "cos": 0.52,
+     "nosso": "No litoral de Pernambuco e da Bahia nasceram os engenhos. No fim do século dezesseis, o Brasil era o maior produtor de açúcar do mundo.",
+     "ref": "encheu de engenhos e no século XVII, o Brasil virou o maior produtor de açúcar do mundo. Mas o açúcar tinha um"
+    },
+    {
+     "bloco": 20,
+     "cos": 0.52,
+     "nosso": "Para segurar a terra, a Coroa a fatiou em capitanias e, em mil quinhentos e quarenta e nove, mandou um governador-geral, que fundou Salvador.",
+     "ref": "rei mandou um governador geral que fundou a primeira capital do Brasil. Salvador. E aí, Portugal finalmente"
+    },
+    {
+     "bloco": 66,
+     "cos": 0.51,
+     "nosso": "Em treze de maio de mil oitocentos e oitenta e oito, a princesa Isabel assinou a Lei Áurea. Dois artigos: a escravidão estava extinta.",
+     "ref": "maio de 1888, a princesa Isabel assinou a Lei Áurea. O Brasil foi o último país das Américas a abolir"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-005-brasil/manada-sD0cIJ8JMYw.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1850,
+   "nota": 37.6,
+   "veredito": "CÓPIA"
+  },
+  {
+   "cobertura": 0.1485148514851485,
+   "ordem": 0.8666666666666667,
+   "ngramas": 0.018709073900841908,
+   "sim_media": 0.2280474092365482,
+   "gemeos": 15,
+   "blocos": 101,
+   "posicoes": [
+    [
+     15,
+     77
+    ],
+    [
+     17,
+     100
+    ],
+    [
+     28,
+     210
+    ],
+    [
+     34,
+     280
+    ],
+    [
+     35,
+     293
+    ],
+    [
+     56,
+     455
+    ],
+    [
+     58,
+     452
+    ],
+    [
+     62,
+     517
+    ],
+    [
+     66,
+     555
+    ],
+    [
+     71,
+     611
+    ],
+    [
+     79,
+     637
+    ],
+    [
+     83,
+     738
+    ],
+    [
+     84,
+     748
+    ],
+    [
+     85,
+     754
+    ],
+    [
+     89,
+     688
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 71,
+     "cos": 0.46,
+     "nosso": "São Paulo, do café, e Minas, do leite, se revezavam na presidência. O povo chamou de política do café com leite.",
+     "ref": "Minas Gerais. E nisso surgiu a famosa política café com leite, termo que você deve conhecer do café"
+    },
+    {
+     "bloco": 35,
+     "cos": 0.43,
+     "nosso": "Seu último grande líder, Zumbi, foi morto em vinte de novembro de mil seiscentos e noventa e cinco. Hoje, esse dia é feriado nacional: o Dia da Consciência Negra.",
+     "ref": "aconteceu no dia 20 de novembro, data na qual comemoramos o dia da consciência negra. No final do século XVII,"
+    },
+    {
+     "bloco": 62,
+     "cos": 0.4,
+     "nosso": "Então veio a guerra mais sangrenta da América do Sul: Brasil, Argentina e Uruguai contra o Paraguai, por mais de cinco anos.",
+     "ref": "territórios do Brasil e da Argentina. Aí brasileiros, argentinos e uruguaios formaram a Tríplice Aliança e começou então a guerra. Existe"
+    },
+    {
+     "bloco": 17,
+     "cos": 0.39,
+     "nosso": "Ouro, ninguém achou. Mas havia uma árvore de madeira vermelha cor de brasa, que dava tinta: o pau-brasil. E a terra ficou com o nome da madeira.",
+     "ref": "árvore bem peculiar aqui. Essa árvore chamada de pau-brasil produzia uma tinta vermelha usada"
+    },
+    {
+     "bloco": 28,
+     "cos": 0.38,
+     "nosso": "Quase cinco milhões de africanos escravizados chegaram vivos ao Brasil. Quase metade de todos os que desembarcaram nas Américas. Nenhum lugar recebeu mais.",
+     "ref": "XVI e XIX, mais de 10 milhões de escravos africanos vieram para a América. E quase 40% deles para o Brasil."
+    },
+    {
+     "bloco": 84,
+     "cos": 0.38,
+     "nosso": "Dois anos depois, Juscelino Kubitchéque prometeu cinquenta anos de progresso em cinco.",
+     "ref": "governos anteriores, dar partida ao plano de metas. O lema 50 anos de progresso em cinco de governo"
+    },
+    {
+     "bloco": 85,
+     "cos": 0.38,
+     "nosso": "E construiu uma capital nova, no meio do cerrado, em menos de quatro anos. Brasília foi inaugurada em abril de mil novecentos e sessenta, com forma de avião.",
+     "ref": "nova capital do Brasil. Em 21 de abril de 1960, Juscelino Kubitschek inaugura Brasília, a nova capital"
+    },
+    {
+     "bloco": 56,
+     "cos": 0.36,
+     "nosso": "E, enquanto a América espanhola se partia em várias repúblicas, o Brasil continuou um só. Ou quase: no sul, perdeu uma guerra, e a Cisplatina virou o Uruguai.",
+     "ref": "guerra acabou, a província Cisplatina virou o Uruguai e seguiu com a sua vida. Só que essa guerra lá da Cisplatina custou muita grana"
+    },
+    {
+     "bloco": 34,
+     "cos": 0.36,
+     "nosso": "Enquanto isso, nas serras de Alagoas, escravizados fugidos tinham erguido Palmares, um quilombo que resistiu por quase um século.",
+     "ref": "famoso deles era Palmares, que ficava onde hoje é Alagoas. Nem todo mundo sabe, mas Palmares não era só um quilombo,"
+    },
+    {
+     "bloco": 89,
+     "cos": 0.34,
+     "nosso": "O lema era: Brasil, ame-o ou deixe-o. E houve censura, prisões e tortura de opositores.",
+     "ref": "fase chamada de Estado Novo foi uma ditadura mesmo, com prisões, tortura e censura. Esse Estado Novo de Getúlio"
+    },
+    {
+     "bloco": 83,
+     "cos": 0.33,
+     "nosso": "Em mil novecentos e cinquenta e quatro, pressionado pelos militares, Vargas se matou no palácio do Catete. Deixou uma carta: saio da vida para entrar na história.",
+     "ref": "saio da vida para entrar na história. Depois de Getúlio, o Brasil ganhou um presidente populista atrás do outro, cada um"
+    },
+    {
+     "bloco": 79,
+     "cos": 0.32,
+     "nosso": "Em mil novecentos e trinta, um gaúcho baixinho, de charuto, chegou ao poder por uma revolução: Getúlio Vargas.",
+     "ref": "tenentismo, e tomou o poder do país. E o nome desse gaúcho era Getúlio Vargas. O Getúlio virou presidente"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-005-brasil/manada-q7E4XrfGGnE.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 10854,
+   "nota": 12.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0594059405940594,
+   "ordem": 0.8333333333333334,
+   "ngramas": 0.0,
+   "sim_media": 0.15693453736864846,
+   "gemeos": 6,
+   "blocos": 101,
+   "posicoes": [
+    [
+     26,
+     43
+    ],
+    [
+     52,
+     133
+    ],
+    [
+     57,
+     161
+    ],
+    [
+     61,
+     187
+    ],
+    [
+     62,
+     160
+    ],
+    [
+     69,
+     197
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 69,
+     "cos": 0.38,
+     "nosso": "A família imperial foi posta num navio de madrugada. Dom Pedro morreu em Paris, dois anos depois, com um travesseiro de terra do Brasil no caixão.",
+     "ref": "dinheiro, antes de morrer dois anos depois, em Paris. De volta ao Brasil, o império fora derrubado em favor de uma"
+    },
+    {
+     "bloco": 61,
+     "cos": 0.34,
+     "nosso": "E o café, como o açúcar, era colhido por gente escravizada. Em mil oitocentos e cinquenta, sob pressão inglesa, o Brasil proibiu o tráfico. A escravidão, não.",
+     "ref": "tráfico de escravizados português e o fato de que o Brasil foi praticamente a última grande potência a proibir a escravidão, isso não aconteceu"
+    },
+    {
+     "bloco": 62,
+     "cos": 0.33,
+     "nosso": "Então veio a guerra mais sangrenta da América do Sul: Brasil, Argentina e Uruguai contra o Paraguai, por mais de cinco anos.",
+     "ref": "guerra contra a Argentina e de tentar uma série de reformas altamente impopulares. Ele deixou seu filho de 5"
+    },
+    {
+     "bloco": 26,
+     "cos": 0.31,
+     "nosso": "Primeiro, escravizaram indígenas. Epidemias, guerras e trabalho forçado mataram boa parte dos povos do litoral.",
+     "ref": "naturais de volta para Portugal. Os povos indígenas capturados para o trabalho forçado geralmente fugiam para o interior, o que poderia"
+    },
+    {
+     "bloco": 57,
+     "cos": 0.31,
+     "nosso": "Pedro durou pouco. Em mil oitocentos e trinta e um, abdicou e foi lutar pelo trono da filha em Portugal. Deixou aqui o herdeiro… de cinco anos.",
+     "ref": "reformas altamente impopulares. Ele deixou seu filho de 5 anos, Pedro II, na linha de sucessão ao trono, e na década"
+    },
+    {
+     "bloco": 52,
+     "cos": 0.3,
+     "nosso": "Em Lisboa, as Cortes quiseram fazer o Brasil voltar a ser colônia e mandaram Pedro voltar para casa.",
+     "ref": "João e restaurar o Brasil à condição subserviente de colônia, mas, quando o parlamento português pediu que Pedro voltasse a Lisboa"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-005-brasil/manada-W9tBXt1YZ_w.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2501,
+   "nota": 4.5,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.039603960396039604,
+   "ordem": 0.75,
+   "ngramas": 0.0037418147801683817,
+   "sim_media": 0.15819147756644183,
+   "gemeos": 4,
+   "blocos": 101,
+   "posicoes": [
+    [
+     3,
+     34
+    ],
+    [
+     6,
+     0
+    ],
+    [
+     15,
+     15
+    ],
+    [
+     57,
+     121
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 15,
+     "cos": 0.49,
+     "nosso": "Em abril de mil e quinhentos, a frota de Pedro Álvares Cabral, a caminho da Índia, avistou um monte no sul da Bahia.",
+     "ref": "frota comandada por Pedro Álvares Cabral. Cabral estava realmente a caminho da Índia, mas foi desviado imensamente do curso"
+    },
+    {
+     "bloco": 57,
+     "cos": 0.41,
+     "nosso": "Pedro durou pouco. Em mil oitocentos e trinta e um, abdicou e foi lutar pelo trono da filha em Portugal. Deixou aqui o herdeiro… de cinco anos.",
+     "ref": "Pedro a abdicar do trono para seu filho de cinco anos, Pedro II, e posteriormente entregar o império a uma linha"
+    },
+    {
+     "bloco": 3,
+     "cos": 0.36,
+     "nosso": "E tem gente também: dezenas de indígenas escravizados, a maioria mulheres.",
+     "ref": "forma de trabalhar as suas plantações era escravizando os segundos. O resultado disso foi a morte e a fuga de dezenas e dezenas de indígenas"
+    },
+    {
+     "bloco": 6,
+     "cos": 0.31,
+     "nosso": "Essa é a história inteira do Brasil: como a terra que nasceu numa lista de carga virou um país de mais de duzentos milhões de pessoas.",
+     "ref": "uma população de mais de 200 milhões de pessoas e evidências de vida em seu território com mais de 30.000 anos, o Brasil"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-005-brasil/manada-rqT51lU1IJw.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1619,
+   "nota": 3.2,
+   "veredito": "ok"
+  }
+ ]
+}

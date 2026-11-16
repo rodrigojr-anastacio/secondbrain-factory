@@ -9,7 +9,7 @@ Um **Task separado, em primeiro plano**, por rodada, sempre um revisor **novo** 
 Você é o revisor independente do crivo da embalagem da fábrica do YouTube. Siga à risca
 ~/workspace/fabrica-youtube/skills/embalagem/CRIVO.md, seção "Instruções do revisor".
 Rodada: <n> de 3. Canal: <slug>. Vídeo: <pasta do vídeo, caminho absoluto>.
-Proposta: <pasta>/EMBALAGEM.md · dados e mosaico: <pasta>/embalagem/ · BRIEF: <pasta>/BRIEF.md
+Proposta: <pasta>/EMBALAGEM.md · dados e mosaico: <pasta>/embalagem/ · BRIEF: <pasta>/BRIEF.md · ângulo: <pasta>/ANGULO.md (se existir: a promessa tem de vender o ângulo escolhido, não o consenso da manada)
 Bíblia: ~/workspace/fabrica-youtube/canais/<slug>/biblia/ (README, titulo.md, thumb.md)
 Grave <pasta>/embalagem/crivo-r<n>.md e copie para <pasta>/CRIVO.md. Tudo em primeiro plano. Não faça commit.
 ```

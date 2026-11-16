@@ -13,6 +13,8 @@ Uso (tools/.venv/bin/python tools/rotinas/backlog.py …):
   importar <arquivo.json> --canal X [--fonte F]   carga/atualização de temas (upsert por slug; congelados não mudam)
   add --canal X --tema T --slug S [--status ...] [--data AAAA-MM-DD] [--video-id N] [--pasta P] [--nota ...] --motivo M
   nota <id> --demanda D --encaixe E --urgencia U --motivo M      reavalia (recalcula a nota)
+  angulo <id> --angulo A --manada J --motivo M   ângulo fora da manada + evidência do que a manada já fez (16/11/2026;
+                                         J = JSON lista [{"id","canal","views","data","faz"}]; vira evidência tipo "manada")
   descartar <id> --motivo M              tira da fila (proibido para em_producao/pronto/publicado)
   status <id> <status> --motivo M        muda status à mão (congelados só avançam)
   sync                                   youtube.videos → backlog (pronto/publicado, video_id pela pasta)
@@ -321,6 +323,9 @@ def main():
     p = sp.add_parser("nota"); p.add_argument("id", type=int); p.add_argument("--demanda", type=float, required=True)
     p.add_argument("--encaixe", type=float, required=True); p.add_argument("--urgencia", type=float, required=True); p.add_argument("--motivo", required=True)
     p.add_argument("--janela"); p.add_argument("--evidencias")
+    p = sp.add_parser("angulo"); p.add_argument("id", type=int); p.add_argument("--angulo", required=True)
+    p.add_argument("--manada", required=True, help="JSON (lista) ou .json: vídeos de mais views do tema e o que cada um faz")
+    p.add_argument("--motivo", required=True)
     p = sp.add_parser("descartar"); p.add_argument("id", type=int); p.add_argument("--motivo", required=True)
     p = sp.add_parser("status"); p.add_argument("id", type=int); p.add_argument("status"); p.add_argument("--motivo", required=True)
     sp.add_parser("sync")
@@ -362,6 +367,22 @@ def main():
                              a.janela, a.riscos, a.status, a.data, a.video_id, a.pasta, a.motivo,
                              Jsonb([{"em": datetime.now(TZ).isoformat(timespec="minutes"), "para": a.status, "motivo": a.motivo}]))).fetchone()
             print(f"ok id {r[0]}" if r else f"já existe {a.canal}/{a.slug} (use nota/status)")
+        elif a.c == "angulo":
+            st = con.execute("SELECT status, evidencias FROM youtube.backlog WHERE id=%s", (a.id,)).fetchone()
+            if not st:
+                raise SystemExit("id não existe")
+            if st[0] in CONGELADOS:
+                raise SystemExit(f"id {a.id} está {st[0]}: congelado")
+            man = ev(a.manada) or []
+            if len(man) < 2:
+                raise SystemExit("--manada precisa de ≥ 2 vídeos (os de mais views do tema) com o que cada um faz")
+            hoje_s = str(hoje())
+            novas = [{"tipo": "manada", "fonte": f"{m.get('canal', '')}: {m.get('faz', '')}"[:300],
+                      "link": f"https://youtu.be/{m['id']}" if m.get("id") else m.get("link", ""),
+                      "numero": f"{m.get('views', '')} views", "data": m.get("data") or hoje_s} for m in man]
+            antigas = [e for e in (st[1] or []) if e.get("tipo") != "manada"]
+            mudar(con, a.id, a.motivo, angulo=a.angulo, evidencias=antigas + novas)
+            print("ok")
         elif a.c in ("nota", "descartar", "status"):
             st = con.execute("SELECT status FROM youtube.backlog WHERE id=%s", (a.id,)).fetchone()
             if not st:

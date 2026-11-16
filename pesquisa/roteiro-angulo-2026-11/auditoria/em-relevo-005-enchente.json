@@ -1,0 +1,195 @@
+{
+ "pasta": "pesquisa/canal-clima-2026-11/longo-05",
+ "roteiro": "pesquisa/canal-clima-2026-11/longo-05/shared/blocos.json",
+ "idioma": "pt",
+ "blocos": 40,
+ "nota": 11.1,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [
+  5,
+  15,
+  20
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.15,
+   "ordem": 0.5,
+   "ngramas": 0.011904761904761904,
+   "sim_media": 0.22267910179050016,
+   "gemeos": 6,
+   "blocos": 40,
+   "posicoes": [
+    [
+     5,
+     16
+    ],
+    [
+     10,
+     86
+    ],
+    [
+     15,
+     16
+    ],
+    [
+     20,
+     17
+    ],
+    [
+     27,
+     114
+    ],
+    [
+     28,
+     0
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 5,
+     "cos": 0.43,
+     "nosso": "Olhe de cima. Da serra, do planalto e do centro do estado vêm os rios: o Jacuí, o Taquari, o Caí, o Sinos e, perto da capital, o Gravataí. Todos terminam no mesmo lugar: no Guaíba, bem na frente de Porto Alegre.",
+     "ref": "chuva que não para por três semanas. Toda essa água desce pelos rios do interior e se encontra num lugar só, na frente de Porto Alegre. O Jacuí, o Taquari, o Caí, o Sinos e o Gravataí despejam tudo no Guaíba. E o Guaíba tem uma única saída: a Lagoa"
+    },
+    {
+     "bloco": 15,
+     "cos": 0.37,
+     "nosso": "Os rios do planalto e do centro formam o Jacuí. O Taquari desce da serra e se junta a ele. Mais perto da capital, chegam o Caí, o Sinos e o Gravataí. E todos desembocam no mesmo lago: o Guaíba.",
+     "ref": "chuva que não para por três semanas. Toda essa água desce pelos rios do interior e se encontra num lugar só, na frente de Porto Alegre. O Jacuí, o Taquari, o Caí, o Sinos e o Gravataí despejam tudo no Guaíba. E o Guaíba tem uma única saída: a Lagoa"
+    },
+    {
+     "bloco": 10,
+     "cos": 0.37,
+     "nosso": "E não era a primeira cheia grande. Em setembro de dois mil e vinte e três, o Taquari já tinha passado do recorde de mil novecentos e quarenta e um. Em novembro, o Guaíba passou dos três metros de novo. Maio de dois mil e vinte e quatro foi a terceira grande ch",
+     "ref": "chegou a ser tirado, mas a ideia estava viva no mesmo mês em que o Guaíba passou dos 3 m. Em novembro, choveu de novo sobre o Taquari. Dia 20 de novembro, as comportas foram fechadas pela terceira vez no ano. O Guaíba chegou a 3,46"
+    },
+    {
+     "bloco": 20,
+     "cos": 0.35,
+     "nosso": "Se entra tanta água, por que ela não vai logo embora? O Guaíba só tem uma saída. Ao sul, ele deságua na Lagoa dos Patos.",
+     "ref": "Jacuí, o Taquari, o Caí, o Sinos e o Gravataí despejam tudo no Guaíba. E o Guaíba tem uma única saída: a Lagoa dos Patos e dali, uma passagem estreita até o mar. É um funil. A água entra pela boca larga"
+    },
+    {
+     "bloco": 28,
+     "cos": 0.34,
+     "nosso": "Em maio, várias falharam. No dia três, uma comporta perto da avenida Sertório rompeu. A água entrou pela zona norte, em bairros como Navegantes.",
+     "ref": "Porto Alegre. 3 de maio de 2024. Manhã de sexta-feira. Na zona norte da cidade, embaixo da Avenida Sertório, existe uma porta de aço do tamanho de uma rua. Ela tem número. É a comporta 14."
+    },
+    {
+     "bloco": 27,
+     "cos": 0.31,
+     "nosso": "Funciona assim. O muro e os diques deixam o Guaíba do lado de fora. As comportas são portões de aço nas passagens do muro, fechados na cheia. E as casas de bombas jogam para fora a chuva que cai do lado de dentro. Se uma peça falha, a água acha o caminho.",
+     "ref": "Lembra das duas metades? O muro segurava o rio, mas as bombas pararam e a chuva de dentro não tinha mais para onde ir. E pior, com as bombas paradas, o caminho que devia levar a água para fora, começa a funcionar ao contrário. O Guaíba mais alto que a cidade,"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/em-relevo-005-enchente/manada-sdBxzdQLbaE.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 3679,
+   "nota": 11.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.075,
+   "ordem": 0.6666666666666666,
+   "ngramas": 0.005952380952380952,
+   "sim_media": 0.15243981314014166,
+   "gemeos": 3,
+   "blocos": 40,
+   "posicoes": [
+    [
+     5,
+     7
+    ],
+    [
+     15,
+     7
+    ],
+    [
+     20,
+     18
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 5,
+     "cos": 0.42,
+     "nosso": "Olhe de cima. Da serra, do planalto e do centro do estado vêm os rios: o Jacuí, o Taquari, o Caí, o Sinos e, perto da capital, o Gravataí. Todos terminam no mesmo lugar: no Guaíba, bem na frente de Porto Alegre.",
+     "ref": "entender a tragédia É preciso conhecer os rios que cortam a região o lago Guaíba que margeia a capital do Estado Porto Alegre recebe água de pelo menos cinco Rios o caí o Taquari o sinos o Gravataí e o Rio Jacuí"
+    },
+    {
+     "bloco": 15,
+     "cos": 0.4,
+     "nosso": "Os rios do planalto e do centro formam o Jacuí. O Taquari desce da serra e se junta a ele. Mais perto da capital, chegam o Caí, o Sinos e o Gravataí. E todos desembocam no mesmo lago: o Guaíba.",
+     "ref": "entender a tragédia É preciso conhecer os rios que cortam a região o lago Guaíba que margeia a capital do Estado Porto Alegre recebe água de pelo menos cinco Rios o caí o Taquari o sinos o Gravataí e o Rio Jacuí"
+    },
+    {
+     "bloco": 20,
+     "cos": 0.35,
+     "nosso": "Se entra tanta água, por que ela não vai logo embora? O Guaíba só tem uma saída. Ao sul, ele deságua na Lagoa dos Patos.",
+     "ref": "água que passa pelo Guaíba segue um complexo caminho até o mar o lago deságua na Lagoa dos Patos que também não está preparada para receber tanta água de uma única vez e nesse caminho em direção ao extremo sul"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/em-relevo-005-enchente/manada-ltZcpMPOpYo.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1058,
+   "nota": 5.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0035714285714285713,
+   "sim_media": 0.15727207526990405,
+   "gemeos": 0,
+   "blocos": 40,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/em-relevo-005-enchente/manada-t8ehYkWBVW4.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 5408,
+   "nota": 0.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.002380952380952381,
+   "sim_media": 0.12769691960190452,
+   "gemeos": 0,
+   "blocos": 40,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/em-relevo-005-enchente/manada-JIosqudY9aM.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1687,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0011904761904761906,
+   "sim_media": 0.11038830295632866,
+   "gemeos": 0,
+   "blocos": 40,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/em-relevo-005-enchente/manada-EZbr2uZEX6g.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1759,
+   "nota": 0.1,
+   "veredito": "ok"
+  }
+ ]
+}

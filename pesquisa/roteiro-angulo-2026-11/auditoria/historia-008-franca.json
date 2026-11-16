@@ -1,0 +1,253 @@
+{
+ "pasta": "canais/historia-ptbr/videos/008-franca",
+ "roteiro": "canais/historia-ptbr/videos/008-franca/blocos.json",
+ "idioma": "pt",
+ "blocos": 54,
+ "nota": 28.2,
+ "veredito": "atenção",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [
+  33
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.3148148148148148,
+   "ordem": 1.0,
+   "ngramas": 0.03732809430255403,
+   "sim_media": 0.25376261120682847,
+   "gemeos": 17,
+   "blocos": 54,
+   "posicoes": [
+    [
+     6,
+     23
+    ],
+    [
+     9,
+     48
+    ],
+    [
+     10,
+     52
+    ],
+    [
+     11,
+     58
+    ],
+    [
+     12,
+     60
+    ],
+    [
+     16,
+     66
+    ],
+    [
+     17,
+     72
+    ],
+    [
+     19,
+     80
+    ],
+    [
+     21,
+     104
+    ],
+    [
+     22,
+     109
+    ],
+    [
+     23,
+     119
+    ],
+    [
+     26,
+     138
+    ],
+    [
+     28,
+     141
+    ],
+    [
+     33,
+     173
+    ],
+    [
+     35,
+     184
+    ],
+    [
+     47,
+     256
+    ],
+    [
+     48,
+     285
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 12,
+     "cos": 0.58,
+     "nosso": "Clóvis vira católico, como os bispos e o povo que ele governava. Então os bispos, que tinham a única administração que sobrou de Roma, passam a trabalhar para ele.",
+     "ref": "católicos. Ao escolher o catolicismo, Clóvis se colocou do mesmo lado da igreja e da população que governava. Os bispos, que eram a estrutura administrativa mais sólida que sobrou de Roma, passaram a trabalhar com ele, não contra ele. Foi uma"
+    },
+    {
+     "bloco": 17,
+     "cos": 0.53,
+     "nosso": "Depois de séculos de briga, uma família junta tudo de novo. Roma, Natal do ano oitocentos: o papa põe uma coroa de imperador na cabeça de Carlos Magno.",
+     "ref": "forma, Carlos Magno. No dia de Natal do ano 800, em Roma, o papa colocou uma coroa na cabeça de Carlos Magno e o proclamou imperador. Pela primeira vez desde"
+    },
+    {
+     "bloco": 48,
+     "cos": 0.41,
+     "nosso": "Verdân, mil novecentos e dezesseis: a mesma cidade do tratado dos netos de Carlos Magno, na mesma fronteira mal resolvida. Imagine dez meses de bombardeio numa trincheira. A França sai vencedora, e o tratado de paz é assinado… no mesmo Salão dos Espelhos.",
+     "ref": "fronteira mal resolvida. Quando a guerra terminou, a França recuperou a Alsácia e a Lorena. E em 1919, o tratado de paz foi assinado onde? No Salão dos Espelhos de Versalhes. A mesma sala onde o Império Alemão tinha sido"
+    },
+    {
+     "bloco": 33,
+     "cos": 0.41,
+     "nosso": "Aí o trono cai no colo justamente de Henrique, o protestante. Só que Paris, católica, não abre as portas. Então ele se converte, e a tradição põe na boca dele uma frase: Paris bem vale uma missa.",
+     "ref": "entrar em Paris depois de se converter ao catolicismo. A frase que costuma ser atribuída a ele, \"Paris bem vale uma missa\", provavelmente nunca foi dita assim, mas resume a lógica da decisão. Como Henrique"
+    },
+    {
+     "bloco": 23,
+     "cos": 0.4,
+     "nosso": "Só que, em mil cento e cinquenta e dois, uma mulher muda o mapa. Leonôr da Aquitânia se separa do rei da França e casa com Henrique, que logo vira rei da Inglaterra. De repente, o rei inglês tem mais terra na França do que o próprio rei francês.",
+     "ref": "dois anos mais tarde se tornaria rei da Inglaterra. De repente, o rei inglês controlava a Normandia, a Aquitânia, Anjou e muito mais. Mais território dentro da França do que o próprio rei da França. Imagine"
+    },
+    {
+     "bloco": 11,
+     "cos": 0.38,
+     "nosso": "Rrãns, por volta do ano quinhentos. Clóvis, o do machado, entra numa igreja para ser batizado pelo bispo Remígio. Repare na escolha: os outros reis germânicos eram cristãos de outra vertente, a ariana, que os bispos chamavam de heresia.",
+     "ref": "religioso, não era. A maioria dos outros reis germânicos da época era cristã, mas seguia o arianismo, uma vertente considerada herética pelos bispos. A população galo-romana, que era a grande maioria, seguia os bispos"
+    },
+    {
+     "bloco": 9,
+     "cos": 0.37,
+     "nosso": "Vercingetórix se rende. E aqui está o paradoxo: a derrota cria a base da França. Roma traz estradas, cidades e o latim. O francês descende da língua de César, e o português que você fala também.",
+     "ref": "descende da língua de Vercingetórix. Descende da língua de César. Pela primeira vez, aquele território inteiro estava sob uma única administração. Roma desenhou províncias, ligou cidades por estradas, fez"
+    },
+    {
+     "bloco": 6,
+     "cos": 0.36,
+     "nosso": "Olhe para esse mapa há dois mil e cem anos. Dezenas de povos celtas, cada um com o seu chefe, os seus deuses e as suas brigas. Os romanos chamavam todos de gauleses, mas um país, aquilo não era.",
+     "ref": "anos. Por volta do primeiro milênio antes de Cristo, o território está ocupado por dezenas de povos celtas que os romanos chamariam de gauleses. E aqui está o primeiro erro que quase todo mundo comete: imaginar a Gália"
+    },
+    {
+     "bloco": 19,
+     "cos": 0.35,
+     "nosso": "Só que o costume franco volta. Em oitocentos e quarenta e três, em Verdân, os netos dele cortam o império em três fatias. A do oeste vai virar a França. A do leste, a Alemanha. E a do meio, motivo de briga por mil anos.",
+     "ref": "netos fizeram o que os francos sempre fizeram. Dividiram. Em 843, na cidade de Verdun, os três netos assinaram um tratado. O império foi cortado em três faixas. A oeste, um"
+    },
+    {
+     "bloco": 10,
+     "cos": 0.34,
+     "nosso": "Mas o império envelhece. No século cinco, povos germânicos atravessam o Reno. E alguém vai ter que mandar nessa terra.",
+     "ref": "tornaria o ponto zero de tudo. Só que Roma não durou para sempre. No século V, o império do ocidente estava se desfazendo. Povos germânicos atravessavam o Reno. Alguns como invasores, outros como aliados contratados, outros simplesmente porque o império"
+    },
+    {
+     "bloco": 22,
+     "cos": 0.33,
+     "nosso": "Mas os Capêtos tinham uma arma secreta: filhos homens. Por mais de trezentos anos, cada rei deixou um filho vivo para herdar. Tente achar outra família real da época com essa sorte.",
+     "ref": "300 anos, de 987 até 1328, cada rei capetíngio deixou um filho homem vivo para sucedê-lo. Pai para filho, geração após geração. Sem disputas de herança, sem divisão"
+    },
+    {
+     "bloco": 47,
+     "cos": 0.33,
+     "nosso": "Só que esse sobrinho vai à guerra contra a Prússia e é capturado em Sedã. No cerco de Paris, os parisienses chegam a comer os elefantes do zoológico. Em mil oitocentos e setenta e um, os alemães proclamam o império deles no Salão dos Espelhos, em Versálhes. O ",
+     "ref": "comer animais do zoológico. E em janeiro de 1871, os alemães fizeram algo deliberadamente humilhante. Proclamaram o Império Alemão dentro do Salão dos Espelhos, no Palácio de Versalhes, o palácio de Luís"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-008-franca/manada-7amJtj96T0w.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 6215,
+   "nota": 28.2,
+   "veredito": "atenção"
+  },
+  {
+   "cobertura": 0.018518518518518517,
+   "ordem": 0.0,
+   "ngramas": 0.0019646365422396855,
+   "sim_media": 0.14135619924262532,
+   "gemeos": 1,
+   "blocos": 54,
+   "posicoes": [
+    [
+     33,
+     68
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 33,
+     "cos": 0.35,
+     "nosso": "Aí o trono cai no colo justamente de Henrique, o protestante. Só que Paris, católica, não abre as portas. Então ele se converte, e a tradição põe na boca dele uma frase: Paris bem vale uma missa.",
+     "ref": "Navarra, que se tornou o rei Henrique IV, e converteu-se ao catolicismo, afirmando famosamente que \"Paris vale bem uma missa\". O rei promulgou o Édito de Nantes, que concedeu alguns direitos"
+    }
+   ],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-008-franca/manada-7FpeWSFTFRk.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4004,
+   "nota": 1.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0019646365422396855,
+   "sim_media": 0.11368481001059699,
+   "gemeos": 0,
+   "blocos": 54,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-008-franca/manada-I_vNNKzwVq4.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 1317,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0019646365422396855,
+   "sim_media": 0.14447568629443558,
+   "gemeos": 0,
+   "blocos": 54,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-008-franca/manada-UeR9e5uPjIE.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4899,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0009823182711198428,
+   "sim_media": 0.12030333146190055,
+   "gemeos": 0,
+   "blocos": 54,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "pesquisa/roteiro-angulo-2026-11/refs/historia-008-franca/manada-IMICN1ZN-ag.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1351,
+   "nota": 0.1,
+   "veredito": "ok"
+  }
+ ]
+}

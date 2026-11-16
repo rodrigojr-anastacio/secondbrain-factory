@@ -1,0 +1,65 @@
+{
+ "pasta": "canais/historia-ptbr/videos/006-roma",
+ "roteiro": "canais/historia-ptbr/videos/006-roma/blocos.json",
+ "idioma": "pt",
+ "blocos": 65,
+ "nota": 3.0,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [],
+ "referencias": [
+  {
+   "cobertura": 0.046153846153846156,
+   "ordem": 0.3333333333333333,
+   "ngramas": 0.0008952551477170994,
+   "sim_media": 0.16628070344339496,
+   "gemeos": 3,
+   "blocos": 65,
+   "posicoes": [
+    [
+     33,
+     188
+    ],
+    [
+     52,
+     91
+    ],
+    [
+     62,
+     5
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 52,
+     "cos": 0.34,
+     "nosso": "Só que, para pagar tanto soldado, o governo derrete a moeda: a moeda de prata termina com menos de cinco por cento de prata. Pense no dinheiro do seu bolso valendo menos a cada mês. Roma precisava de alguém que segurasse o império antes que ele rachasse.",
+     "ref": "prata nas moedas. No começo do império, o denário romano, a moeda do império, o denário romano, a moeda padrão, tinha quase 100% de prata. No padrão, tinha quase 100% de prata."
+    },
+    {
+     "bloco": 62,
+     "cos": 0.33,
+     "nosso": "O fim chega quase sem barulho. Em quatrocentos e setenta e seis, o general bárbaro Odoacro tira do trono um menino, Rômulo Augústulo, com o nome do fundador e do primeiro imperador. Mas será que Roma acabou ali?",
+     "ref": "salão do trono. Diante dele um entrou no salão do trono. Diante dele um menino. Seu nome era Rômulo Augustolo, menino. Seu nome era Rômulo Augustolo,"
+    },
+    {
+     "bloco": 33,
+     "cos": 0.32,
+     "nosso": "Aí vem o general Mário, com uma solução prática: se o pobre não tem terra, que vire soldado profissional, com salário e terra prometida no fim. Só que agora o soldado deve tudo ao general, não a Roma.",
+     "ref": "terras da Itália. Era a prática comum em todo o império. Você a prática comum em todo o império. Você paga aos soldados com terra. Orestes se paga aos soldados com terra. Orestes se recusou, talvez por orgulho,"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/006-roma/ref/avm-queda-RDmf1C7xXv0.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 4388,
+   "nota": 3.0,
+   "veredito": "ok"
+  }
+ ]
+}
