@@ -21,8 +21,8 @@ for i, cd in enumerate(cartoes):
     out.append(f"{i+1}\n{ts(a)} --> {ts(b)}\n{' '.join(w for w, _ in cd)}\n")
 (R / "out").mkdir(exist_ok=True)
 open(R / "out/legendas.srt", "w").write("\n".join(out))
-mapa = {"UNIÃO DA VITÓRIA": "União da Vitória, julho de 1983", "A PERGUNTA": "A pergunta: o mesmo país, o mesmo ano", "PERGUNTA 1/4": "O que aconteceu no Sul",
-        "PERGUNTA 2/4": "O que aconteceu no sertão", "PERGUNTA 3/4": "Por que os dois ao mesmo tempo", "PERGUNTA 4/4": "E em 2026?", "A RESPOSTA": "A resposta"}
+mapa = {"CAXIAS DO SUL": "O hook: a chuva da serra", "O MAPA": "O mapa: os rios do Guaíba", "1 · A CHUVA DA SERRA": "1 · A chuva da serra", "2 · O LAGO QUE RECEBE TUDO": "2 · O lago que recebe tudo",
+        "3 · A SAÍDA": "3 · A saída lenta", "4 · O QUE CEDEU": "4 · O que cedeu", "A RESPOSTA": "A resposta"}
 caps = []
 for cp in c["capitulos"]:
     nome = next((v for k, v in mapa.items() if cp["nome"].startswith(k)), None)

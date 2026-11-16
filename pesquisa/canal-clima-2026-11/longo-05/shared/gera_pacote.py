@@ -1,48 +1,54 @@
-# Gera entrega/pacote/youtube.txt (3 títulos pareados às thumbs A/B/C, descrição, capítulos, créditos de fotos/música/SFX, fontes)
-# e FONTES-E-LICENCAS.md do longo 04 (1983). Créditos só na descrição (regra do lote); nada na tela.
+# Gera entrega/pacote/youtube.txt (padrão de conhecimento/politicas-youtube.md item 5: TÍTULOS A/B/C → DESCRIÇÃO → CAPÍTULOS → FONTES/CRÉDITOS → TAGS → CATEGORIA → CHECKLIST)
+# e FONTES-E-LICENCAS.md do longo 05 (enchente de maio/2024 em Porto Alegre). Créditos só na descrição (nada na tela além de lugar e data).
 import json
 from pathlib import Path
 A = Path(__file__).parent; R = A.parent
-c = json.load(open(A / "cues.json")); fotos = {f["arquivo"].split("/")[-1].rsplit(".", 1)[0]: f for f in json.load(open(R / "pesquisa/fotos.json"))}
+c = json.load(open(A / "cues.json")); fotos = {Path(f["arquivo"]).stem: f for f in json.load(open(R / "pesquisa/fotos.json"))}
 caps = (R / "work/capitulos.txt").read_text().strip()
 ts = lambda t: f"{int(t // 60)}:{int(t % 60):02d}"
 usadas = {}
 for m in c["midia"]:
-    k = m["src"].split("/")[-1]; usadas.setdefault(k, []).append((m["t0"], m["legenda"]))
-for k in ("landsat4-uv-19830804-par.jpg",):
-    usadas.setdefault(k, []).append((next(g["t0"] for g in c["graficos4"] if g["tipo"] == "cortina"), "UNIÃO DA VITÓRIA · LANDSAT 4 · 4 AGO 1983"))
+    k = Path(m["src"]).stem.replace("-recorte", ""); usadas.setdefault(k, []).append((m["t0"], m["legenda"]))
 cred, lic = [], []
 for k, tt in sorted(usadas.items(), key=lambda x: x[1][0][0]):
-    if k.startswith("landsat4-uv"):
-        autor, licenca, cr, pg = "NASA / USGS (Landsat 4 MSS), processado pela produção", "Domínio público (USGS)", "NASA/USGS Landsat 4 MSS, domínio público, processado pela produção", "https://earthexplorer.usgs.gov/ (cenas LM04_L1TP_221078_19830703 e _19830804)"
-    else:
-        f = fotos[k.rsplit(".", 1)[0]]; autor, licenca, cr, pg = f["autor"], f["lic"], f["credito"], f["page"]
-    cred.append(f"- {cr} · {tt[0][1]}")
-    lic.append(f"| {ts(tt[0][0])} | `{k}` | {tt[0][1]} | {autor} | {licenca} | {pg} |")
-(R / "FONTES-E-LICENCAS.md").write_text("# Fontes e licenças: Em Relevo 004 (1983, o El Niño que partiu o Brasil ao meio)\n\nFotos/imagens usadas no vídeo (créditos só na descrição; nada na tela além de lugar e ano).\n\n| Entra em | Arquivo | Legenda na tela | Autor | Licença | Página de origem |\n|---|---|---|---|---|---|\n" + "\n".join(lic) +
- "\n\nNão existe foto livre da enchente nem da seca de 1983: o ano é contado com dado, mapa e satélite. Foto de outro ano sempre leva o ano real na legenda. CC BY / CC BY-SA só com corte e redimensionamento.\nPendência: conferir a licença do slide 'Retirantes' (Centro de Memória/Unicamp) na página antes de publicar (FOTOS.md); se houver dúvida, tirar o slide (b20).\n\nMúsica: Kevin MacLeod (incompetech.com), CC BY 4.0: \"Echoes of Time\", \"Ossuary 6 - Air\", \"Frozen Star\".\nSFX: ver `../longo-02/FONTES-E-LICENCAS.md`.\nDados: ver `pesquisa/DADOS.md` e `pesquisa/FATOS.md` (ANA HidroWeb, NOAA/CPC, NOAA ERSSTv5, INMET).\n")
-titulos = [("A", "Por que o Brasil teve seca e enchente no mesmo ano?", "thumb-A.jpg · MESMO ANO"), ("B", "O El Niño de 1983 que partiu o Brasil ao meio", "thumb-B.jpg · 1983 (satélite de ago/1983)"), ("C", "E se o El Niño de 1983 voltar em 2026?", "thumb-C.jpg · 1983 → 2026?")]
-desc = f"""Julho de 1983: o rio Iguaçu chega a 10,42 metros em União da Vitória (PR) e cobre a cidade. Em Blumenau (SC), o Itajaí-Açu passa dos 15 metros pela terceira vez no ano. A 2.500 quilômetros dali, o sertão do Ceará vive o quinto ano de uma seca que começou em 1979: em agosto, 5 mil flagelados invadem um armazém de comida em Canindé. Foi o mesmo El Niño puxando o Brasil para os dois lados. Neste vídeo, no mapa 3D com relevo real, a gente responde 4 perguntas: o que aconteceu no Sul, o que aconteceu no sertão, por que os dois ao mesmo tempo (o El Niño de 1982-83, o mais forte desde 1950 no índice RONI da NOAA) e o que 1983 diz sobre 2026 (boletim da NOAA de 12/11/2026: cerca de 60% de chance de um El Niño histórico, sem prever enchente nem seca).
+    f = fotos[k]; cred.append(f"- {f['credito']} · {tt[0][1]}")
+    lic.append(f"| {ts(tt[0][0])} | `{k}.jpg` | {tt[0][1]} | {f['autor']} | {f['licenca']} | {f['pagina']} |")
+titulos = [("A", "Por que a chuva da SERRA alagou PORTO ALEGRE?", "thumb-A.jpg · 1/3 DO ESTADO? (câmera alta)"),
+           ("B", "O LAGO que engoliu PORTO ALEGRE em 2024", "thumb-B.jpg · 1/3 DO ESTADO? (câmera baixa, ponto do Guaíba maior)"),
+           ("C", "Por que a água da SERRA foi parar em PORTO ALEGRE?", "thumb-C.jpg · UM TERÇO?")]
+cta = "Se você quer entender o clima do Brasil no mapa, inscreva-se no Em Relevo e compartilhe este vídeo com quem tem família no Rio Grande do Sul. Para entender por que o Sul tem um clima tão diferente do resto do país, veja também: https://youtu.be/bG6-E4qjXYc"
+desc = f"""{cta}
+
+Em maio de 2024, a chuva mais pesada caiu na serra gaúcha. Quem ficou debaixo d'água foi Porto Alegre, a cerca de 100 quilômetros dali. Neste vídeo, no mapa em relevo, a gente segue o caminho da água: dos rios que nascem na serra e no planalto até o Guaíba, a saída lenta pela Lagoa dos Patos e a defesa da cidade que cedeu.
 
 CAPÍTULOS
 {caps}
 
-Observações: números de Santa Catarina (78 municípios em calamidade, 49 mortos, quase 200 mil desabrigados) são do levantamento da geógrafa Maria Lúcia Herrmann (UFSC); o de Canindé e os 10 milhões de flagelados vêm do Memorial da Democracia; não existe número oficial confiável de mortos pela seca de 1983, por isso o vídeo não cita nenhum. Fotos de outros anos levam o ano na legenda; não há foto livre da enchente nem da seca de 1983. As imagens de satélite de 3 de julho e 4 de agosto de 1983 são do Landsat 4 (USGS), com o mesmo tratamento de cor nas duas datas. A linha do tempo do rio usa a cota diária da ANA (estação 65310000). Trajetos e posição dos rios no mapa são aproximados.
-
-Veja também o vídeo anterior do canal sobre o El Niño de 2026: https://youtu.be/FeSLzHvlkbo
-
 FONTES
-ANA HidroWeb (cota diária do Iguaçu em União da Vitória, estação 65310000; chuva de Mombaça, estação 00539001, DNOCS) · Defesa Civil do Paraná, "Enchente de União da Vitória de 1983" · Defesa Civil de Blumenau, "Enchentes registradas" · Herrmann (2001), via Revista Brasileira de Geografia Física · Memorial da Democracia, "País descobre a tragédia da seca" (12/08/1983) · SUDENE, via Revista de Economia Política (SciELO) · NOAA/CPC (índice RONI e boletim ENSO de 12/11/2026) · Kousky e Cavalcanti (1984, INPE) · Grimm et al. (UFPR) · INMET (outubro de 2026) · Funceme · ASA/P1MC (cisternas) · NOAA ERSSTv5 · NOAA ETOPO 2022 e NASA Blue Marble (relevo e satélite) · IBGE / Natural Earth (limites).
+INMET (chuva em Caxias do Sul, Santa Maria e Porto Alegre) · World Weather Attribution (estudo rápido de 03/06/2024) · SGB/ANA (cota do Taquari em Lajeado e revisão da série de 1941) · Sema/ANA (pico do Guaíba, 5 de maio) · Prefeitura de Porto Alegre e DMAE (sistema de proteção contra cheias, casas de bombas, pessoas atingidas) · IPH/UFRGS (bacia do Guaíba, vento e Lagoa dos Patos, artigo na RBRH) · Governo do Rio Grande do Sul (bacia do Guaíba, cota de inundação, balanço da Defesa Civil) · Defesa Civil do RS (alerta por SMS: CEP para 40199). Esquemas (orla, corte do sistema, perfil do relevo, vazão) são ilustrativos e dizem isso na tela; trajetos de água no mapa são aproximados.
 
-CRÉDITOS DAS IMAGENS (fotos cortadas/redimensionadas, sem outra alteração)
+CRÉDITOS DAS IMAGENS (cortadas e redimensionadas, sem outra alteração)
 """ + "\n".join(cred) + """
+- Imagens de satélite: NASA Earth Observatory / Landsat 8 e MODIS (domínio público); "Contains modified Copernicus Sentinel data 2024" (HLS/Sentinel-2).
+- Mapa: relevo SRTM / AWS Terrain Tiles, cor NASA Blue Marble, limites IBGE, rios © colaboradores do OpenStreetMap (ODbL, https://www.openstreetmap.org/copyright).
 
-MÚSICA
-Kevin MacLeod (incompetech.com): "Echoes of Time", "Ossuary 6 - Air" e "Frozen Star", licença Creative Commons BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
-
-Narração sintética (ElevenLabs) sobre texto e pesquisa do canal.
+MÚSICA E EFEITOS
+Kevin MacLeod (incompetech.com): "Echoes of Time", "Ossuary 6 - Air" e "Frozen Star", licença Creative Commons BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Efeito de máquina de escrever: Work With Sounds / Konrad Gutkowski, Wikimedia Commons, CC BY 4.0. Batida de madeira: stephan, Wikimedia Commons, domínio público.
 """
-tags = "El Niño 1983, El Niño, El Niño 2026, enchente de 1983, União da Vitória, Blumenau, rio Iguaçu, Itajaí-Açu, seca de 1983, seca no Nordeste, sertão, Mombaça, Canindé, clima do Brasil, Landsat, NOAA, história do clima, Em Relevo"
-txt = "TÍTULOS (3, pareados às thumbs para o 'Testar e comparar')\n" + "\n".join(f"{k}. {t}   ←  {th}" for k, t, th in titulos) + f"\n\nTÍTULO PRINCIPAL (A): {titulos[0][1]}\n\nDESCRIÇÃO\n{desc}\nTAGS\n{tags}\n\nCATEGORIA: Educação (27)\nIdioma do vídeo: português (Brasil) · legendas: legendas.srt\nConteúdo alterado ou sintético: SIM para a voz (narração sintética); mapas e gráficos são animação de dados; fotos reais com corte/redimensionamento.\nNão é para crianças.\nLembretes ao publicar: marcar 'Testar e comparar' com as 3 thumbs; sem card de próximo vídeo (regra do Rodrigo 13/11); cartão/descrição puxando o vídeo do El Niño 2026 (FeSLzHvlkbo, já publicado); conferir a licença do slide 'Retirantes' (Unicamp) na página.\n"
+tags = "enchente Porto Alegre, enchente 2024, enchente Rio Grande do Sul, Guaíba, Lagoa dos Patos, Vale do Taquari, bacia do Guaíba, rios do Rio Grande do Sul, muro da Mauá, casas de bombas, cheia de 1941, chuva na serra gaúcha, clima do Brasil, geografia do Brasil, Em Relevo"
+check = """CHECKLIST DE PUBLICAÇÃO (para o Rodrigo; fora da descrição)
+- Studio → Atributos → "Uso de IA" = Sim (voz sintética); não é para crianças; idioma português (Brasil); legendas: legendas.srt.
+- "Testar e comparar": 3 thumbs (A/B/C) + 3 títulos pareados; mp4 1080p.
+- Upload manual (publicação prevista: qua 18/11/2026). Sem card de próximo vídeo (regra de 13/11); o vídeo do clima do Sul (bG6-E4qjXYc) já está publicado e vai na descrição.
+- Decisão de risco do Rodrigo: a série de fotos aéreas da Prefeitura de Porto Alegre (PMPA, Wikimedia Commons) tem licença "Attribution only" (NÃO é Creative Commons): exige crédito, que está acima; se preferir zero risco, troque por fotos Stuckert (CC BY-SA 2.0) e satélite.
+- Fotos de outros anos levam o ano real na legenda (muro 2016, barra de Rio Grande 2023, Cais Mauá 2026, Mercado Público 1941).
+"""
+txt = "TÍTULOS (3, pareados às thumbs para o 'Testar e comparar')\n" + "\n".join(f"{k}. {t}   ←  {th}" for k, t, th in titulos) + f"\n\nTÍTULO PRINCIPAL (A): {titulos[0][1]}\n\nDESCRIÇÃO\n{desc}\nTAGS\n{tags}\n\nCATEGORIA: Educação (27)\nIdioma do vídeo: português (Brasil)\n\n{check}"
 (R / "entrega/pacote").mkdir(parents=True, exist_ok=True); (R / "entrega/pacote/youtube.txt").write_text(txt)
+(R / "FONTES-E-LICENCAS.md").write_text("# Fontes e licenças: Em Relevo 005 (enchente de maio/2024 em Porto Alegre)\n\nFotos usadas no vídeo (créditos só na descrição; na tela, lugar e data).\n\n| Entra em | Arquivo | Legenda na tela | Autor | Licença | Página de origem |\n|---|---|---|---|---|---|\n" + "\n".join(lic) +
+ "\n\nCortes feitos pela produção: `hls-sentinel2-...-recorte.jpg` (tira a faixa sem dados do satélite) e `mercado-publico-...-1941-05-recorte.jpg` (tira a marca d'água do site no topo).\n"
+ "Mapa: SRTM/AWS Terrain Tiles (relevo), NASA Blue Marble (cor), IBGE (limites), OpenStreetMap (rios, ODbL; `dados/rios-osm.json` → `shared/rios.json`, script `shared/prepara_rios.py`).\n"
+ "Música: Kevin MacLeod (CC BY 4.0): Echoes of Time, Ossuary 6 - Air, Frozen Star. SFX: máquina de escrever WWS (CC BY 4.0), toque na madeira (domínio público); o resto sintetizado (`shared/sintetiza_sfx.py`).\n"
+ "Dados: `pesquisa/FATOS.md` (INMET, SGB/ANA, DMAE, IPH/UFRGS, WWA, Defesa Civil RS, prefeitura).\n"
+ "Pendência (decisão do Rodrigo): a série PMPA tem licença \"Attribution only\" (não CC) no Commons.\n")
 print("ok", len(usadas), "imagens creditadas")

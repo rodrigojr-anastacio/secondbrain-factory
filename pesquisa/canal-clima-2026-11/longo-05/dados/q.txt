@@ -1,0 +1,6 @@
+[out:json][timeout:180];
+(
+way["waterway"="river"](-31.6,-54.8,-27.6,-50.2);
+way["waterway"="stream"]["name"~"Gravata|Sinos|Cai|Taquari|Antas|Jacu|Pardo|Vacaca|Forqueta|Ca[ií]"](-31.6,-54.8,-27.6,-50.2);
+);
+out geom tags;

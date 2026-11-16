@@ -12,7 +12,7 @@ export const ESTILOS = {
 };
 // regiões das texturas (iguais às de gera_texturas.py)
 export const REGIOES = {
-  br_largo: [-140, 20, -75, 35], br_det: [-84, -28, -40, 8], pac: [85, 310, -45, 65],   // fase 2: até 65°N e 50°W (sem faixa escura no topo nem no canto)
+  br_largo: [-140, 20, -75, 35], br_det: [-58, -48, -34.5, -26.5], pac: [85, 310, -45, 65],   // fase 2: até 65°N e 50°W (sem faixa escura no topo nem no canto)
 };
 // estilo 'AB' (fase 2, aprovado em 10/11): carrega as texturas A e B e alterna pela linha do tempo shared/estilo_v2.json
 export const arquivosTerreno = (estilo) => Object.keys(REGIOES).flatMap((r) => [...(estilo === 'AB' ? ['A', 'B'] : [estilo]).map((e) => `v2/${e}_${r}.jpg`), `v2/alt_${r}.png`]);

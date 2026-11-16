@@ -1,4 +1,4 @@
-# (longo 03: sem ambiente de tempestade; trilha troca em b17 e b38)
+# (longo 05: trilha troca em b14 e b34; sem ambiente de tempestade)
 # Mix final do longo 02 (base: longo 01): narração + trilha (Kevin MacLeod, CC BY 4.0) com ducking sob a voz + SFX livres (dl/sfx; ver FONTES-E-LICENCAS.md).
 # SFX (pedido do Rodrigo, 08/11): pino = "toc" seco de madeira (sem bip); número = "tum" abafado bem baixo; whoosh/papel como no piloto;
 # transições com SFX coerente. Saída: audio/mix.wav (48 kHz; loudnorm −14 LUFS na junção do render.sh).
@@ -35,7 +35,7 @@ for n in c["numero"]:
 for m in c["midia"]: put(PAPEL, m["t0"], -24); contagem["papel"] += 1
 for it in c["cortica"]["itens"]: put(PAPEL, it["t"], -25); put(TOC[0], it["t"] + 0.15, -22)
 for m in c["manchetes"]: put(PAPEL, m["t0"], -23)
-for g in c["graficos"] + c["graficos3"]: put(PAPEL, g["t0"], -26)
+for g in c["graficos"] + c["graficos3"] + c["graficos5"]: put(PAPEL, g["t0"], -26)
 for pp in c["papeis"]: put(PAPEL, pp["t0"], -22)
 for k in c["cartoes"] + [c["pergunta"]]: put(TECLA[: int(SR * min(2.4, 0.04 * len(k["texto"]) + 0.5))] * np.linspace(1, 0.3, int(SR * min(2.4, 0.04 * len(k["texto"]) + 0.5))), k["t0"] + 0.1, -30)
 for k in c["cartoes"]:
@@ -63,7 +63,7 @@ def amb(t0, t1, g):
     sfx[i0:i1] += db(g) * v
 # trilha: 3 faixas Kevin MacLeod com crossfade nas viradas de capítulo
 mus = np.zeros(N, np.float32)
-FAIXAS = [("Echoes_of_Time.mp3", 0, blocos["b17"]["s"] - 0.8), ("Ossuary_6_Air.mp3", blocos["b17"]["s"] - 0.8, blocos["b38"]["s"] - 1.0), ("Frozen_Star.mp3", blocos["b38"]["s"] - 1.0, c["duracao"])]
+FAIXAS = [("Echoes_of_Time.mp3", 0, blocos["b14"]["s"] - 0.8), ("Ossuary_6_Air.mp3", blocos["b14"]["s"] - 0.8, blocos["b34"]["s"] - 1.0), ("Frozen_Star.mp3", blocos["b34"]["s"] - 1.0, c["duracao"])]
 for arq, t0, t1 in FAIXAS:
     dur = t1 - t0 + 3
     x = carrega(R / "dl/musica" / arq, 0, None)

@@ -1,0 +1,14 @@
+{
+  "name": "clima-longo-01",
+  "private": true,
+  "scripts": { "studio": "remotion studio" },
+  "dependencies": {
+    "@react-three/fiber": "9.4.2",
+    "@remotion/cli": "4.0.541",
+    "@remotion/three": "4.0.541",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.541",
+    "three": "0.184.0"
+  }
+}

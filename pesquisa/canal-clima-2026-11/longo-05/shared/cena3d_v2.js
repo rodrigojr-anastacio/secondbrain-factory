@@ -245,7 +245,7 @@ export function criarMundo(THREE, cues, geo, tex = {}, opts = {}) {
     return { ...s, curva, g, m, cab, mat, bolinhas };
   });
 
-  const matNuvem = new THREE.MeshStandardMaterial({ color: '#F1ECE4', roughness: 0.95 });
+  const matNuvem = new THREE.MeshStandardMaterial({ color: '#8E95A3', roughness: 0.95 });
   const esfera = new THREE.SphereGeometry(1, 16, 12);
   const BOLHAS = [[0, 0, 0, 0.55], [0.5, 0.05, 0.1, 0.42], [-0.45, 0.0, -0.05, 0.45], [0.15, 0.38, 0, 0.42], [-0.1, 0.1, 0.4, 0.38], [0.2, 0.0, -0.4, 0.36], [0.05, 0.7, 0.05, 0.3]];
   const nuvens = cues.nuvens.map((n) => {
@@ -477,10 +477,71 @@ export function criarMundo(THREE, cues, geo, tex = {}, opts = {}) {
   const matFoco = new THREE.MeshStandardMaterial({ color: '#E8505B', emissive: '#FF6A3D', emissiveIntensity: 0.7, roughness: 0.5 });
   const focoGeo = new THREE.SphereGeometry(0.09, 8, 6);
   const pontos = (cues.pontos || []).map((p) => {
-    const g = new THREE.Group(); const ms = p.lista.map(([x, z]) => { const m = new THREE.Mesh(focoGeo, matFoco); m.position.set(x, ALT_BR + 0.06, z); g.add(m); return m; });
+    const g = new THREE.Group(); const matP = p.cor ? new THREE.MeshStandardMaterial({ color: p.cor, emissive: p.cor, emissiveIntensity: 0.6, roughness: 0.5 }) : matFoco;
+    const ms = p.lista.map(([x, z]) => { const m = new THREE.Mesh(focoGeo, matP); m.position.set(x, (p.y ?? ALT_BR) + 0.06, z); if (p.r) m.userData.r = p.r; g.add(m); return m; });
     g.visible = false; scene.add(g);
     return { ...p, g, ms };
   });
+
+  // ---- longo 05 (15/11/2026): ÁRVORE DE RIOS (OSM, shared/rios.json) e GOTA (fio condutor)
+  // cada camada de cues.rios = {sel, t0, t1, cor, larg, op, pico}: o rio cresce das nascentes para a foz (atributo aT = 1 - distância à foz / máxima);
+  // fita achatada drapeada no relevo, borda suave (aS), aditiva; "pico" = tabela [[t, 0..1]] que clareia a camada (onda de cheia)
+  const RIOS = opts.rios || [];
+  const DMAX = RIOS.reduce((m, o) => Math.max(m, o.d0), 1);
+  const alturaRio = (x, z) => (terreno ? terreno.alturaBR(x, z) : ALT_BR) + 0.035;
+  const proj = geo.proj;
+  const llxz = (lon, lat) => [(lon - proj.lon0) * proj.cos * proj.k, -(lat - proj.lat0) * proj.k];
+  const selRio = (sel, o) => sel === 'todos' || (sel === 'principais' && o.c) || (sel === 'afluentes' && !o.c) || (Array.isArray(sel) ? sel.includes(o.c) : sel === o.c);
+  const camadasRio = (cues.rios || []).map((L) => {
+    const pos = [], aT = [], aS = [], aO = [], idx = [];
+    for (const o of RIOS) {
+      if (!selRio(L.sel, o)) continue;
+      const w = (o.c ? 0.05 : 0.017) * (L.larg ?? 1) * (o.c && L.sel !== 'principais' && L.sel !== 'todos' ? 1 : 1);
+      const pts = o.p.map(([lo, la]) => llxz(lo, la));
+      let cum = 0; const cs = [0];
+      for (let i = 1; i < pts.length; i++) { cum += Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]); cs.push(cum); }
+      for (let i = 0; i < pts.length; i++) {
+        const a = pts[Math.max(0, i - 1)], b = pts[Math.min(pts.length - 1, i + 1)];
+        let dx = b[0] - a[0], dz = b[1] - a[1]; const n = Math.hypot(dx, dz) || 1; dx /= n; dz /= n;
+        const y = alturaRio(pts[i][0], pts[i][1]);
+        const dist = o.d0 - (cum ? cs[i] / cum : 0) * (o.d0 - o.d1);
+        const t = 1 - dist / DMAX;
+        const base = pos.length / 3;
+        pos.push(pts[i][0], y, pts[i][1], pts[i][0], y, pts[i][1]); aO.push(-dz * w, dx * w, dz * w, -dx * w);
+        aT.push(t, t); aS.push(-1, 1);
+        if (i > 0) idx.push(base - 2, base - 1, base, base - 1, base + 1, base);
+      }
+    }
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); g.setAttribute('aT', new THREE.Float32BufferAttribute(aT, 1)); g.setAttribute('aO', new THREE.Float32BufferAttribute(aO, 2)); g.setAttribute('aS', new THREE.Float32BufferAttribute(aS, 1));
+    g.setIndex(idx);
+    const uni = { uEsc: { value: 1 }, uU: { value: 0 }, uPico: { value: 0 }, uOp: { value: 1 }, uCor: { value: new THREE.Color(L.cor || '#3FD8FF') } };
+    const mat = new THREE.ShaderMaterial({
+      uniforms: uni, transparent: true, depthWrite: false, depthTest: false, side: THREE.DoubleSide,
+      vertexShader: 'attribute float aT; attribute float aS; attribute vec2 aO; uniform float uEsc; varying float vT; varying float vS; void main(){ vT = aT; vS = aS; vec3 p = position; p.xz += aO * uEsc; gl_Position = projectionMatrix * modelViewMatrix * vec4(p, 1.0); }',
+      fragmentShader: 'uniform float uU, uPico, uOp; uniform vec3 uCor; varying float vT; varying float vS; void main(){ if (vT > uU) discard; float e = 1.0 - smoothstep(0.55, 1.0, abs(vS)); float cab = 1.0 - smoothstep(0.0, 0.05, uU - vT); vec3 c = mix(uCor, vec3(1.0), 0.32 * uPico + 0.55 * cab); gl_FragColor = vec4(c, e * uOp * (0.82 + 0.18 * uPico)); gl_FragColor = linearToOutputTexel(gl_FragColor); }',
+    });
+    const m = new THREE.Mesh(g, mat); m.renderOrder = 6; m.frustumCulled = false; m.visible = false; scene.add(m);
+    return { ...L, m, uni };
+  });
+  // ponto luminoso na foz (Guaíba): cresce e pulsa
+  const gotaGeo = new THREE.SphereGeometry(1, 16, 12);
+  const gotaMat = new THREE.MeshBasicMaterial({ color: '#BFF6FF', transparent: true, opacity: 0.95, depthTest: false });
+  const gotaHalo = new THREE.MeshBasicMaterial({ color: '#3FD8FF', transparent: true, opacity: 0.28, depthTest: false, blending: THREE.AdditiveBlending, depthWrite: false });
+  const gotas = (cues.gotas || []).map((G) => {
+    const g = new THREE.Group();
+    const nucleo = new THREE.Mesh(gotaGeo, gotaMat); nucleo.renderOrder = 8;
+    const halo = new THREE.Mesh(gotaGeo, gotaHalo); halo.renderOrder = 7; halo.scale.setScalar(2.6);
+    const rastro = [];
+    for (let i = 1; i <= 6; i++) { const m = new THREE.Mesh(gotaGeo, gotaHalo); m.renderOrder = 7; m.scale.setScalar(Math.max(0.15, 1 - i * 0.14)); g.add(m); rastro.push(m); }
+    g.add(nucleo, halo); g.visible = false; scene.add(g);
+    const pts = G.pontos.map(([x, z]) => new THREE.Vector3(x, 0, z));
+    const curva = new THREE.CatmullRomCurve3(pts, false, 'centripetal');
+    const L = curva.getLength(); const N = Math.max(8, Math.ceil(L / 0.06));
+    const amostras = curva.getSpacedPoints(N).map((p) => { p.y = alturaRio(p.x, p.z) + (G.alto ?? 0.1); return p; });
+    return { ...G, g, nucleo, halo, rastro, amostras };
+  });
+  const ponto = (G, u) => { const f = Math.min(1, Math.max(0, u)) * (G.amostras.length - 1), i = Math.floor(f), j = Math.min(G.amostras.length - 1, i + 1); return G.amostras[i].clone().lerp(G.amostras[j], f - i); };
 
   const camera = new THREE.PerspectiveCamera(opts.fov ?? 32, cues.largura / cues.altura, 0.1, 900);
   const corSol = new THREE.Color(), corBase = new THREE.Color('#FFE2BE'), corQuente = new THREE.Color('#FF9A62'), corNoite = new THREE.Color('#8FA6D8');
@@ -651,8 +712,21 @@ export function criarMundo(THREE, cues, geo, tex = {}, opts = {}) {
       const fade = p.t2 ? 1 - smooth(p.t2, p.t2 + 0.6, t) : 1;
       p.g.visible = t >= p.t0 && fade > 0.01; if (!p.g.visible) return;
       const n = p.ms.length;
-      p.ms.forEach((m, i) => { const ti = p.t0 + (p.t1 - p.t0) * (i / n); const s = (t >= ti ? Math.min(1, (t - ti) / 0.25) : 0) * fade; m.visible = s > 0.01; m.scale.setScalar(Math.max(0.001, s * (1 + 0.25 * Math.sin(t * 6 + i)))); });
+      p.ms.forEach((m, i) => { const ti = p.t0 + (p.t1 - p.t0) * (i / n); const s = (t >= ti ? Math.min(1, (t - ti) / 0.25) : 0) * fade; m.visible = s > 0.01; m.scale.setScalar(Math.max(0.001, s * (m.userData.r || 1) * (1 + 0.25 * Math.sin(t * 6 + i)))); });
     });
+    // ---- longo 05
+    camadasRio.forEach((c) => {
+      const o = interpTabela(c.op ?? [[0, 1]], t), u = smooth(c.t0, c.t1, t);
+      c.m.visible = o > 0.003 && u > 0.0005;
+      c.uni.uEsc.value = Math.min(1.5, Math.max(0.38, dist / 11)); c.uni.uU.value = u * 1.02; c.uni.uOp.value = o; c.uni.uPico.value = c.pico ? interpTabela(c.pico, t) : 0;
+    });
+    gotas.forEach((G) => {
+      const o = interpTabela(G.op, t); G.g.visible = o > 0.01; if (!G.g.visible) return;
+      const u = interpTabela(G.prog, t), esc = (G.esc ?? 0.07) * o * Math.min(1.5, Math.max(0.45, dist / 9)) * (1 + 0.12 * Math.sin(t * 7));
+      const p = ponto(G, u); G.nucleo.position.copy(p); G.halo.position.copy(p); G.nucleo.scale.setScalar(esc); G.halo.scale.setScalar(esc * 2.6);
+      G.rastro.forEach((m, i) => { m.position.copy(ponto(G, u - (i + 1) * 0.012 * (G.cauda ?? 1))); m.scale.setScalar(Math.max(0.001, esc * (1 - (i + 1) * 0.14))); });
+    });
+
     if (sc) {
       const S = sc.S;
       const vis = t >= S.t0 - 0.1 && t <= S.t_fim + 0.8;
@@ -701,5 +775,5 @@ export function criarMundo(THREE, cues, geo, tex = {}, opts = {}) {
     renderer.outputColorSpace = THREE.SRGBColorSpace;
   }
   update(0);
-  return { scene, camera, update, projetar, configurarRenderer };
+  return { scene, camera, update, projetar, configurarRenderer, terreno };
 }

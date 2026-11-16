@@ -1,4 +1,4 @@
-# Storyboard em código do longo 04 (Em Relevo, 1983: o El Niño que partiu o Brasil ao meio): gera shared/cues.json e shared/estilo_v2.json
+# Storyboard em código do longo 05 (Em Relevo, enchente de 2024: por que a chuva da serra alagou Porto Alegre): gera shared/cues.json e shared/estilo_v2.json
 # a partir de blocos.json, tempos.json, whisper.json, geo.json e dados/. Base: longo-03/shared/build_cues.py (cada evento amarrado à palavra falada).
 # Uso: python3 build_cues.py (precisa de audio/narracao.wav + tempos.json + whisper.json: rode monta_audio_v2.py antes).
 import json, math, re, unicodedata
@@ -81,8 +81,10 @@ def num(t, valor=None, faixa="", de=None, para=None, dur=1.0, unidade=None, dec=
     if valor is not None: numero.append({"t": round(t, 3), "valor": valor, "faixa": faixa, "unidade": unidade})
     else: numero.append({"t": round(t, 3), "de": de, "para": para, "ate": round(t + dur, 3), "unidade": unidade, "faixa": faixa, "dec": dec})
 def num_off(t): numero.append({"t": round(t, 3), "oculto": True})
-def cartao(t0, t1, rotulo, texto, carimbo=None, t_carimbo=None, top=300):
+def cartao(t0, t1, rotulo, texto, carimbo=None, t_carimbo=None, top=300, left=None, w=None):
     c = {"t0": round(t0, 3), "t1": round(t1, 3), "rotulo": rotulo, "texto": texto, "top": top}
+    if left: c["left"] = left
+    if w: c["w"] = w
     if carimbo: c["carimbo"] = {"texto": carimbo, "t": round(t_carimbo, 3)}
     cartoes.append(c)
 def trans(t, tipo, dur=1.0, desc=""): transicoes.append({"t": round(t, 3), "tipo": tipo, "dur": dur, "desc": desc})
@@ -93,450 +95,380 @@ def tab(lista, t, v, dur=0.6): lista.append([round(t, 3), lista[-1][1]]); lista.
 ESTILO = []   # (t, 'A'|'B')
 def est(b, e): ESTILO.append((max(0, S(b) - 0.4) if b != "b01" else 0, e))
 
-# ======================= Em Relevo 004 (1983): dados e lugares =======================
+# ======================= Em Relevo 005 (enchente de maio/2024): dados e lugares =======================
+RIOS = json.load(open(A / "rios.json"))
+CX = P(-51.18, -29.17); PA = P(-51.23, -30.03); LAJ = P(-51.97, -29.47); SM = P(-53.81, -29.69); AM = P(-51.95, -29.40)
+FOZ = P(-51.27, -30.05); GUA = P(-51.30, -30.15)
+RG = P(-52.10, -32.03); PEL = P(-52.34, -31.77); SLS = P(-51.97, -31.37); BARRA = P(-52.07, -32.16)
+LAGOA = [P(-51.12, -30.35), P(-51.40, -30.80), P(-51.85, -31.30), P(-52.18, -31.78), P(-52.10, -32.10)]
+RSC = P(-53.2, -30.0); BAC = P(-52.6, -29.6); BAC2 = P(-52.5, -29.5)
+AZUL = "#39B0F5"; CORAL = "#E8505B"; CIANO = "#3FD8FF"
+graficos4, graficos5, checklists, rios_l, gotas, cobre, chuvas = [], [], [], [], [], [], []
+def g5(**k): graficos5.append({**k, "t0": round(k["t0"], 3), "t1": round(k["t1"], 3)})
+def chuva(xz, t0, t1, r=0.45, h=1.6, n=70, y=0.12, vel=1.3): chuvas.append({"x": xz[0], "z": xz[1], "r": r, "h": h, "n": n, "t0": round(t0, 3), "t1": round(t1, 3), "y": y, "vel": vel})
+def cil(xz, t_ini, t_fim, nivel, marca=None, t_marca=None, r=0.09, h=1.2, cor="#3D7FB8", cor_marca="#C9A46A", y=0.2, dx=0.5, dz=-0.2):
+    c = {"x": xz[0] + dx, "z": xz[1] + dz, "r": r, "h": h, "cor": cor, "y": y, "op": janela_op(t_ini, t_fim, 1, 0.5, 0.5), "nivel": [[round(a, 3), b] for a, b in nivel]}
+    if marca is not None: c.update({"marca": marca, "t_marca": round(t_marca if t_marca is not None else t_ini, 3), "cor_marca": cor_marca})
+    cilindros.append(c)
+def nuvem(xz, t, t2, s=1.6, y=1.5, dest=None, tm=None):
+    n = {"x": xz[0], "z": xz[1], "t": round(t, 3), "t2": round(t2, 3), "s": s, "y": y}
+    if dest: n.update({"x2": dest[0], "z2": dest[1], "tm0": round(tm[0], 3), "tm1": round(tm[1], 3)})
+    nuvens.append(n)
+def arvore(sel, t0, t1, op_t0, op_t1, larg=1.0, cor=CIANO, pico=None, fade=0.8):
+    L = {"sel": sel, "t0": round(t0, 3), "t1": round(t1, 3), "cor": cor, "larg": larg, "op": janela_op(op_t0, op_t1, 1, 0.3, fade)}
+    if pico: L["pico"] = pico
+    rios_l.append(L)
+def pulso(t, dur=2.0, v=1.0): return [[0, 0], [round(t - 0.1, 3), 0], [round(t + 0.25, 3), v], [round(t + dur, 3), 0.15 * v]]
+def pulsos(lista):   # lista de (t, dur)
+    out = [[0, 0]]
+    for t_, d_ in lista: out += [[round(t_ - 0.1, 3), out[-1][1]], [round(t_ + 0.25, 3), 1.0], [round(t_ + d_, 3), 0.1]]
+    return out
+def gota(path, t_vis0, t_vis1, t_mov0, t_mov1, esc=0.07, alto=0.12, cauda=1.0, prog_extra=None):
+    prog = [[0, 0], [round(t_mov0, 3), 0], [round(t_mov1, 3), 1], [99999, 1]] if prog_extra is None else prog_extra
+    gotas.append({"pontos": path, "prog": prog, "op": janela_op(t_vis0, t_vis1, 1, 0.4, 0.5), "esc": esc, "alto": alto, "cauda": cauda})
+def foto_sat(arq, t0, t1, lado="dir", fmt="grande"): foto(arq, t0, t1, lado=lado, fmt=fmt, estatica=True)
+def mm(t): return t
 FOTOS = {
-    "landsat4-uv-19830703-par.jpg": {"legenda_tela": "UNIÃO DA VITÓRIA · LANDSAT 4 · 3 JUL 1983"},
-    "blumenau-aerea-2010.jpg": {"legenda_tela": "BLUMENAU · CENTRO E RIO ITAJAÍ-AÇU · 2010"},
-    "acude-seco-santa-quiteria-ce-2018.jpg": {"legenda_tela": "AÇUDE SECO · SANTA QUITÉRIA (CE) · 2018"},
-    "retirantes-pernambuco-slide-janjao-sem-data.jpg": {"legenda_tela": "RETIRANTES · PERNAMBUCO · FOTO DE ACERVO (SEM DATA)"},
-    "uniao-da-vitoria-vista-aerea-2009.jpg": {"legenda_tela": "UNIÃO DA VITÓRIA · RIO IGUAÇU · 2009"},
-    "porto-uniao-centro-2014.jpg": {"legenda_tela": "UNIÃO DA VITÓRIA E PORTO UNIÃO · 2014"},
-    "blumenau-rio-itajai-acu-2006.jpg": {"legenda_tela": "BLUMENAU · RIO ITAJAÍ-AÇU EM ESTIAGEM · 2006"},
-    "blumenau-enchente-2008-exercito-NAO-1983.jpg": {"legenda_tela": "BLUMENAU · ENCHENTE DE 2008"},
-    "acude-coremas-seco-2017.jpg": {"legenda_tela": "AÇUDE DE COREMAS (PB) · SECA · 2017"},
-    "sertao-caatinga-arido-2013.jpg": {"legenda_tela": "SERTÃO · CAATINGA NA ESTIAGEM · 2013"},
-    "elnino-1982-83-anomalia-temp-pacifico-jan1983.jpg": {"legenda_tela": "PACÍFICO · JAN 1983"},
-    "noaa-cpc-elnino-impactos-globais-jun-ago.jpg": {"legenda_tela": "NOAA · IMPACTOS DO EL NIÑO · JUN–AGO"},
-    "uniao-da-vitoria-rio-iguacu-helicoptero-2016.jpg": {"legenda_tela": "UNIÃO DA VITÓRIA · RIO IGUAÇU · 2016"},
-    "sobradinho-represa-seca-2015.jpg": {"legenda_tela": "SOBRADINHO (BA) · RESERVATÓRIO BAIXO · 2015"},
+    "nasa-landsat8-porto-alegre-alagado-2024-05-08.jpg": "PORTO ALEGRE · LANDSAT 8 · 8 MAI 2024",
+    "centro-historico-rodoviaria-cais-mauah-alagados-aereo-2024-05-05.jpg": "CENTRO HISTÓRICO · PORTO ALEGRE · 5 MAI 2024",
+    "rodoviaria-viaduto-cais-maua-alagados-aereo-2024-05-05.jpg": "RODOVIÁRIA · PORTO ALEGRE · 5 MAI 2024",
+    "aeroporto-salgado-filho-pista-alagada-aereo-2024-05-05.jpg": "AEROPORTO SALGADO FILHO · 5 MAI 2024",
+    "arroio-do-meio-navegantes-destruicao-aereo-2024-06-06.jpg": "ARROIO DO MEIO · VALE DO TAQUARI · JUN 2024",
+    "hls-sentinel2-porto-alegre-guaiba-antes-2024-04-01-recorte.jpg": "GUAÍBA · SENTINEL-2 · 1 ABR 2024",
+    "nasa-modis-sul-do-rs-durante-2024-05-06.jpg": "LAGOA DOS PATOS · MODIS · 6 MAI 2024",
+    "rio-grande-fragata-f44-canal-da-barra-molhes-2023-08-15.jpg": "CANAL DA BARRA · RIO GRANDE · 2023",
+    "pelotas-bairros-alagados-aereo-2024-05-18.jpg": "PELOTAS · 18 MAI 2024",
+    "mercado-publico-fachada-alagado-enchente-1941-05-recorte.jpg": "MERCADO PÚBLICO · MAIO DE 1941",
+    "muro-da-maua-grafite-dia-normal-2016-04-23.jpg": "MURO DA MAUÁ · DIA NORMAL · 2016",
+    "comporta-cais-maua-fechamento-2024-05-02.jpg": "COMPORTA DO CAIS MAUÁ · 2 MAI 2024",
+    "mercado-publico-ilhado-aereo-2024-05-05.jpg": "MERCADO PÚBLICO · 5 MAI 2024",
+    "centro-historico-edificios-historicos-alagados-aereo-2024-05-05.jpg": "CENTRO HISTÓRICO · 5 MAI 2024",
+    "cais-maua-galpao-marcas-da-enchente-2026-03-12.jpg": "CAIS MAUÁ · MARCAS DA ENCHENTE · 2026",
 }
-IGU = json.load(open(R / "dados/iguacu-uv-1982-83.json"))
-DIAS = sorted(IGU["dias"]); IDX = {d: i for i, d in enumerate(DIAS)}; NDIA = len(DIAS)
-def di(d): return IDX[d]
-MOMB = json.load(open(R / "dados/mombaca-anual.json"))
-roni = {}
-for ln in open(R / "dados/roni.txt").read().split("\n")[1:]:
-    p = ln.split()
-    if len(p) == 3: roni[(p[0], int(p[1]))] = float(p[2])
-def rmax(a, b): return max(v for (s, y), v in roni.items() if a <= y <= b)
-MES_SEAS = {"DJF": 1, "JFM": 2, "FMA": 3, "MAM": 4, "AMJ": 5, "MJJ": 6, "JJA": 7, "JAS": 8, "ASO": 9, "SON": 10, "OND": 11, "NDJ": 12}
-# RONI sazonal -> índice de dia (centro do trimestre), de out/1982 a set/1983
-RONI_DIA = []
-for (s, y), v in sorted(roni.items(), key=lambda kv: (kv[0][1], MES_SEAS[kv[0][0]])):
-    m = MES_SEAS[s]; ano = y if s != "NDJ" else y
-    ano_c = y + (1 if s == "NDJ" else 0) if False else y
-    d = f"{ano_c}-{m:02d}-15"
-    if d in IDX: RONI_DIA.append([IDX[d], round(v, 2)])
-UV = P(-51.09, -26.23); BLU = P(-49.07, -26.92); MOM = P(-39.63, -5.75); CAN = P(-39.32, -4.35); FOR = P(-38.54, -3.72)
-CE = P(-39.4, -5.3); NE = P(-40.5, -8.0); BRC = [0.8, -17.5]; SUL_C = P(-51.5, -27.0); CUR = P(-49.27, -25.43)
-IGUACU = [P(-49.27, -25.45), P(-49.9, -25.55), P(-50.38, -25.87), P(-51.09, -26.23), P(-51.7, -26.0), P(-52.6, -25.6), P(-53.2, -25.55), P(-54.0, -25.6), P(-54.43, -25.69)]
-VARZEA = [P(-51.20 - 0.14, -26.12 + 0.08), P(-50.95 + 0.12, -26.12 + 0.1), P(-50.90 + 0.16, -26.28 - 0.02), P(-51.10, -26.36 - 0.12), P(-51.25 - 0.14, -26.28 - 0.02)]
-SULUF = ["41", "42", "43"]; NEUF = ["21", "22", "23", "24", "25", "26", "27", "28", "29"]
-AZUL = "#39B0F5"; CORAL = "#E8505B"
-PACC = P2(195, 0); MONT = [PAC["x0"], 34.0]
-def grade_xy(lon0, lon1, lat0, lat1):
-    i0, i1 = int(lon0 - SST["lon0"]), int(lon1 - SST["lon0"]); j0, j1 = int(lat0 - SST["lat0"]), int(lat1 - SST["lat0"])
-    xs = [P2(SST["lon0"] + i, 0)[0] for i in range(i0, i1 + 1)]; zs = [P2(200, SST["lat0"] + j)[1] for j in range(j0, j1 + 1)]
-    return {"i0": i0, "i1": i1, "j0": j0, "j1": j1, "xs": xs, "zs": zs}
-def partida(t0, t1, fade=0.8):
-    tintas.append({"ufs": SULUF, "cor": AZUL, "op": janela_op(t0, t1, 1, fade, fade), "max": 1.0})
-    tintas.append({"ufs": NEUF, "cor": CORAL, "op": janela_op(t0, t1, 1, fade, fade), "max": 0.8})
-def g4(**k): graficos4.append({**k, "t0": round(k["t0"], 3), "t1": round(k["t1"], 3)})
-graficos4 = []
-cobre = []
-def ts_idx(d): return di(d)
+_foto0 = foto
+def foto(arq, t0, t1, lado="dir", fmt="grande", pino=None, estatica=False):
+    midia.append({"id": "fotos/" + arq, "tipo": "img", "src": "fotos/" + arq, "fmt": fmt, "t0": round(t0, 3), "t1": round(t1, 3), "lado": lado, "legenda": FOTOS[arq], "credito": "", "pino": pino, "estatica": estatica})
+# municípios (pontinhos que piscam ao longo da rede): vértices dos afluentes, determinístico
+_pts = [p for o in RIOS if not o["c"] for p in o["p"][1:-1:3]]
+MUNS = [P(*_pts[(i * 37) % len(_pts)]) for i in range(250)]
+RIOCL = {"jacui": P(-53.28, -29.2), "taquari": P(-51.35, -29.0), "cai": P(-51.12, -29.38), "sinos": P(-50.9, -29.72), "gravatai": P(-50.78, -30.0)}
 
-# ======================= HOOK =======================
-est("b01", "A"); tab(luz, 0, 0.8, 0.1); tab(quente, 0, 0.0, 0.1)
-cam(0.0, [UV[0] + 2.0, UV[1] - 2.5], 12, 24, -20, y=0.3); cam(F("b01", 1), [UV[0] + 0.3, UV[1] - 0.3], 7.0, 32, -6); cam(F("b01", 3), [UV[0], UV[1]], 5.2, 38, 8); cam(E("b01") - 0.2, [UV[0], UV[1]], 4.6, 40, 14)
-pino("uv", "UNIÃO DA VITÓRIA (PR)", "JULHO DE 1983", 0.5, t2=E("b01") + 0.6, xz=UV, y0=0.1, ate=E("b01") + 0.2)
-foto("landsat4-uv-19830703-par.jpg", 0.4, 3.4, lado="dir")
-seta(AZUL, IGUACU, 3.4, 5.5, E("b01") + 3, y=0.14, r=0.05, fluxo=True, vel=0.16, semCabeca=True)
-t_rg = F("b01", 1)
-cilindros.append({"x": UV[0] + 0.55, "z": UV[1] - 0.25, "r": 0.08, "h": 1.1, "cor": "#3D7FB8", "cor_marca": "#E8505B", "marca": 6.0 / 12.0, "t_marca": t_rg,
-    "op": janela_op(t_rg - 0.2, S("b02") + 0.3, 1, 0.5, 0.5), "nivel": [[0, 0.2], [t_rg, 2.5 / 12], [tw("dezoito|18", "b01", n=0, apos=F("b01", 2), alt=F("b01", 2) + 1.0) - 0.8, 2.5 / 12], [tw("dezoito|18", "b01", n=0, apos=F("b01", 2), alt=F("b01", 2) + 1.0) + 1.2, 10.42 / 12]]})
-t_ag = tw("cobriu", "b01", alt=F("b01", 3))
-regioes.append({"anel": VARZEA, "cor": AZUL, "op": janela_op(t_ag - 0.5, E("b02") + 0.3, 1, 0.9, 0.7), "max": 0.55, "y": 0.12})
-num(t_rg + 0.2, valor="2,5", faixa="UNIÃO DA VITÓRIA · NÍVEL NORMAL DO IGUAÇU", unidade="m")
-t_dz = tw("dezoito|18", "b01", n=0, apos=F("b01", 2), alt=F("b01", 2) + 1.0)
-num(t_dz - 0.2, de=2.5, para=10.42, dur=1.6, faixa="18 JUL 1983 · COTA DO RIO IGUAÇU · ANA", unidade="m", dec=2)
-num_off(E("b01") + 0.1)
-# b02 Blumenau
-est("b02", "A"); trans(S("b02") - 0.15, "whip", 0.6, "whip pan para leste")
-cam(S("b02") - 0.1, [BLU[0] - 0.4, BLU[1] - 0.2], 6.0, 34, -50, corte=True); cam(F("b02", 1), [BLU[0], BLU[1]], 4.6, 30, -20); cam(E("b02"), [BLU[0] + 0.1, BLU[1]], 4.0, 34, 10)
-pino("blu", "BLUMENAU (SC)", "JULHO DE 1983", S("b02") + 0.3, xz=BLU, ate=E("b02") + 0.2)
-cilindros.append({"x": BLU[0] + 0.45, "z": BLU[1] - 0.2, "r": 0.08, "h": 1.2, "cor": "#3D7FB8", "cor_marca": "#E8505B", "marca": 10.0 / 16, "t_marca": S("b02"),
-    "op": janela_op(S("b02"), E("b02") + 0.4, 1, 0.5, 0.5), "nivel": [[0, 0.1], [S("b02") + 0.3, 0.1], [tw("quinze|15", "b02", alt=F("b02", 0) + 2.5), 15.34 / 16]]})
-foto("blumenau-aerea-2010.jpg", tw("Blumenau", "b02", alt=S("b02") + 0.2) + 0.3, tw("Blumenau", "b02", alt=S("b02") + 0.2) + 3.6, lado="esq")
-num(tw("quinze|15", "b02", alt=F("b02", 0) + 2.0), de=10, para=15.34, dur=1.4, faixa="BLUMENAU · 9 JUL 1983 · RIO ITAJAÍ-AÇU", unidade="m", dec=2)
-num_off(F("b02", 2) - 0.2)
-cartao(F("b02", 1) + 0.3, E("b02") + 0.2, "ITAJAÍ-AÇU · 1983", "3ª CHEIA DO ANO · FALTAVA A 4ª", top=650)
-# b03 Mombaça
-est("b03", "A"); trans(S("b03") - 0.2, "nuvem", 1.3, "zoom-out do Sul até o Brasil e mergulho no Ceará")
-cam(S("b03") - 0.2, BRC, 64, 54, 0, corte=True); cam(F("b03", 1), NE, 34, 50, 4); cam(F("b03", 2) - 0.1, [MOM[0], MOM[1]], 8.5, 34, 12); cam(E("b03"), [MOM[0] + 0.3, MOM[1]], 6.5, 38, -4)
-tab(quente, S("b03") + 1.5, 0.55, 0.8)
-tg = tw("quilômetros|quilometros", "b03", alt=S("b03") + 1.0)
-seta("#FFFFFF", [UV, [P(-46, -16)[0], P(-46, -16)[1]], MOM], tg, tg + 2.0, F("b03", 2) + 0.5, y=0.6, r=0.08, fluxo=True, vel=0.1, semCabeca=True)
-rot("2.500 KM", P(-46, -16), tg + 0.8, F("b03", 2) + 0.5, "seta")
-pino("mom", "MOMBAÇA (CE)", "1983", F("b03", 2), xz=MOM, ate=E("b03") + 0.2)
-cilindros.append({"x": MOM[0] + 0.5, "z": MOM[1] + 0.2, "r": 0.12, "h": 1.0, "cor": "#3D7FB8", "cor_marca": "#E8505B", "marca": 1.0, "t_marca": F("b03", 2),
-    "op": janela_op(F("b03", 2) + 0.3, E("b03") + 0.4, 1, 0.5, 0.5), "nivel": [[0, 0.95], [F("b03", 2) + 0.6, 0.95], [tw("metade|menos", "b03", alt=F("b03", 2) + 2.0), 0.47]]})
-num(tw("metade", "b03", alt=F("b03", 2) + 2.0), valor="47%", faixa="MOMBAÇA · CHUVA DE 1983 EM RELAÇÃO À MÉDIA (366 DE 783 MM)")
-num_off(F("b03", 3))
-foto("acude-seco-santa-quiteria-ce-2018.jpg", F("b03", 3) + 0.2, E("b03") + 0.2, lado="dir")
-rot("5º ANO DE SECA · DESDE 1979", [MOM[0] - 1.6, MOM[1] + 1.4], F("b03", 3) + 0.3, E("b03") + 0.4, "quente")
-# b04 arquivo
-trans(S("b04") - 0.1, "corte", 0.5, "corte seco para o papel (impacto grave)")
-tab(arquivo, S("b04") - 0.2, 0.7, 0.1); tab(arquivo, E("b04") + 0.3, 0.0, 0.2)
-cam(S("b04"), CAN, 7, 40, 0, corte=True); est("b04", "B")
-papel("b04", "b04", [{"tipo": "data", "texto": "CANINDÉ (CE) · AGOSTO DE 1983", "t": S("b04") + 0.2},
-    {"tipo": "titulo", "texto": "FLAGELADOS INVADEM ARMAZÉM DE COMIDA", "t": S("b04") + 0.6, "tam": 84},
-    {"tipo": "numero", "de": 0, "para": 5000, "t": tw("cinco|5", "b04", alt=F("b04", 0) + 1.5), "dur": 1.2, "tam": 220},
-    {"tipo": "rotulo", "texto": "FLAGELADOS · SEGUNDO O MEMORIAL DA DEMOCRACIA", "t": tw("flagelados", "b04", n=0, alt=F("b04", 0) + 2.0)},
-    {"tipo": "carimbo", "texto": "10 MILHÕES NO NORDESTE", "t": tw("milhões|milhoes|10", "b04", apos=F("b04", 1), alt=F("b04", 1) + 1.0), "tam": 60}], pre=0.15, topo=True)
-# b05 TELA PARTIDA
-est("b05", "B"); tab(arquivo, S("b05") - 0.1, 0.0, 0.1); trans(S("b05") - 0.1, "corte", 0.5, "corte seco de volta ao mapa (impacto suave)")
-cam(S("b05"), BRC, 78, 62, 0, corte=True); cam(E("b05"), BRC, 74, 60, 4)
-partida(S("b05") + 0.2, E("b07") + 0.5)
-g4(tipo="relogio", t0=S("b05") + 0.4, t1=E("b05") + 0.3, texto="1983", sub="O MESMO ANO", top=60)
-rot("ÁGUA DEMAIS", P(-50.5, -25.0), tw("demais", "b05", alt=F("b05", 1) + 0.8), E("b06"), "fria")
-rot("ÁGUA NENHUMA", P(-39.5, -8.5), tw("nenhuma", "b05", alt=F("b05", 1) + 2.0), E("b06"), "quente")
-cartao(tw("pergunta", "b05", alt=F("b05", 2) + 2.0) - 0.6, E("b05") + 0.2, "EL NIÑO 2026", "ISSO PODE ACONTECER DE NOVO?", top=640)
-# b06 4 perguntas
-cx_itens = [{"n": 1, "texto": "O QUE ACONTECEU NO SUL?", "t": F("b06", 1)}, {"n": 2, "texto": "O QUE ACONTECEU NO SERTÃO?", "t": F("b06", 2)},
-            {"n": 3, "texto": "POR QUE OS DOIS AO MESMO TEMPO?", "t": F("b06", 3)}, {"n": 4, "texto": "E EM 2026?", "t": F("b06", 4)}]
-cx_estados = [{"t": cx_itens[0]["t"], "modo": "grande", "ativa": 0, "feitas": []}, {"t": S("b07") + 0.3, "modo": "compacta", "ativa": 0, "feitas": []}, {"t": S("b08") - 0.5, "modo": "oculto"}]
-cam(S("b06"), BRC, 74, 60, 4); cam(E("b06"), BRC, 72, 58, -4)
-# b07 meses
-cam(S("b07") + 0.3, CE, 24, 52, 8); cam(E("b07"), BRC, 64, 56, 0)
-g4(tipo="anel24", t0=S("b07") + 0.5, t1=E("b07") + 0.8, titulo="QUANDO CHOVE · SUL × SERTÃO", centro=["SUL: O ANO TODO", "SERTÃO: FEV–MAI"], fonte="INMET · FUNCEME", left=1230, top=290,
-   acende=[{"i0": 0, "i1": 11, "t": tw("Sul", "b07", n=0, alt=F("b07", 1)), "cor": AZUL}, {"i0": 1, "i1": 4, "t": tw("fevereiro", "b07", alt=F("b07", 2) + 1.5), "cor": CORAL}],
-   legenda=[[AZUL, "SUL: CHUVA O ANO INTEIRO (FRENTES FRIAS)", tw("Sul", "b07", n=0, alt=F("b07", 1))], [CORAL, "SERTÃO: SÓ DE FEVEREIRO A MAIO", tw("fevereiro", "b07", alt=F("b07", 2) + 1.5)]])
-rot("EXTREMOS OPOSTOS", P(-45, -15), tw("extremos", "b07", alt=F("b07", 3) + 2.0), E("b07"), "seta")
+# ======================= HOOK (b01–b06) =======================
+est("b01", "A"); tab(luz, 0, 0.9, 0.1); tab(quente, 0, 0.0, 0.1)
+cam(0.0, [CX[0] + 1.6, CX[1] - 1.6], 11, 22, -20, y=0.1); cam(F("b01", 1), [CX[0] + 0.3, CX[1]], 5.6, 33, -8, y=0.1); cam(E("b01") - 0.2, [CX[0] + 0.15, CX[1] - 0.1], 4.4, 38, 8, y=0.1)
+nuvem([CX[0] - 1.5, CX[1] - 0.6], 0.0, E("b01") + 0.5, 0.8, y=1.6); nuvem([CX[0] + 1.7, CX[1] + 0.2], 0.2, E("b01") + 0.5, 0.7, y=1.5); nuvem([CX[0] - 1.1, CX[1] + 1.3], 0.4, E("b01") + 0.5, 0.8, y=1.7)
+chuva(CX, 0.6, E("b01") + 0.4, r=0.5, h=1.7, n=90)
+pino("cx", "CAXIAS DO SUL (RS)", "2 DE MAIO DE 2024", 0.5, t2=E("b01") + 0.6, xz=CX, y0=0.1, ate=E("b01") + 0.2)
+t_duz = tw("266|duzentos", "b01", alt=F("b01", 1) + 0.6)
+cil(CX, F("b01", 1) - 0.4, E("b02") + 0.3, [[0, 0.0], [t_duz - 0.3, 0.0], [t_duz + 1.5, 266 / 300]], marca=94.4 / 300, t_marca=F("b01", 1) - 0.2, h=1.25, r=0.1)
+rot("RECORDE ANTERIOR · 94 MM (2017)", [CX[0] + 0.5, CX[1] - 0.2], t_duz + 1.4, E("b01") + 1.5, "seta", y=0.2 + 1.25 * 94.4 / 300 + 0.15)
+num(t_duz - 0.3, de=0, para=266, dur=1.5, faixa="CAXIAS DO SUL · 2 MAI 2024 · INMET", unidade="mm"); num_off(F("b01", 2) - 0.1)
+g5(tipo="selo", t0=tw("três", "b01", alt=F("b01", 2) + 0.4) - 0.1, t1=E("b01") + 0.6, texto="QUASE 3× O RECORDE", top=190, left=1150, rot=-5)
+gota([[CX[0] + 0.5, CX[1] - 0.2], [CX[0] + 0.1, CX[1] + 0.25], [P(-51.25, -29.40)[0], P(-51.25, -29.40)[1]], [P(-51.36, -29.65)[0], P(-51.36, -29.65)[1]], [P(-51.33, -29.88)[0], P(-51.33, -29.88)[1]], [FOZ[0] + 0.05, FOZ[1] - 0.08]],
+     t_duz + 1.2, E("b02") + 0.4, S("b02") + 0.3, S("b02") + 7.0, esc=0.07, alto=0.14)
+# b02 Porto Alegre
+est("b02", "A"); trans(S("b02") - 0.15, "whip", 0.6, "dolly longo para o sul seguindo a gota")
+cam(S("b02") - 0.1, [CX[0] + 0.2, CX[1] + 0.2], 5.2, 30, -10, corte=False, y=0.1); cam(S("b02") + 3.3, [P(-51.3, -29.6)[0], P(-51.3, -29.6)[1]], 7.5, 36, -6, y=0.1); cam(F("b02", 1) - 1.0, [PA[0] - 0.15, PA[1] - 0.2], 4.6, 36, 4, y=0.1); cam(E("b02"), [PA[0] - 0.15, PA[1] - 0.15], 3.9, 40, 10, y=0.1)
+pino("pa", "PORTO ALEGRE (RS)", "5 DE MAIO DE 2024", S("b02") + 6.6, t2=E("b03") + 1.0, xz=PA, y0=0.1, ate=E("b03"))
+rot("100 KM", [(CX[0] + PA[0]) / 2 + 0.3, (CX[1] + PA[1]) / 2], S("b02") + 3.0, S("b02") + 7.5, "seta", y=0.3)
+t_cinco = tw("cinco|5", "b02", alt=F("b02", 0) + 1.2)
+cil(PA, S("b02") + 6.4, E("b03") + 0.6, [[0, 0.0], [t_cinco + 0.2, 0.0], [t_cinco + 2.3, 5.35 / 6]], marca=4.76 / 6, t_marca=t_cinco + 2.4, h=1.1, r=0.09, dx=-0.75, dz=-0.1, cor="#3D7FB8", cor_marca="#C9A46A")
+num(t_cinco, de=0, para=5.35, dur=1.8, faixa="GUAÍBA · PORTO ALEGRE · 5 MAI 2024", unidade="m", dec=2); num_off(F("b02", 1) + 1.7)
+rot("1941 · 4,76 M", [PA[0] - 0.2, PA[1] - 0.2], t_cinco + 2.6, F("b02", 2) - 0.5, "seta", y=0.2 + 1.1 * 4.76 / 6 + 0.12)
+foto_sat("nasa-landsat8-porto-alegre-alagado-2024-05-08.jpg", tw("Porto", "b02", alt=F("b02", 0) + 1.0) + 0.2, tw("Porto", "b02", alt=F("b02", 0) + 1.0) + 3.4, lado="dir")
+g5(tipo="frase", t0=F("b02", 2), t1=E("b02") + 0.5, linhas=["A CHUVA MAIS PESADA CAIU NA SERRA.", "QUEM AFUNDOU FOI PORTO ALEGRE."], destaque=1, top=640, left=90, tam=64, dur=3.0)
+# b03 impacto
+est("b03", "A"); trans(S("b03") - 0.1, "corte", 0.5, "corte seco para foto (impacto grave)")
+cam(S("b03"), [PA[0] - 0.1, PA[1] - 0.15], 3.8, 42, 10, corte=True, y=0.1); cam(E("b03"), [PA[0] - 0.05, PA[1] - 0.1], 3.2, 44, -8, y=0.1)
+t_cap = tw("capital", "b03", alt=S("b03") + 3.0); t_rod = tw("rodoviária|rodoviaria", "b03", alt=F("b03", 1)); t_aer = tw("aeroporto", "b03", alt=F("b03", 1) + 1.5)
+foto("centro-historico-rodoviaria-cais-mauah-alagados-aereo-2024-05-05.jpg", t_cap - 3.0, t_cap + 1.2, lado="esq")
+foto("rodoviaria-viaduto-cais-maua-alagados-aereo-2024-05-05.jpg", t_rod - 0.1, t_rod + 1.9, lado="dir")
+foto("aeroporto-salgado-filho-pista-alagada-aereo-2024-05-05.jpg", t_aer - 0.1, t_aer + 2.2, lado="esq")
+t_160 = tw("160|cento", "b03", alt=S("b03") + 0.6)
+num(t_160, valor="~160 MIL", faixa="PESSOAS ATINGIDAS · PORTO ALEGRE · SEGUNDO A PREFEITURA"); num_off(F("b03", 1) - 0.1)
+cartao(tw("Defesa", "b03", alt=F("b03", 2)) - 0.1, E("b03") + 0.2, "RIO GRANDE DO SUL · BALANÇO DA DEFESA CIVIL (24/04/2025)", "184 MORTES", top=620)
+# b04 o mapa
+est("b04", "B"); trans(S("b04") - 0.2, "corte", 0.5, "corte seco de volta ao mapa")
+cam(S("b04"), [-0.4, 2.9], 9.5, 52, 0, corte=True, y=0.1); cam(F("b04", 2) - 0.2, [0.1, 2.8], 8.0, 54, 4, y=0.1); cam(E("b04"), [-0.2, 2.9], 12.5, 58, 4, y=0.1)
+t_cp = tw("capital", "b04", alt=S("b04") + 0.5)
+cil(PA, S("b04") + 0.1, E("b04") + 0.4, [[0, 0], [t_cp, 0.0], [t_cp + 1.5, 564.8 / 1000]], r=0.12, h=1.7, dx=-0.15, dz=0.2, y=0.1, cor="#3D7FB8")
+cil(CX, S("b04") + 0.1, E("b04") + 0.4, [[0, 0], [t_cp + 0.3, 0.0], [t_cp + 2.4, 919.1 / 1000]], r=0.12, h=1.7, dx=0.15, dz=-0.15, y=0.1, cor="#3D7FB8")
+rot("PORTO ALEGRE · 565 MM", [PA[0] - 0.25, PA[1] + 0.55], t_cp + 1.3, F("b04", 2), "seta", y=0.1 + 1.7 * 0.5648 + 0.2)
+rot("CAXIAS DO SUL · 919 MM", [CX[0] + 0.45, CX[1] - 0.15], t_cp + 2.3, F("b04", 2), "seta", y=0.1 + 1.7 * 0.919 + 0.2)
+pergunta = {"t0": round(F("b04", 2) + 0.1, 3), "t1": round(E("b04") + 0.3, 3), "texto": "COMO A CHUVA DA SERRA FOI PARAR DENTRO DE PORTO ALEGRE?"}
+# b05 árvore de rios
+est("b05", "A"); trans(S("b05") - 0.3, "nuvem", 1.2, "câmera sobe até ver o centro-nordeste do RS")
+cam(S("b05") - 0.3, [PA[0] - 0.4, PA[1] - 0.6], 9.0, 46, 6, corte=True, y=0.1); cam(F("b05", 1), BAC, 15.5, 56, 6, y=0.1); cam(E("b05"), [BAC[0] + 0.2, BAC[1] + 0.2], 14.0, 55, -4, y=0.1)
+T_RIO = {c: tw({"jacui": "Jacuí", "taquari": "Taquari", "cai": "Caí", "sinos": "Sinos", "gravatai": "grava"}[c], "b05", alt=F("b05", 1) + 0.5 * k) for k, c in enumerate(["jacui", "taquari", "cai", "sinos", "gravatai"])}
+for c in T_RIO: arvore(c, T_RIO[c] - 0.3, T_RIO[c] + 2.6, T_RIO[c] - 0.3, S("b14") - 0.3, larg=1.0)
+for c, nome in (("jacui", "JACUÍ"), ("taquari", "TAQUARI"), ("cai", "CAÍ"), ("sinos", "SINOS"), ("gravatai", "GRAVATAÍ")): rot(nome, RIOCL[c], T_RIO[c] + 0.3, S("b07") - 0.5, "seta", y=0.3)
+gotas.append({"pontos": [[FOZ[0] - 0.02, FOZ[1]], [FOZ[0], FOZ[1] + 0.01]], "prog": [[0, 0], [99999, 0]], "op": janela_op(T_RIO["gravatai"] + 0.8, E("b19") + 3.5, 1, 0.8, 0.6), "esc": 0.11, "alto": 0.15, "cauda": 0.0})
+pino("pa2", "PORTO ALEGRE", "GUAÍBA", F("b05", 2), t2=S("b07") - 0.3, xz=PA, y0=0.1, ate=S("b07") - 0.5, pequeno=True)
+rot("GUAÍBA", [FOZ[0] - 0.9, FOZ[1] + 0.5], F("b05", 2), S("b07") - 0.4, "corredor", y=0.3)
+# b06 lago + um terço
+est("b06", "B"); cam(S("b06"), [BAC[0] + 0.1, BAC[1] + 0.2], 14.0, 55, -4, corte=True, y=0.1); cam(F("b06", 2) - 0.3, [BAC[0] - 0.3, BAC[1] + 0.1], 13.0, 52, 10, y=0.1); cam(E("b06"), [CX[0] - 0.2, CX[1] - 0.4], 7.5, 40, 4, y=0.1)
+arvore("afluentes", S("b06") + 0.2, S("b06") + 5.5, S("b06") + 0.2, S("b14") - 0.3, larg=1.0, cor="#7FDDF5")
+g5(tipo="selo", t0=tw("lago", "b06", alt=S("b06") + 0.9) - 0.1, t1=F("b06", 1), texto="LAGO GUAÍBA (OFICIAL)", top=190, left=110, rot=-3, cor="#1F2A44", tam=52)
+g5(tipo="selo", t0=tw("rio", "b06", n=0, alt=S("b06") + 4.0), t1=F("b06", 1), texto="RIO?", top=300, left=110, rot=3, cor="#7a7066", tam=36)
+num(tw("terço|tercio", "b06", alt=F("b06", 1) + 1.0) - 0.3, valor="QUASE 1/3", faixa="DO RIO GRANDE DO SUL · ÁREA QUE DRENA PARA O GUAÍBA"); num_off(tw("saída|saida", "b06", alt=F("b06", 1) + 3.5) - 0.3)
+t_said = tw("saída|saida", "b06", alt=F("b06", 1) + 3.5)
+seta(CIANO, [[FOZ[0], FOZ[1]], P(-51.15, -30.3), P(-51.2, -30.55)], t_said, t_said + 1.2, F("b06", 2) - 0.2, y=0.5, r=0.045, fluxo=True, vel=0.2)
+rot("1 SAÍDA", P(-51.0, -30.4), t_said + 0.6, F("b06", 2) - 0.2, "seta", y=0.55)
+gota([[CX[0] + 0.4, CX[1] - 0.15], [CX[0] + 0.45, CX[1] - 0.12]], tw("caminho", "b06", alt=F("b06", 2) + 3.0) - 0.4, E("b07") + 3.0, 0, 0, esc=0.09, alto=0.18, cauda=0.0, prog_extra=[[0, 0], [99999, 0]])
 
-# ======================= 1/4 O QUE ACONTECEU NO SUL =======================
-est("b08", "A"); tab(quente, S("b08"), 0.0, 0.5); trans(meio("b07", "b08"), "nuvem", 1.3, "push-in atravessando nuvens de chuva")
-cx_estados += [{"t": S("b08") - 0.3, "modo": "grande", "ativa": 0, "feitas": [], "volta": True}, {"t": F("b08", 1), "modo": "compacta", "ativa": 0, "feitas": []}]
-cam(meio("b07", "b08") + 0.2, CUR, 12, 28, -30, corte=True); cam(F("b08", 1), [(CUR[0] + UV[0]) / 2, (CUR[1] + UV[1]) / 2], 11, 34, -10); cam(F("b08", 2), UV, 6.0, 40, 0); cam(E("b08"), [UV[0], UV[1]], 4.4, 44, 14)
-seta(AZUL, IGUACU, S("b08") + 0.3, S("b08") + 3.0, E("b09") + 2, y=0.14, r=0.06, fluxo=True, vel=0.14, semCabeca=True)
-rot("CURITIBA", [CUR[0] - 0.2, CUR[1] - 0.2], tw("Curitiba", "b08", alt=F("b08", 1) + 0.4), F("b08", 2), "seta"); rot("CATARATAS", P(-54.43, -25.69), tw("Cataratas", "b08", alt=F("b08", 1) + 2.0), F("b08", 2) + 0.3, "seta")
-pino("uv3", "UNIÃO DA VITÓRIA", "", F("b08", 2), xz=UV, ate=E("b08") + 0.1)
-regioes.append({"anel": VARZEA, "cor": "#FFFFFF", "op": janela_op(tw("curvas", "b08", alt=F("b08", 2) + 1.5), E("b08") + 0.2, 1, 0.6, 0.6), "max": 0.35, "y": 0.12})
-foto("uniao-da-vitoria-vista-aerea-2009.jpg", tw("cresceu", "b08", alt=F("b08", 3)) - 0.3, E("b08") + 0.2, lado="dir")
-# b09 hidrograma
-est("b09", "B"); trans(S("b09") - 0.2, "whip", 0.6, "whip pan para o gráfico")
-cam(S("b09") - 0.1, UV, 10, 50, 0, corte=True); cam(E("b11"), [UV[0] + 0.5, UV[1]], 12, 52, 10)
-HI = di("1983-07-03"); HP = di("1983-07-18"); H11 = di("1983-08-10")
-t_nov = tw("novembro", "b09", alt=F("b09", 1)); t_mai = tw("maio", "b09", alt=F("b09", 2)); t_jul = tw("julho", "b09", alt=F("b09", 3))
-prog = [[0, 0], [S("b09") + 0.4, 0], [t_nov + 1.0, di("1982-12-31") / (NDIA - 1)], [t_mai + 1.2, di("1983-06-10") / (NDIA - 1)], [t_jul + 0.8, HI / (NDIA - 1)],
-        [S("b11") + 0.3, HI / (NDIA - 1)], [S("b11") + 3.4, HP / (NDIA - 1)], [S("b11") + 6.5, di("1983-09-30") / (NDIA - 1)]]
-HM = [{"t": t_nov, "i": di("1982-11-27"), "v": 6.45, "texto": "NOV/82 · 6,45 M"}, {"t": t_mai, "i": di("1983-06-01"), "v": 6.65, "texto": "MAI–JUN/83 · 6,65 M", "dx": -120},
-      {"t": t_jul, "i": HI, "v": 4.94, "texto": "3 JUL · 4,94 M", "cor": "#1F2A44", "dx": -40, "dy": 64}, {"t": S("b11") + 3.2, "i": HP, "v": 10.42, "texto": "18 JUL · 10,42 M", "tam": 38}]
-EIXO = [[di("1982-10-01"), "OUT/82"], [di("1983-01-01"), "JAN/83"], [di("1983-04-01"), "ABR"], [di("1983-07-01"), "JUL"], [di("1983-09-30"), "SET"]]
-g4(tipo="hidro", t0=S("b09") + 0.2, t1=E("b11") + 1.5, titulo="RIO IGUAÇU EM UNIÃO DA VITÓRIA · COTA DIÁRIA (M) · OUT/1982–SET/1983", fonte="ANA (HIDROWEB, ESTAÇÃO 65310000)",
-   n=NDIA, ymax=11, dias=[[i, IGUACU_V] for i, IGUACU_V in [(IDX[d], IGU["dias"][d]) for d in DIAS]], prog=prog, marcas=HM, eixo=EIXO,
-   faixa={"t": S("b11") + 5.0, "i0": HP - 3, "i1": H11, "texto": "+1 MÊS ACIMA DE 6 M"}, roni=None, vertical=None, left=50, top=250)
-cartao(F("b09", 3) + 1.2, E("b09") + 0.2, "3 DE JULHO", "CHEIO, MAS SOB CONTROLE", top=650)
-# b10 pluviômetros
-est("b10", "B")
-g4(tipo="colunas", t0=S("b10") + 0.3, t1=E("b10") + 0.8, titulo="CHUVA EM MM · PARANÁ", fonte="DEFESA CIVIL DO PARANÁ", w=560, left=1330, top=240, max=850,
-   itens=[["MÉDIA DE JUN + JUL JUNTOS", 138, tw("cento|138", "b10", alt=F("b10", 2)), "#7FA2C9", "138"], ["UMA SEMANA EM JUL/83", 800, tw("oitocentos|800", "b10", alt=F("b10", 1) + 0.5), CORAL, "~800"]],
-   selo={"t": tw("seis|6", "b10", n=0, apos=F("b10", 3), alt=F("b10", 3) + 0.6), "texto": "QUASE 6 VEZES"})
-cam(S("b10"), UV, 10, 46, 20, corte=False)
-# b11
-est("b11", "B")
-num(tw("quinze|15", "b11", alt=F("b11", 1)), de=4.94, para=10.42, dur=2.6, faixa="IGUAÇU · EM 15 DIAS · 3 A 18 JUL 1983", unidade="m", dec=2)
-num_off(F("b11", 2) + 0.2)
-cartao(F("b11", 2) + 0.5, E("b11") + 0.4, "ACIMA DE 6 METROS", "POR MAIS DE UM MÊS", top=650)
-# b12 inundação
-est("b12", "A"); trans(S("b12") - 0.1, "corte", 0.5, "corte seco de volta ao mapa")
-cam(S("b12"), [UV[0], UV[1]], 6.4, 44, -30, corte=True); cam(E("b12"), [UV[0], UV[1]], 5.4, 48, 40)
-regioes.append({"anel": VARZEA, "cor": AZUL, "op": janela_op(S("b12") - 0.1, E("b13") + 0.1, 1, 0.5, 0.5), "max": 0.7, "y": 0.2})
-cilindros.append({"x": UV[0] + 0.55, "z": UV[1] - 0.25, "r": 0.08, "h": 1.1, "cor": "#3D7FB8", "cor_marca": "#E8505B", "marca": 6.0 / 12, "t_marca": S("b12"),
-    "op": janela_op(S("b12"), E("b12") + 0.3, 1, 0.4, 0.4), "nivel": [[0, 10.42 / 12], [E("b12"), 10.42 / 12]]})
-for k, (txt, w) in enumerate([("SEM LUZ", "luz"), ("SEM ÁGUA POTÁVEL", "água|agua"), ("SEM COMIDA", "comida")]):
-    rot(txt, [UV[0] - 1.2 + 1.2 * k, UV[1] - 1.1 + 0.45 * (k % 2)], tw(w, "b12", n=0, alt=S("b12") + 0.6 + 0.6 * k), F("b12", 1) + 0.3, "quente")
-num(tw("quatrocentas|2.400|400", "b12", alt=F("b12", 1) + 0.6), de=0, para=2400, dur=1.4, faixa="FAMÍLIAS DESAMPARADAS · UNIÃO DA VITÓRIA · DEFESA CIVIL DO PR", unidade="+")
-num_off(E("b12"))
-foto("porto-uniao-centro-2014.jpg", tw("abrigos|parentes", "b12", alt=F("b12", 2)), E("b12") + 0.2, lado="dir")
-# b13 antes x depois (tela cheia)
-est("b13", "A")
-t13 = F("b13", 1) - 0.2; t_ag4 = tw("agosto", "b13", alt=F("b13", 3) - 0.3)
-g4(tipo="cortina", t0=t13, t1=E("b13") + 0.4, t_cortina=t_ag4 - 0.4, antes="fotos/landsat4-uv-19830703-par.jpg", depois="fotos/landsat4-uv-19830804-par.jpg", origem="70% 70%",
-   rotA="3 JUL 1983 · RIO 4,94 M", rotB="4 AGO 1983 · RIO 7,42 M", t_seta=tw("lago|vars|varz", "b13", alt=F("b13", 5)) , seta={"x": 520, "y": 640, "texto": "A VÁRZEA VIROU UM LAGO"})
-cobre.append([round(t13 - 0.5, 3), round(E("b13") + 0.5, 3)])
-cam(t13, UV, 5.0, 40, 0)
-# b14 Itajaí
-est("b14", "A"); trans(S("b14") - 0.15, "whip", 0.6, "whip pan para leste")
-cam(S("b14") - 0.1, [BLU[0] - 0.3, BLU[1] - 0.2], 5.0, 24, -35, corte=True); cam(F("b14", 2), [BLU[0], BLU[1]], 3.8, 22, 10); cam(E("b14"), [BLU[0] + 0.2, BLU[1]], 3.4, 30, 40)
-rot("VALE ESTREITO · ITAJAÍ-AÇU", [BLU[0] - 0.8, BLU[1] - 0.7], tw("apertado", "b14", alt=F("b14", 1) + 0.6), E("b14"), "corredor")
-rot("IGUAÇU: ESPALHA · ITAJAÍ: SOBE", [BLU[0] + 0.2, BLU[1] + 0.6], tw("Sobe", "b14", alt=F("b14", 2) + 1.0), E("b14") + 0.3, "seta")
-foto("blumenau-rio-itajai-acu-2006.jpg", tw("apertado", "b14", alt=F("b14", 1) + 0.4), tw("apertado", "b14", alt=F("b14", 1) + 0.4) + 3.6, lado="dir")
-# b15 régua de Blumenau
-est("b15", "B"); trans(S("b15") - 0.15, "whip", 0.6, "whip pan")
-cam(S("b15") - 0.1, [BLU[0], BLU[1]], 6.0, 44, 10, corte=True); cam(E("b15"), [BLU[0] + 0.5, BLU[1]], 7.0, 48, -10)
-t_mar = tw("março|marco", "b15", alt=S("b15") + 0.8); t_maio = tw("maio", "b15", n=0, apos=F("b15", 1), alt=F("b15", 1) + 0.4); t_jul9 = tw("quinze|15", "b15", alt=F("b15", 2) + 0.8); t_set = tw("setembro", "b15", alt=F("b15", 3) + 0.5)
-g4(tipo="regua", t0=S("b15") + 0.2, t1=E("b15") + 0.8, titulo="BLUMENAU · RIO ITAJAÍ-AÇU · 1983", fonte="DEFESA CIVIL DE BLUMENAU", max=16, linha=10, linha_txt="10 M", left=130, top=230, w=620,
-   niveis=[[t_mar, 10.60, "04/03", None], [t_maio, 12.52, "20/05", None], [t_jul9, 15.34, "09/07", CORAL], [t_set, 11.75, "24/09", None]])
-num(t_jul9, valor="15,34", faixa="BLUMENAU · 9 JUL 1983 · COTA DO ITAJAÍ-AÇU", unidade="m"); num_off(t_set - 0.3)
-# b16 SC
-est("b16", "B")
-cam(S("b16"), [BLU[0] - 0.5, BLU[1] - 1.0], 18, 52, 0, corte=True); cam(E("b16"), [BLU[0] - 0.5, BLU[1] - 1.0], 15, 54, 12)
-tintas.append({"ufs": ["42"], "cor": CORAL, "op": janela_op(S("b16") + 0.3, E("b16") + 1.0, 1, 0.9, 0.8), "max": 0.55})
-num(tw("setenta|78", "b16", alt=F("b16", 1) + 1.0), de=0, para=78, dur=1.2, faixa="MUNICÍPIOS EM CALAMIDADE · JULHO DE 1983 · SC", unidade="")
-num(tw("quarenta|49", "b16", alt=F("b16", 2)), de=0, para=49, dur=1.0, faixa="MORTOS · SANTA CATARINA", unidade="")
-num(tw("duzentos|200", "b16", alt=F("b16", 2) + 1.3), de=0, para=200000, dur=1.4, faixa="DESABRIGADOS (QUASE) · SEGUNDO HERRMANN, UFSC", unidade="")
-num_off(E("b16") + 0.2)
-foto("blumenau-enchente-2008-exercito-NAO-1983.jpg", F("b16", 0) + 0.5, F("b16", 0) + 3.8, lado="esq")
+# ======================= 1 · A CHUVA DA SERRA (b07–b13) =======================
+est("b07", "A"); trans(S("b07") - 0.3, "nuvem", 1.2, "abertura do cap. 1: céu 3D sobre o RS")
+cam(S("b07") - 0.3, RSC, 17, 28, -12, corte=True, y=0.3); cam(E("b07"), [RSC[0] + 1.0, RSC[1] - 0.3], 15, 30, 12, y=0.3)
+tab(luz, S("b07"), 0.55, 0.8); tab(luz, E("b07") + 0.4, 0.9, 0.8)
+for k, (dx, dz) in enumerate([(-0.5, 0.2), (0.3, -0.3), (1.0, 0.3), (1.6, -0.2), (2.2, 0.2), (2.8, -0.3)]):
+    nuvem([RSC[0] - 6.0 + dx, RSC[1] + 3.0 + dz], S("b07") + 0.6 + 0.1 * k, E("b07") + 0.8, 1.35, y=1.5, dest=[RSC[0] + 0.3 + dx, RSC[1] - 0.2 + dz * 1.5], tm=(S("b07") + 1.0, F("b07", 1) + 0.5))
+regioes.append({"anel": [P(-54.5, -26.2), P(-52.5, -25.2), P(-50.2, -25.6), P(-49.6, -26.8), P(-51.5, -27.3), P(-53.6, -27.2)], "cor": "#FF9A62", "op": janela_op(F("b07", 2) - 0.3, E("b07") + 1.0, 1, 0.9, 0.7), "max": 0.38, "y": 0.9, "pulsa": True})
+seta("#7FB4DE", [P(-52.0, -23.5), P(-52.6, -25.8), P(-52.4, -28.2)], F("b07", 2) + 0.2, F("b07", 2) + 2.2, E("b07") + 1.2, y=1.1, r=0.05, fluxo=True, vel=0.16)
+rot("FRENTE FRIA (PARADA)", P(-53.0, -29.8), F("b07", 1) + 0.8, E("b07") + 1.0, "fria", y=1.9)
+rot("BLOQUEIO DE AR QUENTE", P(-52.0, -26.3), F("b07", 2) + 0.2, E("b07") + 1.0, "quente", y=1.2)
+rot("UMIDADE DO NORTE", P(-51.2, -24.7), F("b07", 2) + 1.6, E("b07") + 1.0, "seta", y=1.2)
+g5(tipo="selo", t0=F("b07", 1) + 0.3, t1=E("b07") + 0.8, texto="ESQUEMA · SEM NÚMERO", top=190, left=110, rot=-3, cor="#1F2A44", tam=40)
+# b08 420 mm
+est("b08", "B"); trans(S("b08") - 0.2, "corte", 0.4, "mapa editorial")
+tab(luz, S("b08") - 0.2, 1.0, 0.2)
+cam(S("b08"), [RSC[0] + 0.2, RSC[1]], 17, 56, 0, corte=True, y=0.1); cam(E("b08"), [RSC[0] + 0.2, RSC[1]], 15.5, 58, 6, y=0.1)
+tintas.append({"ufs": ["43"], "cor": "#2D7FD0", "op": [[0, 0], [S("b08") + 0.5, 0], [E("b08") - 1.0, 1.0], [E("b08") + 0.6, 1.0], [E("b08") + 1.6, 0]], "max": 0.75})
+t_420 = tw("420|quatrocentos", "b08", alt=S("b08") + 1.0)
+num(t_420 - 0.4, de=0, para=420, dur=2.2, faixa="MÉDIA NO ESTADO · 24/04 A 04/05 · WORLD WEATHER ATTRIBUTION", unidade="mm"); num_off(F("b08", 2) - 0.2)
+g5(tipo="chuva3m", t0=tw("3|três|tres", "b08", alt=F("b08", 2)) - 0.8, t1=E("b08") + 0.3)
+# b09 serra e planalto
+est("b09", "B"); cam(S("b09"), [CX[0] - 0.2, CX[1] + 0.1], 7.0, 38, -14, corte=True, y=0.1); cam(F("b09", 1) + 0.5, [(CX[0] + SM[0]) / 2 + 0.6, CX[1] + 0.3], 10.5, 42, 6, y=0.1); cam(E("b09"), [SM[0] + 0.8, SM[1] - 0.1], 7.5, 38, 14, y=0.1)
+chuva(CX, S("b09") + 0.2, F("b09", 2), r=0.5, h=1.8, n=90); chuva(SM, F("b09", 2) - 0.3, E("b09") + 0.6, r=0.5, h=1.8, n=90)
+t_707 = tw("707|setecentos", "b09", alt=F("b09", 1) + 1.0)
+cil(CX, S("b09") + 0.2, F("b09", 2), [[0, 0], [t_707 - 0.4, 0.0], [t_707 + 1.4, 707.2 / 1000]], r=0.1, h=1.5, dx=0.5, dz=-0.2, y=0.1)
+pino("cx9", "CAXIAS DO SUL", "707 MM · 1 A 13 DE MAIO", S("b09") + 0.4, t2=F("b09", 2), xz=CX, y0=0.1, ate=F("b09", 2) - 0.2)
+pino("sm9", "SANTA MARIA", "MAIOR CHUVA DIÁRIA EM 112 ANOS · 1 MAI", F("b09", 2) - 0.2, t2=E("b09") + 0.8, xz=SM, y0=0.1, ate=E("b09") + 0.5)
+rot("ONDE NASCEM OS RIOS", P(-51.3, -29.75), S("b09") + 0.5, F("b09", 2) - 0.4, "corredor", y=0.3)
+num(t_707 - 0.3, de=0, para=707, dur=1.6, faixa="CAXIAS DO SUL · 1 A 13 MAI 2024 · INMET", unidade="mm"); num_off(F("b09", 2) - 0.2)
+# b10 3 cheias
+est("b10", "B"); cam(S("b10"), [RSC[0] + 0.5, RSC[1]], 16, 56, 0, corte=True, y=0.1); cam(E("b10"), [RSC[0] + 0.5, RSC[1]], 14.5, 58, 6, y=0.1)
+t_set = tw("setembro", "b10", alt=F("b10", 1) - 0.5); t_nov = tw("novembro", "b10", alt=F("b10", 2) - 0.5); t_ter = tw("terceira", "b10", alt=F("b10", 3) - 0.5)
+g5(tipo="cheias3", t0=S("b10") + 0.2, t1=E("b10") + 0.4, t=[t_set + 0.3, t_nov + 0.2, t_ter + 0.2])
+num(t_ter + 0.3, valor="3", faixa="GRANDES CHEIAS EM 8 MESES"); num_off(E("b10") + 0.2)
+# b11 perfil
+est("b11", "A"); trans(S("b11") - 0.2, "match", 0.7, "gota")
+cam(S("b11") - 0.1, [CX[0] + 0.2, CX[1] + 0.1], 5.4, 20, 100, corte=True, y=0.1); cam(F("b11", 1), [(CX[0] + PA[0]) / 2, (CX[1] + PA[1]) / 2], 8.5, 30, 100, y=0.1); cam(E("b11"), [PA[0] - 0.1, PA[1] - 0.3], 6.0, 34, 100, y=0.1)
+t_des = tw("desce", "b11", alt=F("b11", 2) + 0.2)
+g5(tipo="perfil", t0=S("b11") + 0.4, t1=E("b11") + 0.4, t_vales=tw("vales", "b11", alt=F("b11", 2) + 2.0), prog=[[0, 0], [t_des, 0], [E("b11") - 0.2, 1.0]], top=430)
+# b12 Taquari / Lajeado
+est("b12", "A"); trans(S("b12") - 0.2, "whip", 0.6, "voo pelo vale do Taquari")
+cam(S("b12") - 0.1, [LAJ[0] + 0.8, LAJ[1] - 1.0], 6.0, 32, -40, corte=True, y=0.1); cam(F("b12", 1), [LAJ[0] + 0.1, LAJ[1] - 0.55], 4.3, 34, -8, y=0.1); cam(E("b12"), [LAJ[0] + 0.2, LAJ[1] - 0.55], 3.8, 38, 10, y=0.1)
+pino("laj", "LAJEADO (RS)", "RIO TAQUARI · 2 DE MAIO", S("b12") + 0.4, t2=E("b13") - 0.5, xz=LAJ, y0=0.1, ate=E("b12") + 0.2)
+t_3370 = tw("33|trinta", "b12", alt=F("b12", 1) + 1.0)
+cil(LAJ, F("b12", 1) - 0.5, E("b12") + 0.4, [[0, 0.0], [t_3370 - 0.2, 0.0], [t_3370 + 2.0, 33.7 / 36]], marca=29.92 / 36, t_marca=t_3370 + 2.1, h=1.0, r=0.08, dx=0.95, dz=-0.1, cor="#3D7FB8", cor_marca="#C9A46A")
+num(t_3370 - 0.2, de=20, para=33.7, dur=2.0, faixa="RIO TAQUARI · LAJEADO · 2 MAI 2024 · SGB/ANA", unidade="m", dec=1); num_off(F("b12", 3) - 0.3)
+rot("1941 · 29,92 M", [LAJ[0] + 0.25, LAJ[1] - 0.3], t_3370 + 2.2, F("b12", 2) + 1.5, "seta", y=0.2 + 1.0 * 29.92 / 36 + 0.1)
+g5(tipo="selo", t0=tw("acima", "b12", alt=F("b12", 2) + 0.3), t1=F("b12", 3), texto="+3 M ACIMA DE 1941", top=300, left=1150, rot=-4)
+foto("arroio-do-meio-navegantes-destruicao-aereo-2024-06-06.jpg", tw("Cidades", "b12", alt=F("b12", 3)) - 0.2, E("b12") + 0.4, lado="esq")
+# b13 gota até Porto Alegre
+est("b13", "A"); cam(S("b13") - 0.1, [LAJ[0] + 0.2, LAJ[1] - 0.05], 4.8, 38, 0, corte=False, y=0.1); cam(F("b13", 1) - 0.2, [P(-51.7, -29.9)[0], P(-51.7, -29.9)[1]], 6.5, 46, 0, y=0.1); cam(E("b13"), [PA[0] - 0.4, PA[1] - 0.2], 7.0, 48, 4, y=0.1)
+arvore(["taquari", "jacui"], S("b13"), S("b13") + 0.4, S("b13") - 0.2, E("b13") + 0.5, larg=1.35, pico=[[0, 0.0], [S("b13") + 0.3, 0.9], [E("b13"), 0.3]])
+gota([[LAJ[0] + 0.1, LAJ[1] + 0.0], P(-51.93, -29.68), P(-51.78, -29.88), P(-51.55, -29.97), P(-51.36, -30.0), [FOZ[0], FOZ[1]]], S("b13") + 0.3, E("b13") + 0.3, F("b13", 1) - 0.1, E("b13") - 0.2, esc=0.075, alto=0.15)
+rot("TAQUARI", P(-51.75, -29.5), S("b13") + 0.3, F("b13", 1), "seta", y=0.3); rot("JACUÍ", P(-51.6, -30.1), F("b13", 1) + 0.4, E("b13") + 0.2, "seta", y=0.3); rot("PORTO ALEGRE", [PA[0] + 0.1, PA[1] + 0.2], E("b13") - 1.3, E("b13") + 0.4, "seta", y=0.3)
 
-# ======================= 2/4 O QUE ACONTECEU NO SERTÃO =======================
-est("b17", "A"); trans(S("b17") - 0.3, "nuvem", 1.3, "zoom-out orbital do Sul e voo para o sertão")
-cx_estados += [{"t": S("b17") - 0.3, "modo": "grande", "ativa": 1, "feitas": [1], "volta": True}, {"t": F("b17", 1) + 0.2, "modo": "compacta", "ativa": 1, "feitas": [1]}]
-cam(S("b17") - 0.3, BRC, 68, 54, 0, corte=True); cam(F("b17", 1), NE, 30, 50, 6); cam(E("b17"), CE, 16, 40, -10)
-tab(quente, S("b17") + 0.5, 0.6, 0.8)
-tintas.append({"ufs": NEUF, "cor": CORAL, "op": janela_op(S("b17"), E("b17") + 1.0, 1, 0.8, 0.8), "max": 0.5})
-for k, ano in enumerate([1979, 1980, 1981, 1982, 1983]):
-    rot(str(ano), [CE[0] - 1.6 + 0.8 * k, CE[1] + 1.4 - 0.1 * k], F("b17", 2) + 0.35 * k, E("b17") + 0.3, "quente")
-# b18 Mombaça
-est("b18", "B"); trans(S("b18") - 0.2, "whip", 0.6, "whip pan para o gráfico")
-cam(S("b18") - 0.1, MOM, 10, 50, 0, corte=True); cam(E("b18"), [MOM[0] + 0.5, MOM[1]], 12, 52, 10)
-anos = [[int(a), v] for a, v in sorted(MOMB["anos"].items(), key=lambda kv: int(kv[0])) if int(a) >= 1911]
-t81 = tw("oitenta|81", "b18", n=0, apos=F("b18", 2) - 0.1, alt=F("b18", 2) + 0.2); t82 = tw("oitenta|82", "b18", n=0, apos=F("b18", 3) - 0.1, alt=F("b18", 3) + 0.2); t83 = tw("oitenta|83", "b18", n=0, apos=F("b18", 4) - 0.1, alt=F("b18", 4) + 0.2)
-g4(tipo="anuais", t0=S("b18") + 0.5, t1=E("b18") + 0.8, titulo="CHUVA ANUAL EM MOMBAÇA (CE) · PLUVIÔMETRO DO DNOCS", fonte="ANA (HIDROWEB, ESTAÇÃO 00539001) · SÓ ANOS COMPLETOS", anos=anos, max=1700, media=783,
-   t_ini=tw("desde|dez", "b18", alt=S("b18") + 1.5), dur=3.5, dest=[[1981, t81, "1981 · 472"], [1982, t82, "1982 · 407"], [1983, t83, "1983 · 366"]])
-pino("mom2", "MOMBAÇA (CE)", "PLUVIÔMETRO · DESDE 1910", S("b18") + 0.3, xz=MOM, ate=F("b18", 2))
-cartao(tw("metade", "b18", alt=E("b18") - 1.5), E("b18") + 0.3, "1983 EM MOMBAÇA", "47% DA MÉDIA", top=650)
-# b19 três anos
-est("b19", "B"); cam(S("b19"), CE, 14, 48, 0, corte=True); cam(E("b19"), CE, 11, 50, 10)
-for k, (rt, tx, w) in enumerate([("ANO 1", "A ROÇA FALHA", "primeiro"), ("ANO 2", "ACABA O GUARDADO", "segundo"), ("ANO 3", "AÇUDES SECAM · O GADO MORRE", "terceiro")]):
-    cartao(tw(w, "b19", alt=F("b19", 2) + 0.6 * k) - 0.2, E("b19") + 0.3 if k == 2 else tw(["segundo", "terceiro"][k], "b19", alt=F("b19", 3) + 0.4 * k) - 0.2, rt, tx, top=300 + k * 0)
-foto("acude-coremas-seco-2017.jpg", tw("açudes|acudes", "b19", alt=F("b19", 3) + 0.8), E("b19") + 0.2, lado="dir")
-# b20 frentes de emergência
-est("b20", "B"); cam(S("b20"), NE, 26, 52, 6, corte=True); cam(E("b20"), NE, 22, 54, -6)
-tintas.append({"ufs": NEUF, "cor": CORAL, "op": janela_op(S("b20"), E("b20") + 0.6, 1, 0.8, 0.8), "max": 0.35})
-foto("retirantes-pernambuco-slide-janjao-sem-data.jpg", S("b20") + 0.4, S("b20") + 3.6, lado="esq", estatica=True)
-foto("sertao-caatinga-arido-2013.jpg", tw("estrada", "b20", alt=F("b20", 0) + 2.0), tw("estrada", "b20", alt=F("b20", 0) + 2.0) + 3.4, lado="esq")
-g4(tipo="colunas", t0=F("b20", 1) + 0.2, t1=E("b20") + 0.8, titulo="ALISTADOS NAS FRENTES DE EMERGÊNCIA", fonte="SUDENE (VIA LITERATURA ACADÊMICA)", w=640, left=1230, top=240, max=3400,
-   itens=[["1979", 460, tw("setenta|79", "b20", n=0, apos=F("b20", 2) - 0.1, alt=F("b20", 2) + 0.3), "#7FA2C9", "~460 MIL"], ["1983", 3130, tw("milhões|milhoes|3", "b20", n=0, apos=F("b20", 1), alt=F("b20", 1) + 1.0), CORAL, "3,13 MILHÕES"]], selo=None)
-# b21 arquivo (fome vira revolta)
-trans(S("b21") - 0.1, "corte", 0.5, "corte seco para o papel (impacto grave)")
-tab(arquivo, S("b21") - 0.2, 0.7, 0.1); tab(arquivo, E("b21") + 0.3, 0.0, 0.2); est("b21", "B")
-cam(S("b21"), FOR, 7, 40, 0, corte=True)
-papel("b21", "b21", [{"tipo": "data", "texto": "CEARÁ · AGOSTO DE 1983", "t": S("b21") + 0.2},
-    {"tipo": "titulo", "texto": "A FOME VIROU REVOLTA", "t": S("b21") + 0.5, "tam": 110},
-    {"tipo": "rotulo", "texto": "FORTALEZA · SEDE DO GOVERNO OCUPADA", "t": tw("Fortaleza", "b21", alt=F("b21", 1) + 0.5)},
-    {"tipo": "rotulo", "texto": "↓ DOIS DIAS DEPOIS ↓", "t": tw("depois", "b21", alt=F("b21", 2))},
-    {"tipo": "rotulo", "texto": "CANINDÉ · ARMAZÉM DA COBAL INVADIDO", "t": tw("Canindé|Caninde", "b21", alt=F("b21", 2) + 0.8)},
-    {"tipo": "carimbo", "texto": "AGOSTO DE 1983", "t": tw("alimentos", "b21", alt=E("b21") - 0.8), "tam": 60}], pre=0.15, topo=True)
-# b22 número que ninguém contou
-est("b22", "B")
-papel("b22", "b22", [{"tipo": "data", "texto": "QUANTOS MORRERAM?", "t": S("b22") + 0.2},
-    {"tipo": "titulo", "texto": "MORTOS: ?", "t": S("b22") + 0.7, "tam": 240},
-    {"tipo": "rotulo", "texto": "NENHUM NÚMERO OFICIAL CONFIÁVEL", "t": tw("oficial", "b22", alt=F("b22", 2) + 0.8)},
-    {"tipo": "rotulo", "texto": "OS RELATOS FALAM DE MUITAS CRIANÇAS · FOME E DESNUTRIÇÃO", "t": tw("crianças|criancas", "b22", alt=F("b22", 3) + 0.8), "tam": 28}], pre=0.15, topo=True)
-# b23 volta ao mapa
-est("b23", "B"); tab(arquivo, S("b23") - 0.1, 0.0, 0.1); trans(S("b23") - 0.1, "corte", 0.5, "corte seco de volta ao mapa")
-cam(S("b23"), NE, 26, 54, 0, corte=True); cam(E("b23"), CE, 18, 50, 12)
-tintas.append({"ufs": NEUF, "cor": CORAL, "op": janela_op(S("b23"), E("b23") + 0.6, 1, 0.8, 0.8), "max": 0.45})
-cartao(F("b23", 0) + 0.4, F("b23", 1) - 0.1, "SECA DE 1979–1983", "UMA DAS MAIORES DO SÉCULO 20", top=330)
-cartao(F("b23", 1) + 0.2, E("b23") + 0.4, "1984", "A CHUVA VOLTA AO NORMAL", top=650)
+# ======================= 2 · O LAGO QUE RECEBE TUDO (b14–b19) =======================
+est("b14", "A"); trans(S("b14") - 0.3, "nuvem", 1.2, "suba a câmera e olhe o mapa inteiro")
+cam(S("b14") - 0.3, [PA[0] - 0.4, PA[1] - 0.2], 8.5, 46, 4, corte=True, y=0.1); cam(F("b14", 1), BAC2, 16.5, 58, 4, y=0.1); cam(E("b14"), [BAC2[0] + 0.1, BAC2[1] + 0.1], 15.0, 56, -4, y=0.1)
+arvore("todos", S("b14") + 0.1, S("b14") + 6.5, S("b14") - 0.2, S("b20") - 0.4, larg=1.0)
+pontos.append({"lista": MUNS, "cor": "#FFFFFF", "r": 1.0, "y": 0.13, "t0": tw("duzentos|250", "b14", alt=F("b14", 1) + 0.3) - 0.2, "t1": tw("duzentos|250", "b14", alt=F("b14", 1) + 0.3) + 2.6, "t2": E("b14") + 0.5})
+t_250 = tw("250|duzentos", "b14", alt=F("b14", 1) + 0.5)
+num(t_250 - 0.2, de=0, para=250, dur=1.6, faixa="MUNICÍPIOS NA BACIA DO GUAÍBA", unidade="+"); num_off(F("b14", 2) - 0.2)
+num(F("b14", 2) + 0.9, valor="~85 MIL km²", faixa="UNS 30% DO RIO GRANDE DO SUL"); num_off(E("b14") + 0.3)
+# b15 rios engrossam
+est("b15", "B"); cam(S("b15"), BAC2, 15.0, 56, -4, corte=True, y=0.1); cam(E("b15"), [BAC2[0] + 0.1, BAC2[1] + 0.2], 13.0, 54, 6, y=0.1)
+tp = {"jacui": tw("Jacuí", "b15", alt=S("b15") + 0.5), "taquari": tw("Taquari", "b15", alt=F("b15", 1) + 0.3), "cai": tw("Caí", "b15", alt=F("b15", 2) + 0.3), "sinos": tw("Sinos", "b15", alt=F("b15", 2) + 1.2), "gravatai": tw("grava", "b15", alt=F("b15", 2) + 1.9)}
+for c, tt in tp.items(): arvore(c, S("b15") - 5, S("b15") - 4, tt - 0.4, F("b15", 3) + 1.0, larg=1.5, pico=pulso(tt, 2.4, 1.0))
+for c, nome in (("jacui", "JACUÍ"), ("taquari", "TAQUARI"), ("cai", "CAÍ"), ("sinos", "SINOS"), ("gravatai", "GRAVATAÍ")): rot(nome, RIOCL[c], tp[c], F("b15", 3) + 0.8, "seta", y=0.3)
+rot("O MESMO LAGO: GUAÍBA", P(-51.1, -30.35), F("b15", 3) + 0.2, E("b15") + 0.8, "corredor", y=0.35)
+# b16 lago largo e raso
+est("b16", "A"); trans(S("b16") - 0.2, "corte", 0.4, "câmera baixa sobre o Guaíba")
+cam(S("b16"), [FOZ[0] - 0.1, FOZ[1] + 0.2], 3.8, 24, -30, corte=True, y=0.1); cam(F("b16", 1), [FOZ[0] - 0.1, FOZ[1] + 0.15], 3.2, 22, 10, y=0.1); cam(E("b16"), [FOZ[0] - 0.05, FOZ[1] + 0.1], 2.8, 26, 40, y=0.1)
+foto_sat("hls-sentinel2-porto-alegre-guaiba-antes-2024-04-01-recorte.jpg", tw("baiba|guaiba", "b16", alt=S("b16") + 0.5) + 0.2, tw("baiba|guaiba", "b16", alt=S("b16") + 0.5) + 4.6, lado="dir")
+t_500 = tw("500|quinhentos", "b16", alt=F("b16", 1) + 0.2)
+num(t_500 - 0.2, de=0, para=500, dur=1.4, faixa="ÁREA DO LAGO GUAÍBA · POUCOS METROS DE FUNDURA", unidade="km²"); num_off(F("b16", 2) - 0.2)
+rot("LARGO E RASO", [FOZ[0] - 0.55, FOZ[1] - 0.1], F("b16", 2) - 0.2, E("b16") + 0.5, "corredor", y=0.3)
+# b17 vazão
+est("b17", "B"); trans(S("b17") - 0.2, "corte", 0.4, "mapa editorial")
+cam(S("b17"), [FOZ[0] - 0.3, FOZ[1] - 0.3], 8.5, 50, 0, corte=True, y=0.1); cam(E("b17"), [FOZ[0] - 0.5, FOZ[1] - 0.3], 9.5, 52, 6, y=0.1)
+t_b = tw("Jacuí", "b17", alt=S("b17") + 0.5); t_mil = tw("1|mil", "b17", alt=F("b17", 1) + 0.5); t_mai = tw("maio", "b17", alt=F("b17", 2) + 0.2)
+g5(tipo="vazao", t0=S("b17") + 0.2, t1=E("b17") + 0.4, t_barra=t_b - 0.3, agulha=[[0, 0.0], [t_mil, 0.0], [t_mil + 1.2, 0.5], [t_mai + 0.3, 0.5], [t_mai + 1.6, 1.0]], t_selo=t_mai + 1.7)
+# b18 tempo da água
+est("b18", "B"); cam(S("b18"), BAC2, 14.0, 56, 0, corte=True, y=0.1); cam(E("b18"), [BAC2[0] + 0.1, BAC2[1] + 0.2], 12.5, 54, 8, y=0.1)
+t_qui = tw("quinta", "b18", n=0, alt=S("b18") + 2.0); t_cai = tw("Caí", "b18", alt=t_qui + 0.4); t_sab = tw("sábado|sabado", "b18", alt=F("b18", 1) + 2.0); t_dom = tw("domingo", "b18", n=0, alt=F("b18", 1) + 3.5); t_gdom = tw("domingo", "b18", n=1, alt=F("b18", 3) + 2.0)
+g5(tipo="calendario", modo="picos", t0=S("b18") + 0.3, t1=E("b18") + 0.4, tp=[t_qui, t_cai + 0.1, t_sab, t_dom, t_gdom])
+for c, tt in (("taquari", t_qui), ("cai", t_cai), ("sinos", t_sab), ("jacui", t_dom)): arvore(c, S("b18") - 5, S("b18") - 4, S("b18") - 0.3, E("b18") + 0.8, larg=1.4, pico=pulso(tt, 2.2, 1.0))
+# b19 o lago recebe tudo
+est("b19", "A"); cam(S("b19"), BAC2, 14.0, 54, 0, corte=True, y=0.1); cam(F("b19", 2) - 0.3, [PA[0] - 0.7, PA[1] - 0.4], 9.0, 46, 6, y=0.1); cam(E("b19"), [PA[0] - 0.4, PA[1] - 0.2], 6.5, 42, 10, y=0.1)
+gotas.append({"pontos": [[FOZ[0] - 0.02, FOZ[1]], [FOZ[0], FOZ[1] + 0.01]], "prog": [[0, 0], [99999, 0]], "op": janela_op(F("b19", 2) + 0.2, E("b19") + 1.5, 1, 0.7, 0.8), "esc": 0.2, "alto": 0.15, "cauda": 0.0})
+pino("pa19", "PORTO ALEGRE", "NA FRENTE DO LAGO", F("b19", 2) + 0.2, t2=E("b19") + 1.0, xz=PA, y0=0.1, ate=E("b19") + 0.6)
+g5(tipo="frase", t0=F("b19", 2), t1=E("b19") + 0.6, linhas=["O LAGO NA FRENTE DA CIDADE", "RECEBE TUDO."], destaque=1, top=700, left=90, tam=64, dur=2.2)
 
-# ======================= 3/4 POR QUE OS DOIS AO MESMO TEMPO =======================
-est("b24", "A"); tab(quente, S("b24"), 0.0, 0.5); trans(S("b24") - 0.3, "nuvem", 1.3, "zoom-out orbital do Brasil até o Pacífico")
-cx_estados += [{"t": S("b24") - 0.3, "modo": "grande", "ativa": 2, "feitas": [1, 2], "volta": True}, {"t": F("b24", 1) + 0.2, "modo": "compacta", "ativa": 2, "feitas": [1, 2]}]
-cam(S("b24") - 0.3, BRC, 68, 54, 0, corte=True); cam(F("b24", 1), P(-80, -8), 56, 50, -20); cam(F("b24", 2) - 0.2, PACC, 70, 56, -6); cam(E("b24"), PACC, 62, 56, -2)
-rot("PACÍFICO", P2(215, 0), tw("Pacífico|Pacifico", "b24", alt=F("b24", 2) + 0.4), E("b24") + 0.3, "corredor")
-# b25 Pacífico 82-83 + montanhas RONI
-est("b25", "A"); gpac = grade_xy(100, 290, -30, 30)
-cam(S("b25"), PACC, 60, 56, -6, corte=True)
-relevos.append({**gpac, "y0": 0.03, "k": 0.45, "mostra_data": False, "idx": [[0, 1]], "op": janela_op(S("b25") - 0.2, F("b25", 1) - 0.1, 1, 0.8, 0.5), "cresce": [[0, 0], [S("b25"), 0], [S("b25") + 3.0, 1]]})
-rot("PACÍFICO · DEZ/1982", P2(215, 12), S("b25") + 1.0, F("b25", 1), "corredor")
-foto("elnino-1982-83-anomalia-temp-pacifico-jan1983.jpg", tw("Pacífico|Pacifico", "b25", n=0, alt=S("b25") + 1.0) + 0.5, tw("Pacífico|Pacifico", "b25", n=0, alt=S("b25") + 1.0) + 4.0, lado="esq")
-tmt = F("b25", 1) - 0.1; KH = 1.15
-ANOSM = [("1982-83", rmax(1982, 1983)), ("1997-98", rmax(1997, 1998)), ("2015-16", rmax(2015, 2016)), ("2026", rmax(2026, 2026))]
-fim_m = E("b25") + 0.6
-tks = [F("b25", 1) + 0.6, F("b25", 1) + 1.6, F("b25", 1) + 2.4, F("b25", 1) + 3.2]
-for k, (ano, v) in enumerate(ANOSM):
-    x = MONT[0] + (k - 1.5) * 4.6
-    montanhas.append({"nome": ano + f" · +{v:.1f}".replace(".", ","), "x": x, "z": MONT[1], "r": 1.55, "kh": KH, "cor": CORAL if k == 0 else "#DCCDB0", "h": [[0, 0], [tks[k] - 0.2, 0], [tks[k] + 1.0, v]], "op": janela_op(tmt, fim_m, 1, 0.5, 0.6), "acende": [[0, 0], [tks[k], 1], [tks[k] + 1.2, 0.2]]})
-cam(tmt + 0.1, MONT, 30, 14, -6, y=2.0, corte=True); cam(E("b25"), [MONT[0] + 3, MONT[1]], 28, 14, 6, y=2.2)
-num(tw("recorde", "b25", alt=E("b25") - 0.8), valor=f"+{ANOSM[0][1]:.1f}".replace(".", ","), faixa="1982-83 · MAIOR EL NIÑO DESDE 1950 · ÍNDICE RONI · NOAA", unidade="°C")
-num_off(E("b25") + 0.9)
-# b26 Walker
-est("b26", "A"); trans(S("b26") - 0.3, "whip", 0.6, "whip pan para a circulação de Walker")
-WX0, WX1 = P2(128, 0)[0], P2(262, 0)[0]
-cam(S("b26"), [PACC[0], 4.0], 66, 14, 4, y=4.0, corte=True); cam(E("b26"), [PACC[0], 4.0], 62, 16, -4, y=4.0)
-t_w = tw("sobe", "b26", alt=F("b26", 1)); t_d = tw("desce", "b26", n=0, alt=F("b26", 2))
-seta("#E07A3A", [[WX0, 0, 5.4], [WX0, 0, 7.0], [WX0 + 0.5, 0, 8.6]], t_w, t_w + 1.0, E("b26"), r=0.3)
-seta("#E07A3A", [[WX0 + 1, 0, 9.0], [PACC[0], 0, 9.4], [WX1 - 1, 0, 9.0]], t_w + 1.0, t_w + 2.6, E("b26"), r=0.3)
-seta("#4C7FB8", [[WX1, 0, 8.6], [WX1, 0, 7.2], [WX1, 0, 5.6]], t_d, t_d + 1.0, E("b26"), r=0.3)
-rot("AR SOBE: NUVENS E CHUVA", [WX0 + 4, 0], t_w + 0.4, E("b26"), "quente", y=10.6); rot("AR DESCE: SEM NUVEM", [WX1 - 2, 0], t_d + 0.4, E("b26"), "fria", y=10.0)
-cartao(S("b26") + 0.2, F("b26", 1) - 0.1, "ASSISTA: EL NIÑO 2026", "O NOSSO VÍDEO ANTERIOR, AQUI NO CANAL", top=200)
-# b27 calendário
-est("b27", "B"); trans(S("b27") - 0.2, "whip", 0.6, "whip pan para o calendário")
-cam(S("b27") - 0.1, CE, 16, 50, 0, corte=True); cam(E("b27"), CE, 13, 52, 8)
-tintas.append({"ufs": ["23"], "cor": CORAL, "op": janela_op(S("b27"), E("b27") + 0.6, 1, 0.7, 0.8), "max": 0.5})
-t_pico = tw("dezembro", "b27", alt=F("b27", 1) + 0.5); t_chu = tw("fevereiro", "b27", alt=F("b27", 2) + 1.0)
-g4(tipo="anel24", t0=S("b27") + 0.5, t1=E("b27") + 0.8, titulo="CALENDÁRIO · EL NIÑO × CHUVA DO SERTÃO", centro=["PICO DO EL NIÑO", "DEZ–JAN"], fonte="NOAA/CPC (RONI) · FUNCEME", left=1230, top=290,
-   acende=[{"i0": 11, "i1": 11, "t": t_pico, "cor": CORAL}, {"i0": 1, "i1": 4, "t": t_chu, "cor": "#5B86B8"}],
-   legenda=[[CORAL, "PICO DO EL NIÑO: DEZEMBRO E JANEIRO", t_pico], ["#5B86B8", "CHUVA DO SERTÃO: FEVEREIRO A MAIO", t_chu]])
-cartao(tw("terceiro", "b27", alt=E("b27") - 1.5) - 0.2, E("b27") + 0.3, "O INVERNO DO SERTANEJO", "FRACO PELO 3º ANO SEGUIDO", top=650)
-# b28 jato subtropical
-est("b28", "A"); trans(S("b28") - 0.2, "whip", 0.6, "whip pan para o Sul")
-cam(S("b28") - 0.1, P(-55, -27), 32, 44, 10, corte=True); cam(F("b28", 2), P(-52, -27), 24, 40, -6); cam(E("b28"), P(-50, -27), 22, 40, 10)
-tj = tw("jato", "b28", alt=F("b28", 1) + 1.0)
-seta("#FFFFFF", [P(-78, -30), P(-65, -28.5), P(-55, -29), P(-45, -30.5), P(-34, -30)], tj, tj + 2.2, E("b28") + 1, y=1.6, r=0.14, fluxo=True, vel=0.14, semCabeca=True)
-rot("JATO SUBTROPICAL", P(-62, -28.5), tj + 0.4, E("b28"), "seta", y=2.4)
-t_seg = tw("segura", "b28", alt=F("b28", 2) + 0.3)
-for k, lon in enumerate([-58, -53, -48]):
-    seta("#7FB4DE", [P(lon - 3, -36), P(lon - 1, -32), P(lon, -28.2)], t_seg + 0.25 * k, t_seg + 0.25 * k + 1.2, E("b28") + 1, y=0.5, r=0.12)
-rot("FRENTES FRIAS PRESAS", P(-52, -24.8), t_seg + 0.4, E("b28"), "fria")
-t_bl = tw("bloqueios|bloqueio", "b28", alt=F("b28", 3))
-rot("BLOQUEIO · TEMPO TRAVADO", P(-36, -26), t_bl, E("b28") + 0.3, "quente")
-foto("noaa-cpc-elnino-impactos-globais-jun-ago.jpg", tw("contrário|contrario", "b28", alt=F("b28", 0) + 0.8), tw("contrário|contrario", "b28", alt=F("b28", 0) + 0.8) + 3.6, lado="esq")
-cartao(F("b28", 3) + 0.5, E("b28") + 0.3, "ESTUDO DO INPE", "1983: O TEMPO TRAVADO CHOVENDO POR DIAS", top=650)
-# b29 hidrograma + RONI
-est("b29", "B"); trans(S("b29") - 0.1, "corte", 0.5, "corte seco de volta ao hidrograma")
-cam(S("b29"), UV, 10, 50, 0, corte=True); cam(E("b29"), [UV[0] + 0.5, UV[1]], 12, 52, 10)
-tp = tw("esfriando", "b29", alt=F("b29", 1) + 1.5)
-g4(tipo="hidro", t0=S("b29") + 0.1, t1=E("b29") + 0.8, titulo="IGUAÇU (COTA, M) × PACÍFICO (RONI × 3, °C) · 1982–83", fonte="ANA · NOAA/CPC", n=NDIA, ymax=11,
-   dias=[[IDX[d], IGU["dias"][d]] for d in DIAS], prog=[[0, 1], [E("b29"), 1]], marcas=[{"t": S("b29") + 0.4, "i": HP, "v": 10.42, "texto": "18 JUL · 10,42 M", "tam": 34}], eixo=EIXO,
-   faixa=None, roni={"t": S("b29") + 0.8, "k": 3.0, "serie": RONI_DIA}, vertical={"t": tw("julho", "b29", alt=F("b29", 1) + 0.3), "i": HP, "texto": "18 JUL 1983"},
-   rotulos=[{"t": tp, "x": 620, "y": 120, "cor": CORAL, "texto": "PACÍFICO ESFRIANDO ↘"}, {"t": tw("pior", "b29", alt=F("b29", 3) + 1.0), "x": 820, "y": 90, "cor": "#3D7FB8", "texto": "RIO NO PICO ↗"}], left=50, top=250)
-# b30 anel 24 meses
-est("b30", "B")
-cam(S("b30"), SUL_C, 22, 54, 0, corte=True); cam(E("b30"), [SUL_C[0], SUL_C[1]], 18, 56, 10)
-tintas.append({"ufs": SULUF, "cor": AZUL, "op": janela_op(S("b30"), E("b30") + 0.8, 1, 0.8, 0.8), "max": 0.5})
-t_pri = tw("primavera", "b30", alt=F("b30", 1) + 1.0); t_out = tw("outono", "b30", alt=F("b30", 1) + 2.8)
-g4(tipo="anel24", t0=S("b30") + 0.5, t1=E("b30") + 0.8, titulo="EL NIÑO NO SUL · 2 ANOS (ANO 1 FORA · ANO 2 DENTRO)", centro=["ANO 1 → ANO 2", "CHUVA A MAIS"], fonte="NOAA/CPC · ANA", left=1230, top=290,
-   acende=[{"i0": 8, "i1": 10, "t": t_pri, "cor": AZUL}, {"i0": 14, "i1": 20, "t": t_out, "cor": AZUL}],
-   marcas=[{"t": tw("novembro", "b30", alt=F("b30", 2) + 0.5), "i": 10}, {"t": tw("maio", "b30", alt=F("b30", 2) + 1.5), "i": 16}, {"t": tw("julho", "b30", alt=F("b30", 2) + 2.3), "i": 18}],
-   legenda=[[AZUL, "PRIMAVERA DO ANO 1 (NOV/82: CHEIA)", t_pri], [AZUL, "OUTONO–INVERNO DO ANO 2 (MAI E JUL/83: CHEIAS)", t_out]])
-cartao(tw("Guarde", "b30", alt=E("b30") - 1.8) - 0.1, E("b30") + 0.4, "GUARDE ISSO", "VAI IMPORTAR EM 2026", top=560, carimbo="GUARDE ISSO", t_carimbo=tw("Guarde", "b30", alt=E("b30") - 1.8) + 0.7)
-# b31 tela partida + fios do Pacífico
-est("b31", "B"); trans(S("b31") - 0.2, "luz", 1.0, "zoom-out para a tela partida")
-cam(S("b31") - 0.1, BRC, 72, 58, -20, corte=True); cam(E("b31"), BRC, 68, 58, 6)
-partida(S("b31"), E("b32") + 0.2)
-t_des = tw("desligou", "b31", alt=F("b31", 0) + 1.5); t_lig = tw("ligou", "b31", alt=F("b31", 0) + 2.8)
-seta(CORAL, [P(-86, -6), P(-62, -8), NE], t_des, t_des + 1.6, E("b31") + 1, y=0.9, r=0.16, fluxo=True, vel=0.14, semCabeca=False)
-seta(AZUL, [P(-86, -8), P(-68, -18), SUL_C], t_lig, t_lig + 1.6, E("b31") + 1, y=0.9, r=0.16, fluxo=True, vel=0.14, semCabeca=False)
-rot("DESLIGA A CHUVA", [NE[0] - 2.0, NE[1] + 1.0], t_des + 0.6, E("b31"), "quente"); rot("LIGA A CHUVA", [SUL_C[0] - 2.0, SUL_C[1] - 1.0], t_lig + 0.6, E("b31"), "fria")
-tg2 = tw("quilômetros|quilometros", "b31", alt=F("b31", 1) + 1.0)
-rot("2.500 KM", P(-45, -16), tg2, E("b31") + 0.3, "seta")
-cartao(F("b31", 1) - 0.2, E("b31") + 0.3, "O MESMO FENÔMENO", "DUAS PONTAS DO EL NIÑO", top=650)
-# b32 lugares escolhidos
-est("b32", "A")
-cam(S("b32"), [UV[0], UV[1]], 5.2, 32, -20, corte=True); cam(tw("sertão|sertao", "b32", alt=F("b32", 1)) - 0.3, [MOM[0], MOM[1]], 7.0, 34, 10, corte=True); cam(F("b32", 2) - 0.3, [UV[0], UV[1]], 5.2, 34, 30, corte=True); cam(E("b32"), [UV[0] + 0.2, UV[1]], 4.8, 36, 50)
-pino("uv5", "UNIÃO DA VITÓRIA", "VÁRZEA OCUPADA", F("b32", 2), xz=UV, ate=E("b32")); pino("mom5", "SERTÃO", "SEM ÁGUA GUARDADA", tw("sertão|sertao", "b32", alt=F("b32", 1)), xz=MOM, ate=F("b32", 2) - 0.4)
-tab(quente, tw("sertão|sertao", "b32", alt=F("b32", 1)) - 0.3, 0.5, 0.5); tab(quente, F("b32", 2) - 0.3, 0.0, 0.5)
-foto("uniao-da-vitoria-rio-iguacu-helicoptero-2016.jpg", tw("vars|varz", "b32", alt=F("b32", 2) + 0.4), F("b32", 3) - 0.2, lado="dir")
-cartao(tw("escolheu", "b32", n=0, alt=F("b32", 3) + 0.2) - 0.2, E("b32") + 0.3, "O EL NIÑO ESCOLHEU OS LUGARES", "A OCUPAÇÃO ESCOLHEU QUEM SOFRERIA MAIS", top=300)
+# ======================= 3 · A SAÍDA (b20–b24) =======================
+est("b20", "A"); trans(S("b20") - 0.3, "whip", 0.6, "câmera desce do Guaíba para o sul")
+cam(S("b20") - 0.2, [FOZ[0], FOZ[1] + 0.1], 5.0, 34, 0, corte=True, y=0.1); cam(F("b20", 1) + 0.5, [P(-51.5, -31.0)[0], P(-51.5, -31.0)[1]], 11.5, 48, 6, y=0.1); cam(E("b20"), [P(-51.7, -31.3)[0], P(-51.7, -31.3)[1]], 14.0, 52, 0, y=0.1)
+rot("LAGOA DOS PATOS", P(-51.55, -31.15), tw("Lagoa", "b20", alt=F("b20", 2)) - 0.1, E("b20") + 1.0, "mapa_grande", y=0.2)
+foto_sat("nasa-modis-sul-do-rs-durante-2024-05-06.jpg", tw("Lagoa", "b20", alt=F("b20", 2)) + 0.3, tw("Lagoa", "b20", alt=F("b20", 2)) + 3.7, lado="esq")
+tab(arquivo, 0, 0.0, 0.1)
+# b21 laguna até Rio Grande
+est("b21", "A"); cam(S("b21") - 0.1, [P(-51.35, -30.7)[0], P(-51.35, -30.7)[1]], 8.0, 44, -10, corte=False, y=0.1); cam(F("b21", 1), [P(-51.9, -31.4)[0], P(-51.9, -31.4)[1]], 8.0, 46, 0, y=0.1); cam(F("b21", 2) - 0.3, [BARRA[0] + 0.1, BARRA[1] - 0.2], 5.0, 40, 10, y=0.1); cam(E("b21"), [BARRA[0] + 0.1, BARRA[1] - 0.1], 3.6, 40, 20, y=0.1)
+seta(CIANO, [[FOZ[0], FOZ[1]]] + LAGOA + [[BARRA[0], BARRA[1]]], S("b21") + 0.2, F("b21", 1) + 2.0, E("b22") + 1.0, y=0.45, r=0.05, fluxo=True, vel=0.1)
+rot("250 KM", P(-51.7, -31.1), S("b21") + 1.0, F("b21", 2) - 0.2, "seta", y=0.55); rot("LAGUNA · LIGADA AO MAR", P(-51.2, -31.55), F("b21", 1) + 0.2, F("b21", 2) - 0.3, "corredor", y=0.4)
+pino("rg", "RIO GRANDE (RS)", "BARRA · DOIS MOLHES DE PEDRA", F("b21", 2) - 0.2, t2=E("b22") + 0.5, xz=RG, y0=0.1, ate=E("b21") + 1.0)
+rot("SAÍDA ESTREITA", [BARRA[0] + 0.55, BARRA[1] + 0.15], tw("mole|molhe", "b21", alt=F("b21", 2) + 1.0), E("b21") + 1.0, "corredor", y=0.35)
+foto("rio-grande-fragata-f44-canal-da-barra-molhes-2023-08-15.jpg", tw("mole|molhe", "b21", alt=F("b21", 2) + 1.0) - 0.2, E("b21") + 0.5, lado="esq")
+# b22 caminho inteiro
+est("b22", "B"); trans(S("b22") - 0.2, "corte", 0.4, "esquema em relevo editorial")
+cam(S("b22"), [RSC[0] + 1.4, RSC[1] + 0.8], 17.0, 56, 0, corte=True, y=0.1); cam(E("b22"), [RSC[0] + 1.4, RSC[1] + 0.8], 15.0, 58, 6, y=0.1)
+t_e = [S("b22") + 0.6, tw("lago", "b22", alt=F("b22", 0) + 1.5), tw("duzentos|250", "b22", alt=F("b22", 1) + 0.5), tw("gargalo", "b22", alt=F("b22", 2) + 1.2)]
+g5(tipo="etapas", t0=S("b22") + 0.2, t1=E("b22") + 0.5, t=t_e, top=250)
+# b23 vento
+est("b23", "A"); trans(S("b23") - 0.2, "corte", 0.4, "")
+cam(S("b23"), [P(-51.7, -31.3)[0], P(-51.7, -31.3)[1]], 13.0, 52, 0, corte=True, y=0.1); cam(E("b23"), [P(-51.6, -31.1)[0], P(-51.6, -31.1)[1]], 11.5, 50, 10, y=0.1)
+t_v = tw("vento", "b23", alt=S("b23") + 0.5)
+for k, dx in enumerate((-0.6, 0.0, 0.6)):
+    seta("#FFFFFF", [[P(-52.5, -32.7)[0] + dx, P(-52.5, -32.7)[1]], [P(-52.0, -31.9)[0] + dx, P(-52.0, -31.9)[1]], [P(-51.5, -31.2)[0] + dx, P(-51.5, -31.2)[1]], [P(-51.1, -30.5)[0] + dx, P(-51.1, -30.5)[1]]], t_v + 0.3 * k, t_v + 1.8 + 0.3 * k, E("b23") + 0.6, y=0.7, r=0.045, fluxo=True, vel=0.12)
+rot("VENTO SUL", P(-52.3, -32.1), t_v + 0.5, E("b23") + 0.5, "seta", y=0.8)
+rot("ATÉ ~50 CM A MAIS (IPH/UFRGS)", P(-50.9, -30.5), tw("cinquenta|50", "b23", alt=F("b23", 2) + 1.5), E("b23") + 0.8, "corredor", y=0.5)
+g5(tipo="selo", t0=tw("cinquenta|50", "b23", alt=F("b23", 2) + 1.5) + 1.0, t1=E("b23") + 0.6, texto="AGRAVANTE, NÃO A CAUSA PRINCIPAL", top=190, left=110, rot=-3, cor="#1F2A44", tam=40)
+# b24 maio
+est("b24", "B"); trans(S("b24") - 0.2, "corte", 0.4, "")
+cam(S("b24"), [P(-51.7, -31.3)[0], P(-51.7, -31.3)[1]], 14.0, 56, 0, corte=True, y=0.1); cam(E("b24"), [P(-51.8, -31.2)[0], P(-51.8, -31.2)[1]], 13.0, 56, 8, y=0.1)
+t_pat = tw("Patos", "b24", alt=S("b24") + 1.5); t_pel = tw("Pelotas", "b24", alt=F("b24", 1) + 3.0); t_slo = tw("Lourenço|Lourenco", "b24", alt=t_pel + 0.6); t_rgx = tw("Grande", "b24", n=0, alt=t_slo + 0.8)
+g5(tipo="calendario", modo="maio", t0=S("b24") + 0.3, t1=E("b24") + 0.4, t_banda=tw("mês|mes", "b24", alt=F("b24", 2) + 2.0) - 1.0, tm=[S("b24") + 0.8, t_pat, t_pat + 2.6])
+pino("pel", "PELOTAS", "LAGOA · MAIO DE 2024", t_pel, t2=E("b24") + 0.6, xz=PEL, y0=0.1, ate=E("b24")); pino("sls", "SÃO LOURENÇO DO SUL", "", t_slo, t2=E("b24") + 0.6, xz=SLS, y0=0.1, ate=E("b24")); pino("rg24", "RIO GRANDE", "", t_rgx, t2=E("b24") + 0.6, xz=RG, y0=0.1, ate=E("b24"))
+foto("pelotas-bairros-alagados-aereo-2024-05-18.jpg", t_pel + 0.3, t_pel + 3.7, lado="dir")
+num(tw("mês|mes", "b24", alt=F("b24", 2) + 2.0), valor="~1 MÊS", faixa="GUAÍBA ACIMA DA COTA DE INUNDAÇÃO · PORTO ALEGRE"); num_off(E("b24") + 0.3)
 
-# ======================= 4/4 E EM 2026? =======================
-est("b33", "A"); tab(quente, S("b33"), 0.0, 0.3); trans(S("b33") - 0.3, "nuvem", 1.3, "zoom-out orbital até o Pacífico de hoje")
-cx_estados += [{"t": S("b33") - 0.3, "modo": "grande", "ativa": 3, "feitas": [1, 2, 3], "volta": True}, {"t": E("b33") + 0.3, "modo": "compacta", "ativa": 3, "feitas": [1, 2, 3]}]
-cam(S("b33") - 0.3, BRC, 70, 54, 0, corte=True); cam(F("b33", 1), PACC, 66, 56, -6); cam(E("b33"), PACC, 60, 56, -2)
-relevos.append({**gpac, "y0": 0.03, "k": 0.45, "mostra_data": False, "idx": [[0, 5]], "op": janela_op(S("b33") + 0.5, E("b34") + 0.6, 1, 0.8, 0.8), "cresce": [[0, 0], [S("b33") + 0.5, 0], [S("b33") + 3.0, 1]]})
-rot("PACÍFICO · OUT/2026", P2(215, 12), S("b33") + 1.0, F("b34", 1), "corredor")
-# b34 NOAA
-est("b34", "A"); cam(S("b34"), PACC, 58, 54, 4, corte=False); cam(E("b34"), P2(215, 0), 44, 50, -4)
-t_25 = tw("meio|2", "b34", n=0, apos=F("b34", 1) + 0.3, alt=F("b34", 1) + 2.0)
-num(t_25, valor="+2,5", faixa="NIÑO 3.4 · BOLETIM DA NOAA · 12/11/2026", unidade="°C")
-t_60 = tw("sessenta|60", "b34", alt=F("b34", 2) + 0.5)
-num(t_60 + 0.2, valor="~60%", faixa="CHANCE DE VIRAR O MAIS FORTE DESDE 1950 · NOAA/CPC", unidade="")
-g4(tipo="gauge", t0=t_60 - 0.2, t1=E("b34") + 0.6, titulo="CHANCE DE EL NIÑO HISTÓRICO", fonte="NOAA/CPC · 12/11/2026", t_gira=t_60, valor=60, selo={"t": tw("certeza", "b34", alt=E("b34") - 0.8), "texto": "PROVÁVEL ≠ CERTO"})
-num_off(E("b34") + 0.2)
-LAR = P(-52.41, -25.42); DIO = P(-53.64, -26.27)
-# b35 Sul já sentiu
-est("b35", "B"); trans(S("b35") - 0.2, "whip", 0.6, "whip pan para o Sul")
-MID35 = [(LAR[0] + DIO[0] + BLU[0]) / 3, (LAR[1] + DIO[1] + BLU[1]) / 3]
-cam(S("b35") - 0.1, SUL_C, 20, 54, 0, corte=True); cam(F("b35", 1), MID35, 13, 52, 8); cam(E("b35"), [MID35[0] + 0.5, MID35[1]], 11, 52, -6)
-tintas.append({"ufs": SULUF, "cor": AZUL, "op": janela_op(S("b35"), E("b35") + 0.8, 1, 0.8, 0.8), "max": 0.45})
-pino("lar", "LARANJEIRAS DO SUL (PR)", "577,6 MM · OUT/2026", tw("Laranjeiras", "b35", alt=F("b35", 1) + 1.0), xz=LAR, ate=E("b35"))
-pino("dio", "DIONÍSIO CERQUEIRA (SC)", "581,6 MM · OUT/2026", tw("Dionísio|Dionisio", "b35", alt=F("b35", 1) + 3.0), xz=DIO, ate=E("b35"))
-num(tw("recorde", "b35", alt=F("b35", 1) + 0.3), valor="~580", faixa="CHUVA EM OUTUBRO DE 2026 · INMET", unidade="mm"); num_off(F("b35", 2) - 0.2)
-num(tw("cinquenta|54", "b35", alt=F("b35", 2) + 1.0), de=0, para=54, dur=1.0, faixa="CIDADES CATARINENSES COM ESTRAGOS · 7–8 NOV/2026", unidade=""); num_off(E("b35") + 0.2)
-# b36 atenção outono-inverno 2027
-est("b36", "B"); cam(S("b36"), SUL_C, 22, 54, 0, corte=True); cam(E("b36"), SUL_C, 18, 56, 10)
-tintas.append({"ufs": SULUF, "cor": AZUL, "op": janela_op(S("b36"), E("b36") + 0.8, 1, 0.8, 0.8), "max": 0.4})
-g4(tipo="anel24", t0=S("b36") + 0.4, t1=E("b36") + 0.8, titulo="2026–2027 · O MESMO CALENDÁRIO DE 83", centro=["2026 → 2027", "ATENÇÃO"], fonte="NOAA/CPC (BOLETIM DE 12/11/2026)", left=1230, top=290,
-   acende=[{"i0": 8, "i1": 10, "t": S("b36") + 0.6, "cor": AZUL}, {"i0": 14, "i1": 20, "t": tw("outono", "b36", alt=F("b36", 3) + 1.5), "cor": AZUL, "pontilhado": True}],
-   legenda=[[AZUL, "PRIMAVERA DE 2026: JÁ ACONTECEU", S("b36") + 0.6], [CORAL, "OUTONO E INVERNO DE 2027: ATENÇÃO (NÃO É PREVISÃO)", tw("outono", "b36", alt=F("b36", 3) + 1.5)]])
-cartao(F("b36", 3) - 0.2, E("b36") + 0.3, "ISSO NÃO É PREVISÃO DE ENCHENTE", "É ATENÇÃO", top=650)
-# b37 sertão 2027
-est("b37", "B"); trans(S("b37") - 0.2, "whip", 0.6, "whip pan para o norte")
-cam(S("b37") - 0.1, NE, 28, 54, 0, corte=True); cam(E("b37"), CE, 20, 52, 8)
-tintas.append({"ufs": ["23", "22", "24", "25", "21"], "cor": CORAL, "op": janela_op(F("b37", 1), E("b37") + 0.8, 1, 0.9, 0.8), "max": 0.35})
-cartao(F("b37", 1) + 0.3, F("b37", 2) - 0.1, "PREVISÃO NOV–JAN (INMET)", "CHUVA ABAIXO DA MÉDIA EM ÁREAS DO NORDESTE", top=300)
-cartao(F("b37", 3) - 0.1, E("b37") + 0.3, "FUNCEME", "AINDA É CEDO PARA PREVER FEV–MAI DE 2027", top=650)
-# b38 Brasil de hoje (cisternas)
-est("b38", "A"); cam(S("b38"), CE, 18, 40, 10, corte=True); cam(E("b38"), NE, 26, 46, -10)
-tab(quente, S("b38"), 0.0, 0.5)
-rng = [[CE[0] + math.cos(i * 2.4) * (0.4 + (i % 9) * 0.5), CE[1] + math.sin(i * 1.7) * (0.3 + (i % 7) * 0.5)] for i in range(110)]
-pontos.append({"lista": rng, "t0": tw("cisternas", "b38", alt=F("b38", 1) + 1.0), "t1": tw("cisternas", "b38", alt=F("b38", 1) + 1.0) + 2.6, "t2": E("b38") + 1})
-num(tw("milhão|milhao", "b38", alt=F("b38", 1) + 0.5), valor="1,2 MILHÃO", faixa="CISTERNAS NO SEMIÁRIDO · ASA / P1MC", unidade=""); num_off(F("b38", 2))
-foto("sobradinho-represa-seca-2015.jpg", tw("doze|2012", "b38", alt=F("b38", 2) + 0.5), E("b38") + 0.3, lado="dir")
-# b39 alerta Sul
-est("b39", "A"); cam(S("b39"), [(UV[0] + BLU[0]) / 2, (UV[1] + BLU[1]) / 2], 11, 40, -10, corte=True); cam(E("b39"), [(UV[0] + BLU[0]) / 2, UV[1]], 8, 44, 12)
-pino("uv4", "UNIÃO DA VITÓRIA", "ALERTA NO CELULAR · DEFESA CIVIL", tw("alerta", "b39", alt=S("b39") + 0.8), xz=UV, ate=F("b39", 1)); pino("blu4", "BLUMENAU", "SISTEMA DE ALERTA DE CHEIA", tw("alerta", "b39", alt=S("b39") + 0.8) + 0.6, xz=BLU, ate=F("b39", 1))
-cilindros.append({"x": UV[0] + 0.4, "z": UV[1] - 0.1, "r": 0.08, "h": 1.1, "cor": "#3D7FB8", "cor_marca": "#E8505B", "marca": 10.42 / 12, "t_marca": F("b39", 1),
-    "op": janela_op(F("b39", 1), E("b39") + 0.5, 0.55, 0.5, 0.5), "nivel": [[0, 0.0], [F("b39", 1), 0.0], [F("b39", 1) + 1.0, 10.42 / 12]]})
-rot("1983 · 10,42 M", [UV[0] + 0.9, UV[1] - 0.5], F("b39", 1) + 0.3, E("b39") + 0.3, "corredor")
-cartao(tw("vars|varz", "b39", alt=F("b39", 2)) - 0.1, E("b39") + 0.3, "AS VÁRZEAS CONTINUAM OCUPADAS", "UM RIO QUE JÁ SUBIU 10 METROS PODE SUBIR DE NOVO", top=650)
+# ======================= 4 · O QUE CEDEU (b25–b33) =======================
+est("b25", "B"); trans(S("b25") - 0.2, "corte", 0.5, "corte seco para o papel sépia"); tab(arquivo, S("b25") - 0.2, 0.7, 0.1); tab(arquivo, E("b25") + 0.3, 0.0, 0.2)
+cam(S("b25"), [PA[0] - 0.1, PA[1] - 0.1], 5.0, 42, 0, corte=True, y=0.1); cam(E("b25"), [PA[0], PA[1]], 4.4, 44, 8, y=0.1)
+cobre.append([round(S("b25") - 0.15, 3), round(E("b25") + 0.35, 3)])
+papel("b25", "b25", [{"tipo": "data", "texto": "PORTO ALEGRE · MAIO DE 1941", "t": S("b25") + 0.2},
+    {"tipo": "titulo", "texto": "GUAÍBA: 4,7 METROS", "t": tw("4|quatro", "b25", alt=F("b25", 2) + 1.0) - 0.3, "tam": 96},
+    {"tipo": "rotulo", "texto": "UM MÊS ATÉ VOLTAR AOS 3 M", "t": tw("mês|mes", "b25", alt=F("b25", 2) + 3.5)},
+    {"tipo": "carimbo", "texto": "1941", "t": tw("quarenta|1941", "b25", alt=F("b25", 2) + 0.2), "tam": 90}], pre=0.15, topo=True)
+foto("mercado-publico-fachada-alagado-enchente-1941-05-recorte.jpg", S("b25") + 1.0, E("b25") + 0.2, lado="dir", fmt="cartep")
+est("b26", "B"); trans(S("b26") - 0.2, "corte", 0.5, "maquete da orla")
+cam(S("b26"), [PA[0] - 0.4, PA[1] - 0.3], 6.0, 44, 0, corte=True, y=0.1); cam(E("b26"), [PA[0] - 0.4, PA[1] - 0.2], 5.0, 46, 8, y=0.1)
+t_muro = tw("muro", "b26", alt=F("b26", 2) + 0.3); t_dq = tw("Sessenta|68", "b26", alt=t_muro + 1.8); t_cp2 = tw("Quatorze|14", "b26", alt=t_dq + 1.5); t_bb = tw("vinte|23", "b26", alt=t_cp2 + 1.5)
+MAQ = {"t_muro": t_muro, "t_dique": t_dq, "t_comp": t_cp2, "t_bomb": t_bb}
+g5(tipo="maquete", t0=S("b26") + 0.3, t1=E("b31") + 0.4, titulo="O SISTEMA DE PROTEÇÃO CONTRA CHEIAS", ocultar=[[S("b27") - 0.1, E("b27") + 0.1]], **MAQ,
+   t_falha=tw("rompeu", "b28", alt=F("b28", 1) + 1.0), t_agua=tw("entrou", "b28", alt=F("b28", 2) + 0.5), t_apaga=tw("dezenove|19", "b29", alt=F("b29", 1) + 1.0), t_sarandi=tw("saran", "b30", alt=S("b30") + 0.5),
+   rotulos=[["COMPORTA · AV. SERTÓRIO · 3 MAI", 330, 360, tw("rompeu", "b28", alt=F("b28", 1) + 1.0), CORAL], ["NAVEGANTES", 130, 388, tw("Navegantes", "b28", alt=F("b28", 2) + 1.0), CORAL],
+            ["SEM ENERGIA · INUNDADAS", 700, 385, tw("energia", "b29", alt=S("b29") + 0.8), CORAL], ["SARANDI", 150, 330, tw("saran", "b30", alt=S("b30") + 0.5), CORAL], ["CASA DE BOMBAS Nº 10", 380, 392, tw("10|dez", "b30", alt=S("b30") + 3.0), CORAL]])
+cartao(tw("projeto", "b26", alt=F("b26", 1)) - 0.2, F("b26", 2) - 0.2, "PORTO ALEGRE", "PROJETO DE 1943 · OBRAS DOS ANOS 70", top=730)
+foto("muro-da-maua-grafite-dia-normal-2016-04-23.jpg", t_muro + 0.1, t_muro + 3.1, lado="dir")
+num(t_dq - 0.2, valor="68 KM", faixa="DE DIQUES"); num_off(t_cp2 - 0.2); num(t_cp2 - 0.1, valor="14", faixa="COMPORTAS"); num_off(t_bb - 0.2); num(t_bb - 0.1, valor="23", faixa="CASAS DE BOMBAS"); num_off(E("b26") + 0.2)
+# b27 corte esquemático
+est("b27", "B"); cam(S("b27"), [PA[0] - 0.4, PA[1] - 0.3], 5.4, 44, 0, corte=True, y=0.1); cam(E("b27"), [PA[0] - 0.4, PA[1] - 0.3], 5.0, 46, 8, y=0.1)
+g5(tipo="corte", t0=S("b27") + 0.1, t1=E("b27") + 0.2, t_muro=S("b27") + 0.5, t_comp=tw("comportas", "b27", alt=F("b27", 2) + 0.2), t_bomba=tw("bomba", "b27", alt=F("b27", 3) + 0.2), t_falha=tw("falha", "b27", alt=F("b27", 4) + 0.3))
+foto("comporta-cais-maua-fechamento-2024-05-02.jpg", tw("comportas", "b27", alt=F("b27", 2) + 0.2) - 0.1, tw("comportas", "b27", alt=F("b27", 2) + 0.2) + 3.0, lado="esq")
+cartao(F("b27", 4) - 0.1, E("b27") + 0.3, "O RISCO DO SISTEMA", "SE UMA PEÇA FALHA, A ÁGUA ACHA O CAMINHO", top=730)
+# b28–b31 maquete continua (g5 acima cobre b26–b31)
+est("b28", "A"); cam(S("b28"), [PA[0] - 0.2, PA[1] - 0.2], 4.0, 44, 0, corte=True, y=0.1); cam(E("b28"), [PA[0] - 0.1, PA[1] - 0.15], 3.4, 46, 10, y=0.1)
+est("b29", "B"); cam(S("b29"), [PA[0] - 0.4, PA[1] - 0.3], 5.0, 46, 0, corte=True, y=0.1); cam(E("b29"), [PA[0] - 0.4, PA[1] - 0.2], 4.6, 46, 8, y=0.1)
+num(tw("dezenove|19", "b29", alt=F("b29", 1) + 1.0) - 0.2, de=0, para=19, dur=1.2, faixa="DE 23 CASAS DE BOMBAS PARADAS · NO DIA SEGUINTE AO PICO · PREFEITURA"); num_off(E("b29") + 0.2)
+est("b30", "A"); cam(S("b30"), [PA[0] - 0.1, PA[1] - 0.3], 4.0, 44, 0, corte=True, y=0.1); cam(E("b30"), [PA[0] - 0.05, PA[1] - 0.25], 3.4, 46, 10, y=0.1)
+num(tw("vinte|26", "b30", n=0, alt=F("b30", 1) + 1.0) - 0.2, valor="~26 MIL", faixa="PESSOAS ATINGIDAS · SARANDI · SEGUNDO A PREFEITURA"); num_off(E("b30") + 0.2)
+est("b31", "B"); cam(S("b31"), [PA[0] - 0.4, PA[1] - 0.3], 5.0, 46, 0, corte=True, y=0.1); cam(E("b31"), [PA[0] - 0.4, PA[1] - 0.2], 4.6, 46, 8, y=0.1)
+g5(tipo="selo", t0=tw("passou", "b31", alt=S("b31") + 1.5), t1=F("b31", 1) + 1.5, texto="A ÁGUA NÃO PASSOU POR CIMA DO MURO", top=100, left=520, rot=-3, tam=50)
+cartao(F("b31", 2) - 0.2, E("b31") + 0.3, "WORLD WEATHER ATTRIBUTION", "FALHA DESDE ~4,5 M · DECLARADA: 6 M", top=330, left=1240, w=640)
+# b32 arquivo: três explicações
+est("b32", "B"); trans(S("b32") - 0.2, "corte", 0.5, "papel"); tab(arquivo, S("b32") - 0.2, 0.7, 0.1); tab(arquivo, E("b32") + 0.3, 0.0, 0.2)
+cam(S("b32"), [PA[0] - 0.1, PA[1] - 0.1], 5.0, 42, 0, corte=True, y=0.1); cam(E("b32"), [PA[0], PA[1]], 4.4, 44, 8, y=0.1)
+cobre.append([round(S("b32") - 0.15, 3), round(E("b32") + 0.35, 3)])
+papel("b32", "b32", [{"tipo": "titulo", "texto": "POR QUE FALHOU? AINDA SE DISCUTE", "t": S("b32") + 0.2, "tam": 78},
+    {"tipo": "fichas", "itens": [["MANUTENÇÃO · EX-DIRETORES DO DMAE", tw("manutenção|manutencao", "b32", alt=F("b32", 1) + 1.0) - 0.3], ["CONCEPÇÃO · PREFEITURA", tw("concepção|concepcao", "b32", alt=F("b32", 1) + 3.0) - 0.3], ["GESTÃO · PESQUISADORES", tw("gestão|gestao", "b32", alt=F("b32", 1) + 5.5) - 0.3]], "t": S("b32") + 0.8},
+    {"tipo": "carimbo", "texto": "EM DISCUSSÃO", "t": F("b32", 1) + 0.3, "tam": 70},
+    {"tipo": "rotulo", "texto": "NÃO SEGUROU ESSA CHEIA · 5,35 M", "t": F("b32", 2) + 0.6}], pre=0.15, topo=True)
+# b33 a cidade
+est("b33", "A"); trans(S("b33") - 0.2, "corte", 0.4, "")
+cam(S("b33"), [PA[0] - 0.2, PA[1] - 0.2], 4.4, 44, -10, corte=True, y=0.1); cam(F("b33", 2) - 0.3, [PA[0] - 0.05, PA[1] - 0.05], 3.0, 46, 10, y=0.1); cam(E("b33"), [PA[0] - 0.05, PA[1]], 4.8, 44, 20, y=0.1)
+gota([[FOZ[0] + 0.15, FOZ[1] - 0.05], [PA[0] - 0.03, PA[1] + 0.03]], S("b33"), F("b33", 1) + 0.5, S("b33") + 0.2, F("b33", 1), esc=0.07, alto=0.14)
+t_mp = tw("Mercado", "b33", alt=F("b33", 1) + 0.3)
+foto("mercado-publico-ilhado-aereo-2024-05-05.jpg", t_mp + 0.1, t_mp + 3.0, lado="esq")
+cartao(tw("metro", "b33", alt=t_mp + 1.0) - 0.2, tw("metro", "b33", alt=t_mp + 1.0) + 2.6, "MERCADO PÚBLICO · 5 MAI 2024", "ÁGUA A 1,5 M", top=730)
+for nome, (lo, la), tt in (("MENINO DEUS", (-51.225, -30.055), 0), ("FARRAPOS", (-51.205, -30.0), 1), ("HUMAITÁ", (-51.19, -29.98), 2), ("ILHAS", (-51.25, -30.01), 3)):
+    rot(nome, P(lo, la), tw(nome.split()[0], "b33", alt=F("b33", 2) + 0.3 * tt), E("b33") + 0.5, "corredor", y=0.35)
+t_tr = tw("30|trinta", "b33", alt=F("b33", 3) + 0.3)
+foto("centro-historico-edificios-historicos-alagados-aereo-2024-05-05.jpg", t_tr + 0.3, E("b33") + 0.4, lado="dir")
+num(t_tr - 0.2, valor="~30%", faixa="DO TERRITÓRIO DA CAPITAL · SEGUNDO A PREFEITURA"); num_off(E("b33") + 0.3)
 
-# ======================= A RESPOSTA =======================
-est("b40", "B"); trans(S("b40") - 0.3, "nuvem", 1.3, "zoom-out até a tela partida")
-cam(S("b40") - 0.3, BRC, 74, 58, -10, corte=True); cam(E("b40"), BRC, 68, 58, 8)
-partida(S("b40") - 0.1, E("b41") + 0.5)
-g4(tipo="relogio", t0=S("b40") + 0.2, t1=E("b40") + 0.4, texto="JULHO 1983", sub="O MESMO EL NIÑO", top=60)
-seta(CORAL, [P(-86, -6), P(-62, -8), NE], F("b40", 3), F("b40", 3) + 1.4, E("b41"), y=0.9, r=0.16, fluxo=True, vel=0.14)
-seta(AZUL, [P(-86, -8), P(-68, -18), SUL_C], F("b40", 3) + 0.3, F("b40", 3) + 1.7, E("b41"), y=0.9, r=0.16, fluxo=True, vel=0.14)
-cartao(tw("mesmo", "b40", n=0, alt=F("b40", 4) + 0.1) - 0.2, E("b40") + 0.3, "O MESMO EL NIÑO", "PUXANDO O BRASIL PARA OS DOIS LADOS", top=650)
-# b41
-est("b41", "A"); trans(S("b41") - 0.2, "nuvem", 1.3, "zoom-out orbital até o Pacífico")
-cam(S("b41") - 0.2, PACC, 64, 56, -6, corte=True); cam(E("b41"), PACC, 58, 54, 6)
-relevos.append({**gpac, "y0": 0.03, "k": 0.45, "mostra_data": False, "idx": [[0, 5]], "op": janela_op(S("b41"), E("b41") + 0.6, 1, 0.8, 0.8), "cresce": [[0, 1], [E("b41"), 0.5]]})
-cartao(F("b41", 2) - 0.1, E("b41") + 0.4, "A LIÇÃO DE 1983", "O PERIGO NÃO ACABA QUANDO O PACÍFICO ESFRIA", top=300)
-# b42 fecho
-est("b42", "B"); cam(S("b42"), BRC, 70, 58, 0, corte=True); cam(E("b42"), BRC, 64, 58, 10)
-partida(S("b42"), E("b42") + 0.5)
-cta = {"t0": S("b42") + 0.1, "t_inscreve": tw("inscreve", "b42", alt=F("b42", 2) + 0.3) - 0.2, "texto": "MANDA PRA QUEM TEM FAMÍLIA NO SUL OU NO SERTÃO", "inscreve": "INSCREVA-SE · EM RELEVO"}
+# ======================= A RESPOSTA (b34–b40) =======================
+est("b34", "A"); trans(S("b34") - 0.3, "whip", 0.7, "volta à serra")
+cam(S("b34") - 0.2, [CX[0] + 1.0, CX[1] - 1.0], 9.0, 28, -20, corte=True, y=0.1); cam(E("b34"), [CX[0] + 0.3, CX[1] - 0.2], 5.2, 34, 6, y=0.1)
+chuva(CX, S("b34"), E("b34") + 0.5, r=0.45, h=1.6, n=60)
+cil(CX, S("b34") - 0.2, E("b34") + 0.6, [[0, 266 / 300], [99999, 266 / 300]], marca=94.4 / 300, t_marca=0, h=1.25, r=0.1)
+g5(tipo="frase", t0=F("b34", 1), t1=E("b34") + 0.6, linhas=["POR QUE A CHUVA DA SERRA", "ALAGOU PORTO ALEGRE?"], destaque=1, top=640, left=90, tam=68, dur=2.4)
+est("b35", "A"); cam(S("b35"), BAC2, 15.5, 56, 0, corte=True, y=0.1); cam(E("b36"), [BAC2[0] + 0.1, BAC2[1] + 0.1], 14.0, 54, 8, y=0.1)
+arvore("todos", S("b35") + 0.2, S("b35") + 6.0, S("b35") - 0.2, S("b37") + 0.3, larg=1.0)
+t_p1, t_p2, t_p3 = [tw("Porque", "b35", n=k, alt=F("b35", k)) for k in range(3)]; t_p4, t_p5 = [tw("Porque", "b36", n=k, alt=F("b36", k)) for k in range(2)]
+checklists.append({"t0": round(S("b35") + 0.3, 3), "t1": round(E("b36") + 0.5, 3), "titulo": "A RESPOSTA, EM CINCO PORQUÊS", "itens": [["3 MESES DE CHUVA EM 11 DIAS", round(t_p1 + 1.0, 3)], ["RIOS JÁ CHEIOS: 3ª CHEIA EM 8 MESES", round(t_p2 + 1.0, 3)], ["1/3 DO ESTADO PARA UM LAGO RASO", round(t_p3 + 1.0, 3)], ["SAÍDA LENTA, ESTREITA E LONGA", round(t_p4 + 1.0, 3)], ["DEFESA CEDEU NOS PONTOS FRACOS", round(t_p5 + 1.0, 3)]]})
+est("b36", "A")
+est("b37", "B"); trans(S("b37") - 0.2, "corte", 0.4, "")
+cam(S("b37"), [RSC[0] + 0.5, RSC[1]], 16.0, 56, 0, corte=True, y=0.1); cam(E("b37"), [RSC[0] + 0.5, RSC[1]], 14.5, 58, 6, y=0.1)
+g5(tipo="wwa", t0=S("b37") + 0.3, t1=E("b37") + 0.4, t=[tw("dobrou", "b37", alt=F("b37", 1) + 2.0), tw("seis|6", "b37", alt=F("b37", 1) + 4.5), tw("Niño|Nino|elninho", "b37", alt=F("b37", 2) + 1.5)])
+est("b38", "A"); cam(S("b38"), BAC2, 15.0, 56, -6, corte=True, y=0.1); cam(E("b38"), [BAC2[0] + 0.1, BAC2[1] + 0.1], 13.0, 54, 10, y=0.1)
+arvore("todos", S("b38") - 6, S("b38") - 5, S("b38") - 0.3, S("b40") + 6, larg=1.0)
+g5(tipo="selo", t0=tw("prever|previsão|previsao", "b38", alt=S("b38") + 1.5) - 0.3, t1=F("b38", 1) + 1.0, texto="NÃO É PREVISÃO", top=190, left=110, rot=-3, cor="#1F2A44", tam=52)
+g5(tipo="frase", t0=tw("geografia", "b38", alt=F("b38", 1) + 0.5) - 0.2, t1=E("b38") + 0.6, linhas=["A GEOGRAFIA NÃO MUDA."], destaque=0, top=760, left=90, tam=76, dur=1.4)
+est("b39", "B"); trans(S("b39") - 0.2, "corte", 0.4, "")
+cam(S("b39"), [PA[0] - 0.4, PA[1] - 0.3], 6.0, 46, 0, corte=True, y=0.1); cam(E("b39"), [PA[0] - 0.4, PA[1] - 0.2], 5.4, 46, 8, y=0.1)
+t_conc = tw("concreto", "b39", alt=S("b39") + 2.5)
+g5(tipo="maquete", t0=S("b39") + 0.2, t1=F("b39", 1) + 0.2, titulo="OBRAS ANUNCIADAS PELA PREFEITURA", ocultar=[], t_muro=S("b39") - 10, t_dique=S("b39") - 10, t_comp=S("b39") - 10, t_bomb=S("b39") - 10, t_concreto=t_conc, left=70, w=1140,
+   rotulos=[["8 DE 14 COMPORTAS VIRAM CONCRETO", 330, 290, t_conc, "#444"]])
+foto("cais-maua-galpao-marcas-da-enchente-2026-03-12.jpg", t_conc + 0.4, t_conc + 3.4, lado="dir")
+g5(tipo="sms", t0=tw("SMS|alerta", "b39", alt=F("b39", 1) + 0.3) - 0.3, t1=E("b39") + 0.6, t_msg=tw("SMS|alerta", "b39", alt=F("b39", 1) + 0.3) + 0.2)
+est("b40", "B"); cam(S("b40"), [BAC2[0] + 0.3, BAC2[1]], 15.5, 56, 0, corte=True, y=0.1); cam(E("b40"), [BAC2[0] + 0.3, BAC2[1]], 14.5, 56, 10, y=0.1)
+cartao(S("b40") + 0.4, F("b40", 1) - 0.2, "NO CANAL", "POR QUE O SUL TEM UM CLIMA TÃO DIFERENTE", top=300)
+cta = {"t0": F("b40", 1) + 0.2, "t_inscreve": tw("inscreve", "b40", alt=F("b40", 2) + 0.3) - 0.2, "texto": "MANDA PRA QUEM TEM FAMÍLIA NO RIO GRANDE DO SUL", "inscreve": "INSCREVA-SE · EM RELEVO"}
 
 fontes = [
-    {"t": 0, "texto": "FONTES: ANA (COTA DO IGUAÇU) · DEFESA CIVIL DO PR E DE BLUMENAU · HERRMANN (UFSC) · LANDSAT 4 (USGS)"},
-    {"t": S("b17") - 0.5, "texto": "FONTES: ANA/DNOCS (MOMBAÇA) · SUDENE · MEMORIAL DA DEMOCRACIA · MAPA: IBGE / NATURAL EARTH"},
-    {"t": S("b25") - 0.5, "texto": "FONTES: NOAA ERSSTV5 · NOAA/CPC (RONI) · INPE"},
-    {"t": S("b34") - 0.5, "texto": "FONTES: NOAA/CPC (12/11/2026) · INMET · FUNCEME · ASA"},
+    {"t": 0, "texto": "FONTES: INMET (CHUVA) · SEMA/ANA (GUAÍBA) · SGB/ANA (LAJEADO) · PREFEITURA DE PORTO ALEGRE · DEFESA CIVIL RS"},
+    {"t": S("b07") - 0.5, "texto": "FONTES: WORLD WEATHER ATTRIBUTION · INMET · SGB/ANA · IPH/UFRGS · MAPA: IBGE · RIOS: OPENSTREETMAP"},
+    {"t": S("b14") - 0.5, "texto": "FONTES: IPH/UFRGS (RBRH) · GOVERNO DO RS · DMAE · SENTINEL-2 / COPERNICUS · NASA"},
+    {"t": S("b25") - 0.5, "texto": "FONTES: DMAE · PREFEITURA DE PORTO ALEGRE · WORLD WEATHER ATTRIBUTION · IPH/UFRGS"},
 ]
-texturas = []
-extra = [{"t": round(e["t"] + 5.0, 3), "modo": "oculto"} for e in cx_estados if e["modo"] == "compacta"]
-cx_estados = sorted(cx_estados + extra, key=lambda e: e["t"])
+
+# ----- palco das thumbs: tempos DEPOIS do fim do vídeo (a composição não os renderiza; Thumb.jsx usa tempo=cues.thumbs.*): mapa escuro (noite) + árvore grossa
+DUR = tempos["duracao"]; T_A, T_B = round(DUR + 8, 3), round(DUR + 20, 3)
+for T_, (cx_, cz_, dist_, el_, az_, esc_) in ((T_A, (-0.37 - 0.75, 2.78, 8.6, 58, 2, 0.07)), (T_B, (-0.15, 3.2, 5.4, 27, 8, 0.2))):
+    ESTILO.append((T_ - 0.5, "B")); tab(noite, T_ - 0.6, 1.0, 0.2); tab(noite, T_ + 5, 0.0, 0.2); tab(luz, T_ - 0.6, 1.0, 0.2)
+    cam(T_ - 0.5, [cx_, cz_], dist_, el_, az_, corte=True, y=0.1)
+    arvore("todos", T_ - 8, T_ - 7, T_ - 6, T_ + 4, larg=1.5, cor="#3FD8FF")
+    arvore("principais", T_ - 8, T_ - 7, T_ - 6, T_ + 4, larg=2.6 if T_ == T_A else 2.2, cor="#3FD8FF", pico=[[0, 0.25], [99999, 0.25]])
+    gotas.append({"pontos": [[FOZ[0] - 0.02, FOZ[1]], [FOZ[0], FOZ[1] + 0.01]], "prog": [[0, 0], [99999, 0]], "op": janela_op(T_ - 6, T_ + 4, 1, 0.1, 0.1), "esc": esc_, "alto": 0.15, "cauda": 0.0})
+thumbs_t = {"A": T_A, "B": T_B}
+cx_itens = [{"n": 1, "texto": "", "t": 99999}]
 cues = {
     "_doc": "Gerado por shared/build_cues.py (não editar à mão). Tempos em segundos de audio/narracao.wav.",
     "fps": 30, "duracao": tempos["duracao"], "fim_fala": tempos["blocos"][-1]["e"], "slot": None, "voz": tempos.get("voz"),
     "paleta": {"papel": "#E9DCC3", "coral": "#E8505B", "navy": "#1F2A44", "tinta": "#2B2622", "branco": "#FBF8F1"},
     "palavras": palavras, "capitulos": capitulos, "numero": sorted(numero, key=lambda n: n["t"]), "camera": camera,
     "luz": sorted(luz), "noite": noite, "quente": quente, "amazonia": amazonia, "andes": andes_t, "arquivo": arquivo, "tremor": tremor, "desfoque": desfoque,
-    "pinos": pinos, "destaques": destaques, "fios": fios, "funis": [], "setas": setas, "nuvens": nuvens, "regioes": regioes, "rastros": [],
+    "pinos": pinos, "destaques": [], "fios": [], "funis": [], "setas": setas, "nuvens": nuvens, "regioes": regioes, "rastros": [],
     "sats": [], "ciclones": [], "aneis": [], "supercelula": None, "rotulos_mapa": rotulos,
-    "relevos": relevos, "diorama": None, "montanhas": montanhas, "barras3d": [], "globos": globos, "fumacas": [], "chuvas": [],
-    "cilindros": cilindros, "pontos": pontos, "tintas": tintas, "sst_datas": SST["datas"],
-    "midia": midia, "manchetes": manchetes, "cartoes": cartoes, "graficos": graficos, "graficos3": graficos3, "graficos4": graficos4, "papeis": papeis, "checklists": [], "calendario": None,
-    "pergunta": {"t0": 9999, "t1": 9999, "texto": ""}, "caixas": {"itens": cx_itens, "estados": cx_estados}, "cortica": {"t0": 9999, "t1": 9999, "itens": []}, "cobre3d": cobre,
-    "thumbs": {"A": round(S("b06") + 0.5, 3), "B": round(S("b03") - 0.3, 3), "C0": round(S("b12") + 2.5, 3), "C1": round(S("b33") + 4.0, 3)},
-    "transicoes": sorted(transicoes, key=lambda x: x["t"]), "cta": cta, "fontes": fontes, "texturas": texturas,
+    "relevos": [], "diorama": None, "montanhas": [], "barras3d": [], "globos": [], "fumacas": [], "chuvas": chuvas,
+    "cilindros": cilindros, "pontos": pontos, "tintas": tintas, "sst_datas": SST["datas"], "rios": rios_l, "gotas": gotas,
+    "midia": midia, "manchetes": [], "cartoes": cartoes, "graficos": [], "graficos3": [], "graficos4": [], "graficos5": graficos5, "papeis": papeis, "checklists": checklists, "calendario": None,
+    "pergunta": pergunta, "caixas": {"itens": cx_itens, "estados": []}, "cortica": {"t0": 9999, "t1": 9999, "itens": []}, "cobre3d": cobre,
+    "thumbs": thumbs_t, "transicoes": sorted(transicoes, key=lambda x: x["t"]), "cta": cta, "fontes": fontes, "texturas": [],
 }
-cues["camera"].sort(key=lambda k: k["t"]); cues["rotulos_mapa"] = rotulos
-cues["rotulos"] = rotulos
+cues["camera"].sort(key=lambda k: k["t"]); cues["rotulos"] = rotulos
 json.dump(cues, open(A / "cues.json", "w"), ensure_ascii=False, separators=(",", ":"))
 tr = []; ant = None
 for t_, e_ in sorted(ESTILO):
     if e_ != ant: tr.append({"t": round(t_, 3), "e": e_}); ant = e_
-json.dump({"_doc": "A/B do longo-04 (build_cues.py): troca no corte de câmera", "trechos": tr}, open(A / "estilo_v2.json", "w"), ensure_ascii=False, indent=1)
+json.dump({"_doc": "A/B do longo-05 (build_cues.py)", "trechos": tr}, open(A / "estilo_v2.json", "w"), ensure_ascii=False, indent=1)
 (R / "work").mkdir(exist_ok=True)
 with open(R / "work/storyboard.txt", "w") as f:
     for tr_ in cues["transicoes"]: f.write(f"TRANSIÇÃO {tr_['t']:7.2f}s {tr_['tipo']}: {tr_['desc']}\n")
     for m in midia: f.write(f"MÍDIA {m['t0']:7.2f}–{m['t1']:7.2f}s {m['id']} ({m['lado']})\n")
     f.write("\n".join(avisos))
-print(f"ok: {len(palavras)} palavras, {len(camera)} chaves de câmera, {len(midia)} mídias, {len(transicoes)} transições, {len(relevos)} relevos, {len(papeis)} papéis, {len(graficos4)} g4")
+print(f"ok: {len(palavras)} palavras, {len(camera)} chaves de câmera, {len(midia)} mídias, {len(transicoes)} transições, {len(rios_l)} camadas de rio, {len(gotas)} gotas, {len(graficos5)} g5, {len(papeis)} papéis")
 print("avisos:", *avisos, sep="\n  ")

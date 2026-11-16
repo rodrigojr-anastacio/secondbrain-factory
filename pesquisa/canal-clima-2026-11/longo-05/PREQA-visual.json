@@ -1,0 +1,1083 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/pesquisa/canal-clima-2026-11/longo-05/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2324,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 6,
+  "medio": 29,
+  "baixo": 18
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q05",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A faixa de título 'A CHUVA MAIS PESADA CAIU NA SERRA. QUEM AFUNDOU FOI' fica acima da legenda 'Quem afundo' e repete o mesmo trecho. Há dúvida se é intencional: o texto parece em animação, mas os dois textos se duplicam e pesam na leitura.",
+   "t": 23.0,
+   "arquivo": "690.png"
+  },
+  {
+   "quadro": "Q06",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Atrás da foto, o rótulo 'PORTO ALEGRE (RS)' do mapa aparece escurecido e vaza por trás da faixa navy 'PESSOAS ATINGIDAS'. O cilindro do mapa também aparece no canto superior esquerdo, perto do rótulo 'PORTO ALEGRE (RS) · MAIO DE 2024'. É resíduo da cena anterior durante o crossfade e pode estar sujando a composição.",
+   "t": 25.7,
+   "arquivo": "771.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Crossfade da foto do aeroporto com o mapa: o pino vermelho, o cilindro e o rótulo ficam sobrepostos à foto, e a legenda coral 'AEROPORTO SALGADO FILHO · 5 MAI 2024' fica pouco legível. Provavelmente é transição, mas o quadro está confuso.",
+   "t": 32.0,
+   "arquivo": "960.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O mapa sépia está muito plano, com baixo contraste e sem rótulos nos cilindros. O rótulo 'O MAPA' é genérico e os dois cilindros não dizem o que representam. É possível que seja estilo, mas a legibilidade é fraca.",
+   "t": 36.86666666666667,
+   "arquivo": "1106.png"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Um dos cilindros (Porto Alegre) tem uma faixa translúcida clara acima dele, como um fantasma ou resíduo de animação. Pode ser a animação de crescimento do cilindro, mas parece estranho. Além disso, a base do cilindro de Caxias do Sul está desalinhada com o topo.",
+   "t": 41.0,
+   "arquivo": "1230.png"
+  },
+  {
+   "quadro": "Q13",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Pequenos pontos e traços soltos de rio perto da nascente do Jacuí, acima da linha ciano, parecem fragmentos do desenho animado do rio. Há também um traço preto solto à esquerda (cerca de x=250, y=381). Pode ser artefato do mapa.",
+   "t": 60.5,
+   "arquivo": "1815.png"
+  },
+  {
+   "quadro": "Q16",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A nuvem 3D enorme cobre os rótulos 'UMIDADE DO NORTE' e 'BLOQUEIO DE AR QUENTE' e a faixa tracejada no topo. Os rótulos ficam amontoados e quase encavalados sobre as esferas, o que prejudica a leitura. Pode ser intencional como esquema.",
+   "t": 86.0,
+   "arquivo": "2580.png"
+  },
+  {
+   "quadro": "Q19",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "No painel 'O TAMANHO DA CHUVA', o bloco azul de '3 MESES DE CHUVA' aparece sem valor ou rótulo numérico. O espaço à direita de '11 DIAS' está vazio. Pode ser animação ainda em andamento. Também há dúvida se a ausência de barra para '11 DIAS' é intencional.",
+   "t": 104.0,
+   "arquivo": "3120.png"
+  },
+  {
+   "quadro": "Q19",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O painel bege cobre parte da bacia de rios, e o mapa do RS aparece em tom arroxeado/lilás, diferente do restante do mapa sépia. Pode ser destaque intencional do estado.",
+   "t": 104.0,
+   "arquivo": "3120.png"
+  },
+  {
+   "quadro": "Q20",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A etiqueta coral 'ONDE NASCEM OS RIOS' encosta no pino vermelho e quase encosta na placa navy 'CAXIAS DO SUL'. As barras azuis da chuva passam por trás das etiquetas. Ainda dá para ler, mas fica apertado.",
+   "t": 108.43333333333334,
+   "arquivo": "3253.png"
+  },
+  {
+   "quadro": "Q21",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "A placa navy 'CAXIAS DO SUL' cobre o fim da etiqueta coral 'ONDE NASCEM OS RIOS', e o texto fica cortado em 'ONDE NASCEM OS'. O pino vermelho também fica por cima da etiqueta.",
+   "t": 113.0,
+   "arquivo": "3390.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Rios ciano atravessam a esfera vermelha do marcador de Lajeado, dando impressão de que a linha está desenhada por cima do pino. Detalhe pequeno de camada.",
+   "t": 158.0,
+   "arquivo": "4740.png"
+  },
+  {
+   "quadro": "Q30",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa coral '+3 M ACIMA DE 1941' fica por cima do topo do cilindro 3D (régua) e cobre parte dele. O cilindro também parece cortado/deslocado atrás da placa. Pode ser estilo, mas atrapalha a leitura do mostrador.",
+   "t": 167.0,
+   "arquivo": "5010.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O rótulo 'TAQUARI' ao lado do marcador no centro aparece minúsculo e ilegível, bem menor que no Q31. Pode ser transição de câmera.",
+   "t": 176.0,
+   "arquivo": "5280.png"
+  },
+  {
+   "quadro": "Q35",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "A legenda diz 'Uma bacia de cerca de 85 mil km' e termina em 'km' com o cursor, sem o ²; o título grande mostra '~85 MIL km²'. Pode ser só a digitação em andamento, mas vale conferir. Os pontos brancos sobre os rios também parecem excessivos e poluem o mapa, o que pode ser estilo.",
+   "t": 194.0,
+   "arquivo": "5820.png"
+  },
+  {
+   "quadro": "Q38",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A foto em crossfade tem moldura levemente deslocada e rótulo 'GUAÍBA' em tamanho diferente do Q39. É transição entre quadros, mas o 3D de fundo fica quase preto, com pouco contraste.",
+   "t": 212.0,
+   "arquivo": "6360.png"
+  },
+  {
+   "quadro": "Q39",
+   "categoria": "tela_preta",
+   "severidade": "baixo",
+   "descricao": "O fundo do mapa 3D está muito escuro, quase preto, atrás da foto, e o rótulo de capítulo ficou esmaecido. Pode ser vinheta de transição intencional, mas vale confirmar.",
+   "t": 212.5,
+   "arquivo": "6375.png"
+  },
+  {
+   "quadro": "Q41",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "No medidor, o valor \"~1.200 M³/S\" se sobrepõe ao rótulo \"MAIORES JÁ MEDIDAS\" e ao ponto/ponteiro da agulha. O texto fica apertado e atrapalha a leitura.",
+   "t": 227.16666666666666,
+   "arquivo": "6815.png"
+  },
+  {
+   "quadro": "Q42",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "O valor \"~1.200 M³/S\" encosta no rótulo \"MAIORES JÁ MEDIDAS\" e no pino da agulha, no medidor à direita.",
+   "t": 230.0,
+   "arquivo": "6900.png"
+  },
+  {
+   "quadro": "Q42",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "A linha \"CAÍ, SINOS, GRAVATAÍ\" termina cortada no fim, com o \"Í\" final incompleto. Pode ser um corte de máscara ou de animação.",
+   "t": 230.0,
+   "arquivo": "6900.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "A palavra \"ACIMA\" em coral fica em cima do pino da agulha e da linha vermelha do ponteiro. O rótulo \"MAIO DE 2024\" também está colado. Fica mal legível e visualmente confuso.",
+   "t": 239.0,
+   "arquivo": "7170.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "A linha \"CAÍ, SINOS, GRAVATAÍ\" continua cortada no fim, com o \"Í\" incompleto.",
+   "t": 239.0,
+   "arquivo": "7170.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O medidor mostra \"ACIMA\" com a agulha apontando para baixo/fora do arco, e não sobre a escala. Pode ser uma animação intencional, mas parece estranho.",
+   "t": 239.0,
+   "arquivo": "7170.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A foto de satélite com moldura branca fica por cima do mapa e cobre quase todo o RS. O fundo atrás está bem escuro, quase preto, mas é só o dimming da transição para a foto, provavelmente intencional. Detalhe estético apenas.",
+   "t": 283.06666666666666,
+   "arquivo": "8492.png"
+  },
+  {
+   "quadro": "Q56",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O sinal automático acusou faixa uniforme na borda direita (RGB 19,30,41, ~6% do quadro). Visualmente é o oceano escuro do mapa, que parece escurecimento natural do fundo, sem emenda nítida. Na dúvida entre estilo e defeito, convém conferir se há faixa chapada ou corte de textura na borda direita.",
+   "t": 306.73333333333335,
+   "arquivo": "9202.png"
+  },
+  {
+   "quadro": "Q60",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O painel bege do gráfico cobre boa parte da foto de Pelotas e esconde o canto esquerdo dela. A legenda 'e causou alagamentos em Pelotas...' parece vir da digitação, então é só o conjunto que fica carregado. Não há faixa de cor errada: a faixa escura na borda esquerda é o fundo do mapa.",
+   "t": 329.0,
+   "arquivo": "9870.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "legenda",
+   "severidade": "baixo",
+   "descricao": "A legenda da foto 'MERCADO PÚBLICO · MAIO DE 1941' tem contraste muito baixo (texto claro sobre papel branco) e fica quase ilegível.",
+   "t": 338.0,
+   "arquivo": "10140.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "texto_cortado",
+   "severidade": "alto",
+   "descricao": "A faixa 'MAIS DE UM MÊS PARA VOLTAR AOS 3 M...' é cortada pela foto do Mercado Público, que fica sobreposta ao texto. A frase termina em 'AOS 3 M' e perde o resto. O título 'GUAÍBA: 4,7 METROS' também encosta na foto.",
+   "t": 347.0,
+   "arquivo": "10410.png"
+  },
+  {
+   "quadro": "Q64",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "O esquema 'O SISTEMA DE PROTEÇÃO CONTRA CHEIAS' mostra só 'LAGO GUAÍBA' e 'CIDADE', sem nenhum elemento de proteção (diques, comportas) e com grande área vazia. Pode ser o início da animação, mas se não for, o esquema fica sem conteúdo.",
+   "t": 349.9,
+   "arquivo": "10497.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "No esquema, 'DIQUES · 68 KM' e 'MURO DA MAUÁ' ficam sobre a linha tracejada e os marcadores amarelos, o que atrapalha um pouco a legibilidade.",
+   "t": 365.0,
+   "arquivo": "10950.png"
+  },
+  {
+   "quadro": "Q67",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O esquema do corte tem muito espaço vazio no painel, acima da água e do muro. O rótulo 'MURO / DIQUE' é minúsculo e quase ilegível. Pode ser estilo, mas a leitura é fraca.",
+   "t": 367.03333333333336,
+   "arquivo": "11011.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "'DIQUES · 68 KM' e 'MURO DA MAUÁ' no esquema ficam sobre a linha tracejada e os marcadores amarelos, com leitura fraca.",
+   "t": 383.0,
+   "arquivo": "11490.png"
+  },
+  {
+   "quadro": "Q71",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "No esquema, o rótulo coral 'COMPORTA · AV. SERTÓRIO · 3 MAI' fica sobre a linha ciano do rio e perto do círculo ciano; 'NAVEGANTES' fica logo abaixo. Os textos ficam apertados e a leitura é um pouco prejudicada. Também não há legenda no quadro, o que pode ser transição.",
+   "t": 392.0,
+   "arquivo": "11760.png"
+  },
+  {
+   "quadro": "Q72",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O rótulo coral 'COMPORTA · AV. SERTÓRIO · 3 MAI' cruza a linha ciano do rio, e 'NAVEGANTES' fica colado a ele. A leitura fica prejudicada.",
+   "t": 392.96666666666664,
+   "arquivo": "11789.png"
+  },
+  {
+   "quadro": "Q73",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "No esquema, o rótulo \"SEM ENERGIA · INUNDADAS\" encosta/sobrepõe o rótulo \"CIDADE\" no canto inferior direito do painel, e a leitura fica prejudicada.",
+   "t": 401.0,
+   "arquivo": "12030.png"
+  },
+  {
+   "quadro": "Q74",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Mesma sobreposição no painel: \"INUNDADAS\" colide com \"CIDADE\".",
+   "t": 410.0,
+   "arquivo": "12300.png"
+  },
+  {
+   "quadro": "Q75",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "\"INUNDADAS\" colide com \"CIDADE\" no painel. Além disso, \"SARANDI\" e \"NAVEGANTES\" ficam muito próximos, quase encostando.",
+   "t": 411.06666666666666,
+   "arquivo": "12332.png"
+  },
+  {
+   "quadro": "Q76",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "\"INUNDADAS\" sobrepõe \"CIDADE\" no painel. Rótulos \"SARANDI\", \"COMPORTA\", \"NAVEGANTES\" e \"CASA DE BOMBAS Nº 10\" ficam apertados na região esquerda.",
+   "t": 419.0,
+   "arquivo": "12570.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "\"INUNDADAS\" colide com \"CIDADE\" no painel.",
+   "t": 422.7,
+   "arquivo": "12681.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "\"INUNDADAS\" colide com \"CIDADE\" no painel.",
+   "t": 428.0,
+   "arquivo": "12840.png"
+  },
+  {
+   "quadro": "Q79",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "A etiqueta coral \"WORLD WEATHER ATTRIBUTION\" fica por cima da legenda do painel (\"ESQUEMA FORA DE ESCALA · POSIÇÕES ILUSTRATIVAS\"), cortando-a. A caixa \"FALHA DESDE ~4,5 M\" cobre a borda inferior do painel. \"INUNDADAS\" colide com \"CIDADE\".",
+   "t": 437.0,
+   "arquivo": "13110.png"
+  },
+  {
+   "quadro": "Q80",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Sem mapa e com fundo bege liso com listras horizontais; só o título ocupa a tela, deixando uma grande área vazia. Pode ser o painel de papel intencional, mas o sinal de faixa na borda superior (RGB 199,176,130) tem de ser conferido. Na dúvida entre estilo e defeito.",
+   "t": 442.0,
+   "arquivo": "13260.png"
+  },
+  {
+   "quadro": "Q81",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa uniforme de 4% no topo (RGB 199,176,130), mas o fundo é papel bege com textura de linhas e vinheta nas bordas. Provavelmente é estilo do painel de papel e não um defeito; confirmar que não há faixa chapada.",
+   "t": 446.0,
+   "arquivo": "13380.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Mesmo sinal de faixa bege no topo (4%). O fundo é o painel de papel com textura e vinheta, então é provável que seja estilo. Só registrar a dúvida.",
+   "t": 455.0,
+   "arquivo": "13650.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Os três rótulos em papel (MANUTENÇÃO, CONCEPÇÃO, GESTÃO) ficam bem apertados. Não chegam a se sobrepor, mas a composição está carregada e o rótulo MANUTENÇÃO quase encosta no CONCEPÇÃO.",
+   "t": 455.0,
+   "arquivo": "13650.png"
+  },
+  {
+   "quadro": "Q84",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa escura de 3% na borda esquerda (RGB 25,25,17). O mapa de fundo está escurecido por vinheta intencional, então provavelmente não é defeito. O fundo está quase preto atrás da foto, mas o relevo ainda aparece.",
+   "t": 464.0,
+   "arquivo": "13920.png"
+  },
+  {
+   "quadro": "Q94",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O painel de papel bege 'E O CLIMA? · WORLD WEATHER ATTRIBUTION · 03/06/2024' está vazio no centro, só com título e rodapé. Pode ser o 1º quadro do bloco, quando a animação começa em branco, então é provavelmente intencional. Se o quadro aparecer com tempo suficiente, vale confirmar.",
+   "t": 521.0333333333333,
+   "arquivo": "15631.png"
+  },
+  {
+   "quadro": "Q95",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O cartão '>2×' ocupa só o canto esquerdo do painel bege e deixa o resto vazio, como se faltassem outros cartões. Pode ser animação de entrada em andamento, e o quadro só exige confirmação.",
+   "t": 527.0,
+   "arquivo": "15810.png"
+  },
+  {
+   "quadro": "Q99",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "No painel ilustrativo, o rótulo \"DIQUES · 68 KM\" fica sobre a linha tracejada e o primeiro marcador amarelo, o que prejudica a leitura. O \"MURO DA MAUÁ\" também encosta na linha de diques.",
+   "t": 550.7,
+   "arquivo": "16521.png"
+  },
+  {
+   "quadro": "Q100",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "No painel, \"DIQUES · 68 KM\" está sobreposto à linha tracejada e ao marcador amarelo, com leitura fraca. \"MURO DA MAUÁ\" também toca os marcadores.",
+   "t": 554.0,
+   "arquivo": "16620.png"
+  },
+  {
+   "quadro": "Q102",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A caixa de título \"POR Q\" cobre a parte superior dos rios ciano e do mapa. Pode ser só a animação de digitação, mas na versão final cobriria parte do dado. Há também um pequeno traço preto solto à esquerda, perto de x=240, y=387, sem função aparente.",
+   "t": 572.0,
+   "arquivo": "17160.png"
+  },
+  {
+   "quadro": "Q103",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A caixa \"POR QUE O\" cobre a ponta superior da rede de rios. Há um pequeno traço preto solto no mapa, perto de x=240, y=387.",
+   "t": 572.2666666666667,
+   "arquivo": "17168.png"
+  },
+  {
+   "quadro": "Q104",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Há um pequeno traço preto solto no mapa, perto de x=225, y=370, que parece resíduo de um elemento de linha ou fronteira.",
+   "t": 581.0,
+   "arquivo": "17430.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 1.1333333333333333,
+   "nome": "34.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 5.0,
+   "nome": "150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 13.033333333333333,
+   "nome": "391.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 14.0,
+   "nome": "420.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 23.0,
+   "nome": "690.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 25.7,
+   "nome": "771.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 32.0,
+   "nome": "960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 36.86666666666667,
+   "nome": "1106.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 41.0,
+   "nome": "1230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 46.833333333333336,
+   "nome": "1405.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 50.0,
+   "nome": "1500.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 59.0,
+   "nome": "1770.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 60.5,
+   "nome": "1815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 68.0,
+   "nome": "2040.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 77.0,
+   "nome": "2310.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 86.0,
+   "nome": "2580.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 92.83333333333333,
+   "nome": "2785.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 95.0,
+   "nome": "2850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 104.0,
+   "nome": "3120.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 108.43333333333334,
+   "nome": "3253.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 113.0,
+   "nome": "3390.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 122.0,
+   "nome": "3660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 124.93333333333334,
+   "nome": "3748.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 131.0,
+   "nome": "3930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 140.0,
+   "nome": "4200.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 141.76666666666668,
+   "nome": "4253.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 149.0,
+   "nome": "4470.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 157.03333333333333,
+   "nome": "4711.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 158.0,
+   "nome": "4740.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 167.0,
+   "nome": "5010.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 173.93333333333334,
+   "nome": "5218.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 176.0,
+   "nome": "5280.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 184.03333333333333,
+   "nome": "5521.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 185.0,
+   "nome": "5550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 194.0,
+   "nome": "5820.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 198.46666666666667,
+   "nome": "5954.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 203.0,
+   "nome": "6090.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 212.0,
+   "nome": "6360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 212.5,
+   "nome": "6375.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 221.0,
+   "nome": "6630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 227.16666666666666,
+   "nome": "6815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 230.0,
+   "nome": "6900.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 239.0,
+   "nome": "7170.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 244.83333333333334,
+   "nome": "7345.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 248.0,
+   "nome": "7440.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 257.0,
+   "nome": "7710.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 261.5,
+   "nome": "7845.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 266.0,
+   "nome": "7980.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 274.1333333333333,
+   "nome": "8224.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 275.0,
+   "nome": "8250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 283.06666666666666,
+   "nome": "8492.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 284.0,
+   "nome": "8520.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 293.0,
+   "nome": "8790.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 295.76666666666665,
+   "nome": "8873.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 302.0,
+   "nome": "9060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 306.73333333333335,
+   "nome": "9202.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 6% do quadro, cor RGB(19,30,41)"
+   ]
+  },
+  {
+   "id": "Q57",
+   "t": 311.0,
+   "nome": "9330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 320.0,
+   "nome": "9600.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 320.76666666666665,
+   "nome": "9623.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 329.0,
+   "nome": "9870.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(51,45,39)"
+   ]
+  },
+  {
+   "id": "Q61",
+   "t": 336.3,
+   "nome": "10089.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q62",
+   "t": 338.0,
+   "nome": "10140.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q63",
+   "t": 347.0,
+   "nome": "10410.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q64",
+   "t": 349.9,
+   "nome": "10497.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 356.0,
+   "nome": "10680.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 365.0,
+   "nome": "10950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 367.03333333333336,
+   "nome": "11011.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 374.0,
+   "nome": "11220.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 383.0,
+   "nome": "11490.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 383.46666666666664,
+   "nome": "11504.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 392.0,
+   "nome": "11760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 392.96666666666664,
+   "nome": "11789.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 401.0,
+   "nome": "12030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 410.0,
+   "nome": "12300.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 411.06666666666666,
+   "nome": "12332.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 419.0,
+   "nome": "12570.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 422.7,
+   "nome": "12681.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 428.0,
+   "nome": "12840.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 437.0,
+   "nome": "13110.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 442.0,
+   "nome": "13260.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q81",
+   "t": 446.0,
+   "nome": "13380.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q82",
+   "t": 455.0,
+   "nome": "13650.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(199,176,130)"
+   ]
+  },
+  {
+   "id": "Q83",
+   "t": 462.1333333333333,
+   "nome": "13864.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 464.0,
+   "nome": "13920.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(25,25,17)"
+   ]
+  },
+  {
+   "id": "Q85",
+   "t": 473.0,
+   "nome": "14190.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 476.1333333333333,
+   "nome": "14284.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 481.8666666666667,
+   "nome": "14456.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 482.0,
+   "nome": "14460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 491.0,
+   "nome": "14730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 500.0,
+   "nome": "15000.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 502.93333333333334,
+   "nome": "15088.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 509.0,
+   "nome": "15270.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 518.0,
+   "nome": "15540.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 521.0333333333333,
+   "nome": "15631.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 527.0,
+   "nome": "15810.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 536.0,
+   "nome": "16080.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 536.2666666666667,
+   "nome": "16088.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 545.0,
+   "nome": "16350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 550.7,
+   "nome": "16521.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 554.0,
+   "nome": "16620.png",
+   "sinais": []
+  },
+  {
+   "id": "Q101",
+   "t": 563.0,
+   "nome": "16890.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 572.0,
+   "nome": "17160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 572.2666666666667,
+   "nome": "17168.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 581.0,
+   "nome": "17430.png",
+   "sinais": []
+  }
+ ]
+}

@@ -1,0 +1,947 @@
+{
+ "duracao": 588.195,
+ "voz": "eleven",
+ "slot": null,
+ "blocos": [
+  {
+   "id": "b01",
+   "s": 0.15,
+   "e": 10.694,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 0.15,
+     "e": 3.11,
+     "txt": "Caxias do Sul, na serra gaúcha. Dois de maio de dois mil e vinte e quatro."
+    },
+    {
+     "s": 4.43,
+     "e": 8.41,
+     "txt": "Em um só dia, caíram ali duzentos e sessenta e seis milímetros de chuva."
+    },
+    {
+     "s": 8.73,
+     "e": 10.694,
+     "txt": "Quase três vezes o recorde anterior."
+    }
+   ]
+  },
+  {
+   "id": "b02",
+   "s": 12.044,
+   "e": 24.287,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 12.044,
+     "e": 17.324,
+     "txt": "Três dias depois, a cem quilômetros dali, o Guaíba chegou a cinco metros e trinta e cinco centímetros em Porto Alegre."
+    },
+    {
+     "s": 17.684,
+     "e": 18.784,
+     "txt": "Mais alto que na cheia de mil novecentos e quarenta e um."
+    },
+    {
+     "s": 20.664,
+     "e": 24.287,
+     "txt": "A chuva mais pesada caiu na serra. Quem afundou foi Porto Alegre."
+    }
+   ]
+  },
+  {
+   "id": "b03",
+   "s": 24.707,
+   "e": 34.547,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 24.707,
+     "e": 28.347,
+     "txt": "Cerca de cento e sessenta mil pessoas foram atingidas só na capital, segundo a prefeitura."
+    },
+    {
+     "s": 28.687,
+     "e": 31.127,
+     "txt": "A rodoviária e o aeroporto ficaram debaixo d'água."
+    },
+    {
+     "s": 31.447,
+     "e": 34.547,
+     "txt": "No estado inteiro, a Defesa Civil contou cento e oitenta e quatro mortos."
+    }
+   ]
+  },
+  {
+   "id": "b04",
+   "s": 35.897,
+   "e": 45.437,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 35.897,
+     "e": 38.057,
+     "txt": "A capital também teve chuva recorde naquele mês."
+    },
+    {
+     "s": 38.317,
+     "e": 40.857,
+     "txt": "Mas ela é pouca perto da água que desceu até a cidade."
+    },
+    {
+     "s": 41.137,
+     "e": 43.757,
+     "txt": "Então, como a chuva da serra foi parar dentro de Porto Alegre?"
+    },
+    {
+     "s": 44.097,
+     "e": 45.437,
+     "txt": "A resposta está no mapa."
+    }
+   ]
+  },
+  {
+   "id": "b05",
+   "s": 45.857,
+   "e": 59.085,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 45.857,
+     "e": 46.437,
+     "txt": "Olhe de cima."
+    },
+    {
+     "s": 46.857,
+     "e": 54.437,
+     "txt": "Da serra, do planalto e do centro do estado vêm os rios: o Jacuí, o Taquari, o Caí, o Sinos e, perto da capital, o Gravataí."
+    },
+    {
+     "s": 55.377,
+     "e": 59.085,
+     "txt": "Todos terminam no mesmo lugar: no Guaíba, bem na frente de Porto Alegre."
+    }
+   ]
+  },
+  {
+   "id": "b06",
+   "s": 59.505,
+   "e": 74.675,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 59.505,
+     "e": 64.385,
+     "txt": "Oficialmente, o Guaíba é um lago. Muita gente ainda diz rio, e a ciência admite que ele tem um pouco dos dois."
+    },
+    {
+     "s": 64.925,
+     "e": 68.845,
+     "txt": "Esse lago recebe a água de quase um terço do Rio Grande do Sul. E só tem uma saída."
+    },
+    {
+     "s": 69.465,
+     "e": 74.675,
+     "txt": "Para entender maio de dois mil e vinte e quatro, vamos seguir o caminho dessa água, da serra até o centro da cidade."
+    }
+   ]
+  },
+  {
+   "id": "b07",
+   "s": 76.025,
+   "e": 91.137,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 76.025,
+     "e": 76.945,
+     "txt": "Comece pelo céu."
+    },
+    {
+     "s": 77.605,
+     "e": 82.005,
+     "txt": "No fim de abril, uma frente fria parou sobre o Rio Grande do Sul e não seguiu viagem."
+    },
+    {
+     "s": 82.525,
+     "e": 91.137,
+     "txt": "Segundo os meteorologistas, um bloqueio de ar quente ao norte segurou o sistema no lugar, enquanto a umidade vinda do norte alimentava as nuvens."
+    }
+   ]
+  },
+  {
+   "id": "b08",
+   "s": 91.837,
+   "e": 106.75,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 91.837,
+     "e": 97.597,
+     "txt": "Entre vinte e quatro de abril e quatro de maio, choveu em média mais de quatrocentos e vinte milímetros no estado."
+    },
+    {
+     "s": 97.977,
+     "e": 102.937,
+     "txt": "O número é do World Weather Attribution, um grupo de cientistas que estuda eventos extremos."
+    },
+    {
+     "s": 103.157,
+     "e": 106.75,
+     "txt": "É como se uns três meses de chuva caíssem em onze dias."
+    }
+   ]
+  },
+  {
+   "id": "b09",
+   "s": 107.45,
+   "e": 123.248,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 107.45,
+     "e": 112.25,
+     "txt": "E a chuva foi mais forte justamente onde nascem os rios: na serra e no planalto."
+    },
+    {
+     "s": 112.61,
+     "e": 116.15,
+     "txt": "Caxias do Sul somou setecentos e sete milímetros em treze dias."
+    },
+    {
+     "s": 116.51,
+     "e": 123.248,
+     "txt": "Santa Maria, no centro do estado, teve, num único dia, a maior chuva já registrada ali em cento e doze anos."
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "s": 123.948,
+   "e": 140.09,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 123.948,
+     "e": 125.448,
+     "txt": "E não era a primeira cheia grande."
+    },
+    {
+     "s": 125.848,
+     "e": 129.968,
+     "txt": "Em setembro de dois mil e vinte e três, o Taquari já tinha passado do recorde de mil novecentos e quarenta e um."
+    },
+    {
+     "s": 132.068,
+     "e": 135.208,
+     "txt": "Em novembro, o Guaíba passou dos três metros de novo."
+    },
+    {
+     "s": 135.828,
+     "e": 140.09,
+     "txt": "Maio de dois mil e vinte e quatro foi a terceira grande cheia em oito meses."
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "s": 140.79,
+   "e": 155.346,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 140.79,
+     "e": 142.17,
+     "txt": "Agora, olhe o relevo."
+    },
+    {
+     "s": 142.69,
+     "e": 149.69,
+     "txt": "A serra gaúcha, onde fica Caxias do Sul, está a uns oitocentos metros de altitude. Porto Alegre, quase no nível do mar."
+    },
+    {
+     "s": 150.35,
+     "e": 155.346,
+     "txt": "Toda a chuva que cai lá em cima tem de descer. E desce por vales estreitos e fundos."
+    }
+   ]
+  },
+  {
+   "id": "b12",
+   "s": 156.046,
+   "e": 172.234,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 156.046,
+     "e": 157.866,
+     "txt": "O vale do Taquari é um desses."
+    },
+    {
+     "s": 158.526,
+     "e": 163.666,
+     "txt": "Na quinta-feira, dois de maio, o rio chegou a cerca de trinta e três metros e setenta em Lajeado."
+    },
+    {
+     "s": 164.746,
+     "e": 166.946,
+     "txt": "Mais de três metros acima da marca de mil novecentos e quarenta e um."
+    },
+    {
+     "s": 169.166,
+     "e": 172.234,
+     "txt": "Cidades inteiras do vale ficaram debaixo d'água."
+    }
+   ]
+  },
+  {
+   "id": "b13",
+   "s": 172.934,
+   "e": 181.715,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 172.934,
+     "e": 174.974,
+     "txt": "Mas aquela água não ia parar ali."
+    },
+    {
+     "s": 175.694,
+     "e": 181.715,
+     "txt": "O Taquari deságua no Jacuí. E o Jacuí corre para o leste, direto para Porto Alegre."
+    }
+   ]
+  },
+  {
+   "id": "b14",
+   "s": 183.065,
+   "e": 196.778,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 183.065,
+     "e": 185.425,
+     "txt": "Agora, suba a câmera e olhe o mapa inteiro."
+    },
+    {
+     "s": 186.145,
+     "e": 190.485,
+     "txt": "A chuva que cai em mais de duzentos e cinquenta municípios escorre para o mesmo lugar."
+    },
+    {
+     "s": 191.105,
+     "e": 196.778,
+     "txt": "Uma bacia de cerca de oitenta e cinco mil quilômetros quadrados. Uns trinta por cento do estado."
+    }
+   ]
+  },
+  {
+   "id": "b15",
+   "s": 197.478,
+   "e": 210.833,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 197.478,
+     "e": 200.178,
+     "txt": "Os rios do planalto e do centro formam o Jacuí."
+    },
+    {
+     "s": 200.598,
+     "e": 203.058,
+     "txt": "O Taquari desce da serra e se junta a ele."
+    },
+    {
+     "s": 203.438,
+     "e": 207.278,
+     "txt": "Mais perto da capital, chegam o Caí, o Sinos e o Gravataí."
+    },
+    {
+     "s": 207.758,
+     "e": 210.833,
+     "txt": "E todos desembocam no mesmo lago: o Guaíba."
+    }
+   ]
+  },
+  {
+   "id": "b16",
+   "s": 211.533,
+   "e": 225.488,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 211.533,
+     "e": 213.653,
+     "txt": "E o Guaíba é diferente do que parece."
+    },
+    {
+     "s": 214.093,
+     "e": 218.373,
+     "txt": "Tem uns quinhentos quilômetros quadrados, mas só uns poucos metros de fundura."
+    },
+    {
+     "s": 218.853,
+     "e": 225.488,
+     "txt": "É largo e raso. Quando entra muita água, ela não tem para onde descer. Ela sobe e se espalha."
+    }
+   ]
+  },
+  {
+   "id": "b17",
+   "s": 226.188,
+   "e": 243.136,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 226.188,
+     "e": 229.528,
+     "txt": "Quase toda a água que chega a ele vem do Jacuí e do Taquari."
+    },
+    {
+     "s": 229.988,
+     "e": 236.948,
+     "txt": "Em média, o Guaíba despeja uns mil e duzentos metros cúbicos por segundo, segundo o DMAE, o departamento de água da capital."
+    },
+    {
+     "s": 237.668,
+     "e": 243.136,
+     "txt": "Em maio, segundo os pesquisadores, os rios passaram muito das maiores vazões já medidas."
+    }
+   ]
+  },
+  {
+   "id": "b18",
+   "s": 243.836,
+   "e": 259.82,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 243.836,
+     "e": 245.336,
+     "txt": "E o tempo da água importa."
+    },
+    {
+     "s": 246.156,
+     "e": 252.116,
+     "txt": "O Taquari e o Caí chegaram ao máximo na quinta. O Sinos, no sábado. O Jacuí, no domingo."
+    },
+    {
+     "s": 252.696,
+     "e": 255.456,
+     "txt": "As cheias dos rios foram se somando em frente à cidade."
+    },
+    {
+     "s": 256.056,
+     "e": 259.82,
+     "txt": "E o Guaíba chegou ao pico no domingo, cinco de maio, de madrugada."
+    }
+   ]
+  },
+  {
+   "id": "b19",
+   "s": 260.52,
+   "e": 271.801,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 260.52,
+     "e": 264.12,
+     "txt": "Por isso, Porto Alegre não precisava da pior chuva em cima dela para afundar."
+    },
+    {
+     "s": 265.08,
+     "e": 268.76,
+     "txt": "Bastava a chuva forte lá em cima, na serra e no centro do estado."
+    },
+    {
+     "s": 269.5,
+     "e": 271.801,
+     "txt": "O lago na frente da cidade recebe tudo."
+    }
+   ]
+  },
+  {
+   "id": "b20",
+   "s": 273.151,
+   "e": 281.386,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 273.151,
+     "e": 276.051,
+     "txt": "Se entra tanta água, por que ela não vai logo embora?"
+    },
+    {
+     "s": 276.731,
+     "e": 278.211,
+     "txt": "O Guaíba só tem uma saída."
+    },
+    {
+     "s": 278.751,
+     "e": 281.386,
+     "txt": "Ao sul, ele deságua na Lagoa dos Patos."
+    }
+   ]
+  },
+  {
+   "id": "b21",
+   "s": 282.086,
+   "e": 294.099,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 282.086,
+     "e": 287.366,
+     "txt": "Que, na verdade, é uma laguna: uns duzentos e cinquenta quilômetros de comprimento, ligada ao mar."
+    },
+    {
+     "s": 287.366,
+     "e": 290.746,
+     "txt": "E a ligação com o oceano fica lá no fim, em Rio Grande."
+    },
+    {
+     "s": 291.226,
+     "e": 294.099,
+     "txt": "Uma passagem estreita, entre dois molhes de pedra."
+    }
+   ]
+  },
+  {
+   "id": "b22",
+   "s": 294.799,
+   "e": 305.065,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 294.799,
+     "e": 299.739,
+     "txt": "Ou seja: a água de quase um terço do estado precisa atravessar um lago raso,"
+    },
+    {
+     "s": 299.779,
+     "e": 302.559,
+     "txt": "descer duzentos e cinquenta quilômetros de laguna"
+    },
+    {
+     "s": 302.559,
+     "e": 305.065,
+     "txt": "e passar por um gargalo para chegar ao mar."
+    }
+   ]
+  },
+  {
+   "id": "b23",
+   "s": 305.765,
+   "e": 319.081,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 305.765,
+     "e": 306.945,
+     "txt": "E ainda tem o vento."
+    },
+    {
+     "s": 307.445,
+     "e": 311.405,
+     "txt": "Quando ele sopra do sul, empurra a água da laguna de volta e segura o Guaíba."
+    },
+    {
+     "s": 312.125,
+     "e": 319.081,
+     "txt": "Segundo pesquisadores do Instituto de Pesquisas Hidráulicas da UFRGS, isso pode somar até uns cinquenta centímetros ao nível."
+    }
+   ]
+  },
+  {
+   "id": "b24",
+   "s": 319.781,
+   "e": 333.973,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 319.781,
+     "e": 321.581,
+     "txt": "Em maio, a água desceu devagar."
+    },
+    {
+     "s": 322.461,
+     "e": 329.261,
+     "txt": "A Lagoa dos Patos só chegou ao pico em meados de maio, e causou alagamentos em Pelotas, São Lourenço do Sul e Rio Grande."
+    },
+    {
+     "s": 329.661,
+     "e": 333.973,
+     "txt": "Em Porto Alegre, o Guaíba ficou cerca de um mês acima da cota de inundação."
+    }
+   ]
+  },
+  {
+   "id": "b25",
+   "s": 335.323,
+   "e": 348.208,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 335.323,
+     "e": 337.943,
+     "txt": "Agora, a última parte do caminho: a cidade."
+    },
+    {
+     "s": 338.643,
+     "e": 340.863,
+     "txt": "Porto Alegre sabia que isso podia acontecer."
+    },
+    {
+     "s": 341.243,
+     "e": 348.208,
+     "txt": "Em mil novecentos e quarenta e um, o Guaíba chegou a uns quatro metros e setenta e levou mais de um mês para voltar aos três metros."
+    }
+   ]
+  },
+  {
+   "id": "b26",
+   "s": 348.908,
+   "e": 365.359,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 348.908,
+     "e": 351.508,
+     "txt": "Depois disso, a cidade planejou uma defesa."
+    },
+    {
+     "s": 351.988,
+     "e": 356.608,
+     "txt": "O projeto é de mil novecentos e quarenta e três. As obras principais saíram nos anos setenta."
+    },
+    {
+     "s": 357.748,
+     "e": 365.359,
+     "txt": "O muro da Mauá, no centro. Sessenta e oito quilômetros de diques. Quatorze comportas. E vinte e três casas de bombas."
+    }
+   ]
+  },
+  {
+   "id": "b27",
+   "s": 366.059,
+   "e": 381.779,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 366.059,
+     "e": 366.819,
+     "txt": "Funciona assim."
+    },
+    {
+     "s": 367.279,
+     "e": 369.979,
+     "txt": "O muro e os diques deixam o Guaíba do lado de fora."
+    },
+    {
+     "s": 370.339,
+     "e": 374.459,
+     "txt": "As comportas são portões de aço nas passagens do muro, fechados na cheia."
+    },
+    {
+     "s": 374.979,
+     "e": 378.439,
+     "txt": "E as casas de bombas jogam para fora a chuva que cai do lado de dentro."
+    },
+    {
+     "s": 379.099,
+     "e": 381.779,
+     "txt": "Se uma peça falha, a água acha o caminho."
+    }
+   ]
+  },
+  {
+   "id": "b28",
+   "s": 382.479,
+   "e": 391.296,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 382.479,
+     "e": 384.099,
+     "txt": "Em maio, várias falharam."
+    },
+    {
+     "s": 384.439,
+     "e": 387.659,
+     "txt": "No dia três, uma comporta perto da avenida Sertório rompeu."
+    },
+    {
+     "s": 388.039,
+     "e": 391.296,
+     "txt": "A água entrou pela zona norte, em bairros como Navegantes."
+    }
+   ]
+  },
+  {
+   "id": "b29",
+   "s": 391.996,
+   "e": 409.39,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 391.996,
+     "e": 398.016,
+     "txt": "As casas de bombas dependem de energia. Com a cidade alagada, muitas ficaram sem luz ou foram inundadas."
+    },
+    {
+     "s": 398.396,
+     "e": 403.416,
+     "txt": "No dia seguinte ao pico, dezenove das vinte e três estavam paradas, segundo dados da prefeitura."
+    },
+    {
+     "s": 403.776,
+     "e": 409.39,
+     "txt": "A chuva que devia ser bombeada para fora ficou dentro. E, por algumas delas, o próprio Guaíba entrou."
+    }
+   ]
+  },
+  {
+   "id": "b30",
+   "s": 410.09,
+   "e": 421.008,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 410.09,
+     "e": 415.15,
+     "txt": "No Sarandi, na zona norte, o dique rompeu, e a casa de bombas número dez foi inundada."
+    },
+    {
+     "s": 415.63,
+     "e": 421.008,
+     "txt": "O Sarandi foi o bairro com mais gente atingida: cerca de vinte e seis mil pessoas, segundo a prefeitura."
+    }
+   ]
+  },
+  {
+   "id": "b31",
+   "s": 421.708,
+   "e": 440.315,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 421.708,
+     "e": 427.588,
+     "txt": "E um detalhe importante: pelo que apontam os relatos técnicos, a água não passou por cima do muro da Mauá."
+    },
+    {
+     "s": 427.988,
+     "e": 430.148,
+     "txt": "Ela entrou pelos pontos fracos do sistema."
+    },
+    {
+     "s": 430.788,
+     "e": 440.315,
+     "txt": "Segundo o estudo do World Weather Attribution, a defesa teria começado a falhar perto dos quatro metros e meio, apesar de ser apresentada como capaz de segurar seis."
+    }
+   ]
+  },
+  {
+   "id": "b32",
+   "s": 441.015,
+   "e": 460.449,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 441.015,
+     "e": 443.015,
+     "txt": "Por que falhou, ainda se discute."
+    },
+    {
+     "s": 443.555,
+     "e": 452.575,
+     "txt": "Ex-diretores do DMAE apontam falta de manutenção. A prefeitura fala em problemas na concepção do sistema. Pesquisadores falam em falta de gestão."
+    },
+    {
+     "s": 453.235,
+     "e": 460.449,
+     "txt": "O fato é que a defesa feita depois de mil novecentos e quarenta e um não segurou essa cheia, que passou dos cinco metros."
+    }
+   ]
+  },
+  {
+   "id": "b33",
+   "s": 461.149,
+   "e": 473.802,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 461.149,
+     "e": 462.369,
+     "txt": "E a água tomou a cidade."
+    },
+    {
+     "s": 462.829,
+     "e": 465.089,
+     "txt": "No Mercado Público, chegou a um metro e meio."
+    },
+    {
+     "s": 465.649,
+     "e": 468.669,
+     "txt": "Menino Deus, Farrapos, Humaitá, as ilhas."
+    },
+    {
+     "s": 469.189,
+     "e": 473.802,
+     "txt": "Segundo a prefeitura, cerca de trinta por cento do território da capital ficou debaixo d'água."
+    }
+   ]
+  },
+  {
+   "id": "b34",
+   "s": 475.152,
+   "e": 480.172,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 475.152,
+     "e": 476.772,
+     "txt": "Então, voltando à serra."
+    },
+    {
+     "s": 477.112,
+     "e": 480.172,
+     "txt": "Por que a chuva que caiu lá em cima alagou Porto Alegre?"
+    }
+   ]
+  },
+  {
+   "id": "b35",
+   "s": 480.872,
+   "e": 501.253,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 480.872,
+     "e": 487.812,
+     "txt": "Porque, em onze dias, caiu uns três meses de chuva, e mais forte justamente onde nascem os rios."
+    },
+    {
+     "s": 488.172,
+     "e": 492.252,
+     "txt": "Porque a região já tinha passado por duas grandes cheias em oito meses."
+    },
+    {
+     "s": 492.912,
+     "e": 501.253,
+     "txt": "Porque a água de quase um terço do estado desce para o mesmo lago raso, em frente à capital, e as cheias chegaram quase juntas."
+    }
+   ]
+  },
+  {
+   "id": "b36",
+   "s": 501.953,
+   "e": 519.342,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 501.953,
+     "e": 509.093,
+     "txt": "Porque esse lago só se esvazia devagar, por uma laguna de duzentos e cinquenta quilômetros e uma saída estreita para o mar."
+    },
+    {
+     "s": 509.713,
+     "e": 519.342,
+     "txt": "E porque, segundo o estudo do World Weather Attribution, a defesa da cidade teria cedido nos pontos fracos antes do limite para o qual foi feita."
+    }
+   ]
+  },
+  {
+   "id": "b37",
+   "s": 520.042,
+   "e": 534.592,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 520.042,
+     "e": 520.582,
+     "txt": "E o clima?"
+    },
+    {
+     "s": 521.082,
+     "e": 530.822,
+     "txt": "O mesmo estudo do World Weather Attribution calculou que o aquecimento global mais que dobrou a chance de uma chuva assim, e a deixou de seis a nove por cento mais intensa."
+    },
+    {
+     "s": 531.142,
+     "e": 534.592,
+     "txt": "E que o El Niño daquele ano, sozinho, teve um peso parecido."
+    }
+   ]
+  },
+  {
+   "id": "b38",
+   "s": 535.292,
+   "e": 549.019,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 535.292,
+     "e": 540.512,
+     "txt": "Isso não quer dizer que uma enchente igual vai voltar em data marcada. Ninguém consegue prever isso."
+    },
+    {
+     "s": 541.052,
+     "e": 542.452,
+     "txt": "Mas a geografia não muda."
+    },
+    {
+     "s": 542.912,
+     "e": 549.019,
+     "txt": "A chuva da serra vai continuar descendo para o Guaíba. O que pode mudar é a defesa, e o aviso."
+    }
+   ]
+  },
+  {
+   "id": "b39",
+   "s": 549.719,
+   "e": 570.591,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 549.719,
+     "e": 559.459,
+     "txt": "Depois de dois mil e vinte e quatro, a prefeitura fechou para sempre oito das catorze comportas do muro, trocadas por concreto, reformou as outras e reforçou o dique do Sarandi."
+    },
+    {
+     "s": 560.579,
+     "e": 564.619,
+     "txt": "E o aviso chega pelo celular: a Defesa Civil manda alerta por SMS."
+    },
+    {
+     "s": 565.399,
+     "e": 570.591,
+     "txt": "Para se cadastrar, basta mandar o seu CEP para o número quarenta mil cento e noventa e nove."
+    }
+   ]
+  },
+  {
+   "id": "b40",
+   "s": 571.291,
+   "e": 585.696,
+   "atempo": 1.1,
+   "frases": [
+    {
+     "s": 571.291,
+     "e": 577.931,
+     "txt": "Se você quer entender por que o Sul tem um clima tão diferente do resto do Brasil, o nosso vídeo sobre isso está aqui no canal."
+    },
+    {
+     "s": 578.411,
+     "e": 581.691,
+     "txt": "Se você tem família no Rio Grande do Sul, manda este vídeo para ela."
+    },
+    {
+     "s": 582.171,
+     "e": 585.696,
+     "txt": "E se inscreve no Em Relevo, para entender o clima do Brasil no mapa."
+    }
+   ]
+  }
+ ]
+}

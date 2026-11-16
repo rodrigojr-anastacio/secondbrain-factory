@@ -1,0 +1,58 @@
+TÍTULOS (3, pareados às thumbs para o 'Testar e comparar')
+A. Por que a chuva da SERRA alagou PORTO ALEGRE?   ←  thumb-A.jpg · 1/3 DO ESTADO? (câmera alta)
+B. O LAGO que engoliu PORTO ALEGRE em 2024   ←  thumb-B.jpg · 1/3 DO ESTADO? (câmera baixa, ponto do Guaíba maior)
+C. Por que a água da SERRA foi parar em PORTO ALEGRE?   ←  thumb-C.jpg · UM TERÇO?
+
+TÍTULO PRINCIPAL (A): Por que a chuva da SERRA alagou PORTO ALEGRE?
+
+DESCRIÇÃO
+Se você quer entender o clima do Brasil no mapa, inscreva-se no Em Relevo e compartilhe este vídeo com quem tem família no Rio Grande do Sul. Para entender por que o Sul tem um clima tão diferente do resto do país, veja também: https://youtu.be/bG6-E4qjXYc
+
+Em maio de 2024, a chuva mais pesada caiu na serra gaúcha. Quem ficou debaixo d'água foi Porto Alegre, a cerca de 100 quilômetros dali. Neste vídeo, no mapa em relevo, a gente segue o caminho da água: dos rios que nascem na serra e no planalto até o Guaíba, a saída lenta pela Lagoa dos Patos e a defesa da cidade que cedeu.
+
+CAPÍTULOS
+0:00 O hook: a chuva da serra
+0:35 O mapa: os rios do Guaíba
+1:15 1 · A chuva da serra
+3:02 2 · O lago que recebe tudo
+4:32 3 · A saída lenta
+5:34 4 · O que cedeu
+7:54 A resposta
+
+FONTES
+INMET (chuva em Caxias do Sul, Santa Maria e Porto Alegre) · World Weather Attribution (estudo rápido de 03/06/2024) · SGB/ANA (cota do Taquari em Lajeado e revisão da série de 1941) · Sema/ANA (pico do Guaíba, 5 de maio) · Prefeitura de Porto Alegre e DMAE (sistema de proteção contra cheias, casas de bombas, pessoas atingidas) · IPH/UFRGS (bacia do Guaíba, vento e Lagoa dos Patos, artigo na RBRH) · Governo do Rio Grande do Sul (bacia do Guaíba, cota de inundação, balanço da Defesa Civil) · Defesa Civil do RS (alerta por SMS: CEP para 40199). Esquemas (orla, corte do sistema, perfil do relevo, vazão) são ilustrativos e dizem isso na tela; trajetos de água no mapa são aproximados.
+
+CRÉDITOS DAS IMAGENS (cortadas e redimensionadas, sem outra alteração)
+- NASA Earth Observatory image by Wanmei Liang, using Landsat data from the U.S. Geological Survey · PORTO ALEGRE · LANDSAT 8 · 8 MAI 2024
+- Gustavo Garbino/PMPA / Prefeitura de Porto Alegre (PMPA), via Wikimedia Commons (licença Attribution) · CENTRO HISTÓRICO · PORTO ALEGRE · 5 MAI 2024
+- Gustavo Garbino/PMPA / Prefeitura de Porto Alegre (PMPA), via Wikimedia Commons (licença Attribution) · RODOVIÁRIA · PORTO ALEGRE · 5 MAI 2024
+- Foto: Ricardo Stuckert/PR / Wikimedia Commons, CC BY-SA 2.0 · AEROPORTO SALGADO FILHO · 5 MAI 2024
+- Lula Oficial / Wikimedia Commons, CC BY-SA 2.0 · ARROIO DO MEIO · VALE DO TAQUARI · JUN 2024
+- Contains modified Copernicus Sentinel data 2024, processed by NASA HLS; imagem via NASA GIBS/Worldview · GUAÍBA · SENTINEL-2 · 1 ABR 2024
+- NASA Earth Observatory image by Wanmei Liang, using MODIS data from NASA EOSDIS LANCE and GIBS/Worldview · LAGOA DOS PATOS · MODIS · 6 MAI 2024
+- Marinha do Brasil / Wikimedia Commons, CC BY-SA 2.0 · CANAL DA BARRA · RIO GRANDE · 2023
+- Prefeitura de Pelotas, domínio público, via Wikimedia Commons · PELOTAS · 18 MAI 2024
+- Autor desconhecido, maio de 1941, domínio público, via Wikimedia Commons · MERCADO PÚBLICO · MAIO DE 1941
+- Eugenio Hansen, OFS / Wikimedia Commons, CC BY-SA 4.0 · MURO DA MAUÁ · DIA NORMAL · 2016
+- Filipe Karam/PMPA / Prefeitura de Porto Alegre (PMPA), via Wikimedia Commons (licença Attribution) · COMPORTA DO CAIS MAUÁ · 2 MAI 2024
+- Gustavo Garbino/PMPA / Prefeitura de Porto Alegre (PMPA), via Wikimedia Commons (licença Attribution) · MERCADO PÚBLICO · 5 MAI 2024
+- Gustavo Garbino/PMPA / Prefeitura de Porto Alegre (PMPA), via Wikimedia Commons (licença Attribution) · CENTRO HISTÓRICO · 5 MAI 2024
+- Apesito.nomas / Wikimedia Commons, CC BY-SA 4.0 · CAIS MAUÁ · MARCAS DA ENCHENTE · 2026
+- Imagens de satélite: NASA Earth Observatory / Landsat 8 e MODIS (domínio público); "Contains modified Copernicus Sentinel data 2024" (HLS/Sentinel-2).
+- Mapa: relevo SRTM / AWS Terrain Tiles, cor NASA Blue Marble, limites IBGE, rios © colaboradores do OpenStreetMap (ODbL, https://www.openstreetmap.org/copyright).
+
+MÚSICA E EFEITOS
+Kevin MacLeod (incompetech.com): "Echoes of Time", "Ossuary 6 - Air" e "Frozen Star", licença Creative Commons BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Efeito de máquina de escrever: Work With Sounds / Konrad Gutkowski, Wikimedia Commons, CC BY 4.0. Batida de madeira: stephan, Wikimedia Commons, domínio público.
+
+TAGS
+enchente Porto Alegre, enchente 2024, enchente Rio Grande do Sul, Guaíba, Lagoa dos Patos, Vale do Taquari, bacia do Guaíba, rios do Rio Grande do Sul, muro da Mauá, casas de bombas, cheia de 1941, chuva na serra gaúcha, clima do Brasil, geografia do Brasil, Em Relevo
+
+CATEGORIA: Educação (27)
+Idioma do vídeo: português (Brasil)
+
+CHECKLIST DE PUBLICAÇÃO (para o Rodrigo; fora da descrição)
+- Studio → Atributos → "Uso de IA" = Sim (voz sintética); não é para crianças; idioma português (Brasil); legendas: legendas.srt.
+- "Testar e comparar": 3 thumbs (A/B/C) + 3 títulos pareados; mp4 1080p.
+- Upload manual (publicação prevista: qua 18/11/2026). Sem card de próximo vídeo (regra de 13/11); o vídeo do clima do Sul (bG6-E4qjXYc) já está publicado e vai na descrição.
+- Decisão de risco do Rodrigo: a série de fotos aéreas da Prefeitura de Porto Alegre (PMPA, Wikimedia Commons) tem licença "Attribution only" (NÃO é Creative Commons): exige crédito, que está acima; se preferir zero risco, troque por fotos Stuckert (CC BY-SA 2.0) e satélite.
+- Fotos de outros anos levam o ano real na legenda (muro 2016, barra de Rio Grande 2023, Cais Mauá 2026, Mercado Público 1941).
