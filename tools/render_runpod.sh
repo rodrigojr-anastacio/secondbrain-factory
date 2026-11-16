@@ -18,10 +18,12 @@
 #   REFS=<dir>                 guarda/reaproveita os stills de referência da VPS (<dir>/<quadro>.png; mesmo bundle!): refação não repete ~8 s/still
 #   RFLAGS="..."               flags extras do `remotion render` no Pod (ex.: --offthreadvideo-cache-size-in-bytes=1000000000; Clearance 001, 12/11:
 #                              blocos com doc ampliado + filtro CSS estouravam a memória do contêiner e a sessão SSH morria sem log)
+#   ESPERA_VPS=0               não espera outro render/still da VPS acabar (era o tools/render_runpod_local009.sh, obsoleto)
+#   TESTE_FALHA=1              só teste: erro forçado logo após criar o Pod (confere que o trap destrói)
 #   CONC=8 CRF=18 GPUS=... IMG=... ESPERA_MIN=30 TENTATIVAS_QA=2 LIMIAR=0.95 LIMIAR_MP4=0.95 TETO_S=5400
 #
 # Passos: (1) stills de referência na VPS (amostras + provas; swangle, ~8 s cada, antes de ligar o Pod: espera não custa);
-#   (2) cria o Pod com NVIDIA_DRIVER_CAPABILITIES=all (sem isso não há EGL/GL no contêiner e o Chrome cai em software), lista GPUS em
+#   (2) cria o Pod (API REST v2 desde 16/11/2026: um pedido por GPU) com NVIDIA_DRIVER_CAPABILITIES=all (sem isso não há EGL/GL no contêiner e o Chrome cai em software), lista GPUS em
 #   ordem, Community e depois Secure, a cada 60 s até ESPERA_MIN (30 min) → sem GPU = código 4; (3) envia bundle + package.json/lock;
 #   na imagem da fábrica (ghcr, IMG padrão) Node/Chrome/node_modules já estão prontos, senão instala (~2 min);
 #   (4) PROVA: stills no Pod (angle-egl, Chrome Headless Shell padrão do Remotion; NUNCA chrome-for-testing) × VPS por SSIM;
@@ -55,16 +57,21 @@ STILLS="$RAIZ/tools/remotion_stills.cjs"
 T=$(mktemp -d); chmod 700 "$T"; mkdir -p "$T/blocos"; VPSD=${REFS:-$T/vps}; mkdir -p "$VPSD"; VPSD=$(realpath "$VPSD"); POD=""; NOME="rp-render-$(date +%s)-$$"
 CUSTO=0; SEG_POD=0; PODS_USADOS=""; S0="?"; T0=0
 umask 077; printf 'Authorization: Bearer %s\n' "$(cat ~/.segredos/runpod/api_key)" > "$T/auth"; umask 022
-api() { curl -s --max-time 60 -X "$1" "https://rest.runpod.io/v1$2" -H @"$T/auth" -H 'Content-Type: application/json' ${3:+-d "$3"}; }
+# API REST v2 (https://api.runpod.io/v2) desde 16/11/2026: a v1 (rest.runpod.io/v1) foi desligada nesse dia (DNS some).
+# Listas vêm embrulhadas ({"pods":[...],"pagination":{...}}); erro = application/problem+json {title,status,detail}.
+API=https://api.runpod.io/v2
+api() { curl -s --max-time 60 -X "$1" "$API$2" -H @"$T/auth" -H 'Content-Type: application/json' ${3:+-d "$3"}; }
+api_cod() { curl -s -o /dev/null -w '%{http_code}' --max-time 60 -X "$1" "$API$2" -H @"$T/auth" || echo 000; }
 saldo() { curl -s --max-time 30 https://api.runpod.io/graphql -H @"$T/auth" -H 'Content-Type: application/json' \
   -d '{"query":"query { myself { clientBalance } }"}' | python3 -c "import json,sys;print(round(json.load(sys.stdin)['data']['myself']['clientBalance'],4))" 2>/dev/null || echo "?"; }
 log() { echo "[$(date +%H:%M:%S)] $*"; }
-pods() { api GET /pods | python3 -c "import json,sys;[print(p['id'],p.get('name','')) for p in json.load(sys.stdin)]" 2>/dev/null || true; }
+pods() { api GET '/pods?limit=1000' | python3 -c "import json,sys;[print(p['id'],p.get('name','')) for p in json.load(sys.stdin)['pods'] if p.get('status')!='TERMINATED']" 2>/dev/null || true; }
 
 mata_pod() {  # destrói o Pod atual (e órfãos com o mesmo nome) e soma o custo
   local alvo="$POD" p i s
   for p in $(pods | awk -v n="$NOME" '$2 == n {print $1}'); do [ "$p" != "$POD" ] && alvo="$alvo $p"; done
-  for p in $alvo; do for i in 1 2 3 4 5; do api DELETE "/pods/$p" >/dev/null && break; sleep 5; done; done
+  for p in $alvo; do for i in 1 2 3 4 5; do   # v2: 204 = destruído, 404 = já não existe
+    case $(api_cod DELETE "/pods/$p") in 204|200|404) break;; esac; sleep 5; done; done
   if [ -n "$POD" ]; then
     s=$(( $(date +%s) - T0 )); SEG_POD=$((SEG_POD + s))
     CUSTO=$(python3 -c "print(round($CUSTO + ${CPH:-0} * $s / 3600, 4))"); PODS_USADOS="$PODS_USADOS ${GPU_NOME:-?}@${CPH:-?}/h:${s}s"
@@ -74,12 +81,12 @@ mata_pod() {  # destrói o Pod atual (e órfãos com o mesmo nome) e soma o cust
 }
 fim() {
   local rc=$?
-  set +e
+  set +e; trap '' PIPE INT TERM HUP   # saída morta (tee/terminal) ou 2º sinal não podem cortar a destruição do Pod (teste de 16/11/2026)
   mata_pod; sleep 5
   local resto np nv s1
   resto=$(pods | awk -v n="$NOME" '$2 == n')
   [ -n "$resto" ] && { sleep 15; mata_pod; resto=$(pods | awk -v n="$NOME" '$2 == n'); }
-  np=$(pods | grep -c .); nv=$(api GET /networkvolumes | python3 -c "import json,sys;print(len(json.load(sys.stdin)))" 2>/dev/null || echo "?")
+  np=$(pods | grep -c .); nv=$(api GET /network-volumes | python3 -c "import json,sys;print(len(json.load(sys.stdin)['networkVolumes']))" 2>/dev/null || echo "?")
   if [ -n "$resto" ]; then log "ATENÇÃO: Pod deste render ainda existe pela API: $resto. Destrua em runpod.io/console/pods"
   else log "API: nenhum Pod deste render; Pods na conta: $np; volumes: $nv"; fi
   if [ "$SEG_POD" -gt 0 ]; then
@@ -103,7 +110,7 @@ trap 'exit 1' INT TERM HUP
 ssim() { ffmpeg -i "$1" -i "$2" -lavfi ssim -f null - 2>&1 | grep -o 'All:[0-9.]*' | cut -d: -f2; }
 ssim480() { ffmpeg -i "$1" -i "$2" -lavfi "[0]scale=480:270:flags=area[a];[1]scale=480:270:flags=area[b];[a][b]ssim" -f null - 2>&1 | grep -o 'All:[0-9.]*' | cut -d: -f2; }
 passa() { python3 -c "import sys; sys.exit(0 if float('${1:-0}' or 0) >= ${2:-$LIMIAR} else 1)"; }
-espera_vps() { while pgrep -af "^node .*remotion (render|still|bundle)|^node .*remotion_stills" >/dev/null; do sleep 15; done; }
+[ "${ESPERA_VPS:-1}" = 0 ] && espera_vps() { :; } || espera_vps() { while pgrep -af "^node .*remotion (render|still|bundle)|^node .*remotion_stills" >/dev/null; do sleep 15; done; }
 
 # ---------- 0. bundle, composição, imagem ----------
 if [ -z "${BUNDLE:-}" ]; then
@@ -144,15 +151,21 @@ log "stills de referência na VPS: $(echo "$FALTA" | tr , ' ' | wc -w) novos em 
 S0=$(saldo); log "saldo Runpod: US\$ $S0"
 ssh-keygen -q -t ed25519 -N "" -f "$T/k" -C rp-render
 
-cria() {  # $1 = COMMUNITY | SECURE
-  api POST /pods "$(python3 - "$1" "$(cat "$T/k.pub")" "$IMG" "$GPUS" "$NOME" <<'PY'
+cria() {  # $1 = COMMUNITY | SECURE → JSON do Pod criado (ou a última resposta de erro)
+  # v2 não tem mais lista de GPUs (gpuTypeIds/gpuTypePriority): um pedido por tipo, na ordem de GPUS; sem GPU = 400 com detail.
+  # Sem `mounts` = sem volume persistente (v1: volumeInGb 0); `ports` não tem padrão na v2; supportPublicIp saiu (22/tcp basta).
+  local g R=""
+  while read -r g; do
+    R=$(api POST /pods "$(python3 - "$1" "$(cat "$T/k.pub")" "$IMG" "$g" "$NOME" <<'PY'
 import json, sys
-print(json.dumps({'name': sys.argv[5], 'imageName': sys.argv[3], 'gpuTypeIds': json.loads('[' + sys.argv[4] + ']'),
-  'gpuTypePriority': 'custom', 'cloudType': sys.argv[1], 'gpuCount': 1, 'containerDiskInGb': 40, 'volumeInGb': 0,
-  'ports': ['22/tcp'], 'supportPublicIp': True,
+print(json.dumps({'name': sys.argv[5], 'image': sys.argv[3], 'gpu': {'id': sys.argv[4], 'count': 1},
+  'cloud': sys.argv[1], 'disk': 40, 'ports': ['22/tcp'],
   'env': {'PUBLIC_KEY': sys.argv[2], 'NVIDIA_DRIVER_CAPABILITIES': 'all'}}))
 PY
-)"
+)")
+    echo "$R" | python3 -c "import json,sys;sys.exit(0 if json.load(sys.stdin).get('id') else 1)" 2>/dev/null && break
+  done < <(python3 -c "import json,sys;[print(x) for x in json.loads('['+sys.argv[1]+']')]" "$GPUS")
+  echo "$R"
 }
 campo() { python3 -c "import json,sys
 try: d=json.load(sys.stdin)
@@ -170,13 +183,20 @@ liga_pod() {
     [ "$(date +%s)" -ge "$fim_espera" ] && { log "sem GPU após $ESPERA_MIN min ($n tentativas): renderize na VPS"; exit 4; }
     log "sem GPU disponível (tentativa $n): $(echo "$R" | head -c 120)"; sleep 60
   done
-  T0=$(date +%s); CPH=$(echo "$R" | campo costPerHr); GPU_NOME=
-  log "Pod $POD ($NOME) criado após $n tentativa(s); US\$ $CPH/h"
+  T0=$(date +%s); CPH=$(echo "$R" | campo cost); GPU_NOME=
+  log "Pod $POD ($NOME) criado após $n tentativa(s); US\$ $CPH/h; $(echo "$R" | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('cloud'),(d.get('gpu') or {}).get('id'))" 2>/dev/null)"
+  [ -n "${TESTE_FALHA:-}" ] && { log "TESTE_FALHA: erro forçado logo após criar o Pod (o trap tem de destruí-lo)"; exit 1; }
   for i in $(seq 1 90); do
     read -r IP PORT <<< "$(api GET "/pods/$POD" | python3 -c "import json,sys
 try: d=json.load(sys.stdin)
 except Exception: d={}
-print(d.get('publicIp') or '-', (d.get('portMappings') or {}).get('22') or '-')")"
+ip=pt='-'
+if d.get('status') == 'RUNNING':   # v2: porta viva em runtime.ports (private 22) ou ssh.direct; publicIp/portMappings não existem mais
+  for p in ((d.get('runtime') or {}).get('ports') or []):
+    if p.get('private') == 22 and p.get('public') and p.get('ip'): ip, pt = p['ip'], p['public']
+  sd = (d.get('ssh') or {}).get('direct') or {}
+  if ip == '-' and sd.get('host') and sd.get('port'): ip, pt = sd['host'], sd['port']
+print(ip, pt)")"
     [ "$PORT" != "-" ] && [ "$IP" != "-" ] && break; sleep 10
   done
   [ "$PORT" = "-" ] && { log "Pod sem IP/porta em 15 min"; return 1; }

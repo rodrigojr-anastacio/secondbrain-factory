@@ -2,6 +2,8 @@
 """Lê o saldo real dos fornecedores que têm API de saldo e grava em financas.saldo_lido (16/11/2026).
 
 Hoje: Runpod (GraphQL `myself.clientBalance`, a mesma leitura do tools/render_runpod.sh).
+A REST v2 da Runpod (a v1 saiu em 16/11/2026) não tem saldo; o guia de migração manda ficar no GraphQL, que sai no
+início de 2027: trocar antes (runpodctl user?). Sem leitura, a view volta ao saldo calculado.
 A view financas.saldo_pre_pago passa a mostrar esse valor (leitura ≤ 3 dias) no lugar de recarregado − consumido.
 Nunca imprime nem grava a chave ou a resposta crua. Falha de leitura não derruba quem chamou (sai 0, avisa no stderr).
 

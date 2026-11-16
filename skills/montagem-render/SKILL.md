@@ -26,7 +26,7 @@ Procedimento-base: `playbooks/produzir-video.md` §4–5 (sobretudo "Ambiente" e
    - corrija e refaça os stills dos trechos afetados; só então renderize tudo;
    - **vale de novo sempre que código ou estilo mudar no meio** (nova cena 3D, novo componente, troca de fundo/mapa): refaça a varredura inteira, não só o trecho mexido;
    - registre no `ETAPA3.md` quantos stills e o que a grade pegou; o que pegar vira entrada em `erros-qa.md`.
-5. **Render: TODO render de vídeo vai para a GPU do Runpod** (decisão do Rodrigo, 11/11/2026): vídeo inteiro, partes, refações de slot, clipes. Na VPS ficam só stills, thumbs, grades do pré-QA e testes de segundos (o boot do Pod, ~1–3 min, custaria mais que o render).
+5. **Render: TODO render de vídeo vai para a GPU do Runpod** (decisão do Rodrigo, 11/11/2026) (API REST v2 desde 16/11/2026; `render_runpod_local009.sh` é só atalho para `ESPERA_VPS=0`): vídeo inteiro, partes, refações de slot, clipes. Na VPS ficam só stills, thumbs, grades do pré-QA e testes de segundos (o boot do Pod, ~1–3 min, custaria mais que o render).
    ```
    cd ~/workspace/fabrica-youtube
    VIDEO=<id> PROJETO=<canal> AUDIO=$V/public/audio/mix.wav ENTRY=src/index.jsx \
