@@ -1,0 +1,573 @@
+{
+ "pasta": "canais/dossie-es/videos/010-cartel-medellin",
+ "roteiro": "canais/dossie-es/videos/010-cartel-medellin/blocos.json",
+ "idioma": "es",
+ "blocos": 79,
+ "nota": 13.1,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0206,
+ "blocos_consenso_manada": [
+  13,
+  18,
+  21,
+  24,
+  35,
+  36,
+  38,
+  40,
+  41,
+  63,
+  71
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.1518987341772152,
+   "ordem": 0.8333333333333334,
+   "ngramas": 0.019417475728155338,
+   "sim_media": 0.1974415442559981,
+   "gemeos": 12,
+   "blocos": 79,
+   "posicoes": [
+    [
+     7,
+     59
+    ],
+    [
+     13,
+     36
+    ],
+    [
+     18,
+     42
+    ],
+    [
+     20,
+     48
+    ],
+    [
+     21,
+     55
+    ],
+    [
+     34,
+     140
+    ],
+    [
+     35,
+     78
+    ],
+    [
+     38,
+     113
+    ],
+    [
+     40,
+     121
+    ],
+    [
+     41,
+     127
+    ],
+    [
+     50,
+     153
+    ],
+    [
+     63,
+     168
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 13,
+     "cos": 0.5,
+     "nosso": "Anuncian un grupo nuevo: Muerte a Secuestradores, el MAS. Semanas antes, la guerrilla del eme diecinueve había secuestrado a Martha Nieves Ochoa. Es hermana de tres traficantes de Medellín.",
+     "ref": "noviembre de 1981, la guerrilla del M-19 secuestra a Martha Nieves Ochoa, hermana de los hermanos Ochoa. Traficantes y élites aliadas"
+    },
+    {
+     "bloco": 18,
+     "cos": 0.47,
+     "nosso": "Con el escaño llega la inmunidad parlamentaria. Y una imagen pública de benefactor de los barrios pobres de Medellín.",
+     "ref": "quiere otra: el escaño. Escobar financia viviendas y canchas de fútbol en barrios pobres. Los beneficios son reales, el dinero es criminal, y la imagen"
+    },
+    {
+     "bloco": 50,
+     "cos": 0.46,
+     "nosso": "Desde septiembre, el nuevo presidente, César Gaviria, ofrece una salida. Quien se entregue y confiese un delito tendrá rebaja de pena y no será extraditado. Al cártel no le basta. Quiere que nadie, nunca, pueda ser extraditado.",
+     "ref": "nuevo presidente, César Gaviria, un Gaviria distinto, ofrece otra salida. Sus decretos permiten que los traficantes que se entreguen, confiesen al menos un delito"
+    },
+    {
+     "bloco": 40,
+     "cos": 0.4,
+     "nosso": "Cinco días después, los Extraditables declaran la guerra total al Estado.",
+     "ref": "Extraditables declaran públicamente la guerra total contra el Gobierno, contra las élites políticas y económicas, contra los jueces y contra"
+    },
+    {
+     "bloco": 63,
+     "cos": 0.4,
+     "nosso": "El Artículo. Bogotá, diecinueve de junio de mil novecientos noventa y uno. La Asamblea Nacional Constituyente escribe una Constitución nueva para Colombia.",
+     "ref": "ley. La catedral. El 19 de junio de 1991, la asamblea constituyente aprueba la prohibición de extraditar a nacionales colombianos. Es una votación"
+    },
+    {
+     "bloco": 38,
+     "cos": 0.36,
+     "nosso": "El Estado de Sitio. Soacha, dieciocho de agosto de mil novecientos ochenta y nueve. Asesinan a Luis Carlos Galán, el candidato favorito a la presidencia.",
+     "ref": "mitin. El 18 de agosto de 1989, Luis Carlos Galán es asesinado en un mitin en Soacha. Tribunales colombianos atribuyen después la orden"
+    },
+    {
+     "bloco": 21,
+     "cos": 0.34,
+     "nosso": "El treinta de abril de mil novecientos ochenta y cuatro, asesinan a tiros a Lara Bonilla en Bogotá. Y en su funeral, el presidente Belisario Betancur, que hasta entonces se negaba, anuncia que va a extraditar.",
+     "ref": "Lehder y Rodríguez Gacha trabajaban juntos. El 30 de abril de 1984, pistoleros en motocicleta asesinan a Lara Bonilla en Bogotá."
+    },
+    {
+     "bloco": 20,
+     "cos": 0.34,
+     "nosso": "En octubre de mil novecientos ochenta y tres pierde la inmunidad. Poco después se retira de la política.",
+     "ref": "Lara Bonilla y el periódico El Espectador exponen su historial criminal y sus vínculos con el narcotráfico. En octubre de 1983, la Cámara le retira la inmunidad"
+    },
+    {
+     "bloco": 7,
+     "cos": 0.33,
+     "nosso": "El Tratado. Washington, catorce de septiembre de mil novecientos setenta y nueve. Colombia y Estados Unidos firman un tratado de extradición.",
+     "ref": "Colombia comenzará a extraditar a sus nacionales a Estados Unidos. Un tratado firmado en 1979 lo hace posible. Esta es la amenaza que el dinero no puede"
+    },
+    {
+     "bloco": 35,
+     "cos": 0.33,
+     "nosso": "Tres días más tarde asesinan en Bogotá a Guillermo Cano, director de El Espectador, el diario que llevaba años denunciando al cártel.",
+     "ref": "Espectador, ya había expuesto a Escobar una vez, y sigue informando sobre el narcotráfico. El 17 de diciembre de 1986, su director, Guillermo Cano,"
+    },
+    {
+     "bloco": 41,
+     "cos": 0.32,
+     "nosso": "En noviembre, una bomba derriba en pleno vuelo un avión de Avianca. Mueren ciento diez personas. En diciembre, un vehículo cargado con quinientos kilos de dinamita destruye la sede del DAS, el servicio de inteligencia, en Bogotá. La justicia atribuyó ambos ate",
+     "ref": "noviembre, una bomba destruye el vuelo 203 de Avianca poco después de despegar de Bogotá. Mueren los 107 ocupantes, además de 3"
+    },
+    {
+     "bloco": 34,
+     "cos": 0.3,
+     "nosso": "Dos días después, el presidente Virgilio Barco vuelve a firmar la ley. Esta vez, él mismo.",
+     "ref": "protegida en un objetivo de seguridad nacional. El Bloque. El presidente Virgilio Barco fortalece una unidad especial de la policía, primero"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/010-cartel-medellin/ref/manada-sNE78rmQyFc.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3032,
+   "nota": 13.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.13924050632911392,
+   "ordem": 1.0,
+   "ngramas": 0.020496224379719527,
+   "sim_media": 0.2026928305048038,
+   "gemeos": 11,
+   "blocos": 79,
+   "posicoes": [
+    [
+     6,
+     9
+    ],
+    [
+     13,
+     45
+    ],
+    [
+     17,
+     55
+    ],
+    [
+     21,
+     69
+    ],
+    [
+     35,
+     77
+    ],
+    [
+     36,
+     82
+    ],
+    [
+     40,
+     101
+    ],
+    [
+     41,
+     108
+    ],
+    [
+     63,
+     121
+    ],
+    [
+     64,
+     122
+    ],
+    [
+     71,
+     136
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 71,
+     "cos": 0.54,
+     "nosso": "Empieza la persecución. La Policía refuerza su Bloque de Búsqueda. Y aparece otro grupo ilegal, Los Pepes, formado por antiguos socios y rivales de Escobar, que asesinan a sus allegados.",
+     "ref": "1993 aparece un misterioso grupo nuevo, Los Pepes, abreviatura de Perseguidos por Pablo Escobar. Formado por sus rivales y antiguos socios,"
+    },
+    {
+     "bloco": 21,
+     "cos": 0.51,
+     "nosso": "El treinta de abril de mil novecientos ochenta y cuatro, asesinan a tiros a Lara Bonilla en Bogotá. Y en su funeral, el presidente Belisario Betancur, que hasta entonces se negaba, anuncia que va a extraditar.",
+     "ref": "funeral, el presidente Belisario Betancur anuncia que Colombia extraditará ahora a los narcotraficantes a Estados Unidos. Capítulo 4, los extraditables."
+    },
+    {
+     "bloco": 13,
+     "cos": 0.43,
+     "nosso": "Anuncian un grupo nuevo: Muerte a Secuestradores, el MAS. Semanas antes, la guerrilla del eme diecinueve había secuestrado a Martha Nieves Ochoa. Es hermana de tres traficantes de Medellín.",
+     "ref": "Noviembre de 1981. Guerrilleros del M-19 secuestran a Martha Nieves Ochoa, hermana de los hermanos Ochoa, y exigen millones. Los narcotraficantes"
+    },
+    {
+     "bloco": 40,
+     "cos": 0.41,
+     "nosso": "Cinco días después, los Extraditables declaran la guerra total al Estado.",
+     "ref": "extradición mediante decreto de emergencia, y Escobar declara la guerra total. El 2 de septiembre, un camión bomba destroza El Espectador."
+    },
+    {
+     "bloco": 36,
+     "cos": 0.4,
+     "nosso": "Con la ley firmada de nuevo, el cuatro de febrero de mil novecientos ochenta y siete, la Policía captura a Carlos Lehder en una finca cerca de Guarne, en Antioquia. En menos de veinticuatro horas viaja en un avión rumbo a Estados Unidos.",
+     "ref": "contraataca. Carlos Lehder, el hombre de la isla, es capturado en una finca cerca de Medellín y trasladado a Estados Unidos al día"
+    },
+    {
+     "bloco": 63,
+     "cos": 0.38,
+     "nosso": "El Artículo. Bogotá, diecinueve de junio de mil novecientos noventa y uno. La Asamblea Nacional Constituyente escribe una Constitución nueva para Colombia.",
+     "ref": "Ochoa se entregan. Escobar pide más. El 19 de junio de 1991, la Asamblea Nacional Constituyente de Colombia vota la prohibición de extraditar"
+    },
+    {
+     "bloco": 64,
+     "cos": 0.36,
+     "nosso": "Ese día vota un artículo cuya frase central dice: «Se prohíbe la extradición de colombianos por nacimiento».",
+     "ref": "Asamblea Nacional Constituyente de Colombia vota la prohibición de extraditar a ciudadanos colombianos. Ese mismo día, Escobar se entrega. Su prisión se llama"
+    },
+    {
+     "bloco": 17,
+     "cos": 0.36,
+     "nosso": "El Escaño. Bogotá, veinte de julio de mil novecientos ochenta y dos. Pablo Escobar entra a la Cámara de Representantes como suplente, elegido por Antioquia.",
+     "ref": "Liberal, expulsa públicamente a Escobar. Aun así, en 1982, Escobar es elegido para el Congreso como representante suplente, y el escaño le da inmunidad. Luego"
+    },
+    {
+     "bloco": 35,
+     "cos": 0.34,
+     "nosso": "Tres días más tarde asesinan en Bogotá a Guillermo Cano, director de El Espectador, el diario que llevaba años denunciando al cártel.",
+     "ref": "17 de diciembre, Guillermo Cano, director de El Espectador durante 34 años, es acribillado dentro de su auto cuando salía del periódico"
+    },
+    {
+     "bloco": 6,
+     "cos": 0.31,
+     "nosso": "Esta es TODA la historia del Cártel de Medellín. Y de la guerra que le hizo a un país entero por una sola palabra: extradición.",
+     "ref": "acepta la bala. Esta es toda la historia del cártel de Medellín, desde un contrabandista con una llanta de repuesto hasta una guerra contra una"
+    },
+    {
+     "bloco": 41,
+     "cos": 0.31,
+     "nosso": "En noviembre, una bomba derriba en pleno vuelo un avión de Avianca. Mueren ciento diez personas. En diciembre, un vehículo cargado con quinientos kilos de dinamita destruye la sede del DAS, el servicio de inteligencia, en Bogotá. La justicia atribuyó ambos ate",
+     "ref": "seguridad, nunca subió al avión. El 6 de diciembre, un camión cargado de dinamita explota frente a la sede del DAS en Bogotá,"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/010-cartel-medellin/ref/manada-V3qQHkXkFxA.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2071,
+   "nota": 12.8,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.11392405063291139,
+   "ordem": 0.6666666666666666,
+   "ngramas": 0.011866235167206042,
+   "sim_media": 0.20372201416987148,
+   "gemeos": 9,
+   "blocos": 79,
+   "posicoes": [
+    [
+     18,
+     327
+    ],
+    [
+     21,
+     371
+    ],
+    [
+     24,
+     552
+    ],
+    [
+     30,
+     423
+    ],
+    [
+     32,
+     419
+    ],
+    [
+     35,
+     307
+    ],
+    [
+     38,
+     496
+    ],
+    [
+     69,
+     569
+    ],
+    [
+     71,
+     586
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 71,
+     "cos": 0.42,
+     "nosso": "Empieza la persecución. La Policía refuerza su Bloque de Búsqueda. Y aparece otro grupo ilegal, Los Pepes, formado por antiguos socios y rivales de Escobar, que asesinan a sus allegados.",
+     "ref": "hacerlo caer, Los Pepes, nombre que significa Perseguidos por Pablo Escobar. El grupo está formado por antiguos socios y enemigos de Pablo"
+    },
+    {
+     "bloco": 35,
+     "cos": 0.41,
+     "nosso": "Tres días más tarde asesinan en Bogotá a Guillermo Cano, director de El Espectador, el diario que llevaba años denunciando al cártel.",
+     "ref": "una familia rica, ¿de dónde salió su enorme fortuna? Entonces, Guillermo Cano, director del periódico El Espectador, revisa los archivos del diario"
+    },
+    {
+     "bloco": 21,
+     "cos": 0.4,
+     "nosso": "El treinta de abril de mil novecientos ochenta y cuatro, asesinan a tiros a Lara Bonilla en Bogotá. Y en su funeral, el presidente Belisario Betancur, que hasta entonces se negaba, anuncia que va a extraditar.",
+     "ref": "fuerza. Durante el funeral de Lara, el presidente Belisario Betancur nombra a los narcotraficantes como enemigos de la humanidad y anuncia justamente lo que los traficantes"
+    },
+    {
+     "bloco": 38,
+     "cos": 0.38,
+     "nosso": "El Estado de Sitio. Soacha, dieciocho de agosto de mil novecientos ochenta y nueve. Asesinan a Luis Carlos Galán, el candidato favorito a la presidencia.",
+     "ref": "candidato presidencial Luis Carlos Galán promete acabar con los grandes traficantes y apoyar su envío a Estados Unidos. Poco después, es eliminado."
+    },
+    {
+     "bloco": 32,
+     "cos": 0.37,
+     "nosso": "La Sentencia. Bogotá, doce de diciembre de mil novecientos ochenta y seis. La Corte Suprema declara inconstitucional la ley que aprobó el tratado.",
+     "ref": "Corte Suprema estaba estudiando unas demandas que buscaban tumbar el tratado de extradición. Si los magistrados lo declaran inconstitucional, el tratado se caía y los narcos"
+    },
+    {
+     "bloco": 18,
+     "cos": 0.34,
+     "nosso": "Con el escaño llega la inmunidad parlamentaria. Y una imagen pública de benefactor de los barrios pobres de Medellín.",
+     "ref": "Pablo intenta desesperadamente limpiar su imagen. Es aquí cuando construye el barrio Pablo Escobar para familias pobres de Medellín. Muchas de esas personas todavía"
+    },
+    {
+     "bloco": 69,
+     "cos": 0.34,
+     "nosso": "La Fuga. Envigado, julio de mil novecientos noventa y dos. Tras las denuncias de que Escobar ordenaba asesinatos desde La Catedral, el gobierno decide trasladarlo.",
+     "ref": "Catedral y una vez dentro, ordena torturarlos y eliminarlos. Cuando el gobierno descubre lo ocurrido, decide trasladar a Pablo a una"
+    },
+    {
+     "bloco": 30,
+     "cos": 0.32,
+     "nosso": "En noviembre, la guerrilla del eme diecinueve toma el Palacio de Justicia. En la toma y en la operación militar para recuperarlo mueren once magistrados de la Corte Suprema. Si el cártel tuvo algo que ver, todavía se discute.",
+     "ref": "guerrilla del M-19 entra armada al Palacio de Justicia en Bogotá, donde trabajan los jueces más importantes del país, y toma como rehenes a magistrados"
+    },
+    {
+     "bloco": 24,
+     "cos": 0.31,
+     "nosso": "El gobierno no acepta. Y el cinco de enero de mil novecientos ochenta y cinco, por primera vez, Colombia entrega a cinco de sus ciudadanos a la justicia de Estados Unidos.",
+     "ref": "extradición. Pablo ha conseguido lo que quería, ya no pueden enviarlo a Estados Unidos. Una vez acordado esto, acepta entregarse a la justicia"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/010-cartel-medellin/ref/manada-aUMcUbijZug.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 9022,
+   "nota": 9.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.06329113924050633,
+   "ordem": 0.8,
+   "ngramas": 0.007551240560949299,
+   "sim_media": 0.17794225899535762,
+   "gemeos": 5,
+   "blocos": 79,
+   "posicoes": [
+    [
+     13,
+     106
+    ],
+    [
+     16,
+     74
+    ],
+    [
+     24,
+     166
+    ],
+    [
+     35,
+     205
+    ],
+    [
+     38,
+     232
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 13,
+     "cos": 0.41,
+     "nosso": "Anuncian un grupo nuevo: Muerte a Secuestradores, el MAS. Semanas antes, la guerrilla del eme diecinueve había secuestrado a Martha Nieves Ochoa. Es hermana de tres traficantes de Medellín.",
+     "ref": "directa del cartel de Medellín al M19 por el secuestro de Marta Nieves Ochoa, hermana de los hermanos Ochoa, y por un intento de secuestro a Carlos"
+    },
+    {
+     "bloco": 38,
+     "cos": 0.4,
+     "nosso": "El Estado de Sitio. Soacha, dieciocho de agosto de mil novecientos ochenta y nueve. Asesinan a Luis Carlos Galán, el candidato favorito a la presidencia.",
+     "ref": "1988. Y también fue el grupo que llevó a cabo el magnicidio del candidato presidencial Luis Carlos Galán el 18 de agosto de 1989, por apoyar"
+    },
+    {
+     "bloco": 24,
+     "cos": 0.4,
+     "nosso": "El gobierno no acepta. Y el cinco de enero de mil novecientos ochenta y cinco, por primera vez, Colombia entrega a cinco de sus ciudadanos a la justicia de Estados Unidos.",
+     "ref": "avioneta que transportó la primera mercancía en 1976. En su amplia extensión, donde fácilmente se ubicarían cinco ciudades Mónaco, cinco ciudades"
+    },
+    {
+     "bloco": 35,
+     "cos": 0.39,
+     "nosso": "Tres días más tarde asesinan en Bogotá a Guillermo Cano, director de El Espectador, el diario que llevaba años denunciando al cártel.",
+     "ref": "enterándose por medio del director del espectador, Guillermo Cano y también por informes de la DEA sobre la vida criminal de Escobar y sus nexos con el narcotráfico, lo denunció"
+    },
+    {
+     "bloco": 16,
+     "cos": 0.34,
+     "nosso": "Los hermanos Ochoa. Gonzalo Rodríguez Gacha. Carlos Lehder. Y un contrabandista criado en Envigado, Pablo Escobar. Ese grupo ya tiene dinero y armas. Ahora busca poder político.",
+     "ref": "Gaviria, los hermanos Ochoa, Carlos Leder, Gonzalo Rodríguez Gacha y Griselda Blanco no solo tenía grandes laboratorios para procesar el producto,"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/010-cartel-medellin/ref/manada-G81v2L9CrSQ.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 4458,
+   "nota": 5.4,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.05063291139240506,
+   "ordem": 1.0,
+   "ngramas": 0.006472491909385114,
+   "sim_media": 0.15350364187963833,
+   "gemeos": 4,
+   "blocos": 79,
+   "posicoes": [
+    [
+     3,
+     76
+    ],
+    [
+     36,
+     225
+    ],
+    [
+     41,
+     237
+    ],
+    [
+     66,
+     241
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 36,
+     "cos": 0.46,
+     "nosso": "Con la ley firmada de nuevo, el cuatro de febrero de mil novecientos ochenta y siete, la Policía captura a Carlos Lehder en una finca cerca de Guarne, en Antioquia. En menos de veinticuatro horas viaja en un avión rumbo a Estados Unidos.",
+     "ref": "Carlos Lehder fue arrestado el 4 de febrero de 1987 en una finca cerca de Guane, Antioquia, y extraditado a Estados Unidos"
+    },
+    {
+     "bloco": 41,
+     "cos": 0.37,
+     "nosso": "En noviembre, una bomba derriba en pleno vuelo un avión de Avianca. Mueren ciento diez personas. En diciembre, un vehículo cargado con quinientos kilos de dinamita destruye la sede del DAS, el servicio de inteligencia, en Bogotá. La justicia atribuyó ambos ate",
+     "ref": "500 kg de dinamita explotó frente a la sede del DAS, el servicio de inteligencia, en Bogotá. Murieron 63 personas y más de 2.200"
+    },
+    {
+     "bloco": 3,
+     "cos": 0.32,
+     "nosso": "Hay disparos. Ella muere esa misma tarde.",
+     "ref": "hueco del revólver disparado en una habitación cerrada. El hombre en el suelo no muere. Caminará cojeando el resto de su vida. Tienes"
+    },
+    {
+     "bloco": 66,
+     "cos": 0.31,
+     "nosso": "Horas después, un helicóptero aterriza en una cárcel nueva en las montañas de Envigado, sobre Medellín. De él baja Pablo Escobar. Se entrega junto al sacerdote García Herreros y a Alberto Villamizar.",
+     "ref": "Escobar se entrega a las autoridades colombianas, llegando en helicóptero a La Catedral, una cárcel privada que él mismo diseñó en una ladera sobre Envigado."
+    }
+   ],
+   "ref": "canais/dossie-es/videos/010-cartel-medellin/ref/manada-QpespHTBFm0.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4037,
+   "nota": 4.6,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.012658227848101266,
+   "ordem": 0.0,
+   "ngramas": 0.006472491909385114,
+   "sim_media": 0.15755721112822055,
+   "gemeos": 1,
+   "blocos": 79,
+   "posicoes": [
+    [
+     38,
+     91
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 38,
+     "cos": 0.32,
+     "nosso": "El Estado de Sitio. Soacha, dieciocho de agosto de mil novecientos ochenta y nueve. Asesinan a Luis Carlos Galán, el candidato favorito a la presidencia.",
+     "ref": "previsto gaviria era el candidato presidencial del partido liberal en las elecciones de 1990 en sustitución de luis carlos galán a quien un sicario de pablo"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/010-cartel-medellin/ref/manada-3q99PU8ldWE.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2634,
+   "nota": 1.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.13651805197176933,
+   "gemeos": 0,
+   "blocos": 79,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/010-cartel-medellin/ref/manada-lua5M2G94sY.txt",
+   "idioma_ref": "pt",
+   "traduzido": true,
+   "palavras_ref": 3132,
+   "nota": 0.0,
+   "veredito": "ok"
+  }
+ ]
+}
