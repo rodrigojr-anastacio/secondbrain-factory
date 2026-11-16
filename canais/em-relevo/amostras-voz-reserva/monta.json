@@ -1,0 +1,57 @@
+{
+ "REF": {
+  "dur": {
+   "hook": 45.28,
+   "trans": 8.18
+  }
+ },
+ "A": {
+  "arquivo": "A-fish-energica-drama3.mp3",
+  "atempo": {
+   "hook": 1.5,
+   "trans": 1.308
+  },
+  "dur_final": 61.2
+ },
+ "B": {
+  "arquivo": "B-fish-documental-drama3.mp3",
+  "atempo": {
+   "hook": 1.415,
+   "trans": 1.165
+  },
+  "dur_final": 54.3
+ },
+ "C": {
+  "arquivo": "C-fish-natasha-drama3.mp3",
+  "atempo": {
+   "hook": 1.24,
+   "trans": 1.0
+  },
+  "dur_final": 54.0
+ },
+ "D": {
+  "arquivo": "D-fish-jovem-clara-drama3.mp3",
+  "atempo": {
+   "hook": 1.464,
+   "trans": 1.262
+  },
+  "dur_final": 54.3
+ },
+ "E": {
+  "arquivo": "E-fish-masculina-drama3.mp3",
+  "atempo": {
+   "hook": 1.391,
+   "trans": 1.121
+  },
+  "dur_final": 54.3
+ },
+ "F": {
+  "arquivo": "F-fish-natasha-s21pro.mp3",
+  "atempo": {
+   "hook": 1.139,
+   "trans": 1.0
+  },
+  "dur_final": 53.4
+ },
+ "todas_dur": 412.4
+}

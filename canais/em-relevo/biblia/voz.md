@@ -46,3 +46,6 @@ Kokoro `pf_dora` só como provisória (`VOZ=kokoro` no `monta_audio_v2.py`, sem 
 
 ## Transparência
 `youtube.txt` sem menção a IA/voz sintética (padrão de `conhecimento/politicas-youtube.md`, 14/11/2026); a descrição do canal declara "Narração com voz sintética" (`identidade/LEIA.md`). Marcar conteúdo alterado/sintético no upload quando aplicável (decisão do Rodrigo no upload).
+
+## Voz de reserva (amostras Fish, 16/11/2026)
+Se o plano da ElevenLabs acabar, há amostras prontas em `../amostras-voz-reserva/` (`todas.mp3` + `LEIA.md`): Fernanda (referência) × 4 femininas e 1 masculina no Fish (drama-3) e a melhor também em s2.1-pro, no trecho hook + transição do 005, com o ritmo casado ao da Fernanda. **Aguardando o ouvido do Rodrigo; nenhuma foi escolhida.** Pelas medidas, a #NATASHA (`e8bccb7beecd46c6a1c64813e0238fa9`, drama-3) é a mais rápida de natural (163–176 pal/min) e marcou as perguntas. No s2.1-pro, a mesma voz soltou um ruído entre blocos: fique no drama-3. O drama-3 ainda foi cobrado a US$ 10/M em 16/11 (crédito conferido). A troca exige tirar as tags do v3 do `fala_tts` (ver o `LEIA.md`).

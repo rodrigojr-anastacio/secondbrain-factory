@@ -35,6 +35,7 @@ fabrica-youtube/
 │   ├── anthropic_api.py créditos da API Anthropic (chaves rotinas/qa, preços, custo em financas.consumo, tetos mensais)
 │   ├── garimpo_batch.py análise em lote (Batch API) dos vídeos do garimpo → conhecimento/padroes-garimpo.md
 │   ├── preqa_visual.py pré-QA visual com Claude (visão) contra o checklist de erros-qa.md → PREQA-visual.md
+│   ├── nasa_chuva.py chuva real NASA GPM IMERG (GES DISC, token Earthdata): acumulado/anomalia de período × região → camada PNG transparente georreferenciada, PNG de tela (mm) e JSON com números e crédito (16/11/2026; uso em canais/em-relevo/biblia/visual.md)
 │   ├── db.py, _paths.py, _trava.py, db/ (schemas e seed), rotinas/diaria.sh (coleta + backup)
 │   └── auth.py    login OAuth de um canal (feito pelo Rodrigo)
 ├── canais/<slug>/
@@ -52,7 +53,7 @@ fabrica-youtube/
 Python: `~/workspace/fabrica-youtube/tools/.venv/bin/python`. Rode os scripts a partir de `tools/`.
 
 ## Recursos fora da fábrica
-- **Segredos:** `~/.segredos/` (permissão 600). Tokens do YouTube em `~/.segredos/youtube/tokens/<canal>.json`. Token NASA Earthdata (dados de chuva/radar GPM/IMERG no GES DISC, usado pelo Em Relevo; vale até 15/01/2027) em `~/.segredos/nasa/earthdata.env` (`EARTHDATA_TOKEN`, header `Authorization: Bearer`; app "NASA GESDISC DATA ARCHIVE" autorizado na conta em 16/11/2026). Nunca imprima, copie ou commite.
+- **Segredos:** `~/.segredos/` (permissão 600). Tokens do YouTube em `~/.segredos/youtube/tokens/<canal>.json`. Token NASA Earthdata (dados de chuva/radar GPM/IMERG no GES DISC, usado pelo Em Relevo; vale até 15/01/2027) em `~/.segredos/nasa/earthdata.env` (`EARTHDATA_TOKEN`, header `Authorization: Bearer`; app "NASA GESDISC DATA ARCHIVE" autorizado na conta em 16/11/2026; lido por `tools/nasa_chuva.py`). Nunca imprima, copie ou commite.
 - **Codex CLI (ChatGPT Plus do Rodrigo, 14/11/2026):** `~/.local/bin/codex`, login já feito (`~/.codex/auth.json`: nunca leia nem imprima). Gera imagens pela cota do Plus via `tools/img_codex.py` (só no `historia-ptbr`; fallback fal automático). Uso e limites: `tools/codex_uso.sh`. Armadilhas: `conhecimento/anti-padroes.md` §3d.
 - **Voz Kokoro (local, grátis):** `~/tts/venv-kokoro/bin/python`; exemplo em `~/tts/gen_kokoro.py`.
 - **Proxy WARP:** `socks5://127.0.0.1:40000`, para tudo que acessa o YouTube como usuário (assistir, baixar, abrir a página). O YouTube bloqueia o IP da VPS.

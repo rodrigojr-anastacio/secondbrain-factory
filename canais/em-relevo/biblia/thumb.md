@@ -47,6 +47,7 @@ Regra da fábrica (Rodrigo, 16/11/2026; `skills/embalagem/SKILL.md` passo 5 e `s
 | evitar | `rosto-emocao` | Canal sem apresentador; rosto só de pessoa viva em foto licenciada, nunca vítima em close | Nenhuma medida | Só com evidência nova |
 
 **NASA Earthdata (16/11/2026):** token disponível em `~/.segredos/nasa/earthdata.env` (variável `EARTHDATA_TOKEN`, header `Authorization: Bearer`; vale até 15/01/2027; app "NASA GESDISC DATA ARCHIVE" autorizado; `AGENTS.md`). Destrava produtos **GPM/IMERG no GES DISC** (chuva acumulada/radar) para `documento-evidencia` e para o vídeo. Nunca leia, imprima nem copie o arquivo; o script lê a variável. Crédito NASA na descrição.
+**Ferramenta (16/11/2026):** `tools/nasa_chuva.py` gera a chuva acumulada (e a anomalia) de qualquer período e região desde jun/2000. Para a thumb `documento-evidencia`, use **`--fundo claro`**: papel claro, sem mapa escuro, porque a thumb A já é a do mapa escuro. Componha a partir de `<slug>-camada.png` (sem texto) ou de `<slug>-tela.png`, com a palavra/número no `Thumb.jsx`. A legenda em mm só entra se for legível em 1280×720. Exemplo: `../amostras-nasa/enchente-rs-2024-claro-tela.png`. Continua **Hipótese** até haver CTR medido.
 
 ## Não fazer
 - **Mais de 1 thumb com mapa escuro dominante** no mesmo vídeo; 3 variações do mesmo conceito (seca 1877, Rodrigo 16/11/2026).

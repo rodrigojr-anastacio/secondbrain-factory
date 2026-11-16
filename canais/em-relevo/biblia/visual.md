@@ -15,6 +15,17 @@
 - **Árvore de rios real do OSM** (005, 15/11/2026): rede hidrográfica da bacia ligada nó a nó, subindo da foz (BFS contra a corrente), 5 rios principais grossos, cresce das nascentes à foz (`../videos/005.../shared/prepara_rios.py` → `shared/rios.json`; OSM ODbL). É a assinatura aprovada no crivo do 005; reutilizar em toda pauta de bacia/enchente. Rios do mapa são aproximados (dizer na descrição).
 - **Dado real em 3D:** relevo de calor do Pacífico (NOAA OISST), montanhas Niño 3.4, régua/cilindros de cheia (ANA HidroWeb via `shared/baixa_ana.py`), globo, anel de meses (002–005).
 
+## Chuva real da NASA: `tools/nasa_chuva.py` (GPM IMERG, desde 16/11/2026)
+- **Quando usar:** toda pauta em que a chuva é personagem (enchente, seca, "por que chove tanto aqui", El Niño/La Niña no Brasil). A chuva acumulada do evento, vista do satélite, **sobre o mapa 3D** é a prova visual de "onde caiu", e a anomalia mostra "quanto acima do normal". Exemplo: enchente RS 27/04–05/05/2024, máximo em terra de 620 mm na serra e ~710% da média no estado (`../amostras-nasa/LEIA.md`).
+- **Como rodar:** `tools/.venv/bin/python tools/nasa_chuva.py --inicio AAAA-MM-DD --fim AAAA-MM-DD --regiao RS|SC|…|SUL|NORDESTE|BRASIL (ou --bbox o,s,l,n) --saida <video>/dados/nasa --nome <slug> [--anomalia] [--mascara] [--fundo claro]`. Leva 1–2 min na 1ª vez (cache em `~/cache/nasa/`). Custo zero.
+- **Saídas e como compor:**
+  - `<slug>-camada.png`: RGBA transparente, sem texto, em lon/lat no `bbox` do JSON (mesma projeção das texturas `gera_texturas*.py`). No 3D, entre como **sobreposição no terreno** com o mesmo mecanismo de máscara do `terreno_v2.js` (`uMask` + `uMin/uMax` = `brXZ(oeste, norte)`/`brXZ(leste, sul)`) ou num plano logo acima do relevo. Faça o fade-in da camada **com a câmera em movimento** (diretriz de 06/11) e ponha os rótulos (cidade, mm, data) no código, em Anton/Plex. Abaixo de ~3% do topo da escala a camada é transparente: o relevo aparece por baixo.
+  - `<slug>-tela.png`: 1920×1080 pronto (fundo navy, UFs, legenda em mm, período), para um respiro 2D ou como base de thumb. **Sem crédito na tela.**
+  - `<slug>.json`: `mm.max_terra` (+ lat/lon, bom para pino), `mm.medio_<UF>`, `escala` (paradas em mm para desenhar a legenda no Remotion), `anomalia` e a linha `credito` para o `youtube.txt` ("Chuva: NASA GPM IMERG (GES DISC), domínio público"). O `max` simples pode cair no mar.
+- **Escala:** topo automático (percentil 99,5) ou `--vmax` fixo. Use `--vmax` igual em duas camadas que forem comparadas lado a lado.
+- **Limites:** IMERG começa em **jun/2000**. Para 1983, 1967, 1877 a ferramenta para e indica o que o canal já usou: ANA HidroWeb (`../videos/005-*/shared/baixa_ana.py`), régua/gráfico em código e Landsat MSS. Dias recentes saem do IMERG Late (~1 dia de atraso; o JSON diz o produto). É estimativa de satélite (células de ~10 km) e fica **abaixo dos pluviômetros nos picos**: na fala, "o satélite da NASA estimou…"; o número da estação vem do INMET.
+- Token: `~/.segredos/nasa/earthdata.env`, lido pelo script (vale até 15/01/2027). Erro 401/403 = token vencido: avisar o Rodrigo.
+
 ## Fotos reais grandes
 - A foto entra em **1240 px (65% da largura)** em quadro 16:9 com Ken Burns lento sobre o mapa escurecido, ou duas lado a lado com 860 px; legenda em faixa coral (`visual-v2/PROPOSTA.md`, aprovado 10/11/2026). Polaroid pequena (560 px) saiu.
 - **Na tela só lugar e data/ano** (ex.: "CENTRO HISTÓRICO · 5 MAI 2024"); foto de outro ano sempre com o ano real na legenda (`../videos/004-el-nino-1983/pesquisa/CHECAGEM.md`).

@@ -1,0 +1,160 @@
+{
+ "fonte": "NASA GPM IMERG V07 (GES DISC)",
+ "credito": "Chuva: NASA GPM IMERG (GES DISC), domínio público",
+ "licenca": "domínio público (dados da NASA)",
+ "produtos": [
+  "GPM_3IMERGDF.07"
+ ],
+ "arquivos": [
+  "3B-DAY.MS.MRG.3IMERG.20240427-S000000-E235959.V07B.nc4",
+  "3B-DAY.MS.MRG.3IMERG.20240428-S000000-E235959.V07B.nc4",
+  "3B-DAY.MS.MRG.3IMERG.20240429-S000000-E235959.V07B.nc4",
+  "3B-DAY.MS.MRG.3IMERG.20240430-S000000-E235959.V07B.nc4",
+  "3B-DAY.MS.MRG.3IMERG.20240501-S000000-E235959.V07B.nc4",
+  "3B-DAY.MS.MRG.3IMERG.20240502-S000000-E235959.V07B.nc4",
+  "3B-DAY.MS.MRG.3IMERG.20240503-S000000-E235959.V07B.nc4",
+  "3B-DAY.MS.MRG.3IMERG.20240504-S000000-E235959.V07B.nc4",
+  "3B-DAY.MS.MRG.3IMERG.20240505-S000000-E235959.V07B.nc4"
+ ],
+ "dias_sem_arquivo": [],
+ "periodo": {
+  "inicio": "2024-04-27",
+  "fim": "2024-05-05",
+  "dias": 9,
+  "texto_tela": "27 abr – 5 mai 2024"
+ },
+ "regiao": "RS",
+ "bbox_pedido": [
+  -57.9,
+  -34.0,
+  -49.4,
+  -26.8
+ ],
+ "bbox": [
+  -58.0,
+  -34.0,
+  -49.4,
+  -26.8
+ ],
+ "grade": {
+  "resolucao_graus": 0.1,
+  "linhas": 72,
+  "colunas": 86
+ },
+ "mm": {
+  "max": 743.0,
+  "max_lat": -30.05,
+  "max_lon": -49.65,
+  "medio_bbox": 205.0,
+  "max_terra": 620.5,
+  "max_terra_lat": -29.05,
+  "max_terra_lon": -51.45,
+  "medio_RS": 307.9
+ },
+ "escala": {
+  "vmin": 0,
+  "vmax": 700,
+  "unidade": "mm",
+  "transparente_abaixo_mm": 21.0,
+  "paradas": [
+   {
+    "frac": 0.0,
+    "mm": 0.0,
+    "rgb": [
+     159,
+     232,
+     255
+    ],
+    "alfa": 0
+   },
+   {
+    "frac": 0.03,
+    "mm": 21.0,
+    "rgb": [
+     159,
+     232,
+     255
+    ],
+    "alfa": 90
+   },
+   {
+    "frac": 0.15,
+    "mm": 105.0,
+    "rgb": [
+     63,
+     216,
+     255
+    ],
+    "alfa": 170
+   },
+   {
+    "frac": 0.35,
+    "mm": 245.0,
+    "rgb": [
+     47,
+     123,
+     255
+    ],
+    "alfa": 205
+   },
+   {
+    "frac": 0.6,
+    "mm": 420.0,
+    "rgb": [
+     124,
+     58,
+     237
+    ],
+    "alfa": 225
+   },
+   {
+    "frac": 0.82,
+    "mm": 574.0,
+    "rgb": [
+     232,
+     64,
+     160
+    ],
+    "alfa": 238
+   },
+   {
+    "frac": 1.0,
+    "mm": 700.0,
+    "rgb": [
+     255,
+     210,
+     63
+    ],
+    "alfa": 245
+   }
+  ]
+ },
+ "arquivos_saida": {
+  "camada": "enchente-rs-2024-camada.png",
+  "camada_px": [
+   2048,
+   1715
+  ],
+  "world_file": "enchente-rs-2024-camada.pgw",
+  "tela": "enchente-rs-2024-tela.png"
+ },
+ "georreferencia": "plate carrée: lon = oeste + (x+0,5)·(leste−oeste)/largura; lat = norte − (y+0,5)·(norte−sul)/altura",
+ "mascara": false,
+ "anomalia": {
+  "climatologia": "IMERG mensal GPM_3IMERGM.07, 2001–2020 (anos com dado por mês: {4: 20, 5: 20})",
+  "metodo": "esperado = soma, dia a dia, da média diária do mês na climatologia; anomalia = acumulado − esperado",
+  "mm_esperado_medio_bbox": 42.8,
+  "mm_anomalia_max": 703.2,
+  "mm_anomalia_media_bbox": 162.2,
+  "pct_da_media_max": 1955.0,
+  "escala_mm": [
+   -700,
+   700
+  ],
+  "arquivos": [
+   "enchente-rs-2024-anomalia-camada.png",
+   "enchente-rs-2024-anomalia-tela.png"
+  ],
+  "pct_da_media_area": 710.0
+ }
+}
