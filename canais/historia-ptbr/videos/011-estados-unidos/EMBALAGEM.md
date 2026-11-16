@@ -1,5 +1,5 @@
-# Embalagem historia-ptbr/011-estados-unidos · versão r1 · 16/11/2026
-Tema: Estados Unidos (a história inteira, ângulo "a promessa cobrada", `ANGULO.md`) · idioma pt-BR · duração-alvo 15–17 min (~2.100 palavras, BRIEF) · cota gasta: ~160 unidades (videos.list/channels.list/playlistItems; **search.list: 0**) · mosaicos: `embalagem/mosaico.jpg` (top do tema + nossos), `embalagem/mosaico-curado.jpg` (9 do nicho), `embalagem/refs-padroes.jpg` e `refs-padroes2.jpg` (referências dos padrões) · views e medianas de 16/11/2026 (`refs.csv`, `medianas.json`).
+# Embalagem historia-ptbr/011-estados-unidos · versão r3 · 16/11/2026
+Tema: Estados Unidos (a história inteira, ângulo "a promessa cobrada", `ANGULO.md`) · idioma pt-BR · duração-alvo 15–17 min (~2.100 palavras, BRIEF) · cota gasta: ~215 unidades (videos.list/channels.list/playlistItems; **search.list: 0**) · mosaicos: `embalagem/mosaico.jpg` (top do tema + nossos), `embalagem/mosaico-curado.jpg` (9 do nicho), `embalagem/refs-padroes.jpg`, `refs-padroes2.jpg` e `refs-objeto.jpg` (referências dos padrões) · views e medianas de 16/11/2026 (`refs.csv`, `medianas.json`).
 
 ## Pesquisa (resumo)
 Busca yt-dlp via WARP (pt: 8 termos; en: 3 termos sobre a Declaração), janela ≤ 400 d, mediana real = últimos ≤ 30 longos do canal.
@@ -24,7 +24,7 @@ Busca yt-dlp via WARP (pt: 8 termos; en: 3 termos sobre a Declaração), janela 
 - **Material que a sustenta (BRIEF, fatos 1–11, fontes primárias):** Douglass em Rochester, 5/7/1852 (hook); 1619 (assembleia + escravizados no mesmo verão); o parágrafo do tráfico cortado do rascunho de Jefferson e a carta de Abigail Adams (1776); três quintos (1787); os Cherokee ganham na Suprema Corte e perdem a terra (1832–38); Seneca Falls reescreve a frase (1848, Douglass assina); Gettysburg data o país de 1776 + 13ª/14ª/15ª (1863–70); exclusão chinesa × Estátua da Liberdade × Wong Kim Ark (1882–98); Harry Burn (1920); Duplo V e Ho Chi Minh citando a Declaração (1942–45); parecer de 1952 e o "cheque sem fundos" de King (1963) + leis de 1964–65. Lado "potência": maior economia industrial por volta de 1890 (imigrantes nas fábricas), metade da produção industrial do mundo em 1945 (Kennedy 1987).
 - **Onde o roteiro paga:** hook (0:00–0:30) Douglass diante da plateia: "o que é, para o escravo, o seu Quatro de Julho?"; até ~0:45 a pergunta central dita como pergunta: "Como um país fundado numa frase que ele mesmo não cumpria virou a maior potência do mundo?"; até 1:15 a regra do jogo ("a frase vai ser cobrada, geração após geração, e cada cobrança muda o país"). O vídeo inteiro sustenta porque cada era é uma cobrança (cena) + o que ela mudou + o novo problema; a pergunta volta ≥ 3× ("primeira peça da resposta…") e o fecho responde e reenquadra.
 
-## Título 1 · padrão "afirmação estranha + pergunta" · 60 caracteres [r1]
+## Título 1 · padrão "afirmação estranha + pergunta" · 60 caracteres [MANTIDO]
 "Os EUA prometeram o que NÃO cumpriam. Como viraram potência?"
 Referências (≥ 2), padrão de `biblia/titulo.md` ("Afirmação estranha + pergunta"):
 | link | canal | views | data | mediana | ×med |
@@ -33,7 +33,7 @@ Referências (≥ 2), padrão de `biblia/titulo.md` ("Afirmação estranha + per
 | [kZ3YWuGWF0k](https://youtu.be/kZ3YWuGWF0k) "Por que 300 mil anos quase nada mudou. Aí, há uns 10 mil anos, tudo di…" | Mente Primata | 404.805 | 04/10/2026 | 1.001 | 404,2 |
 Por que não é cópia: nenhum título do tema afirma a contradição; a 2ª metade ("Como viraram potência?") é a demanda do tema, mas a 1ª frase é o elemento-surpresa que a pergunta crua não tem (lição 2: "a pergunta crua de tema é commodity em pt: leva um 2º elemento-surpresa"). Nome do país no título (gargalo de impressão, lição 5). Não entrega a resposta (não diz qual promessa nem como).
 
-## Título 2 · padrão "Como [coisa concreta] construiu [lugar]" · 42 caracteres [r1]
+## Título 2 · padrão "Como [coisa concreta] construiu [lugar]" · 42 caracteres [MANTIDO]
 "Como UMA FRASE construiu os Estados Unidos"
 Referências (≥ 2), padrão 5 de `biblia/titulo.md`:
 | link | canal | views | data | mediana | ×med |
@@ -43,7 +43,7 @@ Referências (≥ 2), padrão 5 de `biblia/titulo.md`:
 | apoio do tema: [0DjUbbRtwfA](https://youtu.be/0DjUbbRtwfA) "a MÁQUINA AMERICANA: Como os EUA dominaram o mundo" | AUVP Capital | 246.276 | 26/07/2026 | 14.508 | 17,0 |
 Por que não é cópia: nenhum vídeo do tema atribui os EUA a uma frase (as variantes são "máquina", "potência", "dominaram"); o agente concreto (a frase) é o nosso ângulo. Não diz qual frase nem como.
 
-## Título 3 · padrão "ascensão 'Como X virou…?' + fato-surpresa" · 60 caracteres [r1]
+## Título 3 · padrão "ascensão 'Como X virou…?' + fato-surpresa" · 60 caracteres [MANTIDO]
 "Como 13 colônias viraram potência? A resposta é uma PROMESSA"
 Referências (≥ 2), padrão "Ascensão com fato-surpresa" de `biblia/titulo.md`:
 | link | canal | views | data | mediana | ×med |
@@ -57,12 +57,12 @@ Por que não é cópia: a pergunta de ascensão é a do tema (demanda), mas "13 
 | par | título | padrão do título | padrão da thumb | elemento dominante | texto da thumb |
 |---|---|---|---|---|---|
 | A | T1 | afirmação estranha + pergunta | `rosto-emocao` (controle) | Douglass bonequinho furioso apontando, ao fundo a festa do 4 de Julho | "IGUAIS?" (palavra-pergunta) |
-| B | T2 | Como [coisa concreta] construiu [lugar] | `objeto-simbolo` | um pergaminho antigo isolado, rasgado ao meio, luz saindo do rasgo | nenhum |
+| B | T2 | Como [coisa concreta] construiu [lugar] | `objeto-simbolo` | o Sino da Liberdade isolado, enorme, com a rachadura acesa em ouro, fundo preto | "LIBERDADE" (rótulo, 1 palavra) |
 | C | T3 | ascensão + fato-surpresa | `antes-depois` | o mesmo prédio (Independence Hall) em 1776 × 2026, tela dividida | "1776" e "2026" (números) |
-Por que são 3 thumbs diferentes: composição (personagem à esquerda com texto à direita × objeto centralizado sozinho × tela dividida ao meio), elemento dominante (rosto com emoção × objeto × lugar no tempo) e tipo de texto (palavra-pergunta × nenhum × números) distintos. Em 5 palavras: A "homem furioso aponta, pergunta IGUAIS"; B "pergaminho rasgado brilha, sem texto"; C "mesmo prédio, duas épocas, anos".
+Por que são 3 thumbs diferentes: composição (personagem à esquerda com texto à direita × objeto centralizado sozinho × tela dividida ao meio), elemento dominante (rosto com emoção × objeto × lugar no tempo) e tipo de texto (palavra-pergunta × rótulo × números) distintos. Em 5 palavras: A "homem indignado aponta, pergunta IGUAIS"; B "sino rachado aceso, rótulo LIBERDADE"; C "mesmo prédio, duas épocas, anos".
 
-## Thumb A · padrão `rosto-emocao` · par de T1 [r1]
-- Composição: Frederick Douglass em bonequinho de cabeça redonda grande (do peito para cima, ~65% da altura) no terço esquerdo, de frente, sobrancelhas franzidas e boca aberta (indignação), braço estendido apontando para fora do quadro à direita; atrás dele, desfocado, uma janela com fogos de artifício e bandeirolas vermelhas, brancas e azuis (a festa do Quatro de Julho de 1852). Elemento dominante: o rosto indignado. Fundo noturno azul-escuro com fogos dourados; degradê escuro no terço direito para o texto.
+## Thumb A · padrão `rosto-emocao` · par de T1 [MANTIDO, com a ressalva de execução do crivo r1]
+- Composição: Frederick Douglass em bonequinho de cabeça redonda grande (do peito para cima, ~65% da altura) no terço esquerdo, de frente, sobrancelhas franzidas e boca aberta (indignação), braço estendido apontando para trás, para a festa; atrás dele, por uma janela iluminada, um salão do Quatro de Julho de 1852 com bonequinhos de cartola brindando sob bandeirolas vermelhas, brancas e azuis e fogos no céu. **Ele está do lado de fora, no escuro, e a festa do lado de dentro, na luz** (ressalva r1: no estilo do canal toda cabeça é branca, então quem é o excluído tem de ler pela composição: ele fora, apontando; eles dentro, brindando; a cabeleira grisalha volumosa e o terno escuro de orador o identificam). Conferir na maquete 320×180 da skill `thumbnail` que "o excluído aponta para a festa" lê sem legenda. Elemento dominante: o rosto indignado. Fundo noturno azul-escuro com fogos dourados; degradê escuro no terço direito para o texto.
 - Texto: "IGUAIS?" (Libre Caslon 700 ouro #F7C21B, terço direito, grande; tipo palavra-pergunta), sem pílula de data (1 foco).
 - Promete: alguém indignado com a promessa de igualdade em plena festa nacional. Conversa com T1 sem repetir palavra: o título diz "prometeram o que NÃO cumpriam"; a thumb diz qual promessa (iguais?) e quem cobra. Juntos: que promessa, quem está bravo, e mesmo assim viraram potência?
 - Leitura a 320×180: 1 foco = o rosto indignado + "IGUAIS?".
@@ -74,22 +74,24 @@ Por que são 3 thumbs diferentes: composição (personagem à esquerda com texto
   | [cM9084oMpXc](https://youtu.be/cM9084oMpXc) (1 figura grande com emoção, fundo escuro) | Histórias Romanas | 189.882 | 04/04/2026 | 3,2 |
 - Desvio da bíblia: nenhum (é o estilo 1 "bonecos" do padrão de entrega).
 
-## Thumb B · padrão `objeto-simbolo` · par de T2 [r1]
-- Composição: um único pergaminho antigo do século XVIII, grande, centralizado e levemente inclinado, com linhas de caligrafia ilegível e fileiras de assinaturas ilegíveis embaixo, **rasgado de cima a baixo** no meio; do rasgo sai uma luz dourada forte. Uma pena de escrever caída ao lado, pequena. Elemento dominante: o pergaminho rasgado brilhando. Fundo escuro quase preto com luz de vela (contraste máximo contra o feed claro e cheio de bandeiras do tema).
-- Texto: nenhum (tipo: nenhum; o título carrega as palavras).
-- Promete: o documento fundador com uma fratura no meio = a frase tem um problema. Conversa com T2 sem repetir palavra: o título diz que "uma frase construiu" o país; a imagem mostra o documento rachado. Juntos: que frase? por que está rasgada? como algo rasgado construiu um país?
-- Leitura a 320×180: 1 foco = o pergaminho claro com o rasgo de luz sobre o preto.
-- Execução: Codex, 1 base: "a single old 18th-century parchment document, large and centered, slightly tilted, covered in lines of illegible faded handwriting and rows of illegible signatures, torn from top to bottom down the middle with strong golden light shining through the tear, a feather quill lying beside it, near-black background with candle light, no readable letters, no flags, no seals, no stamps". O roteiro paga a imagem: o original da Declaração está tão desbotado que mal se lê (National Archives) e a frase "rachada" é o fio.
-- Referências do padrão (objeto/símbolo isolado como elemento dominante): 
+## Thumb B · padrão `objeto-simbolo` · par de T2 [REESCRITO: crivo r1 reprovou o pergaminho rasgado (referências com texto/animal dominante, a Declaração nunca foi rasgada, a 320 px não diz EUA) → Sino da Liberdade rachado, fato 6 do BRIEF, + referências de objeto isolado dominante]
+- Composição: o **Sino da Liberdade** sozinho, enorme (~70% da altura), centralizado-esquerda, de frente, pendurado na trave de madeira escura, com a **rachadura vertical acesa por dentro em luz dourada**, como uma fratura que brilha; fundo quase preto com um halo quente atrás do sino. Nada mais em cena (sem pessoas, sem bandeira, sem prédio). Elemento dominante: o sino rachado. É o objeto-símbolo mais reconhecível dos EUA depois da Estátua da Liberdade (e, ao contrário dela, nenhuma thumb do tema usa).
+- Texto: "LIBERDADE" (Libre Caslon 700 ouro #F7C21B, uma linha no terço direito sobre o preto; tipo rótulo/nome, 1 palavra: é o nome do sino). Nenhuma letra no bronze (a inscrição real não é desenhada pela IA; o bronze sai liso).
+- Promete: o símbolo da liberdade americana tem uma rachadura. Conversa com T2 sem repetir palavra: o título diz que "uma frase construiu" o país; a thumb mostra a liberdade rachada. Juntos: que frase? por que a liberdade está rachada? como algo rachado construiu um país?
+- Leitura a 320×180: 1 foco = a silhueta de sino (lida em qualquer tamanho) com o risco de luz + 1 palavra.
+- Execução: Codex (fallback fal), 1 base: "the Liberty Bell alone, very large, hanging from a dark wooden yoke, front view, a long vertical crack glowing from inside with bright golden light, plain smooth bronze with no letters, near-black background with a warm halo behind the bell, no people, no flags, no buildings, no text". Texto no código.
+- Onde o vídeo paga (fato 6 do BRIEF; NPS Independence NHP "The Liberty Bell"): cap. 5 (~6:00–7:00) — o sino da Casa do Estado da Pensilvânia, com a inscrição de Levítico "proclamai liberdade em toda a terra a todos os seus habitantes", ganha o nome **"Sino da Liberdade" dos abolicionistas** em 1835 (*Anti-Slavery Record*); ninguém registrou quando rachou pela primeira vez (provavelmente no início dos anos 1840) e em 1846 um conserto falhou e ele nunca mais tocou. [REESCRITO r2: a âncora antiga dizia que o sino "já estava rachado" quando ganhou o nome, o que contraria o NPS] Frase-âncora: **"Os abolicionistas deram ao sino o nome de liberdade. Poucos anos depois, ele rachou. E em 1846, calou para sempre."** Também aparece no hook como imagem e frase curta ("quando Douglass sobe ao palco, em 1852, o Sino da Liberdade já está rachado e mudo") para quem clicou pela Thumb B ver o objeto no 1º minuto; volta no fecho (2026) como imagem. A "frase" do T2 é sempre "todos os homens são criados iguais", nunca a inscrição do sino (o roteiro deixa isso explícito).
+- Referências do padrão (objeto isolado como elemento dominante, sobre fundo escuro/limpo), conferidas em `refs.csv`/`medianas.json` e no mosaico `embalagem/refs-objeto.jpg`:
   | link | canal | views | data | mediana | ×med |
   |---|---|---|---|---|---|
-  | [iMlYg9RSKVM](https://youtu.be/iMlYg9RSKVM) (Estátua da Liberdade em silhueta como símbolo único, tema EUA, en) | PragerU | 1.540.543 | 05/01/2026 | 28.800 | 53,5 |
-  | [wMFP6PadPmQ](https://youtu.be/wMFP6PadPmQ) (o animal-símbolo dominante, pt) | Além do Mapa | 28.420 | 07/10/2026 | 2.547 | 11,2 |
-  | apoio do tema: [H24QejsEFQ8](https://youtu.be/H24QejsEFQ8) (pergaminho como fundo dominante da frase de 1776, en) | Discovery Science | 430.873 | 04/05/2026 | 4.744 | 90,8 |
-  Evidência de nicho amplo declarada (padrão de exploração): canais explicativos pt/en ≤ 400 d.
-- Desvio da bíblia: nenhum (a bíblia prevê o 3º estilo livre "close dramático e escuro do mistério", como o 004 "NUNCA ABERTO"; aqui sem bonequinho).
+  | [xqRcL-x9Fjc](https://youtu.be/xqRcL-x9Fjc) "A descoberta que enganou o mundo por 40 anos" (o crânio de Piltdown sozinho sobre preto, pt) | Canal History Brasil | 76.057 | 28/08/2026 | ~5.430 | 14,0 |
+  | [u9Y4IMLQOag](https://youtu.be/u9Y4IMLQOag) "A Descoberta do 3I/ATLAS — O Objeto Que Mudou a Astronomia" (o objeto sozinho domina, pt) | Gênese Infinita | 9.436 | 20/10/2025 | ~665 | 14,2 |
+  | apoio do tema (o sino como o visual do assunto, en): [C6NdJBj0v9c](https://youtu.be/C6NdJBj0v9c) "The Liberty Bell: America's Cracked Symbol of Freedom" (sino isolado ao centro) | Past & Glory | 242 | 24/03/2026 | ~14 | 17,3 |
+  | apoio do tema: [duv8aNHz4dM](https://youtu.be/duv8aNHz4dM) "Why Did the Liberty Bell Crack?" (sino dominante) | KCW Attractions | 2.158 | 10/05/2026 | ~227 | 9,5 |
+  Evidência de nicho amplo declarada (padrão de exploração): canais explicativos de história/ciência pt ≤ 400 d; o sino no tema só em canais pequenos (apoio).
+- Desvio da bíblia: nenhum (3º estilo livre "close dramático e escuro", como o 004 "NUNCA ABERTO"; sem bonequinho).
 
-## Thumb C · padrão `antes-depois` · par de T3 [r1]
+## Thumb C · padrão `antes-depois` · par de T3 [MANTIDO]
 - Composição: tela dividida ao meio por uma linha vertical limpa. Esquerda (1776): o Independence Hall de tijolos com a torre do sino, pequeno numa rua de terra, carroça, poucos bonequinhos de tricórnio, tons sépia. Direita (2026): o **mesmo** prédio, mesmo ângulo, agora pequeno entre arranha-céus de vidro, multidão de turistas, céu azul vivo. Elemento dominante: o mesmo prédio nas duas épocas (o salto de escala). Sem bandeira.
 - Texto: "1776" no pé da metade esquerda e "2026" no pé da direita (Open Sans 800 branco com contorno preto; tipo números), sem seta.
 - Promete: o tamanho da transformação desde o prédio onde tudo foi assinado. Conversa com T3 sem repetir palavra: o título pergunta como 13 colônias viraram potência e dá a pista (promessa); a thumb mostra o salto e o lugar onde a promessa foi assinada. Juntos: o que aconteceu entre 1776 e 2026 dentro daquele prédio pequeno?
@@ -105,10 +107,10 @@ Por que são 3 thumbs diferentes: composição (personagem à esquerda com texto
 - Desvio da bíblia: nenhum.
 
 ## Obrigações (contrato com as próximas skills)
-- **roteiro:** o hook (≤ 0:45) é Douglass em Rochester, 5/7/1852, com a pergunta dele dita em cena; a pergunta central, dita como pergunta até ~0:50 e igual à `PERGUNTA` do `roteiro.py`: **"Como um país fundado numa frase que ele mesmo não cumpria virou a maior potência do mundo?"** (frase-âncora); até 1:15, "essa frase vai ser cobrada… cada cobrança muda o país". A **1ª peça da resposta** (a frase escrita + quem a cobrou primeiro: Abigail, 1776) entra até ~4:00; o lado "potência" (indústria com imigrantes ~1890, metade da produção mundial em 1945) entra de verdade nos caps. 7 e 9, não só no fecho. **T2 paga** no cap. 2 (a frase escrita, o parágrafo cortado) até ~3:30; **T3 paga** (13 colônias → potência; "a promessa") ao longo de todas as eras, com a resposta explícita no fecho. **Thumb A paga** no hook (Douglass, Quatro de Julho, "iguais"); **Thumb B** (pergaminho desbotado/rachado) no cap. 2 ou no fecho (o original desbotado no National Archives); **Thumb C** (Independence Hall) no cap. 2 (onde foi assinada) e no fecho (2026). Não prometer nada fora disto; tom factual, sem julgar o presente.
-- **thumbnail:** 3 artes, **uma por conceito** (A Douglass "IGUAIS?", B pergaminho rasgado sem texto, C Independence Hall 1776 × 2026), nunca 3 variações do mesmo.
+- **roteiro:** o hook (≤ 0:45) é Douglass em Rochester, 5/7/1852, com a pergunta dele dita em cena; a pergunta central, dita como pergunta até ~0:50 e igual à `PERGUNTA` do `roteiro.py`: **"Como um país fundado numa frase que ele mesmo não cumpria virou a maior potência do mundo?"** (frase-âncora); até 1:15, "essa frase vai ser cobrada… cada cobrança muda o país". A **1ª peça da resposta** (a frase escrita + quem a cobrou primeiro: Abigail, 1776) entra até ~4:00; o lado "potência" (indústria com imigrantes ~1890, metade da produção mundial em 1945) entra de verdade nos caps. 7 e 9, não só no fecho. **T2 paga** no cap. 2 (a frase escrita, o parágrafo cortado) até ~3:30; **T3 paga** (13 colônias → potência; "a promessa") ao longo de todas as eras, com a resposta explícita no fecho, que **confirma** o T2 (crivo r1): "a frase construiu o país porque estava escrita e qualquer um podia cobrá-la". **Thumb A paga** no hook (Douglass, Quatro de Julho, "iguais"); **Thumb B** (o Sino da Liberdade rachado) no cap. 5, ~6:00–7:00, com a frase-âncora "Os abolicionistas deram ao sino o nome de liberdade. Poucos anos depois, ele rachou. E em 1846, calou para sempre." (nome em 1835 no *Anti-Slavery Record*; 1ª rachadura sem registro, provavelmente início dos anos 1840; mudo desde o conserto falho de 1846; NPS), e já como imagem + 1 frase no hook ("em 1852 o Sino da Liberdade já está rachado e mudo") e no fecho; a "frase" do T2 é "todos os homens são criados iguais", dito com essas palavras no cap. 2; **Thumb C** (Independence Hall) no cap. 2 (onde foi assinada) e no fecho (2026). Não prometer nada fora disto; tom factual, sem julgar o presente.
+- **thumbnail:** 3 artes, **uma por conceito** (A Douglass do lado de fora da festa "IGUAIS?", B Sino da Liberdade rachado "LIBERDADE", C Independence Hall 1776 × 2026), nunca 3 variações do mesmo.
 - **pacote-youtube:** título A = T1, B = T2, C = T3 (pareados às thumbs A/B/C), com o padrão de cada par no `youtube.txt`; regrava `embalagem/variantes.json` + `embalagem_variantes.py registrar` com títulos finais e arquivos.
 - **qa:** conferir na `legendas.srt` a pergunta central (≤ 0:50) e Douglass no hook; cada thumb final contra o seu conceito (e que as 3 seguem diferentes).
 
 ## Crivo
-Rodada r1: (aguardando) (CRIVO.md)
+Rodada r1: REPROVADO 5 de 6 (só Thumb B: pergaminho rasgado sem referência de objeto e sem fato; ressalvas na A e no fecho) → r2: Thumb B reescrita (Sino da Liberdade), A com a ressalva na execução. Rodada r2: REPROVADO só nas Obrigações (6 de 6 elementos aprovados; âncora da Thumb B contrariava o NPS: o nome veio em 1835, antes da rachadura) → r3: âncora corrigida + sino no hook. Rodada r3: **APROVADO (6 de 6)** (CRIVO.md = embalagem/crivo-r3.md)

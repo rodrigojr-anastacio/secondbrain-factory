@@ -1,5 +1,26 @@
 [
- {"letra": "A", "titulo": "Os EUA prometeram o que NÃO cumpriam. Como viraram potência?", "padrao_titulo": "afirmação estranha + pergunta", "padrao_thumb": "rosto-emocao", "thumb_conceito": "Douglass bonequinho indignado apontando, festa do 4 de Julho ao fundo, texto à direita", "thumb_texto": "IGUAIS?"},
- {"letra": "B", "titulo": "Como UMA FRASE construiu os Estados Unidos", "padrao_titulo": "Como [coisa concreta] construiu [lugar]", "padrao_thumb": "objeto-simbolo", "thumb_conceito": "pergaminho antigo isolado rasgado ao meio com luz dourada saindo do rasgo, fundo preto", "thumb_texto": ""},
- {"letra": "C", "titulo": "Como 13 colônias viraram potência? A resposta é uma PROMESSA", "padrao_titulo": "ascensão + fato-surpresa", "padrao_thumb": "antes-depois", "thumb_conceito": "Independence Hall em 1776 (sépia) × 2026 (entre arranha-céus), tela dividida vertical", "thumb_texto": "1776 2026"}
+ {
+  "letra": "A",
+  "titulo": "Os EUA prometeram o que NÃO cumpriam. Como viraram potência?",
+  "padrao_titulo": "afirmação estranha + pergunta",
+  "padrao_thumb": "rosto-emocao",
+  "thumb_conceito": "Douglass bonequinho indignado do lado de fora apontando para a festa do 4 de Julho na janela iluminada, texto à direita",
+  "thumb_texto": "IGUAIS?"
+ },
+ {
+  "letra": "B",
+  "titulo": "Como UMA FRASE construiu os Estados Unidos",
+  "padrao_titulo": "Como [coisa concreta] construiu [lugar]",
+  "padrao_thumb": "objeto-simbolo",
+  "thumb_conceito": "Sino da Liberdade isolado e enorme com a rachadura acesa em ouro, fundo preto, texto à direita",
+  "thumb_texto": "LIBERDADE"
+ },
+ {
+  "letra": "C",
+  "titulo": "Como 13 colônias viraram potência? A resposta é uma PROMESSA",
+  "padrao_titulo": "ascensão + fato-surpresa",
+  "padrao_thumb": "antes-depois",
+  "thumb_conceito": "Independence Hall em 1776 (sépia) × 2026 (entre arranha-céus), tela dividida vertical",
+  "thumb_texto": "1776 2026"
+ }
 ]
