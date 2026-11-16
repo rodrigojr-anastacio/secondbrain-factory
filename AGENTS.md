@@ -50,7 +50,7 @@ fabrica-youtube/
 Python: `~/workspace/fabrica-youtube/tools/.venv/bin/python`. Rode os scripts a partir de `tools/`.
 
 ## Recursos fora da fábrica
-- **Segredos:** `~/.segredos/` (permissão 600). Tokens do YouTube em `~/.segredos/youtube/tokens/<canal>.json`. Nunca imprima, copie ou commite.
+- **Segredos:** `~/.segredos/` (permissão 600). Tokens do YouTube em `~/.segredos/youtube/tokens/<canal>.json`. Token NASA Earthdata (dados de chuva/radar GPM/IMERG no GES DISC, usado pelo Em Relevo; vale até 15/01/2027) em `~/.segredos/nasa/earthdata.env` (`EARTHDATA_TOKEN`, header `Authorization: Bearer`; app "NASA GESDISC DATA ARCHIVE" autorizado na conta em 16/11/2026). Nunca imprima, copie ou commite.
 - **Codex CLI (ChatGPT Plus do Rodrigo, 14/11/2026):** `~/.local/bin/codex`, login já feito (`~/.codex/auth.json`: nunca leia nem imprima). Gera imagens pela cota do Plus via `tools/img_codex.py` (só no `historia-ptbr`; fallback fal automático). Uso e limites: `tools/codex_uso.sh`. Armadilhas: `conhecimento/anti-padroes.md` §3d.
 - **Voz Kokoro (local, grátis):** `~/tts/venv-kokoro/bin/python`; exemplo em `~/tts/gen_kokoro.py`.
 - **Proxy WARP:** `socks5://127.0.0.1:40000`, para tudo que acessa o YouTube como usuário (assistir, baixar, abrir a página). O YouTube bloqueia o IP da VPS.
