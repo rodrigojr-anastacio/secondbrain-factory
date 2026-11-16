@@ -1,0 +1,159 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/lugares-guerra-en/videos/004-pearl-harbor/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.0564,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 0,
+  "medio": 5,
+  "baixo": 6
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q02",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "P028 DocGrifo (1:50): o título do formulário ('...w to Complete National Register Fo') aparece cortado pela borda esquerda e direita no topo. Pode ser o zoom intencional do DocGrifo, mas o texto cortado fica no alto do quadro.",
+   "t": null,
+   "arquivo": "grade_r_02.jpg"
+  },
+  {
+   "quadro": "Q04",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "P080 e P081 (5:50, 5:52, 6:01): o selo '1985 NATIONAL HISTORIC LANDMARK' e o selo '81' ficam por cima do texto do documento e da foto, cobrindo parte do cabeçalho do formulário ('...ete applicable...'). Atrapalha a leitura de forma discreta.",
+   "t": null,
+   "arquivo": "grade_r_04.jpg"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "P177 KenBurns (14:10): foto de época com contraste estourado (preto e branco chapado, quase sem meios-tons), ficando distinta das outras fotos de arquivo. Pode ser efeito de transição/tratamento; na dúvida entre estilo e defeito.",
+   "t": null,
+   "arquivo": "grade_r_08.jpg"
+  },
+  {
+   "quadro": "Q05",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "P110 KenBurns (8:17): o texto da vitrine ('7 DECEMBER 1941') fica cortado no topo da imagem pelo zoom, e em P109 (8:14) o título 'THE HICKAM FLAG' encosta na borda superior. Parece ser enquadramento da foto real, não texto da tela.",
+   "t": null,
+   "arquivo": "grade_r_05.jpg"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "No quadro P187 a bandeira exibida (\"THE HICKAM FLAG - 7 DECEMBER 1941\") tem o tamanho e o enquadramento cortados nas bordas, e a foto tem reflexos de vitrine. Em dúvida entre estilo e defeito: a bandeira de 48 estrelas é coerente com 1941, então não há anacronismo claro.",
+   "t": null,
+   "arquivo": "grade_r_09.jpg"
+  },
+  {
+   "quadro": "Q04",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "P080/P083/P086 DocGrifo: cabeçalho do documento cortado no topo (ex.: 'ow to Complete National Re…' e linhas cortadas nas laterais em 6:26). Parece ser o zoom do DocGrifo, mas o texto vem cortado.",
+   "t": null,
+   "arquivo": "grade_r_04.jpg"
+  },
+  {
+   "quadro": "Q04",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "P071 Filme (5:04): contador/timecode de câmera ('00:20:31:15 RTC') visível no rodapé da imagem de arquivo, sobreposto à ficha. É um artefato do filme original, mas aparece como texto sujo na tela.",
+   "t": null,
+   "arquivo": "grade_r_04.jpg"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "P169 Filme (13:37): timecode de câmera ('00:20:47:12 RTC') visível no rodapé do filme de arquivo, colado em cima da ficha.",
+   "t": null,
+   "arquivo": "grade_r_08.jpg"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "P154/P156 DocGrifo (11:56 a 12:07): título da página web ('...SS Utah Memorials', 'd USS Utah Memorials') cortado na borda esquerda do topo do quadro. Parece ser efeito do zoom do DocGrifo.",
+   "t": null,
+   "arquivo": "grade_r_07.jpg"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Os quadros P184, P185, P186 e P189 repetem a mesma foto do prédio do Hickam com recortes quase idênticos, o que dá pouca variedade visual (ritmo de slideshow, contra a diretriz do canal).",
+   "t": null,
+   "arquivo": "grade_r_09.jpg"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "No P187 o título \"THE HICKAM FLAG - 7 DECEMBER 1941\" faz parte da foto e fica rente à borda superior, quase cortado. A etiqueta de tempo do quadro cobre parte do topo da imagem.",
+   "t": null,
+   "arquivo": "grade_r_09.jpg"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": null,
+   "nome": "grade_r_01.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": null,
+   "nome": "grade_r_02.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": null,
+   "nome": "grade_r_03.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": null,
+   "nome": "grade_r_04.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": null,
+   "nome": "grade_r_05.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": null,
+   "nome": "grade_r_06.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": null,
+   "nome": "grade_r_07.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": null,
+   "nome": "grade_r_08.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": null,
+   "nome": "grade_r_09.jpg",
+   "sinais": []
+  }
+ ]
+}

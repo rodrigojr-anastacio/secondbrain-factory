@@ -214,7 +214,10 @@
     "DEC 7, 1941",
     "PEARL HARBOR"
    ],
-   "em": "and they come from one morning:"
+   "em": "and they come from one morning:",
+   "tin": 0.5,
+   "tout": 6.5,
+   "vel": 1.0
   },
   {
    "id": "P006",
@@ -232,7 +235,10 @@
     "",
     "U.S. Navy (Naval Photographic Center), National Archives, NAID 76168"
    ],
-   "em": "This is Pearl Harbor,"
+   "em": "This is Pearl Harbor,",
+   "tin": 24.0,
+   "tout": 31.0,
+   "vel": 1.0
   },
   {
    "id": "P007",
@@ -457,7 +463,7 @@
    "enq": "mapa:porto",
    "inicio": 42.14,
    "dur": 8.57,
-   "frase": "It sits on what was once Hickam Field, about two miles from the dock where tourists board the boat to the USS Arizona Memorial.",
+   "frase": "It sits on what was once Hickam Field, a few miles from the dock where tourists board the boat to the USS Arizona Memorial.",
    "real": false,
    "reuso": false,
    "nome": "porto",
@@ -471,10 +477,11 @@
     [
      "VISITOR CENTER",
      "PACAF HQ (HALE MAKAI)",
-     "~2 MILES"
+     "A FEW MILES"
     ]
    ],
-   "nota": "linha reta Visitor Center → QG; conferir distância",
+   "selo": "SCHEMATIC",
+   "nota": "linha reta Visitor Center → QG (~2,6–2,9 mi)",
    "em": "It sits on what was once Hickam Field,"
   },
   {
@@ -1228,7 +1235,10 @@
     "",
     "U.S. Navy (Naval Photographic Center), National Archives, NAID 77339"
    ],
-   "em": "And a flight of twelve more B-17s"
+   "em": "And a flight of twelve more B-17s",
+   "tin": 4.0,
+   "tout": 12.0,
+   "vel": 1.0
   },
   {
    "id": "P045",
@@ -1306,7 +1316,10 @@
     "",
     "U.S. Navy (Naval Photographic Center), National Archives, NAID 76168"
    ],
-   "em": "Minutes later, a message went out."
+   "em": "Minutes later, a message went out.",
+   "tin": 2.0,
+   "tout": 8.0,
+   "vel": 1.0
   },
   {
    "id": "P048",
@@ -1390,7 +1403,10 @@
     "",
     "U.S. Navy (Naval Photographic Center), National Archives, NAID 76168"
    ],
-   "em": "Either way, the warning came after"
+   "em": "Either way, the warning came after",
+   "tin": 9.0,
+   "tout": 16.0,
+   "vel": 1.0
   },
   {
    "id": "P052",
@@ -1505,7 +1521,10 @@
     "",
     "U.S. Navy (Naval Photographic Center), National Archives, NAID 76168"
    ],
-   "em": "They were unarmed,"
+   "em": "They were unarmed,",
+   "tin": 14.0,
+   "tout": 21.0,
+   "vel": 1.0
   },
   {
    "id": "P057",
@@ -1604,6 +1623,7 @@
      ""
     ]
    ],
+   "selo": "SCHEMATIC",
    "nota": "onde pousaram os 12 B-17 (AF-FS)",
    "em": "The Air Force lists one at Bellows Field,"
   },
@@ -1778,7 +1798,10 @@
     "",
     "U.S. Navy (Naval Photographic Center), National Archives, NAID 76171"
    ],
-   "em": "Planes strafed it."
+   "em": "Planes strafed it.",
+   "tin": 30.0,
+   "tout": 37.0,
+   "vel": 1.0
   },
   {
    "id": "P067",
@@ -1912,7 +1935,10 @@
     "",
     "U.S. Navy (Naval Photographic Center), National Archives, NAID 76169"
    ],
-   "em": "The building was repaired."
+   "em": "The building was repaired.",
+   "tin": 4.0,
+   "tout": 11.0,
+   "vel": 1.0
   },
   {
    "id": "P072",
@@ -3293,6 +3319,7 @@
     "PACAF HQ (HALE MAKAI)"
    ],
    "linhas": [],
+   "selo": "SCHEMATIC",
    "nota": "pontos do memorial em amarelo; o QG (fora do memorial) em vermelho",
    "em": "And on the Park Service's own list,"
   },
@@ -3480,7 +3507,10 @@
     "",
     "U.S. Navy (Naval Photographic Center), National Archives, NAID 76169"
    ],
-   "em": "and one big hangar was gutted."
+   "em": "and one big hangar was gutted.",
+   "tin": 6.0,
+   "tout": 13.0,
+   "vel": 1.0
   },
   {
    "id": "P132",
@@ -3719,7 +3749,10 @@
     "",
     "U.S. Navy (Naval Photographic Center), National Archives, NAID 76171"
    ],
-   "em": "That night, American fighters"
+   "em": "That night, American fighters",
+   "tin": 40.0,
+   "tout": 47.0,
+   "vel": 1.0
   },
   {
    "id": "P141",
@@ -3737,7 +3770,10 @@
     "",
     "U.S. Navy (Naval Photographic Center), National Archives, NAID 76171"
    ],
-   "em": "Nervous gunners opened fire,"
+   "em": "Nervous gunners opened fire,",
+   "tin": 10.0,
+   "tout": 17.0,
+   "vel": 1.0
   },
   {
    "id": "P142",
@@ -4483,7 +4519,10 @@
     "",
     "U.S. Navy (Naval Photographic Center), National Archives, NAID 76169"
    ],
-   "em": "It's a powerful visit,"
+   "em": "It's a powerful visit,",
+   "tin": 20.0,
+   "tout": 27.0,
+   "vel": 1.0
   },
   {
    "id": "P170",
@@ -4593,7 +4632,7 @@
    "enq": "pan-dir",
    "inicio": 853.21,
    "dur": 6.43,
-   "frase": "About two miles away, the Big Barracks still stands, with its walls the way the morning left them.",
+   "frase": "A few miles away, the Big Barracks still stands, with its walls the way the morning left them.",
    "real": true,
    "reuso": true,
    "ficha": [
@@ -4611,7 +4650,7 @@
     0.5,
     1.12
    ],
-   "em": "About two miles away,"
+   "em": "A few miles away,"
   },
   {
    "id": "P175",

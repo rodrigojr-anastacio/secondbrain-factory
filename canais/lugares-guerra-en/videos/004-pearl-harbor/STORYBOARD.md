@@ -44,11 +44,11 @@ Componentes: Card 1, Cartela 9, DocGrifo 14, Dupla 28, EntaoAgora 5, Filme 12, K
 | P014 | 0:35 | 7.1 | KenBurns | `hoje_pacaf_qg_staff_ride.jpg` zoom-out (0.5, 0.5, 1.16)→(0.5, 0.5, 1.04) · Ficha: TODAY · PACAF HEADQUARTERS · Número «PACAF PACIFIC AIR FORCES HEADQUARTERS» | This wall belongs to a working headquarters: Pacific Air Forces, the command for American … |
 
 ## B02b [0:42]
-> It sits on what was once Hickam Field, about two miles from the dock where tourists board the boat to the USS Arizona Memorial. On the other side of a gate. In 1941, this was a barracks. A young military policeman named Durward Swanson slept here.
+> It sits on what was once Hickam Field, a few miles from the dock where tourists board the boat to the USS Arizona Memorial. On the other side of a gate. In 1941, this was a barracks. A young military policeman named Durward Swanson slept here.
 
 | # | t | s | tela | material / parâmetros | cobre |
 |---|---|---|---|---|---|
-| P015 | 0:42 | 8.6 | Mapa2D | mapa porto (VISITOR CENTER, USS ARIZONA MEMORIAL, FORD ISLAND, PACAF HQ (HALE MAKAI)) · linha reta Visitor Center → QG; conferir distância | It sits on what was once Hickam Field, about two miles from the dock where tourists board … |
+| P015 | 0:42 | 8.6 | Mapa2D | mapa porto (VISITOR CENTER, USS ARIZONA MEMORIAL, FORD ISLAND, PACAF HQ (HALE MAKAI)) · Selo SCHEMATIC · linha reta Visitor Center → QG (~2,6–2,9 mi) | It sits on what was once Hickam Field, a few miles from the dock where tourists board the … |
 | P016 | 0:50 | 2.5 | KenBurns ♻ | `hoje_jbphh_portao_omalley_b.jpg` zoom-in (0.5, 0.5, 1.04)→(0.5, 0.5, 1.16) · Ficha: TODAY · JBPHH, ENTRY CONTROL | On the other side of a gate. |
 | P017 | 0:53 | 5.4 | KenBurns | `foto_hickam_quartel_hangar_ave_1941.jpg` zoom-in (0.5, 0.5, 1.04)→(0.5, 0.5, 1.16) · Ficha: DEC 7, 1941 · HICKAM FIELD · Número «DURWARD SWANSON MILITARY POLICE · HICKAM FIELD, 1941» | In 1941, this was a barracks. A young military policeman named Durward Swanson slept here. |
 
@@ -182,7 +182,7 @@ Componentes: Card 1, Cartela 9, DocGrifo 14, Dupla 28, EntaoAgora 5, Filme 12, K
 | # | t | s | tela | material / parâmetros | cobre |
 |---|---|---|---|---|---|
 | P058 | 4:08 | 2.1 | KenBurns | `foto_hickam_cratera_hangares_1941.jpg` zoom-in (0.5, 0.5, 1.04)→(0.5, 0.5, 1.16) · Ficha: DEC 7, 1941 · HICKAM FIELD | Their crews landed wherever they could. |
-| P059 | 4:10 | 10.0 | Mapa2D | mapa oahu (HICKAM FIELD, WHEELER, BELLOWS, KAHUKU, HALEIWA) · onde pousaram os 12 B-17 (AF-FS) | The Air Force lists one at Bellows Field, one at Wheeler, one on a golf course at Kahuku, … |
+| P059 | 4:10 | 10.0 | Mapa2D | mapa oahu (HICKAM FIELD, WHEELER, BELLOWS, KAHUKU, HALEIWA) · Selo SCHEMATIC · onde pousaram os 12 B-17 (AF-FS) | The Air Force lists one at Bellows Field, one at Wheeler, one on a golf course at Kahuku, … |
 | P060 | 4:20 | 2.5 | KenBurns | `foto_hickam_aerea_7dez.jpg` zoom-in (0.5, 0.5, 1.04)→(0.5, 0.5, 1.16) · Ficha: DEC 7, 1941 · HICKAM FIELD | and the rest at Hickam, under attack. |
 | P061 | 4:23 | 1.8 | KenBurns | `foto_hickam_hangar11_1941.jpg` pan-dir (0.44, 0.5, 1.12)→(0.56, 0.5, 1.12) · Ficha: DEC 7, 1941 · HICKAM FIELD | Three hangars took direct hits. |
 
@@ -397,7 +397,7 @@ Componentes: Card 1, Cartela 9, DocGrifo 14, Dupla 28, EntaoAgora 5, Filme 12, K
 
 | # | t | s | tela | material / parâmetros | cobre |
 |---|---|---|---|---|---|
-| P124 | 9:38 | 11.8 | Mapa2D | mapa memorial (VISITOR CENTER, USS ARIZONA MEMORIAL, FORD ISLAND, USS UTAH MEMORIAL, PACAF HQ (HALE MAKAI)) · pontos do memorial em amarelo; o QG (fora do memorial) em vermelho | And on the Park Service's own list, the memorial is the Arizona, the Oklahoma and Utah mem… |
+| P124 | 9:38 | 11.8 | Mapa2D | mapa memorial (VISITOR CENTER, USS ARIZONA MEMORIAL, FORD ISLAND, USS UTAH MEMORIAL, PACAF HQ (HALE MAKAI)) · Selo SCHEMATIC · pontos do memorial em amarelo; o QG (fora do memorial) em vermelho | And on the Park Service's own list, the memorial is the Arizona, the Oklahoma and Utah mem… |
 | P125 | 9:50 | 2.5 | KenBurns ♻ | `hoje_hickam_qg_marcas_tiro.jpg` zoom-out (0.5, 0.5, 1.16)→(0.5, 0.5, 1.04) · Ficha: TODAY · HICKAM, PACAF HEADQUARTERS | The barracks at Hickam aren't on it. |
 
 ## B12g [9:52]
@@ -562,12 +562,12 @@ Componentes: Card 1, Cartela 9, DocGrifo 14, Dupla 28, EntaoAgora 5, Filme 12, K
 | P172 | 14:01 | 5.4 | KenBurns | `foto_ford_aerea_1941-11-10.jpg` detalhe:0.6,0.55 (0.6, 0.55, 1.35)→(0.6, 0.55, 1.55) · Ficha: NOV 10, 1941 · FORD ISLAND | Here it is four weeks before the attack, with the battleships moored along its edge. |
 
 ## B17c [14:06]
-> And here it is now, still an airfield shape in the middle of the harbor, still behind a gate. About two miles away, the Big Barracks still stands, with its walls the way the morning left them. Here it is in 1941, burning.
+> And here it is now, still an airfield shape in the middle of the harbor, still behind a gate. A few miles away, the Big Barracks still stands, with its walls the way the morning left them. Here it is in 1941, burning.
 
 | # | t | s | tela | material / parâmetros | cobre |
 |---|---|---|---|---|---|
 | P173 | 14:06 | 6.8 | EntaoAgora ♻ | `foto_ford_aerea_1941-11-10.jpg` (NOV 10, 1941) × `hoje_ford_aerea_2022a.jpg` (2022) | And here it is now, still an airfield shape in the middle of the harbor, still behind a ga… |
-| P174 | 14:13 | 6.4 | KenBurns ♻ | `hoje_hickam_predio_marcas_tiro_134arw.jpg` pan-dir (0.44, 0.5, 1.12)→(0.56, 0.5, 1.12) · Ficha: TODAY · HICKAM, 'BUILDINGS WITH BULLET HOLES' | About two miles away, the Big Barracks still stands, with its walls the way the morning le… |
+| P174 | 14:13 | 6.4 | KenBurns ♻ | `hoje_hickam_predio_marcas_tiro_134arw.jpg` pan-dir (0.44, 0.5, 1.12)→(0.56, 0.5, 1.12) · Ficha: TODAY · HICKAM, 'BUILDINGS WITH BULLET HOLES' | A few miles away, the Big Barracks still stands, with its walls the way the morning left t… |
 | P175 | 14:19 | 2.1 | KenBurns ♻ | `foto_hickam_quartel_hangar_ave_1941.jpg` zoom-in (0.5, 0.5, 1.04)→(0.5, 0.5, 1.16) · Ficha: DEC 7, 1941 · HICKAM FIELD | Here it is in 1941, burning. |
 
 ## B17d [14:21]

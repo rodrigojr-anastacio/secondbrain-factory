@@ -196,8 +196,8 @@ bloco("B02a",
       kb("This wall belongs to a working headquarters:", STAFF, "zoom-out", num=("PACAF", "PACIFIC AIR FORCES HEADQUARTERS")),
       ideia=True)
 bloco("B02b",
-      mapa("It sits on what was once Hickam Field,", "porto", MAPA_PORTO, [("VISITOR CENTER", "PACAF HQ (HALE MAKAI)", "~2 MILES")],
-           nota="linha reta Visitor Center → QG; conferir distância"),
+      mapa("It sits on what was once Hickam Field,", "porto", MAPA_PORTO, [("VISITOR CENTER", "PACAF HQ (HALE MAKAI)", "A FEW MILES")],
+           selo="SCHEMATIC", nota="linha reta Visitor Center → QG (~2,6–2,9 mi)"),
       kb("On the other side of a gate.", GATEB, "zoom-in"),
       kb("In 1941, this was a barracks.", QUARTEL41, "zoom-in", num=("DURWARD SWANSON", "MILITARY POLICE · HICKAM FIELD, 1941")))
 bloco("B02c",
@@ -268,7 +268,7 @@ bloco("B06b",
       kb("Their crews landed wherever they could.", "foto_hickam_cratera_hangares_1941.jpg", "zoom-in"),
       mapa("The Air Force lists one at Bellows Field,", "oahu", ["HICKAM FIELD", "WHEELER", "BELLOWS", "KAHUKU", "HALEIWA"],
            [("HICKAM FIELD", "BELLOWS", ""), ("HICKAM FIELD", "WHEELER", ""), ("HICKAM FIELD", "KAHUKU", ""), ("HICKAM FIELD", "HALEIWA", "")],
-           nota="onde pousaram os 12 B-17 (AF-FS)"),
+           selo="SCHEMATIC", nota="onde pousaram os 12 B-17 (AF-FS)"),
       kb("and the rest at Hickam, under attack.", "foto_hickam_aerea_7dez.jpg", "zoom-in"),
       kb("Three hangars took direct hits.", "foto_hickam_hangar11_1941.jpg", "pan-dir"))
 bloco("B06c",
@@ -375,7 +375,7 @@ bloco("B12e",
       kb("But the law doesn't list the places.", "hoje_arizona_memorial_visita_2012.jpg", "pan-dir"))
 bloco("B12f",
       mapa("And on the Park Service's own list,", "memorial", ["VISITOR CENTER", "USS ARIZONA MEMORIAL", "FORD ISLAND", "USS UTAH MEMORIAL", "PACAF HQ (HALE MAKAI)"], [],
-           nota="pontos do memorial em amarelo; o QG (fora do memorial) em vermelho"),
+           selo="SCHEMATIC", nota="pontos do memorial em amarelo; o QG (fora do memorial) em vermelho"),
       kb("The barracks at Hickam aren't on it.", WALL, "zoom-out"))
 bloco("B12g",
       dupla("So the most visited part", "hoje_arizona_barco_visitantes_fuqua.jpg", PRED, "NATIONAL PARK", "NOT ON THE LIST"),
@@ -456,7 +456,7 @@ bloco("B17b",
       kb("Here it is four weeks before the attack,", FORD41, "detalhe:0.6,0.55"))
 bloco("B17c",
       ea("And here it is now,", FORD41, FORD22, "NOV 10, 1941", "2022"),
-      kb("About two miles away,", PRED, "pan-dir"),
+      kb("A few miles away,", PRED, "pan-dir"),
       kb("Here it is in 1941, burning.", QUARTEL41, "zoom-in"))
 bloco("B17d",
       ea("And here it is today,", QUARTEL41, WALL, "1941", "TODAY"),
@@ -663,7 +663,7 @@ def main():
                    inicio_est=b["inicio"], dur_est=b["dur"]) for b in B]
     chaves = ["id", "bloco", "tipo", "arq", "arq2", "enq", "inicio", "dur", "frase", "real", "reuso", "ficha", "ficha2", "num", "de", "para",
               "crop", "regiao", "frase_doc", "grifo", "literal", "valor", "rotulo", "nome", "pontos", "linhas", "selo", "nota",
-              "rot1", "rot2", "em"]
+              "rot1", "rot2", "em", "tin", "tout", "vel"]
     sb = [{k: q[k] for k in chaves if k in q and q[k] is not None} for q in planos]
     (AQUI / "blocos.json").write_text(json.dumps(blocos, ensure_ascii=False, indent=1) + "\n")
     (AQUI / "storyboard.json").write_text(json.dumps(dict(stats=stats, pontos=P, planos=sb), ensure_ascii=False, indent=1) + "\n")

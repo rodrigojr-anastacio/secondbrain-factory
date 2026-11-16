@@ -44,3 +44,8 @@ Remotion 1080p30; render completo no Runpod (`tools/render_runpod.sh`), VPS só 
 - Número com texto longo: encolher/quebrar em 2 linhas; Cartela com linha longa: fonte proporcional (o pré-QA pegou os dois). Glifo ◆ vira losango CSS (a fonte mono não tem).
 - Captura de página web inteira (alta e estreita) fica ilegível: usar `regiao` do topo. Página do NPS sobre o crânio de 2015 não serve de fundo para a frase do "graveyard".
 - Thumbs: nano-banana devolve moldura/letterbox; pedir "full-bleed, no border" e recortar se ainda vier.
+
+## Lições do 004 Pearl Harbor (16/11/2026; `videos/004-pearl-harbor/ETAPA2.md`) — Hipótese até ter retenção
+- Filmes NARA 76169 trazem timecode "RTC" no rodapé: recortar 12% embaixo (`Filme` em `componentes.jsx`); o pré-QA automático não pegou, a contact sheet sim.
+- Mapa de porto/bairro: o Natural Earth 50m não serve (sem o porto); usar mapa esquemático sem terra (SCHEMATIC · POSITIONS APPROXIMATE) ou foto aérea PD georreferenciada.
+- Distância citada no roteiro: medir com coordenadas antes da voz (a "about two miles" do rascunho era 2,6–2,9 mi).

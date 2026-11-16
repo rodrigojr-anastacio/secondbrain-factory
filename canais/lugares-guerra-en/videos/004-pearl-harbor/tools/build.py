@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Montagem do 003-gettysburg (cópia do 002-bikini) (Clearance Required): voz real + storyboard.json → timeline do Remotion, trilha com ducking, .srt e capítulos.
+"""Montagem do 004-pearl-harbor (cópia do 003-gettysburg) (Clearance Required): voz real + storyboard.json → timeline do Remotion, trilha com ducking, .srt e capítulos.
 
 Uso (na pasta do vídeo): ~/workspace/fabrica-youtube/tools/.venv/bin/python tools/build.py [--sem-midia]
 Entradas: blocos.json, storyboard.json, audio/<bloco>.mp3, qa/whisper.json (tools/compara_voz.py), midia/, midia.csv, SCRIPT.md
@@ -252,13 +252,14 @@ def mapa(p, pontos):
     lons = [x for x, _ in pts]; lats = [y for _, y in pts]
     naufr = any("WRECK" in n for n in p["pontos"])
     mn = 6 if naufr else (5 if p.get("nome") in ("rongerik", "fallout") else 12)   # 002: atóis próximos
+    mn = {"porto": 0.05, "memorial": 0.05, "oahu": 0.3}.get(p.get("nome"), mn)   # 004: escala de porto/ilha; porto e memorial sem terra (NE50m não tem o porto: esquemático)
     span = max(max(lons) - min(lons), (max(lats) - min(lats)) * W / H, mn) * (1.35 if len(pts) > 3 else 1.6)
     clon, clat = (max(lons) + min(lons)) / 2, (max(lats) + min(lats)) / 2
     lon0, lat_top = clon - span / 2, clat + span * H / W / 2
     sc = W / span
     pr = lambda lo, la: (round((lo - lon0) * sc, 1), round((lat_top - la) * sc, 1))
     paths = []
-    for f in GEO:
+    for f in ([] if p.get("nome") in ("porto", "memorial") else GEO):
         gm = f["geometry"]
         aneis = [gm["coordinates"][0]] if gm["type"] == "Polygon" else [pl[0] for pl in gm["coordinates"]]
         for ring in aneis:

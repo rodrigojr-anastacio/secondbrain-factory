@@ -87,7 +87,7 @@ export const Filme = ({ p }) => {
   return (
     <AbsoluteFill style={{ background: TINTA, overflow: 'hidden' }}>
       <AbsoluteFill style={{ transform: `scale(${z})` }}>
-        <OffthreadVideo src={staticFile('clips/' + p.clip)} muted style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+        <OffthreadVideo src={staticFile('clips/' + p.clip)} muted style={{ width: '100%', height: '100%', objectFit: 'cover', ...(String(p.arq).includes('nara76169') ? { transform: 'scale(1.14)', transformOrigin: '50% 0%' } : {}) }} />   {/* 004: filmes NARA 76169 trazem timecode RTC no rodapé do quadro: recorte de 12% embaixo */}
       </AbsoluteFill>
       <Vinheta />
       <Ficha linhas={p.ficha} />
@@ -240,12 +240,13 @@ export const Mapa2D = ({ p }) => {
           {p.pts.map(([nome, x, y], i) => {
             const op = interpolate(f, [4 + i * 5, 12 + i * 5], [0, 1], C);
             const mid = nome === 'MIDWAY';
+            const vm = nome.startsWith('PACAF');
             const esq = x > W - 380 || nome.startsWith('KAGA') || ["DEVIL'S DEN", 'CEMETERY HILL', 'ROSE FARM', 'SEMINARY RIDGE', "McPHERSON'S WOODS"].includes(nome);
             const dy = p.naufr && nome.includes('WRECK') ? ({ 1: -44, 2: 0, 3: 44 }[i] || 0) : 0;
             return <g key={nome} opacity={op}>
               {mid ? <circle cx={x} cy={y} r={22} fill="none" stroke={CIANO} strokeWidth={5} /> : null}
-              <circle cx={x} cy={y} r={11} fill={mid ? CIANO : AMARELO} stroke={TINTA} strokeWidth={3} />
-              {rotulo(x, y, nome, mid ? CIANO : '#fff', 1, esq, dy)}
+              <circle cx={x} cy={y} r={11} fill={mid ? CIANO : vm ? '#E5384A' : AMARELO} stroke={TINTA} strokeWidth={3} />
+              {rotulo(x, y, nome, mid ? CIANO : vm ? '#FF8A94' : '#fff', 1, esq, dy)}
             </g>;
           })}
         </svg>

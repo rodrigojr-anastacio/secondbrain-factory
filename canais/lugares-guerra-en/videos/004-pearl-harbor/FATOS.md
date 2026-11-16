@@ -209,7 +209,7 @@ Trechos marcados "(via WebFetch)" foram devolvidos pelo resumidor do WebFetch en
 ## Fatos acrescentados na redação do roteiro (15/11/2026, Opus)
 | Fato | Status | Fonte e trecho / nota |
 |---|---|---|
-| F81 Distância Visitor Center → QG da PACAF "about two miles" | [I] | Linha reta entre coordenadas aproximadas (Visitor Center 21.3676 N, 157.9393 W; Hale Makai ~21.339 N, 157.946 W) ≈ 3,3 km ≈ 2,0 mi. **Etapa 2: conferir a coordenada do Hale Makai no mapa antes do build** (se der > 2,5 mi, trocar por "a few miles" no SCRIPT e no Mapa2D). |
+| F81 Distância Visitor Center → QG da PACAF "about two miles" | [CORRIGIDO etapa 2, 15/11] | Wikipedia: Visitor Center 21.3671 N, 157.9386 W; núcleo histórico de Hickam (Officers Club, Commons) ~21.328 N, 157.947 W, Big Barracks ~21.325 N, 157.950 W ≈ 4–4,7 km ≈ 2,6–2,9 mi (> 2,5): roteiro, bloco e mapa agora dizem "a few miles". |
 | F82 PACAF = comando do poder aéreo americano no Pacífico; área de responsabilidade "half the planet" | [CONFIRMADO, aproximado] | PACAF fact sheet (pacaf.af.mil/Info/Fact-Sheets): AOR "52 percent of the Earth's surface", 38 nações, 16 fusos. O roteiro diz "across half the planet". |
 | F83 Utah = antigo navio-alvo/treinamento; dois torpedos; virou; nunca reerguido (salvamento tentado e abandonado em 1944) | [SECUNDÁRIA] + NPS-UTAH | Archaeology Magazine (jan/fev 2017, "The Battleships"); NPS-UTAH "never salvaged". Roteiro usa "never raised" (verdade nas duas versões). |
 | F84 Óleo ainda sobe do Arizona | [SECUNDÁRIA] | Civil Beat (fev/2020), Maritime Executive (estudo 2025): vazamento lento contínuo. Fato notório; dito só como o que o visitante vê. |
