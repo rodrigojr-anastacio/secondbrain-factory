@@ -1,0 +1,362 @@
+[
+ {
+  "id": "b01",
+  "cap": "CAXIAS DO SUL (RS) · 2 DE MAIO DE 2024",
+  "marcha": 1,
+  "fala": "Caxias do Sul, na serra gaúcha. Dois de maio de dois mil e vinte e quatro.\nEm um só dia, caíram ali duzentos e sessenta e seis milímetros de chuva.\nQuase três vezes o recorde anterior.",
+  "fala_tts": "[serious] Caxias do Sul, na serra gaúcha. Dois de maio de dois mil e vinte e quatro.\nEm um só dia, caíram ali duzentos e sessenta e seis milímetros de chuva.\nQuase três vezes o recorde anterior.",
+  "tela": "Caxias do Sul, na serra gaúcha. 2 de maio de 2024. | Em um só dia, caíram ali 266 milímetros de chuva. | Quase 3 vezes o recorde anterior.",
+  "fonte": "F24"
+ },
+ {
+  "id": "b02",
+  "cap": "PORTO ALEGRE (RS) · 5 DE MAIO DE 2024",
+  "marcha": 1,
+  "fala": "Três dias depois, a cem quilômetros dali, o Guaíba chegou a cinco metros e trinta e cinco centímetros em Porto Alegre.\nMais alto que na cheia de mil novecentos e quarenta e um.\nA chuva mais pesada caiu na serra. Quem afundou foi Porto Alegre.",
+  "fala_tts": "Três dias depois, a cem quilômetros dali, o Guaíba chegou a cinco metros e trinta e cinco centímetros em Porto Alegre.\nMais alto que na cheia de mil novecentos e quarenta e um.\n[serious] A chuva mais pesada caiu na serra. Quem afundou foi Porto Alegre.",
+  "tela": "Três dias depois, a 100 quilômetros dali, | o Guaíba chegou a 5,35 metros em Porto Alegre. | Mais alto que na cheia de 1941. | A chuva mais pesada caiu na serra. | Quem afundou foi Porto Alegre.",
+  "fonte": "F1, F7, F22, F31"
+ },
+ {
+  "id": "b03",
+  "cap": "PORTO ALEGRE (RS) · MAIO DE 2024",
+  "marcha": 1,
+  "fala": "Cerca de cento e sessenta mil pessoas foram atingidas só na capital, segundo a prefeitura.\nA rodoviária e o aeroporto ficaram debaixo d'água.\nNo estado inteiro, a Defesa Civil contou cento e oitenta e quatro mortos.",
+  "fala_tts": "Cerca de cento e sessenta mil pessoas foram atingidas só na capital, segundo a prefeitura.\nA rodoviária e o aeroporto ficaram debaixo d'água.\nNo estado inteiro, a Defesa Civil contou cento e oitenta e quatro mortos.",
+  "tela": "Cerca de 160 mil pessoas atingidas só na capital, segundo a prefeitura. | A rodoviária e o aeroporto ficaram debaixo d'água. | No estado inteiro, a Defesa Civil contou 184 mortos.",
+  "fonte": "F44, F47, F49, F50 (números de 41 e 171 dias ficam para a legenda/descrição)"
+ },
+ {
+  "id": "b04",
+  "cap": "O MAPA",
+  "marcha": 1,
+  "fala": "A capital também teve chuva recorde naquele mês.\nMas ela é pouca perto da água que desceu até a cidade.\nEntão, como a chuva da serra foi parar dentro de Porto Alegre?\nA resposta está no mapa.",
+  "fala_tts": "[curious] A capital também teve chuva recorde naquele mês.\nMas ela é pouca perto da água que desceu até a cidade.\nEntão, como a chuva da serra foi parar dentro de Porto Alegre?\nA resposta está no mapa.",
+  "tela": "A capital também teve chuva recorde naquele mês. | Mas ela é pouca perto da água que desceu até a cidade. | Então, como a chuva da serra foi parar dentro de Porto Alegre? | A resposta está no mapa.",
+  "fonte": "F25, F19"
+ },
+ {
+  "id": "b05",
+  "cap": "O MAPA",
+  "marcha": 1,
+  "fala": "Olhe de cima.\nDa serra, do planalto e do centro do estado vêm os rios: o Jacuí, o Taquari, o Caí, o Sinos e, perto da capital, o Gravataí.\nTodos terminam no mesmo lugar: no Guaíba, bem na frente de Porto Alegre.",
+  "fala_tts": "Olhe de cima.\nDa serra, do planalto e do centro do estado vêm os rios: o Jacuí, o Taquari, o Caí, o Sinos e, perto da capital, o Gravataí.\nTodos terminam no mesmo lugar: no Guaíba, bem na frente de Porto Alegre.",
+  "tela": "Olhe de cima. | Da serra, do planalto e do centro do estado vêm os rios: | o Jacuí, o Taquari, o Caí, o Sinos e, perto da capital, o Gravataí. | Todos terminam no mesmo lugar: | no Guaíba, bem na frente de Porto Alegre.",
+  "fonte": "F16"
+ },
+ {
+  "id": "b06",
+  "cap": "O MAPA",
+  "marcha": 1,
+  "fala": "Oficialmente, o Guaíba é um lago. Muita gente ainda diz rio, e a ciência admite que ele tem um pouco dos dois.\nEsse lago recebe a água de quase um terço do Rio Grande do Sul. E só tem uma saída.\nPara entender maio de dois mil e vinte e quatro, vamos seguir o caminho dessa água, da serra até o centro da cidade.",
+  "fala_tts": "Oficialmente, o Guaíba é um lago. Muita gente ainda diz rio, e a ciência admite que ele tem um pouco dos dois.\n[intrigued] Esse lago recebe a água de quase um terço do Rio Grande do Sul. E só tem uma saída.\n[serious] Para entender maio de dois mil e vinte e quatro, vamos seguir o caminho dessa água, da serra até o centro da cidade.",
+  "tela": "Oficialmente, o Guaíba é um lago. | Muita gente ainda diz rio, e a ciência admite que ele tem um pouco dos dois. | Esse lago recebe a água de quase 1/3 do Rio Grande do Sul. | E só tem uma saída. | Para entender maio de 2024, vamos seguir o caminho dessa água, | da serra até o centro da cidade.",
+  "fonte": "F18, F15"
+ },
+ {
+  "id": "b07",
+  "cap": "1 · A CHUVA DA SERRA",
+  "marcha": 2,
+  "fala": "Comece pelo céu.\nNo fim de abril, uma frente fria parou sobre o Rio Grande do Sul e não seguiu viagem.\nSegundo os meteorologistas, um bloqueio de ar quente ao norte segurou o sistema no lugar, enquanto a umidade vinda do norte alimentava as nuvens.",
+  "fala_tts": "Comece pelo céu.\nNo fim de abril, uma frente fria parou sobre o Rio Grande do Sul e não seguiu viagem.\nSegundo os meteorologistas, um bloqueio de ar quente ao norte segurou o sistema no lugar, enquanto a umidade vinda do norte alimentava as nuvens.",
+  "tela": "Comece pelo céu. | No fim de abril, uma frente fria parou sobre o Rio Grande do Sul | e não seguiu viagem. | Segundo os meteorologistas, um bloqueio de ar quente ao norte | segurou o sistema no lugar, | enquanto a umidade vinda do norte alimentava as nuvens.",
+  "fonte": "F53 (descrição geral, sem número)"
+ },
+ {
+  "id": "b08",
+  "cap": "1 · A CHUVA DA SERRA",
+  "marcha": 2,
+  "fala": "Entre vinte e quatro de abril e quatro de maio, choveu em média mais de quatrocentos e vinte milímetros no estado.\nO número é do World Weather Attribution, um grupo de cientistas que estuda eventos extremos.\nÉ como se uns três meses de chuva caíssem em onze dias.",
+  "fala_tts": "Entre vinte e quatro de abril e quatro de maio, choveu em média mais de quatrocentos e vinte milímetros no estado.\nO número é do World Weather Attribution, um grupo de cientistas que estuda eventos extremos.\nÉ como se uns três meses de chuva caíssem em onze dias.",
+  "tela": "Entre 24 de abril e 4 de maio, | choveu em média mais de 420 milímetros no estado. | O número é do World Weather Attribution, | um grupo de cientistas que estuda eventos extremos. | É como se uns 3 meses de chuva caíssem em 11 dias.",
+  "fonte": "F23"
+ },
+ {
+  "id": "b09",
+  "cap": "1 · A CHUVA DA SERRA",
+  "marcha": 2,
+  "fala": "E a chuva foi mais forte justamente onde nascem os rios: na serra e no planalto.\nCaxias do Sul somou setecentos e sete milímetros em treze dias.\nSanta Maria, no centro do estado, teve, num único dia, a maior chuva já registrada ali em cento e doze anos.",
+  "fala_tts": "E a chuva foi mais forte justamente onde nascem os rios: na serra e no planalto.\nCaxias do Sul somou setecentos e sete milímetros em treze dias.\nSanta Maria, no centro do estado, teve, num único dia, a maior chuva já registrada ali em cento e doze anos.",
+  "tela": "E a chuva foi mais forte justamente onde nascem os rios: | na serra e no planalto. | Caxias do Sul somou 707 milímetros em 13 dias. | Santa Maria, no centro do estado, | teve, num único dia, a maior chuva já registrada ali em 112 anos.",
+  "fonte": "F24"
+ },
+ {
+  "id": "b10",
+  "cap": "1 · A CHUVA DA SERRA",
+  "marcha": 2,
+  "fala": "E não era a primeira cheia grande.\nEm setembro de dois mil e vinte e três, o Taquari já tinha passado do recorde de mil novecentos e quarenta e um.\nEm novembro, o Guaíba passou dos três metros de novo.\nMaio de dois mil e vinte e quatro foi a terceira grande cheia em oito meses.",
+  "fala_tts": "E não era a primeira cheia grande.\nEm setembro de dois mil e vinte e três, o Taquari já tinha passado do recorde de mil novecentos e quarenta e um.\nEm novembro, o Guaíba passou dos três metros de novo.\n[serious] Maio de dois mil e vinte e quatro foi a terceira grande cheia em oito meses.",
+  "tela": "E não era a primeira cheia grande. | Em setembro de 2023, o Taquari já tinha passado do recorde de 1941. | Em novembro, o Guaíba passou dos 3 metros de novo. | Maio de 2024 foi a terceira grande cheia em 8 meses.",
+  "fonte": "F11, F12, F13, F14"
+ },
+ {
+  "id": "b11",
+  "cap": "1 · A CHUVA DA SERRA",
+  "marcha": 2,
+  "fala": "Agora, olhe o relevo.\nA serra gaúcha, onde fica Caxias do Sul, está a uns oitocentos metros de altitude. Porto Alegre, quase no nível do mar.\nToda a chuva que cai lá em cima tem de descer. E desce por vales estreitos e fundos.",
+  "fala_tts": "Agora, olhe o relevo.\nA serra gaúcha, onde fica Caxias do Sul, está a uns oitocentos metros de altitude. Porto Alegre, quase no nível do mar.\nToda a chuva que cai lá em cima tem de descer. E desce por vales estreitos e fundos.",
+  "tela": "Agora, olhe o relevo. | A serra gaúcha, onde fica Caxias do Sul, está a uns 800 metros de altitude. | Porto Alegre, quase no nível do mar. | Toda a chuva que cai lá em cima tem de descer. | E desce por vales estreitos e fundos.",
+  "fonte": "geografia (relevo ETOPO/SRTM; Caxias ~760–800 m)"
+ },
+ {
+  "id": "b12",
+  "cap": "1 · A CHUVA DA SERRA",
+  "marcha": 2,
+  "fala": "O vale do Taquari é um desses.\nNa quinta-feira, dois de maio, o rio chegou a cerca de trinta e três metros e setenta em Lajeado.\nMais de três metros acima da marca de mil novecentos e quarenta e um.\nCidades inteiras do vale ficaram debaixo d'água.",
+  "fala_tts": "O vale do Taquari é um desses.\nNa quinta-feira, dois de maio, o rio chegou a cerca de trinta e três metros e setenta em Lajeado.\nMais de três metros acima da marca de mil novecentos e quarenta e um.\nCidades inteiras do vale ficaram debaixo d'água.",
+  "tela": "O vale do Taquari é um desses. | Na quinta-feira, 2 de maio, | o rio chegou a cerca de 33,7 metros em Lajeado. | Mais de 3 metros acima da marca de 1941. | Cidades inteiras do vale ficaram debaixo d'água.",
+  "fonte": "F27, F28"
+ },
+ {
+  "id": "b13",
+  "cap": "1 · A CHUVA DA SERRA",
+  "marcha": 2,
+  "fala": "Mas aquela água não ia parar ali.\nO Taquari deságua no Jacuí. E o Jacuí corre para o leste, direto para Porto Alegre.",
+  "fala_tts": "Mas aquela água não ia parar ali.\nO Taquari deságua no Jacuí. E o Jacuí corre para o leste, direto para Porto Alegre.",
+  "tela": "Mas aquela água não ia parar ali. | O Taquari deságua no Jacuí. | E o Jacuí corre para o leste, direto para Porto Alegre.",
+  "fonte": "F16, F19"
+ },
+ {
+  "id": "b14",
+  "cap": "2 · O LAGO QUE RECEBE TUDO",
+  "marcha": 2,
+  "fala": "Agora, suba a câmera e olhe o mapa inteiro.\nA chuva que cai em mais de duzentos e cinquenta municípios escorre para o mesmo lugar.\nUma bacia de cerca de oitenta e cinco mil quilômetros quadrados. Uns trinta por cento do estado.",
+  "fala_tts": "Agora, suba a câmera e olhe o mapa inteiro.\nA chuva que cai em mais de duzentos e cinquenta municípios escorre para o mesmo lugar.\nUma bacia de cerca de oitenta e cinco mil quilômetros quadrados. Uns trinta por cento do estado.",
+  "tela": "Agora, suba a câmera e olhe o mapa inteiro. | A chuva que cai em mais de 250 municípios escorre para o mesmo lugar. | Uma bacia de cerca de 85 mil km². | Uns 30% do estado.",
+  "fonte": "F15, F16"
+ },
+ {
+  "id": "b15",
+  "cap": "2 · O LAGO QUE RECEBE TUDO",
+  "marcha": 2,
+  "fala": "Os rios do planalto e do centro formam o Jacuí.\nO Taquari desce da serra e se junta a ele.\nMais perto da capital, chegam o Caí, o Sinos e o Gravataí.\nE todos desembocam no mesmo lago: o Guaíba.",
+  "fala_tts": "Os rios do planalto e do centro formam o Jacuí.\nO Taquari desce da serra e se junta a ele.\nMais perto da capital, chegam o Caí, o Sinos e o Gravataí.\nE todos desembocam no mesmo lago: o Guaíba.",
+  "tela": "Os rios do planalto e do centro formam o Jacuí. | O Taquari desce da serra e se junta a ele. | Mais perto da capital, chegam o Caí, o Sinos e o Gravataí. | E todos desembocam no mesmo lago: o Guaíba.",
+  "fonte": "F16"
+ },
+ {
+  "id": "b16",
+  "cap": "2 · O LAGO QUE RECEBE TUDO",
+  "marcha": 2,
+  "fala": "E o Guaíba é diferente do que parece.\nTem uns quinhentos quilômetros quadrados, mas só uns poucos metros de fundura.\nÉ largo e raso. Quando entra muita água, ela não tem para onde descer. Ela sobe e se espalha.",
+  "fala_tts": "[curious] E o Guaíba é diferente do que parece.\nTem uns quinhentos quilômetros quadrados, mas só uns poucos metros de fundura.\nÉ largo e raso. Quando entra muita água, ela não tem para onde descer. Ela sobe e se espalha.",
+  "tela": "E o Guaíba é diferente do que parece. | Tem uns 500 km², | mas só uns poucos metros de fundura. | É largo e raso. | Quando entra muita água, ela não tem para onde descer. | Ela sobe e se espalha.",
+  "fonte": "F17"
+ },
+ {
+  "id": "b17",
+  "cap": "2 · O LAGO QUE RECEBE TUDO",
+  "marcha": 2,
+  "fala": "Quase toda a água que chega a ele vem do Jacuí e do Taquari.\nEm média, o Guaíba despeja uns mil e duzentos metros cúbicos por segundo, segundo o DMAE, o departamento de água da capital.\nEm maio, segundo os pesquisadores, os rios passaram muito das maiores vazões já medidas.",
+  "fala_tts": "Quase toda a água que chega a ele vem do Jacuí e do Taquari.\nEm média, o Guaíba despeja uns mil e duzentos metros cúbicos por segundo, segundo o DMAE, o departamento de água da capital.\nEm maio, segundo os pesquisadores, os rios passaram muito das maiores vazões já medidas.",
+  "tela": "Quase toda a água que chega a ele vem do Jacuí e do Taquari. | Em média, o Guaíba despeja uns 1.200 m³ por segundo, | segundo o DMAE, o departamento de água da capital. | Em maio, segundo os pesquisadores, | os rios passaram muito das maiores vazões já medidas.",
+  "fonte": "F19, F20"
+ },
+ {
+  "id": "b18",
+  "cap": "2 · O LAGO QUE RECEBE TUDO",
+  "marcha": 2,
+  "fala": "E o tempo da água importa.\nO Taquari e o Caí chegaram ao máximo na quinta. O Sinos, no sábado. O Jacuí, no domingo.\nAs cheias dos rios foram se somando em frente à cidade.\nE o Guaíba chegou ao pico no domingo, cinco de maio, de madrugada.",
+  "fala_tts": "E o tempo da água importa.\nO Taquari e o Caí chegaram ao máximo na quinta. O Sinos, no sábado. O Jacuí, no domingo.\nAs cheias dos rios foram se somando em frente à cidade.\nE o Guaíba chegou ao pico no domingo, cinco de maio, de madrugada.",
+  "tela": "E o tempo da água importa. | O Taquari e o Caí chegaram ao máximo na quinta. | O Sinos, no sábado. O Jacuí, no domingo. | As cheias dos rios foram se somando em frente à cidade. | E o Guaíba chegou ao pico no domingo, 5 de maio, de madrugada.",
+  "fonte": "F30, F31, F1"
+ },
+ {
+  "id": "b19",
+  "cap": "2 · O LAGO QUE RECEBE TUDO",
+  "marcha": 2,
+  "fala": "Por isso, Porto Alegre não precisava da pior chuva em cima dela para afundar.\nBastava a chuva forte lá em cima, na serra e no centro do estado.\nO lago na frente da cidade recebe tudo.",
+  "fala_tts": "Por isso, Porto Alegre não precisava da pior chuva em cima dela para afundar.\nBastava a chuva forte lá em cima, na serra e no centro do estado.\n[serious] O lago na frente da cidade recebe tudo.",
+  "tela": "Por isso, Porto Alegre não precisava da pior chuva em cima dela para afundar. | Bastava a chuva forte lá em cima, na serra e no centro do estado. | O lago na frente da cidade recebe tudo.",
+  "fonte": "síntese de F15–F31"
+ },
+ {
+  "id": "b20",
+  "cap": "3 · A SAÍDA",
+  "marcha": 2,
+  "fala": "Se entra tanta água, por que ela não vai logo embora?\nO Guaíba só tem uma saída.\nAo sul, ele deságua na Lagoa dos Patos.",
+  "fala_tts": "[curious] Se entra tanta água, por que ela não vai logo embora?\nO Guaíba só tem uma saída.\nAo sul, ele deságua na Lagoa dos Patos.",
+  "tela": "Se entra tanta água, por que ela não vai logo embora? | O Guaíba só tem uma saída. | Ao sul, ele deságua na Lagoa dos Patos.",
+  "fonte": "F21"
+ },
+ {
+  "id": "b21",
+  "cap": "3 · A SAÍDA",
+  "marcha": 2,
+  "fala": "Que, na verdade, é uma laguna: uns duzentos e cinquenta quilômetros de comprimento, ligada ao mar.\nE a ligação com o oceano fica lá no fim, em Rio Grande.\nUma passagem estreita, entre dois molhes de pedra.",
+  "fala_tts": "Que, na verdade, é uma laguna: uns duzentos e cinquenta quilômetros de comprimento, ligada ao mar.\nE a ligação com o oceano fica lá no fim, em Rio Grande.\nUma passagem estreita, entre dois molhes de pedra.",
+  "tela": "Que, na verdade, é uma laguna: | uns 250 quilômetros de comprimento, ligada ao mar. | E a ligação com o oceano fica lá no fim, em Rio Grande. | Uma passagem estreita, entre dois molhes de pedra.",
+  "fonte": "F21"
+ },
+ {
+  "id": "b22",
+  "cap": "3 · A SAÍDA",
+  "marcha": 2,
+  "fala": "Ou seja: a água de quase um terço do estado precisa atravessar um lago raso,\ndescer duzentos e cinquenta quilômetros de laguna\ne passar por um gargalo para chegar ao mar.",
+  "fala_tts": "Ou seja: a água de quase um terço do estado precisa atravessar um lago raso,\ndescer duzentos e cinquenta quilômetros de laguna\ne passar por um gargalo para chegar ao mar.",
+  "tela": "Ou seja: a água de quase 1/3 do estado | precisa atravessar um lago raso, | descer 250 quilômetros de laguna | e passar por um gargalo para chegar ao mar.",
+  "fonte": "F15, F21"
+ },
+ {
+  "id": "b23",
+  "cap": "3 · A SAÍDA",
+  "marcha": 2,
+  "fala": "E ainda tem o vento.\nQuando ele sopra do sul, empurra a água da laguna de volta e segura o Guaíba.\nSegundo pesquisadores do Instituto de Pesquisas Hidráulicas da UFRGS, isso pode somar até uns cinquenta centímetros ao nível.",
+  "fala_tts": "E ainda tem o vento.\nQuando ele sopra do sul, empurra a água da laguna de volta e segura o Guaíba.\nSegundo pesquisadores do Instituto de Pesquisas Hidráulicas da UFRGS, isso pode somar até uns cinquenta centímetros ao nível.",
+  "tela": "E ainda tem o vento. | Quando ele sopra do sul, empurra a água da laguna de volta | e segura o Guaíba. | Segundo pesquisadores do Instituto de Pesquisas Hidráulicas da UFRGS, | isso pode somar até uns 50 centímetros ao nível.",
+  "fonte": "F32 (não afirmar que o vento causou o pico: F33)"
+ },
+ {
+  "id": "b24",
+  "cap": "3 · A SAÍDA",
+  "marcha": 2,
+  "fala": "Em maio, a água desceu devagar.\nA Lagoa dos Patos só chegou ao pico em meados de maio, e causou alagamentos em Pelotas, São Lourenço do Sul e Rio Grande.\nEm Porto Alegre, o Guaíba ficou cerca de um mês acima da cota de inundação.",
+  "fala_tts": "Em maio, a água desceu devagar.\nA Lagoa dos Patos só chegou ao pico em meados de maio, e causou alagamentos em Pelotas, São Lourenço do Sul e Rio Grande.\nEm Porto Alegre, o Guaíba ficou cerca de um mês acima da cota de inundação.",
+  "tela": "Em maio, a água desceu devagar. | A Lagoa dos Patos só chegou ao pico em meados de maio, | e causou alagamentos em Pelotas, São Lourenço do Sul e Rio Grande. | Em Porto Alegre, o Guaíba ficou cerca de um mês | acima da cota de inundação.",
+  "fonte": "F35, F6"
+ },
+ {
+  "id": "b25",
+  "cap": "4 · O QUE CEDEU",
+  "marcha": 2,
+  "fala": "Agora, a última parte do caminho: a cidade.\nPorto Alegre sabia que isso podia acontecer.\nEm mil novecentos e quarenta e um, o Guaíba chegou a uns quatro metros e setenta e levou mais de um mês para voltar aos três metros.",
+  "fala_tts": "Agora, a última parte do caminho: a cidade.\nPorto Alegre sabia que isso podia acontecer.\nEm mil novecentos e quarenta e um, o Guaíba chegou a uns quatro metros e setenta e levou mais de um mês para voltar aos três metros.",
+  "tela": "Agora, a última parte do caminho: a cidade. | Porto Alegre sabia que isso podia acontecer. | Em 1941, o Guaíba chegou a uns 4,7 metros | e levou mais de um mês para voltar aos 3 metros.",
+  "fonte": "F7, 1941 (FATOS §11)"
+ },
+ {
+  "id": "b26",
+  "cap": "4 · O QUE CEDEU",
+  "marcha": 2,
+  "fala": "Depois disso, a cidade planejou uma defesa.\nO projeto é de mil novecentos e quarenta e três. As obras principais saíram nos anos setenta.\nO muro da Mauá, no centro. Sessenta e oito quilômetros de diques. Quatorze comportas. E vinte e três casas de bombas.",
+  "fala_tts": "Depois disso, a cidade planejou uma defesa.\nO projeto é de mil novecentos e quarenta e três. As obras principais saíram nos anos setenta.\nO muro da Mauá, no centro. Sessenta e oito quilômetros de diques. Quatorze comportas. E vinte e três casas de bombas.",
+  "tela": "Depois disso, a cidade planejou uma defesa. | O projeto é de 1943. As obras principais saíram nos anos 70. | O muro da Mauá, no centro. 68 km de diques. | 14 comportas. E 23 casas de bombas.",
+  "fonte": "F37, F38"
+ },
+ {
+  "id": "b27",
+  "cap": "4 · O QUE CEDEU",
+  "marcha": 2,
+  "fala": "Funciona assim.\nO muro e os diques deixam o Guaíba do lado de fora.\nAs comportas são portões de aço nas passagens do muro, fechados na cheia.\nE as casas de bombas jogam para fora a chuva que cai do lado de dentro.\nSe uma peça falha, a água acha o caminho.",
+  "fala_tts": "Funciona assim.\nO muro e os diques deixam o Guaíba do lado de fora.\nAs comportas são portões de aço nas passagens do muro, fechados na cheia.\nE as casas de bombas jogam para fora a chuva que cai do lado de dentro.\n[serious] Se uma peça falha, a água acha o caminho.",
+  "tela": "Funciona assim. | O muro e os diques deixam o Guaíba do lado de fora. | As comportas são portões de aço nas passagens do muro, fechados na cheia. | E as casas de bombas jogam para fora a chuva que cai do lado de dentro. | Se uma peça falha, a água acha o caminho.",
+  "fonte": "F37 (descrição do sistema, DMAE)"
+ },
+ {
+  "id": "b28",
+  "cap": "4 · O QUE CEDEU",
+  "marcha": 2,
+  "fala": "Em maio, várias falharam.\nNo dia três, uma comporta perto da avenida Sertório rompeu.\nA água entrou pela zona norte, em bairros como Navegantes.",
+  "fala_tts": "Em maio, várias falharam.\nNo dia três, uma comporta perto da avenida Sertório rompeu.\nA água entrou pela zona norte, em bairros como Navegantes.",
+  "tela": "Em maio, várias falharam. | No dia 3, uma comporta perto da avenida Sertório rompeu. | A água entrou pela zona norte, em bairros como Navegantes.",
+  "fonte": "F40"
+ },
+ {
+  "id": "b29",
+  "cap": "4 · O QUE CEDEU",
+  "marcha": 2,
+  "fala": "As casas de bombas dependem de energia. Com a cidade alagada, muitas ficaram sem luz ou foram inundadas.\nNo dia seguinte ao pico, dezenove das vinte e três estavam paradas, segundo dados da prefeitura.\nA chuva que devia ser bombeada para fora ficou dentro. E, por algumas delas, o próprio Guaíba entrou.",
+  "fala_tts": "As casas de bombas dependem de energia. Com a cidade alagada, muitas ficaram sem luz ou foram inundadas.\nNo dia seguinte ao pico, dezenove das vinte e três estavam paradas, segundo dados da prefeitura.\nA chuva que devia ser bombeada para fora ficou dentro. E, por algumas delas, o próprio Guaíba entrou.",
+  "tela": "As casas de bombas dependem de energia. | Com a cidade alagada, muitas ficaram sem luz ou foram inundadas. | No dia seguinte ao pico, 19 das 23 estavam paradas, segundo dados da prefeitura. | A chuva que devia ser bombeada para fora ficou dentro. | E, por algumas delas, o próprio Guaíba entrou.",
+  "fonte": "F41, F43"
+ },
+ {
+  "id": "b30",
+  "cap": "4 · O QUE CEDEU",
+  "marcha": 2,
+  "fala": "No Sarandi, na zona norte, o dique rompeu, e a casa de bombas número dez foi inundada.\nO Sarandi foi o bairro com mais gente atingida: cerca de vinte e seis mil pessoas, segundo a prefeitura.",
+  "fala_tts": "No Sarandi, na zona norte, o dique rompeu, e a casa de bombas número dez foi inundada.\nO Sarandi foi o bairro com mais gente atingida: cerca de vinte e seis mil pessoas, segundo a prefeitura.",
+  "tela": "No Sarandi, na zona norte, o dique rompeu, | e a casa de bombas número 10 foi inundada. | O Sarandi foi o bairro com mais gente atingida: | cerca de 26 mil pessoas, segundo a prefeitura.",
+  "fonte": "F42, F45"
+ },
+ {
+  "id": "b31",
+  "cap": "4 · O QUE CEDEU",
+  "marcha": 2,
+  "fala": "E um detalhe importante: pelo que apontam os relatos técnicos, a água não passou por cima do muro da Mauá.\nEla entrou pelos pontos fracos do sistema.\nSegundo o estudo do World Weather Attribution, a defesa teria começado a falhar perto dos quatro metros e meio, apesar de ser apresentada como capaz de segurar seis.",
+  "fala_tts": "E um detalhe importante: pelo que apontam os relatos técnicos, a água não passou por cima do muro da Mauá.\nEla entrou pelos pontos fracos do sistema.\nSegundo o estudo do World Weather Attribution, a defesa teria começado a falhar perto dos quatro metros e meio, apesar de ser apresentada como capaz de segurar seis.",
+  "tela": "E um detalhe importante: pelo que apontam os relatos técnicos, a água não passou por cima do muro da Mauá. | Ela entrou pelos pontos fracos do sistema. | Segundo o estudo do World Weather Attribution, | a defesa teria começado a falhar perto dos 4,5 metros, | apesar de ser apresentada como capaz de segurar 6.",
+  "fonte": "F39, F43"
+ },
+ {
+  "id": "b32",
+  "cap": "4 · O QUE CEDEU",
+  "marcha": 2,
+  "fala": "Por que falhou, ainda se discute.\nEx-diretores do DMAE apontam falta de manutenção. A prefeitura fala em problemas na concepção do sistema. Pesquisadores falam em falta de gestão.\nO fato é que a defesa feita depois de mil novecentos e quarenta e um não segurou essa cheia, que passou dos cinco metros.",
+  "fala_tts": "Por que falhou, ainda se discute.\nEx-diretores do DMAE apontam falta de manutenção. A prefeitura fala em problemas na concepção do sistema. Pesquisadores falam em falta de gestão.\nO fato é que a defesa feita depois de mil novecentos e quarenta e um não segurou essa cheia, que passou dos cinco metros.",
+  "tela": "Por que falhou, ainda se discute. | Ex-diretores do DMAE apontam falta de manutenção. | A prefeitura fala em problemas na concepção do sistema. | Pesquisadores falam em falta de gestão. | O fato é que a defesa feita depois de 1941 | não segurou essa cheia, que passou dos 5 metros.",
+  "fonte": "F43"
+ },
+ {
+  "id": "b33",
+  "cap": "4 · O QUE CEDEU",
+  "marcha": 2,
+  "fala": "E a água tomou a cidade.\nNo Mercado Público, chegou a um metro e meio.\nMenino Deus, Farrapos, Humaitá, as ilhas.\nSegundo a prefeitura, cerca de trinta por cento do território da capital ficou debaixo d'água.",
+  "fala_tts": "E a água tomou a cidade.\nNo Mercado Público, chegou a um metro e meio.\nMenino Deus, Farrapos, Humaitá, as ilhas.\nSegundo a prefeitura, cerca de trinta por cento do território da capital ficou debaixo d'água.",
+  "tela": "E a água tomou a cidade. | No Mercado Público, chegou a 1,5 metro. | Menino Deus, Farrapos, Humaitá, as ilhas. | Segundo a prefeitura, cerca de 30% do território da capital | ficou debaixo d'água.",
+  "fonte": "F48, F45, F44"
+ },
+ {
+  "id": "b34",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Então, voltando à serra.\nPor que a chuva que caiu lá em cima alagou Porto Alegre?",
+  "fala_tts": "[serious] Então, voltando à serra.\nPor que a chuva que caiu lá em cima alagou Porto Alegre?",
+  "tela": "Então, voltando à serra. | Por que a chuva que caiu lá em cima alagou Porto Alegre?",
+  "fonte": ""
+ },
+ {
+  "id": "b35",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Porque, em onze dias, caiu uns três meses de chuva, e mais forte justamente onde nascem os rios.\nPorque a região já tinha passado por duas grandes cheias em oito meses.\nPorque a água de quase um terço do estado desce para o mesmo lago raso, em frente à capital, e as cheias chegaram quase juntas.",
+  "fala_tts": "Porque, em onze dias, caiu uns três meses de chuva, e mais forte justamente onde nascem os rios.\nPorque a região já tinha passado por duas grandes cheias em oito meses.\nPorque a água de quase um terço do estado desce para o mesmo lago raso, em frente à capital, e as cheias chegaram quase juntas.",
+  "tela": "Porque, em 11 dias, caiu uns 3 meses de chuva, | e mais forte justamente onde nascem os rios. | Porque a região já tinha passado por duas grandes cheias em 8 meses. | Porque a água de quase 1/3 do estado desce para o mesmo lago raso, | em frente à capital, e as cheias chegaram quase juntas.",
+  "fonte": "F23, F24, F11–F13, F15, F30"
+ },
+ {
+  "id": "b36",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Porque esse lago só se esvazia devagar, por uma laguna de duzentos e cinquenta quilômetros e uma saída estreita para o mar.\nE porque, segundo o estudo do World Weather Attribution, a defesa da cidade teria cedido nos pontos fracos antes do limite para o qual foi feita.",
+  "fala_tts": "Porque esse lago só se esvazia devagar, por uma laguna de duzentos e cinquenta quilômetros e uma saída estreita para o mar.\nE porque, segundo o estudo do World Weather Attribution, a defesa da cidade teria cedido nos pontos fracos antes do limite para o qual foi feita.",
+  "tela": "Porque esse lago só se esvazia devagar, | por uma laguna de 250 quilômetros e uma saída estreita para o mar. | E porque, segundo o estudo do World Weather Attribution, | a defesa da cidade teria cedido nos pontos fracos | antes do limite para o qual foi feita.",
+  "fonte": "F21, F39, F43"
+ },
+ {
+  "id": "b37",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "E o clima?\nO mesmo estudo do World Weather Attribution calculou que o aquecimento global mais que dobrou a chance de uma chuva assim, e a deixou de seis a nove por cento mais intensa.\nE que o El Niño daquele ano, sozinho, teve um peso parecido.",
+  "fala_tts": "E o clima?\nO mesmo estudo do World Weather Attribution calculou que o aquecimento global mais que dobrou a chance de uma chuva assim, e a deixou de seis a nove por cento mais intensa.\nE que o El Niño daquele ano, sozinho, teve um peso parecido.",
+  "tela": "E o clima? | O mesmo estudo do World Weather Attribution calculou | que o aquecimento global mais que dobrou a chance de uma chuva assim, | e a deixou de 6 a 9% mais intensa. | E que o El Niño daquele ano, sozinho, teve um peso parecido.",
+  "fonte": "F51, F52"
+ },
+ {
+  "id": "b38",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Isso não quer dizer que uma enchente igual vai voltar em data marcada. Ninguém consegue prever isso.\nMas a geografia não muda.\nA chuva da serra vai continuar descendo para o Guaíba. O que pode mudar é a defesa, e o aviso.",
+  "fala_tts": "[serious] Isso não quer dizer que uma enchente igual vai voltar em data marcada. Ninguém consegue prever isso.\nMas a geografia não muda.\nA chuva da serra vai continuar descendo para o Guaíba. O que pode mudar é a defesa, e o aviso.",
+  "tela": "Isso não quer dizer que uma enchente igual vai voltar em data marcada. | Ninguém consegue prever isso. | Mas a geografia não muda. | A chuva da serra vai continuar descendo para o Guaíba. | O que pode mudar é a defesa, e o aviso.",
+  "fonte": "fecho editorial (sem previsão)"
+ },
+ {
+  "id": "b39",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Depois de dois mil e vinte e quatro, a prefeitura fechou para sempre oito das catorze comportas do muro, trocadas por concreto, reformou as outras e reforçou o dique do Sarandi.\nE o aviso chega pelo celular: a Defesa Civil manda alerta por SMS.\nPara se cadastrar, basta mandar o seu CEP para o número quarenta mil cento e noventa e nove.",
+  "fala_tts": "Depois de dois mil e vinte e quatro, a prefeitura fechou para sempre oito das catorze comportas do muro, trocadas por concreto, reformou as outras e reforçou o dique do Sarandi.\nE o aviso chega pelo celular: a Defesa Civil manda alerta por SMS.\nPara se cadastrar, basta mandar o seu CEP para o número quarenta mil cento e noventa e nove.",
+  "tela": "Depois de 2024, a prefeitura fechou para sempre oito das 14 comportas do muro, trocadas por concreto, | reformou as outras e reforçou o dique do Sarandi. | E o aviso chega pelo celular: a Defesa Civil manda alerta por SMS. | Para se cadastrar, basta mandar o seu CEP para o número 40199.",
+  "fonte": "FATOS-bruto §2 (comportas concretadas, SBT/Observador do Tempo); SMS 40199 (Defesa Civil)"
+ },
+ {
+  "id": "b40",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Se você quer entender por que o Sul tem um clima tão diferente do resto do Brasil, o nosso vídeo sobre isso está aqui no canal.\nSe você tem família no Rio Grande do Sul, manda este vídeo para ela.\nE se inscreve no Em Relevo, para entender o clima do Brasil no mapa.",
+  "fala_tts": "Se você quer entender por que o Sul tem um clima tão diferente do resto do Brasil, o nosso vídeo sobre isso está aqui no canal.\nSe você tem família no Rio Grande do Sul, manda este vídeo para ela.\nE se inscreve no Em Relevo, para entender o clima do Brasil no mapa.",
+  "tela": "Se você quer entender por que o Sul tem um clima tão diferente do resto do Brasil, | o nosso vídeo sobre isso está aqui no canal. | Se você tem família no Rio Grande do Sul, manda este vídeo para ela. | E se inscreve no Em Relevo, para entender o clima do Brasil no mapa.",
+  "fonte": "CTA: puxa sessão para bG6-E4qjXYc (clima do Sul, publicado); sem gancho de próximo vídeo"
+ }
+]

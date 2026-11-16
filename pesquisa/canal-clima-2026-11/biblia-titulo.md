@@ -64,3 +64,8 @@ Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/emba
 3. Thumb escura com 1 herói (região, língua quente ou fluxo) e pergunta de 2–3 palavras; fugir do Pacífico inteiro vermelho e do "Sul vermelho + funil".
 4. Se o pagamento estiver no meio do vídeo, o capítulo leva o termo do título (no Sul, o "rio" só aparecia aos 48%).
 5. Prévia de 320×180 ao lado dos concorrentes antes de aprovar; e o hook já abre a pergunta do título (os 4 hooks do canal repetiam a moldura de aula, gap 5 de `pesquisa/gap-2026-11-14/RELATORIO.md`).
+
+## Lições do 005 (enchente de Porto Alegre, crivo 15/11/2026)
+- **Tema de desastre famoso = ângulo saturado por canais pequenos.** "Tinha um muro e a água entrou" já estava em 5 títulos de set–nov/2026 (Terra em Choque, Anatomia da Catástrofe, Edu Necessario, A História Avisou, Dias Que Marcaram; todos < 3 mil views) e numa thumb muro + comporta: o crivo r1 reprovou T1 e thumb por colisão. Antes de fechar o ângulo, **leia o `refs.csv` inteiro** (inclusive os vídeos sem mediana/fora da janela), não só o top por views.
+- **Aprovado na r2:** anomalia geográfica com 2 lugares em caixa alta ("Por que a chuva da SERRA alagou PORTO ALEGRE?") + "O LAGO que engoliu PORTO ALEGRE em 2024" + thumb escura com a **árvore de rios ciano** convergindo e "1/3 DO ESTADO?". **Hipótese (crivo 15/11/2026, CTR a medir):** a forma da rede hidrográfica real é um herói que nenhuma das 15 thumbs do tema usa (todas foto aérea marrom ou satélite verde).
+- Número da thumb arredondado ("1/3") pode ficar; na narração, "quase um terço"/"30%" (exigência do crivo).

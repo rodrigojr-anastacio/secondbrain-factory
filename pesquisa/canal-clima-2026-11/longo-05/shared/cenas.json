@@ -1,0 +1,350 @@
+{
+ "_doc": "Lista plana de planos/mídias (nenhuma imagem de IA; fotos de dl/fotos/video/ e dl/fotos/satelite/).",
+ "cenas": [
+  {
+   "bloco": "b01",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abre baixo, dentro de nuvens escuras sobre a serra gaúcha em relevo (satélite + ETOPO); a câmera desce e pousa em Caxias do Sul (pino coral). Coluna de chuva 3D cai sobre a cidade; um pluviômetro gigante ao lado enche."
+  },
+  {
+   "bloco": "b02",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/satelite/nasa-landsat8-porto-alegre-alagado-2024-05-08.jpg",
+   "gatilho": "Porto Alegre",
+   "formato": "fundo 2 s antes do 3D (satélite real), legenda PORTO ALEGRE · LANDSAT 8 · 8 MAI 2024"
+  },
+  {
+   "bloco": "b02",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "A gota escorre do pluviômetro para um vale e a câmera a segue em voo rasante 100 km até Porto Alegre; régua de nível vertical cravada no Guaíba (componente 'régua' do longo-04) sobe até 5,35 M; a orla da cidade afunda sob o plano de água."
+  },
+  {
+   "bloco": "b03",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/centro-historico-rodoviaria-cais-mauah-alagados-aereo-2024-05-05.jpg",
+   "gatilho": "capital",
+   "formato": "quadro grande 3 s; legenda CENTRO HISTÓRICO · PORTO ALEGRE · 5 MAI 2024"
+  },
+  {
+   "bloco": "b03",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/rodoviaria-viaduto-cais-maua-alagados-aereo-2024-05-05.jpg",
+   "gatilho": "rodoviária",
+   "formato": "quadro grande 2,5 s; legenda RODOVIÁRIA · PORTO ALEGRE · 5 MAI 2024"
+  },
+  {
+   "bloco": "b03",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/aeroporto-salgado-filho-pista-alagada-aereo-2024-05-05.jpg",
+   "gatilho": "aeroporto",
+   "formato": "quadro grande 2,5 s; legenda AEROPORTO SALGADO FILHO · 5 MAI 2024"
+  },
+  {
+   "bloco": "b03",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Sequência de 3 fotos aéreas reais em quadro grande (polaroid escura, sem tachinha bege), câmera em Ken Burns lento; volta ao 3D da orla alagada no fim."
+  },
+  {
+   "bloco": "b04",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Relevo editorial do RS; duas colunas de chuva lado a lado: Porto Alegre (564,8 mm em maio) e Caxias do Sul (919 mm em maio). Na pergunta, a câmera começa a subir."
+  },
+  {
+   "bloco": "b05",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Câmera sobe até ver o centro-nordeste do RS inteiro em relevo escuro. A ÁRVORE DE RIOS acende: cada rio principal se desenha em ciano grosso da nascente à foz, na ordem da fala, e todos convergem num ponto brilhante em frente a Porto Alegre."
+  },
+  {
+   "bloco": "b06",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Mesmo plano; a Região Hidrográfica do Guaíba ganha um tom mais claro e o resto do estado escurece; afluentes finos aparecem como textura. Ao sul do Guaíba, um único canal estreito acende (a saída)."
+  },
+  {
+   "bloco": "b07",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abertura do cap. 1: céu 3D sobre o RS; uma frente fria (faixa azul de nuvens) desliza do sudoeste e PARA sobre o estado; ao norte, uma cúpula alaranjada translúcida (bloqueio de ar quente); setas finas de umidade vindo do norte alimentam as nuvens."
+  },
+  {
+   "bloco": "b08",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Mapa do RS em relevo editorial com o calendário 24/04 → 04/05 correndo num canto; a chuva acumulada pinta o estado em azul crescente (escala esquemática, sem dado por pixel)."
+  },
+  {
+   "bloco": "b09",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Câmera baixa sobre o planalto e a serra; colunas de chuva 3D sobre Caxias do Sul e Santa Maria (as mais altas do mapa)."
+  },
+  {
+   "bloco": "b10",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Linha do tempo horizontal em relevo de régua (componente do longo-04): três picos de cheia SET/2023, NOV/2023, MAI/2024 crescendo; o terceiro estoura o quadro."
+  },
+  {
+   "bloco": "b11",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Perfil de relevo: corte 3D de Caxias (~800 m) até Porto Alegre (~nível do mar), exagero vertical; a gota desce pelo perfil, rápida nos vales estreitos."
+  },
+  {
+   "bloco": "b12",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/arroio-do-meio-navegantes-destruicao-aereo-2024-06-06.jpg",
+   "gatilho": "Cidades",
+   "formato": "quadro grande 3 s; legenda ARROIO DO MEIO · VALE DO TAQUARI · JUN 2024 (depois da cheia)"
+  },
+  {
+   "bloco": "b12",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Câmera voa pelo vale do Taquari em satélite + relevo; régua cravada no rio em Lajeado sobe até 33,7 M; o fundo do vale afunda sob o plano de água."
+  },
+  {
+   "bloco": "b13",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "A gota sai de Lajeado, entra no Jacuí (fio ciano) e corre para o leste; câmera acompanha de cima até ver Porto Alegre ao fundo."
+  },
+  {
+   "bloco": "b14",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abertura do cap. 2: a ÁRVORE DE RIOS completa (assinatura) acende de novo, agora com os mais de 250 municípios como pontinhos que piscam ao longo da rede; o contorno da bacia se fecha."
+  },
+  {
+   "bloco": "b15",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Relevo editorial: as 9 sub-bacias se acendem uma a uma em tons de ciano (Alto Jacuí, Pardo, Vacacaí, Baixo Jacuí, Taquari-Antas, Caí, Sinos, Gravataí, Lago Guaíba); os rios engrossam na direção do Guaíba."
+  },
+  {
+   "bloco": "b16",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/satelite/hls-sentinel2-porto-alegre-guaiba-antes-2024-04-01.jpg",
+   "gatilho": "Guaíba",
+   "formato": "fundo de satélite do plano; legenda GUAÍBA · SENTINEL-2 · 1 ABR 2024"
+  },
+  {
+   "bloco": "b16",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Câmera baixa sobre o Guaíba em satélite real (01/04/2024, sem cheia); corte de seção 3D mostrando o lago largo e raso, com uma pessoa de escala na margem."
+  },
+  {
+   "bloco": "b17",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Medidor de vazão (componente novo simples): um cano/rio estilizado com o número de vazão; dia normal → maio (o ponteiro passa do fim da escala)."
+  },
+  {
+   "bloco": "b18",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Calendário de 5 dias (QUI 2 → SEG 6) sobre o mapa: cada rio pulsa no seu dia de pico e manda uma onda ciano até o Guaíba; as ondas se empilham no ponto da capital."
+  },
+  {
+   "bloco": "b19",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Árvore de rios inteira, toda acesa, escoando para o ponto; na última frase o ponto do Guaíba incha em frente à cidade (pino PORTO ALEGRE)."
+  },
+  {
+   "bloco": "b20",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/satelite/nasa-modis-sul-do-rs-durante-2024-05-06.jpg",
+   "gatilho": "Lagoa dos Patos",
+   "formato": "fundo de 2 s (MODIS real, água turva descendo a lagoa); legenda LAGOA DOS PATOS · MODIS · 6 MAI 2024"
+  },
+  {
+   "bloco": "b20",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abertura do cap. 3: câmera desce do Guaíba para o sul e revela a Lagoa dos Patos inteira em satélite + relevo."
+  },
+  {
+   "bloco": "b21",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/rio-grande-fragata-f44-canal-da-barra-molhes-2023-08-15.jpg",
+   "gatilho": "molhes",
+   "formato": "quadro médio 2 s; legenda CANAL DA BARRA · RIO GRANDE · 2023"
+  },
+  {
+   "bloco": "b21",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Voo de 250 km pela laguna até a barra de Rio Grande; os dois molhes de pedra 3D apertam a passagem."
+  },
+  {
+   "bloco": "b22",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Esquema em relevo editorial do caminho inteiro: bacia (árvore) → lago raso → laguna longa → gargalo; a gota percorre as 4 etapas em velocidade crescente e engasga no gargalo."
+  },
+  {
+   "bloco": "b23",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Lagoa dos Patos em 3D; setas de vento do sul (fitas brancas) varrem a laguna e a água 'empilha' para o norte, contra o Guaíba."
+  },
+  {
+   "bloco": "b24",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/pelotas-bairros-alagados-aereo-2024-05-18.jpg",
+   "gatilho": "Pelotas",
+   "formato": "quadro médio 2,5 s; legenda PELOTAS · 18 MAI 2024"
+  },
+  {
+   "bloco": "b24",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Calendário de maio em barra: pico do Guaíba (05/05) e picos da laguna (16 e 27/05); pinos Pelotas, São Lourenço do Sul, Rio Grande acendem em ciano; régua do Guaíba com faixa de inundação mostrada por ~30 dias."
+  },
+  {
+   "bloco": "b25",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/mercado-publico-fachada-alagado-enchente-1941-05.jpg",
+   "gatilho": "mil novecentos e quarenta e um",
+   "formato": "quadro médio no papel 3 s; legenda MERCADO PÚBLICO · PORTO ALEGRE · MAIO DE 1941 (sem zoom; foto de 800 px, formato 'carte')"
+  },
+  {
+   "bloco": "b25",
+   "tipo": "arquivo",
+   "estilo": "arquivo",
+   "descricao": "Abertura do cap. 4: papel sépia com foto de 1941 em domínio público; régua 1941 · 4,7 M; calendário 'MAIS DE UM MÊS'."
+  },
+  {
+   "bloco": "b26",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/muro-da-maua-grafite-dia-normal-2016-04-23.jpg",
+   "gatilho": "muro da Mauá",
+   "formato": "quadro médio 2 s; legenda MURO DA MAUÁ · DIA NORMAL · 2016"
+  },
+  {
+   "bloco": "b26",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Maquete 3D da orla de Porto Alegre (relevo editorial): o sistema de proteção se desenha peça a peça na ordem da fala: muro da Mauá (cinza claro, centro), 68 km de diques (linha contínua), 14 comportas (pontos amarelos), 23 casas de bombas (cubos)."
+  },
+  {
+   "bloco": "b27",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/comporta-cais-maua-fechamento-2024-05-02.jpg",
+   "gatilho": "comportas",
+   "formato": "quadro grande 3 s; legenda COMPORTA DO CAIS MAUÁ · 2 MAI 2024"
+  },
+  {
+   "bloco": "b27",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Corte esquemático 3D do sistema: Guaíba à esquerda, muro/dique no meio, cidade à direita; comporta fecha; casa de bombas joga água da chuva por cima do dique. Na última frase, uma peça pisca em coral e uma fita de água acha a passagem."
+  },
+  {
+   "bloco": "b28",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Maquete 3D da zona norte (Navegantes / 4º Distrito, perto da av. Sertório): uma comporta pisca e a água ciano invade os quarteirões."
+  },
+  {
+   "bloco": "b29",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "As 23 casas de bombas como cubos sobre o mapa da cidade; na fala '19 das 23', 19 apagam (cinza) e 4 seguem acesas; setas de água da chuva presas do lado de dentro; uma seta do Guaíba entra por uma casa apagada."
+  },
+  {
+   "bloco": "b30",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Maquete do Sarandi: o dique baixo é vencido em dois pontos; a casa de bombas nº 10 afunda; o bairro enche."
+  },
+  {
+   "bloco": "b31",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Maquete do muro da Mauá inteiro com o Guaíba no pico (5,35) ABAIXO do topo do muro (régua ao lado); a água entra por trás, pelos pontos já mostrados (comporta, bombas, dique), em fitas coral."
+  },
+  {
+   "bloco": "b32",
+   "tipo": "arquivo",
+   "estilo": "arquivo",
+   "descricao": "Papel com três recortes tipográficos lado a lado (sem foto, sem rosto): MANUTENÇÃO (ex-diretores do DMAE) · CONCEPÇÃO (prefeitura) · GESTÃO (pesquisadores); carimbo EM DISCUSSÃO."
+  },
+  {
+   "bloco": "b33",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/mercado-publico-ilhado-aereo-2024-05-05.jpg",
+   "gatilho": "Mercado Público",
+   "formato": "quadro grande 3 s; legenda MERCADO PÚBLICO · 5 MAI 2024"
+  },
+  {
+   "bloco": "b33",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/centro-historico-edificios-historicos-alagados-aereo-2024-05-05.jpg",
+   "gatilho": "território",
+   "formato": "quadro grande 2,5 s; legenda CENTRO HISTÓRICO · 5 MAI 2024"
+  },
+  {
+   "bloco": "b33",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "A gota termina a viagem: entra no centro de Porto Alegre e se dissolve no plano de água; câmera passa sobre o Mercado Público e os bairros citados acendendo em ciano."
+  },
+  {
+   "bloco": "b34",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Volta à serra: Caxias e o pluviômetro do b01, a árvore de rios apagada esperando."
+  },
+  {
+   "bloco": "b35",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "A viagem da gota em reprise acelerada, uma camada por frase: chuva sobre a serra → 3 cheias em 8 meses (ícone) → árvore de rios acende e converge no Guaíba com as ondas chegando juntas."
+  },
+  {
+   "bloco": "b36",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Continua: Guaíba → laguna → gargalo (saída lenta) → maquete da cidade com as falhas piscando em coral."
+  },
+  {
+   "bloco": "b37",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Card de dados sobre o mapa escuro (estilo do longo-02): duas barras de probabilidade e intensidade."
+  },
+  {
+   "bloco": "b38",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "A árvore de rios do RS de hoje, calma, escoando devagar para o Guaíba; nada de chuva na tela."
+  },
+  {
+   "bloco": "b39",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/cais-maua-galpao-marcas-da-enchente-2026-03-12.jpg",
+   "gatilho": "concreto",
+   "formato": "quadro médio 2 s; legenda CAIS MAUÁ · MARCAS DA ENCHENTE · 2026"
+  },
+  {
+   "bloco": "b39",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Maquete da orla com as comportas que serão concretadas marcadas em cinza sólido; ícone de celular com alerta da Defesa Civil."
+  },
+  {
+   "bloco": "b40",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Encerramento do canal: card do vídeo sobre o clima do Sul (bG6-E4qjXYc, publicado) + logo EM RELEVO + botão inscrever (sem card de próximo vídeo)."
+  }
+ ]
+}
