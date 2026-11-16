@@ -1,0 +1,437 @@
+{
+ "UCft01Wf4P7JkDZQ_Th7ICaQ": {
+  "canal": "Iconografia da História",
+  "mediana": 111635.0,
+  "n": 30
+ },
+ "UCzBwZCTFcbkvmYmIzUXt2iw": {
+  "canal": "Villanos",
+  "mediana": 2796599.5,
+  "n": 2
+ },
+ "UC50uCdUubc04xXZz7bqv5ng": {
+  "canal": "Investigation",
+  "mediana": 161596.5,
+  "n": 22
+ },
+ "UCmg81A6mKSnU519Y_mEjgiQ": {
+  "canal": "La Liendra",
+  "mediana": 2783238.5,
+  "n": 14
+ },
+ "UC9c4rND1mNP-XrWQjbFxp8g": {
+  "canal": "elxokas",
+  "mediana": 593032.5,
+  "n": 30
+ },
+ "UC43nJhwqK6VbrmT1JYlGV5A": {
+  "canal": "Mafia e Historia | Jonah",
+  "mediana": 4810393.5,
+  "n": 20
+ },
+ "UCFOlHrnBlhsJBXitcDhp9ZQ": {
+  "canal": "Fugitivos de la Ley",
+  "mediana": 41630.0,
+  "n": 30
+ },
+ "UCro1VNb7hqX38TvyUN64JkQ": {
+  "canal": "Más Allá del Silencio Podcast",
+  "mediana": 1200964,
+  "n": 15
+ },
+ "UCKVtMu6QLSEA528Li51ndPQ": {
+  "canal": "Nat Geo en Español",
+  "mediana": 227059.5,
+  "n": 30
+ },
+ "UCGWh7JC2whurOf1rLrlaHIQ": {
+  "canal": "Dieck Docs",
+  "mediana": 2421888,
+  "n": 11
+ },
+ "UCEg_iK8FKwZfpRMn4-AnnnQ": {
+  "canal": "WestCOL",
+  "mediana": 89586,
+  "n": 23
+ },
+ "UC60OGssyOZBt0Gcxl5__-ig": {
+  "canal": "Canal de la Mafia",
+  "mediana": 483545,
+  "n": 17
+ },
+ "UCoGBPBXyq28cE4g2TaB6lRQ": {
+  "canal": "Historias Innecesarias",
+  "mediana": 879489.0,
+  "n": 30
+ },
+ "UCfxleCBhmYSMoyu2ItPjWlA": {
+  "canal": "Archivo del Submundo",
+  "mediana": 2664.5,
+  "n": 18
+ },
+ "UCF4sb1qlYCgknmZeFWaKQ6g": {
+  "canal": "CAMBIO",
+  "mediana": 3735.0,
+  "n": 30
+ },
+ "UCCNHH508zI8puQ5IsoBXB_w": {
+  "canal": "El Cambio de Guardia",
+  "mediana": 2414.0,
+  "n": 30
+ },
+ "UCEKAQtGMkz_1J82Gb3wCTuA": {
+  "canal": "𝕮𝖎𝖓𝖊𝖒𝖆𝖙𝖊𝖈𝖆 𝕯𝖊 𝖅𝖚𝖇𝖎𝖗𝖎𝖆",
+  "mediana": 431.5,
+  "n": 30
+ },
+ "UCBFq_-sCEIFZO4i2X9m3njw": {
+  "canal": "Historia Militar",
+  "mediana": 30693.5,
+  "n": 30
+ },
+ "UCfxN55DS2V6O9l5s0Lz-ARQ": {
+  "canal": "DonovilDoc - Desclasificando",
+  "mediana": 4423,
+  "n": 3
+ },
+ "UCBBv5Jav1fknZg5_B-N_DJA": {
+  "canal": "Historia Fuera de Guion",
+  "mediana": 131.5,
+  "n": 16
+ },
+ "UCX6GWGY1YvoziMyv3T7c35w": {
+  "canal": "Yo NO me callo",
+  "mediana": 15991.5,
+  "n": 2
+ },
+ "UC-jLmusK1pbLHv8aANloFJg": {
+  "canal": "Crónicas Ocultas Media",
+  "mediana": 428.5,
+  "n": 16
+ },
+ "UCFYdMS-M4mRdbxPuErz1CVw": {
+  "canal": "El Espectador",
+  "mediana": 1901.0,
+  "n": 30
+ },
+ "UCkHNUzqhBqJuUZ9XeUTUz0Q": {
+  "canal": "Señores del Inframundo",
+  "mediana": 6796.5,
+  "n": 30
+ },
+ "UCe8E4WowEsVwbxHh2b75meQ": {
+  "canal": "Anatomía del Cártel",
+  "mediana": 654.0,
+  "n": 10
+ },
+ "UCRsUoZYC1ULUspipMRnMhwg": {
+  "canal": "CHV Noticias",
+  "mediana": 3061.0,
+  "n": 30
+ },
+ "UCfTZKREMgKqh8GJKAyQ9ogA": {
+  "canal": "Inframundo Criminal",
+  "mediana": 55548.0,
+  "n": 30
+ },
+ "UCHd0Ep6j1FOfv1LycxSz1aw": {
+  "canal": "Reis Do Crime",
+  "mediana": 10748.5,
+  "n": 30
+ },
+ "UC2Xq2PK-got3Rtz9ZJ32hLQ": {
+  "canal": "Noticias Caracol",
+  "mediana": 9123.0,
+  "n": 30
+ },
+ "UCxpIWGelNh-wifY9aPs-yNA": {
+  "canal": "ARCHIVO SIETE",
+  "mediana": 1180.5,
+  "n": 20
+ },
+ "UC1YCHlZPoQybMkfyLBvQW0g": {
+  "canal": "Enigmas Del Mal (Colombia)",
+  "mediana": 9008.5,
+  "n": 30
+ },
+ "UCiRDoO_1i45A3-q4W7QJYJg": {
+  "canal": "PP Tops",
+  "mediana": 34,
+  "n": 17
+ },
+ "UC39OxjNfvMxLkSTY7giIIKw": {
+  "canal": "NexonCode",
+  "mediana": 2549.0,
+  "n": 30
+ },
+ "UCxIVjJocVQO-uEIEKIqUJwA": {
+  "canal": "Mundo Crítico",
+  "mediana": 2.0,
+  "n": 20
+ },
+ "UCUBIrDsIVzRpKsClMlSlTpQ": {
+  "canal": "BBC News Mundo",
+  "mediana": 255613.5,
+  "n": 4
+ },
+ "UCg7lal8IC-xPyKfgH4rdUcA": {
+  "canal": "djvlad",
+  "mediana": 21643.5,
+  "n": 30
+ },
+ "UCOlP13BSC7PJEeKr-xrl2jQ": {
+  "canal": "CINEADOS",
+  "mediana": 34328.0,
+  "n": 30
+ },
+ "UC9UvrM9cxcUGYq3jCbB2Z5g": {
+  "canal": "Memorias del Cartel",
+  "mediana": 409.5,
+  "n": 8
+ },
+ "UCUhc2JGcAfzs_5OIUeWpUDA": {
+  "canal": "Desde Adentro | Nicolás Legnani",
+  "mediana": 18825.0,
+  "n": 2
+ },
+ "UCE4sPZOLZ_tXP1yUFdHp53g": {
+  "canal": "Nuestra Colombia: Entre el Dolor y la Resiliencia😁",
+  "mediana": 194.5,
+  "n": 26
+ },
+ "UCMTssINr-9gsPwk1iuAEdxQ": {
+  "canal": "Atemporal con Andrés Acevedo",
+  "mediana": 45998,
+  "n": 13
+ },
+ "UC2EdS5ePH3kqeQyYS7h2ftw": {
+  "canal": "Todos Nosotros",
+  "mediana": 1519,
+  "n": 11
+ },
+ "UCRijH1MWsrQlNeWdB88LWhA": {
+  "canal": "La Huella",
+  "mediana": 10625.5,
+  "n": 30
+ },
+ "UCT3KFeysRQwF3yKF5H_HVug": {
+  "canal": "UniVista TV",
+  "mediana": 1323.5,
+  "n": 30
+ },
+ "UC_4GozSmcD0teItCZPERpYA": {
+  "canal": "NeoSBR+",
+  "mediana": 158.5,
+  "n": 18
+ },
+ "UC_Drj1VOZimYl_gxI20noqg": {
+  "canal": "HistorIA en Alta Definición",
+  "mediana": 51879.0,
+  "n": 30
+ },
+ "UC7E9Dj_lmrJdDrH2Bg7rNqQ": {
+  "canal": "El Heraldo de México",
+  "mediana": 1922.5,
+  "n": 22
+ },
+ "UCNt4Ohc_LW1zwe7O1zkKjmw": {
+  "canal": "Daniel En La Historia",
+  "mediana": 668.0,
+  "n": 30
+ },
+ "UCW8QmF5RVGn-hd9YTh0LZhQ": {
+  "canal": "La Biblia Explicada ",
+  "mediana": 29025.0,
+  "n": 30
+ },
+ "UCkccyEbqhhM3uKOI6Shm-4Q": {
+  "canal": "Meganoticias",
+  "mediana": 3142.0,
+  "n": 30
+ },
+ "UCUFKdT9bmbMnLiCUNdfhrdw": {
+  "canal": "Septentrión Metal",
+  "mediana": 24019.5,
+  "n": 30
+ },
+ "UCy5-ES0_mSak4qifQRcpwPw": {
+  "canal": "Magnus Mefisto",
+  "mediana": 285857,
+  "n": 25
+ },
+ "UC3dd2BrVeMi2dOkcd0bRRlg": {
+  "canal": "Elías Medina",
+  "mediana": 83786.0,
+  "n": 8
+ },
+ "UC4BWZj2dJCs_B9JetZZT5BA": {
+  "canal": "Ricardo Romantico",
+  "mediana": 4976.5,
+  "n": 26
+ },
+ "UC9nnFR9X9bBvbSIJVG--NwQ": {
+  "canal": "Gemma Albarracín ",
+  "mediana": 12559.5,
+  "n": 30
+ },
+ "UCFxHplbcoJK9m70c4VyTIxg": {
+  "canal": "MILENIO",
+  "mediana": 2774.0,
+  "n": 22
+ },
+ "UCu2cUfy1hmjlcfZHzvVuEgg": {
+  "canal": "La Pulla",
+  "mediana": 552762.0,
+  "n": 10
+ },
+ "UCR9120YBAqMfntqgRTKmkjQ": {
+  "canal": "A24com",
+  "mediana": 3744.0,
+  "n": 30
+ },
+ "UCnHSeFNeHRWCDbKStpyafTQ": {
+  "canal": "Historias que Definieron el Mundo",
+  "mediana": 303,
+  "n": 5
+ },
+ "UCQ1GpKa15ulyoQuxz7H4rng": {
+  "canal": "DW Documental",
+  "mediana": 265494.5,
+  "n": 30
+ },
+ "UCRE80_g2o9cF542U56GK3Rg": {
+  "canal": "UNIVISION HOUSTON",
+  "mediana": 3711.0,
+  "n": 22
+ },
+ "UCTsfaxKH89mKrPWEdUSCNdw": {
+  "canal": "La caja negra de la historia",
+  "mediana": 6961,
+  "n": 15
+ },
+ "UCj5hSuEsu_qepUxZMWSsWlQ": {
+  "canal": "Guerra Brutal",
+  "mediana": 12192.5,
+  "n": 30
+ },
+ "UCmG2Y5beEO7QkGd51r7ejyQ": {
+  "canal": "CREATION",
+  "mediana": 11626.0,
+  "n": 30
+ },
+ "UCrpMfcQNog595v5gAS-oUsQ": {
+  "canal": "Canal 26",
+  "mediana": 1425.0,
+  "n": 30
+ },
+ "UCA0AXvVu2kZ4nauMgXs_Naw": {
+  "canal": "El DoQmentalista",
+  "mediana": 74894,
+  "n": 13
+ },
+ "UCFB_2lCGulWyl43k1r4PgBg": {
+  "canal": "Sila Español",
+  "mediana": 1340.0,
+  "n": 30
+ },
+ "UCbEeo_9iVsOxTlr0Xi9NycQ": {
+  "canal": "Pablo Munoz Iturrieta",
+  "mediana": 55479.0,
+  "n": 30
+ },
+ "UC1FZF46zaC26_CynNc786_g": {
+  "canal": "Gestión Mundo",
+  "mediana": 9306.5,
+  "n": 26
+ },
+ "UCUA-pQmmsor1nWCqFRr-zSw": {
+  "canal": "O Documentarista",
+  "mediana": 38960.0,
+  "n": 30
+ },
+ "UC9o3o8_Fpk5vTzqIvtzANSQ": {
+  "canal": "Drama Colibrí",
+  "mediana": 755.0,
+  "n": 30
+ },
+ "UCEJs1fTF3KszRJGxJY14VrA": {
+  "canal": "NTN24",
+  "mediana": 21112.5,
+  "n": 30
+ },
+ "UC8MU__RWNw1cSzqHpRyt1_g": {
+  "canal": "César Moreno",
+  "mediana": 150048.0,
+  "n": 30
+ },
+ "UCiQn3Lj9RUF7mfcVJlbApJA": {
+  "canal": "Crinix",
+  "mediana": 5149.0,
+  "n": 30
+ },
+ "UCRP5p2RfxJgnKyWgve5pJ-Q": {
+  "canal": "Canal History Brasil",
+  "mediana": 5433.0,
+  "n": 30
+ },
+ "UCh68873vngVIXO7qXVgcG9w": {
+  "canal": "Ralisco",
+  "mediana": 11102.5,
+  "n": 30
+ },
+ "UCWM7fHsajzYFlevp9NpJp2w": {
+  "canal": "Noche de Lluvia Podcast",
+  "mediana": 146331.0,
+  "n": 20
+ },
+ "UCWdGgeyOnCOGnvhNdbVl1dQ": {
+  "canal": "Gazeta do Povo",
+  "mediana": 21462.5,
+  "n": 30
+ },
+ "UCArB5xkKLVRmJAI4F-Eaopw": {
+  "canal": "Carpeta Ámbar",
+  "mediana": 942,
+  "n": 9
+ },
+ "UCeYSnd34IPe57sM8hkjWhrw": {
+  "canal": "Historia para Tontos Podcast",
+  "mediana": 26721,
+  "n": 21
+ },
+ "UCVuvovhGqd32pCgvRf5iCiw": {
+  "canal": "Doz22",
+  "mediana": 21313.0,
+  "n": 30
+ },
+ "UCyXW1IxB7h8TDXgtaMZQVMg": {
+  "canal": "Vestigios Eternos",
+  "mediana": 17015.5,
+  "n": 30
+ },
+ "UC7NExv_twctbSasQ8iAuW4g": {
+  "canal": "Dinastias Perdidas",
+  "mediana": 8621.0,
+  "n": 30
+ },
+ "UCbitWKTIHZnoLYuOnZzRBZQ": {
+  "canal": "Tiene Sentido Pódcast",
+  "mediana": 42896.0,
+  "n": 28
+ },
+ "UCVnaas5GTvD_RUkIRwgUw5w": {
+  "canal": "España Legendaria ",
+  "mediana": 47178.5,
+  "n": 30
+ },
+ "UC6quzBEFGzv_yzvdwE-LrEA": {
+  "canal": "Ambos Bandos",
+  "mediana": 8330,
+  "n": 17
+ },
+ "UCpyYUq9kcBMLPlfE8EzguvA": {
+  "canal": "National Geographic España",
+  "mediana": 111435,
+  "n": 27
+ }
+}
