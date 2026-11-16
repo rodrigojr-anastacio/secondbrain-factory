@@ -57,9 +57,9 @@ CANAIS = {
                       md="canais/dossie-es/backlog.md", pasta_fmt="{n:03d}-{slug}"),
     "lugares-guerra-en": dict(curto="clearance", nome="Clearance Required", videos="canais/lugares-guerra-en/videos",
                               md="canais/lugares-guerra-en/backlog.md", pasta_fmt="{n:03d}-{slug}"),
-    # Em Relevo não tem pasta canais/ própria: vídeos e regras moram em pesquisa/canal-clima-2026-11/ (longo-NN).
-    "em-relevo": dict(curto="relevo", nome="Em Relevo", videos="pesquisa/canal-clima-2026-11",
-                      md="canais/em-relevo/backlog.md", pasta_fmt="longo-{n:02d}"),
+    # Em Relevo: canal no padrão desde 16/11/2026 (antes vivia em pesquisa/canal-clima-2026-11/longo-NN, hoje symlinks).
+    "em-relevo": dict(curto="relevo", nome="Em Relevo", videos="canais/em-relevo/videos",
+                      md="canais/em-relevo/backlog.md", pasta_fmt="{n:03d}-{slug}"),
 }
 INI, FIM = "<!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->", "<!-- backlog-vivo:fim -->"
 
@@ -297,7 +297,7 @@ def gerar_md(con, canal):
         txt = p.read_text()
     else:
         p.parent.mkdir(parents=True, exist_ok=True)
-        txt = (f"# Backlog — {cfg['nome']}\n\nOs arquivos do canal (regras, roteiros, vídeos `longo-NN/`) moram em `{cfg['videos']}/`; "
+        txt = (f"# Backlog — {cfg['nome']}\n\nOs arquivos do canal (regras, roteiros, vídeos) moram em `{cfg['videos']}/`; "
                "este arquivo existe só para o espelho do backlog vivo.\n")
     if INI in txt and FIM in txt:
         txt = txt[:txt.index(INI)] + bloco + txt[txt.index(FIM) + len(FIM):]

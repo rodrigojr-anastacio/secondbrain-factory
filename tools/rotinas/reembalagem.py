@@ -358,7 +358,7 @@ def achar_pasta(con, v):
     vid, pasta = (r[0], r[1]) if r else (None, None)
     if not pasta:
         try:
-            out = subprocess.run(["git", "-C", FABRICA, "grep", "-l", v["youtube_id"], "--", "canais", "pesquisa/canal-clima-2026-11"],
+            out = subprocess.run(["git", "-C", FABRICA, "grep", "-l", v["youtube_id"], "--", "canais"],
                                  capture_output=True, text=True, timeout=30).stdout.split()
             cands = [re.match(r"(.*/(?:videos/\d{3}[^/]*|longo-\d+))/", p) for p in out]
             pasta = next((c.group(1) for c in cands if c), None)

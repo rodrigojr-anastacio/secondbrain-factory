@@ -1,0 +1,64 @@
+slug: em-relevo
+nome: Em Relevo                 # exatamente assim: tools/entregar_drive.sh usa este campo para a pasta do Drive "Youtube/Em Relevo/"
+channel_id: UCXw-Q07-pIPlwMX9ypuLN0A
+handle: "@canalemrelevo"        # BRIEF-lote-relevo-003 (13/11/2026); @emrelevo é de outro canal (identidade/LEIA.md, 09/11/2026)
+idioma: pt-BR                   # o RELATORIO (08/11/2026) indicava en (matriz 7,75 × pt 6,30); o canal saiu em pt-BR (identidade/LEIA.md 09/11/2026; piloto e longos 001–005 em pt)
+nicho: "clima e geografia do Brasil explicados no mapa 3D (relevo real/satélite) + fotos reais com licença: desastre real reconstruído, «por que X acontece aqui» e, raramente, o quente"
+token: em-relevo                # ~/.segredos/youtube/tokens/em-relevo.json (existe em 16/11/2026; OAuth feito pelo Rodrigo; nunca ler/imprimir)
+status: "no ar: 3 longos publicados (001–003) + 004 e 005 prontos (16/11/2026); fase TESTAR do RELATORIO (08/11/2026)"
+pesquisa:
+  - pesquisa/canal-clima-2026-11/RELATORIO.md           # decisão TESTAR, demanda, guarda-chuvas, direitos de imagem, sensibilidade
+  - pesquisa/canal-clima-2026-11/identidade/LEIA.md     # logo, capa, handle, descrição, cores e fontes
+  - pesquisa/canal-clima-2026-11/IDEIAS-A-DISCUTIR.md   # ideias NÃO decididas
+  - pesquisa/canal-clima-2026-11/voz-eleven/            # amostras ElevenLabs (v2 × v3)
+  - pesquisa/canal-clima-2026-11/voz-fish/LEIA.md       # amostras Fish (descartadas)
+  - pesquisa/estilo-mapa-relevo-3d/PADRAO.md            # padrão do mapa 3D (@relevo.ia)
+  - pesquisa/benchmark-2026-11-14/RELATORIO.md          # §2.3 Em Relevo: Mundo Entrópico, Chão do Sul
+  - pesquisa/gap-2026-11-14/canais/em-relevo.md         # gap nosso × referências
+  - pesquisa/reembalagem-2026-11-14/PROPOSTAS.md        # reembalagem (seção Em Relevo)
+  - pesquisa/roteiro-angulo-2026-11/AUDITORIA.md        # ângulo próprio (005 = 11/100)
+formula:
+  modelo: "Brasil explicado no mapa (Mundo Entrópico, Chão do Sul: lugar + anomalia) com desastre reconstruído (Um Documentário, The Last Day); assinatura = maquete 3D com relevo real + dados + fotos reais"
+  titulo: "Por que [LUGAR] [anomalia]?"                 # lugar como sujeito, caixa alta em 1–2 palavras, sem dar a causa; variações em biblia/titulo.md
+  titulo_alternativo: "O/A [coisa concreta] que [faz algo]"
+  duracao_min: 10-11            # 004 e 005: ~1.750 palavras ≈ 10:30 (005 saiu 9:48); BRIEF do 005
+  palavras: 1.700-1.900         # ~38–44 blocos, ≤ 10.500 caracteres para o TTS (BRIEF do 005)
+  estrutura: "hook lugar+data+número → pergunta do título até ~0:40 → 'a resposta está no mapa' → 4–6 capítulos numerados (pergunta ou camada da resposta) → A RESPOSTA → fecho útil (o que fazer / mande para quem mora lá); detalhes em biblia/roteiro.md"
+cadencia: "fábrica noturna: sáb/dom/seg/ter 20:00, 1 vídeo do canal por noite (decisão do Rodrigo, 16/11/2026); o dia de ir ao ar é do Rodrigo"
+voz:
+  motor: elevenlabs
+  voz: 7iqXtOF3wl3pomwXFY7G      # "Fernanda" (ElevenLabs); videos/004-*/ e 005-*/shared/gera_voz_eleven.py (idênticos)
+  modelo: eleven_v3
+  voice_settings: {stability: 0.0, similarity_boost: 0.8}
+  formato: mp3_44100_128
+  modo: por_bloco                # 1 request por bloco (campo fala_tts do blocos.json, com tags de emoção); brutos em audio/eleven-brutos/ (fora do git)
+  velocidade: "atempo no ffmpeg (o v3 não tem parâmetro): hook b01–b06 1,36×, resto 1,1×; alvo ~173 palavras/min (shared/monta_audio_v2.py do 005)"
+  chave: "~/.segredos/elevenlabs/api_key (plano mensal de caracteres; nunca imprimir)"
+  sintetica: true                # a descrição do CANAL declara voz sintética; o youtube.txt do vídeo não menciona IA (conhecimento/politicas-youtube.md)
+visual:
+  # Mapa 3D com relevo real/satélite conduz; fotos reais com licença dão realidade. Sem IA de cena. Detalhes em biblia/visual.md.
+  gerador_cena: nenhum
+  motor: remotion + three.js     # @remotion/three, @react-three/fiber (remotion/package.json do 005)
+  base_mapa: "SRTM/ETOPO/Terrain Tiles + Blue Marble (satélite); hidrografia OSM/ANA; malhas IBGE"
+  thumb:
+    gerador: codigo              # composição Remotion (remotion/src/Thumb.jsx) sobre quadros do próprio mapa 3D; texto no código; US$ 0, sem IA de imagem
+    script: shared/thumbs.sh     # npx remotion still Thumb1..3 em 1920×1080 → ffmpeg 1280×720 jpg (< 2 MB); 005 e 004
+    cores: {navy: "#1F2A44", amarelo: "#FFD23F", ciano: "#3FD8FF", branco: "#FBF8F1"}   # Thumb.jsx do 005
+  cores:                         # identidade/LEIA.md (09/11/2026)
+    coral: "#E8505B"
+    navy: "#1F2A44"
+    papel: "#E9DCC3"
+    branco_papel: "#FBF8F1"
+    tinta: "#2B2622"
+    fio_vermelho: "#D8404B"
+    terreno: "#B9A47F"
+  fontes: [Anton, IBM Plex Mono, Playfair Display Italic]   # OFL, em pesquisa/canal-clima-2026-11/identidade/fontes/
+  trilha: "Kevin MacLeod (CC BY 4.0, crédito na descrição): Echoes of Time, Ossuary 6 - Air, Frozen Star"
+  creditos: so_descricao         # acervo/fotos com crédito só na descrição, nunca em tela (BRIEF-lote-fds-COMUM, 13/11/2026)
+render: runpod                   # tools/render_runpod.sh em partes ≤ 10 min (decisão de 11/11/2026); VPS só stills e testes de segundos
+videos:
+  - "001 O que está acontecendo com o clima no Sul do Brasil? (bG6-E4qjXYc)"
+  - "002 El Niño 2026 vai ser o mais forte da história? (FeSLzHvlkbo)"
+  - "003 Por que quase ninguém fala da seca que matou 500 mil brasileiros? (I5KpDKy6r3E; título do banco)"
+  - "004 Por que o Brasil teve seca e enchente no mesmo ano, e vai ter de novo? (pronto)"
+  - "005 Por que a chuva da SERRA alagou PORTO ALEGRE? (pronto)"

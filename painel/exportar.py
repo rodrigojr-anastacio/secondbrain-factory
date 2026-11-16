@@ -40,7 +40,7 @@ STATUS_EXIBICAO = {"lotr-fr": "stand-by"}
 CANAIS_EXTRA = [
     # canal em teste, ainda sem linha em youtube.canais; gastos lançados nos projetos abaixo
     {"slug": "em-relevo", "nome": "Em Relevo (clima)", "idioma": "en/pt", "status": "em teste",
-     "projetos": ["em-relevo", "clima"], "pesquisa": "pesquisa/canal-clima-2026-11"},
+     "projetos": ["em-relevo", "clima"], "pesquisa": "canais/em-relevo"},
 ]
 ORDEM_CANAIS = ["historia-ptbr", "dossie-es", "em-relevo", "lotr-fr"]
 

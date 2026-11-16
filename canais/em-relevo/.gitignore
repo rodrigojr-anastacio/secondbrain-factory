@@ -1,0 +1,4 @@
+# herdado de pesquisa/canal-clima-2026-11/.gitignore (vídeos movidos para cá em 16/11/2026)
+dados/rios-osm.json
+entrega/*.jpg.bak
+work/

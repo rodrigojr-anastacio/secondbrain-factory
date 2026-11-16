@@ -77,10 +77,11 @@ REGRAS_CANAL = {
 - Não leia nem copie os canais `historia-ptbr`/`dossie-es`. Referência de código/estrutura: SOMENTE `videos/002-bikini` e `003-gettysburg`.
 - **Acervo real** (NARA, DoD/DVIDS, LOC, Wikimedia PD/CC com licença conferida por arquivo); **IA só na base da thumb** (fal conforme `canal.yaml`). Créditos só na descrição. Voz conforme `canal.yaml`.
 - Restos humanos/vítimas: nada de ossadas ou corpos na tela, nada de "dead/death" no título.""",
-    "em-relevo": """- Canal **Em Relevo** (pt-BR): clima e geografia do Brasil em mapa 3D/satélite + fotos reais grandes. **Sem IA de cena.** O canal não tem pasta `canais/`: as regras moram em `pesquisa/canal-clima-2026-11/` (`RELATORIO.md`, `biblia-titulo.md` = bíblia de título/thumb, `biblia-roteiro.md` = bíblia de roteiro: forma × conteúdo, `IDEIAS-A-DISCUTIR.md`) e `pesquisa/estilo-mapa-relevo-3d/PADRAO.md`; as regras de lote de `~/workspace/referencias/BRIEF-lote-fds-COMUM.md` valem, **exceto a seção Entrega** (aqui quem entrega é a rotina noturna).
-- Pipeline/código: copie de `pesquisa/canal-clima-2026-11/longo-04/` (e `longo-03/`), sem `node_modules`. Escreva só na sua pasta `longo-NN/`.
-- Imagens: Landsat/USGS, NOAA, INMET, Wikimedia com licença conferida por arquivo, arquivos públicos com licença clara. **Nenhuma imagem da Globo/TV.** Créditos só na descrição. Voz ElevenLabs (a mesma do 002; confira o saldo de caracteres).
-- Números com fonte primária (sem fonte vira "segundo X" ou sai). Sem alarmismo em previsão: probabilidades com fonte.""",
+    "em-relevo": """- Canal **Em Relevo** (pt-BR): clima e geografia do Brasil em mapa 3D/satélite + fotos reais grandes. **Sem IA de cena.** Bíblia: `canais/em-relevo/biblia/` (README, roteiro, titulo, thumb, visual, voz; prevalece) e `canais/em-relevo/canal.yaml`; padrão do mapa em `pesquisa/estilo-mapa-relevo-3d/PADRAO.md`. As regras de lote de `~/workspace/referencias/BRIEF-lote-fds-COMUM.md` valem, **exceto a seção Entrega** (aqui quem entrega é a rotina noturna).
+- **Não leia nem copie os outros canais.** Pipeline/código: copie do último vídeo deste canal (`canais/em-relevo/videos/005-enchente-porto-alegre-2024/`, e `004-el-nino-1983/`), sem `node_modules` (faça symlink para `../../002-el-nino-2026/remotion/node_modules`, como o 005). Escreva só na sua pasta `canais/em-relevo/videos/NNN-slug/`.
+- Imagens: Landsat/USGS, NOAA, INMET, NASA (GPM/IMERG via Earthdata, `~/.segredos/nasa/earthdata.env`), Wikimedia com licença conferida por arquivo, arquivos públicos com licença clara. **Nenhuma imagem da Globo/TV.** Créditos só na descrição, nunca em tela. Voz ElevenLabs conforme `canal.yaml` (confira o saldo de caracteres).
+- Thumb: 3 padrões visuais diferentes (A/B/C), e no máximo 1 de mapa escuro (`biblia/thumb.md`: as 3 da seca 1877 eram mapa escuro + número e deram CTR 0,8%).
+- Números com fonte primária (sem fonte vira "segundo X" ou sai). Sem alarmismo em previsão: probabilidades com fonte. Sem cadáver, sem "morte" no título, sem anunciar o próximo vídeo.""",
 }
 
 
@@ -234,7 +235,7 @@ def gerar_briefs(canal, it, vid_id, numero, pasta, noite, prazo, destino=REF):
     destino.mkdir(parents=True, exist_ok=True)
     principal = destino / f"{base}.md"
     e1, e2 = destino / f"{base}-ETAPA1.md", destino / f"{base}-ETAPA2.md"
-    biblia = {"em-relevo": "pesquisa/canal-clima-2026-11/ (RELATORIO.md, biblia-titulo.md, biblia-roteiro.md) + pesquisa/estilo-mapa-relevo-3d/PADRAO.md"}.get(canal, f"canais/{canal}/biblia/")
+    biblia = f"canais/{canal}/biblia/"
     evid = "\n".join(f"  - [{e.get('tipo', '')}] {e.get('fonte', '')}: {e.get('numero', '')} ({e.get('data', '')}) {e.get('link', '')}".rstrip()
                      for e in (it["evidencias"] or []))
     entrega_drive = ("**Não rode `entregar_drive.sh` nem `rclone`.** Deixe tudo em `" + pasta + "/entrega/` (video.mp4, legendas.srt, "
@@ -424,18 +425,8 @@ def entregar(con, row, canal, pasta, enviar_tg):
     src = REPO / pasta / "entrega"
     if not src.is_dir() or not any(src.iterdir()):
         return "erro"
-    if canal != "em-relevo":
-        r = subprocess.run([str(REPO / "tools/entregar_drive.sh"), canal, item], capture_output=True, text=True, timeout=3600)
-        rc = r.returncode
-    else:  # Em Relevo não tem canais/<slug>/canal.yaml: mesmo critério do entregar_drive.sh (folga de 300 MB), rclone direto
-        precisa = sum(f.stat().st_size for f in src.rglob("*") if f.is_file()) / 1048576
-        livre = drive_livre_mb()
-        if livre is None or livre < precisa + 300:
-            rc = 3
-        else:
-            r = subprocess.run(["rclone", "copy", str(src), f"gdrive:Youtube/Em Relevo/{item}", "--drive-chunk-size", "64M", "--transfers", "2"],
-                               capture_output=True, text=True, timeout=3600)
-            rc = r.returncode
+    r = subprocess.run([str(REPO / "tools/entregar_drive.sh"), canal, item], capture_output=True, text=True, timeout=3600)
+    rc = r.returncode
     st = "entregue" if rc == 0 else ("sem_espaco" if rc == 3 else "erro")
     con.execute("UPDATE youtube.producao_noturna SET entrega=%s, entregue_em=CASE WHEN %s='entregue' THEN now() END, atualizado_em=now() WHERE id=%s",
                 (st, st, row["id"]))

@@ -24,7 +24,9 @@ PROTEGIDOS_FIXOS = [
     "canais/dossie-es/videos/007-ss", "canais/dossie-es/videos/008-",
     "canais/lugares-guerra-en/videos/002-", "canais/lugares-guerra-en/videos/003-",
     "canais/historia-ptbr/videos/008-", "canais/historia-ptbr/videos/009-",
-    "pesquisa/canal-clima-2026-11/longo-03", "pesquisa/canal-clima-2026-11/longo-04",
+    "canais/em-relevo/videos/003-", "canais/em-relevo/videos/004-",
+    # 001/002 do Em Relevo guardam o node_modules (e dl/sfx, dl/musica) que os vídeos seguintes usam por symlink
+    "canais/em-relevo/videos/001-", "canais/em-relevo/videos/002-",
 ]
 
 

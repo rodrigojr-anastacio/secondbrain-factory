@@ -1,6 +1,6 @@
 # Backlog — Em Relevo
 
-Os arquivos do canal (regras, roteiros, vídeos `longo-NN/`) moram em `pesquisa/canal-clima-2026-11/`; este arquivo existe só para o espelho do backlog vivo.
+Canal no padrão desde 16/11/2026: `canal.yaml`, bíblia em `biblia/`, vídeos em `videos/NNN-slug/` (os antigos `pesquisa/canal-clima-2026-11/longo-NN` são symlinks para cá). Este arquivo guarda o espelho do backlog vivo.
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 

@@ -20,7 +20,7 @@ Modelo: **opus** (etapa 1 do lote). O crivo roda num **Task separado** (revisor 
 - Sem `BRIEF.md`, não comece.
 
 ## Antes de agir
-0. **Bíblia do canal primeiro:** `canais/<slug>/biblia/README.md` (o que NÃO fazer aqui), `titulo.md` e `thumb.md` (fórmula, template, padrões medidos, Hipóteses da reembalagem). Em Relevo: `pesquisa/canal-clima-2026-11/biblia-titulo.md` (até ganhar `canais/<slug>/`). A bíblia **prevalece**; desvio só explícito ("**desvio da bíblia:** … porque …") e com evidência.
+0. **Bíblia do canal primeiro:** `canais/<slug>/biblia/README.md` (o que NÃO fazer aqui), `titulo.md` e `thumb.md` (fórmula, template, padrões medidos, Hipóteses da reembalagem). A bíblia **prevalece**; desvio só explícito ("**desvio da bíblia:** … porque …") e com evidência.
 1. Regras gerais: `conhecimento/titulos.md`, `conhecimento/thumbnails/README.md`, `conhecimento/politicas-youtube.md`, `conhecimento/decisao-do-clique.md`.
 2. Padrões já medidos: `pesquisa/reembalagem-2026-11-14/padroes.md` (seção do canal), `pesquisa/benchmark-2026-11-14/RELATORIO.md`, `pesquisa/gap-2026-11-14/RELATORIO.md` (gap 2 = embalagem igual à dos clones). **Reaproveite** antes de buscar de novo; padrão já medido só precisa ser reconferido (views de hoje).
 3. As thumbs no ar do **mesmo canal** (`conhecimento/thumbnails/<slug>-*.jpg` e `canais/<slug>/videos/*/reembalagem-2026-11-14/thumb-nova.jpg`) para a nova não ficar igual às vizinhas na grade.
