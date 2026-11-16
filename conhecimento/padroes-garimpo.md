@@ -12,3 +12,14 @@
 - Cauda fraca depois do hit: Where They Stood mediana 30k (hit 4,5M), Two Sides 4,9k (hit 1,4M), Minute Zero 57k (2 vídeos somam 4,5M).
 - Thumb "Day 1 → Day 30" (Stupid Dupid): 5 vídeos, melhor 330k, mediana do canal 59k.
 - Fonte: `pesquisa/tendencias/2026-11-12-batch.md`.
+
+## 2026-11-16 — 48 vídeos
+- "What If You…" em 2ª pessoa: 5 canais, 31 vídeos; 8 dos 10 vídeos com mais views.
+- "Crush" no título: 3 canais, 9 vídeos, mediana 180.879 (spread 242 a 1.123.340).
+- Thumb com rótulos "YOU / YOUR CRUSH" e setas: 7 de 9 thumbs de crush; 4 delas entre 255k e 1,12M.
+- Split Day 1 → Day 30 na thumb: 2 canais, 762k e 330k views.
+- Arven "[N] inimigos mortos": 1 canal, 8 vídeos, mediana 59.538; top 3 com 1,1–1,3M.
+- Thumb de palavra única em caixa alta (Arven): CAPTIVE 1,31M, PSYCHO 1,11M.
+- Lullorin "If Your X Ever… COMANDO": 1 canal, 4 vídeos, mediana ~60,9k; vídeo de 81 min = 12.017.
+- Ritmo observado: ~16–18 cortes/min com capítulos nomeados (2 vídeos, 1,31M e 1,12M).
+- Fonte: `pesquisa/tendencias/2026-11-16-batch.md`.
