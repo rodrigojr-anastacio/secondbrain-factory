@@ -37,7 +37,7 @@ from db import tentar
 
 # US$ por milhão de bytes UTF-8 (docs.fish.audio, "Pricing and Rate Limits"). Atualize se o Fish mudar o preço.
 PRECO_POR_MI_BYTES = {"s2.1-pro": 15.0, "s2.1-pro-free": 0.0, "drama-3": 50.0}
-PROMO = {"drama-3": (10.0, dt.datetime(2026, 11, 12, 17, 0, tzinfo=dt.timezone.utc))}  # promoção de lançamento (até 12/11 09:00 PT)
+PROMO = {"drama-3": (10.0, dt.datetime(2026, 12, 1, 8, 0, tzinfo=dt.timezone.utc))}  # preço de lançamento US$ 10/M até 30/11/2026 (painel Fish conferido pelo Rodrigo em 16/11); depois US$ 50/M
 
 
 def preco(modelo):
