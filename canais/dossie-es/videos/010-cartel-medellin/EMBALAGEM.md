@@ -115,4 +115,4 @@ Por que são 3 thumbs diferentes: A = objeto metálico em close sobre fundo escu
 ## Crivo
 Rodada r1: REPROVADO 5 de 6 (Thumb A + obrigações; `embalagem/crivo-r1.md`) → r2: Thumb A reescrita, obrigações completadas.
 Rodada r2: REPROVADO 5 de 6 (Thumb A: caneta lê como documento igual à B; `embalagem/crivo-r2.md`) → r3: Thumb A reescrita (algemas em fundo escuro), B sem carimbo vermelho, C diurna (fato), obrigações com "inexequible".
-Rodada r3: (pendente)
+Rodada r3: APROVADO 6 de 6 (`embalagem/crivo-r3.md`, cópia em `CRIVO.md`)
