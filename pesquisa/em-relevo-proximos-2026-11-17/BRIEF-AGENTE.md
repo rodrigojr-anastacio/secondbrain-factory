@@ -1,0 +1,27 @@
+# Brief comum dos subagentes (ficha de 1 candidato) — Em Relevo, 17/11/2026
+
+Você é um subagente de pesquisa. Escreva em pt-BR. **Só pesquisa:** não altere bíblia, backlog, fila, `canal.yaml`, nada fora da sua pasta `pesquisa/em-relevo-proximos-2026-11-17/candidatos/<slug>/`. **Não faça git** (o orquestrador commita). Tudo em primeiro plano (sem `&`, sem background). Temporários em `$TMPDIR` (nunca `/tmp`). Nunca imprima/copie segredos. Custo teto US$ 0 (só yt-dlp/WARP, Data API `videos.list`/`channels.list`/`playlistItems`, sem `search.list`; RSS do Google Notícias; páginas web públicas).
+
+## Contexto
+Canal **Em Relevo** (pt-BR, `canais/em-relevo/`): 4 vídeos no ar, 3–27 views, **CTR 1–1,6%**; retenção boa. O problema é tema/título/thumb. Escopo vai abrir para **planeta Terra com ligação ao Brasil** (relevo, rios, oceanos, geologia, desastres, "e se / por que"); **espaço fora**. Estilo-alvo = vídeo 001: **fotos/vídeos reais em moldura analógica fixa + mapa 3D com relevo real (SRTM/ETOPO/satélite)**; não pode depender só de animação. Referências de formato: `pesquisa/referencia-omundoetudoaoredor-2026-11/RELATORIO.md` (resumo no topo) e `pesquisa/referencia-manicule-regua-2026-11/COMPARATIVO.md` (resumo no topo). Diretriz do Rodrigo: decidir **com dados, evidências e métricas de que é bom fazer AGORA**, não por opinião.
+
+Varredura já feita pelo orquestrador (use como ponto de partida, não refaça): `scan/<tema>/refs.csv` (busca yt-dlp + views + mediana do canal + ×mediana, janela 365 d) e `canais-mapa/canais.json` (últimos 50 uploads de 13 canais pt-BR de "geografia no mapa": Sob o Mapa, O Mapa Não Mente, Além do Mapa, Rotas do Brasil Oculto, Vilas Caídas, Luxo em Ruínas, Brasil de Outrora etc., com ×mediana).
+
+## Ferramentas
+- Busca + enriquecimento + mosaico (custo 0, Data API barata): `tools/.venv/bin/python skills/embalagem/scripts/pesquisa_embalagem.py buscar <PASTA> --idioma pt "termo 1" "termo 2" ... --n 30`, depois `... enriquecer <PASTA> --dias 365 --min-dur 240 --top 25`, depois `... thumbs <PASTA> --ids ID1,ID2,... --nome mosaico` (curadoria: 9–12 thumbs do tema, só pt-BR relevantes). `<PASTA>` = sua pasta do candidato. Gera `refs.csv`, `medianas.json`, `mosaico.jpg`.
+- yt-dlp sempre com `--proxy socks5://127.0.0.1:40000` (`tools/.venv/bin/yt-dlp`). Data de upload, descrição: `--skip-download --print`.
+- Autocomplete do YouTube: `https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=pt&gl=BR&q=<termo>` via `curl --socks5-hostname 127.0.0.1:40000` (pausa 1–2 s entre chamadas); teste prefixos ("por que o mar", "cidade debaixo", etc.). Ver `tools/keywords.py` (`autocomplete`).
+- Notícias (momento): `curl -s "https://news.google.com/rss/search?q=<termo>+when:90d&hl=pt-BR&gl=BR&ceid=BR:pt-419"` (conte itens e datas, cite 3–5 manchetes com data e veículo). Google Trends se der (sem insistir).
+- Manada leve: `tools/manada.py transcrever <PASTA>/manada --ids ID1,ID2,ID3` (legendas automáticas; se falhar, leia descrições/capítulos com yt-dlp). Objetivo: mapear o que TODOS dizem (consenso) e achar o **ângulo nosso fora da manada** que o mapa 3D com relevo real resolve.
+- Material visual: verifique de verdade (busque, conte, cite 3–6 links concretos): Wikimedia Commons (categorias/buscas), NASA Earth Observatory/Worldview, USGS/Landsat (EarthExplorer/timelapse), Copernicus/Sentinel, **Agência Brasil (CC BY 3.0 BR; fotos de desastres)**, gov.br/Defesa Civil/CPRM-SGB/ANA/Marinha/INPE/IBGE (licença), acervo de jornal com dono (nível b, só com crédito, política não aprovada) e o que é proibido (TV/Globo, Getty/Reuters/AP). Diga em 3 níveis com estimativa: (a) livre, (b) crédito, (c) proibido; e se dá para ≥ 40% do vídeo em foto/vídeo real + mapa 3D.
+
+## Entregável: `candidatos/<slug>/FICHA.md` (≤ 150 linhas), com estas seções
+0. **Recomendação em 3 linhas** (fazer? nota 0–10; risco principal).
+1. **Demanda medida agora**: tabela com 6–10 vídeos pt-BR do tema nos últimos 12 meses (link curto youtu.be/ID, título, canal, inscritos, data, views, mediana do canal, ×mediana), destacando os de **≤ 90 dias**. Critério mínimo: **≥ 3 vídeos de canais pequenos/médios (≤ 500 mil inscritos) com ≥ 5× a mediana do canal**. Diga se passa ou não. Autocomplete (sugestões reais coletadas). Momento (notícia/evento/sazonalidade com datas).
+2. **Concorrência/manada**: quem fez, quando, quantos vídeos ≥ 100 mil em 90 d; está saturado? Consenso da manada (3–5 bullets) e **ângulo nosso fora da manada** (1 parágrafo; precisa usar o mapa 3D com relevo real e fato com fonte própria).
+3. **Embalagem preliminar**: 2 títulos (cada um com o padrão e a evidência: qual título real com números ele modela) + 1 conceito de thumb descrito (não gerar imagem), pensado contra CTR baixo (contraste, 2–3 palavras, objeto concreto); e `mosaico.jpg` das thumbs concorrentes (9–12).
+4. **Material visual** nos 3 níveis, com links verificados e estimativa de % de tela real.
+5. **Encaixe** no escopo Terra + Brasil.
+6. **Nota**: demanda (0–10) × momento (0–10) × material (0–10) × encaixe (0–10) → média geométrica; risco principal; o que derrubaria a ideia.
+
+Seja cético: se os dados derrubarem o candidato, diga isso claramente (é um resultado útil). Não invente número: tudo com link. Resposta final ao orquestrador: 8–12 linhas com nota, 3 melhores números (link + views + ×mediana), 2 títulos, thumb em 1 linha, material (livre/crédito), risco.
