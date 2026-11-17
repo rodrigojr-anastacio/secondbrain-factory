@@ -33,7 +33,7 @@
 ## Fatos fortes (matéria-prima da promessa), conferidos em 17/11/2026
 | # | Fato | Fonte | Estado |
 |---|---|---|---|
-| 1 | **Hook:** Monzón, primavera de 1309: as tropas de Jaime II sitiam o castelo templário; rendição em **maio de 1309**; um dos últimos bastiões | 6; 1 | conferido. Dia 24/05, início exato do cerco (out/1308?) e nome do comendador = [PENDENTE] (não dizer) |
+| 1 | **Hook:** Monzón, primavera de 1309: as tropas de Jaime II sitiam o castelo templário; rendição em **maio de 1309**; Monzón e Chalamera = **últimos bastiões templários da Coroa de Aragão** ("cayendo los últimos bastiones, Monzón y Chalamera", 1309); a Coroa é onde os templários resistem em armas nos castelos | 6; 1; Templer-Enzyklopädie TU Dresden https://templar-encyclopedia.webspace.tu-dresden.de/Ordenshaus-Katalonien.pdf ; https://www.fascinatingspain.com/articulo/what-to-see-in-aragon/castle-of-monzon-last-templar-stronghold/20201117075945066976.html | conferido ("los últimos templarios del reino", nunca "de la cristiandad"). Dia 24/05, início exato do cerco (out/1308?) e nome do comendador = [PENDENTE] (não dizer) |
 | 2 | Jaime I (nascido em Montpellier, 1208) fica órfão em 1213 (pai em Muret, 12/09/1213; mãe em Roma, abril); entregue à ordem; Monzón **ago/1214–jun/1217** com Guillem de Montredon; ele mesmo escreve "estivemos ali dois anos e meio" | 4 | conferido |
 | 3 | Jaime II é **neto** de Jaime I (Jaime I → Pedro III → Jaime II) | 4 (genealogia) | conferido |
 | 4 | Ramón Berenguer III, conde de Barcelona, doa Granyena e **professa no Templo cinco dias antes de morrer**, julho de 1131 | 2 | conferido (enterro "com hábito" = [PENDENTE]: dizer só que professou) |
