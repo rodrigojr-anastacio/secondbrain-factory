@@ -42,3 +42,7 @@ Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/emba
 - Thumb H2: o **objeto do caso dominante** (o caso que o título nomeia e o roteiro paga cedo), 1 foco, sello de lacuna de uma palavra que não repete o título nem lê junto com a sigla.
 - Objeto banal sem rosto é **Hipótese**: medir no "Testar e comparar" e registrar aqui o CTR.
 - Conferir a base de perto: o nano-banana escreve código de cor no canto e pode pôr gotas vermelhas (parecem sangue); pedir "absolutely NO red color, no blood".
+
+### Embalagem do 010 Cártel de Medellín (16/11/2026, crivo r3 aprovado; 3 padrões)
+- O mosaico do tema em es é **12 de 12 rosto de Escobar** (foto); as 3 nossas não têm rosto: A `objeto-simbolo` (algemas abertas em close sobre mesa escura, **sigla em cor papel sobre fundo ardósia**, sello "INTOCABLES"), B `documento-evidencia` (página datilografada com uma palavra tarjada, "ART. 35", sem carimbo), C `cena-acao` (de dia, helicópteros sobre a fazenda do hook, "¿RESCATE?").
+- O crivo reprovou 2 vezes a Thumb A: (r1) objeto **pendurado** + sello de período = igual à vizinha 009; (r2) caneta sobre papel creme + traço + sello = lê como **documento** e confunde com a B a 320×180, e objeto fino em diagonal repete a KGB. Regra prática: quando uma das 3 é documento, a de objeto vai em **fundo escuro, sem papel**. Confira a hora real da cena antes de desenhar (a operação de 1991 foi de dia: a cena noturna caiu). **Hipótese** até o CTR do "Testar e comparar".

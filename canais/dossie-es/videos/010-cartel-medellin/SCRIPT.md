@@ -1,6 +1,6 @@
 # TODA la Historia del Cártel de Medellín | Su Guerra contra la Extradición en 14 minutos: roteiro
 
-Gerado por `roteiro.py` (fonte única; edite lá). 1966 palavras, ~13:54.1 estimados a 143 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 1967 palavras, ~13:54.5 estimados a 143 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
@@ -41,7 +41,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N015]** En febrero de mil novecientos ochenta y dos, Martha Nieves vuelve a casa. Según varios historiadores, los grandes traficantes aprenden de ese episodio que, unidos, pueden presionar a cualquiera.
 
-**[N016]** Los hermanos Ochoa. Gonzalo Rodríguez Gacha. Carlos Lehder. Y un contrabandista criado en Envigado, Pablo Escobar. Ese grupo ya tiene dinero y armas. Le falta una cosa: que el tratado nunca los alcance.
+**[N016]** Los hermanos Ochoa. Gonzalo Rodríguez Gacha. Carlos Lehder. Y un contrabandista criado en Envigado, Pablo Escobar. Ese grupo ya tiene dinero y armas. Ahora le falta una cosa: que el tratado nunca los alcance.
 
 
 ## 3. El Cheque
