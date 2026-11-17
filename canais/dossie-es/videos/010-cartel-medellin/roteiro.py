@@ -176,7 +176,7 @@ b("Lara contraataca: denuncia el dinero de la droga en la política. Y señala a
   "empty_seat|An empty leather seat in the back row of a parliament chamber, a nameplate removed, 1983" + SEM)
 b("El treinta de abril de mil novecientos ochenta y cuatro, asesinan a Lara Bonilla en Bogotá. Belisario Betancur, que hasta entonces había negado las solicitudes de Estados Unidos, empieza a firmar extradiciones.",
   "lara_car|A white Mercedes-Benz car stopped on a residential street of north Bogotá at night in 1984, police lights in the distance, broken side window, seen from far away, no people" + VIOL,
-  "funeral_crowd|A huge silent crowd with umbrellas in the Plaza de Bolívar in Bogotá for a funeral, 1984, seen from above" + SEM,
+  "funeral_crowd|A huge silent crowd holding umbrellas in a large stone plaza in Bogotá, solemn public ceremony, 1984, seen from above" + SEM,
   f"betancur|{BETANCUR} signing a document at his desk in the presidential palace, a grave face, 1984" + SEM + "@@BELISARIO BETANCUR",
   "handcuffs_desk#médio-dir", ideia=True)
 
@@ -448,7 +448,7 @@ b("Y tú, ¿qué crees que aprendió Colombia de esta guerra? ¿Qué parte de es
 # INTOCABLES no código); B página datilografada em branco ocupando o quadro (tarja preta, linhas e "ART. 35" no código, sem
 # carimbo vermelho); C de dia, helicópteros sobre a fazenda branca na montanha ("¿RESCATE?" em sello com fundo papel no código).
 THUMBS = [
-    {"id": "thumb-A", "prompt": "Ink graphic novel illustration: close three-quarter view of a large pair of open steel handcuffs lying on a dark wooden desk, one cuff hanging over the edge, strong desk lamp light from upper left, bright metallic shine, deep slate blue dark background, the handcuffs occupy the LEFT 60 percent of the frame, the RIGHT side is empty dark background, no paper, no text, no lettering, no numbers, absolutely NO red color, no blood, no weapons"},
+    {"id": "thumb-A", "prompt": "Ink graphic novel illustration: extreme close-up three-quarter view of an enormous pair of open polished steel handcuffs lying on a dark wooden desk table edge, handcuffs fill the left two thirds of the frame and almost the full height, one cuff hanging over the edge, strong desk lamp light from upper left, bright metallic shine, deep slate blue dark background, the handcuffs occupy the LEFT 65 percent of the frame, lamp not visible, the RIGHT side is empty dark background, no paper, no text, no lettering, no numbers, absolutely NO red color, no blood, no weapons"},
     {"id": "thumb-B", "prompt": "Ink graphic novel illustration: extreme close-up of a single old typewritten sheet of cream paper filling almost the entire frame, slightly tilted, completely blank paper with no letters, no words, no marks, soft warm lamp light, only a thin dark edge of desk visible at the right border, no stamp, no red color, no text, no lettering"},
     {"id": "thumb-C", "prompt": f"Ink graphic novel illustration: daytime wide shot of {ANDES} under low grey clouds, a white farmhouse with a clay tile roof large in the LEFT third of the frame occupying at least a third of the image height, two dark police helicopters without any markings flying low over the coffee slope near the house, tiny distant figures running among the coffee plants, no weapons visible, no bodies, no blood, the RIGHT half is open pale sky, no text, no lettering"},
 ]

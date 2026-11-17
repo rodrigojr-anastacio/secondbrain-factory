@@ -22,3 +22,4 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md`. Configuraç�
 ## Não faça
 - Vozes que imitam pessoas reais (dubladores, políticos, Iker Jiménez) nem a voz de TikTok mais usada (`locutor k`).
 - O clone pt-BR do Rodrigo (é do `historia-ptbr`) ou tom caloroso de contador de história.
+- Medido no 010 Cártel de Medellín (16/11): Whisper 98,7% (média). Nomes colombianos em espanhol saem bem (Turbay, Pachón, García Herreros, Lehder com respelling "Léder"). **"MAS" (sigla) sai "emaz"**: escrever "Más" na voz. [`videos/010-cartel-medellin/QA.md`]

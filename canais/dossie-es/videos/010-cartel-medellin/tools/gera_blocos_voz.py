@@ -1,6 +1,6 @@
-import json,re,sys
-G={"Geheime Staatspolizei":"Gue-jái-me Shtáats-po-li-tsái","Prinz Albrecht":"Prints Álbrejt","Reichstag":"Ráiksstag","Reich":"Raik","Göring":"Guéring","Himmler":"Jímler","Heydrich":"Jáidrik","Reinhard":"Ráinjart","Heinrich":"Háinrik","Müller":"Míler","Keitel":"Káitel","Wilhelm":"Vílhelm","Eichmann":"Áikman","Klement":"Klémen","Mossad":"Mosád","Würzburg":"Vúrtsburk","Gellately":"Yélatli","Bernburg":"Bérnburk","Benário":"Benario","Prestes":"Préstes","Getúlio":"Jetúlio","Filinto":"Filínto","Lyon":"Lión","Montluc":"Monlúk","Caluire":"Kaluír","Jean Moulin":"Yan Mulán","De Gaulle":"De Gol","Izieu":"Isié","Altmann":"Áltman","Auschwitz":"Áushvits","Draganović":"Draganóvich","Krunoslav":"Krunóslav","Klarsfeld":"Klársfelt","Serge":"Sérj","Beate":"Beáte","Priebke":"Príbke","Erich":"Érik","télex":"téleks","Telex":"Téleks","Hitler":"Hítler"}
-G.pop("Hitler")
+import json,re
+# Glossário só para a VOZ (010 Cártel de Medellín): nomes em espanhol saem bem; só o alemão Lehder precisa de respelling.
+G={"Lehder":"Léder","MAS":"Más"}
 b=json.load(open("blocos.json"))
 ks=sorted(G,key=len,reverse=True)
 pat=re.compile("(?<!\\w)("+"|".join(map(re.escape,ks))+")(?!\\w)")

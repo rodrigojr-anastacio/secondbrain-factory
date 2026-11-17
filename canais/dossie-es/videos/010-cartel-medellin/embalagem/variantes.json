@@ -5,7 +5,8 @@
   "padrao_titulo": "TODA la Historia de [org] en N Minutos | subtítulo concreto",
   "padrao_thumb": "objeto-simbolo",
   "thumb_conceito": "algemas de aço abertas em close 3/4 sobre mesa de madeira escura, fundo ardósia, sigla MEDELLÍN em cor papel à direita + sello INTOCABLES + aba EXPEDIENTE Nº 010",
-  "thumb_texto": "MEDELLÍN INTOCABLES"
+  "thumb_texto": "MEDELLÍN INTOCABLES",
+  "arquivo": "entrega/thumb-A.jpg"
  },
  {
   "letra": "B",
@@ -13,7 +14,8 @@
   "padrao_titulo": "NOMBRE: aposto com lacuna",
   "padrao_thumb": "documento-evidencia",
   "thumb_conceito": "close de página datilografada da Constituição com uma única palavra coberta por tarja preta",
-  "thumb_texto": "ART. 35"
+  "thumb_texto": "ART. 35",
+  "arquivo": "entrega/thumb-B.jpg"
  },
  {
   "letra": "C",
@@ -21,6 +23,7 @@
   "padrao_titulo": "Cómo + organização + verbo concreto + alvo",
   "padrao_thumb": "cena-acao",
   "thumb_conceito": "de dia, helicópteros policiais sobre a fazenda branca na montanha de Antioquia, vistos de longe, sem armas",
-  "thumb_texto": "¿RESCATE?"
+  "thumb_texto": "¿RESCATE?",
+  "arquivo": "entrega/thumb-C.jpg"
  }
 ]
