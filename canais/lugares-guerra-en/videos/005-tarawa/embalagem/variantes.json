@@ -1,0 +1,26 @@
+[
+ {
+  "letra": "A",
+  "titulo": "Why Is America Digging Up Japanese Soldiers on Tarawa?",
+  "padrao_titulo": "Why Is [país] Digging Up X?",
+  "padrao_thumb": "objeto-simbolo",
+  "thumb_conceito": "duas plaquetas de identificação (americana e japonesa) enroscadas na mesma camada de areia, em corte, brilho ciano",
+  "thumb_texto": "SAME HOLE"
+ },
+ {
+  "letra": "B",
+  "titulo": "The Soldiers America Wasn't Looking for on Tarawa",
+  "padrao_titulo": "The X They Weren't Supposed to Find (D adaptado)",
+  "padrao_thumb": "cena-acao",
+  "thumb_conceito": "vista de cima de escavação: mão com luva e pincel descobrindo capacete japonês sem insígnia na areia, seta vermelha",
+  "thumb_texto": "WHOSE?"
+ },
+ {
+  "letra": "C",
+  "titulo": "What's Still Under Tarawa Besides the Marines?",
+  "padrao_titulo": "What's Still Under X?",
+  "padrao_thumb": "antes-depois",
+  "thumb_conceito": "mesmo trecho de praia de Betio em tela dividida: 1943 (palmeiras partidas, cratera, LVT destruído) × hoje (casas de zinco, varal)",
+  "thumb_texto": "1943 · NOW"
+ }
+]

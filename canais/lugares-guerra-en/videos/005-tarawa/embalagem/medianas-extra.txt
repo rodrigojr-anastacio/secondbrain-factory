@@ -1,0 +1,68 @@
+## Long After The Guns mediana(7) = 6893
+   2026-10-29  1084710 157.4x Why Is Wake Island Still Closed to Americans?
+   2026-11-02   147800  21.4x Why Is America Rebuilding Tinian Island, Where the Atomic Bombs Took Off?
+   2026-10-31    13738   2.0x What Happened to the 5 Japanese Midget Submarines of Pearl Harbor?
+   2026-11-03     6893   1.0x Why Okinawa Is Still Digging Up the War, 80 Years Later
+   2026-11-04     5118   0.7x Why Pointe du Hoc Is Falling Into the Sea, 80 Years After D-Day
+   2026-11-01     2605   0.4x What Really Happened to the Bridge on the River Kwai
+## Hallowed Ground Today mediana(3) = 557
+   2026-11-12    50180  90.1x Why Is Japan Still Digging Up Iwo Jima?
+   2026-11-16      557   1.0x Why Can’t Americans Visit the Island Where the Pacific War Turned?
+   2026-11-13      212   0.4x What’s Still Inside the USS Arizona?
+## Untold War Archives mediana(30) = 12660
+   2026-08-30   520506  41.1x In 1942, Japan Banzai Charged U.S. Marines. Nobody Warned Them About the Canister Rounds.
+   2026-09-11   463409  36.6x In 1944, Japan Launched the Largest Banzai Charge of WW2. Nobody Warned Them About the BAR.
+   2026-09-20   381334  30.1x In 1945, Japanese Officers Hid a Mile Away. Nobody Warned Them About the .50 Cal Snipers.
+   2026-10-14   179880  14.2x In 1942, Japan Charged the Army’s Farm Boys on Guadalcanal. Nobody Warned Them About the M1 Garand.
+   2026-10-25   175872  13.9x In 1944, Japan Sent Its Tanks Across Peleliu's Airfield. Nobody Warned Them About the Shermans.
+   2026-08-27   145104  11.5x Why U.S. GIs Were Ordered NEVER to Pick Up a German Luger
+## The Steel Record mediana(10) = 207
+   2026-11-03   151876 733.7x We Watched the USS Arizona Explosion Film Backwards
+   2026-11-05    26343 127.3x Japan Photographed Its Own Attack on Pearl Harbor. Look Closer
+   2026-11-01    23083 111.5x What's Still Inside the USS Arizona?
+   2026-11-09     5099  24.6x Iowa's Turret Exploded. So Why Didn't the Ship? #shorts
+   2026-10-29     3296  15.9x Why Did It Take a 12,000-lb Bomb to Sink One Ship?
+   2026-11-06     2947  14.2x one bomb hit japan's flagship at midway. her own planes sank her
+## War Documents mediana(30) = 748
+   2026-10-12    61966  82.8x Why U.S. Marines Hoped Japan Would Attack Again After Tarawa
+   2026-10-13    35431  47.3x Japan Had 11 Warships Guarding Balikpapan — Then 4 Old U.S. Destroyers Slipped In
+   2026-10-14    30602  40.9x Japan Kept 50,000 Troops Around Wewak — Then MacArthur Landed 215 Miles Behind Them
+   2026-10-10    14992  20.0x Why Japanese Troops Feared the Untrained U.S. Sailors at Bataan
+   2026-10-20    10012  13.4x Japan Predicted the Landing—Then Lost 3 Airfields in 5 Days
+   2026-10-20     9041  12.1x Japan Sent 44 Tanks at the Marines — Then the Darkness Disappeared
+## The Burned Records mediana(30) = 146
+   2026-06-18    19461 133.8x What MACV-SOG Found on a Dead NVA Tracker That Changed How They Ran Every Mission After.
+   2026-07-09    18760 128.9x How US Gunners Cracked Germany's 88mm Problem No One Else Could.
+   2026-06-24     5524  38.0x The Only Weapon NVA Trackers Were Afraid Of in Vietnam.
+   2026-06-15     2304  15.8x The MACV-SOG Rule That Made NVA Trackers File a Report Saying "Enemy Cannot Be Human".
+   2026-06-23     2216  15.2x Viet Cong Scouts Reported SOG Was Dead. They Were Wrong.
+   2026-07-07     1051   7.2x How A US Engineer's 90mm Gun Made Every Tiger Tank In Range Helpless.
+## Markets of the Past mediana(30) = 35134
+   2026-10-18  1900143  54.1x The Real Reason Hitler Never Invaded Switzerland
+   2026-10-08   647160  18.4x The Real Reason Hitler Invaded the Soviet Union
+   2026-10-20   586722  16.7x The Real Reason Hitler Never Invaded Sweden
+   2026-10-28   492536  14.0x The Real Reason America Became Richer Than Latin America
+   2026-10-31   441278  12.6x The Real Reason America Targeted Admiral Yamamoto — It Wasn’t Just Revenge
+   2026-10-03   438466  12.5x The True Origin of Christianity’s Break With Judaism: What Historians Get Wrong
+## InsideWorldWarTwo mediana(11) = 16079
+   2026-11-06   175882  10.9x Iwo Jima in Color: Rare Footage Filmed by the Marines
+   2026-11-07   102424   6.4x Rare Color Footage of Okinawa 1945 — The Bloodiest Battle of the Pacific
+   2026-11-09    56011   3.5x Rare Color Footage of Saipan 1944 — The Battle That Put Tokyo Within B-29 Range
+   2026-11-10    22108   1.4x WW2 Aircraft Carriers in Color: Rare Footage Filmed by the Navy
+   2026-11-08    21588   1.3x Rare Color Footage of the Pacific War 1943–1945 — From Tarawa to Tokyo Bay
+   2026-11-11    16079   1.0x Rare Color Footage of Hiroshima and Nagasaki — The Film the U.S. Classified
+## Absolute History mediana(30) = 18590
+   2026-10-08  1509765  81.2x Even More Crazy Facts About British Kings & Queens!
+   2026-09-11   724945  39.0x Deadliest Day: Inside The Shocking Untold 9/11 Timeline
+   2026-09-10   699635  37.6x 8 Crazy Facts About Britain's Kings & Queens!
+   2026-09-17   475790  25.6x More Crazy British Monarch Facts!
+   2026-10-09   435925  23.4x Operation Barbarossa: Uncovering Hitler's Fatal Obsession
+   2026-09-23   416672  22.4x Uncensored Frontlines of Afghanistan: The Brutal Battle for Marjah
+## Like Stories of Old mediana(30) = 319401
+   2025-11-15  6512562  20.4x Why Movies Just Don't Feel "Real" Anymore
+   2023-11-07  2969585   9.3x The Marvelization of Cinema
+   2024-03-26  1932435   6.1x Movie Monologues That Changed My Entire Worldview
+   2026-10-31  1223526   3.8x Why They Can't Make World War 2 Feel This "Real" Anymore
+   2025-10-18   819933   2.6x We've Forgotten how to Travel
+   2026-03-31   817040   2.6x McCarthy's Greatest, Terrible Book is Becoming a Movie, What Will It Look Like?
+COTA 20
