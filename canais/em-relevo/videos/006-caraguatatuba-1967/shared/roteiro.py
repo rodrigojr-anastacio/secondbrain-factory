@@ -138,7 +138,7 @@ b(C4,
   "O número de vítimas nunca fechou.\nA geógrafa estimou 120. Contagens da época chegaram perto de 500.\nE, segundo um estudo de 2020, a maior parte da planície ainda era fazenda. Se fosse cidade, o estrago teria sido muito maior.",
   "K6, K7", ideia=True)
 b(C4,
-  "Agora, ponha em cima a carta do Serviço Geológico do Brasil.\nAs classes de alta suscetibilidade a deslizamento acompanham as mesmas encostas íngremes do mapa de Olga Cruz.\nE, na planície ao pé delas, onde em 1967 havia fazenda, o censo de 2022 contou quase 135 mil moradores.",
+  "Agora, a carta do Serviço Geológico do Brasil.\nEla marca as encostas de alta suscetibilidade a deslizamento, e é ao pé delas que está a cidade.\nNa planície, onde em 1967 havia fazenda, o censo de 2022 contou quase 135 mil moradores.",
   "M1 (SGB), P12, K7, K8 (IBGE 2022)")
 
 # ---------------- 5. 2023: A MESMA RECEITA ----------------

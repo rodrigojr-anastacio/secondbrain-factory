@@ -1,0 +1,566 @@
+{
+ "duracao": 580.459,
+ "voz": "fish",
+ "slot": null,
+ "blocos": [
+  {
+   "id": "b01",
+   "s": 0.15,
+   "e": 9.495,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 0.15,
+     "e": 9.495,
+     "txt": "Fevereiro de dois mil e vinte e três. Em Bertioga, seiscentos e oitenta e três milímetros de chuva em vinte e quatro horas. Em Caraguatatuba, ali perto, no mesmo dia: duzentos e trinta e quatro."
+    }
+   ]
+  },
+  {
+   "id": "b02",
+   "s": 10.845,
+   "e": 16.243,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 10.845,
+     "e": 16.243,
+     "txt": "Em São Sebastião, seiscentos e vinte e sete. Depois, o satélite mostrou as encostas rasgadas até as casas."
+    }
+   ]
+  },
+  {
+   "id": "b03",
+   "s": 17.593,
+   "e": 29.259,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 17.593,
+     "e": 29.259,
+     "txt": "Ponha lado a lado o relevo de São Sebastião e o de Caraguatatuba, onde a serra cedeu em mil novecentos e sessenta e sete. O mesmo degrau: setecentos metros em menos de seis quilômetros. Não foi azar: a receita está no relevo."
+    }
+   ]
+  },
+  {
+   "id": "b04",
+   "s": 30.609,
+   "e": 34.934,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 30.609,
+     "e": 34.934,
+     "txt": "Por que a Serra do Mar desaba sobre o litoral? E por que ela repete? A resposta está no mapa."
+    }
+   ]
+  },
+  {
+   "id": "b05",
+   "s": 35.354,
+   "e": 42.441,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 35.354,
+     "e": 42.441,
+     "txt": "Olhe de lado, do mar para a serra. Primeiro, uma faixa estreita de areia, onde ficam as cidades. Depois, a parede. Em cima dela, o planalto."
+    }
+   ]
+  },
+  {
+   "id": "b06",
+   "s": 42.861,
+   "e": 55.981,
+   "atempo": 1.36,
+   "frases": [
+    {
+     "s": 42.861,
+     "e": 55.981,
+     "txt": "A receita cabe em três números. setecentos metros de parede a menos de seis quilômetros do mar. Até quatrocentos milímetros de chuva em seis horas, numa faixa de poucos quilômetros. E uma casca de terra de um a dois metros e meio, solta sobre a rocha."
+    }
+   ]
+  },
+  {
+   "id": "b07",
+   "s": 56.401,
+   "e": 68.425,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 56.401,
+     "e": 68.425,
+     "txt": "Depois de mil novecentos e sessenta e sete, a geógrafa Olga Cruz, da USP, mediu encosta por encosta dessa serra. Vamos juntar o que ela mediu com o que o satélite viu em dois mil e vinte e três."
+    }
+   ]
+  },
+  {
+   "id": "b08",
+   "s": 69.775,
+   "e": 78.59,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 69.775,
+     "e": 78.59,
+     "txt": "Comece pela altura. Atrás de Caraguatatuba, a borda do planalto fica entre setecentos e cinquenta e novecentos metros. E ela está perto demais do mar."
+    }
+   ]
+  },
+  {
+   "id": "b09",
+   "s": 79.29,
+   "e": 93.77,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 79.29,
+     "e": 93.77,
+     "txt": "Suba a câmera pelo vale do Rio Santo Antônio, o rio que corta a cidade. A sete quilômetros e meio da praia, você já está a setecentos e cinquenta metros de altura. No Morro do Cruzeiro, colado no centro, a encosta passa de trinta graus."
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "s": 94.47,
+   "e": 105.545,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 94.47,
+     "e": 105.545,
+     "txt": "A bacia desse rio é pequena: uns trinta quilômetros quadrados. Mas mais da metade dela tem declive acima de quarenta por cento. É água que nasce no alto e chega ao mar em minutos, não em dias."
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "s": 106.245,
+   "e": 120.145,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 106.245,
+     "e": 120.145,
+     "txt": "Mais para trás, a serra de Juqueriquerê passa de mil e trezentos metros. Segundo os geólogos, toda essa borda é a beirada de um bloco da crosta que se partiu quando o Atlântico se abriu. O degrau que se vê no mapa é o que sobrou dessa fratura."
+    }
+   ]
+  },
+  {
+   "id": "b12",
+   "s": 120.845,
+   "e": 131.529,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 120.845,
+     "e": 131.529,
+     "txt": "E ela não é só de Caraguatatuba. Atrás da Barra do Sahy, em São Sebastião, o mesmo degrau: quase setecentos metros a cinco quilômetros e meio da areia. Guarde esse lugar."
+    }
+   ]
+  },
+  {
+   "id": "b13",
+   "s": 132.879,
+   "e": 151.89,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 132.879,
+     "e": 151.89,
+     "txt": "Agora, a chuva. Veja o mapa dos pluviômetros na noite de dezoito para dezenove de fevereiro de dois mil e vinte e três. Bertioga, seiscentos e oitenta e três. São Sebastião, seiscentos e vinte e sete. Caraguatatuba, duzentos e trinta e quatro. Ubatuba, trezentos e trinta e cinco."
+    }
+   ]
+  },
+  {
+   "id": "b14",
+   "s": 152.59,
+   "e": 165.033,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 152.59,
+     "e": 165.033,
+     "txt": "O temporal não cobriu o litoral por igual. Ele se concentrou numa faixa de poucos quilômetros, justo onde a parede fica mais perto do mar. É o ar úmido do oceano subindo a serra, esfriando e despejando tudo ali."
+    }
+   ]
+  },
+  {
+   "id": "b15",
+   "s": 165.733,
+   "e": 175.665,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 165.733,
+     "e": 175.665,
+     "txt": "Tão estreita que o satélite de chuva da NASA, que enxerga em quadrados de dez quilômetros, estimou menos de cento e dez milímetros na região. O pico não cabia no quadrado."
+    }
+   ]
+  },
+  {
+   "id": "b16",
+   "s": 176.365,
+   "e": 191.55,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 176.365,
+     "e": 191.55,
+     "txt": "Por que naquela noite? Segundo pesquisadores do IAG, da USP, uma frente fria e um pequeno ciclone no mar seguraram as nuvens por horas no mesmo lugar. O oceano estava mais quente que o normal, e o vento, batendo na serra, reforçou a chuva."
+    }
+   ]
+  },
+  {
+   "id": "b17",
+   "s": 192.25,
+   "e": 206.544,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 192.25,
+     "e": 206.544,
+     "txt": "Em Bertioga, foram mais de quatrocentos milímetros em seis horas. A média de fevereiro inteiro, ali, fica perto de duzentos e vinte e cinco. No dia, o CEMADEN registrou o maior acumulado de vinte e quatro horas já medido no país."
+    }
+   ]
+  },
+  {
+   "id": "b18",
+   "s": 207.244,
+   "e": 223.177,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 207.244,
+     "e": 223.177,
+     "txt": "Em mil novecentos e sessenta e sete, a chuva começou no dia dezesseis de março. No pluviômetro de uma fazenda de Caraguatatuba, foram cento e quinze milímetros no dia dezessete e quatrocentos e vinte no dia dezoito. E o aparelho transbordou: o número real foi maior."
+    }
+   ]
+  },
+  {
+   "id": "b19",
+   "s": 223.877,
+   "e": 236.425,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 223.877,
+     "e": 236.425,
+     "txt": "Num posto a poucos quilômetros, o pluviômetro marcou menos da metade disso nos mesmos dois dias. Na serra, a chuva muda de vale para vale. E onde ela despeja tudo, entra o terceiro ingrediente."
+    }
+   ]
+  },
+  {
+   "id": "b20",
+   "s": 237.775,
+   "e": 250.873,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 237.775,
+     "e": 250.873,
+     "txt": "Comece pela medida. Nas cicatrizes de Caraguatatuba, o plano onde a terra se soltou fica entre um e dois metros e meio de profundidade. Acima dele, rocha decomposta e terra. Abaixo, granito e gnaisse."
+    }
+   ]
+  },
+  {
+   "id": "b21",
+   "s": 251.573,
+   "e": 263.139,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 251.573,
+     "e": 263.139,
+     "txt": "Para uma serra de setecentos metros, é uma película. A floresta inteira, com árvores de muitos metros, está plantada nessa camada. E é ali, no contato com a rocha, que a casca se descola."
+    }
+   ]
+  },
+  {
+   "id": "b22",
+   "s": 263.839,
+   "e": 279.077,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 263.839,
+     "e": 279.077,
+     "txt": "Os pesquisadores levaram essa terra para o laboratório. Mediram coesão quase zero: é um solo quase sem cola. Encharcado, ele desliza sobre a rocha. Em mil novecentos e sessenta e sete, em muitas encostas, o escorregamento raspou até a rocha sã."
+    }
+   ]
+  },
+  {
+   "id": "b23",
+   "s": 279.777,
+   "e": 291.004,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 279.777,
+     "e": 291.004,
+     "txt": "Agora, o mapa de Olga Cruz. Ela desenhou a declividade de toda a bacia do Santo Antônio. As encostas que mais cederam passavam de quarenta por cento de declive. Os topos planos ficaram de pé."
+    }
+   ]
+  },
+  {
+   "id": "b24",
+   "s": 291.704,
+   "e": 305.094,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 291.704,
+     "e": 305.094,
+     "txt": "Um estudo da USP de dois mil e dezessete cruzou as cicatrizes de mil novecentos e sessenta e sete com o mapa geológico. oito em cada dez estão sobre a mesma rocha, o granito de Caraguatatuba. A receita tem até um endereço geológico."
+    }
+   ]
+  },
+  {
+   "id": "b25",
+   "s": 305.794,
+   "e": 320.555,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 305.794,
+     "e": 320.555,
+     "txt": "É isto que sobra quando a casca se solta. Ubatuba, fevereiro de dois mil e vinte e três: terra viva exposta, raízes no ar, a beira da estrada levada junto. Agora imagine isso em centenas de encostas, na mesma noite."
+    }
+   ]
+  },
+  {
+   "id": "b26",
+   "s": 321.905,
+   "e": 332.399,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 321.905,
+     "e": 332.399,
+     "txt": "Volte a março de mil novecentos e sessenta e sete e olhe de cima a bacia do Santo Antônio. Com a casca encharcada por dias, as encostas começaram a escorregar em todos os vales."
+    }
+   ]
+  },
+  {
+   "id": "b27",
+   "s": 333.099,
+   "e": 348.441,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 333.099,
+     "e": 348.441,
+     "txt": "Anos depois, em fotos aéreas, os pesquisadores contaram seiscentos e quarenta cicatrizes, num raio de até quinze quilômetros. Cerca de dois milhões de toneladas de terra, rocha e árvores se moveram. Um quinto da floresta da área estudada foi junto."
+    }
+   ]
+  },
+  {
+   "id": "b28",
+   "s": 349.141,
+   "e": 365.99,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 349.141,
+     "e": 365.99,
+     "txt": "Cada escorregamento descia até o fundo do vale e seguia pelo leito do rio, misturado com água e troncos. Olga Cruz registrou isso como avalanche de detritos. Os moradores diziam que o morro tinha rodado. E todos os vales da bacia levam ao mesmo lugar: a planície onde está a cidade."
+    }
+   ]
+  },
+  {
+   "id": "b29",
+   "s": 366.69,
+   "e": 380.363,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 366.69,
+     "e": 380.363,
+     "txt": "Os pesquisadores dividem aquele dezoito de março em quatro fases. Primeiro, a enchente dos rios. Depois, os escorregamentos. Depois, as corridas de detritos. E, por fim, uma nova enchente, quando os troncos represaram os canais."
+    }
+   ]
+  },
+  {
+   "id": "b30",
+   "s": 381.063,
+   "e": 394.094,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 381.063,
+     "e": 394.094,
+     "txt": "O Rio Santo Antônio, que tinha de dez a vinte metros de largura, abriu para sessenta a oitenta. As ruas ficaram com até oitenta centímetros de lama e dezenas de milhares de troncos, alguns com mais de um metro de diâmetro."
+    }
+   ]
+  },
+  {
+   "id": "b31",
+   "s": 394.794,
+   "e": 410.242,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 394.794,
+     "e": 410.242,
+     "txt": "O número de vítimas nunca fechou. A geógrafa estimou cento e vinte. Contagens da época chegaram perto de quinhentos. E, segundo um estudo de dois mil e vinte, a maior parte da planície ainda era fazenda. Se fosse cidade, o estrago teria sido muito maior."
+    }
+   ]
+  },
+  {
+   "id": "b32",
+   "s": 410.942,
+   "e": 427.779,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 410.942,
+     "e": 427.779,
+     "txt": "Agora, a carta do Serviço Geológico do Brasil. Ela marca as encostas de alta suscetibilidade a deslizamento, e é ao pé delas que está a cidade. Na planície, onde em mil novecentos e sessenta e sete havia fazenda, o censo de dois mil e vinte e dois contou quase cento e trinta e cinco mil moradores."
+    }
+   ]
+  },
+  {
+   "id": "b33",
+   "s": 429.129,
+   "e": 439.336,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 429.129,
+     "e": 439.336,
+     "txt": "Agora, compare com dois mil e vinte e três. O satélite Landsat fotografou as encostas de São Sebastião em outubro de dois mil e vinte e dois e de novo uma semana depois da chuva."
+    }
+   ]
+  },
+  {
+   "id": "b34",
+   "s": 440.036,
+   "e": 450.795,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 440.036,
+     "e": 450.795,
+     "txt": "Antes: morro verde, contínuo, até a praia. Depois: dezenas de faixas de terra descendo, uma ao lado da outra, até as casas. Cada faixa é uma casca que se soltou."
+    }
+   ]
+  },
+  {
+   "id": "b35",
+   "s": 451.495,
+   "e": 463.312,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 451.495,
+     "e": 463.312,
+     "txt": "Coloque os ingredientes em cima. A parede: quase setecentos metros a cinco quilômetros e meio da Barra do Sahy. A chuva: seiscentos e vinte e sete milímetros em um dia. E a mesma casca fina sobre a rocha."
+    }
+   ]
+  },
+  {
+   "id": "b36",
+   "s": 464.012,
+   "e": 476.707,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 464.012,
+     "e": 476.707,
+     "txt": "Um especialista em deslizamentos da NASA resumiu assim: áreas com tantos escorregamentos juntos são bem incomuns, mas não sem precedente. O precedente fica a trinta e cinco quilômetros, em Caraguatatuba."
+    }
+   ]
+  },
+  {
+   "id": "b37",
+   "s": 477.407,
+   "e": 487.011,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 477.407,
+     "e": 487.011,
+     "txt": "Em São Sebastião e em Ubatuba, sessenta e cinco pessoas morreram. Mais de mil e oitocentos ficaram desabrigadas, e mais de dois mil e duzentos tiveram de sair de casa."
+    }
+   ]
+  },
+  {
+   "id": "b38",
+   "s": 488.361,
+   "e": 508.158,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 488.361,
+     "e": 508.158,
+     "txt": "Então, por que a Serra do Mar desaba sobre o litoral? Porque ela sobe setecentos metros a menos de seis quilômetros do mar e prende o temporal numa faixa estreita, onde cabem quatrocentos milímetros em seis horas. E porque está coberta por uma casca de um a dois metros e meio, quase sem cola, que escorrega quando encharca."
+    }
+   ]
+  },
+  {
+   "id": "b39",
+   "s": 508.858,
+   "e": 525.364,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 508.858,
+     "e": 525.364,
+     "txt": "Não é a montanha que cai de uma vez. É a casca que desliza, encosta por encosta, e desce pelos vales até a planície, onde estão as cidades. No Morro do Cruzeiro e na Barra do Sahy, o degrau medido é o mesmo: quase setecentos metros a menos de seis quilômetros da areia."
+    }
+   ]
+  },
+  {
+   "id": "b40",
+   "s": 526.064,
+   "e": 536.967,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 526.064,
+     "e": 536.967,
+     "txt": "Ninguém sabe dizer quando vai cair outra chuva assim, nem em qual trecho da serra. Mas a geografia não muda, e o mapa de onde ela cede já existe, para Caraguatatuba e para São Sebastião."
+    }
+   ]
+  },
+  {
+   "id": "b41",
+   "s": 537.667,
+   "e": 548.113,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 537.667,
+     "e": 548.113,
+     "txt": "E, no censo de dois mil e dez, o IBGE contou cerca de três mil moradores de Caraguatatuba dentro de áreas de risco mapeadas. O que muda o resultado é o aviso chegar a tempo."
+    }
+   ]
+  },
+  {
+   "id": "b42",
+   "s": 548.813,
+   "e": 561.93,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 548.813,
+     "e": 561.93,
+     "txt": "A Defesa Civil manda alertas por SMS. Para receber, mande o seu CEP para o número quarenta mil cento e noventa e nove. E, se o alerta disser para sair, saia: quando a casca começa a descer, não dá tempo."
+    }
+   ]
+  },
+  {
+   "id": "b43",
+   "s": 562.63,
+   "e": 577.959,
+   "atempo": 1.08,
+   "frases": [
+    {
+     "s": 562.63,
+     "e": 577.959,
+     "txt": "Se você quer ver outro desastre brasileiro explicado no mapa, o vídeo da seca de mil oitocentos e setenta e sete está aqui no canal. Se você tem família no litoral norte de São Paulo, manda este vídeo para ela. E se inscreve no Em Relevo, para entender o clima do Brasil no mapa."
+    }
+   ]
+  }
+ ]
+}

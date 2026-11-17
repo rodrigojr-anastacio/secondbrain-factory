@@ -313,9 +313,9 @@
   "id": "b32",
   "cap": "4 · 1967: O CAMINHO ATÉ A CIDADE",
   "marcha": 2,
-  "fala": "Agora, ponha em cima a carta do Serviço Geológico do Brasil. As classes de alta suscetibilidade a deslizamento acompanham as mesmas encostas íngremes do mapa de Olga Cruz. E, na planície ao pé delas, onde em mil novecentos e sessenta e sete havia fazenda, o censo de dois mil e vinte e dois contou quase cento e trinta e cinco mil moradores.",
-  "fala_tts": "Agora, ponha em cima a carta do Serviço Geológico do Brasil. As classes de alta suscetibilidade a deslizamento acompanham as mesmas encostas íngremes do mapa de Olga Cruz. E, na planície ao pé delas, onde em mil novecentos e sessenta e sete havia fazenda, o censo de dois mil e vinte e dois contou quase cento e trinta e cinco mil moradores.",
-  "tela": "Agora, ponha em cima a carta do Serviço Geológico do Brasil. | As classes de alta suscetibilidade a deslizamento acompanham as mesmas encostas íngremes do mapa de Olga Cruz. | E, na planície ao pé delas, onde em 1967 havia fazenda, o censo de 2022 contou quase 135 mil moradores.",
+  "fala": "Agora, a carta do Serviço Geológico do Brasil. Ela marca as encostas de alta suscetibilidade a deslizamento, e é ao pé delas que está a cidade. Na planície, onde em mil novecentos e sessenta e sete havia fazenda, o censo de dois mil e vinte e dois contou quase cento e trinta e cinco mil moradores.",
+  "fala_tts": "Agora, a carta do Serviço Geológico do Brasil. Ela marca as encostas de alta suscetibilidade a deslizamento, e é ao pé delas que está a cidade. Na planície, onde em mil novecentos e sessenta e sete havia fazenda, o censo de dois mil e vinte e dois contou quase cento e trinta e cinco mil moradores.",
+  "tela": "Agora, a carta do Serviço Geológico do Brasil. | Ela marca as encostas de alta suscetibilidade a deslizamento, e é ao pé delas que está a cidade. | Na planície, onde em 1967 havia fazenda, o censo de 2022 contou quase 135 mil moradores.",
   "fonte": "M1 (SGB), P12, K7, K8 (IBGE 2022)",
   "ideia": false
  },

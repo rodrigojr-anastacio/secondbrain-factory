@@ -1,0 +1,1251 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/videos/006-caraguatatuba-1967/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2355,
+ "contagem": {
+  "bloqueante": 1,
+  "alto": 17,
+  "medio": 31,
+  "baixo": 13
+ },
+ "bloqueante": true,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "A barra/rótulo no mapa mostra 530 MM, mas a legenda diz 'Em Bertioga, 683'. O valor da legenda não bate com o número animado (pode ser a barra ainda crescendo, mas parece divergente).",
+   "t": 3.0,
+   "arquivo": "90.png"
+  },
+  {
+   "quadro": "Q02",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Rótulo da barra mostra 216 MM, mas a legenda fala 234 mm para Caraguatatuba. O contador ainda não chegou ao valor, ou o dado está errado. Conferir.",
+   "t": 9.0,
+   "arquivo": "270.png"
+  },
+  {
+   "quadro": "Q03",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O rótulo '234 MM' do quadro anterior aparece cortado e esmaecido atrás da borda superior da foto Landsat, no alto, à direita. É resíduo de HUD que vaza para outro elemento.",
+   "t": 15.0,
+   "arquivo": "450.png"
+  },
+  {
+   "quadro": "Q04",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "A altura marcada nos cortes (685 M e 700 M) não bate com o 699 M do Q08 para o mesmo corte de Caraguatatuba. A legenda 'onde' está no meio da digitação, então isso não é defeito.",
+   "t": 21.0,
+   "arquivo": "630.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A foto real da Serra do Mar mostra uma mureta de concreto torta e um céu vazio. A legibilidade da paisagem é fraca para ilustrar a escarpa. É um problema estético.",
+   "t": 39.0,
+   "arquivo": "1170.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "A medida no corte 3D mostra 699 M, mas o cartão 'PAREDE 700 M' e a legenda dizem 700 m. O valor animado está inconsistente ou ainda não terminou.",
+   "t": 45.0,
+   "arquivo": "1350.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "A legenda 'Depois de 19' (em digitação) fica por cima da faixa vermelha 'CARTA DE DECLI... · 1975' e esconde parte do título. A faixa é um rótulo do próprio mapa, então o texto fica cortado/encavalado. A legenda em si é animação de digitação e não conta como defeito.",
+   "t": 57.0,
+   "arquivo": "1710.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Os três cards de dados (700 M, 400 MM, 1 A 2,5 M) aparecem apagados sobre o fundo bege, com baixo contraste e o rótulo quase ilegível. Pode ser fade intencional da transição, mas fica fraco. Na dúvida, registro como estilo.",
+   "t": 57.0,
+   "arquivo": "1710.png"
+  },
+  {
+   "quadro": "Q11",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A legenda cobre a parte inferior da carta de declividades, que está cortada na borda. A faixa vermelha com o título da carta aparece só como uma tira atrás da legenda, então o rótulo fica escondido. Dúvida entre estilo e defeito.",
+   "t": 63.0,
+   "arquivo": "1890.png"
+  },
+  {
+   "quadro": "Q13",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A linha amarela do rótulo 'BORDA DO PLANALTO' está mal ancorada, com pontas soltas sem marcador, e o rótulo vermelho a cruza. Detalhe estético.",
+   "t": 75.0,
+   "arquivo": "2250.png"
+  },
+  {
+   "quadro": "Q14",
+   "categoria": "texto_cortado",
+   "severidade": "alto",
+   "descricao": "A legenda diz 'Suba a câmera pelo vale do Rio Sa', com o nome cortado (deveria ser Rio Sahy ou similar). Pode ser digitação em andamento, mas não há cursor visível, o que sugere texto truncado.",
+   "t": 81.0,
+   "arquivo": "2430.png"
+  },
+  {
+   "quadro": "Q14",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O medidor mostra '349 M' com a marca em 3,5 km, enquanto no Q15 sobe a 750 M com 7,5 km. A animação parece coerente, mas o medidor está colado na borda direita e o 750 M do Q15 fica encostado no topo do painel.",
+   "t": 81.0,
+   "arquivo": "2430.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A linha vermelha do escoamento começa sobre o rótulo 'BACIA DO SANTO ANTÔNIO' e o atravessa. Além disso, o rótulo 'MINUTOS, NÃO DIAS' fica colado no canto inferior esquerdo, ao lado da legenda. Pode ser intencional, mas a leitura fica apertada.",
+   "t": 105.0,
+   "arquivo": "3150.png"
+  },
+  {
+   "quadro": "Q21",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A linha tracejada amarela passa por cima do relevo sem ligação clara com os pontos citados no rótulo 'CARAGUATATUBA ↔ BARRA DO SAHY'. Ela termina no meio do mapa, e a ponta do lado de Caraguatatuba parece não coincidir com o litoral. Há dúvida se é um defeito de posicionamento.",
+   "t": 123.0,
+   "arquivo": "3690.png"
+  },
+  {
+   "quadro": "Q22",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O fundo é navy escuro com relevo quase invisível, e o bloco 3D fica pequeno e deslocado para a esquerda, deixando grande área vazia à direita. O detector acusou faixas uniformes nas bordas. Provavelmente é fundo intencional e não uma faixa de cor errada, mas o fundo difere do mapa das cenas vizinhas.",
+   "t": 129.0,
+   "arquivo": "3870.png"
+  },
+  {
+   "quadro": "Q23",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O mapa está muito escurecido (vinheta forte), com baixo contraste no relevo. Pode ser intencional, mas a legibilidade é fraca.",
+   "t": 135.0,
+   "arquivo": "4050.png"
+  },
+  {
+   "quadro": "Q26",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "O número '62' e o rótulo 'SÃO S' estão cortados na borda direita. Aparentam ser resto de movimento de câmera, mas ficam visíveis soltos.",
+   "t": 153.0,
+   "arquivo": "4590.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "O rótulo 'FAIXA DE POUCOS KM' está cortado pela borda esquerda ('IXA DE POUCOS KM'). Pode ser movimento de câmera, mas ele fica ilegível no quadro.",
+   "t": 165.0,
+   "arquivo": "4950.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "A etiqueta 'PLUVIÔMETRO · BERTIOGA' está cortada pela borda esquerda ('LUVIÔMETRO'). Pode ser movimento de câmera, mas ela fica ilegível no quadro.",
+   "t": 171.0,
+   "arquivo": "5130.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "A etiqueta 'SATÉLITE DE CHUVA (NASA) · QUADRADOS DE 10 KM' encosta no topo da caixa de legenda, quase colada.",
+   "t": 171.0,
+   "arquivo": "5130.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A caixa de legenda cobre a base do rótulo/seta 'CICLONE PEQUENO' e o ponto do ciclone, que fica parcialmente escondido atrás dela.",
+   "t": 183.0,
+   "arquivo": "5490.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "A legenda 'O oceano estava mais quente que o normal, e o vento,' cobre a parte de cima da etiqueta laranja 'OCEANO MAIS QUENTE (+~1 °C)'. A etiqueta fica cortada e difícil de ler.",
+   "t": 189.0,
+   "arquivo": "5670.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O rótulo amarelo 'MÉDIA DE FEVEREIRO · 225 MM' está quebrado em duas linhas, e a linha tracejada da média passa por cima do texto, cortando 'FEVEREIRO'. A leitura fica prejudicada.",
+   "t": 201.0,
+   "arquivo": "6030.png"
+  },
+  {
+   "quadro": "Q35",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O rótulo 'MÉDIA DE FEVEREIRO · 225 MM' fica sobre o relevo claro, com a linha tracejada passando pelo texto, e perde legibilidade. Pode ser parte da transição, mas o texto continua difícil de ler.",
+   "t": 207.0,
+   "arquivo": "6210.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "Na coluna esquerda, o rótulo '115 MM' quebra em duas linhas e a segunda linha ('MM') cobre a data '17 / 03', que fica cortada atrás da legenda. Há sobreposição de elementos.",
+   "t": 219.0,
+   "arquivo": "6570.png"
+  },
+  {
+   "quadro": "Q39",
+   "categoria": "texto_encavalado",
+   "severidade": "bloqueante",
+   "descricao": "O texto de tela 'NA SERRA, A CHUVA MUDA DE VALE PARA VALE' fica por cima dos rótulos 'TRANSBORDOU' e 'MENOS DA METADE', que aparecem cortados e sobrepostos. Isso atrapalha a leitura.",
+   "t": 231.0,
+   "arquivo": "6930.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "Ainda aparece o texto 'NA SERRA, A CHUVA MUDA DE VALE PARA VALE' sobreposto aos rótulos 'POSTO A POUCOS KM' e 'MENOS DA METADE'. O cartão 'CASCA 1 A 2,5 M' entra por cima na mesma cena. Provavelmente é crossfade, mas há elementos duplicados e confusos. Vale conferir.",
+   "t": 237.0,
+   "arquivo": "7110.png"
+  },
+  {
+   "quadro": "Q41",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "O painel 'Corte da encosta' cobre o título 'MORRO DO CRUZEIRO · CARAGUATATUBA' (parte inferior das letras cortada) e o número '5,7 KM' fica parcialmente escondido atrás do painel. Na régua, o '0' do topo está cortado e '2' e '2,5' ficam quase colados.",
+   "t": 243.0,
+   "arquivo": "7290.png"
+  },
+  {
+   "quadro": "Q41",
+   "categoria": "legenda",
+   "severidade": "baixo",
+   "descricao": "A legenda termina em 'fica en', mas pode ser animação de digitação. Não é defeito se for isso. A legenda também cobre o canto do painel e o '5,7 KM'.",
+   "t": 243.0,
+   "arquivo": "7290.png"
+  },
+  {
+   "quadro": "Q42",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "O painel cobre o título 'MORRO DO CRUZEIRO · CARAGUATATUBA' e esconde parte do '5,7 KM'. O '0' da régua está cortado no topo e os rótulos '2' e '2,5' se apertam.",
+   "t": 249.0,
+   "arquivo": "7470.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "No cartão 'SERRA × CASCA', o '700 M' encavala com o título 'SERRA × CASCA' e encosta no topo da barra. Há também um '700 M' duplicado no gráfico do mapa.",
+   "t": 255.0,
+   "arquivo": "7650.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "No cartão 'SERRA × CASCA', o '700 M' encavala com o título do cartão e quase encosta nele.",
+   "t": 261.0,
+   "arquivo": "7830.png"
+  },
+  {
+   "quadro": "Q45",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "A cena do esquema é um bloco chapado com árvores cortadas no topo (as copas de cima ficam cortadas pela borda superior da área do desenho). O fundo está vazio e a composição é pouco atraente. Há dúvida se é estilo ou defeito.",
+   "t": 267.0,
+   "arquivo": "8010.png"
+  },
+  {
+   "quadro": "Q47",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "O rótulo vermelho 'A RUPTURA DESCE ATÉ A ROCHA SÃ' fica atrás da legenda e é cortado pela caixa, com a metade inferior das letras escondida. Uma árvore também é cortada na borda direita do desenho.",
+   "t": 279.0,
+   "arquivo": "8370.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O mapa de declividade escaneado aparece em preto e branco sobre fundo bege liso, com uma borda branca de papel e uma legenda com texto minúsculo ilegível do documento original. Há uma faixa branca sem conteúdo no topo do mapa. A legenda cobre a parte inferior do mapa. Há dúvida se é estilo.",
+   "t": 285.0,
+   "arquivo": "8550.png"
+  },
+  {
+   "quadro": "Q49",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "A legenda no rodapé cobre a parte de baixo da imagem do mapa em preto e branco e a sombra/faixa vermelha embaixo dela, que fica meio visível sob a legenda. A imagem também parece cortada na base atrás da legenda.",
+   "t": 291.0,
+   "arquivo": "8730.png"
+  },
+  {
+   "quadro": "Q49",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O fundo bege chapado com o mapa escaneado em P&B (cartão branco com sombra) destoa do estilo de relevo 3D do canal. Pode ser intencional, como documento histórico, mas cabe conferir. O mapa escaneado tem texto minúsculo ilegível no quadro do canto superior direito.",
+   "t": 291.0,
+   "arquivo": "8730.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A legenda ainda está sendo digitada ('A re'), o que não é defeito. Porém o rótulo 'GRANITO DE CARAGUATATUBA' fica em cima das manchas de pontos do mapa e perde legibilidade. O título '8 EM CADA 10' encosta no topo do quadro.",
+   "t": 303.0,
+   "arquivo": "9090.png"
+  },
+  {
+   "quadro": "Q56",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "As linhas vermelhas finas saindo da costa (setas/fluxos) parecem fracas e pouco legíveis, com uma região de hachura difusa. Não ficou claro o que representam.",
+   "t": 333.0,
+   "arquivo": "9990.png"
+  },
+  {
+   "quadro": "Q57",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O contador grande no topo mostra \"629 CICATRIZES\", mas a legenda diz \"640 cicatrizes\" (palavra 640 sublinhada). Os valores divergem entre tela e narração.",
+   "t": 339.0,
+   "arquivo": "10170.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "legenda",
+   "severidade": "baixo",
+   "descricao": "A legenda termina em \"descia até o fundo d\", sem o cursor de digitação. É provável que seja animação de digitação, mas vale confirmar que o texto completa.",
+   "t": 351.0,
+   "arquivo": "10530.png"
+  },
+  {
+   "quadro": "Q60",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O rótulo \"AVALANCHE DE DETRITOS (OLGA CRUZ)\" aparece esmaecido, com baixo contraste sobre a floresta verde, e fica sobre a linha de detritos. É provável que esteja em fade-in, mas a legibilidade é fraca.",
+   "t": 357.0,
+   "arquivo": "10710.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "tela_preta",
+   "severidade": "medio",
+   "descricao": "Fundo quase todo navy escuro e sem conteúdo, com o relevo quase invisível. Só há o título e a legenda. Os sinais automáticos de faixa na borda base e na direita correspondem ao mar escuro do mapa. Pode ser transição intencional, mas a cena está vazia.",
+   "t": 369.0,
+   "arquivo": "11070.png"
+  },
+  {
+   "quadro": "Q64",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "Crossfade entre o mapa escuro e o mapa satélite com cartões 1–4 e textos duplicados e fantasmas, como \"RIO SANTO ANTÔNIO · LARGURA (ESQUEMA)\" e \"10-20 M\". Se for transição, é aceitável, mas se o quadro ficar parado haverá sobreposição ilegível.",
+   "t": 381.0,
+   "arquivo": "11430.png"
+  },
+  {
+   "quadro": "Q65",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "Painel direito mostra \"ATÉ 0 CM\" (contador animado começando em zero) sobreposto ao prédio, enquanto a lama ainda não subiu; valor inicial errado/estranho. O rótulo amarelo também invade o prédio bege com leitura ruim.",
+   "t": 387.0,
+   "arquivo": "11610.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "Legenda termina em \"mais de 1 me\" e fica cortada, mas pode ser animação de digitação; confirmar que a frase completa aparece depois.",
+   "t": 393.0,
+   "arquivo": "11790.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Rótulo \"ATÉ 80 CM\" fica sobre o prédio bege e a lama translúcida, com contraste fraco. A linha amarela vertical na borda direita do painel parece solta.",
+   "t": 393.0,
+   "arquivo": "11790.png"
+  },
+  {
+   "quadro": "Q67",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Composição desequilibrada: o número \"120\" e os rótulos ficam deslocados para a esquerda, e o título \"VÍTIMAS DE 1967\" está desalinhado em relação ao bloco do número. Há um grande vazio à direita, e o fundo é muito escuro, quase sem relevo visível.",
+   "t": 399.0,
+   "arquivo": "11970.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "legenda",
+   "severidade": "baixo",
+   "descricao": "Legenda mostra só a letra \"A\" no início da digitação, sem cursor visível. Provavelmente é início de animação, mas o quadro está sem legenda legível.",
+   "t": 411.0,
+   "arquivo": "12330.png"
+  },
+  {
+   "quadro": "Q72",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "A etiqueta de capítulo mudou para \"5 · 2023: A MESMA RECEITA\", mas a legenda ainda é a frase do capítulo 4 sobre a planície (1967/fazenda), e o mapa está igual ao anterior. Possível dessincronia entre capítulo e fala; confirmar.",
+   "t": 429.0,
+   "arquivo": "12870.png"
+  },
+  {
+   "quadro": "Q76",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "A régua mostra 584 M e 5,0 KM e depois vira 685 M e 5,4 KM em Q77. Se isso for contador animado, tudo bem; se não, o valor inicial está errado. Há dúvida entre animação e erro.",
+   "t": 453.0,
+   "arquivo": "13590.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O painel e o mapa mostram 685 M e 5,4 KM (parede), enquanto o quadro anterior Q76 mostrava 584 M e 5,0 KM para o mesmo corte. A altura do diorama parece quase igual nos dois quadros. Pode ser animação de valor que ainda não terminou, ou os valores divergem; conferir qual é o correto.",
+   "t": 459.0,
+   "arquivo": "13770.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "A citação aparece cortada em 'BEM INCOMUNS, M' e a legenda em 'Um especialista em des'. Parece animação de digitação, então provavelmente não é defeito. Registrado só por precaução.",
+   "t": 465.0,
+   "arquivo": "13950.png"
+  },
+  {
+   "quadro": "Q81",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Os dois números (65 e 1.815) ficam agrupados à esquerda e deixam o lado direito vazio, sem equilíbrio. Pode ser um terceiro contador ainda por entrar na animação.",
+   "t": 483.0,
+   "arquivo": "14490.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O título 'A RECEITA DA SERRA DO MAR' aparece semitransparente sobre o relevo claro e fica quase ilegível. Pode ser entrada ou crossfade do título; se for estado estático, falta contraste.",
+   "t": 489.0,
+   "arquivo": "14670.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "No cartão CASCA, o valor 'CASCA DE 1 A 2,5 M' repete o rótulo 'CASCA' e quebra em duas linhas, mais apertado que os outros cartões (700 M e 400 MM).",
+   "t": 507.0,
+   "arquivo": "15210.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Os valores animados dos dois blocos (685 M / 5,4 KM e 700 M / 5,7 KM) vêm da animação que antes mostrava 360/368 M e 3,2/3,4 KM, e as barras de escala ainda estão em transição. A legenda diz 'o degrau medido é o mesmo', mas 685 e 700 não são idênticos. Confirmar o estado final do cálculo.",
+   "t": 525.0,
+   "arquivo": "15750.png"
+  },
+  {
+   "quadro": "Q91",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "A legenda termina em 'Caraguatatuba den' durante a digitação. Isso é animação de digitação, não é defeito. Observação: o cursor está ausente, mas o texto está sendo revelado.",
+   "t": 543.0,
+   "arquivo": "16290.png"
+  },
+  {
+   "quadro": "Q92",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O mapa inteiro está lavado em tom marrom/âmbar chapado, com mar e terra quase sem contraste e relevo apagado. Pode ser uma transição intencional (fade para o fundo da placa 'O QUE FAZER'), mas a faixa uniforme de 10% na borda direita indica fundo sem textura. Confirmar que é crossfade e não perda de textura.",
+   "t": 549.0,
+   "arquivo": "16470.png"
+  },
+  {
+   "quadro": "Q93",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O fundo marrom liso, sem mapa, ocupa o quadro todo, com faixas uniformes nas bordas (topo, base, direita). Parece fundo de cena intencional atrás dos cartões. Há dúvida se a perda do mapa 3D é estilo ou defeito. A metade direita fica vazia.",
+   "t": 555.0,
+   "arquivo": "16650.png"
+  },
+  {
+   "quadro": "Q95",
+   "categoria": "tela_preta",
+   "severidade": "medio",
+   "descricao": "O mapa fica quase preto (azul-marinho muito escuro, RGB ~11,18,36), com relevo quase invisível atrás do cartão 'VÍDEO NO CANAL'. Pode ser vinheta intencional de encerramento, mas o fundo está bem escuro e sem informação. Confirmar.",
+   "t": 567.0,
+   "arquivo": "17010.png"
+  },
+  {
+   "quadro": "Q96",
+   "categoria": "tela_preta",
+   "severidade": "medio",
+   "descricao": "Mesmo fundo quase preto do Q95, com o mapa praticamente invisível durante todo o cartão. Se for intencional, ok. O trecho já dura mais de 6 s sem a câmera mostrar nada.",
+   "t": 573.0,
+   "arquivo": "17190.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 3.0,
+   "nome": "90.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 9.0,
+   "nome": "270.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 15.0,
+   "nome": "450.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 3% do quadro, cor RGB(12,31,57)"
+   ]
+  },
+  {
+   "id": "Q04",
+   "t": 21.0,
+   "nome": "630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 27.0,
+   "nome": "810.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 33.0,
+   "nome": "990.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 39.0,
+   "nome": "1170.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 45.0,
+   "nome": "1350.png",
+   "sinais": [
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(20,30,56)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(16,24,47)"
+   ]
+  },
+  {
+   "id": "Q09",
+   "t": 51.0,
+   "nome": "1530.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(20,30,56)"
+   ]
+  },
+  {
+   "id": "Q10",
+   "t": 57.0,
+   "nome": "1710.png",
+   "sinais": [
+    "faixa uniforme na borda base: 5% do quadro, cor RGB(221,206,173)"
+   ]
+  },
+  {
+   "id": "Q11",
+   "t": 63.0,
+   "nome": "1890.png",
+   "sinais": [
+    "faixa uniforme na borda base: 5% do quadro, cor RGB(221,206,173)",
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(220,204,169)"
+   ]
+  },
+  {
+   "id": "Q12",
+   "t": 69.0,
+   "nome": "2070.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 75.0,
+   "nome": "2250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 81.0,
+   "nome": "2430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 87.0,
+   "nome": "2610.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 93.0,
+   "nome": "2790.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 99.0,
+   "nome": "2970.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 105.0,
+   "nome": "3150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 111.0,
+   "nome": "3330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 117.0,
+   "nome": "3510.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 123.0,
+   "nome": "3690.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 129.0,
+   "nome": "3870.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,28,56)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(17,24,46)",
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(15,23,46)"
+   ]
+  },
+  {
+   "id": "Q23",
+   "t": 135.0,
+   "nome": "4050.png",
+   "sinais": [
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(18,25,46)"
+   ]
+  },
+  {
+   "id": "Q24",
+   "t": 141.0,
+   "nome": "4230.png",
+   "sinais": [
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(22,30,52)"
+   ]
+  },
+  {
+   "id": "Q25",
+   "t": 147.0,
+   "nome": "4410.png",
+   "sinais": [
+    "faixa uniforme na borda base: 3% do quadro, cor RGB(27,35,58)"
+   ]
+  },
+  {
+   "id": "Q26",
+   "t": 153.0,
+   "nome": "4590.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 159.0,
+   "nome": "4770.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 165.0,
+   "nome": "4950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 171.0,
+   "nome": "5130.png",
+   "sinais": [
+    "faixa uniforme na borda base: 4% do quadro, cor RGB(58,64,150)"
+   ]
+  },
+  {
+   "id": "Q30",
+   "t": 177.0,
+   "nome": "5310.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 183.0,
+   "nome": "5490.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 189.0,
+   "nome": "5670.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 195.0,
+   "nome": "5850.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,29,56)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(20,27,48)",
+    "faixa uniforme na borda direita: 20% do quadro, cor RGB(15,23,46)"
+   ]
+  },
+  {
+   "id": "Q34",
+   "t": 201.0,
+   "nome": "6030.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,29,56)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(20,27,48)",
+    "faixa uniforme na borda direita: 18% do quadro, cor RGB(15,23,46)"
+   ]
+  },
+  {
+   "id": "Q35",
+   "t": 207.0,
+   "nome": "6210.png",
+   "sinais": [
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(22,31,58)"
+   ]
+  },
+  {
+   "id": "Q36",
+   "t": 213.0,
+   "nome": "6390.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(226,212,182)",
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(220,203,168)",
+    "faixa uniforme na borda direita: 10% do quadro, cor RGB(217,200,163)"
+   ]
+  },
+  {
+   "id": "Q37",
+   "t": 219.0,
+   "nome": "6570.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(226,212,182)",
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(220,203,168)",
+    "faixa uniforme na borda direita: 10% do quadro, cor RGB(217,200,163)"
+   ]
+  },
+  {
+   "id": "Q38",
+   "t": 225.0,
+   "nome": "6750.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,29,56)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(20,27,48)",
+    "faixa uniforme na borda direita: 25% do quadro, cor RGB(15,23,46)"
+   ]
+  },
+  {
+   "id": "Q39",
+   "t": 231.0,
+   "nome": "6930.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,29,56)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(20,27,48)",
+    "faixa uniforme na borda direita: 25% do quadro, cor RGB(15,23,46)"
+   ]
+  },
+  {
+   "id": "Q40",
+   "t": 237.0,
+   "nome": "7110.png",
+   "sinais": [
+    "faixa uniforme na borda base: 4% do quadro, cor RGB(24,33,59)"
+   ]
+  },
+  {
+   "id": "Q41",
+   "t": 243.0,
+   "nome": "7290.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 3% do quadro, cor RGB(15,23,46)"
+   ]
+  },
+  {
+   "id": "Q42",
+   "t": 249.0,
+   "nome": "7470.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 3% do quadro, cor RGB(15,23,46)"
+   ]
+  },
+  {
+   "id": "Q43",
+   "t": 255.0,
+   "nome": "7650.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 3% do quadro, cor RGB(15,23,46)"
+   ]
+  },
+  {
+   "id": "Q44",
+   "t": 261.0,
+   "nome": "7830.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 3% do quadro, cor RGB(15,23,46)"
+   ]
+  },
+  {
+   "id": "Q45",
+   "t": 267.0,
+   "nome": "8010.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,29,56)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(19,27,48)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(15,23,46)"
+   ]
+  },
+  {
+   "id": "Q46",
+   "t": 273.0,
+   "nome": "8190.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,29,56)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(19,26,48)",
+    "faixa uniforme na borda direita: 10% do quadro, cor RGB(15,23,46)"
+   ]
+  },
+  {
+   "id": "Q47",
+   "t": 279.0,
+   "nome": "8370.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,29,56)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(19,26,47)",
+    "faixa uniforme na borda direita: 10% do quadro, cor RGB(15,23,46)"
+   ]
+  },
+  {
+   "id": "Q48",
+   "t": 285.0,
+   "nome": "8550.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(227,213,184)",
+    "faixa uniforme na borda base: 5% do quadro, cor RGB(221,206,172)",
+    "faixa uniforme na borda direita: 15% do quadro, cor RGB(220,204,169)"
+   ]
+  },
+  {
+   "id": "Q49",
+   "t": 291.0,
+   "nome": "8730.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(227,213,184)",
+    "faixa uniforme na borda base: 5% do quadro, cor RGB(221,206,172)",
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(220,204,169)"
+   ]
+  },
+  {
+   "id": "Q50",
+   "t": 297.0,
+   "nome": "8910.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 303.0,
+   "nome": "9090.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 309.0,
+   "nome": "9270.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 315.0,
+   "nome": "9450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 321.0,
+   "nome": "9630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 327.0,
+   "nome": "9810.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 333.0,
+   "nome": "9990.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 339.0,
+   "nome": "10170.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 345.0,
+   "nome": "10350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 351.0,
+   "nome": "10530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 357.0,
+   "nome": "10710.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 363.0,
+   "nome": "10890.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 369.0,
+   "nome": "11070.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(19,29,55)",
+    "faixa uniforme na borda direita: 24% do quadro, cor RGB(14,22,45)"
+   ]
+  },
+  {
+   "id": "Q63",
+   "t": 375.0,
+   "nome": "11250.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(19,29,55)",
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(14,22,45)"
+   ]
+  },
+  {
+   "id": "Q64",
+   "t": 381.0,
+   "nome": "11430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 387.0,
+   "nome": "11610.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(11,19,35)",
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,29,56)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(15,24,45)",
+    "faixa uniforme na borda direita: 6% do quadro, cor RGB(14,23,46)"
+   ]
+  },
+  {
+   "id": "Q66",
+   "t": 393.0,
+   "nome": "11790.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(11,19,35)",
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,29,56)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(15,24,45)",
+    "faixa uniforme na borda direita: 6% do quadro, cor RGB(14,23,46)"
+   ]
+  },
+  {
+   "id": "Q67",
+   "t": 399.0,
+   "nome": "11970.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(21,30,57)",
+    "faixa uniforme na borda direita: 33% do quadro, cor RGB(18,28,56)"
+   ]
+  },
+  {
+   "id": "Q68",
+   "t": 405.0,
+   "nome": "12150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 411.0,
+   "nome": "12330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 417.0,
+   "nome": "12510.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 423.0,
+   "nome": "12690.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 429.0,
+   "nome": "12870.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 435.0,
+   "nome": "13050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 441.0,
+   "nome": "13230.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(16,24,37)",
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(10,20,40)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(14,23,39)",
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(17,26,40)"
+   ]
+  },
+  {
+   "id": "Q75",
+   "t": 447.0,
+   "nome": "13410.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(16,24,37)",
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(10,20,40)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(14,23,39)",
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(17,26,40)"
+   ]
+  },
+  {
+   "id": "Q76",
+   "t": 453.0,
+   "nome": "13590.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,28,56)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(18,25,47)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(19,27,48)"
+   ]
+  },
+  {
+   "id": "Q77",
+   "t": 459.0,
+   "nome": "13770.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,28,56)",
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(18,25,47)"
+   ]
+  },
+  {
+   "id": "Q78",
+   "t": 465.0,
+   "nome": "13950.png",
+   "sinais": [
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(17,25,43)"
+   ]
+  },
+  {
+   "id": "Q79",
+   "t": 471.0,
+   "nome": "14130.png",
+   "sinais": [
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(17,25,43)"
+   ]
+  },
+  {
+   "id": "Q80",
+   "t": 477.0,
+   "nome": "14310.png",
+   "sinais": [
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(17,25,42)"
+   ]
+  },
+  {
+   "id": "Q81",
+   "t": 483.0,
+   "nome": "14490.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(22,32,57)"
+   ]
+  },
+  {
+   "id": "Q82",
+   "t": 489.0,
+   "nome": "14670.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 495.0,
+   "nome": "14850.png",
+   "sinais": [
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(13,20,40)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(13,20,40)"
+   ]
+  },
+  {
+   "id": "Q84",
+   "t": 501.0,
+   "nome": "15030.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(13,20,40)",
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(14,21,40)"
+   ]
+  },
+  {
+   "id": "Q85",
+   "t": 507.0,
+   "nome": "15210.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(13,20,40)",
+    "faixa uniforme na borda direita: 4% do quadro, cor RGB(15,21,40)"
+   ]
+  },
+  {
+   "id": "Q86",
+   "t": 513.0,
+   "nome": "15390.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 519.0,
+   "nome": "15570.png",
+   "sinais": [
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(18,28,56)"
+   ]
+  },
+  {
+   "id": "Q88",
+   "t": 525.0,
+   "nome": "15750.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(18,28,56)"
+   ]
+  },
+  {
+   "id": "Q89",
+   "t": 531.0,
+   "nome": "15930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 537.0,
+   "nome": "16110.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 543.0,
+   "nome": "16290.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 549.0,
+   "nome": "16470.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 10% do quadro, cor RGB(131,101,71)"
+   ]
+  },
+  {
+   "id": "Q93",
+   "t": 555.0,
+   "nome": "16650.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(157,118,76)",
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(149,112,71)",
+    "faixa uniforme na borda direita: 20% do quadro, cor RGB(150,113,72)"
+   ]
+  },
+  {
+   "id": "Q94",
+   "t": 561.0,
+   "nome": "16830.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(157,118,76)",
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(149,112,71)",
+    "faixa uniforme na borda direita: 10% do quadro, cor RGB(150,113,72)"
+   ]
+  },
+  {
+   "id": "Q95",
+   "t": 567.0,
+   "nome": "17010.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(14,20,37)",
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(11,18,36)"
+   ]
+  },
+  {
+   "id": "Q96",
+   "t": 573.0,
+   "nome": "17190.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(14,20,37)",
+    "faixa uniforme na borda direita: 13% do quadro, cor RGB(11,18,36)"
+   ]
+  },
+  {
+   "id": "Q97",
+   "t": 579.0,
+   "nome": "17370.png",
+   "sinais": [
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(14,20,37)",
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(11,18,36)"
+   ]
+  }
+ ]
+}

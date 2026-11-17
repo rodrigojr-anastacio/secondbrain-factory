@@ -12,10 +12,11 @@ from faster_whisper import WhisperModel
 from normaliza_pt import norm as nn
 import os
 A = Path(__file__).parent; R = A.parent; SR = 44100
-VOZ = os.environ.get("VOZ", "eleven")
-BR = R / ("audio/eleven-brutos" if VOZ == "eleven" else "audio/kokoro-brutos"); EXT = ".mp3" if VOZ == "eleven" else ".wav"
+VOZ = os.environ.get("VOZ", "fish")   # 006: reserva Fish (chave ElevenLabs 401 em 17/11/2026)
+BR = R / {"eleven": "audio/eleven-brutos", "fish": "audio/fish-brutos"}.get(VOZ, "audio/kokoro-brutos"); EXT = ".wav" if VOZ == "kokoro" else ".mp3"
 EXTRA = {}   # atempo extra por bloco (encaixe no slot)
 def atempo(bid):
+    if VOZ == "fish": return round((1.36 if int(bid[1:]) <= 6 else 1.08) * EXTRA.get(bid, 1.0), 4)   # LEIA amostras-voz-reserva: #NATASHA 163 pal/min natural, hook 1,24x
     if VOZ != "eleven": return round(1.0 * EXTRA.get(bid, 1.0), 4)
     n = int(bid[1:]); return round((1.36 if n <= 6 else 1.1) * EXTRA.get(bid, 1.0), 4)
 GAP_BLOCO = {1: 0.42, 1.5: 0.6, 2: 0.7}
