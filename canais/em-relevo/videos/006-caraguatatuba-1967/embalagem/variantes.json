@@ -1,0 +1,26 @@
+[
+ {
+  "letra": "A",
+  "titulo": "Por que a SERRA DO MAR desaba sobre o LITORAL?",
+  "padrao_titulo": "Por que [LUGAR] [anomalia]?",
+  "padrao_thumb": "mapa-lugar",
+  "thumb_conceito": "bloco 3D do relevo real em cor de satélite com a parede da serra cortada de lado e seta coral até a cidade",
+  "thumb_texto": "UMA PAREDE?"
+ },
+ {
+  "letra": "B",
+  "titulo": "CARAGUATATUBA 1967, SÃO SEBASTIÃO 2023: por que a serra repete?",
+  "padrao_titulo": "Contraste A × B + por que",
+  "padrao_thumb": "antes-depois",
+  "thumb_conceito": "Landsat 29/10/2022 × 26/02/2023 das mesmas encostas de São Sebastião em tela dividida: verde × rasgado de cicatrizes",
+  "thumb_texto": "UMA NOITE"
+ },
+ {
+  "letra": "C",
+  "titulo": "A CASCA de terra que faz a SERRA DO MAR desabar",
+  "padrao_titulo": "O/A [coisa concreta] que [faz algo]",
+  "padrao_thumb": "cena-acao",
+  "thumb_conceito": "foto real de perto (Defesa Civil de Ubatuba/Gov. SP, CC BY 2.0, 19/02/2023): solo laranja exposto onde a encosta se soltou, mordendo o asfalto",
+  "thumb_texto": ""
+ }
+]

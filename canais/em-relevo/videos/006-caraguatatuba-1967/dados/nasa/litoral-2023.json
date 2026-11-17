@@ -1,0 +1,136 @@
+{
+ "fonte": "NASA GPM IMERG V07 (GES DISC)",
+ "credito": "Chuva: NASA GPM IMERG (GES DISC), domínio público",
+ "licenca": "domínio público (dados da NASA)",
+ "produtos": [
+  "GPM_3IMERGDF.07"
+ ],
+ "arquivos": [
+  "3B-DAY.MS.MRG.3IMERG.20230218-S000000-E235959.V07B.nc4",
+  "3B-DAY.MS.MRG.3IMERG.20230219-S000000-E235959.V07B.nc4"
+ ],
+ "dias_sem_arquivo": [],
+ "periodo": {
+  "inicio": "2023-02-18",
+  "fim": "2023-02-19",
+  "dias": 2,
+  "texto_tela": "18 fev – 19 fev 2023"
+ },
+ "regiao": "bbox",
+ "bbox_pedido": [
+  -47.2,
+  -24.4,
+  -44.4,
+  -22.8
+ ],
+ "bbox": [
+  -47.2,
+  -24.5,
+  -44.4,
+  -22.8
+ ],
+ "grade": {
+  "resolucao_graus": 0.1,
+  "linhas": 17,
+  "colunas": 28
+ },
+ "mm": {
+  "max": 215.7,
+  "max_lat": -24.45,
+  "max_lon": -46.35,
+  "medio_bbox": 54.3,
+  "max_terra": 108.9,
+  "max_terra_lat": -24.15,
+  "max_terra_lon": -46.75,
+  "medio_brasil": 45.8
+ },
+ "escala": {
+  "vmin": 0,
+  "vmax": 200,
+  "unidade": "mm",
+  "transparente_abaixo_mm": 6.0,
+  "paradas": [
+   {
+    "frac": 0.0,
+    "mm": 0.0,
+    "rgb": [
+     159,
+     232,
+     255
+    ],
+    "alfa": 0
+   },
+   {
+    "frac": 0.03,
+    "mm": 6.0,
+    "rgb": [
+     159,
+     232,
+     255
+    ],
+    "alfa": 90
+   },
+   {
+    "frac": 0.15,
+    "mm": 30.0,
+    "rgb": [
+     63,
+     216,
+     255
+    ],
+    "alfa": 170
+   },
+   {
+    "frac": 0.35,
+    "mm": 70.0,
+    "rgb": [
+     47,
+     123,
+     255
+    ],
+    "alfa": 205
+   },
+   {
+    "frac": 0.6,
+    "mm": 120.0,
+    "rgb": [
+     124,
+     58,
+     237
+    ],
+    "alfa": 225
+   },
+   {
+    "frac": 0.82,
+    "mm": 164.0,
+    "rgb": [
+     232,
+     64,
+     160
+    ],
+    "alfa": 238
+   },
+   {
+    "frac": 1.0,
+    "mm": 200.0,
+    "rgb": [
+     255,
+     210,
+     63
+    ],
+    "alfa": 245
+   }
+  ]
+ },
+ "arquivos_saida": {
+  "camada": "litoral-2023-camada.png",
+  "camada_px": [
+   2048,
+   1243
+  ],
+  "world_file": "litoral-2023-camada.pgw",
+  "tela": "litoral-2023-tela.png"
+ },
+ "georreferencia": "plate carrée: lon = oeste + (x+0,5)·(leste−oeste)/largura; lat = norte − (y+0,5)·(norte−sul)/altura",
+ "mascara": false
+}
