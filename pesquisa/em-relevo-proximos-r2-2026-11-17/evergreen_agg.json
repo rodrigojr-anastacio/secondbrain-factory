@@ -1,0 +1,277 @@
+{
+ "itaipu-rompesse": {
+  "n": 8,
+  "n_1ano_100k": 6,
+  "canais_1ano_100k": 6,
+  "anos_hits": [
+   "2020",
+   "2021",
+   "2022",
+   "2024"
+  ],
+  "pt_1ano_100k": 3,
+  "vivos": 1,
+  "soma_hoje_1ano": 6233
+ },
+ "tsunami-brasil": {
+  "n": 10,
+  "n_1ano_100k": 7,
+  "canais_1ano_100k": 7,
+  "anos_hits": [
+   "2017",
+   "2018",
+   "2021",
+   "2025"
+  ],
+  "pt_1ano_100k": 5,
+  "vivos": 0,
+  "soma_hoje_1ano": 64
+ },
+ "br-sem-desastres": {
+  "n": 8,
+  "n_1ano_100k": 4,
+  "canais_1ano_100k": 4,
+  "anos_hits": [
+   "2017",
+   "2020",
+   "2023",
+   "2024"
+  ],
+  "pt_1ano_100k": 4,
+  "vivos": 1,
+  "soma_hoje_1ano": 1549
+ },
+ "era-do-gelo": {
+  "n": 6,
+  "n_1ano_100k": 5,
+  "canais_1ano_100k": 5,
+  "anos_hits": [
+   "2020",
+   "2021",
+   "2023",
+   "2024"
+  ],
+  "pt_1ano_100k": 1,
+  "vivos": 0,
+  "soma_hoje_1ano": 598
+ },
+ "oceano-secasse": {
+  "n": 9,
+  "n_1ano_100k": 5,
+  "canais_1ano_100k": 5,
+  "anos_hits": [
+   "2016",
+   "2017",
+   "2018",
+   "2022",
+   "2024"
+  ],
+  "pt_1ano_100k": 1,
+  "vivos": 1,
+  "soma_hoje_1ano": 3971
+ },
+ "amazonas-sem-ponte": {
+  "n": 8,
+  "n_1ano_100k": 5,
+  "canais_1ano_100k": 5,
+  "anos_hits": [
+   "2023",
+   "2025"
+  ],
+  "pt_1ano_100k": 3,
+  "vivos": 0,
+  "soma_hoje_1ano": 16
+ },
+ "encontro-aguas": {
+  "n": 5,
+  "n_1ano_100k": 4,
+  "canais_1ano_100k": 4,
+  "anos_hits": [
+   "2016",
+   "2019",
+   "2025"
+  ],
+  "pt_1ano_100k": 4,
+  "vivos": 0,
+  "soma_hoje_1ano": 355
+ },
+ "pacifico-atlantico": {
+  "n": 7,
+  "n_1ano_100k": 7,
+  "canais_1ano_100k": 7,
+  "anos_hits": [
+   "2019",
+   "2020",
+   "2021",
+   "2023",
+   "2025"
+  ],
+  "pt_1ano_100k": 3,
+  "vivos": 1,
+  "soma_hoje_1ano": 10914
+ },
+ "brasil-litoral": {
+  "n": 8,
+  "n_1ano_100k": 5,
+  "canais_1ano_100k": 3,
+  "anos_hits": [
+   "2022",
+   "2025"
+  ],
+  "pt_1ano_100k": 4,
+  "vivos": 0,
+  "soma_hoje_1ano": 113
+ },
+ "brasil-ferrovias": {
+  "n": 7,
+  "n_1ano_100k": 5,
+  "canais_1ano_100k": 5,
+  "anos_hits": [
+   "2020",
+   "2021",
+   "2022",
+   "2024",
+   "2025"
+  ],
+  "pt_1ano_100k": 5,
+  "vivos": 0,
+  "soma_hoje_1ano": 64
+ },
+ "brasil-grande": {
+  "n": 3,
+  "n_1ano_100k": 3,
+  "canais_1ano_100k": 3,
+  "anos_hits": [
+   "2019",
+   "2020"
+  ],
+  "pt_1ano_100k": 2,
+  "vivos": 0,
+  "soma_hoje_1ano": 194
+ },
+ "sp-maior-cidade": {
+  "n": 4,
+  "n_1ano_100k": 4,
+  "canais_1ano_100k": 4,
+  "anos_hits": [
+   "2018",
+   "2024",
+   "2025"
+  ],
+  "pt_1ano_100k": 2,
+  "vivos": 1,
+  "soma_hoje_1ano": 661
+ },
+ "tiete-interior": {
+  "n": 2,
+  "n_1ano_100k": 1,
+  "canais_1ano_100k": 1,
+  "anos_hits": [
+   "2020"
+  ],
+  "pt_1ano_100k": 1,
+  "vivos": 0,
+  "soma_hoje_1ano": 0
+ },
+ "maior-buraco": {
+  "n": 7,
+  "n_1ano_100k": 7,
+  "canais_1ano_100k": 6,
+  "anos_hits": [
+   "2014",
+   "2017",
+   "2018",
+   "2020",
+   "2021"
+  ],
+  "pt_1ano_100k": 4,
+  "vivos": 1,
+  "soma_hoje_1ano": 1114
+ },
+ "fundo-oceano": {
+  "n": 5,
+  "n_1ano_100k": 5,
+  "canais_1ano_100k": 4,
+  "anos_hits": [
+   "2016",
+   "2017",
+   "2018",
+   "2023",
+   "2024"
+  ],
+  "pt_1ano_100k": 3,
+  "vivos": 2,
+  "soma_hoje_1ano": 12173
+ },
+ "ponto-isolado": {
+  "n": 3,
+  "n_1ano_100k": 3,
+  "canais_1ano_100k": 3,
+  "anos_hits": [
+   "2016",
+   "2018",
+   "2020"
+  ],
+  "pt_1ano_100k": 2,
+  "vivos": 0,
+  "soma_hoje_1ano": 275
+ },
+ "mar-salgado": {
+  "n": 6,
+  "n_1ano_100k": 5,
+  "canais_1ano_100k": 5,
+  "anos_hits": [
+   "2016",
+   "2017",
+   "2019",
+   "2025"
+  ],
+  "pt_1ano_100k": 4,
+  "vivos": 1,
+  "soma_hoje_1ano": 274
+ },
+ "amazonas-nilo": {
+  "n": 4,
+  "n_1ano_100k": 2,
+  "canais_1ano_100k": 2,
+  "anos_hits": [
+   "2018",
+   "2021"
+  ],
+  "pt_1ano_100k": 0,
+  "vivos": 0,
+  "soma_hoje_1ano": 145
+ },
+ "amazonia-impossivel": {
+  "n": 4,
+  "n_1ano_100k": 2,
+  "canais_1ano_100k": 2,
+  "anos_hits": [
+   "2020",
+   "2024"
+  ],
+  "pt_1ano_100k": 0,
+  "vivos": 1,
+  "soma_hoje_1ano": 2825
+ },
+ "rio-madeira": {
+  "n": 2,
+  "n_1ano_100k": 0,
+  "canais_1ano_100k": 0,
+  "anos_hits": [],
+  "pt_1ano_100k": 0,
+  "vivos": 0,
+  "soma_hoje_1ano": 0
+ },
+ "amazonas-ao-contrario": {
+  "n": 5,
+  "n_1ano_100k": 1,
+  "canais_1ano_100k": 1,
+  "anos_hits": [
+   "2024"
+  ],
+  "pt_1ano_100k": 0,
+  "vivos": 1,
+  "soma_hoje_1ano": 549
+ }
+}

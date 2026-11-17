@@ -1,0 +1,77 @@
+{
+ "UC5EcQrgvXsgGLR4ukxBTM8w": {
+  "canal": "FactSpark",
+  "mediana": 453452.5,
+  "n": 30
+ },
+ "UC6107grRI4m0o2-emgoDnAA": {
+  "canal": "SmarterEveryDay",
+  "mediana": 2007233.0,
+  "n": 30
+ },
+ "UCUpi1rXch-PIa0MNo3hAYyw": {
+  "canal": "Open Earth",
+  "mediana": 650,
+  "n": 23
+ },
+ "UC-Xdirs4_JYpeyWi46h8kdA": {
+  "canal": "Modern Chinese Cultural Studies",
+  "mediana": 1461.5,
+  "n": 30
+ },
+ "UCFb_9tIgnxz1OPhxzipGIbA": {
+  "canal": "JamesBayVEVO",
+  "mediana": 117805.5,
+  "n": 30
+ },
+ "UCpVm7bg6pXKo1Pr6k5kxG9A": {
+  "canal": "National Geographic",
+  "mediana": 263676.0,
+  "n": 22
+ },
+ "UCYgL81lc7DOLNhnel1_J6Vg": {
+  "canal": "Math and Science",
+  "mediana": 15913,
+  "n": 9
+ },
+ "UCmOCpBKeoBPp-HwarhIBA2g": {
+  "canal": "Best Documentary",
+  "mediana": 40482.0,
+  "n": 30
+ },
+ "UCuCkxoKLYO_EQ2GeFtbM_bw": {
+  "canal": "Half as Interesting",
+  "mediana": 416729.0,
+  "n": 30
+ },
+ "UC1c8sy9YyzqoqY3XdvF6w3g": {
+  "canal": "Good to Know",
+  "mediana": 35427.0,
+  "n": 16
+ },
+ "UCfdNM3NAhaBOXCafH7krzrA": {
+  "canal": "The Infographics Show",
+  "mediana": 337920.5,
+  "n": 30
+ },
+ "UCIeyNHoJf9iPsEI9p_EARHg": {
+  "canal": "Aldo Zuga",
+  "mediana": 368275331.0,
+  "n": 2
+ },
+ "UCs_ineLBnNTGjrArNzjSLZg": {
+  "canal": "Zem TV",
+  "mediana": 1287256.5,
+  "n": 30
+ },
+ "UCzR-rom72PHN9Zg7RML9EbA": {
+  "canal": "PBS Eons",
+  "mediana": 449180.5,
+  "n": 26
+ },
+ "UCECsXb0gM0qp8w9UOaMq_nw": {
+  "canal": "GeoBrad",
+  "mediana": 38908.0,
+  "n": 30
+ }
+}
