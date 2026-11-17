@@ -53,7 +53,7 @@ b("Esta es TODA la historia del Cártel de Medellín. Y de la guerra que le hizo
 cap("1. El Tratado")
 b("El Tratado. Washington, catorce de septiembre de mil novecientos setenta y nueve. Colombia y Estados Unidos firman un tratado de extradición.", card="WASHINGTON, 1979")
 b("En Bogotá gobierna Julio César Turbay. Resumido, el texto dice esto. Un colombiano acusado en Estados Unidos puede ser enviado allá para ser juzgado.")
-b("Para los traficantes que empiezan a llenar avionetas de cocaína rumbo a Florida, es una amenaza real. En Colombia, ellos pueden sobornar a un policía o a un juez. En una cárcel federal de Estados Unidos, no.")
+b("El narcotráfico figura entre los delitos del tratado. Para los traficantes que empiezan a llenar avionetas de cocaína rumbo a Florida, es una amenaza nueva: un juicio a miles de kilómetros de casa.")
 b("En mil novecientos ochenta, el Congreso aprueba el tratado con la Ley veintisiete. Pero esa ley no la firma el presidente, que está de viaje. Quien la firma, en su lugar, es un ministro delegatario: Germán Zea.")
 b("Nadie lo advierte entonces. No es la firma del presidente.", ideia=True)
 
@@ -63,15 +63,15 @@ b("El Panfleto. Cali, dos de diciembre de mil novecientos ochenta y uno. En plen
 b("Anuncian un grupo nuevo: Muerte a Secuestradores, el MAS. Semanas antes, la guerrilla del eme diecinueve había secuestrado a Martha Nieves Ochoa. Es hermana de tres traficantes de Medellín.")
 b("Según la revista Semana, el comunicado afirma que lo respaldan doscientos veintitrés jefes del narcotráfico. Dice que pondrán dinero y hombres para perseguir a los secuestradores.")
 b("En febrero de mil novecientos ochenta y dos, Martha Nieves vuelve a casa. Según varios historiadores, los grandes traficantes aprenden de ese episodio que, unidos, pueden presionar a cualquiera.")
-b("Los hermanos Ochoa. Gonzalo Rodríguez Gacha. Carlos Lehder. Y un contrabandista criado en Envigado, Pablo Escobar. Ese grupo ya tiene dinero y armas. Ahora busca poder político.", ideia=True)
+b("Los hermanos Ochoa. Gonzalo Rodríguez Gacha. Carlos Lehder. Y un contrabandista criado en Envigado, Pablo Escobar. Ese grupo ya tiene dinero y armas. Le falta una cosa: que el tratado nunca los alcance.", ideia=True)
 
-# ───────────────────────── 3. EL ESCAÑO ─────────────────────────
-cap("3. El Escaño")
-b("El Escaño. Bogotá, veinte de julio de mil novecientos ochenta y dos. Pablo Escobar entra a la Cámara de Representantes como suplente, elegido por Antioquia.", card="BOGOTÁ, 1982")
-b("Con el escaño llega la inmunidad parlamentaria. Y una imagen pública de benefactor de los barrios pobres de Medellín.")
-b("En mil novecientos ochenta y tres, el ministro de Justicia, Rodrigo Lara Bonilla, lo señala como narcotraficante. El diario El Espectador rescata una noticia de su archivo. Escobar había sido detenido con cocaína en mil novecientos setenta y seis.")
-b("En octubre de mil novecientos ochenta y tres pierde la inmunidad. Poco después se retira de la política.")
-b("El treinta de abril de mil novecientos ochenta y cuatro, asesinan a tiros a Lara Bonilla en Bogotá. Y en su funeral, el presidente Belisario Betancur, que hasta entonces se negaba, anuncia que va a extraditar.", ideia=True)
+# ───────────────────────── 3. EL CHEQUE ─────────────────────────
+cap("3. El Cheque")
+b("El Cheque. Bogotá, mil novecientos ochenta y tres. En la Cámara de Representantes, un congresista muestra la copia de un cheque de un millón de pesos.", card="BOGOTÁ, 1983")
+b("Lo giró Evaristo Porras, un traficante de Leticia. Según el congresista, el dinero llegó al nuevo ministro de Justicia, Rodrigo Lara Bonilla. Lara explica que entró a una sociedad familiar como pago de un negocio.")
+b("El congresista es Jairo Ortega. Su suplente en la Cámara se llama Pablo Escobar.")
+b("Lara contraataca: denuncia el dinero de la droga en la política. Y señala a Escobar. En octubre, Escobar pierde la inmunidad. Poco después se retira de la política.")
+b("El treinta de abril de mil novecientos ochenta y cuatro, asesinan a Lara Bonilla en Bogotá. Belisario Betancur, que hasta entonces había negado las solicitudes de Estados Unidos, empieza a firmar extradiciones.", ideia=True)
 
 # ───────────────────────── 4. LOS PRIMEROS ─────────────────────────
 cap("4. Los Primeros")
@@ -100,11 +100,11 @@ b("Pero en junio de mil novecientos ochenta y siete, la Corte anula también la 
 
 # ───────────────────────── 7. EL ESTADO DE SITIO ─────────────────────────
 cap("7. El Estado de Sitio")
-b("El Estado de Sitio. Soacha, dieciocho de agosto de mil novecientos ochenta y nueve. Asesinan a Luis Carlos Galán, el candidato favorito a la presidencia.", card="SOACHA, 1989")
-b("Ese mismo día, Barco firma, bajo estado de sitio, el decreto mil ochocientos sesenta. La extradición ya no necesita una ley: basta una decisión del gobierno.")
-b("Cinco días después, los Extraditables declaran la guerra total al Estado.")
-b("En noviembre, una bomba derriba en pleno vuelo un avión de Avianca. Mueren ciento diez personas. En diciembre, un vehículo cargado con quinientos kilos de dinamita destruye la sede del DAS, el servicio de inteligencia, en Bogotá. La justicia atribuyó ambos atentados al cártel.")
-b("Estallan bombas en bancos, centros comerciales y estaciones de policía. En los años siguientes, en Medellín, asesinan a cientos de policías.")
+b("El Estado de Sitio. Bogotá, dieciocho de agosto de mil novecientos ochenta y nueve. El presidente Virgilio Barco firma, bajo estado de sitio, el decreto mil ochocientos sesenta.", card="BOGOTÁ, 1989")
+b("La extradición ya no necesita una ley aprobada por el Congreso. Basta una decisión del gobierno.")
+b("Ese mismo día, en Soacha, asesinan a Luis Carlos Galán, el candidato favorito a la presidencia. Cinco días después, los Extraditables declaran la guerra total al Estado.")
+b("Siguen meses de atentados: un avión de Avianca derribado en pleno vuelo, con ciento diez muertos, la sede del DAS en Bogotá, bancos, centros comerciales. La justicia los atribuyó al cártel. En Medellín asesinan a cientos de policías.")
+b("El Estado responde en los tribunales. Desde noviembre de mil novecientos noventa, en los procesos de narcotráfico hay jueces sin rostro: su identidad queda en reserva, para que nadie pueda amenazarlos.")
 b("Pero el cártel recurre a otra forma de presión, más cruel que una bomba: el secuestro.", ideia=True)
 b("Si este expediente te muestra una Colombia que no conocías, suscríbete. Cada semana abrimos uno nuevo. Ahora, volvemos a Diana Turbay.")
 

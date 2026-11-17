@@ -1,6 +1,6 @@
 # TODA la Historia del Cártel de Medellín | Su Guerra contra la Extradición en 14 minutos: roteiro
 
-Gerado por `roteiro.py` (fonte única; edite lá). 1925 palavras, ~13:36.7 estimados a 143 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 1938 palavras, ~13:42.2 estimados a 143 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
@@ -24,7 +24,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N008]** En Bogotá gobierna Julio César Turbay. Resumido, el texto dice esto. Un colombiano acusado en Estados Unidos puede ser enviado allá para ser juzgado.
 
-**[N009]** Para los traficantes que empiezan a llenar avionetas de cocaína rumbo a Florida, es una amenaza real. En Colombia, ellos pueden sobornar a un policía o a un juez. En una cárcel federal de Estados Unidos, no.
+**[N009]** El narcotráfico figura entre los delitos del tratado. Para los traficantes que empiezan a llenar avionetas de cocaína rumbo a Florida, es una amenaza nueva: un juicio a miles de kilómetros de casa.
 
 **[N010]** En mil novecientos ochenta, el Congreso aprueba el tratado con la Ley veintisiete. Pero esa ley no la firma el presidente, que está de viaje. Quien la firma, en su lugar, es un ministro delegatario: Germán Zea.
 
@@ -41,20 +41,20 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N015]** En febrero de mil novecientos ochenta y dos, Martha Nieves vuelve a casa. Según varios historiadores, los grandes traficantes aprenden de ese episodio que, unidos, pueden presionar a cualquiera.
 
-**[N016]** Los hermanos Ochoa. Gonzalo Rodríguez Gacha. Carlos Lehder. Y un contrabandista criado en Envigado, Pablo Escobar. Ese grupo ya tiene dinero y armas. Ahora busca poder político.
+**[N016]** Los hermanos Ochoa. Gonzalo Rodríguez Gacha. Carlos Lehder. Y un contrabandista criado en Envigado, Pablo Escobar. Ese grupo ya tiene dinero y armas. Le falta una cosa: que el tratado nunca los alcance.
 
 
-## 3. El Escaño
+## 3. El Cheque
 
-**[N017]** El Escaño. Bogotá, veinte de julio de mil novecientos ochenta y dos. Pablo Escobar entra a la Cámara de Representantes como suplente, elegido por Antioquia.
+**[N017]** El Cheque. Bogotá, mil novecientos ochenta y tres. En la Cámara de Representantes, un congresista muestra la copia de un cheque de un millón de pesos.
 
-**[N018]** Con el escaño llega la inmunidad parlamentaria. Y una imagen pública de benefactor de los barrios pobres de Medellín.
+**[N018]** Lo giró Evaristo Porras, un traficante de Leticia. Según el congresista, el dinero llegó al nuevo ministro de Justicia, Rodrigo Lara Bonilla. Lara explica que entró a una sociedad familiar como pago de un negocio.
 
-**[N019]** En mil novecientos ochenta y tres, el ministro de Justicia, Rodrigo Lara Bonilla, lo señala como narcotraficante. El diario El Espectador rescata una noticia de su archivo. Escobar había sido detenido con cocaína en mil novecientos setenta y seis.
+**[N019]** El congresista es Jairo Ortega. Su suplente en la Cámara se llama Pablo Escobar.
 
-**[N020]** En octubre de mil novecientos ochenta y tres pierde la inmunidad. Poco después se retira de la política.
+**[N020]** Lara contraataca: denuncia el dinero de la droga en la política. Y señala a Escobar. En octubre, Escobar pierde la inmunidad. Poco después se retira de la política.
 
-**[N021]** El treinta de abril de mil novecientos ochenta y cuatro, asesinan a tiros a Lara Bonilla en Bogotá. Y en su funeral, el presidente Belisario Betancur, que hasta entonces se negaba, anuncia que va a extraditar.
+**[N021]** El treinta de abril de mil novecientos ochenta y cuatro, asesinan a Lara Bonilla en Bogotá. Belisario Betancur, que hasta entonces había negado las solicitudes de Estados Unidos, empieza a firmar extradiciones.
 
 
 ## 4. Los Primeros
@@ -100,15 +100,15 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## 7. El Estado de Sitio
 
-**[N038]** El Estado de Sitio. Soacha, dieciocho de agosto de mil novecientos ochenta y nueve. Asesinan a Luis Carlos Galán, el candidato favorito a la presidencia.
+**[N038]** El Estado de Sitio. Bogotá, dieciocho de agosto de mil novecientos ochenta y nueve. El presidente Virgilio Barco firma, bajo estado de sitio, el decreto mil ochocientos sesenta.
 
-**[N039]** Ese mismo día, Barco firma, bajo estado de sitio, el decreto mil ochocientos sesenta. La extradición ya no necesita una ley: basta una decisión del gobierno.
+**[N039]** La extradición ya no necesita una ley aprobada por el Congreso. Basta una decisión del gobierno.
 
-**[N040]** Cinco días después, los Extraditables declaran la guerra total al Estado.
+**[N040]** Ese mismo día, en Soacha, asesinan a Luis Carlos Galán, el candidato favorito a la presidencia. Cinco días después, los Extraditables declaran la guerra total al Estado.
 
-**[N041]** En noviembre, una bomba derriba en pleno vuelo un avión de Avianca. Mueren ciento diez personas. En diciembre, un vehículo cargado con quinientos kilos de dinamita destruye la sede del DAS, el servicio de inteligencia, en Bogotá. La justicia atribuyó ambos atentados al cártel.
+**[N041]** Siguen meses de atentados: un avión de Avianca derribado en pleno vuelo, con ciento diez muertos, la sede del DAS en Bogotá, bancos, centros comerciales. La justicia los atribuyó al cártel. En Medellín asesinan a cientos de policías.
 
-**[N042]** Estallan bombas en bancos, centros comerciales y estaciones de policía. En los años siguientes, en Medellín, asesinan a cientos de policías.
+**[N042]** El Estado responde en los tribunales. Desde noviembre de mil novecientos noventa, en los procesos de narcotráfico hay jueces sin rostro: su identidad queda en reserva, para que nadie pueda amenazarlos.
 
 **[N043]** Pero el cártel recurre a otra forma de presión, más cruel que una bomba: el secuestro.
 
