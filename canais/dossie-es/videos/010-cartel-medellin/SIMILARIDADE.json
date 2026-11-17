@@ -2,8 +2,8 @@
  "pasta": "canais/dossie-es/videos/010-cartel-medellin",
  "roteiro": "canais/dossie-es/videos/010-cartel-medellin/blocos.json",
  "idioma": "es",
- "blocos": 79,
- "nota": 10.8,
+ "blocos": 80,
+ "nota": 10.7,
  "veredito": "ok",
  "limites": {
   "ATENCAO": 18,
@@ -24,12 +24,12 @@
  ],
  "referencias": [
   {
-   "cobertura": 0.11392405063291139,
+   "cobertura": 0.1125,
    "ordem": 1.0,
-   "ngramas": 0.021413276231263382,
-   "sim_media": 0.19502858415600735,
+   "ngramas": 0.02109704641350211,
+   "sim_media": 0.1959917685110164,
    "gemeos": 9,
-   "blocos": 79,
+   "blocos": 80,
    "posicoes": [
     [
      6,
@@ -128,16 +128,16 @@
    "idioma_ref": "en",
    "traduzido": true,
    "palavras_ref": 2071,
-   "nota": 10.8,
+   "nota": 10.7,
    "veredito": "ok"
   },
   {
-   "cobertura": 0.10126582278481013,
-   "ordem": 0.875,
-   "ngramas": 0.018201284796573874,
-   "sim_media": 0.18544227480744122,
-   "gemeos": 8,
-   "blocos": 79,
+   "cobertura": 0.1125,
+   "ordem": 0.7777777777777778,
+   "ngramas": 0.0189873417721519,
+   "sim_media": 0.18759252287946634,
+   "gemeos": 9,
+   "blocos": 80,
    "posicoes": [
     [
      7,
@@ -170,6 +170,10 @@
     [
      63,
      168
+    ],
+    [
+     76,
+     36
     ]
    ],
    "trechos": [
@@ -210,6 +214,12 @@
      "ref": "Espectador, ya había expuesto a Escobar una vez, y sigue informando sobre el narcotráfico. El 17 de diciembre de 1986, su director, Guillermo Cano,"
     },
     {
+     "bloco": 76,
+     "cos": 0.33,
+     "nosso": "No es retroactiva. Pero en mil novecientos noventa y nueve capturan a Fabio Ochoa, hermano de Martha Nieves, acusado de seguir traficando después de esa fecha. En septiembre de dos mil uno lo extraditan a Estados Unidos.",
+     "ref": "noviembre de 1981, la guerrilla del M-19 secuestra a Martha Nieves Ochoa, hermana de los hermanos Ochoa. Traficantes y élites aliadas"
+    },
+    {
      "bloco": 7,
      "cos": 0.32,
      "nosso": "El Tratado. Washington, catorce de septiembre de mil novecientos setenta y nueve. Colombia y Estados Unidos firman un tratado de extradición.",
@@ -226,16 +236,16 @@
    "idioma_ref": "en",
    "traduzido": true,
    "palavras_ref": 3032,
-   "nota": 9.2,
+   "nota": 9.9,
    "veredito": "ok"
   },
   {
-   "cobertura": 0.08860759493670886,
+   "cobertura": 0.0875,
    "ordem": 0.5714285714285714,
-   "ngramas": 0.009635974304068522,
-   "sim_media": 0.1972418849534033,
+   "ngramas": 0.00949367088607595,
+   "sim_media": 0.19765053530236582,
    "gemeos": 7,
-   "blocos": 79,
+   "blocos": 80,
    "posicoes": [
     [
      24,
@@ -314,16 +324,16 @@
    "idioma_ref": "es",
    "traduzido": false,
    "palavras_ref": 9022,
-   "nota": 6.9,
+   "nota": 6.8,
    "veredito": "ok"
   },
   {
-   "cobertura": 0.08860759493670886,
+   "cobertura": 0.0875,
    "ordem": 0.5714285714285714,
-   "ngramas": 0.007494646680942184,
-   "sim_media": 0.1796724394288023,
+   "ngramas": 0.008438818565400843,
+   "sim_media": 0.18063358748474706,
    "gemeos": 7,
-   "blocos": 79,
+   "blocos": 80,
    "posicoes": [
     [
      13,
@@ -406,12 +416,12 @@
    "veredito": "ok"
   },
   {
-   "cobertura": 0.0379746835443038,
+   "cobertura": 0.0375,
    "ordem": 1.0,
-   "ngramas": 0.0032119914346895075,
-   "sim_media": 0.15190753377545102,
+   "ngramas": 0.004219409282700422,
+   "sim_media": 0.1531800893880388,
    "gemeos": 3,
-   "blocos": 79,
+   "blocos": 80,
    "posicoes": [
     [
      3,
@@ -454,12 +464,12 @@
    "veredito": "ok"
   },
   {
-   "cobertura": 0.012658227848101266,
+   "cobertura": 0.0125,
    "ordem": 0.0,
-   "ngramas": 0.006423982869379015,
-   "sim_media": 0.15422914663957435,
+   "ngramas": 0.006329113924050633,
+   "sim_media": 0.15402514723636979,
    "gemeos": 1,
-   "blocos": 79,
+   "blocos": 80,
    "posicoes": [
     [
      40,
@@ -484,17 +494,17 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0,
-   "sim_media": 0.1342983660964478,
+   "ngramas": 0.0010548523206751054,
+   "sim_media": 0.13478522100453,
    "gemeos": 0,
-   "blocos": 79,
+   "blocos": 80,
    "posicoes": [],
    "trechos": [],
    "ref": "canais/dossie-es/videos/010-cartel-medellin/ref/manada-lua5M2G94sY.txt",
    "idioma_ref": "pt",
    "traduzido": true,
    "palavras_ref": 3132,
-   "nota": 0.0,
+   "nota": 0.1,
    "veredito": "ok"
   }
  ]

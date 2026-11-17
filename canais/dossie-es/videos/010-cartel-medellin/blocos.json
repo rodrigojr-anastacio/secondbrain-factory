@@ -361,7 +361,7 @@
  },
  {
   "id": "N073",
-  "texto": "Para entonces, Rodríguez Gacha había muerto en un operativo policial, en mil novecientos ochenta y nueve. Los hermanos Ochoa se habían entregado. Y Lehder seguía preso en Estados Unidos.",
+  "texto": "Para entonces, Rodríguez Gacha había muerto en un operativo policial, en mil novecientos ochenta y nueve. Y Lehder seguía preso en Estados Unidos.",
   "ideia": false
  },
  {
@@ -376,21 +376,26 @@
  },
  {
   "id": "N076",
-  "texto": "No es retroactiva. Desde entonces, Colombia ha extraditado a miles de personas. Según El Tiempo, solo entre dos mil diez y dos mil veinte fueron cerca de mil novecientas.",
+  "texto": "No es retroactiva. Pero en mil novecientos noventa y nueve capturan a Fabio Ochoa, hermano de Martha Nieves, acusado de seguir traficando después de esa fecha. En septiembre de dos mil uno lo extraditan a Estados Unidos.",
   "ideia": false
  },
  {
   "id": "N077",
-  "texto": "Diana Turbay no alcanzó a verlo. Murió casi siete años antes, secuestrada, en la guerra contra un tratado firmado durante el gobierno de su padre.",
+  "texto": "Desde entonces, Colombia ha extraditado a miles de personas. Según El Tiempo, solo entre dos mil diez y dos mil veinte fueron cerca de mil novecientas.",
   "ideia": false
  },
  {
   "id": "N078",
+  "texto": "Diana Turbay no alcanzó a verlo. Murió casi siete años antes, secuestrada, en la guerra contra un tratado firmado durante el gobierno de su padre.",
+  "ideia": false
+ },
+ {
+  "id": "N079",
   "texto": "Durante más de seis años, la Constitución prohibió la extradición. La violencia de esa guerra costó la vida a cientos de policías, jueces, periodistas y civiles. Y al final, la palabra volvió.",
   "ideia": true
  },
  {
-  "id": "N079",
+  "id": "N080",
   "texto": "Y tú, ¿qué crees que aprendió Colombia de esta guerra? ¿Qué parte de esta historia no conocías? Déjalo en los comentarios.",
   "ideia": false
  }

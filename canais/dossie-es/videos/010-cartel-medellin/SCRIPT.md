@@ -1,6 +1,6 @@
 # TODA la Historia del Cártel de Medellín | Su Guerra contra la Extradición en 14 minutos: roteiro
 
-Gerado por `roteiro.py` (fonte única; edite lá). 1938 palavras, ~13:42.2 estimados a 143 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 1966 palavras, ~13:54.1 estimados a 143 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
@@ -185,7 +185,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N072]** El dos de diciembre de mil novecientos noventa y tres, Escobar muere en Medellín durante un operativo de la Policía. Acababa de cumplir cuarenta y cuatro años.
 
-**[N073]** Para entonces, Rodríguez Gacha había muerto en un operativo policial, en mil novecientos ochenta y nueve. Los hermanos Ochoa se habían entregado. Y Lehder seguía preso en Estados Unidos.
+**[N073]** Para entonces, Rodríguez Gacha había muerto en un operativo policial, en mil novecientos ochenta y nueve. Y Lehder seguía preso en Estados Unidos.
 
 **[N074]** El Cártel de Medellín se desmorona. Pero la extradición sigue prohibida en la Constitución.
 
@@ -194,10 +194,12 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N075]** La Palabra. Bogotá, dieciséis de diciembre de mil novecientos noventa y siete. El Congreso aprueba el Acto Legislativo número uno. La extradición de colombianos vuelve a la Constitución.
 
-**[N076]** No es retroactiva. Desde entonces, Colombia ha extraditado a miles de personas. Según El Tiempo, solo entre dos mil diez y dos mil veinte fueron cerca de mil novecientas.
+**[N076]** No es retroactiva. Pero en mil novecientos noventa y nueve capturan a Fabio Ochoa, hermano de Martha Nieves, acusado de seguir traficando después de esa fecha. En septiembre de dos mil uno lo extraditan a Estados Unidos.
 
-**[N077]** Diana Turbay no alcanzó a verlo. Murió casi siete años antes, secuestrada, en la guerra contra un tratado firmado durante el gobierno de su padre.
+**[N077]** Desde entonces, Colombia ha extraditado a miles de personas. Según El Tiempo, solo entre dos mil diez y dos mil veinte fueron cerca de mil novecientas.
 
-**[N078]** Durante más de seis años, la Constitución prohibió la extradición. La violencia de esa guerra costó la vida a cientos de policías, jueces, periodistas y civiles. Y al final, la palabra volvió.
+**[N078]** Diana Turbay no alcanzó a verlo. Murió casi siete años antes, secuestrada, en la guerra contra un tratado firmado durante el gobierno de su padre.
 
-**[N079]** Y tú, ¿qué crees que aprendió Colombia de esta guerra? ¿Qué parte de esta historia no conocías? Déjalo en los comentarios.
+**[N079]** Durante más de seis años, la Constitución prohibió la extradición. La violencia de esa guerra costó la vida a cientos de policías, jueces, periodistas y civiles. Y al final, la palabra volvió.
+
+**[N080]** Y tú, ¿qué crees que aprendió Colombia de esta guerra? ¿Qué parte de esta historia no conocías? Déjalo en los comentarios.

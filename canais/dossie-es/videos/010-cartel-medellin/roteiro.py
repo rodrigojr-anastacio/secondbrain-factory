@@ -150,13 +150,14 @@ b("La Fuga. Envigado, julio de mil novecientos noventa y dos. Tras las denuncias
 b("En la noche del veintiuno al veintidós de julio, Escobar escapa con varios de sus hombres, aunque la cárcel está rodeada por el Ejército. Es un duro golpe para el Estado.")
 b("Empieza la persecución. La Policía refuerza su Bloque de Búsqueda. Y aparece otro grupo ilegal, Los Pepes, formado por antiguos socios y rivales de Escobar, que asesinan a sus allegados.")
 b("El dos de diciembre de mil novecientos noventa y tres, Escobar muere en Medellín durante un operativo de la Policía. Acababa de cumplir cuarenta y cuatro años.")
-b("Para entonces, Rodríguez Gacha había muerto en un operativo policial, en mil novecientos ochenta y nueve. Los hermanos Ochoa se habían entregado. Y Lehder seguía preso en Estados Unidos.")
+b("Para entonces, Rodríguez Gacha había muerto en un operativo policial, en mil novecientos ochenta y nueve. Y Lehder seguía preso en Estados Unidos.")
 b("El Cártel de Medellín se desmorona. Pero la extradición sigue prohibida en la Constitución.", ideia=True)
 
 # ───────────────────────── CIERRE ─────────────────────────
 cap("Cierre. La Palabra")
 b("La Palabra. Bogotá, dieciséis de diciembre de mil novecientos noventa y siete. El Congreso aprueba el Acto Legislativo número uno. La extradición de colombianos vuelve a la Constitución.", card="BOGOTÁ, 1997")
-b("No es retroactiva. Desde entonces, Colombia ha extraditado a miles de personas. Según El Tiempo, solo entre dos mil diez y dos mil veinte fueron cerca de mil novecientas.")
+b("No es retroactiva. Pero en mil novecientos noventa y nueve capturan a Fabio Ochoa, hermano de Martha Nieves, acusado de seguir traficando después de esa fecha. En septiembre de dos mil uno lo extraditan a Estados Unidos.")
+b("Desde entonces, Colombia ha extraditado a miles de personas. Según El Tiempo, solo entre dos mil diez y dos mil veinte fueron cerca de mil novecientas.")
 b("Diana Turbay no alcanzó a verlo. Murió casi siete años antes, secuestrada, en la guerra contra un tratado firmado durante el gobierno de su padre.")
 b("Durante más de seis años, la Constitución prohibió la extradición. La violencia de esa guerra costó la vida a cientos de policías, jueces, periodistas y civiles. Y al final, la palabra volvió.", ideia=True)
 b("Y tú, ¿qué crees que aprendió Colombia de esta guerra? ¿Qué parte de esta historia no conocías? Déjalo en los comentarios.")

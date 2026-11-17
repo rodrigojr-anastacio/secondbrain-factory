@@ -1,19 +1,19 @@
 # Similaridade do roteiro × referências · canais/dossie-es/videos/010-cartel-medellin
-Roteiro: `canais/dossie-es/videos/010-cartel-medellin/blocos.json` (79 blocos, es) · gerado por `tools/similaridade_roteiro.py` · tradução US$ 0.000
+Roteiro: `canais/dossie-es/videos/010-cartel-medellin/blocos.json` (80 blocos, es) · gerado por `tools/similaridade_roteiro.py` · tradução US$ 0.000
 
 ## Nota máxima: **11/100 → ok** (atenção ≥ 18, cópia ≥ 30)
 
 | Referência | idioma | nota | veredito | cobertura (gêmeos) | ordem | trigramas |
 |---|---|---|---|---|---|---|
-| `manada-V3qQHkXkFxA.txt` | en → es | 11 | ok | 11% (9/79) | 100% | 2.1% |
-| `manada-sNE78rmQyFc.txt` | en → es | 9 | ok | 10% (8/79) | 88% | 1.8% |
-| `manada-aUMcUbijZug.txt` | es | 7 | ok | 9% (7/79) | 57% | 1.0% |
-| `manada-G81v2L9CrSQ.txt` | es | 7 | ok | 9% (7/79) | 57% | 0.7% |
-| `manada-QpespHTBFm0.txt` | en → es | 3 | ok | 4% (3/79) | 100% | 0.3% |
-| `manada-3q99PU8ldWE.txt` | es | 1 | ok | 1% (1/79) | 0% | 0.6% |
-| `manada-lua5M2G94sY.txt` | pt → es | 0 | ok | 0% (0/79) | 0% | 0.0% |
+| `manada-V3qQHkXkFxA.txt` | en → es | 11 | ok | 11% (9/80) | 100% | 2.1% |
+| `manada-sNE78rmQyFc.txt` | en → es | 10 | ok | 11% (9/80) | 78% | 1.9% |
+| `manada-aUMcUbijZug.txt` | es | 7 | ok | 9% (7/80) | 57% | 0.9% |
+| `manada-G81v2L9CrSQ.txt` | es | 7 | ok | 9% (7/80) | 57% | 0.8% |
+| `manada-QpespHTBFm0.txt` | en → es | 3 | ok | 4% (3/80) | 100% | 0.4% |
+| `manada-3q99PU8ldWE.txt` | es | 1 | ok | 1% (1/80) | 0% | 0.6% |
+| `manada-lua5M2G94sY.txt` | pt → es | 0 | ok | 0% (0/80) | 0% | 0.1% |
 
-Blocos do nosso roteiro com gêmeo em 2+ referências (consenso da manada): 13, 18, 21, 24, 35, 36, 40, 63, 71 (9/79 = 11%).
+Blocos do nosso roteiro com gêmeo em 2+ referências (consenso da manada): 13, 18, 21, 24, 35, 36, 40, 63, 71 (9/80 = 11%).
 
 ## Trechos mais parecidos com `manada-V3qQHkXkFxA.txt`
 
@@ -48,10 +48,10 @@ Blocos do nosso roteiro com gêmeo em 2+ referências (consenso da manada): 13, 
   - ref: Lara Bonilla y el periódico El Espectador exponen su historial criminal y sus vínculos con el narcotráfico. En octubre de 1983, la Cámara le retira la inmunidad
 - **bloco 35** (cos 0.33): Tres días más tarde asesinan en Bogotá a Guillermo Cano, director de El Espectador, el diario que llevaba años denunciando al cártel.
   - ref: Espectador, ya había expuesto a Escobar una vez, y sigue informando sobre el narcotráfico. El 17 de diciembre de 1986, su director, Guillermo Cano,
+- **bloco 76** (cos 0.33): No es retroactiva. Pero en mil novecientos noventa y nueve capturan a Fabio Ochoa, hermano de Martha Nieves, acusado de seguir traficando después de esa fecha. En septiembre de dos mil uno lo extraditan a Estados Unidos.
+  - ref: noviembre de 1981, la guerrilla del M-19 secuestra a Martha Nieves Ochoa, hermana de los hermanos Ochoa. Traficantes y élites aliadas
 - **bloco 7** (cos 0.32): El Tratado. Washington, catorce de septiembre de mil novecientos setenta y nueve. Colombia y Estados Unidos firman un tratado de extradición.
   - ref: Colombia comenzará a extraditar a sus nacionales a Estados Unidos. Un tratado firmado en 1979 lo hace posible. Esta es la amenaza que el dinero no puede
-- **bloco 40** (cos 0.3): Ese mismo día, en Soacha, asesinan a Luis Carlos Galán, el candidato favorito a la presidencia. Cinco días después, los Extraditables declaran la guerra total al Estado.
-  - ref: mitin. El 18 de agosto de 1989, Luis Carlos Galán es asesinado en un mitin en Soacha. Tribunales colombianos atribuyen después la orden
 
 ## Como ler
 - **cobertura** = % dos nossos blocos com um gêmeo (mesmo conteúdo) na referência; **ordem** = dos gêmeos, quantos vêm na mesma sequência da referência; **trigramas** = sequências de 3 radicais iguais (texto colado).
