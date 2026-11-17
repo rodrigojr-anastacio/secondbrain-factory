@@ -1,0 +1,231 @@
+{
+ "pasta": "canais/historia-ptbr/videos/012-portugal",
+ "roteiro": "canais/historia-ptbr/videos/012-portugal/blocos.json",
+ "idioma": "pt",
+ "blocos": 63,
+ "nota": 1.0,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0152,
+ "blocos_consenso_manada": [
+  22
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.015873015873015872,
+   "ordem": 0.0,
+   "ngramas": 0.001851851851851852,
+   "sim_media": 0.1566594959236636,
+   "gemeos": 1,
+   "blocos": 63,
+   "posicoes": [
+    [
+     22,
+     37
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 22,
+     "cos": 0.35,
+     "nosso": "Outubro de mil trezentos e oitenta e três. Morre o rei Fernando. A única filha, Dona Beatriz, é casada com o rei de Castela. E o problema é o contrato: Portugal vai junto, de herança.",
+     "ref": "ajudou a fornecer. E Beatriz, a filha única de Fernando, prometida em casamento a um inglês, acabou casada com o rei de Castela. Foi esse casamento que abriu a crise de 1383. Fernando"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-vk5QX98PpcI.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 4823,
+   "nota": 1.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.015873015873015872,
+   "ordem": 0.0,
+   "ngramas": 0.000925925925925926,
+   "sim_media": 0.11837383102688591,
+   "gemeos": 1,
+   "blocos": 63,
+   "posicoes": [
+    [
+     8,
+     33
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 8,
+     "cos": 0.34,
+     "nosso": "A mãe, Dona Teresa, governa o condado de Portugal, um pedaço do reino de Leão, aliada a nobres da Galiza. O filho vence. Pois é: o primeiro inimigo de Portugal foi a própria mãe.",
+     "ref": "Galiza foram os primeiros. E o Reino de Leão tinha um condado, o Condado Portucalense, que foi entregue a Henrique de Borgonha como dote de casamento da filha do Rei, Teresa de Leão. Enquanto"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-e7SNcCr5hxc.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1399,
+   "nota": 0.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.015873015873015872,
+   "ordem": 0.0,
+   "ngramas": 0.000925925925925926,
+   "sim_media": 0.1379643501358718,
+   "gemeos": 1,
+   "blocos": 63,
+   "posicoes": [
+    [
+     22,
+     84
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 22,
+     "cos": 0.33,
+     "nosso": "Outubro de mil trezentos e oitenta e três. Morre o rei Fernando. A única filha, Dona Beatriz, é casada com o rei de Castela. E o problema é o contrato: Portugal vai junto, de herança.",
+     "ref": "anos do fernando o rei de portugal lutou algumas lutas contra o reino de castela e perdeu no tratado de paz a sua filha beatriz se casaria com joão de castela esse dom"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-fu_uNS0DBwI.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1928,
+   "nota": 0.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.002777777777777778,
+   "sim_media": 0.12561284034674944,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-9P7szJRlbxk.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3917,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.000925925925925926,
+   "sim_media": 0.12634399644398825,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-5-oUFG4LZXw.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 2797,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.000925925925925926,
+   "sim_media": 0.11504183905016613,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-FpAy6slfF6k.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1615,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.001851851851851852,
+   "sim_media": 0.1219479197871426,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-GqtCY3_Xoa0.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1878,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.12345747257741636,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-TyPXV9StXaU.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2092,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.11418808759512135,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-WhVFf5-qi1k.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2408,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.11349848864205066,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-WwR5FCvnLww.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1110,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.10102485205292466,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-qWPL11MOzOg.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1405,
+   "nota": 0.0,
+   "veredito": "ok"
+  }
+ ]
+}

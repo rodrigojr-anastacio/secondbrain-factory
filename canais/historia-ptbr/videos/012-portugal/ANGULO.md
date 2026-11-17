@@ -40,7 +40,7 @@ Manada levantada com `tools/manada.py buscar ref --idioma pt,en` (5 termos: "his
 | Hook: os marcos de fronteira numerados e o troço Caia–Cuncos sem marcos (~802–899), Olivença com calçada portuguesa e governo espanhol; Portugal nunca reconheceu formalmente | Convenção de Limites 1926; Fernández de Casadevante (1999); Observador; DN | não (Olivença: 1 frase de passagem no Total History) |
 | O Minho divide a mesma língua: galego e português nascem do galego-português e se separam aos poucos depois da linha | Cunha e Cintra; Instituto da Lingua Galega (USC) | não |
 | Faro 1249: a linha bate no mar — "acabou o espaço" | Britannica; Infopedia | Faro não; "1249" de passagem no H1 |
-| Alcanizes 12/09/1297: Dinis assina com Fernando IV, de 12 anos, sob a regência de María de Molina; Portugal ganha Riba-Côa | Infopedia; Britannica | não (Alcanizes: 1 frase no H1, sem a cena) |
+| Alcanizes 12/09/1297: Dinis assina com Fernando IV, de 11 anos, sob a regência de María de Molina; Portugal ganha Riba-Côa | Infopedia; Britannica | não (Alcanizes: 1 frase no H1, sem a cena) |
 | "Matam o Mestre!": Álvaro Pais a cavalo por Lisboa, dez. 1383 | Fernão Lopes, *Crónica de D. João I*, cap. XI | não |
 | Tordesilhas: de 100 para 370 léguas; o Brasil fala português por isso | *Inter Caetera* (1493); Marinha.pt | **sim** (Impérios AD p2 cita as 370 léguas) → conta como manada |
 | Calecute 1498: "Quem te trouxe cá?" / "cristãos e especiaria" | *Roteiro* (ed. 1861; Ravenstein 1898) | não |
@@ -60,7 +60,7 @@ Previsão: ~16 cenas principais, 14 fora da manada (≈ 87%); fatos obrigatório
 Hook: os marcos que faltam em Olivença → pergunta central → "essa é a história inteira de Portugal" → guarde os cem marcos.
 1. **Uma linha no rio** (1128–1143): o Condado, a briga com a mãe (de passagem) e o Minho que divide a mesma língua (sem celtas, Viriato, Roma, mouros).
 2. **A linha desce até o mar** (1147–1249): Lisboa (1 frase) e Faro: acabou o espaço.
-3. **Um tratado com um menino** (1297): Alcanizes, Fernando IV com 12 anos. 1ª peça da resposta.
+3. **Um tratado com um menino** (1297): Alcanizes, Fernando IV com 11 anos. 1ª peça da resposta.
 4. **O grito em Lisboa** (1383–1385): Álvaro Pais; Aljubarrota e Windsor em 1 frase. 2ª peça.
 5. **A linha vai para a água** (1415–1498): Ceuta e Bojador de passagem; Tordesilhas como briga de fronteira no oceano; Calecute. 3ª peça.
 6. **A coroa atravessa, a linha fica** (1578–1640): Sebastião (1 frase), Tomar, a alfândega que some e volta, Recife holandês. A pergunta fica mais difícil.
