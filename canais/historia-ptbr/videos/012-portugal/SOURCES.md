@@ -10,7 +10,7 @@ Regra (bíblia `roteiro.md`, "Conteúdo (nosso)"): todo fato com fonte própria;
 | N003–N004 | Olivença: calçada e igreja portuguesas, governo espanhol desde 1801; Portugal nunca reconheceu formalmente | Observador, "Olivença, 225 anos depois", https://observador.pt/opiniao/olivenca-225-anos-depois/ ; DN, https://www.dn.pt/internacional/madrid-defende-olivenca-espanhola-e-promocao-da-sua-singularidade | formulação "nunca reconheceu formalmente" (Portugal deixou de reivindicar ativamente) |
 | N004 | a linha é quase a mesma desde 1297 | Infopedia, "Tratado de Alcanises", https://www.infopedia.pt/artigos/$tratado-de-alcanises ; Britannica, "Portugal: History" | "das mais antigas e estáveis da Europa" não é dito como superlativo absoluto |
 | N005, N061 | Portugal ≈ 92,2 mil km² < Pernambuco ≈ 98,1 mil km² | INE/DGT (Portugal 92.212 km² com ilhas); IBGE, área territorial de Pernambuco (98.067,9 km²) | Espanha ≈ 506 mil km² (≈ 5,5×; mapa de escala da Thumb C) |
-| N007–N008 | São Mamede, 24/06/1128, perto de Guimarães: Afonso Henriques (< 20 anos) contra as tropas de D. Teresa, aliada a nobres galegos | Britannica, "Afonso I (Portugal)"; https://en.wikipedia.org/wiki/Battle_of_S%C3%A3o_Mamede (pista) | Afonso nasceu c. 1106–1111: "menos de vinte anos" |
+| N007–N008 | Valença e Tui frente a frente no Minho (cena); São Mamede, 24/06/1128 (de passagem): Afonso Henriques (< 20 anos) vence as tropas de D. Teresa | Britannica, "Afonso I (Portugal)"; https://en.wikipedia.org/wiki/Battle_of_S%C3%A3o_Mamede (pista) | Afonso nasceu c. 1106–1111: "menos de vinte anos" |
 | N009 | 1143: Afonso VII de Leão (primo) aceita o título de rei (conferência de Zamora, 4–5/10/1143) | Mattoso, J., *D. Afonso Henriques* (2006); Infopedia | "aceita" (conferência, não tratado formal) |
 | N010 | galego e português nascem do galego-português; a separação é gradual (séc. XIII–XIV) | Cunha e Cintra, *Nova Gramática do Português Contemporâneo*; Instituto da Lingua Galega (USC), https://ilg.usc.gal/sites/default/files/publicacoes_investigadores/rosario_alvarez_fronteira_galego_portugues.pdf | "aos poucos, em séculos" |
 | N012–N013 | 1147: cruzados ingleses, flamengos e alemães param no Porto; sermão do bispo Pedro Pitões; acordo com direito ao saque; Lisboa cercada desde 28/06 e rendida em 25/10/1147 | *De expugnatione Lyxbonensi* (carta atribuída ao cruzado Raol), Fordham Medieval Sourcebook, https://www.fordham.edu/halsall/source/cap-lisbon.asp ; History Today, https://www.historytoday.com/archive/months-past/conquest-lisbon | "quatro meses de cerco" |
@@ -26,9 +26,9 @@ Regra (bíblia `roteiro.md`, "Conteúdo (nosso)"): todo fato com fonte própria;
 | N030–N031 | Tordesilhas, 7/06/1494: 370 léguas a oeste de Cabo Verde (diferença de 270); o Brasil fica do lado português | idem; Britannica, "Treaty of Tordesillas" | — |
 | N032–N033 | Calecute, maio de 1498: dois mouros de Túnis que falavam castelhano e genovês perguntam ao degredado "Al diabo que te dou! Quem te trouxe cá?"; resposta: "Vimos buscar cristãos e especiaria" | *Roteiro da primeira viagem de Vasco da Gama* (atrib. Álvaro Velho), ed. Herculano e Castello de Paiva (1861), https://digital.bbm.usp.br/bitstream/bbm/4244/1/016268_COMPLETO.pdf ; trad. Ravenstein (Hakluyt, 1898), Gutenberg 46440 | falas modernizadas e introduzidas por "segundo o diário da viagem" |
 | N033 | população de Portugal c. 1500 ≈ 1–1,25 milhão | Britannica, "Portugal: The age of discovery"; estimativas demográficas (Rodrigues, T., *História da População Portuguesa*, 2008) | "cerca de um milhão" |
-| N034 | Alcácer-Quibir, 4/08/1578: D. Sebastião (nasc. 20/01/1554, 24 anos) desaparece; sebastianismo ("manhã de nevoeiro") | Britannica, "Sebastian (Portugal)", "Sebastianism" | — |
-| N035 | 1580: Filipe II (tio materno) herda/toma a coroa | Britannica, "Philip II (Spain)" | — |
-| N036 | Cortes de Tomar, 1581: Portugal reino à parte, leis, moeda e cargos portugueses | Infopedia, "D. Filipe II (I de Portugal)", https://www.infopedia.pt/apoio/artigos/$d.-filipe-ii-(i-de-portugal) ; UC, "O juramento de Tomar", https://dl.uc.pt/bitstream/10316.2/46220/1/o_juramento_de_tomar.pdf | — |
+| N035 | Alcácer-Quibir, 4/08/1578: D. Sebastião (nasc. 20/01/1554, 24 anos) desaparece; dito de passagem | Britannica, "Sebastian (Portugal)", "Sebastianism" | — |
+| N034–N035 | 1580–81: Filipe II (tio materno) herda/toma a coroa | Britannica, "Philip II (Spain)" | — |
+| N034, N036 | Cortes de Tomar, abril de 1581, no Convento de Cristo: Portugal reino à parte, leis, moeda e cargos portugueses; alfândega da raia abolida (1582) e restaurada (1591) | Infopedia, "D. Filipe II (I de Portugal)", https://www.infopedia.pt/apoio/artigos/$d.-filipe-ii-(i-de-portugal) ; UC, "O juramento de Tomar", https://dl.uc.pt/bitstream/10316.2/46220/1/o_juramento_de_tomar.pdf | — |
 | N037 | holandeses em Salvador (1624–25) e Pernambuco/Recife (1630–1654), por causa da guerra entre a Espanha e as Províncias Unidas | Britannica, "Dutch Brazil" | fato obrigatório, ponte |
 | N039 | 1/12/1640, D. João IV; guerra até o Tratado de Lisboa (13/02/1668) | Britannica, "John IV (Portugal)"; Infopedia, "Restauração" | — |
 | N040–N041 | Elvas cercada desde 22/10/1658; Batalha das Linhas de Elvas, 14/01/1659 | Decreto 3/2013, https://diariodarepublica.pt/dr/detalhe/decreto/3-2013-260659 ; https://en.wikipedia.org/wiki/Battle_of_the_Lines_of_Elvas (pista) | "fome e peste" durante o cerco (Decreto 3/2013; crônicas do cerco) |
@@ -49,20 +49,20 @@ Regra (bíblia `roteiro.md`, "Conteúdo (nosso)"): todo fato com fonte própria;
 | N062 | 2026: o troço Caia–Cuncos continua sem marcos | idem N002 | frase neutra no presente |
 
 ## Cenas principais e a manada (cota da bíblia: ≥ 40% fora das transcrições)
-Cenas principais = hook, abertura de cada capítulo e falas. Conferido com busca nas 11 transcrições de `ref/` (17/11/2026).
+Cenas principais = hook, abertura de cada capítulo e falas. Conferido com busca nas 11 transcrições de `ref/` (17/11/2026). Recontagem depois do crivo de ângulo r1 (São Mamede e Sebastião viraram 1 frase de passagem; Tomar conta como manada porque `vk5QX98PpcI` e o H1 citam as Cortes; o dado "menor que Pernambuco" saiu da contagem por não ser cena).
 | # | cena principal | bloco | aparece em alguma transcrição? |
 |---|---|---|---|
 | 1 | Hook: os marcos numerados que pulam ~cem números diante de Olivença | N001–N004 | **não** (Olivença: 2 linhas de passagem no Total History, sem os marcos) |
-| 2 | Mapa de escala: menor que Pernambuco | N005 | **não** |
-| 3 | São Mamede: o primeiro inimigo foi a mãe | N007–N008 | sim (Impérios AD p1, DGP: Afonso × D. Teresa) |
-| 4 | O Minho divide a mesma língua | N010 | **não** |
-| 5 | O bispo do Porto convence os cruzados (1147) | N012–N013 | sim, em parte (Impérios AD p1 cita cruzados em Lisboa; sem o sermão) |
-| 6 | Faro: a linha bate no mar | N014–N015 | **não** (H1 cita 1249 em 1 frase) |
-| 7 | Alcanizes: o tratado com um menino de 11 anos e Maria de Molina | N017–N019 | **não** (H1: Alcanizes em 1 frase, sem a cena) |
-| 8 | Álvaro Pais grita "matam o Mestre"; a arraia-miúda de Fernão Lopes | N023–N025 | **não** |
-| 9 | Tordesilhas: de 100 para 370 léguas; o vídeo em português | N029–N031 | sim (Impérios AD p2 cita as 370 léguas) |
-| 10 | Calecute: "quem te trouxe cá?" / "cristãos e especiaria" | N032–N033 | **não** |
-| 11 | Cortes de Tomar: a coroa atravessa, a linha fica | N036 | **não** |
+| 2 | Valença e Tui: dois pescadores, um em cada margem do Minho (abertura do cap. 1) | N007 | **não** |
+| 3 | O Minho divide a mesma língua | N010 | **não** |
+| 4 | O bispo do Porto convence os cruzados (1147) | N012–N013 | sim, em parte (Impérios AD p1 cita cruzados em Lisboa; sem o sermão) |
+| 5 | Faro: a linha bate no mar | N014–N015 | **não** (H1 cita 1249 em 1 frase) |
+| 6 | Alcanizes: o tratado com um menino de 11 anos e Maria de Molina | N017–N019 | **não** (H1: Alcanizes em 1 frase, sem a cena) |
+| 7 | Álvaro Pais grita "matam o Mestre"; a arraia-miúda de Fernão Lopes | N023–N025 | **não** |
+| 8 | Tordesilhas: de 100 para 370 léguas; o vídeo em português | N029–N031 | sim (Impérios AD p2 cita as 370 léguas) |
+| 9 | Calecute: "quem te trouxe cá?" / "cristãos e especiaria" | N032–N033 | **não** |
+| 10 | Tomar, 1581: o rei de preto jura no convento (abertura do cap. 6) | N034 | sim (Cortes de Tomar citadas em `vk5QX98PpcI` e no H1) |
+| 11 | A alfândega da raia abolida (1582) e de volta (1591) | N036 | **não** |
 | 12 | Recife holandês por causa da União Ibérica | N037 | sim (holandeses no Brasil: Impérios AD p2, Merrick, OSP) |
 | 13 | Elvas cercada e as Linhas de Elvas | N040–N042 | **não** |
 | 14 | Godoy e as laranjas; Olivença cedida; Viena 1815 | N045–N047 | **não** (Total History: "Guerra das Laranjas… Olivença" em 2 linhas, sem a cena) |
@@ -71,4 +71,6 @@ Cenas principais = hook, abertura de cada capítulo e falas. Conferido com busca
 | 17 | "A salto" com a fotografia rasgada | N053–N054 | **não** |
 | 18 | Jerónimos 1985: os dois assinam no mesmo dia | N057 | **não** (This Is History e Merrick citam a CEE de passagem; sem a cena) |
 | 19 | 26/03/1995: as cancelas sobem; o relógio na ponte | N058–N059 | **não** |
-**Resultado: 15 de 19 cenas principais fora da manada = 79% (meta ≥ 40%).** Fatos obrigatórios da manada (Aljubarrota, Ceuta, Gama, Sebastião, 1640, 1807, Salazar, 25 de Abril) entram de passagem, com palavras nossas e na nossa ordem.
+**Resultado: 15 de 19 cenas principais fora da manada = 79% (meta ≥ 40%).** De passagem, com palavras nossas: São Mamede (N008), Aljubarrota (N026), Ceuta (N028), Sebastião (N035), 1640 (N038), 1807 e 1822 (N049), Ultimato/Salazar (N050), 25 de Abril (N056).
+
+Fonte da alfândega (N036): Chronica Mundi/UCM, https://revistas.ucm.es/index.php/CHMO/article/download/81703/4564456561986/4564456657713 (supressão das alfândegas da fronteira terrestre como condição de Tomar, isenção concedida no ano seguinte, impostos restaurados em 1591); dito no roteiro com "segundo historiadores".

@@ -102,7 +102,7 @@ POVO74 = "a joyful round-white-head cartoon crowd of Lisbon in 1974 holding red 
 
 # ───────────────────────── HOOK (os marcos que faltam) ─────────────────────────
 cap("Hook")
-b("[serious] Fronteira entre Portugal e Espanha. São mil e duzentos quilômetros de fronteira, marcados com pedras numeradas. Imagine você seguindo os números, um por um, pela beira de um rio.",
+b("[serious] Portugal e Espanha. São mil e duzentos quilômetros de fronteira, marcados com pedras numeradas. Imagine você seguindo os números, um por um, pela beira de um rio.",
   "markers_row|A long row of low identical light-grey granite border marker stones with square bases and low pyramid tops, running along a quiet riverbank across the countryside, morning light" + IBER + SEMTXT + SEMBAND,
   "border_aerial|A wide aerial view of the countryside where Portugal meets Spain: rolling hills, cork oaks, a winding river, and a thin line of small white stones running along it to the horizon" + IBER + SEMTXT,
   "marker_close|Close view of one light-grey granite border marker stone with a square base and a pyramid top in dry grass, plain smooth faces" + IBER + SEMTXT,
@@ -140,32 +140,34 @@ b("Essa é a história inteira de Portugal. Guarde esses marcos que faltam: eles
 
 # ───────────────────────── 1. UMA LINHA NO RIO ─────────────────────────
 cap("1. Uma linha no rio")
-b("§ Junho de mil cento e vinte e oito, perto de Guimarães. Dois exércitos se encaram num campo. De um lado, um rapaz de menos de vinte anos, Afonso Henriques. Do outro, as tropas da mãe dele.",
-  "sao_mamede_field|Two small medieval armies of round-white-head cartoon knights facing each other across a green field near a castle in northern Portugal, summer of 1128" + MED + IBER + SEMBAND + GUERRA,
+b("§ Valença, na margem do rio Minho. Do outro lado da água, a um grito de distância, fica Tui, na Galiza. Imagine dois pescadores do século doze, um em cada margem: mesma língua, mesmo peixe, mesma reza.",
+  "valenca_tui|Two small medieval walled towns facing each other across the wide green Minho river, each on its own hill with a stone church, 12th century, misty morning" + MED + IBER + SEMTXT + SEMBAND,
+  "fishermen_banks|Two round-white-head cartoon medieval fishermen in small wooden boats on a green river, one near each bank, waving and talking to each other" + MED + IBER + SEMTXT,
+  "fish_same|Close view of two baskets of the same silver river fish on two wooden piers facing each other across water" + MED + IBER + SEMTXT,
+  "two_chapels|Two small Romanesque stone chapels on opposite banks of a river, bells ringing at the same time, birds flying" + MED + IBER + SEMTXT + SEMBAND,
+  "minho_villages|Two small stone villages facing each other across the Minho river, vineyards on the slopes, church bells" + MED + IBER + SEMTXT + SEMBAND,
+  "market_two_banks|A medieval riverside market with round-white-head cartoon peasants trading fish and bread from boats between the two banks" + MED + IBER + SEMTXT)
+b("Até que, em mil cento e vinte e oito, um rapaz de menos de vinte anos, Afonso Henriques, vence as tropas da própria mãe e fica com o condado de Portugal, um pedaço do reino de Leão. Pois é: o primeiro inimigo de Portugal era da família.",
   f"afonso_horse|{AFONSO}, on a horse at the front of his small army, determined" + MED + IBER + SEMBAND + "@@AFONSO HENRIQUES",
-  "guimaraes_1128|Close view of a medieval stone keep of a small castle on a rocky hill with a group of horsemen riding out of the gate, 1128" + MED + IBER + SEMTXT + SEMBAND,
-  f"teresa_tent|{TERESA}, standing in front of her tent with Galician noblemen, arms crossed" + MED + SEMBAND + "@@D. TERESA",
-  "banners_wind|Plain colored cloth pennants without any symbols fluttering on lances above a small medieval army in a green field" + MED + IBER + SEMTXT,
-  "armies_close|Close view of round-white-head cartoon medieval soldiers with spears and round shields without symbols, waiting nervously" + MED + SEMBAND + GUERRA,
-  card="1128")
-b("A mãe, Dona Teresa, governa o condado de Portugal, um pedaço do reino de Leão, aliada a nobres da Galiza. O filho vence. [break] Pois é: o primeiro inimigo de Portugal foi a própria mãe.",
   "map_condado|Map of the northwest of the Iberian Peninsula in the 12th century with a small county between the Minho and the Douro rivers painted in soft green and a larger kingdom around it in pale ochre, " + MAPA,
+  "sao_mamede_field|Two small medieval armies of round-white-head cartoon knights facing each other across a green field near a castle in northern Portugal, summer of 1128" + MED + IBER + SEMBAND + GUERRA,
+  f"teresa_tent|{TERESA}, standing in front of her tent with Galician noblemen, arms crossed" + MED + SEMBAND + "@@D. TERESA",
+  "guimaraes_1128|Close view of a medieval stone keep of a small castle on a rocky hill with a group of horsemen riding out of the gate, 1128" + MED + IBER + SEMTXT + SEMBAND,
   "leon_court|The court of the medieval kingdom of León in 1128, a stone throne room with round-white-head cartoon nobles, seen from far away" + MED + SEMTXT + SEMBAND,
-  f"teresa_galicians|{TERESA}, at a table with round-white-head cartoon Galician noblemen in fur cloaks, plotting" + MED + SEMTXT + SEMBAND,
   f"afonso_wins|{AFONSO}, raising his sword after a battle on a green field, his soldiers cheering" + MED + IBER + SEMBAND + GUERRA,
-  "teresa_leaves|A small medieval procession of a noblewoman on horseback leaving a castle under grey skies, servants carrying chests" + MED + IBER + SEMTXT + SEMBAND,
-  f"mother_son_comic|Symbolic comic scene: {TERESA} leaving on horseback with her nose in the air while {AFONSO} waves goodbye awkwardly" + MED + IBER + SEMBAND)
-b("Então, nos anos seguintes, Afonso passa a se chamar rei. Em mil cento e quarenta e três, o primo dele, rei de Leão, aceita. Agora repare no mapa: ao norte, a linha é o rio Minho.",
+  f"mother_son_comic|Symbolic comic scene: {TERESA} leaving on horseback with her nose in the air while {AFONSO} waves goodbye awkwardly" + MED + IBER + SEMBAND,
+  card="1128")
+b("Então Afonso passa a se chamar rei. Em mil cento e quarenta e três, em Zamora, o primo dele, rei de Leão, aceita. Agora repare no mapa: ao norte, a linha é exatamente aquele rio entre os dois pescadores.",
   f"afonso_king|{AFONSO}, a few years older, now wearing a simple gold crown, sitting on a wooden throne" + MED + SEMBAND,
   "afonso_letter|Close view of a medieval royal letter with a heavy wax seal on a wooden table, a crown beside it" + MED + SEMTXT,
+  "zamora_town|A medieval walled Castilian town on a rocky hill above a wide river with a Romanesque cathedral dome, 1143" + MED + IBER + SEMTXT + SEMBAND,
   "zamora_meeting|Two round-white-head cartoon medieval kings, cousins, shaking hands inside a stone hall in 1143, monks and knights around" + MED + SEMTXT + SEMBAND,
+  "teresa_leaves|A small medieval procession of a noblewoman on horseback leaving a castle under grey skies, servants carrying chests" + MED + IBER + SEMTXT + SEMBAND,
   "map_minho|Map of the northwest of the Iberian Peninsula with the Minho river highlighted as a bright blue line between two lands, " + MAPA,
-  "minho_villages|Two small stone villages facing each other across the Minho river, vineyards on the slopes, church bells" + MED + IBER + SEMTXT + SEMBAND,
   "minho_boats|Small wooden boats crossing the Minho river between two stone villages in the 12th century, fishermen waving to each other" + MED + IBER + SEMTXT,
   card="1143")
 b("Dos dois lados do Minho se fala a mesma língua, o galego-português. A linha vai separando essa língua aos poucos, em séculos. Se você já ouviu um galego falar, sabe: dá para entender quase tudo.",
   "two_villagers|Two round-white-head cartoon medieval peasants on opposite banks of a narrow river chatting happily across the water" + MED + IBER + SEMTXT,
-  "market_two_banks|A medieval riverside market with round-white-head cartoon peasants trading fish and bread from boats between the two banks" + MED + IBER + SEMTXT,
   "manuscript_songs|Close view of an illuminated medieval songbook page with a drawing of a troubadour with a lute, the text area only as illegible decorative marks" + SEMTXT,
   f"guide_galician|{GUIA} talking with a round-white-head cartoon modern Galician fisherman on a pier, both laughing, understanding each other, comic" + IBER + SEMTXT,
   "galician_today|A modern Galician fishing village with granite houses, small colorful boats and a green river mouth, sunny" + IBER + SEMTXT + SEMBAND,
@@ -179,9 +181,10 @@ b("Só que uma linha no norte não basta. Ao sul, não existe linha nenhuma. Lá
 
 # ───────────────────────── 2. A LINHA DESCE ATÉ O MAR ─────────────────────────
 cap("2. A linha desce até o mar")
-b("§ Mil cento e quarenta e sete. Uma frota de cruzados ingleses, flamengos e alemães, a caminho de Jerusalém, para no Porto para se abastecer. O bispo da cidade sobe num púlpito improvisado e faz um pedido.",
+b("§ Porto, verão de mil cento e quarenta e sete. Uma frota de cruzados ingleses, flamengos e alemães, a caminho de Jerusalém, para na cidade para se abastecer. O bispo da cidade sobe num púlpito improvisado e faz um pedido.",
   "crusader_fleet|A big medieval fleet of round wooden cog ships with white sails arriving at the mouth of the Douro river at Porto in 1147, a small stone town on the hill" + MED + IBER + SEMBAND + SEMTXT,
   "porto_1147|The small medieval town of Porto in 1147 on a steep hill above the Douro river, a stone cathedral on top, ships below" + MED + IBER + SEMTXT + SEMBAND,
+  "porto_quay|A busy medieval quay on the Douro river at Porto with crusader ships tied up and round-white-head cartoon townspeople selling bread and wine to sailors" + MED + IBER + SEMTXT + SEMBAND,
   "bishop_sermon|A round-white-head cartoon medieval bishop with a mitre speaking from a simple wooden platform to a crowd of round-white-head cartoon crusaders on a riverbank" + MED + SEMTXT + SEMBAND,
   "crusader_knights|Round-white-head cartoon English and Flemish crusaders of 1147 in chainmail stepping off their ships onto a stone quay, curious" + MED + SEMBAND,
   "crusaders_listen|Round-white-head cartoon crusaders of 1147 in chainmail and plain cloaks listening with arms crossed, skeptical, comic" + MED + SEMBAND,
@@ -203,7 +206,7 @@ b("E olhe o que acontece: a linha bate no mar. Ao sul, água. A oeste, água. Po
   "map_portugal_1249|Map of the Iberian Peninsula in 1249 with Portugal complete in green along the Atlantic coast, from the Minho to the Algarve, and the rest in pale ochre, " + MAPA,
   f"guide_coast|{GUIA} standing at the edge of a cliff above the ocean, looking down at the water, then shrugging, comic" + IBER + SEMTXT,
   "knight_beach|A round-white-head cartoon medieval knight standing on a beach with the waves at his feet, looking at the endless ocean, puzzled, comic" + MED + IBER + SEMBAND)
-b("O problema é o leste. Do outro lado está Castela, também crescendo, quatro, cinco vezes maior. E Castela não tem pressa nenhuma de dizer onde termina Portugal.",
+b("O problema é o leste. Do outro lado está Castela, quatro, cinco vezes maior. E Castela não tem pressa nenhuma de dizer onde termina Portugal.",
   "map_castile_big|Map of the Iberian Peninsula in the late 13th century with a narrow green kingdom in the west and a huge kingdom painted in deep red covering most of the center, " + MAPA,
   f"castile_army|{CASTELA}, a big army camped on a dry plain under a hot sky, tents and horses" + MED + IBER + SEMBAND,
   "border_castles|Two medieval stone castles on two hills facing each other across a valley, one smaller than the other" + MED + IBER + SEMTXT + SEMBAND,
@@ -228,7 +231,7 @@ b("Então Dinis aproveita: leva as terras de Riba-Côa e fecha o desenho da linh
   "ribacoa_land|Granite hills and small fortified villages above a deep river valley in the Côa region, dry grass and almond trees" + MED + IBER + SEMTXT + SEMBAND,
   "map_line_today|Map of the Iberian Peninsula with the modern Portugal–Spain land border drawn as a thin golden line, almost the same shape as an older faded line beneath it, " + MAPA,
   "markers_row#detalhe-centro")
-b("Essa é a primeira peça da resposta: Portugal não esperou ficar forte. Desenhou a fronteira cedo, quando o vizinho estava fraco. E linha assinada é linha que dá para cobrar.",
+b("Essa é a primeira peça da resposta: Portugal pôs a linha no papel quando teve a chance, com data, selo e testemunha. E linha assinada é linha que dá para cobrar de qualquer rei que vier depois.",
   f"dinis_parchment|{DINIS}, holding up a sealed parchment with satisfaction" + MED + SEMTXT + SEMBAND,
   "parchment_seals#detalhe-alto",
   "puzzle_piece|Symbolic scene: a big golden puzzle piece being placed into an old parchment map, only one piece filled" + SEMTXT,
@@ -240,13 +243,13 @@ b("Só que um papel segura terra. Não segura coroa. E os reis de Portugal e de 
 
 # ───────────────────────── 4. O GRITO EM LISBOA ─────────────────────────
 cap("4. O grito em Lisboa")
-b("§ Outubro de mil trezentos e oitenta e três. Morre o rei Fernando. A única filha, Dona Beatriz, é casada com o rei de Castela. E o problema é o contrato: Portugal vai junto, de herança.",
+b("§ Lisboa, outubro de mil trezentos e oitenta e três. No paço, morre o rei Fernando. A única filha, Dona Beatriz, é casada com o rei de Castela. E o problema é o contrato: Portugal vai junto, de herança.",
   "funeral_1383|A quiet medieval Portuguese royal chamber in 1383 with an empty bed, candles and a simple gold crown on a cushion, mourning nobles at the door" + MED + SEMTXT + SEMBAND,
   "beatriz_juan|A round-white-head cartoon young princess Beatriz and an older round-white-head cartoon King of Castile sitting together on thrones, a red-cloaked court around" + MED + SEMBAND,
   "crown_cart|Symbolic comic scene: a gold crown being loaded onto a cart that is about to leave toward the east" + MED + IBER + SEMTXT,
   "map_inherit|Map of the Iberian Peninsula where the red color of Castile is spreading over the narrow green kingdom in the west like spilled ink, " + MAPA,
   card="1383")
-b("Castela não precisa atravessar a linha, porque basta esperar. [break] Em dezembro, em Lisboa, o Mestre de Avis, meio-irmão do rei morto, entra no paço e mata ali mesmo o conde Andeiro, o homem forte da corte.",
+b("Castela não precisa atravessar a linha, porque basta esperar. [break] Em dezembro, em Lisboa, o Mestre de Avis entra no paço e mata ali mesmo o conde Andeiro, o homem forte da corte.",
   f"castile_waits|{CASTELA}, sitting relaxed by the border river, playing dice and waiting, comic" + MED + IBER + SEMBAND,
   f"mestre|{MESTRE}, walking fast through a dark stone corridor of a palace in Lisbon, determined" + MED + SEMBAND + "@@MESTRE DE AVIS",
   "palace_door|A heavy wooden palace door in medieval Lisbon slightly open, torchlight inside, a shadow on the floor, tense" + MED + SEMTXT + GUERRA,
@@ -261,7 +264,7 @@ b("Se você já viu um boato no grupo da família tirar todo mundo do sofá, ent
   f"fernao|{FERNAO}" + MED + SEMTXT + "@@FERNÃO LOPES",
   f"arraia|{POVO14}, a crowd of fishwives, carpenters and porters filling a square, cheering" + MED + SEMTXT + SEMBAND,
   "chronicle_book|Close view of a big medieval chronicle book open on a desk with a candle, a small drawing of a crowd on the page, the text only as illegible marks" + SEMTXT)
-b("Foi ela que escolheu o rei, antes dos nobres. Dois anos depois, em Aljubarrota, com uns arqueiros ingleses ajudando, Castela perde a batalha e a vontade.",
+b("Foi ela que escolheu o rei. Dois anos depois, em Aljubarrota, com uns arqueiros ingleses ajudando, Castela perde a batalha e a vontade.",
   f"mestre_crowd|{MESTRE}, lifted on the shoulders of a cheering crowd of medieval townspeople" + MED + SEMBAND,
   "aljubarrota|The battle of Aljubarrota in 1385 seen from far away on a hilltop: a small army in a tight square with archers on the sides facing a much bigger army of knights, dust" + MED + IBER + SEMBAND + GUERRA,
   "archers|Round-white-head cartoon English longbow archers of 1385 in simple tunics, drawing their bows behind wooden stakes" + MED + SEMBAND + GUERRA,
@@ -275,7 +278,7 @@ b("Segunda peça da resposta: quando Castela veio pela coroa, quem segurou a lin
 
 # ───────────────────────── 5. A LINHA VAI PARA A ÁGUA ─────────────────────────
 cap("5. A linha vai para a água")
-b("§ Se por terra não dá, vai por água. Em mil quatrocentos e quinze, os portugueses atravessam o estreito e tomam Ceuta, no norte da África. E aí, ano após ano, descem a costa, um cabo de cada vez.",
+b("§ Se por terra não dá, vai por água. Em mil quatrocentos e quinze, os portugueses atravessam o estreito e tomam Ceuta, na África. E aí, ano após ano, descem a costa, um cabo de cada vez.",
   "ceuta_fleet|A fleet of medieval Portuguese ships crossing the Strait of Gibraltar in 1415 toward a white walled city on the African coast" + MED + SEMBAND + SEMTXT,
   f"caravels_coast|{NAU} sailing along a dry African coastline with cliffs, one ship after another" + SEC15 + SEMBAND + SEMTXT,
   "map_capes|Map of the west coast of Africa with a dotted line going south along the coast, cape after cape, " + MAPA,
@@ -311,21 +314,21 @@ b("E o português responde: “Viemos buscar cristãos e especiaria.” [break] 
 
 # ───────────────────────── 6. A COROA ATRAVESSA, A LINHA FICA ─────────────────────────
 cap("6. A coroa atravessa, a linha fica")
-b("§ Agosto de mil quinhentos e setenta e oito, no Marrocos. Dom Sebastião, vinte e quatro anos, leva a nobreza portuguesa para uma batalha em Alcácer-Quibir. O rei some no campo. Muita gente nunca acreditou que ele tivesse ficado lá. Talvez você já tenha ouvido: o rei vai voltar numa manhã de nevoeiro.",
+b("§ Tomar, abril de mil quinhentos e oitenta e um. No convento dos antigos templários, um rei vestido de preto jura diante dos nobres portugueses. É Filipe Segundo, rei da Espanha, e agora também de Portugal.",
+  "tomar_convent|A grand Renaissance convent with a round templar church on a green hill above a small Portuguese town in 1581" + IBER + SEMTXT + SEMBAND + "@@TOMAR",
+  f"tomar_cortes|{FILIPE2}, standing in a great hall of a convent with tall windows, swearing an oath with his hand on a book, {NOBRES16} watching" + SEMTXT + SEMBAND,
+  f"filipe2|{FILIPE2}, sitting on a dark throne in a gloomy palace, holding a crown in his lap, slightly smiling" + SEMBAND + "@@FILIPE II",
+  card="1581")
+b("Como ele chegou aqui? Três anos antes, o jovem rei Dom Sebastião sumiu numa batalha no Marrocos, sem deixar filho, e a coroa caiu no colo do tio. Castela consegue o que queria em mil trezentos e oitenta e três. E a nossa pergunta fica mais difícil.",
   f"sebastiao|{SEBASTIAO}, on a white horse in front of his army in a dry Moroccan plain, proud" + SEMBAND + GUERRA + "@@D. SEBASTIÃO",
   "alcacer_dust|A battlefield in a dry Moroccan plain in 1578 covered in a cloud of dust, seen from far away, abandoned lances and a riderless white horse" + SEMBAND + GUERRA + SEMTXT,
-  "fog_waiting|Round-white-head cartoon Portuguese people of the late 16th century standing on a beach in thick morning fog, looking at the sea, waiting" + IBER + SEMTXT + SEMBAND,
-  card="1578")
-b("Sem herdeiro, a coroa cai no colo de quem? Do tio dele, Filipe Segundo, rei da Espanha. Em mil quinhentos e oitenta, Castela consegue o que queria em mil trezentos e oitenta e três. [break] E a nossa pergunta fica mais difícil.",
-  f"filipe2|{FILIPE2}, sitting on a dark throne in a gloomy palace, holding a crown in his lap, slightly smiling" + SEMBAND + "@@FILIPE II",
   "crown_lap|Symbolic comic scene: a gold crown falling from the sky into the lap of a king dressed in black" + SEMTXT + SEMBAND,
   "map_union|Map of the Iberian Peninsula in 1580 entirely painted in one deep red color, with a thin golden line still faintly visible on the western side, " + MAPA,
   card="1580")
-b("Porque, nas Cortes de Tomar, em mil quinhentos e oitenta e um, Filipe jura: Portugal continua um reino à parte, com leis, moeda e cargos portugueses. A coroa atravessou a linha. A linha ficou.",
-  f"tomar_cortes|{FILIPE2}, standing in a great hall of a convent with tall windows, swearing an oath with his hand on a book, {NOBRES16} watching" + SEMTXT + SEMBAND,
+b("Porque Filipe jura que Portugal continua um reino à parte, com leis, moeda e cargos portugueses. Segundo historiadores, até a alfândega da raia é abolida em mil quinhentos e oitenta e dois. Só que, em mil quinhentos e noventa e um, ela volta. A coroa atravessou a linha. A linha ficou.",
   "two_coins|Close view of two different old silver coins side by side on a wooden table, plain designs without letters" + SEMTXT,
-  "tomar_convent|A grand Renaissance convent with a round templar church on a green hill above a small Portuguese town in 1581" + IBER + SEMTXT + SEMBAND + "@@TOMAR",
-  card="1581")
+  "customs_house|A small 16th century stone customs house on a dusty road by a river at the border, a wooden barrier and a clerk with a ledger, mule carts waiting" + IBER + SEMTXT + SEMBAND,
+  "customs_closed_open|Symbolic scene: the same small stone customs house shown with its door shut and weeds, and beside it the same door open again with a clerk counting coins" + IBER + SEMTXT + SEMBAND)
 b("Só que um rei da Espanha traz junto os inimigos da Espanha. Os holandeses, em guerra com Madri, vão atrás do açúcar onde ele estava: em Pernambuco. Se você já andou pelo Recife antigo, pisou numa cidade que foi holandesa por causa disso.",
   "dutch_fleet|A Dutch fleet of the 1630s with orange-white-blue striped sails arriving at a tropical harbor with a sandy reef" + SEC17 + SEMTXT,
   "sugar_mill|A 17th century sugar mill in Pernambuco with a big wooden water wheel and sugarcane fields, workers in the distance" + SEC17 + SEMTXT + SEMBAND,
@@ -338,7 +341,7 @@ b("Sessenta anos pagando guerras que não eram suas. Até que um grupo de nobres
 
 # ───────────────────────── 7. VINTE E OITO ANOS NA RAIA ─────────────────────────
 cap("7. Vinte e oito anos na raia")
-b("§ Primeiro de dezembro de mil seiscentos e quarenta: um golpe em Lisboa, e o duque de Bragança vira Dom João Quarto. Aí começa a parte difícil: vinte e oito anos de guerra, quase toda em cima da linha.",
+b("§ Lisboa, primeiro de dezembro de mil seiscentos e quarenta: um golpe no paço, e o duque de Bragança vira Dom João Quarto. Aí começa a parte difícil: vinte e oito anos de guerra, quase toda em cima da linha.",
   f"joao4|{JOAO4}, being acclaimed on a palace balcony above a square in Lisbon, a crowd cheering" + SEC17 + SEMBAND + "@@D. JOÃO IV",
   "lisbon_1640|The riverside palace square of Lisbon in 1640 full of round-white-head cartoon people throwing hats in the air" + SEC17 + IBER + SEMTXT + SEMBAND,
   "border_war|A dry border valley of the 1640s with small forts on both sides, soldiers patrolling, smoke from far away" + SEC17 + IBER + SEMBAND + GUERRA,
@@ -348,17 +351,17 @@ b("§ Elvas, inverno de mil seiscentos e cinquenta e oito. Imagine uma cidade fe
   f"elvas_siege|{SOLD17}, a besieging army camped in trenches around star-shaped walls, cannons pointing at the town, grey winter sky" + SEC17 + IBER + SEMBAND + GUERRA,
   f"elvas_inside|{ELVENSES}, sharing small pieces of bread in a cold stone street inside the walls, serious and dignified" + SEC17 + IBER + SEMTXT + SEMBAND,
   card="1658")
-b("Os sitiados aguentam três meses, mas não muito mais. Em catorze de janeiro de mil seiscentos e cinquenta e nove, chega um exército de socorro e rompe as linhas espanholas. Elvas fica portuguesa.",
+b("Os sitiados aguentam três meses. Em catorze de janeiro de mil seiscentos e cinquenta e nove, chega um exército de socorro e rompe as linhas espanholas. Elvas fica portuguesa.",
   f"relief_army|{SOLD17}, a relief army marching through a frosty dawn toward a fortified town, determined" + SEC17 + IBER + SEMBAND + GUERRA,
   "lines_broken|A line of wooden siege fences and trenches broken open in the snow-dusted fields outside star-shaped walls, abandoned tents" + SEC17 + IBER + SEMBAND + GUERRA + SEMTXT,
   f"elvas_cheer|{ELVENSES}, cheering on top of the bastion walls at sunrise, waving hats" + SEC17 + IBER + SEMTXT + SEMBAND,
   card="1659")
-b("As muralhas estão lá até hoje e viraram Patrimônio Mundial. Se você subir nelas, dá para ver a Espanha do outro lado. Em mil seiscentos e sessenta e oito, a Espanha assina a paz e reconhece Portugal.",
+b("As muralhas estão lá até hoje e viraram Patrimônio Mundial. Em mil seiscentos e sessenta e oito, a Espanha assina a paz e reconhece Portugal.",
   "elvas_today|The star-shaped fortress walls of Elvas today, green grass on the bastions, round-white-head cartoon tourists walking on top, bright blue sky" + IBER + SEMTXT + SEMBAND,
   f"guide_wall|{GUIA} standing on top of an old star-shaped fortress wall, shading his eyes and looking at a plain on the horizon" + IBER + SEMTXT + SEMBAND,
   "peace_1668|Portuguese and Spanish ambassadors of 1668 in wigs and lace collars signing a treaty at a table, relieved" + SEC17 + SEMTXT + SEMBAND,
   card="1668")
-b("Quarta peça da resposta: a linha não se segurou sozinha. Foi pedra, pólvora e gente teimosa, cidade por cidade. [break] E aí vem o perigo mais traiçoeiro de todos: a paz.",
+b("Quarta peça da resposta: a linha não se segurou sozinha. Foi pedra, pólvora e gente que não arredou pé, cidade por cidade. [break] E aí vem o perigo mais traiçoeiro de todos: a paz.",
   "elvas_star#detalhe-centro",
   "stubborn_people|Round-white-head cartoon Portuguese villagers of the 17th century standing with crossed arms on a wall, stubborn, comic" + SEC17 + IBER + SEMTXT + SEMBAND,
   "markers_row#médio-dir")
@@ -369,7 +372,7 @@ b("Com o ouro do Brasil chegando, Portugal passa um século de costas para a rai
 
 # ───────────────────────── 8. ONDE A LINHA CEDEU ─────────────────────────
 cap("8. Onde a linha cedeu")
-b("§ Maio de mil oitocentos e um. A Espanha, aliada da França de Napoleão, invade o Alentejo. Mas a guerra dura só umas três semanas. Tão curta que ganhou nome de fruta.",
+b("§ Alentejo, maio de mil oitocentos e um. A Espanha, aliada da França de Napoleão, invade o Alentejo. Mas a guerra dura só umas três semanas. Tão curta que ganhou nome de fruta.",
   "invasion_1801|Spanish soldiers of 1801 in white and blue uniforms with bicorne hats marching across a dry Alentejo plain with cork oaks" + IBER + SEMBAND + GUERRA + SEMTXT,
   "alentejo_villagers|Round-white-head cartoon Alentejo villagers of 1801 watching soldiers pass from behind a whitewashed wall, worried" + IBER + SEMTXT + SEMBAND,
   "orange_tree|A single orange tree full of bright oranges in a whitewashed courtyard in southern Portugal" + IBER + SEMTXT,
@@ -378,7 +381,7 @@ b("Diz a tradição que Manuel Godoy, o homem forte de Madri, colheu ramos de la
   f"godoy|{GODOY}, picking an orange branch from a tree in front of star-shaped fortress walls, very pleased with himself, comic" + IBER + SEMBAND + "@@MANUEL GODOY",
   f"queen_oranges|{RAINHA_ES}, receiving a basket of orange branches from a messenger in a palace, delighted" + SEMTXT + SEMBAND,
   "orange_receipt|Symbolic comic scene: a single orange on a silver plate next to a very long unrolled bill" + SEMTXT)
-b("Então, no tratado de paz, assinado em Badajoz, Portugal entrega Olivença. Em mil oitocentos e quinze, o Congresso de Viena pede que a Espanha devolva. A Espanha não devolve, e até hoje diz que vale o tratado de mil oitocentos e um.",
+b("Então, no tratado de paz, assinado em Badajoz, Portugal entrega Olivença. Em mil oitocentos e quinze, o Congresso de Viena pede que a Espanha devolva. A Espanha não devolve, e diz que vale o tratado de Badajoz.",
   "badajoz_treaty|Diplomats of 1801 in powdered wigs and tailcoats signing a treaty at a table in a Spanish border town, one looking sad" + SEMTXT + SEMBAND,
   f"vienna_congress|{DIPLOM19}, sitting around a big round table covered with maps in a grand palace hall in Vienna, 1815" + SEMTXT + SEMBAND,
   "olivenca_view#médio-dir",
@@ -387,7 +390,7 @@ b("Lembra dos marcos que faltam? Olhe de novo: é aqui. A linha cedeu justamente
   "markers_gap#detalhe-centro",
   "empty_hole#aberto",
   "map_olivenca|Map of the middle section of the Portugal–Spain border with a small area around a town on the east bank of a river highlighted in pale stripes, the border line missing there, " + MAPA)
-b("Seis anos depois, é Napoleão que atravessa a raia, e a corte foge para o Brasil, numa história que você já conhece do lado de cá. Em mil oitocentos e vinte e dois, o Brasil vai embora. [break] Então Portugal fica de novo só com a linha e o mar. O problema é que o mundo lá fora mudou.",
+b("Seis anos depois, é Napoleão que atravessa a raia, e a corte foge para o Brasil. Em mil oitocentos e vinte e dois, o Brasil vai embora. [break] Então Portugal fica de novo só com a linha e o mar. O problema é que o mundo lá fora mudou.",
   "french_cross|French soldiers of 1807 in blue coats and bicorne hats crossing a stone bridge over a river into Portugal, rain" + IBER + SEMBAND + GUERRA + SEMTXT,
   "court_ships|A fleet of sailing ships leaving the Tagus river at Lisbon in 1807 under grey skies, crowds on the quay" + IBER + SEMTXT + SEMBAND,
   "lonely_coast|A lonely Portuguese coast at sunset with the open ocean on one side and dry hills on the other, a single stone marker on a hill" + IBER + SEMTXT,
@@ -413,7 +416,7 @@ b("E nos anos sessenta, gente também atravessa. Imagine pagar um passador para 
   f"passador|{PASSADOR}, waiting at a crossroads at night, holding out his hand" + MODERNO60 + IBER + SEMTXT,
   "torn_photo|Close view of two hands holding the two halves of an old black-and-white family photograph torn in the middle, faces as simple cartoon shapes" + MODERNO60 + SEMTXT,
   card="1965")
-b("Quando você chega, manda a sua metade para casa: é o recibo de que deu certo. Entre mil novecentos e sessenta e mil novecentos e setenta e quatro, cerca de um milhão e meio de portugueses saem do país, muitos assim, a salto.",
+b("Quando você chega, manda a sua metade para casa: é o recibo de que deu certo. Em quinze anos, cerca de um milhão e meio de portugueses saem do país, muitos assim, a salto.",
   "photo_letter|A round-white-head cartoon old mother in a black shawl in a Portuguese village kitchen opening an envelope and finding half of a photograph, tears of joy" + MODERNO60 + IBER + SEMTXT,
   "paris_bidonville|Round-white-head cartoon Portuguese immigrant workers of the 1960s on a construction site near Paris, carrying bricks, tired but smiling" + MODERNO60 + SEMTXT + SEMBAND,
   "village_empty|A small Portuguese mountain village of the 1960s with closed shutters, only old people sitting on doorsteps" + MODERNO60 + IBER + SEMTXT)
@@ -424,17 +427,17 @@ b("Enquanto isso, o regime luta para manter as colônias na África. O problema:
 
 # ───────────────────────── 10. A CANCELA SOBE ─────────────────────────
 cap("10. A cancela sobe")
-b("§ Vinte e cinco de abril de mil novecentos e setenta e quatro. Depois da meia-noite, uma canção toca no rádio: é a senha. Então os militares derrubam o regime quase sem tiros, e no ano seguinte as colônias na África ficam independentes.",
+b("§ Lisboa, vinte e cinco de abril de mil novecentos e setenta e quatro. Depois da meia-noite, uma canção toca no rádio: é a senha. Então os militares derrubam o regime quase sem tiros, e no ano seguinte as colônias na África ficam independentes.",
   "radio_night|An old 1970s radio glowing on a table in a dark room at midnight, a hand turning the dial" + SEMTXT,
   f"carnations|{MILIT74}, standing on a tank in a Lisbon square surrounded by people" + SEMTXT + SEMBAND,
   f"crowd_1974|{POVO74}, filling a wide Lisbon avenue in the morning sun" + SEMTXT + SEMBAND,
   card="1974")
-b("§ Mosteiro dos Jerónimos, junho de mil novecentos e oitenta e cinco. Portugal assina a entrada na Comunidade Europeia. Repare: a Espanha assina a dela no mesmo dia. Em primeiro de janeiro de mil novecentos e oitenta e seis, os dois entram juntos.",
+b("§ Mosteiro dos Jerónimos, junho de mil novecentos e oitenta e cinco. Portugal assina a entrada na Comunidade Europeia. Repare: a Espanha assina a dela no mesmo dia. Em oitenta e seis, entram juntos.",
   "jeronimos|The white stone cloister of a Manueline monastery in Lisbon with intricately carved arches, sunny day" + IBER + SEMTXT + SEMBAND + "@@JERÓNIMOS",
   "signing_1985|A round-white-head cartoon Portuguese prime minister of 1985 in a dark suit and glasses signing a big document at a long table in a stone cloister, officials applauding" + SEMTXT + SEMBAND,
   "two_doors|Symbolic comic scene: two round-white-head cartoon men, one small and one big, walking through the same big open door at the same time, side by side" + SEMTXT + SEMBAND,
   card="1985")
-b("§ Vinte e seis de março de mil novecentos e noventa e cinco. Nos postos da raia, de Valença a Vila Real de Santo António, acaba o controle de passaporte. As cancelas sobem, e ficam lá em cima.",
+b("§ Na raia, vinte e seis de março de mil novecentos e noventa e cinco. Nos postos, de Valença a Vila Real de Santo António, acaba o controle de passaporte. As cancelas sobem, e ficam lá em cima.",
   "barrier_up|A border post on a road between Portugal and Spain in 1995 with the striped barrier raised up, an officer waving cars through, sunny" + IBER + SEMTXT + SEMBAND,
   "empty_booth|An empty border control booth on a road with its door open and nobody inside, grass growing around it" + IBER + SEMTXT + SEMBAND,
   "bridge_river|A long modern road bridge over a wide river between two countries, cars crossing freely, blue sky" + IBER + SEMTXT + SEMBAND,
@@ -449,7 +452,7 @@ b("Mas aí vem a última dúvida: uma linha que ninguém mais vigia ainda é uma
 
 # ───────────────────────── FECHO (≤ 45 s) ─────────────────────────
 cap("Fecho")
-b("§ Então, como um país menor que Pernambuco segurou a mesma fronteira por setecentos anos? A resposta tem mil e duzentos quilômetros, e gente em cima deles: um rei que assinou cedo, o povo de Lisboa, os teimosos de Elvas.",
+b("§ Então, como um país menor que Pernambuco segurou a mesma fronteira por setecentos anos? A resposta tem mil e duzentos quilômetros, e gente em cima deles: um rei que assinou cedo, o povo de Lisboa, os sitiados de Elvas.",
   "escala_pe_pt_es#aberto",
   "arraia#médio-esq",
   "elvas_cheer#aberto")

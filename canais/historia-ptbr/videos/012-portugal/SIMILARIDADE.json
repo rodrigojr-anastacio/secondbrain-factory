@@ -3,23 +3,24 @@
  "roteiro": "canais/historia-ptbr/videos/012-portugal/blocos.json",
  "idioma": "pt",
  "blocos": 63,
- "nota": 1.0,
+ "nota": 1.1,
  "veredito": "ok",
  "limites": {
   "ATENCAO": 18,
   "COPIA": 30
  },
  "limiar_gemeo": 0.3,
- "custo_traducao_usd": 0.0152,
+ "custo_traducao_usd": 0.0,
  "blocos_consenso_manada": [
+  8,
   22
  ],
  "referencias": [
   {
    "cobertura": 0.015873015873015872,
    "ordem": 0.0,
-   "ngramas": 0.001851851851851852,
-   "sim_media": 0.1566594959236636,
+   "ngramas": 0.002803738317757009,
+   "sim_media": 0.15249907041039826,
    "gemeos": 1,
    "blocos": 63,
    "posicoes": [
@@ -31,8 +32,8 @@
    "trechos": [
     {
      "bloco": 22,
-     "cos": 0.35,
-     "nosso": "Outubro de mil trezentos e oitenta e três. Morre o rei Fernando. A única filha, Dona Beatriz, é casada com o rei de Castela. E o problema é o contrato: Portugal vai junto, de herança.",
+     "cos": 0.34,
+     "nosso": "Lisboa, outubro de mil trezentos e oitenta e três. No paço, morre o rei Fernando. A única filha, Dona Beatriz, é casada com o rei de Castela. E o problema é o contrato: Portugal vai junto, de herança.",
      "ref": "ajudou a fornecer. E Beatriz, a filha única de Fernando, prometida em casamento a um inglês, acabou casada com o rei de Castela. Foi esse casamento que abriu a crise de 1383. Fernando"
     }
    ],
@@ -40,28 +41,56 @@
    "idioma_ref": "pt",
    "traduzido": false,
    "palavras_ref": 4823,
-   "nota": 1.0,
+   "nota": 1.1,
    "veredito": "ok"
   },
   {
    "cobertura": 0.015873015873015872,
    "ordem": 0.0,
-   "ngramas": 0.000925925925925926,
-   "sim_media": 0.11837383102688591,
+   "ngramas": 0.0,
+   "sim_media": 0.11381187418205026,
    "gemeos": 1,
    "blocos": 63,
    "posicoes": [
     [
      8,
-     33
+     12
     ]
    ],
    "trechos": [
     {
      "bloco": 8,
-     "cos": 0.34,
-     "nosso": "A mãe, Dona Teresa, governa o condado de Portugal, um pedaço do reino de Leão, aliada a nobres da Galiza. O filho vence. Pois é: o primeiro inimigo de Portugal foi a própria mãe.",
-     "ref": "Galiza foram os primeiros. E o Reino de Leão tinha um condado, o Condado Portucalense, que foi entregue a Henrique de Borgonha como dote de casamento da filha do Rei, Teresa de Leão. Enquanto"
+     "cos": 0.3,
+     "nosso": "Até que, em mil cento e vinte e oito, um rapaz de menos de vinte anos, Afonso Henriques, vence as tropas da própria mãe e fica com o condado de Portugal, um pedaço do reino de Leão. Pois é: o primeiro inimigo de Portugal era da família.",
+     "ref": "chamado Afonso Henriques declarou a independência do condado portalense do reino de Leão, que mais tarde se tornaria parte da Espanha. Portugal, como reino nasceu em 1139. A Espanha que conhecemos"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-WwR5FCvnLww.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1110,
+   "nota": 0.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.015873015873015872,
+   "ordem": 0.0,
+   "ngramas": 0.0009345794392523365,
+   "sim_media": 0.11466832612037164,
+   "gemeos": 1,
+   "blocos": 63,
+   "posicoes": [
+    [
+     8,
+     32
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 8,
+     "cos": 0.32,
+     "nosso": "Até que, em mil cento e vinte e oito, um rapaz de menos de vinte anos, Afonso Henriques, vence as tropas da própria mãe e fica com o condado de Portugal, um pedaço do reino de Leão. Pois é: o primeiro inimigo de Portugal era da família.",
+     "ref": "quase 8 séculos de Reconquista. Os Reinos de Leão, Navarra, Aragão, Castela e Galiza foram os primeiros. E o Reino de Leão tinha um condado, o Condado Portucalense, que foi entregue"
     }
    ],
    "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-e7SNcCr5hxc.txt",
@@ -74,8 +103,8 @@
   {
    "cobertura": 0.015873015873015872,
    "ordem": 0.0,
-   "ngramas": 0.000925925925925926,
-   "sim_media": 0.1379643501358718,
+   "ngramas": 0.0009345794392523365,
+   "sim_media": 0.13557222978636163,
    "gemeos": 1,
    "blocos": 63,
    "posicoes": [
@@ -87,8 +116,8 @@
    "trechos": [
     {
      "bloco": 22,
-     "cos": 0.33,
-     "nosso": "Outubro de mil trezentos e oitenta e três. Morre o rei Fernando. A única filha, Dona Beatriz, é casada com o rei de Castela. E o problema é o contrato: Portugal vai junto, de herança.",
+     "cos": 0.31,
+     "nosso": "Lisboa, outubro de mil trezentos e oitenta e três. No paço, morre o rei Fernando. A única filha, Dona Beatriz, é casada com o rei de Castela. E o problema é o contrato: Portugal vai junto, de herança.",
      "ref": "anos do fernando o rei de portugal lutou algumas lutas contra o reino de castela e perdeu no tratado de paz a sua filha beatriz se casaria com joão de castela esse dom"
     }
    ],
@@ -102,8 +131,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.002777777777777778,
-   "sim_media": 0.12561284034674944,
+   "ngramas": 0.002803738317757009,
+   "sim_media": 0.12656290663770972,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -118,24 +147,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.000925925925925926,
-   "sim_media": 0.12634399644398825,
-   "gemeos": 0,
-   "blocos": 63,
-   "posicoes": [],
-   "trechos": [],
-   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-5-oUFG4LZXw.txt",
-   "idioma_ref": "pt",
-   "traduzido": false,
-   "palavras_ref": 2797,
-   "nota": 0.1,
-   "veredito": "ok"
-  },
-  {
-   "cobertura": 0.0,
-   "ordem": 0.0,
-   "ngramas": 0.000925925925925926,
-   "sim_media": 0.11504183905016613,
+   "ngramas": 0.0009345794392523365,
+   "sim_media": 0.11428636051622174,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -150,8 +163,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.001851851851851852,
-   "sim_media": 0.1219479197871426,
+   "ngramas": 0.0009345794392523365,
+   "sim_media": 0.12295360361697517,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -167,7 +180,23 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.12345747257741636,
+   "sim_media": 0.12426153559527846,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-5-oUFG4LZXw.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 2797,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.12109031566844847,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -183,7 +212,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.11418808759512135,
+   "sim_media": 0.11297047782577355,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -199,23 +228,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.11349848864205066,
-   "gemeos": 0,
-   "blocos": 63,
-   "posicoes": [],
-   "trechos": [],
-   "ref": "canais/historia-ptbr/videos/012-portugal/ref/manada-WwR5FCvnLww.txt",
-   "idioma_ref": "pt",
-   "traduzido": false,
-   "palavras_ref": 1110,
-   "nota": 0.0,
-   "veredito": "ok"
-  },
-  {
-   "cobertura": 0.0,
-   "ordem": 0.0,
-   "ngramas": 0.0,
-   "sim_media": 0.10102485205292466,
+   "sim_media": 0.09976683874588148,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],

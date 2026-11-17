@@ -1,8 +1,8 @@
 [
  {
   "id": "N001",
-  "texto": "[serious] Fronteira entre Portugal e Espanha. São mil e duzentos quilômetros de fronteira, marcados com pedras numeradas. Imagine você seguindo os números, um por um, pela beira de um rio.",
-  "tela": "[serious] Fronteira entre Portugal e Espanha. São mil e duzentos quilômetros de fronteira, marcados com pedras numeradas. Imagine você seguindo os números, um por um, pela beira de um rio.",
+  "texto": "[serious] Portugal e Espanha. São mil e duzentos quilômetros de fronteira, marcados com pedras numeradas. Imagine você seguindo os números, um por um, pela beira de um rio.",
+  "tela": "[serious] Portugal e Espanha. São mil e duzentos quilômetros de fronteira, marcados com pedras numeradas. Imagine você seguindo os números, um por um, pela beira de um rio.",
   "ideia": false
  },
  {
@@ -37,20 +37,20 @@
  },
  {
   "id": "N007",
-  "texto": "Junho de mil cento e vinte e oito, perto de Guimarães. Dois exércitos se encaram num campo. De um lado, um rapaz de menos de vinte anos, Afonso Henriques. Do outro, as tropas da mãe dele.",
-  "tela": "Junho de mil cento e vinte e oito, perto de Guimarães. Dois exércitos se encaram num campo. De um lado, um rapaz de menos de vinte anos, Afonso Henriques. Do outro, as tropas da mãe dele.",
+  "texto": "Valença, na margem do rio Minho. Do outro lado da água, a um grito de distância, fica Tui, na Galiza. Imagine dois pescadores do século doze, um em cada margem: mesma língua, mesmo peixe, mesma reza.",
+  "tela": "Valença, na margem do rio Minho. Do outro lado da água, a um grito de distância, fica Tui, na Galiza. Imagine dois pescadores do século doze, um em cada margem: mesma língua, mesmo peixe, mesma reza.",
   "ideia": true
  },
  {
   "id": "N008",
-  "texto": "A mãe, Dona Teresa, governa o condado de Portugal, um pedaço do reino de Leão, aliada a nobres da Galiza. O filho vence. [break] Pois é: o primeiro inimigo de Portugal foi a própria mãe.",
-  "tela": "A mãe, Dona Teresa, governa o condado de Portugal, um pedaço do reino de Leão, aliada a nobres da Galiza. O filho vence. [break] Pois é: o primeiro inimigo de Portugal foi a própria mãe.",
+  "texto": "Até que, em mil cento e vinte e oito, um rapaz de menos de vinte anos, Afonso Henriques, vence as tropas da própria mãe e fica com o condado de Portugal, um pedaço do reino de Leão. Pois é: o primeiro inimigo de Portugal era da família.",
+  "tela": "Até que, em mil cento e vinte e oito, um rapaz de menos de vinte anos, Afonso Henriques, vence as tropas da própria mãe e fica com o condado de Portugal, um pedaço do reino de Leão. Pois é: o primeiro inimigo de Portugal era da família.",
   "ideia": false
  },
  {
   "id": "N009",
-  "texto": "Então, nos anos seguintes, Afonso passa a se chamar rei. Em mil cento e quarenta e três, o primo dele, rei de Leão, aceita. Agora repare no mapa: ao norte, a linha é o rio Minho.",
-  "tela": "Então, nos anos seguintes, Afonso passa a se chamar rei. Em mil cento e quarenta e três, o primo dele, rei de Leão, aceita. Agora repare no mapa: ao norte, a linha é o rio Minho.",
+  "texto": "Então Afonso passa a se chamar rei. Em mil cento e quarenta e três, em Zamora, o primo dele, rei de Leão, aceita. Agora repare no mapa: ao norte, a linha é exatamente aquele rio entre os dois pescadores.",
+  "tela": "Então Afonso passa a se chamar rei. Em mil cento e quarenta e três, em Zamora, o primo dele, rei de Leão, aceita. Agora repare no mapa: ao norte, a linha é exatamente aquele rio entre os dois pescadores.",
   "ideia": false
  },
  {
@@ -67,8 +67,8 @@
  },
  {
   "id": "N012",
-  "texto": "Mil cento e quarenta e sete. Uma frota de cruzados ingleses, flamengos e alemães, a caminho de Jerusalém, para no Porto para se abastecer. O bispo da cidade sobe num púlpito improvisado e faz um pedido.",
-  "tela": "Mil cento e quarenta e sete. Uma frota de cruzados ingleses, flamengos e alemães, a caminho de Jerusalém, para no Porto para se abastecer. O bispo da cidade sobe num púlpito improvisado e faz um pedido.",
+  "texto": "Porto, verão de mil cento e quarenta e sete. Uma frota de cruzados ingleses, flamengos e alemães, a caminho de Jerusalém, para na cidade para se abastecer. O bispo da cidade sobe num púlpito improvisado e faz um pedido.",
+  "tela": "Porto, verão de mil cento e quarenta e sete. Uma frota de cruzados ingleses, flamengos e alemães, a caminho de Jerusalém, para na cidade para se abastecer. O bispo da cidade sobe num púlpito improvisado e faz um pedido.",
   "ideia": true
  },
  {
@@ -91,8 +91,8 @@
  },
  {
   "id": "N016",
-  "texto": "O problema é o leste. Do outro lado está Castela, também crescendo, quatro, cinco vezes maior. E Castela não tem pressa nenhuma de dizer onde termina Portugal.",
-  "tela": "O problema é o leste. Do outro lado está Castela, também crescendo, quatro, cinco vezes maior. E Castela não tem pressa nenhuma de dizer onde termina Portugal.",
+  "texto": "O problema é o leste. Do outro lado está Castela, quatro, cinco vezes maior. E Castela não tem pressa nenhuma de dizer onde termina Portugal.",
+  "tela": "O problema é o leste. Do outro lado está Castela, quatro, cinco vezes maior. E Castela não tem pressa nenhuma de dizer onde termina Portugal.",
   "ideia": false
  },
  {
@@ -115,8 +115,8 @@
  },
  {
   "id": "N020",
-  "texto": "Essa é a primeira peça da resposta: Portugal não esperou ficar forte. Desenhou a fronteira cedo, quando o vizinho estava fraco. E linha assinada é linha que dá para cobrar.",
-  "tela": "Essa é a primeira peça da resposta: Portugal não esperou ficar forte. Desenhou a fronteira cedo, quando o vizinho estava fraco. E linha assinada é linha que dá para cobrar.",
+  "texto": "Essa é a primeira peça da resposta: Portugal pôs a linha no papel quando teve a chance, com data, selo e testemunha. E linha assinada é linha que dá para cobrar de qualquer rei que vier depois.",
+  "tela": "Essa é a primeira peça da resposta: Portugal pôs a linha no papel quando teve a chance, com data, selo e testemunha. E linha assinada é linha que dá para cobrar de qualquer rei que vier depois.",
   "ideia": false
  },
  {
@@ -127,14 +127,14 @@
  },
  {
   "id": "N022",
-  "texto": "Outubro de mil trezentos e oitenta e três. Morre o rei Fernando. A única filha, Dona Beatriz, é casada com o rei de Castela. E o problema é o contrato: Portugal vai junto, de herança.",
-  "tela": "Outubro de mil trezentos e oitenta e três. Morre o rei Fernando. A única filha, Dona Beatriz, é casada com o rei de Castela. E o problema é o contrato: Portugal vai junto, de herança.",
+  "texto": "Lisboa, outubro de mil trezentos e oitenta e três. No paço, morre o rei Fernando. A única filha, Dona Beatriz, é casada com o rei de Castela. E o problema é o contrato: Portugal vai junto, de herança.",
+  "tela": "Lisboa, outubro de mil trezentos e oitenta e três. No paço, morre o rei Fernando. A única filha, Dona Beatriz, é casada com o rei de Castela. E o problema é o contrato: Portugal vai junto, de herança.",
   "ideia": true
  },
  {
   "id": "N023",
-  "texto": "Castela não precisa atravessar a linha, porque basta esperar. [break] Em dezembro, em Lisboa, o Mestre de Avis, meio-irmão do rei morto, entra no paço e mata ali mesmo o conde Andêiro, o homem forte da corte.",
-  "tela": "Castela não precisa atravessar a linha, porque basta esperar. [break] Em dezembro, em Lisboa, o Mestre de Avis, meio-irmão do rei morto, entra no paço e mata ali mesmo o conde Andeiro, o homem forte da corte.",
+  "texto": "Castela não precisa atravessar a linha, porque basta esperar. [break] Em dezembro, em Lisboa, o Mestre de Avis entra no paço e mata ali mesmo o conde Andêiro, o homem forte da corte.",
+  "tela": "Castela não precisa atravessar a linha, porque basta esperar. [break] Em dezembro, em Lisboa, o Mestre de Avis entra no paço e mata ali mesmo o conde Andeiro, o homem forte da corte.",
   "ideia": false
  },
  {
@@ -151,8 +151,8 @@
  },
  {
   "id": "N026",
-  "texto": "Foi ela que escolheu o rei, antes dos nobres. Dois anos depois, em Aljubarrota, com uns arqueiros ingleses ajudando, Castela perde a batalha e a vontade.",
-  "tela": "Foi ela que escolheu o rei, antes dos nobres. Dois anos depois, em Aljubarrota, com uns arqueiros ingleses ajudando, Castela perde a batalha e a vontade.",
+  "texto": "Foi ela que escolheu o rei. Dois anos depois, em Aljubarrota, com uns arqueiros ingleses ajudando, Castela perde a batalha e a vontade.",
+  "tela": "Foi ela que escolheu o rei. Dois anos depois, em Aljubarrota, com uns arqueiros ingleses ajudando, Castela perde a batalha e a vontade.",
   "ideia": false
  },
  {
@@ -163,8 +163,8 @@
  },
  {
   "id": "N028",
-  "texto": "Se por terra não dá, vai por água. Em mil quatrocentos e quinze, os portugueses atravessam o estreito e tomam Ceuta, no norte da África. E aí, ano após ano, descem a costa, um cabo de cada vez.",
-  "tela": "Se por terra não dá, vai por água. Em mil quatrocentos e quinze, os portugueses atravessam o estreito e tomam Ceuta, no norte da África. E aí, ano após ano, descem a costa, um cabo de cada vez.",
+  "texto": "Se por terra não dá, vai por água. Em mil quatrocentos e quinze, os portugueses atravessam o estreito e tomam Ceuta, na África. E aí, ano após ano, descem a costa, um cabo de cada vez.",
+  "tela": "Se por terra não dá, vai por água. Em mil quatrocentos e quinze, os portugueses atravessam o estreito e tomam Ceuta, na África. E aí, ano após ano, descem a costa, um cabo de cada vez.",
   "ideia": true
  },
  {
@@ -199,20 +199,20 @@
  },
  {
   "id": "N034",
-  "texto": "Agosto de mil quinhentos e setenta e oito, no Marrocos. Dom Sebastião, vinte e quatro anos, leva a nobreza portuguesa para uma batalha em Alcácer Quibir. O rei some no campo. Muita gente nunca acreditou que ele tivesse ficado lá. Talvez você já tenha ouvido: o rei vai voltar numa manhã de nevoeiro.",
-  "tela": "Agosto de mil quinhentos e setenta e oito, no Marrocos. Dom Sebastião, vinte e quatro anos, leva a nobreza portuguesa para uma batalha em Alcácer-Quibir. O rei some no campo. Muita gente nunca acreditou que ele tivesse ficado lá. Talvez você já tenha ouvido: o rei vai voltar numa manhã de nevoeiro.",
+  "texto": "Tomar, abril de mil quinhentos e oitenta e um. No convento dos antigos templários, um rei vestido de preto jura diante dos nobres portugueses. É Filipe Segundo, rei da Espanha, e agora também de Portugal.",
+  "tela": "Tomar, abril de mil quinhentos e oitenta e um. No convento dos antigos templários, um rei vestido de preto jura diante dos nobres portugueses. É Filipe Segundo, rei da Espanha, e agora também de Portugal.",
   "ideia": true
  },
  {
   "id": "N035",
-  "texto": "Sem herdeiro, a coroa cai no colo de quem? Do tio dele, Filipe Segundo, rei da Espanha. Em mil quinhentos e oitenta, Castela consegue o que queria em mil trezentos e oitenta e três. [break] E a nossa pergunta fica mais difícil.",
-  "tela": "Sem herdeiro, a coroa cai no colo de quem? Do tio dele, Filipe Segundo, rei da Espanha. Em mil quinhentos e oitenta, Castela consegue o que queria em mil trezentos e oitenta e três. [break] E a nossa pergunta fica mais difícil.",
+  "texto": "Como ele chegou aqui? Três anos antes, o jovem rei Dom Sebastião sumiu numa batalha no Marrocos, sem deixar filho, e a coroa caiu no colo do tio. Castela consegue o que queria em mil trezentos e oitenta e três. E a nossa pergunta fica mais difícil.",
+  "tela": "Como ele chegou aqui? Três anos antes, o jovem rei Dom Sebastião sumiu numa batalha no Marrocos, sem deixar filho, e a coroa caiu no colo do tio. Castela consegue o que queria em mil trezentos e oitenta e três. E a nossa pergunta fica mais difícil.",
   "ideia": false
  },
  {
   "id": "N036",
-  "texto": "Porque, nas Cortes de Tomar, em mil quinhentos e oitenta e um, Filipe jura: Portugal continua um reino à parte, com leis, moeda e cargos portugueses. A coroa atravessou a linha. A linha ficou.",
-  "tela": "Porque, nas Cortes de Tomar, em mil quinhentos e oitenta e um, Filipe jura: Portugal continua um reino à parte, com leis, moeda e cargos portugueses. A coroa atravessou a linha. A linha ficou.",
+  "texto": "Porque Filipe jura que Portugal continua um reino à parte, com leis, moeda e cargos portugueses. Segundo historiadores, até a alfândega da raia é abolida em mil quinhentos e oitenta e dois. Só que, em mil quinhentos e noventa e um, ela volta. A coroa atravessou a linha. A linha ficou.",
+  "tela": "Porque Filipe jura que Portugal continua um reino à parte, com leis, moeda e cargos portugueses. Segundo historiadores, até a alfândega da raia é abolida em mil quinhentos e oitenta e dois. Só que, em mil quinhentos e noventa e um, ela volta. A coroa atravessou a linha. A linha ficou.",
   "ideia": false
  },
  {
@@ -229,8 +229,8 @@
  },
  {
   "id": "N039",
-  "texto": "Primeiro de dezembro de mil seiscentos e quarenta: um golpe em Lisboa, e o duque de Bragança vira Dom João Quarto. Aí começa a parte difícil: vinte e oito anos de guerra, quase toda em cima da linha.",
-  "tela": "Primeiro de dezembro de mil seiscentos e quarenta: um golpe em Lisboa, e o duque de Bragança vira Dom João Quarto. Aí começa a parte difícil: vinte e oito anos de guerra, quase toda em cima da linha.",
+  "texto": "Lisboa, primeiro de dezembro de mil seiscentos e quarenta: um golpe no paço, e o duque de Bragança vira Dom João Quarto. Aí começa a parte difícil: vinte e oito anos de guerra, quase toda em cima da linha.",
+  "tela": "Lisboa, primeiro de dezembro de mil seiscentos e quarenta: um golpe no paço, e o duque de Bragança vira Dom João Quarto. Aí começa a parte difícil: vinte e oito anos de guerra, quase toda em cima da linha.",
   "ideia": true
  },
  {
@@ -241,20 +241,20 @@
  },
  {
   "id": "N041",
-  "texto": "Os sitiados aguentam três meses, mas não muito mais. Em catorze de janeiro de mil seiscentos e cinquenta e nove, chega um exército de socorro e rompe as linhas espanholas. Elvas fica portuguesa.",
-  "tela": "Os sitiados aguentam três meses, mas não muito mais. Em catorze de janeiro de mil seiscentos e cinquenta e nove, chega um exército de socorro e rompe as linhas espanholas. Elvas fica portuguesa.",
+  "texto": "Os sitiados aguentam três meses. Em catorze de janeiro de mil seiscentos e cinquenta e nove, chega um exército de socorro e rompe as linhas espanholas. Elvas fica portuguesa.",
+  "tela": "Os sitiados aguentam três meses. Em catorze de janeiro de mil seiscentos e cinquenta e nove, chega um exército de socorro e rompe as linhas espanholas. Elvas fica portuguesa.",
   "ideia": false
  },
  {
   "id": "N042",
-  "texto": "As muralhas estão lá até hoje e viraram Patrimônio Mundial. Se você subir nelas, dá para ver a Espanha do outro lado. Em mil seiscentos e sessenta e oito, a Espanha assina a paz e reconhece Portugal.",
-  "tela": "As muralhas estão lá até hoje e viraram Patrimônio Mundial. Se você subir nelas, dá para ver a Espanha do outro lado. Em mil seiscentos e sessenta e oito, a Espanha assina a paz e reconhece Portugal.",
+  "texto": "As muralhas estão lá até hoje e viraram Patrimônio Mundial. Em mil seiscentos e sessenta e oito, a Espanha assina a paz e reconhece Portugal.",
+  "tela": "As muralhas estão lá até hoje e viraram Patrimônio Mundial. Em mil seiscentos e sessenta e oito, a Espanha assina a paz e reconhece Portugal.",
   "ideia": false
  },
  {
   "id": "N043",
-  "texto": "Quarta peça da resposta: a linha não se segurou sozinha. Foi pedra, pólvora e gente teimosa, cidade por cidade. [break] E aí vem o perigo mais traiçoeiro de todos: a paz.",
-  "tela": "Quarta peça da resposta: a linha não se segurou sozinha. Foi pedra, pólvora e gente teimosa, cidade por cidade. [break] E aí vem o perigo mais traiçoeiro de todos: a paz.",
+  "texto": "Quarta peça da resposta: a linha não se segurou sozinha. Foi pedra, pólvora e gente que não arredou pé, cidade por cidade. [break] E aí vem o perigo mais traiçoeiro de todos: a paz.",
+  "tela": "Quarta peça da resposta: a linha não se segurou sozinha. Foi pedra, pólvora e gente que não arredou pé, cidade por cidade. [break] E aí vem o perigo mais traiçoeiro de todos: a paz.",
   "ideia": false
  },
  {
@@ -265,8 +265,8 @@
  },
  {
   "id": "N045",
-  "texto": "Maio de mil oitocentos e um. A Espanha, aliada da França de Napoleão, invade o Alentejo. Mas a guerra dura só umas três semanas. Tão curta que ganhou nome de fruta.",
-  "tela": "Maio de mil oitocentos e um. A Espanha, aliada da França de Napoleão, invade o Alentejo. Mas a guerra dura só umas três semanas. Tão curta que ganhou nome de fruta.",
+  "texto": "Alentejo, maio de mil oitocentos e um. A Espanha, aliada da França de Napoleão, invade o Alentejo. Mas a guerra dura só umas três semanas. Tão curta que ganhou nome de fruta.",
+  "tela": "Alentejo, maio de mil oitocentos e um. A Espanha, aliada da França de Napoleão, invade o Alentejo. Mas a guerra dura só umas três semanas. Tão curta que ganhou nome de fruta.",
   "ideia": true
  },
  {
@@ -277,8 +277,8 @@
  },
  {
   "id": "N047",
-  "texto": "Então, no tratado de paz, assinado em Badajoz, Portugal entrega Olivença. Em mil oitocentos e quinze, o Congresso de Viena pede que a Espanha devolva. A Espanha não devolve, e até hoje diz que vale o tratado de mil oitocentos e um.",
-  "tela": "Então, no tratado de paz, assinado em Badajoz, Portugal entrega Olivença. Em mil oitocentos e quinze, o Congresso de Viena pede que a Espanha devolva. A Espanha não devolve, e até hoje diz que vale o tratado de mil oitocentos e um.",
+  "texto": "Então, no tratado de paz, assinado em Badajoz, Portugal entrega Olivença. Em mil oitocentos e quinze, o Congresso de Viena pede que a Espanha devolva. A Espanha não devolve, e diz que vale o tratado de Badajoz.",
+  "tela": "Então, no tratado de paz, assinado em Badajoz, Portugal entrega Olivença. Em mil oitocentos e quinze, o Congresso de Viena pede que a Espanha devolva. A Espanha não devolve, e diz que vale o tratado de Badajoz.",
   "ideia": false
  },
  {
@@ -289,8 +289,8 @@
  },
  {
   "id": "N049",
-  "texto": "Seis anos depois, é Napoleão que atravessa a raia, e a corte foge para o Brasil, numa história que você já conhece do lado de cá. Em mil oitocentos e vinte e dois, o Brasil vai embora. [break] Então Portugal fica de novo só com a linha e o mar. O problema é que o mundo lá fora mudou.",
-  "tela": "Seis anos depois, é Napoleão que atravessa a raia, e a corte foge para o Brasil, numa história que você já conhece do lado de cá. Em mil oitocentos e vinte e dois, o Brasil vai embora. [break] Então Portugal fica de novo só com a linha e o mar. O problema é que o mundo lá fora mudou.",
+  "texto": "Seis anos depois, é Napoleão que atravessa a raia, e a corte foge para o Brasil. Em mil oitocentos e vinte e dois, o Brasil vai embora. [break] Então Portugal fica de novo só com a linha e o mar. O problema é que o mundo lá fora mudou.",
+  "tela": "Seis anos depois, é Napoleão que atravessa a raia, e a corte foge para o Brasil. Em mil oitocentos e vinte e dois, o Brasil vai embora. [break] Então Portugal fica de novo só com a linha e o mar. O problema é que o mundo lá fora mudou.",
   "ideia": false
  },
  {
@@ -319,8 +319,8 @@
  },
  {
   "id": "N054",
-  "texto": "Quando você chega, manda a sua metade para casa: é o recibo de que deu certo. Entre mil novecentos e sessenta e mil novecentos e setenta e quatro, cerca de um milhão e meio de portugueses saem do país, muitos assim, a salto.",
-  "tela": "Quando você chega, manda a sua metade para casa: é o recibo de que deu certo. Entre mil novecentos e sessenta e mil novecentos e setenta e quatro, cerca de um milhão e meio de portugueses saem do país, muitos assim, a salto.",
+  "texto": "Quando você chega, manda a sua metade para casa: é o recibo de que deu certo. Em quinze anos, cerca de um milhão e meio de portugueses saem do país, muitos assim, a salto.",
+  "tela": "Quando você chega, manda a sua metade para casa: é o recibo de que deu certo. Em quinze anos, cerca de um milhão e meio de portugueses saem do país, muitos assim, a salto.",
   "ideia": false
  },
  {
@@ -331,20 +331,20 @@
  },
  {
   "id": "N056",
-  "texto": "Vinte e cinco de abril de mil novecentos e setenta e quatro. Depois da meia-noite, uma canção toca no rádio: é a senha. Então os militares derrubam o regime quase sem tiros, e no ano seguinte as colônias na África ficam independentes.",
-  "tela": "Vinte e cinco de abril de mil novecentos e setenta e quatro. Depois da meia-noite, uma canção toca no rádio: é a senha. Então os militares derrubam o regime quase sem tiros, e no ano seguinte as colônias na África ficam independentes.",
+  "texto": "Lisboa, vinte e cinco de abril de mil novecentos e setenta e quatro. Depois da meia-noite, uma canção toca no rádio: é a senha. Então os militares derrubam o regime quase sem tiros, e no ano seguinte as colônias na África ficam independentes.",
+  "tela": "Lisboa, vinte e cinco de abril de mil novecentos e setenta e quatro. Depois da meia-noite, uma canção toca no rádio: é a senha. Então os militares derrubam o regime quase sem tiros, e no ano seguinte as colônias na África ficam independentes.",
   "ideia": true
  },
  {
   "id": "N057",
-  "texto": "Mosteiro dos Jerônimos, junho de mil novecentos e oitenta e cinco. Portugal assina a entrada na Comunidade Europeia. Repare: a Espanha assina a dela no mesmo dia. Em primeiro de janeiro de mil novecentos e oitenta e seis, os dois entram juntos.",
-  "tela": "Mosteiro dos Jerónimos, junho de mil novecentos e oitenta e cinco. Portugal assina a entrada na Comunidade Europeia. Repare: a Espanha assina a dela no mesmo dia. Em primeiro de janeiro de mil novecentos e oitenta e seis, os dois entram juntos.",
+  "texto": "Mosteiro dos Jerônimos, junho de mil novecentos e oitenta e cinco. Portugal assina a entrada na Comunidade Europeia. Repare: a Espanha assina a dela no mesmo dia. Em oitenta e seis, entram juntos.",
+  "tela": "Mosteiro dos Jerónimos, junho de mil novecentos e oitenta e cinco. Portugal assina a entrada na Comunidade Europeia. Repare: a Espanha assina a dela no mesmo dia. Em oitenta e seis, entram juntos.",
   "ideia": true
  },
  {
   "id": "N058",
-  "texto": "Vinte e seis de março de mil novecentos e noventa e cinco. Nos postos da raia, de Valença a Vila Real de Santo António, acaba o controle de passaporte. As cancelas sobem, e ficam lá em cima.",
-  "tela": "Vinte e seis de março de mil novecentos e noventa e cinco. Nos postos da raia, de Valença a Vila Real de Santo António, acaba o controle de passaporte. As cancelas sobem, e ficam lá em cima.",
+  "texto": "Na raia, vinte e seis de março de mil novecentos e noventa e cinco. Nos postos, de Valença a Vila Real de Santo António, acaba o controle de passaporte. As cancelas sobem, e ficam lá em cima.",
+  "tela": "Na raia, vinte e seis de março de mil novecentos e noventa e cinco. Nos postos, de Valença a Vila Real de Santo António, acaba o controle de passaporte. As cancelas sobem, e ficam lá em cima.",
   "ideia": true
  },
  {
@@ -361,8 +361,8 @@
  },
  {
   "id": "N061",
-  "texto": "Então, como um país menor que Pernambuco segurou a mesma fronteira por setecentos anos? A resposta tem mil e duzentos quilômetros, e gente em cima deles: um rei que assinou cedo, o povo de Lisboa, os teimosos de Elvas.",
-  "tela": "Então, como um país menor que Pernambuco segurou a mesma fronteira por setecentos anos? A resposta tem mil e duzentos quilômetros, e gente em cima deles: um rei que assinou cedo, o povo de Lisboa, os teimosos de Elvas.",
+  "texto": "Então, como um país menor que Pernambuco segurou a mesma fronteira por setecentos anos? A resposta tem mil e duzentos quilômetros, e gente em cima deles: um rei que assinou cedo, o povo de Lisboa, os sitiados de Elvas.",
+  "tela": "Então, como um país menor que Pernambuco segurou a mesma fronteira por setecentos anos? A resposta tem mil e duzentos quilômetros, e gente em cima deles: um rei que assinou cedo, o povo de Lisboa, os sitiados de Elvas.",
   "ideia": true
  },
  {
