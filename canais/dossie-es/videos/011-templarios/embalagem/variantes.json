@@ -1,0 +1,26 @@
+[
+ {
+  "letra": "A",
+  "titulo": "Cómo los templarios criaron a un rey… y su nieto los asedió",
+  "padrao_titulo": "Cómo + agente + verbo concreto + alvo",
+  "padrao_thumb": "objeto-simbolo",
+  "thumb_conceito": "coroa pequena de criança sobre o manto branco templário dobrado, laje de pedra, fundo ardósia escuro; sigla TEMPLARIOS em cor papel + sello HUÉRFANO + aba EXPEDIENTE Nº 011",
+  "thumb_texto": "TEMPLARIOS HUÉRFANO"
+ },
+ {
+  "letra": "B",
+  "titulo": "TEMPLARIOS: declarados inocentes cuando la orden ya no existía",
+  "padrao_titulo": "SIGLA: aposto com lacuna",
+  "padrao_thumb": "documento-evidencia",
+  "thumb_conceito": "sentença em pergaminho horizontal com fileira de seis selos de cera pendentes em cordões, escrita ilegível, mesa escura e luz de vela",
+  "thumb_texto": "TARRAGONA"
+ },
+ {
+  "letra": "C",
+  "titulo": "Aragón, 1131–1312: el reino que casi heredaron los Templarios",
+  "padrao_titulo": "[Lugar], [año]: aposto",
+  "padrao_thumb": "cena-acao",
+  "thumb_conceito": "trabuco de cerco grande em silhueta no primeiro plano, de noite azul-ardósia, castelo no rochedo ao fundo com janela acesa e fogueiras do acampamento",
+  "thumb_texto": "1309"
+ }
+]

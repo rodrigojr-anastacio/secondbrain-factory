@@ -1,0 +1,49 @@
+# Ângulo dossie-es/011-templarios · 17/11/2026
+
+Manada levantada com `tools/manada.py buscar` (es+en, 5 termos, 13 vídeos ≥ 5 min) e `transcrever` (10 vídeos, legenda no idioma original; `ref/manada-*.txt`, fora do git). O Archive in Minutes **não** tem vídeo deste tema; o clone do molde em inglês (History Condensed, "The ENTIRE History of the Knights Templar in 13 Minutes") foi transcrito. Como o ângulo candidato é ibérico, transcrevi também os 2 vídeos em es do recorte "Templarios en España" (CÓDIGO 20 mil, 99,6× a mediana; Imperios y Misterios 96 mil, 7,4×).
+
+## A manada (vídeos transcritos)
+| id | canal | views | idioma | hook (1 linha) | fio condutor |
+|---|---|---|---|---|---|
+| texESpZIJDg | Memorias de Pez | 1,35 mi | es | "hoy vamos a hablar de una orden legendaria…" (apresentação) | cronologia cruzadas → riqueza → queda; fecha em "¿eran inocentes?" |
+| 0oIr9HvbSY8 | Brasil Paralelo | 1,10 mi | pt | citação de São Bernardo + "mudou o destino de Portugal e do Brasil" | ordem religiosa-militar → Portugal → Ordem de Cristo → Cabral |
+| QSamVD5R3us | Academia Play | 337 mil | es | 1146, Luís VII entrega o comando a Everard des Barres | a Regra e a disciplina militar (bandeiras, votos) |
+| M6CNElP3dds | Studium Historiae | 277 mil | en | "everyone has heard of the term Templar…" (desmonta clichês) | aula: origem, funções, finanças, queda e processo |
+| G7VYGchTvjs | Te lo Pinto | 2,26 mi | es | "Tienes 7 años y tu padre te abandona en un castillo…" | "tu vida en cada rango" (paje → maestre), 2ª pessoa |
+| f4fQaIau6I4 | Unresolved History Archive | 240 mil | en | "weren't supposed to survive… in Tomar, their headquarters didn't fall" | Tomar: fronteira → Charola → 1307 → Ordem de Cristo → Henrique → janela manuelina |
+| D2kbJSRa2eQ | Unresolved History Archive | 219 mil | en | festa templária de Tomar, "why does a city still celebrate them?" | viagem a Tomar atrás de Gualdim Pais |
+| v5W0RzWy7Vw | History Condensed (clone do molde) | 40 | en | **Paris, sexta 13/10/1307, ordens seladas abertas antes do amanhecer** | "nove cavaleiros pobres → banqueiros → destruídos por um pedaço de papel" |
+| BcoBMD2AQZI | CÓDIGO: Descifrando la Historia | 20 mil | es | "Tu apellido podría ser la prueba de que los Templarios nunca se fueron de España" | "o rastro da propriedade": Salamanca/Tarragona, bens, Montesa, sobrenomes |
+| scxPjNurQkw | Imperios y Misterios | 96 mil | es | Ramón Berenguer III os convida; Alfonso I deixa o reino aos templários | arco ibérico (Ponferrada, Navas, Miravet, Tarragona, Montesa, Peñíscola) misturado com "arquivos secretos" e lacunas de documentos |
+
+## Consenso da manada (o que NÃO fazer)
+- **Hooks repetidos:** a madrugada da sexta 13/10/1307 com ordens seladas (clone do molde: é o hook do vídeo-molde em inglês, logo o mesmo do teste de embalagem de 14/11, que **cai**); apresentação genérica; Tomar "não caiu"; "os templários nunca se foram de Espanha".
+- **Sequência comum (5 de 8 gerais):** peregrinos atacados → Hugo de Payns e 9 cavaleiros → mesquita de Al-Aqsa/"Templo de Salomão" → dois cavaleiros num cavalo → Troyes 1129 e São Bernardo → *Omne datum optimum* 1139 → doações → cartas de crédito/"primeiro banco" → tesouro do rei no Temple de Paris → Hattin 1187 → Acre 1291 → Filipe IV endividado → sexta 13 → acusações (cuspir na cruz) e tortura → Molay retrata-se → Vienne 1312 → Hospitalários → fogueira de 1314 e a "maldição" → tesouro nunca achado → superstição da sexta 13 → (clone) Chinon/Frale → Portugal e Ordem de Cristo.
+- **Sequência ibérica (Imperios y Misterios, CÓDIGO):** Ramón Berenguer III os traz → testamento de Alfonso I → Ramiro II e a compensação → Tomar 1160 → Ponferrada → Navas → Miravet sitiado → Salamanca 1310 → Tarragona 1312 → Montesa 1317 → Peñíscola; e o fio "o patrimônio não evaporou" (CÓDIGO).
+- **Anedotas/números que 2+ repetem:** nove cavaleiros; dois num cavalo; regra de 72 cláusulas; "primeiro banco/cheque"; tesouro real em Paris; Hattin; Acre e Guilherme de Beaujeu; dívida de Filipe IV; sexta 13; maldição de Molay; tesouro nunca achado; Tomar/Ordem de Cristo/Henrique; Cabral "grão-mestre" (BP, impreciso); Miravet sitiado (Imperios). O roteiro pode citar um fato obrigatório do tema (fundação, Troyes, banco, Acre, a prisão em França, Vienne, Molay), mas **nunca como cena principal de um expediente nem na mesma ordem de beats**.
+- **O que nenhum dos 10 tem (lido + grep):** o rei-menino Jaime I criado em Monzón (1214–1217) e o cerco do **neto** dele ao mesmo castelo (Imperios põe, errado, "Alfonso I educado em Monzón em 1153"); Calatrava devolvida pelos templários (1157) e a origem da Ordem de Calatrava; Ramón Berenguer III morto com o hábito templário (Imperios só diz que "os convidou"); Mallorca 1229; a resposta de Jaime II ao rei de França em 1307; a bandeira da Ordem de Cristo na carta de Pero Vaz de Caminha (Brasil, 1500); o destino de Monzón com os Hospitalários.
+
+## Ângulos propostos
+1. **"El castillo del rey niño": os Templários contados pela Coroa de Aragão.** Uma dinastia e uma ordem: o rei que lhes deixa o reino (1131), o castelo que recebem em troca (Monzón, 1143), o menino órfão que criam ali (Jaime I, 1214), as ilhas que conquistam com ele (Mallorca 1229) e o neto dele que os sitia no mesmo castelo (1308–1309), até o concílio que os absolve quando a ordem já não existe (1312) e as cruzes que seguem em Montesa e, pela Ordem de Cristo, até o Brasil. Paga a demanda ("historia de los templarios": fundação, poder, banco, queda, fim) porque a ordem inteira passa por esse fio; cabe na forma (hook-anedota Monzón 1309 + expedientes-objeto + cierre que volta ao castelo); fontes: RAH, Enciclopèdia.cat, Forey (*The Templars in the Corona de Aragón*, 1973; *The Fall of the Templars in the Crown of Aragon*, 2001), Barber (*The Trial of the Templars*), *Llibre dels Fets*, Hispania Sacra (Barquero Goñi), carta de Caminha. Ninguém da manada faz: os gerais contam França; os ibéricos contam patrimônio/arquivos.
+2. **"El pergamino": a ordem absolvida em segredo** (Chinon 1308 → Vaticano 2001). Era o candidato da pauta; o clone do molde fecha justamente com Chinon/Frale e o BP cita Frale: perde o ineditismo e é um caso só.
+3. **"Los banqueros del rey"** (a prisão de 1307 vista pelo dinheiro). É o fio do clone do molde ("bankers to kings… destroyed by a piece of paper") e o hook dele: fora.
+
+## Escolhido: 1
+Paga a busca de "historia de los templarios" (a ordem inteira de 1120 a 1312 e o que ficou), dá ao público hispano o recorte que ele procura e mede bem ("Templarios en España…" 99,6× e 16,8× a mediana; "Los Templarios en España…" 7,4×), mas **por outro fio**: não o patrimônio (CÓDIGO) nem os "arquivos secretos" (Imperios), e sim **uma família real e uma ordem**, com um hook que ninguém usa (o neto sitiando o castelo onde o avô foi criado). O ângulo da pauta (Chinon → Portugal) entra como fato dentro do arco (Chinon no exp. do concílio; Ordem de Cristo/Brasil no último expediente), não como fio.
+
+## Anedotas e dados próprios previstos (fora da manada) — meta da bíblia: ≥ 50% dos expedientes
+| anedota/dado | fonte | aparece em alguma transcrição? |
+|---|---|---|
+| Hook: Monzón 1309, Jaime II sitia o castelo onde o avô foi criado pela ordem | Enciclopèdia.cat; Forey 2001; fascinatingspain (ponte) | não (Imperios cita Monzón como "primeiro castelo" e erra o rei) |
+| Ramón Berenguer III entra na ordem e morre com o hábito (1131) | Enciclopèdia.cat / RAH [conferir] | não (Imperios: só "os convidou") |
+| Calatrava: os templários a devolvem a Sancho III (1157); Fitero e a Ordem de Calatrava (1158) | RAH "San Raimundo de Fitero"; Enciclopèdia.cat | não |
+| Jaime I órfão (Muret 1213), entregue à ordem; Monzón ago/1214–jun/1217 com Guillem de Montredon | RAH "Jaime I"; *Llibre dels Fets* | não |
+| Mallorca 1229: os templários na conquista com o rei que criaram | *Llibre dels Fets*; Llibre del Repartiment [conferir] | não |
+| Jaime II responde ao rei de França (1307) e depois manda prender | Forey 2001; Finke, *Papsttum und Untergang des Templerordens* [conferir] | não (Imperios: "Jaime II esperó") |
+| Carta de Caminha (1500): a bandeira da Ordem de Cristo do capitão no Brasil | Carta de Pero Vaz de Caminha (Arquivo Nacional da Torre do Tombo) | não (BP: "Cabral era grão-mestre", impreciso) |
+| Monzón passa aos Hospitalários (Castellanía de Amposta) | Enciclopèdia.cat / Gran Enciclopedia Aragonesa [conferir] | não |
+
+## Ordem prevista dos capítulos (≠ da manada) e onde o ângulo aparece no hook
+Hook: Monzón, maio de 1309: Jaime II sitia o castelo; dentro, templários; 95 anos antes a ordem criou ali o avô dele, órfão; rendem-se; 3 anos depois um concílio os declara inocentes, quando já não há ordem → "Esta es TODA la historia de los Templarios. Y del reino que casi heredaron."
+1 El Voto (1120–1129: fundação, Troyes; fato obrigatório contado curto) · 2 **El Hábito** (1131: o conde de Barcelona morre templário) · 3 El Testamento (1131–1134: Alfonso I) · 4 **La Plaza** (Calatrava 1147–1158) · 5 La Letra (banco e tesouro, fato obrigatório; Monzón como casa-forte desde 1143) · 6 **El Niño** (1213–1217) · 7 **La Isla** (Mallorca 1229) · 8 La Respuesta → **La Carta** (1291 sem missão → 1307 em França e a resposta de Jaime II) · CTA · 9 El Asedio (1308–1309, paga o hook) · 10 El Concilio (Chinon 1308, Vienne 1312, Tarragona 1312, Molay 1314) · 11 La Bula (Montesa 1317; Ordem de Cristo 1319) · 12 **La Bandera** (Brasil 1500) · Cierre: El Castillo (Monzón com os Hospitalários; volta ao hook).
+Expedientes fora da manada: 2, 4, 6, 7, 8, 12 = **6 de 12 (50%)** + hook. Nenhum capítulo-objeto do clone (que tem: road, seal, rule, bank, Hattin, Acre, Friday 13, curse, parchment) nem a sequência de abertura de Imperios (Berenguer → testamento → Ramiro → compensação logo nos 2 primeiros minutos: aqui o testamento entra depois da fundação e da morte do conde, e a compensação vira parte de La Letra).
