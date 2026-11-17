@@ -1,0 +1,59 @@
+# Pacote de publicación · dossie-es 010 · El Cártel de Medellín (puede ir al aire: mié o vie) · duración 14:05
+
+## TESTAR E COMPARAR (títulos × thumbs)
+| par | título | padrão do título | thumb | padrão da thumb |
+|---|---|---|---|---|
+| A (T1) | TODA la Historia del Cártel de Medellín en 14 Minutos | Su Guerra contra la Extradición | TODA la Historia de [org] en N Minutos | subtítulo | thumb-A.jpg: algemas abertas, "MEDELLÍN" + sello INTOCABLES | objeto-simbolo |
+| B (T2) | CÁRTEL DE MEDELLÍN: La guerra por una sola palabra | NOMBRE: aposto com lacuna | thumb-B.jpg: página con una palabra tachada, "ART. 35" | documento-evidencia |
+| C (T3) | Cómo el Cártel de Medellín tomó de rehén a todo un país | Cómo + organización + verbo + objetivo | thumb-C.jpg: helicópteros sobre la finca, sello "¿RESCATE?" | cena-acao |
+
+## Descripción
+Si te gustan estos expedientes, suscríbete, deja tu like y compártelo: abrimos uno nuevo cada semana.
+
+Copacabana, Antioquia, enero de 1991: helicópteros de la Policía sobre una finca y una periodista que no sale con vida. Se llamaba Diana Turbay y era hija de un expresidente de Colombia. Este es el expediente completo del Cártel de Medellín contado desde el otro lado, el del Estado y los rehenes: la guerra de doce años que le hizo a Colombia por una sola palabra, extradición, del tratado de 1979 al artículo de la Constitución de 1991 y su regreso en 1997.
+
+📁 Más expedientes:
+▶ TODA la historia de la Gestapo
+▶ TODA la historia de las SS
+▶ TODA la historia del Mossad
+▶ TODA la historia de la KGB
+▶ TODA la historia de la CIA
+
+Capítulos
+0:00 Introducción: Copacabana, 1991
+0:34 Expediente 1: El Tratado
+1:29 Expediente 2: El Panfleto
+2:36 Expediente 3: El Cheque
+3:35 Expediente 4: Los Primeros
+4:35 Expediente 5: El Juez
+5:24 Expediente 6: La Sentencia
+6:31 Expediente 7: El Estado de Sitio
+7:52 Expediente 8: Los Rehenes
+9:08 Expediente 9: La Operación
+10:03 Expediente 10: El Sacerdote
+10:54 Expediente 11: El Artículo
+11:48 Expediente 12: La Fuga
+12:51 Cierre: La Palabra
+
+Fuentes
+- Gabriel García Márquez, Noticia de un secuestro (Norma, 1996)
+- El Espectador, "Las obsesiones de la extradición 1979–2019" y "El debate por la extradición en la Constituyente de 1991"
+- Procuraduría General de la Nación, normograma: Ley 27 de 1980; Decretos 1860 de 1989, 2790 y 3030 de 1990; Acto Legislativo 01 de 1997
+- Semana: "Diciembre 1981: el comienzo del horror" y "Una despedida a Diana Turbay"
+- Semana: la entrega de Pablo Escobar del 19 de junio de 1991
+- Cambio: jueces y funcionarios judiciales víctimas de la violencia; Fabio Ochoa y la extradición
+- El Tiempo: balance de las extradiciones de la última década
+- Britannica: Carlos Lehder
+Las acusaciones se atribuyen a sus fuentes. Contenido educativo e histórico sobre un grupo criminal; no hace apología de la violencia ni de sus protagonistas.
+
+## Tags
+cártel de medellín, pablo escobar, historia del cártel de medellín, extradición colombia, diana turbay, noticia de un secuestro, los extraditables, constitución de 1991, artículo 35, carlos lehder, narcotráfico en colombia, historia de colombia, historia completa, dossier en minutos
+
+Categoría: Educación · Idioma: español
+
+## Checklist al publicar (Rodrigo)
+- Uso de contenido sintético (Studio → Atributos): **Sí** · Para niños: **No** · Idioma: español.
+- "Testar e comparar": thumbs A/B/C pareadas con los títulos A/B/C.
+- Video: video.mp4 1080p (nunca la versión del Telegram) · Subtítulos: legendas.srt (es).
+- Tema cártel: si llega "anuncios limitados", pedir revisión manual (documental educativo, sin imágenes gráficas).
+- Publicar miércoles o viernes (producción de la noche del 16/11).

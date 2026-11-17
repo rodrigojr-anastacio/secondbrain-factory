@@ -1,0 +1,7 @@
+CHECKLIST DE PUBLICAÇÃO (Rodrigo) — fora da descrição
+- Idioma do vídeo: English (US). Categoria: Education. Não é para crianças.
+- Studio → Atributos → Uso de IA / conteúdo alterado ou sintético: SIM (voz sintética; mídia histórica é real).
+- Título A + thumb A como padrão; B e C (com as thumbs B e C) no "Testar e comparar".
+- Legendas: legendas.srt (English). Vídeo: video.mp4 1080p (nunca a versão do Telegram).
+- Janela sugerida: qua 18/11 ou sex 20/11/2026 (o dia é seu; aniversário da batalha 20-23/11).
+- Conferir antes de publicar: número do laboratório (B01), linha do DPMO (B01c), little or nothing de 1947 (B08a), Choi (B17); doc Taylor 2019 = licença da revista (se houver dúvida, trocar por Cartela).

@@ -1,0 +1,48 @@
+TITLES (Test & compare) — paired with the thumbnails
+A: Why Is America Digging Up Japanese Soldiers on Tarawa?      → thumb-A.jpg ("SAME HOLE") | title pattern: Why Is [country] Digging Up X? | thumb pattern: objeto-simbolo
+B: The Soldiers America Wasn't Looking for on Tarawa           → thumb-B.jpg ("WHOSE?") | title pattern: The X They Weren't Supposed to Find | thumb pattern: cena-acao
+C: What's Still Under Tarawa Besides the Marines?              → thumb-C.jpg ("1943 · NOW") | title pattern: What's Still Under X? | thumb pattern: antes-depois
+Default when uploading: title A + thumbnail A.
+
+DESCRIPTION
+If you like places history left behind, subscribe, like the video and share it with someone who knows the Pacific story.
+
+The Defense Department runs a DNA project for one small island: Betio, in Tarawa Atoll. Of 243 distinct DNA profiles its scientists have read, 124 trace to Asian lineages. The American search is for about 374 Marines and sailors still missing, but the ground gives back Japanese and Korean men too, buried in the same craters and trenches. We follow the official papers (a 1947 Marine Corps history, a POW/MIA fact sheet, a federal science paper) to find out how both sides ended up in the same ground, what happens to the men who turn up, and what is still under the town that grew on top.
+
+CHAPTERS
+0:00 Hold on to that number
+0:34 A brother in Nagasaki
+1:20 Anyone can go
+2:13 The island before
+2:58 The men who built it
+3:36 Seventy-six hours
+4:24 Two, three hours
+4:59 Little or nothing
+5:58 Then came the Seabees
+6:42 Unknown X-1
+7:39 Returned to the Japanese government
+8:34 Three sides, not two
+9:20 Four and one
+9:59 The project for one island
+10:58 How do you tell them apart
+11:44 A brother's sample
+12:41 Tarawa number 46
+13:49 Then and now
+14:40 What's still under it
+15:37 One hundred twenty-four
+
+SOURCES
+- Taylor, Scott, Koehl, Trask and Maijanen (Defense POW/MIA Accounting Agency), "The Tarawa Project Part I," Forensic Anthropology 2(2), 2019.
+- Defense POW/Missing Personnel Office, Tarawa Fact Sheet; Defense POW/MIA Accounting Agency news releases and casualty data for the Battle of Tarawa.
+- Capt. James R. Stockman, "The Battle for Tarawa" (USMC Historical Section, 1947), including Appendix C; Joseph H. Alexander, "Across the Reef: The Marine Assault on Tarawa" (USMC History and Museums Division, 1993); Bernard C. Nalty, "The United States Marines in the Gilberts Campaign" (1962).
+- DVIDS (Defense Visual Information Distribution Service) releases and photographs on the 2019 and 2023 Betio recoveries and the repatriation ceremonies.
+- National Archives (NARA) and U.S. Navy film records NAID 75861, 75866 and 77026; Naval History and Heritage Command.
+
+CREDITS
+Photos, film and documents: U.S. National Archives (NARA), U.S. Navy, U.S. Marine Corps, U.S. Army Air Forces, U.S. Coast Guard, Defense POW/MIA Accounting Agency, Defense POW/Missing Personnel Office, DVIDS (photos by Cpl. Taryn Escott, Sgt. Melanye Martinez, Sgt. Therese Edwards and MC1 Amara Timberlake), NASA (ISS Expedition 53 photograph by Randolph Bresnik), and public-domain files on Wikimedia Commons. USMC historical monographs via HyperWar and the Marine Corps History Division. Maps: Natural Earth (schematic, positions approximate). U.S. government works are in the public domain. Photographs show the work of recovery teams, places and ceremonies; no remains are shown.
+Music: original, made for this channel.
+
+TAGS
+Tarawa, Betio, Battle of Tarawa, Tarawa 1943, Tarawa Atoll, Kiribati, Defense POW/MIA Accounting Agency, DPAA, History Flight, Marines still missing, WWII Pacific, WWII history, places you can't visit, Japanese soldiers WWII
+
+CATEGORY: Education · LANGUAGE: English (US)

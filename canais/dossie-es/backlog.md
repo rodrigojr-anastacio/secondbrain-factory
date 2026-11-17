@@ -9,7 +9,7 @@ Ranking de 2026-11-04 para o **mercado em espanhol** (`pesquisa/archive-in-minut
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (16/11/2026 10:42)
+## Backlog vivo (16/11/2026 20:00)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
@@ -17,7 +17,7 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | noite | pode ir ao ar | tema | status |
 |---|---|---|---|
-| seg 16/11 | qua ou sex | El Cártel de Medellín | agendado |
+| seg 16/11 | qua ou sex | El Cártel de Medellín | em_producao |
 | ter 17/11 | sex ou sáb | Los Templarios | agendado |
 | sáb 21/11 | dom ou seg | El MI6 | agendado |
 | dom 22/11 | seg ou qua | Los Jesuitas | agendado |
@@ -31,7 +31,7 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | id | tema | nota (D·E·U) | status | noite (ao ar) | janela do tema | evidência principal |
 |---|---|---|---|---|---|---|
-| 19 | El Cártel de Medellín | 7.0 (10·7·5) | agendado | seg 16/11 (qua ou sex) | perene | [canais/dossie-es/backlog.md (busca es 04/11): mediana top-10 em es 2,99 mi; 32 vídeos de 2026 > 100 mil (maior demanda do nicho em es)](https://www.youtube.com/results?search_query=historia+del+cartel+de+medellin) |
+| 19 | El Cártel de Medellín | 7.0 (10·7·5) | em_producao | seg 16/11 (qua ou sex) | perene | [canais/dossie-es/backlog.md (busca es 04/11): mediana top-10 em es 2,99 mi; 32 vídeos de 2026 > 100 mil (maior demanda do nicho em es)](https://www.youtube.com/results?search_query=historia+del+cartel+de+medellin) |
 | 20 | Los Templarios | 6.6 (8·9·4) | agendado | ter 17/11 (sex ou sáb) | perene | [pesquisa/proximos-temas-2026-11/dados/demanda.json (busca yt-dlp es, 09/11): mediana top-10 (12 m) em es 190.887; 8 vídeos > 100 mil no ano; top total 912 mil](https://www.youtube.com/results?search_query=historia+de+los+templarios) |
 | 21 | El MI6 | 6.1 (4·8·7) | agendado | sáb 21/11 (dom ou seg) | 30/11 | [Archive in Minutes: 276 mil views em 14 dias (pub. 31/10); 124.752 no garimpo de 05/11 (+121% em 9 dias)](https://youtube.com/watch?v=zDaBuuCTCg0) |
 | 22 | Los Jesuitas | 6.0 (6·9·4) | agendado | dom 22/11 (seg ou qua) | perene | [Palacios Oscuros (es, 302 insc.): 602.502 views 'La TERRIBLE Historia de los JESUITAS: El Ejército Secreto…' (pub. 10/05/2026): porta aberta para canal pequeno](https://youtube.com/watch?v=Vtgbx7rYGac) |

@@ -4,7 +4,7 @@ Canal no padrão desde 16/11/2026: `canal.yaml`, bíblia em `biblia/`, vídeos e
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (16/11/2026 10:42)
+## Backlog vivo (16/11/2026 20:00)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
@@ -12,7 +12,7 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | noite | pode ir ao ar | tema | status |
 |---|---|---|---|
-| seg 16/11 | qua ou sex | Caraguatatuba 1967: a serra que desceu sobre a cidade | agendado |
+| seg 16/11 | qua ou sex | Caraguatatuba 1967: a serra que desceu sobre a cidade | em_producao |
 | ter 17/11 | sex ou sáb | Granizo e as tempestades gigantes da Bacia do Prata | agendado |
 | sáb 21/11 | dom ou seg | O calor do verão do Super El Niño, no mapa | agendado |
 | dom 22/11 | seg ou qua | O litoral do Rio Grande do Sul: 600 km de praia reta | agendado |
@@ -26,7 +26,7 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | id | tema | nota (D·E·U) | status | noite (ao ar) | janela do tema | evidência principal |
 |---|---|---|---|---|---|---|
-| 27 | Caraguatatuba 1967: a serra que desceu sobre a cidade | 7.4 (8·10·5) | agendado | seg 16/11 (qua ou sex) | 31/03 | [AntigamenteBR: Caraguatatuba instantes antes da serra engolir a cidade (1967): 1.998.389 views (pub. 28/08/2026), o maior do canal](https://youtu.be/wsYvujpyi28) |
+| 27 | Caraguatatuba 1967: a serra que desceu sobre a cidade | 7.4 (8·10·5) | em_producao | seg 16/11 (qua ou sex) | 31/03 | [AntigamenteBR: Caraguatatuba instantes antes da serra engolir a cidade (1967): 1.998.389 views (pub. 28/08/2026), o maior do canal](https://youtu.be/wsYvujpyi28) |
 | 28 | Granizo e as tempestades gigantes da Bacia do Prata | 7.3 (7·7·8) | agendado | ter 17/11 (sex ou sáb) | 15/12 | [Natureza em Fúria: URGENTE NO RS: bombardeio de granizo gigante: 633.044 views (pub. 27/09/2026)](https://youtu.be/nK9u70S_efk) |
 | 29 | O calor do verão do Super El Niño, no mapa | 7.0 (7·6·8) | agendado | sáb 21/11 (dom ou seg) | 31/12 | [Band Jornalismo: Inmet emite alerta de calor extremo para oito estados: 337.126 views (pub. 26/09/2026)](https://youtu.be/oJTMMUZvhHo) |
 | 30 | O litoral do Rio Grande do Sul: 600 km de praia reta | 6.8 (8·8·5) | agendado | dom 22/11 (seg ou qua) | 15/12 | [Capital Financeiro: Por que tão poucos brasileiros vivem no litoral do RS?: 1.380.178 views (pub. 16/02/2025)](https://youtu.be/tJaKMpSbnwc) |

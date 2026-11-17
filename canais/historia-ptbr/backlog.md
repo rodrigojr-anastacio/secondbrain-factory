@@ -4,7 +4,7 @@ Título padrão: "A história INTEIRA de X em N minutos" (N = duração real). I
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (16/11/2026 10:42)
+## Backlog vivo (16/11/2026 20:00)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
@@ -12,7 +12,7 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | noite | pode ir ao ar | tema | status |
 |---|---|---|---|
-| seg 16/11 | qua ou sex | Estados Unidos | agendado |
+| seg 16/11 | qua ou sex | Estados Unidos | em_producao |
 | ter 17/11 | sex ou sáb | Portugal | agendado |
 | sáb 21/11 | dom ou seg | União Soviética (URSS) | agendado |
 | dom 22/11 | seg ou qua | Inglaterra / Reino Unido | agendado |
@@ -26,7 +26,7 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | id | tema | nota (D·E·U) | status | noite (ao ar) | janela do tema | evidência principal |
 |---|---|---|---|---|---|---|
-| 10 | Estados Unidos | 7.6 (8·9·6) | agendado | seg 16/11 (qua ou sex) | 30/11 | [Genius History: 545.739 views em 36 dias (publicado 09/10/2026; ~15 mil/dia)](https://youtube.com/watch?v=tn2ehtuk1Gk) |
+| 10 | Estados Unidos | 7.6 (8·9·6) | em_producao | seg 16/11 (qua ou sex) | 30/11 | [Genius History: 545.739 views em 36 dias (publicado 09/10/2026; ~15 mil/dia)](https://youtube.com/watch?v=tn2ehtuk1Gk) |
 | 11 | Portugal | 7.2 (7·9·6) | agendado | ter 17/11 (sex ou sáb) | 01/12 | [Reimagined Worlds (pt, 109 insc.): 'O Dia em que Portugal se Mudou para o Brasil' 773.598 views (16/03/2026): porta aberta para canal minúsculo](https://youtube.com/watch?v=qWPL11MOzOg) |
 | 12 | União Soviética (URSS) | 6.6 (8·6·6) | agendado | sáb 21/11 (dom ou seg) | 30/11 | [youtube.garimpo_videos: Archive in Minutes: 'The ENTIRE History of the Soviet Union in 16 Minutes' 133.577 views (17/10/2026)](https://youtube.com/watch?v=v-HJWqWPvJI) |
 | 13 | Inglaterra / Reino Unido | 6.3 (7·9·4) | agendado | dom 22/11 (seg ou qua) | perene | [Genius History: 'The ENTIRE History of British Empire Explained' 235.507 views (02/08/2026)](https://youtube.com/watch?v=cqGJ5ZRLAvs) |

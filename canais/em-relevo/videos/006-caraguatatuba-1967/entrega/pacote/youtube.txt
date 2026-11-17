@@ -1,0 +1,58 @@
+TESTAR E COMPARAR (3 pares título + thumb; "Testar e comparar" do Studio)
+A. Por que a SERRA DO MAR desaba sobre o LITORAL?
+   padrão do título: Por que [LUGAR] [anomalia]? (controle)
+   thumb-A.jpg · padrão da thumb: mapa-lugar · bloco 3D do relevo (parede cortada de lado) + seta até a cidade + "UMA PAREDE?"
+B. CARAGUATATUBA 1967, SÃO SEBASTIÃO 2023: por que a serra repete?
+   padrão do título: Contraste A × B + por que
+   thumb-B.jpg · padrão da thumb: antes-depois · Landsat 29/10/2022 × 26/02/2023, tela dividida + "UMA NOITE"
+C. A CASCA de terra que faz a SERRA DO MAR desabar
+   padrão do título: O/A [coisa concreta] que [faz algo]
+   thumb-C.jpg · padrão da thumb: cena-acao · foto real do solo exposto mordendo o asfalto (Ubatuba, 19/02/2023), sem texto
+
+TÍTULO PRINCIPAL (A): Por que a SERRA DO MAR desaba sobre o LITORAL?
+
+DESCRIÇÃO
+Se você tem família no litoral norte de São Paulo, manda este vídeo para ela. E se inscreva no Em Relevo para entender o clima do Brasil no mapa. Para ver outro desastre brasileiro explicado no mapa: https://youtu.be/I5KpDKy6r3E
+
+Na madrugada de 19 de fevereiro de 2023, choveu 683 mm em 24 horas em Bertioga e 627 mm em São Sebastião; em Caraguatatuba, a poucos quilômetros, foram 234 mm. Neste vídeo, no mapa em relevo, a gente mostra por que a Serra do Mar desce sobre o litoral: uma parede de quase 700 metros a menos de 6 km do mar, um temporal preso numa faixa estreita e uma casca de terra de 1 a 2,5 metros quase sem coesão. A mesma receita em Caraguatatuba (1967, carta de declividades da geógrafa Olga Cruz) e em São Sebastião (2023, Landsat antes e depois). Não é previsão: é o mapa de onde a serra cede.
+
+CAPÍTULOS
+0:00 Hook: 683 mm num dia
+0:30 O mapa: a pergunta
+1:09 1 · A parede
+2:12 2 · A chuva que a serra fabrica
+3:57 3 · A casca da serra
+5:21 4 · 1967: o caminho até a cidade
+7:08 5 · 2023: a mesma receita
+8:07 A resposta
+
+FONTES
+CEMADEN (acumulados de 18–19/02/2023) · INMET · NASA GPM IMERG (estimativa de chuva por satélite, quadrados de ~10 km) · IAG-USP (frente fria e ciclone) · Olga Cruz, "Contribuição ao estudo das massas de movimentos gravitacionais da Serra do Mar", Revista Brasileira de Geografia 37(2), 1975 (IBGE) · estudo da USP de 2017 (cicatrizes × granito) · SGB/CPRM (carta de suscetibilidade, Caraguatatuba) · IBGE (Censo 2022 e 2010) · NASA Earth Observatory (deslizamentos em São Paulo) · Defesa Civil (alertas por SMS: CEP para 40199). Detalhes: pesquisa/FATOS.md.
+
+CRÉDITOS DAS IMAGENS (cortadas e redimensionadas, sem outra alteração)
+- Imagens de satélite: NASA Earth Observatory (Allison Nussbaum), dados USGS Landsat 8 e 9, domínio público.
+- Carta de declividades: Olga Cruz, Revista Brasileira de Geografia 37(2), 1975, IBGE (CC BY 4.0).
+- Encosta na estrada em Ubatuba (19/02/2023): Defesa Civil de Ubatuba / Governo do Estado de São Paulo (CC BY 2.0).
+- Vista aérea de São Sebastião (23/02/2023): Governo do Estado de São Paulo (CC BY 2.0).
+- Serra do Mar vista da Rodovia dos Tamoios: Themium, Wikimedia Commons (CC0).
+- Chuva: NASA GPM IMERG (GES DISC), domínio público.
+- Mapa: relevo SRTM / AWS Terrain Tiles, máscara terra-mar NASA GIBS (OpenStreetMap, ODbL, https://www.openstreetmap.org/copyright). Cores, blocos e cicatrizes do mapa são ilustrativos.
+
+MÚSICA E EFEITOS
+Kevin MacLeod (incompetech.com): "Echoes of Time", "Ossuary 6 - Air" e "Frozen Star", licença Creative Commons BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Efeito de máquina de escrever: Work With Sounds / Konrad Gutkowski, Wikimedia Commons (CC BY 4.0); toque na madeira (domínio público); demais efeitos sintetizados.
+
+TAGS
+Serra do Mar, Caraguatatuba, São Sebastião, deslizamento, deslizamento de terra, Caraguatatuba 1967, São Sebastião 2023, litoral norte de São Paulo, chuva no litoral norte, Bertioga, Ubatuba, encostas, geografia do Brasil, relevo, clima do Brasil, Defesa Civil, alerta SMS 40199, Olga Cruz, Landsat
+
+CATEGORIA: Educação (27)
+Idioma: português (Brasil)
+Duração: 9:40
+
+CHECKLIST DE PUBLICAÇÃO (para o Rodrigo; fora da descrição)
+- Studio → Atributos → "Uso de IA" = Sim (voz sintética); não é para crianças; idioma português (Brasil); legendas: legendas.srt.
+- "Testar e comparar": 3 thumbs (A/B/C) + 3 títulos pareados (bloco no topo); mp4 1080p.
+- Upload manual; janela sugerida: qua 18/11 ou sex 20/11/2026 (decisão do Rodrigo). Sem card de próximo vídeo; o vídeo da seca de 1877 (I5KpDKy6r3E) já está publicado e vai na descrição.
+- Voz: Fish #NATASHA (reserva), porque a chave da ElevenLabs voltou 401 na noite de 16→17/11; se preferir a Fernanda, regravar a voz (plano ElevenLabs) e remontar.
+- Carta do SGB: NÃO reproduzida no vídeo (PDF de 34 MB não convertido); no b32 o vídeo mostra a declividade > 40% do SRTM com legenda honesta. O texto do b32 foi trocado para a versão segura do brief.
+- Esquemas (fratura, cicatrizes, casca, faixa de chuva) levam o selo ILUSTRATIVO na tela. Cores/relevo do mapa são sintéticos a partir do SRTM (não são foto de satélite).
+- Descrição e tags sem "morte/morreu/vítimas fatais"; a narração diz "sessenta e cinco pessoas morreram" (b37): decisão editorial já aprovada na etapa 1.
