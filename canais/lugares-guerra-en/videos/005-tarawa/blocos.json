@@ -1,0 +1,570 @@
+[
+ {
+  "id": "B01a",
+  "texto": "Here is a number from a Defense Department laboratory in Hawaii. Two hundred forty-three. That's how many distinct DNA profiles its scientists have read from one small island in the Pacific. Now the other number.",
+  "texto_voz": "Here is a number from a Defense Department laboratory in Hawaii. Two hundred forty-three. That's how many distinct DNA profiles its scientists have read from one small island in the Pacific. Now the other number.",
+  "ideia": true,
+  "inicio_est": 0.0,
+  "dur_est": 12.5
+ },
+ {
+  "id": "B01b",
+  "texto": "One hundred twenty-four of them trace to Asian lineages. Hold on to that number: one hundred twenty-four. The island is Betio, in Tarawa Atoll. And this is a page from the Pentagon's own fact sheet about it.",
+  "texto_voz": "One hundred twenty-four of them trace to Asian lineages. Hold on to that number: one hundred twenty-four. The island is Betio, in Tarawa Atoll. And this is a page from the Pentagon's own fact sheet about it.",
+  "ideia": false,
+  "inicio_est": 12.5,
+  "dur_est": 13.21
+ },
+ {
+  "id": "B01c",
+  "texto": "It says the enemy dead there were \"buried in bomb craters and existing trenches.\" So why is America digging up Japanese soldiers on Tarawa?",
+  "texto_voz": "It says the enemy dead there were \"buried in bomb craters and existing trenches.\" So why is America digging up Japanese soldiers on Tarawa?",
+  "ideia": false,
+  "inicio_est": 25.71,
+  "dur_est": 8.57
+ },
+ {
+  "id": "B02a",
+  "texto": "It isn't a mistake. It isn't a secret. And it isn't new. In February 2021, in the arrivals area of Nagasaki Airport, a man named Sadayuki Nomura was handed the remains of his older brother.",
+  "texto_voz": "It isn't a mistake. It isn't a secret. And it isn't new. In February 2021, in the arrivals area of Nagasaki Airport, a man named Sadayuki Nomura was handed the remains of his older brother.",
+  "ideia": true,
+  "inicio_est": 34.29,
+  "dur_est": 12.5
+ },
+ {
+  "id": "B02b",
+  "texto": "He was ninety-two. His brother, Masatoshi, had been a petty officer in the Imperial Japanese Navy, in a naval landing force from Sasebo. He was twenty-three when he was lost on Tarawa, in November 1943.",
+  "texto_voz": "He was ninety-two. His brother, Masatoshi, had been a petty officer in the Imperial Japanese Navy, in a naval landing force from Sasebo. He was twenty-three when he was lost on Tarawa, in November 1943.",
+  "ideia": false,
+  "inicio_est": 46.79,
+  "dur_est": 12.5
+ },
+ {
+  "id": "B02c",
+  "texto": "He had been found in 2013, by a team from America that was looking for someone else. The Americans were searching for their own.",
+  "texto_voz": "He had been found in 2013, by a team from America that was looking for someone else. The Americans were searching for their own.",
+  "ideia": false,
+  "inicio_est": 59.29,
+  "dur_est": 8.57
+ },
+ {
+  "id": "B02d",
+  "texto": "Along the way, you'll see who was really on this island, the papers that explain why the two sides ended up in the same ground, and what is still under the town that stands on top of them today.",
+  "texto_voz": "Along the way, you'll see who was really on this island, the papers that explain why the two sides ended up in the same ground, and what is still under the town that stands on top of them today.",
+  "ideia": false,
+  "inicio_est": 67.86,
+  "dur_est": 13.93
+ },
+ {
+  "id": "B03a",
+  "texto": "Tarawa isn't closed. Anyone can fly there. Betio, in the Republic of Kiribati, is one of the most crowded islands in the Pacific: about eighteen thousand people on less than two square kilometers. What you can't visit is what's underneath.",
+  "texto_voz": "Tarawa isn't closed. Anyone can fly there. Betio, in the Republic of Kiribati, is one of the most crowded islands in the Pacific: about eighteen thousand people on less than two square kilometers. What you can't visit is what's underneath.",
+  "ideia": true,
+  "inicio_est": 81.79,
+  "dur_est": 14.29
+ },
+ {
+  "id": "B03b",
+  "texto": "The Defense POW/MIA Accounting Agency says about 374 Americans from this battle are still unaccounted for. That's the number every news story about Tarawa is about. But the agency's own page has another sentence. \"In many instances, U.S. casualties are commingled with those of Japanese and Korean dead.\"",
+  "texto_voz": "The Defense POW/MIA Accounting Agency says about 374 Americans from this battle are still unaccounted for. That's the number every news story about Tarawa is about. But the agency's own page has another sentence. \"In many instances, U.S. casualties are commingled with those of Japanese and Korean dead.\"",
+  "ideia": false,
+  "inicio_est": 96.07,
+  "dur_est": 17.14
+ },
+ {
+  "id": "B03c",
+  "texto": "Commingled. Mixed together. And on the other side of the ledger, the numbers aren't in the hundreds. They're in the thousands.",
+  "texto_voz": "Commingled. Mixed together. And on the other side of the ledger, the numbers aren't in the hundreds. They're in the thousands.",
+  "ideia": false,
+  "inicio_est": 113.21,
+  "dur_est": 7.5
+ },
+ {
+  "id": "B03d",
+  "texto": "Visitors do come. They photograph the rusting guns and the old bunkers. Very few of them think about what's under the road they're standing on.",
+  "texto_voz": "Visitors do come. They photograph the rusting guns and the old bunkers. Very few of them think about what's under the road they're standing on.",
+  "ideia": false,
+  "inicio_est": 120.71,
+  "dur_est": 8.93
+ },
+ {
+  "id": "B04a",
+  "texto": "To understand how that happened, you have to see who was on Betio before the Marines came. In September 1942, a Japanese naval landing force came ashore for garrison duty. In December, a pioneer unit arrived to build the defenses. Concrete bunkers.",
+  "texto_voz": "To understand how that happened, you have to see who was on Betio before the Marines came. In September 1942, a Japanese naval landing force came ashore for garrison duty. In December, a pioneer unit arrived to build the defenses. Concrete bunkers.",
+  "ideia": true,
+  "inicio_est": 129.64,
+  "dur_est": 15.0
+ },
+ {
+  "id": "B04b",
+  "texto": "Coconut-log walls. Big coastal guns facing the sea. The island is shaped a little like a bird lying on its back. It's about three hundred acres of sand, only a few feet above the tide.",
+  "texto_voz": "Coconut-log walls. Big coastal guns facing the sea. The island is shaped a little like a bird lying on its back. It's about three hundred acres of sand, only a few feet above the tide.",
+  "ideia": false,
+  "inicio_est": 144.64,
+  "dur_est": 12.5
+ },
+ {
+  "id": "B04c",
+  "texto": "And the people who did much of the building weren't soldiers at all. The Accounting Agency says that, in the year before the battle, those laborers built up much of the island's defenses.",
+  "texto_voz": "And the people who did much of the building weren't soldiers at all. The Accounting Agency says that, in the year before the battle, those laborers built up much of the island's defenses.",
+  "ideia": false,
+  "inicio_est": 157.14,
+  "dur_est": 11.79
+ },
+ {
+  "id": "B04d",
+  "texto": "In other words, many of the walls the Marines would have to break through were built by men who never chose to be there.",
+  "texto_voz": "In other words, many of the walls the Marines would have to break through were built by men who never chose to be there.",
+  "ideia": false,
+  "inicio_est": 168.93,
+  "dur_est": 8.57
+ },
+ {
+  "id": "B05a",
+  "texto": "The Accounting Agency puts it this way. More than 2,500 Japanese soldiers defended the island, \"along with some 1,000 Japanese construction workers and 1,200 Korean forced laborers.\" Korea was a Japanese colony then. Men were taken from farms and towns and shipped across the Pacific to pour concrete.",
+  "texto_voz": "The Accounting Agency puts it this way. More than 2,500 Japanese soldiers defended the island, \"along with some 1,000 Japanese construction workers and 1,200 Korean forced laborers.\" Korea was a Japanese colony then. Men were taken from farms and towns and shipped across the Pacific to pour concrete.",
+  "ideia": false,
+  "inicio_est": 177.5,
+  "dur_est": 17.14
+ },
+ {
+  "id": "B05b",
+  "texto": "On November 20th, 1943, the Marine Corps counted the garrison at 4,836. When the fighting stopped, it counted the prisoners. Seventeen Japanese. And 129 Korean laborers. Remember that number, too: 129.",
+  "texto_voz": "On November 20th, 1943, the Marine Corps counted the garrison at 4,836. When the fighting stopped, it counted the prisoners. Seventeen Japanese. And 129 Korean laborers. Remember that number, too: 129.",
+  "ideia": false,
+  "inicio_est": 194.64,
+  "dur_est": 11.07
+ },
+ {
+  "id": "B06a",
+  "texto": "The landing was supposed to be quick. The tide was lower than planned, and many landing boats stuck on the reef. Marines waded hundreds of yards under fire to reach a seawall. It took seventy-six hours to take the island.",
+  "texto_voz": "The landing was supposed to be quick. The tide was lower than planned, and many landing boats stuck on the reef. Marines waded hundreds of yards under fire to reach a seawall. It took seventy-six hours to take the island.",
+  "ideia": true,
+  "inicio_est": 205.71,
+  "dur_est": 14.29
+ },
+ {
+  "id": "B06b",
+  "texto": "More than a thousand Americans were lost. The Marine Corps' casualty division counted 3,301 Marine casualties in all, killed, missing and wounded. The Japanese commander, Rear Admiral Keiji Shibasaki, was lost in the first two days.",
+  "texto_voz": "More than a thousand Americans were lost. The Marine Corps' casualty division counted 3,301 Marine casualties in all, killed, missing and wounded. The Japanese commander, Rear Admiral Keiji Shibasaki, was lost in the first two days.",
+  "ideia": false,
+  "inicio_est": 220.0,
+  "dur_est": 12.86
+ },
+ {
+  "id": "B06c",
+  "texto": "The Marine Corps' official history, written in 1947, put the other side in a single line. The division, it said, \"annihilated all but 146 of the enemy's 4,836 men.\" On paper, that's 4,690 men. On about three hundred acres.",
+  "texto_voz": "The Marine Corps' official history, written in 1947, put the other side in a single line. The division, it said, \"annihilated all but 146 of the enemy's 4,836 men.\" On paper, that's 4,690 men. On about three hundred acres.",
+  "ideia": false,
+  "inicio_est": 232.86,
+  "dur_est": 13.93
+ },
+ {
+  "id": "B07a",
+  "texto": "Put the two sides together and it's close to six thousand men, on a strip of sand less than half the size of New York's Central Park. In that heat, the line between the two sides didn't last long. A Marine artilleryman, Roger Scovill, later described the problem.",
+  "texto_voz": "Put the two sides together and it's close to six thousand men, on a strip of sand less than half the size of New York's Central Park. In that heat, the line between the two sides didn't last long. A Marine artilleryman, Roger Scovill, later described the problem.",
+  "ideia": true,
+  "inicio_est": 246.79,
+  "dur_est": 17.14
+ },
+ {
+  "id": "B07b",
+  "texto": "\"Within a very short period, let's say two, three hours, the only way we could tell a Marine from a Japanese was by the web gear that we were wearing and by the armament that the man had.\" That sentence is the whole story of what came next.",
+  "texto_voz": "\"Within a very short period, let's say two, three hours, the only way we could tell a Marine from a Japanese was by the web gear that we were wearing and by the armament that the man had.\" That sentence is the whole story of what came next.",
+  "ideia": false,
+  "inicio_est": 263.93,
+  "dur_est": 17.14
+ },
+ {
+  "id": "B07c",
+  "texto": "The Marines buried their own as fast as they could. The other side was a different problem.",
+  "texto_voz": "The Marines buried their own as fast as they could. The other side was a different problem.",
+  "ideia": false,
+  "inicio_est": 281.07,
+  "dur_est": 6.07
+ },
+ {
+  "id": "B08a",
+  "texto": "The 1947 history is honest about it. \"Although every effort was made all through the action to take care of the Marine dead when possible, little or nothing could be done for the enemy dead.\" It goes on. \"Only 146 allowed themselves to be captured.",
+  "texto_voz": "The 1947 history is honest about it. \"Although every effort was made all through the action to take care of the Marine dead when possible, little or nothing could be done for the enemy dead.\" It goes on. \"Only 146 allowed themselves to be captured.",
+  "ideia": true,
+  "inicio_est": 287.14,
+  "dur_est": 16.07
+ },
+ {
+  "id": "B08b",
+  "texto": "The rest lay where they had fallen.\" So the Marine dead went into trenches and marked graves, often opened with bulldozers, side by side. And the Pentagon's fact sheet gives the rest. The Japanese were \"buried in bomb craters and existing trenches.\"",
+  "texto_voz": "The rest lay where they had fallen.\" So the Marine dead went into trenches and marked graves, often opened with bulldozers, side by side. And the Pentagon's fact sheet gives the rest. The Japanese were \"buried in bomb craters and existing trenches.\"",
+  "ideia": false,
+  "inicio_est": 303.21,
+  "dur_est": 15.0
+ },
+ {
+  "id": "B08c",
+  "texto": "No names. No markers. In many places, in the same sand as the Americans. A Navy inspector who toured the island in 1947 summed it up in two sentences, as quoted by the historian Geoffrey Roecker.",
+  "texto_voz": "No names. No markers. In many places, in the same sand as the Americans. A Navy inspector who toured the island in 1947 summed it up in two sentences, as quoted by the historian Geoffrey Roecker.",
+  "ideia": false,
+  "inicio_est": 318.21,
+  "dur_est": 12.86
+ },
+ {
+  "id": "B08d",
+  "texto": "\"There was no time to properly bury the dead. Such is war.\" Roecker also notes that the Japanese and Korean dead outnumbered the Americans about five to one. But the strangest part of this story was just getting started.",
+  "texto_voz": "\"There was no time to properly bury the dead. Such is war.\" Roecker also notes that the Japanese and Korean dead outnumbered the Americans about five to one. But the strangest part of this story was just getting started.",
+  "ideia": false,
+  "inicio_est": 331.07,
+  "dur_est": 13.93
+ },
+ {
+  "id": "B09a",
+  "texto": "Within days, the island became a construction site. Navy construction battalions, the Seabees, arrived to turn Betio into an air base. The fact sheet is blunt about what that meant. \"From 1943-1946 at least five SeaBee units cycled through the advanced base, without continuity of personnel.\"",
+  "texto_voz": "Within days, the island became a construction site. Navy construction battalions, the Seabees, arrived to turn Betio into an air base. The fact sheet is blunt about what that meant. \"From 1943-1946 at least five SeaBee units cycled through the advanced base, without continuity of personnel.\"",
+  "ideia": true,
+  "inicio_est": 345.0,
+  "dur_est": 16.43
+ },
+ {
+  "id": "B09b",
+  "texto": "They moved graves and markers to make room for roads and buildings. And then this line. \"No records of the movements have been found, and we suspect none were kept.\" In 1946, an Army graves registration company arrived to bring the American dead home.",
+  "texto_voz": "They moved graves and markers to make room for roads and buildings. And then this line. \"No records of the movements have been found, and we suspect none were kept.\" In 1946, an Army graves registration company arrived to bring the American dead home.",
+  "ideia": false,
+  "inicio_est": 361.43,
+  "dur_est": 15.71
+ },
+ {
+  "id": "B09c",
+  "texto": "By its own count, it found only about half of them. And one of its first unknowns was given a label. Unknown X-1.",
+  "texto_voz": "By its own count, it found only about half of them. And one of its first unknowns was given a label. Unknown X-1.",
+  "ideia": false,
+  "inicio_est": 377.14,
+  "dur_est": 8.21
+ },
+ {
+  "id": "B10a",
+  "texto": "X-1 was Betio's first unknown soldier, in the files of the American war dead. Later laboratory work found he was almost certainly not American at all. He was almost certainly a Japanese or Korean casualty.",
+  "texto_voz": "X-1 was Betio's first unknown soldier, in the files of the American war dead. Later laboratory work found he was almost certainly not American at all. He was almost certainly a Japanese or Korean casualty.",
+  "ideia": false,
+  "inicio_est": 385.36,
+  "dur_est": 12.5
+ },
+ {
+  "id": "B10b",
+  "texto": "The graves teams set aside any remains they thought were Japanese or Korean, for separate burial. But on an island where the two sides were mixed in the same holes, nobody could sort them reliably by eye.",
+  "texto_voz": "The graves teams set aside any remains they thought were Japanese or Korean, for separate burial. But on an island where the two sides were mixed in the same holes, nobody could sort them reliably by eye.",
+  "ideia": false,
+  "inicio_est": 397.86,
+  "dur_est": 13.21
+ },
+ {
+  "id": "B10c",
+  "texto": "By 1947, the remains they did collect were shipped to a laboratory in Hawaii. Hundreds were named. The rest were buried as unknowns, in Honolulu, under headstones with no names. And the other side?",
+  "texto_voz": "By 1947, the remains they did collect were shipped to a laboratory in Hawaii. Hundreds were named. The rest were buried as unknowns, in Honolulu, under headstones with no names. And the other side?",
+  "ideia": false,
+  "inicio_est": 411.07,
+  "dur_est": 12.14
+ },
+ {
+  "id": "B10d",
+  "texto": "Most of it never left the island. In 1949, someone even proposed burying all of Tarawa's unknowns together, in a single group grave. The fact sheet says that proposal \"was overturned,\" and the remains were separated again, into individuals. Even on paper, nobody could be sure who was who.",
+  "texto_voz": "Most of it never left the island. In 1949, someone even proposed burying all of Tarawa's unknowns together, in a single group grave. The fact sheet says that proposal \"was overturned,\" and the remains were separated again, into individuals. Even on paper, nobody could be sure who was who.",
+  "ideia": false,
+  "inicio_est": 423.21,
+  "dur_est": 17.5
+ },
+ {
+  "id": "B11a",
+  "texto": "The fact sheet has a second page, and it shows how slowly the island gave anything back. In 1978, several sets of mixed remains were handed over from Tarawa to the American laboratory in Hawaii, with one American identification tag. And then the line.",
+  "texto_voz": "The fact sheet has a second page, and it shows how slowly the island gave anything back. In 1978, several sets of mixed remains were handed over from Tarawa to the American laboratory in Hawaii, with one American identification tag. And then the line.",
+  "ideia": true,
+  "inicio_est": 440.71,
+  "dur_est": 15.71
+ },
+ {
+  "id": "B11b",
+  "texto": "\"31 comingled remains were returned to the Japanese government.\" Two years later, workers on a construction project dug up more. \"17 sets of remains were returned to the Japanese government.\" In 2000, locals building a driveway found two Americans.",
+  "texto_voz": "\"31 comingled remains were returned to the Japanese government.\" Two years later, workers on a construction project dug up more. \"17 sets of remains were returned to the Japanese government.\" In 2000, locals building a driveway found two Americans.",
+  "ideia": false,
+  "inicio_est": 456.43,
+  "dur_est": 13.93
+ },
+ {
+  "id": "B11c",
+  "texto": "In 2004, a Peace Corps volunteer turned over another. The same page ends with a table of every identification from the island in those years. Accession number, name, service number, date. Most lines have a name.",
+  "texto_voz": "In 2004, a Peace Corps volunteer turned over another. The same page ends with a table of every identification from the island in those years. Accession number, name, service number, date. Most lines have a name.",
+  "ideia": false,
+  "inicio_est": 470.36,
+  "dur_est": 12.86
+ },
+ {
+  "id": "B11d",
+  "texto": "The others just say UNKNOWN, followed by dashes. Every time someone on Betio dug a foundation, the war came up.",
+  "texto_voz": "The others just say UNKNOWN, followed by dashes. Every time someone on Betio dug a foundation, the war came up.",
+  "ideia": false,
+  "inicio_est": 483.21,
+  "dur_est": 7.14
+ },
+ {
+  "id": "B12a",
+  "texto": "Then came the searches that were meant to find Americans. In 2009, a Pentagon team checked spots that History Flight had marked. It recovered partial remains of at least six people. Its own fact sheet calls them people \"of unknown national origin.\"",
+  "texto_voz": "Then came the searches that were meant to find Americans. In 2009, a Pentagon team checked spots that History Flight had marked. It recovered partial remains of at least six people. Its own fact sheet calls them people \"of unknown national origin.\"",
+  "ideia": true,
+  "inicio_est": 490.36,
+  "dur_est": 15.0
+ },
+ {
+  "id": "B12b",
+  "texto": "A year later, a team dug where an American grave was supposed to be. According to the Associated Press, it found a mass grave of Japanese soldiers instead, in an old shell crater, and next to it, a forgotten cemetery of local islanders.",
+  "texto_voz": "A year later, a team dug where an American grave was supposed to be. According to the Associated Press, it found a mass grave of Japanese soldiers instead, in an old shell crater, and next to it, a forgotten cemetery of local islanders.",
+  "ideia": false,
+  "inicio_est": 505.36,
+  "dur_est": 15.36
+ },
+ {
+  "id": "B12c",
+  "texto": "Those remains were handed to the government of Kiribati. Because there aren't only two sides in this ground. The agency's scientists list the people they find on Betio as American, Japanese, Korean, and Kiribati nationals.",
+  "texto_voz": "Those remains were handed to the government of Kiribati. Because there aren't only two sides in this ground. The agency's scientists list the people they find on Betio as American, Japanese, Korean, and Kiribati nationals.",
+  "ideia": false,
+  "inicio_est": 520.71,
+  "dur_est": 12.5
+ },
+ {
+  "id": "B13a",
+  "texto": "There's one more reason this island keeps giving up the other side. In 2008, a private American group called History Flight began mapping Betio with instruments that read old disturbances in the soil. In November 2013, it excavated what it believed was a wartime fighting position.",
+  "texto_voz": "There's one more reason this island keeps giving up the other side. In 2008, a private American group called History Flight began mapping Betio with instruments that read old disturbances in the soil. In November 2013, it excavated what it believed was a wartime fighting position.",
+  "ideia": true,
+  "inicio_est": 533.21,
+  "dur_est": 16.43
+ },
+ {
+  "id": "B13b",
+  "texto": "Inside were five sets of remains. Four were Japanese. One was a nineteen-year-old private from Rush, Kentucky, named Randolph Allen, identified by the two dog tags found with him. Five men, two sides, one hole.",
+  "texto_voz": "Inside were five sets of remains. Four were Japanese. One was a nineteen-year-old private from Rush, Kentucky, named Randolph Allen, identified by the two dog tags found with him. Five men, two sides, one hole.",
+  "ideia": false,
+  "inicio_est": 549.64,
+  "dur_est": 12.5
+ },
+ {
+  "id": "B13c",
+  "texto": "In July 2014, Allen was buried at Arlington. The other four had no tags at all.",
+  "texto_voz": "In July 2014, Allen was buried at Arlington. The other four had no tags at all.",
+  "ideia": false,
+  "inicio_est": 562.14,
+  "dur_est": 5.71
+ },
+ {
+  "id": "B14a",
+  "texto": "In 2016, the Accounting Agency set up a team for this one battle: the Tarawa Project. It dug up all ninety-four caskets of Tarawa unknowns from the cemetery in Honolulu, and brought them to the lab beside the remains still coming out of Betio.",
+  "texto_voz": "In 2016, the Accounting Agency set up a team for this one battle: the Tarawa Project. It dug up all ninety-four caskets of Tarawa unknowns from the cemetery in Honolulu, and brought them to the lab beside the remains still coming out of Betio.",
+  "ideia": true,
+  "inicio_est": 567.86,
+  "dur_est": 15.71
+ },
+ {
+  "id": "B14b",
+  "texto": "Its scientists then wrote a paper about what they found. Here is the sentence. \"124 of the 243 (~50%) unique Sanger-generated mtDNA sequences are consistent with Asian haplogroups.\" There's the number from the beginning.",
+  "texto_voz": "Its scientists then wrote a paper about what they found. Here is the sentence. \"124 of the 243 (~50%) unique Sanger-generated mtDNA sequences are consistent with Asian haplogroups.\" There's the number from the beginning.",
+  "ideia": false,
+  "inicio_est": 583.57,
+  "dur_est": 12.14
+ },
+ {
+  "id": "B14c",
+  "texto": "Half of those DNA profiles in America's Tarawa search weren't American. And the paper notes why the ground is so mixed. After the war, the island filled up again, with \"houses built on top of cemeteries.\" History Flight kept digging.",
+  "texto_voz": "Half of those DNA profiles in America's Tarawa search weren't American. And the paper notes why the ground is so mixed. After the war, the island filled up again, with \"houses built on top of cemeteries.\" History Flight kept digging.",
+  "ideia": false,
+  "inicio_est": 595.71,
+  "dur_est": 14.29
+ },
+ {
+  "id": "B14d",
+  "texto": "In 2019, it recovered thirty-three sets of remains from a single burial trench. By September 2022, the agency had identified 160 Americans from this battle.",
+  "texto_voz": "In 2019, it recovered thirty-three sets of remains from a single burial trench. By September 2022, the agency had identified 160 Americans from this battle.",
+  "ideia": false,
+  "inicio_est": 610.0,
+  "dur_est": 8.93
+ },
+ {
+  "id": "B15a",
+  "texto": "How do you even begin to sort that? By the time of the paper, the lab's Tarawa inventory held nearly nine thousand separate items, about six thousand of them straight out of Betio's sand. The scientists describe three tools. The first is teeth.",
+  "texto_voz": "How do you even begin to sort that? By the time of the paper, the lab's Tarawa inventory held nearly nine thousand separate items, about six thousand of them straight out of Betio's sand. The scientists describe three tools. The first is teeth.",
+  "ideia": true,
+  "inicio_est": 618.93,
+  "dur_est": 15.36
+ },
+ {
+  "id": "B15b",
+  "texto": "Dental work done in America in the 1930s looks different from dental work done in Japan or Korea. The second is mitochondrial DNA, which follows the mother's line and can point to a broad ancestry, Asian or European. The third is chemistry.",
+  "texto_voz": "Dental work done in America in the 1930s looks different from dental work done in Japan or Korea. The second is mitochondrial DNA, which follows the mother's line and can point to a broad ancestry, Asian or European. The third is chemistry.",
+  "ideia": false,
+  "inicio_est": 634.29,
+  "dur_est": 15.0
+ },
+ {
+  "id": "B15c",
+  "texto": "Isotopes locked in the body record the water and the food of the place where someone grew up, and the paper says that should let the lab separate Japanese and Korean remains from American ones much faster. None of it gives a name by itself. For a name, you need a relative.",
+  "texto_voz": "Isotopes locked in the body record the water and the food of the place where someone grew up, and the paper says that should let the lab separate Japanese and Korean remains from American ones much faster. None of it gives a name by itself. For a name, you need a relative.",
+  "ideia": false,
+  "inicio_est": 649.29,
+  "dur_est": 18.57
+ },
+ {
+  "id": "B16a",
+  "texto": "So what do you do with half? In 2019, the American government gave Japan and South Korea samples from 162 sets of Asian remains collected on Tarawa. In April 2020, Japan's health ministry asked families of Tarawa's dead to send DNA. Sixty-two families applied.",
+  "texto_voz": "So what do you do with half? In 2019, the American government gave Japan and South Korea samples from 162 sets of Asian remains collected on Tarawa. In April 2020, Japan's health ministry asked families of Tarawa's dead to send DNA. Sixty-two families applied.",
+  "ideia": true,
+  "inicio_est": 667.86,
+  "dur_est": 15.71
+ },
+ {
+  "id": "B16b",
+  "texto": "One of them was a man in Nagasaki. In September 2020, the sample of a sailor found in 2013 matched his younger brother. The ministry announced it in February 2021: one set of remains from Tarawa, identified, going home through Nagasaki. Masatoshi Nomura came home after seventy-seven years.",
+  "texto_voz": "One of them was a man in Nagasaki. In September 2020, the sample of a sailor found in 2013 matched his younger brother. The ministry announced it in February 2021: one set of remains from Tarawa, identified, going home through Nagasaki. Masatoshi Nomura came home after seventy-seven years.",
+  "ideia": false,
+  "inicio_est": 683.57,
+  "dur_est": 17.14
+ },
+ {
+  "id": "B16c",
+  "texto": "Japanese reports called it a first: remains with no belongings and no burial list, given back their name. The ministry's notice was careful. Because the remains had been left so long, and because of technical limits, it said, results might not meet the families' expectations.",
+  "texto_voz": "Japanese reports called it a first: remains with no belongings and no burial list, given back their name. The ministry's notice was careful. Because the remains had been left so long, and because of technical limits, it said, results might not meet the families' expectations.",
+  "ideia": false,
+  "inicio_est": 700.71,
+  "dur_est": 16.07
+ },
+ {
+  "id": "B17a",
+  "texto": "Remember the 129 Koreans who walked off the island alive? More than a thousand others didn't. Korean reports say a scientist at the American lab flagged the Asian remains to Seoul, and Korea opened its own investigation in 2017.",
+  "texto_voz": "Remember the 129 Koreans who walked off the island alive? More than a thousand others didn't. Korean reports say a scientist at the American lab flagged the Asian remains to Seoul, and Korea opened its own investigation in 2017.",
+  "ideia": true,
+  "inicio_est": 716.79,
+  "dur_est": 13.93
+ },
+ {
+  "id": "B17b",
+  "texto": "Korean reports say the government collected DNA from 184 relatives of men believed to have been sent there. Among the remains was one known only as Tarawa number 46. In October 2019, Korea's national forensic service matched it to a family. His name was Choi Byeong-yeon.",
+  "texto_voz": "Korean reports say the government collected DNA from 184 relatives of men believed to have been sent there. Among the remains was one known only as Tarawa number 46. In October 2019, Korea's national forensic service matched it to a family. His name was Choi Byeong-yeon.",
+  "ideia": false,
+  "inicio_est": 730.71,
+  "dur_est": 16.43
+ },
+ {
+  "id": "B17c",
+  "texto": "He was twenty-four when he was taken to Tarawa in 1942. He left a wife and two sons. Then the pandemic closed Kiribati's borders. In December 2023, Choi came home.",
+  "texto_voz": "He was twenty-four when he was taken to Tarawa in 1942. He left a wife and two sons. Then the pandemic closed Kiribati's borders. In December 2023, Choi came home.",
+  "ideia": false,
+  "inicio_est": 747.14,
+  "dur_est": 10.71
+ },
+ {
+  "id": "B17d",
+  "texto": "Korea's Interior Ministry called it the first repatriation of its kind from the Pacific. His sons were in their eighties. In August 2024, Korea signed an agreement with the American agency to search the Pacific together.",
+  "texto_voz": "Korea's Interior Ministry called it the first repatriation of its kind from the Pacific. His sons were in their eighties. In August 2024, Korea signed an agreement with the American agency to search the Pacific together.",
+  "ideia": false,
+  "inicio_est": 757.86,
+  "dur_est": 12.86
+ },
+ {
+  "id": "B17e",
+  "texto": "Korea's government counts more than five thousand Koreans who were forcibly mobilized and never came back from the Pacific war zones.",
+  "texto_voz": "Korea's government counts more than five thousand Koreans who were forcibly mobilized and never came back from the Pacific war zones.",
+  "ideia": false,
+  "inicio_est": 770.71,
+  "dur_est": 7.5
+ },
+ {
+  "id": "B18a",
+  "texto": "Today, Betio looks like any crowded Pacific town. Tin roofs. Laundry lines. Kids on the reef at low tide.",
+  "texto_voz": "Today, Betio looks like any crowded Pacific town. Tin roofs. Laundry lines. Kids on the reef at low tide.",
+  "ideia": true,
+  "inicio_est": 778.21,
+  "dur_est": 6.79
+ },
+ {
+  "id": "B18b",
+  "texto": "The Japanese coastal guns are still there, rusting where the Marines found them. Some concrete bunkers still stand. This gun was photographed in 1943. This is the same battery today.",
+  "texto_voz": "The Japanese coastal guns are still there, rusting where the Marines found them. Some concrete bunkers still stand. This gun was photographed in 1943. This is the same battery today.",
+  "ideia": false,
+  "inicio_est": 785.0,
+  "dur_est": 10.71
+ },
+ {
+  "id": "B18c",
+  "texto": "In November 2023, for the eightieth anniversary, the American ambassador, the President of Kiribati and a delegation from Japan all laid wreaths at the memorial. Afterward, Marines carried flag-draped cases onto a waiting plane. The island is still giving people back.",
+  "texto_voz": "In November 2023, for the eightieth anniversary, the American ambassador, the President of Kiribati and a delegation from Japan all laid wreaths at the memorial. Afterward, Marines carried flag-draped cases onto a waiting plane. The island is still giving people back.",
+  "ideia": false,
+  "inicio_est": 795.71,
+  "dur_est": 14.64
+ },
+ {
+  "id": "B18d",
+  "texto": "In 1978, the census counted about seventy-six hundred people on Betio. By 2020, it was more than eighteen thousand. Every new house needed a foundation, a pipe, a septic pit.",
+  "texto_voz": "In 1978, the census counted about seventy-six hundred people on Betio. By 2020, it was more than eighteen thousand. Every new house needed a foundation, a pipe, a septic pit.",
+  "ideia": false,
+  "inicio_est": 810.36,
+  "dur_est": 10.71
+ },
+ {
+  "id": "B19a",
+  "texto": "In 1943, about six thousand men fell on this island. Today, about eighteen thousand people live on it. So how many are still down there? On the American side, the agency says about 374.",
+  "texto_voz": "In 1943, about six thousand men fell on this island. Today, about eighteen thousand people live on it. So how many are still down there? On the American side, the agency says about 374.",
+  "ideia": true,
+  "inicio_est": 821.07,
+  "dur_est": 12.14
+ },
+ {
+  "id": "B19b",
+  "texto": "On the other side, nobody can tell you exactly. The Marine Corps counted 4,690 in 1947. The old fact sheet says more than 3,000. Japan's own records say about 4,200.",
+  "texto_voz": "On the other side, nobody can tell you exactly. The Marine Corps counted 4,690 in 1947. The old fact sheet says more than 3,000. Japan's own records say about 4,200.",
+  "ideia": false,
+  "inicio_est": 833.21,
+  "dur_est": 10.71
+ },
+ {
+  "id": "B19c",
+  "texto": "The agency's scientists now write of over six thousand Japanese and Korean casualties. Some came back in 1978, in 1980, in 2019. Most never left. They're under the roads, under the buildings, under the backyards of eighteen thousand people.",
+  "texto_voz": "The agency's scientists now write of over six thousand Japanese and Korean casualties. Some came back in 1978, in 1980, in 2019. Most never left. They're under the roads, under the buildings, under the backyards of eighteen thousand people.",
+  "ideia": false,
+  "inicio_est": 843.93,
+  "dur_est": 13.93
+ },
+ {
+  "id": "B19d",
+  "texto": "The agency's last operation there was in April 2020. In Tokyo, the health ministry still invites Tarawa families to send DNA. The search isn't finished.",
+  "texto_voz": "The agency's last operation there was in April 2020. In Tokyo, the health ministry still invites Tarawa families to send DNA. The search isn't finished.",
+  "ideia": false,
+  "inicio_est": 857.86,
+  "dur_est": 8.93
+ },
+ {
+  "id": "B20a",
+  "texto": "So why is America digging up Japanese soldiers on Tarawa? Because in 1943, the two sides fell in the same few acres, and there was no time to sort them. Because the men who came next moved the graves and kept no records.",
+  "texto_voz": "So why is America digging up Japanese soldiers on Tarawa? Because in 1943, the two sides fell in the same few acres, and there was no time to sort them. Because the men who came next moved the graves and kept no records.",
+  "ideia": true,
+  "inicio_est": 866.79,
+  "dur_est": 15.36
+ },
+ {
+  "id": "B20b",
+  "texto": "And because the only way to find the Americans who are still missing is to dig where everyone was buried, and that ground holds all of them. And the labs that can tell one side from the other are the ones that were looking for someone else.",
+  "texto_voz": "And because the only way to find the Americans who are still missing is to dig where everyone was buried, and that ground holds all of them. And the labs that can tell one side from the other are the ones that were looking for someone else.",
+  "ideia": false,
+  "inicio_est": 882.14,
+  "dur_est": 16.79
+ },
+ {
+  "id": "B20c",
+  "texto": "Two hundred forty-three profiles. One hundred twenty-four, from the other side. Each one is someone's brother, or someone's father. So here's my question for you.",
+  "texto_voz": "Two hundred forty-three profiles. One hundred twenty-four, from the other side. Each one is someone's brother, or someone's father. So here's my question for you.",
+  "ideia": false,
+  "inicio_est": 898.93,
+  "dur_est": 8.93
+ },
+ {
+  "id": "B20d",
+  "texto": "If your family were still waiting for a name, would it matter to you which side of the beach he died on? This is Clearance Required. We go where the record goes. If you want the next one, subscribe.",
+  "texto_voz": "If your family were still waiting for a name, would it matter to you which side of the beach he died on? This is Clearance Required. We go where the record goes. If you want the next one, subscribe.",
+  "ideia": false,
+  "inicio_est": 907.86,
+  "dur_est": 13.93
+ }
+]

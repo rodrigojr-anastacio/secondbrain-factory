@@ -1,0 +1,5698 @@
+{
+ "stats": {
+  "planos": 216,
+  "duracao_s": 921.8,
+  "duracao": "15:21",
+  "planos_por_min": 14.1,
+  "real_pct": 86.0,
+  "reuso_pct": 55.6,
+  "componentes": {
+   "DocGrifo": 36,
+   "Número": 13,
+   "KenBurns": 111,
+   "Mapa2D": 6,
+   "Cartela": 10,
+   "Filme": 19,
+   "Dupla": 18,
+   "EntaoAgora": 2,
+   "Card": 1
+  },
+  "docs_distintos": 7,
+  "docs_grifados": 7,
+  "citacoes_literais": 13,
+  "numeros": 50,
+  "mapas_distintos": 3,
+  "entao_agora": 2,
+  "imagens_ia": 0,
+  "palavras": 2581,
+  "blocos_audio": 71
+ },
+ "pontos": {
+  "BETIO (TARAWA)": [
+   172.93,
+   1.35
+  ],
+  "HONOLULU": [
+   202.14,
+   21.31
+  ],
+  "NAGASAKI": [
+   129.87,
+   32.75
+  ],
+  "SEOUL": [
+   126.98,
+   37.57
+  ],
+  "TOKYO": [
+   139.69,
+   35.69
+  ],
+  "SASEBO": [
+   129.72,
+   33.18
+  ],
+  "KOREA": [
+   127.5,
+   36.5
+  ]
+ },
+ "planos": [
+  {
+   "id": "P001",
+   "bloco": "B01a",
+   "tipo": "DocGrifo",
+   "arq": "doc_taylor2019_p10_dna.png",
+   "enq": "pagina",
+   "inicio": 0.0,
+   "dur": 3.93,
+   "frase": "Here is a number from a Defense Department laboratory in Hawaii.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "2019 · DPAA SCIENTISTS, THE TARAWA PROJECT",
+    "",
+    "Taylor, Scott, Koehl, Trask, Maijanen (DPAA), 'The Tarawa Project Part I', Forensic Anthropology, 2019"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "Here is a number from a Defense Department laboratory"
+  },
+  {
+   "id": "P002",
+   "bloco": "B01a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:243",
+   "inicio": 3.93,
+   "dur": 1.07,
+   "frase": "Two hundred forty-three.",
+   "real": false,
+   "reuso": false,
+   "valor": "243",
+   "rotulo": "DISTINCT DNA PROFILES · THE TARAWA PROJECT",
+   "em": "Two hundred forty-three."
+  },
+  {
+   "id": "P003",
+   "bloco": "B01a",
+   "tipo": "KenBurns",
+   "arq": "hoje_caixas_transferencia_prateleira_5589365.jpg",
+   "enq": "zoom-in",
+   "inicio": 5.0,
+   "dur": 6.07,
+   "frase": "That's how many distinct DNA profiles its scientists have read from one small island in the Pacific.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 2019 · KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "That's how many distinct DNA profiles"
+  },
+  {
+   "id": "P004",
+   "bloco": "B01a",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_equipe_peneira_5589355.jpg",
+   "enq": "pan-dir",
+   "inicio": 11.07,
+   "dur": 1.43,
+   "frase": "Now the other number.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Now the other number."
+  },
+  {
+   "id": "P005",
+   "bloco": "B01b",
+   "tipo": "DocGrifo",
+   "arq": "doc_taylor2019_p10_dna.png",
+   "enq": "dna124",
+   "inicio": 12.5,
+   "dur": 3.21,
+   "frase": "One hundred twenty-four of them trace to Asian lineages.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "2019 · DPAA SCIENTISTS, THE TARAWA PROJECT",
+    "",
+    "Taylor, Scott, Koehl, Trask, Maijanen (DPAA), 'The Tarawa Project Part I', Forensic Anthropology, 2019"
+   ],
+   "grifo": [
+    [
+     0.3301,
+     0.4343,
+     0.1438,
+     0.024
+    ],
+    [
+     0.2239,
+     0.4583,
+     0.1781,
+     0.0253
+    ]
+   ],
+   "literal": false,
+   "em": "One hundred twenty-four of them"
+  },
+  {
+   "id": "P006",
+   "bloco": "B01b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:124",
+   "inicio": 15.71,
+   "dur": 2.86,
+   "frase": "Hold on to that number: one hundred twenty-four.",
+   "real": false,
+   "reuso": false,
+   "valor": "124",
+   "rotulo": "OF 243 · ASIAN LINEAGES",
+   "em": "Hold on to that number:"
+  },
+  {
+   "id": "P007",
+   "bloco": "B01b",
+   "tipo": "KenBurns",
+   "arq": "hoje_atol_tarawa_iss_2017.jpg",
+   "enq": "zoom-in",
+   "inicio": 18.57,
+   "dur": 2.5,
+   "frase": "The island is Betio, in Tarawa Atoll.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 10, 2017 · TARAWA ATOLL FROM ISS",
+    "",
+    "NASA / astronaut Randolph Bresnik (ISS Expedition 53), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The island is Betio,"
+  },
+  {
+   "id": "P008",
+   "bloco": "B01b",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p1.png",
+   "enq": "pagina",
+   "inicio": 21.07,
+   "dur": 4.64,
+   "frase": "And this is a page from the Pentagon's own fact sheet about it.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "And this is a page from"
+  },
+  {
+   "id": "P009",
+   "bloco": "B01c",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p1.png",
+   "enq": "craters",
+   "inicio": 25.71,
+   "dur": 5.0,
+   "frase": "It says the enemy dead there were \"buried in bomb craters and existing trenches.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "frase_doc": "buried in bomb craters and existing trenches",
+   "grifo": [
+    [
+     0.7353,
+     0.3775,
+     0.1275,
+     0.0227
+    ],
+    [
+     0.1699,
+     0.3939,
+     0.2271,
+     0.024
+    ]
+   ],
+   "literal": true,
+   "em": "It says the enemy dead"
+  },
+  {
+   "id": "P010",
+   "bloco": "B01c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:?",
+   "inicio": 30.71,
+   "dur": 3.57,
+   "frase": "So why is America digging up Japanese soldiers on Tarawa?",
+   "real": false,
+   "reuso": false,
+   "valor": "?",
+   "rotulo": "WHY IS AMERICA DIGGING UP JAPANESE SOLDIERS ON TARAWA?",
+   "em": "So why is America digging up"
+  },
+  {
+   "id": "P011",
+   "bloco": "B02a",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_sitio_ajoelhados_5589359.jpg",
+   "enq": "zoom-in",
+   "inicio": 34.29,
+   "dur": 2.86,
+   "frase": "It isn't a mistake. It isn't a secret.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "It isn't a mistake."
+  },
+  {
+   "id": "P012",
+   "bloco": "B02a",
+   "tipo": "KenBurns",
+   "arq": "foto_cruzes_cemiterio_betio_1943.jpg",
+   "enq": "pan-esq",
+   "inicio": 37.14,
+   "dur": 1.43,
+   "frase": "And it isn't new.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV-DEC 1943 · BETIO CEMETERY",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "And it isn't new."
+  },
+  {
+   "id": "P013",
+   "bloco": "B02a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:volta",
+   "inicio": 38.57,
+   "dur": 3.57,
+   "frase": "In February 2021, in the arrivals area of Nagasaki Airport,",
+   "real": false,
+   "reuso": false,
+   "nome": "volta",
+   "pontos": [
+    "BETIO (TARAWA)",
+    "HONOLULU",
+    "NAGASAKI"
+   ],
+   "linhas": [
+    [
+     "BETIO (TARAWA)",
+     "HONOLULU",
+     ""
+    ],
+    [
+     "HONOLULU",
+     "NAGASAKI",
+     "2021"
+    ]
+   ],
+   "selo": "SCHEMATIC",
+   "nota": "",
+   "em": "In February 2021,"
+  },
+  {
+   "id": "P014",
+   "bloco": "B02a",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:SADAYUKI NOMURA",
+   "inicio": 42.14,
+   "dur": 4.64,
+   "frase": "a man named Sadayuki Nomura was handed the remains of his older brother.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "SADAYUKI NOMURA",
+    "NAGASAKI AIRPORT · FEB 26, 2021"
+   ],
+   "selo": "RECORD",
+   "em": "a man named Sadayuki Nomura"
+  },
+  {
+   "id": "P015",
+   "bloco": "B02b",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_bandeira_foco_5589328.jpg",
+   "enq": "detalhe:0.5,0.4",
+   "inicio": 46.79,
+   "dur": 1.07,
+   "frase": "He was ninety-two.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "92",
+    "SADAYUKI NOMURA"
+   ],
+   "de": [
+    0.5,
+    0.4,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.4,
+    1.55
+   ],
+   "em": "He was ninety-two."
+  },
+  {
+   "id": "P016",
+   "bloco": "B02b",
+   "tipo": "KenBurns",
+   "arq": "foto_posicao_camuflada_80g57435.jpg",
+   "enq": "zoom-in",
+   "inicio": 47.86,
+   "dur": 7.14,
+   "frase": "His brother, Masatoshi, had been a petty officer in the Imperial Japanese Navy, in a naval landing force from Sasebo.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "His brother, Masatoshi,"
+  },
+  {
+   "id": "P017",
+   "bloco": "B02b",
+   "tipo": "Filme",
+   "arq": "filme_fumaca_sobre_betio_do_mar_nara77026.mp4",
+   "enq": "0.5-7.0",
+   "inicio": 55.0,
+   "dur": 4.29,
+   "frase": "He was twenty-three when he was lost on Tarawa, in November 1943.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "20 NOV 1943 · OFF BETIO",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "num": [
+    "NOV 1943",
+    "TARAWA"
+   ],
+   "em": "He was twenty-three",
+   "tin": 0.5,
+   "tout": 7.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P018",
+   "bloco": "B02c",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_dpaa_history_flight_5589362.jpg",
+   "enq": "zoom-in",
+   "inicio": 59.29,
+   "dur": 6.07,
+   "frase": "He had been found in 2013, by a team from America that was looking for someone else.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "He had been found in 2013,"
+  },
+  {
+   "id": "P019",
+   "bloco": "B02c",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_caixa_bandeira_pista_5589325.jpg",
+   "enq": "pan-dir",
+   "inicio": 65.36,
+   "dur": 2.5,
+   "frase": "The Americans were searching for their own.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "The Americans were searching"
+  },
+  {
+   "id": "P020",
+   "bloco": "B02d",
+   "tipo": "Filme",
+   "arq": "filme_prisioneiros_sentados_nara75866.mp4",
+   "enq": "0.5-6.5",
+   "inicio": 67.86,
+   "dur": 3.93,
+   "frase": "Along the way, you'll see who was really on this island,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "Along the way, you'll see who",
+   "tin": 0.5,
+   "tout": 6.5,
+   "vel": 1.0
+  },
+  {
+   "id": "P021",
+   "bloco": "B02d",
+   "tipo": "DocGrifo",
+   "arq": "doc_stock1947_cap5.png",
+   "enq": "pagina",
+   "inicio": 71.79,
+   "dur": 5.0,
+   "frase": "the papers that explain why the two sides ended up in the same ground,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1947 · USMC OFFICIAL HISTORY",
+    "",
+    "Capt. James R. Stockman, 'The Battle for Tarawa' (Historical Section, USMC, 1947), via HyperWar"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "the papers that explain"
+  },
+  {
+   "id": "P022",
+   "bloco": "B02d",
+   "tipo": "KenBurns",
+   "arq": "hoje_criancas_praia_betio_5603928.jpg",
+   "enq": "zoom-in",
+   "inicio": 76.79,
+   "dur": 5.0,
+   "frase": "and what is still under the town that stands on top of them today.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Cpl. Taryn Escott, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "and what is still under the town"
+  },
+  {
+   "id": "P023",
+   "bloco": "B03a",
+   "tipo": "KenBurns",
+   "arq": "hoje_bunker_japones_visita_5589369.jpg",
+   "enq": "pan-dir",
+   "inicio": 81.79,
+   "dur": 2.5,
+   "frase": "Tarawa isn't closed. Anyone can fly there.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Tarawa isn't closed."
+  },
+  {
+   "id": "P024",
+   "bloco": "B03a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:pacifico",
+   "inicio": 84.29,
+   "dur": 5.71,
+   "frase": "Betio, in the Republic of Kiribati, is one of the most crowded islands in the Pacific:",
+   "real": false,
+   "reuso": false,
+   "nome": "pacifico",
+   "pontos": [
+    "BETIO (TARAWA)",
+    "HONOLULU",
+    "TOKYO"
+   ],
+   "linhas": [],
+   "nota": "",
+   "em": "Betio, in the Republic of Kiribati,"
+  },
+  {
+   "id": "P025",
+   "bloco": "B03a",
+   "tipo": "KenBurns",
+   "arq": "hoje_criancas_praia_betio_5603928.jpg",
+   "enq": "pan-esq",
+   "inicio": 90.0,
+   "dur": 3.57,
+   "frase": "about eighteen thousand people on less than two square kilometers.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Cpl. Taryn Escott, via DVIDS"
+   ],
+   "num": [
+    "18,000",
+    "PEOPLE ON BETIO · LESS THAN 2 KM²"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "about eighteen thousand people"
+  },
+  {
+   "id": "P026",
+   "bloco": "B03a",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_sitio_ajoelhados_5589359.jpg",
+   "enq": "detalhe:0.5,0.6",
+   "inicio": 93.57,
+   "dur": 2.5,
+   "frase": "What you can't visit is what's underneath.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.6,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.6,
+    1.55
+   ],
+   "em": "What you can't visit"
+  },
+  {
+   "id": "P027",
+   "bloco": "B03b",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpaa_tarawa_casualties.png",
+   "enq": "pagina",
+   "inicio": 96.07,
+   "dur": 2.14,
+   "frase": "The Defense POW/MIA Accounting Agency says",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DPAA · TARAWA",
+    "",
+    "Defense POW/MIA Accounting Agency"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "The Defense POW/MIA Accounting Agency says"
+  },
+  {
+   "id": "P028",
+   "bloco": "B03b",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpaa_tarawa_casualties.png",
+   "enq": "d374",
+   "inicio": 98.21,
+   "dur": 3.57,
+   "frase": "about 374 Americans from this battle are still unaccounted for.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DPAA · TARAWA",
+    "",
+    "Defense POW/MIA Accounting Agency"
+   ],
+   "frase_doc": "374",
+   "grifo": [
+    [
+     0.2124,
+     0.5606,
+     0.0408,
+     0.0215
+    ]
+   ],
+   "literal": true,
+   "em": "about 374 Americans"
+  },
+  {
+   "id": "P029",
+   "bloco": "B03b",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_bandeira_foco_5589328.jpg",
+   "enq": "zoom-in",
+   "inicio": 101.79,
+   "dur": 3.57,
+   "frase": "That's the number every news story about Tarawa is about.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "That's the number every news story"
+  },
+  {
+   "id": "P030",
+   "bloco": "B03b",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpaa_tarawa_casualties.png",
+   "enq": "commingled",
+   "inicio": 105.36,
+   "dur": 7.86,
+   "frase": "But the agency's own page has another sentence. \"In many instances, U.S. casualties are commingled with those of Japanese and Korean dead.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPAA · TARAWA",
+    "",
+    "Defense POW/MIA Accounting Agency"
+   ],
+   "frase_doc": "commingled",
+   "grifo": [
+    [
+     0.1307,
+     0.6187,
+     0.1029,
+     0.0215
+    ]
+   ],
+   "literal": true,
+   "em": "But the agency's own page"
+  },
+  {
+   "id": "P031",
+   "bloco": "B03c",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_sitio_ajoelhados_5589359.jpg",
+   "enq": "detalhe:0.4,0.6",
+   "inicio": 113.21,
+   "dur": 1.07,
+   "frase": "Commingled. Mixed together.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "COMMINGLED",
+    "MIXED TOGETHER"
+   ],
+   "de": [
+    0.4,
+    0.6,
+    1.35
+   ],
+   "para": [
+    0.4,
+    0.6,
+    1.55
+   ],
+   "em": "Commingled."
+  },
+  {
+   "id": "P032",
+   "bloco": "B03c",
+   "tipo": "DocGrifo",
+   "arq": "doc_stock1947_apendice_c.png",
+   "enq": "g4836",
+   "inicio": 114.29,
+   "dur": 5.0,
+   "frase": "And on the other side of the ledger, the numbers aren't in the hundreds.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1947 · APPENDIX C, JAPANESE CASUALTIES",
+    "",
+    "Capt. James R. Stockman, 'The Battle for Tarawa' (USMC, 1947), Appendix C, via HyperWar"
+   ],
+   "grifo": [
+    [
+     0.7565,
+     0.2538,
+     0.0572,
+     0.024
+    ]
+   ],
+   "literal": false,
+   "em": "And on the other side of the ledger,"
+  },
+  {
+   "id": "P033",
+   "bloco": "B03c",
+   "tipo": "KenBurns",
+   "arq": "foto_bunker_aterrado_80g57356.jpg",
+   "enq": "zoom-in",
+   "inicio": 119.29,
+   "dur": 1.43,
+   "frase": "They're in the thousands.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "num": [
+    "4,690",
+    "JAPANESE & KOREAN · USMC, 1947"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "They're in the thousands."
+  },
+  {
+   "id": "P034",
+   "bloco": "B03d",
+   "tipo": "KenBurns",
+   "arq": "hoje_bateria_costeira_14cm_2019.jpg",
+   "enq": "pan-esq",
+   "inicio": 120.71,
+   "dur": 1.07,
+   "frase": "Visitors do come.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo, via Wikimedia Commons"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Visitors do come."
+  },
+  {
+   "id": "P035",
+   "bloco": "B03d",
+   "tipo": "KenBurns",
+   "arq": "hoje_bunker_japones_vista_mar_5589372.jpg",
+   "enq": "zoom-in",
+   "inicio": 121.79,
+   "dur": 3.21,
+   "frase": "They photograph the rusting guns and the old bunkers.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "They photograph"
+  },
+  {
+   "id": "P036",
+   "bloco": "B03d",
+   "tipo": "KenBurns",
+   "arq": "hoje_criancas_praia_betio_5603928.jpg",
+   "enq": "detalhe:0.4,0.65",
+   "inicio": 125.0,
+   "dur": 4.64,
+   "frase": "Very few of them think about what's under the road they're standing on.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Cpl. Taryn Escott, via DVIDS"
+   ],
+   "de": [
+    0.4,
+    0.65,
+    1.35
+   ],
+   "para": [
+    0.4,
+    0.65,
+    1.55
+   ],
+   "em": "Very few of them"
+  },
+  {
+   "id": "P037",
+   "bloco": "B04a",
+   "tipo": "Filme",
+   "arq": "filme_maquete_betio_briefing_navio_nara77026.mp4",
+   "enq": "0.5-7.0",
+   "inicio": 129.64,
+   "dur": 6.07,
+   "frase": "To understand how that happened, you have to see who was on Betio before the Marines came.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · ABOARD SHIP",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "To understand how that happened,",
+   "tin": 0.5,
+   "tout": 7.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P038",
+   "bloco": "B04a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:pacifico",
+   "inicio": 135.71,
+   "dur": 4.64,
+   "frase": "In September 1942, a Japanese naval landing force came ashore for garrison duty.",
+   "real": false,
+   "reuso": false,
+   "nome": "pacifico",
+   "pontos": [
+    "TOKYO",
+    "BETIO (TARAWA)"
+   ],
+   "linhas": [
+    [
+     "TOKYO",
+     "BETIO (TARAWA)",
+     "SEPT 1942"
+    ]
+   ],
+   "nota": "",
+   "em": "In September 1942,"
+  },
+  {
+   "id": "P039",
+   "bloco": "B04a",
+   "tipo": "KenBurns",
+   "arq": "foto_general_bunker_80g57391.jpg",
+   "enq": "zoom-in",
+   "inicio": 140.36,
+   "dur": 3.57,
+   "frase": "In December, a pioneer unit arrived to build the defenses.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "In December, a pioneer unit"
+  },
+  {
+   "id": "P040",
+   "bloco": "B04a",
+   "tipo": "KenBurns",
+   "arq": "foto_bunker_aterrado_80g57356.jpg",
+   "enq": "detalhe:0.5,0.45",
+   "inicio": 143.93,
+   "dur": 0.71,
+   "frase": "Concrete bunkers.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.45,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.45,
+    1.55
+   ],
+   "em": "Concrete bunkers."
+  },
+  {
+   "id": "P041",
+   "bloco": "B04b",
+   "tipo": "KenBurns",
+   "arq": "foto_posicao_camuflada_80g57435.jpg",
+   "enq": "pan-dir",
+   "inicio": 144.64,
+   "dur": 0.71,
+   "frase": "Coconut-log walls.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Coconut-log walls."
+  },
+  {
+   "id": "P042",
+   "bloco": "B04b",
+   "tipo": "Filme",
+   "arq": "filme_canhao_casamata_interior_nara75866.mp4",
+   "enq": "0.5-5.5",
+   "inicio": 145.36,
+   "dur": 2.14,
+   "frase": "Big coastal guns facing the sea.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "Big coastal guns",
+   "tin": 0.5,
+   "tout": 5.5,
+   "vel": 1.0
+  },
+  {
+   "id": "P043",
+   "bloco": "B04b",
+   "tipo": "KenBurns",
+   "arq": "mapa_betio_intelligence_map_2dmardiv_1943.png",
+   "enq": "zoom-in",
+   "inicio": 147.5,
+   "dur": 4.64,
+   "frase": "The island is shaped a little like a bird lying on its back.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO (BITITU) ISLAND",
+    "",
+    "Joseph H. Alexander, 'Across the Reef: The Marine Assault of Tarawa' (USMC History and Museums Division, 1993; obra do governo dos EUA, PD Mark no Internet Archive)"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The island is shaped"
+  },
+  {
+   "id": "P044",
+   "bloco": "B04b",
+   "tipo": "KenBurns",
+   "arq": "foto_aerea_hawkins_field_1944.jpg",
+   "enq": "zoom-in",
+   "inicio": 152.14,
+   "dur": 5.0,
+   "frase": "It's about three hundred acres of sand, only a few feet above the tide.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "MAR 1944 · HAWKINS FIELD, BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "num": [
+    "300",
+    "ACRES OF SAND · BETIO, 1943"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "It's about three hundred acres"
+  },
+  {
+   "id": "P045",
+   "bloco": "B04c",
+   "tipo": "Filme",
+   "arq": "filme_prisioneiros_sentados_nara75866.mp4",
+   "enq": "7.0-13.0",
+   "inicio": 157.14,
+   "dur": 4.64,
+   "frase": "And the people who did much of the building weren't soldiers at all.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "And the people who did much",
+   "tin": 7.0,
+   "tout": 13.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P046",
+   "bloco": "B04c",
+   "tipo": "KenBurns",
+   "arq": "foto_prisioneiros_arame_farpado_dpla.jpg",
+   "enq": "zoom-in",
+   "inicio": 161.79,
+   "dur": 7.14,
+   "frase": "The Accounting Agency says that, in the year before the battle, those laborers built up much of the island's defenses.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The Accounting Agency says"
+  },
+  {
+   "id": "P047",
+   "bloco": "B04d",
+   "tipo": "Filme",
+   "arq": "filme_defesas_praia_arame_nara75866.mp4",
+   "enq": "0.5-10.0",
+   "inicio": 168.93,
+   "dur": 8.57,
+   "frase": "In other words, many of the walls the Marines would have to break through were built by men who never chose to be there.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO BEACH",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "In other words,",
+   "tin": 0.5,
+   "tout": 10.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P048",
+   "bloco": "B05a",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"MORE THAN 2,500 JAPANESE SOLDIERS DEFENDED IT, ALONG WITH SOME 1,000 JAPANESE CONSTRUCTION WORKERS AND 1,200 KOREAN FORCED LABORERS.\"",
+   "inicio": 177.5,
+   "dur": 9.64,
+   "frase": "The Accounting Agency puts it this way. More than 2,500 Japanese soldiers defended the island, \"along with some 1,000 Japanese construction workers and 1,200 Korean forced laborers.\"",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"MORE THAN 2,500 JAPANESE SOLDIERS DEFENDED IT, ALONG WITH SOME 1,000 JAPANESE CONSTRUCTION WORKERS AND 1,200 KOREAN FORCED LABORERS.\"",
+    "— DPAA, THE BATTLE OF TARAWA"
+   ],
+   "selo": "QUOTED",
+   "em": "The Accounting Agency puts it this way."
+  },
+  {
+   "id": "P049",
+   "bloco": "B05a",
+   "tipo": "KenBurns",
+   "arq": "foto_prisioneiros_arame_farpado_dpla.jpg",
+   "enq": "pan-esq",
+   "inicio": 187.14,
+   "dur": 2.14,
+   "frase": "Korea was a Japanese colony then.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "num": [
+    "1,200",
+    "KOREAN FORCED LABORERS"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Korea was a Japanese colony then."
+  },
+  {
+   "id": "P050",
+   "bloco": "B05a",
+   "tipo": "KenBurns",
+   "arq": "foto_prisioneiros_nara532519.jpg",
+   "enq": "pan-esq",
+   "inicio": 189.29,
+   "dur": 5.36,
+   "frase": "Men were taken from farms and towns and shipped across the Pacific to pour concrete.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Men were taken from farms"
+  },
+  {
+   "id": "P051",
+   "bloco": "B05b",
+   "tipo": "DocGrifo",
+   "arq": "doc_stock1947_apendice_c.png",
+   "enq": "pagina",
+   "inicio": 194.64,
+   "dur": 4.29,
+   "frase": "On November 20th, 1943, the Marine Corps counted the garrison at 4,836.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1947 · APPENDIX C, JAPANESE CASUALTIES",
+    "",
+    "Capt. James R. Stockman, 'The Battle for Tarawa' (USMC, 1947), Appendix C, via HyperWar"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "On November 20th, 1943,"
+  },
+  {
+   "id": "P052",
+   "bloco": "B05b",
+   "tipo": "KenBurns",
+   "arq": "foto_prisioneiros_japoneses_praia.jpg",
+   "enq": "zoom-in",
+   "inicio": 198.93,
+   "dur": 2.86,
+   "frase": "When the fighting stopped, it counted the prisoners.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "When the fighting stopped,"
+  },
+  {
+   "id": "P053",
+   "bloco": "B05b",
+   "tipo": "DocGrifo",
+   "arq": "doc_stock1947_apendice_c.png",
+   "enq": "g129",
+   "inicio": 201.79,
+   "dur": 2.14,
+   "frase": "Seventeen Japanese. And 129 Korean laborers.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1947 · APPENDIX C, JAPANESE CASUALTIES",
+    "",
+    "Capt. James R. Stockman, 'The Battle for Tarawa' (USMC, 1947), Appendix C, via HyperWar"
+   ],
+   "frase_doc": "129",
+   "grifo": [
+    [
+     0.6977,
+     0.3106,
+     0.0425,
+     0.024
+    ]
+   ],
+   "literal": true,
+   "em": "Seventeen Japanese."
+  },
+  {
+   "id": "P054",
+   "bloco": "B05b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:129",
+   "inicio": 203.93,
+   "dur": 1.79,
+   "frase": "Remember that number, too: 129.",
+   "real": false,
+   "reuso": false,
+   "valor": "129",
+   "rotulo": "KOREAN LABORERS WALKED OFF ALIVE",
+   "em": "Remember that number, too:"
+  },
+  {
+   "id": "P055",
+   "bloco": "B06a",
+   "tipo": "Filme",
+   "arq": "filme_cruzador_dispara_alvo_nara75861.mp4",
+   "enq": "0.5-6.5",
+   "inicio": 205.71,
+   "dur": 2.5,
+   "frase": "The landing was supposed to be quick.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "20 NOV 1943 · OFF TARAWA",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "The landing was supposed to be quick.",
+   "tin": 0.5,
+   "tout": 6.5,
+   "vel": 1.0
+  },
+  {
+   "id": "P056",
+   "bloco": "B06a",
+   "tipo": "Filme",
+   "arq": "filme_lanchas_recife_nara77026.mp4",
+   "enq": "0.5-7.0",
+   "inicio": 208.21,
+   "dur": 5.0,
+   "frase": "The tide was lower than planned, and many landing boats stuck on the reef.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO REEF",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "The tide was lower",
+   "tin": 0.5,
+   "tout": 7.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P057",
+   "bloco": "B06a",
+   "tipo": "Filme",
+   "arq": "filme_aproximacao_lanchas_fumaca_betio_nara77026.mp4",
+   "enq": "0.5-7.0",
+   "inicio": 213.21,
+   "dur": 3.93,
+   "frase": "Marines waded hundreds of yards under fire to reach a seawall.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "20 NOV 1943 · APPROACH TO BETIO",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "Marines waded",
+   "tin": 0.5,
+   "tout": 7.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P058",
+   "bloco": "B06a",
+   "tipo": "KenBurns",
+   "arq": "foto_fuzileiros_invadem_nara532517.jpg",
+   "enq": "pan-dir",
+   "inicio": 217.14,
+   "dur": 2.86,
+   "frase": "It took seventy-six hours to take the island.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "20 NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "num": [
+    "76",
+    "HOURS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "It took seventy-six hours"
+  },
+  {
+   "id": "P059",
+   "bloco": "B06b",
+   "tipo": "KenBurns",
+   "arq": "foto_fuzileiros_invadem_nara532517.jpg",
+   "enq": "zoom-in",
+   "inicio": 220.0,
+   "dur": 2.5,
+   "frase": "More than a thousand Americans were lost.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "20 NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "More than a thousand Americans"
+  },
+  {
+   "id": "P060",
+   "bloco": "B06b",
+   "tipo": "KenBurns",
+   "arq": "foto_cruzes_cemiterio_betio_1943.jpg",
+   "enq": "detalhe:0.4,0.5",
+   "inicio": 222.5,
+   "dur": 5.36,
+   "frase": "The Marine Corps' casualty division counted 3,301 Marine casualties in all, killed, missing and wounded.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV-DEC 1943 · BETIO CEMETERY",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "num": [
+    "3,301",
+    "MARINE CASUALTIES · USMC, 1947"
+   ],
+   "de": [
+    0.4,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.4,
+    0.5,
+    1.55
+   ],
+   "em": "The Marine Corps' casualty division"
+  },
+  {
+   "id": "P061",
+   "bloco": "B06b",
+   "tipo": "Filme",
+   "arq": "filme_canhao_destruido_betio_nara77026.mp4",
+   "enq": "0.5-6.5",
+   "inicio": 227.86,
+   "dur": 5.0,
+   "frase": "The Japanese commander, Rear Admiral Keiji Shibasaki, was lost in the first two days.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "The Japanese commander,",
+   "tin": 0.5,
+   "tout": 6.5,
+   "vel": 1.0
+  },
+  {
+   "id": "P062",
+   "bloco": "B06c",
+   "tipo": "DocGrifo",
+   "arq": "doc_stock1947_cap5.png",
+   "enq": "pagina",
+   "inicio": 232.86,
+   "dur": 5.71,
+   "frase": "The Marine Corps' official history, written in 1947, put the other side in a single line.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1947 · USMC OFFICIAL HISTORY",
+    "",
+    "Capt. James R. Stockman, 'The Battle for Tarawa' (Historical Section, USMC, 1947), via HyperWar"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "The Marine Corps' official history,"
+  },
+  {
+   "id": "P063",
+   "bloco": "B06c",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"…ANNIHILATED ALL BUT 146 OF THE ENEMY'S 4,836 MEN.\"",
+   "inicio": 238.57,
+   "dur": 4.64,
+   "frase": "The division, it said, \"annihilated all but 146 of the enemy's 4,836 men.\"",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"…ANNIHILATED ALL BUT 146 OF THE ENEMY'S 4,836 MEN.\"",
+    "— THE BATTLE FOR TARAWA, USMC, 1947"
+   ],
+   "selo": "QUOTED",
+   "em": "The division, it said,"
+  },
+  {
+   "id": "P064",
+   "bloco": "B06c",
+   "tipo": "DocGrifo",
+   "arq": "doc_stock1947_apendice_c.png",
+   "enq": "g4690",
+   "inicio": 243.21,
+   "dur": 1.79,
+   "frase": "On paper, that's 4,690 men.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1947 · APPENDIX C, JAPANESE CASUALTIES",
+    "",
+    "Capt. James R. Stockman, 'The Battle for Tarawa' (USMC, 1947), Appendix C, via HyperWar"
+   ],
+   "frase_doc": "4,690",
+   "grifo": [
+    [
+     0.7565,
+     0.3952,
+     0.0572,
+     0.0253
+    ]
+   ],
+   "literal": true,
+   "em": "On paper, that's 4,690 men."
+  },
+  {
+   "id": "P065",
+   "bloco": "B06c",
+   "tipo": "KenBurns",
+   "arq": "foto_aerea_hawkins_field_1944.jpg",
+   "enq": "zoom-out",
+   "inicio": 245.0,
+   "dur": 1.79,
+   "frase": "On about three hundred acres.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "MAR 1944 · HAWKINS FIELD, BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "On about three hundred acres."
+  },
+  {
+   "id": "P066",
+   "bloco": "B07a",
+   "tipo": "KenBurns",
+   "arq": "foto_aerea_hawkins_field_1944.jpg",
+   "enq": "pan-esq",
+   "inicio": 246.79,
+   "dur": 9.64,
+   "frase": "Put the two sides together and it's close to six thousand men, on a strip of sand less than half the size of New York's Central Park.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "MAR 1944 · HAWKINS FIELD, BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "num": [
+    "~6,000",
+    "MEN, BOTH SIDES · ABOUT 300 ACRES"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Put the two sides together"
+  },
+  {
+   "id": "P067",
+   "bloco": "B07a",
+   "tipo": "Filme",
+   "arq": "filme_fuzileiros_caminham_pista_nara77026.mp4",
+   "enq": "0.5-6.5",
+   "inicio": 256.43,
+   "dur": 4.29,
+   "frase": "In that heat, the line between the two sides didn't last long.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "In that heat,",
+   "tin": 0.5,
+   "tout": 6.5,
+   "vel": 1.0
+  },
+  {
+   "id": "P068",
+   "bloco": "B07a",
+   "tipo": "KenBurns",
+   "arq": "foto_fuzileiros_municao_80g57359.jpg",
+   "enq": "zoom-in",
+   "inicio": 260.71,
+   "dur": 3.21,
+   "frase": "A Marine artilleryman, Roger Scovill, later described the problem.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO BEACH",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "A Marine artilleryman,"
+  },
+  {
+   "id": "P069",
+   "bloco": "B07b",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"…THE ONLY WAY WE COULD TELL A MARINE FROM A JAPANESE WAS BY THE WEB GEAR THAT WE WERE WEARING AND BY THE ARMAMENT THAT THE MAN HAD.\"",
+   "inicio": 263.93,
+   "dur": 3.57,
+   "frase": "\"Within a very short period, let's say two, three hours,",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"…THE ONLY WAY WE COULD TELL A MARINE FROM A JAPANESE WAS BY THE WEB GEAR THAT WE WERE WEARING AND BY THE ARMAMENT THAT THE MAN HAD.\"",
+    "— ROGER SCOVILL, 10TH MARINES (VIA G. ROECKER)"
+   ],
+   "selo": "QUOTED",
+   "em": "\"Within a very short period,"
+  },
+  {
+   "id": "P070",
+   "bloco": "B07b",
+   "tipo": "KenBurns",
+   "arq": "foto_fuzileiros_municao_80g57359.jpg",
+   "enq": "detalhe:0.5,0.4",
+   "inicio": 267.5,
+   "dur": 10.0,
+   "frase": "the only way we could tell a Marine from a Japanese was by the web gear that we were wearing and by the armament that the man had.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO BEACH",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.4,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.4,
+    1.55
+   ],
+   "em": "the only way we could tell"
+  },
+  {
+   "id": "P071",
+   "bloco": "B07b",
+   "tipo": "Dupla",
+   "arq": "foto_sherman_tripulacao_80g57422.jpg",
+   "arq2": "foto_fuzileiros_municao_80g57359.jpg",
+   "enq": "dupla",
+   "inicio": 277.5,
+   "dur": 3.57,
+   "frase": "That sentence is the whole story of what came next.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "NOV 1943 · BETIO BEACH",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "rot1": "NOV 1943",
+   "rot2": "NOV 1943",
+   "em": "That sentence is the whole story"
+  },
+  {
+   "id": "P072",
+   "bloco": "B07c",
+   "tipo": "KenBurns",
+   "arq": "foto_cruzes_cemiterio_betio_1943.jpg",
+   "enq": "zoom-in",
+   "inicio": 281.07,
+   "dur": 3.57,
+   "frase": "The Marines buried their own as fast as they could.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV-DEC 1943 · BETIO CEMETERY",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The Marines buried their own"
+  },
+  {
+   "id": "P073",
+   "bloco": "B07c",
+   "tipo": "KenBurns",
+   "arq": "foto_bunker_aterrado_80g57356.jpg",
+   "enq": "detalhe:0.3,0.55",
+   "inicio": 284.64,
+   "dur": 2.5,
+   "frase": "The other side was a different problem.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.3,
+    0.55,
+    1.35
+   ],
+   "para": [
+    0.3,
+    0.55,
+    1.55
+   ],
+   "em": "The other side was a different problem."
+  },
+  {
+   "id": "P074",
+   "bloco": "B08a",
+   "tipo": "KenBurns",
+   "arq": "foto_coronel_latas_80g57394.jpg",
+   "enq": "zoom-in",
+   "inicio": 287.14,
+   "dur": 2.5,
+   "frase": "The 1947 history is honest about it.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The 1947 history is honest about it."
+  },
+  {
+   "id": "P075",
+   "bloco": "B08a",
+   "tipo": "DocGrifo",
+   "arq": "doc_stock1947_cap5.png",
+   "enq": "little",
+   "inicio": 289.64,
+   "dur": 10.0,
+   "frase": "\"Although every effort was made all through the action to take care of the Marine dead when possible, little or nothing could be done for the enemy dead.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1947 · USMC OFFICIAL HISTORY",
+    "",
+    "Capt. James R. Stockman, 'The Battle for Tarawa' (Historical Section, USMC, 1947), via HyperWar"
+   ],
+   "frase_doc": "little or nothing could be done for the enemy dead",
+   "grifo": [
+    [
+     0.7222,
+     0.5265,
+     0.1356,
+     0.024
+    ],
+    [
+     0.098,
+     0.5429,
+     0.2778,
+     0.0253
+    ]
+   ],
+   "literal": true,
+   "em": "\"Although every effort was made"
+  },
+  {
+   "id": "P076",
+   "bloco": "B08a",
+   "tipo": "KenBurns",
+   "arq": "foto_prisioneiros_japoneses_praia.jpg",
+   "enq": "zoom-out",
+   "inicio": 299.64,
+   "dur": 3.57,
+   "frase": "It goes on. \"Only 146 allowed themselves to be captured.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "It goes on."
+  },
+  {
+   "id": "P077",
+   "bloco": "B08b",
+   "tipo": "DocGrifo",
+   "arq": "doc_stock1947_cap5.png",
+   "enq": "rest",
+   "inicio": 303.21,
+   "dur": 2.5,
+   "frase": "The rest lay where they had fallen.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1947 · USMC OFFICIAL HISTORY",
+    "",
+    "Capt. James R. Stockman, 'The Battle for Tarawa' (Historical Section, USMC, 1947), via HyperWar"
+   ],
+   "frase_doc": "The rest lay where they had fallen",
+   "grifo": [
+    [
+     0.1748,
+     0.577,
+     0.2794,
+     0.0253
+    ]
+   ],
+   "literal": true,
+   "em": "The rest lay where they had fallen."
+  },
+  {
+   "id": "P078",
+   "bloco": "B08b",
+   "tipo": "KenBurns",
+   "arq": "foto_escavadeira_seabees_80g57390.jpg",
+   "enq": "zoom-in",
+   "inicio": 305.71,
+   "dur": 6.07,
+   "frase": "So the Marine dead went into trenches and marked graves, often opened with bulldozers, side by side.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "So the Marine dead went into trenches"
+  },
+  {
+   "id": "P079",
+   "bloco": "B08b",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p1.png",
+   "enq": "craters",
+   "inicio": 311.79,
+   "dur": 6.43,
+   "frase": "And the Pentagon's fact sheet gives the rest. The Japanese were \"buried in bomb craters and existing trenches.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "frase_doc": "buried in bomb craters and existing trenches",
+   "grifo": [
+    [
+     0.7353,
+     0.3775,
+     0.1275,
+     0.0227
+    ],
+    [
+     0.1699,
+     0.3939,
+     0.2271,
+     0.024
+    ]
+   ],
+   "literal": true,
+   "em": "And the Pentagon's fact sheet gives the rest."
+  },
+  {
+   "id": "P080",
+   "bloco": "B08c",
+   "tipo": "KenBurns",
+   "arq": "foto_bunker_aterrado_80g57356.jpg",
+   "enq": "detalhe:0.6,0.4",
+   "inicio": 318.21,
+   "dur": 1.43,
+   "frase": "No names. No markers.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "num": [
+    "NO NAMES",
+    "NO MARKERS"
+   ],
+   "de": [
+    0.6,
+    0.4,
+    1.35
+   ],
+   "para": [
+    0.6,
+    0.4,
+    1.55
+   ],
+   "em": "No names."
+  },
+  {
+   "id": "P081",
+   "bloco": "B08c",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_sitio_ajoelhados_5589359.jpg",
+   "enq": "pan-esq",
+   "inicio": 319.64,
+   "dur": 3.57,
+   "frase": "In many places, in the same sand as the Americans.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "In many places,"
+  },
+  {
+   "id": "P082",
+   "bloco": "B08c",
+   "tipo": "Dupla",
+   "arq": "foto_acampamento_tendas_betio.jpg",
+   "arq2": "hoje_escavacao_sitio_ajoelhados_5589359.jpg",
+   "enq": "dupla",
+   "inicio": 323.21,
+   "dur": 7.86,
+   "frase": "A Navy inspector who toured the island in 1947 summed it up in two sentences, as quoted by the historian Geoffrey Roecker.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1943-44 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "rot1": "1943-44",
+   "rot2": "JUL 15, 2019",
+   "em": "A Navy inspector"
+  },
+  {
+   "id": "P083",
+   "bloco": "B08d",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"THERE WAS NO TIME TO PROPERLY BURY THE DEAD. SUCH IS WAR.\"",
+   "inicio": 331.07,
+   "dur": 4.29,
+   "frase": "\"There was no time to properly bury the dead. Such is war.\"",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"THERE WAS NO TIME TO PROPERLY BURY THE DEAD. SUCH IS WAR.\"",
+    "— NAVY INSPECTOR, 1947 (VIA G. ROECKER)"
+   ],
+   "selo": "QUOTED",
+   "em": "\"There was no time"
+  },
+  {
+   "id": "P084",
+   "bloco": "B08d",
+   "tipo": "KenBurns",
+   "arq": "foto_acampamento_tendas_betio.jpg",
+   "enq": "detalhe:0.5,0.5",
+   "inicio": 335.36,
+   "dur": 5.71,
+   "frase": "Roecker also notes that the Japanese and Korean dead outnumbered the Americans about five to one.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1943-44 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "num": [
+    "5 : 1",
+    "JAPANESE & KOREAN TO AMERICAN"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.55
+   ],
+   "em": "Roecker also notes"
+  },
+  {
+   "id": "P085",
+   "bloco": "B08d",
+   "tipo": "Filme",
+   "arq": "filme_fumaca_sobre_betio_do_mar_nara77026.mp4",
+   "enq": "8.0-14.5",
+   "inicio": 341.07,
+   "dur": 3.93,
+   "frase": "But the strangest part of this story was just getting started.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "20 NOV 1943 · OFF BETIO",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "But the strangest part",
+   "tin": 8.0,
+   "tout": 14.5,
+   "vel": 1.0
+  },
+  {
+   "id": "P086",
+   "bloco": "B09a",
+   "tipo": "Filme",
+   "arq": "filme_aerodromo_rolo_holofote_nara77026.mp4",
+   "enq": "0.5-6.5",
+   "inicio": 345.0,
+   "dur": 2.86,
+   "frase": "Within days, the island became a construction site.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV-DEC 1943 · HAWKINS FIELD",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "Within days,",
+   "tin": 0.5,
+   "tout": 6.5,
+   "vel": 1.0
+  },
+  {
+   "id": "P087",
+   "bloco": "B09a",
+   "tipo": "KenBurns",
+   "arq": "foto_pista_escavadeiras_80g57388.jpg",
+   "enq": "pan-dir",
+   "inicio": 347.86,
+   "dur": 4.64,
+   "frase": "Navy construction battalions, the Seabees, arrived to turn Betio into an air base.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · HAWKINS FIELD",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Navy construction battalions,"
+  },
+  {
+   "id": "P088",
+   "bloco": "B09a",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p1.png",
+   "enq": "seabee",
+   "inicio": 352.5,
+   "dur": 8.93,
+   "frase": "The fact sheet is blunt about what that meant. \"From 1943-1946 at least five SeaBee units cycled through the advanced base, without continuity of personnel.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "frase_doc": "at least five SeaBee units",
+   "grifo": [
+    [
+     0.3007,
+     0.5,
+     0.2026,
+     0.0227
+    ]
+   ],
+   "literal": true,
+   "em": "The fact sheet is blunt"
+  },
+  {
+   "id": "P089",
+   "bloco": "B09b",
+   "tipo": "KenBurns",
+   "arq": "foto_hawkins_field_b24_nativos_41bg.jpg",
+   "enq": "zoom-in",
+   "inicio": 361.43,
+   "dur": 4.29,
+   "frase": "They moved graves and markers to make room for roads and buildings.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "1944 · HAWKINS FIELD, BETIO",
+    "",
+    "U.S. Army Air Forces photograph, via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "They moved graves and markers"
+  },
+  {
+   "id": "P090",
+   "bloco": "B09b",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p1.png",
+   "enq": "kept",
+   "inicio": 365.71,
+   "dur": 6.43,
+   "frase": "And then this line. \"No records of the movements have been found, and we suspect none were kept.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "frase_doc": "we suspect none were kept",
+   "grifo": [
+    [
+     0.4232,
+     0.5556,
+     0.4314,
+     0.024
+    ],
+    [
+     0.1699,
+     0.572,
+     0.1879,
+     0.024
+    ]
+   ],
+   "literal": true,
+   "em": "And then this line."
+  },
+  {
+   "id": "P091",
+   "bloco": "B09b",
+   "tipo": "KenBurns",
+   "arq": "foto_cruzes_cemiterio_betio_1943.jpg",
+   "enq": "detalhe:0.6,0.4",
+   "inicio": 372.14,
+   "dur": 5.0,
+   "frase": "In 1946, an Army graves registration company arrived to bring the American dead home.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV-DEC 1943 · BETIO CEMETERY",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.6,
+    0.4,
+    1.35
+   ],
+   "para": [
+    0.6,
+    0.4,
+    1.55
+   ],
+   "em": "In 1946, an Army graves registration"
+  },
+  {
+   "id": "P092",
+   "bloco": "B09c",
+   "tipo": "KenBurns",
+   "arq": "foto_cruzes_cemiterio_betio_1943.jpg",
+   "enq": "zoom-out",
+   "inicio": 377.14,
+   "dur": 3.93,
+   "frase": "By its own count, it found only about half of them.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV-DEC 1943 · BETIO CEMETERY",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "num": [
+    "~50%",
+    "OF THE AMERICAN GRAVES FOUND · 1946"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "By its own count,"
+  },
+  {
+   "id": "P093",
+   "bloco": "B09c",
+   "tipo": "Dupla",
+   "arq": "hoje_caixas_transferencia_prateleira_5589365.jpg",
+   "arq2": "foto_cruzes_cemiterio_betio_1943.jpg",
+   "enq": "dupla",
+   "inicio": 381.07,
+   "dur": 4.29,
+   "frase": "And one of its first unknowns was given a label. Unknown X-1.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "ficha2": [
+    "NOV-DEC 1943 · BETIO CEMETERY",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "rot1": "JUL 2019",
+   "rot2": "NOV-DEC 1943",
+   "em": "And one of its first unknowns"
+  },
+  {
+   "id": "P094",
+   "bloco": "B10a",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_cabecas_baixas_5589332.jpg",
+   "enq": "zoom-in",
+   "inicio": 385.36,
+   "dur": 5.0,
+   "frase": "X-1 was Betio's first unknown soldier, in the files of the American war dead.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "X-1",
+    "BETIO'S FIRST UNKNOWN"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "X-1 was Betio's first unknown soldier,"
+  },
+  {
+   "id": "P095",
+   "bloco": "B10a",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_equipe_peneira_5589355.jpg",
+   "enq": "zoom-out",
+   "inicio": 390.36,
+   "dur": 4.29,
+   "frase": "Later laboratory work found he was almost certainly not American at all.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Later laboratory work"
+  },
+  {
+   "id": "P096",
+   "bloco": "B10a",
+   "tipo": "Dupla",
+   "arq": "foto_prisioneiros_japoneses_praia.jpg",
+   "arq2": "hoje_escavacao_equipe_peneira_5589355.jpg",
+   "enq": "dupla",
+   "inicio": 394.64,
+   "dur": 3.21,
+   "frase": "He was almost certainly a Japanese or Korean casualty.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "X-1",
+    "ALMOST CERTAINLY JAPANESE OR KOREAN"
+   ],
+   "rot1": "NOV 1943",
+   "rot2": "JUL 15, 2019",
+   "em": "He was almost certainly a Japanese"
+  },
+  {
+   "id": "P097",
+   "bloco": "B10b",
+   "tipo": "KenBurns",
+   "arq": "foto_acampamento_tendas_betio.jpg",
+   "enq": "pan-dir",
+   "inicio": 397.86,
+   "dur": 5.71,
+   "frase": "The graves teams set aside any remains they thought were Japanese or Korean, for separate burial.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1943-44 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "The graves teams set aside"
+  },
+  {
+   "id": "P098",
+   "bloco": "B10b",
+   "tipo": "Filme",
+   "arq": "filme_aviao_destruido_carro_enterrado_nara77026.mp4",
+   "enq": "0.5-9.0",
+   "inicio": 403.57,
+   "dur": 7.5,
+   "frase": "But on an island where the two sides were mixed in the same holes, nobody could sort them reliably by eye.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "But on an island where",
+   "tin": 0.5,
+   "tout": 9.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P099",
+   "bloco": "B10c",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_c17_guarda_5589326.jpg",
+   "enq": "zoom-in",
+   "inicio": 411.07,
+   "dur": 5.0,
+   "frase": "By 1947, the remains they did collect were shipped to a laboratory in Hawaii.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "By 1947, the remains"
+  },
+  {
+   "id": "P100",
+   "bloco": "B10c",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_caixa_bandeira_pista_5589325.jpg",
+   "enq": "zoom-out",
+   "inicio": 416.07,
+   "dur": 1.07,
+   "frase": "Hundreds were named.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "465",
+    "IDENTIFIED AFTER 1946 · DPMO"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Hundreds were named."
+  },
+  {
+   "id": "P101",
+   "bloco": "B10c",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_cabecas_baixas_5589332.jpg",
+   "enq": "pan-esq",
+   "inicio": 417.14,
+   "dur": 4.64,
+   "frase": "The rest were buried as unknowns, in Honolulu, under headstones with no names.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "The rest were buried as unknowns,"
+  },
+  {
+   "id": "P102",
+   "bloco": "B10c",
+   "tipo": "Dupla",
+   "arq": "foto_bunker_aterrado_80g57356.jpg",
+   "arq2": "hoje_repatriacao_cabecas_baixas_5589332.jpg",
+   "enq": "dupla",
+   "inicio": 421.79,
+   "dur": 1.43,
+   "frase": "And the other side?",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "rot1": "NOV 1943",
+   "rot2": "JUL 18, 2019",
+   "em": "And the other side?"
+  },
+  {
+   "id": "P103",
+   "bloco": "B10d",
+   "tipo": "Filme",
+   "arq": "filme_defesas_praia_arame_nara75866.mp4",
+   "enq": "6.0-12.0",
+   "inicio": 423.21,
+   "dur": 2.5,
+   "frase": "Most of it never left the island.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO BEACH",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "Most of it never left the island.",
+   "tin": 6.0,
+   "tout": 12.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P104",
+   "bloco": "B10d",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p1.png",
+   "enq": "pagina",
+   "inicio": 425.71,
+   "dur": 11.43,
+   "frase": "In 1949, someone even proposed burying all of Tarawa's unknowns together, in a single group grave. The fact sheet says that proposal \"was overturned,\" and the remains were separated again, into individuals.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "In 1949, someone even proposed"
+  },
+  {
+   "id": "P105",
+   "bloco": "B10d",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_salvas_por_do_sol_5589324.jpg",
+   "enq": "zoom-in",
+   "inicio": 437.14,
+   "dur": 3.57,
+   "frase": "Even on paper, nobody could be sure who was who.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "JUL 18, 2019 · BETIO AIRFIELD, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Even on paper,"
+  },
+  {
+   "id": "P106",
+   "bloco": "B11a",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p2.png",
+   "enq": "pagina",
+   "inicio": 440.71,
+   "dur": 6.07,
+   "frase": "The fact sheet has a second page, and it shows how slowly the island gave anything back.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET, P.2",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "The fact sheet has a second page,"
+  },
+  {
+   "id": "P107",
+   "bloco": "B11a",
+   "tipo": "KenBurns",
+   "arq": "hoje_bunker_japones_visita_5589369.jpg",
+   "enq": "detalhe:0.5,0.5",
+   "inicio": 446.79,
+   "dur": 8.21,
+   "frase": "In 1978, several sets of mixed remains were handed over from Tarawa to the American laboratory in Hawaii, with one American identification tag.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "1978",
+    "MIXED REMAINS TURNED OVER FROM TARAWA"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.55
+   ],
+   "em": "In 1978, several sets"
+  },
+  {
+   "id": "P108",
+   "bloco": "B11a",
+   "tipo": "KenBurns",
+   "arq": "hoje_bunker_japones_vista_mar_5589372.jpg",
+   "enq": "pan-dir",
+   "inicio": 455.0,
+   "dur": 1.43,
+   "frase": "And then the line.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "And then the line."
+  },
+  {
+   "id": "P109",
+   "bloco": "B11b",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p2.png",
+   "enq": "r31",
+   "inicio": 456.43,
+   "dur": 3.21,
+   "frase": "\"31 comingled remains were returned to the Japanese government.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET, P.2",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "frase_doc": "31 comingled remains",
+   "grifo": [
+    [
+     0.3889,
+     0.1439,
+     0.1797,
+     0.024
+    ]
+   ],
+   "literal": true,
+   "em": "\"31 comingled remains"
+  },
+  {
+   "id": "P110",
+   "bloco": "B11b",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p2.png",
+   "enq": "r17",
+   "inicio": 459.64,
+   "dur": 7.5,
+   "frase": "Two years later, workers on a construction project dug up more. \"17 sets of remains were returned to the Japanese government.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET, P.2",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "frase_doc": "17 sets of remains",
+   "grifo": [
+    [
+     0.6503,
+     0.2336,
+     0.1487,
+     0.024
+    ]
+   ],
+   "literal": true,
+   "em": "Two years later,"
+  },
+  {
+   "id": "P111",
+   "bloco": "B11b",
+   "tipo": "KenBurns",
+   "arq": "hoje_bunker_japones_visita_5589369.jpg",
+   "enq": "zoom-in",
+   "inicio": 467.14,
+   "dur": 3.21,
+   "frase": "In 2000, locals building a driveway found two Americans.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "In 2000, locals building a driveway"
+  },
+  {
+   "id": "P112",
+   "bloco": "B11c",
+   "tipo": "KenBurns",
+   "arq": "hoje_criancas_praia_betio_5603928.jpg",
+   "enq": "detalhe:0.3,0.5",
+   "inicio": 470.36,
+   "dur": 3.21,
+   "frase": "In 2004, a Peace Corps volunteer turned over another.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Cpl. Taryn Escott, via DVIDS"
+   ],
+   "num": [
+    "2004",
+    "TURNED OVER BY A PEACE CORPS VOLUNTEER"
+   ],
+   "de": [
+    0.3,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.3,
+    0.5,
+    1.55
+   ],
+   "em": "In 2004, a Peace Corps volunteer"
+  },
+  {
+   "id": "P113",
+   "bloco": "B11c",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p2.png",
+   "enq": "pagina",
+   "inicio": 473.57,
+   "dur": 9.64,
+   "frase": "The same page ends with a table of every identification from the island in those years. Accession number, name, service number, date. Most lines have a name.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET, P.2",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "The same page ends with a table"
+  },
+  {
+   "id": "P114",
+   "bloco": "B11d",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:UNKNOWN",
+   "inicio": 483.21,
+   "dur": 2.86,
+   "frase": "The others just say UNKNOWN, followed by dashes.",
+   "real": false,
+   "reuso": false,
+   "valor": "UNKNOWN",
+   "rotulo": "— — —",
+   "em": "The others just say UNKNOWN,"
+  },
+  {
+   "id": "P115",
+   "bloco": "B11d",
+   "tipo": "KenBurns",
+   "arq": "hoje_criancas_praia_betio_5603928.jpg",
+   "enq": "pan-dir",
+   "inicio": 486.07,
+   "dur": 4.29,
+   "frase": "Every time someone on Betio dug a foundation, the war came up.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Cpl. Taryn Escott, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Every time someone on Betio"
+  },
+  {
+   "id": "P116",
+   "bloco": "B12a",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_dpaa_history_flight_5589362.jpg",
+   "enq": "pan-esq",
+   "inicio": 490.36,
+   "dur": 3.57,
+   "frase": "Then came the searches that were meant to find Americans.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Then came the searches"
+  },
+  {
+   "id": "P117",
+   "bloco": "B12a",
+   "tipo": "Dupla",
+   "arq": "hoje_escavacao_equipe_peneira_5589355.jpg",
+   "arq2": "hoje_escavacao_dpaa_history_flight_5589362.jpg",
+   "enq": "dupla",
+   "inicio": 493.93,
+   "dur": 7.5,
+   "frase": "In 2009, a Pentagon team checked spots that History Flight had marked. It recovered partial remains of at least six people.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "ficha2": [
+    "JUL 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "6+",
+    "\"OF UNKNOWN NATIONAL ORIGIN\" · 2009"
+   ],
+   "rot1": "JUL 15, 2019",
+   "rot2": "JUL 2019",
+   "em": "In 2009, a Pentagon team"
+  },
+  {
+   "id": "P118",
+   "bloco": "B12a",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p2.png",
+   "enq": "pagina",
+   "inicio": 501.43,
+   "dur": 3.93,
+   "frase": "Its own fact sheet calls them people \"of unknown national origin.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET, P.2",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "Its own fact sheet calls them"
+  },
+  {
+   "id": "P119",
+   "bloco": "B12b",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_sitio_ajoelhados_5589359.jpg",
+   "enq": "zoom-in",
+   "inicio": 505.36,
+   "dur": 5.0,
+   "frase": "A year later, a team dug where an American grave was supposed to be.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "A year later,"
+  },
+  {
+   "id": "P120",
+   "bloco": "B12b",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"THEY UNEARTHED INSTEAD A MASS GRAVE OF JAPANESE SOLDIERS … ALONG WITH A FORGOTTEN LOCAL CEMETERY.\"",
+   "inicio": 510.36,
+   "dur": 10.36,
+   "frase": "According to the Associated Press, it found a mass grave of Japanese soldiers instead, in an old shell crater, and next to it, a forgotten cemetery of local islanders.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"THEY UNEARTHED INSTEAD A MASS GRAVE OF JAPANESE SOLDIERS … ALONG WITH A FORGOTTEN LOCAL CEMETERY.\"",
+    "— ASSOCIATED PRESS, NOV 2010"
+   ],
+   "selo": "QUOTED",
+   "em": "According to the Associated Press,"
+  },
+  {
+   "id": "P121",
+   "bloco": "B12c",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_presidente_kiribati_8142541.jpg",
+   "enq": "zoom-in",
+   "inicio": 520.71,
+   "dur": 3.21,
+   "frase": "Those remains were handed to the government of Kiribati.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Those remains were handed"
+  },
+  {
+   "id": "P122",
+   "bloco": "B12c",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_foto_grupo_memorial_8142559.jpg",
+   "enq": "zoom-out",
+   "inicio": 523.93,
+   "dur": 3.21,
+   "frase": "Because there aren't only two sides in this ground.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "num": [
+    "4",
+    "U.S. · JAPAN · KOREA · KIRIBATI"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Because there aren't only two sides"
+  },
+  {
+   "id": "P123",
+   "bloco": "B12c",
+   "tipo": "DocGrifo",
+   "arq": "doc_taylor2019_p5_casas.png",
+   "enq": "pagina",
+   "inicio": 527.14,
+   "dur": 6.07,
+   "frase": "The agency's scientists list the people they find on Betio as American, Japanese, Korean, and Kiribati nationals.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "2019 · THE TARAWA PROJECT",
+    "",
+    "Taylor et al. 2019"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "The agency's scientists list"
+  },
+  {
+   "id": "P124",
+   "bloco": "B13a",
+   "tipo": "Filme",
+   "arq": "filme_fuzileiros_caminham_pista_nara77026.mp4",
+   "enq": "7.0-13.5",
+   "inicio": 533.21,
+   "dur": 4.29,
+   "frase": "There's one more reason this island keeps giving up the other side.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "There's one more reason",
+   "tin": 7.0,
+   "tout": 13.5,
+   "vel": 1.0
+  },
+  {
+   "id": "P125",
+   "bloco": "B13a",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_equipe_peneira_5589355.jpg",
+   "enq": "detalhe:0.45,0.55",
+   "inicio": 537.5,
+   "dur": 7.5,
+   "frase": "In 2008, a private American group called History Flight began mapping Betio with instruments that read old disturbances in the soil.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.45,
+    0.55,
+    1.35
+   ],
+   "para": [
+    0.45,
+    0.55,
+    1.55
+   ],
+   "em": "In 2008,"
+  },
+  {
+   "id": "P126",
+   "bloco": "B13a",
+   "tipo": "Dupla",
+   "arq": "hoje_escavacao_dpaa_history_flight_5589362.jpg",
+   "arq2": "hoje_escavacao_equipe_peneira_5589355.jpg",
+   "enq": "dupla",
+   "inicio": 545.0,
+   "dur": 4.64,
+   "frase": "In November 2013, it excavated what it believed was a wartime fighting position.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "ficha2": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "rot1": "JUL 2019",
+   "rot2": "JUL 15, 2019",
+   "em": "In November 2013,"
+  },
+  {
+   "id": "P127",
+   "bloco": "B13b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:4 + 1",
+   "inicio": 549.64,
+   "dur": 3.21,
+   "frase": "Inside were five sets of remains. Four were Japanese.",
+   "real": false,
+   "reuso": false,
+   "valor": "4 + 1",
+   "rotulo": "JAPANESE + AMERICAN · ONE FIGHTING POSITION, 2013",
+   "em": "Inside were five sets of remains."
+  },
+  {
+   "id": "P128",
+   "bloco": "B13b",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:PFC RANDOLPH ALLEN",
+   "inicio": 552.86,
+   "dur": 7.14,
+   "frase": "One was a nineteen-year-old private from Rush, Kentucky, named Randolph Allen, identified by the two dog tags found with him.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "PFC RANDOLPH ALLEN",
+    "19 · RUSH, KENTUCKY · IDENTIFIED BY HIS TWO DOG TAGS"
+   ],
+   "selo": "DoD RELEASE 14-024",
+   "em": "One was a nineteen-year-old"
+  },
+  {
+   "id": "P129",
+   "bloco": "B13b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:1",
+   "inicio": 560.0,
+   "dur": 2.14,
+   "frase": "Five men, two sides, one hole.",
+   "real": false,
+   "reuso": false,
+   "valor": "1",
+   "rotulo": "HOLE · 2 SIDES · 5 MEN",
+   "em": "Five men, two sides, one hole."
+  },
+  {
+   "id": "P130",
+   "bloco": "B13c",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_continencia_5793634.jpg",
+   "enq": "zoom-in",
+   "inicio": 562.14,
+   "dur": 2.86,
+   "frase": "In July 2014, Allen was buried at Arlington.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "SEP 28, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Navy photo by Mass Communication Specialist 1st Class Amara Timberlake, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "In July 2014,"
+  },
+  {
+   "id": "P131",
+   "bloco": "B13c",
+   "tipo": "KenBurns",
+   "arq": "hoje_caixas_transferencia_prateleira_5589365.jpg",
+   "enq": "pan-dir",
+   "inicio": 565.0,
+   "dur": 2.86,
+   "frase": "The other four had no tags at all.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "The other four had no tags at all."
+  },
+  {
+   "id": "P132",
+   "bloco": "B14a",
+   "tipo": "Dupla",
+   "arq": "hoje_repatriacao_continencia_5793634.jpg",
+   "arq2": "hoje_caixas_transferencia_prateleira_5589365.jpg",
+   "enq": "dupla",
+   "inicio": 567.86,
+   "dur": 5.71,
+   "frase": "In 2016, the Accounting Agency set up a team for this one battle: the Tarawa Project.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "SEP 28, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Navy photo by Mass Communication Specialist 1st Class Amara Timberlake, via DVIDS"
+   ],
+   "ficha2": [
+    "JUL 2019 · KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "2016",
+    "THE TARAWA PROJECT · DPAA"
+   ],
+   "rot1": "SEP 28, 2019",
+   "rot2": "JUL 2019",
+   "em": "In 2016,"
+  },
+  {
+   "id": "P133",
+   "bloco": "B14a",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_c17_guarda_5589326.jpg",
+   "enq": "detalhe:0.5,0.55",
+   "inicio": 573.57,
+   "dur": 5.0,
+   "frase": "It dug up all ninety-four caskets of Tarawa unknowns from the cemetery in Honolulu,",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "94",
+    "CASKETS OF TARAWA UNKNOWNS · HONOLULU"
+   ],
+   "de": [
+    0.5,
+    0.55,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.55,
+    1.55
+   ],
+   "em": "It dug up all ninety-four caskets"
+  },
+  {
+   "id": "P134",
+   "bloco": "B14a",
+   "tipo": "KenBurns",
+   "arq": "hoje_caixas_transferencia_prateleira_5589365.jpg",
+   "enq": "zoom-out",
+   "inicio": 578.57,
+   "dur": 5.0,
+   "frase": "and brought them to the lab beside the remains still coming out of Betio.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "and brought them to the lab"
+  },
+  {
+   "id": "P135",
+   "bloco": "B14b",
+   "tipo": "DocGrifo",
+   "arq": "doc_taylor2019_p10_dna.png",
+   "enq": "pagina",
+   "inicio": 583.57,
+   "dur": 3.57,
+   "frase": "Its scientists then wrote a paper about what they found.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "2019 · DPAA SCIENTISTS, THE TARAWA PROJECT",
+    "",
+    "Taylor, Scott, Koehl, Trask, Maijanen (DPAA), 'The Tarawa Project Part I', Forensic Anthropology, 2019"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "Its scientists then wrote a paper"
+  },
+  {
+   "id": "P136",
+   "bloco": "B14b",
+   "tipo": "DocGrifo",
+   "arq": "doc_taylor2019_p10_dna.png",
+   "enq": "dna124",
+   "inicio": 587.14,
+   "dur": 6.43,
+   "frase": "Here is the sentence. \"124 of the 243 (~50%) unique Sanger-generated mtDNA sequences are consistent with Asian haplogroups.\"",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "2019 · DPAA SCIENTISTS, THE TARAWA PROJECT",
+    "",
+    "Taylor, Scott, Koehl, Trask, Maijanen (DPAA), 'The Tarawa Project Part I', Forensic Anthropology, 2019"
+   ],
+   "frase_doc": "124 of the 243",
+   "grifo": [
+    [
+     0.3301,
+     0.4343,
+     0.1438,
+     0.024
+    ],
+    [
+     0.2239,
+     0.4583,
+     0.1781,
+     0.0253
+    ]
+   ],
+   "literal": true,
+   "em": "Here is the sentence."
+  },
+  {
+   "id": "P137",
+   "bloco": "B14b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:124 / 243",
+   "inicio": 593.57,
+   "dur": 2.14,
+   "frase": "There's the number from the beginning.",
+   "real": false,
+   "reuso": false,
+   "valor": "124 / 243",
+   "rotulo": "~50% ASIAN LINEAGES",
+   "em": "There's the number from the beginning."
+  },
+  {
+   "id": "P138",
+   "bloco": "B14c",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_guarda_prepara_caixa_8142545.jpg",
+   "enq": "zoom-in",
+   "inicio": 595.71,
+   "dur": 3.93,
+   "frase": "Half of those DNA profiles in America's Tarawa search weren't American.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Half of those DNA profiles"
+  },
+  {
+   "id": "P139",
+   "bloco": "B14c",
+   "tipo": "DocGrifo",
+   "arq": "doc_taylor2019_p5_casas.png",
+   "enq": "houses",
+   "inicio": 599.64,
+   "dur": 8.93,
+   "frase": "And the paper notes why the ground is so mixed. After the war, the island filled up again, with \"houses built on top of cemeteries.\"",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "2019 · THE TARAWA PROJECT",
+    "",
+    "Taylor et al. 2019"
+   ],
+   "frase_doc": "houses built on top of cemeteries",
+   "grifo": [
+    [
+     0.2288,
+     0.3586,
+     0.317,
+     0.024
+    ]
+   ],
+   "literal": true,
+   "em": "And the paper notes why"
+  },
+  {
+   "id": "P140",
+   "bloco": "B14c",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_sitio_ajoelhados_5589359.jpg",
+   "enq": "pan-dir",
+   "inicio": 608.57,
+   "dur": 1.43,
+   "frase": "History Flight kept digging.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "History Flight kept digging."
+  },
+  {
+   "id": "P141",
+   "bloco": "B14d",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_dpaa_history_flight_5589362.jpg",
+   "enq": "pan-dir",
+   "inicio": 610.0,
+   "dur": 4.64,
+   "frase": "In 2019, it recovered thirty-three sets of remains from a single burial trench.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "33",
+    "SETS OF REMAINS · ONE TRENCH · 2019"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "In 2019, it recovered"
+  },
+  {
+   "id": "P142",
+   "bloco": "B14d",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_salvas_por_do_sol_5589324.jpg",
+   "enq": "pan-esq",
+   "inicio": 614.64,
+   "dur": 4.29,
+   "frase": "By September 2022, the agency had identified 160 Americans from this battle.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 18, 2019 · BETIO AIRFIELD, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "160",
+    "AMERICANS IDENTIFIED · SEP 2022"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "By September 2022,"
+  },
+  {
+   "id": "P143",
+   "bloco": "B15a",
+   "tipo": "Dupla",
+   "arq": "hoje_caixas_transferencia_prateleira_5589365.jpg",
+   "arq2": "hoje_repatriacao_salvas_por_do_sol_5589324.jpg",
+   "enq": "dupla",
+   "inicio": 618.93,
+   "dur": 2.86,
+   "frase": "How do you even begin to sort that?",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "ficha2": [
+    "JUL 18, 2019 · BETIO AIRFIELD, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "rot1": "JUL 2019",
+   "rot2": "JUL 18, 2019",
+   "em": "How do you even begin to sort that?"
+  },
+  {
+   "id": "P144",
+   "bloco": "B15a",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_equipe_peneira_5589355.jpg",
+   "enq": "detalhe:0.5,0.6",
+   "inicio": 621.79,
+   "dur": 9.29,
+   "frase": "By the time of the paper, the lab's Tarawa inventory held nearly nine thousand separate items, about six thousand of them straight out of Betio's sand.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "~9,000",
+    "ITEMS · ~6,000 FROM BETIO'S SAND"
+   ],
+   "de": [
+    0.5,
+    0.6,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.6,
+    1.55
+   ],
+   "em": "By the time of the paper,"
+  },
+  {
+   "id": "P145",
+   "bloco": "B15a",
+   "tipo": "DocGrifo",
+   "arq": "doc_taylor2019_p10_dna.png",
+   "enq": "pagina",
+   "inicio": 631.07,
+   "dur": 1.79,
+   "frase": "The scientists describe three tools.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "2019 · DPAA SCIENTISTS, THE TARAWA PROJECT",
+    "",
+    "Taylor, Scott, Koehl, Trask, Maijanen (DPAA), 'The Tarawa Project Part I', Forensic Anthropology, 2019"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "The scientists describe three tools."
+  },
+  {
+   "id": "P146",
+   "bloco": "B15a",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:1",
+   "inicio": 632.86,
+   "dur": 1.43,
+   "frase": "The first is teeth.",
+   "real": false,
+   "reuso": false,
+   "valor": "1",
+   "rotulo": "TEETH",
+   "em": "The first is teeth."
+  },
+  {
+   "id": "P147",
+   "bloco": "B15b",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_equipe_peneira_5589355.jpg",
+   "enq": "detalhe:0.6,0.45",
+   "inicio": 634.29,
+   "dur": 6.43,
+   "frase": "Dental work done in America in the 1930s looks different from dental work done in Japan or Korea.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.6,
+    0.45,
+    1.35
+   ],
+   "para": [
+    0.6,
+    0.45,
+    1.55
+   ],
+   "em": "Dental work done in America"
+  },
+  {
+   "id": "P148",
+   "bloco": "B15b",
+   "tipo": "Dupla",
+   "arq": "hoje_caixas_transferencia_prateleira_5589365.jpg",
+   "arq2": "hoje_escavacao_equipe_peneira_5589355.jpg",
+   "enq": "dupla",
+   "inicio": 640.71,
+   "dur": 7.14,
+   "frase": "The second is mitochondrial DNA, which follows the mother's line and can point to a broad ancestry, Asian or European.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "ficha2": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "2",
+    "MITOCHONDRIAL DNA · THE MOTHER'S LINE"
+   ],
+   "rot1": "JUL 2019",
+   "rot2": "JUL 15, 2019",
+   "em": "The second is mitochondrial DNA,"
+  },
+  {
+   "id": "P149",
+   "bloco": "B15b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:3",
+   "inicio": 647.86,
+   "dur": 1.43,
+   "frase": "The third is chemistry.",
+   "real": false,
+   "reuso": false,
+   "valor": "3",
+   "rotulo": "ISOTOPES",
+   "em": "The third is chemistry."
+  },
+  {
+   "id": "P150",
+   "bloco": "B15c",
+   "tipo": "Filme",
+   "arq": "filme_barcos_e_pier_nara75866.mp4",
+   "enq": "0.5-8.0",
+   "inicio": 649.29,
+   "dur": 6.43,
+   "frase": "Isotopes locked in the body record the water and the food of the place where someone grew up,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 1943 · BETIO PIER",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "Isotopes locked in the body",
+   "tin": 0.5,
+   "tout": 8.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P151",
+   "bloco": "B15c",
+   "tipo": "KenBurns",
+   "arq": "hoje_atol_tarawa_iss_2017.jpg",
+   "enq": "pan-dir",
+   "inicio": 655.71,
+   "dur": 6.79,
+   "frase": "and the paper says that should let the lab separate Japanese and Korean remains from American ones much faster.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 10, 2017 · TARAWA ATOLL FROM ISS",
+    "",
+    "NASA / astronaut Randolph Bresnik (ISS Expedition 53), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "and the paper says"
+  },
+  {
+   "id": "P152",
+   "bloco": "B15c",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_bandeira_foco_5589328.jpg",
+   "enq": "zoom-out",
+   "inicio": 662.5,
+   "dur": 2.86,
+   "frase": "None of it gives a name by itself.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "None of it gives a name by itself."
+  },
+  {
+   "id": "P153",
+   "bloco": "B15c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:DNA",
+   "inicio": 665.36,
+   "dur": 2.5,
+   "frase": "For a name, you need a relative.",
+   "real": false,
+   "reuso": false,
+   "valor": "DNA",
+   "rotulo": "FROM A LIVING RELATIVE",
+   "em": "For a name, you need a relative."
+  },
+  {
+   "id": "P154",
+   "bloco": "B16a",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_japao_coroa_memorial_8142550.jpg",
+   "enq": "zoom-in",
+   "inicio": 667.86,
+   "dur": 2.5,
+   "frase": "So what do you do with half?",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "So what do you do with half?"
+  },
+  {
+   "id": "P155",
+   "bloco": "B16a",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_guarda_prepara_caixa_8142545.jpg",
+   "enq": "pan-dir",
+   "inicio": 670.36,
+   "dur": 7.14,
+   "frase": "In 2019, the American government gave Japan and South Korea samples from 162 sets of Asian remains collected on Tarawa.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "num": [
+    "162",
+    "ASIAN REMAINS SAMPLED · TO JAPAN AND KOREA"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "In 2019, the American government"
+  },
+  {
+   "id": "P156",
+   "bloco": "B16a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:volta",
+   "inicio": 677.5,
+   "dur": 5.0,
+   "frase": "In April 2020, Japan's health ministry asked families of Tarawa's dead to send DNA.",
+   "real": false,
+   "reuso": false,
+   "nome": "volta",
+   "pontos": [
+    "BETIO (TARAWA)",
+    "TOKYO",
+    "SEOUL"
+   ],
+   "linhas": [
+    [
+     "BETIO (TARAWA)",
+     "TOKYO",
+     ""
+    ],
+    [
+     "BETIO (TARAWA)",
+     "SEOUL",
+     ""
+    ]
+   ],
+   "selo": "SCHEMATIC",
+   "nota": "",
+   "em": "In April 2020,"
+  },
+  {
+   "id": "P157",
+   "bloco": "B16a",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_coroa_embaixadora_memorial_8142551.jpg",
+   "enq": "pan-esq",
+   "inicio": 682.5,
+   "dur": 1.07,
+   "frase": "Sixty-two families applied.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "num": [
+    "62",
+    "FAMILIES APPLIED IN JAPAN"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Sixty-two families applied."
+  },
+  {
+   "id": "P158",
+   "bloco": "B16b",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:nagasaki",
+   "inicio": 683.57,
+   "dur": 2.86,
+   "frase": "One of them was a man in Nagasaki.",
+   "real": false,
+   "reuso": false,
+   "nome": "nagasaki",
+   "pontos": [
+    "NAGASAKI",
+    "SASEBO",
+    "TOKYO"
+   ],
+   "linhas": [],
+   "nota": "",
+   "em": "One of them was a man in Nagasaki."
+  },
+  {
+   "id": "P159",
+   "bloco": "B16b",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:SEP 2020 · DNA MATCH",
+   "inicio": 686.43,
+   "dur": 5.36,
+   "frase": "In September 2020, the sample of a sailor found in 2013 matched his younger brother.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "SEP 2020 · DNA MATCH",
+    "MASATOSHI NOMURA ↔ HIS BROTHER SADAYUKI, 92"
+   ],
+   "selo": "RECORD",
+   "em": "In September 2020,"
+  },
+  {
+   "id": "P160",
+   "bloco": "B16b",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_coroa_embaixadora_memorial_8142551.jpg",
+   "enq": "zoom-in",
+   "inicio": 691.79,
+   "dur": 6.43,
+   "frase": "The ministry announced it in February 2021: one set of remains from Tarawa, identified, going home through Nagasaki.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The ministry announced it"
+  },
+  {
+   "id": "P161",
+   "bloco": "B16b",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_salvas_por_do_sol_5589324.jpg",
+   "enq": "detalhe:0.5,0.5",
+   "inicio": 698.21,
+   "dur": 2.5,
+   "frase": "Masatoshi Nomura came home after seventy-seven years.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 18, 2019 · BETIO AIRFIELD, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "77",
+    "YEARS LATER"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.55
+   ],
+   "em": "Masatoshi Nomura came home"
+  },
+  {
+   "id": "P162",
+   "bloco": "B16c",
+   "tipo": "Dupla",
+   "arq": "hoje_80anos_japao_coroa_memorial_8142550.jpg",
+   "arq2": "hoje_repatriacao_salvas_por_do_sol_5589324.jpg",
+   "enq": "dupla",
+   "inicio": 700.71,
+   "dur": 6.43,
+   "frase": "Japanese reports called it a first: remains with no belongings and no burial list, given back their name.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "ficha2": [
+    "JUL 18, 2019 · BETIO AIRFIELD, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "rot1": "NOV 21, 2023",
+   "rot2": "JUL 18, 2019",
+   "em": "Japanese reports called it a first:"
+  },
+  {
+   "id": "P163",
+   "bloco": "B16c",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_foto_grupo_memorial_8142559.jpg",
+   "enq": "pan-dir",
+   "inicio": 707.14,
+   "dur": 1.79,
+   "frase": "The ministry's notice was careful.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "The ministry's notice was careful."
+  },
+  {
+   "id": "P164",
+   "bloco": "B16c",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"…RESULTS MAY NOT MEET YOUR EXPECTATIONS.\"",
+   "inicio": 708.93,
+   "dur": 7.86,
+   "frase": "Because the remains had been left so long, and because of technical limits, it said, results might not meet the families' expectations.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "\"…RESULTS MAY NOT MEET YOUR EXPECTATIONS.\"",
+    "— JAPAN'S HEALTH MINISTRY, DNA PROGRAM FOR IWO JIMA AND TARAWA (TRANSLATED)"
+   ],
+   "selo": "QUOTED",
+   "em": "Because the remains had been left"
+  },
+  {
+   "id": "P165",
+   "bloco": "B17a",
+   "tipo": "KenBurns",
+   "arq": "foto_prisioneiros_nara532519.jpg",
+   "enq": "zoom-in",
+   "inicio": 716.79,
+   "dur": 3.57,
+   "frase": "Remember the 129 Koreans who walked off the island alive?",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Remember the 129 Koreans"
+  },
+  {
+   "id": "P166",
+   "bloco": "B17a",
+   "tipo": "KenBurns",
+   "arq": "foto_prisioneiros_japoneses_praia.jpg",
+   "enq": "detalhe:0.5,0.5",
+   "inicio": 720.36,
+   "dur": 2.14,
+   "frase": "More than a thousand others didn't.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "num": [
+    "1,000+",
+    "KOREAN LABORERS WHO NEVER CAME BACK"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.55
+   ],
+   "em": "More than a thousand others didn't."
+  },
+  {
+   "id": "P167",
+   "bloco": "B17a",
+   "tipo": "Dupla",
+   "arq": "hoje_caixas_transferencia_prateleira_5589365.jpg",
+   "arq2": "foto_prisioneiros_japoneses_praia.jpg",
+   "enq": "dupla",
+   "inicio": 722.5,
+   "dur": 8.21,
+   "frase": "Korean reports say a scientist at the American lab flagged the Asian remains to Seoul, and Korea opened its own investigation in 2017.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "ficha2": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "rot1": "JUL 2019",
+   "rot2": "NOV 1943",
+   "em": "Korean reports say a scientist"
+  },
+  {
+   "id": "P168",
+   "bloco": "B17b",
+   "tipo": "KenBurns",
+   "arq": "hoje_caixas_transferencia_prateleira_5589365.jpg",
+   "enq": "zoom-out",
+   "inicio": 730.71,
+   "dur": 6.43,
+   "frase": "Korean reports say the government collected DNA from 184 relatives of men believed to have been sent there.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "184",
+    "KOREAN RELATIVES GAVE DNA"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Korean reports say the government"
+  },
+  {
+   "id": "P169",
+   "bloco": "B17b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:No. 46",
+   "inicio": 737.14,
+   "dur": 3.93,
+   "frase": "Among the remains was one known only as Tarawa number 46.",
+   "real": false,
+   "reuso": false,
+   "valor": "No. 46",
+   "rotulo": "TARAWA",
+   "em": "Among the remains was one"
+  },
+  {
+   "id": "P170",
+   "bloco": "B17b",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_equipe_peneira_5589355.jpg",
+   "enq": "zoom-in",
+   "inicio": 741.07,
+   "dur": 4.29,
+   "frase": "In October 2019, Korea's national forensic service matched it to a family.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "In October 2019,"
+  },
+  {
+   "id": "P171",
+   "bloco": "B17b",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:CHOI BYEONG-YEON",
+   "inicio": 745.36,
+   "dur": 1.79,
+   "frase": "His name was Choi Byeong-yeon.",
+   "real": false,
+   "reuso": false,
+   "linhas": [
+    "CHOI BYEONG-YEON",
+    "TAKEN TO TARAWA IN 1942 · AGE 24"
+   ],
+   "selo": "RECORD",
+   "em": "His name was Choi Byeong-yeon."
+  },
+  {
+   "id": "P172",
+   "bloco": "B17c",
+   "tipo": "Filme",
+   "arq": "filme_prisioneiros_sentados_nara75866.mp4",
+   "enq": "13.0-18.0",
+   "inicio": 747.14,
+   "dur": 3.93,
+   "frase": "He was twenty-four when he was taken to Tarawa in 1942.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "He was twenty-four",
+   "tin": 13.0,
+   "tout": 18.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P173",
+   "bloco": "B17c",
+   "tipo": "KenBurns",
+   "arq": "foto_prisioneiros_arame_farpado_dpla.jpg",
+   "enq": "pan-dir",
+   "inicio": 751.07,
+   "dur": 2.5,
+   "frase": "He left a wife and two sons.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "He left a wife and two sons."
+  },
+  {
+   "id": "P174",
+   "bloco": "B17c",
+   "tipo": "KenBurns",
+   "arq": "hoje_atol_tarawa_iss_2017.jpg",
+   "enq": "zoom-out",
+   "inicio": 753.57,
+   "dur": 2.14,
+   "frase": "Then the pandemic closed Kiribati's borders.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 10, 2017 · TARAWA ATOLL FROM ISS",
+    "",
+    "NASA / astronaut Randolph Bresnik (ISS Expedition 53), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Then the pandemic"
+  },
+  {
+   "id": "P175",
+   "bloco": "B17c",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_c17_guarda_5589326.jpg",
+   "enq": "pan-dir",
+   "inicio": 755.71,
+   "dur": 2.14,
+   "frase": "In December 2023, Choi came home.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "DEC 2023",
+    "CHOI BYEONG-YEON, HOME"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "In December 2023, Choi came home."
+  },
+  {
+   "id": "P176",
+   "bloco": "B17d",
+   "tipo": "Dupla",
+   "arq": "hoje_repatriacao_salvas_por_do_sol_5589324.jpg",
+   "arq2": "hoje_repatriacao_c17_guarda_5589326.jpg",
+   "enq": "dupla",
+   "inicio": 757.86,
+   "dur": 5.0,
+   "frase": "Korea's Interior Ministry called it the first repatriation of its kind from the Pacific.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 18, 2019 · BETIO AIRFIELD, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "ficha2": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "rot1": "JUL 18, 2019",
+   "rot2": "JUL 18, 2019",
+   "em": "Korea's Interior Ministry"
+  },
+  {
+   "id": "P177",
+   "bloco": "B17d",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_guarda_carrega_caixa_8142549.jpg",
+   "enq": "detalhe:0.5,0.5",
+   "inicio": 762.86,
+   "dur": 2.14,
+   "frase": "His sons were in their eighties.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "num": [
+    "80+",
+    "HIS SONS' AGE"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.55
+   ],
+   "em": "His sons were in their eighties."
+  },
+  {
+   "id": "P178",
+   "bloco": "B17d",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:volta",
+   "inicio": 765.0,
+   "dur": 5.71,
+   "frase": "In August 2024, Korea signed an agreement with the American agency to search the Pacific together.",
+   "real": false,
+   "reuso": false,
+   "nome": "volta",
+   "pontos": [
+    "HONOLULU",
+    "SEOUL",
+    "BETIO (TARAWA)"
+   ],
+   "linhas": [
+    [
+     "SEOUL",
+     "HONOLULU",
+     "MOU 2024"
+    ]
+   ],
+   "selo": "SCHEMATIC",
+   "nota": "",
+   "em": "In August 2024,"
+  },
+  {
+   "id": "P179",
+   "bloco": "B17e",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:5,000+",
+   "inicio": 770.71,
+   "dur": 7.5,
+   "frase": "Korea's government counts more than five thousand Koreans who were forcibly mobilized and never came back from the Pacific war zones.",
+   "real": false,
+   "reuso": false,
+   "valor": "5,000+",
+   "rotulo": "KOREANS MOBILIZED · NEVER CAME BACK FROM THE PACIFIC",
+   "em": "Korea's government counts"
+  },
+  {
+   "id": "P180",
+   "bloco": "B18a",
+   "tipo": "KenBurns",
+   "arq": "hoje_criancas_praia_betio_5603928.jpg",
+   "enq": "zoom-out",
+   "inicio": 778.21,
+   "dur": 2.86,
+   "frase": "Today, Betio looks like any crowded Pacific town.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Cpl. Taryn Escott, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Today, Betio looks"
+  },
+  {
+   "id": "P181",
+   "bloco": "B18a",
+   "tipo": "KenBurns",
+   "arq": "hoje_atol_tarawa_iss_2017.jpg",
+   "enq": "detalhe:0.5,0.5",
+   "inicio": 781.07,
+   "dur": 3.93,
+   "frase": "Tin roofs. Laundry lines. Kids on the reef at low tide.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 10, 2017 · TARAWA ATOLL FROM ISS",
+    "",
+    "NASA / astronaut Randolph Bresnik (ISS Expedition 53), via Wikimedia Commons"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.55
+   ],
+   "em": "Tin roofs."
+  },
+  {
+   "id": "P182",
+   "bloco": "B18b",
+   "tipo": "Dupla",
+   "arq": "hoje_bateria_costeira_14cm_2019.jpg",
+   "arq2": "hoje_bunker_japones_vista_mar_5589372.jpg",
+   "enq": "dupla",
+   "inicio": 785.0,
+   "dur": 4.64,
+   "frase": "The Japanese coastal guns are still there, rusting where the Marines found them.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo, via Wikimedia Commons"
+   ],
+   "ficha2": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "rot1": "JAPANESE GUN, 2019",
+   "rot2": "BUNKER, 2019",
+   "em": "The Japanese coastal guns"
+  },
+  {
+   "id": "P183",
+   "bloco": "B18b",
+   "tipo": "KenBurns",
+   "arq": "hoje_bunker_japones_visita_5589369.jpg",
+   "enq": "pan-esq",
+   "inicio": 789.64,
+   "dur": 1.79,
+   "frase": "Some concrete bunkers still stand.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Some concrete bunkers still stand."
+  },
+  {
+   "id": "P184",
+   "bloco": "B18b",
+   "tipo": "EntaoAgora",
+   "arq": "foto_canhao_14cm_fuzileiro_1943.jpg",
+   "arq2": "hoje_bateria_costeira_14cm_2019.jpg",
+   "enq": "ea",
+   "inicio": 791.43,
+   "dur": 4.29,
+   "frase": "This gun was photographed in 1943. This is the same battery today.",
+   "real": true,
+   "reuso": true,
+   "rot1": "1943",
+   "rot2": "2019",
+   "em": "This gun was photographed in 1943."
+  },
+  {
+   "id": "P185",
+   "bloco": "B18c",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_embaixadora_discurso_8142539.jpg",
+   "enq": "zoom-in",
+   "inicio": 795.71,
+   "dur": 3.57,
+   "frase": "In November 2023, for the eightieth anniversary, the American ambassador,",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 21, 2023 · BETIO SPORTS COMPLEX",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "In November 2023,"
+  },
+  {
+   "id": "P186",
+   "bloco": "B18c",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_presidente_kiribati_8142541.jpg",
+   "enq": "pan-dir",
+   "inicio": 799.29,
+   "dur": 1.43,
+   "frase": "the President of Kiribati",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "the President of Kiribati"
+  },
+  {
+   "id": "P187",
+   "bloco": "B18c",
+   "tipo": "Dupla",
+   "arq": "hoje_80anos_japao_coroa_memorial_8142550.jpg",
+   "arq2": "hoje_80anos_coroa_embaixadora_memorial_8142551.jpg",
+   "enq": "dupla",
+   "inicio": 800.71,
+   "dur": 3.93,
+   "frase": "and a delegation from Japan all laid wreaths at the memorial.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "ficha2": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "rot1": "JAPAN",
+   "rot2": "UNITED STATES",
+   "em": "and a delegation from Japan"
+  },
+  {
+   "id": "P188",
+   "bloco": "B18c",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_guarda_carrega_caixa_8142549.jpg",
+   "enq": "zoom-in",
+   "inicio": 804.64,
+   "dur": 3.21,
+   "frase": "Afterward, Marines carried flag-draped cases onto a waiting plane.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Afterward, Marines carried"
+  },
+  {
+   "id": "P189",
+   "bloco": "B18c",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_embarque_c17_8142560.jpg",
+   "enq": "pan-esq",
+   "inicio": 807.86,
+   "dur": 2.5,
+   "frase": "The island is still giving people back.",
+   "real": true,
+   "reuso": false,
+   "ficha": [
+    "NOV 21, 2023 · BETIO AIRFIELD",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "The island is still giving"
+  },
+  {
+   "id": "P190",
+   "bloco": "B18d",
+   "tipo": "Dupla",
+   "arq": "hoje_criancas_praia_betio_5603928.jpg",
+   "arq2": "hoje_80anos_embarque_c17_8142560.jpg",
+   "enq": "dupla",
+   "inicio": 810.36,
+   "dur": 6.79,
+   "frase": "In 1978, the census counted about seventy-six hundred people on Betio. By 2020, it was more than eighteen thousand.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Cpl. Taryn Escott, via DVIDS"
+   ],
+   "ficha2": [
+    "NOV 21, 2023 · BETIO AIRFIELD",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "num": [
+    "7,600 → 18,000",
+    "PEOPLE ON BETIO · 1978 → 2020"
+   ],
+   "rot1": "JUL 17, 2019",
+   "rot2": "NOV 21, 2023",
+   "em": "In 1978, the census"
+  },
+  {
+   "id": "P191",
+   "bloco": "B18d",
+   "tipo": "KenBurns",
+   "arq": "hoje_criancas_praia_betio_5603928.jpg",
+   "enq": "detalhe:0.6,0.4",
+   "inicio": 817.14,
+   "dur": 3.93,
+   "frase": "Every new house needed a foundation, a pipe, a septic pit.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Cpl. Taryn Escott, via DVIDS"
+   ],
+   "de": [
+    0.6,
+    0.4,
+    1.35
+   ],
+   "para": [
+    0.6,
+    0.4,
+    1.55
+   ],
+   "em": "Every new house needed"
+  },
+  {
+   "id": "P192",
+   "bloco": "B19a",
+   "tipo": "EntaoAgora",
+   "arq": "foto_aerea_hawkins_field_1944.jpg",
+   "arq2": "hoje_atol_tarawa_iss_2017.jpg",
+   "enq": "ea",
+   "inicio": 821.07,
+   "dur": 6.43,
+   "frase": "In 1943, about six thousand men fell on this island. Today, about eighteen thousand people live on it.",
+   "real": true,
+   "reuso": true,
+   "rot1": "1944",
+   "rot2": "2017",
+   "em": "In 1943, about six thousand men"
+  },
+  {
+   "id": "P193",
+   "bloco": "B19a",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_sitio_ajoelhados_5589359.jpg",
+   "enq": "zoom-out",
+   "inicio": 827.5,
+   "dur": 2.5,
+   "frase": "So how many are still down there?",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "So how many are still down there?"
+  },
+  {
+   "id": "P194",
+   "bloco": "B19a",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpaa_tarawa_casualties.png",
+   "enq": "d374",
+   "inicio": 830.0,
+   "dur": 3.21,
+   "frase": "On the American side, the agency says about 374.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPAA · TARAWA",
+    "",
+    "Defense POW/MIA Accounting Agency"
+   ],
+   "frase_doc": "374",
+   "grifo": [
+    [
+     0.2124,
+     0.5606,
+     0.0408,
+     0.0215
+    ]
+   ],
+   "literal": true,
+   "em": "On the American side,"
+  },
+  {
+   "id": "P195",
+   "bloco": "B19b",
+   "tipo": "KenBurns",
+   "arq": "foto_bunker_aterrado_80g57356.jpg",
+   "enq": "pan-dir",
+   "inicio": 833.21,
+   "dur": 3.21,
+   "frase": "On the other side, nobody can tell you exactly.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 1943 · BETIO",
+    "",
+    "U.S. Navy/USMC official photograph (NARA/NHHC), via Wikimedia Commons"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "On the other side,"
+  },
+  {
+   "id": "P196",
+   "bloco": "B19b",
+   "tipo": "DocGrifo",
+   "arq": "doc_stock1947_apendice_c.png",
+   "enq": "g4690",
+   "inicio": 836.43,
+   "dur": 2.5,
+   "frase": "The Marine Corps counted 4,690 in 1947.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "1947 · APPENDIX C, JAPANESE CASUALTIES",
+    "",
+    "Capt. James R. Stockman, 'The Battle for Tarawa' (USMC, 1947), Appendix C, via HyperWar"
+   ],
+   "frase_doc": "4,690",
+   "grifo": [
+    [
+     0.7565,
+     0.3952,
+     0.0572,
+     0.0253
+    ]
+   ],
+   "literal": true,
+   "em": "The Marine Corps counted 4,690"
+  },
+  {
+   "id": "P197",
+   "bloco": "B19b",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p1.png",
+   "enq": "pagina",
+   "inicio": 838.93,
+   "dur": 2.86,
+   "frase": "The old fact sheet says more than 3,000.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "The old fact sheet says"
+  },
+  {
+   "id": "P198",
+   "bloco": "B19b",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_japao_coroa_memorial_8142550.jpg",
+   "enq": "detalhe:0.4,0.5",
+   "inicio": 841.79,
+   "dur": 2.14,
+   "frase": "Japan's own records say about 4,200.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "num": [
+    "~4,200",
+    "JAPANESE RECORDS"
+   ],
+   "de": [
+    0.4,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.4,
+    0.5,
+    1.55
+   ],
+   "em": "Japan's own records say"
+  },
+  {
+   "id": "P199",
+   "bloco": "B19c",
+   "tipo": "KenBurns",
+   "arq": "hoje_bunker_japones_vista_mar_5589372.jpg",
+   "enq": "pan-esq",
+   "inicio": 843.93,
+   "dur": 4.64,
+   "frase": "The agency's scientists now write of over six thousand Japanese and Korean casualties.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "6,000+",
+    "JAPANESE & KOREAN · DPAA SCIENTISTS, 2019"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "The agency's scientists now write"
+  },
+  {
+   "id": "P200",
+   "bloco": "B19c",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p2.png",
+   "enq": "pagina",
+   "inicio": 848.57,
+   "dur": 3.21,
+   "frase": "Some came back in 1978, in 1980, in 2019.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET, P.2",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "grifo": [],
+   "literal": false,
+   "em": "Some came back in 1978,"
+  },
+  {
+   "id": "P201",
+   "bloco": "B19c",
+   "tipo": "KenBurns",
+   "arq": "hoje_bunker_japones_vista_mar_5589372.jpg",
+   "enq": "zoom-out",
+   "inicio": 851.79,
+   "dur": 1.07,
+   "frase": "Most never left.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 17, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Most never left."
+  },
+  {
+   "id": "P202",
+   "bloco": "B19c",
+   "tipo": "KenBurns",
+   "arq": "hoje_atol_tarawa_iss_2017.jpg",
+   "enq": "pan-esq",
+   "inicio": 852.86,
+   "dur": 5.0,
+   "frase": "They're under the roads, under the buildings, under the backyards of eighteen thousand people.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 10, 2017 · TARAWA ATOLL FROM ISS",
+    "",
+    "NASA / astronaut Randolph Bresnik (ISS Expedition 53), via Wikimedia Commons"
+   ],
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "They're under the roads,"
+  },
+  {
+   "id": "P203",
+   "bloco": "B19d",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_dpaa_history_flight_5589362.jpg",
+   "enq": "detalhe:0.5,0.6",
+   "inicio": 857.86,
+   "dur": 3.21,
+   "frase": "The agency's last operation there was in April 2020.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "num": [
+    "APR 2020",
+    "LAST DPAA OPERATION ON TARAWA"
+   ],
+   "de": [
+    0.5,
+    0.6,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.6,
+    1.55
+   ],
+   "em": "The agency's last operation"
+  },
+  {
+   "id": "P204",
+   "bloco": "B19d",
+   "tipo": "Dupla",
+   "arq": "hoje_80anos_japao_coroa_memorial_8142550.jpg",
+   "arq2": "hoje_escavacao_dpaa_history_flight_5589362.jpg",
+   "enq": "dupla",
+   "inicio": 861.07,
+   "dur": 4.29,
+   "frase": "In Tokyo, the health ministry still invites Tarawa families to send DNA.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "ficha2": [
+    "JUL 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "rot1": "NOV 21, 2023",
+   "rot2": "JUL 2019",
+   "em": "In Tokyo,"
+  },
+  {
+   "id": "P205",
+   "bloco": "B19d",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_equipe_peneira_5589355.jpg",
+   "enq": "zoom-in",
+   "inicio": 865.36,
+   "dur": 1.43,
+   "frase": "The search isn't finished.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The search isn't finished."
+  },
+  {
+   "id": "P206",
+   "bloco": "B20a",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_dpaa_history_flight_5589362.jpg",
+   "enq": "zoom-out",
+   "inicio": 866.79,
+   "dur": 3.57,
+   "frase": "So why is America digging up Japanese soldiers on Tarawa?",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "So why is America digging up"
+  },
+  {
+   "id": "P207",
+   "bloco": "B20a",
+   "tipo": "Filme",
+   "arq": "filme_fumaca_sobre_betio_do_mar_nara77026.mp4",
+   "enq": "15.0-22.0",
+   "inicio": 870.36,
+   "dur": 7.14,
+   "frase": "Because in 1943, the two sides fell in the same few acres, and there was no time to sort them.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "20 NOV 1943 · OFF BETIO",
+    "",
+    "U.S. Navy (Naval Photographic Center) film via National Archives"
+   ],
+   "em": "Because in 1943,",
+   "tin": 15.0,
+   "tout": 22.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P208",
+   "bloco": "B20a",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpmo_factsheet_p1.png",
+   "enq": "kept",
+   "inicio": 877.5,
+   "dur": 4.64,
+   "frase": "Because the men who came next moved the graves and kept no records.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPMO · TARAWA FACT SHEET",
+    "",
+    "Defense POW/Missing Personnel Office (DoD), Tarawa Fact Sheet"
+   ],
+   "grifo": [
+    [
+     0.4232,
+     0.5556,
+     0.4314,
+     0.024
+    ],
+    [
+     0.1699,
+     0.572,
+     0.1879,
+     0.024
+    ]
+   ],
+   "literal": false,
+   "em": "Because the men who came next"
+  },
+  {
+   "id": "P209",
+   "bloco": "B20b",
+   "tipo": "KenBurns",
+   "arq": "hoje_escavacao_sitio_ajoelhados_5589359.jpg",
+   "enq": "detalhe:0.55,0.5",
+   "inicio": 882.14,
+   "dur": 7.14,
+   "frase": "And because the only way to find the Americans who are still missing is to dig where everyone was buried,",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 15, 2019 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.55,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.55,
+    0.5,
+    1.55
+   ],
+   "em": "And because the only way"
+  },
+  {
+   "id": "P210",
+   "bloco": "B20b",
+   "tipo": "DocGrifo",
+   "arq": "doc_dpaa_tarawa_casualties.png",
+   "enq": "commingled",
+   "inicio": 889.29,
+   "dur": 2.5,
+   "frase": "and that ground holds all of them.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "DPAA · TARAWA",
+    "",
+    "Defense POW/MIA Accounting Agency"
+   ],
+   "grifo": [
+    [
+     0.1307,
+     0.6187,
+     0.1029,
+     0.0215
+    ]
+   ],
+   "literal": false,
+   "em": "and that ground holds all of them."
+  },
+  {
+   "id": "P211",
+   "bloco": "B20b",
+   "tipo": "KenBurns",
+   "arq": "hoje_caixas_transferencia_prateleira_5589365.jpg",
+   "enq": "zoom-in",
+   "inicio": 891.79,
+   "dur": 7.14,
+   "frase": "And the labs that can tell one side from the other are the ones that were looking for someone else.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 2019 · KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "And the labs that can tell"
+  },
+  {
+   "id": "P212",
+   "bloco": "B20c",
+   "tipo": "DocGrifo",
+   "arq": "doc_taylor2019_p10_dna.png",
+   "enq": "dna124",
+   "inicio": 898.93,
+   "dur": 3.93,
+   "frase": "Two hundred forty-three profiles. One hundred twenty-four, from the other side.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "2019 · DPAA SCIENTISTS, THE TARAWA PROJECT",
+    "",
+    "Taylor, Scott, Koehl, Trask, Maijanen (DPAA), 'The Tarawa Project Part I', Forensic Anthropology, 2019"
+   ],
+   "grifo": [
+    [
+     0.3301,
+     0.4343,
+     0.1438,
+     0.024
+    ],
+    [
+     0.2239,
+     0.4583,
+     0.1781,
+     0.0253
+    ]
+   ],
+   "literal": false,
+   "em": "Two hundred forty-three profiles."
+  },
+  {
+   "id": "P213",
+   "bloco": "B20c",
+   "tipo": "KenBurns",
+   "arq": "hoje_repatriacao_cabecas_baixas_5589332.jpg",
+   "enq": "zoom-out",
+   "inicio": 902.86,
+   "dur": 2.86,
+   "frase": "Each one is someone's brother, or someone's father.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 18, 2019 · TARAWA, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "Each one is someone's brother,"
+  },
+  {
+   "id": "P214",
+   "bloco": "B20c",
+   "tipo": "KenBurns",
+   "arq": "hoje_80anos_foto_grupo_memorial_8142559.jpg",
+   "enq": "zoom-in",
+   "inicio": 905.71,
+   "dur": 2.14,
+   "frase": "So here's my question for you.",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "So here's my question for you."
+  },
+  {
+   "id": "P215",
+   "bloco": "B20d",
+   "tipo": "Dupla",
+   "arq": "hoje_repatriacao_salvas_por_do_sol_5589324.jpg",
+   "arq2": "hoje_80anos_foto_grupo_memorial_8142559.jpg",
+   "enq": "dupla",
+   "inicio": 907.86,
+   "dur": 7.86,
+   "frase": "If your family were still waiting for a name, would it matter to you which side of the beach he died on?",
+   "real": true,
+   "reuso": true,
+   "ficha": [
+    "JUL 18, 2019 · BETIO AIRFIELD, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Melanye Martinez, via DVIDS"
+   ],
+   "ficha2": [
+    "NOV 21, 2023 · BETIO, KIRIBATI",
+    "",
+    "U.S. Marine Corps photo by Sgt. Therese Edwards, via DVIDS"
+   ],
+   "rot1": "JUL 18, 2019",
+   "rot2": "NOV 21, 2023",
+   "em": "If your family were still waiting"
+  },
+  {
+   "id": "P216",
+   "bloco": "B20d",
+   "tipo": "Card",
+   "arq": "codigo",
+   "enq": "card",
+   "inicio": 915.71,
+   "dur": 6.07,
+   "frase": "This is Clearance Required. We go where the record goes. If you want the next one, subscribe.",
+   "real": false,
+   "reuso": false,
+   "em": "This is Clearance Required."
+  }
+ ]
+}

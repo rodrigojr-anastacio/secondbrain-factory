@@ -40,3 +40,10 @@ Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/emba
 - **"Still Full of …" é evitável:** o WTS testou "Why Is Laos Still Full of American Bombs?" (1,7 mil, 0,04× da mediana, 01/11/2026).
 - **O canal-modelo ocupa padrões por tema:** o WTS publicou "What's Still at the Bottom of Pearl Harbor?" em 14/11/2026 → o padrão B ficou fora em Pearl Harbor. Medir os uploads do WTS (playlistItems) antes de fechar o título.
 - **Thumb:** "NEVER FIXED" repetiu a ideia de "still" do T1 (reprovado); "ON PURPOSE" acrescenta um fato novo e passou. Furos pequenos acesos em ciano não leem a 320×180: crateras grandes, ciano só como brilho.
+
+## Lições do crivo do 005 Tarawa (17/11/2026, 3 rodadas; `videos/005-tarawa/embalagem/crivo-r1..r3.md`) — Hipótese até ter CTR
+- **Trocar o objeto da fórmula salva o "Still Digging Up":** "Why Is America Digging Up Japanese Soldiers on Tarawa?" passou nas 3 rodadas; o crivo lembrou que a fórmula pura cansou (WTS Germany 0,3×, Okinawa 1,0×).
+- **Padrão fora da lista da bíblia cai** ("Half the DNA… Isn't American", r1): usar só os padrões provados; o dado vai no complemento ("What's Still Under Tarawa Besides the Marines?").
+- **Thumb de documento real:** precisa de frase curta numa linha só e sem palavra proibida na vizinhança; sem evidência de "documento" como padrão de thumb no nicho (buscas de 17/11 não acharam thumb de documento acima da mediana).
+- **`cena-acao` precisa de objeto de guerra ≥ 45% e alvo para a palavra-pergunta** (r2 reprovou "equipe peneirando quintal": lia como jardinagem). Evidência medida: Untold War Archives `X4gBxGuxYVA` 463 mil (36,6×).
+- **`antes-depois` tem evidência de nicho amplo** (Frontlines Forgotten `87xxugek3Lo` 10,3×, Unhinged Past `C7ROfkvZmi0` 9,4×, WW2 Wayfinder `TyNghiByu1I` 11,7×).
