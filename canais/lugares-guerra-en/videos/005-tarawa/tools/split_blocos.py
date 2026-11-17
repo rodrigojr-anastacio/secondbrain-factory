@@ -4,10 +4,14 @@ import re, json
 from pathlib import Path
 V = Path(__file__).resolve().parent.parent
 VOZ_SUBS = [
-    # 004: horas e siglas por extenso para a voz (o texto da tela/legenda continua o do SCRIPT.md).
-    # Conferir no Whisper: Hale Makai ("HAH-leh mah-KAI"), Hickam, Oahu, Kahuku, Hawai'i, Higa, Wabinga (não falado), B-17s.
-    ("7:55 a.m.", "seven fifty-five a.m."), ("At 8:40,", "At eight forty,"), ("By 9:45", "By nine forty-five"),
-    ("3,200-man", "thirty-two-hundred-man"), ("POW/MIA", "P.O.W. M.I.A."), ("Public Law", "Public Law"),
+    # 005: grafia da voz (o texto da tela/legenda continua o do SCRIPT.md). Conferir no Whisper: Betio ("BAY-shoh"), Kiribati ("KEER-ih-bahss"),
+    # Tarawa, Sasebo, Shibasaki, Masatoshi/Sadayuki Nomura, Choi Byeong-yeon ("CHWAY byung-yun"), Scovill, Roecker, Rush (Kentucky).
+    ("POW/MIA", "P.O.W. M.I.A."), ("Kiribati", "Kiribass"), ("Betio", "Bay-sho"),
+    ("124 of the 243 (~50%) unique Sanger-generated mtDNA sequences are consistent with Asian haplogroups",
+     "one hundred twenty-four of the two hundred forty-three, about fifty percent, unique Sanger-generated M.T. D.N.A. sequences are consistent with Asian haplogroups"),
+    ("From 1943-1946", "From nineteen forty-three to nineteen forty-six"), ("SeaBee", "Seabee"),
+    ("3,301", "thirty-three hundred and one"), ("4,836", "forty-eight thirty-six"), ("4,690", "forty-six ninety"),
+    ("Choi Byeong-yeon", "Choi Byung-yun"),
 ]
 def voz(t):
     for a, b in VOZ_SUBS: t = t.replace(a, b)
