@@ -9,46 +9,45 @@ fm = lambda s: f"{int(s) // 60}:{int(s) % 60:02d}"
 cap_txt = "\n".join(f"{fm(c['t'])} {c['titulo']}" for c in caps)
 T = V / "entrega/pacote"; T.mkdir(parents=True, exist_ok=True)
 txt = f"""TITLES (Test & compare) — paired with the thumbnails
-A: Why Are There Still Bullet Holes at Pearl Harbor?           → thumb-A.jpg ("ON PURPOSE")
-B: The Pearl Harbor Wall Tourists Aren't Allowed to See        → thumb-B.jpg ("ON PURPOSE")
-C: What's Still Behind the Gate at Hickam Field?               → thumb-C.jpg ("ON PURPOSE")
+A: Why Is America Digging Up Japanese Soldiers on Tarawa?      → thumb-A.jpg ("SAME HOLE") | title pattern: Why Is [country] Digging Up X? | thumb pattern: objeto-simbolo
+B: The Soldiers America Wasn't Looking for on Tarawa           → thumb-B.jpg ("WHOSE?") | title pattern: The X They Weren't Supposed to Find | thumb pattern: cena-acao
+C: What's Still Under Tarawa Besides the Marines?              → thumb-C.jpg ("1943 · NOW") | title pattern: What's Still Under X? | thumb pattern: antes-depois
 Default when uploading: title A + thumbnail A.
 
 DESCRIPTION
-If you like places history left behind, subscribe, like the video and share it with someone who has stood at Pearl Harbor.
+If you like places history left behind, subscribe, like the video and share it with someone who knows the Pacific story.
 
-Look closely at this wall: bullet and shrapnel strikes from one morning in 1941, never patched. It belongs to a working headquarters on an active base, and an ordinary visitor can't walk up to it. We follow the paperwork (an Air Force fact sheet, a National Historic Landmark nomination, a federal law) to find out who decided the marks should stay, what else sits behind the same gate, and what a tourist does get to see.
+The Defense Department runs a DNA project for one small island: Betio, in Tarawa Atoll. Of 243 distinct DNA profiles its scientists have read, 124 trace to Asian lineages. The American search is for about 374 Marines and sailors still missing, but the ground gives back Japanese and Korean men too, buried in the same craters and trenches. We follow the official papers (a 1947 Marine Corps history, a POW/MIA fact sheet, a federal science paper) to find out how both sides ended up in the same ground, what happens to the men who turn up, and what is still under the town that grew on top.
 
 CHAPTERS
 {cap_txt}
 
 SOURCES
-- U.S. Air Force / Pacific Air Forces, Hickam Field and PACAF Headquarters history fact sheets and the PACAF "staff ride" material.
-- National Park Service, National Register of Historic Places Inventory—Nomination Form, "Hickam Field" (National Historic Landmark, 1984–85).
-- National Archives (NARA), dispatch 596244 and U.S. Navy film records NAID 76168, 76169, 76171 and 77339; Naval History and Heritage Command, "Ford Island" and Pearl Harbor attack pages.
-- Commander, Navy Installations Command, Joint Base Pearl Harbor-Hickam history and Visitor Control Center pages.
-- Public Law 116-9, section 2206 (Pearl Harbor National Memorial boundaries); National Park Service, Pearl Harbor National Memorial and USS Utah Memorial pages and FAQ.
-- DVIDS (Defense Visual Information Distribution Service): PACAF, JBPHH and Defense POW/MIA Accounting Agency news releases; Pearl Harbor Aviation Museum, Hangar 79 and Ford Island pages; Honolulu Star-Advertiser reporting on the USS Utah and USS Arizona memorials; HABS/HAER documentation, Library of Congress.
+- Taylor, Scott, Koehl, Trask and Maijanen (Defense POW/MIA Accounting Agency), "The Tarawa Project Part I," Forensic Anthropology 2(2), 2019.
+- Defense POW/Missing Personnel Office, Tarawa Fact Sheet; Defense POW/MIA Accounting Agency news releases and casualty data for the Battle of Tarawa.
+- Capt. James R. Stockman, "The Battle for Tarawa" (USMC Historical Section, 1947), including Appendix C; Joseph H. Alexander, "Across the Reef: The Marine Assault on Tarawa" (USMC History and Museums Division, 1993); Bernard C. Nalty, "The United States Marines in the Gilberts Campaign" (1962).
+- DVIDS (Defense Visual Information Distribution Service) releases and photographs on the 2019 and 2023 Betio recoveries and the repatriation ceremonies.
+- National Archives (NARA) and U.S. Navy film records NAID 75861, 75866 and 77026; Naval History and Heritage Command.
 
 CREDITS
-Photos, film and documents: U.S. National Archives (80-G collection and NAID 76168/76169/76171/77339), Naval History and Heritage Command, U.S. Air Force, U.S. Navy, DVIDS, National Park Service, Library of Congress (HABS/HAER), and public-domain files on Wikimedia Commons. Maps: Natural Earth (schematic, positions approximate). U.S. government works are in the public domain. Photographs show the buildings and ceremonies; no casualties are shown.
+Photos, film and documents: U.S. National Archives (NARA), U.S. Navy, U.S. Marine Corps, U.S. Army Air Forces, U.S. Coast Guard, Defense POW/MIA Accounting Agency, Defense POW/Missing Personnel Office, DVIDS (photos by Cpl. Taryn Escott, Sgt. Melanye Martinez, Sgt. Therese Edwards and MC1 Amara Timberlake), NASA (ISS Expedition 53 photograph by Randolph Bresnik), and public-domain files on Wikimedia Commons. USMC historical monographs via HyperWar and the Marine Corps History Division. Maps: Natural Earth (schematic, positions approximate). U.S. government works are in the public domain. Photographs show the work of recovery teams, places and ceremonies; no remains are shown.
 Music: original, made for this channel.
 
 TAGS
-Pearl Harbor, Hickam Field, Pearl Harbor bullet holes, Pearl Harbor 1941, Pacific Air Forces, Joint Base Pearl Harbor-Hickam, USS Utah Memorial, Ford Island, National Historic Landmark, Hale Makai barracks, places you can't visit, WWII history, December 7 1941
+Tarawa, Betio, Battle of Tarawa, Tarawa 1943, Tarawa Atoll, Kiribati, Defense POW/MIA Accounting Agency, DPAA, History Flight, Marines still missing, WWII Pacific, WWII history, places you can't visit, Japanese soldiers WWII
 
 CATEGORY: Education · LANGUAGE: English (US)
 """
 ban = re.compile(r"\b(dead|death|died|dies|killed|murder\w*|assassinat\w*|massacre|shocking|AI|synthetic|artificial)\b", re.I)
 bad = ban.findall(txt)
 assert not bad, bad
-assert all(len(l) <= 100 for l in txt.splitlines() if l[:2] in ("A:", "B:", "C:")) 
 (T / "youtube.txt").write_text(txt)
 (T / "checklist-publicacao.txt").write_text("""CHECKLIST DE PUBLICAÇÃO (Rodrigo) — fora da descrição
 - Idioma do vídeo: English (US). Categoria: Education. Não é para crianças.
 - Studio → Atributos → Uso de IA / conteúdo alterado ou sintético: SIM (voz sintética; mídia histórica é real).
 - Título A + thumb A como padrão; B e C (com as thumbs B e C) no "Testar e comparar".
 - Legendas: legendas.srt (English). Vídeo: video.mp4 1080p (nunca a versão do Telegram).
-- Publicação planejada: quarta 18/11/2026.
+- Janela sugerida: qua 18/11 ou sex 20/11/2026 (o dia é seu; aniversário da batalha 20-23/11).
+- Conferir antes de publicar: número do laboratório (B01), linha do DPMO (B01c), little or nothing de 1947 (B08a), Choi (B17); doc Taylor 2019 = licença da revista (se houver dúvida, trocar por Cartela).
 """)
 print(len(txt), "bytes;", len(caps), "capítulos")

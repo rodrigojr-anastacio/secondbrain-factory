@@ -49,3 +49,7 @@ Remotion 1080p30; render completo no Runpod (`tools/render_runpod.sh`), VPS só 
 - Filmes NARA 76169 trazem timecode "RTC" no rodapé: recortar 12% embaixo (`Filme` em `componentes.jsx`); o pré-QA automático não pegou, a contact sheet sim.
 - Mapa de porto/bairro: o Natural Earth 50m não serve (sem o porto); usar mapa esquemático sem terra (SCHEMATIC · POSITIONS APPROXIMATE) ou foto aérea PD georreferenciada.
 - Distância citada no roteiro: medir com coordenadas antes da voz (a "about two miles" do rascunho era 2,6–2,9 mi).
+
+## Lição do 005-tarawa (17/11/2026)
+- Projeto novo copiado de outro vídeo **precisa de `public/fonts`** (Anton, Barlow, IBM Plex Mono) antes dos stills: sem elas o Remotion cai na fonte padrão sem erro e o pré-QA vê texto errado. Fonte: 005 (stills refeitos).
+- Thumb com seta: desenhar em SVG (linha + polígono), não curva com marcador (virou borrão). Texto da palavra-pergunta ≤ 160 px quando o objeto-herói está no alto do quadro.

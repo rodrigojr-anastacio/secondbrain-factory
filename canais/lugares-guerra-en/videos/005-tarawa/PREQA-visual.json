@@ -1,0 +1,135 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/lugares-guerra-en/videos/005-tarawa/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.0573,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 0,
+  "medio": 4,
+  "baixo": 3
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q05",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Nos P094 (6:46) e P101 (7:17), uma faixa vermelha/branca (a bandeira do caixão) aparece em toda a base do quadro, sobre a ficha. Pode ser só o enquadramento da foto, mas parece uma faixa chapada de cor no rodapé. Conferir.",
+   "t": null,
+   "arquivo": "grade_r_05.jpg"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "P146 (11:13) mostra 'Número 1 TEETH' e P149 (11:28) mostra '3 ISOTOPES'. O valor pode estar no início da animação do contador, e 'TEETH' no singular com '1' pode ser texto incompleto. Conferir o valor final.",
+   "t": null,
+   "arquivo": "grade_r_07.jpg"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "P194 e P196 (DocGrifo, 14:54/14:55 e 15:01/15:02): o documento escaneado está cortado pelas bordas direita/esquerda, e a primeira linha aparece cortada no topo. Pode ser zoom intencional do DocGrifo, mas o texto lido fica incompleto.",
+   "t": null,
+   "arquivo": "grade_r_09.jpg"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "P210 e P212 (DocGrifo, 15:59, 16:08 e 16:09): linhas do documento cortadas pela borda direita e pelo topo (primeira linha pela metade). Provavelmente zoom intencional, mas a legibilidade é fraca.",
+   "t": null,
+   "arquivo": "grade_r_10.jpg"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "P171 (13:15) mostra 'TAKEN TO TARAWA IN 194' com o cursor no fim. É provável animação de digitação, então não é defeito. Conferir se o texto fecha o ano completo ('194x') no render final.",
+   "t": null,
+   "arquivo": "grade_r_08.jpg"
+  },
+  {
+   "quadro": "Q06",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "Os DocGrifo P109 e P110 (7:59 a 8:08) têm texto da página cortado pela borda do quadro. O corte é nas laterais e no topo, como enquadramento de zoom do documento, e é aceitável. A ficha de data não aparece nesses quadros. Legibilidade ok.",
+   "t": null,
+   "arquivo": "grade_r_06.jpg"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "moldura",
+   "severidade": "baixo",
+   "descricao": "O último quadro (P216 Card, 16:26) tem faixa preta na borda inferior (~4%), coerente com o sinal automático. Provavelmente é só o fundo escuro do card, não uma moldura de imagem.",
+   "t": null,
+   "arquivo": "grade_r_10.jpg"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": null,
+   "nome": "grade_r_01.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": null,
+   "nome": "grade_r_02.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": null,
+   "nome": "grade_r_03.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": null,
+   "nome": "grade_r_04.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": null,
+   "nome": "grade_r_05.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": null,
+   "nome": "grade_r_06.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": null,
+   "nome": "grade_r_07.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": null,
+   "nome": "grade_r_08.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": null,
+   "nome": "grade_r_09.jpg",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": null,
+   "nome": "grade_r_10.jpg",
+   "sinais": [
+    "faixa preta na borda base: 4% do quadro"
+   ]
+  }
+ ]
+}
