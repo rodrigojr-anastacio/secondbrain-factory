@@ -85,3 +85,10 @@ Copiar o vídeo anterior **sem `node_modules`** e linkar: `remotion/node_modules
 | SFX WAV apagados pela limpeza de disco | recriar com `shared/sintetiza_sfx.py` | 005 `ETAPA2-PRONTA.md` |
 | Pré-QA marca como bloqueante a faixa navy atrás de globo/régua e os picos das transições whip/nuvem | é estilo (falso positivo); anotar e seguir, mas conferir o quadro | 003, 004 `ETAPA2-PRONTA.md` |
 | Crossfade deixa rótulo/cilindro/pino da cena anterior sobre a foto | conferir quadros de transição | 005 `PREQA-visual.md` (altos restantes) |
+
+## Lições do 006 (17/11/2026, motor 2D `Longo6`)
+- Para pauta de litoral/serra sem 3D pesado, mapa 2D (A satélite sintético + B editorial) com câmera contínua + peças React renderizou em ~US$ 0,10 e 3 min por 3.000 quadros no Runpod; **fixe o zoom mínimo da câmera** (`1080/IH`) e limite o centro: senão aparece a faixa navy fora da imagem (pré-QA pegou).
+- Máscara terra/mar: NASA GIBS `OSM_Land_Water_Map`; o Terrarium tem ruído de 0–4 m no mar costeiro.
+- Fade-out até o preto no último quadro reprova a conferência SSIM (0,42) mesmo estável; não faça.
+- Chave ElevenLabs pode voltar 401: a reserva Fish #NATASHA drama-3 funcionou (hook 1,36×, corpo 1,08×, sem tags do v3).
+- Faixa de legenda ocupa y≈900–1010: etiquetas fixas vão em y≥1022; esquemas de tela cheia terminam em y≤840.

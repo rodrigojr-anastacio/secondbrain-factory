@@ -223,7 +223,7 @@ export const Longo6 = ({ tempo }) => {
   const t = tempo !== undefined ? tempo : frame / cues.fps;
   const cam = camAt(t), b = tab(cues.estilo, t), esc = tab(cues.escuro, t);
   const tr = `translate(${960 - cam.x * cam.z}px, ${540 - cam.y * cam.z}px) scale(${cam.z})`;
-  const fade = Math.min(clamp01(t / 0.5), 1 - clamp01((t - (cues.duracao - 0.6)) / 0.6));
+  const fade = clamp01(t / 0.5);
   return (
     <AbsoluteFill style={{ background: '#0E1A33', opacity: fade }}>
       <div style={{ position: 'absolute', left: 0, top: 0, width: IW, height: IH, transformOrigin: '0 0', transform: tr, willChange: 'transform' }}>
