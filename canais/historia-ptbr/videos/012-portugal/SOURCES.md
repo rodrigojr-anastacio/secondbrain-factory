@@ -43,7 +43,7 @@ Regra (bíblia `roteiro.md`, "Conteúdo (nosso)"): todo fato com fonte própria;
 | N053–N054 | emigração "a salto" com passadores; fotografia rasgada ao meio como recibo; ~1,5 milhão de saídas em 1960–74 (≥ 560 mil clandestinos para a França) | *Análise Social*, https://revistas.rcaap.pt/analisesocial/article/download/43545/29617/203851 ; *Ler História*, https://isidore.science/document/10.4000/lerhistoria.12853 ; "A Fotografia Rasgada" (José Vieira, 2002), https://www.cinept.ubi.pt/pt/filme/8282/A+Fotografia+Rasgada | a foto rasgada vem do documentário e de memórias orais ("muitos assim") |
 | N055 | guerra colonial (1961–1974) | Infopedia, "Guerra Colonial" | de passagem |
 | N056 | 25/04/1974: "Grândola, Vila Morena" na Rádio Renascença às 00h20 como senha; independências de Angola (11/11/1975) e Moçambique (25/06/1975) | Infopedia, "25 de Abril"; RTP, https://media.rtp.pt/descolonizacaoportuguesa/mapa-do-imperio | "quase sem tiros" (houve 4 vítimas na sede da PIDE: o roteiro não diz "sem tiros") |
-| N057 | adesão à CEE: assinatura nos Jerónimos em 12/06/1985 (Espanha em Madri no mesmo dia); entrada em 1/01/1986 | Observador, https://observador.pt/especiais/dia-12-junho-1985/ ; CVCE, https://www.cvce.eu/en/obj/the_official_signing_ceremony_of_portugal_s_treaty_of_accession_to_the_european_communities_lisbon_12_june_1985-en-81405071-f08c-4660-87e6-b2b4a5b852df.html | assinatura espanhola no mesmo dia: CVCE/Palacio Real de Madrid (conferir na etapa 2 se o QA pedir) |
+| N057 | adesão à CEE: assinatura nos Jerónimos em 12/06/1985 (Espanha em Madri no mesmo dia); entrada em 1/01/1986 | Observador, https://observador.pt/especiais/dia-12-junho-1985/ ; CVCE, https://www.cvce.eu/en/obj/the_official_signing_ceremony_of_portugal_s_treaty_of_accession_to_the_european_communities_lisbon_12_june_1985-en-81405071-f08c-4660-87e6-b2b4a5b852df.html | Espanha assinou no Palácio Real de Madri no mesmo 12/06/1985 (CVCE, "Signing of the Treaty of Accession of Spain"); conferir no QA |
 | N058 | 26/03/1995: fim do controle de fronteira terrestre (Schengen) | UE, https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_pt ; DN, https://www.dn.pt/arquivo/diario-de-noticias/espaco-schengen-aboliu-26-fronteiras.html | Valença e Vila Real de Santo António = extremos norte e sul da fronteira |
 | N059 | Portugal continental em UTC+0 (WET), Espanha em UTC+1 (CET): o relógio muda uma hora na ponte do Caia (Elvas–Badajoz) | fusos oficiais (Decreto-Lei 17/96, PT; Real Decreto 2/1940, ES) | — |
 | N062 | 2026: o troço Caia–Cuncos continua sem marcos | idem N002 | frase neutra no presente |
@@ -54,7 +54,7 @@ Cenas principais = hook, abertura de cada capítulo e falas. Conferido com busca
 |---|---|---|---|
 | 1 | Hook: os marcos numerados que pulam ~cem números diante de Olivença | N001–N004 | **não** (Olivença: 2 linhas de passagem no Total History, sem os marcos) |
 | 2 | Valença e Tui: dois pescadores, um em cada margem do Minho (abertura do cap. 1) | N007 | **não** |
-| 3 | O Minho divide a mesma língua | N010 | **não** |
+| 3 | O Minho divide a mesma língua | N010 | sim (DGP 6:04 diz que galego e português eram a mesma língua; sem a cena do rio) |
 | 4 | O bispo do Porto convence os cruzados (1147) | N012–N013 | sim, em parte (Impérios AD p1 cita cruzados em Lisboa; sem o sermão) |
 | 5 | Faro: a linha bate no mar | N014–N015 | **não** (H1 cita 1249 em 1 frase) |
 | 6 | Alcanizes: o tratado com um menino de 11 anos e Maria de Molina | N017–N019 | **não** (H1: Alcanizes em 1 frase, sem a cena) |
@@ -71,6 +71,6 @@ Cenas principais = hook, abertura de cada capítulo e falas. Conferido com busca
 | 17 | "A salto" com a fotografia rasgada | N053–N054 | **não** |
 | 18 | Jerónimos 1985: os dois assinam no mesmo dia | N057 | **não** (This Is History e Merrick citam a CEE de passagem; sem a cena) |
 | 19 | 26/03/1995: as cancelas sobem; o relógio na ponte | N058–N059 | **não** |
-**Resultado: 15 de 19 cenas principais fora da manada = 79% (meta ≥ 40%).** De passagem, com palavras nossas: São Mamede (N008), Aljubarrota (N026), Ceuta (N028), Sebastião (N035), 1640 (N038), 1807 e 1822 (N049), Ultimato/Salazar (N050), 25 de Abril (N056).
+**Resultado: 14 de 19 cenas principais fora da manada = 74% (meta ≥ 40%; recontagem do crivo de ângulo r2).** De passagem, com palavras nossas: São Mamede (N008), Aljubarrota (N026), Ceuta (N028), Sebastião (N035), 1640 (N038), 1807 e 1822 (N049), Ultimato/Salazar (N050), 25 de Abril (N056).
 
 Fonte da alfândega (N036): Chronica Mundi/UCM, https://revistas.ucm.es/index.php/CHMO/article/download/81703/4564456561986/4564456657713 (supressão das alfândegas da fronteira terrestre como condição de Tomar, isenção concedida no ano seguinte, impostos restaurados em 1591); dito no roteiro com "segundo historiadores".
