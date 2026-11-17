@@ -1,0 +1,45 @@
+# BRIEF historia-ptbr/012-portugal · 17/11/2026
+`youtube.videos` **id 48** (número 12, `biblia_versao='v2'`). Lote noturno de 17/11 (pode ir ao ar sex ou sáb). Briefs do lote: `~/workspace/referencias/BRIEF-lote-historia-012-portugal[-ETAPA1/2].md`.
+
+## Tema e título de trabalho
+- **Portugal**, a história inteira (do Condado Portucalense a 2026), molde History in Minutes, bíblia de roteiro **v2** + "Forma (modelada) × Conteúdo (nosso)" (16/11/2026).
+- Título de trabalho (provisório; o real sai do `EMBALAGEM.md` aprovado): "A fronteira de Portugal é QUASE a mesma desde 1297. Como?"
+- Pergunta central candidata: **"Como um país menor que Pernambuco segurou a mesma fronteira com a Espanha por setecentos anos?"**
+- Ângulo (ver `ANGULO.md`): **a linha** — a fronteira luso-espanhola como personagem e fio condutor; o único pedaço que cedeu (Olivença, 1801) abre e fecha o vídeo. O ângulo candidato do backlog ("por que Portugal sempre foge para o mar?", abertura no embarque da corte em 29/11/1807) foi testado e **descartado como hook**: o embarque de 1807 é o vídeo inteiro do Mundos Reimaginados (`qWPL11MOzOg`, 778 mil) e foi a nossa thumb C do 005 Brasil ("O REI FUGIU!"); o mar fica como uma das peças da resposta (cap. 5), não como fio.
+
+## Bíblia do canal (prevalece): `canais/historia-ptbr/biblia/`
+As 3 regras que mais importam aqui:
+1. **Pergunta central como pergunta até ~0:50, volta ≥ 3×, fecho responde e reenquadra** (roteiro.md regras 1–2). A pergunta é a forma do ângulo e tem de ser diferente da pergunta da manada ("por que a Espanha nunca conquistou Portugal?").
+2. **Problema → solução → novo problema** em cada era, "você/imagine" ≥ 1/100 e 1 ponte com o espectador brasileiro por capítulo (regras 3–4). Pontes naturais: Pernambuco (área), Brasil existe em português por causa de 270 léguas de Tordesilhas, os holandeses em Recife por causa da União Ibérica, o relógio do celular que pula 1 hora na ponte.
+3. **Conteúdo nosso:** ≥ 40% das cenas principais fora de todas as transcrições da manada; fatos da manada (Aljubarrota, Windsor, Navegações, 1640, 1807, 25 de Abril) só de passagem. Feche no presente com 1 frase neutra. Olivença: tom factual, sem tomar partido (posição de cada governo, sem "deveria voltar").
+
+## Referência de forma (só forma)
+- **Canal-modelo:** History in Minutes não tem vídeo de Portugal (aba Vídeos do canal UCYjRQ6T2BxBnJtPytI9OnNg via yt-dlp/WARP em 17/11: 12 vídeos, nenhum de Portugal, Ibéria ou Espanha). Molde de forma = os nossos v2 que passaram no checklist (006 Roma, 007 Rússia, 011 EUA) e o esqueleto HiM descrito na bíblia (Irã `XVwr1Rm_9jc`, Brasil `Vug2cLY3nxk`): anedota-porta no presente → pergunta → "essa é a história inteira de X" → 10 eras ligadas → fecho ≤ 45 s.
+- **Manada do tema** (forma do que funciona em pt, nunca conteúdo): `ref/manada.json` e `ANGULO.md`. O de mais tração recente no formato animado/narrado: Mundos Reimaginados "O Dia em que Portugal se Mudou para o Brasil" `qWPL11MOzOg` (778.712 views em 17/11, 16/03/2026, 16:52, ×8,4 a mediana): hook visual de 40 s ("um império europeu inteiro começou a se mover"), cena antes dos fatos, fecho que reenquadra ("o Brasil deixou de ser colônia porque a metrópole veio morar nele"). Hook real transcrito (só para modelar): "No início do século XIX, algo inesperado aconteceu no Atlântico. Um império europeu inteiro começou a se mover." Cortes/min: ~15 (narrado com imagens de IA).
+- Hook da manada que **não** usamos: "pequeno país mudou o mundo/primeiros a navegar" (DGP, Impérios AD, OSP, This Is History, Merrick), Pessoa "Ó mar salgado" (Impérios AD p2), "olhe a Península: Portugal espremido, por que a Espanha nunca conquistou?" (Prisma, H1, Total History), Churchill 1943 + tratado de 1373 + "fatura" (Impérios e Lendas `vk5QX98PpcI`).
+
+## Duração, tamanho, teto
+- Alvo **15–17 min**; ~**2.050 palavras** (ritmo medido ~128 ppm; 006 com 2.224 deu 17:29). Hook ~150, ~180 por era (10 eras), fecho ~90 (≤ 45 s). Cap. 1 entre 1:00 e 1:15.
+- **Teto em dinheiro (etapa 2): US$ 8** (voz Fish drama-3 ~US$ 1; imagens pelo Codex US$ 0 com fallback fal US$ 0,046/img; render Runpod ~US$ 0,10–0,20; thumbs). Etapa 1 = US$ 0.
+- Imagens: ~190–210 (16 min; reuso ~40% depois de 3:00).
+
+## Fontes principais (próprias; nenhuma transcrição de concorrente é fonte)
+Britannica e Infopedia (verbetes Portugal, Alcanizes, Aljubarrota, Tordesilhas, Restauração, Pacto Ibérico, Descolonização); Fernão Lopes, *Crónica de D. João I* (cap. XI, ed. Teresa Amado/INCM; trad. *The Chronicles of Fernão Lopes*, Cambridge); *Roteiro da primeira viagem de Vasco da Gama* (ed. Herculano e Castello de Paiva, 1861; trad. Ravenstein, Hakluyt 1898); *De expugnatione Lyxbonensi* (carta atribuída ao cruzado Raol; Fordham Medieval Sourcebook); Ato Final do Congresso de Viena (1815), art. 105; Tratado de Badajoz (1801); Convenção de Limites de 1926 e estudos sobre o troço Caia–Cuncos não demarcado (Fernández de Casadevante, 1999); Decreto 3/2013 e dossiê UNESCO 1367bis (Elvas, 2012); *Análise Social* (emigração 1960–74; clandestinos para a França) e *Ler História* (emigração irregular); documentário "A Fotografia Rasgada" (José Vieira, 2002) e reportagens Público/RTP sobre o contrabando na raia; UE (Schengen, 26/03/1995; adesão 12/06/1985, CVCE); IBGE (área de Pernambuco) e INE/DGT (área de Portugal). Lista completa e cotejo em `SOURCES.md` (etapa do roteiro).
+
+## Fatos fortes (matéria-prima da promessa)
+1. **Olivença e os marcos que faltam:** tomada na Guerra das Laranjas (20/05–06/06/1801), cedida no Tratado de Badajoz (6/06/1801); o Congresso de Viena (1815, art. 105) pediu a devolução, a Espanha não devolveu; Portugal **nunca reconheceu formalmente** a soberania espanhola. O troço entre a foz do Caia e a foz da ribeira de Cuncos (~18 km) **nunca foi demarcado**: os marcos ~802–899 (cerca de cem) não existem; a Convenção de Limites de 1926 começa em Cuncos. [Observador; DN; dialnet 5396891; Ato de Viena art. 105]
+2. **Alcanizes, 12/09/1297:** D. Dinis assina a linha com Fernando IV de Castela, então com **12 anos**, sob a regência da mãe, María de Molina; Portugal ganha Riba-Côa. A fronteira, com ~1.200 km, é das mais antigas e estáveis da Europa. [Infopedia; Britannica]
+3. **"Matam o Mestre!"** (dez. 1383): Álvaro Pais corre a cavalo por Lisboa gritando que estão a matar o Mestre de Avis e o povo se levanta; Castela ia herdar Portugal pelo casamento de D. Beatriz com Juan I. [Fernão Lopes, *Crónica de D. João I*, cap. XI]
+4. **Tordesilhas, 1494:** a bula *Inter Caetera* (1493) punha a linha a 100 léguas de Cabo Verde; D. João II negociou **370** (Portugal leva a briga de fronteira para o oceano; o Brasil fala português por causa dessas léguas). [Marinha.pt; EBSCO/Britannica]
+5. **Elvas, 1658–59:** cercada desde 22/10/1658, salva na Batalha das Linhas de Elvas (14/01/1659); fortificações Património Mundial UNESCO (30/06/2012). Restauração de 1/12/1640 reconhecida pela Espanha no Tratado de Lisboa (13/02/1668). [Decreto 3/2013; UNESCO 1367bis]
+6. **A linha como muro e como porta:** Pacto Ibérico (17/03/1939, Lisboa; assina pela Espanha o embaixador Nicolás Franco); contrabando de café na raia (Marvão: principal sustento até a CEE); ~1,5 milhão de saídas de Portugal em 1960–74, pelo menos 560 mil clandestinos para a França, "a salto", com a **fotografia rasgada ao meio** (o passador fica com uma metade; a outra volta à família quando o emigrante chega). [Infopedia; Público/RTP; *Análise Social*; "A Fotografia Rasgada", 2002]
+7. **26/03/1995:** Schengen abole o controle na fronteira terrestre luso-espanhola; adesão à CEE assinada nos Jerónimos em 12/06/1985, entrada em 1/01/1986. Hoje o sinal da fronteira é o relógio: Portugal (UTC+0) fica uma hora atrás da Espanha (UTC+1). [UE; CVCE; Observador]
+8. Ponte de escala: Portugal ≈ 92,2 mil km² (com ilhas) < Pernambuco ≈ 98,1 mil km² (IBGE); Espanha ≈ 506 mil km² (~5,5×).
+
+## Fio condutor e loops candidatos
+- Fio: **a linha** (marcos de pedra numerados). Pergunta volta: "primeira peça da resposta: a linha foi assinada quando o vizinho era um menino" (1297); "segunda: quando Castela veio pela coroa, foi o povo que segurou" (1383); "terceira: sem poder crescer por terra, Portugal levou a linha para o mar" (1494); "e a pergunta fica mais difícil" (1580: a Espanha leva a coroa e a linha continua); Elvas; "onde a linha cedeu" (1801).
+- Loop "guarde" (1): os cem marcos que faltam (hook) → pagos no cap. 8 (1801) e no fecho (2026).
+- Reenquadramento do fecho: a linha resistiu enquanto alguém queria atravessá-la para mandar; quando ninguém quis mais (1995), ela abriu. O único buraco continua onde ela cedeu.
+
+## Critérios de pronto (etapa 1)
+`ANGULO.md` (manada transcrita) · `EMBALAGEM.md` + `CRIVO.md` APROVADO · roteiro v2 com checklist, `SIMILARIDADE.md` < 30 e `CRIVO-ANGULO.md` APROVADO · storyboard (`cenas.json`, `STORYBOARD.md`, `storyboard.json`) · `ETAPA1-PRONTA.md`. Título e pacote sem palavras proibidas (`conhecimento/politicas-youtube.md`); guerra e ditadura com seriedade e neutralidade, sem imagem gráfica.

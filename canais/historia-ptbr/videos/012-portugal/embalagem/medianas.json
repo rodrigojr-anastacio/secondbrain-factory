@@ -1,0 +1,168 @@
+{
+ "UCx7HKmnCIIbRBF2FjAoV0bg": {
+  "canal": "Débora Aladim",
+  "mediana": 50638,
+  "n": 7
+ },
+ "UCW4ay83n_xNrqC8pBew-IMQ": {
+  "canal": "Prisma Global",
+  "mediana": 384.0,
+  "n": 10
+ },
+ "UC1kstmrvShIqkAS1b_bdtWQ": {
+  "canal": "EconoSimples",
+  "mediana": 37995.5,
+  "n": 30
+ },
+ "UCgP9a0iC_tbkrMChf5JFZZg": {
+  "canal": "Mundos Reimaginados",
+  "mediana": 92731.5,
+  "n": 30
+ },
+ "UC9p0hjpbIJss8Vb5tiZBrzw": {
+  "canal": "Impérios e Lendas",
+  "mediana": 10157.0,
+  "n": 30
+ },
+ "UC3u2G8LNnBvWo-4pzPj3SMw": {
+  "canal": "História Genética",
+  "mediana": 867.5,
+  "n": 30
+ },
+ "UCu51jaS497ok2JaMu2voj2A": {
+  "canal": "PORTUGAL PARA TODOS",
+  "mediana": 4347.0,
+  "n": 30
+ },
+ "UClg2quzZoQeV38Vx7JFACrA": {
+  "canal": "Brasão de Armas",
+  "mediana": 348109.5,
+  "n": 30
+ },
+ "UCEQ12yB8QLw9pVOY3lo34_g": {
+  "canal": "Paulo Rezzutti",
+  "mediana": 50134,
+  "n": 21
+ },
+ "UC0mDdx72qn_ivBI7-0S3cAg": {
+  "canal": "Canal H1",
+  "mediana": 31465.0,
+  "n": 30
+ },
+ "UCHg-OwquIk4BAYxQ8IElkeA": {
+  "canal": "História com Rafael Cerqueira",
+  "mediana": 1370,
+  "n": 21
+ },
+ "UCP-Vg2PcmLiWpEdvMI1R35w": {
+  "canal": "Domingo Espetacular",
+  "mediana": 168524.5,
+  "n": 24
+ },
+ "UC-OAb1sTjfO6cJYVdn_1GgA": {
+  "canal": "RECORD EUROPA",
+  "mediana": 826.0,
+  "n": 30
+ },
+ "UCcK9yDz5INb1Q9Tw82ICeVQ": {
+  "canal": "Um Documentário",
+  "mediana": 863307.0,
+  "n": 30
+ },
+ "UCaxDfhOITPEY5R4IYGyGecA": {
+  "canal": "Diário Nada Normal",
+  "mediana": 26940.0,
+  "n": 30
+ },
+ "UCUVUfcIsKhA5DwE1DWFop-Q": {
+  "canal": "Reconstrução Histórica",
+  "mediana": 6990.5,
+  "n": 30
+ },
+ "UCy1BU2cxHkkzE_Y6GTJfapQ": {
+  "canal": "Fazendas Antigas",
+  "mediana": 110573,
+  "n": 11
+ },
+ "UClaS3ZlziA22_bwGiMHrBxA": {
+  "canal": "Durma no Passado",
+  "mediana": 1966,
+  "n": 5
+ },
+ "UCmp6a3pJNVfczuxqjUyoIJw": {
+  "canal": "Explica, Lobianco!",
+  "mediana": 236,
+  "n": 3
+ },
+ "UCj0O6W8yDuLg3iraAXKgCrQ": {
+  "canal": "Você Sabia?",
+  "mediana": 1048586.0,
+  "n": 30
+ },
+ "UCOBAQkBm9V7WpSN-Bx7qkOA": {
+  "canal": "Por Quê, Hein?",
+  "mediana": 38084.5,
+  "n": 30,
+  "fonte": "medianas.json de outro vídeo da fábrica (pesquisa_embalagem.py, últimos ≤30 longos)"
+ },
+ "UCvc4IMwkfJGOgii23Omt-vQ": {
+  "canal": "Assim Era",
+  "mediana": 840.0,
+  "n": 30,
+  "fonte": "medianas.json de outro vídeo da fábrica (pesquisa_embalagem.py, últimos ≤30 longos)"
+ },
+ "UCf6DazxCqlev-nNR57LUWxQ": {
+  "canal": "Bello Mundo",
+  "mediana": 21404.0,
+  "n": 30,
+  "fonte": "medianas.json de outro vídeo da fábrica (pesquisa_embalagem.py, últimos ≤30 longos)"
+ },
+ "UCkIEY6rUSPy4qQjLqBBLUSg": {
+  "canal": "Via Infinda",
+  "mediana": 783836.0,
+  "n": 30,
+  "fonte": "medianas.json de outro vídeo da fábrica (pesquisa_embalagem.py, últimos ≤30 longos)"
+ },
+ "UCjoBdVJ3qNlddSZk_JOFozg": {
+  "canal": "História do Mundo",
+  "mediana": 17527.5,
+  "n": 28,
+  "fonte": "medianas.json de outro vídeo da fábrica (pesquisa_embalagem.py, últimos ≤30 longos)"
+ },
+ "UChkl7vSn9JvdXW9zYES4Rxw": {
+  "canal": "Histórias Romanas",
+  "mediana": 59401.0,
+  "n": 30,
+  "fonte": "medianas.json de outro vídeo da fábrica (pesquisa_embalagem.py, últimos ≤30 longos)"
+ },
+ "UCRP5p2RfxJgnKyWgve5pJ-Q": {
+  "canal": "Canal History Brasil",
+  "mediana": 5425.5,
+  "n": 30,
+  "fonte": "medianas.json de outro vídeo da fábrica (pesquisa_embalagem.py, últimos ≤30 longos)"
+ },
+ "UCxxMBSlt7euEEUvwTtpBhBw": {
+  "canal": "Gênese Infinita",
+  "mediana": 664.0,
+  "n": 30,
+  "fonte": "medianas.json de outro vídeo da fábrica (pesquisa_embalagem.py, últimos ≤30 longos)"
+ },
+ "UCmX-qtkofTN5UKFGqinGR2g": {
+  "canal": "Mente Primata",
+  "mediana": 1001.5,
+  "n": 30,
+  "fonte": "medianas.json de outro vídeo da fábrica (pesquisa_embalagem.py, últimos ≤30 longos)"
+ },
+ "UCK7__c6n8k1pYyOJU7ah6Hw": {
+  "canal": "Brasil Esquecido",
+  "mediana": 2006.0,
+  "n": 30,
+  "fonte": "medianas.json de outro vídeo da fábrica (pesquisa_embalagem.py, últimos ≤30 longos)"
+ },
+ "UCYGh1wAX1MyzqKagFjzFBdw": {
+  "canal": "Wozzy",
+  "mediana": 281.0,
+  "n": 20,
+  "fonte": "medianas.json de outro vídeo da fábrica (pesquisa_embalagem.py, últimos ≤30 longos)"
+ }
+}
