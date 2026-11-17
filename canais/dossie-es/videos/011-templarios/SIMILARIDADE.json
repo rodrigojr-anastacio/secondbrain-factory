@@ -1,0 +1,475 @@
+{
+ "pasta": "canais/dossie-es/videos/011-templarios",
+ "roteiro": "canais/dossie-es/videos/011-templarios/blocos.json",
+ "idioma": "es",
+ "blocos": 71,
+ "nota": 12.1,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [
+  5,
+  56,
+  62
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.16901408450704225,
+   "ordem": 0.3333333333333333,
+   "ngramas": 0.01698754246885617,
+   "sim_media": 0.21085335147615641,
+   "gemeos": 12,
+   "blocos": 71,
+   "posicoes": [
+    [
+     2,
+     313
+    ],
+    [
+     4,
+     235
+    ],
+    [
+     5,
+     479
+    ],
+    [
+     10,
+     3
+    ],
+    [
+     27,
+     226
+    ],
+    [
+     40,
+     711
+    ],
+    [
+     42,
+     236
+    ],
+    [
+     53,
+     80
+    ],
+    [
+     55,
+     235
+    ],
+    [
+     56,
+     131
+    ],
+    [
+     59,
+     703
+    ],
+    [
+     61,
+     84
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 61,
+     "cos": 0.46,
+     "nosso": "En Portugal, el rey Dionisio hace lo mismo. En mil trescientos diecinueve nace la Orden de Cristo, que hereda los bienes del Temple. Con los años, tendrá su sede en Tomar.",
+     "ref": "diferente. En la práctica era idéntica. La orden de Cristo heredó todos los bienes templarios portugueses. Tomar siguió siendo su sede. Sus miembros"
+    },
+    {
+     "bloco": 2,
+     "cos": 0.36,
+     "nosso": "Las tropas del rey Jaime Segundo llevan meses asediando este castillo. Dentro resisten, en armas, los últimos templarios del reino.",
+     "ref": "Mirabet fue el último castillo templario en resistir en la corona de Aragón. Capituló el 12 de diciembre de 1311, después de 18 meses de asedio."
+    },
+    {
+     "bloco": 59,
+     "cos": 0.36,
+     "nosso": "Montesa recibe los bienes del Temple y del Hospital en Valencia, con castillos como Peñíscola. En Aragón y Cataluña, los bienes templarios pasan a los hospitalarios, sus viejos rivales.",
+     "ref": "parte de los archivos templarios en Aragón tras la disolución. Montesa recibió los bienes del temple en la corona de Aragón en 1316. Recibió"
+    },
+    {
+     "bloco": 40,
+     "cos": 0.35,
+     "nosso": "Dieciséis años después, el trece de octubre de mil trescientos siete, el rey Felipe Cuarto de Francia hace arrestar a los templarios de su reino.",
+     "ref": "producción documental. En octubre de 1307, Felipe I de Francia arrestó a los templarios en toda Francia en un solo día coordinado. Viernes 13 de octubre."
+    },
+    {
+     "bloco": 5,
+     "cos": 0.35,
+     "nosso": "Esta es TODA la historia de los Templarios. Y de cómo terminó en Aragón.",
+     "ref": "año. Tardó tres semanas en terminar el inventario. Ferré no era historiador, era archivero. No interpretó lo que encontró, lo registró. Entre los documentos de esa caja"
+    },
+    {
+     "bloco": 55,
+     "cos": 0.34,
+     "nosso": "Siete meses después, el cuatro de noviembre de mil trescientos doce, el concilio de Tarragona juzga a los templarios de la Corona de Aragón. Los declara inocentes. Según los historiadores, reciben una pensión y viven el resto de su vida en antiguas casas de la",
+     "ref": "fueron absueltos. Ese detalle cambia todo. El Concilio de Tarragona, celebrado en noviembre de 1312, declaró inocentes a los templarios de la corona de Aragón."
+    },
+    {
+     "bloco": 10,
+     "cos": 0.33,
+     "nosso": "El Hábito. Barcelona, julio de mil ciento treinta y uno. El conde Ramón Berenguer Tercero, señor de Barcelona y de media Cataluña, está enfermo.",
+     "ref": "vinieron como peregrinos, vinieron como soldados. El conde Ramón Berenguer, tercero de Barcelona, los invitó personalmente. Necesitaba guerreros para reconquistar"
+    },
+    {
+     "bloco": 4,
+     "cos": 0.33,
+     "nosso": "Se rinden. Tres años y medio después, un concilio en Tarragona los declara inocentes. Ya no queda orden que salvar.",
+     "ref": "fueron absueltos. Ese detalle cambia todo. El Concilio de Tarragona, celebrado en noviembre de 1312, declaró inocentes a los templarios de la corona de Aragón."
+    },
+    {
+     "bloco": 53,
+     "cos": 0.32,
+     "nosso": "En Castilla, el concilio de Salamanca de mil trescientos diez declara inocentes a los templarios del reino. En Portugal, el rey Dionisio toma sus bienes, pero no los encarcela.",
+     "ref": "concretos. Simplemente los declararon inocentes y los mandaron a casa con sus propiedades intactas. En Portugal fue más radical. El rey Dionisio I no disolvió la orden,"
+    },
+    {
+     "bloco": 42,
+     "cos": 0.32,
+     "nosso": "Al principio protesta. Pero el veintidós de noviembre cede: con una bula, ordena arrestar a los templarios en toda la cristiandad.",
+     "ref": "noviembre de 1312, declaró inocentes a los templarios de la corona de Aragón. El rey Jaime Segund los había protegido desde el principio. No permitió"
+    },
+    {
+     "bloco": 27,
+     "cos": 0.32,
+     "nosso": "En Castilla, el Temple perdió una plaza. En Aragón, Monzón sigue en pie. Y allí le van a confiar algo más valioso que un castillo.",
+     "ref": "valor que le daban a esos documentos. Los castillos templarios españoles siguen en pie. Mirabet, Monzón, Peñíscola, Ponferrada, Gardení, Castellote,"
+    },
+    {
+     "bloco": 56,
+     "cos": 0.31,
+     "nosso": "En París, en marzo de mil trescientos catorce, Jacques de Molay, que se había retractado de su confesión, va a la hoguera. Lo de la maldición contra el rey y el papa es leyenda.",
+     "ref": "marzo de 1314 en París. Antes de morir, desde las llamas, maldijo al rey Felipe IV y al Papa Clemente V. los llamó a comparecer ante"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/011-templarios/ref/manada-scxPjNurQkw.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 9558,
+   "nota": 12.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.09859154929577464,
+   "ordem": 0.8571428571428571,
+   "ngramas": 0.0056625141562853904,
+   "sim_media": 0.18086970187177334,
+   "gemeos": 7,
+   "blocos": 71,
+   "posicoes": [
+    [
+     6,
+     21
+    ],
+    [
+     8,
+     35
+    ],
+    [
+     22,
+     65
+    ],
+    [
+     39,
+     91
+    ],
+    [
+     51,
+     121
+    ],
+    [
+     52,
+     153
+    ],
+    [
+     56,
+     132
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 22,
+     "cos": 0.46,
+     "nosso": "Con el tiempo, la orden funcionará también como un banco: guardará dinero, prestará a reyes y dará cartas de crédito a los peregrinos. El rey de Francia llegará a guardar su tesoro en la casa del Temple en París.",
+     "ref": "conocido. Pronto los reyes también lo usan. Los reyes de Francia guardan el tesoro real en el Temple de París, y los templarios prestan dinero"
+    },
+    {
+     "bloco": 51,
+     "cos": 0.38,
+     "nosso": "El Concilio. Mientras tanto, en agosto de mil trescientos ocho, en el castillo de Chinon, tres cardenales del papa interrogan al gran maestre, Jacques de Molay, y a otros jefes de la orden.",
+     "ref": "papa, un hombre se interpone en el camino: el propio gran maestre. El gran maestre es Jacques de Molay, un viejo soldado que ha dirigido"
+    },
+    {
+     "bloco": 52,
+     "cos": 0.37,
+     "nosso": "Según la historiadora Barbara Frale, que redescubrió el pergamino en el Archivo Apostólico Vaticano en dos mil uno, los cardenales los absuelven si piden perdón. No es una absolución de la orden. Y el papa no la hace pública.",
+     "ref": "una historiadora del Vaticano llamada Barbara Frale lo encontró. Y en 2007 el Vaticano lo publicó. Fueron condenados por un rey que necesitaba"
+    },
+    {
+     "bloco": 39,
+     "cos": 0.35,
+     "nosso": "La Orden. Acre, mayo de mil doscientos noventa y uno. Cae la última gran ciudad cristiana de Tierra Santa. La orden se queda sin la misión que le dio origen.",
+     "ref": "una estrecha franja de costa. Para 1291, solo queda una gran ciudad, Acre, el último bastión cruzado en Tierra"
+    },
+    {
+     "bloco": 8,
+     "cos": 0.35,
+     "nosso": "En mil ciento veintinueve, un concilio en Troyes, en Francia, les da una regla. Desde entonces, reyes y nobles de toda Europa les regalan tierras y dinero.",
+     "ref": "1129, todo cambia en un concilio de la iglesia en la ciudad francesa de Troyes. El concilio redacta una regla oficial para la orden, 72"
+    },
+    {
+     "bloco": 56,
+     "cos": 0.33,
+     "nosso": "En París, en marzo de mil trescientos catorce, Jacques de Molay, que se había retractado de su confesión, va a la hoguera. Lo de la maldición contra el rey y el papa es leyenda.",
+     "ref": "Según la leyenda, mientras las llamas se elevaban, Molay maldijo al rey y al papa para que se encontraran con él ante Dios en menos de un año. Esa maldición"
+    },
+    {
+     "bloco": 6,
+     "cos": 0.32,
+     "nosso": "El Voto. Jerusalén, hacia mil ciento veinte. Un caballero de Champaña, Hugo de Payns, y unos pocos compañeros juran algo nuevo: vivir como monjes y pelear como soldados.",
+     "ref": "algo que nadie más ha intentado. Reúne a 8 compañeros, 9 caballeros en total, y juntos hacen un voto. Vivirán como monjes,"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/011-templarios/ref/manada-v5W0RzWy7Vw.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2051,
+   "nota": 8.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.04225352112676056,
+   "ordem": 1.0,
+   "ngramas": 0.0022650056625141564,
+   "sim_media": 0.1302435619472869,
+   "gemeos": 3,
+   "blocos": 71,
+   "posicoes": [
+    [
+     5,
+     9
+    ],
+    [
+     41,
+     50
+    ],
+    [
+     62,
+     71
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 5,
+     "cos": 0.32,
+     "nosso": "Esta es TODA la historia de los Templarios. Y de cómo terminó en Aragón.",
+     "ref": "parece menos una decoración y más un mensaje. Todo sigue aquí. Esto es Tomar. Y si lo que ocurrió aquí se comprende bien, entonces la historia de los templarios no terminó en 1312. Continuó."
+    },
+    {
+     "bloco": 62,
+     "cos": 0.31,
+     "nosso": "Su emblema es una cruz roja con otra blanca en el centro, heredera de la templaria. Pronto esa cruz va a cruzar el océano.",
+     "ref": "barcos apareció un símbolo familiar: una cruz roja. No la cruz templaria original, sino su descendiente directa. Mientras"
+    },
+    {
+     "bloco": 41,
+     "cos": 0.3,
+     "nosso": "La orden de arresto los acusa de herejía: de renegar de Cristo y escupir sobre la cruz. Muchos confiesan bajo tortura. El papa Clemente Quinto no había autorizado nada de esto.",
+     "ref": "actuó contra los templarios. Acusaciones de herejía, confesiones bajo tortura. Y en toda Europa, la orden se derrumbó: líderes encarcelados, bienes"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/011-templarios/ref/manada-f4fQaIau6I4.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 1299,
+   "nota": 3.6,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.028169014084507043,
+   "ordem": 0.0,
+   "ngramas": 0.0022650056625141564,
+   "sim_media": 0.16126651294126745,
+   "gemeos": 2,
+   "blocos": 71,
+   "posicoes": [
+    [
+     7,
+     38
+    ],
+    [
+     62,
+     142
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 62,
+     "cos": 0.43,
+     "nosso": "Su emblema es una cruz roja con otra blanca en el centro, heredera de la templaria. Pronto esa cruz va a cruzar el océano.",
+     "ref": "Vestían el clásico manto blanco con la cruz roja. De hecho, aunque todos los miembros llevaban la cruz roja, solo los caballeros podían"
+    },
+    {
+     "bloco": 7,
+     "cos": 0.31,
+     "nosso": "Su misión es proteger a los peregrinos en los caminos de Tierra Santa. El rey de Jerusalén les cede parte de su palacio, en el monte del Templo. De ahí el nombre: templarios.",
+     "ref": "manera, dedicándose a la protección de los peregrinos y a la defensa del nuevo reino de Jerusalén. El rey les dio alojamiento en su palacio, la mezquita de al-Aqsa"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/011-templarios/ref/manada-M6CNElP3dds.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 5945,
+   "nota": 1.7,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.028169014084507043,
+   "ordem": 0.0,
+   "ngramas": 0.0011325028312570782,
+   "sim_media": 0.15590997497274003,
+   "gemeos": 2,
+   "blocos": 71,
+   "posicoes": [
+    [
+     45,
+     151
+    ],
+    [
+     63,
+     140
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 45,
+     "cos": 0.33,
+     "nosso": "Si este expediente te está gustando, suscríbete: así no te pierdes el próximo. Y ahora, al asedio.",
+     "ref": "ayuda a difundir este video, dale me gusta, activa la campanita y suscríbete al canal. ¡Hasta la próxima, y nos vemos!"
+    },
+    {
+     "bloco": 63,
+     "cos": 0.3,
+     "nosso": "La Bandera. Costa de lo que hoy es Brasil, veintiséis de abril de mil quinientos. La flota de Pedro Álvares Cabral celebra su primera misa en tierra brasileña.",
+     "ref": "pionero de las navegaciones. ¿Y cómo se relaciona esto con Brasil? Pedro Álvares Cabral era gran maestre de la Orden de Cristo, y fue él quien comandó 13 carabelas"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/011-templarios/ref/manada-0oIr9HvbSY8.txt",
+   "idioma_ref": "pt",
+   "traduzido": true,
+   "palavras_ref": 1964,
+   "nota": 1.6,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014084507042253521,
+   "ordem": 0.0,
+   "ngramas": 0.0022650056625141564,
+   "sim_media": 0.13622466570030117,
+   "gemeos": 1,
+   "blocos": 71,
+   "posicoes": [
+    [
+     5,
+     4
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 5,
+     "cos": 0.42,
+     "nosso": "Esta es TODA la historia de los Templarios. Y de cómo terminó en Aragón.",
+     "ref": "historia funciona porque es perfecta, épica, trágica y cerrada. Pero en el caso de España, la historia fue mucho más incómoda. Aquí, el Temple no terminó como en Francia. No hubo"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/011-templarios/ref/manada-BcoBMD2AQZI.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 1854,
+   "nota": 1.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014084507042253521,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.11487861524807323,
+   "gemeos": 1,
+   "blocos": 71,
+   "posicoes": [
+    [
+     5,
+     165
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 5,
+     "cos": 0.34,
+     "nosso": "Esta es TODA la historia de los Templarios. Y de cómo terminó en Aragón.",
+     "ref": "reveló una capa a la vez. Los caballeros templarios no desaparecieron hace más de 700 años. En Tomar, su historia nunca terminó"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/011-templarios/ref/manada-D2kbJSRa2eQ.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2211,
+   "nota": 0.8,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0056625141562853904,
+   "sim_media": 0.14425045365543526,
+   "gemeos": 0,
+   "blocos": 71,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/011-templarios/ref/manada-texESpZIJDg.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 1867,
+   "nota": 0.5,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0022650056625141564,
+   "sim_media": 0.12447985446879348,
+   "gemeos": 0,
+   "blocos": 71,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/011-templarios/ref/manada-QSamVD5R3us.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2120,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.12101530807604437,
+   "gemeos": 0,
+   "blocos": 71,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/011-templarios/ref/manada-G7VYGchTvjs.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 3033,
+   "nota": 0.0,
+   "veredito": "ok"
+  }
+ ]
+}
