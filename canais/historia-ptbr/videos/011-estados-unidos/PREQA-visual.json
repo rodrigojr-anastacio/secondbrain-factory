@@ -1,0 +1,1313 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/historia-ptbr/videos/011-estados-unidos/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2856,
+ "contagem": {
+  "bloqueante": 1,
+  "alto": 10,
+  "medio": 33,
+  "baixo": 28
+ },
+ "bloqueante": true,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "O selo '1852' no canto superior esquerdo está translúcido e quase some contra a galeria. Parece estar em animação de entrada, então só registro a legibilidade fraca neste instante.",
+   "t": 0.5,
+   "arquivo": "15.png"
+  },
+  {
+   "quadro": "Q03",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Há duas cenas sobrepostas, com grade/listras visíveis sobre a imagem inteira. Provavelmente é crossfade entre Q02 e Q04, mas a grade quadriculada parece um artefato de blend e não só uma transição suave. Confirmar no render.",
+   "t": 10.5,
+   "arquivo": "315.png"
+  },
+  {
+   "quadro": "Q05",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O calendário na parede e a folha arrancada usam só ícones e bolinhas, sem letras. Nada ilegível, mas o calendário não tem rótulo de data, então o contexto pode ficar vago.",
+   "t": 20.5,
+   "arquivo": "615.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O mapa de '13 COLÔNIAS, 1776' está geograficamente impreciso. A costa leste aparece laranja e alongada demais, sem a forma real das colônias. O Golfo do México e a Flórida estão deformados, e há uma grande área azul no meio do continente. O rótulo flutua sobre o mapa.",
+   "t": 36.6,
+   "arquivo": "1098.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O mapa 'ESTADOS UNIDOS' tem contorno impreciso. A costa oeste e a Califórnia estão distorcidas, a Flórida está ausente ou mal formada e a fronteira norte está estranha. O rótulo está sobre o mapa. Há dúvida se é estilo ou erro.",
+   "t": 39.06666666666667,
+   "arquivo": "1172.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os personagens usam chapéus tricórnio coloniais do século XVIII, num cenário que representa os Estados Unidos já inteiros (século XIX). É um possível anacronismo de figurino.",
+   "t": 39.06666666666667,
+   "arquivo": "1172.png"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Mapa dos EUA moderno (fronteiras continentais completas, incluindo o Oeste) numa cena com personagens coloniais. Pode ser intencional, mas o mapa não corresponde ao período. Rótulo 'ESTADOS UNIDOS' é texto de código, legível, sem problema.",
+   "t": 40.5,
+   "arquivo": "1215.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Cena do Independence Hall (Filadélfia) com figurinos do século XIX (cartolas altas, vestidos de época posterior) e o Sino da Liberdade pendurado na torre, fora de contexto para o que parece ser a época colonial/revolucionária. Há ainda uma gaivota sobre a viga do sino.",
+   "t": 50.5,
+   "arquivo": "1515.png"
+  },
+  {
+   "quadro": "Q13",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa de capítulo 'O verão de 1619' e o rótulo '1619' no canto superior esquerdo repetem a informação do ano, quase HUD duplicado. A placa cobre parte da paliçada inferior, sem prejudicar a leitura.",
+   "t": 73.4,
+   "arquivo": "2202.png"
+  },
+  {
+   "quadro": "Q16",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Personagens trabalhando no campo de tabaco têm rosto sem olhos nem boca (cabeça branca lisa), diferente do estilo de bonequinhos expressivos do canal; inconsistência de estilo. Dúvida entre estilo e defeito.",
+   "t": 100.5,
+   "arquivo": "3015.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "O mapa das 13 colônias mostra a costa leste com contornos dos estados modernos (Maine, etc.) e os Grandes Lagos, o que não corresponde às colônias de 1750-1776. A bandeira britânica (Union Jack) tem um desenho moderno de 1801, mas a época é anterior.",
+   "t": 114.2,
+   "arquivo": "3426.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O rótulo 'AS 13 COLÔNIAS' flutua sobre o mapa, parecendo uma etiqueta do código e não parte do mapa. Está legível, mas desalinhado com a região real (fica sobre o mar, perto da costa).",
+   "t": 114.2,
+   "arquivo": "3426.png"
+  },
+  {
+   "quadro": "Q19",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A mansão de colunas brancas ao fundo tem estilo neoclássico/Greek Revival, tardio para o período, o que pode ser anacrônico. Há dúvida entre estilo e defeito.",
+   "t": 120.5,
+   "arquivo": "3615.png"
+  },
+  {
+   "quadro": "Q21",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa 'CAPÍTULO 2 / Uma frase grande demais' cobre a parte inferior da cena, escondendo parte da mesa e dos papéis. Não há corte do texto, mas o bloco ocupa muito espaço. Q21 e Q22 são o mesmo quadro em dois instantes (movimento de câmera), o que está correto.",
+   "t": 139.66666666666666,
+   "arquivo": "4190.png"
+  },
+  {
+   "quadro": "Q25",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena de plantation colonial com casas de tijolo e cabanas; no geral coerente. Dúvida leve: o homem de tricórnio e a mulher de touca à direita estão no enquadramento normal, sem defeito claro. Nenhum problema grave.",
+   "t": 170.5,
+   "arquivo": "5115.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A estátua dourada do rei a cavalo tem anatomia confusa (cavalo e rei fundidos, corpo do cavalo deformado), mas é discreto no estilo cartoon.",
+   "t": 210.5,
+   "arquivo": "6315.png"
+  },
+  {
+   "quadro": "Q30",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Na borda direita inferior há um objeto cortado (barril/borda marrom) e uma barra marrom na borda direita; enquadramento normal, mas levemente estranho.",
+   "t": 220.5,
+   "arquivo": "6615.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Quebra-cabeça sobre a mesa com uma peça mostrando céu/nuvens; o tabuleiro tem perspectiva um pouco torta. Detalhe estético menor.",
+   "t": 230.5,
+   "arquivo": "6915.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'CAPÍTULO 3 – As contas da Constituição' cobre personagens da parte inferior da cena (rostos/leque e papéis); é a placa de capítulo, que é intencional, mas tapa bastante a imagem. Selo '1787' no canto superior esquerdo está legível e sem problemas.",
+   "t": 239.0,
+   "arquivo": "7170.png"
+  },
+  {
+   "quadro": "Q33",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'As contas da Constituição' cobre os personagens do primeiro plano na parte inferior, e o selo '1787' fica no canto superior esquerdo. É provável que seja a sobreposição normal de título e imagem, mas vale conferir. Alguns personagens aparecem cortados nas bordas, o que é enquadramento normal.",
+   "t": 240.5,
+   "arquivo": "7215.png"
+  },
+  {
+   "quadro": "Q35",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O canto superior direito tem um pequeno fragmento branco, parecido com uma nuvem cortada, encostado na borda. É discreto, mas pode ser sujeira da imagem.",
+   "t": 260.5,
+   "arquivo": "7815.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Há um personagem de bigode e cartola à esquerda, e a cartola é mais típica do início do século XIX. Há também um soldado de casaca vermelha com faixas cruzadas. Na dúvida entre estilo e defeito, vale conferir o contexto de 1787.",
+   "t": 270.5,
+   "arquivo": "8115.png"
+  },
+  {
+   "quadro": "Q38",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O mapa rotulado 'LUISIANA, 1803' mostra o território da Luisiana como uma área amarela enorme que se estende até o Golfo e ao norte, e a Costa Oeste aparece com relevo de montanhas. O contorno é fantasioso e a geografia, imprecisa: o Golfo do México e a Flórida têm forma distorcida, e a Luisiana não chegava à costa do Pacífico.",
+   "t": 287.96666666666664,
+   "arquivo": "8639.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O rótulo 'ESTADOS UNIDOS' está sobre o centro do mapa, onde em 1803 ficava o território da Luisiana, e o mapa parece o mesmo do quadro anterior. O rótulo cobre a região errada e a geografia está distorcida.",
+   "t": 296.1666666666667,
+   "arquivo": "8885.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Um personagem de cocar (pena e faixa) aparece no canto inferior esquerdo, o que pode ser um estereótipo anacrônico ou fora de contexto. Na dúvida entre estilo e defeito, vale conferir.",
+   "t": 296.1666666666667,
+   "arquivo": "8885.png"
+  },
+  {
+   "quadro": "Q42",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Mapa do sudeste dos EUA: a região verde da 'Nação Cherokee' é um bloco pequeno e isolado, com contorno de montanhas desenhado de forma artificial. Sem fronteiras de estados, e a posição/extensão parece aproximada. Pode ser estilo, mas a geografia é duvidosa.",
+   "t": 304.53333333333336,
+   "arquivo": "9136.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Folhas penduradas na corda e papel na prensa com rabiscos que imitam escrita. São traços ilegíveis e discretos, o que passa por texto falso de IA, mas é plausível como impressão ao fundo.",
+   "t": 307.7,
+   "arquivo": "9231.png"
+  },
+  {
+   "quadro": "Q45",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Lousa com símbolos inventados que imitam o silabário Cherokee (triângulos, espirais, 'Q'). Não são caracteres reais do silabário. Há dúvida se é decoração aceitável ou escrita falsa em evidência.",
+   "t": 320.5,
+   "arquivo": "9615.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Cena de tribunal para os Cherokee (EUA, 1830) com cenário grego antigo: colunas clássicas, Partenon/Acrópole ao fundo, plateia em túnicas gregas. Juiz com peruca britânica. Lugar errado para o contexto.",
+   "t": 350.5,
+   "arquivo": "10515.png"
+  },
+  {
+   "quadro": "Q49",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Soldados com shako e uniforme azul com dragonas, e cherokees com turbantes e roupas de aparência indiana/orientalizada, em cena de remoção cherokee (~1838). O figurino é discutível; deveria ser mais próximo de roupas cherokee da época.",
+   "t": 360.5,
+   "arquivo": "10815.png"
+  },
+  {
+   "quadro": "Q50",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Mapa da Nação Cherokee: à esquerda, tipis e cocar de plumas das planícies representando os cherokees, que não usavam isso. A rota pontilhada começa no leste e vai para o oeste, mas o rótulo 'NAÇÃO CHEROKEE' fica no meio do caminho, a oeste do Mississippi. A geografia do mapa também não é fiel (litoral/Flórida).",
+   "t": 369.96666666666664,
+   "arquivo": "11099.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Mesmo problema do Q50: tipis e cocar de planície à esquerda, rótulo 'NAÇÃO CHEROKEE' mal posicionado a oeste do Mississippi, no meio da rota. O quadro é quase idêntico ao Q50, parece um deslocamento de câmera.",
+   "t": 370.5,
+   "arquivo": "11115.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa 'CAPÍTULO 5 / O sino e a frase reescrita' cobre os pés e as pernas dos personagens e parte da base do prédio. A placa é legível, mas esconde elementos da cena. O selo '1835' no canto superior esquerdo fica sobre a copa da árvore.",
+   "t": 377.7,
+   "arquivo": "11331.png"
+  },
+  {
+   "quadro": "Q54",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "O sino apresenta ornamentos de flor-de-lis e manchas que imitam inscrição, e ao fundo há uma cúpula e muralhas de estilo mediterrâneo/oriental. Os personagens usam turbantes e trajes de aparência antiga/oriental, o que destoa do Sino da Liberdade na Filadélfia. A faixa de 'texto' do sino são rabiscos pseudo-letras inventados pela IA.",
+   "t": 390.5,
+   "arquivo": "11715.png"
+  },
+  {
+   "quadro": "Q58",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "No pergaminho, a IA escreveu garatujas que parecem letras ('ara ara' com um sinal de inserção '^'), e outras linhas de rabisco ilegível. É pouco legível e discreto, mas é texto inventado em documento.",
+   "t": 430.5,
+   "arquivo": "12915.png"
+  },
+  {
+   "quadro": "Q60",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Multidão mistura uniforme da União, cocar/penas indígenas, chapéus e vestidos de épocas variadas. A mistura pode ser intencional, mas o indígena com penas numa praça de cidade parece deslocado. Dúvida entre estilo e defeito.",
+   "t": 450.5,
+   "arquivo": "13515.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O mapa EUA da União/Confederação está geograficamente errado: o território da União inclui a Califórnia e o Oeste, e as divisões estaduais estão distorcidas. Falta o Texas na região certa e o Sul está mal delimitado. Os rótulos 'UNIÃO' e 'CONFEDERAÇÃO' estão corretos como texto de código.",
+   "t": 466.26666666666665,
+   "arquivo": "13988.png"
+  },
+  {
+   "quadro": "Q64",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena de 1863 (Gettysburg) com placa de ano e capítulo legíveis. As lápides brancas uniformes ao fundo lembram o cemitério nacional moderno. O discurso foi na dedicação do cemitério, então é plausível, mas vale conferir.",
+   "t": 473.4,
+   "arquivo": "14202.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A locomotiva a vapor ao fundo à direita parece de estilo posterior ao da cena (relógio de bolso, roupas de meados do século XIX). A época depende do tema, então é uma dúvida de coerência histórica.",
+   "t": 490.5,
+   "arquivo": "14715.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Personagem cortado na borda esquerda inferior (só uma mão azul aparece) e carroça cortada na direita. É enquadramento normal, mas a mão solta no canto parece um resíduo.",
+   "t": 510.5,
+   "arquivo": "15315.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Cena sem personagens, com um quepe azul cortado na borda inferior e um tambor no canto direito. Os elementos ficam soltos e mal enquadrados, e o quepe quase some.",
+   "t": 520.5,
+   "arquivo": "15615.png"
+  },
+  {
+   "quadro": "Q70",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O Capitólio aparece com cúpula completa e imagem nítida. Se a cena for anterior a 1860, a cúpula de ferro seria anacrônica. Dúvida de contexto.",
+   "t": 530.5,
+   "arquivo": "15915.png"
+  },
+  {
+   "quadro": "Q73",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'CAPÍTULO 7 / A estátua e a porta fechada' fica por cima da multidão e cobre parte das figuras na base. É legível e provavelmente intencional, então registro só como dúvida de estilo. O rótulo '1876' no canto superior esquerdo também está correto.",
+   "t": 553.8,
+   "arquivo": "16614.png"
+  },
+  {
+   "quadro": "Q76",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O pergaminho em primeiro plano tem rabiscos que imitam escrita, ilegíveis, mas são só textura de manuscrito e não aparecem em destaque. Há dúvida entre estilo e texto inventado.",
+   "t": 580.5,
+   "arquivo": "17415.png"
+  },
+  {
+   "quadro": "Q76",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "O prédio de tijolos sobre a mesa tem dezenas de velas acesas empilhadas no topo, um bolo-maquete estranho. O estilo colonial parece coerente, mas o objeto é confuso e pode não combinar com a narração.",
+   "t": 580.5,
+   "arquivo": "17415.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A ponte de treliça de ferro com locomotiva a vapor é compatível com 1876, sem defeito claro. Ressalva apenas a proporção irreal da ponte e dos vagões, que é estilística.",
+   "t": 590.5,
+   "arquivo": "17715.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "O horizonte de Nova York ao fundo tem arranha-céus altos, com torre estilo anos 1930 (tipo Empire State) à direita. Isso é anacrônico para uma cena de imigração do século XIX. O vapor ao fundo também parece mais tardio.",
+   "t": 600.5,
+   "arquivo": "18015.png"
+  },
+  {
+   "quadro": "Q79",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A skyline de Nova York ao fundo tem edifícios altos e modernos para a época da estátua (1886). A estátua verde já oxidada também é anacrônica se a cena for da inauguração. Pode ser intencional.",
+   "t": 610.5,
+   "arquivo": "18315.png"
+  },
+  {
+   "quadro": "Q80",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A cena de imigrantes chineses em San Francisco combina com a época. O navio de casco grande com chaminé vermelha e preta é plausível. A torre branca na colina lembra a Coit Tower (1933), um possível anacronismo discreto.",
+   "t": 620.5,
+   "arquivo": "18615.png"
+  },
+  {
+   "quadro": "Q81",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A bandeira dos EUA ao fundo mostra listras e estrelas, mas não dá para conferir a contagem de estrelas para a época (cena de imigração, provavelmente séc. XIX). Dúvida entre estilo e erro histórico.",
+   "t": 630.5,
+   "arquivo": "18915.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os juízes usam perucas brancas de estilo colonial/séc. XVIII. Podem destoar do período se a cena for do séc. XX. Dúvida entre estilo e anacronismo.",
+   "t": 640.5,
+   "arquivo": "19215.png"
+  },
+  {
+   "quadro": "Q84",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "A placa de capítulo 'CAPÍTULO 8 / Um bilhete de mãe' cobre a base da cena e as cabeças da plateia em primeiro plano. É legível e provavelmente intencional, mas ocupa bastante espaço.",
+   "t": 656.4333333333333,
+   "arquivo": "19693.png"
+  },
+  {
+   "quadro": "Q87",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O mapa dos EUA está estilizado e a forma dos estados é aproximada. O rótulo 'TENNESSEE' está sobre o estado destacado, mas fica um pouco acima do estado e cobre parte do contorno. Em inglês no canal ptbr, mas é nome próprio, então é aceitável.",
+   "t": 678.8666666666667,
+   "arquivo": "20366.png"
+  },
+  {
+   "quadro": "Q90",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Personagem central de chapéu e casaco marrom, em vila colonial, segura um smartphone moderno com tela brilhando. Anacronismo claro, a menos que seja gag intencional da narração.",
+   "t": 700.5,
+   "arquivo": "21015.png"
+  },
+  {
+   "quadro": "Q91",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Arranha-céu art déco ao fundo e prédio com colunas jônicas são plausíveis para os anos 1930, sem defeito claro. Registro só como dúvida de época: a cidade parece genérica.",
+   "t": 710.5,
+   "arquivo": "21315.png"
+  },
+  {
+   "quadro": "Q93",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'CAPÍTULO 9 / O arsenal e o Duplo V' cobre os rostos e corpos dos personagens da fila (mulher de lenço amarelo e dois homens). O texto está legível, mas a placa tapa boa parte da cena, e o rótulo '1941' no canto superior esquerdo também está sobre a folhagem. Pode ser o layout padrão do canal.",
+   "t": 726.3333333333334,
+   "arquivo": "21790.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena de Pearl Harbor com navios cinza e fumaça; os navios são genéricos e o fundo lembra Diamond Head. Não há erro claro, só um registro de que a cena precisa bater com a narração.",
+   "t": 760.5,
+   "arquivo": "22815.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Os personagens têm cabeça marrom, não branca como no padrão do canal (cabeça redonda branca). Pode ser escolha intencional para representar jornalistas negros; fica como dúvida de estilo.",
+   "t": 770.5,
+   "arquivo": "23115.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os jornais na prensa e nas mãos dos personagens têm blocos de texto ilegível, minúsculos e discretos. A ponte amarela e o skyline ao fundo lembram Pittsburgh; só vale conferir se o lugar bate com a narração.",
+   "t": 770.5,
+   "arquivo": "23115.png"
+  },
+  {
+   "quadro": "Q100",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O mapa dos EUA está sem Flórida visível e com a costa leste e o Golfo estranhos. O rótulo 'ESTADOS UNIDOS' é um texto de código sobre o mapa, legível. A geografia simplificada e o mapa de IA têm formato impreciso; conferir.",
+   "t": 785.7666666666667,
+   "arquivo": "23573.png"
+  },
+  {
+   "quadro": "Q100",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O mapa mostra os EUA atuais completos, com personagens de época colonial (chapéu tricórnio, toucas). Pode ser uma incongruência entre a época da figura e o mapa.",
+   "t": 785.7666666666667,
+   "arquivo": "23573.png"
+  },
+  {
+   "quadro": "Q102",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O pergaminho tem linhas de escrita cursiva simulada, ilegível; é discreto e funciona como textura.",
+   "t": 800.5,
+   "arquivo": "24015.png"
+  },
+  {
+   "quadro": "Q104",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa 'CAPÍTULO 10 O cheque sem fundos' cobre os pés e as roupas dos personagens da frente, mas não cobre rostos. Os cartazes em branco no muro são intencionais. O rótulo '1952' no canto superior esquerdo está legível.",
+   "t": 814.3333333333334,
+   "arquivo": "24430.png"
+  },
+  {
+   "quadro": "Q108",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O jornal que o pai lê tem linhas de texto falsas e blocos cinza no lugar de manchetes. Não há palavras legíveis, então parece só textura de jornal. É discreto e aceitável como estilo.",
+   "t": 850.5,
+   "arquivo": "25515.png"
+  },
+  {
+   "quadro": "Q109",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Há dúvida sobre o personagem: o orador no pódio tem bigode e terno e está no Lincoln Memorial, com o Monumento a Washington ao fundo, e o rótulo diz 'MARTIN LUTHER KING'. Pelo bigode e pelo estilo, a figura pode não corresponder a MLK. Vale conferir. O rótulo está legível e não cortado.",
+   "t": 857.2666666666667,
+   "arquivo": "25718.png"
+  },
+  {
+   "quadro": "Q111",
+   "categoria": "texto_inventado",
+   "severidade": "bloqueante",
+   "descricao": "O cheque no centro da mesa traz texto inventado pela IA, bem visível e ilegível ou com letras falsas: 'Bank Check', 'Pay tax for Printing of', 'Dollars', 'Date', '1882' e uma assinatura. Há também rabiscos sob o risco vermelho. O rótulo deveria ser feito no código.",
+   "t": 870.5,
+   "arquivo": "26115.png"
+  },
+  {
+   "quadro": "Q112",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "As placas de protesto estão totalmente em branco, sem texto. Pode ser intencional para o rótulo entrar via código, mas fica estranho se nada for sobreposto.",
+   "t": 880.5,
+   "arquivo": "26415.png"
+  },
+  {
+   "quadro": "Q113",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Carro azul antigo à esquerda (anos 1950) junto com figurinos dos anos 50 e igreja/escola de tijolos. Provavelmente intencional para o contexto de direito ao voto, mas vale conferir se a época bate com a narração.",
+   "t": 890.5,
+   "arquivo": "26715.png"
+  },
+  {
+   "quadro": "Q117",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Multidão mistura de propósito vikings, romano, cavaleiro, monge, peruca do século XVIII e rei. Parece intencional (todas as épocas), mas o cenário ao fundo é mediterrâneo com aqueduto e templo grego, sem relação clara com o tema.",
+   "t": 920.5,
+   "arquivo": "27615.png"
+  },
+  {
+   "quadro": "Q118",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Prédio histórico cercado por arranha-céus de vidro modernos e turistas atuais. Provavelmente intencional (visita moderna à Independence Hall), mas confirmar que a narração pede o contraste.",
+   "t": 930.5,
+   "arquivo": "27915.png"
+  },
+  {
+   "quadro": "Q119",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Mapa dos EUA sem rótulo e com borda inferior cortada. Os personagens aparecem cortados na base e o ponteiro sai pela esquerda. Pode ser enquadramento normal, mas a moldura de madeira em baixo parece estreita e o mapa preenche todo o quadro, sem margem.",
+   "t": 940.5,
+   "arquivo": "28215.png"
+  },
+  {
+   "quadro": "Q120",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Rótulo 'ESTADOS UNIDOS' em fonte serifada com caixa bege, sobreposto no centro do mapa. Estilo diferente do desenho, com aparência de etiqueta chapada, e cobre o meio do país. Dúvida entre estilo e defeito; o texto em si está legível e correto.",
+   "t": 941.3666666666667,
+   "arquivo": "28241.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 0.5,
+   "nome": "15.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 1.3333333333333333,
+   "nome": "40.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 10.5,
+   "nome": "315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 11.4,
+   "nome": "342.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 20.5,
+   "nome": "615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 30.5,
+   "nome": "915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 36.6,
+   "nome": "1098.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 39.06666666666667,
+   "nome": "1172.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 40.5,
+   "nome": "1215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 50.5,
+   "nome": "1515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 60.5,
+   "nome": "1815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 70.5,
+   "nome": "2115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 73.4,
+   "nome": "2202.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 80.5,
+   "nome": "2415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 90.5,
+   "nome": "2715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 100.5,
+   "nome": "3015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 110.5,
+   "nome": "3315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 114.2,
+   "nome": "3426.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 120.5,
+   "nome": "3615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 130.5,
+   "nome": "3915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 139.66666666666666,
+   "nome": "4190.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 140.5,
+   "nome": "4215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 150.5,
+   "nome": "4515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 160.5,
+   "nome": "4815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 170.5,
+   "nome": "5115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 180.5,
+   "nome": "5415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 190.5,
+   "nome": "5715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 200.5,
+   "nome": "6015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 210.5,
+   "nome": "6315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 220.5,
+   "nome": "6615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 230.5,
+   "nome": "6915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 239.0,
+   "nome": "7170.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 240.5,
+   "nome": "7215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 250.5,
+   "nome": "7515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 260.5,
+   "nome": "7815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 270.5,
+   "nome": "8115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 280.5,
+   "nome": "8415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 287.96666666666664,
+   "nome": "8639.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 290.5,
+   "nome": "8715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 296.1666666666667,
+   "nome": "8885.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 300.5,
+   "nome": "9015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 304.53333333333336,
+   "nome": "9136.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 307.7,
+   "nome": "9231.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 310.5,
+   "nome": "9315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 320.5,
+   "nome": "9615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 330.5,
+   "nome": "9915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 340.5,
+   "nome": "10215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 350.5,
+   "nome": "10515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 360.5,
+   "nome": "10815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 369.96666666666664,
+   "nome": "11099.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 370.5,
+   "nome": "11115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 377.7,
+   "nome": "11331.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 380.5,
+   "nome": "11415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 390.5,
+   "nome": "11715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 400.5,
+   "nome": "12015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 410.5,
+   "nome": "12315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 420.5,
+   "nome": "12615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 430.5,
+   "nome": "12915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 440.5,
+   "nome": "13215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 450.5,
+   "nome": "13515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 460.5,
+   "nome": "13815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 466.26666666666665,
+   "nome": "13988.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 470.5,
+   "nome": "14115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 473.4,
+   "nome": "14202.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 480.5,
+   "nome": "14415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 490.5,
+   "nome": "14715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 500.5,
+   "nome": "15015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 510.5,
+   "nome": "15315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 520.5,
+   "nome": "15615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 530.5,
+   "nome": "15915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 540.5,
+   "nome": "16215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 550.5,
+   "nome": "16515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 553.8,
+   "nome": "16614.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 560.5,
+   "nome": "16815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 570.5,
+   "nome": "17115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 580.5,
+   "nome": "17415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 590.5,
+   "nome": "17715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 600.5,
+   "nome": "18015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 610.5,
+   "nome": "18315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 620.5,
+   "nome": "18615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 630.5,
+   "nome": "18915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 640.5,
+   "nome": "19215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 650.5,
+   "nome": "19515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 656.4333333333333,
+   "nome": "19693.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 660.5,
+   "nome": "19815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 670.5,
+   "nome": "20115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 678.8666666666667,
+   "nome": "20366.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 680.5,
+   "nome": "20415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 690.5,
+   "nome": "20715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 700.5,
+   "nome": "21015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 710.5,
+   "nome": "21315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 720.5,
+   "nome": "21615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 726.3333333333334,
+   "nome": "21790.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 730.5,
+   "nome": "21915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 740.5,
+   "nome": "22215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 750.5,
+   "nome": "22515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 760.5,
+   "nome": "22815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 770.5,
+   "nome": "23115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 780.5,
+   "nome": "23415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 785.7666666666667,
+   "nome": "23573.png",
+   "sinais": []
+  },
+  {
+   "id": "Q101",
+   "t": 790.5,
+   "nome": "23715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 800.5,
+   "nome": "24015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 810.5,
+   "nome": "24315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 814.3333333333334,
+   "nome": "24430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q105",
+   "t": 820.5,
+   "nome": "24615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q106",
+   "t": 830.5,
+   "nome": "24915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q107",
+   "t": 840.5,
+   "nome": "25215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q108",
+   "t": 850.5,
+   "nome": "25515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q109",
+   "t": 857.2666666666667,
+   "nome": "25718.png",
+   "sinais": []
+  },
+  {
+   "id": "Q110",
+   "t": 860.5,
+   "nome": "25815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q111",
+   "t": 870.5,
+   "nome": "26115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q112",
+   "t": 880.5,
+   "nome": "26415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q113",
+   "t": 890.5,
+   "nome": "26715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q114",
+   "t": 900.5,
+   "nome": "27015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q115",
+   "t": 902.4,
+   "nome": "27072.png",
+   "sinais": []
+  },
+  {
+   "id": "Q116",
+   "t": 910.5,
+   "nome": "27315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q117",
+   "t": 920.5,
+   "nome": "27615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q118",
+   "t": 930.5,
+   "nome": "27915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q119",
+   "t": 940.5,
+   "nome": "28215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q120",
+   "t": 941.3666666666667,
+   "nome": "28241.png",
+   "sinais": []
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 #!/bin/bash
-V=~/workspace/fabrica-youtube/canais/historia-ptbr/videos/010-japao
-for spec in "1 0 6921" "2 6922 13843" "3 13844 20765" "4 20766 27687"; do
+V=~/workspace/fabrica-youtube/canais/historia-ptbr/videos/011-estados-unidos
+for spec in "1 0 7108" "2 7109 10708" "3 10709 14308" "4 14309 17908" "5 17909 21508" "6 21509 25108" "7 25109 28435"; do
   set -- $spec
   for t in 1 2 3; do
     [ -s $V/out/partes/p$1.mp4 ] && break

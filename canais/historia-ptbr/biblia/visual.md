@@ -62,3 +62,6 @@ Primeiro vídeo inteiro pelo Codex (`img_codex.py`, 233 imagens, 2 no fallback f
 - Bandeira/Sol Nascente aparecem sem pedir (praia com estandarte, mapa com bandeirinha, sala de acordo): repetir `SEMBAND + SEMSOL` em toda cena de 1868–1945 e de acordo/diplomacia.
 - Mapas: rótulos no código (`labels.jsx`), conferir em still depois do pan; fundo de mapa sem letras saiu limpo.
 - Thumb: 5 bases pelo Codex, nenhuma moldura/emenda pedindo "ONE single continuous scene, no split panels" e "lower right corner darker and simple" para o texto; 3 usáveis.
+
+## 011 Estados Unidos (16/11/2026): vazamento das refs do Egito de novo. **Hipótese** de processo, medir
+As refs de estilo (`canal.yaml`) são do Egito: no 010 e no 011 o Codex/fal pôs faraó, turbante, coroa, pirâmide, palmeira e "guia" de capacete safári em cenas de outro país (~38 de 248 no 011, em cenas com objeto/pergunta e no personagem-guia). Conferir a prancha completa (6 grades de 42) antes do pré-QA e já pôr no prompt o sufixo "strictly <país>… NO turbans/crowns/palm trees/pyramids/flags; narrator wears an ordinary brown felt hat". Fal desenha texto em cheque/pergunta ("Bank Check", "ara ara"): pedir papel em branco. Bandeira aparece sozinha em mapas de guerra (inclusive a Confederada): "NO flags of any kind". [ETAPA2.md 011]

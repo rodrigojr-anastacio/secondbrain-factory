@@ -44,3 +44,6 @@ A `roteiro.md` v2 (regra 10) mira ~140–145 ppm com pausas (hoje 127–129 no d
 
 ## 009 Alemanha (13/11/2026)
 drama-3, 64 blocos, 12.902 bytes (US$ 0,65 + 0,16 de tomadas do hook). Whisper fonético mín 97,4%: as grafias de voz do `FALA` (Guête, Chíler, Vítenberg, Rúr, Bénts, Báier, Rítler…) foram aceitas sem teste de ouvido; o Rodrigo ainda precisa ouvir. Hook: melhor combinação de 4 tomadas `cbabcc` (0,11).
+
+## 011 Estados Unidos (16/11/2026)
+drama-3, 66 blocos, ~US$ 0,13 + 0,02 de tomadas. Whisper fonético mín 95,1%, média 99,4% com as grafias do `FALA` (Rótchester, Frédérik Dâglas, Djêimstáun, Sicóia, Tcherokí, Guétisburg, Uóng Quim Árk, Ténessi, Rári Bârn, Rôusvelt); o Rodrigo ainda precisa ouvir. Hook: melhor combinação de 4 tomadas `abcaaa` (0,10). Armadilha: timeout de leitura do Fish no N030 deixou mp3 de 0 byte no cache; procure `find audio -size 0` e `ffmpeg -f null` em todos antes do `build.py`. [ETAPA2.md 011]

@@ -5,7 +5,8 @@
   "padrao_titulo": "afirmação estranha + pergunta",
   "padrao_thumb": "rosto-emocao",
   "thumb_conceito": "Douglass bonequinho indignado do lado de fora apontando para a festa do 4 de Julho na janela iluminada, texto à direita",
-  "thumb_texto": "IGUAIS?"
+  "thumb_texto": "IGUAIS?",
+  "thumb_arquivo": "entrega/thumb-A.jpg"
  },
  {
   "letra": "B",
@@ -13,7 +14,8 @@
   "padrao_titulo": "Como [coisa concreta] construiu [lugar]",
   "padrao_thumb": "objeto-simbolo",
   "thumb_conceito": "Sino da Liberdade isolado e enorme com a rachadura acesa em ouro, fundo preto, texto à direita",
-  "thumb_texto": "LIBERDADE"
+  "thumb_texto": "LIBERDADE",
+  "thumb_arquivo": "entrega/thumb-B.jpg"
  },
  {
   "letra": "C",
@@ -21,6 +23,7 @@
   "padrao_titulo": "ascensão + fato-surpresa",
   "padrao_thumb": "antes-depois",
   "thumb_conceito": "Independence Hall em 1776 (sépia) × 2026 (entre arranha-céus), tela dividida vertical",
-  "thumb_texto": "1776 2026"
+  "thumb_texto": "1776 2026",
+  "thumb_arquivo": "entrega/thumb-C.jpg"
  }
 ]
