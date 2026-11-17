@@ -164,5 +164,47 @@
   "mediana": 281.0,
   "n": 20,
   "fonte": "medianas.json de outro vídeo da fábrica (pesquisa_embalagem.py, últimos ≤30 longos)"
+ },
+ "UCxcDCeShqZWIUQuEo2iJSVA": {
+  "canal": "AchismosTV",
+  "mediana": 127574,
+  "n": 11
+ },
+ "UCdsC3O4ZMQuPDlHlh-u8Mzw": {
+  "canal": "Pablo Soncini",
+  "mediana": 2432.5,
+  "n": 4
+ },
+ "UC63iwP6BtIjxB6xn1GKR6Lw": {
+  "canal": "Emilly Vick",
+  "mediana": 3252901.0,
+  "n": 30
+ },
+ "UCIXguhHCl8eDTkXpEuiGPUA": {
+  "canal": "Jazzghost",
+  "mediana": 3318363.0,
+  "n": 30
+ },
+ "UCS4cwdpm92dw1w9TERgdQJg": {
+  "canal": "Tinocando TV",
+  "mediana": 464357.5,
+  "n": 24
+ },
+ "UCIwspRtKNszHhIhl36gREjQ": {
+  "canal": "alanzoka",
+  "mediana": 198604.5,
+  "n": 30
+ },
+ "UCclisti1P_m9qPvva9ZUJXQ": {
+  "canal": "Versed em Português",
+  "mediana": 1200.0,
+  "n": 30,
+  "fonte": "playlistItems+videos.list 17/11 (últimos ≤30 longos ≥4 min)"
+ },
+ "UCqScOvBvrb5kEYuyc4qU-aQ": {
+  "canal": "Além do Mapa",
+  "mediana": 2547.0,
+  "n": 30,
+  "fonte": "playlistItems+videos.list 17/11 (últimos ≤30 longos ≥4 min)"
  }
 }

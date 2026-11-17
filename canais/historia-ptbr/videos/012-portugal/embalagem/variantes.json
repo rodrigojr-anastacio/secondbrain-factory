@@ -1,5 +1,26 @@
 [
- {"letra":"A","titulo":"A fronteira de Portugal é QUASE a mesma desde 1297. Como?","padrao_titulo":"afirmação estranha + pergunta","padrao_thumb":"rosto-emocao","thumb_conceito":"guarda bonequinho em choque ao lado da fila de marcos de pedra com um buraco no lugar do próximo; Olivença ao fundo","thumb_texto":"CADÊ?"},
- {"letra":"B","titulo":"Como uma LINHA protegeu Portugal (até o dia em que cedeu)","padrao_titulo":"Como [coisa concreta] [verbo] [lugar] (virada no parêntese)","padrao_thumb":"objeto-simbolo","thumb_conceito":"um único marco de fronteira de granito, enorme, isolado no alto de um morro ao entardecer","thumb_texto":"700 ANOS"},
- {"letra":"C","titulo":"Portugal, o país que DEVIA ter virado Espanha","padrao_titulo":"O país que + fato estranho","padrao_thumb":"antes-depois","thumb_conceito":"a mesma passagem de fronteira junto a Elvas em 1659 (muralha, canhões, soldados) × 2026 (estrada aberta, cancela levantada)","thumb_texto":""}
+ {
+  "letra": "A",
+  "titulo": "A fronteira de Portugal é QUASE a mesma desde 1297. Como?",
+  "padrao_titulo": "afirmação estranha + pergunta",
+  "padrao_thumb": "rosto-emocao",
+  "thumb_conceito": "guarda bonequinho em choque ao lado da fila de marcos de pedra com um buraco no lugar do próximo; Olivença ao fundo",
+  "thumb_texto": "CADÊ?"
+ },
+ {
+  "letra": "B",
+  "titulo": "Como uma LINHA protegeu Portugal (até o dia em que cedeu)",
+  "padrao_titulo": "Como [coisa concreta] [verbo] [lugar] (virada no parêntese)",
+  "padrao_thumb": "objeto-simbolo",
+  "thumb_conceito": "marco de fronteira de granito prismático em três-quartos, com P e E, cravado sobre uma linha de pedras que corta os morros, de dia",
+  "thumb_texto": "700 ANOS"
+ },
+ {
+  "letra": "C",
+  "titulo": "Por que Portugal ainda existe? A resposta tem 1.200 KM",
+  "padrao_titulo": "pergunta + 'A resposta tem…' (fato-surpresa)",
+  "padrao_thumb": "mapa-lugar",
+  "thumb_conceito": "silhuetas na mesma escala: Pernambuco (verde) e Portugal (ouro) lado a lado, Espanha enorme e escura atrás; bonequinho minúsculo de braços cruzados sobre Portugal",
+  "thumb_texto": "PERNAMBUCO É MAIOR"
+ }
 ]
