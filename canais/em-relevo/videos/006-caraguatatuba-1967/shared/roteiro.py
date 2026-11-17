@@ -40,10 +40,10 @@ b("BERTIOGA (SP) · 18–19 FEV 2023",
   "Fevereiro de 2023.\nEm Bertioga, 683 milímetros de chuva em 24 horas.\nEm Caraguatatuba, ali perto, no mesmo dia: 234.",
   "C3", ideia=True)
 b("SÃO SEBASTIÃO (SP) · 19 FEV 2023",
-  "Em São Sebastião, 627.\nUma semana depois, o satélite mostrou as encostas rasgadas até as casas.",
+  "Em São Sebastião, 627.\nDepois, o satélite mostrou as encostas rasgadas até as casas.",
   "C3, S2")
 b("SÃO SEBASTIÃO × CARAGUATATUBA",
-  "Ponha lado a lado o relevo de São Sebastião e o de Caraguatatuba, onde a serra cedeu em 1967.\nO mesmo degrau: quase 700 metros a menos de 6 quilômetros da areia.\n[serious] Não foi azar: a receita está no relevo.",
+  "Ponha lado a lado o relevo de São Sebastião e o de Caraguatatuba, onde a serra cedeu em 1967.\nO mesmo degrau: 700 metros em menos de 6 quilômetros.\n[serious] Não foi azar: a receita está no relevo.",
   "R2, R3 (perfis SRTM próprios), K1")
 b("O MAPA",
   "[curious] Por que a Serra do Mar desaba sobre o litoral?\nE por que ela repete?\nA resposta está no mapa.",

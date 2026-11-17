@@ -3,7 +3,7 @@
  "roteiro": "canais/em-relevo/videos/006-caraguatatuba-1967/shared/blocos.json",
  "idioma": "pt",
  "blocos": 43,
- "nota": 1.8,
+ "nota": 3.1,
  "veredito": "ok",
  "limites": {
   "ATENCAO": 18,
@@ -14,16 +14,20 @@
  "blocos_consenso_manada": [],
  "referencias": [
   {
-   "cobertura": 0.023255813953488372,
+   "cobertura": 0.046511627906976744,
    "ordem": 0.0,
-   "ngramas": 0.006587615283267457,
-   "sim_media": 0.1962953712005443,
-   "gemeos": 1,
+   "ngramas": 0.006596306068601583,
+   "sim_media": 0.1962614639197972,
+   "gemeos": 2,
    "blocos": 43,
    "posicoes": [
     [
      4,
      81
+    ],
+    [
+     17,
+     525
     ]
    ],
    "trechos": [
@@ -31,21 +35,27 @@
      "bloco": 4,
      "cos": 0.33,
      "nosso": "Por que a Serra do Mar desaba sobre o litoral? E por que ela repete? A resposta está no mapa.",
-     "ref": "cidade do Rio de Janeiro tinha atravessado dias seguidos de temporal. Morros desabaram sobre casas em vários bairros. A Serra do Mar e os morros que nascem dela vinham repetindo o mesmo aviso, verão"
+     "ref": "cidade do Rio de Janeiro tinha atravessado dias seguidos de temporal. Morros desabaram sobre casas em vários bairros. A Serra do Mar e os morros que nascem dela vinham repetindo o mesmo aviso,"
+    },
+    {
+     "bloco": 17,
+     "cos": 0.31,
+     "nosso": "Em Bertioga, foram mais de quatrocentos milímetros em seis horas. A média de fevereiro inteiro, ali, fica perto de duzentos e vinte e cinco. No dia, o CEMADEN registrou o maior acumulado de vinte e quatro horas já medido no país.",
+     "ref": "horas passa de 680 mm. É mais do que a serra de Caraguatatuba tinha recebido em dois dias inteiros naquele março. Aquele acumulado foi apontado como o maior já medido no Brasil em 24 horas. A maior parte"
     }
    ],
    "ref": "canais/em-relevo/videos/006-caraguatatuba-1967/ref/manada-ToXuPrJ8814.txt",
    "idioma_ref": "pt",
    "traduzido": false,
    "palavras_ref": 9999,
-   "nota": 1.8,
+   "nota": 3.1,
    "veredito": "ok"
   },
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.005270092226613966,
-   "sim_media": 0.13303591232116868,
+   "ngramas": 0.005277044854881266,
+   "sim_media": 0.13503891631585868,
    "gemeos": 0,
    "blocos": 43,
    "posicoes": [],
@@ -60,8 +70,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.003952569169960474,
-   "sim_media": 0.13358304689314482,
+   "ngramas": 0.00395778364116095,
+   "sim_media": 0.1352823130052635,
    "gemeos": 0,
    "blocos": 43,
    "posicoes": [],
@@ -76,8 +86,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.002635046113306983,
-   "sim_media": 0.10639987830457721,
+   "ngramas": 0.002638522427440633,
+   "sim_media": 0.10756982443844286,
    "gemeos": 0,
    "blocos": 43,
    "posicoes": [],
@@ -92,8 +102,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.002635046113306983,
-   "sim_media": 0.13472863045605427,
+   "ngramas": 0.002638522427440633,
+   "sim_media": 0.13593428034517407,
    "gemeos": 0,
    "blocos": 43,
    "posicoes": [],
@@ -108,8 +118,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0013175230566534915,
-   "sim_media": 0.09238610099675776,
+   "ngramas": 0.0013192612137203166,
+   "sim_media": 0.09329269798775813,
    "gemeos": 0,
    "blocos": 43,
    "posicoes": [],

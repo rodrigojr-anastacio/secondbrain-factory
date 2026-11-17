@@ -22,3 +22,7 @@ Diretriz do Rodrigo (16/11/2026): *"identificar um tema que tem demanda, mas abo
 ## Checklist (acrescenta ao do brief do lote)
 - [ ] `ANGULO.md` com a manada transcrita e o ângulo escolhido; hook não é o de nenhum vídeo da manada.
 - [ ] `SIMILARIDADE.md` < 30; `CRIVO-ANGULO.md` APROVADO; ≥ 40% dos dados/cenas fora da manada.
+
+## Lições do 006 (crivo de ângulo, 17/11/2026; `../videos/006-caraguatatuba-1967/roteiro-crivo/`)
+- **Vídeo longo da manada já explica a geografia qualitativamente** (Histórias da Tragédia `ToXuPrJ8814`, 66 min: chuva orográfica sem número, "capa de solo fina", côncavas > 30°, "a serra que fabrica a chuva", 2023 no epílogo). O crivo r1 reprovou o roteiro por repetir essas **imagens/metáforas e a tese de fecho**, mesmo com detector 10/100. O que passou (r2, detector 2–3/100): **a mesma explicação, mas medida** — perfis SRTM próprios lado a lado, pluviômetro × satélite IMERG, cicatrizes contadas, coesão de laboratório, carta científica, Landsat. Regra: antes de escrever, leia a transcrição longa inteira e liste as **metáforas** dela (não só os fatos) para não usar.
+- Hook em 2023 com contraste de pluviômetros (683 × 234 mm no mesmo dia) + dois perfis lado a lado = cena que nenhum vídeo da manada usa. **Hipótese** (sem retenção ainda).

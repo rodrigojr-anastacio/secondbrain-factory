@@ -1,0 +1,340 @@
+{
+ "_doc": "Lista plana de planos/mídias (nenhuma imagem de IA; fotos de dl/fotos/video/, satélite de dl/fotos/satelite/, documentos de dl/fotos/doc/).",
+ "cenas": [
+  {
+   "bloco": "b01",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abre baixo sobre o mar, à noite (céu escuro, relevo satélite escurecido) olhando o litoral norte de SP; a câmera corre paralela à costa de Bertioga a Caraguatatuba. Duas colunas de chuva 3D: uma altíssima em Bertioga, uma baixa em Caraguatatuba."
+  },
+  {
+   "bloco": "b02",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/satelite/nasa-eo-landsat8-sao-sebastiao-depois-2023-02-26.jpg",
+   "gatilho": "satélite",
+   "formato": "quadro grande 3 s, Ken Burns lento no trecho mais riscado (recorte apertado 2–3 km)"
+  },
+  {
+   "bloco": "b02",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Coluna SÃO SEBASTIÃO 627 MM nasce entre as duas; em seguida, a imagem Landsat real de 26/02/2023 das encostas rasgadas entra grande (65% da largura) com Ken Burns lento."
+  },
+  {
+   "bloco": "b03",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "ASSINATURA: dois blocos 3D do relevo real cortados de lado, um ao lado do outro: BARRA DO SAHY (esq.) e MORRO DO CRUZEIRO (dir.), com a face do corte em terra; régua vertical 0 → 700 M e régua horizontal < 6 KM sobem juntas nos dois."
+  },
+  {
+   "bloco": "b04",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Câmera recua dos dois blocos e sobe até ver o litoral norte inteiro em relevo editorial (Bertioga → Ubatuba)."
+  },
+  {
+   "bloco": "b05",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/serra-do-mar-vista-da-tamoios-caraguatatuba.jpg",
+   "gatilho": "parede",
+   "formato": "respiro 2 s, quadro médio; legenda SERRA DO MAR · CARAGUATATUBA"
+  },
+  {
+   "bloco": "b05",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Vista lateral do mar para a serra sobre Caraguatatuba (satélite + SRTM, exagero vertical 2,5× marcado 'ilustrativo'): faixa de areia e cidade (manchas claras) → a parede verde → o planalto."
+  },
+  {
+   "bloco": "b06",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Bloco 3D cortado do Morro do Cruzeiro (assinatura). Três fichas acendem no canto superior direito uma a uma, cada uma com seu número."
+  },
+  {
+   "bloco": "b07",
+   "tipo": "documento",
+   "arquivo": "dl/fotos/doc/cruz1975-fig7-carta-declividade-santo-antonio.png",
+   "gatilho": "Olga Cruz",
+   "formato": "quadro grande inclinado 3 s; legenda CARTA DE DECLIVIDADES · BACIA DO RIO SANTO ANTÔNIO"
+  },
+  {
+   "bloco": "b07",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/satelite/nasa-eo-landsat8-sao-sebastiao-depois-2023-02-26.jpg",
+   "gatilho": "satélite",
+   "formato": "meia tela 2 s"
+  },
+  {
+   "bloco": "b07",
+   "tipo": "arquivo",
+   "estilo": "doc",
+   "descricao": "A carta de declividade de Olga Cruz (1975) entra grande, inclinada sobre papel claro; a câmera passa devagar sobre as hachuras; transição para a imagem Landsat de 2023 lado a lado (meia tela cada)."
+  },
+  {
+   "bloco": "b08",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abertura do cap. 1: câmera vem do mar a 2 km de altura e encara a escarpa atrás de Caraguatatuba; a borda do planalto acende como linha clara na crista."
+  },
+  {
+   "bloco": "b09",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "A câmera sobe pelo vale do Rio Santo Antônio (rio em ciano fino, OSM) a partir do centro; um altímetro no canto acompanha. Desvio rápido ao Morro do Cruzeiro, onde as encostas > 30° acendem em coral."
+  },
+  {
+   "bloco": "b10",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Bacia do Santo Antônio isolada em relevo editorial (resto escurecido); as áreas com declive > 40% se pintam (mapa de declividade calculado do SRTM, mesma lógica da carta de Cruz)."
+  },
+  {
+   "bloco": "b11",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Câmera passa por cima da borda e mostra o planalto e a serra de Juqueriquerê ao fundo; esquema simples da borda do bloco: uma linha de fratura tracejada no mar, a parede recuada atrás (ilustrativo, sem idade)."
+  },
+  {
+   "bloco": "b12",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "A câmera viaja ~35 km pela costa até a Barra do Sahy; o bloco cortado da Barra do Sahy aparece com a mesma régua do Morro do Cruzeiro."
+  },
+  {
+   "bloco": "b13",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Abertura do cap. 2: mapa do litoral norte com os pluviômetros do CEMADEN como colunas 3D que sobem na ordem da fala."
+  },
+  {
+   "bloco": "b14",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Câmera desce para vista lateral da costa entre Bertioga e São Sebastião: uma faixa de chuva intensa (partículas azuis densas) colada à parede, e setas de ar úmido vindo do mar subindo a encosta e virando nuvem."
+  },
+  {
+   "bloco": "b15",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Camada real do NASA IMERG (dados/nasa/litoral-2023-camada.png) cobre o mesmo mapa em quadrados de ~10 km, quase apagada; ao lado, a coluna 683 do pluviômetro de Bertioga continua de pé."
+  },
+  {
+   "bloco": "b16",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Vista do Sudeste do alto: faixa de frente fria parada sobre o litoral e um pequeno vórtice no mar entre Ubatuba e Paraty; o oceano ganha leve tom quente."
+  },
+  {
+   "bloco": "b17",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Pluviômetro gigante de Bertioga enche em 6 horas (relógio no canto); marca fantasma da média de fevereiro (225) bem embaixo."
+  },
+  {
+   "bloco": "b18",
+   "tipo": "arquivo",
+   "estilo": "doc",
+   "descricao": "Papel de arquivo (componente do 003/004): ficha de pluviômetro desenhada em código com as leituras de 1967; o nível transborda o tubo no dia 18."
+  },
+  {
+   "bloco": "b19",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Mapa da bacia em relevo editorial com dois pinos de posto: o da fazenda (coluna alta) e o do DAEE (coluna com menos da metade), a poucos km."
+  },
+  {
+   "bloco": "b20",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Abertura do cap. 3: zoom na face do corte do bloco do Morro do Cruzeiro até a escala de metros: régua de 0 a 2,5 M na casca; abaixo, rocha cinza."
+  },
+  {
+   "bloco": "b21",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Recuo da câmera até a encosta inteira: a casca vira uma película fina sobre a rocha, com a floresta (árvores-palito) por cima; comparação de escala 700 M × 2,5 M."
+  },
+  {
+   "bloco": "b22",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Esquema animado na encosta cortada: gotas entram, a casca escurece (encharcada) e escorrega em bloco sobre a rocha; num quadro lateral, ensaio de laboratório (cilindro de solo) com o mostrador de coesão perto de zero."
+  },
+  {
+   "bloco": "b23",
+   "tipo": "documento",
+   "arquivo": "dl/fotos/doc/cruz1975-fig7-carta-declividade-santo-antonio.png",
+   "gatilho": "mapa de Olga Cruz",
+   "formato": "tela cheia 6 s, pan lento; recortar o cabeçalho para mostrar a bacia"
+  },
+  {
+   "bloco": "b23",
+   "tipo": "arquivo",
+   "estilo": "doc",
+   "descricao": "A carta de declividade de Olga Cruz (Fig. 7) em tela cheia; a câmera percorre as hachuras escuras; destaque translúcido nas classes > 40% e nos topos planos (claros)."
+  },
+  {
+   "bloco": "b24",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Mapa geológico simplificado da bacia sobre o relevo editorial: a mancha do granito de Caraguatatuba em tom próprio; pontos de cicatriz (esquemáticos) se acumulam sobre ela."
+  },
+  {
+   "bloco": "b25",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/ubatuba-encosta-arrancada-estrada-2023-02-19.jpg",
+   "gatilho": "isto",
+   "formato": "quadro grande 4 s; recorte sem o galho claro do canto superior direito"
+  },
+  {
+   "bloco": "b25",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Foto real em quadro grande (65%): a encosta arrancada na beira da estrada em Ubatuba; Ken Burns lento do asfalto para a terra exposta. Depois, volta ao 3D com dezenas de 'cascas' marrons escorregando em encostas vizinhas."
+  },
+  {
+   "bloco": "b26",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abertura do cap. 4: vista de cima da bacia do Santo Antônio em satélite + relevo; os vales acendem um a um em coral, todos ao mesmo tempo no fim."
+  },
+  {
+   "bloco": "b27",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Contadores sobre o mapa: 640 marcas de cicatriz aparecem (distribuídas pelas encostas íngremes do mapa de declividade; esquemáticas), um raio de 15 km desenhado em volta."
+  },
+  {
+   "bloco": "b28",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "A câmera segue uma massa marrom que desce do alto de um vale, entra no leito do rio e corre para a planície; todos os vales convergem para a mancha da cidade."
+  },
+  {
+   "bloco": "b29",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Linha do tempo horizontal de 4 casas que acendem em sequência sobre o mapa (enchente → escorregamentos → corridas → enchente por bloqueio), com ícones SVG simples."
+  },
+  {
+   "bloco": "b30",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Rio Santo Antônio em 3D na altura da cidade: a fita do rio se alarga de 10–20 m para 60–80 m; régua de lama 80 cm sobre uma rua esquemática; troncos (cilindros) se espalham."
+  },
+  {
+   "bloco": "b31",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Card sóbrio navy, sem ícone: a faixa de estimativas de vítimas; depois, mapa da planície em 1967 com manchas de fazenda (esquema) e a cidade pequena."
+  },
+  {
+   "bloco": "b32",
+   "tipo": "documento",
+   "arquivo": "dl/fotos/doc/sgb-carta-suscetibilidade-caraguatatuba.pdf",
+   "gatilho": "Serviço Geológico",
+   "formato": "camada recortada da carta (classes de deslizamento) georreferenciada sobre o relevo; conferir antes que as classes altas batem com as encostas íngremes"
+  },
+  {
+   "bloco": "b32",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "A carta de suscetibilidade do SGB (classes alta/média/baixa) é sobreposta ao relevo da mesma área; em seguida, a mancha urbana de hoje (satélite atual) acende na planície ao pé."
+  },
+  {
+   "bloco": "b33",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/satelite/nasa-eo-landsat9-sao-sebastiao-antes-2022-10-29.jpg",
+   "gatilho": "outubro de 2022",
+   "formato": "entra como textura do recorte 2 s; legenda LANDSAT 9 · 29 OUT 2022"
+  },
+  {
+   "bloco": "b33",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Abertura do cap. 5: a câmera volta à Barra do Sahy; o recorte do Landsat (Juquehy → Praia da Baleia) é marcado no 3D."
+  },
+  {
+   "bloco": "b34",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/satelite/nasa-eo-landsat9-sao-sebastiao-antes-2022-10-29.jpg",
+   "gatilho": "Antes",
+   "formato": "metade esquerda da cortina"
+  },
+  {
+   "bloco": "b34",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/satelite/nasa-eo-landsat8-sao-sebastiao-depois-2023-02-26.jpg",
+   "gatilho": "Depois",
+   "formato": "metade direita da cortina; recorte sem a nuvem do canto"
+  },
+  {
+   "bloco": "b34",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Antes × depois Landsat em cortina vertical que corre devagar da esquerda para a direita (mesmo estiramento nos dois); termina com zoom nas faixas de terra até as casas."
+  },
+  {
+   "bloco": "b35",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "As 3 fichas da receita voltam juntas sobre o bloco cortado da Barra do Sahy, cada uma com o número de 2023."
+  },
+  {
+   "bloco": "b36",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Citação em tipografia sobre a imagem Landsat escurecida; na palavra 'precedente', a câmera desliza 35 km até Caraguatatuba e pousa no Morro do Cruzeiro."
+  },
+  {
+   "bloco": "b37",
+   "tipo": "foto",
+   "arquivo": "dl/fotos/video/sao-sebastiao-encosta-aereo-2023-02-23.jpg",
+   "gatilho": "desabrigadas",
+   "formato": "fundo esmaecido 3 s (vista aérea de encosta, sem pessoas em destaque); legenda SÃO SEBASTIÃO · 23 FEV 2023"
+  },
+  {
+   "bloco": "b37",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Card sóbrio navy, sem ícone nem foto de pessoas: números de 2023."
+  },
+  {
+   "bloco": "b38",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Mapa do litoral norte inteiro; as 3 fichas se juntam no centro formando a frase-resposta; a parede, a faixa de chuva e a casca acendem no 3D ao mesmo tempo."
+  },
+  {
+   "bloco": "b39",
+   "tipo": "mapa",
+   "estilo": "A",
+   "descricao": "Cascas escorregando em várias encostas e descendo pelos vales até as cidades (reprise curta do cap. 4); fecha nos dois blocos cortados lado a lado do hook (assinatura)."
+  },
+  {
+   "bloco": "b40",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Litoral norte em relevo editorial com as classes de suscetibilidade do SGB acesas em Caraguatatuba e São Sebastião (sem número de previsão)."
+  },
+  {
+   "bloco": "b41",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Mapa de Caraguatatuba com os polígonos de área de risco mapeados (esquema a partir do IBGE/CEMADEN) acendendo."
+  },
+  {
+   "bloco": "b42",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Quadro 'O QUE FAZER' (cortiça, componente do 001/002) com o card do SMS."
+  },
+  {
+   "bloco": "b43",
+   "tipo": "mapa",
+   "estilo": "B",
+   "descricao": "Encerramento do canal: card do vídeo da seca de 1877 (I5KpDKy6r3E, publicado) + logo EM RELEVO + botão inscrever (sem card de próximo vídeo)."
+  }
+ ]
+}

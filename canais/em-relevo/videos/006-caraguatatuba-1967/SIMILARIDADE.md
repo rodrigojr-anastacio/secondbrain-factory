@@ -1,11 +1,11 @@
 # Similaridade do roteiro × referências · canais/em-relevo/videos/006-caraguatatuba-1967
 Roteiro: `canais/em-relevo/videos/006-caraguatatuba-1967/shared/blocos.json` (43 blocos, pt) · gerado por `tools/similaridade_roteiro.py` · tradução US$ 0.000
 
-## Nota máxima: **2/100 → ok** (atenção ≥ 18, cópia ≥ 30)
+## Nota máxima: **3/100 → ok** (atenção ≥ 18, cópia ≥ 30)
 
 | Referência | idioma | nota | veredito | cobertura (gêmeos) | ordem | trigramas |
 |---|---|---|---|---|---|---|
-| `manada-ToXuPrJ8814.txt` | pt | 2 | ok | 2% (1/43) | 0% | 0.7% |
+| `manada-ToXuPrJ8814.txt` | pt | 3 | ok | 5% (2/43) | 0% | 0.7% |
 | `manada-INyGopm5J50.txt` | pt | 0 | ok | 0% (0/43) | 0% | 0.5% |
 | `manada-wsYvujpyi28.txt` | pt | 0 | ok | 0% (0/43) | 0% | 0.4% |
 | `manada-83_J6afhwZw.txt` | pt | 0 | ok | 0% (0/43) | 0% | 0.3% |
@@ -17,7 +17,9 @@ Blocos do nosso roteiro com gêmeo em 2+ referências (consenso da manada): nenh
 ## Trechos mais parecidos com `manada-ToXuPrJ8814.txt`
 
 - **bloco 4** (cos 0.33): Por que a Serra do Mar desaba sobre o litoral? E por que ela repete? A resposta está no mapa.
-  - ref: cidade do Rio de Janeiro tinha atravessado dias seguidos de temporal. Morros desabaram sobre casas em vários bairros. A Serra do Mar e os morros que nascem dela vinham repetindo o mesmo aviso, verão
+  - ref: cidade do Rio de Janeiro tinha atravessado dias seguidos de temporal. Morros desabaram sobre casas em vários bairros. A Serra do Mar e os morros que nascem dela vinham repetindo o mesmo aviso,
+- **bloco 17** (cos 0.31): Em Bertioga, foram mais de quatrocentos milímetros em seis horas. A média de fevereiro inteiro, ali, fica perto de duzentos e vinte e cinco. No dia, o CEMADEN registrou o maior acumulado de vinte e quatro horas já medido no país.
+  - ref: horas passa de 680 mm. É mais do que a serra de Caraguatatuba tinha recebido em dois dias inteiros naquele março. Aquele acumulado foi apontado como o maior já medido no Brasil em 24 horas. A maior parte
 
 ## Como ler
 - **cobertura** = % dos nossos blocos com um gêmeo (mesmo conteúdo) na referência; **ordem** = dos gêmeos, quantos vêm na mesma sequência da referência; **trigramas** = sequências de 3 radicais iguais (texto colado).

@@ -59,3 +59,10 @@ Regra da fábrica (Rodrigo, 16/11/2026; `skills/embalagem/SKILL.md` passo 5 e `s
 
 ## Políticas (14/11/2026, `conhecimento/politicas-youtube.md`; `biblia-titulo.md`)
 Sem foto real de morto ou vítima em destaque; acervo de vítimas/retirantes só como contexto distante, nunca close; nada de TV/emissora; sem "morte" e sinônimos no texto da thumb. Foto CC BY-SA na thumb deixa a thumb derivada sob CC BY-SA (aceito no teste granizo; crédito na descrição).
+
+## Lições do 006 (Caraguatatuba 1967 × São Sebastião 2023, crivo 17/11/2026; `../videos/006-caraguatatuba-1967/embalagem/crivo-r1..r3.md`)
+- **Desastre antigo sem foto livre** (1967: acervos municipais sem licença): `documento-evidencia` com página científica escaneada (carta de declividade de Olga Cruz, RBG 1975, CC BY 4.0) **reprovou** (r1): hachuras viram mancha cinza a 320×180, nome próprio sem lacuna ("OLGA CRUZ") e destaque sobre documento lembra o "documento grifado" de outro canal.
+- `cena-acao` com foto aérea de pós-desastre (Vila Sahy 2023, CC BY 2.0) **reprovou** (r2): 3+ focos a 320×180 (escavadeiras, caixas-d'água, telhados), equipes de resgate no meio e lama marrom igual às cenas de IA do tema.
+- **Aprovado** (r3): `cena-acao` com **um herói só, de perto e de cor viva** — solo laranja exposto mordendo o asfalto (Defesa Civil de Ubatuba/Gov. SP no Commons, CC BY 2.0), sem pessoa, sem máquina, sem texto. O acervo "Emergência - Chuvas no litoral norte" do Governo de SP no Commons (CC BY 2.0, 80+ fotos de 2023) serve a pautas da Serra do Mar. **Hipótese** até o CTR.
+- `antes-depois` com o par Landsat da NASA Earth Observatory (domínio público) aprovado de primeira; evidência de nicho amplo explicativo pt (`XexidjTKJGY`, `g60GrTMKyiA`, `kZ3YWuGWF0k`) + CNN `eoLAkdGWVO8`. **Hipótese.**
+- `mapa-lugar` controle em **cor de satélite clara** (não navy) com bloco 3D cortado de lado + "UMA PAREDE?" aprovado; aviso: exagero vertical ≤ 2× faz a parede parecer morro.

@@ -13,13 +13,13 @@ Fonte única: `shared/roteiro.py` → `shared/blocos.json`. Fatos: `pesquisa/FAT
 
 ## SÃO SEBASTIÃO (SP) · 19 FEV 2023
 
-**b02** — Em São Sebastião, seiscentos e vinte e sete. Uma semana depois, o satélite mostrou as encostas rasgadas até as casas.  
-<sub>tela: Em São Sebastião, 627. | Uma semana depois, o satélite mostrou as encostas rasgadas até as casas. · fonte: C3, S2</sub>
+**b02** — Em São Sebastião, seiscentos e vinte e sete. Depois, o satélite mostrou as encostas rasgadas até as casas.  
+<sub>tela: Em São Sebastião, 627. | Depois, o satélite mostrou as encostas rasgadas até as casas. · fonte: C3, S2</sub>
 
 ## SÃO SEBASTIÃO × CARAGUATATUBA
 
-**b03** — Ponha lado a lado o relevo de São Sebastião e o de Caraguatatuba, onde a serra cedeu em mil novecentos e sessenta e sete. O mesmo degrau: quase setecentos metros a menos de seis quilômetros da areia. Não foi azar: a receita está no relevo.  
-<sub>tela: Ponha lado a lado o relevo de São Sebastião e o de Caraguatatuba, onde a serra cedeu em 1967. | O mesmo degrau: quase 700 metros a menos de 6 quilômetros da areia. | Não foi azar: a receita está no relevo. · fonte: R2, R3 (perfis SRTM próprios), K1</sub>
+**b03** — Ponha lado a lado o relevo de São Sebastião e o de Caraguatatuba, onde a serra cedeu em mil novecentos e sessenta e sete. O mesmo degrau: setecentos metros em menos de seis quilômetros. Não foi azar: a receita está no relevo.  
+<sub>tela: Ponha lado a lado o relevo de São Sebastião e o de Caraguatatuba, onde a serra cedeu em 1967. | O mesmo degrau: 700 metros em menos de 6 quilômetros. | Não foi azar: a receita está no relevo. · fonte: R2, R3 (perfis SRTM próprios), K1</sub>
 
 ## O MAPA
 
