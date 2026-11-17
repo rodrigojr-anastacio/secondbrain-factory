@@ -1,204 +1,193 @@
-# Roteiro do longo 05 (Em Relevo, enchente de maio/2024: por que a chuva da serra alagou Porto Alegre). Fonte única do texto -> shared/blocos.json.
-# Base: EMBALAGEM.md + CRIVO.md (aprovado r2, 15/11/2026) e pesquisa/FATOS.md (F1..F53). Mesmo formato do longo-02/03/04:
-# id, cap (aba), marcha (1 = hook mais rápido), fala (limpa), fala_tts (tags v3, números por extenso),
-# tela (algarismos; "|" separa os cartões da legenda). "fonte" = item de pesquisa/FATOS.md que sustenta o bloco.
-# Promessa (EMBALAGEM): ver no mapa por que a chuva da serra pôs Porto Alegre debaixo d'água. Frase-âncora no b02 (< 0:30).
-# Fio condutor: seguir o caminho da água, da serra até o centro de Porto Alegre (chuva -> lago/funil -> saída -> cidade).
-# Sem a moldura "Isso nos leva às seguintes perguntas" (gap 5); sem anunciar próximo vídeo; "quase um terço"/"30%" (crivo r2).
-import json, re
+# Roteiro do 006 (Em Relevo): Caraguatatuba 1967 × São Sebastião 2023 — por que a Serra do Mar desaba sobre o litoral.
+# Fonte única do texto -> shared/blocos.json. Base: EMBALAGEM.md + CRIVO.md (aprovado r3, 17/11/2026), ANGULO.md e pesquisa/FATOS.md.
+# Formato igual ao 005: id, cap (aba), marcha (1 = hook mais rápido), fala (limpa, números por extenso), fala_tts (tags v3 + extenso),
+# tela (algarismos; "|" separa os cartões da legenda), fonte (IDs de pesquisa/FATOS.md), ideia (abre ideia nova).
+# Aqui o texto-fonte de cada bloco é escrito com algarismos; o extenso é gerado por ext() (normaliza_pt.py) — anos e números inteiros.
+# Promessa (EMBALAGEM): ver no relevo 3D por que a Serra do Mar desce sobre o litoral norte (parede + chuva que ela fabrica + casca de terra)
+# e como a mesma receita fez Caraguatatuba 1967 e São Sebastião 2023. Frase-âncora no b03 (< 0:30). T3 ("casca") dito até 1:00 (b06).
+# Fio condutor: os 3 ingredientes da receita, um por capítulo, provados em 1967 (cap. 4) e em 2023 (cap. 5); a resposta junta tudo.
+# Sem minuto a minuto de 1967, sem rádio amador/ponte como cena (consenso da manada, ANGULO.md); sem "morte" no título; sem próximo vídeo.
+import json, re, sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
+from normaliza_pt import ext
 
 B = []
 TAG = re.compile(r"\[[a-z ]+\]\s*")
-def b(cap, fala, tela, fonte=""):
-    fala = fala.strip()
-    B.append({"id": f"b{len(B)+1:02d}", "cap": cap, "marcha": 1 if len(B) < 6 else 2, "fala": TAG.sub("", fala), "fala_tts": fala,
-              "tela": tela.strip(), "fonte": fonte})
 
-C1 = "1 · A CHUVA DA SERRA"
-C2 = "2 · O LAGO QUE RECEBE TUDO"
-C3 = "3 · A SAÍDA"
-C4 = "4 · O QUE CEDEU"
+def extenso(s):
+    s = re.sub(r"(\d+)\s*%", lambda m: m.group(1) + " por cento", s)
+    return re.sub(r"\d+", lambda m: ext(int(m.group(0))), s)
 
-# ---------------- HOOK (paga a promessa até ~0:30) ----------------
-b("CAXIAS DO SUL (RS) · 2 DE MAIO DE 2024",
-  "[serious] Caxias do Sul, na serra gaúcha. Dois de maio de dois mil e vinte e quatro.\nEm um só dia, caíram ali duzentos e sessenta e seis milímetros de chuva.\nQuase três vezes o recorde anterior.",
-  "Caxias do Sul, na serra gaúcha. 2 de maio de 2024. | Em um só dia, caíram ali 266 milímetros de chuva. | Quase 3 vezes o recorde anterior.",
-  "F24")
-b("PORTO ALEGRE (RS) · 5 DE MAIO DE 2024",
-  "Três dias depois, a cem quilômetros dali, o Guaíba chegou a cinco metros e trinta e cinco centímetros em Porto Alegre.\nMais alto que na cheia de mil novecentos e quarenta e um.\n[serious] A chuva mais pesada caiu na serra. Quem afundou foi Porto Alegre.",
-  "Três dias depois, a 100 quilômetros dali, | o Guaíba chegou a 5,35 metros em Porto Alegre. | Mais alto que na cheia de 1941. | A chuva mais pesada caiu na serra. | Quem afundou foi Porto Alegre.",
-  "F1, F7, F22, F31")
-b("PORTO ALEGRE (RS) · MAIO DE 2024",
-  "Cerca de cento e sessenta mil pessoas foram atingidas só na capital, segundo a prefeitura.\nA rodoviária e o aeroporto ficaram debaixo d'água.\nNo estado inteiro, a Defesa Civil contou cento e oitenta e quatro mortos.",
-  "Cerca de 160 mil pessoas atingidas só na capital, segundo a prefeitura. | A rodoviária e o aeroporto ficaram debaixo d'água. | No estado inteiro, a Defesa Civil contou 184 mortos.",
-  "F44, F47, F49, F50 (números de 41 e 171 dias ficam para a legenda/descrição)")
+def b(cap, texto, fonte="", ideia=False, tts_extra=None):
+    """texto: com algarismos e tags [serious]/[curious]; frases separadas por '\\n' viram cartões da legenda."""
+    texto = texto.strip()
+    linhas = [l.strip() for l in texto.split("\n") if l.strip()]
+    tela = " | ".join(TAG.sub("", l) for l in linhas)
+    tts = extenso(" ".join(linhas)) if tts_extra is None else tts_extra
+    B.append({"id": f"b{len(B)+1:02d}", "cap": cap, "marcha": 1 if len(B) < 6 else 2,
+              "fala": TAG.sub("", tts).strip(), "fala_tts": tts, "tela": tela, "fonte": fonte, "ideia": ideia})
+
+C1 = "1 · A PAREDE"
+C2 = "2 · A CHUVA QUE A SERRA FABRICA"
+C3 = "3 · A CASCA DA SERRA"
+C4 = "4 · 1967: O CAMINHO ATÉ A CIDADE"
+C5 = "5 · 2023: A MESMA RECEITA"
+R = "A RESPOSTA"
+
+# ---------------- HOOK (frase-âncora até ~0:30; parede + 3 ingredientes + "casca" até ~1:00) ----------------
+b("BERTIOGA (SP) · 18–19 FEV 2023",
+  "Fevereiro de 2023.\nEm Bertioga, 683 milímetros de chuva em 24 horas.\nEm Caraguatatuba, ali perto, no mesmo dia: 234.",
+  "C3", ideia=True)
+b("SÃO SEBASTIÃO (SP) · 19 FEV 2023",
+  "Em São Sebastião, 627.\nUma semana depois, o satélite mostrou as encostas rasgadas até as casas.",
+  "C3, S2")
+b("SÃO SEBASTIÃO × CARAGUATATUBA",
+  "Ponha lado a lado o relevo de São Sebastião e o de Caraguatatuba, onde a serra cedeu em 1967.\nO mesmo degrau: quase 700 metros a menos de 6 quilômetros da areia.\n[serious] Não foi azar: a receita está no relevo.",
+  "R2, R3 (perfis SRTM próprios), K1")
 b("O MAPA",
-  "[curious] A capital também teve chuva recorde naquele mês.\nMas ela é pouca perto da água que desceu até a cidade.\nEntão, como a chuva da serra foi parar dentro de Porto Alegre?\nA resposta está no mapa.",
-  "A capital também teve chuva recorde naquele mês. | Mas ela é pouca perto da água que desceu até a cidade. | Então, como a chuva da serra foi parar dentro de Porto Alegre? | A resposta está no mapa.",
-  "F25, F19")
+  "[curious] Por que a Serra do Mar desaba sobre o litoral?\nE por que ela repete?\nA resposta está no mapa.",
+  "pergunta do T1/T2", ideia=True)
 b("O MAPA",
-  "Olhe de cima.\nDa serra, do planalto e do centro do estado vêm os rios: o Jacuí, o Taquari, o Caí, o Sinos e, perto da capital, o Gravataí.\nTodos terminam no mesmo lugar: no Guaíba, bem na frente de Porto Alegre.",
-  "Olhe de cima. | Da serra, do planalto e do centro do estado vêm os rios: | o Jacuí, o Taquari, o Caí, o Sinos e, perto da capital, o Gravataí. | Todos terminam no mesmo lugar: | no Guaíba, bem na frente de Porto Alegre.",
-  "F16")
+  "Olhe de lado, do mar para a serra.\nPrimeiro, uma faixa estreita de areia, onde ficam as cidades.\nDepois, a parede. Em cima dela, o planalto.",
+  "R2, R4", ideia=True)
 b("O MAPA",
-  "Oficialmente, o Guaíba é um lago. Muita gente ainda diz rio, e a ciência admite que ele tem um pouco dos dois.\n[intrigued] Esse lago recebe a água de quase um terço do Rio Grande do Sul. E só tem uma saída.\n[serious] Para entender maio de dois mil e vinte e quatro, vamos seguir o caminho dessa água, da serra até o centro da cidade.",
-  "Oficialmente, o Guaíba é um lago. | Muita gente ainda diz rio, e a ciência admite que ele tem um pouco dos dois. | Esse lago recebe a água de quase 1/3 do Rio Grande do Sul. | E só tem uma saída. | Para entender maio de 2024, vamos seguir o caminho dessa água, | da serra até o centro da cidade.",
-  "F18, F15")
+  "A receita cabe em 3 números.\n700 metros de parede a menos de 6 quilômetros do mar.\nAté 400 milímetros de chuva em 6 horas, numa faixa de poucos quilômetros.\nE uma casca de terra de 1 a 2 metros e meio, solta sobre a rocha.",
+  "R2, C4, P2")
+b("O MAPA",
+  "Depois de 1967, a geógrafa Olga Cruz, da USP, mediu encosta por encosta dessa serra.\nVamos juntar o que ela mediu com o que o satélite viu em 2023.",
+  "P12; Cruz 1975")
 
-# ---------------- 1. A CHUVA DA SERRA ----------------
+# ---------------- 1. A PAREDE ----------------
 b(C1,
-  "Comece pelo céu.\nNo fim de abril, uma frente fria parou sobre o Rio Grande do Sul e não seguiu viagem.\nSegundo os meteorologistas, um bloqueio de ar quente ao norte segurou o sistema no lugar, enquanto a umidade vinda do norte alimentava as nuvens.",
-  "Comece pelo céu. | No fim de abril, uma frente fria parou sobre o Rio Grande do Sul | e não seguiu viagem. | Segundo os meteorologistas, um bloqueio de ar quente ao norte | segurou o sistema no lugar, | enquanto a umidade vinda do norte alimentava as nuvens.",
-  "F53 (descrição geral, sem número)")
+  "Comece pela altura.\nAtrás de Caraguatatuba, a borda do planalto fica entre 750 e 900 metros.\nE ela está perto demais do mar.",
+  "R4", ideia=True)
 b(C1,
-  "Entre vinte e quatro de abril e quatro de maio, choveu em média mais de quatrocentos e vinte milímetros no estado.\nO número é do World Weather Attribution, um grupo de cientistas que estuda eventos extremos.\nÉ como se uns três meses de chuva caíssem em onze dias.",
-  "Entre 24 de abril e 4 de maio, | choveu em média mais de 420 milímetros no estado. | O número é do World Weather Attribution, | um grupo de cientistas que estuda eventos extremos. | É como se uns 3 meses de chuva caíssem em 11 dias.",
-  "F23")
+  "Suba a câmera pelo vale do Rio Santo Antônio, o rio que corta a cidade.\nA 7 quilômetros e meio da praia, você já está a 750 metros de altura.\nNo Morro do Cruzeiro, colado no centro, a encosta passa de 30 graus.",
+  "R1, R2 (perfis SRTM próprios)")
 b(C1,
-  "E a chuva foi mais forte justamente onde nascem os rios: na serra e no planalto.\nCaxias do Sul somou setecentos e sete milímetros em treze dias.\nSanta Maria, no centro do estado, teve, num único dia, a maior chuva já registrada ali em cento e doze anos.",
-  "E a chuva foi mais forte justamente onde nascem os rios: | na serra e no planalto. | Caxias do Sul somou 707 milímetros em 13 dias. | Santa Maria, no centro do estado, | teve, num único dia, a maior chuva já registrada ali em 112 anos.",
-  "F24")
+  "A bacia desse rio é pequena: uns 30 quilômetros quadrados.\nMas mais da metade dela tem declive acima de 40%.\nÉ água que nasce no alto e chega ao mar em minutos, não em dias.",
+  "R7")
 b(C1,
-  "E não era a primeira cheia grande.\nEm setembro de dois mil e vinte e três, o Taquari já tinha passado do recorde de mil novecentos e quarenta e um.\nEm novembro, o Guaíba passou dos três metros de novo.\n[serious] Maio de dois mil e vinte e quatro foi a terceira grande cheia em oito meses.",
-  "E não era a primeira cheia grande. | Em setembro de 2023, o Taquari já tinha passado do recorde de 1941. | Em novembro, o Guaíba passou dos 3 metros de novo. | Maio de 2024 foi a terceira grande cheia em 8 meses.",
-  "F11, F12, F13, F14")
+  "Mais para trás, a serra de Juqueriquerê passa de 1300 metros.\nSegundo os geólogos, toda essa borda é a beirada de um bloco da crosta que se partiu quando o Atlântico se abriu.\nO degrau que se vê no mapa é o que sobrou dessa fratura.",
+  "R4 (Cruz 1975), R6 (Almeida & Carneiro 1998, via resumos; sem idade)", ideia=True)
 b(C1,
-  "Agora, olhe o relevo.\nA serra gaúcha, onde fica Caxias do Sul, está a uns oitocentos metros de altitude. Porto Alegre, quase no nível do mar.\nToda a chuva que cai lá em cima tem de descer. E desce por vales estreitos e fundos.",
-  "Agora, olhe o relevo. | A serra gaúcha, onde fica Caxias do Sul, está a uns 800 metros de altitude. | Porto Alegre, quase no nível do mar. | Toda a chuva que cai lá em cima tem de descer. | E desce por vales estreitos e fundos.",
-  "geografia (relevo ETOPO/SRTM; Caxias ~760–800 m)")
-b(C1,
-  "O vale do Taquari é um desses.\nNa quinta-feira, dois de maio, o rio chegou a cerca de trinta e três metros e setenta em Lajeado.\nMais de três metros acima da marca de mil novecentos e quarenta e um.\nCidades inteiras do vale ficaram debaixo d'água.",
-  "O vale do Taquari é um desses. | Na quinta-feira, 2 de maio, | o rio chegou a cerca de 33,7 metros em Lajeado. | Mais de 3 metros acima da marca de 1941. | Cidades inteiras do vale ficaram debaixo d'água.",
-  "F27, F28")
-b(C1,
-  "Mas aquela água não ia parar ali.\nO Taquari deságua no Jacuí. E o Jacuí corre para o leste, direto para Porto Alegre.",
-  "Mas aquela água não ia parar ali. | O Taquari deságua no Jacuí. | E o Jacuí corre para o leste, direto para Porto Alegre.",
-  "F16, F19")
+  "E ela não é só de Caraguatatuba.\nAtrás da Barra do Sahy, em São Sebastião, o mesmo degrau: quase 700 metros a 5 quilômetros e meio da areia.\nGuarde esse lugar.",
+  "R3 (perfil SRTM próprio)")
 
-# ---------------- 2. O LAGO QUE RECEBE TUDO (paga o T2 até ~4:00) ----------------
+# ---------------- 2. A CHUVA QUE A SERRA FABRICA ----------------
 b(C2,
-  "Agora, suba a câmera e olhe o mapa inteiro.\nA chuva que cai em mais de duzentos e cinquenta municípios escorre para o mesmo lugar.\nUma bacia de cerca de oitenta e cinco mil quilômetros quadrados. Uns trinta por cento do estado.",
-  "Agora, suba a câmera e olhe o mapa inteiro. | A chuva que cai em mais de 250 municípios escorre para o mesmo lugar. | Uma bacia de cerca de 85 mil km². | Uns 30% do estado.",
-  "F15, F16")
+  "Agora, a chuva.\nVeja o mapa dos pluviômetros na noite de 18 para 19 de fevereiro de 2023.\nBertioga, 683. São Sebastião, 627. Caraguatatuba, 234. Ubatuba, 335.",
+  "C3 (CEMADEN via Kobiyama/GADRI)", ideia=True)
 b(C2,
-  "Os rios do planalto e do centro formam o Jacuí.\nO Taquari desce da serra e se junta a ele.\nMais perto da capital, chegam o Caí, o Sinos e o Gravataí.\nE todos desembocam no mesmo lago: o Guaíba.",
-  "Os rios do planalto e do centro formam o Jacuí. | O Taquari desce da serra e se junta a ele. | Mais perto da capital, chegam o Caí, o Sinos e o Gravataí. | E todos desembocam no mesmo lago: o Guaíba.",
-  "F16")
+  "[intrigued] O temporal não cobriu o litoral por igual.\nEle se concentrou numa faixa de poucos quilômetros, justo onde a parede fica mais perto do mar.\nÉ o ar úmido do oceano subindo a serra, esfriando e despejando tudo ali.",
+  "C1, C3, R3")
 b(C2,
-  "[curious] E o Guaíba é diferente do que parece.\nTem uns quinhentos quilômetros quadrados, mas só uns poucos metros de fundura.\nÉ largo e raso. Quando entra muita água, ela não tem para onde descer. Ela sobe e se espalha.",
-  "E o Guaíba é diferente do que parece. | Tem uns 500 km², | mas só uns poucos metros de fundura. | É largo e raso. | Quando entra muita água, ela não tem para onde descer. | Ela sobe e se espalha.",
-  "F17")
+  "Tão estreita que o satélite de chuva da NASA, que enxerga em quadrados de 10 quilômetros, estimou menos de 110 milímetros na região.\nO pico não cabia no quadrado.",
+  "C7 (IMERG, cálculo próprio)")
 b(C2,
-  "Quase toda a água que chega a ele vem do Jacuí e do Taquari.\nEm média, o Guaíba despeja uns mil e duzentos metros cúbicos por segundo, segundo o DMAE, o departamento de água da capital.\nEm maio, segundo os pesquisadores, os rios passaram muito das maiores vazões já medidas.",
-  "Quase toda a água que chega a ele vem do Jacuí e do Taquari. | Em média, o Guaíba despeja uns 1.200 m³ por segundo, | segundo o DMAE, o departamento de água da capital. | Em maio, segundo os pesquisadores, | os rios passaram muito das maiores vazões já medidas.",
-  "F19, F20")
+  "Por que naquela noite?\nSegundo pesquisadores do IAG, da USP, uma frente fria e um pequeno ciclone no mar seguraram as nuvens por horas no mesmo lugar.\nO oceano estava mais quente que o normal, e o vento, batendo na serra, reforçou a chuva.",
+  "C2 (Pesquisa FAPESP 326)", ideia=True)
 b(C2,
-  "E o tempo da água importa.\nO Taquari e o Caí chegaram ao máximo na quinta. O Sinos, no sábado. O Jacuí, no domingo.\nAs cheias dos rios foram se somando em frente à cidade.\nE o Guaíba chegou ao pico no domingo, cinco de maio, de madrugada.",
-  "E o tempo da água importa. | O Taquari e o Caí chegaram ao máximo na quinta. | O Sinos, no sábado. O Jacuí, no domingo. | As cheias dos rios foram se somando em frente à cidade. | E o Guaíba chegou ao pico no domingo, 5 de maio, de madrugada.",
-  "F30, F31, F1")
+  "Em Bertioga, foram mais de 400 milímetros em 6 horas.\nA média de fevereiro inteiro, ali, fica perto de 225.\nNo dia, o CEMADEN registrou o maior acumulado de 24 horas já medido no país.",
+  "C4, C5 (Kobiyama/GADRI, CEMADEN)")
 b(C2,
-  "Por isso, Porto Alegre não precisava da pior chuva em cima dela para afundar.\nBastava a chuva forte lá em cima, na serra e no centro do estado.\n[serious] O lago na frente da cidade recebe tudo.",
-  "Por isso, Porto Alegre não precisava da pior chuva em cima dela para afundar. | Bastava a chuva forte lá em cima, na serra e no centro do estado. | O lago na frente da cidade recebe tudo.",
-  "síntese de F15–F31")
+  "Em 1967, a chuva começou no dia 16 de março.\nNo pluviômetro de uma fazenda de Caraguatatuba, foram 115 milímetros no dia 17 e 420 no dia 18.\nE o aparelho transbordou: o número real foi maior.",
+  "C8 (Cruz 1975, p. 103)", ideia=True)
+b(C2,
+  "Num posto a poucos quilômetros, o pluviômetro marcou menos da metade disso nos mesmos dois dias.\nNa serra, a chuva muda de vale para vale.\nE onde ela despeja tudo, entra o terceiro ingrediente.",
+  "C10 (Vieira 2022, postos DAEE)")
 
-# ---------------- 3. A SAÍDA ----------------
+# ---------------- 3. A CASCA DA SERRA ----------------
 b(C3,
-  "[curious] Se entra tanta água, por que ela não vai logo embora?\nO Guaíba só tem uma saída.\nAo sul, ele deságua na Lagoa dos Patos.",
-  "Se entra tanta água, por que ela não vai logo embora? | O Guaíba só tem uma saída. | Ao sul, ele deságua na Lagoa dos Patos.",
-  "F21")
+  "Comece pela medida.\nNas cicatrizes de Caraguatatuba, o plano onde a terra se soltou fica entre 1 e 2 metros e meio de profundidade.\nAcima dele, rocha decomposta e terra. Abaixo, granito e gnaisse.",
+  "P2, P6 (corte ilustrativo)", ideia=True)
 b(C3,
-  "Que, na verdade, é uma laguna: uns duzentos e cinquenta quilômetros de comprimento, ligada ao mar.\nE a ligação com o oceano fica lá no fim, em Rio Grande.\nUma passagem estreita, entre dois molhes de pedra.",
-  "Que, na verdade, é uma laguna: | uns 250 quilômetros de comprimento, ligada ao mar. | E a ligação com o oceano fica lá no fim, em Rio Grande. | Uma passagem estreita, entre dois molhes de pedra.",
-  "F21")
+  "Para uma serra de 700 metros, é uma película.\nA floresta inteira, com árvores de muitos metros, está plantada nessa camada.\nE é ali, no contato com a rocha, que a casca se descola.",
+  "P2 (De Ploey & Cruz 1979; Vieira 2022)")
 b(C3,
-  "Ou seja: a água de quase um terço do estado precisa atravessar um lago raso,\ndescer duzentos e cinquenta quilômetros de laguna\ne passar por um gargalo para chegar ao mar.",
-  "Ou seja: a água de quase 1/3 do estado | precisa atravessar um lago raso, | descer 250 quilômetros de laguna | e passar por um gargalo para chegar ao mar.",
-  "F15, F21")
+  "Os pesquisadores levaram essa terra para o laboratório.\nMediram coesão quase zero: é um solo quase sem cola.\nEncharcado, ele desliza sobre a rocha. Em 1967, em muitas encostas, o escorregamento raspou até a rocha sã.",
+  "P10, P3 (Vieira 2022)")
 b(C3,
-  "E ainda tem o vento.\nQuando ele sopra do sul, empurra a água da laguna de volta e segura o Guaíba.\nSegundo pesquisadores do Instituto de Pesquisas Hidráulicas da UFRGS, isso pode somar até uns cinquenta centímetros ao nível.",
-  "E ainda tem o vento. | Quando ele sopra do sul, empurra a água da laguna de volta | e segura o Guaíba. | Segundo pesquisadores do Instituto de Pesquisas Hidráulicas da UFRGS, | isso pode somar até uns 50 centímetros ao nível.",
-  "F32 (não afirmar que o vento causou o pico: F33)")
+  "Agora, o mapa de Olga Cruz.\nEla desenhou a declividade de toda a bacia do Santo Antônio.\nAs encostas que mais cederam passavam de 40% de declive. Os topos planos ficaram de pé.",
+  "P5, P12 (Cruz 1975, carta de declividade)", ideia=True)
 b(C3,
-  "Em maio, a água desceu devagar.\nA Lagoa dos Patos só chegou ao pico em meados de maio, e causou alagamentos em Pelotas, São Lourenço do Sul e Rio Grande.\nEm Porto Alegre, o Guaíba ficou cerca de um mês acima da cota de inundação.",
-  "Em maio, a água desceu devagar. | A Lagoa dos Patos só chegou ao pico em meados de maio, | e causou alagamentos em Pelotas, São Lourenço do Sul e Rio Grande. | Em Porto Alegre, o Guaíba ficou cerca de um mês | acima da cota de inundação.",
-  "F35, F6")
+  "Um estudo da USP de 2017 cruzou as cicatrizes de 1967 com o mapa geológico.\n8 em cada 10 estão sobre a mesma rocha, o granito de Caraguatatuba.\nA receita tem até um endereço geológico.",
+  "P4, P6 (Dias, Dias & Vieira 2017)")
+b(C3,
+  "É isto que sobra quando a casca se solta.\nUbatuba, fevereiro de 2023: terra viva exposta, raízes no ar, a beira da estrada levada junto.\nAgora imagine isso em centenas de encostas, na mesma noite.",
+  "foto Defesa Civil de Ubatuba/Gov. SP (CC BY 2.0), 19/02/2023")
 
-# ---------------- 4. O QUE CEDEU ----------------
+# ---------------- 4. 1967: O CAMINHO ATÉ A CIDADE ----------------
 b(C4,
-  "Agora, a última parte do caminho: a cidade.\nPorto Alegre sabia que isso podia acontecer.\nEm mil novecentos e quarenta e um, o Guaíba chegou a uns quatro metros e setenta e levou mais de um mês para voltar aos três metros.",
-  "Agora, a última parte do caminho: a cidade. | Porto Alegre sabia que isso podia acontecer. | Em 1941, o Guaíba chegou a uns 4,7 metros | e levou mais de um mês para voltar aos 3 metros.",
-  "F7, 1941 (FATOS §11)")
+  "Volte a março de 1967 e olhe de cima a bacia do Santo Antônio.\nCom a casca encharcada por dias, as encostas começaram a escorregar em todos os vales.",
+  "K1, K2", ideia=True)
 b(C4,
-  "Depois disso, a cidade planejou uma defesa.\nO projeto é de mil novecentos e quarenta e três. As obras principais saíram nos anos setenta.\nO muro da Mauá, no centro. Sessenta e oito quilômetros de diques. Quatorze comportas. E vinte e três casas de bombas.",
-  "Depois disso, a cidade planejou uma defesa. | O projeto é de 1943. As obras principais saíram nos anos 70. | O muro da Mauá, no centro. 68 km de diques. | 14 comportas. E 23 casas de bombas.",
-  "F37, F38")
+  "Anos depois, em fotos aéreas, os pesquisadores contaram 640 cicatrizes, num raio de até 15 quilômetros.\nCerca de 2 milhões de toneladas de terra, rocha e árvores se moveram.\nUm quinto da floresta da área estudada foi junto.",
+  "P7, P8, P9")
 b(C4,
-  "Funciona assim.\nO muro e os diques deixam o Guaíba do lado de fora.\nAs comportas são portões de aço nas passagens do muro, fechados na cheia.\nE as casas de bombas jogam para fora a chuva que cai do lado de dentro.\n[serious] Se uma peça falha, a água acha o caminho.",
-  "Funciona assim. | O muro e os diques deixam o Guaíba do lado de fora. | As comportas são portões de aço nas passagens do muro, fechados na cheia. | E as casas de bombas jogam para fora a chuva que cai do lado de dentro. | Se uma peça falha, a água acha o caminho.",
-  "F37 (descrição do sistema, DMAE)")
+  "Cada escorregamento descia até o fundo do vale e seguia pelo leito do rio, misturado com água e troncos.\nOlga Cruz registrou isso como avalanche de detritos. Os moradores diziam que o morro tinha rodado.\nE todos os vales da bacia levam ao mesmo lugar: a planície onde está a cidade.",
+  "P1, K2", ideia=True)
 b(C4,
-  "Em maio, várias falharam.\nNo dia três, uma comporta perto da avenida Sertório rompeu.\nA água entrou pela zona norte, em bairros como Navegantes.",
-  "Em maio, várias falharam. | No dia 3, uma comporta perto da avenida Sertório rompeu. | A água entrou pela zona norte, em bairros como Navegantes.",
-  "F40")
+  "Os pesquisadores dividem aquele 18 de março em 4 fases.\nPrimeiro, a enchente dos rios. Depois, os escorregamentos. Depois, as corridas de detritos.\nE, por fim, uma nova enchente, quando os troncos represaram os canais.",
+  "P11 (Gramani 2001)")
 b(C4,
-  "As casas de bombas dependem de energia. Com a cidade alagada, muitas ficaram sem luz ou foram inundadas.\nNo dia seguinte ao pico, dezenove das vinte e três estavam paradas, segundo dados da prefeitura.\nA chuva que devia ser bombeada para fora ficou dentro. E, por algumas delas, o próprio Guaíba entrou.",
-  "As casas de bombas dependem de energia. | Com a cidade alagada, muitas ficaram sem luz ou foram inundadas. | No dia seguinte ao pico, 19 das 23 estavam paradas, segundo dados da prefeitura. | A chuva que devia ser bombeada para fora ficou dentro. | E, por algumas delas, o próprio Guaíba entrou.",
-  "F41, F43")
+  "O Rio Santo Antônio, que tinha de 10 a 20 metros de largura, abriu para 60 a 80.\nAs ruas ficaram com até 80 centímetros de lama e dezenas de milhares de troncos, alguns com mais de 1 metro de diâmetro.",
+  "K3, K4 (Cruz 1975)")
 b(C4,
-  "No Sarandi, na zona norte, o dique rompeu, e a casa de bombas número dez foi inundada.\nO Sarandi foi o bairro com mais gente atingida: cerca de vinte e seis mil pessoas, segundo a prefeitura.",
-  "No Sarandi, na zona norte, o dique rompeu, | e a casa de bombas número 10 foi inundada. | O Sarandi foi o bairro com mais gente atingida: | cerca de 26 mil pessoas, segundo a prefeitura.",
-  "F42, F45")
+  "O número de vítimas nunca fechou.\nA geógrafa estimou 120. Contagens da época chegaram perto de 500.\nE, segundo um estudo de 2020, a maior parte da planície ainda era fazenda. Se fosse cidade, o estrago teria sido muito maior.",
+  "K6, K7", ideia=True)
 b(C4,
-  "E um detalhe importante: pelo que apontam os relatos técnicos, a água não passou por cima do muro da Mauá.\nEla entrou pelos pontos fracos do sistema.\nSegundo o estudo do World Weather Attribution, a defesa teria começado a falhar perto dos quatro metros e meio, apesar de ser apresentada como capaz de segurar seis.",
-  "E um detalhe importante: pelo que apontam os relatos técnicos, a água não passou por cima do muro da Mauá. | Ela entrou pelos pontos fracos do sistema. | Segundo o estudo do World Weather Attribution, | a defesa teria começado a falhar perto dos 4,5 metros, | apesar de ser apresentada como capaz de segurar 6.",
-  "F39, F43")
-b(C4,
-  "Por que falhou, ainda se discute.\nEx-diretores do DMAE apontam falta de manutenção. A prefeitura fala em problemas na concepção do sistema. Pesquisadores falam em falta de gestão.\nO fato é que a defesa feita depois de mil novecentos e quarenta e um não segurou essa cheia, que passou dos cinco metros.",
-  "Por que falhou, ainda se discute. | Ex-diretores do DMAE apontam falta de manutenção. | A prefeitura fala em problemas na concepção do sistema. | Pesquisadores falam em falta de gestão. | O fato é que a defesa feita depois de 1941 | não segurou essa cheia, que passou dos 5 metros.",
-  "F43")
-b(C4,
-  "E a água tomou a cidade.\nNo Mercado Público, chegou a um metro e meio.\nMenino Deus, Farrapos, Humaitá, as ilhas.\nSegundo a prefeitura, cerca de trinta por cento do território da capital ficou debaixo d'água.",
-  "E a água tomou a cidade. | No Mercado Público, chegou a 1,5 metro. | Menino Deus, Farrapos, Humaitá, as ilhas. | Segundo a prefeitura, cerca de 30% do território da capital | ficou debaixo d'água.",
-  "F48, F45, F44")
+  "Agora, ponha em cima a carta do Serviço Geológico do Brasil.\nAs classes de alta suscetibilidade a deslizamento acompanham as mesmas encostas íngremes do mapa de Olga Cruz.\nE, na planície ao pé delas, onde em 1967 havia fazenda, o censo de 2022 contou quase 135 mil moradores.",
+  "M1 (SGB), P12, K7, K8 (IBGE 2022)")
+
+# ---------------- 5. 2023: A MESMA RECEITA ----------------
+b(C5,
+  "Agora, compare com 2023.\nO satélite Landsat fotografou as encostas de São Sebastião em outubro de 2022 e de novo uma semana depois da chuva.",
+  "S2 (NASA Earth Observatory)", ideia=True)
+b(C5,
+  "Antes: morro verde, contínuo, até a praia.\nDepois: dezenas de faixas de terra descendo, uma ao lado da outra, até as casas.\nCada faixa é uma casca que se soltou.",
+  "S2")
+b(C5,
+  "Coloque os ingredientes em cima.\nA parede: quase 700 metros a 5 quilômetros e meio da Barra do Sahy.\nA chuva: 627 milímetros em um dia. E a mesma casca fina sobre a rocha.",
+  "R3, C3, P2")
+b(C5,
+  "Um especialista em deslizamentos da NASA resumiu assim: áreas com tantos escorregamentos juntos são bem incomuns, mas não sem precedente.\nO precedente fica a 35 quilômetros, em Caraguatatuba.",
+  "S3, S7")
+b(C5,
+  "Em São Sebastião e em Ubatuba, 65 pessoas morreram.\nMais de 1800 ficaram desabrigadas, e mais de 2200 tiveram de sair de casa.",
+  "S1 (Kobiyama/GADRI)")
 
 # ---------------- A RESPOSTA ----------------
-b("A RESPOSTA",
-  "[serious] Então, voltando à serra.\nPor que a chuva que caiu lá em cima alagou Porto Alegre?",
-  "Então, voltando à serra. | Por que a chuva que caiu lá em cima alagou Porto Alegre?")
-b("A RESPOSTA",
-  "Porque, em onze dias, caiu uns três meses de chuva, e mais forte justamente onde nascem os rios.\nPorque a região já tinha passado por duas grandes cheias em oito meses.\nPorque a água de quase um terço do estado desce para o mesmo lago raso, em frente à capital, e as cheias chegaram quase juntas.",
-  "Porque, em 11 dias, caiu uns 3 meses de chuva, | e mais forte justamente onde nascem os rios. | Porque a região já tinha passado por duas grandes cheias em 8 meses. | Porque a água de quase 1/3 do estado desce para o mesmo lago raso, | em frente à capital, e as cheias chegaram quase juntas.",
-  "F23, F24, F11–F13, F15, F30")
-b("A RESPOSTA",
-  "Porque esse lago só se esvazia devagar, por uma laguna de duzentos e cinquenta quilômetros e uma saída estreita para o mar.\nE porque, segundo o estudo do World Weather Attribution, a defesa da cidade teria cedido nos pontos fracos antes do limite para o qual foi feita.",
-  "Porque esse lago só se esvazia devagar, | por uma laguna de 250 quilômetros e uma saída estreita para o mar. | E porque, segundo o estudo do World Weather Attribution, | a defesa da cidade teria cedido nos pontos fracos | antes do limite para o qual foi feita.",
-  "F21, F39, F43")
-b("A RESPOSTA",
-  "E o clima?\nO mesmo estudo do World Weather Attribution calculou que o aquecimento global mais que dobrou a chance de uma chuva assim, e a deixou de seis a nove por cento mais intensa.\nE que o El Niño daquele ano, sozinho, teve um peso parecido.",
-  "E o clima? | O mesmo estudo do World Weather Attribution calculou | que o aquecimento global mais que dobrou a chance de uma chuva assim, | e a deixou de 6 a 9% mais intensa. | E que o El Niño daquele ano, sozinho, teve um peso parecido.",
-  "F51, F52")
-b("A RESPOSTA",
-  "[serious] Isso não quer dizer que uma enchente igual vai voltar em data marcada. Ninguém consegue prever isso.\nMas a geografia não muda.\nA chuva da serra vai continuar descendo para o Guaíba. O que pode mudar é a defesa, e o aviso.",
-  "Isso não quer dizer que uma enchente igual vai voltar em data marcada. | Ninguém consegue prever isso. | Mas a geografia não muda. | A chuva da serra vai continuar descendo para o Guaíba. | O que pode mudar é a defesa, e o aviso.",
-  "fecho editorial (sem previsão)")
-b("A RESPOSTA",
-  "Depois de dois mil e vinte e quatro, a prefeitura fechou para sempre oito das catorze comportas do muro, trocadas por concreto, reformou as outras e reforçou o dique do Sarandi.\nE o aviso chega pelo celular: a Defesa Civil manda alerta por SMS.\nPara se cadastrar, basta mandar o seu CEP para o número quarenta mil cento e noventa e nove.",
-  "Depois de 2024, a prefeitura fechou para sempre oito das 14 comportas do muro, trocadas por concreto, | reformou as outras e reforçou o dique do Sarandi. | E o aviso chega pelo celular: a Defesa Civil manda alerta por SMS. | Para se cadastrar, basta mandar o seu CEP para o número 40199.",
-  "FATOS-bruto §2 (comportas concretadas, SBT/Observador do Tempo); SMS 40199 (Defesa Civil)")
-b("A RESPOSTA",
-  "Se você quer entender por que o Sul tem um clima tão diferente do resto do Brasil, o nosso vídeo sobre isso está aqui no canal.\nSe você tem família no Rio Grande do Sul, manda este vídeo para ela.\nE se inscreve no Em Relevo, para entender o clima do Brasil no mapa.",
-  "Se você quer entender por que o Sul tem um clima tão diferente do resto do Brasil, | o nosso vídeo sobre isso está aqui no canal. | Se você tem família no Rio Grande do Sul, manda este vídeo para ela. | E se inscreve no Em Relevo, para entender o clima do Brasil no mapa.",
-  "CTA: puxa sessão para bG6-E4qjXYc (clima do Sul, publicado); sem gancho de próximo vídeo")
+b(R,
+  "Então, por que a Serra do Mar desaba sobre o litoral?\nPorque ela sobe 700 metros a menos de 6 quilômetros do mar e prende o temporal numa faixa estreita, onde cabem 400 milímetros em 6 horas.\nE porque está coberta por uma casca de 1 a 2 metros e meio, quase sem cola, que escorrega quando encharca.",
+  "síntese R1–R3, C1–C4, P2", ideia=True)
+b(R,
+  "Não é a montanha que cai de uma vez.\nÉ a casca que desliza, encosta por encosta, e desce pelos vales até a planície, onde estão as cidades.\nNo Morro do Cruzeiro e na Barra do Sahy, o degrau medido é o mesmo: quase 700 metros a menos de 6 quilômetros da areia.",
+  "síntese K2, S2")
+b(R,
+  "Ninguém sabe dizer quando vai cair outra chuva assim, nem em qual trecho da serra.\nMas a geografia não muda, e o mapa de onde ela cede já existe, para Caraguatatuba e para São Sebastião.",
+  "M1 (SGB); fecho sem previsão", ideia=True)
+b(R,
+  "E, no censo de 2010, o IBGE contou cerca de 3 mil moradores de Caraguatatuba dentro de áreas de risco mapeadas.\nO que muda o resultado é o aviso chegar a tempo.",
+  "M2 (IBGE/CEMADEN 2018)")
+b(R,
+  "A Defesa Civil manda alertas por SMS.\nPara receber, mande o seu CEP para o número 40199.\nE, se o alerta disser para sair, saia: quando a casca começa a descer, não dá tempo.",
+  "M3 (SMS 40199, Defesa Civil)",
+  tts_extra="A Defesa Civil manda alertas por SMS. Para receber, mande o seu CEP para o número quarenta mil cento e noventa e nove. E, se o alerta disser para sair, saia: quando a casca começa a descer, não dá tempo.")
+b(R,
+  "Se você quer ver outro desastre brasileiro explicado no mapa, o vídeo da seca de 1877 está aqui no canal.\nSe você tem família no litoral norte de São Paulo, manda este vídeo para ela.\nE se inscreve no Em Relevo, para entender o clima do Brasil no mapa.",
+  "CTA: puxa sessão para I5KpDKy6r3E (seca 1877, publicado); sem gancho de próximo vídeo")
 
 if __name__ == "__main__":
     json.dump(B, open(Path(__file__).parent / "blocos.json", "w"), ensure_ascii=False, indent=1)
     n = sum(len(re.findall(r"\w+", x["fala"])) for x in B)
-    ch = sum(len(" ".join(l.strip() for l in x["fala_tts"].split("\n"))) for x in B)
+    ch = sum(len(x["fala_tts"]) for x in B)
     print(len(B), "blocos;", n, "palavras faladas;", ch, "caracteres para o TTS")
     t = 0.4
     for x in B:
         w = len(re.findall(r"\w+", x["fala"]))
+        r = 3.3 if x["marcha"] == 1 else 2.9      # hook a ~1,36× (bíblia voz.md: ~198 pal/min) × corpo ~173
         print(f'{x["id"]} {int(t//60)}:{t%60:04.1f} {w:3d}p {x["cap"]}')
-        t += w / 2.9 + 0.6
+        t += w / r + 0.6
     print(f"total estimado {int(t//60)}:{t%60:04.1f}")
