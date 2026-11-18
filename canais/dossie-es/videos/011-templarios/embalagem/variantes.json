@@ -4,16 +4,18 @@
   "titulo": "Cómo los templarios criaron a un rey… y su nieto los asedió",
   "padrao_titulo": "Cómo + agente + verbo concreto + alvo",
   "padrao_thumb": "objeto-simbolo",
-  "thumb_conceito": "coroa pequena de criança sobre o manto branco templário dobrado, laje de pedra, fundo ardósia escuro; sigla TEMPLARIOS em cor papel + sello HUÉRFANO + aba EXPEDIENTE Nº 011",
-  "thumb_texto": "TEMPLARIOS HUÉRFANO"
+  "thumb_conceito": "coroa de criança sobre o manto templário dobrado (laje de pedra, fundo ardósia); sigla TEMPLARIOS + sello HUÉRFANO + aba EXPEDIENTE Nº 011",
+  "thumb_texto": "TEMPLARIOS HUÉRFANO",
+  "thumb_arquivo": "entrega/thumb-A.jpg"
  },
  {
   "letra": "B",
   "titulo": "TEMPLARIOS: declarados inocentes cuando la orden ya no existía",
   "padrao_titulo": "SIGLA: aposto com lacuna",
   "padrao_thumb": "documento-evidencia",
-  "thumb_conceito": "sentença em pergaminho horizontal com fileira de seis selos de cera pendentes em cordões, escrita ilegível, mesa escura e luz de vela",
-  "thumb_texto": "TARRAGONA"
+  "thumb_conceito": "sentença em pergaminho horizontal com selos de cera pendentes em cordões, escrita desfocada, mesa escura e luz de vela",
+  "thumb_texto": "TARRAGONA",
+  "thumb_arquivo": "entrega/thumb-B.jpg"
  },
  {
   "letra": "C",
@@ -21,6 +23,7 @@
   "padrao_titulo": "[Lugar], [año]: aposto com o objeto do caso",
   "padrao_thumb": "cena-acao",
   "thumb_conceito": "trabuco de contrapeso em silhueta grande no primeiro plano recortado contra lua cheia com halo claro, noite azul-ardósia, castelo no rochedo com janela acesa e fogueiras do acampamento",
-  "thumb_texto": "¿HEREJES?"
+  "thumb_texto": "¿HEREJES?",
+  "thumb_arquivo": "entrega/thumb-C.jpg"
  }
 ]

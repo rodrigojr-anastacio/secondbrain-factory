@@ -101,7 +101,7 @@
  },
  {
   "id": "I026",
-  "prompt": "A thick medieval handwritten book of rules open on a lectern, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "A thick closed medieval book with a leather cover and brass clasps lying on a wooden lectern, only the cover and spine visible, no pages visible, no writing, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I027",
@@ -181,7 +181,7 @@
  },
  {
   "id": "I046",
-  "prompt": "a battle-hardened medieval king of about sixty with a grey beard, chain mail and a simple iron crown, 1131, resembling Alfonso I of Aragon seated in a campaign tent dictating to a scribe by lamplight, 1131, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "a battle-hardened medieval king of about sixty with a grey beard, chain mail and a simple iron crown, 1131, resembling Alfonso I of Aragon seated in a campaign tent dictating to a scribe by lamplight, plain tunic with no cross and no emblems, plain tent without banners, the picture fills the whole frame with no black bars, 1131, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I047",
@@ -265,7 +265,7 @@
  },
  {
   "id": "I067",
-  "prompt": "A young medieval king of Castile of about twenty-four with a light beard and crown on a throne, 1158, resembling Sancho III, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "A young medieval king of Castile of about twenty-four with a light beard and crown on a throne, 1158, resembling Sancho III, two guards in simple chain mail coifs and plain open helmets beside the throne, no plate armor, no heraldic beasts, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I068",
@@ -369,7 +369,7 @@
  },
  {
   "id": "I093",
-  "prompt": "a very tall young medieval king of twenty-one with reddish-blond hair and a short beard, chain mail and a plain dark red surcoat, a simple gold circlet, 1229, resembling James I of Aragon wading ashore from a boat onto a rocky beach of Mallorca with soldiers, 1229, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "a very tall young medieval king of twenty-one with reddish-blond hair and a short beard, chain mail and a plain dark red surcoat, a simple gold circlet, 1229, resembling James I of Aragon wading ashore from a round-hulled medieval wooden ship with a triangular lateen sail and a flat rounded bow, no raised carved prow, no dragon head, onto a rocky beach of Mallorca with soldiers, no numbers or digits anywhere, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I094",
@@ -565,7 +565,7 @@
  },
  {
   "id": "I142",
-  "prompt": "an Italian woman historian in her thirties with dark hair and glasses, modern clothes, 2001 examining a long medieval parchment with gloved hands at an archive table, 2001, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "an Italian woman historian in her thirties with dark hair and glasses, modern clothes, 2001 seen from behind examining an old document with gloved hands at an archive table, the document edge-on and blank, no writing visible, 2001, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I143",
@@ -597,7 +597,7 @@
  },
  {
   "id": "I150",
-  "prompt": "an elderly medieval pope with a grey beard in white robes and a papal tiara, 1307, resembling Pope Clement V signing a bull at a desk, 1312, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "an elderly medieval pope with a grey beard in white robes and a papal tiara, 1307, resembling Pope Clement V signing a document at a desk, seen from the side, the page hidden by his hand and blank, no writing visible, 1312, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I151",
@@ -621,7 +621,7 @@
  },
  {
   "id": "I156",
-  "prompt": "Notre-Dame de Paris and the Île de la Cité at dusk in March 1314, a column of smoke rising in the distance, seen from far away, no people visible, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "The Île de la Cité in Paris at dusk in March 1314, the twin towers of a medieval cathedral complete with no scaffolding, a thin column of smoke rising from the island, seen from far across the river, no people visible, no signature, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  },
  {
   "id": "I157",
@@ -801,6 +801,6 @@
  },
  {
   "id": "thumb-C",
-  "prompt": "Ink graphic novel illustration: night scene, a large medieval wooden counterweight trebuchet in black silhouette in the left foreground, clearly showing its square counterweight box, A-frame on wooden wheels and long throwing arm tilted back, the sling folded against the arm, nothing hanging loose, directly behind it a huge bright full moon with a wide pale halo making the sky behind the machine the brightest area of the image, behind on the right a stone castle with a keep on an isolated rocky hill with one lit yellow window, a low line of small campfires between them, slate-blue night sky darkening toward the edges, no orange, no people, no rope, no noose, no flags, no symbols, no lettering, no hex codes, lower right ground dark and empty, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+  "prompt": "Ink graphic novel illustration: night scene, a large medieval wooden counterweight trebuchet in black silhouette in the left foreground, clearly showing its square counterweight box, A-frame on wooden wheels and the long throwing arm lowered and pointing up to the right at an angle with absolutely nothing hanging from it, no rope, no sling, no cords, no chains, directly behind it a huge bright full moon with a wide pale halo making the sky behind the machine the brightest area of the image, behind on the right a stone castle with a keep on an isolated rocky hill with one lit yellow window, a low line of small campfires between them, slate-blue night sky darkening toward the edges, no orange, no people, no noose, no flags, no symbols, no lettering, no hex codes, lower right ground dark and empty, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
  }
 ]
