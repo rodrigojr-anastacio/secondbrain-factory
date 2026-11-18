@@ -26,7 +26,7 @@
  },
  {
   "id": "N006",
-  "texto": "El Voto. Jerusalén, hacia mil ciento veinte. Un caballero de Champaña, Hugo de Payns, y unos pocos compañeros juran algo nuevo: vivir como monjes y pelear como soldados.",
+  "texto": "El Voto. Jerusalén, hacia mil ciento veinte. Un caballero de Champaña, Hugo de Payns, y unos pocos compañeros hacen sus votos de pobreza, castidad y obediencia ante el patriarca de Jerusalén. Son monjes, pero conservan la espada.",
   "ideia": false
  },
  {
@@ -236,7 +236,7 @@
  },
  {
   "id": "N048",
-  "texto": "En París, en marzo de mil trescientos catorce, Jacques de Molay, que se había retractado de su confesión, va a la hoguera. Lo de la maldición contra el rey y el papa es leyenda.",
+  "texto": "En París, en marzo de mil trescientos catorce, Jacques de Molay, que se había retractado de su confesión, va a la hoguera.",
   "ideia": false
  },
  {
@@ -261,22 +261,22 @@
  },
  {
   "id": "N053",
-  "texto": "Entre los castillos que recibe Montesa hay uno sobre una roca en el mar. Los templarios lo terminaron justo antes de caer. Un siglo después, tendrá un huésped que tampoco quiso rendirse.",
+  "texto": "Uno de los castillos que recibe Montesa lo habían terminado los templarios justo antes de su caída. Un siglo después, tendrá un huésped que tampoco quiso rendirse.",
   "ideia": true
  },
  {
   "id": "N054",
-  "texto": "La Roca. Peñíscola, reino de Valencia. Los templarios levantan este castillo entre mil doscientos noventa y cuatro y mil trescientos siete, sobre un peñón casi rodeado por el mar.",
+  "texto": "La Roca. Peñíscola, mil cuatrocientos diecisiete. Desde Constanza llega la noticia: un concilio ha depuesto al papa Benedicto Trece. El papa depuesto está aquí, en este castillo.",
   "ideia": false
  },
  {
   "id": "N055",
-  "texto": "Tras la caída de la orden, pasa a Montesa. A comienzos del siglo quince llega un aragonés, Pedro de Luna. Es Benedicto Trece, uno de los papas que se disputan la Iglesia.",
+  "texto": "Se llama Pedro de Luna y es aragonés. En plena división de la Iglesia, con varios papas a la vez, no acepta la sentencia. Se queda en Peñíscola y sigue llamándose papa hasta su muerte, en mil cuatrocientos veintitrés.",
   "ideia": false
  },
  {
   "id": "N056",
-  "texto": "En mil cuatrocientos diecisiete, el concilio de Constanza lo depone. Él no lo acepta. Se encierra en Peñíscola y sigue llamándose papa hasta su muerte, en mil cuatrocientos veintitrés.",
+  "texto": "El castillo donde resiste lo construyeron los templarios entre mil doscientos noventa y cuatro y mil trescientos siete. Fue de las últimas obras de la orden. Después pasó a Montesa.",
   "ideia": false
  },
  {
@@ -316,7 +316,7 @@
  },
  {
   "id": "N064",
-  "texto": "En sus muros, la orden protegió a un rey huérfano. Desde fuera, el nieto de ese rey los obligó a rendirse. Y un concilio los absolvió cuando ya no quedaba orden que salvar.",
+  "texto": "En sus muros, la orden protegió a un rey huérfano. Desde fuera, el nieto de ese rey los obligó a rendirse. Y un concilio los declaró inocentes cuando ya no quedaba orden que salvar.",
   "ideia": false
  },
  {

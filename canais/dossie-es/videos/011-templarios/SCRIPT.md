@@ -1,6 +1,6 @@
 # Cómo los templarios criaron a un rey… y su nieto los asedió en 13 minutos: roteiro
 
-Gerado por `roteiro.py` (fonte única; edite lá). 1841 palavras, ~13:00.2 estimados a 143 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 1840 palavras, ~12:59.8 estimados a 143 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
@@ -18,7 +18,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## 1. El Voto
 
-**[N006]** El Voto. Jerusalén, hacia mil ciento veinte. Un caballero de Champaña, Hugo de Payns, y unos pocos compañeros juran algo nuevo: vivir como monjes y pelear como soldados.
+**[N006]** El Voto. Jerusalén, hacia mil ciento veinte. Un caballero de Champaña, Hugo de Payns, y unos pocos compañeros hacen sus votos de pobreza, castidad y obediencia ante el patriarca de Jerusalén. Son monjes, pero conservan la espada.
 
 **[N007]** Su misión es proteger a los peregrinos en los caminos de Tierra Santa. El rey de Jerusalén les cede parte de su palacio, en el monte del Templo. De ahí el nombre: templarios.
 
@@ -126,7 +126,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N047]** Siete meses después, el cuatro de noviembre de mil trescientos doce, el concilio de Tarragona juzga a los templarios de la Corona de Aragón. Los declara inocentes. Según los historiadores, reciben una pensión y viven el resto de su vida en antiguas casas de la orden.
 
-**[N048]** En París, en marzo de mil trescientos catorce, Jacques de Molay, que se había retractado de su confesión, va a la hoguera. Lo de la maldición contra el rey y el papa es leyenda.
+**[N048]** En París, en marzo de mil trescientos catorce, Jacques de Molay, que se había retractado de su confesión, va a la hoguera.
 
 **[N049]** La orden ya no existe. Quedan sus castillos. Y dos reyes de la Península no quieren perderlos.
 
@@ -139,16 +139,16 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N052]** Montesa tiene su propio maestre durante casi tres siglos. A fines del siglo dieciséis, Felipe Segundo incorpora ese cargo a la Corona.
 
-**[N053]** Entre los castillos que recibe Montesa hay uno sobre una roca en el mar. Los templarios lo terminaron justo antes de caer. Un siglo después, tendrá un huésped que tampoco quiso rendirse.
+**[N053]** Uno de los castillos que recibe Montesa lo habían terminado los templarios justo antes de su caída. Un siglo después, tendrá un huésped que tampoco quiso rendirse.
 
 
 ## 11. La Roca
 
-**[N054]** La Roca. Peñíscola, reino de Valencia. Los templarios levantan este castillo entre mil doscientos noventa y cuatro y mil trescientos siete, sobre un peñón casi rodeado por el mar.
+**[N054]** La Roca. Peñíscola, mil cuatrocientos diecisiete. Desde Constanza llega la noticia: un concilio ha depuesto al papa Benedicto Trece. El papa depuesto está aquí, en este castillo.
 
-**[N055]** Tras la caída de la orden, pasa a Montesa. A comienzos del siglo quince llega un aragonés, Pedro de Luna. Es Benedicto Trece, uno de los papas que se disputan la Iglesia.
+**[N055]** Se llama Pedro de Luna y es aragonés. En plena división de la Iglesia, con varios papas a la vez, no acepta la sentencia. Se queda en Peñíscola y sigue llamándose papa hasta su muerte, en mil cuatrocientos veintitrés.
 
-**[N056]** En mil cuatrocientos diecisiete, el concilio de Constanza lo depone. Él no lo acepta. Se encierra en Peñíscola y sigue llamándose papa hasta su muerte, en mil cuatrocientos veintitrés.
+**[N056]** El castillo donde resiste lo construyeron los templarios entre mil doscientos noventa y cuatro y mil trescientos siete. Fue de las últimas obras de la orden. Después pasó a Montesa.
 
 **[N057]** Un siglo después de los templarios, otro aragonés resiste en uno de sus castillos. Mientras tanto, en Portugal, otra heredera del Temple prepara barcos.
 
@@ -170,7 +170,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N063]** El Castillo. Monzón había pasado a los hospitalarios, la orden con la que el Temple compartió, en mil ciento treinta y uno, la herencia de un reino.
 
-**[N064]** En sus muros, la orden protegió a un rey huérfano. Desde fuera, el nieto de ese rey los obligó a rendirse. Y un concilio los absolvió cuando ya no quedaba orden que salvar.
+**[N064]** En sus muros, la orden protegió a un rey huérfano. Desde fuera, el nieto de ese rey los obligó a rendirse. Y un concilio los declaró inocentes cuando ya no quedaba orden que salvar.
 
 **[N065]** En Francia, el final de los templarios fue una hoguera. En Aragón fue más lento y más frío: un asedio, un juicio y un reparto de castillos.
 
