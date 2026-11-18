@@ -69,7 +69,7 @@
  },
  {
   "id": "I018",
-  "prompt": "Symbolic scene: an old medieval parchment and a modern paper map lying side by side on a table, the same thin line drawn on both, no readable writing, no letters anywhere, no numbers, no signs, no boards"
+  "prompt": "Symbolic scene: an old medieval parchment and a modern paper map lying side by side on a table, the same thin line drawn on both, no readable writing, no letters anywhere, no numbers, no signs, no boards, strictly Portugal and Spain, medieval or early modern Iberian Christian setting: NO turbans, NO pharaoh or Egyptian headdress, NO Egyptian coins, NO Middle-Eastern or Indian clothing, NO palm trees, NO pyramids, NO desert"
  },
  {
   "id": "I019",
@@ -77,7 +77,7 @@
  },
  {
   "id": "I020",
-  "prompt": "Symbolic comic scene: a tiny round-white-head cartoon man standing with crossed arms next to a giant round-white-head cartoon man who leans over him, on a line drawn on the ground, no readable writing, no letters anywhere, no numbers, no signs, no boards, no flags, no banners, no coats of arms, no heraldic shields"
+  "prompt": "Symbolic comic scene: a tiny round-white-head cartoon man standing with crossed arms next to a giant round-white-head cartoon man who leans over him, on a line drawn on the ground, no readable writing, no letters anywhere, no numbers, no signs, no boards, no flags, no banners, no coats of arms, no heraldic shields, strictly Portugal and Spain, medieval or early modern Iberian Christian setting: NO turbans, NO pharaoh or Egyptian headdress, NO Egyptian coins, NO Middle-Eastern or Indian clothing, NO palm trees, NO pyramids, NO desert"
  },
  {
   "id": "I021",
@@ -213,7 +213,7 @@
  },
  {
   "id": "I054",
-  "prompt": "Symbolic scene: the same river seen in three moments from left to right, medieval boats, 18th century boats and modern small boats, both banks always talking, strictly Portugal and Spain: Iberian landscape with granite hills, cork oaks, olive trees and whitewashed villages, NO pyramids, NO palm trees, NO pharaoh headdress, NO desert dunes, NO Roman or Greek ruins, no readable writing, no letters anywhere, no numbers, no signs, no boards"
+  "prompt": "Symbolic scene: ONE single continuous wide river scene with no panels, no dividing lines and no seams: a medieval wooden boat and a plain 18th century wooden boat on the river, villagers on both banks always talking and waving to each other across the river, no motor boats, no modern objects, strictly Portugal and Spain: Iberian landscape with granite hills, cork oaks, olive trees and whitewashed villages, NO pyramids, NO palm trees, NO pharaoh headdress, NO desert dunes, NO Roman or Greek ruins, no readable writing, no letters anywhere, no numbers, no signs, no boards"
  },
  {
   "id": "I055",
@@ -373,7 +373,7 @@
  },
  {
   "id": "I094",
-  "prompt": "Map of the Iberian Peninsula with the modern Portugal–Spain land border drawn as a thin golden line, almost the same shape as an older faded line beneath it, painted like a blank parchment terrain map seen from directly above, only coastlines, seas, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
+  "prompt": "Map of the Iberian Peninsula with the modern Portugal–Spain land border drawn as a thin golden line, almost the same shape as an older faded line beneath it, painted like a blank parchment terrain map seen from directly above, only coastlines, seas, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame, all people in plain simple modern casual clothes, NO tricorn hats, NO feathered hats, NO conquistador helmets"
  },
  {
   "id": "I095",
@@ -381,7 +381,7 @@
  },
  {
   "id": "I096",
-  "prompt": "Symbolic scene: a big golden puzzle piece being placed into an old parchment map, only one piece filled, no readable writing, no letters anywhere, no numbers, no signs, no boards"
+  "prompt": "Symbolic scene: a big golden puzzle piece being placed into an old parchment map, only one piece filled, no readable writing, no letters anywhere, no numbers, no signs, no boards, strictly Portugal and Spain, medieval or early modern Iberian Christian setting: NO turbans, NO pharaoh or Egyptian headdress, NO Egyptian coins, NO Middle-Eastern or Indian clothing, NO palm trees, NO pyramids, NO desert"
  },
  {
   "id": "I097",
@@ -389,11 +389,11 @@
  },
  {
   "id": "I098",
-  "prompt": "Symbolic scene: a gold crown resting on top of an old parchment map, its shadow falling across the drawn line, no readable writing, no letters anywhere, no numbers, no signs, no boards"
+  "prompt": "Symbolic scene: a gold crown resting on top of an old parchment map, its shadow falling across the drawn line, no readable writing, no letters anywhere, no numbers, no signs, no boards, strictly Portugal and Spain interior, NO palm trees, NO desert, NO Egyptian or Middle-Eastern architecture, olive trees and a granite castle in the background"
  },
  {
   "id": "I099",
-  "prompt": "Symbolic comic scene: a big tree whose branches end in small crowns from two kingdoms, tangled together, no readable writing, no letters anywhere, no numbers, no signs, no boards, no flags, no banners, no coats of arms, no heraldic shields"
+  "prompt": "Symbolic comic scene: a big tree whose branches end in small crowns from two kingdoms, tangled together, no readable writing, no letters anywhere, no numbers, no signs, no boards, no flags, no banners, no coats of arms, no heraldic shields, strictly Portugal and Spain, medieval or early modern Iberian Christian setting: NO turbans, NO pharaoh or Egyptian headdress, NO Egyptian coins, NO Middle-Eastern or Indian clothing, NO palm trees, NO pyramids, NO desert"
  },
  {
   "id": "I100",
@@ -521,11 +521,11 @@
  },
  {
   "id": "I131",
-  "prompt": "Map of the Atlantic Ocean with a thin red vertical line moved far to the west, now crossing the eastern bulge of South America, painted like a blank parchment terrain map seen from directly above, only coastlines, seas, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame"
+  "prompt": "Map of the Atlantic Ocean with a thin red vertical line moved far to the west, now crossing the eastern bulge of South America, painted like a blank parchment terrain map seen from directly above, only coastlines, seas, rivers, mountains and flat colored areas, completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame, NO fleur-de-lis banners, NO flags"
  },
  {
   "id": "I132",
-  "prompt": "Close view of two hands pressing a wax seal onto a parchment treaty on a table, late 15th century: wooden sailing ships, no modern objects, no steamships, no readable writing, no letters anywhere, no numbers, no signs, no boards"
+  "prompt": "Close view of two hands pressing a wax seal onto a parchment treaty on a table, late 15th century: wooden sailing ships, no modern objects, no steamships, no readable writing, no letters anywhere, no numbers, no signs, no boards, strictly Portugal and Spain, medieval or early modern Iberian Christian setting: NO turbans, NO pharaoh or Egyptian headdress, NO Egyptian coins, NO Middle-Eastern or Indian clothing, NO palm trees, NO pyramids, NO desert, the two hands are plain, wearing plain brown sleeves"
  },
  {
   "id": "I133",
@@ -601,7 +601,7 @@
  },
  {
   "id": "I151",
-  "prompt": "Close view of two different old silver coins side by side on a wooden table, plain designs without letters, no readable writing, no letters anywhere, no numbers, no signs, no boards"
+  "prompt": "Close view of two different old silver coins side by side on a wooden table, plain designs without letters, no readable writing, no letters anywhere, no numbers, no signs, no boards, strictly Portugal and Spain, medieval or early modern Iberian Christian setting: NO turbans, NO pharaoh or Egyptian headdress, NO Egyptian coins, NO Middle-Eastern or Indian clothing, NO palm trees, NO pyramids, NO desert, the left coin shows a simple sailing ship, the right coin shows a simple castle tower, both plain, no human face"
  },
  {
   "id": "I152",
@@ -721,7 +721,7 @@
  },
  {
   "id": "I181",
-  "prompt": "Symbolic comic scene: a single orange on a silver plate next to a very long unrolled bill, no readable writing, no letters anywhere, no numbers, no signs, no boards"
+  "prompt": "Symbolic comic scene: a single orange on a silver plate next to a very long unrolled bill, no readable writing, no letters anywhere, no numbers, no signs, no boards, strictly Portugal and Spain, medieval or early modern Iberian Christian setting: NO turbans, NO pharaoh or Egyptian headdress, NO Egyptian coins, NO Middle-Eastern or Indian clothing, NO palm trees, NO pyramids, NO desert, dining table in a Portuguese palace room, the long bill is just a paper scroll"
  },
  {
   "id": "I182",
@@ -837,7 +837,7 @@
  },
  {
   "id": "I210",
-  "prompt": "Symbolic comic scene: two round-white-head cartoon men, one small and one big, walking through the same big open door at the same time, side by side, no readable writing, no letters anywhere, no numbers, no signs, no boards, no flags, no banners, no coats of arms, no heraldic shields"
+  "prompt": "Symbolic comic scene: two round-white-head cartoon men, one small and one big, walking through the same big open door at the same time, side by side, no readable writing, no letters anywhere, no numbers, no signs, no boards, no flags, no banners, no coats of arms, no heraldic shields, strictly Portugal and Spain, medieval or early modern Iberian Christian setting: NO turbans, NO pharaoh or Egyptian headdress, NO Egyptian coins, NO Middle-Eastern or Indian clothing, NO palm trees, NO pyramids, NO desert, both wearing plain round-white-head simple tunics, no headwear"
  },
  {
   "id": "I211",
@@ -853,7 +853,7 @@
  },
  {
   "id": "I214",
-  "prompt": "a cheerful little cartoon narrator character with a round white head and dot eyes, wearing an ordinary brown felt hat and a plain brown jacket driving a small car across a bridge and staring at a phone on the dashboard showing a clock jumping forward, surprised, comic, no readable writing, no letters anywhere, no numbers, no signs, no boards, no flags, no banners, no coats of arms, no heraldic shields"
+  "prompt": "a cheerful little cartoon narrator character with a round white head and dot eyes, wearing an ordinary brown felt hat and a plain brown jacket driving a small car across an old stone bridge between two Iberian towns with olive trees and staring at a phone on the dashboard showing a clock jumping forward, surprised, comic, no readable writing, no letters anywhere, no numbers, no signs, no boards, no flags, no banners, no coats of arms, no heraldic shields, strictly Portugal and Spain, medieval or early modern Iberian Christian setting: NO turbans, NO pharaoh or Egyptian headdress, NO Egyptian coins, NO Middle-Eastern or Indian clothing, NO palm trees, NO pyramids, NO desert"
  },
  {
   "id": "I215",

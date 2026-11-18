@@ -1,0 +1,14 @@
+[
+ {
+  "id": "thumb-A",
+  "prompt": "round-white-head cartoon border guard, large, chest up, left third of the frame, three-quarter view, simple dark green cap and plain uniform with no badge, shocked face with wide eyes and open mouth, one hand on his head, looking at a row of low identical light-grey granite border markers with square bases and low pyramid tops along a riverbank, running diagonally to the background, where in the large foreground the next marker is missing and only a big empty dirt hole remains (about a quarter of the frame width); across the river a small white town with a church tower; warm late afternoon light; the right third of the image darker and plain; ONE single continuous scene, strictly Portugal and Spain landscape with cork oaks and olive trees, NO flags, no text, no letters, no numbers on the stones, NO pyramids, NO palm trees, NO pharaoh headdress, NO turbans, 16:9"
+ },
+ {
+  "id": "thumb-B",
+  "prompt": "a single tall light-grey granite border marker with a square base and a low pyramid top, very large in the foreground (about 65% of the frame height), centre-left, seen from a three-quarter angle showing two plain smooth faces with absolutely no letters or marks, standing exactly on a border line: a row of smaller identical markers and a low dry-stone wall run from it across rolling hills to the horizon, splitting the landscape in two (green fields on the left, golden dry plain on the right); bright daylight, blue sky with white clouds, empty sky on the right third; no people, no flags, no buildings, no flowers, no cross, no halo, no text, no numbers, NO palm trees, NO pyramids, 16:9"
+ },
+ {
+  "id": "thumb-C-man",
+  "prompt": "a tiny round-white-head cartoon man standing with arms crossed and a stubborn face, full body, centered, wearing a plain brown tunic, on a completely flat solid pure magenta (#FF00FF) background, no ground, no shadow, no text, no other objects"
+ }
+]

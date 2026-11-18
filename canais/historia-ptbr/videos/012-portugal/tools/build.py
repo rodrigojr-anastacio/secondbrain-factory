@@ -48,16 +48,17 @@ def salvar(p, x):
 
 # ───────────── trilha original gerada no código (sem samples) ─────────────
 def trilha(dur, troca=None):
-    """011-estados-unidos: pad e drone de Sol. Antes de `troca` (início do cap. 8): violão/banjo (Karplus-Strong brilhante) na pentatônica maior de Sol, folk americano,
-    com rabeca (seno com vibrato) a cada ~25 s; depois: piano esparso (Karplus-Strong suave) em Sol eólio, sem sino nem marcha. Tudo sintetizado aqui."""
-    rng = np.random.default_rng(42)
+    """012-portugal: pad e drone de Ré (Ré menor, modo frígio/fado). Guitarra portuguesa sintetizada (duas cordas Karplus-Strong levemente
+    desafinadas, ataque brilhante) em arpejos esparsos na escala frígia de Ré; depois de `troca` (cap. 8, Olivença) só notas longas e raras.
+    Tudo sintetizado aqui, sem samples."""
+    rng = np.random.default_rng(12)
     N = int(dur * SR); t = np.arange(N) / SR
-    troca = troca if troca else dur * 0.45
+    troca = troca if troca else dur * 0.8
     hz = lambda m: 440 * 2 ** ((m - 69) / 12)
     out = np.zeros(N)
-    out += 0.05 * np.sin(2 * np.pi * hz(31) * t) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 19))
-    out += 0.03 * np.sin(2 * np.pi * hz(38) * t + 1) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 27 + 2))
-    prog = [[43, 50, 55], [43, 50, 57], [41, 48, 55], [43, 50, 59], [43, 50, 58], [41, 48, 53]]   # drones abertos de Lá (quinta, Sib, Fá)
+    out += 0.05 * np.sin(2 * np.pi * hz(26) * t) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 19))
+    out += 0.03 * np.sin(2 * np.pi * hz(33) * t + 1) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 27 + 2))
+    prog = [[38, 45, 50], [38, 45, 53], [36, 43, 48], [34, 41, 50], [38, 45, 52], [33, 40, 48]]   # Ré5, Ré/Fá, Dó, Sib, Ré/Mi, Lá
     CH = 12.0
     for c in range(int(dur / CH) + 2):
         s0 = int((c * CH - 3) * SR); L = int((CH + 6) * SR)
@@ -71,36 +72,28 @@ def trilha(dur, troca=None):
                 fr = hz(m) * 2 ** (det / 12); ph = rng.uniform(0, 6.3)
                 seg += np.sin(2 * np.pi * fr * tt + ph) + 0.15 * np.sin(4 * np.pi * fr * tt + ph)
         out[a_:b_] += 0.012 * seg * env
-    refs_sh = [79, 74, 76, 71]
-    escala_in = [55, 57, 59, 62, 64, 67, 69, 71, 74]   # pentatônica maior de Sol
-    escala = [55, 57, 58, 60, 62, 63, 65, 67, 69, 70]   # Sol eólio (piano, depois da troca)
+    escala = [62, 64, 65, 67, 69, 70, 72, 74, 76]   # Ré frígio (Ré Mi Fá Sol Lá Sib Dó Ré Mi)
     def corda(m, n, perda, bril):
         L = int(SR / hz(m)); buf = rng.uniform(-1, 1, L)
-        for _ in range(bril): buf = 0.5 * (buf + np.roll(buf, 1))   # suaviza o ataque (menos = mais brilhante)
+        for _ in range(bril): buf = 0.5 * (buf + np.roll(buf, 1))
         buf = list(buf); y = np.empty(n)
         for i in range(n):
             y[i] = buf[i % L]; buf[i % L] = perda * 0.5 * (buf[i % L] + buf[(i + 1) % L])
         return y
-    alaude = {m: corda(m, int(1.1 * SR), 0.997, 0) for m in escala_in}   # koto
-    cravo = {m: corda(m, int(1.4 * SR), 0.998, 3) for m in escala}      # piano suave
+    def gp(m):   # guitarra portuguesa: par de cordas em uníssono ligeiramente desafinado
+        n = int(1.2 * SR)
+        return 0.6 * corda(m, n, 0.9965, 0) + 0.5 * corda(m + 0.07, n, 0.9965, 1)
+    cordas = {m: gp(m) for m in escala}
     passo = 0.0
     while passo < dur - 2:
-        passo += rng.choice([1.5, 2.25, 3.0, 4.5] if passo < troca else [2.25, 3.0, 4.5, 6.0])
+        passo += rng.choice([1.5, 2.25, 3.0, 4.5] if passo < troca else [3.0, 4.5, 6.0, 7.5])
         if passo >= dur - 1: break
-        esc = escala_in if passo < troca else escala
-        nota = int(rng.choice(esc))
-        arp = [nota] if rng.random() < 0.6 else [nota, esc[min(len(esc) - 1, esc.index(nota) + 2)]]
+        nota = int(rng.choice(escala))
+        arp = [nota] if rng.random() < 0.6 else [nota, escala[min(len(escala) - 1, escala.index(nota) + 2)]]
         for r, m in enumerate(arp):
-            y = (alaude if passo < troca else cravo)[m] * rng.uniform(0.6, 1.0)
+            y = cordas[m] * rng.uniform(0.6, 1.0)
             i0 = int((passo + r * 0.18) * SR); i1 = min(N, i0 + len(y))
-            if i0 < N: out[i0:i1] += (0.035 if passo < troca else 0.022) * y[: i1 - i0]
-    for k in range(int(troca / 25)):   # shakuhachi: sopro lento com vibrato (só antes da troca)
-        i0 = int((6 + k * 25) * SR); L = min(N - i0, int(5 * SR))
-        if L <= 0: break
-        tt = np.arange(L) / SR; f0 = hz(refs_sh[k % len(refs_sh)])
-        env = np.clip(tt / 1.2, 0, 1) * np.clip((5 - tt) / 1.5, 0, 1)
-        sh = np.sin(2 * np.pi * (f0 + 2.5 * np.sin(2 * np.pi * 5 * tt)) * tt) + 0.2 * np.sin(4 * np.pi * f0 * tt) + 0.05 * rng.standard_normal(L)
-        out[i0:i0 + L] += 0.018 * sh * env
+            if i0 < N: out[i0:i1] += (0.034 if passo < troca else 0.022) * y[: i1 - i0]
     fi = int(2 * SR); out[:fi] *= np.linspace(0, 1, fi); out[-int(3 * SR):] *= np.linspace(1, 0, int(3 * SR))
     return out / (np.max(np.abs(out)) + 1e-9) * 0.5
 
@@ -172,7 +165,7 @@ def main():
     dur = len(voz) / SR
     (V / "public/audio").mkdir(parents=True, exist_ok=True)
     salvar(V / "public/audio/voz.wav", voz)
-    caps_t = [b["ini"] for b in blocos if b["id"] in caps_ini]; tr = trilha(dur, caps_t[7] if len(caps_t) > 7 else None); tr = np.pad(tr, (0, max(0, len(voz) - len(tr))))[: len(voz)]   # arredondamento de amostras
+    caps_t = [b["ini"] for b in blocos if b["id"] in caps_ini]; tr = trilha(dur, caps_t[8] if len(caps_t) > 8 else None); tr = np.pad(tr, (0, max(0, len(voz) - len(tr))))[: len(voz)]   # arredondamento de amostras
     musica = ducking(voz, tr)
     salvar(V / "public/audio/trilha.wav", musica)
     salvar(V / "public/audio/mix_pre.wav", voz + musica)

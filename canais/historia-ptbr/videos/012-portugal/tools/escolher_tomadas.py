@@ -19,8 +19,8 @@ def montar(combo):
         g = 0 if i==0 else 0.6 if bl[i].get("ideia") else 0.25   # gaps novos do 006
         partes += [np.zeros(int(g*SR),dtype=np.float32), get(t,i)]
     y=np.concatenate(partes)[:60*SR]
-    subprocess.run(["ffmpeg","-v","error","-y","-f","f32le","-ar",str(SR),"-ac","1","-i","pipe:0","/home/hermes/cache/tmp/c011.wav"],input=y.astype(np.float32).tobytes(),check=True)
-    return melodia("/home/hermes/cache/tmp/c011.wav")["repeticao_melodica"]
+    subprocess.run(["ffmpeg","-v","error","-y","-f","f32le","-ar",str(SR),"-ac","1","-i","pipe:0","/home/hermes/cache/tmp/c012.wav"],input=y.astype(np.float32).tobytes(),check=True)
+    return melodia("/home/hermes/cache/tmp/c012.wav")["repeticao_melodica"]
 random.seed(1)
 res=[]
 combos={tuple(random.choice("abcd") for _ in range(6)) for _ in range(200)} | {tuple(x*6) for x in "abcd"}

@@ -5,7 +5,8 @@
   "padrao_titulo": "afirmação estranha + pergunta",
   "padrao_thumb": "rosto-emocao",
   "thumb_conceito": "guarda bonequinho em choque ao lado da fila de marcos de pedra com um buraco no lugar do próximo; Olivença ao fundo",
-  "thumb_texto": "CADÊ?"
+  "thumb_texto": "CADÊ?",
+  "thumb_arquivo": "entrega/thumb-A.jpg"
  },
  {
   "letra": "B",
@@ -13,7 +14,8 @@
   "padrao_titulo": "Como [coisa concreta] [verbo] [lugar] (virada no parêntese)",
   "padrao_thumb": "objeto-simbolo",
   "thumb_conceito": "marco de fronteira de granito prismático em três-quartos, com P e E, cravado sobre uma linha de pedras que corta os morros, de dia",
-  "thumb_texto": "700 ANOS"
+  "thumb_texto": "700 ANOS",
+  "thumb_arquivo": "entrega/thumb-B.jpg"
  },
  {
   "letra": "C",
@@ -21,6 +23,7 @@
   "padrao_titulo": "pergunta + 'A resposta tem…' (fato-surpresa)",
   "padrao_thumb": "mapa-lugar",
   "thumb_conceito": "silhuetas na mesma escala: Pernambuco (verde) e Portugal (ouro) lado a lado, Espanha enorme e escura atrás; bonequinho minúsculo de braços cruzados sobre Portugal",
-  "thumb_texto": "PERNAMBUCO É MAIOR"
+  "thumb_texto": "PERNAMBUCO É MAIOR",
+  "thumb_arquivo": "entrega/thumb-C.jpg"
  }
 ]
