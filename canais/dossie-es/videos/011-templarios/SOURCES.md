@@ -23,23 +23,24 @@ Fontes próprias (nenhuma transcrição de concorrente é fonte de fato). Numera
 ## Não afirmado (pendente ou lenda)
 Dia 24/05/1309 e o nome do comendador de Monzón; início exato do cerco; número de templários presos; resposta de Jaime II a Filipe IV; frase literal do testamento; lista completa dos castelos de 1143; nomes/lotes do Repartiment de Mallorca; cruz nas velas de Cabral; Cabral "grão-mestre"; tesouro, Graal, maldição de Molay (dita como lenda), origem da superstição da sexta 13 (não citada).
 
-## Anedotas próprias × manada (cota da bíblia: ≥ 50% dos expedientes fora de todas as transcrições de `ref/`)
-| expediente | objeto/cena | aparece em alguma transcrição? |
+## Anedotas próprias × manada (cota da bíblia: ≥ 50% dos expedientes fora de todas as transcrições de `ref/`) — versão r2 do roteiro (depois do crivo de ângulo r1)
+| expediente | objeto/cena principal | aparece em alguma transcrição? |
 |---|---|---|
-| Hook | Monzón 1309: o neto sitia o castelo onde o avô foi criado | não (Imperios y Misterios cita Monzón como "primeiro castelo" e põe, errado, "Alfonso I educado em 1153") |
+| Hook | Monzón 1309: o neto sitia o castelo onde o avô foi criado | não (Imperios y Misterios 1:22 tem uma menção truncada e errada: "el joven rey Alfonso I… educado allí… 5 años") |
 | 1. El Voto | fundação, Troyes | **sim** (consenso; dito curto, sem "dois num cavalo") |
-| 2. El Hábito | o conde de Barcelona professa no leito de morte | **não** (Imperios: só "os convidou") |
-| 3. El Testamento | Alfonso I deixa o reino às ordens | **sim** (Imperios 0:37) |
-| 5. La Plaza | Calatrava abandonada → Ordem de Calatrava | **não** |
-| 4. La Encomienda | Girona 1143 e Monzón; banco | **sim** (Imperios: compensação; banco = consenso) |
-| 6. El Niño | Jaime I órfão em Monzón, "dos años y medio" | **não** |
-| 7. La Isla | Mallorca 1229 | **não** |
-| 8. La Orden | a ordem de Jaime II de 1/12/1307 (Paris só como contexto) | **não** como cena (Paris = consenso, 1 frase) |
-| 9. El Asedio | Miravet e Monzón | **sim** (Imperios: Miravet) |
-| 10. El Concilio | Chinon, Salamanca, Vienne, Tarragona, Molay | **sim** (clone: Chinon; CÓDIGO/Imperios: Tarragona) |
-| 11. La Bula | Montesa, Ordem de Cristo | **sim** (CÓDIGO, Imperios, Unresolved) |
-| 12. La Bandera | Caminha: a bandeira de Cristo no Brasil | **não** (BP só diz "Cabral grão-mestre") |
-Fora da manada: 2, 5, 6, 7, 8, 12 = **6 de 12 (50%)** + hook.
+| 2. El Hábito | o conde de Barcelona professa no Templo dias antes de morrer | **não** (Imperios 0:22: só "los invitó") |
+| 3. El Testamento | testamento de Alfonso I + Girona/Monzón, comprimidos em 3 blocos | **sim** (Imperios 0:37–0:56) |
+| 4. La Plaza | Calatrava abandonada → Ordem de Calatrava | **não** |
+| 5. El Niño | Jaime I órfão em Monzón, "dos años y medio" (Llibre dels Fets), Montfort, Inocêncio III | **parcial** (Imperios 1:22, menção truncada com o rei errado e sem a cena) |
+| 6. La Isla | Mallorca 1229 | **não** |
+| 7. La Orden | a ordem de Jaime II de 1/12/1307 ao inquisidor e aos bispos de Valência e Saragoça (Paris, a bula papal e Acre = 2 blocos de contexto) | **não** como cena (Imperios: "Jaime II esperó") |
+| 8. El Asedio | Monzón cercado pelo neto (Miravet em 1 bloco, com os números da Generalitat) | **parcial** (Imperios: Miravet com outros números) |
+| 9. El Concilio | Chinon, Salamanca, Vienne, Tarragona, Molay | **sim** |
+| 10. La Bula | Montesa, bens aos Hospitalários | **sim** (CÓDIGO, Imperios) |
+| 11. La Roca | Peñíscola: castelo templário que, um século depois, abriga o papa Luna (Bento XIII), deposto em Constança (1417), que não aceita e fica lá até morrer (1423) | **não** (Imperios cita Peñíscola só como "esconderijo"; ninguém cita o papa Luna) |
+| 12. La Bandera | Caminha: a bandeira de Cristo no Brasil (1500) | **não** (BP: só "Cabral grão-mestre") |
+Fora da manada (estrito): 2, 4, 6, 7, 11, 12 = **6 de 12 (50%)**; com os parciais 5 e 8 (cena própria, menção alheia), 8 de 12.
+Fontes do exp. 11: castelo templário 1294–1307, passa a Montesa: https://www.uv.es/charco/otros_textos/castillo_papaluna.htm ; https://www.comunitatvalenciana.com/en/castello-castellon/peniscola-peniscola/monumentos/castillo-de-peniscola ; Bento XIII deposto em Constança (26/07/1417), morto em Peñíscola (1423): https://es.wikipedia.org/wiki/Benedicto_XIII (ponte) e RAH "Pedro Martínez de Luna" https://dbe.rah.es/biografias/7569/benedicto-xiii [conferir]. Exp. 7: ordem de 1/12/1307 (GEC "templer"); inquisidor e bispos de Valência e Saragoça: https://www.uv.es/ivorra/Historia/SXIV/1305.htm
 
 ## Revisão de fatos e nativa (17/11/2026, subagente Sonnet)
 31 itens; aplicados: Calatrava (1147) passa a depois de Girona (1143) (cronologia invertida); "cinco días" → "pocos días" (Ramón Berenguer III); Grañena "en tierras recién ganadas"; banco "con el tiempo" (anacronismo em 1143); Montfort tinha o menino desde 1211; "siete semanas desde los arrestos de París"; Miravet: Saguardia lugarteniente, ~10 meses; "Entre los últimos, Monzón y Chalamera"; Chinon "según Barbara Frale… Archivo Apostólico Vaticano"; *Vox in excelso* firmada 22/03 e anunciada em Vienne; Montesa: o mestrado passa à Coroa, a ordem subsiste; cruz da Ordem de Cristo = vermelha com cruz branca no centro; "primera misa en tierra brasileña"; Monzón já com os hospitalários antes de 1500; cierre sem "ningún ejército enemigo"; "Tres años y medio después" (mai/1309 → nov/1312). Espanhol: "freires" → "hermanos del Temple"; "encomienda" explicada; "a petición de"; "Belén" (não "Belém"); "Saguardia" sem acento para o TTS; "cronista de la flota". Mantido: Tarragona em 4/11/1312 (GEC, fonte 1; o revisor achou também "7/7/1312" em fonte de divulgação, que a 2ª checagem já marcara como erro).

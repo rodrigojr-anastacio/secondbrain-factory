@@ -71,286 +71,266 @@
  },
  {
   "id": "N015",
-  "texto": "Deja sus reinos, Aragón y Pamplona, a tres órdenes religiosas: el Santo Sepulcro, los hospitalarios y los templarios. Unos monjes soldados, herederos de un reino.",
+  "texto": "Deja sus reinos, Aragón y Pamplona, a tres órdenes religiosas: el Santo Sepulcro, los hospitalarios y los templarios. Muere en mil ciento treinta y cuatro, y los nobles no cumplen su voluntad.",
   "ideia": false
  },
  {
   "id": "N016",
-  "texto": "Por qué lo hizo, nadie lo sabe con certeza. Según los historiadores, quizá quería que su guerra contra los musulmanes siguiera. O tal vez sabía que los nobles nunca lo aceptarían.",
+  "texto": "Nueve años después, en Gerona, el Temple renuncia a su parte del reino. A cambio recibe castillos, entre ellos Monzón, sobre una roca junto al río Cinca. Ese castillo va a volver una y otra vez a esta historia.",
   "ideia": false
  },
  {
   "id": "N017",
-  "texto": "En mil ciento treinta y cuatro, Alfonso es derrotado en Fraga y muere semanas después. Los nobles no cumplen el testamento. En Aragón eligen rey a su hermano Ramiro, que era monje.",
-  "ideia": false
+  "texto": "Cuatro años después, el Temple recibe otra fortaleza. Esta vez, en Castilla.",
+  "ideia": true
  },
  {
   "id": "N018",
-  "texto": "Las órdenes se quedan sin reino. Pero el Temple no renuncia a cambio de nada.",
-  "ideia": true
- },
- {
-  "id": "N019",
-  "texto": "La Encomienda. Gerona, noviembre de mil ciento cuarenta y tres. Para cerrar el asunto del testamento, Ramón Berenguer Cuarto, que ahora gobierna Aragón, pacta con el Temple.",
-  "ideia": false
- },
- {
-  "id": "N020",
-  "texto": "La orden renuncia a su parte del reino. A cambio recibe castillos, entre ellos Monzón, sobre una roca junto al río Cinca, y la quinta parte de lo que se conquiste a los musulmanes.",
-  "ideia": false
- },
- {
-  "id": "N021",
-  "texto": "Monzón se convierte en una de sus casas más ricas, lo que la orden llama una encomienda. Desde allí, los hermanos del Temple administran aldeas, molinos y rentas de toda la comarca.",
-  "ideia": false
- },
- {
-  "id": "N022",
-  "texto": "Con el tiempo, la orden funcionará también como un banco: guardará dinero, prestará a reyes y dará cartas de crédito a los peregrinos. El rey de Francia llegará a guardar su tesoro en la casa del Temple en París.",
-  "ideia": false
- },
- {
-  "id": "N023",
-  "texto": "Cuatro años después del pacto de Gerona, el Temple recibe otra fortaleza. Esta vez, en Castilla.",
-  "ideia": true
- },
- {
-  "id": "N024",
   "texto": "La Plaza. Calatrava, mil ciento cuarenta y siete. El rey Alfonso Séptimo conquista esta fortaleza junto al río Guadiana y la entrega a los templarios.",
   "ideia": false
  },
  {
-  "id": "N025",
+  "id": "N019",
   "texto": "Es la llave del camino hacia Toledo. Diez años después, los almohades avanzan desde el sur. A fines de mil ciento cincuenta y siete, los templarios abandonan la plaza.",
   "ideia": false
  },
  {
-  "id": "N026",
+  "id": "N020",
   "texto": "En enero de mil ciento cincuenta y ocho, el rey Sancho Tercero se la ofrece a quien quiera defenderla. La acepta un abad cisterciense, Raimundo de Fitero. De ahí nace otra orden: la de Calatrava.",
   "ideia": false
  },
  {
-  "id": "N027",
+  "id": "N021",
   "texto": "En Castilla, el Temple perdió una plaza. En Aragón, Monzón sigue en pie. Y allí le van a confiar algo más valioso que un castillo.",
   "ideia": true
  },
  {
-  "id": "N028",
+  "id": "N022",
   "texto": "El Niño. Muret, Francia, doce de septiembre de mil doscientos trece. El rey Pedro Segundo de Aragón muere en batalla. Su esposa había muerto en Roma ese mismo año.",
   "ideia": false
  },
  {
-  "id": "N029",
+  "id": "N023",
   "texto": "Su único hijo, Jaime, tiene cinco años y está en manos del enemigo de su padre, Simón de Montfort. El papa Inocencio Tercero ordena que lo devuelvan.",
   "ideia": false
  },
  {
-  "id": "N030",
+  "id": "N024",
   "texto": "Montfort lo tenía desde mil doscientos once, prometido a una de sus hijas. Ahora obedece al papa y entrega al niño a un enviado de Roma.",
   "ideia": false
  },
  {
-  "id": "N031",
+  "id": "N025",
   "texto": "En mil doscientos catorce, el niño rey llega a Monzón. Lo custodia el maestre del Temple en Aragón y Cataluña, Guillem de Montredón.",
   "ideia": false
  },
  {
-  "id": "N032",
+  "id": "N026",
   "texto": "Años después, el propio Jaime lo cuenta en su crónica: el maestre lo llevó a Monzón y allí estuvo dos años y medio. Sale en mil doscientos diecisiete, con nueve años.",
   "ideia": false
  },
  {
-  "id": "N033",
+  "id": "N027",
   "texto": "La orden ha criado a un rey. Y ese rey va a necesitarla en el mar.",
   "ideia": true
  },
  {
-  "id": "N034",
+  "id": "N028",
   "texto": "La Isla. Santa Ponsa, Mallorca, septiembre de mil doscientos veintinueve. Jaime ya tiene veintiún años y desembarca para conquistar la isla.",
   "ideia": false
  },
  {
-  "id": "N035",
+  "id": "N029",
   "texto": "Entre sus tropas van los templarios. El treinta y uno de diciembre cae la ciudad de Mallorca, la actual Palma. La orden recibe tierras en la isla por su ayuda.",
   "ideia": false
  },
  {
-  "id": "N036",
+  "id": "N030",
   "texto": "En su crónica, Jaime recuerda esa campaña con detalle: la tormenta en la travesía, el desembarco y los meses de asedio frente a la ciudad.",
   "ideia": false
  },
  {
-  "id": "N037",
+  "id": "N031",
   "texto": "Nueve años después, en mil doscientos treinta y ocho, Jaime entra en Valencia. Otra vez el Temple está a su lado. Ese rey pasará a la historia como Jaime el Conquistador.",
   "ideia": false
  },
  {
-  "id": "N038",
-  "texto": "Para entonces, los templarios de Aragón son una pieza del reino. Pero la orden nació para otra guerra. Y esa guerra está a punto de perderse.",
+  "id": "N032",
+  "texto": "Para entonces, los templarios de Aragón son una pieza del reino. Hasta que un nieto de Jaime recibe noticias de París.",
   "ideia": true
  },
  {
+  "id": "N033",
+  "texto": "La Orden. Corona de Aragón, uno de diciembre de mil trescientos siete. Jaime Segundo, nieto del niño de Monzón, firma una orden: detener a los templarios de sus reinos y tomar sus bienes.",
+  "ideia": false
+ },
+ {
+  "id": "N034",
+  "texto": "Encarga el proceso al inquisidor y a los obispos de Valencia y de Zaragoza. Sus oficiales salen hacia las casas de la orden, una por una.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "La idea no es suya. Siete semanas antes, el rey de Francia había hecho arrestar a todos los templarios de su reino. La orden de arresto los acusaba de herejía: de renegar de Cristo y escupir sobre la cruz.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "El papa Clemente Quinto protestó. Pero el veintidós de noviembre cedió, y ordenó arrestarlos en toda la cristiandad. La orden ya no tenía Tierra Santa que defender: la había perdido en Acre, en mil doscientos noventa y uno.",
+  "ideia": false
+ },
+ {
+  "id": "N037",
+  "texto": "Los templarios de Aragón no esperan a los oficiales del rey. Hacen lo que casi nadie hizo en Francia: se encierran en sus castillos.",
+  "ideia": true
+ },
+ {
+  "id": "N038",
+  "texto": "Si este expediente te está gustando, suscríbete: así no te pierdes el próximo. Y ahora, volvemos a Monzón.",
+  "ideia": false
+ },
+ {
   "id": "N039",
-  "texto": "La Orden. Acre, mayo de mil doscientos noventa y uno. Cae la última gran ciudad cristiana de Tierra Santa. La orden se queda sin la misión que le dio origen.",
+  "texto": "El Asedio. Monzón, fines de mil trescientos ocho. Las tropas de Jaime Segundo rodean la roca sobre el Cinca. Arriba, en el castillo donde la orden custodió a su abuelo, resisten los templarios.",
   "ideia": false
  },
  {
   "id": "N040",
-  "texto": "Dieciséis años después, el trece de octubre de mil trescientos siete, el rey Felipe Cuarto de Francia hace arrestar a los templarios de su reino.",
+  "texto": "No son los únicos. En Miravet, sobre el río Ebro, veintidós hombres aguantan unos diez meses. Se rinden el doce de diciembre. Seis de ellos se niegan hasta el final a entregarse por su voluntad.",
   "ideia": false
  },
  {
   "id": "N041",
-  "texto": "La orden de arresto los acusa de herejía: de renegar de Cristo y escupir sobre la cruz. Muchos confiesan bajo tortura. El papa Clemente Quinto no había autorizado nada de esto.",
+  "texto": "En Monzón pasa el invierno. Nadie viene a ayudarlos. En mayo de mil trescientos nueve, Monzón y Chalamera, entre los últimos, se rinden.",
   "ideia": false
  },
  {
   "id": "N042",
-  "texto": "Al principio protesta. Pero el veintidós de noviembre cede: con una bula, ordena arrestar a los templarios en toda la cristiandad.",
-  "ideia": false
- },
- {
-  "id": "N043",
-  "texto": "En Aragón gobierna Jaime Segundo, nieto del niño de Monzón. Han pasado siete semanas desde los arrestos de París. El uno de diciembre de mil trescientos siete firma su propia orden: detener a los templarios de sus reinos.",
-  "ideia": false
- },
- {
-  "id": "N044",
-  "texto": "Los templarios aragoneses hacen algo que casi nadie hizo en Francia. Se encierran en sus castillos.",
-  "ideia": true
- },
- {
-  "id": "N045",
-  "texto": "Si este expediente te está gustando, suscríbete: así no te pierdes el próximo. Y ahora, al asedio.",
-  "ideia": false
- },
- {
-  "id": "N046",
-  "texto": "El Asedio. Miravet, sobre el río Ebro. La defensa la dirige Ramón de Saguardia, lugarteniente del maestre en Cataluña, con veintidós hombres. Resisten unos diez meses. Se rinden el doce de diciembre de mil trescientos ocho.",
-  "ideia": false
- },
- {
-  "id": "N047",
-  "texto": "Según los documentos de la época, seis de ellos, con el propio Saguardia, se niegan hasta el final a entregarse por su voluntad.",
-  "ideia": false
- },
- {
-  "id": "N048",
-  "texto": "Entre los últimos, Monzón y Chalamera. Monzón es la fortaleza donde la orden custodió a Jaime el Conquistador. Ahora la cercan las tropas de su nieto.",
-  "ideia": false
- },
- {
-  "id": "N049",
-  "texto": "Los templarios aguantan todo el invierno. Nadie viene a ayudarlos. En mayo de mil trescientos nueve, Monzón y Chalamera se rinden.",
-  "ideia": false
- },
- {
-  "id": "N050",
   "texto": "Los últimos templarios en armas del reino salen como prisioneros. Su destino ya no lo decide el rey de Aragón: lo decide la Iglesia.",
   "ideia": true
  },
  {
-  "id": "N051",
-  "texto": "El Concilio. Mientras tanto, en agosto de mil trescientos ocho, en el castillo de Chinon, tres cardenales del papa interrogan al gran maestre, Jacques de Molay, y a otros jefes de la orden.",
+  "id": "N043",
+  "texto": "El Concilio. Meses antes de la rendición de Monzón, en agosto de mil trescientos ocho, en el castillo de Chinon, tres cardenales del papa interrogan al gran maestre, Jacques de Molay, y a otros jefes de la orden.",
   "ideia": false
  },
  {
-  "id": "N052",
+  "id": "N044",
   "texto": "Según la historiadora Barbara Frale, que redescubrió el pergamino en el Archivo Apostólico Vaticano en dos mil uno, los cardenales los absuelven si piden perdón. No es una absolución de la orden. Y el papa no la hace pública.",
   "ideia": false
  },
  {
-  "id": "N053",
+  "id": "N045",
   "texto": "En Castilla, el concilio de Salamanca de mil trescientos diez declara inocentes a los templarios del reino. En Portugal, el rey Dionisio toma sus bienes, pero no los encarcela.",
   "ideia": false
  },
  {
-  "id": "N054",
+  "id": "N046",
   "texto": "El veintidós de marzo de mil trescientos doce, el papa firma la bula que disuelve la orden y la anuncia en el concilio de Vienne. No dice que sea culpable: dice que ya no puede seguir.",
   "ideia": false
  },
  {
-  "id": "N055",
+  "id": "N047",
   "texto": "Siete meses después, el cuatro de noviembre de mil trescientos doce, el concilio de Tarragona juzga a los templarios de la Corona de Aragón. Los declara inocentes. Según los historiadores, reciben una pensión y viven el resto de su vida en antiguas casas de la orden.",
   "ideia": false
  },
  {
-  "id": "N056",
+  "id": "N048",
   "texto": "En París, en marzo de mil trescientos catorce, Jacques de Molay, que se había retractado de su confesión, va a la hoguera. Lo de la maldición contra el rey y el papa es leyenda.",
   "ideia": false
  },
  {
-  "id": "N057",
+  "id": "N049",
   "texto": "La orden ya no existe. Quedan sus castillos. Y dos reyes de la Península no quieren perderlos.",
   "ideia": true
  },
  {
-  "id": "N058",
+  "id": "N050",
   "texto": "La Bula. Aviñón, diez de junio de mil trescientos diecisiete. A petición de Jaime Segundo, el papa Juan Veintidós crea una orden nueva en el reino de Valencia: la de Montesa.",
   "ideia": false
  },
  {
-  "id": "N059",
-  "texto": "Montesa recibe los bienes del Temple y del Hospital en Valencia, con castillos como Peñíscola. En Aragón y Cataluña, los bienes templarios pasan a los hospitalarios, sus viejos rivales.",
+  "id": "N051",
+  "texto": "Montesa recibe los bienes del Temple y del Hospital en Valencia. En Aragón y Cataluña, los bienes templarios pasan a los hospitalarios, sus viejos rivales. Monzón también.",
   "ideia": false
  },
  {
-  "id": "N060",
+  "id": "N052",
   "texto": "Montesa tiene su propio maestre durante casi tres siglos. A fines del siglo dieciséis, Felipe Segundo incorpora ese cargo a la Corona.",
   "ideia": false
  },
  {
-  "id": "N061",
-  "texto": "En Portugal, el rey Dionisio hace lo mismo. En mil trescientos diecinueve nace la Orden de Cristo, que hereda los bienes del Temple. Con los años, tendrá su sede en Tomar.",
-  "ideia": false
- },
- {
-  "id": "N062",
-  "texto": "Su emblema es una cruz roja con otra blanca en el centro, heredera de la templaria. Pronto esa cruz va a cruzar el océano.",
+  "id": "N053",
+  "texto": "Entre los castillos que recibe Montesa hay uno sobre una roca en el mar. Los templarios lo terminaron justo antes de caer. Un siglo después, tendrá un huésped que tampoco quiso rendirse.",
   "ideia": true
  },
  {
-  "id": "N063",
+  "id": "N054",
+  "texto": "La Roca. Peñíscola, reino de Valencia. Los templarios levantan este castillo entre mil doscientos noventa y cuatro y mil trescientos siete, sobre un peñón casi rodeado por el mar.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "Tras la caída de la orden, pasa a Montesa. A comienzos del siglo quince llega un aragonés, Pedro de Luna. Es Benedicto Trece, uno de los papas que se disputan la Iglesia.",
+  "ideia": false
+ },
+ {
+  "id": "N056",
+  "texto": "En mil cuatrocientos diecisiete, el concilio de Constanza lo depone. Él no lo acepta. Se encierra en Peñíscola y sigue llamándose papa hasta su muerte, en mil cuatrocientos veintitrés.",
+  "ideia": false
+ },
+ {
+  "id": "N057",
+  "texto": "Un siglo después de los templarios, otro aragonés resiste en uno de sus castillos. Mientras tanto, en Portugal, otra heredera del Temple prepara barcos.",
+  "ideia": true
+ },
+ {
+  "id": "N058",
   "texto": "La Bandera. Costa de lo que hoy es Brasil, veintiséis de abril de mil quinientos. La flota de Pedro Álvares Cabral celebra su primera misa en tierra brasileña.",
   "ideia": false
  },
  {
-  "id": "N064",
+  "id": "N059",
   "texto": "El cronista de la flota, Pero Vaz de Caminha, lo cuenta en su carta al rey Manuel: junto al capitán estaba la bandera de Cristo, con la que había salido de Belén, en Lisboa.",
   "ideia": false
  },
  {
-  "id": "N065",
-  "texto": "Para los historiadores, es la bandera de la Orden de Cristo. Cabral es caballero de esa orden, y la orden había pagado durante décadas las navegaciones portuguesas.",
+  "id": "N060",
+  "texto": "Para los historiadores, es la bandera de la Orden de Cristo, la heredera portuguesa del Temple. El rey Dionisio la había creado en mil trescientos diecinueve con los bienes de los templarios de su reino.",
   "ideia": false
  },
  {
-  "id": "N066",
+  "id": "N061",
+  "texto": "Cabral es caballero de esa orden, y la orden había pagado durante décadas las navegaciones portuguesas. Su emblema es una cruz roja con otra blanca en el centro, heredera de la templaria.",
+  "ideia": false
+ },
+ {
+  "id": "N062",
   "texto": "Ciento ochenta y ocho años después del fin del Temple, una cruz heredera de los templarios llega a América. Mientras tanto, Monzón, el castillo del niño rey, lleva casi dos siglos en otras manos.",
   "ideia": true
  },
  {
-  "id": "N067",
+  "id": "N063",
   "texto": "El Castillo. Monzón había pasado a los hospitalarios, la orden con la que el Temple compartió, en mil ciento treinta y uno, la herencia de un reino.",
   "ideia": false
  },
  {
-  "id": "N068",
+  "id": "N064",
   "texto": "En sus muros, la orden protegió a un rey huérfano. Desde fuera, el nieto de ese rey los obligó a rendirse. Y un concilio los absolvió cuando ya no quedaba orden que salvar.",
   "ideia": false
  },
  {
-  "id": "N069",
+  "id": "N065",
   "texto": "En Francia, el final de los templarios fue una hoguera. En Aragón fue más lento y más frío: un asedio, un juicio y un reparto de castillos.",
   "ideia": false
  },
  {
-  "id": "N070",
+  "id": "N066",
   "texto": "A los templarios de Aragón no los venció ningún ejército musulmán. Los desarmaron los reyes a quienes habían servido.",
   "ideia": true
  },
  {
-  "id": "N071",
+  "id": "N067",
   "texto": "Y tú, ¿qué te parece más injusto: la hoguera de París o el asedio de Monzón? Déjalo en los comentarios.",
   "ideia": false
  }
