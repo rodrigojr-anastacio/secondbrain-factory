@@ -1,0 +1,54 @@
+# Pacote de publicación · dossie-es 011 · Los Templarios (puede ir al aire: vie o sáb) · duración 12:39
+
+## TESTAR E COMPARAR (títulos × thumbs)
+| par | título | padrão do título | thumb | padrão da thumb |
+|---|---|---|---|---|
+| A (T1) | Cómo los templarios criaron a un rey… y su nieto los asedió | Cómo + agente + verbo concreto + alvo | thumb-A.jpg: corona de niño sobre el manto templario doblado, "TEMPLARIOS" + sello HUÉRFANO + pestaña Nº 011 | objeto-simbolo |
+| B (T2) | TEMPLARIOS: declarados inocentes cuando la orden ya no existía | SIGLA: aposto com lacuna | thumb-B.jpg: sentencia en pergamino con sellos de cera colgando, "TARRAGONA" | documento-evidencia |
+| C (T3) | Monzón, 1309: los últimos templarios en armas | [Lugar], [año]: aposto com o objeto do caso | thumb-C.jpg: trabuco en silueta contra la luna llena frente al castillo, sello "¿HEREJES?" | cena-acao |
+
+## Descripción
+Si te gustan estos expedientes, suscríbete, deja tu like y compártelo: abrimos uno nuevo cada semana.
+
+Monzón, mayo de 1309: las tropas del rey Jaime II llevan meses asediando el castillo donde, noventa y cinco años antes, la orden del Temple crió a un niño huérfano, el abuelo de ese rey. Este es el expediente completo de los templarios contado desde la Corona de Aragón: del testamento de Alfonso el Batallador al concilio de Tarragona, de Mallorca y Peñíscola a la bandera de Cristo que llegó a Brasil.
+
+Capítulos
+0:00 Introducción: Monzón, 1309
+0:36 Expediente 1: El Voto
+1:23 Expediente 2: El Hábito
+2:06 Expediente 3: El Testamento
+2:56 Expediente 4: La Plaza
+3:44 Expediente 5: El Niño
+4:45 Expediente 6: La Isla
+5:38 Expediente 7: La Orden
+6:49 Expediente 8: El Asedio
+7:38 Expediente 9: El Concilio
+9:05 Expediente 10: La Bula
+9:51 Expediente 11: La Roca
+10:43 Expediente 12: La Bandera
+11:46 Cierre: El Castillo
+
+Fuentes
+- Gran Enciclopèdia Catalana: "templer" y "Ramon Berenguer III"
+- Real Academia de la Historia (DB~e): "San Raimundo de Fitero"; Jiménez de Rada, De rebus Hispaniae
+- Llibre dels Fets de Jaime I, citado en El Temps ("De la infància a Montsó i la conquesta d'Ares del Maestrat")
+- Patrimoni Generalitat de Catalunya: cronología del castillo de Miravet
+- Barquero Goñi, "El destino de los bienes templarios en la Península", Hispania Sacra
+- Pavón Benito, estudio sobre el testamento de Alfonso I el Batallador (Universidad de Navarra)
+- Concordia de Girona (1143), Anuario de Estudios Medievales, 1997
+- Montesa y la Orden de Cristo: Enciclopèdia.cat y Universidade de Coimbra
+- Pero Vaz de Caminha, Carta a El-Rei D. Manuel (26 de abril de 1500)
+- Barbara Frale y el Pergamino de Chinon (Processus contra Templarios, 2007); Malcolm Barber, The Trial of the Templars (2006) y The New Knighthood (1994)
+- Castillo de Peñíscola y el papa Luna: Universitat de València y Comunitat Valenciana
+Las acusaciones se atribuyen a sus fuentes. Contenido educativo e histórico; sin apología de la violencia.
+
+## Tags
+templarios, historia de los templarios, templarios en aragón, templarios en españa, castillo de monzón, jaime i el conquistador, jaime ii de aragón, concilio de tarragona, orden del temple, alfonso el batallador, orden de montesa, orden de cristo, papa luna peñíscola, historia medieval, dossier en minutos
+
+Categoría: Educación · Idioma: español
+
+## Checklist al publicar (Rodrigo)
+- Uso de contenido sintético (Studio → Atributos): **Sí** · Para niños: **No** · Idioma: español.
+- "Testar e comparar": thumbs A/B/C pareadas con los títulos A/B/C.
+- Video: video.mp4 1080p (nunca la versión del Telegram) · Subtítulos: legendas.srt (es).
+- Publicar viernes o sábado (producción de la noche del 17/11).

@@ -6,7 +6,7 @@ Legenda: **[O]** observado nos arquivos acima · **[I]** inferência · **Hipót
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (16/11/2026 20:00)
+## Backlog vivo (17/11/2026 20:00)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
@@ -14,7 +14,6 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | noite | pode ir ao ar | tema | status |
 |---|---|---|---|
-| seg 16/11 | qua ou sex | Tarawa (Betio: as escavações que não acabam) | em_producao |
 | ter 17/11 | sex ou sáb | Runit Dome (Enewetak): a cúpula nuclear do Pacífico | agendado |
 | sáb 21/11 | dom ou seg | Nevada Test Site (NNSS) | agendado |
 | dom 22/11 | seg ou qua | Kaho'olawe: a ilha que a Marinha bombardeou por 50 anos | agendado |
@@ -23,12 +22,12 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 | sáb 28/11 | dom ou seg | Guadalcanal (o que ainda está enterrado) | agendado |
 | dom 29/11 | seg ou qua | — (vaga) | |
 | seg 30/11 | qua ou sex | — (vaga) | |
+| ter 01/12 | sex ou sáb | — (vaga) | |
 
 ### Temas (ordem da fila)
 
 | id | tema | nota (D·E·U) | status | noite (ao ar) | janela do tema | evidência principal |
 |---|---|---|---|---|---|---|
-| 35 | Tarawa (Betio: as escavações que não acabam) | 6.5 (5·7·8) | em_producao | seg 16/11 (qua ou sex) | 23/11 | [WUSA9 (heroes found under a parking lot in Tarawa): 462 mil views](https://www.youtube.com/watch?v=VCnAUGlt3fY) |
 | 36 | Runit Dome (Enewetak): a cúpula nuclear do Pacífico | 6.5 (8·7·5) | agendado | ter 17/11 (sex ou sáb) | perene | [ABC News In-depth (Concrete Dome... Toxic Timebomb): 9,42 mi views](https://www.youtube.com/watch?v=autMHvj3exA) |
 | 37 | Nevada Test Site (NNSS) | 6.0 (6·9·4) | agendado | sáb 21/11 (dom ou seg) | perene | [atomcentral (Atomic Journeys - The Nevada Test Site): 1,64 mi views](https://www.youtube.com/watch?v=Z7X7QNDi1mQ) |
 | 38 | Kaho'olawe: a ilha que a Marinha bombardeou por 50 anos | 5.8 (5·8·5) | agendado | dom 22/11 (seg ou qua) | 07/12 | [Vox (How Native Hawaiians fought the US Navy, and won): 1,01 mi views](https://www.youtube.com/watch?v=6nWZ15JeZnc) |
@@ -36,7 +35,7 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 | 40 | Attu (Aleutas): o campo de batalha em solo americano fechado aos americanos | 5.8 (6·8·4) | agendado | ter 24/11 (sex ou sáb) | perene | [Simple History (The Only Land Battle Fought on U.S. soil in WWII): 4,39 mi views](https://www.youtube.com/watch?v=k2pcLtkzg2M) |
 | 41 | Guadalcanal (o que ainda está enterrado) | 5.5 (7·8·3) | agendado | sáb 28/11 (dom ou seg) | perene | [The History Underground (Ghostly Remains of Guadalcanal): 723 mil views](https://www.youtube.com/watch?v=sbVc6rVUdXo) |
 
-Prontos/publicados recentes: Pearl Harbor (Ford Island e Hickam: a parte que fica atrás do portão) (pronto, dom 15/11); Bikini Atoll (publicado, dom 15/11); Gettysburg (fotos) (publicado, seg 16/11)
+Prontos/publicados recentes: Pearl Harbor (Ford Island e Hickam: a parte que fica atrás do portão) (pronto, dom 15/11); Bikini Atoll (publicado, dom 15/11); Tarawa (Betio: as escavações que não acabam) (pronto, seg 16/11); Gettysburg (fotos) (publicado, seg 16/11)
 
 <!-- backlog-vivo:fim -->
 

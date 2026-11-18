@@ -1,0 +1,34 @@
+TÍTULOS (pareados às thumbs do "Testar e comparar"; duração real 16:30, só na descrição)
+A · A fronteira de Portugal é QUASE a mesma desde 1297. Como?   ↔ thumb-A.jpg (rosto-emoção: guarda bonequinho em choque diante da fila de marcos com um buraco no lugar do próximo, "CADÊ?")  · padrão do título: afirmação estranha + pergunta
+B · Como uma LINHA protegeu Portugal (até o dia em que cedeu)   ↔ thumb-B.jpg (objeto-símbolo: marco de granito com P | E sobre a linha de marcos e muro que corta os morros, "700 ANOS")  · padrão do título: Como [coisa concreta] [verbo] [lugar] (virada)
+C · Por que Portugal ainda existe? A resposta tem 1.200 KM   ↔ thumb-C.jpg (mapa-lugar/escala: Pernambuco verde × Portugal ouro × Espanha cinza na mesma escala, bonequinho de braços cruzados sobre Portugal, "PERNAMBUCO É MAIOR")  · padrão do título: pergunta + "A resposta tem…"
+
+DESCRIÇÃO
+Gostou? Inscreva-se no canal, deixe o seu like e compartilhe com quem curte história.
+
+São mil e duzentos quilômetros de fronteira marcados com pedras numeradas, e num trecho os números simplesmente pulam. Neste vídeo (16 minutos), a história inteira de Portugal contada pela linha que o separa da Espanha: como um país menor que Pernambuco segurou quase a mesma fronteira desde 1297, quem a segurou em cada século, e onde, e por que, ela cedeu uma única vez.
+
+0:00 Hook
+1:10 1. Uma linha no rio
+2:32 2. A linha desce até o mar
+3:47 3. Um tratado com um menino
+5:06 4. O grito em Lisboa
+6:39 5. A linha vai para a água
+8:22 6. A coroa atravessa, a linha fica
+10:00 7. Vinte e oito anos na raia
+11:33 8. Onde a linha cedeu
+12:56 9. Muro e porta
+14:30 10. A cancela sobe
+15:47 Fecho
+
+FONTES PRINCIPAIS
+Daveau, S. (1976), Finisterra (extensão da fronteira); Convenção de Limites luso-espanhola (1926) e Tratado de Limites (1864); Infopedia (Tratado de Alcanises, Pacto Ibérico); Britannica ("Portugal: History", "Afonso I"); Fernández de Casadevante (1999) sobre a demarcação Caia–Cuncos; Observador e DN sobre Olivença; INE/DGT e IBGE (áreas); Público e RTP (contrabando na raia); Tratado de Windsor, Tordesilhas, Tratado de Badajoz (1801) e Congresso de Viena (1815). Lista completa por trecho em SOURCES.md do projeto.
+
+CRÉDITOS
+Narração e roteiro: História em minutos. Trilha original sintetizada (guitarra portuguesa e pad em Ré). Mapas de escala: Natural Earth (domínio público) e malha do IBGE (domínio público). Sem material de acervo de terceiros.
+
+TAGS
+história de portugal, portugal, espanha, fronteira de portugal, olivença, tratado de alcanizes, tratado de tordesilhas, união ibérica, restauração da independência, revolução dos cravos, schengen, história inteira, história em minutos
+
+CATEGORIA E CHECKLIST (o Rodrigo publica)
+Educação · Idioma: português (Brasil) · Uso de IA = Sim (Studio → Atributos) · Não é conteúdo para crianças · Legendas: subir legendas.srt · Thumbs e títulos: A/B/C no "Testar e comparar" pareados (thumb-A com o título A, thumb-B com o B, thumb-C com o C) · mp4 1080p (nunca o do Telegram) · Tema sensível (Olivença, guerras, Salazar/Franco): posição de cada governo, sem imagem gráfica. Janela sugerida: sex ou sáb (1º/12 = Restauração da Independência de 1640: publicar antes).
