@@ -1,0 +1,434 @@
+[
+ {
+  "id": "N001",
+  "texto": "[curious] Houston, setembro de mil novecentos e oitenta e nove. Imagine que você é Boris Iéltsin, deputado soviético, visitando os Estados Unidos.",
+  "tela": "[curious] Houston, setembro de mil novecentos e oitenta e nove. Imagine que você é Boris Iéltsin, deputado soviético, visitando os Estados Unidos.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "De manhã, o controle de missão da NASA. Nada de novo: o seu país pôs o primeiro homem no espaço. À tarde, um supermercado. E ele diz: nem o Politburo tem essa escolha.",
+  "tela": "De manhã, o controle de missão da NASA. Nada de novo: o seu país pôs o primeiro homem no espaço. À tarde, um supermercado. E ele diz: nem o Politburo tem essa escolha.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "Quatro meses depois, em Moscou, cerca de trinta mil pessoas enfrentam a fila de uma lanchonete americana. Num só dia. E o país do Sputnik comprava trigo do exterior desde sessenta e três.",
+  "tela": "Quatro meses depois, em Moscou, cerca de trinta mil pessoas enfrentam a fila de uma lanchonete americana. Num só dia. E o país do Sputnik comprava trigo do exterior desde sessenta e três.",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "[serious] Então fica a pergunta: como o país que chegou primeiro ao espaço não conseguia encher uma prateleira?",
+  "tela": "[serious] Então fica a pergunta: como o país que chegou primeiro ao espaço não conseguia encher uma prateleira?",
+  "ideia": false
+ },
+ {
+  "id": "N005",
+  "texto": "Essa é a história inteira da União Soviética. E ela começa com uma promessa de pão.",
+  "tela": "Essa é a história inteira da União Soviética. E ela começa com uma promessa de pão.",
+  "ideia": false
+ },
+ {
+  "id": "N006",
+  "texto": "Uma aldeia na beira do rio Volga, mil novecentos e dezenove. Homens armados batem na porta. Levam o trigo do celeiro. E levam também a semente da próxima safra.",
+  "tela": "Uma aldeia na beira do rio Volga, mil novecentos e dezenove. Homens armados batem na porta. Levam o trigo do celeiro. E levam também a semente da próxima safra.",
+  "ideia": true
+ },
+ {
+  "id": "N007",
+  "texto": "Tente explicar a eles que aquilo era o plantio do ano que vem. Não adianta: a cidade tem fome, e o exército também.",
+  "tela": "Tente explicar a eles que aquilo era o plantio do ano que vem. Não adianta: a cidade tem fome, e o exército também.",
+  "ideia": false
+ },
+ {
+  "id": "N008",
+  "texto": "Dois anos antes, os bolcheviques tinham tomado o poder com um lema que cabia num cartaz: paz, terra e pão. Só que a paz virou guerra civil. E o pão virou requisição.",
+  "tela": "Dois anos antes, os bolcheviques tinham tomado o poder com um lema que cabia num cartaz: paz, terra e pão. Só que a paz virou guerra civil. E o pão virou requisição.",
+  "ideia": false
+ },
+ {
+  "id": "N009",
+  "texto": "Então veio a conta. Em mil novecentos e vinte e um, a fome cobre o Volga. Morrem milhões de pessoas; a estimativa mais citada fala em cerca de cinco milhões.",
+  "tela": "Então veio a conta. Em mil novecentos e vinte e um, a fome cobre o Volga. Morrem milhões de pessoas; a estimativa mais citada fala em cerca de cinco milhões.",
+  "ideia": true
+ },
+ {
+  "id": "N010",
+  "texto": "E quem aparece com comida? Pense na ironia: Hérbert Húver, um americano que detestava os bolcheviques. Só que detestava mais ainda ver criança com fome.",
+  "tela": "E quem aparece com comida? Pense na ironia: Herbert Hoover, um americano que detestava os bolcheviques. Só que detestava mais ainda ver criança com fome.",
+  "ideia": false
+ },
+ {
+  "id": "N011",
+  "texto": "No auge, as cozinhas americanas alimentam mais de dez milhões de pessoas por dia. Guarde esses americanos com comida.",
+  "tela": "No auge, as cozinhas americanas alimentam mais de dez milhões de pessoas por dia. Guarde esses americanos com comida.",
+  "ideia": false
+ },
+ {
+  "id": "N012",
+  "texto": "O problema é óbvio: um governo que prometeu pão não pode viver da sopa do país que ele chama de inimigo.",
+  "tela": "O problema é óbvio: um governo que prometeu pão não pode viver da sopa do país que ele chama de inimigo.",
+  "ideia": false
+ },
+ {
+  "id": "N013",
+  "texto": "Moscou, mil novecentos e vinte e dois. Num mercado de rua, você encontra pão branco, botas, salsicha. Um ano antes, vender isso na rua era crime.",
+  "tela": "Moscou, mil novecentos e vinte e dois. Num mercado de rua, você encontra pão branco, botas, salsicha. Um ano antes, vender isso na rua era crime.",
+  "ideia": true
+ },
+ {
+  "id": "N014",
+  "texto": "Então Lênin recuou. A requisição virou imposto, e o camponês podia vender o que sobrava. A prateleira, por um momento, enche.",
+  "tela": "Então Lênin recuou. A requisição virou imposto, e o camponês podia vender o que sobrava. A prateleira, por um momento, enche.",
+  "ideia": false
+ },
+ {
+  "id": "N015",
+  "texto": "No mesmo ano do recuo, nasce um escritório discreto para fazer contas: a Comissão Estatal de Planejamento, o Gósplan. Repare nesse nome: daqui a pouco, ele vai mandar em tudo.",
+  "tela": "No mesmo ano do recuo, nasce um escritório discreto para fazer contas: a Comissão Estatal de Planejamento, o Gosplan. Repare nesse nome: daqui a pouco, ele vai mandar em tudo.",
+  "ideia": false
+ },
+ {
+  "id": "N016",
+  "texto": "Mas aí aparece a tesoura. Os produtos da cidade ficam caros, o trigo fica barato. O que sai da fábrica custa quase três vezes o que custava antes da guerra.",
+  "tela": "Mas aí aparece a tesoura. Os produtos da cidade ficam caros, o trigo fica barato. O que sai da fábrica custa quase três vezes o que custava antes da guerra.",
+  "ideia": true
+ },
+ {
+  "id": "N017",
+  "texto": "E o camponês responde como você responderia: segura o trigo no celeiro e espera um preço melhor.",
+  "tela": "E o camponês responde como você responderia: segura o trigo no celeiro e espera um preço melhor.",
+  "ideia": false
+ },
+ {
+  "id": "N018",
+  "texto": "Em mil novecentos e vinte e oito, mesmo depois de safras boas, o Estado não consegue comprar grão. As cidades voltam a ter fila. E o homem que agora manda em Moscou, Stálin, tem outra ideia. O problema é que ela não cabe num mercado de rua.",
+  "tela": "Em mil novecentos e vinte e oito, mesmo depois de safras boas, o Estado não consegue comprar grão. As cidades voltam a ter fila. E o homem que agora manda em Moscou, Stálin, tem outra ideia. O problema é que ela não cabe num mercado de rua.",
+  "ideia": false
+ },
+ {
+  "id": "N019",
+  "texto": "Olhe para este cartaz de mil novecentos e trinta e um. Em letras vermelhas enormes: dois mais dois igual a cinco.",
+  "tela": "Olhe para este cartaz de mil novecentos e trinta e um. Em letras vermelhas enormes: dois mais dois igual a cinco.",
+  "ideia": true
+ },
+ {
+  "id": "N020",
+  "texto": "A ideia é que o entusiasmo dos operários faz o plano de cinco anos sair em quatro. Matemática soviética: o resultado vem antes da conta.",
+  "tela": "A ideia é que o entusiasmo dos operários faz o plano de cinco anos sair em quatro. Matemática soviética: o resultado vem antes da conta.",
+  "ideia": false
+ },
+ {
+  "id": "N021",
+  "texto": "O Gósplan agora escreve o país inteiro em metas. Aço, carvão, represas, tratores. Primeiro a indústria pesada. A prateleira? Fica para o próximo plano.",
+  "tela": "O Gosplan agora escreve o país inteiro em metas. Aço, carvão, represas, tratores. Primeiro a indústria pesada. A prateleira? Fica para o próximo plano.",
+  "ideia": false
+ },
+ {
+  "id": "N022",
+  "texto": "E a crise de vinte e oito ganha uma resposta de ferro: se o camponês segura o trigo, o Estado fica com a terra. As fazendas de família viram fazendas coletivas, e o grão passa a ser entregue, não vendido.",
+  "tela": "E a crise de vinte e oito ganha uma resposta de ferro: se o camponês segura o trigo, o Estado fica com a terra. As fazendas de família viram fazendas coletivas, e o grão passa a ser entregue, não vendido.",
+  "ideia": true
+ },
+ {
+  "id": "N023",
+  "texto": "[serious] Em agosto de trinta e dois, uma lei transforma em crime grave pegar espigas no campo coletivo, mesmo as que sobraram no chão. Imagine ser preso por catar trigo. Naquele ano e no seguinte, a fome deixa milhões de vítimas, sobretudo na Ucrânia e no Cazaquistão.",
+  "tela": "[serious] Em agosto de trinta e dois, uma lei transforma em crime grave pegar espigas no campo coletivo, mesmo as que sobraram no chão. Imagine ser preso por catar trigo. Naquele ano e no seguinte, a fome deixa milhões de vítimas, sobretudo na Ucrânia e no Cazaquistão.",
+  "ideia": false
+ },
+ {
+  "id": "N024",
+  "texto": "Se você morasse numa cidade, o pão vinha com cartão de racionamento. E o povo aprende a andar com uma sacola de rede no bolso: a avóska. O nome vem de ávos, algo como vai que. Vai que aparece alguma coisa.",
+  "tela": "Se você morasse numa cidade, o pão vinha com cartão de racionamento. E o povo aprende a andar com uma sacola de rede no bolso: a avoska. O nome vem de avos, algo como vai que. Vai que aparece alguma coisa.",
+  "ideia": true
+ },
+ {
+  "id": "N025",
+  "texto": "Em mil novecentos e trinta e cinco, o cartão do pão acaba. E Stálin anuncia: a vida ficou melhor, camaradas. A vida ficou mais alegre. Repare que a sacola continua no bolso.",
+  "tela": "Em mil novecentos e trinta e cinco, o cartão do pão acaba. E Stálin anuncia: a vida ficou melhor, camaradas. A vida ficou mais alegre. Repare que a sacola continua no bolso.",
+  "ideia": false
+ },
+ {
+  "id": "N026",
+  "texto": "Aqui está a primeira peça da resposta: a prateleira é sempre o próximo plano. O de agora tem uma urgência maior. O problema é quando a urgência maior bate na porta.",
+  "tela": "Aqui está a primeira peça da resposta: a prateleira é sempre o próximo plano. O de agora tem uma urgência maior. O problema é quando a urgência maior bate na porta.",
+  "ideia": false
+ },
+ {
+  "id": "N027",
+  "texto": "Verão de mil novecentos e quarenta e um. Imagine desmontar a sua fábrica parafuso por parafuso, pôr tudo num trem e remontar do outro lado dos Urais. No inverno.",
+  "tela": "Verão de mil novecentos e quarenta e um. Imagine desmontar a sua fábrica parafuso por parafuso, pôr tudo num trem e remontar do outro lado dos Urais. No inverno.",
+  "ideia": true
+ },
+ {
+  "id": "N028",
+  "texto": "Foi o que aconteceu quando a Alemanha invadiu. Em um ano e pouco, mais de mil e quinhentas grandes fábricas de armamento viajaram para o leste.",
+  "tela": "Foi o que aconteceu quando a Alemanha invadiu. Em um ano e pouco, mais de mil e quinhentas grandes fábricas de armamento viajaram para o leste.",
+  "ideia": false
+ },
+ {
+  "id": "N029",
+  "texto": "Os tanques saem dessas fábricas remontadas no frio. E a prateleira, mais uma vez, fica para o próximo plano.",
+  "tela": "Os tanques saem dessas fábricas remontadas no frio. E a prateleira, mais uma vez, fica para o próximo plano.",
+  "ideia": false
+ },
+ {
+  "id": "N030",
+  "texto": "Só que a prateleira paga a conta de novo. Olhe a fila do pão: voltou, e com cartão. E, depois da vitória, uma seca traz outra fome, em mil novecentos e quarenta e seis e quarenta e sete.",
+  "tela": "Só que a prateleira paga a conta de novo. Olhe a fila do pão: voltou, e com cartão. E, depois da vitória, uma seca traz outra fome, em mil novecentos e quarenta e seis e quarenta e sete.",
+  "ideia": true
+ },
+ {
+  "id": "N031",
+  "texto": "Então, em dezembro de quarenta e sete, o racionamento acaba, junto com uma troca de moeda: dez rublos velhos por um novo. Quem escondia dinheiro no colchão descobriu que o colchão tinha encolhido.",
+  "tela": "Então, em dezembro de quarenta e sete, o racionamento acaba, junto com uma troca de moeda: dez rublos velhos por um novo. Quem escondia dinheiro no colchão descobriu que o colchão tinha encolhido.",
+  "ideia": false
+ },
+ {
+  "id": "N032",
+  "texto": "O plano provou que vence uma guerra. Mas o que ele faz quando não tem guerra para vencer?",
+  "tela": "O plano provou que vence uma guerra. Mas o que ele faz quando não tem guerra para vencer?",
+  "ideia": false
+ },
+ {
+  "id": "N033",
+  "texto": "Leningrado, maio de mil novecentos e cinquenta e sete. Numa reunião sobre agricultura, Nikita Khruchóv sobe ao palco e diz: vamos alcançar e ultrapassar a América.",
+  "tela": "Leningrado, maio de mil novecentos e cinquenta e sete. Numa reunião sobre agricultura, Nikita Khruschov sobe ao palco e diz: vamos alcançar e ultrapassar a América.",
+  "ideia": true
+ },
+ {
+  "id": "N034",
+  "texto": "Repare: não em foguetes. Em carne, leite e manteiga por habitante. Em poucos anos.",
+  "tela": "Repare: não em foguetes. Em carne, leite e manteiga por habitante. Em poucos anos.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "Cinco meses depois, o Sputnik está em órbita. No céu, a América já foi alcançada. No açougue, ainda não.",
+  "tela": "Cinco meses depois, o Sputnik está em órbita. No céu, a América já foi alcançada. No açougue, ainda não.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "Riazã, mil novecentos e cinquenta e nove. O chefe local do partido, Alexei Larionóv, promete triplicar a entrega de carne em um ano. E entrega.",
+  "tela": "Riazan, mil novecentos e cinquenta e nove. O chefe local do partido, Alexei Larionov, promete triplicar a entrega de carne em um ano. E entrega.",
+  "ideia": true
+ },
+ {
+  "id": "N037",
+  "texto": "Como? Você não vai gostar: comprando carne das regiões vizinhas e abatendo o rebanho às pressas, inclusive vacas leiteiras e de cria. Ganha medalha de herói.",
+  "tela": "Como? Você não vai gostar: comprando carne das regiões vizinhas e abatendo o rebanho às pressas, inclusive vacas leiteiras e de cria. Ganha medalha de herói.",
+  "ideia": false
+ },
+ {
+  "id": "N038",
+  "texto": "Mas, no ano seguinte, o rebanho da região cai quase dois terços. A carne some. Larionóv cai em desgraça e morre poucos meses depois; a versão oficial fala em doença.",
+  "tela": "Mas, no ano seguinte, o rebanho da região cai quase dois terços. A carne some. Larionov cai em desgraça e morre poucos meses depois; a versão oficial fala em doença.",
+  "ideia": false
+ },
+ {
+  "id": "N039",
+  "texto": "Khruchóv, enquanto isso, visita uma fazenda de milho em Iowa e volta encantado. Agora o país inteiro vai plantar milho. Só que o milho não nasce onde o plano manda; nasce onde o clima deixa.",
+  "tela": "Khruschov, enquanto isso, visita uma fazenda de milho em Iowa e volta encantado. Agora o país inteiro vai plantar milho. Só que o milho não nasce onde o plano manda; nasce onde o clima deixa.",
+  "ideia": true
+ },
+ {
+  "id": "N040",
+  "texto": "Segunda peça da resposta: quando a prateleira finalmente vira urgência, a pressa come a semente. Em dezenove, o trigo do plantio. Em cinquenta e nove, as vacas de cria. Só que semente comida não volta no ano seguinte.",
+  "tela": "Segunda peça da resposta: quando a prateleira finalmente vira urgência, a pressa come a semente. Em dezenove, o trigo do plantio. Em cinquenta e nove, as vacas de cria. Só que semente comida não volta no ano seguinte.",
+  "ideia": false
+ },
+ {
+  "id": "N041",
+  "texto": "Moscou, outubro de mil novecentos e sessenta e um. No congresso do partido, o novo programa promete: a base do comunismo estará pronta em mil novecentos e oitenta. Você pode marcar na agenda.",
+  "tela": "Moscou, outubro de mil novecentos e sessenta e um. No congresso do partido, o novo programa promete: a base do comunismo estará pronta em mil novecentos e oitenta. Você pode marcar na agenda.",
+  "ideia": true
+ },
+ {
+  "id": "N042",
+  "texto": "Naquele mesmo ano, Gagarin tinha dado a volta na Terra. Parecia que nada era impossível.",
+  "tela": "Naquele mesmo ano, Gagarin tinha dado a volta na Terra. Parecia que nada era impossível.",
+  "ideia": false
+ },
+ {
+  "id": "N043",
+  "texto": "Mas em maio de sessenta e dois, o governo aumenta o preço da carne em trinta por cento e o da manteiga em vinte e cinco.",
+  "tela": "Mas em maio de sessenta e dois, o governo aumenta o preço da carne em trinta por cento e o da manteiga em vinte e cinco.",
+  "ideia": true
+ },
+ {
+  "id": "N044",
+  "texto": "[serious] Em Novotcherkásk, operários de uma fábrica de locomotivas entram em greve. O exército atira. Morrem vinte e seis pessoas, e o país só fica sabendo mais de vinte e cinco anos depois.",
+  "tela": "[serious] Em Novocherkassk, operários de uma fábrica de locomotivas entram em greve. O exército atira. Morrem vinte e seis pessoas, e o país só fica sabendo mais de vinte e cinco anos depois.",
+  "ideia": false
+ },
+ {
+  "id": "N045",
+  "texto": "Aí, em sessenta e três, a colheita falha. E o país que pôs o primeiro homem em órbita faz a primeira grande compra de trigo no exterior: uns seis milhões e meio de toneladas do Canadá.",
+  "tela": "Aí, em sessenta e três, a colheita falha. E o país que pôs o primeiro homem em órbita faz a primeira grande compra de trigo no exterior: uns seis milhões e meio de toneladas do Canadá.",
+  "ideia": true
+ },
+ {
+  "id": "N046",
+  "texto": "Pense nisso: dois anos depois de Gagarin, o pão de muita mesa soviética atravessava o oceano. E a fábrica soviética continuava ganhando prêmio pela tonelada produzida, não pelo que o povo queria comprar. Quem ia mudar esse placar?",
+  "tela": "Pense nisso: dois anos depois de Gagarin, o pão de muita mesa soviética atravessava o oceano. E a fábrica soviética continuava ganhando prêmio pela tonelada produzida, não pelo que o povo queria comprar. Quem ia mudar esse placar?",
+  "ideia": false
+ },
+ {
+  "id": "N047",
+  "texto": "Uma resposta tinha saído no jornal. Kharkov, setembro de mil novecentos e sessenta e dois: um professor de economia, Evsei Liberman, publica no Pravda um artigo de título ousado. Plano, lucro, prêmio.",
+  "tela": "Uma resposta tinha saído no jornal. Kharkov, setembro de mil novecentos e sessenta e dois: um professor de economia, Evsei Liberman, publica no Pravda um artigo de título ousado. Plano, lucro, prêmio.",
+  "ideia": true
+ },
+ {
+  "id": "N048",
+  "texto": "A ideia: a fábrica que vende o que o povo quer ganha prêmio. Parece óbvio para você. Em sessenta e cinco, o primeiro-ministro, Alexei Kossíguin, tenta aplicar. A partir de sessenta e oito, a reforma vai sendo esvaziada, sem barulho.",
+  "tela": "A ideia: a fábrica que vende o que o povo quer ganha prêmio. Parece óbvio para você. Em sessenta e cinco, o primeiro-ministro, Alexei Kossyguin, tenta aplicar. A partir de sessenta e oito, a reforma vai sendo esvaziada, sem barulho.",
+  "ideia": false
+ },
+ {
+  "id": "N049",
+  "texto": "Então, em mil novecentos e setenta e dois, a União Soviética compra uns dezoito milhões de toneladas de grãos dos Estados Unidos. Os americanos com comida, de novo.",
+  "tela": "Então, em mil novecentos e setenta e dois, a União Soviética compra uns dezoito milhões de toneladas de grãos dos Estados Unidos. Os americanos com comida, de novo.",
+  "ideia": true
+ },
+ {
+  "id": "N050",
+  "texto": "E aí você pergunta: foi só uma emergência? Não. Em setenta e cinco, Moscou assina com Washington um acordo de cinco anos: comprar, todo ano, no mínimo seis milhões de toneladas de trigo e milho americanos. A compra de emergência vira contrato.",
+  "tela": "E aí você pergunta: foi só uma emergência? Não. Em setenta e cinco, Moscou assina com Washington um acordo de cinco anos: comprar, todo ano, no mínimo seis milhões de toneladas de trigo e milho americanos. A compra de emergência vira contrato.",
+  "ideia": false
+ },
+ {
+  "id": "N051",
+  "texto": "A prateleira melhora. Só que a avóska continua no bolso. E a piada da época diz: prometeram o comunismo para oitenta; em oitenta, veio a Olimpíada.",
+  "tela": "A prateleira melhora. Só que a avoska continua no bolso. E a piada da época diz: prometeram o comunismo para oitenta; em oitenta, veio a Olimpíada.",
+  "ideia": true
+ },
+ {
+  "id": "N052",
+  "texto": "Então, em oitenta e dois, o governo lança mais um plano, só para a comida: o Programa Alimentar. Mais um plano para consertar o que o plano anterior não fez.",
+  "tela": "Então, em oitenta e dois, o governo lança mais um plano, só para a comida: o Programa Alimentar. Mais um plano para consertar o que o plano anterior não fez.",
+  "ideia": false
+ },
+ {
+  "id": "N053",
+  "texto": "Terceira peça da resposta: quando a falta aperta de verdade, quem enche a prateleira é alguém de fora. Hoover em vinte e um, o Canadá em sessenta e três, os americanos em setenta e dois. Mas todo socorro tem dono.",
+  "tela": "Terceira peça da resposta: quando a falta aperta de verdade, quem enche a prateleira é alguém de fora. Hoover em vinte e um, o Canadá em sessenta e três, os americanos em setenta e dois. Mas todo socorro tem dono.",
+  "ideia": false
+ },
+ {
+  "id": "N054",
+  "texto": "Maio de mil novecentos e oitenta e cinco. O novo líder, Mikhail Gorbatchóv, declara guerra à bebida. As lojas de vodca abrem mais tarde e vendem menos.",
+  "tela": "Maio de mil novecentos e oitenta e cinco. O novo líder, Mikhail Gorbatchov, declara guerra à bebida. As lojas de vodca abrem mais tarde e vendem menos.",
+  "ideia": true
+ },
+ {
+  "id": "N055",
+  "texto": "Mas o povo responde com o que tem em casa: destila a própria bebida. E para isso precisa de açúcar. Resultado: some o açúcar das lojas, e várias cidades passam a racioná-lo.",
+  "tela": "Mas o povo responde com o que tem em casa: destila a própria bebida. E para isso precisa de açúcar. Resultado: some o açúcar das lojas, e várias cidades passam a racioná-lo.",
+  "ideia": false
+ },
+ {
+  "id": "N056",
+  "texto": "Você já viu um governo perder dinheiro por vender menos vodca? Esse perdeu uns vinte bilhões de rublos em impostos.",
+  "tela": "Você já viu um governo perder dinheiro por vender menos vodca? Esse perdeu uns vinte bilhões de rublos em impostos.",
+  "ideia": false
+ },
+ {
+  "id": "N057",
+  "texto": "E o caixa, que já estava curto, leva mais dois golpes em mil novecentos e oitenta e seis: o preço do petróleo despenca, e explode um reator em Chernobyl.",
+  "tela": "E o caixa, que já estava curto, leva mais dois golpes em mil novecentos e oitenta e seis: o preço do petróleo despenca, e explode um reator em Chernobyl.",
+  "ideia": true
+ },
+ {
+  "id": "N058",
+  "texto": "Repare na volta que a história deu: o país que ia alcançar a América em manteiga agora não consegue pôr açúcar na loja. O problema é que, desta vez, todo mundo está vendo.",
+  "tela": "Repare na volta que a história deu: o país que ia alcançar a América em manteiga agora não consegue pôr açúcar na loja. O problema é que, desta vez, todo mundo está vendo.",
+  "ideia": false
+ },
+ {
+  "id": "N059",
+  "texto": "Lembra do supermercado do Texas? Iéltsin volta para Moscou. Segundo um assessor, foi ali, entre as gôndolas, que desabou a última coisa que ele ainda acreditava no sistema.",
+  "tela": "Lembra do supermercado do Texas? Iéltsin volta para Moscou. Segundo um assessor, foi ali, entre as gôndolas, que desabou a última coisa que ele ainda acreditava no sistema.",
+  "ideia": true
+ },
+ {
+  "id": "N060",
+  "texto": "E o que você encontraria em casa? Em Leningrado, chá e sabão passam a ser vendidos com talão. E aí entram na lista o açúcar, a vodca e o cigarro.",
+  "tela": "E o que você encontraria em casa? Em Leningrado, chá e sabão passam a ser vendidos com talão. E aí entram na lista o açúcar, a vodca e o cigarro.",
+  "ideia": false
+ },
+ {
+  "id": "N061",
+  "texto": "Trinta e um de janeiro de mil novecentos e noventa. Na Praça Púchkin, em Moscou, abre a lanchonete americana do começo do vídeo. Cerca de trinta mil pessoas passam pelo balcão no primeiro dia.",
+  "tela": "Trinta e um de janeiro de mil novecentos e noventa. Na Praça Púchkin, em Moscou, abre a lanchonete americana do começo do vídeo. Cerca de trinta mil pessoas passam pelo balcão no primeiro dia.",
+  "ideia": true
+ },
+ {
+  "id": "N062",
+  "texto": "Um sanduíche custa uns quatro rublos. Pense: mais de meio dia de salário. Mas mesmo assim a fila dá voltas na praça, no frio.",
+  "tela": "Um sanduíche custa uns quatro rublos. Pense: mais de meio dia de salário. Mas mesmo assim a fila dá voltas na praça, no frio.",
+  "ideia": false
+ },
+ {
+  "id": "N063",
+  "texto": "Em dezembro de noventa, a Alemanha começa a mandar comida para Moscou. Parte vem da reserva de Berlim, um estoque criado por causa do bloqueio soviético de quarenta e oito.",
+  "tela": "Em dezembro de noventa, a Alemanha começa a mandar comida para Moscou. Parte vem da reserva de Berlim, um estoque criado por causa do bloqueio soviético de quarenta e oito.",
+  "ideia": true
+ },
+ {
+  "id": "N064",
+  "texto": "Lembra dos americanos com comida no Volga? Setenta anos depois, a comida de fora voltou. Só que agora vinha do estoque que existia por causa de Moscou.",
+  "tela": "Lembra dos americanos com comida no Volga? Setenta anos depois, a comida de fora voltou. Só que agora vinha do estoque que existia por causa de Moscou.",
+  "ideia": false
+ },
+ {
+  "id": "N065",
+  "texto": "E um Estado que não consegue alimentar as próprias cidades fica sem resposta quando as repúblicas perguntam: por que ficar?",
+  "tela": "E um Estado que não consegue alimentar as próprias cidades fica sem resposta quando as repúblicas perguntam: por que ficar?",
+  "ideia": false
+ },
+ {
+  "id": "N066",
+  "texto": "Dois de abril de mil novecentos e noventa e um. De um dia para o outro, o governo dobra os preços. Alguns triplicam. Imagine acordar e o seu pão custar o triplo.",
+  "tela": "Dois de abril de mil novecentos e noventa e um. De um dia para o outro, o governo dobra os preços. Alguns triplicam. Imagine acordar e o seu pão custar o triplo.",
+  "ideia": true
+ },
+ {
+  "id": "N067",
+  "texto": "Mesmo assim, as prateleiras continuam vazias. E a avóska, depois de sessenta anos no bolso, continua voltando para casa leve.",
+  "tela": "Mesmo assim, as prateleiras continuam vazias. E a avoska, depois de sessenta anos no bolso, continua voltando para casa leve.",
+  "ideia": false
+ },
+ {
+  "id": "N068",
+  "texto": "Em agosto, uma tentativa de golpe fracassa em três dias. Em vinte e cinco de dezembro, a União Soviética deixa de existir.",
+  "tela": "Em agosto, uma tentativa de golpe fracassa em três dias. Em vinte e cinco de dezembro, a União Soviética deixa de existir.",
+  "ideia": true
+ },
+ {
+  "id": "N069",
+  "texto": "Aí, em janeiro de noventa e dois, a Rússia solta os preços. Em semanas, a prateleira enche. Cara, quase impossível de pagar. Mas enche.",
+  "tela": "Aí, em janeiro de noventa e dois, a Rússia solta os preços. Em semanas, a prateleira enche. Cara, quase impossível de pagar. Mas enche.",
+  "ideia": false
+ },
+ {
+  "id": "N070",
+  "texto": "Então, como o país que chegou primeiro ao espaço não conseguia encher uma prateleira? Porque a prateleira era sempre o próximo plano. E quando ela virava urgência, ou a pressa comia a semente, ou alguém de fora enchia.",
+  "tela": "Então, como o país que chegou primeiro ao espaço não conseguia encher uma prateleira? Porque a prateleira era sempre o próximo plano. E quando ela virava urgência, ou a pressa comia a semente, ou alguém de fora enchia.",
+  "ideia": true
+ },
+ {
+  "id": "N071",
+  "texto": "Talvez a pergunta certa nunca tenha sido por que faltava comida. Era quem decide o que vai na sua sacola. [break] Em dois mil e vinte e dois, a lanchonete da Praça Púchkin reabriu com outro nome.",
+  "tela": "Talvez a pergunta certa nunca tenha sido por que faltava comida. Era quem decide o que vai na sua sacola. [break] Em dois mil e vinte e dois, a lanchonete da Praça Púchkin reabriu com outro nome.",
+  "ideia": false
+ },
+ {
+  "id": "N072",
+  "texto": "[warm] Na sua casa, alguém tinha uma sacola do vai que? Conta nos comentários.",
+  "tela": "[warm] Na sua casa, alguém tinha uma sacola do vai que? Conta nos comentários.",
+  "ideia": false
+ }
+]

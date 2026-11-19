@@ -1,0 +1,344 @@
+{
+ "pasta": "canais/historia-ptbr/videos/013-uniao-sovietica",
+ "roteiro": "canais/historia-ptbr/videos/013-uniao-sovietica/blocos.json",
+ "idioma": "pt",
+ "blocos": 72,
+ "nota": 1.7,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [
+  5,
+  9
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.027777777777777776,
+   "ordem": 0.0,
+   "ngramas": 0.0020222446916076846,
+   "sim_media": 0.14714374155583093,
+   "gemeos": 2,
+   "blocos": 72,
+   "posicoes": [
+    [
+     5,
+     73
+    ],
+    [
+     22,
+     65
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 22,
+     "cos": 0.37,
+     "nosso": "E a crise de vinte e oito ganha uma resposta de ferro: se o camponês segura o trigo, o Estado fica com a terra. As fazendas de família viram fazendas coletivas, e o grão passa a ser entregue, não vendido.",
+     "ref": "resposta de Stalin foi a coletivização. As pequenas propriedades rurais familiares foram unidas em enormes fazendas coletivas administradas pelo Estado, e o grão era confiscado"
+    },
+    {
+     "bloco": 5,
+     "cos": 0.31,
+     "nosso": "Essa é a história inteira da União Soviética. E ela começa com uma promessa de pão.",
+     "ref": "país, Stalin já se voltava para um novo inimigo dentro de seu próprio partido. Este canal conta a história inteira de um trecho da história"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-v-HJWqWPvJI.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2853,
+   "nota": 1.7,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.027777777777777776,
+   "ordem": 0.0,
+   "ngramas": 0.0010111223458038423,
+   "sim_media": 0.14563882937447137,
+   "gemeos": 2,
+   "blocos": 72,
+   "posicoes": [
+    [
+     5,
+     145
+    ],
+    [
+     56,
+     38
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 56,
+     "cos": 0.34,
+     "nosso": "Você já viu um governo perder dinheiro por vender menos vodca? Esse perdeu uns vinte bilhões de rublos em impostos.",
+     "ref": "noite, o que é que aconteceu? Moscou perdeu cerca de 20 bilhões de dólares por ano, exatamente o dinheiro que servia para pagar o pão. E os problemas estavam"
+    },
+    {
+     "bloco": 5,
+     "cos": 0.32,
+     "nosso": "Essa é a história inteira da União Soviética. E ela começa com uma promessa de pão.",
+     "ref": "papel foi assinado, aí começaram a surgir os telefonemas que vão resumir essa história inteira, né? >> Primeiro, o Yeltsin, que ele é o presidente da Rússia naquele momento. Ele não é o o líder da União"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-0_6CekBxM80.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 4024,
+   "nota": 1.6,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.013888888888888888,
+   "ordem": 0.0,
+   "ngramas": 0.003033367037411527,
+   "sim_media": 0.13317867009647938,
+   "gemeos": 1,
+   "blocos": 72,
+   "posicoes": [
+    [
+     9,
+     64
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 9,
+     "cos": 0.32,
+     "nosso": "Então veio a conta. Em mil novecentos e vinte e um, a fome cobre o Volga. Morrem milhões de pessoas; a estimativa mais citada fala em cerca de cinco milhões.",
+     "ref": "morreram de fome e as pessoas lá foram basicamente ignorados pelo governo Central enfim Tem gente que fala que foi em torno de oito milhões de pessoas que morreram"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-WXHSDzmxMdg.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 2736,
+   "nota": 1.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.013888888888888888,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.1047002160772013,
+   "gemeos": 1,
+   "blocos": 72,
+   "posicoes": [
+    [
+     9,
+     23
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 9,
+     "cos": 0.33,
+     "nosso": "Então veio a conta. Em mil novecentos e vinte e um, a fome cobre o Volga. Morrem milhões de pessoas; a estimativa mais citada fala em cerca de cinco milhões.",
+     "ref": "Stalin foi uma das figuras mais sanguinárias do século XX. Estima-se que durante seus 30 anos no poder mais de 20 milhões de pessoas morreram por causa de seus programas"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-Y4HKxYawyPw.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1118,
+   "nota": 0.8,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.004044489383215369,
+   "sim_media": 0.12546839159220596,
+   "gemeos": 0,
+   "blocos": 72,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-lbqsW-AphJI.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 3459,
+   "nota": 0.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0020222446916076846,
+   "sim_media": 0.10345159927129825,
+   "gemeos": 0,
+   "blocos": 72,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-cUvpE_8A9kU.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 864,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0010111223458038423,
+   "sim_media": 0.08877757106284524,
+   "gemeos": 0,
+   "blocos": 72,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-10lo8CEX1jk.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 742,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0010111223458038423,
+   "sim_media": 0.1361591992301863,
+   "gemeos": 0,
+   "blocos": 72,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-4VRQDUr9JQk.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3391,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0010111223458038423,
+   "sim_media": 0.12064271794065008,
+   "gemeos": 0,
+   "blocos": 72,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-GbQwr6DZ7Lg.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1786,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0010111223458038423,
+   "sim_media": 0.1063101777917742,
+   "gemeos": 0,
+   "blocos": 72,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-Pn_THNCXaE8.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1205,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.09312262644872242,
+   "gemeos": 0,
+   "blocos": 72,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-4eq30dGYl0U.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1300,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.13390187716694266,
+   "gemeos": 0,
+   "blocos": 72,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-KOZlobXa9iM.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4497,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.11122891467103531,
+   "gemeos": 0,
+   "blocos": 72,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-Lx4NHCGoGtQ.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 2751,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.11339370330460936,
+   "gemeos": 0,
+   "blocos": 72,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-Pqt3U48MFcY.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2150,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.126450032026415,
+   "gemeos": 0,
+   "blocos": 72,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-geKQnRx3-cc.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3073,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.14982862076405615,
+   "gemeos": 0,
+   "blocos": 72,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/013-uniao-sovietica/ref/manada-q3iSdrIQy_4.txt",
+   "idioma_ref": "es",
+   "traduzido": true,
+   "palavras_ref": 4750,
+   "nota": 0.0,
+   "veredito": "ok"
+  }
+ ]
+}
