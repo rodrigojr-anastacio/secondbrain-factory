@@ -1,0 +1,279 @@
+{
+ "pasta": "canais/dossie-es/videos/012-mi6",
+ "roteiro": "canais/dossie-es/videos/012-mi6/blocos.json",
+ "idioma": "es",
+ "blocos": 67,
+ "nota": 6.0,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [
+  46,
+  60,
+  61
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.07462686567164178,
+   "ordem": 0.8,
+   "ngramas": 0.005230125523012552,
+   "sim_media": 0.14136172053272023,
+   "gemeos": 5,
+   "blocos": 67,
+   "posicoes": [
+    [
+     7,
+     11
+    ],
+    [
+     37,
+     70
+    ],
+    [
+     59,
+     102
+    ],
+    [
+     60,
+     103
+    ],
+    [
+     61,
+     100
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 60,
+     "cos": 0.39,
+     "nosso": "Concluye que lo que se afirmaba sobre las armas de destrucción masiva de Sadam Husein se presentó con una certeza injustificada. Parte de los informes del MI6 venía de fuentes poco comprobadas. Algunos se retiraron después.",
+     "ref": "concluyó que la información de inteligencia sobre las armas de destrucción masiva en Irak se había presentado con un grado de certeza que las pruebas no justificaban. La investigación examinó cómo la información pasó"
+    },
+    {
+     "bloco": 59,
+     "cos": 0.36,
+     "nosso": "El Informe. Londres, seis de julio de dos mil dieciséis. Tras siete años de investigación, John Chilcot presenta su informe sobre la participación británica en la guerra de Irak, que empezó en dos mil tres.",
+     "ref": "encontradas. La investigación Chilcot, publicada en 2016, después de 7 años de trabajo, concluyó que la información de inteligencia sobre las armas de destrucción masiva en Irak se había presentado"
+    },
+    {
+     "bloco": 61,
+     "cos": 0.33,
+     "nosso": "Las armas nunca aparecieron.",
+     "ref": "Hussein poseía armas de destrucción masiva listas para ser utilizadas. Esa afirmación se sustentaba, en gran medida, en informes de inteligencia. Las armas nunca fueron"
+    },
+    {
+     "bloco": 7,
+     "cos": 0.31,
+     "nosso": "Cumming dirige la sección exterior de una nueva Oficina del Servicio Secreto, creada por un gobierno preocupado por los espías alemanes. La sección interior será el MI5. La suya, el MI6. Casi no tiene personal ni presupuesto.",
+     "ref": "llegaría a conocerse como MI6 o, formalmente, Secret Intelligence Service, el SIS. El primer jefe de la sección exterior fue el capitán Mansfield Cumming, un oficial"
+    },
+    {
+     "bloco": 37,
+     "cos": 0.31,
+     "nosso": "Berlín lo niega. Después de la guerra, en los archivos alemanes capturados no aparece ningún mapa así. No hay rastro de ese complot nazi para Sudamérica: según los historiadores, nunca existió.",
+     "ref": "Security Archive de la Universidad George Washington. Aún así, el gobierno británico nunca reconoció formalmente y de manera completa su papel en la operación. En Berlín,"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/012-mi6/ref/manada-zWqYIolUlCw.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2076,
+   "nota": 6.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.04477611940298507,
+   "ordem": 0.6666666666666666,
+   "ngramas": 0.0041841004184100415,
+   "sim_media": 0.1317564224575709,
+   "gemeos": 3,
+   "blocos": 67,
+   "posicoes": [
+    [
+     46,
+     78
+    ],
+    [
+     60,
+     131
+    ],
+    [
+     61,
+     131
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 46,
+     "cos": 0.32,
+     "nosso": "El señor Philby es Kim Philby. La inteligencia soviética lo reclutó en mil novecientos treinta y cuatro. Desde mil novecientos cuarenta y cuatro dirigió la sección del MI6 que debía combatir a los soviéticos.",
+     "ref": "estrella en ascenso al frente de la nueva sección que caza espías soviéticos. Se llama Kim Philby. Solo hay un problema: el propio Philby es un espía soviético."
+    },
+    {
+     "bloco": 60,
+     "cos": 0.32,
+     "nosso": "Concluye que lo que se afirmaba sobre las armas de destrucción masiva de Sadam Husein se presentó con una certeza injustificada. Parte de los informes del MI6 venía de fuentes poco comprobadas. Algunos se retiraron después.",
+     "ref": "MI6 ayudan a construir el argumento de que Sadam Huseín tenía armas de destrucción masiva. Nunca se encontraron. Y el viejo enemigo nunca se fue del todo. En 2018, Serguéi"
+    },
+    {
+     "bloco": 61,
+     "cos": 0.31,
+     "nosso": "Las armas nunca aparecieron.",
+     "ref": "MI6 ayudan a construir el argumento de que Sadam Huseín tenía armas de destrucción masiva. Nunca se encontraron. Y el viejo enemigo nunca se fue del todo. En 2018, Serguéi"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/012-mi6/ref/manada-ycR9xnjanmY.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2105,
+   "nota": 3.5,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.029850746268656716,
+   "ordem": 0.0,
+   "ngramas": 0.0031380753138075313,
+   "sim_media": 0.13816651722388051,
+   "gemeos": 2,
+   "blocos": 67,
+   "posicoes": [
+    [
+     46,
+     51
+    ],
+    [
+     60,
+     119
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 60,
+     "cos": 0.44,
+     "nosso": "Concluye que lo que se afirmaba sobre las armas de destrucción masiva de Sadam Husein se presentó con una certeza injustificada. Parte de los informes del MI6 venía de fuentes poco comprobadas. Algunos se retiraron después.",
+     "ref": "partir de fuentes, de que Sadam Huseín posee armas químicas y biológicas. Algunos de esos informes son retirados más tarde. Una fuente describe agentes"
+    },
+    {
+     "bloco": 46,
+     "cos": 0.34,
+     "nosso": "El señor Philby es Kim Philby. La inteligencia soviética lo reclutó en mil novecientos treinta y cuatro. Desde mil novecientos cuarenta y cuatro dirigió la sección del MI6 que debía combatir a los soviéticos.",
+     "ref": "crea una nueva sección para combatir a los espías soviéticos, y el hombre que pone al frente es un espía soviético. **El tercer hombre.** Kim Philby"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/012-mi6/ref/manada-zDaBuuCTCg0.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 1999,
+   "nota": 1.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014925373134328358,
+   "ordem": 0.0,
+   "ngramas": 0.0020920502092050207,
+   "sim_media": 0.13093905346030202,
+   "gemeos": 1,
+   "blocos": 67,
+   "posicoes": [
+    [
+     60,
+     2
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 60,
+     "cos": 0.32,
+     "nosso": "Concluye que lo que se afirmaba sobre las armas de destrucción masiva de Sadam Husein se presentó con una certeza injustificada. Parte de los informes del MI6 venía de fuentes poco comprobadas. Algunos se retiraron después.",
+     "ref": "británico entrega a Tony Blair un informe clasificado que afirma una certeza letal. Irak puede desplegar armas de destrucción masiva"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/012-mi6/ref/manada-ocy82l2nWhM.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 3411,
+   "nota": 1.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014925373134328358,
+   "ordem": 0.0,
+   "ngramas": 0.0010460251046025104,
+   "sim_media": 0.15010768245932155,
+   "gemeos": 1,
+   "blocos": 67,
+   "posicoes": [
+    [
+     9,
+     188
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 9,
+     "cos": 0.32,
+     "nosso": "El Telegrama. Enero de mil novecientos diecisiete. Berlín envía un mensaje cifrado a su representante en México, a través de su embajada en Washington. Propone a México una alianza si Estados Unidos entra en la guerra.",
+     "ref": "ejército de Estados Unidos que, desde 1943, trataba de descifrar los mensajes cifrados que los servicios soviéticos enviaban entre sus embajadas y Moscú. Los mensajes estaban"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/012-mi6/ref/manada-LRkkK07TcvQ.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 6094,
+   "nota": 0.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.005230125523012552,
+   "sim_media": 0.14480642431257443,
+   "gemeos": 0,
+   "blocos": 67,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/012-mi6/ref/manada-AfOZ-MXe4uQ.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 6090,
+   "nota": 0.4,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0031380753138075313,
+   "sim_media": 0.1312502616030544,
+   "gemeos": 0,
+   "blocos": 67,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/012-mi6/ref/manada-BbtxY8iVFeM.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3655,
+   "nota": 0.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0020920502092050207,
+   "sim_media": 0.14933112450629077,
+   "gemeos": 0,
+   "blocos": 67,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/012-mi6/ref/manada-iuW2SNn-Luo.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 3356,
+   "nota": 0.2,
+   "veredito": "ok"
+  }
+ ]
+}
