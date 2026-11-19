@@ -5,7 +5,8 @@
   "padrao_titulo": "afirmação estranha + pergunta",
   "padrao_thumb": "rosto-emocao",
   "thumb_conceito": "Iéltsin bonequinho pasmo, mãos no rosto, diante de prateleiras lotadas de supermercado americano (1989)",
-  "thumb_texto": "NEM O POLITBURO"
+  "thumb_texto": "NEM O POLITBURO",
+  "thumb_arquivo": "entrega/thumb-A.jpg"
  },
  {
   "letra": "B",
@@ -13,7 +14,8 @@
   "padrao_titulo": "Como [coisa concreta] [verbo] [lugar]",
   "padrao_thumb": "objeto-simbolo",
   "thumb_conceito": "avoska (sacola de rede soviética) vazia, enorme, em 1º plano à direita diante de prateleiras vazias de loja sob luz fluorescente",
-  "thumb_texto": "VAI QUE…"
+  "thumb_texto": "VAI QUE…",
+  "thumb_arquivo": "entrega/thumb-B.jpg"
  },
  {
   "letra": "C",
@@ -21,6 +23,7 @@
   "padrao_titulo": "O país que + fato estranho",
   "padrao_thumb": "numero-estatistica",
   "thumb_conceito": "\"30 MIL / NA FILA\" gigante à esquerda; fila de bonequinhos em diagonal na neve até uma porta de loja iluminada à direita (Moscou, 1990)",
-  "thumb_texto": "30 MIL NA FILA"
+  "thumb_texto": "30 MIL NA FILA",
+  "thumb_arquivo": "entrega/thumb-C.jpg"
  }
 ]

@@ -48,10 +48,10 @@ def salvar(p, x):
 
 # ───────────── trilha original gerada no código (sem samples) ─────────────
 def trilha(dur, troca=None):
-    """012-portugal: pad e drone de Ré (Ré menor, modo frígio/fado). Guitarra portuguesa sintetizada (duas cordas Karplus-Strong levemente
+    """013-uniao-sovietica: pad e drone de Ré (Ré menor natural/eólio). Cordas dedilhadas tipo balalaica sintetizada (duas cordas Karplus-Strong levemente
     desafinadas, ataque brilhante) em arpejos esparsos na escala frígia de Ré; depois de `troca` (cap. 8, Olivença) só notas longas e raras.
     Tudo sintetizado aqui, sem samples."""
-    rng = np.random.default_rng(12)
+    rng = np.random.default_rng(13)
     N = int(dur * SR); t = np.arange(N) / SR
     troca = troca if troca else dur * 0.8
     hz = lambda m: 440 * 2 ** ((m - 69) / 12)
@@ -93,7 +93,11 @@ def trilha(dur, troca=None):
         for r, m in enumerate(arp):
             y = cordas[m] * rng.uniform(0.6, 1.0)
             i0 = int((passo + r * 0.18) * SR); i1 = min(N, i0 + len(y))
-            if i0 < N: out[i0:i1] += (0.034 if passo < troca else 0.022) * y[: i1 - i0]
+            if i0 < N and passo < troca: out[i0:i1] += 0.034 * y[: i1 - i0]
+            elif i0 < N:   # caps. 8-10: sintetizador frio anos 80 (duas serras desafinadas, ataque seco, queda longa)
+                n = min(N - i0, int(3.0 * SR)); tt = np.arange(n) / SR; f0 = hz(m - 12)
+                saw = sum(((tt * f0 * d) % 1.0) * 2 - 1 for d in (0.995, 1.005))
+                out[i0:i0 + n] += 0.012 * saw * np.exp(-tt / 1.1) * np.clip(tt / 0.02, 0, 1)
     fi = int(2 * SR); out[:fi] *= np.linspace(0, 1, fi); out[-int(3 * SR):] *= np.linspace(1, 0, int(3 * SR))
     return out / (np.max(np.abs(out)) + 1e-9) * 0.5
 

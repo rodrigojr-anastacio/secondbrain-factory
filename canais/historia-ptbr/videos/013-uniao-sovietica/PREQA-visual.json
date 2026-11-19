@@ -1,0 +1,1219 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/historia-ptbr/videos/013-uniao-sovietica/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2701,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 3,
+  "medio": 24,
+  "baixo": 33
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q03",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Sala de controle da missão com estética dos anos 60, mas pela janela se vê skyline de arranha-céus modernos. Os três telões grandes estão apagados, em cinza-esverdeado liso, o que deixa a cena sem foco.",
+   "t": 11.0,
+   "arquivo": "330.png"
+  },
+  {
+   "quadro": "Q04",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Pela janela do supermercado aparece um estádio em cúpula e viaduto, que lembram o Astrodome de Houston. É um marco real de lugar específico, discreto no fundo. Verificar se condiz com a narração.",
+   "t": 21.0,
+   "arquivo": "630.png"
+  },
+  {
+   "quadro": "Q05",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cena de lanchonete estilo fast-food (hambúrguer, batata frita, copo com canudo) em ambiente soviético com prédios de panelki e arranha-céu stalinista. Se o contexto for URSS pré-1990, é anacrônico; se for Rússia pós-1990, é plausível. Há dúvida por falta de contexto.",
+   "t": 31.0,
+   "arquivo": "930.png"
+  },
+  {
+   "quadro": "Q06",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Foguete com listras vermelhas e torres de lançamento ao lado de soldado de uniforme verde com estrela vermelha. É plausível para a URSS, mas o foguete é genérico. Confirmar o modelo e a época em relação à narração.",
+   "t": 41.0,
+   "arquivo": "1230.png"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Soldados com gorro budenovka e estrela vermelha em 1919 são plausíveis. Detalhe discutível: os uniformes cinza-marrom sem insígnias claras, mas nada que obrigue a refazer.",
+   "t": 56.36666666666667,
+   "arquivo": "1691.png"
+  },
+  {
+   "quadro": "Q11",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Ao fundo, à direita, há um prédio de apartamentos/fábrica de aparência moderna (tijolo claro com várias janelas) e chaminé com fumaça, destoando da aldeia rural de madeira da época. É discreto e está longe.",
+   "t": 71.0,
+   "arquivo": "2130.png"
+  },
+  {
+   "quadro": "Q12",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Caminhão verde de estilo anos 1930 (Ford AA/GAZ) no centro-fundo em cena do período 1920-21; dúvida entre estilo e anacronismo leve. Um dos soldados ao fundo tem gorro pontudo estranho.",
+   "t": 91.0,
+   "arquivo": "2730.png"
+  },
+  {
+   "quadro": "Q14",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cúpula do Capitólio visível pela janela, correta para Washington. Plaquinha 'HERBERT HOOVER' está legível e dentro do quadro. A plaquinha fica colada no canto inferior esquerdo, em cima do livro e da mesa, mas sem corte. Sem defeito grave.",
+   "t": 106.86666666666666,
+   "arquivo": "3206.png"
+  },
+  {
+   "quadro": "Q15",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Fundo lembra São Petersburgo/porto com navio a vapor, plausível para 1921. Cúpula dourada ao fundo parece a de Santo Isaac; sem erro claro.",
+   "t": 111.0,
+   "arquivo": "3330.png"
+  },
+  {
+   "quadro": "Q17",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A Catedral de São Basílio não aparece, mas o Kremlin tem a torre com relógio e uma catedral de cúpulas douradas; o lugar parece plausível. Dúvida: os soldados de uniforme verde-oliva com fuzil e gorro de pele são estilizados e podem não condizer com 1921-22 (Exército Vermelho usava budenovka). Baixa certeza.",
+   "t": 131.0,
+   "arquivo": "3930.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Placa de capítulo 'Um passo atrás' cobre vários rostos e a base da cena. Pode ser intencional, mas tapa personagens no centro inferior. O selo '1922' no canto superior esquerdo cobre parte das bétulas e da cabana.",
+   "t": 137.1,
+   "arquivo": "4113.png"
+  },
+  {
+   "quadro": "Q20",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Detalhe discreto: o caminhão verde ao fundo parece um modelo dos anos 1920-30, plausível para 1922, mas incerto. Registrado só como dúvida.",
+   "t": 141.0,
+   "arquivo": "4230.png"
+  },
+  {
+   "quadro": "Q25",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O caminhão de estilo antigo ao fundo é plausível. Um prédio de escritórios de janelas regulares fica ao fundo, mas combina com o período. Nenhum defeito claro.",
+   "t": 201.0,
+   "arquivo": "6030.png"
+  },
+  {
+   "quadro": "Q27",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'Dois mais dois, cinco' fica sobre os pés e as pernas dos bonequinhos da frente, que ficam cortados. O \"5\" do muro também é cortado pela borda direita. Pode ser enquadramento normal, mas a sobreposição é grande.",
+   "t": 214.76666666666668,
+   "arquivo": "6443.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Quadro idêntico ao Q27: a placa do capítulo cobre as pernas dos personagens e o \"5\" do muro é cortado na borda direita. Também é quadro duplicado no mesmo instante (3:35).",
+   "t": 214.83333333333334,
+   "arquivo": "6445.png"
+  },
+  {
+   "quadro": "Q30",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Os prédios de apartamentos de painéis pré-fabricados (estilo khrushchyovka, anos 1950-60) ficam anacrônicos para a cena, que fala do calendário soviético do começo dos anos 1930. A estátua de Lênin e a bandeira vermelha são plausíveis.",
+   "t": 231.0,
+   "arquivo": "6930.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A barragem monumental com guindastes e o canteiro de obras têm aparência bastante moderna. A cena é plausível para o período, mas vale conferir se não é uma barragem moderna demais.",
+   "t": 241.0,
+   "arquivo": "7230.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O cartão de racionamento na mão da mulher mostra apenas uma grade de linhas, sem letras. Não é defeito claro, só observação.",
+   "t": 291.0,
+   "arquivo": "8730.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Mulher em primeiro plano usa boina vermelha e cabelo castanho volumoso, com rosto mais elaborado que os demais bonecos. Estilo ligeiramente inconsistente, mas aceitável.",
+   "t": 301.0,
+   "arquivo": "9030.png"
+  },
+  {
+   "quadro": "Q38",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Líder com bigode e jaqueta no púlpito parece caricatura de figura real (Stalin) em vez do boneco de cabeça redonda genérico; há dúvida se é estilo ou desvio. Os três microfones e o cenário também fogem um pouco do estilo.",
+   "t": 303.76666666666665,
+   "arquivo": "9113.png"
+  },
+  {
+   "quadro": "Q39",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Pela janela aparece a Catedral de São Basílio (cúpulas coloridas) ao lado de uma vila de casas de madeira e prédio soviético, o que mistura o lugar: um marco real de Moscou aparece numa cena de vila comum.",
+   "t": 311.0,
+   "arquivo": "9330.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Viga de aço pendurada no ar sem guindaste visível além de um pedaço no canto superior direito; a quina do guindaste corta o quadro. Enquadramento aceitável, mas a composição fica estranha.",
+   "t": 321.0,
+   "arquivo": "9630.png"
+  },
+  {
+   "quadro": "Q46",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena é de 1946, ano de seca e fome na URSS, mas o fundo mostra um trator vermelho arando ao longe e um prédio neoclássico moderno. Também há uma plantação verde e viçosa ao fundo, que contradiz a seca do primeiro plano. Registro como dúvida de estilo.",
+   "t": 371.0,
+   "arquivo": "11130.png"
+  },
+  {
+   "quadro": "Q47",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "As notas de dinheiro na mão da atendente e na pilha têm marcas rosadas sem texto legível. Não é problema grave, só registro de cautela.",
+   "t": 381.0,
+   "arquivo": "11430.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A placa do capítulo cobre parte dos personagens do primeiro plano, incluindo o rosto da criança à esquerda. Não atrapalha a leitura do texto, apenas esconde parte da cena.",
+   "t": 404.1666666666667,
+   "arquivo": "12125.png"
+  },
+  {
+   "quadro": "Q53",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa 'NIKITA KHRUSCHOV' no canto inferior esquerdo fica sobre as cabeças da plateia e está colada à borda do quadro. Não está cortada, mas o enquadramento é apertado. Se for a legenda intencional de nome, só confira a posição. A grafia 'KHRUSCHOV' também merece revisão.",
+   "t": 411.0,
+   "arquivo": "12330.png"
+  },
+  {
+   "quadro": "Q54",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A paisagem ao fundo parece toscana, com vilarejo de pedra e ciprestes, e não russa nem americana. Está em cena alegórica (corrida de vaca soviética contra vaca americana), então pode ser licença de estilo, mas o lugar destoa do tema.",
+   "t": 421.0,
+   "arquivo": "12630.png"
+  },
+  {
+   "quadro": "Q55",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O satélite (Sputnik) está cortado pela borda direita superior, com só as antenas visíveis, e a Terra aparece no céu atrás. Pode ser enquadramento aceitável, mas o objeto principal quase não aparece. A torre de treliça lembra a Torre Eiffel, o que pode ser marco fora de lugar.",
+   "t": 431.0,
+   "arquivo": "12930.png"
+  },
+  {
+   "quadro": "Q60",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Cenário de fazenda americana (casa branca de madeira, moinho de vento, silo, celeiro vermelho, fazendeiro de macacão) com personagens soviéticos. Pode ser intencional (visita de Khrushchev aos EUA), mas é preciso confirmar com o roteiro.",
+   "t": 481.0,
+   "arquivo": "14430.png"
+  },
+  {
+   "quadro": "Q60",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "No topo, logo acima da espiga de milho, aparece um pedaço de forma amarela cortado pela borda, parecido com um número ou rótulo. Parece um resíduo da imagem de IA.",
+   "t": 481.0,
+   "arquivo": "14430.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "No canto direito, perto da borda, aparece um pequeno objeto escuro cortado (possivelmente uma mão ou pessoa) que não se identifica.",
+   "t": 511.0,
+   "arquivo": "15330.png"
+  },
+  {
+   "quadro": "Q64",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A placa 'CAPÍTULO 6' cobre bastante a parte de baixo e esconde personagens da plateia. Não atrapalha a leitura, mas a legibilidade da cena de fundo é um pouco prejudicada.",
+   "t": 512.4,
+   "arquivo": "15372.png"
+  },
+  {
+   "quadro": "Q65",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo ('CAPÍTULO 6 / Comunismo com data marcada') cobre a parte de baixo da imagem, incluindo as cabeças dos personagens em primeiro plano. A placa de ano '1961' também aparece ao mesmo tempo, no canto superior esquerdo. Pode ser o layout pretendido, mas há dúvida: dois elementos de tela juntos e a placa tapando bastante a cena.",
+   "t": 512.4666666666667,
+   "arquivo": "15374.png"
+  },
+  {
+   "quadro": "Q67",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "As placas de preço da banca de carne estão em branco, sem letras falsas. O risco está na leitura: placas vazias seguradas pelos personagens podem parecer incompletas ou à espera de rótulo no código.",
+   "t": 534.4,
+   "arquivo": "16032.png"
+  },
+  {
+   "quadro": "Q70",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A bandeira soviética no prédio ao fundo à direita é plausível para 1963, então não é anacronismo. A bandeira é pequena e a foice e o martelo ficam pouco nítidos. Só conferir se é o desejado.",
+   "t": 558.5333333333333,
+   "arquivo": "16756.png"
+  },
+  {
+   "quadro": "Q72",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "O mapa traz uma rota pontilhada do Canadá/Nova Escócia até a região do Báltico/Rússia, sem nenhum rótulo ou legenda, e o ponto de destino fica vago, no norte da Europa Oriental. Estilo de mapa ilustrado e relevo diferente dos bonequinhos do canal. Conferir se o ponto de chegada está certo para a narração (Moscou?) e se o estilo é o pretendido.",
+   "t": 571.0,
+   "arquivo": "17130.png"
+  },
+  {
+   "quadro": "Q74",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O painel de madeira está cortado pela borda direita, e as fileiras de placas bege vazias ficam incompletas. Parece enquadramento normal, mas as placas vazias (sem texto) podem parecer placeholder se nenhum rótulo for sobreposto no código.",
+   "t": 591.0,
+   "arquivo": "17730.png"
+  },
+  {
+   "quadro": "Q75",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "A placa de capítulo 'A prateleira emprestada' cobre a parte de baixo do jornal e do personagem. Fica legível, mas tapa boa parte da cena.",
+   "t": 592.7333333333333,
+   "arquivo": "17782.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "legenda",
+   "severidade": "baixo",
+   "descricao": "A etiqueta 'EVSEI LIBERMAN' fica no canto inferior esquerdo, sobre livros e papéis, e quase toca a borda esquerda. É legível, mas fica apertada e sobreposta à ilustração.",
+   "t": 601.0,
+   "arquivo": "18030.png"
+  },
+  {
+   "quadro": "Q80",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "A cena de 1972 mostra um cenário claramente americano (silos de grãos no Meio-Oeste, locomotiva diesel amarela e vermelha, caminhonete, chapéus de obra). Isso pode ser intencional por causa da compra de grãos dos EUA, mas nada na imagem indica o lugar. Dúvida entre estilo e defeito.",
+   "t": 628.9,
+   "arquivo": "18867.png"
+  },
+  {
+   "quadro": "Q81",
+   "categoria": "legenda",
+   "severidade": "baixo",
+   "descricao": "Placa '1972' no canto superior esquerdo está translúcida e com contraste fraco sobre o céu e o campo, o que prejudica a leitura. Pode ser uma animação de entrada; na dúvida, registrei como baixo.",
+   "t": 631.0,
+   "arquivo": "18930.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Na borda direita aparece uma mão/personagem cortado, e à direita do guindaste há uma estrutura cortada. É enquadramento normal, mas fica um pouco estranho.",
+   "t": 641.0,
+   "arquivo": "19230.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Os três calendários na parede têm grades vazias e sacos de grãos. Não há letras, mas o conceito é ambíguo. Na dúvida entre estilo e defeito, registrei como médio.",
+   "t": 661.0,
+   "arquivo": "19830.png"
+  },
+  {
+   "quadro": "Q87",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "O Misha gigante está preso por cordas a figurantes, e o fundo mistura o Kremlin com um prédio estilo Stalin (MGU) ao lado do estádio. É possível que a composição seja uma licença, e o Kremlin com o MGU juntos pode ser lugar impreciso.",
+   "t": 671.0,
+   "arquivo": "20130.png"
+  },
+  {
+   "quadro": "Q90",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa 'CAPÍTULO 8 / O açúcar sumiu' cobre os pés e as pernas dos bonequinhos da fila na parte inferior. Pode ser intencional (placa de capítulo), mas tapa bastante a cena.",
+   "t": 707.8666666666667,
+   "arquivo": "21236.png"
+  },
+  {
+   "quadro": "Q90",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A vitrine da loja está cheia de garrafas de bebida, mas o capítulo trata de açúcar sumindo. A imagem não combina bem com o título e pode confundir o espectador.",
+   "t": 707.8666666666667,
+   "arquivo": "21236.png"
+  },
+  {
+   "quadro": "Q91",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Igual ao Q90: a placa de capítulo cobre os pés dos personagens da fila. Quadro duplicado, sem mudança visível em relação ao Q90.",
+   "t": 707.9333333333333,
+   "arquivo": "21238.png"
+  },
+  {
+   "quadro": "Q95",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O cofre antigo ao ar livre, em frente a casas de madeira, tem aparência de época diferente da de 1986. A cena parece metafórica, então o problema é pequeno.",
+   "t": 741.0,
+   "arquivo": "22230.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena da usina de Chernobil na primavera: a chaminé listrada e o prédio do reator são verossímeis, mas a usina com fumaça escura ao fundo é só ilustrativa. Ao mesmo tempo, a imagem não tem letras nem moldura. Registrado só como dúvida de fidelidade histórica, sem defeito visual claro.",
+   "t": 751.0,
+   "arquivo": "22530.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Na TV, a prateleira vazia e a vitrine aparecem sem texto. O espectador pode achar que o repórter está em outro lugar. Detalhe discutível, não é defeito de render.",
+   "t": 761.0,
+   "arquivo": "22830.png"
+  },
+  {
+   "quadro": "Q99",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cena de supermercado em 1989 com caixas coloridas sem rótulo, o que é estilo. Mas a placa de capítulo 'A volta de Houston' cobre parte da pilha de frutas e fica colada ao personagem central. Também há um personagem cortado na borda esquerda. Sobreposição leve e legível, registrada como dúvida.",
+   "t": 769.7666666666667,
+   "arquivo": "23093.png"
+  },
+  {
+   "quadro": "Q102",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A cartela de racionamento tem ícones (café, sabão, açúcar, cigarro) e quadradinhos vazios sem letras, o que é aceitável. Os quadros vazios podem parecer incompletos, mas parece intencional.",
+   "t": 791.0,
+   "arquivo": "23730.png"
+  },
+  {
+   "quadro": "Q106",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Ao fundo, à esquerda, aparece a Torre de TV de Berlim (Fernsehturm, construída em 1969), junto de um portal neoclássico. A cena é de armazém/distribuição de ajuda, provavelmente no pós-guerra, então é um marco anacrônico (a regra do canal é descrever a época e excluir marcos que ainda não existiam). O Trabant bege à esquerda também pode ser anacrônico, conforme o período da cena.",
+   "t": 821.0,
+   "arquivo": "24630.png"
+  },
+  {
+   "quadro": "Q107",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa uma faixa uniforme de 3% no topo (RGB 95,190,252). Visualmente é só céu azul liso, que faz parte da cena, sem emenda visível. Falso positivo provável, registrado só por precaução.",
+   "t": 831.0,
+   "arquivo": "24930.png"
+  },
+  {
+   "quadro": "Q110",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de preço sobre o balcão está em branco, um retângulo bege vazio. O texto, se houver, deve ser inserido pelo código. Se o rótulo não for sobreposto, fica um placeholder vazio. Além disso, a placa de capítulo 'CAPÍTULO 10 / O último preço' cobre a parte inferior da cena e o pão do balcão, mas sem atrapalhar a leitura.",
+   "t": 854.7333333333333,
+   "arquivo": "25642.png"
+  },
+  {
+   "quadro": "Q111",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O jornal que o personagem segura está totalmente em branco, sem manchete. Isso evita texto inventado, mas é uma página vazia, que só funciona se o rótulo for adicionado no código.",
+   "t": 861.0,
+   "arquivo": "25830.png"
+  },
+  {
+   "quadro": "Q113",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cena de tanques T-34 diante do Kremlin e da Catedral de São Basílio, com pessoas em roupas de época soviética. Se o trecho (t=14:41) trata de 1991, pode haver anacronismo ou incoerência de época. Também há dúvida sobre o relógio da Torre Spasskaya e sobre os detalhes da arquitetura. Verificar o contexto da narração.",
+   "t": 881.0,
+   "arquivo": "26430.png"
+  },
+  {
+   "quadro": "Q114",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Placa '1992' no canto superior esquerdo, estilo intencional. Mercado farto com prateleiras cheias, em contraste com a narração, que provavelmente fala de escassez. Possível valor/cena errada em relação ao roteiro. Verificar.",
+   "t": 888.4666666666667,
+   "arquivo": "26654.png"
+  },
+  {
+   "quadro": "Q116",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Quadro quase idêntico ao Q117 (mesmo t=15:01), com leve diferença de enquadramento, típico de início de zoom Ken Burns. Não é defeito, mas confirmar que não há duplicação desnecessária do quadro.",
+   "t": 901.0,
+   "arquivo": "27030.png"
+  },
+  {
+   "quadro": "Q118",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Latas de sopa com ícone de tigela e sacos de trigo com espigas em prateleira farta, enquanto os quadros anteriores mostravam prateleiras vazias. Braço de uniforme verde entra pela direita sem corpo visível, o que pode ser enquadramento normal.",
+   "t": 911.0,
+   "arquivo": "27330.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 1.0,
+   "nome": "30.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 1.3333333333333333,
+   "nome": "40.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 11.0,
+   "nome": "330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 21.0,
+   "nome": "630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 31.0,
+   "nome": "930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 41.0,
+   "nome": "1230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 51.0,
+   "nome": "1530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 56.3,
+   "nome": "1689.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 56.36666666666667,
+   "nome": "1691.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 61.0,
+   "nome": "1830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 71.0,
+   "nome": "2130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 91.0,
+   "nome": "2730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 101.0,
+   "nome": "3030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 106.86666666666666,
+   "nome": "3206.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 111.0,
+   "nome": "3330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 121.0,
+   "nome": "3630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 131.0,
+   "nome": "3930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 137.1,
+   "nome": "4113.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 137.16666666666666,
+   "nome": "4115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 141.0,
+   "nome": "4230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 151.0,
+   "nome": "4530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 161.0,
+   "nome": "4830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 181.0,
+   "nome": "5430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 191.0,
+   "nome": "5730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 201.0,
+   "nome": "6030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 211.0,
+   "nome": "6330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 214.76666666666668,
+   "nome": "6443.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 214.83333333333334,
+   "nome": "6445.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 221.0,
+   "nome": "6630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 231.0,
+   "nome": "6930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 241.0,
+   "nome": "7230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 251.0,
+   "nome": "7530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 261.0,
+   "nome": "7830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 271.0,
+   "nome": "8130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 281.0,
+   "nome": "8430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 291.0,
+   "nome": "8730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 301.0,
+   "nome": "9030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 303.76666666666665,
+   "nome": "9113.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 311.0,
+   "nome": "9330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 321.0,
+   "nome": "9630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 331.0,
+   "nome": "9930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 332.8666666666667,
+   "nome": "9986.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 332.93333333333334,
+   "nome": "9988.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 341.0,
+   "nome": "10230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 361.0,
+   "nome": "10830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 371.0,
+   "nome": "11130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 381.0,
+   "nome": "11430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 381.03333333333336,
+   "nome": "11431.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 391.0,
+   "nome": "11730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 401.0,
+   "nome": "12030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 404.1666666666667,
+   "nome": "12125.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 404.23333333333335,
+   "nome": "12127.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 411.0,
+   "nome": "12330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 421.0,
+   "nome": "12630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 431.0,
+   "nome": "12930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 441.0,
+   "nome": "13230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 451.0,
+   "nome": "13530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 461.0,
+   "nome": "13830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 471.0,
+   "nome": "14130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 481.0,
+   "nome": "14430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 491.0,
+   "nome": "14730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 501.0,
+   "nome": "15030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 511.0,
+   "nome": "15330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 512.4,
+   "nome": "15372.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 512.4666666666667,
+   "nome": "15374.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 521.0,
+   "nome": "15630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 534.4,
+   "nome": "16032.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 541.0,
+   "nome": "16230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 551.0,
+   "nome": "16530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 558.5333333333333,
+   "nome": "16756.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 561.0,
+   "nome": "16830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 571.0,
+   "nome": "17130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 581.0,
+   "nome": "17430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 591.0,
+   "nome": "17730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 592.7333333333333,
+   "nome": "17782.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 592.8,
+   "nome": "17784.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 601.0,
+   "nome": "18030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 611.0,
+   "nome": "18330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 621.0,
+   "nome": "18630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 628.9,
+   "nome": "18867.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 631.0,
+   "nome": "18930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 641.0,
+   "nome": "19230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 642.0333333333333,
+   "nome": "19261.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 651.0,
+   "nome": "19530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 661.0,
+   "nome": "19830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 662.9666666666667,
+   "nome": "19889.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 671.0,
+   "nome": "20130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 681.0,
+   "nome": "20430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 701.0,
+   "nome": "21030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 707.8666666666667,
+   "nome": "21236.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 707.9333333333333,
+   "nome": "21238.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 711.0,
+   "nome": "21330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 721.0,
+   "nome": "21630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 731.0,
+   "nome": "21930.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 741.0,
+   "nome": "22230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 743.8,
+   "nome": "22314.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 751.0,
+   "nome": "22530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 761.0,
+   "nome": "22830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 769.7666666666667,
+   "nome": "23093.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 771.0,
+   "nome": "23130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q101",
+   "t": 781.0,
+   "nome": "23430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 791.0,
+   "nome": "23730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 795.9333333333333,
+   "nome": "23878.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 801.0,
+   "nome": "24030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q105",
+   "t": 811.0,
+   "nome": "24330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q106",
+   "t": 821.0,
+   "nome": "24630.png",
+   "sinais": []
+  },
+  {
+   "id": "Q107",
+   "t": 831.0,
+   "nome": "24930.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(95,190,252)"
+   ]
+  },
+  {
+   "id": "Q108",
+   "t": 841.0,
+   "nome": "25230.png",
+   "sinais": []
+  },
+  {
+   "id": "Q109",
+   "t": 851.0,
+   "nome": "25530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q110",
+   "t": 854.7333333333333,
+   "nome": "25642.png",
+   "sinais": []
+  },
+  {
+   "id": "Q111",
+   "t": 861.0,
+   "nome": "25830.png",
+   "sinais": []
+  },
+  {
+   "id": "Q112",
+   "t": 871.0,
+   "nome": "26130.png",
+   "sinais": []
+  },
+  {
+   "id": "Q113",
+   "t": 881.0,
+   "nome": "26430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q114",
+   "t": 888.4666666666667,
+   "nome": "26654.png",
+   "sinais": []
+  },
+  {
+   "id": "Q115",
+   "t": 891.0,
+   "nome": "26730.png",
+   "sinais": []
+  },
+  {
+   "id": "Q116",
+   "t": 901.0,
+   "nome": "27030.png",
+   "sinais": []
+  },
+  {
+   "id": "Q117",
+   "t": 901.3,
+   "nome": "27039.png",
+   "sinais": []
+  },
+  {
+   "id": "Q118",
+   "t": 911.0,
+   "nome": "27330.png",
+   "sinais": []
+  },
+  {
+   "id": "Q119",
+   "t": 918.4,
+   "nome": "27552.png",
+   "sinais": []
+  },
+  {
+   "id": "Q120",
+   "t": 921.0,
+   "nome": "27630.png",
+   "sinais": []
+  }
+ ]
+}

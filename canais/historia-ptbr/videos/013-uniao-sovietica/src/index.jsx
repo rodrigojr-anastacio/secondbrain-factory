@@ -1,12 +1,12 @@
 import React from 'react';
 import { Composition, registerRoot } from 'remotion';
-import { Portugal } from './Video.jsx';
+import { Urss } from './Video.jsx';
 import { Thumbnail } from './Thumbnail.jsx';
 import timeline from './timeline.json';
 
 const Root = () => (
   <>
-    <Composition id="Portugal" component={Portugal} durationInFrames={timeline.frames} fps={30} width={1920} height={1080} />
+    <Composition id="Urss" component={Urss} durationInFrames={timeline.frames} fps={30} width={1920} height={1080} />
     <Composition id="Thumbnail" component={Thumbnail} durationInFrames={1} fps={30} width={1280} height={720} />
   </>
 );
