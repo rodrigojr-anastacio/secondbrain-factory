@@ -23,3 +23,14 @@
 - Lullorin "If Your X Ever… COMANDO": 1 canal, 4 vídeos, mediana ~60,9k; vídeo de 81 min = 12.017.
 - Ritmo observado: ~16–18 cortes/min com capítulos nomeados (2 vídeos, 1,31M e 1,12M).
 - Fonte: `pesquisa/tendencias/2026-11-16-batch.md`.
+
+## 2026-11-19 — 57 vídeos
+- Séries "Part N" decaem: Naruto+Sasuke 1,40M → 270 mil → 86 mil; Veylorn 848 mil → 480 mil → 277 mil (8 vídeos, 2 canais).
+- "The ENTIRE History of X in N Minutes": 18 vídeos, mediana 35 mil, mas 7 passam de 150 mil, todos tech/bilionários/Coca-Cola.
+- Thumb CEOzoned: personagem à esquerda de braços cruzados + "NOME ANO – 2026" no topo direito, 18/18 vídeos; os 4 maiores passam de 350 mil.
+- Hushed Case "Has No Idea/Clue": 19 vídeos, mediana 10,6 mil, com 2 outliers (2,25M e 320 mil), ambos "Wife + $ + hitman/apólice".
+- Thumb bodycam REC/AXON em 100% dos vídeos de Hushed Case; não discrimina desempenho (de 748 a 2,25M views).
+- "What If You…" em 2ª pessoa: 3 canais, 4 vídeos, mediana ~2,1 mil, contra 16,8 mil do What-If de personagens (Shonen, 11 vídeos).
+- Full movie de IA (Veylorn): 5,93M com canal de 46 mil inscritos; as partes seriadas fazem mediana de 480 mil.
+- Hook com contraste de escala e loop aberto (NVIDIA, 1,36M) e abertura em diálogo no meio da cena (Lost Kind, 5,9M): só 2 vídeos com transcrição.
+- Fonte: `pesquisa/tendencias/2026-11-19-batch.md`.
