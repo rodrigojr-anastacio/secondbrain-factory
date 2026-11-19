@@ -1,0 +1,2084 @@
+{
+ "gerado_em": "2026-11-19T12:30:08.941280+00:00",
+ "buscas": [
+  "entire history of",
+  "history explained",
+  "ancient civilizations",
+  "mythology explained",
+  "lore explained",
+  "unsolved mysteries",
+  "true crime documentary",
+  "documentary",
+  "what if",
+  "geography explained",
+  "economics explained",
+  "science explained",
+  "space documentary",
+  "psychology explained",
+  "philosophy explained",
+  "biography documentary",
+  "war history",
+  "bible stories",
+  "horror stories",
+  "animated story"
+ ],
+ "criterios": {
+  "max_idade_dias": 120,
+  "max_videos": 20,
+  "min_media_views": 20000
+ },
+ "candidatos": [
+  {
+   "id": "UCAqnV3Y7Eazgq368zJ1dVhA",
+   "titulo": "BomVEVO",
+   "url": "https://www.youtube.com/channel/UCAqnV3Y7Eazgq368zJ1dVhA",
+   "pais": null,
+   "criado": "2023-11-08",
+   "primeiro_video": "2026-10-28",
+   "idade_dias": 22,
+   "videos": 12,
+   "views": 12925908,
+   "inscritos": 29900,
+   "media_views": 1077159,
+   "views_por_inscrito": 432.3,
+   "descricao": "",
+   "buscas": [
+    "documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "NPHAbKe9spU",
+     "titulo": "BOM, Lali, Miranda! - EN ITALIA [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.5,
+     "views": 1967112,
+     "thumb": "https://i.ytimg.com/vi/NPHAbKe9spU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=NPHAbKe9spU"
+    },
+    {
+     "id": "8U1_ekYllpY",
+     "titulo": "BOM, Lali, Miranda! - MIGAJAS [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.6,
+     "views": 1844937,
+     "thumb": "https://i.ytimg.com/vi/8U1_ekYllpY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8U1_ekYllpY"
+    },
+    {
+     "id": "RcUvo62blBY",
+     "titulo": "BOM, Lali, Miranda! - SEÑORA [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.5,
+     "views": 1780368,
+     "thumb": "https://i.ytimg.com/vi/RcUvo62blBY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=RcUvo62blBY"
+    },
+    {
+     "id": "uoen6uTcp2U",
+     "titulo": "BOM, Lali, Miranda! - VIVO DEL POP [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.4,
+     "views": 1285443,
+     "thumb": "https://i.ytimg.com/vi/uoen6uTcp2U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=uoen6uTcp2U"
+    },
+    {
+     "id": "2NA1YLusX8w",
+     "titulo": "BOM, Lali, Miranda! - BAILAR O MORIR [ Short Film ]",
+     "publicado": "2026-10-28",
+     "duracao_min": 16.2,
+     "views": 1161307,
+     "thumb": "https://i.ytimg.com/vi/2NA1YLusX8w/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=2NA1YLusX8w"
+    },
+    {
+     "id": "4ZiD4Shzxy8",
+     "titulo": "BOM, Lali, Miranda! - ADONDE [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.9,
+     "views": 903876,
+     "thumb": "https://i.ytimg.com/vi/4ZiD4Shzxy8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4ZiD4Shzxy8"
+    },
+    {
+     "id": "8Ia4TC_Ea_0",
+     "titulo": "BOM, Lali, Miranda! - PIEL [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.8,
+     "views": 837239,
+     "thumb": "https://i.ytimg.com/vi/8Ia4TC_Ea_0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8Ia4TC_Ea_0"
+    },
+    {
+     "id": "POQ3XMRAU3U",
+     "titulo": "BOM, Lali, Miranda! - HELECHO [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 3.1,
+     "views": 823357,
+     "thumb": "https://i.ytimg.com/vi/POQ3XMRAU3U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=POQ3XMRAU3U"
+    },
+    {
+     "id": "-ie5USBs4uY",
+     "titulo": "BOM, Lali, Miranda! - BAILAR O MORIR [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.7,
+     "views": 711433,
+     "thumb": "https://i.ytimg.com/vi/-ie5USBs4uY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=-ie5USBs4uY"
+    },
+    {
+     "id": "PQSRWckZc5s",
+     "titulo": "BOM, Lali, Miranda! - HIPERLOVE [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 3.4,
+     "views": 707723,
+     "thumb": "https://i.ytimg.com/vi/PQSRWckZc5s/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PQSRWckZc5s"
+    },
+    {
+     "id": "sRIM8aqsFmQ",
+     "titulo": "BOM, Lali, Miranda! - GANAR [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.7,
+     "views": 654139,
+     "thumb": "https://i.ytimg.com/vi/sRIM8aqsFmQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=sRIM8aqsFmQ"
+    },
+    {
+     "id": "0_g9QqeIejk",
+     "titulo": "BOM, Lali, Miranda! - BAILAR O MORIR [Official Audio]",
+     "publicado": "2026-10-28",
+     "duracao_min": 2.6,
+     "views": 519385,
+     "thumb": "https://i.ytimg.com/vi/0_g9QqeIejk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=0_g9QqeIejk"
+    }
+   ],
+   "score": 587541,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 1851119
+  },
+  {
+   "id": "UCAGRnC0u-hiBa7eUvrFtFow",
+   "titulo": "Awaken",
+   "url": "https://www.youtube.com/channel/UCAGRnC0u-hiBa7eUvrFtFow",
+   "pais": "US",
+   "criado": "2016-10-04",
+   "primeiro_video": "2026-10-20",
+   "idade_dias": 29,
+   "videos": 12,
+   "views": 7200858,
+   "inscritos": 24800,
+   "media_views": 600071,
+   "views_por_inscrito": 290.4,
+   "descricao": "Big questions. Small characters. A world of curiosity.\n\nAwaken Studios is an independent team of writers, artists, and animators turning science, history, and unusual “what if” questions into colorful animated stories.\n\nAt the heart of the studio, we have developed our own in-house 2D/3D animation s",
+   "buscas": [
+    "animated story",
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "6oZ9fdM0n50",
+     "titulo": "Can 2 People Really Restart Humanity?",
+     "publicado": "2026-10-20",
+     "duracao_min": 7.0,
+     "views": 5369521,
+     "thumb": "https://i.ytimg.com/vi/6oZ9fdM0n50/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=6oZ9fdM0n50"
+    },
+    {
+     "id": "XbXiFizyGko",
+     "titulo": "What if You’re The Last Guy on Earth?",
+     "publicado": "2026-10-27",
+     "duracao_min": 8.2,
+     "views": 906513,
+     "thumb": "https://i.ytimg.com/vi/XbXiFizyGko/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=XbXiFizyGko"
+    },
+    {
+     "id": "fFziW8Hgf84",
+     "titulo": "What if You Were The Last Girl On Earth?",
+     "publicado": "2026-10-30",
+     "duracao_min": 8.2,
+     "views": 839380,
+     "thumb": "https://i.ytimg.com/vi/fFziW8Hgf84/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=fFziW8Hgf84"
+    },
+    {
+     "id": "4OJqcmRRUYI",
+     "titulo": "Could 8 Billion People Live in ONE City?",
+     "publicado": "2026-10-25",
+     "duracao_min": 7.1,
+     "views": 28076,
+     "thumb": "https://i.ytimg.com/vi/4OJqcmRRUYI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4OJqcmRRUYI"
+    },
+    {
+     "id": "UY0HURd95d4",
+     "titulo": "Male Orgasm vs Female Orgasm: The Science Behind It",
+     "publicado": "2026-11-03",
+     "duracao_min": 8.1,
+     "views": 21285,
+     "thumb": "https://i.ytimg.com/vi/UY0HURd95d4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=UY0HURd95d4"
+    },
+    {
+     "id": "J17CZfV7u4k",
+     "titulo": "Could 2 People Restart Humanity? 😳 #shorts",
+     "publicado": "2026-10-22",
+     "duracao_min": 1.1,
+     "views": 16253,
+     "thumb": "https://i.ytimg.com/vi/J17CZfV7u4k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=J17CZfV7u4k"
+    },
+    {
+     "id": "Q3Z8ed3K8xo",
+     "titulo": "The Only Men Who Ever Escaped Alcatraz? #Shorts #Alcatraz #History #TrueStory #Mystery #Escape",
+     "publicado": "2026-11-02",
+     "duracao_min": 0.8,
+     "views": 13590,
+     "thumb": "https://i.ytimg.com/vi/Q3Z8ed3K8xo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Q3Z8ed3K8xo"
+    },
+    {
+     "id": "gVvCEyDkVL4",
+     "titulo": "The Man Who Walked Across the The Twin Towers",
+     "publicado": "2026-11-03",
+     "duracao_min": 0.5,
+     "views": 8410,
+     "thumb": "https://i.ytimg.com/vi/gVvCEyDkVL4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=gVvCEyDkVL4"
+    },
+    {
+     "id": "cWtrYIoWlbk",
+     "titulo": "Can 1 Man Repopulate Earth?",
+     "publicado": "2026-11-13",
+     "duracao_min": 6.4,
+     "views": 5469,
+     "thumb": "https://i.ytimg.com/vi/cWtrYIoWlbk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=cWtrYIoWlbk"
+    },
+    {
+     "id": "O2ryJuWO4cc",
+     "titulo": "What Will Happen in 10 Quintillion Years?",
+     "publicado": "2026-11-15",
+     "duracao_min": 6.7,
+     "views": 2630,
+     "thumb": "https://i.ytimg.com/vi/O2ryJuWO4cc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=O2ryJuWO4cc"
+    },
+    {
+     "id": "E22xBVCUGFo",
+     "titulo": "What If You Spent 100 Days in the White Room?",
+     "publicado": "2026-11-16",
+     "duracao_min": 6.4,
+     "views": 2611,
+     "thumb": "https://i.ytimg.com/vi/E22xBVCUGFo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=E22xBVCUGFo"
+    },
+    {
+     "id": "PnIoVBFBklM",
+     "titulo": "What If You Woke Up in the 1500s With a Fully Charged iPhone?",
+     "publicado": "2026-11-18",
+     "duracao_min": 11.6,
+     "views": 1614,
+     "thumb": "https://i.ytimg.com/vi/PnIoVBFBklM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PnIoVBFBklM"
+    }
+   ],
+   "score": 248305,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 122196
+  },
+  {
+   "id": "UCUK7e3Qja5d-muR6b-jiZCw",
+   "titulo": "Questionverse",
+   "url": "https://www.youtube.com/channel/UCUK7e3Qja5d-muR6b-jiZCw",
+   "pais": "US",
+   "criado": "2026-11-02",
+   "primeiro_video": "2026-11-02",
+   "idade_dias": 16,
+   "videos": 13,
+   "views": 3094868,
+   "inscritos": 12500,
+   "media_views": 238066,
+   "views_por_inscrito": 247.6,
+   "descricao": "Hey.. it's questionverse... I just like making questions :')",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "a4IxwLQNj-k",
+     "titulo": "What If You Were Stuck in a Bunker With Your Crush?",
+     "publicado": "2026-11-07",
+     "duracao_min": 21.1,
+     "views": 1195164,
+     "thumb": "https://i.ytimg.com/vi/a4IxwLQNj-k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=a4IxwLQNj-k"
+    },
+    {
+     "id": "Z4HLqdR2iP4",
+     "titulo": "What If You Were the Strongest Person in the World?",
+     "publicado": "2026-11-05",
+     "duracao_min": 14.6,
+     "views": 460063,
+     "thumb": "https://i.ytimg.com/vi/Z4HLqdR2iP4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Z4HLqdR2iP4"
+    },
+    {
+     "id": "AY0DR7bvfXY",
+     "titulo": "What If You And Your Crush Were Alone On A Desert Island?",
+     "publicado": "2026-11-10",
+     "duracao_min": 21.2,
+     "views": 408339,
+     "thumb": "https://i.ytimg.com/vi/AY0DR7bvfXY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=AY0DR7bvfXY"
+    },
+    {
+     "id": "Hyhixgi_1oE",
+     "titulo": "What If You Woke Up 10,000 Years Ago With Your Crush?",
+     "publicado": "2026-11-12",
+     "duracao_min": 23.6,
+     "views": 281969,
+     "thumb": "https://i.ytimg.com/vi/Hyhixgi_1oE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Hyhixgi_1oE"
+    },
+    {
+     "id": "vmhnFVXVVl0",
+     "titulo": "What If You Got Stuck in a Walmart With Your Crush for 30 Days?",
+     "publicado": "2026-11-11",
+     "duracao_min": 20.0,
+     "views": 242577,
+     "thumb": "https://i.ytimg.com/vi/vmhnFVXVVl0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vmhnFVXVVl0"
+    },
+    {
+     "id": "8ItQgbmRh_0",
+     "titulo": "What If You Could Talk To Any Animal?",
+     "publicado": "2026-11-06",
+     "duracao_min": 15.6,
+     "views": 238608,
+     "thumb": "https://i.ytimg.com/vi/8ItQgbmRh_0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8ItQgbmRh_0"
+    },
+    {
+     "id": "eYv4svv3tqY",
+     "titulo": "What If You Became Stronger Every Time Someone Hurt You?",
+     "publicado": "2026-11-09",
+     "duracao_min": 20.1,
+     "views": 150867,
+     "thumb": "https://i.ytimg.com/vi/eYv4svv3tqY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=eYv4svv3tqY"
+    },
+    {
+     "id": "06ukUxfPm90",
+     "titulo": "What If a Caveman Woke Up in Today's World?",
+     "publicado": "2026-11-04",
+     "duracao_min": 11.6,
+     "views": 99267,
+     "thumb": "https://i.ytimg.com/vi/06ukUxfPm90/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=06ukUxfPm90"
+    },
+    {
+     "id": "1oKyfVfl2qQ",
+     "titulo": "What If You Were Trapped in Squid Game With Your Crush?",
+     "publicado": "2026-11-08",
+     "duracao_min": 19.6,
+     "views": 52061,
+     "thumb": "https://i.ytimg.com/vi/1oKyfVfl2qQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=1oKyfVfl2qQ"
+    },
+    {
+     "id": "SJ8r2LOQT50",
+     "titulo": "What If You Got Trapped in an Escape Room With Your Crush?",
+     "publicado": "2026-11-16",
+     "duracao_min": 22.8,
+     "views": 9136,
+     "thumb": "https://i.ytimg.com/vi/SJ8r2LOQT50/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=SJ8r2LOQT50"
+    },
+    {
+     "id": "fnpW0Kion0A",
+     "titulo": "What If You Had 999 Charisma in High School?",
+     "publicado": "2026-11-17",
+     "duracao_min": 21.8,
+     "views": 5886,
+     "thumb": "https://i.ytimg.com/vi/fnpW0Kion0A/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=fnpW0Kion0A"
+    },
+    {
+     "id": "qHwxabTofjM",
+     "titulo": "What If You Knew the Exact Date of Your Death?",
+     "publicado": "2026-11-03",
+     "duracao_min": 8.4,
+     "views": 4586,
+     "thumb": "https://i.ytimg.com/vi/qHwxabTofjM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=qHwxabTofjM"
+    },
+    {
+     "id": "OwHWeRInV9c",
+     "titulo": "What If the Sun Suddenly Disappeared Tomorrow?",
+     "publicado": "2026-11-02",
+     "duracao_min": 12.2,
+     "views": 3647,
+     "thumb": "https://i.ytimg.com/vi/OwHWeRInV9c/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=OwHWeRInV9c"
+    }
+   ],
+   "score": 193429,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 407990
+  },
+  {
+   "id": "UCj7qkU6M_ZIEwV2OSuyoQyg",
+   "titulo": "VeylornStudios",
+   "url": "https://www.youtube.com/channel/UCj7qkU6M_ZIEwV2OSuyoQyg",
+   "pais": "US",
+   "criado": "2026-06-26",
+   "primeiro_video": "2026-10-09",
+   "idade_dias": 40,
+   "videos": 4,
+   "views": 7142249,
+   "inscritos": 46000,
+   "media_views": 1785562,
+   "views_por_inscrito": 155.3,
+   "descricao": "Welcome to VEYLORN STUDIOS — a cinematic home for original epic fantasy films.\n\nAncient kingdoms. Forgotten civilizations. Extraordinary creatures. And stories where every choice has a consequence.\n\nAt VEYLORN STUDIOS, we bring original fantasy worlds to life through AI-assisted filmmaking, cinemati",
+   "buscas": [
+    "documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "6pbhGtHRTwA",
+     "titulo": "THE LOST KIND | FULL MOVIE | 4K Epic Dark Fantasy Film (Complete Story)",
+     "publicado": "2026-11-14",
+     "duracao_min": 108.0,
+     "views": 5928807,
+     "thumb": "https://i.ytimg.com/vi/6pbhGtHRTwA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=6pbhGtHRTwA"
+    },
+    {
+     "id": "S9MIrREjW2U",
+     "titulo": "THE LOST KIND: SON OF MONSTERS | 4K Epic Fantasy Film | Part 1",
+     "publicado": "2026-10-09",
+     "duracao_min": 29.1,
+     "views": 848453,
+     "thumb": "https://i.ytimg.com/vi/S9MIrREjW2U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=S9MIrREjW2U"
+    },
+    {
+     "id": "RDOXMIC_w3A",
+     "titulo": "THE LOST KIND: SINS OF MEN | 4K Original Epic Fantasy Film | Part 2",
+     "publicado": "2026-10-23",
+     "duracao_min": 34.3,
+     "views": 479788,
+     "thumb": "https://i.ytimg.com/vi/RDOXMIC_w3A/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=RDOXMIC_w3A"
+    },
+    {
+     "id": "JzZhz1vU_Cs",
+     "titulo": "THE LOST KIND: HEART OF THE LOST | 4K Original Epic Fantasy Film | Part 3",
+     "publicado": "2026-11-05",
+     "duracao_min": 32.3,
+     "views": 277121,
+     "thumb": "https://i.ytimg.com/vi/JzZhz1vU_Cs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=JzZhz1vU_Cs"
+    }
+   ],
+   "score": 178556,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCQsCEFC98OK-uBAZlu3My_g",
+   "titulo": "Factora Visuals",
+   "url": "https://www.youtube.com/channel/UCQsCEFC98OK-uBAZlu3My_g",
+   "pais": "GB",
+   "criado": "2026-10-29",
+   "primeiro_video": "2026-10-31",
+   "idade_dias": 19,
+   "videos": 10,
+   "views": 3375820,
+   "inscritos": 4940,
+   "media_views": 337582,
+   "views_por_inscrito": 683.4,
+   "descricao": "Factora Visuals tells the stories of history, and what they mean for the world today.\n\nFrom ancient empires and forgotten wars to the turning points of the modern world, we explain how events unfolded, why they mattered, and what came after. When something big happens today, we go back to the moment",
+   "buscas": [
+    "war history"
+   ],
+   "videos_lista": [
+    {
+     "id": "oDpg7brCTeo",
+     "titulo": "Trump Just Lost Congress. History Says 3 Things Happen Next",
+     "publicado": "2026-11-04",
+     "duracao_min": 11.6,
+     "views": 2848549,
+     "thumb": "https://i.ytimg.com/vi/oDpg7brCTeo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=oDpg7brCTeo"
+    },
+    {
+     "id": "5toLQiKzQZE",
+     "titulo": "3 Presidents Tried for a Third Term. What Happened to Them?",
+     "publicado": "2026-11-12",
+     "duracao_min": 14.1,
+     "views": 297583,
+     "thumb": "https://i.ytimg.com/vi/5toLQiKzQZE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5toLQiKzQZE"
+    },
+    {
+     "id": "BhLAjaaHsnM",
+     "titulo": "Can a Major American Party Die?",
+     "publicado": "2026-11-08",
+     "duracao_min": 11.9,
+     "views": 170767,
+     "thumb": "https://i.ytimg.com/vi/BhLAjaaHsnM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=BhLAjaaHsnM"
+    },
+    {
+     "id": "4IdWHFSpVK8",
+     "titulo": "Hegseth Is in Trouble. Here Is How It Ended for the Men Before Him",
+     "publicado": "2026-11-06",
+     "duracao_min": 10.8,
+     "views": 64708,
+     "thumb": "https://i.ytimg.com/vi/4IdWHFSpVK8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4IdWHFSpVK8"
+    },
+    {
+     "id": "rozLVz6bJJU",
+     "titulo": "Trump Faces 25th Amendment Calls. Can He Be Removed?",
+     "publicado": "2026-11-16",
+     "duracao_min": 13.6,
+     "views": 7878,
+     "thumb": "https://i.ytimg.com/vi/rozLVz6bJJU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=rozLVz6bJJU"
+    },
+    {
+     "id": "9Q43y9lNSxI",
+     "titulo": "Why the Falklands War Never Really Ended",
+     "publicado": "2026-11-03",
+     "duracao_min": 13.9,
+     "views": 3753,
+     "thumb": "https://i.ytimg.com/vi/9Q43y9lNSxI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=9Q43y9lNSxI"
+    },
+    {
+     "id": "tNmDS8hWbWU",
+     "titulo": "The Romans Who Refused to Fall | The ENTIRE History of the Byzantine Empire in 13 Minutes",
+     "publicado": "2026-10-31",
+     "duracao_min": 13.4,
+     "views": 2434,
+     "thumb": "https://i.ytimg.com/vi/tNmDS8hWbWU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=tNmDS8hWbWU"
+    },
+    {
+     "id": "smRHVXnoCNk",
+     "titulo": "China Had the World's Silver. Its Government Still Went Broke",
+     "publicado": "2026-11-10",
+     "duracao_min": 15.0,
+     "views": 2138,
+     "thumb": "https://i.ytimg.com/vi/smRHVXnoCNk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=smRHVXnoCNk"
+    },
+    {
+     "id": "XARHsm9Fomg",
+     "titulo": "Jensen Huang: America Has Seen This Before",
+     "publicado": "2026-11-14",
+     "duracao_min": 14.7,
+     "views": 1595,
+     "thumb": "https://i.ytimg.com/vi/XARHsm9Fomg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=XARHsm9Fomg"
+    },
+    {
+     "id": "WnOmbwPCWZY",
+     "titulo": "Van Hollen vs Schumer: Has a Senate Leader Ever Been Voted Out?",
+     "publicado": "2026-11-18",
+     "duracao_min": 13.8,
+     "views": 821,
+     "thumb": "https://i.ytimg.com/vi/WnOmbwPCWZY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WnOmbwPCWZY"
+    }
+   ],
+   "score": 177675,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 317039
+  },
+  {
+   "id": "UCqz5azvs6eeE_c99UONUncg",
+   "titulo": "Braids Reacts",
+   "url": "https://www.youtube.com/channel/UCqz5azvs6eeE_c99UONUncg",
+   "pais": "US",
+   "criado": "2026-07-30",
+   "primeiro_video": "2026-10-29",
+   "idade_dias": 20,
+   "videos": 6,
+   "views": 3392386,
+   "inscritos": 18500,
+   "media_views": 565397,
+   "views_por_inscrito": 183.4,
+   "descricao": "Explore the world of Roblox through unique shorts that reveal hidden truths. braids Reacts offers engaging content for gamers and story lovers alike. Dive into narratives where characters see shadows and lies, and where wishes and emotions shape experiences. Discover how players navigate through mys",
+   "buscas": [
+    "animated story"
+   ],
+   "videos_lista": [
+    {
+     "id": "34N0adyKxvY",
+     "titulo": "In This Town / In This World Roblox Story Animation Compilation",
+     "publicado": "2026-10-29",
+     "duracao_min": 19.3,
+     "views": 2496030,
+     "thumb": "https://i.ytimg.com/vi/34N0adyKxvY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=34N0adyKxvY"
+    },
+    {
+     "id": "xKlmvSYJp5c",
+     "titulo": "In This Town / In This World Roblox Story Animation Compilation (#3)",
+     "publicado": "2026-11-01",
+     "duracao_min": 23.5,
+     "views": 401845,
+     "thumb": "https://i.ytimg.com/vi/xKlmvSYJp5c/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xKlmvSYJp5c"
+    },
+    {
+     "id": "nR6pF4-3fqU",
+     "titulo": "In This World Roblox Animation Epic Compilation",
+     "publicado": "2026-11-04",
+     "duracao_min": 26.5,
+     "views": 218530,
+     "thumb": "https://i.ytimg.com/vi/nR6pF4-3fqU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=nR6pF4-3fqU"
+    },
+    {
+     "id": "SH5icP5HeFE",
+     "titulo": "In This Town / In This World Roblox Story Compilation",
+     "publicado": "2026-11-03",
+     "duracao_min": 26.7,
+     "views": 173314,
+     "thumb": "https://i.ytimg.com/vi/SH5icP5HeFE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=SH5icP5HeFE"
+    },
+    {
+     "id": "5Xy69fLhTgc",
+     "titulo": "In This Town / In This World Roblox Story Animation Compilation (#5)",
+     "publicado": "2026-11-06",
+     "duracao_min": 23.9,
+     "views": 103041,
+     "thumb": "https://i.ytimg.com/vi/5Xy69fLhTgc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5Xy69fLhTgc"
+    },
+    {
+     "id": "P2gmbeomRKM",
+     "titulo": "In This Town / In This World Roblox Story Animation Compilation (#6)",
+     "publicado": "2026-11-10",
+     "duracao_min": 17.6,
+     "views": 2914,
+     "thumb": "https://i.ytimg.com/vi/P2gmbeomRKM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=P2gmbeomRKM"
+    }
+   ],
+   "score": 169619,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 18070
+  },
+  {
+   "id": "UCQ8rNg4xGQRV3qt87Y-3aYw",
+   "titulo": "Gloam",
+   "url": "https://www.youtube.com/channel/UCQ8rNg4xGQRV3qt87Y-3aYw",
+   "pais": "US",
+   "criado": "2025-11-12",
+   "primeiro_video": "2026-10-30",
+   "idade_dias": 19,
+   "videos": 5,
+   "views": 2633406,
+   "inscritos": 8450,
+   "media_views": 526681,
+   "views_por_inscrito": 311.6,
+   "descricao": "Documentaries about the darker side of history.. Wars, crimes, politics, hacks, and whatever else I can't stop reading about..\n\nI rebuild the places in 3D so you can see where it happened. I'll get things wrong sometimes, so my sources are always in the description..\n\nNew videos when they're done, n",
+   "buscas": [
+    "documentary",
+    "history explained"
+   ],
+   "videos_lista": [
+    {
+     "id": "5eZj1OnC1C4",
+     "titulo": "How Binance Lost $6,300,000,000 in One Night",
+     "publicado": "2026-10-30",
+     "duracao_min": 14.9,
+     "views": 2564832,
+     "thumb": "https://i.ytimg.com/vi/5eZj1OnC1C4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5eZj1OnC1C4"
+    },
+    {
+     "id": "xSY1EB9nQvE",
+     "titulo": "How 9 People Died: Inside the Florida Learjet 60 Before The Crash",
+     "publicado": "2026-11-03",
+     "duracao_min": 10.8,
+     "views": 33780,
+     "thumb": "https://i.ytimg.com/vi/xSY1EB9nQvE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xSY1EB9nQvE"
+    },
+    {
+     "id": "UBkfCKphPsU",
+     "titulo": "Could Any Pilot Have Saved This Learjet 60 Once Its Tail Broke?",
+     "publicado": "2026-11-05",
+     "duracao_min": 19.4,
+     "views": 31687,
+     "thumb": "https://i.ytimg.com/vi/UBkfCKphPsU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=UBkfCKphPsU"
+    },
+    {
+     "id": "rUEKidsGci4",
+     "titulo": "Was Jensen Huang Caught by US Intelligence?",
+     "publicado": "2026-11-14",
+     "duracao_min": 15.3,
+     "views": 4193,
+     "thumb": "https://i.ytimg.com/vi/rUEKidsGci4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=rUEKidsGci4"
+    },
+    {
+     "id": "08WIQrzY1bI",
+     "titulo": "How the FBI Lost D.B. Cooper in One Night",
+     "publicado": "2026-11-13",
+     "duracao_min": 16.8,
+     "views": 1433,
+     "thumb": "https://i.ytimg.com/vi/08WIQrzY1bI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=08WIQrzY1bI"
+    }
+   ],
+   "score": 138600,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 20664
+  },
+  {
+   "id": "UC-CzFjDbVlqH_mHK-oBy45Q",
+   "titulo": "Nils History",
+   "url": "https://www.youtube.com/channel/UC-CzFjDbVlqH_mHK-oBy45Q",
+   "pais": "US",
+   "criado": "2026-06-30",
+   "primeiro_video": "2026-08-03",
+   "idade_dias": 107,
+   "videos": 13,
+   "views": 13776043,
+   "inscritos": 95900,
+   "media_views": 1059695,
+   "views_por_inscrito": 143.7,
+   "descricao": "here we cover the strange parts of history from all eras\n\nI am just some dude on the internet. I am no scholar, or historian, but I do enjoy a good old weird history video!\n\nlearning as I go\n",
+   "buscas": [
+    "ancient civilizations",
+    "unsolved mysteries"
+   ],
+   "videos_lista": [
+    {
+     "id": "NHSg9NPPRuw",
+     "titulo": "The First Civilization in the World Was Rather Strange",
+     "publicado": "2026-08-03",
+     "duracao_min": 34.9,
+     "views": 3823461,
+     "thumb": "https://i.ytimg.com/vi/NHSg9NPPRuw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=NHSg9NPPRuw"
+    },
+    {
+     "id": "tU8IQmATorI",
+     "titulo": "The Library of Alexandria is Weirder Than You Think",
+     "publicado": "2026-08-31",
+     "duracao_min": 20.5,
+     "views": 2813021,
+     "thumb": "https://i.ytimg.com/vi/tU8IQmATorI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=tU8IQmATorI"
+    },
+    {
+     "id": "o_aRTyiXS40",
+     "titulo": "Ancient Babylon Was Weirder Than You Think (No AI)",
+     "publicado": "2026-10-12",
+     "duracao_min": 53.6,
+     "views": 2304549,
+     "thumb": "https://i.ytimg.com/vi/o_aRTyiXS40/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=o_aRTyiXS40"
+    },
+    {
+     "id": "hxTa3DUlNr0",
+     "titulo": "The Rise and Fall of the World's Most Evil Empire (No AI)",
+     "publicado": "2026-09-14",
+     "duracao_min": 102.1,
+     "views": 1451817,
+     "thumb": "https://i.ytimg.com/vi/hxTa3DUlNr0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=hxTa3DUlNr0"
+    },
+    {
+     "id": "CyR7j7RXN1E",
+     "titulo": "The First Wonders of the World Were Rather Strange (No AI)",
+     "publicado": "2026-11-02",
+     "duracao_min": 37.9,
+     "views": 755584,
+     "thumb": "https://i.ytimg.com/vi/CyR7j7RXN1E/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=CyR7j7RXN1E"
+    },
+    {
+     "id": "MkT314-PRHk",
+     "titulo": "The Phoenicians Were Stranger Than You Think (No AI)",
+     "publicado": "2026-09-21",
+     "duracao_min": 41.2,
+     "views": 637955,
+     "thumb": "https://i.ytimg.com/vi/MkT314-PRHk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=MkT314-PRHk"
+    },
+    {
+     "id": "Hp0remoNbjQ",
+     "titulo": "The Dark History of the World's First Empire",
+     "publicado": "2026-08-12",
+     "duracao_min": 32.2,
+     "views": 555581,
+     "thumb": "https://i.ytimg.com/vi/Hp0remoNbjQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Hp0remoNbjQ"
+    },
+    {
+     "id": "siqQHXBQ_F4",
+     "titulo": "The Sea Peoples Were Weirder Than you Think (No AI)",
+     "publicado": "2026-10-05",
+     "duracao_min": 44.6,
+     "views": 499525,
+     "thumb": "https://i.ytimg.com/vi/siqQHXBQ_F4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=siqQHXBQ_F4"
+    },
+    {
+     "id": "kio8tvrOw9w",
+     "titulo": "Why 536 AD was the worst year to be alive",
+     "publicado": "2026-08-22",
+     "duracao_min": 18.6,
+     "views": 329697,
+     "thumb": "https://i.ytimg.com/vi/kio8tvrOw9w/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=kio8tvrOw9w"
+    },
+    {
+     "id": "2LITK73f-C8",
+     "titulo": "Something Was Very Wrong With Ancient Persia (No AI)",
+     "publicado": "2026-11-09",
+     "duracao_min": 65.9,
+     "views": 308526,
+     "thumb": "https://i.ytimg.com/vi/2LITK73f-C8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=2LITK73f-C8"
+    },
+    {
+     "id": "L_n0hb73c3M",
+     "titulo": "Ancient Humans Were Weirder Than You Think (No AI)",
+     "publicado": "2026-10-26",
+     "duracao_min": 33.0,
+     "views": 181332,
+     "thumb": "https://i.ytimg.com/vi/L_n0hb73c3M/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=L_n0hb73c3M"
+    },
+    {
+     "id": "nbY2qqoSU4g",
+     "titulo": "The Strangest Unsolved Mysteries in the Ancient World (No AI)",
+     "publicado": "2026-11-16",
+     "duracao_min": 38.9,
+     "views": 110293,
+     "thumb": "https://i.ytimg.com/vi/nbY2qqoSU4g/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=nbY2qqoSU4g"
+    },
+    {
+     "id": "v-ypPN4k8nI",
+     "titulo": "Why Historians Are Still Stunned By This Ancient Device (No AI)",
+     "publicado": "2026-10-19",
+     "duracao_min": 28.2,
+     "views": 90827,
+     "thumb": "https://i.ytimg.com/vi/v-ypPN4k8nI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=v-ypPN4k8nI"
+    }
+   ],
+   "score": 128748,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 468808
+  },
+  {
+   "id": "UCYOfoV7p5AK_fOFqBDRWk_g",
+   "titulo": "DOCS 187",
+   "url": "https://www.youtube.com/channel/UCYOfoV7p5AK_fOFqBDRWk_g",
+   "pais": "US",
+   "criado": "2026-09-22",
+   "primeiro_video": "2026-09-22",
+   "idade_dias": 58,
+   "videos": 18,
+   "views": 7070441,
+   "inscritos": 19800,
+   "media_views": 392802,
+   "views_por_inscrito": 357.1,
+   "descricao": "Welcome to DOCS 187 — where the darkest corners of the human mind come to light.\n\nHere, every case is deconstructed piece by piece through criminal psychology, behavioral analysis, interrogations, and the micro-expressions that change everything. No wasted noise, no empty drama — just gripping true ",
+   "buscas": [
+    "documentary",
+    "true crime documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "o0pKDRi9P68",
+     "titulo": "\"Friendly\" NYPD Officer Has No Idea The $7,000 Hitman She Paid Is An FBI Agent",
+     "publicado": "2026-10-28",
+     "duracao_min": 19.8,
+     "views": 4236593,
+     "thumb": "https://i.ytimg.com/vi/o0pKDRi9P68/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=o0pKDRi9P68"
+    },
+    {
+     "id": "NOFl_FnrCh0",
+     "titulo": "“Friendly” Officer Has No Idea Police Are About To Arrest Him For Murder",
+     "publicado": "2026-09-22",
+     "duracao_min": 46.7,
+     "views": 801463,
+     "thumb": "https://i.ytimg.com/vi/NOFl_FnrCh0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=NOFl_FnrCh0"
+    },
+    {
+     "id": "hPkSuPn12PY",
+     "titulo": "\"Friendly\" Wife Has No Idea The Hitman She Hired Is An Undercover Cop",
+     "publicado": "2026-10-03",
+     "duracao_min": 36.0,
+     "views": 618987,
+     "thumb": "https://i.ytimg.com/vi/hPkSuPn12PY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=hPkSuPn12PY"
+    },
+    {
+     "id": "J0GWpyReInI",
+     "titulo": "“Friendly” CHP Captain Has No Idea The FBI Is Tracking Her Hitman’s Burner Phone",
+     "publicado": "2026-11-09",
+     "duracao_min": 22.8,
+     "views": 471642,
+     "thumb": "https://i.ytimg.com/vi/J0GWpyReInI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=J0GWpyReInI"
+    },
+    {
+     "id": "54m8rjpCAlE",
+     "titulo": "Corrupt Cop Has No Idea DNA On His Zipper Just Exposed His Crime",
+     "publicado": "2026-10-06",
+     "duracao_min": 43.6,
+     "views": 260607,
+     "thumb": "https://i.ytimg.com/vi/54m8rjpCAlE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=54m8rjpCAlE"
+    },
+    {
+     "id": "U71bxQrDgEE",
+     "titulo": "“‘Friendly’ LAPD Detective Has No Idea She’s Being Interrogated For Her Own Murder Case",
+     "publicado": "2026-09-24",
+     "duracao_min": 26.6,
+     "views": 113719,
+     "thumb": "https://i.ytimg.com/vi/U71bxQrDgEE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=U71bxQrDgEE"
+    },
+    {
+     "id": "BnvSu7PxZ_4",
+     "titulo": "Cop Caught Up In His Act Has No Idea His Victim's Recorded Call Exposed His Murder",
+     "publicado": "2026-10-11",
+     "duracao_min": 31.8,
+     "views": 107535,
+     "thumb": "https://i.ytimg.com/vi/BnvSu7PxZ_4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=BnvSu7PxZ_4"
+    },
+    {
+     "id": "EsW6Dg1BaS4",
+     "titulo": "“Friendly” Officer Disguises His Wife’s Murder As An Accident Has No Idea She Wrote It Down",
+     "publicado": "2026-11-01",
+     "duracao_min": 25.2,
+     "views": 106963,
+     "thumb": "https://i.ytimg.com/vi/EsW6Dg1BaS4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=EsW6Dg1BaS4"
+    },
+    {
+     "id": "-WimvIWgOFk",
+     "titulo": "\"Friendly\" Police Captain Busted Stealing $25K from Disabled Detective",
+     "publicado": "2026-11-12",
+     "duracao_min": 34.7,
+     "views": 93620,
+     "thumb": "https://i.ytimg.com/vi/-WimvIWgOFk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=-WimvIWgOFk"
+    },
+    {
+     "id": "giF2mlFxAXU",
+     "titulo": "Former 'American Idol' Has No Idea 100,000 Deleted Texts Just Exposed Why He Killed His Wife",
+     "publicado": "2026-10-08",
+     "duracao_min": 32.6,
+     "views": 89806,
+     "thumb": "https://i.ytimg.com/vi/giF2mlFxAXU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=giF2mlFxAXU"
+    },
+    {
+     "id": "YC1ZXUGnVkg",
+     "titulo": "“Friendly” Ex Jail Officer Has No Idea The Hitman She Hired To Kill 2 People Is An Undercover Cop",
+     "publicado": "2026-11-05",
+     "duracao_min": 26.3,
+     "views": 61209,
+     "thumb": "https://i.ytimg.com/vi/YC1ZXUGnVkg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=YC1ZXUGnVkg"
+    },
+    {
+     "id": "ih_QhMy-hWw",
+     "titulo": "Patrol Officer Has No Idea DNA Under The Victim's Nails Just Exposed The Murder Of His Lover",
+     "publicado": "2026-09-29",
+     "duracao_min": 42.4,
+     "views": 45265,
+     "thumb": "https://i.ytimg.com/vi/ih_QhMy-hWw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ih_QhMy-hWw"
+    },
+    {
+     "id": "5i_Ke4ZcCyk",
+     "titulo": "\"Jolly\" 77-Year-Old Grandpa Has No Idea Police Just Connected His DNA to a 1974 Murder",
+     "publicado": "2026-10-23",
+     "duracao_min": 47.3,
+     "views": 22618,
+     "thumb": "https://i.ytimg.com/vi/5i_Ke4ZcCyk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5i_Ke4ZcCyk"
+    },
+    {
+     "id": "unnpplCxYBg",
+     "titulo": "Former US Navy Has No Idea His Victim's Scratches Exposed Him For Murder",
+     "publicado": "2026-10-17",
+     "duracao_min": 47.2,
+     "views": 18697,
+     "thumb": "https://i.ytimg.com/vi/unnpplCxYBg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=unnpplCxYBg"
+    },
+    {
+     "id": "QkOvT6BVuoE",
+     "titulo": "\"Playful\" Girlfriend Has No Idea Her Own Phone Recorded Everything",
+     "publicado": "2026-10-14",
+     "duracao_min": 35.5,
+     "views": 11872,
+     "thumb": "https://i.ytimg.com/vi/QkOvT6BVuoE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=QkOvT6BVuoE"
+    },
+    {
+     "id": "PAjHvBnlDks",
+     "titulo": "Corrupt Cop Unaware Cameras Caught Her Escape Plan With Killer Lover",
+     "publicado": "2026-11-15",
+     "duracao_min": 29.9,
+     "views": 11602,
+     "thumb": "https://i.ytimg.com/vi/PAjHvBnlDks/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PAjHvBnlDks"
+    },
+    {
+     "id": "p34cdB3xZRA",
+     "titulo": "“Friendly” Dallas Officer Has No Idea 2 Deleted Texts Would Expose Her As A Killer",
+     "publicado": "2026-11-17",
+     "duracao_min": 24.8,
+     "views": 5091,
+     "thumb": "https://i.ytimg.com/vi/p34cdB3xZRA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=p34cdB3xZRA"
+    },
+    {
+     "id": "B6MmGhzxP6s",
+     "titulo": "DOCS 187 Has Joined !",
+     "publicado": "2026-10-06",
+     "duracao_min": 1.3,
+     "views": 2716,
+     "thumb": "https://i.ytimg.com/vi/B6MmGhzxP6s/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=B6MmGhzxP6s"
+    }
+   ],
+   "score": 121904,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 152518
+  },
+  {
+   "id": "UCBV6H_ZzQHW8O1h7NoiaW_w",
+   "titulo": "Born in Lore",
+   "url": "https://www.youtube.com/channel/UCBV6H_ZzQHW8O1h7NoiaW_w",
+   "pais": "US",
+   "criado": "2026-10-28",
+   "primeiro_video": "2026-10-28",
+   "idade_dias": 22,
+   "videos": 8,
+   "views": 2360225,
+   "inscritos": 13800,
+   "media_views": 295028,
+   "views_por_inscrito": 171.0,
+   "descricao": "What if you were born as your favorite video game character?\nBorn in Lore tells the whole life of a game character as if it were yours: where you're born, who raises you, the training, the first fight, the big mistakes, the people you love, and how it all ends. Every story follows the official lore ",
+   "buscas": [
+    "war history",
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "cB5AnPSKXr8",
+     "titulo": "What If You Were Born as Kratos? | God of War",
+     "publicado": "2026-10-30",
+     "duracao_min": 8.1,
+     "views": 950708,
+     "thumb": "https://i.ytimg.com/vi/cB5AnPSKXr8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=cB5AnPSKXr8"
+    },
+    {
+     "id": "vZ2eX-tIBDI",
+     "titulo": "What If You Were Born as CJ? | GTA San Andreas",
+     "publicado": "2026-11-12",
+     "duracao_min": 11.2,
+     "views": 770617,
+     "thumb": "https://i.ytimg.com/vi/vZ2eX-tIBDI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vZ2eX-tIBDI"
+    },
+    {
+     "id": "q8JM9uxkPFc",
+     "titulo": "What If You Were Born as Master Chief? | Halo",
+     "publicado": "2026-11-07",
+     "duracao_min": 12.9,
+     "views": 378059,
+     "thumb": "https://i.ytimg.com/vi/q8JM9uxkPFc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=q8JM9uxkPFc"
+    },
+    {
+     "id": "WKJKhnOD65o",
+     "titulo": "What If You Were Born as Arthur Morgan? | Red Dead Redemption 2",
+     "publicado": "2026-11-01",
+     "duracao_min": 9.3,
+     "views": 272132,
+     "thumb": "https://i.ytimg.com/vi/WKJKhnOD65o/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WKJKhnOD65o"
+    },
+    {
+     "id": "pVUgJt1sDmI",
+     "titulo": "What If You Were Born as Ghost? | Call of Duty",
+     "publicado": "2026-11-18",
+     "duracao_min": 13.3,
+     "views": 240377,
+     "thumb": "https://i.ytimg.com/vi/pVUgJt1sDmI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=pVUgJt1sDmI"
+    },
+    {
+     "id": "aX0dwYkdBjY",
+     "titulo": "What If You Were Born as Ezio Auditore? | Assassin's Creed",
+     "publicado": "2026-11-03",
+     "duracao_min": 11.8,
+     "views": 196854,
+     "thumb": "https://i.ytimg.com/vi/aX0dwYkdBjY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=aX0dwYkdBjY"
+    },
+    {
+     "id": "yLXdl9RUwPI",
+     "titulo": "What If You Were Born as Geralt of Rivia? | The Witcher",
+     "publicado": "2026-10-28",
+     "duracao_min": 6.9,
+     "views": 17042,
+     "thumb": "https://i.ytimg.com/vi/yLXdl9RUwPI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=yLXdl9RUwPI"
+    },
+    {
+     "id": "eEyqvotSiYA",
+     "titulo": "If You Were Born as Ghost, You'd Be Buried Alive 💀 #shorts",
+     "publicado": "2026-11-18",
+     "duracao_min": 0.9,
+     "views": 5016,
+     "thumb": "https://i.ytimg.com/vi/eEyqvotSiYA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=eEyqvotSiYA"
+    }
+   ],
+   "score": 107283,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCGq-HJz-z-DCMwqAuRJwQIQ",
+   "titulo": "Iflord",
+   "url": "https://www.youtube.com/channel/UCGq-HJz-z-DCMwqAuRJwQIQ",
+   "pais": "CA",
+   "criado": "2007-08-08",
+   "primeiro_video": "2026-10-20",
+   "idade_dias": 29,
+   "videos": 19,
+   "views": 3063819,
+   "inscritos": 13800,
+   "media_views": 161253,
+   "views_por_inscrito": 222.0,
+   "descricao": "What if one tiny change rewrote your whole life?\n\nIfinitum turns impossible questions into animated stories. What if you lived the same day forever? What if you could hear every thought around you? What if gravity switched off for one minute?\n\nEvery episode mixes real science with one character's wi",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "M_t2ZUz7_pc",
+     "titulo": "What If You Were Immortal?",
+     "publicado": "2026-10-20",
+     "duracao_min": 8.8,
+     "views": 1293786,
+     "thumb": "https://i.ytimg.com/vi/M_t2ZUz7_pc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=M_t2ZUz7_pc"
+    },
+    {
+     "id": "jJCQG4Actqk",
+     "titulo": "What If You Never Missed?",
+     "publicado": "2026-10-22",
+     "duracao_min": 8.2,
+     "views": 668593,
+     "thumb": "https://i.ytimg.com/vi/jJCQG4Actqk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=jJCQG4Actqk"
+    },
+    {
+     "id": "HHCZwBQBt6g",
+     "titulo": "What If You Lived the Same Day Forever?",
+     "publicado": "2026-10-22",
+     "duracao_min": 10.6,
+     "views": 300564,
+     "thumb": "https://i.ytimg.com/vi/HHCZwBQBt6g/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=HHCZwBQBt6g"
+    },
+    {
+     "id": "YLcSinTIGlo",
+     "titulo": "What If Your IQ Doubled Every Day?",
+     "publicado": "2026-11-03",
+     "duracao_min": 9.4,
+     "views": 289610,
+     "thumb": "https://i.ytimg.com/vi/YLcSinTIGlo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=YLcSinTIGlo"
+    },
+    {
+     "id": "SsoTjyVlMHI",
+     "titulo": "What If You Felt No Pain?",
+     "publicado": "2026-10-25",
+     "duracao_min": 8.0,
+     "views": 121360,
+     "thumb": "https://i.ytimg.com/vi/SsoTjyVlMHI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=SsoTjyVlMHI"
+    },
+    {
+     "id": "ey2UxOdyZMQ",
+     "titulo": "What If You Knew When Everyone Would Die?",
+     "publicado": "2026-10-25",
+     "duracao_min": 9.2,
+     "views": 97067,
+     "thumb": "https://i.ytimg.com/vi/ey2UxOdyZMQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ey2UxOdyZMQ"
+    },
+    {
+     "id": "FKezpSvDtw4",
+     "titulo": "What If You Were Indestructible?",
+     "publicado": "2026-10-29",
+     "duracao_min": 9.8,
+     "views": 71329,
+     "thumb": "https://i.ytimg.com/vi/FKezpSvDtw4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=FKezpSvDtw4"
+    },
+    {
+     "id": "KbiT7wwtWGc",
+     "titulo": "What If You Could Copy Any Skill Just by Watching?",
+     "publicado": "2026-10-27",
+     "duracao_min": 8.0,
+     "views": 63704,
+     "thumb": "https://i.ytimg.com/vi/KbiT7wwtWGc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=KbiT7wwtWGc"
+    },
+    {
+     "id": "7jLDdD-uIEQ",
+     "titulo": "What If You Could Control Electricity?",
+     "publicado": "2026-10-28",
+     "duracao_min": 8.6,
+     "views": 45648,
+     "thumb": "https://i.ytimg.com/vi/7jLDdD-uIEQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=7jLDdD-uIEQ"
+    },
+    {
+     "id": "gjheQRp4Zj8",
+     "titulo": "What IF You Were Invisible?",
+     "publicado": "2026-10-23",
+     "duracao_min": 8.7,
+     "views": 42184,
+     "thumb": "https://i.ytimg.com/vi/gjheQRp4Zj8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=gjheQRp4Zj8"
+    },
+    {
+     "id": "GygIpQ4a0ZE",
+     "titulo": "What If You Ran Faster Than Sound?",
+     "publicado": "2026-11-07",
+     "duracao_min": 8.6,
+     "views": 40697,
+     "thumb": "https://i.ytimg.com/vi/GygIpQ4a0ZE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=GygIpQ4a0ZE"
+    },
+    {
+     "id": "4MZnq6hTP70",
+     "titulo": "What If You Could Control People?",
+     "publicado": "2026-11-10",
+     "duracao_min": 10.0,
+     "views": 11056,
+     "thumb": "https://i.ytimg.com/vi/4MZnq6hTP70/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4MZnq6hTP70"
+    },
+    {
+     "id": "YDbDEHcey0w",
+     "titulo": "What If Everything You Touched Turned to Gold?",
+     "publicado": "2026-11-05",
+     "duracao_min": 8.0,
+     "views": 9289,
+     "thumb": "https://i.ytimg.com/vi/YDbDEHcey0w/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=YDbDEHcey0w"
+    },
+    {
+     "id": "mEfo98Fnsf4",
+     "titulo": "What If You Could Never Die? 😳 #whatif #shorts",
+     "publicado": "2026-10-20",
+     "duracao_min": 0.6,
+     "views": 8140,
+     "thumb": "https://i.ytimg.com/vi/mEfo98Fnsf4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=mEfo98Fnsf4"
+    },
+    {
+     "id": "h4n-u50DMSo",
+     "titulo": "What If You Could Never Miss? 🏀 #shorts",
+     "publicado": "2026-10-23",
+     "duracao_min": 0.5,
+     "views": 4172,
+     "thumb": "https://i.ytimg.com/vi/h4n-u50DMSo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=h4n-u50DMSo"
+    },
+    {
+     "id": "YBybDMte5Vc",
+     "titulo": "What If You Could Clone Yourself?",
+     "publicado": "2026-11-13",
+     "duracao_min": 8.2,
+     "views": 4129,
+     "thumb": "https://i.ytimg.com/vi/YBybDMte5Vc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=YBybDMte5Vc"
+    },
+    {
+     "id": "GoAhARVmJAg",
+     "titulo": "What If You Could Read Every Mind on Earth?",
+     "publicado": "2026-11-15",
+     "duracao_min": 8.7,
+     "views": 1157,
+     "thumb": "https://i.ytimg.com/vi/GoAhARVmJAg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=GoAhARVmJAg"
+    },
+    {
+     "id": "QSTVDhfzPa4",
+     "titulo": "What If You Could See Who Has a Crush on You?",
+     "publicado": "2026-11-15",
+     "duracao_min": 8.7,
+     "views": 1008,
+     "thumb": "https://i.ytimg.com/vi/QSTVDhfzPa4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=QSTVDhfzPa4"
+    },
+    {
+     "id": "WctAohSnk_w",
+     "titulo": "What If You Got Handcuffed to Your Crush for 24 Hours?",
+     "publicado": "2026-11-17",
+     "duracao_min": 9.2,
+     "views": 410,
+     "thumb": "https://i.ytimg.com/vi/WctAohSnk_w/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WctAohSnk_w"
+    }
+   ],
+   "score": 105649,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 65091
+  },
+  {
+   "id": "UCr02LyWl33rqFI2hF1dwStg",
+   "titulo": "Popden",
+   "url": "https://www.youtube.com/channel/UCr02LyWl33rqFI2hF1dwStg",
+   "pais": "IN",
+   "criado": "2026-03-27",
+   "primeiro_video": "2026-10-30",
+   "idade_dias": 20,
+   "videos": 20,
+   "views": 2053193,
+   "inscritos": 2020,
+   "media_views": 102659,
+   "views_por_inscrito": 1016.4,
+   "descricao": "Movies and pop culture, broken down by a fan who actually watches them.\n\nI'm Pop. I review the big releases on opening day, explain the stories and lore behind them, and settle the \"who wins\" debates. Made for cinephiles, and for anyone who loves movies as much as I do.\n\nEvery video is my own resear",
+   "buscas": [
+    "history explained",
+    "lore explained"
+   ],
+   "videos_lista": [
+    {
+     "id": "rIsVYfIIgHQ",
+     "titulo": "Ramayana Explained for Americans in 14 Minutes",
+     "publicado": "2026-11-01",
+     "duracao_min": 14.1,
+     "views": 769638,
+     "thumb": "https://i.ytimg.com/vi/rIsVYfIIgHQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=rIsVYfIIgHQ"
+    },
+    {
+     "id": "B1sdPehE_tw",
+     "titulo": "Can Ramayana Win Over America?",
+     "publicado": "2026-10-30",
+     "duracao_min": 9.1,
+     "views": 276231,
+     "thumb": "https://i.ytimg.com/vi/B1sdPehE_tw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=B1sdPehE_tw"
+    },
+    {
+     "id": "rc1weD5bjjY",
+     "titulo": "Ramayana Was Peak (Spoiler Talk)",
+     "publicado": "2026-11-06",
+     "duracao_min": 15.5,
+     "views": 238139,
+     "thumb": "https://i.ytimg.com/vi/rc1weD5bjjY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=rc1weD5bjjY"
+    },
+    {
+     "id": "pIY9HRlm-Mk",
+     "titulo": "Every Godzilla Monster Explained in 13 Minutes",
+     "publicado": "2026-11-03",
+     "duracao_min": 12.7,
+     "views": 212892,
+     "thumb": "https://i.ytimg.com/vi/pIY9HRlm-Mk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=pIY9HRlm-Mk"
+    },
+    {
+     "id": "4bcL3oR-964",
+     "titulo": "Ramayana Almost Did It!!",
+     "publicado": "2026-11-05",
+     "duracao_min": 4.1,
+     "views": 168337,
+     "thumb": "https://i.ytimg.com/vi/4bcL3oR-964/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4bcL3oR-964"
+    },
+    {
+     "id": "ePGZmo0bXD8",
+     "titulo": "Ramayana vs Godzilla: Who Wins America?",
+     "publicado": "2026-11-03",
+     "duracao_min": 6.8,
+     "views": 122427,
+     "thumb": "https://i.ytimg.com/vi/ePGZmo0bXD8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ePGZmo0bXD8"
+    },
+    {
+     "id": "ZWZBI1w9cEo",
+     "titulo": "Every Ramayana God Explained for Americans in 11 Minutes",
+     "publicado": "2026-11-04",
+     "duracao_min": 10.5,
+     "views": 49262,
+     "thumb": "https://i.ytimg.com/vi/ZWZBI1w9cEo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ZWZBI1w9cEo"
+    },
+    {
+     "id": "gV0XktLwi5Q",
+     "titulo": "Doctor Doom Roasted Reed Richards.",
+     "publicado": "2026-11-16",
+     "duracao_min": 1.1,
+     "views": 44562,
+     "thumb": "https://i.ytimg.com/vi/gV0XktLwi5Q/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=gV0XktLwi5Q"
+    },
+    {
+     "id": "8lNvhpYWdGw",
+     "titulo": "Doctor Doom Beat Everyone in One Shot 😨\"?",
+     "publicado": "2026-11-17",
+     "duracao_min": 1.1,
+     "views": 43787,
+     "thumb": "https://i.ytimg.com/vi/8lNvhpYWdGw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8lNvhpYWdGw"
+    },
+    {
+     "id": "l5ZL8rrOK3g",
+     "titulo": "Doctor Doom Was Killed By his teacher 😨",
+     "publicado": "2026-11-14",
+     "duracao_min": 0.7,
+     "views": 24469,
+     "thumb": "https://i.ytimg.com/vi/l5ZL8rrOK3g/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=l5ZL8rrOK3g"
+    },
+    {
+     "id": "SwCSwo85ZG0",
+     "titulo": "Doctor Doom Went Shopping for a Monster?",
+     "publicado": "2026-11-15",
+     "duracao_min": 1.1,
+     "views": 23627,
+     "thumb": "https://i.ytimg.com/vi/SwCSwo85ZG0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=SwCSwo85ZG0"
+    },
+    {
+     "id": "ou8_eakx0xc",
+     "titulo": "Everyone Is Wrong About Ramayana's Hanuman",
+     "publicado": "2026-11-12",
+     "duracao_min": 11.5,
+     "views": 23337,
+     "thumb": "https://i.ytimg.com/vi/ou8_eakx0xc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ou8_eakx0xc"
+    },
+    {
+     "id": "u3NscI86PL8",
+     "titulo": "Is John Walker Stronger Than Captain America?",
+     "publicado": "2026-11-17",
+     "duracao_min": 1.2,
+     "views": 21387,
+     "thumb": "https://i.ytimg.com/vi/u3NscI86PL8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=u3NscI86PL8"
+    },
+    {
+     "id": "N2ynafOfhAY",
+     "titulo": "What Ramayana 2 Must Fix",
+     "publicado": "2026-11-08",
+     "duracao_min": 8.9,
+     "views": 20013,
+     "thumb": "https://i.ytimg.com/vi/N2ynafOfhAY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=N2ynafOfhAY"
+    },
+    {
+     "id": "gVn9MVroukI",
+     "titulo": "Watch This Before Godzilla Minus Zero",
+     "publicado": "2026-11-02",
+     "duracao_min": 10.3,
+     "views": 19687,
+     "thumb": "https://i.ytimg.com/vi/gVn9MVroukI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=gVn9MVroukI"
+    },
+    {
+     "id": "CyNqWfCSaFM",
+     "titulo": "Why Doctor Doom Really Wants Wanda",
+     "publicado": "2026-11-15",
+     "duracao_min": 6.7,
+     "views": 6872,
+     "thumb": "https://i.ytimg.com/vi/CyNqWfCSaFM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=CyNqWfCSaFM"
+    },
+    {
+     "id": "E4pEZ2GiyVU",
+     "titulo": "Robert Pattinson Said He'd Be James Bond… in 20 Years? 😳",
+     "publicado": "2026-11-17",
+     "duracao_min": 1.0,
+     "views": 3695,
+     "thumb": "https://i.ytimg.com/vi/E4pEZ2GiyVU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=E4pEZ2GiyVU"
+    },
+    {
+     "id": "YOt-7pXrqDY",
+     "titulo": "His Girlfriend Saved Doctor Doom 😳",
+     "publicado": "2026-11-14",
+     "duracao_min": 0.7,
+     "views": 2903,
+     "thumb": "https://i.ytimg.com/vi/YOt-7pXrqDY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=YOt-7pXrqDY"
+    },
+    {
+     "id": "PLJUs39Ejdo",
+     "titulo": "Dr. Doom Sacrificed His Girlfriend For Power",
+     "publicado": "2026-11-15",
+     "duracao_min": 0.8,
+     "views": 2646,
+     "thumb": "https://i.ytimg.com/vi/PLJUs39Ejdo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PLJUs39Ejdo"
+    },
+    {
+     "id": "kk5sGwNNM0E",
+     "titulo": "The Most Painful Doctor Doom Deaths",
+     "publicado": "2026-11-13",
+     "duracao_min": 11.9,
+     "views": 1036,
+     "thumb": "https://i.ytimg.com/vi/kk5sGwNNM0E/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=kk5sGwNNM0E"
+    }
+   ],
+   "score": 102660,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 723770
+  },
+  {
+   "id": "UC6aW-wtJ9tXvRv1YyyJt1ZQ",
+   "titulo": "Hushed Case",
+   "url": "https://www.youtube.com/channel/UC6aW-wtJ9tXvRv1YyyJt1ZQ",
+   "pais": "US",
+   "criado": "2026-10-20",
+   "primeiro_video": "2026-10-22",
+   "idade_dias": 28,
+   "videos": 19,
+   "views": 2741310,
+   "inscritos": 3940,
+   "media_views": 144279,
+   "views_por_inscrito": 695.8,
+   "descricao": "Hushed Case is a true crime documentary channel that tells the full story behind real criminal cases from across the United States.\n\nFrom missing persons and fraud schemes to complex investigations and high-profile courtroom trials, we cover every kind of case. Each true crime documentary walks you ",
+   "buscas": [
+    "true crime documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "yVhithLFZ_E",
+     "titulo": "\"Friendly\" Wife Has No Clue The $50,000 Hitman Is An Undercover COP",
+     "publicado": "2026-10-25",
+     "duracao_min": 18.2,
+     "views": 2246172,
+     "thumb": "https://i.ytimg.com/vi/yVhithLFZ_E/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=yVhithLFZ_E"
+    },
+    {
+     "id": "JHuYB0CXJrs",
+     "titulo": "\"Friendly\" Wife Has No Clue the $680K Policy Goes to His DAUGHTERS",
+     "publicado": "2026-11-11",
+     "duracao_min": 27.1,
+     "views": 319934,
+     "thumb": "https://i.ytimg.com/vi/JHuYB0CXJrs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=JHuYB0CXJrs"
+    },
+    {
+     "id": "-MGnc2CFn3w",
+     "titulo": "Ex-Model Hires A Hitman For Her Husband's Ex, Has No Idea He's A Cop",
+     "publicado": "2026-11-15",
+     "duracao_min": 28.6,
+     "views": 80666,
+     "thumb": "https://i.ytimg.com/vi/-MGnc2CFn3w/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=-MGnc2CFn3w"
+    },
+    {
+     "id": "eKNHp5dS4Pk",
+     "titulo": "\"Best Friend\" KILLER Has No Idea Cops Found The Gun In The Bus Trash",
+     "publicado": "2026-10-24",
+     "duracao_min": 26.9,
+     "views": 24203,
+     "thumb": "https://i.ytimg.com/vi/eKNHp5dS4Pk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=eKNHp5dS4Pk"
+    },
+    {
+     "id": "utKy7NwRobA",
+     "titulo": "\"Friendly\" Mom Has No Idea Her $500 Hitman Already Called POLICE",
+     "publicado": "2026-11-17",
+     "duracao_min": 25.2,
+     "views": 21621,
+     "thumb": "https://i.ytimg.com/vi/utKy7NwRobA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=utKy7NwRobA"
+    },
+    {
+     "id": "995dpDtaPVE",
+     "titulo": "Pastor HAS NO IDEA His Mistress Will Read \"Kill Her\" To The Jury!!",
+     "publicado": "2026-10-26",
+     "duracao_min": 24.8,
+     "views": 18986,
+     "thumb": "https://i.ytimg.com/vi/995dpDtaPVE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=995dpDtaPVE"
+    },
+    {
+     "id": "5ZQwAS96ssU",
+     "titulo": "\"Jailed\" Wife Hired A Hitman, Has No Idea He Was An Undercover Cop",
+     "publicado": "2026-11-16",
+     "duracao_min": 27.8,
+     "views": 16800,
+     "thumb": "https://i.ytimg.com/vi/5ZQwAS96ssU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5ZQwAS96ssU"
+    },
+    {
+     "id": "N9oG7WwLiE4",
+     "titulo": "\"Polite\" Wife Has No Idea Bodycam Caught Her 4 Days Before MURDER",
+     "publicado": "2026-10-29",
+     "duracao_min": 29.9,
+     "views": 13426,
+     "thumb": "https://i.ytimg.com/vi/N9oG7WwLiE4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=N9oG7WwLiE4"
+    },
+    {
+     "id": "0ltWd68KXz0",
+     "titulo": "\"Grieving\" Wife Has No Idea Cops Already Matched Her Lover's DNA",
+     "publicado": "2026-11-18",
+     "duracao_min": 30.0,
+     "views": 12048,
+     "thumb": "https://i.ytimg.com/vi/0ltWd68KXz0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=0ltWd68KXz0"
+    },
+    {
+     "id": "KaYVwQP2NV4",
+     "titulo": "\"Grieving\" Husband Has No Idea The Hitman Used His GARAGE CODE",
+     "publicado": "2026-10-28",
+     "duracao_min": 29.2,
+     "views": 10647,
+     "thumb": "https://i.ytimg.com/vi/KaYVwQP2NV4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=KaYVwQP2NV4"
+    },
+    {
+     "id": "wguJS7K00Qc",
+     "titulo": "\"Loving\" Wife Has No Clue Her $1,000,000 Policy Just Became EVIDENCE",
+     "publicado": "2026-11-13",
+     "duracao_min": 28.0,
+     "views": 9683,
+     "thumb": "https://i.ytimg.com/vi/wguJS7K00Qc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=wguJS7K00Qc"
+    },
+    {
+     "id": "qSHttrxIheQ",
+     "titulo": "Dad HAS NO IDEA His 5-Year-Old Is Telling Deputies \"DADDY SHOT JESS\"",
+     "publicado": "2026-10-22",
+     "duracao_min": 13.5,
+     "views": 7670,
+     "thumb": "https://i.ytimg.com/vi/qSHttrxIheQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=qSHttrxIheQ"
+    },
+    {
+     "id": "A2YGeQX_nTE",
+     "titulo": "\"Devoted\" Husband Has No Clue His $149 Trash Can Is EVIDENCE",
+     "publicado": "2026-11-10",
+     "duracao_min": 28.6,
+     "views": 6187,
+     "thumb": "https://i.ytimg.com/vi/A2YGeQX_nTE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=A2YGeQX_nTE"
+    },
+    {
+     "id": "HjFKmQIk7Eo",
+     "titulo": "\"Grieving\" Widow Has No Idea Her Hidden Camera Exposed The MURDER",
+     "publicado": "2026-10-31",
+     "duracao_min": 29.8,
+     "views": 4485,
+     "thumb": "https://i.ytimg.com/vi/HjFKmQIk7Eo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=HjFKmQIk7Eo"
+    },
+    {
+     "id": "hmyQAA8hJrk",
+     "titulo": "\"Friendly\" Widow Calls Her Lover, Has No Idea Police Are LISTENING",
+     "publicado": "2026-11-02",
+     "duracao_min": 29.1,
+     "views": 2581,
+     "thumb": "https://i.ytimg.com/vi/hmyQAA8hJrk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=hmyQAA8hJrk"
+    },
+    {
+     "id": "ZYzM3JU_0nc",
+     "titulo": "\"Friendly\" Husband Has No Idea His $10,000 Murder Plot Backfired",
+     "publicado": "2026-11-14",
+     "duracao_min": 20.1,
+     "views": 2199,
+     "thumb": "https://i.ytimg.com/vi/ZYzM3JU_0nc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ZYzM3JU_0nc"
+    },
+    {
+     "id": "dJZGfqTI9tk",
+     "titulo": "15-Year-Old Has No Idea Police Saw His Mom's Van Still RUNNING",
+     "publicado": "2026-11-08",
+     "duracao_min": 28.8,
+     "views": 1833,
+     "thumb": "https://i.ytimg.com/vi/dJZGfqTI9tk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=dJZGfqTI9tk"
+    },
+    {
+     "id": "87w1zsLkBkI",
+     "titulo": "\"Friendly\" Husband Has No Clue 2 NURSES Are On The Same Trail",
+     "publicado": "2026-11-06",
+     "duracao_min": 29.8,
+     "views": 800,
+     "thumb": "https://i.ytimg.com/vi/87w1zsLkBkI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=87w1zsLkBkI"
+    },
+    {
+     "id": "xyXasBPXl64",
+     "titulo": "\"Devoted\" Wife Has No Idea Detectives Will Read Her Own Phone",
+     "publicado": "2026-11-09",
+     "duracao_min": 25.4,
+     "views": 748,
+     "thumb": "https://i.ytimg.com/vi/xyXasBPXl64/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xyXasBPXl64"
+    }
+   ],
+   "score": 97904,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCxDgDZTADoIDno8KD8kiGgQ",
+   "titulo": "CEOzoned",
+   "url": "https://www.youtube.com/channel/UCxDgDZTADoIDno8KD8kiGgQ",
+   "pais": "US",
+   "criado": "2026-09-30",
+   "primeiro_video": "2026-10-05",
+   "idade_dias": 44,
+   "videos": 19,
+   "views": 4220368,
+   "inscritos": 31500,
+   "media_views": 222124,
+   "views_por_inscrito": 134.0,
+   "descricao": "Just a guy who loves exploring companies and dreams to become the CEO of Apple.\n\n📩 johnunraveled@gmail.com\n",
+   "buscas": [
+    "entire history of"
+   ],
+   "videos_lista": [
+    {
+     "id": "tBhMUTp4FVc",
+     "titulo": "The ENTIRE History of NVIDIA in 14 Minutes",
+     "publicado": "2026-10-14",
+     "duracao_min": 13.6,
+     "views": 1359446,
+     "thumb": "https://i.ytimg.com/vi/tBhMUTp4FVc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=tBhMUTp4FVc"
+    },
+    {
+     "id": "_OuJBX6Q4Cc",
+     "titulo": "The ENTIRE History of Coca-Cola in 11 Minutes",
+     "publicado": "2026-10-09",
+     "duracao_min": 11.0,
+     "views": 1281513,
+     "thumb": "https://i.ytimg.com/vi/_OuJBX6Q4Cc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=_OuJBX6Q4Cc"
+    },
+    {
+     "id": "xFQcJVGv0g8",
+     "titulo": "The ENTIRE History of Warren Buffett in 13 Minutes",
+     "publicado": "2026-11-07",
+     "duracao_min": 13.5,
+     "views": 378702,
+     "thumb": "https://i.ytimg.com/vi/xFQcJVGv0g8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xFQcJVGv0g8"
+    },
+    {
+     "id": "ITdjQVhTua8",
+     "titulo": "The ENTIRE History of ChatGPT in 12 Minutes",
+     "publicado": "2026-10-10",
+     "duracao_min": 12.1,
+     "views": 354177,
+     "thumb": "https://i.ytimg.com/vi/ITdjQVhTua8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ITdjQVhTua8"
+    },
+    {
+     "id": "idTq9ArggVc",
+     "titulo": "The ENTIRE History of Elon Musk in 9 Minutes",
+     "publicado": "2026-10-12",
+     "duracao_min": 9.3,
+     "views": 280746,
+     "thumb": "https://i.ytimg.com/vi/idTq9ArggVc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=idTq9ArggVc"
+    },
+    {
+     "id": "TZIOfwN7bVI",
+     "titulo": "The ENTIRE History of SpaceX in 9 Minutes",
+     "publicado": "2026-10-11",
+     "duracao_min": 8.9,
+     "views": 261679,
+     "thumb": "https://i.ytimg.com/vi/TZIOfwN7bVI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=TZIOfwN7bVI"
+    },
+    {
+     "id": "HJjXqN66iYg",
+     "titulo": "The ENTIRE History of Facebook in 16 Minutes",
+     "publicado": "2026-10-08",
+     "duracao_min": 16.2,
+     "views": 153750,
+     "thumb": "https://i.ytimg.com/vi/HJjXqN66iYg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=HJjXqN66iYg"
+    },
+    {
+     "id": "UABTTt-DRSY",
+     "titulo": "The ENTIRE History of Apple in 14 Minutes",
+     "publicado": "2026-10-05",
+     "duracao_min": 13.8,
+     "views": 44710,
+     "thumb": "https://i.ytimg.com/vi/UABTTt-DRSY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=UABTTt-DRSY"
+    },
+    {
+     "id": "RxQ0Ncs7uVk",
+     "titulo": "The ENTIRE History of KFC in 12 Minutes",
+     "publicado": "2026-11-05",
+     "duracao_min": 12.6,
+     "views": 41273,
+     "thumb": "https://i.ytimg.com/vi/RxQ0Ncs7uVk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=RxQ0Ncs7uVk"
+    },
+    {
+     "id": "0sUrH8uYhtA",
+     "titulo": "The ENTIRE History of TSMC in 10 Minutes",
+     "publicado": "2026-10-19",
+     "duracao_min": 10.4,
+     "views": 28827,
+     "thumb": "https://i.ytimg.com/vi/0sUrH8uYhtA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=0sUrH8uYhtA"
+    },
+    {
+     "id": "tUDQGCq_Gaw",
+     "titulo": "The ENTIRE History of Instagram in 18 Minutes",
+     "publicado": "2026-10-07",
+     "duracao_min": 17.7,
+     "views": 20544,
+     "thumb": "https://i.ytimg.com/vi/tUDQGCq_Gaw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=tUDQGCq_Gaw"
+    },
+    {
+     "id": "5bWfbFWLhW0",
+     "titulo": "The ENTIRE History of UFC in 14 Minutes",
+     "publicado": "2026-11-09",
+     "duracao_min": 13.7,
+     "views": 13682,
+     "thumb": "https://i.ytimg.com/vi/5bWfbFWLhW0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5bWfbFWLhW0"
+    },
+    {
+     "id": "PVOippEVNtk",
+     "titulo": "The ENTIRE History of Ferrari in 12 Minutes",
+     "publicado": "2026-11-14",
+     "duracao_min": 12.4,
+     "views": 11832,
+     "thumb": "https://i.ytimg.com/vi/PVOippEVNtk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PVOippEVNtk"
+    },
+    {
+     "id": "-NodPo7wPEs",
+     "titulo": "The ENTIRE History of Bill Gates in 14 Minutes",
+     "publicado": "2026-11-15",
+     "duracao_min": 13.7,
+     "views": 11599,
+     "thumb": "https://i.ytimg.com/vi/-NodPo7wPEs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=-NodPo7wPEs"
+    },
+    {
+     "id": "ReFf4VeRDB8",
+     "titulo": "The ENTIRE History of Tesla Roadster in 10 Minutes",
+     "publicado": "2026-11-03",
+     "duracao_min": 10.6,
+     "views": 10517,
+     "thumb": "https://i.ytimg.com/vi/ReFf4VeRDB8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ReFf4VeRDB8"
+    },
+    {
+     "id": "gZ4CXN01Ffk",
+     "titulo": "The Crash of NVIDIA in 11 Minutes",
+     "publicado": "2026-11-12",
+     "duracao_min": 11.0,
+     "views": 7364,
+     "thumb": "https://i.ytimg.com/vi/gZ4CXN01Ffk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=gZ4CXN01Ffk"
+    },
+    {
+     "id": "uBYrpFudYmw",
+     "titulo": "The ENTIRE History of Adidas in 10 Minutes",
+     "publicado": "2026-11-16",
+     "duracao_min": 10.0,
+     "views": 6542,
+     "thumb": "https://i.ytimg.com/vi/uBYrpFudYmw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=uBYrpFudYmw"
+    },
+    {
+     "id": "_p3-joK_BT0",
+     "titulo": "The ENTIRE History of Nokia in 13 Minutes",
+     "publicado": "2026-11-17",
+     "duracao_min": 12.6,
+     "views": 6206,
+     "thumb": "https://i.ytimg.com/vi/_p3-joK_BT0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=_p3-joK_BT0"
+    },
+    {
+     "id": "fWvty9Cn8VI",
+     "titulo": "The ENTIRE History of Donald Trump in 18 Minutes",
+     "publicado": "2026-11-18",
+     "duracao_min": 18.0,
+     "views": 1526,
+     "thumb": "https://i.ytimg.com/vi/fWvty9Cn8VI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=fWvty9Cn8VI"
+    }
+   ],
+   "score": 95917,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCpjbL7EjMFlpBwHbLMO-8vQ",
+   "titulo": "Shonen Timelines",
+   "url": "https://www.youtube.com/channel/UCpjbL7EjMFlpBwHbLMO-8vQ",
+   "pais": null,
+   "criado": "2023-12-17",
+   "primeiro_video": "2026-10-29",
+   "idade_dias": 20,
+   "videos": 10,
+   "views": 1877651,
+   "inscritos": 23000,
+   "media_views": 187765,
+   "views_por_inscrito": 81.6,
+   "descricao": "Naruto \"What If\" stories, told my way. 🍥\n\nEvery story starts from one question - what if Naruto and Sasuke woke up as kids with all their memories? - and becomes a new adventure with its own twists and its own ending. Series like \"Naruto & Sasuke Reborn\" continue part by part, and many ideas come st",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "r2uxUidsFZk",
+     "titulo": "What If Naruto and Sasuke Were Reborn With All Their Memories? (Part 1)",
+     "publicado": "2026-11-07",
+     "duracao_min": 35.5,
+     "views": 1401910,
+     "thumb": "https://i.ytimg.com/vi/r2uxUidsFZk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=r2uxUidsFZk"
+    },
+    {
+     "id": "w9-a3j1v9X0",
+     "titulo": "What If Naruto and Sasuke Were Reborn With All Their Memories? (Part 2)",
+     "publicado": "2026-11-09",
+     "duracao_min": 39.1,
+     "views": 269837,
+     "thumb": "https://i.ytimg.com/vi/w9-a3j1v9X0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=w9-a3j1v9X0"
+    },
+    {
+     "id": "jER_dysd_wg",
+     "titulo": "What If Naruto and Sasuke Were Reborn With All Their Memories? (Part 3)",
+     "publicado": "2026-11-17",
+     "duracao_min": 42.3,
+     "views": 86170,
+     "thumb": "https://i.ytimg.com/vi/jER_dysd_wg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=jER_dysd_wg"
+    },
+    {
+     "id": "hwbEGKcVjSg",
+     "titulo": "What If Itachi Gave Naruto His Mangekyō Sharingan Instead of Sasuke? (Part 1)",
+     "publicado": "2026-10-31",
+     "duracao_min": 34.7,
+     "views": 72678,
+     "thumb": "https://i.ytimg.com/vi/hwbEGKcVjSg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=hwbEGKcVjSg"
+    },
+    {
+     "id": "vJEU-29KawE",
+     "titulo": "What If Itachi Gave Naruto BOTH of His Eyes Before He Died?",
+     "publicado": "2026-11-02",
+     "duracao_min": 34.1,
+     "views": 17729,
+     "thumb": "https://i.ytimg.com/vi/vJEU-29KawE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vJEU-29KawE"
+    },
+    {
+     "id": "HbXL666xbVk",
+     "titulo": "What If Obito Gave Naruto His Mangekyō Sharingan?",
+     "publicado": "2026-11-02",
+     "duracao_min": 41.4,
+     "views": 16820,
+     "thumb": "https://i.ytimg.com/vi/HbXL666xbVk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=HbXL666xbVk"
+    },
+    {
+     "id": "QI0-ihpJlr0",
+     "titulo": "What If Naruto Was Reborn as Itachi's Little Brother?",
+     "publicado": "2026-11-06",
+     "duracao_min": 39.6,
+     "views": 14979,
+     "thumb": "https://i.ytimg.com/vi/QI0-ihpJlr0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=QI0-ihpJlr0"
+    },
+    {
+     "id": "x6cfh6W2xIk",
+     "titulo": "What If Itachi Gave Naruto His Mangekyō Sharingan? (Part 2)",
+     "publicado": "2026-11-05",
+     "duracao_min": 34.0,
+     "views": 13255,
+     "thumb": "https://i.ytimg.com/vi/x6cfh6W2xIk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=x6cfh6W2xIk"
+    },
+    {
+     "id": "g05KiOoeIZs",
+     "titulo": "What If Naruto Was Evil and Stole Every Mangekyo Sharingan?",
+     "publicado": "2026-11-03",
+     "duracao_min": 35.0,
+     "views": 8721,
+     "thumb": "https://i.ytimg.com/vi/g05KiOoeIZs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=g05KiOoeIZs"
+    },
+    {
+     "id": "mRtEj1iycoA",
+     "titulo": "What If Itachi Was Reborn as Naruto?",
+     "publicado": "2026-10-29",
+     "duracao_min": 52.7,
+     "views": 5386,
+     "thumb": "https://i.ytimg.com/vi/mRtEj1iycoA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=mRtEj1iycoA"
+    },
+    {
+     "id": "q6LMkiofaq8",
+     "titulo": "What If Itachi Trained Boruto?",
+     "publicado": "2026-10-30",
+     "duracao_min": 36.8,
+     "views": 4009,
+     "thumb": "https://i.ytimg.com/vi/q6LMkiofaq8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=q6LMkiofaq8"
+    }
+   ],
+   "score": 93883,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  }
+ ]
+}
