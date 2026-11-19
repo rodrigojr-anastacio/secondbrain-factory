@@ -4,7 +4,7 @@ Canal no padrão desde 16/11/2026: `canal.yaml`, bíblia em `biblia/`, vídeos e
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (18/11/2026 19:34)
+## Backlog vivo (19/11/2026 09:46)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
@@ -32,7 +32,7 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 | 32 | Os cânions do Sul (Aparados da Serra) | 6.2 (6·10·4) | agendado | sáb 28/11 (dom ou seg) | perene | [yt-dlp ytsearch via WARP (gap demanda-temas.json): mediana dos longos 56.600; 5 vídeos ≥ 100 mil (doc. de Cambará do Sul do Elzinga com 1,65 mi)](https://www.youtube.com/results?search_query=c%C3%A2nions+do+sul+do+brasil) |
 | 33 | Geada negra de 1975: a noite em que o café saiu do Paraná | 5.8 (6·8·4) | agendado | dom 29/11 (seg ou qua) | perene | [AntigamenteBR: Londrina instantes antes da geada negra devorar os cafezais (1975): 418 mil views em ~1 mês (pub. ~15/10/2026)](https://youtu.be/NBR5XGW42Yk) |
 
-Prontos/publicados recentes: El Niño de 1983 (seca × enchente) (pronto, sáb 14/11); Enchente de 2024: por que Porto Alegre ficou debaixo d'água (pronto, dom 15/11); Grande Seca de 1877 (publicado, dom 15/11); Caraguatatuba 1967: a serra que desceu sobre a cidade (pronto, seg 16/11)
+Prontos/publicados recentes: El Niño de 1983 (seca × enchente) (pronto, sáb 14/11); Enchente de 2024: por que Porto Alegre ficou debaixo d'água (publicado, dom 15/11); Grande Seca de 1877 (publicado, dom 15/11); Caraguatatuba 1967: a serra que desceu sobre a cidade (pronto, seg 16/11)
 
 <!-- backlog-vivo:fim -->
 

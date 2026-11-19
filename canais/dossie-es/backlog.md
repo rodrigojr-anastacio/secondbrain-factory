@@ -9,7 +9,7 @@ Ranking de 2026-11-04 para o **mercado em espanhol** (`pesquisa/archive-in-minut
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (18/11/2026 19:34)
+## Backlog vivo (19/11/2026 09:46)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
@@ -17,7 +17,7 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | noite | pode ir ao ar | tema | status |
 |---|---|---|---|
-| sáb 21/11 | dom ou seg | El MI6 | em_producao |
+| sáb 21/11 | dom ou seg | El MI6 | pronto |
 | dom 22/11 | seg ou qua | Los Jesuitas | agendado |
 | seg 23/11 | qua ou sex | La Yakuza | agendado |
 | ter 24/11 | sex ou sáb | El Opus Dei | agendado |
@@ -30,13 +30,12 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | id | tema | nota (D·E·U) | status | noite (ao ar) | janela do tema | evidência principal |
 |---|---|---|---|---|---|---|
-| 21 | El MI6 | 6.1 (4·8·7) | em_producao | sáb 21/11 (dom ou seg) | 30/11 | [Archive in Minutes: 276 mil views em 14 dias (pub. 31/10); 124.752 no garimpo de 05/11 (+121% em 9 dias)](https://youtube.com/watch?v=zDaBuuCTCg0) |
 | 22 | Los Jesuitas | 6.0 (6·9·4) | agendado | dom 22/11 (seg ou qua) | perene | [Palacios Oscuros (es, 302 insc.): 602.502 views 'La TERRIBLE Historia de los JESUITAS: El Ejército Secreto…' (pub. 10/05/2026): porta aberta para canal pequeno](https://youtube.com/watch?v=Vtgbx7rYGac) |
 | 23 | La Yakuza | 5.8 (7·7·4) | agendado | seg 23/11 (qua ou sex) | perene | [Te lo Pinto (es): 1.219.273 views 'Cómo es Ser Cada Rango de la Yakuza' (pub. 08/02/2026)](https://youtube.com/watch?v=aN_Wl0RYbbQ) |
 | 24 | El Opus Dei | 5.5 (7·6·4) | agendado | ter 24/11 (sex ou sáb) | perene | [pesquisa/proximos-temas-2026-11/dados/demanda.json (busca yt-dlp es, 09/11): mediana top-10 (12 m) em es 160.351; 7 > 100 mil no ano, 3 recentes; nenhum no molde](https://www.youtube.com/results?search_query=historia+del+opus+dei) |
 | 25 | La Stasi | 5.2 (4·9·4) | agendado | sáb 28/11 (dom ou seg) | perene | [Archive in Minutes: 161 mil views; 120.136 no garimpo de 05/11 (+34% em 9 dias)](https://youtube.com/watch?v=u9pNQ9APBks) |
 
-Prontos/publicados recentes: La Gestapo (pronto, dom 15/11); Las SS (publicado, dom 15/11); El Cártel de Medellín (pronto, seg 16/11); La Inquisición (publicado, seg 16/11); Los Templarios (pronto, ter 17/11)
+Prontos/publicados recentes: La Gestapo (publicado, dom 15/11); Las SS (publicado, dom 15/11); El Cártel de Medellín (publicado, seg 16/11); La Inquisición (publicado, seg 16/11); Los Templarios (pronto, ter 17/11); El MI6 (pronto, sáb 21/11)
 
 <!-- backlog-vivo:fim -->
 

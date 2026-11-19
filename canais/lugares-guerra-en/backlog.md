@@ -6,7 +6,7 @@ Legenda: **[O]** observado nos arquivos acima · **[I]** inferência · **Hipót
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (18/11/2026 19:34)
+## Backlog vivo (19/11/2026 09:46)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
@@ -34,7 +34,7 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 | 40 | Attu (Aleutas): o campo de batalha em solo americano fechado aos americanos | 5.8 (6·8·4) | agendado | sáb 28/11 (dom ou seg) | perene | [Simple History (The Only Land Battle Fought on U.S. soil in WWII): 4,39 mi views](https://www.youtube.com/watch?v=k2pcLtkzg2M) |
 | 41 | Guadalcanal (o que ainda está enterrado) | 5.5 (7·8·3) | agendado | dom 29/11 (seg ou qua) | perene | [The History Underground (Ghostly Remains of Guadalcanal): 723 mil views](https://www.youtube.com/watch?v=sbVc6rVUdXo) |
 
-Prontos/publicados recentes: Pearl Harbor (Ford Island e Hickam: a parte que fica atrás do portão) (pronto, dom 15/11); Bikini Atoll (publicado, dom 15/11); Tarawa (Betio: as escavações que não acabam) (pronto, seg 16/11); Gettysburg (fotos) (publicado, seg 16/11)
+Prontos/publicados recentes: Pearl Harbor (Ford Island e Hickam: a parte que fica atrás do portão) (publicado, dom 15/11); Bikini Atoll (publicado, dom 15/11); Tarawa (Betio: as escavações que não acabam) (pronto, seg 16/11); Gettysburg (fotos) (publicado, seg 16/11)
 
 <!-- backlog-vivo:fim -->
 
