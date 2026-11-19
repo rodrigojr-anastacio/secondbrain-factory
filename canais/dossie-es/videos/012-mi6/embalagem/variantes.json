@@ -5,7 +5,8 @@
   "padrao_titulo": "SIGLA: aposto com lacuna",
   "padrao_thumb": "objeto-simbolo",
   "thumb_conceito": "máquina de escrever dos anos 40 sozinha numa mesa escura, folha em branco, cone de luz forte; fundo ardósia escuro, sem sigla; sello NUEVA YORK + aba EXPEDIENTE Nº 012",
-  "thumb_texto": "NUEVA YORK"
+  "thumb_texto": "NUEVA YORK",
+  "thumb_arquivo": "entrega/thumb-A.jpg"
  },
  {
   "letra": "B",
@@ -13,7 +14,8 @@
   "padrao_titulo": "Cómo + organização + verbo concreto + alvo",
   "padrao_thumb": "rosto-emocao",
   "thumb_conceito": "TESTE personagem do tema: rosto de Roosevelt (1941) dominante à esquerda, aos microfones de rádio do Mayflower, na mão a folha do discurso com uma linha riscada em vermelho, certeza grave com olhar de soslaio; texto cor papel sobre carimbo vermelho; sem mapa, sem sigla",
-  "thumb_texto": "¿SABÍA?"
+  "thumb_texto": "¿SABÍA?",
+  "thumb_arquivo": "entrega/thumb-B.jpg"
  },
  {
   "letra": "C",
@@ -21,6 +23,7 @@
   "padrao_titulo": "[Caso concreto] | plural de operações",
   "padrao_thumb": "mapa-lugar",
   "thumb_conceito": "o mapa forjado da América do Sul (até o Panamá) dividido em 5 blocos de tinta dessaturada, papel manchado em mesa escura, pena terminando uma fronteira em vermelho; sem letras",
-  "thumb_texto": "14 → 5"
+  "thumb_texto": "14 → 5",
+  "thumb_arquivo": "entrega/thumb-C.jpg"
  }
 ]

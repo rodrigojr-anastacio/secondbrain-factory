@@ -60,7 +60,7 @@ b("El servicio secreto más famoso del mundo nace casi con una página en blanco
 
 # ───────────────────────── 2. EL TELEGRAMA ─────────────────────────
 cap("2. El Telegrama")
-b("El Telegrama. Enero de mil novecientos diecisiete. Berlín envía un mensaje cifrado a su representante en México, a través de su embajada en Washington. Propone a México una alianza si Estados Unidos entra en la guerra.", card="MÉXICO, 1917")
+b("El Telegrama. Enero de mil novecientos diecisiete. Berlín envía un mensaje cifrado a su representante en México, a través de su embajada en Washington. Propone a México una alianza si Estados Unidos entra en la guerra.", card="BERLÍN, 1917")
 b("A cambio, dinero y ayuda para recuperar Texas, Nuevo México y Arizona. Lo descifran en Londres, en la Sala Cuarenta de la Armada británica, no en la oficina de Cumming.")
 b("Para ocultar que leen los telegramas alemanes, consiguen una copia en Ciudad de México. El primero de marzo, el telegrama sale en la prensa estadounidense.")
 b("Dos días después, el jefe de la diplomacia alemana, Arthur Zimmermann, admite que es auténtico. En abril, Estados Unidos entra en la guerra. No fue la única razón, pero pesó.")

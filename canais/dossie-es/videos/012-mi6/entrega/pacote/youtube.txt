@@ -1,0 +1,55 @@
+# Pacote de publicación · dossie-es 012 · El MI6 (puede ir al aire: dom o lun) · duración 13:49
+
+## TESTAR E COMPARAR (títulos × thumbs)
+| par | título | padrão do título | thumb | padrão da thumb |
+|---|---|---|---|---|
+| A (T1) | MI6: el plan nazi para Sudamérica que nadie escribió en Berlín | SIGLA: aposto com lacuna | thumb-A.jpg: máquina de escribir de los años 40 sola en la oscuridad bajo un cono de luz, sello "NUEVA YORK" + pestaña Nº 012 (sin sigla) | objeto-simbolo (controle) |
+| B (T2) | Cómo el MI6 engañó a un presidente, a un país y a sí mismo | Cómo + organização + verbo concreto + alvo | thumb-B.jpg: rostro de Roosevelt ante los micrófonos con la hoja del discurso tachada en rojo, sello "¿SABÍA?" · **teste "personagem do tema"** | rosto-emocao |
+| C (T3) | El Complot Nazi que Nunca Existió \| Expedientes Secretos del MI6 | [Caso concreto] \| plural de operações | thumb-C.jpg: el mapa falsificado de Sudamérica en cinco bloques de color, la pluma termina una frontera en rojo, "14 → 5" | mapa-lugar |
+
+## Descripción
+Si te gustan estos expedientes, suscríbete, deja tu like y compártelo: abrimos uno nuevo cada semana.
+
+Washington, 27 de octubre de 1941: el presidente Roosevelt dice por radio que tiene en su poder un mapa secreto hecho en Alemania. Según los historiadores, ese papel salió de una oficina británica en Nueva York. Este es el expediente completo del MI6 contado a través de los papeles que fabricó, filtró o hizo desaparecer: del telegrama que llevó a Estados Unidos a la guerra a la carta de la Bolivia de 1941, de los Exocet de las Malvinas al informe Chilcot.
+
+Capítulos
+0:00 Introducción: el mapa secreto de Roosevelt
+0:35 Expediente 1: El Diario
+1:22 Expediente 2: El Telegrama
+2:23 Expediente 3: La Carta
+3:24 Expediente 4: El Pasaporte
+4:23 Expediente 5: La Isla
+5:18 Expediente 6: La Firma
+6:19 Expediente 7: El Mapa
+7:34 Expediente 8: La Aerolínea
+8:35 Expediente 9: El Comunicado
+9:41 Expediente 10: El Registro
+10:44 Expediente 11: El Misil
+12:02 Expediente 12: El Informe
+12:49 Cierre: El Mapa
+
+Fuentes
+- Franklin D. Roosevelt, discurso del Día de la Armada y la Defensa Total, 27/10/1941 (American Presidency Project, UCSB); respuesta del gobierno del Reich, 1/11/1941 (Jewish Virtual Library)
+- Nicholas J. Cull, Selling War (Oxford University Press, 1995); Thomas E. Mahl, Desperate Deception (1998); Hoover Institution/NARA, "The Germans Are Coming"; Mental Floss sobre el mapa falsificado
+- Military Intelligence Museum, "Eric Maschwitz"; H. Montgomery Hyde, The Quiet Canadian (1962); British Security Coordination: The Secret History (1998)
+- Time, "Bolivia: Mystery Putsch" (28/7/1941); Diplomacy & Statecraft 35(4), 2024, sobre la carta Belmonte
+- FRUS 1941, vol. VI, telegrama de Caffery, 23/12/1941 (Departamento de Estado de EE. UU.)
+- GCHQ y National Archives (EE. UU.): el telegrama Zimmermann y la Sala 40
+- Gill Bennett, The Zinoviev Letter (OUP, 2018) y FCO History Note 14 (1999); Hansard, 25/6/1998
+- Keith Jeffery, MI6: The History of the Secret Intelligence Service 1909–1949 (2010); Alan Judd, The Quest for C (1999)
+- Hansard, 7/11/1955 (declaración de Macmillan sobre Philby); Ben Macintyre, A Spy Among Friends (2014)
+- FBI, "Ludwig" (2003); Bernews, el hotel Hamilton Princess; CrimeReads sobre las censoras de las Bermudas
+- Lord Franks, Falkland Islands Review (1983); Lawrence Freedman, The Official History of the Falklands Campaign (2005)
+- The Report of the Iraq Inquiry (Chilcot, 2016); NYT 7/5/1992 y gov.uk sobre el reconocimiento oficial del servicio
+Las acusaciones se atribuyen a sus fuentes. Contenido educativo e histórico; sin apología de la violencia.
+
+## Tags
+mi6, historia del mi6, servicio secreto británico, espionaje británico, telegrama zimmermann, carta zinoviev, kim philby, roosevelt mapa secreto, british security coordination, william stephenson, informe chilcot, guerra de las malvinas, espías, historia secreta, dossier en minutos
+
+Categoría: Educación · Idioma: español
+
+## Checklist al publicar (Rodrigo)
+- Uso de contenido sintético (Studio → Atributos): **Sí** · Para niños: **No** · Idioma: español.
+- "Testar e comparar": thumbs A/B/C pareadas con los títulos A/B/C (A: máquina de escribir/NUEVA YORK; B: Roosevelt/¿SABÍA? — **teste "personagem do tema"**; C: mapa/14 → 5). Avisar cuál ganó.
+- Video: video.mp4 1080p (nunca la versión del Telegram) · Subtítulos: legendas.srt (es).
+- Publicar domingo o lunes (producción de la noche del 21/11).

@@ -1,0 +1,337 @@
+[
+ {
+  "id": "N001",
+  "texto": "Washington, veintisiete de octubre de mil novecientos cuarenta y uno. El presidente Roosevelt habla por radio al país.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "Dice tener un mapa secreto, hecho en Alemania por el gobierno de Hitler. Catorce países de Sudamérica y Centroamérica se reducen a cinco estados vasallos. Uno incluye el canal de Panamá.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "Berlín lo llama falsificación. Según los historiadores, lo era: el mapa salió de una oficina británica en Nueva York.",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "Esta es TODA la historia del eme i seis. Y de los papeles con que movió el mundo.",
+  "ideia": true
+ },
+ {
+  "id": "N005",
+  "texto": "El Diario. Londres, siete de octubre de mil novecientos nueve. Un oficial de la Armada, Mansfield Cumming, anota en su diario su primer día completo de trabajo.",
+  "ideia": false
+ },
+ {
+  "id": "N006",
+  "texto": "Fue a la oficina, se quedó todo el día, no vio a nadie y no había nada que hacer.",
+  "ideia": false
+ },
+ {
+  "id": "N007",
+  "texto": "Cumming dirige la sección exterior de una nueva Oficina del Servicio Secreto, creada por un gobierno preocupado por los espías alemanes. La sección interior será el eme i cinco. La suya, el eme i seis. Casi no tiene personal ni presupuesto.",
+  "ideia": false
+ },
+ {
+  "id": "N008",
+  "texto": "El servicio secreto más famoso del mundo nace casi con una página en blanco. Siete años después, un papel cambia una guerra. Y no es obra del eme i seis.",
+  "ideia": true
+ },
+ {
+  "id": "N009",
+  "texto": "El Telegrama. Enero de mil novecientos diecisiete. Berlín envía un mensaje cifrado a su representante en México, a través de su embajada en Washington. Propone a México una alianza si Estados Unidos entra en la guerra.",
+  "ideia": false
+ },
+ {
+  "id": "N010",
+  "texto": "A cambio, dinero y ayuda para recuperar Texas, Nuevo México y Arizona. Lo descifran en Londres, en la Sala Cuarenta de la Armada británica, no en la oficina de Cumming.",
+  "ideia": false
+ },
+ {
+  "id": "N011",
+  "texto": "Para ocultar que leen los telegramas alemanes, consiguen una copia en Ciudad de México. El primero de marzo, el telegrama sale en la prensa estadounidense.",
+  "ideia": false
+ },
+ {
+  "id": "N012",
+  "texto": "Dos días después, el jefe de la diplomacia alemana, Arthur Zimmermann, admite que es auténtico. En abril, Estados Unidos entra en la guerra. No fue la única razón, pero pesó.",
+  "ideia": false
+ },
+ {
+  "id": "N013",
+  "texto": "En Londres queda la lección: un papel bien colocado puede mover a Washington. Antes de aplicarla, otro papel les estalla en las manos.",
+  "ideia": true
+ },
+ {
+  "id": "N014",
+  "texto": "La Carta. Riga, otoño de mil novecientos veinticuatro. La delegación del eme i seis en Letonia envía a Londres la copia de una carta atribuida a Grigori Zinóviev, jefe de la Internacional Comunista.",
+  "ideia": false
+ },
+ {
+  "id": "N015",
+  "texto": "La carta pide a los comunistas británicos preparar la revolución. Llega en plena campaña electoral, con un gobierno laborista que acaba de firmar tratados con Moscú.",
+  "ideia": false
+ },
+ {
+  "id": "N016",
+  "texto": "El veinticinco de octubre, el diario Daily Mail la publica en portada. Moscú dice que es falsa. Cuatro días después, los laboristas pierden las elecciones.",
+  "ideia": false
+ },
+ {
+  "id": "N017",
+  "texto": "En mil novecientos noventa y nueve, la historiadora del Foreign Office Gill Bennett concluyó que es imposible saber quién la escribió. Lo más probable, según ella, es que la encargaran exiliados rusos.",
+  "ideia": false
+ },
+ {
+  "id": "N018",
+  "texto": "Y que oficiales de los servicios secretos británicos la filtraran a los conservadores y a la prensa. Un país votó con un papel falso sobre la mesa.",
+  "ideia": true
+ },
+ {
+  "id": "N019",
+  "texto": "El Pasaporte. Nueva York, junio de mil novecientos cuarenta. Llega un millonario canadiense, William Stephenson, piloto en la Primera Guerra Mundial. Su cargo es modesto: oficial de control de pasaportes.",
+  "ideia": false
+ },
+ {
+  "id": "N020",
+  "texto": "Es la cobertura clásica del eme i seis en el extranjero. Meses antes, esa oficina tenía nueve personas. Stephenson la convierte en la Coordinación de Seguridad Británica, la be ese ce.",
+  "ideia": false
+ },
+ {
+  "id": "N021",
+  "texto": "Cientos de personas trabajan para ella desde la oficina tres mil seiscientos tres del Rockefeller Center. Gran Bretaña está sola frente a Hitler. Estados Unidos es neutral.",
+  "ideia": false
+ },
+ {
+  "id": "N022",
+  "texto": "Según su propia historia interna, la be ese ce tiene dos misiones: localizar agentes nazis en el continente y lograr que Washington entre en la guerra.",
+  "ideia": false
+ },
+ {
+  "id": "N023",
+  "texto": "Para cumplir las dos misiones necesita papeles. Y muchos de los que cruzan el Atlántico pasan por una isla.",
+  "ideia": true
+ },
+ {
+  "id": "N024",
+  "texto": "La Isla. Bermudas, mil novecientos cuarenta y uno. En el hotel Princess de Hamilton, cerca de mil censores británicos abren las cartas que viajan entre América y Europa.",
+  "ideia": false
+ },
+ {
+  "id": "N025",
+  "texto": "Cada bolsa de correo que hace escala en la isla se abre, se lee y se vuelve a cerrar. Algunas cartas pasan por pruebas químicas.",
+  "ideia": false
+ },
+ {
+  "id": "N026",
+  "texto": "Según el oficial de la be ese ce Montgomery Hyde, una censora, Nadya Gardner, sospecha de unas cartas firmadas por un tal Yóu Kéi. Propone probarlas con yodo. Aparece una escritura oculta sobre barcos y aviones.",
+  "ideia": false
+ },
+ {
+  "id": "N027",
+  "texto": "Las cartas pasan al FBI. En agosto cae en Estados Unidos la red de espías de Kurt Ludwig.",
+  "ideia": false
+ },
+ {
+  "id": "N028",
+  "texto": "La censura no solo caza espías. También guarda copias de cartas auténticas. Según el propio Hyde, una de ellas, la de un militar boliviano, servirá de modelo.",
+  "ideia": true
+ },
+ {
+  "id": "N029",
+  "texto": "La Firma. La Paz, julio de mil novecientos cuarenta y uno. El gobierno del general Peñaranda recibe una carta por medio del representante de Estados Unidos.",
+  "ideia": false
+ },
+ {
+  "id": "N030",
+  "texto": "Aparece firmada por el mayor Elías Belmonte, agregado aéreo de Bolivia en Berlín, y dirigida al representante alemán en La Paz, Ernst Wendler. Según la carta, se acerca el momento de dar un golpe de Estado.",
+  "ideia": false
+ },
+ {
+  "id": "N031",
+  "texto": "El gobierno boliviano declara el estado de sitio, cierra periódicos, detiene a dirigentes políticos y expulsa al diplomático alemán.",
+  "ideia": false
+ },
+ {
+  "id": "N032",
+  "texto": "En mil novecientos sesenta y dos, Hyde contó su versión: la carta era falsa, obra de los británicos. Relatos posteriores añaden un laboratorio en Toronto y una máquina de escribir hecha para imitar la de Belmonte.",
+  "ideia": false
+ },
+ {
+  "id": "N033",
+  "texto": "En dos mil veinticuatro, un estudio académico la puso en duda: no encontró pruebas en los archivos. Tres meses después, otro papel sale de Toronto.",
+  "ideia": true
+ },
+ {
+  "id": "N034",
+  "texto": "El Mapa. Toronto, otoño de mil novecientos cuarenta y uno. Según el museo de la inteligencia militar británica, allí funciona un laboratorio secreto, la Estación eme, dirigido por un autor de canciones, Eric Máshvits.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "Según la misma fuente, la idea fue de un agente de la be ese ce, Ivar Bryce. El mapa se fabrica en dos días, envejecido y manchado como si hubiera viajado, y llega a Roosevelt a través del director del FBI.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "¿Lo sabía Roosevelt? Según el historiador Nicholas Cull, en un borrador del discurso tachó la frase que decía: un mapa de autenticidad indudable. Por radio dijo únicamente: un mapa secreto. Nadie sabe si fue engañado o si solo dudaba.",
+  "ideia": false
+ },
+ {
+  "id": "N037",
+  "texto": "Berlín lo niega. Después de la guerra, en los archivos alemanes capturados no aparece ningún mapa así. No hay rastro de ese complot nazi para Sudamérica: según los historiadores, nunca existió.",
+  "ideia": false
+ },
+ {
+  "id": "N038",
+  "texto": "Cuarenta y un días después del discurso, Japón ataca Pearl Harbor.",
+  "ideia": true
+ },
+ {
+  "id": "N039",
+  "texto": "Si te está gustando este expediente, suscríbete. Porque ese mismo año, la be ese ce dirige otro papel contra Brasil.",
+  "ideia": false
+ },
+ {
+  "id": "N040",
+  "texto": "La Aerolínea. Río de Janeiro, finales de mil novecientos cuarenta y uno. La aerolínea italiana LATI une Roma con Brasil. Según Londres y Washington, transporta agentes, valijas diplomáticas y mercancías del Eje.",
+  "ideia": false
+ },
+ {
+  "id": "N041",
+  "texto": "La compañía tiene aliados en el gobierno de Getúlio Vargas, así que las quejas oficiales no funcionan. Según la propia be ese ce, sus agentes fabrican una carta de la dirección de LATI que insulta al presidente Vargas. Y logran que le llegue.",
+  "ideia": false
+ },
+ {
+  "id": "N042",
+  "texto": "En diciembre, tras Pearl Harbor y con la presión de Estados Unidos, Vargas ordena expropiar LATI y la compañía alemana Cóndor. La carta no fue la única razón. Pero la be ese ce se atribuyó el mérito.",
+  "ideia": false
+ },
+ {
+  "id": "N043",
+  "texto": "Estados Unidos ya está en guerra, pero por Pearl Harbor, no por los papeles de la be ese ce. Y mientras el eme i seis fabrica papeles para engañar a otros, una traición crece dentro de su propia casa.",
+  "ideia": true
+ },
+ {
+  "id": "N044",
+  "texto": "El Comunicado. Londres, siete de noviembre de mil novecientos cincuenta y cinco. En la Cámara de los Comunes, el jefe de la diplomacia británica, Harold Macmillan, habla de un antiguo oficial del eme i seis.",
+  "ideia": false
+ },
+ {
+  "id": "N045",
+  "texto": "No tengo razones, dice, para concluir que el señor Philby haya traicionado nunca los intereses de este país.",
+  "ideia": false
+ },
+ {
+  "id": "N046",
+  "texto": "El señor Philby es Kim Philby. La inteligencia soviética lo reclutó en mil novecientos treinta y cuatro. Desde mil novecientos cuarenta y cuatro dirigió la sección del eme i seis que debía combatir a los soviéticos.",
+  "ideia": false
+ },
+ {
+  "id": "N047",
+  "texto": "En mil novecientos cincuenta y uno, dos diplomáticos amigos suyos huyen a Moscú y las sospechas caen sobre él. El papel de Macmillan lo exculpa en público. En enero de mil novecientos sesenta y tres, desde Beirut, Philby huye a la Unión Soviética.",
+  "ideia": false
+ },
+ {
+  "id": "N048",
+  "texto": "El servicio que engañaba a otros con papeles estaba engañado por dentro. Y al año siguiente del comunicado, otro papel desaparece para proteger al servicio.",
+  "ideia": true
+ },
+ {
+  "id": "N049",
+  "texto": "El Registro. Portsmouth, abril de mil novecientos cincuenta y seis. El crucero soviético Ordyonikídze llega con Nikita Jruschov y Nikolái Bulganin, en visita oficial a Gran Bretaña. El gobierno de Anthony Eden quiere que nada la arruine.",
+  "ideia": false
+ },
+ {
+  "id": "N050",
+  "texto": "El diecinueve de abril, un buzo veterano, el comandante Lionel Crabb, se sumerge en el puerto para examinar el casco del crucero, en una misión del eme i seis. No vuelve a la superficie.",
+  "ideia": false
+ },
+ {
+  "id": "N051",
+  "texto": "Del libro de registro de su hotel desaparecen las páginas con su nombre y el del hombre que lo acompañaba. El Almirantado anuncia que no regresó de unas pruebas de equipo submarino.",
+  "ideia": false
+ },
+ {
+  "id": "N052",
+  "texto": "Moscú protesta. Eden dice en privado que la operación se hizo sin su autorización. Los primeros documentos del caso no se hicieron públicos hasta dos mil seis.",
+  "ideia": false
+ },
+ {
+  "id": "N053",
+  "texto": "Ahora, para proteger al servicio, alguien arranca páginas. Veinticinco años después, el papel que fracasa es una advertencia.",
+  "ideia": true
+ },
+ {
+  "id": "N054",
+  "texto": "El Misil. Londres, julio de mil novecientos ochenta y uno. El Comité Conjunto de Inteligencia, que reúne lo que saben el eme i seis y los demás servicios, escribe que no se puede descartar un intento argentino de tomar las Malvinas por la fuerza.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "El dos de abril de mil novecientos ochenta y dos, tropas argentinas desembarcan en las islas. Un año después, el informe oficial Franks no culpa al gobierno de Margaret Thatcher por la decisión argentina.",
+  "ideia": false
+ },
+ {
+  "id": "N056",
+  "texto": "En la guerra, lo que más preocupa a Londres es el misil francés Exoset. Argentina tiene pocos y busca más. Según el historiador Lawrence Freedman, que escribió por encargo del gobierno británico, agentes británicos se hacen pasar por compradores en el mercado de armas, para que Argentina no consiga más.",
+  "ideia": false
+ },
+ {
+  "id": "N057",
+  "texto": "Según Londres, no los consiguió. En setenta y cuatro días, el conflicto dejó más de novecientos muertos entre argentinos, británicos y habitantes de las islas.",
+  "ideia": false
+ },
+ {
+  "id": "N058",
+  "texto": "Esta vez el engaño no fue de documentos, sino de identidades falsas. Veinte años después, un dossier del gobierno británico, apoyado en informes del eme i seis, ayuda a llevar a su país a otra guerra.",
+  "ideia": true
+ },
+ {
+  "id": "N059",
+  "texto": "El Informe. Londres, seis de julio de dos mil dieciséis. Tras siete años de investigación, John Chilcot presenta su informe sobre la participación británica en la guerra de Irak, que empezó en dos mil tres.",
+  "ideia": false
+ },
+ {
+  "id": "N060",
+  "texto": "Concluye que lo que se afirmaba sobre las armas de destrucción masiva de Sadam Husein se presentó con una certeza injustificada. Parte de los informes del eme i seis venía de fuentes poco comprobadas. Algunos se retiraron después.",
+  "ideia": false
+ },
+ {
+  "id": "N061",
+  "texto": "Las armas nunca aparecieron.",
+  "ideia": false
+ },
+ {
+  "id": "N062",
+  "texto": "Como en mil novecientos diecisiete y en mil novecientos cuarenta y uno, un papel pesó en una decisión de guerra. Pero esta vez, el país convencido con certezas injustificadas era el propio.",
+  "ideia": true
+ },
+ {
+  "id": "N063",
+  "texto": "El Mapa. Hoy el eme i seis tiene página web y publica ofertas de empleo. Su existencia no se reconoció oficialmente hasta mil novecientos noventa y dos. En dos mil veinticinco, por primera vez, lo dirige una mujer.",
+  "ideia": false
+ },
+ {
+  "id": "N064",
+  "texto": "Del mapa de Roosevelt no hay rastro en los archivos alemanes. Según los historiadores, salió de la inteligencia británica en Nueva York. Según el museo militar británico, de un laboratorio en Toronto.",
+  "ideia": false
+ },
+ {
+  "id": "N065",
+  "texto": "En más de un siglo, el eme i seis robó secretos, como cualquier servicio. Pero muchas de sus historias más conocidas giran en torno a papeles: los que escribió, los que filtró y los que hizo desaparecer.",
+  "ideia": false
+ },
+ {
+  "id": "N066",
+  "texto": "Un espía roba documentos. En estos expedientes, el eme i seis aprendió algo más útil: a escribirlos.",
+  "ideia": true
+ },
+ {
+  "id": "N067",
+  "texto": "Y tú, ¿crees que hoy un documento falso todavía podría cambiar una guerra? Déjalo en los comentarios.",
+  "ideia": false
+ }
+]

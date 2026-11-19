@@ -1,0 +1,10 @@
+# ETAPA 2 · dossie-es 012 El MI6 (18/11/2026)
+Voz Fish (67 blocos, US$ 0,18; Whisper média 96,5%, mín. 77,2% em N040 = só grafia), 194 imagens (191 + 3 bases de thumb; US$ 7,80 + 2 refeitas), build 13:49, pré-QA (120 quadros), render Runpod, QA, thumbs A/B/C, pacote e `entrega/` (sem Drive). Custo direto ≈ R$ 49 (< teto US$ 12).
+
+- **Promessa paga na `legendas.srt`:** "el mapa salió de una oficina británica en Nueva York" em **0:25–0:28**; frase-âncora "Esta es TODA la historia del MI6" em **0:29–0:34**. Zinóviev 2:34, "¿Lo sabía Roosevelt?" 6:50, "nunca existió" 7:18, Philby 8:50 (todos dentro das condições do crivo).
+- **Voz:** respelling no `blocos-voz.json` ("MI6"→"eme i seis", BSC→"be ese ce" etc.); os 13 blocos < 93% são grafia do Whisper (mi/m i, Cumming, Philby, Ordzhonikidze, Joe K); conferir de ouvido, não regerar.
+- **Imagens:** 45 de 191 com moldura/faixa (24%), recortadas com `recorta_moldura.py`; I060 (jornal com faixa preta de manchete) e I127 (carta com garranchos) refeitas com prompt novo. Card do exp. 2 trocado de "MÉXICO, 1917" para "BERLÍN, 1917" (imagem é Berlim).
+- **Pré-QA visual:** 1 bloqueante (I060, corrigido), altos tratados ou falso positivo (mapa forjado intencional em Q04/Q114; letreiro "ELÍAS BELMO" é digitação animada; I148 Khrushchev/Bulganin e I183 placas do bunker: pequenos, mantidos).
+- **Render:** 2 Pods Community 4090 ficaram "sem IP/porta" por 15 min cada (≈ US$ 0,18 perdidos); com GPUS começando pela 3090/A5000 caiu na A4500 e rodou em 15 min, 14 blocos, SSIM mín. 0,989, 24.876 quadros. Loudness −15,3 LUFS, pico −3,1, 0 telas pretas, 15 cortes detectados no 1º minuto (detector subconta; 19 cortes/min no storyboard).
+- **Thumbs:** A máquina de escrever/NUEVA YORK, B Roosevelt/¿SABÍA? (teste personagem), C mapa/14 → 5; as 3 diferentes (objeto, rosto, mapa+número). Reajustes: carimbo da B no alto (não cobre a folha riscada); base da C deslocada para o "14 → 5" caber (faixa escura à direita). `thumbnail.jpg` = A.
+- **Pacote:** `out/youtube.txt` e `entrega/pacote/`; pares registrados em `youtube.embalagem_variantes`; `youtube.videos` id 51 = `pronto`.
