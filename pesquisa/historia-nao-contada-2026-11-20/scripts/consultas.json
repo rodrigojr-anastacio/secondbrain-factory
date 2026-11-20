@@ -1,0 +1,566 @@
+[
+{
+"q": "história que ninguém conta",
+"lang": "pt",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "a história não contada",
+"lang": "pt",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "o que não te contaram sobre a história",
+"lang": "pt",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "o que não ensinam na escola história",
+"lang": "pt",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "o lado sombrio da história do país",
+"lang": "pt",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "segredos da história que ninguém te conta",
+"lang": "pt",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "história proibida que não te contam",
+"lang": "pt",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "a verdadeira história que esconderam",
+"lang": "pt",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "história do Egito que ninguém conta",
+"lang": "pt",
+"tipo": "generica_pais",
+"pais": "Egito"
+},
+{
+"q": "história completa do Egito",
+"lang": "pt",
+"tipo": "pais",
+"pais": "Egito"
+},
+{
+"q": "curiosidades história do Egito que você não sabia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Egito"
+},
+{
+"q": "história da Índia que ninguém conta",
+"lang": "pt",
+"tipo": "generica_pais",
+"pais": "Índia"
+},
+{
+"q": "história completa da Índia",
+"lang": "pt",
+"tipo": "pais",
+"pais": "Índia"
+},
+{
+"q": "curiosidades história da Índia que você não sabia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Índia"
+},
+{
+"q": "história da China que ninguém conta",
+"lang": "pt",
+"tipo": "generica_pais",
+"pais": "China"
+},
+{
+"q": "história completa da China",
+"lang": "pt",
+"tipo": "pais",
+"pais": "China"
+},
+{
+"q": "curiosidades história da China que você não sabia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "China"
+},
+{
+"q": "história do Brasil que ninguém conta",
+"lang": "pt",
+"tipo": "generica_pais",
+"pais": "Brasil"
+},
+{
+"q": "história completa do Brasil",
+"lang": "pt",
+"tipo": "pais",
+"pais": "Brasil"
+},
+{
+"q": "curiosidades história do Brasil que você não sabia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Brasil"
+},
+{
+"q": "história do Irã que ninguém conta",
+"lang": "pt",
+"tipo": "generica_pais",
+"pais": "Irã"
+},
+{
+"q": "história completa do Irã",
+"lang": "pt",
+"tipo": "pais",
+"pais": "Irã"
+},
+{
+"q": "curiosidades história do Irã que você não sabia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Irã"
+},
+{
+"q": "história da Rússia que ninguém conta",
+"lang": "pt",
+"tipo": "generica_pais",
+"pais": "Rússia"
+},
+{
+"q": "história completa da Rússia",
+"lang": "pt",
+"tipo": "pais",
+"pais": "Rússia"
+},
+{
+"q": "curiosidades história da Rússia que você não sabia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Rússia"
+},
+{
+"q": "história da França que ninguém conta",
+"lang": "pt",
+"tipo": "generica_pais",
+"pais": "França"
+},
+{
+"q": "história completa da França",
+"lang": "pt",
+"tipo": "pais",
+"pais": "França"
+},
+{
+"q": "curiosidades história da França que você não sabia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "França"
+},
+{
+"q": "história de Roma que ninguém conta",
+"lang": "pt",
+"tipo": "generica_pais",
+"pais": "Roma"
+},
+{
+"q": "história completa de Roma",
+"lang": "pt",
+"tipo": "pais",
+"pais": "Roma"
+},
+{
+"q": "curiosidades história de Roma que você não sabia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Roma"
+},
+{
+"q": "história da Alemanha que ninguém conta",
+"lang": "pt",
+"tipo": "generica_pais",
+"pais": "Alemanha"
+},
+{
+"q": "história completa da Alemanha",
+"lang": "pt",
+"tipo": "pais",
+"pais": "Alemanha"
+},
+{
+"q": "curiosidades história da Alemanha que você não sabia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Alemanha"
+},
+{
+"q": "história do Japão que ninguém conta",
+"lang": "pt",
+"tipo": "generica_pais",
+"pais": "Japão"
+},
+{
+"q": "história completa do Japão",
+"lang": "pt",
+"tipo": "pais",
+"pais": "Japão"
+},
+{
+"q": "curiosidades história do Japão que você não sabia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Japão"
+},
+{
+"q": "o país que foi governado por estrangeiros",
+"lang": "pt",
+"tipo": "fato",
+"pais": ""
+},
+{
+"q": "o império que ninguém lembra",
+"lang": "pt",
+"tipo": "fato",
+"pais": ""
+},
+{
+"q": "você não sabia disso sobre a história",
+"lang": "pt",
+"tipo": "fato",
+"pais": ""
+},
+{
+"q": "fatos históricos surpreendentes que ninguém conta",
+"lang": "pt",
+"tipo": "fato",
+"pais": ""
+},
+{
+"q": "a época esquecida da história",
+"lang": "pt",
+"tipo": "fato",
+"pais": ""
+},
+{
+"q": "the untold history of",
+"lang": "en",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "what they never taught you about history",
+"lang": "en",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "the dark history of country",
+"lang": "en",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "history nobody talks about",
+"lang": "en",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "the forgotten history of",
+"lang": "en",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "la historia que nadie te cuenta",
+"lang": "es",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "la historia oculta de",
+"lang": "es",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "lo que no te enseñaron en la escuela historia",
+"lang": "es",
+"tipo": "generica",
+"pais": ""
+},
+{
+"q": "a Rússia foi fundada por vikings",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Rússia"
+},
+{
+"q": "o Egito foi governado por gregos e cleópatra não era egípcia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Egito"
+},
+{
+"q": "a Índia foi governada por uma empresa",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Índia"
+},
+{
+"q": "a China foi governada por mongóis",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "China"
+},
+{
+"q": "o Rio de Janeiro foi capital de Portugal",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Brasil"
+},
+{
+"q": "o Brasil quase foi holandês",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Brasil"
+},
+{
+"q": "a Pérsia antes do islã",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Irã"
+},
+{
+"q": "o Irã já foi aliado de Israel",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Irã"
+},
+{
+"q": "Roma foi saqueada pelos gauleses",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Roma"
+},
+{
+"q": "a Alemanha não existia até 1871",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Alemanha"
+},
+{
+"q": "o Japão se fechou para o mundo por 200 anos",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Japão"
+},
+{
+"q": "a França quase foi inglesa",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "França"
+},
+{
+"q": "por que a Rússia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Rússia"
+},
+{
+"q": "por que o Egito",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Egito"
+},
+{
+"q": "por que a China",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "China"
+},
+{
+"q": "por que o Brasil",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Brasil"
+},
+{
+"q": "por que o Irã",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Irã"
+},
+{
+"q": "por que a Índia",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Índia"
+},
+{
+"q": "a Inglaterra foi governada por franceses",
+"lang": "pt",
+"tipo": "fato_pais",
+"pais": "Inglaterra"
+},
+{
+"q": "o país que",
+"lang": "pt",
+"tipo": "fato",
+"pais": ""
+},
+{
+"q": "the untold history of Russia",
+"lang": "en",
+"tipo": "generica_pais",
+"pais": "Rússia"
+},
+{
+"q": "the untold history of Egypt",
+"lang": "en",
+"tipo": "generica_pais",
+"pais": "Egito"
+},
+{
+"q": "the untold history of China",
+"lang": "en",
+"tipo": "generica_pais",
+"pais": "China"
+},
+{
+"q": "the untold history of Brazil",
+"lang": "en",
+"tipo": "generica_pais",
+"pais": "Brasil"
+},
+{
+"q": "the untold history of Iran",
+"lang": "en",
+"tipo": "generica_pais",
+"pais": "Irã"
+},
+{
+"q": "the untold history of India",
+"lang": "en",
+"tipo": "generica_pais",
+"pais": "Índia"
+},
+{
+"q": "the untold history of France",
+"lang": "en",
+"tipo": "generica_pais",
+"pais": "França"
+},
+{
+"q": "the untold history of Rome",
+"lang": "en",
+"tipo": "generica_pais",
+"pais": "Roma"
+},
+{
+"q": "the untold history of Germany",
+"lang": "en",
+"tipo": "generica_pais",
+"pais": "Alemanha"
+},
+{
+"q": "the untold history of Japan",
+"lang": "en",
+"tipo": "generica_pais",
+"pais": "Japão"
+},
+{
+"q": "Egito governado por estrangeiros",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "Egito"
+},
+{
+"q": "faraós negros núbios",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "Egito"
+},
+{
+"q": "hicsos invasores do Egito",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "Egito"
+},
+{
+"q": "Cleópatra era grega",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "Egito"
+},
+{
+"q": "Egito depois dos faraós",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "Egito"
+},
+{
+"q": "o último faraó egípcio",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "Egito"
+},
+{
+"q": "China governada pelos manchus",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "China"
+},
+{
+"q": "dinastia Qing não era chinesa",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "China"
+},
+{
+"q": "Brasil holandês",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "Brasil"
+},
+{
+"q": "reino do Brasil Portugal capital Rio",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "Brasil"
+},
+{
+"q": "Irã antes da revolução islâmica",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "Irã"
+},
+{
+"q": "Índia governada por empresa britânica",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "Índia"
+},
+{
+"q": "Rússia governada por mongóis",
+"lang": "pt",
+"tipo": "angulo_pais",
+"pais": "Rússia"
+}
+]

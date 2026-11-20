@@ -1,0 +1,30 @@
+{
+ "canal": "historia-ptbr",
+ "video": "(pesquisa) Egito — ângulo não contado",
+ "variantes": [
+  {
+   "par": "A",
+   "titulo": "O Egito passou 2.300 anos governado por ESTRANGEIROS",
+   "padrao_titulo": "afirmacao-fato-historico",
+   "thumb": "A",
+   "padrao_thumb": "cena-acao",
+   "texto_thumb": ""
+  },
+  {
+   "par": "B",
+   "titulo": "Por que o Egito esperou 2.300 anos por um EGÍPCIO?",
+   "padrao_titulo": "pergunta-central-concreta",
+   "thumb": "B",
+   "padrao_thumb": "documento-evidencia",
+   "texto_thumb": "GREGO (rótulo no círculo)"
+  },
+  {
+   "par": "C",
+   "titulo": "Como o Egito virou o PRÊMIO de todo império",
+   "padrao_titulo": "como-X-virou",
+   "thumb": "C",
+   "padrao_thumb": "mapa-lugar",
+   "texto_thumb": "POR QUÊ?"
+  }
+ ]
+}

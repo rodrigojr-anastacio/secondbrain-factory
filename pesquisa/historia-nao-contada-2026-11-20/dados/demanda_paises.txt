@@ -1,0 +1,11 @@
+país | n vídeos pt (≤24m) com o país no título | soma views | top1 | nº ≥100k | mediana ×med | "não contada" do país (pt): n, melhor
+Egito | 66 | 20,827,945 | 4,504,137 (TW4CEkXzMDk) | 25 | 6.0 | 11: 376,637 20.4× O Fim do Antigo Egito: A Verdadeira História da Queda dos Fa (dPfV5_tDCzo)
+Índia | 55 | 13,374,120 | 1,327,602 (xwUhmN0S0h4) | 28 | 2.0 | 8: 130,201 1.7× O LADO SOMBRIO DA ÍNDIA - O PAÍS QUE NINGUÉM QUER MOSTRAR... (5G0Fy5f-Tp4)
+China | 63 | 27,140,290 | 9,416,806 (fXuWQg7uJKg) | 28 | 3.2 | 9: 393,630 5.0× A CRISE ESCONDIDA DA CHINA - POBREZA E VIGILÂNCIA (BNvFiB_n6FA)
+Brasil | 130 | 52,430,513 | 7,538,255 (ZUt_OO_C4Eo) | 54 | 2.2 | 34: 7,538,255 6.8× O BRASIL ANTES DE 1500:  A HISTÓRIA QUE VOCÊ NUNCA APRENDEU (ZUt_OO_C4Eo)
+Irã | 162 | 36,821,125 | 3,954,936 (dVY_arfXbk0) | 56 | 2.4 | 32: 646,734 3.8× O IRA! ERA UMA BANDA MALDITA - E ESTA É A HISTÓRIA PROIBIDA  (agPc3daJFi0)
+Rússia | 50 | 4,988,010 | 1,640,101 (BF9AD91W2u4) | 9 | 1.9 | 1: 922,635 42.9× O Lado SECRETO Da RÚSSIA: O País Mais DESAFIADOR?  Documentá (EUrzBzLSVaw)
+França | 38 | 2,759,911 | 1,395,821 (1LHPahs2Db0) | 7 | 1.9 | 6: 6,928 0.6× Os Idiomas Esquecidos da França (H36hO5BO6GM)
+Roma | 67 | 9,548,487 | 3,639,987 (q7Yee9NbccY) | 20 | 2.0 | 9: 126,753 2.0× POR QUE ROMA NUNCA CONQUISTOU A ÍNDIA? O Segredo que os Livr (guiOxLd8X3M)
+Alemanha | 34 | 4,408,791 | 741,854 (fEPvVt0AOao) | 10 | 6.3 | 2: 79,662 1.9× O Lado Sombrio Da ALEMANHA:  Por que NINGUÉM Quer MORAR mais (YAAAlJ2BGK0)
+Japão | 37 | 5,340,161 | 1,484,287 (8nyibP5FCrk) | 8 | 1.4 | 2: 187 0.1× A Verdadeira História do Japão: o Que É Fato e o Que É Lenda (KyRewO87nAc)

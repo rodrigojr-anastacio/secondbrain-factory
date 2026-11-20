@@ -1,0 +1,30 @@
+{
+ "generica": {
+  "n": 105,
+  "mediana_x": 1.79,
+  "pct_3x": 32,
+  "mediana_views": 1012,
+  "canais_peq_med_3x": 28
+ },
+ "fato_especifico": {
+  "n": 184,
+  "mediana_x": 1.86,
+  "pct_3x": 37,
+  "mediana_views": 10188,
+  "canais_peq_med_3x": 46
+ },
+ "completa": {
+  "n": 139,
+  "mediana_x": 2.56,
+  "pct_3x": 46,
+  "mediana_views": 5070,
+  "canais_peq_med_3x": 45
+ },
+ "outro": {
+  "n": 290,
+  "mediana_x": 1.81,
+  "pct_3x": 41,
+  "mediana_views": 5501,
+  "canais_peq_med_3x": 90
+ }
+}
