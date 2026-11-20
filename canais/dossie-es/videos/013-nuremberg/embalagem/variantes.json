@@ -1,3 +1,26 @@
-[{"letra":"A","titulo":"TODA la historia de los Juicios de Núremberg en 14 minutos","padrao_titulo":"TODA la historia de [tema] en N minutos","padrao_thumb":"objeto-simbolo","thumb_conceito":"fones de baquelita de 1945 sozinhos na grade do banco dos réus vazio, à esquerda; papel creme com NÚREMBERG à direita","thumb_texto":"NÚREMBERG / SIN LEY"},
- {"letra":"B","titulo":"Cómo Núremberg inventó los delitos para juzgar a los nazis","padrao_titulo":"Cómo + organização + verbo concreto + alvo","padrao_thumb":"rosto-emocao","thumb_conceito":"rosto de Göring em tinta, meio perfil, com os fones do tribunal e meio sorriso de desdém, sobre ardósia lisa","thumb_texto":"¿CULPABLE?"},
- {"letra":"C","titulo":"Núremberg: de la sala 600 a los tribunales de América Latina","padrao_titulo":"[TEMA]: de A a B","padrao_thumb":"mapa-lugar","thumb_conceito":"mapa escuro do Atlântico com fio vermelho de Núremberg a 4 pontos na América Latina","thumb_texto":"HASTA AQUÍ"}]
+[
+ {
+  "letra": "A",
+  "titulo": "TODA la historia de los Juicios de Núremberg en 14 minutos",
+  "padrao_titulo": "TODA la historia de [tema] en N minutos",
+  "padrao_thumb": "objeto-simbolo",
+  "thumb_conceito": "fones de baquelita de 1945 sozinhos sobre papel creme, borda da grade do banco dos réus embaixo; NÚREMBERG à direita",
+  "thumb_texto": "NÚREMBERG / SIN NOMBRE"
+ },
+ {
+  "letra": "B",
+  "titulo": "Cómo Núremberg le puso nombre al crimen que no tenía nombre",
+  "padrao_titulo": "Cómo + organização + verbo concreto + alvo",
+  "padrao_thumb": "cena-acao",
+  "thumb_conceito": "20/11/1945, sala 600: fiscal de pé no púlpito lendo a acusação, visto de 3/4 por trás, num facho de refletor; sala escura",
+  "thumb_texto": ""
+ },
+ {
+  "letra": "C",
+  "titulo": "Núremberg: de la sala 600 a los tribunales de América Latina",
+  "padrao_titulo": "[TEMA]: de A a B",
+  "padrao_thumb": "mapa-lugar",
+  "thumb_conceito": "mapa escuro do Atlântico com fio vermelho de Núremberg a 4 pontos na América Latina",
+  "thumb_texto": "HASTA AQUÍ"
+ }
+]
