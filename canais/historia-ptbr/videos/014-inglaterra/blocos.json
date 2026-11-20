@@ -1,0 +1,422 @@
+[
+ {
+  "id": "N001",
+  "texto": "[curious] Palácio de Rítchmond, março de mil seiscentos e três. Imagine que você é Róbert Kéri, um nobre inglês. A rainha Elizabeth acabou de morrer, sem filhos.",
+  "tela": "[curious] Palácio de Richmond, março de mil seiscentos e três. Imagine que você é Robert Carey, um nobre inglês. A rainha Elizabeth acabou de morrer, sem filhos.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "Você monta e galopa para o norte. Sessenta horas, até Edimburgo, para dar a notícia: o rei da Inglaterra agora é um escocês. O vizinho da guerra de sempre.",
+  "tela": "Você monta e galopa para o norte. Sessenta horas, até Edimburgo, para dar a notícia: o rei da Inglaterra agora é um escocês. O vizinho da guerra de sempre.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "[serious] E aí fica a pergunta: como um país que vivia buscando rei lá fora acabou mandando em um quarto do mundo?",
+  "tela": "[serious] E aí fica a pergunta: como um país que vivia buscando rei lá fora acabou mandando em um quarto do mundo?",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "Porque não foi a primeira vez. Um dinamarquês e um normando tomaram a coroa à força; o normando, coroado num Natal em que a vizinhança pegava fogo. Um francês, um holandês e um alemão a receberam.",
+  "tela": "Porque não foi a primeira vez. Um dinamarquês e um normando tomaram a coroa à força; o normando, coroado num Natal em que a vizinhança pegava fogo. Um francês, um holandês e um alemão a receberam.",
+  "ideia": false
+ },
+ {
+  "id": "N005",
+  "texto": "E cada um pagou um preço. Um deles teve de aceitar, por escrito, que não cobraria um centavo de imposto sem pedir licença.",
+  "tela": "E cada um pagou um preço. Um deles teve de aceitar, por escrito, que não cobraria um centavo de imposto sem pedir licença.",
+  "ideia": false
+ },
+ {
+  "id": "N006",
+  "texto": "Essa é a história inteira da Inglaterra. E começa numa ilha que todo mundo atravessa.",
+  "tela": "Essa é a história inteira da Inglaterra. E começa numa ilha que todo mundo atravessa.",
+  "ideia": false
+ },
+ {
+  "id": "N007",
+  "texto": "Mil e dezesseis. Um dinamarquês, Canúto, senta no trono da Inglaterra. Ele também manda na Dinamarca e na Noruega: a ilha vira província de um império do mar do Norte.",
+  "tela": "Mil e dezesseis. Um dinamarquês, Canuto, senta no trono da Inglaterra. Ele também manda na Dinamarca e na Noruega: a ilha vira província de um império do mar do Norte.",
+  "ideia": true
+ },
+ {
+  "id": "N008",
+  "texto": "Não era novidade. Antes dele, atravessaram o mar os romanos, depois os anglos e os saxões, depois os vikings. Alfredo, o Grande, segurou os vikings no sul. Mas a ilha continuava sendo onde todo mundo desembarcava.",
+  "tela": "Não era novidade. Antes dele, atravessaram o mar os romanos, depois os anglos e os saxões, depois os vikings. Alfredo, o Grande, segurou os vikings no sul. Mas a ilha continuava sendo onde todo mundo desembarcava.",
+  "ideia": false
+ },
+ {
+  "id": "N009",
+  "texto": "Só que deixava marca. Se você já falou scái, égue ou náife numa aula de inglês, falou palavras que vieram dos vikings.",
+  "tela": "Só que deixava marca. Se você já falou sky, egg ou knife numa aula de inglês, falou palavras que vieram dos vikings.",
+  "ideia": false
+ },
+ {
+  "id": "N010",
+  "texto": "Conta uma lenda, escrita uns cem anos depois, que Canúto mandou o mar recuar. A versão que você conhece é a do rei arrogante. Só que a lenda original diz o contrário: ele molha os pés de propósito, para mostrar aos bajuladores que rei nenhum manda nas ondas.",
+  "tela": "Conta uma lenda, escrita uns cem anos depois, que Canuto mandou o mar recuar. A versão que você conhece é a do rei arrogante. Só que a lenda original diz o contrário: ele molha os pés de propósito, para mostrar aos bajuladores que rei nenhum manda nas ondas.",
+  "ideia": true
+ },
+ {
+  "id": "N011",
+  "texto": "Repare no recado: rei de fora, para ser aceito, tinha de parecer menor.",
+  "tela": "Repare no recado: rei de fora, para ser aceito, tinha de parecer menor.",
+  "ideia": false
+ },
+ {
+  "id": "N012",
+  "texto": "Canúto morre em mil e trinta e cinco, os filhos brigam e a coroa volta para um inglês. O problema é que, do outro lado do canal, um parente normando achava que ela era dele.",
+  "tela": "Canuto morre em mil e trinta e cinco, os filhos brigam e a coroa volta para um inglês. O problema é que, do outro lado do canal, um parente normando achava que ela era dele.",
+  "ideia": false
+ },
+ {
+  "id": "N013",
+  "texto": "Abadia de Uéstminster, Natal de mil e sessenta e seis. Guilherme da Normandia, que venceu em Hêistings dois meses antes, vai ser coroado.",
+  "tela": "Abadia de Westminster, Natal de mil e sessenta e seis. Guilherme da Normandia, que venceu em Hastings dois meses antes, vai ser coroado.",
+  "ideia": true
+ },
+ {
+  "id": "N014",
+  "texto": "Lá dentro, um bispo pergunta em francês se aceitam o novo rei, e um arcebispo repete em inglês. A igreja inteira grita que sim.",
+  "tela": "Lá dentro, um bispo pergunta em francês se aceitam o novo rei, e um arcebispo repete em inglês. A igreja inteira grita que sim.",
+  "ideia": false
+ },
+ {
+  "id": "N015",
+  "texto": "Só que, do lado de fora, os guardas normandos não entendem os gritos. Acham que é revolta e põem fogo nas casas vizinhas. A igreja esvazia, e um cronista conta que Guilherme terminou a cerimônia tremendo.",
+  "tela": "Só que, do lado de fora, os guardas normandos não entendem os gritos. Acham que é revolta e põem fogo nas casas vizinhas. A igreja esvazia, e um cronista conta que Guilherme terminou a cerimônia tremendo.",
+  "ideia": false
+ },
+ {
+  "id": "N016",
+  "texto": "Já aplaudiu um discurso numa língua que você não entende? Aqueles guardas fizeram o contrário: ouviram aplauso e entenderam ataque.",
+  "tela": "Já aplaudiu um discurso numa língua que você não entende? Aqueles guardas fizeram o contrário: ouviram aplauso e entenderam ataque.",
+  "ideia": false
+ },
+ {
+  "id": "N017",
+  "texto": "Então o normando faz o que conquistador faz: castelo de pedra e terra para os seus. Vinte anos depois, manda contar o reino inteiro, até os porcos, num livro de impostos. Imagine o fiscal contando as suas galinhas.",
+  "tela": "Então o normando faz o que conquistador faz: castelo de pedra e terra para os seus. Vinte anos depois, manda contar o reino inteiro, até os porcos, num livro de impostos. Imagine o fiscal contando as suas galinhas.",
+  "ideia": true
+ },
+ {
+  "id": "N018",
+  "texto": "E a corte fala francês por uns três séculos. O problema: o rei da Inglaterra agora também era senhor na França, e o dinheiro atravessava o canal na direção errada.",
+  "tela": "E a corte fala francês por uns três séculos. O problema: o rei da Inglaterra agora também era senhor na França, e o dinheiro atravessava o canal na direção errada.",
+  "ideia": false
+ },
+ {
+  "id": "N019",
+  "texto": "Ruão, junho de mil duzentos e quatro. A capital da Normandia se rende ao rei da França. O rei João perde a terra de onde a família tinha vindo.",
+  "tela": "Ruão, junho de mil duzentos e quatro. A capital da Normandia se rende ao rei da França. O rei João perde a terra de onde a família tinha vindo.",
+  "ideia": true
+ },
+ {
+  "id": "N020",
+  "texto": "João era filho de Henrique Segundo, um francês nascido em Le Mã, que herdou a Inglaterra por acordo e chegou a mandar em metade da França.",
+  "tela": "João era filho de Henrique Segundo, um francês nascido em Le Mans, que herdou a Inglaterra por acordo e chegou a mandar em metade da França.",
+  "ideia": false
+ },
+ {
+  "id": "N021",
+  "texto": "Agora imagine o problema dele: preso na ilha, querendo a Normandia de volta e sem dinheiro. A solução de sempre? Imposto. E mais imposto.",
+  "tela": "Agora imagine o problema dele: preso na ilha, querendo a Normandia de volta e sem dinheiro. A solução de sempre? Imposto. E mais imposto.",
+  "ideia": false
+ },
+ {
+  "id": "N022",
+  "texto": "Então os barões se cansam. Em mil duzentos e quinze, obrigam João a aceitar a Magna Carta: imposto extraordinário, só com o conselho do reino. O papa anula em semanas, mas o papel volta, reeditado, várias vezes.",
+  "tela": "Então os barões se cansam. Em mil duzentos e quinze, obrigam João a aceitar a Magna Carta: imposto extraordinário, só com o conselho do reino. O papa anula em semanas, mas o papel volta, reeditado, várias vezes.",
+  "ideia": true
+ },
+ {
+  "id": "N023",
+  "texto": "Mas quem dá o passo seguinte é outro estrangeiro. Simón de Monfór, nobre nascido na França e cunhado do rei, lidera uma revolta. Em mil duzentos e sessenta e cinco, chama para o parlamento não só barões, mas gente das cidades.",
+  "tela": "Mas quem dá o passo seguinte é outro estrangeiro. Simon de Montfort, nobre nascido na França e cunhado do rei, lidera uma revolta. Em mil duzentos e sessenta e cinco, chama para o parlamento não só barões, mas gente das cidades.",
+  "ideia": false
+ },
+ {
+  "id": "N024",
+  "texto": "Aqui está a primeira peça da resposta: rei que precisa de dinheiro precisa pedir. E quem é pedido aprende a cobrar. Você mesmo: quando alguém te pede um favor grande, não pede nada em troca?",
+  "tela": "Aqui está a primeira peça da resposta: rei que precisa de dinheiro precisa pedir. E quem é pedido aprende a cobrar. Você mesmo: quando alguém te pede um favor grande, não pede nada em troca?",
+  "ideia": false
+ },
+ {
+  "id": "N025",
+  "texto": "O problema é que esse país que cobrava o rei ainda fazia isso em francês.",
+  "tela": "O problema é que esse país que cobrava o rei ainda fazia isso em francês.",
+  "ideia": false
+ },
+ {
+  "id": "N026",
+  "texto": "Uéstminster, mil trezentos e sessenta e dois. O Parlamento aprova uma lei: nos tribunais, a partir de agora, se fala inglês. O detalhe é ótimo: a lei foi escrita em francês.",
+  "tela": "Westminster, mil trezentos e sessenta e dois. O Parlamento aprova uma lei: nos tribunais, a partir de agora, se fala inglês. O detalhe é ótimo: a lei foi escrita em francês.",
+  "ideia": true
+ },
+ {
+  "id": "N027",
+  "texto": "Imagine ser julgado numa língua que você não entende: era a vida do camponês inglês. E havia um motivo a mais, porque a Inglaterra estava em guerra com a França, a Guerra dos Cem Anos.",
+  "tela": "Imagine ser julgado numa língua que você não entende: era a vida do camponês inglês. E havia um motivo a mais, porque a Inglaterra estava em guerra com a França, a Guerra dos Cem Anos.",
+  "ideia": false
+ },
+ {
+  "id": "N028",
+  "texto": "Em mil trezentos e noventa e nove, Henrique Quarto reivindica o trono diante do Parlamento. Em inglês. Só que a guerra termina, em mil quatrocentos e cinquenta e três, com quase tudo perdido na França.",
+  "tela": "Em mil trezentos e noventa e nove, Henrique Quarto reivindica o trono diante do Parlamento. Em inglês. Só que a guerra termina, em mil quatrocentos e cinquenta e três, com quase tudo perdido na França.",
+  "ideia": true
+ },
+ {
+  "id": "N029",
+  "texto": "Então a briga vira caseira: Lâncaster contra Iórque, trinta anos de Guerra das Rosas.",
+  "tela": "Então a briga vira caseira: Lancaster contra York, trinta anos de Guerra das Rosas.",
+  "ideia": false
+ },
+ {
+  "id": "N030",
+  "texto": "E quem ganha? Mais um que vinha de fora. Henrique Túdor, criado no exílio, desembarca em Gales em mil quatrocentos e oitenta e cinco, com mercenários franceses, e vence.",
+  "tela": "E quem ganha? Mais um que vinha de fora. Henrique Tudor, criado no exílio, desembarca em Gales em mil quatrocentos e oitenta e cinco, com mercenários franceses, e vence.",
+  "ideia": false
+ },
+ {
+  "id": "N031",
+  "texto": "O novo rei chega com uma meta: nunca mais depender de barão. O problema é que, para isso, a família dele também ia precisar do Parlamento.",
+  "tela": "O novo rei chega com uma meta: nunca mais depender de barão. O problema é que, para isso, a família dele também ia precisar do Parlamento.",
+  "ideia": false
+ },
+ {
+  "id": "N032",
+  "texto": "Londres, mil quinhentos e vinte e nove. Henrique Oitavo, filho do Túdor, quer anular o casamento, e o papa diz não. Imagine o rei mais poderoso da Inglaterra esperando licença de Roma.",
+  "tela": "Londres, mil quinhentos e vinte e nove. Henrique Oitavo, filho do Tudor, quer anular o casamento, e o papa diz não. Imagine o rei mais poderoso da Inglaterra esperando licença de Roma.",
+  "ideia": true
+ },
+ {
+  "id": "N033",
+  "texto": "Então ele faz uma coisa nova: em vez de brigar sozinho, chama o Parlamento. Por sete anos, lei após lei, o Parlamento corta os laços com Roma. Em mil quinhentos e trinta e quatro, faz do rei o chefe da Igreja da Inglaterra.",
+  "tela": "Então ele faz uma coisa nova: em vez de brigar sozinho, chama o Parlamento. Por sete anos, lei após lei, o Parlamento corta os laços com Roma. Em mil quinhentos e trinta e quatro, faz do rei o chefe da Igreja da Inglaterra.",
+  "ideia": false
+ },
+ {
+  "id": "N034",
+  "texto": "Só que repare: se uma lei do Parlamento muda até a religião do país, o que ela não pode mudar? E as terras dos mosteiros, vendidas, vão parar com gente que senta no Parlamento.",
+  "tela": "Só que repare: se uma lei do Parlamento muda até a religião do país, o que ela não pode mudar? E as terras dos mosteiros, vendidas, vão parar com gente que senta no Parlamento.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "Pense em emprestar a chave da sua casa para alguém regar as plantas. Depois, vai ser difícil pedir de volta.",
+  "tela": "Pense em emprestar a chave da sua casa para alguém regar as plantas. Depois, vai ser difícil pedir de volta.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "A filha de Henrique, Elizabeth, reina quase quarenta e cinco anos, enfrenta a Armada espanhola e nunca se casa. E voltamos ao galope do começo: sem herdeiro, a coroa vai para o vizinho do norte.",
+  "tela": "A filha de Henrique, Elizabeth, reina quase quarenta e cinco anos, enfrenta a Armada espanhola e nunca se casa. E voltamos ao galope do começo: sem herdeiro, a coroa vai para o vizinho do norte.",
+  "ideia": true
+ },
+ {
+  "id": "N037",
+  "texto": "O problema: o escocês que chegava acreditava que rei só presta contas a Deus.",
+  "tela": "O problema: o escocês que chegava acreditava que rei só presta contas a Deus.",
+  "ideia": false
+ },
+ {
+  "id": "N038",
+  "texto": "Londres, abril de mil seiscentos e quatro. O novo rei, Jaime, pede à Câmara dos Comuns um título novo: rei da Grã-Bretanha. E os Comuns dizem não.",
+  "tela": "Londres, abril de mil seiscentos e quatro. O novo rei, Jaime, pede à Câmara dos Comuns um título novo: rei da Grã-Bretanha. E os Comuns dizem não.",
+  "ideia": true
+ },
+ {
+  "id": "N039",
+  "texto": "Lembra do escocês do começo? Ele esperava esse trono havia anos, e trocava até cartas secretas com o ministro da rainha. Só não esperava o não. Assume o título por proclamação, mas o recado estava dado.",
+  "tela": "Lembra do escocês do começo? Ele esperava esse trono havia anos, e trocava até cartas secretas com o ministro da rainha. Só não esperava o não. Assume o título por proclamação, mas o recado estava dado.",
+  "ideia": false
+ },
+ {
+  "id": "N040",
+  "texto": "O filho dele, Carlos Primeiro, acha o Parlamento caro demais e governa onze anos sem convocá-lo, inventando taxas. Até que, em mil seiscentos e quarenta, precisa de dinheiro para guerrear com os escoceses. E o Parlamento volta, com a conta acumulada.",
+  "tela": "O filho dele, Carlos Primeiro, acha o Parlamento caro demais e governa onze anos sem convocá-lo, inventando taxas. Até que, em mil seiscentos e quarenta, precisa de dinheiro para guerrear com os escoceses. E o Parlamento volta, com a conta acumulada.",
+  "ideia": true
+ },
+ {
+  "id": "N041",
+  "texto": "Imagine o síndico que cobra taxa extra sem assembleia, por onze anos. Agora ponha exércitos nessa reunião.",
+  "tela": "Imagine o síndico que cobra taxa extra sem assembleia, por onze anos. Agora ponha exércitos nessa reunião.",
+  "ideia": false
+ },
+ {
+  "id": "N042",
+  "texto": "[serious] O resultado é uma guerra civil. Em mil seiscentos e quarenta e nove, o rei é julgado e executado em Londres. E por onze anos a Inglaterra fica sem rei.",
+  "tela": "[serious] O resultado é uma guerra civil. Em mil seiscentos e quarenta e nove, o rei é julgado e executado em Londres. E por onze anos a Inglaterra fica sem rei.",
+  "ideia": false
+ },
+ {
+  "id": "N043",
+  "texto": "Lembra da nossa pergunta? Ela acabou de ficar mais estranha: o país que vai mandar no mundo está sem rei nenhum. Em mil seiscentos e sessenta, a monarquia volta. O problema é que, quando o rei seguinte vira católico, a ilha protestante vai procurar outro. Lá fora.",
+  "tela": "Lembra da nossa pergunta? Ela acabou de ficar mais estranha: o país que vai mandar no mundo está sem rei nenhum. Em mil seiscentos e sessenta, a monarquia volta. O problema é que, quando o rei seguinte vira católico, a ilha protestante vai procurar outro. Lá fora.",
+  "ideia": false
+ },
+ {
+  "id": "N044",
+  "texto": "Novembro de mil seiscentos e oitenta e oito. Na costa sul da Inglaterra, desembarca um exército holandês. Nos estandartes, segundo os relatos, em vez de ameaça, uma promessa: as liberdades da Inglaterra e a religião protestante.",
+  "tela": "Novembro de mil seiscentos e oitenta e oito. Na costa sul da Inglaterra, desembarca um exército holandês. Nos estandartes, segundo os relatos, em vez de ameaça, uma promessa: as liberdades da Inglaterra e a religião protestante.",
+  "ideia": true
+ },
+ {
+  "id": "N045",
+  "texto": "Quem chegava era Guilherme de Orânge, holandês e genro do rei. Convidado: sete ingleses poderosos tinham escrito pedindo que viesse. O rei católico, Jaime Segundo, foge para a França. Guarde essa promessa no estandarte.",
+  "tela": "Quem chegava era Guilherme de Orange, holandês e genro do rei. Convidado: sete ingleses poderosos tinham escrito pedindo que viesse. O rei católico, Jaime Segundo, foge para a França. Guarde essa promessa no estandarte.",
+  "ideia": false
+ },
+ {
+  "id": "N046",
+  "texto": "Então, em fevereiro de mil seiscentos e oitenta e nove, Guilherme e a mulher, Maria, ouvem a leitura de uma declaração: sem o Parlamento, o rei não cobra imposto nem mantém exército em tempo de paz. E aceitam a coroa.",
+  "tela": "Então, em fevereiro de mil seiscentos e oitenta e nove, Guilherme e a mulher, Maria, ouvem a leitura de uma declaração: sem o Parlamento, o rei não cobra imposto nem mantém exército em tempo de paz. E aceitam a coroa.",
+  "ideia": true
+ },
+ {
+  "id": "N047",
+  "texto": "E aqui muda tudo. Guilherme queria guerra contra a França, e guerra custa caro. Em mil seiscentos e noventa e quatro, um grupo de comerciantes funda o Banco da Inglaterra e empresta ao governo um milhão e duzentas mil libras, a oito por cento.",
+  "tela": "E aqui muda tudo. Guilherme queria guerra contra a França, e guerra custa caro. Em mil seiscentos e noventa e quatro, um grupo de comerciantes funda o Banco da Inglaterra e empresta ao governo um milhão e duzentas mil libras, a oito por cento.",
+  "ideia": false
+ },
+ {
+  "id": "N048",
+  "texto": "Por que emprestar? Porque um rei sozinho podia dar calote. Um Parlamento de proprietários e comerciantes, os próprios credores, pagava. É como o seu crédito no banco: se você paga em dia, o juro cai.",
+  "tela": "Por que emprestar? Porque um rei sozinho podia dar calote. Um Parlamento de proprietários e comerciantes, os próprios credores, pagava. É como o seu crédito no banco: se você paga em dia, o juro cai.",
+  "ideia": false
+ },
+ {
+  "id": "N049",
+  "texto": "Segunda peça da resposta: o papel que amarrava o rei de fora deixou o país confiável para pedir emprestado. O problema é que a rainha Ana morre sem filhos vivos, e a lei manda buscar o próximo protestante na Alemanha.",
+  "tela": "Segunda peça da resposta: o papel que amarrava o rei de fora deixou o país confiável para pedir emprestado. O problema é que a rainha Ana morre sem filhos vivos, e a lei manda buscar o próximo protestante na Alemanha.",
+  "ideia": false
+ },
+ {
+  "id": "N050",
+  "texto": "Mil setecentos e um. O Parlamento escreve as regras para um rei que ainda nem chegou. Protestante. Nada de guerra pelas terras dele lá fora sem o Parlamento. E nem sair da ilha sem licença.",
+  "tela": "Mil setecentos e um. O Parlamento escreve as regras para um rei que ainda nem chegou. Protestante. Nada de guerra pelas terras dele lá fora sem o Parlamento. E nem sair da ilha sem licença.",
+  "ideia": true
+ },
+ {
+  "id": "N051",
+  "texto": "Imagine o seu chefe novo chegando com a lista do que ele não pode fazer. Assim chega, em mil setecentos e catorze, Jorge de Hanôver. Fala pouco inglês e prefere o francês. Dois anos depois, pede para visitar a terra dele, e o Parlamento revoga a cláusula.",
+  "tela": "Imagine o seu chefe novo chegando com a lista do que ele não pode fazer. Assim chega, em mil setecentos e catorze, Jorge de Hanôver. Fala pouco inglês e prefere o francês. Dois anos depois, pede para visitar a terra dele, e o Parlamento revoga a cláusula.",
+  "ideia": false
+ },
+ {
+  "id": "N052",
+  "texto": "Com o tempo, Jorge deixa de ir às reuniões com os ministros. Aí quem senta na cabeceira é Robert Uólpol, chefe do Tesouro por vinte e um anos: o que hoje chamamos de primeiro-ministro. Ele mesmo recusava o título; soava como ofensa.",
+  "tela": "Com o tempo, Jorge deixa de ir às reuniões com os ministros. Aí quem senta na cabeceira é Robert Walpole, chefe do Tesouro por vinte e um anos: o que hoje chamamos de primeiro-ministro. Ele mesmo recusava o título; soava como ofensa.",
+  "ideia": true
+ },
+ {
+  "id": "N053",
+  "texto": "Então o crédito barato vira navio. A dívida do país se multiplica por mais de dez em menos de cem anos. Quase tudo vira frota e guerra.",
+  "tela": "Então o crédito barato vira navio. A dívida do país se multiplica por mais de dez em menos de cem anos. Quase tudo vira frota e guerra.",
+  "ideia": false
+ },
+ {
+  "id": "N054",
+  "texto": "Em mil setecentos e sessenta e três, a Grã-Bretanha, já unida à Escócia, vence a França e fica com o Canadá e o caminho da Índia. Só que essa conta também precisava de alguém para pagar.",
+  "tela": "Em mil setecentos e sessenta e três, a Grã-Bretanha, já unida à Escócia, vence a França e fica com o Canadá e o caminho da Índia. Só que essa conta também precisava de alguém para pagar.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "Agora olhe para esta medalha francesa de mil oitocentos e quatro. A inscrição diz: descida na Inglaterra, cunhada em Londres. Foi feita antes da invasão. A invasão nunca veio.",
+  "tela": "Agora olhe para esta medalha francesa de mil oitocentos e quatro. A inscrição diz: descida na Inglaterra, cunhada em Londres. Foi feita antes da invasão. A invasão nunca veio.",
+  "ideia": true
+ },
+ {
+  "id": "N056",
+  "texto": "É como você mandar bordar a faixa de campeão antes da final. Napoleão tinha um exército enorme em Bulônhe. Mas a frota paga com a dívida venceu em Trafalgár, em mil oitocentos e cinco, e a medalha ficou na França.",
+  "tela": "É como você mandar bordar a faixa de campeão antes da final. Napoleão tinha um exército enorme em Boulogne. Mas a frota paga com a dívida venceu em Trafalgar, em mil oitocentos e cinco, e a medalha ficou na França.",
+  "ideia": false
+ },
+ {
+  "id": "N057",
+  "texto": "Vinte anos antes, a mesma conta tinha custado a América. Londres taxou as colônias, e os colonos responderam com o velho argumento inglês: sem representação, sem imposto. Em mil setecentos e oitenta e três, eles se foram.",
+  "tela": "Vinte anos antes, a mesma conta tinha custado a América. Londres taxou as colônias, e os colonos responderam com o velho argumento inglês: sem representação, sem imposto. Em mil setecentos e oitenta e três, eles se foram.",
+  "ideia": false
+ },
+ {
+  "id": "N058",
+  "texto": "Então o crédito, a frota e o carvão das fábricas fazem o resto. No começo do século vinte, o império britânico ocupa perto de um quarto das terras do mundo, com uns quatrocentos e cinquenta milhões de pessoas.",
+  "tela": "Então o crédito, a frota e o carvão das fábricas fazem o resto. No começo do século vinte, o império britânico ocupa perto de um quarto das terras do mundo, com uns quatrocentos e cinquenta milhões de pessoas.",
+  "ideia": true
+ },
+ {
+  "id": "N059",
+  "texto": "[serious] Muita gente pagou caro por esse império, da Índia à Irlanda: fomes, guerras e governos que ninguém escolheu.",
+  "tela": "[serious] Muita gente pagou caro por esse império, da Índia à Irlanda: fomes, guerras e governos que ninguém escolheu.",
+  "ideia": false
+ },
+ {
+  "id": "N060",
+  "texto": "E no trono, no auge? A rainha Vitória, neta de um rei de Hanôver, casada com o príncipe alemão Alberto. Em casa, os dois falavam alemão.",
+  "tela": "E no trono, no auge? A rainha Vitória, neta de um rei de Hanôver, casada com o príncipe alemão Alberto. Em casa, os dois falavam alemão.",
+  "ideia": false
+ },
+ {
+  "id": "N061",
+  "texto": "Terceira peça da resposta: a coroa vinha de fora, mas o poder ficava do lado de dentro, no papel. E foi o papel que pagou a frota. O problema é que, em mil novecentos e catorze, o inimigo passa a ser justamente a Alemanha.",
+  "tela": "Terceira peça da resposta: a coroa vinha de fora, mas o poder ficava do lado de dentro, no papel. E foi o papel que pagou a frota. O problema é que, em mil novecentos e catorze, o inimigo passa a ser justamente a Alemanha.",
+  "ideia": false
+ },
+ {
+  "id": "N062",
+  "texto": "Uóchinton, mil novecentos e quarenta e cinco. A guerra acabou, e o país que emprestou ao mundo por dois séculos agora pede: três bilhões e setecentos e cinquenta milhões de dólares aos americanos.",
+  "tela": "Washington, mil novecentos e quarenta e cinco. A guerra acabou, e o país que emprestou ao mundo por dois séculos agora pede: três bilhões e setecentos e cinquenta milhões de dólares aos americanos.",
+  "ideia": true
+ },
+ {
+  "id": "N063",
+  "texto": "No meio do caminho, em mil novecentos e dezessete, o rei Jorge Quinto tinha trocado o nome alemão da família por um bem inglês: Uíndsor. A coroa de fora agora queria parecer de dentro.",
+  "tela": "No meio do caminho, em mil novecentos e dezessete, o rei Jorge Quinto tinha trocado o nome alemão da família por um bem inglês: Windsor. A coroa de fora agora queria parecer de dentro.",
+  "ideia": false
+ },
+ {
+  "id": "N064",
+  "texto": "Então o império encolhe. A Índia fica independente em mil novecentos e quarenta e sete. Em setenta e três, o país entra no mercado comum europeu; em dois mil e dezesseis, vota para sair.",
+  "tela": "Então o império encolhe. A Índia fica independente em mil novecentos e quarenta e sete. Em setenta e três, o país entra no mercado comum europeu; em dois mil e dezesseis, vota para sair.",
+  "ideia": true
+ },
+ {
+  "id": "N065",
+  "texto": "Só que a conta demorou: a última parcela foi paga em vinte e nove de dezembro de dois mil e seis. Imagine quitar em dois mil e seis uma conta de quarenta e cinco.",
+  "tela": "Só que a conta demorou: a última parcela foi paga em vinte e nove de dezembro de dois mil e seis. Imagine quitar em dois mil e seis uma conta de quarenta e cinco.",
+  "ideia": false
+ },
+ {
+  "id": "N066",
+  "texto": "Seis de maio de dois mil e vinte e três. Carlos Terceiro, descendente direto daquele Jorge de Hanôver, é coroado em Uéstminster. Antes da coroa, faz um juramento: governar os seus povos segundo as leis e os costumes deles.",
+  "tela": "Seis de maio de dois mil e vinte e três. Carlos Terceiro, descendente direto daquele Jorge de Hanôver, é coroado em Westminster. Antes da coroa, faz um juramento: governar os seus povos segundo as leis e os costumes deles.",
+  "ideia": true
+ },
+ {
+  "id": "N067",
+  "texto": "Lembra da promessa no estandarte de mil seiscentos e oitenta e oito? Você acabou de ouvi-la de novo. Quem promete é o rei; quem cobra é o Parlamento.",
+  "tela": "Lembra da promessa no estandarte de mil seiscentos e oitenta e oito? Você acabou de ouvi-la de novo. Quem promete é o rei; quem cobra é o Parlamento.",
+  "ideia": false
+ },
+ {
+  "id": "N068",
+  "texto": "Então, como um país que vivia buscando rei lá fora acabou mandando em um quarto do mundo? Porque cada rei de fora chegava precisando dos ingleses e pagava com um pedaço de poder escrito no papel. O papel virou crédito; o crédito, frota; a frota, império.",
+  "tela": "Então, como um país que vivia buscando rei lá fora acabou mandando em um quarto do mundo? Porque cada rei de fora chegava precisando dos ingleses e pagava com um pedaço de poder escrito no papel. O papel virou crédito; o crédito, frota; a frota, império.",
+  "ideia": true
+ },
+ {
+  "id": "N069",
+  "texto": "Talvez a pergunta certa nunca tenha sido por que eles importavam reis. Era por que podiam: o rei já não era quem mandava. [break] Hoje, o Parlamento continua a poucos passos da abadia onde Guilherme tremeu.",
+  "tela": "Talvez a pergunta certa nunca tenha sido por que eles importavam reis. Era por que podiam: o rei já não era quem mandava. [break] Hoje, o Parlamento continua a poucos passos da abadia onde Guilherme tremeu.",
+  "ideia": false
+ },
+ {
+  "id": "N070",
+  "texto": "[warm] Qual desses reis de fora você não conhecia? Conta nos comentários.",
+  "tela": "[warm] Qual desses reis de fora você não conhecia? Conta nos comentários.",
+  "ideia": false
+ }
+]

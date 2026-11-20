@@ -1,0 +1,383 @@
+{
+ "pasta": "canais/historia-ptbr/videos/014-inglaterra",
+ "roteiro": "canais/historia-ptbr/videos/014-inglaterra/blocos.json",
+ "idioma": "pt",
+ "blocos": 70,
+ "nota": 1.6,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0528,
+ "blocos_consenso_manada": [
+  7,
+  29,
+  42
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.02857142857142857,
+   "ordem": 0.0,
+   "ngramas": 0.0009090909090909091,
+   "sim_media": 0.13490727354639728,
+   "gemeos": 2,
+   "blocos": 70,
+   "posicoes": [
+    [
+     7,
+     69
+    ],
+    [
+     29,
+     102
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 7,
+     "cos": 0.46,
+     "nosso": "Mil e dezesseis. Um dinamarquês, Canúto, senta no trono da Inglaterra. Ele também manda na Dinamarca e na Noruega: a ilha vira província de um império do mar do Norte.",
+     "ref": "voltaram no final do século X e em 1016 o rei dinamarquês Canuto conquistou o trono inglês, governando um império que incluía a Inglaterra, a Dinamarca e a Noruega."
+    },
+    {
+     "bloco": 29,
+     "cos": 0.3,
+     "nosso": "Então a briga vira caseira: Lâncaster contra Iórque, trinta anos de Guerra das Rosas.",
+     "ref": "Cem Anos contra a França, a devastação da Peste Negra em meados do século XIV e a Guerra das Rosas, o conflito entre as casas de Lancaster e York, que terminou"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-lon75v0e7_s.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1584,
+   "nota": 1.6,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014285714285714285,
+   "ordem": 0.0,
+   "ngramas": 0.0036363636363636364,
+   "sim_media": 0.15893563190807386,
+   "gemeos": 1,
+   "blocos": 70,
+   "posicoes": [
+    [
+     7,
+     128
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 7,
+     "cos": 0.35,
+     "nosso": "Mil e dezesseis. Um dinamarquês, Canúto, senta no trono da Inglaterra. Ele também manda na Dinamarca e na Noruega: a ilha vira província de um império do mar do Norte.",
+     "ref": "passou entre governantes anglo-saxões e dinamarqueses, e, em certo momento, o reino foi governado como parte do maior Império do Mar do Norte escandinavo, sob o rei Canuto."
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-P6r_qBoeHuA.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4562,
+   "nota": 1.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014285714285714285,
+   "ordem": 0.0,
+   "ngramas": 0.0027272727272727275,
+   "sim_media": 0.1499980100304278,
+   "gemeos": 1,
+   "blocos": 70,
+   "posicoes": [
+    [
+     45,
+     147
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 45,
+     "cos": 0.31,
+     "nosso": "Quem chegava era Guilherme de Orânge, holandês e genro do rei. Convidado: sete ingleses poderosos tinham escrito pedindo que viesse. O rei católico, Jaime Segundo, foge para a França. Guarde essa promessa no estandarte.",
+     "ref": "filha de Jaime, Maria, e seu marido holandês, Guilherme, ambos protestantes, e muitos nobres insatisfeitos com o rei católico convidaram Guilherme para se tornar rei. Guilherme"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-VcnSsEVsrf0.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3535,
+   "nota": 1.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014285714285714285,
+   "ordem": 0.0,
+   "ngramas": 0.0009090909090909091,
+   "sim_media": 0.13326017177681115,
+   "gemeos": 1,
+   "blocos": 70,
+   "posicoes": [
+    [
+     42,
+     58
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 42,
+     "cos": 0.31,
+     "nosso": "O resultado é uma guerra civil. Em mil seiscentos e quarenta e nove, o rei é julgado e executado em Londres. E por onze anos a Inglaterra fica sem rei.",
+     "ref": "resultou em outra filha, Elizabeth. 3 anos depois, ele mandou julgar Ana por traição. Ela foi executada na Torre de Londres em 1536. Henrique VIII casou-se 6"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-43jQ3voZJhw.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 1900,
+   "nota": 0.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014285714285714285,
+   "ordem": 0.0,
+   "ngramas": 0.0009090909090909091,
+   "sim_media": 0.07455937189804857,
+   "gemeos": 1,
+   "blocos": 70,
+   "posicoes": [
+    [
+     6,
+     4
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 6,
+     "cos": 0.33,
+     "nosso": "Essa é a história inteira da Inglaterra. E começa numa ilha que todo mundo atravessa.",
+     "ref": "história inteira da Inglaterra, desde a Bretanha tribal da Antiguidade até a nação que ela é hoje. Muito antes de a Inglaterra existir como nome ou ideia, a ilha da Bretanha era lar de tribos"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-bNV3pJBtdns.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 262,
+   "nota": 0.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014285714285714285,
+   "ordem": 0.0,
+   "ngramas": 0.0018181818181818182,
+   "sim_media": 0.1106354069743698,
+   "gemeos": 1,
+   "blocos": 70,
+   "posicoes": [
+    [
+     60,
+     58
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 60,
+     "cos": 0.31,
+     "nosso": "E no trono, no auge? A rainha Vitória, neta de um rei de Hanôver, casada com o príncipe alemão Alberto. Em casa, os dois falavam alemão.",
+     "ref": "Rainha Vitória, casou-se com um cônjuge alemão e, ao mesmo tempo, governou o estado de Hanôver. Assim, ironicamente, a era vitoriana, quando o Império Britânico estava no auge, teve"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-wPLrlOck8uU.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 1246,
+   "nota": 0.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014285714285714285,
+   "ordem": 0.0,
+   "ngramas": 0.0018181818181818182,
+   "sim_media": 0.13362146517923087,
+   "gemeos": 1,
+   "blocos": 70,
+   "posicoes": [
+    [
+     29,
+     71
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 29,
+     "cos": 0.3,
+     "nosso": "Então a briga vira caseira: Lâncaster contra Iórque, trinta anos de Guerra das Rosas.",
+     "ref": "brigava com ela própria: A Guerra das Rosas foi uma guerra civil inglesa entre as dinastias Lancaster e York, rosa vermelha e branca respectivamente. No final a guerra"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-xqXs8jcD28U.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1740,
+   "nota": 0.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.014285714285714285,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.13835167567463572,
+   "gemeos": 1,
+   "blocos": 70,
+   "posicoes": [
+    [
+     42,
+     215
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 42,
+     "cos": 0.31,
+     "nosso": "O resultado é uma guerra civil. Em mil seiscentos e quarenta e nove, o rei é julgado e executado em Londres. E por onze anos a Inglaterra fica sem rei.",
+     "ref": "Civil Inglesa, após a execução do rei inglês Carlos I, em 1649. Isso porque os parlamentares tinham feito isso às claras: colocaram um rei em julgamento, consideraram-no"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-_EnLxRxQFbg.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3523,
+   "nota": 0.8,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0027272727272727275,
+   "sim_media": 0.14726372640144242,
+   "gemeos": 0,
+   "blocos": 70,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-37hG_p3duH0.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4509,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0027272727272727275,
+   "sim_media": 0.1316423916388711,
+   "gemeos": 0,
+   "blocos": 70,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-Mnws0xna2To.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3335,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0018181818181818182,
+   "sim_media": 0.15196931017254162,
+   "gemeos": 0,
+   "blocos": 70,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-qRUUw2SoQ-w.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 5174,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.11879482578518893,
+   "gemeos": 0,
+   "blocos": 70,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-60IzjXUZvXg.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1589,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.1220821281254146,
+   "gemeos": 0,
+   "blocos": 70,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-GaBiQ_nFBbE.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 2301,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.11546556731719988,
+   "gemeos": 0,
+   "blocos": 70,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-PCKe_CCcgQw.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2071,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.1342398103938676,
+   "gemeos": 0,
+   "blocos": 70,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-cqGJ5ZRLAvs.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 1918,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.12284201273199746,
+   "gemeos": 0,
+   "blocos": 70,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-xD8kViQ3Oqk.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2785,
+   "nota": 0.0,
+   "veredito": "ok"
+  }
+ ]
+}
