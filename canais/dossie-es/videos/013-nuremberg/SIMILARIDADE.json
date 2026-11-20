@@ -1,0 +1,344 @@
+{
+ "pasta": "canais/dossie-es/videos/013-nuremberg",
+ "roteiro": "canais/dossie-es/videos/013-nuremberg/blocos.json",
+ "idioma": "es",
+ "blocos": 74,
+ "nota": 5.0,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [
+  12,
+  14,
+  17,
+  37
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.06756756756756757,
+   "ordem": 0.6,
+   "ngramas": 0.003215434083601286,
+   "sim_media": 0.1702374103391175,
+   "gemeos": 5,
+   "blocos": 74,
+   "posicoes": [
+    [
+     12,
+     66
+    ],
+    [
+     14,
+     33
+    ],
+    [
+     17,
+     65
+    ],
+    [
+     37,
+     0
+    ],
+    [
+     38,
+     66
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 17,
+     "cos": 0.53,
+     "nosso": "Como máximo, podrá reducir la pena. Las cuatro potencias aliadas firman esa Carta el ocho de agosto. Define tres crímenes: contra la paz, de guerra y contra la humanidad.",
+     "ref": "2 ocasiones. El 8 de agosto firman una carta con 4 cargos: conspiración, crímenes contra la paz, crímenes de guerra"
+    },
+    {
+     "bloco": 14,
+     "cos": 0.42,
+     "nosso": "Y uno de los futuros acusados gobernó la Polonia ocupada, Leópolis incluida: Hans Frank.",
+     "ref": "Saylor. Luego, malinterpreta el mal alemán del mayor y admite quién es. Hans Frank, que gobernó la Polonia ocupada, hace lo más extraño de todo. Entrega"
+    },
+    {
+     "bloco": 12,
+     "cos": 0.4,
+     "nosso": "Lauterpacht le propone un nombre: crímenes contra la humanidad.",
+     "ref": "4 cargos: conspiración, crímenes contra la paz, crímenes de guerra y una expresión nueva, crímenes contra la humanidad. Los alemanes"
+    },
+    {
+     "bloco": 37,
+     "cos": 0.33,
+     "nosso": "Diez de esas condenas se ejecutan el dieciséis de octubre. Hermann Göring se había quitado la vida la noche anterior, en su celda.",
+     "ref": "juicios de Núremberg tienen una última noche por delante. 15 de octubre de 1946, celda 5. Hermann Göring se encuentra"
+    },
+    {
+     "bloco": 38,
+     "cos": 0.32,
+     "nosso": "La sentencia condena crímenes contra la humanidad, pero solo los ligados a la guerra. Lo que el régimen hizo antes contra judíos y otros grupos queda fuera. Y la palabra genocidio no aparece ni una vez.",
+     "ref": "4 cargos: conspiración, crímenes contra la paz, crímenes de guerra y una expresión nueva, crímenes contra la humanidad. Los alemanes"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/013-nuremberg/ref/manada-6MEnKbTvEHw.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4046,
+   "nota": 5.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.05405405405405406,
+   "ordem": 0.5,
+   "ngramas": 0.003215434083601286,
+   "sim_media": 0.1680337227112799,
+   "gemeos": 4,
+   "blocos": 74,
+   "posicoes": [
+    [
+     12,
+     299
+    ],
+    [
+     17,
+     299
+    ],
+    [
+     33,
+     316
+    ],
+    [
+     71,
+     149
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 17,
+     "cos": 0.38,
+     "nosso": "Como máximo, podrá reducir la pena. Las cuatro potencias aliadas firman esa Carta el ocho de agosto. Define tres crímenes: contra la paz, de guerra y contra la humanidad.",
+     "ref": "cuatro secciones: conspiración para librar una guerra de agresión, crímenes contra la paz, crímenes de guerra y crímenes contra la humanidad."
+    },
+    {
+     "bloco": 71,
+     "cos": 0.32,
+     "nosso": "Según el periodista A. M. Rosenthal, del New York Times, a su entierro fueron siete personas.",
+     "ref": "tiempo. Llevaba cuatro días interrogando a Göring y no había conseguido una sola admisión condenatoria. The New York Times"
+    },
+    {
+     "bloco": 33,
+     "cos": 0.32,
+     "nosso": "La sentencia cita esa respuesta y una orden británica de mil novecientos cuarenta. Y escribe que la pena de Dönitz no se fija por esas violaciones. Recibe diez años por otros cargos.",
+     "ref": "lee su sentencia. Karl Dönitz, culpable de dos cargos, 10 años. >> >> Albert Speer, culpable de dos cargos, 20"
+    },
+    {
+     "bloco": 12,
+     "cos": 0.3,
+     "nosso": "Lauterpacht le propone un nombre: crímenes contra la humanidad.",
+     "ref": "cuatro secciones: conspiración para librar una guerra de agresión, crímenes contra la paz, crímenes de guerra y crímenes contra la humanidad."
+    }
+   ],
+   "ref": "canais/dossie-es/videos/013-nuremberg/ref/manada-xsCRrbgUBVI.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 5277,
+   "nota": 3.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.04054054054054054,
+   "ordem": 0.6666666666666666,
+   "ngramas": 0.004287245444801715,
+   "sim_media": 0.14099035295648668,
+   "gemeos": 3,
+   "blocos": 74,
+   "posicoes": [
+    [
+     12,
+     15
+    ],
+    [
+     14,
+     49
+    ],
+    [
+     17,
+     27
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 14,
+     "cos": 0.47,
+     "nosso": "Y uno de los futuros acusados gobernó la Polonia ocupada, Leópolis incluida: Hans Frank.",
+     "ref": "Hans Frank, gobernador general de la Polonia ocupada, que supervisó la deportación de al menos 1.000.000 de polacos enviados a trabajos forzados"
+    },
+    {
+     "bloco": 17,
+     "cos": 0.33,
+     "nosso": "Como máximo, podrá reducir la pena. Las cuatro potencias aliadas firman esa Carta el ocho de agosto. Define tres crímenes: contra la paz, de guerra y contra la humanidad.",
+     "ref": "negociaciones, el 8 de agosto de 1945, las cuatro potencias aliadas acordaron en Londres la carta del recién creado Tribunal Militar Internacional."
+    },
+    {
+     "bloco": 12,
+     "cos": 0.31,
+     "nosso": "Lauterpacht le propone un nombre: crímenes contra la humanidad.",
+     "ref": "acusa de ser culpables de crímenes contra la paz, crímenes de guerra y crímenes contra la humanidad. Hermann Wilhelm Göring. Rudolf Hess."
+    }
+   ],
+   "ref": "canais/dossie-es/videos/013-nuremberg/ref/manada-vy21VoWlxAs.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 1329,
+   "nota": 3.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.02702702702702703,
+   "ordem": 0.0,
+   "ngramas": 0.0053590568060021436,
+   "sim_media": 0.15304110902851314,
+   "gemeos": 2,
+   "blocos": 74,
+   "posicoes": [
+    [
+     14,
+     152
+    ],
+    [
+     37,
+     180
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 14,
+     "cos": 0.47,
+     "nosso": "Y uno de los futuros acusados gobernó la Polonia ocupada, Leópolis incluida: Hans Frank.",
+     "ref": "decisión. De los hombres condenados a muerte que aún no se han mencionado en este video están Hans Frank: gobernador general de la Polonia ocupada. Alfred"
+    },
+    {
+     "bloco": 37,
+     "cos": 0.31,
+     "nosso": "Diez de esas condenas se ejecutan el dieciséis de octubre. Hermann Göring se había quitado la vida la noche anterior, en su celda.",
+     "ref": "falleció en 1969. Las ejecuciones por ahorcamiento de los condenados a muerte tendrían lugar el 16 de octubre. Pero Hermann Göring, el hombre de más alto rango"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/013-nuremberg/ref/manada-vywGZzb9O4M.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2691,
+   "nota": 1.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.02702702702702703,
+   "ordem": 0.0,
+   "ngramas": 0.003215434083601286,
+   "sim_media": 0.13752902278602328,
+   "gemeos": 2,
+   "blocos": 74,
+   "posicoes": [
+    [
+     12,
+     48
+    ],
+    [
+     17,
+     48
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 12,
+     "cos": 0.37,
+     "nosso": "Lauterpacht le propone un nombre: crímenes contra la humanidad.",
+     "ref": "tipos de crímenes crímenes en contra de la paz crímenes de guerra conspiración para el crimen y crímenes contra la humanidad el 20 de noviembre de 1945"
+    },
+    {
+     "bloco": 17,
+     "cos": 0.34,
+     "nosso": "Como máximo, podrá reducir la pena. Las cuatro potencias aliadas firman esa Carta el ocho de agosto. Define tres crímenes: contra la paz, de guerra y contra la humanidad.",
+     "ref": "tipos de crímenes crímenes en contra de la paz crímenes de guerra conspiración para el crimen y crímenes contra la humanidad el 20 de noviembre de 1945"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/013-nuremberg/ref/manada-nt740TsDsmg.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 1344,
+   "nota": 1.7,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.013513513513513514,
+   "ordem": 0.0,
+   "ngramas": 0.0053590568060021436,
+   "sim_media": 0.1356094549857409,
+   "gemeos": 1,
+   "blocos": 74,
+   "posicoes": [
+    [
+     14,
+     128
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 14,
+     "cos": 0.46,
+     "nosso": "Y uno de los futuros acusados gobernó la Polonia ocupada, Leópolis incluida: Hans Frank.",
+     "ref": "conllevaba responsabilidad criminal bajo ley internacional. Hans Frank Hans Frank compareció en Nuremberberg como el gobernador general de Polonia"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/013-nuremberg/ref/manada-rJyYgoS9T4o.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2545,
+   "nota": 1.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.013513513513513514,
+   "ordem": 0.0,
+   "ngramas": 0.004287245444801715,
+   "sim_media": 0.13678858144268558,
+   "gemeos": 1,
+   "blocos": 74,
+   "posicoes": [
+    [
+     14,
+     51
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 14,
+     "cos": 0.44,
+     "nosso": "Y uno de los futuros acusados gobernó la Polonia ocupada, Leópolis incluida: Hans Frank.",
+     "ref": "Reich, implicado directamente en la solución final. Hans Frank, gobernador general de la Polonia ocupada. Albert SP, ministro de armamento, tecnócrata"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/013-nuremberg/ref/manada-wouBXK4cLfs.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2505,
+   "nota": 1.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.003215434083601286,
+   "sim_media": 0.1316134513010132,
+   "gemeos": 0,
+   "blocos": 74,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/013-nuremberg/ref/manada-3sefBxnYN5I.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 5075,
+   "nota": 0.3,
+   "veredito": "ok"
+  }
+ ]
+}
