@@ -103,4 +103,4 @@ Por que são 3 thumbs diferentes: A = **um rosto** em close com emoção (o esco
 ## Crivo
 Rodada r1: REPROVADO (1 de 3: Par C aprovado; Thumbs A e B reprovadas, obrigações vagas) → r2 reescreve Thumb A, Thumb B, "Onde o roteiro paga" e Obrigações.
 Rodada r2: REPROVADO (2 de 3: Pares B e C aprovados; Thumb A reprovada por decalque do 013-A e "ELE" irreconhecível) → r3 reescreve só a Thumb A (e o ajuste "aceitar por escrito").
-Rodada r3: pendente.
+Rodada r3: **APROVADO** (3 de 3; ressalvas de execução em `CRIVO.md`: Jaime não se coroou sozinho — licença só na thumb; rosto ≥ 60% da altura e "MINHA!" com contorno grosso; registrar Orderic Vitalis e Cecil no SOURCES).
