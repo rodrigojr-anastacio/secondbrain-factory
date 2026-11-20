@@ -1,0 +1,662 @@
+{
+ "canal": "dossie-es",
+ "data": "2026-11-20",
+ "fonte": "pesquisa/backlog-dossie-r2-2026-11-20 (BRIEF-backlog-dossie-r2)",
+ "aplicar": "orquestrador, após OK do Rodrigo",
+ "itens": [
+  {
+   "data_prevista": "2026-11-22",
+   "tema": "Los Juicios de Núremberg",
+   "slug": "nuremberg",
+   "familia": "nazismo / 2ª Guerra",
+   "angulo": "Recorte: o tribunal como ORGANIZAÇÃO montada do zero em 6 meses (quem escolheu o prédio, quem traduziu, de onde vieram as provas: os próprios arquivos nazis) e cada réu como um EXPEDIENTE; fecho na América Latina (quem nunca sentou no banco: Eichmann em Buenos Aires, Mengele). Hook fora da manada: Núremberg, novembro de 1945: o tribunal tem 4 idiomas e nenhum precedente; um ex-intérprete de Eisenhower, Léon Dostert, liga fones da IBM e inventa a tradução simultânea, sem a qual o julgamento não andaria [conferir]. A manada abre no elevador para a sala 600 com Göring (DW) ou nas sentenças/forca de 16/10/1946 (SLICE).",
+   "titulo_candidato": "TODA la historia de los Juicios de Núremberg en N minutos",
+   "titulo_nota": "Usar o molde: nome forte (DW 1,5 mi em es) e sem colisão no molde em es (Archivo en Minutos fez só o julgamento dos Einsatzgruppen; Der Kommandant usa outro padrão). B: \"Núremberg: el juicio que tuvo que inventar hasta la traducción\".",
+   "thumb": "Objeto do caso (H2): fone de intérprete de 1945 sobre a bancada dos réus vazia, palavra NÚREMBERG grande e sello \"1945\"; sem rosto de réu, sem suástica.",
+   "manada": [
+    {
+     "id": "b5dGSkScIbQ",
+     "canal": "DW Documental",
+     "views": 1524041,
+     "data": "2025-11-20",
+     "faz": "abre no Palácio da Justiça e no elevador dos 20 réus para a sala 600, Göring como nazi nº 1"
+    },
+    {
+     "id": "mCb5ia53e1g",
+     "canal": "SLICE Historia",
+     "views": 504131,
+     "data": "2026-07-11",
+     "faz": "abre nas 12 sentenças de 01/10/1946 e na forca do ginásio"
+    },
+    {
+     "id": "6MEnKbTvEHw",
+     "canal": "Archive in Minutes (en)",
+     "views": 138092,
+     "data": "2026-11-09",
+     "faz": "molde ENTIRE History (sem legenda disponível: conferir hook na embalagem)"
+    }
+   ],
+   "evidencias": [
+    {
+     "tipo": "referencia",
+     "fonte": "Archive in Minutes",
+     "link": "https://youtube.com/watch?v=6MEnKbTvEHw",
+     "numero": "138.092 views em 11 dias; 31.887 (14/11) → 73.455 (17/11) → 138.092 (20/11) = 21,5 mil/dia, o vídeo que mais acelera no canal agora (2,43× a mediana de 56.886)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "busca",
+     "fonte": "busca yt-dlp es (2 consultas) + videos.list",
+     "link": "https://www.youtube.com/results?search_query=juicios+de+nuremberg",
+     "numero": "mediana top-10 em es (12 m) 350.352; 4 vídeos > 100 mil (DW 1.524.041, SLICE 504.131)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "concorrente",
+     "fonte": "Archivo en Minutos (clone es)",
+     "link": "https://youtube.com/watch?v=-NthVuNtU_w",
+     "numero": "'La historia COMPLETA del juicio a los Einsatzgruppen' 8.162 views em 2 dias (2,8× a mediana do canal): tema dos julgamentos já puxa no clone es",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "nosso",
+     "fonte": "youtube.studio_video (export 20/11)",
+     "link": "https://youtube.com/watch?v=KxSpEtRs_h0",
+     "numero": "família nazismo: SS CTR 7,53% (maior do canal) e 10,4 inscritos/1k views; +695 views em 24 h",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "tendencia",
+     "fonte": "calendário",
+     "link": "https://es.wikipedia.org/wiki/Juicios_de_N%C3%BAremberg",
+     "numero": "81º aniversário da abertura (20/11/1945) hoje: janela de busca/sugestão",
+     "data": "2026-11-20"
+    }
+   ],
+   "demanda": 9,
+   "encaixe": 7,
+   "urgencia": 9,
+   "janela_ate": "2026-12-05",
+   "riscos": "Médio: tema nazi (sem suástica/runas, sem corpos de campo, sem foto de enforcado); título sem \"muerte/ejecución\". Não é organização clássica: o \"tribunal\" como instituição + réus como expedientes segura o formato. 3º vídeo nazi em 8 dias (SS 14/11, Gestapo 16/11): ok, família que mais converte.",
+   "nota": 8.3,
+   "status_proposto": "agendado"
+  },
+  {
+   "data_prevista": "2026-11-23",
+   "tema": "El GRU",
+   "slug": "gru",
+   "familia": "espionagem soviética/russa",
+   "angulo": "Recorte: o serviço que sobreviveu à KGB — de 1918 (Trótski) a Salisbury 2018, a inteligência MILITAR que nunca mudou de nome; fio: os traidores e as \"ilegais\" (agentes com vida falsa) em cada época. Hook fora da manada: Moscou, 1962: o coronel do GRU Oleg Penkovsky passa ao MI6 e à CIA os manuais dos mísseis que a URSS instala em Cuba; é preso em outubro, no mês da crise [conferir datas]. A manada abre na \"diferença GRU × KGB/FSB\" (Armapedia 320 mil) ou na falsa joalheira peruana de 2018 (Armapedia 674 mil): a peruana fica como 1 expediente, não como hook.",
+   "titulo_candidato": "TODA la historia del GRU en N minutos | El Espionaje Ruso que Sobrevivió a la KGB",
+   "titulo_nota": "Molde ok (nenhum GRU no molde em es), mas \"GRU\" é menos conhecido que KGB: subtítulo concreto obrigatório e pago cedo (1991: a KGB acaba, o GRU não). B: \"GRU: los espías militares de Rusia, de Cuba 1962 a Salisbury\".",
+   "thumb": "Pôster de expediente: sigla GRU gigante + estrela vermelha soviética e o morcego do emblema do GRU [conferir] sobre pasta parda; sello \"1918–HOY\".",
+   "manada": [
+    {
+     "id": "6XyE1fB2kj0",
+     "canal": "Armapedia",
+     "views": 673931,
+     "data": "2026-03-23",
+     "faz": "abre em 2018 com a \"joalheira peruana\" María Adela, agente ilegal do GRU"
+    },
+    {
+     "id": "-80IkHYAMpA",
+     "canal": "Armapedia",
+     "views": 319534,
+     "data": "2026-06-17",
+     "faz": "abre explicando a diferença GRU × KGB/FSB, inteligência militar pura"
+    },
+    {
+     "id": "zj6NdhFyelE",
+     "canal": "Archive in Minutes (en)",
+     "views": 32913,
+     "data": "2026-11-08",
+     "faz": "molde ENTIRE History (\"Russia's Military Spies\"); sem legenda: conferir hook"
+    }
+   ],
+   "evidencias": [
+    {
+     "tipo": "busca",
+     "fonte": "busca yt-dlp es + videos.list",
+     "link": "https://www.youtube.com/results?search_query=historia+del+GRU+inteligencia+militar+rusa",
+     "numero": "mediana top-10 em es (12 m) 194.621; 6 de 8 vídeos > 100 mil (Armapedia 673.931 e 319.534)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "nosso",
+     "fonte": "youtube.metricas_video (coleta 20/11) + studio",
+     "link": "https://youtube.com/watch?v=I_ehrH5Yrak",
+     "numero": "KGB = o hit do canal: 2.886 views, 18 inscritos, ret. 65,9%; +1.632 views em 24 h (de 1.222 para 2.854), 69% sugeridos",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "concorrente",
+     "fonte": "Atlas del Tiempo (es)",
+     "link": "https://youtube.com/watch?v=t0EBZqMWi1o",
+     "numero": "'TODA la Historia de la KGB en 20 Minutos' 44.861 views (42× a mediana do canal): espionagem soviética no molde em es rende",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "referencia",
+     "fonte": "Archive in Minutes",
+     "link": "https://youtube.com/watch?v=zj6NdhFyelE",
+     "numero": "GRU 32.913 views em 12 dias (0,58×): em en o tema é médio; a demanda forte é em es (Armapedia)",
+     "data": "2026-11-20"
+    }
+   ],
+   "demanda": 8,
+   "encaixe": 9,
+   "urgencia": 7,
+   "janela_ate": null,
+   "riscos": "Baixo–médio: envenenamentos (Skripal) só sugeridos; sem \"asesinato/envenenado\" no título. Confirmar o emblema antes da thumb.",
+   "nota": 8.0,
+   "status_proposto": "agendado"
+  },
+  {
+   "data_prevista": "2026-11-24",
+   "tema": "MKUltra (el programa secreto de la CIA)",
+   "slug": "mkultra",
+   "familia": "agências ocidentais (CIA)",
+   "angulo": "Recorte: MKUltra visto pelo que sobrou dele na América Latina: das pesquisas de interrogatório da CIA (Bluebird/Artichoke/MKUltra) ao manual KUBARK (1963) e ao manual de Honduras (1983) usados em cursos de interrogatório na região [conferir]; cada subprojeto/documento é um expediente. Hook fora da manada: Baltimore, 1997: o jornal Baltimore Sun recebe por lei de acesso o manual KUBARK, com páginas que ecoam os experimentos dos anos 50 [conferir]. Proibido: \"¿es posible controlar la mente?\" + 149 subprojetos (Detrás del Enigma) e a queima de arquivos de 1973/caixas de 1977 (hook do Archive, que testa o título \"The CIA Burned Every File. Seven Boxes Survived.\").",
+   "titulo_candidato": "TODA la historia de MKUltra en N minutos | Del Laboratorio de la CIA a América Latina",
+   "titulo_nota": "Molde ok: nome forte (1,18 mi em es), nenhum MKUltra no molde em es. Evitar \"control mental\" sensacionalista no título (promessa de fonte pública). B: \"MKUltra: los archivos de la CIA que sobrevivieron\" só se o roteiro pagar cedo.",
+   "thumb": "Documento-evidência: ficha datilografada \"MKULTRA\" com carimbo CIA e tarja preta, um frasco de laboratório ao lado; sello rojo \"1953\"; sem rosto, sem seringa/sangue.",
+   "manada": [
+    {
+     "id": "h9c-vZ22I50",
+     "canal": "Detrás del Enigma",
+     "views": 1182342,
+     "data": "2026-02-15",
+     "faz": "abre com \"¿es posible controlar la mente humana?\" + 80 instituições, 149 subprojetos"
+    },
+    {
+     "id": "KWl04k3B8nE",
+     "canal": "Chamuco Media",
+     "views": 115162,
+     "data": "2026-04-28",
+     "faz": "abre com crítica geral às agências dos EUA (CIA/NSA como criminosos)"
+    },
+    {
+     "id": "o7tcLlrUiAk",
+     "canal": "Archive in Minutes (en)",
+     "views": 401,
+     "data": "2026-11-20",
+     "faz": "queima de arquivos (1973) e as caixas que sobreviveram; título em teste A/B"
+    }
+   ],
+   "evidencias": [
+    {
+     "tipo": "referencia",
+     "fonte": "Archive in Minutes",
+     "link": "https://youtube.com/watch?v=o7tcLlrUiAk",
+     "numero": "publicado 20/11 ('The ENTIRE History of MKUltra in 19 Minutes', em A/B com 'The CIA Burned Every File. Seven Boxes Survived.'): o canal-modelo empurra o tema agora; os clones es costumam vir em 1–2 semanas (MI5 do Archivo en Minutos: 47.981 em 3 dias)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "busca",
+     "fonte": "busca yt-dlp es + videos.list",
+     "link": "https://youtube.com/watch?v=h9c-vZ22I50",
+     "numero": "'El Proyecto Más Oscuro de la Historia | MKUltra' 1.182.342 views (15/02/2026); 2º em es 115.162 (amostra pequena: 2 vídeos em 12 m)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "nosso",
+     "fonte": "youtube.studio_video + analytics_trafego",
+     "link": "https://youtube.com/watch?v=Qs-TusYCr-o",
+     "numero": "família CIA: 10,3 inscritos/1k views e 82% das views por sugeridos",
+     "data": "2026-11-20"
+    }
+   ],
+   "demanda": 7,
+   "encaixe": 7,
+   "urgencia": 8,
+   "janela_ate": "2026-12-10",
+   "riscos": "Médio: programa (não organização) — segurar como \"expediente da CIA\"; experimentos com pessoas só sugeridos (sem seringa, sem paciente sofrendo); atribuição para cada caso; nada de teoria da conspiração (só documentado).",
+   "nota": 7.3,
+   "status_proposto": "agendado"
+  },
+  {
+   "data_prevista": "2026-11-28",
+   "tema": "El Gulag",
+   "slug": "gulag",
+   "familia": "espionagem/repressão soviética",
+   "angulo": "Recorte: o Gulag como ORGANIZAÇÃO (uma diretoria do NKVD com orçamento, metas e obras: canal do mar Branco, Norilsk, Kolyma) e os espanhóis que foram parar nele (pilotos e marinheiros republicanos retidos na URSS após 1939, e a Divisão Azul) [conferir]. Hook fora da manada: agosto de 1933: 120 escritores soviéticos fazem um passeio de barco pelo canal do mar Branco recém-aberto e escrevem um livro elogiando a obra; quem a construiu foram presos [conferir]. A manada abre em Shalamov acorrentado no navio para Kolyma (Auren) ou nas ilhas Solovki (SLICE).",
+   "titulo_candidato": "TODA la historia del Gulag en N minutos",
+   "titulo_nota": "Molde ok (nenhum Gulag no molde em es; nome forte). B: \"GULAG: la oficina soviética que tenía presos en lugar de obreros\".",
+   "thumb": "Objeto H2: torre de vigia de madeira com arame na neve e a palavra GULAG grande; sello \"1930–1960\"; sem prisioneiros em sofrimento.",
+   "manada": [
+    {
+     "id": "LMFS8Bq3xwc",
+     "canal": "Auren Español",
+     "views": 73609,
+     "data": "2026-04-10",
+     "faz": "abre com Shalamov acorrentado no navio para Kolyma"
+    },
+    {
+     "id": "ik6DucfgIXw",
+     "canal": "SLICE Historia",
+     "views": 267491,
+     "data": "2026-08-22",
+     "faz": "abre nas ilhas Solovki (1923) como laboratório do sistema"
+    },
+    {
+     "id": "j1D_MedyJ0s",
+     "canal": "Atrium (en)",
+     "views": 2338589,
+     "data": "2026-03-31",
+     "faz": "\"o design\" dos campos (não transcrito)"
+    }
+   ],
+   "evidencias": [
+    {
+     "tipo": "busca",
+     "fonte": "busca yt-dlp es + videos.list",
+     "link": "https://youtube.com/watch?v=ik6DucfgIXw",
+     "numero": "SLICE 'El Gulag, 40 años de represión' 267.491 (22/08/2026); mediana top-10 em es 42.868 (só 4 vídeos em 12 m: pouca oferta)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "referencia",
+     "fonte": "Archive in Minutes",
+     "link": "https://youtube.com/watch?v=v-HJWqWPvJI",
+     "numero": "Soviet Union 273.415 (+6,6 mil/dia desde 17/11) e Beria 219.953 (+4,5 mil/dia): a família soviética reacelera; o Archive não tem Gulag",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "concorrente",
+     "fonte": "Atrium (en)",
+     "link": "https://youtube.com/watch?v=j1D_MedyJ0s",
+     "numero": "'The Evil Design of Soviet Gulags' 2.338.589 views (31/03/2026): demanda global do tema",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "nosso",
+     "fonte": "youtube.studio_video",
+     "link": "https://youtube.com/watch?v=I_ehrH5Yrak",
+     "numero": "família soviética = nosso hit (KGB 2.886 views, ret. 65,9%)",
+     "data": "2026-11-20"
+    }
+   ],
+   "demanda": 6,
+   "encaixe": 8,
+   "urgencia": 5,
+   "janela_ate": null,
+   "riscos": "Médio: sofrimento só sugerido (tinta e sombra), sem corpos; título sem \"muerte\". Separado do GRU por 5 noites.",
+   "nota": 6.2,
+   "status_proposto": "agendado"
+  },
+  {
+   "data_prevista": "2026-11-29",
+   "tema": "La Yakuza",
+   "slug": "yakuza",
+   "familia": "crime organizado",
+   "angulo": "(mantém o do backlog) A yakuza como organização quase legal, sufocada por lei e burocracia: dos tekiya/bakuto de Edo aos ~20 mil membros de hoje. Hook: Tóquio, maio de 1992: o cineasta Juzo Itami, que ridicularizou a yakuza em Minbo no Onna, é atacado por cinco gângsteres [conferir]. Fora da manada: Te lo Pinto faz \"cada rango\" (kobun), Rastros abre em Edo 1657 (Banzuin Chōbei).",
+   "titulo_candidato": "YAKUZA: la mafia japonesa que tenía oficinas con su nombre en la puerta",
+   "titulo_nota": "NÃO usar o molde: o clone Era Span publicou \"Toda la historia de la Yakuza en 13 minutos\" em 19/11 (40 views). Padrão \"SIGLA: aposto com lacuna\", com fato pago cedo (placas nos escritórios até a lei de 1992) [conferir].",
+   "thumb": "Objeto H2: placa de madeira com kanji na porta de um escritório + o kanji/palavra YAKUZA legível; sello \"1992\"; sem tatuagem de corpo nu, sem dedo cortado, sem arma.",
+   "manada": [
+    {
+     "id": "aN_Wl0RYbbQ",
+     "canal": "Te lo Pinto",
+     "views": 1236495,
+     "data": "2026-02-08",
+     "faz": "\"cómo es ser cada rango\": vida do kobun recadeiro"
+    },
+    {
+     "id": "sDWrUKmcJ5w",
+     "canal": "Rastros de la Humanidad",
+     "views": 193236,
+     "data": "2026-09-20",
+     "faz": "abre em Edo 1657: Banzuin Chōbei vai ao banquete do samurai rival"
+    }
+   ],
+   "evidencias": [
+    {
+     "tipo": "concorrente",
+     "fonte": "Te lo Pinto (es)",
+     "link": "https://youtube.com/watch?v=aN_Wl0RYbbQ",
+     "numero": "'Cómo es Ser Cada Rango de la Yakuza' 1.236.495 views (08/02/2026)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "concorrente",
+     "fonte": "Rastros de la Humanidad (es)",
+     "link": "https://youtube.com/watch?v=sDWrUKmcJ5w",
+     "numero": "193.236 views (20/09/2026), origem da yakuza",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "nosso",
+     "fonte": "youtube.studio_video + metricas_video",
+     "link": "https://youtube.com/watch?v=gmA0LkJqf_U",
+     "numero": "crime organizado = 2º do canal: Cosa Nostra 1.758 views, CTR 6,28%, ret. 67,6% (a melhor), +1.206 em 24 h",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "concorrente",
+     "fonte": "Era Span (clone es)",
+     "link": "https://youtube.com/watch?v=rZlsw1Zl1a4",
+     "numero": "'Toda la historia de la Yakuza en 13 minutos' 40 views (19/11): colisão de molde → outro padrão de título",
+     "data": "2026-11-20"
+    }
+   ],
+   "demanda": 6,
+   "encaixe": 7,
+   "urgencia": 5,
+   "janela_ate": null,
+   "riscos": "Médio: crime organizado (glamourização/anúncio). Sem ângulo América Latina forte.",
+   "nota": 5.9,
+   "status_proposto": "agendado"
+  },
+  {
+   "data_prevista": "2026-11-30",
+   "tema": "La Operación Cóndor (DINA y los servicios secretos del Cono Sur)",
+   "slug": "operacion-condor",
+   "familia": "polícia secreta (América Latina)",
+   "angulo": "Recorte: a rede como ORGANIZAÇÃO (a DINA chilena no centro, reuniões, telex, códigos), contada pelos papéis que ela mesma produziu. Hook fora da manada: Lambaré, Paraguai, 22/12/1992: um juiz e o ex-preso Martín Almada entram numa delegacia e acham toneladas de fichas da polícia de Stroessner — os \"Archivos del Terror\", que provam a Operación Cóndor [conferir]. A manada abre com o panorama \"anos 60–80, golpes no Cone Sul\" (Armapedia) ou com Allende/Pinochet (DW, Academia Play).",
+   "titulo_candidato": "OPERACIÓN CÓNDOR: los archivos que aparecieron en una comisaría de Paraguay",
+   "titulo_nota": "Padrão \"NOME: aposto com o objeto do caso\" (o hook paga em 30 s). Molde \"TODA la historia\" possível (ninguém no molde em es), mas \"Operación Cóndor\" é rede, não sigla; B: \"TODA la historia de la Operación Cóndor en N minutos\".",
+   "thumb": "Documento-evidência: pilha de fichas policiais amareladas numa delegacia + condor estilizado em carimbo e OPERACIÓN CÓNDOR legível; sello \"1975\"; sem vítima, sem tortura.",
+   "manada": [
+    {
+     "id": "GKD2J4A-HMA",
+     "canal": "Armapedia",
+     "views": 364537,
+     "data": "2026-08-21",
+     "faz": "abre com o panorama das ditaduras do Cone Sul 1960–80 e a criação formal em 1975"
+    },
+    {
+     "id": "HiGiVF95y24",
+     "canal": "DW Español",
+     "views": 300582,
+     "data": "2026-10-23",
+     "faz": "quem justifica a ditadura de Pinochet hoje (debate atual, não Cóndor)"
+    },
+    {
+     "id": "8M-NB44fCKc",
+     "canal": "Academia Play",
+     "views": 298532,
+     "data": "2026-04-09",
+     "faz": "Chile 1970–1990: Allende e Pinochet"
+    }
+   ],
+   "evidencias": [
+    {
+     "tipo": "concorrente",
+     "fonte": "Armapedia (es)",
+     "link": "https://youtube.com/watch?v=GKD2J4A-HMA",
+     "numero": "'OPERACIÓN CÓNDOR… la red secreta de dictaduras militares' 364.537 views (21/08/2026)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "busca",
+     "fonte": "busca yt-dlp es + videos.list",
+     "link": "https://youtube.com/watch?v=HiGiVF95y24",
+     "numero": "mediana top-10 em es (12 m) 51.081; 4 > 100 mil; DW Español 300.582 em 4 semanas (23/10/2026): o tema Pinochet está vivo",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "nosso",
+     "fonte": "youtube.analytics_publico",
+     "link": "psql: youtube.analytics_publico dossie-es country",
+     "numero": "público do canal: MX 160, AR 65, CO 61, ES 59, US 58, PE 30, CL 12 views (até 16/11): Cone Sul + Peru ≈ 25%",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "referencia",
+     "fonte": "Archive in Minutes",
+     "link": "https://youtube.com/watch?v=lmR_ToJRCvY",
+     "numero": "Archive abriu série de polícias secretas estrangeiras (SAVAK 10.872 em 2 dias, Securitate 26.325, RAW 28.047): a versão latino-americana é a brecha em es",
+     "data": "2026-11-20"
+    }
+   ],
+   "demanda": 6,
+   "encaixe": 9,
+   "urgencia": 4,
+   "janela_ate": null,
+   "riscos": "Médio–alto: tema político recente (Chile/Argentina): só fatos documentados com fonte (Archivos del Terror, desclassificação dos EUA 1999–2000), sem adjetivar partes vivas; tortura e desaparecimento só sugeridos; título sem \"muerte/desaparecidos asesinados\".",
+   "nota": 6.0,
+   "status_proposto": "agendado"
+  },
+  {
+   "data_prevista": "2026-12-01",
+   "tema": "El Opus Dei",
+   "slug": "opus-dei",
+   "familia": "ordens religiosas/secretas",
+   "angulo": "(mantém o do backlog) A Obra como rede de poder entre Madri e a América Latina. Hook: Lima, 17/12/1996: o MRTA toma a residência do embaixador do Japão; entre os mediadores está um bispo da Obra, Juan Luis Cipriani [conferir]. Fora da manada: La Nueva Enciclopedia abre na fundação de 1928 e em Escrivá; Juanje Diánez é depoimento de ex-membro.",
+   "titulo_candidato": "TODA la historia del Opus Dei en N minutos",
+   "titulo_nota": "Molde ok (nome forte; nenhum Opus Dei no molde em es). B: \"Opus Dei: la Obra que llegó al poder sin ser un partido\".",
+   "thumb": "Objeto H2: cruz do Opus Dei (cruz dentro do círculo) gravada numa pasta de couro sobre mesa de ministério + OPUS DEI legível; sello \"1928\"; sem rosto de pessoa viva.",
+   "manada": [
+    {
+     "id": "frVDatN_0WM",
+     "canal": "La Nueva Enciclopedia",
+     "views": 294026,
+     "data": "2026-10-18",
+     "faz": "abre na fundação de 1928 e no caráter conservador/revolucionário; Escrivá"
+    },
+    {
+     "id": "FmH26FcjUvk",
+     "canal": "Juanje Diánez",
+     "views": 414426,
+     "data": "2026-05-11",
+     "faz": "depoimento de ex-membro: viver 20 anos dentro"
+    }
+   ],
+   "evidencias": [
+    {
+     "tipo": "busca",
+     "fonte": "busca yt-dlp es + videos.list",
+     "link": "https://youtube.com/watch?v=frVDatN_0WM",
+     "numero": "mediana top-10 em es (12 m) 122.957; 6 vídeos > 100 mil, 2 nos últimos 90 dias (La Nueva Enciclopedia 294.026 em 33 dias)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "concorrente",
+     "fonte": "Juanje Diánez (es)",
+     "link": "https://youtube.com/watch?v=FmH26FcjUvk",
+     "numero": "'Fui del OPUS DEI' 414.426 views (11/05/2026)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "nosso",
+     "fonte": "youtube.studio_video",
+     "link": "https://youtube.com/watch?v=111PXDNOmCU",
+     "numero": "contra: família religiosa/secreta tem alcance baixíssimo no canal (Inquisición 120 views/216 impressões; Masones 67/416), 0 inscritos",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "busca",
+     "fonte": "busca yt-dlp es (comparação)",
+     "link": "https://www.youtube.com/results?search_query=historia+de+los+jesuitas",
+     "numero": "Opus Dei tem 5,6× a mediana dos Jesuitas (21.957) em es: se for um só da família, é este",
+     "data": "2026-11-20"
+    }
+   ],
+   "demanda": 8,
+   "encaixe": 5,
+   "urgencia": 4,
+   "janela_ate": null,
+   "riscos": "Médio: organização viva (difamação, comentários polarizados): toda acusação com atribuição e a versão da Obra. Portão: se Templarios (pronto) e Inquisición seguirem com < 1.000 impressões em 7 dias, trocar pelo reserva MI5.",
+   "nota": 5.4,
+   "status_proposto": "agendado"
+  },
+  {
+   "data_prevista": "2026-12-05",
+   "tema": "El Cártel de Sinaloa",
+   "slug": "cartel-sinaloa",
+   "familia": "cartéis",
+   "angulo": "Recorte: o cartel pelo Estado mexicano que o criou e o dispersou. Hook fora da manada: Sierra de Sinaloa, janeiro de 1977: a \"Operación Cóndor\" mexicana manda milhares de soldados queimar amapola no Triângulo Dourado; os traficantes fogem para Guadalajara e fundam ali o cartel que daria origem ao de Sinaloa [conferir]. Até a guerra interna de 2024–26. A manada abre com sicários em Culiacán (Detrás del titular) ou com \"90 mil desaparecidos\" (Documentales Revelados).",
+   "titulo_candidato": "CÁRTEL DE SINALOA: la operación de 1977 que lo hizo nacer",
+   "titulo_nota": "NÃO usar o molde \"TODA la historia… | subtítulo\": foi o do Medellín (CTR 0,59%). O público busca o nome forte (Sinaloa/Chapo): nome no início + fato concreto pago no hook.",
+   "thumb": "Objeto H2: campo de amapola na serra com helicóptero militar de 1977 ao fundo + SINALOA legível; sello \"1977\"; sem arma, dinheiro, droga embalada ou rosto do Chapo.",
+   "manada": [
+    {
+     "id": "GhK5JctCmBs",
+     "canal": "Detrás del titular",
+     "views": 2810894,
+     "data": "2026-10-08",
+     "faz": "abre em Culiacán entrevistando sicários do cartel"
+    },
+    {
+     "id": "tq5ubVNZiCU",
+     "canal": "Documentales Revelados",
+     "views": 2864507,
+     "data": "2025-12-02",
+     "faz": "abre na violência e nos 90 mil desaparecidos, cartel ligado ao governo"
+    }
+   ],
+   "evidencias": [
+    {
+     "tipo": "busca",
+     "fonte": "busca yt-dlp es + videos.list",
+     "link": "https://youtube.com/watch?v=GhK5JctCmBs",
+     "numero": "mediana top-10 em es (12 m) 514.953 (a maior medida hoje); 11 vídeos > 100 mil, 4 nos últimos 90 dias (Detrás del titular 2.810.894 em 43 dias)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "tendencia",
+     "fonte": "Armapedia (es)",
+     "link": "https://youtube.com/watch?v=VVOrIny6n6g",
+     "numero": "'La evolución del extinto Cártel de Sinaloa… guerra interna' 754.863 views em 4 semanas (23/10/2026): a guerra interna está no noticiário",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "busca",
+     "fonte": "youtube.palavras_chave (es, 18/11)",
+     "link": "psql: youtube.palavras_chave termo=historia del narco en mexico",
+     "numero": "'historia del narco en mexico' mediana top-10 1.442.857, tendência subindo; 'documental chapo guzman' subindo",
+     "data": "2026-11-18"
+    },
+    {
+     "tipo": "nosso",
+     "fonte": "youtube.analytics_publico",
+     "link": "psql: youtube.analytics_publico dossie-es country",
+     "numero": "México é o 1º país do canal (160 views, ~36% até 16/11)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "nosso",
+     "fonte": "youtube.studio_video (contra)",
+     "link": "https://youtube.com/watch?v=XYhZGpBGjQ0",
+     "numero": "Medellín: CTR 0,59% em 3.037 impressões no 1º dia, ret. 50%: a família cartel ainda não provou no canal",
+     "data": "2026-11-20"
+    }
+   ],
+   "demanda": 10,
+   "encaixe": 5,
+   "urgencia": 6,
+   "janela_ate": null,
+   "riscos": "ALTO: anúncio limitado e glamourização; sem arma/dinheiro/droga na thumb, sem \"sicario/muerte\" no título; Estado e vítimas, não o chefe. PORTÃO: só produz se o Medellín chegar a CTR ≥ 2% ou ≥ 1.000 views até 01/12; senão entra o reserva (MI5).",
+   "nota": 6.7,
+   "status_proposto": "agendado"
+  }
+ ],
+ "reservas": [
+  {
+   "tema": "El MI5",
+   "slug": "mi5",
+   "familia": "agências ocidentais",
+   "angulo": "(a definir na embalagem) Hook candidato: Londres 1951, Burgess e Maclean somem; o MI5 sabia e não podia provar (atenção: é o recorte do vídeo \"Expediente\" 12.201 de 17/11 → evitar).",
+   "evidencias": [
+    {
+     "tipo": "concorrente",
+     "fonte": "Archivo en Minutos (clone es)",
+     "link": "https://youtube.com/watch?v=HY0WNArFNO8",
+     "numero": "'La historia COMPLETA del MI5 en 26 minutos' 47.981 views em 3 dias (16,5× a mediana do canal, 2.900)",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "busca",
+     "fonte": "busca yt-dlp es",
+     "link": "https://www.youtube.com/results?search_query=historia+del+MI5",
+     "numero": "mediana top-10 em es (12 m) 12.201: busca fraca; a tração é de sugeridos",
+     "data": "2026-11-20"
+    },
+    {
+     "tipo": "nosso",
+     "fonte": "backlog",
+     "link": "",
+     "numero": "MI6 (pronto, noite 21/11) ainda sem número: MI5 entra se o MI6 passar de ~300 views em 7 dias",
+     "data": "2026-11-20"
+    }
+   ],
+   "demanda": 6,
+   "encaixe": 8,
+   "urgencia": 5,
+   "uso": "reserva do 01/12 (Opus Dei) ou do 05/12 (Sinaloa), conforme os portões",
+   "nota": 6.2
+  }
+ ],
+ "atuais": [
+  {
+   "id": 22,
+   "tema": "Los Jesuitas",
+   "acao": "descartar (tirar do calendário)",
+   "motivo": "Busca em es fraca: mediana top-10 21.957 e o maior vídeo é lista de 10 ordens (637.878); família religiosa sem alcance no canal (Inquisición 120 views/216 impressões, Masones 67/416, 0 inscritos). O Opus Dei (5,6× a demanda) fica como o único teste da família."
+  },
+  {
+   "id": 23,
+   "tema": "La Yakuza",
+   "acao": "manter, mover de 23/11 para 29/11; trocar título",
+   "motivo": "Crime organizado é a 2ª família do canal (Cosa Nostra CTR 6,28%, ret. 67,6%); demanda es concentrada no formato \"rangos\" (Te lo Pinto 1,24 mi). O clone Era Span publicou o molde \"Toda la historia de la Yakuza\" em 19/11 → título \"YAKUZA: …\"."
+  },
+  {
+   "id": 24,
+   "tema": "El Opus Dei",
+   "acao": "manter, mover de 24/11 para 01/12 (com portão)",
+   "motivo": "Maior demanda da família em es (mediana 122.957; La Nueva Enciclopedia 294.026 em 33 dias), mas a família religiosa não pega no canal; vai depois das apostas de família forte."
+  },
+  {
+   "id": 25,
+   "tema": "La Stasi",
+   "acao": "descartar (tirar do calendário; reserva fraca)",
+   "motivo": "Busca em es quase nula (mediana top-10 em es em 12 m: 180, 7 vídeos; o maior é 59.445); o clone Archivo en Minutos fez a Stasi em 16/11 com 1.258 views (0,43×); no Archive a Stasi esfriou (+818/dia desde 17/11, contra 4,5 mil/dia de 05 a 14/11). A família soviética fica com GRU e Gulag, que têm demanda."
+  }
+ ],
+ "descartados": [
+  {
+   "tema": "Guerra afgano-soviética",
+   "numero": "Archive 162.276 (+13,2 mil/dia desde 17/11), mas é evento/guerra (bíblia: eventos flopam; Titanic 15 mil) e o clone Archivo en Minutos já fez em 19/11 (2.778, 0,96×)"
+  },
+  {
+   "tema": "El Tercer Reich",
+   "numero": "Archive 152.272 (2,68×), mas é Estado (bíblia veta país/império) e a busca em es tem mediana 13.667"
+  },
+  {
+   "tema": "Los Illuminati",
+   "numero": "Farid Dieck 3.084.582 em es, mas risco de desinformação/conspiração e família secreta sem alcance no canal (Masones 67 views)"
+  },
+  {
+   "tema": "La 'Ndrangheta",
+   "numero": "en 2,1 mi, mas busca em es com mediana 2.023; clone Era Span fez o molde em 16/11 (44 views)"
+  },
+  {
+   "tema": "Securitate / MSS / RAW / SAVAK / Kempeitai / Guardia Revolucionaria",
+   "numero": "nova série do Archive em 0,13–0,84× a mediana (IRGC 7.166; SAVAK 10.872; Kempeitai 48.056); busca em es: SAVAK 965, Kempeitai 92, Securitate 2.470"
+  },
+  {
+   "tema": "NKVD / Checa",
+   "numero": "busca em es mediana 9.575 (0 vídeos > 100 mil); Archive NKVD 26.539 (0,47×)"
+  },
+  {
+   "tema": "Juventudes Hitlerianas",
+   "numero": "busca em es mediana 7.443, 0 > 100 mil"
+  },
+  {
+   "tema": "Legión Extranjera / Navy SEALs / Spetsnaz",
+   "numero": "a demanda é do formato \"cada rango\" (Te lo Pinto SEALs 1.554.487); história em es fraca (Legión mediana 1.452)"
+  },
+  {
+   "tema": "Cártel de Cali / Los Zetas",
+   "numero": "es 95.981 / 204.334 de mediana, mas a família cartel tem só o Medellín (CTR 0,59%); se o portão do Sinaloa abrir, Zetas é o próximo"
+  },
+  {
+   "tema": "Mafia rusa / Tríadas / Mafia de Chicago",
+   "numero": "busca em es mediana 22.489 / 34.163 / 14.249"
+  },
+  {
+   "tema": "Juicio/Archive \"Mafia\" (Cosa Nostra já feita)",
+   "numero": "Archive Mafia 7.913 no 1º dia; tema já feito (Cosa Nostra)"
+  }
+ ]
+}
