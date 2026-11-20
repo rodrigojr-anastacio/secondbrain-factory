@@ -10,42 +10,40 @@
   "COPIA": 30
  },
  "limiar_gemeo": 0.3,
- "custo_traducao_usd": 0.0528,
+ "custo_traducao_usd": 0.0,
  "blocos_consenso_manada": [
-  7,
-  29,
-  42
+  7
  ],
  "referencias": [
   {
    "cobertura": 0.02857142857142857,
    "ordem": 0.0,
-   "ngramas": 0.0009090909090909091,
-   "sim_media": 0.13490727354639728,
+   "ngramas": 0.0009009009009009009,
+   "sim_media": 0.1301897156632168,
    "gemeos": 2,
    "blocos": 70,
    "posicoes": [
     [
      7,
-     69
+     62
     ],
     [
-     29,
-     102
+     27,
+     89
     ]
    ],
    "trechos": [
     {
      "bloco": 7,
-     "cos": 0.46,
+     "cos": 0.36,
      "nosso": "Mil e dezesseis. Um dinamarquês, Canúto, senta no trono da Inglaterra. Ele também manda na Dinamarca e na Noruega: a ilha vira província de um império do mar do Norte.",
-     "ref": "voltaram no final do século X e em 1016 o rei dinamarquês Canuto conquistou o trono inglês, governando um império que incluía a Inglaterra, a Dinamarca e a Noruega."
+     "ref": "Canuto conquistou o trono inglês, governando um império que incluía a Inglaterra, a Dinamarca e a Noruega. Depois de sua morte, a dinastia anglo-saxã foi restaurada com Eduardo, o Confessor,"
     },
     {
-     "bloco": 29,
-     "cos": 0.3,
-     "nosso": "Então a briga vira caseira: Lâncaster contra Iórque, trinta anos de Guerra das Rosas.",
-     "ref": "Cem Anos contra a França, a devastação da Peste Negra em meados do século XIV e a Guerra das Rosas, o conflito entre as casas de Lancaster e York, que terminou"
+     "bloco": 27,
+     "cos": 0.34,
+     "nosso": "Imagine ser julgado numa língua que você não entende: era a vida do camponês inglês. E havia um motivo a mais, porque a Inglaterra estava em guerra com a França, a Guerra dos Cem Anos.",
+     "ref": "parlamentar e das liberdades civis no mundo de língua inglesa. Nos séculos seguintes, a Inglaterra passou por guerras, pestes e disputas dinásticas, como a Guerra dos Cem Anos contra"
     }
    ],
    "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-lon75v0e7_s.txt",
@@ -58,22 +56,22 @@
   {
    "cobertura": 0.014285714285714285,
    "ordem": 0.0,
-   "ngramas": 0.0036363636363636364,
-   "sim_media": 0.15893563190807386,
+   "ngramas": 0.0036036036036036037,
+   "sim_media": 0.15155867783917887,
    "gemeos": 1,
    "blocos": 70,
    "posicoes": [
     [
      7,
-     128
+     114
     ]
    ],
    "trechos": [
     {
      "bloco": 7,
-     "cos": 0.35,
+     "cos": 0.34,
      "nosso": "Mil e dezesseis. Um dinamarquês, Canúto, senta no trono da Inglaterra. Ele também manda na Dinamarca e na Noruega: a ilha vira província de um império do mar do Norte.",
-     "ref": "passou entre governantes anglo-saxões e dinamarqueses, e, em certo momento, o reino foi governado como parte do maior Império do Mar do Norte escandinavo, sob o rei Canuto."
+     "ref": "anglo-saxões e dinamarqueses, e, em certo momento, o reino foi governado como parte do maior Império do Mar do Norte escandinavo, sob o rei Canuto. Em 1042, a casa de Wessex"
     }
    ],
    "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-P6r_qBoeHuA.txt",
@@ -86,78 +84,22 @@
   {
    "cobertura": 0.014285714285714285,
    "ordem": 0.0,
-   "ngramas": 0.0027272727272727275,
-   "sim_media": 0.1499980100304278,
-   "gemeos": 1,
-   "blocos": 70,
-   "posicoes": [
-    [
-     45,
-     147
-    ]
-   ],
-   "trechos": [
-    {
-     "bloco": 45,
-     "cos": 0.31,
-     "nosso": "Quem chegava era Guilherme de Orânge, holandês e genro do rei. Convidado: sete ingleses poderosos tinham escrito pedindo que viesse. O rei católico, Jaime Segundo, foge para a França. Guarde essa promessa no estandarte.",
-     "ref": "filha de Jaime, Maria, e seu marido holandês, Guilherme, ambos protestantes, e muitos nobres insatisfeitos com o rei católico convidaram Guilherme para se tornar rei. Guilherme"
-    }
-   ],
-   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-VcnSsEVsrf0.txt",
-   "idioma_ref": "en",
-   "traduzido": true,
-   "palavras_ref": 3535,
-   "nota": 1.0,
-   "veredito": "ok"
-  },
-  {
-   "cobertura": 0.014285714285714285,
-   "ordem": 0.0,
-   "ngramas": 0.0009090909090909091,
-   "sim_media": 0.13326017177681115,
-   "gemeos": 1,
-   "blocos": 70,
-   "posicoes": [
-    [
-     42,
-     58
-    ]
-   ],
-   "trechos": [
-    {
-     "bloco": 42,
-     "cos": 0.31,
-     "nosso": "O resultado é uma guerra civil. Em mil seiscentos e quarenta e nove, o rei é julgado e executado em Londres. E por onze anos a Inglaterra fica sem rei.",
-     "ref": "resultou em outra filha, Elizabeth. 3 anos depois, ele mandou julgar Ana por traição. Ela foi executada na Torre de Londres em 1536. Henrique VIII casou-se 6"
-    }
-   ],
-   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-43jQ3voZJhw.txt",
-   "idioma_ref": "en",
-   "traduzido": true,
-   "palavras_ref": 1900,
-   "nota": 0.9,
-   "veredito": "ok"
-  },
-  {
-   "cobertura": 0.014285714285714285,
-   "ordem": 0.0,
-   "ngramas": 0.0009090909090909091,
-   "sim_media": 0.07455937189804857,
+   "ngramas": 0.0009009009009009009,
+   "sim_media": 0.07401036406277829,
    "gemeos": 1,
    "blocos": 70,
    "posicoes": [
     [
      6,
-     4
+     2
     ]
    ],
    "trechos": [
     {
      "bloco": 6,
-     "cos": 0.33,
+     "cos": 0.32,
      "nosso": "Essa é a história inteira da Inglaterra. E começa numa ilha que todo mundo atravessa.",
-     "ref": "história inteira da Inglaterra, desde a Bretanha tribal da Antiguidade até a nação que ela é hoje. Muito antes de a Inglaterra existir como nome ou ideia, a ilha da Bretanha era lar de tribos"
+     "ref": "ilha viria a executar um rei, inventar a democracia parlamentar moderna e, por fim, governar um quarto de todo o planeta. Esta é a história inteira da Inglaterra, desde"
     }
    ],
    "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-bNV3pJBtdns.txt",
@@ -170,22 +112,22 @@
   {
    "cobertura": 0.014285714285714285,
    "ordem": 0.0,
-   "ngramas": 0.0018181818181818182,
-   "sim_media": 0.1106354069743698,
+   "ngramas": 0.0018018018018018018,
+   "sim_media": 0.10882577964941985,
    "gemeos": 1,
    "blocos": 70,
    "posicoes": [
     [
      60,
-     58
+     53
     ]
    ],
    "trechos": [
     {
      "bloco": 60,
-     "cos": 0.31,
+     "cos": 0.37,
      "nosso": "E no trono, no auge? A rainha Vitória, neta de um rei de Hanôver, casada com o príncipe alemão Alberto. Em casa, os dois falavam alemão.",
-     "ref": "Rainha Vitória, casou-se com um cônjuge alemão e, ao mesmo tempo, governou o estado de Hanôver. Assim, ironicamente, a era vitoriana, quando o Império Britânico estava no auge, teve"
+     "ref": "Império Britânico estava no auge, teve a Rainha da Grã-Bretanha conversando com o marido em alemão todas as noites. Um fato curioso sobre o marido de Vitória, o Príncipe Alberto,"
     }
    ],
    "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-wPLrlOck8uU.txt",
@@ -198,22 +140,22 @@
   {
    "cobertura": 0.014285714285714285,
    "ordem": 0.0,
-   "ngramas": 0.0018181818181818182,
-   "sim_media": 0.13362146517923087,
+   "ngramas": 0.0018018018018018018,
+   "sim_media": 0.13153362159507528,
    "gemeos": 1,
    "blocos": 70,
    "posicoes": [
     [
      29,
-     71
+     63
     ]
    ],
    "trechos": [
     {
      "bloco": 29,
-     "cos": 0.3,
+     "cos": 0.31,
      "nosso": "Então a briga vira caseira: Lâncaster contra Iórque, trinta anos de Guerra das Rosas.",
-     "ref": "brigava com ela própria: A Guerra das Rosas foi uma guerra civil inglesa entre as dinastias Lancaster e York, rosa vermelha e branca respectivamente. No final a guerra"
+     "ref": "Inglaterra brigava com ela própria: A Guerra das Rosas foi uma guerra civil inglesa entre as dinastias Lancaster e York, rosa vermelha e branca respectivamente. No final a guerra"
     }
    ],
    "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-xqXs8jcD28U.txt",
@@ -227,21 +169,21 @@
    "cobertura": 0.014285714285714285,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.13835167567463572,
+   "sim_media": 0.13558011866162367,
    "gemeos": 1,
    "blocos": 70,
    "posicoes": [
     [
      42,
-     215
+     191
     ]
    ],
    "trechos": [
     {
      "bloco": 42,
-     "cos": 0.31,
+     "cos": 0.35,
      "nosso": "O resultado é uma guerra civil. Em mil seiscentos e quarenta e nove, o rei é julgado e executado em Londres. E por onze anos a Inglaterra fica sem rei.",
-     "ref": "Civil Inglesa, após a execução do rei inglês Carlos I, em 1649. Isso porque os parlamentares tinham feito isso às claras: colocaram um rei em julgamento, consideraram-no"
+     "ref": "Guerra Civil Inglesa, após a execução do rei inglês Carlos I, em 1649. Isso porque os parlamentares tinham feito isso às claras: colocaram um rei em julgamento, consideraram-no"
     }
    ],
    "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-_EnLxRxQFbg.txt",
@@ -254,8 +196,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0027272727272727275,
-   "sim_media": 0.14726372640144242,
+   "ngramas": 0.0036036036036036037,
+   "sim_media": 0.14212326455955732,
    "gemeos": 0,
    "blocos": 70,
    "posicoes": [],
@@ -264,14 +206,14 @@
    "idioma_ref": "en",
    "traduzido": true,
    "palavras_ref": 4509,
-   "nota": 0.2,
+   "nota": 0.3,
    "veredito": "ok"
   },
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0027272727272727275,
-   "sim_media": 0.1316423916388711,
+   "ngramas": 0.002702702702702703,
+   "sim_media": 0.12723800459126433,
    "gemeos": 0,
    "blocos": 70,
    "posicoes": [],
@@ -286,8 +228,40 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0018181818181818182,
-   "sim_media": 0.15196931017254162,
+   "ngramas": 0.002702702702702703,
+   "sim_media": 0.14556433245494219,
+   "gemeos": 0,
+   "blocos": 70,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-VcnSsEVsrf0.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3535,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0009009009009009009,
+   "sim_media": 0.1317245538984196,
+   "gemeos": 0,
+   "blocos": 70,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/014-inglaterra/ref/manada-43jQ3voZJhw.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 1900,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0018018018018018018,
+   "sim_media": 0.14493617753581198,
    "gemeos": 0,
    "blocos": 70,
    "posicoes": [],
@@ -303,7 +277,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.11879482578518893,
+   "sim_media": 0.11714616397143934,
    "gemeos": 0,
    "blocos": 70,
    "posicoes": [],
@@ -319,7 +293,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.1220821281254146,
+   "sim_media": 0.11742504190335816,
    "gemeos": 0,
    "blocos": 70,
    "posicoes": [],
@@ -335,7 +309,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.11546556731719988,
+   "sim_media": 0.11044941820889277,
    "gemeos": 0,
    "blocos": 70,
    "posicoes": [],
@@ -351,7 +325,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.1342398103938676,
+   "sim_media": 0.13154790076242262,
    "gemeos": 0,
    "blocos": 70,
    "posicoes": [],
@@ -367,7 +341,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.12284201273199746,
+   "sim_media": 0.11973150711902912,
    "gemeos": 0,
    "blocos": 70,
    "posicoes": [],

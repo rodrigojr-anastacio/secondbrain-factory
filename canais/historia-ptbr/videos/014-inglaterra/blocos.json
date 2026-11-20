@@ -43,14 +43,14 @@
  },
  {
   "id": "N008",
-  "texto": "Não era novidade. Antes dele, atravessaram o mar os romanos, depois os anglos e os saxões, depois os vikings. Alfredo, o Grande, segurou os vikings no sul. Mas a ilha continuava sendo onde todo mundo desembarcava.",
-  "tela": "Não era novidade. Antes dele, atravessaram o mar os romanos, depois os anglos e os saxões, depois os vikings. Alfredo, o Grande, segurou os vikings no sul. Mas a ilha continuava sendo onde todo mundo desembarcava.",
+  "texto": "Não era novidade. Antes dele, atravessaram o mar os romanos, depois os anglos e os saxões, depois os vikings. Alfredo, o Grande, segurou os vikings no sul. Mas a ilha seguia sendo onde todo mundo desembarcava.",
+  "tela": "Não era novidade. Antes dele, atravessaram o mar os romanos, depois os anglos e os saxões, depois os vikings. Alfredo, o Grande, segurou os vikings no sul. Mas a ilha seguia sendo onde todo mundo desembarcava.",
   "ideia": false
  },
  {
   "id": "N009",
-  "texto": "Só que deixava marca. Se você já falou scái, égue ou náife numa aula de inglês, falou palavras que vieram dos vikings.",
-  "tela": "Só que deixava marca. Se você já falou sky, egg ou knife numa aula de inglês, falou palavras que vieram dos vikings.",
+  "texto": "Só que deixava marca. Se você já disse scái, égue ou náife, falou palavras dos vikings.",
+  "tela": "Só que deixava marca. Se você já disse sky, egg ou knife, falou palavras dos vikings.",
   "ideia": false
  },
  {
@@ -235,14 +235,14 @@
  },
  {
   "id": "N040",
-  "texto": "O filho dele, Carlos Primeiro, acha o Parlamento caro demais e governa onze anos sem convocá-lo, inventando taxas. Até que, em mil seiscentos e quarenta, precisa de dinheiro para guerrear com os escoceses. E o Parlamento volta, com a conta acumulada.",
-  "tela": "O filho dele, Carlos Primeiro, acha o Parlamento caro demais e governa onze anos sem convocá-lo, inventando taxas. Até que, em mil seiscentos e quarenta, precisa de dinheiro para guerrear com os escoceses. E o Parlamento volta, com a conta acumulada.",
+  "texto": "Bâkinghamxer, mil seiscentos e trinta e sete. O fidalgo Djón Rêmpden se recusa a pagar vinte xelins da taxa dos navios, que o filho de Jaime, Carlos Primeiro, cobra sem Parlamento. Perde no tribunal por sete votos a cinco. E vira herói.",
+  "tela": "Buckinghamshire, mil seiscentos e trinta e sete. O fidalgo John Hampden se recusa a pagar vinte xelins da taxa dos navios, que o filho de Jaime, Carlos Primeiro, cobra sem Parlamento. Perde no tribunal por sete votos a cinco. E vira herói.",
   "ideia": true
  },
  {
   "id": "N041",
-  "texto": "Imagine o síndico que cobra taxa extra sem assembleia, por onze anos. Agora ponha exércitos nessa reunião.",
-  "tela": "Imagine o síndico que cobra taxa extra sem assembleia, por onze anos. Agora ponha exércitos nessa reunião.",
+  "texto": "Carlos governa onze anos sem Parlamento. Imagine o síndico cobrando taxa extra sem assembleia por onze anos. Até que, em mil seiscentos e quarenta, falta dinheiro para guerrear com os escoceses, e a assembleia volta. Agora ponha exércitos nessa reunião.",
+  "tela": "Carlos governa onze anos sem Parlamento. Imagine o síndico cobrando taxa extra sem assembleia por onze anos. Até que, em mil seiscentos e quarenta, falta dinheiro para guerrear com os escoceses, e a assembleia volta. Agora ponha exércitos nessa reunião.",
   "ideia": false
  },
  {
@@ -313,8 +313,8 @@
  },
  {
   "id": "N053",
-  "texto": "Então o crédito barato vira navio. A dívida do país se multiplica por mais de dez em menos de cem anos. Quase tudo vira frota e guerra.",
-  "tela": "Então o crédito barato vira navio. A dívida do país se multiplica por mais de dez em menos de cem anos. Quase tudo vira frota e guerra.",
+  "texto": "Então o crédito barato vira navio. A dívida do país se multiplica por mais de dez em menos de cem anos. Quase tudo vira frota.",
+  "tela": "Então o crédito barato vira navio. A dívida do país se multiplica por mais de dez em menos de cem anos. Quase tudo vira frota.",
   "ideia": false
  },
  {
@@ -367,8 +367,8 @@
  },
  {
   "id": "N062",
-  "texto": "Uóchinton, mil novecentos e quarenta e cinco. A guerra acabou, e o país que emprestou ao mundo por dois séculos agora pede: três bilhões e setecentos e cinquenta milhões de dólares aos americanos.",
-  "tela": "Washington, mil novecentos e quarenta e cinco. A guerra acabou, e o país que emprestou ao mundo por dois séculos agora pede: três bilhões e setecentos e cinquenta milhões de dólares aos americanos.",
+  "texto": "Uóchinton, mil novecentos e quarenta e cinco. A guerra acabou, e o país que emprestou ao mundo por dois séculos agora pede: quase quatro bilhões de dólares aos americanos.",
+  "tela": "Washington, mil novecentos e quarenta e cinco. A guerra acabou, e o país que emprestou ao mundo por dois séculos agora pede: quase quatro bilhões de dólares aos americanos.",
   "ideia": true
  },
  {

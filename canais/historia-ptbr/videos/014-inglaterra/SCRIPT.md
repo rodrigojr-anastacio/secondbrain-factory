@@ -6,7 +6,7 @@ Promessa: Como a Inglaterra entregou a coroa a gente de fora seis vezes, e como 
 
 Títulos: T1 "A Inglaterra IMPORTAVA reis. Como mandou em 1/4 do mundo?" / T2 "Como reis de FORA deixaram a Inglaterra mais forte" / T3 "Inglaterra, o país que dava a COROA a estrangeiros"
 
-Gerado por `roteiro.py` (fonte única; edite lá). 2200 palavras, ~17:35.0 estimados a 126 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 2212 palavras, ~17:40.7 estimados a 126 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
@@ -28,9 +28,9 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N007]** Mil e dezesseis. Um dinamarquês, Canuto, senta no trono da Inglaterra. Ele também manda na Dinamarca e na Noruega: a ilha vira província de um império do mar do Norte.
 
-**[N008]** Não era novidade. Antes dele, atravessaram o mar os romanos, depois os anglos e os saxões, depois os vikings. Alfredo, o Grande, segurou os vikings no sul. Mas a ilha continuava sendo onde todo mundo desembarcava.
+**[N008]** Não era novidade. Antes dele, atravessaram o mar os romanos, depois os anglos e os saxões, depois os vikings. Alfredo, o Grande, segurou os vikings no sul. Mas a ilha seguia sendo onde todo mundo desembarcava.
 
-**[N009]** Só que deixava marca. Se você já falou sky, egg ou knife numa aula de inglês, falou palavras que vieram dos vikings.
+**[N009]** Só que deixava marca. Se você já disse sky, egg ou knife, falou palavras dos vikings.
 
 **[N010]** Conta uma lenda, escrita uns cem anos depois, que Canuto mandou o mar recuar. A versão que você conhece é a do rei arrogante. Só que a lenda original diz o contrário: ele molha os pés de propósito, para mostrar aos bajuladores que rei nenhum manda nas ondas.
 
@@ -107,9 +107,9 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N039]** Lembra do escocês do começo? Ele esperava esse trono havia anos, e trocava até cartas secretas com o ministro da rainha. Só não esperava o não. Assume o título por proclamação, mas o recado estava dado.
 
-**[N040]** O filho dele, Carlos Primeiro, acha o Parlamento caro demais e governa onze anos sem convocá-lo, inventando taxas. Até que, em mil seiscentos e quarenta, precisa de dinheiro para guerrear com os escoceses. E o Parlamento volta, com a conta acumulada.
+**[N040]** Buckinghamshire, mil seiscentos e trinta e sete. O fidalgo John Hampden se recusa a pagar vinte xelins da taxa dos navios, que o filho de Jaime, Carlos Primeiro, cobra sem Parlamento. Perde no tribunal por sete votos a cinco. E vira herói.
 
-**[N041]** Imagine o síndico que cobra taxa extra sem assembleia, por onze anos. Agora ponha exércitos nessa reunião.
+**[N041]** Carlos governa onze anos sem Parlamento. Imagine o síndico cobrando taxa extra sem assembleia por onze anos. Até que, em mil seiscentos e quarenta, falta dinheiro para guerrear com os escoceses, e a assembleia volta. Agora ponha exércitos nessa reunião.
 
 **[N042]** O resultado é uma guerra civil. Em mil seiscentos e quarenta e nove, o rei é julgado e executado em Londres. E por onze anos a Inglaterra fica sem rei.
 
@@ -139,7 +139,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N052]** Com o tempo, Jorge deixa de ir às reuniões com os ministros. Aí quem senta na cabeceira é Robert Walpole, chefe do Tesouro por vinte e um anos: o que hoje chamamos de primeiro-ministro. Ele mesmo recusava o título; soava como ofensa.
 
-**[N053]** Então o crédito barato vira navio. A dívida do país se multiplica por mais de dez em menos de cem anos. Quase tudo vira frota e guerra.
+**[N053]** Então o crédito barato vira navio. A dívida do país se multiplica por mais de dez em menos de cem anos. Quase tudo vira frota.
 
 **[N054]** Em mil setecentos e sessenta e três, a Grã-Bretanha, já unida à Escócia, vence a França e fica com o Canadá e o caminho da Índia. Só que essa conta também precisava de alguém para pagar.
 
@@ -163,7 +163,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## 10. A conta chega
 
-**[N062]** Washington, mil novecentos e quarenta e cinco. A guerra acabou, e o país que emprestou ao mundo por dois séculos agora pede: três bilhões e setecentos e cinquenta milhões de dólares aos americanos.
+**[N062]** Washington, mil novecentos e quarenta e cinco. A guerra acabou, e o país que emprestou ao mundo por dois séculos agora pede: quase quatro bilhões de dólares aos americanos.
 
 **[N063]** No meio do caminho, em mil novecentos e dezessete, o rei Jorge Quinto tinha trocado o nome alemão da família por um bem inglês: Windsor. A coroa de fora agora queria parecer de dentro.
 

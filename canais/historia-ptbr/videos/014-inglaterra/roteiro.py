@@ -72,8 +72,8 @@ b("Essa é a história inteira da Inglaterra. E começa numa ilha que todo mundo
 # ───────────────────────── 1. A ILHA QUE TODO MUNDO ATRAVESSA ─────────────────────────
 cap("1. A ilha que todo mundo atravessa")
 b("§ Mil e dezesseis. Um dinamarquês, Canuto, senta no trono da Inglaterra. Ele também manda na Dinamarca e na Noruega: a ilha vira província de um império do mar do Norte.", card="1016")
-b("Não era novidade. Antes dele, atravessaram o mar os romanos, depois os anglos e os saxões, depois os vikings. Alfredo, o Grande, segurou os vikings no sul. Mas a ilha continuava sendo onde todo mundo desembarcava.")
-b("Só que deixava marca. Se você já falou sky, egg ou knife numa aula de inglês, falou palavras que vieram dos vikings.")
+b("Não era novidade. Antes dele, atravessaram o mar os romanos, depois os anglos e os saxões, depois os vikings. Alfredo, o Grande, segurou os vikings no sul. Mas a ilha seguia sendo onde todo mundo desembarcava.")
+b("Só que deixava marca. Se você já disse sky, egg ou knife, falou palavras dos vikings.")
 b("§ Conta uma lenda, escrita uns cem anos depois, que Canuto mandou o mar recuar. A versão que você conhece é a do rei arrogante. Só que a lenda original diz o contrário: ele molha os pés de propósito, para mostrar aos bajuladores que rei nenhum manda nas ondas.")
 b("Repare no recado: rei de fora, para ser aceito, tinha de parecer menor.")
 b("Canuto morre em mil e trinta e cinco, os filhos brigam e a coroa volta para um inglês. O problema é que, do outro lado do canal, um parente normando achava que ela era dele.")
@@ -119,8 +119,8 @@ b("O problema: o escocês que chegava acreditava que rei só presta contas a Deu
 cap("6. O nome recusado")
 b("§ Londres, abril de mil seiscentos e quatro. O novo rei, Jaime, pede à Câmara dos Comuns um título novo: rei da Grã-Bretanha. E os Comuns dizem não.", card="1604")
 b("Lembra do escocês do começo? Ele esperava esse trono havia anos, e trocava até cartas secretas com o ministro da rainha. Só não esperava o não. Assume o título por proclamação, mas o recado estava dado.")
-b("§ O filho dele, Carlos Primeiro, acha o Parlamento caro demais e governa onze anos sem convocá-lo, inventando taxas. Até que, em mil seiscentos e quarenta, precisa de dinheiro para guerrear com os escoceses. E o Parlamento volta, com a conta acumulada.", card="1640")
-b("Imagine o síndico que cobra taxa extra sem assembleia, por onze anos. Agora ponha exércitos nessa reunião.")
+b("§ Buckinghamshire, mil seiscentos e trinta e sete. O fidalgo John Hampden se recusa a pagar vinte xelins da taxa dos navios, que o filho de Jaime, Carlos Primeiro, cobra sem Parlamento. Perde no tribunal por sete votos a cinco. E vira herói.", card="1637")
+b("Carlos governa onze anos sem Parlamento. Imagine o síndico cobrando taxa extra sem assembleia por onze anos. Até que, em mil seiscentos e quarenta, falta dinheiro para guerrear com os escoceses, e a assembleia volta. Agora ponha exércitos nessa reunião.", card="1640")
 b("[serious] O resultado é uma guerra civil. Em mil seiscentos e quarenta e nove, o rei é julgado e executado em Londres. E por onze anos a Inglaterra fica sem rei.", card="1649")
 b("Lembra da nossa pergunta? Ela acabou de ficar mais estranha: o país que vai mandar no mundo está sem rei nenhum. Em mil seiscentos e sessenta, a monarquia volta. O problema é que, quando o rei seguinte vira católico, a ilha protestante vai procurar outro. Lá fora.", card="1660")
 
@@ -138,7 +138,7 @@ cap("8. O rei que precisa de licença")
 b("§ Mil setecentos e um. O Parlamento escreve as regras para um rei que ainda nem chegou. Protestante. Nada de guerra pelas terras dele lá fora sem o Parlamento. E nem sair da ilha sem licença.", card="1701")
 b("Imagine o seu chefe novo chegando com a lista do que ele não pode fazer. Assim chega, em mil setecentos e catorze, Jorge de Hanôver. Fala pouco inglês e prefere o francês. Dois anos depois, pede para visitar a terra dele, e o Parlamento revoga a cláusula.", card="1714")
 b("§ Com o tempo, Jorge deixa de ir às reuniões com os ministros. Aí quem senta na cabeceira é Robert Walpole, chefe do Tesouro por vinte e um anos: o que hoje chamamos de primeiro-ministro. Ele mesmo recusava o título; soava como ofensa.", card="1721")
-b("Então o crédito barato vira navio. A dívida do país se multiplica por mais de dez em menos de cem anos. Quase tudo vira frota e guerra.")
+b("Então o crédito barato vira navio. A dívida do país se multiplica por mais de dez em menos de cem anos. Quase tudo vira frota.")
 b("Em mil setecentos e sessenta e três, a Grã-Bretanha, já unida à Escócia, vence a França e fica com o Canadá e o caminho da Índia. Só que essa conta também precisava de alguém para pagar.", card="1763")
 
 # ───────────────────────── 9. A MEDALHA QUE FICOU NA FRANÇA ─────────────────────────
@@ -153,7 +153,7 @@ b("Terceira peça da resposta: a coroa vinha de fora, mas o poder ficava do lado
 
 # ───────────────────────── 10. A CONTA ─────────────────────────
 cap("10. A conta chega")
-b("§ Washington, mil novecentos e quarenta e cinco. A guerra acabou, e o país que emprestou ao mundo por dois séculos agora pede: três bilhões e setecentos e cinquenta milhões de dólares aos americanos.", card="1945")
+b("§ Washington, mil novecentos e quarenta e cinco. A guerra acabou, e o país que emprestou ao mundo por dois séculos agora pede: quase quatro bilhões de dólares aos americanos.", card="1945")
 b("No meio do caminho, em mil novecentos e dezessete, o rei Jorge Quinto tinha trocado o nome alemão da família por um bem inglês: Windsor. A coroa de fora agora queria parecer de dentro.", card="1917")
 b("§ Então o império encolhe. A Índia fica independente em mil novecentos e quarenta e sete. Em setenta e três, o país entra no mercado comum europeu; em dois mil e dezesseis, vota para sair.", card="1947")
 b("Só que a conta demorou: a última parcela foi paga em vinte e nove de dezembro de dois mil e seis. Imagine quitar em dois mil e seis uma conta de quarenta e cinco.", card="2006")
@@ -172,7 +172,7 @@ FALA = [("Robert Carey", "Róbert Kéri"), ("Richmond", "Rítchmond"), ("Canuto"
         ("Westminster", "Uéstminster"), ("Hastings", "Hêistings"), ("Ruão", "Ruão"), ("Le Mans", "Le Mã"), ("Simon de Montfort", "Simón de Monfór"),
         ("Calais", "Calê"), ("Lancaster", "Lâncaster"), ("York", "Iórque"), ("Tudor", "Túdor"), ("Orange", "Orânge"),
         ("Hanôver", "Hanôver"), ("Walpole", "Uólpol"), ("Boulogne", "Bulônhe"), ("Trafalgar", "Trafalgár"), ("Windsor", "Uíndsor"),
-        ("Washington", "Uóchinton")]
+        ("Washington", "Uóchinton"), ("John Hampden", "Djón Rêmpden"), ("Buckinghamshire", "Bâkinghamxer")]
 def fala(t):
     for a, z in FALA: t = re.sub(r"(?<![\wÀ-ú])" + re.escape(a) + r"(?![\wÀ-ú])", z, t)
     return t
