@@ -1,6 +1,7 @@
 import React from 'react';
 import { AbsoluteFill, Img, OffthreadVideo, staticFile, interpolate, useCurrentFrame, Easing, spring, useVideoConfig } from 'remotion';
 import { DISPLAY, MONO, COND, AMARELO, CIANO, TINTA, GRIFO, AREIA, MAR, W, H } from './estilo.jsx';
+import { Cred } from './ch.jsx';
 
 // Gramática de tela do canal (biblia/visual.md): KenBurns, Filme, DocGrifo, Número, Mapa2D, EntaoAgora, Cartela (SCHEMATIC),
 // PerfilProfundidade, Card; sobreposições Ficha (data · lugar · acervo) e Num (número sobreposto). Tempos vêm do tools/build.py.
@@ -21,7 +22,7 @@ export const Ficha = ({ linhas, inicio = 8, fim = null }) => {
   if (op <= 0) return null;
   const x = interpolate(f, [inicio, inicio + 12], [-26, 0], { ...C, easing: ease });
   return (
-    <div style={{ position: 'absolute', left: 56, bottom: 52, opacity: op, transform: `translateX(${x}px)`, maxWidth: 1060,
+    <div style={{ position: 'absolute', left: 56, bottom: 96, opacity: op, transform: `translateX(${x}px)`, maxWidth: 1060,
       background: 'rgba(17,20,24,.88)', borderLeft: `6px solid ${AMARELO}`, padding: '11px 22px 11px 18px' }}>
       {linhas.map((l, i) => (
         <div key={i} style={{ fontFamily: MONO, fontSize: i === 0 ? 30 : 22, color: i === 0 ? '#fff' : '#C9CDD2', letterSpacing: i === 0 ? 1.5 : 0.6,
@@ -38,7 +39,7 @@ export const Num = ({ num, topo = false, inicio = 14 }) => {
   const s = spring({ frame: f - inicio, fps, config: { damping: 14, mass: 0.7 } });
   if (f < inicio) return null;
   return (
-    <div style={{ position: 'absolute', right: 56, [topo ? 'top' : 'bottom']: topo ? 52 : 52, opacity: Math.min(1, s * 1.4), transform: `scale(${0.88 + 0.12 * s})`,
+    <div style={{ position: 'absolute', right: 56, [topo ? 'top' : 'bottom']: topo ? 100 : 52, opacity: Math.min(1, s * 1.4), transform: `scale(${0.88 + 0.12 * s})`,
       transformOrigin: topo ? 'top right' : 'bottom right', textAlign: 'right', background: '#111418', padding: '14px 28px 12px', boxShadow: '0 6px 24px rgba(0,0,0,.5)', borderRight: `6px solid ${AMARELO}`, maxWidth: 900 }}>
       <div style={{ fontFamily: DISPLAY, fontSize: 104, color: AMARELO, lineHeight: 0.98, letterSpacing: 1 }}>{num[0]}</div>
       {num[1] ? <div style={{ fontFamily: COND, fontWeight: 700, fontSize: 38, color: '#fff', letterSpacing: 2.5, marginTop: 4 }}>{num[1]}</div> : null}
@@ -47,7 +48,7 @@ export const Num = ({ num, topo = false, inicio = 14 }) => {
 };
 
 const Selo = ({ txt }) => txt ? (
-  <div style={{ position: 'absolute', right: 56, top: 48, fontFamily: MONO, fontWeight: 700, fontSize: 28, color: AMARELO, letterSpacing: 3,
+  <div style={{ position: 'absolute', right: 56, top: 96, fontFamily: MONO, fontWeight: 700, fontSize: 28, color: AMARELO, letterSpacing: 3,
     border: `3px solid ${AMARELO}`, background: 'rgba(17,20,24,.9)', padding: '6px 16px' }}>{txt}</div>
 ) : null;
 
@@ -75,6 +76,7 @@ export const KenBurns = ({ p }) => {
       <Img src={staticFile('img/' + p.img)} style={{ position: 'absolute', left: -v.x0 * v.s, top: -v.y0 * v.s, width: p.iw * v.s, height: p.ih * v.s, maxWidth: 'none' }} />
       <Vinheta />
       <Ficha linhas={p.ficha} />
+      <Cred cred={p.cred} />
       <Num num={p.num} topo={!!p.ficha} />
     </AbsoluteFill>
   );
@@ -84,13 +86,18 @@ export const KenBurns = ({ p }) => {
 export const Filme = ({ p }) => {
   const f = useCurrentFrame();
   const z = interpolate(f, [0, p.dur], [1.0, 1.045], C);
+  const largo = p.ar >= 1.6;   // 16:9 (ou quase): cobre o quadro; 4:3: filme inteiro na altura, laterais com o próprio filme desfocado (não esticar)
   return (
     <AbsoluteFill style={{ background: TINTA, overflow: 'hidden' }}>
+      {!largo && <AbsoluteFill style={{ transform: 'scale(1.35)', filter: 'blur(38px) brightness(.55) saturate(.85)' }}>
+        <OffthreadVideo src={staticFile('clips/' + p.clip)} muted style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+      </AbsoluteFill>}
       <AbsoluteFill style={{ transform: `scale(${z})` }}>
-        <OffthreadVideo src={staticFile('clips/' + p.clip)} muted style={{ width: '100%', height: '100%', objectFit: 'cover', ...(String(p.arq).includes('nara76169') ? { transform: 'scale(1.14)', transformOrigin: '50% 0%' } : {}) }} />   {/* 004: filmes NARA 76169 trazem timecode RTC no rodapé do quadro: recorte de 12% embaixo */}
+        <OffthreadVideo src={staticFile('clips/' + p.clip)} muted style={{ width: '100%', height: '100%', objectFit: largo ? 'cover' : 'contain' }} />
       </AbsoluteFill>
       <Vinheta />
       <Ficha linhas={p.ficha} />
+      <Cred cred={p.cred} />
       <Num num={p.num} topo={!!p.ficha} />
     </AbsoluteFill>
   );
@@ -140,7 +147,7 @@ export const DocGrifo = ({ p }) => {
   let acc = 0;
   return (
     <AbsoluteFill style={{ background: fundoEscuro, overflow: 'hidden' }}>
-      <div style={{ position: 'absolute', left: W / 2 + off - cx * s, top: H / 2 - cy * s, width: p.iw * s, height: p.ih * s, boxShadow: p.iw * s < W * 1.3 ? '0 30px 90px rgba(0,0,0,.75)' : 'none',  // sombra só quando a página aparece inteira (memória)
+      <div style={{ position: 'absolute', left: W / 2 + off - cx * s, top: H / 2 + 36 - cy * s, width: p.iw * s, height: p.ih * s, boxShadow: p.iw * s < W * 1.3 ? '0 30px 90px rgba(0,0,0,.75)' : 'none',  // sombra só quando a página aparece inteira (memória)
         clipPath: p.regiao ? `inset(${p.regiao[1] * 100}% ${(1 - p.regiao[0] - p.regiao[2]) * 100}% ${(1 - p.regiao[1] - p.regiao[3]) * 100}% ${p.regiao[0] * 100}%)` : undefined }}>
         <Img src={staticFile('img/' + p.img)} style={{ width: '100%', height: '100%', maxWidth: 'none' }} />
         {g.map((r, i) => {
@@ -152,6 +159,7 @@ export const DocGrifo = ({ p }) => {
         })}
       </div>
       <Ficha linhas={ficha} inicio={3} fim={fichaFim} />
+      <Cred cred={p.cred} />
       <Num num={p.num} topo inicio={Math.max(14, zoomFim + 4)} />
     </AbsoluteFill>
   );
@@ -391,6 +399,7 @@ export const Dupla = ({ p }) => {
       {painel(p.img2, p.iw2, p.ih2, 970, p.rot2, AMARELO, 8)}
       <Selo txt={p.selo} />
       <Ficha linhas={p.ficha} inicio={14} />
+      <Cred cred={[p.cred1, p.cred2].filter(Boolean)} />
     </AbsoluteFill>
   );
 };

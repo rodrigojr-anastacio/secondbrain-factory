@@ -1,0 +1,43 @@
+TITLES (Test & compare) — paired with the thumbnails
+A: Chernobyl Burned for Days Before the World Knew  → thumb-A.jpg ("67 HOURS") | title pattern: <X> Before the World Knew (intervalo) | thumb pattern: numero-estatistica
+B: Why Was Chernobyl's Alarm First Raised in Sweden?  → thumb-B.jpg ("ON A SHOE") | title pattern: Why ... in Y? (tema) | thumb pattern: mapa-lugar
+C: The Bus Order Pripyat Wasn't Told About  → thumb-C.jpg ("TEMPORARY") | title pattern: The <documento> X Wasn't Told About (bíblia D adaptado) | thumb pattern: antes-depois
+Default when uploading: title A + thumbnail A.
+
+DESCRIPTION
+If you like places history closed behind a fence, and the official papers that explain why, subscribe, like the video and share it with someone who has wondered how the world found out.
+
+At 01:23:40 on 26 April 1986, an emergency shutdown button was pressed in Reactor Four at Chernobyl. At 21:00 on 28 April, the Soviet evening news read five sentences about it. Between the two: 67 hours, 36 minutes, 20 seconds. This video runs that clock hour by hour and shows what exists for each mark: the fire dispatch calls and the Pripyat city radio announcement (both recorded), the reactor log in the IAEA's INSAG-7 report, the order for 1,125 buses, the director's report that called the city's situation normal, the alarm that went off at a Swedish power plant, the Politburo notes, and a CIA commentary from the day after. Then it asks why the zone that radio announcer called temporary is still closed.
+
+CHAPTERS
+0:00 The button
+1:08 Still temporary
+1:59 Friday, two in the afternoon
+3:01 Thirty megawatts
+4:03 The line in the table
+5:19 The roof fires
+7:09 Saturday, eight p.m.
+8:18 Sunday, temporarily
+9:56 Monday, Forsmark
+11:17 Monday, nine p.m.
+12:50 Tuesday, Washington
+13:47 The thirty kilometers
+14:39 One more reason
+15:37 Temporary
+
+SOURCES
+- IAEA, "INSAG-7: The Chernobyl Accident: Updating of INSAG-1" (Safety Series 75-INSAG-7, 1992): Table I-I (operating log), §I-4.6.3, §II-2.3.4.
+- V. P. Bryukhanov, report "On the accident at the V. I. Lenin Chernobyl NPP", 26 April 1986; Order of the Ministry of Motor Transport of the Ukrainian SSR on the evacuation of Pripyat, 27 April 1986 (Wilson Center Digital Archive, documents 208405 and 208406).
+- Politburo session of 28 April 1986 (Archive of the President of the Russian Federation; English translation by S. Savranskaya, National Security Archive); original text, Gorbachev Foundation (gorby.ru).
+- UPI Archives, 28 April 1986; CIA "Spot Commentary: Soviet Nuclear Accident", 29 April 1986 (Foreign Relations of the United States 1981-88, vol. V, doc. 220); Law of Ukraine No. 791a-XII of 27 February 1991.
+- Recorded audio: fire-service dispatch calls of 26 April 1986 and Pripyat city radio announcement of 27 April 1986, via pripyat.com / Wikimedia Commons.
+- Landsat 5 image of 29 April 1986 (U.S. Geological Survey); KH-9 Hexagon image of 29 January 1984 (U.S. Geological Survey); Sveriges Radio and press reports on the Forsmark alarm.
+
+CREDITS
+Film: Ukrkinokhronika, 1986 (V. Shevchenko and other newsreel footage); Ukrtelefilm, 1982 (via Gosteleradiofond); Vremya, Soviet Central Television, 28 April 1986; ABC News, 28 April 1986; CBS Evening News, 29 April 1986; VOA News. Photos: Yuri Yevsyukov, "Pripyat" (Mystetstvo, Kyiv, 1986); Nationaal Archief / Anefo (CC0); IAEA Imagebank (CC BY-SA 2.0); Public Chamber of Russia, oprf.ru (CC BY 4.0); Eamonn Butler (CC BY 2.0); Quintin Soloviev (CC BY 4.0); Wendelin Jacober (CC0); hnapel (CC0); Video: Carl Willis (CC BY 3.0); CNES 1986, Spot World Heritage (Licence Ouverte 2.0); NASA (public domain); U.S. Geological Survey. Maps: Natural Earth (schematic, positions approximate). Documents are shown for commentary and study, with the source on screen. The 28 April 1986 TASS bulletin is a reconstruction: the text is read by a generated voice and is not the original broadcast; the video says so on screen. No remains or injured people are shown.
+Music: original, made for this channel.
+
+TAGS
+Chernobyl, Chernobyl 1986, Chernobyl timeline, Chernobyl hour by hour, Pripyat, Pripyat evacuation, Chernobyl Forsmark, Chernobyl Sweden, Chernobyl cover-up, Chernobyl exclusion zone, INSAG-7, Soviet Union 1986, Cold War history, places you can't visit
+
+CATEGORY: Education · LANGUAGE: English (US)

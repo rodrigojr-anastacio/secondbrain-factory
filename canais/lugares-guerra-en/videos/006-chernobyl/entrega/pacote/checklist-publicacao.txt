@@ -1,0 +1,10 @@
+CHECKLIST DE PUBLICAÇÃO (Rodrigo) — fora da descrição
+- CONTENT ID (importante): suba primeiro como NÃO LISTADO e espere a checagem de direitos do Studio antes de publicar. O vídeo usa áudios do Commons (muitos reuploads),
+  cinejornais soviéticos (Ukrkinokhronika, Ukrtelefilm/Gosteleradiofond, Vremya), ABC/CBS e VOA: risco médio-alto de reclamação; todos com crédito na tela e na descrição.
+  Se houver reivindicação: contestar como uso documental (trechos curtos, sem som nos filmes, crítica/comentário) ou trocar o trecho reivindicado (há reservas).
+- Idioma do vídeo: English (US). Categoria: Education. Não é para crianças.
+- Studio → Atributos → Uso de IA / conteúdo alterado ou sintético: SIM (voz sintética da narração; boletim TASS reconstruído, rotulado na tela; mídia de época é real).
+- Título A + thumb A como padrão; B e C (com as thumbs B e C) no "Testar e comparar".
+- Legendas: legendas.srt (English; inclui as legendas traduzidas dos áudios de época). Vídeo: video.mp4 1080p (nunca a versão do Telegram).
+- Janela sugerida: dom 22/11 ou seg 23/11 (produzido no sábado; suba NÃO LISTADO antes e espere o Content ID). O dia é seu; a fábrica só sugere a janela.
+- Conferir antes de publicar: legenda em russo do despacho (Ivankov, 0:55 do A3) é nossa tradução; hora do Vremya (21:00 = hora do programa; só fonte jornalística); Wilson Center pede contato para uso comercial (NPIHP@wilsoncenter.org); 34 fotos do livro de Yevsyukov (1986) com crédito na tela.

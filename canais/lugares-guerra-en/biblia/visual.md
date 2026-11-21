@@ -57,3 +57,9 @@ Remotion 1080p30; render completo no Runpod (`tools/render_runpod.sh`), VPS só 
 ## Lições do 006 Chernobyl (21/11/2026, etapa 1; tema fora da bíblia aprovado como teste) — Hipótese até ter retenção
 - **Meta de época por tempo, validada no `roteiro.py`** (`epoca_pct`, pedido do Rodrigo: "lembre-se de usar vídeos e imagens"): 42% do tempo com foto/vídeo real de 1986 só fechou com cinejornal com dono (Ukrkinokhronika/Shevchenko, Ukrtelefilm 1982), TV ABC/CBS de 28–29/04 e o livro "Припять" (1986), todos com **crédito na tela** (desvio aprovado só para este vídeo). Material PD de 1986 sozinho não passaria de ~10%.
 - **Âncora automática no storyboard** (`roteiro.py` do 006): plano sem `em=` é distribuído pelo peso (filme = duração do clipe), com `vel` até 0,7× quando o clipe é curto; poupa horas em 224 planos. Áudio de época vira marcador `[[A1]]` no SCRIPT e bloco `Arquivo` com duração fixa.
+
+## Lições do 006-chernobyl (21/11/2026, Hipótese até haver retenção)
+- Régua de horas + contador pequeno persistentes (estado por plano em `rl`) funcionam como fio do vídeo; o contador cobre texto de documento: esconder nos DocGrifo e descer a página ~36 px.
+- Filme 4:3 de época: inteiro na altura com laterais do próprio filme desfocadas (não esticar nem cortar 25%).
+- Crédito na tela em Plex Mono 20 px no canto inferior esquerdo, fundo ≥ 90% opaco (sobre documento, 72% não lê).
+- Rótulos de mapa de pontos a < 2 km colidem: afastar por nome (PRIPYAT à esquerda, NPP à direita).

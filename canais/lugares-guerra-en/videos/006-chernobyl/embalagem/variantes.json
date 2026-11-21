@@ -5,7 +5,8 @@
   "padrao_titulo": "<X> Before the World Knew (intervalo)",
   "padrao_thumb": "numero-estatistica",
   "thumb_conceito": "dois cartões flip amarelos 67 + HOURS sobre sala de controle quase invisível",
-  "thumb_texto": "67 HOURS"
+  "thumb_texto": "67 HOURS",
+  "thumb_arquivo": "entrega/thumb-A.jpg"
  },
  {
   "letra": "B",
@@ -13,7 +14,8 @@
   "padrao_titulo": "Why ... in Y? (tema)",
   "padrao_thumb": "mapa-lugar",
   "thumb_conceito": "mapa escuro da Europa, pluma amarela de Chernobyl até a Suécia ciano terminando num sapato",
-  "thumb_texto": "ON A SHOE"
+  "thumb_texto": "ON A SHOE",
+  "thumb_arquivo": "entrega/thumb-B.jpg"
  },
  {
   "letra": "C",
@@ -21,6 +23,7 @@
   "padrao_titulo": "The <documento> X Wasn't Told About (bíblia D adaptado)",
   "padrao_thumb": "antes-depois",
   "thumb_conceito": "roda-gigante de Pripyat dividida ao meio, 1986 nova x hoje enferrujada, palavra horizontal na divisória",
-  "thumb_texto": "TEMPORARY"
+  "thumb_texto": "TEMPORARY",
+  "thumb_arquivo": "entrega/thumb-C.jpg"
  }
 ]

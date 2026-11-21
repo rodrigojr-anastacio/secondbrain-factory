@@ -176,3 +176,8 @@ Fonte: aviso da Runpod de 16/11/2026, `https://docs.runpod.io/api-reference-v2/m
 - **Render Runpod: bundle com áudio e imagens refeitas (16/11/2026, dossie-es 010).** O bundle copia `public/` na hora de criar: imagem refeita depois fica velha no bundle e nos `refs` (copiar para o bundle e apagar/mover `refs/` antes de renderizar). Render mudo: troque `public/audio/*.wav` do bundle por stubs de 1 s (409 → 100 MB); um upload de 167 MB levou 18 min num Pod e foi abortado (Pod destruído pela trap). Faixas de ~6.300 quadros levam 5–10 min; use `timeout` ≥ 570 ou duas metades. Fonte: `canais/dossie-es/videos/010-cartel-medellin/QA.md`.
 
 - **Runpod, Pod "sem IP/porta" (18/11/2026, dossie-es/012):** dois Pods Community RTX 4090 seguidos ficaram 15 min sem porta SSH (≈ US$ 0,09 cada) e o script saiu com "prova reprovou 2 máquinas". Contorno: `GPUS='"NVIDIA GeForce RTX 3090","NVIDIA RTX A5000",...'` sem a 4090 e rodar de novo (A4500 subiu em 61 s). Reuse `REFS=` (stills já feitos). Render > 10 min por comando: `nohup` + laço de espera em primeiro plano.
+
+## Render em partes sob o `claude -p` (21/11/2026, Chernobyl 006)
+- Comando em primeiro plano passa de 10 min → o harness o move para segundo plano e **mata aos 10 min seguintes**, destruindo o Pod no meio do render. Use script sequencial (`nohup … &` dentro de `run_in_background` com timeout longo) e acompanhe com `until grep … log; do sleep; done` em ≤ 9 min.
+- Pod pode ficar sem IP (15 min) ou travar no upload do bundle (30 min, US$ 0,44): cheque `tail` do log; matar o `ssh` do upload faz o script destruir o Pod e tentar outra máquina.
+- `clip()` do build: chave de cache sem a duração exata (±1 quadro) evita recortar os ~75 clipes de novo (9 min) a cada mexida de pausa.

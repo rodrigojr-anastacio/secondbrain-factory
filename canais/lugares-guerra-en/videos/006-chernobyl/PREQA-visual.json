@@ -1,0 +1,3040 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/lugares-guerra-en/videos/006-chernobyl/preqa/stills",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.6262,
+ "contagem": {
+  "bloqueante": 2,
+  "alto": 11,
+  "medio": 68,
+  "baixo": 51
+ },
+ "bloqueante": true,
+ "problemas": [
+  {
+   "quadro": "Q02",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O texto cortado no topo do documento (cabeçalho em itálico) aparece parcialmente atrás da régua de horas, e a fonte 'Source: IAEA' no canto inferior esquerdo sobrepõe o '01:23:46' do documento. O corte do texto na borda direita é enquadramento normal do zoom. Detalhe pequeno, sem prejuízo à leitura.",
+   "t": 10.2,
+   "arquivo": "306.png"
+  },
+  {
+   "quadro": "Q06",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "A foto da sala de controle mostra uma pessoa de máscara com o rosto cortado no topo, atrás da régua de horas. A legenda 'TODAY · UNIT 4 CONTROL ROOM' está correta, mas o contador mostra '+00:00:00' sobre foto de hoje. Dúvida entre estilo e defeito, já que o contador faz parte do estilo do canal.",
+   "t": 15.633333333333333,
+   "arquivo": "469.png"
+  },
+  {
+   "quadro": "Q13",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A legenda \"Chernobyl nuclear power plant\" fica no meio do quadro sobre a imagem de satélite, com contraste fraco sobre o verde claro. Dá para ler, mas o texto está sobreposto à imagem e à ficha. Pode ser um rótulo intencional do mapa; fica o registro pela dúvida.",
+   "t": 41.06666666666667,
+   "arquivo": "1232.png"
+  },
+  {
+   "quadro": "Q14",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A faixa de crédito no canto inferior esquerdo (\"Order of the Ministry of Motor Transport · Wilson Center...\") corta a última linha do documento. O crédito é estilo intencional, mas aqui encobre texto do documento.",
+   "t": 44.4,
+   "arquivo": "1332.png"
+  },
+  {
+   "quadro": "Q15",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A faixa de crédito inferior cobre parte da última linha do documento (\"хранении в мобилизационном резерве\"). O texto do documento fica parcialmente ilegível.",
+   "t": 44.93333333333333,
+   "arquivo": "1348.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "Os créditos de áudio e filme no canto inferior esquerdo e a onda de áudio à direita ficam bem próximos da legenda. Não há sobreposição real. Registrado apenas por precaução.",
+   "t": 54.233333333333334,
+   "arquivo": "1627.png"
+  },
+  {
+   "quadro": "Q19",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O contador mostra +62:02:23 / MON 28 APR 15:26:03, mas a régua está em Forsmark. O valor pula depois para +67:36:20 em Q20. Possível inconsistência, mas pode ser intencional.",
+   "t": 58.06666666666667,
+   "arquivo": "1742.png"
+  },
+  {
+   "quadro": "Q20",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Contador e régua de horas mostram +67:36:20 / MON 28 APR 21:00 sobre uma foto de 2016 em Pripyat; o contador parece estar parado em relação a Q22–Q23. Conferir se o valor deveria mudar. O contador também cobre o guarda-chuva grafitado, o que é aceitável.",
+   "t": 60.333333333333336,
+   "arquivo": "1810.png"
+  },
+  {
+   "quadro": "Q26",
+   "categoria": "texto_encavalado",
+   "severidade": "bloqueante",
+   "descricao": "Rótulo 'PRIPYAT' sobreposto ao rótulo 'CHERNOBYL NPP': o início de 'CHERNOBYL' fica ilegível (aparece 'OBYL NPP') por baixo de 'PRIPYAT', no topo do círculo.",
+   "t": 81.0,
+   "arquivo": "2430.png"
+  },
+  {
+   "quadro": "Q26",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Mapa esquemático quase todo em cinza-azulado chapado, com a costa/terra pouco legível e sem a paleta definida (terra areia/mar escuro). A faixa mais escura no topo pode ser a terra ou um defeito. Na dúvida entre estilo e defeito, registro como médio.",
+   "t": 81.0,
+   "arquivo": "2430.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Logo 'VOA' (círculo branco) e crédito 'VOA News' sobre o vídeo, no canto inferior direito e no esquerdo. A bíblia diz que não há crédito em tela, e o selo é marca de terceiros na imagem. Pode ser marca d'água do material de origem.",
+   "t": 89.43333333333334,
+   "arquivo": "2683.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Logo 'VOA' (marca d'água de terceiros) no canto inferior direito, com crédito 'VOA News' no canto inferior esquerdo. Possível problema de licença e de consistência com a regra de 'sem crédito em tela'.",
+   "t": 99.73333333333333,
+   "arquivo": "2992.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Documento centralizado com laterais escuras em vinheta, que é o estilo intencional de documento. Porém a legenda de crédito no canto inferior esquerdo sai por cima da borda da página branca, com fundo cinza cobrindo parte da folha. Leve sobreposição, legibilidade ok.",
+   "t": 106.36666666666666,
+   "arquivo": "3191.png"
+  },
+  {
+   "quadro": "Q35",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "A legenda de crédito \"CIA, 'Spot Commentary'...\" tem a caixa de fundo parcialmente sobre a página branca e parcialmente sobre o fundo escuro, com o fundo cortado de forma irregular. Estética fraca, leitura ok.",
+   "t": 109.5,
+   "arquivo": "3285.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Documento com faixa amarelada na borda direita do scan e um quadradinho cinza próximo à assinatura. São artefatos do próprio documento escaneado, nada para corrigir. Registro apenas pela dúvida.",
+   "t": 115.66666666666667,
+   "arquivo": "3470.png"
+  },
+  {
+   "quadro": "Q39",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O cartão mostra \"FRI 25 APR 1986 · 01:06 · ONE DAY EARLY\" e a régua do topo marca o cursor em SAT 26 APR. O contador \"-24:17:40\" do Q40 não bate com a data/hora do cartão, o que sugere valor animado ou data inconsistente. Vale conferir contra a narração.",
+   "t": 123.3,
+   "arquivo": "3699.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O contador \"BEFORE THE BUTTON -24:17:40\" com \"FRI 25 APR · 01:06\" parece inconsistente com a contagem regressiva até 26/04 01:23. A diferença seria de cerca de 24h17min, então a conta parece bater. Mas a foto é \"BEFORE 1986\" com ficha de data da usina, e o rótulo da ficha e o HUD competem no quadro. Dúvida de estilo, só registrar.",
+   "t": 127.9,
+   "arquivo": "3837.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Faixa escura uniforme (RGB 18,17,16) na borda direita, cerca de 8% do quadro, e faixa escura semelhante à esquerda. Provavelmente é o 4:3 de época com laterais desfocadas do próprio filme, estilo intencional. Mas as laterais parecem quase pretas e chapadas em vez de desfocadas, e há uma linha vertical nítida na borda esquerda da imagem. Na dúvida entre estilo e defeito, registro como médio.",
+   "t": 138.66666666666666,
+   "arquivo": "4160.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A palavra 'Event' do documento fica colada atrás do contador 'BEFORE THE BUTTON' no canto superior esquerdo. A régua de horas no topo também corta a primeira linha do documento. É um recorte de zoom no documento, e o HUD cobre parte do texto sem atrapalhar a linha grifada.",
+   "t": 141.1,
+   "arquivo": "4233.png"
+  },
+  {
+   "quadro": "Q47",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "No topo, a régua de horas se sobrepõe às linhas do documento ('vibration characteristics of turbogenerator No. 7...') e o HUD do contador cobre o início das linhas. O texto atrás fica cortado e ilegível, mas é contexto secundário. A linha grifada, que é a principal, está legível.",
+   "t": 149.9,
+   "arquivo": "4497.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A régua de horas no topo passa por cima do texto do documento ('until 12:..., vibration characteristics...'), e o contador cobre o início das linhas. Fica uma sobreposição de texto no topo. A linha grifada continua legível.",
+   "t": 151.9,
+   "arquivo": "4557.png"
+  },
+  {
+   "quadro": "Q49",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O contador 'BEFORE THE BUTTON' no canto superior esquerdo cobre o início das linhas do documento ('07:10', '14:00') e a régua de horas corta o topo da primeira linha. Parte do documento fica ilegível, mas o contador e a régua fazem parte do estilo intencional. Registrado por dúvida.",
+   "t": 154.06666666666666,
+   "arquivo": "4622.png"
+  },
+  {
+   "quadro": "Q50",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Mesma situação do Q49: o contador cobre o início das linhas de horário e a régua corta a primeira linha do documento. Na parte inferior, o texto 'printout of DREG)' fica cortado pela borda e pela fonte mono. Provavelmente é estilo, mas a legibilidade é fraca.",
+   "t": 154.83333333333334,
+   "arquivo": "4645.png"
+  },
+  {
+   "quadro": "Q55",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O contador no canto superior esquerdo se sobrepõe às primeiras linhas do documento ('03:47', '07:10'). Os horários ficam ilegíveis e as linhas, parcialmente cobertas. A primeira linha, 'graphite stack with nitrogen commences', é cortada pela régua. Pode ser estilo, mas atrapalha a leitura.",
+   "t": 172.16666666666666,
+   "arquivo": "5165.png"
+  },
+  {
+   "quadro": "Q56",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O contador cobre os horários '03:47' e '07:10' no canto superior esquerdo, e a régua corta a primeira linha do documento. O resultado é o mesmo do Q55, com leitura prejudicada na área do contador.",
+   "t": 173.16666666666666,
+   "arquivo": "5195.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Esta tela de transição (\"SAT 26 APR 1986 · 00:00 · NEW SHIFT\") não mostra o contador \"SINCE THE SHUTDOWN BUTTON\" que aparece nos quadros vizinhos. Pode ser intencional, por ser um cartão de título. O fundo escuro liso com vinheta parece fazer parte do estilo, e as faixas laterais apontadas pelo sinal automático não são defeito.",
+   "t": 181.03333333333333,
+   "arquivo": "5431.png"
+  },
+  {
+   "quadro": "Q60",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "Contador fixo em +01:23:40 enquanto o documento mostra o evento das 01:23:40. É coerente com o conteúdo, mas o contador está parado ao longo de vários quadros (Q57–Q64), o que pode indicar que não está animando. Conferir se é intencional.",
+   "t": 186.93333333333334,
+   "arquivo": "5608.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "O contador \"+01:23:40\" e a caixa SINCE THE SHUTDOWN BUTTON ficam por cima do texto do documento no canto superior esquerdo, e a régua de horas cobre as primeiras linhas. O crédito \"Source: IAEA, INSAG-7 (1992)\" no canto inferior esquerdo também se sobrepõe ao texto da página e fica difícil de ler. Já a página do documento está em tela cheia, sem margem.",
+   "t": 193.23333333333332,
+   "arquivo": "5797.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "Mesmo problema do Q62: o contador e a caixa \"SINCE THE SHUTDOWN BUTTON\" cobrem o texto do documento no canto superior esquerdo, a régua de horas cobre a primeira linha, e o crédito \"Source: IAEA, INSAG-7 (1992)\" se mistura com o texto da página no canto inferior.",
+   "t": 194.06666666666666,
+   "arquivo": "5822.png"
+  },
+  {
+   "quadro": "Q65",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O texto do documento passa por trás do contador no canto superior esquerdo e da régua de horas. Fica uma palavra parcialmente tapada ('...ctor thermal power') e há texto cortado no topo. O texto 'neutron powe' é cortado pela borda direita. Pode ser enquadramento normal do zoom, mas atrapalha um pouco a leitura.",
+   "t": 205.26666666666668,
+   "arquivo": "6158.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O contador sobre o documento tapa o início da primeira linha ('...ctor thermal power'). O texto do documento é cortado pela borda direita em 'neutron powe'. Pode ser enquadramento do zoom.",
+   "t": 207.33333333333334,
+   "arquivo": "6220.png"
+  },
+  {
+   "quadro": "Q67",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Os sinais automáticos indicam faixa uniforme na borda inferior (31%) e na direita (8%) com cor RGB(12,15,18). Visualmente é o fundo escuro com vinheta de um cartão de número ('30 MW'), que é intencional, e não uma faixa defeituosa. Registro apenas pela dúvida.",
+   "t": 208.76666666666668,
+   "arquivo": "6263.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O contador cobre o início da linha 'reactor thermal power'. A borda direita corta 'neutron power'. Pode ser enquadramento do zoom.",
+   "t": 212.0,
+   "arquivo": "6360.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O contador tapa o início da primeira linha do documento e a borda direita corta 'neutron powe'. Pode ser enquadramento do zoom.",
+   "t": 213.03333333333333,
+   "arquivo": "6391.png"
+  },
+  {
+   "quadro": "Q70",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "A régua de horas no topo e o contador à esquerda ficam por cima do texto do documento (ex.: 'tory limitations', 'should have applied'), que fica misturado e ilegível nessas áreas. O crédito 'Source: IAEA, INSAG-7 (1992)' no canto inferior esquerdo se sobrepõe à linha do documento 'at 01:23:04 as stated...'.",
+   "t": 215.73333333333332,
+   "arquivo": "6472.png"
+  },
+  {
+   "quadro": "Q71",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "A régua e o contador ficam sobre as linhas do topo do documento, que ficam ilegíveis ('should have applied' atrás do contador). O crédito 'Source: IAEA...' se sobrepõe ao texto do documento embaixo.",
+   "t": 216.73333333333332,
+   "arquivo": "6502.png"
+  },
+  {
+   "quadro": "Q72",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "O contador '+00:20:40' está sobre o texto do documento ('...ol power control'), que aparece atrás dele e polui a leitura. O crédito inferior se sobrepõe a 'al blocked (01:23:04...'. O texto do documento é cortado nas bordas por causa do zoom.",
+   "t": 220.1,
+   "arquivo": "6603.png"
+  },
+  {
+   "quadro": "Q73",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O contador no canto superior esquerdo mostra +00:20:40 / SAT 26 APR 01:03, mas o documento em tela trata de 00:28:00 e da queda de potência. O mesmo valor continua no Q74 e no Q75, e no Q76 muda para +00:01:10 / 01:22:30. O contador parece estar congelado ou fora de sincronia com a cena.",
+   "t": 221.36666666666667,
+   "arquivo": "6641.png"
+  },
+  {
+   "quadro": "Q74",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "O contador continua em +00:20:40, mesmo valor do Q73 e do Q75. Se o clipe de 1982 é material de ilustração, o HUD não acompanha a cena, mas o congelamento pode ser intencional.",
+   "t": 224.16666666666666,
+   "arquivo": "6725.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A régua de horas e o contador do canto superior esquerdo ficam sobre o texto do documento, que está com zoom e rolado até o topo. O texto atrás do contador fica ilegível, e o crédito 'Source: IAEA' no canto inferior esquerdo se sobrepõe a 'button was pressed'. Pode ser o estilo intencional do HUD, mas atrapalha a leitura do documento.",
+   "t": 237.43333333333334,
+   "arquivo": "7123.png"
+  },
+  {
+   "quadro": "Q79",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Mesma sobreposição do Q78: a régua e o contador cobrem as primeiras linhas do documento, e o crédito inferior esquerdo se sobrepõe ao texto 'button was pressed'. Há dúvida se é estilo ou defeito.",
+   "t": 238.5,
+   "arquivo": "7155.png"
+  },
+  {
+   "quadro": "Q86",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A legenda de crédito 'Source: IAEA, INSAG-7 (1992)' no canto inferior esquerdo se sobrepõe ao horário '01:23:46' do documento, e o contador no canto superior esquerdo cobre '01:23:10' e '01:23:30'. O estilo prevê esses elementos sobre documentos, mas a sobreposição prejudica a leitura de alguns horários.",
+   "t": 266.53333333333336,
+   "arquivo": "7996.png"
+  },
+  {
+   "quadro": "Q86",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O marca-texto amarelo cobre só 'EPS-5 button was pre' e corta a palavra 'pressed'. Provavelmente é animação de revelação, então não chega a ser defeito.",
+   "t": 266.53333333333336,
+   "arquivo": "7996.png"
+  },
+  {
+   "quadro": "Q87",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A legenda de crédito 'Source: IAEA...' se sobrepõe ao horário '01:23:46' no canto inferior esquerdo, e o contador cobre parte de '01:23:10' e '01:23:30'. A legibilidade dos horários cai.",
+   "t": 267.43333333333334,
+   "arquivo": "8023.png"
+  },
+  {
+   "quadro": "Q90",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A foto da sala de controle mostra um jaleco branco sem cabeça, cortado no topo pela régua de horas. O rosto/máscara fica escondido atrás da régua. Pode ser enquadramento normal; registro por dúvida.",
+   "t": 276.4,
+   "arquivo": "8292.png"
+  },
+  {
+   "quadro": "Q91",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A legenda de crédito 'Source: IAEA, INSAG-7 (1992)' no canto inferior esquerdo se sobrepõe ao texto do documento ('demonstrated that...'), o que prejudica a leitura. O texto no topo do documento também é cortado pela régua.",
+   "t": 282.06666666666666,
+   "arquivo": "8462.png"
+  },
+  {
+   "quadro": "Q92",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O crédito 'Source: IAEA, INSAG-7 (1992)' fica por cima da linha 'demonstrated that there was also...' do documento e dificulta a leitura dessa linha.",
+   "t": 283.76666666666665,
+   "arquivo": "8513.png"
+  },
+  {
+   "quadro": "Q93",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O crédito 'Source: IAEA...' no canto inferior esquerdo se sobrepõe ao texto do documento ('Ps Nos 13, 14, 23 and 24'). O efeito é pequeno, pois o fundo é um documento em zoom.",
+   "t": 286.46666666666664,
+   "arquivo": "8594.png"
+  },
+  {
+   "quadro": "Q94",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O crédito 'Source: IAEA...' fica sobre o texto do documento ('Ps Nos 13, 14...') no canto inferior esquerdo. Pequena perda de legibilidade.",
+   "t": 287.43333333333334,
+   "arquivo": "8623.png"
+  },
+  {
+   "quadro": "Q96",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O cartão de impressão mostra 'NO VOLTAGE = 48 V', que é contraditório (sem tensão não pode ser 48 V). Pode ser erro de transcrição da tabela INSAG-7. O contador está em +00:00:09, coerente com 01:23:49. Verificar o texto-fonte.",
+   "t": 298.23333333333335,
+   "arquivo": "8947.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A régua de horas e a caixa do contador cobrem parte do texto do documento ('Emergency protection signal'). O 'E' inicial e o ':23' ficam cortados ao lado da caixa. Provavelmente é uma sobreposição do estilo, mas atrapalha um pouco a leitura.",
+   "t": 303.76666666666665,
+   "arquivo": "9113.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A caixa do contador cobre o início da linha 'Emergency protection signal'. Sobra um ':23' solto na borda esquerda.",
+   "t": 304.8333333333333,
+   "arquivo": "9145.png"
+  },
+  {
+   "quadro": "Q101",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "A linha de crédito 'Source: IAEA, INSAG-7 (1992)' no canto inferior esquerdo fica por cima do texto do documento ('ce the nature of the damage...'). Isso prejudica um pouco a leitura nessa linha.",
+   "t": 313.56666666666666,
+   "arquivo": "9407.png"
+  },
+  {
+   "quadro": "Q102",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O crédito 'Source: IAEA...' no canto inferior esquerdo se sobrepõe à linha de texto do documento ('e the nature of the damage'), dificultando a leitura.",
+   "t": 314.3666666666667,
+   "arquivo": "9431.png"
+  },
+  {
+   "quadro": "Q103",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Faixa escura uniforme (~8%) na borda direita e faixa preta na esquerda do filme 4:3. O contexto diz que o 4:3 de época tem laterais desfocadas do próprio filme, então provavelmente é intencional. Aqui as laterais parecem escuras e quase chapadas, e não desfocadas. Registrado por dúvida entre estilo e defeito.",
+   "t": 316.2,
+   "arquivo": "9486.png"
+  },
+  {
+   "quadro": "Q105",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Faixa escura na borda direita (RGB 31,28,25) e barra preta na borda esquerda ao lado do filme 4:3. Parece o pillarbox intencional do filme de época, mas as laterais estão escuras e lisas, sem o desfoque descrito no estilo do canal. Possível dúvida entre estilo e defeito.",
+   "t": 324.06666666666666,
+   "arquivo": "9722.png"
+  },
+  {
+   "quadro": "Q106",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "A tela de título mostra \"01:28\" em amarelo escurecido, provavelmente em fade de entrada. Se não for transição, o contraste do número está fraco.",
+   "t": 328.26666666666665,
+   "arquivo": "9848.png"
+  },
+  {
+   "quadro": "Q110",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O contador \"SINCE THE SHUTDOWN BUTTON\" fica sobre o título da seção \"II-2.3.3. Oscillography\" e cobre parte do texto do documento. Os grifos amarelos também têm blocos desalinhados.",
+   "t": 342.3,
+   "arquivo": "10269.png"
+  },
+  {
+   "quadro": "Q111",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O contador no canto superior esquerdo cobre o título \"II-2.3.3 Oscillography\" do documento. Os grifos amarelos aparecem em blocos irregulares e desalinhados.",
+   "t": 343.46666666666664,
+   "arquivo": "10304.png"
+  },
+  {
+   "quadro": "Q112",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "Os rótulos \"PRIPYAT\" e \"CHERNOBYL NPP\" estão sobrepostos no topo do mapa; \"CHERNOBYL NPP\" fica quase ilegível atrás de \"PRIPYAT\" e do círculo amarelo.",
+   "t": 346.1333333333333,
+   "arquivo": "10384.png"
+  },
+  {
+   "quadro": "Q115",
+   "categoria": "moldura",
+   "severidade": "baixo",
+   "descricao": "Linha preta vertical dura na borda esquerda do clipe 4:3. O lado direito fica cinza chapado, com pouco desfoque. Pode ser estilo, mas há dúvida.",
+   "t": 371.93333333333334,
+   "arquivo": "11158.png"
+  },
+  {
+   "quadro": "Q116",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Cartão de título '05:00' em fundo escuro, com grande área vazia no terço inferior. Parece intencional, só um comentário de composição.",
+   "t": 377.03333333333336,
+   "arquivo": "11311.png"
+  },
+  {
+   "quadro": "Q117",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "Cartão '250 FIREMEN ON SITE · 04:00' aparece com o relógio da cena em 06:00 (+04:36:20). O rótulo mostra 04:00 enquanto o contador marca 06:00. Parece inconsistência de dados.",
+   "t": 381.96666666666664,
+   "arquivo": "11459.png"
+  },
+  {
+   "quadro": "Q118",
+   "categoria": "moldura",
+   "severidade": "baixo",
+   "descricao": "Faixa preta vertical grossa na borda esquerda do filme 4:3 e laterais escuras à direita. Pode ser o enquadramento 4:3 intencional com laterais desfocadas, mas a linha preta dura à esquerda do clipe parece artefato do arquivo.",
+   "t": 385.6,
+   "arquivo": "11568.png"
+  },
+  {
+   "quadro": "Q120",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "Cartão '28 WITHIN FOUR MONTHS · UNSCEAR' no canto superior direito passa por cima do helicóptero e cobre a ponta do rotor. A caixa também fica colada na borda direita.",
+   "t": 397.0,
+   "arquivo": "11910.png"
+  },
+  {
+   "quadro": "Q120",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "A foto tem legenda '13 JUN 1986', mas o contador marca 'SAT 26 APR · ~10:00' (+08:36:20). A data da imagem destoa da linha do tempo. Pode ser intencional como ilustração; vale conferir.",
+   "t": 397.0,
+   "arquivo": "11910.png"
+  },
+  {
+   "quadro": "Q122",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O documento escaneado fica estreito no meio de um fundo escuro liso, com faixas pretas largas nas laterais (~8% à direita). Pode ser estilo intencional de documento em página inteira (0,5 s) antes do zoom. Se esse enquadramento durar mais que a abertura, fica parecendo vazio.",
+   "t": 407.56666666666666,
+   "arquivo": "12227.png"
+  },
+  {
+   "quadro": "Q122",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Há um quadradinho cinza perto de 'ДИРЕКТОР ЧАЭС' no documento. Parece parte do escaneamento (carimbo ou mancha), não glifo tofu; é só uma dúvida.",
+   "t": 407.56666666666666,
+   "arquivo": "12227.png"
+  },
+  {
+   "quadro": "Q122",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A faixa amarela da borda do papel, à direita do documento, está bem saturada e chapada. Pode ser o envelhecimento real do papel; registrado só por precaução.",
+   "t": 407.56666666666666,
+   "arquivo": "12227.png"
+  },
+  {
+   "quadro": "Q125",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O número '1 · 1 · 34' com 'DEAD · MISSING · UNDER OBSERVATION' parece o estado final do contador. A leitura dos números separados por pontos é pouco clara. Os valores batem com o documento (1 morto, 1 desaparecido, 34 em observação). A faixa escura de 33% na base é só fundo liso do cartão de número, sem defeito.",
+   "t": 415.5,
+   "arquivo": "12465.png"
+  },
+  {
+   "quadro": "Q129",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Quadrado cinza chapado (~40x35 px) solto sobre o documento, logo abaixo do trecho grifado à esquerda, parecendo placeholder ou elemento de UI quebrado. Não faz parte do documento.",
+   "t": 426.43333333333334,
+   "arquivo": "12793.png"
+  },
+  {
+   "quadro": "Q130",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O mesmo quadrado cinza chapado aparece abaixo do grifo amarelo, à esquerda, e persiste no quadro seguinte da animação. Parece placeholder ou elemento de UI quebrado.",
+   "t": 427.8666666666667,
+   "arquivo": "12836.png"
+  },
+  {
+   "quadro": "Q135",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "Há uma emenda vertical visível no centro da foto, de dupla página, que parece um corte de livro escaneado. Provavelmente é do material original, então é só um detalhe estético.",
+   "t": 442.4,
+   "arquivo": "13272.png"
+  },
+  {
+   "quadro": "Q136",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "O texto do documento é cortado na borda inferior. O crédito 'Order of the Ministry of Motor Transport · Wilson Center…' fica sobreposto à linha do documento (\"к эвакуации населения…\"), prejudicando a leitura dessa linha.",
+   "t": 445.93333333333334,
+   "arquivo": "13378.png"
+  },
+  {
+   "quadro": "Q137",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O crédito no canto inferior esquerdo ('Order of the Ministry of Motor Transport · Wilson Center...') fica por cima da última linha do documento e atrapalha a leitura dela. Pode ser estilo intencional do crédito, mas a bíblia diz que não há crédito em tela, então vale conferir.",
+   "t": 446.9,
+   "arquivo": "13407.png"
+  },
+  {
+   "quadro": "Q142",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Filme 4:3 com laterais desfocadas escuras e uma faixa vertical escura bem marcada na borda direita (cerca de 8%). É o formato 4:3 intencional descrito no contexto do canal, mas a borda esquerda do filme parece ter linha preta dura. Conferir.",
+   "t": 459.4,
+   "arquivo": "13782.png"
+  },
+  {
+   "quadro": "Q143",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Cartão de título com fundo escuro liso e o 20:00 em amarelo mais apagado do que no resto do vídeo. Os sinais automáticos de faixa vêm do fundo escuro com vinheta, que é intencional. Sem defeito claro.",
+   "t": 462.23333333333335,
+   "arquivo": "13867.png"
+  },
+  {
+   "quadro": "Q146",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O sinal automático acusou faixa escura uniforme na base (31%) e na borda direita (8%). Visualmente é o fundo escuro com vinheta de um cartão de número, e o estilo parece intencional. Registro por dúvida entre estilo e defeito, sem bloqueio.",
+   "t": 467.8666666666667,
+   "arquivo": "14036.png"
+  },
+  {
+   "quadro": "Q152",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O crédito 'Photo: Yuri Yevsyukov...' fica no canto inferior esquerdo, sobre a foto, e a ficha 'PRIPYAT · BEFORE 1986' está logo acima dele. Os dois ficam bem juntos e a leitura é apertada. Além disso, a bíblia diz que crédito de imagem vai só na descrição, embora o contexto liste o crédito em mono no canto como estilo intencional.",
+   "t": 488.3333333333333,
+   "arquivo": "14650.png"
+  },
+  {
+   "quadro": "Q155",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A faixa de crédito do documento no canto inferior esquerdo fica colada na borda inferior e cobre parte da assinatura e do texto do documento. Pode ser estilo intencional.",
+   "t": 498.3333333333333,
+   "arquivo": "14950.png"
+  },
+  {
+   "quadro": "Q157",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Contador mostra +33:36:20, igual ao de Q158-Q160, e a régua está em ~11:00. Os quadros anteriores mostravam +26:36:20 às 04:00. A diferença de 7 h bate com a de 04:00 para ~11:00, então o valor provavelmente está certo. Fica a dúvida porque o contador não tem nenhum segundo de variação entre quadros, o que pode indicar que está parado.",
+   "t": 502.1666666666667,
+   "arquivo": "15065.png"
+  },
+  {
+   "quadro": "Q161",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Filme 4:3 com laterais escuras/desfocadas (faixa à direita ~8%). Estilo intencional descrito no contexto; só um registro de baixa prioridade.",
+   "t": 552.4,
+   "arquivo": "16572.png"
+  },
+  {
+   "quadro": "Q166",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Imagem muito borrada e com pouca legibilidade (madeira com sombra), movimento forte. Faixa escura na direita faz parte do 4:3 intencional. Dúvida entre estilo e defeito.",
+   "t": 571.5666666666667,
+   "arquivo": "17147.png"
+  },
+  {
+   "quadro": "Q171",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A caixa amarela '45,000 → 5,000' (canto superior direito) e o contador '+55:36:20' (esquerda) cobrem trechos do documento, e a legenda mono inferior sobrepõe a última linha ('crater of the reactor'). O documento está em zoom intencional e a linha grifada continua legível, então pode ser estilo; fica como dúvida.",
+   "t": 587.5,
+   "arquivo": "17625.png"
+  },
+  {
+   "quadro": "Q172",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Mesma situação do Q171: a caixa '45,000 → 5,000' e o contador cobrem texto do documento, e o crédito inferior sobrepõe a última linha. A leitura da linha grifada não é afetada, então a dúvida é entre estilo e defeito.",
+   "t": 588.1,
+   "arquivo": "17643.png"
+  },
+  {
+   "quadro": "Q175",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O crédito 'UPI Archives, 28 April 1986' no canto inferior esquerdo fica sobre o início do texto da matéria ('MOSCOW, April 28, 1986'), e o texto da página é cortado pela borda de baixo. Provavelmente enquadramento de zoom em documento.",
+   "t": 601.5666666666667,
+   "arquivo": "18047.png"
+  },
+  {
+   "quadro": "Q177",
+   "categoria": "legenda",
+   "severidade": "baixo",
+   "descricao": "O texto do jornal UPI está cortado na borda direita, e o HUD fica por cima da primeira linha, no topo. É documento em zoom, estilo intencional, mas a leitura é ruim.",
+   "t": 608.6,
+   "arquivo": "18258.png"
+  },
+  {
+   "quadro": "Q184",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "A foto é de 1 de maio de 1986 (RIVM, Holanda), mas a régua de horas e o contador continuam em MON 28 APR, +55:36:20, com o marcador em FORSMARK. Pode ser intencional (flashback), mas a data da ficha não bate com o HUD.",
+   "t": 638.0,
+   "arquivo": "19140.png"
+  },
+  {
+   "quadro": "Q184",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A faixa amarela da régua, o HUD e a ficha ficam sobre foto clara. A ficha 'RIVM' fica colada ao crédito e a legibilidade é fraca no canto inferior esquerdo.",
+   "t": 638.0,
+   "arquivo": "19140.png"
+  },
+  {
+   "quadro": "Q186",
+   "categoria": "moldura",
+   "severidade": "baixo",
+   "descricao": "Faixa preta/escura na borda direita (~8%) e lateral esquerda escura. Provável enquadramento 4:3 de época com laterais escurecidas, estilo intencional. Registrado só por precaução.",
+   "t": 645.1666666666666,
+   "arquivo": "19355.png"
+  },
+  {
+   "quadro": "Q188",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A régua de horas e o contador (canto superior esquerdo) ficam sobre o texto do jornal. A primeira linha do artigo fica atrás da régua e o contador sobrepõe parte do texto. O crédito 'UPI Archives' sobrepõe a última linha. O documento é lido na linha grifada, então a legibilidade só cai um pouco.",
+   "t": 652.8333333333334,
+   "arquivo": "19585.png"
+  },
+  {
+   "quadro": "Q190",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Há faixa lateral chapada e escura na borda direita (~8%, RGB 36,33,23). Pelo contexto, é o vídeo de época em 4:3 com laterais desfocadas, que é estilo intencional. Mas aqui a faixa direita parece lisa e chapada, não desfocada, e o lado esquerdo tem um degradê escuro diferente. Vale confirmar.",
+   "t": 657.3666666666667,
+   "arquivo": "19721.png"
+  },
+  {
+   "quadro": "Q191",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Faixa cinza chapada na borda direita (~8%, RGB 32,32,32), com cara de bloco sólido e não de lateral desfocada. O lado esquerdo tem um degradê diferente. Pode ser o 4:3 de época; confirmar.",
+   "t": 659.9,
+   "arquivo": "19797.png"
+  },
+  {
+   "quadro": "Q192",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O contador no canto superior esquerdo continua em +55:36:20 como nos quadros anteriores, e a régua marca Forsmark, mas a cena já é a do mapa com Chernobyl. Parece um contador congelado, não animado. Se for intencional, pode ficar assim.",
+   "t": 664.9666666666667,
+   "arquivo": "19949.png"
+  },
+  {
+   "quadro": "Q197",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A barra de crédito no rodapé (Politburo session... National Security Archive) é larga, passa por cima da base da página do documento e fica com fundo cinza diferente do padrão dos outros créditos. Observação: a bíblia diz 'sem crédito em tela', mas o contexto do canal descreve o crédito em mono no canto como intencional.",
+   "t": 684.3333333333334,
+   "arquivo": "20530.png"
+  },
+  {
+   "quadro": "Q198",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Zoom do documento: o início da linha ('Dolgikh V. I.') e o texto no topo ('...Working copy') ficam cortados pela borda e o contador no canto sobrepõe o texto 'for...about the accident' e 'Nuclear Power Station]', atrapalhando a leitura. A legenda de crédito no rodapé também se sobrepõe ao texto do documento.",
+   "t": 690.4333333333333,
+   "arquivo": "20713.png"
+  },
+  {
+   "quadro": "Q199",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Mesmo caso do Q198: o contador no canto superior esquerdo cobre parte do texto do documento ('Nuclear Power Station]'), e a barra de crédito inferior se sobrepõe às linhas finais do documento ('Out of the 45,000 residents...').",
+   "t": 692.7333333333333,
+   "arquivo": "20782.png"
+  },
+  {
+   "quadro": "Q200",
+   "categoria": "texto_cortado",
+   "severidade": "alto",
+   "descricao": "No primeiro cartão, o texto '01:23:40' é mais largo que a caixa e encosta/ultrapassa as bordas esquerda e direita do cartão, ficando apertado e quase vazando.",
+   "t": 700.7666666666667,
+   "arquivo": "21023.png"
+  },
+  {
+   "quadro": "Q202",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "No topo, o texto do documento passa por trás da régua de horas e do contador (\"population.\", \"Gorbachev M.S.\" parcialmente cobertos pelo contador). Pode ser rolagem do documento em zoom, mas o texto cortado fica ilegível sob o HUD.",
+   "t": 713.9666666666667,
+   "arquivo": "21419.png"
+  },
+  {
+   "quadro": "Q203",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O contador cobre o início de \"Gorbachev M.S.\" e o texto do topo corta sob a régua. O marca-texto da segunda linha (\"delay.\") invade a margem esquerda e fica parcialmente atrás do contador.",
+   "t": 715.2,
+   "arquivo": "21456.png"
+  },
+  {
+   "quadro": "Q204",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A linha de cima do documento (\"...achev E.K. People were relocated...\") passa por baixo da régua, e o nome \"Yakovlev A.N.\" fica coberto pelo contador. O texto fica cortado e ilegível no topo.",
+   "t": 720.0666666666667,
+   "arquivo": "21602.png"
+  },
+  {
+   "quadro": "Q205",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O contador cobre o início de \"Yakovlev A.N.\" e as linhas do topo sobem por trás da régua, sem leitura possível.",
+   "t": 722.0,
+   "arquivo": "21660.png"
+  },
+  {
+   "quadro": "Q206",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O vídeo de época em 4:3 tem listras verticais fortes e distorção do arquivo (artefato de fita). Provavelmente é a qualidade do material original. As laterais escuras são o estilo intencional, não defeito.",
+   "t": 724.0,
+   "arquivo": "21720.png"
+  },
+  {
+   "quadro": "Q207",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "As linhas do topo do documento (\"Ligachev E.K....\", \"Yakovlev A.N.\") ficam sob a régua e o contador, com texto cortado e sobreposto.",
+   "t": 728.3666666666667,
+   "arquivo": "21851.png"
+  },
+  {
+   "quadro": "Q208",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O contador cobre \"Yakovlev A.N.\" e as primeiras linhas do documento se sobrepõem à régua de horas. A leitura fica prejudicada.",
+   "t": 729.8,
+   "arquivo": "21894.png"
+  },
+  {
+   "quadro": "Q215",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "Documento (UPI) em zoom: texto cortado pelas bordas direita, superior e inferior, e a primeira linha fica atrás da régua de horas no topo (\"White House spokesman Larry Speakes...\"). Provavelmente é o enquadramento intencional do DocGrifo, mas a linha sobreposta à régua prejudica a leitura. Em dúvida entre estilo e defeito.",
+   "t": 766.6,
+   "arquivo": "22998.png"
+  },
+  {
+   "quadro": "Q215",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A palavra \"ADVERTISEMENT\" da página original do jornal aparece no meio do documento. Vem da captura, mas dá aspecto de página web crua.",
+   "t": 766.6,
+   "arquivo": "22998.png"
+  },
+  {
+   "quadro": "Q216",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "Mesmo documento UPI: a primeira linha passa por trás da régua de horas e o texto é cortado nas bordas direita e inferior. Provável enquadramento do zoom, mas a linha sob a régua atrapalha. Em dúvida entre estilo e defeito.",
+   "t": 767.2666666666667,
+   "arquivo": "23018.png"
+  },
+  {
+   "quadro": "Q220",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "No canto superior esquerdo, o contador 'SINCE THE SHUTDOWN BUTTON' cobre a bandeira e parte do cabeçalho 'Office of the Historian' e o início da linha 'FOREIGN RELATIONS OF THE UNITED STATES'. O texto do documento fica parcialmente tapado. O texto do documento também sai pela borda direita, mas isso é zoom intencional.",
+   "t": 780.6,
+   "arquivo": "23418.png"
+  },
+  {
+   "quadro": "Q221",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O contador cobre a bandeira e o início do cabeçalho do documento ('Office of the Historian', 'FOREIGN RELATIONS...'). Há sobreposição de texto no canto superior esquerdo, com leitura prejudicada.",
+   "t": 781.7333333333333,
+   "arquivo": "23452.png"
+  },
+  {
+   "quadro": "Q222",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O crédito mono no canto inferior esquerdo fica sobre o texto do documento ('spread radioactive fallout'), com legibilidade fraca. O contador cobre o início do título cortado. Ambos são elementos de estilo intencional, mas a sobreposição é incômoda.",
+   "t": 786.9333333333333,
+   "arquivo": "23608.png"
+  },
+  {
+   "quadro": "Q223",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O crédito no canto inferior esquerdo se sobrepõe à linha 'spread radioactive fallout' do documento, e o contador cobre parte do título. Legibilidade fraca, mas é estilo do canal.",
+   "t": 789.0,
+   "arquivo": "23670.png"
+  },
+  {
+   "quadro": "Q224",
+   "categoria": "tela_preta",
+   "severidade": "baixo",
+   "descricao": "Cartão de título com fundo escuro quase preto (RGB ~12,15,18). Os sinais automáticos de faixa uniforme nas bordas vêm do degradê radial de fundo intencional. Provavelmente não é defeito; registrado só por dúvida entre estilo e defeito.",
+   "t": 792.7666666666667,
+   "arquivo": "23783.png"
+  },
+  {
+   "quadro": "Q227",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O rótulo \"Chernobyl nuclear power plant\" aparece com contorno borrado/duplo, parece estar em transição. A legibilidade é um pouco fraca sobre a imagem de satélite, e o texto está desalinhado em relação ao Q226.",
+   "t": 814.4333333333333,
+   "arquivo": "24433.png"
+  },
+  {
+   "quadro": "Q232",
+   "categoria": "texto_encavalado",
+   "severidade": "bloqueante",
+   "descricao": "Os rótulos \"PRIPYAT\" e \"CHERNOBYL NPP\" estão sobrepostos perto do círculo da zona de 30 km. \"CHERNOBYL NPP\" fica ilegível, só aparece \"...OBYL NPP\" atrás de \"PRIPYAT\".",
+   "t": 832.9666666666667,
+   "arquivo": "24989.png"
+  },
+  {
+   "quadro": "Q232",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O mapa quase não tem terra visível: só um recorte pequeno de costa no topo, e o resto é um fundo cinza-azulado chapado. Há dúvida se é estilo do Mapa2D ou se faltou terra/mar. A cor também não segue o estilo descrito (areia #D9CBA8 e mar #0E2A3B).",
+   "t": 832.9666666666667,
+   "arquivo": "24989.png"
+  },
+  {
+   "quadro": "Q238",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A etiqueta de crédito 'Law of Ukraine No. 791a-XII, 27 Feb 1991' no canto inferior esquerdo se sobrepõe ao texto do documento '(обов'язкового)'. A leitura da linha do documento fica prejudicada. O crédito mono no canto é estilo do canal, então o defeito é só a colisão com o texto.",
+   "t": 859.1,
+   "arquivo": "25773.png"
+  },
+  {
+   "quadro": "Q239",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A etiqueta de crédito 'Law of Ukraine...' no canto inferior esquerdo se sobrepõe a '(обов'язкового)' do documento, dificultando a leitura dessa linha.",
+   "t": 859.7,
+   "arquivo": "25791.png"
+  },
+  {
+   "quadro": "Q240",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Dois marca-textos amarelos se sobrepõem em 'радіаційно небезпечних земель', formando uma área mais escura onde se cruzam. O grifo também cobre parte da linha 'У зонах відчуження'. Pode ser transição do grifo animado, então é só detalhe estético.",
+   "t": 861.7,
+   "arquivo": "25851.png"
+  },
+  {
+   "quadro": "Q242",
+   "categoria": "moldura",
+   "severidade": "baixo",
+   "descricao": "Faixas escuras nas laterais do filme 4:3, sobretudo na direita (cerca de 7%, quase preto). Parece o pillarbox do material de arquivo, mas aqui estão escuras e chapadas, sem as laterais desfocadas que o estilo prevê. Vale conferir se é intencional.",
+   "t": 866.4333333333333,
+   "arquivo": "25993.png"
+  },
+  {
+   "quadro": "Q243",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "O texto do documento ucraniano está cortado nas bordas esquerda e direita (\"одер…\", \"…дукції\", \"…ань\"), e a linha inferior \"чорнобильської катастрофи\" também está cortada pela borda de baixo. A chapa Law of Ukraine cobre parte do texto do rodapé. Pode ser zoom intencional do DocGrifo, por isso a gravidade é média.",
+   "t": 871.5,
+   "arquivo": "26145.png"
+  },
+  {
+   "quadro": "Q244",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "É o mesmo zoom do documento do Q243, com texto cortado nas laterais e embaixo. A legenda da fonte cobre a linha inferior. Provavelmente é movimento do DocGrifo, mas a leitura fica prejudicada.",
+   "t": 872.8,
+   "arquivo": "26184.png"
+  },
+  {
+   "quadro": "Q254",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O crédito 'Photo: Eamonn Butler (CC BY 2.0)' fica no canto inferior esquerdo, colado à ficha '2016 · CHERNOBYL NPP' e sobre a placa e o veículo. Fica pouco legível, mas a atribuição CC BY é exigida, então é só detalhe de legibilidade.",
+   "t": 913.4,
+   "arquivo": "27402.png"
+  },
+  {
+   "quadro": "Q258",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Crédito 'NASA (public domain)' aparece na tela no canto inferior esquerdo. A bíblia diz que crédito vai só na descrição, embora o contexto cite crédito em mono pequeno como estilo. Dúvida entre estilo e defeito.",
+   "t": 932.0666666666667,
+   "arquivo": "27962.png"
+  },
+  {
+   "quadro": "Q259",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A ficha '1986 · CHERNOBYL NPP UNIT 4' fica colada logo abaixo do rótulo '26 APR 1986 · ~01:24' e quase encosta nele. As linhas de crédito 'Film: Ukrkinokhronika...' e 'Photo: hnapel (CC0)' ficam apertadas embaixo. Isso lota o rodapé. Além disso, há créditos em tela, que a bíblia manda deixar só na descrição.",
+   "t": 937.6,
+   "arquivo": "28128.png"
+  },
+  {
+   "quadro": "Q259",
+   "categoria": "moldura",
+   "severidade": "baixo",
+   "descricao": "A foto de 2025 (painel direito) tem faixas pretas em cima e embaixo, com letterbox dentro da moldura. A imagem não preenche o painel, ao contrário do painel esquerdo. Pode ser estilo do layout, mas parece falha de enquadramento.",
+   "t": 937.6,
+   "arquivo": "28128.png"
+  },
+  {
+   "quadro": "Q260",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A marca d'água/logo 'VOA' fica bem visível no canto inferior direito. É material de TV de terceiros (VOA News), contra a política de material da bíblia. Também há o crédito 'VOA News' em tela.",
+   "t": 944.0333333333333,
+   "arquivo": "28321.png"
+  },
+  {
+   "quadro": "Q264",
+   "categoria": "moldura",
+   "severidade": "baixo",
+   "descricao": "Pillarbox escuro nas laterais (esquerda e direita) do filme 4:3. É o estilo previsto de 4:3 com laterais, mas aqui as laterais estão pretas e lisas, sem o desfoque do próprio filme descrito no contexto. Dúvida entre estilo e defeito.",
+   "t": 954.5333333333333,
+   "arquivo": "28636.png"
+  },
+  {
+   "quadro": "Q264",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Erro de digitação no crédito: 'Ukrkinokhronika' aparece como 'Ukrkinokhronika' em outros quadros, mas aqui está escrito 'Ukrkinokhronika' com variação ('Ukrkinokhronika' vs 'Ukrkinokhronika'). A grafia difere entre quadros, o que deve ser conferido.",
+   "t": 954.5333333333333,
+   "arquivo": "28636.png"
+  },
+  {
+   "quadro": "Q265",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Faixa preta na borda esquerda (~7%) e área escura grande à direita, quase preta. Pode ser o 4:3 de época sem as laterais desfocadas, que a bíblia descreve como estilo. Aqui as laterais estão pretas e não desfocadas, então fica a dúvida. A cena também está muito escura.",
+   "t": 957.6666666666666,
+   "arquivo": "28730.png"
+  },
+  {
+   "quadro": "Q266",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O crédito 'Photo: hnapel (CC0)' aparece em tela no canto inferior esquerdo. A diretriz de 12/11 manda créditos só na descrição. Esse crédito tem a mesma forma dos demais, que a bíblia trata como estilo. Vale confirmar.",
+   "t": 962.1666666666666,
+   "arquivo": "28865.png"
+  },
+  {
+   "quadro": "Q267",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O grifo amarelo do documento está em dois retângulos sobrepostos, com faixa mais escura onde se cruzam, e cobre também parte da linha seguinte. A leitura segue possível. O efeito parece vir de uma animação do marca-texto em andamento.",
+   "t": 966.0,
+   "arquivo": "28980.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 5.9,
+   "nome": "177.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 24% do quadro, cor RGB(13,14,16)",
+    "faixa uniforme na borda direita: 19% do quadro, cor RGB(13,14,16)"
+   ]
+  },
+  {
+   "id": "Q02",
+   "t": 10.2,
+   "nome": "306.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 10.833333333333334,
+   "nome": "325.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 12.633333333333333,
+   "nome": "379.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 13.233333333333333,
+   "nome": "397.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 15.633333333333333,
+   "nome": "469.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 19.566666666666666,
+   "nome": "587.png",
+   "sinais": [
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q08",
+   "t": 22.566666666666666,
+   "nome": "677.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(30,26,25)"
+   ]
+  },
+  {
+   "id": "Q09",
+   "t": 28.166666666666668,
+   "nome": "845.png",
+   "sinais": [
+    "faixa uniforme na borda base: 27% do quadro, cor RGB(46,48,51)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(44,46,48)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(44,46,49)"
+   ]
+  },
+  {
+   "id": "Q10",
+   "t": 31.566666666666666,
+   "nome": "947.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 34.233333333333334,
+   "nome": "1027.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(16,9,12)"
+   ]
+  },
+  {
+   "id": "Q12",
+   "t": 36.36666666666667,
+   "nome": "1091.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(34,30,30)"
+   ]
+  },
+  {
+   "id": "Q13",
+   "t": 41.06666666666667,
+   "nome": "1232.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 44.4,
+   "nome": "1332.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 44.93333333333333,
+   "nome": "1348.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 47.5,
+   "nome": "1425.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(30,28,23)"
+   ]
+  },
+  {
+   "id": "Q17",
+   "t": 50.766666666666666,
+   "nome": "1523.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(31,36,32)"
+   ]
+  },
+  {
+   "id": "Q18",
+   "t": 54.233333333333334,
+   "nome": "1627.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 58.06666666666667,
+   "nome": "1742.png",
+   "sinais": [
+    "faixa uniforme na borda base: 23% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q20",
+   "t": 60.333333333333336,
+   "nome": "1810.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 62.36666666666667,
+   "nome": "1871.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 65.0,
+   "nome": "1950.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(15,15,12)"
+   ]
+  },
+  {
+   "id": "Q23",
+   "t": 68.2,
+   "nome": "2046.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(17,17,22)"
+   ]
+  },
+  {
+   "id": "Q24",
+   "t": 71.9,
+   "nome": "2157.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 9% do quadro, cor RGB(27,27,25)"
+   ]
+  },
+  {
+   "id": "Q25",
+   "t": 75.9,
+   "nome": "2277.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(25,20,17)"
+   ]
+  },
+  {
+   "id": "Q26",
+   "t": 81.0,
+   "nome": "2430.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(39,46,54)",
+    "faixa uniforme na borda direita: 3% do quadro, cor RGB(45,52,61)"
+   ]
+  },
+  {
+   "id": "Q27",
+   "t": 85.13333333333334,
+   "nome": "2554.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 89.43333333333334,
+   "nome": "2683.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 92.8,
+   "nome": "2784.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 31% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 26% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 26% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q30",
+   "t": 96.46666666666667,
+   "nome": "2894.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(30,33,29)"
+   ]
+  },
+  {
+   "id": "Q31",
+   "t": 99.73333333333333,
+   "nome": "2992.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 102.93333333333334,
+   "nome": "3088.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 103.8,
+   "nome": "3114.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 106.36666666666666,
+   "nome": "3191.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 29% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q35",
+   "t": 109.5,
+   "nome": "3285.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 29% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q36",
+   "t": 112.46666666666667,
+   "nome": "3374.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(16,16,14)"
+   ]
+  },
+  {
+   "id": "Q37",
+   "t": 115.66666666666667,
+   "nome": "3470.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 30% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q38",
+   "t": 119.3,
+   "nome": "3579.png",
+   "sinais": [
+    "faixa preta na borda direita: 22% do quadro"
+   ]
+  },
+  {
+   "id": "Q39",
+   "t": 123.3,
+   "nome": "3699.png",
+   "sinais": [
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q40",
+   "t": 127.9,
+   "nome": "3837.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 132.93333333333334,
+   "nome": "3988.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 136.3,
+   "nome": "4089.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 138.66666666666666,
+   "nome": "4160.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(18,17,16)"
+   ]
+  },
+  {
+   "id": "Q44",
+   "t": 141.1,
+   "nome": "4233.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 141.73333333333332,
+   "nome": "4252.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 144.03333333333333,
+   "nome": "4321.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 149.9,
+   "nome": "4497.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 151.9,
+   "nome": "4557.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 154.06666666666666,
+   "nome": "4622.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 154.83333333333334,
+   "nome": "4645.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 156.2,
+   "nome": "4686.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 159.1,
+   "nome": "4773.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 162.3,
+   "nome": "4869.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 167.63333333333333,
+   "nome": "5029.png",
+   "sinais": [
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q55",
+   "t": 172.16666666666666,
+   "nome": "5165.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 173.16666666666666,
+   "nome": "5195.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 174.93333333333334,
+   "nome": "5248.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(21,20,22)"
+   ]
+  },
+  {
+   "id": "Q58",
+   "t": 178.06666666666666,
+   "nome": "5342.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 181.03333333333333,
+   "nome": "5431.png",
+   "sinais": [
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q60",
+   "t": 186.93333333333334,
+   "nome": "5608.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q61",
+   "t": 190.46666666666667,
+   "nome": "5714.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(35,32,29)"
+   ]
+  },
+  {
+   "id": "Q62",
+   "t": 193.23333333333332,
+   "nome": "5797.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 194.06666666666666,
+   "nome": "5822.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 198.33333333333334,
+   "nome": "5950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 205.26666666666668,
+   "nome": "6158.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 207.33333333333334,
+   "nome": "6220.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 208.76666666666668,
+   "nome": "6263.png",
+   "sinais": [
+    "faixa uniforme na borda base: 31% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q68",
+   "t": 212.0,
+   "nome": "6360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 213.03333333333333,
+   "nome": "6391.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 215.73333333333332,
+   "nome": "6472.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 216.73333333333332,
+   "nome": "6502.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 220.1,
+   "nome": "6603.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 221.36666666666667,
+   "nome": "6641.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 224.16666666666666,
+   "nome": "6725.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 5% do quadro, cor RGB(33,29,33)"
+   ]
+  },
+  {
+   "id": "Q75",
+   "t": 229.6,
+   "nome": "6888.png",
+   "sinais": [
+    "faixa uniforme na borda base: 31% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q76",
+   "t": 233.66666666666666,
+   "nome": "7010.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 234.5,
+   "nome": "7035.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 237.43333333333334,
+   "nome": "7123.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 238.5,
+   "nome": "7155.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 242.66666666666666,
+   "nome": "7280.png",
+   "sinais": [
+    "faixa uniforme na borda base: 31% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q81",
+   "t": 248.23333333333332,
+   "nome": "7447.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 249.73333333333332,
+   "nome": "7492.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 253.6,
+   "nome": "7608.png",
+   "sinais": [
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q84",
+   "t": 257.9,
+   "nome": "7737.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(16,16,14)"
+   ]
+  },
+  {
+   "id": "Q85",
+   "t": 262.6333333333333,
+   "nome": "7879.png",
+   "sinais": [
+    "faixa uniforme na borda base: 26% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q86",
+   "t": 266.53333333333336,
+   "nome": "7996.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 267.43333333333334,
+   "nome": "8023.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 271.4,
+   "nome": "8142.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 272.93333333333334,
+   "nome": "8188.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 276.4,
+   "nome": "8292.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 282.06666666666666,
+   "nome": "8462.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 283.76666666666665,
+   "nome": "8513.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 286.46666666666664,
+   "nome": "8594.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 287.43333333333334,
+   "nome": "8623.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 290.43333333333334,
+   "nome": "8713.png",
+   "sinais": [
+    "faixa uniforme na borda base: 31% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q96",
+   "t": 298.23333333333335,
+   "nome": "8947.png",
+   "sinais": [
+    "faixa uniforme na borda base: 21% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q97",
+   "t": 303.76666666666665,
+   "nome": "9113.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 304.8333333333333,
+   "nome": "9145.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 309.46666666666664,
+   "nome": "9284.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 311.26666666666665,
+   "nome": "9338.png",
+   "sinais": []
+  },
+  {
+   "id": "Q101",
+   "t": 313.56666666666666,
+   "nome": "9407.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 314.3666666666667,
+   "nome": "9431.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 316.2,
+   "nome": "9486.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(17,19,20)"
+   ]
+  },
+  {
+   "id": "Q104",
+   "t": 319.3,
+   "nome": "9579.png",
+   "sinais": []
+  },
+  {
+   "id": "Q105",
+   "t": 324.06666666666666,
+   "nome": "9722.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(31,28,25)"
+   ]
+  },
+  {
+   "id": "Q106",
+   "t": 328.26666666666665,
+   "nome": "9848.png",
+   "sinais": [
+    "faixa uniforme na borda base: 26% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q107",
+   "t": 332.26666666666665,
+   "nome": "9968.png",
+   "sinais": [
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q108",
+   "t": 335.23333333333335,
+   "nome": "10057.png",
+   "sinais": []
+  },
+  {
+   "id": "Q109",
+   "t": 338.26666666666665,
+   "nome": "10148.png",
+   "sinais": [
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q110",
+   "t": 342.3,
+   "nome": "10269.png",
+   "sinais": []
+  },
+  {
+   "id": "Q111",
+   "t": 343.46666666666664,
+   "nome": "10304.png",
+   "sinais": []
+  },
+  {
+   "id": "Q112",
+   "t": 346.1333333333333,
+   "nome": "10384.png",
+   "sinais": []
+  },
+  {
+   "id": "Q113",
+   "t": 359.26666666666665,
+   "nome": "10778.png",
+   "sinais": []
+  },
+  {
+   "id": "Q114",
+   "t": 368.1333333333333,
+   "nome": "11044.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(43,43,43)"
+   ]
+  },
+  {
+   "id": "Q115",
+   "t": 371.93333333333334,
+   "nome": "11158.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(62,62,58)"
+   ]
+  },
+  {
+   "id": "Q116",
+   "t": 377.03333333333336,
+   "nome": "11311.png",
+   "sinais": [
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q117",
+   "t": 381.96666666666664,
+   "nome": "11459.png",
+   "sinais": []
+  },
+  {
+   "id": "Q118",
+   "t": 385.6,
+   "nome": "11568.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(32,27,25)"
+   ]
+  },
+  {
+   "id": "Q119",
+   "t": 391.1,
+   "nome": "11733.png",
+   "sinais": [
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q120",
+   "t": 397.0,
+   "nome": "11910.png",
+   "sinais": []
+  },
+  {
+   "id": "Q121",
+   "t": 402.3,
+   "nome": "12069.png",
+   "sinais": []
+  },
+  {
+   "id": "Q122",
+   "t": 407.56666666666666,
+   "nome": "12227.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q123",
+   "t": 411.1666666666667,
+   "nome": "12335.png",
+   "sinais": []
+  },
+  {
+   "id": "Q124",
+   "t": 411.9,
+   "nome": "12357.png",
+   "sinais": []
+  },
+  {
+   "id": "Q125",
+   "t": 415.5,
+   "nome": "12465.png",
+   "sinais": [
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q126",
+   "t": 418.73333333333335,
+   "nome": "12562.png",
+   "sinais": []
+  },
+  {
+   "id": "Q127",
+   "t": 419.3666666666667,
+   "nome": "12581.png",
+   "sinais": []
+  },
+  {
+   "id": "Q128",
+   "t": 421.8333333333333,
+   "nome": "12655.png",
+   "sinais": []
+  },
+  {
+   "id": "Q129",
+   "t": 426.43333333333334,
+   "nome": "12793.png",
+   "sinais": []
+  },
+  {
+   "id": "Q130",
+   "t": 427.8666666666667,
+   "nome": "12836.png",
+   "sinais": []
+  },
+  {
+   "id": "Q131",
+   "t": 429.73333333333335,
+   "nome": "12892.png",
+   "sinais": []
+  },
+  {
+   "id": "Q132",
+   "t": 433.43333333333334,
+   "nome": "13003.png",
+   "sinais": []
+  },
+  {
+   "id": "Q133",
+   "t": 436.3666666666667,
+   "nome": "13091.png",
+   "sinais": []
+  },
+  {
+   "id": "Q134",
+   "t": 439.2,
+   "nome": "13176.png",
+   "sinais": []
+  },
+  {
+   "id": "Q135",
+   "t": 442.4,
+   "nome": "13272.png",
+   "sinais": []
+  },
+  {
+   "id": "Q136",
+   "t": 445.93333333333334,
+   "nome": "13378.png",
+   "sinais": []
+  },
+  {
+   "id": "Q137",
+   "t": 446.9,
+   "nome": "13407.png",
+   "sinais": []
+  },
+  {
+   "id": "Q138",
+   "t": 448.7,
+   "nome": "13461.png",
+   "sinais": []
+  },
+  {
+   "id": "Q139",
+   "t": 449.3,
+   "nome": "13479.png",
+   "sinais": []
+  },
+  {
+   "id": "Q140",
+   "t": 453.9,
+   "nome": "13617.png",
+   "sinais": []
+  },
+  {
+   "id": "Q141",
+   "t": 455.7,
+   "nome": "13671.png",
+   "sinais": []
+  },
+  {
+   "id": "Q142",
+   "t": 459.4,
+   "nome": "13782.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(37,35,31)"
+   ]
+  },
+  {
+   "id": "Q143",
+   "t": 462.23333333333335,
+   "nome": "13867.png",
+   "sinais": [
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q144",
+   "t": 464.76666666666665,
+   "nome": "13943.png",
+   "sinais": []
+  },
+  {
+   "id": "Q145",
+   "t": 465.5,
+   "nome": "13965.png",
+   "sinais": []
+  },
+  {
+   "id": "Q146",
+   "t": 467.8666666666667,
+   "nome": "14036.png",
+   "sinais": [
+    "faixa uniforme na borda base: 31% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q147",
+   "t": 471.1666666666667,
+   "nome": "14135.png",
+   "sinais": []
+  },
+  {
+   "id": "Q148",
+   "t": 472.03333333333336,
+   "nome": "14161.png",
+   "sinais": []
+  },
+  {
+   "id": "Q149",
+   "t": 476.76666666666665,
+   "nome": "14303.png",
+   "sinais": []
+  },
+  {
+   "id": "Q150",
+   "t": 483.6666666666667,
+   "nome": "14510.png",
+   "sinais": []
+  },
+  {
+   "id": "Q151",
+   "t": 485.6333333333333,
+   "nome": "14569.png",
+   "sinais": []
+  },
+  {
+   "id": "Q152",
+   "t": 488.3333333333333,
+   "nome": "14650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q153",
+   "t": 491.8333333333333,
+   "nome": "14755.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(36,38,34)"
+   ]
+  },
+  {
+   "id": "Q154",
+   "t": 494.23333333333335,
+   "nome": "14827.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(26,26,23)"
+   ]
+  },
+  {
+   "id": "Q155",
+   "t": 498.3333333333333,
+   "nome": "14950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q156",
+   "t": 499.73333333333335,
+   "nome": "14992.png",
+   "sinais": []
+  },
+  {
+   "id": "Q157",
+   "t": 502.1666666666667,
+   "nome": "15065.png",
+   "sinais": []
+  },
+  {
+   "id": "Q158",
+   "t": 506.3333333333333,
+   "nome": "15190.png",
+   "sinais": []
+  },
+  {
+   "id": "Q159",
+   "t": 509.7,
+   "nome": "15291.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(27,22,21)"
+   ]
+  },
+  {
+   "id": "Q160",
+   "t": 538.7,
+   "nome": "16161.png",
+   "sinais": []
+  },
+  {
+   "id": "Q161",
+   "t": 552.4,
+   "nome": "16572.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(28,27,28)"
+   ]
+  },
+  {
+   "id": "Q162",
+   "t": 555.7333333333333,
+   "nome": "16672.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(16,13,14)"
+   ]
+  },
+  {
+   "id": "Q163",
+   "t": 560.2,
+   "nome": "16806.png",
+   "sinais": [
+    "faixa uniforme na borda base: 23% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q164",
+   "t": 563.1333333333333,
+   "nome": "16894.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(30,41,53)"
+   ]
+  },
+  {
+   "id": "Q165",
+   "t": 567.7666666666667,
+   "nome": "17033.png",
+   "sinais": [
+    "faixa uniforme na borda base: 23% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q166",
+   "t": 571.5666666666667,
+   "nome": "17147.png",
+   "sinais": [
+    "faixa preta na borda direita: 7% do quadro"
+   ]
+  },
+  {
+   "id": "Q167",
+   "t": 576.0,
+   "nome": "17280.png",
+   "sinais": []
+  },
+  {
+   "id": "Q168",
+   "t": 577.4,
+   "nome": "17322.png",
+   "sinais": []
+  },
+  {
+   "id": "Q169",
+   "t": 579.5333333333333,
+   "nome": "17386.png",
+   "sinais": [
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q170",
+   "t": 584.1666666666666,
+   "nome": "17525.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(41,34,33)"
+   ]
+  },
+  {
+   "id": "Q171",
+   "t": 587.5,
+   "nome": "17625.png",
+   "sinais": []
+  },
+  {
+   "id": "Q172",
+   "t": 588.1,
+   "nome": "17643.png",
+   "sinais": []
+  },
+  {
+   "id": "Q173",
+   "t": 590.4666666666667,
+   "nome": "17714.png",
+   "sinais": [
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q174",
+   "t": 596.0666666666667,
+   "nome": "17882.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(31,4,4)"
+   ]
+  },
+  {
+   "id": "Q175",
+   "t": 601.5666666666667,
+   "nome": "18047.png",
+   "sinais": []
+  },
+  {
+   "id": "Q176",
+   "t": 602.9333333333333,
+   "nome": "18088.png",
+   "sinais": []
+  },
+  {
+   "id": "Q177",
+   "t": 608.6,
+   "nome": "18258.png",
+   "sinais": []
+  },
+  {
+   "id": "Q178",
+   "t": 610.8666666666667,
+   "nome": "18326.png",
+   "sinais": []
+  },
+  {
+   "id": "Q179",
+   "t": 613.5333333333333,
+   "nome": "18406.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(15,15,12)"
+   ]
+  },
+  {
+   "id": "Q180",
+   "t": 616.3333333333334,
+   "nome": "18490.png",
+   "sinais": []
+  },
+  {
+   "id": "Q181",
+   "t": 620.3333333333334,
+   "nome": "18610.png",
+   "sinais": [
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q182",
+   "t": 624.2333333333333,
+   "nome": "18727.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(23,23,21)"
+   ]
+  },
+  {
+   "id": "Q183",
+   "t": 632.9,
+   "nome": "18987.png",
+   "sinais": [
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q184",
+   "t": 638.0,
+   "nome": "19140.png",
+   "sinais": []
+  },
+  {
+   "id": "Q185",
+   "t": 641.4,
+   "nome": "19242.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(18,18,17)"
+   ]
+  },
+  {
+   "id": "Q186",
+   "t": 645.1666666666666,
+   "nome": "19355.png",
+   "sinais": [
+    "faixa preta na borda direita: 8% do quadro"
+   ]
+  },
+  {
+   "id": "Q187",
+   "t": 647.6,
+   "nome": "19428.png",
+   "sinais": []
+  },
+  {
+   "id": "Q188",
+   "t": 652.8333333333334,
+   "nome": "19585.png",
+   "sinais": []
+  },
+  {
+   "id": "Q189",
+   "t": 654.7,
+   "nome": "19641.png",
+   "sinais": []
+  },
+  {
+   "id": "Q190",
+   "t": 657.3666666666667,
+   "nome": "19721.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(36,33,23)"
+   ]
+  },
+  {
+   "id": "Q191",
+   "t": 659.9,
+   "nome": "19797.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(32,32,32)"
+   ]
+  },
+  {
+   "id": "Q192",
+   "t": 664.9666666666667,
+   "nome": "19949.png",
+   "sinais": []
+  },
+  {
+   "id": "Q193",
+   "t": 669.5,
+   "nome": "20085.png",
+   "sinais": [
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q194",
+   "t": 672.7,
+   "nome": "20181.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(17,16,15)"
+   ]
+  },
+  {
+   "id": "Q195",
+   "t": 677.4,
+   "nome": "20322.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(40,36,33)"
+   ]
+  },
+  {
+   "id": "Q196",
+   "t": 682.0,
+   "nome": "20460.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(24,22,20)"
+   ]
+  },
+  {
+   "id": "Q197",
+   "t": 684.3333333333334,
+   "nome": "20530.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q198",
+   "t": 690.4333333333333,
+   "nome": "20713.png",
+   "sinais": []
+  },
+  {
+   "id": "Q199",
+   "t": 692.7333333333333,
+   "nome": "20782.png",
+   "sinais": []
+  },
+  {
+   "id": "Q200",
+   "t": 700.7666666666667,
+   "nome": "21023.png",
+   "sinais": [
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q201",
+   "t": 708.8666666666667,
+   "nome": "21266.png",
+   "sinais": [
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q202",
+   "t": 713.9666666666667,
+   "nome": "21419.png",
+   "sinais": []
+  },
+  {
+   "id": "Q203",
+   "t": 715.2,
+   "nome": "21456.png",
+   "sinais": []
+  },
+  {
+   "id": "Q204",
+   "t": 720.0666666666667,
+   "nome": "21602.png",
+   "sinais": []
+  },
+  {
+   "id": "Q205",
+   "t": 722.0,
+   "nome": "21660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q206",
+   "t": 724.0,
+   "nome": "21720.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(18,16,16)"
+   ]
+  },
+  {
+   "id": "Q207",
+   "t": 728.3666666666667,
+   "nome": "21851.png",
+   "sinais": []
+  },
+  {
+   "id": "Q208",
+   "t": 729.8,
+   "nome": "21894.png",
+   "sinais": []
+  },
+  {
+   "id": "Q209",
+   "t": 732.5666666666667,
+   "nome": "21977.png",
+   "sinais": [
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q210",
+   "t": 736.5333333333333,
+   "nome": "22096.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(11,14,19)"
+   ]
+  },
+  {
+   "id": "Q211",
+   "t": 740.9333333333333,
+   "nome": "22228.png",
+   "sinais": [
+    "faixa uniforme na borda base: 21% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q212",
+   "t": 743.5666666666667,
+   "nome": "22307.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(10,39,27)"
+   ]
+  },
+  {
+   "id": "Q213",
+   "t": 754.1,
+   "nome": "22623.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 4% do quadro, cor RGB(6,44,26)"
+   ]
+  },
+  {
+   "id": "Q214",
+   "t": 762.8333333333334,
+   "nome": "22885.png",
+   "sinais": [
+    "faixa uniforme na borda base: 27% do quadro, cor RGB(46,48,51)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(44,46,48)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(44,46,49)"
+   ]
+  },
+  {
+   "id": "Q215",
+   "t": 766.6,
+   "nome": "22998.png",
+   "sinais": []
+  },
+  {
+   "id": "Q216",
+   "t": 767.2666666666667,
+   "nome": "23018.png",
+   "sinais": []
+  },
+  {
+   "id": "Q217",
+   "t": 769.2,
+   "nome": "23076.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(16,10,9)"
+   ]
+  },
+  {
+   "id": "Q218",
+   "t": 772.1,
+   "nome": "23163.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(21,21,6)"
+   ]
+  },
+  {
+   "id": "Q219",
+   "t": 776.2666666666667,
+   "nome": "23288.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(30,30,28)"
+   ]
+  },
+  {
+   "id": "Q220",
+   "t": 780.6,
+   "nome": "23418.png",
+   "sinais": []
+  },
+  {
+   "id": "Q221",
+   "t": 781.7333333333333,
+   "nome": "23452.png",
+   "sinais": []
+  },
+  {
+   "id": "Q222",
+   "t": 786.9333333333333,
+   "nome": "23608.png",
+   "sinais": []
+  },
+  {
+   "id": "Q223",
+   "t": 789.0,
+   "nome": "23670.png",
+   "sinais": []
+  },
+  {
+   "id": "Q224",
+   "t": 792.7666666666667,
+   "nome": "23783.png",
+   "sinais": [
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(12,14,17)",
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q225",
+   "t": 799.7666666666667,
+   "nome": "23993.png",
+   "sinais": [
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q226",
+   "t": 807.6,
+   "nome": "24228.png",
+   "sinais": []
+  },
+  {
+   "id": "Q227",
+   "t": 814.4333333333333,
+   "nome": "24433.png",
+   "sinais": []
+  },
+  {
+   "id": "Q228",
+   "t": 818.6666666666666,
+   "nome": "24560.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(32,32,26)"
+   ]
+  },
+  {
+   "id": "Q229",
+   "t": 822.1333333333333,
+   "nome": "24664.png",
+   "sinais": []
+  },
+  {
+   "id": "Q230",
+   "t": 825.7,
+   "nome": "24771.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(25,28,24)"
+   ]
+  },
+  {
+   "id": "Q231",
+   "t": 828.8666666666667,
+   "nome": "24866.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(42,40,38)"
+   ]
+  },
+  {
+   "id": "Q232",
+   "t": 832.9666666666667,
+   "nome": "24989.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(39,46,54)",
+    "faixa uniforme na borda direita: 3% do quadro, cor RGB(45,52,61)"
+   ]
+  },
+  {
+   "id": "Q233",
+   "t": 837.7666666666667,
+   "nome": "25133.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(52,48,46)"
+   ]
+  },
+  {
+   "id": "Q234",
+   "t": 842.7666666666667,
+   "nome": "25283.png",
+   "sinais": []
+  },
+  {
+   "id": "Q235",
+   "t": 845.9,
+   "nome": "25377.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(29,28,29)"
+   ]
+  },
+  {
+   "id": "Q236",
+   "t": 849.1666666666666,
+   "nome": "25475.png",
+   "sinais": []
+  },
+  {
+   "id": "Q237",
+   "t": 855.3,
+   "nome": "25659.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 11% do quadro, cor RGB(62,58,56)"
+   ]
+  },
+  {
+   "id": "Q238",
+   "t": 859.1,
+   "nome": "25773.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q239",
+   "t": 859.7,
+   "nome": "25791.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q240",
+   "t": 861.7,
+   "nome": "25851.png",
+   "sinais": []
+  },
+  {
+   "id": "Q241",
+   "t": 862.3666666666667,
+   "nome": "25871.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 4% do quadro, cor RGB(254,254,254)"
+   ]
+  },
+  {
+   "id": "Q242",
+   "t": 866.4333333333333,
+   "nome": "25993.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(22,16,11)"
+   ]
+  },
+  {
+   "id": "Q243",
+   "t": 871.5,
+   "nome": "26145.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 27% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q244",
+   "t": 872.8,
+   "nome": "26184.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 27% do quadro, cor RGB(255,255,255)"
+   ]
+  },
+  {
+   "id": "Q245",
+   "t": 875.1666666666666,
+   "nome": "26255.png",
+   "sinais": []
+  },
+  {
+   "id": "Q246",
+   "t": 877.7,
+   "nome": "26331.png",
+   "sinais": []
+  },
+  {
+   "id": "Q247",
+   "t": 880.8,
+   "nome": "26424.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 31% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 27% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 27% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q248",
+   "t": 886.0,
+   "nome": "26580.png",
+   "sinais": []
+  },
+  {
+   "id": "Q249",
+   "t": 892.8,
+   "nome": "26784.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(34,40,48)"
+   ]
+  },
+  {
+   "id": "Q250",
+   "t": 896.8,
+   "nome": "26904.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 27% do quadro, cor RGB(12,14,18)"
+   ]
+  },
+  {
+   "id": "Q251",
+   "t": 899.6666666666666,
+   "nome": "26990.png",
+   "sinais": []
+  },
+  {
+   "id": "Q252",
+   "t": 904.2666666666667,
+   "nome": "27128.png",
+   "sinais": []
+  },
+  {
+   "id": "Q253",
+   "t": 909.2333333333333,
+   "nome": "27277.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 23% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 22% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 33% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 33% do quadro, cor RGB(12,15,18)"
+   ]
+  },
+  {
+   "id": "Q254",
+   "t": 913.4,
+   "nome": "27402.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(128,155,180)"
+   ]
+  },
+  {
+   "id": "Q255",
+   "t": 916.3333333333334,
+   "nome": "27490.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 13% do quadro, cor RGB(12,14,18)"
+   ]
+  },
+  {
+   "id": "Q256",
+   "t": 919.7666666666667,
+   "nome": "27593.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(182,188,188)"
+   ]
+  },
+  {
+   "id": "Q257",
+   "t": 927.8,
+   "nome": "27834.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 33% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 11% do quadro, cor RGB(12,14,18)"
+   ]
+  },
+  {
+   "id": "Q258",
+   "t": 932.0666666666667,
+   "nome": "27962.png",
+   "sinais": []
+  },
+  {
+   "id": "Q259",
+   "t": 937.6,
+   "nome": "28128.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(12,14,18)"
+   ]
+  },
+  {
+   "id": "Q260",
+   "t": 944.0333333333333,
+   "nome": "28321.png",
+   "sinais": []
+  },
+  {
+   "id": "Q261",
+   "t": 949.0,
+   "nome": "28470.png",
+   "sinais": []
+  },
+  {
+   "id": "Q262",
+   "t": 952.3333333333334,
+   "nome": "28570.png",
+   "sinais": []
+  },
+  {
+   "id": "Q263",
+   "t": 953.0666666666667,
+   "nome": "28592.png",
+   "sinais": []
+  },
+  {
+   "id": "Q264",
+   "t": 954.5333333333333,
+   "nome": "28636.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 7% do quadro, cor RGB(17,13,14)"
+   ]
+  },
+  {
+   "id": "Q265",
+   "t": 957.6666666666666,
+   "nome": "28730.png",
+   "sinais": [
+    "faixa preta na borda direita: 28% do quadro"
+   ]
+  },
+  {
+   "id": "Q266",
+   "t": 962.1666666666666,
+   "nome": "28865.png",
+   "sinais": []
+  },
+  {
+   "id": "Q267",
+   "t": 966.0,
+   "nome": "28980.png",
+   "sinais": []
+  },
+  {
+   "id": "Q268",
+   "t": 966.9,
+   "nome": "29007.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 4% do quadro, cor RGB(254,254,254)"
+   ]
+  },
+  {
+   "id": "Q269",
+   "t": 973.0333333333333,
+   "nome": "29191.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(34,26,25)",
+    "faixa uniforme na borda esquerda: 4% do quadro, cor RGB(34,26,25)",
+    "faixa uniforme na borda direita: 4% do quadro, cor RGB(17,20,24)"
+   ]
+  },
+  {
+   "id": "Q270",
+   "t": 977.4,
+   "nome": "29322.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 24% do quadro, cor RGB(13,14,16)",
+    "faixa uniforme na borda direita: 19% do quadro, cor RGB(13,14,16)"
+   ]
+  },
+  {
+   "id": "Q271",
+   "t": 983.2666666666667,
+   "nome": "29498.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 33% do quadro, cor RGB(46,48,51)",
+    "faixa uniforme na borda base: 27% do quadro, cor RGB(46,48,51)",
+    "faixa uniforme na borda esquerda: 22% do quadro, cor RGB(46,48,51)",
+    "faixa uniforme na borda direita: 22% do quadro, cor RGB(46,48,51)"
+   ]
+  },
+  {
+   "id": "Q272",
+   "t": 988.8666666666667,
+   "nome": "29666.png",
+   "sinais": []
+  },
+  {
+   "id": "Q273",
+   "t": 991.3,
+   "nome": "29739.png",
+   "sinais": []
+  },
+  {
+   "id": "Q274",
+   "t": 992.9,
+   "nome": "29787.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 27% do quadro, cor RGB(13,15,19)",
+    "faixa uniforme na borda base: 28% do quadro, cor RGB(13,16,19)",
+    "faixa uniforme na borda esquerda: 14% do quadro, cor RGB(13,15,19)",
+    "faixa uniforme na borda direita: 14% do quadro, cor RGB(13,16,19)"
+   ]
+  },
+  {
+   "id": "Q275",
+   "t": 997.9666666666667,
+   "nome": "29939.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 27% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda base: 26% do quadro, cor RGB(12,15,18)",
+    "faixa uniforme na borda esquerda: 14% do quadro, cor RGB(12,14,18)",
+    "faixa uniforme na borda direita: 14% do quadro, cor RGB(12,15,18)"
+   ]
+  }
+ ]
+}

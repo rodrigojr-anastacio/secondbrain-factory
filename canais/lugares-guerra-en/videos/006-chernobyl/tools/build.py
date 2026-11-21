@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Montagem do 004-pearl-harbor (cópia do 003-gettysburg) (Clearance Required): voz real + storyboard.json → timeline do Remotion, trilha com ducking, .srt e capítulos.
+"""Montagem do 006-chernobyl (Clearance Required, "relógio de 67 h"): voz real + áudios de época + storyboard.json → timeline do Remotion,
+trilha com ducking (muda sob áudio de época, no botão e no silêncio do log), .srt (voz + legendas dos áudios de época) e capítulos.
 
 Uso (na pasta do vídeo): ~/workspace/fabrica-youtube/tools/.venv/bin/python tools/build.py [--sem-midia]
-Entradas: blocos.json, storyboard.json, audio/<bloco>.mp3, qa/whisper.json (tools/compara_voz.py), midia/, midia.csv, SCRIPT.md
-Saídas:   audio/final/{voz,trilha,mix}.wav (fora do public/: não vai no bundle), public/img/*.jpg (reduzidas), public/clips/<plano>.mp4 (trechos de filme cortados,
-          sem áudio, já na velocidade), src/timeline.json, out/legendas.srt, qa/capitulos.json, qa/tempos.json
-Regras do Rodrigo (12/11/2026): filme do John Ford só em trechos SEM áudio e < 7 s cada (FILME_MAX); sem 3D.
-Cortes: cada plano começa na 1ª palavra do seu "em" (tempo do Whisper), 0,12 s antes; o 1º plano de um bloco começa no meio da pausa.
+Entradas: blocos.json (+ arquivo_antes), storyboard.json, audio/<bloco>.mp3, audio/epoca/{A1..A6.wav,epoca.json} (tools/epoca.py), qa/whisper.json, midia/, midia.csv, SCRIPT.md
+Saídas:   audio/final/{voz,trilha,mix}.wav, public/img, public/clips (trechos de filme sem áudio + fundos dos áudios de época), src/timeline.json
+          (cada plano leva `rl` = estado do relógio persistente: régua + contador), out/legendas.srt, qa/capitulos.json, qa/tempos.json, qa/epoca_tempos.json
+Crédito na tela: coluna `credito` do midia.csv (filmes/fotos) e DOC_CRED (documentos); o do áudio de época vai no plano Arquivo.
 """
-import csv, json, math, re, subprocess, sys, wave
+import csv, json, math, os, re, subprocess, sys, wave
 from pathlib import Path
 import numpy as np
 from PIL import Image
@@ -16,7 +16,7 @@ from PIL import Image
 Image.MAX_IMAGE_PIXELS = None
 V = Path(__file__).resolve().parent.parent
 SR, FPS, W, H = 48000, 30, 1920, 1080
-GAP, GAP_IDEIA, GAP_CAP, HEAD, TAIL = 0.35, 0.9, 1.5, 0.3, 2.5
+GAP, GAP_IDEIA, GAP_CAP, HEAD, TAIL = 0.35, 0.9, 1.5, 0.15, 2.5
 FILME_MAX, VEL_MIN = 8.6, 0.52   # 002: bíblia pede clipes de 4–8 s (o < 7 s era regra do filme do Ford, 001)
 LEAD = 0.12
 SEM_MIDIA = "--sem-midia" in sys.argv
@@ -39,6 +39,11 @@ def aparar(x, lim_db=-45, cab=0.04, cauda=0.15):
     y = x[a:z].copy(); f = int(0.008 * SR)
     y[:f] *= np.linspace(0, 1, f); y[-f:] *= np.linspace(1, 0, f)
     return y, a / SR
+
+
+def ler_wav(p):
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(p), "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"], capture_output=True, check=True).stdout
+    return np.frombuffer(raw, dtype=np.float32).astype(np.float64)
 
 
 def salvar(p, x, canais=1):
@@ -220,90 +225,21 @@ def clip(p, dur):
     """Corta o trecho do filme (sem áudio), na velocidade do plano, 30 fps, com folga de 0,3 s."""
     dst = V / "public/clips" / f"{p['id']}.mp4"
     precisa = (dur + 0.3) * p["vel"]
-    chave = f"{p['arq']}|{p['tin']}|{p['vel']:.3f}|{dur:.2f}"
+    base = f"{p['arq']}|{p['tin']}|{p['vel']:.3f}"
     marca = dst.with_suffix(".txt")
-    if dst.exists() and marca.exists() and marca.read_text() == chave:
-        return dst.name
+    if dst.exists() and marca.exists():   # 006: reaproveita o corte se a base é a mesma e ele cobre a duração (o plano só mudou 1–2 quadros)
+        b0, _, l0 = marca.read_text().rpartition("|")
+        try:
+            if b0 == base and float(l0) >= precisa - 0.25 * p["vel"]: return dst.name
+        except ValueError:
+            pass
     dst.parent.mkdir(parents=True, exist_ok=True)
-    vf = f"yadif=deint=interlaced,setpts=PTS/{p['vel']:.4f},fps={FPS},crop=iw*0.96:ih*0.96,scale=1440:-2:flags=lanczos"   # 002: corta 2% de cada borda (margens claras do telecine)
+    recorte = "crop=iw*0.90:ih*0.90:0:0" if "voa" in p["arq"].lower() else "crop=iw*0.96:ih*0.96"   # 006: logo VOA no canto inferior direito
+    vf = f"yadif=deint=interlaced,setpts=PTS/{p['vel']:.4f},fps={FPS},{recorte},scale=1440:-2:flags=lanczos"   # 002: corta 2% de cada borda (margens claras do telecine)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{p['tin']:.3f}", "-t", f"{precisa:.3f}", "-i", str(V / "midia" / p["arq"]),
                     "-an", "-vf", vf, "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-pix_fmt", "yuv420p", str(dst)], check=True)
-    marca.write_text(chave)
+    marca.write_text(f"{base}|{precisa:.3f}")
     return dst.name
-
-
-# ───────────── mapa 2D (Natural Earth 50m, PD) ─────────────
-GEO = None
-
-
-def simplifica(pts, tol=1.5):
-    out = [pts[0]]
-    for x, y in pts[1:]:
-        if abs(x - out[-1][0]) + abs(y - out[-1][1]) >= tol:
-            out.append((x, y))
-    return out
-
-
-def mapa(p, pontos):
-    global GEO
-    if GEO is None:
-        GEO = json.load(open(V / "midia/mapa_base_ne50m_land.geojson"))["features"]
-    pts = [pontos[n] for n in p["pontos"]]
-    lons = [x for x, _ in pts]; lats = [y for _, y in pts]
-    naufr = any("WRECK" in n for n in p["pontos"])
-    mn = 6 if naufr else (5 if p.get("nome") in ("rongerik", "fallout") else 12)   # 002: atóis próximos
-    mn = {"porto": 0.05, "memorial": 0.05, "oahu": 0.3}.get(p.get("nome"), mn)   # 004: escala de porto/ilha; porto e memorial sem terra (NE50m não tem o porto: esquemático)
-    span = max(max(lons) - min(lons), (max(lats) - min(lats)) * W / H, mn) * (1.35 if len(pts) > 3 else 1.6)
-    clon, clat = (max(lons) + min(lons)) / 2, (max(lats) + min(lats)) / 2
-    lon0, lat_top = clon - span / 2, clat + span * H / W / 2
-    sc = W / span
-    pr = lambda lo, la: (round((lo - lon0) * sc, 1), round((lat_top - la) * sc, 1))
-    paths = []
-    for f in ([] if p.get("nome") in ("porto", "memorial") else GEO):
-        gm = f["geometry"]
-        aneis = [gm["coordinates"][0]] if gm["type"] == "Polygon" else [pl[0] for pl in gm["coordinates"]]
-        for ring in aneis:
-            for off in (0, 360):
-                xy = [pr(c[0] + off, c[1]) for c in ring]
-                if max(x for x, _ in xy) < -50 or min(x for x, _ in xy) > W + 50 or max(y for _, y in xy) < -50 or min(y for _, y in xy) > H + 50:
-                    continue
-                xy = simplifica(xy)
-                if len(xy) > 2:
-                    paths.append("M" + "L".join(f"{x:.0f},{y:.0f}" for x, y in xy) + "Z")
-    P = {n: pr(*pontos[n]) for n in p["pontos"]}
-    linhas = [[*P[a], *P[b], rot] for a, b, rot in p.get("linhas", [])]
-    num = None
-    m = re.search(r"«(.+?)»", p.get("nota", ""))
-    if m:
-        v, _, r = m.group(1).partition(" ")
-        num = [v, r]
-    return dict(paths=paths, pts=[[n, *P[n]] for n in p["pontos"]], linhas=linhas, naufr=naufr, num=num)
-
-
-# ───────────── mapa sobre o mapa de Ditterline (1863): afim por 3 pontos de controle ─────────────
-CTRL = {"GETTYSBURG": (1860, 1515), "LITTLE ROUND TOP": (1476, 3171), "CULP'S HILL": (2220, 1970)}   # px da imagem original (3840x4661)
-
-
-def mapa_base(p, pontos, iw, ih, f):
-    """f = px da imagem pública / px da original. Devolve a janela (x0,y0 em px públicos, s = px de tela por px público) e os pontos em coords de tela."""
-    A = np.array([[*pontos[n], 1.0] for n in CTRL]); B = np.array([CTRL[n] for n in CTRL], dtype=float)
-    M = np.linalg.solve(A, B)           # [lon, lat, 1] @ M = [x, y] (original)
-    px = lambda n: tuple(np.array([*pontos[n], 1.0]) @ M * f)
-    P = {n: px(n) for n in p["pontos"]}
-    xs = [v[0] for v in P.values()]; ys = [v[1] for v in P.values()]
-    cx, cy = (min(xs) + max(xs)) / 2, (min(ys) + max(ys)) / 2
-    vw = max((max(xs) - min(xs)) * 1.6, (max(ys) - min(ys)) * 1.6 * W / H, 1500 * f)
-    vw = min(vw, iw, ih * W / H); vh = vw * H / W
-    x0 = min(max(cx - vw / 2, 0), iw - vw); y0 = min(max(cy - vh / 2, 0), ih - vh)
-    for _ in range(12):   # rótulos longe da borda (pré-QA: "McPHERSON'S WOODS" cortado no topo)
-        m = 130 * vw / W
-        if all(x0 + m <= x <= x0 + vw - m and y0 + m <= y <= y0 + vh - m for x, y in zip(xs, ys)) or vw >= min(iw, ih * W / H) - 1: break
-        vw = min(vw * 1.08, iw, ih * W / H); vh = vw * H / W
-        x0 = min(max(cx - vw / 2, 0), iw - vw); y0 = min(max(cy - vh / 2, 0), ih - vh)
-    s = W / vw
-    sc = {n: (round((v[0] - x0) * s, 1), round((v[1] - y0) * s, 1)) for n, v in P.items()}
-    linhas = [[*sc[a], *sc[b], rot] for a, b, rot in p.get("linhas", [])]
-    return dict(pts=[[n, *sc[n]] for n in p["pontos"]], linhas=linhas, vx0=x0, vy0=y0, vs=s)
 
 
 # ───────────── DocGrifo: câmera ─────────────
@@ -330,42 +266,213 @@ def cam_doc(p, iw, ih):
     return pag, [bx + vw / 2, by + vh / 2, W / vw]
 
 
+# ───────────── 006: mapa 2D por código (Natural Earth 50m países, PD) ─────────────
+GEO = None
+LABELS_LAT = 1.0
+
+
+def simplifica(pts, tol=1.2):
+    out = [pts[0]]
+    for x, y in pts[1:]:
+        if abs(x - out[-1][0]) + abs(y - out[-1][1]) >= tol:
+            out.append((x, y))
+    return out
+
+
+def mapa(p, pontos):
+    """Projeção equirretangular com correção de cos(lat); caminhos por país (para destacar a Suécia na pluma)."""
+    global GEO
+    if GEO is None:
+        GEO = json.load(open(V / "midia/ne50_countries.geojson"))["features"]
+    pts = [pontos[n] for n in p["pontos"]]
+    lons = [x for x, _ in pts]; lats = [y for _, y in pts]
+    clat = (max(lats) + min(lats)) / 2; k = math.cos(math.radians(clat))
+    mn = {"zona": 1.5, "despacho": 1.4, "rota": 1.6, "zona30": 1.5, "2022": 3.0}.get(p.get("nome"), 6.0)
+    span_lat = max((max(lats) - min(lats)) * 1.9, (max(lons) - min(lons)) * k * H / W * 1.9, mn)   # altura do quadro em graus de latitude
+    span_x = span_lat * W / H                                                                      # largura em "graus de latitude"
+    clon = (max(lons) + min(lons)) / 2
+    top = clat + span_lat / 2; sc = H / span_lat
+    pr = lambda lo, la: (round(W / 2 + (lo - clon) * k * sc, 1), round((top - la) * sc, 1))
+    paths = []
+    for f in GEO:
+        gm = f["geometry"]; nome = f["properties"].get("ADMIN", "")
+        aneis = [gm["coordinates"][0]] if gm["type"] == "Polygon" else [pl[0] for pl in gm["coordinates"]]
+        for ring in aneis:
+            xy = [pr(c[0], c[1]) for c in ring]
+            if max(x for x, _ in xy) < -50 or min(x for x, _ in xy) > W + 50 or max(y for _, y in xy) < -50 or min(y for _, y in xy) > H + 50:
+                continue
+            xy = simplifica(xy)
+            if len(xy) > 2:
+                paths.append(dict(d="M" + "L".join(f"{x:.0f},{y:.0f}" for x, y in xy) + "Z", pais=nome))
+    P = {n: pr(*pontos[n]) for n in p["pontos"]}
+    linhas = [[*P[a], *P[b], rot] for a, b, rot in p.get("linhas", [])]
+    raio30 = round(30 / 111.0 * sc, 1) if p.get("nome") in ("zona30", "zona") else 0
+    return dict(paths=paths, pts=[[n, *P[n]] for n in p["pontos"]], linhas=linhas, pluma=bool(p.get("pluma")), nome=p.get("nome"), raio30=raio30)
+
+
+# ───────────── 006: relógio (régua + contador) ─────────────
+BTN = 1 * 3600 + 23 * 60 + 40   # 26/04 01:23:40, em segundos desde 26/04 00:00
+
+
+def parse_rel(lab):
+    """'26.04 01:23:40' / '27.04 ~12:00' / '28.04 MON' → (segundos desde 26/04 00:00, aprox, tem_seg, so_dia); None se fora da régua."""
+    m = re.match(r"^(\d\d)\.(\d\d) ~?(\d\d):(\d\d)(?::(\d\d))?$", lab or "")
+    if m:
+        d, _, h, mi, s = m.groups()
+        return ((int(d) - 26) * 86400 + int(h) * 3600 + int(mi) * 60 + int(s or 0), "~" in lab, bool(s), False)
+    if lab == "28.04 MON": return (2 * 86400 + 9 * 3600, True, False, True)
+    if lab == "29.04 TUE": return (3 * 86400 + 12 * 3600, True, False, True)
+    return None
+
+
+def tod_para_s(t):
+    """'01:23:40' | '25.04 01:06' | '28.04 21:00:00' | '+67:36:20' → ('tod', s desde 26/04 00:00) | ('dec', s)"""
+    if t.startswith("+"):
+        h, m, s = (int(x) for x in t[1:].split(":")); return "dec", h * 3600 + m * 60 + s
+    m = re.match(r"^(?:(\d\d)\.(\d\d)(?:\.\d{4})? )?(\d\d):(\d\d)(?::(\d\d))?$", t)
+    d = int(m.group(1)) if m and m.group(1) else 26
+    if m and m.group(1) and re.match(r"^\d\d\.\d\d\.\d{4} ", t): d = 26   # 14.02.2025: só a hora
+    return "tod", (d - 26) * 86400 + int(m.group(3)) * 3600 + int(m.group(4)) * 60 + int(m.group(5) or 0)
+
+
+# ───────────── 006: áudio de época, fundos e imagens extraídas ─────────────
+EPOCA = json.load(open(V / "audio/epoca/epoca.json"))
+FUNDOS = {   # filmes de fundo (concatenados até cobrir a duração do áudio de época); A1/A6: tela escura com onda
+    "A2": ["filme_pripyat_rua_vazia_1986.mp4"],
+    "A3": ["filme_aerea_pb_usina_1986.mp4", "filme_helicoptero_chamine_pb_1986.mp4", "filme_parede_usina_chamine_1986.mp4"],
+    "A4": ["filme_pripyat_sacadas_playground_1986.mp4", "filme_pripyat_predios_rua_1986.mp4", "filme_palacio_cultura_pripyat_1986.mp4",
+           "filme_centro_comercial_pripyat_1986.mp4", "filme_aerea_pripyat_horizonte_1986.mp4", "filme_pripyat_panorama_aerea_1986.mp4",
+           "filme_pripyat_rua_vazia_1986.mp4"],
+    "A5": ["filme_vremya_locutora_28abr1986.mp4", "filme_cbs_vremya_locutor.mp4", "filme_abc_vremya_locutora.mp4"],
+}
+CRED_AUDIO = {
+    "A1": "Audio: fire-service dispatch calls, 26 Apr 1986 · via pripyat.com / Wikimedia Commons",
+    "A2": "Audio: Pripyat city radio, 27 Apr 1986 · via pripyat.com / Wikimedia Commons",
+    "A3": "Audio: fire-service dispatch calls, 26 Apr 1986 · via pripyat.com / Wikimedia Commons",
+    "A4": "Audio: Pripyat city radio, 27 Apr 1986 · via pripyat.com / Wikimedia Commons",
+    "A5": "Synthetic voice reading the TASS text of 28 Apr 1986 · not the original broadcast",
+    "A6": "Audio: fire-service dispatch calls, 26 Apr 1986 · via pripyat.com / Wikimedia Commons",
+}
+DOC_CRED = [
+    ("doc_insag7", "Source: IAEA, INSAG-7 (1992)"),
+    ("doc_wilson208406", "Order of the Ministry of Motor Transport · Wilson Center Digital Archive, doc. 208406"),
+    ("doc_wilson208405", "V. P. Bryukhanov, report of 26 Apr 1986 · Wilson Center Digital Archive, doc. 208405"),
+    ("doc_politburo-28abr_ru", "Politburo, 28 April 1986 (original text, gorby.ru)"),
+    ("doc_politburo", "Politburo session, 28 Apr 1986 (APRF; trans. S. Savranskaya, National Security Archive)"),
+    ("doc_frus", "CIA, 'Spot Commentary', 29 Apr 1986 · FRUS 1981-88, vol. V, doc. 220"),
+    ("doc_upi", "UPI Archives, 28 April 1986"),
+    ("doc_lei791a", "Law of Ukraine No. 791a-XII, 27 Feb 1991"),
+]
+
+
+def cred_doc(arq):
+    for pre, c in DOC_CRED:
+        if arq.startswith(pre): return c
+    return None
+
+
+def dur_arq(p):
+    return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(p)], capture_output=True, text=True).stdout)
+
+
+def fundo_clip(aid, dur):
+    """Concatena os filmes de fundo (sem áudio, 30 fps, 1440 px) até cobrir dur; devolve (nome, ar)."""
+    dst = V / "public/clips" / f"fundo_{aid}.mp4"
+    chave = f"{FUNDOS[aid]}|{dur:.2f}"; marca = dst.with_suffix(".txt")
+    if not (dst.exists() and marca.exists() and marca.read_text() == chave):
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        tmp = Path(os.environ.get("TMPDIR", "/tmp")) / f"fundo_{aid}"; tmp.mkdir(parents=True, exist_ok=True)
+        lista, tot, i = [], 0.0, 0
+        while tot < dur + 0.5:
+            f = FUNDOS[aid][i % len(FUNDOS[aid])]; i += 1
+            o = tmp / f"{i:02d}.mp4"
+            vf = f"yadif=deint=interlaced,fps={FPS},crop=iw*0.96:ih*0.96,scale=1440:1080:flags=lanczos"
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(V / "midia" / f), "-an", "-vf", vf, "-c:v", "libx264", "-preset", "medium", "-crf", "18",
+                            "-pix_fmt", "yuv420p", str(o)], check=True)
+            lista.append(o); tot += dur_arq(o)
+        (tmp / "l.txt").write_text("".join(f"file '{o}'\n" for o in lista))
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(tmp / "l.txt"), "-t", f"{dur + 0.3:.3f}", "-c:v", "libx264",
+                        "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", str(dst)], check=True)
+        marca.write_text(chave)
+    return dst.name
+
+
+def arq_img(arq):
+    """'filme:<arq>.mp4@<s>' = still do clipe naquele segundo → public/img; senão a imagem da mídia."""
+    if arq.startswith("filme:"):
+        f, _, s = arq[6:].partition("@")
+        nome = f"still_{Path(f).stem}_{s.replace('.', '_')}.jpg"
+        dst = V / "public/img" / nome
+        if not dst.exists():
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", s, "-i", str(V / "midia" / f), "-frames:v", "1", "-vf", "yadif=deint=interlaced,crop=iw*0.96:ih*0.96,scale=1440:-2:flags=lanczos",
+                            "-q:v", "2", str(dst)], check=True)
+        with Image.open(dst) as im:
+            return nome, im.width, im.height
+    return img_publica(arq)
+
+
+def estatica(rng, d, g=1.0):
+    n = rng.uniform(-1, 1, int(d * SR)); k = int(0.0006 * SR)
+    x = n - np.convolve(n, np.ones(40) / 40, "same")
+    x *= (0.6 + 0.4 * np.sign(np.sin(np.linspace(0, 90, len(n)))))
+    y = x / (np.sqrt(np.mean(x ** 2)) + 1e-9) * 10 ** (-30 / 20) * g
+    f = int(0.05 * SR); y[:f] *= np.linspace(0, 1, f); y[-f:] *= np.linspace(1, 0, f)
+    return y
+
+
 def main():
     blocos = json.load(open(V / "blocos.json"))
     sb = json.load(open(V / "storyboard.json"))
     planos, pontos = sb["planos"], {k: tuple(v) for k, v in sb["pontos"].items()}
+    arqs = sb["arquivos"]
     whisper = json.load(open(V / "qa/whisper.json"))
     creditos = {r["arquivo"]: r["credito"] for r in csv.DictReader(open(V / "midia.csv"))}
     titulos = re.findall(r"^### (B\d\d) \[[^\]]*\] (.+)$", (V / "SCRIPT.md").read_text(), re.M)
-    cap_titulo = {bid: t.strip() for bid, t in titulos}   # 003: capítulos = cabeçalhos "### B## [t] título" do SCRIPT.md
+    cap_titulo = {bid: t.strip() for bid, t in titulos}
 
     def gap(i, b):
         if i == 0: return 0
+        if b.get("arquivo_antes"): return 0.3
         if b["id"][:3] != blocos[i - 1]["id"][:3]: return GAP_CAP if b["id"][:3] in cap_titulo else GAP_IDEIA
         return GAP_IDEIA if b.get("ideia") else GAP
 
-    # 1) voz
-    partes, t = [np.zeros(int(HEAD * SR))], HEAD
+    # 1) voz + áudios de época
+    n_max = int(1200 * SR)
+    voz_a = np.zeros(n_max); epo_a = np.zeros(n_max)
+    t = HEAD
+    epoca_t = {}                      # A# → (início, fim) na timeline
     for i, b in enumerate(blocos):
+        a_id = b.get("arquivo_antes")
+        if a_id:
+            t += 0.3 if i else 0.0
+            d = EPOCA[a_id]["dur"]
+            w = ler_wav(V / "audio/epoca" / f"{a_id}.wav")
+            epo_a[int(t * SR):int(t * SR) + len(w)] += w
+            epoca_t[a_id] = (round(t, 3), round(t + d, 3)); t += d
         g = gap(i, b)
-        if g: partes.append(np.zeros(int(g * SR))); t += g
+        t += g
         x, off = aparar(ler_mp3(V / "audio" / f"{b['id']}.mp3"))
-        b["gap"] = g; b["off"] = off; b["ini"] = round(t, 3); t += len(x) / SR; b["fim"] = round(t, 3)
-        partes.append(x)
-    partes.append(np.zeros(int(TAIL * SR)))
-    voz = np.concatenate(partes)
-    dur = len(voz) / SR
+        b["gap"] = g; b["off"] = off; b["ini"] = round(t, 3)
+        voz_a[int(t * SR):int(t * SR) + len(x)] += x
+        t += len(x) / SR; b["fim"] = round(t, 3)
+    t += TAIL
+    dur = t
+    voz = voz_a[: int(dur * SR)]; epo = epo_a[: int(dur * SR)]
     voz *= 10 ** (-3 / 20) / (np.max(np.abs(voz)) + 1e-9)
     por_id = {b["id"]: b for b in blocos}
 
     # 2) tempos dos planos
     erros, avisos = [], []
+    for k, p in enumerate(planos):
+        if p["tipo"] == "Arquivo":
+            p["t0"] = 0.0 if p["id"] == planos[0]["id"] else max(0.0, epoca_t[p["bloco"]][0] - 0.05)
     for bid in [b["id"] for b in blocos]:
         ps = [p for p in planos if p["bloco"] == bid]
         b = por_id[bid]; wp = whisper[bid]["palavras"]; desde = 0
         for k, p in enumerate(ps):
             if k == 0:
-                p["t0"] = 0.0 if bid == blocos[0]["id"] else b["ini"] - max(0.15, b["gap"] * 0.5)
+                p["t0"] = 0.0 if p["id"] == planos[0]["id"] else b["ini"] - max(0.15, b["gap"] * 0.5)
                 continue
             i = acha_em(p["em"], wp, desde)
             if i is None:
@@ -374,28 +481,26 @@ def main():
                 avisos.append(f"{p['id']}: 'em' não achado no Whisper ({p['em']!r}); tempo proporcional")
             else:
                 p["t0"] = b["ini"] + wp[i][1] - b["off"] - LEAD; desde = i + 1
-        # grifo literal: quando a narração lê a frase do documento
         for p in ps:
             if p["tipo"] == "DocGrifo" and p.get("frase_doc"):
                 i = acha_em(p["frase_doc"], wp, 0)
                 if i is not None:
-                    n = len(toks(p["frase_doc"]))
-                    j = min(len(wp) - 1, i + max(0, n - 1))
+                    n = len(toks(p["frase_doc"])); j = min(len(wp) - 1, i + max(0, n - 1))
                     p["g_ini"] = b["ini"] + wp[i][1] - b["off"]; p["g_fim"] = b["ini"] + wp[j][2] - b["off"]
     fim_total = math.ceil(dur * FPS) / FPS
     for k, p in enumerate(planos):
-        p["t1"] = planos[k + 1]["t0"] if k + 1 < len(planos) else fim_total
-        p["from"] = round(p["t0"] * FPS); p["fim_q"] = round(p["t1"] * FPS)
+        p["from"] = round(p["t0"] * FPS)
     for k, p in enumerate(planos):
         p["durq"] = (planos[k + 1]["from"] if k + 1 < len(planos) else round(fim_total * FPS)) - p["from"]
         p["d"] = p["durq"] / FPS
         if p["durq"] < 30: avisos.append(f"{p['id']}: plano curto ({p['d']:.2f} s)")
+        if p["durq"] <= 0: erros.append(f"{p['id']}: duração {p['durq']} (ordem dos tempos)")
 
-    # 3) checagens de filme (regra Ford < 7 s) e velocidade
+    # 3) checagens de filme e velocidade
     for p in planos:
         if p["tipo"] != "Filme": continue
         if p["d"] > FILME_MAX:
-            erros.append(f"{p['id']} {p['bloco']}: trecho de filme com {p['d']:.2f} s (> {FILME_MAX} s, regra do Rodrigo)")
+            erros.append(f"{p['id']} {p['bloco']}: trecho de filme com {p['d']:.2f} s (> {FILME_MAX} s)")
         disp = p["tout"] - p["tin"]
         if disp < p["d"] * p["vel"]:
             v = disp / p["d"]
@@ -410,32 +515,32 @@ def main():
         sys.exit(1)
 
     # 4) mídia + timeline
-    # SEM CRÉDITO EM TELA (Rodrigo, 12/11/2026): a Ficha mostra só data/lugar ou quem aparece; acervo e créditos vão só na descrição.
-    FICHA_ARQ, FICHA_TXT = {}, {"THEN & NOW · NATIONAL PARK SERVICE": "THEN & NOW", "DEVIL'S DEN · HAER SURVEY": "DEVIL'S DEN · SURVEY DRAWING", "JOSEPHINE COBB · NATIONAL ARCHIVES": "JOSEPHINE COBB"}
-
-    def ficha_tela(p):
-        f = p.get("ficha")
-        if not f: return None
-        return [FICHA_ARQ.get(p.get("arq"), FICHA_TXT.get(f[0], f[0]))]
-
     tl = []
-    papeis, grifos_sfx = [], []
+    papeis, grifos_sfx, mudo, estaticas, datilos = [], [], [], [], []
     prev = None
+    est = (False, None)
     for p in planos:
-        q = dict(id=p["id"], bloco=p["bloco"], tipo=p["tipo"], from_=p["from"], dur=p["durq"], ficha=ficha_tela(p), num=p.get("num"))
         tp = p["tipo"]
+        q = dict(id=p["id"], bloco=p["bloco"], tipo=tp, from_=p["from"], dur=p["durq"], num=p.get("num"),
+                 ficha=[p["ficha"]] if p.get("ficha") else None, cred=p.get("credito") or None, selo=p.get("selo"))
         if tp == "KenBurns":
             nome, iw, ih = img_publica(p["arq"]) if not SEM_MIDIA else (p["arq"], 1, 1)
             q.update(img=nome, iw=iw, ih=ih, de=p["de"], para=p["para"], crop=p.get("crop"))
         elif tp == "Filme":
-            q.update(clip=clip(p, p["d"]) if not SEM_MIDIA else "", tin=p["tin"], vel=p["vel"])
+            cn = clip(p, p["d"]) if not SEM_MIDIA else ""
+            ar = 1.33
+            if cn and (V / "public/clips" / cn).exists():
+                o = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries", "stream=width,height", "-of", "csv=p=0", str(V / "public/clips" / cn)],
+                                   capture_output=True, text=True).stdout.strip().split(",")
+                ar = int(o[0]) / int(o[1])
+            q.update(clip=cn, tin=p["tin"], vel=p["vel"], ar=round(ar, 3))
         elif tp == "DocGrifo":
             nome, iw, ih = img_publica(p["arq"]) if not SEM_MIDIA else (p["arq"], 1, 1)
             pag, alvo = cam_doc(p, iw, ih)
             mesmo = prev is not None and prev["tipo"] == "DocGrifo" and prev.get("arq") == p["arq"]
             gi = p.get("g_ini"); gf = p.get("g_fim")
             q.update(img=nome, iw=iw, ih=ih, pag=pag, alvo=alvo, grifo=p.get("grifo"), cont=mesmo and not p.get("regiao"), regiao=p.get("regiao"),
-                     cam_ant=(prev.get("_cam") if mesmo else None),
+                     cam_ant=(prev.get("_cam") if mesmo else None), cred=cred_doc(p["arq"]),
                      g_ini=None if gi is None else round((gi - p["t0"]) * FPS), g_fim=None if gf is None else round((gf - p["t0"]) * FPS))
             p["_cam"] = alvo or pag
             if not mesmo: papeis.append(p["t0"] + 0.05)
@@ -445,26 +550,59 @@ def main():
         elif tp == "Número":
             q.update(valor=p["valor"], rotulo=p.get("rotulo", ""))
         elif tp == "Mapa2D":
-            if p["arq"] != "codigo":
-                nome, iw, ih = img_publica(p["arq"])
-                with Image.open(V / "midia" / p["arq"]) as im0: f0 = iw / im0.width
-                q.update(mapa_base(p, pontos, iw, ih, f0), img=nome, iw=iw, ih=ih, paths=[], naufr=False, num=None, selo=p.get("selo"), nome=p.get("nome"))
-            else:
-                q.update(mapa(p, pontos), selo=p.get("selo"), nome=p.get("nome"))
-        elif tp == "Dupla":
-            n1, w1, h1 = img_publica(p["arq"]) if not SEM_MIDIA else (p["arq"], 1, 1)
-            n2, w2, h2 = img_publica(p["arq2"]) if not SEM_MIDIA else (p["arq2"], 1, 1)
-            q.update(img=n1, iw=w1, ih=h1, img2=n2, iw2=w2, ih2=h2, rot1=p["rot1"], rot2=p["rot2"], selo=p.get("selo"))
-        elif tp == "Cartela":
-            q.update(linhas=p["linhas"], selo=p.get("selo"))
-        elif tp == "EntaoAgora":
-            n1, w1, h1 = img_publica(p["arq"]) if not SEM_MIDIA else (p["arq"], 1, 1)
-            n2, w2, h2 = img_publica(p["arq2"]) if not SEM_MIDIA else (p["arq2"], 1, 1)
+            q.update(mapa(p, pontos))
+        elif tp in ("Dupla", "EntaoAgora"):
+            n1, w1, h1 = arq_img(p["arq"]) if not SEM_MIDIA else (p["arq"], 1, 1)
+            n2, w2, h2 = arq_img(p["arq2"]) if not SEM_MIDIA else (p["arq2"], 1, 1)
             q.update(img=n1, iw=w1, ih=h1, img2=n2, iw2=w2, ih2=h2, rot1=p["rot1"], rot2=p["rot2"],
-                     cred1="", cred2="")   # sem crédito em tela
+                     cred1=p.get("credito") or "", cred2=creditos.get(p["arq2"], ""))
+            if tp == "EntaoAgora": q["cred"] = None
+        elif tp == "Cartela":
+            q.update(linhas=p["linhas"])
+        elif tp in ("Datilo", "Teletipo"):
+            q.update(linhas=p["linhas"]); datilos.append((p["t0"], p["t0"] + min(p["d"] * 0.7, 3.2)))
+        elif tp == "Contador":
+            q.update(rotulo=p.get("rotulo", ""), de_t=p["de_t"], ate_t=p["ate_t"])
+        elif tp == "TresRelogios":
+            q.update(valores=p["valores"], rotulos=p["rotulos"])
+        elif tp == "Arquivo":
+            a = p["bloco"]; E = EPOCA[a]; a0 = epoca_t[a][0]
+            leg = [[round(x0 * FPS), round(x1 * FPS), o, en] for x0, x1, o, en in E["leg"]]
+            fundo = fundo_clip(a, p["d"]) if (a in FUNDOS and not SEM_MIDIA) else None
+            cred = [CRED_AUDIO[a]]
+            if a in FUNDOS and creditos.get(FUNDOS[a][0]): cred.append("Film: " + creditos[FUNDOS[a][0]].replace("Film: ", "").replace("Soviet newsreel footage", "newsreel footage"))
+            ini_q = round((a0 - p["t0"]) * FPS)    # o plano começa 0,05 s antes do áudio
+            q.update(selo=arqs[a]["selo"], rotulo=arqs[a].get("rotulo"), leg=leg, onda=E["onda"], onda_ini=ini_q, fundo=fundo, creds=cred, aid=a, cred=None)
+            mudo.append((a0 - 0.3, a0 + E["dur"] + 0.3))
+            if a in ("A1", "A6"): estaticas.append((p["t0"], 0.7, 0.8)); estaticas.append((a0 + E["dur"] - 0.5, 0.6, 0.8))
+        elif tp == "Glitch":
+            estaticas.append((p["t0"], min(p["d"], 2.6), 1.0)); mudo.append((p["t0"] - 0.1, p["t0"] + p["d"]))
+        elif tp == "Mural":
+            q.update(cards=[
+                ("doc_insag7_p65_tabela-I-I-0123-40.png", "01:23:40", "INSAG-7 · LOG"),
+                ("doc_wilson208405_bryukhanov-0125.png", "01:25", "DIRECTOR'S REPORT"),
+                ("doc_wilson208406_p3_1125-onibus-250-caminhoes.png", "SAT 20:00", "BUS ORDER"),
+                ("doc_politburo-28abr_p1_dolgikh-0130.png", "MON 28 APR", "POLITBURO"),
+                ("doc_upi-28abr1986_p2_tass-announcement.png", "MON 21:00", "TASS · UPI"),
+                ("doc_frus-v05-d220_cia-29abr.png", "TUE 29 APR", "CIA · SPOT COMMENTARY"),
+            ])
+            q["mural_imgs"] = [[img_publica(a)[0], *img_publica(a)[1:], h, r] for a, h, r in q.pop("cards")]
+        # relógio persistente (régua + contador): plano sem `relogio` herda o estado do anterior
+        rel = p.get("relogio")
+        if rel is not None:
+            r = parse_rel(rel[0]) if rel[1] != "oculto" else None
+            est = (r is not None, r)
+        else:
+            est = est if prev is not None else (False, None)
+        vis, cur = est
+        modo = rel[1] if rel else "parado"
+        pv = prev["_rl"] if prev is not None else None
+        q["rl"] = dict(vis=bool(vis), v1=cur[0] if cur else None, aprox=bool(cur[1]) if cur else False, seg=bool(cur[2]) if cur else False,
+                       dia=bool(cur[3]) if cur else False, modo=modo, v0=(pv["v1"] if pv and pv["vis"] else None), oc=bool(pv and pv["vis"]),
+                       sem_cont=tp in ("Contador", "TresRelogios", "DocGrifo"))
+        p["_rl"] = q["rl"]
         q["arq"] = p.get("arq")
         tl.append(q)
-        p["_tl"] = q
         prev = p
     total_q = round(fim_total * FPS)
     (V / "src").mkdir(exist_ok=True)
@@ -472,28 +610,51 @@ def main():
 
     # 5) áudio final
     (V / "audio/final").mkdir(parents=True, exist_ok=True)
-    musica = ducking(voz, trilha(dur)) + sfx(dur, papeis, grifos_sfx)
+    rng = np.random.default_rng(3)
+    mus = trilha(dur)
+    # trilha para: sob cada áudio de época, no botão (Contador "parado" do B01a) e no silêncio do log (Glitch)
+    p005 = next(p for p in planos if p["id"] == "P005"); mudo.append((p005["t0"] - 0.1, p005["t0"] + p005["d"]))
+    g = np.ones(len(mus))
+    for a, b_ in mudo:
+        i0, i1 = max(0, int((a - 0.4) * SR)), min(len(g), int((b_ + 0.5) * SR))
+        env = np.ones(i1 - i0)
+        f = int(0.4 * SR); env[:f] = np.linspace(1, 0.0, f); env[f:-f] = 0.0; env[-f:] = np.linspace(0.0, 1, f)
+        g[i0:i1] = np.minimum(g[i0:i1], env)
+    musica = ducking(voz, mus) * g + sfx(dur, papeis, grifos_sfx + datilos)
+    st = np.zeros(len(musica))
+    for t0, d, gg in estaticas:
+        x = estatica(rng, d, gg); i0 = int(t0 * SR); st[i0:i0 + len(x)] += x[: len(st) - i0]
+    epo_n = epo
     salvar(V / "audio/final/voz.wav", voz)
-    salvar(V / "audio/final/trilha.wav", musica)
-    salvar(V / "audio/final/mix_pre.wav", voz + musica)
+    salvar(V / "audio/final/trilha.wav", musica + st)
+    salvar(V / "audio/final/mix_pre.wav", voz + epo_n + musica + st)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(V / "audio/final/mix_pre.wav"), "-af", "loudnorm=I=-15:TP=-1.5:LRA=11",
                     "-ar", str(SR), "-ac", "2", str(V / "audio/final/mix.wav")], check=True)
 
     # 6) legendas e capítulos
     (V / "out").mkdir(exist_ok=True); (V / "qa").mkdir(exist_ok=True)
-    (V / "out/legendas.srt").write_text(legendas(blocos, whisper))
+    srt = legendas(blocos, whisper)
+    itens = []
+    for bl in srt.strip().split("\n\n"):
+        ln = bl.split("\n"); a_, z_ = ln[1].split(" --> "); itens.append((a_, z_, "\n".join(ln[2:])))
+    for a, (a0, _) in epoca_t.items():
+        for x0, x1, o, en in EPOCA[a]["leg"]:
+            itens.append((ts(a0 + x0), ts(a0 + x1), ("[ARCHIVE AUDIO] " if a != "A5" else "[RECONSTRUCTION] ") + en))
+    itens.sort(key=lambda z: z[0])
+    (V / "out/legendas.srt").write_text("\n".join(f"{i}\n{a} --> {z}\n{p}\n" for i, (a, z, p) in enumerate(itens, 1)))
     caps = []
     for bid, titulo in cap_titulo.items():
         b0 = next(b for b in blocos if b["id"].startswith(bid))
         caps.append(dict(t=0 if not caps else math.floor(b0["ini"] - b0["gap"] * 0.5), titulo=titulo, bloco=bid))
     json.dump(caps, open(V / "qa/capitulos.json", "w"), ensure_ascii=False, indent=1)
     json.dump([dict(id=b["id"], ini=b["ini"], fim=b["fim"]) for b in blocos], open(V / "qa/blocos_tempos.json", "w"), indent=0)
-    json.dump([dict(id=p["id"], bloco=p["bloco"], tipo=p["tipo"], t0=round(p["t0"], 2), d=round(p["d"], 2), em=p["em"]) for p in planos],
+    json.dump([dict(id=p["id"], bloco=p["bloco"], tipo=p["tipo"], t0=round(p["t0"], 2), d=round(p["d"], 2), em=p.get("em", "")) for p in planos],
               open(V / "qa/tempos.json", "w"), ensure_ascii=False, indent=0)
+    json.dump(epoca_t, open(V / "qa/epoca_tempos.json", "w"))
     filmes = [p["d"] for p in planos if p["tipo"] == "Filme"]
     print(json.dumps(dict(duracao=fmt(dur), duracao_s=round(dur, 2), quadros=total_q, planos=len(planos),
                           plano_min_s=round(min(p["d"] for p in planos), 2), plano_max_s=round(max(p["d"] for p in planos), 2),
-                          filme_max_s=round(max(filmes), 2) if filmes else 0, capitulos=[f"{fmt(c['t'])} {c['titulo']}" for c in caps]), ensure_ascii=False, indent=1))
+                          filme_max_s=round(max(filmes), 2) if filmes else 0, epoca=epoca_t, capitulos=[f"{fmt(c['t'])} {c['titulo']}" for c in caps]), ensure_ascii=False, indent=1))
     for a in avisos: print("aviso:", a)
 
 
