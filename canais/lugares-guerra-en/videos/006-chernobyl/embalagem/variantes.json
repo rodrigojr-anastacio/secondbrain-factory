@@ -1,0 +1,26 @@
+[
+ {
+  "letra": "A",
+  "titulo": "Chernobyl Burned for Days Before the World Knew",
+  "padrao_titulo": "<X> Before the World Knew (intervalo)",
+  "padrao_thumb": "numero-estatistica",
+  "thumb_conceito": "dois cartões flip amarelos 67 + HOURS sobre sala de controle quase invisível",
+  "thumb_texto": "67 HOURS"
+ },
+ {
+  "letra": "B",
+  "titulo": "Why Was Chernobyl's Alarm First Raised in Sweden?",
+  "padrao_titulo": "Why ... in Y? (tema)",
+  "padrao_thumb": "mapa-lugar",
+  "thumb_conceito": "mapa escuro da Europa, pluma amarela de Chernobyl até a Suécia ciano terminando num sapato",
+  "thumb_texto": "ON A SHOE"
+ },
+ {
+  "letra": "C",
+  "titulo": "The Bus Order Pripyat Wasn't Told About",
+  "padrao_titulo": "The <documento> X Wasn't Told About (bíblia D adaptado)",
+  "padrao_thumb": "antes-depois",
+  "thumb_conceito": "roda-gigante de Pripyat dividida ao meio, 1986 nova x hoje enferrujada, palavra horizontal na divisória",
+  "thumb_texto": "TEMPORARY"
+ }
+]
