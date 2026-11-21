@@ -57,8 +57,275 @@ def b(t, *s, card=None):
     assert s, f"N{n:03d} sem planos"
     B.append({"t": t.lstrip("§ ").strip(), "s": list(s), "card": card, "ideia": ideia})
 
-PENDENTE = True   # storyboard ainda não escrito
+PENDENTE = False   # storyboard escrito (P abaixo)
+
+# ───────── regras de prompt (Codex; fallback nano-banana) ─────────
+# As refs de estilo vêm do Egito e vazam conteúdo (visual.md 010/011/013): TODA cena leva o cenário ancorado (ING/ESC/FRA/EUA/MUNDO)
+# + SEMTXT; cenas com gente, navio ou praça levam SEMBAND. Mapas: MAPA (sem letras; rótulos no código).
+MAPA = ("painted like a blank parchment terrain map seen from directly above, only coastlines, seas, rivers, mountains and flat colored areas, "
+        "completely blank with no writing anywhere, no letters, no words, no labels, no symbols, no compass, no border, no frame, no flags, no people")
+SEMTXT = ", no readable writing, no letters anywhere, no numbers, no signs, no boards, no logos"
+SEMBAND = ", no flags, no banners, no coats of arms, no emblems"
+GUERRA = ", no blood, no wounds, no bodies, no weapons fired, no violence shown"
+NAO_EG = ", NO pyramids, NO palm trees, NO pharaoh headdress, NO turbans, NO desert dunes, NO camels"
+ING = ", strictly England: green fields, oak trees, grey stone and timber houses, cloudy sky" + NAO_EG
+ESC = ", strictly Scotland: grey stone, heather hills, cold misty light" + NAO_EG
+FRA = ", strictly northern France: green fields, stone castles, slate roofs" + NAO_EG
+MOD = ", ordinary modern everyday setting of today" + NAO_EG + ", NO crowns, NO safari helmet"
+LON = ", strictly London of the time, grey stone and brick buildings by the river Thames" + NAO_EG
+def ANO(a): return f", period-accurate {a}: clothes, buildings and objects of that time only, no modern objects"
+PAPEL = ", the document is drawn as plain wavy lines, completely illegible, no letters, no words"
+COROA = "a gold English crown with arches, a small cross on top and a white ermine band"
+# Personagens (bíblia: rosto nunca descrito; "round-white-head cartoon …"; nomes reais só no rótulo do código)
+GUIA = "a cheerful little cartoon narrator character with a round white head and dot eyes, wearing an ordinary brown felt hat and a plain brown jacket"
+CAREY = "a round-white-head cartoon Elizabethan English nobleman with a short flat brown beard shape, a white ruff collar, a dark riding cloak and tall boots"
+ELIZ = "a round-white-head cartoon elderly Queen Elizabeth I with a red curly wig shape, a big white ruff and a pearl-covered dress"
+JAMES = "a round-white-head cartoon King James VI of Scotland with a short flat reddish beard shape, a dark doublet and a tall black hat"
+CNUT = "a round-white-head cartoon Viking-age king with a simple flat blond beard shape, a plain gold circlet and a red cloak"
+WILL1 = "a round-white-head cartoon Norman duke with short dark hair, a red cloak over chain mail"
+JOHN = "a round-white-head cartoon medieval King John with a short flat dark beard shape and a simple gold crown"
+HENRY2 = "a round-white-head cartoon 12th-century king with a short flat reddish beard shape, a simple gold crown and a green travelling cloak"
+MONT = "a round-white-head cartoon 13th-century nobleman with short dark hair, chain mail and a plain white surcoat"
+HENRY4 = "a round-white-head cartoon 14th-century king with a short flat forked brown beard shape, a gold crown and a long blue robe"
+TUDOR = "a round-white-head cartoon 15th-century nobleman with shoulder-length dark hair, a black cap and a plain breastplate"
+HENRY8 = "a round-white-head cartoon stout King Henry VIII with a short flat reddish beard shape, a wide flat black cap with a feather and a broad padded gold coat"
+CHARLES1 = "a round-white-head cartoon King Charles I with long dark hair, a small pointed beard shape and a wide white lace collar"
+HAMPDEN = "a round-white-head cartoon 17th-century English country gentleman with shoulder-length brown hair, a plain dark coat and a white collar"
+WILL3 = "a round-white-head cartoon slim Dutch prince of 1688 with a long dark curly wig, a dark blue coat and an orange sash"
+MARY2 = "a round-white-head cartoon young queen of 1689 with dark curled hair and a blue silk dress"
+GEORGE1 = "a round-white-head cartoon King George I of 1714, middle-aged, with a white powdered wig and a plain blue coat"
+WALPOLE = "a round-white-head cartoon stout 18th-century statesman with a white wig, a red coat and a silver star on the chest"
+NAPO = "a round-white-head cartoon Napoleon with a black bicorne hat, a grey coat and a hand tucked in his waistcoat"
+VICT = "a round-white-head cartoon young Queen Victoria with dark hair in a bun and a small crown"
+ALBERT = "a round-white-head cartoon Prince Albert with dark side whiskers and a dark uniform"
+GEORGE5 = "a round-white-head cartoon King George V with a short flat neat beard shape, in a dark naval uniform"
+NEGOC = "a round-white-head cartoon very tall thin British economist of 1945 with a small mustache shape, a dark suit and a bowler hat"
+REI23 = "a round-white-head cartoon elderly king of 2023 with thin white hair, in a gold coronation robe"
+PARL = "round-white-head cartoon English members of parliament on wooden benches"
+
 P = {}
+# HOOK
+P[1] = ["richmond_night|Richmond Palace by the Thames at night in March 1603, Tudor towers with many chimneys, a few lit windows, cold mist" + ING + ANO("1603") + SEMTXT + SEMBAND + "@@RICHMOND, 1603",
+        f"queen_bed|A dim royal bedchamber of 1603 with a big four-poster bed and candles, courtiers with bowed heads standing quietly around it, the bed curtains half closed" + ING + ANO("1603") + SEMTXT + SEMBAND,
+        f"carey_viewer|{CAREY} looking straight at the viewer in a candle-lit palace corridor, serious, holding his riding gloves" + ING + ANO("1603") + SEMTXT + SEMBAND + "@@ROBERT CAREY",
+        "empty_throne_1603|An empty carved wooden throne in a Tudor hall, a small crown on a red cushion beside it, morning light" + ING + ANO("1603") + SEMTXT + SEMBAND,
+        "stable_dawn|A stable yard at dawn, a groom holding a saddled horse ready, breath steaming in the cold" + ING + ANO("1603") + SEMTXT + SEMBAND]
+P[2] = [f"carey_gallop|{CAREY} galloping hard on a brown horse along a muddy road at night under the moon, cloak flying" + ING + ANO("1603") + SEMTXT + SEMBAND,
+        "map_london_edinburgh|Map of Great Britain with a thin dotted line running from London in the south to Edinburgh in the north, " + MAPA,
+        f"carey_change_horse|{CAREY} jumping from a tired horse to a fresh one at a roadside inn, exhausted, mud on his boots" + ING + ANO("1603") + SEMTXT + SEMBAND,
+        f"holyrood_arrival|{CAREY} covered in mud, kneeling before {JAMES} in a stone palace hall at night, candles" + ESC + ANO("1603") + SEMTXT + SEMBAND + "@@EDIMBURGO",
+        "border_battle_ghost|Symbolic scene: on a hill on the border, two groups of round-white-head cartoon soldiers of the 1500s, English and Scottish, glaring at each other across a stream, spears held upright, no fighting" + ESC + ANO("1513") + SEMTXT + SEMBAND + GUERRA]
+P[3] = [f"guide_question|{GUIA} standing on the white cliffs of the English coast looking at the sea with a puzzled hand on his chin" + ING + SEMTXT + SEMBAND,
+        "map_empire_1920|Map of the whole world with about a quarter of the land shaded in a flat pink color across Canada, Africa, India and Australia, the rest pale, " + MAPA,
+        "crown_from_sea|Symbolic scene: " + COROA + " floating over a grey sea toward a small green island, seen from above the waves, nobody in the picture" + ING + SEMTXT + SEMBAND,
+        "tiny_island_globe|A small old globe on a wooden table with a tiny island lit by a ray of light, the rest of the globe in shadow, nobody in the picture" + ING + SEMTXT]
+P[4] = [f"cnut_landing|Viking longships landing on a grey English beach, {CNUT} stepping onto the sand" + ING + ANO("1016") + SEMTXT + SEMBAND + GUERRA,
+        f"william_landing|Norman ships with square sails landing horses on an English beach, {WILL1} on the shore" + ING + ANO("1066") + SEMTXT + SEMBAND + GUERRA,
+        "coronation_fire_glimpse|Night view of an old Romanesque stone church with several wooden houses next to it on fire, orange glow, people running away safely" + LON + ANO("1066") + SEMTXT + SEMBAND + GUERRA,
+        f"henry2_arrives|{HENRY2} arriving on horseback through a castle gate, welcomed by bowing English barons" + ING + ANO("1154") + SEMTXT + SEMBAND,
+        f"william3_ship|{WILL3} standing on the deck of a big sailing ship of 1688 with plain orange pennants, the English coast ahead" + ING + ANO("1688") + SEMTXT + SEMBAND,
+        f"george1_coach|{GEORGE1} stepping out of a gilded coach in front of an English palace, courtiers bowing" + LON + ANO("1714") + SEMTXT + SEMBAND]
+P[5] = ["coins_on_table|A pile of gold and silver coins on a wooden table, a royal hand hovering over them but stopped by a parchment held up by other hands" + ING + ANO("1689") + PAPEL + SEMTXT + SEMBAND,
+        f"william3_reads|{WILL3} reading a long parchment with a worried frown while men in wigs watch him" + LON + ANO("1689") + PAPEL + SEMTXT + SEMBAND,
+        "quill_sign|Close view of a royal hand holding a quill over a long parchment, a red wax seal beside it" + ING + PAPEL + SEMTXT + SEMBAND,
+        "tax_chest_locked|A heavy wooden tax chest with a big padlock and a parchment tied to it with a red ribbon, nobody in the picture" + ING + PAPEL + SEMTXT]
+P[6] = ["map_britain_blank|Map of Great Britain and Ireland with the sea around, France and the Low Countries at the edge, " + MAPA,
+        "island_ships_arriving|Bird's-eye view of a green island coast with small boats of many shapes arriving from every direction, nobody visible" + ING + SEMTXT + SEMBAND,
+        f"guide_island|{GUIA} sitting on a rock on a green English cliff, waving at the viewer, sea behind" + ING + SEMTXT + SEMBAND]
+# 1. A ILHA QUE TODO MUNDO ATRAVESSA
+P[7] = [f"cnut_throne|{CNUT} sitting on a wooden throne in a timber Anglo-Saxon hall with a fire in the middle, warriors and English nobles around" + ING + ANO("1016") + SEMTXT + SEMBAND + "@@CANUTO",
+        "map_north_sea_empire|Map of the North Sea with England, Denmark and Norway shaded in the same flat red color, the rest pale, " + MAPA,
+        "longships_north_sea|Three Viking longships with striped sails crossing a grey North Sea under heavy clouds" + ANO("1016") + SEMTXT + SEMBAND + NAO_EG,
+        f"cnut_crown_close|Close view of {CNUT} touching the gold circlet on his head, satisfied" + ING + ANO("1016") + SEMTXT + SEMBAND,
+        "anglo_saxon_village|An Anglo-Saxon village of wooden houses with thatched roofs and a timber church, sheep and fields" + ING + ANO("1016") + SEMTXT + SEMBAND]
+P[8] = ["roman_soldiers_beach|Round-white-head cartoon Roman legionaries with plain shields, no letters on the shields, wading ashore on a green English coast with white cliffs" + ING + ANO("43 AD") + SEMTXT + SEMBAND,
+        "saxon_boats|Round-white-head cartoon Anglo-Saxon settlers in simple tunics arriving in long rowing boats on a muddy English river bank with their cows" + ING + ANO("450") + SEMTXT + SEMBAND,
+        "viking_raid_coast|Viking longships approaching a quiet English coastal monastery at dawn, monks looking up from the field" + ING + ANO("800") + SEMTXT + SEMBAND + GUERRA,
+        "alfred_king|A round-white-head cartoon Anglo-Saxon king with a short flat beard shape and a simple gold band, standing on a wooden palisade looking out over a marsh" + ING + ANO("878") + SEMTXT + SEMBAND + "@@ALFREDO, O GRANDE",
+        "map_arrows_island|Map of Great Britain with five arrows of different colors coming from the sea and the continent toward the island, " + MAPA,
+        "beach_many_footprints|A wet English beach covered in footprints of many different shoes and boots going inland, nobody in the picture" + ING + SEMTXT]
+P[9] = [f"guide_class|{GUIA} in a modern classroom pointing at three simple drawings on a blank board: the sky with a cloud, an egg and a knife, no letters" + SEMTXT + SEMBAND + MOD,
+        "viking_words|Symbolic scene: a Viking warrior handing an egg and a knife to a smiling English farmer, a big sky with clouds above them" + ING + ANO("900") + SEMTXT + SEMBAND,
+        "rune_stone_field|A tall old carved stone in an English field with simple decorative swirls and no letters, morning mist" + ING + SEMTXT]
+P[10] = [f"cnut_beach_throne|{CNUT} seated on a wooden throne placed on a wet beach at the water's edge, courtiers in fine clothes around him" + ING + ANO("1020") + SEMTXT + SEMBAND,
+         f"courtiers_flatter|Round-white-head cartoon courtiers of 1020 bowing and smiling to {CNUT}, one of them pointing proudly at the sea" + ING + ANO("1020") + SEMTXT + SEMBAND,
+         f"cnut_wet_feet|{CNUT} with the waves washing over his feet and his robe, looking calmly back at his surprised courtiers, raising one finger as if teaching" + ING + ANO("1020") + SEMTXT + SEMBAND,
+         f"cnut_arrogant_myth|Comic symbolic scene: {CNUT} on a beach shouting at a huge wave with an angry face, drawn inside a thought bubble" + ING + SEMTXT + SEMBAND,
+         "medieval_chronicler|A round-white-head cartoon medieval monk writing a chronicle by candlelight in a stone room, the page with plain wavy lines" + ING + ANO("1130") + PAPEL + SEMTXT + SEMBAND,
+         "waves_on_throne|Close view of waves running around the wooden legs of an empty throne on the sand" + ING + SEMTXT,
+         "courtiers_shocked|Round-white-head cartoon courtiers of 1020 with open mouths, holding up their wet robes on a beach" + ING + ANO("1020") + SEMTXT + SEMBAND,
+         f"cnut_crown_off|{CNUT} taking off his gold circlet and holding it low, humble, on the beach" + ING + ANO("1020") + SEMTXT + SEMBAND]
+P[11] = [f"cnut_smaller|{CNUT} kneeling humbly before a small stone altar in an English church, his crown placed on the altar" + ING + ANO("1030") + SEMTXT + SEMBAND,
+         "english_nobles_nod|Round-white-head cartoon Anglo-Saxon nobles nodding in approval at the back of a church" + ING + ANO("1030") + SEMTXT + SEMBAND]
+P[12] = ["cnut_tomb|A simple stone tomb in a quiet English cathedral with a small gold circlet carved on top, candles" + ING + ANO("1035") + SEMTXT + SEMBAND,
+         "sons_quarrel|Two round-white-head cartoon young Viking-age princes pulling a red cloak from opposite sides, comic quarrel" + ING + ANO("1036") + SEMTXT + SEMBAND,
+         "edward_crowned|A round-white-head cartoon pious English king with a long flat white beard shape and a gold crown, praying in a church" + ING + ANO("1042") + SEMTXT + SEMBAND,
+         f"william_across_channel|{WILL1} standing on a French cliff looking across the sea toward England with his arms crossed" + FRA + ANO("1060") + SEMTXT + SEMBAND,
+         "map_channel|Map of the English Channel with southern England and Normandy facing each other across the water, " + MAPA + "@@NORMANDIA"]
+# 2. GRITOS EM DUAS LÍNGUAS
+P[13] = ["westminster_1066_ext|The old Romanesque Westminster Abbey of 1066 by the Thames in winter, round arches, a low square tower, snow on the roofs, no Gothic spires" + LON + ANO("1066") + SEMTXT + SEMBAND + "@@WESTMINSTER, 1066",
+         "hastings_aftermath_symbol|Symbolic scene: a dented Norman helmet and a broken Saxon shield lying on a grassy hill at sunset, nobody in the picture" + ING + ANO("1066") + SEMTXT + SEMBAND + GUERRA,
+         f"william_robing|{WILL1} being dressed in a red coronation robe by two monks inside a stone church, nervous" + LON + ANO("1066") + SEMTXT + SEMBAND + "@@GUILHERME DA NORMANDIA",
+         "abbey_interior_crowd|Inside a Romanesque church of 1066 with round arches and thick columns, crowded with English and Norman nobles holding candles" + LON + ANO("1066") + SEMTXT + SEMBAND]
+P[14] = ["bishop_french|A round-white-head cartoon Norman bishop with a mitre raising his hands and calling out to the crowd inside a Romanesque church" + LON + ANO("1066") + SEMTXT + SEMBAND,
+         "archbishop_english|A round-white-head cartoon old English archbishop with a white beard shape and a mitre repeating the question to the crowd" + LON + ANO("1066") + SEMTXT + SEMBAND,
+         "crowd_shouting_yes|A crowd of round-white-head cartoon nobles inside a church raising their arms and shouting with joy" + LON + ANO("1066") + SEMTXT + SEMBAND,
+         "crown_descends|Close view of a bishop's hands lowering " + COROA + " onto the head of a seated man in a red cloak, candlelight" + LON + ANO("1066") + SEMTXT + SEMBAND]
+P[15] = ["norman_guards_outside|Round-white-head cartoon Norman soldiers with conical helmets and kite shields standing outside a church door in the snow, hearing loud shouts, alarmed" + LON + ANO("1066") + SEMTXT + SEMBAND,
+         "houses_fire|Wooden houses next to an old stone church catching fire at dusk, orange flames and smoke, people running away safely" + LON + ANO("1066") + SEMTXT + SEMBAND + GUERRA,
+         "church_empties|People rushing out of a church door into the snowy street, smoke in the sky, the inside nearly empty" + LON + ANO("1066") + SEMTXT + SEMBAND + GUERRA,
+         f"william_trembling|{WILL1} sitting alone on a throne in a nearly empty church, crown on his head, trembling, orange light coming through the door" + LON + ANO("1066") + SEMTXT + SEMBAND,
+         "chronicler_orderic|A round-white-head cartoon medieval monk writing at a desk in a Norman abbey, looking up as if remembering, page with plain wavy lines" + FRA + ANO("1120") + PAPEL + SEMTXT + SEMBAND]
+P[16] = [f"guide_applause|{GUIA} in a modern theatre clapping happily at a speaker talking in a foreign language, confused smile" + SEMTXT + SEMBAND + MOD,
+         "guards_misunderstand|Comic scene: a round-white-head cartoon Norman guard with a cupped hand at his ear outside a church door, frowning, sound lines coming from the door" + LON + ANO("1066") + SEMTXT + SEMBAND]
+P[17] = ["motte_castle|A Norman wooden castle on a high earth mound with a stockade, and a stone keep being built nearby, English workers carrying stones" + ING + ANO("1070") + SEMTXT + SEMBAND,
+         "norman_lords_land|Round-white-head cartoon Norman knights receiving rolled land charters from the king in a hall" + ING + ANO("1070") + PAPEL + SEMTXT + SEMBAND,
+         "domesday_counting|Round-white-head cartoon royal clerks in an English village counting pigs, cows and ploughs, writing on parchment, peasants watching" + ING + ANO("1086") + PAPEL + SEMTXT + SEMBAND,
+         "domesday_book|A huge old leather-bound book open on a wooden table, the pages with plain wavy lines, nobody in the picture" + ING + PAPEL + SEMTXT,
+         "fiscal_chickens|Comic scene: a round-white-head cartoon medieval clerk kneeling in a farmyard counting chickens one by one with a quill, a peasant woman with hands on hips" + ING + ANO("1086") + PAPEL + SEMTXT + SEMBAND]
+P[18] = ["norman_court_french|A Norman royal court in a stone hall: nobles talking at a long table, an English servant carrying a tray looking lost" + ING + ANO("1100") + SEMTXT + SEMBAND,
+         "money_crossing_channel|Symbolic scene: a small ship crossing the Channel from England to France loaded with chests of coins, nobody visible" + SEMTXT + SEMBAND + NAO_EG,
+         "map_angevin|Map of England and the western half of France shaded in the same flat red color, the rest of France pale, " + MAPA]
+# 3. O REI PRESO NA ILHA
+P[19] = ["rouen_1204|The walled medieval city of Rouen on the river Seine in June 1204 with a big Romanesque cathedral and stone walls, French soldiers at the open gates" + FRA + ANO("1204") + SEMTXT + SEMBAND,
+         "keys_handed|Round-white-head cartoon town leaders of Rouen handing a big iron key to a French knight at the gate" + FRA + ANO("1204") + SEMTXT + SEMBAND,
+         f"john_bad_news|{JOHN} receiving a letter from a messenger in an English castle and throwing up his hands in despair" + ING + ANO("1204") + PAPEL + SEMTXT + SEMBAND + "@@JOÃO"]
+P[20] = [f"henry2_portrait|{HENRY2} riding through a French town with a big retinue, people bowing" + FRA + ANO("1160") + SEMTXT + SEMBAND + "@@HENRIQUE II",
+         "le_mans_cathedral|The medieval town of Le Mans with its Romanesque cathedral on a hill, timber houses" + FRA + ANO("1133") + SEMTXT + SEMBAND + "@@LE MANS",
+         "map_angevin#médio-esq"]
+P[21] = [f"john_island|{JOHN} standing alone on the white cliffs of Dover looking toward France across the sea, sulking" + ING + ANO("1205") + SEMTXT + SEMBAND,
+         "tax_collectors|Round-white-head cartoon royal tax collectors loading sacks of coins onto a cart in front of worried barons and farmers" + ING + ANO("1210") + SEMTXT + SEMBAND,
+         "empty_chest_john|An open royal treasure chest, empty except for one coin, in a dim castle room" + ING + SEMTXT]
+P[22] = ["barons_angry|Round-white-head cartoon English barons in chain mail arguing loudly around a table in a castle hall" + ING + ANO("1215") + SEMTXT + SEMBAND,
+         f"runnymede_tent|{JOHN} sitting unhappily under a tent in a green meadow by the river, barons standing around him holding a long parchment" + ING + ANO("1215") + PAPEL + SEMTXT + SEMBAND,
+         "seal_wax|Close view of a big royal wax seal being pressed onto a parchment" + ING + PAPEL + SEMTXT + SEMBAND,
+         "pope_annuls|A round-white-head cartoon medieval pope in white tearing a parchment in half in a Roman-style palace room" + ANO("1215") + PAPEL + SEMTXT + SEMBAND + ", NO pyramids, NO palm trees"]
+P[23] = [f"montfort_portrait|{MONT} on horseback in front of an English army camp, determined" + ING + ANO("1264") + SEMTXT + SEMBAND + "@@SIMON DE MONTFORT",
+         "parliament_1265|Inside a medieval hall at Westminster: barons in fine robes and, for the first time, plainly dressed townsmen and knights sitting on benches together" + LON + ANO("1265") + SEMTXT + SEMBAND,
+         "townsmen_arrive|Round-white-head cartoon medieval townsmen in simple tunics and hats walking into a stone hall, a little shy" + LON + ANO("1265") + SEMTXT + SEMBAND]
+P[24] = [f"guide_piece1|{GUIA} holding up the first piece of a big jigsaw puzzle shaped like a crown, smiling" + SEMTXT + SEMBAND + MOD,
+         "king_asks_money|Comic scene: a round-white-head cartoon medieval king holding out an empty purse to a group of townsmen, who hold out a parchment in return" + ING + ANO("1265") + PAPEL + SEMTXT + SEMBAND,
+         f"guide_favor|{GUIA} in a modern kitchen holding a cake while a neighbor asks him for a favor, both smiling, ordinary modern clothes" + SEMTXT + SEMBAND + MOD]
+P[25] = ["french_speaking_parliament|Medieval nobles in a stone hall arguing, speech bubbles with simple pictures of a French castle, no letters" + LON + ANO("1300") + SEMTXT + SEMBAND]
+# 4. A LÍNGUA VOLTA
+P[26] = ["parliament_1362|A medieval English parliament in a stone hall at Westminster with a king on a raised seat and lords and commoners on benches" + LON + ANO("1362") + SEMTXT + SEMBAND,
+         "court_english|A medieval English courtroom: a judge in red robes listening to a peasant speaking, the peasant relieved" + ING + ANO("1362") + SEMTXT + SEMBAND,
+         "statute_french|Close view of a medieval scribe writing a long parchment with a smug little smile, plain wavy lines" + ING + ANO("1362") + PAPEL + SEMTXT + SEMBAND]
+P[27] = ["peasant_confused_court|A round-white-head cartoon medieval English peasant in a courtroom scratching his head while lawyers in robes talk over him" + ING + ANO("1350") + SEMTXT + SEMBAND,
+         "hundred_years_war|Symbolic scene: English longbowmen and French knights facing each other across a muddy field, no fighting" + FRA + ANO("1346") + SEMTXT + SEMBAND + GUERRA,
+         "map_france_war|Map of France with English-held areas in flat red shrinking toward the coast, " + MAPA]
+P[28] = [f"henry4_claims|{HENRY4} standing in front of parliament in Westminster Hall, speaking with his hand on his chest" + LON + ANO("1399") + SEMTXT + SEMBAND + "@@HENRIQUE IV",
+         "calais_walls|The walled port of Calais with English ships in the harbour, the rest of the French coast behind in shadow" + FRA + ANO("1453") + SEMTXT + SEMBAND,
+         "soldiers_return|Tired round-white-head cartoon English soldiers of 1453 boarding ships to go home, carts with empty barrels" + FRA + ANO("1453") + SEMTXT + SEMBAND + GUERRA]
+P[29] = ["roses_conflict|Symbolic scene: a red rose and a white rose on thorny stems crossed like swords over a green English hill" + ING + SEMTXT + SEMBAND,
+         "two_families_table|Two groups of round-white-head cartoon 15th-century nobles, one with red roses and one with white roses pinned to their coats, glaring at each other across a table" + ING + ANO("1460") + SEMTXT + SEMBAND]
+P[30] = [f"tudor_exile|{TUDOR} looking out of a castle window in Brittany at the sea, waiting" + FRA + ANO("1480") + SEMTXT + SEMBAND + "@@HENRIQUE TUDOR",
+         "milford_landing|Ships landing soldiers on a rocky Welsh shore at sunset, mercenaries with pikes stepping onto the beach" + ANO("1485") + SEMTXT + SEMBAND + GUERRA + ", strictly Wales: green rocky coast" + NAO_EG,
+         "crown_in_bush|Symbolic scene: " + COROA + " caught in a hawthorn bush on a battlefield at sunset, nobody in the picture" + ING + SEMTXT + SEMBAND]
+P[31] = [f"tudor_desk|{TUDOR}, now king with a crown, counting coins at a desk with a ledger, suspicious" + ING + ANO("1495") + PAPEL + SEMTXT + SEMBAND]
+# 5. O REI FORTE QUE PRECISOU DO PAPEL
+P[32] = [f"henry8_angry|{HENRY8} in a rich palace room crumpling a letter with a red papal seal, furious" + LON + ANO("1529") + PAPEL + SEMTXT + SEMBAND + "@@HENRIQUE VIII",
+         "papal_letter|Close view of a parchment with a red seal and a ribbon lying on a marble floor" + PAPEL + SEMTXT + SEMBAND + NAO_EG,
+         f"henry8_waiting|{HENRY8} tapping his foot impatiently on his throne, looking at a big hourglass" + LON + ANO("1529") + SEMTXT + SEMBAND]
+P[33] = [f"henry8_parliament|{HENRY8} entering a hall full of {PARL}, raising one hand" + LON + ANO("1529") + SEMTXT + SEMBAND,
+         "rome_chain_broken|Symbolic scene: a heavy iron chain between a small English church and a distant hill city breaks in the middle, nobody in the picture" + ING + SEMTXT + SEMBAND]
+P[34] = ["parliament_shadow|Symbolic scene: in a Tudor hall, the shadow of the parliament benches on the wall grows bigger than the throne" + LON + ANO("1534") + SEMTXT + SEMBAND,
+         "monastery_empty|An empty stone abbey with no roof in a green English valley, sheep grazing in the nave" + ING + ANO("1540") + SEMTXT + SEMBAND,
+         "gentry_buy_land|Round-white-head cartoon Tudor gentlemen in black coats paying gold coins to a royal clerk for a land deed in front of an abbey" + ING + ANO("1540") + PAPEL + SEMTXT + SEMBAND]
+P[35] = [f"guide_keys|{GUIA} handing a ring of house keys to a smiling neighbor at the door of a modern house, potted plants beside" + SEMTXT + SEMBAND + MOD,
+         f"guide_keys_gone|{GUIA} knocking on a neighbor's door with an awkward smile, the neighbor now relaxed on a sofa inside, modern house" + SEMTXT + SEMBAND + MOD]
+P[36] = [f"elizabeth_throne|{ELIZ} on a throne in a rich Tudor hall, holding a scepter, proud" + LON + ANO("1588") + SEMTXT + SEMBAND + "@@ELIZABETH I",
+         "armada_storm|Spanish galleons of 1588 scattered by a storm in a grey sea, small English ships in the distance" + ANO("1588") + SEMTXT + SEMBAND + GUERRA + NAO_EG,
+         "carey_gallop#médio-dir"]
+P[37] = [f"james_divine|{JAMES} pointing up at the sky with a halo of light around him, confident, in a Scottish palace" + ESC + ANO("1603") + SEMTXT + SEMBAND]
+# 6. O NOME RECUSADO
+P[38] = [f"james_commons|{JAMES}, now with " + COROA + ", standing before the House of Commons in a dark wooden chamber, arms open, asking" + LON + ANO("1604") + SEMTXT + SEMBAND,
+         "commons_no|Round-white-head cartoon members of the House of Commons of 1604 on green benches shaking their heads, some with crossed arms" + LON + ANO("1604") + SEMTXT + SEMBAND,
+         "map_great_britain_one|Map of Great Britain with England and Scotland shaded in two different flat colors and a dotted line between them, " + MAPA]
+P[39] = ["holyrood_arrival#médio-esq",
+         "secret_letters|A secret letter being hidden inside a hollow book by a candle, nobody visible" + ESC + ANO("1601") + PAPEL + SEMTXT + SEMBAND,
+         f"james_surprised|{JAMES} sitting on a throne with an offended open mouth, a parchment in his lap" + LON + ANO("1604") + PAPEL + SEMTXT + SEMBAND]
+P[40] = ["buckinghamshire_manor|An English country manor house of brick in Buckinghamshire with green hills and sheep" + ING + ANO("1637") + SEMTXT + SEMBAND,
+         f"hampden_refuses|{HAMPDEN} at his door politely refusing to hand coins to a royal tax collector holding a ledger" + ING + ANO("1637") + PAPEL + SEMTXT + SEMBAND + "@@JOHN HAMPDEN",
+         "ship_money_ship|A big English warship of the 1630s in a harbour, paid for by the new tax, sailors on deck" + ING + ANO("1637") + SEMTXT + SEMBAND,
+         "court_seven_five|Twelve round-white-head cartoon judges in red robes and wigs sitting in two groups, seven on the left and five on the right, in a court hall" + LON + ANO("1638") + SEMTXT + SEMBAND]
+P[41] = [f"charles1_alone|{CHARLES1} sitting alone in a huge empty parliament chamber with dust on the benches" + LON + ANO("1635") + SEMTXT + SEMBAND + "@@CARLOS I",
+         f"guide_condo|{GUIA} at a modern apartment building lobby reading a notice on the wall about a new fee, frowning, the notice blank" + SEMTXT + SEMBAND + MOD,
+         "scots_army|Round-white-head cartoon Scottish soldiers of 1640 marching over a heather hill with pikes" + ESC + ANO("1640") + SEMTXT + SEMBAND + GUERRA]
+P[42] = ["civil_war_field|Symbolic scene: two armies of the English Civil War facing each other across a green field, one in plain armour and one with feathered hats, no fighting" + ING + ANO("1642") + SEMTXT + SEMBAND + GUERRA,
+         "banqueting_house|The Banqueting House in Whitehall on a cold January morning of 1649, a crowd waiting silently in front, a black-draped wooden platform without people" + LON + ANO("1649") + SEMTXT + SEMBAND + GUERRA]
+P[43] = [f"guide_piece_question|{GUIA} holding a jigsaw puzzle piece and looking at an empty throne with a puzzled face" + LON + SEMTXT + SEMBAND,
+         "restoration_parade|A joyful parade in London in 1660 welcoming a king in a carriage, people waving hats" + LON + ANO("1660") + SEMTXT + SEMBAND,
+         "catholic_king|A round-white-head cartoon King James II with a long dark wig praying with a rosary in a chapel, Protestant bishops watching worried" + LON + ANO("1687") + SEMTXT + SEMBAND]
+# 7. A INVASÃO POR CONVITE
+P[44] = ["brixham_landing|A Dutch fleet of 1688 anchored in a Devon bay with green hills, soldiers in boats rowing ashore, plain orange pennants" + ING + ANO("1688") + SEMTXT + SEMBAND,
+         "standard_orange|A big plain orange standard with a simple white border carried by a round-white-head cartoon Dutch soldier on a beach, no letters on the flag" + ING + ANO("1688") + SEMTXT,
+         "standard_promise|Close view of an old silk banner waving in the wind, embroidered only with a simple decorative border and blank space, no letters" + ING + SEMTXT]
+P[45] = [f"william3_beach|{WILL3} stepping onto an English beach from a rowing boat, raising his hat" + ING + ANO("1688") + SEMTXT + SEMBAND + "@@GUILHERME DE ORANGE",
+         "invitation_letter_seven|A secret letter being sealed with seven different wax seals on a table by candlelight" + ING + ANO("1688") + PAPEL + SEMTXT + SEMBAND,
+         "james2_flees|A round-white-head cartoon king with a long dark wig hurrying onto a small boat at night on the Thames, holding his crown under his arm" + LON + ANO("1688") + SEMTXT + SEMBAND]
+P[46] = ["banqueting_reading|Inside a grand Whitehall hall in 1689, a clerk reading a long parchment aloud before a prince and princess standing under a canopy, lords listening" + LON + ANO("1689") + PAPEL + SEMTXT + SEMBAND,
+         "declaration_clause|Close view of a long parchment with one line underlined in red, plain wavy lines" + PAPEL + SEMTXT + SEMBAND + ING]
+P[47] = [f"william3_map_france|{WILL3} pointing at a map of France on a table with generals around him" + LON + ANO("1694") + SEMTXT + SEMBAND,
+         "merchants_meeting|Round-white-head cartoon London merchants of 1694 in wigs signing a subscription book in a hall, coins on the table" + LON + ANO("1694") + PAPEL + SEMTXT + SEMBAND + "@@BANCO DA INGLATERRA"]
+P[48] = ["king_runs_debt|Comic scene: a round-white-head cartoon king running away with a bag of money while merchants chase him with bills" + ING + ANO("1650") + PAPEL + SEMTXT + SEMBAND,
+         "parliament_pays|Members of parliament of 1700 handing back coins with interest to merchants across a table, everyone calm" + LON + ANO("1700") + SEMTXT + SEMBAND,
+         f"guide_bank|{GUIA} at a modern bank counter smiling as a clerk hands him a small paper with a down arrow drawing, no letters" + SEMTXT + SEMBAND + MOD]
+P[49] = [f"guide_piece2|{GUIA} fitting a second jigsaw piece into the first one, both pieces showing a crown and a parchment" + SEMTXT + SEMBAND + MOD,
+         "queen_anne_grief|A round-white-head cartoon queen of 1714 in a dark dress sitting sadly by a window, an empty cradle beside her" + LON + ANO("1714") + SEMTXT + SEMBAND,
+         "map_hanover|Map of north-western Europe with Britain on the left and a small area of northern Germany highlighted across the sea, " + MAPA + "@@HANÔVER"]
+# 8. O REI QUE PRECISA DE LICENÇA
+P[50] = ["act_settlement_writing|Members of parliament of 1701 writing a long list on a parchment at a big table, one of them counting on his fingers" + LON + ANO("1701") + PAPEL + SEMTXT + SEMBAND,
+         "no_leave_island|Symbolic scene: a gold crown on a small island with a closed gate at the pier, nobody in the picture" + ING + SEMTXT + SEMBAND]
+P[51] = [f"guide_boss_list|{GUIA} in a modern office handing a very long paper list to a new boss with a briefcase, the paper blank" + SEMTXT + SEMBAND + MOD,
+         f"george1_arrives|{GEORGE1} stepping off a boat at Greenwich with German attendants, English lords bowing" + LON + ANO("1714") + SEMTXT + SEMBAND + "@@JORGE I",
+         f"george1_hanover|{GEORGE1} in a travelling coach looking happily at a German town with half-timbered houses" + ANO("1716") + SEMTXT + SEMBAND + ", strictly northern Germany" + NAO_EG]
+P[52] = ["cabinet_empty_chair|Ministers of 1720 around a table with an empty royal chair at the head" + LON + ANO("1720") + SEMTXT + SEMBAND,
+         f"walpole_head|{WALPOLE} sitting at the head of a table full of papers, confident, ministers listening" + LON + ANO("1721") + PAPEL + SEMTXT + SEMBAND + "@@ROBERT WALPOLE",
+         f"walpole_refuses|{WALPOLE} waving his hand in refusal with an offended face while a man offers him a fancy title scroll" + LON + ANO("1730") + PAPEL + SEMTXT + SEMBAND]
+P[53] = ["navy_dockyard|A huge 18th-century English dockyard with warships being built, many workers" + ING + ANO("1750") + SEMTXT + SEMBAND]
+P[54] = ["seven_years_ships|English warships of the 1750s sailing in a line on a blue sea" + ANO("1759") + SEMTXT + SEMBAND + GUERRA + NAO_EG,
+         "map_1763|Map of the world with Britain, eastern North America including Canada and parts of India shaded in flat pink, " + MAPA]
+# 9. A MEDALHA QUE FICOU NA FRANÇA
+P[55] = ["medal_closeup|A bronze medal on dark velvet, showing a simple relief of a strong man wrestling a sea creature, no letters visible, warm light, nobody in the picture" + SEMTXT + NAO_EG,
+         f"napoleon_medal|{NAPO} holding up a medal proudly in a tent" + FRA + ANO("1804") + SEMTXT + SEMBAND]
+P[56] = [f"guide_banner|{GUIA} proudly holding a champion's sash before a football final, a stadium behind, the sash blank" + SEMTXT + SEMBAND + MOD,
+         "boulogne_camp|A huge military camp on the cliffs of Boulogne in 1804 with rows of tents and flat-bottomed boats on the beach, looking toward England" + FRA + ANO("1804") + SEMTXT + SEMBAND + "@@BOULOGNE",
+         "trafalgar|British and French warships of 1805 in battle lines with smoke on a blue sea, no flags" + ANO("1805") + SEMTXT + SEMBAND + GUERRA + NAO_EG + "@@TRAFALGAR"]
+P[57] = ["stamp_tax_colonies|Round-white-head cartoon American colonists of 1765 in a Boston street reading a notice and shaking their fists, the notice blank" + ANO("1765") + SEMTXT + SEMBAND + ", strictly colonial Boston: brick houses" + NAO_EG,
+         "map_america_leaves|Map of the North Atlantic with the thirteen American colonies changing from pink to a different flat color, " + MAPA]
+P[58] = ["factory_chimneys|An English industrial town of the 1850s with brick factories and tall smoking chimneys, a canal with barges" + ING + ANO("1850") + SEMTXT + SEMBAND,
+         "map_empire_1920#aberto"]
+P[59] = ["famine_symbol|Symbolic scene: an empty potato basket and an empty rice bowl side by side on a bare wooden table, grey light, nobody in the picture" + SEMTXT + NAO_EG,
+         "india_crowd_dignity|Round-white-head cartoon Indian villagers of the 1870s standing with dignity in a dry field, drawn without caricature, no suffering shown" + ANO("1876") + SEMTXT + SEMBAND + ", strictly India, NO pyramids, NO pharaoh headdress, NO camels" ]
+P[60] = [f"victoria_albert|{VICT} and {ALBERT} at home by a fireplace, talking warmly, a Christmas tree in the corner" + LON + ANO("1850") + SEMTXT + SEMBAND + "@@VITÓRIA E ALBERTO"]
+P[61] = [f"guide_piece3|{GUIA} fitting the third jigsaw piece: a ship, completing a crown, a parchment and a ship" + SEMTXT + SEMBAND + MOD,
+         "crown_outside_paper_inside|Symbolic scene: a crown arriving through an open window from outside, while inside the room a long parchment sits on the table under lamp light" + LON + PAPEL + SEMTXT + SEMBAND,
+         "map_1914|Map of Europe with Britain and Germany shaded in two strong flat colors facing each other across the North Sea, " + MAPA]
+# 10. A CONTA CHEGA
+P[62] = ["washington_1945|Washington D.C. in autumn 1945 with a white neoclassical government building and big American cars of the 1940s" + ANO("1945") + SEMTXT + SEMBAND + NAO_EG,
+         f"negotiator|{NEGOC} sitting across a table from American officials, tired, papers everywhere" + ANO("1945") + PAPEL + SEMTXT + SEMBAND + NAO_EG]
+P[63] = [f"george5_rename|{GEORGE5} at a desk signing a document while a courtier removes an old painted sign from the wall, the sign blank" + LON + ANO("1917") + PAPEL + SEMTXT + SEMBAND + "@@JORGE V",
+         "windsor_castle|Windsor Castle with its round tower on a green hill by the Thames, summer" + ING + SEMTXT + SEMBAND + "@@WINDSOR"]
+P[64] = ["india_1947|Round-white-head cartoon Indian crowds celebrating in a city street in August 1947, drawn with dignity, no caricature" + ANO("1947") + SEMTXT + SEMBAND + ", strictly India, NO pyramids, NO pharaoh headdress, NO camels",
+         "map_empire_shrinking|Map of the world with only a few small pink spots left, the rest pale, " + MAPA,
+         "brussels_join|Round-white-head cartoon diplomats of 1973 shaking hands around a round table in a modern European conference room" + ANO("1973") + SEMTXT + SEMBAND + NAO_EG]
+P[65] = ["last_payment|A modern office of 2006 with a computer screen showing a simple completed progress bar, a cup of tea beside it, no letters" + LON + ANO("2006") + SEMTXT + SEMBAND,
+         f"guide_receipt|{GUIA} holding a very long old receipt that unrolls across the floor of a modern living room, amazed" + SEMTXT + SEMBAND + MOD]
+P[66] = ["westminster_2023|Westminster Abbey in London on a grey May morning of 2023, crowds behind barriers, a golden carriage passing" + LON + ANO("2023") + SEMTXT + SEMBAND,
+         "family_tree_symbol|Symbolic scene: a big old family tree drawn as branches with small round portraits, from a man in a white wig at the root to a modern man at the top, no names" + SEMTXT + SEMBAND + NAO_EG,
+         f"king2023_oath|{REI23} with his hand on a big book at an altar inside a Gothic abbey, taking an oath" + LON + ANO("2023") + SEMTXT + SEMBAND]
+P[67] = ["standard_promise#detalhe-centro",
+         "parliament_today|The Houses of Parliament by the Thames today with the big clock tower, people walking on the bridge" + LON + ANO("2023") + SEMTXT + SEMBAND,
+         "king_parliament_balance|Symbolic scene: an old balance scale with a small gold crown on one side and a heavy rolled parchment on the other, the parchment side lower" + SEMTXT + SEMBAND + ING]
+# FECHO
+P[68] = ["carey_gallop#detalhe-centro", "crown_from_sea#médio-dir", "quill_sign#aberto",
+         "paper_credit_fleet|Symbolic scene in three steps from left to right: a parchment, then a stack of gold coins, then a big sailing warship, connected by arrows of light, no letters" + SEMTXT + SEMBAND + ING,
+         "map_empire_1920#detalhe-alto",
+         f"guide_answer|{GUIA} standing between a small crown on a stool and a big parchment on a lectern, explaining with open hands" + LON + SEMTXT + SEMBAND]
+P[69] = ["william_trembling#detalhe-centro", "westminster_today_abbey|The old Westminster Abbey and the Houses of Parliament side by side seen from across the street on a sunny day, red buses passing" + LON + ANO("2023") + SEMTXT + SEMBAND]
+P[70] = [f"guide_end|{GUIA} waving goodbye at the viewer on a London bridge, the Thames behind, smiling" + LON + SEMTXT + SEMBAND]
+
 
 # ───────────────────────── HOOK (Carey, 1603) ─────────────────────────
 cap("Hook")
