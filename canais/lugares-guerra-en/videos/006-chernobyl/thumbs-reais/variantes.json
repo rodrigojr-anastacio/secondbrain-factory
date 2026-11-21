@@ -1,0 +1,5 @@
+[
+ {"letra": "A", "titulo": "Chernobyl Burned for Days Before the World Knew", "padrao_titulo": "<X> Before the World Knew (intervalo)", "padrao_thumb": "numero-estatistica", "thumb_conceito": "FOTO REAL: máscara de gás pendurada na escola de Pripyat (Franganillo, CC BY 2.0) + 67 HOURS gigante", "thumb_texto": "67 HOURS", "thumb_arquivo": "thumbs-reais/thumb-A.jpg"},
+ {"letra": "B", "titulo": "Why Was Chernobyl's Alarm First Raised in Sweden?", "padrao_titulo": "Why ... in Y? (tema)", "padrao_thumb": "objeto-simbolo", "thumb_conceito": "FOTO REAL: dosímetro amarelo diante da usina (Jennifer Boyer, CC BY 2.0) + bandeira sueca", "thumb_texto": "ON A SHOE", "thumb_arquivo": "thumbs-reais/thumb-B.jpg"},
+ {"letra": "C", "titulo": "The Bus Order Pripyat Wasn't Told About", "padrao_titulo": "The <documento> X Wasn't Told About (bíblia D adaptado)", "padrao_thumb": "mapa-lugar", "thumb_conceito": "FOTO REAL: roda-gigante de Pripyat em contra-plongée (Adam Jones, CC BY-SA 2.0)", "thumb_texto": "TEMPORARY", "thumb_arquivo": "thumbs-reais/thumb-C.jpg"}
+]
