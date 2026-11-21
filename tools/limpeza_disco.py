@@ -6,6 +6,7 @@ Regras (brief 13/11/2026):
   de vídeos com status publicado/arquivado em youtube.videos;
 - ~/cache/tmp, ~/cache/mwraw-*, ~/cache/rcl-* (> 2 dias), ~/render-midway;
 - ~/.npm/_cacache, ~/.cache/pip, `uv cache prune`; logs de referencias/ e relatorios/ > 30 dias.
+- ~/.codex/sessions/**/*.jsonl > 3 dias (não toca auth/config/thread_history).
 Nunca toca: pastas ativas na fila (ops.fila_jobs), pastas protegidas, classe B (video.mp4, áudios,
 ~/.hermes, jsonl do Claude), entrega/, ~/.segredos, repositórios git versionados.
 """
@@ -17,6 +18,7 @@ FAB = HOME / "workspace" / "fabrica-youtube"
 REL = HOME / "workspace" / "relatorios" / "limpeza"
 DIAS_TMP = 2
 DIAS_LOG = 30
+DIAS_CODEX = 3  # sessões do Codex (~/.codex/sessions), aprovado 21/11/2026
 RECENTE_H = 6  # pasta de vídeo mexida há menos que isso = em uso, não toca
 
 # Classe C fixa (brief). Dinâmica: pastas citadas por jobs ativos da fila.
@@ -169,6 +171,19 @@ def main():
         if not a.dry_run:
             subprocess.run([uv, "cache", "prune"], capture_output=True)
         L.itens.append(("uv cache prune", str(HOME / ".cache/uv"), 0 if a.dry_run else max(0, antes_uv - du(HOME / ".cache" / "uv"))))
+
+    # --- sessões do Codex > 3 dias (~1,5 GB/dia com as imagens do historia; aprovado pelo Rodrigo em 21/11/2026).
+    # Só os arquivos de sessão (~/.codex/sessions/AAAA/MM/DD/*.jsonl): não toca auth/config/thread_history;
+    # o efeito é só não dar para "codex resume" de sessão antiga. Sessão mexida há < 6 h nunca sai (job em curso).
+    cs = HOME / ".codex" / "sessions"
+    if cs.is_dir():
+        for f in cs.rglob("*.jsonl"):
+            if f.is_file() and idade_dias(f) > DIAS_CODEX and (time.time() - f.stat().st_mtime) > RECENTE_H * 3600:
+                L.apagar("codex sessões > 3 dias", f)
+        if not a.dry_run:
+            for d in sorted(cs.rglob("*"), reverse=True):
+                if d.is_dir() and not any(d.iterdir()):
+                    d.rmdir()
 
     # --- logs antigos
     for base in (HOME / "workspace" / "referencias", HOME / "workspace" / "relatorios", FAB / "tools" / "rotinas"):
