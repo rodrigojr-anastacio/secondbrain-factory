@@ -1,0 +1,17 @@
+{
+ "A": {
+  "titulo": "What Happened at Chernobyl Before the World Was Told?",
+  "padrao_titulo": "What Happened at X... (tema)",
+  "padrao_thumb": "numero-estatistica"
+ },
+ "B": {
+  "titulo": "Why Was Chernobyl's Alarm First Raised in Sweden?",
+  "padrao_titulo": "Why ... Chernobyl ...? (tema)",
+  "padrao_thumb": "mapa-lugar"
+ },
+ "C": {
+  "titulo": "Why Were 1,125 Buses Ordered Before Pripyat Was Told?",
+  "padrao_titulo": "Why ...? (tema)",
+  "padrao_thumb": "antes-depois"
+ }
+}
