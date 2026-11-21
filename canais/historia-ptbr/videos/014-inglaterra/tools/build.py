@@ -48,7 +48,7 @@ def salvar(p, x):
 
 # ───────────── trilha original gerada no código (sem samples) ─────────────
 def trilha(dur, troca=None):
-    """013-uniao-sovietica: pad e drone de Ré (Ré menor natural/eólio). Cordas dedilhadas tipo balalaica sintetizada (duas cordas Karplus-Strong levemente
+    """014-inglaterra: pad e drone de Ré (dórico). Cordas dedilhadas tipo alaúde sintetizado (duas cordas Karplus-Strong levemente
     desafinadas, ataque brilhante) em arpejos esparsos na escala frígia de Ré; depois de `troca` (cap. 8, Olivença) só notas longas e raras.
     Tudo sintetizado aqui, sem samples."""
     rng = np.random.default_rng(13)
@@ -58,7 +58,7 @@ def trilha(dur, troca=None):
     out = np.zeros(N)
     out += 0.05 * np.sin(2 * np.pi * hz(26) * t) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 19))
     out += 0.03 * np.sin(2 * np.pi * hz(33) * t + 1) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 27 + 2))
-    prog = [[38, 45, 50], [38, 45, 53], [36, 43, 48], [34, 41, 50], [38, 45, 52], [33, 40, 48]]   # Ré5, Ré/Fá, Dó, Sib, Ré/Mi, Lá
+    prog = [[38, 45, 50], [38, 45, 53], [36, 43, 48], [35, 42, 50], [38, 45, 52], [33, 40, 48]]   # Ré5, Ré/Fá, Dó, Sib, Ré/Mi, Lá
     CH = 12.0
     for c in range(int(dur / CH) + 2):
         s0 = int((c * CH - 3) * SR); L = int((CH + 6) * SR)
@@ -72,7 +72,7 @@ def trilha(dur, troca=None):
                 fr = hz(m) * 2 ** (det / 12); ph = rng.uniform(0, 6.3)
                 seg += np.sin(2 * np.pi * fr * tt + ph) + 0.15 * np.sin(4 * np.pi * fr * tt + ph)
         out[a_:b_] += 0.012 * seg * env
-    escala = [62, 64, 65, 67, 69, 70, 72, 74, 76]   # Ré frígio (Ré Mi Fá Sol Lá Sib Dó Ré Mi)
+    escala = [62, 64, 65, 67, 69, 71, 72, 74, 76]   # Ré frígio (Ré Mi Fá Sol Lá Sib Dó Ré Mi)
     def corda(m, n, perda, bril):
         L = int(SR / hz(m)); buf = rng.uniform(-1, 1, L)
         for _ in range(bril): buf = 0.5 * (buf + np.roll(buf, 1))

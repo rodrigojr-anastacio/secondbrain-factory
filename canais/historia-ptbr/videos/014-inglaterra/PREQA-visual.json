@@ -1,0 +1,1267 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/historia-ptbr/videos/014-inglaterra/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2761,
+ "contagem": {
+  "bloqueante": 1,
+  "alto": 13,
+  "medio": 27,
+  "baixo": 25
+ },
+ "bloqueante": true,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Q01 e Q02 são idênticos, no mesmo instante (0:01). Pode ser quadro duplicado, sem animação de entrada visível. O texto '1603' está legível e sem erro.",
+   "t": 0.9333333333333333,
+   "arquivo": "28.png"
+  },
+  {
+   "quadro": "Q06",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Cena marcada como pós-1603 mostra figuras com tricórnio, casacas vermelhas e peruca de estilo do século XVIII. Pode ser intencional para 1688 ou mais tarde, mas sem contexto é anacronismo provável. Há também um personagem com bandana de pirata e um canhão, o que destoa da época.",
+   "t": 45.0,
+   "arquivo": "1350.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cavaleiro com armadura medieval e cruz vermelha e bispo com mitra aparecem junto de um rei de coroa, cercando uma mesa. Misturam épocas diferentes em uma cena que, pelos outros quadros, é de 1603. Pode ser estilo, mas parece anacronismo.",
+   "t": 55.0,
+   "arquivo": "1650.png"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa de capítulo cobre a parte de baixo da cena, incluindo a fogueira e personagens. A legibilidade está boa, então é só estético.",
+   "t": 67.33333333333333,
+   "arquivo": "2020.png"
+  },
+  {
+   "quadro": "Q12",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A cena não tem bonequinhos de cabeça redonda e o estilo é mais realista e pintado do que o do canal. Pode ser escolha de cenário vazio, mas vale conferir. As pegadas em primeiro plano parecem muito grandes.",
+   "t": 95.0,
+   "arquivo": "2850.png"
+  },
+  {
+   "quadro": "Q15",
+   "categoria": "outro",
+   "severidade": "alto",
+   "descricao": "Duas cenas sobrepostas em transparência: o interior da igreja com a tumba e o cenário de aldeia ao ar livre aparecem fantasmagóricos, com rostos esverdeados e figuras duplicadas. Se for só um crossfade passageiro, não precisa corrigir. Mas o quadro está parado em t=2:15, com cara de cena presa em transição, ou então de duas imagens empilhadas por erro.",
+   "t": 135.0,
+   "arquivo": "4050.png"
+  },
+  {
+   "quadro": "Q16",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Castelos de pedra com ameias e o rei de cota de malha, em contexto do ano 1016. Os castelos normandos de pedra são anteriores à conquista de 1066 só em parte, então pode ser anacronismo leve. Tem de conferir com o roteiro. O personagem central tem cabelo castanho e rosto menos de 'cabeça redonda branca'.",
+   "t": 145.0,
+   "arquivo": "4350.png"
+  },
+  {
+   "quadro": "Q17",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena de Londres em 1066 mostra ao fundo um castelo de muralhas e torres ameadas, e casas de enxaimel e tijolo, que ainda não existiam na época. A Torre de Londres só foi iniciada por volta de 1078. É uma dúvida entre estilo e defeito, e o erro é pequeno.",
+   "t": 150.8,
+   "arquivo": "4524.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Quadro idêntico ao Q17, com o mesmo castelo ao fundo e as casas de enxaimel. A Torre de Londres e esse tipo de arquitetura são posteriores a 1066. Há também duplicação do quadro, no mesmo tempo 2:31.",
+   "t": 151.06666666666666,
+   "arquivo": "4532.png"
+  },
+  {
+   "quadro": "Q20",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Ao fundo aparece a Torre Branca de Londres, com cúpulas nos topos, mas ela só foi construída depois de 1066. As casas de enxaimel também são posteriores, e a capela tem uma cruz sobre o altar. Fica a dúvida sobre ser licença de estilo.",
+   "t": 175.0,
+   "arquivo": "5250.png"
+  },
+  {
+   "quadro": "Q21",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Castelos de torres pontiagudas aparecem na paisagem e no balão de pensamento, com casas de telhado de ardósia. O estilo lembra o fim da Idade Média e não 1066. O defeito é pequeno.",
+   "t": 185.0,
+   "arquivo": "5550.png"
+  },
+  {
+   "quadro": "Q22",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A Torre de Londres com cúpulas aparece ao fundo e há casas de enxaimel com telhas de cerâmica, que não existiam em 1066. A vela do navio também é de um modelo mais tardio. Registrado como dúvida entre estilo e defeito.",
+   "t": 195.0,
+   "arquivo": "5850.png"
+  },
+  {
+   "quadro": "Q25",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa 'CAPÍTULO 3 / O rei preso na ilha' cobre parte dos personagens da frente (o rosto da criança no centro-esquerda fica atrás da placa). É uma placa de capítulo intencional, mas esconde um rosto; conferir se é estilo ou defeito.",
+   "t": 229.36666666666667,
+   "arquivo": "6881.png"
+  },
+  {
+   "quadro": "Q26",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Mesma placa de capítulo cobrindo o rosto da criança e parte dos personagens do primeiro plano. Provável estilo, mas há dúvida sobre o enquadramento.",
+   "t": 229.63333333333333,
+   "arquivo": "6889.png"
+  },
+  {
+   "quadro": "Q27",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A catedral gótica com flecha alta ao fundo e as roupas renascentistas (chapéu e colar do burgomestre) destoam um pouco de 1204. Pode ser licença estilística.",
+   "t": 235.0,
+   "arquivo": "7050.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os chapéus de feltro e as roupas dos personagens à direita lembram o Renascimento mais que o séc. XIII. Detalhe pequeno e discutível.",
+   "t": 245.0,
+   "arquivo": "7350.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Chapéus renascentistas (boina escura, gorro vermelho com colar) em cena de 1215. Detalhe discreto.",
+   "t": 275.0,
+   "arquivo": "8250.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena mostra uma cidade moderna, com prédios, toldo de café e vaso de planta. Pode ser intencional como cena de metáfora/narrador moderno (quebra-cabeça de coroa). Fica o registro caso o trecho seja medieval.",
+   "t": 305.0,
+   "arquivo": "9150.png"
+  },
+  {
+   "quadro": "Q35",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cozinha é moderna, com geladeira, torneira e fogão. Pode ser uma cena de analogia moderna intencional, mas destoa do trecho medieval. Confirmar se é proposital.",
+   "t": 315.0,
+   "arquivo": "9450.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Em 1362, a janela mostra o Palácio de Westminster/Big Ben em estilo neogótico, com a torre do relógio e um andaime enorme. É um marco que não existia na época (Torre Eiffel do caso do Codex, aqui seria o Big Ben).",
+   "t": 323.1333333333333,
+   "arquivo": "9694.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Quadro idêntico ao Q36. Pela janela se vê o Palácio de Westminster neogótico com torre tipo Big Ben e andaime, que não existiam em 1362.",
+   "t": 323.4,
+   "arquivo": "9702.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Em 1399, o arco mostra ao fundo um palácio com torre tipo Big Ben/Westminster neogótico. Também há uma fumaça saindo, e a aparência é de edifício vitoriano, não medieval.",
+   "t": 352.3333333333333,
+   "arquivo": "10570.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa 'HENRIQUE TUDOR' no canto inferior esquerdo cobre a parte de baixo do personagem e fica rente à borda. O ano '1485' no canto superior esquerdo também está colado à borda. Parece ser o layout padrão dos rótulos, então a dúvida é estética.",
+   "t": 375.53333333333336,
+   "arquivo": "11266.png"
+  },
+  {
+   "quadro": "Q46",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa 'CAPÍTULO 5 / O rei forte que precisou do papel' fica por cima da parte de baixo dos personagens e da mesa, cobrindo os pés e o corpo do rei e dos clérigos. Pode ser a placa de capítulo normal do canal; se for, não há defeito. Na dúvida, registrado como médio.",
+   "t": 401.4,
+   "arquivo": "12042.png"
+  },
+  {
+   "quadro": "Q47",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "Mesma placa de capítulo cobrindo a parte inferior dos personagens e da mesa. Parece ser o enquadramento padrão da placa, e o quadro é quase idêntico ao Q46 (um segundo depois). Só há a dúvida estética.",
+   "t": 401.6666666666667,
+   "arquivo": "12050.png"
+  },
+  {
+   "quadro": "Q50",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A corrente quebrada é grossa e parece presa à parede da igreja e à muralha do castelo. A metáfora é clara, mas a corrente atravessa a paisagem de forma pouco natural. É provável escolha de estilo.",
+   "t": 425.0,
+   "arquivo": "12750.png"
+  },
+  {
+   "quadro": "Q53",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa 'ELIZABETH I' no canto inferior esquerdo cobre parcialmente os personagens em primeiro plano. A cabeça de um deles fica cortada atrás da placa. É legível, mas a sobreposição é desajeitada.",
+   "t": 458.43333333333334,
+   "arquivo": "13753.png"
+  },
+  {
+   "quadro": "Q56",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'CAPÍTULO 6 / O nome recusado' cobre o personagem da frente e parte da mesa com livros, pergaminho e pena. Fica poluído, mas o texto é legível. Pode ser o estilo intencional do canal.",
+   "t": 480.7,
+   "arquivo": "14421.png"
+  },
+  {
+   "quadro": "Q57",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Janela mostra a cidade com ponte de arcos de pedra e casas de enxaimel. Para Londres no século XVII é plausível, mas pode ser lugar genérico. Dúvida de estilo, vale conferir.",
+   "t": 485.0,
+   "arquivo": "14550.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Pela janela aparece uma grande cúpula igual à da St Paul's Cathedral atual. Em 1640 a catedral era a antiga, gótica, com torre e sem cúpula; a cúpula de Wren é posterior ao Grande Incêndio de 1666.",
+   "t": 531.3333333333334,
+   "arquivo": "15940.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "A placa 'CARLOS I' no canto inferior esquerdo cobre parte da cadeira e da capa do rei. Pode ser a legenda intencional de personagem, mas esconde parte da figura.",
+   "t": 531.3333333333334,
+   "arquivo": "15940.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "A janela à esquerda mostra a cúpula de St Paul's, que não existia em 1640. Mesmo erro do Q62.",
+   "t": 535.0,
+   "arquivo": "16050.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "O palácio ao fundo é o Parlamento de Westminster neogótico (séc. XIX), que não existia em 1660. A ponte de arcos de pedra também é anacrônica para Londres da época. O prompt deveria descrever a cidade de 1660.",
+   "t": 565.0,
+   "arquivo": "16950.png"
+  },
+  {
+   "quadro": "Q67",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Com o rótulo '1660', o fundo mostra o Parlamento neogótico de Westminster e uma ponte de pedra do séc. XIX. Ambos são anacrônicos para essa data.",
+   "t": 565.5,
+   "arquivo": "16965.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "O edifício ao fundo é o Palácio de Westminster neogótico (séc. XIX), e a ponte de arcos também não é da época. A cena trata da Restauração de 1660.",
+   "t": 585.0,
+   "arquivo": "17550.png"
+  },
+  {
+   "quadro": "Q71",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "As bandeirinhas tricolores nos mastros dos navios parecem a bandeira holandesa. Pode ser intencional por causa de Guilherme de Orange, mas as faixas são pequenas e a leitura é incerta. Confirmar se o detalhe é desejado.",
+   "t": 595.0,
+   "arquivo": "17850.png"
+  },
+  {
+   "quadro": "Q72",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "A imagem mistura várias cenas sobrepostas: bandeira translúcida, personagens fantasma, igreja e casas duplicadas. Se for crossfade intencional, não há problema. Se o quadro ficar parado assim, fica confuso. O rei com coroa e o cavaleiro com cruz vermelha de cruzado parecem fora de época para 1688.",
+   "t": 605.0,
+   "arquivo": "18150.png"
+  },
+  {
+   "quadro": "Q74",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Pela janela aparece uma cúpula tipo St Paul's, concluída só em 1710, numa cena de 1689. Os prédios de tijolo ao fundo são plausíveis. O erro é pequeno e discutível.",
+   "t": 624.7666666666667,
+   "arquivo": "18743.png"
+  },
+  {
+   "quadro": "Q75",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O rei usa coroa e manto de arminho medievais, e o soldado usa elmo medieval. Os trajes destoam do período, mas podem ser só simbolismo de rei e soldado. Os demais personagens também parecem de outra época.",
+   "t": 635.0,
+   "arquivo": "19050.png"
+  },
+  {
+   "quadro": "Q76",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cúpula grande e a ponte de pedra com vários arcos ao fundo lembram Londres posterior a 1694 (St Paul's concluída em 1710). Há dúvida entre licença de estilo e anacronismo.",
+   "t": 642.7333333333333,
+   "arquivo": "19282.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A ponte de pedra com arcos e as torres ao fundo seguem o mesmo cenário de Londres da cena anterior. A dúvida é a mesma, mas aqui o detalhe é menor.",
+   "t": 645.0,
+   "arquivo": "19350.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cúpula grande de St Paul's e a ponte com arcos ao fundo são provavelmente posteriores a 1694. Pode ser licença de estilo.",
+   "t": 655.0,
+   "arquivo": "19650.png"
+  },
+  {
+   "quadro": "Q84",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Imagem sem bonequinhos de cabeça redonda: só a paisagem, com uma coroa gigante flutuando/apoiada na rocha no canto direito, cortada pela borda. Fora do estilo do canal, mas pode ser metáfora intencional.",
+   "t": 705.0,
+   "arquivo": "21150.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cenário de Londres com cúpula tipo St Paul's ao fundo à esquerda e prédio com cúpula estilo Greenwich à direita: plausível para 1714, mas o conjunto é incerto. Na dúvida entre estilo e erro, registrado como médio.",
+   "t": 715.0,
+   "arquivo": "21450.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa 'JORGE I' fica no canto inferior esquerdo, sobre o barco e os remadores, e cobre parte do remo e do casco. Parece um rótulo de código, mas fica colada ao canto e sobreposta à imagem.",
+   "t": 715.0,
+   "arquivo": "21450.png"
+  },
+  {
+   "quadro": "Q86",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Rei Jorge I chega de carruagem a uma cidade de casas enxaimel e igreja gótica de tijolo, que lembra a Alemanha e não a Inglaterra. Pode ser intencional (Hanôver), mas não há rótulo que explique. Os soldados de casacas vermelhas (estilo britânico) convivem com o cenário alemão.",
+   "t": 725.0,
+   "arquivo": "21750.png"
+  },
+  {
+   "quadro": "Q90",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A cena de 1763 mostra o personagem em primeiro plano com um sino ou bandeira ausente, mas o navio de guerra com muitas pessoas pequenas no convés é ilegível. O ponto é menor e não bloqueia.",
+   "t": 759.3,
+   "arquivo": "22779.png"
+  },
+  {
+   "quadro": "Q91",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "No mapa-múndi, Canadá e EUA estão pintados de rosa como se fossem um único território. Reino Unido e Índia também estão em rosa, e a Irlanda em verde. Para 1763-1804 o destaque do EUA como território britânico é geograficamente impreciso, e não há legenda. Fica a dúvida se é intencional.",
+   "t": 765.0,
+   "arquivo": "22950.png"
+  },
+  {
+   "quadro": "Q92",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa 'CAPÍTULO 9' cobre a parte inferior da medalha. O corte é aceitável como enquadramento, mas esconde parte da cena. O quadro Q93 é idêntico, o que sugere um quadro duplicado.",
+   "t": 774.7,
+   "arquivo": "23241.png"
+  },
+  {
+   "quadro": "Q95",
+   "categoria": "anacronismo",
+   "severidade": "bloqueante",
+   "descricao": "A legenda de ano diz 1805, mas a cena mostra um estádio moderno de concreto e vidro, prédios altos ao fundo, torcedores com cachecóis de futebol e mochilas, além de roupas atuais. Isso é anacronismo claro em uma cena de 1805.",
+   "t": 789.8666666666667,
+   "arquivo": "23696.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Um oficial no canto inferior esquerdo usa casaca vermelha de infantaria/marinha com faixa cruzada; plausível para a época napoleônica, apenas detalhe a conferir. Sem defeito claro.",
+   "t": 805.0,
+   "arquivo": "24150.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "Placa no canto superior esquerdo mostra '1922', mas a cena é claramente da Revolução Industrial vitoriana (chaminés de tijolo, carvão, barcaça, roupas do séc. XIX). Ano incompatível com a imagem (provável 1822 ou similar).",
+   "t": 825.0,
+   "arquivo": "24750.png"
+  },
+  {
+   "quadro": "Q99",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "Mesma placa '1922' no canto superior esquerdo, incompatível com a cena industrial do séc. XIX (cartolas, crinolinas, barcaça a remo, minas de carvão). Ano parece errado.",
+   "t": 825.2333333333333,
+   "arquivo": "24757.png"
+  },
+  {
+   "quadro": "Q100",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Mapa-múndi estilizado com países pintados de rosa (Canadá/Alasca, África, Índia) sem rótulos; possível estilo intencional, mas a Groenlândia/Europa estão cortadas e a coloração rosa de territórios imperiais não é verificável. Dúvida entre estilo e defeito.",
+   "t": 835.0,
+   "arquivo": "25050.png"
+  },
+  {
+   "quadro": "Q104",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Mapa da Europa com Reino Unido em laranja e Alemanha em azul; a Alemanha aparece com contorno que inclui parte da fronteira sul de forma imprecisa (Áustria/Alpes parcialmente incluídos) e a Irlanda do Norte aparece com cor/contorno estranho (círculo vermelho). Revisar precisão geográfica.",
+   "t": 875.0,
+   "arquivo": "26250.png"
+  },
+  {
+   "quadro": "Q105",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Faixa de cor mais clara/bege na borda esquerda e na direita do quadro, com a imagem parecendo ligeiramente recuada; na esquerda, ao lado da árvore, a borda parece vazar. Em dúvida entre enquadramento e emenda.",
+   "t": 882.1333333333333,
+   "arquivo": "26464.png"
+  },
+  {
+   "quadro": "Q106",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Mesmo defeito do Q105: a borda esquerda tem uma faixa de cor diferente (bege) perto da árvore e dos prédios. Pode ser moldura ou emenda da imagem de IA.",
+   "t": 882.4,
+   "arquivo": "26472.png"
+  },
+  {
+   "quadro": "Q108",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Jorge V em 1917 aparece com uniforme naval e coroa. A janela mostra o Big Ben e o Parlamento, o que é plausível, mas a moldura quebrada na parede à direita e a rotulagem estão bem. O problema principal é a coroa, um adereço improvável para a cena de escritório.",
+   "t": 896.2666666666667,
+   "arquivo": "26888.png"
+  },
+  {
+   "quadro": "Q109",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cenário medieval com o Castelo de Windsor ao fundo, sem legenda ou ano. Possível lugar real fora do contexto do capítulo; verificar se o roteiro pede essa cena.",
+   "t": 905.0,
+   "arquivo": "27150.png"
+  },
+  {
+   "quadro": "Q112",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "A barra de progresso verde no monitor está no meio e sem texto; não há como confirmar se o valor está correto. O monitor é um CRT/LCD antigo, plausível para 2006.",
+   "t": 926.4,
+   "arquivo": "27792.png"
+  },
+  {
+   "quadro": "Q114",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "O rótulo '2023' está bem legível, mas a cena mostra uma carruagem dourada, Westminster Abbey e o Big Ben, com guardas de chapéu de pele. Está coerente com a coroação de 2023. Os rostos das pessoas na carruagem são semi-realistas (cabelo, coroa), fora do padrão de bonequinho de cabeça redonda.",
+   "t": 939.5666666666667,
+   "arquivo": "28187.png"
+  },
+  {
+   "quadro": "Q115",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Os retratos em medalhão da árvore genealógica têm rostos e cabelos semi-realistas (cabelos castanhos, barba), fora do padrão de cabeça redonda branca. Estética discutível.",
+   "t": 945.0,
+   "arquivo": "28350.png"
+  },
+  {
+   "quadro": "Q116",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Parte do público na coroação tem rostos de bonequinho, mas o rei tem peruca e feições mais elaboradas. O cenário mistura a abadia com uma janela dando para uma ponte e o rio, o que parece impreciso. Detalhe pequeno.",
+   "t": 955.0,
+   "arquivo": "28650.png"
+  },
+  {
+   "quadro": "Q117",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "A cara do cavaleiro tem barba marrom colada sobre a cabeça branca, parecendo uma máscara. Está estranho, mas pode ser estilo. A figura é cortada pela borda superior (chapéu e pluma), o que é enquadramento normal.",
+   "t": 969.8666666666667,
+   "arquivo": "29096.png"
+  },
+  {
+   "quadro": "Q119",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Mapa-múndi estilizado sem rótulos, com regiões em rosa (Canadá, norte da África, Índia) e a geografia deformada (Escandinávia, Mediterrâneo e Ásia simplificados). Se o mapa deve destacar países específicos, a seleção parece estranha. Na dúvida entre estilo e erro, conferir com o roteiro.",
+   "t": 985.0,
+   "arquivo": "29550.png"
+  },
+  {
+   "quadro": "Q119",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa azul uniforme no topo (4%, RGB 28,168,245). Aqui é só o oceano liso do mapa 2D, que continua para cima sem emenda visível. Provável falso positivo; confirmar que não há corte chapado no topo.",
+   "t": 985.0,
+   "arquivo": "29550.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 0.9333333333333333,
+   "nome": "28.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 1.0,
+   "nome": "30.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 5.0,
+   "nome": "150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 15.0,
+   "nome": "450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 25.0,
+   "nome": "750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 45.0,
+   "nome": "1350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 55.0,
+   "nome": "1650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 65.0,
+   "nome": "1950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 67.33333333333333,
+   "nome": "2020.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 67.6,
+   "nome": "2028.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 85.0,
+   "nome": "2550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 95.0,
+   "nome": "2850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 105.0,
+   "nome": "3150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 115.0,
+   "nome": "3450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 135.0,
+   "nome": "4050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 145.0,
+   "nome": "4350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 150.8,
+   "nome": "4524.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 151.06666666666666,
+   "nome": "4532.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 155.0,
+   "nome": "4650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 175.0,
+   "nome": "5250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 185.0,
+   "nome": "5550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 195.0,
+   "nome": "5850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 205.0,
+   "nome": "6150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 215.0,
+   "nome": "6450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 229.36666666666667,
+   "nome": "6881.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 229.63333333333333,
+   "nome": "6889.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 235.0,
+   "nome": "7050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 245.0,
+   "nome": "7350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 262.8666666666667,
+   "nome": "7886.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 265.0,
+   "nome": "7950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 275.0,
+   "nome": "8250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 281.9,
+   "nome": "8457.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 285.0,
+   "nome": "8550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 305.0,
+   "nome": "9150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 315.0,
+   "nome": "9450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 323.1333333333333,
+   "nome": "9694.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 323.4,
+   "nome": "9702.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 335.0,
+   "nome": "10050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 345.0,
+   "nome": "10350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 352.3333333333333,
+   "nome": "10570.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 355.0,
+   "nome": "10650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 365.0,
+   "nome": "10950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 375.53333333333336,
+   "nome": "11266.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 385.0,
+   "nome": "11550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 395.0,
+   "nome": "11850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 401.4,
+   "nome": "12042.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 401.6666666666667,
+   "nome": "12050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 415.0,
+   "nome": "12450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 417.1333333333333,
+   "nome": "12514.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 425.0,
+   "nome": "12750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 435.0,
+   "nome": "13050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 455.0,
+   "nome": "13650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 458.43333333333334,
+   "nome": "13753.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 465.0,
+   "nome": "13950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 475.0,
+   "nome": "14250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 480.7,
+   "nome": "14421.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 485.0,
+   "nome": "14550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 495.0,
+   "nome": "14850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 505.0,
+   "nome": "15150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 510.9,
+   "nome": "15327.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 525.0,
+   "nome": "15750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 531.3333333333334,
+   "nome": "15940.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 535.0,
+   "nome": "16050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 545.0,
+   "nome": "16350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 552.7666666666667,
+   "nome": "16583.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 565.0,
+   "nome": "16950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 565.5,
+   "nome": "16965.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 575.0,
+   "nome": "17250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 585.0,
+   "nome": "17550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 587.1,
+   "nome": "17613.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 595.0,
+   "nome": "17850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 605.0,
+   "nome": "18150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 615.0,
+   "nome": "18450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 624.7666666666667,
+   "nome": "18743.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 635.0,
+   "nome": "19050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 642.7333333333333,
+   "nome": "19282.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 645.0,
+   "nome": "19350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 655.0,
+   "nome": "19650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 665.0,
+   "nome": "19950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 685.0,
+   "nome": "20550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 693.9666666666667,
+   "nome": "20819.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 694.2333333333333,
+   "nome": "20827.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 695.0,
+   "nome": "20850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 705.0,
+   "nome": "21150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 715.0,
+   "nome": "21450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 725.0,
+   "nome": "21750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 730.6666666666666,
+   "nome": "21920.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 735.0,
+   "nome": "22050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 755.0,
+   "nome": "22650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 759.3,
+   "nome": "22779.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 765.0,
+   "nome": "22950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 774.7,
+   "nome": "23241.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 774.9666666666667,
+   "nome": "23249.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 785.0,
+   "nome": "23550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 789.8666666666667,
+   "nome": "23696.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 795.0,
+   "nome": "23850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 805.0,
+   "nome": "24150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 825.0,
+   "nome": "24750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 825.2333333333333,
+   "nome": "24757.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 835.0,
+   "nome": "25050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q101",
+   "t": 845.0,
+   "nome": "25350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 855.0,
+   "nome": "25650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 865.0,
+   "nome": "25950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 875.0,
+   "nome": "26250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q105",
+   "t": 882.1333333333333,
+   "nome": "26464.png",
+   "sinais": []
+  },
+  {
+   "id": "Q106",
+   "t": 882.4,
+   "nome": "26472.png",
+   "sinais": []
+  },
+  {
+   "id": "Q107",
+   "t": 885.0,
+   "nome": "26550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q108",
+   "t": 896.2666666666667,
+   "nome": "26888.png",
+   "sinais": []
+  },
+  {
+   "id": "Q109",
+   "t": 905.0,
+   "nome": "27150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q110",
+   "t": 911.3666666666667,
+   "nome": "27341.png",
+   "sinais": []
+  },
+  {
+   "id": "Q111",
+   "t": 915.0,
+   "nome": "27450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q112",
+   "t": 926.4,
+   "nome": "27792.png",
+   "sinais": []
+  },
+  {
+   "id": "Q113",
+   "t": 935.0,
+   "nome": "28050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q114",
+   "t": 939.5666666666667,
+   "nome": "28187.png",
+   "sinais": []
+  },
+  {
+   "id": "Q115",
+   "t": 945.0,
+   "nome": "28350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q116",
+   "t": 955.0,
+   "nome": "28650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q117",
+   "t": 969.8666666666667,
+   "nome": "29096.png",
+   "sinais": []
+  },
+  {
+   "id": "Q118",
+   "t": 975.0,
+   "nome": "29250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q119",
+   "t": 985.0,
+   "nome": "29550.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(28,168,245)"
+   ]
+  },
+  {
+   "id": "Q120",
+   "t": 995.0,
+   "nome": "29850.png",
+   "sinais": []
+  }
+ ]
+}

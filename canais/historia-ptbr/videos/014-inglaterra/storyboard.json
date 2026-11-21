@@ -3666,7 +3666,7 @@
    "enq": "aberto",
    "mov": "tilt ↓ lento",
    "rot": null,
-   "nota": "cartão de data: 1805"
+   "nota": ""
   },
   {
    "plano": 262,
@@ -3722,7 +3722,7 @@
    "enq": "aberto",
    "mov": "pan esq→dir",
    "rot": "TRAFALGAR",
-   "nota": "rótulo: TRAFALGAR"
+   "nota": "rótulo: TRAFALGAR; cartão de data: 1805"
   },
   {
    "plano": 266,
@@ -3820,7 +3820,7 @@
    "enq": "aberto",
    "mov": "push-in leve",
    "rot": null,
-   "nota": "cartão de data: 1922"
+   "nota": ""
   },
   {
    "plano": 273,
@@ -3848,7 +3848,7 @@
    "enq": "aberto",
    "mov": "zoom-out lento",
    "rot": null,
-   "nota": ""
+   "nota": "cartão de data: 1922"
   },
   {
    "plano": 275,
