@@ -1,0 +1,5 @@
+[
+ {"letra":"A","titulo":"TODA la historia de los Juicios de Núremberg en 14 minutos","padrao_titulo":"TODA la historia de [tema] en N minutos","padrao_thumb":"foto-cine-rosto","thumb_conceito":"D: close fotorrealista de Göring à direita, sala escura, NÚREMBERG serifada espaçada à esquerda (estilo pôster de cinema)","thumb_texto":"NÚREMBERG","thumb_arquivo":"thumbs-extra/thumb-D.jpg"},
+ {"letra":"B","titulo":"Núremberg: de la sala 600 a los tribunales de América Latina","padrao_titulo":"[TEMA]: de A a B","padrao_thumb":"foto-cine-cena","thumb_conceito":"E: de dentro do banco dos réus, réu de fones de costas olhando os juízes, soldado de capacete branco","thumb_texto":"NÚREMBERG","thumb_arquivo":"thumbs-extra/thumb-E.jpg"},
+ {"letra":"C","titulo":"Núremberg: el juicio que tuvo que inventar hasta las palabras","padrao_titulo":"[TEMA]: el X que tuvo que Y","padrao_thumb":"foto-cine-grupo","thumb_conceito":"F: banco dos réus, Göring de fones na frente, 2 réus atrás na sombra, NÚREMBERG no alto","thumb_texto":"NÚREMBERG","thumb_arquivo":"thumbs-extra/thumb-F.jpg"}
+]
