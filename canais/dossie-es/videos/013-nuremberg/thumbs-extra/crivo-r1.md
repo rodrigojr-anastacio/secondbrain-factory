@@ -1,0 +1,49 @@
+# Crivo thumbs extras D/E/F · dossie-es/013-nuremberg · rodada 1 · 21/11/2026
+Conferido: CRIVO.md (itens 0–8), `biblia/thumb.md` (seção 013), `conhecimento/politicas-youtube.md`, `EMBALAGEM.md` (promessa + r3), `out/youtube.txt` (T1/T2/T3), `thumb-D/E/F.jpg` a 1280×720, `prancha.jpg` (320×180, 160×90 e na grade do tema), as 3 refs do filme (`refs/40.webp` Blu-ray, `41.png` still com Crowe, `42.png` capa da trilha), `cenas-r1.json` (prompts) e `compose.py`.
+Escopo: desvio pedido pelo Rodrigo (pôster de cinema fotorrealista, Göring). Não reprovo por ser Göring nem por ser fotorrealista; avalio execução, cópia, semelhança com ator, símbolos, leitura no celular e casamento com os títulos. Item 1 (evidência com videos.list) não refeito: o estilo é pedido do dono, não aposta da fábrica.
+
+## Pontos que valem para as 3
+- **Desvio da bíblia escrito:** a bíblia (`thumb.md`) é graphic novel em tinta + aba "EXPEDIENTE" + sello; D/E/F não têm nada disso. Antes de subir, registrar em `thumb.md`: "desvio da bíblia: pôster de cinema fotorrealista com rosto de Göring, porque foi pedido explícito do Rodrigo em 21/11/2026 (refs do filme *Nuremberg*, 2025); **Hipótese**: medir o CTR no Testar e comparar". Sem esse registro, o crivo normal reprovaria pelo item 6.
+- **Item 0 (assunto em < 1 s):** ok nas 3. "NÚREMBERG" escrito + rosto de Göring/banco dos réus. O acento está certo (RAE: Núremberg).
+- **Diferenciação no feed (item 5):** 7 de 12 thumbs do tema em es são foto do rosto de Göring, e na própria grade da prancha há uma thumb com o still do Crowe ("NUREMBERG Análisis histórico"). Um rosto fotorrealista de Göring de uniforme claro, com título serifado dourado, **lê como still/trailer do filme**. É o maior risco do pacote: clicam achando que é análise do filme, e a retenção cai quando percebem que é outra coisa. Quanto mais longe do figurino do filme, melhor (ver as correções da D).
+- **Política/IA:** sem suástica, águia, cruz de ferro, forca nem cadáver: ok. Mas é **pessoa real em cena realista que não existiu**, então o "Uso de IA = Sim" no Studio é obrigatório (já está no checklist; não deixe de marcar). Texto sem palavra proibida.
+- **Tamanho do título a 160×90:** nas 3 o "NÚREMBERG" em Cinzel com espaçamento largo fica com ~5–7 px de altura de caixa alta a 160×90. Cinzel fina e espaçada some no celular. Regra para as 3: caixa alta com **≥ 85 px de altura a 1280×720** (Cinzel Black/ExtraBold, `tam` ≥ 120), espaçamento entre letras ≤ 6, sombra mais forte (blur 6, opacidade 1.0) e o dourado um pouco mais claro na base (`OURO_B` → ~(214,182,118)) para contraste ≥ 4,5:1 sobre a madeira escura.
+
+## Thumb D: close de Göring à direita, título à esquerda · nota 6/10 · APROVADA COM CONDIÇÃO
+1. **Título:** casa com **T1** ("TODA la historia de los Juicios de Núremberg en 14 minutos"): pôster genérico do tema + promessa de história completa. Com T2 não casa (rosto + "el crimen que no tenía nombre" lê como "Göring é o crime", e a promessa do vídeo é a palavra, não o réu). Com T3 não casa (nada de sala nem América Latina).
+2. **Veredito:** aprovada com condição. Uma figura dominante, contraste bom, leitura imediata do assunto. Fraca na diferenciação: é exatamente o que o mosaico faz (rosto de Göring) e a composição é a do still do Crowe (ref 41).
+3. **Problemas e correções:**
+   - **Cópia de composição da ref 41:** close à direita, olhar para a câmera, túnica clara com dragonas douradas e golas bordadas, painel de madeira, título serifado espaçado à esquerda na altura dos olhos, filete embaixo. É o still do filme espelhado. Correção: (a) **tirar dragonas e golas bordadas** (no julgamento, Göring usava a túnica cinza-pomba **sem insígnias**, como nas fotos de 1946: isso é fiel à história e afasta do figurino do filme); trocar no prompt "gold braided shoulder boards and gold-embroidered collar patches" por "plain dove-grey tunic with all insignia removed, plain collar, brass buttons"; (b) **remover o filete** dourado sob o título (é a assinatura da ref); (c) mudar o eixo: rosto em 3/4 olhando para fora do quadro à esquerda (para o tribunal), não para a câmera, ou colocar os fones de tradução no pescoço (vira prova do caso, liga à thumb A e ao exp. dos fones, e não existe no pôster do filme).
+   - **Semelhança com ator:** o rosto gerado (rosto cheio, cabelo penteado para trás, idade aparente de 60+) somado ao figurino do filme puxa para o Russell Crowe no papel. Não é retrato do Crowe, mas no conjunto lembra. Correção: no prompt, pedir os traços do Göring de 1946 nas fotos do julgamento ("after losing weight in prison: loose skin under the jaw, heavy eyelids, thin downturned mouth, receding hairline, 53 years old") e conferir lado a lado com a ref 41: se alguém de fora disser "é o Crowe?", refaça.
+   - **Título pequeno e baixo-contraste a 160×90** (largura de 560 px, Cinzel Bold 96): aumentar conforme a regra geral, ocupando ~45% da largura na metade esquerda, centrado em y ≈ 330.
+   - Tom verde-azulado da túnica = o do figurino do filme: dessaturar para cinza neutro.
+
+## Thumb E: réu de costas diante da sala com flashes · nota 3/10 · REPROVADA
+1. **Título:** o mais próximo seria **T3** (a sala 600 está no quadro), mas o par não fecha: a thumb promete "o julgamento como espetáculo" e o T3 promete o caminho até a América Latina. Não proponho título: a thumb tem de ser refeita.
+2. **Veredito:** reprovada.
+3. **Problemas e correções:**
+   - **Cópia da ref 42 (capa da trilha sonora):** nuca do réu no centro embaixo, fotógrafos com flash à esquerda, bancada dos juízes e PM de capacete branco à direita, título serifado espaçado em cima no centro. É a mesma composição, elemento por elemento. Proibido pelo pedido ("cópia do pôster").
+   - **Cena falsa:** o réu de pé, sozinho, no meio da sala, de frente para fotógrafos disparando flash dentro do tribunal. Na sala 600 os réus ficavam sentados no banco lateral, e câmeras e fotógrafos ficavam em cabines e galerias. Pela regra da bíblia (012), personagem real = cena documentada.
+   - **Sem foco a 160×90:** dezenas de rostos, 3 flashes, 2 bancadas, PM; o que domina é uma nuca anônima (quem é?). O item 4 reprova (1 foco).
+   - Correção, se o Rodrigo quiser manter um "plano de sala": refazer com composição nossa. Vista alta da galeria de imprensa, o banco dos réus em diagonal **com Göring sentado na ponta, de fones, iluminado por um facho de luz**, o resto da sala escuro e sem flashes; título embaixo (não em cima); sem PM em primeiro plano. Senão, descartar a E e ficar com D e F.
+
+## Thumb F: banco dos réus com fones, Göring na frente · nota 7,5/10 · APROVADA COM CONDIÇÃO (melhor das 3)
+1. **Título:** casa com **T3** ("Núremberg: de la sala 600 a los tribunales de América Latina"): a thumb mostra a sala 600 (banco dos réus, fones de tradução, PM de capacete branco) e o título leva para onde aquilo foi. Também serve com T1. Se o Rodrigo preferir título próprio, proponho: "Núremberg: el juicio que tuvo que inventar sus propias palabras" (63 caracteres, sem palavra proibida, vende a promessa do vídeo; não usa "redefinió" nem "justicia internacional", que são da DW).
+2. **Veredito:** aprovada com condição. É a mais fiel à história (Göring na ponta da 1ª fila, Hess magro ao lado, PMs de capacete branco atrás, **fones de tradução**, que são o objeto da thumb A e de um expediente do roteiro) e a menos parecida com as refs: o Blu-ray (ref 40) é Göring de frente com 2 atores atrás, de busto; aqui é banco em diagonal, sentado e de fones. A 160×90 o rosto e o capacete branco se leem.
+3. **Problemas e correções:**
+   - **Figurino:** Göring está de moletom/camisa sem gola, o que lê como "pijama" e não como 1946. Correção: "plain dove-grey uniform tunic with lapels and brass buttons, all insignia removed".
+   - **4 figuras (Göring, 2 réus, PM):** tirar a força dos 2 réus à esquerda (escurecer/desfocar mais, `escurecer` na faixa x 180–620), para que o foco seja só Göring + fones. O PM fica (identifica a sala), mas cortado no ombro, sem o rosto inteiro: o rosto jovem dele compete com o de Göring a 320×180.
+   - **Semelhança com ator:** o rosto de Göring aqui é mais cheio e mais "Göring de 1946" que o da D, ok. Conferir que o réu do meio (rosto longo e magro) não lembra o Michael Shannon: nesta base não lembra; manter.
+   - **Mesmo rosto da D:** se D e F entrarem juntas no Testar e comparar, competem entre si (mesmo rosto à direita, mesmo título dourado no alto à esquerda). Use **só uma das duas** no teste; a F primeiro.
+   - **Título:** aumentar conforme a regra geral; hoje a 160×90 o "NÚREMBERG" fica com ~6 px. Manter no canto superior esquerdo sobre a parede escura, sem invadir o rosto do réu do meio.
+   - Distintivo do ombro do PM: ok (não é símbolo extremista); se a IA desenhar letras ou números, borrar.
+
+## Diferenciação entre D/E/F e com A/B/C
+- D "Göring close, olhar frio, madeira" · E "nuca do réu, flashes, sala" · F "Göring de fones, banco dos réus". D e F diferem pouco (o mesmo rosto dominante à direita e o mesmo título): no teste, só uma delas.
+- Contra A/B/C (tinta, sem rosto, com aba e sello): D/E/F são outro universo visual, o que é bom para o A/B (o teste mede "pôster de cinema × expediente"). Sugestão de teste: **F (ou D corrigida) no lugar da B** (a B é a mais fraca a 160×90: o fiscal some no facho), com o título do par de acordo (T1 ou T3; o T2 não casa com rosto de Göring).
+
+## Veredito
+- **D:** APROVADA COM CONDIÇÃO (6/10). Tirar dragonas e golas (túnica sem insígnias), tirar o filete, mudar o olhar ou pôr os fones, conferir que não lembra o Crowe, título maior. Par: T1.
+- **E:** REPROVADA (3/10). Cópia da ref 42, cena que não aconteceu, sem foco. Refazer com composição própria ou descartar.
+- **F:** APROVADA COM CONDIÇÃO (7,5/10). Túnica no lugar do moletom, réus de trás e PM menos fortes, título maior. Par: T3 (ou T1).
+- Para as 3: desvio registrado em `thumb.md` como Hipótese pedida pelo Rodrigo; "Uso de IA = Sim" no Studio.
