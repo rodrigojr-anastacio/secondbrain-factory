@@ -395,7 +395,7 @@ SB = [
  ["chile_court|Judges of a 1963 Chilean supreme court in black robes at a bench, wood panelling" + NOINS,
   "hourglass|An hourglass on a judge's desk with the last sand falling, " + ILEG],
  # N058 1968 ONU otra convención: no prescriben; llegó tarde
- ["un_1968|A 1960s United Nations assembly hall with delegates at curved desks" + NOINS + SEM,
+ ["un_1968|A large 1960s international assembly hall seen from the back, rows of delegates seated at curved desks under a high ceiling" + NOINS + SEM,
   "hourglass#detalhe-centro", "signature_1968|A diplomat signing a treaty at the United Nations in 1968, pen and blue folder" + SEM],
  # N059 Rauff murió libre en Santiago, 1984; en Argentina una ley
  ["santiago_house|A quiet suburban house in Santiago de Chile in the 1980s, closed gate, afternoon",

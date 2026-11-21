@@ -148,7 +148,7 @@ export const Expediente = ({ title, dur }) => {
         <div style={{ width: 1100, padding: '46px 70px 54px', background: PASTA, borderRadius: '0 14px 14px 14px', boxShadow: '12px 14px 0 rgba(0,0,0,.5)',
           borderTop: `6px solid ${PASTA_ESC}` }}>
           <div style={{ background: PAPEL, padding: '26px 40px 18px', transform: 'rotate(0.8deg)', boxShadow: '3px 3px 0 rgba(0,0,0,.25)' }}>
-            <div style={{ fontFamily: TYPE, fontSize: 28, color: '#5b4a33', letterSpacing: 4 }}>DOSSIER · EL MI6 · Nº 012</div>
+            <div style={{ fontFamily: TYPE, fontSize: 28, color: '#5b4a33', letterSpacing: 4 }}>DOSSIER · NÚREMBERG · Nº 013</div>
             <div style={{ fontFamily: DISPLAY, fontSize: 168, lineHeight: 1, color: TINTA, letterSpacing: 4 }}>{m[2].toUpperCase()}</div>
           </div>
         </div>

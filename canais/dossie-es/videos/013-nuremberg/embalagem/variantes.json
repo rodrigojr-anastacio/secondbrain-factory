@@ -5,7 +5,8 @@
   "padrao_titulo": "TODA la historia de [tema] en N minutos",
   "padrao_thumb": "objeto-simbolo",
   "thumb_conceito": "fones de baquelita de 1945 sozinhos sobre papel creme, borda da grade do banco dos réus embaixo; NÚREMBERG à direita",
-  "thumb_texto": "NÚREMBERG / SIN NOMBRE"
+  "thumb_texto": "NÚREMBERG / SIN NOMBRE",
+  "thumb_arquivo": "entrega/thumb-A.jpg"
  },
  {
   "letra": "B",
@@ -13,7 +14,8 @@
   "padrao_titulo": "Cómo + organização + verbo concreto + alvo",
   "padrao_thumb": "cena-acao",
   "thumb_conceito": "20/11/1945, sala 600: fiscal de pé no púlpito lendo a acusação, visto de 3/4 por trás, num facho de refletor; sala escura",
-  "thumb_texto": ""
+  "thumb_texto": "",
+  "thumb_arquivo": "entrega/thumb-B.jpg"
  },
  {
   "letra": "C",
@@ -21,6 +23,7 @@
   "padrao_titulo": "[TEMA]: de A a B",
   "padrao_thumb": "mapa-lugar",
   "thumb_conceito": "mapa escuro do Atlântico com fio vermelho de Núremberg a 4 pontos na América Latina",
-  "thumb_texto": "HASTA AQUÍ"
+  "thumb_texto": "HASTA AQUÍ",
+  "thumb_arquivo": "entrega/thumb-C.jpg"
  }
 ]

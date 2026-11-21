@@ -1,0 +1,1330 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/dossie-es/videos/013-nuremberg/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2737,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 9,
+  "medio": 30,
+  "baixo": 32
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A cena mistura uniformes de diferentes forças e civis com crianças num salão em ruínas. Aceitável como estilo, sem defeito claro.",
+   "t": 0.5,
+   "arquivo": "15.png"
+  },
+  {
+   "quadro": "Q06",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "A folha datilografada tem linhas de texto borrado, ilegível, escrito pela IA. Está desfocado de propósito e funciona como cena de censura, mas pode ser lido como texto falso. Na dúvida entre estilo e defeito, fica como médio.",
+   "t": 24.5,
+   "arquivo": "735.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O ponto 'AMÉRICA LATINA' está sobre o norte da América do Sul, perto da Colômbia/Venezuela/Brasil, e o arco vermelho termina ali. Fica impreciso para uma região tão ampla. O mapa traz fronteiras modernas de países, que destoam da época tratada, o pós-guerra.",
+   "t": 31.5,
+   "arquivo": "945.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa de capítulo cobre as cabeças dos pedestres do centro, que ficam sem cabeça atrás dela. A placa 'CLASIFICADO' invade a borda superior direita da placa. Provavelmente é intencional, mas vale conferir.",
+   "t": 34.36666666666667,
+   "arquivo": "1031.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A placa do carro à direita tem texto minúsculo ilegível inventado pela IA, pouco visível.",
+   "t": 34.36666666666667,
+   "arquivo": "1031.png"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A placa do carro à direita traz marcas que parecem letras/números inventados pela IA. É minúscula e pouco legível.",
+   "t": 34.8,
+   "arquivo": "1044.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os livros abertos na mesa têm linhas de texto falso e ilegível, e o livro verde à direita tem uma etiqueta com marcas parecidas com letras. São detalhes pequenos e discretos.",
+   "t": 36.5,
+   "arquivo": "1095.png"
+  },
+  {
+   "quadro": "Q11",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A folha de papel na mão do personagem traz linhas de texto ilegível/borrado escrito pela IA. Está pequeno e discreto, lido como rabisco de texto, sem palavras legíveis.",
+   "t": 48.5,
+   "arquivo": "1455.png"
+  },
+  {
+   "quadro": "Q12",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Sinagoga com estrelas de Davi nas paredes e na arca, bancos cobertos de musgo e fumaça. Pode ser intencional (sinagoga abandonada), mas as estrelas de seis pontas desenhadas pela IA em vários pontos merecem conferência de coerência histórica. Dúvida entre estilo e defeito.",
+   "t": 60.5,
+   "arquivo": "1815.png"
+  },
+  {
+   "quadro": "Q17",
+   "categoria": "legenda",
+   "severidade": "medio",
+   "descricao": "A placa de nome diz \"ROBERT JACKSON\", mas há dois homens no quadro e não dá para saber qual deles é Jackson. A placa fica no canto inferior esquerdo, sobre a roupa e a vegetação, sem cortar texto. Pode ser estilo; confira se a identificação está correta.",
+   "t": 92.8,
+   "arquivo": "2784.png"
+  },
+  {
+   "quadro": "Q21",
+   "categoria": "texto_inventado",
+   "severidade": "alto",
+   "descricao": "As placas das lojas nos dois lados da rua trazem letras falsas e ilegíveis, como a placa à esquerda com \"...NINUO\" e as faixas à direita, que parecem texto escrito pela IA. Precisam ser trocadas por placas em branco (\"blank shop sign\") ou ficar sem letras.",
+   "t": 120.5,
+   "arquivo": "3615.png"
+  },
+  {
+   "quadro": "Q23",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou uma faixa uniforme de cerca de 8% no topo, cor RGB(78,90,95). Visualmente é só o céu nublado liso, que combina com a cena, então provavelmente não é defeito. Vale uma conferência rápida.",
+   "t": 132.5,
+   "arquivo": "3975.png"
+  },
+  {
+   "quadro": "Q24",
+   "categoria": "moldura",
+   "severidade": "medio",
+   "descricao": "Há uma faixa preta fina na borda inferior, de cerca de 3%, abaixo da borda da mesa. Pode ser a sombra da mesa e fazer parte da cena, mas parece letterbox de imagem de IA. Se for letterbox, recorte a faixa.",
+   "t": 142.26666666666668,
+   "arquivo": "4268.png"
+  },
+  {
+   "quadro": "Q25",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A carta sobre a mesa tem linhas de texto borradas, que parecem texto falso da IA. Está desfocada e discreta, então quase não se lê. Registrado por dúvida entre estilo e defeito.",
+   "t": 142.66666666666666,
+   "arquivo": "4280.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O ponto vermelho de Haití fica sobre a ilha de Hispaniola, mas está deslocado para a ponta leste, mais perto de Santo Domingo. Já o ponto de Honduras cai sobre a península de Yucatán/Belize, não sobre Honduras. Os rótulos ficam perto, mas a localização é duvidosa.",
+   "t": 168.5,
+   "arquivo": "5055.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O ponto de PARAGUAY está na posição errada no mapa. Cai na região do Chaco, próximo à fronteira com a Bolívia e a Argentina. O de Honduras também fica sobre Yucatán/Belize. O mapa mostra países errados ou mal localizados.",
+   "t": 168.86666666666667,
+   "arquivo": "5066.png"
+  },
+  {
+   "quadro": "Q30",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Os carros e ônibus parecem dos anos 80, com o Congresso argentino ao fundo. O contexto é Núremberg 1945 / Latinoamérica, então pode ser intencional para uma cena posterior; a época do vídeo é incerta. As placas dos carros têm letras minúsculas ilegíveis, que podem ser texto inventado.",
+   "t": 180.5,
+   "arquivo": "5415.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo cobre o rosto e o tronco do personagem, deixando só a cabeça visível. Uma bandeira ou tecido vermelho com símbolo parecido com uma suástica aparece no canto inferior esquerdo, o que pode ser um símbolo inventado ou problemático.",
+   "t": 190.83333333333334,
+   "arquivo": "5725.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Repetição idêntica de Q31 no mesmo tempo (3:11): placa cobrindo o personagem, e o tecido vermelho com símbolo no canto inferior esquerdo. Pode ser quadro duplicado.",
+   "t": 191.16666666666666,
+   "arquivo": "5735.png"
+  },
+  {
+   "quadro": "Q33",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "No canto inferior esquerdo, sobre uma caixa de madeira, há um pano vermelho com símbolo que lembra uma suástica/emblema nazista, desenhado de forma ambígua e ilegível. É um símbolo sensível, pode ser lido como bandeira inventada e pode causar problema de monetização.",
+   "t": 191.6,
+   "arquivo": "5748.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "No canto inferior esquerdo, sobre a caixa de madeira, o pano vermelho com emblema parecido com suástica está ambíguo e mal desenhado. É um símbolo sensível e inventado pela IA.",
+   "t": 192.5,
+   "arquivo": "5775.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Uniforme listrado de prisioneiro combinado com guarda de uniforme verde-oliva. O contexto (Nuremberg, montagem da sala) não deixa claro se o figurino é coerente com a época; vale conferir.",
+   "t": 228.5,
+   "arquivo": "6855.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "No peito do uniforme listrado do prisioneiro em primeiro plano há um número/etiqueta com letras pequenas e ilegíveis, escrito pela IA.",
+   "t": 228.5,
+   "arquivo": "6855.png"
+  },
+  {
+   "quadro": "Q38",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Brasão na parede de tijolos ao fundo, com emblema heráldico inventado pela IA. Não há letras legíveis, mas a insígnia pode soar como símbolo/anacronismo no tribunal.",
+   "t": 240.5,
+   "arquivo": "7215.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A bandeira tricolor ao fundo, vertical, azul/branco/vermelho, é uma bandeira francesa. Pode ser intencional (juiz francês em Nuremberg), mas confirmar se combina com a narração. A medalha vermelha no peito é plausível.",
+   "t": 264.5,
+   "arquivo": "7935.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O emblema da ONU está na parede do tribunal e a bandeira azul à direita tem um emblema ilegível. Em 1945-46 o tribunal de Nuremberg não usava o emblema da ONU, então é um possível anacronismo. A bandeira americana é plausível. Conferir se o emblema pode ficar.",
+   "t": 276.5,
+   "arquivo": "8295.png"
+  },
+  {
+   "quadro": "Q45",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O mapa da Europa na parede e o quadro pequeno à direita têm marcas ilegíveis, parecidas com texto falso, mas discretas e sem letra legível.",
+   "t": 284.6,
+   "arquivo": "8538.png"
+  },
+  {
+   "quadro": "Q46",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A imagem está um pouco borrada, com artefatos de compressão nas bordas, e não tem foco narrativo claro. É só um plano de detalhe dos pés e cadeiras, provavelmente intencional.",
+   "t": 288.5,
+   "arquivo": "8655.png"
+  },
+  {
+   "quadro": "Q47",
+   "categoria": "moldura",
+   "severidade": "medio",
+   "descricao": "O sinal automático acusa faixa preta de 5% na borda direita. Visualmente a borda direita é só o fundo escuro da sala, com a janela ao lado, e não dá para confirmar se é letterbox ou escuridão da cena. Conferir os pixels da borda e recortar se for faixa.",
+   "t": 300.5,
+   "arquivo": "9015.png"
+  },
+  {
+   "quadro": "Q49",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A bandeira dos EUA ao fundo atrás do oficial está parcialmente coberta e é pequena. Em geral é coerente com a cena americana, mas a quantidade de estrelas e listras não pode ser conferida. O papel que o oficial segura tem rabiscos ilegíveis, pequenos.",
+   "t": 306.3,
+   "arquivo": "9189.png"
+  },
+  {
+   "quadro": "Q50",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O papel nas mãos do oficial e os papéis na mesa à direita têm rabiscos/escrita ilegível pequenos, típicos de texto inventado pela IA. São discretos, atrás da placa.",
+   "t": 306.7,
+   "arquivo": "9201.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O mapa-múndi na parede à esquerda tem uma pequena caixa com texto ilegível/inventado pela IA (legenda do mapa). Está pequeno e discreto, mas é texto falso no mapa.",
+   "t": 312.5,
+   "arquivo": "9375.png"
+  },
+  {
+   "quadro": "Q55",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixas uniformes no topo (7%) e na base (10%). Visualmente parecem ser o céu e o mar lisos da cena, sem faixa de moldura, então é provável falso positivo. Vale uma conferência rápida das bordas.",
+   "t": 336.5,
+   "arquivo": "10095.png"
+  },
+  {
+   "quadro": "Q55",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O casco do submarino tem um emblema/marcação pequeno e indefinido perto da proa e linhas de marcação ilegíveis. Há dúvida sobre se é uma insígnia inventada pela IA. Está discreto.",
+   "t": 336.5,
+   "arquivo": "10095.png"
+  },
+  {
+   "quadro": "Q56",
+   "categoria": "texto_inventado",
+   "severidade": "alto",
+   "descricao": "O documento no centro da mesa tem texto borrado/ilegível inventado pela IA, com um título em inglês que parece 'German Military Order'. É escrita falsa visível, embora borrada. O retrato na parede também é um detalhe que merece conferência.",
+   "t": 348.5,
+   "arquivo": "10455.png"
+  },
+  {
+   "quadro": "Q57",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os capacetes brancos dos guardas são lisos e de formato quase de capacete de MP americano, o que combina com Nuremberg. Mesmo assim, o tribunal tem só três juízes e o enquadramento é genérico. Dúvida pequena, sem correção obrigatória.",
+   "t": 360.5,
+   "arquivo": "10815.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O livro aberto em primeiro plano traz linhas de texto borrado/pseudo-letra inventado pela IA nas duas páginas. Está desfocado e ilegível, então só incomoda se aparecer em close; avaliar se precisa ser coberto ou trocado.",
+   "t": 408.5,
+   "arquivo": "12255.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A imagem é bem mais suave e borrada que as outras do vídeo, com traço fino e menos contorno grosso. A coerência com o estilo graphic novel é discutível, e as janelas mostram uma cidade de arranha-céus que não parece Nuremberg. Pode ser estilo, não defeito.",
+   "t": 408.5,
+   "arquivo": "12255.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O carimbo vermelho \"CLASIFICADO\" invade a borda superior da placa e a aba \"EXPEDIENTE 8\" fica sobreposta aos rostos. As letras do carimbo estão parcialmente cobertas pela placa (\"CLASIFICADO\" cortado na base), mas ainda legíveis. Pode ser efeito intencional de carimbo; registrado por dúvida.",
+   "t": 443.2,
+   "arquivo": "13296.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Pela janela ao fundo vê-se um skyline de arranha-céus de cidade moderna, estranho para o tribunal de Nuremberg, que estava em ruínas. Detalhe discreto.",
+   "t": 443.2,
+   "arquivo": "13296.png"
+  },
+  {
+   "quadro": "Q67",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O carimbo \"CLASIFICADO\" fica parcialmente escondido atrás da borda da placa, cortando a base das letras. Pode ser intencional, mas a leitura piora. Provável animação de entrada do carimbo.",
+   "t": 443.6333333333333,
+   "arquivo": "13309.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Quadro idêntico ao Q67: o carimbo \"CLASIFICADO\" fica cortado pela borda da placa na base das letras. Se o carimbo já deveria ter assentado, é defeito de camada.",
+   "t": 444.5,
+   "arquivo": "13335.png"
+  },
+  {
+   "quadro": "Q72",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "No fundo do corredor há um brasão/escudo vermelho na parede e uma bandeira pequena e indefinida. Podem ser símbolos inventados e anacrônicos para Nuremberg, mas ficam pequenos e sem leitura.",
+   "t": 492.5,
+   "arquivo": "14775.png"
+  },
+  {
+   "quadro": "Q73",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'LA CONVENCIÓN' cobre a base da Torre Eiffel e o centro da cena. A cena parece ser Paris, mas o capítulo é sobre Núremberg (dúvida: pode ser intencional para a convenção). Os carros e a arquitetura são plausíveis para a época.",
+   "t": 503.06666666666666,
+   "arquivo": "15092.png"
+  },
+  {
+   "quadro": "Q75",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Há uma bandeira vermelha pequena no topo do prédio à direita, sem identificação clara. Pode ser anacronismo ou bandeira inventada pela IA. Vale conferir.",
+   "t": 504.5,
+   "arquivo": "15135.png"
+  },
+  {
+   "quadro": "Q76",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "O mapa com relevo traz fronteiras modernas da África e da Europa, que podem ser anacrônicas conforme a época narrada. Há também marcas vermelhas aleatórias (EUA, Bolívia) e texturas de traços pretos soltos no oceano. A dúvida é entre estilo e defeito.",
+   "t": 516.5,
+   "arquivo": "15495.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O texto do documento é um borrão ilegível, sem letras reais, o que parece intencional. Se o desfoque não for proposital, a IA pode ter escrito texto falso. O selo de cera tem relevo inventado, mas é discreto.",
+   "t": 528.5,
+   "arquivo": "15855.png"
+  },
+  {
+   "quadro": "Q80",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "O mapa-múndi mostra o arco vermelho de 'EUROPA' até 'AMÉRICA DEL SUR'. O ponto de 'EUROPA' está na França/Alemanha e o de 'AMÉRICA DEL SUR' está na Bolívia, o que é impreciso. O fundo difere do mapa anterior (Q79), com cores mais claras e vegetação verde. O arco atravessa o Atlântico de forma estranha.",
+   "t": 538.3,
+   "arquivo": "16149.png"
+  },
+  {
+   "quadro": "Q84",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O calendário na parede, à direita, e o papel de grade na parede, à esquerda, têm números e traços ilegíveis desenhados pela IA. É pequeno e discreto, e fica ao fundo.",
+   "t": 549.8,
+   "arquivo": "16494.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O calendário na parede, à direita, tem números e rabiscos falsos da IA. É pequeno e discreto, mas não dá para ler.",
+   "t": 552.5,
+   "arquivo": "16575.png"
+  },
+  {
+   "quadro": "Q86",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O carrinho vermelho parece um Fiat 500 e a rua parece italiana. O contexto é Nuremberg/Alemanha, então pode ser lugar errado, mas o ambiente talvez seja de fuga para a Itália. Vale conferir.",
+   "t": 564.5,
+   "arquivo": "16935.png"
+  },
+  {
+   "quadro": "Q87",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Os papéis e as fichas espalhados na mesa, o mapa-múndi e as notas na parede à direita têm escrita falsa da IA. Está ao fundo e ilegível, e a dúvida é se passa como textura de papel.",
+   "t": 576.5,
+   "arquivo": "17295.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O detector marcou uma faixa uniforme no topo (13%, RGB 75,94,103). Visualmente é só o céu liso e nublado da cena, sem faixa chapada evidente, então provavelmente é falso positivo.",
+   "t": 588.5,
+   "arquivo": "17655.png"
+  },
+  {
+   "quadro": "Q89",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena de vale andino com figuras de roupa vitoriana em primeiro plano. Confirmar se época e lugar batem com o roteiro. O céu liso no topo faz parte da cena e não é defeito.",
+   "t": 600.5,
+   "arquivo": "18015.png"
+  },
+  {
+   "quadro": "Q90",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa 'EXPEDIENTE 11 / EL PLAZO' cobre boa parte da cena e o carimbo 'CLASIFICADO' invade o topo da placa. Parece ser a placa de capítulo intencional, então só registro a dúvida de que o carimbo corta a borda direita da placa.",
+   "t": 603.8,
+   "arquivo": "18114.png"
+  },
+  {
+   "quadro": "Q96",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A casa com o carro bege parece de modelo anos 70 e um bairro suburbano. Se o episódio for ambientado em outra época ou lugar (Núremberg, anos 40/50), há risco de época errada. Dúvida entre estilo e defeito.",
+   "t": 648.5,
+   "arquivo": "19455.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'EXPEDIENTE 12 / LA LEY' cobre quase todo o tribunal e esconde os juízes ao fundo (só aparecem cabeças atrás da placa) e os rostos da fileira do meio. Pode ser intencional por ser cartela de capítulo, mas o carimbo 'CLASIFICADO' encosta e corta a cabeça de um juiz.",
+   "t": 657.0666666666667,
+   "arquivo": "19712.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A cartela de capítulo cobre a parte superior dos rostos da fileira do meio e os juízes. É provável que seja intencional, mas a leitura da cena fica prejudicada. O carimbo 'CLASIFICADO' invade a cabeça de um juiz à direita.",
+   "t": 657.5,
+   "arquivo": "19725.png"
+  },
+  {
+   "quadro": "Q99",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Legenda 'BUENOS AIRES, 1985', mas a cena é a mesma imagem do tribunal 'Núremberg' dos quadros anteriores. Os terninhos e a estética parecem genéricos, sem identificar o lugar. É possível que haja lugar errado, pois a imagem do julgamento de Núremberg é reaproveitada como Buenos Aires. Vale confirmar se é intencional.",
+   "t": 660.5,
+   "arquivo": "19815.png"
+  },
+  {
+   "quadro": "Q100",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A etiqueta 'JULIO CÉSAR STRASSERA' fica sobre a mesa e o microfone na parte inferior esquerda e cobre um pouco do cenário. É legível e aparece em primeiro plano. Sem problema grave, só um detalhe de posicionamento.",
+   "t": 672.5,
+   "arquivo": "20175.png"
+  },
+  {
+   "quadro": "Q103",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Folha em branco muito grande domina o primeiro plano e deixa a composição vazia, com pouco ponto de interesse. Pode ser intencional (folha vazia como metáfora).",
+   "t": 696.5,
+   "arquivo": "20895.png"
+  },
+  {
+   "quadro": "Q104",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Os rostos de três fotos (fileira superior e inferior) aparecem borrados/apagados, o que parece defeito de geração. Pode ser anonimização intencional. Há também um mapa ao fundo com texto ilegível, mas é discreto.",
+   "t": 708.5,
+   "arquivo": "21255.png"
+  },
+  {
+   "quadro": "Q107",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'LA JUEZA' cobre boa parte da cena e o carimbo 'CLASIFICADO' cobre a cabeça do juiz. Pode ser composição intencional da placa de capítulo; registro por dúvida. Há também uma bandeira ou brasão no canto direito com símbolo ilegível.",
+   "t": 726.7333333333333,
+   "arquivo": "21802.png"
+  },
+  {
+   "quadro": "Q108",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Bandeira ou estandarte com emblema ilegível no canto direito, pequeno e discreto.",
+   "t": 727.0666666666667,
+   "arquivo": "21812.png"
+  },
+  {
+   "quadro": "Q109",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "No canto superior direito há um brasão ou selo na parede com escrita circular ilegível, inventada pela IA. É discreto e está parcialmente cortado pela borda. A placa de capítulo também cobre a cabeça do juiz.",
+   "t": 727.4666666666667,
+   "arquivo": "21824.png"
+  },
+  {
+   "quadro": "Q111",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Há um notebook/laptop na mesa ao fundo do tribunal e o brasão no alto à esquerda está cortado. Pode ser coerente com o julgamento de Ríos Montt em 2013, mas confira a época em relação à narrativa.",
+   "t": 734.1,
+   "arquivo": "22023.png"
+  },
+  {
+   "quadro": "Q114",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "No canto inferior esquerdo aparece um pequeno elemento vermelho (bandeira ou pano) cortado pela borda inferior. Fica quase imperceptível e pode ser enquadramento intencional.",
+   "t": 768.5,
+   "arquivo": "23055.png"
+  },
+  {
+   "quadro": "Q116",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "A cena de fundo mostra táxis amarelos de design anos 50/60 e arranha-céus de Nova York, mas o tema é Nuremberg (1945-46). Aparece também uma placa de matrícula com caracteres ilegíveis inventados na traseira do táxi.",
+   "t": 784.8,
+   "arquivo": "23544.png"
+  },
+  {
+   "quadro": "Q117",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "A placa do táxi à direita traz caracteres falsos ('130 L27' ou similar), inventados pela IA. O texto é pequeno e discreto.",
+   "t": 785.2,
+   "arquivo": "23556.png"
+  },
+  {
+   "quadro": "Q118",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "O edifício da ONU (arranha-céu Secretariat e Assembleia) à beira do East River aparece com a bandeira da ONU à direita. Para um vídeo sobre Nuremberg (1945-46), o complexo ainda não existia: foi inaugurado em 1952. Há dúvida se a cena é intencional (a ONU em NY, em outro momento da narração), por isso o nível é alto e não bloqueante.",
+   "t": 792.5,
+   "arquivo": "23775.png"
+  },
+  {
+   "quadro": "Q119",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Os guardas usam capacetes brancos de estilo MP americano, o que é plausível em Nuremberg. Porém os réus aparecem de uniforme azul-acinzentado homogêneo, com rostos quase idênticos em fileiras repetidas. A repetição de rostos é visível e a estética é duvidosa.",
+   "t": 804.5,
+   "arquivo": "24135.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 0.5,
+   "nome": "15.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 1.6,
+   "nome": "48.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 1.6666666666666667,
+   "nome": "50.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 7.833333333333333,
+   "nome": "235.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 12.5,
+   "nome": "375.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 24.5,
+   "nome": "735.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 31.5,
+   "nome": "945.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 34.36666666666667,
+   "nome": "1031.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 34.8,
+   "nome": "1044.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 36.5,
+   "nome": "1095.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 48.5,
+   "nome": "1455.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 60.5,
+   "nome": "1815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 72.5,
+   "nome": "2175.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 84.5,
+   "nome": "2535.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 85.3,
+   "nome": "2559.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 85.73333333333333,
+   "nome": "2572.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 92.8,
+   "nome": "2784.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 96.5,
+   "nome": "2895.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 96.7,
+   "nome": "2901.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 108.5,
+   "nome": "3255.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 120.5,
+   "nome": "3615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 127.43333333333334,
+   "nome": "3823.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 132.5,
+   "nome": "3975.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(78,90,95)"
+   ]
+  },
+  {
+   "id": "Q24",
+   "t": 142.26666666666668,
+   "nome": "4268.png",
+   "sinais": [
+    "faixa preta na borda base: 3% do quadro"
+   ]
+  },
+  {
+   "id": "Q25",
+   "t": 142.66666666666666,
+   "nome": "4280.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 144.5,
+   "nome": "4335.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 156.5,
+   "nome": "4695.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 168.5,
+   "nome": "5055.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 168.86666666666667,
+   "nome": "5066.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 180.5,
+   "nome": "5415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 190.83333333333334,
+   "nome": "5725.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 191.16666666666666,
+   "nome": "5735.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 191.6,
+   "nome": "5748.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 192.5,
+   "nome": "5775.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 204.5,
+   "nome": "6135.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 216.5,
+   "nome": "6495.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 228.5,
+   "nome": "6855.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 240.5,
+   "nome": "7215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 249.6,
+   "nome": "7488.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 249.93333333333334,
+   "nome": "7498.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 250.33333333333334,
+   "nome": "7510.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 252.5,
+   "nome": "7575.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 264.5,
+   "nome": "7935.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 276.5,
+   "nome": "8295.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 284.6,
+   "nome": "8538.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 288.5,
+   "nome": "8655.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 300.5,
+   "nome": "9015.png",
+   "sinais": [
+    "faixa preta na borda direita: 5% do quadro"
+   ]
+  },
+  {
+   "id": "Q48",
+   "t": 305.96666666666664,
+   "nome": "9179.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 306.3,
+   "nome": "9189.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 306.7,
+   "nome": "9201.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 312.5,
+   "nome": "9375.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 319.96666666666664,
+   "nome": "9599.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 324.5,
+   "nome": "9735.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 325.8333333333333,
+   "nome": "9775.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 336.5,
+   "nome": "10095.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 7% do quadro, cor RGB(64,53,51)",
+    "faixa uniforme na borda base: 10% do quadro, cor RGB(43,55,61)"
+   ]
+  },
+  {
+   "id": "Q56",
+   "t": 348.5,
+   "nome": "10455.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 360.5,
+   "nome": "10815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 371.7,
+   "nome": "11151.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 372.1333333333333,
+   "nome": "11164.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 372.5,
+   "nome": "11175.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 384.5,
+   "nome": "11535.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 396.5,
+   "nome": "11895.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 408.5,
+   "nome": "12255.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 420.5,
+   "nome": "12615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 432.5,
+   "nome": "12975.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 443.2,
+   "nome": "13296.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 443.6333333333333,
+   "nome": "13309.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 444.5,
+   "nome": "13335.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 456.5,
+   "nome": "13695.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 468.5,
+   "nome": "14055.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 480.5,
+   "nome": "14415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 492.5,
+   "nome": "14775.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 503.06666666666666,
+   "nome": "15092.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 503.46666666666664,
+   "nome": "15104.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 504.5,
+   "nome": "15135.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 516.5,
+   "nome": "15495.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 517.6666666666666,
+   "nome": "15530.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 528.5,
+   "nome": "15855.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 535.6333333333333,
+   "nome": "16069.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 538.3,
+   "nome": "16149.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 540.5,
+   "nome": "16215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 541.3333333333334,
+   "nome": "16240.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 541.7333333333333,
+   "nome": "16252.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 549.8,
+   "nome": "16494.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 552.5,
+   "nome": "16575.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 564.5,
+   "nome": "16935.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 576.5,
+   "nome": "17295.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 588.5,
+   "nome": "17655.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 13% do quadro, cor RGB(75,94,103)"
+   ]
+  },
+  {
+   "id": "Q89",
+   "t": 600.5,
+   "nome": "18015.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(71,89,93)"
+   ]
+  },
+  {
+   "id": "Q90",
+   "t": 603.8,
+   "nome": "18114.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 14% do quadro, cor RGB(46,55,58)"
+   ]
+  },
+  {
+   "id": "Q91",
+   "t": 604.2333333333333,
+   "nome": "18127.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 14% do quadro, cor RGB(46,55,58)"
+   ]
+  },
+  {
+   "id": "Q92",
+   "t": 611.3333333333334,
+   "nome": "18340.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 612.5,
+   "nome": "18375.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 624.5,
+   "nome": "18735.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 636.5,
+   "nome": "19095.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 648.5,
+   "nome": "19455.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(72,90,96)"
+   ]
+  },
+  {
+   "id": "Q97",
+   "t": 657.0666666666667,
+   "nome": "19712.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 657.5,
+   "nome": "19725.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 660.5,
+   "nome": "19815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 672.5,
+   "nome": "20175.png",
+   "sinais": []
+  },
+  {
+   "id": "Q101",
+   "t": 672.8,
+   "nome": "20184.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 684.5,
+   "nome": "20535.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 696.5,
+   "nome": "20895.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 708.5,
+   "nome": "21255.png",
+   "sinais": []
+  },
+  {
+   "id": "Q105",
+   "t": 720.3333333333334,
+   "nome": "21610.png",
+   "sinais": []
+  },
+  {
+   "id": "Q106",
+   "t": 720.5,
+   "nome": "21615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q107",
+   "t": 726.7333333333333,
+   "nome": "21802.png",
+   "sinais": []
+  },
+  {
+   "id": "Q108",
+   "t": 727.0666666666667,
+   "nome": "21812.png",
+   "sinais": []
+  },
+  {
+   "id": "Q109",
+   "t": 727.4666666666667,
+   "nome": "21824.png",
+   "sinais": []
+  },
+  {
+   "id": "Q110",
+   "t": 732.5,
+   "nome": "21975.png",
+   "sinais": []
+  },
+  {
+   "id": "Q111",
+   "t": 734.1,
+   "nome": "22023.png",
+   "sinais": []
+  },
+  {
+   "id": "Q112",
+   "t": 744.5,
+   "nome": "22335.png",
+   "sinais": []
+  },
+  {
+   "id": "Q113",
+   "t": 756.5,
+   "nome": "22695.png",
+   "sinais": []
+  },
+  {
+   "id": "Q114",
+   "t": 768.5,
+   "nome": "23055.png",
+   "sinais": []
+  },
+  {
+   "id": "Q115",
+   "t": 780.5,
+   "nome": "23415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q116",
+   "t": 784.8,
+   "nome": "23544.png",
+   "sinais": [
+    "faixa uniforme na borda base: 5% do quadro, cor RGB(27,30,32)"
+   ]
+  },
+  {
+   "id": "Q117",
+   "t": 785.2,
+   "nome": "23556.png",
+   "sinais": [
+    "faixa uniforme na borda base: 8% do quadro, cor RGB(26,29,32)"
+   ]
+  },
+  {
+   "id": "Q118",
+   "t": 792.5,
+   "nome": "23775.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(89,104,107)"
+   ]
+  },
+  {
+   "id": "Q119",
+   "t": 804.5,
+   "nome": "24135.png",
+   "sinais": []
+  },
+  {
+   "id": "Q120",
+   "t": 816.5,
+   "nome": "24495.png",
+   "sinais": []
+  }
+ ]
+}

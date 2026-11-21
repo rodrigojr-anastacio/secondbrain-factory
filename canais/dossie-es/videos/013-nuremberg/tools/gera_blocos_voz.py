@@ -1,6 +1,6 @@
 import json,re
-# Glossário só para a VOZ (012 MI6): nomes em espanhol saem bem; conferir franceses/portugueses depois.
-G={"MI6":"eme i seis","MI5":"eme i cinco","BSC":"be ese ce","Estación M":"Estación eme","Ordzhonikidze":"Ordyonikídze","Exocet":"Exoset","Joe K":"Yóu Kéi","Maschwitz":"Máshvits"}
+# Glossário só para a VOZ (013 Núremberg): nomes em espanhol saem bem; conferir franceses/portugueses depois.
+G={"NPR":"ene pe erre","ixil":"ishil","Kranzbühler":"Kransbíler"}
 b=json.load(open("blocos.json"))
 ks=sorted(G,key=len,reverse=True)
 pat=re.compile("(?<!\\w)("+"|".join(map(re.escape,ks))+")(?!\\w)")

@@ -1,0 +1,56 @@
+# Pacote de publicación · dossie-es 013 · Los Juicios de Núremberg (puede ir al aire: según el día que elija Rodrigo; ventana sugerida: dom o lun) · duración 13:49
+
+## TESTAR E COMPARAR (títulos × thumbs)
+| par | título | padrão do título | thumb | padrão da thumb |
+|---|---|---|---|---|
+| A (T1) | TODA la historia de los Juicios de Núremberg en 14 minutos | TODA la historia de [tema] en N minutos | thumb-A.jpg: auriculares de baquelita de 1945 solos sobre papel crema, "NÚREMBERG" + sello "SIN NOMBRE" | objeto-simbolo (controle) |
+| B (T2) | Cómo Núremberg le puso nombre al crimen que no tenía nombre | Cómo + organização + verbo concreto + alvo | thumb-B.jpg: 20/11/1945, un fiscal lee la acusación en el atril bajo un foco, sala oscura, sin texto | cena-acao |
+| C (T3) | Núremberg: de la sala 600 a los tribunales de América Latina | [TEMA]: de A a B | thumb-C.jpg: mapa del Atlántico, hilo rojo de Núremberg a cuatro puntos de América Latina, "HASTA AQUÍ" | mapa-lugar |
+
+## Descripción
+Si te gustan estos expedientes, suscríbete, deja tu like y compártelo: abrimos uno nuevo cada semana.
+
+Núremberg, octubre de 1946: un abogado polaco, Raphael Lemkin, inventó una palabra para el crimen que le quitó a 49 familiares. La palabra se leyó en voz alta el primer día del juicio, pero no aparece en la sentencia. Esta es la historia completa de los juicios de Núremberg: la Carta de Londres, la sala 600, los intérpretes, la sentencia, la Convención contra el Genocidio y cómo esas reglas llegaron a tribunales de América Latina.
+
+Capítulos
+0:00 Introducción: la palabra que no existía
+0:32 Expediente 1: La Palabra
+1:23 Expediente 2: El Jardín
+2:20 Expediente 3: La Carta
+3:09 Expediente 4: La Sala
+4:08 Expediente 5: El Micrófono
+5:04 Expediente 6: El Cuestionario
+6:10 Expediente 7: El Hotel
+7:21 Expediente 8: El Código
+8:21 Expediente 9: La Convención
+8:59 Expediente 10: La Fábrica
+10:02 Expediente 11: El Plazo
+10:55 Expediente 12: La Ley
+12:05 Expediente 13: La Jueza
+13:03 Cierre: La Palabra
+
+Fuentes
+- Avalon Project (Yale Law School): Acordo e Carta de Londres (8/8/1945, art. 6 e art. 8)  · Acusação, Count Three ("deliberate and systematic genocide")  · Transcrição de 20/11/1945 (leitura da acusação; trecho do Count Three lido pelo fiscal-adjunto francês Pierre Mounier) · Transcrição de 2/7/1946 (Exhibit Doenitz-100, interrogatório de Nimitz de 11/5/1946)  · Sentença 30/9–1/10/1946 (penas; Dönitz "not assessed on the ground of his breaches…"; "genocide" 0 vezes)  · Relatório de Jackson com os 19 países que aderiram
+- USHMM (Holocaust Encyclopedia): Lemkin ("Coining a word…"), a sala 600 ("The Nuremberg Courtroom": Kiley, parede, teto, cabines, galeria de 250), tradução no tribunal, Doctors' Trial e Código de Nuremberg, morte de Lemkin.
+- Philippe Sands, *Calle Este-Oeste* (Anagrama, 2017) / *East West Street* (2016): almoço de Jackson com Lauterpacht em Cambridge (29/7/1945) e a sugestão de "crímenes contra la humanidad"; Lwów/Lemberg; família de Lauterpacht.
+- William Schabas, "Raphael Lemkin, Genocide and Crimes against Humanity" (2010): Lemkin e o veredicto ("blackest day", em paráfrase); Henry T. King Jr. o viu muito abalado no Grand Hotel de Núremberg (out/1946).
+- National WWII Museum e PBS American Experience: Dostert, ~700 candidatos/~5%, IBM, 5 canais, luzes amarela/vermelha; ONU testa (1946) e adota (1947) a simultânea.
+- Memorium Nürnberger Prozesse: 218 dias de audiência; escolha de Núremberg (Palácio com prisão anexa).
+- ONU: Convenção sobre Genocídio (Res. 260 A (III), 9/12/1948; em vigor 12/1/1951); Convenção sobre a imprescritibilidade (26/11/1968).
+- International Churchill Society: discurso radiofônico de 24/8/1941 ("We are in the presence of a crime without a name"); conferido na revisão (REVISAO.md).
+- JTA (arquivo): Stangl perpétua em Düsseldorf (dez/1970); Corte Suprema do Chile nega extradição de Rauff (1963, prescrição; "97,000" segundo a acusação alemã). Austria-Forum e Gitta Sereny, *Into That Darkness* (1974) (Stangl: fuga 1948, Brasil 1951, VW São Bernardo, prisão 28/2/1967, extradição 23/6/1967, morte 28/6/1971; ≥ 400 mil segundo a sentença).
+- argentina.gob.ar / Comisión Provincial por la Memoria: Juicio a las Juntas (22/4–9/12/1985, 9 réus, 5 condenados), alegato de Strassera ("Señores jueces: nunca más"); Ley 23.492 (Punto Final, 1986), Ley 23.521 (Obediencia Debida, 1987), Ley 25.779 (2003), caso Simón (CSJN, 14/6/2005). Rótulo "Núremberg argentino" = imprensa (dito como "la prensa habla de").
+- NPR, Anistia Internacional, USHMM: Ríos Montt, 10/5/2013, juíza Yassmín Barrios, 80 anos (50 + 30), 1.771 vítimas ixil; anulação pela Corte de Constitucionalidade em 20/5/2013; NPR: primeira vez que um país condenou por genocídio um ex-chefe de Estado próprio. Morte em 1/4/2018 sem novo veredicto.
+- A. M. Rosenthal (New York Times, 1988): sete pessoas no enterro de Lemkin.
+Las acusaciones se atribuyen a sus fuentes. Contenido educativo e histórico; sin apología de la violencia.
+
+## Tags
+juicios de núremberg, historia de los juicios de núremberg, tribunal de núremberg, raphael lemkin, genocidio, crímenes contra la humanidad, carta de londres, sala 600, segunda guerra mundial, nazis, juicio a las juntas, ríos montt, franz stangl, historia, dossier en minutos
+
+Categoría: Educación · Idioma: español
+
+## Checklist al publicar (Rodrigo)
+- Uso de contenido sintético (Studio → Atributos): **Sí** · Para niños: **No** · Idioma: español.
+- "Testar e comparar": thumbs A/B/C pareadas con los títulos A/B/C (A: auriculares/SIN NOMBRE; B: fiscal bajo el foco, sin texto; C: mapa/HASTA AQUÍ). Avisar cuál ganó.
+- Video: video.mp4 1080p (nunca la versión del Telegram) · Subtítulos: legendas.srt (es).
+- Día de publicación: lo elige Rodrigo (la fábrica sugiere dom o lun).

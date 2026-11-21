@@ -1,0 +1,69 @@
+# Pré-QA visual automático
+
+- Alvo: `canais/dossie-es/videos/013-nuremberg/preqa` · 120 quadros · modelo `claude-sonnet-5-5` · custo US$ 0.274 · `tools/preqa_visual.py`
+- Resultado: **sem bloqueante** · bloqueante 0 · alto 9 · médio 30 · baixo 32
+- Confira cada item no quadro (o modelo erra para os dois lados): falso positivo → anote e siga; defeito real → corrija e refaça os stills do trecho.
+
+| Tempo | Quadro | Severidade | Categoria | Problema |
+|---|---|---|---|---|
+| 0:24 | Q06 `735.png` | medio | texto_inventado | A folha datilografada tem linhas de texto borrado, ilegível, escrito pela IA. Está desfocado de propósito e funciona como cena de censura, mas pode ser lido como texto falso. Na dúvida entre estilo e defeito, fica como médio. |
+| 0:32 | Q07 `945.png` | alto | valor_errado | O ponto 'AMÉRICA LATINA' está sobre o norte da América do Sul, perto da Colômbia/Venezuela/Brasil, e o arco vermelho termina ali. Fica impreciso para uma região tão ampla. O mapa traz fronteiras modernas de países, que destoam da época tratada, o pós-guerra. |
+| 1:00 | Q12 `1815.png` | medio | anacronismo | Sinagoga com estrelas de Davi nas paredes e na arca, bancos cobertos de musgo e fumaça. Pode ser intencional (sinagoga abandonada), mas as estrelas de seis pontas desenhadas pela IA em vários pontos merecem conferência de coerência histórica. Dúvida entre estilo e defeito. |
+| 1:33 | Q17 `2784.png` | medio | legenda | A placa de nome diz "ROBERT JACKSON", mas há dois homens no quadro e não dá para saber qual deles é Jackson. A placa fica no canto inferior esquerdo, sobre a roupa e a vegetação, sem cortar texto. Pode ser estilo; confira se a identificação está correta. |
+| 2:00 | Q21 `3615.png` | alto | texto_inventado | As placas das lojas nos dois lados da rua trazem letras falsas e ilegíveis, como a placa à esquerda com "...NINUO" e as faixas à direita, que parecem texto escrito pela IA. Precisam ser trocadas por placas em branco ("blank shop sign") ou ficar sem letras. |
+| 2:22 | Q24 `4268.png` | medio | moldura | Há uma faixa preta fina na borda inferior, de cerca de 3%, abaixo da borda da mesa. Pode ser a sombra da mesa e fazer parte da cena, mas parece letterbox de imagem de IA. Se for letterbox, recorte a faixa. |
+| 2:48 | Q28 `5055.png` | medio | valor_errado | O ponto vermelho de Haití fica sobre a ilha de Hispaniola, mas está deslocado para a ponta leste, mais perto de Santo Domingo. Já o ponto de Honduras cai sobre a península de Yucatán/Belize, não sobre Honduras. Os rótulos ficam perto, mas a localização é duvidosa. |
+| 2:49 | Q29 `5066.png` | alto | valor_errado | O ponto de PARAGUAY está na posição errada no mapa. Cai na região do Chaco, próximo à fronteira com a Bolívia e a Argentina. O de Honduras também fica sobre Yucatán/Belize. O mapa mostra países errados ou mal localizados. |
+| 3:00 | Q30 `5415.png` | medio | anacronismo | Os carros e ônibus parecem dos anos 80, com o Congresso argentino ao fundo. O contexto é Núremberg 1945 / Latinoamérica, então pode ser intencional para uma cena posterior; a época do vídeo é incerta. As placas dos carros têm letras minúsculas ilegíveis, que podem ser texto inventado. |
+| 3:11 | Q31 `5725.png` | medio | elemento_fora | A placa de capítulo cobre o rosto e o tronco do personagem, deixando só a cabeça visível. Uma bandeira ou tecido vermelho com símbolo parecido com uma suástica aparece no canto inferior esquerdo, o que pode ser um símbolo inventado ou problemático. |
+| 3:11 | Q32 `5735.png` | medio | elemento_fora | Repetição idêntica de Q31 no mesmo tempo (3:11): placa cobrindo o personagem, e o tecido vermelho com símbolo no canto inferior esquerdo. Pode ser quadro duplicado. |
+| 3:12 | Q33 `5748.png` | alto | anacronismo | No canto inferior esquerdo, sobre uma caixa de madeira, há um pano vermelho com símbolo que lembra uma suástica/emblema nazista, desenhado de forma ambígua e ilegível. É um símbolo sensível, pode ser lido como bandeira inventada e pode causar problema de monetização. |
+| 3:12 | Q34 `5775.png` | alto | anacronismo | No canto inferior esquerdo, sobre a caixa de madeira, o pano vermelho com emblema parecido com suástica está ambíguo e mal desenhado. É um símbolo sensível e inventado pela IA. |
+| 3:48 | Q37 `6855.png` | medio | anacronismo | Uniforme listrado de prisioneiro combinado com guarda de uniforme verde-oliva. O contexto (Nuremberg, montagem da sala) não deixa claro se o figurino é coerente com a época; vale conferir. |
+| 4:00 | Q38 `7215.png` | medio | texto_inventado | Brasão na parede de tijolos ao fundo, com emblema heráldico inventado pela IA. Não há letras legíveis, mas a insígnia pode soar como símbolo/anacronismo no tribunal. |
+| 4:24 | Q43 `7935.png` | medio | anacronismo | A bandeira tricolor ao fundo, vertical, azul/branco/vermelho, é uma bandeira francesa. Pode ser intencional (juiz francês em Nuremberg), mas confirmar se combina com a narração. A medalha vermelha no peito é plausível. |
+| 4:36 | Q44 `8295.png` | medio | texto_inventado | O emblema da ONU está na parede do tribunal e a bandeira azul à direita tem um emblema ilegível. Em 1945-46 o tribunal de Nuremberg não usava o emblema da ONU, então é um possível anacronismo. A bandeira americana é plausível. Conferir se o emblema pode ficar. |
+| 5:00 | Q47 `9015.png` | medio | moldura | O sinal automático acusa faixa preta de 5% na borda direita. Visualmente a borda direita é só o fundo escuro da sala, com a janela ao lado, e não dá para confirmar se é letterbox ou escuridão da cena. Conferir os pixels da borda e recortar se for faixa. |
+| 5:12 | Q51 `9375.png` | medio | texto_inventado | O mapa-múndi na parede à esquerda tem uma pequena caixa com texto ilegível/inventado pela IA (legenda do mapa). Está pequeno e discreto, mas é texto falso no mapa. |
+| 5:48 | Q56 `10455.png` | alto | texto_inventado | O documento no centro da mesa tem texto borrado/ilegível inventado pela IA, com um título em inglês que parece 'German Military Order'. É escrita falsa visível, embora borrada. O retrato na parede também é um detalhe que merece conferência. |
+| 6:48 | Q63 `12255.png` | medio | texto_inventado | O livro aberto em primeiro plano traz linhas de texto borrado/pseudo-letra inventado pela IA nas duas páginas. Está desfocado e ilegível, então só incomoda se aparecer em close; avaliar se precisa ser coberto ou trocado. |
+| 7:23 | Q66 `13296.png` | medio | texto_encavalado | O carimbo vermelho "CLASIFICADO" invade a borda superior da placa e a aba "EXPEDIENTE 8" fica sobreposta aos rostos. As letras do carimbo estão parcialmente cobertas pela placa ("CLASIFICADO" cortado na base), mas ainda legíveis. Pode ser efeito intencional de carimbo; registrado por dúvida. |
+| 7:24 | Q67 `13309.png` | medio | texto_encavalado | O carimbo "CLASIFICADO" fica parcialmente escondido atrás da borda da placa, cortando a base das letras. Pode ser intencional, mas a leitura piora. Provável animação de entrada do carimbo. |
+| 7:24 | Q68 `13335.png` | medio | texto_encavalado | Quadro idêntico ao Q67: o carimbo "CLASIFICADO" fica cortado pela borda da placa na base das letras. Se o carimbo já deveria ter assentado, é defeito de camada. |
+| 8:23 | Q73 `15092.png` | medio | anacronismo | A placa de capítulo 'LA CONVENCIÓN' cobre a base da Torre Eiffel e o centro da cena. A cena parece ser Paris, mas o capítulo é sobre Núremberg (dúvida: pode ser intencional para a convenção). Os carros e a arquitetura são plausíveis para a época. |
+| 8:24 | Q75 `15135.png` | medio | anacronismo | Há uma bandeira vermelha pequena no topo do prédio à direita, sem identificação clara. Pode ser anacronismo ou bandeira inventada pela IA. Vale conferir. |
+| 8:36 | Q76 `15495.png` | medio | outro | O mapa com relevo traz fronteiras modernas da África e da Europa, que podem ser anacrônicas conforme a época narrada. Há também marcas vermelhas aleatórias (EUA, Bolívia) e texturas de traços pretos soltos no oceano. A dúvida é entre estilo e defeito. |
+| 8:58 | Q80 `16149.png` | alto | valor_errado | O mapa-múndi mostra o arco vermelho de 'EUROPA' até 'AMÉRICA DEL SUR'. O ponto de 'EUROPA' está na França/Alemanha e o de 'AMÉRICA DEL SUR' está na Bolívia, o que é impreciso. O fundo difere do mapa anterior (Q79), com cores mais claras e vegetação verde. O arco atravessa o Atlântico de forma estranha. |
+| 9:36 | Q87 `17295.png` | medio | texto_inventado | Os papéis e as fichas espalhados na mesa, o mapa-múndi e as notas na parede à direita têm escrita falsa da IA. Está ao fundo e ilegível, e a dúvida é se passa como textura de papel. |
+| 10:48 | Q96 `19455.png` | medio | anacronismo | A casa com o carro bege parece de modelo anos 70 e um bairro suburbano. Se o episódio for ambientado em outra época ou lugar (Núremberg, anos 40/50), há risco de época errada. Dúvida entre estilo e defeito. |
+| 10:57 | Q97 `19712.png` | medio | elemento_fora | A placa de capítulo 'EXPEDIENTE 12 / LA LEY' cobre quase todo o tribunal e esconde os juízes ao fundo (só aparecem cabeças atrás da placa) e os rostos da fileira do meio. Pode ser intencional por ser cartela de capítulo, mas o carimbo 'CLASIFICADO' encosta e corta a cabeça de um juiz. |
+| 11:00 | Q99 `19815.png` | medio | anacronismo | Legenda 'BUENOS AIRES, 1985', mas a cena é a mesma imagem do tribunal 'Núremberg' dos quadros anteriores. Os terninhos e a estética parecem genéricos, sem identificar o lugar. É possível que haja lugar errado, pois a imagem do julgamento de Núremberg é reaproveitada como Buenos Aires. Vale confirmar se é intencional. |
+| 12:07 | Q107 `21802.png` | medio | elemento_fora | A placa de capítulo 'LA JUEZA' cobre boa parte da cena e o carimbo 'CLASIFICADO' cobre a cabeça do juiz. Pode ser composição intencional da placa de capítulo; registro por dúvida. Há também uma bandeira ou brasão no canto direito com símbolo ilegível. |
+| 12:07 | Q109 `21824.png` | medio | texto_inventado | No canto superior direito há um brasão ou selo na parede com escrita circular ilegível, inventada pela IA. É discreto e está parcialmente cortado pela borda. A placa de capítulo também cobre a cabeça do juiz. |
+| 12:14 | Q111 `22023.png` | medio | anacronismo | Há um notebook/laptop na mesa ao fundo do tribunal e o brasão no alto à esquerda está cortado. Pode ser coerente com o julgamento de Ríos Montt em 2013, mas confira a época em relação à narrativa. |
+| 13:05 | Q116 `23544.png` | alto | anacronismo | A cena de fundo mostra táxis amarelos de design anos 50/60 e arranha-céus de Nova York, mas o tema é Nuremberg (1945-46). Aparece também uma placa de matrícula com caracteres ilegíveis inventados na traseira do táxi. |
+| 13:05 | Q117 `23556.png` | medio | texto_inventado | A placa do táxi à direita traz caracteres falsos ('130 L27' ou similar), inventados pela IA. O texto é pequeno e discreto. |
+| 13:12 | Q118 `23775.png` | alto | anacronismo | O edifício da ONU (arranha-céu Secretariat e Assembleia) à beira do East River aparece com a bandeira da ONU à direita. Para um vídeo sobre Nuremberg (1945-46), o complexo ainda não existia: foi inaugurado em 1952. Há dúvida se a cena é intencional (a ONU em NY, em outro momento da narração), por isso o nível é alto e não bloqueante. |
+| 13:24 | Q119 `24135.png` | medio | anacronismo | Os guardas usam capacetes brancos de estilo MP americano, o que é plausível em Nuremberg. Porém os réus aparecem de uniforme azul-acinzentado homogêneo, com rostos quase idênticos em fileiras repetidas. A repetição de rostos é visível e a estética é duvidosa. |
+
+32 item(ns) de severidade baixa só no PREQA-visual.json (use --incluir-baixo para listar).
+
+## Sinais automáticos (PIL, sem IA)
+
+- Q23 (2:12): faixa uniforme na borda topo: 8% do quadro, cor RGB(78,90,95)
+- Q24 (2:22): faixa preta na borda base: 3% do quadro
+- Q47 (5:00): faixa preta na borda direita: 5% do quadro
+- Q55 (5:36): faixa uniforme na borda topo: 7% do quadro, cor RGB(64,53,51)
+- Q55 (5:36): faixa uniforme na borda base: 10% do quadro, cor RGB(43,55,61)
+- Q88 (9:48): faixa uniforme na borda topo: 13% do quadro, cor RGB(75,94,103)
+- Q89 (10:00): faixa uniforme na borda topo: 9% do quadro, cor RGB(71,89,93)
+- Q90 (10:04): faixa uniforme na borda topo: 14% do quadro, cor RGB(46,55,58)
+- Q91 (10:04): faixa uniforme na borda topo: 14% do quadro, cor RGB(46,55,58)
+- Q96 (10:48): faixa uniforme na borda topo: 9% do quadro, cor RGB(72,90,96)
+- Q116 (13:05): faixa uniforme na borda base: 5% do quadro, cor RGB(27,30,32)
+- Q117 (13:05): faixa uniforme na borda base: 8% do quadro, cor RGB(26,29,32)
+- Q118 (13:12): faixa uniforme na borda topo: 3% do quadro, cor RGB(89,104,107)
+
+## Quadros
+
+Q01=0:00, Q02=0:02, Q03=0:02, Q04=0:08, Q05=0:12, Q06=0:24, Q07=0:32, Q08=0:34, Q09=0:35, Q10=0:36, Q11=0:48, Q12=1:00, Q13=1:12, Q14=1:24, Q15=1:25, Q16=1:26, Q17=1:33, Q18=1:36, Q19=1:37, Q20=1:48, Q21=2:00, Q22=2:07, Q23=2:12, Q24=2:22, Q25=2:23, Q26=2:24, Q27=2:36, Q28=2:48, Q29=2:49, Q30=3:00, Q31=3:11, Q32=3:11, Q33=3:12, Q34=3:12, Q35=3:24, Q36=3:36, Q37=3:48, Q38=4:00, Q39=4:10, Q40=4:10, Q41=4:10, Q42=4:12, Q43=4:24, Q44=4:36, Q45=4:45, Q46=4:48, Q47=5:00, Q48=5:06, Q49=5:06, Q50=5:07, Q51=5:12, Q52=5:20, Q53=5:24, Q54=5:26, Q55=5:36, Q56=5:48, Q57=6:00, Q58=6:12, Q59=6:12, Q60=6:12, Q61=6:24, Q62=6:36, Q63=6:48, Q64=7:00, Q65=7:12, Q66=7:23, Q67=7:24, Q68=7:24, Q69=7:36, Q70=7:48, Q71=8:00, Q72=8:12, Q73=8:23, Q74=8:23, Q75=8:24, Q76=8:36, Q77=8:38, Q78=8:48, Q79=8:56, Q80=8:58, Q81=9:00, Q82=9:01, Q83=9:02, Q84=9:10, Q85=9:12, Q86=9:24, Q87=9:36, Q88=9:48, Q89=10:00, Q90=10:04, Q91=10:04, Q92=10:11, Q93=10:12, Q94=10:24, Q95=10:36, Q96=10:48, Q97=10:57, Q98=10:58, Q99=11:00, Q100=11:12, Q101=11:13, Q102=11:24, Q103=11:36, Q104=11:48, Q105=12:00, Q106=12:00, Q107=12:07, Q108=12:07, Q109=12:07, Q110=12:12, Q111=12:14, Q112=12:24, Q113=12:36, Q114=12:48, Q115=13:00, Q116=13:05, Q117=13:05, Q118=13:12, Q119=13:24, Q120=13:36
