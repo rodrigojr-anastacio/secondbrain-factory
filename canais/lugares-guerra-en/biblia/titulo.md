@@ -47,3 +47,9 @@ Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/emba
 - **Thumb de documento real:** precisa de frase curta numa linha só e sem palavra proibida na vizinhança; sem evidência de "documento" como padrão de thumb no nicho (buscas de 17/11 não acharam thumb de documento acima da mediana).
 - **`cena-acao` precisa de objeto de guerra ≥ 45% e alvo para a palavra-pergunta** (r2 reprovou "equipe peneirando quintal": lia como jardinagem). Evidência medida: Untold War Archives `X4gBxGuxYVA` 463 mil (36,6×).
 - **`antes-depois` tem evidência de nicho amplo** (Frontlines Forgotten `87xxugek3Lo` 10,3×, Unhinged Past `C7ROfkvZmi0` 9,4×, WW2 Wayfinder `TyNghiByu1I` 11,7×).
+
+## Lições do crivo do 006 Chernobyl (21/11/2026, 3 rodadas do vídeo + 3 da proposta; `videos/006-chernobyl/embalagem/crivo-r1..r3.md`) — Hipótese até ter CTR
+- **Cabeça de título da família dominante do tema cai mesmo com complemento novo:** "What Happened at Chernobyl Before the World Was Told?" reprovou (os 26 primeiros caracteres = BBC 1,16 mi + 4 títulos "What … Happened at Chernobyl" de 0,9–3,1 mi). O feed lê a cabeça. Saída aprovada: padrão "<X> … Before the World Knew" (Be Smart `61bgzr1LE8A` 4,8×; AVC `M459WHMpDe4` 3,9×) com objeto concreto ("Chernobyl Burned for Days…").
+- **Todo verbo do título precisa de obrigação literal no roteiro quando um fato parece desmenti-lo:** "Burned" × "fogo apagado às 05:00" reprovou na r2 até a obrigação separar o fogo do teto (05:00) do grafite (Landsat de 29/04).
+- **Número de tempo na thumb:** "67:36" lê como minutos:segundos (ou como o selo de duração do YouTube); usar número + unidade por extenso ("67 HOURS"), sem ":".
+- **3 títulos de 3 gatilhos:** dois "Why…?" no mesmo vídeo caíram na proposta; o trio aprovado foi intervalo (T1) × pergunta "por quê" (T2) × revelação de documento (T3, padrão D: "The Bus Order Pripyat Wasn't Told About").

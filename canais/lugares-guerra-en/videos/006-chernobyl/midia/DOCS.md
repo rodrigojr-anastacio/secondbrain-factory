@@ -32,3 +32,10 @@ Licenças (resumo; detalhe em `pesquisa/clearance-chernobyl-2026-11-21/MATERIAL.
 - **Tradução do Wilson em tela:** de propósito, só os scans originais (a tradução é do Wilson). A tradução inglesa lida pela narração está no `FATOS.md`.
 - **Documento com a palavra "temporary":** o único é o **áudio** do anúncio de Pripyat (`временную эвакуацию`); não há scan do texto. Sem chave `temporary` para grifo; usar a legenda do áudio.
 - INSAG-1 (scan não baixado) e NUREG-1250 (NRC bloqueia a VPS).
+
+## Acrescentado pelo roteirista (21/11/2026, crivo de ângulo r1)
+| arquivo | fonte | licença | crédito na tela | chaves |
+|---|---|---|---|---|
+| doc_lei791a_p13_art12-radiacao.png | Lei da Ucrânia nº 791a-XII de 27/02/1991 "Про правовий режим території, що зазнала радіоактивного забруднення внаслідок Чорнобильської катастрофи", texto consolidado (ВВР 1991, N 16, ст.198), via FAOLEX https://faolex.fao.org/docs/pdf/ukr43456.pdf, PDF p.13 | ato oficial (PD-UA-exempt, art. 10 da lei de direito autoral) | Law of Ukraine No. 791a-XII, 27 Feb 1991, Art. 12 | art12_titulo, radiacao_perigosa, zabor |
+| doc_lei791a_p14_residencia-proibida.png | idem, PDF p.14 | idem | idem | residencia |
+| doc_insag7_p21_no-operator-error.png | INSAG-7 PDF p.21 (§2, revisão do INSAG-1) | IAEA (uso com crédito) | Source: IAEA, INSAG-7 (1992) | operator_error_insag1, no_operator_error, transfer_0028 |

@@ -1,0 +1,794 @@
+[
+ {
+  "id": "B01a",
+  "texto": "This line is from the official record. \"EPS-5 button was pressed.\" Someone in Reactor Four's control room had hit the emergency shutdown, at one twenty-three and forty seconds, on a Saturday morning. Seconds later, the reactor blew apart.",
+  "ideia": true,
+  "inicio_est": 8.3,
+  "dur_est": 13.57,
+  "arquivo_antes": "A1",
+  "relogio": [
+   "26.04 01:23:40",
+   "parado"
+  ]
+ },
+ {
+  "id": "B01b",
+  "texto": "Between that button and the moment Moscow told the world, sixty-seven hours and thirty-six minutes went by. This is that clock. The fires on the roof were out by five that morning. The reactor itself was not.",
+  "ideia": false,
+  "inicio_est": 21.87,
+  "dur_est": 13.21,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 01:23:40",
+   "corre"
+  ]
+ },
+ {
+  "id": "B01c",
+  "texto": "Its graphite core kept burning, and on Tuesday an American satellite photographed the heat. At eight o'clock on Saturday night, the order to prepare buses for Pripyat had already been given. The city spent the rest of that night without being told.",
+  "ideia": false,
+  "inicio_est": 35.09,
+  "dur_est": 15.0,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 20:00",
+   "corre"
+  ]
+ },
+ {
+  "id": "B01d",
+  "texto": "On Sunday, the radio called it a temporary evacuation. Remember that word. The first public alarm outside the Soviet Union went off in Sweden, on Monday morning. Moscow still said nothing until nine that night.",
+  "ideia": false,
+  "inicio_est": 52.69,
+  "dur_est": 12.5,
+  "arquivo_antes": "A2",
+  "relogio": [
+   "28.04 21:00:00",
+   "corre"
+  ]
+ },
+ {
+  "id": "B02a",
+  "texto": "Today there is a checkpoint on the road north from Kyiv: a barrier, a guard post, a sign with the radiation symbol. Beyond it is a zone that Ukrainian law has closed to ordinary life since 1991. Before 2022, it was open to guided tours.",
+  "ideia": true,
+  "inicio_est": 65.19,
+  "dur_est": 16.07,
+  "arquivo_antes": null,
+  "relogio": [
+   "TODAY",
+   "oculto"
+  ]
+ },
+ {
+  "id": "B02b",
+  "texto": "Since the invasion of 2022, it has been closed to tourists. Chernobyl burned for days before the world knew. So how do you keep a burning reactor quiet for sixty-seven hours? And why is the place they called temporary still closed?",
+  "ideia": false,
+  "inicio_est": 81.26,
+  "dur_est": 14.64,
+  "arquivo_antes": null,
+  "relogio": [
+   "TODAY",
+   "oculto"
+  ]
+ },
+ {
+  "id": "B02c",
+  "texto": "It isn't a mystery. It isn't one man's lie. It's written down, hour by hour, in reports, logs, orders and recordings that are public today.",
+  "ideia": false,
+  "inicio_est": 95.9,
+  "dur_est": 8.93,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B02d",
+  "texto": "Along the way, you'll hear the people who were there, you'll read the papers that decided what the city was told, and you'll see what a Swedish chemist found on a borrowed shoe.",
+  "ideia": false,
+  "inicio_est": 104.83,
+  "dur_est": 11.79,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B03a",
+  "texto": "To read that clock, we have to start it one day early. On Friday, April twenty-fifth, Reactor Four was being slowed down for maintenance.",
+  "ideia": true,
+  "inicio_est": 116.61,
+  "dur_est": 8.57,
+  "arquivo_antes": null,
+  "relogio": [
+   "25.04 01:06",
+   "hora"
+  ]
+ },
+ {
+  "id": "B03b",
+  "texto": "Before it stopped, its engineers were supposed to run a test: if the power failed, could a turbine spinning down keep the cooling pumps running until the backup generators started? At one in the morning, they began lowering power. By two in the afternoon, they were ready.",
+  "ideia": false,
+  "inicio_est": 125.19,
+  "dur_est": 16.79,
+  "arquivo_antes": null,
+  "relogio": [
+   "25.04 14:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B03c",
+  "texto": "That's when the official timeline records two things in the same minute. The emergency core cooling system was disconnected. And the power grid controller in Kyiv asked them to wait. It was a Friday afternoon.",
+  "ideia": false,
+  "inicio_est": 141.97,
+  "dur_est": 12.5,
+  "arquivo_antes": null,
+  "relogio": [
+   "25.04 14:00",
+   "parado"
+  ]
+ },
+ {
+  "id": "B03d",
+  "texto": "Factories and homes across Kyiv needed electricity, and a reactor at full output was worth more than a test. The test was postponed, and the reactor stayed at half power for nine hours, with its emergency cooling switched off. At ten past eleven that night, Kyiv released them.",
+  "ideia": false,
+  "inicio_est": 154.47,
+  "dur_est": 17.14,
+  "arquivo_antes": null,
+  "relogio": [
+   "25.04 23:10",
+   "hora"
+  ]
+ },
+ {
+  "id": "B03e",
+  "texto": "A new shift sat down at midnight, with a test they had expected to watch happen in the daytime. None of them knew they were starting a clock.",
+  "ideia": false,
+  "inicio_est": 171.61,
+  "dur_est": 10.0,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 00:00",
+   "min"
+  ]
+ },
+ {
+  "id": "B04a",
+  "texto": "The official reconstruction of that night was published by the International Atomic Energy Agency in 1992. It's called INSAG-7, and it corrects an earlier report from 1986. Its first annex is a table, minute by minute, built from the plant's logs and its computer records.",
+  "ideia": true,
+  "inicio_est": 181.61,
+  "dur_est": 16.07,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 00:00",
+   "min"
+  ]
+ },
+ {
+  "id": "B04b",
+  "texto": "At twenty-eight minutes past midnight, while control was switched from one system to another, power fell to thirty megawatts. That's almost nothing. The table notes it was \"not envisaged in the testing programme.\" The 1986 report had called that drop an operator error.",
+  "ideia": false,
+  "inicio_est": 197.69,
+  "dur_est": 15.36,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 00:28",
+   "min"
+  ]
+ },
+ {
+  "id": "B04c",
+  "texto": "The 1992 report says there was \"no operator error as such.\" To bring it back, operators pulled control rods out of the core. At three minutes past one, power settled at two hundred megawatts, far below what the test called for.",
+  "ideia": false,
+  "inicio_est": 213.04,
+  "dur_est": 14.64,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 01:03",
+   "min"
+  ]
+ },
+ {
+  "id": "B04d",
+  "texto": "Then there's a line at one twenty-two and thirty seconds. A computer printout recorded how many rods were still in reserve. Calculated afterward, it came to six to eight. The minimum allowed was fifteen.",
+  "ideia": false,
+  "inicio_est": 227.69,
+  "dur_est": 12.14,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 01:22:30",
+   "min"
+  ]
+ },
+ {
+  "id": "B05a",
+  "texto": "At one twenty-three and four seconds, the turbine valves closed and the test began. It was supposed to last less than a minute, and the plant's instruments were recording every second of it. For the first thirty-six seconds, the records look almost normal.",
+  "ideia": true,
+  "inicio_est": 239.83,
+  "dur_est": 15.36,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 01:23:04",
+   "seg"
+  ]
+ },
+ {
+  "id": "B05b",
+  "texto": "Then, at one twenty-three and forty seconds, the line that starts our clock. The table says: \"EPS-5 button was pressed.\" Even here, two machines disagree. The teletape printed one twenty-three and thirty-nine.",
+  "ideia": false,
+  "inicio_est": 255.19,
+  "dur_est": 11.43,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 01:23:40",
+   "parado"
+  ]
+ },
+ {
+  "id": "B05c",
+  "texto": "That's the emergency shutdown. Rods began moving down into the core. And here is the strangest sentence in the whole report. \"The Commission was unable to establish why the button was pressed.\"",
+  "ideia": false,
+  "inicio_est": 266.61,
+  "dur_est": 11.43,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 01:23:40",
+   "parado"
+  ]
+ },
+ {
+  "id": "B05d",
+  "texto": "Three seconds later, at one twenty-three forty-three, power passed five hundred and thirty megawatts and kept rising. At one twenty-three forty-nine, the last signals: pressure rising inside the reactor space, a fuel channel rupturing, no voltage to the rod drives. Then the shift engineer's log, at one twenty-four.",
+  "ideia": false,
+  "inicio_est": 278.04,
+  "dur_est": 17.14,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 01:23:49",
+   "seg"
+  ]
+ },
+ {
+  "id": "B05e",
+  "texto": "\"Severe shocks; the RCPS rods stopped moving before they reached the lower limit stop switches.\" Most of the people in the building remembered two explosions. There is no instrument record of either one. There is only the log, and then silence.",
+  "ideia": false,
+  "inicio_est": 295.19,
+  "dur_est": 14.64,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 01:24",
+   "parado"
+  ]
+ },
+ {
+  "id": "B06a",
+  "texto": "At the fire station inside the plant, the alarm came almost at once. A first group of fourteen firemen arrived at one twenty-eight. Their commander, Lieutenant Volodymyr Pravik, was twenty-three. A second crew came from the city of Pripyat, under Lieutenant Viktor Kibenok, also twenty-three.",
+  "ideia": true,
+  "inicio_est": 309.83,
+  "dur_est": 16.07,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 01:28",
+   "hora"
+  ]
+ },
+ {
+  "id": "B06b",
+  "texto": "Back in the dispatch center, the calls went out to towns across the region, and they were recorded on tape. Listen to how calm they are.",
+  "ideia": false,
+  "inicio_est": 325.9,
+  "dur_est": 9.29,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 01:30",
+   "hora"
+  ]
+ },
+ {
+  "id": "B06c",
+  "texto": "Units three and four, the roof is burning. Send the crews to the nuclear plant. Nobody on the line knows yet what is really on fire. The roof fires on units three and four were contained by two twenty, and the roof fires were out at five.",
+  "ideia": false,
+  "inicio_est": 350.19,
+  "dur_est": 16.79,
+  "arquivo_antes": "A3",
+  "relogio": [
+   "26.04 05:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B06d",
+  "texto": "By four in the morning, about two hundred and fifty firemen had come to the site. That night, two plant workers were already lost: Valery Khodemchuk, whose body was never found, and Volodymyr Shashenok, who died at six that morning.",
+  "ideia": false,
+  "inicio_est": 366.97,
+  "dur_est": 14.29,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 06:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B06e",
+  "texto": "Within four months, twenty-eight plant workers and firemen died of acute radiation sickness. Both lieutenants were among them. They died in a Moscow hospital on the eleventh of May. That Saturday, the plant director, Viktor Bryukhanov, sent his report up the line.",
+  "ideia": false,
+  "inicio_est": 381.26,
+  "dur_est": 15.0,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 ~10:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B06f",
+  "texto": "It puts the explosion at one twenty-five. It counts one dead, one missing and thirty-four people under observation. It says the fire was put out at six. And it ends with a sentence about the city three kilometers away.",
+  "ideia": false,
+  "inicio_est": 396.26,
+  "dur_est": 13.93,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 ~10:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B06g",
+  "texto": "\"The situation at the city of Pripyat' and the adjoining population centers is normal.\" Remember that word: normal.",
+  "ideia": false,
+  "inicio_est": 410.19,
+  "dur_est": 6.43,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 ~10:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B07a",
+  "texto": "Pripyat was a young city, built for the plant's workers. Tens of thousands of people lived there. Saturday went on. Nobody announced anything.",
+  "ideia": true,
+  "inicio_est": 416.61,
+  "dur_est": 8.21,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 15:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B07b",
+  "texto": "But in Kyiv, someone had already read the numbers. This is a report from the Ukrainian Ministry of Automotive Transport, stamped secret, dated the next day.",
+  "ideia": false,
+  "inicio_est": 424.83,
+  "dur_est": 9.29,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 19:59",
+   "hora"
+  ]
+ },
+ {
+  "id": "B07c",
+  "texto": "It says that \"in fulfillment of an order\" from Deputy Chairman Masik of the Ukrainian Council of Ministers, the ministry \"received a signal at 2000 26 April 1986.\" Eight o'clock on Saturday night. A signal to prepare buses to evacuate Pripyat.",
+  "ideia": false,
+  "inicio_est": 434.11,
+  "dur_est": 14.64,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 20:00",
+   "parado"
+  ]
+ },
+ {
+  "id": "B07d",
+  "texto": "Eleven hundred of them, plus a battalion of trucks. At twenty-five past eleven, the columns were ordered out of Kyiv, on a route through Dymer and Ivankov. Ivankov is one of the towns the fire dispatcher had called that night.",
+  "ideia": false,
+  "inicio_est": 448.76,
+  "dur_est": 14.29,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 23:25",
+   "hora"
+  ]
+ },
+ {
+  "id": "B07e",
+  "texto": "And the report says that by four in the morning, \"1125 buses and 250 trucks and special vehicles\" were waiting outside the town of Chernobyl, ready. The city of Pripyat spent that whole night without being told. The buses were already on the road.",
+  "ideia": false,
+  "inicio_est": 463.04,
+  "dur_est": 15.71,
+  "arquivo_antes": null,
+  "relogio": [
+   "27.04 04:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B07f",
+  "texto": "On the report, a stamp in the corner: secret, copy number one.",
+  "ideia": false,
+  "inicio_est": 478.76,
+  "dur_est": 4.29,
+  "arquivo_antes": null,
+  "relogio": [
+   "27.04 04:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B08a",
+  "texto": "On Sunday, it was the city radio. This is the actual announcement, read by the voice of Pripyat's radio station. It was recorded, and it survives.",
+  "ideia": true,
+  "inicio_est": 483.04,
+  "dur_est": 9.29,
+  "arquivo_antes": null,
+  "relogio": [
+   "27.04 ~11:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B08b",
+  "texto": "It tells people to take documents, essential things and, for the first while, some food. Notice what it calls it. Not a disaster. A temporary evacuation.",
+  "ideia": false,
+  "inicio_est": 532.33,
+  "dur_est": 9.29,
+  "arquivo_antes": "A4",
+  "relogio": [
+   "27.04 ~12:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B08c",
+  "texto": "And listen to the last instructions. Close the windows. Switch off the electrical and gas appliances. Turn off the water taps.",
+  "ideia": false,
+  "inicio_est": 541.61,
+  "dur_est": 7.5,
+  "arquivo_antes": null,
+  "relogio": [
+   "27.04 ~12:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B08d",
+  "texto": "It's what you tell people who are coming back next week. The ministry's report gives the time the buses rolled in: one thirty in the afternoon, almost exactly thirty-six hours after the button.",
+  "ideia": false,
+  "inicio_est": 549.11,
+  "dur_est": 11.79,
+  "arquivo_antes": null,
+  "relogio": [
+   "27.04 13:30",
+   "hora"
+  ]
+ },
+ {
+  "id": "B08e",
+  "texto": "A day later, in Moscow, the Politburo was told that out of forty-five thousand residents, only five thousand workers remained. By then, the clock had passed fifty-five hours. And outside the Soviet Union, one of the first written records of any of this wasn't about Chernobyl at all.",
+  "ideia": false,
+  "inicio_est": 560.9,
+  "dur_est": 17.14,
+  "arquivo_antes": null,
+  "relogio": [
+   "28.04 ~09:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B09a",
+  "texto": "It's a wire story from Stockholm, filed on Monday, April twenty-eighth. It says that a worker at a Swedish nuclear plant \"set off an alarm Monday morning when his clothes registered unusually high radiation levels.\"",
+  "ideia": true,
+  "inicio_est": 578.04,
+  "dur_est": 12.5,
+  "arquivo_antes": null,
+  "relogio": [
+   "28.04 MON",
+   "hora"
+  ]
+ },
+ {
+  "id": "B09b",
+  "texto": "The plant is Forsmark, on the coast north of Stockholm, more than seven hundred miles from Pripyat. That morning, a chemist named Cliff Robinson walked back from the restroom and through the radiation monitor at the entrance. It went off.",
+  "ideia": false,
+  "inicio_est": 590.54,
+  "dur_est": 14.29,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B09c",
+  "texto": "He hadn't even been inside the controlled area yet. He walked through again, and again. The third time, it stayed quiet, and the man watching the monitor thought it needed adjusting.",
+  "ideia": false,
+  "inicio_est": 604.83,
+  "dur_est": 11.07,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B09d",
+  "texto": "Then Robinson came back from his rounds, and there was a line of workers at the monitor, all of them setting it off. So Robinson borrowed a shoe from one of them, took it to the lab, and put it on a germanium detector.",
+  "ideia": false,
+  "inicio_est": 615.9,
+  "dur_est": 15.71,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B09e",
+  "texto": "Then a second alarm sounded, the one telling everyone to leave. About six hundred employees were evacuated. At first, the authorities wondered whether it was a bomb test. Chemical analysis ruled that out.",
+  "ideia": false,
+  "inicio_est": 631.61,
+  "dur_est": 11.79,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B09f",
+  "texto": "Other plants were reporting radiation too, so they traced the wind backward. It came from the southeast. Swedish diplomats asked Moscow whether there had been an accident. According to Swedish Radio, the answer was no.",
+  "ideia": false,
+  "inicio_est": 643.4,
+  "dur_est": 12.5,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B09g",
+  "texto": "Sweden said it would file an official alert with the International Atomic Energy Agency.",
+  "ideia": false,
+  "inicio_est": 655.9,
+  "dur_est": 5.0,
+  "arquivo_antes": null,
+  "relogio": [
+   "28.04 MON",
+   "hora"
+  ]
+ },
+ {
+  "id": "B10a",
+  "texto": "That same Monday, the Politburo met in the Kremlin. The notes survive. A secretary of the Central Committee reports that \"on April 26, at 1:30 a.m. there was an explosion.\" Look at the time.",
+  "ideia": true,
+  "inicio_est": 660.9,
+  "dur_est": 12.14,
+  "arquivo_antes": null,
+  "relogio": [
+   "28.04 ~10:00",
+   "hora"
+  ]
+ },
+ {
+  "id": "B10b",
+  "texto": "The instruments said one twenty-three. The director's report said one twenty-five. By the time it reached the Kremlin, it was one thirty. Every step up the line, the clock got rounder.",
+  "ideia": false,
+  "inicio_est": 673.04,
+  "dur_est": 11.07,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B10c",
+  "texto": "The head of the KGB, Viktor Chebrikov, notes that only a small circle of people know about the accident. Gorbachev says: \"We should issue a statement quickly, we must not delay.\"",
+  "ideia": false,
+  "inicio_est": 684.11,
+  "dur_est": 11.07,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B10d",
+  "texto": "Andrei Gromyko adds that it should be written \"in such a way that it does not cause excessive anxiety or panic.\" And Anatoly Dobrynin points out the obvious. \"The Americans will notice the fact of the explosion and the spread of the radioactive cloud anyway.\"",
+  "ideia": false,
+  "inicio_est": 695.19,
+  "dur_est": 16.07,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B10e",
+  "texto": "At nine o'clock that night, on the evening news program Vremya, the announcer read about twenty seconds of text from the Council of Ministers. Five short sentences. No fire, no city, no numbers. This is what they said.",
+  "ideia": false,
+  "inicio_est": 711.26,
+  "dur_est": 13.57,
+  "arquivo_antes": null,
+  "relogio": [
+   "28.04 21:00:00",
+   "parado"
+  ]
+ },
+ {
+  "id": "B10f",
+  "texto": "The clock stops here. Sixty-seven hours, thirty-six minutes and twenty seconds after the button. In New York, it was one in the afternoon. That evening, American television led with maps of a place most viewers had never heard of.",
+  "ideia": false,
+  "inicio_est": 739.83,
+  "dur_est": 13.93,
+  "arquivo_antes": "A5",
+  "relogio": [
+   "28.04 21:00:00",
+   "parado"
+  ]
+ },
+ {
+  "id": "B11a",
+  "texto": "On Tuesday, the Americans were reading the same five sentences. A CIA report written that day starts with a damage assessment. \"The Soviet nuclear accident announced by Moscow yesterday possibly occurred last Friday or at the latest early Saturday.\"",
+  "ideia": true,
+  "inicio_est": 753.76,
+  "dur_est": 13.93,
+  "arquivo_antes": null,
+  "relogio": [
+   "29.04 TUE",
+   "dia"
+  ]
+ },
+ {
+  "id": "B11b",
+  "texto": "The real answer, one twenty-three on Saturday morning, was inside that window. A few lines down, the report adds that the Soviets \"delayed admission of the disaster and continue to minimize domestic media coverage.\"",
+  "ideia": false,
+  "inicio_est": 767.69,
+  "dur_est": 12.14,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B11c",
+  "texto": "That same day, Landsat 5, a civilian American satellite built to watch farmland and forests, passed over the plant. In the infrared, there is a red spot inside the complex: exposed graphite, still burning. And next to it, the cooling pond shows no warmth at all.",
+  "ideia": false,
+  "inicio_est": 779.83,
+  "dur_est": 16.43,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B11d",
+  "texto": "The reactor was dead. Its core was not out. The fires on the roof had been out since five on Saturday morning. The one inside kept burning into May.",
+  "ideia": false,
+  "inicio_est": 796.26,
+  "dur_est": 10.36,
+  "arquivo_antes": null,
+  "relogio": [
+   "29.04 TUE",
+   "dia"
+  ]
+ },
+ {
+  "id": "B12a",
+  "texto": "By early May, the evacuation was no longer one city. A zone of thirty kilometers, about nineteen miles, around the plant was cleared. In 1986, about one hundred and fifteen thousand people were moved out, and children were sent away from Kyiv itself.",
+  "ideia": true,
+  "inicio_est": 806.61,
+  "dur_est": 15.36,
+  "arquivo_antes": null,
+  "relogio": [
+   "MAY 1986",
+   "dia"
+  ]
+ },
+ {
+  "id": "B12b",
+  "texto": "Later, another two hundred and twenty thousand were resettled. In February 1991, with the Soviet Union in its last year, Ukraine's parliament wrote the zone into law. Here is that law, Article twelve.",
+  "ideia": false,
+  "inicio_est": 821.97,
+  "dur_est": 11.79,
+  "arquivo_antes": null,
+  "relogio": [
+   "27.02.1991",
+   "dia"
+  ]
+ },
+ {
+  "id": "B12c",
+  "texto": "The land of the zone is withdrawn from use, fenced off from its neighbors and \"transferred to the category of radiologically dangerous land.\" And the first thing it bans, on the next page: \"permanent residence of the population.\" So the word from the Sunday broadcast never came true.",
+  "ideia": false,
+  "inicio_est": 833.76,
+  "dur_est": 17.14,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B12d",
+  "texto": "There was no \"for the first while.\" The temporary evacuation is now forty years old.",
+  "ideia": false,
+  "inicio_est": 850.9,
+  "dur_est": 5.36,
+  "arquivo_antes": null,
+  "relogio": [
+   "TODAY",
+   "dia"
+  ]
+ },
+ {
+  "id": "B13a",
+  "texto": "There's one more reason the zone stays closed, and it has nothing to do with 1986. When Russia invaded Ukraine in February 2022, its forces took control of the Chernobyl plant within the first day. They stayed until the thirty-first of March.",
+  "ideia": true,
+  "inicio_est": 856.26,
+  "dur_est": 15.0,
+  "arquivo_antes": null,
+  "relogio": [
+   "2022",
+   "dia"
+  ]
+ },
+ {
+  "id": "B13b",
+  "texto": "Tourism stopped, and it has not come back. Then there is another time stamp, from the International Atomic Energy Agency's team at the site.",
+  "ideia": false,
+  "inicio_est": 871.26,
+  "dur_est": 8.57,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B13c",
+  "texto": "On the fourteenth of February 2025, at around one fifty in the morning, they heard an explosion from the steel arch built over Reactor Four. Their photos showed flames near the top. Ukraine says it was a Russian drone. Moscow denies it.",
+  "ideia": false,
+  "inicio_est": 879.83,
+  "dur_est": 15.0,
+  "arquivo_antes": null,
+  "relogio": [
+   "14.02.2025 01:50",
+   "hora"
+  ]
+ },
+ {
+  "id": "B13d",
+  "texto": "By December, the agency said the arch had lost its primary safety functions, including confinement, although its load-bearing structure was not permanently damaged. Radiation levels stayed normal. Almost thirty-nine years after the first night, it was the same hour, and the same building, on fire again.",
+  "ideia": false,
+  "inicio_est": 894.83,
+  "dur_est": 16.43,
+  "arquivo_antes": null,
+  "relogio": [
+   "14.02.2025 01:50",
+   "hora"
+  ]
+ },
+ {
+  "id": "B14a",
+  "texto": "So why is Chernobyl still closed, forty years after a radio announcer called it temporary? Because the graphite burned for days while the papers said the situation was normal.",
+  "ideia": true,
+  "inicio_est": 911.26,
+  "dur_est": 10.36,
+  "arquivo_antes": null,
+  "relogio": [
+   "26.04 01:23:40",
+   "oculto"
+  ]
+ },
+ {
+  "id": "B14b",
+  "texto": "Because the buses were ordered on Saturday night, and the city was told on Sunday, and the world was told on Monday, only after a shoe in Sweden.",
+  "ideia": false,
+  "inicio_est": 921.61,
+  "dur_est": 10.0,
+  "arquivo_antes": null,
+  "relogio": null
+ },
+ {
+  "id": "B14c",
+  "texto": "And because what was built to seal the reactor is itself damaged, in the middle of a war, on land that the law still calls dangerous. Every one of those hours is still on paper, in a report, a log, an order or a tape. Listen to the first calls one more time.",
+  "ideia": false,
+  "inicio_est": 931.61,
+  "dur_est": 18.93,
+  "arquivo_antes": null,
+  "relogio": [
+   "+67:36:20",
+   "oculto"
+  ]
+ },
+ {
+  "id": "B14d",
+  "texto": "Sixty-seven hours, thirty-six minutes and twenty seconds, from that answer to five sentences on the evening news. If you had been in Pripyat that Saturday, at what hour would you have wanted to be told? Tell me in the comments. This is Clearance Required.",
+  "ideia": false,
+  "inicio_est": 955.54,
+  "dur_est": 15.71,
+  "arquivo_antes": "A6",
+  "relogio": [
+   "+67:36:20",
+   "parado"
+  ]
+ },
+ {
+  "id": "B14e",
+  "texto": "We go where the record goes. If you want the next one, subscribe.",
+  "ideia": false,
+  "inicio_est": 971.26,
+  "dur_est": 4.64,
+  "arquivo_antes": null,
+  "relogio": null
+ }
+]

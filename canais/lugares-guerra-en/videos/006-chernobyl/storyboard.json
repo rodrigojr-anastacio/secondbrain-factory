@@ -1,0 +1,5803 @@
+{
+ "stats": {
+  "planos": 224,
+  "duracao_s": 975.9,
+  "duracao": "16:15",
+  "planos_por_min": 13.8,
+  "real_pct": 72.4,
+  "epoca_pct": 42.1,
+  "filme_epoca_pct": 31.1,
+  "reuso_pct": 19.7,
+  "componentes": {
+   "Arquivo": 6,
+   "DocGrifo": 57,
+   "KenBurns": 32,
+   "Contador": 17,
+   "Filme": 73,
+   "Datilo": 3,
+   "Mapa2D": 8,
+   "Número": 8,
+   "Teletipo": 2,
+   "Glitch": 1,
+   "Cartela": 11,
+   "TresRelogios": 1,
+   "EntaoAgora": 1,
+   "Dupla": 1,
+   "Mural": 1,
+   "Card": 2
+  },
+  "docs_distintos": 20,
+  "docs_grifados": 20,
+  "citacoes_literais": 10,
+  "numeros": 15,
+  "mapas_distintos": 8,
+  "entao_agora": 1,
+  "imagens_ia": 0,
+  "palavras": 2492,
+  "blocos_audio": 70,
+  "arquivos_epoca_s": 85.9
+ },
+ "pontos": {
+  "CHERNOBYL NPP": [
+   30.1,
+   51.39
+  ],
+  "PRIPYAT": [
+   30.05,
+   51.4
+  ],
+  "KYIV": [
+   30.52,
+   50.45
+  ],
+  "DYMER": [
+   30.3,
+   50.79
+  ],
+  "IVANKOV": [
+   29.9,
+   50.94
+  ],
+  "CHERNOBYL (TOWN)": [
+   30.22,
+   51.27
+  ],
+  "FORSMARK": [
+   18.17,
+   60.4
+  ],
+  "STOCKHOLM": [
+   18.07,
+   59.33
+  ],
+  "MOSCOW": [
+   37.62,
+   55.76
+  ],
+  "WASHINGTON": [
+   -77.04,
+   38.9
+  ],
+  "MINSK": [
+   27.56,
+   53.9
+  ],
+  "DYTIATKY CHECKPOINT": [
+   30.13,
+   51.12
+  ],
+  "VIENNA (IAEA)": [
+   16.37,
+   48.21
+  ]
+ },
+ "arquivos": {
+  "A1": {
+   "dur": 8.3,
+   "selo": "ARCHIVE AUDIO · 26 APRIL 1986",
+   "fonte": "Records_of_telephone_conversations…ogg (Commons, PD-UA-exempt)",
+   "trecho": "0:04.8–0:13.1",
+   "legenda": [
+    "«Взрыв на главном корпусе, 3–4 блок.» — Explosion at the main building, units three and four.",
+    "«А там люди есть?» — Are there people there?",
+    "«Да.» — Yes."
+   ],
+   "fundo": null,
+   "rotulo": "FIRE DISPATCH → PLANT FIRE STATION · IVANKOV · POLESSKOYE"
+  },
+  "A2": {
+   "dur": 2.6,
+   "selo": "ARCHIVE AUDIO · PRIPYAT CITY RADIO · 27 APRIL 1986",
+   "fonte": "Pripyat_1986.ogg (Commons, PD-UA-exempt)",
+   "trecho": "~0:55–0:59",
+   "legenda": [
+    "«…провести временную эвакуацию…» — …to carry out a TEMPORARY evacuation…"
+   ],
+   "fundo": "filme_pripyat_rua_vazia_1986.mp4"
+  },
+  "A3": {
+   "dur": 15.0,
+   "selo": "ARCHIVE AUDIO · 26 APRIL 1986",
+   "fonte": "Records_of_telephone_conversations…ogg (Commons)",
+   "trecho": "~0:26–0:41 + 0:44–0:58 (revisar de ouvido/2ª fonte)",
+   "legenda": [
+    "«Алло… 3–4 блок, горит крыша в результате взрыва.» — Hello… units three–four, the roof is on fire after an explosion.",
+    "«Алло, Иванков? Высылайте… на атомную станцию.» — Ivankov? Send [crews] to the nuclear plant.",
+    "«Полесская? … горит крыша 3–4 блока.» — Polesskoye? … the roof of units three–four is burning."
+   ],
+   "fundo": "filme_aerea_pb_usina_1986.mp4"
+  },
+  "A4": {
+   "dur": 40.0,
+   "selo": "ARCHIVE AUDIO · PRIPYAT CITY RADIO · 27 APRIL 1986",
+   "fonte": "Pripyat_1986.ogg (Commons, PD-UA-exempt; voz atribuída a Nina Melnik)",
+   "trecho": "0:12–1:04 editado (0:12–0:40 + 0:55–1:04) + 2:07–2:20",
+   "legenda": [
+    "Dear comrades! The City Council of People's Deputies announces that, due to the accident at the Chernobyl nuclear power station,",
+    "unfavourable radiation conditions are developing in the city of Pripyat.",
+    "…it has become necessary to carry out a TEMPORARY evacuation of the city's residents…",
+    "…today, April 27, beginning at 14:00, buses will be sent to every apartment building…",
+    "Comrades, when TEMPORARILY leaving your homes, please do not forget to close the windows…"
+   ],
+   "fundo": "filme_pripyat_sacadas_playground_1986.mp4"
+  },
+  "A5": {
+   "dur": 15.0,
+   "selo": "RECONSTRUCTION · SYNTHETIC AUDIO · TEXT: TASS, 28 APRIL 1986",
+   "fonte": "voz sintética (Fish) lendo o texto TASS (ruwiki/tass.ru; UPI 28/04)",
+   "trecho": "5 frases",
+   "legenda": [
+    "An accident has occurred at the Chernobyl nuclear power station.",
+    "One of the atomic reactors has been damaged.",
+    "Measures are being taken to eliminate the consequences of the accident.",
+    "Those affected are being given assistance.",
+    "A government commission has been set up."
+   ],
+   "fundo": "filme_vremya_locutora_28abr1986.mp4"
+  },
+  "A6": {
+   "dur": 5.0,
+   "selo": "ARCHIVE AUDIO · 26 APRIL 1986",
+   "fonte": "despacho (Commons) + rádio de Pripyat (Commons)",
+   "trecho": "eco: 0:08–0:13 do despacho",
+   "legenda": [
+    "«А там люди есть?» — Are there people there?",
+    "«Да.» — Yes."
+   ],
+   "fundo": null
+  }
+ },
+ "planos": [
+  {
+   "id": "P001",
+   "bloco": "A1",
+   "tipo": "Arquivo",
+   "arq": "codigo",
+   "enq": "arquivo:A1",
+   "inicio": 0.0,
+   "dur": 8.3,
+   "frase": "(áudio de época)",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "legenda": [
+    "«Взрыв на главном корпусе, 3–4 блок.» — Explosion at the main building, units three and four.",
+    "«А там люди есть?» — Are there people there?",
+    "«Да.» — Yes."
+   ],
+   "selo": "ARCHIVE AUDIO · 26 APRIL 1986",
+   "em": "",
+   "fonte": "Records_of_telephone_conversations…ogg (Commons, PD-UA-exempt)",
+   "trecho": "0:04.8–0:13.1"
+  },
+  {
+   "id": "P002",
+   "bloco": "B01a",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p65_tabela-I-I-0123-40.png",
+   "enq": "eps5_texto",
+   "inicio": 8.3,
+   "dur": 2.5,
+   "frase": "This line is from the official record.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.3068,
+     0.2767,
+     0.2251,
+     0.0207
+    ]
+   ],
+   "literal": false,
+   "em": "This line is from the official record.",
+   "relogio": [
+    "26.04 01:23:40",
+    "parado"
+   ]
+  },
+  {
+   "id": "P003",
+   "bloco": "B01a",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p65_tabela-I-I-0123-40.png",
+   "enq": "eps5_texto",
+   "inicio": 10.8,
+   "dur": 1.43,
+   "frase": "\"EPS-5 button was pressed.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "frase_doc": "EPS-5 button was pressed",
+   "grifo": [
+    [
+     0.3068,
+     0.2767,
+     0.2251,
+     0.0207
+    ]
+   ],
+   "literal": true,
+   "em": "\"EPS-5 button was pressed.\"",
+   "relogio": [
+    "26.04 01:23:40",
+    "parado"
+   ]
+  },
+  {
+   "id": "P004",
+   "bloco": "B01a",
+   "tipo": "KenBurns",
+   "arq": "hoje_sala_controle_bloco4.jpg",
+   "enq": "detalhe:0.5,0.45",
+   "inicio": 12.23,
+   "dur": 3.93,
+   "frase": "Someone in Reactor Four's control room had hit the emergency shutdown,",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "ficha": "TODAY · UNIT 4 CONTROL ROOM",
+   "credito": "Photo: Commons (CC0)",
+   "de": [
+    0.5,
+    0.45,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.45,
+    1.55
+   ],
+   "em": "Someone in Reactor Four's control room h",
+   "relogio": [
+    "26.04 01:23:40",
+    "parado"
+   ]
+  },
+  {
+   "id": "P005",
+   "bloco": "B01a",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:01:23:40-01:23:40",
+   "inicio": 16.16,
+   "dur": 3.57,
+   "frase": "at one twenty-three and forty seconds, on a Saturday morning.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "LOCAL TIME · CHERNOBYL",
+   "em": "at one twenty-three and forty seconds, o",
+   "de_t": "01:23:40",
+   "ate_t": "01:23:40",
+   "relogio": [
+    "26.04 01:23:40",
+    "parado"
+   ]
+  },
+  {
+   "id": "P006",
+   "bloco": "B01a",
+   "tipo": "Filme",
+   "arq": "filme_aerea_bloco4_detalhe_1986.mp4",
+   "enq": "0.0",
+   "inicio": 19.73,
+   "dur": 2.14,
+   "frase": "Seconds later, the reactor blew apart.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP UNIT 4",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "Seconds later, the reactor blew apart.",
+   "tin": 0.0,
+   "tout": 5.8,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 01:23:40",
+    "parado"
+   ]
+  },
+  {
+   "id": "P007",
+   "bloco": "B01b",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:01:23:40-+67:36:20",
+   "inicio": 21.87,
+   "dur": 6.07,
+   "frase": "Between that button and the moment Moscow told the world, sixty-seven hours and thirty-six minutes went by.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "FROM THE BUTTON TO THE BULLETIN",
+   "em": "Between that button and the moment Mosco",
+   "de_t": "01:23:40",
+   "ate_t": "+67:36:20",
+   "relogio": [
+    "26.04 01:23:40",
+    "corre"
+   ]
+  },
+  {
+   "id": "P008",
+   "bloco": "B01b",
+   "tipo": "KenBurns",
+   "arq": "foto_kh9_pripyat_1984.jpg",
+   "enq": "zoom-in",
+   "inicio": 27.94,
+   "dur": 1.43,
+   "frase": "This is that clock.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 JAN 1984 · PRIPYAT (KH-9)",
+   "credito": "U.S. Geological Survey (declassified satellite imagery)",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "This is that clock.",
+   "relogio": [
+    "26.04 01:23:40",
+    "corre"
+   ]
+  },
+  {
+   "id": "P009",
+   "bloco": "B01b",
+   "tipo": "Filme",
+   "arq": "filme_cabine_helicoptero_bloco4_1986.mp4",
+   "enq": "0.0",
+   "inicio": 29.37,
+   "dur": 3.93,
+   "frase": "The fires on the roof were out by five that morning.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP UNIT 4",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "The fires on the roof were out by five t",
+   "tin": 0.0,
+   "tout": 4.4,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 01:23:40",
+    "corre"
+   ]
+  },
+  {
+   "id": "P010",
+   "bloco": "B01b",
+   "tipo": "Filme",
+   "arq": "filme_bloco4_ruina_panoramica_1986.mp4",
+   "enq": "0.0",
+   "inicio": 33.3,
+   "dur": 1.79,
+   "frase": "The reactor itself was not.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP UNIT 4",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "The reactor itself was not.",
+   "tin": 0.0,
+   "tout": 6.2,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 01:23:40",
+    "corre"
+   ]
+  },
+  {
+   "id": "P011",
+   "bloco": "B01c",
+   "tipo": "KenBurns",
+   "arq": "foto_landsat5_29abr1986.jpg",
+   "enq": "zoom-in",
+   "inicio": 35.09,
+   "dur": 5.0,
+   "frase": "Its graphite core kept burning, and on Tuesday an American satellite photographed the heat.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 APR 1986 · LANDSAT 5",
+   "credito": "Landsat image courtesy of the U.S. Geological Survey (EROS)",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Its graphite core kept burning, and on T",
+   "relogio": [
+    "26.04 20:00",
+    "corre"
+   ]
+  },
+  {
+   "id": "P012",
+   "bloco": "B01c",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208406_p1_ministerstvo-avtotransporta-2000.png",
+   "enq": "sinal_2000_26abr",
+   "inicio": 40.09,
+   "dur": 2.14,
+   "frase": "At eight o'clock on Saturday night,",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.1921,
+     0.3799,
+     0.7967,
+     0.0599
+    ]
+   ],
+   "literal": false,
+   "em": "At eight o'clock on Saturday night,",
+   "relogio": [
+    "26.04 20:00",
+    "corre"
+   ]
+  },
+  {
+   "id": "P013",
+   "bloco": "B01c",
+   "tipo": "Filme",
+   "arq": "filme_onibus_estrada_laz_1986.mp4",
+   "enq": "0.0",
+   "inicio": 42.23,
+   "dur": 3.93,
+   "frase": "the order to prepare buses for Pripyat had already been given.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · KYIV OBLAST",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "the order to prepare buses for Pripyat h",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 20:00",
+    "corre"
+   ]
+  },
+  {
+   "id": "P014",
+   "bloco": "B01c",
+   "tipo": "Filme",
+   "arq": "filme_aerea_pripyat_horizonte_1986.mp4",
+   "enq": "0.0",
+   "inicio": 46.16,
+   "dur": 3.93,
+   "frase": "The city spent the rest of that night without being told.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · PRIPYAT",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "The city spent the rest of that night wi",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 20:00",
+    "corre"
+   ]
+  },
+  {
+   "id": "P015",
+   "bloco": "A2",
+   "tipo": "Arquivo",
+   "arq": "filme_pripyat_rua_vazia_1986.mp4",
+   "enq": "arquivo:A2",
+   "inicio": 50.09,
+   "dur": 2.6,
+   "frase": "(áudio de época)",
+   "real": false,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · PRIPYAT",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "legenda": [
+    "«…провести временную эвакуацию…» — …to carry out a TEMPORARY evacuation…"
+   ],
+   "selo": "ARCHIVE AUDIO · PRIPYAT CITY RADIO · 27 APRIL 1986",
+   "em": "",
+   "fonte": "Pripyat_1986.ogg (Commons, PD-UA-exempt)",
+   "trecho": "~0:55–0:59"
+  },
+  {
+   "id": "P016",
+   "bloco": "B01d",
+   "tipo": "Datilo",
+   "arq": "codigo",
+   "enq": "datilo:27.04.1986 · PRIPYAT CITY RADI",
+   "inicio": 52.69,
+   "dur": 3.21,
+   "frase": "On Sunday, the radio called it a temporary evacuation.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "27.04.1986 · PRIPYAT CITY RADIO",
+    "…a TEMPORARY evacuation…",
+    "…for the first while, food…"
+   ],
+   "selo": "QUOTED",
+   "em": "On Sunday, the radio called it a tempora",
+   "relogio": [
+    "28.04 21:00:00",
+    "corre"
+   ]
+  },
+  {
+   "id": "P017",
+   "bloco": "B01d",
+   "tipo": "KenBurns",
+   "arq": "hoje_parque_diversoes_pripyat.jpg",
+   "enq": "zoom-in",
+   "inicio": 55.9,
+   "dur": 1.07,
+   "frase": "Remember that word.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "ficha": "2016 · PRIPYAT",
+   "credito": "Photo: Wendelin Jacober (CC0)",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Remember that word.",
+   "relogio": [
+    "28.04 21:00:00",
+    "corre"
+   ]
+  },
+  {
+   "id": "P018",
+   "bloco": "B01d",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:pluma",
+   "inicio": 56.97,
+   "dur": 2.86,
+   "frase": "The first public alarm outside the Soviet Union",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "nome": "pluma",
+   "pontos": [
+    "CHERNOBYL NPP",
+    "FORSMARK",
+    "STOCKHOLM",
+    "MOSCOW",
+    "KYIV"
+   ],
+   "linhas": [
+    [
+     "CHERNOBYL NPP",
+     "FORSMARK",
+     ""
+    ]
+   ],
+   "selo": "SCHEMATIC · PATH APPROXIMATE",
+   "nota": "",
+   "pluma": true,
+   "em": "The first public alarm outside the Sovie",
+   "relogio": [
+    "28.04 21:00:00",
+    "corre"
+   ]
+  },
+  {
+   "id": "P019",
+   "bloco": "B01d",
+   "tipo": "Filme",
+   "arq": "filme_abc_forsmark_aerea.mp4",
+   "enq": "0.0",
+   "inicio": 59.83,
+   "dur": 2.5,
+   "frase": "went off in Sweden, on Monday morning.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "28 APR 1986 · FORSMARK, SWEDEN",
+   "credito": "ABC News, 28 APR 1986",
+   "em": "went off in Sweden, on Monday morning.",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0,
+   "relogio": [
+    "28.04 21:00:00",
+    "corre"
+   ]
+  },
+  {
+   "id": "P020",
+   "bloco": "B01d",
+   "tipo": "Filme",
+   "arq": "filme_vremya_locutora_28abr1986.mp4",
+   "enq": "0.0",
+   "inicio": 62.33,
+   "dur": 2.86,
+   "frase": "Moscow still said nothing until nine that night.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "28 APR 1986 · MOSCOW",
+   "credito": "Vremya, Soviet Central Television, 28 APR 1986",
+   "em": "Moscow still said nothing until nine tha",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "28.04 21:00:00",
+    "corre"
+   ]
+  },
+  {
+   "id": "P021",
+   "bloco": "B02a",
+   "tipo": "Filme",
+   "arq": "filme_caminhao_posto_controle_1986.mp4",
+   "enq": "0.0",
+   "inicio": 65.19,
+   "dur": 3.93,
+   "frase": "Today there is a checkpoint on the road north from Kyiv:",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL ZONE",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "Today there is a checkpoint on the road ",
+   "tin": 0.0,
+   "tout": 4.6,
+   "vel": 1.0,
+   "relogio": [
+    "TODAY",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P022",
+   "bloco": "B02a",
+   "tipo": "Filme",
+   "arq": "filme_placa_zona_proibida_1986.mp4",
+   "enq": "0.0",
+   "inicio": 69.11,
+   "dur": 3.93,
+   "frase": "a barrier, a guard post, a sign with the radiation symbol.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL ZONE",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "a barrier, a guard post, a sign with the",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0,
+   "relogio": [
+    "TODAY",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P023",
+   "bloco": "B02a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:zona",
+   "inicio": 73.04,
+   "dur": 5.36,
+   "frase": "Beyond it is a zone that Ukrainian law has closed to ordinary life since 1991.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "nome": "zona",
+   "pontos": [
+    "KYIV",
+    "DYTIATKY CHECKPOINT",
+    "CHERNOBYL NPP",
+    "PRIPYAT"
+   ],
+   "linhas": [
+    [
+     "KYIV",
+     "DYTIATKY CHECKPOINT",
+     ""
+    ]
+   ],
+   "selo": "SCHEMATIC",
+   "nota": "",
+   "pluma": false,
+   "em": "Beyond it is a zone that Ukrainian law h",
+   "relogio": [
+    "TODAY",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P024",
+   "bloco": "B02a",
+   "tipo": "KenBurns",
+   "arq": "hoje_ponto_onibus_mosaico_misha.jpg",
+   "enq": "pan-dir",
+   "inicio": 78.4,
+   "dur": 2.86,
+   "frase": "Before 2022, it was open to guided tours.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "ficha": "2022 · CHERNOBYL ZONE",
+   "credito": "Photo: Quintin Soloviev (CC BY 4.0)",
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Before 2022, it was open to guided tours",
+   "relogio": [
+    "TODAY",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P025",
+   "bloco": "B02b",
+   "tipo": "Filme",
+   "arq": "hoje_blocos_floresta_pripyat_voa.mp4",
+   "enq": "0.0",
+   "inicio": 81.26,
+   "dur": 3.93,
+   "frase": "Since the invasion of 2022, it has been closed to tourists.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "ficha": "TODAY · PRIPYAT",
+   "credito": "VOA News",
+   "em": "Since the invasion of 2022, it has been ",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0,
+   "relogio": [
+    "TODAY",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P026",
+   "bloco": "B02b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:67 HOURS",
+   "inicio": 85.19,
+   "dur": 2.86,
+   "frase": "Chernobyl burned for days before the world knew.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "valor": "67 HOURS",
+   "rotulo": "BEFORE THE WORLD KNEW",
+   "em": "Chernobyl burned for days before the wor",
+   "relogio": [
+    "TODAY",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P027",
+   "bloco": "B02b",
+   "tipo": "Filme",
+   "arq": "filme_aerea_bloco4_chamine_1986.mp4",
+   "enq": "0.0",
+   "inicio": 88.04,
+   "dur": 4.29,
+   "frase": "So how do you keep a burning reactor quiet for sixty-seven hours?",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP UNIT 4",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "So how do you keep a burning reactor qui",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "TODAY",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P028",
+   "bloco": "B02b",
+   "tipo": "Filme",
+   "arq": "hoje_roda_gigante_pripyat_voa.mp4",
+   "enq": "0.0",
+   "inicio": 92.33,
+   "dur": 3.57,
+   "frase": "And why is the place they called temporary still closed?",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "ficha": "2019 · PRIPYAT",
+   "credito": "VOA News",
+   "em": "And why is the place they called tempora",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0,
+   "relogio": [
+    "TODAY",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P029",
+   "bloco": "B02c",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208406_p1_ministerstvo-avtotransporta-2000.png",
+   "enq": "secreto",
+   "inicio": 95.9,
+   "dur": 3.21,
+   "frase": "It isn't a mystery. It isn't one man's lie.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.766,
+     0.1759,
+     0.1102,
+     0.0374
+    ]
+   ],
+   "literal": false,
+   "em": "It isn't a mystery. It isn't one man's l"
+  },
+  {
+   "id": "P030",
+   "bloco": "B02c",
+   "tipo": "DocGrifo",
+   "arq": "doc_politburo-28abr_p1_dolgikh-0130.png",
+   "enq": "pagina",
+   "inicio": 99.11,
+   "dur": 2.86,
+   "frase": "It's written down, hour by hour, in reports,",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [],
+   "literal": false,
+   "em": "It's written down, hour by hour, in repo"
+  },
+  {
+   "id": "P031",
+   "bloco": "B02c",
+   "tipo": "DocGrifo",
+   "arq": "doc_frus-v05-d220_cia-29abr.png",
+   "enq": "pagina",
+   "inicio": 101.97,
+   "dur": 2.86,
+   "frase": "logs, orders and recordings that are public today.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [],
+   "literal": false,
+   "em": "logs, orders and recordings that are pub"
+  },
+  {
+   "id": "P032",
+   "bloco": "B02d",
+   "tipo": "Filme",
+   "arq": "filme_abc_forsmark_fila.mp4",
+   "enq": "0.0",
+   "inicio": 104.83,
+   "dur": 3.57,
+   "frase": "Along the way, you'll hear the people who were there,",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "28 APR 1986 · FORSMARK, SWEDEN",
+   "credito": "ABC News, 28 APR 1986",
+   "em": "Along the way, you'll hear the people wh",
+   "tin": 0.0,
+   "tout": 4.9,
+   "vel": 1.0
+  },
+  {
+   "id": "P033",
+   "bloco": "B02d",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208405_bryukhanov-0125.png",
+   "enq": "pagina",
+   "inicio": 108.4,
+   "dur": 3.93,
+   "frase": "you'll read the papers that decided what the city was told,",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [],
+   "literal": false,
+   "em": "you'll read the papers that decided what"
+  },
+  {
+   "id": "P034",
+   "bloco": "B02d",
+   "tipo": "Filme",
+   "arq": "filme_abc_forsmark_sapato.mp4",
+   "enq": "0.0",
+   "inicio": 112.33,
+   "dur": 4.29,
+   "frase": "and you'll see what a Swedish chemist found on a borrowed shoe.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "28 APR 1986 · FORSMARK, SWEDEN",
+   "credito": "ABC News, 28 APR 1986",
+   "em": "and you'll see what a Swedish chemist fo",
+   "tin": 0.0,
+   "tout": 5.4,
+   "vel": 1.0
+  },
+  {
+   "id": "P035",
+   "bloco": "B03a",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:25.04 01:06-25.04 01:06",
+   "inicio": 116.61,
+   "dur": 4.29,
+   "frase": "To read that clock, we have to start it one day early.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "ONE DAY EARLY",
+   "em": "To read that clock, we have to start it ",
+   "de_t": "25.04 01:06",
+   "ate_t": "25.04 01:06",
+   "relogio": [
+    "25.04 01:06",
+    "hora"
+   ]
+  },
+  {
+   "id": "P036",
+   "bloco": "B03a",
+   "tipo": "KenBurns",
+   "arq": "foto_usina_vista_do_lago_yevsyukov1986.jpg",
+   "enq": "pan-dir",
+   "inicio": 120.9,
+   "dur": 4.29,
+   "frase": "On Friday, April twenty-fifth, Reactor Four was being slowed down for maintenance.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "PRIPYAT · BEFORE 1986",
+   "credito": "Photo: Yuri Yevsyukov, \"Pripyat\" (Mystetstvo, Kyiv, 1986)",
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "On Friday, April twenty-fifth, Reactor F",
+   "relogio": [
+    "25.04 01:06",
+    "hora"
+   ]
+  },
+  {
+   "id": "P037",
+   "bloco": "B03b",
+   "tipo": "Filme",
+   "arq": "filme_usina_chamine_1982.mp4",
+   "enq": "0.0",
+   "inicio": 125.19,
+   "dur": 5.36,
+   "frase": "Before it stopped, its engineers were supposed to run a test: if the power failed,",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1982 · CHERNOBYL NPP",
+   "credito": "Film: Ukrtelefilm, 1982 (via Gosteleradiofond)",
+   "em": "Before it stopped, its engineers were su",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "25.04 14:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P038",
+   "bloco": "B03b",
+   "tipo": "KenBurns",
+   "arq": "foto_salao_turbinas_cor_yevsyukov1986.jpg",
+   "enq": "zoom-in",
+   "inicio": 130.54,
+   "dur": 3.57,
+   "frase": "could a turbine spinning down keep the cooling pumps running",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "PRIPYAT · BEFORE 1986",
+   "credito": "Photo: Yuri Yevsyukov, \"Pripyat\" (Mystetstvo, Kyiv, 1986)",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "could a turbine spinning down keep the c",
+   "relogio": [
+    "25.04 14:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P039",
+   "bloco": "B03b",
+   "tipo": "Filme",
+   "arq": "filme_sala_turbinas_operarios_1986.mp4",
+   "enq": "0.0",
+   "inicio": 134.11,
+   "dur": 1.79,
+   "frase": "until the backup generators started?",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "until the backup generators started?",
+   "tin": 0.0,
+   "tout": 3.4,
+   "vel": 1.0,
+   "relogio": [
+    "25.04 14:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P040",
+   "bloco": "B03b",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p63_tabela-I-I-25abr.png",
+   "enq": "power_reduction_0106",
+   "inicio": 135.9,
+   "dur": 3.21,
+   "frase": "At one in the morning, they began lowering power.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.302,
+     0.245,
+     0.6221,
+     0.0363
+    ]
+   ],
+   "literal": false,
+   "em": "At one in the morning, they began loweri",
+   "relogio": [
+    "25.04 14:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P041",
+   "bloco": "B03b",
+   "tipo": "KenBurns",
+   "arq": "foto_subestacao_usina_yevsyukov1986.jpg",
+   "enq": "tilt-cima",
+   "inicio": 139.11,
+   "dur": 2.86,
+   "frase": "By two in the afternoon, they were ready.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "PRIPYAT · BEFORE 1986",
+   "credito": "Photo: Yuri Yevsyukov, \"Pripyat\" (Mystetstvo, Kyiv, 1986)",
+   "de": [
+    0.5,
+    0.56,
+    1.12
+   ],
+   "para": [
+    0.5,
+    0.44,
+    1.12
+   ],
+   "em": "By two in the afternoon, they were ready",
+   "relogio": [
+    "25.04 14:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P042",
+   "bloco": "B03c",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p63_tabela-I-I-25abr.png",
+   "enq": "eccs_14h",
+   "inicio": 141.97,
+   "dur": 6.79,
+   "frase": "That's when the official timeline records two things in the same minute. The emergency core cooling system was disconnected.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.3004,
+     0.468,
+     0.6236,
+     0.0533
+    ]
+   ],
+   "literal": false,
+   "em": "That's when the official timeline record",
+   "relogio": [
+    "25.04 14:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P043",
+   "bloco": "B03c",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p63_tabela-I-I-25abr.png",
+   "enq": "kievenergo_14h",
+   "inicio": 148.76,
+   "dur": 3.93,
+   "frase": "And the power grid controller in Kyiv asked them to wait.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.3004,
+     0.5136,
+     0.6236,
+     0.0536
+    ]
+   ],
+   "literal": false,
+   "em": "And the power grid controller in Kyiv as",
+   "relogio": [
+    "25.04 14:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P044",
+   "bloco": "B03c",
+   "tipo": "KenBurns",
+   "arq": "foto_avenida_arvores_yevsyukov1986.jpg",
+   "enq": "zoom-in",
+   "inicio": 152.69,
+   "dur": 1.79,
+   "frase": "It was a Friday afternoon.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "PRIPYAT · BEFORE 1986",
+   "credito": "Photo: Yuri Yevsyukov, \"Pripyat\" (Mystetstvo, Kyiv, 1986)",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "It was a Friday afternoon.",
+   "relogio": [
+    "25.04 14:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P045",
+   "bloco": "B03d",
+   "tipo": "Filme",
+   "arq": "filme_pripyat_aerea_cidade_1982.mp4",
+   "enq": "0.0",
+   "inicio": 154.47,
+   "dur": 2.5,
+   "frase": "Factories and homes across Kyiv needed electricity,",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1982 · PRIPYAT",
+   "credito": "Film: Ukrtelefilm, 1982 (via Gosteleradiofond)",
+   "em": "Factories and homes across Kyiv needed e",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "25.04 23:10",
+    "hora"
+   ]
+  },
+  {
+   "id": "P046",
+   "bloco": "B03d",
+   "tipo": "KenBurns",
+   "arq": "foto_sala_transformador_usina_yevsyukov1986.jpg",
+   "enq": "pan-esq",
+   "inicio": 156.97,
+   "dur": 4.29,
+   "frase": "and a reactor at full output was worth more than a test.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "PRIPYAT · BEFORE 1986",
+   "credito": "Photo: Yuri Yevsyukov, \"Pripyat\" (Mystetstvo, Kyiv, 1986)",
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "and a reactor at full output was worth m",
+   "relogio": [
+    "25.04 23:10",
+    "hora"
+   ]
+  },
+  {
+   "id": "P047",
+   "bloco": "B03d",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:25.04 14:00-25.04 23:10",
+   "inicio": 161.26,
+   "dur": 7.14,
+   "frase": "The test was postponed, and the reactor stayed at half power for nine hours, with its emergency cooling switched off.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "NINE HOURS · EMERGENCY COOLING OFF",
+   "em": "The test was postponed, and the reactor ",
+   "de_t": "25.04 14:00",
+   "ate_t": "25.04 23:10",
+   "relogio": [
+    "25.04 23:10",
+    "hora"
+   ]
+  },
+  {
+   "id": "P048",
+   "bloco": "B03d",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p122_tabela-II-III-25abr.png",
+   "enq": "kievenergo_14h",
+   "inicio": 168.4,
+   "dur": 3.21,
+   "frase": "At ten past eleven that night, Kyiv released them.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.3534,
+     0.4129,
+     0.5704,
+     0.0503
+    ]
+   ],
+   "literal": false,
+   "em": "At ten past eleven that night, Kyiv rele",
+   "relogio": [
+    "25.04 23:10",
+    "hora"
+   ]
+  },
+  {
+   "id": "P049",
+   "bloco": "B03e",
+   "tipo": "Filme",
+   "arq": "filme_operador_painel_mnemonico_1982.mp4",
+   "enq": "0.0",
+   "inicio": 171.61,
+   "dur": 2.5,
+   "frase": "A new shift sat down at midnight,",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1982 · CHERNOBYL NPP",
+   "credito": "Film: Ukrtelefilm, 1982 (via Gosteleradiofond)",
+   "em": "A new shift sat down at midnight,",
+   "tin": 0.0,
+   "tout": 4.1,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 00:00",
+    "min"
+   ]
+  },
+  {
+   "id": "P050",
+   "bloco": "B03e",
+   "tipo": "KenBurns",
+   "arq": "foto_paineis_controle_usina_yevsyukov1986.jpg",
+   "enq": "zoom-in",
+   "inicio": 174.11,
+   "dur": 4.29,
+   "frase": "with a test they had expected to watch happen in the daytime.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "PRIPYAT · BEFORE 1986",
+   "credito": "Photo: Yuri Yevsyukov, \"Pripyat\" (Mystetstvo, Kyiv, 1986)",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "with a test they had expected to watch h",
+   "relogio": [
+    "26.04 00:00",
+    "min"
+   ]
+  },
+  {
+   "id": "P051",
+   "bloco": "B03e",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:26.04 00:00-26.04 00:00",
+   "inicio": 178.4,
+   "dur": 3.21,
+   "frase": "None of them knew they were starting a clock.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "NEW SHIFT",
+   "em": "None of them knew they were starting a c",
+   "de_t": "26.04 00:00",
+   "ate_t": "26.04 00:00",
+   "relogio": [
+    "26.04 00:00",
+    "min"
+   ]
+  },
+  {
+   "id": "P052",
+   "bloco": "B04a",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p65_tabela-I-I-0123-40.png",
+   "enq": "pagina",
+   "inicio": 181.61,
+   "dur": 5.71,
+   "frase": "The official reconstruction of that night was published by the International Atomic Energy Agency in 1992.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [],
+   "literal": false,
+   "em": "The official reconstruction of that nigh",
+   "relogio": [
+    "26.04 00:00",
+    "min"
+   ]
+  },
+  {
+   "id": "P053",
+   "bloco": "B04a",
+   "tipo": "Filme",
+   "arq": "filme_legasov_placa_aiea_1986.mp4",
+   "enq": "0.0",
+   "inicio": 187.33,
+   "dur": 1.07,
+   "frase": "It's called INSAG-7,",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "AUG 1986 · VIENNA (IAEA)",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "It's called INSAG-7,",
+   "tin": 0.0,
+   "tout": 5.2,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 00:00",
+    "min"
+   ]
+  },
+  {
+   "id": "P054",
+   "bloco": "B04a",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p21_no-operator-error.png",
+   "enq": "operator_error_insag1",
+   "inicio": 188.4,
+   "dur": 2.86,
+   "frase": "and it corrects an earlier report from 1986.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.8614,
+     0.244,
+     0.0312,
+     0.0219
+    ],
+    [
+     0.1399,
+     0.2635,
+     0.2392,
+     0.0225
+    ]
+   ],
+   "literal": false,
+   "em": "and it corrects an earlier report from 1",
+   "relogio": [
+    "26.04 00:00",
+    "min"
+   ]
+  },
+  {
+   "id": "P055",
+   "bloco": "B04a",
+   "tipo": "KenBurns",
+   "arq": "foto_velikhov_sala_controle_1986.jpg",
+   "enq": "zoom-in",
+   "inicio": 191.26,
+   "dur": 6.43,
+   "frase": "Its first annex is a table, minute by minute, built from the plant's logs and its computer records.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP",
+   "credito": "Photo: Public Chamber of Russia (oprf.ru), CC BY 4.0",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Its first annex is a table, minute by mi",
+   "relogio": [
+    "26.04 00:00",
+    "min"
+   ]
+  },
+  {
+   "id": "P056",
+   "bloco": "B04b",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p63_tabela-I-I-25abr.png",
+   "enq": "potencia_30MW",
+   "inicio": 197.69,
+   "dur": 6.79,
+   "frase": "At twenty-eight minutes past midnight, while control was switched from one system to another, power fell to thirty megawatts.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.4033,
+     0.8106,
+     0.0898,
+     0.0202
+    ],
+    [
+     0.4844,
+     0.8106,
+     0.2449,
+     0.0202
+    ]
+   ],
+   "literal": false,
+   "em": "At twenty-eight minutes past midnight, w",
+   "relogio": [
+    "26.04 00:28",
+    "min"
+   ]
+  },
+  {
+   "id": "P057",
+   "bloco": "B04b",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:30 MW",
+   "inicio": 204.47,
+   "dur": 1.07,
+   "frase": "That's almost nothing.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "valor": "30 MW",
+   "rotulo": "THERMAL POWER · 00:28",
+   "em": "That's almost nothing.",
+   "relogio": [
+    "26.04 00:28",
+    "min"
+   ]
+  },
+  {
+   "id": "P058",
+   "bloco": "B04b",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p63_tabela-I-I-25abr.png",
+   "enq": "potencia_30MW",
+   "inicio": 205.54,
+   "dur": 3.93,
+   "frase": "The table notes it was \"not envisaged in the testing programme.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "frase_doc": "not envisaged in the testing programme",
+   "grifo": [
+    [
+     0.4033,
+     0.8106,
+     0.0898,
+     0.0202
+    ],
+    [
+     0.4844,
+     0.8106,
+     0.2449,
+     0.0202
+    ]
+   ],
+   "literal": false,
+   "em": "The table notes it was \"not envisaged in",
+   "relogio": [
+    "26.04 00:28",
+    "min"
+   ]
+  },
+  {
+   "id": "P059",
+   "bloco": "B04b",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p21_no-operator-error.png",
+   "enq": "operator_error_insag1",
+   "inicio": 209.47,
+   "dur": 3.57,
+   "frase": "The 1986 report had called that drop an operator error.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.8614,
+     0.244,
+     0.0312,
+     0.0219
+    ],
+    [
+     0.1399,
+     0.2635,
+     0.2392,
+     0.0225
+    ]
+   ],
+   "literal": false,
+   "em": "The 1986 report had called that drop an ",
+   "relogio": [
+    "26.04 00:28",
+    "min"
+   ]
+  },
+  {
+   "id": "P060",
+   "bloco": "B04c",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p21_no-operator-error.png",
+   "enq": "no_operator_error",
+   "inicio": 213.04,
+   "dur": 3.93,
+   "frase": "The 1992 report says there was \"no operator error as such.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "frase_doc": "no operator error as such",
+   "grifo": [
+    [
+     0.7763,
+     0.264,
+     0.0405,
+     0.0221
+    ],
+    [
+     0.8087,
+     0.264,
+     0.083,
+     0.0219
+    ]
+   ],
+   "literal": true,
+   "em": "The 1992 report says there was \"no opera",
+   "relogio": [
+    "26.04 01:03",
+    "min"
+   ]
+  },
+  {
+   "id": "P061",
+   "bloco": "B04c",
+   "tipo": "Filme",
+   "arq": "filme_operadores_painel_1982.mp4",
+   "enq": "0.0",
+   "inicio": 216.97,
+   "dur": 4.29,
+   "frase": "To bring it back, operators pulled control rods out of the core.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1982 · CHERNOBYL NPP",
+   "credito": "Film: Ukrtelefilm, 1982 (via Gosteleradiofond)",
+   "em": "To bring it back, operators pulled contr",
+   "tin": 0.0,
+   "tout": 3.7,
+   "vel": 0.862,
+   "relogio": [
+    "26.04 01:03",
+    "min"
+   ]
+  },
+  {
+   "id": "P062",
+   "bloco": "B04c",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:200 MW",
+   "inicio": 221.26,
+   "dur": 6.43,
+   "frase": "At three minutes past one, power settled at two hundred megawatts, far below what the test called for.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "valor": "200 MW",
+   "rotulo": "01:03 · FAR BELOW THE TEST PLAN",
+   "em": "At three minutes past one, power settled",
+   "relogio": [
+    "26.04 01:03",
+    "min"
+   ]
+  },
+  {
+   "id": "P063",
+   "bloco": "B04d",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p64_tabela-I-I-0122-0123.png",
+   "enq": "0122_30",
+   "inicio": 227.69,
+   "dur": 3.57,
+   "frase": "Then there's a line at one twenty-two and thirty seconds.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.2089,
+     0.7492,
+     0.085,
+     0.0209
+    ]
+   ],
+   "literal": false,
+   "em": "Then there's a line at one twenty-two an",
+   "relogio": [
+    "26.04 01:22:30",
+    "min"
+   ]
+  },
+  {
+   "id": "P064",
+   "bloco": "B04d",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p123_tabela-II-III-margem-reatividade.png",
+   "enq": "margem_6_8_barras",
+   "inicio": 231.26,
+   "dur": 3.93,
+   "frase": "A computer printout recorded how many rods were still in reserve.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.5577,
+     0.725,
+     0.322,
+     0.0202
+    ],
+    [
+     0.4229,
+     0.7434,
+     0.046,
+     0.0202
+    ]
+   ],
+   "literal": false,
+   "em": "A computer printout recorded how many ro",
+   "relogio": [
+    "26.04 01:22:30",
+    "min"
+   ]
+  },
+  {
+   "id": "P065",
+   "bloco": "B04d",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:6–8 / 15",
+   "inicio": 235.19,
+   "dur": 4.64,
+   "frase": "Calculated afterward, it came to six to eight. The minimum allowed was fifteen.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "valor": "6–8 / 15",
+   "rotulo": "RODS IN RESERVE · MINIMUM ALLOWED",
+   "em": "Calculated afterward, it came to six to ",
+   "relogio": [
+    "26.04 01:22:30",
+    "min"
+   ]
+  },
+  {
+   "id": "P066",
+   "bloco": "B05a",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p64_tabela-I-I-0122-0123.png",
+   "enq": "0123_04",
+   "inicio": 239.83,
+   "dur": 5.0,
+   "frase": "At one twenty-three and four seconds, the turbine valves closed and the test began.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.2089,
+     0.8265,
+     0.085,
+     0.0209
+    ]
+   ],
+   "literal": false,
+   "em": "At one twenty-three and four seconds, th",
+   "relogio": [
+    "26.04 01:23:04",
+    "seg"
+   ]
+  },
+  {
+   "id": "P067",
+   "bloco": "B05a",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:26.04 01:23:04-26.04 01:23:40",
+   "inicio": 244.83,
+   "dur": 6.79,
+   "frase": "It was supposed to last less than a minute, and the plant's instruments were recording every second of it.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "SECONDS",
+   "em": "It was supposed to last less than a minu",
+   "de_t": "26.04 01:23:04",
+   "ate_t": "26.04 01:23:40",
+   "relogio": [
+    "26.04 01:23:04",
+    "seg"
+   ]
+  },
+  {
+   "id": "P068",
+   "bloco": "B05a",
+   "tipo": "Filme",
+   "arq": "filme_sala_controle_operador_1986.mp4",
+   "enq": "0.0",
+   "inicio": 251.61,
+   "dur": 3.57,
+   "frase": "For the first thirty-six seconds, the records look almost normal.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "For the first thirty-six seconds, the re",
+   "tin": 0.0,
+   "tout": 4.7,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 01:23:04",
+    "seg"
+   ]
+  },
+  {
+   "id": "P069",
+   "bloco": "B05b",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:26.04 01:23:40-26.04 01:23:40",
+   "inicio": 255.19,
+   "dur": 4.64,
+   "frase": "Then, at one twenty-three and forty seconds, the line that starts our clock.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "",
+   "em": "Then, at one twenty-three and forty seco",
+   "de_t": "26.04 01:23:40",
+   "ate_t": "26.04 01:23:40",
+   "relogio": [
+    "26.04 01:23:40",
+    "parado"
+   ]
+  },
+  {
+   "id": "P070",
+   "bloco": "B05b",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p65_tabela-I-I-0123-40.png",
+   "enq": "eps5_texto",
+   "inicio": 259.83,
+   "dur": 2.5,
+   "frase": "The table says: \"EPS-5 button was pressed.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "frase_doc": "EPS-5 button was pressed",
+   "grifo": [
+    [
+     0.3068,
+     0.2767,
+     0.2251,
+     0.0207
+    ]
+   ],
+   "literal": true,
+   "em": "The table says: \"EPS-5 button was presse",
+   "relogio": [
+    "26.04 01:23:40",
+    "parado"
+   ]
+  },
+  {
+   "id": "P071",
+   "bloco": "B05b",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p65_tabela-I-I-0123-40.png",
+   "enq": "teletape_0123_39",
+   "inicio": 262.33,
+   "dur": 4.29,
+   "frase": "Even here, two machines disagree. The teletape printed one twenty-three and thirty-nine.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.1865,
+     0.3104,
+     0.107,
+     0.0204
+    ],
+    [
+     0.2026,
+     0.2935,
+     0.0915,
+     0.0207
+    ]
+   ],
+   "literal": false,
+   "em": "Even here, two machines disagree. The te",
+   "relogio": [
+    "26.04 01:23:40",
+    "parado"
+   ]
+  },
+  {
+   "id": "P072",
+   "bloco": "B05c",
+   "tipo": "KenBurns",
+   "arq": "hoje_sala_controle_bloco4.jpg",
+   "enq": "tilt-baixo",
+   "inicio": 266.61,
+   "dur": 3.93,
+   "frase": "That's the emergency shutdown. Rods began moving down into the core.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "ficha": "TODAY · UNIT 4 CONTROL ROOM",
+   "credito": "Photo: Commons (CC0)",
+   "de": [
+    0.5,
+    0.44,
+    1.12
+   ],
+   "para": [
+    0.5,
+    0.56,
+    1.12
+   ],
+   "em": "That's the emergency shutdown. Rods bega",
+   "relogio": [
+    "26.04 01:23:40",
+    "parado"
+   ]
+  },
+  {
+   "id": "P073",
+   "bloco": "B05c",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p76_unable-to-establish-why.png",
+   "enq": "unable_to_establish",
+   "inicio": 270.54,
+   "dur": 7.5,
+   "frase": "And here is the strangest sentence in the whole report. \"The Commission was unable to establish why the button was pressed.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "frase_doc": "The Commission was unable to establish why the button was pressed",
+   "grifo": [
+    [
+     0.1906,
+     0.3667,
+     0.1682,
+     0.0219
+    ],
+    [
+     0.3512,
+     0.3667,
+     0.4113,
+     0.0219
+    ],
+    [
+     0.754,
+     0.3667,
+     0.0824,
+     0.0219
+    ]
+   ],
+   "literal": true,
+   "em": "And here is the strangest sentence in th",
+   "relogio": [
+    "26.04 01:23:40",
+    "parado"
+   ]
+  },
+  {
+   "id": "P074",
+   "bloco": "B05d",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p65_tabela-I-I-0123-40.png",
+   "enq": "mw_530",
+   "inicio": 278.04,
+   "dur": 2.5,
+   "frase": "Three seconds later, at one twenty-three forty-three,",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.507,
+     0.3707,
+     0.2501,
+     0.0203
+    ]
+   ],
+   "literal": false,
+   "em": "Three seconds later, at one twenty-three",
+   "relogio": [
+    "26.04 01:23:49",
+    "seg"
+   ]
+  },
+  {
+   "id": "P075",
+   "bloco": "B05d",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:530 MW",
+   "inicio": 280.54,
+   "dur": 3.57,
+   "frase": "power passed five hundred and thirty megawatts and kept rising.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "valor": "530 MW",
+   "rotulo": "01:23:43 · AND RISING",
+   "em": "power passed five hundred and thirty meg",
+   "relogio": [
+    "26.04 01:23:49",
+    "seg"
+   ]
+  },
+  {
+   "id": "P076",
+   "bloco": "B05d",
+   "tipo": "Teletipo",
+   "arq": "codigo",
+   "enq": "teletipo:01:23:49  PRESSURE INCREASE IN",
+   "inicio": 284.11,
+   "dur": 8.21,
+   "frase": "At one twenty-three forty-nine, the last signals: pressure rising inside the reactor space, a fuel channel rupturing, no voltage to the rod drives.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "01:23:49  PRESSURE INCREASE IN REACTOR SPACE",
+    "01:23:49  RUPTURE OF A FUEL CHANNEL",
+    "01:23:49  NO VOLTAGE = 48 V"
+   ],
+   "selo": "TEXT: IAEA INSAG-7, TABLE I-I",
+   "em": "At one twenty-three forty-nine, the last",
+   "relogio": [
+    "26.04 01:23:49",
+    "seg"
+   ]
+  },
+  {
+   "id": "P077",
+   "bloco": "B05d",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p65_tabela-I-I-0123-40.png",
+   "enq": "severe_shocks",
+   "inicio": 292.33,
+   "dur": 2.86,
+   "frase": "Then the shift engineer's log, at one twenty-four.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.3031,
+     0.8419,
+     0.566,
+     0.0545
+    ]
+   ],
+   "literal": false,
+   "em": "Then the shift engineer's log, at one tw",
+   "relogio": [
+    "26.04 01:23:49",
+    "seg"
+   ]
+  },
+  {
+   "id": "P078",
+   "bloco": "B05e",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p65_tabela-I-I-0123-40.png",
+   "enq": "severe_shocks_frase",
+   "inicio": 295.19,
+   "dur": 5.36,
+   "frase": "\"Severe shocks; the RCPS rods stopped moving before they reached the lower limit stop switches.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "frase_doc": "Severe shocks; the RCPS rods stopped moving before they reached the lower limit stop switches",
+   "grifo": [
+    [
+     0.3752,
+     0.8425,
+     0.1281,
+     0.0207
+    ]
+   ],
+   "literal": true,
+   "em": "\"Severe shocks; the RCPS rods stopped mo",
+   "relogio": [
+    "26.04 01:24",
+    "parado"
+   ]
+  },
+  {
+   "id": "P079",
+   "bloco": "B05e",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p126_duas-explosoes-testemunhas.png",
+   "enq": "two_explosions",
+   "inicio": 300.54,
+   "dur": 3.57,
+   "frase": "Most of the people in the building remembered two explosions.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.361,
+     0.0969,
+     0.063,
+     0.0219
+    ],
+    [
+     0.4155,
+     0.0969,
+     0.0998,
+     0.0218
+    ],
+    [
+     0.5081,
+     0.0969,
+     0.0514,
+     0.0219
+    ],
+    [
+     0.5508,
+     0.0969,
+     0.1063,
+     0.0219
+    ]
+   ],
+   "literal": false,
+   "em": "Most of the people in the building remem",
+   "relogio": [
+    "26.04 01:24",
+    "parado"
+   ]
+  },
+  {
+   "id": "P080",
+   "bloco": "B05e",
+   "tipo": "Filme",
+   "arq": "filme_bloco4_janela_veiculo_1986.mp4",
+   "enq": "0.0",
+   "inicio": 304.11,
+   "dur": 2.86,
+   "frase": "There is no instrument record of either one.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP UNIT 4",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "There is no instrument record of either ",
+   "tin": 0.0,
+   "tout": 3.5,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 01:24",
+    "parado"
+   ]
+  },
+  {
+   "id": "P081",
+   "bloco": "B05e",
+   "tipo": "Glitch",
+   "arq": "codigo",
+   "enq": "glitch",
+   "inicio": 306.97,
+   "dur": 2.86,
+   "frase": "There is only the log, and then silence.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "em": "There is only the log, and then silence.",
+   "relogio": [
+    "26.04 01:24",
+    "parado"
+   ]
+  },
+  {
+   "id": "P082",
+   "bloco": "B06a",
+   "tipo": "Filme",
+   "arq": "filme_parede_usina_chamine_1986.mp4",
+   "enq": "0.0",
+   "inicio": 309.83,
+   "dur": 4.64,
+   "frase": "At the fire station inside the plant, the alarm came almost at once.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "At the fire station inside the plant, th",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 01:28",
+    "hora"
+   ]
+  },
+  {
+   "id": "P083",
+   "bloco": "B06a",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:26.04 01:24-26.04 01:28",
+   "inicio": 314.47,
+   "dur": 3.57,
+   "frase": "A first group of fourteen firemen arrived at one twenty-eight.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "",
+   "em": "A first group of fourteen firemen arrive",
+   "de_t": "26.04 01:24",
+   "ate_t": "26.04 01:28",
+   "relogio": [
+    "26.04 01:28",
+    "hora"
+   ]
+  },
+  {
+   "id": "P084",
+   "bloco": "B06a",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:LT. VOLODYMYR PRAVIK, 23",
+   "inicio": 318.04,
+   "dur": 2.5,
+   "frase": "Their commander, Lieutenant Volodymyr Pravik, was twenty-three.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "LT. VOLODYMYR PRAVIK, 23",
+    "PLANT FIRE BRIGADE (VPCh-2) · ARRIVED 01:28"
+   ],
+   "selo": "RECORD",
+   "em": "Their commander, Lieutenant Volodymyr Pr",
+   "relogio": [
+    "26.04 01:28",
+    "hora"
+   ]
+  },
+  {
+   "id": "P085",
+   "bloco": "B06a",
+   "tipo": "Filme",
+   "arq": "filme_pripyat_aerea_playground_1982.mp4",
+   "enq": "0.0",
+   "inicio": 320.54,
+   "dur": 3.21,
+   "frase": "A second crew came from the city of Pripyat,",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1982 · PRIPYAT",
+   "credito": "Film: Ukrtelefilm, 1982 (via Gosteleradiofond)",
+   "em": "A second crew came from the city of Prip",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 01:28",
+    "hora"
+   ]
+  },
+  {
+   "id": "P086",
+   "bloco": "B06a",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:LT. VIKTOR KIBENOK, 23",
+   "inicio": 323.76,
+   "dur": 2.14,
+   "frase": "under Lieutenant Viktor Kibenok, also twenty-three.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "LT. VIKTOR KIBENOK, 23",
+    "PRIPYAT FIRE BRIGADE (SVPCh-6)"
+   ],
+   "selo": "RECORD",
+   "em": "under Lieutenant Viktor Kibenok, also tw",
+   "relogio": [
+    "26.04 01:28",
+    "hora"
+   ]
+  },
+  {
+   "id": "P087",
+   "bloco": "B06b",
+   "tipo": "DocGrifo",
+   "arq": "doc_insag7_p125_fitas-de-telefone-II-2-3-4.png",
+   "enq": "tape_recordings_telephone",
+   "inicio": 325.9,
+   "dur": 5.0,
+   "frase": "Back in the dispatch center, the calls went out to towns across the region,",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.7161,
+     0.8508,
+     0.1728,
+     0.0224
+    ],
+    [
+     0.1351,
+     0.8707,
+     0.1024,
+     0.0222
+    ],
+    [
+     0.2309,
+     0.8707,
+     0.0573,
+     0.0222
+    ],
+    [
+     0.281,
+     0.8707,
+     0.0662,
+     0.0222
+    ],
+    [
+     0.339,
+     0.8707,
+     0.041,
+     0.0222
+    ],
+    [
+     0.3715,
+     0.8707,
+     0.0967,
+     0.0222
+    ]
+   ],
+   "literal": false,
+   "em": "Back in the dispatch center, the calls w",
+   "relogio": [
+    "26.04 01:30",
+    "hora"
+   ]
+  },
+  {
+   "id": "P088",
+   "bloco": "B06b",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:despacho",
+   "inicio": 330.9,
+   "dur": 4.29,
+   "frase": "and they were recorded on tape. Listen to how calm they are.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "nome": "despacho",
+   "pontos": [
+    "CHERNOBYL NPP",
+    "PRIPYAT",
+    "IVANKOV",
+    "KYIV"
+   ],
+   "linhas": [
+    [
+     "CHERNOBYL NPP",
+     "IVANKOV",
+     ""
+    ],
+    [
+     "CHERNOBYL NPP",
+     "PRIPYAT",
+     ""
+    ]
+   ],
+   "selo": "SCHEMATIC",
+   "nota": "",
+   "pluma": false,
+   "em": "and they were recorded on tape. Listen t",
+   "relogio": [
+    "26.04 01:30",
+    "hora"
+   ]
+  },
+  {
+   "id": "P089",
+   "bloco": "A3",
+   "tipo": "Arquivo",
+   "arq": "filme_aerea_pb_usina_1986.mp4",
+   "enq": "arquivo:A3",
+   "inicio": 335.19,
+   "dur": 15.0,
+   "frase": "(áudio de época)",
+   "real": false,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "legenda": [
+    "«Алло… 3–4 блок, горит крыша в результате взрыва.» — Hello… units three–four, the roof is on fire after an explosion.",
+    "«Алло, Иванков? Высылайте… на атомную станцию.» — Ivankov? Send [crews] to the nuclear plant.",
+    "«Полесская? … горит крыша 3–4 блока.» — Polesskoye? … the roof of units three–four is burning."
+   ],
+   "selo": "ARCHIVE AUDIO · 26 APRIL 1986",
+   "em": "",
+   "fonte": "Records_of_telephone_conversations…ogg (Commons)",
+   "trecho": "~0:26–0:41 + 0:44–0:58 (revisar de ouvido/2ª fonte)"
+  },
+  {
+   "id": "P090",
+   "bloco": "B06c",
+   "tipo": "Filme",
+   "arq": "filme_helicoptero_chamine_pb_1986.mp4",
+   "enq": "0.0",
+   "inicio": 350.19,
+   "dur": 5.36,
+   "frase": "Units three and four, the roof is burning. Send the crews to the nuclear plant.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP UNIT 4",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "Units three and four, the roof is burnin",
+   "tin": 0.0,
+   "tout": 6.2,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 05:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P091",
+   "bloco": "B06c",
+   "tipo": "Filme",
+   "arq": "filme_bloco4_ruina_externa_1986.mp4",
+   "enq": "0.0",
+   "inicio": 355.54,
+   "dur": 3.93,
+   "frase": "Nobody on the line knows yet what is really on fire.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP UNIT 4",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "Nobody on the line knows yet what is rea",
+   "tin": 0.0,
+   "tout": 4.0,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 05:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P092",
+   "bloco": "B06c",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:26.04 02:20-26.04 05:00",
+   "inicio": 359.47,
+   "dur": 7.5,
+   "frase": "The roof fires on units three and four were contained by two twenty, and the roof fires were out at five.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "ROOF FIRES OUT AT 05:00",
+   "em": "The roof fires on units three and four w",
+   "de_t": "26.04 02:20",
+   "ate_t": "26.04 05:00",
+   "relogio": [
+    "26.04 05:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P093",
+   "bloco": "B06d",
+   "tipo": "KenBurns",
+   "arq": "foto_bloco4_chamine_ruinas_iaea1986.jpg",
+   "enq": "zoom-in",
+   "inicio": 366.97,
+   "dur": 5.71,
+   "frase": "By four in the morning, about two hundred and fifty firemen had come to the site.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP UNIT 4",
+   "credito": "IAEA Imagebank (CC BY-SA 2.0)",
+   "num": [
+    "250",
+    "FIREMEN ON SITE · 04:00"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "By four in the morning, about two hundre",
+   "relogio": [
+    "26.04 06:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P094",
+   "bloco": "B06d",
+   "tipo": "Filme",
+   "arq": "filme_usina_vista_estrada_1986.mp4",
+   "enq": "0.0",
+   "inicio": 372.69,
+   "dur": 2.86,
+   "frase": "That night, two plant workers were already lost:",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "That night, two plant workers were alrea",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 06:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P095",
+   "bloco": "B06d",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:VALERY KHODEMCHUK · NEVER FOUN",
+   "inicio": 375.54,
+   "dur": 5.71,
+   "frase": "Valery Khodemchuk, whose body was never found, and Volodymyr Shashenok, who died at six that morning.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "VALERY KHODEMCHUK · NEVER FOUND",
+    "VOLODYMYR SHASHENOK · 06:00, 26 APRIL"
+   ],
+   "selo": "RECORD",
+   "em": "Valery Khodemchuk, whose body was never ",
+   "relogio": [
+    "26.04 06:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P096",
+   "bloco": "B06e",
+   "tipo": "KenBurns",
+   "arq": "foto_helicoptero_sobre_usina_iaea1986.jpg",
+   "enq": "pan-dir",
+   "inicio": 381.26,
+   "dur": 4.64,
+   "frase": "Within four months, twenty-eight plant workers and firemen died of acute radiation sickness.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "13 JUN 1986 · CHERNOBYL NPP",
+   "credito": "IAEA Imagebank (CC BY-SA 2.0)",
+   "num": [
+    "28",
+    "WITHIN FOUR MONTHS · UNSCEAR"
+   ],
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Within four months, twenty-eight plant w",
+   "relogio": [
+    "26.04 ~10:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P097",
+   "bloco": "B06e",
+   "tipo": "KenBurns",
+   "arq": "foto_aerea_bloco4_destruido_iaea1986.jpg",
+   "enq": "tilt-baixo",
+   "inicio": 385.9,
+   "dur": 5.71,
+   "frase": "Both lieutenants were among them. They died in a Moscow hospital on the eleventh of May.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP UNIT 4",
+   "credito": "IAEA Imagebank (CC BY-SA 2.0)",
+   "de": [
+    0.5,
+    0.44,
+    1.12
+   ],
+   "para": [
+    0.5,
+    0.56,
+    1.12
+   ],
+   "em": "Both lieutenants were among them. They d",
+   "relogio": [
+    "26.04 ~10:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P098",
+   "bloco": "B06e",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208405_bryukhanov-0125.png",
+   "enq": "pagina",
+   "inicio": 391.61,
+   "dur": 4.64,
+   "frase": "That Saturday, the plant director, Viktor Bryukhanov, sent his report up the line.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [],
+   "literal": false,
+   "em": "That Saturday, the plant director, Vikto",
+   "relogio": [
+    "26.04 ~10:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P099",
+   "bloco": "B06f",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208405_bryukhanov-0125.png",
+   "enq": "explosao_0125",
+   "inicio": 396.26,
+   "dur": 2.5,
+   "frase": "It puts the explosion at one twenty-five.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.1524,
+     0.3635,
+     0.7382,
+     0.0274
+    ]
+   ],
+   "literal": false,
+   "em": "It puts the explosion at one twenty-five",
+   "relogio": [
+    "26.04 ~10:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P100",
+   "bloco": "B06f",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:1 · 1 · 34",
+   "inicio": 398.76,
+   "dur": 3.93,
+   "frase": "It counts one dead, one missing and thirty-four people under observation.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "valor": "1 · 1 · 34",
+   "rotulo": "DEAD · MISSING · UNDER OBSERVATION",
+   "em": "It counts one dead, one missing and thir",
+   "relogio": [
+    "26.04 ~10:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P101",
+   "bloco": "B06f",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208405_bryukhanov-0125.png",
+   "enq": "incendio_0450_0600",
+   "inicio": 402.69,
+   "dur": 3.21,
+   "frase": "It says the fire was put out at six.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.1177,
+     0.471,
+     0.7917,
+     0.0469
+    ]
+   ],
+   "literal": false,
+   "em": "It says the fire was put out at six.",
+   "relogio": [
+    "26.04 ~10:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P102",
+   "bloco": "B06f",
+   "tipo": "KenBurns",
+   "arq": "foto_pripyat_vista_alta_blocos_yevsyukov1986.jpg",
+   "enq": "zoom-out",
+   "inicio": 405.9,
+   "dur": 4.29,
+   "frase": "And it ends with a sentence about the city three kilometers away.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "PRIPYAT · BEFORE 1986",
+   "credito": "Photo: Yuri Yevsyukov, \"Pripyat\" (Mystetstvo, Kyiv, 1986)",
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "And it ends with a sentence about the ci",
+   "relogio": [
+    "26.04 ~10:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P103",
+   "bloco": "B06g",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208405_bryukhanov-0125.png",
+   "enq": "pripyat_normal",
+   "inicio": 410.19,
+   "dur": 5.0,
+   "frase": "\"The situation at the city of Pripyat' and the adjoining population centers is normal.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.1177,
+     0.8384,
+     0.7248,
+     0.0469
+    ]
+   ],
+   "literal": false,
+   "legenda": "\"The situation at the city of Pripyat' and the adjoining population centers is normal.\" (trans. Wilson Center)",
+   "em": "\"The situation at the city of Pripyat' a",
+   "relogio": [
+    "26.04 ~10:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P104",
+   "bloco": "B06g",
+   "tipo": "Filme",
+   "arq": "filme_pripyat_predio_arvores_1982.mp4",
+   "enq": "0.0",
+   "inicio": 415.19,
+   "dur": 1.43,
+   "frase": "Remember that word: normal.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1982 · PRIPYAT",
+   "credito": "Film: Ukrtelefilm, 1982 (via Gosteleradiofond)",
+   "em": "Remember that word: normal.",
+   "tin": 0.0,
+   "tout": 2.5,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 ~10:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P105",
+   "bloco": "B07a",
+   "tipo": "Filme",
+   "arq": "filme_pripyat_familias_passeio_1982.mp4",
+   "enq": "0.0",
+   "inicio": 416.61,
+   "dur": 3.57,
+   "frase": "Pripyat was a young city, built for the plant's workers.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1982 · PRIPYAT",
+   "credito": "Film: Ukrtelefilm, 1982 (via Gosteleradiofond)",
+   "em": "Pripyat was a young city, built for the ",
+   "tin": 0.0,
+   "tout": 6.2,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 15:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P106",
+   "bloco": "B07a",
+   "tipo": "KenBurns",
+   "arq": "foto_criancas_bicicleta_calcada_yevsyukov1986.jpg",
+   "enq": "pan-dir",
+   "inicio": 420.19,
+   "dur": 2.5,
+   "frase": "Tens of thousands of people lived there.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "PRIPYAT · BEFORE 1986",
+   "credito": "Photo: Yuri Yevsyukov, \"Pripyat\" (Mystetstvo, Kyiv, 1986)",
+   "de": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "em": "Tens of thousands of people lived there.",
+   "relogio": [
+    "26.04 15:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P107",
+   "bloco": "B07a",
+   "tipo": "Filme",
+   "arq": "filme_pripyat_carrinho_bebe_1982.mp4",
+   "enq": "0.0",
+   "inicio": 422.69,
+   "dur": 2.14,
+   "frase": "Saturday went on. Nobody announced anything.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1982 · PRIPYAT",
+   "credito": "Film: Ukrtelefilm, 1982 (via Gosteleradiofond)",
+   "em": "Saturday went on. Nobody announced anyth",
+   "tin": 0.0,
+   "tout": 4.4,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 15:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P108",
+   "bloco": "B07b",
+   "tipo": "KenBurns",
+   "arq": "foto_alameda_central_yevsyukov1986.jpg",
+   "enq": "zoom-in",
+   "inicio": 424.83,
+   "dur": 3.21,
+   "frase": "But in Kyiv, someone had already read the numbers.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "PRIPYAT · BEFORE 1986",
+   "credito": "Photo: Yuri Yevsyukov, \"Pripyat\" (Mystetstvo, Kyiv, 1986)",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "But in Kyiv, someone had already read th",
+   "relogio": [
+    "26.04 19:59",
+    "hora"
+   ]
+  },
+  {
+   "id": "P109",
+   "bloco": "B07b",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208406_p1_ministerstvo-avtotransporta-2000.png",
+   "enq": "ministerstvo_cabecalho",
+   "inicio": 428.04,
+   "dur": 3.93,
+   "frase": "This is a report from the Ukrainian Ministry of Automotive Transport,",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.1973,
+     0.0524,
+     0.7839,
+     0.0823
+    ]
+   ],
+   "literal": false,
+   "em": "This is a report from the Ukrainian Mini",
+   "relogio": [
+    "26.04 19:59",
+    "hora"
+   ]
+  },
+  {
+   "id": "P110",
+   "bloco": "B07b",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208406_p1_ministerstvo-avtotransporta-2000.png",
+   "enq": "secreto",
+   "inicio": 431.97,
+   "dur": 2.14,
+   "frase": "stamped secret, dated the next day.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.766,
+     0.1759,
+     0.1102,
+     0.0374
+    ]
+   ],
+   "literal": false,
+   "em": "stamped secret, dated the next day.",
+   "relogio": [
+    "26.04 19:59",
+    "hora"
+   ]
+  },
+  {
+   "id": "P111",
+   "bloco": "B07c",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208406_p1_ministerstvo-avtotransporta-2000.png",
+   "enq": "ordem_masik",
+   "inicio": 434.11,
+   "dur": 6.43,
+   "frase": "It says that \"in fulfillment of an order\" from Deputy Chairman Masik of the Ukrainian Council of Ministers,",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.2357,
+     0.3275,
+     0.7711,
+     0.0543
+    ]
+   ],
+   "literal": false,
+   "legenda": "\"In fulfillment of an order of Cde. K. I. Masik… received a signal at 2000 26 April 1986\" (trans. Wilson Center)",
+   "em": "It says that \"in fulfillment of an order",
+   "relogio": [
+    "26.04 20:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P112",
+   "bloco": "B07c",
+   "tipo": "Filme",
+   "arq": "filme_kiev_monumento_1986.mp4",
+   "enq": "0.0",
+   "inicio": 440.54,
+   "dur": 3.57,
+   "frase": "the ministry \"received a signal at 2000 26 April 1986.\"",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "MAY 1986 · KYIV",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "the ministry \"received a signal at 2000 ",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0,
+   "relogio": [
+    "26.04 20:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P113",
+   "bloco": "B07c",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:26.04 20:00-26.04 20:00",
+   "inicio": 444.11,
+   "dur": 1.79,
+   "frase": "Eight o'clock on Saturday night.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "THE ORDER",
+   "em": "Eight o'clock on Saturday night.",
+   "de_t": "26.04 20:00",
+   "ate_t": "26.04 20:00",
+   "relogio": [
+    "26.04 20:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P114",
+   "bloco": "B07c",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208406_p1_ministerstvo-avtotransporta-2000.png",
+   "enq": "sinal_2000_26abr",
+   "inicio": 445.9,
+   "dur": 2.86,
+   "frase": "A signal to prepare buses to evacuate Pripyat.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.1921,
+     0.3799,
+     0.7967,
+     0.0599
+    ]
+   ],
+   "literal": false,
+   "em": "A signal to prepare buses to evacuate Pr",
+   "relogio": [
+    "26.04 20:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P115",
+   "bloco": "B07d",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:1,100",
+   "inicio": 448.76,
+   "dur": 3.21,
+   "frase": "Eleven hundred of them, plus a battalion of trucks.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "valor": "1,100",
+   "rotulo": "BUSES · + A BATTALION OF TRUCKS",
+   "em": "Eleven hundred of them, plus a battalion",
+   "relogio": [
+    "26.04 23:25",
+    "hora"
+   ]
+  },
+  {
+   "id": "P116",
+   "bloco": "B07d",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208406_p1_ministerstvo-avtotransporta-2000.png",
+   "enq": "coluna_2325",
+   "inicio": 451.97,
+   "dur": 3.93,
+   "frase": "At twenty-five past eleven, the columns were ordered out of Kyiv,",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.2562,
+     0.7168,
+     0.7122,
+     0.0412
+    ]
+   ],
+   "literal": false,
+   "em": "At twenty-five past eleven, the columns ",
+   "relogio": [
+    "26.04 23:25",
+    "hora"
+   ]
+  },
+  {
+   "id": "P117",
+   "bloco": "B07d",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:rota",
+   "inicio": 455.9,
+   "dur": 7.14,
+   "frase": "on a route through Dymer and Ivankov. Ivankov is one of the towns the fire dispatcher had called that night.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "nome": "rota",
+   "pontos": [
+    "KYIV",
+    "DYMER",
+    "IVANKOV",
+    "CHERNOBYL (TOWN)",
+    "PRIPYAT"
+   ],
+   "linhas": [
+    [
+     "KYIV",
+     "DYMER",
+     ""
+    ],
+    [
+     "DYMER",
+     "IVANKOV",
+     ""
+    ],
+    [
+     "IVANKOV",
+     "CHERNOBYL (TOWN)",
+     ""
+    ]
+   ],
+   "selo": "SCHEMATIC · ROUTE AS IN THE REPORT",
+   "nota": "",
+   "pluma": false,
+   "em": "on a route through Dymer and Ivankov. Iv",
+   "relogio": [
+    "26.04 23:25",
+    "hora"
+   ]
+  },
+  {
+   "id": "P118",
+   "bloco": "B07e",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208406_p3_1125-onibus-250-caminhoes.png",
+   "enq": "1125_onibus",
+   "inicio": 463.04,
+   "dur": 6.43,
+   "frase": "And the report says that by four in the morning, \"1125 buses and 250 trucks and special vehicles\"",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.5687,
+     0.0491,
+     0.063,
+     0.0261
+    ]
+   ],
+   "literal": false,
+   "legenda": "\"By 0400 27 April 1986 … 1125 buses and 250 trucks and special vehicles was concentrated around the city of Chernobyl'\" (trans. Wilson Center)",
+   "em": "And the report says that by four in the ",
+   "relogio": [
+    "27.04 04:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P119",
+   "bloco": "B07e",
+   "tipo": "KenBurns",
+   "arq": "foto_rodoviaria_onibus_yevsyukov1986.jpg",
+   "enq": "zoom-in",
+   "inicio": 469.47,
+   "dur": 2.86,
+   "frase": "were waiting outside the town of Chernobyl, ready.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "PRIPYAT · BEFORE 1986",
+   "credito": "Photo: Yuri Yevsyukov, \"Pripyat\" (Mystetstvo, Kyiv, 1986)",
+   "num": [
+    "1,125",
+    "BUSES WAITING · 04:00, 27 APRIL"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "were waiting outside the town of Chernob",
+   "relogio": [
+    "27.04 04:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P120",
+   "bloco": "B07e",
+   "tipo": "Filme",
+   "arq": "filme_aerea_pripyat_rio_1986.mp4",
+   "enq": "0.0",
+   "inicio": 472.33,
+   "dur": 3.93,
+   "frase": "The city of Pripyat spent that whole night without being told.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · PRIPYAT",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "The city of Pripyat spent that whole nig",
+   "tin": 0.0,
+   "tout": 6.5,
+   "vel": 1.0,
+   "relogio": [
+    "27.04 04:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P121",
+   "bloco": "B07e",
+   "tipo": "Filme",
+   "arq": "filme_onibus_turno_usina_1986.mp4",
+   "enq": "0.0",
+   "inicio": 476.26,
+   "dur": 2.5,
+   "frase": "The buses were already on the road.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "The buses were already on the road.",
+   "tin": 0.0,
+   "tout": 5.5,
+   "vel": 1.0,
+   "relogio": [
+    "27.04 04:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P122",
+   "bloco": "B07f",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208406_p1_ministerstvo-avtotransporta-2000.png",
+   "enq": "numero_data_382s",
+   "inicio": 478.76,
+   "dur": 4.29,
+   "frase": "On the report, a stamp in the corner: secret, copy number one.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.2459,
+     0.1871,
+     0.3023,
+     0.0281
+    ]
+   ],
+   "literal": false,
+   "em": "On the report, a stamp in the corner: se",
+   "relogio": [
+    "27.04 04:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P123",
+   "bloco": "B08a",
+   "tipo": "Filme",
+   "arq": "filme_pripyat_predio_pedestres_1982.mp4",
+   "enq": "0.0",
+   "inicio": 483.04,
+   "dur": 2.5,
+   "frase": "On Sunday, it was the city radio.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1982 · PRIPYAT",
+   "credito": "Film: Ukrtelefilm, 1982 (via Gosteleradiofond)",
+   "em": "On Sunday, it was the city radio.",
+   "tin": 0.0,
+   "tout": 5.4,
+   "vel": 1.0,
+   "relogio": [
+    "27.04 ~11:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P124",
+   "bloco": "B08a",
+   "tipo": "KenBurns",
+   "arq": "foto_bloco_residencial_yevsyukov1986.jpg",
+   "enq": "zoom-in",
+   "inicio": 485.54,
+   "dur": 4.64,
+   "frase": "This is the actual announcement, read by the voice of Pripyat's radio station.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "PRIPYAT · BEFORE 1986",
+   "credito": "Photo: Yuri Yevsyukov, \"Pripyat\" (Mystetstvo, Kyiv, 1986)",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "This is the actual announcement, read by",
+   "relogio": [
+    "27.04 ~11:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P125",
+   "bloco": "B08a",
+   "tipo": "Filme",
+   "arq": "filme_pripyat_predios_rua_1986.mp4",
+   "enq": "0.0",
+   "inicio": 490.19,
+   "dur": 2.14,
+   "frase": "It was recorded, and it survives.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · PRIPYAT",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "It was recorded, and it survives.",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "27.04 ~11:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P126",
+   "bloco": "A4",
+   "tipo": "Arquivo",
+   "arq": "filme_pripyat_sacadas_playground_1986.mp4",
+   "enq": "arquivo:A4",
+   "inicio": 492.33,
+   "dur": 40.0,
+   "frase": "(áudio de época)",
+   "real": false,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · PRIPYAT",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "legenda": [
+    "Dear comrades! The City Council of People's Deputies announces that, due to the accident at the Chernobyl nuclear power station,",
+    "unfavourable radiation conditions are developing in the city of Pripyat.",
+    "…it has become necessary to carry out a TEMPORARY evacuation of the city's residents…",
+    "…today, April 27, beginning at 14:00, buses will be sent to every apartment building…",
+    "Comrades, when TEMPORARILY leaving your homes, please do not forget to close the windows…"
+   ],
+   "selo": "ARCHIVE AUDIO · PRIPYAT CITY RADIO · 27 APRIL 1986",
+   "em": "",
+   "fonte": "Pripyat_1986.ogg (Commons, PD-UA-exempt; voz atribuída a Nina Melnik)",
+   "trecho": "0:12–1:04 editado (0:12–0:40 + 0:55–1:04) + 2:07–2:20"
+  },
+  {
+   "id": "P127",
+   "bloco": "B08b",
+   "tipo": "Filme",
+   "arq": "filme_bagagens_calcada_1986.mp4",
+   "enq": "0.0",
+   "inicio": 532.33,
+   "dur": 2.14,
+   "frase": "It tells people to take documents,",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · KYIV OBLAST",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "It tells people to take documents,",
+   "tin": 0.0,
+   "tout": 2.6,
+   "vel": 1.0,
+   "relogio": [
+    "27.04 ~12:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P128",
+   "bloco": "B08b",
+   "tipo": "Filme",
+   "arq": "filme_pripyat_rua_vazia_1986.mp4",
+   "enq": "0.0",
+   "inicio": 534.47,
+   "dur": 3.21,
+   "frase": "essential things and, for the first while, some food.",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "1986 · PRIPYAT",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "essential things and, for the first whil",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "27.04 ~12:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P129",
+   "bloco": "B08b",
+   "tipo": "Datilo",
+   "arq": "codigo",
+   "enq": "datilo:TEMPORARY",
+   "inicio": 537.69,
+   "dur": 3.93,
+   "frase": "Notice what it calls it. Not a disaster. A temporary evacuation.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "TEMPORARY"
+   ],
+   "selo": "QUOTED · PRIPYAT CITY RADIO",
+   "em": "Notice what it calls it. Not a disaster.",
+   "relogio": [
+    "27.04 ~12:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P130",
+   "bloco": "B08c",
+   "tipo": "Filme",
+   "arq": "filme_pripyat_sacadas_playground_1986.mp4",
+   "enq": "0.0",
+   "inicio": 541.61,
+   "dur": 2.14,
+   "frase": "And listen to the last instructions.",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "1986 · PRIPYAT",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "And listen to the last instructions.",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "27.04 ~12:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P131",
+   "bloco": "B08c",
+   "tipo": "Datilo",
+   "arq": "codigo",
+   "enq": "datilo:CLOSE THE WINDOWS.",
+   "inicio": 543.76,
+   "dur": 5.36,
+   "frase": "Close the windows. Switch off the electrical and gas appliances. Turn off the water taps.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "CLOSE THE WINDOWS.",
+    "SWITCH OFF THE ELECTRICAL AND GAS APPLIANCES.",
+    "TURN OFF THE WATER TAPS."
+   ],
+   "selo": "QUOTED · PRIPYAT CITY RADIO",
+   "em": "Close the windows. Switch off the electr",
+   "relogio": [
+    "27.04 ~12:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P132",
+   "bloco": "B08d",
+   "tipo": "Filme",
+   "arq": "filme_casa_abandonada_tabuas_1986.mp4",
+   "enq": "0.0",
+   "inicio": 549.11,
+   "dur": 3.93,
+   "frase": "It's what you tell people who are coming back next week.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL ZONE",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "It's what you tell people who are coming",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0,
+   "relogio": [
+    "27.04 13:30",
+    "hora"
+   ]
+  },
+  {
+   "id": "P133",
+   "bloco": "B08d",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208406_p3_1125-onibus-250-caminhoes.png",
+   "enq": "1330_evacuacao",
+   "inicio": 553.04,
+   "dur": 5.36,
+   "frase": "The ministry's report gives the time the buses rolled in: one thirty in the afternoon,",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.1903,
+     0.2824,
+     0.7798,
+     0.0448
+    ]
+   ],
+   "literal": false,
+   "em": "The ministry's report gives the time the",
+   "relogio": [
+    "27.04 13:30",
+    "hora"
+   ]
+  },
+  {
+   "id": "P134",
+   "bloco": "B08d",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:27.04 13:30-27.04 13:30",
+   "inicio": 558.4,
+   "dur": 2.5,
+   "frase": "almost exactly thirty-six hours after the button.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "+36:06 · BUSES ROLL IN",
+   "em": "almost exactly thirty-six hours after th",
+   "de_t": "27.04 13:30",
+   "ate_t": "27.04 13:30",
+   "relogio": [
+    "27.04 13:30",
+    "hora"
+   ]
+  },
+  {
+   "id": "P135",
+   "bloco": "B08e",
+   "tipo": "Filme",
+   "arq": "filme_cbs_moscou_jovens.mp4",
+   "enq": "0.0",
+   "inicio": 560.9,
+   "dur": 5.36,
+   "frase": "A day later, in Moscow, the Politburo was told that out of forty-five thousand residents,",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 APR 1986 · MOSCOW",
+   "credito": "CBS Evening News, 29 APR 1986",
+   "em": "A day later, in Moscow, the Politburo wa",
+   "tin": 0.0,
+   "tout": 4.1,
+   "vel": 0.765,
+   "relogio": [
+    "28.04 ~09:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P136",
+   "bloco": "B08e",
+   "tipo": "DocGrifo",
+   "arq": "doc_politburo-28abr_p1_dolgikh-0130.png",
+   "enq": "populacao_45000",
+   "inicio": 566.26,
+   "dur": 1.79,
+   "frase": "only five thousand workers remained.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "num": [
+    "45,000 → 5,000",
+    "POLITBURO, 28 APRIL"
+   ],
+   "grifo": [
+    [
+     0.2641,
+     0.389,
+     0.2799,
+     0.0227
+    ],
+    [
+     0.5467,
+     0.389,
+     0.275,
+     0.0227
+    ]
+   ],
+   "literal": false,
+   "em": "only five thousand workers remained.",
+   "relogio": [
+    "28.04 ~09:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P137",
+   "bloco": "B08e",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:28.04 07:00-28.04 07:00",
+   "inicio": 568.04,
+   "dur": 2.86,
+   "frase": "By then, the clock had passed fifty-five hours.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "+55 HOURS",
+   "em": "By then, the clock had passed fifty-five",
+   "de_t": "28.04 07:00",
+   "ate_t": "28.04 07:00",
+   "relogio": [
+    "28.04 ~09:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P138",
+   "bloco": "B08e",
+   "tipo": "Filme",
+   "arq": "filme_abc_mapa_europa.mp4",
+   "enq": "0.0",
+   "inicio": 570.9,
+   "dur": 7.14,
+   "frase": "And outside the Soviet Union, one of the first written records of any of this wasn't about Chernobyl at all.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "28 APR 1986 · EUROPE",
+   "credito": "ABC News, 28 APR 1986",
+   "em": "And outside the Soviet Union, one of the",
+   "tin": 0.0,
+   "tout": 6.5,
+   "vel": 0.91,
+   "relogio": [
+    "28.04 ~09:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P139",
+   "bloco": "B09a",
+   "tipo": "DocGrifo",
+   "arq": "doc_upi-28abr1986_p1_titulo-dateline.png",
+   "enq": "titulo",
+   "inicio": 578.04,
+   "dur": 3.93,
+   "frase": "It's a wire story from Stockholm, filed on Monday, April twenty-eighth.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.2809,
+     0.3362,
+     0.3518,
+     0.0282
+    ],
+    [
+     0.2809,
+     0.3593,
+     0.2868,
+     0.0282
+    ]
+   ],
+   "literal": false,
+   "em": "It's a wire story from Stockholm, filed ",
+   "relogio": [
+    "28.04 MON",
+    "hora"
+   ]
+  },
+  {
+   "id": "P140",
+   "bloco": "B09a",
+   "tipo": "DocGrifo",
+   "arq": "doc_upi-28abr1986_p4_forsmark.png",
+   "enq": "forsmark_alarm",
+   "inicio": 581.97,
+   "dur": 8.57,
+   "frase": "It says that a worker at a Swedish nuclear plant \"set off an alarm Monday morning when his clothes registered unusually high radiation levels.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "frase_doc": "set off an alarm Monday morning when his clothes registered unusually high radiation levels",
+   "grifo": [
+    [
+     0.2809,
+     0.1258,
+     0.0743,
+     0.0189
+    ]
+   ],
+   "literal": true,
+   "em": "It says that a worker at a Swedish nucle",
+   "relogio": [
+    "28.04 MON",
+    "hora"
+   ]
+  },
+  {
+   "id": "P141",
+   "bloco": "B09b",
+   "tipo": "Filme",
+   "arq": "filme_abc_forsmark_aerea.mp4",
+   "enq": "0.0",
+   "inicio": 590.54,
+   "dur": 3.57,
+   "frase": "The plant is Forsmark, on the coast north of Stockholm,",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "28 APR 1986 · FORSMARK, SWEDEN",
+   "credito": "ABC News, 28 APR 1986",
+   "em": "The plant is Forsmark, on the coast nort",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P142",
+   "bloco": "B09b",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:forsmark",
+   "inicio": 594.11,
+   "dur": 2.5,
+   "frase": "more than seven hundred miles from Pripyat.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "nome": "forsmark",
+   "pontos": [
+    "CHERNOBYL NPP",
+    "FORSMARK",
+    "STOCKHOLM",
+    "MOSCOW",
+    "KYIV"
+   ],
+   "linhas": [
+    [
+     "CHERNOBYL NPP",
+     "FORSMARK",
+     "700+ MI"
+    ]
+   ],
+   "selo": "SCHEMATIC",
+   "nota": "",
+   "pluma": false,
+   "em": "more than seven hundred miles from Pripy"
+  },
+  {
+   "id": "P143",
+   "bloco": "B09b",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:CLIFF ROBINSON",
+   "inicio": 596.61,
+   "dur": 4.29,
+   "frase": "That morning, a chemist named Cliff Robinson walked back from the restroom",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "CLIFF ROBINSON",
+    "CHEMIST · FORSMARK NUCLEAR PLANT, SWEDEN"
+   ],
+   "selo": "RECORD",
+   "em": "That morning, a chemist named Cliff Robi"
+  },
+  {
+   "id": "P144",
+   "bloco": "B09b",
+   "tipo": "Filme",
+   "arq": "filme_abc_forsmark_fila.mp4",
+   "enq": "0.0",
+   "inicio": 600.9,
+   "dur": 3.93,
+   "frase": "and through the radiation monitor at the entrance. It went off.",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "28 APR 1986 · FORSMARK, SWEDEN",
+   "credito": "ABC News, 28 APR 1986",
+   "em": "and through the radiation monitor at the",
+   "tin": 0.0,
+   "tout": 4.9,
+   "vel": 1.0
+  },
+  {
+   "id": "P145",
+   "bloco": "B09c",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"I HADN'T EVEN BEEN IN THE CON",
+   "inicio": 604.83,
+   "dur": 11.07,
+   "frase": "He hadn't even been inside the controlled area yet. He walked through again, and again. The third time, it stayed quiet, and the man watching the monitor thought it needed adjusting.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "\"I HADN'T EVEN BEEN IN THE CONTROLLED AREA!\"",
+    "— CLIFF ROBINSON, SWEDISH RADIO, 2011"
+   ],
+   "selo": "QUOTED",
+   "em": "He hadn't even been inside the controlle"
+  },
+  {
+   "id": "P146",
+   "bloco": "B09d",
+   "tipo": "KenBurns",
+   "arq": "foto_rivm_medicao_anefo_1maio1986_a.jpg",
+   "enq": "zoom-in",
+   "inicio": 615.9,
+   "dur": 2.5,
+   "frase": "Then Robinson came back from his rounds,",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1 MAY 1986 · RIVM, NETHERLANDS",
+   "credito": "Nationaal Archief / Anefo (CC0)",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Then Robinson came back from his rounds,"
+  },
+  {
+   "id": "P147",
+   "bloco": "B09d",
+   "tipo": "Filme",
+   "arq": "filme_abc_forsmark_fila.mp4",
+   "enq": "0.0",
+   "inicio": 618.4,
+   "dur": 5.71,
+   "frase": "and there was a line of workers at the monitor, all of them setting it off.",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "28 APR 1986 · FORSMARK, SWEDEN",
+   "credito": "ABC News, 28 APR 1986",
+   "em": "and there was a line of workers at the m",
+   "tin": 0.0,
+   "tout": 4.9,
+   "vel": 0.858
+  },
+  {
+   "id": "P148",
+   "bloco": "B09d",
+   "tipo": "Filme",
+   "arq": "filme_abc_forsmark_sapato.mp4",
+   "enq": "0.0",
+   "inicio": 624.11,
+   "dur": 5.0,
+   "frase": "So Robinson borrowed a shoe from one of them, took it to the lab,",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "28 APR 1986 · FORSMARK, SWEDEN",
+   "credito": "ABC News, 28 APR 1986",
+   "em": "So Robinson borrowed a shoe from one of ",
+   "tin": 0.0,
+   "tout": 5.4,
+   "vel": 1.0
+  },
+  {
+   "id": "P149",
+   "bloco": "B09d",
+   "tipo": "KenBurns",
+   "arq": "foto_rivm_medicao_anefo_1maio1986_b.jpg",
+   "enq": "detalhe:0.5,0.5",
+   "inicio": 629.11,
+   "dur": 2.5,
+   "frase": "and put it on a germanium detector.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1 MAY 1986 · RIVM, NETHERLANDS",
+   "credito": "Nationaal Archief / Anefo (CC0)",
+   "de": [
+    0.5,
+    0.5,
+    1.35
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.55
+   ],
+   "em": "and put it on a germanium detector."
+  },
+  {
+   "id": "P150",
+   "bloco": "B09e",
+   "tipo": "DocGrifo",
+   "arq": "doc_upi-28abr1986_p4_forsmark.png",
+   "enq": "600_employees",
+   "inicio": 631.61,
+   "dur": 6.07,
+   "frase": "Then a second alarm sounded, the one telling everyone to leave. About six hundred employees were evacuated.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "num": [
+    "600",
+    "EMPLOYEES EVACUATED · FORSMARK"
+   ],
+   "grifo": [
+    [
+     0.5325,
+     0.1616,
+     0.1123,
+     0.0189
+    ]
+   ],
+   "literal": false,
+   "em": "Then a second alarm sounded, the one tel"
+  },
+  {
+   "id": "P151",
+   "bloco": "B09e",
+   "tipo": "Filme",
+   "arq": "filme_cbs_mapa_radiacao.mp4",
+   "enq": "0.0",
+   "inicio": 637.69,
+   "dur": 3.93,
+   "frase": "At first, the authorities wondered whether it was a bomb test.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 APR 1986 · EUROPE",
+   "credito": "CBS Evening News, 29 APR 1986",
+   "em": "At first, the authorities wondered wheth",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P152",
+   "bloco": "B09e",
+   "tipo": "Filme",
+   "arq": "filme_cbs_iodeto_potassio.mp4",
+   "enq": "0.0",
+   "inicio": 641.61,
+   "dur": 1.79,
+   "frase": "Chemical analysis ruled that out.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 APR 1986 · SWEDEN",
+   "credito": "CBS Evening News, 29 APR 1986",
+   "em": "Chemical analysis ruled that out.",
+   "tin": 0.0,
+   "tout": 2.6,
+   "vel": 1.0
+  },
+  {
+   "id": "P153",
+   "bloco": "B09f",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:vento",
+   "inicio": 643.4,
+   "dur": 6.07,
+   "frase": "Other plants were reporting radiation too, so they traced the wind backward. It came from the southeast.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "nome": "vento",
+   "pontos": [
+    "CHERNOBYL NPP",
+    "FORSMARK",
+    "STOCKHOLM",
+    "MOSCOW",
+    "KYIV"
+   ],
+   "linhas": [
+    [
+     "CHERNOBYL NPP",
+     "FORSMARK",
+     ""
+    ]
+   ],
+   "selo": "SCHEMATIC · WIND PATH APPROXIMATE",
+   "nota": "",
+   "pluma": true,
+   "em": "Other plants were reporting radiation to"
+  },
+  {
+   "id": "P154",
+   "bloco": "B09f",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:SWEDEN → MOSCOW:",
+   "inicio": 649.47,
+   "dur": 3.57,
+   "frase": "Swedish diplomats asked Moscow whether there had been an accident.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "SWEDEN → MOSCOW:",
+    "\"COULD THERE HAVE BEEN A NUCLEAR ACCIDENT?\"",
+    "THE ANSWER: \"NO.\""
+   ],
+   "selo": "AS REPORTED BY SWEDISH RADIO",
+   "em": "Swedish diplomats asked Moscow whether t"
+  },
+  {
+   "id": "P155",
+   "bloco": "B09f",
+   "tipo": "Filme",
+   "arq": "filme_cbs_moscou_calcada.mp4",
+   "enq": "0.0",
+   "inicio": 653.04,
+   "dur": 2.86,
+   "frase": "According to Swedish Radio, the answer was no.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 APR 1986 · MOSCOW",
+   "credito": "CBS Evening News, 29 APR 1986",
+   "em": "According to Swedish Radio, the answer w",
+   "tin": 0.0,
+   "tout": 4.7,
+   "vel": 1.0
+  },
+  {
+   "id": "P156",
+   "bloco": "B09g",
+   "tipo": "Filme",
+   "arq": "filme_delegacao_sovietica_aiea_1986.mp4",
+   "enq": "0.0",
+   "inicio": 655.9,
+   "dur": 5.0,
+   "frase": "Sweden said it would file an official alert with the International Atomic Energy Agency.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "AUG 1986 · VIENNA (IAEA)",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "Sweden said it would file an official al",
+   "tin": 0.0,
+   "tout": 5.2,
+   "vel": 1.0,
+   "relogio": [
+    "28.04 MON",
+    "hora"
+   ]
+  },
+  {
+   "id": "P157",
+   "bloco": "B10a",
+   "tipo": "Filme",
+   "arq": "filme_cbs_moscou_multidao.mp4",
+   "enq": "0.0",
+   "inicio": 660.9,
+   "dur": 3.21,
+   "frase": "That same Monday, the Politburo met in the Kremlin.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 APR 1986 · MOSCOW",
+   "credito": "CBS Evening News, 29 APR 1986",
+   "em": "That same Monday, the Politburo met in t",
+   "tin": 0.0,
+   "tout": 4.2,
+   "vel": 1.0,
+   "relogio": [
+    "28.04 ~10:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P158",
+   "bloco": "B10a",
+   "tipo": "DocGrifo",
+   "arq": "doc_politburo-28abr_p1_dolgikh-0130.png",
+   "enq": "pagina",
+   "inicio": 664.11,
+   "dur": 1.07,
+   "frase": "The notes survive.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [],
+   "literal": false,
+   "em": "The notes survive.",
+   "relogio": [
+    "28.04 ~10:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P159",
+   "bloco": "B10a",
+   "tipo": "DocGrifo",
+   "arq": "doc_politburo-28abr_p1_dolgikh-0130.png",
+   "enq": "dolgikh_1_30am",
+   "inicio": 665.19,
+   "dur": 7.86,
+   "frase": "A secretary of the Central Committee reports that \"on April 26, at 1:30 a.m. there was an explosion.\" Look at the time.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "frase_doc": "On April 26, at 1:30 a.m. there was an explosion",
+   "grifo": [
+    [
+     0.2647,
+     0.2299,
+     0.549,
+     0.0227
+    ],
+    [
+     0.4132,
+     0.2299,
+     0.1036,
+     0.0227
+    ]
+   ],
+   "literal": true,
+   "em": "A secretary of the Central Committee rep",
+   "relogio": [
+    "28.04 ~10:00",
+    "hora"
+   ]
+  },
+  {
+   "id": "P160",
+   "bloco": "B10b",
+   "tipo": "TresRelogios",
+   "arq": "codigo",
+   "enq": "tres-relogios",
+   "inicio": 673.04,
+   "dur": 11.07,
+   "frase": "The instruments said one twenty-three. The director's report said one twenty-five. By the time it reached the Kremlin, it was one thirty. Every step up the line, the clock got rounder.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "em": "The instruments said one twenty-three. T",
+   "valores": [
+    "01:23:40",
+    "01:25",
+    "01:30"
+   ],
+   "rotulos": [
+    "INSTRUMENTS (INSAG-7)",
+    "PLANT DIRECTOR",
+    "POLITBURO"
+   ]
+  },
+  {
+   "id": "P161",
+   "bloco": "B10c",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"ONLY A SMALL CIRCLE OF PEOPLE",
+   "inicio": 684.11,
+   "dur": 6.79,
+   "frase": "The head of the KGB, Viktor Chebrikov, notes that only a small circle of people know about the accident.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "\"ONLY A SMALL CIRCLE OF PEOPLE KNOW ABOUT THE ACCIDENT.\"",
+    "— V. CHEBRIKOV, KGB · POLITBURO, 28 APRIL 1986"
+   ],
+   "selo": "QUOTED",
+   "em": "The head of the KGB, Viktor Chebrikov, n"
+  },
+  {
+   "id": "P162",
+   "bloco": "B10c",
+   "tipo": "DocGrifo",
+   "arq": "doc_politburo-28abr_p3_gorbachev-statement.png",
+   "enq": "gorbachev_statement_quickly",
+   "inicio": 690.9,
+   "dur": 4.29,
+   "frase": "Gorbachev says: \"We should issue a statement quickly, we must not delay.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "frase_doc": "We should issue a statement quickly, we must not delay",
+   "grifo": [
+    [
+     0.3093,
+     0.4067,
+     0.5033,
+     0.0227
+    ],
+    [
+     0.1423,
+     0.4244,
+     0.0668,
+     0.0227
+    ]
+   ],
+   "literal": true,
+   "em": "Gorbachev says: \"We should issue a state"
+  },
+  {
+   "id": "P163",
+   "bloco": "B10d",
+   "tipo": "DocGrifo",
+   "arq": "doc_politburo-28abr_p3_gorbachev-statement.png",
+   "enq": "gromyko_panic",
+   "inicio": 695.19,
+   "dur": 7.5,
+   "frase": "Andrei Gromyko adds that it should be written \"in such a way that it does not cause excessive anxiety or panic.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "frase_doc": "in such a way that it does not cause excessive anxiety or panic",
+   "grifo": [
+    [
+     0.1423,
+     0.884,
+     0.4309,
+     0.0227
+    ],
+    [
+     0.2838,
+     0.8663,
+     0.5364,
+     0.0227
+    ]
+   ],
+   "literal": true,
+   "em": "Andrei Gromyko adds that it should be wr"
+  },
+  {
+   "id": "P164",
+   "bloco": "B10d",
+   "tipo": "Filme",
+   "arq": "filme_cbs_moscou_guarda_chuva.mp4",
+   "enq": "0.0",
+   "inicio": 702.69,
+   "dur": 2.5,
+   "frase": "And Anatoly Dobrynin points out the obvious.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 APR 1986 · MOSCOW",
+   "credito": "CBS Evening News, 29 APR 1986",
+   "em": "And Anatoly Dobrynin points out the obvi",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P165",
+   "bloco": "B10d",
+   "tipo": "DocGrifo",
+   "arq": "doc_politburo-28abr_p3_gorbachev-statement.png",
+   "enq": "dobrynin_americans",
+   "inicio": 705.19,
+   "dur": 6.07,
+   "frase": "\"The Americans will notice the fact of the explosion and the spread of the radioactive cloud anyway.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "frase_doc": "The Americans will notice the fact of the explosion and the spread of the radioactive cloud anyway",
+   "grifo": [
+    [
+     0.2881,
+     0.7779,
+     0.5493,
+     0.0227
+    ],
+    [
+     0.1423,
+     0.7956,
+     0.4387,
+     0.0227
+    ]
+   ],
+   "literal": true,
+   "em": "\"The Americans will notice the fact of t"
+  },
+  {
+   "id": "P166",
+   "bloco": "B10e",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:28.04 21:00:00-28.04 21:00:00",
+   "inicio": 711.26,
+   "dur": 3.93,
+   "frase": "At nine o'clock that night, on the evening news program Vremya,",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "VREMYA · 21:00 MOSCOW",
+   "em": "At nine o'clock that night, on the eveni",
+   "de_t": "28.04 21:00:00",
+   "ate_t": "28.04 21:00:00",
+   "relogio": [
+    "28.04 21:00:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P167",
+   "bloco": "B10e",
+   "tipo": "Filme",
+   "arq": "filme_abc_vremya_locutora.mp4",
+   "enq": "0.0",
+   "inicio": 715.19,
+   "dur": 4.64,
+   "frase": "the announcer read about twenty seconds of text from the Council of Ministers.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "28 APR 1986 · MOSCOW",
+   "credito": "ABC News, 28 APR 1986",
+   "em": "the announcer read about twenty seconds ",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0,
+   "relogio": [
+    "28.04 21:00:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P168",
+   "bloco": "B10e",
+   "tipo": "Teletipo",
+   "arq": "codigo",
+   "enq": "teletipo:ТАСС · 28.04.1986",
+   "inicio": 719.83,
+   "dur": 3.21,
+   "frase": "Five short sentences. No fire, no city, no numbers.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "ТАСС · 28.04.1986",
+    "НА ЧЕРНОБЫЛЬСКОЙ АТОМНОЙ ЭЛЕКТРОСТАНЦИИ ПРОИЗОШЛА АВАРИЯ…"
+   ],
+   "selo": "TEXT: TASS, 28 APRIL 1986",
+   "em": "Five short sentences. No fire, no city, ",
+   "relogio": [
+    "28.04 21:00:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P169",
+   "bloco": "B10e",
+   "tipo": "Filme",
+   "arq": "filme_cbs_vremya_locutor.mp4",
+   "enq": "0.0",
+   "inicio": 723.04,
+   "dur": 1.79,
+   "frase": "This is what they said.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 APR 1986 · MOSCOW",
+   "credito": "CBS Evening News, 29 APR 1986",
+   "em": "This is what they said.",
+   "tin": 0.0,
+   "tout": 5.5,
+   "vel": 1.0,
+   "relogio": [
+    "28.04 21:00:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P170",
+   "bloco": "A5",
+   "tipo": "Arquivo",
+   "arq": "filme_vremya_locutora_28abr1986.mp4",
+   "enq": "arquivo:A5",
+   "inicio": 724.83,
+   "dur": 15.0,
+   "frase": "(áudio de época)",
+   "real": false,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "28 APR 1986 · MOSCOW",
+   "credito": "Vremya, Soviet Central Television, 28 APR 1986",
+   "legenda": [
+    "An accident has occurred at the Chernobyl nuclear power station.",
+    "One of the atomic reactors has been damaged.",
+    "Measures are being taken to eliminate the consequences of the accident.",
+    "Those affected are being given assistance.",
+    "A government commission has been set up."
+   ],
+   "selo": "RECONSTRUCTION · SYNTHETIC AUDIO · TEXT: TASS, 28 APRIL 1986",
+   "em": "",
+   "fonte": "voz sintética (Fish) lendo o texto TASS (ruwiki/tass.ru; UPI 28/04)",
+   "trecho": "5 frases"
+  },
+  {
+   "id": "P171",
+   "bloco": "B10f",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:26.04 01:23:40-+67:36:20",
+   "inicio": 739.83,
+   "dur": 5.0,
+   "frase": "The clock stops here. Sixty-seven hours, thirty-six minutes and twenty seconds after the button.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "THE CLOCK STOPS · 67:36:20",
+   "em": "The clock stops here. Sixty-seven hours,",
+   "de_t": "26.04 01:23:40",
+   "ate_t": "+67:36:20",
+   "relogio": [
+    "28.04 21:00:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P172",
+   "bloco": "B10f",
+   "tipo": "DocGrifo",
+   "arq": "doc_upi-28abr1986_p2_tass-announcement.png",
+   "enq": "tass_announcement",
+   "inicio": 744.83,
+   "dur": 3.21,
+   "frase": "In New York, it was one in the afternoon.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.31,
+     0.4902,
+     0.143,
+     0.0189
+    ]
+   ],
+   "literal": false,
+   "em": "In New York, it was one in the afternoon",
+   "relogio": [
+    "28.04 21:00:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P173",
+   "bloco": "B10f",
+   "tipo": "Filme",
+   "arq": "filme_cbs_ancora_acidente.mp4",
+   "enq": "0.0",
+   "inicio": 748.04,
+   "dur": 2.5,
+   "frase": "That evening, American television led with maps",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 APR 1986 · NEW YORK",
+   "credito": "CBS Evening News, 29 APR 1986",
+   "em": "That evening, American television led wi",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0,
+   "relogio": [
+    "28.04 21:00:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P174",
+   "bloco": "B10f",
+   "tipo": "Filme",
+   "arq": "filme_cbs_mapa_chernobyl_kiev.mp4",
+   "enq": "0.0",
+   "inicio": 750.54,
+   "dur": 3.21,
+   "frase": "of a place most viewers had never heard of.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 APR 1986 · UKRAINE",
+   "credito": "CBS Evening News, 29 APR 1986",
+   "em": "of a place most viewers had never heard ",
+   "tin": 0.0,
+   "tout": 4.4,
+   "vel": 1.0,
+   "relogio": [
+    "28.04 21:00:00",
+    "parado"
+   ]
+  },
+  {
+   "id": "P175",
+   "bloco": "B11a",
+   "tipo": "Filme",
+   "arq": "filme_cbs_moscou_quadro_avisos.mp4",
+   "enq": "0.0",
+   "inicio": 753.76,
+   "dur": 3.57,
+   "frase": "On Tuesday, the Americans were reading the same five sentences.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 APR 1986 · MOSCOW",
+   "credito": "CBS Evening News, 29 APR 1986",
+   "em": "On Tuesday, the Americans were reading t",
+   "tin": 0.0,
+   "tout": 3.6,
+   "vel": 1.0,
+   "relogio": [
+    "29.04 TUE",
+    "dia"
+   ]
+  },
+  {
+   "id": "P176",
+   "bloco": "B11a",
+   "tipo": "DocGrifo",
+   "arq": "doc_frus-v05-d220_cia-29abr.png",
+   "enq": "cabecalho_cia",
+   "inicio": 757.33,
+   "dur": 3.93,
+   "frase": "A CIA report written that day starts with a damage assessment.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.4699,
+     0.1802,
+     0.3033,
+     0.0289
+    ],
+    [
+     0.0368,
+     0.2372,
+     0.1747,
+     0.0186
+    ]
+   ],
+   "literal": false,
+   "em": "A CIA report written that day starts wit",
+   "relogio": [
+    "29.04 TUE",
+    "dia"
+   ]
+  },
+  {
+   "id": "P177",
+   "bloco": "B11a",
+   "tipo": "DocGrifo",
+   "arq": "doc_frus-v05-d220_cia-29abr.png",
+   "enq": "possibly_occurred_last_friday",
+   "inicio": 761.26,
+   "dur": 6.43,
+   "frase": "\"The Soviet nuclear accident announced by Moscow yesterday possibly occurred last Friday or at the latest early Saturday.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "frase_doc": "The Soviet nuclear accident announced by Moscow yesterday possibly occurred last Friday or at the latest early Saturday",
+   "grifo": [
+    [
+     0.6985,
+     0.2676,
+     0.2284,
+     0.0186
+    ]
+   ],
+   "literal": true,
+   "em": "\"The Soviet nuclear accident announced b",
+   "relogio": [
+    "29.04 TUE",
+    "dia"
+   ]
+  },
+  {
+   "id": "P178",
+   "bloco": "B11b",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:26.04 01:23:40-26.04 01:23:40",
+   "inicio": 767.69,
+   "dur": 4.29,
+   "frase": "The real answer, one twenty-three on Saturday morning, was inside that window.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "SATURDAY 01:23:40 · INSIDE THE WINDOW",
+   "em": "The real answer, one twenty-three on Sat",
+   "de_t": "26.04 01:23:40",
+   "ate_t": "26.04 01:23:40"
+  },
+  {
+   "id": "P179",
+   "bloco": "B11b",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"THE SOVIETS DELAYED ADMISSION",
+   "inicio": 771.97,
+   "dur": 7.86,
+   "frase": "A few lines down, the report adds that the Soviets \"delayed admission of the disaster and continue to minimize domestic media coverage.\"",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "\"THE SOVIETS DELAYED ADMISSION OF THE DISASTER AND CONTINUE TO MINIMIZE DOMESTIC MEDIA COVERAGE…\"",
+    "— CIA, 29 APRIL 1986 (FRUS 1981–88, V, DOC. 220)"
+   ],
+   "selo": "QUOTED",
+   "em": "A few lines down, the report adds that t"
+  },
+  {
+   "id": "P180",
+   "bloco": "B11c",
+   "tipo": "KenBurns",
+   "arq": "foto_landsat5_29abr1986.jpg",
+   "enq": "zoom-in",
+   "inicio": 779.83,
+   "dur": 6.79,
+   "frase": "That same day, Landsat 5, a civilian American satellite built to watch farmland and forests, passed over the plant.",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "29 APR 1986 · LANDSAT 5",
+   "credito": "Landsat image courtesy of the U.S. Geological Survey (EROS)",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "That same day, Landsat 5, a civilian Ame"
+  },
+  {
+   "id": "P181",
+   "bloco": "B11c",
+   "tipo": "KenBurns",
+   "arq": "foto_landsat5_29abr1986.jpg",
+   "enq": "detalhe:0.52,0.48",
+   "inicio": 786.61,
+   "dur": 5.36,
+   "frase": "In the infrared, there is a red spot inside the complex: exposed graphite, still burning.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "29 APR 1986 · LANDSAT 5",
+   "credito": "Landsat image courtesy of the U.S. Geological Survey (EROS)",
+   "de": [
+    0.52,
+    0.48,
+    1.35
+   ],
+   "para": [
+    0.52,
+    0.48,
+    1.55
+   ],
+   "em": "In the infrared, there is a red spot ins"
+  },
+  {
+   "id": "P182",
+   "bloco": "B11c",
+   "tipo": "Filme",
+   "arq": "filme_aerea_lago_usina_1986.mp4",
+   "enq": "0.0",
+   "inicio": 791.97,
+   "dur": 4.29,
+   "frase": "And next to it, the cooling pond shows no warmth at all.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "And next to it, the cooling pond shows n",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P183",
+   "bloco": "B11d",
+   "tipo": "KenBurns",
+   "arq": "foto_spot1_tchernobyl_1maio1986.jpg",
+   "enq": "zoom-in",
+   "inicio": 796.26,
+   "dur": 3.21,
+   "frase": "The reactor was dead. Its core was not out.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1 MAY 1986 · SPOT-1 PANCHROMATIC",
+   "credito": "© CNES 1986, Spot World Heritage – Licence Ouverte 2.0",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "The reactor was dead. Its core was not o",
+   "relogio": [
+    "29.04 TUE",
+    "dia"
+   ]
+  },
+  {
+   "id": "P184",
+   "bloco": "B11d",
+   "tipo": "Filme",
+   "arq": "filme_aerea_bloco4_chamine_1986.mp4",
+   "enq": "0.0",
+   "inicio": 799.47,
+   "dur": 4.64,
+   "frase": "The fires on the roof had been out since five on Saturday morning.",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "1986 · CHERNOBYL NPP UNIT 4",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "The fires on the roof had been out since",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "29.04 TUE",
+    "dia"
+   ]
+  },
+  {
+   "id": "P185",
+   "bloco": "B11d",
+   "tipo": "Filme",
+   "arq": "filme_helicoptero_ao_lado_bloco4_1986.mp4",
+   "enq": "0.0",
+   "inicio": 804.11,
+   "dur": 2.5,
+   "frase": "The one inside kept burning into May.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL NPP UNIT 4",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "The one inside kept burning into May.",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "29.04 TUE",
+    "dia"
+   ]
+  },
+  {
+   "id": "P186",
+   "bloco": "B12a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:zona30",
+   "inicio": 806.61,
+   "dur": 3.57,
+   "frase": "By early May, the evacuation was no longer one city.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "nome": "zona30",
+   "pontos": [
+    "CHERNOBYL NPP",
+    "PRIPYAT",
+    "KYIV",
+    "CHERNOBYL (TOWN)"
+   ],
+   "linhas": [],
+   "selo": "SCHEMATIC · 30 KM ZONE",
+   "nota": "",
+   "pluma": false,
+   "em": "By early May, the evacuation was no long",
+   "relogio": [
+    "MAY 1986",
+    "dia"
+   ]
+  },
+  {
+   "id": "P187",
+   "bloco": "B12a",
+   "tipo": "Filme",
+   "arq": "filme_posto_controle_milicia_1986.mp4",
+   "enq": "0.0",
+   "inicio": 810.19,
+   "dur": 4.64,
+   "frase": "A zone of thirty kilometers, about nineteen miles, around the plant was cleared.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "MAY 1986 · CHERNOBYL ZONE",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "A zone of thirty kilometers, about ninet",
+   "tin": 0.0,
+   "tout": 5.8,
+   "vel": 1.0,
+   "relogio": [
+    "MAY 1986",
+    "dia"
+   ]
+  },
+  {
+   "id": "P188",
+   "bloco": "B12a",
+   "tipo": "KenBurns",
+   "arq": "foto_helicoptero_sobre_usina_iaea1986.jpg",
+   "enq": "zoom-out",
+   "inicio": 814.83,
+   "dur": 4.29,
+   "frase": "In 1986, about one hundred and fifteen thousand people were moved out,",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "13 JUN 1986 · CHERNOBYL NPP",
+   "credito": "IAEA Imagebank (CC BY-SA 2.0)",
+   "num": [
+    "115,000",
+    "PEOPLE EVACUATED IN 1986 · UNSCEAR"
+   ],
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "In 1986, about one hundred and fifteen t",
+   "relogio": [
+    "MAY 1986",
+    "dia"
+   ]
+  },
+  {
+   "id": "P189",
+   "bloco": "B12a",
+   "tipo": "Filme",
+   "arq": "filme_kiev_lavagem_ruas_1986.mp4",
+   "enq": "0.0",
+   "inicio": 819.11,
+   "dur": 2.86,
+   "frase": "and children were sent away from Kyiv itself.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "MAY 1986 · KYIV",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "and children were sent away from Kyiv it",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "MAY 1986",
+    "dia"
+   ]
+  },
+  {
+   "id": "P190",
+   "bloco": "B12b",
+   "tipo": "Filme",
+   "arq": "filme_moradores_novas_casas_1986.mp4",
+   "enq": "0.0",
+   "inicio": 821.97,
+   "dur": 3.21,
+   "frase": "Later, another two hundred and twenty thousand were resettled.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · KYIV OBLAST",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "num": [
+    "220,000",
+    "RESETTLED LATER"
+   ],
+   "em": "Later, another two hundred and twenty th",
+   "tin": 0.0,
+   "tout": 6.0,
+   "vel": 1.0,
+   "relogio": [
+    "27.02.1991",
+    "dia"
+   ]
+  },
+  {
+   "id": "P191",
+   "bloco": "B12b",
+   "tipo": "Filme",
+   "arq": "filme_arame_farpado_trigo_1986.mp4",
+   "enq": "0.0",
+   "inicio": 825.19,
+   "dur": 6.43,
+   "frase": "In February 1991, with the Soviet Union in its last year, Ukraine's parliament wrote the zone into law.",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL ZONE",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "em": "In February 1991, with the Soviet Union ",
+   "tin": 0.0,
+   "tout": 4.9,
+   "vel": 0.762,
+   "relogio": [
+    "27.02.1991",
+    "dia"
+   ]
+  },
+  {
+   "id": "P192",
+   "bloco": "B12b",
+   "tipo": "DocGrifo",
+   "arq": "doc_lei791a_p13_art12-radiacao.png",
+   "enq": "art12_titulo",
+   "inicio": 831.61,
+   "dur": 2.14,
+   "frase": "Here is that law, Article twelve.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.2026,
+     0.6227,
+     0.1333,
+     0.0393
+    ]
+   ],
+   "literal": false,
+   "em": "Here is that law, Article twelve.",
+   "relogio": [
+    "27.02.1991",
+    "dia"
+   ]
+  },
+  {
+   "id": "P193",
+   "bloco": "B12c",
+   "tipo": "DocGrifo",
+   "arq": "doc_lei791a_p13_art12-radiacao.png",
+   "enq": "radiacao_perigosa",
+   "inicio": 833.76,
+   "dur": 3.21,
+   "frase": "The land of the zone is withdrawn from use,",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.1342,
+     0.8064,
+     0.1608,
+     0.0352
+    ],
+    [
+     0.1342,
+     0.8265,
+     0.2569,
+     0.0352
+    ]
+   ],
+   "literal": false,
+   "legenda": "\"…transferred to the category of radiologically dangerous land.\" (Law of Ukraine No. 791a-XII, Art. 12)",
+   "em": "The land of the zone is withdrawn from u"
+  },
+  {
+   "id": "P194",
+   "bloco": "B12c",
+   "tipo": "Filme",
+   "arq": "filme_arame_farpado_passaro_1986.mp4",
+   "enq": "0.0",
+   "inicio": 836.97,
+   "dur": 5.0,
+   "frase": "fenced off from its neighbors and \"transferred to the category of radiologically dangerous land.\"",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1986 · CHERNOBYL ZONE",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "fenced off from its neighbors and \"trans",
+   "tin": 0.0,
+   "tout": 4.0,
+   "vel": 0.8
+  },
+  {
+   "id": "P195",
+   "bloco": "B12c",
+   "tipo": "DocGrifo",
+   "arq": "doc_lei791a_p14_residencia-proibida.png",
+   "enq": "residencia",
+   "inicio": 841.97,
+   "dur": 5.36,
+   "frase": "And the first thing it bans, on the next page: \"permanent residence of the population.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "grifo": [
+    [
+     0.2302,
+     0.0655,
+     0.4077,
+     0.0352
+    ]
+   ],
+   "literal": false,
+   "legenda": "\"…permanent residence of the population;\"",
+   "em": "And the first thing it bans, on the next"
+  },
+  {
+   "id": "P196",
+   "bloco": "B12c",
+   "tipo": "EntaoAgora",
+   "arq": "filme:filme_rodagigante_pripyat_1986.mp4@3.0",
+   "arq2": "hoje_parque_diversoes_pripyat.jpg",
+   "enq": "ea",
+   "inicio": 847.33,
+   "dur": 3.57,
+   "frase": "So the word from the Sunday broadcast never came true.",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "1986 · PRIPYAT",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "rot1": "1986",
+   "rot2": "TODAY",
+   "em": "So the word from the Sunday broadcast ne"
+  },
+  {
+   "id": "P197",
+   "bloco": "B12d",
+   "tipo": "Filme",
+   "arq": "hoje_roda_gigante_pripyat_voa.mp4",
+   "enq": "0.0",
+   "inicio": 850.9,
+   "dur": 2.5,
+   "frase": "There was no \"for the first while.\"",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "ficha": "2019 · PRIPYAT",
+   "credito": "VOA News",
+   "em": "There was no \"for the first while.\"",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0,
+   "relogio": [
+    "TODAY",
+    "dia"
+   ]
+  },
+  {
+   "id": "P198",
+   "bloco": "B12d",
+   "tipo": "Número",
+   "arq": "codigo",
+   "enq": "num:40 YEARS",
+   "inicio": 853.4,
+   "dur": 2.86,
+   "frase": "The temporary evacuation is now forty years old.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "valor": "40 YEARS",
+   "rotulo": "OF A \"TEMPORARY\" EVACUATION",
+   "em": "The temporary evacuation is now forty ye",
+   "relogio": [
+    "TODAY",
+    "dia"
+   ]
+  },
+  {
+   "id": "P199",
+   "bloco": "B13a",
+   "tipo": "Filme",
+   "arq": "hoje_blindado_enferrujado_willis.mp4",
+   "enq": "0.0",
+   "inicio": 856.26,
+   "dur": 5.71,
+   "frase": "There's one more reason the zone stays closed, and it has nothing to do with 1986.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "ficha": "TODAY · YANOV",
+   "credito": "Video: Carl Willis (CC BY 3.0)",
+   "em": "There's one more reason the zone stays c",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 0.876,
+   "relogio": [
+    "2022",
+    "dia"
+   ]
+  },
+  {
+   "id": "P200",
+   "bloco": "B13a",
+   "tipo": "Mapa2D",
+   "arq": "codigo",
+   "enq": "mapa:2022",
+   "inicio": 861.97,
+   "dur": 6.79,
+   "frase": "When Russia invaded Ukraine in February 2022, its forces took control of the Chernobyl plant within the first day.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "nome": "2022",
+   "pontos": [
+    "MINSK",
+    "CHERNOBYL NPP",
+    "KYIV"
+   ],
+   "linhas": [],
+   "selo": "SCHEMATIC",
+   "nota": "",
+   "pluma": false,
+   "em": "When Russia invaded Ukraine in February ",
+   "relogio": [
+    "2022",
+    "dia"
+   ]
+  },
+  {
+   "id": "P201",
+   "bloco": "B13a",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:24 FEB 2022 → 31 MAR 2022",
+   "inicio": 868.76,
+   "dur": 2.5,
+   "frase": "They stayed until the thirty-first of March.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "24 FEB 2022 → 31 MAR 2022",
+    "CHERNOBYL NPP UNDER RUSSIAN CONTROL"
+   ],
+   "selo": "RECORD · WNN / IAEA",
+   "em": "They stayed until the thirty-first of Ma",
+   "relogio": [
+    "2022",
+    "dia"
+   ]
+  },
+  {
+   "id": "P202",
+   "bloco": "B13b",
+   "tipo": "Filme",
+   "arq": "hoje_sala_abandonada_pripyat_voa.mp4",
+   "enq": "0.0",
+   "inicio": 871.26,
+   "dur": 2.86,
+   "frase": "Tourism stopped, and it has not come back.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "ficha": "TODAY · PRIPYAT",
+   "credito": "VOA News",
+   "em": "Tourism stopped, and it has not come bac",
+   "tin": 0.0,
+   "tout": 4.5,
+   "vel": 1.0
+  },
+  {
+   "id": "P203",
+   "bloco": "B13b",
+   "tipo": "KenBurns",
+   "arq": "hoje_nsc_arco_2018.jpg",
+   "enq": "zoom-in",
+   "inicio": 874.11,
+   "dur": 5.71,
+   "frase": "Then there is another time stamp, from the International Atomic Energy Agency's team at the site.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "ficha": "2018 · CHERNOBYL NPP",
+   "credito": "Photo: hnapel (CC0)",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Then there is another time stamp, from t"
+  },
+  {
+   "id": "P204",
+   "bloco": "B13c",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:14.02.2025 01:50-14.02.2025 01:50",
+   "inicio": 879.83,
+   "dur": 4.64,
+   "frase": "On the fourteenth of February 2025, at around one fifty in the morning,",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "IAEA TEAM ON SITE",
+   "em": "On the fourteenth of February 2025, at a",
+   "de_t": "14.02.2025 01:50",
+   "ate_t": "14.02.2025 01:50",
+   "relogio": [
+    "14.02.2025 01:50",
+    "hora"
+   ]
+  },
+  {
+   "id": "P205",
+   "bloco": "B13c",
+   "tipo": "KenBurns",
+   "arq": "hoje_nsc_estrutura.jpg",
+   "enq": "tilt-cima",
+   "inicio": 884.47,
+   "dur": 4.29,
+   "frase": "they heard an explosion from the steel arch built over Reactor Four.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "ficha": "2016 · CHERNOBYL NPP",
+   "credito": "Photo: Eamonn Butler (CC BY 2.0)",
+   "de": [
+    0.5,
+    0.56,
+    1.12
+   ],
+   "para": [
+    0.5,
+    0.44,
+    1.12
+   ],
+   "em": "they heard an explosion from the steel a",
+   "relogio": [
+    "14.02.2025 01:50",
+    "hora"
+   ]
+  },
+  {
+   "id": "P206",
+   "bloco": "B13c",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:\"RADIATION LEVELS INSIDE AND O",
+   "inicio": 888.76,
+   "dur": 2.5,
+   "frase": "Their photos showed flames near the top.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "\"RADIATION LEVELS INSIDE AND OUTSIDE REMAIN NORMAL AND STABLE.\"",
+    "— IAEA TEAM AT CHERNOBYL, 14 FEB 2025"
+   ],
+   "selo": "QUOTED",
+   "em": "Their photos showed flames near the top.",
+   "relogio": [
+    "14.02.2025 01:50",
+    "hora"
+   ]
+  },
+  {
+   "id": "P207",
+   "bloco": "B13c",
+   "tipo": "Filme",
+   "arq": "hoje_arco_nsc_obras_voa.mp4",
+   "enq": "0.0",
+   "inicio": 891.26,
+   "dur": 3.57,
+   "frase": "Ukraine says it was a Russian drone. Moscow denies it.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "ficha": "TODAY · CHERNOBYL NPP",
+   "credito": "VOA News",
+   "em": "Ukraine says it was a Russian drone. Mos",
+   "tin": 0.0,
+   "tout": 5.0,
+   "vel": 1.0,
+   "relogio": [
+    "14.02.2025 01:50",
+    "hora"
+   ]
+  },
+  {
+   "id": "P208",
+   "bloco": "B13d",
+   "tipo": "Cartela",
+   "arq": "codigo",
+   "enq": "cartela:IAEA, DEC 2025:",
+   "inicio": 894.83,
+   "dur": 8.21,
+   "frase": "By December, the agency said the arch had lost its primary safety functions, including confinement, although its load-bearing structure was not permanently damaged.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "linhas": [
+    "IAEA, DEC 2025:",
+    "PRIMARY SAFETY FUNCTIONS LOST, INCLUDING CONFINEMENT",
+    "LOAD-BEARING STRUCTURE NOT PERMANENTLY DAMAGED"
+   ],
+   "selo": "RECORD",
+   "em": "By December, the agency said the arch ha",
+   "relogio": [
+    "14.02.2025 01:50",
+    "hora"
+   ]
+  },
+  {
+   "id": "P209",
+   "bloco": "B13d",
+   "tipo": "KenBurns",
+   "arq": "hoje_usina_vista_iss.jpg",
+   "enq": "zoom-in",
+   "inicio": 903.04,
+   "dur": 1.43,
+   "frase": "Radiation levels stayed normal.",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "ficha": "2018 · CHERNOBYL (ISS)",
+   "credito": "NASA (public domain)",
+   "de": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "em": "Radiation levels stayed normal.",
+   "relogio": [
+    "14.02.2025 01:50",
+    "hora"
+   ]
+  },
+  {
+   "id": "P210",
+   "bloco": "B13d",
+   "tipo": "Dupla",
+   "arq": "filme:filme_aerea_bloco4_detalhe_1986.mp4@2.0",
+   "arq2": "hoje_nsc_arco_2018.jpg",
+   "enq": "dupla",
+   "inicio": 904.47,
+   "dur": 6.79,
+   "frase": "Almost thirty-nine years after the first night, it was the same hour, and the same building, on fire again.",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "1986 · CHERNOBYL NPP UNIT 4",
+   "credito": "Film: Ukrkinokhronika, 1986 (V. Shevchenko)",
+   "rot1": "26 APR 1986 · ~01:24",
+   "rot2": "14 FEB 2025 · ~01:50",
+   "em": "Almost thirty-nine years after the first",
+   "relogio": [
+    "14.02.2025 01:50",
+    "hora"
+   ]
+  },
+  {
+   "id": "P211",
+   "bloco": "B14a",
+   "tipo": "Filme",
+   "arq": "hoje_gol_cadeira_pripyat_voa.mp4",
+   "enq": "0.0",
+   "inicio": 911.26,
+   "dur": 5.36,
+   "frase": "So why is Chernobyl still closed, forty years after a radio announcer called it temporary?",
+   "real": true,
+   "epoca": false,
+   "reuso": false,
+   "ficha": "TODAY · PRIPYAT",
+   "credito": "VOA News",
+   "em": "So why is Chernobyl still closed, forty ",
+   "tin": 0.0,
+   "tout": 4.5,
+   "vel": 0.84,
+   "relogio": [
+    "26.04 01:23:40",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P212",
+   "bloco": "B14a",
+   "tipo": "KenBurns",
+   "arq": "foto_pripyat_vista_alta_blocos_yevsyukov1986.jpg",
+   "enq": "pan-esq",
+   "inicio": 916.61,
+   "dur": 5.0,
+   "frase": "Because the graphite burned for days while the papers said the situation was normal.",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "PRIPYAT · BEFORE 1986",
+   "credito": "Photo: Yuri Yevsyukov, \"Pripyat\" (Mystetstvo, Kyiv, 1986)",
+   "de": [
+    0.56,
+    0.5,
+    1.12
+   ],
+   "para": [
+    0.44,
+    0.5,
+    1.12
+   ],
+   "em": "Because the graphite burned for days whi",
+   "relogio": [
+    "26.04 01:23:40",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P213",
+   "bloco": "B14b",
+   "tipo": "DocGrifo",
+   "arq": "doc_wilson208406_p1_ministerstvo-avtotransporta-2000.png",
+   "enq": "sinal_2000_26abr",
+   "inicio": 921.61,
+   "dur": 2.86,
+   "frase": "Because the buses were ordered on Saturday night,",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.1921,
+     0.3799,
+     0.7967,
+     0.0599
+    ]
+   ],
+   "literal": false,
+   "em": "Because the buses were ordered on Saturd"
+  },
+  {
+   "id": "P214",
+   "bloco": "B14b",
+   "tipo": "Filme",
+   "arq": "filme_pripyat_rua_vazia_1986.mp4",
+   "enq": "1.0",
+   "inicio": 924.47,
+   "dur": 2.5,
+   "frase": "and the city was told on Sunday,",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "1986 · PRIPYAT",
+   "credito": "Film: Ukrkinokhronika, 1986 (Soviet newsreel footage)",
+   "em": "and the city was told on Sunday,",
+   "tin": 1.0,
+   "tout": 6.0,
+   "vel": 1.0
+  },
+  {
+   "id": "P215",
+   "bloco": "B14b",
+   "tipo": "Filme",
+   "arq": "filme_abc_forsmark_sapato.mp4",
+   "enq": "0.5",
+   "inicio": 926.97,
+   "dur": 4.64,
+   "frase": "and the world was told on Monday, only after a shoe in Sweden.",
+   "real": true,
+   "epoca": true,
+   "reuso": true,
+   "ficha": "28 APR 1986 · FORSMARK, SWEDEN",
+   "credito": "ABC News, 28 APR 1986",
+   "em": "and the world was told on Monday, only a",
+   "tin": 0.5,
+   "tout": 5.4,
+   "vel": 1.0
+  },
+  {
+   "id": "P216",
+   "bloco": "B14c",
+   "tipo": "KenBurns",
+   "arq": "hoje_nsc_arco_2018.jpg",
+   "enq": "zoom-out",
+   "inicio": 931.61,
+   "dur": 6.43,
+   "frase": "And because what was built to seal the reactor is itself damaged, in the middle of a war,",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "ficha": "2018 · CHERNOBYL NPP",
+   "credito": "Photo: hnapel (CC0)",
+   "de": [
+    0.5,
+    0.5,
+    1.16
+   ],
+   "para": [
+    0.5,
+    0.5,
+    1.04
+   ],
+   "em": "And because what was built to seal the r",
+   "relogio": [
+    "+67:36:20",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P217",
+   "bloco": "B14c",
+   "tipo": "DocGrifo",
+   "arq": "doc_lei791a_p13_art12-radiacao.png",
+   "enq": "radiacao_perigosa",
+   "inicio": 938.04,
+   "dur": 2.86,
+   "frase": "on land that the law still calls dangerous.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "grifo": [
+    [
+     0.1342,
+     0.8064,
+     0.1608,
+     0.0352
+    ],
+    [
+     0.1342,
+     0.8265,
+     0.2569,
+     0.0352
+    ]
+   ],
+   "literal": false,
+   "em": "on land that the law still calls dangero",
+   "relogio": [
+    "+67:36:20",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P218",
+   "bloco": "B14c",
+   "tipo": "Mural",
+   "arq": "codigo",
+   "enq": "mural",
+   "inicio": 940.9,
+   "dur": 9.64,
+   "frase": "Every one of those hours is still on paper, in a report, a log, an order or a tape. Listen to the first calls one more time.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "em": "Every one of those hours is still on pap",
+   "relogio": [
+    "+67:36:20",
+    "oculto"
+   ]
+  },
+  {
+   "id": "P219",
+   "bloco": "A6",
+   "tipo": "Arquivo",
+   "arq": "codigo",
+   "enq": "arquivo:A6",
+   "inicio": 950.54,
+   "dur": 5.0,
+   "frase": "(áudio de época)",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "legenda": [
+    "«А там люди есть?» — Are there people there?",
+    "«Да.» — Yes."
+   ],
+   "selo": "ARCHIVE AUDIO · 26 APRIL 1986",
+   "em": "",
+   "fonte": "despacho (Commons) + rádio de Pripyat (Commons)",
+   "trecho": "eco: 0:08–0:13 do despacho"
+  },
+  {
+   "id": "P220",
+   "bloco": "B14d",
+   "tipo": "Contador",
+   "arq": "codigo",
+   "enq": "contador:26.04 01:23:40-+67:36:20",
+   "inicio": 955.54,
+   "dur": 6.07,
+   "frase": "Sixty-seven hours, thirty-six minutes and twenty seconds, from that answer to five sentences on the evening news.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "rotulo": "FROM THAT ANSWER TO FIVE SENTENCES",
+   "em": "Sixty-seven hours, thirty-six minutes an",
+   "de_t": "26.04 01:23:40",
+   "ate_t": "+67:36:20",
+   "relogio": [
+    "+67:36:20",
+    "parado"
+   ]
+  },
+  {
+   "id": "P221",
+   "bloco": "B14d",
+   "tipo": "Filme",
+   "arq": "filme_pripyat_criancas_desfile_1982.mp4",
+   "enq": "0.0",
+   "inicio": 961.61,
+   "dur": 6.43,
+   "frase": "If you had been in Pripyat that Saturday, at what hour would you have wanted to be told?",
+   "real": true,
+   "epoca": true,
+   "reuso": false,
+   "ficha": "1982 · PRIPYAT",
+   "credito": "Film: Ukrtelefilm, 1982 (via Gosteleradiofond)",
+   "em": "If you had been in Pripyat that Saturday",
+   "tin": 0.0,
+   "tout": 5.8,
+   "vel": 0.902,
+   "relogio": [
+    "+67:36:20",
+    "parado"
+   ]
+  },
+  {
+   "id": "P222",
+   "bloco": "B14d",
+   "tipo": "Filme",
+   "arq": "hoje_blocos_floresta_pripyat_voa.mp4",
+   "enq": "0.5",
+   "inicio": 968.04,
+   "dur": 1.79,
+   "frase": "Tell me in the comments.",
+   "real": true,
+   "epoca": false,
+   "reuso": true,
+   "ficha": "TODAY · PRIPYAT",
+   "credito": "VOA News",
+   "em": "Tell me in the comments.",
+   "tin": 0.5,
+   "tout": 5.0,
+   "vel": 1.0,
+   "relogio": [
+    "+67:36:20",
+    "parado"
+   ]
+  },
+  {
+   "id": "P223",
+   "bloco": "B14d",
+   "tipo": "Card",
+   "arq": "codigo",
+   "enq": "card",
+   "inicio": 969.83,
+   "dur": 1.43,
+   "frase": "This is Clearance Required.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "em": "This is Clearance Required.",
+   "relogio": [
+    "+67:36:20",
+    "parado"
+   ]
+  },
+  {
+   "id": "P224",
+   "bloco": "B14e",
+   "tipo": "Card",
+   "arq": "codigo",
+   "enq": "card",
+   "inicio": 971.26,
+   "dur": 4.64,
+   "frase": "We go where the record goes. If you want the next one, subscribe.",
+   "real": false,
+   "epoca": false,
+   "reuso": false,
+   "em": "We go where the record goes. If you want"
+  }
+ ]
+}

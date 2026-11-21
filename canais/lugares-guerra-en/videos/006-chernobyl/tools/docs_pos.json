@@ -987,5 +987,130 @@
   ],
   "fonte": "upi.pdf",
   "pagina_pdf": 4
+ },
+ "doc_lei791a_p13_art12-radiacao.png": {
+  "pagina_pt": [
+   612.0,
+   792.0
+  ],
+  "frases": {
+   "art12_titulo": [
+    [
+     127.0,
+     495.2,
+     75.6,
+     27.1
+    ]
+   ],
+   "radiacao_perigosa": [
+    [
+     85.1,
+     640.7,
+     92.4,
+     23.9
+    ],
+    [
+     85.1,
+     656.6,
+     151.2,
+     23.9
+    ]
+   ],
+   "zabor": [
+    [
+     85.1,
+     704.2,
+     109.2,
+     23.9
+    ]
+   ]
+  },
+  "zoom": 4.2,
+  "png_px": [
+   2570,
+   3326
+  ],
+  "fonte": "faolex ukr43456.pdf (Lei da Ucrânia 791a-XII, 27/02/1991, texto consolidado)",
+  "pagina_pdf": 13
+ },
+ "doc_lei791a_p14_residencia-proibida.png": {
+  "pagina_pt": [
+   612.0,
+   792.0
+  ],
+  "frases": {
+   "residencia": [
+    [
+     143.9,
+     53.9,
+     243.5,
+     23.9
+    ]
+   ]
+  },
+  "zoom": 4.2,
+  "png_px": [
+   2570,
+   3326
+  ],
+  "fonte": "faolex ukr43456.pdf (Lei da Ucrânia 791a-XII, 27/02/1991, texto consolidado)",
+  "pagina_pdf": 14
+ },
+ "doc_insag7_p21_no-operator-error.png": {
+  "pagina_pt": [
+   459.0,
+   652.0
+  ],
+  "frases": {
+   "operator_error_insag1": [
+    [
+     398.4,
+     161.1,
+     8.3,
+     10.3
+    ],
+    [
+     67.2,
+     173.8,
+     103.8,
+     10.7
+    ]
+   ],
+   "no_operator_error": [
+    [
+     359.3,
+     174.1,
+     12.6,
+     10.4
+    ],
+    [
+     374.2,
+     174.1,
+     32.1,
+     10.3
+    ]
+   ],
+   "transfer_0028": [
+    [
+     91.0,
+     135.5,
+     38.2,
+     10.3
+    ],
+    [
+     132.7,
+     135.2,
+     150.3,
+     10.7
+    ]
+   ]
+  },
+  "zoom": 4.2,
+  "png_px": [
+   1927,
+   2738
+  ],
+  "fonte": "insag7.pdf",
+  "pagina_pdf": 21
  }
 }

@@ -53,3 +53,7 @@ Remotion 1080p30; render completo no Runpod (`tools/render_runpod.sh`), VPS só 
 ## Lição do 005-tarawa (17/11/2026)
 - Projeto novo copiado de outro vídeo **precisa de `public/fonts`** (Anton, Barlow, IBM Plex Mono) antes dos stills: sem elas o Remotion cai na fonte padrão sem erro e o pré-QA vê texto errado. Fonte: 005 (stills refeitos).
 - Thumb com seta: desenhar em SVG (linha + polígono), não curva com marcador (virou borrão). Texto da palavra-pergunta ≤ 160 px quando o objeto-herói está no alto do quadro.
+
+## Lições do 006 Chernobyl (21/11/2026, etapa 1; tema fora da bíblia aprovado como teste) — Hipótese até ter retenção
+- **Meta de época por tempo, validada no `roteiro.py`** (`epoca_pct`, pedido do Rodrigo: "lembre-se de usar vídeos e imagens"): 42% do tempo com foto/vídeo real de 1986 só fechou com cinejornal com dono (Ukrkinokhronika/Shevchenko, Ukrtelefilm 1982), TV ABC/CBS de 28–29/04 e o livro "Припять" (1986), todos com **crédito na tela** (desvio aprovado só para este vídeo). Material PD de 1986 sozinho não passaria de ~10%.
+- **Âncora automática no storyboard** (`roteiro.py` do 006): plano sem `em=` é distribuído pelo peso (filme = duração do clipe), com `vel` até 0,7× quando o clipe é curto; poupa horas em 224 planos. Áudio de época vira marcador `[[A1]]` no SCRIPT e bloco `Arquivo` com duração fixa.

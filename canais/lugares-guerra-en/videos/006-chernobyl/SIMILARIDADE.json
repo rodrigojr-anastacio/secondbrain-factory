@@ -1,0 +1,109 @@
+{
+ "pasta": "canais/lugares-guerra-en/videos/006-chernobyl",
+ "roteiro": "canais/lugares-guerra-en/videos/006-chernobyl/SCRIPT.md",
+ "idioma": "en",
+ "blocos": 23,
+ "nota": 2.6,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [],
+ "referencias": [
+  {
+   "cobertura": 0.043478260869565216,
+   "ordem": 0.0,
+   "ngramas": 0.0030441400304414,
+   "sim_media": 0.11969006012279189,
+   "gemeos": 1,
+   "blocos": 23,
+   "posicoes": [
+    [
+     10,
+     10
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 10,
+     "cos": 0.32,
+     "nosso": "B03 Friday, two in the afternoon To read that clock, we have to start it one day early. On Friday, April twenty-fifth, Reactor Four was being slowed down for maintenance. Before it stopped, its engineers were supposed to run a test: if the power failed, could ",
+     "ref": "plan. If the power grid ever went down, the pumps pushing water past the uranium would stop and the backup generators needed about a minute to start. Now a reactor can survive a few seconds of that but a full minute and the water in the core boils off and once the uranium is uncovered, it melts. It "
+    }
+   ],
+   "ref": "canais/lugares-guerra-en/videos/006-chernobyl/ref/manada-Xr4br9q5l7I.txt",
+   "idioma_ref": "en",
+   "traduzido": false,
+   "palavras_ref": 3464,
+   "nota": 2.6,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0076103500761035,
+   "sim_media": 0.10089767149524251,
+   "gemeos": 0,
+   "blocos": 23,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/lugares-guerra-en/videos/006-chernobyl/ref/manada-2uJhjqBz5Tk.txt",
+   "idioma_ref": "en",
+   "traduzido": false,
+   "palavras_ref": 6135,
+   "nota": 0.6,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0035514967021816335,
+   "sim_media": 0.07883482980714214,
+   "gemeos": 0,
+   "blocos": 23,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/lugares-guerra-en/videos/006-chernobyl/ref/manada-V1UnJIDFzWA.txt",
+   "idioma_ref": "en",
+   "traduzido": false,
+   "palavras_ref": 3064,
+   "nota": 0.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0020294266869609334,
+   "sim_media": 0.0899630000802535,
+   "gemeos": 0,
+   "blocos": 23,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/lugares-guerra-en/videos/006-chernobyl/ref/manada-poaYpTfo5xE.txt",
+   "idioma_ref": "en",
+   "traduzido": false,
+   "palavras_ref": 4268,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0010147133434804667,
+   "sim_media": 0.0782206771709916,
+   "gemeos": 0,
+   "blocos": 23,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/lugares-guerra-en/videos/006-chernobyl/ref/manada-a0RRR852oto.txt",
+   "idioma_ref": "en",
+   "traduzido": false,
+   "palavras_ref": 5198,
+   "nota": 0.1,
+   "veredito": "ok"
+  }
+ ]
+}
