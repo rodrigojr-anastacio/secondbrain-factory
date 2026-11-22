@@ -1,0 +1,806 @@
+[
+ {
+  "id": "I001",
+  "prompt": "Night, a narrow residential street in Setagaya, Tokyo, in 1992, a low wall and the gate of a modest two-storey house lit by one warm street lamp, wet asphalt, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I002",
+  "prompt": "a Japanese film director of about fifty-nine in 1992 resembling Juzo Itami, glasses, short grey hair, casual jacket walking home at night along a quiet Tokyo residential street in 1992, lit by a street lamp, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I003",
+  "prompt": "Five long dark shadows of men stretching across a wet Tokyo street at night toward a house gate, only the shadows visible, no faces, seen from far away, no bodies, no blood, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I004",
+  "prompt": "a Japanese film director of about fifty-nine in 1992 resembling Juzo Itami, glasses, short grey hair, casual jacket directing on a film set in 1992, holding a script, a heavy film camera on a tripod beside him, studio lights, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I005",
+  "prompt": "A Japanese cinema entrance in 1992 at dusk with people queuing, a large blank film poster frame, warm lobby lights, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I006",
+  "prompt": "Close-up of a 35mm film reel and canister on a wooden editing table, warm lamp light, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I007",
+  "prompt": "A small Japanese gang office front in 1992: a dark wooden door, a tall vertical blank wooden signboard beside it, a blank round emblem plate above the door, a security camera, daytime, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I008",
+  "prompt": "Extreme close-up of a white business card held between two fingers of a man in a dark suit, a small blank round emblem in the corner, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I009",
+  "prompt": "Close-up of a round polished metal emblem plate mounted on a dark wooden door, the plate abstract geometric and blank, no letters, no kanji, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I010",
+  "prompt": "A thick Japanese law code book lying open on a desk, a magnifying glass on it, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I011",
+  "prompt": "A brown cardboard case folder on a dark desk under a lamp, a red rubber stamp beside it, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I012",
+  "prompt": "A hand slamming a red rubber stamp onto a brown paper case file, dramatic close-up, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I013",
+  "prompt": "The National Diet Building in Tokyo at dusk, grey sky, seen from the avenue, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I014",
+  "prompt": "A large traditional Japanese meeting hall in the 1960s filled with rows of men in dark suits kneeling on cushions, seen from behind, faces not visible, no tattoos visible, long sleeves, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I015",
+  "prompt": "The same large traditional Japanese meeting hall today completely empty, rows of empty cushions on the tatami, cold light, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I016",
+  "prompt": "a Japanese politician of about fifty-three in 1919 resembling Tokonami Takejiro, moustache, dark Western frock coat standing in a Western-style ministry office in Tokyo in 1919, tall windows, heavy desk, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I017",
+  "prompt": "a Japanese politician of about fifty-three in 1919 resembling Tokonami Takejiro, moustache, dark Western frock coat at the head of a long table, facing Japanese gambling bosses of 1919 in dark kimono and haori jackets seated along both sides, Tokyo 1919, gas lamps, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I018",
+  "prompt": "Japanese men in dark kimono and haori arriving by rickshaw at a Western-style government building in Tokyo, 1919, autumn, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I019",
+  "prompt": "A Tokyo street in 1919 with trams, rickshaws and men in bowler hats and kimono, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I020",
+  "prompt": "An Edo-period gambling den at night, men in kimono kneeling around a white cloth, dice cups, lantern light, no tattoos visible, long sleeves, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I021",
+  "prompt": "Street vendors at a Japanese temple festival in the 1800s, wooden stalls, paper lanterns, crowds, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I022",
+  "prompt": "Close-up of three traditional Japanese playing cards face up on a dark wooden table, simple abstract patterns, no numbers, no letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I023",
+  "prompt": "Close-up of a bamboo dice cup lifted over two dice on a white cloth, lantern light, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I024",
+  "prompt": "A narrow Edo-period alley at night with paper lanterns, men in kimono walking away, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I025",
+  "prompt": "Close-up of old weathered hands shuffling small traditional playing cards on a wooden floor, lantern light, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I026",
+  "prompt": "A crowded hall in Tokyo in 1919, rows of men in kimono and suits listening to a speaker at a podium, a plain white banner without writing, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I027",
+  "prompt": "The moat and stone walls of the Imperial Palace in Tokyo in 1919, pine trees, grey sky, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I028",
+  "prompt": "A thick 1919 membership ledger open on a desk, columns of the writing only as faint completely illegible blurred lines, no readable letters, an ink brush beside it, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I029",
+  "prompt": "Men in dark kimono and headbands marching in a Tokyo street in 1920, seen from far away, no bodies, no blood, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I030",
+  "prompt": "Striking workers gathered outside a Japanese factory gate in 1920, plain cloth banners without writing, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I031",
+  "prompt": "Men in dark kimono with wooden staves confronting a crowd of workers outside a factory in 1920, seen from far away, no bodies, no blood, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I032",
+  "prompt": "Japanese tenant farmers in 1920 standing in a rice field facing men in dark coats on the dyke, seen from far away, no bodies, no blood, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I033",
+  "prompt": "Portrait of a Japanese politician of about fifty-three in 1919 resembling Tokonami Takejiro, moustache, dark Western frock coat, stern, in his ministry office, side light, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I034",
+  "prompt": "The high grey walls and iron gate of Sugamo Prison in Tokyo in the late 1940s, winter, a US Army jeep parked outside, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I035",
+  "prompt": "Inside a bare prison cell in 1948, a thin mattress, light through the barred window, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I036",
+  "prompt": "Winter morning, 24 December 1948, the gate of Sugamo Prison opening, several Japanese men in civilian coats walking out, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I037",
+  "prompt": "An American military policeman seen from behind at a prison gate in 1948, plain helmet, arms down, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I038",
+  "prompt": "A desk in a prison office in 1948, release forms and a fountain pen, completely blank sheets of paper, no writing at all, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I039",
+  "prompt": "A frosty road outside Tokyo in December 1948, bare trees, a black car waiting, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I040",
+  "prompt": "a lean Japanese man of about thirty-seven in 1948 resembling Yoshio Kodama, shaved head, plain dark civilian coat walking out of a prison gate, looking straight ahead, winter 1948, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I041",
+  "prompt": "A wartime warehouse in Shanghai in the early 1940s full of crates of metals and supplies, Japanese civilians checking lists, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I042",
+  "prompt": "Close-up of open wooden crates of grey metal ore in a dim warehouse, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I043",
+  "prompt": "a thin Japanese man of about fifty-two in 1948 resembling Nobusuke Kishi, prominent ears, plain dark civilian coat walking out of a prison gate on a cold morning, 1948, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I044",
+  "prompt": "The Dai-Ichi Life building in Tokyo in 1948 used as the occupation headquarters, American cars outside, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I045",
+  "prompt": "An American intelligence officer in a plain khaki shirt without insignia at a desk in 1948, talking to a Japanese man in a civilian coat, cigarette smoke, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I046",
+  "prompt": "A leftist rally in Tokyo in 1948 with plain red flags without symbols, seen from far away, no bodies, no blood, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I047",
+  "prompt": "A crowded postwar black market under railway tracks in Tokyo in 1946, makeshift stalls, people in worn coats, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I048",
+  "prompt": "Men in loose suits standing guard at the entrance of a postwar black market in 1946, arms crossed, no tattoos visible, long sleeves, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I049",
+  "prompt": "a Japanese man of about thirty-three in 1946 resembling Kazuo Taoka, short hair, round face, open-collar shirt and dark jacket standing on a dock at the port of Kobe in 1946, dockworkers unloading cargo behind him, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I050",
+  "prompt": "Dockworkers carrying sacks off a cargo ship at Kobe port in the late 1940s, cranes, grey sky, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I051",
+  "prompt": "a Japanese prime minister of about sixty-three in 1960 resembling Nobusuke Kishi, prominent ears, dark suit speaking at a podium in the Diet in 1957, microphones, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I052",
+  "prompt": "a Japanese man of about forty-nine in 1960 resembling Yoshio Kodama, shaved head, dark suit, stern face sitting at a low table in a traditional room, smoking, 1960, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I053",
+  "prompt": "Close-up of a black 1960 telephone on a lacquered table, a hand lifting the receiver, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I054",
+  "prompt": "Massive crowds of protesters filling the streets around the Diet building in Tokyo in June 1960, plain banners without writing, seen from far away, no bodies, no blood, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I055",
+  "prompt": "Portrait of a man resembling Dwight D. Eisenhower in 1960, bald, smiling, dark suit, 1960, official setting, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I056",
+  "prompt": "Japanese university students in white shirts linking arms in a street protest in 1960, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I057",
+  "prompt": "A line of Japanese riot police with plain helmets and shields facing protesters in Tokyo, 1960, seen from far away, no bodies, no blood, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I058",
+  "prompt": "a Japanese prime minister of about sixty-three in 1960 resembling Nobusuke Kishi, prominent ears, dark suit and a Japanese man of about forty-nine in 1960 resembling Yoshio Kodama, shaved head, dark suit, stern face talking quietly in a dim traditional Japanese room, low table, sake cups, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I059",
+  "prompt": "A history book lying open on a desk, footnotes, the writing only as faint completely illegible blurred lines, no readable letters, reading glasses beside it, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I060",
+  "prompt": "Haneda Airport in 1960, an empty welcome area with ropes and a red carpet, rain, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I061",
+  "prompt": "A typed mobilization plan from 1960 on a desk, tables of numbers rendered as the writing only as faint completely illegible blurred lines, no readable letters, a pencil and an ashtray, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I062",
+  "prompt": "Rows of trucks full of men in dark work clothes and headbands lined up in a Tokyo street at dawn, 1960, seen from far away, no bodies, no blood, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I063",
+  "prompt": "A Japanese police officer in 1960 at a desk with a mechanical adding machine and stacks of papers, no flags, no insignia, no badges, no emblems, no armbands, no medals, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I064",
+  "prompt": "A dense crowd of men in dark clothes waiting along a Tokyo avenue in 1960, seen from far away, no bodies, no blood, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I065",
+  "prompt": "A 1960 telegram lying on a desk under a lamp, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I066",
+  "prompt": "An empty red carpet at an airport in the rain, rolled-up ropes, no one there, 1960, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I067",
+  "prompt": "A 1960 propeller airliner turning away over the sea, grey clouds, plain fuselage without any logo, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I068",
+  "prompt": "A 1963 gathering of hundreds of Japanese men in dark suits in a banquet hall, seen from the balcony, faces small and indistinct, no tattoos visible, long sleeves, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I069",
+  "prompt": "An empty Japanese concert stage in the late 1960s, a single microphone stand under a spotlight, red curtain, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I070",
+  "prompt": "A packed concert hall audience in Japan around 1970 seen from the stage, warm light, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I071",
+  "prompt": "A large Japanese TV concert hall on New Year's Eve 1973, a bright stage split into red and white sides, TV cameras, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I072",
+  "prompt": "A Japanese family in 1973 watching a TV broadcast of a music show in their living room, kotatsu table, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I073",
+  "prompt": "Heavy 1970s television studio cameras pointed at a stage, technicians with headsets, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I074",
+  "prompt": "Portrait of a Japanese female singer of about thirty-six in 1973 resembling Hibari Misora, short dark hair, elegant kimono on stage under a spotlight, holding a microphone, 1973, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I075",
+  "prompt": "An empty chair with a folded kimono on it in a dressing room backstage, mirror with bulbs, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I076",
+  "prompt": "A Japanese courtroom in 1973, a defendant in a dark suit standing before the judges, seen from behind, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I077",
+  "prompt": "a Japanese female singer of about thirty-six in 1973 resembling Hibari Misora, short dark hair, elegant kimono singing on a large stage in the 1960s, an orchestra behind her, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I078",
+  "prompt": "Japanese men in dark suits and sunglasses standing at the side of a concert stage in the 1960s, arms crossed, no tattoos visible, long sleeves, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I079",
+  "prompt": "A crowd of fans outside a Japanese concert hall in the 1960s, men in dark suits holding them back, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I080",
+  "prompt": "a Japanese man of about forty-nine in 1960 resembling Yoshio Kodama, shaved head, dark suit, stern face counting stacks of banknotes at a low table, 1960s, lamp light, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I081",
+  "prompt": "A large wide-body jet airliner of the early 1970s with three engines in a hangar, plain white fuselage without any logo or lettering, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I082",
+  "prompt": "An American corporate office in the 1970s, a man in a suit signing papers, aircraft models on the shelf, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I083",
+  "prompt": "A US Senate subcommittee hearing room in February 1976, senators behind a long dais, witnesses at a table with microphones, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I084",
+  "prompt": "The US Capitol in Washington on a winter day in 1976, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I085",
+  "prompt": "A cardboard box overflowing with subpoenaed documents on a hearing room table, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I086",
+  "prompt": "a Japanese man of about forty-nine in 1960 resembling Yoshio Kodama, shaved head, dark suit, stern face in a dark room, half of his face in shadow, 1970s, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I087",
+  "prompt": "A 1976 news magazine lying on a desk, its cover only a photograph of an airliner, no title, no letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I088",
+  "prompt": "Stacks of US dollar banknotes in an open briefcase on a desk, 1970s, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I089",
+  "prompt": "Close-up of four small paper receipts with red seal stamps on a desk, 1972, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I090",
+  "prompt": "A hand pressing a traditional red name seal onto a paper receipt, close-up, the seal mark abstract, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I091",
+  "prompt": "A wide-body three-engine airliner of 1972 on a runway at dawn, plain white fuselage without any logo, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I092",
+  "prompt": "a Japanese politician of about fifty-eight in 1976 resembling Kakuei Tanaka, glasses, toothbrush moustache, dark suit walking between plain-clothes officers to a car in July 1976, photographers flashing, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I093",
+  "prompt": "A crowd of Japanese press photographers with flash cameras in 1976, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I094",
+  "prompt": "A large traditional Japanese house with a garden wall in Setagaya, Tokyo, 1976, morning, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I095",
+  "prompt": "A small airfield in Chofu, Tokyo, in March 1976, light propeller planes parked on the apron, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I096",
+  "prompt": "A small single-engine Piper Cherokee light aircraft on a runway, plain white without any registration or lettering, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I097",
+  "prompt": "a young Japanese man of about twenty-nine in 1976, short hair, wearing a WWII-style leather flying helmet and goggles, a plain white headband with a red sun circle, plain flight jacket without insignia sitting in the cockpit of a small plane, determined face, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I098",
+  "prompt": "Close-up of a young Japanese man of about twenty-nine in 1976, short hair, wearing a WWII-style leather flying helmet and goggles, a plain white headband with a red sun circle, plain flight jacket without insignia, tying the headband, in the cockpit, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I099",
+  "prompt": "A small propeller plane flying low over the rooftops of a Tokyo residential district, morning haze, seen from far away, no bodies, no blood, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I100",
+  "prompt": "A small propeller plane circling above a large traditional Japanese house with a garden, seen from far away, no bodies, no blood, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I101",
+  "prompt": "A small propeller plane diving toward the roof of a large traditional house, seen from far away, no bodies, no blood, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I102",
+  "prompt": "Black smoke rising from the second floor of a large traditional Japanese house, fire trucks arriving, seen from far away, no bodies, no blood, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I103",
+  "prompt": "Firemen spraying water on a smoking house in Tokyo in 1976, seen from far away, no bodies, no blood, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I104",
+  "prompt": "Portrait of a young Japanese man of about twenty-nine in 1976, short hair, wearing a WWII-style leather flying helmet and goggles, a plain white headband with a red sun circle, plain flight jacket without insignia, staring ahead, grey morning light, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I105",
+  "prompt": "an elderly Japanese man of about sixty-five in 1976 resembling Yoshio Kodama, shaved head, grey kimono looking out of a window, his face reflected in the glass, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I106",
+  "prompt": "A small ultranationalist street rally in the 1970s, loudspeaker van, plain banners without writing, seen from far away, no bodies, no blood, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I107",
+  "prompt": "A 1976 TV set in a Japanese living room showing only a photograph of a smoking house, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I108",
+  "prompt": "A Tokyo newsstand in 1976 with stacks of newspapers showing only photographs, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I109",
+  "prompt": "A street in Kobe at night in the mid-1980s, police cars with lights, an empty sidewalk, seen from far away, no bodies, no blood, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I110",
+  "prompt": "The chamber of the Japanese Diet in session in 1991, members in dark suits voting, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I111",
+  "prompt": "A Japanese official gazette page of 1991 on a desk, the writing only as faint completely illegible blurred lines, no readable letters, a red seal, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I112",
+  "prompt": "A wall in a Japanese police office in March 1992, a blank calendar page, a clock, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I113",
+  "prompt": "A Japanese prefectural public safety commission meeting in 1992, officials around a table, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I114",
+  "prompt": "A designation order document with a red official seal, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I115",
+  "prompt": "A frightened Japanese restaurant owner behind his counter in 1992 facing a man in a dark suit seen from behind, no tattoos visible, long sleeves, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I116",
+  "prompt": "Two men in work clothes taking down a tall vertical blank wooden signboard from beside an office door, 1992, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I117",
+  "prompt": "A thick Japanese government white paper of 1992 open on a desk at a page with a statistical table rendered as the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I118",
+  "prompt": "A plain wall beside an office door with a paler rectangle and four screw holes where a sign used to hang, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I119",
+  "prompt": "a Japanese film director of about fifty-nine in 1992 resembling Juzo Itami, glasses, short grey hair, casual jacket at a film premiere in May 1992, photographers, a blank backdrop, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I120",
+  "prompt": "The Kobe District Court building in 1992, grey day, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I121",
+  "prompt": "Japanese lawyers in dark suits carrying files up the steps of a courthouse, 1992, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I122",
+  "prompt": "a Japanese film director of about fifty-nine in 1992 resembling Juzo Itami, glasses, short grey hair, casual jacket sitting in a hospital bed by a window, a bandage on his cheek, reading a script, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I123",
+  "prompt": "a Japanese film director of about fifty-nine in 1992 resembling Juzo Itami, glasses, short grey hair, casual jacket looking through the viewfinder of a film camera on a set, 1993, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I124",
+  "prompt": "A Tokyo High Court courtroom in 1997, judges at the bench, two defendants seen from behind, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I125",
+  "prompt": "The lobby of a large Japanese corporation in the 1990s, marble, men in suits passing, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I126",
+  "prompt": "An open briefcase of yen banknotes on a conference table in a corporate office, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I127",
+  "prompt": "A large Japanese shareholders' meeting in 1997, executives seated on a stage behind a long table, rows of shareholders, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I128",
+  "prompt": "A wall of identical clocks all showing ten o'clock in a Tokyo office lobby, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I129",
+  "prompt": "A montage-like wide view of a Tokyo business district in 1997 with many office towers, morning rush, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I130",
+  "prompt": "A man in a dark suit standing up and shouting in the audience of a shareholders' meeting, executives on stage looking nervous, 1990s, no tattoos visible, long sleeves, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I131",
+  "prompt": "A single old Japanese share certificate on a desk, ornate border, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I132",
+  "prompt": "A Japanese company president on stage gripping a microphone, sweating, 1990s, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I133",
+  "prompt": "Japanese prosecutors in dark suits carrying cardboard boxes out of a bank headquarters in 1997, press cameras, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I134",
+  "prompt": "The headquarters tower of a major Japanese bank in Tokyo in 1997, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I135",
+  "prompt": "A bank loan ledger open on a desk with columns of numbers rendered as the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I136",
+  "prompt": "a Japanese banker of about sixty-seven in 1997, grey hair, glasses, dark suit bowing deeply in front of press cameras in 1997, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I137",
+  "prompt": "A Tokyo courtroom in 1999, a banker standing before the judges, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I138",
+  "prompt": "A mountain of bundled Japanese yen banknotes in a vault, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I139",
+  "prompt": "A large modern university hospital in Los Angeles in 2001, palm trees, sunny day, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I140",
+  "prompt": "Surgeons in an operating room under bright lights, seen from the door, no blood, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I141",
+  "prompt": "A medical transport cooler being carried down a hospital corridor, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I142",
+  "prompt": "Portrait of a Japanese man of about fifty-nine in 2001 resembling Tadamasa Goto, short grey hair, glasses, dark suit, stern face, cold expression, 2001, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I143",
+  "prompt": "a Japanese man of about fifty-nine in 2001 resembling Tadamasa Goto, short grey hair, glasses, dark suit, stern face stepping out of a black car in front of a building in Japan, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I144",
+  "prompt": "A passport open on a consular desk with a visa page, a rubber stamp in the air, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I145",
+  "prompt": "Two American agents in plain suits meeting a Japanese man in a hotel room, curtains drawn, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I146",
+  "prompt": "A check being handed over a desk in a hospital office, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I147",
+  "prompt": "A retired American FBI agent being interviewed in his living room, grey hair, plain shirt, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I148",
+  "prompt": "A folded formal letter on washi paper beside a brush and inkstone, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I149",
+  "prompt": "a Japanese man of about fifty-nine in 2001 resembling Tadamasa Goto, short grey hair, glasses, dark suit, stern face with a shaved head in black Buddhist priest robes kneeling in a temple hall, 2009, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I150",
+  "prompt": "An old desk globe turned to South America, lamp light, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I151",
+  "prompt": "A long-haul airliner taking off at night, plain fuselage without any logo, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I152",
+  "prompt": "The international departures hall of Ezeiza airport in Buenos Aires in 2010, travelers with luggage, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I153",
+  "prompt": "An airport X-ray screen showing a suitcase with dense packages inside, a security officer watching, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I154",
+  "prompt": "a middle-aged Japanese man in a plain dark jacket, no tattoos visible, long sleeves being stopped by Argentine airport police at a departure gate, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I155",
+  "prompt": "a middle-aged Japanese man in a plain dark jacket, no tattoos visible, long sleeves sitting on a bunk in an Argentine prison cell, light through a small window, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I156",
+  "prompt": "A journalist with a notebook talking to a prisoner across a table in a prison visiting room, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I157",
+  "prompt": "An airliner flying over the Andes mountains, plain fuselage without any logo, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I158",
+  "prompt": "An Argentine courtroom in 2010, judges behind the bench, wood panelling, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I159",
+  "prompt": "A man escorted by two officers through an empty airport corridor toward a gate, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I160",
+  "prompt": "An air cargo terminal at night in Japan, customs officers inspecting a large roll of industrial conveyor belt, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I161",
+  "prompt": "Japanese customs officers cutting open a hidden compartment in industrial machinery, finding packages of white crystals, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I162",
+  "prompt": "An elderly Japanese man in his seventies being escorted into a police car at night, 2024, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I163",
+  "prompt": "A stack of Japanese contracts on a desk with a pen and a name seal, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I164",
+  "prompt": "A hand hesitating above the signature line of a contract, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I165",
+  "prompt": "a Japanese TV presenter of about fifty-five in 2011 resembling Shinsuke Shimada, dark suit, serious face at a press conference in August 2011, bowing before dozens of cameras and microphones, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I166",
+  "prompt": "A bright Japanese TV variety show studio in 2011, empty presenter's seat, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I167",
+  "prompt": "A wall of press camera flashes at a news conference in Tokyo, 2011, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I168",
+  "prompt": "flat scan of an old printed paper map seen from directly above, muted colors, only coastlines and terrain shading, completely blank: no labels, no text, no letters, no pins, no markers, no arrows, no table, no frame, no ocean names, showing the whole Japanese archipelago, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I169",
+  "prompt": "The Tokyo Metropolitan Government Building in 2011, autumn, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I170",
+  "prompt": "A street in Naha, Okinawa, in 2011, sunny, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I171",
+  "prompt": "Close-up of a rental contract with a highlighted clause and a checkbox, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I172",
+  "prompt": "A Japanese bank counter in 2011, a clerk sliding a form to a customer in a dark suit, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I173",
+  "prompt": "A Japanese real estate agency window with blank listing cards, a man looking in, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I174",
+  "prompt": "An empty gang office in 2015, chairs stacked, a blank wall, dust, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I175",
+  "prompt": "The Fukuoka District Court building in 2021, overcast, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I176",
+  "prompt": "Inside a modern Japanese courtroom in 2021, three judges in black robes at the bench, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I177",
+  "prompt": "a Japanese man of about seventy-four in 2021 resembling Satoru Nomura, short grey hair, plain dark suit standing in the dock of a Japanese courtroom, seen from the side, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I178",
+  "prompt": "Japanese reporters and TV crews waiting outside a courthouse on a summer day, 2021, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I179",
+  "prompt": "A fishing port in Kitakyushu in 1998 at dawn, small boats moored, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I180",
+  "prompt": "A fishermen's cooperative office building by a harbor in the late 1990s, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I181",
+  "prompt": "A Japanese judge in a black robe reading a verdict aloud from papers at the bench, no lettering anywhere, every sign blank, no flags, no insignia, no badges, no emblems, no armbands, no medals, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I182",
+  "prompt": "a Japanese man of about seventy-four in 2021 resembling Satoru Nomura, short grey hair, plain dark suit turning his head toward the judges in a courtroom, cold stare, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I183",
+  "prompt": "The Fukuoka High Court building in March 2024, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I184",
+  "prompt": "The Supreme Court of Japan building in Tokyo, granite, overcast, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I185",
+  "prompt": "A large fortified headquarters building of a gang in Kitakyushu in 2019, tall wall, security cameras, a heavy gate with a blank round emblem, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I186",
+  "prompt": "Close-up of a heavy steel gate of a building, security camera above, blank emblem plate, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I187",
+  "prompt": "Officials in suits signing an agreement at a table in a Japanese city hall in 2019, cameras, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I188",
+  "prompt": "An excavator demolishing a large concrete building behind a fence, seen from far away, no bodies, no blood, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I189",
+  "prompt": "A heavy steel gate lying among concrete rubble on a demolition site, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I190",
+  "prompt": "A Japanese police annual report open on a desk at a bar chart rendered as the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I191",
+  "prompt": "Two elderly Japanese men in dark suits sitting on a park bench, seen from behind, autumn leaves, no tattoos visible, long sleeves, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I192",
+  "prompt": "A traditional meeting hall with dust on the empty cushions, light through shutters, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I193",
+  "prompt": "A hand closing a wooden sliding door, close-up, warm light, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I194",
+  "prompt": "a Japanese film director of about fifty-nine in 1992 resembling Juzo Itami, glasses, short grey hair, casual jacket at his desk at night writing a script, a lamp, 1990s, the writing only as faint completely illegible blurred lines, no readable letters, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I195",
+  "prompt": "A wooden gate of a traditional Japanese house slowly opening onto a garden, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I196",
+  "prompt": "A man in a dark suit pulling down the metal shutter of a small office at dusk, seen from behind, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I197",
+  "prompt": "A plain closed office door with a pale rectangle on the wall beside it, dim light, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "I198",
+  "prompt": "A brown case folder being closed on a dark desk, a red stamp beside it, no lettering anywhere, every sign blank, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "thumb-A",
+  "prompt": "Ink graphic novel illustration: a thick vertical wooden office signboard, completely blank wood with no writing, leaning on the floor against a plain cream plaster wall, two bent screws on the floor, above it on the wall a paler rectangle and four screw holes where it used to hang, the edge of a dark wooden Japanese gate at the left edge, the signboard occupies the LEFT half of the frame, RIGHT half empty plain cream wall, strong black ink outlines, no people, no text, no letters, no kanji, absolutely NO red color, no hex codes, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "thumb-B",
+  "prompt": "Ink graphic novel illustration: a large empty traditional Japanese meeting hall with tatami floor, two long rows of about twenty empty floor cushions, nobody there, a plain empty alcove at the back, cold side light, wide shot from the entrance, the upper left third of the image darker and plain for text, muted slate blue and sepia, no people, no text, no calligraphy, no scrolls with writing, absolutely NO red color, no hex codes, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ },
+ {
+  "id": "thumb-C",
+  "prompt": "Ink graphic novel illustration: a man in a dark suit and white shirt seen from the chest up, standing in front of a bright frosted glass window, strong backlight so the window is the brightest area, his face hidden in shadow, both hands at his chest tearing in half a plain white business card, the two halves visibly separating, the card large in frame with only a small round abstract geometric emblem in the center, no letters, no kanji, no writing on the card, muted slate and sepia palette, no tattoos, no weapons, no other people, no text, no hex codes, full-bleed illustration filling the entire frame edge to edge, no border, no margin, no white frame, no panel outline"
+ }
+]

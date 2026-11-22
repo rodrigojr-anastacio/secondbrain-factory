@@ -11,7 +11,9 @@
  },
  "limiar_gemeo": 0.3,
  "custo_traducao_usd": 0.0,
- "blocos_consenso_manada": [],
+ "blocos_consenso_manada": [
+  6
+ ],
  "referencias": [
   {
    "cobertura": 0.06153846153846154,
@@ -97,6 +99,34 @@
    "traduzido": false,
    "palavras_ref": 3205,
    "nota": 1.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.015384615384615385,
+   "ordem": 0.0,
+   "ngramas": 0.002173913043478261,
+   "sim_media": 0.1300515183470965,
+   "gemeos": 1,
+   "blocos": 65,
+   "posicoes": [
+    [
+     6,
+     62
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 6,
+     "cos": 0.31,
+     "nosso": "Vienen de un mundo viejo de tahúres y vendedores ambulantes. Según la explicación más aceptada, su nombre sale de una de las peores manos de un juego de cartas: ocho, nueve y tres. Ya, ku, za.",
+     "ref": "proviene de un juego. Se cree que el nombre proviene del juego de cartas japoneses, ocho-cabo, que es similar al Blackjack, en donde Jack, ocho-cu-nueve-sat-tres"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/014-yakuza/ref/manada-Ce4gAv9WWgU.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 3409,
+   "nota": 1.0,
    "veredito": "ok"
   },
   {

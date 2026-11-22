@@ -7,11 +7,12 @@ Roteiro: `canais/dossie-es/videos/014-yakuza/blocos.json` (65 blocos, es) · ger
 |---|---|---|---|---|---|---|
 | `manada-rZlsw1Zl1a4.txt` | es | 5 | ok | 6% (4/65) | 75% | 0.5% |
 | `manada-sDWrUKmcJ5w.txt` | es | 1 | ok | 2% (1/65) | 0% | 0.4% |
+| `manada-Ce4gAv9WWgU.txt` | es | 1 | ok | 2% (1/65) | 0% | 0.2% |
 | `manada-5F8oyk_Wqyk.txt` | en → es | 0 | ok | 0% (0/65) | 0% | 0.1% |
 | `manada-KDHhSqydJJo.txt` | pt → es | 0 | ok | 0% (0/65) | 0% | 0.0% |
 | `manada-aN_Wl0RYbbQ.txt` | es | 0 | ok | 0% (0/65) | 0% | 0.0% |
 
-Blocos do nosso roteiro com gêmeo em 2+ referências (consenso da manada): nenhum (0/65 = 0%).
+Blocos do nosso roteiro com gêmeo em 2+ referências (consenso da manada): 6 (1/65 = 2%).
 
 ## Trechos mais parecidos com `manada-rZlsw1Zl1a4.txt`
 
