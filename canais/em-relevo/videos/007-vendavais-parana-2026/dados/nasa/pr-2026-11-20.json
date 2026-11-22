@@ -1,0 +1,135 @@
+{
+ "fonte": "NASA GPM IMERG V07 (GES DISC)",
+ "credito": "Chuva: NASA GPM IMERG (GES DISC), domínio público",
+ "licenca": "domínio público (dados da NASA)",
+ "produtos": [
+  "GPM_3IMERGDL.07"
+ ],
+ "arquivos": [
+  "3B-DAY-L.MS.MRG.3IMERG.20261120-S000000-E235959.V07C.nc4"
+ ],
+ "dias_sem_arquivo": [],
+ "periodo": {
+  "inicio": "2026-11-20",
+  "fim": "2026-11-20",
+  "dias": 1,
+  "texto_tela": "20 nov 2026"
+ },
+ "regiao": "bbox",
+ "bbox_pedido": [
+  -55.0,
+  -27.0,
+  -48.0,
+  -22.0
+ ],
+ "bbox": [
+  -55.0,
+  -27.0,
+  -48.0,
+  -22.0
+ ],
+ "grade": {
+  "resolucao_graus": 0.1,
+  "linhas": 50,
+  "colunas": 70
+ },
+ "mm": {
+  "max": 118.9,
+  "max_lat": -25.85,
+  "max_lon": -48.85,
+  "medio_bbox": 16.6,
+  "max_terra": 118.9,
+  "max_terra_lat": -25.85,
+  "max_terra_lon": -48.85,
+  "medio_brasil": 15.1
+ },
+ "escala": {
+  "vmin": 0,
+  "vmax": 100,
+  "unidade": "mm",
+  "transparente_abaixo_mm": 3.0,
+  "paradas": [
+   {
+    "frac": 0.0,
+    "mm": 0.0,
+    "rgb": [
+     159,
+     232,
+     255
+    ],
+    "alfa": 0
+   },
+   {
+    "frac": 0.03,
+    "mm": 3.0,
+    "rgb": [
+     159,
+     232,
+     255
+    ],
+    "alfa": 90
+   },
+   {
+    "frac": 0.15,
+    "mm": 15.0,
+    "rgb": [
+     63,
+     216,
+     255
+    ],
+    "alfa": 170
+   },
+   {
+    "frac": 0.35,
+    "mm": 35.0,
+    "rgb": [
+     47,
+     123,
+     255
+    ],
+    "alfa": 205
+   },
+   {
+    "frac": 0.6,
+    "mm": 60.0,
+    "rgb": [
+     124,
+     58,
+     237
+    ],
+    "alfa": 225
+   },
+   {
+    "frac": 0.82,
+    "mm": 82.0,
+    "rgb": [
+     232,
+     64,
+     160
+    ],
+    "alfa": 238
+   },
+   {
+    "frac": 1.0,
+    "mm": 100.0,
+    "rgb": [
+     255,
+     210,
+     63
+    ],
+    "alfa": 245
+   }
+  ]
+ },
+ "arquivos_saida": {
+  "camada": "pr-2026-11-20-camada.png",
+  "camada_px": [
+   2048,
+   1463
+  ],
+  "world_file": "pr-2026-11-20-camada.pgw",
+  "tela": "pr-2026-11-20-tela.png"
+ },
+ "georreferencia": "plate carrée: lon = oeste + (x+0,5)·(leste−oeste)/largura; lat = norte − (y+0,5)·(norte−sul)/altura",
+ "mascara": false
+}

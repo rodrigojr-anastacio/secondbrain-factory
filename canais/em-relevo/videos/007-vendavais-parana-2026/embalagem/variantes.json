@@ -1,0 +1,5 @@
+[
+ {"letra": "A", "titulo": "Por que o temporal entra pelo OESTE do PARANÁ?", "padrao_titulo": "Por que [LUGAR] [anomalia]?", "padrao_thumb": "mapa-lugar", "thumb_conceito": "o Paraná inteiro em relevo 3D claro, escada descendo para oeste, seta coral grossa entrando pelo oeste", "thumb_texto": "POR AQUI?"},
+ {"letra": "B", "titulo": "O temporal que atravessou o PARANÁ em 7 horas", "padrao_titulo": "O/A [coisa concreta] que [faz algo]", "padrao_thumb": "documento-evidencia", "thumb_conceito": "imagem real do GOES-19 das 20h de 20/11: faixa de topos de nuvem laranja/vermelha atravessando o contorno do Paraná", "thumb_texto": "13H45 … 20H45"},
+ {"letra": "C", "titulo": "PARANÁ: 3 grandes temporais em 20 dias. Por quê?", "padrao_titulo": "[LUGAR]: N eventos em N dias", "padrao_thumb": "cena-acao", "thumb_conceito": "foto real (AEN/Copel CC0, 07/11/2026) da araucária tombada sobre a avenida molhada e os fios, tela cheia", "thumb_texto": ""}
+]

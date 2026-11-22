@@ -1,0 +1,154 @@
+{
+ "fonte": "NASA GPM IMERG V07 (GES DISC)",
+ "credito": "Chuva: NASA GPM IMERG (GES DISC), domínio público",
+ "licenca": "domínio público (dados da NASA)",
+ "produtos": [
+  "GPM_3IMERGDL.07"
+ ],
+ "arquivos": [
+  "3B-DAY-L.MS.MRG.3IMERG.20261101-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261102-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261103-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261104-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261105-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261106-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261107-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261108-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261109-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261110-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261111-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261112-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261113-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261114-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261115-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261116-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261117-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261118-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261119-S000000-E235959.V07C.nc4",
+  "3B-DAY-L.MS.MRG.3IMERG.20261120-S000000-E235959.V07C.nc4"
+ ],
+ "dias_sem_arquivo": [],
+ "periodo": {
+  "inicio": "2026-11-01",
+  "fim": "2026-11-20",
+  "dias": 20,
+  "texto_tela": "1 nov – 20 nov 2026"
+ },
+ "regiao": "PR",
+ "bbox_pedido": [
+  -55.0,
+  -26.9,
+  -47.8,
+  -22.3
+ ],
+ "bbox": [
+  -55.0,
+  -26.9,
+  -47.8,
+  -22.3
+ ],
+ "grade": {
+  "resolucao_graus": 0.1,
+  "linhas": 46,
+  "colunas": 72
+ },
+ "mm": {
+  "max": 289.9,
+  "max_lat": -25.95,
+  "max_lon": -48.85,
+  "medio_bbox": 174.9,
+  "max_terra": 289.9,
+  "max_terra_lat": -25.95,
+  "max_terra_lon": -48.85,
+  "medio_PR": 174.9
+ },
+ "escala": {
+  "vmin": 0,
+  "vmax": 300,
+  "unidade": "mm",
+  "transparente_abaixo_mm": 9.0,
+  "paradas": [
+   {
+    "frac": 0.0,
+    "mm": 0.0,
+    "rgb": [
+     159,
+     232,
+     255
+    ],
+    "alfa": 0
+   },
+   {
+    "frac": 0.03,
+    "mm": 9.0,
+    "rgb": [
+     159,
+     232,
+     255
+    ],
+    "alfa": 90
+   },
+   {
+    "frac": 0.15,
+    "mm": 45.0,
+    "rgb": [
+     63,
+     216,
+     255
+    ],
+    "alfa": 170
+   },
+   {
+    "frac": 0.35,
+    "mm": 105.0,
+    "rgb": [
+     47,
+     123,
+     255
+    ],
+    "alfa": 205
+   },
+   {
+    "frac": 0.6,
+    "mm": 180.0,
+    "rgb": [
+     124,
+     58,
+     237
+    ],
+    "alfa": 225
+   },
+   {
+    "frac": 0.82,
+    "mm": 246.0,
+    "rgb": [
+     232,
+     64,
+     160
+    ],
+    "alfa": 238
+   },
+   {
+    "frac": 1.0,
+    "mm": 300.0,
+    "rgb": [
+     255,
+     210,
+     63
+    ],
+    "alfa": 245
+   }
+  ]
+ },
+ "arquivos_saida": {
+  "camada": "pr-nov-1a20-camada.png",
+  "camada_px": [
+   2048,
+   1308
+  ],
+  "world_file": "pr-nov-1a20-camada.pgw",
+  "tela": "pr-nov-1a20-tela.png"
+ },
+ "georreferencia": "plate carrée: lon = oeste + (x+0,5)·(leste−oeste)/largura; lat = norte − (y+0,5)·(norte−sul)/altura",
+ "mascara": true
+}
