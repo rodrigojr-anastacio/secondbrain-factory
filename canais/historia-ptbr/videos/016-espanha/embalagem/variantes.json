@@ -1,0 +1,26 @@
+[
+ {
+  "letra": "A",
+  "titulo": "A Espanha juntou meio mundo. Por que não juntava a si mesma?",
+  "padrao_titulo": "afirmação estranha + pergunta",
+  "padrao_thumb": "rosto-emocao",
+  "thumb_conceito": "rei espanhol do séc. XVI de manto vermelho (sem rufo), rosto grande irritado-perplexo, segurando uma pilha torta de 5 coroas diferentes na cabeça; fundo ocre liso",
+  "thumb_texto": "REI DAS ESPANHAS"
+ },
+ {
+  "letra": "B",
+  "titulo": "Por que a Espanha cobrava ALFÂNDEGA de si mesma até 1841?",
+  "padrao_titulo": "pergunta de transformação + número",
+  "padrao_thumb": "conflito-xvy",
+  "thumb_conceito": "guarda de alfândega castelhano × mercador navarro (capa com correntes de Navarra), peito para cima, testa contra testa, cancela listrada no meio, fundo em 2 cores",
+  "thumb_texto": "CASTELA × NAVARRA"
+ },
+ {
+  "letra": "C",
+  "titulo": "Espanha: o império que ainda não era um país",
+  "padrao_titulo": "[Lugar]: o X que contradiz o esperado",
+  "padrao_thumb": "objeto-simbolo",
+  "thumb_conceito": "coroa partida ao meio e costurada com linha grossa (metade castelo, metade listras), um ponto arrebentando; fundo creme claro, objeto à direita",
+  "thumb_texto": "1469"
+ }
+]
