@@ -1,3 +1,26 @@
-[{"letra":"A","titulo":"Cuba adoçava o MUNDO. Por que dependia de um país só?","padrao_titulo":"afirmação estranha + pergunta","padrao_thumb":"rosto-emocao","thumb_conceito":"guajiro bonequinho em pânico com sorriso amarelo sobre pilha de sacos de açúcar no cais de Havana, navio indo embora","thumb_texto":"SEM COMPRADOR"},
-{"letra":"B","titulo":"Por que Cuba não consegue viver sem um PADRINHO?","padrao_titulo":"Por que X não consegue Y?","padrao_thumb":"numero-estatistica","thumb_conceito":"5× gigante em ouro à esquerda + um saco de açúcar com etiqueta de preço dourada sobre vermelho liso","thumb_texto":"5× O PREÇO"},
-{"letra":"C","titulo":"Cuba: como o AÇÚCAR decidiu quem mandava na ilha","padrao_titulo":"Como [agente] [verbo] [lugar]","padrao_thumb":"mapa-lugar","thumb_conceito":"ilha de Cuba modelada em açúcar sobre mesa azul, bandeirinha de palito, colher gigante de mão de terno tirando um pedaço","thumb_texto":""}]
+[
+ {
+  "letra": "A",
+  "titulo": "Cuba adoçava o MUNDO. Por que dependia de um país só?",
+  "padrao_titulo": "afirmação estranha + pergunta",
+  "padrao_thumb": "rosto-emocao",
+  "thumb_conceito": "guajiro bonequinho em pânico com sorriso amarelo sobre pilha de sacos de açúcar no cais de Havana, navio indo embora",
+  "thumb_texto": "SEM COMPRADOR"
+ },
+ {
+  "letra": "B",
+  "titulo": "Por que Cuba só trocava de COMPRADOR? E o que cobravam?",
+  "padrao_titulo": "pergunta de transformação + 2º gancho",
+  "padrao_thumb": "numero-estatistica",
+  "thumb_conceito": "5× gigante em ouro à esquerda + um saco de açúcar com etiqueta de preço dourada sobre vermelho liso",
+  "thumb_texto": "5× O PREÇO"
+ },
+ {
+  "letra": "C",
+  "titulo": "Cuba: como o AÇÚCAR decidiu quem mandava na ilha",
+  "padrao_titulo": "Como [agente] [verbo] [lugar]",
+  "padrao_thumb": "mapa-lugar",
+  "thumb_conceito": "ilha de Cuba em cartoon (canaviais, chaminés de usina) horizontal no centro, amarrada pela cintura por corda grossa esticada que sobe para fora do quadro",
+  "thumb_texto": ""
+ }
+]
