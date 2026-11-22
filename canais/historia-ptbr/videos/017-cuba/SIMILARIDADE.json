@@ -1,0 +1,417 @@
+{
+ "pasta": "canais/historia-ptbr/videos/017-cuba",
+ "roteiro": "canais/historia-ptbr/videos/017-cuba/blocos.json",
+ "idioma": "pt",
+ "blocos": 63,
+ "nota": 5.6,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.038,
+ "blocos_consenso_manada": [
+  30,
+  42,
+  44
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.06349206349206349,
+   "ordem": 0.75,
+   "ngramas": 0.011722272317403066,
+   "sim_media": 0.16650403284434884,
+   "gemeos": 4,
+   "blocos": 63,
+   "posicoes": [
+    [
+     19,
+     62
+    ],
+    [
+     20,
+     72
+    ],
+    [
+     25,
+     255
+    ],
+    [
+     30,
+     221
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 25,
+     "cos": 0.56,
+     "nosso": "Em maio, ele escreveu numa revista: o povo que compra, manda. O povo que vende, serve. E o povo que quer morrer vende a um povo só.",
+     "ref": "1891, José Martí escreveu um alerta que se aplica a toda esta história: \"O povo que quer morrer vende-se a um só povo, e o que quer salvar-se vende-se a mais de um.\" Cuba"
+    },
+    {
+     "bloco": 30,
+     "cos": 0.34,
+     "nosso": "Havana, dezembro de mil novecentos e dois. Cuba, independente havia sete meses, assina com os Estados Unidos um tratado de reciprocidade. O açúcar cubano ganha vinte por cento de desconto na tarifa americana.",
+     "ref": "nasceu a República, em 1902, o açúcar seguia no centro de tudo. Um tratado de reciprocidade assinado em 1903 deu ao açúcar cubano vantagens tarifárias no mercado norte-americano,"
+    },
+    {
+     "bloco": 19,
+     "cos": 0.33,
+     "nosso": "A vizinha era a colônia francesa de São Domingos, a maior produtora de açúcar do mundo, onde os escravizados tinham se rebelado no ano anterior. O açúcar do mundo ficou, de repente, sem fornecedor.",
+     "ref": "liberou a entrada de africanos escravizados na ilha. Dois anos depois, o mundo açucareiro se abalou. Em agosto de 1791, em Saint-Domingue, a colônia mais rica da América e a maior produtora"
+    },
+    {
+     "bloco": 20,
+     "cos": 0.33,
+     "nosso": "Arángo pede duas coisas: comércio mais livre e mais africanos escravizados. E consegue. Em poucas décadas, Cuba vira a maior produtora de açúcar do planeta, erguida sobre centenas de milhares de pessoas trazidas à força.",
+     "ref": "uma prosperidade erguida sobre a escravidão. As duas coisas estão em seus escritos, e isso mudou tudo. Em poucas décadas, Cuba passou de produtora secundária a primeira potência açucareira do mundo,"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-teNPAV-7uJg.txt",
+   "idioma_ref": "es",
+   "traduzido": true,
+   "palavras_ref": 4039,
+   "nota": 5.6,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.031746031746031744,
+   "ordem": 0.0,
+   "ngramas": 0.008115419296663661,
+   "sim_media": 0.15925395187430713,
+   "gemeos": 2,
+   "blocos": 63,
+   "posicoes": [
+    [
+     47,
+     95
+    ],
+    [
+     48,
+     98
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 47,
+     "cos": 0.38,
+     "nosso": "Só que preço fixo pede promessa fixa. Cuba, que tinha prometido sair do açúcar, faz o contrário: aposta numa colheita de dez milhões de toneladas para mil novecentos e setenta. O país inteiro vai para o canavial.",
+     "ref": "dali, quase tudo era do Estado. E o Estado apostou tudo numa colheita. Em 1970, Fidel Castro prometeu 10 milhões de toneladas de açúcar, a famosa safra dos 10 milhões. Centenas"
+    },
+    {
+     "bloco": 48,
+     "cos": 0.32,
+     "nosso": "A safra dá cerca de oito milhões e meio, a maior da história de Cuba, e mesmo assim é um fracasso. Em vinte e seis de julho, Fidel assume em público a responsabilidade. Cuba nunca tinha produzido tanto açúcar. E nunca tinha dependido tanto de quem o comprava.",
+     "ref": "economia caíram. Saíram 8,5 milhões. Em julho de 1970, o próprio Fidel assumiu o fracasso. Repare na ironia. A revolução que ia libertar Cuba do açúcar acabou"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-ALpd58SX-Mc.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 3336,
+   "nota": 2.4,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.031746031746031744,
+   "ordem": 0.0,
+   "ngramas": 0.0018034265103697023,
+   "sim_media": 0.124538700287299,
+   "gemeos": 2,
+   "blocos": 63,
+   "posicoes": [
+    [
+     42,
+     43
+    ],
+    [
+     59,
+     95
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 59,
+     "cos": 0.39,
+     "nosso": "Mas um comprador que paga com petróleo depende do próprio petróleo. A Venezuela entra em crise, e os barris diminuem. Em janeiro de dois mil e vinte e seis, depois que forças americanas capturam Nicolás Madúro, o petróleo venezuelano para de chegar.",
+     "ref": "militares dos Estados Unidos capturaram o líder da Venezuela, Nicolás Maduro. A marinha americana também bloqueou os portos do país pra impedir a saída do petróleo. E a Venezuela, como já falamos, era um"
+    },
+    {
+     "bloco": 42,
+     "cos": 0.31,
+     "nosso": "Lembra da nossa pergunta? Aqui ela fica mais difícil. Porque, nesses meses, o governo de Fidel Castro desapropria terras, e as refinarias americanas, que se recusam a processar petróleo soviético, são tomadas.",
+     "ref": "Unidos e Cuba. Os soviéticos concordaram em comprar açúcar de Cuba e dar petróleo em troca. As refinarias americanas em Cuba se recusaram a refinar o petróleo, então os cubanos as nacionalizaram. Os Estados"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-Oh-Or9BOma0.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1606,
+   "nota": 1.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.031746031746031744,
+   "ordem": 0.0,
+   "ngramas": 0.0018034265103697023,
+   "sim_media": 0.15084749669639846,
+   "gemeos": 2,
+   "blocos": 63,
+   "posicoes": [
+    [
+     11,
+     82
+    ],
+    [
+     42,
+     100
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 11,
+     "cos": 0.31,
+     "nosso": "O problema é que a Espanha não queria só proibir. Queria comprar. E, um século depois, ela acha o produto certo.",
+     "ref": "queria mudança. Queria se libertar do colonialismo corporativo e da ditadura militar, e, no lugar disso, queria um governo que defendesse os interesses de todos os cubanos. Não queriam, porém, uma"
+    },
+    {
+     "bloco": 42,
+     "cos": 0.31,
+     "nosso": "Lembra da nossa pergunta? Aqui ela fica mais difícil. Porque, nesses meses, o governo de Fidel Castro desapropria terras, e as refinarias americanas, que se recusam a processar petróleo soviético, são tomadas.",
+     "ref": "milhões de barris de petróleo. Mas esse petróleo precisava ser processado em uma das 3 refinarias de propriedade americana na ilha. Esso, Shell e Texaco, sob pressão de Washington, recusaram-se a refinar"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-oXYEWeBMK-E.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3566,
+   "nota": 1.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.015873015873015872,
+   "ordem": 0.0,
+   "ngramas": 0.0036068530207394047,
+   "sim_media": 0.12193870935580689,
+   "gemeos": 1,
+   "blocos": 63,
+   "posicoes": [
+    [
+     44,
+     78
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 44,
+     "cos": 0.33,
+     "nosso": "Em sessenta e um, exilados treinados pelos Estados Unidos desembarcam na Baía dos Porcos e são derrotados. Em sessenta e dois, mísseis soviéticos na ilha quase começam uma guerra nuclear, e o embargo americano fica total. O comprador novo tinha chegado. Só que",
+     "ref": "1961, paramilitares treinados pela CIA, a maior parte, exilados cubanos, desembarcou na Baía dos Porcos, na parte sudoeste da ilha. O grupo acabou derrotado pelas forças leais"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-BscKGvlhTHI.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 2172,
+   "nota": 1.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.015873015873015872,
+   "ordem": 0.0,
+   "ngramas": 0.002705139765554554,
+   "sim_media": 0.10869189106158836,
+   "gemeos": 1,
+   "blocos": 63,
+   "posicoes": [
+    [
+     30,
+     32
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 30,
+     "cos": 0.32,
+     "nosso": "Havana, dezembro de mil novecentos e dois. Cuba, independente havia sete meses, assina com os Estados Unidos um tratado de reciprocidade. O açúcar cubano ganha vinte por cento de desconto na tarifa americana.",
+     "ref": "Estados Unidos assinaram o Tratado de Paris em 1898, que transformou Cuba em um protetorado dos Estados Unidos. Cuba obteve a independência formal dos EUA em 20 de maio"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-H0TmuIX-0xM.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 1050,
+   "nota": 1.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.015873015873015872,
+   "ordem": 0.0,
+   "ngramas": 0.002705139765554554,
+   "sim_media": 0.11416933662902586,
+   "gemeos": 1,
+   "blocos": 63,
+   "posicoes": [
+    [
+     31,
+     38
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 31,
+     "cos": 0.37,
+     "nosso": "Parece presente. Só que vem junto com outro papel, a Emenda Platt, posta na Constituição cubana: ela dá a Washington o direito de intervir na ilha e uma base em Guantánamo.",
+     "ref": "veio com condições significativas. Os Estados Unidos impuseram a Emenda Platt, que lhes dava o direito de intervir nos assuntos cubanos e de manter uma base naval em Guantánamo. Isso marcou"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-lYneY1mJa_A.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 1173,
+   "nota": 1.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.015873015873015872,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.1136116908612512,
+   "gemeos": 1,
+   "blocos": 63,
+   "posicoes": [
+    [
+     44,
+     41
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 44,
+     "cos": 0.3,
+     "nosso": "Em sessenta e um, exilados treinados pelos Estados Unidos desembarcam na Baía dos Porcos e são derrotados. Em sessenta e dois, mísseis soviéticos na ilha quase começam uma guerra nuclear, e o embargo americano fica total. O comprador novo tinha chegado. Só que",
+     "ref": "temos mísseis a ilha ajudaria a fazer os estados unidos pensarem duas vezes antes de atacar de novo e foi isso que aconteceu cuba se dispôs a abrigar mísseis nucleares soviéticos"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-t_1mZiVi24s.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1229,
+   "nota": 0.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0063119927862939585,
+   "sim_media": 0.12872939225141208,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-qY5v_NXTzZ8.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 2154,
+   "nota": 0.5,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.004508566275924256,
+   "sim_media": 0.13420594964489097,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-R4YO55c-_us.txt",
+   "idioma_ref": "es",
+   "traduzido": true,
+   "palavras_ref": 4009,
+   "nota": 0.4,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0036068530207394047,
+   "sim_media": 0.13645147049320697,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-yAvQFvoolyg.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 4905,
+   "nota": 0.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.0,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-Dd_YvAGr0WU.txt",
+   "idioma_ref": "es",
+   "traduzido": true,
+   "palavras_ref": 0,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.112596490148008,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-HAz8vcHhhG8.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2114,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.0,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-Oo-NkDx-8eA.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 0,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.11068688914873068,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/017-cuba/ref/manada-chYBlArm9Ao.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 966,
+   "nota": 0.0,
+   "veredito": "ok"
+  }
+ ]
+}
