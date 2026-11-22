@@ -4,7 +4,7 @@ Título padrão: "A história INTEIRA de X em N minutos" (N = duração real). I
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (20/11/2026 14:42)
+## Backlog vivo (21/11/2026 20:07)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
@@ -12,26 +12,26 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | noite | pode ir ao ar | tema | status |
 |---|---|---|---|
-| sáb 21/11 | dom ou seg | — (vaga) | |
-| dom 22/11 | seg ou qua | Argentina | agendado |
-| seg 23/11 | qua ou sex | Espanha | agendado |
-| ter 24/11 | sex ou sáb | Cuba | agendado |
-| sáb 28/11 | dom ou seg | Vikings | agendado |
+| sáb 21/11 | dom ou seg | Argentina | em_producao |
+| dom 22/11 | seg ou qua | Espanha | agendado |
+| seg 23/11 | qua ou sex | Cuba | agendado |
+| ter 24/11 | sex ou sáb | Vikings | agendado |
+| sáb 28/11 | dom ou seg | — (vaga) | |
 | dom 29/11 | seg ou qua | — (vaga) | |
 | seg 30/11 | qua ou sex | — (vaga) | |
 | ter 01/12 | sex ou sáb | — (vaga) | |
+| sáb 05/12 | dom ou seg | — (vaga) | |
 
 ### Temas (ordem da fila)
 
 | id | tema | nota (D·E·U) | status | noite (ao ar) | janela do tema | evidência principal |
 |---|---|---|---|---|---|---|
-| 13 | Inglaterra / Reino Unido | 6.3 (7·9·4) | em_producao | sex 20/11 (-) | perene | [Genius History: 'The ENTIRE History of British Empire Explained' 235.507 views (02/08/2026)](https://youtube.com/watch?v=cqGJ5ZRLAvs) |
-| 14 | Argentina | 6.1 (7·8·4) | agendado | dom 22/11 (seg ou qua) | perene | [Vogalizando a História (pt): 'Os Nazistas na Argentina' 586.035 views (21/08/2026)](https://youtube.com/watch?v=CRyur-3Z9e4) |
-| 15 | Espanha | 6.0 (6·9·4) | agendado | seg 23/11 (qua ou sex) | perene | [Academia Play (es): 'Toda la Historia de España en 30 minutos' 662.453 views (17/06/2026), molde da história inteira](https://youtube.com/watch?v=1PAEeroCy9w) |
-| 16 | Cuba | 5.8 (6·8·4) | agendado | ter 24/11 (sex ou sáb) | perene | [BBC News Brasil: 'Cuba e Estados Unidos: as origens de uma relação complicada' 298.587 views (21/05/2026)](https://youtube.com/watch?v=Oh-Or9BOma0) |
-| 17 | Vikings | 5.0 (7·6·3) | agendado | sáb 28/11 (dom ou seg) | perene | [Reconstrução Histórica (pt, 70,6 mil insc.): 'Os Vikings | Como Desapareceu o Povo Mais Temido do Mundo' 420.711 views (22/04/2026; 6× os inscritos)](https://youtube.com/watch?v=4BmrcZ-TEtQ) |
+| 14 | Argentina | 6.1 (7·8·4) | em_producao | sáb 21/11 (dom ou seg) | perene | [Vogalizando a História (pt): 'Os Nazistas na Argentina' 586.035 views (21/08/2026)](https://youtube.com/watch?v=CRyur-3Z9e4) |
+| 15 | Espanha | 6.0 (6·9·4) | agendado | dom 22/11 (seg ou qua) | perene | [Academia Play (es): 'Toda la Historia de España en 30 minutos' 662.453 views (17/06/2026), molde da história inteira](https://youtube.com/watch?v=1PAEeroCy9w) |
+| 16 | Cuba | 5.8 (6·8·4) | agendado | seg 23/11 (qua ou sex) | perene | [BBC News Brasil: 'Cuba e Estados Unidos: as origens de uma relação complicada' 298.587 views (21/05/2026)](https://youtube.com/watch?v=Oh-Or9BOma0) |
+| 17 | Vikings | 5.0 (7·6·3) | agendado | ter 24/11 (sex ou sáb) | perene | [Reconstrução Histórica (pt, 70,6 mil insc.): 'Os Vikings | Como Desapareceu o Povo Mais Temido do Mundo' 420.711 views (22/04/2026; 6× os inscritos)](https://youtube.com/watch?v=4BmrcZ-TEtQ) |
 
-Prontos/publicados recentes: Alemanha (pronto, sáb 14/11); Japão (pronto, sáb 14/11); França (publicado, dom 15/11); Estados Unidos (pronto, seg 16/11); Portugal (pronto, ter 17/11); União Soviética (URSS) (pronto, qui 19/11)
+Prontos/publicados recentes: Alemanha (pronto, sáb 14/11); Japão (pronto, sáb 14/11); França (publicado, dom 15/11); Estados Unidos (pronto, seg 16/11); Portugal (pronto, ter 17/11); União Soviética (URSS) (pronto, qui 19/11); Inglaterra / Reino Unido (pronto, sex 20/11)
 
 <!-- backlog-vivo:fim -->
 
