@@ -1,0 +1,62 @@
+{
+ "UC2_vpnza621Sa0cf_xhqJ8Q": {
+  "canal": "Raw Space",
+  "mediana": 957.0,
+  "n": 30
+ },
+ "UCvBVK2ymNzPLRJrgip2GeQQ": {
+  "canal": "Max Velocity - Severe Weather Center",
+  "mediana": 657559.0,
+  "n": 30
+ },
+ "UC7YBz6lcDf8fLUcNVfrnK8g": {
+  "canal": "Pedalando com a Ciência",
+  "mediana": 4569.5,
+  "n": 30
+ },
+ "UC-S82QSyHb-e3FddEO6Tq6w": {
+  "canal": "SBT Jornalismo",
+  "mediana": 5793,
+  "n": 15
+ },
+ "UCJGsQuETscLWJR64zJ25VVA": {
+  "canal": "PLANETA EM FURIA",
+  "mediana": 15928,
+  "n": 19
+ },
+ "UCvdwhh_fDyWccR42-rReZLw": {
+  "canal": "CNN Brasil",
+  "mediana": 28185.5,
+  "n": 30
+ },
+ "UCv-QXC04JCxklAUQQe9vCuQ": {
+  "canal": "Prof. JeanGrafia | GabaritaGeo | ",
+  "mediana": 26515.0,
+  "n": 30
+ },
+ "UC81AhW-MJpzgTOilhaOlFzg": {
+  "canal": "Professor Vulcano",
+  "mediana": 32060.0,
+  "n": 30
+ },
+ "UCu6m2zLhMIyD66WYyFYTCiQ": {
+  "canal": "Will Bratton",
+  "mediana": 926,
+  "n": 25
+ },
+ "UCCP12NYSDa9KL26PW1zokcA": {
+  "canal": "Storm Chaser Coaching",
+  "mediana": 329.5,
+  "n": 28
+ },
+ "UCSTfMn3kpQ8dhirVVsecJfQ": {
+  "canal": "MetSul Meteorologia",
+  "mediana": 82213.5,
+  "n": 30
+ },
+ "UC376n347Ob5Lwzq2WGzF1AA": {
+  "canal": "SBT News",
+  "mediana": 13947.5,
+  "n": 26
+ }
+}
