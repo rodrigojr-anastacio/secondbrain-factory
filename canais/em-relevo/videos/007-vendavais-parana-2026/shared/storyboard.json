@@ -1,0 +1,714 @@
+{
+ "_doc": "Etapa 1: plano por bloco (tempos estimados). A etapa 2 converte em cues.json amarrado ao Whisper.",
+ "duracao_est_s": 593.1,
+ "blocos": [
+  {
+   "id": "b01",
+   "cap": "CAPANEMA (PR) · 20 NOV 2026 · 13H45",
+   "t_est": 0.4,
+   "dur_est": 10.0,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Abre baixo sobre o rio Iguaçu na fronteira (Argentina à esquerda, Brasil à direita), fim de tarde nublado; a câmera desliza até Capanema. Um pino coral acende na palavra 'rajada' e pulsa.",
+   "camadas": [
+    "cartão CAPANEMA (PR) · 20 NOV 2026 · 13H45",
+    "na palavra 'oitenta': ficha 81,7 KM/H sobe do pino"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b02",
+   "cap": "CORNÉLIO PROCÓPIO (PR) · 20H15",
+   "t_est": 10.4,
+   "dur_est": 13.6,
+   "estilo": "A",
+   "transicao": "voo alto em diagonal (whoosh longo)",
+   "plano": "A câmera sobe e voa ~420 km para nordeste por cima do estado até Cornélio Procópio; um segundo pino acende lá. No meio do voo, dois pinos menores piscam: FOZ e MANOEL RIBAS (ícone de redemoinho simples, sem foto).",
+   "camadas": [
+    "régua 423 KM · 6H30 entre os dois pinos",
+    "ficha 98,3 KM/H em Cornélio Procópio",
+    "pinos TORNADO F1 · FOZ DO IGUAÇU / TORNADO F1 · MANOEL RIBAS"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b03",
+   "cap": "RIO BONITO DO IGUAÇU · 7 NOV 2025",
+   "t_est": 24.0,
+   "dur_est": 7.9,
+   "estilo": "A",
+   "transicao": "dissolve para outra luz (dia claro)",
+   "plano": "Mesmo enquadramento do estado, mas outro dia: uma linha fina de 2025 aparece no centro-sul (Quedas do Iguaçu → Cantagalo), em amarelo pálido, e a câmera faz um leve zoom sobre Rio Bonito do Iguaçu.",
+   "camadas": [
+    "cartão RIO BONITO DO IGUAÇU · 7 NOV 2025",
+    "linha tracejada 2025"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b04",
+   "cap": "O MAPA",
+   "t_est": 31.9,
+   "dur_est": 6.4,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Câmera recua até o Paraná inteiro em relevo editorial; uma seta grande entra pela borda oeste (a mesma da Thumb A).",
+   "camadas": [
+    "pergunta em tipografia: POR QUE O TEMPORAL ENTRA PELO OESTE DO PARANÁ?",
+    "subtítulo: DE NOVO PELO MESMO LADO?"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b05",
+   "cap": "1 · O RASTRO DE UMA TARDE",
+   "t_est": 38.3,
+   "dur_est": 7.2,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "ASSINATURA: o mapa editorial do PR com 16 estações do Simepar como pontos apagados; um relógio no canto (13:00 → 21:00) começa a correr.",
+   "camadas": [
+    "aba 1 · O RASTRO DE UMA TARDE",
+    "relógio 13:00",
+    "pontos apagados = estações"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b06",
+   "cap": "1 · O RASTRO DE UMA TARDE",
+   "t_est": 45.4,
+   "dur_est": 18.2,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Os pontos acendem um a um na hora do pico, em sincronia com a fala (Capanema → Santa Helena → Cascavel → Campo Mourão → Maringá → Londrina → Cornélio Procópio) e os demais da fila no intervalo; cada um deixa um número pequeno em km/h.",
+   "camadas": [
+    "relógio corre até 20:15",
+    "rótulos com hora e km/h (dados/rajadas-2026-11-20.json)",
+    "na palavra 'linha': a reta coral liga os pontos de SW para NE"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b07",
+   "cap": "1 · O RASTRO DE UMA TARDE",
+   "t_est": 63.6,
+   "dur_est": 12.0,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Dois pontos acendem fora da ordem e fora da reta, em cinza: PARANAGUÁ (litoral) e CAMBARÁ (Norte Pioneiro); a câmera passa por eles e volta para a reta.",
+   "camadas": [
+    "rótulos PARANAGUÁ 13H15 · CAMBARÁ 14H (cinza)",
+    "etiqueta OUTRAS CÉLULAS",
+    "a reta coral volta a brilhar: LINHA PRINCIPAL"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b08",
+   "cap": "1 · O RASTRO DE UMA TARDE",
+   "t_est": 75.6,
+   "dur_est": 16.8,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Gráfico limpo sobre o mapa escurecido: eixo horizontal = distância ao longo da reta (0 → 430 km), eixo vertical = hora (13h → 21h); os 14 pontos caem quase sobre uma linha reta (dado nosso, N1).",
+   "camadas": [
+    "gráfico HORA × DISTÂNCIA (14 estações)",
+    "número ~430 KM · ~70 KM/H",
+    "ícone de carro na estrada ao lado do 70 KM/H"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b09",
+   "cap": "1 · O RASTRO DE UMA TARDE",
+   "t_est": 92.4,
+   "dur_est": 8.5,
+   "estilo": "A",
+   "transicao": "transição do gráfico de volta ao 3D (sem corte)",
+   "plano": "A faixa de tempestade aparece como uma banda translúcida que desliza sobre o relevo ao longo da reta, de Capanema a Cornélio Procópio, em ~5 s (acelerado).",
+   "camadas": [
+    "etiqueta 6H30 · 13H45 → 20H15"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b10",
+   "cap": "1 · O RASTRO DE UMA TARDE",
+   "t_est": 100.9,
+   "dur_est": 17.8,
+   "estilo": "A",
+   "transicao": "zoom para Foz (whoosh)",
+   "plano": "A banda passa por Foz do Iguaçu; zoom até a cidade (satélite, cor natural); pino na Vila Yolanda. Depois a câmera corre para Manoel Ribas (zona rural, campos).",
+   "camadas": [
+    "pino VILA YOLANDA · FOZ DO IGUAÇU · ~15H",
+    "ficha TORNADO F1 · 117–180 KM/H (ESTIMADO)",
+    "pino MANOEL RIBAS · ~18H · F1"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b11",
+   "cap": "1 · O RASTRO DE UMA TARDE",
+   "t_est": 118.8,
+   "dur_est": 15.8,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Contador sobe de 0 a 353.849 sobre o mapa do estado que escurece (lâmpadas se apagando por região); depois, 9 municípios se destacam em coral.",
+   "camadas": [
+    "contador 353.849 IMÓVEIS SEM ENERGIA · 20H02",
+    "ficha 9 MUNICÍPIOS · 249 IMÓVEIS DANIFICADOS",
+    "Foz destacada: QUASE METADE"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b12",
+   "cap": "1 · O RASTRO DE UMA TARDE",
+   "t_est": 134.5,
+   "dur_est": 16.8,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Foto CC0 de árvore caída em temporal deste novembro (Copel/AEN, 07/11) como respiro, enquanto os números de Foz aparecem; depois volta ao mapa com as regiões da Copel e o Oeste em destaque.",
+   "camadas": [
+    "ficha FOZ: ~50 ÁRVORES · LONAS PARA ~200 FAMÍLIAS",
+    "ficha OESTE: 26,8 MIL SEM LUZ NA MANHÃ SEGUINTE"
+   ],
+   "midias": [
+    {
+     "arquivo": "dl/fotos/aen-copel-2026-11-07-78655.jpg",
+     "gatilho": "árvores",
+     "formato": "quadro grande 1240 px, Ken Burns lento 2,5 s; legenda PARANÁ · 7 NOV 2026 (não é de Foz: legenda honesta)"
+    }
+   ]
+  },
+  {
+   "id": "b13",
+   "cap": "1 · O RASTRO DE UMA TARDE",
+   "t_est": 151.3,
+   "dur_est": 8.2,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "A reta coral de novo, agora pintada em degradê: laranja (tarde) no oeste, azul-escuro (noite) no norte.",
+   "camadas": [
+    "rótulos TARDE / NOITE ao longo da reta",
+    "ícone de relógio com interrogação (loop: pago no b27)"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b14",
+   "cap": "2 · DE ONDE ELE VEM",
+   "t_est": 159.5,
+   "dur_est": 14.0,
+   "estilo": "G",
+   "transicao": "subida longa de câmera (whoosh)",
+   "plano": "A câmera sobe e gira para oeste até mostrar Paraguai, Misiones e o PR; uma baixa pressão desenhada como um 'B' discreto sobre o Paraguai.",
+   "camadas": [
+    "aba 2 · DE ONDE ELE VEM",
+    "rótulo BAIXA PRESSÃO · PARAGUAI (previsão do Simepar, 19/11)",
+    "setas suaves OESTE · SUDOESTE"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b15",
+   "cap": "2 · DE ONDE ELE VEM",
+   "t_est": 173.6,
+   "dur_est": 14.4,
+   "estilo": "G",
+   "transicao": "",
+   "plano": "Sequência real do GOES-19 (canal 13, infravermelho, 9h → 20h, a cada 20 min) sobreposta ao relevo, em ~6 s: o aglomerado nasce a oeste e se estica sobre o estado; relógio no canto.",
+   "camadas": [
+    "relógio 9H → 20H (hora de Brasília)",
+    "rótulo GOES-19 · 20 NOV 2026"
+   ],
+   "midias": [
+    {
+     "arquivo": "dl/goes19/b13/20263241200_GOES19-ABI-ssa-13-1800x1080.jpg",
+     "gatilho": "nove",
+     "formato": "prévia; etapa 2: NetCDF reprojetado, 34 quadros 12–23 UTC"
+    },
+    {
+     "arquivo": "dl/goes19/b13/20263242300-3600.jpg",
+     "gatilho": "oito da noite",
+     "formato": "quadro final congelado 1,5 s"
+    }
+   ]
+  },
+  {
+   "id": "b16",
+   "cap": "2 · DE ONDE ELE VEM",
+   "t_est": 188.0,
+   "dur_est": 17.5,
+   "estilo": "A",
+   "transicao": "recuo continental (sem corte)",
+   "plano": "A câmera recua até o continente inteiro: Andes à esquerda, a região entre Paraguai, norte da Argentina e Sul do Brasil se acende como uma mancha quente suave (sem números), a leste dos Andes.",
+   "camadas": [
+    "rótulo A LESTE DOS ANDES",
+    "rótulo SATÉLITE TRMM · NASA · 7 ANOS DE DADOS"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b17",
+   "cap": "2 · DE ONDE ELE VEM",
+   "t_est": 205.5,
+   "dur_est": 10.3,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Duas silhuetas simples de continente lado a lado (América do Norte e América do Sul) com a faixa de latitudes médias destacada; ícones de 'complexo de tempestade' iguais nas duas.",
+   "camadas": [
+    "etiqueta COMPLEXOS DE TEMPESTADE · LATITUDES MÉDIAS",
+    "sinal = entre os dois lados"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b18",
+   "cap": "2 · DE ONDE ELE VEM",
+   "t_est": 215.7,
+   "dur_est": 15.4,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Plano rápido de recapitulação: três setas finas e esmaecidas (Amazônia → sul; Andes como parede; ar frio do sul) sobre o continente, e um selo do nosso vídeo 001.",
+   "camadas": [
+    "selo VÍDEO NO CANAL: TORNADOS DO SUL",
+    "seta grande final aponta: A OESTE DO PARANÁ"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b19",
+   "cap": "2 · DE ONDE ELE VEM",
+   "t_est": 231.1,
+   "dur_est": 12.0,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Mapa do Sul com a faixa de maior frequência de tornados do levantamento da UFSM (norte do RS, oeste de SC, sudoeste do PR) em coral translúcido; a borda oeste do PR acende.",
+   "camadas": [
+    "etiqueta UFSM · 310 TORNADOS REGISTRADOS NO SUL",
+    "rótulo O LADO DA PORTA"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b20",
+   "cap": "3 · A ESCADA DO PARANÁ",
+   "t_est": 243.1,
+   "dur_est": 4.7,
+   "estilo": "A",
+   "transicao": "giro de câmera para vista lateral (whoosh longo)",
+   "plano": "SEGUNDA ASSINATURA: o Paraná em bloco 3D visto de lado, de leste (mar, à direita) para oeste (rio Paraná, à esquerda), exagero vertical marcado 'ilustrativo' — o mesmo bloco da Thumb A.",
+   "camadas": [
+    "aba 3 · A ESCADA DO PARANÁ",
+    "selo ILUSTRATIVO · ALTURA EXAGERADA"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b21",
+   "cap": "3 · A ESCADA DO PARANÁ",
+   "t_est": 247.9,
+   "dur_est": 18.5,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Régua de altitude vai marcando cada degrau na fala: litoral 0 m → Pico Paraná 1.877 m → Curitiba ~930 m → Guarapuava > 1.000 m (perfil SRTM N4).",
+   "camadas": [
+    "rótulos com altitude: LITORAL 0 · PICO PARANÁ 1.877 M · CURITIBA ~930 M · GUARAPUAVA > 1.000 M"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b22",
+   "cap": "3 · A ESCADA DO PARANÁ",
+   "t_est": 266.4,
+   "dur_est": 10.6,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Continuação do perfil para oeste: os degraus descem até o rio Paraná; Cascavel e Foz marcados.",
+   "camadas": [
+    "rótulos CASCAVEL ~780 M · FOZ DO IGUAÇU ~160 M",
+    "seta da tempestade chegando pela esquerda, na ponta baixa"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b23",
+   "cap": "3 · A ESCADA DO PARANÁ",
+   "t_est": 277.0,
+   "dur_est": 15.1,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Termômetro simples ao lado do perfil: a cor do ar fica mais quente à medida que o perfil desce para oeste.",
+   "camadas": [
+    "etiqueta ~0,6 °C A CADA 100 M (MÉDIA)",
+    "degradê azul (alto) → laranja (baixo)"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b24",
+   "cap": "3 · A ESCADA DO PARANÁ",
+   "t_est": 292.1,
+   "dur_est": 13.0,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Mapa do PR com o norte em tom quente; ficha da previsão.",
+   "camadas": [
+    "ficha PREVISÃO 19/11: > 30 °C NO NORTE",
+    "ficha CALOR + UMIDADE = ALIMENTO DA TEMPESTADE"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b25",
+   "cap": "3 · A ESCADA DO PARANÁ",
+   "t_est": 305.1,
+   "dur_est": 15.1,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Dois termômetros lado a lado: CURITIBA ~930 M e FOZ ~160 M, com a diferença calculada.",
+   "camadas": [
+    "DIFERENÇA ~770 M → ~4 A 5 °C MAIS QUENTE EM FOZ (SÓ PELA ALTITUDE)"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b26",
+   "cap": "3 · A ESCADA DO PARANÁ",
+   "t_est": 320.2,
+   "dur_est": 10.6,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Volta ao bloco 3D: a seta da tempestade encosta na ponta baixa do oeste; um ícone de ímã riscado (a ladeira não puxa).",
+   "camadas": [
+    "rótulo A LADEIRA NÃO PUXA",
+    "rótulo QUEM ELA ENCONTRA PRIMEIRO: A PONTA BAIXA E QUENTE"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b27",
+   "cap": "3 · A ESCADA DO PARANÁ",
+   "t_est": 330.8,
+   "dur_est": 15.1,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "A reta coral com o relógio (paga o loop do b13): um ponto anda pela reta a 70 km/h; quando chega ao norte, o céu do mapa escurece (noite).",
+   "camadas": [
+    "relógio 13H45 → 19H30 (LONDRINA) → 20H15 (CORNÉLIO PROCÓPIO)",
+    "ficha 70 KM/H"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b28",
+   "cap": "3 · A ESCADA DO PARANÁ",
+   "t_est": 345.8,
+   "dur_est": 13.0,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Zoom em Cornélio Procópio, à noite (relevo escurecido, luzes da cidade em pontos); a ficha 98,3 sobe.",
+   "camadas": [
+    "ficha 98,3 KM/H · 20H15 · O MAIOR DO DIA",
+    "rótulo QUASE NA SAÍDA"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b29",
+   "cap": "4 · O MESMO LADO",
+   "t_est": 358.9,
+   "dur_est": 4.4,
+   "estilo": "A",
+   "transicao": "dissolve de dia (troca de data)",
+   "plano": "O mesmo mapa, dia claro; o cartão de data troca de 2026 para 2025.",
+   "camadas": [
+    "aba 4 · O MESMO LADO",
+    "cartão 7 NOV 2025"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b30",
+   "cap": "4 · O MESMO LADO",
+   "t_est": 363.3,
+   "dur_est": 17.8,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "A linha da supercélula de 2025 é desenhada sobre o relevo; depois o rastro do tornado (75 km) se pinta de Quedas do Iguaçu a Cantagalo, de oeste para leste; a imagem real do Sentinel-2 da cicatriz entra por 2 s.",
+   "camadas": [
+    "ficha SUPERCÉLULA ~270 KM · ~80 KM/H (LAUDO SIMEPAR)",
+    "rótulos QUEDAS DO IGUAÇU → CANTAGALO · 75 KM"
+   ],
+   "midias": [
+    {
+     "arquivo": "dl/fotos/commons-Sentinel-2_Rio_Bonito_scar_labelled_no_m",
+     "gatilho": "rastro",
+     "formato": "quadro grande 2 s, recortado sem o rótulo embutido; legenda RIO BONITO DO IGUAÇU · SENTINEL-2 · NOV 2025"
+    }
+   ]
+  },
+  {
+   "id": "b31",
+   "cap": "4 · O MESMO LADO",
+   "t_est": 381.1,
+   "dur_est": 13.0,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Zoom em Rio Bonito do Iguaçu: largura do rastro como uma régua; foto aérea CC0 em plano bem largo (cidade inteira, sem zoom em entulho, sem pessoas) por 2 s.",
+   "camadas": [
+    "régua ATÉ ~3,25 KM DE LARGURA",
+    "ficha F4 · UM DOS MAIORES DO PR EM 30 ANOS (SIMEPAR)"
+   ],
+   "midias": [
+    {
+     "arquivo": "dl/fotos/commons-rb-03-orig.jpg",
+     "gatilho": "Rio Bonito",
+     "formato": "quadro médio 2 s, plano largo; legenda RIO BONITO DO IGUAÇU · 8 NOV 2025"
+    }
+   ]
+  },
+  {
+   "id": "b32",
+   "cap": "4 · O MESMO LADO",
+   "t_est": 394.1,
+   "dur_est": 12.3,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "A linha da mesma supercélula continua para leste e um segundo rastro aparece em Candói/Entre Rios (Guarapuava).",
+   "camadas": [
+    "rótulos CANDÓI · ENTRE RIOS (GUARAPUAVA) · 44 KM",
+    "seta UMA DIREÇÃO SÓ"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b33",
+   "cap": "4 · O MESMO LADO",
+   "t_est": 406.4,
+   "dur_est": 16.5,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "ASSINATURA de volta: a reta coral de 2026 e a linha amarela de 2025 lado a lado no mesmo mapa; as duas setas apontam para o mesmo lado.",
+   "camadas": [
+    "rótulos 2025 · 2026",
+    "fichas 80 KM/H · 70 KM/H",
+    "rótulo A MESMA PORTA: O OESTE"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b34",
+   "cap": "4 · O MESMO LADO",
+   "t_est": 422.9,
+   "dur_est": 9.2,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "A borda oeste/sudoeste do PR acende como uma 'porta' (faixa coral), virada para o Paraguai/Argentina.",
+   "camadas": [
+    "rótulo MESMO LADO ≠ MESMA CIDADE",
+    "rótulo PORTA DE ENTRADA: OESTE E SUDOESTE"
+   ],
+   "midias": [
+    {
+     "arquivo": "dl/fotos/dpu/rb-telhado-54944696133-orig.jpg",
+     "gatilho": "lado",
+     "formato": "respiro 2 s, quadro médio; legenda RIO BONITO DO IGUAÇU · 18 NOV 2025 (neutra, ressalva do crivo r3)"
+    }
+   ]
+  },
+  {
+   "id": "b35",
+   "cap": "4 · O MESMO LADO",
+   "t_est": 432.1,
+   "dur_est": 16.8,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Calendário de novembro de 2026 no canto; dia 2 acende com Maringá (pino + rastro de 15 km), dia 7 com o contador 493 mil.",
+   "camadas": [
+    "calendário NOV 2026: 2 · 7 · 20",
+    "pino MARINGÁ · F2 · ~15 KM",
+    "contador 493 MIL SEM LUZ · MAIOR DO ANO"
+   ],
+   "midias": [
+    {
+     "arquivo": "dl/fotos/aen-maringa-2026-11-04-defesacivil.jpg",
+     "gatilho": "Maringá",
+     "formato": "quadro médio 2 s; legenda MARINGÁ · NOV 2026 (conferir legenda/crédito da AEN)"
+    }
+   ]
+  },
+  {
+   "id": "b36",
+   "cap": "5 · POR QUE TANTO AGORA",
+   "t_est": 448.9,
+   "dur_est": 4.0,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Pergunta em tipografia sobre o mapa do PR.",
+   "camadas": [
+    "aba 5 · POR QUE TANTO AGORA",
+    "pergunta POR QUE TANTA COISA NUM MÊS SÓ?"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b37",
+   "cap": "5 · POR QUE TANTO AGORA",
+   "t_est": 453.0,
+   "dur_est": 15.8,
+   "estilo": "G",
+   "transicao": "",
+   "plano": "Camada real NASA IMERG de 1–20/11 sobre o relevo do PR (fade-in com a câmera em movimento); depois a camada de anomalia.",
+   "camadas": [
+    "ficha ~175 MM (MÉDIA NO PR) × ~108 NORMAIS",
+    "ficha MAIS DE 60% ACIMA",
+    "rótulo 1 – 20 NOV 2026"
+   ],
+   "midias": [
+    {
+     "arquivo": "dados/nasa/pr-nov-1a20-camada.png",
+     "gatilho": "caíram",
+     "formato": "camada sobre o terreno"
+    },
+    {
+     "arquivo": "dados/nasa/pr-nov-1a20-anom-anomalia-camada.png",
+     "gatilho": "normal",
+     "formato": "troca de camada"
+    }
+   ]
+  },
+  {
+   "id": "b38",
+   "cap": "5 · POR QUE TANTO AGORA",
+   "t_est": 468.7,
+   "dur_est": 11.6,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Mapa das estações do Simepar com pontos que ficam laranja acima de 30 °C (33 deles); Cerro Azul destacado.",
+   "camadas": [
+    "ficha 12 NOV: 33 ESTAÇÕES > 30 °C",
+    "pino CERRO AZUL · 35,1 °C"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b39",
+   "cap": "5 · POR QUE TANTO AGORA",
+   "t_est": 480.4,
+   "dur_est": 15.1,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Pacífico equatorial pequeno no canto com a língua quente do El Niño (como no 002), e uma seta discreta até o Sul; a porta oeste do PR continua acesa.",
+   "camadas": [
+    "ficha EL NIÑO MUITO FORTE (SIMEPAR)",
+    "rótulo AUMENTA AS CHANCES · NÃO FABRICA CADA TEMPESTADE"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b40",
+   "cap": "5 · POR QUE TANTO AGORA",
+   "t_est": 495.5,
+   "dur_est": 16.8,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Barras simples por estação do ano (sem números inventados: só qual é a maior), com o inverno em destaque.",
+   "camadas": [
+    "etiqueta UFSM · MÁXIMO DE TORNADOS NO SUL: INVERNO",
+    "rótulo NOVEMBRO 2026: CALOR + CHUVA DE SOBRA"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b41",
+   "cap": "A RESPOSTA",
+   "t_est": 512.3,
+   "dur_est": 4.0,
+   "estilo": "A",
+   "transicao": "recuo para o Paraná inteiro (sem corte)",
+   "plano": "O Paraná em relevo, vista da Thumb A, com a seta entrando pelo oeste.",
+   "camadas": [
+    "aba A RESPOSTA",
+    "pergunta POR QUE PELO OESTE?"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b42",
+   "cap": "A RESPOSTA",
+   "t_est": 516.3,
+   "dur_est": 19.9,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "As três camadas acendem uma a uma: (1) o berçário a oeste (mancha quente do b16), (2) a reta sudoeste → nordeste com 70–80 km/h, (3) a ponta baixa e quente (degradê do b23).",
+   "camadas": [
+    "fichas 1 · BERÇÁRIO A OESTE · 2 · ANDA DE SW PARA NE · 3 · PONTA BAIXA E QUENTE"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b43",
+   "cap": "A RESPOSTA",
+   "t_est": 536.2,
+   "dur_est": 13.4,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "As duas linhas (2026 coral, 2025 amarela) lado a lado, fixas; texto final.",
+   "camadas": [
+    "rótulos CAPANEMA → CORNÉLIO PROCÓPIO (2026) · QUEDAS DO IGUAÇU → CANTAGALO (2025)",
+    "frase UM ANO DE DISTÂNCIA, A MESMA PORTA"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b44",
+   "cap": "A RESPOSTA",
+   "t_est": 549.6,
+   "dur_est": 14.7,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Card de serviço (paleta do canal), celular simples com um alerta.",
+   "camadas": [
+    "card ALERTAS DA DEFESA CIVIL: SMS COM O SEU CEP PARA 40199",
+    "etiqueta O AVISO SAIU ANTES (SIMEPAR)"
+   ],
+   "midias": []
+  },
+  {
+   "id": "b45",
+   "cap": "A RESPOSTA",
+   "t_est": 564.3,
+   "dur_est": 8.9,
+   "estilo": "A",
+   "transicao": "",
+   "plano": "Foto CC0 de poste/árvore caídos (Copel/AEN, 07/11) como fundo esmaecido do conselho.",
+   "camadas": [
+    "card LONGE DE ÁRVORES, POSTES E PLACAS"
+   ],
+   "midias": [
+    {
+     "arquivo": "dl/fotos/aen-copel-2026-11-07-78659.jpg",
+     "gatilho": "postes",
+     "formato": "fundo esmaecido 3 s; legenda PARANÁ · 7 NOV 2026"
+    }
+   ]
+  },
+  {
+   "id": "b46",
+   "cap": "A RESPOSTA",
+   "t_est": 573.2,
+   "dur_est": 19.9,
+   "estilo": "B",
+   "transicao": "",
+   "plano": "Encerramento: miniatura do vídeo 001 (tornados do Sul), logo do canal, mapa do PR com o oeste e o norte destacados ('manda para quem mora aí').",
+   "camadas": [
+    "card do vídeo 001",
+    "logo EM RELEVO"
+   ],
+   "midias": []
+  }
+ ]
+}

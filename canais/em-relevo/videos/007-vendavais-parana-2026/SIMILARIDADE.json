@@ -1,0 +1,171 @@
+{
+ "pasta": "canais/em-relevo/videos/007-vendavais-parana-2026",
+ "roteiro": "canais/em-relevo/videos/007-vendavais-parana-2026/shared/blocos.json",
+ "idioma": "pt",
+ "blocos": 46,
+ "nota": 13.5,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [],
+ "referencias": [
+  {
+   "cobertura": 0.15217391304347827,
+   "ordem": 0.5714285714285714,
+   "ngramas": 0.03713188220230474,
+   "sim_media": 0.22763121400425354,
+   "gemeos": 7,
+   "blocos": 46,
+   "posicoes": [
+    [
+     10,
+     12
+    ],
+    [
+     16,
+     50
+    ],
+    [
+     30,
+     40
+    ],
+    [
+     31,
+     96
+    ],
+    [
+     33,
+     40
+    ],
+    [
+     35,
+     40
+    ],
+    [
+     44,
+     100
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 30,
+     "cos": 0.47,
+     "nosso": "sete de novembro de dois mil e vinte e cinco. Pelo laudo do Simepar, uma supercélula percorreu uns duzentos e setenta quilômetros, a uns oitenta quilômetros por hora. O tornado mais forte deixou um rastro de setenta e cinco quilômetros, de Quedas do Iguaçu até",
+     "ref": "novembro de dois mil e vinte e cinco, Rio Bonito do Iguaçu, no Paraná, foi atingida por um éfe quatro. Um rastro de setenta e cinco quilômetros, com até três"
+    },
+    {
+     "bloco": 31,
+     "cos": 0.46,
+     "nosso": "Em Rio Bonito do Iguaçu, ele chegou por volta das seis da tarde, com até três quilômetros de largura, e foi classificado como éfe quatro. Para o Simepar, um dos maiores do estado em trinta anos.",
+     "ref": "largura. O de Rio Bonito do Iguaçu chegou a três quilômetros e duzentos. O pior cenário não é um tornado maior. É um tornado forte sobre uma cidade grande."
+    },
+    {
+     "bloco": 44,
+     "cos": 0.42,
+     "nosso": "O aviso existe. Segundo o Simepar, o alerta de tempestades daquela sexta saiu antes de os temporais chegarem. Para receber os alertas da Defesa Civil no celular, mande o seu cép por ésse-ême-ésse para quarenta mil cento e noventa e nove.",
+     "ref": "alertas no celular. Mande o seu cép por SMS para quatro, zero, um, nove, nove. É de graça. E, no Sul, o Defesa Civil Alerta aparece direto na tela do celular,"
+    },
+    {
+     "bloco": 10,
+     "cos": 0.34,
+     "nosso": "Por volta das três da tarde, a faixa passa por Foz do Iguaçu. Na Vila Yolanda, o Simepar confirmou um tornado éfe um, com vento estimado entre cento e dezessete e cento e oitenta quilômetros por hora. Por volta das seis, outro éfe um, na zona rural de Manoel R",
+     "ref": "passou pela estação. O Simepar foi a campo, mediu o estrago e classificou o tornado como éfe dois: ventos estimados entre cento e oitenta e duzentos e cinquenta e três quilômetros por hora,"
+    },
+    {
+     "bloco": 33,
+     "cos": 0.31,
+     "nosso": "Ponha as duas linhas lado a lado: a de dois mil e vinte e cinco e a de dois mil e vinte e seis. A mesma porta, o oeste. A mesma direção, para o leste. E quase a mesma velocidade: oitenta e setenta quilômetros por hora.",
+     "ref": "novembro de dois mil e vinte e cinco, Rio Bonito do Iguaçu, no Paraná, foi atingida por um éfe quatro. Um rastro de setenta e cinco quilômetros, com até três"
+    },
+    {
+     "bloco": 35,
+     "cos": 0.31,
+     "nosso": "E este novembro não parou em vinte de novembro. No dia dois, um tornado éfe dois cruzou Maringá de madrugada, num rastro de uns quinze quilômetros. No dia sete, a Copel chegou a quatrocentos e noventa e três mil imóveis sem luz, o maior número do ano.",
+     "ref": "novembro de dois mil e vinte e cinco, Rio Bonito do Iguaçu, no Paraná, foi atingida por um éfe quatro. Um rastro de setenta e cinco quilômetros, com até três"
+    },
+    {
+     "bloco": 16,
+     "cos": 0.31,
+     "nosso": "Esse canto do mapa, entre o Paraguai, o norte da Argentina e o Sul do Brasil, não é um lugar qualquer. Sete anos de dados do satélite T R M M, da NASA, mostraram que algumas das tempestades mais intensas da Terra se formam aqui, a leste dos Andes.",
+     "ref": "Argentina, o Paraguai, o Uruguai e o Sul do Brasil é considerada por pesquisadores a segunda região mais propícia a tornados do mundo, depois dos Estados Unidos. E satélites da NASA mostraram que as tempestades daqui"
+    }
+   ],
+   "ref": "canais/em-relevo/videos/007-vendavais-parana-2026/ref/nosso-001-bG6-E4qjXYc.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1760,
+   "nota": 13.5,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.043478260869565216,
+   "ordem": 0.0,
+   "ngramas": 0.006402048655569782,
+   "sim_media": 0.16520196245615865,
+   "gemeos": 2,
+   "blocos": 46,
+   "posicoes": [
+    [
+     4,
+     110
+    ],
+    [
+     29,
+     42
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 4,
+     "cos": 0.33,
+     "nosso": "Por que o temporal entra pelo oeste do Paraná, de novo pelo mesmo lado? A resposta está no mapa.",
+     "ref": "endereço do choque. A resposta do número 20. O mesmo pedaço do mapa é atingido de novo e de novo porque a causa não é o acaso. É a geografia. Os Andes no número 30, os rios voadores do 29,"
+    },
+    {
+     "bloco": 29,
+     "cos": 0.32,
+     "nosso": "Agora ponha no mesmo mapa o temporal de um ano atrás.",
+     "ref": "2015. Chanchere e Chapecó agora. Oeste de Santa Catarina outra vez. Porque o mesmo pedaço do mapa é atingido ano após ano. O padrão é tão forte que ganhou o nome."
+    }
+   ],
+   "ref": "canais/em-relevo/videos/007-vendavais-parana-2026/ref/manada-x_xE2HyxQE0.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1974,
+   "nota": 2.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.021739130434782608,
+   "ordem": 0.0,
+   "ngramas": 0.006402048655569782,
+   "sim_media": 0.1420511020651427,
+   "gemeos": 1,
+   "blocos": 46,
+   "posicoes": [
+    [
+     19,
+     80
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 19,
+     "cos": 0.31,
+     "nosso": "Um levantamento da Universidade Federal de Santa Maria reuniu trezentos e dez tornados registrados no Sul. A faixa de maior frequência: norte gaúcho, oeste catarinense e sudoeste do Paraná. O lado da porta.",
+     "ref": "ajunam a enxergar a tendência um levantamento do prevoques projeto mantido por pesquisadores da universidade federal de santa maria com parceiros como o imp mostrou que 524 registros de tornados"
+    }
+   ],
+   "ref": "canais/em-relevo/videos/007-vendavais-parana-2026/ref/manada-GSSCfXMD4wQ.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1592,
+   "nota": 1.7,
+   "veredito": "ok"
+  }
+ ]
+}

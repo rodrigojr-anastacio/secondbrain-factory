@@ -1,0 +1,462 @@
+[
+ {
+  "id": "b01",
+  "cap": "CAPANEMA (PR) · 20 NOV 2026 · 13H45",
+  "marcha": 1,
+  "fala": "Sexta-feira, vinte de novembro, treze e quarenta e cinco. Capanema, na fronteira com a Argentina. A estação do Simepar mede uma rajada de oitenta e um vírgula sete quilômetros por hora.",
+  "fala_tts": "[serious] Sexta-feira, vinte de novembro, treze e quarenta e cinco. Capanema, na fronteira com a Argentina. A estação do Simepar mede uma rajada de oitenta e um vírgula sete quilômetros por hora.",
+  "tela": "Sexta-feira, 20 de novembro, 13h45. | Capanema, na fronteira com a Argentina. | A estação do Simepar mede uma rajada de 81,7 km/h.",
+  "fonte": "E4",
+  "ideia": true
+ },
+ {
+  "id": "b02",
+  "cap": "CORNÉLIO PROCÓPIO (PR) · 20H15",
+  "marcha": 1,
+  "fala": "seis horas e meia depois, a quatrocentos e vinte e três quilômetros dali, Cornélio Procópio: noventa e oito vírgula três quilômetros por hora, o vento mais forte do dia. No meio do caminho, dois tornados: em Foz do Iguaçu e em Manoel Ribas.",
+  "fala_tts": "seis horas e meia depois, a quatrocentos e vinte e três quilômetros dali, Cornélio Procópio: noventa e oito vírgula três quilômetros por hora, o vento mais forte do dia. No meio do caminho, dois tornados: em Foz do Iguaçu e em Manoel Ribas.",
+  "tela": "6 horas e meia depois, a 423 km dali, Cornélio Procópio: 98,3 km/h, o vento mais forte do dia. | No meio do caminho, dois tornados: em Foz do Iguaçu e em Manoel Ribas.",
+  "fonte": "E4, N2, E2",
+  "ideia": false
+ },
+ {
+  "id": "b03",
+  "cap": "RIO BONITO DO IGUAÇU · 7 NOV 2025",
+  "marcha": 1,
+  "fala": "E não era a primeira vez. Há um ano, outro temporal entrou pelo mesmo lado do estado e passou por Rio Bonito do Iguaçu.",
+  "fala_tts": "E não era a primeira vez. Há um ano, outro temporal entrou pelo mesmo lado do estado e passou por Rio Bonito do Iguaçu.",
+  "tela": "E não era a primeira vez. | Há um ano, outro temporal entrou pelo mesmo lado do estado e passou por Rio Bonito do Iguaçu.",
+  "fonte": "B1",
+  "ideia": false
+ },
+ {
+  "id": "b04",
+  "cap": "O MAPA",
+  "marcha": 1,
+  "fala": "Por que o temporal entra pelo oeste do Paraná, de novo pelo mesmo lado? A resposta está no mapa.",
+  "fala_tts": "[curious] Por que o temporal entra pelo oeste do Paraná, de novo pelo mesmo lado? A resposta está no mapa.",
+  "tela": "Por que o temporal entra pelo oeste do Paraná, de novo pelo mesmo lado? | A resposta está no mapa.",
+  "fonte": "pergunta do T1/T3 (frase-âncora)",
+  "ideia": true
+ },
+ {
+  "id": "b05",
+  "cap": "1 · O RASTRO DE UMA TARDE",
+  "marcha": 2,
+  "fala": "Ponha no mapa as estações do Simepar daquela sexta. Cada uma acende na hora do seu pico de vento.",
+  "fala_tts": "Ponha no mapa as estações do Simepar daquela sexta. Cada uma acende na hora do seu pico de vento.",
+  "tela": "Ponha no mapa as estações do Simepar daquela sexta. | Cada uma acende na hora do seu pico de vento.",
+  "fonte": "E4",
+  "ideia": true
+ },
+ {
+  "id": "b06",
+  "cap": "1 · O RASTRO DE UMA TARDE",
+  "marcha": 2,
+  "fala": "Capanema, treze e quarenta e cinco. Santa Helena, quinze e quinze. Cascavel, dezesseis e quinze. Campo Mourão, dezessete e quarenta e cinco. Maringá, dezoito e quarenta e cinco. Londrina, dezenove e trinta. Cornélio Procópio, vinte e quinze. Os pontos não acendem ao acaso: andam numa linha, do sudoeste para o nordeste.",
+  "fala_tts": "Capanema, treze e quarenta e cinco. Santa Helena, quinze e quinze. Cascavel, dezesseis e quinze. Campo Mourão, dezessete e quarenta e cinco. Maringá, dezoito e quarenta e cinco. Londrina, dezenove e trinta. Cornélio Procópio, vinte e quinze. Os pontos não acendem ao acaso: andam numa linha, do sudoeste para o nordeste.",
+  "tela": "Capanema, 13h45. Santa Helena, 15h15. Cascavel, 16h15. | Campo Mourão, 17h45. Maringá, 18h45. Londrina, 19h30. | Cornélio Procópio, 20h15. | Os pontos não acendem ao acaso: andam numa linha, do sudoeste para o nordeste.",
+  "fonte": "E4, N1",
+  "ideia": false
+ },
+ {
+  "id": "b07",
+  "cap": "1 · O RASTRO DE UMA TARDE",
+  "marcha": 2,
+  "fala": "Duas estações fugiram da fila: Paranaguá, à uma e quinze da tarde, e Cambará, às duas. Eram outras células: o Simepar falou em diversas linhas de instabilidade. Mas a linha principal está aqui.",
+  "fala_tts": "Duas estações fugiram da fila: Paranaguá, à uma e quinze da tarde, e Cambará, às duas. Eram outras células: o Simepar falou em diversas linhas de instabilidade. Mas a linha principal está aqui.",
+  "tela": "Duas estações fugiram da fila: Paranaguá, à 1 e 15 da tarde, e Cambará, às 2. | Eram outras células: o Simepar falou em diversas linhas de instabilidade. | Mas a linha principal está aqui.",
+  "fonte": "E4, E3",
+  "ideia": false
+ },
+ {
+  "id": "b08",
+  "cap": "1 · O RASTRO DE UMA TARDE",
+  "marcha": 2,
+  "fala": "Faça a conta com as catorze estações da fila. O pico chega mais tarde quanto mais a nordeste está a estação, quase sem desvio. São uns quatrocentos e trinta quilômetros de ponta a ponta, a uns setenta quilômetros por hora. A velocidade de um carro na estrada.",
+  "fala_tts": "Faça a conta com as catorze estações da fila. O pico chega mais tarde quanto mais a nordeste está a estação, quase sem desvio. São uns quatrocentos e trinta quilômetros de ponta a ponta, a uns setenta quilômetros por hora. A velocidade de um carro na estrada.",
+  "tela": "Faça a conta com as 14 estações da fila. | O pico chega mais tarde quanto mais a nordeste está a estação, quase sem desvio. | São uns 430 km de ponta a ponta, a uns 70 km/h. | A velocidade de um carro na estrada.",
+  "fonte": "N1 (regressão própria, r² 0,98)",
+  "ideia": false
+ },
+ {
+  "id": "b09",
+  "cap": "1 · O RASTRO DE UMA TARDE",
+  "marcha": 2,
+  "fala": "Foi isso que atravessou o Paraná em seis horas e meia. Não um vento parado sobre o estado: uma faixa de tempestades andando.",
+  "fala_tts": "Foi isso que atravessou o Paraná em seis horas e meia. Não um vento parado sobre o estado: uma faixa de tempestades andando.",
+  "tela": "Foi isso que atravessou o Paraná em 6 horas e meia. | Não um vento parado sobre o estado: uma faixa de tempestades andando.",
+  "fonte": "N1, N2",
+  "ideia": false
+ },
+ {
+  "id": "b10",
+  "cap": "1 · O RASTRO DE UMA TARDE",
+  "marcha": 2,
+  "fala": "Por volta das três da tarde, a faixa passa por Foz do Iguaçu. Na Vila Yolanda, o Simepar confirmou um tornado éfe um, com vento estimado entre cento e dezessete e cento e oitenta quilômetros por hora. Por volta das seis, outro éfe um, na zona rural de Manoel Ribas.",
+  "fala_tts": "Por volta das três da tarde, a faixa passa por Foz do Iguaçu. Na Vila Yolanda, o Simepar confirmou um tornado éfe um, com vento estimado entre cento e dezessete e cento e oitenta quilômetros por hora. Por volta das seis, outro éfe um, na zona rural de Manoel Ribas.",
+  "tela": "Por volta das 3 da tarde, a faixa passa por Foz do Iguaçu. | Na Vila Yolanda, o Simepar confirmou um tornado F1, com vento estimado entre 117 e 180 km/h. | Por volta das 6, outro F1, na zona rural de Manoel Ribas.",
+  "fonte": "E2",
+  "ideia": true
+ },
+ {
+  "id": "b11",
+  "cap": "1 · O RASTRO DE UMA TARDE",
+  "marcha": 2,
+  "fala": "Às vinte e dois, a Copel chegou a trezentos e cinquenta e três mil oitocentos e quarenta e nove imóveis sem energia. No dia seguinte, a Defesa Civil contava nove municípios atingidos e duzentos e quarenta e nove imóveis danificados, quase metade em Foz.",
+  "fala_tts": "Às vinte e dois, a Copel chegou a trezentos e cinquenta e três mil oitocentos e quarenta e nove imóveis sem energia. No dia seguinte, a Defesa Civil contava nove municípios atingidos e duzentos e quarenta e nove imóveis danificados, quase metade em Foz.",
+  "tela": "Às 20h02, a Copel chegou a 353.849 imóveis sem energia. | No dia seguinte, a Defesa Civil contava 9 municípios atingidos e 249 imóveis danificados, quase metade em Foz.",
+  "fonte": "E5, E6",
+  "ideia": false
+ },
+ {
+  "id": "b12",
+  "cap": "1 · O RASTRO DE UMA TARDE",
+  "marcha": 2,
+  "fala": "Em Foz, a Defesa Civil contou umas cinquenta árvores no chão e distribuiu lonas para cerca de duzentos famílias. Os destelhamentos se concentraram na Vila Yolanda. E, na manhã seguinte, a região com mais casas ainda sem luz era o Oeste: vinte e seis vírgula oito mil.",
+  "fala_tts": "Em Foz, a Defesa Civil contou umas cinquenta árvores no chão e distribuiu lonas para cerca de duzentos famílias. Os destelhamentos se concentraram na Vila Yolanda. E, na manhã seguinte, a região com mais casas ainda sem luz era o Oeste: vinte e seis vírgula oito mil.",
+  "tela": "Em Foz, a Defesa Civil contou umas 50 árvores no chão e distribuiu lonas para cerca de 200 famílias. Os destelhamentos se concentraram na Vila Yolanda. | E, na manhã seguinte, a região com mais casas ainda sem luz era o Oeste: 26,8 mil.",
+  "fonte": "E7, E5",
+  "ideia": false
+ },
+ {
+  "id": "b13",
+  "cap": "1 · O RASTRO DE UMA TARDE",
+  "marcha": 2,
+  "fala": "E repare: o oeste levou o temporal à tarde. O norte, à noite. A velocidade da faixa explica isso. Já chegamos lá.",
+  "fala_tts": "E repare: o oeste levou o temporal à tarde. O norte, à noite. A velocidade da faixa explica isso. Já chegamos lá.",
+  "tela": "E repare: o oeste levou o temporal à tarde. O norte, à noite. | A velocidade da faixa explica isso. Já chegamos lá.",
+  "fonte": "E4 (loop: pago no b26)",
+  "ideia": false
+ },
+ {
+  "id": "b14",
+  "cap": "2 · DE ONDE ELE VEM",
+  "marcha": 2,
+  "fala": "Agora suba a câmera e olhe para trás, para o oeste. Na véspera, o Simepar já avisava: um sistema de baixa pressão se intensificava sobre o Paraguai, e o tempo mudaria primeiro no Oeste e no Sudoeste do Paraná.",
+  "fala_tts": "Agora suba a câmera e olhe para trás, para o oeste. Na véspera, o Simepar já avisava: um sistema de baixa pressão se intensificava sobre o Paraguai, e o tempo mudaria primeiro no Oeste e no Sudoeste do Paraná.",
+  "tela": "Agora suba a câmera e olhe para trás, para o oeste. | Na véspera, o Simepar já avisava: um sistema de baixa pressão se intensificava sobre o Paraguai, | e o tempo mudaria primeiro no Oeste e no Sudoeste do Paraná.",
+  "fonte": "E1",
+  "ideia": true
+ },
+ {
+  "id": "b15",
+  "cap": "2 · DE ONDE ELE VEM",
+  "marcha": 2,
+  "fala": "O satélite GOES dezenove, da NOA, fotografa a região a cada dez minutos. Às nove da manhã, já havia um aglomerado de tempestades a oeste do Paraná. Às oito da noite, era uma faixa de topos gelados atravessando o estado.",
+  "fala_tts": "O satélite GOES dezenove, da NOA, fotografa a região a cada dez minutos. Às nove da manhã, já havia um aglomerado de tempestades a oeste do Paraná. Às oito da noite, era uma faixa de topos gelados atravessando o estado.",
+  "tela": "O satélite GOES-19, da NOAA, fotografa a região a cada 10 minutos. | Às 9 da manhã, já havia um aglomerado de tempestades a oeste do Paraná. | Às 8 da noite, era uma faixa de topos gelados atravessando o estado.",
+  "fonte": "E9 (posição a conferir com o NetCDF georreferenciado, etapa 2)",
+  "ideia": false
+ },
+ {
+  "id": "b16",
+  "cap": "2 · DE ONDE ELE VEM",
+  "marcha": 2,
+  "fala": "Esse canto do mapa, entre o Paraguai, o norte da Argentina e o Sul do Brasil, não é um lugar qualquer. Sete anos de dados do satélite T R M M, da NASA, mostraram que algumas das tempestades mais intensas da Terra se formam aqui, a leste dos Andes.",
+  "fala_tts": "Esse canto do mapa, entre o Paraguai, o norte da Argentina e o Sul do Brasil, não é um lugar qualquer. Sete anos de dados do satélite T R M M, da NASA, mostraram que algumas das tempestades mais intensas da Terra se formam aqui, a leste dos Andes.",
+  "tela": "Esse canto do mapa, entre o Paraguai, o norte da Argentina e o Sul do Brasil, não é um lugar qualquer. | Sete anos de dados do satélite TRMM, da NASA, mostraram que algumas das tempestades mais intensas da Terra se formam aqui, a leste dos Andes.",
+  "fonte": "C1 (Zipser et al. 2006; release NASA)",
+  "ideia": true
+ },
+ {
+  "id": "b17",
+  "cap": "2 · DE ONDE ELE VEM",
+  "marcha": 2,
+  "fala": "Nos anos oitenta, dois meteorologistas contaram os grandes complexos de tempestade das Américas. Nas latitudes médias, eles são tão frequentes deste lado do continente quanto nos Estados Unidos.",
+  "fala_tts": "Nos anos oitenta, dois meteorologistas contaram os grandes complexos de tempestade das Américas. Nas latitudes médias, eles são tão frequentes deste lado do continente quanto nos Estados Unidos.",
+  "tela": "Nos anos 80, dois meteorologistas contaram os grandes complexos de tempestade das Américas. | Nas latitudes médias, eles são tão frequentes deste lado do continente quanto nos Estados Unidos.",
+  "fonte": "C2 (Velasco & Fritsch 1987, abstract)",
+  "ideia": false
+ },
+ {
+  "id": "b18",
+  "cap": "2 · DE ONDE ELE VEM",
+  "marcha": 2,
+  "fala": "Por que aqui, a gente já mostrou em outro vídeo do canal: umidade da Amazônia, a cordilheira dos Andes, o ar frio do sul. Aqui, o que interessa é de que lado ele fica. O berçário dessas tempestades fica a oeste do Paraná.",
+  "fala_tts": "Por que aqui, a gente já mostrou em outro vídeo do canal: umidade da Amazônia, a cordilheira dos Andes, o ar frio do sul. Aqui, o que interessa é de que lado ele fica. O berçário dessas tempestades fica a oeste do Paraná.",
+  "tela": "Por que aqui, a gente já mostrou em outro vídeo do canal: umidade da Amazônia, a cordilheira dos Andes, o ar frio do sul. | Aqui, o que interessa é de que lado ele fica. | O berçário dessas tempestades fica a oeste do Paraná.",
+  "fonte": "recapitulação do 001 (bG6-E4qjXYc); C1",
+  "ideia": false
+ },
+ {
+  "id": "b19",
+  "cap": "2 · DE ONDE ELE VEM",
+  "marcha": 2,
+  "fala": "Um levantamento da Universidade Federal de Santa Maria reuniu trezentos e dez tornados registrados no Sul. A faixa de maior frequência: norte gaúcho, oeste catarinense e sudoeste do Paraná. O lado da porta.",
+  "fala_tts": "Um levantamento da Universidade Federal de Santa Maria reuniu trezentos e dez tornados registrados no Sul. A faixa de maior frequência: norte gaúcho, oeste catarinense e sudoeste do Paraná. O lado da porta.",
+  "tela": "Um levantamento da Universidade Federal de Santa Maria reuniu 310 tornados registrados no Sul. | A faixa de maior frequência: norte gaúcho, oeste catarinense e sudoeste do Paraná. | O lado da porta.",
+  "fonte": "C3 (Lopes & Nascimento 2025)",
+  "ideia": false
+ },
+ {
+  "id": "b20",
+  "cap": "3 · A ESCADA DO PARANÁ",
+  "marcha": 2,
+  "fala": "Agora olhe o Paraná de lado, do mar para o rio Paraná.",
+  "fala_tts": "Agora olhe o Paraná de lado, do mar para o rio Paraná.",
+  "tela": "Agora olhe o Paraná de lado, do mar para o rio Paraná.",
+  "fonte": "R2, N4",
+  "ideia": true
+ },
+ {
+  "id": "b21",
+  "cap": "3 · A ESCADA DO PARANÁ",
+  "marcha": 2,
+  "fala": "Ele é uma escada. No litoral, o nível do mar. Logo atrás, a Serra do Mar, com o Pico Paraná, o ponto mais alto do Sul do Brasil: mil oitocentos e setenta e sete metros. Depois, Curitiba, a uns novecentos e trinta metros. Mais para o interior, Guarapuava, a mais de mil.",
+  "fala_tts": "Ele é uma escada. No litoral, o nível do mar. Logo atrás, a Serra do Mar, com o Pico Paraná, o ponto mais alto do Sul do Brasil: mil oitocentos e setenta e sete metros. Depois, Curitiba, a uns novecentos e trinta metros. Mais para o interior, Guarapuava, a mais de mil.",
+  "tela": "Ele é uma escada. | No litoral, o nível do mar. Logo atrás, a Serra do Mar, com o Pico Paraná, o ponto mais alto do Sul do Brasil: 1.877 metros. | Depois, Curitiba, a uns 930 metros. Mais para o interior, Guarapuava, a mais de 1.000.",
+  "fonte": "R2, R3, N4 (altitudes a conferir no perfil SRTM)",
+  "ideia": false
+ },
+ {
+  "id": "b22",
+  "cap": "3 · A ESCADA DO PARANÁ",
+  "marcha": 2,
+  "fala": "Daí em diante, o estado desce, degrau por degrau, até o rio Paraná. Cascavel fica a uns setecentos e oitenta metros. Foz do Iguaçu, a uns cento e sessenta.",
+  "fala_tts": "Daí em diante, o estado desce, degrau por degrau, até o rio Paraná. Cascavel fica a uns setecentos e oitenta metros. Foz do Iguaçu, a uns cento e sessenta.",
+  "tela": "Daí em diante, o estado desce, degrau por degrau, até o rio Paraná. | Cascavel fica a uns 780 metros. Foz do Iguaçu, a uns 160.",
+  "fonte": "R1, N4",
+  "ideia": false
+ },
+ {
+  "id": "b23",
+  "cap": "3 · A ESCADA DO PARANÁ",
+  "marcha": 2,
+  "fala": "Ou seja: o temporal que vem do Paraguai encontra o Paraná pela ponta mais baixa. E a ponta mais baixa é também a mais quente: o ar esquenta, em média, uns seis décimos de grau a cada cem metros que se desce.",
+  "fala_tts": "Ou seja: o temporal que vem do Paraguai encontra o Paraná pela ponta mais baixa. E a ponta mais baixa é também a mais quente: o ar esquenta, em média, uns seis décimos de grau a cada cem metros que se desce.",
+  "tela": "Ou seja: o temporal que vem do Paraguai encontra o Paraná pela ponta mais baixa. | E a ponta mais baixa é também a mais quente: o ar esquenta, em média, uns 6 décimos de grau a cada 100 metros que se desce.",
+  "fonte": "R1, N4; gradiente térmico médio da troposfera (~0,6 °C/100 m)",
+  "ideia": true
+ },
+ {
+  "id": "b24",
+  "cap": "3 · A ESCADA DO PARANÁ",
+  "marcha": 2,
+  "fala": "Na véspera, o Simepar previa mais de trinta  graus no norte do estado. E dizia que os temporais viriam favorecidos pelo calor e pela umidade. É do ar quente e úmido que uma tempestade se alimenta.",
+  "fala_tts": "Na véspera, o Simepar previa mais de trinta  graus no norte do estado. E dizia que os temporais viriam favorecidos pelo calor e pela umidade. É do ar quente e úmido que uma tempestade se alimenta.",
+  "tela": "Na véspera, o Simepar previa mais de 30 °C no norte do estado. | E dizia que os temporais viriam favorecidos pelo calor e pela umidade. | É do ar quente e úmido que uma tempestade se alimenta.",
+  "fonte": "E1",
+  "ideia": false
+ },
+ {
+  "id": "b25",
+  "cap": "3 · A ESCADA DO PARANÁ",
+  "marcha": 2,
+  "fala": "Faça a conta entre Curitiba e Foz: uns setecentos e setenta metros de diferença. Só pela altitude, o ar de Foz tende a ficar uns quatro a cinco graus mais quente que o de Curitiba. É a mesma tempestade encontrando outro ar.",
+  "fala_tts": "Faça a conta entre Curitiba e Foz: uns setecentos e setenta metros de diferença. Só pela altitude, o ar de Foz tende a ficar uns quatro a cinco graus mais quente que o de Curitiba. É a mesma tempestade encontrando outro ar.",
+  "tela": "Faça a conta entre Curitiba e Foz: uns 770 metros de diferença. | Só pela altitude, o ar de Foz tende a ficar uns 4 a 5 graus mais quente que o de Curitiba. | É a mesma tempestade encontrando outro ar.",
+  "fonte": "cálculo próprio: (930 − 160) m × 0,6 °C/100 m ≈ 4,6 °C; altitudes N4",
+  "ideia": false
+ },
+ {
+  "id": "b26",
+  "cap": "3 · A ESCADA DO PARANÁ",
+  "marcha": 2,
+  "fala": "Atenção: a ladeira não puxa a tempestade. O relevo decide quem ela encontra primeiro: a ponta baixa e quente do estado, virada para o lado onde as tempestades nascem.",
+  "fala_tts": "Atenção: a ladeira não puxa a tempestade. O relevo decide quem ela encontra primeiro: a ponta baixa e quente do estado, virada para o lado onde as tempestades nascem.",
+  "tela": "Atenção: a ladeira não puxa a tempestade. | O relevo decide quem ela encontra primeiro: a ponta baixa e quente do estado, virada para o lado onde as tempestades nascem.",
+  "fonte": "síntese C1, C3, R1 (resposta à Thumb A, sem causalidade inventada)",
+  "ideia": false
+ },
+ {
+  "id": "b27",
+  "cap": "3 · A ESCADA DO PARANÁ",
+  "marcha": 2,
+  "fala": "E lembra da velocidade? A uns setenta quilômetros por hora, uma faixa que entra pelo sudoeste no começo da tarde só chega ao norte do estado à noite. Por isso o pior em Londrina e em Cornélio Procópio veio depois das sete.",
+  "fala_tts": "E lembra da velocidade? A uns setenta quilômetros por hora, uma faixa que entra pelo sudoeste no começo da tarde só chega ao norte do estado à noite. Por isso o pior em Londrina e em Cornélio Procópio veio depois das sete.",
+  "tela": "E lembra da velocidade? | A uns 70 km/h, uma faixa que entra pelo sudoeste no começo da tarde só chega ao norte do estado à noite. | Por isso o pior em Londrina e em Cornélio Procópio veio depois das 7.",
+  "fonte": "N1, E4 (paga o loop do b12)",
+  "ideia": false
+ },
+ {
+  "id": "b28",
+  "cap": "3 · A ESCADA DO PARANÁ",
+  "marcha": 2,
+  "fala": "E o vento mais forte não foi na entrada. Foi quase na saída: noventa e oito vírgula três quilômetros por hora em Cornélio Procópio, às vinte e quinze. O temporal atravessou o estado sem perder força.",
+  "fala_tts": "E o vento mais forte não foi na entrada. Foi quase na saída: noventa e oito vírgula três quilômetros por hora em Cornélio Procópio, às vinte e quinze. O temporal atravessou o estado sem perder força.",
+  "tela": "E o vento mais forte não foi na entrada. Foi quase na saída: 98,3 km/h em Cornélio Procópio, às 20h15. | O temporal atravessou o estado sem perder força.",
+  "fonte": "E4",
+  "ideia": false
+ },
+ {
+  "id": "b29",
+  "cap": "4 · O MESMO LADO",
+  "marcha": 2,
+  "fala": "Agora ponha no mesmo mapa o temporal de um ano atrás.",
+  "fala_tts": "Agora ponha no mesmo mapa o temporal de um ano atrás.",
+  "tela": "Agora ponha no mesmo mapa o temporal de um ano atrás.",
+  "fonte": "B1",
+  "ideia": true
+ },
+ {
+  "id": "b30",
+  "cap": "4 · O MESMO LADO",
+  "marcha": 2,
+  "fala": "sete de novembro de dois mil e vinte e cinco. Pelo laudo do Simepar, uma supercélula percorreu uns duzentos e setenta quilômetros, a uns oitenta quilômetros por hora. O tornado mais forte deixou um rastro de setenta e cinco quilômetros, de Quedas do Iguaçu até Cantagalo: de oeste para leste.",
+  "fala_tts": "sete de novembro de dois mil e vinte e cinco. Pelo laudo do Simepar, uma supercélula percorreu uns duzentos e setenta quilômetros, a uns oitenta quilômetros por hora. O tornado mais forte deixou um rastro de setenta e cinco quilômetros, de Quedas do Iguaçu até Cantagalo: de oeste para leste.",
+  "tela": "7 de novembro de 2025. | Pelo laudo do Simepar, uma supercélula percorreu uns 270 km, a uns 80 km/h. | O tornado mais forte deixou um rastro de 75 km, de Quedas do Iguaçu até Cantagalo: de oeste para leste.",
+  "fonte": "B1",
+  "ideia": false
+ },
+ {
+  "id": "b31",
+  "cap": "4 · O MESMO LADO",
+  "marcha": 2,
+  "fala": "Em Rio Bonito do Iguaçu, ele chegou por volta das seis da tarde, com até três quilômetros de largura, e foi classificado como éfe quatro. Para o Simepar, um dos maiores do estado em trinta anos.",
+  "fala_tts": "Em Rio Bonito do Iguaçu, ele chegou por volta das seis da tarde, com até três quilômetros de largura, e foi classificado como éfe quatro. Para o Simepar, um dos maiores do estado em trinta anos.",
+  "tela": "Em Rio Bonito do Iguaçu, ele chegou por volta das 6 da tarde, com até 3 km de largura, e foi classificado como F4. | Para o Simepar, um dos maiores do estado em 30 anos.",
+  "fonte": "B1",
+  "ideia": false
+ },
+ {
+  "id": "b32",
+  "cap": "4 · O MESMO LADO",
+  "marcha": 2,
+  "fala": "E a mesma tempestade seguiu para o leste. Adiante, gerou outro tornado, que passou por Candói e por Entre Rios, em Guarapuava, num rastro de quarenta e quatro quilômetros. Uma supercélula, uma direção só.",
+  "fala_tts": "E a mesma tempestade seguiu para o leste. Adiante, gerou outro tornado, que passou por Candói e por Entre Rios, em Guarapuava, num rastro de quarenta e quatro quilômetros. Uma supercélula, uma direção só.",
+  "tela": "E a mesma tempestade seguiu para o leste. | Adiante, gerou outro tornado, que passou por Candói e por Entre Rios, em Guarapuava, num rastro de 44 km. | Uma supercélula, uma direção só.",
+  "fonte": "B1 (laudo: tornado 2 da mesma supercélula, Candói F2 e Entre Rios F4, ~44 km)",
+  "ideia": false
+ },
+ {
+  "id": "b33",
+  "cap": "4 · O MESMO LADO",
+  "marcha": 2,
+  "fala": "Ponha as duas linhas lado a lado: a de dois mil e vinte e cinco e a de dois mil e vinte e seis. A mesma porta, o oeste. A mesma direção, para o leste. E quase a mesma velocidade: oitenta e setenta quilômetros por hora.",
+  "fala_tts": "Ponha as duas linhas lado a lado: a de dois mil e vinte e cinco e a de dois mil e vinte e seis. A mesma porta, o oeste. A mesma direção, para o leste. E quase a mesma velocidade: oitenta e setenta quilômetros por hora.",
+  "tela": "Ponha as duas linhas lado a lado: a de 2025 e a de 2026. | A mesma porta, o oeste. A mesma direção, para o leste. | E quase a mesma velocidade: 80 e 70 km/h.",
+  "fonte": "B1 + N1",
+  "ideia": true
+ },
+ {
+  "id": "b34",
+  "cap": "4 · O MESMO LADO",
+  "marcha": 2,
+  "fala": "Mesmo lado não quer dizer a mesma cidade. Quer dizer a mesma porta de entrada: o oeste e o sudoeste, de frente para o berçário.",
+  "fala_tts": "Mesmo lado não quer dizer a mesma cidade. Quer dizer a mesma porta de entrada: o oeste e o sudoeste, de frente para o berçário.",
+  "tela": "Mesmo lado não quer dizer a mesma cidade. | Quer dizer a mesma porta de entrada: o oeste e o sudoeste, de frente para o berçário.",
+  "fonte": "síntese B1, N1, C3",
+  "ideia": false
+ },
+ {
+  "id": "b35",
+  "cap": "4 · O MESMO LADO",
+  "marcha": 2,
+  "fala": "E este novembro não parou em vinte de novembro. No dia dois, um tornado éfe dois cruzou Maringá de madrugada, num rastro de uns quinze quilômetros. No dia sete, a Copel chegou a quatrocentos e noventa e três mil imóveis sem luz, o maior número do ano.",
+  "fala_tts": "E este novembro não parou em vinte de novembro. No dia dois, um tornado éfe dois cruzou Maringá de madrugada, num rastro de uns quinze quilômetros. No dia sete, a Copel chegou a quatrocentos e noventa e três mil imóveis sem luz, o maior número do ano.",
+  "tela": "E este novembro não parou em 20 de novembro. | No dia 2, um tornado F2 cruzou Maringá de madrugada, num rastro de uns 15 km. | No dia 7, a Copel chegou a 493 mil imóveis sem luz, o maior número do ano.",
+  "fonte": "B2, B4",
+  "ideia": false
+ },
+ {
+  "id": "b36",
+  "cap": "5 · POR QUE TANTO AGORA",
+  "marcha": 2,
+  "fala": "Sobra uma pergunta: por que tanta coisa num mês só?",
+  "fala_tts": "Sobra uma pergunta: por que tanta coisa num mês só?",
+  "tela": "Sobra uma pergunta: por que tanta coisa num mês só?",
+  "fonte": "pergunta-ponte",
+  "ideia": true
+ },
+ {
+  "id": "b37",
+  "cap": "5 · POR QUE TANTO AGORA",
+  "marcha": 2,
+  "fala": "Os satélites de chuva da NASA estimam que, de primeiro a vinte de novembro, caíram em média uns cento e setenta e cinco milímetros sobre o Paraná. Para esses vinte dias, o normal seria uns cento e oito. Mais de sessenta por cento acima.",
+  "fala_tts": "Os satélites de chuva da NASA estimam que, de primeiro a vinte de novembro, caíram em média uns cento e setenta e cinco milímetros sobre o Paraná. Para esses vinte dias, o normal seria uns cento e oito. Mais de sessenta por cento acima.",
+  "tela": "Os satélites de chuva da NASA estimam que, de 1º a 20 de novembro, caíram em média uns 175 milímetros sobre o Paraná. | Para esses 20 dias, o normal seria uns 108. | Mais de 60% acima.",
+  "fonte": "N3 (IMERG, cálculo próprio)",
+  "ideia": false
+ },
+ {
+  "id": "b38",
+  "cap": "5 · POR QUE TANTO AGORA",
+  "marcha": 2,
+  "fala": "No dia doze, trinta e três estações do Simepar passaram de trinta  graus. Cerro Azul chegou a trinta e cinco vírgula um. Calor e umidade de sobra, justamente o que alimenta tempestades.",
+  "fala_tts": "No dia doze, trinta e três estações do Simepar passaram de trinta  graus. Cerro Azul chegou a trinta e cinco vírgula um. Calor e umidade de sobra, justamente o que alimenta tempestades.",
+  "tela": "No dia 12, 33 estações do Simepar passaram de 30 °C. | Cerro Azul chegou a 35,1. | Calor e umidade de sobra, justamente o que alimenta tempestades.",
+  "fonte": "B6",
+  "ideia": false
+ },
+ {
+  "id": "b39",
+  "cap": "5 · POR QUE TANTO AGORA",
+  "marcha": 2,
+  "fala": "E há o El Niño, que o Simepar classifica como muito forte. A previsão é de chuva acima da média até março, com mais temporais severos. Mas o El Niño não fabrica cada tempestade: aumenta as chances. A porta continua a mesma.",
+  "fala_tts": "E há o El Niño, que o Simepar classifica como muito forte. A previsão é de chuva acima da média até março, com mais temporais severos. Mas o El Niño não fabrica cada tempestade: aumenta as chances. A porta continua a mesma.",
+  "tela": "E há o El Niño, que o Simepar classifica como muito forte. | A previsão é de chuva acima da média até março, com mais temporais severos. | Mas o El Niño não fabrica cada tempestade: aumenta as chances. A porta continua a mesma.",
+  "fonte": "B7",
+  "ideia": false
+ },
+ {
+  "id": "b40",
+  "cap": "5 · POR QUE TANTO AGORA",
+  "marcha": 2,
+  "fala": "E não confunda com uma temporada certa. No levantamento da UFSM, o maior número de tornados no Sul aparece no inverno, não na primavera. O que faz deste novembro um mês fora da curva é o calor e a chuva de sobra, em cima da mesma geografia.",
+  "fala_tts": "E não confunda com uma temporada certa. No levantamento da UFSM, o maior número de tornados no Sul aparece no inverno, não na primavera. O que faz deste novembro um mês fora da curva é o calor e a chuva de sobra, em cima da mesma geografia.",
+  "tela": "E não confunda com uma temporada certa. | No levantamento da UFSM, o maior número de tornados no Sul aparece no inverno, não na primavera. | O que faz deste novembro um mês fora da curva é o calor e a chuva de sobra, em cima da mesma geografia.",
+  "fonte": "C3 (Lopes & Nascimento 2025: máximo no inverno); N3, B6",
+  "ideia": false
+ },
+ {
+  "id": "b41",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Então, por que o temporal entra pelo oeste do Paraná?",
+  "fala_tts": "Então, por que o temporal entra pelo oeste do Paraná?",
+  "tela": "Então, por que o temporal entra pelo oeste do Paraná?",
+  "fonte": "pergunta do T1",
+  "ideia": true
+ },
+ {
+  "id": "b42",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Porque o oeste é a ponta do estado virada para um dos berçários de tempestades mais intensos do planeta, entre o Paraguai e o norte da Argentina. Porque essas tempestades andam de sudoeste para nordeste, a uns setenta, oitenta quilômetros por hora. E porque essa ponta é a mais baixa e a mais quente do Paraná.",
+  "fala_tts": "Porque o oeste é a ponta do estado virada para um dos berçários de tempestades mais intensos do planeta, entre o Paraguai e o norte da Argentina. Porque essas tempestades andam de sudoeste para nordeste, a uns setenta, oitenta quilômetros por hora. E porque essa ponta é a mais baixa e a mais quente do Paraná.",
+  "tela": "Porque o oeste é a ponta do estado virada para um dos berçários de tempestades mais intensos do planeta, entre o Paraguai e o norte da Argentina. | Porque essas tempestades andam de sudoeste para nordeste, a uns 70, 80 km/h. | E porque essa ponta é a mais baixa e a mais quente do Paraná.",
+  "fonte": "síntese C1, N1, B1, R1",
+  "ideia": false
+ },
+ {
+  "id": "b43",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Em vinte de novembro, isso desenhou uma linha de Capanema a Cornélio Procópio. Em dois mil e vinte e cinco, uma linha de Quedas do Iguaçu a Cantagalo. Um ano de distância, a mesma porta de entrada.",
+  "fala_tts": "Em vinte de novembro, isso desenhou uma linha de Capanema a Cornélio Procópio. Em dois mil e vinte e cinco, uma linha de Quedas do Iguaçu a Cantagalo. Um ano de distância, a mesma porta de entrada.",
+  "tela": "Em 20 de novembro, isso desenhou uma linha de Capanema a Cornélio Procópio. | Em 2025, uma linha de Quedas do Iguaçu a Cantagalo. | Um ano de distância, a mesma porta de entrada.",
+  "fonte": "E4, B1",
+  "ideia": false
+ },
+ {
+  "id": "b44",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "O aviso existe. Segundo o Simepar, o alerta de tempestades daquela sexta saiu antes de os temporais chegarem. Para receber os alertas da Defesa Civil no celular, mande o seu cép por ésse-ême-ésse para quarenta mil cento e noventa e nove.",
+  "fala_tts": "O aviso existe. Segundo o Simepar, o alerta de tempestades daquela sexta saiu antes de os temporais chegarem. Para receber os alertas da Defesa Civil no celular, mande o seu cép por ésse-ême-ésse para quarenta mil cento e noventa e nove.",
+  "tela": "O aviso existe. Segundo o Simepar, o alerta de tempestades daquela sexta saiu antes de os temporais chegarem. | Para receber os alertas da Defesa Civil no celular, mande o seu CEP por SMS para 40199.",
+  "fonte": "E2 (aviso antecipado, S), O1",
+  "ideia": true
+ },
+ {
+  "id": "b45",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "E, quando o alerta tocar, fique longe de árvores, postes e placas. Em vinte de novembro, foi isso que mais caiu: árvores e telhados.",
+  "fala_tts": "E, quando o alerta tocar, fique longe de árvores, postes e placas. Em vinte de novembro, foi isso que mais caiu: árvores e telhados.",
+  "tela": "E, quando o alerta tocar, fique longe de árvores, postes e placas. | Em 20 de novembro, foi isso que mais caiu: árvores e telhados.",
+  "fonte": "O2, E7",
+  "ideia": false
+ },
+ {
+  "id": "b46",
+  "cap": "A RESPOSTA",
+  "marcha": 2,
+  "fala": "Se você quer ver por que o Sul inteiro junta tantos ingredientes de tempestade, o nosso vídeo sobre os tornados do Sul está aqui no canal. Se você tem família no oeste ou no norte do Paraná, manda este vídeo para ela. E se inscreve no Em Relevo, para entender o clima do Brasil no mapa.",
+  "fala_tts": "Se você quer ver por que o Sul inteiro junta tantos ingredientes de tempestade, o nosso vídeo sobre os tornados do Sul está aqui no canal. Se você tem família no oeste ou no norte do Paraná, manda este vídeo para ela. E se inscreve no Em Relevo, para entender o clima do Brasil no mapa.",
+  "tela": "Se você quer ver por que o Sul inteiro junta tantos ingredientes de tempestade, o nosso vídeo sobre os tornados do Sul está aqui no canal. | Se você tem família no oeste ou no norte do Paraná, manda este vídeo para ela. | E se inscreve no Em Relevo, para entender o clima do Brasil no mapa.",
+  "fonte": "CTA: puxa sessão para bG6-E4qjXYc (001, publicado); sem gancho de próximo vídeo",
+  "ideia": false
+ }
+]
