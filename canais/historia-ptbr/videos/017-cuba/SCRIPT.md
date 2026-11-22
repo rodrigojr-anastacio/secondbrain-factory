@@ -1,4 +1,4 @@
-# A história INTEIRA de Cuba em 17 minutos: roteiro
+# A história INTEIRA de Cuba em 18 minutos: roteiro
 
 Pergunta central: Por que Cuba sempre dependeu de um país só para comprar o que ela produz?
 
@@ -6,7 +6,7 @@ Promessa: Por que Cuba sempre dependeu de um país só para comprar o que ela pr
 
 Títulos: T1 "Cuba adoçava o MUNDO. Por que dependia de um país só?" / T2 "Por que Cuba só trocava de COMPRADOR? E o que cobravam?" / T3 "Cuba: como o AÇÚCAR decidiu quem mandava na ilha"
 
-Gerado por `roteiro.py` (fonte única; edite lá). 2122 palavras, ~16:57.1 estimados a 126 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 2195 palavras, ~17:31.9 estimados a 126 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
@@ -47,24 +47,24 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N015]** Então Madri vai além. Em mil setecentos e quarenta, uma companhia de Havana ganha o monopólio do comércio com a Espanha: um único balcão compra e vende quase tudo o que a ilha produz.
 
-**[N016]** Mas comprador único só funciona enquanto ninguém mostra outro. Em mil setecentos e sessenta e dois, os ingleses tomam Havana por onze meses, e navios de outros portos lotam o cais. Cuba descobre que tinha clientes fora da Espanha.
+**[N016]** Mas o comprador único tinha uma cláusula embutida: o preço era sempre o dele. E preço baixo, numa ilha de litoral enorme, vira contrabando. Nem os onze meses de Havana nas mãos dos ingleses, em sessenta e dois, mudam a regra.
 
-**[N017]** O problema era convencer Madri a deixar.
+**[N017]** O problema é que, a cada guerra da Espanha, a regra afrouxava. E alguém do lado de fora estava esperando.
 
 
-## 3. O vizinho em chamas
+## 3. Seiscentos navios
 
-**[N018]** Madri, mil setecentos e noventa e dois. Um advogado de Havana de vinte e poucos anos, Francisco de Arango, entrega à Coroa um discurso comprido. A tese cabe numa frase: a ilha vizinha está pegando fogo, e Cuba pode ficar com o lugar dela.
+**[N018]** Havana, mil oitocentos e cinco. A Espanha está em guerra com a Inglaterra, e os navios espanhóis não chegam. Então o governo abre os portos de Cuba a navios neutros. Em poucos meses, uns seiscentos navios americanos atracam em Havana.
 
-**[N019]** A vizinha era a colônia francesa de São Domingos, a maior produtora de açúcar do mundo, onde os escravizados tinham se rebelado no ano anterior. O açúcar do mundo ficou, de repente, sem fornecedor.
+**[N019]** Repare quem chegou primeiro quando a porta abriu: o vizinho do norte, a uns cento e cinquenta quilômetros. Ele traz farinha e tecido, e leva açúcar e melaço.
 
-**[N020]** Arango pede duas coisas: comércio mais livre e mais africanos escravizados. E consegue. Em poucas décadas, Cuba vira a maior produtora de açúcar do planeta, erguida sobre centenas de milhares de pessoas trazidas à força.
+**[N020]** E o açúcar cubano estava em alta. A colônia francesa de São Domingos, a maior produtora do mundo, tinha sido tomada por uma revolução dos escravizados em noventa e um. Os fazendeiros de Cuba correram para ocupar o lugar, com centenas de milhares de africanos trazidos à força.
 
-**[N021]** Pense no açúcar do seu café. Por boa parte do século dezenove, uma fatia enorme dele saía de uma ilha só.
+**[N021]** Pense no açúcar do seu café: por boa parte do século dezenove, uma fatia enorme dele saía de Cuba. E quem comprava, cada vez mais, falava inglês.
 
-**[N022]** Só que tem um detalhe. A bandeira em Havana continua espanhola, mas quem compra cada vez mais é outro país, logo ali, a uns cento e cinquenta quilômetros. No fim do século, a maior parte do açúcar cubano já ia para os Estados Unidos.
+**[N022]** Só que comprador grande também empresta. Nos anos de mil oitocentos e oitenta, Edwin Atkins, um comerciante de açúcar de Boston, fica com a usina Soledad, perto de Cienfuegos, para acertar uma dívida antiga.
 
-**[N023]** E aí aparece o problema de sempre: e se esse comprador mudasse de ideia?
+**[N023]** A bandeira em Havana continua espanhola. Mas o comprador já tinha virado credor, e o credor começava a virar dono. E aí aparece o problema de sempre: e se esse comprador mudasse de ideia?
 
 
 ## 4. A bandeira de um, o comprador de outro
@@ -73,13 +73,13 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N025]** Em maio, ele escreveu numa revista: o povo que compra, manda. O povo que vende, serve. E o povo que quer morrer vende a um povo só.
 
-**[N026]** Martí sabia do que falava. Cuba tinha feito uma guerra de dez anos pela independência, de sessenta e oito a setenta e oito, e perdido. E agora o açúcar dela dependia de uma lei americana.
+**[N026]** Martí sabia do que falava. Cuba já tinha perdido uma guerra de dez anos pela independência. E agora o açúcar dela dependia de uma lei americana.
 
 **[N027]** Porque, naquele ano, um acordo entre Washington e Madri deixa o açúcar cubano entrar nos Estados Unidos quase sem imposto. A ilha bate recorde de produção. Aí, em noventa e quatro, o Congresso americano muda a lei e volta a cobrar quarenta por cento.
 
 **[N028]** Em dois anos, as vendas para os Estados Unidos caem pela metade. Usina parada é gente sem trabalho no campo. Imagine depender de uma lei votada num país onde você nem vota.
 
-**[N029]** Em fevereiro de noventa e cinco, a guerra recomeça, organizada justamente por Martí, que cai em combate três meses depois. A luta segue, e em noventa e oito os Estados Unidos entram nela. A Espanha sai de Cuba. Só que quem fica com a caneta é o comprador.
+**[N029]** Em fevereiro de noventa e cinco, a guerra recomeça, organizada justamente por Martí, que cai em combate três meses depois. A luta segue, e em noventa e oito os Estados Unidos entram nela. Uma tarifa votada em Washington tinha ajudado a reacender a guerra. A Espanha sai de Cuba. Só que quem fica com a caneta é o comprador.
 
 
 ## 5. Vinte por cento
@@ -103,7 +103,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N037]** Pense na cena: num mesmo mês, Cuba ganha o direito de não ser invadida e perde o direito de decidir quanto vende. Tente explicar essa vitória a um usineiro de Camagüey.
 
-**[N038]** Então, por vinte e cinco anos, a ilha vive em torno de um número escrito em Washington. Cota alta, emprego no campo. Cota baixa, o tempo morto entre uma safra e outra fica mais comprido.
+**[N038]** Então, por vinte e cinco anos, a ilha vive em torno de um número escrito em Washington. Se você cortava cana, cota alta era emprego; cota baixa, o tempo morto entre uma safra e outra ficava mais comprido.
 
 **[N039]** Governos caem e sobem nesse meio-tempo. Em cinquenta e dois, Fulgencio Batista dá um golpe. Mas o número continua lá. E, em cinquenta e nove, chega ao poder alguém que promete rasgá-lo.
 
@@ -116,7 +116,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N042]** Lembra da nossa pergunta? Aqui ela fica mais difícil. Porque, nesses meses, o governo de Fidel Castro desapropria terras, e as refinarias americanas, que se recusam a processar petróleo soviético, são tomadas.
 
-**[N043]** Aí vem o dia seis de julho: Eisenhower corta as setecentas mil toneladas que faltavam. Três dias depois, Khrushchev oferece comprar exatamente as mesmas. Se você é o dono daquele armazém do começo, o seu açúcar troca de mão em setenta e duas horas.
+**[N043]** Aí vem o dia seis de julho, e a cota, cláusula de Washington por vinte e cinco anos, vira arma: Eisenhower corta as setecentas mil toneladas que faltavam. Três dias depois, Khrushchev oferece comprar exatamente as mesmas. Se você é o dono daquele armazém do começo, o seu açúcar troca de mão em setenta e duas horas.
 
 **[N044]** Em sessenta e um, exilados treinados pelos Estados Unidos desembarcam na Baía dos Porcos e são derrotados. Em sessenta e dois, mísseis soviéticos na ilha quase começam uma guerra nuclear, e o embargo americano fica total. O comprador novo tinha chegado. Só que ele também ia cobrar.
 
@@ -127,26 +127,26 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N046]** Preço fixo é o sonho de qualquer produtor. Imagine saber hoje quanto você vai receber por cada saco daqui a seis anos. E as quantidades sobem ano a ano, até cinco milhões de toneladas em setenta.
 
-**[N047]** Só que preço fixo pede promessa fixa. Cuba, que tinha prometido sair do açúcar, faz o contrário: aposta numa colheita de dez milhões de toneladas para mil novecentos e setenta. O país inteiro vai para o canavial.
+**[N047]** Só que preço fixo vinha com volume fixo. Pelo contrato, Cuba tinha de entregar cada vez mais. E o país, que no começo da revolução falava em sair do açúcar, volta para o canavial com tudo.
 
-**[N048]** A safra dá cerca de oito milhões e meio, a maior da história de Cuba, e mesmo assim é um fracasso. Em vinte e seis de julho, Fidel assume em público a responsabilidade. Cuba nunca tinha produzido tanto açúcar. E nunca tinha dependido tanto de quem o comprava.
+**[N048]** Para mil novecentos e setenta, a meta é de dez milhões de toneladas. A safra dá cerca de oito milhões e meio, a maior da história de Cuba. Em vinte e seis de julho, Fidel diz em público que a meta não foi cumprida e assume a responsabilidade.
 
-**[N049]** E aqui está a primeira peça da resposta: o comprador que paga bem não pede pouco. Pede que você continue vendendo a mesma coisa, para ele. Só que o preço dele ainda ia subir muito.
+**[N049]** E aqui está a primeira peça da resposta: o preço garantido vinha amarrado a uma quantidade. Quem garante o seu preço decide o que você planta. Só que esse preço ainda ia subir muito.
 
 
 ## 9. Quase cinco vezes o preço
 
-**[N050]** Moscou, julho de mil novecentos e setenta e dois. Cuba entra no Comecon, o mercado comum do bloco soviético. A partir daí, o açúcar vira moeda: vai para o leste e volta como petróleo, trigo, máquinas e adubo.
+**[N050]** Moscou, julho de mil novecentos e setenta e dois. Cuba entra no Comecon, o bloco econômico soviético, e recebe um papel na divisão de trabalho do bloco. Olhe qual: açúcar, níquel e frutas cítricas.
 
-**[N051]** E o preço? No começo dos anos oitenta, segundo a CIA, Moscou pagava cerca de quarenta e dois centavos por libra, quase cinco vezes o preço do mercado mundial. Em oitenta e sete, uma tonelada de açúcar valia cerca de quatro toneladas e meia de petróleo soviético.
+**[N051]** E o preço? No começo dos anos oitenta, segundo a CIA, Moscou pagava cerca de quarenta e dois centavos por libra, quase cinco vezes o preço do mercado mundial. Só que pagava, em grande parte, em rublos de convênio, uma moeda que só comprava dentro do bloco.
 
-**[N052]** Pense num cliente que paga cinco vezes o preço do seu pão. Você não abre outra padaria: você faz mais pão. Em oitenta e nove, mais de oitenta por cento das exportações cubanas iam para o bloco socialista.
+**[N052]** Tente pagar um hotel em Paris com o vale do mercadinho da sua rua. Era isso: Cuba vendia caro, mas só podia gastar com quem comprava. Em oitenta e nove, mais de oitenta por cento das exportações cubanas iam para o bloco socialista.
 
-**[N053]** Lembra da pergunta? A segunda peça está aqui: quanto melhor o preço, mais caro sair. O preço alto era a corda.
+**[N053]** Lembra da pergunta? A segunda peça está aqui: o comprador pagava bem, mas na moeda dele. Cada dólar que Cuba deixava de ganhar era uma porta de saída a menos.
 
-**[N054]** Então, em mil novecentos e noventa e um, o comprador simplesmente deixa de existir. A União Soviética acaba, e com ela o preço, o petróleo e o trigo. Cuba entra no que o governo chamou de Período Especial: apagões, comida racionada, ônibus parados.
+**[N054]** Então, em mil novecentos e noventa e um, o comprador simplesmente deixa de existir. A União Soviética acaba, e com ela o preço, o petróleo e os rublos que só valiam lá dentro. Cuba entra no que o governo chamou de Período Especial: apagões, comida racionada, ônibus parados.
 
-**[N055]** Sem o preço de Moscou, a safra cai quase à metade em dois anos. E pela primeira vez desde o rei de mil setecentos e dezessete, a ilha não tinha um grande comprador. O problema era achar outro.
+**[N055]** Sem o preço de Moscou, a safra cai quase à metade em dois anos. E, sem dólares, a ilha precisava de alguém que pagasse com o que ela já não podia comprar: petróleo. O problema era achar quem.
 
 
 ## 10. Petróleo por jaleco
@@ -164,7 +164,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Fecho
 
-**[N061]** Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula: o estanco, a cota, o alinhamento, os médicos.
+**[N061]** Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula, que empurrava Cuba para o próximo: o estanco, a tarifa, a cota, o rublo, os médicos.
 
 **[N062]** As setecentas mil toneladas de mil novecentos e sessenta não mudaram de dono. Mudaram de cláusula.
 

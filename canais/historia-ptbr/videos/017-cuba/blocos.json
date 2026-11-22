@@ -91,50 +91,50 @@
  },
  {
   "id": "N016",
-  "texto": "Mas comprador único só funciona enquanto ninguém mostra outro. Em mil setecentos e sessenta e dois, os ingleses tomam Havana por onze meses, e navios de outros portos lotam o cais. Cuba descobre que tinha clientes fora da Espanha.",
-  "tela": "Mas comprador único só funciona enquanto ninguém mostra outro. Em mil setecentos e sessenta e dois, os ingleses tomam Havana por onze meses, e navios de outros portos lotam o cais. Cuba descobre que tinha clientes fora da Espanha.",
+  "texto": "Mas o comprador único tinha uma cláusula embutida: o preço era sempre o dele. E preço baixo, numa ilha de litoral enorme, vira contrabando. Nem os onze meses de Havana nas mãos dos ingleses, em sessenta e dois, mudam a regra.",
+  "tela": "Mas o comprador único tinha uma cláusula embutida: o preço era sempre o dele. E preço baixo, numa ilha de litoral enorme, vira contrabando. Nem os onze meses de Havana nas mãos dos ingleses, em sessenta e dois, mudam a regra.",
   "ideia": false
  },
  {
   "id": "N017",
-  "texto": "O problema era convencer Madri a deixar.",
-  "tela": "O problema era convencer Madri a deixar.",
+  "texto": "O problema é que, a cada guerra da Espanha, a regra afrouxava. E alguém do lado de fora estava esperando.",
+  "tela": "O problema é que, a cada guerra da Espanha, a regra afrouxava. E alguém do lado de fora estava esperando.",
   "ideia": false
  },
  {
   "id": "N018",
-  "texto": "Madri, mil setecentos e noventa e dois. Um advogado de Havana de vinte e poucos anos, Francisco de Arángo, entrega à Coroa um discurso comprido. A tese cabe numa frase: a ilha vizinha está pegando fogo, e Cuba pode ficar com o lugar dela.",
-  "tela": "Madri, mil setecentos e noventa e dois. Um advogado de Havana de vinte e poucos anos, Francisco de Arango, entrega à Coroa um discurso comprido. A tese cabe numa frase: a ilha vizinha está pegando fogo, e Cuba pode ficar com o lugar dela.",
+  "texto": "Havana, mil oitocentos e cinco. A Espanha está em guerra com a Inglaterra, e os navios espanhóis não chegam. Então o governo abre os portos de Cuba a navios neutros. Em poucos meses, uns seiscentos navios americanos atracam em Havana.",
+  "tela": "Havana, mil oitocentos e cinco. A Espanha está em guerra com a Inglaterra, e os navios espanhóis não chegam. Então o governo abre os portos de Cuba a navios neutros. Em poucos meses, uns seiscentos navios americanos atracam em Havana.",
   "ideia": true
  },
  {
   "id": "N019",
-  "texto": "A vizinha era a colônia francesa de São Domingos, a maior produtora de açúcar do mundo, onde os escravizados tinham se rebelado no ano anterior. O açúcar do mundo ficou, de repente, sem fornecedor.",
-  "tela": "A vizinha era a colônia francesa de São Domingos, a maior produtora de açúcar do mundo, onde os escravizados tinham se rebelado no ano anterior. O açúcar do mundo ficou, de repente, sem fornecedor.",
+  "texto": "Repare quem chegou primeiro quando a porta abriu: o vizinho do norte, a uns cento e cinquenta quilômetros. Ele traz farinha e tecido, e leva açúcar e melaço.",
+  "tela": "Repare quem chegou primeiro quando a porta abriu: o vizinho do norte, a uns cento e cinquenta quilômetros. Ele traz farinha e tecido, e leva açúcar e melaço.",
   "ideia": false
  },
  {
   "id": "N020",
-  "texto": "Arángo pede duas coisas: comércio mais livre e mais africanos escravizados. E consegue. Em poucas décadas, Cuba vira a maior produtora de açúcar do planeta, erguida sobre centenas de milhares de pessoas trazidas à força.",
-  "tela": "Arango pede duas coisas: comércio mais livre e mais africanos escravizados. E consegue. Em poucas décadas, Cuba vira a maior produtora de açúcar do planeta, erguida sobre centenas de milhares de pessoas trazidas à força.",
+  "texto": "E o açúcar cubano estava em alta. A colônia francesa de São Domingos, a maior produtora do mundo, tinha sido tomada por uma revolução dos escravizados em noventa e um. Os fazendeiros de Cuba correram para ocupar o lugar, com centenas de milhares de africanos trazidos à força.",
+  "tela": "E o açúcar cubano estava em alta. A colônia francesa de São Domingos, a maior produtora do mundo, tinha sido tomada por uma revolução dos escravizados em noventa e um. Os fazendeiros de Cuba correram para ocupar o lugar, com centenas de milhares de africanos trazidos à força.",
   "ideia": false
  },
  {
   "id": "N021",
-  "texto": "Pense no açúcar do seu café. Por boa parte do século dezenove, uma fatia enorme dele saía de uma ilha só.",
-  "tela": "Pense no açúcar do seu café. Por boa parte do século dezenove, uma fatia enorme dele saía de uma ilha só.",
+  "texto": "Pense no açúcar do seu café: por boa parte do século dezenove, uma fatia enorme dele saía de Cuba. E quem comprava, cada vez mais, falava inglês.",
+  "tela": "Pense no açúcar do seu café: por boa parte do século dezenove, uma fatia enorme dele saía de Cuba. E quem comprava, cada vez mais, falava inglês.",
   "ideia": false
  },
  {
   "id": "N022",
-  "texto": "Só que tem um detalhe. A bandeira em Havana continua espanhola, mas quem compra cada vez mais é outro país, logo ali, a uns cento e cinquenta quilômetros. No fim do século, a maior parte do açúcar cubano já ia para os Estados Unidos.",
-  "tela": "Só que tem um detalhe. A bandeira em Havana continua espanhola, mas quem compra cada vez mais é outro país, logo ali, a uns cento e cinquenta quilômetros. No fim do século, a maior parte do açúcar cubano já ia para os Estados Unidos.",
+  "texto": "Só que comprador grande também empresta. Nos anos de mil oitocentos e oitenta, Edwin Átkins, um comerciante de açúcar de Boston, fica com a usina Soledad, perto de Cienfuêgos, para acertar uma dívida antiga.",
+  "tela": "Só que comprador grande também empresta. Nos anos de mil oitocentos e oitenta, Edwin Atkins, um comerciante de açúcar de Boston, fica com a usina Soledad, perto de Cienfuegos, para acertar uma dívida antiga.",
   "ideia": true
  },
  {
   "id": "N023",
-  "texto": "E aí aparece o problema de sempre: e se esse comprador mudasse de ideia?",
-  "tela": "E aí aparece o problema de sempre: e se esse comprador mudasse de ideia?",
+  "texto": "A bandeira em Havana continua espanhola. Mas o comprador já tinha virado credor, e o credor começava a virar dono. E aí aparece o problema de sempre: e se esse comprador mudasse de ideia?",
+  "tela": "A bandeira em Havana continua espanhola. Mas o comprador já tinha virado credor, e o credor começava a virar dono. E aí aparece o problema de sempre: e se esse comprador mudasse de ideia?",
   "ideia": false
  },
  {
@@ -151,8 +151,8 @@
  },
  {
   "id": "N026",
-  "texto": "Martí sabia do que falava. Cuba tinha feito uma guerra de dez anos pela independência, de sessenta e oito a setenta e oito, e perdido. E agora o açúcar dela dependia de uma lei americana.",
-  "tela": "Martí sabia do que falava. Cuba tinha feito uma guerra de dez anos pela independência, de sessenta e oito a setenta e oito, e perdido. E agora o açúcar dela dependia de uma lei americana.",
+  "texto": "Martí sabia do que falava. Cuba já tinha perdido uma guerra de dez anos pela independência. E agora o açúcar dela dependia de uma lei americana.",
+  "tela": "Martí sabia do que falava. Cuba já tinha perdido uma guerra de dez anos pela independência. E agora o açúcar dela dependia de uma lei americana.",
   "ideia": false
  },
  {
@@ -169,8 +169,8 @@
  },
  {
   "id": "N029",
-  "texto": "Em fevereiro de noventa e cinco, a guerra recomeça, organizada justamente por Martí, que cai em combate três meses depois. A luta segue, e em noventa e oito os Estados Unidos entram nela. A Espanha sai de Cuba. Só que quem fica com a caneta é o comprador.",
-  "tela": "Em fevereiro de noventa e cinco, a guerra recomeça, organizada justamente por Martí, que cai em combate três meses depois. A luta segue, e em noventa e oito os Estados Unidos entram nela. A Espanha sai de Cuba. Só que quem fica com a caneta é o comprador.",
+  "texto": "Em fevereiro de noventa e cinco, a guerra recomeça, organizada justamente por Martí, que cai em combate três meses depois. A luta segue, e em noventa e oito os Estados Unidos entram nela. Uma tarifa votada em Washington tinha ajudado a reacender a guerra. A Espanha sai de Cuba. Só que quem fica com a caneta é o comprador.",
+  "tela": "Em fevereiro de noventa e cinco, a guerra recomeça, organizada justamente por Martí, que cai em combate três meses depois. A luta segue, e em noventa e oito os Estados Unidos entram nela. Uma tarifa votada em Washington tinha ajudado a reacender a guerra. A Espanha sai de Cuba. Só que quem fica com a caneta é o comprador.",
   "ideia": false
  },
  {
@@ -223,8 +223,8 @@
  },
  {
   "id": "N038",
-  "texto": "Então, por vinte e cinco anos, a ilha vive em torno de um número escrito em Washington. Cota alta, emprego no campo. Cota baixa, o tempo morto entre uma safra e outra fica mais comprido.",
-  "tela": "Então, por vinte e cinco anos, a ilha vive em torno de um número escrito em Washington. Cota alta, emprego no campo. Cota baixa, o tempo morto entre uma safra e outra fica mais comprido.",
+  "texto": "Então, por vinte e cinco anos, a ilha vive em torno de um número escrito em Washington. Se você cortava cana, cota alta era emprego; cota baixa, o tempo morto entre uma safra e outra ficava mais comprido.",
+  "tela": "Então, por vinte e cinco anos, a ilha vive em torno de um número escrito em Washington. Se você cortava cana, cota alta era emprego; cota baixa, o tempo morto entre uma safra e outra ficava mais comprido.",
   "ideia": true
  },
  {
@@ -253,8 +253,8 @@
  },
  {
   "id": "N043",
-  "texto": "Aí vem o dia seis de julho: Áisen-rauer corta as setecentas mil toneladas que faltavam. Três dias depois, Krushóv oferece comprar exatamente as mesmas. Se você é o dono daquele armazém do começo, o seu açúcar troca de mão em setenta e duas horas.",
-  "tela": "Aí vem o dia seis de julho: Eisenhower corta as setecentas mil toneladas que faltavam. Três dias depois, Khrushchev oferece comprar exatamente as mesmas. Se você é o dono daquele armazém do começo, o seu açúcar troca de mão em setenta e duas horas.",
+  "texto": "Aí vem o dia seis de julho, e a cota, cláusula de Washington por vinte e cinco anos, vira arma: Áisen-rauer corta as setecentas mil toneladas que faltavam. Três dias depois, Krushóv oferece comprar exatamente as mesmas. Se você é o dono daquele armazém do começo, o seu açúcar troca de mão em setenta e duas horas.",
+  "tela": "Aí vem o dia seis de julho, e a cota, cláusula de Washington por vinte e cinco anos, vira arma: Eisenhower corta as setecentas mil toneladas que faltavam. Três dias depois, Khrushchev oferece comprar exatamente as mesmas. Se você é o dono daquele armazém do começo, o seu açúcar troca de mão em setenta e duas horas.",
   "ideia": true
  },
  {
@@ -277,56 +277,56 @@
  },
  {
   "id": "N047",
-  "texto": "Só que preço fixo pede promessa fixa. Cuba, que tinha prometido sair do açúcar, faz o contrário: aposta numa colheita de dez milhões de toneladas para mil novecentos e setenta. O país inteiro vai para o canavial.",
-  "tela": "Só que preço fixo pede promessa fixa. Cuba, que tinha prometido sair do açúcar, faz o contrário: aposta numa colheita de dez milhões de toneladas para mil novecentos e setenta. O país inteiro vai para o canavial.",
+  "texto": "Só que preço fixo vinha com volume fixo. Pelo contrato, Cuba tinha de entregar cada vez mais. E o país, que no começo da revolução falava em sair do açúcar, volta para o canavial com tudo.",
+  "tela": "Só que preço fixo vinha com volume fixo. Pelo contrato, Cuba tinha de entregar cada vez mais. E o país, que no começo da revolução falava em sair do açúcar, volta para o canavial com tudo.",
   "ideia": false
  },
  {
   "id": "N048",
-  "texto": "A safra dá cerca de oito milhões e meio, a maior da história de Cuba, e mesmo assim é um fracasso. Em vinte e seis de julho, Fidel assume em público a responsabilidade. Cuba nunca tinha produzido tanto açúcar. E nunca tinha dependido tanto de quem o comprava.",
-  "tela": "A safra dá cerca de oito milhões e meio, a maior da história de Cuba, e mesmo assim é um fracasso. Em vinte e seis de julho, Fidel assume em público a responsabilidade. Cuba nunca tinha produzido tanto açúcar. E nunca tinha dependido tanto de quem o comprava.",
+  "texto": "Para mil novecentos e setenta, a meta é de dez milhões de toneladas. A safra dá cerca de oito milhões e meio, a maior da história de Cuba. Em vinte e seis de julho, Fidel diz em público que a meta não foi cumprida e assume a responsabilidade.",
+  "tela": "Para mil novecentos e setenta, a meta é de dez milhões de toneladas. A safra dá cerca de oito milhões e meio, a maior da história de Cuba. Em vinte e seis de julho, Fidel diz em público que a meta não foi cumprida e assume a responsabilidade.",
   "ideia": true
  },
  {
   "id": "N049",
-  "texto": "E aqui está a primeira peça da resposta: o comprador que paga bem não pede pouco. Pede que você continue vendendo a mesma coisa, para ele. Só que o preço dele ainda ia subir muito.",
-  "tela": "E aqui está a primeira peça da resposta: o comprador que paga bem não pede pouco. Pede que você continue vendendo a mesma coisa, para ele. Só que o preço dele ainda ia subir muito.",
+  "texto": "E aqui está a primeira peça da resposta: o preço garantido vinha amarrado a uma quantidade. Quem garante o seu preço decide o que você planta. Só que esse preço ainda ia subir muito.",
+  "tela": "E aqui está a primeira peça da resposta: o preço garantido vinha amarrado a uma quantidade. Quem garante o seu preço decide o que você planta. Só que esse preço ainda ia subir muito.",
   "ideia": false
  },
  {
   "id": "N050",
-  "texto": "Moscou, julho de mil novecentos e setenta e dois. Cuba entra no Cômecon, o mercado comum do bloco soviético. A partir daí, o açúcar vira moeda: vai para o leste e volta como petróleo, trigo, máquinas e adubo.",
-  "tela": "Moscou, julho de mil novecentos e setenta e dois. Cuba entra no Comecon, o mercado comum do bloco soviético. A partir daí, o açúcar vira moeda: vai para o leste e volta como petróleo, trigo, máquinas e adubo.",
+  "texto": "Moscou, julho de mil novecentos e setenta e dois. Cuba entra no Cômecon, o bloco econômico soviético, e recebe um papel na divisão de trabalho do bloco. Olhe qual: açúcar, níquel e frutas cítricas.",
+  "tela": "Moscou, julho de mil novecentos e setenta e dois. Cuba entra no Comecon, o bloco econômico soviético, e recebe um papel na divisão de trabalho do bloco. Olhe qual: açúcar, níquel e frutas cítricas.",
   "ideia": true
  },
  {
   "id": "N051",
-  "texto": "E o preço? No começo dos anos oitenta, segundo a CIA, Moscou pagava cerca de quarenta e dois centavos por libra, quase cinco vezes o preço do mercado mundial. Em oitenta e sete, uma tonelada de açúcar valia cerca de quatro toneladas e meia de petróleo soviético.",
-  "tela": "E o preço? No começo dos anos oitenta, segundo a CIA, Moscou pagava cerca de quarenta e dois centavos por libra, quase cinco vezes o preço do mercado mundial. Em oitenta e sete, uma tonelada de açúcar valia cerca de quatro toneladas e meia de petróleo soviético.",
+  "texto": "E o preço? No começo dos anos oitenta, segundo a CIA, Moscou pagava cerca de quarenta e dois centavos por libra, quase cinco vezes o preço do mercado mundial. Só que pagava, em grande parte, em rublos de convênio, uma moeda que só comprava dentro do bloco.",
+  "tela": "E o preço? No começo dos anos oitenta, segundo a CIA, Moscou pagava cerca de quarenta e dois centavos por libra, quase cinco vezes o preço do mercado mundial. Só que pagava, em grande parte, em rublos de convênio, uma moeda que só comprava dentro do bloco.",
   "ideia": false
  },
  {
   "id": "N052",
-  "texto": "Pense num cliente que paga cinco vezes o preço do seu pão. Você não abre outra padaria: você faz mais pão. Em oitenta e nove, mais de oitenta por cento das exportações cubanas iam para o bloco socialista.",
-  "tela": "Pense num cliente que paga cinco vezes o preço do seu pão. Você não abre outra padaria: você faz mais pão. Em oitenta e nove, mais de oitenta por cento das exportações cubanas iam para o bloco socialista.",
+  "texto": "Tente pagar um hotel em Paris com o vale do mercadinho da sua rua. Era isso: Cuba vendia caro, mas só podia gastar com quem comprava. Em oitenta e nove, mais de oitenta por cento das exportações cubanas iam para o bloco socialista.",
+  "tela": "Tente pagar um hotel em Paris com o vale do mercadinho da sua rua. Era isso: Cuba vendia caro, mas só podia gastar com quem comprava. Em oitenta e nove, mais de oitenta por cento das exportações cubanas iam para o bloco socialista.",
   "ideia": false
  },
  {
   "id": "N053",
-  "texto": "Lembra da pergunta? A segunda peça está aqui: quanto melhor o preço, mais caro sair. O preço alto era a corda.",
-  "tela": "Lembra da pergunta? A segunda peça está aqui: quanto melhor o preço, mais caro sair. O preço alto era a corda.",
+  "texto": "Lembra da pergunta? A segunda peça está aqui: o comprador pagava bem, mas na moeda dele. Cada dólar que Cuba deixava de ganhar era uma porta de saída a menos.",
+  "tela": "Lembra da pergunta? A segunda peça está aqui: o comprador pagava bem, mas na moeda dele. Cada dólar que Cuba deixava de ganhar era uma porta de saída a menos.",
   "ideia": false
  },
  {
   "id": "N054",
-  "texto": "Então, em mil novecentos e noventa e um, o comprador simplesmente deixa de existir. A União Soviética acaba, e com ela o preço, o petróleo e o trigo. Cuba entra no que o governo chamou de Período Especial: apagões, comida racionada, ônibus parados.",
-  "tela": "Então, em mil novecentos e noventa e um, o comprador simplesmente deixa de existir. A União Soviética acaba, e com ela o preço, o petróleo e o trigo. Cuba entra no que o governo chamou de Período Especial: apagões, comida racionada, ônibus parados.",
+  "texto": "Então, em mil novecentos e noventa e um, o comprador simplesmente deixa de existir. A União Soviética acaba, e com ela o preço, o petróleo e os rublos que só valiam lá dentro. Cuba entra no que o governo chamou de Período Especial: apagões, comida racionada, ônibus parados.",
+  "tela": "Então, em mil novecentos e noventa e um, o comprador simplesmente deixa de existir. A União Soviética acaba, e com ela o preço, o petróleo e os rublos que só valiam lá dentro. Cuba entra no que o governo chamou de Período Especial: apagões, comida racionada, ônibus parados.",
   "ideia": true
  },
  {
   "id": "N055",
-  "texto": "Sem o preço de Moscou, a safra cai quase à metade em dois anos. E pela primeira vez desde o rei de mil setecentos e dezessete, a ilha não tinha um grande comprador. O problema era achar outro.",
-  "tela": "Sem o preço de Moscou, a safra cai quase à metade em dois anos. E pela primeira vez desde o rei de mil setecentos e dezessete, a ilha não tinha um grande comprador. O problema era achar outro.",
+  "texto": "Sem o preço de Moscou, a safra cai quase à metade em dois anos. E, sem dólares, a ilha precisava de alguém que pagasse com o que ela já não podia comprar: petróleo. O problema era achar quem.",
+  "tela": "Sem o preço de Moscou, a safra cai quase à metade em dois anos. E, sem dólares, a ilha precisava de alguém que pagasse com o que ela já não podia comprar: petróleo. O problema era achar quem.",
   "ideia": false
  },
  {
@@ -361,8 +361,8 @@
  },
  {
   "id": "N061",
-  "texto": "[warm] Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula: o estanco, a cota, o alinhamento, os médicos.",
-  "tela": "[warm] Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula: o estanco, a cota, o alinhamento, os médicos.",
+  "texto": "[warm] Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula, que empurrava Cuba para o próximo: o estanco, a tarifa, a cota, o rublo, os médicos.",
+  "tela": "[warm] Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula, que empurrava Cuba para o próximo: o estanco, a tarifa, a cota, o rublo, os médicos.",
   "ideia": true
  },
  {
