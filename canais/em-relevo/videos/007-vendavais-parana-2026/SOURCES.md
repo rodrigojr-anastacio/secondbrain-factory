@@ -23,16 +23,16 @@ Fonte de cada fato: `pesquisa/FATOS.md` (IDs E, N, R, C, B, O; URL e tipo P/S/N 
 | b18 | recapitulação do 001 (Amazônia, Andes, ar frio) | 001 | — | **consenso** (1 frase, de propósito, com convite ao 001) |
 | b19 | UFSM: 310 tornados; maior frequência inclui o sudoeste do PR | C3 | P | sim |
 | b20–b22 | escada: Pico Paraná 1.877 m, Curitiba ~930 m, Guarapuava > 1.000 m, Cascavel ~780 m, Foz ~160 m | R1–R3, N4 | S → N4 | sim |
-| b23 | gradiente térmico médio ~0,6 °C/100 m | física da troposfera (atmosfera padrão) | P (livro-texto) | sim |
+| b23 | gradiente térmico médio ~0,6 °C/100 m | Atmosfera Padrão ICAO (6,5 °C/km na troposfera; Doc 7488) | P | sim |
 | b24 | previsão > 30 °C no norte; temporais favorecidos por calor e umidade | E1 | P | sim |
 | b25 | Curitiba × Foz: ~770 m → ~4,6 °C (cálculo) | N4 + b23 | N | sim |
 | b26 | "a ladeira não puxa a tempestade" (ressalva do crivo r3) | síntese | — | sim |
 | b27 | a ~70 km/h, o norte só à noite (paga o loop do b13) | N1, E4 | N | sim |
 | b28 | o vento mais forte quase na saída (98,3 em Cornélio) | E4 | S | sim |
-| b29–b31 | 2025: supercélula ~270 km a ~80 km/h; trilha de 75 km Quedas do Iguaçu → Cantagalo; Rio Bonito ~18h, até ~3,25 km, F4, "um dos maiores em 30 anos" | B1 | P | o rastro/velocidade sim; Rio Bonito como lugar é consenso |
+| b29–b31 | 2025: supercélula ~270 km a ~80 km/h; trilha de 75 km Quedas do Iguaçu → Cantagalo; Rio Bonito ~18h, F4, "um dos maiores em 30 anos" | B1 | P | o rastro/velocidade sim; Rio Bonito como lugar é consenso |
 | b32 | tornado 2 da mesma supercélula: Candói e Entre Rios (Guarapuava), ~44 km | B1 | P | sim |
 | b33–b34 | as duas linhas lado a lado; "mesmo lado" = mesma porta | B1 + N1 | P/N | sim |
-| b35 | Maringá F2 em 02/11 (~15 km, madrugada); 493 mil sem luz em 07/11 | B2, B4 | P | parcial (Maringá apareceu na TV) |
+| b35 | 493 mil sem luz em 07/11 (maior do ano); 15 tornados classificados no PR em 2026 até 06/11 | B4, B5 | P | sim |
 | b36–b37 | IMERG 1–20/11: ~175 mm × ~108 esperados (+61%) | N3 | N | sim |
 | b38 | 33 estações > 30 °C em 12/11; Cerro Azul 35,1 °C | B6 | P | sim |
 | b39 | El Niño muito forte; chuva acima da média até março; aumenta chances | B7 | P | consenso como tema (manada fala de El Niño) — aqui 1 bloco, com cautela |

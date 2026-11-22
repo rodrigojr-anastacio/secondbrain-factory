@@ -1,6 +1,6 @@
 {
  "_doc": "Etapa 1: plano por bloco (tempos estimados). A etapa 2 converte em cues.json amarrado ao Whisper.",
- "duracao_est_s": 593.1,
+ "duracao_est_s": 594.8,
  "blocos": [
   {
    "id": "b01",
@@ -282,20 +282,20 @@
    "id": "b19",
    "cap": "2 · DE ONDE ELE VEM",
    "t_est": 231.1,
-   "dur_est": 12.0,
+   "dur_est": 13.4,
    "estilo": "B",
    "transicao": "",
    "plano": "Mapa do Sul com a faixa de maior frequência de tornados do levantamento da UFSM (norte do RS, oeste de SC, sudoeste do PR) em coral translúcido; a borda oeste do PR acende.",
    "camadas": [
     "etiqueta UFSM · 310 TORNADOS REGISTRADOS NO SUL",
-    "rótulo O LADO DA PORTA"
+    "rótulo O LADO DE ONDE O TEMPORAL CHEGA"
    ],
    "midias": []
   },
   {
    "id": "b20",
    "cap": "3 · A ESCADA DO PARANÁ",
-   "t_est": 243.1,
+   "t_est": 244.5,
    "dur_est": 4.7,
    "estilo": "A",
    "transicao": "giro de câmera para vista lateral (whoosh longo)",
@@ -309,7 +309,7 @@
   {
    "id": "b21",
    "cap": "3 · A ESCADA DO PARANÁ",
-   "t_est": 247.9,
+   "t_est": 249.2,
    "dur_est": 18.5,
    "estilo": "B",
    "transicao": "",
@@ -322,7 +322,7 @@
   {
    "id": "b22",
    "cap": "3 · A ESCADA DO PARANÁ",
-   "t_est": 266.4,
+   "t_est": 267.8,
    "dur_est": 10.6,
    "estilo": "B",
    "transicao": "",
@@ -336,7 +336,7 @@
   {
    "id": "b23",
    "cap": "3 · A ESCADA DO PARANÁ",
-   "t_est": 277.0,
+   "t_est": 278.4,
    "dur_est": 15.1,
    "estilo": "B",
    "transicao": "",
@@ -350,7 +350,7 @@
   {
    "id": "b24",
    "cap": "3 · A ESCADA DO PARANÁ",
-   "t_est": 292.1,
+   "t_est": 293.4,
    "dur_est": 13.0,
    "estilo": "A",
    "transicao": "",
@@ -364,7 +364,7 @@
   {
    "id": "b25",
    "cap": "3 · A ESCADA DO PARANÁ",
-   "t_est": 305.1,
+   "t_est": 306.5,
    "dur_est": 15.1,
    "estilo": "B",
    "transicao": "",
@@ -377,7 +377,7 @@
   {
    "id": "b26",
    "cap": "3 · A ESCADA DO PARANÁ",
-   "t_est": 320.2,
+   "t_est": 321.5,
    "dur_est": 10.6,
    "estilo": "A",
    "transicao": "",
@@ -391,7 +391,7 @@
   {
    "id": "b27",
    "cap": "3 · A ESCADA DO PARANÁ",
-   "t_est": 330.8,
+   "t_est": 332.1,
    "dur_est": 15.1,
    "estilo": "B",
    "transicao": "",
@@ -405,7 +405,7 @@
   {
    "id": "b28",
    "cap": "3 · A ESCADA DO PARANÁ",
-   "t_est": 345.8,
+   "t_est": 347.2,
    "dur_est": 13.0,
    "estilo": "A",
    "transicao": "",
@@ -419,7 +419,7 @@
   {
    "id": "b29",
    "cap": "4 · O MESMO LADO",
-   "t_est": 358.9,
+   "t_est": 360.2,
    "dur_est": 4.4,
    "estilo": "A",
    "transicao": "dissolve de dia (troca de data)",
@@ -433,7 +433,7 @@
   {
    "id": "b30",
    "cap": "4 · O MESMO LADO",
-   "t_est": 363.3,
+   "t_est": 364.6,
    "dur_est": 17.8,
    "estilo": "A",
    "transicao": "",
@@ -453,13 +453,12 @@
   {
    "id": "b31",
    "cap": "4 · O MESMO LADO",
-   "t_est": 381.1,
-   "dur_est": 13.0,
+   "t_est": 382.5,
+   "dur_est": 10.9,
    "estilo": "A",
    "transicao": "",
-   "plano": "Zoom em Rio Bonito do Iguaçu: largura do rastro como uma régua; foto aérea CC0 em plano bem largo (cidade inteira, sem zoom em entulho, sem pessoas) por 2 s.",
+   "plano": "Zoom em Rio Bonito do Iguaçu; foto aérea CC0 em plano bem largo (cidade inteira, sem zoom em entulho, sem pessoas) por 2 s.",
    "camadas": [
-    "régua ATÉ ~3,25 KM DE LARGURA",
     "ficha F4 · UM DOS MAIORES DO PR EM 30 ANOS (SIMEPAR)"
    ],
    "midias": [
@@ -473,7 +472,7 @@
   {
    "id": "b32",
    "cap": "4 · O MESMO LADO",
-   "t_est": 394.1,
+   "t_est": 393.4,
    "dur_est": 12.3,
    "estilo": "A",
    "transicao": "",
@@ -487,7 +486,7 @@
   {
    "id": "b33",
    "cap": "4 · O MESMO LADO",
-   "t_est": 406.4,
+   "t_est": 405.7,
    "dur_est": 16.5,
    "estilo": "B",
    "transicao": "",
@@ -495,14 +494,14 @@
    "camadas": [
     "rótulos 2025 · 2026",
     "fichas 80 KM/H · 70 KM/H",
-    "rótulo A MESMA PORTA: O OESTE"
+    "rótulo A MESMA ENTRADA: O OESTE"
    ],
    "midias": []
   },
   {
    "id": "b34",
    "cap": "4 · O MESMO LADO",
-   "t_est": 422.9,
+   "t_est": 422.2,
    "dur_est": 9.2,
    "estilo": "B",
    "transicao": "",
@@ -522,28 +521,28 @@
   {
    "id": "b35",
    "cap": "4 · O MESMO LADO",
-   "t_est": 432.1,
-   "dur_est": 16.8,
+   "t_est": 431.4,
+   "dur_est": 18.5,
    "estilo": "A",
    "transicao": "",
-   "plano": "Calendário de novembro de 2026 no canto; dia 2 acende com Maringá (pino + rastro de 15 km), dia 7 com o contador 493 mil.",
+   "plano": "Calendário de novembro de 2026 no canto; dia 7 acende com o contador 493 mil; depois um contador de tornados do ano no PR chega a 15 (pinos discretos no mapa, sem fotos).",
    "camadas": [
-    "calendário NOV 2026: 2 · 7 · 20",
-    "pino MARINGÁ · F2 · ~15 KM",
-    "contador 493 MIL SEM LUZ · MAIOR DO ANO"
+    "calendário NOV 2026: 7 · 20",
+    "contador 493 MIL SEM LUZ · MAIOR DO ANO",
+    "contador 15 TORNADOS NO PR EM 2026 (SIMEPAR, ATÉ 6/11)"
    ],
    "midias": [
     {
      "arquivo": "dl/fotos/aen-maringa-2026-11-04-defesacivil.jpg",
-     "gatilho": "Maringá",
-     "formato": "quadro médio 2 s; legenda MARINGÁ · NOV 2026 (conferir legenda/crédito da AEN)"
+     "gatilho": "tornados",
+     "formato": "quadro médio 2 s; estrago de tornado deste novembro; legenda MARINGÁ · NOV 2026 (conferir legenda/crédito da AEN)"
     }
    ]
   },
   {
    "id": "b36",
    "cap": "5 · POR QUE TANTO AGORA",
-   "t_est": 448.9,
+   "t_est": 450.0,
    "dur_est": 4.0,
    "estilo": "B",
    "transicao": "",
@@ -557,7 +556,7 @@
   {
    "id": "b37",
    "cap": "5 · POR QUE TANTO AGORA",
-   "t_est": 453.0,
+   "t_est": 454.0,
    "dur_est": 15.8,
    "estilo": "G",
    "transicao": "",
@@ -583,7 +582,7 @@
   {
    "id": "b38",
    "cap": "5 · POR QUE TANTO AGORA",
-   "t_est": 468.7,
+   "t_est": 469.8,
    "dur_est": 11.6,
    "estilo": "B",
    "transicao": "",
@@ -597,7 +596,7 @@
   {
    "id": "b39",
    "cap": "5 · POR QUE TANTO AGORA",
-   "t_est": 480.4,
+   "t_est": 481.4,
    "dur_est": 15.1,
    "estilo": "B",
    "transicao": "",
@@ -611,7 +610,7 @@
   {
    "id": "b40",
    "cap": "5 · POR QUE TANTO AGORA",
-   "t_est": 495.5,
+   "t_est": 496.5,
    "dur_est": 16.8,
    "estilo": "B",
    "transicao": "",
@@ -625,7 +624,7 @@
   {
    "id": "b41",
    "cap": "A RESPOSTA",
-   "t_est": 512.3,
+   "t_est": 513.3,
    "dur_est": 4.0,
    "estilo": "A",
    "transicao": "recuo para o Paraná inteiro (sem corte)",
@@ -639,8 +638,8 @@
   {
    "id": "b42",
    "cap": "A RESPOSTA",
-   "t_est": 516.3,
-   "dur_est": 19.9,
+   "t_est": 517.4,
+   "dur_est": 21.3,
    "estilo": "A",
    "transicao": "",
    "plano": "As três camadas acendem uma a uma: (1) o berçário a oeste (mancha quente do b16), (2) a reta sudoeste → nordeste com 70–80 km/h, (3) a ponta baixa e quente (degradê do b23).",
@@ -652,21 +651,21 @@
   {
    "id": "b43",
    "cap": "A RESPOSTA",
-   "t_est": 536.2,
-   "dur_est": 13.4,
+   "t_est": 538.6,
+   "dur_est": 12.7,
    "estilo": "B",
    "transicao": "",
    "plano": "As duas linhas (2026 coral, 2025 amarela) lado a lado, fixas; texto final.",
    "camadas": [
     "rótulos CAPANEMA → CORNÉLIO PROCÓPIO (2026) · QUEDAS DO IGUAÇU → CANTAGALO (2025)",
-    "frase UM ANO DE DISTÂNCIA, A MESMA PORTA"
+    "frase UM ANO DE DISTÂNCIA, A MESMA DIREÇÃO"
    ],
    "midias": []
   },
   {
    "id": "b44",
    "cap": "A RESPOSTA",
-   "t_est": 549.6,
+   "t_est": 551.3,
    "dur_est": 14.7,
    "estilo": "B",
    "transicao": "",
@@ -680,7 +679,7 @@
   {
    "id": "b45",
    "cap": "A RESPOSTA",
-   "t_est": 564.3,
+   "t_est": 566.0,
    "dur_est": 8.9,
    "estilo": "A",
    "transicao": "",
@@ -699,7 +698,7 @@
   {
    "id": "b46",
    "cap": "A RESPOSTA",
-   "t_est": 573.2,
+   "t_est": 574.9,
    "dur_est": 19.9,
    "estilo": "B",
    "transicao": "",

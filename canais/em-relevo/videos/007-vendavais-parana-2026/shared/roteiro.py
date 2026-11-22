@@ -104,7 +104,7 @@ b(C2,
   "Por que aqui, a gente já mostrou em outro vídeo do canal: umidade da Amazônia, a cordilheira dos Andes, o ar frio do sul.\nAqui, o que interessa é de que lado ele fica.\nO berçário dessas tempestades fica a oeste do Paraná.",
   "recapitulação do 001 (bG6-E4qjXYc); C1")
 b(C2,
-  "Um levantamento da Universidade Federal de Santa Maria reuniu 310 tornados registrados no Sul.\nA faixa de maior frequência: norte gaúcho, oeste catarinense e sudoeste do Paraná.\nO lado da porta.",
+  "Um levantamento da Universidade Federal de Santa Maria reuniu 310 tornados registrados no Sul.\nA faixa de maior frequência: norte gaúcho, oeste catarinense e sudoeste do Paraná.\nJustamente o lado de onde o temporal chega.",
   "C3 (Lopes & Nascimento 2025)")
 
 # ---------------- 3 · A ESCADA DO PARANÁ ----------------
@@ -146,20 +146,20 @@ b(C4,
   "7 de novembro de 2025.\nPelo laudo do Simepar, uma supercélula percorreu uns 270 km, a uns 80 km/h.\nO tornado mais forte deixou um rastro de 75 km, de Quedas do Iguaçu até Cantagalo: de oeste para leste.",
   "B1")
 b(C4,
-  "Em Rio Bonito do Iguaçu, ele chegou por volta das 6 da tarde, com até 3 km de largura, e foi classificado como F4.\nPara o Simepar, um dos maiores do estado em 30 anos.",
+  "Em Rio Bonito do Iguaçu, ele chegou por volta das 6 da tarde e foi classificado como F4.\nPara o Simepar, um dos maiores do estado em 30 anos.",
   "B1")
 b(C4,
   "E a mesma tempestade seguiu para o leste.\nAdiante, gerou outro tornado, que passou por Candói e por Entre Rios, em Guarapuava, num rastro de 44 km.\nUma supercélula, uma direção só.",
   "B1 (laudo: tornado 2 da mesma supercélula, Candói F2 e Entre Rios F4, ~44 km)")
 b(C4,
-  "Ponha as duas linhas lado a lado: a de 2025 e a de 2026.\nA mesma porta, o oeste. A mesma direção, para o leste.\nE quase a mesma velocidade: 80 e 70 km/h.",
+  "Ponha as duas linhas lado a lado: a de 2025 e a de 2026.\nA mesma entrada, o oeste. A mesma direção, para o leste.\nE quase a mesma velocidade: 80 e 70 km/h.",
   "B1 + N1", ideia=True)
 b(C4,
   "Mesmo lado não quer dizer a mesma cidade.\nQuer dizer a mesma porta de entrada: o oeste e o sudoeste, de frente para o berçário.",
   "síntese B1, N1, C3")
 b(C4,
-  "E este novembro não parou em 20 de novembro.\nNo dia 2, um tornado F2 cruzou Maringá de madrugada, num rastro de uns 15 km.\nNo dia 7, a Copel chegou a 493 mil imóveis sem luz, o maior número do ano.",
-  "B2, B4")
+  "E este novembro não parou em 20 de novembro.\nNo dia 7, a Copel chegou a 493 mil imóveis sem luz, o maior número do ano.\nE, até o começo do mês, o Simepar já tinha classificado 15 tornados no Paraná em 2026.",
+  "B4, B5")
 
 # ---------------- 5 · POR QUE TANTO AGORA ----------------
 b(C5,
@@ -184,10 +184,10 @@ b(R,
   "Então, por que o temporal entra pelo oeste do Paraná?",
   "pergunta do T1", ideia=True)
 b(R,
-  "Porque o oeste é a ponta do estado virada para um dos berçários de tempestades mais intensos do planeta, entre o Paraguai e o norte da Argentina.\nPorque essas tempestades andam de sudoeste para nordeste, a uns 70, 80 km/h.\nE porque essa ponta é a mais baixa e a mais quente do Paraná.",
+  "Porque o oeste é a ponta do estado virada para um dos berçários de tempestades mais intensos do planeta, entre o Paraguai e o norte da Argentina.\nPorque essas tempestades andam de sudoeste para nordeste, a uns 70, 80 km/h.\nE porque a primeira terra que elas encontram é a ponta mais baixa e mais quente do Paraná.",
   "síntese C1, N1, B1, R1")
 b(R,
-  "Em 20 de novembro, isso desenhou uma linha de Capanema a Cornélio Procópio.\nEm 2025, uma linha de Quedas do Iguaçu a Cantagalo.\nUm ano de distância, a mesma porta de entrada.",
+  "Em 20 de novembro, isso desenhou uma linha de Capanema a Cornélio Procópio.\nEm 2025, uma linha de Quedas do Iguaçu a Cantagalo.\nUm ano de distância, a mesma direção.",
   "E4, B1")
 b(R,
   "O aviso existe. Segundo o Simepar, o alerta de tempestades daquela sexta saiu antes de os temporais chegarem.\nPara receber os alertas da Defesa Civil no celular, mande o seu CEP por SMS para 40199.",

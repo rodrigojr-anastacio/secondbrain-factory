@@ -17,14 +17,14 @@ O crivo reprovou na 1ª e na 2ª rodadas, e os motivos ajudaram:
 
 Prévias a 320 px: `embalagem/previas-r3-320.jpg`.
 
-## 3. Estrutura (~9:50)
+## 3. Estrutura (~9:55)
 | tempo | bloco | no mapa | o que conta |
 |---|---|---|---|
 | 0:00–0:38 | Hook | pino em Capanema, voo de 423 km até Cornélio Procópio, Rio Bonito 2025 | 81,7 → 98,3 km/h, dois tornados, "de novo pelo mesmo lado?" |
 | 0:38–2:25 | 1 · O rastro de uma tarde | as estações acendem na hora do pico e viram uma reta; gráfico hora × distância | ~70 km/h. As exceções (Paranaguá, Cambará) são ditas. F1 em Foz e Manoel Ribas, 353.849 imóveis sem luz |
 | 2:25–4:00 | 2 · De onde ele vem | satélite GOES-19 das 9h às 20h; continente; mapa da UFSM | baixa pressão sobre o Paraguai; tempestades mais intensas a leste dos Andes (NASA); sudoeste do PR no topo dos tornados do Sul |
 | 4:00–6:05 | 3 · A escada do Paraná | o estado de lado: Serra do Mar 1.877 m → Foz ~160 m | o oeste é a ponta baixa e quente; "a ladeira não puxa"; à noite no norte por causa da velocidade |
-| 6:05–7:50 | 4 · O mesmo lado | rastro de Rio Bonito 2025 (laudo, Sentinel-2) ao lado da reta de 2026 | supercélula de 270 km a 80 km/h, de oeste para leste; Maringá F2 (2/11); 493 mil sem luz (7/11) |
+| 6:05–7:50 | 4 · O mesmo lado | rastro de Rio Bonito 2025 (laudo, Sentinel-2) ao lado da reta de 2026 | supercélula de 270 km a 80 km/h, de oeste para leste; 493 mil sem luz (7/11); 15 tornados no PR em 2026 |
 | 7:50–8:55 | 5 · Por que tanto agora | chuva da NASA de 1 a 20/11 | +60% de chuva, 35 °C, El Niño (aumenta a chance, não causa cada temporal) |
 | 8:55–9:50 | Resposta e fecho | as 3 camadas e as duas linhas | SMS 40199; longe de árvores e postes; convite para o 001 |
 
@@ -38,12 +38,12 @@ Prévias a 320 px: `embalagem/previas-r3-320.jpg`.
 7. Chuva de 1 a 20/11 no Paraná: ~175 mm, contra ~108 mm normais. Fonte: NASA IMERG, cálculo nosso.
 
 ## 5. Tamanho
-1.656 palavras, 46 blocos, ~9:50 (o canal pede 10–11 min). Custo da etapa 2: até US$ 3 (voz + render). Imagens: US$ 0, sem IA.
+1.661 palavras, 46 blocos, ~9:55 (o canal pede 10–11 min). Custo da etapa 2: até US$ 3 (voz + render). Imagens: US$ 0, sem IA.
 
 ## 6. O que precisa da sua decisão
 - **Notícia × evergreen:** o 20/11 é o gancho, mas a pergunta vale para qualquer temporal. A bíblia pedia "0 quente até o 1º hit". **Recomendo seguir**, porque o vídeo envelhece bem.
 - **Fatos de 20/11 só em imprensa** (Simepar, Copel e Defesa Civil citados pela imprensa). A AEN ainda não publicou. A etapa 2 reconfere antes da voz; o que não confirmar vira "segundo o Simepar".
 - **Fotos de 20/11:** a AEN ainda não tem fotos CC0 do dia. O vídeo usa satélite, mapa e fotos CC0 de outros temporais do mês, com a data certa na legenda. Troco se a AEN publicar.
 - **Thumb C:** a madeira parece nova (foto de 11 dias depois; o telhado pode estar sendo refeito). A legenda fica neutra. Se preferir, troco por foto de 20/11 quando sair.
-- **Detector de cópia:** o YouTube bloqueou as transcrições da manada pelo WARP. Transcrevi o que deu (ver `SIMILARIDADE.md`). O resto entra antes da voz.
-- **Tamanho:** ~9:50, um pouco abaixo dos 10–11 min. Dá para esticar o capítulo 2 com o satélite, se quiser.
+- **Detector de cópia: 14/100** (manada 1–3; a nota mais alta é contra o nosso 001). O crivo de ângulo aprovou na 1ª rodada. O YouTube bloqueou parte das transcrições pelo WARP (2 transcritos); as que faltam entram antes da voz.
+- **Tamanho:** ~9:55, um pouco abaixo dos 10–11 min. Dá para esticar o capítulo 2 com o satélite, se quiser.

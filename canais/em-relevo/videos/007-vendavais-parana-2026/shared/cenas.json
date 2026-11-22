@@ -213,7 +213,7 @@
    "bloco": "b31",
    "tipo": "mapa",
    "estilo": "A",
-   "descricao": "Zoom em Rio Bonito do Iguaçu: largura do rastro como uma régua; foto aérea CC0 em plano bem largo (cidade inteira, sem zoom em entulho, sem pessoas) por 2 s."
+   "descricao": "Zoom em Rio Bonito do Iguaçu; foto aérea CC0 em plano bem largo (cidade inteira, sem zoom em entulho, sem pessoas) por 2 s."
   },
   {
    "bloco": "b31",
@@ -251,14 +251,14 @@
    "bloco": "b35",
    "tipo": "mapa",
    "estilo": "A",
-   "descricao": "Calendário de novembro de 2026 no canto; dia 2 acende com Maringá (pino + rastro de 15 km), dia 7 com o contador 493 mil."
+   "descricao": "Calendário de novembro de 2026 no canto; dia 7 acende com o contador 493 mil; depois um contador de tornados do ano no PR chega a 15 (pinos discretos no mapa, sem fotos)."
   },
   {
    "bloco": "b35",
    "tipo": "foto",
    "arquivo": "dl/fotos/aen-maringa-2026-11-04-defesacivil.jpg",
-   "gatilho": "Maringá",
-   "formato": "quadro médio 2 s; legenda MARINGÁ · NOV 2026 (conferir legenda/crédito da AEN)"
+   "gatilho": "tornados",
+   "formato": "quadro médio 2 s; estrago de tornado deste novembro; legenda MARINGÁ · NOV 2026 (conferir legenda/crédito da AEN)"
   },
   {
    "bloco": "b36",

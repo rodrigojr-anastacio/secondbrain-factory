@@ -3,7 +3,7 @@
  "roteiro": "canais/em-relevo/videos/007-vendavais-parana-2026/shared/blocos.json",
  "idioma": "pt",
  "blocos": 46,
- "nota": 13.5,
+ "nota": 14.4,
  "veredito": "ok",
  "limites": {
   "ATENCAO": 18,
@@ -14,11 +14,11 @@
  "blocos_consenso_manada": [],
  "referencias": [
   {
-   "cobertura": 0.15217391304347827,
-   "ordem": 0.5714285714285714,
-   "ngramas": 0.03713188220230474,
-   "sim_media": 0.22763121400425354,
-   "gemeos": 7,
+   "cobertura": 0.17391304347826086,
+   "ordem": 0.5,
+   "ngramas": 0.03333333333333333,
+   "sim_media": 0.22664783961207444,
+   "gemeos": 8,
    "blocos": 46,
    "posicoes": [
     [
@@ -35,7 +35,7 @@
     ],
     [
      31,
-     96
+     90
     ],
     [
      33,
@@ -43,6 +43,10 @@
     ],
     [
      35,
+     39
+    ],
+    [
+     43,
      40
     ],
     [
@@ -58,16 +62,16 @@
      "ref": "novembro de dois mil e vinte e cinco, Rio Bonito do Iguaçu, no Paraná, foi atingida por um éfe quatro. Um rastro de setenta e cinco quilômetros, com até três"
     },
     {
-     "bloco": 31,
-     "cos": 0.46,
-     "nosso": "Em Rio Bonito do Iguaçu, ele chegou por volta das seis da tarde, com até três quilômetros de largura, e foi classificado como éfe quatro. Para o Simepar, um dos maiores do estado em trinta anos.",
-     "ref": "largura. O de Rio Bonito do Iguaçu chegou a três quilômetros e duzentos. O pior cenário não é um tornado maior. É um tornado forte sobre uma cidade grande."
-    },
-    {
      "bloco": 44,
      "cos": 0.42,
      "nosso": "O aviso existe. Segundo o Simepar, o alerta de tempestades daquela sexta saiu antes de os temporais chegarem. Para receber os alertas da Defesa Civil no celular, mande o seu cép por ésse-ême-ésse para quarenta mil cento e noventa e nove.",
      "ref": "alertas no celular. Mande o seu cép por SMS para quatro, zero, um, nove, nove. É de graça. E, no Sul, o Defesa Civil Alerta aparece direto na tela do celular,"
+    },
+    {
+     "bloco": 31,
+     "cos": 0.38,
+     "nosso": "Em Rio Bonito do Iguaçu, ele chegou por volta das seis da tarde e foi classificado como éfe quatro. Para o Simepar, um dos maiores do estado em trinta anos.",
+     "ref": "três quilômetros por hora. Um éfe quatro, como o de Rio Bonito do Iguaçu, passa dos trezentos e trinta. Um éfe cinco, dos quatrocentos e vinte. O Brasil nunca"
     },
     {
      "bloco": 10,
@@ -76,15 +80,15 @@
      "ref": "passou pela estação. O Simepar foi a campo, mediu o estrago e classificou o tornado como éfe dois: ventos estimados entre cento e oitenta e duzentos e cinquenta e três quilômetros por hora,"
     },
     {
-     "bloco": 33,
-     "cos": 0.31,
-     "nosso": "Ponha as duas linhas lado a lado: a de dois mil e vinte e cinco e a de dois mil e vinte e seis. A mesma porta, o oeste. A mesma direção, para o leste. E quase a mesma velocidade: oitenta e setenta quilômetros por hora.",
-     "ref": "novembro de dois mil e vinte e cinco, Rio Bonito do Iguaçu, no Paraná, foi atingida por um éfe quatro. Um rastro de setenta e cinco quilômetros, com até três"
+     "bloco": 35,
+     "cos": 0.32,
+     "nosso": "E este novembro não parou em vinte de novembro. No dia sete, a Copel chegou a quatrocentos e noventa e três mil imóveis sem luz, o maior número do ano. E, até o começo do mês, o Simepar já tinha classificado quinze tornados no Paraná em dois mil e vinte e seis",
+     "ref": "tornado éfe três, com quatro mortos. E há exatamente um ano, em sete de novembro de dois mil e vinte e cinco, Rio Bonito do Iguaçu, no Paraná, foi atingida"
     },
     {
-     "bloco": 35,
-     "cos": 0.31,
-     "nosso": "E este novembro não parou em vinte de novembro. No dia dois, um tornado éfe dois cruzou Maringá de madrugada, num rastro de uns quinze quilômetros. No dia sete, a Copel chegou a quatrocentos e noventa e três mil imóveis sem luz, o maior número do ano.",
+     "bloco": 33,
+     "cos": 0.32,
+     "nosso": "Ponha as duas linhas lado a lado: a de dois mil e vinte e cinco e a de dois mil e vinte e seis. A mesma entrada, o oeste. A mesma direção, para o leste. E quase a mesma velocidade: oitenta e setenta quilômetros por hora.",
      "ref": "novembro de dois mil e vinte e cinco, Rio Bonito do Iguaçu, no Paraná, foi atingida por um éfe quatro. Um rastro de setenta e cinco quilômetros, com até três"
     },
     {
@@ -92,20 +96,26 @@
      "cos": 0.31,
      "nosso": "Esse canto do mapa, entre o Paraguai, o norte da Argentina e o Sul do Brasil, não é um lugar qualquer. Sete anos de dados do satélite T R M M, da NASA, mostraram que algumas das tempestades mais intensas da Terra se formam aqui, a leste dos Andes.",
      "ref": "Argentina, o Paraguai, o Uruguai e o Sul do Brasil é considerada por pesquisadores a segunda região mais propícia a tornados do mundo, depois dos Estados Unidos. E satélites da NASA mostraram que as tempestades daqui"
+    },
+    {
+     "bloco": 43,
+     "cos": 0.31,
+     "nosso": "Em vinte de novembro, isso desenhou uma linha de Capanema a Cornélio Procópio. Em dois mil e vinte e cinco, uma linha de Quedas do Iguaçu a Cantagalo. Um ano de distância, a mesma direção.",
+     "ref": "novembro de dois mil e vinte e cinco, Rio Bonito do Iguaçu, no Paraná, foi atingida por um éfe quatro. Um rastro de setenta e cinco quilômetros, com até três"
     }
    ],
    "ref": "canais/em-relevo/videos/007-vendavais-parana-2026/ref/nosso-001-bG6-E4qjXYc.txt",
    "idioma_ref": "pt",
    "traduzido": false,
    "palavras_ref": 1760,
-   "nota": 13.5,
+   "nota": 14.4,
    "veredito": "ok"
   },
   {
    "cobertura": 0.043478260869565216,
    "ordem": 0.0,
-   "ngramas": 0.006402048655569782,
-   "sim_media": 0.16520196245615865,
+   "ngramas": 0.00641025641025641,
+   "sim_media": 0.1654636628423289,
    "gemeos": 2,
    "blocos": 46,
    "posicoes": [
@@ -140,31 +150,19 @@
    "veredito": "ok"
   },
   {
-   "cobertura": 0.021739130434782608,
+   "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.006402048655569782,
-   "sim_media": 0.1420511020651427,
-   "gemeos": 1,
+   "ngramas": 0.00641025641025641,
+   "sim_media": 0.14069453940401258,
+   "gemeos": 0,
    "blocos": 46,
-   "posicoes": [
-    [
-     19,
-     80
-    ]
-   ],
-   "trechos": [
-    {
-     "bloco": 19,
-     "cos": 0.31,
-     "nosso": "Um levantamento da Universidade Federal de Santa Maria reuniu trezentos e dez tornados registrados no Sul. A faixa de maior frequência: norte gaúcho, oeste catarinense e sudoeste do Paraná. O lado da porta.",
-     "ref": "ajunam a enxergar a tendência um levantamento do prevoques projeto mantido por pesquisadores da universidade federal de santa maria com parceiros como o imp mostrou que 524 registros de tornados"
-    }
-   ],
+   "posicoes": [],
+   "trechos": [],
    "ref": "canais/em-relevo/videos/007-vendavais-parana-2026/ref/manada-GSSCfXMD4wQ.txt",
    "idioma_ref": "pt",
    "traduzido": false,
    "palavras_ref": 1592,
-   "nota": 1.7,
+   "nota": 0.5,
    "veredito": "ok"
   }
  ]
