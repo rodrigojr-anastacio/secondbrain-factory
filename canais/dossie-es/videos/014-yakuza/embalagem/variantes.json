@@ -1,0 +1,26 @@
+[
+ {
+  "letra": "A",
+  "titulo": "YAKUZA: la mafia que tenía su nombre en la puerta",
+  "padrao_titulo": "SIGLA: aposto com lacuna",
+  "padrao_thumb": "objeto-simbolo",
+  "thumb_conceito": "letreiro vertical de madeira arrancado, encostado sob a marca clara na parede creme, 組 em código, ao lado de um portão",
+  "thumb_texto": "YAKUZA ¿LEGAL?"
+ },
+ {
+  "letra": "B",
+  "titulo": "Cómo la Yakuza pasó de trabajar para Japón a ser su enemiga",
+  "padrao_titulo": "Cómo + org + verbo + alvo",
+  "padrao_thumb": "numero-estatistica",
+  "thumb_conceito": "184.000 gigante em cor papel riscado em vermelho sobre a ilustração de um salão de tatame vazio com fileiras de almofadas; HOY 17.600 menor",
+  "thumb_texto": "184.000 HOY 17.600"
+ },
+ {
+  "letra": "C",
+  "titulo": "Japón, 1992: la Yakuza tuvo que esconder su nombre",
+  "padrao_titulo": "[Lugar], [año]: aposto",
+  "padrao_thumb": "cena-acao",
+  "thumb_conceito": "homem de terno em contraluz diante de janela clara, rosto na sombra, rasgando ao meio o cartão de visita com o emblema do grupo",
+  "thumb_texto": "YAKUZA"
+ }
+]
