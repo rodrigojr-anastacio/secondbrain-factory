@@ -1,0 +1,5 @@
+[
+ {"letra": "A", "titulo": "A Argentina já foi RICA. Por que apagou 13 zeros do dinheiro?", "padrao_titulo": "afirmacao-estranha-pergunta", "padrao_thumb": "rosto-emocao", "thumb_conceito": "rapaz de 1992 com riso nervoso segurando a nota velha de 1.000.000 no balcão do banco, caixa devolve uma moedinha", "thumb_texto": "VALE NADA"},
+ {"letra": "B", "titulo": "Argentina: o país rico que nunca decidiu quem paga a conta", "padrao_titulo": "pais-que-nunca", "padrao_thumb": "conflito-xvy", "thumb_conceito": "gaúcho do campo x operário da cidade puxando uma conta comprida, raio no meio, pampa x chaminés", "thumb_texto": "CAMPO × CIDADE"},
+ {"letra": "C", "titulo": "Por que a Argentina quebra a cada geração?", "padrao_titulo": "por-que-sempre", "padrao_thumb": "numero-estatistica", "thumb_conceito": "13 ZEROS gigante à esquerda; cédula azul-clara sendo cortada por tesoura, zeros caindo, fundo celeste liso", "thumb_texto": "13 ZEROS"}
+]
