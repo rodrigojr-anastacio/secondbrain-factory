@@ -1,0 +1,52 @@
+# Pacote de publicación · dossie-es 014 · La Yakuza (puede ir al aire: según el día que elija Rodrigo; ventana sugerida: dom o lun) · duración 13:25
+
+## TESTAR E COMPARAR (títulos × thumbs)
+| par | título | padrão do título | thumb | padrão da thumb |
+|---|---|---|---|---|
+| A (T1) | YAKUZA: la mafia que tenía su nombre en la puerta | SIGLA: aposto com lacuna | thumb-A.jpg: letrero de madera arrancado bajo la marca clara en la pared, 組, "YAKUZA" + sello "¿LEGAL?" | objeto-simbolo (controle) |
+| B (T2) | Cómo la Yakuza pasó de trabajar para Japón a ser su enemiga | Cómo + org + verbo + alvo | thumb-B.jpg: salón de tatami vacío, "184.000" tachado en rojo + "HOY 17.600" | numero-estatistica |
+| C (T3) | Japón, 1992: la Yakuza tuvo que esconder su nombre | [Lugar], [año]: aposto | thumb-C.jpg: hombre de traje a contraluz rompiendo en dos una tarjeta de visita con el emblema del grupo, rótulo "YAKUZA" | cena-acao |
+
+## Descripción
+Si te gustan estos expedientes, suscríbete, deja tu like y compártelo: abrimos uno nuevo cada semana.
+
+Tokio, mayo de 1992: el director Juzo Itami es atacado frente a su casa días después de estrenar una película sobre cómo plantarle cara a la extorsión. En Japón, ser yakuza nunca fue delito: durante un siglo la mafia tuvo oficinas con su nombre en la puerta y trabajó a la vista para ministros, gobiernos y empresas, hasta que Japón inventó leyes y contratos para borrarla de la vista. Esta es la historia completa de la Yakuza, de 184.000 miembros a 17.600.
+
+Capítulos
+0:00 Introducción: la mafia con su nombre en la puerta
+0:37 Expediente 1: El Ministro
+1:36 Expediente 2: La Celda
+2:33 Expediente 3: La Visita
+3:33 Expediente 4: La Cantante
+4:22 Expediente 5: Los Recibos
+5:15 Expediente 6: El Avión
+6:19 Expediente 7: El Letrero
+7:48 Expediente 8: La Asamblea
+8:48 Expediente 9: El Hígado
+9:44 Expediente 10: El Aeropuerto
+10:39 Expediente 11: El Contrato
+11:26 Expediente 12: La Sentencia
+12:20 Cierre: La Puerta
+
+Fuentes
+- National Police Agency (Japón), Libro Blanco de 1992 y siguientes: ley contra la yakuza en vigor desde el 1/3/1992; 41 de 108 oficinas del Yamaguchi-gumi retiran letrero y emblema; cifras de miembros hasta 2025 (Nippon.com).
+- Subcomité del Senado de EE. UU. (1992), citado por la National Crime Authority de Australia: oficinas con emblema y tarjetas con el nombre del grupo.
+- Oxford Journal of Empirical Legal Studies, "30 years from the Bōtaihō"; Reilly, "Criminalizing Yakuza Membership", Washington University Global Studies Law Review (2014).
+- Siniawer, *Ruffians, Yakuza, Nationalists* (Cornell, 2008): Tokonami y la Dai Nippon Kokusuikai (1919).
+- Kaplan y Dubro, *Yakuza* (2003); Kapur, *Japan at the Crossroads* (2018); FRUS 1958–60, vol. XVIII; CIA Reading Room (Kodama Yoshio).
+- Time (abril de 1976) y AP (marzo de 1976): caso Lockheed y el avión de Maeno; subcomité Church.
+- Japan Times (1997, 1999, 2008, 2011, 2024), AP/Los Angeles Times (2008), InSight Crime, Al Jazeera y Reuters (2021), Kyodo: Itami, juntas de accionistas de 1997, Goto, Argentina, Shimada, caso Nomura.
+- Ciudad de Kitakyushu: acuerdo del 12/11/2019 para demoler la sede de la Kudo-kai.
+Las acusaciones se atribuyen a sus fuentes. Contenido educativo e histórico; sin apología de la violencia.
+
+## Tags
+yakuza, historia de la yakuza, la yakuza, mafia japonesa, yamaguchi-gumi, historia de japon, crimen organizado, yoshio kodama, juzo itami, lockheed, kudo-kai, historia, documental, dossier en minutos
+
+Categoría: Educación · Idioma: español
+
+## Checklist al publicar (Rodrigo)
+- Uso de contenido sintético (Studio → Atributos): **Sí** · Para niños: **No** · Idioma: español.
+- "Testar e comparar": thumbs A/B/C pareadas con los títulos A/B/C (A: letrero/¿LEGAL?; B: 184.000 tachado; C: tarjeta rota). Avisar cuál ganó.
+- Video: video.mp4 1080p (nunca la versión del Telegram) · Subtítulos: legendas.srt (es).
+- Día de publicación: lo elige Rodrigo (la fábrica sugiere dom o lun).
+- Antes de publicar: reconfirmar el recurso de Nomura ante el Tribunal Supremo.

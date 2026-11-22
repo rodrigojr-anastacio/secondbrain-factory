@@ -1,0 +1,1228 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/dossie-es/videos/014-yakuza/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2384,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 10,
+  "medio": 28,
+  "baixo": 39
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q03",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O roteiro/caderno nas mãos do diretor tem rabiscos pseudo-japoneses e números ilegíveis escritos pela IA. É pequeno e fica meio desfocado, mas está visível no centro-direita do quadro.",
+   "t": 10.5,
+   "arquivo": "315.png"
+  },
+  {
+   "quadro": "Q04",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O medalhão central tem um padrão de glifos/labirinto que lembra uma escrita falsa. Pode ser só ornamento decorativo; na dúvida registro como estilo discutível.",
+   "t": 20.5,
+   "arquivo": "615.png"
+  },
+  {
+   "quadro": "Q05",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa uma faixa uniforme de cerca de 4% no topo (cor 77,87,79). Visualmente é só o céu liso e escuro da cena, sem emenda perceptível. Baixa probabilidade de defeito.",
+   "t": 30.5,
+   "arquivo": "915.png"
+  },
+  {
+   "quadro": "Q05",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os respingos vermelhos no céu à esquerda do prédio do Parlamento parecem manchas soltas, não parte da cena. Podem ser o vermelho pontual do estilo; registro na dúvida.",
+   "t": 30.5,
+   "arquivo": "915.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os pergaminhos e painéis na parede estão em branco, sem texto inventado. Os dados sobre o pano, porém, têm marcações pequenas pouco nítidas. Detalhe mínimo.",
+   "t": 50.5,
+   "arquivo": "1515.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Cena de fosso e muralhas de castelo japonês (estilo Edo), mas ao fundo aparece um skyline de arranha-céus modernos. Se o contexto for período Edo, é anacronismo claro.",
+   "t": 70.5,
+   "arquivo": "2115.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Placa em branco à esquerda, sobre a cerca, fica ao lado de uma figura pequena. Sem texto visível, então só vale conferir que não receba letreiro inventado.",
+   "t": 70.5,
+   "arquivo": "2115.png"
+  },
+  {
+   "quadro": "Q11",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Faixas e cartazes dos manifestantes estão em branco, o que é correto. Há bandeiras vermelhas e braçadeiras vermelhas, e se o contexto for o Japão, o cenário parece uma fábrica ocidental de tijolos. Pode ser lugar errado, então vale conferir a intenção.",
+   "t": 80.5,
+   "arquivo": "2415.png"
+  },
+  {
+   "quadro": "Q12",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Na frente do jipe há uma placa com letras minúsculas ilegíveis (tipo 'U.S.'), e a placa de identificação sobre o portão está em branco. É pouco visível, mas há risco de texto falso.",
+   "t": 90.5,
+   "arquivo": "2715.png"
+  },
+  {
+   "quadro": "Q13",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de título 'LA CELDA' cobre a maior parte do quadro e esconde os rostos e o alto dos homens de casaco. Provavelmente é intencional, como placa de capítulo, mas vale checar. Os textos em espanhol estão legíveis e nada está cortado.",
+   "t": 98.0,
+   "arquivo": "2940.png"
+  },
+  {
+   "quadro": "Q14",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Soldado de capacete e uniforme azul-acinzentado, de costas, diante de uma prisão com arame farpado. Em 'Tokio, 1948' o uniforme não parece nitidamente de ocupação americana ou japonesa. Dúvida entre estilo e defeito.",
+   "t": 100.5,
+   "arquivo": "3015.png"
+  },
+  {
+   "quadro": "Q15",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Bandeira vermelha no mastro, no canto superior direito, sem identificação. Soldados ao fundo com uniformes verde-oliva e detalhes vermelhos. Pode ser anacronismo ou lugar errado para Tóquio 1948. Dúvida entre estilo e defeito.",
+   "t": 110.5,
+   "arquivo": "3315.png"
+  },
+  {
+   "quadro": "Q16",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Guardas com casacos verdes e braçadeiras ou detalhes vermelhos, e emblemas nos pilares do portão com marcas ilegíveis. Os uniformes podem não corresponder a Tóquio 1948. Dúvida entre estilo e defeito.",
+   "t": 120.5,
+   "arquivo": "3615.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Há uma bandeira do Japão no navio. O contexto é japonês, então é coerente. O nome \"KAZUO TAOKA\" vem do código e está legível. O letreiro no casco do navio é ilegível, mas pequeno.",
+   "t": 140.5,
+   "arquivo": "4215.png"
+  },
+  {
+   "quadro": "Q20",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O sinal automático apontou faixa uniforme no topo (cor RGB 91,89,76, ~18% do quadro). É um céu liso e acinzentado atrás da cena, então provavelmente faz parte do estilo e não é defeito. Fica registrado por dúvida: a transição para os prédios é abrupta, parece um bloco chapado.",
+   "t": 154.56666666666666,
+   "arquivo": "4637.png"
+  },
+  {
+   "quadro": "Q20",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Cartazes da multidão no fundo têm marcas ilegíveis, um deles com um pequeno rótulo vermelho/preto à esquerda. Detalhe pequeno e discreto. Já os textos da placa (EXPEDIENTE 3, CLASIFICADO, LA VISITA, DOSSIER · YAKUZA · Nº 014) estão nítidos e vêm do código.",
+   "t": 154.56666666666666,
+   "arquivo": "4637.png"
+  },
+  {
+   "quadro": "Q21",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Há folhas de papel com rabiscos ilegíveis no chão, no canto inferior direito, e letreiros verticais com ideogramas pseudo-japoneses nos prédios ao fundo. Detalhe pequeno. Os cartazes dos manifestantes estão em branco, o que é bom.",
+   "t": 160.5,
+   "arquivo": "4815.png"
+  },
+  {
+   "quadro": "Q22",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O livro aberto mostra linhas de texto falso, ilegíveis, que simulam impressão. Detalhe discreto e coerente com um livro de fundo. O lampião tem uma marca pequena na base.",
+   "t": 170.5,
+   "arquivo": "5115.png"
+  },
+  {
+   "quadro": "Q23",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "As placas dos caminhões mostram caracteres pequenos e inventados (\"51\", \"67\"). Detalhe discreto. A faixa na base apontada pelo sinal automático (RGB 53,66,71) é asfalto liso da rua e faz parte da cena, não é defeito.",
+   "t": 180.5,
+   "arquivo": "5415.png"
+  },
+  {
+   "quadro": "Q24",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A carta na mesa, embaixo, tem texto de linhas ilegíveis, com um rabisco no início parecido com \"1960…\". É texto inventado pela IA, mas pequeno e desfocado.",
+   "t": 190.5,
+   "arquivo": "5715.png"
+  },
+  {
+   "quadro": "Q26",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Lanternas vermelhas penduradas no alto (canto superior esquerdo e direito) trazem símbolos/letras tipo caractere japonês inventado pela IA; pequenos, mas visíveis. Placas pequenas nas paredes laterais também com marcas ilegíveis.",
+   "t": 210.5,
+   "arquivo": "6315.png"
+  },
+  {
+   "quadro": "Q27",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Carimbo 'CLASIFICADO' ultrapassa a borda superior direita da placa, e parte dele fica sobre a imagem de fundo; provavelmente intencional (estilo carimbo), mas confirmar que não corta a leitura.",
+   "t": 214.53333333333333,
+   "arquivo": "6436.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Caixa no canto inferior esquerdo com marcas numéricas/letras ilegíveis (ex.: '5 108') e calendário na parede com grafismo falso; discretos. Na tela da TV há retângulos brancos chapados que parecem placeholders.",
+   "t": 220.5,
+   "arquivo": "6615.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "fundo/faixa",
+   "severidade": "alto",
+   "descricao": "Faixa preta chapada na borda esquerda (~8% do quadro) que se funde ao fundo escuro e corta o cone de luz; sinal automático confirma. Possível moldura/letterbox lateral da imagem de IA. Pode ser escuridão de palco intencional, mas a borda é suspeita.",
+   "t": 230.5,
+   "arquivo": "6915.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Pódio à direita com painel branco chapado em branco e telão em branco: áreas lisas que parecem placeholders vazios, sem texto.",
+   "t": 230.5,
+   "arquivo": "6915.png"
+  },
+  {
+   "quadro": "Q30",
+   "categoria": "moldura",
+   "severidade": "medio",
+   "descricao": "Laterais esquerda e direita do palco com blocos pretos grandes e cantos superiores pretos; pode ser cortina/enquadramento de cena, mas parece faixa preta nas bordas. Dúvida entre estilo e defeito.",
+   "t": 240.5,
+   "arquivo": "7215.png"
+  },
+  {
+   "quadro": "Q30",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cenário art déco e orquestra de smoking contrastam com a época (TV e kotatsu dos anos 60 em Q28); possível incoerência de época, detalhe pequeno.",
+   "t": 240.5,
+   "arquivo": "7215.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Aviões-modelo na prateleira com logotipo vermelho em forma de 'X'/estrela na cauda: marca/insígnia inventada. O texto 'JAL' é falso/ilegível. Teto com luminárias fluorescentes modernas e cadeira de escritório com rodinhas, possivelmente moderno demais para a época.",
+   "t": 260.5,
+   "arquivo": "7815.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O Capitólio tem janelas ou colunas centrais em branco chapado, sem detalhe, e carros com visual de anos 70. A época de Tokio 1976 pode comportar isso, mas o branco chapado é discreto e estranho.",
+   "t": 270.5,
+   "arquivo": "8115.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Os papéis na mesa têm linhas de escrita ilegível/falsa gerada pela IA e carimbos vermelhos com símbolos inventados. Está pequeno e borrado, sem leitura possível, então fica como dúvida entre estilo e defeito.",
+   "t": 290.5,
+   "arquivo": "8715.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático aponta faixa uniforme no topo (11%) e na base (7%). Visualmente, é só céu degradê e grama lisa da cena, sem emenda. Provável falso positivo.",
+   "t": 300.5,
+   "arquivo": "9015.png"
+  },
+  {
+   "quadro": "Q38",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Placas em branco no fundo, acima da multidão. Estão vazias, sem letras inventadas, então o risco é pequeno. Vale conferir se não vão parecer placeholder.",
+   "t": 310.5,
+   "arquivo": "9315.png"
+  },
+  {
+   "quadro": "Q39",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático aponta faixa uniforme no topo (21%). É o céu escuro liso da cena, escurecido atrás da placa de capítulo. Provável falso positivo, mas vale conferir se o topo não está chapado demais.",
+   "t": 316.76666666666665,
+   "arquivo": "9503.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os prédios do aeroporto têm letreiros em branco e uma faixa com formas parecidas com letras, pequena e ilegível, sob o letreiro maior à direita. Está discreto.",
+   "t": 320.5,
+   "arquivo": "9615.png"
+  },
+  {
+   "quadro": "Q42",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Casa em estilo enxaimel (meia-madeira) europeu, com bandeira vermelha rasgada e carro antigo, no lugar de um cenário japonês. Lugar aparentemente errado para um tema de kamikaze/Japão; confirmar se a cena é intencional.",
+   "t": 340.5,
+   "arquivo": "10215.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Faixa uniforme escura de cerca de 6% no topo (RGB 30,34,39), confundida com o teto do hangar. Parece parte da cena, mas confira se não é letterbox.",
+   "t": 350.5,
+   "arquivo": "10515.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Caligrafia japonesa falsa no quadro pendurado à esquerda e nos papéis da parede. Está discreta e em estilo de tinta, mas é texto inventado pela IA.",
+   "t": 360.5,
+   "arquivo": "10815.png"
+  },
+  {
+   "quadro": "Q45",
+   "categoria": "texto_inventado",
+   "severidade": "alto",
+   "descricao": "Jornais e revistas do quiosque têm manchetes com caracteres pseudo-japoneses ilegíveis e números sem sentido (ex.: \"8I8-81\"). Também há letreiros inventados nos prédios ao fundo. Texto falso bem visível.",
+   "t": 370.5,
+   "arquivo": "11115.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "texto_inventado",
+   "severidade": "alto",
+   "descricao": "Calendário com cabeçalho em caracteres falsos, e escrita inventada \"1992\" na mesa com caracteres pseudo-japoneses. Os números do calendário são incoerentes (sequência truncada).",
+   "t": 390.5,
+   "arquivo": "11715.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Sobreposição de várias camadas translúcidas e retângulos com contornos fantasma por toda a cena. Pode ser um crossfade entre duas cenas, o que não seria defeito. Se for um frame parado, é defeito.",
+   "t": 390.5,
+   "arquivo": "11715.png"
+  },
+  {
+   "quadro": "Q49",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Quadro branco/placa vazia no canto superior esquerdo e cartaz branco em branco na parede direita. Provavelmente intencional (sem texto inventado), mas parecem placeholders em branco.",
+   "t": 400.5,
+   "arquivo": "12015.png"
+  },
+  {
+   "quadro": "Q50",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Livro aberto com tabelas e caracteres pseudo-japoneses ilegíveis nas páginas, pergaminho na parede e carimbo vermelho no canto inferior esquerdo. Texto falso escrito pela IA, mas ilegível e em segundo plano, como textura do livro.",
+   "t": 410.5,
+   "arquivo": "12315.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme no topo (14%, RGB 83,99,106), mas é céu liso e nublado da cena, sem emenda visível. Não é defeito; registrado só por precaução.",
+   "t": 430.5,
+   "arquivo": "12915.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Carros verdes de formato anos 80 em frente ao prédio. Provavelmente coerente com a época do vídeo, mas confirmar o período.",
+   "t": 430.5,
+   "arquivo": "12915.png"
+  },
+  {
+   "quadro": "Q54",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Monitores CRT nas mesas laterais da sala de tribunal. Confirmar se a época da cena (julgamento) condiz. As plaquetas de nome nas mesas têm rabiscos ilegíveis, pequenos.",
+   "t": 450.5,
+   "arquivo": "13515.png"
+  },
+  {
+   "quadro": "Q56",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "A placa de capítulo 'LA ASAMBLEA' cobre parte da cena, e o carimbo 'CLASIFICADO' invade o canto superior direito da placa, sobrepondo-se à fileira de homens sentados. Há também um pequeno bloco vermelho pixelado no topo esquerdo, atrás da placa, que parece artefato.",
+   "t": 470.0,
+   "arquivo": "14100.png"
+  },
+  {
+   "quadro": "Q56",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Plaquetas de nome nas mesas dos homens ao fundo com letras falsas ilegíveis, pequenas.",
+   "t": 470.0,
+   "arquivo": "14100.png"
+  },
+  {
+   "quadro": "Q57",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "As plaquinhas de nome na mesa da diretoria (fileira do fundo) têm rabiscos ilegíveis escritos pela IA, e há pixels vermelhos soltos no canto superior esquerdo. Ficam pequenos e discretos atrás da placa de capítulo.",
+   "t": 470.5,
+   "arquivo": "14115.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "texto_inventado",
+   "severidade": "alto",
+   "descricao": "O documento ornamentado em primeiro plano tem texto borrado e ilegível no centro, e os cartazes na parede e na janela mostram manchas parecidas com texto. Parece letra inventada pela IA.",
+   "t": 490.5,
+   "arquivo": "14715.png"
+  },
+  {
+   "quadro": "Q60",
+   "categoria": "texto_inventado",
+   "severidade": "alto",
+   "descricao": "A placa acima da porta do prédio ao fundo mostra letras falsas e ilegíveis (algo como 'LEAS T B IZ&'). Os ícones das caixas de papelão também são rabiscos. Falta ainda o rótulo do código no lugar da placa.",
+   "t": 500.5,
+   "arquivo": "15015.png"
+  },
+  {
+   "quadro": "Q61",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena parece do século XIX (vestido vitoriano, pena, rolos lacrados), mas o tema é Yakuza moderno. Há dúvida se é estilo ou erro de época. O livro aberto e os rolos têm texto falso em linhas ilegíveis.",
+   "t": 510.5,
+   "arquivo": "15315.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "O cenário é um hospital com palmeiras, estilo Califórnia/UCLA, que aparentemente corresponde ao transplante de fígado. Há dúvida se é intencional. A placa à direita, em branco, está ok.",
+   "t": 529.6,
+   "arquivo": "15888.png"
+  },
+  {
+   "quadro": "Q64",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Quadro quase idêntico ao Q63 (mesmo capítulo 'El Hígado' no mesmo tempo 8:50), com a imagem de fundo ligeiramente deslocada. Provável quadro de animação/zoom, sem erro real. A ambulância com cruz vermelha na direita está cortada pela borda e pela placa.",
+   "t": 530.5,
+   "arquivo": "15915.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "No livro/passaporte aberto há a palavra \"VISA\" escrita pela IA e texto borrado ilegível nas páginas e no carimbo. É pequeno e desfocado, mas é texto gerado pela IA. Em espanhol seria \"VISADO\". O rótulo deveria vir do código.",
+   "t": 550.5,
+   "arquivo": "16515.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O uniforme azul com botões dourados e gravata vermelha não identifica claramente país ou época. Pode ser estilo intencional, mas vale conferir se combina com o contexto japonês.",
+   "t": 550.5,
+   "arquivo": "16515.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "A carta sobre a mesa tem caracteres borrados ilegíveis simulando escrita. Está desfocada e discreta, mas é texto falso gerado pela IA.",
+   "t": 570.5,
+   "arquivo": "17115.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "O avião a jato de quatro motores (estilo DC-8/Boeing 707) está ao lado de aviões de hélice e uniformes de aparência antiga. A mistura de época fica estranha, e a legenda do contexto sugere cenário atual ou outro período. A fumaça sai de trás das asas, como num lançamento, e não de motores a jato.",
+   "t": 580.5,
+   "arquivo": "17415.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa uniforme no topo (19%, RGB 31,41,50), mas é o céu noturno liso e degradê da cena. Provavelmente falso positivo, sem defeito real.",
+   "t": 580.5,
+   "arquivo": "17415.png"
+  },
+  {
+   "quadro": "Q70",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa de capítulo cobre o rosto e a parte de cima de um viajante no centro, que fica com só as pernas e a bagagem visíveis. É a composição normal de uma placa de capítulo, mas o corte é desajeitado.",
+   "t": 586.0,
+   "arquivo": "17580.png"
+  },
+  {
+   "quadro": "Q72",
+   "categoria": "moldura",
+   "severidade": "medio",
+   "descricao": "Faixa preta larga na borda esquerda (~6%), que parece uma parede de tijolos muito escura. Pode ser enquadramento intencional da cela, mas está chapada e lembra a faixa preta de letterbox da IA. Dúvida entre estilo e defeito; vale recortar ou conferir.",
+   "t": 600.5,
+   "arquivo": "18015.png"
+  },
+  {
+   "quadro": "Q73",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Dupla exposição: avião e montanhas translúcidos sobrepostos à sala do tribunal, e uma faixa de texto minúsculo ilegível na frente da bancada. Pode ser crossfade entre cenas; se for imagem única, a cena fica confusa.",
+   "t": 610.5,
+   "arquivo": "18315.png"
+  },
+  {
+   "quadro": "Q74",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Avião ao fundo com marca vermelha na cauda lembrando bandeira/logo (estilo JAL). Detalhe pequeno, mas pode ser logo inventado.",
+   "t": 620.5,
+   "arquivo": "18615.png"
+  },
+  {
+   "quadro": "Q75",
+   "categoria": "texto_inventado",
+   "severidade": "alto",
+   "descricao": "Placa do carro de polícia traz 'CUB' (letras inventadas pela IA) e há cartazes com rabiscos de texto falso na parede à esquerda e um jornal no banco. Os letreiros em branco nas paredes são aceitáveis.",
+   "t": 630.5,
+   "arquivo": "18915.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Telas totalmente brancas e chapadas, sem conteúdo, parecem placeholder. Pode ser intencional, já que o conteúdo viria do código.",
+   "t": 650.5,
+   "arquivo": "19515.png"
+  },
+  {
+   "quadro": "Q79",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Placas de táxi e pequenos cartazes no ponto de ônibus têm marcações ilegíveis; detalhe discreto.",
+   "t": 660.5,
+   "arquivo": "19815.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'LA SENTENCIA' cobre quase toda a parte central da sala de tribunal e as figuras sentadas atrás dela. É provável que seja um estilo intencional, mas a cena fica bem tapada.",
+   "t": 688.1333333333333,
+   "arquivo": "20644.png"
+  },
+  {
+   "quadro": "Q83",
+   "categoria": "texto_cortado",
+   "severidade": "baixo",
+   "descricao": "A etiqueta 'LUGAR Y FECHA / FUKUOKA,' termina em vírgula e parece incompleta. Pode ser só a animação de digitação em andamento, então só vale conferir no render final.",
+   "t": 690.5,
+   "arquivo": "20715.png"
+  },
+  {
+   "quadro": "Q84",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "As telas do caminhão de TV, as faixas e as placas das tendas estão em branco. Não há texto inventado, mas os retângulos brancos chapados parecem placeholders. Os braçais vermelhos da multidão são estranhos mas não são um defeito claro.",
+   "t": 700.5,
+   "arquivo": "21015.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os letreiros do prédio do porto estão em branco, e a bandeira no mastro é branca lisa. Não há texto inventado, mas os painéis vazios ficam estranhos. Está aceitável.",
+   "t": 710.5,
+   "arquivo": "21315.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "outro",
+   "severidade": "alto",
+   "descricao": "A imagem inteira tem sobreposição de linhas e grades, com duplicação de elementos como câmeras, janelas e pessoas, como se fosse uma dupla exposição. Pode ser crossfade entre duas cenas, mas parece um artefato de IA. Se for um quadro parado, é defeito. Confirmar se é transição.",
+   "t": 740.5,
+   "arquivo": "22215.png"
+  },
+  {
+   "quadro": "Q89",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'LA PUERTA' cobre o centro da cena (a mesa de assinatura e os rostos). O carimbo vermelho 'CLASIFICADO' invade a borda superior direita da placa e sobrepõe a aba 'EXPEDIENTE CERRADO'. É provável que seja design intencional de placa de capítulo; registrado por dúvida de sobreposição.",
+   "t": 741.8,
+   "arquivo": "22254.png"
+  },
+  {
+   "quadro": "Q90",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os painéis cinzentos da cerca na parte inferior parecem placas em branco, sem texto legível. É só um detalhe discreto, sem letras inventadas visíveis.",
+   "t": 750.5,
+   "arquivo": "22515.png"
+  },
+  {
+   "quadro": "Q91",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "No livro aberto, o gráfico de barras tem rótulos borrados e ilegíveis no eixo, e há cartazes com caracteres falsos na parede de fundo. Estão discretos e escuros, mas são texto pseudo-legível da IA. O uniforme do oficial também tem um distintivo ilegível.",
+   "t": 760.5,
+   "arquivo": "22815.png"
+  },
+  {
+   "quadro": "Q92",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os painéis e placas penduradas no teto e nas paredes (esquerda e direita) trazem caligrafia pseudojaponesa inventada, pequena e discreta.",
+   "t": 770.5,
+   "arquivo": "23115.png"
+  },
+  {
+   "quadro": "Q93",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Os recortes de jornal na parede, as lombadas dos livros e a folha de escrita têm texto/rabisco falso da IA. O texto é pequeno e fica em segundo plano, mas é legível como pseudoletra.",
+   "t": 780.5,
+   "arquivo": "23415.png"
+  },
+  {
+   "quadro": "Q94",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A rua parece uma cidade europeia (calçamento de paralelepípedos, prédios de pedra) em um vídeo sobre a yakuza. Pode ser lugar fictício intencional, mas vale conferir. As placas em branco estão corretas, sem letreiro inventado.",
+   "t": 790.5,
+   "arquivo": "23715.png"
+  },
+  {
+   "quadro": "Q95",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O calendário na parede à direita mostra uma grade com números e letras ilegíveis, pseudotexto da IA. O elemento é pequeno e fica no canto.",
+   "t": 800.5,
+   "arquivo": "24015.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 0.5,
+   "nome": "15.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 0.9333333333333333,
+   "nome": "28.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 10.5,
+   "nome": "315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 20.5,
+   "nome": "615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 30.5,
+   "nome": "915.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(77,87,79)"
+   ]
+  },
+  {
+   "id": "Q06",
+   "t": 39.3,
+   "nome": "1179.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 40.5,
+   "nome": "1215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 50.5,
+   "nome": "1515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 60.5,
+   "nome": "1815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 70.5,
+   "nome": "2115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 80.5,
+   "nome": "2415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 90.5,
+   "nome": "2715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 98.0,
+   "nome": "2940.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 100.5,
+   "nome": "3015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 110.5,
+   "nome": "3315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 120.5,
+   "nome": "3615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 130.5,
+   "nome": "3915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 140.5,
+   "nome": "4215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 150.5,
+   "nome": "4515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 154.56666666666666,
+   "nome": "4637.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 18% do quadro, cor RGB(91,89,76)"
+   ]
+  },
+  {
+   "id": "Q21",
+   "t": 160.5,
+   "nome": "4815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 170.5,
+   "nome": "5115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 180.5,
+   "nome": "5415.png",
+   "sinais": [
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(53,66,71)"
+   ]
+  },
+  {
+   "id": "Q24",
+   "t": 190.5,
+   "nome": "5715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 200.5,
+   "nome": "6015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 210.5,
+   "nome": "6315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 214.53333333333333,
+   "nome": "6436.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 220.5,
+   "nome": "6615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 230.5,
+   "nome": "6915.png",
+   "sinais": [
+    "faixa preta na borda esquerda: 8% do quadro"
+   ]
+  },
+  {
+   "id": "Q30",
+   "t": 240.5,
+   "nome": "7215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 250.5,
+   "nome": "7515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 260.5,
+   "nome": "7815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 263.73333333333335,
+   "nome": "7912.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 270.5,
+   "nome": "8115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 280.5,
+   "nome": "8415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 290.5,
+   "nome": "8715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 300.5,
+   "nome": "9015.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 11% do quadro, cor RGB(74,90,100)",
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(56,64,57)"
+   ]
+  },
+  {
+   "id": "Q38",
+   "t": 310.5,
+   "nome": "9315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 316.76666666666665,
+   "nome": "9503.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 21% do quadro, cor RGB(45,58,62)"
+   ]
+  },
+  {
+   "id": "Q40",
+   "t": 320.5,
+   "nome": "9615.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(87,108,116)"
+   ]
+  },
+  {
+   "id": "Q41",
+   "t": 330.5,
+   "nome": "9915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 340.5,
+   "nome": "10215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 350.5,
+   "nome": "10515.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(30,34,39)"
+   ]
+  },
+  {
+   "id": "Q44",
+   "t": 360.5,
+   "nome": "10815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 370.5,
+   "nome": "11115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 380.5,
+   "nome": "11415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 380.56666666666666,
+   "nome": "11417.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 390.5,
+   "nome": "11715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 400.5,
+   "nome": "12015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 410.5,
+   "nome": "12315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 420.5,
+   "nome": "12615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 430.5,
+   "nome": "12915.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 14% do quadro, cor RGB(83,99,106)"
+   ]
+  },
+  {
+   "id": "Q53",
+   "t": 440.5,
+   "nome": "13215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 450.5,
+   "nome": "13515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 460.5,
+   "nome": "13815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 470.0,
+   "nome": "14100.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 470.5,
+   "nome": "14115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 480.5,
+   "nome": "14415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 490.5,
+   "nome": "14715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 500.5,
+   "nome": "15015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 510.5,
+   "nome": "15315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 520.5,
+   "nome": "15615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 529.6,
+   "nome": "15888.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 530.5,
+   "nome": "15915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 540.5,
+   "nome": "16215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 550.5,
+   "nome": "16515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 560.5,
+   "nome": "16815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 570.5,
+   "nome": "17115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 580.5,
+   "nome": "17415.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 19% do quadro, cor RGB(31,41,50)"
+   ]
+  },
+  {
+   "id": "Q70",
+   "t": 586.0,
+   "nome": "17580.png",
+   "sinais": [
+    "faixa uniforme na borda base: 6% do quadro, cor RGB(45,49,48)"
+   ]
+  },
+  {
+   "id": "Q71",
+   "t": 590.5,
+   "nome": "17715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 600.5,
+   "nome": "18015.png",
+   "sinais": [
+    "faixa preta na borda esquerda: 6% do quadro"
+   ]
+  },
+  {
+   "id": "Q73",
+   "t": 610.5,
+   "nome": "18315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 620.5,
+   "nome": "18615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 630.5,
+   "nome": "18915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 640.5,
+   "nome": "19215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 641.4,
+   "nome": "19242.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 650.5,
+   "nome": "19515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 660.5,
+   "nome": "19815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 670.5,
+   "nome": "20115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 680.5,
+   "nome": "20415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 688.1333333333333,
+   "nome": "20644.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 690.5,
+   "nome": "20715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 700.5,
+   "nome": "21015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 710.5,
+   "nome": "21315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 720.5,
+   "nome": "21615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 730.5,
+   "nome": "21915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 740.5,
+   "nome": "22215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 741.8,
+   "nome": "22254.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 750.5,
+   "nome": "22515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 760.5,
+   "nome": "22815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 770.5,
+   "nome": "23115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 780.5,
+   "nome": "23415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 790.5,
+   "nome": "23715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 800.5,
+   "nome": "24015.png",
+   "sinais": []
+  }
+ ]
+}
