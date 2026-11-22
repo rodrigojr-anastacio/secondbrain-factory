@@ -1,0 +1,151 @@
+{
+ "pasta": "canais/dossie-es/videos/014-yakuza",
+ "roteiro": "canais/dossie-es/videos/014-yakuza/blocos.json",
+ "idioma": "es",
+ "blocos": 65,
+ "nota": 5.0,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [],
+ "referencias": [
+  {
+   "cobertura": 0.06153846153846154,
+   "ordem": 0.75,
+   "ngramas": 0.005434782608695652,
+   "sim_media": 0.15492916605418391,
+   "gemeos": 4,
+   "blocos": 65,
+   "posicoes": [
+    [
+     6,
+     4
+    ],
+    [
+     33,
+     87
+    ],
+    [
+     35,
+     53
+    ],
+    [
+     40,
+     68
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 40,
+     "cos": 0.42,
+     "nosso": "No es casualidad. Así se defienden de los sokaiya: extorsionistas que compran unas pocas acciones y amenazan con reventar la junta con escándalos si no se les paga. Según la policía, muchos trabajan con la yakuza.",
+     "ref": "corporativos que compraban unas pocas acciones de una empresa, se presentaban en la junta de accionistas y amenazaban con revelar escándalos o armar un escándalo si no les pagaban por callar."
+    },
+    {
+     "bloco": 6,
+     "cos": 0.38,
+     "nosso": "Vienen de un mundo viejo de tahúres y vendedores ambulantes. Según la explicación más aceptada, su nombre sale de una de las peores manos de un juego de cartas: ocho, nueve y tres. Ya, ku, za.",
+     "ref": "nombre, porque el nombre ya es una confesión. En un juego de cartas japonés llamado Oichokabu hay una mano que no vale nada, el ocho, el nueve y el tres. En japonés"
+    },
+    {
+     "bloco": 33,
+     "cos": 0.35,
+     "nosso": "El Letrero. Japón, primero de marzo de mil novecientos noventa y dos. Entra en vigor la ley contra los grupos violentos. No prohíbe ser yakuza.",
+     "ref": "entró en vigor la ley contra el crimen organizado, la Botayo. Por primera vez, los grandes grupos fueron designados oficialmente como organizaciones violentas"
+    },
+    {
+     "bloco": 35,
+     "cos": 0.3,
+     "nosso": "Hasta entonces, el nombre del grupo estaba en la puerta y en las tarjetas de visita. Según el Libro Blanco de la Policía de ese año, de ciento ocho oficinas del Yamaguchi-gumi revisadas, cuarenta y una quitan el letrero y el emblema. Y hay jefes que borran el ",
+     "ref": "organización. La designaba, la vigilaba y la regulaba, pero las oficinas seguían abiertas, con el emblema del clan en la puerta y la dirección publicada. Los jefes daban tarjetas con su nombre,"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/014-yakuza/ref/manada-rZlsw1Zl1a4.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2011,
+   "nota": 5.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.015384615384615385,
+   "ordem": 0.0,
+   "ngramas": 0.004347826086956522,
+   "sim_media": 0.1294611128357003,
+   "gemeos": 1,
+   "blocos": 65,
+   "posicoes": [
+    [
+     12,
+     95
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 12,
+     "cos": 0.42,
+     "nosso": "Según los periodistas David Kaplan y Alec Dubro, Kodama sale con un compromiso: ayudar a la ocupación estadounidense contra los comunistas.",
+     "ref": "años antes. Los periodistas David Kaplan y Alec Dubro, autores de un clásico sobre la yacusa, situan aquí el comienzo. Esos jugadores contratados, muchos de ellos hombres sin registro, se fueron"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/014-yakuza/ref/manada-sDWrUKmcJ5w.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 3205,
+   "nota": 1.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0010869565217391304,
+   "sim_media": 0.11379244403477705,
+   "gemeos": 0,
+   "blocos": 65,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/014-yakuza/ref/manada-5F8oyk_Wqyk.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2152,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.11823330110802001,
+   "gemeos": 0,
+   "blocos": 65,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/014-yakuza/ref/manada-KDHhSqydJJo.txt",
+   "idioma_ref": "pt",
+   "traduzido": true,
+   "palavras_ref": 2356,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.1199520548995686,
+   "gemeos": 0,
+   "blocos": 65,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/014-yakuza/ref/manada-aN_Wl0RYbbQ.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 4195,
+   "nota": 0.0,
+   "veredito": "ok"
+  }
+ ]
+}

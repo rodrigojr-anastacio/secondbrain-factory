@@ -1,0 +1,327 @@
+[
+ {
+  "id": "N001",
+  "texto": "Tokio, mayo de mil novecientos noventa y dos. Frente a su casa, cinco hombres atacan con cuchillos al cineasta Juzo Itami.",
+  "ideia": false
+ },
+ {
+  "id": "N002",
+  "texto": "Días antes, Itami había estrenado una película que enseña a no pagarle a la yakuza.",
+  "ideia": false
+ },
+ {
+  "id": "N003",
+  "texto": "Los grupos de la yakuza tenían oficinas, emblema y tarjetas con su nombre. Pertenecer a la yakuza no era delito. Hoy tampoco.",
+  "ideia": false
+ },
+ {
+  "id": "N004",
+  "texto": "Esta es TODA la historia de la Yakuza: la mafia que no se escondía, porque trabajaba para el poder. De ciento ochenta y cuatro mil miembros y asociados… a diecisiete mil seiscientos.",
+  "ideia": true
+ },
+ {
+  "id": "N005",
+  "texto": "El Ministro. Tokio, cuatro de octubre de mil novecientos diecinueve. El ministro del Interior, Takejiro Tokonami, reúne a treinta y seis grandes jefes de apuestas.",
+  "ideia": false
+ },
+ {
+  "id": "N006",
+  "texto": "Vienen de un mundo viejo de tahúres y vendedores ambulantes. Según la explicación más aceptada, su nombre sale de una de las peores manos de un juego de cartas: ocho, nueve y tres. Ya, ku, za.",
+  "ideia": false
+ },
+ {
+  "id": "N007",
+  "texto": "Un mes después nace la Gran Sociedad de la Esencia Nacional de Japón. Promete defender al emperador y combatir a los rojos. Dice tener seiscientos mil miembros. La cifra la da ella misma.",
+  "ideia": false
+ },
+ {
+  "id": "N008",
+  "texto": "Según el politólogo Masao Maruyama, sus hombres actúan como rompehuelgas y atacan a sindicatos y a campesinos.",
+  "ideia": false
+ },
+ {
+  "id": "N009",
+  "texto": "No la organiza un jefe criminal. La organiza un ministro. La próxima vez que el Estado los necesite, el intermediario saldrá de una cárcel.",
+  "ideia": true
+ },
+ {
+  "id": "N010",
+  "texto": "La Celda. Tokio, veinticuatro de diciembre de mil novecientos cuarenta y ocho. De la prisión de Sugamo salen, sin juicio, varios sospechosos de crímenes de guerra.",
+  "ideia": false
+ },
+ {
+  "id": "N011",
+  "texto": "Uno es Yoshio Kodama, ultranacionalista. Durante la guerra compró materiales en China para la Marina Imperial. Otro, ese mismo día, es Nobusuke Kishi, exministro del gobierno de guerra.",
+  "ideia": false
+ },
+ {
+  "id": "N012",
+  "texto": "Según los periodistas David Kaplan y Alec Dubro, Kodama sale con un compromiso: ayudar a la ocupación estadounidense contra los comunistas.",
+  "ideia": false
+ },
+ {
+  "id": "N013",
+  "texto": "Afuera, los mercados negros de la posguerra están en manos de bandas. En Kobe, el joven jefe Kazuo Taoka convierte al Yamaguchi-gumi en el que reparte el trabajo en el puerto.",
+  "ideia": false
+ },
+ {
+  "id": "N014",
+  "texto": "Ocho años después, Kishi es primer ministro. Y en mil novecientos sesenta, según un historiador, recurre a Kodama.",
+  "ideia": true
+ },
+ {
+  "id": "N015",
+  "texto": "La Visita. Tokio, junio de mil novecientos sesenta. El presidente Eisenhower debe llegar el diecinueve. Las calles están llenas de protestas contra el tratado de seguridad con Estados Unidos.",
+  "ideia": false
+ },
+ {
+  "id": "N016",
+  "texto": "Según el historiador Nick Kapur, el gobierno de Kishi le pide a Kodama una fuerza privada para proteger la visita.",
+  "ideia": false
+ },
+ {
+  "id": "N017",
+  "texto": "Según Kapur, el plan de movilización prevé ciento cuarenta y seis mil ochocientos setenta y nueve hombres. Son derechistas y yakuza. La policía calcula que, como mucho, podrían reunirse unos ciento veinte mil.",
+  "ideia": false
+ },
+ {
+  "id": "N018",
+  "texto": "El dieciséis de junio, el gobierno pide aplazar la visita, y la visita se cancela. Aun así, la yakuza nunca fue tan grande. En mil novecientos sesenta y tres, según cifras policiales citadas por la prensa, suma ciento ochenta y cuatro mil miembros y asociados.",
+  "ideia": false
+ },
+ {
+  "id": "N019",
+  "texto": "Ya no son tahúres de feria. Ahora están también sobre los escenarios.",
+  "ideia": true
+ },
+ {
+  "id": "N020",
+  "texto": "La Cantante. Tokio, treinta y uno de diciembre de mil novecientos setenta y tres. La televisión pública NHK emite su gran concurso musical de fin de año, el Kohaku.",
+  "ideia": false
+ },
+ {
+  "id": "N021",
+  "texto": "Por primera vez en dieciocho años, no aparece Hibari Misora, la cantante más famosa del país. Ese año, su hermano había sido procesado por actividades ligadas a una organización criminal.",
+  "ideia": false
+ },
+ {
+  "id": "N022",
+  "texto": "Hibari nunca fue acusada de nada. Pero, según los periodistas Kaplan y Dubro, durante años el Yamaguchi-gumi de Kazuo Taoka se encargó de la seguridad de sus conciertos.",
+  "ideia": false
+ },
+ {
+  "id": "N023",
+  "texto": "La yakuza estaba en el escenario, a la vista de todos. Y Kodama, el hombre de la celda, ya cobraba de una empresa estadounidense que fabrica aviones.",
+  "ideia": true
+ },
+ {
+  "id": "N024",
+  "texto": "Los Recibos. Washington, febrero de mil novecientos setenta y seis. Un subcomité del Senado de Estados Unidos investiga los pagos de la empresa Lockheed en el extranjero.",
+  "ideia": false
+ },
+ {
+  "id": "N025",
+  "texto": "Aparece un nombre japonés: Yoshio Kodama, su asesor secreto en Japón. Según la revista Time, recibió más de siete millones de dólares desde mil novecientos sesenta.",
+  "ideia": false
+ },
+ {
+  "id": "N026",
+  "texto": "Entre los papeles hay recibos por unos dos millones de dólares, de noviembre de mil novecientos setenta y dos. Ese mismo mes, la aerolínea japonesa ANA acepta comprar aviones TriStar de Lockheed por ciento treinta millones.",
+  "ideia": false
+ },
+ {
+  "id": "N027",
+  "texto": "El escándalo alcanzará al ex primer ministro Kakuei Tanaka, detenido en julio. Kodama, convaleciente de un derrame cerebral, se queda en su casa de Tokio. Hasta allí va a buscarlo un avión.",
+  "ideia": true
+ },
+ {
+  "id": "N028",
+  "texto": "El Avión. Tokio, veintitrés de marzo de mil novecientos setenta y seis. Mitsuyasu Maeno, actor de veintinueve años, alquila una avioneta Piper en el aeródromo de Chofu.",
+  "ideia": false
+ },
+ {
+  "id": "N029",
+  "texto": "Va vestido de piloto kamikaze, con la cinta del sol naciente en la frente. Sobrevuela el barrio de Setagaya y da dos vueltas sobre la casa de Kodama.",
+  "ideia": false
+ },
+ {
+  "id": "N030",
+  "texto": "Después se lanza contra ella, gritando vivas al emperador. El avión choca contra el segundo piso. Maeno muere. Kodama, en otra habitación, sale ileso.",
+  "ideia": false
+ },
+ {
+  "id": "N031",
+  "texto": "Maeno también era ultranacionalista. Según la prensa de la época, se sentía traicionado: su ídolo cobraba de una empresa extranjera.",
+  "ideia": false
+ },
+ {
+  "id": "N032",
+  "texto": "El padrino de los nacionalistas, el amigo de los ministros, queda a la vista de todo el país. En los años ochenta, una guerra por la sucesión del Yamaguchi-gumi deja al menos treinta y seis muertos, según el periodista David Kaplan. Y Japón decide mirar a la yakuza de otra manera.",
+  "ideia": true
+ },
+ {
+  "id": "N033",
+  "texto": "El Letrero. Japón, primero de marzo de mil novecientos noventa y dos. Entra en vigor la ley contra los grupos violentos. No prohíbe ser yakuza.",
+  "ideia": false
+ },
+ {
+  "id": "N034",
+  "texto": "Las comisiones de seguridad pública de cada prefectura pueden designar a un grupo como violento. Sus miembros no pueden, por ejemplo, exigir dinero en nombre del grupo.",
+  "ideia": false
+ },
+ {
+  "id": "N035",
+  "texto": "Hasta entonces, el nombre del grupo estaba en la puerta y en las tarjetas de visita. Según el Libro Blanco de la Policía de ese año, de ciento ocho oficinas del Yamaguchi-gumi revisadas, cuarenta y una quitan el letrero y el emblema. Y hay jefes que borran el nombre del grupo de sus tarjetas.",
+  "ideia": false
+ },
+ {
+  "id": "N036",
+  "texto": "En mayo, Juzo Itami estrena su película. Días después llegan los cinco hombres. En noviembre, el Yamaguchi-gumi, ya el mayor del país, demanda a la comisión de Hyogo para anular su designación. Después retira la demanda.",
+  "ideia": false
+ },
+ {
+  "id": "N037",
+  "texto": "Itami tarda tres meses en recuperarse y vuelve a filmar. Dos de sus atacantes reciben penas de seis y cinco años. En mil novecientos noventa y siete, Itami muere al caer de un edificio. La policía concluye que fue un suicidio. El periodista Jake Adelstein sostiene otra versión, que nunca se ha probado.",
+  "ideia": true
+ },
+ {
+  "id": "N038",
+  "texto": "Si te interesan estos expedientes, suscríbete. Porque la ley tenía un límite: las grandes empresas seguían pagando.",
+  "ideia": false
+ },
+ {
+  "id": "N039",
+  "texto": "La Asamblea. Japón, veintisiete de junio de mil novecientos noventa y siete. Dos mil trescientas cincuenta y cinco empresas celebran su junta de accionistas el mismo día.",
+  "ideia": false
+ },
+ {
+  "id": "N040",
+  "texto": "No es casualidad. Así se defienden de los sokaiya: extorsionistas que compran unas pocas acciones y amenazan con reventar la junta con escándalos si no se les paga. Según la policía, muchos trabajan con la yakuza.",
+  "ideia": false
+ },
+ {
+  "id": "N041",
+  "texto": "Con todas las juntas a la vez, los sokaiya no pueden estar en todas. Ese mismo mes, la fiscalía investiga al banco Dai-Ichi Kangyo, uno de los mayores del país, por préstamos a un sokaiya, Ryuichi Koike.",
+  "ideia": false
+ },
+ {
+  "id": "N042",
+  "texto": "Su expresidente del consejo, Tadashi Okuda, será condenado, con pena suspendida, por un préstamo ilegal de once mil ochocientos millones de yenes. Los bancos también pagaban. Y en Estados Unidos, el FBI hará su propio trato.",
+  "ideia": true
+ },
+ {
+  "id": "N043",
+  "texto": "El Hígado. Los Ángeles, julio de dos mil uno. En el hospital de la Universidad de California, un paciente japonés recibe un trasplante de hígado.",
+  "ideia": false
+ },
+ {
+  "id": "N044",
+  "texto": "Es Tadamasa Goto, jefe del Goto-gumi, el grupo de los hombres que atacaron a Itami.",
+  "ideia": false
+ },
+ {
+  "id": "N045",
+  "texto": "Según el diario Los Angeles Times, Goto entró en Estados Unidos con una visa obtenida con ayuda del FBI, a cambio de información sobre la yakuza. Él y otro yakuza donaron cien mil dólares al hospital.",
+  "ideia": false
+ },
+ {
+  "id": "N046",
+  "texto": "Un exjefe de la unidad asiática del FBI dijo después que el FBI no le consiguió la operación y que Goto no entregó nada importante. En dos mil ocho, el Yamaguchi-gumi lo expulsa. En dos mil nueve, Goto se ordena sacerdote budista.",
+  "ideia": false
+ },
+ {
+  "id": "N047",
+  "texto": "En casa, el poder ya no los protege. Algunos buscan negocio mucho más lejos. Hasta Sudamérica.",
+  "ideia": true
+ },
+ {
+  "id": "N048",
+  "texto": "El Aeropuerto. Buenos Aires, veintisiete de marzo de dos mil diez. En Ezeiza, la policía detiene a un japonés que embarca hacia su país con tres kilos de cocaína.",
+  "ideia": false
+ },
+ {
+  "id": "N049",
+  "texto": "Se llama Hirasawa. Según contó después a la revista InSight Crime, pasó unos treinta años en la yakuza, casi todos en el Yamaguchi-gumi. Había venido a Sudamérica a comprar droga para venderla en Japón.",
+  "ideia": false
+ },
+ {
+  "id": "N050",
+  "texto": "Lo condenan a cuatro años y nueve meses. Año y medio después, la sentencia se anula y lo deportan.",
+  "ideia": false
+ },
+ {
+  "id": "N051",
+  "texto": "En dos mil veinticuatro, la policía japonesa detiene a un alto miembro del Sumiyoshi-kai, de setenta y seis años, por unos quince kilos de droga estimulante enviados desde México. Se investiga un vínculo con un cártel. No está probado.",
+  "ideia": false
+ },
+ {
+  "id": "N052",
+  "texto": "En Japón, el cerco ya no lo pone solo la policía. Lo ponen los contratos.",
+  "ideia": true
+ },
+ {
+  "id": "N053",
+  "texto": "El Contrato. Tokio, veintitrés de agosto de dos mil once. Shinsuke Shimada, uno de los presentadores más famosos de la televisión japonesa, anuncia que se retira. Admite su relación con un yakuza.",
+  "ideia": false
+ },
+ {
+  "id": "N054",
+  "texto": "Poco más de un mes después, el primero de octubre, Tokio y Okinawa completan la lista: las cuarenta y siete prefecturas ya tienen ordenanzas contra la yakuza.",
+  "ideia": false
+ },
+ {
+  "id": "N055",
+  "texto": "Las empresas no pueden pagarles ni ayudarlos a sabiendas. En los contratos aparece una cláusula: quien firma declara no pertenecer a un grupo violento.",
+  "ideia": false
+ },
+ {
+  "id": "N056",
+  "texto": "El Estado que la había usado ya no necesita prohibirla. Le basta con que nadie firme con ella. Diez años después, un tribunal va más lejos.",
+  "ideia": true
+ },
+ {
+  "id": "N057",
+  "texto": "La Sentencia. Fukuoka, veinticuatro de agosto de dos mil veintiuno. Un tribunal condena a muerte a Satoru Nomura, jefe del Kudo-kai, el único grupo de Japón designado como especialmente peligroso.",
+  "ideia": false
+ },
+ {
+  "id": "N058",
+  "texto": "Lo declara responsable de ordenar cuatro ataques contra ciudadanos. Entre ellos, el asesinato en mil novecientos noventa y ocho del exjefe de una cooperativa de pescadores. Es la primera pena de muerte para un jefe de la yakuza.",
+  "ideia": false
+ },
+ {
+  "id": "N059",
+  "texto": "Según la prensa, Nomura le advierte al juez que se arrepentirá de esto toda su vida. En dos mil veinticuatro, un tribunal superior lo absuelve de ese asesinato y cambia la pena por cadena perpetua. El caso sigue en el Supremo.",
+  "ideia": false
+ },
+ {
+  "id": "N060",
+  "texto": "Nomura había gobernado su grupo desde una sede con su emblema, en Kitakyushu. Esa puerta ya no existe.",
+  "ideia": true
+ },
+ {
+  "id": "N061",
+  "texto": "La Puerta. Kitakyushu, noviembre de dos mil diecinueve. La ciudad, un centro contra la yakuza, el dueño del edificio y el propio Kudo-kai firman un acuerdo: la sede se derribará. El terreno termina en manos de una organización que ayuda a personas sin hogar.",
+  "ideia": false
+ },
+ {
+  "id": "N062",
+  "texto": "A finales de dos mil veinticinco, según la Agencia Nacional de Policía, la yakuza suma diecisiete mil seiscientos miembros y asociados. En mil novecientos sesenta y tres eran ciento ochenta y cuatro mil.",
+  "ideia": false
+ },
+ {
+  "id": "N063",
+  "texto": "Juzo Itami enseñó en una película a cerrarle la puerta a la yakuza. Mucho antes, se la habían abierto un ministro en mil novecientos diecinueve, un primer ministro en mil novecientos sesenta y las grandes empresas.",
+  "ideia": false
+ },
+ {
+  "id": "N064",
+  "texto": "La yakuza nunca se escondió del poder. Se escondió cuando el poder dejó de necesitarla.",
+  "ideia": true
+ },
+ {
+  "id": "N065",
+  "texto": "Y tú, ¿quién crees que necesitaba más al otro: la yakuza al Estado, o el Estado a la yakuza? Déjalo en los comentarios.",
+  "ideia": false
+ }
+]
