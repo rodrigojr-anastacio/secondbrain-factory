@@ -1,0 +1,61 @@
+{
+ "pasta": "canais/historia-ptbr/videos/016-espanha",
+ "roteiro": "canais/historia-ptbr/videos/016-espanha/blocos.json",
+ "idioma": "pt",
+ "blocos": 70,
+ "nota": 1.2,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [],
+ "referencias": [
+  {
+   "cobertura": 0.014285714285714285,
+   "ordem": 0.0,
+   "ngramas": 0.0054249547920434,
+   "sim_media": 0.1312340442221944,
+   "gemeos": 1,
+   "blocos": 70,
+   "posicoes": [
+    [
+     21,
+     84
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 21,
+     "cos": 0.39,
+     "nosso": "Acontece que o casamento uniu pessoas, não leis. Cada reino ficou com as suas Cortes, os seus tribunais, os seus impostos. Em Castela, a dona da coroa era Isabel. Em Aragão, era Fernando.",
+     "ref": "mudar a partir de 1469, quando o casamento entre Isabel, primeira de Castela, e Ferdinando I de Aragão, uniu coroas de Castela e Aragão. E em 1512, o reino de Navarra foi conquistado"
+    }
+   ],
+   "ref": "canais/historia-ptbr/videos/016-espanha/ref/manada-GqtCY3_Xoa0.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1878,
+   "nota": 1.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.11283989431613914,
+   "gemeos": 0,
+   "blocos": 70,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/historia-ptbr/videos/016-espanha/ref/manada-WwR5FCvnLww.txt",
+   "idioma_ref": "pt",
+   "traduzido": false,
+   "palavras_ref": 1110,
+   "nota": 0.0,
+   "veredito": "ok"
+  }
+ ]
+}
