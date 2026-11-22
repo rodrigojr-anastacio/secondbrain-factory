@@ -1,0 +1,1195 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/historia-ptbr/videos/016-espanha/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2705,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 4,
+  "medio": 26,
+  "baixo": 27
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q04",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Os contornos de duas cenas aparecem sobrepostos com muita transparência: a cena do altar e uma segunda cena (janelas, castelo, baú). Pode ser um crossfade no meio da transição, que não é defeito. Se o quadro for um frame parado e não uma transição, vira dupla exposição ilegível. Conferir se é só transição.",
+   "t": 25.0,
+   "arquivo": "750.png"
+  },
+  {
+   "quadro": "Q06",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A torre sevilhana (Giralda) com o campanário renascentista e a catedral gótica ao fundo estão em Sevilha de 1469. A Giralda ainda não tinha o campanário (acrescentado em 1568), e a catedral estava em construção. Dúvida de fidelidade histórica, detalhe pequeno.",
+   "t": 45.0,
+   "arquivo": "1350.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "O soldado à direita usa uniforme napoleônico (casaca azul, calça branca, quepe alto de xaquó, mosquete) e um sujeito de cartola está à esquerda; é anacrônico para a Espanha de 1469 (séc. XV). A cartola e o chapéu de abas largas do homem no centro também são do séc. XIX.",
+   "t": 55.0,
+   "arquivo": "1650.png"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'CAPÍTULO 1 / A costura por cima' cobre os pés e parte do corpo dos personagens centrais (rei e bispo) e uma figura atrás. Pode ser estilo intencional de placa de capítulo, mas tapa bastante a cena.",
+   "t": 73.13333333333334,
+   "arquivo": "2194.png"
+  },
+  {
+   "quadro": "Q14",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Cena de 711 (chegada dos muçulmanos à Península Ibérica) mostra ao fundo uma fortaleza tipo Alhambra e um palácio com arcos de ferradura vermelhos e brancos, com fonte. Isso é arquitetura islâmica posterior, já presente antes da chegada dos barcos. Também há uma torre com cúpula que lembra campanário.",
+   "t": 115.0,
+   "arquivo": "3450.png"
+  },
+  {
+   "quadro": "Q15",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Mesma cena de 711: fortaleza tipo Alhambra e palácio com arcos de ferradura bicolores e fonte já aparecem antes da conquista, o que é anacrônico. O quadro é quase idêntico ao Q14.",
+   "t": 115.53333333333333,
+   "arquivo": "3466.png"
+  },
+  {
+   "quadro": "Q16",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A paisagem aparece através da ampulheta de vidro, sem distorção, como se fosse totalmente transparente. A ampulheta tem pouca areia e partículas soltas no meio. É um detalhe estético pequeno.",
+   "t": 125.0,
+   "arquivo": "3750.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa 'CAPÍTULO 2 / A herança que se parte' cobre os rostos e corpos dos personagens do primeiro plano (parte inferior central). É placa de capítulo intencional, mas esconde bastante da cena; legibilidade do texto está boa.",
+   "t": 145.0,
+   "arquivo": "4350.png"
+  },
+  {
+   "quadro": "Q19",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A caixa do ano '1065' (canto superior esquerdo) aparece junto com a placa 'CAPÍTULO 2' ainda na tela. Os dois elementos de texto ficam juntos, sem sobrepor um ao outro, mas a placa de capítulo continua cobrindo os personagens e a poluição visual é leve. Pode ser um momento de transição, então fica como dúvida.",
+   "t": 145.86666666666667,
+   "arquivo": "4376.png"
+  },
+  {
+   "quadro": "Q21",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Mapa de regiões coloridas (amarelo, vermelho, verde) sem nenhum rótulo, e o recorte parece uma Galícia/Leão/Portugal estilizada. Não há texto, então é aceitável, mas a imagem não identifica os reinos; confira se os rótulos são colocados pelo código depois.",
+   "t": 175.0,
+   "arquivo": "5250.png"
+  },
+  {
+   "quadro": "Q22",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O pergaminho rasgado nas mãos do rei traz linhas onduladas que imitam escrita. Não são letras legíveis, apenas rabiscos de estilo, e o risco é pequeno.",
+   "t": 181.36666666666667,
+   "arquivo": "5441.png"
+  },
+  {
+   "quadro": "Q25",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena mistura arquitetura mourisca com a Alhambra ao fundo e um rei de coroa ocidental em trono europeu, num pátio de laranjeiras. Se o trecho for sobre Castela/Aragão, o cenário pode ser lugar errado. Fica como dúvida de roteiro, não como defeito visual.",
+   "t": 205.0,
+   "arquivo": "6150.png"
+  },
+  {
+   "quadro": "Q27",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa azul uniforme (3%) no topo. Visualmente é só céu liso da cena, sem emenda nem listra. Não é defeito, fica só como verificação.",
+   "t": 217.66666666666666,
+   "arquivo": "6530.png"
+  },
+  {
+   "quadro": "Q27",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa 'CAPÍTULO 3 / Dois noivos, dois países' cobre parte do burro e da muretinha, no canto inferior. Não atrapalha a leitura e parece intencional. A etiqueta '1480' no canto superior esquerdo está legível.",
+   "t": 217.66666666666666,
+   "arquivo": "6530.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A bandeira listrada vermelha e amarela no canto superior esquerdo e o barco com vela ao fundo parecem ok para o período. A dúvida é só se as moedas de prata com cruz batem com o roteiro.",
+   "t": 255.0,
+   "arquivo": "7650.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Colcha com 12 painéis de castelos, paisagens e barcos. Os painéis têm bordas irregulares e repetem cenas, o que pode parecer genérico. Não há texto inventado.",
+   "t": 285.0,
+   "arquivo": "8550.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Globo com metade escura costurada por fio vermelho, e o lado escuro corta a Ásia. Pode ser metáfora intencional (mundo dividido entre Castela e Portugal), mas parece estranho e a costura pode ser lida como defeito. Confirmar se é intencional.",
+   "t": 305.0,
+   "arquivo": "9150.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A Giralda de Sevilha aparece com a catedral gótica ao fundo. Em 1503 a catedral já estava em construção e a Giralda já existia, então é plausível. As roupas são do século XVI, o que combina com 1503. A placa do capítulo cobre o centro inferior da imagem, mas faz parte do design.",
+   "t": 306.7,
+   "arquivo": "9201.png"
+  },
+  {
+   "quadro": "Q38",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cidade ao fundo com catedral gótica de Palma e muralhas, que parece mais Maiorca do que Sevilha. A cena é de partida de Sevilha, então o lugar pode estar errado. É uma dúvida de lugar, não um defeito claro.",
+   "t": 315.0,
+   "arquivo": "9450.png"
+  },
+  {
+   "quadro": "Q42",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Personagens cortados pela borda esquerda (rosto de perfil). É enquadramento normal, mas o rótulo '1509' no canto superior esquerdo fica sobre um personagem e encosta na cabeça dele.",
+   "t": 358.3666666666667,
+   "arquivo": "10751.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O brasão na tapeçaria e os castelos no berço e na cama (Castela e Leão) são coerentes com a época. Os leões e castelos do brasão são pequenos e estilizados, sem texto. Nenhum defeito claro.",
+   "t": 375.0,
+   "arquivo": "11250.png"
+  },
+  {
+   "quadro": "Q47",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os hórreos galegos têm cruzes no topo e a cena é de 1517, o que é plausível. Registro só como observação: o pescador no mar usa roupa de época correta, sem defeito claro.",
+   "t": 403.1666666666667,
+   "arquivo": "12095.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Perto da base, ao centro (atrás dos personagens), há resquício de texto/marca apagada, quase invisível, na areia perto dos pés. Parece sobra da placa de capítulo do Q47 ou marca d'água. Dúvida: pode ser só textura do chão.",
+   "t": 405.0,
+   "arquivo": "12150.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Personagem cortado na borda esquerda com apenas metade do rosto visível. Provavelmente enquadramento normal.",
+   "t": 435.0,
+   "arquivo": "13050.png"
+  },
+  {
+   "quadro": "Q53",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Personagem à direita (cobrador atrás da mesa) tem braços finos e estranhos, e as mangas vermelhas parecem desconectadas do corpo. Anatomia confusa.",
+   "t": 455.0,
+   "arquivo": "13650.png"
+  },
+  {
+   "quadro": "Q54",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Mapa-múndi com Espanha, Itália, América Latina (México até Chile) e Filipinas destacados em amarelo. Na dúvida entre estilo e defeito: a Itália não era domínio espanhol em 1591 no sentido pleno, e Brasil e Portugal aparecem fora do destaque, o que pode ser incoerente com a narração (Portugal fazia parte da União Ibérica). A região amarela também cobre o Brasil só parcialmente, com borda reta estranha na América do Sul.",
+   "t": 465.0,
+   "arquivo": "13950.png"
+  },
+  {
+   "quadro": "Q54",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Mapa com geografia moderna (contornos atuais, Grandes Lagos, Austrália e Nova Zelândia bem definidas) para uma cena de 1591. Pode ser aceito como mapa estilizado.",
+   "t": 465.0,
+   "arquivo": "13950.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O livro grande carregado no centro tem linhas onduladas que imitam escrita, em vez de texto legível. É discreto e lido como rabisco, não como letra falsa.",
+   "t": 505.0,
+   "arquivo": "15150.png"
+  },
+  {
+   "quadro": "Q60",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa 'CAPÍTULO 6 / A conta' fica sobre os personagens no centro-baixo e cobre parte das figuras e do chão. É a placa de capítulo padrão, então provavelmente intencional, mas tapa pernas dos personagens.",
+   "t": 506.8,
+   "arquivo": "15204.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O mapa da Península Ibérica não tem rótulos. O contorno de Portugal (verde) e os territórios laranja e roxo (Aragão e Catalunha?) são aproximados, e a França ao norte aparece só como faixa bege. Se o trecho falar de reinos específicos, a geografia pode confundir. Dúvida entre estilo e erro.",
+   "t": 545.0,
+   "arquivo": "16350.png"
+  },
+  {
+   "quadro": "Q64",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "O personagem principal tem cabelo castanho grande, bigode e barba, com aparência mais realista que o bonequinho de cabeça redonda padrão. Fica no limite do estilo do canal.",
+   "t": 555.0,
+   "arquivo": "16650.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Os personagens do canto esquerdo estão cortados pela borda (um quase inteiro fora do quadro). É enquadramento aceitável, mas o personagem de chapéu na base tem só metade do rosto visível.",
+   "t": 585.0,
+   "arquivo": "17550.png"
+  },
+  {
+   "quadro": "Q72",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'CAPÍTULO 7 / Direito de conquista' cobre os pés e as pernas dos personagens do primeiro plano. O texto em si está legível. Pode ser estilo intencional de placa de capítulo, mas vale conferir se o corte atrapalha a cena.",
+   "t": 620.7666666666667,
+   "arquivo": "18623.png"
+  },
+  {
+   "quadro": "Q74",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Close de mão enorme sobre um tabuleiro de coroas. Está recortado pela borda, o que é enquadramento normal. A mão tem dedos um pouco deformados e a cena é bem simbólica, sem texto. Só uma observação de estilo.",
+   "t": 635.0,
+   "arquivo": "19050.png"
+  },
+  {
+   "quadro": "Q75",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Mapa da Europa: a França e a Espanha estão pintadas de roxo como um bloco só, e o Sacro Império em amarelo avança sobre a Itália. Se a cena trata da Guerra de Sucessão Espanhola, o destaque pode estar errado ou impreciso. A Península Ibérica está unificada sem divisão entre Portugal e Espanha, e a Grã-Bretanha tem forma estilizada. Dúvida entre estilo e erro geográfico.",
+   "t": 645.0,
+   "arquivo": "19350.png"
+  },
+  {
+   "quadro": "Q80",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Mapa da Ibéria com o rótulo 'NAVARRA E PAÍS BASCO'. A região verde está em posição plausível, mas o contorno é estilizado demais e as divisas parecem inventadas. A península tem forma distorcida, com Portugal quase sem separação e o litoral norte pouco fiel. Possível imprecisão geográfica; conferir.",
+   "t": 685.0,
+   "arquivo": "20550.png"
+  },
+  {
+   "quadro": "Q81",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Imagem em estilo diferente do canal: mão de luva branca estilo desenho animado clássico e coroas coloridas como puzzle/jogo, sem bonequinhos de cabeça redonda. Dúvida entre metáfora intencional e fuga do estilo.",
+   "t": 705.0,
+   "arquivo": "21150.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A placa de capítulo cobre os pés/parte inferior de vários personagens e o selo '1812' fica no canto superior esquerdo; sobreposição aceitável, mas a placa tapa bastante da cena em primeiro plano.",
+   "t": 707.0666666666667,
+   "arquivo": "21212.png"
+  },
+  {
+   "quadro": "Q84",
+   "categoria": "texto_cortado",
+   "severidade": "alto",
+   "descricao": "Legenda/rótulo no canto inferior esquerdo diz 'MADRI, LIMA, MÉXICO, MANILA', mas a placa parece ter só 'MADRI' sem o 'D' final correto? Na verdade a grafia 'MADRI' está certa em português; porém a placa fica colada na borda inferior esquerda e cobre parte do mapa (ponta da América do Sul). Dúvida de estilo, mas vale checar a margem.",
+   "t": 725.0,
+   "arquivo": "21750.png"
+  },
+  {
+   "quadro": "Q84",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "Os marcadores da rota não batem bem com as cidades: o ponto 'Madri' está no litoral de Portugal/Espanha, o de Lima está no litoral peruano (OK), e o de Manila fica na Nova Guiné/Indonésia em vez das Filipinas. Mapa com localização errada.",
+   "t": 725.0,
+   "arquivo": "21750.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Rei com coroa e uniforme militar com dragonas na sacada, diante da Plaza Mayor de Madri com o Palácio Real ao fundo, em 1824. A coroa na sacada e o uniforme são plausíveis, mas a arquitetura do Palácio Real à esquerda e a mistura de estilos geram dúvida; verificar.",
+   "t": 759.6666666666666,
+   "arquivo": "22790.png"
+  },
+  {
+   "quadro": "Q90",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Mapa-múndi estilizado com a rota tracejada vermelha e três marcadores (Espanha, América Central, costa do Peru). A rota sai do quadro à direita e embaixo, e o mapa é cortado nas bordas. Pode ser enquadramento normal. A geografia está distorcida: a América do Sul está muito pequena e deformada, e o Mediterrâneo e o Oriente Médio estão simplificados. Conferir se o mapa ilustra a rota corretamente.",
+   "t": 775.0,
+   "arquivo": "23250.png"
+  },
+  {
+   "quadro": "Q92",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "Cena moderna (café, parque, mochila) com um personagem segurando uma peça de quebra-cabeça que tem uma trança com franja pendurada. Parece metáfora intencional, mas o objeto é estranho e pode confundir. A cena também destoa do cenário histórico dos quadros vizinhos.",
+   "t": 795.0,
+   "arquivo": "23850.png"
+  },
+  {
+   "quadro": "Q93",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Soldados com shakó azul e uniforme de 1840 estão coerentes com a época. A bandeira vermelha lisa no posto de controle é discreta, mas pode ser lida como bandeira inventada. Verificar se ela cabe no contexto histórico (Bilbao, 1840). A placa de capítulo está legível e não encavala com nada importante.",
+   "t": 799.4333333333333,
+   "arquivo": "23983.png"
+  },
+  {
+   "quadro": "Q94",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Os trajes (gorro redondo, gola de babados, capacete tipo morrião, alabarda) são do século XVI-XVII. O quadro vem logo depois do capítulo de 1840 (Bilbao). Pode ser anacronismo de época ou uma cena de ilustração deliberada. A cancela listrada preto e branco é moderna, e a paisagem é seca e castelhana, não basca.",
+   "t": 805.0,
+   "arquivo": "24150.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A praça lembra a Puerta del Sol de Madri, mas o homem de peruca branca e casaca do século XVIII destoa da cena de 1876. Há dúvida se é estilo intencional ou anacronismo.",
+   "t": 835.0,
+   "arquivo": "25050.png"
+  },
+  {
+   "quadro": "Q99",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Os soldados de tricórnio e casaca azul e o personagem de casaca do século XVIII indicam outra época. Se a cena for do século XIX (foral basco), é anacronismo. Há dúvida sobre o contexto.",
+   "t": 845.0,
+   "arquivo": "25350.png"
+  },
+  {
+   "quadro": "Q100",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Cena moderna de cozinha com laptop e calculadora, com a etiqueta 'BILBAO' no canto inferior esquerdo. Pode ser intencional (comparação com o presente). A etiqueta fica colada na borda e sobre a calculadora, mas é legível.",
+   "t": 855.0,
+   "arquivo": "25650.png"
+  },
+  {
+   "quadro": "Q102",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Porto com navio de madeira à vela, arquitetura colonial hispano-americana e roupas do século XIX. Pode destoar do contexto de 1898 ou de Bilbao. O navio no canto direito corta o personagem pela borda, o que é enquadramento normal.",
+   "t": 875.0,
+   "arquivo": "26250.png"
+  },
+  {
+   "quadro": "Q104",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O mapa na parede tem ilhas inventadas, sem geografia reconhecível. É provável que represente as Filipinas e as ilhas do Pacífico de forma genérica. Não há letras.",
+   "t": 895.0,
+   "arquivo": "26850.png"
+  },
+  {
+   "quadro": "Q105",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa 'CAPÍTULO 10 / Uma à força, uma assinada' cobre a parte de baixo da multidão (rostos e chapéus). Provavelmente é a placa de capítulo prevista, mas esconde bastante a cena. Conferir se o posicionamento é intencional.",
+   "t": 901.2333333333333,
+   "arquivo": "27037.png"
+  },
+  {
+   "quadro": "Q109",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A Plaza Mayor/Puerta del Sol de Madrid está desenhada como lugar real, com a Catedral da Almudena ao fundo (concluída só em 1993). Para uma cena de 1939 isso é anacrônico. O uniforme verde-oliva é genérico, sem insígnias.",
+   "t": 925.0,
+   "arquivo": "27750.png"
+  },
+  {
+   "quadro": "Q112",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O Palácio de Cibeles aparece pela janela do Congresso. É um marco real e existia em 1978, mas o cenário parece misturado (hemiciclo com Cibeles ao fundo). Verificar se o lugar está correto para o contexto.",
+   "t": 945.0,
+   "arquivo": "28350.png"
+  },
+  {
+   "quadro": "Q115",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Mapa da Península Ibérica com Portugal desenhado como região colorida igual às comunidades espanholas, e as divisões não correspondem às 17 comunidades reais (parece haver mais de 17 regiões, formas inventadas). O mapa da IA mostra fronteiras erradas para um rótulo '17 COMUNIDADES'.",
+   "t": 975.0,
+   "arquivo": "29250.png"
+  },
+  {
+   "quadro": "Q115",
+   "categoria": "moldura",
+   "severidade": "baixo",
+   "descricao": "No canto inferior esquerdo há uma linha/contorno de caixa fina atrás do rótulo '17 COMUNIDADES' (moldura parcial cortada) e o rótulo fica colado no canto, sobrepondo ilhas rosa. Dúvida entre estilo e defeito.",
+   "t": 975.0,
+   "arquivo": "29250.png"
+  },
+  {
+   "quadro": "Q116",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Advogados de toga correndo em prédio moderno; sem defeito claro, apenas verificar se o contexto pede época. Sem erro visível de texto.",
+   "t": 985.0,
+   "arquivo": "29550.png"
+  },
+  {
+   "quadro": "Q120",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Eleitores com roupas dos anos 70 diante da Plaza Mayor, coerente com a transição espanhola; só confirmar que a época bate com a narração.",
+   "t": 1025.0,
+   "arquivo": "30750.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 1.2666666666666666,
+   "nome": "38.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 5.0,
+   "nome": "150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 15.0,
+   "nome": "450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 25.0,
+   "nome": "750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 35.0,
+   "nome": "1050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 45.0,
+   "nome": "1350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 55.0,
+   "nome": "1650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 65.0,
+   "nome": "1950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 73.13333333333334,
+   "nome": "2194.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 75.0,
+   "nome": "2250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 85.0,
+   "nome": "2550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 95.0,
+   "nome": "2850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 105.0,
+   "nome": "3150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 115.0,
+   "nome": "3450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 115.53333333333333,
+   "nome": "3466.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 125.0,
+   "nome": "3750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 135.0,
+   "nome": "4050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 145.0,
+   "nome": "4350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 145.86666666666667,
+   "nome": "4376.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 155.0,
+   "nome": "4650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 175.0,
+   "nome": "5250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 181.36666666666667,
+   "nome": "5441.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 185.0,
+   "nome": "5550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 195.0,
+   "nome": "5850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 205.0,
+   "nome": "6150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 215.0,
+   "nome": "6450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 217.66666666666666,
+   "nome": "6530.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(42,178,252)"
+   ]
+  },
+  {
+   "id": "Q28",
+   "t": 225.0,
+   "nome": "6750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 235.0,
+   "nome": "7050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 245.0,
+   "nome": "7350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 255.0,
+   "nome": "7650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 265.0,
+   "nome": "7950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 275.0,
+   "nome": "8250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 285.0,
+   "nome": "8550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 295.0,
+   "nome": "8850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 305.0,
+   "nome": "9150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 306.7,
+   "nome": "9201.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 315.0,
+   "nome": "9450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 325.0,
+   "nome": "9750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 335.0,
+   "nome": "10050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 355.0,
+   "nome": "10650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 358.3666666666667,
+   "nome": "10751.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 365.0,
+   "nome": "10950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 375.0,
+   "nome": "11250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 385.0,
+   "nome": "11550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 395.0,
+   "nome": "11850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 403.1666666666667,
+   "nome": "12095.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 405.0,
+   "nome": "12150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 415.0,
+   "nome": "12450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 425.0,
+   "nome": "12750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 435.0,
+   "nome": "13050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 445.0,
+   "nome": "13350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 455.0,
+   "nome": "13650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 465.0,
+   "nome": "13950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 475.0,
+   "nome": "14250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 477.1333333333333,
+   "nome": "14314.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 485.0,
+   "nome": "14550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 495.0,
+   "nome": "14850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 505.0,
+   "nome": "15150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 506.8,
+   "nome": "15204.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 525.0,
+   "nome": "15750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 535.0,
+   "nome": "16050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 545.0,
+   "nome": "16350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 555.0,
+   "nome": "16650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 565.0,
+   "nome": "16950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 565.4666666666667,
+   "nome": "16964.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 575.0,
+   "nome": "17250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 585.0,
+   "nome": "17550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 595.0,
+   "nome": "17850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 605.0,
+   "nome": "18150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 615.0,
+   "nome": "18450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 620.7666666666667,
+   "nome": "18623.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 625.0,
+   "nome": "18750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 635.0,
+   "nome": "19050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 645.0,
+   "nome": "19350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 653.6666666666666,
+   "nome": "19610.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 655.0,
+   "nome": "19650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 665.0,
+   "nome": "19950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 675.0,
+   "nome": "20250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 685.0,
+   "nome": "20550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 705.0,
+   "nome": "21150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 707.0666666666667,
+   "nome": "21212.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 715.0,
+   "nome": "21450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 725.0,
+   "nome": "21750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 735.0,
+   "nome": "22050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 745.0,
+   "nome": "22350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 755.0,
+   "nome": "22650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 759.6666666666666,
+   "nome": "22790.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 765.0,
+   "nome": "22950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 775.0,
+   "nome": "23250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 785.0,
+   "nome": "23550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 795.0,
+   "nome": "23850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 799.4333333333333,
+   "nome": "23983.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 805.0,
+   "nome": "24150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 815.0,
+   "nome": "24450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 825.0,
+   "nome": "24750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 829.7666666666667,
+   "nome": "24893.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 835.0,
+   "nome": "25050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 845.0,
+   "nome": "25350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 855.0,
+   "nome": "25650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q101",
+   "t": 865.0,
+   "nome": "25950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 875.0,
+   "nome": "26250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 885.0,
+   "nome": "26550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 895.0,
+   "nome": "26850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q105",
+   "t": 901.2333333333333,
+   "nome": "27037.png",
+   "sinais": []
+  },
+  {
+   "id": "Q106",
+   "t": 905.0,
+   "nome": "27150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q107",
+   "t": 915.0,
+   "nome": "27450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q108",
+   "t": 922.6666666666666,
+   "nome": "27680.png",
+   "sinais": []
+  },
+  {
+   "id": "Q109",
+   "t": 925.0,
+   "nome": "27750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q110",
+   "t": 935.0,
+   "nome": "28050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q111",
+   "t": 941.3333333333334,
+   "nome": "28240.png",
+   "sinais": []
+  },
+  {
+   "id": "Q112",
+   "t": 945.0,
+   "nome": "28350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q113",
+   "t": 955.0,
+   "nome": "28650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q114",
+   "t": 965.0,
+   "nome": "28950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q115",
+   "t": 975.0,
+   "nome": "29250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q116",
+   "t": 985.0,
+   "nome": "29550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q117",
+   "t": 995.0,
+   "nome": "29850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q118",
+   "t": 1005.0,
+   "nome": "30150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q119",
+   "t": 1015.0,
+   "nome": "30450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q120",
+   "t": 1025.0,
+   "nome": "30750.png",
+   "sinais": []
+  }
+ ]
+}

@@ -5,7 +5,8 @@
   "padrao_titulo": "afirmação estranha + pergunta",
   "padrao_thumb": "rosto-emocao",
   "thumb_conceito": "rei espanhol do séc. XVI de manto vermelho (sem rufo), rosto grande irritado-perplexo, segurando uma pilha torta de 5 coroas diferentes na cabeça; fundo ocre liso",
-  "thumb_texto": "REI DAS ESPANHAS"
+  "thumb_texto": "REI DAS ESPANHAS",
+  "thumb_arquivo": "entrega/thumb-A.jpg"
  },
  {
   "letra": "B",
@@ -13,7 +14,8 @@
   "padrao_titulo": "pergunta de transformação + número",
   "padrao_thumb": "conflito-xvy",
   "thumb_conceito": "guarda de alfândega castelhano × mercador navarro (capa com correntes de Navarra), peito para cima, testa contra testa, cancela listrada no meio, fundo em 2 cores",
-  "thumb_texto": "CASTELA × NAVARRA"
+  "thumb_texto": "CASTELA × NAVARRA",
+  "thumb_arquivo": "entrega/thumb-B.jpg"
  },
  {
   "letra": "C",
@@ -21,6 +23,7 @@
   "padrao_titulo": "[Lugar]: o X que contradiz o esperado",
   "padrao_thumb": "objeto-simbolo",
   "thumb_conceito": "coroa partida ao meio e costurada com linha grossa (metade castelo, metade listras), um ponto arrebentando; fundo creme claro, objeto à direita",
-  "thumb_texto": "1469"
+  "thumb_texto": "1469",
+  "thumb_arquivo": "entrega/thumb-C.jpg"
  }
 ]

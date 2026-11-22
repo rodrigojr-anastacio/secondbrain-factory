@@ -71,3 +71,6 @@ As refs de estilo (`canal.yaml`) são do Egito: no 010 e no 011 o Codex/fal pôs
 
 ## 014 Inglaterra (20/11/2026)
 202 imagens Codex (0 fallback). Interiores de Londres de antes de 1700 com janela para o rio saíram com Parlamento neogótico/Big Ben, cúpula de St Paul's e ponte de pedra (8 de 202 refeitas): o sufixo deve dizer "NO Big Ben, NO clock tower, NO neo-Gothic Palace of Westminster, NO domed cathedral, NO stone arch bridge" e descrever o skyline (Torre de Londres, igreja gótica, casas de madeira); com isso a 1ª refação saiu certa (8/8). Cartão de data deve cair no plano da cena que ele data, não no 1º plano do bloco (1805 caiu sobre uma analogia moderna). [ETAPA2.md 014]
+
+## 016 Espanha (22/11/2026): lição de prompt
+Cena de 711 (chegada dos muçulmanos) com o sufixo "al-Andalus" gerou Alhambra e arcos de ferradura (anacronismo, pego pelo pré-QA). Para época anterior ao estilo que o sufixo descreve, o prompt do local precisa descrever a época (aqui: aldeias de pedra e madeira visigodas, torre romana) e proibir os ícones posteriores (NO Alhambra, NO horseshoe arches). Hipótese: vale para qualquer cena que antecede a arquitetura-ícone do lugar. [PREQA-visual.md 016]

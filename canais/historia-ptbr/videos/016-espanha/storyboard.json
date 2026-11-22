@@ -3470,7 +3470,7 @@
    "enq": "aberto",
    "mov": "push-in leve",
    "rot": null,
-   "nota": "cartão de data: 1824"
+   "nota": ""
   },
   {
    "plano": 248,
@@ -3540,7 +3540,7 @@
    "enq": "médio-esq",
    "mov": "pan esq→dir",
    "rot": null,
-   "nota": ""
+   "nota": "cartão de data: 1824"
   },
   {
    "plano": 253,
@@ -4100,7 +4100,7 @@
    "enq": "aberto",
    "mov": "zoom-in lento",
    "rot": null,
-   "nota": "capítulo: 10. Uma à força, uma assinada; cartão de data: 1931"
+   "nota": "capítulo: 10. Uma à força, uma assinada"
   },
   {
    "plano": 293,
@@ -4114,7 +4114,7 @@
    "enq": "aberto",
    "mov": "pan esq→dir",
    "rot": "FRANCESC MACIÀ",
-   "nota": "rótulo: FRANCESC MACIÀ"
+   "nota": "rótulo: FRANCESC MACIÀ; cartão de data: 1931"
   },
   {
    "plano": 294,
