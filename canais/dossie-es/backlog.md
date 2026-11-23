@@ -9,7 +9,7 @@ Ranking de 2026-11-04 para o **mercado em espanhol** (`pesquisa/archive-in-minut
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (21/11/2026 20:07)
+## Backlog vivo (22/11/2026 22:51)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
@@ -17,8 +17,7 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | noite | pode ir ao ar | tema | status |
 |---|---|---|---|
-| sáb 21/11 | dom ou seg | La Yakuza | em_producao |
-| dom 22/11 | seg ou qua | El GRU | agendado |
+| dom 22/11 | seg ou qua | El GRU | em_producao |
 | seg 23/11 | qua ou sex | MKUltra (el programa secreto de la CIA) | agendado |
 | ter 24/11 | sex ou sáb | El Gulag | agendado |
 | sáb 28/11 | dom ou seg | La Operación Cóndor (DINA y los servicios secretos del Cono Sur) | agendado |
@@ -26,19 +25,19 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 | seg 30/11 | qua ou sex | — (vaga) | |
 | ter 01/12 | sex ou sáb | — (vaga) | |
 | sáb 05/12 | dom ou seg | — (vaga) | |
+| dom 06/12 | seg ou qua | — (vaga) | |
 
 ### Temas (ordem da fila)
 
 | id | tema | nota (D·E·U) | status | noite (ao ar) | janela do tema | evidência principal |
 |---|---|---|---|---|---|---|
-| 23 | La Yakuza | 8.5 (6·7·5) | em_producao | sáb 21/11 (dom ou seg) | perene | [Te lo Pinto (es): 'Cómo es Ser Cada Rango de la Yakuza' 1.236.495 views (08/02/2026)](https://youtube.com/watch?v=aN_Wl0RYbbQ) |
-| 43 | El GRU | 8.0 (8·9·7) | agendado | dom 22/11 (seg ou qua) | perene | [busca yt-dlp es + videos.list: mediana top-10 em es (12 m) 194.621; 6 de 8 vídeos > 100 mil (Armapedia 673.931 e 319.534)](https://www.youtube.com/results?search_query=historia+del+GRU+inteligencia+militar+rusa) |
+| 43 | El GRU | 8.0 (8·9·7) | em_producao | dom 22/11 (seg ou qua) | perene | [busca yt-dlp es + videos.list: mediana top-10 em es (12 m) 194.621; 6 de 8 vídeos > 100 mil (Armapedia 673.931 e 319.534)](https://www.youtube.com/results?search_query=historia+del+GRU+inteligencia+militar+rusa) |
 | 44 | MKUltra (el programa secreto de la CIA) | 7.3 (7·7·8) | agendado | seg 23/11 (qua ou sex) | 10/12 | [Archive in Minutes: publicado 20/11 ('The ENTIRE History of MKUltra in 19 Minutes', em A/B com 'The CIA Burned Every File. Seven Boxes Survived.'): o canal-modelo empurra o tema agora; os clones es costumam vir em 1–2 semanas (MI5 do Archivo en Minutos: 47.981 em 3 dias)](https://youtube.com/watch?v=o7tcLlrUiAk) |
 | 45 | El Gulag | 6.2 (6·8·5) | agendado | ter 24/11 (sex ou sáb) | perene | [busca yt-dlp es + videos.list: SLICE 'El Gulag, 40 años de represión' 267.491 (22/08/2026); mediana top-10 em es 42.868 (só 4 vídeos em 12 m: pouca oferta)](https://youtube.com/watch?v=ik6DucfgIXw) |
 | 46 | La Operación Cóndor (DINA y los servicios secretos del Cono Sur) | 6.0 (6·9·4) | agendado | sáb 28/11 (dom ou seg) | perene | [Armapedia (es): 'OPERACIÓN CÓNDOR… la red secreta de dictaduras militares' 364.537 views (21/08/2026)](https://youtube.com/watch?v=GKD2J4A-HMA) |
 | 24 | El Opus Dei | 5.4 (8·5·4) | agendado | dom 29/11 (seg ou qua) | perene | [busca yt-dlp es + videos.list: mediana top-10 em es (12 m) 122.957; 6 vídeos > 100 mil, 2 nos últimos 90 dias (La Nueva Enciclopedia 294.026 em 33 dias)](https://youtube.com/watch?v=frVDatN_0WM) |
 
-Prontos/publicados recentes: La Gestapo (publicado, dom 15/11); Las SS (publicado, dom 15/11); El Cártel de Medellín (publicado, seg 16/11); La Inquisición (publicado, seg 16/11); Los Templarios (pronto, ter 17/11); El MI6 (pronto, qui 19/11); Los Juicios de Núremberg (pronto, sex 20/11)
+Prontos/publicados recentes: La Gestapo (publicado, dom 15/11); Las SS (publicado, dom 15/11); El Cártel de Medellín (publicado, seg 16/11); La Inquisición (publicado, seg 16/11); Los Templarios (publicado, ter 17/11); El MI6 (pronto, qui 19/11); Los Juicios de Núremberg (pronto, sex 20/11); La Yakuza (pronto, sáb 21/11)
 
 Descartados recentes: La Stasi (backlog r2 20/11 aprovado pelo Rodrigo: busca es quase nula; clone Archivo en Minutos fez 1,3 mil (pesquisa/backlog-dossie-r2-2026-11-20), 20/11); Los Jesuitas (backlog r2 20/11 aprovado pelo Rodrigo: família religiosa fraca no canal, pouca busca es (pesquisa/backlog-dossie-r2-2026-11-20), 20/11)
 
