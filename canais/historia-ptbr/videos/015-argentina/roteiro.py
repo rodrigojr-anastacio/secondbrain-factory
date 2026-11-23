@@ -14,7 +14,7 @@ EMBALAGEM.md aprovada no crivo r5 (3/3):
   C/T3 "Por que a Argentina trocou de dinheiro 4 vezes em 22 anos?" + thumb numero-estatistica ("13 ZEROS", tesoura na cédula)
 Hook: a gaveta do avô em 1/1/1992 — maço de 1969 com cinta de 1 milhão, dinheiro de uma tropa vendida no pampa (≤ 0:25)
   → frase-âncora "em vinte e dois anos… quatro vezes… treze zeros" (≤ 0:30) → "entre os mais ricos do mundo" (passagem)
-  → PERGUNTA CENTRAL (≤ 0:50) → "essa é a história inteira" + "quem paga a conta… o couro, a carne, o trigo… quem fica com esse dinheiro, manda" (≤ 1:00).
+  → PERGUNTA CENTRAL "quem pagou por esses treze zeros?" (≤ 0:50; trocada no crivo de ângulo r2: a antiga "como um país rico apagou 13 zeros" era quase a do hfMz/HX4L) → "essa é a história inteira" + "quem paga a conta… o couro, a carne, o trigo… quem fica com esse dinheiro, manda" (≤ 1:00).
 Peças da resposta: 1 (cap. 4, 1890) quem manda e não quer cobrar de quem tem imprime ou pede emprestado; 2 (cap. 7, 1952) a conta muda de
   lado, mas não some; 3 (cap. 9, 1989) quando ninguém aceita pagar, a conta para no bolso de quem segura o dinheiro. Fecho responde e reenquadra.
 "Guarde" único: o maço do avô → volta no cap. 8 (1970: vira dez mil; 1983: vira um peso), no cap. 9 (1992: o 13º zero) e no fecho.
@@ -46,7 +46,7 @@ MOV_NOVO = ["zoom-in lento", "pan esq→dir", "zoom-out lento", "pan dir→esq",
 MOV_ENQ = {"aberto": "zoom-out lento", "médio-esq": "pan esq→dir", "médio-dir": "pan dir→esq",
            "detalhe-centro": "push-in leve", "detalhe-alto": "tilt ↓ lento", "detalhe-baixo": "tilt ↑ lento"}
 TITULO = "A história INTEIRA da Argentina"
-PERGUNTA = "Como um país que já esteve entre os mais ricos do mundo precisou apagar treze zeros do próprio dinheiro?"
+PERGUNTA = "Quem pagou por esses treze zeros?"
 PROMESSA = ("Como a Argentina, que já esteve entre os países mais ricos do mundo, trocou de dinheiro 4 vezes em 22 anos e apagou 13 zeros "
             "da moeda: 200 anos de uma briga por quem paga a conta, com o dinheiro do pampa (couro, carne, trigo) no meio de cada briga "
             "(EMBALAGEM.md r5).")
@@ -73,7 +73,7 @@ cap("Hook")
 b("[curious] Buenos Aires, primeiro de janeiro de noventa e dois. Você abre a gaveta do avô: um maço de cédulas com cinta, um milhão de pesos.", card="1992")
 b("É o preço de uma tropa vendida no pampa em sessenta e nove. Hoje, você junta um centavo com cem mil maços desses.")
 b("Porque, em vinte e dois anos, a Argentina trocou de dinheiro quatro vezes e apagou treze zeros.")
-b("[serious] Então fica a pergunta: como um país que já esteve entre os mais ricos do mundo precisou apagar treze zeros do próprio dinheiro?")
+b("[serious] E isso num país que já esteve entre os mais ricos do mundo. Então fica a pergunta: quem pagou por esses treze zeros?")
 b("§ Essa é a história inteira da Argentina. A resposta mora numa briga de duzentos anos: quem paga a conta. E quem paga quase sempre foi o pampa: o couro, a carne, o trigo. Quem fica com esse dinheiro, manda.")
 b("Guarde esse maço: ele volta. E tudo começa num porto que nem podia ser porto.")
 
@@ -147,9 +147,10 @@ b("Então a inflação passa de cem por cento, e em junho de oitenta e três a s
 cap("9. O décimo terceiro zero")
 b("§ Noite de catorze de junho de oitenta e cinco. Raúl Alfonsín, eleito na volta da democracia, assina o Plano Austral: preços e salários congelados de um dia para o outro. É a terceira troca: o austral, três zeros a menos e a promessa de não imprimir para pagar o governo.", card="1985")
 b("Funciona por um tempo. Mas ninguém aceita a conta: o campo reclama do câmbio, os sindicatos fazem greve atrás de greve. Então a impressora volta.")
-b("§ Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Pelos números do INDEC, se você gastava cem no mercado no começo do mês, no fim precisava de quase trezentos. Alfonsín entrega o governo cinco meses antes do prazo.", card="1989")
-b("Lembra da nossa pergunta? Aqui entra a terceira peça: quando ninguém aceita pagar, a conta para no bolso de quem segura o dinheiro. Então o governo de Carlos Menem amarra o peso ao dólar por lei: um peso, um dólar.")
-b("E, no primeiro de janeiro de noventa e dois, a quarta troca corta os últimos quatro zeros: nasce o peso conversível. Repare na gaveta do começo: o milhão do avô agora vale um décimo de milionésimo de peso. Treze zeros em vinte e dois anos.", card="1992")
+b("§ Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Pelos números do INDEC, se você gastava cem no mercado no começo do mês, no fim precisava de quase trezentos. ", card="1989")
+b("Em janeiro de noventa, o governo novo faz o impensável: os depósitos a prazo nos bancos viram, à força, títulos em dólar para dez anos. É o Plano Bônex. Quem guardou dinheiro no banco acorda credor do Estado.", card="1990")
+b("Lembra da nossa pergunta? Aqui entra a terceira peça: quando ninguém aceita pagar, a conta para no bolso de quem segura o dinheiro. Então, em noventa e um, o governo de Carlos Menem amarra a moeda ao dólar por lei: um para um.")
+b("E, no primeiro de janeiro de noventa e dois, a quarta troca corta os últimos quatro zeros: nasce o peso conversível. Repare na gaveta do começo: o milhão do avô agora vale um décimo de milionésimo de peso. Caiu o décimo terceiro zero.", card="1992")
 b("Só que, para cada peso, precisava existir um dólar. E, quando os dólares não chegam, a Argentina pega emprestado. O problema é que empréstimo vence.")
 
 # ───────────────────────── 10. O PORTO DE HOJE ─────────────────────────
@@ -163,7 +164,7 @@ b("O aumento cai: o campo, mais uma vez, decidiu quem manda. Em dois mil e vinte
 
 # ───────────────────────── FECHO ─────────────────────────
 cap("Fecho")
-b("§ [warm] Então, como um país que já esteve entre os mais ricos do mundo apagou treze zeros? Porque, por duzentos anos, a Argentina brigou por quem paga a conta: o porto contra as províncias, o campo contra a cidade, o governo contra os credores.")
+b("§ [warm] Então, quem pagou por esses treze zeros? Por duzentos anos, a Argentina brigou por quem paga a conta: o porto contra as províncias, o campo contra a cidade, o governo contra os credores.")
 b("E, quando ninguém aceita pagar, a conta vai para quem não pode recusar: quem tem o peso no bolso. Como o avô da gaveta.")
 b("Talvez a pergunta nunca tenha sido quanto vale o peso, e sim quem fica segurando ele. E você, o que acha? Conta nos comentários.")
 

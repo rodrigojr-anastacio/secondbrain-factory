@@ -1,12 +1,12 @@
 # A história INTEIRA da Argentina em 18 minutos: roteiro
 
-Pergunta central: Como um país que já esteve entre os mais ricos do mundo precisou apagar treze zeros do próprio dinheiro?
+Pergunta central: Quem pagou por esses treze zeros?
 
 Promessa: Como a Argentina, que já esteve entre os países mais ricos do mundo, trocou de dinheiro 4 vezes em 22 anos e apagou 13 zeros da moeda: 200 anos de uma briga por quem paga a conta, com o dinheiro do pampa (couro, carne, trigo) no meio de cada briga (EMBALAGEM.md r5).
 
 Títulos: T1 "A Argentina já foi RICA. Por que apagou 13 zeros da moeda?" / T2 "Argentina: como a CARNE e o TRIGO decidiram quem manda" / T3 "Por que a Argentina trocou de dinheiro 4 vezes em 22 anos?"
 
-Gerado por `roteiro.py` (fonte única; edite lá). 2233 palavras, ~17:49.6 estimados a 126 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 2253 palavras, ~17:59.3 estimados a 126 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
@@ -17,7 +17,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N003]** Porque, em vinte e dois anos, a Argentina trocou de dinheiro quatro vezes e apagou treze zeros.
 
-**[N004]** Então fica a pergunta: como um país que já esteve entre os mais ricos do mundo precisou apagar treze zeros do próprio dinheiro?
+**[N004]** E isso num país que já esteve entre os mais ricos do mundo. Então fica a pergunta: quem pagou por esses treze zeros?
 
 **[N005]** Essa é a história inteira da Argentina. A resposta mora numa briga de duzentos anos: quem paga a conta. E quem paga quase sempre foi o pampa: o couro, a carne, o trigo. Quem fica com esse dinheiro, manda.
 
@@ -138,34 +138,36 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N050]** Funciona por um tempo. Mas ninguém aceita a conta: o campo reclama do câmbio, os sindicatos fazem greve atrás de greve. Então a impressora volta.
 
-**[N051]** Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Pelos números do INDEC, se você gastava cem no mercado no começo do mês, no fim precisava de quase trezentos. Alfonsín entrega o governo cinco meses antes do prazo.
+**[N051]** Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Pelos números do INDEC, se você gastava cem no mercado no começo do mês, no fim precisava de quase trezentos.
 
-**[N052]** Lembra da nossa pergunta? Aqui entra a terceira peça: quando ninguém aceita pagar, a conta para no bolso de quem segura o dinheiro. Então o governo de Carlos Menem amarra o peso ao dólar por lei: um peso, um dólar.
+**[N052]** Em janeiro de noventa, o governo novo faz o impensável: os depósitos a prazo nos bancos viram, à força, títulos em dólar para dez anos. É o Plano Bônex. Quem guardou dinheiro no banco acorda credor do Estado.
 
-**[N053]** E, no primeiro de janeiro de noventa e dois, a quarta troca corta os últimos quatro zeros: nasce o peso conversível. Repare na gaveta do começo: o milhão do avô agora vale um décimo de milionésimo de peso. Treze zeros em vinte e dois anos.
+**[N053]** Lembra da nossa pergunta? Aqui entra a terceira peça: quando ninguém aceita pagar, a conta para no bolso de quem segura o dinheiro. Então, em noventa e um, o governo de Carlos Menem amarra a moeda ao dólar por lei: um para um.
 
-**[N054]** Só que, para cada peso, precisava existir um dólar. E, quando os dólares não chegam, a Argentina pega emprestado. O problema é que empréstimo vence.
+**[N054]** E, no primeiro de janeiro de noventa e dois, a quarta troca corta os últimos quatro zeros: nasce o peso conversível. Repare na gaveta do começo: o milhão do avô agora vale um décimo de milionésimo de peso. Caiu o décimo terceiro zero.
+
+**[N055]** Só que, para cada peso, precisava existir um dólar. E, quando os dólares não chegam, a Argentina pega emprestado. O problema é que empréstimo vence.
 
 
 ## 10. O porto de hoje
 
-**[N055]** La Plata, agosto de dois mil e um. Um funcionário da província recebe parte do salário num papel colorido: o patacão, um bônus da província. Não é peso, mas a padaria aceita.
+**[N056]** La Plata, agosto de dois mil e um. Um funcionário da província recebe parte do salário num papel colorido: o patacão, um bônus da província. Não é peso, mas a padaria aceita.
 
-**[N056]** Logo há mais de uma dúzia de quase-moedas, perto de metade do dinheiro em papel do país. Se você já pagou o almoço com vale, entende: é a conta voltando para o bolso, em outra cor.
+**[N057]** Logo há mais de uma dúzia de quase-moedas, perto de metade do dinheiro em papel do país. Se você já pagou o almoço com vale, entende: é a conta voltando para o bolso, em outra cor.
 
-**[N057]** Em dezembro, o país suspende a dívida e tem cinco presidentes em onze dias. Aí vem a pesificação: o depósito em dólar vira um peso e quarenta por dólar, e o dólar de verdade passa de três. A diferença fica, de novo, com quem segurava o dinheiro.
+**[N058]** Em dezembro, o país suspende a dívida e tem cinco presidentes em onze dias. Aí vem a pesificação: o depósito em dólar vira um peso e quarenta por dólar, e o dólar de verdade passa de três. A diferença fica, de novo, com quem segurava o dinheiro.
 
-**[N058]** Então o governo volta ao porto e recria o imposto sobre a exportação de grãos, as retenções. A soja do pampa vira o caixa do Estado, como você viu o couro fazer na velha alfândega.
+**[N059]** Então o governo volta ao porto e recria o imposto sobre a exportação de grãos, as retenções. A soja do pampa vira o caixa do Estado, como você viu o couro fazer na velha alfândega.
 
-**[N059]** Senado, madrugada de dezessete de julho de dois mil e oito. Depois de meses de estradas bloqueadas pelo campo contra retenções maiores, a votação empata: trinta e seis a trinta e seis. Desempata o vice-presidente Julio Cobos, do próprio governo. E ele diz: meu voto não é positivo.
+**[N060]** Senado, madrugada de dezessete de julho de dois mil e oito. Depois de meses de estradas bloqueadas pelo campo contra retenções maiores, a votação empata: trinta e seis a trinta e seis. Desempata o vice-presidente Julio Cobos, do próprio governo. E ele diz: meu voto não é positivo.
 
-**[N060]** O aumento cai: o campo, mais uma vez, decidiu quem manda. Em dois mil e vinte e seis, com Javier Milei, a inflação caiu para perto de dois por cento ao mês. Só que a pergunta continua na mesa: quem paga o ajuste?
+**[N061]** O aumento cai: o campo, mais uma vez, decidiu quem manda. Em dois mil e vinte e seis, com Javier Milei, a inflação caiu para perto de dois por cento ao mês. Só que a pergunta continua na mesa: quem paga o ajuste?
 
 
 ## Fecho
 
-**[N061]** Então, como um país que já esteve entre os mais ricos do mundo apagou treze zeros? Porque, por duzentos anos, a Argentina brigou por quem paga a conta: o porto contra as províncias, o campo contra a cidade, o governo contra os credores.
+**[N062]** Então, quem pagou por esses treze zeros? Por duzentos anos, a Argentina brigou por quem paga a conta: o porto contra as províncias, o campo contra a cidade, o governo contra os credores.
 
-**[N062]** E, quando ninguém aceita pagar, a conta vai para quem não pode recusar: quem tem o peso no bolso. Como o avô da gaveta.
+**[N063]** E, quando ninguém aceita pagar, a conta vai para quem não pode recusar: quem tem o peso no bolso. Como o avô da gaveta.
 
-**[N063]** Talvez a pergunta nunca tenha sido quanto vale o peso, e sim quem fica segurando ele. E você, o que acha? Conta nos comentários.
+**[N064]** Talvez a pergunta nunca tenha sido quanto vale o peso, e sim quem fica segurando ele. E você, o que acha? Conta nos comentários.
