@@ -1,0 +1,259 @@
+{
+ "pasta": "canais/dossie-es/videos/015-gru",
+ "roteiro": "canais/dossie-es/videos/015-gru/blocos.json",
+ "idioma": "es",
+ "blocos": 62,
+ "nota": 2.1,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [],
+ "referencias": [
+  {
+   "cobertura": 0.03225806451612903,
+   "ordem": 0.0,
+   "ngramas": 0.004282655246252677,
+   "sim_media": 0.15077868425569615,
+   "gemeos": 2,
+   "blocos": 62,
+   "posicoes": [
+    [
+     25,
+     120
+    ],
+    [
+     26,
+     115
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 25,
+     "cos": 0.36,
+     "nosso": "En el verano y el otoño de mil novecientos sesenta y dos, Bolshakov transmite el mensaje de Moscú: las armas que la Unión Soviética envía a Cuba son defensivas. El catorce de octubre, un avión espía estadounidense fotografía misiles en la isla.",
+     "ref": "incluidos manuales de misiles soviéticos. En octubre de 1962, aviones espía estadounidenses fotografían sitios de misiles en Cuba, y los analistas pueden interpretarlos en parte"
+    },
+    {
+     "bloco": 26,
+     "cos": 0.34,
+     "nosso": "El veintidós de octubre, la KGB detiene a otro coronel del GRU, Oleg Penkovski, que espiaba para Occidente.",
+     "ref": "purgas. El coronel. Oleg Penkovski se siente postergado y odia lo que ve como la temeridad de Jrushchov. En agosto de 1960, detiene a dos estudiantes estadounidenses en un puente de Moscú"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada-zj6NdhFyelE.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3818,
+   "nota": 2.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.016129032258064516,
+   "ordem": 0.0,
+   "ngramas": 0.006423982869379015,
+   "sim_media": 0.12793849117302913,
+   "gemeos": 1,
+   "blocos": 62,
+   "posicoes": [
+    [
+     46,
+     51
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 46,
+     "cos": 0.39,
+     "nosso": "Para entonces ya lo habían descubierto. En abril de dos mil veintidós, al llegar a La Haya para una pasantía en la Corte Penal Internacional, los neerlandeses lo devuelven a Brasil. Según su servicio de inteligencia, su nombre real es Serguéi Cherkásov, oficia",
+     "ref": "una pasantía allá en Europa. En abril de 2022, Sergei, el Vittor, de hecho consiguió una pasantía en la Corte Penal Internacional de La Haya, en Países"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada-y6ny5C7Ofm8.txt",
+   "idioma_ref": "pt",
+   "traduzido": true,
+   "palavras_ref": 1615,
+   "nota": 1.4,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0032119914346895075,
+   "sim_media": 0.13336107595572597,
+   "gemeos": 0,
+   "blocos": 62,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada-6XyE1fB2kj0.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 4113,
+   "nota": 0.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.004282655246252677,
+   "sim_media": 0.10940034520397282,
+   "gemeos": 0,
+   "blocos": 62,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada-88cych_4Eb0.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 947,
+   "nota": 0.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.004282655246252677,
+   "sim_media": 0.13143490662629767,
+   "gemeos": 0,
+   "blocos": 62,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada-xjo0iLssbI8.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4814,
+   "nota": 0.3,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0021413276231263384,
+   "sim_media": 0.12246742429077041,
+   "gemeos": 0,
+   "blocos": 62,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada--80IkHYAMpA.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 4107,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0021413276231263384,
+   "sim_media": 0.12634352561666745,
+   "gemeos": 0,
+   "blocos": 62,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada-hC613968Z7Q.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2961,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0021413276231263384,
+   "sim_media": 0.12832374947673286,
+   "gemeos": 0,
+   "blocos": 62,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada-kAV33eby2go.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2646,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0010706638115631692,
+   "sim_media": 0.12757979697737623,
+   "gemeos": 0,
+   "blocos": 62,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada-8III4C5VLL0.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 5196,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0010706638115631692,
+   "sim_media": 0.1267354428554852,
+   "gemeos": 0,
+   "blocos": 62,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada-Gt6_9m5qXdU.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 4209,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0010706638115631692,
+   "sim_media": 0.1225959660513648,
+   "gemeos": 0,
+   "blocos": 62,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada-bUNfhSb14ew.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 3295,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.10594464724826262,
+   "gemeos": 0,
+   "blocos": 62,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada-KBmFbVjYt-s.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 1211,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.11691939521687066,
+   "gemeos": 0,
+   "blocos": 62,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/015-gru/ref/manada-sy1sPte-_EQ.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2993,
+   "nota": 0.0,
+   "veredito": "ok"
+  }
+ ]
+}
