@@ -70,7 +70,7 @@ P = {}
 
 # ───────────────────────── HOOK (a gaveta do avô, 1/1/1992) ─────────────────────────
 cap("Hook")
-b("[curious] Buenos Aires, primeiro de janeiro de noventa e dois. Você abre a gaveta do avô: um maço de cédulas com cinta, um milhão de pesos.", card="1992")
+b("[curious] Buenos Aires, primeiro de janeiro de noventa e dois. Imagine: você abre a gaveta do avô: um maço de cédulas com cinta, um milhão de pesos.", card="1992")
 b("É o preço de uma tropa vendida no pampa em sessenta e nove. Hoje, você junta um centavo com cem mil maços desses.")
 b("Porque, em vinte e dois anos, a Argentina trocou de dinheiro quatro vezes e apagou treze zeros.")
 b("[serious] E isso num país que já esteve entre os mais ricos do mundo. Então fica a pergunta: quem pagou por esses treze zeros?")

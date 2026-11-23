@@ -6,12 +6,12 @@ Promessa: Como a Argentina, que já esteve entre os países mais ricos do mundo,
 
 Títulos: T1 "A Argentina já foi RICA. Por que apagou 13 zeros da moeda?" / T2 "Argentina: como a CARNE e o TRIGO decidiram quem manda" / T3 "Por que a Argentina trocou de dinheiro 4 vezes em 22 anos?"
 
-Gerado por `roteiro.py` (fonte única; edite lá). 2253 palavras, ~17:59.3 estimados a 126 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 2254 palavras, ~17:59.7 estimados a 126 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
 
-**[N001]** Buenos Aires, primeiro de janeiro de noventa e dois. Você abre a gaveta do avô: um maço de cédulas com cinta, um milhão de pesos.
+**[N001]** Buenos Aires, primeiro de janeiro de noventa e dois. Imagine: você abre a gaveta do avô: um maço de cédulas com cinta, um milhão de pesos.
 
 **[N002]** É o preço de uma tropa vendida no pampa em sessenta e nove. Hoje, você junta um centavo com cem mil maços desses.
 
