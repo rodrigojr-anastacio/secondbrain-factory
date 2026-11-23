@@ -99,3 +99,6 @@ canais/*/videos/*/.claude/
 
 # --- palavras-chave: parte 1 intermediária (autocomplete bruto; o resultado final vai no <data>.json) ---
 pesquisa/palavras-chave/*-descoberta.json
+
+# Refs de HQ enviadas pelo Rodrigo (obras de terceiros, só consulta)
+canais/dossie-es/produtos/hq/refs-rodrigo/
