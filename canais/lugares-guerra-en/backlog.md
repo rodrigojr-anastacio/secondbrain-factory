@@ -6,7 +6,7 @@ Legenda: **[O]** observado nos arquivos acima · **[I]** inferência · **Hipót
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (22/11/2026 22:51)
+## Backlog vivo (23/11/2026 09:46)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
@@ -14,28 +14,28 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | noite | pode ir ao ar | tema | status |
 |---|---|---|---|
-| dom 22/11 | seg ou qua | Runit Dome (Enewetak): a cúpula nuclear do Pacífico | agendado |
-| seg 23/11 | qua ou sex | Nevada Test Site (NNSS) | agendado |
-| ter 24/11 | sex ou sáb | Kaho'olawe: a ilha que a Marinha bombardeou por 50 anos | agendado |
-| sáb 28/11 | dom ou seg | Fort Drum: o 'encouraçado de concreto' da baía de Manila | agendado |
-| dom 29/11 | seg ou qua | Attu (Aleutas): o campo de batalha em solo americano fechado aos americanos | agendado |
-| seg 30/11 | qua ou sex | Guadalcanal (o que ainda está enterrado) | agendado |
-| ter 01/12 | sex ou sáb | — (vaga) | |
+| seg 23/11 | qua ou sex | Runit Dome (Enewetak): a cúpula nuclear do Pacífico | agendado |
+| ter 24/11 | sex ou sáb | Nevada Test Site (NNSS) | agendado |
+| sáb 28/11 | dom ou seg | Kaho'olawe: a ilha que a Marinha bombardeou por 50 anos | agendado |
+| dom 29/11 | seg ou qua | Fort Drum: o 'encouraçado de concreto' da baía de Manila | agendado |
+| seg 30/11 | qua ou sex | Attu (Aleutas): o campo de batalha em solo americano fechado aos americanos | agendado |
+| ter 01/12 | sex ou sáb | Guadalcanal (o que ainda está enterrado) | agendado |
 | sáb 05/12 | dom ou seg | — (vaga) | |
 | dom 06/12 | seg ou qua | — (vaga) | |
+| seg 07/12 | qua ou sex | — (vaga) | |
 
 ### Temas (ordem da fila)
 
 | id | tema | nota (D·E·U) | status | noite (ao ar) | janela do tema | evidência principal |
 |---|---|---|---|---|---|---|
-| 36 | Runit Dome (Enewetak): a cúpula nuclear do Pacífico | 6.5 (8·7·5) | agendado | dom 22/11 (seg ou qua) | perene | [ABC News In-depth (Concrete Dome... Toxic Timebomb): 9,42 mi views](https://www.youtube.com/watch?v=autMHvj3exA) |
-| 37 | Nevada Test Site (NNSS) | 6.0 (6·9·4) | agendado | seg 23/11 (qua ou sex) | perene | [atomcentral (Atomic Journeys - The Nevada Test Site): 1,64 mi views](https://www.youtube.com/watch?v=Z7X7QNDi1mQ) |
-| 38 | Kaho'olawe: a ilha que a Marinha bombardeou por 50 anos | 5.8 (5·8·5) | agendado | ter 24/11 (sex ou sáb) | 07/12 | [Vox (How Native Hawaiians fought the US Navy, and won): 1,01 mi views](https://www.youtube.com/watch?v=6nWZ15JeZnc) |
-| 39 | Fort Drum: o 'encouraçado de concreto' da baía de Manila | 5.8 (8·6·4) | agendado | sáb 28/11 (dom ou seg) | perene | [Calum (Fort Drum: America's Unsinkable 'Concrete Battleship'): 4,68 mi views](https://www.youtube.com/watch?v=2RYoK0zmUM0) |
-| 40 | Attu (Aleutas): o campo de batalha em solo americano fechado aos americanos | 5.8 (6·8·4) | agendado | dom 29/11 (seg ou qua) | perene | [Simple History (The Only Land Battle Fought on U.S. soil in WWII): 4,39 mi views](https://www.youtube.com/watch?v=k2pcLtkzg2M) |
-| 41 | Guadalcanal (o que ainda está enterrado) | 5.5 (7·8·3) | agendado | seg 30/11 (qua ou sex) | perene | [The History Underground (Ghostly Remains of Guadalcanal): 723 mil views](https://www.youtube.com/watch?v=sbVc6rVUdXo) |
+| 36 | Runit Dome (Enewetak): a cúpula nuclear do Pacífico | 6.5 (8·7·5) | agendado | seg 23/11 (qua ou sex) | perene | [ABC News In-depth (Concrete Dome... Toxic Timebomb): 9,42 mi views](https://www.youtube.com/watch?v=autMHvj3exA) |
+| 37 | Nevada Test Site (NNSS) | 6.0 (6·9·4) | agendado | ter 24/11 (sex ou sáb) | perene | [atomcentral (Atomic Journeys - The Nevada Test Site): 1,64 mi views](https://www.youtube.com/watch?v=Z7X7QNDi1mQ) |
+| 38 | Kaho'olawe: a ilha que a Marinha bombardeou por 50 anos | 5.8 (5·8·5) | agendado | sáb 28/11 (dom ou seg) | 07/12 | [Vox (How Native Hawaiians fought the US Navy, and won): 1,01 mi views](https://www.youtube.com/watch?v=6nWZ15JeZnc) |
+| 39 | Fort Drum: o 'encouraçado de concreto' da baía de Manila | 5.8 (8·6·4) | agendado | dom 29/11 (seg ou qua) | perene | [Calum (Fort Drum: America's Unsinkable 'Concrete Battleship'): 4,68 mi views](https://www.youtube.com/watch?v=2RYoK0zmUM0) |
+| 40 | Attu (Aleutas): o campo de batalha em solo americano fechado aos americanos | 5.8 (6·8·4) | agendado | seg 30/11 (qua ou sex) | perene | [Simple History (The Only Land Battle Fought on U.S. soil in WWII): 4,39 mi views](https://www.youtube.com/watch?v=k2pcLtkzg2M) |
+| 41 | Guadalcanal (o que ainda está enterrado) | 5.5 (7·8·3) | agendado | ter 01/12 (sex ou sáb) | perene | [The History Underground (Ghostly Remains of Guadalcanal): 723 mil views](https://www.youtube.com/watch?v=sbVc6rVUdXo) |
 
-Prontos/publicados recentes: Pearl Harbor (Ford Island e Hickam: a parte que fica atrás do portão) (publicado, dom 15/11); Bikini Atoll (publicado, dom 15/11); Tarawa (Betio: as escavações que não acabam) (pronto, seg 16/11); Gettysburg (fotos) (publicado, seg 16/11)
+Prontos/publicados recentes: Tarawa (Betio: as escavações que não acabam) (pronto, seg 16/11); Gettysburg (fotos) (publicado, seg 16/11)
 
 <!-- backlog-vivo:fim -->
 
