@@ -1,0 +1,26 @@
+[
+ {
+  "letra": "A",
+  "titulo": "El Empresario Uruguayo que Espiaba para Moscú | Expedientes Secretos del GRU",
+  "padrao_titulo": "caso concreto + plural de expedientes",
+  "padrao_thumb": "objeto-simbolo",
+  "thumb_conceito": "matrioska aberta: casca de empresário de terno branco e panamá, dentro a boneca de oficial soviético (≥1/3 da altura); fundo ardósia, sigla à direita, sello GULAG",
+  "thumb_texto": "GRU · GULAG"
+ },
+ {
+  "letra": "B",
+  "titulo": "GRU: la fábrica rusa de latinoamericanos",
+  "padrao_titulo": "SIGLA: aposto com lacuna",
+  "padrao_thumb": "cena-acao",
+  "thumb_conceito": "noite na pista de Vnukovo (1/8/2024): Putin em close (rosto ≥1/3) aperta a mão de um homem; sem avião nem guarda; carimbo à direita",
+  "thumb_texto": "¿BRASILEÑO?"
+ },
+ {
+  "letra": "C",
+  "titulo": "Cómo el GRU convirtió a sus espías en uruguayos, peruanos y brasileños",
+  "padrao_titulo": "Cómo + organização + verbo concreto + alvo",
+  "padrao_thumb": "documento-evidencia",
+  "thumb_conceito": "3 passaportes em leque vistos de cima, janela da foto vazia, carimbo vermelho cravado por cima",
+  "thumb_texto": "NUNCA NACIERON"
+ }
+]
