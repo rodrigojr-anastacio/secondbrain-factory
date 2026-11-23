@@ -6,14 +6,14 @@ Promessa: Como a Argentina, que já esteve entre os países mais ricos do mundo,
 
 Títulos: T1 "A Argentina já foi RICA. Por que apagou 13 zeros da moeda?" / T2 "Argentina: como a CARNE e o TRIGO decidiram quem manda" / T3 "Por que a Argentina trocou de dinheiro 4 vezes em 22 anos?"
 
-Gerado por `roteiro.py` (fonte única; edite lá). 2223 palavras, ~17:44.9 estimados a 126 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 2233 palavras, ~17:49.6 estimados a 126 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
 
-**[N001]** Buenos Aires, primeiro de janeiro de noventa e dois. Imagine que você abre a gaveta do seu avô e acha um maço de cédulas com uma cinta: um milhão de pesos.
+**[N001]** Buenos Aires, primeiro de janeiro de noventa e dois. Você abre a gaveta do avô: um maço de cédulas com cinta, um milhão de pesos.
 
-**[N002]** É o preço de uma tropa de gado que ele vendeu no pampa em sessenta e nove. Hoje, você junta um centavo com cem mil maços desses.
+**[N002]** É o preço de uma tropa vendida no pampa em sessenta e nove. Hoje, você junta um centavo com cem mil maços desses.
 
 **[N003]** Porque, em vinte e dois anos, a Argentina trocou de dinheiro quatro vezes e apagou treze zeros.
 
@@ -121,7 +121,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N043]** Buenos Aires, primeiro de janeiro de mil novecentos e setenta. Chega o peso lei, com dois zeros a menos. Lembra do maço do avô? Nesse dia, o milhão vira dez mil.
 
-**[N044]** O motivo: quinze anos de pêndulo e de inflação encheram as cédulas de zeros. Repare: nenhum zero cai por capricho. Cada um é o recibo de uma conta que ninguém quis pagar.
+**[N044]** O motivo: quinze anos de pêndulo e de inflação encheram as cédulas de zeros. Repare: nenhum zero cai por capricho. Cada corte chega depois de anos imprimindo para tapar o buraco do governo.
 
 **[N045]** Em junho de setenta e cinco, a briga explode. Um pacote do ministro Celestino Rodrigo dobra o dólar e quase triplica a gasolina. Os sindicatos param o país, e o plano cai: é o rodrigazo.
 
@@ -134,11 +134,11 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## 9. O décimo terceiro zero
 
-**[N049]** Praça de Maio, abril de oitenta e cinco. Raúl Alfonsín, eleito na volta da democracia, anuncia uma economia de guerra. Em junho, vem a terceira troca: o austral, três zeros a menos e a promessa de não imprimir para pagar o governo.
+**[N049]** Noite de catorze de junho de oitenta e cinco. Raúl Alfonsín, eleito na volta da democracia, assina o Plano Austral: preços e salários congelados de um dia para o outro. É a terceira troca: o austral, três zeros a menos e a promessa de não imprimir para pagar o governo.
 
 **[N050]** Funciona por um tempo. Mas ninguém aceita a conta: o campo reclama do câmbio, os sindicatos fazem greve atrás de greve. Então a impressora volta.
 
-**[N051]** Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Imagine receber o salário e trocar tudo por comida no mesmo dia. Alfonsín entrega o governo cinco meses antes do prazo.
+**[N051]** Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Pelos números do INDEC, se você gastava cem no mercado no começo do mês, no fim precisava de quase trezentos. Alfonsín entrega o governo cinco meses antes do prazo.
 
 **[N052]** Lembra da nossa pergunta? Aqui entra a terceira peça: quando ninguém aceita pagar, a conta para no bolso de quem segura o dinheiro. Então o governo de Carlos Menem amarra o peso ao dólar por lei: um peso, um dólar.
 
@@ -155,7 +155,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N057]** Em dezembro, o país suspende a dívida e tem cinco presidentes em onze dias. Aí vem a pesificação: o depósito em dólar vira um peso e quarenta por dólar, e o dólar de verdade passa de três. A diferença fica, de novo, com quem segurava o dinheiro.
 
-**[N058]** Então o governo volta ao porto e recria o imposto sobre a exportação de grãos, as retenções. A soja do pampa vira o caixa do Estado, como o couro na velha alfândega.
+**[N058]** Então o governo volta ao porto e recria o imposto sobre a exportação de grãos, as retenções. A soja do pampa vira o caixa do Estado, como você viu o couro fazer na velha alfândega.
 
 **[N059]** Senado, madrugada de dezessete de julho de dois mil e oito. Depois de meses de estradas bloqueadas pelo campo contra retenções maiores, a votação empata: trinta e seis a trinta e seis. Desempata o vice-presidente Julio Cobos, do próprio governo. E ele diz: meu voto não é positivo.
 

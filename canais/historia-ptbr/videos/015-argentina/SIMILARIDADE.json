@@ -3,30 +3,26 @@
  "roteiro": "canais/historia-ptbr/videos/015-argentina/blocos.json",
  "idioma": "pt",
  "blocos": 63,
- "nota": 2.0,
+ "nota": 1.1,
  "veredito": "ok",
  "limites": {
   "ATENCAO": 18,
   "COPIA": 30
  },
  "limiar_gemeo": 0.3,
- "custo_traducao_usd": 0.0534,
+ "custo_traducao_usd": 0.0,
  "blocos_consenso_manada": [
   54
  ],
  "referencias": [
   {
-   "cobertura": 0.031746031746031744,
+   "cobertura": 0.015873015873015872,
    "ordem": 0.0,
-   "ngramas": 0.0026857654431512983,
-   "sim_media": 0.14091223082079563,
-   "gemeos": 2,
+   "ngramas": 0.00267379679144385,
+   "sim_media": 0.13978178968323687,
+   "gemeos": 1,
    "blocos": 63,
    "posicoes": [
-    [
-     51,
-     25
-    ],
     [
      54,
      35
@@ -38,26 +34,20 @@
      "cos": 0.36,
      "nosso": "Só que, para cada peso, precisava existir um dólar. E, quando os dólares não chegam, a Argentina pega emprestado. O problema é que empréstimo vence.",
      "ref": "armadilha. Se você não pode imprimir dinheiro, como financia o déficit? Pega empréstimos em dólares no exterior, e a Argentina pega e pega mais. Então, no fim dos anos 1990, a crise chega. A economia encolhe"
-    },
-    {
-     "bloco": 51,
-     "cos": 0.34,
-     "nosso": "Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Imagine receber o salário e trocar tudo por comida no mesmo dia. Alfonsín entrega o governo cinco meses antes do prazo.",
-     "ref": "sobem quase 5.000%. Sua mãe recebe o salário na sexta-feira. Ela não guarda nem um peso. Corre direto para o supermercado. Em um mês como julho, esse salário"
     }
    ],
    "ref": "canais/historia-ptbr/videos/015-argentina/ref/manada-hfMzIkLnY4o.txt",
    "idioma_ref": "en",
    "traduzido": true,
    "palavras_ref": 1564,
-   "nota": 2.0,
+   "nota": 1.1,
    "veredito": "ok"
   },
   {
    "cobertura": 0.015873015873015872,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.11228045161495312,
+   "sim_media": 0.11246947166657269,
    "gemeos": 1,
    "blocos": 63,
    "posicoes": [
@@ -84,8 +74,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0026857654431512983,
-   "sim_media": 0.12111759088487711,
+   "ngramas": 0.00267379679144385,
+   "sim_media": 0.12196699965497133,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -100,8 +90,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0026857654431512983,
-   "sim_media": 0.12487831328818595,
+   "ngramas": 0.00267379679144385,
+   "sim_media": 0.12550391890065127,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -116,8 +106,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0008952551477170994,
-   "sim_media": 0.11321627448358981,
+   "ngramas": 0.00089126559714795,
+   "sim_media": 0.11238033195271026,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -132,8 +122,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0008952551477170994,
-   "sim_media": 0.10849706547813222,
+   "ngramas": 0.00089126559714795,
+   "sim_media": 0.10944022188107971,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -148,8 +138,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0017905102954341987,
-   "sim_media": 0.11262789483133022,
+   "ngramas": 0.0017825311942959,
+   "sim_media": 0.1129010891857722,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -164,8 +154,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0008952551477170994,
-   "sim_media": 0.08535577975195388,
+   "ngramas": 0.00089126559714795,
+   "sim_media": 0.08519569506563654,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -180,8 +170,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0008952551477170994,
-   "sim_media": 0.11943407742178798,
+   "ngramas": 0.00089126559714795,
+   "sim_media": 0.11787496798379393,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -196,8 +186,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0008952551477170994,
-   "sim_media": 0.12880586336116343,
+   "ngramas": 0.00089126559714795,
+   "sim_media": 0.12794594972165377,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -212,8 +202,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0017905102954341987,
-   "sim_media": 0.12014722311263266,
+   "ngramas": 0.0017825311942959,
+   "sim_media": 0.12007088261439017,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -228,8 +218,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0008952551477170994,
-   "sim_media": 0.11708533042009135,
+   "ngramas": 0.00089126559714795,
+   "sim_media": 0.11771668818597472,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -244,8 +234,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0008952551477170994,
-   "sim_media": 0.11590200001736686,
+   "ngramas": 0.00089126559714795,
+   "sim_media": 0.11707382347850019,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -260,8 +250,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0017905102954341987,
-   "sim_media": 0.10072992327745212,
+   "ngramas": 0.0017825311942959,
+   "sim_media": 0.10186596547508509,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -276,8 +266,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0017905102954341987,
-   "sim_media": 0.10726373610055709,
+   "ngramas": 0.0017825311942959,
+   "sim_media": 0.10721765649781179,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -309,7 +299,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.05761872899205652,
+   "sim_media": 0.05709673877345693,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -325,7 +315,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.09333611061971643,
+   "sim_media": 0.09393850453389227,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -341,7 +331,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.08251833870869997,
+   "sim_media": 0.08231340813274034,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -357,7 +347,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.11684311663674787,
+   "sim_media": 0.11786093998249052,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],
@@ -373,7 +363,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.09259463948349554,
+   "sim_media": 0.09283551644671194,
    "gemeos": 0,
    "blocos": 63,
    "posicoes": [],

@@ -1,14 +1,14 @@
 [
  {
   "id": "N001",
-  "texto": "[curious] Buenos Aires, primeiro de janeiro de noventa e dois. Imagine que você abre a gaveta do seu avô e acha um maço de cédulas com uma cinta: um milhão de pesos.",
-  "tela": "[curious] Buenos Aires, primeiro de janeiro de noventa e dois. Imagine que você abre a gaveta do seu avô e acha um maço de cédulas com uma cinta: um milhão de pesos.",
+  "texto": "[curious] Buenos Aires, primeiro de janeiro de noventa e dois. Você abre a gaveta do avô: um maço de cédulas com cinta, um milhão de pesos.",
+  "tela": "[curious] Buenos Aires, primeiro de janeiro de noventa e dois. Você abre a gaveta do avô: um maço de cédulas com cinta, um milhão de pesos.",
   "ideia": false
  },
  {
   "id": "N002",
-  "texto": "É o preço de uma tropa de gado que ele vendeu no pampa em sessenta e nove. Hoje, você junta um centavo com cem mil maços desses.",
-  "tela": "É o preço de uma tropa de gado que ele vendeu no pampa em sessenta e nove. Hoje, você junta um centavo com cem mil maços desses.",
+  "texto": "É o preço de uma tropa vendida no pampa em sessenta e nove. Hoje, você junta um centavo com cem mil maços desses.",
+  "tela": "É o preço de uma tropa vendida no pampa em sessenta e nove. Hoje, você junta um centavo com cem mil maços desses.",
   "ideia": false
  },
  {
@@ -259,8 +259,8 @@
  },
  {
   "id": "N044",
-  "texto": "O motivo: quinze anos de pêndulo e de inflação encheram as cédulas de zeros. Repare: nenhum zero cai por capricho. Cada um é o recibo de uma conta que ninguém quis pagar.",
-  "tela": "O motivo: quinze anos de pêndulo e de inflação encheram as cédulas de zeros. Repare: nenhum zero cai por capricho. Cada um é o recibo de uma conta que ninguém quis pagar.",
+  "texto": "O motivo: quinze anos de pêndulo e de inflação encheram as cédulas de zeros. Repare: nenhum zero cai por capricho. Cada corte chega depois de anos imprimindo para tapar o buraco do governo.",
+  "tela": "O motivo: quinze anos de pêndulo e de inflação encheram as cédulas de zeros. Repare: nenhum zero cai por capricho. Cada corte chega depois de anos imprimindo para tapar o buraco do governo.",
   "ideia": false
  },
  {
@@ -289,8 +289,8 @@
  },
  {
   "id": "N049",
-  "texto": "Praça de Maio, abril de oitenta e cinco. Raúl Alfonsín, eleito na volta da democracia, anuncia uma economia de guerra. Em junho, vem a terceira troca: o austral, três zeros a menos e a promessa de não imprimir para pagar o governo.",
-  "tela": "Praça de Maio, abril de oitenta e cinco. Raúl Alfonsín, eleito na volta da democracia, anuncia uma economia de guerra. Em junho, vem a terceira troca: o austral, três zeros a menos e a promessa de não imprimir para pagar o governo.",
+  "texto": "Noite de catorze de junho de oitenta e cinco. Raúl Alfonsín, eleito na volta da democracia, assina o Plano Austral: preços e salários congelados de um dia para o outro. É a terceira troca: o austral, três zeros a menos e a promessa de não imprimir para pagar o governo.",
+  "tela": "Noite de catorze de junho de oitenta e cinco. Raúl Alfonsín, eleito na volta da democracia, assina o Plano Austral: preços e salários congelados de um dia para o outro. É a terceira troca: o austral, três zeros a menos e a promessa de não imprimir para pagar o governo.",
   "ideia": true
  },
  {
@@ -301,8 +301,8 @@
  },
  {
   "id": "N051",
-  "texto": "Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Imagine receber o salário e trocar tudo por comida no mesmo dia. Alfonsín entrega o governo cinco meses antes do prazo.",
-  "tela": "Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Imagine receber o salário e trocar tudo por comida no mesmo dia. Alfonsín entrega o governo cinco meses antes do prazo.",
+  "texto": "Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Pelos números do INDEC, se você gastava cem no mercado no começo do mês, no fim precisava de quase trezentos. Alfonsín entrega o governo cinco meses antes do prazo.",
+  "tela": "Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Pelos números do INDEC, se você gastava cem no mercado no começo do mês, no fim precisava de quase trezentos. Alfonsín entrega o governo cinco meses antes do prazo.",
   "ideia": true
  },
  {
@@ -343,8 +343,8 @@
  },
  {
   "id": "N058",
-  "texto": "Então o governo volta ao porto e recria o imposto sobre a exportação de grãos, as retenções. A soja do pampa vira o caixa do Estado, como o couro na velha alfândega.",
-  "tela": "Então o governo volta ao porto e recria o imposto sobre a exportação de grãos, as retenções. A soja do pampa vira o caixa do Estado, como o couro na velha alfândega.",
+  "texto": "Então o governo volta ao porto e recria o imposto sobre a exportação de grãos, as retenções. A soja do pampa vira o caixa do Estado, como você viu o couro fazer na velha alfândega.",
+  "tela": "Então o governo volta ao porto e recria o imposto sobre a exportação de grãos, as retenções. A soja do pampa vira o caixa do Estado, como você viu o couro fazer na velha alfândega.",
   "ideia": false
  },
  {

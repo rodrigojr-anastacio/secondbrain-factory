@@ -92,3 +92,34 @@ Falas de personagem: o checklist conta 1 (Cobos, "meu voto não é positivo"); h
 4. Pronúncias no `FALA` (Rosas, Potosí, Baring, Urquiza, Caseros, Roca, Alcorta, Runciman, Lisandro de la Torre, Bordabehere, Pergamino, IAPI, Perón, Celestino Rodrigo, rodrigazo, Menem, Cobos, Milei): testar 4–5 blocos e conferir no Whisper (voz.md). Entradas sem uso no texto final (Niemeyer, Avellaneda, Juárez Celman, Entre Ríos) são inofensivas.
 5. Storyboard (próximo passo): cenário ancorado em 100% dos prompts (pampa com ombú e gado, Buenos Aires colonial/1880/1946/1970/2001, Londres vitoriana/1930) + `NAO_EG` + sem bandeira (nem argentina, nem inglesa, nem brasileira); ditadura sugerida por objeto/lugar (lenço branco, praça vazia); tiro de 1935 sem arma disparada em cena (sala do Senado vazia/cadeira).
 6. Rótulos que valem no código: "BARING" (1824/1890), "IAPI", "PESO LEI / PESO ARGENTINO / AUSTRAL / PESO CONVERSÍVEL" com o nº de zeros em cada troca (paga o T3 na tela).
+
+## Ajuste do orquestrador da etapa (23/11/2026)
+Hook encurtado para a frase-âncora terminar em ~0:30 (antes ~0:34): N001 "Você abre a gaveta do avô: um maço de cédulas com cinta, um milhão de pesos."; N002 "É o preço de uma tropa vendida no pampa em sessenta e nove. …"; +1 "você" no bloco das retenções de 2002 ("como você viu o couro fazer na velha alfândega"). Palavras: 2.216 (65 até o fim da frase-âncora). Checklist v2 rodado de novo:
+
+```
+Checklist roteiro v2 · 015-argentina · bíblia v2 · tempos: estimado a 130 ppm (sem voz)
+Pergunta central (declarada no SCRIPT/BRIEF): Como um país que já esteve entre os mais ricos do mundo precisou apagar treze zeros do próprio dinheiro?
+ nº status   item                                                 valor                                  alvo
+  1 PASSA    Pergunta central declarada ("Pergunta central:" no S declarada no SCRIPT/BRIEF              declarada
+  1 PASSA    Pergunta central (como pergunta) até ~0:50           0:30 em N004                           ≤ 0:50
+  2 PASSA    Pergunta volta em voz alta (fora do hook)            5× ['N027', 'N042', 'N052', 'N060', 'N ≥ 3 (fecho responde)
+  3 PASSA    Conectivos de virada /100 palavras                   1.67 (37)                              ≥ 1,5
+  3 PASSA    Capítulo fecha com o problema da próxima era         10/10                                  todos
+  3 PASSA    Nenhum capítulo abre com sucessão seca               0 []                                   0
+  5 ok       Capítulo abrindo com data (ficha, não cena)          0 []                                   ≤ 2
+  4 PASSA    "Você/imagine" /100 palavras                         1.04 (23)                              ≥ 1,0
+  4 PASSA    Capítulo com ponte para o espectador                 10/10                                  todos
+  7 PASSA    "Guarde isso" no vídeo                               1                                      ≤ 2
+  8 PASSA    Hook até o capítulo 1                                1:05                                   0:60–1:15
+  8 PASSA    Promessa em lista                                    nenhuma                                ≤ 2
+  9 ok       Falas curtas de personagem                           1                                      1–2+
+ 10 ok       Ritmo (palavras/min com pausas)                      sem voz ainda                          140–145 (Hipótese)
+ 10 ok       Palavras por frase (média)                           12.4                                   ≤ 12,5; 5–8 nas viradas
+ 10 ok       Palavras no roteiro                                  2216                                   ~2.250 p/ 16 min a 140 ppm
+ 11 PASSA    Fecho (do início do Fecho ao fim)                    0:41                                   ≤ 0:45
+  5 MANUAL   1 cena (lugar, pessoa, momento) por capítulo antes d ler                                    todos
+  6 MANUAL   Humor seco a cada ~40–60 s, sobre o fato             ler                                    ~15–20 tiradas
+  0 MANUAL   Teste da troca + fio condutor ≥ 3 capítulos + loops  ler                                    sim
+
+Resultado: APROVADO
+```

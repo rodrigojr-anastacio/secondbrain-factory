@@ -1,11 +1,11 @@
 # Similaridade do roteiro × referências · canais/historia-ptbr/videos/015-argentina
-Roteiro: `canais/historia-ptbr/videos/015-argentina/blocos.json` (63 blocos, pt) · gerado por `tools/similaridade_roteiro.py` · tradução US$ 0.053
+Roteiro: `canais/historia-ptbr/videos/015-argentina/blocos.json` (63 blocos, pt) · gerado por `tools/similaridade_roteiro.py` · tradução US$ 0.000
 
-## Nota máxima: **2/100 → ok** (atenção ≥ 18, cópia ≥ 30)
+## Nota máxima: **1/100 → ok** (atenção ≥ 18, cópia ≥ 30)
 
 | Referência | idioma | nota | veredito | cobertura (gêmeos) | ordem | trigramas |
 |---|---|---|---|---|---|---|
-| `manada-hfMzIkLnY4o.txt` | en → pt | 2 | ok | 3% (2/63) | 0% | 0.3% |
+| `manada-hfMzIkLnY4o.txt` | en → pt | 1 | ok | 2% (1/63) | 0% | 0.3% |
 | `manada-tyAMGbZ0AA4.txt` | pt | 1 | ok | 2% (1/63) | 0% | 0.0% |
 | `manada-0LW7O_nF6Aw.txt` | en → pt | 0 | ok | 0% (0/63) | 0% | 0.3% |
 | `manada-Ph9cTGYlGt0.txt` | pt | 0 | ok | 0% (0/63) | 0% | 0.3% |
@@ -33,8 +33,6 @@ Blocos do nosso roteiro com gêmeo em 2+ referências (consenso da manada): 54 (
 
 - **bloco 54** (cos 0.36): Só que, para cada peso, precisava existir um dólar. E, quando os dólares não chegam, a Argentina pega emprestado. O problema é que empréstimo vence.
   - ref: armadilha. Se você não pode imprimir dinheiro, como financia o déficit? Pega empréstimos em dólares no exterior, e a Argentina pega e pega mais. Então, no fim dos anos 1990, a crise chega. A economia encolhe
-- **bloco 51** (cos 0.34): Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Imagine receber o salário e trocar tudo por comida no mesmo dia. Alfonsín entrega o governo cinco meses antes do prazo.
-  - ref: sobem quase 5.000%. Sua mãe recebe o salário na sexta-feira. Ela não guarda nem um peso. Corre direto para o supermercado. Em um mês como julho, esse salário
 
 ## Trechos mais parecidos com `manada-tyAMGbZ0AA4.txt`
 

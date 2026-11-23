@@ -70,8 +70,8 @@ P = {}
 
 # ───────────────────────── HOOK (a gaveta do avô, 1/1/1992) ─────────────────────────
 cap("Hook")
-b("[curious] Buenos Aires, primeiro de janeiro de noventa e dois. Imagine que você abre a gaveta do seu avô e acha um maço de cédulas com uma cinta: um milhão de pesos.", card="1992")
-b("É o preço de uma tropa de gado que ele vendeu no pampa em sessenta e nove. Hoje, você junta um centavo com cem mil maços desses.")
+b("[curious] Buenos Aires, primeiro de janeiro de noventa e dois. Você abre a gaveta do avô: um maço de cédulas com cinta, um milhão de pesos.", card="1992")
+b("É o preço de uma tropa vendida no pampa em sessenta e nove. Hoje, você junta um centavo com cem mil maços desses.")
 b("Porque, em vinte e dois anos, a Argentina trocou de dinheiro quatro vezes e apagou treze zeros.")
 b("[serious] Então fica a pergunta: como um país que já esteve entre os mais ricos do mundo precisou apagar treze zeros do próprio dinheiro?")
 b("§ Essa é a história inteira da Argentina. A resposta mora numa briga de duzentos anos: quem paga a conta. E quem paga quase sempre foi o pampa: o couro, a carne, o trigo. Quem fica com esse dinheiro, manda.")
@@ -137,7 +137,7 @@ b("E aqui está a segunda peça da resposta: a conta muda de lado, mas não some
 # ───────────────────────── 8. O PÊNDULO ─────────────────────────
 cap("8. O pêndulo")
 b("§ Buenos Aires, primeiro de janeiro de mil novecentos e setenta. Chega o peso lei, com dois zeros a menos. Lembra do maço do avô? Nesse dia, o milhão vira dez mil.", card="1970")
-b("O motivo: quinze anos de pêndulo e de inflação encheram as cédulas de zeros. Repare: nenhum zero cai por capricho. Cada um é o recibo de uma conta que ninguém quis pagar.")
+b("O motivo: quinze anos de pêndulo e de inflação encheram as cédulas de zeros. Repare: nenhum zero cai por capricho. Cada corte chega depois de anos imprimindo para tapar o buraco do governo.")
 b("§ Em junho de setenta e cinco, a briga explode. Um pacote do ministro Celestino Rodrigo dobra o dólar e quase triplica a gasolina. Os sindicatos param o país, e o plano cai: é o rodrigazo.", card="1975")
 b("[serious] Em março de setenta e seis, os militares tomam o poder outra vez. A ditadura faz desaparecer milhares de pessoas: cerca de trinta mil, segundo organismos de direitos humanos; quase nove mil casos registrados pela comissão oficial de oitenta e quatro.", card="1976")
 b("§ E a dívida externa salta de uns oito para uns quarenta e cinco bilhões de dólares. Em oitenta e dois, ano da derrota nas Malvinas, o Banco Central passa a bancar boa parte da dívida das empresas. Se você nunca pegou um dólar emprestado, parabéns: passou a dever mesmo assim.", card="1982")
@@ -145,9 +145,9 @@ b("Então a inflação passa de cem por cento, e em junho de oitenta e três a s
 
 # ───────────────────────── 9. O DÉCIMO TERCEIRO ZERO ─────────────────────────
 cap("9. O décimo terceiro zero")
-b("§ Praça de Maio, abril de oitenta e cinco. Raúl Alfonsín, eleito na volta da democracia, anuncia uma economia de guerra. Em junho, vem a terceira troca: o austral, três zeros a menos e a promessa de não imprimir para pagar o governo.", card="1985")
+b("§ Noite de catorze de junho de oitenta e cinco. Raúl Alfonsín, eleito na volta da democracia, assina o Plano Austral: preços e salários congelados de um dia para o outro. É a terceira troca: o austral, três zeros a menos e a promessa de não imprimir para pagar o governo.", card="1985")
 b("Funciona por um tempo. Mas ninguém aceita a conta: o campo reclama do câmbio, os sindicatos fazem greve atrás de greve. Então a impressora volta.")
-b("§ Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Imagine receber o salário e trocar tudo por comida no mesmo dia. Alfonsín entrega o governo cinco meses antes do prazo.", card="1989")
+b("§ Em julho de oitenta e nove, os preços sobem quase duzentos por cento num mês. Pelos números do INDEC, se você gastava cem no mercado no começo do mês, no fim precisava de quase trezentos. Alfonsín entrega o governo cinco meses antes do prazo.", card="1989")
 b("Lembra da nossa pergunta? Aqui entra a terceira peça: quando ninguém aceita pagar, a conta para no bolso de quem segura o dinheiro. Então o governo de Carlos Menem amarra o peso ao dólar por lei: um peso, um dólar.")
 b("E, no primeiro de janeiro de noventa e dois, a quarta troca corta os últimos quatro zeros: nasce o peso conversível. Repare na gaveta do começo: o milhão do avô agora vale um décimo de milionésimo de peso. Treze zeros em vinte e dois anos.", card="1992")
 b("Só que, para cada peso, precisava existir um dólar. E, quando os dólares não chegam, a Argentina pega emprestado. O problema é que empréstimo vence.")
@@ -157,7 +157,7 @@ cap("10. O porto de hoje")
 b("§ La Plata, agosto de dois mil e um. Um funcionário da província recebe parte do salário num papel colorido: o patacão, um bônus da província. Não é peso, mas a padaria aceita.", card="2001")
 b("Logo há mais de uma dúzia de quase-moedas, perto de metade do dinheiro em papel do país. Se você já pagou o almoço com vale, entende: é a conta voltando para o bolso, em outra cor.")
 b("§ Em dezembro, o país suspende a dívida e tem cinco presidentes em onze dias. Aí vem a pesificação: o depósito em dólar vira um peso e quarenta por dólar, e o dólar de verdade passa de três. A diferença fica, de novo, com quem segurava o dinheiro.")
-b("Então o governo volta ao porto e recria o imposto sobre a exportação de grãos, as retenções. A soja do pampa vira o caixa do Estado, como o couro na velha alfândega.", card="2002")
+b("Então o governo volta ao porto e recria o imposto sobre a exportação de grãos, as retenções. A soja do pampa vira o caixa do Estado, como você viu o couro fazer na velha alfândega.", card="2002")
 b("§ Senado, madrugada de dezessete de julho de dois mil e oito. Depois de meses de estradas bloqueadas pelo campo contra retenções maiores, a votação empata: trinta e seis a trinta e seis. Desempata o vice-presidente Julio Cobos, do próprio governo. E ele diz: meu voto não é positivo.", card="2008")
 b("O aumento cai: o campo, mais uma vez, decidiu quem manda. Em dois mil e vinte e seis, com Javier Milei, a inflação caiu para perto de dois por cento ao mês. Só que a pergunta continua na mesa: quem paga o ajuste?", card="2026")
 
