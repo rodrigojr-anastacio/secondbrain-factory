@@ -50,3 +50,6 @@ drama-3, 66 blocos, ~US$ 0,13 + 0,02 de tomadas. Whisper fonético mín 95,1%, m
 
 ## 016 Espanha (22/11/2026)
 drama-3, 70 blocos, 12.752 bytes (US$ 0,13 + 0,03 de 3 tomadas do hook). Whisper fonético mín 95,3%, média 99,4%. Hook: melhor combinação de 4 tomadas `bacbdd` (repetição 0,07). Ouvir os nomes ainda pendente. [ETAPA2.md 016]
+
+## 017 Cuba (23/11/2026)
+drama-3, 63 blocos, US$ 0,12 + 0,03 de 3 tomadas do hook. Whisper fonético mín 96,6%, média 99,5%. Hook: `dddddd` (tomada 4 inteira, repetição 0,08). [ETAPA2.md 017]

@@ -123,8 +123,8 @@ P[2] = [X("eisen_signs", f"{EISEN} signing a paper at a desk in a white governme
         X("ship_leaves_empty", "A big empty cargo ship leaving Havana harbor without cargo, the dock behind it piled with unsold sugar sacks", HAV20, "1960"),
         X("khru_telegram", f"{KHRU} dictating a message to a secretary at a typewriter in a grand Moscow office, one finger raised", MOS, "1960", papel=True, rot="KHRUSHCHEV"),
         X("sacks_new_ship", "Dock workers in Havana carrying the same sugar sacks toward a different cargo ship with a dark red hull", HAV20, "1960")]
-P[3] = [X("scale_price", "An old merchant's balance scale with one small sugar sack on one plate outweighing a big pile of gold coins on the other, nobody in the picture", band=False),
-        X("hand_paper_string", "A hand offering a bag of coins while the other hand pulls back a long contract paper with a string tied to it, plain background", papel=True, band=False),
+P[3] = [X("scale_price", "An old merchant's balance scale with one small sugar sack on one plate outweighing a big pile of gold coins on the other, nobody in the picture, set on a plain solid pale-cream studio background with a simple wooden tabletop, bare round white heads, NO pyramids, NO pharaoh headdress, NO turbans, NO headdress, NO robes, NO ancient or desert architecture, NO castles, NO domes, NO date palms, NO crowns", band=False),
+        X("hand_paper_string", "A hand offering a bag of coins while the other hand pulls back a long contract paper with a string tied to it, plain background, set on a plain solid pale-cream studio background with a simple wooden tabletop, bare round white heads, NO pyramids, NO pharaoh headdress, NO turbans, NO headdress, NO robes, NO ancient or desert architecture, NO castles, NO domes, NO date palms, NO crowns", papel=True, band=False),
         X("spain_buyer", "A round-white-head cartoon Spanish royal official of the 1700s in a wig weighing tobacco leaves on a scale at a colonial Havana warehouse", HAV, "1720"),
         X("us_buyer", "A round-white-head cartoon American businessman of 1910 in a straw boater hat counting sugar sacks on a Havana dock with a notebook", HAV20, "1910"),
         X("soviet_buyer", "A round-white-head cartoon Soviet trade official of 1970 in a grey coat and fur hat inspecting sugar sacks on a snowy dock", MOS, "1970"),
@@ -167,7 +167,7 @@ P[10] = [X("gold_river_dry", "A dry riverbed in the Cuban hills with abandoned w
          X("havana_fleet_bay", "Many Spanish sailing ships anchored in the narrow bay of colonial Havana under the stone Morro castle", HAV, "1600"),
          X("gold_chest_ship", "Sailors loading heavy wooden chests onto a galleon at a stone quay in Havana", HAV, "1600")]
 P[11] = [X("spanish_official_think", "A round-white-head cartoon Spanish official of 1700 in a wig sitting at a desk in Madrid, chin on hand, looking at a map of Cuba", MAD, "1700"),
-         X("tobacco_leaf_light", "A single big green tobacco leaf glowing in a beam of light on a wooden table, nobody in the picture", band=False),
+         X("tobacco_leaf_light", "A single big green tobacco leaf glowing in a beam of light on a wooden table, nobody in the picture, set on a plain solid pale-cream studio background with a simple wooden tabletop, bare round white heads, NO pyramids, NO pharaoh headdress, NO turbans, NO headdress, NO robes, NO ancient or desert architecture, NO castles, NO domes, NO date palms, NO crowns", band=False),
          X("tobacco_field", "A green tobacco field in western Cuba with a palm-thatched drying barn and red earth", CUB, "1710", band=False)]
 # 2. O COMPRADOR POR DECRETO
 P[12] = [X("jesus_monte_1717", f"{VEG} gathering angrily in a dusty village square with a small stone church outside Havana, fists raised, no weapons raised", CUB, "1717", rot="JESÚS DEL MONTE"),
@@ -316,10 +316,10 @@ P[44] = [X("bay_pigs", "A swampy Cuban beach at dawn with landing boats abandone
 P[45] = [X("moscow_1964", "Moscow in winter 1964: Red Square with snow, onion domes and a grey sky, round-white-head cartoon people in fur hats", MOS, "1964"),
          X("fidel_moscow", f"{FID} walking in the snow beside {KHRU}, both waving, in Moscow", MOS, "1964"),
          X("contract_six", "A thick contract on a desk with a fountain pen and six shiny small coins lined up beside it", MOS, "1964", papel=True, band=False),
-         X("price_wave", "A wavy line going up and down on graph paper next to a straight flat line, on a desk, nobody in the picture", band=False)]
+         X("price_wave", "A wavy line going up and down on graph paper next to a straight flat line, on a desk, nobody in the picture, set on a plain solid pale-cream studio background with a simple wooden tabletop, bare round white heads, NO pyramids, NO pharaoh headdress, NO turbans, NO headdress, NO robes, NO ancient or desert architecture, NO castles, NO domes, NO date palms, NO crowns", band=False)]
 P[46] = [X("guide_dream", f"{GUIA} lying in a hammock with a contented smile and a thought bubble of neat stacks of coins", CUB),
          "contract_six",
-         X("stairs_sacks", "Sugar sacks stacked like a staircase going up, each step higher than the last, nobody in the picture", band=False),
+         X("stairs_sacks", "Sugar sacks stacked like a staircase going up, each step higher than the last, nobody in the picture, set on a plain solid pale-cream studio background with a simple wooden tabletop, bare round white heads, NO pyramids, NO pharaoh headdress, NO turbans, NO headdress, NO robes, NO ancient or desert architecture, NO castles, NO domes, NO date palms, NO crowns", band=False),
          "contract_six"]
 P[47] = [X("volunteers_bus", "Buses full of round-white-head cartoon city volunteers of 1969 in work clothes going to the cane fields, waving", CUB, "1969"),
          X("whole_country_field", "Thousands of round-white-head cartoon people cutting cane across endless fields under a big sky, workers, students and soldiers side by side", CUB, "1970"),

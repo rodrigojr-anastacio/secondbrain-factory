@@ -1,0 +1,1003 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/historia-ptbr/videos/017-cuba/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2258,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 1,
+  "medio": 19,
+  "baixo": 28
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q02",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A placa 'EISENHOWER' na mesa é um rótulo dentro da imagem de IA, e não texto de código. O texto está legível e correto, mas o checklist manda rótulos irem no código. Há dúvida entre estilo e defeito. Além disso, o Capitólio visto pela janela do Salão Oval é geograficamente improvável.",
+   "t": 15.0,
+   "arquivo": "450.png"
+  },
+  {
+   "quadro": "Q03",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa 'KHRUSHCHEV' fica embaixo, sobre o telefone e os objetos da mesa, com aparência semitransparente e sobreposta. Parece rótulo gerado dentro da imagem e a leitura é fraca. A placa também se mistura com o cinzeiro e o telefone.",
+   "t": 25.0,
+   "arquivo": "750.png"
+  },
+  {
+   "quadro": "Q04",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O sinal automático acusou faixa uniforme bege no topo (RGB 253,238,207). Visualmente o fundo bege liso parece parte da cena, sem emenda evidente. Registrado por dúvida entre fundo liso intencional e faixa chapada. Vale conferir se há degrau de cor no topo.",
+   "t": 35.0,
+   "arquivo": "1050.png"
+  },
+  {
+   "quadro": "Q05",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A cena de porto traz empilhadeira, navio petroleiro moderno e prédios altos, o que pode destoar da época do enredo (anos 1960). Os elementos parecem aceitáveis, mas vale conferir o contexto. Moldura e texto sem problemas.",
+   "t": 45.0,
+   "arquivo": "1350.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Canhoneira do navio mostra pequenas aberturas escuras; sem problema grave. Personagem na escotilha inferior parece sobreposto ao casco, detalhe discreto.",
+   "t": 95.0,
+   "arquivo": "2850.png"
+  },
+  {
+   "quadro": "Q11",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Personagem cortado na borda esquerda (cabeça parcial), enquadramento aceitável, mas pouco elegante.",
+   "t": 105.0,
+   "arquivo": "3150.png"
+  },
+  {
+   "quadro": "Q14",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Fortaleza no estilo do Morro (Havana) com torre/farol já pronta, e soldado com arcabuz/capacete de época; possível mistura de épocas (cena parece séc. XVI-XVII, mas a fortaleza é a do séc. XVI-XVIII). Na dúvida, conferir o período narrado.",
+   "t": 135.0,
+   "arquivo": "4050.png"
+  },
+  {
+   "quadro": "Q15",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Homem à direita do centro usa tricórnio e colete de estilo séc. XVIII, em cena de plantação de tabaco. Se o trecho narrado for séc. XVI-XVII, é anacrônico; conferir a época.",
+   "t": 145.0,
+   "arquivo": "4350.png"
+  },
+  {
+   "quadro": "Q16",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Soldados com tricórnio e casaca azul/vermelha de estilo séc. XVIII, claramente diferentes do estilo dos quadros anteriores (séc. XVI-XVII). Pode ser intencional (salto de época); conferir contexto.",
+   "t": 155.0,
+   "arquivo": "4650.png"
+  },
+  {
+   "quadro": "Q19",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os soldados ao fundo vestem casacas azuis e vermelhas com tricórnio. Parecem de tipo europeu genérico, sem indicação clara de exército. Se o roteiro pedir uniforme espanhol específico, vale conferir.",
+   "t": 185.0,
+   "arquivo": "5550.png"
+  },
+  {
+   "quadro": "Q21",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O pergaminho tem linhas de rabiscos que imitam escrita, inclusive um título no topo. Não há palavras legíveis, então parece escrita decorativa. Fica em destaque no centro do quadro. Se o roteiro mostrar o documento por muito tempo, o espectador pode notar a letra falsa.",
+   "t": 205.0,
+   "arquivo": "6150.png"
+  },
+  {
+   "quadro": "Q23",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O navio é um galeão do século XVII, e os personagens usam gola de renda e chapéu com pluma vermelha. A estética destoa dos tricórnios e uniformes do século XVIII dos quadros vizinhos Q17 a Q22. A cena pode ser de uma época anterior, então fica só como dúvida de coerência.",
+   "t": 225.0,
+   "arquivo": "6750.png"
+  },
+  {
+   "quadro": "Q24",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Há personagens de cartola e casaca do século XIX, mulheres de vestido de cintura alta e um oficial de bicorne napoleônico no canto inferior direito. Misturam-se com barcos e casario coloniais. Só é defeito se a cena for de época anterior, como o século XVIII. Convém conferir com o roteiro.",
+   "t": 235.0,
+   "arquivo": "7050.png"
+  },
+  {
+   "quadro": "Q25",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os uniformes napoleônicos (bicorne, casaca azul e casaca vermelha com branco) e o forte ao fundo, que lembra o Morro de Havana, precisam ser conferidos contra a época da cena. É provável que sejam intencionais.",
+   "t": 245.0,
+   "arquivo": "7350.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O papel na mão do homem tem rabiscos pequenos que imitam texto e um desenho de navio. É discreto e ilegível.",
+   "t": 285.0,
+   "arquivo": "8550.png"
+  },
+  {
+   "quadro": "Q30",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Na janela, os navios e os armazéns de tijolo vermelho parecem de um porto do Norte dos EUA, enquanto a cena é de um escritório. A etiqueta 'EDWIN ATKINS' é legível e foi feita pelo código. O personagem de cartola tem rosto mais realista, com barba e sobrancelhas franzidas, fora do estilo de bonequinho de cabeça redonda. Pode ser intencional (dúvida entre estilo e defeito).",
+   "t": 295.0,
+   "arquivo": "8850.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "A carta no centro tem rabiscos que imitam escrita e uma assinatura ilegível ('Sigmo'), além de papéis com garatujas à direita. São linhas de texto falso feitas pela IA, mas discretas e com ar de rabisco ilegível, sem palavras reais.",
+   "t": 305.0,
+   "arquivo": "9150.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Há um navio a vapor com chaminé ao fundo, perto de veleiros. Não está claro se é anacrônico, pois depende da época da cena. O oficial com quepe e faixa colorida na sacada, à direita, também pode ser anacrônico. O mar ocupa o topo do quadro e a imagem está um pouco borrada. Verificar a época.",
+   "t": 315.0,
+   "arquivo": "9450.png"
+  },
+  {
+   "quadro": "Q33",
+   "categoria": "outro",
+   "severidade": "alto",
+   "descricao": "Sobreposição de uma segunda imagem fantasma semitransparente (contornos de um rosto/figuras e linhas de mastros e navios) sobre toda a cena. Parece um crossfade preso ou camada duplicada, e deixa janelas, cortinas e personagens com aspecto sujo. Se não for uma transição intencional, é defeito.",
+   "t": 325.0,
+   "arquivo": "9750.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O jornal enrolado na mão do personagem tem texto rabiscado e ilegível (algo como 'NEW 1869'). É pequeno e discreto, mas é letra falsa da IA.",
+   "t": 335.0,
+   "arquivo": "10050.png"
+  },
+  {
+   "quadro": "Q37",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena marca '1894', mas o personagem da direita usa uniforme militar azul com dragonas douradas, e a arquitetura de fundo parece europeia. Pode ser uma escolha intencional, mas vale conferir se o lugar e a época batem com a narração. O rótulo '1894' é legível e está bem posicionado.",
+   "t": 365.0,
+   "arquivo": "10950.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "No porto aparece um campanário branco de igreja ao fundo, com estilo de Nova Inglaterra. Isso pode destoar se a cena for um porto brasileiro. É um detalhe pequeno, e o contexto da cena não está claro.",
+   "t": 395.0,
+   "arquivo": "11850.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Cubo de açúcar branco sobre o livro aberto, em escala grande. É metáfora visual provável, mas pode parecer estranho. O livro tem rabiscos ondulados no lugar de texto, o que é aceitável como estilo.",
+   "t": 425.0,
+   "arquivo": "12750.png"
+  },
+  {
+   "quadro": "Q45",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cena com tricórnio e perucas do século XVIII e um navio à vela ao fundo, numa sequência de 1898–1902 (Cuba, tratado e Emenda Platt). Pode ser uma cena intencional de época anterior (presente colonial), mas, se o contexto for o fim do século XIX, é anacronismo. Confirmar com o roteiro.",
+   "t": 445.0,
+   "arquivo": "13350.png"
+  },
+  {
+   "quadro": "Q47",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Mesma cena do Q45, ampliada: tricórnio, perucas e caravela de velas quadradas. Só vale se o roteiro falar de época colonial/século XVIII. Na dúvida, registrado como médio.",
+   "t": 465.0,
+   "arquivo": "13950.png"
+  },
+  {
+   "quadro": "Q49",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Na dúvida: o cenário de porto com navios a vela e o homem de cartola sugere o século XIX, enquanto os quadros seguintes mostram Cuba nos anos 1920. Pode ser intencional (flashback), mas vale conferir com a narração. O braço preto do personagem à direita parece uma mão em forma de luva escura, estranha.",
+   "t": 485.0,
+   "arquivo": "14550.png"
+  },
+  {
+   "quadro": "Q50",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Na borda direita inferior aparece um fragmento de personagem cortado (roupa escura), pouco visível. É enquadramento normal, mas distrai um pouco.",
+   "t": 495.0,
+   "arquivo": "14850.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "O Capitólio dos EUA aparece de fundo, mas o lugar é fictício ou real? Se a cena for um acordo Cuba–EUA, é plausível. O livro aberto tem linhas onduladas imitando texto, aceitável como rabisco, mas pode parecer texto falso.",
+   "t": 515.0,
+   "arquivo": "15450.png"
+  },
+  {
+   "quadro": "Q57",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O Capitólio de Havana com a cúpula dourada e a fortaleza ao fundo estão plausíveis para os anos 1950. Dúvida pequena: carros modernos e o clima de cena genérica não deixam claro o período do trecho.",
+   "t": 565.0,
+   "arquivo": "16950.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Placa/etiqueta \"MIKOYAN\" no canto inferior esquerdo, escrita dentro da imagem pela IA. Pode ser rótulo intencional (nome vai no código), mas parece placa embutida na arte e cobre parte do personagem; confirmar se é o rótulo do código.",
+   "t": 585.0,
+   "arquivo": "17550.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O cenário mostra o Capitólio de Havana e o farol do Morro, mas o prédio da inauguração parece uma galeria europeia genérica. Quadros nas paredes sem texto legível. Detalhe pequeno.",
+   "t": 585.0,
+   "arquivo": "17550.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Lousa com setas em sentidos opostos, sem letras. Não há texto inventado, mas o símbolo é ambíguo; confirmar se combina com a narração.",
+   "t": 615.0,
+   "arquivo": "18450.png"
+  },
+  {
+   "quadro": "Q65",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "No canto direito, uma figura é cortada pela borda (cabeça branca parcial). Enquadramento aceitável, mas chama atenção.",
+   "t": 645.0,
+   "arquivo": "19350.png"
+  },
+  {
+   "quadro": "Q66",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O Capitólio de Havana aparece muito ao fundo e os carros são dos anos 50, o que é coerente. O papel na mão do personagem tem linhas de texto ilegíveis (riscos simples), sem letras reais; sem problema grave.",
+   "t": 655.0,
+   "arquivo": "19650.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Moscou nevada com prédio estilo 'sete irmãs' e Kremlin ao fundo à direita; plausível para a época, mas o personagem de uniforme verde e barba (estilo Fidel) está com cara de rosto mais detalhado, com barba realista. Na dúvida entre estilo e defeito.",
+   "t": 685.0,
+   "arquivo": "20550.png"
+  },
+  {
+   "quadro": "Q73",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "O termômetro gigante está cortado pela borda direita e se funde à parede do engenho. O mostrador está sem escala nem valor e parece colado na cena. O selo '1970' no canto superior esquerdo está bem legível, mas ocupa lugar de destaque sem integrar com a cena.",
+   "t": 725.0,
+   "arquivo": "21750.png"
+  },
+  {
+   "quadro": "Q76",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O Capitólio de Havana aparece no quebra-cabeça da mesa e ao fundo, o que é coerente com Cuba. Os carros antigos americanos ficam bem para a época, mas não dá para confirmar o ano da cena. É só uma dúvida de época, sem defeito claro.",
+   "t": 755.0,
+   "arquivo": "22650.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Há uma personagem cortada pela borda direita, com a mão no rosto, quase só um fragmento. Pode ser enquadramento normal, mas fica estranho. O computador antigo e a calculadora combinam com os anos 70-80.",
+   "t": 765.0,
+   "arquivo": "22950.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "A balança está cortada nas duas bordas laterais (prato de moedas à esquerda e braço da balança no topo), de forma muito apertada. O enquadramento parece um zoom excessivo, e o prato direito não está equilibrado com o esquerdo. Pode ser intencional (peso do ouro contra o açúcar).",
+   "t": 775.0,
+   "arquivo": "23250.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O cenário é Havana com carros dos anos 50, empilhadeira e navio moderno misturados. Pode ser intencional para representar o período, mas a empilhadeira amarela parece moderna demais se a cena for dos anos 60.",
+   "t": 815.0,
+   "arquivo": "24450.png"
+  },
+  {
+   "quadro": "Q86",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Há um carro azul de aspecto moderno (anos 70 ou 80) ao lado de carretas de boi. Mistura de épocas discutível dentro de uma mesma cena.",
+   "t": 855.0,
+   "arquivo": "25650.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A legenda 'FIDEL CASTRO E HUGO CHÁVEZ' fica no canto inferior esquerdo e cobre parte das câmeras e dos personagens. Dá para ler, mas está sobreposta ao quadro. Pode ser o rótulo intencional do código, então fica como dúvida de posicionamento.",
+   "t": 875.0,
+   "arquivo": "26250.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O cenário é um bairro de Caracas. Fidel e Chávez aparecem como bonequinhos de cabeça redonda com traços caricatos. Está coerente com o estilo do canal, mas convém conferir se o cenário combina com o trecho narrado.",
+   "t": 875.0,
+   "arquivo": "26250.png"
+  },
+  {
+   "quadro": "Q89",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Cena quase idêntica ao Q93 (mesmo petroleiro e cais, só com outro enquadramento). Se não for um zoom/Ken Burns intencional, parece repetição de imagem. No canto inferior esquerdo há um objeto cinza cortado e personagens cortados pela borda, o que é enquadramento normal.",
+   "t": 885.0,
+   "arquivo": "26550.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "O medidor/balança no centro tem um ponteiro único e sem marcações legíveis, e a etiqueta com '%' pendurada na caixa é só um símbolo. Pode ser intencional, mas não dá para confirmar qual valor ele deveria mostrar.",
+   "t": 965.0,
+   "arquivo": "28950.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena de porto do século XIX com navio a vapor e prédios de tijolo, sem marcos modernos. Há dúvida apenas sobre a época que a narração pede (sal, tarifa); nada claramente errado.",
+   "t": 965.0,
+   "arquivo": "28950.png"
+  },
+  {
+   "quadro": "Q98",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Os médicos de jaleco embarcam num avião a jato moderno e o terminal tem arquitetura de meados do século XX, ao lado de Havana. Se o trecho falar de outra época, isso é um anacronismo. O avião é cortado pela borda, o que é enquadramento normal.",
+   "t": 975.0,
+   "arquivo": "29250.png"
+  },
+  {
+   "quadro": "Q99",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Carros americanos dos anos 1950 diante de prédios coloridos de Havana, com o Capitólio ao fundo. Só é problema se a cena narrar outra época.",
+   "t": 985.0,
+   "arquivo": "29550.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 5.0,
+   "nome": "150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 15.0,
+   "nome": "450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 25.0,
+   "nome": "750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 35.0,
+   "nome": "1050.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 12% do quadro, cor RGB(253,238,207)"
+   ]
+  },
+  {
+   "id": "Q05",
+   "t": 45.0,
+   "nome": "1350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 55.0,
+   "nome": "1650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 65.0,
+   "nome": "1950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 75.0,
+   "nome": "2250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 85.0,
+   "nome": "2550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 95.0,
+   "nome": "2850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 105.0,
+   "nome": "3150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 115.0,
+   "nome": "3450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 125.0,
+   "nome": "3750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 135.0,
+   "nome": "4050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 145.0,
+   "nome": "4350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 155.0,
+   "nome": "4650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 165.0,
+   "nome": "4950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 175.0,
+   "nome": "5250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 185.0,
+   "nome": "5550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 195.0,
+   "nome": "5850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 205.0,
+   "nome": "6150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 215.0,
+   "nome": "6450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 225.0,
+   "nome": "6750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 235.0,
+   "nome": "7050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 245.0,
+   "nome": "7350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 255.0,
+   "nome": "7650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 265.0,
+   "nome": "7950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 275.0,
+   "nome": "8250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 285.0,
+   "nome": "8550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 295.0,
+   "nome": "8850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 305.0,
+   "nome": "9150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 315.0,
+   "nome": "9450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 325.0,
+   "nome": "9750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 335.0,
+   "nome": "10050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 345.0,
+   "nome": "10350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 355.0,
+   "nome": "10650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 365.0,
+   "nome": "10950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 375.0,
+   "nome": "11250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 385.0,
+   "nome": "11550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 395.0,
+   "nome": "11850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 405.0,
+   "nome": "12150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 415.0,
+   "nome": "12450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 425.0,
+   "nome": "12750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 435.0,
+   "nome": "13050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 445.0,
+   "nome": "13350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 455.0,
+   "nome": "13650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 465.0,
+   "nome": "13950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 475.0,
+   "nome": "14250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 485.0,
+   "nome": "14550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 495.0,
+   "nome": "14850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 505.0,
+   "nome": "15150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 515.0,
+   "nome": "15450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 525.0,
+   "nome": "15750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 535.0,
+   "nome": "16050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 545.0,
+   "nome": "16350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 555.0,
+   "nome": "16650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 565.0,
+   "nome": "16950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 575.0,
+   "nome": "17250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 585.0,
+   "nome": "17550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 595.0,
+   "nome": "17850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 605.0,
+   "nome": "18150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 615.0,
+   "nome": "18450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 625.0,
+   "nome": "18750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 635.0,
+   "nome": "19050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 645.0,
+   "nome": "19350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 655.0,
+   "nome": "19650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 665.0,
+   "nome": "19950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 675.0,
+   "nome": "20250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 685.0,
+   "nome": "20550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 695.0,
+   "nome": "20850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 705.0,
+   "nome": "21150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 715.0,
+   "nome": "21450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 725.0,
+   "nome": "21750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 735.0,
+   "nome": "22050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 745.0,
+   "nome": "22350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 755.0,
+   "nome": "22650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 765.0,
+   "nome": "22950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 775.0,
+   "nome": "23250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 785.0,
+   "nome": "23550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 795.0,
+   "nome": "23850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 805.0,
+   "nome": "24150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 815.0,
+   "nome": "24450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 825.0,
+   "nome": "24750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 835.0,
+   "nome": "25050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 845.0,
+   "nome": "25350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 855.0,
+   "nome": "25650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 865.0,
+   "nome": "25950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 875.0,
+   "nome": "26250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 885.0,
+   "nome": "26550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 895.0,
+   "nome": "26850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 905.0,
+   "nome": "27150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 915.0,
+   "nome": "27450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 925.0,
+   "nome": "27750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 935.0,
+   "nome": "28050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 945.0,
+   "nome": "28350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 955.0,
+   "nome": "28650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 965.0,
+   "nome": "28950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 975.0,
+   "nome": "29250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 985.0,
+   "nome": "29550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 995.0,
+   "nome": "29850.png",
+   "sinais": []
+  }
+ ]
+}

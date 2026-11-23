@@ -74,3 +74,6 @@ As refs de estilo (`canal.yaml`) são do Egito: no 010 e no 011 o Codex/fal pôs
 
 ## 016 Espanha (22/11/2026): lição de prompt
 Cena de 711 (chegada dos muçulmanos) com o sufixo "al-Andalus" gerou Alhambra e arcos de ferradura (anacronismo, pego pelo pré-QA). Para época anterior ao estilo que o sufixo descreve, o prompt do local precisa descrever a época (aqui: aldeias de pedra e madeira visigodas, torre romana) e proibir os ícones posteriores (NO Alhambra, NO horseshoe arches). Hipótese: vale para qualquer cena que antecede a arquitetura-ícone do lugar. [PREQA-visual.md 016]
+
+## 017 Cuba (23/11/2026)
+Cenas **abstratas** (balança, mão com contrato, mesa com moedas, correia, lupa no contrato) e cenas com rei/mercador sem lugar nomeado herdam as refs do Egito: vieram com turbante, faraó e bazar árabe em 8 de 206 imagens. Regra: todo prompt, mesmo de objeto, leva fundo creme liso + roupa de época + `NO turbans, NO pharaoh headdress, NO crowns, NO domes`. A prancha completa antes do pré-QA pega (os 100 stills do pré-QA só amostram 1 em 3 planos). Cota `imagegen_premium` do Codex: ~40 imagens por janela (reset ~2 h depois). [ETAPA2.md 017]

@@ -5,7 +5,8 @@
   "padrao_titulo": "afirmação estranha + pergunta",
   "padrao_thumb": "rosto-emocao",
   "thumb_conceito": "guajiro bonequinho em pânico com sorriso amarelo sobre pilha de sacos de açúcar no cais de Havana, navio indo embora",
-  "thumb_texto": "SEM COMPRADOR"
+  "thumb_texto": "SEM COMPRADOR",
+  "thumb_arquivo": "entrega/thumb-A.jpg"
  },
  {
   "letra": "B",
@@ -13,7 +14,8 @@
   "padrao_titulo": "pergunta de transformação + 2º gancho",
   "padrao_thumb": "numero-estatistica",
   "thumb_conceito": "5× gigante em ouro à esquerda + um saco de açúcar com etiqueta de preço dourada sobre vermelho liso",
-  "thumb_texto": "5× O PREÇO"
+  "thumb_texto": "5× O PREÇO",
+  "thumb_arquivo": "entrega/thumb-B.jpg"
  },
  {
   "letra": "C",
@@ -21,6 +23,7 @@
   "padrao_titulo": "Como [agente] [verbo] [lugar]",
   "padrao_thumb": "mapa-lugar",
   "thumb_conceito": "ilha de Cuba em cartoon (canaviais, chaminés de usina) horizontal no centro, amarrada pela cintura por corda grossa esticada que sobe para fora do quadro",
-  "thumb_texto": ""
+  "thumb_texto": "",
+  "thumb_arquivo": "entrega/thumb-C.jpg"
  }
 ]
