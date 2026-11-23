@@ -37,14 +37,14 @@
  },
  {
   "id": "N007",
-  "texto": "Repare que ninguém em Baiámo estranha um navio francês por ali. A cidade vivia de vender couro a navios estrangeiros. E isso era crime.",
-  "tela": "Repare que ninguém em Bayamo estranha um navio francês por ali. A cidade vivia de vender couro a navios estrangeiros. E isso era crime.",
+  "texto": "Repare que ninguém em Baiámo estranha um navio francês por ali. A cidade vivia de vender couro a navios estrangeiros. E isso era crime, porque a lei espanhola dizia: Cuba só vende para a Espanha, nos navios da Espanha.",
+  "tela": "Repare que ninguém em Bayamo estranha um navio francês por ali. A cidade vivia de vender couro a navios estrangeiros. E isso era crime, porque a lei espanhola dizia: Cuba só vende para a Espanha, nos navios da Espanha.",
   "ideia": false
  },
  {
   "id": "N008",
-  "texto": "Porque a lei espanhola dizia: Cuba só vende para a Espanha, nos navios da Espanha. Só que esses navios quase não passavam pelo leste, e couro não espera. Então o povo vendia para quem aparecesse.",
-  "tela": "Porque a lei espanhola dizia: Cuba só vende para a Espanha, nos navios da Espanha. Só que esses navios quase não passavam pelo leste, e couro não espera. Então o povo vendia para quem aparecesse.",
+  "texto": "Só que esses navios quase não passavam pelo leste, e couro não espera. Então o povo vendia para quem aparecesse.",
+  "tela": "Só que esses navios quase não passavam pelo leste, e couro não espera. Então o povo vendia para quem aparecesse.",
   "ideia": false
  },
  {
@@ -55,8 +55,8 @@
  },
  {
   "id": "N010",
-  "texto": "Era o jeito de uma ilha que tinha ficado sem ouro. O pouco que havia acabou em poucas décadas, junto com a maior parte dos taínos, levados por guerra, trabalho forçado e epidemias. Sobrou Havana, o porto onde as frotas da prata paravam na volta.",
-  "tela": "Era o jeito de uma ilha que tinha ficado sem ouro. O pouco que havia acabou em poucas décadas, junto com a maior parte dos taínos, levados por guerra, trabalho forçado e epidemias. Sobrou Havana, o porto onde as frotas da prata paravam na volta.",
+  "texto": "Era o jeito de uma ilha que tinha ficado sem ouro: o pouco que havia acabou em poucas décadas, junto com a maior parte dos taínos, levados por guerra, trabalho forçado e epidemias.",
+  "tela": "Era o jeito de uma ilha que tinha ficado sem ouro: o pouco que havia acabou em poucas décadas, junto com a maior parte dos taínos, levados por guerra, trabalho forçado e epidemias.",
   "ideia": true
  },
  {
@@ -115,8 +115,8 @@
  },
  {
   "id": "N020",
-  "texto": "E o açúcar cubano estava em alta. A colônia francesa de São Domingos, a maior produtora do mundo, tinha sido tomada por uma revolução dos escravizados em noventa e um. Os fazendeiros de Cuba correram para ocupar o lugar, com centenas de milhares de africanos trazidos à força.",
-  "tela": "E o açúcar cubano estava em alta. A colônia francesa de São Domingos, a maior produtora do mundo, tinha sido tomada por uma revolução dos escravizados em noventa e um. Os fazendeiros de Cuba correram para ocupar o lugar, com centenas de milhares de africanos trazidos à força.",
+  "texto": "E eles chegam na hora certa. Desde a revolução dos escravizados de noventa e um, o açúcar de São Domingos, a colônia francesa que mais produzia no mundo, tinha sumido do mercado. O preço sobe, e o comprador com dinheiro mora perto. Cuba planta cana como nunca, com centenas de milhares de africanos trazidos à força.",
+  "tela": "E eles chegam na hora certa. Desde a revolução dos escravizados de noventa e um, o açúcar de São Domingos, a colônia francesa que mais produzia no mundo, tinha sumido do mercado. O preço sobe, e o comprador com dinheiro mora perto. Cuba planta cana como nunca, com centenas de milhares de africanos trazidos à força.",
   "ideia": false
  },
  {
@@ -277,8 +277,8 @@
  },
  {
   "id": "N047",
-  "texto": "Só que preço fixo vinha com volume fixo. Pelo contrato, Cuba tinha de entregar cada vez mais. E o país, que no começo da revolução falava em sair do açúcar, volta para o canavial com tudo.",
-  "tela": "Só que preço fixo vinha com volume fixo. Pelo contrato, Cuba tinha de entregar cada vez mais. E o país, que no começo da revolução falava em sair do açúcar, volta para o canavial com tudo.",
+  "texto": "Só que preço fixo vinha com volume fixo. Para entregar o que o contrato pedia, e ainda ter açúcar para vender ao resto do mundo, Cuba põe o país inteiro no canavial.",
+  "tela": "Só que preço fixo vinha com volume fixo. Para entregar o que o contrato pedia, e ainda ter açúcar para vender ao resto do mundo, Cuba põe o país inteiro no canavial.",
   "ideia": false
  },
  {
@@ -295,14 +295,14 @@
  },
  {
   "id": "N050",
-  "texto": "Moscou, julho de mil novecentos e setenta e dois. Cuba entra no Cômecon, o bloco econômico soviético, e recebe um papel na divisão de trabalho do bloco. Olhe qual: açúcar, níquel e frutas cítricas.",
-  "tela": "Moscou, julho de mil novecentos e setenta e dois. Cuba entra no Comecon, o bloco econômico soviético, e recebe um papel na divisão de trabalho do bloco. Olhe qual: açúcar, níquel e frutas cítricas.",
+  "texto": "Washington, começo dos anos oitenta. Analistas da CIA fazem uma conta que parece errada: Moscou paga cerca de quarenta e dois centavos por libra de açúcar cubano, quase cinco vezes o preço do mercado mundial.",
+  "tela": "Washington, começo dos anos oitenta. Analistas da CIA fazem uma conta que parece errada: Moscou paga cerca de quarenta e dois centavos por libra de açúcar cubano, quase cinco vezes o preço do mercado mundial.",
   "ideia": true
  },
  {
   "id": "N051",
-  "texto": "E o preço? No começo dos anos oitenta, segundo a CIA, Moscou pagava cerca de quarenta e dois centavos por libra, quase cinco vezes o preço do mercado mundial. Só que pagava, em grande parte, em rublos de convênio, uma moeda que só comprava dentro do bloco.",
-  "tela": "E o preço? No começo dos anos oitenta, segundo a CIA, Moscou pagava cerca de quarenta e dois centavos por libra, quase cinco vezes o preço do mercado mundial. Só que pagava, em grande parte, em rublos de convênio, uma moeda que só comprava dentro do bloco.",
+  "texto": "Desde setenta e dois, Cuba está no Cômecon, o bloco econômico soviético, com um papel na divisão de trabalho. Olhe qual: açúcar, níquel e frutas cítricas. Só que o pagamento vinha, em grande parte, em rublos de convênio, uma moeda que só comprava dentro do bloco.",
+  "tela": "Desde setenta e dois, Cuba está no Comecon, o bloco econômico soviético, com um papel na divisão de trabalho. Olhe qual: açúcar, níquel e frutas cítricas. Só que o pagamento vinha, em grande parte, em rublos de convênio, uma moeda que só comprava dentro do bloco.",
   "ideia": false
  },
  {
@@ -343,8 +343,8 @@
  },
  {
   "id": "N058",
-  "texto": "E o açúcar? Em dois mil e dois, sem o preço antigo, o governo fecha quase metade das usinas. Tente achar outro país que já foi o maior exportador de açúcar do mundo e hoje compra açúcar de fora.",
-  "tela": "E o açúcar? Em dois mil e dois, sem o preço antigo, o governo fecha quase metade das usinas. Tente achar outro país que já foi o maior exportador de açúcar do mundo e hoje compra açúcar de fora.",
+  "texto": "E o açúcar? Sem o preço antigo, ele encolhe safra após safra. Tente achar outro país que já foi o maior exportador de açúcar do mundo e hoje compra açúcar de fora.",
+  "tela": "E o açúcar? Sem o preço antigo, ele encolhe safra após safra. Tente achar outro país que já foi o maior exportador de açúcar do mundo e hoje compra açúcar de fora.",
   "ideia": false
  },
  {
@@ -373,8 +373,8 @@
  },
  {
   "id": "N063",
-  "texto": "Talvez Cuba nunca tenha escolhido entre depender ou não. Escolhia de quem. E você, o que acha? Conta nos comentários.",
-  "tela": "Talvez Cuba nunca tenha escolhido entre depender ou não. Escolhia de quem. E você, o que acha? Conta nos comentários.",
+  "texto": "Talvez a pergunta certa nunca tenha sido quem comprava Cuba, e sim o que vinha escrito em letra miúda. E você, o que acha? Conta nos comentários.",
+  "tela": "Talvez a pergunta certa nunca tenha sido quem comprava Cuba, e sim o que vinha escrito em letra miúda. E você, o que acha? Conta nos comentários.",
   "ideia": false
  }
 ]

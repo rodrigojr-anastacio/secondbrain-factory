@@ -8,13 +8,13 @@ Roteiro: `canais/historia-ptbr/videos/017-cuba/blocos.json` (63 blocos, pt) · g
 | `manada-teNPAV-7uJg.txt` | es → pt | 2 | ok | 3% (2/63) | 0% | 0.9% |
 | `manada-Oh-Or9BOma0.txt` | pt | 2 | ok | 3% (2/63) | 0% | 0.2% |
 | `manada-ALpd58SX-Mc.txt` | pt | 1 | ok | 2% (1/63) | 0% | 0.6% |
-| `manada-qY5v_NXTzZ8.txt` | pt | 1 | ok | 2% (1/63) | 0% | 0.6% |
+| `manada-qY5v_NXTzZ8.txt` | pt | 1 | ok | 2% (1/63) | 0% | 0.5% |
 | `manada-BscKGvlhTHI.txt` | pt | 1 | ok | 2% (1/63) | 0% | 0.3% |
 | `manada-lYneY1mJa_A.txt` | en → pt | 1 | ok | 2% (1/63) | 0% | 0.2% |
 | `manada-oXYEWeBMK-E.txt` | en → pt | 1 | ok | 2% (1/63) | 0% | 0.2% |
 | `manada-t_1mZiVi24s.txt` | pt | 1 | ok | 2% (1/63) | 0% | 0.0% |
-| `manada-R4YO55c-_us.txt` | es → pt | 0 | ok | 0% (0/63) | 0% | 0.4% |
-| `manada-yAvQFvoolyg.txt` | pt | 0 | ok | 0% (0/63) | 0% | 0.4% |
+| `manada-R4YO55c-_us.txt` | es → pt | 0 | ok | 0% (0/63) | 0% | 0.3% |
+| `manada-yAvQFvoolyg.txt` | pt | 0 | ok | 0% (0/63) | 0% | 0.3% |
 | `manada-H0TmuIX-0xM.txt` | en → pt | 0 | ok | 0% (0/63) | 0% | 0.3% |
 | `manada-Dd_YvAGr0WU.txt` | es → pt | 0 | ok | 0% (0/63) | 0% | 0.0% |
 | `manada-HAz8vcHhhG8.txt` | en → pt | 0 | ok | 0% (0/63) | 0% | 0.0% |

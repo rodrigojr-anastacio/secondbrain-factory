@@ -74,10 +74,10 @@ b("Essa é a história inteira de Cuba. Guarde essas setecentas mil toneladas: e
 # ───────────────────────── 1. A ILHA QUE FICOU SEM OURO ─────────────────────────
 cap("1. A ilha que ficou sem ouro")
 b("§ Bayamo, leste de Cuba, mil seiscentos e quatro. Um pirata francês, Gilberto Girón, sequestra o bispo da ilha numa fazenda perto da cidade. E pede resgate.", card="1604")
-b("Repare que ninguém em Bayamo estranha um navio francês por ali. A cidade vivia de vender couro a navios estrangeiros. E isso era crime.")
-b("Porque a lei espanhola dizia: Cuba só vende para a Espanha, nos navios da Espanha. Só que esses navios quase não passavam pelo leste, e couro não espera. Então o povo vendia para quem aparecesse.")
+b("Repare que ninguém em Bayamo estranha um navio francês por ali. A cidade vivia de vender couro a navios estrangeiros. E isso era crime, porque a lei espanhola dizia: Cuba só vende para a Espanha, nos navios da Espanha.")
+b("Só que esses navios quase não passavam pelo leste, e couro não espera. Então o povo vendia para quem aparecesse.")
 b("Os moradores pagam o resgate e depois emboscam o pirata. Um escrivão escreve um poema sobre o caso, que hoje é tido como a primeira obra da literatura cubana. Tente ganhar fama literária com um sequestro.")
-b("§ Era o jeito de uma ilha que tinha ficado sem ouro. O pouco que havia acabou em poucas décadas, junto com a maior parte dos taínos, levados por guerra, trabalho forçado e epidemias. Sobrou Havana, o porto onde as frotas da prata paravam na volta.")
+b("§ Era o jeito de uma ilha que tinha ficado sem ouro: o pouco que havia acabou em poucas décadas, junto com a maior parte dos taínos, levados por guerra, trabalho forçado e epidemias.")
 b("O problema é que a Espanha não queria só proibir. Queria comprar. E, um século depois, ela acha o produto certo.")
 
 # ───────────────────────── 2. O COMPRADOR POR DECRETO ─────────────────────────
@@ -93,7 +93,7 @@ b("O problema é que, a cada guerra da Espanha, a regra afrouxava. E alguém do 
 cap("3. Seiscentos navios")
 b("§ Havana, mil oitocentos e cinco. A Espanha está em guerra com a Inglaterra, e os navios espanhóis não chegam. Então o governo abre os portos de Cuba a navios neutros. Em poucos meses, uns seiscentos navios americanos atracam em Havana.", card="1805")
 b("Repare quem chegou primeiro quando a porta abriu: o vizinho do norte, a uns cento e cinquenta quilômetros. Ele traz farinha e tecido, e leva açúcar e melaço.")
-b("E o açúcar cubano estava em alta. A colônia francesa de São Domingos, a maior produtora do mundo, tinha sido tomada por uma revolução dos escravizados em noventa e um. Os fazendeiros de Cuba correram para ocupar o lugar, com centenas de milhares de africanos trazidos à força.")
+b("E eles chegam na hora certa. Desde a revolução dos escravizados de noventa e um, o açúcar de São Domingos, a colônia francesa que mais produzia no mundo, tinha sumido do mercado. O preço sobe, e o comprador com dinheiro mora perto. Cuba planta cana como nunca, com centenas de milhares de africanos trazidos à força.")
 b("Pense no açúcar do seu café: por boa parte do século dezenove, uma fatia enorme dele saía de Cuba. E quem comprava, cada vez mais, falava inglês.")
 b("§ Só que comprador grande também empresta. Nos anos de mil oitocentos e oitenta, Edwin Atkins, um comerciante de açúcar de Boston, fica com a usina Soledad, perto de Cienfuegos, para acertar uma dívida antiga.")
 b("A bandeira em Havana continua espanhola. Mas o comprador já tinha virado credor, e o credor começava a virar dono. E aí aparece o problema de sempre: e se esse comprador mudasse de ideia?")
@@ -135,14 +135,14 @@ b("Em sessenta e um, exilados treinados pelos Estados Unidos desembarcam na Baí
 cap("8. Seis centavos")
 b("§ Moscou, janeiro de mil novecentos e sessenta e quatro. Fidel Castro vai à União Soviética e volta com um contrato: Moscou compra açúcar cubano por anos, a seis centavos de dólar a libra. Preço fixo, num mercado que sobe e desce.", card="1964")
 b("Preço fixo é o sonho de qualquer produtor. Imagine saber hoje quanto você vai receber por cada saco daqui a seis anos. E as quantidades sobem ano a ano, até cinco milhões de toneladas em setenta.")
-b("Só que preço fixo vinha com volume fixo. Pelo contrato, Cuba tinha de entregar cada vez mais. E o país, que no começo da revolução falava em sair do açúcar, volta para o canavial com tudo.")
+b("Só que preço fixo vinha com volume fixo. Para entregar o que o contrato pedia, e ainda ter açúcar para vender ao resto do mundo, Cuba põe o país inteiro no canavial.")
 b("§ Para mil novecentos e setenta, a meta é de dez milhões de toneladas. A safra dá cerca de oito milhões e meio, a maior da história de Cuba. Em vinte e seis de julho, Fidel diz em público que a meta não foi cumprida e assume a responsabilidade.", card="1970")
 b("E aqui está a primeira peça da resposta: o preço garantido vinha amarrado a uma quantidade. Quem garante o seu preço decide o que você planta. Só que esse preço ainda ia subir muito.")
 
 # ───────────────────────── 9. QUASE CINCO VEZES O PREÇO ─────────────────────────
 cap("9. Quase cinco vezes o preço")
-b("§ Moscou, julho de mil novecentos e setenta e dois. Cuba entra no Comecon, o bloco econômico soviético, e recebe um papel na divisão de trabalho do bloco. Olhe qual: açúcar, níquel e frutas cítricas.", card="1972")
-b("E o preço? No começo dos anos oitenta, segundo a CIA, Moscou pagava cerca de quarenta e dois centavos por libra, quase cinco vezes o preço do mercado mundial. Só que pagava, em grande parte, em rublos de convênio, uma moeda que só comprava dentro do bloco.")
+b("§ Washington, começo dos anos oitenta. Analistas da CIA fazem uma conta que parece errada: Moscou paga cerca de quarenta e dois centavos por libra de açúcar cubano, quase cinco vezes o preço do mercado mundial.", card="1983")
+b("Desde setenta e dois, Cuba está no Comecon, o bloco econômico soviético, com um papel na divisão de trabalho. Olhe qual: açúcar, níquel e frutas cítricas. Só que o pagamento vinha, em grande parte, em rublos de convênio, uma moeda que só comprava dentro do bloco.")
 b("Tente pagar um hotel em Paris com o vale do mercadinho da sua rua. Era isso: Cuba vendia caro, mas só podia gastar com quem comprava. Em oitenta e nove, mais de oitenta por cento das exportações cubanas iam para o bloco socialista.")
 b("Lembra da pergunta? A segunda peça está aqui: o comprador pagava bem, mas na moeda dele. Cada dólar que Cuba deixava de ganhar era uma porta de saída a menos.")
 b("§ Então, em mil novecentos e noventa e um, o comprador simplesmente deixa de existir. A União Soviética acaba, e com ela o preço, o petróleo e os rublos que só valiam lá dentro. Cuba entra no que o governo chamou de Período Especial: apagões, comida racionada, ônibus parados.", card="1991")
@@ -152,7 +152,7 @@ b("Sem o preço de Moscou, a safra cai quase à metade em dois anos. E, sem dól
 cap("10. Petróleo por jaleco")
 b("§ Caracas, trinta de outubro de dois mil. Fidel Castro e Hugo Chávez assinam um convênio: a Venezuela manda cinquenta e três mil barris de petróleo por dia, em condições especiais. E Cuba paga com gente: médicos, professores, técnicos.", card="2000")
 b("Repare na mudança: o comprador novo não queria açúcar. Queria serviço. Nos anos seguintes, o petróleo chega a uns cem mil barris por dia, e perto de trinta mil profissionais cubanos trabalham na Venezuela, a maioria na saúde.")
-b("E o açúcar? Em dois mil e dois, sem o preço antigo, o governo fecha quase metade das usinas. Tente achar outro país que já foi o maior exportador de açúcar do mundo e hoje compra açúcar de fora.")
+b("E o açúcar? Sem o preço antigo, ele encolhe safra após safra. Tente achar outro país que já foi o maior exportador de açúcar do mundo e hoje compra açúcar de fora.")
 b("§ Mas um comprador que paga com petróleo depende do próprio petróleo. A Venezuela entra em crise, e os barris diminuem. Em janeiro de dois mil e vinte e seis, depois que forças americanas capturam Nicolás Maduro, o petróleo venezuelano para de chegar.", card="2026")
 b("Em dois mil e vinte e cinco, a ilha que já colheu oito milhões e meio de toneladas colheu menos de cento e cinquenta mil. O problema de sempre voltou, agora sem ninguém do outro lado do balcão.")
 
@@ -160,7 +160,7 @@ b("Em dois mil e vinte e cinco, a ilha que já colheu oito milhões e meio de to
 cap("Fecho")
 b("§ [warm] Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula, que empurrava Cuba para o próximo: o estanco, a tarifa, a cota, o rublo, os médicos.")
 b("As setecentas mil toneladas de mil novecentos e sessenta não mudaram de dono. Mudaram de cláusula.")
-b("Talvez Cuba nunca tenha escolhido entre depender ou não. Escolhia de quem. E você, o que acha? Conta nos comentários.")
+b("Talvez a pergunta certa nunca tenha sido quem comprava Cuba, e sim o que vinha escrito em letra miúda. E você, o que acha? Conta nos comentários.")
 
 FALA = [("Bayamo", "Baiámo"), ("Gilberto Girón", "Rilbérto Rirón"), ("Girón", "Rirón"), ("Jesús del Monte", "Rerús del Mônte"),
         ("vegueros", "veguêros"), ("Cienfuegos", "Cienfuêgos"), ("Atkins", "Átkins"), ("Camagüey", "Camaguêi"), ("Mikoyan", "Mikoián"), ("Khrushchev", "Krushóv"),

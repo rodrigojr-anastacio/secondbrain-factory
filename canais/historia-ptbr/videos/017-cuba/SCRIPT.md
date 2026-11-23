@@ -1,4 +1,4 @@
-# A história INTEIRA de Cuba em 18 minutos: roteiro
+# A história INTEIRA de Cuba em 17 minutos: roteiro
 
 Pergunta central: Por que Cuba sempre dependeu de um país só para comprar o que ela produz?
 
@@ -6,7 +6,7 @@ Promessa: Por que Cuba sempre dependeu de um país só para comprar o que ela pr
 
 Títulos: T1 "Cuba adoçava o MUNDO. Por que dependia de um país só?" / T2 "Por que Cuba só trocava de COMPRADOR? E o que cobravam?" / T3 "Cuba: como o AÇÚCAR decidiu quem mandava na ilha"
 
-Gerado por `roteiro.py` (fonte única; edite lá). 2195 palavras, ~17:31.9 estimados a 126 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 2187 palavras, ~17:28.1 estimados a 126 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
@@ -26,13 +26,13 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N006]** Bayamo, leste de Cuba, mil seiscentos e quatro. Um pirata francês, Gilberto Girón, sequestra o bispo da ilha numa fazenda perto da cidade. E pede resgate.
 
-**[N007]** Repare que ninguém em Bayamo estranha um navio francês por ali. A cidade vivia de vender couro a navios estrangeiros. E isso era crime.
+**[N007]** Repare que ninguém em Bayamo estranha um navio francês por ali. A cidade vivia de vender couro a navios estrangeiros. E isso era crime, porque a lei espanhola dizia: Cuba só vende para a Espanha, nos navios da Espanha.
 
-**[N008]** Porque a lei espanhola dizia: Cuba só vende para a Espanha, nos navios da Espanha. Só que esses navios quase não passavam pelo leste, e couro não espera. Então o povo vendia para quem aparecesse.
+**[N008]** Só que esses navios quase não passavam pelo leste, e couro não espera. Então o povo vendia para quem aparecesse.
 
 **[N009]** Os moradores pagam o resgate e depois emboscam o pirata. Um escrivão escreve um poema sobre o caso, que hoje é tido como a primeira obra da literatura cubana. Tente ganhar fama literária com um sequestro.
 
-**[N010]** Era o jeito de uma ilha que tinha ficado sem ouro. O pouco que havia acabou em poucas décadas, junto com a maior parte dos taínos, levados por guerra, trabalho forçado e epidemias. Sobrou Havana, o porto onde as frotas da prata paravam na volta.
+**[N010]** Era o jeito de uma ilha que tinha ficado sem ouro: o pouco que havia acabou em poucas décadas, junto com a maior parte dos taínos, levados por guerra, trabalho forçado e epidemias.
 
 **[N011]** O problema é que a Espanha não queria só proibir. Queria comprar. E, um século depois, ela acha o produto certo.
 
@@ -58,7 +58,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N019]** Repare quem chegou primeiro quando a porta abriu: o vizinho do norte, a uns cento e cinquenta quilômetros. Ele traz farinha e tecido, e leva açúcar e melaço.
 
-**[N020]** E o açúcar cubano estava em alta. A colônia francesa de São Domingos, a maior produtora do mundo, tinha sido tomada por uma revolução dos escravizados em noventa e um. Os fazendeiros de Cuba correram para ocupar o lugar, com centenas de milhares de africanos trazidos à força.
+**[N020]** E eles chegam na hora certa. Desde a revolução dos escravizados de noventa e um, o açúcar de São Domingos, a colônia francesa que mais produzia no mundo, tinha sumido do mercado. O preço sobe, e o comprador com dinheiro mora perto. Cuba planta cana como nunca, com centenas de milhares de africanos trazidos à força.
 
 **[N021]** Pense no açúcar do seu café: por boa parte do século dezenove, uma fatia enorme dele saía de Cuba. E quem comprava, cada vez mais, falava inglês.
 
@@ -127,7 +127,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N046]** Preço fixo é o sonho de qualquer produtor. Imagine saber hoje quanto você vai receber por cada saco daqui a seis anos. E as quantidades sobem ano a ano, até cinco milhões de toneladas em setenta.
 
-**[N047]** Só que preço fixo vinha com volume fixo. Pelo contrato, Cuba tinha de entregar cada vez mais. E o país, que no começo da revolução falava em sair do açúcar, volta para o canavial com tudo.
+**[N047]** Só que preço fixo vinha com volume fixo. Para entregar o que o contrato pedia, e ainda ter açúcar para vender ao resto do mundo, Cuba põe o país inteiro no canavial.
 
 **[N048]** Para mil novecentos e setenta, a meta é de dez milhões de toneladas. A safra dá cerca de oito milhões e meio, a maior da história de Cuba. Em vinte e seis de julho, Fidel diz em público que a meta não foi cumprida e assume a responsabilidade.
 
@@ -136,9 +136,9 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## 9. Quase cinco vezes o preço
 
-**[N050]** Moscou, julho de mil novecentos e setenta e dois. Cuba entra no Comecon, o bloco econômico soviético, e recebe um papel na divisão de trabalho do bloco. Olhe qual: açúcar, níquel e frutas cítricas.
+**[N050]** Washington, começo dos anos oitenta. Analistas da CIA fazem uma conta que parece errada: Moscou paga cerca de quarenta e dois centavos por libra de açúcar cubano, quase cinco vezes o preço do mercado mundial.
 
-**[N051]** E o preço? No começo dos anos oitenta, segundo a CIA, Moscou pagava cerca de quarenta e dois centavos por libra, quase cinco vezes o preço do mercado mundial. Só que pagava, em grande parte, em rublos de convênio, uma moeda que só comprava dentro do bloco.
+**[N051]** Desde setenta e dois, Cuba está no Comecon, o bloco econômico soviético, com um papel na divisão de trabalho. Olhe qual: açúcar, níquel e frutas cítricas. Só que o pagamento vinha, em grande parte, em rublos de convênio, uma moeda que só comprava dentro do bloco.
 
 **[N052]** Tente pagar um hotel em Paris com o vale do mercadinho da sua rua. Era isso: Cuba vendia caro, mas só podia gastar com quem comprava. Em oitenta e nove, mais de oitenta por cento das exportações cubanas iam para o bloco socialista.
 
@@ -155,7 +155,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N057]** Repare na mudança: o comprador novo não queria açúcar. Queria serviço. Nos anos seguintes, o petróleo chega a uns cem mil barris por dia, e perto de trinta mil profissionais cubanos trabalham na Venezuela, a maioria na saúde.
 
-**[N058]** E o açúcar? Em dois mil e dois, sem o preço antigo, o governo fecha quase metade das usinas. Tente achar outro país que já foi o maior exportador de açúcar do mundo e hoje compra açúcar de fora.
+**[N058]** E o açúcar? Sem o preço antigo, ele encolhe safra após safra. Tente achar outro país que já foi o maior exportador de açúcar do mundo e hoje compra açúcar de fora.
 
 **[N059]** Mas um comprador que paga com petróleo depende do próprio petróleo. A Venezuela entra em crise, e os barris diminuem. Em janeiro de dois mil e vinte e seis, depois que forças americanas capturam Nicolás Maduro, o petróleo venezuelano para de chegar.
 
@@ -168,4 +168,4 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N062]** As setecentas mil toneladas de mil novecentos e sessenta não mudaram de dono. Mudaram de cláusula.
 
-**[N063]** Talvez Cuba nunca tenha escolhido entre depender ou não. Escolhia de quem. E você, o que acha? Conta nos comentários.
+**[N063]** Talvez a pergunta certa nunca tenha sido quem comprava Cuba, e sim o que vinha escrito em letra miúda. E você, o que acha? Conta nos comentários.
