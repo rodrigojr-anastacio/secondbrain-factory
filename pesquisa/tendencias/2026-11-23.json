@@ -1,0 +1,1760 @@
+{
+ "gerado_em": "2026-11-23T12:30:11.413439+00:00",
+ "buscas": [
+  "entire history of",
+  "history explained",
+  "ancient civilizations",
+  "mythology explained",
+  "lore explained",
+  "unsolved mysteries",
+  "true crime documentary",
+  "documentary",
+  "what if",
+  "geography explained",
+  "economics explained",
+  "science explained",
+  "space documentary",
+  "psychology explained",
+  "philosophy explained",
+  "biography documentary",
+  "war history",
+  "bible stories",
+  "horror stories",
+  "animated story"
+ ],
+ "criterios": {
+  "max_idade_dias": 120,
+  "max_videos": 20,
+  "min_media_views": 20000
+ },
+ "candidatos": [
+  {
+   "id": "UCAqnV3Y7Eazgq368zJ1dVhA",
+   "titulo": "BomVEVO",
+   "url": "https://www.youtube.com/channel/UCAqnV3Y7Eazgq368zJ1dVhA",
+   "pais": null,
+   "criado": "2023-11-08",
+   "primeiro_video": "2026-10-28",
+   "idade_dias": 26,
+   "videos": 12,
+   "views": 15572709,
+   "inscritos": 30600,
+   "media_views": 1297725,
+   "views_por_inscrito": 508.9,
+   "descricao": "",
+   "buscas": [
+    "documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "NPHAbKe9spU",
+     "titulo": "BOM, Lali, Miranda! - EN ITALIA [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.5,
+     "views": 2416729,
+     "thumb": "https://i.ytimg.com/vi/NPHAbKe9spU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=NPHAbKe9spU"
+    },
+    {
+     "id": "8U1_ekYllpY",
+     "titulo": "BOM, Lali, Miranda! - MIGAJAS [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.6,
+     "views": 2404523,
+     "thumb": "https://i.ytimg.com/vi/8U1_ekYllpY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8U1_ekYllpY"
+    },
+    {
+     "id": "RcUvo62blBY",
+     "titulo": "BOM, Lali, Miranda! - SEÑORA [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.5,
+     "views": 2217675,
+     "thumb": "https://i.ytimg.com/vi/RcUvo62blBY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=RcUvo62blBY"
+    },
+    {
+     "id": "uoen6uTcp2U",
+     "titulo": "BOM, Lali, Miranda! - VIVO DEL POP [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.4,
+     "views": 1531632,
+     "thumb": "https://i.ytimg.com/vi/uoen6uTcp2U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=uoen6uTcp2U"
+    },
+    {
+     "id": "2NA1YLusX8w",
+     "titulo": "BOM, Lali, Miranda! - BAILAR O MORIR [ Short Film ]",
+     "publicado": "2026-10-28",
+     "duracao_min": 16.2,
+     "views": 1184436,
+     "thumb": "https://i.ytimg.com/vi/2NA1YLusX8w/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=2NA1YLusX8w"
+    },
+    {
+     "id": "4ZiD4Shzxy8",
+     "titulo": "BOM, Lali, Miranda! - ADONDE [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.9,
+     "views": 1087393,
+     "thumb": "https://i.ytimg.com/vi/4ZiD4Shzxy8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4ZiD4Shzxy8"
+    },
+    {
+     "id": "POQ3XMRAU3U",
+     "titulo": "BOM, Lali, Miranda! - HELECHO [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 3.1,
+     "views": 1021889,
+     "thumb": "https://i.ytimg.com/vi/POQ3XMRAU3U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=POQ3XMRAU3U"
+    },
+    {
+     "id": "8Ia4TC_Ea_0",
+     "titulo": "BOM, Lali, Miranda! - PIEL [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.8,
+     "views": 976232,
+     "thumb": "https://i.ytimg.com/vi/8Ia4TC_Ea_0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8Ia4TC_Ea_0"
+    },
+    {
+     "id": "-ie5USBs4uY",
+     "titulo": "BOM, Lali, Miranda! - BAILAR O MORIR [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.7,
+     "views": 836554,
+     "thumb": "https://i.ytimg.com/vi/-ie5USBs4uY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=-ie5USBs4uY"
+    },
+    {
+     "id": "PQSRWckZc5s",
+     "titulo": "BOM, Lali, Miranda! - HIPERLOVE [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 3.4,
+     "views": 808550,
+     "thumb": "https://i.ytimg.com/vi/PQSRWckZc5s/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PQSRWckZc5s"
+    },
+    {
+     "id": "sRIM8aqsFmQ",
+     "titulo": "BOM, Lali, Miranda! - GANAR [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.7,
+     "views": 776745,
+     "thumb": "https://i.ytimg.com/vi/sRIM8aqsFmQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=sRIM8aqsFmQ"
+    },
+    {
+     "id": "0_g9QqeIejk",
+     "titulo": "BOM, Lali, Miranda! - BAILAR O MORIR [Official Audio]",
+     "publicado": "2026-10-28",
+     "duracao_min": 2.6,
+     "views": 532878,
+     "thumb": "https://i.ytimg.com/vi/0_g9QqeIejk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=0_g9QqeIejk"
+    }
+   ],
+   "score": 598950,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 2646801
+  },
+  {
+   "id": "UC191yrNFoSi-6m_fmNfFenw",
+   "titulo": "Hadalogy",
+   "url": "https://www.youtube.com/channel/UC191yrNFoSi-6m_fmNfFenw",
+   "pais": null,
+   "criado": "2026-10-31",
+   "primeiro_video": "2026-11-15",
+   "idade_dias": 7,
+   "videos": 4,
+   "views": 2397182,
+   "inscritos": 4900,
+   "media_views": 599295,
+   "views_por_inscrito": 489.2,
+   "descricao": "On 7 March 1986, two Navy divers running low on air swam into a tangle of wire 100 feet under the Atlantic. It was the crew cabin of Space Shuttle Challenger.\n\nThat is the moment this channel lives in. Not the explosion the world watched on television, but what divers, searchers and investigators fo",
+   "buscas": [
+    "space documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "kIFbYPYo4kY",
+     "titulo": "Challenger Disaster: What Navy Divers Found Inside the Crew Cabin",
+     "publicado": "2026-11-15",
+     "duracao_min": 14.5,
+     "views": 1934742,
+     "thumb": "https://i.ytimg.com/vi/kIFbYPYo4kY/hqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=kIFbYPYo4kY"
+    },
+    {
+     "id": "F-dcFpbgZKY",
+     "titulo": "Challenger Disaster: What the Crew Did After Their Last Recorded Words",
+     "publicado": "2026-11-17",
+     "duracao_min": 15.3,
+     "views": 546127,
+     "thumb": "https://i.ytimg.com/vi/F-dcFpbgZKY/hqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=F-dcFpbgZKY"
+    },
+    {
+     "id": "xEGqpJpR2Zs",
+     "titulo": "Columbia Crew: Their Last 40 Seconds, Pieced Together From the Wreckage",
+     "publicado": "2026-11-18",
+     "duracao_min": 15.0,
+     "views": 30662,
+     "thumb": "https://i.ytimg.com/vi/xEGqpJpR2Zs/hqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xEGqpJpR2Zs"
+    },
+    {
+     "id": "xdMjF0-Nma0",
+     "titulo": "Apollo 1 Disaster: What Investigators Found Behind the Hatch",
+     "publicado": "2026-11-21",
+     "duracao_min": 15.2,
+     "views": 7545,
+     "thumb": "https://i.ytimg.com/vi/xdMjF0-Nma0/hqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xdMjF0-Nma0"
+    }
+   ],
+   "score": 342455,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCBV6H_ZzQHW8O1h7NoiaW_w",
+   "titulo": "Born in Lore",
+   "url": "https://www.youtube.com/channel/UCBV6H_ZzQHW8O1h7NoiaW_w",
+   "pais": "US",
+   "criado": "2026-10-28",
+   "primeiro_video": "2026-10-28",
+   "idade_dias": 26,
+   "videos": 10,
+   "views": 8604850,
+   "inscritos": 40500,
+   "media_views": 860485,
+   "views_por_inscrito": 212.5,
+   "descricao": "What if you were born as your favorite video game character?\nBorn in Lore tells the whole life of a game character as if it were yours: where you're born, who raises you, the training, the first fight, the big mistakes, the people you love, and how it all ends. Every story follows the official lore ",
+   "buscas": [
+    "war history",
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "pVUgJt1sDmI",
+     "titulo": "What If You Were Born as Ghost? | Call of Duty",
+     "publicado": "2026-11-18",
+     "duracao_min": 13.3,
+     "views": 3692775,
+     "thumb": "https://i.ytimg.com/vi/pVUgJt1sDmI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=pVUgJt1sDmI"
+    },
+    {
+     "id": "vZ2eX-tIBDI",
+     "titulo": "What If You Were Born as CJ? | GTA San Andreas",
+     "publicado": "2026-11-12",
+     "duracao_min": 11.2,
+     "views": 1754601,
+     "thumb": "https://i.ytimg.com/vi/vZ2eX-tIBDI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vZ2eX-tIBDI"
+    },
+    {
+     "id": "cB5AnPSKXr8",
+     "titulo": "What If You Were Born as Kratos? | God of War",
+     "publicado": "2026-10-30",
+     "duracao_min": 8.1,
+     "views": 1249281,
+     "thumb": "https://i.ytimg.com/vi/cB5AnPSKXr8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=cB5AnPSKXr8"
+    },
+    {
+     "id": "q8JM9uxkPFc",
+     "titulo": "What If You Were Born as Master Chief? | Halo",
+     "publicado": "2026-11-07",
+     "duracao_min": 12.9,
+     "views": 1067294,
+     "thumb": "https://i.ytimg.com/vi/q8JM9uxkPFc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=q8JM9uxkPFc"
+    },
+    {
+     "id": "WKJKhnOD65o",
+     "titulo": "What If You Were Born as Arthur Morgan? | Red Dead Redemption 2",
+     "publicado": "2026-11-01",
+     "duracao_min": 9.3,
+     "views": 459830,
+     "thumb": "https://i.ytimg.com/vi/WKJKhnOD65o/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WKJKhnOD65o"
+    },
+    {
+     "id": "aX0dwYkdBjY",
+     "titulo": "What If You Were Born as Ezio Auditore? | Assassin's Creed",
+     "publicado": "2026-11-03",
+     "duracao_min": 11.8,
+     "views": 402626,
+     "thumb": "https://i.ytimg.com/vi/aX0dwYkdBjY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=aX0dwYkdBjY"
+    },
+    {
+     "id": "3dN6qH2lQ-k",
+     "titulo": "What If You Were Born as Tommy Vercetti? | GTA Vice City",
+     "publicado": "2026-11-22",
+     "duracao_min": 14.3,
+     "views": 209090,
+     "thumb": "https://i.ytimg.com/vi/3dN6qH2lQ-k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=3dN6qH2lQ-k"
+    },
+    {
+     "id": "RjGLlOPy1hc",
+     "titulo": "What If You Were Born as John Marston? | Red Dead Redemption",
+     "publicado": "2026-11-20",
+     "duracao_min": 13.9,
+     "views": 208141,
+     "thumb": "https://i.ytimg.com/vi/RjGLlOPy1hc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=RjGLlOPy1hc"
+    },
+    {
+     "id": "yLXdl9RUwPI",
+     "titulo": "What If You Were Born as Geralt of Rivia? | The Witcher",
+     "publicado": "2026-10-28",
+     "duracao_min": 6.9,
+     "views": 35705,
+     "thumb": "https://i.ytimg.com/vi/yLXdl9RUwPI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=yLXdl9RUwPI"
+    },
+    {
+     "id": "eEyqvotSiYA",
+     "titulo": "If You Were Born as Ghost, You'd Be Buried Alive 💀 #shorts",
+     "publicado": "2026-11-18",
+     "duracao_min": 0.9,
+     "views": 17017,
+     "thumb": "https://i.ytimg.com/vi/eEyqvotSiYA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=eEyqvotSiYA"
+    }
+   ],
+   "score": 330956,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 6244625
+  },
+  {
+   "id": "UCj7qkU6M_ZIEwV2OSuyoQyg",
+   "titulo": "VeylornStudios",
+   "url": "https://www.youtube.com/channel/UCj7qkU6M_ZIEwV2OSuyoQyg",
+   "pais": "US",
+   "criado": "2026-06-26",
+   "primeiro_video": "2026-10-09",
+   "idade_dias": 44,
+   "videos": 4,
+   "views": 10082571,
+   "inscritos": 58000,
+   "media_views": 2520642,
+   "views_por_inscrito": 173.8,
+   "descricao": "Welcome to VEYLORN STUDIOS — a cinematic home for original epic fantasy films.\n\nAncient kingdoms. Forgotten civilizations. Extraordinary creatures. And stories where every choice has a consequence.\n\nAt VEYLORN STUDIOS, we bring original fantasy worlds to life through AI-assisted filmmaking, cinemati",
+   "buscas": [
+    "documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "6pbhGtHRTwA",
+     "titulo": "THE LOST KIND | FULL MOVIE | 4K Epic Dark Fantasy Film (Complete Story)",
+     "publicado": "2026-11-14",
+     "duracao_min": 108.0,
+     "views": 8673879,
+     "thumb": "https://i.ytimg.com/vi/6pbhGtHRTwA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=6pbhGtHRTwA"
+    },
+    {
+     "id": "S9MIrREjW2U",
+     "titulo": "THE LOST KIND: SON OF MONSTERS | 4K Epic Fantasy Film | Part 1",
+     "publicado": "2026-10-09",
+     "duracao_min": 29.1,
+     "views": 893596,
+     "thumb": "https://i.ytimg.com/vi/S9MIrREjW2U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=S9MIrREjW2U"
+    },
+    {
+     "id": "RDOXMIC_w3A",
+     "titulo": "THE LOST KIND: SINS OF MEN | 4K Original Epic Fantasy Film | Part 2",
+     "publicado": "2026-10-23",
+     "duracao_min": 34.3,
+     "views": 504928,
+     "thumb": "https://i.ytimg.com/vi/RDOXMIC_w3A/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=RDOXMIC_w3A"
+    },
+    {
+     "id": "JzZhz1vU_Cs",
+     "titulo": "THE LOST KIND: HEART OF THE LOST | 4K Original Epic Fantasy Film | Part 3",
+     "publicado": "2026-11-05",
+     "duracao_min": 32.3,
+     "views": 300357,
+     "thumb": "https://i.ytimg.com/vi/JzZhz1vU_Cs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=JzZhz1vU_Cs"
+    }
+   ],
+   "score": 229149,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 2940322
+  },
+  {
+   "id": "UCAGRnC0u-hiBa7eUvrFtFow",
+   "titulo": "Awaken",
+   "url": "https://www.youtube.com/channel/UCAGRnC0u-hiBa7eUvrFtFow",
+   "pais": "US",
+   "criado": "2016-10-04",
+   "primeiro_video": "2026-10-20",
+   "idade_dias": 33,
+   "videos": 12,
+   "views": 7349988,
+   "inscritos": 25300,
+   "media_views": 612499,
+   "views_por_inscrito": 290.5,
+   "descricao": "Big questions. Small characters. A world of curiosity.\n\nAwaken Studios is an independent team of writers, artists, and animators turning science, history, and unusual “what if” questions into colorful animated stories.\n\nAt the heart of the studio, we have developed our own in-house 2D/3D animation s",
+   "buscas": [
+    "animated story",
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "6oZ9fdM0n50",
+     "titulo": "Can 2 People Really Restart Humanity?",
+     "publicado": "2026-10-20",
+     "duracao_min": 7.0,
+     "views": 5379740,
+     "thumb": "https://i.ytimg.com/vi/6oZ9fdM0n50/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=6oZ9fdM0n50"
+    },
+    {
+     "id": "XbXiFizyGko",
+     "titulo": "What if You’re The Last Guy on Earth?",
+     "publicado": "2026-10-27",
+     "duracao_min": 8.2,
+     "views": 1000444,
+     "thumb": "https://i.ytimg.com/vi/XbXiFizyGko/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=XbXiFizyGko"
+    },
+    {
+     "id": "fFziW8Hgf84",
+     "titulo": "What if You Were The Last Girl On Earth?",
+     "publicado": "2026-10-30",
+     "duracao_min": 8.2,
+     "views": 872452,
+     "thumb": "https://i.ytimg.com/vi/fFziW8Hgf84/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=fFziW8Hgf84"
+    },
+    {
+     "id": "4OJqcmRRUYI",
+     "titulo": "Could 8 Billion People Live in ONE City?",
+     "publicado": "2026-10-25",
+     "duracao_min": 7.1,
+     "views": 28459,
+     "thumb": "https://i.ytimg.com/vi/4OJqcmRRUYI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4OJqcmRRUYI"
+    },
+    {
+     "id": "UY0HURd95d4",
+     "titulo": "Male Orgasm vs Female Orgasm: The Science Behind It",
+     "publicado": "2026-11-03",
+     "duracao_min": 8.1,
+     "views": 21929,
+     "thumb": "https://i.ytimg.com/vi/UY0HURd95d4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=UY0HURd95d4"
+    },
+    {
+     "id": "J17CZfV7u4k",
+     "titulo": "Could 2 People Restart Humanity? 😳 #shorts",
+     "publicado": "2026-10-22",
+     "duracao_min": 1.1,
+     "views": 16935,
+     "thumb": "https://i.ytimg.com/vi/J17CZfV7u4k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=J17CZfV7u4k"
+    },
+    {
+     "id": "Q3Z8ed3K8xo",
+     "titulo": "The Only Men Who Ever Escaped Alcatraz? #Shorts #Alcatraz #History #TrueStory #Mystery #Escape",
+     "publicado": "2026-11-02",
+     "duracao_min": 0.8,
+     "views": 13985,
+     "thumb": "https://i.ytimg.com/vi/Q3Z8ed3K8xo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Q3Z8ed3K8xo"
+    },
+    {
+     "id": "gVvCEyDkVL4",
+     "titulo": "The Man Who Walked Across the The Twin Towers",
+     "publicado": "2026-11-03",
+     "duracao_min": 0.5,
+     "views": 8965,
+     "thumb": "https://i.ytimg.com/vi/gVvCEyDkVL4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=gVvCEyDkVL4"
+    },
+    {
+     "id": "PnIoVBFBklM",
+     "titulo": "What If You Woke Up in the 1500s With a Fully Charged iPhone?",
+     "publicado": "2026-11-18",
+     "duracao_min": 11.6,
+     "views": 7054,
+     "thumb": "https://i.ytimg.com/vi/PnIoVBFBklM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PnIoVBFBklM"
+    },
+    {
+     "id": "cWtrYIoWlbk",
+     "titulo": "Can 1 Man Repopulate Earth?",
+     "publicado": "2026-11-13",
+     "duracao_min": 6.4,
+     "views": 6001,
+     "thumb": "https://i.ytimg.com/vi/cWtrYIoWlbk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=cWtrYIoWlbk"
+    },
+    {
+     "id": "E22xBVCUGFo",
+     "titulo": "What If You Spent 100 Days in the White Room?",
+     "publicado": "2026-11-16",
+     "duracao_min": 6.4,
+     "views": 3258,
+     "thumb": "https://i.ytimg.com/vi/E22xBVCUGFo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=E22xBVCUGFo"
+    },
+    {
+     "id": "O2ryJuWO4cc",
+     "titulo": "What Will Happen in 10 Quintillion Years?",
+     "publicado": "2026-11-15",
+     "duracao_min": 6.7,
+     "views": 2967,
+     "thumb": "https://i.ytimg.com/vi/O2ryJuWO4cc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=O2ryJuWO4cc"
+    }
+   ],
+   "score": 222727,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 149130
+  },
+  {
+   "id": "UCdGBy5Rb_Z8Ra6spuebCvkQ",
+   "titulo": "Gleeful Reacts",
+   "url": "https://www.youtube.com/channel/UCdGBy5Rb_Z8Ra6spuebCvkQ",
+   "pais": "US",
+   "criado": "2026-10-28",
+   "primeiro_video": "2026-10-28",
+   "idade_dias": 25,
+   "videos": 11,
+   "views": 5395300,
+   "inscritos": 12700,
+   "media_views": 490481,
+   "views_por_inscrito": 424.8,
+   "descricao": "Explore captivating Roblox animation stories with Gleeful Reacts. This channel is designed for Roblox fans seeking engaging and heartfelt narratives. Dive into tales set in this world and this town. Experience short stories that spark joy and curiosity. We showcase unique Roblox creations, featuring",
+   "buscas": [
+    "animated story"
+   ],
+   "videos_lista": [
+    {
+     "id": "bWDgkJ5ZRpM",
+     "titulo": "In This World / In This Town Roblox Story Animation (#4)",
+     "publicado": "2026-11-01",
+     "duracao_min": 34.3,
+     "views": 1715293,
+     "thumb": "https://i.ytimg.com/vi/bWDgkJ5ZRpM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=bWDgkJ5ZRpM"
+    },
+    {
+     "id": "WZkZXfP5ltA",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation",
+     "publicado": "2026-10-28",
+     "duracao_min": 17.5,
+     "views": 960872,
+     "thumb": "https://i.ytimg.com/vi/WZkZXfP5ltA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WZkZXfP5ltA"
+    },
+    {
+     "id": "W7EhOcUuxZ4",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#3)",
+     "publicado": "2026-10-31",
+     "duracao_min": 22.5,
+     "views": 825063,
+     "thumb": "https://i.ytimg.com/vi/W7EhOcUuxZ4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=W7EhOcUuxZ4"
+    },
+    {
+     "id": "vUbwsjjiQn8",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#2)",
+     "publicado": "2026-10-30",
+     "duracao_min": 18.8,
+     "views": 782625,
+     "thumb": "https://i.ytimg.com/vi/vUbwsjjiQn8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vUbwsjjiQn8"
+    },
+    {
+     "id": "1g5WHLXN5gc",
+     "titulo": "In This World / In This Town Roblox Animation",
+     "publicado": "2026-11-03",
+     "duracao_min": 27.3,
+     "views": 355782,
+     "thumb": "https://i.ytimg.com/vi/1g5WHLXN5gc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=1g5WHLXN5gc"
+    },
+    {
+     "id": "YoopU4P_-NU",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#5)",
+     "publicado": "2026-11-05",
+     "duracao_min": 19.1,
+     "views": 325298,
+     "thumb": "https://i.ytimg.com/vi/YoopU4P_-NU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=YoopU4P_-NU"
+    },
+    {
+     "id": "LHN4qAjzudw",
+     "titulo": "In This World / In This Town Roblox Story Compilation",
+     "publicado": "2026-11-02",
+     "duracao_min": 31.0,
+     "views": 320793,
+     "thumb": "https://i.ytimg.com/vi/LHN4qAjzudw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=LHN4qAjzudw"
+    },
+    {
+     "id": "k42p1EB3y5s",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#8)",
+     "publicado": "2026-11-11",
+     "duracao_min": 21.5,
+     "views": 53488,
+     "thumb": "https://i.ytimg.com/vi/k42p1EB3y5s/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=k42p1EB3y5s"
+    },
+    {
+     "id": "rCcXk1MvWqc",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#9)",
+     "publicado": "2026-11-13",
+     "duracao_min": 20.1,
+     "views": 33955,
+     "thumb": "https://i.ytimg.com/vi/rCcXk1MvWqc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=rCcXk1MvWqc"
+    },
+    {
+     "id": "0MA7vk9kRws",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#1)",
+     "publicado": "2026-10-29",
+     "duracao_min": 17.4,
+     "views": 17666,
+     "thumb": "https://i.ytimg.com/vi/0MA7vk9kRws/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=0MA7vk9kRws"
+    },
+    {
+     "id": "8gslBdSGyTQ",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#7)",
+     "publicado": "2026-11-09",
+     "duracao_min": 19.8,
+     "views": 6007,
+     "thumb": "https://i.ytimg.com/vi/8gslBdSGyTQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8gslBdSGyTQ"
+    }
+   ],
+   "score": 215812,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCyoo8hYM8aGRaVj4xh5prag",
+   "titulo": "Punchmade",
+   "url": "https://www.youtube.com/channel/UCyoo8hYM8aGRaVj4xh5prag",
+   "pais": "US",
+   "criado": "2024-12-05",
+   "primeiro_video": "2026-09-17",
+   "idade_dias": 67,
+   "videos": 3,
+   "views": 14119936,
+   "inscritos": 213000,
+   "media_views": 4706645,
+   "views_por_inscrito": 66.3,
+   "descricao": "",
+   "buscas": [
+    "documentary",
+    "unsolved mysteries"
+   ],
+   "videos_lista": [
+    {
+     "id": "wM5s444sFS0",
+     "titulo": "I Solved The Mystery Of Ryker Webb The “Skin-Walker”",
+     "publicado": "2026-11-12",
+     "duracao_min": 37.9,
+     "views": 10848318,
+     "thumb": "https://i.ytimg.com/vi/wM5s444sFS0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=wM5s444sFS0"
+    },
+    {
+     "id": "c47bSvcKggE",
+     "titulo": "Surviving 24 Hours In A Cult’s Abandoned Cabin…",
+     "publicado": "2026-09-17",
+     "duracao_min": 41.1,
+     "views": 2207611,
+     "thumb": "https://i.ytimg.com/vi/c47bSvcKggE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=c47bSvcKggE"
+    },
+    {
+     "id": "gyz7gFs1Yis",
+     "titulo": "Surviving 24 Hours In A Town That Attacks Black People…",
+     "publicado": "2026-10-11",
+     "duracao_min": 21.4,
+     "views": 1453206,
+     "thumb": "https://i.ytimg.com/vi/gyz7gFs1Yis/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=gyz7gFs1Yis"
+    }
+   ],
+   "score": 210745,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCjkE8MzQU_aql0uTmfNjnGg",
+   "titulo": "Zack Mils",
+   "url": "https://www.youtube.com/channel/UCjkE8MzQU_aql0uTmfNjnGg",
+   "pais": null,
+   "criado": "2026-11-02",
+   "primeiro_video": "2026-11-07",
+   "idade_dias": 15,
+   "videos": 13,
+   "views": 3103654,
+   "inscritos": 26400,
+   "media_views": 238742,
+   "views_por_inscrito": 117.6,
+   "descricao": "I tell stories. One guy. A blue beanie. Every crazy situation you can imagine.\n\nOur main character gets dropped into a different story every episode.\n\nEvery story is told in second person, so YOU are the one living it. Expect cinematic animation, drama, comedy, romance and plot twists you won’t see ",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "oX0MtuZYxa0",
+     "titulo": "What If Your CRUSH Moved Into Your HOUSE?",
+     "publicado": "2026-11-19",
+     "duracao_min": 20.9,
+     "views": 803786,
+     "thumb": "https://i.ytimg.com/vi/oX0MtuZYxa0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=oX0MtuZYxa0"
+    },
+    {
+     "id": "nf8UboltI1g",
+     "titulo": "What If Your CRUSH Become Your TUTOR?",
+     "publicado": "2026-11-16",
+     "duracao_min": 16.7,
+     "views": 585475,
+     "thumb": "https://i.ytimg.com/vi/nf8UboltI1g/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=nf8UboltI1g"
+    },
+    {
+     "id": "vSuN9MnuLKE",
+     "titulo": "What If the Nerd DATED the Head Cheerleader?",
+     "publicado": "2026-11-12",
+     "duracao_min": 13.4,
+     "views": 555357,
+     "thumb": "https://i.ytimg.com/vi/vSuN9MnuLKE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vSuN9MnuLKE"
+    },
+    {
+     "id": "B5NdI5Y6GWo",
+     "titulo": "What If Your CRUSH Was Tokyo's DRIFT QUEEN?",
+     "publicado": "2026-11-20",
+     "duracao_min": 18.9,
+     "views": 443869,
+     "thumb": "https://i.ytimg.com/vi/B5NdI5Y6GWo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=B5NdI5Y6GWo"
+    },
+    {
+     "id": "pXHT9mPkXaI",
+     "titulo": "What If the WILDEST College Party Ever Was YOURS?",
+     "publicado": "2026-11-13",
+     "duracao_min": 15.2,
+     "views": 280302,
+     "thumb": "https://i.ytimg.com/vi/pXHT9mPkXaI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=pXHT9mPkXaI"
+    },
+    {
+     "id": "c2I076Y8BAc",
+     "titulo": "What If Your CRUSH Could See Everything You Dreamed About Her?",
+     "publicado": "2026-11-07",
+     "duracao_min": 10.5,
+     "views": 203373,
+     "thumb": "https://i.ytimg.com/vi/c2I076Y8BAc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=c2I076Y8BAc"
+    },
+    {
+     "id": "1eJo_-BbkWs",
+     "titulo": "What If a NERD Became the STAR QUARTERBACK?",
+     "publicado": "2026-11-21",
+     "duracao_min": 11.9,
+     "views": 131417,
+     "thumb": "https://i.ytimg.com/vi/1eJo_-BbkWs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=1eJo_-BbkWs"
+    },
+    {
+     "id": "bCTxcLUJc7k",
+     "titulo": "What If You Became a FAMOUS Rapper In HIGH SCHOOL?",
+     "publicado": "2026-11-22",
+     "duracao_min": 12.8,
+     "views": 119170,
+     "thumb": "https://i.ytimg.com/vi/bCTxcLUJc7k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=bCTxcLUJc7k"
+    },
+    {
+     "id": "id5CU8DjWSs",
+     "titulo": "What If You Had Two Wives?",
+     "publicado": "2026-11-10",
+     "duracao_min": 29.2,
+     "views": 103740,
+     "thumb": "https://i.ytimg.com/vi/id5CU8DjWSs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=id5CU8DjWSs"
+    },
+    {
+     "id": "vLr5gL6mwLI",
+     "titulo": "End Zone - Zack Mils (Official Video)",
+     "publicado": "2026-11-22",
+     "duracao_min": 1.6,
+     "views": 79235,
+     "thumb": "https://i.ytimg.com/vi/vLr5gL6mwLI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vLr5gL6mwLI"
+    },
+    {
+     "id": "8xZuXZyrKDA",
+     "titulo": "What If You Met Your CRUSH on the Last Day of Vacation?",
+     "publicado": "2026-11-09",
+     "duracao_min": 12.0,
+     "views": 64102,
+     "thumb": "https://i.ytimg.com/vi/8xZuXZyrKDA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8xZuXZyrKDA"
+    },
+    {
+     "id": "yBLpO6xryZk",
+     "titulo": "What If You Had TWO Dates To PROM?",
+     "publicado": "2026-11-18",
+     "duracao_min": 9.7,
+     "views": 63488,
+     "thumb": "https://i.ytimg.com/vi/yBLpO6xryZk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=yBLpO6xryZk"
+    },
+    {
+     "id": "KIYAMaywCsQ",
+     "titulo": "She Is in DANGER… But You're Only LEVEL 1!",
+     "publicado": "2026-11-15",
+     "duracao_min": 12.1,
+     "views": 51528,
+     "thumb": "https://i.ytimg.com/vi/KIYAMaywCsQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=KIYAMaywCsQ"
+    }
+   ],
+   "score": 206910,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCUK7e3Qja5d-muR6b-jiZCw",
+   "titulo": "Questionverse",
+   "url": "https://www.youtube.com/channel/UCUK7e3Qja5d-muR6b-jiZCw",
+   "pais": "US",
+   "criado": "2026-11-02",
+   "primeiro_video": "2026-11-02",
+   "idade_dias": 20,
+   "videos": 14,
+   "views": 3492901,
+   "inscritos": 14000,
+   "media_views": 249492,
+   "views_por_inscrito": 249.5,
+   "descricao": "Hey.. it's questionverse... I just like making questions :')",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "a4IxwLQNj-k",
+     "titulo": "What If You Were Stuck in a Bunker With Your Crush?",
+     "publicado": "2026-11-07",
+     "duracao_min": 21.1,
+     "views": 1264122,
+     "thumb": "https://i.ytimg.com/vi/a4IxwLQNj-k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=a4IxwLQNj-k"
+    },
+    {
+     "id": "Z4HLqdR2iP4",
+     "titulo": "What If You Were the Strongest Person in the World?",
+     "publicado": "2026-11-05",
+     "duracao_min": 14.6,
+     "views": 490592,
+     "thumb": "https://i.ytimg.com/vi/Z4HLqdR2iP4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Z4HLqdR2iP4"
+    },
+    {
+     "id": "AY0DR7bvfXY",
+     "titulo": "What If You And Your Crush Were Alone On A Desert Island?",
+     "publicado": "2026-11-10",
+     "duracao_min": 21.2,
+     "views": 469173,
+     "thumb": "https://i.ytimg.com/vi/AY0DR7bvfXY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=AY0DR7bvfXY"
+    },
+    {
+     "id": "vmhnFVXVVl0",
+     "titulo": "What If You Got Stuck in a Walmart With Your Crush for 30 Days?",
+     "publicado": "2026-11-11",
+     "duracao_min": 20.0,
+     "views": 341309,
+     "thumb": "https://i.ytimg.com/vi/vmhnFVXVVl0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vmhnFVXVVl0"
+    },
+    {
+     "id": "Hyhixgi_1oE",
+     "titulo": "What If You Woke Up 10,000 Years Ago With Your Crush?",
+     "publicado": "2026-11-12",
+     "duracao_min": 23.6,
+     "views": 307394,
+     "thumb": "https://i.ytimg.com/vi/Hyhixgi_1oE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Hyhixgi_1oE"
+    },
+    {
+     "id": "8ItQgbmRh_0",
+     "titulo": "What If You Could Talk To Any Animal?",
+     "publicado": "2026-11-06",
+     "duracao_min": 15.6,
+     "views": 273335,
+     "thumb": "https://i.ytimg.com/vi/8ItQgbmRh_0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8ItQgbmRh_0"
+    },
+    {
+     "id": "eYv4svv3tqY",
+     "titulo": "What If You Became Stronger Every Time Someone Hurt You?",
+     "publicado": "2026-11-09",
+     "duracao_min": 20.1,
+     "views": 156452,
+     "thumb": "https://i.ytimg.com/vi/eYv4svv3tqY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=eYv4svv3tqY"
+    },
+    {
+     "id": "06ukUxfPm90",
+     "titulo": "What If a Caveman Woke Up in Today's World?",
+     "publicado": "2026-11-04",
+     "duracao_min": 11.6,
+     "views": 129117,
+     "thumb": "https://i.ytimg.com/vi/06ukUxfPm90/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=06ukUxfPm90"
+    },
+    {
+     "id": "iQ29qLRIBBo",
+     "titulo": "What If Your CRUSH Became Your ROOMMATE?",
+     "publicado": "2026-11-19",
+     "duracao_min": 22.2,
+     "views": 88157,
+     "thumb": "https://i.ytimg.com/vi/iQ29qLRIBBo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=iQ29qLRIBBo"
+    },
+    {
+     "id": "1oKyfVfl2qQ",
+     "titulo": "What If You Were Trapped in Squid Game With Your Crush?",
+     "publicado": "2026-11-08",
+     "duracao_min": 19.6,
+     "views": 53061,
+     "thumb": "https://i.ytimg.com/vi/1oKyfVfl2qQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=1oKyfVfl2qQ"
+    },
+    {
+     "id": "SJ8r2LOQT50",
+     "titulo": "What If You Got Trapped in an Escape Room With Your Crush?",
+     "publicado": "2026-11-16",
+     "duracao_min": 22.8,
+     "views": 11767,
+     "thumb": "https://i.ytimg.com/vi/SJ8r2LOQT50/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=SJ8r2LOQT50"
+    },
+    {
+     "id": "fnpW0Kion0A",
+     "titulo": "What If You Had 999 Charisma in High School?",
+     "publicado": "2026-11-17",
+     "duracao_min": 21.8,
+     "views": 7439,
+     "thumb": "https://i.ytimg.com/vi/fnpW0Kion0A/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=fnpW0Kion0A"
+    },
+    {
+     "id": "qHwxabTofjM",
+     "titulo": "What If You Knew the Exact Date of Your Death?",
+     "publicado": "2026-11-03",
+     "duracao_min": 8.4,
+     "views": 4923,
+     "thumb": "https://i.ytimg.com/vi/qHwxabTofjM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=qHwxabTofjM"
+    },
+    {
+     "id": "OwHWeRInV9c",
+     "titulo": "What If the Sun Suddenly Disappeared Tomorrow?",
+     "publicado": "2026-11-02",
+     "duracao_min": 12.2,
+     "views": 3943,
+     "thumb": "https://i.ytimg.com/vi/OwHWeRInV9c/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=OwHWeRInV9c"
+    }
+   ],
+   "score": 174645,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 398033
+  },
+  {
+   "id": "UChRH-kn7h8L45CFIEFc-jWA",
+   "titulo": "The Black File",
+   "url": "https://www.youtube.com/channel/UChRH-kn7h8L45CFIEFc-jWA",
+   "pais": "US",
+   "criado": "2025-06-20",
+   "primeiro_video": "2026-11-09",
+   "idade_dias": 14,
+   "videos": 14,
+   "views": 2097592,
+   "inscritos": 2820,
+   "media_views": 149828,
+   "views_por_inscrito": 743.8,
+   "descricao": "Welcome to The Black File — where real crimes are examined beyond the headlines.\n\nWe explore true crime cases through detailed documentaries, careful analysis, and clear explanations of the evidence, motives, timelines, and unanswered questions behind each investigation.\n\nOur goal is not simply to t",
+   "buscas": [
+    "true crime documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "ppd0cYxDrbY",
+     "titulo": "\"Friendly\" Yoga Teacher Has No Idea She's About To Spend 90 Years in Prison",
+     "publicado": "2026-11-16",
+     "duracao_min": 21.4,
+     "views": 894881,
+     "thumb": "https://i.ytimg.com/vi/ppd0cYxDrbY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ppd0cYxDrbY"
+    },
+    {
+     "id": "aWhbPX0k7HM",
+     "titulo": "70-Year-Old Woman Has No Idea Police Are About To Arrest Her For Murder",
+     "publicado": "2026-11-15",
+     "duracao_min": 22.9,
+     "views": 846813,
+     "thumb": "https://i.ytimg.com/vi/aWhbPX0k7HM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=aWhbPX0k7HM"
+    },
+    {
+     "id": "1IBONm7Mf2s",
+     "titulo": "\"Friendly\" Boyfriend Has No Idea He's About To Be Arrested For Killing a 15-Year-Old Girl",
+     "publicado": "2026-11-14",
+     "duracao_min": 22.4,
+     "views": 154366,
+     "thumb": "https://i.ytimg.com/vi/1IBONm7Mf2s/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=1IBONm7Mf2s"
+    },
+    {
+     "id": "2GZJqKU1bVE",
+     "titulo": "“Friendly” Farmer Has No Idea Police Are About to Arrest Her for Murder",
+     "publicado": "2026-11-11",
+     "duracao_min": 20.3,
+     "views": 74614,
+     "thumb": "https://i.ytimg.com/vi/2GZJqKU1bVE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=2GZJqKU1bVE"
+    },
+    {
+     "id": "7NJH7ctJOGU",
+     "titulo": "Killer Girlfriend Has No Idea She’s About To Spend Life Behind Bars",
+     "publicado": "2026-11-13",
+     "duracao_min": 20.2,
+     "views": 60842,
+     "thumb": "https://i.ytimg.com/vi/7NJH7ctJOGU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=7NJH7ctJOGU"
+    },
+    {
+     "id": "6Xid0L_c3Mo",
+     "titulo": "\"Devoted\" Wife Has No Idea She's About to Be Arrested for Murdering Her Husband",
+     "publicado": "2026-11-18",
+     "duracao_min": 23.5,
+     "views": 51877,
+     "thumb": "https://i.ytimg.com/vi/6Xid0L_c3Mo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=6Xid0L_c3Mo"
+    },
+    {
+     "id": "rNcNIipMno8",
+     "titulo": "\"Friendly\" Husband Has No Idea Police Already Have Know His Dark Secret",
+     "publicado": "2026-11-20",
+     "duracao_min": 22.4,
+     "views": 25255,
+     "thumb": "https://i.ytimg.com/vi/rNcNIipMno8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=rNcNIipMno8"
+    },
+    {
+     "id": "pc111actIQQ",
+     "titulo": "Killer Girlfriend Has No Idea the $30 Million Fortune Was a Scam",
+     "publicado": "2026-11-13",
+     "duracao_min": 22.0,
+     "views": 15342,
+     "thumb": "https://i.ytimg.com/vi/pc111actIQQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=pc111actIQQ"
+    },
+    {
+     "id": "s4wXanWKYG8",
+     "titulo": "\"Devoted\" Dentist Has No Idea He's About to Spend Life in Prison for Murdering His Wife",
+     "publicado": "2026-11-17",
+     "duracao_min": 19.0,
+     "views": 12788,
+     "thumb": "https://i.ytimg.com/vi/s4wXanWKYG8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=s4wXanWKYG8"
+    },
+    {
+     "id": "xEW4Ilq6AG0",
+     "titulo": "Killer Stepfather Has No Idea He's About To Be Sent to Prison for Life",
+     "publicado": "2026-11-21",
+     "duracao_min": 21.0,
+     "views": 11188,
+     "thumb": "https://i.ytimg.com/vi/xEW4Ilq6AG0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xEW4Ilq6AG0"
+    },
+    {
+     "id": "TEfIMKHlEKQ",
+     "titulo": "\"Friendly\" Grandma Has No Clue Police Already Know Her Dark Secret",
+     "publicado": "2026-11-19",
+     "duracao_min": 20.8,
+     "views": 7152,
+     "thumb": "https://i.ytimg.com/vi/TEfIMKHlEKQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=TEfIMKHlEKQ"
+    },
+    {
+     "id": "QMJmSqqPx7s",
+     "titulo": "Killer Husband Has No Idea His Own Words Will Cost Him 65 Years",
+     "publicado": "2026-11-09",
+     "duracao_min": 26.1,
+     "views": 7039,
+     "thumb": "https://i.ytimg.com/vi/QMJmSqqPx7s/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=QMJmSqqPx7s"
+    },
+    {
+     "id": "PLYZeSfX2Wo",
+     "titulo": "“Devoted” Husband Has No Idea His Own Alarm System Logged Every Move",
+     "publicado": "2026-11-10",
+     "duracao_min": 24.2,
+     "views": 4857,
+     "thumb": "https://i.ytimg.com/vi/PLYZeSfX2Wo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PLYZeSfX2Wo"
+    },
+    {
+     "id": "S5SrYYRyBss",
+     "titulo": "\"Friendly\" Husband Has No Idea He's About To Spend 40 Years Behind Bars",
+     "publicado": "2026-11-22",
+     "duracao_min": 20.8,
+     "views": 855,
+     "thumb": "https://i.ytimg.com/vi/S5SrYYRyBss/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=S5SrYYRyBss"
+    }
+   ],
+   "score": 149828,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCqz5azvs6eeE_c99UONUncg",
+   "titulo": "Braids Reacts",
+   "url": "https://www.youtube.com/channel/UCqz5azvs6eeE_c99UONUncg",
+   "pais": "US",
+   "criado": "2026-07-30",
+   "primeiro_video": "2026-10-29",
+   "idade_dias": 24,
+   "videos": 6,
+   "views": 3430855,
+   "inscritos": 18500,
+   "media_views": 571809,
+   "views_por_inscrito": 185.5,
+   "descricao": "Explore the world of Roblox through unique shorts that reveal hidden truths. braids Reacts offers engaging content for gamers and story lovers alike. Dive into narratives where characters see shadows and lies, and where wishes and emotions shape experiences. Discover how players navigate through mys",
+   "buscas": [
+    "animated story"
+   ],
+   "videos_lista": [
+    {
+     "id": "34N0adyKxvY",
+     "titulo": "In This Town / In This World Roblox Story Animation Compilation",
+     "publicado": "2026-10-29",
+     "duracao_min": 19.3,
+     "views": 2531644,
+     "thumb": "https://i.ytimg.com/vi/34N0adyKxvY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=34N0adyKxvY"
+    },
+    {
+     "id": "xKlmvSYJp5c",
+     "titulo": "In This Town / In This World Roblox Story Animation Compilation (#3)",
+     "publicado": "2026-11-01",
+     "duracao_min": 23.5,
+     "views": 402899,
+     "thumb": "https://i.ytimg.com/vi/xKlmvSYJp5c/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xKlmvSYJp5c"
+    },
+    {
+     "id": "nR6pF4-3fqU",
+     "titulo": "In This World Roblox Animation Epic Compilation",
+     "publicado": "2026-11-04",
+     "duracao_min": 26.5,
+     "views": 219021,
+     "thumb": "https://i.ytimg.com/vi/nR6pF4-3fqU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=nR6pF4-3fqU"
+    },
+    {
+     "id": "SH5icP5HeFE",
+     "titulo": "In This Town / In This World Roblox Story Compilation",
+     "publicado": "2026-11-03",
+     "duracao_min": 26.7,
+     "views": 173863,
+     "thumb": "https://i.ytimg.com/vi/SH5icP5HeFE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=SH5icP5HeFE"
+    },
+    {
+     "id": "5Xy69fLhTgc",
+     "titulo": "In This Town / In This World Roblox Story Animation Compilation (#5)",
+     "publicado": "2026-11-06",
+     "duracao_min": 23.9,
+     "views": 103723,
+     "thumb": "https://i.ytimg.com/vi/5Xy69fLhTgc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5Xy69fLhTgc"
+    },
+    {
+     "id": "P2gmbeomRKM",
+     "titulo": "In This Town / In This World Roblox Story Animation Compilation (#6)",
+     "publicado": "2026-11-10",
+     "duracao_min": 17.6,
+     "views": 4239,
+     "thumb": "https://i.ytimg.com/vi/P2gmbeomRKM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=P2gmbeomRKM"
+    }
+   ],
+   "score": 142952,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 38469
+  },
+  {
+   "id": "UCE1gBqF9TF6JswS0zsxdGTg",
+   "titulo": "Civil War Fine Print",
+   "url": "https://www.youtube.com/channel/UCE1gBqF9TF6JswS0zsxdGTg",
+   "pais": "US",
+   "criado": "2026-11-07",
+   "primeiro_video": "2026-11-07",
+   "idade_dias": 15,
+   "videos": 12,
+   "views": 1997782,
+   "inscritos": 5430,
+   "media_views": 166481,
+   "views_por_inscrito": 367.9,
+   "descricao": "The American Civil War, and the parts the textbook leaves out. True stories you think you already know, told from an angle you don't normally see: the letters, photographs and court records, who was really there, and what happened after. From Fort Sumter to Appomattox.\n\nDay job by day, storyteller b",
+   "buscas": [
+    "war history"
+   ],
+   "videos_lista": [
+    {
+     "id": "2X3gH8jud_Q",
+     "titulo": "The Pictures of Lincoln's Death You Weren't Supposed to See",
+     "publicado": "2026-11-07",
+     "duracao_min": 14.5,
+     "views": 1398898,
+     "thumb": "https://i.ytimg.com/vi/2X3gH8jud_Q/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=2X3gH8jud_Q"
+    },
+    {
+     "id": "JMe7X3VG_OI",
+     "titulo": "They Stripped the Room Where the Civil War Ended #civilwar #appomattox #history #shorts",
+     "publicado": "2026-11-10",
+     "duracao_min": 3.0,
+     "views": 362436,
+     "thumb": "https://i.ytimg.com/vi/JMe7X3VG_OI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=JMe7X3VG_OI"
+    },
+    {
+     "id": "2DMEEc0u0w4",
+     "titulo": "The Confederate General Who Asked a Union General for Coffee #civilwar #history #shorts",
+     "publicado": "2026-11-12",
+     "duracao_min": 2.2,
+     "views": 121065,
+     "thumb": "https://i.ytimg.com/vi/2DMEEc0u0w4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=2DMEEc0u0w4"
+    },
+    {
+     "id": "Bv8LWAQQlXE",
+     "titulo": "He Led Robert E. Lee's Cavalry. Then He Became a U.S. General",
+     "publicado": "2026-11-13",
+     "duracao_min": 16.9,
+     "views": 73313,
+     "thumb": "https://i.ytimg.com/vi/Bv8LWAQQlXE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Bv8LWAQQlXE"
+    },
+    {
+     "id": "WpAksE_qSIA",
+     "titulo": "The only photograph of Lincoln dead #lincoln #civilwar #history #shorts",
+     "publicado": "2026-11-07",
+     "duracao_min": 2.2,
+     "views": 15995,
+     "thumb": "https://i.ytimg.com/vi/WpAksE_qSIA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WpAksE_qSIA"
+    },
+    {
+     "id": "VT09UITmhfY",
+     "titulo": "He told TV he saw Lincoln shot. Ford's Theatre isn't sure #lincoln #civilwar #history #shorts",
+     "publicado": "2026-11-09",
+     "duracao_min": 2.2,
+     "views": 15641,
+     "thumb": "https://i.ytimg.com/vi/VT09UITmhfY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=VT09UITmhfY"
+    },
+    {
+     "id": "jOVS26IeTAw",
+     "titulo": "Everyone Tells His Civil War Story Wrong",
+     "publicado": "2026-11-10",
+     "duracao_min": 14.6,
+     "views": 9165,
+     "thumb": "https://i.ytimg.com/vi/jOVS26IeTAw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=jOVS26IeTAw"
+    },
+    {
+     "id": "Nj58tH8RyjI",
+     "titulo": "Robert Smalls Sailed a Confederate Gunboat Past Fort Sumter #veteransday #civilwar #shorts",
+     "publicado": "2026-11-11",
+     "duracao_min": 2.7,
+     "views": 9011,
+     "thumb": "https://i.ytimg.com/vi/Nj58tH8RyjI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Nj58tH8RyjI"
+    },
+    {
+     "id": "30S2Zu6Psv0",
+     "titulo": "The Day Pickett's Charge Was Finally Over #civilwar #gettysburg #history #shorts",
+     "publicado": "2026-11-17",
+     "duracao_min": 1.9,
+     "views": 6589,
+     "thumb": "https://i.ytimg.com/vi/30S2Zu6Psv0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=30S2Zu6Psv0"
+    },
+    {
+     "id": "vmLBtw81X1o",
+     "titulo": "Lincoln's Handwritten Rules for a Sword Duel #civilwar #abrahamlincoln #history #shorts",
+     "publicado": "2026-11-22",
+     "duracao_min": 2.2,
+     "views": 5627,
+     "thumb": "https://i.ytimg.com/vi/vmLBtw81X1o/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vmLBtw81X1o"
+    },
+    {
+     "id": "B2uiDnTrvnQ",
+     "titulo": "Pickett's Men Came Back to the Wall: The Gettysburg Reunions, 1887-1938",
+     "publicado": "2026-11-17",
+     "duracao_min": 10.4,
+     "views": 3896,
+     "thumb": "https://i.ytimg.com/vi/B2uiDnTrvnQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=B2uiDnTrvnQ"
+    },
+    {
+     "id": "EsxcMmawbpc",
+     "titulo": "Lincoln Once Accepted a Duel With Broadswords, and a Letter Proves It",
+     "publicado": "2026-11-22",
+     "duracao_min": 15.3,
+     "views": 405,
+     "thumb": "https://i.ytimg.com/vi/EsxcMmawbpc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=EsxcMmawbpc"
+    }
+   ],
+   "score": 133185,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 352928
+  },
+  {
+   "id": "UC-CzFjDbVlqH_mHK-oBy45Q",
+   "titulo": "Nils History",
+   "url": "https://www.youtube.com/channel/UC-CzFjDbVlqH_mHK-oBy45Q",
+   "pais": "US",
+   "criado": "2026-06-30",
+   "primeiro_video": "2026-08-03",
+   "idade_dias": 111,
+   "videos": 13,
+   "views": 14246151,
+   "inscritos": 98100,
+   "media_views": 1095857,
+   "views_por_inscrito": 145.2,
+   "descricao": "here we cover the strange parts of history from all eras\n\nI am just some dude on the internet. I am no scholar, or historian, but I do enjoy a good old weird history video!\n\nlearning as I go\n",
+   "buscas": [
+    "ancient civilizations",
+    "unsolved mysteries"
+   ],
+   "videos_lista": [
+    {
+     "id": "NHSg9NPPRuw",
+     "titulo": "The First Civilization in the World Was Rather Strange",
+     "publicado": "2026-08-03",
+     "duracao_min": 34.9,
+     "views": 3885093,
+     "thumb": "https://i.ytimg.com/vi/NHSg9NPPRuw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=NHSg9NPPRuw"
+    },
+    {
+     "id": "tU8IQmATorI",
+     "titulo": "The Library of Alexandria is Weirder Than You Think",
+     "publicado": "2026-08-31",
+     "duracao_min": 20.5,
+     "views": 2836467,
+     "thumb": "https://i.ytimg.com/vi/tU8IQmATorI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=tU8IQmATorI"
+    },
+    {
+     "id": "o_aRTyiXS40",
+     "titulo": "Ancient Babylon Was Weirder Than You Think (No AI)",
+     "publicado": "2026-10-12",
+     "duracao_min": 53.6,
+     "views": 2367972,
+     "thumb": "https://i.ytimg.com/vi/o_aRTyiXS40/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=o_aRTyiXS40"
+    },
+    {
+     "id": "hxTa3DUlNr0",
+     "titulo": "The Rise and Fall of the World's Most Evil Empire (No AI)",
+     "publicado": "2026-09-14",
+     "duracao_min": 102.1,
+     "views": 1473868,
+     "thumb": "https://i.ytimg.com/vi/hxTa3DUlNr0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=hxTa3DUlNr0"
+    },
+    {
+     "id": "CyR7j7RXN1E",
+     "titulo": "The First Wonders of the World Were Rather Strange (No AI)",
+     "publicado": "2026-11-02",
+     "duracao_min": 37.9,
+     "views": 862141,
+     "thumb": "https://i.ytimg.com/vi/CyR7j7RXN1E/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=CyR7j7RXN1E"
+    },
+    {
+     "id": "MkT314-PRHk",
+     "titulo": "The Phoenicians Were Stranger Than You Think (No AI)",
+     "publicado": "2026-09-21",
+     "duracao_min": 41.2,
+     "views": 644680,
+     "thumb": "https://i.ytimg.com/vi/MkT314-PRHk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=MkT314-PRHk"
+    },
+    {
+     "id": "Hp0remoNbjQ",
+     "titulo": "The Dark History of the World's First Empire",
+     "publicado": "2026-08-12",
+     "duracao_min": 32.2,
+     "views": 559755,
+     "thumb": "https://i.ytimg.com/vi/Hp0remoNbjQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Hp0remoNbjQ"
+    },
+    {
+     "id": "siqQHXBQ_F4",
+     "titulo": "The Sea Peoples Were Weirder Than you Think (No AI)",
+     "publicado": "2026-10-05",
+     "duracao_min": 44.6,
+     "views": 510186,
+     "thumb": "https://i.ytimg.com/vi/siqQHXBQ_F4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=siqQHXBQ_F4"
+    },
+    {
+     "id": "kio8tvrOw9w",
+     "titulo": "Why 536 AD was the worst year to be alive",
+     "publicado": "2026-08-22",
+     "duracao_min": 18.6,
+     "views": 342511,
+     "thumb": "https://i.ytimg.com/vi/kio8tvrOw9w/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=kio8tvrOw9w"
+    },
+    {
+     "id": "2LITK73f-C8",
+     "titulo": "Something Was Very Wrong With Ancient Persia (No AI)",
+     "publicado": "2026-11-09",
+     "duracao_min": 65.9,
+     "views": 339227,
+     "thumb": "https://i.ytimg.com/vi/2LITK73f-C8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=2LITK73f-C8"
+    },
+    {
+     "id": "L_n0hb73c3M",
+     "titulo": "Ancient Humans Were Weirder Than You Think (No AI)",
+     "publicado": "2026-10-26",
+     "duracao_min": 33.0,
+     "views": 228040,
+     "thumb": "https://i.ytimg.com/vi/L_n0hb73c3M/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=L_n0hb73c3M"
+    },
+    {
+     "id": "nbY2qqoSU4g",
+     "titulo": "The Weirdest Unsolved Ancient Mysteries (No AI)",
+     "publicado": "2026-11-16",
+     "duracao_min": 38.9,
+     "views": 186266,
+     "thumb": "https://i.ytimg.com/vi/nbY2qqoSU4g/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=nbY2qqoSU4g"
+    },
+    {
+     "id": "v-ypPN4k8nI",
+     "titulo": "Why Historians Are Still Stunned By This Ancient Device (No AI)",
+     "publicado": "2026-10-19",
+     "duracao_min": 28.2,
+     "views": 92527,
+     "thumb": "https://i.ytimg.com/vi/v-ypPN4k8nI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=v-ypPN4k8nI"
+    }
+   ],
+   "score": 128344,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 470108
+  },
+  {
+   "id": "UCYOfoV7p5AK_fOFqBDRWk_g",
+   "titulo": "DOCS 187",
+   "url": "https://www.youtube.com/channel/UCYOfoV7p5AK_fOFqBDRWk_g",
+   "pais": "US",
+   "criado": "2026-09-22",
+   "primeiro_video": "2026-09-22",
+   "idade_dias": 62,
+   "videos": 18,
+   "views": 7198486,
+   "inscritos": 20100,
+   "media_views": 399915,
+   "views_por_inscrito": 358.1,
+   "descricao": "Welcome to DOCS 187 — where the darkest corners of the human mind come to light.\n\nHere, every case is deconstructed piece by piece through criminal psychology, behavioral analysis, interrogations, and the micro-expressions that change everything. No wasted noise, no empty drama — just gripping true ",
+   "buscas": [
+    "documentary",
+    "true crime documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "o0pKDRi9P68",
+     "titulo": "\"Friendly\" NYPD Officer Has No Idea The $7,000 Hitman She Paid Is An FBI Agent",
+     "publicado": "2026-10-28",
+     "duracao_min": 19.8,
+     "views": 4265467,
+     "thumb": "https://i.ytimg.com/vi/o0pKDRi9P68/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=o0pKDRi9P68"
+    },
+    {
+     "id": "NOFl_FnrCh0",
+     "titulo": "“Friendly” Officer Has No Idea Police Are About To Arrest Him For Murder",
+     "publicado": "2026-09-22",
+     "duracao_min": 46.7,
+     "views": 806258,
+     "thumb": "https://i.ytimg.com/vi/NOFl_FnrCh0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=NOFl_FnrCh0"
+    },
+    {
+     "id": "hPkSuPn12PY",
+     "titulo": "\"Friendly\" Wife Has No Idea The Hitman She Hired Is An Undercover Cop",
+     "publicado": "2026-10-03",
+     "duracao_min": 36.0,
+     "views": 619467,
+     "thumb": "https://i.ytimg.com/vi/hPkSuPn12PY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=hPkSuPn12PY"
+    },
+    {
+     "id": "J0GWpyReInI",
+     "titulo": "“Friendly” CHP Captain Has No Idea The FBI Is Tracking Her Hitman’s Burner Phone",
+     "publicado": "2026-11-09",
+     "duracao_min": 22.8,
+     "views": 514309,
+     "thumb": "https://i.ytimg.com/vi/J0GWpyReInI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=J0GWpyReInI"
+    },
+    {
+     "id": "54m8rjpCAlE",
+     "titulo": "Corrupt Cop Has No Idea DNA On His Zipper Just Exposed His Crime",
+     "publicado": "2026-10-06",
+     "duracao_min": 43.6,
+     "views": 267847,
+     "thumb": "https://i.ytimg.com/vi/54m8rjpCAlE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=54m8rjpCAlE"
+    },
+    {
+     "id": "U71bxQrDgEE",
+     "titulo": "“‘Friendly’ LAPD Detective Has No Idea She’s Being Interrogated For Her Own Murder Case",
+     "publicado": "2026-09-24",
+     "duracao_min": 26.6,
+     "views": 114591,
+     "thumb": "https://i.ytimg.com/vi/U71bxQrDgEE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=U71bxQrDgEE"
+    },
+    {
+     "id": "BnvSu7PxZ_4",
+     "titulo": "Cop Caught Up In His Act Has No Idea His Victim's Recorded Call Exposed His Murder",
+     "publicado": "2026-10-11",
+     "duracao_min": 31.8,
+     "views": 111369,
+     "thumb": "https://i.ytimg.com/vi/BnvSu7PxZ_4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=BnvSu7PxZ_4"
+    },
+    {
+     "id": "EsW6Dg1BaS4",
+     "titulo": "“Friendly” Officer Disguises His Wife’s Murder As An Accident Has No Idea She Wrote It Down",
+     "publicado": "2026-11-01",
+     "duracao_min": 25.2,
+     "views": 110956,
+     "thumb": "https://i.ytimg.com/vi/EsW6Dg1BaS4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=EsW6Dg1BaS4"
+    },
+    {
+     "id": "-WimvIWgOFk",
+     "titulo": "\"Friendly\" Police Captain Busted Stealing $25K from Disabled Detective",
+     "publicado": "2026-11-12",
+     "duracao_min": 34.7,
+     "views": 105511,
+     "thumb": "https://i.ytimg.com/vi/-WimvIWgOFk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=-WimvIWgOFk"
+    },
+    {
+     "id": "giF2mlFxAXU",
+     "titulo": "Former 'American Idol' Has No Idea 100,000 Deleted Texts Just Exposed Why He Killed His Wife",
+     "publicado": "2026-10-08",
+     "duracao_min": 32.6,
+     "views": 90929,
+     "thumb": "https://i.ytimg.com/vi/giF2mlFxAXU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=giF2mlFxAXU"
+    },
+    {
+     "id": "YC1ZXUGnVkg",
+     "titulo": "“Friendly” Ex Jail Officer Has No Idea The Hitman She Hired To Kill 2 People Is An Undercover Cop",
+     "publicado": "2026-11-05",
+     "duracao_min": 26.3,
+     "views": 74075,
+     "thumb": "https://i.ytimg.com/vi/YC1ZXUGnVkg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=YC1ZXUGnVkg"
+    },
+    {
+     "id": "ih_QhMy-hWw",
+     "titulo": "Patrol Officer Has No Idea DNA Under The Victim's Nails Just Exposed The Murder Of His Lover",
+     "publicado": "2026-09-29",
+     "duracao_min": 42.4,
+     "views": 47841,
+     "thumb": "https://i.ytimg.com/vi/ih_QhMy-hWw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ih_QhMy-hWw"
+    },
+    {
+     "id": "5i_Ke4ZcCyk",
+     "titulo": "\"Jolly\" 77-Year-Old Grandpa Has No Idea Police Just Connected His DNA to a 1974 Murder",
+     "publicado": "2026-10-23",
+     "duracao_min": 47.3,
+     "views": 23036,
+     "thumb": "https://i.ytimg.com/vi/5i_Ke4ZcCyk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5i_Ke4ZcCyk"
+    },
+    {
+     "id": "unnpplCxYBg",
+     "titulo": "Former US Navy Has No Idea His Victim's Scratches Exposed Him For Murder",
+     "publicado": "2026-10-17",
+     "duracao_min": 47.2,
+     "views": 18763,
+     "thumb": "https://i.ytimg.com/vi/unnpplCxYBg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=unnpplCxYBg"
+    },
+    {
+     "id": "PAjHvBnlDks",
+     "titulo": "Corrupt Cop Unaware Cameras Caught Her Escape Plan With Killer Lover",
+     "publicado": "2026-11-15",
+     "duracao_min": 29.9,
+     "views": 14310,
+     "thumb": "https://i.ytimg.com/vi/PAjHvBnlDks/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PAjHvBnlDks"
+    },
+    {
+     "id": "QkOvT6BVuoE",
+     "titulo": "\"Playful\" Girlfriend Has No Idea Her Own Phone Recorded Everything",
+     "publicado": "2026-10-14",
+     "duracao_min": 35.5,
+     "views": 12600,
+     "thumb": "https://i.ytimg.com/vi/QkOvT6BVuoE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=QkOvT6BVuoE"
+    },
+    {
+     "id": "p34cdB3xZRA",
+     "titulo": "“Friendly” Dallas Officer Has No Idea 2 Deleted Texts Would Expose Her As A Killer",
+     "publicado": "2026-11-17",
+     "duracao_min": 24.8,
+     "views": 11783,
+     "thumb": "https://i.ytimg.com/vi/p34cdB3xZRA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=p34cdB3xZRA"
+    },
+    {
+     "id": "B6MmGhzxP6s",
+     "titulo": "DOCS 187 Has Joined !",
+     "publicado": "2026-10-06",
+     "duracao_min": 1.3,
+     "views": 2746,
+     "thumb": "https://i.ytimg.com/vi/B6MmGhzxP6s/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=B6MmGhzxP6s"
+    },
+    {
+     "id": "6wPH_N5-WCk",
+     "titulo": "Cop Has No Idea His “Stolen” Glock Was Found Near Missing Teen’s Body",
+     "publicado": "2026-11-21",
+     "duracao_min": 36.6,
+     "views": 1680,
+     "thumb": "https://i.ytimg.com/vi/6wPH_N5-WCk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=6wPH_N5-WCk"
+    }
+   ],
+   "score": 116105,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 128045
+  },
+  {
+   "id": "UCQ8rNg4xGQRV3qt87Y-3aYw",
+   "titulo": "Gloam",
+   "url": "https://www.youtube.com/channel/UCQ8rNg4xGQRV3qt87Y-3aYw",
+   "pais": "US",
+   "criado": "2025-11-12",
+   "primeiro_video": "2026-10-30",
+   "idade_dias": 23,
+   "videos": 6,
+   "views": 2653252,
+   "inscritos": 8500,
+   "media_views": 442208,
+   "views_por_inscrito": 312.1,
+   "descricao": "Documentaries about the darker side of history.. Wars, crimes, politics, hacks, and whatever else I can't stop reading about..\n\nI rebuild the places in 3D so you can see where it happened. I'll get things wrong sometimes, so my sources are always in the description..\n\nNew videos when they're done, n",
+   "buscas": [
+    "documentary",
+    "history explained"
+   ],
+   "videos_lista": [
+    {
+     "id": "5eZj1OnC1C4",
+     "titulo": "How Binance Lost $6,300,000,000 in One Night",
+     "publicado": "2026-10-30",
+     "duracao_min": 14.9,
+     "views": 2575638,
+     "thumb": "https://i.ytimg.com/vi/5eZj1OnC1C4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=5eZj1OnC1C4"
+    },
+    {
+     "id": "xSY1EB9nQvE",
+     "titulo": "How 9 People Died: Inside the Florida Learjet 60 Before The Crash",
+     "publicado": "2026-11-03",
+     "duracao_min": 10.8,
+     "views": 33849,
+     "thumb": "https://i.ytimg.com/vi/xSY1EB9nQvE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xSY1EB9nQvE"
+    },
+    {
+     "id": "UBkfCKphPsU",
+     "titulo": "Could Any Pilot Have Saved This Learjet 60 Once Its Tail Broke?",
+     "publicado": "2026-11-05",
+     "duracao_min": 19.4,
+     "views": 31733,
+     "thumb": "https://i.ytimg.com/vi/UBkfCKphPsU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=UBkfCKphPsU"
+    },
+    {
+     "id": "BXzkX3pQ-Vk",
+     "titulo": "China's Impossible Mission to Replace Nvidia",
+     "publicado": "2026-11-20",
+     "duracao_min": 22.8,
+     "views": 7427,
+     "thumb": "https://i.ytimg.com/vi/BXzkX3pQ-Vk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=BXzkX3pQ-Vk"
+    },
+    {
+     "id": "rUEKidsGci4",
+     "titulo": "Was Jensen Huang Caught by US Intelligence?",
+     "publicado": "2026-11-14",
+     "duracao_min": 15.3,
+     "views": 4376,
+     "thumb": "https://i.ytimg.com/vi/rUEKidsGci4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=rUEKidsGci4"
+    },
+    {
+     "id": "08WIQrzY1bI",
+     "titulo": "D.B. Cooper Still Hasn’t Been Found After 55 Years",
+     "publicado": "2026-11-13",
+     "duracao_min": 16.8,
+     "views": 1556,
+     "thumb": "https://i.ytimg.com/vi/08WIQrzY1bI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=08WIQrzY1bI"
+    }
+   ],
+   "score": 115359,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 19846
+  }
+ ]
+}
