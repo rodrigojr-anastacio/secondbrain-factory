@@ -1,56 +1,43 @@
-# Teste: cenas do Dossier direto na Gemini API (AI Studio) — 23/11/2026
+# Teste: cenas do Dossier direto na Gemini API (AI Studio) — 23/11/2026 (2ª tentativa)
 
-**Resultado: BLOQUEADO, nenhuma imagem gerada, US$ 0 gasto.** A chave de teste (`~/.segredos/gemini-teste.env`) é de um projeto **sem faturamento (Free Tier)**, e a Gemini API **não tem free tier para imagem** (limite 0). `canal.yaml`, bíblia, `tools/` e pipeline não foram alterados.
+**Resultado: `gemini-nano-banana-2.1` em modo padrão é o melhor (6/6, sem moldura, sem letras, estilo e paleta do canal). Batch funcionou, mas levou 34,8 min e bloqueou 4/6 no filtro.** Custo do teste: **US$ 0,78** (teto US$ 1), lançado em `financas.consumo` (fornecedor "Google Gemini API", 4 linhas). `canal.yaml`, bíblia, `tools/` e pipeline não foram alterados.
 
-## O que aconteceu
-| Chamada | Resposta |
-|---|---|
-| `gemini-2.5-flash-image` (A), 6 cenas, `generateContent` | **HTTP 429** `RESOURCE_EXHAUSTED`: `generate_content_free_tier_requests, limit: 0` (por minuto e por dia) e `free_tier_input_token_count, limit: 0`; "Please retry in 18h56m" |
-| `gemini-3.1-flash-image` (B), 6 cenas | idem (429, free tier, limite 0) |
-| `gemini-nano-banana-2.1` e `gemini-3.1-flash-lite-image` (sonda de 1 chamada) | idem |
-| Batch (`batchGenerateContent`, nano-banana-2.1, 1 pedido) | **HTTP 400 `FAILED_PRECONDITION`** ("Precondition check failed"): Batch exige projeto pago |
-| `models.list` | funciona e lista os modelos de imagem (por isso parecia ok: listar não exige faturamento) |
+A 1ª tentativa (manhã) parou em `BLOQUEIO.md` (projeto Free Tier, limite 0). Esta usou `~/.segredos/gemini.env` (projeto com faturamento). Mesmas 6 cenas da amostra Codex (`cenas-amostra.json`, do `videos/015-gru/cenas.json`), prompt da cena + `visual.estilo_prompt` do `canal.yaml`, **sem refs** (o Dossier não usa refs no fal: `fal-ai/nano-banana` texto→imagem), 16:9.
 
-Cada cena tentou 4× com espera crescente (15/30/45/60 s, ~151 s por cena): 24 respostas 429 por modelo, todas por cota free tier = 0, não por limite de taxa de conta paga. Logs: `A-2.5-flash-image/gemini_log.jsonl`, `B-3.1-flash-image/gemini_log.jsonl`, `A.log`, `B.log`.
+Grade: `comparativo.jpg` (fal original × A × B × C nano-banana-2.1 × Codex; jpg fora do git, fica na VPS).
 
-Observação lateral: `gemini-2.5-flash` (texto) responde 404 "no longer available to new users" → o projeto é tratado como **usuário novo**; o `gemini-2.5-flash-image` ainda aceita chamadas (a doc o marca como legado, desligamento em 15/03/2027).
+## Números
+| Modelo (modo) | Chamadas | OK | IMAGE_SAFETY | Moldura/faixa (detector) | Letras | s/img | US$/img ok | 200 img/vídeo |
+|---|---|---|---|---|---|---|---|---|
+| A `gemini-2.5-flash-image` (= nano-banana da fal) | 8 (6 + 2 retries) | 5/6 | 3 (I002 1×, I056 2×) | **3/5** (I001, I012 moldura clara; I115 faixa preta) | "PASSPORT" no I008 | 7,8 | 0,039 | ~US$ 7,80 + ~20% refação |
+| B `gemini-3.1-flash-image` 1K | 8 (6 + 2) | 4/6 | 4 (I002 2×, I056, I001 1×) | 0 | não | 13,6 | 0,069 | ~US$ 13,70 + muitos bloqueios |
+| **C `gemini-nano-banana-2.1` 1K** | 6 | **6/6** | 0 | 0 | não (só rabiscos ilegíveis) | 19,7 | **0,045** (≈0,034 imagem + thinking) | **~US$ 8,90** |
+| C em **Batch** | 6 | 2/6 | **4** (I001, I002, I008, I056) | 0 | não | 34,8 min o lote | 0,021 | ~US$ 4,30 (se não bloqueasse) |
+| fal nano-banana (hoje) | — | — | — | ~15–25% moldura | às vezes | — | 0,039 | US$ 7,80 |
+| Codex (Plus) | — | 6/6 | — | — | não | ~60–90 | 0 | 0 |
 
-## O que o Rodrigo precisa fazer (2 min)
-No AI Studio (https://aistudio.google.com/apikey → projeto da chave → "Set up billing"), **ativar o faturamento** (conta de faturamento do Google Cloud com cartão) do projeto da chave, ou criar já o projeto próprio do Dossier com faturamento e gerar a chave nele. Depois é só rodar de novo (comandos abaixo); o protótipo está pronto.
+Sem nenhum 429 (paralelo 2, nenhum limite de taxa encontrado). Bloqueio falhado custa ~US$ 0,0001 (só o prompt).
 
-## Como rodar quando o faturamento estiver ativo (teto ~US$ 1)
+## Leitura visual (comparativo.jpg)
+- **A (2.5-flash-image):** idêntico ao fal (é o mesmo modelo): traço limpo, paleta certa, mas repete os defeitos conhecidos: moldura/letterbox em metade das imagens e texto inventado ("PASSPORT"). Bloqueia retrato de pessoa real (Gurevich) e a van com antena.
+- **B (3.1-flash-image / NB2):** quando sai, é bonito e detalhado, mas bloqueia demais (I001 rua de Bruxelas 1941 e I002 bloqueados na 1ª; I056 sempre) e custa 1,7× a fal. Descartado.
+- **C (nano-banana-2.1):** o mais próximo da bíblia (tinta preta forte, slate/oliva/sépia, vermelho pontual), mais detalhe de época que o fal, enquadramento cheio sem moldura, mapa I012 limpo. Ficou um pouco mais "ilustração detalhada/escura" que o fal (menos chapado) e na linha do Codex. Passou todas as cenas no modo padrão, inclusive I056 e o retrato do I002.
+- **Batch com o mesmo modelo e o mesmo prompt bloqueou 4/6**: o filtro no Batch parece mais rígido (ou sem o thinking dinâmico que ajusta o prompt). Hipótese, 1 lote só.
+
+## Recomendação
+1. **Trocar a fal por `gemini-nano-banana-2.1` em modo padrão (1K, 16:9)** para o Dossier: ~US$ 0,045/img ≈ **US$ 9/vídeo de 200 imagens**, ~20 s/img (paralelo 4 → ~17 min por vídeo), sem moldura e sem letras nesta amostra (economiza o recorte e as refações do fal). Testar `--thinking minimal` no 1º lote real (pode cair para ~US$ 0,034/img = US$ 6,70).
+2. **Batch não vale agora:** metade do preço, mas 35 min para 6 imagens e 4/6 bloqueadas. Se for testado de novo, só como 1º passo noturno com fallback automático: o que vier bloqueado/atrasado vai para o modo padrão.
+3. Pipeline (decisão do Rodrigo, não feito aqui): `tools/img_gemini.py` com o mesmo contrato do `img_fal.py` (lê `canal.yaml`, trava `.img.lock` por pasta, pula prontas, custo em `financas.consumo` com fornecedor "Google Gemini API" e `ref_id` do vídeo, via `usageMetadata`), `visual.gerador: gemini` + `modelo: gemini-nano-banana-2.1` + `gerador_fallback: codex`; em IMAGE_SAFETY, tentar 1× de novo e depois cair no Codex. Detector `checa_imagens.py` continua no fim. Criar o projeto/chave próprios do Dossier (o Rodrigo).
+4. Preço oficial lido em 23/11/2026 (aistudio.google.com/docs/pricing): 2.5-flash-image US$ 0,039/img (Batch 0,0195); 3.1-flash-image 1K US$ 0,067 (+ entrada); nano-banana-2.1 1K US$ 0,0336/img + thinking a US$ 7,50/M (Batch metade).
+
+## Como reproduzir
 ```
 cd canais/dossie-es/testes/gemini-2026-11-23
-set -a; . ~/.segredos/gemini-teste.env; set +a
+set -a; . ~/.segredos/gemini.env; set +a
 P=~/workspace/fabrica-youtube/tools/.venv/bin/python
-rm -rf A-* B-*        # logs desta tentativa
-$P gemini_img.py padrao gemini-2.5-flash-image cenas-amostra.json A-2.5-flash-image          # ~US$ 0,24
-$P gemini_img.py padrao gemini-3.1-flash-image cenas-amostra.json B-3.1-flash-image --size 1K # ~US$ 0,40
-$P gemini_img.py padrao gemini-nano-banana-2.1 cenas-amostra.json C-nb21 --size 1K --thinking minimal  # ~US$ 0,20 (opcional)
-$P gemini_img.py batch  <melhor> cenas-amostra.json batch-<melhor> --size 1K --espera-min 40   # ~US$ 0,10–0,12
+$P gemini_img.py padrao gemini-nano-banana-2.1 cenas-amostra.json C-nano-banana-2.1 --size 1K
+$P gemini_img.py batch  gemini-nano-banana-2.1 cenas-amostra.json batch-nano-banana-2.1 --size 1K --espera-min 40
+# retomar lote já criado: --nome batches/<id>
+$P ../../videos/015-gru/tools/checa_imagens.py C-nano-banana-2.1
 ```
-Depois: `checa_imagens.py` (de `videos/015-gru/tools/`) nas pastas, grade `comparativo.jpg` (fal × A × B × Codex) e os números no fim deste arquivo.
-
-## Protótipo `gemini_img.py` (pronto, não testado com imagem real)
-- REST `v1beta/models/<m>:generateContent`, header `x-goog-api-key` (chave nunca impressa nem gravada), `responseModalities: ["IMAGE"]`, `imageConfig.aspectRatio "16:9"` + `imageSize "1K"` (exceto 2.5-flash-image, que não aceita tamanho), `thinkingConfig` opcional.
-- Prompt = prompt da cena + `visual.estilo_prompt` do `canal.yaml` (mesmo contrato do `img_fal.py`); `--refs` (até 3) inline como referência de estilo com instrução antes do prompt.
-- Detecta bloqueio (`promptFeedback.blockReason`, `finishReason` sem imagem) e imagem preta/vazia; reescala para 1536×864 JPEG; mede tempo; custo por imagem = `usageMetadata` × preço oficial.
-- Batch: pedidos inline com `metadata.key` = id da cena, poll a cada 60 s até `--espera-min`, salva `batch_resumo.json`.
-
-## Preços oficiais (aistudio.google.com/docs/pricing, lido em 23/11/2026) e projeção para ~200 imagens/vídeo
-| Modelo | US$/img padrão | US$/img Batch | 200 img padrão | 200 img Batch |
-|---|---|---|---|---|
-| `gemini-2.5-flash-image` (= nano-banana da fal) | 0,039 | 0,0195 | 7,80 | 3,90 |
-| `gemini-3.1-flash-image` (Nano Banana 2) 1K | 0,067 | sem Batch listado | 13,40 | — |
-| `gemini-nano-banana-2.1` 1K | 0,0336 (+ thinking a US$ 7,50/M) | 0,0168 | 6,72 | 3,36 |
-| `gemini-3.1-flash-lite-image` 1K | 0,0336 | 0,0168 | 6,72 | 3,36 |
-| fal nano-banana (hoje) | 0,039 | — | 7,80 | — |
-| Codex (Plus) | 0 | — | 0 | — |
-
-## Recomendação (provisória, sem imagem para comparar)
-1. Ativar faturamento no projeto (decisão do Rodrigo) e rodar o teste acima (~US$ 1).
-2. Expectativa: **2.5-flash-image** dá o mesmo visual da fal pelo mesmo preço (é o mesmo modelo) e em **Batch** sai pela metade (~US$ 3,90/vídeo); o **nano-banana-2.1** é o candidato mais barato e mais novo (~US$ 3,36/vídeo em Batch), mas precisa provar que segura a paleta dessaturada da bíblia. O 3.1-flash-image (NB2) custa ~1,7× a fal e não tem Batch: só vale se a qualidade for muito superior.
-3. Se aprovar: `tools/img_gemini.py` com o mesmo contrato do `img_fal.py` (trava por pasta, custo em `financas.consumo` com fornecedor "Google Gemini API"), `visual.gerador: gemini` + `gerador_fallback: codex`, e modo Batch para a etapa 2 noturna (submete tudo de uma vez, poll; o Batch promete até 24 h, então precisa de fallback padrão se não voltar em ~1 h).
-
-## Custo deste teste
-US$ 0 (todas as chamadas recusadas antes da geração; nada registrado em `financas.consumo`).
+Logs por imagem (uso, custo, tempo, erro): `*/gemini_log.jsonl`; lote: `batch-nano-banana-2.1/batch_resumo.json`.

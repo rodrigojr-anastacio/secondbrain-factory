@@ -1,7 +1,7 @@
 """Protótipo (TESTE, 23/11/2026): cenas do Dossier direto na Gemini API (AI Studio), modo padrão ou Batch.
 
 Uso (a partir de qualquer pasta; Python do tools/.venv):
-  set -a; . ~/.segredos/gemini-teste.env; set +a
+  set -a; . ~/.segredos/gemini.env; set +a
   python gemini_img.py padrao <modelo> <cenas.json> <saida> [--size 1K] [--refs a.jpg,b.jpg] [--paralelo 2] [--thinking minimal]
   python gemini_img.py batch  <modelo> <cenas.json> <saida> [--size 1K] [--refs ...] [--espera-min 40]
 - Prompt = prompt da cena + ". " + visual.estilo_prompt do canais/dossie-es/canal.yaml (mesmo contrato do tools/img_fal.py).
@@ -45,7 +45,7 @@ REF_INSTR = ("Use the attached reference images ONLY as a style reference (ink l
 def chave():
     k = os.environ.get("GEMINI_API_KEY")
     if not k:
-        sys.exit("GEMINI_API_KEY ausente (carregue ~/.segredos/gemini-teste.env)")
+        sys.exit("GEMINI_API_KEY ausente (carregue ~/.segredos/gemini.env)")
     return k
 
 
@@ -156,14 +156,25 @@ def batch(a, cenas, est, refs):
     reqs = [{"request": requisicao(a.modelo, c, est, refs, a.size, a.thinking), "metadata": {"key": c["id"]}} for c in cenas]
     corpo = {"batch": {"display_name": f"dossie-teste-{int(time.time())}", "input_config": {"requests": {"requests": reqs}}}}
     t0 = time.time()
-    r = requests.post(f"{BASE}/models/{a.modelo}:batchGenerateContent", headers=hdr(), json=corpo, timeout=300)
-    if r.status_code != 200:
-        sys.exit(f"batch: HTTP {r.status_code}: {r.text[:300]}")
-    nome = r.json()["name"]
-    print("batch criado:", nome, flush=True)
+    if a.nome:  # retoma um lote já criado (t0 = createTime do lote)
+        nome = a.nome
+        g = requests.get(f"{BASE}/{nome}", headers=hdr(), timeout=60).json()
+        ct = (g.get("metadata") or {}).get("createTime", "")
+        if ct:
+            from datetime import datetime
+            t0 = datetime.fromisoformat(ct[:19] + "+00:00").timestamp()
+    else:
+        r = requests.post(f"{BASE}/models/{a.modelo}:batchGenerateContent", headers=hdr(), json=corpo, timeout=300)
+        if r.status_code != 200:
+            sys.exit(f"batch: HTTP {r.status_code}: {r.text[:300]}")
+        nome = r.json()["name"]
+    print("batch:", nome, flush=True)
     estado, op = None, {}
+    primeiro = True
     while time.time() - t0 < a.espera_min * 60:
-        time.sleep(60)
+        if not primeiro:
+            time.sleep(60)
+        primeiro = False
         g = requests.get(f"{BASE}/{nome}", headers=hdr(), timeout=60)
         if g.status_code != 200:
             print("poll HTTP", g.status_code, flush=True)
@@ -220,6 +231,7 @@ def main():
     ap.add_argument("--paralelo", type=int, default=2)
     ap.add_argument("--thinking", default=None)
     ap.add_argument("--espera-min", type=float, default=40)
+    ap.add_argument("--nome", default=None, help="batches/<id> já criado: só acompanha e coleta")
     a = ap.parse_args()
     os.makedirs(a.saida, exist_ok=True)
     refs = [r for r in a.refs.split(",") if r][:3]

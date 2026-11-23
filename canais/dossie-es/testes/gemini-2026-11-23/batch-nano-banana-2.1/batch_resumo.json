@@ -1,0 +1,10 @@
+{
+ "modo": "batch",
+ "modelo": "gemini-nano-banana-2.1",
+ "batch": "batches/q058xzj1dypttnsjnq9p05mc96kfcmb3rago",
+ "estado": "BATCH_STATE_SUCCEEDED",
+ "minutos": 34.8,
+ "refs": 0,
+ "ok": 2,
+ "custo_usd": 0.0432
+}
