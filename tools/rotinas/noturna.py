@@ -8,7 +8,7 @@ dom → seg ou qua; seg → qua ou sex; ter → sex ou sáb.
 
 Subcomandos (tools/rotinas/noturna.sh <sub> …):
   planejar [--noite AAAA-MM-DD] [--dry-run] [--forcar] [--sem-telegram] [--canal X]
-        20:00 (só em noite de produção). Pré-voo (fal/Fish/Runpod, Max semanal, Drive, disco) → pauta: por canal,
+        20:00 (só em noite de produção). Pré-voo (Gemini/fal/Fish/Runpod, Max semanal, Drive, disco) → pauta: por canal,
         o item agendado para esta noite (senão o 1º agendado/proposto do backlog vivo, ordem da nota) →
         youtube.videos + pasta + briefs ETAPA1/2 (modelos BRIEF-lote-MODELO-*) → fila (e1 Opus, e2 Sonnet
         --depende-de, prazo 07:00) → backlog em_producao. Falta de recurso: produz o que couber, na ordem do
@@ -48,7 +48,7 @@ PADRAO = {
     "INICIO": "2026-11-15",         # 1ª noite de produção (Rodrigo: começa dom 15/11 20:00); antes disso o timer não faz nada
     "PRAZO_HORA": "07:00",
     "LIMITE_SUBSTITUTO": "03:30",   # depois disso, embalagem reprovada não ganha substituto na mesma noite
-    "FOLGA_FAL": "5", "FOLGA_FISH": "2", "FOLGA_RUNPOD": "1",
+    "FOLGA_FAL": "5", "FOLGA_FISH": "2", "FOLGA_RUNPOD": "1", "FOLGA_GEMINI": "2",
     "DISCO_MIN_GB": "8", "DISCO_POR_VIDEO_GB": "4",
     "MAX_SEMANA_CORTE": "90",       # % semanal do Max: acima disso produz no máx. MAX_SEMANA_CORTE_N vídeos
     "MAX_SEMANA_CORTE_N": "2", "MAX_SEMANA_PARAR": "97",
@@ -56,22 +56,24 @@ PADRAO = {
 }
 # Necessidade estimada por vídeo (US$), de financas.consumo (média dos vídeos 013+ em 14/11/2026) + reserva.
 NECESSIDADE = {
-    "historia-ptbr": {"fal.ai": 2.0, "Fish Audio": 0.8, "Runpod": 0.5},   # Codex US$ 0; fal = reserva do fallback
-    "dossie-es": {"fal.ai": 9.5, "Fish Audio": 0.4, "Runpod": 0.5},
+    # 23/11/2026: historia-ptbr e dossie-es geram pelo Codex (US$ 0); a reserva do fallback passou da fal (sem saldo) para a
+    # Gemini API (tools/img_gemini.py, ~US$ 0,05/img): US$ 2 ≈ 40 imagens de fallback por vídeo.
+    "historia-ptbr": {"Google Gemini API": 2.0, "Fish Audio": 0.8, "Runpod": 0.5},
+    "dossie-es": {"Google Gemini API": 2.0, "Fish Audio": 0.4, "Runpod": 0.5},   # até 015: fal 9,5 (nano-banana)
     "lugares-guerra-en": {"fal.ai": 1.0, "Fish Audio": 0.5, "Runpod": 0.5},  # IA só na thumb
     "em-relevo": {"Runpod": 0.6},                                           # sem IA de cena; voz ElevenLabs
 }
 TETO = {"historia-ptbr": 8, "dossie-es": 12, "lugares-guerra-en": 4, "em-relevo": 3}
-FOLGA_DE = {"fal.ai": "FOLGA_FAL", "Fish Audio": "FOLGA_FISH", "Runpod": "FOLGA_RUNPOD"}
+FOLGA_DE = {"fal.ai": "FOLGA_FAL", "Fish Audio": "FOLGA_FISH", "Runpod": "FOLGA_RUNPOD", "Google Gemini API": "FOLGA_GEMINI"}
 
 REGRAS_CANAL = {
     "historia-ptbr": """- Canal **História em minutos** (pt-BR), molde **History in Minutes, bíblia v2**: narrativa contínua, eras ligadas por causa→consequência ("mas… então…"), fio condutor, "guarde isso" pagos depois; bonequinhos de cabeça redonda. Bíblia: `canais/historia-ptbr/biblia/` (prevalece).
 - **Não leia `canais/dossie-es/`** nem copie nada de outro canal. Referência de código/estrutura: SOMENTE os últimos vídeos deste canal (`videos/007-russia` em diante, checklist v2 com nota).
-- Imagens **pelo Codex** (`canal.yaml` `visual.gerador: codex`, fallback fal automático; outro job cuida do gerador: **não edite** `canal.yaml`, `tools/img_*`, `skills/imagens`, `skills/thumbnail`). Nos prompts de época, diga o que **não** pode aparecer (o Codex inventa marcos fora de época; `conhecimento/anti-padroes.md` §3d). Voz Fish drama-3 (`canal.yaml`).
+- Imagens **pelo Codex** (`canal.yaml` `visual.gerador: codex`, fallback **Gemini** automático, `tools/img_gemini.py`, desde 23/11/2026: a fal está sem saldo; outro job cuida do gerador: **não edite** `canal.yaml`, `tools/img_*`, `skills/imagens`, `skills/thumbnail`). Nos prompts de época, diga o que **não** pode aparecer (o Codex inventa marcos fora de época; `conhecimento/anti-padroes.md` §3d). Voz Fish drama-3 (`canal.yaml`).
 - Feche no presente com 1 frase neutra. Guerra/regimes: seriedade e neutralidade factual, sem imagens gráficas (política de anúncios).""",
     "dossie-es": """- Canal **Dossier en Minutos** (espanhol), molde **Archive in Minutes**: capítulos "EXPEDIENTE N", hook por anedota, carimbos e SFX nas transições; graphic novel em tinta. Bíblia: `canais/dossie-es/biblia/` (prevalece).
 - **Não leia `canais/historia-ptbr/`** nem copie nada de outro canal. Referência de código/estrutura: SOMENTE os últimos vídeos deste canal (`videos/007-ss`, `008-inquisicion`).
-- Imagens pela fal conforme `canal.yaml` (nano-banana; tamanho máximo do modelo; cobra por megapixel; filtro devolve preta sem erro; moldura em ~25%: detector do 001-cia). Voz Fish (`canal.yaml`).
+- Imagens **pelo Codex** desde o MKUltra (23/11/2026, teste do Rodrigo: vídeo inteiro, cenas e thumbs; `canal.yaml` `visual.gerador: codex` com 3 refs do 015 + `ref_instrucao`; fallback automático **Gemini** `gemini-nano-banana-2.1` via `tools/img_gemini.py`; a fal está sem saldo: **não use `img_fal.py`**). Comando e lotes em `skills/imagens/SKILL.md` (`img_codex.py … --paralelo 3`, ~25 cenas por comando, rode até 0 faltando). **Não edite** `canal.yaml`, `tools/img_*`, `skills/imagens`, `skills/thumbnail`. Rode o detector de moldura/letreiro do vídeo anterior no fim, como sempre. No relatório: imagens Codex × Gemini e a cota 5 h/semanal. Voz Fish (`canal.yaml`).
 - Organizações nazistas/temas sensíveis: sem runas, suástica ou símbolos na thumb e nas imagens; tom de vítimas e julgamento. Organização viva: atribua toda acusação ("según X").""",
     "lugares-guerra-en": """- Canal **Clearance Required** (inglês): lugares militares famosos que não se pode visitar + os documentos públicos que explicam por quê. Bíblia: `canais/lugares-guerra-en/biblia/` (prevalece).
 - Não leia nem copie os canais `historia-ptbr`/`dossie-es`. Referência de código/estrutura: SOMENTE `videos/002-bikini` e `003-gettysburg`.
@@ -195,7 +197,7 @@ def cortar(pf, candidatos, c):
         for forn, v in NECESSIDADE[canal].items():
             folga = float(c[FOLGA_DE[forn]])
             if forn in sald and sald[forn] - v < folga:
-                falta.append(f"{forn.split()[0].replace('.ai', '')} com US$ {sald[forn]:.0f}, recarregue")
+                falta.append(f"{forn.replace('Google ', '').split()[0].replace('.ai', '')} com US$ {sald[forn]:.0f}, recarregue")
         if falta:
             cortes.append({"canal": canal, "motivo": "; ".join(falta)})
             continue
@@ -367,7 +369,7 @@ def planejar(a):
         # relatório
         L = [f"Fábrica noturna {B.fmt_d(noite)} (pode ir ao ar: {B.janela(noite)}) ({'DRY-RUN, nada enfileirado' if a.dry_run else 'enfileirado'})", "",
              "Pré-voo: " + ", ".join(f"{k} US$ {v:.2f}" + (" (API)" if pf.get("fonte_saldo", {}).get(k) == "api" else "")
-                                     for k, v in pf["saldos"].items() if k in ("fal.ai", "Fish Audio", "Runpod"))
+                                     for k, v in pf["saldos"].items() if k in ("fal.ai", "Fish Audio", "Runpod", "Google Gemini API"))
              + ((f"; Max semanal {pf['max']['pct_semana']}% (lido {datetime.fromisoformat(pf['max']['lido_em']):%d/%m %H:%M}, {pf['max']['idade_h']:.0f} h"
                  + (", reset já passou" if pf['max'].get('reset_passou') else "") + ")") if pf.get("max") else "; Max semanal sem leitura")
              + ((f"; Drive {pf['drive_livre_mb'] / 1024:.1f} GB livres") if pf["drive_livre_mb"] is not None else "; Drive: não consegui ler"),

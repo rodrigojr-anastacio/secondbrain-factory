@@ -1,0 +1,7 @@
+# Rodada 1 (23/11/2026): 3 imagens nano-banana do 015-gru como refs de estilo + prompt puxando a paleta fria e o traço chapado
+refs:
+  - videos/015-gru/imagens/I003.jpg
+  - videos/015-gru/imagens/I040.jpg
+  - videos/015-gru/imagens/I090.jpg
+ref_instrucao: "Use the attached reference images ONLY as a style guide: draw in exactly the same art style as the reference images (graphic novel ink illustration, bold flat black ink outlines and solid black shadow shapes, flat cel shading with two or three hard-edged tones, no painterly brushwork, no soft gradients, muted desaturated cool palette of slate blue, olive green, sepia and charcoal, cool grey light, only small deep red accents). Do not copy their content, people or composition. Draw only the people the scene describes; if the scene describes only objects or a place, draw no people at all. No frame, no border. New scene: "
+estilo_prompt: "Graphic novel ink illustration for a history documentary, bold clean black ink outlines, flat cel shading with hard-edged shadows, no painterly texture, no soft gradients, realistic adult proportions and faces, muted desaturated cool palette of slate blue, olive green, sepia and charcoal with small deep red accents, no warm amber or golden glow, cinematic lighting, detailed period-accurate setting, 16:9 wide shot, no text, no letters, no captions, no watermark, no swastikas or extremist insignia"

@@ -1,12 +1,15 @@
 """Gera imagens em lote pelo Codex CLI (login ChatGPT Plus, ferramenta interna image_gen), SEM chave de API, com
-fallback automático para o tools/img_fal.py.
+fallback automático para o tools/img_gemini.py (`visual.gerador_fallback: gemini`, desde 23/11/2026) ou tools/img_fal.py
+(`gerador_fallback: fal`, padrão).
 
-Decisão do Rodrigo (14/11/2026): historia-ptbr gera cenas e thumb pelo Codex; o fal fica de reserva. Outros canais: fal.
+Decisão do Rodrigo (14/11/2026): historia-ptbr gera cenas e thumb pelo Codex. 23/11/2026: dossie-es também (teste no
+MKUltra); a fal ficou sem saldo e o fallback dos dois canais passou para a Gemini API (nano-banana-2.1).
 Origem: protótipo pesquisa/teste-codex-imagens-2026-11-14/codex_img.py (30/30 imagens, US$ 0).
 
 Uso (da raiz do repo; mesma interface útil do img_fal.py):
   tools/.venv/bin/python tools/img_codex.py <canal> <cenas.json> <pasta_saida> [--video <id>] [--paralelo 3]
         [--so I001,I002] [--teto 10.0] [--notas "v2"] [--tamanho 1536x864] [--sem-fallback] [--sem-refs]
+        [--prazo-min 6] [--visual teste.yaml]
   <cenas.json>: lista de {"id": "I001", "prompt": "..."} (ou {"cenas": [...]}); o estilo do canal entra sozinho.
 
 Como funciona
@@ -14,10 +17,19 @@ Como funciona
   com o prompt literal (ref_instrucao + prompt da cena + estilo_prompt do canal.yaml) e as `visual.refs` do canal como
   referenced_image_paths. O Codex grava ~/.codex/generated_images/<thread>/*.png (1672x941); a tool reescala para
   --tamanho (padrão visual.tamanho do canal, 1536x864) e salva <saida>/<id>.jpg. O PNG original é apagado depois.
-- Falha de uma imagem (sem PNG, recusa, erro, timeout, imagem preta/vazia, moldura) → aquela imagem vai para o fal.
-  Limite de cota do Codex (rate_limit_reached_type ou "usage limit") ou 3 falhas seguidas → o RESTO do lote vai para o fal.
-- O fallback chama o tools/img_fal.py (sem alterá-lo) numa subpasta <saida>/.fal-fallback/ com --so <ids>, --video,
-  --teto e notas "fallback codex"; depois move os .jpg para <saida>/. O img_fal.py registra o custo do fal como sempre.
+- Falha de uma imagem (sem PNG, recusa, erro, timeout, imagem preta/vazia, moldura) → aquela imagem vai para o fallback.
+  Limite de cota do Codex (rate_limit_reached_type ou "usage limit") ou 3 falhas seguidas → o RESTO do lote vai para o
+  fallback.
+- O fallback chama o tools/img_gemini.py ou o tools/img_fal.py (conforme visual.gerador_fallback) numa subpasta
+  <saida>/.<gerador>-fallback/ com --so <ids>, --video, --teto e notas "fallback codex"; depois move os .jpg para <saida>/.
+  A tool do fallback registra o custo dela como sempre.
+- Concorrência entre processos (23/11/2026: historia + dossie na mesma noite): no máximo IMG_CODEX_SLOTS (3) chamadas
+  `codex exec` ao mesmo tempo NA VPS INTEIRA, por vagas com flock em ~/cache/img_codex/vaga-N.lock. Dois lotes juntos
+  dividem as 3 vagas (cada um anda na metade da velocidade) em vez de dobrar a rajada no Plus. A vaga cai sozinha se o
+  processo morrer.
+- --prazo-min (padrão 6): depois desse tempo não começa imagem nova (as que já estão rodando terminam) e sai com código 1
+  e a lista do que falta, SEM mandar ao fallback; assim um comando cabe no timeout de 10 min do Bash mesmo esperando vaga.
+  Rode de novo até 0 faltando.
 - Trava a pasta (<saida>/.img.lock, a mesma do img_fal.py/img_openai.py: 2º processo sai com código 3). Pula ids
   que já existem (retomada sem duplicar).
 - Registro: <saida>/codex_log.jsonl (1 linha por imagem: gerador codex|fal-fallback, seg, erro, cota 5 h/semanal);
@@ -27,10 +39,13 @@ Como funciona
 
 Variáveis de teste: IMG_CODEX_BIN (outro binário), IMG_CODEX_FORCAR_FALHA=I001,I003 (esses ids rodam com binário
 inexistente), IMG_CODEX_SIMULAR_LIMITE=I002 (esse id finge limite de cota).
+--visual <yaml>: sobrepõe chaves do bloco visual do canal.yaml (refs, ref_instrucao, estilo_prompt…) só nesta execução
+(testes de estilo; refs relativas à pasta do canal).
 Códigos de saída: 0 tudo gerado; 1 faltou alguma imagem; 3 pasta travada por outro processo.
 """
 import argparse
 import concurrent.futures as cf
+import fcntl
 import glob
 import json
 import os
@@ -57,6 +72,9 @@ if str(TMP).startswith("/tmp"):  # /tmp é tmpfs (RAM) nesta VPS
     TMP = Path(os.path.expanduser("~/cache/tmp"))
 PY = os.path.join(FABRICA, "tools", ".venv", "bin", "python")
 IMG_FAL = os.path.join(FABRICA, "tools", "img_fal.py")
+IMG_GEMINI = os.path.join(FABRICA, "tools", "img_gemini.py")
+VAGAS_DIR = Path(os.path.expanduser("~/cache/img_codex"))
+VAGAS = int(os.environ.get("IMG_CODEX_SLOTS", "3"))
 FORNECEDOR = "OpenAI ChatGPT Plus"
 TIMEOUT = 420
 FALHAS_SEGUIDAS_MAX = 3
@@ -69,7 +87,28 @@ INSTR = ("Call the built-in image generation tool (image_gen) EXACTLY ONCE and d
 REFS = "Pass referenced_image_paths={paths} (style references only). "
 
 trava_estado = threading.Lock()
-estado = {"parar": None, "seguidas": 0, "cota": None}
+estado = {"parar": None, "seguidas": 0, "cota": None, "prazo": None}
+
+
+def pegar_vaga():
+    """Espera uma das VAGAS globais (flock por arquivo). Devolve o arquivo aberto (fechar = liberar) ou None se o prazo
+    do lote passou antes de vagar."""
+    VAGAS_DIR.mkdir(parents=True, exist_ok=True)
+    while True:
+        for i in range(VAGAS):
+            f = open(VAGAS_DIR / f"vaga-{i}.lock", "a+")
+            try:
+                fcntl.flock(f, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                f.seek(0)
+                f.truncate()
+                f.write(f"pid={os.getpid()} desde={time.strftime('%Y-%m-%dT%H:%M:%S')}\n")
+                f.flush()
+                return f
+            except BlockingIOError:
+                f.close()
+        if estado["prazo"] and time.time() > estado["prazo"]:
+            return None
+        time.sleep(3)
 
 
 def evento(tipo, sev, msg, det, ref=None):
@@ -150,6 +189,22 @@ def uma(cena, prompt, refs, saida, tam, log, forcar, simular):
     with trava_estado:
         if estado["parar"]:
             return {"id": cid, "gerador": "pendente-fal", "erro": f"codex parado: {estado['parar']}"}
+    if estado["prazo"] and time.time() > estado["prazo"]:
+        return {"id": cid, "gerador": "prazo"}
+    vaga = pegar_vaga()
+    if vaga is None:
+        return {"id": cid, "gerador": "prazo"}
+    try:
+        return _uma(cena, prompt, refs, saida, tam, log, forcar, simular)
+    finally:
+        vaga.close()
+
+
+def _uma(cena, prompt, refs, saida, tam, log, forcar, simular):
+    cid = cena["id"]
+    destino = saida / f"{cid}.jpg"
+    if destino.exists():
+        return {"id": cid, "gerador": "existe"}
     trab = TMP / "codex-img" / f"{os.getpid()}-{cid}"
     trab.mkdir(parents=True, exist_ok=True)
     msg = INSTR.format(prompt=prompt, refs=REFS.format(paths=json.dumps(refs)) if refs else "")
@@ -230,19 +285,23 @@ def uma(cena, prompt, refs, saida, tam, log, forcar, simular):
     return reg
 
 
-def fallback_fal(a, ids, saida, log, cenas_path):
-    """Gera `ids` no img_fal.py (sem alterá-lo) numa subpasta e move para a saída. Devolve os ids que ficaram prontos."""
-    sub = saida / ".fal-fallback"
+def fallback(a, ids, saida, log, cenas_path):
+    """Gera `ids` no img_gemini.py ou img_fal.py (conforme a.fallback) numa subpasta e move para a saída.
+    Devolve os ids que ficaram prontos."""
+    g = a.fallback
+    sub = saida / f".{g}-fallback"
     sub.mkdir(exist_ok=True)
-    cmd = [PY, IMG_FAL, a.canal, str(cenas_path), str(sub), "--so", ",".join(ids), "--paralelo", str(min(4, max(1, len(ids)))),
-           "--notas", f"fallback codex {a.notas}".strip()]
+    cmd = [PY, IMG_GEMINI if g == "gemini" else IMG_FAL, a.canal, str(cenas_path), str(sub), "--so", ",".join(ids),
+           "--paralelo", str(min(4, max(1, len(ids)))), "--notas", f"fallback codex {a.notas}".strip()]
     if a.video:
         cmd += ["--video", str(a.video)]
     if a.teto:
         cmd += ["--teto", str(a.teto)]
-    if a.modelo_fal:
+    if g == "fal" and a.modelo_fal:
         cmd += ["--modelo", a.modelo_fal]
-    print(f"\nfallback fal: {len(ids)} imagens ({','.join(ids)})", flush=True)
+    if g == "gemini" and a.visual_arq:
+        cmd += ["--visual", a.visual_arq]
+    print(f"\nfallback {g}: {len(ids)} imagens ({','.join(ids)})", flush=True)
     t0 = time.time()
     r = subprocess.run(cmd, cwd=os.path.join(FABRICA, "tools"), capture_output=True, text=True, timeout=3600)
     print(r.stdout[-1500:], r.stderr[-800:], sep="\n", flush=True)
@@ -258,9 +317,9 @@ def fallback_fal(a, ids, saida, log, cenas_path):
             feitos.append(cid)
     with open(log, "a") as f:
         for cid in ids:
-            f.write(json.dumps({"ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "id": cid, "gerador": "fal-fallback",
+            f.write(json.dumps({"ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "id": cid, "gerador": f"{g}-fallback",
                                 "seg": round((time.time() - t0) / max(1, len(ids)), 1),
-                                "erro": None if cid in feitos else "fal também falhou"}, ensure_ascii=False) + "\n")
+                                "erro": None if cid in feitos else f"{g} também falhou"}, ensure_ascii=False) + "\n")
     shutil.rmtree(sub, ignore_errors=True)
     return feitos
 
@@ -277,12 +336,22 @@ def main():
     ap.add_argument("--notas", default="")
     ap.add_argument("--tamanho", help="WxH final (padrão: visual.tamanho do canal ou 1536x864; thumb pode usar 1280x720)")
     ap.add_argument("--modelo-fal", help="modelo do fal no fallback (padrão: visual.modelo do canal.yaml)")
-    ap.add_argument("--sem-fallback", action="store_true", help="não chama o fal (as falhas ficam faltando)")
+    ap.add_argument("--sem-fallback", action="store_true", help="não chama o fallback (as falhas ficam faltando)")
+    ap.add_argument("--fallback", choices=["gemini", "fal"], help="padrão: visual.gerador_fallback do canal.yaml (ou fal)")
     ap.add_argument("--sem-refs", action="store_true")
+    ap.add_argument("--prazo-min", type=float, default=6.0,
+                    help="não começa imagem nova depois de N min (cabe no timeout de 10 min do Bash); 0 = sem prazo")
+    ap.add_argument("--visual", dest="visual_arq", help="yaml que sobrepõe chaves de visual (testes de estilo)")
     a = ap.parse_args()
 
     pasta_canal = Path(FABRICA) / "canais" / a.canal
     visual = (yaml.safe_load(open(pasta_canal / "canal.yaml")) or {}).get("visual", {})
+    if a.visual_arq:
+        a.visual_arq = str(Path(a.visual_arq).resolve())
+        visual.update(yaml.safe_load(open(a.visual_arq)) or {})
+    a.fallback = a.fallback or visual.get("gerador_fallback") or "fal"
+    if a.fallback not in ("gemini", "fal"):
+        sys.exit(f"gerador_fallback {a.fallback!r} não suportado (gemini | fal)")
     if a.tamanho:
         a.tam = tuple(int(x) for x in a.tamanho.lower().split("x"))
     else:
@@ -297,7 +366,7 @@ def main():
     if a.so:
         so = set(a.so.split(","))
         cenas = [c for c in cenas if c["id"] in so]
-    saida = Path(a.saida)
+    saida = Path(a.saida).resolve()  # o fallback roda com cwd=tools/: caminho relativo gravava em tools/canais/... (23/11/2026)
     saida.mkdir(parents=True, exist_ok=True)
     trava = travar_pasta(str(saida))  # noqa: F841  (mesma trava do img_fal/img_openai)
     TMP.mkdir(parents=True, exist_ok=True)
@@ -305,11 +374,13 @@ def main():
     forcar = set(filter(None, os.environ.get("IMG_CODEX_FORCAR_FALHA", "").split(",")))
     simular = set(filter(None, os.environ.get("IMG_CODEX_SIMULAR_LIMITE", "").split(",")))
     pendentes = [c for c in cenas if not (saida / f"{c['id']}.jpg").exists()]
-    print(f"codex · {len(pendentes)} pendentes de {len(cenas)} · refs {len(refs)} · paralelo {a.paralelo} · {a.tam[0]}x{a.tam[1]}"
+    print(f"codex · {len(pendentes)} pendentes de {len(cenas)} · refs {len(refs)} · paralelo {a.paralelo} (vagas globais {VAGAS})"
+          f" · fallback {'nenhum' if a.sem_fallback else a.fallback} · {a.tam[0]}x{a.tam[1]}"
           f"{' · TESTE forçar falha ' + ','.join(sorted(forcar)) if forcar else ''}"
           f"{' · TESTE simular limite ' + ','.join(sorted(simular)) if simular else ''}", flush=True)
 
     t0 = time.time()
+    estado["prazo"] = t0 + a.prazo_min * 60 if a.prazo_min else None
     regs = []
     with cf.ThreadPoolExecutor(max(1, a.paralelo)) as ex:
         futs = {ex.submit(uma, c, instr + (f"{c['prompt']}. {estilo}".strip(". ") if estilo else c["prompt"]),
@@ -323,16 +394,18 @@ def main():
             if r["gerador"] == "codex":
                 print(f"{r['id']}: ok codex {r['seg']}s", flush=True)
             elif r["gerador"] == "pendente-fal":
-                print(f"{r['id']}: codex FALHOU → fal ({(r.get('erro') or '')[:140]})", flush=True)
+                print(f"{r['id']}: codex FALHOU → {a.fallback} ({(r.get('erro') or '')[:140]})", flush=True)
     t_codex = round(time.time() - t0)
     ok_codex = [r["id"] for r in regs if r["gerador"] == "codex"]
     falhas = [r["id"] for r in regs if r["gerador"] == "pendente-fal"]
+    adiadas = [r["id"] for r in regs if r["gerador"] == "prazo"]
 
     feitos_fal = []
     if falhas and not a.sem_fallback:
-        evento("codex_fallback", "aviso", f"{len(falhas)} imagens do Codex foram para o fal ({estado['parar'] or 'falha pontual'})",
-               {"ids": falhas, "motivo": estado["parar"] or "falha pontual", "canal": a.canal, "video": a.video}, str(saida))
-        feitos_fal = fallback_fal(a, falhas, saida, log, Path(a.cenas).resolve())
+        evento("codex_fallback", "aviso", f"{len(falhas)} imagens do Codex foram para o {a.fallback} ({estado['parar'] or 'falha pontual'})",
+               {"ids": falhas, "motivo": estado["parar"] or "falha pontual", "canal": a.canal, "video": a.video,
+                "fallback": a.fallback}, str(saida))
+        feitos_fal = fallback(a, falhas, saida, log, Path(a.cenas).resolve())
 
     cota = estado["cota"] or {}
     if ok_codex:
@@ -341,14 +414,16 @@ def main():
             " VALUES ('youtube', %s, %s, 'imagem codex image_gen (cota Plus)', %s, 'imagens', 0, 'USD', 0, %s, %s, %s)",
             (a.canal, FORNECEDOR, len(ok_codex), "youtube.video" if a.video else None, a.video,
              f"{a.notas} {os.path.basename(a.cenas)}; cota 5h {cota.get('pct_5h')}% semana {cota.get('pct_semana')}%; "
-             f"{len(falhas)} no fallback fal".strip())))
+             f"{len(falhas)} no fallback {a.fallback}".strip())))
     resumo = {"canal": a.canal, "video": a.video, "cenas": os.path.basename(a.cenas), "pedidas": len(pendentes),
-              "codex_ok": len(ok_codex), "fallback_pedidas": len(falhas), "fallback_ok": len(feitos_fal),
-              "faltando": len(falhas) - len(feitos_fal), "parou": estado["parar"], "seg_codex": t_codex, "cota": cota}
+              "codex_ok": len(ok_codex), "fallback": a.fallback, "fallback_pedidas": len(falhas), "fallback_ok": len(feitos_fal),
+              "faltando": len(falhas) - len(feitos_fal), "adiadas_prazo": len(adiadas), "parou": estado["parar"],
+              "seg_codex": t_codex, "cota": cota}
     if pendentes:
         evento("codex_lote", "info" if resumo["faltando"] == 0 else "erro",
-               f"img_codex {a.canal}: {len(ok_codex)} codex, {len(feitos_fal)} fal, {resumo['faltando']} faltando", resumo, str(saida))
-    print(f"\n{len(ok_codex)} codex + {len(feitos_fal)} fal-fallback · {len(cenas) - len(pendentes)} já existiam · "
+               f"img_codex {a.canal}: {len(ok_codex)} codex, {len(feitos_fal)} {a.fallback}, {resumo['faltando']} faltando", resumo, str(saida))
+    print(f"\n{len(ok_codex)} codex + {len(feitos_fal)} {a.fallback}-fallback · {len(cenas) - len(pendentes)} já existiam · "
+          f"{len(adiadas)} adiadas pelo prazo de {a.prazo_min:g} min · "
           f"{resumo['faltando']} faltando · codex {t_codex}s · cota 5h {cota.get('pct_5h')}% semana {cota.get('pct_semana')}%"
           f"{' · PAROU: ' + estado['parar'] if estado['parar'] else ''}")
     faltam = [c["id"] for c in cenas if not (saida / f"{c['id']}.jpg").exists()]

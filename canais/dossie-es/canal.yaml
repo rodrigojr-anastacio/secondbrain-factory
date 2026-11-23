@@ -27,12 +27,25 @@ voz:
   modo: por_frase              # tools/tts_fish.py --por-frase (padrão da fábrica desde 04/11)
   tom: narrador de documental, presente histórico, seco; tags [serious] e [slightly dramatic]
 visual:
-  gerador: fal
-  modelo: fal-ai/nano-banana     # teste de estilo de 2026-11-04 (testes/ESTILO.md) + teste es da CIA (testes/ESTILO-es.md)
+  # 23/11/2026 (decisão do Rodrigo): teste Codex no MKUltra: o próximo vídeo inteiro (cenas e thumbs) pelo Codex CLI
+  # (ChatGPT Plus, US$ 0, tools/img_codex.py) para ver se passa e como o público reage; a fal ficou sem saldo.
+  # Config = rodada r2 de testes/codex-2026-11-23-r2/AMOSTRA.md (3 refs nano-banana do 015 + traço chapado e paleta fria).
+  # Para voltar ao nano-banana da fal: gerador: fal e apague refs/ref_instrucao (o img_fal.py só usa refs em modelo /edit).
+  gerador: codex
+  gerador_fallback: gemini     # tools/img_gemini.py (gemini-nano-banana-2.1, padrão 1K, com as mesmas refs) em falha, recusa ou cota do Codex
+  modelo_gemini: gemini-nano-banana-2.1   # testes/gemini-2026-11-23/TESTE.md: 6/6, sem moldura, ~US$ 0,045/img
+  parametros_gemini: {imageSize: 1K}
+  modelo: fal-ai/nano-banana     # gerador até o 015 (teste de estilo de 2026-11-04, testes/ESTILO.md + ESTILO-es.md); só se voltar a gerador: fal
   qualidade: medium
-  tamanho: landscape_16_9
+  tamanho: landscape_16_9        # img_fal manda aspect_ratio 16:9 ao nano-banana; img_codex/img_gemini salvam 1536x864 (o 015 do nano-banana era 1344x768, mesma proporção)
+  refs:                          # refs de ESTILO (nano-banana do 015-gru): lugar, interior com pessoas, retrato
+    - videos/015-gru/imagens/I003.jpg
+    - videos/015-gru/imagens/I040.jpg
+    - videos/015-gru/imagens/I090.jpg
+  ref_instrucao: "Use the attached reference images ONLY as a style guide: draw in exactly the same art style as the reference images (clean graphic novel ink illustration, even bold black outlines, large areas of flat matte color, simple hard-edged cel shadows, very little cross-hatching or fine texture, no painterly brushwork, no gradients, no wet reflections, muted desaturated cool palette of slate blue, olive green, sepia and charcoal, cool even lighting (night scenes stay dark), only small deep red accents). Do not copy their content, people or composition. Keep the composition simple and uncluttered like the references. Draw only the people the scene describes (if the scene describes only objects or a place, draw no people at all) and no famous landmarks unless the scene names them. No frame, no border. New scene: "
   # 2026-11-05 (002-mossad): tirado "subtle paper grain texture" (Hipótese da biblia/visual.md: a frase puxa a moldura)
-  estilo_prompt: "Graphic novel ink illustration for a history documentary, bold clean black ink outlines, realistic adult proportions and faces, muted desaturated palette of slate blue, olive green, sepia and charcoal with small deep red accents, cinematic lighting, detailed period-accurate setting, 16:9 wide shot, no text, no letters, no captions, no watermark, no swastikas or extremist insignia"
+  # 2026-11-23: estilo reescrito para o Codex (r2); o do nano-banana era: "Graphic novel ink illustration for a history documentary, bold clean black ink outlines, realistic adult proportions and faces, muted desaturated palette of slate blue, olive green, sepia and charcoal with small deep red accents, cinematic lighting, detailed period-accurate setting, 16:9 wide shot, no text, no letters, no captions, no watermark, no swastikas or extremist insignia"
+  estilo_prompt: "Clean graphic novel ink illustration for a history documentary, even bold black ink outlines, large flat matte color areas with simple hard-edged cel shadows, minimal hatching, no painterly texture, no gradients, realistic adult proportions and faces, muted desaturated cool palette of slate blue, olive green, sepia and charcoal with small deep red accents, no warm amber or golden glow, simple uncluttered composition, period-accurate setting, 16:9 wide shot, no text, no letters, no captions, no watermark, no swastikas or extremist insignia"
   cor_destaque: "#B3261E"    # rojo sello
   papel: "#E9DFC9"           # carpeta / papel del expediente
 piloto:
