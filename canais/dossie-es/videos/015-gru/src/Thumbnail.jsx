@@ -1,16 +1,14 @@
 import React from 'react';
 import { AbsoluteFill, Img, staticFile } from 'remotion';
-import { loadFont as loadJP } from '@remotion/google-fonts/NotoSerifJP';
 import { TYPE, DISPLAY, PAPEL, ROJO, TINTA, PASTA } from './Video.jsx';
 
-const jp = loadJP('normal', { weights: ['900'], subsets: ['japanese'], ignoreTooManyRequestsWarning: true });
-// 014 Yakuza. 3 conceitos DIFERENTES (EMBALAGEM.md, crivo r3):
-// A (objeto-simbolo): letreiro de madeira arrancado sob a marca na parede; 組 em código; "YAKUZA" + sello "¿LEGAL?".
-// B (numero-estatistica): salão de tatame vazio; "184.000" gigante riscado em vermelho + "HOY 17.600" sobre tira vermelha.
-// C (cena-acao): homem em contraluz rasgando o cartão de visita com o emblema; rótulo datilografado "YAKUZA".
+// 015 GRU. 3 conceitos DIFERENTES (EMBALAGEM.md, crivo r3):
+// A (objeto-simbolo): matrioska empresário/oficial soviético; "GRU" gigante em papel + sello "GULAG".
+// B (cena-acao): Putin aperta a mão na pista de Vnukovo à noite; carimbo "¿BRASILEÑO?" no terço inferior direito.
+// C (documento-evidencia): 3 passaportes em leque, MRZ desenhada no código na página aberta; carimbo "NUNCA NACIERON".
 const Aba = () => (
   <div style={{ position: 'absolute', right: 34, top: 0, background: PASTA, padding: '14px 28px 12px', borderRadius: '0 0 14px 14px',
-    fontFamily: TYPE, fontSize: 30, color: TINTA, letterSpacing: 2, boxShadow: '4px 5px 0 rgba(0,0,0,.5)' }}>EXPEDIENTE Nº 014</div>
+    fontFamily: TYPE, fontSize: 30, color: TINTA, letterSpacing: 2, boxShadow: '4px 5px 0 rgba(0,0,0,.5)' }}>EXPEDIENTE Nº 015</div>
 );
 
 const Carimbo = ({ txt, fs, rot, pos }) => (
@@ -19,34 +17,50 @@ const Carimbo = ({ txt, fs, rot, pos }) => (
 );
 
 const A = () => (
-  <AbsoluteFill style={{ background: PAPEL }}>
+  <AbsoluteFill style={{ background: '#2E3A46' }}>
     <Img src={staticFile('img/thumb-A.jpg')} style={{ position: 'absolute', width: '100%', height: '100%', objectFit: 'cover' }} />
     <Aba />
-    <div style={{ position: 'absolute', left: 232, top: 300, width: 268, textAlign: 'center', fontFamily: jp.fontFamily, fontWeight: 900, fontSize: 210, lineHeight: 1,
-      color: TINTA, transform: 'rotate(-3deg)', opacity: 0.88 }}>組</div>
-    <div style={{ position: 'absolute', left: 560, top: 120, fontFamily: DISPLAY, fontSize: 260, lineHeight: 1, color: TINTA, letterSpacing: 4, whiteSpace: 'nowrap' }}>YAKUZA</div>
-    <Carimbo txt="¿LEGAL?" fs={92} rot={-7} pos={{ left: 150, top: 540 }} />
+    <div style={{ position: 'absolute', left: 600, top: 150, fontFamily: DISPLAY, fontSize: 470, lineHeight: 1, color: PAPEL, letterSpacing: 6, whiteSpace: 'nowrap',
+      textShadow: '8px 9px 0 rgba(0,0,0,.55)' }}>GRU</div>
+    <Carimbo txt="GULAG" fs={96} rot={-8} pos={{ left: 40, top: 560 }} />
   </AbsoluteFill>
 );
 
 const B = () => (
-  <AbsoluteFill style={{ background: '#2a2f36' }}>
+  <AbsoluteFill style={{ background: '#1b222b' }}>
     <Img src={staticFile('img/thumb-B.jpg')} style={{ position: 'absolute', width: '100%', height: '100%', objectFit: 'cover' }} />
-    <AbsoluteFill style={{ background: 'linear-gradient(120deg, rgba(10,14,20,.62) 0%, rgba(10,14,20,.25) 55%, rgba(10,14,20,0) 100%)' }} />
-    <div style={{ position: 'absolute', left: 36, top: 70, fontFamily: DISPLAY, fontSize: 320, lineHeight: 1, color: PAPEL, letterSpacing: 4, whiteSpace: 'nowrap',
-      textShadow: '0 0 0 #000, 6px 6px 0 rgba(0,0,0,.85), -3px -3px 0 rgba(0,0,0,.6), 3px -3px 0 rgba(0,0,0,.6), -3px 3px 0 rgba(0,0,0,.6)' }}>184.000</div>
-    <div style={{ position: 'absolute', left: 20, top: 205, width: 1010, height: 26, background: ROJO, transform: 'rotate(-6deg)', boxShadow: '0 4px 0 rgba(0,0,0,.5)' }} />
-    <div style={{ position: 'absolute', right: 40, bottom: 48, background: ROJO, padding: '10px 38px 2px', transform: 'rotate(-2deg)', boxShadow: '6px 8px 0 rgba(0,0,0,.5)',
-      fontFamily: DISPLAY, fontSize: 130, lineHeight: 1.1, color: PAPEL, letterSpacing: 3, whiteSpace: 'nowrap' }}>HOY 17.600</div>
     <Aba />
+    <Carimbo txt="¿BRASILEÑO?" fs={138} rot={-5} pos={{ right: 14, bottom: 20 }} />
   </AbsoluteFill>
 );
 
+// Passaporte aberto: a base (nano-banana) traz rabiscos de letra nos campos; o código cobre os campos com papel/oliva,
+// desenha linhas cinza ilegíveis e a zona de leitura mecânica (MRZ "P<…<<<<"), sem nome real. Coordenadas medidas na base 1344x768 → tela 1280x720.
+const Campos = () => (
+  <>
+    <div style={{ position: 'absolute', left: 678, top: 236, width: 202, height: 235, background: '#E5DFCD' }} />
+    <div style={{ position: 'absolute', left: 474, top: 424, width: 172, height: 84, background: '#6B7356' }} />
+    {[262, 288, 314, 340, 374, 400, 426].map((y, i) => (
+      <div key={y} style={{ position: 'absolute', left: 690, top: y, width: i % 3 === 0 ? 120 : 176, height: 4, background: 'rgba(55,50,42,.55)' }} />
+    ))}
+    {[446, 466, 486].map((y) => (
+      <div key={y} style={{ position: 'absolute', left: 486, top: y, width: 140, height: 3, background: 'rgba(25,25,20,.45)' }} />
+    ))}
+    <div style={{ position: 'absolute', left: 676, top: 476, width: 208, height: 40, background: '#E5DFCD' }} />
+    <div style={{ position: 'absolute', left: 680, top: 479, fontFamily: TYPE, fontWeight: 700, fontSize: 15.5, lineHeight: 1.22, letterSpacing: 0.4, color: 'rgba(30,28,24,.85)', whiteSpace: 'nowrap' }}>
+      <div>P&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</div>
+      <div>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</div>
+    </div>
+  </>
+);
+
 const C = () => (
-  <AbsoluteFill style={{ background: '#1d1d1a' }}>
+  <AbsoluteFill style={{ background: '#1d1a16' }}>
     <Img src={staticFile('img/thumb-C.jpg')} style={{ position: 'absolute', width: '100%', height: '100%', objectFit: 'cover' }} />
-    <div style={{ position: 'absolute', right: 36, bottom: 40, background: PAPEL, padding: '10px 34px 12px', transform: 'rotate(-2deg)', boxShadow: '6px 8px 0 rgba(0,0,0,.55)',
-      fontFamily: TYPE, fontWeight: 700, fontSize: 112, lineHeight: 1.05, color: TINTA, letterSpacing: 4, whiteSpace: 'nowrap' }}>YAKUZA</div>
+    <Campos />
+    <div style={{ position: 'absolute', left: 858, top: 440, transform: 'rotate(-8deg)', background: ROJO, border: `7px solid ${ROJO}`, outline: `4px solid ${PAPEL}`, outlineOffset: -14,
+      padding: '10px 36px 2px', fontFamily: DISPLAY, fontSize: 100, lineHeight: 0.98, textAlign: 'center', color: PAPEL, letterSpacing: 4, whiteSpace: 'nowrap', opacity: 0.96,
+      boxShadow: '7px 9px 0 rgba(0,0,0,.55)' }}>NUNCA<br />NACIERON</div>
   </AbsoluteFill>
 );
 

@@ -1,6 +1,6 @@
 import json,re
 # Glossário só para a VOZ (013 Núremberg): nomes em espanhol saem bem; conferir franceses/portugueses depois.
-G={"ANA":"a ene a","FBI":"efe be i","NHK":"ene hache ka","TriStar":"Tráis-tar"}
+G={"GRU":"ge erre u","KGB":"ka ge be","MI6":"eme i seis","OTAN":"ótan"}
 b=json.load(open("blocos.json"))
 ks=sorted(G,key=len,reverse=True)
 pat=re.compile("(?<!\\w)("+"|".join(map(re.escape,ks))+")(?!\\w)")
