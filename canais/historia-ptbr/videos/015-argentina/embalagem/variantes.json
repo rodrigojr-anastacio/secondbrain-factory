@@ -1,5 +1,26 @@
 [
- {"letra": "A", "titulo": "A Argentina já foi RICA. Por que apagou 13 zeros da moeda?", "padrao_titulo": "afirmacao-estranha-pergunta", "padrao_thumb": "rosto-emocao", "thumb_conceito": "rapaz de 1992 com riso nervoso segurando um maço de cédulas velhas de 1969 com cinta 1.000.000, parede de banco lisa, sem outro personagem", "thumb_texto": "VALE NADA"},
- {"letra": "B", "titulo": "Como a CARNE e o TRIGO decidiram quem manda na Argentina", "padrao_titulo": "como-agente-concreto", "padrao_thumb": "conflito-xvy", "thumb_conceito": "peão de estância do pampa (boina, poncho) x operário da cidade puxando uma conta comprida, raio no meio, pampa x chaminés", "thumb_texto": "CAMPO × CIDADE"},
- {"letra": "C", "titulo": "Por que a Argentina trocou de dinheiro 4 vezes em 22 anos?", "padrao_titulo": "pergunta-transformacao-numero", "padrao_thumb": "numero-estatistica", "thumb_conceito": "13 ZEROS gigante com contorno grosso à esquerda; cédula clara cortada por tesoura, zeros caindo, fundo celeste profundo", "thumb_texto": "13 ZEROS"}
+ {
+  "letra": "A",
+  "titulo": "A Argentina já foi RICA. Por que apagou 13 zeros da moeda?",
+  "padrao_titulo": "afirmacao-estranha-pergunta",
+  "padrao_thumb": "rosto-emocao",
+  "thumb_conceito": "rapaz de 1992 com riso nervoso segurando um maço de cédulas velhas de 1969 com cinta 1.000.000, parede de banco lisa, sem outro personagem",
+  "thumb_texto": "VALE NADA"
+ },
+ {
+  "letra": "B",
+  "titulo": "Argentina: como a CARNE e o TRIGO decidiram quem manda",
+  "padrao_titulo": "como-agente-concreto",
+  "padrao_thumb": "conflito-xvy",
+  "thumb_conceito": "produtor do pampa (chapéu campeiro de aba curta) x tangueiro portenho dos anos 1940 (fedora, risca de giz, cravo), do peito para cima, cara a cara puxando a mesma conta de papel, raio no meio; fundo: céu celeste e branco com Sol de Maio pequeno e 1 boi x Obelisco de Buenos Aires ao entardecer; pílula 1946",
+  "thumb_texto": "QUEM PAGA?"
+ },
+ {
+  "letra": "C",
+  "titulo": "Por que a Argentina trocou de dinheiro 4 vezes em 22 anos?",
+  "padrao_titulo": "pergunta-transformacao-numero",
+  "padrao_thumb": "numero-estatistica",
+  "thumb_conceito": "13 ZEROS gigante com contorno grosso à esquerda; cédula clara cortada por tesoura, zeros caindo, fundo celeste profundo",
+  "thumb_texto": "13 ZEROS"
+ }
 ]
