@@ -6,14 +6,14 @@ Promessa: Por que Cuba sempre dependeu de um país só para comprar o que ela pr
 
 Títulos: T1 "Cuba adoçava o MUNDO. Por que dependia de um país só?" / T2 "Por que Cuba só trocava de COMPRADOR? E o que cobravam?" / T3 "Cuba: como o AÇÚCAR decidiu quem mandava na ilha"
 
-Gerado por `roteiro.py` (fonte única; edite lá). 2187 palavras, ~17:28.1 estimados a 126 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 2159 palavras, ~17:14.7 estimados a 126 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
 
 **[N001]** Havana, julho de mil novecentos e sessenta. Imagine que você tem um armazém no porto, cheio de sacos de açúcar até o teto. Esse açúcar já tem comprador: os Estados Unidos.
 
-**[N002]** Aí, no dia seis, Washington corta a cota de Cuba: setecentas mil toneladas ficam sem comprador. Três dias depois, chega um recado de Moscou. A União Soviética compra exatamente essas setecentas mil.
+**[N002]** Aí, no dia seis, Washington corta a cota de Cuba: setecentas mil toneladas ficam sem comprador. Três dias depois, chega um recado: Moscou se oferece para comprar exatamente essas setecentas mil.
 
 **[N003]** E um dia ia pagar quase cinco vezes o preço do mercado. Só que nenhum comprador de Cuba cobrou só em dinheiro. Nem a Espanha, nem os Estados Unidos, nem os soviéticos, nem a Venezuela.
 
@@ -45,7 +45,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N014]** Imagine que você planta, colhe, seca as folhas, e só existe uma porta para bater. Os vegueros se levantam em dezessete, de novo em vinte e outra vez em vinte e três. Mas o estanco fica.
 
-**[N015]** Então Madri vai além. Em mil setecentos e quarenta, uma companhia de Havana ganha o monopólio do comércio com a Espanha: um único balcão compra e vende quase tudo o que a ilha produz.
+**[N015]** Então Madri vai além. Em mil setecentos e quarenta, uma companhia de Havana ganha o monopólio do comércio com a Espanha: um único balcão para quase tudo.
 
 **[N016]** Mas o comprador único tinha uma cláusula embutida: o preço era sempre o dele. E preço baixo, numa ilha de litoral enorme, vira contrabando. Nem os onze meses de Havana nas mãos dos ingleses, em sessenta e dois, mudam a regra.
 
@@ -58,9 +58,9 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N019]** Repare quem chegou primeiro quando a porta abriu: o vizinho do norte, a uns cento e cinquenta quilômetros. Ele traz farinha e tecido, e leva açúcar e melaço.
 
-**[N020]** E eles chegam na hora certa. Desde a revolução dos escravizados de noventa e um, o açúcar de São Domingos, a colônia francesa que mais produzia no mundo, tinha sumido do mercado. O preço sobe, e o comprador com dinheiro mora perto. Cuba planta cana como nunca, com centenas de milhares de africanos trazidos à força.
+**[N020]** E chegam na hora certa. Desde a revolução dos escravizados de noventa e um, o açúcar de São Domingos, a colônia francesa que mais produzia no mundo, sumiu do mercado. O preço sobe, e Cuba planta cana como nunca, com centenas de milhares de africanos trazidos à força.
 
-**[N021]** Pense no açúcar do seu café: por boa parte do século dezenove, uma fatia enorme dele saía de Cuba. E quem comprava, cada vez mais, falava inglês.
+**[N021]** Se você plantasse cana em Cuba em meados do século dezenove, o seu melhor cliente já não falava espanhol. Falava inglês.
 
 **[N022]** Só que comprador grande também empresta. Nos anos de mil oitocentos e oitenta, Edwin Atkins, um comerciante de açúcar de Boston, fica com a usina Soledad, perto de Cienfuegos, para acertar uma dívida antiga.
 
@@ -69,7 +69,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## 4. A bandeira de um, o comprador de outro
 
-**[N024]** Washington, mil oitocentos e noventa e um. Num congresso de países da América, um delegado do Uruguai toma notas. Ele é cubano, vive exilado em Nova York e se chama José Martí.
+**[N024]** Um cubano exilado em Nova York toma notas num congresso de países da América, em Washington, em mil oitocentos e noventa e um. Ele está ali como delegado do Uruguai e se chama José Martí.
 
 **[N025]** Em maio, ele escreveu numa revista: o povo que compra, manda. O povo que vende, serve. E o povo que quer morrer vende a um povo só.
 
@@ -97,13 +97,13 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## 6. O mesmo mês
 
-**[N035]** Washington, maio de mil novecentos e trinta e quatro. No dia nove, Roosevelt assina uma lei de cotas: o governo americano passa a decidir quanto açúcar cada fornecedor pode vender aos Estados Unidos.
+**[N035]** Franklin Roosevelt pega a caneta em nove de maio de mil novecentos e trinta e quatro e assina uma lei de cotas: o governo americano passa a decidir quanto açúcar cada fornecedor pode vender aos Estados Unidos.
 
 **[N036]** Vinte dias depois, os dois países assinam um tratado que acaba com a Emenda Platt. Guantánamo fica. E a cláusula sai da Constituição para morar num número: a cota.
 
 **[N037]** Pense na cena: num mesmo mês, Cuba ganha o direito de não ser invadida e perde o direito de decidir quanto vende. Tente explicar essa vitória a um usineiro de Camagüey.
 
-**[N038]** Então, por vinte e cinco anos, a ilha vive em torno de um número escrito em Washington. Se você cortava cana, cota alta era emprego; cota baixa, o tempo morto entre uma safra e outra ficava mais comprido.
+**[N038]** Então, por vinte e cinco anos, a ilha vive em torno de um número escrito em Washington. Se você cortava cana, era a cota que decidia quantos meses do ano você teria trabalho.
 
 **[N039]** Governos caem e sobem nesse meio-tempo. Em cinquenta e dois, Fulgencio Batista dá um golpe. Mas o número continua lá. E, em cinquenta e nove, chega ao poder alguém que promete rasgá-lo.
 
@@ -116,9 +116,9 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N042]** Lembra da nossa pergunta? Aqui ela fica mais difícil. Porque, nesses meses, o governo de Fidel Castro desapropria terras, e as refinarias americanas, que se recusam a processar petróleo soviético, são tomadas.
 
-**[N043]** Aí vem o dia seis de julho, e a cota, cláusula de Washington por vinte e cinco anos, vira arma: Eisenhower corta as setecentas mil toneladas que faltavam. Três dias depois, Khrushchev oferece comprar exatamente as mesmas. Se você é o dono daquele armazém do começo, o seu açúcar troca de mão em setenta e duas horas.
+**[N043]** Aí vem o dia seis de julho, e a cota, cláusula de Washington por vinte e cinco anos, vira arma: Eisenhower corta as setecentas mil toneladas que faltavam. Três dias depois, Khrushchev oferece comprar exatamente as mesmas. Se você é o dono daquele armazém do começo, o seu açúcar troca de comprador em setenta e duas horas.
 
-**[N044]** Em sessenta e um, exilados treinados pelos Estados Unidos desembarcam na Baía dos Porcos e são derrotados. Em sessenta e dois, mísseis soviéticos na ilha quase começam uma guerra nuclear, e o embargo americano fica total. O comprador novo tinha chegado. Só que ele também ia cobrar.
+**[N044]** Em sessenta e um, exilados treinados pelos Estados Unidos são derrotados na Baía dos Porcos. Em sessenta e dois, vêm o embargo total e a crise dos mísseis. O comprador novo tinha chegado. Só que ele também ia cobrar.
 
 
 ## 8. Seis centavos
@@ -136,7 +136,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## 9. Quase cinco vezes o preço
 
-**[N050]** Washington, começo dos anos oitenta. Analistas da CIA fazem uma conta que parece errada: Moscou paga cerca de quarenta e dois centavos por libra de açúcar cubano, quase cinco vezes o preço do mercado mundial.
+**[N050]** Analistas da CIA, em Washington, fazem no começo dos anos oitenta uma conta que parece errada: Moscou paga cerca de quarenta e dois centavos por libra de açúcar cubano, quase cinco vezes o preço do mercado mundial.
 
 **[N051]** Desde setenta e dois, Cuba está no Comecon, o bloco econômico soviético, com um papel na divisão de trabalho. Olhe qual: açúcar, níquel e frutas cítricas. Só que o pagamento vinha, em grande parte, em rublos de convênio, uma moeda que só comprava dentro do bloco.
 
@@ -153,7 +153,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N056]** Caracas, trinta de outubro de dois mil. Fidel Castro e Hugo Chávez assinam um convênio: a Venezuela manda cinquenta e três mil barris de petróleo por dia, em condições especiais. E Cuba paga com gente: médicos, professores, técnicos.
 
-**[N057]** Repare na mudança: o comprador novo não queria açúcar. Queria serviço. Nos anos seguintes, o petróleo chega a uns cem mil barris por dia, e perto de trinta mil profissionais cubanos trabalham na Venezuela, a maioria na saúde.
+**[N057]** Repare na mudança: o comprador novo não queria açúcar. Queria serviço. Depois, chegam a uns cem mil barris por dia, e perto de trinta mil cubanos trabalham na Venezuela, a maioria na saúde.
 
 **[N058]** E o açúcar? Sem o preço antigo, ele encolhe safra após safra. Tente achar outro país que já foi o maior exportador de açúcar do mundo e hoje compra açúcar de fora.
 
@@ -164,7 +164,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Fecho
 
-**[N061]** Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula, que empurrava Cuba para o próximo: o estanco, a tarifa, a cota, o rublo, os médicos.
+**[N061]** Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula que, quando apertava, só deixava uma saída, outro gigante: o estanco, a tarifa, a cota, o rublo, os médicos.
 
 **[N062]** As setecentas mil toneladas de mil novecentos e sessenta não mudaram de dono. Mudaram de cláusula.
 

@@ -7,8 +7,8 @@
  },
  {
   "id": "N002",
-  "texto": "Aí, no dia seis, Washington corta a cota de Cuba: setecentas mil toneladas ficam sem comprador. Três dias depois, chega um recado de Moscou. A União Soviética compra exatamente essas setecentas mil.",
-  "tela": "Aí, no dia seis, Washington corta a cota de Cuba: setecentas mil toneladas ficam sem comprador. Três dias depois, chega um recado de Moscou. A União Soviética compra exatamente essas setecentas mil.",
+  "texto": "Aí, no dia seis, Washington corta a cota de Cuba: setecentas mil toneladas ficam sem comprador. Três dias depois, chega um recado: Moscou se oferece para comprar exatamente essas setecentas mil.",
+  "tela": "Aí, no dia seis, Washington corta a cota de Cuba: setecentas mil toneladas ficam sem comprador. Três dias depois, chega um recado: Moscou se oferece para comprar exatamente essas setecentas mil.",
   "ideia": false
  },
  {
@@ -85,8 +85,8 @@
  },
  {
   "id": "N015",
-  "texto": "Então Madri vai além. Em mil setecentos e quarenta, uma companhia de Havana ganha o monopólio do comércio com a Espanha: um único balcão compra e vende quase tudo o que a ilha produz.",
-  "tela": "Então Madri vai além. Em mil setecentos e quarenta, uma companhia de Havana ganha o monopólio do comércio com a Espanha: um único balcão compra e vende quase tudo o que a ilha produz.",
+  "texto": "Então Madri vai além. Em mil setecentos e quarenta, uma companhia de Havana ganha o monopólio do comércio com a Espanha: um único balcão para quase tudo.",
+  "tela": "Então Madri vai além. Em mil setecentos e quarenta, uma companhia de Havana ganha o monopólio do comércio com a Espanha: um único balcão para quase tudo.",
   "ideia": true
  },
  {
@@ -115,14 +115,14 @@
  },
  {
   "id": "N020",
-  "texto": "E eles chegam na hora certa. Desde a revolução dos escravizados de noventa e um, o açúcar de São Domingos, a colônia francesa que mais produzia no mundo, tinha sumido do mercado. O preço sobe, e o comprador com dinheiro mora perto. Cuba planta cana como nunca, com centenas de milhares de africanos trazidos à força.",
-  "tela": "E eles chegam na hora certa. Desde a revolução dos escravizados de noventa e um, o açúcar de São Domingos, a colônia francesa que mais produzia no mundo, tinha sumido do mercado. O preço sobe, e o comprador com dinheiro mora perto. Cuba planta cana como nunca, com centenas de milhares de africanos trazidos à força.",
+  "texto": "E chegam na hora certa. Desde a revolução dos escravizados de noventa e um, o açúcar de São Domingos, a colônia francesa que mais produzia no mundo, sumiu do mercado. O preço sobe, e Cuba planta cana como nunca, com centenas de milhares de africanos trazidos à força.",
+  "tela": "E chegam na hora certa. Desde a revolução dos escravizados de noventa e um, o açúcar de São Domingos, a colônia francesa que mais produzia no mundo, sumiu do mercado. O preço sobe, e Cuba planta cana como nunca, com centenas de milhares de africanos trazidos à força.",
   "ideia": false
  },
  {
   "id": "N021",
-  "texto": "Pense no açúcar do seu café: por boa parte do século dezenove, uma fatia enorme dele saía de Cuba. E quem comprava, cada vez mais, falava inglês.",
-  "tela": "Pense no açúcar do seu café: por boa parte do século dezenove, uma fatia enorme dele saía de Cuba. E quem comprava, cada vez mais, falava inglês.",
+  "texto": "Se você plantasse cana em Cuba em meados do século dezenove, o seu melhor cliente já não falava espanhol. Falava inglês.",
+  "tela": "Se você plantasse cana em Cuba em meados do século dezenove, o seu melhor cliente já não falava espanhol. Falava inglês.",
   "ideia": false
  },
  {
@@ -139,8 +139,8 @@
  },
  {
   "id": "N024",
-  "texto": "Washington, mil oitocentos e noventa e um. Num congresso de países da América, um delegado do Uruguai toma notas. Ele é cubano, vive exilado em Nova York e se chama José Martí.",
-  "tela": "Washington, mil oitocentos e noventa e um. Num congresso de países da América, um delegado do Uruguai toma notas. Ele é cubano, vive exilado em Nova York e se chama José Martí.",
+  "texto": "Um cubano exilado em Nova York toma notas num congresso de países da América, em Washington, em mil oitocentos e noventa e um. Ele está ali como delegado do Uruguai e se chama José Martí.",
+  "tela": "Um cubano exilado em Nova York toma notas num congresso de países da América, em Washington, em mil oitocentos e noventa e um. Ele está ali como delegado do Uruguai e se chama José Martí.",
   "ideia": true
  },
  {
@@ -205,8 +205,8 @@
  },
  {
   "id": "N035",
-  "texto": "Washington, maio de mil novecentos e trinta e quatro. No dia nove, Rúsvelt assina uma lei de cotas: o governo americano passa a decidir quanto açúcar cada fornecedor pode vender aos Estados Unidos.",
-  "tela": "Washington, maio de mil novecentos e trinta e quatro. No dia nove, Roosevelt assina uma lei de cotas: o governo americano passa a decidir quanto açúcar cada fornecedor pode vender aos Estados Unidos.",
+  "texto": "Franklin Rúsvelt pega a caneta em nove de maio de mil novecentos e trinta e quatro e assina uma lei de cotas: o governo americano passa a decidir quanto açúcar cada fornecedor pode vender aos Estados Unidos.",
+  "tela": "Franklin Roosevelt pega a caneta em nove de maio de mil novecentos e trinta e quatro e assina uma lei de cotas: o governo americano passa a decidir quanto açúcar cada fornecedor pode vender aos Estados Unidos.",
   "ideia": true
  },
  {
@@ -223,8 +223,8 @@
  },
  {
   "id": "N038",
-  "texto": "Então, por vinte e cinco anos, a ilha vive em torno de um número escrito em Washington. Se você cortava cana, cota alta era emprego; cota baixa, o tempo morto entre uma safra e outra ficava mais comprido.",
-  "tela": "Então, por vinte e cinco anos, a ilha vive em torno de um número escrito em Washington. Se você cortava cana, cota alta era emprego; cota baixa, o tempo morto entre uma safra e outra ficava mais comprido.",
+  "texto": "Então, por vinte e cinco anos, a ilha vive em torno de um número escrito em Washington. Se você cortava cana, era a cota que decidia quantos meses do ano você teria trabalho.",
+  "tela": "Então, por vinte e cinco anos, a ilha vive em torno de um número escrito em Washington. Se você cortava cana, era a cota que decidia quantos meses do ano você teria trabalho.",
   "ideia": true
  },
  {
@@ -253,14 +253,14 @@
  },
  {
   "id": "N043",
-  "texto": "Aí vem o dia seis de julho, e a cota, cláusula de Washington por vinte e cinco anos, vira arma: Áisen-rauer corta as setecentas mil toneladas que faltavam. Três dias depois, Krushóv oferece comprar exatamente as mesmas. Se você é o dono daquele armazém do começo, o seu açúcar troca de mão em setenta e duas horas.",
-  "tela": "Aí vem o dia seis de julho, e a cota, cláusula de Washington por vinte e cinco anos, vira arma: Eisenhower corta as setecentas mil toneladas que faltavam. Três dias depois, Khrushchev oferece comprar exatamente as mesmas. Se você é o dono daquele armazém do começo, o seu açúcar troca de mão em setenta e duas horas.",
+  "texto": "Aí vem o dia seis de julho, e a cota, cláusula de Washington por vinte e cinco anos, vira arma: Áisen-rauer corta as setecentas mil toneladas que faltavam. Três dias depois, Krushóv oferece comprar exatamente as mesmas. Se você é o dono daquele armazém do começo, o seu açúcar troca de comprador em setenta e duas horas.",
+  "tela": "Aí vem o dia seis de julho, e a cota, cláusula de Washington por vinte e cinco anos, vira arma: Eisenhower corta as setecentas mil toneladas que faltavam. Três dias depois, Khrushchev oferece comprar exatamente as mesmas. Se você é o dono daquele armazém do começo, o seu açúcar troca de comprador em setenta e duas horas.",
   "ideia": true
  },
  {
   "id": "N044",
-  "texto": "Em sessenta e um, exilados treinados pelos Estados Unidos desembarcam na Baía dos Porcos e são derrotados. Em sessenta e dois, mísseis soviéticos na ilha quase começam uma guerra nuclear, e o embargo americano fica total. O comprador novo tinha chegado. Só que ele também ia cobrar.",
-  "tela": "Em sessenta e um, exilados treinados pelos Estados Unidos desembarcam na Baía dos Porcos e são derrotados. Em sessenta e dois, mísseis soviéticos na ilha quase começam uma guerra nuclear, e o embargo americano fica total. O comprador novo tinha chegado. Só que ele também ia cobrar.",
+  "texto": "Em sessenta e um, exilados treinados pelos Estados Unidos são derrotados na Baía dos Porcos. Em sessenta e dois, vêm o embargo total e a crise dos mísseis. O comprador novo tinha chegado. Só que ele também ia cobrar.",
+  "tela": "Em sessenta e um, exilados treinados pelos Estados Unidos são derrotados na Baía dos Porcos. Em sessenta e dois, vêm o embargo total e a crise dos mísseis. O comprador novo tinha chegado. Só que ele também ia cobrar.",
   "ideia": false
  },
  {
@@ -295,8 +295,8 @@
  },
  {
   "id": "N050",
-  "texto": "Washington, começo dos anos oitenta. Analistas da CIA fazem uma conta que parece errada: Moscou paga cerca de quarenta e dois centavos por libra de açúcar cubano, quase cinco vezes o preço do mercado mundial.",
-  "tela": "Washington, começo dos anos oitenta. Analistas da CIA fazem uma conta que parece errada: Moscou paga cerca de quarenta e dois centavos por libra de açúcar cubano, quase cinco vezes o preço do mercado mundial.",
+  "texto": "Analistas da CIA, em Washington, fazem no começo dos anos oitenta uma conta que parece errada: Moscou paga cerca de quarenta e dois centavos por libra de açúcar cubano, quase cinco vezes o preço do mercado mundial.",
+  "tela": "Analistas da CIA, em Washington, fazem no começo dos anos oitenta uma conta que parece errada: Moscou paga cerca de quarenta e dois centavos por libra de açúcar cubano, quase cinco vezes o preço do mercado mundial.",
   "ideia": true
  },
  {
@@ -337,8 +337,8 @@
  },
  {
   "id": "N057",
-  "texto": "Repare na mudança: o comprador novo não queria açúcar. Queria serviço. Nos anos seguintes, o petróleo chega a uns cem mil barris por dia, e perto de trinta mil profissionais cubanos trabalham na Venezuela, a maioria na saúde.",
-  "tela": "Repare na mudança: o comprador novo não queria açúcar. Queria serviço. Nos anos seguintes, o petróleo chega a uns cem mil barris por dia, e perto de trinta mil profissionais cubanos trabalham na Venezuela, a maioria na saúde.",
+  "texto": "Repare na mudança: o comprador novo não queria açúcar. Queria serviço. Depois, chegam a uns cem mil barris por dia, e perto de trinta mil cubanos trabalham na Venezuela, a maioria na saúde.",
+  "tela": "Repare na mudança: o comprador novo não queria açúcar. Queria serviço. Depois, chegam a uns cem mil barris por dia, e perto de trinta mil cubanos trabalham na Venezuela, a maioria na saúde.",
   "ideia": false
  },
  {
@@ -361,8 +361,8 @@
  },
  {
   "id": "N061",
-  "texto": "[warm] Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula, que empurrava Cuba para o próximo: o estanco, a tarifa, a cota, o rublo, os médicos.",
-  "tela": "[warm] Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula, que empurrava Cuba para o próximo: o estanco, a tarifa, a cota, o rublo, os médicos.",
+  "texto": "[warm] Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula que, quando apertava, só deixava uma saída, outro gigante: o estanco, a tarifa, a cota, o rublo, os médicos.",
+  "tela": "[warm] Então, por que Cuba sempre dependeu de um país só? Porque quem vive de um produto precisa de preço garantido, e só um gigante garante preço. E cada garantia veio com uma cláusula que, quando apertava, só deixava uma saída, outro gigante: o estanco, a tarifa, a cota, o rublo, os médicos.",
   "ideia": true
  },
  {

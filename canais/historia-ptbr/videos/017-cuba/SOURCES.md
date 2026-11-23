@@ -48,3 +48,8 @@ Checagem detalhada (vereditos, faixas e citações) em `ref/fatos-checados.md` (
 - "Setecentas mil toneladas": toneladas curtas; corte da cota-base (o total com o rateio chegou a ~1 mi t, FRUS).
 - "Perto de trinta mil profissionais": faixa 26–30 mil conforme o ano.
 - Não usar: 425 mil t (1960), 24 mi t a 6,11 c (1964), Real Cédula de 1818, enforcados de 1723, Maine "falsa bandeira".
+
+## Conferências finais (r3, 22/11/2026)
+- **~42 c/lb, "quase cinco vezes"** (N003, N050; Thumb B): CIA, revisão da ajuda soviética a Cuba (US$ 5,3 bi em 1982): "Moscow paid the equivalent of about 42 cents per pound, or nearly five times the world market price, for 3.2 million tons"; preços soviéticos mantidos em 40–42 c/lb; outro paper da CIA ("The Cuban Economy: a Soviet Showcase?", readingroom node 1622167): "in 1982 the USSR paid over five times the world market price for Cuban sugar". Ano-base: início dos anos 1980 (dito assim na narração).
+- **"Maior exportador de açúcar do mundo"** (N058) e **"maior produtora do planeta no século XIX"** (N020): Britannica, "Cuba: Economy / History"; FIU working paper 1306 (açúcar = 84,1% das exportações em 1948–58).
+- **Martí delegado do Uruguai** (N024): UCR, *Ciencias Económicas*; Radio Grito de Baire. **Martí cai em combate** em Dos Ríos, 19/05/1895 (N029): Britannica "José Martí".
