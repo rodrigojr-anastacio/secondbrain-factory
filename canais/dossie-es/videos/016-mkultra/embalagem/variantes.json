@@ -1,0 +1,26 @@
+[
+ {
+  "letra": "A",
+  "titulo": "TODA la historia de MKUltra en 13 minutos | Del laboratorio de la CIA a América Latina",
+  "padrao_titulo": "TODA la historia de X en N minutos | subtítulo concreto",
+  "padrao_thumb": "objeto-simbolo",
+  "thumb_conceito": "4 cogumelos sagrados em pares sobre folha de bananeira com vela acesa, pano bordado mazateco, fundo ardósia, sigla à direita",
+  "thumb_texto": "MKULTRA"
+ },
+ {
+  "letra": "B",
+  "titulo": "Cómo la CIA buscó en América Latina la droga del control mental",
+  "padrao_titulo": "Cómo + organização + verbo concreto + alvo",
+  "padrao_thumb": "rosto-emocao",
+  "thumb_conceito": "Fidel Castro (resembling) em close discursando diante de microfones de rádio de 1960, estúdio escuro, sem charuto",
+  "thumb_texto": "¿DROGARLO?"
+ },
+ {
+  "letra": "C",
+  "titulo": "MKULTRA: lo que la CIA vino a buscar a México… y lo que dejó",
+  "padrao_titulo": "SIGLA: aposto com lacuna",
+  "padrao_thumb": "documento-evidencia",
+  "thumb_conceito": "close extremo da ponta de caneta azul riscando com traço grosso uma linha datilografada, palavra manuscrita acima, sem carimbo",
+  "thumb_texto": "HONDURAS 1983"
+ }
+]

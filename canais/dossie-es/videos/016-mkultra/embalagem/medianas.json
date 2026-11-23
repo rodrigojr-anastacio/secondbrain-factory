@@ -1,0 +1,416 @@
+{
+ "UCgmaAyKSpKzvLgKBBdnGd1w": {
+  "canal": "Los Archivos del FBI",
+  "mediana": 40000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCQfKdb2FWuaPCR8BxzMkF4w": {
+  "canal": "SLICE Historia",
+  "mediana": 47000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCbY0ajS3VbsxQEUiI2zl91g": {
+  "canal": "PelíxLAT",
+  "mediana": 23500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCYr9BpHaw0vKjUPE4dZl1UA": {
+  "canal": "Detrás del Enigma",
+  "mediana": 1600000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCTqb7oZzCYpzOhPenq6AOyQ": {
+  "canal": "Solo Fonseca",
+  "mediana": 610000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCbbsW7_Esx8QZ8PgJ13pGxw": {
+  "canal": "We're In Hell",
+  "mediana": 369000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCeY2aiGS_XT0TlmXWEpF8ag": {
+  "canal": "Psych History Show",
+  "mediana": 24000,
+  "n": 25,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC7aUVsRPKG4Ees4HHJvK8vw": {
+  "canal": "Mistere",
+  "mediana": 185500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCnxGkOGNMqQEUMvroOWps6Q": {
+  "canal": "JRE Clips",
+  "mediana": 484500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC44pgC5JxSFX0IJIC4K4kUQ": {
+  "canal": "Armapedia",
+  "mediana": 523000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCJ5kKhnQUbZmABUeJJvj9aw": {
+  "canal": "FORGOTTEN HISTORY",
+  "mediana": 85000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCopVhz5SlujUpiDiYzWtbpw": {
+  "canal": "Inna Afinogenova",
+  "mediana": 184500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCeGfgM5oI9RSpFIjl_AaOXg": {
+  "canal": "La Base América Latina",
+  "mediana": 248000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCugC9R-gE-6mgUgIqNy387Q": {
+  "canal": "Leyendas Legendarias",
+  "mediana": 223000,
+  "n": 21,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC_0j0mtBAGTj1U7LD3J0dhQ": {
+  "canal": "Raquel de la Morena",
+  "mediana": 341500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCshwRhftzkiov5wKR7M_LsQ": {
+  "canal": "The Independent",
+  "mediana": 8700.0,
+  "n": 10,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC4fraizNH44ZJhIhJ3FVNSA": {
+  "canal": "Operación Umbral",
+  "mediana": 1400.0,
+  "n": 16,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCkVx6TXjapD521kn7UQp7Tw": {
+  "canal": "Letícia Azevedo ",
+  "mediana": 455.0,
+  "n": 10,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCALE1jdtTAmgzyyH4FMU5pQ": {
+  "canal": "Verdad Oculta",
+  "mediana": 82500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCEF_W92s79326UIEGDqC1ZA": {
+  "canal": "Jesús Escobar Tovar ",
+  "mediana": 49000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCpyYUq9kcBMLPlfE8EzguvA": {
+  "canal": "National Geographic España",
+  "mediana": 115500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCx7EWheHmjCW3vX8K2d09vg": {
+  "canal": "Geopop",
+  "mediana": 462000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC1FZF46zaC26_CynNc786_g": {
+  "canal": "Gestión Mundo",
+  "mediana": 42000,
+  "n": 23,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC1PcXyOXmnAvxVDQTpglj2w": {
+  "canal": "Relato Mafioso",
+  "mediana": 36500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCRRmOsG2SPsWvNrUxBWhnRQ": {
+  "canal": "Sufiyan Alam",
+  "mediana": 167000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCFBGAACgY4SBPiMm6GENw2Q": {
+  "canal": "Hora Boa Podcast",
+  "mediana": 9200.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCsC--WvN66vZlDoYShzn4sA": {
+  "canal": "Oxhorn",
+  "mediana": 341000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCCjG8NtOig0USdrT5D1FpxQ": {
+  "canal": "NewsNation",
+  "mediana": 5300,
+  "n": 29,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCtBWBU4oZdCjE4RZa2IYWHA": {
+  "canal": " Hapo Documentales",
+  "mediana": 20500.0,
+  "n": 12,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCb--64Gl51jIEVE-GLDAVTg": {
+  "canal": "C-SPAN",
+  "mediana": 3800.0,
+  "n": 28,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCI4-lWlKDRdWQ6_k9zOn5yg": {
+  "canal": "The Shakedown Archives",
+  "mediana": 18500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCYQ-0fGQqscvvKehtJl4ZIA": {
+  "canal": "Dra. Juliana Varão",
+  "mediana": 3600.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCox4BVcJ5EbX_mDGmfoJqXw": {
+  "canal": "Detrás De La Historia",
+  "mediana": 17000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCS8m-wS904V0Rqot-yOUp2A": {
+  "canal": "El Gybbor",
+  "mediana": 10000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCVvwbez-BNlWvbxtpOx0MGQ": {
+  "canal": "History Latinoamérica",
+  "mediana": 6650.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCd1TjmUZYdZfpnf_-6MSxIA": {
+  "canal": "Historia Incomprendida",
+  "mediana": 84500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC6g3aD7VrqY8oCVzuY1Cf3w": {
+  "canal": "Mente Uno | Un Curso de Milagros",
+  "mediana": 5850.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCFYqNfxE5JWNeYuZuaM4YNQ": {
+  "canal": "Santiago Armesilla",
+  "mediana": 44500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCRP5p2RfxJgnKyWgve5pJ-Q": {
+  "canal": "Canal History Brasil",
+  "mediana": 4500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCV6cHwCrdRjUzmb0eEaQD2g": {
+  "canal": "Mano y Pie Podcast",
+  "mediana": 9400.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCgYjfWvSBfhoLpA1gXPbEaQ": {
+  "canal": "Dustmind",
+  "mediana": 25000,
+  "n": 23,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCyr-mGOzY0oMe4Ghd4KBSNA": {
+  "canal": "Chamuco Media",
+  "mediana": 17000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC3tc-_SC5TzRRQq_Au7O4bQ": {
+  "canal": "Impacto Hispano",
+  "mediana": 149500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCvmu85FSKRRrrsxakZaMtkA": {
+  "canal": "Acervo R",
+  "mediana": 10500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC-Pj1FHLkeW_LDxIHvPwggw": {
+  "canal": "DDGotAPodcast",
+  "mediana": 44500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCA0AXvVu2kZ4nauMgXs_Naw": {
+  "canal": "El DoQmentalista",
+  "mediana": 127500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCUwQuok8IflfddZsBX8GMKw": {
+  "canal": "FRAGMENTOS DE LA NOCHE",
+  "mediana": 76500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCvvOHrs5pzdWg_zaFIpO8xQ": {
+  "canal": "SLICE Iberia",
+  "mediana": 8350.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCh_g_Pyu8y4gO4IYOcNXC2w": {
+  "canal": "Lynne Scott Haggerman",
+  "mediana": 109.5,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCku9KB11TReyHHC1kK9CCEw": {
+  "canal": "Atlas del Tiempo",
+  "mediana": 1200.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCvLRBbXcii7xlc7M99T-jcQ": {
+  "canal": "Espía Real",
+  "mediana": 21500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCjl9zpIHKkIeIuAhrCbzNNw": {
+  "canal": "Frontline War Memoirs ES",
+  "mediana": 16500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCFp0Rk-ad8JD78Qw9nEJ29w": {
+  "canal": "Archive in Minutes",
+  "mediana": 48000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCnHSeFNeHRWCDbKStpyafTQ": {
+  "canal": "Historias que Definieron el Mundo",
+  "mediana": 306,
+  "n": 5,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCEjE_dL7yMyJFmOyG9LyT5A": {
+  "canal": "Ruinas de Guerra",
+  "mediana": 3400,
+  "n": 17,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC_xOw1M_N9fF-rmfvFej7Mg": {
+  "canal": "REVISI",
+  "mediana": 86500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCxZv3NCUdGrdHzjqYMO_XQw": {
+  "canal": "CUBA OCULTA: La Historia No Contada",
+  "mediana": 12000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC_ViDWteHf0zGmTHM3F7ejg": {
+  "canal": "Curious",
+  "mediana": 237.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCvbSb3eTAh3KboRbWDa6izg": {
+  "canal": "Kin",
+  "mediana": 225500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCQvkda3QeQcLoAx_E2AokVg": {
+  "canal": "La Nueva Enciclopedia",
+  "mediana": 99000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCv05qOuJ6Igbe-EyQibJgwQ": {
+  "canal": "Academia Play",
+  "mediana": 251000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCT3KFeysRQwF3yKF5H_HVug": {
+  "canal": "UniVista TV",
+  "mediana": 3300.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCJQFbOJfbN6ZjJ3R5AvxNyg": {
+  "canal": "Congress Clips",
+  "mediana": 386.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCnIMw3MjiosUjmzBo5w4Lkg": {
+  "canal": "Archivo Desclasificado",
+  "mediana": 36500.0,
+  "n": 22,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCdTR6FOkrBkFwopHey4Okag": {
+  "canal": "Luis Dener",
+  "mediana": 13000.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC-sERVMqZHbDU4hpGNkAoYg": {
+  "canal": "Imperio De La Comida",
+  "mediana": 4300.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCOnuheHbS2DgZiAZFL0-Sbg": {
+  "canal": "Brasil de Fato",
+  "mediana": 988.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UCKDjjeeBmdaiicey2nImISw": {
+  "canal": "Brasil Paralelo",
+  "mediana": 10500.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ },
+ "UC47Sb64nlInHTYEDcn0l7NQ": {
+  "canal": "Secretos de Cuba",
+  "mediana": 8650.0,
+  "n": 30,
+  "fonte": "yt-dlp aba /videos"
+ }
+}
