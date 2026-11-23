@@ -34,3 +34,14 @@
 - Full movie de IA (Veylorn): 5,93M com canal de 46 mil inscritos; as partes seriadas fazem mediana de 480 mil.
 - Hook com contraste de escala e loop aberto (NVIDIA, 1,36M) e abertura em diálogo no meio da cena (Lost Kind, 5,9M): só 2 vídeos com transcrição.
 - Fonte: `pesquisa/tendencias/2026-11-19-batch.md`.
+
+## 2026-11-23 — 39 vídeos
+- Títulos "What If Your CRUSH…?" em 2ª pessoa — 2 canais, 17 vídeos, mediana Zack Mils ≈ 131 mil, pico 804 mil
+- Títulos "[Desastre]: What [investigadores/crew] Found/Did…" — 2 canais, 6 vídeos, pico 1,93M (Challenger)
+- Número concreto + tempo/escala curta no título — 3 canais, 5 vídeos, mediana ≈ 2,2M (amostra enviesada por outliers)
+- Thumb com seta/círculo + 1–4 palavras no top de views — 3 canais, vídeos de 1,45M a 10,8M
+- Thumb de 2 personagens em close com pânico vs confiança, sem texto — Zack Mils, 16 vídeos, 51 mil a 804 mil
+- Compilação Roblox em grade de 3–4 painéis, série numerada — 11 vídeos, mediana ≈ 326 mil; #7 = 6 mil, #9 = 34 mil
+- Canais com < 30 dias e < 30 mil inscritos puxam 100 mil a 2,5M em alguns vídeos — 5 canais, alta variância (405 a 2,58M)
+- Documentário esquemático 2D/3D em fundo escuro, ~11–14 cortes/min — 2 canais (Gloam, Hadalogy), 1,93M e 2,58M nos picos
+- Fonte: `pesquisa/tendencias/2026-11-23-batch.md`.
