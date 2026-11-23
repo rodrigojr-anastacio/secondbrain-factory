@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Expedientes Secretos · Dossier en Minutos · Muestra</title>
+<!--
+  Amostra do PDF compilado (proposta de 23/11/2026). Formato 6x9 pol. (pronto para virar KDP).
+  Fontes livres: Bebas Neue (SIL OFL 1.1), Special Elite (Apache 2.0), ambas em ../../../identidade/fontes;
+  Liberation Serif (SIL OFL 1.1, fonte do sistema). Imagens: as já geradas para os vídeos 001, 004 e 005 (custo US$ 0).
+  Gerar: ./build.sh  (WeasyPrint → ../amostra.pdf + jpgs)
+-->
+<style>
+@font-face { font-family: "Bebas"; src: url("../../../identidade/fontes/BebasNeue-Regular.ttf"); }
+@font-face { font-family: "Typer"; src: url("../../../identidade/fontes/SpecialElite-Regular.ttf"); }
+@page { size: 6in 9in; margin: 0; }
+:root { --papel:#E9DFC9; --papel2:#DCCFB2; --rojo:#B3261E; --pizarra:#2E3A46; --tinta:#1A1A1A; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #555; }
+body { font-family: "Liberation Serif", serif; color: var(--tinta); font-size: 10.8pt; line-height: 1.34; }
+.page { width: 6in; height: 9in; position: relative; overflow: hidden; page-break-after: always; break-after: page;
+  background: var(--papel);
+  background-image: radial-gradient(ellipse at 20% 10%, rgba(255,255,255,.35), transparent 60%),
+                    radial-gradient(ellipse at 90% 95%, rgba(120,90,40,.18), transparent 55%);
+  padding: .42in .45in .5in .45in; }
+.page:last-child { page-break-after: auto; break-after: auto; }
+.typer { font-family: "Typer", monospace; }
+.bebas { font-family: "Bebas", sans-serif; letter-spacing: .02em; }
+h2 { font-family: "Bebas"; font-weight: normal; font-size: 25pt; line-height: 1; letter-spacing: .03em; }
+h3 { font-family: "Bebas"; font-weight: normal; font-size: 14pt; letter-spacing: .04em; color: var(--rojo); margin: .08in 0 .04in; }
+.sub { font-family: "Typer"; font-size: 9pt; color: #3b3328; }
+.rule { height: 2px; background: var(--rojo); margin: .06in 0 .1in; width: 1.3in; }
+.foot { position: absolute; left: .45in; right: .45in; bottom: .22in; font-family: "Typer"; font-size: 6.6pt; color: #6b5d48;
+  display: flex; justify-content: space-between; border-top: 1px solid #b9a988; padding-top: .05in; }
+.tab { position: absolute; top: 0; right: .45in; background: var(--papel2); border: 1px solid #b4a27e; border-top: none;
+  font-family: "Typer"; font-size: 7.6pt; padding: .07in .16in .06in; border-radius: 0 0 6px 6px; }
+.stamp { position: absolute; font-family: "Bebas"; color: var(--rojo); border: 3px solid var(--rojo); border-radius: 4px;
+  padding: .02in .12in 0; letter-spacing: .08em; opacity: .82; mix-blend-mode: multiply; transform: rotate(-9deg);
+  box-shadow: inset 0 0 0 2px var(--papel), inset 0 0 0 4px var(--rojo); }
+.photo { background: #f4eee0; padding: .06in .06in .06in; box-shadow: 1px 2px 5px rgba(0,0,0,.35); position: relative; }
+.photo img { display: block; width: 100%; filter: contrast(1.02) saturate(.92); }
+.photo .cap { font-family: "Typer"; font-size: 6.8pt; color: #4a4033; padding-top: .04in; }
+.clip { position: absolute; top: -.12in; left: .3in; width: .14in; height: .42in; border: 2px solid #8d8d8d; border-radius: 8px; }
+p + p { margin-top: .06in; }
+b { font-weight: bold; }
+.red { color: var(--rojo); }
+
+/* ---------- CAPA ---------- */
+.cover { background: var(--pizarra); padding: 0; color: var(--papel); }
+.cover .folder { position: absolute; left: .32in; right: .32in; top: .62in; bottom: .5in; background: var(--papel);
+  border-radius: 0 6px 6px 6px; box-shadow: 0 6px 18px rgba(0,0,0,.55);
+  background-image: radial-gradient(ellipse at 30% 0%, rgba(255,255,255,.35), transparent 60%), radial-gradient(ellipse at 80% 100%, rgba(120,90,40,.25), transparent 60%); }
+.cover .folder:before { content: "DOSSIER EN MINUTOS · VOL. 1"; position: absolute; top: -.3in; left: 0; height: .3in; width: 2.6in;
+  background: var(--papel); border-radius: 6px 10px 0 0; font-family: "Typer"; font-size: 8pt; color: var(--tinta); padding: .09in .16in 0; }
+.cover .t1 { position: absolute; top: .3in; left: .3in; right: .3in; font-family: "Bebas"; color: var(--tinta); font-size: 56pt; line-height: 1.0; }
+.cover .t1 span { color: var(--rojo); }
+.cover .t2 { position: absolute; top: 1.98in; left: .3in; right: .5in; font-family: "Typer"; font-size: 10pt; color: #2b251c; line-height: 1.35; }
+.cover .uline { position: absolute; top: 1.86in; left: .3in; width: 1.6in; height: 3px; background: var(--rojo); }
+.cover .p1 { position: absolute; width: 3.0in; left: .25in; top: 2.85in; transform: rotate(-3deg); }
+.cover .p2 { position: absolute; width: 2.7in; right: .2in; top: 4.0in; transform: rotate(4deg); z-index: 3; }
+.cover .p3 { position: absolute; width: 2.9in; left: .35in; top: 5.3in; transform: rotate(-1.5deg); }
+.cover .stamp { right: .3in; top: 2.95in; z-index: 4; font-size: 26pt; transform: rotate(-14deg); }
+.cover .bottom { position: absolute; left: .3in; right: .3in; bottom: .22in; font-family: "Typer"; font-size: 8pt; color: #2b251c;
+  display: flex; justify-content: space-between; align-items: flex-end; }
+.cover .vivo { font-family: "Bebas"; font-size: 13pt; color: var(--rojo); letter-spacing: .06em; }
+.cover .logo { width: .55in; height: .55in; border-radius: 50%; }
+.cover .band { position: absolute; bottom: .14in; left: 0; right: 0; text-align: center; font-family: "Typer"; font-size: 7pt; color: #c9bfa8; }
+
+/* ---------- ÍNDICE ---------- */
+.idx { width: 100%; border-collapse: collapse; margin-top: .06in; }
+.idx td { padding: .062in .03in; border-bottom: 1px dotted #a8977a; vertical-align: top; }
+.idx td.n { font-family: "Typer"; color: var(--rojo); width: .45in; font-size: 10pt; }
+.idx td.o { font-family: "Bebas"; font-size: 14pt; width: 1.6in; letter-spacing: .03em; }
+.idx td.h { font-size: 9.8pt; }
+.idx tr.hl td { background: rgba(179,38,30,.09); }
+.nota { margin-top: .18in; border: 1.5px dashed var(--rojo); padding: .1in .13in; font-size: 10pt; }
+
+/* ---------- EXPEDIENTE ---------- */
+.hero { margin: .1in .25in .08in; }
+.ficha { width: 100%; border-collapse: collapse; font-size: 9.8pt; margin-top: .04in; }
+.ficha td { border-bottom: 1px solid #c3b392; padding: .035in .02in; vertical-align: top; }
+.ficha td.k { font-family: "Typer"; font-size: 8.2pt; color: #5b4e3b; width: 1.25in; text-transform: uppercase; }
+.resumen { margin-top: .12in; font-size: 10.4pt; }
+.dropnum { font-family: "Bebas"; font-size: 54pt; line-height: .8; color: var(--rojo); float: left; margin-right: .08in; }
+
+.tl { position: relative; margin: .06in 0 0 .02in; padding-left: .2in; border-left: 2px solid var(--rojo); }
+.tl .e { position: relative; margin-bottom: .06in; font-size: 9.9pt; line-height: 1.24; }
+.tl .e:before { content: ""; position: absolute; left: -.247in; top: .03in; width: .08in; height: .08in; background: var(--rojo); border-radius: 50%; border: 2px solid var(--papel); }
+.tl .d { font-family: "Typer"; font-size: 8.6pt; color: var(--rojo); display: inline-block; width: .92in; }
+.map { position: relative; margin-top: .16in; }
+.map .pin { position: absolute; width: .085in; height: .085in; margin: -.0425in 0 0 -.0425in; background: var(--rojo); border: 1.5px solid #fff; border-radius: 50%; }
+.map .lbl { position: absolute; font-family: "Typer"; font-size: 6.8pt; background: var(--papel); padding: 0 .03in; border: 1px solid #9b8a6a; white-space: nowrap; transform: translate(.06in, -.13in); }
+.map .lbl.l { transform: translate(-100%, -.13in) translateX(-.06in); }
+
+.ev { display: grid; grid-template-columns: 2.15in 1fr; gap: .13in .15in; margin-top: .08in; align-items: start; }
+.ev .photo { padding: .04in; }
+.ev .tx { font-size: 9.9pt; line-height: 1.27; }
+.ev .tx .lab { font-family: "Typer"; font-size: 8pt; color: var(--rojo); display: block; }
+.ev .tx .nm { font-family: "Bebas"; font-size: 15pt; letter-spacing: .03em; display: block; line-height: 1; margin-bottom: .02in; }
+
+.nocont { counter-reset: n; }
+.nocont .it { position: relative; padding-left: .3in; margin-bottom: .085in; font-size: 10.1pt; line-height: 1.28; }
+.nocont .it:before { counter-increment: n; content: counter(n); position: absolute; left: 0; top: -.02in; font-family: "Bebas"; font-size: 17pt; color: var(--rojo); }
+.fuentes { margin-top: .06in; font-size: 8.1pt; line-height: 1.25; column-count: 2; column-gap: .18in; }
+.fuentes li { margin: 0 0 .03in .13in; }
+.verlo { margin-top: .08in; background: var(--pizarra); color: var(--papel); padding: .08in .12in; font-family: "Typer"; font-size: 8pt; display: flex; justify-content: space-between; }
+.stats { display: flex; gap: .08in; margin-top: .12in; }
+.stats div { flex: 1; border-top: 3px solid var(--rojo); padding-top: .05in; font-family: "Typer"; font-size: 7.6pt; line-height: 1.2; color: #4a4033; }
+.stats b { display: block; font-family: "Bebas"; font-weight: normal; font-size: 21pt; color: var(--tinta); line-height: 1; }
+.verlo b { color: #ffd9d4; font-weight: normal; }
+</style>
+</head>
+<body>
+
+<!-- ============ 1. CAPA ============ -->
+<section class="page cover">
+  <div class="folder">
+    <div class="t1">EXPEDIENTES<br><span>SECRETOS</span></div>
+    <div class="uline"></div>
+    <div class="t2">Espías, mafias y policías secretas que movieron la historia: caso por caso, con fechas, pruebas y fuentes.</div>
+    <div class="photo p1"><div class="clip"></div><img src="../../../videos/004-cosa-nostra/imagens/I002.jpg"><div class="cap">Exp. 004 · Sicilia, 1945</div></div>
+    <div class="photo p2"><div class="clip"></div><img src="../../../videos/005-kgb/imagens/I084.jpg"><div class="cap">Exp. 005 · Londres, 1978</div></div>
+    <div class="photo p3"><div class="clip"></div><img src="../../../videos/001-cia/imagens/I001.jpg"><div class="cap">Exp. 001 · Guatemala, 1954</div></div>
+    <div class="stamp">CLASIFICADO</div>
+    <div class="bottom">
+      <div><div class="vivo">15 EXPEDIENTES · COLECCIÓN VIVA</div>Cada expediente nuevo del canal se suma gratis a tu copia.</div>
+      <img class="logo" src="../../../identidade/logo-1.png">
+    </div>
+  </div>
+  <div class="band">MUESTRA · portada + expediente Nº 005 completo</div>
+</section>
+
+<!-- ============ 2. ÍNDICE ============ -->
+<section class="page">
+  <div class="tab">ÍNDICE DE LA COLECCIÓN</div>
+  <h2>Contenido</h2>
+  <div class="rule"></div>
+  <p class="sub">Cada expediente: ficha clasificada · línea del tiempo · mapa · piezas de evidencia · lo que no se contó en el video · fuentes.</p>
+  <table class="idx">
+    <tr><td class="n">001</td><td class="o">La CIA</td><td class="h">La radio que tumbó a un presidente · Guatemala, 1954</td></tr>
+    <tr><td class="n">002</td><td class="o">El Mossad</td><td class="h">El MiG-21 que cambió de bando · Irak, 1966</td></tr>
+    <tr><td class="n">003</td><td class="o">El FBI</td><td class="h">El robo de la oficina de Media · Pensilvania, 1971</td></tr>
+    <tr><td class="n">004</td><td class="o">La Cosa Nostra</td><td class="h">La estampa del santo · Palermo, 1945</td></tr>
+    <tr class="hl"><td class="n">005</td><td class="o">La KGB</td><td class="h">El paraguas de Waterloo · Londres, 1978 <b class="red">← en esta muestra</b></td></tr>
+    <tr><td class="n">006</td><td class="o">Los Masones</td><td class="h">El libro de William Morgan · Nueva York, 1826</td></tr>
+    <tr><td class="n">007</td><td class="o">Las SS</td><td class="h">El anciano de Bertioga · Brasil, 1979</td></tr>
+    <tr><td class="n">008</td><td class="o">La Inquisición</td><td class="h">El cirujano de Tucumán · Lima, 1639</td></tr>
+    <tr><td class="n">009</td><td class="o">La Gestapo</td><td class="h">El empresario de La Paz · Bolivia, 1983</td></tr>
+    <tr><td class="n">010</td><td class="o">Cártel de Medellín</td><td class="h">La guerra contra la extradición · Antioquia, 1991</td></tr>
+    <tr><td class="n">011</td><td class="o">Los Templarios</td><td class="h">El asedio de Monzón · Aragón, 1309</td></tr>
+    <tr><td class="n">012</td><td class="o">El MI6</td><td class="h">El mapa nazi de Sudamérica · Washington, 1941</td></tr>
+    <tr><td class="n">013</td><td class="o">Núremberg</td><td class="h">El juicio que inventó un delito · 1945–1946</td></tr>
+    <tr><td class="n">014</td><td class="o">La Yakuza</td><td class="h">El cineasta de Tokio · 1992</td></tr>
+    <tr><td class="n">015</td><td class="o">El GRU</td><td class="h">El empresario uruguayo de Bruselas · 1941</td></tr>
+  </table>
+  <div class="nota"><b class="red">COLECCIÓN VIVA.</b> Esta carpeta crece con el canal: cada expediente nuevo de <i>Dossier en Minutos</i> se añade a tu copia sin costo. Descarga siempre la última versión desde tu acceso.</div>
+  <div class="foot"><span>DOSSIER EN MINUTOS · EXPEDIENTES SECRETOS · VOL. 1</span><span>2</span></div>
+</section>
+
+<!-- ============ 3. EXPEDIENTE 005 · FICHA ============ -->
+<section class="page">
+  <div class="tab">EXPEDIENTE Nº 005</div>
+  <div class="stamp" style="right:.4in; top:.62in; font-size:17pt;">DISUELTO 1991</div>
+  <div class="sub">MOSCÚ · 1917–1991</div>
+  <h2 style="font-size:40pt; margin-top:.02in;">LA KGB</h2>
+  <div class="sub" style="margin-top:.02in;">Comité de Seguridad del Estado de la URSS</div>
+  <div class="photo hero"><img src="../../../videos/005-kgb/imagens/I014.jpg"><div class="cap">La Lubianka, Moscú. Sede de la policía secreta desde 1918.</div></div>
+  <table class="ficha">
+    <tr><td class="k">Nombre</td><td>Komitet Gosudárstvennoi Bezopásnosti (KGB)</td></tr>
+    <tr><td class="k">Linaje</td><td>Cheká (1917) → GPU / OGPU → NKVD → MGB → <b>KGB (13 de marzo de 1954)</b></td></tr>
+    <tr><td class="k">Sede</td><td>Plaza Lubianka, Moscú (antigua compañía de seguros Rossiya)</td></tr>
+    <tr><td class="k">Emblema</td><td>Un escudo y una espada</td></tr>
+    <tr><td class="k">Jefe más longevo</td><td>Yuri Andrópov, 1967–1982 (después, líder de la URSS)</td></tr>
+    <tr><td class="k">En América Latina</td><td>México (Trotski, Oswald), Cuba (1962), Chile (1970)</td></tr>
+    <tr><td class="k">Fin</td><td>Diciembre de 1991. Herederos: FSB (interior) y SVR (exterior)</td></tr>
+  </table>
+  <div class="resumen"><span class="dropnum">74</span>años de policía secreta bajo seis siglas distintas. Nació con unas decenas de hombres para defender a Lenin y terminó con cientos de miles de agentes, espías en cada continente y un archivo que un solo hombre copió a mano durante doce años. Este expediente reúne sus fechas, sus piezas de evidencia y lo que no cupo en el video.</div>
+  <div class="stats">
+    <div><b>~40</b>hombres en la Cheká de 1917</div>
+    <div><b>200.000+</b>con sus tropas en 1921</div>
+    <div><b>681.692</b>ejecuciones en 1937–1938</div>
+    <div><b>1,52 mm</b>la bolita de Markov</div>
+  </div>
+  <div class="foot"><span>DOSSIER EN MINUTOS · EXPEDIENTE Nº 005 · LA KGB</span><span>3</span></div>
+</section>
+
+<!-- ============ 4. LÍNEA DEL TIEMPO + MAPA ============ -->
+<section class="page">
+  <div class="tab">EXPEDIENTE Nº 005</div>
+  <h2>Línea del tiempo</h2>
+  <div class="rule"></div>
+  <div class="tl">
+    <div class="e"><span class="d">20·12·1917</span>Lenin crea la Cheká en Petrogrado.</div>
+    <div class="e"><span class="d">05·09·1918</span>Decreto del Terror Rojo: detener y fusilar sin juicio.</div>
+    <div class="e"><span class="d">30·07·1937</span>Orden 00447 del NKVD: cuotas de fusilamientos por región.</div>
+    <div class="e"><span class="d">20·08·1940</span>Ramón Mercader ataca a Trotski en Coyoacán, México.</div>
+    <div class="e"><span class="d">29·08·1949</span>Primera bomba atómica soviética, en Kazajistán.</div>
+    <div class="e"><span class="d">13·03·1954</span>Nace la KGB, tras el arresto y fusilamiento de Beria.</div>
+    <div class="e"><span class="d">10·02·1962</span>"Rudolf Abel" cambiado por Francis Gary Powers en Berlín.</div>
+    <div class="e"><span class="d">26·10·1962</span>Crisis de los misiles: el almuerzo Feklisov–Scali en Washington.</div>
+    <div class="e"><span class="d">09·1963</span>Oswald en la embajada soviética de Ciudad de México.</div>
+    <div class="e"><span class="d">07·09·1978</span>Georgi Markov, herido junto al puente de Waterloo.</div>
+    <div class="e"><span class="d">19·07·1985</span>Oleg Gordievski escapa a Finlandia en un maletero.</div>
+    <div class="e"><span class="d">22·08·1991</span>Cae la estatua de Dzerzhinski frente a la Lubianka.</div>
+    <div class="e"><span class="d">03·1992</span>Vasili Mitrojin entrega su archivo en Riga.</div>
+  </div>
+  <div class="photo map">
+    <img src="../../../videos/005-kgb/imagens/I191.jpg">
+    <!-- pinos medidos na grade de I191 (1344x768) -->
+    <span class="pin" style="left:48.8%;top:27.9%"></span><span class="lbl l" style="left:48.8%;top:27.9%">Londres 1978</span>
+    <span class="pin" style="left:60.0%;top:25.5%"></span><span class="lbl" style="left:60.0%;top:25.5%">Moscú</span>
+    <span class="pin" style="left:56.0%;top:25.0%"></span><span class="lbl l" style="left:56.0%;top:21.5%">Riga 1992</span>
+    <span class="pin" style="left:53.7%;top:27.6%"></span><span class="lbl" style="left:53.7%;top:32.0%">Berlín 1962</span>
+    <span class="pin" style="left:31.3%;top:34.0%"></span><span class="lbl" style="left:31.3%;top:34.0%">Nueva York 1957</span>
+    <span class="pin" style="left:21.3%;top:45.6%"></span><span class="lbl l" style="left:21.3%;top:45.6%">México 1940 · 1963</span>
+    <span class="pin" style="left:25.9%;top:43.6%"></span><span class="lbl" style="left:25.9%;top:43.6%">La Habana 1962</span>
+    <span class="pin" style="left:29.5%;top:70.2%"></span><span class="lbl" style="left:29.5%;top:70.2%">Santiago 1970</span>
+    <div class="cap">Dónde actuó: de la Lubianka a Coyoacán, Brooklyn y Santiago.</div>
+  </div>
+  <div class="foot"><span>DOSSIER EN MINUTOS · EXPEDIENTE Nº 005 · LA KGB</span><span>4</span></div>
+</section>
+
+<!-- ============ 5. PIEZAS DE EVIDENCIA ============ -->
+<section class="page">
+  <div class="tab">EXPEDIENTE Nº 005</div>
+  <h2>Piezas de evidencia</h2>
+  <div class="rule"></div>
+  <div class="ev">
+    <div class="photo"><img src="../../../videos/005-kgb/imagens/I050.jpg"></div>
+    <div class="tx"><span class="lab">PIEZA A · MOSCÚ, 1937</span><span class="nm">Orden Nº 00447</span>Firmada por Nikolái Yezhov. No investiga delitos: reparte cifras. La primera tabla fija 75.950 fusilamientos. Entre 1937 y 1938, los registros del NKVD cuentan unas 681.692 ejecuciones.</div>
+
+    <div class="photo"><img src="../../../videos/005-kgb/imagens/I077.jpg"></div>
+    <div class="tx"><span class="lab">PIEZA B · COYOACÁN, 1940</span><span class="nm">El piolet</span>Un piolet de alpinista escondido bajo una gabardina. Mercader pasó veinte años preso en México; en 1961, Moscú lo nombró Héroe de la Unión Soviética.</div>
+
+    <div class="photo"><img src="../../../videos/005-kgb/imagens/I106.jpg"></div>
+    <div class="tx"><span class="lab">PIEZA C · BROOKLYN, 1953</span><span class="nm">La moneda hueca</span>Una moneda de cinco centavos que se parte en dos al caer. Dentro, un microfilm con columnas de números. El FBI tardó cuatro años en saber de quién era.</div>
+
+    <div class="photo"><img src="../../../videos/005-kgb/imagens/I153.jpg"></div>
+    <div class="tx"><span class="lab">PIEZA D · LONDRES, 1978</span><span class="nm">La bolita de Markov</span>Una esfera de metal de 1,52 mm con dos orificios diminutos. Los forenses no hallaron el veneno; concluyeron que probablemente era ricina.</div>
+
+    <div class="photo"><img src="../../../videos/005-kgb/imagens/I185.jpg"></div>
+    <div class="tx"><span class="lab">PIEZA E · RUSIA, 1972–1984</span><span class="nm">Los bidones de Mitrojin</span>Notas copiadas a mano en el archivo de la KGB, sacadas en los zapatos y escondidas en bidones de leche bajo el suelo de una casa de campo.</div>
+  </div>
+  <div class="foot"><span>DOSSIER EN MINUTOS · EXPEDIENTE Nº 005 · LA KGB</span><span>5</span></div>
+</section>
+
+<!-- ============ 6. LO QUE NO SE CONTÓ + FUENTES ============ -->
+<section class="page">
+  <div class="tab">EXPEDIENTE Nº 005</div>
+  <div class="stamp" style="right:.45in; top:.5in; font-size:13pt;">SOLO EN EL PDF</div>
+  <h2>Lo que no se contó<br>en el video</h2>
+  <div class="rule"></div>
+  <div class="nocont">
+    <div class="it"><b>"Rudolf Abel" no se llamaba así.</b> Su nombre real era William Fisher y había nacido en 1903 en Newcastle, Inglaterra, hijo de revolucionarios rusos exiliados. "Abel" era el nombre de un colega suyo.</div>
+    <div class="it"><b>El hombre del almuerzo ya conocía Occidente por dentro.</b> Antes de la crisis de los misiles, Alexandr Feklisov había sido el contacto de Julius Rosenberg en Nueva York y de Klaus Fuchs en Londres.</div>
+    <div class="it"><b>Mercader entró en la casa de Trotski con otro nombre.</b> Se presentaba como "Jacques Mornard", un supuesto belga, y viajaba con un pasaporte a nombre de "Frank Jacson".</div>
+    <div class="it"><b>Markov fue atacado el 7 de septiembre,</b> el día del cumpleaños de Todor Zhivkov, el dictador del que se burlaba. El paraguas nunca apareció.</div>
+    <div class="it"><b>La fuga de Gordievski tenía nombre en clave: Operación Pimlico.</b> La bolsa de la señal era de Safeway, una cadena de supermercados británica.</div>
+    <div class="it"><b>La estatua de Dzerzhinski no se destruyó.</b> Hoy está en el parque Muzeon de Moscú, junto a otros monumentos soviéticos retirados.</div>
+  </div>
+  <h3>Fuentes</h3>
+  <ul class="fuentes">
+    <li>C. Andrew y V. Mitrokhin, <i>The Sword and the Shield</i> (1999) y <i>The World Was Going Our Way</i> (2005).</li>
+    <li>O. Kalugin, <i>The First Directorate</i> (1994).</li>
+    <li>B. Macintyre, <i>The Spy and the Traitor</i> (2018).</li>
+    <li>A. Feklisov, <i>The Man Behind the Rosenbergs</i> (2001).</li>
+    <li>O. Nechiporenko, <i>Passport to Assassination</i> (1993).</li>
+    <li>Memorial: estadísticas del NKVD, 1937–1938.</li>
+    <li>Warren Commission Report (1964) y HSCA (1979).</li>
+    <li>BBC, "Death of a dissident" (2008).</li>
+    <li>Museo Casa de León Trotsky, Coyoacán.</li>
+  </ul>
+  <div class="verlo"><span>Mira el expediente en video:</span><b>youtube.com/@dossieminutos</b></div>
+  <div class="photo" style="margin:.1in auto 0; width:2.9in; transform: rotate(-1deg);"><img src="../../../videos/005-kgb/imagens/I176.jpg"><div class="cap">Lubianka, 22 de agosto de 1991: la grúa retira a "Félix de Hierro".</div></div>
+  <div class="foot"><span>DOSSIER EN MINUTOS · EXPEDIENTE Nº 005 · LA KGB</span><span>6</span></div>
+</section>
+
+</body>
+</html>
