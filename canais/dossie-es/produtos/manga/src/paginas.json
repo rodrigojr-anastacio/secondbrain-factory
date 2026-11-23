@@ -1,0 +1,622 @@
+{
+ "estilo": "manga",
+ "capa": {
+  "img": "arte/K01.jpg",
+  "foco_y": 0.4
+ },
+ "paginas": [
+  {
+   "saida": "pagina-1",
+   "arte": "arte",
+   "estilo": "manga",
+   "cabecalho": "OPERACIÓN GARBO  ·  CAPÍTULO 1: EL HOMBRE QUE NADIE QUERÍA",
+   "numero": 1,
+   "paineis": [
+    {
+     "img": "P101",
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "img": "P102",
+     "rect": [
+      80,
+      760,
+      1100,
+      700
+     ],
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "img": "P103",
+     "rect": [
+      1210,
+      760,
+      510,
+      700
+     ],
+     "foco": [
+      0.5,
+      0.35
+     ]
+    },
+    {
+     "img": "P104",
+     "rect": [
+      80,
+      1490,
+      1640,
+      620
+     ],
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "img": "P105",
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "foco": [
+      0.5,
+      0.62
+     ]
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "painel": "P101",
+     "pos": [
+      0.015,
+      0.04
+     ],
+     "larg": 420,
+     "texto": "Madrid, enero de 1941."
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P101",
+     "pos": [
+      0.62,
+      0.04
+     ],
+     "larg": 600,
+     "texto": "España pasa hambre. Europa está en guerra. Y un catalán de 28 años está a punto de tocar una puerta."
+    },
+    {
+     "tipo": "fala",
+     "painel": "P102",
+     "pos": [
+      0.19,
+      0.2
+     ],
+     "larg": 330,
+     "alvo": [
+      0.343,
+      0.33
+     ],
+     "texto": "Quiero trabajar para ustedes. ¡Quiero espiar a los nazis!"
+    },
+    {
+     "tipo": "fala",
+     "painel": "P103",
+     "pos": [
+      -0.12,
+      0.13
+     ],
+     "larg": 300,
+     "alvo": [
+      0.6,
+      0.35
+     ],
+     "texto": "¿Usted? ¿Un civil sin ninguna experiencia?"
+    },
+    {
+     "tipo": "fala",
+     "painel": "P103",
+     "pos": [
+      0.5,
+      0.88
+     ],
+     "larg": 300,
+     "alvo": [
+      0.6,
+      0.39
+     ],
+     "texto": "Lo siento, señor Pujol. No nos interesa."
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P104",
+     "pos": [
+      0.015,
+      0.05
+     ],
+     "larg": 720,
+     "texto": "Le dijeron que no. Volvería a intentarlo. Le volverían a decir que no."
+    },
+    {
+     "tipo": "sfx",
+     "painel": "P104",
+     "pos": [
+      0.9,
+      0.12
+     ],
+     "texto": "PLIC PLOC",
+     "px": 72,
+     "rot": -6
+    },
+    {
+     "tipo": "pensa",
+     "painel": "P105",
+     "pos": [
+      0.14,
+      0.5
+     ],
+     "larg": 280,
+     "alvo": [
+      0.36,
+      0.45
+     ],
+     "texto": "Si los ingleses no me quieren..."
+    },
+    {
+     "tipo": "pensa",
+     "painel": "P105",
+     "pos": [
+      0.86,
+      0.5
+     ],
+     "larg": 280,
+     "alvo": [
+      0.64,
+      0.45
+     ],
+     "texto": "...me querrán los alemanes."
+    }
+   ]
+  },
+  {
+   "saida": "pagina-2",
+   "arte": "arte",
+   "estilo": "manga",
+   "cabecalho": "OPERACIÓN GARBO  ·  CAPÍTULO 1: EL HOMBRE QUE NADIE QUERÍA",
+   "numero": 2,
+   "paineis": [
+    {
+     "img": "P201",
+     "rect": [
+      80,
+      130,
+      1640,
+      640
+     ],
+     "foco": [
+      0.5,
+      0.4
+     ]
+    },
+    {
+     "img": "P202",
+     "rect": [
+      80,
+      800,
+      1060,
+      630
+     ],
+     "foco": [
+      0.6,
+      0.5
+     ]
+    },
+    {
+     "img": "P203",
+     "rect": [
+      1170,
+      800,
+      550,
+      1290
+     ],
+     "foco": [
+      0.45,
+      0.5
+     ]
+    },
+    {
+     "img": "P204",
+     "rect": [
+      80,
+      1460,
+      1060,
+      630
+     ],
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "img": "P205",
+     "rect": [
+      80,
+      2120,
+      1640,
+      490
+     ],
+     "foco": [
+      0.5,
+      0.32
+     ]
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "painel": "P201",
+     "pos": [
+      0.012,
+      0.035
+     ],
+     "larg": 520,
+     "texto": "Así que fue a ver a los alemanes. Ellos sí lo quisieron."
+    },
+    {
+     "tipo": "fala",
+     "painel": "P201",
+     "pos": [
+      0.555,
+      0.17
+     ],
+     "larg": 380,
+     "alvo": [
+      0.7,
+      0.23
+     ],
+     "texto": "Irá a Inglaterra y nos lo contará todo. Su nombre en clave será ALARIC."
+    },
+    {
+     "tipo": "fala",
+     "painel": "P201",
+     "pos": [
+      0.38,
+      0.45
+     ],
+     "larg": 240,
+     "alvo": [
+      0.255,
+      0.37
+     ],
+     "texto": "Cuenten conmigo."
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P201",
+     "pos": [
+      0.6,
+      0.82
+     ],
+     "larg": 640,
+     "texto": "Le dieron dinero, tinta invisible y una lista de preguntas."
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P202",
+     "pos": [
+      0.02,
+      0.04
+     ],
+     "larg": 560,
+     "texto": "Julio de 1941. Pujol nunca llegó a Inglaterra."
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P202",
+     "pos": [
+      0.6,
+      0.82
+     ],
+     "larg": 400,
+     "texto": "Se quedó en Lisboa."
+    },
+    {
+     "tipo": "pensa",
+     "painel": "P203",
+     "pos": [
+      0.3,
+      0.06
+     ],
+     "larg": 220,
+     "alvo": [
+      0.47,
+      0.1
+     ],
+     "texto": "¿Cómo será Glasgow?"
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P203",
+     "pos": [
+      0.04,
+      0.7
+     ],
+     "larg": 500,
+     "texto": "Con una guía turística, horarios de trenes y revistas británicas, inventó Inglaterra entera… desde una biblioteca."
+    },
+    {
+     "tipo": "carta",
+     "painel": "P204",
+     "pos": [
+      0.025,
+      0.05
+     ],
+     "larg": 520,
+     "px": 32,
+     "texto": "«En Glasgow hay hombres que harían cualquier cosa por un litro de vino.»"
+    },
+    {
+     "tipo": "sfx",
+     "painel": "P204",
+     "pos": [
+      0.8,
+      0.86
+     ],
+     "texto": "SCRITCH",
+     "px": 84,
+     "rot": -10,
+     "cor": "vermelho"
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P204",
+     "pos": [
+      0.02,
+      0.84
+     ],
+     "larg": 460,
+     "texto": "Nunca había pisado Gran Bretaña."
+    },
+    {
+     "tipo": "grito",
+     "painel": "P205",
+     "pos": [
+      0.9,
+      0.3
+     ],
+     "larg": 250,
+     "alvo": [
+      0.86,
+      0.33
+     ],
+     "texto": "¡Este Alaric es un genio!"
+    },
+    {
+     "tipo": "fala",
+     "painel": "P205",
+     "pos": [
+      0.1,
+      0.34
+     ],
+     "larg": 260,
+     "alvo": [
+      0.31,
+      0.2
+     ],
+     "texto": "¡Mándenlo todo a Berlín!"
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P205",
+     "pos": [
+      0.33,
+      0.79
+     ],
+     "larg": 660,
+     "texto": "Y en Londres, alguien empezaba a leer esos mismos mensajes…"
+    }
+   ]
+  },
+  {
+   "saida": "pagina-1-estilo-canal",
+   "arte": "arte-cor",
+   "estilo": "cor",
+   "cabecalho": "OPERACIÓN GARBO  ·  CAPÍTULO 1: EL HOMBRE QUE NADIE QUERÍA",
+   "numero": 1,
+   "paineis": [
+    {
+     "img": "P101",
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "img": "P102",
+     "rect": [
+      80,
+      760,
+      1100,
+      700
+     ],
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "img": "P103",
+     "rect": [
+      1210,
+      760,
+      510,
+      700
+     ],
+     "foco": [
+      0.5,
+      0.35
+     ]
+    },
+    {
+     "img": "P104",
+     "rect": [
+      80,
+      1490,
+      1640,
+      620
+     ],
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "img": "P105",
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "foco": [
+      0.5,
+      0.62
+     ]
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "painel": "P101",
+     "pos": [
+      0.015,
+      0.04
+     ],
+     "larg": 420,
+     "texto": "Madrid, enero de 1941."
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P101",
+     "pos": [
+      0.62,
+      0.04
+     ],
+     "larg": 600,
+     "texto": "España pasa hambre. Europa está en guerra. Y un catalán de 28 años está a punto de tocar una puerta."
+    },
+    {
+     "tipo": "fala",
+     "painel": "P102",
+     "pos": [
+      0.19,
+      0.2
+     ],
+     "larg": 330,
+     "alvo": [
+      0.29,
+      0.34
+     ],
+     "texto": "Quiero trabajar para ustedes. ¡Quiero espiar a los nazis!"
+    },
+    {
+     "tipo": "fala",
+     "painel": "P103",
+     "pos": [
+      -0.12,
+      0.13
+     ],
+     "larg": 300,
+     "alvo": [
+      0.56,
+      0.24
+     ],
+     "texto": "¿Usted? ¿Un civil sin ninguna experiencia?"
+    },
+    {
+     "tipo": "fala",
+     "painel": "P103",
+     "pos": [
+      0.5,
+      0.88
+     ],
+     "larg": 300,
+     "alvo": [
+      0.56,
+      0.27999999999999997
+     ],
+     "texto": "Lo siento, señor Pujol. No nos interesa."
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P104",
+     "pos": [
+      0.015,
+      0.05
+     ],
+     "larg": 720,
+     "texto": "Le dijeron que no. Volvería a intentarlo. Le volverían a decir que no."
+    },
+    {
+     "tipo": "sfx",
+     "painel": "P104",
+     "pos": [
+      0.9,
+      0.12
+     ],
+     "texto": "PLIC PLOC",
+     "px": 72,
+     "rot": -6
+    },
+    {
+     "tipo": "pensa",
+     "painel": "P105",
+     "pos": [
+      0.14,
+      0.5
+     ],
+     "larg": 280,
+     "alvo": [
+      0.36,
+      0.45
+     ],
+     "texto": "Si los ingleses no me quieren..."
+    },
+    {
+     "tipo": "pensa",
+     "painel": "P105",
+     "pos": [
+      0.86,
+      0.5
+     ],
+     "larg": 280,
+     "alvo": [
+      0.64,
+      0.45
+     ],
+     "texto": "...me querrán los alemanes."
+    }
+   ]
+  }
+ ]
+}

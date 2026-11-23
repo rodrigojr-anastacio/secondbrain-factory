@@ -1,0 +1,5 @@
+# Caminho (a) mangá P&B + retícula. Técnica de consistência: folha de personagem como ref fixa + mesma descrição física
+refs: ["/home/hermes/workspace/fabrica-youtube/canais/dossie-es/produtos/manga/arte/folha-manga.jpg"]
+ref_instrucao: "The attached image is the CHARACTER MODEL SHEET of JUAN (slim Spanish man, high receding hairline, dark slicked-back hair, thin pencil mustache, thick dark eyebrows, gray double-breasted suit). Whenever JUAN appears, draw him with exactly this face, hairline, mustache, build and suit. Use the sheet only for his design: do not copy the sheet layout, do not draw several views of him. Draw ONE single comic panel image, full bleed, no panel border. Scene: "
+estilo_prompt: "Black and white manga panel art, clean confident ink linework, screentone halftone dot shading, solid black shadows, dramatic manga camera angle, speed lines only where there is motion or tension, high contrast, no color, no gray gradients except screentone dots, no text, no speech balloons, no letters, no sound effects, no captions, no panel border, no frame, no swastikas or extremist insignia"
+parametros_gemini: {imageSize: 4K}
