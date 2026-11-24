@@ -1,0 +1,40 @@
+# Crivo dossie-es/016-mkultra · rodada 5 (extra, última autorizada pelo Rodrigo; tratada como rodada ≥ 2) · 24/11/2026
+Conferido: Data API fora (403, projeto GCP apagado) → yt-dlp via WARP em 4 ids (5r4dbVvCwis 241.228 · 11/04/2026; auxFOGVrS4Q 394.054 · 29/04/2026; agxdvU6hlvY 69.602 · 22/10/2025; YOLm6_pO9-8 20.452 · 29/10/2026: todos a < 1% do declarado); mediana do Frontline War Memoirs ES recontada (30 últimos da aba /videos = 16.500, bate com `medianas.json`); `medianas.json` (Espía Real 21.500, History Latinoamérica 6.650, Ruinas de Guerra 3.400); `mosaico-320.jpg`; `vizinhas-b-r5.jpg`; grade do canal 007–015 (`grade-canal.jpg`, `grade-canal-2.jpg`) + 017 (bíblia `thumb.md`); `variantes.json`; fontes: `pesquisa/FATOS-A.md` §2 e `FATOS-D.md` §3 (citação literal de Marks cap. 7: "By February, he had collected sacks full of material, including 10 pounds of piule"; disfarce "researcher interested in finding native plants which were anesthetics"), BRIEF fato 1. Bíblia: README, `titulo.md`, `thumb.md` (incl. "O que NÃO funciona" e lições 010–017).
+Escopo: Par B avaliado inteiro (Thumb B [REESCRITO r5]); Pares A e C [MANTIDO] conferidos nos itens 0, 3, 6 e 8.
+
+## Par A: APROVADO — "TODA la historia de MKUltra en 13 minutos | Del laboratorio de la CIA a América Latina" + Thumb A (padrão `objeto-simbolo`)
+0 Assunto em < 1 s: ok — "MKULTRA" escrito na thumb e no início do título; cogumelos + pano mazateco dão o México.
+3 Par como peça só: ok — o título diz "a América Latina", a thumb mostra o que foi buscado lá sem dizer para quê; não conflita com a nova B (mesma promessa, outro objeto/composição).
+6 Regras: ok — 86 caracteres, sem palavra proibida, fórmula da bíblia; desvio (sem sello) justificado.
+8 (ver seção de diferenciação): ok.
+
+## Par B: APROVADO — "Cómo la CIA buscó en América Latina la droga del control mental" + Thumb B (padrão `cena-acao`)
+0 Assunto em < 1 s: ok — "la CIA" nas 3 primeiras palavras do título; na imagem, magueyes + adobe caiado = México rural (regra do ícone cultural). A thumb não nomeia MKUltra, mas o título identifica organização, região e objeto ("droga del control mental"): quem vê o par sabe de quê é.
+1 Evidência: título ok (aprovado na r1; YOLm6_pO9-8 20.452 / mediana 3.400 = 6,0×; auxFOGVrS4Q 394.054 / 21.500 = 18,3×) · thumb ok — `cena-acao` com 1–2 figuras grandes executando o ato da promessa, nicho amplo es (exploração, declarado): 5r4dbVvCwis 241.228 / 16.500 = 14,6× (11/04/2026); auxFOGVrS4Q 18,3× (29/04/2026); agxdvU6hlvY 69.602 / 6.650 = 10,5× (22/10/2025, ~398 d, no limite, tema-irmão MKNAOMI). Números reais conferem.
+2 Promessa: ok — o caso da thumb é **documentado e literal** em Marks (cap. 7): jovem cientista disfarçado de pesquisador de anestésicos, serra ao sul da capital, "sacks full of material, including 10 pounds of piule"; docs ARTICHOKE 14/11 e 05/12/1952. É pago **cedo e longo** (expediente 1 antes de 1:00, ≥ 45 s, com atribuição "según el periodista John Marks") e a busca atravessa o vídeo (1952 → 1955–56 → 1966) até a resposta de 1977. Corrige exatamente o defeito das r1–r3 (caso de 1 frase da fonte). O olhar por cima do ombro é encenação do disfarce documentado, declarado como tal; sem nome nem Huautla para o cientista (obrigação escrita).
+3 Par como peça só: ok — título = a busca; thumb = a busca já feita (saco cheio, olhar furtivo) + quantidade; o par pergunta "¿qué droga, y qué hicieron con 10 libras?". Nenhuma palavra/ideia repetida; sem contradição; mesma promessa de A e C.
+4 Celular (320×180 com o título embaixo): ok — 3 elementos, 1 foco (a massa clara do saco, ≥ 30%, maior contraste), 2 palavras pretas sobre lona clara (contraste alto), perfil escuro como contrapeso; no mosaico do tema (neon vermelho, cabeças com fios, rostos de podcast, colagens de líderes) é a única cena diurna, sem vermelho, com gente fazendo algo concreto num lugar latino-americano → destaca-se.
+5 Diferenciação: título — nenhum "Cómo la CIA buscó…" no tema · thumb — nenhuma ref do tema ou do mosaico tem figura carregando objeto; não copia as refs de padrão (armas/mira).
+6 Regras: ok (63 caracteres) — sem palavra proibida, sem arma, sangue ou vermelho apelativo; bíblia: aba "EXPEDIENTE Nº 016" mantida; desvio (sem sigla, sem sello, personagem sem rosto) escrito com porquê; não cai no "O que NÃO funciona": não é Castro/puros, não é "rosto desconhecido ilustrado" (rosto na sombra), não é "agente inventado + faixa pequena" (o cientista existe na fonte e o texto é grande, diegético); não usa padrão de outro canal.
+7 Faz sentido (o par): sim — quem viu 12 thumbs de cérebro com eletrodos encontra a única que promete o caso concreto e regional (um homem da CIA saindo do México com um saco de droga), com título que confirma "en América Latina". Para o público hispano é o ângulo que nenhum vídeo do tema oferece.
+Notas de execução para a skill `thumbnail` (não reprovam):
+- O saco de **10 libras (~4,5 kg)** não pode parecer um saco de 50 kg de café: tamanho de saco de ombro médio, que ocupa ≥ 30% por estar **em primeiro plano perto da câmera**, não por ser gigante (senão o número contradiz a imagem). Prompt atual diz "huge bulging" → trocar por "bulging canvas sack close to the camera".
+- "10 LIBRAS" composto sobre lona curva no Remotion: testar a 320×180 antes de fechar; se a máscara de curvatura/textura comer a legibilidade, priorizar a leitura (estêncil chapado levemente inclinado) sobre o realismo.
+- Sementes escapando: escuras e pequenas, nunca vermelhas (não ler como sangue).
+
+## Par C: APROVADO — "MKULTRA: lo que la CIA vino a buscar a México… y lo que dejó" + Thumb C (padrão `documento-evidencia`)
+0 Assunto em < 1 s: ok — "MKULTRA:" abre o título; bandeira de Honduras na imagem + rótulo "HONDURAS".
+3 Par como peça só: ok — o título promete "lo que dejó", a thumb mostra o que ficou (texto corrigido) e onde; continua coerente com a nova B (B = o que veio buscar; C = o que deixou).
+6 Regras: ok — 60 caracteres, sem palavra proibida, sem carimbo/"SECRET"; desvios declarados.
+8 (ver seção de diferenciação): ok.
+
+## Diferenciação entre as 3 thumbs: ok — A "cogumelos e vela, sigla MKULTRA" / B "perfil sombreado carrega saco numerado" / C "palavra riscada sobre bandeira hondurenha"
+- Composição (natureza-morta escura × pessoa em plano médio de dia × folha plana de frente), elemento dominante (cogumelos × saco × correção a caneta) e tipo de texto (sigla × número com unidade diegético × correção manuscrita + rótulo de lugar) distintos. `variantes.json` existe com A/B/C e bate com o `EMBALAGEM.md` (padrões, conceitos, textos).
+- Grade do canal: o dominante é "objeto/personagem à esquerda + sigla gigante + sello vermelho"; B e C fogem (2 de 3). B não repete vizinha: 017 C = de costas, porto, cartão cor papel "BARCELONA" no canto; 014 C = de frente, rosto inteiro, cartão "YAKUZA"; 007 A = agente de chapéu na praia **de frente** com passaporte + sigla + sello; 012 B/015 B = líder famoso + carimbo "¿X?"; 013 B = refletor em sala escura. B r5 = perfil com rosto na sombra, o saco como massa dominante e o número na lona, sem cartão nem carimbo: elemento dominante e tipo de texto novos na grade.
+- Executável no Codex (`canal.yaml`): cena de 1 figura + objeto, sem letras na base; texto no `src/Thumbnail.jsx`.
+
+## Obrigações para o roteiro: suficientes
+Frase-âncora com prazo (≤ 0:35), linha de promessa nomeada (≤ 0:50), expediente 1 do Par B com início (< 1:00), duração (≥ 45 s), número atribuído a Marks e o que não dizer; Cuba como expediente com a ressalva do Church p. 73; Honduras ≥ 60 s com "el método" atribuído a McCoy; QA com conferência na `legendas.srt`. Acrescentar à obrigação da `thumbnail` as 3 notas de execução do Par B acima.
+
+## Veredito: APROVADO (3 de 3 pares) — rodada 5 (extra, última)
+- Par B aprovado: a Thumb B agora vende um caso documentado, pago cedo e longo, com 1 foco e sem repetir vizinha da grade. Seguir para o roteiro com as notas de execução da Thumb B (saco proporcional a 10 libras, legibilidade do "10 LIBRAS" testada a 320×180).
