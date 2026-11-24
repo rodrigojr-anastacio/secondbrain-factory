@@ -2,7 +2,7 @@
 
 Gerado por `montar.py` a partir de `roteiro/garbo.py` e `roteiro/lacosa.py` (fonte única: edite lá e rode de novo). Espanhol LatAm neutro. Fatos e liberdades em `FATOS.md`; personagens em `PERSONAGENS.md`.
 
-**Livro:** 42 páginas · quadros: 146 (133 novos, 3 reusos, 10 da amostra) · imagens da e2: 148.
+**Livro:** 41 páginas · quadros: 146 (133 novos, 3 reusos, 10 da amostra) · imagens da e2: 148.
 
 Legenda dos quadros: **id** (orientação · slot do layout · personagens com folha) · descrição visual (pt-BR) · textos. `[existe]` = arte da amostra v3; `[reusa X]` = mesma arte do quadro X com outro recorte.
 

@@ -7,7 +7,7 @@ Sem menção a IA na descrição/comentário do YouTube (regra do pacote); na p�
 
 ### 1ª linha da descrição
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ póster y fondos de pantalla de regalo) → {LINK}
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → {LINK}
 ```
 
 ### Comentário fixado
@@ -16,7 +16,7 @@ Sem menção a IA na descrição/comentário do YouTube (regra do pacote); na p�
 
 EXPEDIENTES SECRETOS #1 incluye:
 📘 El cómic en PDF con 2 historias reales de espionaje: Operación Garbo (el español que inventó 27 espías y engañó a Hitler) y La Cosa (el micrófono sin pilas escondido en un regalo al embajador de EE. UU.)
-🖼️ Póster A3 para imprimir
+🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
 👉 {LINK}
@@ -33,7 +33,7 @@ Expedientes Secretos #1
 
 ### Descrição curta
 ```
-El cómic de Dossier en Minutos: 2 historias reales de espionaje que no están en el canal, con un póster A3 y 6 fondos de pantalla de regalo.
+El cómic de Dossier en Minutos: 2 historias reales de espionaje que no están en el canal, con 2 pósteres y 6 fondos de pantalla de regalo.
 ```
 
 ### Descrição longa
@@ -56,7 +56,7 @@ Hecho por el equipo de Dossier en Minutos, el canal de historia completa de serv
 ### O que inclui
 ```
 • Cómic en PDF (2 historias reales de espionaje, más de 30 páginas a color)
-• Póster A3 en alta resolución para imprimir (PDF y PNG)
+• 2 pósteres en alta resolución (PDF y PNG)
 • 6 fondos de pantalla: 3 para celular y 3 para computadora
 • Acceso inmediato y descargas sin límite desde tu área de miembros
 ```
@@ -64,7 +64,7 @@ Hecho por el equipo de Dossier en Minutos, el canal de historia completa de serv
 ### FAQ
 ```
 ¿En qué formato llega?
-En PDF (el cómic y el póster) y en imágenes PNG/JPG (póster y fondos de pantalla). Se lee en celular, tablet o computadora.
+En PDF (el cómic y los pósteres) y en imágenes PNG/JPG (pósteres y fondos de pantalla). Se lee en celular, tablet o computadora.
 
 ¿En qué idioma está?
 En español.
@@ -79,7 +79,7 @@ Sí. Las dos operaciones están documentadas; al final de cada historia separamo
 Las ilustraciones fueron generadas con IA y editadas por nuestro equipo; el guion y la investigación son nuestros.
 
 ¿Es un producto físico?
-No, es 100 % digital. El póster lo imprimes tú en A3 (o más pequeño).
+No, es 100 % digital. Los pósteres los imprimes tú, en el tamaño que prefieras.
 ```
 
 ### Preço sugerido

@@ -35,7 +35,6 @@ QA de todas as imagens em pranchas (personagem, texto, moldura, insígnia, époc
 ```
 tools/.venv/bin/python canais/dossie-es/produtos/hq/001/tools/rodar_fal.py --ordem 1,2,3,5   # imagens (pula as que existem)
 tools/.venv/bin/python canais/dossie-es/produtos/hq/001/montar.py --pdf                       # rascunho com balões automáticos
-tools/.venv/bin/python canais/dossie-es/produtos/hq/001/tools/extras_pacote.py --poster C      # QR, pôsteres, wallpapers, miniatura
-tools/.venv/bin/python canais/dossie-es/produtos/hq/001/tools/pacote.py --poster C             # PDF final, prévias, zip
-# trocar o pôster depois da escolha: extras_pacote.py --poster A --so miniatura && pacote.py --poster A
+tools/.venv/bin/python canais/dossie-es/produtos/hq/001/tools/extras_pacote.py # QR, pôsteres, wallpapers, miniatura
+tools/.venv/bin/python canais/dossie-es/produtos/hq/001/tools/pacote.py   # PDF final (41 pp, 2 pôsteres no zip), prévias, zip
 ```

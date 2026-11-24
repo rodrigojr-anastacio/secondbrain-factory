@@ -2,8 +2,8 @@
 
 Pré-requisitos: artes em arte-001/, `montar.py` rodado (livro.json) e `tools/extras_pacote.py` (pôsteres, wallpapers,
 QR, miniatura). Uso (raiz do repo):
-  tools/.venv/bin/python canais/dossie-es/produtos/hq/001/tools/pacote.py [--poster C]
-Saída em 001/pacote/: Expedientes-Secretos-1.pdf, Expedientes-Secretos-1.zip (PDF + pôster png/pdf + 6 wallpapers +
+  tools/.venv/bin/python canais/dossie-es/produtos/hq/001/tools/pacote.py
+Saída em 001/pacote/: Expedientes-Secretos-1.pdf, Expedientes-Secretos-1.zip (PDF + 2 pôsteres (A e C, com e sem título, png/pdf) + 6 wallpapers +
 LEEME.txt) e prévias em 001/previas/.
 """
 import argparse
@@ -32,11 +32,14 @@ Gracias por tu compra. En este archivo encontrarás:
 
 - Expedientes-Secretos-1.pdf: el cómic completo (Operación Garbo + La Cosa), {pags} páginas.
   Se lee bien en el celular, la tableta o la computadora.
-- poster-A3.png y poster-A3.pdf: el póster en tamaño A3 (29,7 × 42 cm) a 300 dpi, listo para imprimir.
-- wallpapers/: 6 fondos de pantalla (3 para el celular en 1440×3120 y 3 para la computadora en 3840×2160).
+- Dos pósteres, cada uno en imagen (PNG) y en PDF: el póster A (mural) y el póster C (vintage),
+  en versión con título (poster-A-com-titulo, poster-C-com-titulo) y sin título (poster-A-sem-titulo,
+  poster-C-sem-titulo).
+- wallpapers/: 6 fondos de pantalla (3 para el celular y 3 para la computadora).
 
 Uso personal. Prohibida su reventa o distribución.
-¿Qué expediente quieres en el #2? Déjalo en los comentarios del canal: youtube.com/channel/UCVCYqeuCwTWC7Lqez_qeWRA
+¿Qué expediente quieres en el #2? Cuéntanos en la pestaña Comunidad del canal:
+youtube.com/channel/UCVCYqeuCwTWC7Lqez_qeWRA/community
 """
 
 
@@ -72,7 +75,8 @@ def pdf_final():
 
 def previas_paginas():
     pasta = os.path.join(AQUI, "final")
-    for nome in ("p01-capa", "p05-garbo-01", "p11-garbo-07", "p30-lacosa-09"):
+    for nome in ("p01-capa", "p05-garbo-01", "p11-garbo-07", "p30-lacosa-09", "p02-creditos", "p40-poster",
+                 "p41-final"):
         arq = os.path.join(pasta, nome + ".jpg")
         if not os.path.exists(arq):
             continue
@@ -87,22 +91,24 @@ def previas_paginas():
         print("prévia", nome)
 
 
-def zipar(poster, pags):
+def zipar(pags):
     z = os.path.join(PAC, NOME + ".zip")
     with zipfile.ZipFile(z, "w", zipfile.ZIP_DEFLATED) as zf:
         zf.write(os.path.join(PAC, NOME + ".pdf"), NOME + ".pdf")
-        zf.write(os.path.join(PAC, "poster-%s-com-titulo.png" % poster), "poster-A3.png")
-        zf.write(os.path.join(PAC, "poster-%s-com-titulo.pdf" % poster), "poster-A3.pdf")
+        for letra in "AC":
+            for versao in ("com-titulo", "sem-titulo"):
+                for ext in ("png", "pdf"):
+                    nome = "poster-%s-%s.%s" % (letra, versao, ext)
+                    zf.write(os.path.join(PAC, nome), "posteres/" + nome)
         for wp in sorted(glob.glob(os.path.join(PAC, "wallpaper-*.jpg"))):
             zf.write(wp, "wallpapers/" + os.path.basename(wp))
         zf.writestr("LEEME.txt", LEEME.format(pags=pags))
-    print(os.path.basename(z), os.path.getsize(z) // (1024 * 1024), "MB", "· pôster", poster)
+    print(os.path.basename(z), os.path.getsize(z) // (1024 * 1024), "MB")
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--poster", default="C", choices=["A", "C"])
-    ap.add_argument("--so-zip", action="store_true", help="só refaz o zip (troca de pôster)")
+    ap.add_argument("--so-zip", action="store_true", help="só refaz o zip (sem refazer o PDF)")
     a = ap.parse_args()
     os.makedirs(PAC, exist_ok=True)
     os.makedirs(PREV, exist_ok=True)
@@ -111,7 +117,7 @@ def main():
     else:
         pags = pdf_final()
         previas_paginas()
-    zipar(a.poster, pags)
+    zipar(pags)
 
 
 if __name__ == "__main__":

@@ -31,10 +31,6 @@
     },
     {
      "t": "p",
-     "texto": "Ilustraciones generadas con inteligencia artificial y editadas a mano. Los textos, globos y la diagramación se hicieron uno por uno, sin IA en las letras."
-    },
-    {
-     "t": "p",
      "texto": "Tipografías: Bangers, Comic Neue, Bebas Neue (SIL Open Font License) y Special Elite (Apache 2.0)."
     },
     {
@@ -6442,38 +6438,72 @@
   {
    "tipo": "texto",
    "saida": "poster",
-   "titulo": "TU PÓSTER",
+   "titulo": "TUS PÓSTERES",
    "numero": 40,
    "blocos": [
     {
      "t": "p",
-     "texto": "En el archivo .zip viene el póster en tamaño A3 (300 dpi), listo para imprimir, y 6 fondos de pantalla: 3 para el celular y 3 para la computadora.",
+     "texto": "Dos pósteres para decorar tu espacio.",
      "centro": true
     }
    ],
    "caixas": [
     {
      "rect": [
-      450,
-      700,
-      900,
-      1350
+      140,
+      560,
+      740,
+      1047
      ],
-     "img": "001/poster-miniatura.jpg",
-     "rotulo": "PÓSTER",
-     "placeholder": "miniatura do pôster A3 (PO01 + título), gerada na e2"
+     "img": "001/poster-miniatura-A.jpg",
+     "rotulo": "PÓSTER A",
+     "placeholder": "miniatura do pôster A (mural) com título"
+    },
+    {
+     "rect": [
+      920,
+      560,
+      740,
+      1047
+     ],
+     "img": "001/poster-miniatura-C.jpg",
+     "rotulo": "PÓSTER C",
+     "placeholder": "miniatura do pôster C (vintage) com título"
+    }
+   ],
+   "textos_livres": [
+    {
+     "pos": [
+      140,
+      1670
+     ],
+     "larg": 760,
+     "px": 54,
+     "cor": "vermelho",
+     "texto": "PÓSTER MURAL"
+    },
+    {
+     "pos": [
+      920,
+      1670
+     ],
+     "larg": 760,
+     "px": 54,
+     "cor": "vermelho",
+     "texto": "PÓSTER VINTAGE"
     }
    ]
   },
   {
    "tipo": "texto",
    "saida": "final",
-   "titulo": "¿AÚN NO TE SUSCRIBISTE?",
+   "titulo": "GRACIAS POR APOYAR EL CANAL",
+   "px_titulo": 100,
    "numero": 41,
    "blocos": [
     {
      "t": "p",
-     "texto": "Suscríbete a Dossier en Minutos para no perderte los nuevos videos y los próximos Expedientes Secretos.",
+     "texto": "Gracias por comprar este cómic. Con tu compra apoyas a Dossier en Minutos y nos ayudas a seguir contando historias reales de espionaje.",
      "centro": true
     },
     {
@@ -6482,7 +6512,7 @@
     },
     {
      "t": "p",
-     "texto": "Déjalo en los comentarios del canal. Leemos todos y el más pedido puede ser el próximo expediente.",
+     "texto": "Cuéntanoslo en el canal: leemos todo y el más pedido puede ser el próximo.",
      "centro": true
     }
    ],
@@ -6491,43 +6521,83 @@
      "rect": [
       180,
       900,
-      640,
-      640
+      420,
+      420
      ],
      "img": "001/qr-canal.png",
      "rotulo": "QR",
      "placeholder": "QR do canal: https://www.youtube.com/channel/UCVCYqeuCwTWC7Lqez_qeWRA"
+    },
+    {
+     "rect": [
+      180,
+      1500,
+      420,
+      420
+     ],
+     "img": "001/qr-comunidad.png",
+     "rotulo": "QR",
+     "placeholder": "QR da Comunidade: https://www.youtube.com/channel/UCVCYqeuCwTWC7Lqez_qeWRA/community"
     }
    ],
    "textos_livres": [
     {
      "pos": [
-      880,
-      990
+      680,
+      930
      ],
-     "larg": 760,
-     "px": 64,
+     "larg": 960,
+     "px": 56,
      "cor": "vermelho",
-     "texto": "ESCANEA EL CÓDIGO O TOCA EL ENLACE:"
+     "texto": "SUSCRÍBETE AL CANAL"
     },
     {
      "pos": [
-      880,
-      1190
+      680,
+      1030
      ],
-     "larg": 760,
-     "px": 50,
+     "larg": 960,
+     "px": 46,
      "sublinhado": true,
      "texto": "DOSSIER EN MINUTOS EN YOUTUBE"
     },
     {
      "pos": [
-      880,
-      1310
+      680,
+      1140
      ],
-     "larg": 760,
+     "larg": 960,
      "px": 40,
-     "texto": "Toca aquí para abrir el canal y suscribirte."
+     "texto": "Escanea el código o toca aquí para abrir el canal y suscribirte."
+    },
+    {
+     "pos": [
+      680,
+      1530
+     ],
+     "larg": 960,
+     "px": 56,
+     "cor": "vermelho",
+     "texto": "CUÉNTANOS QUÉ TE PARECIÓ"
+    },
+    {
+     "pos": [
+      680,
+      1630
+     ],
+     "larg": 960,
+     "px": 46,
+     "sublinhado": true,
+     "texto": "COMUNIDAD DEL CANAL"
+    },
+    {
+     "pos": [
+      680,
+      1740
+     ],
+     "larg": 960,
+     "px": 40,
+     "texto": "Dinos qué te parecieron los cómics, los pósteres y los fondos de pantalla en la pestaña Comunidad. Toca aquí para entrar."
     }
    ],
    "links": [
@@ -6536,41 +6606,18 @@
       180,
       900,
       1460,
-      640
+      420
      ],
      "url": "https://www.youtube.com/channel/UCVCYqeuCwTWC7Lqez_qeWRA"
-    }
-   ]
-  },
-  {
-   "tipo": "texto",
-   "saida": "contracapa",
-   "escuro": true,
-   "titulo": "DOSSIER EN MINUTOS",
-   "px_titulo": 130,
-   "blocos": [
-    {
-     "t": "p",
-     "texto": "Historias reales de espionaje, una organización por expediente.",
-     "centro": true
     },
     {
-     "t": "p",
-     "texto": "EXPEDIENTES SECRETOS #1 · Operación Garbo · La Cosa",
-     "centro": true
-    }
-   ],
-   "caixas": [
-    {
      "rect": [
-      650,
+      180,
       1500,
-      500,
-      500
+      1460,
+      420
      ],
-     "img": "001/qr-canal.png",
-     "rotulo": "QR",
-     "placeholder": "QR do canal"
+     "url": "https://www.youtube.com/channel/UCVCYqeuCwTWC7Lqez_qeWRA/community"
     }
    ]
   }

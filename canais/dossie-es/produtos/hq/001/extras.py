@@ -5,6 +5,7 @@ Páginas de texto em espanhol LatAm neutro. Sem lista de e-mail, sem Kit, sem pr
 """
 
 URL_CANAL = "https://www.youtube.com/channel/UCVCYqeuCwTWC7Lqez_qeWRA"  # canal.yaml (o handle pode mudar; QR pela URL fixa)
+URL_COMUNIDAD = URL_CANAL + "/community"
 
 _SHEET = ("Character model sheet of one single {who}. The sheet shows the SAME person five times side by side on a plain "
           "light background: full body front view standing, full body three-quarter view, head close-up front, head "
@@ -120,8 +121,6 @@ CREDITOS = {
         {"t": "p", "texto": "Dos historias reales de espionaje que no están en el canal.", "centro": True},
         {"t": "h", "texto": "CRÉDITOS"},
         {"t": "p", "texto": "Guion, edición y diseño: Dossier en Minutos."},
-        {"t": "p", "texto": "Ilustraciones generadas con inteligencia artificial y editadas a mano. Los textos, "
-                            "globos y la diagramación se hicieron uno por uno, sin IA en las letras."},
         {"t": "p", "texto": "Tipografías: Bangers, Comic Neue, Bebas Neue (SIL Open Font License) y Special Elite "
                             "(Apache 2.0)."},
         {"t": "h", "texto": "AVISO"},
@@ -213,32 +212,40 @@ def paginas_fim(ultima):
          "numero": n + 1},
         {"tipo": "texto", "saida": "real-2", "titulo": "LO QUE ES REAL", "px_titulo": 100, "blocos": REAL_COSA,
          "numero": n + 2},
-        {"tipo": "texto", "saida": "poster", "titulo": "TU PÓSTER", "numero": n + 3,
-         "blocos": [{"t": "p", "texto": "En el archivo .zip viene el póster en tamaño A3 (300 dpi), listo para "
-                                        "imprimir, y 6 fondos de pantalla: 3 para el celular y 3 para la computadora.",
-                     "centro": True}],
-         "caixas": [{"rect": [450, 700, 900, 1350], "img": "001/poster-miniatura.jpg", "rotulo": "PÓSTER",
-                     "placeholder": "miniatura do pôster A3 (PO01 + título), gerada na e2"}]},
-        # página final (ajuste do Rodrigo, 24/11/2026): QR + CTA de inscrição + link clicável ao lado
-        {"tipo": "texto", "saida": "final", "titulo": "¿AÚN NO TE SUSCRIBISTE?", "numero": n + 4,
-         "blocos": [{"t": "p", "texto": "Suscríbete a Dossier en Minutos para no perderte los nuevos videos y los "
-                                        "próximos Expedientes Secretos.", "centro": True},
-                    {"t": "h", "texto": "¿QUÉ EXPEDIENTE QUIERES EN EL #2?"},
-                    {"t": "p", "texto": "Déjalo en los comentarios del canal. Leemos todos y el más pedido puede ser "
-                                        "el próximo expediente.", "centro": True}],
-         "caixas": [{"rect": [180, 900, 640, 640], "img": "001/qr-canal.png", "rotulo": "QR",
-                     "placeholder": "QR do canal: " + URL_CANAL}],
-         "textos_livres": [{"pos": [880, 990], "larg": 760, "px": 64, "cor": "vermelho",
-                            "texto": "ESCANEA EL CÓDIGO O TOCA EL ENLACE:"},
-                           {"pos": [880, 1190], "larg": 760, "px": 50, "sublinhado": True,
-                            "texto": "DOSSIER EN MINUTOS EN YOUTUBE"},
-                           {"pos": [880, 1310], "larg": 760, "px": 40,
-                            "texto": "Toca aquí para abrir el canal y suscribirte."}],
-         "links": [{"rect": [180, 900, 1460, 640], "url": URL_CANAL}]},
-        {"tipo": "texto", "saida": "contracapa", "escuro": True, "titulo": "DOSSIER EN MINUTOS", "px_titulo": 130,
-         "blocos": [{"t": "p", "texto": "Historias reales de espionaje, una organización por expediente.",
+        {"tipo": "texto", "saida": "poster", "titulo": "TUS PÓSTERES", "numero": n + 3,
+         "blocos": [{"t": "p", "texto": "Dos pósteres para decorar tu espacio.", "centro": True}],
+         "caixas": [{"rect": [140, 560, 740, 1047], "img": "001/poster-miniatura-A.jpg", "rotulo": "PÓSTER A",
+                     "placeholder": "miniatura do pôster A (mural) com título"},
+                    {"rect": [920, 560, 740, 1047], "img": "001/poster-miniatura-C.jpg", "rotulo": "PÓSTER C",
+                     "placeholder": "miniatura do pôster C (vintage) com título"}],
+         "textos_livres": [{"pos": [140, 1670], "larg": 760, "px": 54, "cor": "vermelho", "texto": "PÓSTER MURAL"},
+                           {"pos": [920, 1670], "larg": 760, "px": 54, "cor": "vermelho", "texto": "PÓSTER VINTAGE"}]},
+        # página final (24/11/2026): agradecimento + QR de inscrição + Comunidade (2 links clicáveis)
+        {"tipo": "texto", "saida": "final", "titulo": "GRACIAS POR APOYAR EL CANAL", "px_titulo": 100,
+         "numero": n + 4,
+         "blocos": [{"t": "p", "texto": "Gracias por comprar este cómic. Con tu compra apoyas a Dossier en Minutos "
+                                        "y nos ayudas a seguir contando historias reales de espionaje.",
                      "centro": True},
-                    {"t": "p", "texto": "EXPEDIENTES SECRETOS #1 · Operación Garbo · La Cosa", "centro": True}],
-         "caixas": [{"rect": [650, 1500, 500, 500], "img": "001/qr-canal.png", "rotulo": "QR",
-                     "placeholder": "QR do canal"}]},
+                    {"t": "h", "texto": "¿QUÉ EXPEDIENTE QUIERES EN EL #2?"},
+                    {"t": "p", "texto": "Cuéntanoslo en el canal: leemos todo y el más pedido puede ser el próximo.",
+                     "centro": True}],
+         "caixas": [{"rect": [180, 900, 420, 420], "img": "001/qr-canal.png", "rotulo": "QR",
+                     "placeholder": "QR do canal: " + URL_CANAL},
+                    {"rect": [180, 1500, 420, 420], "img": "001/qr-comunidad.png", "rotulo": "QR",
+                     "placeholder": "QR da Comunidade: " + URL_COMUNIDAD}],
+         "textos_livres": [{"pos": [680, 930], "larg": 960, "px": 56, "cor": "vermelho",
+                            "texto": "SUSCRÍBETE AL CANAL"},
+                           {"pos": [680, 1030], "larg": 960, "px": 46, "sublinhado": True,
+                            "texto": "DOSSIER EN MINUTOS EN YOUTUBE"},
+                           {"pos": [680, 1140], "larg": 960, "px": 40,
+                            "texto": "Escanea el código o toca aquí para abrir el canal y suscribirte."},
+                           {"pos": [680, 1530], "larg": 960, "px": 56, "cor": "vermelho",
+                            "texto": "CUÉNTANOS QUÉ TE PARECIÓ"},
+                           {"pos": [680, 1630], "larg": 960, "px": 46, "sublinhado": True,
+                            "texto": "COMUNIDAD DEL CANAL"},
+                           {"pos": [680, 1740], "larg": 960, "px": 40,
+                            "texto": "Dinos qué te parecieron los cómics, los pósteres y los fondos de pantalla en "
+                                     "la pestaña Comunidad. Toca aquí para entrar."}],
+         "links": [{"rect": [180, 900, 1460, 420], "url": URL_CANAL},
+                   {"rect": [180, 1500, 1460, 420], "url": URL_COMUNIDAD}]},
     ]

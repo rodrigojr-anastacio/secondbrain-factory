@@ -51,12 +51,13 @@ def ampliar(caminho, W, H, foco=(0.5, 0.5)):
 
 
 def qr():
-    q = qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_M, box_size=24, border=2)
-    q.add_data(EX.URL_CANAL)
-    q.make(fit=True)
-    im = q.make_image(fill_color="black", back_color="white").convert("RGB")
-    im.save(os.path.join(AQUI, "qr-canal.png"))
-    print("qr-canal.png", im.size, EX.URL_CANAL)
+    for nome, url in (("qr-canal.png", EX.URL_CANAL), ("qr-comunidad.png", EX.URL_COMUNIDAD)):
+        q = qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_M, box_size=24, border=2)
+        q.add_data(url)
+        q.make(fit=True)
+        im = q.make_image(fill_color="black", back_color="white").convert("RGB")
+        im.save(os.path.join(AQUI, nome))
+        print(nome, im.size, url)
 
 
 def titulo_poster(im, estilo):
@@ -142,10 +143,11 @@ def main():
         for letra in ("A", "C"):
             poster(letra)
     if "miniatura" in so:
-        im = Image.open(os.path.join(PAC, "poster-%s-com-titulo.png" % a.poster))
-        im.thumbnail((1200, 1800), Image.LANCZOS)
-        im.convert("RGB").save(os.path.join(AQUI, "poster-miniatura.jpg"), "JPEG", quality=90)
-        print("poster-miniatura.jpg ←", a.poster)
+        for letra in ("A", "C"):   # págs. "TUS PÓSTERES": as 2 miniaturas lado a lado
+            im = Image.open(os.path.join(PAC, "poster-%s-com-titulo.png" % letra))
+            im.thumbnail((1200, 1800), Image.LANCZOS)
+            im.convert("RGB").save(os.path.join(AQUI, "poster-miniatura-%s.jpg" % letra), "JPEG", quality=90)
+            print("poster-miniatura-%s.jpg" % letra)
     if "wallpapers" in so:
         wallpapers()
 
