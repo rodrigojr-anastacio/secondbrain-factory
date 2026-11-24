@@ -4,8 +4,8 @@ Promessa: La historia entera de MKUltra contada por lo que la CIA vino a buscar 
 
 Títulos: T1 TODA la historia de MKUltra en 13 minutos | Del laboratorio de la CIA a América Latina / T2 Cómo la CIA buscó en América Latina la droga del control mental / T3 MKULTRA: lo que la CIA vino a buscar a México… y lo que dejó
 
-Gerado por `roteiro.py` (fonte única; edite lá). 1894 palavras, ~13:22.9 estimados a 143 ppm (com as pausas entre frases).
-Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish). Storyboard ainda não feito.
+Gerado por `roteiro.py` (fonte única; edite lá). 1918 palavras, ~13:33.0 estimados a 143 ppm (com as pausas entre frases).
+Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
 
@@ -110,7 +110,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish). Stor
 
 **[N040]** El siete de octubre están listos. El trece de febrero de mil novecientos sesenta y uno, se entregan a una persona no identificada. Y el registro, dice el comité, no revela si se intentó hacerlos llegar a Castro.
 
-**[N041]** El comité halló pruebas de al menos ocho complots de la CIA contra la vida de Castro entre mil novecientos sesenta y sesenta y cinco. Castro murió en dos mil dieciséis, a los noventa años.
+**[N041]** El comité halló pruebas de al menos ocho complots de la CIA contra la vida de Castro entre mil novecientos sesenta y sesenta y cinco. Castro murió en dos mil dieciséis, a los noventa años. Para entonces, en la estación de la CIA en México, ya esperaba otro encargo.
 
 
 ## 8. La Silla
@@ -145,7 +145,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish). Stor
 
 **[N053]** Según Marks: mil ciento cuarenta y siete dólares en hongos. Cuatrocientos treinta y tres en mescalina. Y doce mil dólares por un cuarto de tonelada de fluothane, un anestésico.
 
-**[N054]** Papeles así escaparon a la destrucción: siete cajas olvidadas en un archivo de registros retirados, que en mil novecientos setenta y siete llegan al Senado con ciento cuarenta y nueve subproyectos, cuarenta y cuatro universidades y el nombre del psiquiatra Ewen Cameron, en Montreal, cuyos pacientes demandarían después a la CIA.
+**[N054]** Cuentas así, papeles de dinero, son casi todo lo que queda del programa: siete cajas de carpetas financieras olvidadas en un archivo de registros retirados, que en mil novecientos setenta y siete llegan al Senado con ciento cuarenta y nueve subproyectos, cuarenta y cuatro universidades y el nombre del psiquiatra Ewen Cameron, en Montreal, cuyos pacientes demandarían después a la CIA.
 
 **[N055]** Mientras Moore facturaba hongos, otra oficina de la CIA escribía lo que había aprendido sobre interrogar. Según el historiador Alfred McCoy, en julio de mil novecientos sesenta y tres ese método quedó codificado en un manual secreto: KUBARK.
 
@@ -167,7 +167,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish). Stor
 
 ## 12. La Tachadura
 
-**[N062]** La Tachadura. Entre mil novecientos ochenta y cuatro y ochenta y cinco, alguien abre un manual de interrogatorio de la CIA y, en la segunda página, tacha dos palabras a pluma.
+**[N062]** La Tachadura. Entre mil novecientos ochenta y cuatro y ochenta y cinco, alguien abre un manual de interrogatorio de la CIA y, en la segunda página, corrige la frase a pluma.
 
 **[N063]** La frase original, en inglés, decía «we do not stress»: no ponemos énfasis en las técnicas coercitivas, pero queremos que sepas usarlas bien.
 

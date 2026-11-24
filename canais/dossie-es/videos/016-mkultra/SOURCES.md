@@ -59,7 +59,7 @@ Abreviações: **Marks** = J. Marks, *The Search for the "Manchurian Candidate"*
 - Abertura: contas de James Moore, professor na Univ. de Delaware sob contrato CIA (Marks cap. 7; FATOS-A §1.4 e l.41).
 - KUBARK, jul/1963 (FATOS-C F1.1, NSA EBB 122). "Según el historiador Alfred McCoy … ese método quedó codificado en un manual secreto: KUBARK": McCoy diz que a CIA "codified these results" (a década de pesquisa) no KUBARK de 1963 (Democracy Now 17/02/2006; FATOS-C F1.6). Única atribuição a McCoy no roteiro.
 - "Secciones del KUBARK reaparecen en otro manual de la CIA, de 1983": NSA EBB 122 (o HRET de 1983 compila seções do KUBARK + Project X) e relatório do Congresso ("drew on the 1963 KUBARK manual"): FATOS-C F2.1, F4.4.
-- **[r1 crivo de ângulo: removido]** Gittinger e a frase-resposta saíram (era a cena-resposta do Archive). No lugar: contas de James Moore — US$ 1.147,60 em cogumelos, US$ 433,13 em mescalina, US$ 12.000 por um quarto de tonelada de fluothane (anestésico): Marks cap. 7 e notas; FATOS-A §1 (nota sobre Moore). Ponte "seis años después, llegó a Honduras" (1977 → 1983).
+- **[r1 crivo de ângulo: removido]** Gittinger e a frase-resposta saíram (era a cena-resposta do Archive). No lugar: contas de James Moore — US$ 1.147,60 em cogumelos, US$ 433,13 em mescalina, US$ 12.000 por um quarto de tonelada de fluothane (anestésico): Marks cap. 7 e notas; FATOS-A §1 (nota sobre Moore). Ponte "seis años después, llegó a Honduras" (1977 → 1983) — **[r2: removida]**.
 - "Más de veinte años": BLUEBIRD 1950 → fim do MKSEARCH 1972.
 
 ## 11. El Curso
@@ -96,4 +96,11 @@ Manada transcrita: Archive in Minutes `o7tcLlrUiAk`, Detrás del Enigma `h9c-vZ2
 | 11 El Curso | Murillo na cela + Stolz 1988 + curso de 1983 | não |
 | 12 La Tachadura | abre na página corrigida a caneta; liberação de 1997 só no fim | não (o Archive fala do KUBARK e abre/fecha com o jornal; aqui o objeto abre) |
 | Cierre | Hofmann e as pílulas em Huautla, 1962; a casa queimada | não |
-**11–12 de 12 expedientes fora da manada (≥ 92%).** Detector: `SIMILARIDADE.md` 6/100.
+**11–12 de 12 expedientes fora da manada (≥ 92%).** Detector: `SIMILARIDADE.md` 2/100 após a reescrita 2 (crivo de ângulo r3 APROVADO); re-execução após as notas do r3 + storyboard: ver SIMILARIDADE.md.
+
+## Ajustes pós-crivo de ângulo r3 (notas não bloqueantes, 24/11/2026)
+- N054: saiu a ponte "Papeles así escaparon a la destrucción" (fecho do Archive). Agora a ponte sai das contas de Moore: "Cuentas así, papeles de dinero, son casi todo lo que queda del programa: siete cajas de carpetas financieras…" — as pastas de 1977 eram financeiras ("the recovered folders are finance folders", AUD p. 5; FATOS-B l.104); 7 caixas, Laubinger, AUD p. 14.
+- N062: "tacha dos palabras" → "corrige la frase a pluma" (foram riscadas "do not stress" e o fim da frase; NSA EBB 27/122).
+- Las Cuentas sem data: a fatura de 27/04/1960 citada por Marks é do Subprojeto 52 (cap. 12), não das contas do cap. 7; não usada.
+- Ponte Los Puros → La Silla: "Para entonces, en la estación de la CIA en México, ya esperaba otro encargo." (o pedido de 07/1963 à estação do México: Marks cap. 11; FATOS do exp. 8).
+- Pontes já removidas nas reescritas: "La droga nunca llegó… sí viajó", "no fue una droga. Fue el método", "seis años después, llegó a Honduras".
