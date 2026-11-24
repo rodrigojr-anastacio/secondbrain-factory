@@ -154,3 +154,41 @@ Pergunta central (declarada no SCRIPT/BRIEF): Quem pagou por esses treze zeros?
 
 Resultado: APROVADO
 ```
+
+## Storyboard (23/11/2026, skill `storyboard`, Opus)
+Fonte única `roteiro.py` (bloco `P`, `PENDENTE = False`); `python3 roteiro.py` gera `cenas.json`, `storyboard.json`, `STORYBOARD.md`. Texto narrado intocado (`blocos.json` e `SCRIPT.md` idênticos byte a byte aos de antes do storyboard). Modelo de código: 017-cuba (mesmo canal). Custo pago: US$ 0.
+
+- **338 planos** em ~18:00 estimados (WPS 2,1; a voz real deve dar ~17:20), plano médio 3,19 s (2,4–3,6 s), **23 cortes no 1º minuto**.
+- **204 imagens únicas** (teto da bíblia `visual.md`: ~190–205 para ~16 min; 016 e 017 usaram 206). Custo previsto: **US$ 0** pelo Codex (`gerador: codex`); o fallback Gemini só entra em erro, recusa ou limite de cota. Cota Codex: ~40 imagens por janela (visual.md 017), ou seja ~5–6 janelas.
+- **Reuso 39,6%** no total, **48,7% depois de 3:00**, **0% antes de 3:00**; nenhum enquadramento repetido em < 60 s. Validação do `roteiro.py`: **0 avisos**.
+- Cobertura: 64/64 blocos com planos, timeline contínua de 0:00 a 18:00 sem buraco, todas as 204 imagens usadas.
+- 29 rótulos (`@@`): nomes (Rosas, Urquiza, Roca, Roca e Runciman, Lisandro de la Torre, Bordabehere, Perón, Celestino Rodrigo, Alfonsín, Menem, Cobos, BARING), lugares (Pergamino, Alcorta, mapas), as **4 trocas com o nº de zeros** (PESO LEY · −2, PESO ARGENTINO · −4, AUSTRAL · −3, PESO CONVERSÍVEL · −4), "1.000.000 PESOS" na cinta do hook, "13 ZEROS", "13º ZERO", IAPI, CONADEP 1984, MALVINAS 1982. Nenhum no 1º plano de capítulo.
+
+### Obrigações da EMBALAGEM no storyboard
+| obrigação | plano(s) |
+|---|---|
+| Maço de 1969 com cinta, na gaveta, em 1/1/1992 (= Thumb A), cédulas/cinta em branco e "1.000.000" no código | N001: `apt_1992` (cartão 1992), `neto_drawer`, `bundle_drawer@@1.000.000 PESOS`, `neto_holds` |
+| Pampa visível no hook | N002: `pampa_tropa`, `avo_sells` (o avô recebe o maço na porteira); N005: `ombu_cattle`, `wheat_station`, `guide_manda` |
+| Cena forte de 1946 (Pergamino/IAPI × Buenos Aires, paga a Thumb B) | N038–N040: `pergamino` (cartão 1946), `farmer_cart@@PERGAMINO`, `iapi_desk@@IAPI`, `low_price`, `port_1947`, `campo_cidade` (produtor no trigal passa o saco de moedas aos operários, Obelisco ao fundo) |
+| As 4 trocas 1970/1983/1985/1992 | `note_1970`, `note_1983`, `note_1985`, `note_1992` com rótulo do nome e do nº de zeros |
+| A gaveta volta (1970, 1983, 13º zero, fecho) | N043 `bundle_drawer`, N048 `bundle_coin`, N054 `bundle_drawer` + `zero_13` + `neto_holds`, N063 `drawer_light` + `avo_sells` + `neto_holds` |
+
+### Regras de prompt aplicadas (todas as 204 cenas)
+- Cenário ancorado em **100%** dos prompts (PAMPA, PRATA, BAC colonial, BA19, BA00 1890–1935, BA40, BA70, BA90, BA26, INT, AND, SAL, PAT, LON24/LON90/LON33, SALA, MAD ou fundo de estúdio creme `EST`) + `NAO_EG` (sem pirâmide, faraó, turbante, palmeira, coroa, cúpula, minarete: lição 010–017) + `SEMTXT` + `SEMBAND` (nenhuma bandeira: nem argentina, nem inglesa, espanhola ou brasileira).
+- Cédulas, cintas, títulos e patacões sempre em branco (`CED`); papéis como linhas ilegíveis (`PAPEL`); mapas sem texto (`MAPA`) com nomes no código.
+- Pessoas reais como "round-white-head cartoon …" sem descrever rosto; nome só no rótulo.
+
+### Riscos de época (conferir na prancha completa antes do pré-QA)
+1. **Obelisco** (1936): proibido em toda Buenos Aires antes de 1936 (`BAC`, `BA19`, `BA00`: "NO Obelisco"); só aparece em 1943+ (`BA40`, `BA70`, `BA26`). Conferir `ba_1910`, `ship_1910`, `march_1930`, `party_1880`, `ba_1880`.
+2. **Londres de 1824/1827** sem Big Ben/Parlamento neogótico (1859) e de 1890 sem Tower Bridge (1894): `london_1824`, `baring_office`, `bondholders_1827`, `boe_1890`.
+3. **Casa Rosada** (forma atual de 1898) fora do colonial: o cabildo de 1810 (`cabildo_1810`) não pode sair rosa nem com Obelisco/pirâmide moderna.
+4. **Ditadura 1976–83** só por lugar/objeto: `plaza_empty_1976` (praça vazia), `empty_chairs`, `white_scarves`, `conadep_book`; nada de soldado, arma ou tanque. Golpes de 1930/1943/1955 sem arma apontada (`GUERRA`); 1935 (`senate_chaos`, `empty_bench`) sem arma visível.
+5. **Milei não aparece** (nem caricatura): 2026 = `ba_2026`, `rosada_2026`.
+6. Povos indígenas (`indig_hill`) e escravizados (`plantation_meal`): com dignidade, sem cocar de penas, sem violência.
+7. Cédulas/cinta com números ou retratos inventados (Codex): conferir todos os planos com `CED` (hook, 1970–1992, patacão).
+8. Marcos de Potosí/Lima (`potosi_mountain`, `lima_mules`) e Mar del Plata (`holiday_beach`): sem palmeiras; Lima sem catedral moderna.
+9. Sol de Maio/bandeira em cena de multidão (1810, 1946, 1975, 1985, 2008): `SEMBAND` em todas; olhar `cabildo_1810`, `peron_balcony`, `strike_1975`, `roadblock_2008`.
+
+### Pendências do storyboard
+- O cartão de data cai no 1º plano do bloco (`main()`), e em 5 blocos o ano é dito no meio da fala (N011 1810, N032 1930, N041 1952, N047 1982, N061 2026). Mesma limitação do 014–017 (lição do 014, `visual.md`): a etapa 2 pode adiantar ou atrasar o cartão no `build.py` pelo tempo real da palavra na `legendas.srt`.
+- Lote-prova de 6 (multidão, mapa, personagem, objeto com cédula, cenário de época, estúdio) antes do lote, como pede a bíblia.
