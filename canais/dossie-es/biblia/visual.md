@@ -47,3 +47,5 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md`. Estilo **apr
 - Vídeo novo copiado do anterior: **conferir textos fixos do `Video.jsx`** (o cartão de capítulo saiu com "LA INQUISICIÓN · Nº 008"; achado só no contact sheet do 1º render) e o `labels.jsx` dos mapas (vinha com os pinos do 008). Hipótese de processo: grep do nome/número do vídeo anterior antes do 1º render.
 - Papéis, tiras de télex, prancheta, letreiros e passaporte: o nano-banana inventa letras mesmo com "no lettering"; o que funcionou foi pedir o objeto **em branco** ("completely blank sheets", "back of the clipboard") e fachadas "every sign blank". Refeitas 15 de 187 por isso.
 - Respelling "las ese ese" para SS no Fish saiu "la cesar"; "las SS" cru sai certo.
+
+- **017 Gulag (23/11/2026, `videos/017-gulag/ETAPA2.md`):** com o Codex sem cota, as 192 imagens saíram 100% pelo Gemini nano-banana-2.1 (~US$ 0,049/img, sem moldura exceto 1 em 192); documentos/cartas/livros abertos saem com texto inventado (pré-QA pegou 4): peça o objeto de costas ou a página "completely blank, no writing". Hipótese: o estilo Codex-r2 se mantém no Gemini com as 3 refs do 015.

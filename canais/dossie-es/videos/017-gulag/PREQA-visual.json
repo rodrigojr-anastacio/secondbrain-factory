@@ -1,0 +1,1063 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/dossie-es/videos/017-gulag/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2206,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 1,
+  "medio": 19,
+  "baixo": 32
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Monumento a Colombo de Barcelona com porto e cargueiro; é lugar real, o que pode ser intencional. A faixa inferior sinalizada pelo detector é só água lisa da cena, sem defeito. Na dúvida, conferir se o lugar bate com o roteiro (Gulag na URSS).",
+   "t": 2.0,
+   "arquivo": "60.png"
+  },
+  {
+   "quadro": "Q02",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Bandeirinhas vermelhas lisas sobre os barracões e a cerca; sem insígnia, discretas. Conferir se a cor é adequada à época. A faixa no topo é céu liso da cena, não é defeito.",
+   "t": 12.0,
+   "arquivo": "360.png"
+  },
+  {
+   "quadro": "Q05",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Livro-razão aberto com linhas de escrita pseudo-cirílica ilegível inventada pela IA nas duas páginas. Está pequeno e dá textura de documento, mas é letra falsa.",
+   "t": 32.0,
+   "arquivo": "960.png"
+  },
+  {
+   "quadro": "Q06",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Rua com torres tipo Kremlin e estrela vermelha em 1929, mas a estrela no topo só foi instalada em 1937. Detalhe pequeno ao fundo.",
+   "t": 38.0,
+   "arquivo": "1140.png"
+  },
+  {
+   "quadro": "Q07",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Documento com texto borrado e carimbo vermelho ilegível, além de etiquetas nas pastas com rabiscos pseudo-escritos (canto esquerdo e pasta central). Borrão intencional, mas o título do papel e as etiquetas parecem letras falsas.",
+   "t": 42.0,
+   "arquivo": "1260.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A placa em relevo acima da porta está em branco, sem texto. Está limpa, mas a placa vazia é um ponto onde a IA poderia inventar letras. Sem defeito visível.",
+   "t": 72.0,
+   "arquivo": "2160.png"
+  },
+  {
+   "quadro": "Q13",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de título \"EXPEDIENTE 2 / EL LIBRO\" cobre o centro da cena e o carimbo \"CLASIFICADO\" vaza para fora da placa, sobrepondo-se ao fundo e à borda do cartão. Provavelmente é design intencional, mas a sobreposição do carimbo no canto superior direito merece conferência.",
+   "t": 96.06666666666666,
+   "arquivo": "2882.png"
+  },
+  {
+   "quadro": "Q15",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Uma bandeirinha vermelha minúscula aparece na proa/mastro do navio, perto da chaminé. Está discreta e é plausível para um navio soviético, mas vale conferir se não é um marcador inventado.",
+   "t": 112.0,
+   "arquivo": "3360.png"
+  },
+  {
+   "quadro": "Q17",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "O trabalhador sorri de forma plácida e posada, com uma insígnia vermelha no ombro, em um canteiro de obras do Gulag. A insígnia pode ser um uniforme/insígnia inventado e destoa do tom do tema. Na dúvida entre estilo e defeito, registro como médio.",
+   "t": 132.0,
+   "arquivo": "3960.png"
+  },
+  {
+   "quadro": "Q20",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou uma faixa uniforme no topo (RGB 55,63,66, ~9%). Visualmente é céu liso e escuro da cena, provavelmente intencional, com a vinheta. Só confirmar que não é faixa chapada.",
+   "t": 162.0,
+   "arquivo": "4860.png"
+  },
+  {
+   "quadro": "Q21",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme no topo (RGB 55,63,66, ~8%). Parece céu liso e escuro da cena, na mesma animação do Q20. Só confirmar que não é faixa chapada.",
+   "t": 162.36666666666667,
+   "arquivo": "4871.png"
+  },
+  {
+   "quadro": "Q24",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Pequena bandeira vermelha no alto à esquerda, sobre uma construção. É discreta e coerente com a época soviética, mas vale conferir se não é inventada.",
+   "t": 182.0,
+   "arquivo": "5460.png"
+  },
+  {
+   "quadro": "Q26",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os guardas usam uniforme genérico com quepe, sem insígnia. É coerente com a regra do canal, mas a época e a nacionalidade ficam indefinidas. Revisar apenas se o contexto da cena exigir um uniforme específico.",
+   "t": 202.0,
+   "arquivo": "6060.png"
+  },
+  {
+   "quadro": "Q28",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "As folhas de papel na mesa têm linhas de texto falso/ilegível escritas pela IA (cabeçalho e parágrafos). Estão pequenas e em segundo plano, mas dá para notar de perto.",
+   "t": 222.0,
+   "arquivo": "6660.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A placa de título 'LA NORMA' com 'EXPEDIENTE 4' e 'CLASIFICADO' cobre boa parte do centro da cena, e o carimbo vermelho invade a borda superior direita da placa. É provavelmente intencional, mas pode ser uma sobreposição de elementos.",
+   "t": 232.0,
+   "arquivo": "6960.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "valor_errado",
+   "severidade": "baixo",
+   "descricao": "O mostrador da balança tem agulha quase em zero e marcações sem numeração. Com o pão em cima, o peso mostrado parece incoerente. Pode ser estilo, mas vale conferir.",
+   "t": 252.0,
+   "arquivo": "7560.png"
+  },
+  {
+   "quadro": "Q33",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "A folha de cima tem linhas de rabisco que imitam escrita e uma tabela com garranchos ilegíveis. É texto falso gerado pela IA, mas fica pequeno, borrado e em segundo plano, então parece mais textura do que texto legível.",
+   "t": 262.0,
+   "arquivo": "7860.png"
+  },
+  {
+   "quadro": "Q35",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "No caderno aberto, as colunas ao lado das grades têm garranchos que imitam escrita, e no canto inferior direito há uma marca ilegível. A grade com ✓ e ✗ é desenhada, não glifo de fonte. Por ser rabisco claramente ilegível, é mais textura do que texto falso, mas vale registrar.",
+   "t": 282.0,
+   "arquivo": "8460.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O mapa da Rússia/URSS mostra poucos pontos vermelhos (3), e o quadro seguinte tem mais (7). Pode ser animação progressiva dos marcadores, mas confirme que está intencional. Também há risco de rótulo falso: o mapa não mostra texto visível, o que é bom.",
+   "t": 292.0,
+   "arquivo": "8760.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo mistura espanhol (\"EXPEDIENTE 5\", \"CLASIFICADO\", \"LOS MARINEROS\") com \"DOSSIER · GULAG · Nº 017\". O carimbo \"CLASIFICADO\" vermelho passa da borda superior direita da placa e invade a imagem. Possivelmente intencional como carimbo, mas confira o encaixe. O porto ao fundo parece europeu (prédios), não soviético do Gulag, o que pode ser lugar errado.",
+   "t": 308.1333333333333,
+   "arquivo": "9244.png"
+  },
+  {
+   "quadro": "Q41",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "No casco do navio em primeiro plano, à direita da proa, há um pequeno emblema/monograma que parece letras rabiscadas pela IA. É pequeno e discreto.",
+   "t": 312.0,
+   "arquivo": "9360.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena de Istambul mostra o Bósforo com minaretes e mesquitas, o que combina com o lugar. Porém o céu tem uma faixa de cor ligeiramente diferente no topo (sinal automático, 4% do quadro, RGB 87,107,117). Parece apenas o gradiente do céu, mas vale conferir se há faixa chapada na borda superior.",
+   "t": 342.0,
+   "arquivo": "10260.png"
+  },
+  {
+   "quadro": "Q45",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Na fila de homens, o chapéu de pele (ushanka) do centro parece ter uma estrela vermelha pequena, o que é plausível para a URSS. Dúvida de estilo: a placa/brasão na pilastra do portão é pequena e ilegível, sem texto legível.",
+   "t": 352.0,
+   "arquivo": "10560.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Pequenas bandeirinhas vermelhas aparecem sobre prédios ao fundo, minúsculas e pouco legíveis. Podem ser bandeiras soviéticas, o que é plausível para a época, mas são detalhe não pedido.",
+   "t": 372.0,
+   "arquivo": "11160.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A placa de título fica sobre uma cena de aldeia com campo de aviação, e o selo vermelho 'CLASIFICADO' pende para fora da placa. Isso parece ser estilo intencional do canal. O sinal automático de faixa no topo corresponde só ao céu e às montanhas, que fazem parte da cena, então não é defeito.",
+   "t": 397.03333333333336,
+   "arquivo": "11911.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "No canto direito, a placa da estação em branco está em branco e sem letras, o que é aceitável. Um homem ao fundo, no vagão, aparece parcialmente coberto, o que é enquadramento normal. Não há defeito claro, só a dúvida sobre a boina e as roupas ocidentais num contexto de gulag.",
+   "t": 402.0,
+   "arquivo": "12060.png"
+  },
+  {
+   "quadro": "Q55",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A van preta lembra uma UAZ-452, modelo dos anos 1960 em diante. Se a cena for de um gulag dos anos 1940-50, é um possível anacronismo. Verificar o período do roteiro.",
+   "t": 432.0,
+   "arquivo": "12960.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O carimbo vermelho 'CLASIFICADO' sobrepõe a borda superior direita da pasta bege. É estilo de carimbo e provavelmente intencional, mas fica colado ao canto da pasta. Conferir se a sobreposição foi planejada.",
+   "t": 466.96666666666664,
+   "arquivo": "14009.png"
+  },
+  {
+   "quadro": "Q61",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O rótulo 'KRASNI BOR' é bem legível, mas fica sobre uma área de terra do mapa. A geografia lembra a região de São Petersburgo/Neva, então vale confirmar se a localização de Krasni Bor está correta. O quadro Q62 repete o mesmo mapa com pequeno deslocamento, provavelmente um zoom.",
+   "t": 481.0,
+   "arquivo": "14430.png"
+  },
+  {
+   "quadro": "Q64",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os uniformes dos três oficiais têm gola e botões genéricos, sem insígnia legível. O trio de oficiais à mesa é plausível para a época. Sem bandeira ou símbolo anacrônico visível; apenas vale conferir a consistência do uniforme soviético.",
+   "t": 502.0,
+   "arquivo": "15060.png"
+  },
+  {
+   "quadro": "Q65",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "As duas placas penduradas nas cercas de arame farpado, em primeiro plano, trazem marcas que parecem texto, mas estão ilegíveis. São pequenas e discretas.",
+   "t": 512.0,
+   "arquivo": "15360.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'LA EMBAJADA' cobre boa parte da cena de rua e o carimbo 'CLASIFICADO' invade a borda superior da placa. Parece intencional (estilo dossiê), mas o título e o carimbo ocupam o centro e atrapalham um pouco a leitura. Dúvida entre estilo e defeito.",
+   "t": 538.1,
+   "arquivo": "16143.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A placa de loja pendurada no muro à esquerda (atrás da etiqueta 'EXPEDIENTE 8') está em branco, com um traço vermelho borrado. Só aparece de forma discreta.",
+   "t": 538.1,
+   "arquivo": "16143.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A placa pendurada à esquerda, na fachada, mostra um letreiro vermelho com marcas ilegíveis e pseudo-texto. É pequena e discreta.",
+   "t": 542.0,
+   "arquivo": "16260.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O carro lembra um Pobeda/GAZ-M20 e é compatível com Moscou em 1947. A dúvida é só o ano exato do modelo, então não é erro claro.",
+   "t": 542.0,
+   "arquivo": "16260.png"
+  },
+  {
+   "quadro": "Q71",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os letreiros dos edifícios à direita e ao centro (fachadas de lojas) estão em branco ou com traços ilegíveis. Detalhe pequeno.",
+   "t": 562.0,
+   "arquivo": "16860.png"
+  },
+  {
+   "quadro": "Q74",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Faixas de luto penduradas e painel escuro no prédio à direita sem texto legível; sem problema de texto, mas a Praça Vermelha tem elementos arquitetônicos algo inventados (mausoléu e torres reordenados). Detalhe discreto, só para conferência.",
+   "t": 592.0,
+   "arquivo": "17760.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Placa de madeira no meio da campina (centro, perto da locomotiva) está em branco, sem texto inventado; ok. Sinal de faixa no topo é só céu liso da cena, não defeito.",
+   "t": 612.0,
+   "arquivo": "18360.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Linha de texto riscada com vermelho no centro do documento tem rabiscos pseudo-escritos ilegíveis. Pode ser intencional (texto censurado/rasurado); dúvida entre estilo e defeito.",
+   "t": 622.0,
+   "arquivo": "18660.png"
+  },
+  {
+   "quadro": "Q79",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Placas em branco na fachada da estação (canto superior direito) sem texto, o que é correto. Sem defeito grave; apenas placas vazias muito evidentes.",
+   "t": 632.0,
+   "arquivo": "18960.png"
+  },
+  {
+   "quadro": "Q81",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme no topo (RGB 45,57,64), mas é só o céu escuro e liso da cena do porto, sem emenda nem corte visível. Falso positivo provável.",
+   "t": 651.0666666666667,
+   "arquivo": "19532.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "A faixa uniforme no topo (11%) é o céu liso e escuro da ilustração, sem listra nem emenda. Falso positivo provável.",
+   "t": 652.0,
+   "arquivo": "19560.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "À esquerda aparece um monumento em coluna alta com estátua no topo, parecido com o Monumento a Colombo de Barcelona. Num episódio do Gulag, é um lugar real reconhecível que parece fora de contexto. Dúvida entre cenário e erro de lugar.",
+   "t": 682.0,
+   "arquivo": "20460.png"
+  },
+  {
+   "quadro": "Q87",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "A faixa de céu claro e liso no topo (4%) faz parte da cena da estepe. Falso positivo provável.",
+   "t": 702.0,
+   "arquivo": "21060.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "Os carros são sedãs dos anos 60/70, parecidos com o SEAT 124, e a avenida lembra a Gran Vía de Madri. Para a entrevista de um dossiê do Gulag, o carro e o cenário podem destoar da época e do lugar. Verificar a época da cena.",
+   "t": 712.0,
+   "arquivo": "21360.png"
+  },
+  {
+   "quadro": "Q89",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena de rua mostra carros tipo SEAT 124/Lada dos anos 70 e prédios de Madri, enquanto a placa diz \"Dossier · GULAG\". Há dúvida se a época e o lugar combinam com o tema. A placa de capítulo cobre o centro da imagem, o que é comportamento esperado.",
+   "t": 712.1333333333333,
+   "arquivo": "21364.png"
+  },
+  {
+   "quadro": "Q91",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A livraria tem letreiro vazio acima da vitrine, sem texto legível, e os livros expostos não mostram títulos legíveis. Nada chama a atenção; fica só a observação de que o letreiro está em branco.",
+   "t": 732.0,
+   "arquivo": "21960.png"
+  },
+  {
+   "quadro": "Q92",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "A carta no centro tem texto borrado e ilegível escrito pela IA, mais um carimbo vermelho circular vazio. Por estar desfocado, lê-se como detalhe de cena, mas continua sendo texto falso que ocupa boa parte do quadro.",
+   "t": 742.0,
+   "arquivo": "22260.png"
+  },
+  {
+   "quadro": "Q93",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Na caixa de equipamento à esquerda aparece um pequeno rótulo com letras ilegíveis, tipo \"CDI\". É um detalhe pequeno e discreto.",
+   "t": 752.0,
+   "arquivo": "22560.png"
+  },
+  {
+   "quadro": "Q95",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os papéis sobre a mesa trazem linhas de texto falso e as fotos têm imagens indistintas. Estão pequenos e de longe, então só pesam como detalhe discreto.",
+   "t": 772.0,
+   "arquivo": "23160.png"
+  },
+  {
+   "quadro": "Q99",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A foto do navio a vapor tem uma bandeirinha minúscula na proa à esquerda, difícil de identificar. Não há texto legível, risco baixo, mas convém conferir se não é bandeira anacrônica ou de país errado.",
+   "t": 802.0,
+   "arquivo": "24060.png"
+  },
+  {
+   "quadro": "Q100",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "O homem de costas usa uma jaqueta acolchoada/puffer de estilo moderno, com remendo no cotovelo, numa cena de vilarejo espanhol. A época do vídeo parece anterior (ambientação histórica de espionagem), então pode ser anacronismo. Há dúvida: pode ser estilo de roupa neutro.",
+   "t": 812.0,
+   "arquivo": "24360.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 2.0,
+   "nome": "60.png",
+   "sinais": [
+    "faixa uniforme na borda base: 12% do quadro, cor RGB(71,88,96)"
+   ]
+  },
+  {
+   "id": "Q02",
+   "t": 12.0,
+   "nome": "360.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(82,97,102)"
+   ]
+  },
+  {
+   "id": "Q03",
+   "t": 22.0,
+   "nome": "660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 26.533333333333335,
+   "nome": "796.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 32.0,
+   "nome": "960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 38.0,
+   "nome": "1140.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 42.0,
+   "nome": "1260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 52.0,
+   "nome": "1560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 62.0,
+   "nome": "1860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 72.0,
+   "nome": "2160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 82.0,
+   "nome": "2460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 92.0,
+   "nome": "2760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 96.06666666666666,
+   "nome": "2882.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 102.0,
+   "nome": "3060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 112.0,
+   "nome": "3360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 122.0,
+   "nome": "3660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 132.0,
+   "nome": "3960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 142.0,
+   "nome": "4260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 152.0,
+   "nome": "4560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 162.0,
+   "nome": "4860.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(55,63,66)"
+   ]
+  },
+  {
+   "id": "Q21",
+   "t": 162.36666666666667,
+   "nome": "4871.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(55,63,66)"
+   ]
+  },
+  {
+   "id": "Q22",
+   "t": 170.33333333333334,
+   "nome": "5110.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 172.0,
+   "nome": "5160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 182.0,
+   "nome": "5460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 192.0,
+   "nome": "5760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 202.0,
+   "nome": "6060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 212.0,
+   "nome": "6360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 222.0,
+   "nome": "6660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 232.0,
+   "nome": "6960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 232.5,
+   "nome": "6975.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 242.0,
+   "nome": "7260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 252.0,
+   "nome": "7560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 262.0,
+   "nome": "7860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 272.0,
+   "nome": "8160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 282.0,
+   "nome": "8460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 292.0,
+   "nome": "8760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 292.73333333333335,
+   "nome": "8782.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 296.46666666666664,
+   "nome": "8894.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 302.0,
+   "nome": "9060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 308.1333333333333,
+   "nome": "9244.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 312.0,
+   "nome": "9360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 322.0,
+   "nome": "9660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 332.0,
+   "nome": "9960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 342.0,
+   "nome": "10260.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(87,107,117)"
+   ]
+  },
+  {
+   "id": "Q45",
+   "t": 352.0,
+   "nome": "10560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 362.0,
+   "nome": "10860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 368.46666666666664,
+   "nome": "11054.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 372.0,
+   "nome": "11160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q49",
+   "t": 382.0,
+   "nome": "11460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 392.0,
+   "nome": "11760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 397.03333333333336,
+   "nome": "11911.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(65,75,80)"
+   ]
+  },
+  {
+   "id": "Q52",
+   "t": 402.0,
+   "nome": "12060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 412.0,
+   "nome": "12360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q54",
+   "t": 422.0,
+   "nome": "12660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 432.0,
+   "nome": "12960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 442.0,
+   "nome": "13260.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 7% do quadro, cor RGB(71,92,106)"
+   ]
+  },
+  {
+   "id": "Q57",
+   "t": 452.0,
+   "nome": "13560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 462.0,
+   "nome": "13860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 466.96666666666664,
+   "nome": "14009.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 472.0,
+   "nome": "14160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 481.0,
+   "nome": "14430.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 482.0,
+   "nome": "14460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 492.0,
+   "nome": "14760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 502.0,
+   "nome": "15060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 512.0,
+   "nome": "15360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 522.0,
+   "nome": "15660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 532.0,
+   "nome": "15960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 538.1,
+   "nome": "16143.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 542.0,
+   "nome": "16260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 552.0,
+   "nome": "16560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 562.0,
+   "nome": "16860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 572.0,
+   "nome": "17160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 582.0,
+   "nome": "17460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 592.0,
+   "nome": "17760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 598.8,
+   "nome": "17964.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 13% do quadro, cor RGB(59,66,69)"
+   ]
+  },
+  {
+   "id": "Q76",
+   "t": 602.0,
+   "nome": "18060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 612.0,
+   "nome": "18360.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 7% do quadro, cor RGB(73,100,113)"
+   ]
+  },
+  {
+   "id": "Q78",
+   "t": 622.0,
+   "nome": "18660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 632.0,
+   "nome": "18960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q80",
+   "t": 642.0,
+   "nome": "19260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 651.0666666666667,
+   "nome": "19532.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(45,57,64)"
+   ]
+  },
+  {
+   "id": "Q82",
+   "t": 652.0,
+   "nome": "19560.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 11% do quadro, cor RGB(45,57,64)"
+   ]
+  },
+  {
+   "id": "Q83",
+   "t": 662.0,
+   "nome": "19860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 672.0,
+   "nome": "20160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 682.0,
+   "nome": "20460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 692.0,
+   "nome": "20760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 702.0,
+   "nome": "21060.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(127,149,156)"
+   ]
+  },
+  {
+   "id": "Q88",
+   "t": 712.0,
+   "nome": "21360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 712.1333333333333,
+   "nome": "21364.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 722.0,
+   "nome": "21660.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 732.0,
+   "nome": "21960.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 742.0,
+   "nome": "22260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 752.0,
+   "nome": "22560.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 762.0,
+   "nome": "22860.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 772.0,
+   "nome": "23160.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 774.8,
+   "nome": "23244.png",
+   "sinais": []
+  },
+  {
+   "id": "Q97",
+   "t": 782.0,
+   "nome": "23460.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 792.0,
+   "nome": "23760.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 802.0,
+   "nome": "24060.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 812.0,
+   "nome": "24360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q101",
+   "t": 822.0,
+   "nome": "24660.png",
+   "sinais": []
+  }
+ ]
+}

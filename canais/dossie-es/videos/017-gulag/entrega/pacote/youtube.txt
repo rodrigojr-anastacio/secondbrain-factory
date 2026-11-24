@@ -1,0 +1,51 @@
+# Pacote de publicación · dossie-es 017 · El Gulag (puede ir al aire: según el día que elija Rodrigo; ventana sugerida: mié o vie) · duración ~13:49
+
+## TESTAR E COMPARAR (títulos × thumbs)
+| par | título | padrão do título | thumb | padrão da thumb |
+|---|---|---|---|---|
+| A (T1) | GULAG: la empresa de Stalin que necesitaba presos | SIGLA: aposto | thumb-A.jpg: lingote de oro con estrella grabada dentro de una fiambrera de lata vacía de preso, "GULAG" + sello "¿RENTABLE?" | objeto-simbolo (controle) |
+| B (T2) | Cómo funcionaba el Gulag por dentro: plan, oro y mano de obra presa | Cómo funcionaba X por dentro: subtítulo concreto | thumb-B.jpg: tabla de normas mecanografiada con sello de estrella roja y 3 panes negros decrecientes, rótulo "NORMA" | documento-evidencia |
+| C (T3) | Republicanos y Franquistas, Presos en el Mismo Gulag \| Expedientes de Stalin | Paradoxo + \| Expedientes de X | thumb-C.jpg: hombre de espaldas con ushanka y chaqueta acolchada baja la pasarela de un barco en el puerto de Barcelona, rótulo "BARCELONA" | cena-acao |
+
+## Descripción
+Si te gustan estos expedientes, suscríbete, deja tu like y compártelo: abrimos uno nuevo cada semana.
+
+Barcelona, 2 de abril de 1954: un barco griego atraca con 286 españoles que vuelven de los campos de trabajo soviéticos. Unos habían luchado por Franco; otros, contra él. Para entender cómo acabaron en el mismo sitio hay que abrir los papeles del Gulag, la gran empresa de la Unión Soviética: un decreto, un plan, un libro de propaganda, el oro de Kolimá, la norma que decidía el pan de cada preso y los españoles que trabajaron para ella. ¿Era rentable?
+
+Capítulos
+0:00 Introducción: el barco de Barcelona
+0:36 Expediente 1: El Decreto
+1:34 Expediente 2: El Libro
+2:40 Expediente 3: El Oro
+3:50 Expediente 4: La Norma
+5:06 Expediente 5: Los Marineros
+6:35 Expediente 6: Los Pilotos
+7:44 Expediente 7: El Número
+8:56 Expediente 8: La Embajada
+9:56 Expediente 9: Las Obras
+10:49 Expediente 10: El Barco
+11:50 Expediente 11: La Entrevista
+12:52 Cierre: Las Fotos
+
+Fuentes
+- O. Khlevniuk, *The History of the Gulag* (Yale, 2004) y "The Economy of the OGPU, NKVD and MVD of the USSR, 1930-1953": decreto del 11/07/1929, cifras de presos, oro de Dalstroi, salario de 1950.
+- A. Applebaum, *Gulag: A History* (2003): norma de ración, canal del mar Blanco, memorando de Beria de 1953, 476 complejos de campos (Memorial).
+- C. Ruder, *Making History for Stalin* (1998) y Novaya Gazeta (2023): el libro del Belomorkanal y su retirada en 1937.
+- Luiza Iordache, "Exilio de pilotos y marinos en la URSS" y *Republicanos españoles en el Gulag (1939-1956)*; M. García Santamaría y J. Sánchez Illán, *Marinos republicanos en los campos de concentración soviéticos (1938-1956)* (Catarata, 2025).
+- Niños de Rusia (Karagandá); Valencia Plaza (relato de Pilar Vicente sobre Constante Vicente Giráldez); El Debate (llegada del *Semíramis*, 2024); TIME (abril de 1954).
+- La Razón (reseña de J. Woldenberg sobre Enrique Montes García, *Veinte años en el Gulag. El caso de Vadillo*, 2022).
+- Wilson Center y testimonios sobre la visita de Henry Wallace a Magadán (1944).
+- RTVE, *Directísimo* (marzo de 1976); O. Paz, "Polvos de aquellos lodos" (*Plural*, 1974); Arxiu Fotogràfic de Barcelona (Pérez de Rozas); Al Jazeera y Nobel (Memorial, 2021-2022).
+Las acusaciones se atribuyen a sus fuentes. Contenido educativo e histórico; sin apología de la violencia.
+
+## Tags
+gulag, historia del gulag, el gulag, campos de trabajo soviéticos, unión soviética, stalin, españoles en el gulag, división azul, republicanos españoles, niños de rusia, semíramis, kolimá, historia de la urss, documental, dossier en minutos
+
+Categoría: Educación · Idioma: español
+
+## Checklist al publicar (Rodrigo)
+- Uso de contenido sintético (Studio → Atributos): **Sí** · Para niños: **No** · Idioma: español.
+- "Testar e comparar": thumbs A/B/C pareadas con los títulos A/B/C (A: lingote en la fiambrera/¿RENTABLE?; B: tabla NORMA con panes; C: hombre con ushanka en Barcelona). Avisar cuál ganó.
+- Video: video.mp4 1080p (nunca la versión del Telegram) · Subtítulos: legendas.srt (es).
+- Día de publicación: lo elige Rodrigo (la fábrica sugiere mié o vie).
+- Antes de publicar: oír los nombres propios que el Whisper marcó (Iordache, Jlevniuk, Vadillo, Joublanc, Salejard).

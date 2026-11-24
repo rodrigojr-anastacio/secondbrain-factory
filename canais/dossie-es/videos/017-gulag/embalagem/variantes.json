@@ -5,7 +5,8 @@
   "padrao_titulo": "SIGLA: aposto",
   "padrao_thumb": "objeto-simbolo",
   "thumb_conceito": "lingote de ouro em trapézio com estrela soviética gravada dentro de marmita de lata vazia de preso (número pintado), fundo ardósia escuro, sigla GULAG à direita",
-  "thumb_texto": "GULAG / ¿RENTABLE?"
+  "thumb_texto": "GULAG / ¿RENTABLE?",
+  "thumb_arquivo": "entrega/thumb-A.jpg"
  },
  {
   "letra": "B",
@@ -13,7 +14,8 @@
   "padrao_titulo": "Cómo funcionaba X por dentro: subtítulo concreto",
   "padrao_thumb": "documento-evidencia",
   "thumb_conceito": "tabela datilografada de normas de campo com carimbo de estrela vermelha e 3 pedaços de pão preto de tamanhos decrescentes sobre as linhas, mesa escura",
-  "thumb_texto": "NORMA"
+  "thumb_texto": "NORMA",
+  "thumb_arquivo": "entrega/thumb-B.jpg"
  },
  {
   "letra": "C",
@@ -21,6 +23,7 @@
   "padrao_titulo": "Paradoxo + | Expedientes de X",
   "padrao_thumb": "cena-acao",
   "thumb_conceito": "homem de costas de telogreika e ushanka desce a passarela de um navio no porto de Barcelona ensolarado, coluna de Colombo ao fundo",
-  "thumb_texto": "BARCELONA"
+  "thumb_texto": "BARCELONA",
+  "thumb_arquivo": "entrega/thumb-C.jpg"
  }
 ]
