@@ -1,0 +1,96 @@
+# SOURCES · dossie-es/016-mkultra · roteiro v1 (24/11/2026)
+Fatos conferidos contra `pesquisa/FATOS-A..D.md` (trechos literais de Marks 1979, Church 1975, audiência 03/08/1977, IG 1963, NSA, Baltimore Sun, Hofmann). Transcrição de concorrente **não** é fonte de nada aqui.
+Abreviações: **Marks** = J. Marks, *The Search for the "Manchurian Candidate"*, Times Books, 1979 (caps. 7, 11, 12; druglibrary.net/schaffer/lsd/marksN.htm) · **CH** = Church Committee, *Alleged Assassination Plots Involving Foreign Leaders*, Interim Report, 20/11/1975 (pp. 71–73, citando o IG da CIA de 1967) · **BK1** = Church Final Report, Book I, pp. 385–422 · **AUD** = audiência *Project MKULTRA…*, Senado, 03/08/1977 · **IG63** = CIA IG, *Report of Inspection of MKULTRA*, 26/07/1963 · **NSA** = National Security Archive EBB 27/122 e "In Search of Hidden Truths" · **Sun97** = Baltimore Sun, 27/01/1997 (Cohn, Thompson, Matthews) · **Hofmann** = *LSD: My Problem Child*, cap. 6.
+
+## Hook (N001–N005)
+- Velada de 1956 em Huautla com María Sabina, de noite, cantos em mazateco, cogumelos passados de mão em mão, Moore "disoriented" e sem o encantamento dos outros: Marks cap. 7 ("Wasson returned to the same Maria Sabina…", "the ritual started well after dark… for everyone but Moore", "chanting in the dialect… passed the mushrooms around… 'disoriented'"). Mês de 1956 desconhecido → "verano".
+- Moore sob contrato da CIA desde mar/1953 (= "tres años" em 1956), professor em Delaware desde 1955: Marks cap. 7 (FATOS-A 1.4).
+- Frase-âncora e linha de promessa: `EMBALAGEM.md` (Obrigações r4).
+
+## 1. Las Semillas
+- Medo do "lavado de cerebro" (Coreia) → BLUEBIRD (1950) → ARTICHOKE (ago/1951): BK1 pp. 387–388; AUD p. 57 (Gittinger sobre a China/Coreia).
+- Out/1952, Morse Allen (chefe do ARTICHOKE) ouve falar do piule, sementes usadas por indígenas mexicanos em cerimônias: Marks cap. 7; doc. #A/B, I, 33/7, 14/11/1952, "Subject: Piule".
+- Jovem cientista enviado ao México (doc. #A/B, I, 33/3, 05/12/1952; adendo CIA BLUEBIRD/ARTICHOKE 29/01/1975: viagem em dez/1952); "arrived in Mexico City early in 1953" → "entre diciembre de 1952 y comienzos del 53"; disfarce de pesquisador de plantas anestésicas; amostras nas montanhas ao sul da capital; "By February, he had collected sacks full of material, including 10 pounds of piule" (número de **Marks**, atribuído na fala); "heard amazing tales about special mushrooms": Marks cap. 7 (FATOS-D §3). Nome do cientista: não publicado.
+
+## 2. La Granja
+- Aprovação do MKULTRA por Dulles em 13/04/1953, com mecanismo especial de verbas (memo Helms 03/04/1953): BK1 p. 389; AUD p. 85.
+- Toughkenamon, 24/06/1953, "largest mushroom-growing area in the world"; produtores relutantes por medo de publicidade; "their patriotism won out… grow any kind of fungus the government desired": Marks cap. 7 (nota: doc. 25/06/1953).
+- Memorando "Mushrooms: Narcotic and Poisonous Varieties", 26/06/1953 (#A/B, I, 34/4): Marks cap. 7.
+- Olson: LSD (~70 µg) num Cointreau em 19/11/1953, sem aviso; queda do 10º andar do Hotel Statler, NY, 28/11/1953 (9 dias): BK1 (caso Olson). [Obrigatório do tema em 1–2 frases.]
+
+## 3. La Velada
+- 29/06/1955, Huautla, Wasson (vice-presidente do J.P. Morgan, micólogo amador) e o fotógrafo Allan Richardson, ~20 indígenas numa casa de adobe, María Sabina: Marks cap. 7 (data só em Marks).
+- "Uno de los primeros hombres blancos" = autodescrição de Wasson (Life/Wikipedia) e Hofmann cap. 6 ("the first white man to taste of the sacred mushrooms… summer of 1955"); dita como "se describirá".
+- "Niños santos": termo de María Sabina no testemunho a Estrada (1976).
+- Botânico da Cidade do México → relatório "reached both CIA headquarters and then James Moore": Marks cap. 7. Wasson foi por conta própria em 1955 (FATOS-A, lenda × documento).
+
+## 4. La Bolsa
+- Carta de Moore "out of the blue"; fundação; Geschickter Fund, "the CIA's conduit", US$ 2.000; "the quest for the divine mushroom became Subproject 58": Marks cap. 7 (FATOS-D §3). Marks não diz que Wasson soubesse (FATOS-D §6) → dito assim.
+- Heim na expedição de 1956: Marks cap. 7. Chão de terra, todos aproveitam menos Moore; "terribly bad cold, we damned near starved to death, and I itched all over"; Wasson: "like a landlubber at sea": Marks cap. 7.
+- "Returned to Delaware with a bag of mushrooms… started preliminary work in his lab to isolate the active ingredient": Marks cap. 7.
+
+## 5. La Revista
+- Life, 13/05/1957 (Google Books; Marks erra para 27/05), "Seeking the Magic Mushroom", 17 páginas de texto e fotos a cores, título "magic mushroom" posto por um editor contra a vontade de Wasson: FATOS-A 1.7, FATOS-D §5.
+- Heim cultiva em Paris e envia a Hofmann (Sandoz); psilocibina publicada em março de 1958 (Experientia): Hofmann cap. 6; Marks cap. 7. "Parte de la expedición" (US$ 2.000 do Geschickter).
+- "Waves of respectable adults" ao México; Leary come os primeiros cogumelos de férias no México (Marks: 1959; outras fontes: 1960 → ano omitido): Marks cap. 7.
+- Re-hook (CTA): cronologia (Cuba mar/1960 em diante, durante a busca de plantas).
+
+## 6. El Estudio
+- Mar–ago/1960, planos para sabotar os discursos de Castro; funcionário do TSD "recalled discussing a scheme to spray Castro's broadcasting studio with a chemical which produced effects similar to LSD… rejected because the chemical was unreliable"; sais de tálio nos sapatos durante uma viagem fora de Cuba, testado em animais, "apparently abandoned… because Castro cancelled his trip"; caixa de charutos impregnada com químico de desorientação para fumar "before delivering a speech": CH p. 72, citando IG CIA 1967 pp. 10–13.
+- TSD = a divisão que administrava o MKULTRA (registros destruídos por pessoal do TSD; "MKULTRA was the principal CIA program…"): BK1 p. 389; IG63 (TSD iniciou os projetos). "Laboratorio" = glosa nossa (Obrigação do EMBALAGEM). Nome de Gottlieb **não** usado (o CH não o nomeia nessa seção).
+
+## 7. Los Puros
+- 16/08/1960 caixa dos charutos favoritos de Castro para tratar com veneno letal; toxina botulínica "so potent that a person would die after putting one in his mouth"; prontos 07/10/1960; entregues a pessoa não identificada 13/02/1961 (notas do TSD); "The record does not disclose whether an attempt was made to pass the cigars to Castro": CH p. 73 (IG 1967 pp. 21–22).
+- "At least eight plots involving the CIA to assassinate Fidel Castro from 1960 to 1965": CH p. 71. Castro morreu em 25/11/2016, aos 90 anos (conhecimento público). "638" de Escalante **não** usado.
+
+## 8. La Silla
+- Jul/1963, Cidade do México: Counterintelligence Staff pede à estação candidato para experimento de "rapid induction"; agente de baixo nível "whom the Soviets had apparently doubled"; isca do dinheiro; consultor de hipnose da Califórnia; cadeira tombada; "The consultant froze"; desculpa do barulho; "would have believed any excuse"; relato de "a CIA man who participated": Marks cap. 11 (FATOS-D §2). Subprojeto 128 = técnica (nota de Marks).
+- IG63 (26/07/1963, mesmo mês): "extremely low rate of operational use" (§29): IG63.
+
+## 9. La Selva
+- "In June 1964 MKULTRA became MKSEARCH"; "continued their search for magic mushrooms, leaves, roots, and barks": Marks cap. 12.
+- 1966, J. C. King, ex-chefe da Western Hemisphere Division, "with considerable CIA backing", "ostensibly private firm called Amazon Natural Drug Company"; houseboat e scotch; ≥ 2 paramilitares da CIA nos escritórios de Iquitos; *Chondodendron toxicoferum*, agente paralisante (curare); yagé coletado e cultivado; botânico de Harvard (Plowman) "unwitting": Marks cap. 12 (fontes orais de ex-funcionários; FATOS-D §1).
+- Fim do MKSEARCH em jun/1972 (doc. S-14-3, 10/07/1972): Marks cap. 12. Destruição em jan/1973 por ordem verbal de Gottlieb cumprindo ordem verbal de Helms: BK1 p. 389.
+
+## 10. El Testigo
+- Audiência de 03/08/1977; pastas financeiras achadas em 1977 por pedidos FOIA (7 caixas, Laubinger); 149 subprojetos; 44 universidades: AUD pp. 4–7, 14.
+- Cameron (Montreal): pacientes processaram a CIA (Orlikow v. United States, acordo de 1988, US$ 750 mil): FATOS-B (CIA Reading Room / Canadian Encyclopedia). **[PENDENTE leve]** "o nome de Cameron nos papéis" vem do Subprojeto 68, que não está nos FATOS (secundário amplamente citado); alternativa segura: "Y el nombre de un psiquiatra de Montreal, Ewen Cameron, cuyos pacientes demandarían a la CIA" sem "financiado" → manter se o revisor aceitar.
+- Laubinger: "I know of no drugs or anything like that developed under this program that ever reached operational use": AUD p. 43.
+- Gittinger, 26 anos na CIA: lavagem cerebral = "isolating a human being, keeping him out of contact, putting him under long stress in relationship to interviewing and interrogation": AUD pp. 56–62. (A frase do "Manchurian Candidate" está na manada e **não** foi usada.)
+- "Más de veinte años": BLUEBIRD 1950 → fim do MKSEARCH 1972.
+
+## 11. El Curso
+- KUBARK (jul/1963) como síntese de uma década de pesquisa; centro = isolamento/privação sensorial e estresse, não drogas: McCoy, *A Question of Torture* (2006), via Democracy Now 17/02/2006; NSA EBB 122 (atribuído na fala a McCoy).
+- "El método, según el historiador Alfred McCoy" (Obrigação do EMBALAGEM).
+- Stolz (diretor adjunto de operações da CIA), jun/1988, Senado: curso de 1983 em Honduras, 3 semanas de aula + 2 de prática com presos reais; "Physical abuse or other degrading treatment was rejected"; visita de um oficial da CIA à cela de Inés Murillo: Sun97; NSA "Hidden Truths"; FATOS-C F2.8, F3.5, F3.6.
+- Batalhão 3-16 (1981–82, ano não cravado → "en esos años"); 184 casos de desaparecimento documentados pelo Comisionado Nacional de DDHH (1993/94): NSA "Hidden Truths"; FATOS-C F3.1–F3.2.
+- Murillo: ~78–80 dias de detenção ilegal em 1983 → "casi ochenta días": Sun97 / Comisionado.
+
+## 12. La Tachadura
+- Sun publica em 27/01/1997 o *Human Resource Exploitation Training Manual – 1983*; informe do Senado de 1989: feito a partir de notas do curso de Honduras; salas sem janela, prisões de madrugada para "the maximum amount of mental discomfort": Sun97; FATOS-C F2.1, F2.3.
+- p. 2: "While we do not stress the use of coercive techniques, we do want to make you aware of them and the proper way to use them" → corrigido a caneta "While we deplore the use of coercive techniques, we do want to make you aware of them so that you may avoid them", original legível; correções jul/1984–mar/1985: NSA EBB 27/122; Sun97; FATOS-C F2.4–F2.5.
+- Liberação após ameaça de processo (FOIA de 26/05/1994; liberado 24/01/1997); juiz Roy Medina: "These manuals confirm a truth we in Honduras have known for a long time": Sun97; FATOS-C F2.6–F2.7.
+
+## Cierre. Los Niños Santos
+- Hofmann e Wasson, outono de 1962 (voo em 26/09/1962); pílulas de psilocibina; sessão à noite; "the pills had the same power as the mushrooms" (de madrugada); casa da sessão de 1955 queimada "presumably by angered residents or an envious colleague, because she had divulged the secret… to strangers": Hofmann cap. 6 (FATOS-D §4).
+- Paráfrase (sem aspas) do testemunho a Álvaro Estrada, *Vida de María Sabina* (Siglo XXI, 1976): os niños santos perderam a pureza com os estrangeiros (FATOS-D §7; texto original não conferido → só paráfrase).
+
+## Conteúdo nosso (cota da bíblia: ≥ 50% dos expedientes fora da manada)
+Manada transcrita: Archive in Minutes `o7tcLlrUiAk`, Detrás del Enigma `h9c-vZ22I50`, Philion `4KUVhACw3Dc`, Rose Bennet `WRYOMvYBy2Q`, El Día Que `CYgG5HZ_vfY`, History Latinoamérica `xytVZU82Mpw` (`pesquisa/MANADA-RESUMO.md`). Objeto/cena de cada expediente × manada:
+| exp. | objeto/cena | na manada? |
+|---|---|---|
+| Hook | Moore na velada de Huautla, 1956 | não |
+| 1 Las Semillas | piule, cientista disfarçado, 10 libras (1952–53) | não |
+| 2 La Granja | Toughkenamon e o memorando dos cogumelos (1953) | não (13/04/1953 e Olson só em 1–2 frases) |
+| 3 La Velada | Wasson e María Sabina, 1955; relatório do botânico | não |
+| 4 La Bolsa | Geschickter Fund, Subprojeto 58, saco de cogumelos | não |
+| 5 La Revista | Life 1957, Hofmann e a psilocibina, Leary | não (Hofmann só como inventor do LSD) |
+| 6 El Estudio | estúdio/tálio/charutos de desorientação (Cuba 1960) | não |
+| 7 Los Puros | charutos com toxina, 1960–61 | não |
+| 8 La Silla | teste de hipnose na Cidade do México, 1963 | não |
+| 9 La Selva | Amazon Natural Drug Co., Iquitos 1966 | não |
+| 10 El Testigo | Laubinger/Gittinger na audiência de 1977 | parcial (as caixas e Gittinger aparecem na manada; aqui 1 frase para as caixas; a frase do "Manchurian Candidate" não é usada) |
+| 11 El Curso | curso de Honduras 1983, Stolz, Murillo | não |
+| 12 La Tachadura | correção a caneta do manual de 1983 | não (o Archive fala do KUBARK, não do manual de 1983) |
+| Cierre | Hofmann e as pílulas em Huautla, 1962; a casa queimada | não |
+**11–12 de 12 expedientes fora da manada (≥ 92%).** Detector: `SIMILARIDADE.md` 6/100.

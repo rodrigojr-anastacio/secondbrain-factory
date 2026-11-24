@@ -1,0 +1,238 @@
+{
+ "pasta": "canais/dossie-es/videos/016-mkultra",
+ "roteiro": "canais/dossie-es/videos/016-mkultra/blocos.json",
+ "idioma": "es",
+ "blocos": 72,
+ "nota": 5.8,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0107,
+ "blocos_consenso_manada": [
+  16,
+  51
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.06944444444444445,
+   "ordem": 1.0,
+   "ngramas": 0.003232758620689655,
+   "sim_media": 0.15025699059546055,
+   "gemeos": 5,
+   "blocos": 72,
+   "posicoes": [
+    [
+     13,
+     18
+    ],
+    [
+     51,
+     172
+    ],
+    [
+     52,
+     198
+    ],
+    [
+     55,
+     229
+    ],
+    [
+     56,
+     242
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 55,
+     "cos": 0.41,
+     "nosso": "Y John Gittinger, psicólogo de la agencia durante veintiséis años, explica qué cambiaba de verdad a una persona: aislarla, cortarle todo contacto y someterla a un estrés largo en el interrogatorio.",
+     "ref": "encontraron fue algo más sencillo. Aislar a una persona, cortar todo contacto y mantenerla bajo estrés prolongado e interrogatorios, y puede ser cambiada"
+    },
+    {
+     "bloco": 13,
+     "cos": 0.37,
+     "nosso": "En abril, el director Allen Dulles había aprobado un programa nuevo, con dinero fuera de la contabilidad normal: MKUltra.",
+     "ref": "drogas e hipnosis. En abril de 1953, el nuevo director de la CIA, Allen Dulles, advierte a un auditorio en Princeton sobre lo que llama guerra cerebral."
+    },
+    {
+     "bloco": 51,
+     "cos": 0.36,
+     "nosso": "En mil novecientos setenta y dos, la CIA cierra MKSearch. En enero de mil novecientos setenta y tres, por orden verbal del director Richard Helms, se destruyen los archivos de MKUltra.",
+     "ref": "empuja a Helms a salir. En enero de 1973, Gottlieb da la orden verbal, y su equipo destruye los archivos de MKUltra. Ambos hombres afirman"
+    },
+    {
+     "bloco": 52,
+     "cos": 0.31,
+     "nosso": "El Testigo. Washington, tres de agosto de mil novecientos setenta y siete. Ante el Senado, la CIA responde por fin qué consiguió.",
+     "ref": "nunca se escribió, o se destruyó. El 3 de agosto de 1977, el director de la CIA, el almirante Stansfield Turner, declara ante el Senado. El senador"
+    },
+    {
+     "bloco": 56,
+     "cos": 0.31,
+     "nosso": "Más de veinte años buscando la droga del control mental en semillas, hongos y lianas. Y la respuesta era una habitación cerrada.",
+     "ref": "aquello que temía? La respuesta está más en el método que en las drogas. La droga de control mental nunca existió. Lo que MK Ultra construyó fue una forma de trabajar."
+    }
+   ],
+   "ref": "canais/dossie-es/videos/016-mkultra/ref/manada-o7tcLlrUiAk.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3125,
+   "nota": 5.8,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.027777777777777776,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.12249765819482608,
+   "gemeos": 2,
+   "blocos": 72,
+   "posicoes": [
+    [
+     16,
+     97
+    ],
+    [
+     51,
+     161
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 51,
+     "cos": 0.36,
+     "nosso": "En mil novecientos setenta y dos, la CIA cierra MKSearch. En enero de mil novecientos setenta y tres, por orden verbal del director Richard Helms, se destruyen los archivos de MKUltra.",
+     "ref": "agotado pueblo estadounidense. Esto llevó al recién nombrado director de la CIA, Richard Helms, a ordenar la destrucción de todos los archivos de MK Ultra. Sumado"
+    },
+    {
+     "bloco": 16,
+     "cos": 0.32,
+     "nosso": "En noviembre, la CIA pone LSD, sin avisarle, en la copa de licor de Frank Olson, científico del Ejército. Nueve días después, Olson cae desde el décimo piso de un hotel de Nueva York.",
+     "ref": "sido adulterado con LSD. Su nombre era Frank Olson. Unos días después, el 28 de noviembre de 1953, Olson supuestamente se suicidó al caer desde"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/016-mkultra/ref/manada-4KUVhACw3Dc.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2978,
+   "nota": 1.5,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.013888888888888888,
+   "ordem": 0.0,
+   "ngramas": 0.004310344827586207,
+   "sim_media": 0.12928026801688086,
+   "gemeos": 1,
+   "blocos": 72,
+   "posicoes": [
+    [
+     16,
+     132
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 16,
+     "cos": 0.43,
+     "nosso": "En noviembre, la CIA pone LSD, sin avisarle, en la copa de licor de Frank Olson, científico del Ejército. Nueve días después, Olson cae desde el décimo piso de un hotel de Nueva York.",
+     "ref": "9 días después cayó desde la ventana de un décimo piso en un hotel de Nueva York. Durante años se dijo que fue él quien lo hizo, provocado"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/016-mkultra/ref/manada-WRYOMvYBy2Q.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 4891,
+   "nota": 1.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.013888888888888888,
+   "ordem": 0.0,
+   "ngramas": 0.0021551724137931034,
+   "sim_media": 0.13046403903354814,
+   "gemeos": 1,
+   "blocos": 72,
+   "posicoes": [
+    [
+     59,
+     87
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 59,
+     "cos": 0.34,
+     "nosso": "Lo que quedó en Honduras no fue una droga. Fue el método, según el historiador Alfred McCoy.",
+     "ref": "obligara a un sujeto a decir la verdad, pero en realidad sus objetivos eran más oscuros de lo que se creía. Alfred McCoy, historiador y profesor de historia de la University"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/016-mkultra/ref/manada-CYgG5HZ_vfY.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 4194,
+   "nota": 0.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.013888888888888888,
+   "ordem": 0.0,
+   "ngramas": 0.0021551724137931034,
+   "sim_media": 0.12819101458013782,
+   "gemeos": 1,
+   "blocos": 72,
+   "posicoes": [
+    [
+     51,
+     159
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 51,
+     "cos": 0.37,
+     "nosso": "En mil novecientos setenta y dos, la CIA cierra MKSearch. En enero de mil novecientos setenta y tres, por orden verbal del director Richard Helms, se destruyen los archivos de MKUltra.",
+     "ref": "Así que en 1973, Richard Helms, el director de la CIA, ordena destruir todos los archivos relacionados con MK Ultra, todos. Cajas enteras de documentos, contratos,"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/016-mkultra/ref/manada-h9c-vZ22I50.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 3667,
+   "nota": 0.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.013888888888888888,
+   "ordem": 0.0,
+   "ngramas": 0.0010775862068965517,
+   "sim_media": 0.0955888100503439,
+   "gemeos": 1,
+   "blocos": 72,
+   "posicoes": [
+    [
+     51,
+     21
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 51,
+     "cos": 0.37,
+     "nosso": "En mil novecientos setenta y dos, la CIA cierra MKSearch. En enero de mil novecientos setenta y tres, por orden verbal del director Richard Helms, se destruyen los archivos de MKUltra.",
+     "ref": "fuerte paranoia que hizo que en 1973 richard helms quien era en ese momento el director de la cia ordenará la destrucción de todos los archivos del programa mk-ultra para evitar"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/016-mkultra/ref/manada-xytVZU82Mpw.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 1105,
+   "nota": 0.9,
+   "veredito": "ok"
+  }
+ ]
+}
