@@ -124,27 +124,26 @@ b("En mil novecientos setenta y dos, la CIA cierra MKSearch. En enero de mil nov
 # ───────────────────────── 10. EL TESTIGO ─────────────────────────
 cap("10. El Testigo")
 b("El Testigo. Washington, tres de agosto de mil novecientos setenta y siete. Ante el Senado, la CIA responde por fin qué consiguió.", card="WASHINGTON, 1977", ideia=True)
-b("Ese año se habían encontrado papeles financieros que escaparon a la destrucción: ciento cuarenta y nueve subproyectos, cuarenta y cuatro universidades. Y el nombre del psiquiatra Ewen Cameron, en Montreal: sus pacientes demandarían a la CIA, que había financiado parte de su trabajo.")
+b("Ese año se habían encontrado papeles financieros que escaparon a la destrucción: ciento cuarenta y nueve subproyectos, cuarenta y cuatro universidades. Y el nombre del psiquiatra Ewen Cameron, en Montreal, cuyos pacientes demandarían después a la CIA.")
 b("Un funcionario, Frank Laubinger, dice que no conoce ninguna droga del programa que haya llegado a uso operativo.")
-b("Y John Gittinger, psicólogo de la agencia durante veintiséis años, explica qué cambiaba de verdad a una persona: aislarla, cortarle todo contacto y someterla a un estrés largo en el interrogatorio.")
-b("Más de veinte años buscando la droga del control mental en semillas, hongos y lianas. Y la respuesta era una habitación cerrada.", ideia=True)
+b("Entre esos papeles aparecen también las cuentas de James Moore, el químico de Huautla. Según Marks: mil ciento cuarenta y siete dólares en hongos, cuatrocientos treinta y tres en mescalina… y doce mil dólares por un cuarto de tonelada de fluothane, un anestésico.")
+b("La droga nunca llegó a operaciones. Pero lo que la CIA aprendió sobre interrogar sí viajó. Y seis años después, llegó a Honduras.", ideia=True)
 
 # ───────────────────────── 11. EL CURSO ─────────────────────────
 cap("11. El Curso")
-b("El Curso. Honduras, mil novecientos ochenta y tres. La CIA da un curso de interrogatorio a militares hondureños.", card="HONDURAS, 1983", ideia=True)
-b("Según el historiador Alfred McCoy, la agencia ya había resumido en mil novecientos sesenta y tres, en un manual secreto llamado KUBARK, una década de investigación sobre la mente. Lo central ya no eran las drogas: eran el aislamiento y el estrés.")
-b("Lo que quedó en Honduras no fue una droga. Fue el método, según el historiador Alfred McCoy.")
-b("En mil novecientos ochenta y ocho, Richard Stolz, subdirector de operaciones de la CIA, lo describe ante el Senado: tres semanas de clase y dos de práctica, con presos reales. Asegura que el maltrato físico se rechazó.")
-b("En esos años actúa el Batallón tres dieciséis, una unidad secreta del ejército hondureño. El Comisionado Nacional de Derechos Humanos documentó ciento ochenta y cuatro casos de desaparición.")
-b("Stolz admitió algo más: un oficial de la CIA visitó en su celda a Inés Murillo, una abogada detenida ilegalmente casi ochenta días en mil novecientos ochenta y tres.", ideia=True)
+b("El Curso. Honduras, mil novecientos ochenta y tres. Una abogada, Inés Murillo, lleva semanas detenida sin orden judicial. Un día, a su celda entra un oficial de la CIA.", card="HONDURAS, 1983", ideia=True)
+b("Lo sabemos porque la propia CIA lo admitió. En mil novecientos ochenta y ocho, Richard Stolz, subdirector de operaciones de la agencia, reconoce esa visita ante el Senado. Murillo pasó casi ochenta días detenida ilegalmente.")
+b("La había detenido el Batallón tres dieciséis, una unidad secreta del ejército hondureño. El Comisionado Nacional de Derechos Humanos documentó ciento ochenta y cuatro casos de desaparición.")
+b("En esas mismas audiencias, Stolz describe el curso que la CIA dio ese año a militares hondureños: tres semanas de clase y dos de práctica, con presos reales. Asegura que el maltrato físico se rechazó.")
+b("Lo que quedó en Honduras no fue una droga. Fue el método, según el historiador Alfred McCoy. Y ese método quedó escrito.", ideia=True)
 
 # ───────────────────────── 12. LA TACHADURA ─────────────────────────
 cap("12. La Tachadura")
-b("La Tachadura. Baltimore, veintisiete de enero de mil novecientos noventa y siete. El Baltimore Sun publica un manual de la CIA… de mil novecientos ochenta y tres.", card="BALTIMORE, 1997", ideia=True)
-b("Según un informe del Senado, nació de las notas del curso de Honduras. Habla de celdas sin ventanas y de arrestos de madrugada, para causar el máximo malestar mental.")
-b("En la segunda página dice, en inglés: «we do not stress», no ponemos énfasis en las técnicas coercitivas, pero queremos que sepas usarlas bien.")
-b("Entre mil novecientos ochenta y cuatro y ochenta y cinco, alguien la corrige a mano. Tacha «do not stress» y escribe «deplore»: deploramos esas técnicas, y queremos que las conozcas para que las evites. Debajo, la frase original se sigue leyendo.")
-b("La CIA entregó el manual cuando el Sun amenazó con demandarla. En Honduras, el juez Roy Medina dijo que confirmaba una verdad que su país conocía desde hacía mucho.", ideia=True)
+b("La Tachadura. Entre mil novecientos ochenta y cuatro y ochenta y cinco, alguien abre un manual de interrogatorio de la CIA y, en la segunda página, tacha dos palabras a pluma.", card="MANUAL DE 1983", ideia=True)
+b("La frase original, en inglés, decía «we do not stress»: no ponemos énfasis en las técnicas coercitivas, pero queremos que sepas usarlas bien.")
+b("Encima escribe «deplore»: deploramos esas técnicas, y queremos que las conozcas para que las evites. Debajo, la frase original se sigue leyendo.")
+b("Según un informe del Senado, el manual nació de las notas del curso de Honduras. Habla de celdas sin ventanas y de arrestos de madrugada, para causar el máximo malestar mental.")
+b("Esa página tachada sale a la luz recién en enero de mil novecientos noventa y siete, cuando el Baltimore Sun amenaza con demandar a la CIA para obtenerla. En Honduras, el juez Roy Medina dice que confirma una verdad que su país conocía desde hacía mucho.", ideia=True)
 
 # ───────────────────────── CIERRE ─────────────────────────
 cap("Cierre. Los Niños Santos")

@@ -54,20 +54,20 @@ Abreviações: **Marks** = J. Marks, *The Search for the "Manchurian Candidate"*
 
 ## 10. El Testigo
 - Audiência de 03/08/1977; pastas financeiras achadas em 1977 por pedidos FOIA (7 caixas, Laubinger); 149 subprojetos; 44 universidades: AUD pp. 4–7, 14.
-- Cameron (Montreal): pacientes processaram a CIA (Orlikow v. United States, acordo de 1988, US$ 750 mil): FATOS-B (CIA Reading Room / Canadian Encyclopedia). **[PENDENTE leve]** "o nome de Cameron nos papéis" vem do Subprojeto 68, que não está nos FATOS (secundário amplamente citado); alternativa segura: "Y el nombre de un psiquiatra de Montreal, Ewen Cameron, cuyos pacientes demandarían a la CIA" sem "financiado" → manter se o revisor aceitar.
+- Cameron (Montreal): pacientes processaram a CIA (Orlikow v. United States, acordo de 1988, US$ 750 mil): FATOS-B (CIA Reading Room / Canadian Encyclopedia). **[RESOLVIDO r1]** a palavra "financiado" saiu; o texto agora diz só "el nombre del psiquiatra Ewen Cameron, en Montreal, cuyos pacientes demandarían después a la CIA" (o nome nos papéis de 1977 = Subprojeto 68, secundário amplamente citado).
 - Laubinger: "I know of no drugs or anything like that developed under this program that ever reached operational use": AUD p. 43.
-- Gittinger, 26 anos na CIA: lavagem cerebral = "isolating a human being, keeping him out of contact, putting him under long stress in relationship to interviewing and interrogation": AUD pp. 56–62. (A frase do "Manchurian Candidate" está na manada e **não** foi usada.)
+- **[r1 crivo de ângulo: removido]** Gittinger e a frase-resposta saíram (era a cena-resposta do Archive). No lugar: contas de James Moore — US$ 1.147,60 em cogumelos, US$ 433,13 em mescalina, US$ 12.000 por um quarto de tonelada de fluothane (anestésico): Marks cap. 7 e notas; FATOS-A §1 (nota sobre Moore). Ponte "seis años después, llegó a Honduras" (1977 → 1983).
 - "Más de veinte años": BLUEBIRD 1950 → fim do MKSEARCH 1972.
 
 ## 11. El Curso
-- KUBARK (jul/1963) como síntese de uma década de pesquisa; centro = isolamento/privação sensorial e estresse, não drogas: McCoy, *A Question of Torture* (2006), via Democracy Now 17/02/2006; NSA EBB 122 (atribuído na fala a McCoy).
+- **[r1 crivo de ângulo: removido]** a síntese KUBARK (droga → isolamento/estresse) saiu. Abertura agora na cena de 1983: oficial da CIA visita Inés Murillo na cela (admitido por Stolz, jun/1988; ~78–80 dias de detenção ilegal pelo 3-16): FATOS-C F3.5, F3.6; Sun97. "Fue el método, según el historiador Alfred McCoy" (1 vez, fim do exp. 11): McCoy, *A Question of Torture* (2006), via Democracy Now 17/02/2006.
 - "El método, según el historiador Alfred McCoy" (Obrigação do EMBALAGEM).
 - Stolz (diretor adjunto de operações da CIA), jun/1988, Senado: curso de 1983 em Honduras, 3 semanas de aula + 2 de prática com presos reais; "Physical abuse or other degrading treatment was rejected"; visita de um oficial da CIA à cela de Inés Murillo: Sun97; NSA "Hidden Truths"; FATOS-C F2.8, F3.5, F3.6.
 - Batalhão 3-16 (1981–82, ano não cravado → "en esos años"); 184 casos de desaparecimento documentados pelo Comisionado Nacional de DDHH (1993/94): NSA "Hidden Truths"; FATOS-C F3.1–F3.2.
 - Murillo: ~78–80 dias de detenção ilegal em 1983 → "casi ochenta días": Sun97 / Comisionado.
 
 ## 12. La Tachadura
-- Sun publica em 27/01/1997 o *Human Resource Exploitation Training Manual – 1983*; informe do Senado de 1989: feito a partir de notas do curso de Honduras; salas sem janela, prisões de madrugada para "the maximum amount of mental discomfort": Sun97; FATOS-C F2.1, F2.3.
+- Ordem nova (r1 crivo de ângulo): abre na página 2 corrigida a caneta entre jul/1984 e mar/1985 ("do not stress" → "deplore", original legível): NSA EBB 27/122; FATOS-C F2.4. Depois o conteúdo (informe do Senado de 1989: feito das notas do curso de Honduras; salas sem janela, prisões de madrugada, "the maximum amount of mental discomfort": Sun97; F2.1, F2.3). Fecho: liberação ao Sun em jan/1997 sob ameaça de processo e a frase do juiz Roy Medina (F2.7).
 - p. 2: "While we do not stress the use of coercive techniques, we do want to make you aware of them and the proper way to use them" → corrigido a caneta "While we deplore the use of coercive techniques, we do want to make you aware of them so that you may avoid them", original legível; correções jul/1984–mar/1985: NSA EBB 27/122; Sun97; FATOS-C F2.4–F2.5.
 - Liberação após ameaça de processo (FOIA de 26/05/1994; liberado 24/01/1997); juiz Roy Medina: "These manuals confirm a truth we in Honduras have known for a long time": Sun97; FATOS-C F2.6–F2.7.
 
@@ -89,8 +89,8 @@ Manada transcrita: Archive in Minutes `o7tcLlrUiAk`, Detrás del Enigma `h9c-vZ2
 | 7 Los Puros | charutos com toxina, 1960–61 | não |
 | 8 La Silla | teste de hipnose na Cidade do México, 1963 | não |
 | 9 La Selva | Amazon Natural Drug Co., Iquitos 1966 | não |
-| 10 El Testigo | Laubinger/Gittinger na audiência de 1977 | parcial (as caixas e Gittinger aparecem na manada; aqui 1 frase para as caixas; a frase do "Manchurian Candidate" não é usada) |
-| 11 El Curso | curso de Honduras 1983, Stolz, Murillo | não |
-| 12 La Tachadura | correção a caneta do manual de 1983 | não (o Archive fala do KUBARK, não do manual de 1983) |
+| 10 El Testigo | Laubinger na audiência de 1977 + as contas de Moore (cogumelos, mescalina, fluothane) | parcial (as caixas aparecem na manada em 1 frase; Laubinger e as contas de Moore não) |
+| 11 El Curso | Murillo na cela + Stolz 1988 + curso de 1983 | não |
+| 12 La Tachadura | abre na página corrigida a caneta; liberação de 1997 só no fim | não (o Archive fala do KUBARK e abre/fecha com o jornal; aqui o objeto abre) |
 | Cierre | Hofmann e as pílulas em Huautla, 1962; a casa queimada | não |
 **11–12 de 12 expedientes fora da manada (≥ 92%).** Detector: `SIMILARIDADE.md` 6/100.

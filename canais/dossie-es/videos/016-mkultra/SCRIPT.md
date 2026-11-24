@@ -4,7 +4,7 @@ Promessa: La historia entera de MKUltra contada por lo que la CIA vino a buscar 
 
 Títulos: T1 TODA la historia de MKUltra en 13 minutos | Del laboratorio de la CIA a América Latina / T2 Cómo la CIA buscó en América Latina la droga del control mental / T3 MKULTRA: lo que la CIA vino a buscar a México… y lo que dejó
 
-Gerado por `roteiro.py` (fonte única; edite lá). 1895 palavras, ~13:23.4 estimados a 143 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 1882 palavras, ~13:17.9 estimados a 143 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish). Storyboard ainda não feito.
 
 ## Hook
@@ -143,51 +143,49 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish). Stor
 
 **[N052]** El Testigo. Washington, tres de agosto de mil novecientos setenta y siete. Ante el Senado, la CIA responde por fin qué consiguió.
 
-**[N053]** Ese año se habían encontrado papeles financieros que escaparon a la destrucción: ciento cuarenta y nueve subproyectos, cuarenta y cuatro universidades. Y el nombre del psiquiatra Ewen Cameron, en Montreal: sus pacientes demandarían a la CIA, que había financiado parte de su trabajo.
+**[N053]** Ese año se habían encontrado papeles financieros que escaparon a la destrucción: ciento cuarenta y nueve subproyectos, cuarenta y cuatro universidades. Y el nombre del psiquiatra Ewen Cameron, en Montreal, cuyos pacientes demandarían después a la CIA.
 
 **[N054]** Un funcionario, Frank Laubinger, dice que no conoce ninguna droga del programa que haya llegado a uso operativo.
 
-**[N055]** Y John Gittinger, psicólogo de la agencia durante veintiséis años, explica qué cambiaba de verdad a una persona: aislarla, cortarle todo contacto y someterla a un estrés largo en el interrogatorio.
+**[N055]** Entre esos papeles aparecen también las cuentas de James Moore, el químico de Huautla. Según Marks: mil ciento cuarenta y siete dólares en hongos, cuatrocientos treinta y tres en mescalina… y doce mil dólares por un cuarto de tonelada de fluothane, un anestésico.
 
-**[N056]** Más de veinte años buscando la droga del control mental en semillas, hongos y lianas. Y la respuesta era una habitación cerrada.
+**[N056]** La droga nunca llegó a operaciones. Pero lo que la CIA aprendió sobre interrogar sí viajó. Y seis años después, llegó a Honduras.
 
 
 ## 11. El Curso
 
-**[N057]** El Curso. Honduras, mil novecientos ochenta y tres. La CIA da un curso de interrogatorio a militares hondureños.
+**[N057]** El Curso. Honduras, mil novecientos ochenta y tres. Una abogada, Inés Murillo, lleva semanas detenida sin orden judicial. Un día, a su celda entra un oficial de la CIA.
 
-**[N058]** Según el historiador Alfred McCoy, la agencia ya había resumido en mil novecientos sesenta y tres, en un manual secreto llamado KUBARK, una década de investigación sobre la mente. Lo central ya no eran las drogas: eran el aislamiento y el estrés.
+**[N058]** Lo sabemos porque la propia CIA lo admitió. En mil novecientos ochenta y ocho, Richard Stolz, subdirector de operaciones de la agencia, reconoce esa visita ante el Senado. Murillo pasó casi ochenta días detenida ilegalmente.
 
-**[N059]** Lo que quedó en Honduras no fue una droga. Fue el método, según el historiador Alfred McCoy.
+**[N059]** La había detenido el Batallón tres dieciséis, una unidad secreta del ejército hondureño. El Comisionado Nacional de Derechos Humanos documentó ciento ochenta y cuatro casos de desaparición.
 
-**[N060]** En mil novecientos ochenta y ocho, Richard Stolz, subdirector de operaciones de la CIA, lo describe ante el Senado: tres semanas de clase y dos de práctica, con presos reales. Asegura que el maltrato físico se rechazó.
+**[N060]** En esas mismas audiencias, Stolz describe el curso que la CIA dio ese año a militares hondureños: tres semanas de clase y dos de práctica, con presos reales. Asegura que el maltrato físico se rechazó.
 
-**[N061]** En esos años actúa el Batallón tres dieciséis, una unidad secreta del ejército hondureño. El Comisionado Nacional de Derechos Humanos documentó ciento ochenta y cuatro casos de desaparición.
-
-**[N062]** Stolz admitió algo más: un oficial de la CIA visitó en su celda a Inés Murillo, una abogada detenida ilegalmente casi ochenta días en mil novecientos ochenta y tres.
+**[N061]** Lo que quedó en Honduras no fue una droga. Fue el método, según el historiador Alfred McCoy. Y ese método quedó escrito.
 
 
 ## 12. La Tachadura
 
-**[N063]** La Tachadura. Baltimore, veintisiete de enero de mil novecientos noventa y siete. El Baltimore Sun publica un manual de la CIA… de mil novecientos ochenta y tres.
+**[N062]** La Tachadura. Entre mil novecientos ochenta y cuatro y ochenta y cinco, alguien abre un manual de interrogatorio de la CIA y, en la segunda página, tacha dos palabras a pluma.
 
-**[N064]** Según un informe del Senado, nació de las notas del curso de Honduras. Habla de celdas sin ventanas y de arrestos de madrugada, para causar el máximo malestar mental.
+**[N063]** La frase original, en inglés, decía «we do not stress»: no ponemos énfasis en las técnicas coercitivas, pero queremos que sepas usarlas bien.
 
-**[N065]** En la segunda página dice, en inglés: «we do not stress», no ponemos énfasis en las técnicas coercitivas, pero queremos que sepas usarlas bien.
+**[N064]** Encima escribe «deplore»: deploramos esas técnicas, y queremos que las conozcas para que las evites. Debajo, la frase original se sigue leyendo.
 
-**[N066]** Entre mil novecientos ochenta y cuatro y ochenta y cinco, alguien la corrige a mano. Tacha «do not stress» y escribe «deplore»: deploramos esas técnicas, y queremos que las conozcas para que las evites. Debajo, la frase original se sigue leyendo.
+**[N065]** Según un informe del Senado, el manual nació de las notas del curso de Honduras. Habla de celdas sin ventanas y de arrestos de madrugada, para causar el máximo malestar mental.
 
-**[N067]** La CIA entregó el manual cuando el Sun amenazó con demandarla. En Honduras, el juez Roy Medina dijo que confirmaba una verdad que su país conocía desde hacía mucho.
+**[N066]** Esa página tachada sale a la luz recién en enero de mil novecientos noventa y siete, cuando el Baltimore Sun amenaza con demandar a la CIA para obtenerla. En Honduras, el juez Roy Medina dice que confirma una verdad que su país conocía desde hacía mucho.
 
 
 ## Cierre. Los Niños Santos
 
-**[N068]** Los Niños Santos. Huautla, otoño de mil novecientos sesenta y dos. Albert Hofmann sube a la sierra con Wasson. Trae pastillas de psilocibina.
+**[N067]** Los Niños Santos. Huautla, otoño de mil novecientos sesenta y dos. Albert Hofmann sube a la sierra con Wasson. Trae pastillas de psilocibina.
 
-**[N069]** María Sabina las prueba de noche. Al amanecer, dice que tienen el mismo poder que los hongos. La casa de la velada de mil novecientos cincuenta y cinco ya no existe: según Hofmann, la quemaron, probablemente vecinos molestos porque reveló el secreto a extraños.
+**[N068]** María Sabina las prueba de noche. Al amanecer, dice que tienen el mismo poder que los hongos. La casa de la velada de mil novecientos cincuenta y cinco ya no existe: según Hofmann, la quemaron, probablemente vecinos molestos porque reveló el secreto a extraños.
 
-**[N070]** Años después, en el testimonio que recogió Álvaro Estrada, ella contó que desde que llegaron los extranjeros, los niños santos perdieron su pureza.
+**[N069]** Años después, en el testimonio que recogió Álvaro Estrada, ella contó que desde que llegaron los extranjeros, los niños santos perdieron su pureza.
 
-**[N071]** La CIA vino a América Latina a buscar una droga para abrir la mente. Lo que dejó fue un manual para quebrarla.
+**[N070]** La CIA vino a América Latina a buscar una droga para abrir la mente. Lo que dejó fue un manual para quebrarla.
 
-**[N072]** Y tú, ¿qué pesa más en esta historia: lo que la CIA vino a buscar, o lo que dejó? Déjalo en los comentarios.
+**[N071]** Y tú, ¿qué pesa más en esta historia: lo que la CIA vino a buscar, o lo que dejó? Déjalo en los comentarios.

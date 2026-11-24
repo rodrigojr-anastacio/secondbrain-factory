@@ -2,27 +2,27 @@
  "pasta": "canais/dossie-es/videos/016-mkultra",
  "roteiro": "canais/dossie-es/videos/016-mkultra/blocos.json",
  "idioma": "es",
- "blocos": 72,
- "nota": 5.8,
+ "blocos": 71,
+ "nota": 3.6,
  "veredito": "ok",
  "limites": {
   "ATENCAO": 18,
   "COPIA": 30
  },
  "limiar_gemeo": 0.3,
- "custo_traducao_usd": 0.0107,
+ "custo_traducao_usd": 0.0,
  "blocos_consenso_manada": [
   16,
   51
  ],
  "referencias": [
   {
-   "cobertura": 0.06944444444444445,
+   "cobertura": 0.04225352112676056,
    "ordem": 1.0,
-   "ngramas": 0.003232758620689655,
-   "sim_media": 0.15025699059546055,
-   "gemeos": 5,
-   "blocos": 72,
+   "ngramas": 0.003218884120171674,
+   "sim_media": 0.1455511772355884,
+   "gemeos": 3,
+   "blocos": 71,
    "posicoes": [
     [
      13,
@@ -35,23 +35,9 @@
     [
      52,
      198
-    ],
-    [
-     55,
-     229
-    ],
-    [
-     56,
-     242
     ]
    ],
    "trechos": [
-    {
-     "bloco": 55,
-     "cos": 0.41,
-     "nosso": "Y John Gittinger, psicólogo de la agencia durante veintiséis años, explica qué cambiaba de verdad a una persona: aislarla, cortarle todo contacto y someterla a un estrés largo en el interrogatorio.",
-     "ref": "encontraron fue algo más sencillo. Aislar a una persona, cortar todo contacto y mantenerla bajo estrés prolongado e interrogatorios, y puede ser cambiada"
-    },
     {
      "bloco": 13,
      "cos": 0.37,
@@ -69,28 +55,22 @@
      "cos": 0.31,
      "nosso": "El Testigo. Washington, tres de agosto de mil novecientos setenta y siete. Ante el Senado, la CIA responde por fin qué consiguió.",
      "ref": "nunca se escribió, o se destruyó. El 3 de agosto de 1977, el director de la CIA, el almirante Stansfield Turner, declara ante el Senado. El senador"
-    },
-    {
-     "bloco": 56,
-     "cos": 0.31,
-     "nosso": "Más de veinte años buscando la droga del control mental en semillas, hongos y lianas. Y la respuesta era una habitación cerrada.",
-     "ref": "aquello que temía? La respuesta está más en el método que en las drogas. La droga de control mental nunca existió. Lo que MK Ultra construyó fue una forma de trabajar."
     }
    ],
    "ref": "canais/dossie-es/videos/016-mkultra/ref/manada-o7tcLlrUiAk.txt",
    "idioma_ref": "en",
    "traduzido": true,
    "palavras_ref": 3125,
-   "nota": 5.8,
+   "nota": 3.6,
    "veredito": "ok"
   },
   {
-   "cobertura": 0.027777777777777776,
+   "cobertura": 0.028169014084507043,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.12249765819482608,
+   "sim_media": 0.12209951362716479,
    "gemeos": 2,
-   "blocos": 72,
+   "blocos": 71,
    "posicoes": [
     [
      16,
@@ -123,12 +103,12 @@
    "veredito": "ok"
   },
   {
-   "cobertura": 0.013888888888888888,
+   "cobertura": 0.014084507042253521,
    "ordem": 0.0,
-   "ngramas": 0.004310344827586207,
-   "sim_media": 0.12928026801688086,
+   "ngramas": 0.004291845493562232,
+   "sim_media": 0.1278315664223195,
    "gemeos": 1,
-   "blocos": 72,
+   "blocos": 71,
    "posicoes": [
     [
      16,
@@ -151,40 +131,12 @@
    "veredito": "ok"
   },
   {
-   "cobertura": 0.013888888888888888,
+   "cobertura": 0.014084507042253521,
    "ordem": 0.0,
-   "ngramas": 0.0021551724137931034,
-   "sim_media": 0.13046403903354814,
+   "ngramas": 0.002145922746781116,
+   "sim_media": 0.13010033917129274,
    "gemeos": 1,
-   "blocos": 72,
-   "posicoes": [
-    [
-     59,
-     87
-    ]
-   ],
-   "trechos": [
-    {
-     "bloco": 59,
-     "cos": 0.34,
-     "nosso": "Lo que quedó en Honduras no fue una droga. Fue el método, según el historiador Alfred McCoy.",
-     "ref": "obligara a un sujeto a decir la verdad, pero en realidad sus objetivos eran más oscuros de lo que se creía. Alfred McCoy, historiador y profesor de historia de la University"
-    }
-   ],
-   "ref": "canais/dossie-es/videos/016-mkultra/ref/manada-CYgG5HZ_vfY.txt",
-   "idioma_ref": "es",
-   "traduzido": false,
-   "palavras_ref": 4194,
-   "nota": 0.9,
-   "veredito": "ok"
-  },
-  {
-   "cobertura": 0.013888888888888888,
-   "ordem": 0.0,
-   "ngramas": 0.0021551724137931034,
-   "sim_media": 0.12819101458013782,
-   "gemeos": 1,
-   "blocos": 72,
+   "blocos": 71,
    "posicoes": [
     [
      51,
@@ -207,12 +159,12 @@
    "veredito": "ok"
   },
   {
-   "cobertura": 0.013888888888888888,
+   "cobertura": 0.014084507042253521,
    "ordem": 0.0,
-   "ngramas": 0.0010775862068965517,
-   "sim_media": 0.0955888100503439,
+   "ngramas": 0.001072961373390558,
+   "sim_media": 0.09461412268066899,
    "gemeos": 1,
-   "blocos": 72,
+   "blocos": 71,
    "posicoes": [
     [
      51,
@@ -232,6 +184,22 @@
    "traduzido": false,
    "palavras_ref": 1105,
    "nota": 0.9,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.002145922746781116,
+   "sim_media": 0.12691139970988638,
+   "gemeos": 0,
+   "blocos": 71,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/016-mkultra/ref/manada-CYgG5HZ_vfY.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 4194,
+   "nota": 0.2,
    "veredito": "ok"
   }
  ]
