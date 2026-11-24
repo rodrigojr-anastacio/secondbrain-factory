@@ -67,3 +67,6 @@ Aviso de método: várias linhas vêm de páginas da Wikipedia/uh.edu que citam 
 - Retirada de créditos de dia de trabalho na primavera-verão de 1939; salários para presos em 13/03/1950; 1951-52: 26-28% dos presos a peça não batiam a meta (Khlevniuk).
 - 24/03/1941: NKVD recebe tarefa de 251 aeródromos, com 400 mil presos e 100 batalhões de construção (Khlevniuk).
 - Wallace em Magadan 1944 ("Auschwitz sem câmaras de gás", Wilson Center): https://wilsoncenter.org/publication/three-days-auschwitz-without-gas-chambers-henry-wallaces-visit-to-magadan-1944 (não lido).
+
+## Adendo (23/11/2026, orquestrador da etapa 1): 476 complexos
+[CONFIRMADO em fala da própria autora] Applebaum: "there were at least 476 camp systems, each one made up of hundreds, even thousands of individual camps or lagpunkts" (Heritage Foundation, 2003, https://www.heritage.org/europe/report/gulag-understanding-the-magnitude-what-happened ; Cato's Letter, https://www.cato.org/catos-letter/gulag-what-we-now-know-why-it-matters); no livro, "at least 476 distinct camp complexes" (Introdução), com base no diretório do Memorial *Sistema ispravitel'no-trudovykh lagerei v SSSR 1923–1960* (1998). [DIVERGE leve] Irish Times (resenha) cita 475. No roteiro: "al menos 476 complejos de campos, según el directorio de Memorial que cita Anne Applebaum".
