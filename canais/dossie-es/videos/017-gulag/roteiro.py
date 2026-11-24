@@ -59,22 +59,22 @@ b("El Libro. Moscú, primavera de mil novecientos treinta y siete. Semión Firin
 b("Firin había editado, junto a Máximo Gorki y Leopold Averbaj, la historia oficial del canal del mar Blanco, escrita por treinta y seis autores soviéticos. Según el diario ruso Nóvaya Gazeta, tras su caída se retira la tirada.")
 b("El canal une el mar Blanco con el Báltico: doscientos veintisiete kilómetros, abiertos en unos veinte meses por más de cien mil presos. Se inaugura el dos de agosto de mil novecientos treinta y tres.")
 b("Los registros del propio Gulag anotan unos doce mil fallecidos. Algunas estimaciones de historiadores duplican esa cifra. Ese mismo mes, una brigada de unos ciento veinte escritores recorre la obra para celebrarla.")
-b("Pero el canal es poco profundo y los barcos grandes no pasan. En mil novecientos cuarenta funciona a menos de la mitad de su capacidad. Y la purga que se llevó a Firin alcanzó también al jefe que mejores cifras entregaba.", ideia=True)
+b("La empresa había aprendido algo: las obras también se enseñan. Once años después, invitaría a otro visitante a ver sus minas. Esta vez, desde Washington.", ideia=True)
 
 # ───────────────────────── 3. EL ORO ─────────────────────────
 cap("3. El Oro")
-b("El Oro. Magadán, diciembre de mil novecientos treinta y siete. Dalstrói, la empresa del Gulag en Kolimá, en el extremo noreste soviético, cierra el año con cincuenta y una toneladas y media de oro.", card="KOLIMÁ, 1937")
-b("Ese mismo mes, su director, Eduard Berzin, viaja a Moscú. Lo arrestan el diecinueve de diciembre. Lo fusilan al año siguiente.")
-b("Entre mil novecientos veintiocho y mil novecientos treinta y tres, la región había dado menos de dos toneladas. Lo que cambió fue la mano de obra. Llegaba en barco: presos.")
-b("A finales de mil novecientos treinta y dos trabajan allí unos once mil. A comienzos de mil novecientos cuarenta, más de ciento noventa mil.")
+b("El Oro. Magadán, mayo de mil novecientos cuarenta y cuatro. Henry Wallace, vicepresidente de Estados Unidos, aterriza en Kolimá, en el extremo noreste soviético.", card="MAGADÁN, 1944")
+b("Lo recibe Iván Nikíshov, jefe de Dalstrói, la empresa del Gulag que saca oro de la región. Le enseña escuelas, granjas y minas.")
+b("Según presos que lo vivieron, las torres de vigilancia desaparecen esos días y los reclusos quedan encerrados. Años después, Wallace admitió que lo había impresionado demasiado el espectáculo.")
+b("Detrás del espectáculo estaban las cifras. Entre mil novecientos veintiocho y mil novecientos treinta y tres, la región había dado menos de dos toneladas de oro. En mil novecientos treinta y siete, Dalstrói entrega cincuenta y una toneladas y media. A comienzos de mil novecientos cuarenta trabajan allí más de ciento noventa mil presos.")
 b("En Moscú, los informes se medían en toneladas. Pero había una pregunta que ningún informe respondía: ¿era rentable? Dentro de los campos, la respuesta empezaba en una tabla.", ideia=True)
 
 # ───────────────────────── 4. LA NORMA ─────────────────────────
 cap("4. La Norma")
-b("La Norma. Marzo de mil novecientos cincuenta. El Gulag empieza a pagar un salario a sus presos. ¿Por qué? La respuesta está en una tabla.", card="1950")
-b("La comida dependía del trabajo. Según la historiadora Anne Applebaum, la idea venía de Solovkí: en trabajo pesado, quien cumplía la norma podía recibir ochocientos gramos de pan y ochenta gramos de carne. A los presos clasificados como inválidos les tocaba la mitad.")
-b("El preso débil producía menos, comía menos y se debilitaba más. Para sobrevivir, presos y jefes inventaron la tufta: informes de producción inflados. El plan se cumplía en el papel.")
-b("Según el historiador Oleg Jlevniuk, a comienzos de los años cincuenta más de la cuarta parte de los presos que trabajaban a destajo no alcanzaba la norma. El salario fue un último intento.")
+b("La Norma. Moscú, trece de marzo de mil novecientos cincuenta. El gobierno soviético decide pagar un salario a los presos de los campos.", card="MOSCÚ, 1950")
+b("Hasta entonces, la paga era la comida. Según Applebaum, en trabajo pesado, quien cumplía la norma podía recibir ochocientos gramos de pan. A los presos clasificados como inválidos les tocaba la mitad.")
+b("Había existido otro incentivo: días de condena descontados por buen trabajo. Según el historiador Oleg Jlevniuk, Beria los suprimió en mil novecientos treinta y nueve.")
+b("A comienzos de los años cincuenta, más de la cuarta parte de los presos que trabajaban a destajo no alcanzaba la norma. Los propios dirigentes ya preferían trabajadores libres, que rendían más y no necesitaban guardias. El salario fue un último intento.")
 b("En total, según el directorio de la organización rusa Memorial que cita Applebaum, hubo al menos cuatrocientos setenta y seis complejos de campos. En algunos acabaron españoles que habían llegado como aliados.", ideia=True)
 
 # ───────────────────────── 5. LOS MARINEROS ─────────────────────────
@@ -83,7 +83,7 @@ b("Los Marineros. Odesa, primavera de mil novecientos treinta y nueve. La guerra
 b("Habían traído suministros para la República. Son doscientos cincuenta hombres sin un país al que volver. Ese verano, unos ciento treinta marineros de los barcos retenidos salen por Estambul. Los demás se quedan.")
 b("Piden irse a México, a Francia, adonde sea. Según la historiadora Luiza Iordache, para Moscú un extranjero que quería marcharse era un sospechoso.")
 b("A finales de junio de mil novecientos cuarenta y uno, días después de la invasión alemana, Lavrenti Beria ordena internar en Norilsk a los marineros y pilotos españoles que pedían salir. Ninguno fue juzgado.")
-b("Norilsk, por encima del círculo polar, era una mina de níquel del Gulag. Según Iordache, más de veinte republicanos españoles fallecen en los campos antes de mil novecientos cincuenta y cuatro.", ideia=True)
+b("Norilsk, por encima del círculo polar, era una mina de níquel del Gulag. Allí la empresa los pone a trabajar. Según Iordache, más de veinte republicanos españoles fallecen en los campos antes de mil novecientos cincuenta y cuatro.", ideia=True)
 b("Si te interesan estos expedientes, suscríbete. Porque con los marineros cayeron también los alumnos de una escuela de pilotos.")
 
 # ───────────────────────── 6. LOS PILOTOS ─────────────────────────
@@ -98,8 +98,8 @@ b("Mientras tanto, la guerra vaciaba los campos. En mil novecientos cuarenta y d
 cap("7. El Número")
 b("El Número. Krasni Bor, cerca de Leningrado, diez de febrero de mil novecientos cuarenta y tres. La División Azul, los voluntarios que Franco envió a luchar junto a Alemania, recibe una gran ofensiva soviética. A sus soldados los llaman divisionarios.", card="KRASNI BOR, 1943")
 b("Entre los capturados está Constante Vicente Giráldez. Según su hija, pierde la vista de un ojo. En sus papeles militares figura un número: doce mil ciento veintitrés.")
-b("Según el autor, los divisionarios capturados van de unos trescientos setenta a casi quinientos. Llegan como prisioneros de guerra. A muchos los condenan y los envían a campos de trabajo.")
-b("Según Iordache, a finales de los años cuarenta, republicanos y divisionarios conviven en los mismos campos. Según la asociación Niños de Rusia, uno de ellos fue Karagandá, en Kazajistán.")
+b("Según los historiadores, los divisionarios capturados van de unos trescientos setenta a casi quinientos. Llegan como prisioneros de guerra. A muchos los condenan y los envían a campos de trabajo.")
+b("Según Iordache, a finales de los años cuarenta, republicanos y divisionarios conviven en los mismos campos. Uno de ellos fue Karagandá, en Kazajistán. Allí, según su hija, Constante Vicente acaba haciendo pan para los oficiales del campo.")
 b("Hombres de los dos bandos de la guerra civil comparten ahora campo. Pero no todos los presos que hablaban español eran españoles. Uno era mexicano.", ideia=True)
 
 # ───────────────────────── 8. LA EMBAJADA ─────────────────────────
@@ -115,7 +115,7 @@ cap("9. Las Obras")
 b("Las Obras. Moscú, doce de marzo de mil novecientos cincuenta y tres. Una semana después de la muerte de Stalin, Lavrenti Beria cancela más de veinte grandes obras del Gulag.", card="MOSCÚ, 1953")
 b("Canales, presas, un ferrocarril por la tundra ártica entre Salejard e Ígarka. Ese mes, Beria informa a la dirección del partido de cuántos presos hay: más de dos millones y medio.")
 b("El veintisiete de marzo, una amnistía libera a cerca de un millón, casi todos por delitos comunes. En junio, según Applebaum, Beria dice querer liquidar el trabajo forzado por su ineficiencia económica.")
-b("Esa fue la respuesta del propio régimen a la pregunta del oro: la empresa no era rentable. Los presos políticos siguen dentro. En mil novecientos cincuenta y cuatro se rebelan en Kenguir, hasta que llegan los tanques. Unos meses antes, un barco había ido a buscar a los españoles.", ideia=True)
+b("Esa fue la respuesta del propio régimen a la pregunta del oro: la empresa no era rentable. Pero los españoles seguían dentro. Un año después, un barco fue a buscarlos.", ideia=True)
 
 # ───────────────────────── 10. EL BARCO ─────────────────────────
 cap("10. El Barco")
@@ -129,7 +129,7 @@ b("En el puerto los recibe el general Muñoz Grandes, antiguo jefe de la Divisi�
 cap("11. La Entrevista")
 b("La Entrevista. Madrid, marzo de mil novecientos setenta y seis. Franco ha muerto hace cuatro meses. En el programa Directísimo, de Televisión Española, José María Íñigo entrevista a un escritor ruso expulsado de su país: Alexandr Solzhenitsyn.", card="MADRID, 1976")
 b("Su Archipiélago Gulag había salido en París en mil novecientos setenta y tres, y en español al año siguiente. En México, Octavio Paz lo defendió en la revista Plural.")
-b("Para entonces, el Gulag ya no existía con ese nombre: una orden de enero de mil novecientos sesenta lo había disuelto. Pero los campos para presos políticos siguieron hasta los años ochenta.")
+b("Para entonces, el Gulag ya no existía con ese nombre: una orden de enero de mil novecientos sesenta lo había disuelto.")
 b("En el estudio, Solzhenitsyn les dice a los españoles, textualmente: «Vosotros no sabéis qué es el comunismo». Parte de la prensa de izquierda lo ataca. El novelista Juan Marsé lo llama «chorizo de las letras»: ladrón de las letras.")
 b("De los españoles que volvieron en mil novecientos cincuenta y cuatro quedaba otra prueba, más callada: unas fotos.", ideia=True)
 
@@ -137,7 +137,7 @@ b("De los españoles que volvieron en mil novecientos cincuenta y cuatro quedaba
 cap("Cierre. Las Fotos")
 b("Las Fotos. Barcelona, dos de abril de mil novecientos cincuenta y cuatro. En el muelle, entre la multitud, el fotógrafo Carlos Pérez de Rozas retrata a los que bajan del Semíramis.", card="BARCELONA, 1954")
 b("Hoy esas fotos están en el Archivo Fotográfico de Barcelona. Muestran a los que volvieron, hombres de los dos bandos, bajando del mismo barco.")
-b("En Rusia, la organización Memorial pasó décadas reuniendo los nombres de las víctimas. En dos mil veintiuno, la justicia rusa la disolvió.")
+b("Siete décadas después, en dos mil veinticinco, un libro reconstruye el destino de los marineros republicanos en los campos soviéticos.")
 b("Los historiadores discuten si el Gulag buscaba culpables o brazos. Sus papeles contaban brazos. Y los encontró en todas partes: entre sus enemigos, entre sus aliados y entre los que solo querían volver a casa.", ideia=True)
 b("Y tú, ¿sabías que hubo españoles en el Gulag? ¿Conoces alguna historia así en tu familia? Déjalo en los comentarios.")
 

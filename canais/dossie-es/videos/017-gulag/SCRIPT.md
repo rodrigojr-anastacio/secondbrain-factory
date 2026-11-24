@@ -4,7 +4,7 @@ Promessa: El Gulag por dentro como una empresa del Estado soviético que funcion
 
 Títulos: T1 GULAG: la empresa de Stalin que necesitaba presos / T2 Cómo funcionaba el Gulag por dentro: plan, oro y mano de obra presa / T3 Republicanos y Franquistas, Presos en el Mismo Gulag | Expedientes de Stalin
 
-Gerado por `roteiro.py` (fonte única; edite lá). 1899 palavras, ~13:24.3 estimados a 143 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 1877 palavras, ~13:15.1 estimados a 143 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
@@ -41,31 +41,31 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N013]** Los registros del propio Gulag anotan unos doce mil fallecidos. Algunas estimaciones de historiadores duplican esa cifra. Ese mismo mes, una brigada de unos ciento veinte escritores recorre la obra para celebrarla.
 
-**[N014]** Pero el canal es poco profundo y los barcos grandes no pasan. En mil novecientos cuarenta funciona a menos de la mitad de su capacidad. Y la purga que se llevó a Firin alcanzó también al jefe que mejores cifras entregaba.
+**[N014]** La empresa había aprendido algo: las obras también se enseñan. Once años después, invitaría a otro visitante a ver sus minas. Esta vez, desde Washington.
 
 
 ## 3. El Oro
 
-**[N015]** El Oro. Magadán, diciembre de mil novecientos treinta y siete. Dalstrói, la empresa del Gulag en Kolimá, en el extremo noreste soviético, cierra el año con cincuenta y una toneladas y media de oro.
+**[N015]** El Oro. Magadán, mayo de mil novecientos cuarenta y cuatro. Henry Wallace, vicepresidente de Estados Unidos, aterriza en Kolimá, en el extremo noreste soviético.
 
-**[N016]** Ese mismo mes, su director, Eduard Berzin, viaja a Moscú. Lo arrestan el diecinueve de diciembre. Lo fusilan al año siguiente.
+**[N016]** Lo recibe Iván Nikíshov, jefe de Dalstrói, la empresa del Gulag que saca oro de la región. Le enseña escuelas, granjas y minas.
 
-**[N017]** Entre mil novecientos veintiocho y mil novecientos treinta y tres, la región había dado menos de dos toneladas. Lo que cambió fue la mano de obra. Llegaba en barco: presos.
+**[N017]** Según presos que lo vivieron, las torres de vigilancia desaparecen esos días y los reclusos quedan encerrados. Años después, Wallace admitió que lo había impresionado demasiado el espectáculo.
 
-**[N018]** A finales de mil novecientos treinta y dos trabajan allí unos once mil. A comienzos de mil novecientos cuarenta, más de ciento noventa mil.
+**[N018]** Detrás del espectáculo estaban las cifras. Entre mil novecientos veintiocho y mil novecientos treinta y tres, la región había dado menos de dos toneladas de oro. En mil novecientos treinta y siete, Dalstrói entrega cincuenta y una toneladas y media. A comienzos de mil novecientos cuarenta trabajan allí más de ciento noventa mil presos.
 
 **[N019]** En Moscú, los informes se medían en toneladas. Pero había una pregunta que ningún informe respondía: ¿era rentable? Dentro de los campos, la respuesta empezaba en una tabla.
 
 
 ## 4. La Norma
 
-**[N020]** La Norma. Marzo de mil novecientos cincuenta. El Gulag empieza a pagar un salario a sus presos. ¿Por qué? La respuesta está en una tabla.
+**[N020]** La Norma. Moscú, trece de marzo de mil novecientos cincuenta. El gobierno soviético decide pagar un salario a los presos de los campos.
 
-**[N021]** La comida dependía del trabajo. Según la historiadora Anne Applebaum, la idea venía de Solovkí: en trabajo pesado, quien cumplía la norma podía recibir ochocientos gramos de pan y ochenta gramos de carne. A los presos clasificados como inválidos les tocaba la mitad.
+**[N021]** Hasta entonces, la paga era la comida. Según Applebaum, en trabajo pesado, quien cumplía la norma podía recibir ochocientos gramos de pan. A los presos clasificados como inválidos les tocaba la mitad.
 
-**[N022]** El preso débil producía menos, comía menos y se debilitaba más. Para sobrevivir, presos y jefes inventaron la tufta: informes de producción inflados. El plan se cumplía en el papel.
+**[N022]** Había existido otro incentivo: días de condena descontados por buen trabajo. Según el historiador Oleg Jlevniuk, Beria los suprimió en mil novecientos treinta y nueve.
 
-**[N023]** Según el historiador Oleg Jlevniuk, a comienzos de los años cincuenta más de la cuarta parte de los presos que trabajaban a destajo no alcanzaba la norma. El salario fue un último intento.
+**[N023]** A comienzos de los años cincuenta, más de la cuarta parte de los presos que trabajaban a destajo no alcanzaba la norma. Los propios dirigentes ya preferían trabajadores libres, que rendían más y no necesitaban guardias. El salario fue un último intento.
 
 **[N024]** En total, según el directorio de la organización rusa Memorial que cita Applebaum, hubo al menos cuatrocientos setenta y seis complejos de campos. En algunos acabaron españoles que habían llegado como aliados.
 
@@ -80,7 +80,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N028]** A finales de junio de mil novecientos cuarenta y uno, días después de la invasión alemana, Lavrenti Beria ordena internar en Norilsk a los marineros y pilotos españoles que pedían salir. Ninguno fue juzgado.
 
-**[N029]** Norilsk, por encima del círculo polar, era una mina de níquel del Gulag. Según Iordache, más de veinte republicanos españoles fallecen en los campos antes de mil novecientos cincuenta y cuatro.
+**[N029]** Norilsk, por encima del círculo polar, era una mina de níquel del Gulag. Allí la empresa los pone a trabajar. Según Iordache, más de veinte republicanos españoles fallecen en los campos antes de mil novecientos cincuenta y cuatro.
 
 **[N030]** Si te interesan estos expedientes, suscríbete. Porque con los marineros cayeron también los alumnos de una escuela de pilotos.
 
@@ -104,9 +104,9 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N037]** Entre los capturados está Constante Vicente Giráldez. Según su hija, pierde la vista de un ojo. En sus papeles militares figura un número: doce mil ciento veintitrés.
 
-**[N038]** Según el autor, los divisionarios capturados van de unos trescientos setenta a casi quinientos. Llegan como prisioneros de guerra. A muchos los condenan y los envían a campos de trabajo.
+**[N038]** Según los historiadores, los divisionarios capturados van de unos trescientos setenta a casi quinientos. Llegan como prisioneros de guerra. A muchos los condenan y los envían a campos de trabajo.
 
-**[N039]** Según Iordache, a finales de los años cuarenta, republicanos y divisionarios conviven en los mismos campos. Según la asociación Niños de Rusia, uno de ellos fue Karagandá, en Kazajistán.
+**[N039]** Según Iordache, a finales de los años cuarenta, republicanos y divisionarios conviven en los mismos campos. Uno de ellos fue Karagandá, en Kazajistán. Allí, según su hija, Constante Vicente acaba haciendo pan para los oficiales del campo.
 
 **[N040]** Hombres de los dos bandos de la guerra civil comparten ahora campo. Pero no todos los presos que hablaban español eran españoles. Uno era mexicano.
 
@@ -132,7 +132,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N048]** El veintisiete de marzo, una amnistía libera a cerca de un millón, casi todos por delitos comunes. En junio, según Applebaum, Beria dice querer liquidar el trabajo forzado por su ineficiencia económica.
 
-**[N049]** Esa fue la respuesta del propio régimen a la pregunta del oro: la empresa no era rentable. Los presos políticos siguen dentro. En mil novecientos cincuenta y cuatro se rebelan en Kenguir, hasta que llegan los tanques. Unos meses antes, un barco había ido a buscar a los españoles.
+**[N049]** Esa fue la respuesta del propio régimen a la pregunta del oro: la empresa no era rentable. Pero los españoles seguían dentro. Un año después, un barco fue a buscarlos.
 
 
 ## 10. El Barco
@@ -154,7 +154,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N056]** Su Archipiélago Gulag había salido en París en mil novecientos setenta y tres, y en español al año siguiente. En México, Octavio Paz lo defendió en la revista Plural.
 
-**[N057]** Para entonces, el Gulag ya no existía con ese nombre: una orden de enero de mil novecientos sesenta lo había disuelto. Pero los campos para presos políticos siguieron hasta los años ochenta.
+**[N057]** Para entonces, el Gulag ya no existía con ese nombre: una orden de enero de mil novecientos sesenta lo había disuelto.
 
 **[N058]** En el estudio, Solzhenitsyn les dice a los españoles, textualmente: «Vosotros no sabéis qué es el comunismo». Parte de la prensa de izquierda lo ataca. El novelista Juan Marsé lo llama «chorizo de las letras»: ladrón de las letras.
 
@@ -167,7 +167,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N061]** Hoy esas fotos están en el Archivo Fotográfico de Barcelona. Muestran a los que volvieron, hombres de los dos bandos, bajando del mismo barco.
 
-**[N062]** En Rusia, la organización Memorial pasó décadas reuniendo los nombres de las víctimas. En dos mil veintiuno, la justicia rusa la disolvió.
+**[N062]** Siete décadas después, en dos mil veinticinco, un libro reconstruye el destino de los marineros republicanos en los campos soviéticos.
 
 **[N063]** Los historiadores discuten si el Gulag buscaba culpables o brazos. Sus papeles contaban brazos. Y los encontró en todas partes: entre sus enemigos, entre sus aliados y entre los que solo querían volver a casa.
 

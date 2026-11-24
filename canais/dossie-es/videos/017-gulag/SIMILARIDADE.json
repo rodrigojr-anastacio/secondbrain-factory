@@ -18,8 +18,8 @@
   {
    "cobertura": 0.03125,
    "ordem": 0.0,
-   "ngramas": 0.005341880341880342,
-   "sim_media": 0.15746480957131725,
+   "ngramas": 0.0053475935828877,
+   "sim_media": 0.1541632952551834,
    "gemeos": 2,
    "blocos": 64,
    "posicoes": [
@@ -35,13 +35,13 @@
    "trechos": [
     {
      "bloco": 21,
-     "cos": 0.37,
-     "nosso": "La comida dependía del trabajo. Según la historiadora Anne Applebaum, la idea venía de Solovkí: en trabajo pesado, quien cumplía la norma podía recibir ochocientos gramos de pan y ochenta gramos de carne. A los presos clasificados como inválidos les tocaba la ",
+     "cos": 0.35,
+     "nosso": "Hasta entonces, la paga era la comida. Según Applebaum, en trabajo pesado, quien cumplía la norma podía recibir ochocientos gramos de pan. A los presos clasificados como inválidos les tocaba la mitad.",
      "ref": "pan depende de ella. Un preso que cumple la norma recibe alrededor de un kilogramo de pan. Un preso que cumple mucho menos recibe apenas 400 gramos, aunque las cantidades"
     },
     {
      "bloco": 12,
-     "cos": 0.32,
+     "cos": 0.33,
      "nosso": "El canal une el mar Blanco con el Báltico: doscientos veintisiete kilómetros, abiertos en unos veinte meses por más de cien mil presos. Se inaugura el dos de agosto de mil novecientos treinta y tres.",
      "ref": "proyecto muy grande y quiere que esté terminado en 20 meses. En 1931, Stalin decide construir un canal que una el mar Blanco con el lago Onega y el Báltico."
     }
@@ -56,36 +56,8 @@
   {
    "cobertura": 0.015625,
    "ordem": 0.0,
-   "ngramas": 0.011752136752136752,
-   "sim_media": 0.14095663911672926,
-   "gemeos": 1,
-   "blocos": 64,
-   "posicoes": [
-    [
-     15,
-     69
-    ]
-   ],
-   "trechos": [
-    {
-     "bloco": 15,
-     "cos": 0.31,
-     "nosso": "El Oro. Magadán, diciembre de mil novecientos treinta y siete. Dalstrói, la empresa del Gulag en Kolimá, en el extremo noreste soviético, cierra el año con cincuenta y una toneladas y media de oro.",
-     "ref": "nombre propio, Colima, en el extremo noreste del país. Allí hay oro y para sacarlo se construye una ciudad, Magadán, y una carretera de más de 2000 km a través del permafrost."
-    }
-   ],
-   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-D_MQCSCKG6c.txt",
-   "idioma_ref": "es",
-   "traduzido": false,
-   "palavras_ref": 1813,
-   "nota": 1.8,
-   "veredito": "ok"
-  },
-  {
-   "cobertura": 0.015625,
-   "ordem": 0.0,
-   "ngramas": 0.00641025641025641,
-   "sim_media": 0.16497738423005892,
+   "ngramas": 0.006417112299465241,
+   "sim_media": 0.1616406801581454,
    "gemeos": 1,
    "blocos": 64,
    "posicoes": [
@@ -112,8 +84,8 @@
   {
    "cobertura": 0.015625,
    "ordem": 0.0,
-   "ngramas": 0.00641025641025641,
-   "sim_media": 0.15132563691392395,
+   "ngramas": 0.0042780748663101605,
+   "sim_media": 0.14805393447748671,
    "gemeos": 1,
    "blocos": 64,
    "posicoes": [
@@ -134,14 +106,14 @@
    "idioma_ref": "en",
    "traduzido": true,
    "palavras_ref": 2984,
-   "nota": 1.4,
+   "nota": 1.2,
    "veredito": "ok"
   },
   {
    "cobertura": 0.015625,
    "ordem": 0.0,
-   "ngramas": 0.002136752136752137,
-   "sim_media": 0.12212106782152894,
+   "ngramas": 0.0021390374331550803,
+   "sim_media": 0.12351988430408647,
    "gemeos": 1,
    "blocos": 64,
    "posicoes": [
@@ -168,8 +140,24 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.002136752136752137,
-   "sim_media": 0.12242794218219087,
+   "ngramas": 0.009625668449197862,
+   "sim_media": 0.1366118572792027,
+   "gemeos": 0,
+   "blocos": 64,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-D_MQCSCKG6c.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 1813,
+   "nota": 0.8,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0021390374331550803,
+   "sim_media": 0.11735367550029725,
    "gemeos": 0,
    "blocos": 64,
    "posicoes": [],
@@ -184,8 +172,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0010683760683760685,
-   "sim_media": 0.11458609896941463,
+   "ngramas": 0.0010695187165775401,
+   "sim_media": 0.11546207730685462,
    "gemeos": 0,
    "blocos": 64,
    "posicoes": [],
@@ -201,7 +189,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.10637128577234752,
+   "sim_media": 0.10459508944084761,
    "gemeos": 0,
    "blocos": 64,
    "posicoes": [],
@@ -217,7 +205,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.11551577275364745,
+   "sim_media": 0.11231285288858152,
    "gemeos": 0,
    "blocos": 64,
    "posicoes": [],

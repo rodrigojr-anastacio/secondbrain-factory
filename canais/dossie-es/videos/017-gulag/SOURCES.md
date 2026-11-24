@@ -16,12 +16,14 @@ Nenhum vídeo do YouTube foi usado como fonte. "Wikipedia" = só pista; onde cit
 - Canal: 227 km, aberto 02/08/1933, 12.300 mortes nos registros (Kokurin & Morukov 2005), ~25 mil estimativa (Applebaum), 44% de uso em 1940: Khlevniuk (link acima); https://en.wikipedia.org/wiki/White_Sea%E2%80%93Baltic_Sea_Canal
 - Brigada de ~120 escritores, agosto de 1933: https://iisg.nl/collections/belomorkanal/praise.php ; https://www.ebsco.com/research-starters/history/soviets-open-white-sea-baltic-canal
 
-## 3. El Oro
+## 3. El Oro (v3: abre na visita de Henry Wallace a Magadan, 24–26/05/1944; Berzin cortado)
+- Wallace em Magadan 24–26/05/1944, recebido por Nikishov (Dalstroi), escolas/granjas/minas; torres de vigia retiradas e presos trancados segundo testemunhos de ex-presos (Sgovio, Lipper); frase de 1952 "altogether too much impressed by the show": Wilson Center https://www.wilsoncenter.org/publication/three-days-auschwitz-without-gas-chambers-henry-wallaces-visit-to-magadan-1944 ; detalhes em pesquisa/FATOS-C.md §1
 - Berzin em Nagáyevo, 02 ou 04/02/1932, preso 19/12/1937, fuzilado 01/08/1938: https://en.wikipedia.org/wiki/Eduard_Berzin (cita Applebaum, Gulag, pp. 85, 88)
 - Ouro 1.937 kg em 1928–33 e 51,5 t em 1937: Khlevniuk (link acima).
 - Presos em Dalstrói (11.100 em dez/1932; 190.309 em 01/01/1940): https://en.wikipedia.org/wiki/Dalstroy (kolyma.ru, arquivo de 2006).
 
-## 4. La Norma
+## 4. La Norma (v3)
+- Salário 13/03/1950; créditos de dias de trabalho suprimidos por Beria em 1939; preferência dos dirigentes por trabalhadores livres (sem "metade"): Khlevniuk; pesquisa/FATOS-C.md §3–5
 - Salário aos presos, 13/03/1950; 26–28% sem alcançar a norma em 1951–52: Khlevniuk (link acima).
 - Ração 800 g pão + 80 g carne (Solovki, Frenkel; via Brodsky 1998, p. 75; Applebaum 2003, p. 55): https://en.wikipedia.org/wiki/Naftaly_Frenkel (conferir no livro).
 - Produtividade de presos x livres: Lazarev, em Gregory & Lazarev (org.), The Economics of Forced Labor, Hoover, 2003 https://hoover.org/sites/default/files/uploads/documents/0817939423_189.pdf ; Khlevniuk (preferência por livres).
@@ -58,7 +60,9 @@ Nenhum vídeo do YouTube foi usado como fonte. "Wikipedia" = só pista; onde cit
 - Octavio Paz, "Polvos de aquellos lodos", Plural nº 30, março de 1974: https://elnacional.com/2023/04/frente-a-frente-octavio-paz-y-aleksandr-solzhenitsyn
 - Ordem de 25/01/1960 (MVD nº 20): https://gulag.cz/en/article/01c6505d-4956-4862-bf14-cbf3f0274f13 ; campos políticos: https://en.wikipedia.org/wiki/Perm-36
 
-## Cierre. Las Fotos (v2)
+## Cierre. Las Fotos (v3)
+- Livro de 2025: García Santamaría e Sánchez Illán, *Marinos republicanos en los campos de concentración soviéticos (1938-1956)*, Catarata: pesquisa/FATOS-C.md §6. Memorial saiu do roteiro (consenso da manada).
+- Giráldez padeiro em Karagandá (Spassk 99, desde 1948), segundo a filha Pilar Vicente: Valencia Plaza; FATOS-C §2.
 - Carlos Pérez de Rozas fotografou a chegada do Semíramis em 02/04/1954; fotos no Arxiu Fotogràfic de Barcelona: FATOS-B §6 (Arxiu Fotogràfic de Barcelona, fundo Pérez de Rozas, data 02/04/1954); https://www.eldiario.es/cultura/perez-rozas-fotografos-barcelona-xx_1_2382239.html
 - Memorial liquidada 28/12/2021; Nobel 2022: https://www.aljazeera.com/news/2021/12/28/russia-supreme-court-orders-closure-of-leading-rights-group ; https://nobelprize.org/prizes/peace/2022/memorial/speedread
 
@@ -69,8 +73,8 @@ Conferido com grep em `ref/manada-*.txt` (7) e `ref-es/manada-*.txt` (3), 23/11/
 |---|---|---|
 | 1 El Decreto (v2) | decreto de 11/07/1929 com a tarefa "colonizar e explorar" e o plano de 50 mil vagas | Parcial: o decreto de 1929 e os 180 mil aparecem no Full Record (correção do crivo de ângulo r1); na v2 saem os 180 mil e a ordem de 25/04/1930; ficam a tarefa e os 50 mil (não aparecem) |
 | 2 El Libro | ex-vice-chefe do Gulag e o livro de 36 autores que "deixa de circular" | O livro de 1934 e os ~120 escritores aparecem (Uncovered History 4:57; Tinta y Ceniza 5:24; Belomorkanal na carteira de cigarros). Firin e a retirada do livro NÃO aparecem (grep "Firin" só acha "firing") |
-| 3 El Oro (v2) | balanço de 1937 (51,5 t) e a prisão de Berzin em dez/1937; Nagáyevo/desembarque cortados | Nagáyevo e Berzin aparecem (Atrium 0:32, Uncovered, SLICE MEGA 41:22/43:27); a comparação 1,9 t vs 51,5 t NÃO aparece (MEGA fala "52 t/ano") |
-| 4 La Norma | a tabela de ração, tufta, salário de 1950 | Norma, ração e tufta aparecem (MEGA 39:53; Uncovered 9:16; Tinta); salário de 1950 e "mais de um quarto" NÃO aparecem |
+| 3 El Oro (v3) | visita de Henry Wallace a Magadan (1944), o "espetáculo" e as cifras; Berzin cortado | Nagáyevo e Berzin aparecem (Atrium 0:32, Uncovered, SLICE MEGA 41:22/43:27); a comparação 1,9 t vs 51,5 t NÃO aparece (MEGA fala "52 t/ano") |
+| 4 La Norma (v3) | salário de 13/03/1950, créditos suprimidos em 1939, >1/4 sem norma; ração em 1 frase; tufta cortada | Norma, ração e tufta aparecem (MEGA 39:53; Uncovered 9:16; Tinta); salário de 1950 e "mais de um quarto" NÃO aparecem |
 | 5 Los Marineros | tripulações dos mercantes, ordem de Beria a Norilsk | NÃO aparece |
 | 6 Los Pilotos | Kirovabad, empréstimo recusado | NÃO aparece |
 | 7 El Número | Krasny Bor, número 12123, olho perdido | NÃO aparece |
@@ -78,6 +82,6 @@ Conferido com grep em `ref/manada-*.txt` (7) e `ref-es/manada-*.txt` (3), 23/11/
 | 9 Las Obras (v2) | 12/03/1953, mais de 20 obras canceladas; memorando em 1 frase; vias abandonadas cortadas | "~2,5 milhões" aparece (Full Record 11:44; Uncovered 14:58) e a "Estrada Morta" abandonada em 1953 (Uncovered 15:12); o memorando e seus recortes (mulheres, menores) NÃO aparecem |
 | 10 El Barco | bandeira liberiana vista do trem, 286 | NÃO aparece (grep "Semíramis", "bandera" = 0) |
 | 11 La Entrevista | Directísimo, Íñigo, Marsé | NÃO aparece (Solzhenitsyn aparece muito na manada, mas nada sobre TVE 1976 nem Marsé) |
-| Cierre Las Fotos (v2) | o fotógrafo Pérez de Rozas no cais e o arquivo das fotos; Memorial em 1 frase, sem Nobel | Pérez de Rozas NÃO aparece; Memorial aparece (fica em 1 frase) |
+| Cierre Las Fotos (v3) | o fotógrafo Pérez de Rozas no cais, o arquivo das fotos e o livro de 2025 dos marinheiros; Memorial cortado | NÃO aparece |
 
-**Contagem (v2):** expedientes cuja cena de abertura/objeto não aparece na manada: 1 (tarefa + 50 mil), 2 (Firin), 4 (salário de 1950), 5, 6, 7, 8, 10, 11 = 9 de 11 (82%); com objeto do consenso: 3 (ouro/Berzin, aberto no balanço) e 9 (fim de 1953, aberto nas obras). Meta da bíblia ≥ 50%.
+**Contagem (v3):** expedientes cuja cena de abertura/objeto não aparece na manada: 1 (tarefa + 50 mil), 2 (Firin), 3 (Wallace), 4 (salário de 1950), 5, 6, 7 (+ padeiro), 8, 10, 11 = 10 de 11 (91%); com tema do consenso: 9 (1953, aberto nas obras canceladas; Kengir e 'os campos seguiram' cortados). Meta da bíblia ≥ 50%.
