@@ -129,3 +129,12 @@ Fontes de La Cosa: [CIA: Compromise of the Great Seal](https://www.cia.gov/stori
 5. **Kit** para os leads (criar a conta é com ele) e OK para a landing com o wallpaper grátis.
 6. **Fala de CTA de 5 s** nos vídeos (muda a bíblia de roteiro) sim/não.
 7. OK para disparar e1 + e2 da #1 **de dia (qua/qui/sex)**.
+
+## Aprendizados da série (e2 da #1, 24/11/2026)
+Fonte: `001/E2-RELATORIO.md`, `financas.consumo` (notas `dossie-hq-001 …`).
+- **Gerador de imagem da HQ fora do Codex: `openai/gpt-image-2/edit` na fal** (mesma família do gerador do Codex/ChatGPT), com as refs de estilo da v3 + folha do personagem. Teste de 4 imagens: o `google/nano-banana-2.1/edit` saiu mais "cartum" (traço grosso, menos detalhe) e destoava das págs. 1–2 do Codex; o gpt-image-2 casou sem refazer páginas antigas. Custo real: US$ 0,053 (16:9 1536×864), 0,062 (2:3), 0,073 (1:1) por imagem em `quality: medium`; A3 2336×3296 ≈ US$ 0,12–0,14. 151 imagens pagas, **0 molduras** e 0 textos inventados nas folhas.
+- **Folha de personagem antes dos quadros** funcionou: 8/8 aprovadas na 1ª, rostos consistentes nos quadros.
+- **Detector de imagem preta** do `img_fal.py` reprova cena escura de propósito ("floating in deep darkness"): escrever "dark slate-blue background with a soft glow".
+- **Época:** pedir o modelo do avião pelo formato (U-2 = asas longas e retas de planador), senão sai jato moderno/asa delta.
+- **Balões automáticos olhando a arte** (`001/autolayout.py`: rostos por OpenCV Haar, nada fora do quadro, sem sobrepor, ordem de leitura, rabicho até a borda do rosto de quem fala): de ~150 textos, só 7 precisaram de ajuste manual (falante de costas/rosto não detectado). Reaproveitar na #2.
+- **Custo no mesmo endpoint em paralelo duplica o lançamento** (o `img_fal.py` mede pelo uso do endpoint): rodar os lotes da HQ um de cada vez (`001/tools/rodar_fal.py`).

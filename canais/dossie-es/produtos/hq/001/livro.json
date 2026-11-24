@@ -779,8 +779,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.0125,
+      0.7186075949367089
      ],
      "larg": 440,
      "texto": "Cada viaje inventado tenía su boleto inventado. Las tarifas salían de un horario de trenes británico.",
@@ -789,13 +789,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.75,
-      0.18
+      0.3925,
+      0.49873417721518987
      ],
      "larg": 288,
      "alvo": [
-      0.69,
-      0.48
+      0.5240018019204712,
+      0.3071931770336629
      ],
      "texto": "Glasgow–Liverpool, primera clase… Berlín paga.",
      "quem": "JUAN",
@@ -804,13 +804,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.7074074074074074,
+      0.23164556962025318
      ],
      "larg": 291,
      "alvo": [
-      0.69,
-      0.48
+      0.43752867383174904,
+      0.2881787916116821
      ],
      "texto": "Un agente tan productivo merece cada peseta.",
      "quem": "KÜHLENTHAL",
@@ -819,8 +819,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.010869565217391304,
+      0.0125
      ],
      "larg": 506,
      "texto": "Un espía solo no bastaba. Así que se inventó ayudantes.",
@@ -829,13 +829,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.75,
-      0.18
+      0.3402173913043478,
+      0.415
      ],
      "larg": 331,
      "alvo": [
-      0.69,
-      0.48
+      0.5832346456974928,
+      0.26038969050416555
      ],
      "texto": "Un piloto holandés… un empleado del ministerio… un venezolano rico.",
      "quem": "JUAN",
@@ -844,13 +844,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.5927710843373494,
+      0.26625
      ],
      "larg": 298,
      "alvo": [
-      0.31,
-      0.48
+      0.3784369057232485,
+      0.4001322068642016
      ],
      "texto": "Los alemanes tienen un agente aquí que nunca hemos visto.",
      "quem": "OFICIAL BRITÁNICO",
@@ -859,13 +859,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.5036144578313253,
+      0.6425
      ],
      "larg": 298,
      "alvo": [
-      0.69,
-      0.48
+      0.3690326777117042,
+      0.4571106918829258
      ],
      "texto": "Y escribe tonterías… que Berlín se cree.",
      "quem": "OFICIAL BRITÁNICO",
@@ -874,8 +874,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.01,
+      0.012048192771084338
      ],
      "larg": 550,
      "texto": "Quien sí sabía todo era Araceli, su esposa.",
@@ -884,13 +884,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.75,
-      0.18
+      0.712,
+      0.6831325301204819
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.7893120071527442,
+      0.4478961135686754
      ],
      "texto": "Si los ingleses no lo escuchan a él… me escucharán a mí.",
      "quem": "ARACELI",
@@ -899,13 +899,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.5,
-      0.18
+      0.5377049180327869,
+      0.11325301204819277
      ],
      "larg": 475,
      "alvo": [
-      0.5,
-      0.48
+      0.47719036465376075,
+      0.22987693797390346
      ],
      "texto": "¿Dijiste algo, querida?",
      "quem": "JUAN",
@@ -1014,8 +1014,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.008695652173913044
      ],
      "larg": 620,
      "texto": "Lisboa, febrero de 1942.",
@@ -1024,8 +1024,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.8
+      0.006097560975609756,
+      0.8714956521739131
      ],
      "larg": 620,
      "texto": "Las versiones no coinciden: ella o él buscaron a un oficial de la Marina de Estados Unidos.",
@@ -1034,13 +1034,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.3
+      0.299390243902439,
+      0.2008695652173913
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.5260869565217391
+      0.22680698731001164,
+      0.254926439774129
      ],
      "texto": "Mi marido engaña a los nazis. Y lo hace gratis. Escúchenlo.",
      "quem": "ARACELI",
@@ -1049,13 +1049,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.3280487804878049,
+      0.22647058823529412
      ],
      "larg": 295,
      "alvo": [
-      0.69,
-      0.48
+      0.6140465609121877,
+      0.32273385636153623
      ],
      "texto": "¿Londres? Tienen que oír esto.",
      "quem": "OFICIAL",
@@ -1064,8 +1064,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.7378048780487805,
+      0.6176470588235294
      ],
      "texto": "RIIING",
      "px": 64,
@@ -1076,13 +1076,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.2662921348314607,
+      0.586764705882353
      ],
      "larg": 320,
      "alvo": [
-      0.31,
-      0.48
+      0.3633837780035126,
+      0.35221353802053273
      ],
      "texto": "¡El fantasma tiene nombre! Un español en Lisboa.",
      "quem": "OFICIAL BRITÁNICO",
@@ -1091,8 +1091,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.01694915254237288
      ],
      "larg": 620,
      "texto": "Los mismos ingleses que lo habían rechazado tres veces ahora lo querían en Londres.",
@@ -1101,13 +1101,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.42
+      0.6548780487804878,
+      0.21016949152542372
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.72
+      0.5095757749531196,
+      0.3065770666699517
      ],
      "texto": "Al fin, querida. ¡Al fin!",
      "quem": "JUAN",
@@ -1232,8 +1232,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016666666666666666
      ],
      "larg": 620,
      "texto": "Londres, 24 de abril de 1942.",
@@ -1242,13 +1242,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.75,
-      0.18
+      0.7158536585365853,
+      0.69
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.8661602443357026,
+      0.4581341403931138
      ],
      "texto": "Así que esto es Inglaterra. Me la imaginaba mejor.",
      "quem": "JUAN",
@@ -1257,13 +1257,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.20606060606060606,
+      0.46714285714285714
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.3301802817280472,
+      0.2665909761939387
      ],
      "texto": "Tomás Harris. Hablo español. Y me encantan tus mentiras.",
      "quem": "TOMÁS",
@@ -1272,13 +1272,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.5,
-      0.18
+      0.5537037037037037,
+      0.6914285714285714
      ],
      "larg": 421,
      "alvo": [
-      0.5,
-      0.48
+      0.47024556946168844,
+      0.5371344169497739
      ],
      "texto": "¿Mentiras? Yo las llamo literatura.",
      "quem": "JUAN",
@@ -1287,13 +1287,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.3048780487804878,
+      0.24838709677419354
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.183364408075314,
+      0.4006358534041884
      ],
      "texto": "Un actor así merece un nombre de estrella.",
      "quem": "OFICIAL BRITÁNICO",
@@ -1302,13 +1302,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.2920731707317073,
+      0.5870967741935483
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.18324308675460907,
+      0.47522935700388846
      ],
      "texto": "El mejor actor del mundo: GARBO.",
      "quem": "OFICIAL BRITÁNICO",
@@ -1317,8 +1317,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.02127659574468085
      ],
      "larg": 620,
      "texto": "Desde ese día escribió con el MI5 a su lado. Ahora sus mentiras las aprobaba Londres.",
@@ -1439,8 +1439,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.736107142857143
      ],
      "larg": 620,
      "texto": "Juntos construyeron la red de espías más grande de Gran Bretaña. Ninguno existía.",
@@ -1449,8 +1449,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.014705882352941176,
+      0.005291005291005291
      ],
      "larg": 612,
      "texto": "27 agentes. Un marinero. Un funcionario. Un piloto. Un camarero. Un venezolano rico…",
@@ -1459,8 +1459,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.8
+      0.014705882352941176,
+      0.9415238095238095
      ],
      "larg": 612,
      "texto": "Los alemanes los llamaban la red ARABEL.",
@@ -1469,13 +1469,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.449438202247191,
+      0.4806451612903226
      ],
      "larg": 352,
      "alvo": [
-      0.31,
-      0.45956989247311825
+      0.34669962178004327,
+      0.3218158649219865
      ],
      "texto": "Cada uno escribe distinto, tiene su carácter… y sus caprichos.",
      "quem": "JUAN",
@@ -1484,13 +1484,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.7660194174757281,
+      0.2172043010752688
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.45956989247311825
+      0.5084545440487526,
+      0.29245998037332177
      ],
      "texto": "Y lo mejor: Berlín les paga el sueldo a todos.",
      "quem": "TOMÁS",
@@ -1499,8 +1499,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.6796116504854369,
+      0.6193548387096774
      ],
      "texto": "TAC TAC TAC",
      "px": 84,
@@ -1639,8 +1639,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016666666666666666
      ],
      "larg": 620,
      "texto": "Uno de los agentes vigilaba el puerto de Liverpool. Mejor dicho: no lo vigilaba, porque no existía.",
@@ -1649,13 +1649,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.22704918032786886,
+      0.7144736842105263
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.3585575516932276,
+      0.4538139932897381
      ],
      "texto": "Debió ver salir el convoy. Si no lo informa, sospecharán.",
      "quem": "TOMÁS",
@@ -1664,13 +1664,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.5795081967213115,
+      0.7078947368421052
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.6573858257219314,
+      0.531042332040958
      ],
      "texto": "Entonces… que se enferme. Muy grave.",
      "quem": "JUAN",
@@ -1679,8 +1679,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.4647887323943662,
+      0.007407407407407408
      ],
      "larg": 390,
      "texto": "El agente «murió». Y salió su obituario en el periódico local.",
@@ -1689,8 +1689,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.795774647887324,
+      0.6133333333333333
      ],
      "texto": "SNIF",
      "px": 64,
@@ -1701,13 +1701,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.4641472868217054,
+      0.275
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.7533906635263382,
+      0.23517332272632896
      ],
      "texto": "Un héroe caído. Pagaremos una pensión a su viuda.",
      "quem": "KÜHLENTHAL",
@@ -1716,8 +1716,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.6855744680851059
      ],
      "larg": 620,
      "texto": "Los nazis le pagaban una pensión a la viuda de un espía que nunca había nacido.",
@@ -1726,13 +1726,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.42
+      0.4317073170731707,
+      0.2
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.72
+      0.30340778850407163,
+      0.3509695226207926
      ],
      "texto": "¡Por la viuda!",
      "quem": "JUAN",
@@ -1841,8 +1841,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.008695652173913044
      ],
      "larg": 620,
      "texto": "En Berlín, los informes de Alaric valían oro. Llegaban por cientos.",
@@ -1851,13 +1851,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.7024390243902439,
+      0.17043478260869566
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.4060869565217391
+      0.6899999999999998,
+      0.40608695652173915
      ],
      "texto": "Si Alaric lo dice, es verdad.",
      "quem": "OFICIAL ALEMÁN",
@@ -1866,8 +1866,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.624390243902439,
+      0.6176470588235294
      ],
      "texto": "TAC TAC TAC",
      "px": 64,
@@ -1878,13 +1878,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.75,
-      0.18
+      0.5955056179775281,
+      0.2867647058823529
      ],
      "larg": 320,
      "alvo": [
-      0.69,
-      0.48
+      0.358685012366016,
+      0.24655458863386023
      ],
      "texto": "Lluvia. Otra vez lluvia. Nadie habla español.",
      "quem": "ARACELI",
@@ -1893,13 +1893,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.5347560975609756,
+      0.21016949152542372
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.6721624289357585,
+      0.28100904246805375
      ],
      "texto": "Juan, quiero volver a España.",
      "quem": "ARACELI",
@@ -1908,8 +1908,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.7495254237288133
      ],
      "larg": 620,
      "texto": "Garbo engañaba a Hitler. Pero en casa, alguien ya no quería seguir con la función.",
@@ -2034,8 +2034,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016666666666666666
      ],
      "larg": 620,
      "texto": "Londres, 1943.",
@@ -2044,13 +2044,13 @@
     {
      "tipo": "grito",
      "pos": [
-      0.25,
-      0.42
+      0.48353658536585364,
+      0.28833333333333333
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.72
+      0.31395843989550754,
+      0.3079710131478255
      ],
      "texto": "¡Si no me dejas ir, voy a la embajada de España!",
      "quem": "ARACELI",
@@ -2059,13 +2059,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.75,
-      0.18
+      0.3177489177489177,
+      0.32857142857142857
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.5873439916647283,
+      0.2625355318468993
      ],
      "texto": "La embajada de España está llena de amigos de los alemanes.",
      "quem": "JUAN",
@@ -2074,13 +2074,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.5,
-      0.18
+      0.5333333333333333,
+      0.7514285714285714
      ],
      "larg": 421,
      "alvo": [
-      0.5,
-      0.48
+      0.5349619162472242,
+      0.4669776502248991
      ],
      "texto": "Lo digo en serio.",
      "quem": "ARACELI",
@@ -2089,8 +2089,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016129032258064516
      ],
      "larg": 620,
      "texto": "Una sola visita a esa embajada y los 27 fantasmas se esfumarían.",
@@ -2099,13 +2099,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.42
+      0.5176829268292683,
+      0.23870967741935484
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.72
+      0.6642074197150724,
+      0.3778435510453324
      ],
      "texto": "Si habla, se acaba todo. Todo.",
      "quem": "TOMÁS",
@@ -2114,13 +2114,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.8341463414634146,
+      0.37872340425531914
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.648550661937495,
+      0.49149685727969655
      ],
      "texto": "A menos que… la asustemos con una historia mejor.",
      "quem": "TOMÁS",
@@ -2129,8 +2129,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.7987804878048781,
+      0.7659574468085106
      ],
      "texto": "FSSS",
      "px": 84,
@@ -2273,13 +2273,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.28125,
+      0.5962025316455696
      ],
      "larg": 288,
      "alvo": [
-      0.31,
-      0.48
+      0.3332559663570633,
+      0.4121455469420024
      ],
      "texto": "Le diremos que te despidieron. Y que te detuvieron.",
      "quem": "TOMÁS",
@@ -2288,13 +2288,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.75,
-      0.18
+      0.6901234567901234,
+      0.7417721518987341
      ],
      "larg": 291,
      "alvo": [
-      0.69,
-      0.48
+      0.6159374842698806,
+      0.5029075912269879
      ],
      "texto": "Perdóname, Araceli. Es para salvarnos a todos.",
      "quem": "JUAN",
@@ -2303,13 +2303,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.5032608695652174,
+      0.1925
      ],
      "larg": 331,
      "alvo": [
-      0.69,
-      0.48
+      0.2939539579483784,
+      0.3052765933431485
      ],
      "texto": "Señora, su marido ha sido detenido.",
      "quem": "OFICIAL BRITÁNICO",
@@ -2318,8 +2318,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.6739130434782609,
+      0.63
      ],
      "texto": "TOC TOC",
      "px": 84,
@@ -2330,13 +2330,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.6265060240963856,
+      0.275
      ],
      "larg": 298,
      "alvo": [
-      0.31,
-      0.48
+      0.3635603733148263,
+      0.3332229091075056
      ],
      "texto": "¿Detenido? ¿Por qué?",
      "quem": "ARACELI",
@@ -2345,8 +2345,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.01,
+      0.012048192771084338
      ],
      "larg": 550,
      "texto": "La llevaron a verlo. Él estaba «preso». Todo era teatro.",
@@ -2355,8 +2355,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.01639344262295082,
+      0.012048192771084338
      ],
      "larg": 549,
      "texto": "Nunca había actuado tan bien.",
@@ -2493,13 +2493,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.12012195121951219,
+      0.15666666666666668
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.2135190356996968,
+      0.30586165881728256
      ],
      "texto": "¡Juan!",
      "quem": "ARACELI",
@@ -2508,13 +2508,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.5469512195121952,
+      0.25666666666666665
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.6578202955986656,
+      0.4183161826372026
      ],
      "texto": "Me echaron, Araceli. Por lo de la embajada.",
      "quem": "JUAN",
@@ -2523,13 +2523,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.3770491803278688,
+      0.6131578947368421
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.22811247937662377,
+      0.6511863993980668
      ],
      "texto": "Fue mi culpa. Te juro que no diré nada. Nunca.",
      "quem": "ARACELI",
@@ -2538,13 +2538,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.75,
-      0.18
+      0.6394366197183099,
+      0.16148148148148148
      ],
      "larg": 255,
      "alvo": [
-      0.69,
-      0.3725925925925926
+      0.5299262413295275,
+      0.2821982765791935
      ],
      "texto": "Funcionó.",
      "quem": "TOMÁS",
@@ -2553,8 +2553,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.009689922480620155,
+      0.736107142857143
      ],
      "larg": 567,
      "texto": "Días después, «lo soltaron». Araceli no volvió a amenazar con nada.",
@@ -2563,8 +2563,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.02127659574468085
      ],
      "larg": 620,
      "texto": "Las versiones varían en los detalles. Lo seguro: el matrimonio y la red sobrevivieron.",
@@ -2657,8 +2657,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.006060606060606061
      ],
      "larg": 620,
      "texto": "1944. Los Aliados preparan el desembarco más grande de la historia.",
@@ -2667,8 +2667,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.8
+      0.006097560975609756,
+      0.9330181818181819
      ],
      "larg": 620,
      "texto": "Para que funcione, Hitler tiene que mirar al lugar equivocado.",
@@ -2677,13 +2677,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.6945121951219512,
+      0.1806060606060606
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.33757575757575753
+      0.72,
+      0.36
      ],
      "texto": "Y quien se lo va a decir… es usted, señor Garbo.",
      "quem": "OFICIAL BRITÁNICO",
@@ -2692,8 +2692,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.0125,
+      0.0125
      ],
      "larg": 440,
      "texto": "Un ejército falso, con tanques de goma, frente a Calais.",
@@ -2702,13 +2702,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.75,
-      0.18
+      0.549438202247191,
+      0.32625
      ],
      "larg": 320,
      "alvo": [
-      0.69,
-      0.48
+      0.9144815945687752,
+      0.3793841811318151
      ],
      "texto": "Mis 27 fantasmas van a la guerra.",
      "quem": "JUAN",
@@ -2824,7 +2824,7 @@
      "orient": "paisagem",
      "foco": [
       0.5,
-      0.5
+      0.1
      ],
      "placeholder": "Faixa baixa: Kühlenthal envergonhado lendo a reclamação."
     }
@@ -2833,8 +2833,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016666666666666666
      ],
      "larg": 620,
      "texto": "Noche del 5 al 6 de junio de 1944.",
@@ -2843,8 +2843,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.72
+      0.6247856326219512,
+      0.7537
      ],
      "larg": 620,
      "texto": "El plan: avisar a los alemanes del desembarco… cuando ya fuera tarde para impedirlo.",
@@ -2853,13 +2853,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.6554112554112554,
+      0.41714285714285715
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.7241079245500619,
+      0.27900941057747186
      ],
      "texto": "Las tres en punto. Ahora.",
      "quem": "TOMÁS",
@@ -2868,8 +2868,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.6891774891774892,
+      0.6514285714285715
      ],
      "texto": "BIP BIP BIP",
      "px": 84,
@@ -2880,8 +2880,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.018518518518518517,
+      0.8953428571428571
      ],
      "larg": 486,
      "texto": "En Madrid, nadie contestaba.",
@@ -2890,8 +2890,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016129032258064516
      ],
      "larg": 620,
      "texto": "Respondieron a las ocho. Para entonces, las tropas ya estaban en las playas.",
@@ -2900,13 +2900,13 @@
     {
      "tipo": "grito",
      "pos": [
-      0.25,
-      0.42
+      0.21890243902439024,
+      0.47258064516129034
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.72
+      0.38593611346039436,
+      0.5034951546312901
      ],
      "texto": "¡No puedo aceptar excusas ni negligencias!",
      "quem": "JUAN",
@@ -2915,13 +2915,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.25,
-      0.18
+      0.44878048780487806,
+      0.4276595744680851
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.3,
+      0.06
      ],
      "texto": "Tenía razón. Alaric nos avisó y no lo escuchamos.",
      "quem": "KÜHLENTHAL",
@@ -2958,8 +2958,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.004032258064516129
      ],
      "larg": 620,
      "texto": "6 de junio de 1944. Normandía.",
@@ -2968,8 +2968,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.8
+      0.006097560975609756,
+      0.9554354838709678
      ],
      "larg": 620,
      "texto": "La verdad llegó a la playa. Ahora faltaba la mentira más importante.",
@@ -3110,8 +3110,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.0125,
+      0.012658227848101266
      ],
      "larg": 440,
      "texto": "9 de junio de 1944.",
@@ -3120,8 +3120,8 @@
     {
      "tipo": "carta",
      "pos": [
-      0.02,
-      0.8
+      0.0125,
+      0.8293417721518986
      ],
      "larg": 440,
      "texto": "«Normandía es una distracción. El golpe principal será en Calais.»",
@@ -3131,8 +3131,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.012345679012345678,
+      0.012658227848101266
      ],
      "larg": 445,
      "texto": "El mensaje subió hasta el cuartel general de Hitler.",
@@ -3141,8 +3141,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.010869565217391304,
+      0.0125
      ],
      "larg": 506,
      "texto": "Dos divisiones blindadas y diecinueve de infantería se quedaron esperando en Calais.",
@@ -3151,8 +3151,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.8
+      0.010869565217391304,
+      0.908425
      ],
      "larg": 506,
      "texto": "Un ataque que nunca llegó.",
@@ -3161,13 +3161,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.29036144578313255,
+      0.4925
      ],
      "larg": 298,
      "alvo": [
-      0.31,
-      0.48
+      0.29488707097312394,
+      0.3272945730455812
      ],
      "texto": "Lo lograste, Juan. Se lo creyeron.",
      "quem": "TOMÁS",
@@ -3176,8 +3176,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.01,
+      0.012048192771084338
      ],
      "larg": 550,
      "texto": "29 de julio de 1944: los alemanes le dieron la Cruz de Hierro.",
@@ -3186,13 +3186,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.75,
-      0.18
+      0.521,
+      0.5433734939759036
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.5714653930867812,
+      0.35494062952927424
      ],
      "texto": "Por servicios a Alemania… ¡ja!",
      "quem": "JUAN",
@@ -3201,8 +3201,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.01639344262295082,
+      0.8219518072289155
      ],
      "larg": 549,
      "texto": "Y el 25 de noviembre, el rey de Inglaterra, la Orden del Imperio Británico.",
@@ -3211,8 +3211,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.8
+      0.08360655737704918,
+      0.012048192771084338
      ],
      "larg": 549,
      "texto": "Condecorado por los dos bandos.",
@@ -3333,8 +3333,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.017857142857142856
      ],
      "larg": 620,
      "texto": "1949. Angola. Juan Pujol «murió» de malaria.",
@@ -3343,8 +3343,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.72
+      0.006097560975609756,
+      0.8691785714285715
      ],
      "larg": 620,
      "texto": "Su última gran mentira.",
@@ -3353,8 +3353,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.014705882352941176,
+      0.005291005291005291
      ],
      "larg": 612,
      "texto": "En realidad vivía en Venezuela. Tranquilo. Anónimo.",
@@ -3364,12 +3364,12 @@
      "tipo": "pensa",
      "pos": [
       0.5,
-      0.3
+      0.64
      ],
      "larg": 530,
      "alvo": [
       0.5,
-      0.43756613756613755
+      0.38
      ],
      "texto": "Aquí nadie busca a un espía muerto.",
      "quem": "JUAN",
@@ -3378,8 +3378,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.05107252298263534,
+      0.010752688172043012
      ],
      "larg": 538,
      "texto": "1984. El escritor Nigel West lo encontró.",
@@ -3388,13 +3388,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.5199182839632278,
+      0.410752688172043
      ],
      "larg": 352,
      "alvo": [
-      0.69,
-      0.45956989247311825
+      0.6237991764173211,
+      0.35417910372900174
      ],
      "texto": "¿Usted es Garbo?",
      "quem": "NIGEL WEST",
@@ -3403,13 +3403,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.3
+      0.23493360572012256,
+      0.5397849462365591
      ],
      "larg": 352,
      "alvo": [
-      0.31,
-      0.5795698924731183
+      0.13511044741888958,
+      0.49917753311094937
      ],
      "texto": "Lo fui.",
      "quem": "JUAN",
@@ -3418,8 +3418,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.06796116504854369,
+      0.010752688172043012
      ],
      "larg": 566,
      "texto": "Murió en Caracas el 10 de octubre de 1988.",
@@ -3428,8 +3428,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.8
+      0.009708737864077669,
+      0.8410967741935482
      ],
      "larg": 566,
      "texto": "Nunca estuvo solo: lo acompañaban 27 espías que jamás existieron.",
@@ -3564,8 +3564,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016666666666666666
      ],
      "larg": 620,
      "texto": "Moscú, 4 de agosto de 1945.",
@@ -3574,8 +3574,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.72
+      0.6358279344512195,
+      0.6916000000000001
      ],
      "larg": 620,
      "texto": "La guerra en Europa terminó hace tres meses. Soviéticos y estadounidenses todavía se llaman aliados.",
@@ -3584,8 +3584,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.008658008658008658,
+      0.014285714285714285
      ],
      "larg": 620,
      "texto": "Ese día, un grupo de niños llega a la residencia del embajador de Estados Unidos.",
@@ -3609,8 +3609,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.801219512195122,
+      0.6193548387096774
      ],
      "texto": "¡OOOH!",
      "px": 84,
@@ -3621,13 +3621,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.7786585365853659,
+      0.2
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.655,
+      0.27
      ],
      "texto": "Es magnífico. ¿Lo tallaron a mano?",
      "quem": "HARRIMAN",
@@ -3636,8 +3636,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.02127659574468085
      ],
      "larg": 620,
      "texto": "Un gesto de amistad, dijeron.",
@@ -3646,8 +3646,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.72
+      0.006097560975609756,
+      0.7648510638297873
      ],
      "larg": 620,
      "texto": "Nadie en esa sala sabía que el regalo tenía oídos.",
@@ -3756,13 +3756,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.5792682926829268,
+      0.2426086956521739
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.4060869565217391
+      0.6889507996548251,
+      0.2807757196425166
      ],
      "texto": "Pónganlo ahí, detrás de mi escritorio. Que se vea.",
      "quem": "HARRIMAN",
@@ -3771,8 +3771,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.012195121951219513,
+      0.7278823529411765
      ],
      "larg": 451,
      "texto": "Lo colgaron en el estudio de la residencia. Justo detrás de la mesa del embajador.",
@@ -3781,8 +3781,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.12359550561797752,
+      0.014705882352941176
      ],
      "larg": 489,
      "texto": "Sin pilas. Sin cables. Sin un solo ruido.",
@@ -3791,13 +3791,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.15365853658536585,
+      0.26101694915254237
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.2929503506544645,
+      0.33028826901029323
      ],
      "texto": "Hablemos aquí. Es el lugar más seguro de Moscú.",
      "quem": "HARRIMAN",
@@ -3934,8 +3934,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016666666666666666
      ],
      "larg": 620,
      "texto": "Pero afuera, en la oscuridad, alguien esperaba.",
@@ -3944,8 +3944,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.7983606557377049,
+      0.631578947368421
      ],
      "texto": "ZZZT",
      "px": 84,
@@ -3956,8 +3956,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.4647887323943662,
+      0.007407407407407408
      ],
      "larg": 390,
      "texto": "Un haz de radio, invisible, apuntado a una ventana.",
@@ -3966,13 +3966,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.5939922480620154,
+      0.275
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.3595855385443566,
+      0.31912045086941054
      ],
      "texto": "Ahí está. Lo oigo como si estuviera en el cuarto.",
      "quem": "NKVD",
@@ -3982,7 +3982,7 @@
      "tipo": "sfx",
      "pos": [
       0.8,
-      0.62
+      0.6127659574468085
      ],
      "texto": "BIIIP",
      "px": 84,
@@ -3993,8 +3993,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.02127659574468085
      ],
      "larg": 620,
      "texto": "El regalo de los niños acababa de despertar.",
@@ -4115,13 +4115,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.3310975609756098,
+      0.275
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.48575380852959643,
+      0.3752645431804899
      ],
      "texto": "Washington tiene que saber esto antes del viernes.",
      "quem": "HARRIMAN",
@@ -4130,8 +4130,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.014705882352941176,
+      0.005291005291005291
      ],
      "larg": 612,
      "texto": "Cada palabra cruzaba la calle.",
@@ -4140,8 +4140,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.05107252298263534,
+      0.010752688172043012
      ],
      "larg": 538,
      "texto": "Y terminaba en papeles que el embajador nunca vería.",
@@ -4150,8 +4150,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.06796116504854369,
+      0.010752688172043012
      ],
      "larg": 566,
      "texto": "¿Pero cómo escucha un pedazo de madera?",
@@ -4160,8 +4160,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.8
+      0.009708737864077669,
+      0.8811612903225806
      ],
      "larg": 566,
      "texto": "La respuesta estaba en una prisión.",
@@ -4302,8 +4302,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.0125,
+      0.8129367088607595
      ],
      "larg": 440,
      "texto": "Nueva York, 1928. Antes de los espías, Léon Theremin hacía música.",
@@ -4312,8 +4312,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.7308641975308642,
+      0.6227848101265823
      ],
      "texto": "UUUIIIUUU",
      "px": 64,
@@ -4324,8 +4324,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.47400655864197533,
+      0.012658227848101266
      ],
      "larg": 445,
      "texto": "Su instrumento sonaba sin que nadie lo tocara.",
@@ -4334,8 +4334,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.010869565217391304,
+      0.8152750000000001
      ],
      "larg": 506,
      "texto": "Vivió diez años en Estados Unidos. Inventó, patentó, fue famoso.",
@@ -4344,8 +4344,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.03614457831325301,
+      0.86185
      ],
      "larg": 456,
      "texto": "En 1938 volvió de repente a la Unión Soviética.",
@@ -4354,8 +4354,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.01,
+      0.012048192771084338
      ],
      "larg": 550,
      "texto": "Poco después, lo encerraron.",
@@ -4364,13 +4364,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.52,
+      0.3228915662650602
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.6434871680829332,
+      0.24386588590329802
      ],
      "texto": "Camine, ciudadano Termen.",
      "quem": "NKVD",
@@ -4379,8 +4379,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.01639344262295082,
+      0.012048192771084338
      ],
      "larg": 549,
      "texto": "Primero, las minas de oro de Kolyma, en el fin del mundo.",
@@ -4505,8 +4505,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016666666666666666
      ],
      "larg": 620,
      "texto": "Después, un lugar con nombre de chiste: la sharashka.",
@@ -4515,8 +4515,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.72
+      0.006097560975609756,
+      0.8779
      ],
      "larg": 620,
      "texto": "Un laboratorio-prisión.",
@@ -4525,8 +4525,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.008658008658008658,
+      0.014285714285714285
      ],
      "larg": 620,
      "texto": "Allí los presos no picaban piedra. Inventaban.",
@@ -4535,8 +4535,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.05555555555555555,
+      0.7356571428571429
      ],
      "larg": 486,
      "texto": "Compañeros de encierro: Tupolev, que diseñaba aviones, y Koroliov, que soñaría con cohetes.",
@@ -4545,13 +4545,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.23536585365853657,
+      0.3435483870967742
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.37098703269178435,
+      0.2783505419932953
      ],
      "texto": "Queremos oír a los americanos. Sin cables. Sin pilas. Sin que lo encuentren.",
      "quem": "NKVD",
@@ -4659,8 +4659,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.006060606060606061
      ],
      "larg": 620,
      "texto": "Lo que fabricó cabía en la palma de la mano.",
@@ -4669,8 +4669,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.8
+      0.006097560975609756,
+      0.9330181818181819
      ],
      "larg": 620,
      "texto": "Un cilindro de cobre, una membrana más fina que un pelo y una antena.",
@@ -4679,8 +4679,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.0125,
+      0.0125
      ],
      "larg": 440,
      "texto": "Cuando un haz de radio lo alcanzaba desde afuera, la voz hacía vibrar la membrana...",
@@ -4689,8 +4689,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.10112359550561797,
+      0.0125
      ],
      "larg": 489,
      "texto": "...y el eco regresaba cargado de palabras.",
@@ -4699,8 +4699,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.8
+      0.033707865168539325,
+      0.86185
      ],
      "larg": 489,
      "texto": "Sin el haz, era solo un trozo de metal muerto.",
@@ -4837,8 +4837,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016666666666666666
      ],
      "larg": 620,
      "texto": "En Moscú lo bautizaron Zlatoust: \"boca de oro\".",
@@ -4847,13 +4847,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.5885245901639344,
+      0.29736842105263156
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.3769374258192781,
+      0.3491994141703823
      ],
      "texto": "Ningún americano rechaza un regalo de niños.",
      "quem": "NKVD",
@@ -4862,8 +4862,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.4647887323943662,
+      0.007407407407407408
      ],
      "larg": 390,
      "texto": "En 1947, Theremin recibió el Premio Stalin. Y salió de la sharashka.",
@@ -4872,13 +4872,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.25,
-      0.18
+      0.29069767441860467,
+      0.6017857142857143
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.38113384899825914,
+      0.31027024887147137
      ],
      "texto": "Nadie sabrá lo que hice.",
      "quem": "THEREMIN",
@@ -4887,8 +4887,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.6297399009146342,
+      0.02127659574468085
      ],
      "larg": 620,
      "texto": "Mientras tanto, en la residencia, el regalo seguía en la pared.",
@@ -4897,8 +4897,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.72
+      0.006097560975609756,
+      0.8441276595744677
      ],
      "larg": 620,
      "texto": "Escuchando.",
@@ -5023,8 +5023,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016666666666666666
      ],
      "larg": 620,
      "texto": "Pasaron los años. Pasaron tres embajadores.",
@@ -5033,8 +5033,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.72
+      0.006097560975609756,
+      0.8158000000000001
      ],
      "larg": 620,
      "texto": "Y el águila de madera siguió en su lugar.",
@@ -5043,8 +5043,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.008658008658008658,
+      0.014285714285714285
      ],
      "larg": 620,
      "texto": "1951. En la embajada británica, un operador de radio revisa frecuencias soviéticas.",
@@ -5068,8 +5068,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.6158536585365854,
+      0.016129032258064516
      ],
      "larg": 620,
      "texto": "Un estadounidense repite la prueba. Y también oye voces de la residencia.",
@@ -5078,13 +5078,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.30060975609756097,
+      0.3893617021276596
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.4276332071198199,
+      0.3517808187358128
      ],
      "texto": "Hay un micrófono en Moscú. Y no sabemos dónde está.",
      "quem": "FUNCIONARIO",
@@ -5225,8 +5225,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.473349609375,
+      0.012658227848101266
      ],
      "larg": 440,
      "texto": "1952. Llega un nuevo embajador: George F. Kennan, uno de los grandes expertos en la Unión Soviética.",
@@ -5235,13 +5235,13 @@
     {
      "tipo": "pensa",
      "pos": [
-      0.75,
-      0.18
+      0.5604938271604938,
+      0.23670886075949368
      ],
      "larg": 291,
      "alvo": [
-      0.69,
-      0.48
+      0.31053077599720547,
+      0.30449001049657193
      ],
      "texto": "Precioso. Y lleva siete años aquí.",
      "quem": "KENNAN",
@@ -5250,8 +5250,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.010869565217391304,
+      0.0125
      ],
      "larg": 506,
      "texto": "Afuera lo seguían a todas partes. Dentro de la casa, se creía a salvo.",
@@ -5260,8 +5260,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.18072289156626506,
+      0.0125
      ],
      "larg": 456,
      "texto": "Septiembre de 1952. Washington envía a dos técnicos.",
@@ -5270,13 +5270,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.6156626506024097,
+      0.37875
      ],
      "larg": 298,
      "alvo": [
-      0.69,
-      0.48
+      0.37513076393695266,
+      0.445174873355386
      ],
      "texto": "Para todos, somos invitados de la casa.",
      "quem": "TECNICO",
@@ -5285,13 +5285,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.256,
+      0.1855421686746988
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.47,
+      0.31
      ],
      "texto": "Yo hablaré en voz alta en el estudio. Usted busque.",
      "quem": "KENNAN",
@@ -5300,8 +5300,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.7163934426229508,
+      0.6216867469879518
      ],
      "texto": "SSSHHH",
      "px": 64,
@@ -5412,8 +5412,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.008695652173913044
      ],
      "larg": 620,
      "texto": "Kennan dicta un texto cualquiera, como si fuera un telegrama importante.",
@@ -5422,13 +5422,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.3
+      0.5682926829268292,
+      0.21739130434782608
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.5260869565217391
+      0.6822564995307363,
+      0.25135648729891064
      ],
      "texto": "Punto. Nueva línea. El embajador informa que...",
      "quem": "KENNAN",
@@ -5437,8 +5437,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.25853658536585367,
+      0.7588235294117647
      ],
      "texto": "¡BIIIIP!",
      "px": 64,
@@ -5449,13 +5449,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.5719512195121951,
+      0.5352941176470588
      ],
      "larg": 295,
      "alvo": [
-      0.69,
-      0.48
+      0.8225140393645581,
+      0.470639382174039
      ],
      "texto": "Es su voz... ¡Sale de esta casa!",
      "quem": "TECNICO",
@@ -5464,8 +5464,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.033707865168539325,
+      0.7826764705882353
      ],
      "larg": 489,
      "texto": "El receptor chilla más fuerte cuanto más se acerca a la pared.",
@@ -5474,8 +5474,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.7987804878048781,
+      0.6101694915254238
      ],
      "texto": "CRAC",
      "px": 84,
@@ -5486,8 +5486,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.01694915254237288
      ],
      "larg": 620,
      "texto": "Detrás de la mesa. En el regalo de los niños.",
@@ -5524,8 +5524,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.004032258064516129
      ],
      "larg": 620,
      "texto": "Bajo el pico del águila: un cilindro de cobre. Siete años escuchando, sin pilas ni cables.",
@@ -5534,13 +5534,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.7164634146341463,
+      0.13709677419354838
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.28483870967741937
+      0.7171793648792325,
+      0.21444814681971378
      ],
      "texto": "¿Y qué demonios es esta cosa?",
      "quem": "TECNICO",
@@ -5549,8 +5549,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.8
+      0.006097560975609756,
+      0.9554354838709678
      ],
      "larg": 620,
      "texto": "Desde esa noche tuvo nombre: La Cosa.",
@@ -5675,8 +5675,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016666666666666666
      ],
      "larg": 620,
      "texto": "Washington. Ingenieros del FBI y del Laboratorio de Investigación Naval desarman La Cosa.",
@@ -5685,13 +5685,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.5541125541125541,
+      0.22
      ],
      "larg": 360,
      "alvo": [
-      0.31,
-      0.48
+      0.759771868456648,
+      0.3118446270116478
      ],
      "texto": "Funciona a veinte metros. Y no lleva nada adentro.",
      "quem": "INGENIERO",
@@ -5700,8 +5700,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.16666666666666666,
+      0.014285714285714285
      ],
      "larg": 486,
      "texto": "1 de diciembre de 1952: informe final.",
@@ -5710,8 +5710,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.72
+      0.018518518518518517,
+      0.8953428571428571
      ],
      "larg": 486,
      "texto": "Y después, silencio.",
@@ -5721,7 +5721,7 @@
      "tipo": "sfx",
      "pos": [
       0.8,
-      0.62
+      0.6193548387096774
      ],
      "texto": "CLANC",
      "px": 84,
@@ -5732,8 +5732,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016129032258064516
      ],
      "larg": 620,
      "texto": "El secreto quedó guardado durante años.",
@@ -5742,8 +5742,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.02127659574468085
      ],
      "larg": 620,
      "texto": "En Londres, un ingeniero británico la estudió y construyó su propia versión.",
@@ -5884,8 +5884,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.0125,
+      0.012658227848101266
      ],
      "larg": 440,
      "texto": "1 de mayo de 1960. Los soviéticos derriban un avión espía U-2 sobre su territorio.",
@@ -5894,8 +5894,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.012345679012345678,
+      0.012658227848101266
      ],
      "larg": 445,
      "texto": "Moscú exhibe los restos y acusa a Estados Unidos de espionaje.",
@@ -5904,8 +5904,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.010869565217391304,
+      0.8152750000000001
      ],
      "larg": 506,
      "texto": "La cumbre de París se cae. El mundo entero habla de espías.",
@@ -5914,8 +5914,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.18072289156626506,
+      0.0125
      ],
      "larg": 456,
      "texto": "La URSS lleva el caso al Consejo de Seguridad de la ONU.",
@@ -5924,13 +5924,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.521,
+      0.1855421686746988
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.48
+      0.3,
+      0.35
      ],
      "texto": "¡Estados Unidos espía a la Unión Soviética!",
      "quem": "DELEGADO",
@@ -5939,8 +5939,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.01639344262295082,
+      0.012048192771084338
      ],
      "larg": 549,
      "texto": "26 de mayo de 1960. El embajador estadounidense, Henry Cabot Lodge, trae algo envuelto.",
@@ -6049,8 +6049,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.008695652173913044
      ],
      "larg": 620,
      "texto": "Lodge muestra una réplica del regalo de Moscú.",
@@ -6059,13 +6059,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.5536585365853659,
+      0.1591304347826087
      ],
      "larg": 360,
      "alvo": [
-      0.69,
-      0.4060869565217391
+      0.6506778188528575,
+      0.217946532166278
      ],
      "texto": "Este escudo colgó en la residencia de nuestro embajador.",
      "quem": "LODGE",
@@ -6074,13 +6074,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.25,
-      0.18
+      0.24878048780487805,
+      0.22647058823529412
      ],
      "larg": 295,
      "alvo": [
-      0.31,
-      0.48
+      0.36,
+      0.55
      ],
      "texto": "Aquí adentro estaba el micrófono.",
      "quem": "LODGE",
@@ -6089,8 +6089,8 @@
     {
      "tipo": "sfx",
      "pos": [
-      0.8,
-      0.62
+      0.8089887640449438,
+      0.6176470588235294
      ],
      "texto": "¡FLASH!",
      "px": 64,
@@ -6101,13 +6101,13 @@
     {
      "tipo": "fala",
      "pos": [
-      0.75,
-      0.18
+      0.6876404494382022,
+      0.22647058823529412
      ],
      "larg": 320,
      "alvo": [
-      0.69,
-      0.48
+      0.46483199734606084,
+      0.24197470166692248
      ],
      "texto": "¿De verdad quieren hablar de espionaje?",
      "quem": "LODGE",
@@ -6116,8 +6116,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.01694915254237288
      ],
      "larg": 620,
      "texto": "La moción soviética cae: 7 votos contra 2.",
@@ -6254,8 +6254,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.016666666666666666
      ],
      "larg": 620,
      "texto": "Theremin volvió a su música.",
@@ -6264,8 +6264,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.72
+      0.006097560975609756,
+      0.8158000000000001
      ],
      "larg": 620,
      "texto": "Su nombre quedó unido a un instrumento... y a un espía de madera.",
@@ -6274,8 +6274,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.00819672131147541,
+      0.013157894736842105
      ],
      "larg": 620,
      "texto": "Hoy, una réplica se exhibe en el Museo Criptológico Nacional de la NSA, en Estados Unidos.",
@@ -6284,8 +6284,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.4647887323943662,
+      0.007407407407407408
      ],
      "larg": 390,
      "texto": "Siete años. Ningún cable.",
@@ -6294,8 +6294,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.8
+      0.04225352112676056,
+      0.9181333333333334
      ],
      "larg": 390,
      "texto": "Una voz que cruzaba la calle.",
@@ -6304,8 +6304,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.009689922480620155,
+      0.017857142857142856
      ],
      "larg": 567,
      "texto": "Un regalo. Unos niños. Una pared.",
@@ -6314,8 +6314,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.03
+      0.006097560975609756,
+      0.02127659574468085
      ],
      "larg": 620,
      "texto": "Ahora mira la pared que tienes más cerca.",
@@ -6324,8 +6324,8 @@
     {
      "tipo": "legenda",
      "pos": [
-      0.02,
-      0.72
+      0.006097560975609756,
+      0.8441276595744677
      ],
      "larg": 620,
      "texto": "¿Quién está escuchando?",
@@ -6468,31 +6468,77 @@
   {
    "tipo": "texto",
    "saida": "final",
-   "titulo": "¿QUÉ EXPEDIENTE QUIERES EN EL #2?",
+   "titulo": "¿AÚN NO TE SUSCRIBISTE?",
    "numero": 41,
    "blocos": [
     {
      "t": "p",
-     "texto": "Déjalo en los comentarios del canal. Leemos todos y el más pedido puede ser el próximo expediente.",
+     "texto": "Suscríbete a Dossier en Minutos para no perderte los nuevos videos y los próximos Expedientes Secretos.",
      "centro": true
     },
     {
+     "t": "h",
+     "texto": "¿QUÉ EXPEDIENTE QUIERES EN EL #2?"
+    },
+    {
      "t": "p",
-     "texto": "Escanea el código para ir al canal:",
+     "texto": "Déjalo en los comentarios del canal. Leemos todos y el más pedido puede ser el próximo expediente.",
      "centro": true
     }
    ],
    "caixas": [
     {
      "rect": [
-      600,
-      1250,
-      600,
-      600
+      180,
+      900,
+      640,
+      640
      ],
      "img": "001/qr-canal.png",
      "rotulo": "QR",
      "placeholder": "QR do canal: https://www.youtube.com/channel/UCVCYqeuCwTWC7Lqez_qeWRA"
+    }
+   ],
+   "textos_livres": [
+    {
+     "pos": [
+      880,
+      990
+     ],
+     "larg": 760,
+     "px": 64,
+     "cor": "vermelho",
+     "texto": "ESCANEA EL CÓDIGO O TOCA EL ENLACE:"
+    },
+    {
+     "pos": [
+      880,
+      1190
+     ],
+     "larg": 760,
+     "px": 50,
+     "sublinhado": true,
+     "texto": "DOSSIER EN MINUTOS EN YOUTUBE"
+    },
+    {
+     "pos": [
+      880,
+      1310
+     ],
+     "larg": 760,
+     "px": 40,
+     "texto": "Toca aquí para abrir el canal y suscribirte."
+    }
+   ],
+   "links": [
+    {
+     "rect": [
+      180,
+      900,
+      1460,
+      640
+     ],
+     "url": "https://www.youtube.com/channel/UCVCYqeuCwTWC7Lqez_qeWRA"
     }
    ]
   },

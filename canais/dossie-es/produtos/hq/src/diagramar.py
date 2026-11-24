@@ -431,6 +431,16 @@ def pagina_texto(pg):
                      cx.get("placeholder", ""))
         base.paste(im, (round(x), round(yy)))
         d.rectangle((x, yy, x + w, yy + h), outline=tinta, width=5 * K)
+    for tl in pg.get("textos_livres", []):  # texto posicionado (ex.: link ao lado do QR); {"pos":[x,y],"larg","texto","px","cor"}
+        f = fonte("titulo", tl.get("px", 44))
+        x, yy = tl["pos"][0] * K, tl["pos"][1] * K
+        cor = VERMELHO if tl.get("cor") == "vermelho" else tinta
+        for ln in quebrar(tl["texto"], f, tl.get("larg", 700) * K, d):
+            d.text((x, yy), ln, font=f, fill=cor)
+            yy += int(tl.get("px", 44) * 1.15) * K
+        if tl.get("sublinhado"):
+            d.line([(x, yy + 4 * K), (x + min(tl.get("larg", 700) * K, d.textlength(tl["texto"], font=f)), yy + 4 * K)],
+                   fill=cor, width=3 * K)
     if pg.get("numero"):
         ft = fonte("titulo", 34)
         n = str(pg["numero"])

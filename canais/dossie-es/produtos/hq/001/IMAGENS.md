@@ -10,6 +10,8 @@ Total a gerar: **148 imagens** (meta ≤ 180). Quadros no livro: 146 = 133 novos
 | 4 | pôster | 1 |
 | 5 | wallpapers | 4 |
 
+**Etapa 2 feita em 24/11/2026 pela fal (gpt-image-2/edit, `tools/rodar_fal.py`): geradas, refeitas, custo e aprendizados em `E2-RELATORIO.md`.**
+
 ## Lotes (rodar nesta ordem; cada comando pula o que já existe)
 
 - **folhas** (8, paisagem, config `sem`) → `arte-001/folhas`

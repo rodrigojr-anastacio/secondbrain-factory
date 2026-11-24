@@ -27,6 +27,9 @@ sys.path.insert(0, AQUI)
 import layouts as LY  # noqa: E402
 import personagens as PE  # noqa: E402
 import extras as EX  # noqa: E402
+import autolayout as AL  # noqa: E402
+
+AUTO = "--sem-auto" not in sys.argv   # posição automática dos balões olhando a arte (autolayout.py)
 
 ARTE = "arte-001"                      # pasta das artes novas (fora do git), relativa a produtos/hq/
 FOLHAS_DIR = os.path.join(HQ, ARTE, "folhas")
@@ -129,14 +132,17 @@ def posicionar(textos, caixa):
             lado_y[lado] = min(y + 0.24, 0.85)
             larg = int(w * 0.78) if estreito else int(min(360, max(240, w * 0.36)))
             alvo = [x + (0.06 if lado == "e" else -0.06 if lado == "d" else 0), min(y + min(0.30, 260 / h), 0.95)]
-            out.append({"tipo": tipo, "pos": [x, y], "larg": larg, "alvo": alvo, "texto": t[1], "quem": t[2]})
+            out.append({"tipo": tipo, "pos": [x, y], "larg": larg, "alvo": alvo, "texto": t[1], "quem": t[2],
+                        "lado": (t[3] if len(t) > 3 else "c")})
         elif tipo == "sfx":
             out.append({"tipo": "sfx", "pos": [0.80, 0.62], "texto": t[1], "px": 84 if w > 900 else 64, "rot": -8,
                         "cor": "vermelho"})
         else:
             raise ValueError(t)
-        if len(t) > 4 and isinstance(t[4], dict):  # ajuste fino (pos/alvo/larg/px/rot) gravado no roteiro
-            out[-1].update(t[4])
+        extra = next((x for x in t[2:] if isinstance(x, dict)), None)
+        if extra:  # ajuste fino (pos/alvo/larg/px/rot) gravado no roteiro: prevalece sobre o autolayout
+            out[-1].update(extra)
+            out[-1]["_manual"] = set(extra)
     return out
 
 
@@ -211,7 +217,12 @@ def main():
                 painel = dict(slot, img=img, arte_dir=arte_dir, orient=orient, foco=q.get("foco") or [0.5, 0.5],
                               placeholder=q.get("desc", ""))
                 paineis.append(painel)
-                for t in posicionar(q.get("textos") or [], cx):
+                tq = posicionar(q.get("textos") or [], cx)
+                if AUTO:
+                    AL.layout_quadro(painel, slot, os.path.join(HQ, arte_dir, img + ".jpg"), tq)
+                for t in tq:
+                    t.pop("_manual", None)
+                    t.pop("lado", None)
                     t["painel"] = img
                     textos.append(t)
                 # roteiro legível
@@ -256,6 +267,7 @@ def main():
     livro = {"saida_dir": "001/rascunho", "pdf": "001/rascunho.pdf", "larg_pdf": 1200, "estilo": "cor",
              "paginas": [EX.CAPA_GERAL, EX.CREDITOS, EX.sumario(sumario, pag_livro + 1)] + paginas_livro + fim}
     json.dump(livro, open(os.path.join(AQUI, "livro.json"), "w"), ensure_ascii=False, indent=1)
+    AL.salvar_cache()
 
     # ---------- lotes de imagens ----------
     plano = []
@@ -302,6 +314,8 @@ def main():
           "| ordem | etapa | imagens |", "|---|---|---|"]
     for o in range(1, 6):
         im.append("| %d | %s | %d |" % (o, nomes[o], sum(p["n"] for p in plano if p["ordem"] == o)))
+    im += ["", "**Etapa 2 feita em 24/11/2026 pela fal (gpt-image-2/edit, `tools/rodar_fal.py`): geradas, refeitas, custo "
+           "e aprendizados em `E2-RELATORIO.md`.**"]
     im += ["", "## Lotes (rodar nesta ordem; cada comando pula o que já existe)", ""]
     for p in plano:
         im.append("- **%s** (%d, %s, config `%s`) → `%s`" % (p["lote"], p["n"], p["orient"], p["visual"], p["saida"]))

@@ -219,12 +219,22 @@ def paginas_fim(ultima):
                      "centro": True}],
          "caixas": [{"rect": [450, 700, 900, 1350], "img": "001/poster-miniatura.jpg", "rotulo": "PÓSTER",
                      "placeholder": "miniatura do pôster A3 (PO01 + título), gerada na e2"}]},
-        {"tipo": "texto", "saida": "final", "titulo": "¿QUÉ EXPEDIENTE QUIERES EN EL #2?", "numero": n + 4,
-         "blocos": [{"t": "p", "texto": "Déjalo en los comentarios del canal. Leemos todos y el más pedido puede ser "
-                                        "el próximo expediente.", "centro": True},
-                    {"t": "p", "texto": "Escanea el código para ir al canal:", "centro": True}],
-         "caixas": [{"rect": [600, 1250, 600, 600], "img": "001/qr-canal.png", "rotulo": "QR",
-                     "placeholder": "QR do canal: " + URL_CANAL}]},
+        # página final (ajuste do Rodrigo, 24/11/2026): QR + CTA de inscrição + link clicável ao lado
+        {"tipo": "texto", "saida": "final", "titulo": "¿AÚN NO TE SUSCRIBISTE?", "numero": n + 4,
+         "blocos": [{"t": "p", "texto": "Suscríbete a Dossier en Minutos para no perderte los nuevos videos y los "
+                                        "próximos Expedientes Secretos.", "centro": True},
+                    {"t": "h", "texto": "¿QUÉ EXPEDIENTE QUIERES EN EL #2?"},
+                    {"t": "p", "texto": "Déjalo en los comentarios del canal. Leemos todos y el más pedido puede ser "
+                                        "el próximo expediente.", "centro": True}],
+         "caixas": [{"rect": [180, 900, 640, 640], "img": "001/qr-canal.png", "rotulo": "QR",
+                     "placeholder": "QR do canal: " + URL_CANAL}],
+         "textos_livres": [{"pos": [880, 990], "larg": 760, "px": 64, "cor": "vermelho",
+                            "texto": "ESCANEA EL CÓDIGO O TOCA EL ENLACE:"},
+                           {"pos": [880, 1190], "larg": 760, "px": 50, "sublinhado": True,
+                            "texto": "DOSSIER EN MINUTOS EN YOUTUBE"},
+                           {"pos": [880, 1310], "larg": 760, "px": 40,
+                            "texto": "Toca aquí para abrir el canal y suscribirte."}],
+         "links": [{"rect": [180, 900, 1460, 640], "url": URL_CANAL}]},
         {"tipo": "texto", "saida": "contracapa", "escuro": True, "titulo": "DOSSIER EN MINUTOS", "px_titulo": 130,
          "blocos": [{"t": "p", "texto": "Historias reales de espionaje, una organización por expediente.",
                      "centro": True},

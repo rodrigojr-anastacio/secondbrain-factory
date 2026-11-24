@@ -376,7 +376,7 @@ PAGINAS = [
            "empty space in the upper left for captions",
            [["legenda", "1944. Los Aliados preparan el desembarco más grande de la historia."],
             ["legenda", "Para que funcione, Hitler tiene que mirar al lugar equivocado."],
-            ["fala", "Y quien se lo va a decir… es usted, señor Garbo.", "OFICIAL BRITÁNICO", "d"]]),
+            ["fala", "Y quien se lo va a decir… es usted, señor Garbo.", "OFICIAL BRITÁNICO", "d", {"alvo": [0.72, 0.36]}]]),
          Q("G1202", [],
            "Tanques e caminhões infláveis de borracha num campo inglês, soldados levantando um tanque com uma mão.",
            "Square shot of an English field at dawn with inflatable rubber tanks and fake trucks, two soldiers effortlessly "
@@ -419,7 +419,7 @@ PAGINAS = [
            "Faixa baixa: Kühlenthal envergonhado lendo a reclamação.",
            "Low wide shot of {KUHLENTHAL} reading a message in his Madrid office in morning light, embarrassed, loosening his "
            "collar, an operator with headphones looking down guiltily beside him. Leave calm space on the right Heavy curtains, a desk lamp switched off, a framed blank map on the wall behind them.",
-           [["pensa", "Tenía razón. Alaric nos avisó y no lo escuchamos.", "KÜHLENTHAL", "e"]]),
+           [["pensa", "Tenía razón. Alaric nos avisó y no lo escuchamos.", "KÜHLENTHAL", "e", {"alvo": [0.3, 0.06]}]], foco=(0.5, 0.1)),
      ]},
     {"n": 14, "cap": 4, "layout": "F1",
      "nota": "splash do clímax: amanhecer do Dia D na Normandia (sem corpos, sem sangue)",
@@ -487,7 +487,7 @@ PAGINAS = [
            "standing in the doorway of a small colorful bookshop in a Venezuelan coastal village, green mountains and palm trees "
            "behind, bright warm tropical light. Leave calm space at the top",
            [["legenda", "En realidad vivía en Venezuela. Tranquilo. Anónimo."],
-            ["pensa", "Aquí nadie busca a un espía muerto.", "JUAN", "d"]]),
+            ["pensa", "Aquí nadie busca a un espía muerto.", "JUAN", "d", {"pos": [0.5, 0.64], "alvo": [0.5, 0.38]}]]),
          Q("G1603", ["JUAN"],
            "1984: um escritor britânico encontra o velho Juan; aperto de mãos numa varanda.",
            "Square shot of {JUAN} older, about 72, gray hair and gray mustache, light linen shirt, shaking hands with a "
