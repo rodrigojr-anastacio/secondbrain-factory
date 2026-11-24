@@ -3,7 +3,7 @@
  "roteiro": "canais/dossie-es/videos/017-gulag/blocos.json",
  "idioma": "es",
  "blocos": 64,
- "nota": 2.1,
+ "nota": 1.3,
  "veredito": "ok",
  "limites": {
   "ATENCAO": 18,
@@ -11,53 +11,41 @@
  },
  "limiar_gemeo": 0.3,
  "custo_traducao_usd": 0.0,
- "blocos_consenso_manada": [
-  12
- ],
+ "blocos_consenso_manada": [],
  "referencias": [
   {
-   "cobertura": 0.03125,
+   "cobertura": 0.015625,
    "ordem": 0.0,
-   "ngramas": 0.0053475935828877,
-   "sim_media": 0.1541632952551834,
-   "gemeos": 2,
+   "ngramas": 0.005319148936170213,
+   "sim_media": 0.13791665390429725,
+   "gemeos": 1,
    "blocos": 64,
    "posicoes": [
     [
      12,
-     51
-    ],
-    [
-     21,
-     108
+     40
     ]
    ],
    "trechos": [
     {
-     "bloco": 21,
-     "cos": 0.35,
-     "nosso": "Hasta entonces, la paga era la comida. Según Applebaum, en trabajo pesado, quien cumplía la norma podía recibir ochocientos gramos de pan. A los presos clasificados como inválidos les tocaba la mitad.",
-     "ref": "pan depende de ella. Un preso que cumple la norma recibe alrededor de un kilogramo de pan. Un preso que cumple mucho menos recibe apenas 400 gramos, aunque las cantidades"
-    },
-    {
      "bloco": 12,
-     "cos": 0.33,
-     "nosso": "El canal une el mar Blanco con el Báltico: doscientos veintisiete kilómetros, abiertos en unos veinte meses por más de cien mil presos. Se inaugura el dos de agosto de mil novecientos treinta y tres.",
-     "ref": "proyecto muy grande y quiere que esté terminado en 20 meses. En 1931, Stalin decide construir un canal que una el mar Blanco con el lago Onega y el Báltico."
+     "cos": 0.32,
+     "nosso": "Para escribirlo, en agosto de mil novecientos treinta y tres, una brigada de unos ciento veinte escritores había recorrido la obra recién inaugurada. El libro la presenta como una escuela: los presos se reforjan trabajando.",
+     "ref": "termina, el régimen organiza una excursión para más de 100 escritores soviéticos. De ese viaje sale un libro enorme que presenta la obra como una victoria y a los presos"
     }
    ],
-   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-p4bn_AL1yUM.txt",
-   "idioma_ref": "en",
-   "traduzido": true,
-   "palavras_ref": 3729,
-   "nota": 2.1,
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-D_MQCSCKG6c.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 1813,
+   "nota": 1.3,
    "veredito": "ok"
   },
   {
    "cobertura": 0.015625,
    "ordem": 0.0,
-   "ngramas": 0.006417112299465241,
-   "sim_media": 0.1616406801581454,
+   "ngramas": 0.005319148936170213,
+   "sim_media": 0.159656374712672,
    "gemeos": 1,
    "blocos": 64,
    "posicoes": [
@@ -78,86 +66,42 @@
    "idioma_ref": "es",
    "traduzido": false,
    "palavras_ref": 13917,
-   "nota": 1.4,
+   "nota": 1.3,
    "veredito": "ok"
   },
   {
    "cobertura": 0.015625,
    "ordem": 0.0,
-   "ngramas": 0.0042780748663101605,
-   "sim_media": 0.14805393447748671,
+   "ngramas": 0.00425531914893617,
+   "sim_media": 0.15200112161274404,
    "gemeos": 1,
    "blocos": 64,
    "posicoes": [
     [
-     12,
-     38
+     21,
+     108
     ]
    ],
    "trechos": [
     {
-     "bloco": 12,
-     "cos": 0.42,
-     "nosso": "El canal une el mar Blanco con el Báltico: doscientos veintisiete kilómetros, abiertos en unos veinte meses por más de cien mil presos. Se inaugura el dos de agosto de mil novecientos treinta y tres.",
-     "ref": "Frenkel, el preso de Solovki, se convierte en jefe de obras de un canal que une el mar Blanco con el Báltico. Se excava por presos en unos 20 meses. La cantidad de trabajadores"
+     "bloco": 21,
+     "cos": 0.33,
+     "nosso": "Hasta entonces, la paga era la comida. Según Applebaum, la escala nació en Solovkí en los años veinte: en trabajo pesado, quien cumplía la norma podía recibir ochocientos gramos de pan. A los inválidos, la mitad. Y para cumplirla en el papel, presos y jefes in",
+     "ref": "pan depende de ella. Un preso que cumple la norma recibe alrededor de un kilogramo de pan. Un preso que cumple mucho menos recibe apenas 400 gramos, aunque las cantidades"
     }
    ],
-   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-owjRGXJ9v_s.txt",
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-p4bn_AL1yUM.txt",
    "idioma_ref": "en",
    "traduzido": true,
-   "palavras_ref": 2984,
+   "palavras_ref": 3729,
    "nota": 1.2,
    "veredito": "ok"
   },
   {
-   "cobertura": 0.015625,
-   "ordem": 0.0,
-   "ngramas": 0.0021390374331550803,
-   "sim_media": 0.12351988430408647,
-   "gemeos": 1,
-   "blocos": 64,
-   "posicoes": [
-    [
-     12,
-     209
-    ]
-   ],
-   "trechos": [
-    {
-     "bloco": 12,
-     "cos": 0.33,
-     "nosso": "El canal une el mar Blanco con el Báltico: doscientos veintisiete kilómetros, abiertos en unos veinte meses por más de cien mil presos. Se inaugura el dos de agosto de mil novecientos treinta y tres.",
-     "ref": "construcción. Allí, los presos excavaron un canal de 30 m de ancho para el Canal del Mar Blanco-Báltico. El proyecto tomó casi 2 años y se excavó principalmente"
-    }
-   ],
-   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-bZ0lQ4IimPQ.txt",
-   "idioma_ref": "en",
-   "traduzido": true,
-   "palavras_ref": 3959,
-   "nota": 1.0,
-   "veredito": "ok"
-  },
-  {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.009625668449197862,
-   "sim_media": 0.1366118572792027,
-   "gemeos": 0,
-   "blocos": 64,
-   "posicoes": [],
-   "trechos": [],
-   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-D_MQCSCKG6c.txt",
-   "idioma_ref": "es",
-   "traduzido": false,
-   "palavras_ref": 1813,
-   "nota": 0.8,
-   "veredito": "ok"
-  },
-  {
-   "cobertura": 0.0,
-   "ordem": 0.0,
-   "ngramas": 0.0021390374331550803,
-   "sim_media": 0.11735367550029725,
+   "ngramas": 0.0010638297872340426,
+   "sim_media": 0.11617245178874118,
    "gemeos": 0,
    "blocos": 64,
    "posicoes": [],
@@ -166,14 +110,30 @@
    "idioma_ref": "es",
    "traduzido": false,
    "palavras_ref": 2893,
-   "nota": 0.2,
+   "nota": 0.1,
    "veredito": "ok"
   },
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.0010695187165775401,
-   "sim_media": 0.11546207730685462,
+   "ngramas": 0.0010638297872340426,
+   "sim_media": 0.12036293743588612,
+   "gemeos": 0,
+   "blocos": 64,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-bZ0lQ4IimPQ.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3959,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0010638297872340426,
+   "sim_media": 0.1144058354464968,
    "gemeos": 0,
    "blocos": 64,
    "posicoes": [],
@@ -188,8 +148,24 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
+   "ngramas": 0.0010638297872340426,
+   "sim_media": 0.14498757230655415,
+   "gemeos": 0,
+   "blocos": 64,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-owjRGXJ9v_s.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2984,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.10459508944084761,
+   "sim_media": 0.10521414976619137,
    "gemeos": 0,
    "blocos": 64,
    "posicoes": [],
@@ -205,7 +181,7 @@
    "cobertura": 0.0,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.11231285288858152,
+   "sim_media": 0.11290132256405358,
    "gemeos": 0,
    "blocos": 64,
    "posicoes": [],

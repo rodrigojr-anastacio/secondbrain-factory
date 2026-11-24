@@ -16,6 +16,8 @@ Nenhum vídeo do YouTube foi usado como fonte. "Wikipedia" = só pista; onde cit
 - Canal: 227 km, aberto 02/08/1933, 12.300 mortes nos registros (Kokurin & Morukov 2005), ~25 mil estimativa (Applebaum), 44% de uso em 1940: Khlevniuk (link acima); https://en.wikipedia.org/wiki/White_Sea%E2%80%93Baltic_Sea_Canal
 - Brigada de ~120 escritores, agosto de 1933: https://iisg.nl/collections/belomorkanal/praise.php ; https://www.ebsco.com/research-starters/history/soviets-open-white-sea-baltic-canal
 
+- (v3) O livro apresenta a obra como "reforja" (*perekovka*) dos presos pelo trabalho: C. Ruder, *Making History for Stalin: The Story of the Belomor Canal* (1998); Britannica (link acima). 227 km/20 meses/100 mil saíram do roteiro (pacote numérico igual ao do Uncovered; nota do crivo de ângulo r3).
+
 ## 3. El Oro (v3: abre na visita de Henry Wallace a Magadan, 24–26/05/1944; Berzin cortado)
 - Wallace em Magadan 24–26/05/1944, recebido por Nikishov (Dalstroi), escolas/granjas/minas; torres de vigia retiradas e presos trancados segundo testemunhos de ex-presos (Sgovio, Lipper); frase de 1952 "altogether too much impressed by the show": Wilson Center https://www.wilsoncenter.org/publication/three-days-auschwitz-without-gas-chambers-henry-wallaces-visit-to-magadan-1944 ; detalhes em pesquisa/FATOS-C.md §1
 - Berzin em Nagáyevo, 02 ou 04/02/1932, preso 19/12/1937, fuzilado 01/08/1938: https://en.wikipedia.org/wiki/Eduard_Berzin (cita Applebaum, Gulag, pp. 85, 88)

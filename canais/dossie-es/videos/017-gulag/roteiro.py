@@ -31,7 +31,7 @@ TITULOS = ("T1 GULAG: la empresa de Stalin que necesitaba presos / "
            "T2 Cómo funcionaba el Gulag por dentro: plan, oro y mano de obra presa / "
            "T3 Republicanos y Franquistas, Presos en el Mismo Gulag | Expedientes de Stalin")
 PROMESSA = ("El Gulag por dentro como una empresa del Estado soviético que funcionaba con presos (decreto para colonizar y explotar, "
-            "oro en toneladas, la norma, los informes inflados, hasta su cierre 'por ineficiencia'), y los españoles de los dos bandos "
+            "oro en toneladas, la norma y los informes inflados, hasta su cierre 'por ineficiencia'), y los españoles de los dos bandos "
             "de la guerra civil que acabaron en sus campos, hasta el barco que los trajo a Barcelona en 1954.")
 
 B = []
@@ -57,8 +57,8 @@ b("Los historiadores discuten si se arrestaba para llenar los campos. Lo que dic
 cap("2. El Libro")
 b("El Libro. Moscú, primavera de mil novecientos treinta y siete. Semión Firin, antiguo subjefe del Gulag, es arrestado. En agosto lo fusilan.", card="MOSCÚ, 1937")
 b("Firin había editado, junto a Máximo Gorki y Leopold Averbaj, la historia oficial del canal del mar Blanco, escrita por treinta y seis autores soviéticos. Según el diario ruso Nóvaya Gazeta, tras su caída se retira la tirada.")
-b("El canal une el mar Blanco con el Báltico: doscientos veintisiete kilómetros, abiertos en unos veinte meses por más de cien mil presos. Se inaugura el dos de agosto de mil novecientos treinta y tres.")
-b("Los registros del propio Gulag anotan unos doce mil fallecidos. Algunas estimaciones de historiadores duplican esa cifra. Ese mismo mes, una brigada de unos ciento veinte escritores recorre la obra para celebrarla.")
+b("Para escribirlo, en agosto de mil novecientos treinta y tres, una brigada de unos ciento veinte escritores había recorrido la obra recién inaugurada. El libro la presenta como una escuela: los presos se reforjan trabajando.")
+b("Lo que el libro no cuenta está en los registros del propio Gulag: unos doce mil presos fallecidos en la obra. Algunas estimaciones de historiadores duplican esa cifra.")
 b("La empresa había aprendido algo: las obras también se enseñan. Once años después, invitaría a otro visitante a ver sus minas. Esta vez, desde Washington.", ideia=True)
 
 # ───────────────────────── 3. EL ORO ─────────────────────────
@@ -72,7 +72,7 @@ b("En Moscú, los informes se medían en toneladas. Pero había una pregunta que
 # ───────────────────────── 4. LA NORMA ─────────────────────────
 cap("4. La Norma")
 b("La Norma. Moscú, trece de marzo de mil novecientos cincuenta. El gobierno soviético decide pagar un salario a los presos de los campos.", card="MOSCÚ, 1950")
-b("Hasta entonces, la paga era la comida. Según Applebaum, en trabajo pesado, quien cumplía la norma podía recibir ochocientos gramos de pan. A los presos clasificados como inválidos les tocaba la mitad.")
+b("Hasta entonces, la paga era la comida. Según Applebaum, la escala nació en Solovkí en los años veinte: en trabajo pesado, quien cumplía la norma podía recibir ochocientos gramos de pan. A los inválidos, la mitad. Y para cumplirla en el papel, presos y jefes inflaban los informes: lo llamaban tufta.")
 b("Había existido otro incentivo: días de condena descontados por buen trabajo. Según el historiador Oleg Jlevniuk, Beria los suprimió en mil novecientos treinta y nueve.")
 b("A comienzos de los años cincuenta, más de la cuarta parte de los presos que trabajaban a destajo no alcanzaba la norma. Los propios dirigentes ya preferían trabajadores libres, que rendían más y no necesitaban guardias. El salario fue un último intento.")
 b("En total, según el directorio de la organización rusa Memorial que cita Applebaum, hubo al menos cuatrocientos setenta y seis complejos de campos. En algunos acabaron españoles que habían llegado como aliados.", ideia=True)
