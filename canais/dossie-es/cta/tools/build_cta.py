@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""CTA genérico da HQ "Expedientes Secretos" (Dossier en Minutos, 24/11/2026): áudio, tempos e links do bloco de 15 s.
+"""CTA genérico da HQ "Expedientes Secretos" (Dossier en Minutos, 24/11/2026): áudio, tempos e links do bloco de 16,4 s.
 
 Uso (na pasta cta/): ~/workspace/fabrica-youtube/tools/.venv/bin/python tools/build_cta.py
-Entradas: voz/CTA.mp3 (Fish, voz do canal, 1,25×) e voz/palavras.json (tempos de palavra do Whisper),
+Entradas: voz/CTA.mp3 (Fish, voz do canal, 1,0× + ffmpeg atempo 1,25) e voz/palavras.json (tempos de palavra do Whisper),
           capas/páginas/wallpaper de ../produtos/hq/ (hard links em public/img; o Remotion não serve symlink).
 Saídas:   cta-hq.wav (só a voz, 48 kHz mono, começa em VOZ_OFF dentro do bloco), cta-sfx.wav (só os SFX, para o encaixe
           num vídeo, onde a trilha do vídeo continua com ducking), public/audio/mix.wav (voz + trilha + SFX, -15 LUFS,
@@ -16,13 +16,17 @@ import numpy as np
 C = Path(__file__).resolve().parent.parent
 HQ = C.parent / "produtos" / "hq"
 SR, FPS = 48000, 30
-DUR = 15.0            # bloco inteiro (s): teto do Rodrigo = 15 s
+DUR = 16.4            # bloco inteiro (s): Rodrigo aceitou ~16 s (24/11, v2: voz 15,66 s + entrada 0,25 s + respiro; alvo <= 16,5 s)
 VOZ_OFF = 0.25        # a voz começa 0,25 s depois do início do bloco
 TEXTO = ("Si te están gustando estos expedientes, hay otros que nunca llegaron al canal: los guardamos para un cómic. "
-         "Expedientes Secretos. Historias reales de espionaje, con un póster y fondos de pantalla de regalo. "
+         "Expedientes Secretos. Historias reales de espionaje y, de regalo, póster y fondos de pantalla para tu celular y tu computadora. "
          "El enlace está en la descripción y en el comentario fijado.")
 LINKS = {"capa-1.jpg": "capa.jpg", "capa-2.jpg": "capa-2.jpg", "capa-3.jpg": "capa-3.jpg", "pagina-1.jpg": "pagina-1.jpg",
-         "pagina-2.jpg": "pagina-2.jpg", "wallpaper-celular.jpg": "wallpaper-celular.jpg", "P203.jpg": "arte/P203.jpg"}
+         "pagina-2.jpg": "pagina-2.jpg", "wallpaper-celular.jpg": "wallpaper-celular.jpg", "P203.jpg": "arte/P203.jpg",
+         }
+# artes reduzidas (jpg) dos pôsteres novos e do wallpaper desktop da HQ #1 (v2, 24/11/2026)
+REDUZIDAS = {"poster-C.jpg": ("001/pacote/poster-C-com-titulo.png", 1100), "poster-A.jpg": ("001/pacote/poster-A-com-titulo.png", 1100),
+             "desktop.jpg": ("001/pacote/wallpaper-1-desktop-3840x2160.jpg", 1600)}   # (origem, maior lado em px)
 
 
 def ler_mp3(p):
@@ -121,6 +125,11 @@ def main():
         if d.exists() or d.is_symlink(): d.unlink()
         d.hardlink_to(s)
 
+    from PIL import Image
+    for dst, (src, mx) in REDUZIDAS.items():
+        im = Image.open(HQ / src).convert("RGB"); im.thumbnail((mx, mx), Image.LANCZOS)
+        im.save(C / "public/img" / dst, quality=88)
+
     # 2) voz no bloco
     v = ler_mp3(C / "voz/CTA.mp3")
     v *= 10 ** (-3 / 20) / (np.max(np.abs(v)) + 1e-9)
@@ -143,7 +152,9 @@ def main():
         "abre": round(t("guardamos")[1], 2),                 # a capa abre
         "folheia": round(t("expedientes", 2)[1] + 0.1, 2),   # vira a pág. 1 (aparece a 2)
         "cena2": round(t("historias")[1] - 0.3, 2),          # parede: pôster
-        "celular": round(t("fondos")[1] - 0.15, 2),          # celular com o wallpaper
+        "poster": round(t("póster")[1] - 0.1, 2),            # 2º pôster (A) ao lado do C
+        "celular": round(t("celular")[1] - 0.2, 2),          # celular com o wallpaper
+        "notebook": round(t("computadora")[1] - 0.2, 2),     # notebook com o wallpaper desktop
         "regalo": round(t("regalo")[1], 2),                  # carimbo DE REGALO
         "banner": round(t("el", 1)[1] - 0.15, 2),            # banner do link
     }
@@ -164,20 +175,20 @@ def main():
 
     # 5) cta.json: o que o build.py de um vídeo precisa para encaixar o bloco
     json.dump({
-        "versao": "2026-11-24",
+        "versao": "2026-11-24-v2",
         "duracao_s": DUR, "frames": int(DUR * FPS), "fps": FPS,
         "voz_off_s": VOZ_OFF, "voz_fim_s": round(fim_voz, 3),
         "texto": TEXTO,
         "legenda": [  # linhas do .srt (tempos relativos ao início do bloco), cortadas nas pausas reais da fala
             {"ini": VOZ_OFF, "fim": round(t("cómic")[2], 2), "texto": "Si te están gustando estos expedientes, hay otros que nunca\nllegaron al canal: los guardamos para un cómic."},
-            {"ini": round(t("expedientes", 2)[1], 2), "fim": round(t("regalo")[2], 2), "texto": "Expedientes Secretos. Historias reales de espionaje,\ncon un póster y fondos de pantalla de regalo."},
+            {"ini": round(t("expedientes", 2)[1], 2), "fim": round(t("computadora")[2], 2), "texto": "Expedientes Secretos. Historias reales de espionaje y, de regalo,\npóster y fondos de pantalla para tu celular y tu computadora."},
             {"ini": round(t("el", 1)[1], 2), "fim": round(fim_voz, 2), "texto": "El enlace está en la descripción\ny en el comentario fijado."},
         ],
         "arquivos": {"video": "cta-hq.mp4", "voz": "cta-hq.wav", "sfx": "cta-sfx.wav"},
         "interruptor": "ATIVO (1ª linha = link da Hotmart); sem ele o build.py ignora o CTA",
-        "voz": {"motor": "fish", "modelo": "s2.1-pro", "voz": "ac594943984a47e7a827416eb263c7b1", "velocidade": 1.25, "pausa_frase_s": 0.25},
+        "voz": {"motor": "fish", "modelo": "s2.1-pro", "voz": "ac594943984a47e7a827416eb263c7b1", "velocidade": 1.0, "atempo": 1.25, "pausa_frase_s": 0.25},
     }, open(C / "cta.json", "w"), ensure_ascii=False, indent=1)
-    print(json.dumps({k: ev[k] for k in ("voz_fim", "carimbo2", "carimbo3", "zoom", "abre", "folheia", "cena2", "celular", "regalo", "banner")}))
+    print(json.dumps({k: ev[k] for k in ("voz_fim", "carimbo2", "carimbo3", "zoom", "abre", "folheia", "cena2", "poster", "celular", "notebook", "regalo", "banner")}))
 
 
 if __name__ == "__main__":

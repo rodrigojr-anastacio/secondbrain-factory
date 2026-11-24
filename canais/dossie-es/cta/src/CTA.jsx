@@ -145,40 +145,50 @@ const Leque = ({ f }) => {
   );
 };
 
-// ───────────── cena 2: parede com pôster + celular com o wallpaper ─────────────
+// ───────────── cena 2: parede com os 2 pôsteres + celular e notebook com os wallpapers (v2, 24/11/2026) ─────────────
 const Parede = ({ f }) => {
-  const c2 = s2f(T.cena2), cel = s2f(T.celular);
-  const push = lerp(f, c2, s2f(T.dur), 1.0, 1.06, Easing.linear);
+  const c2 = s2f(T.cena2), pA = s2f(T.poster), cel = s2f(T.celular), nb = s2f(T.notebook);
+  const push = lerp(f, c2, s2f(T.dur), 1.0, 1.05, Easing.linear);
   const pe = lerp(f, c2, c2 + 14, 0, 1, EASE);
+  const ae = lerp(f, pA, pA + 14, 0, 1, EASE);
   const ce = lerp(f, cel, cel + 12, 0, 1, EASE);
-  const PoH = 820, PoW = PoH * 2 / 3;
-  const fita = (st) => <div style={{ position: 'absolute', width: 120, height: 34, background: 'rgba(233,223,201,.75)', boxShadow: '0 2px 4px rgba(0,0,0,.3)', ...st }} />;
+  const ne = lerp(f, nb, nb + 12, 0, 1, EASE);
+  const fita = (st) => <div style={{ position: 'absolute', width: 100, height: 30, background: 'rgba(233,223,201,.75)', boxShadow: '0 2px 4px rgba(0,0,0,.3)', ...st }} />;
+  const poster = (src, w, h, left, top, rot, e, dy, rotulo) => (
+    <div style={{ position: 'absolute', left, top: top + (1 - e) * dy, width: w, height: h, opacity: e, transform: `rotate(${rot}deg)`,
+      boxShadow: '16px 20px 30px rgba(0,0,0,.6)', background: '#fff', padding: 8 }}>
+      <Img src={img(src)} style={{ width: w - 16, height: h - 16, display: 'block', objectFit: 'cover' }} />
+      {fita({ left: -26, top: -6, transform: 'rotate(-35deg)' })}
+      {fita({ right: -26, top: -6, transform: 'rotate(35deg)' })}
+      {rotulo && <div style={{ position: 'absolute', left: 0, right: 0, bottom: -52, textAlign: 'center', fontFamily: TYPE, fontSize: 28, color: PAPEL, letterSpacing: 4 }}>{rotulo}</div>}
+    </div>
+  );
   return (
     <AbsoluteFill style={{ background: 'linear-gradient(180deg, #2b3440 0%, #1f262f 70%, #161b21 100%)', transform: `scale(${push})` }}>
-      {/* textura de parede: listras verticais suaves */}
       <AbsoluteFill style={{ background: 'repeating-linear-gradient(90deg, rgba(255,255,255,.025) 0 2px, rgba(0,0,0,0) 2px 46px)' }} />
-      {/* rodapé/mesa */}
+      {/* mesa */}
       <div style={{ position: 'absolute', left: 0, right: 0, top: 930, bottom: 0, background: '#3a2c20', boxShadow: '0 -6px 18px rgba(0,0,0,.5)' }} />
-      {/* pôster */}
-      <div style={{ position: 'absolute', left: 960 - 400 * ce - PoW / 2, top: 70 + (1 - pe) * -60, width: PoW, height: PoH, opacity: pe,
-        transform: `rotate(-2deg)`, boxShadow: '16px 20px 30px rgba(0,0,0,.6)', background: '#fff', padding: 10 }}>
-        <Img src={img('capa-1.jpg')} style={{ width: PoW - 20, height: PoH - 20, display: 'block' }} />
-        {fita({ left: -30, top: -6, transform: 'rotate(-35deg)' })}
-        {fita({ right: -30, top: -6, transform: 'rotate(35deg)' })}
-        <div style={{ position: 'absolute', left: 0, right: 0, bottom: -64, textAlign: 'center', fontFamily: TYPE, fontSize: 30, color: PAPEL, letterSpacing: 4 }}>PÓSTER A3</div>
+      {/* pôsteres novos (C e A, com título) */}
+      {poster('poster-C.jpg', 507, 760, 110, 50, -2, pe, -60, 'PÓSTER')}
+      {poster('poster-A.jpg', 380, 570, 650, 170, 2.5, ae, -60, null)}
+      {/* notebook com wallpaper desktop */}
+      <div style={{ position: 'absolute', left: 1000, top: 520 + (1 - ne) * 700, opacity: Math.min(1, ne * 3) }}>
+        <div style={{ width: 600, height: 376, background: '#0d0d0f', borderRadius: '14px 14px 4px 4px', padding: 12, border: '3px solid #3a3a40', boxShadow: '18px 22px 34px rgba(0,0,0,.6)' }}>
+          <Img src={img('desktop.jpg')} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+        </div>
+        <div style={{ width: 700, height: 24, marginLeft: -50, background: 'linear-gradient(180deg, #8a8a92, #55555c)', borderRadius: '2px 2px 18px 18px', boxShadow: '0 12px 20px rgba(0,0,0,.55)' }} />
       </div>
       {/* celular */}
-      <div style={{ position: 'absolute', left: 1300, top: 130 + (1 - ce) * 1150, width: 380, height: 800, borderRadius: 54, background: '#0d0d0f',
-        padding: 16, boxShadow: '20px 26px 40px rgba(0,0,0,.65)', transform: `rotate(${6 - 3 * ce}deg)`, border: '3px solid #3a3a40' }}>
-        <div style={{ width: '100%', height: '100%', borderRadius: 40, overflow: 'hidden', position: 'relative' }}>
+      <div style={{ position: 'absolute', left: 1640, top: 430 + (1 - ce) * 900, width: 220, height: 470, borderRadius: 38, background: '#0d0d0f',
+        padding: 11, boxShadow: '16px 20px 34px rgba(0,0,0,.65)', transform: `rotate(${6 - 3 * ce}deg)`, border: '3px solid #3a3a40' }}>
+        <div style={{ width: '100%', height: '100%', borderRadius: 28, overflow: 'hidden', position: 'relative' }}>
           <Img src={img('wallpaper-celular.jpg')} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-          <div style={{ position: 'absolute', top: 70, width: '100%', textAlign: 'center', fontFamily: 'Helvetica, Arial, sans-serif', fontSize: 74, color: 'rgba(255,255,255,.92)', fontWeight: 300 }}>21:30</div>
-          <div style={{ position: 'absolute', left: '50%', top: 14, width: 100, height: 26, borderRadius: 14, background: '#000', transform: 'translateX(-50%)' }} />
+          <div style={{ position: 'absolute', top: 44, width: '100%', textAlign: 'center', fontFamily: 'Helvetica, Arial, sans-serif', fontSize: 46, color: 'rgba(255,255,255,.92)', fontWeight: 300 }}>21:30</div>
+          <div style={{ position: 'absolute', left: '50%', top: 9, width: 64, height: 18, borderRadius: 10, background: '#000', transform: 'translateX(-50%)' }} />
         </div>
       </div>
-      <div style={{ position: 'absolute', left: 1490, top: 960, transform: 'translateX(-50%)', fontFamily: TYPE, fontSize: 30, color: PAPEL, letterSpacing: 4, opacity: Math.max(0, ce * 5 - 4) }}>6 FONDOS DE PANTALLA</div>
       {/* DE REGALO */}
-      <div style={{ position: 'absolute', left: 1000, top: 520 }}>
+      <div style={{ position: 'absolute', left: 900, top: 450 }}>
         <Carimbo f={f} t0={T.regalo} texto="DE REGALO" size={120} rot={-9} />
       </div>
     </AbsoluteFill>

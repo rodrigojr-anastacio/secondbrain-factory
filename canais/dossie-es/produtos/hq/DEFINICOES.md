@@ -19,13 +19,13 @@ Estas definições prevalecem sobre a PROPOSTA.md.
 
 ## CTA do vídeo (fechado 24/11)
 - **Genérico:** produzido uma vez, guardado na VPS e encaixado no meio de todo vídeo novo do Dossier. Não cita número de edição nem quantas histórias.
-- **Texto (aprovado):** "Si te están gustando estos expedientes, hay otros que nunca llegaron al canal: los guardamos para un cómic. Expedientes Secretos. Historias reales de espionaje, con un póster y fondos de pantalla de regalo. El enlace está en la descripción y en el comentario fijado."
-- **Duração:** no máximo 15 s.
+- **Texto (v2, 24/11, aprovado; genérico, sem quantidades; detalhes ficam na Hotmart e no comentário fixado):** "Si te están gustando estos expedientes, hay otros que nunca llegaron al canal: los guardamos para un cómic. Expedientes Secretos. Historias reales de espionaje y, de regalo, póster y fondos de pantalla para tu celular y tu computadora. El enlace está en la descripción y en el comentario fijado."
+- **Duração:** ~16 s (v2: voz 15,66 s a 1,25× via ffmpeg atempo; bloco 16,4 s; o Rodrigo aceitou em 24/11; a v1 era 15 s).
 - **Imagem, sincronizada com a fala:**
   - 0–4 s: 3 capas em leque, a #1 nítida, a #2 e a #3 com carimbo "CLASIFICADO" (SFX de carimbo).
   - 4–7 s: zoom na capa #1, que abre e folheia 2–3 páginas (ele gostou muito desta parte).
-  - 7–11 s: pôster na parede + celular com o wallpaper, carimbo "DE REGALO".
-  - 11–15 s: banner "ENLACE EN LA DESCRIPCIÓN · COMENTARIO FIJADO" com seta para baixo.
+  - 7–12,8 s (v2): pôsteres C e A na parede (arte nova da HQ #1), carimbo "DE REGALO", celular com wallpaper (em "celular") e notebook com wallpaper desktop (em "computadora").
+  - 12,8–16,4 s: banner "ENLACE EN LA DESCRIPCIÓN · COMENTARIO FIJADO" com seta para baixo.
 - As capas futuras levam "CLASIFICADO" para não prometer edições que ainda não existem. Quando sair o #2, troca-se só uma capa; a narração fica.
 
 ## Em aberto

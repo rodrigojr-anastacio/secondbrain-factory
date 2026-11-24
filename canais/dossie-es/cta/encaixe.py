@@ -5,7 +5,7 @@ Usado pelo tools/build.py de cada vídeo (016 em diante) e pelo tools/pacote.py.
   na montagem (timeline, .srt, capítulos e áudio idênticos aos de antes). Quem cria o ATIVO é o orquestrador.
 - posição: na troca de capítulo ("EXPEDIENTE N") cujo início fica mais perto de 37,5% da duração (faixa 35–40%),
   nunca nos 2 primeiros minutos nem no último minuto.
-- o bloco (cta-hq.mp4, 15 s) entra inteiro entre o fim do bloco anterior e o cartão do capítulo; a voz entra na faixa de
+- o bloco (cta-hq.mp4, duração lida do cta.json: 16,4 s na v2) entra inteiro entre o fim do bloco anterior e o cartão do capítulo; a voz entra na faixa de
   voz do vídeo (a trilha do vídeo faz ducking sozinha) e os SFX do bloco (cta-sfx.wav) na faixa de efeitos.
 Testes: CTA_ATIVO=<arquivo de teste> aponta para outro ATIVO (nunca crie o ATIVO de verdade num teste).
 """
