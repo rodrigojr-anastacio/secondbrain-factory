@@ -1,6 +1,6 @@
 import json,re
-# Glossário só para a VOZ (013 Núremberg): nomes em espanhol saem bem; conferir franceses/portugueses depois.
-G={"GRU":"ge erre u","KGB":"ka ge be","MI6":"eme i seis","OTAN":"ótan"}
+# Glossário só para a VOZ (016 MKUltra, 24/11/2026): respelling de nomes ingleses/siglas; o texto de tela fica em blocos.json.
+G={"MKUltra":"MK Ultra","MKSearch":"MK Sérch","KUBARK":"Kiúbark","Toughkenamon":"Tafkenéimon","Geschickter":"Géshikter","LSD":"ele ese de","fluothane":"fluotén"}
 b=json.load(open("blocos.json"))
 ks=sorted(G,key=len,reverse=True)
 pat=re.compile("(?<!\\w)("+"|".join(map(re.escape,ks))+")(?!\\w)")
