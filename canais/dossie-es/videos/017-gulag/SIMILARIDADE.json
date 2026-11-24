@@ -1,0 +1,268 @@
+{
+ "pasta": "canais/dossie-es/videos/017-gulag",
+ "roteiro": "canais/dossie-es/videos/017-gulag/blocos.json",
+ "idioma": "es",
+ "blocos": 63,
+ "nota": 6.2,
+ "veredito": "ok",
+ "limites": {
+  "ATENCAO": 18,
+  "COPIA": 30
+ },
+ "limiar_gemeo": 0.3,
+ "custo_traducao_usd": 0.0,
+ "blocos_consenso_manada": [
+  12,
+  60
+ ],
+ "referencias": [
+  {
+   "cobertura": 0.06349206349206349,
+   "ordem": 1.0,
+   "ngramas": 0.013541666666666667,
+   "sim_media": 0.1601593484038765,
+   "gemeos": 4,
+   "blocos": 63,
+   "posicoes": [
+    [
+     8,
+     27
+    ],
+    [
+     12,
+     34
+    ],
+    [
+     15,
+     44
+    ],
+    [
+     60,
+     180
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 60,
+     "cos": 0.53,
+     "nosso": "La Lista. Moscú, veintiocho de diciembre de dos mil veintiuno. El Tribunal Supremo de Rusia ordena disolver Memorial, la organización que pasó décadas reuniendo los nombres de las víctimas de la represión soviética. Al año siguiente, Memorial comparte el Premi",
+     "ref": "28 de diciembre de 2021, el Tribunal Supremo de Rusia ordena la disolución de Memorial Internacional. El 7 de octubre de 2022, Memorial comparte el Premio Nobel de la Paz."
+    },
+    {
+     "bloco": 12,
+     "cos": 0.45,
+     "nosso": "El canal une el mar Blanco con el Báltico: doscientos veintisiete kilómetros, abiertos en unos veinte meses por más de cien mil presos. Se inaugura el dos de agosto de mil novecientos treinta y tres.",
+     "ref": "Solovki, se convierte en jefe de obras de un canal que une el mar Blanco con el Báltico. Se excava por presos en unos 20 meses. La cantidad de trabajadores se estima entre 100 000"
+    },
+    {
+     "bloco": 8,
+     "cos": 0.38,
+     "nosso": "El veinticinco de abril de ese año, una orden de la policía política crea una administración para dirigirlos. Pronto recibe su nombre definitivo: Dirección General de Campos. Por sus siglas en ruso, Gulag.",
+     "ref": "25 de abril de 1930, la policía secreta crea una nueva administración para dirigirlos a todos. Para noviembre, ya tiene el nombre que le sobrevivirá: Gulag. El 7 de agosto de 1932, una"
+    },
+    {
+     "bloco": 15,
+     "cos": 0.31,
+     "nosso": "El Oro. Bahía de Nagáyevo, febrero de mil novecientos treinta y dos. Eduard Berzin desembarca en Kolimá, en el extremo noreste soviético, para dirigir una nueva empresa estatal: Dalstrói.",
+     "ref": "noviembre de 1931 se crea una organización para extraerlo, Dalstroy. El 2 de febrero de 1932, su jefe llega a la bahía de Nagaev. Se llama Eduard Berzin, es letón"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-owjRGXJ9v_s.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 2984,
+   "nota": 6.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.015873015873015872,
+   "ordem": 0.0,
+   "ngramas": 0.015625,
+   "sim_media": 0.14375687738920068,
+   "gemeos": 1,
+   "blocos": 63,
+   "posicoes": [
+    [
+     60,
+     105
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 60,
+     "cos": 0.49,
+     "nosso": "La Lista. Moscú, veintiocho de diciembre de dos mil veintiuno. El Tribunal Supremo de Rusia ordena disolver Memorial, la organización que pasó décadas reuniendo los nombres de las víctimas de la represión soviética. Al año siguiente, Memorial comparte el Premi",
+     "ref": "fosas comunes para que cada víctima tenga al menos un registro. En diciembre de 2021 el Tribunal Supremo de Rusia ordena disolverla. 10 meses después Memorial recibe el Premio Nobel"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-D_MQCSCKG6c.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 1813,
+   "nota": 2.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.031746031746031744,
+   "ordem": 0.0,
+   "ngramas": 0.004166666666666667,
+   "sim_media": 0.1581818931232701,
+   "gemeos": 2,
+   "blocos": 63,
+   "posicoes": [
+    [
+     12,
+     46
+    ],
+    [
+     21,
+     96
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 21,
+     "cos": 0.36,
+     "nosso": "La comida dependía del trabajo. Según la historiadora Anne Applebaum, la idea venía de Solovkí: en trabajo pesado, quien cumplía la norma podía recibir ochocientos gramos de pan y ochenta gramos de carne. A los presos clasificados como inválidos les tocaba la ",
+     "ref": "pan depende de ella. Un preso que cumple la norma recibe alrededor de un kilogramo de pan. Un preso que cumple mucho menos recibe apenas 400 gramos, aunque las cantidades cambian"
+    },
+    {
+     "bloco": 12,
+     "cos": 0.31,
+     "nosso": "El canal une el mar Blanco con el Báltico: doscientos veintisiete kilómetros, abiertos en unos veinte meses por más de cien mil presos. Se inaugura el dos de agosto de mil novecientos treinta y tres.",
+     "ref": "1931, Stalin decide construir un canal que una el mar Blanco con el lago Onega y el Báltico. Las obras del Canal del mar Blanco-Báltico, de 227 km de longitud,"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-p4bn_AL1yUM.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3729,
+   "nota": 2.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.015873015873015872,
+   "ordem": 0.0,
+   "ngramas": 0.0020833333333333333,
+   "sim_media": 0.12347824875510946,
+   "gemeos": 1,
+   "blocos": 63,
+   "posicoes": [
+    [
+     12,
+     185
+    ]
+   ],
+   "trechos": [
+    {
+     "bloco": 12,
+     "cos": 0.31,
+     "nosso": "El canal une el mar Blanco con el Báltico: doscientos veintisiete kilómetros, abiertos en unos veinte meses por más de cien mil presos. Se inaugura el dos de agosto de mil novecientos treinta y tres.",
+     "ref": "Gulag. En 1931, miles de presos fueron trasladados a las zonas de construcción. Allí, los presos excavaron un canal de 30 m de ancho para el Canal del Mar Blanco-Báltico. El proyecto"
+    }
+   ],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-bZ0lQ4IimPQ.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3959,
+   "nota": 1.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.00625,
+   "sim_media": 0.16501560710104465,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-ik6DucfgIXw.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 13917,
+   "nota": 0.5,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0020833333333333333,
+   "sim_media": 0.12641355222887882,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-FhZk77uDbbw.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2893,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0020833333333333333,
+   "sim_media": 0.11508897220855328,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-brNfTAePRyw.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 3233,
+   "nota": 0.2,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0010416666666666667,
+   "sim_media": 0.10645688261109172,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-MPhiY6e7zSQ.txt",
+   "idioma_ref": "es",
+   "traduzido": false,
+   "palavras_ref": 2013,
+   "nota": 0.1,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.11000025466129129,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-j1D_MedyJ0s.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 3151,
+   "nota": 0.0,
+   "veredito": "ok"
+  },
+  {
+   "cobertura": 0.0,
+   "ordem": 0.0,
+   "ngramas": 0.0,
+   "sim_media": 0.0,
+   "gemeos": 0,
+   "blocos": 63,
+   "posicoes": [],
+   "trechos": [],
+   "ref": "canais/dossie-es/videos/017-gulag/ref/manada-ypULH1089A4.txt",
+   "idioma_ref": "en",
+   "traduzido": true,
+   "palavras_ref": 0,
+   "nota": 0.0,
+   "veredito": "ok"
+  }
+ ]
+}
