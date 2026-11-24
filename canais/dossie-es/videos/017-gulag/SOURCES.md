@@ -30,7 +30,7 @@ Nenhum vídeo do YouTube foi usado como fonte. "Wikipedia" = só pista; onde cit
 ## 5. Los Marineros
 - Tripulações em abr/1939 (107+101+42), Svanetia (95 em julho + 34 em agosto = 129), ordem de Beria de 26/06/1941: Iordache, "Exilio de pilotos y marinos en la URSS" https://www.mve2gm.com/paises/bando-aliado/u-r-s-s-/exilio-de-pilotos-y-marinos-en-la-urss/ ; entrevista Sinpermiso https://www.sinpermiso.info/textos/de-la-guerra-civil-espaola-al-infierno-blanco-del-gulag-entrevista ; Eurasia1945 https://www.eurasia1945.com/acontecimientos/crimenes/espanoles-en-los-gulags/
 - Livro: García Santamaría e Sánchez Illán, Marinos republicanos en los campos de concentración soviéticos (1938-1956), Catarata, 2025.
-- José Plata Loira (nov/1941): não verificado em fonte lida.
+- (v2) José Plata Loira cortado (sem fonte lida). No lugar: "más de veinte republicanos fallecen en los campos antes de 1954": Iordache, mve2gm (texto: 23 republicanos mortos nos campos entre jun/1941 e mar/1954; tabela: 31) → "más de veinte" cobre as duas.
 
 ## 6. Los Pilotos
 - Kirovabad: 157 alunos (PCE 1953) a ~190 (Iordache); expedições set/out 1938 e jan 1939; 8 presos jan/1940 (4 sobreviventes); Federico Gonzalo, 15 anos, jun/1941: mve2gm (Iordache, acima).
@@ -43,7 +43,7 @@ Nenhum vídeo do YouTube foi usado como fonte. "Wikipedia" = só pista; onde cit
 ## 8. La Embajada
 - Evelio Vadillo (La Razón, resenha de Woldenberg sobre Enrique Montes García, Veinte años en el Gulag. El caso de Vadillo (1935-1955), 2022): https://www.razon.com.mx/el-cultural/engranes-totalitario-523110/
 
-## 9. El Memorándum
+## 9. Las Obras (v2: abre em 12/03/1953, obras canceladas)
 - Memorando de Beria (2.526.402; 438.788 mulheres; 31.181 menores), 12/03/1953, anistia 27/03, 16/06/1953: Applebaum, Gulag, cap. 23 https://erenow.org/modern/gulagahistoryanneapplebaum/25.php ; https://en.wikipedia.org/wiki/Amnesty_of_1953
 - Salekhard–Igarka (3,3 bilhões de rublos): Khlevniuk.
 - Kengir 1954: https://en.wikipedia.org/wiki/Kengir_uprising
@@ -58,7 +58,8 @@ Nenhum vídeo do YouTube foi usado como fonte. "Wikipedia" = só pista; onde cit
 - Octavio Paz, "Polvos de aquellos lodos", Plural nº 30, março de 1974: https://elnacional.com/2023/04/frente-a-frente-octavio-paz-y-aleksandr-solzhenitsyn
 - Ordem de 25/01/1960 (MVD nº 20): https://gulag.cz/en/article/01c6505d-4956-4862-bf14-cbf3f0274f13 ; campos políticos: https://en.wikipedia.org/wiki/Perm-36
 
-## Cierre. La Lista
+## Cierre. Las Fotos (v2)
+- Carlos Pérez de Rozas fotografou a chegada do Semíramis em 02/04/1954; fotos no Arxiu Fotogràfic de Barcelona: FATOS-B §6 (Arxiu Fotogràfic de Barcelona, fundo Pérez de Rozas, data 02/04/1954); https://www.eldiario.es/cultura/perez-rozas-fotografos-barcelona-xx_1_2382239.html
 - Memorial liquidada 28/12/2021; Nobel 2022: https://www.aljazeera.com/news/2021/12/28/russia-supreme-court-orders-closure-of-leading-rights-group ; https://nobelprize.org/prizes/peace/2022/memorial/speedread
 
 ## Anedotas/cenas fora da manada
@@ -66,15 +67,17 @@ Conferido com grep em `ref/manada-*.txt` (7) e `ref-es/manada-*.txt` (3), 23/11/
 
 | Expediente | Objeto/cena | Aparece na manada? |
 |---|---|---|
-| 1 El Decreto | decreto secreto 11/07/1929, "50 mil vagas" vs 180 mil | Parcial: o decreto de 27/06/1929 aparece só em The Full Record (2:33); 11/07 e a cifra 50 mil → 180 mil não aparecem |
+| 1 El Decreto (v2) | decreto de 11/07/1929 com a tarefa "colonizar e explorar" e o plano de 50 mil vagas | Parcial: o decreto de 1929 e os 180 mil aparecem no Full Record (correção do crivo de ângulo r1); na v2 saem os 180 mil e a ordem de 25/04/1930; ficam a tarefa e os 50 mil (não aparecem) |
 | 2 El Libro | ex-vice-chefe do Gulag e o livro de 36 autores que "deixa de circular" | O livro de 1934 e os ~120 escritores aparecem (Uncovered History 4:57; Tinta y Ceniza 5:24; Belomorkanal na carteira de cigarros). Firin e a retirada do livro NÃO aparecem (grep "Firin" só acha "firing") |
-| 3 El Oro | desembarque em Nagáyevo de Berzin, 1,9 t → 51,5 t | Nagáyevo e Berzin aparecem (Atrium 0:32, Uncovered, SLICE MEGA 41:22/43:27); a comparação 1,9 t vs 51,5 t NÃO aparece (MEGA fala "52 t/ano") |
+| 3 El Oro (v2) | balanço de 1937 (51,5 t) e a prisão de Berzin em dez/1937; Nagáyevo/desembarque cortados | Nagáyevo e Berzin aparecem (Atrium 0:32, Uncovered, SLICE MEGA 41:22/43:27); a comparação 1,9 t vs 51,5 t NÃO aparece (MEGA fala "52 t/ano") |
 | 4 La Norma | a tabela de ração, tufta, salário de 1950 | Norma, ração e tufta aparecem (MEGA 39:53; Uncovered 9:16; Tinta); salário de 1950 e "mais de um quarto" NÃO aparecem |
 | 5 Los Marineros | tripulações dos mercantes, ordem de Beria a Norilsk | NÃO aparece |
 | 6 Los Pilotos | Kirovabad, empréstimo recusado | NÃO aparece |
 | 7 El Número | Krasny Bor, número 12123, olho perdido | NÃO aparece |
 | 8 La Embajada | camponês na embaixada do México, Vadillo | NÃO aparece |
-| 9 El Memorándum | memorando de Beria, vias abandonadas | "~2,5 milhões" aparece (Full Record 11:44; Uncovered 14:58) e a "Estrada Morta" abandonada em 1953 (Uncovered 15:12); o memorando e seus recortes (mulheres, menores) NÃO aparecem |
+| 9 Las Obras (v2) | 12/03/1953, mais de 20 obras canceladas; memorando em 1 frase; vias abandonadas cortadas | "~2,5 milhões" aparece (Full Record 11:44; Uncovered 14:58) e a "Estrada Morta" abandonada em 1953 (Uncovered 15:12); o memorando e seus recortes (mulheres, menores) NÃO aparecem |
 | 10 El Barco | bandeira liberiana vista do trem, 286 | NÃO aparece (grep "Semíramis", "bandera" = 0) |
 | 11 La Entrevista | Directísimo, Íñigo, Marsé | NÃO aparece (Solzhenitsyn aparece muito na manada, mas nada sobre TVE 1976 nem Marsé) |
-| Cierre La Lista | Memorial, Nobel; lista dos passageiros | Memorial/Nobel aparecem (6 transcrições); lista dos passageiros NÃO aparece |
+| Cierre Las Fotos (v2) | o fotógrafo Pérez de Rozas no cais e o arquivo das fotos; Memorial em 1 frase, sem Nobel | Pérez de Rozas NÃO aparece; Memorial aparece (fica em 1 frase) |
+
+**Contagem (v2):** expedientes cuja cena de abertura/objeto não aparece na manada: 1 (tarefa + 50 mil), 2 (Firin), 4 (salário de 1950), 5, 6, 7, 8, 10, 11 = 9 de 11 (82%); com objeto do consenso: 3 (ouro/Berzin, aberto no balanço) e 9 (fim de 1953, aberto nas obras). Meta da bíblia ≥ 50%.

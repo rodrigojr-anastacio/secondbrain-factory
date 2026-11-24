@@ -4,7 +4,7 @@ Promessa: El Gulag por dentro como una empresa del Estado soviético que funcion
 
 Títulos: T1 GULAG: la empresa de Stalin que necesitaba presos / T2 Cómo funcionaba el Gulag por dentro: plan, oro y mano de obra presa / T3 Republicanos y Franquistas, Presos en el Mismo Gulag | Expedientes de Stalin
 
-Gerado por `roteiro.py` (fonte única; edite lá). 1922 palavras, ~13:33.9 estimados a 143 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 1899 palavras, ~13:24.3 estimados a 143 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 ## Hook
@@ -15,18 +15,18 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N003]** Unos habían luchado por Franco. Otros, contra él. Y durante años compartieron los mismos campos.
 
-**[N004]** Esta es TODA la historia del Gulag: la empresa de Stalin que necesitaba presos. Y la de los españoles que acabaron trabajando para ella. Para entender cómo llegaron ahí, hay que abrir los papeles del propio Gulag.
+**[N004]** Esta es TODA la historia del Gulag: la empresa de Stalin que necesitaba presos. Y la de los españoles que acabaron trabajando para ella. Para entender cómo llegaron ahí, hay que abrir sus papeles.
 
 
 ## 1. El Decreto
 
-**[N005]** El Decreto. Moscú, once de julio de mil novecientos veintinueve. El gobierno soviético aprueba un decreto secreto.
+**[N005]** El Decreto. Moscú, once de julio de mil novecientos veintinueve. Un decreto secreto del gobierno soviético fija una tarea para los presos con penas largas.
 
-**[N006]** Los condenados a más de tres años irán a campos de trabajo en regiones remotas. Su tarea: colonizar esas tierras y explotar sus recursos naturales.
+**[N006]** No basta con encerrarlos. Irán a regiones remotas, casi vacías, para colonizarlas y explotar sus recursos naturales: madera, carbón, metales.
 
-**[N007]** Hasta entonces, la policía política tenía un solo gran campo, en las islas Solovkí. El plan preveía cincuenta mil plazas. El primero de enero de mil novecientos treinta ya hay casi ciento ochenta mil presos.
+**[N007]** El plan es modesto. Campos pequeños, cincuenta mil plazas para todo el país. Es la primera cifra de la empresa. Y se queda corta desde el primer invierno.
 
-**[N008]** El veinticinco de abril de ese año, una orden de la policía política crea una administración para dirigirlos. Pronto recibe su nombre definitivo: Dirección General de Campos. Por sus siglas en ruso, Gulag.
+**[N008]** Al año siguiente, la administración que dirige esos campos recibe su nombre definitivo. Por sus siglas en ruso: Gulag, Dirección General de Campos.
 
 **[N009]** Los historiadores discuten si se arrestaba para llenar los campos. Lo que dicen los papeles es que el plan contaba a los presos como mano de obra. Y su primera gran obra tuvo hasta un libro.
 
@@ -41,18 +41,18 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N013]** Los registros del propio Gulag anotan unos doce mil fallecidos. Algunas estimaciones de historiadores duplican esa cifra. Ese mismo mes, una brigada de unos ciento veinte escritores recorre la obra para celebrarla.
 
-**[N014]** Pero el canal es poco profundo y los barcos grandes no pasan. En mil novecientos cuarenta funciona a menos de la mitad de su capacidad. Para entonces, el Gulag ya tenía otra fuente de ingresos en el extremo oriente: el oro.
+**[N014]** Pero el canal es poco profundo y los barcos grandes no pasan. En mil novecientos cuarenta funciona a menos de la mitad de su capacidad. Y la purga que se llevó a Firin alcanzó también al jefe que mejores cifras entregaba.
 
 
 ## 3. El Oro
 
-**[N015]** El Oro. Bahía de Nagáyevo, febrero de mil novecientos treinta y dos. Eduard Berzin desembarca en Kolimá, en el extremo noreste soviético, para dirigir una nueva empresa estatal: Dalstrói.
+**[N015]** El Oro. Magadán, diciembre de mil novecientos treinta y siete. Dalstrói, la empresa del Gulag en Kolimá, en el extremo noreste soviético, cierra el año con cincuenta y una toneladas y media de oro.
 
-**[N016]** Su encargo: sacar oro de una tierra helada y sin caminos. La mano de obra llega en barco: presos.
+**[N016]** Ese mismo mes, su director, Eduard Berzin, viaja a Moscú. Lo arrestan el diecinueve de diciembre. Lo fusilan al año siguiente.
 
-**[N017]** Entre mil novecientos veintiocho y mil novecientos treinta y tres, la región había dado menos de dos toneladas de oro. En mil novecientos treinta y siete, Dalstrói entrega cincuenta y una toneladas y media.
+**[N017]** Entre mil novecientos veintiocho y mil novecientos treinta y tres, la región había dado menos de dos toneladas. Lo que cambió fue la mano de obra. Llegaba en barco: presos.
 
-**[N018]** A finales de mil novecientos treinta y dos trabajan allí unos once mil presos. A comienzos de mil novecientos cuarenta, más de ciento noventa mil. Berzin no llega a verlo: lo arrestan a finales de mil novecientos treinta y siete y lo fusilan al año siguiente.
+**[N018]** A finales de mil novecientos treinta y dos trabajan allí unos once mil. A comienzos de mil novecientos cuarenta, más de ciento noventa mil.
 
 **[N019]** En Moscú, los informes se medían en toneladas. Pero había una pregunta que ningún informe respondía: ¿era rentable? Dentro de los campos, la respuesta empezaba en una tabla.
 
@@ -65,7 +65,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N022]** El preso débil producía menos, comía menos y se debilitaba más. Para sobrevivir, presos y jefes inventaron la tufta: informes de producción inflados. El plan se cumplía en el papel.
 
-**[N023]** Según el historiador Oleg Jlevniuk, los presos rendían bastante menos que los trabajadores libres. Y a comienzos de los años cincuenta, más de la cuarta parte no alcanzaba la norma. El salario fue un último intento.
+**[N023]** Según el historiador Oleg Jlevniuk, a comienzos de los años cincuenta más de la cuarta parte de los presos que trabajaban a destajo no alcanzaba la norma. El salario fue un último intento.
 
 **[N024]** En total, según el directorio de la organización rusa Memorial que cita Applebaum, hubo al menos cuatrocientos setenta y seis complejos de campos. En algunos acabaron españoles que habían llegado como aliados.
 
@@ -80,7 +80,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N028]** A finales de junio de mil novecientos cuarenta y uno, días después de la invasión alemana, Lavrenti Beria ordena internar en Norilsk a los marineros y pilotos españoles que pedían salir. Ninguno fue juzgado.
 
-**[N029]** Norilsk, por encima del círculo polar, era una mina de níquel del Gulag. Según investigadores gallegos, el marinero José Plata Loira fallece allí en noviembre de ese año.
+**[N029]** Norilsk, por encima del círculo polar, era una mina de níquel del Gulag. Según Iordache, más de veinte republicanos españoles fallecen en los campos antes de mil novecientos cincuenta y cuatro.
 
 **[N030]** Si te interesan estos expedientes, suscríbete. Porque con los marineros cayeron también los alumnos de una escuela de pilotos.
 
@@ -124,13 +124,13 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 **[N045]** Vadillo sale dos años después de un cambio que lo movió todo en Moscú: la muerte de Stalin.
 
 
-## 9. El Memorándum
+## 9. Las Obras
 
-**[N046]** El Memorándum. Moscú, marzo de mil novecientos cincuenta y tres. Stalin muere el día cinco. Ese mes, Lavrenti Beria envía a la dirección del partido una cifra: más de dos millones y medio de presos.
+**[N046]** Las Obras. Moscú, doce de marzo de mil novecientos cincuenta y tres. Una semana después de la muerte de Stalin, Lavrenti Beria cancela más de veinte grandes obras del Gulag.
 
-**[N047]** El doce de marzo, Beria cancela más de veinte grandes obras. Entre ellas, un ferrocarril por la tundra ártica, entre Salejard e Ígarka. Las vías se quedaron allí, abandonadas.
+**[N047]** Canales, presas, un ferrocarril por la tundra ártica entre Salejard e Ígarka. Ese mes, Beria informa a la dirección del partido de cuántos presos hay: más de dos millones y medio.
 
-**[N048]** El veintisiete de marzo, una amnistía libera a cerca de un millón de presos, casi todos por delitos comunes. En junio, según Applebaum, Beria dice querer liquidar el trabajo forzado por su ineficiencia económica.
+**[N048]** El veintisiete de marzo, una amnistía libera a cerca de un millón, casi todos por delitos comunes. En junio, según Applebaum, Beria dice querer liquidar el trabajo forzado por su ineficiencia económica.
 
 **[N049]** Esa fue la respuesta del propio régimen a la pregunta del oro: la empresa no era rentable. Los presos políticos siguen dentro. En mil novecientos cincuenta y cuatro se rebelan en Kenguir, hasta que llegan los tanques. Unos meses antes, un barco había ido a buscar a los españoles.
 
@@ -158,15 +158,17 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish).
 
 **[N058]** En el estudio, Solzhenitsyn les dice a los españoles, textualmente: «Vosotros no sabéis qué es el comunismo». Parte de la prensa de izquierda lo ataca. El novelista Juan Marsé lo llama «chorizo de las letras»: ladrón de las letras.
 
-**[N059]** Años después, en Rusia, alguien empezaría a reunir nombres.
+**[N059]** De los españoles que volvieron en mil novecientos cincuenta y cuatro quedaba otra prueba, más callada: unas fotos.
 
 
-## Cierre. La Lista
+## Cierre. Las Fotos
 
-**[N060]** La Lista. Moscú, veintiocho de diciembre de dos mil veintiuno. El Tribunal Supremo de Rusia ordena disolver Memorial, la organización que pasó décadas reuniendo los nombres de las víctimas de la represión soviética. Al año siguiente, Memorial comparte el Premio Nobel de la Paz.
+**[N060]** Las Fotos. Barcelona, dos de abril de mil novecientos cincuenta y cuatro. En el muelle, entre la multitud, el fotógrafo Carlos Pérez de Rozas retrata a los que bajan del Semíramis.
 
-**[N061]** En Barcelona, en mil novecientos cincuenta y cuatro, también hubo nombres: los de los pasajeros del Semíramis. Republicanos y divisionarios, en el mismo barco.
+**[N061]** Hoy esas fotos están en el Archivo Fotográfico de Barcelona. Muestran a los que volvieron, hombres de los dos bandos, bajando del mismo barco.
 
-**[N062]** Los historiadores discuten si el Gulag buscaba culpables o brazos. Sus papeles contaban brazos. Y los encontró en todas partes: entre sus enemigos, entre sus aliados y entre los que solo querían volver a casa.
+**[N062]** En Rusia, la organización Memorial pasó décadas reuniendo los nombres de las víctimas. En dos mil veintiuno, la justicia rusa la disolvió.
 
-**[N063]** Y tú, ¿sabías que hubo españoles en el Gulag? ¿Conoces alguna historia así en tu familia? Déjalo en los comentarios.
+**[N063]** Los historiadores discuten si el Gulag buscaba culpables o brazos. Sus papeles contaban brazos. Y los encontró en todas partes: entre sus enemigos, entre sus aliados y entre los que solo querían volver a casa.
+
+**[N064]** Y tú, ¿sabías que hubo españoles en el Gulag? ¿Conoces alguna historia así en tu familia? Déjalo en los comentarios.

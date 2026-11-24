@@ -16,27 +16,27 @@
  },
  {
   "id": "N004",
-  "texto": "Esta es TODA la historia del Gulag: la empresa de Stalin que necesitaba presos. Y la de los españoles que acabaron trabajando para ella. Para entender cómo llegaron ahí, hay que abrir los papeles del propio Gulag.",
+  "texto": "Esta es TODA la historia del Gulag: la empresa de Stalin que necesitaba presos. Y la de los españoles que acabaron trabajando para ella. Para entender cómo llegaron ahí, hay que abrir sus papeles.",
   "ideia": true
  },
  {
   "id": "N005",
-  "texto": "El Decreto. Moscú, once de julio de mil novecientos veintinueve. El gobierno soviético aprueba un decreto secreto.",
+  "texto": "El Decreto. Moscú, once de julio de mil novecientos veintinueve. Un decreto secreto del gobierno soviético fija una tarea para los presos con penas largas.",
   "ideia": false
  },
  {
   "id": "N006",
-  "texto": "Los condenados a más de tres años irán a campos de trabajo en regiones remotas. Su tarea: colonizar esas tierras y explotar sus recursos naturales.",
+  "texto": "No basta con encerrarlos. Irán a regiones remotas, casi vacías, para colonizarlas y explotar sus recursos naturales: madera, carbón, metales.",
   "ideia": false
  },
  {
   "id": "N007",
-  "texto": "Hasta entonces, la policía política tenía un solo gran campo, en las islas Solovkí. El plan preveía cincuenta mil plazas. El primero de enero de mil novecientos treinta ya hay casi ciento ochenta mil presos.",
+  "texto": "El plan es modesto. Campos pequeños, cincuenta mil plazas para todo el país. Es la primera cifra de la empresa. Y se queda corta desde el primer invierno.",
   "ideia": false
  },
  {
   "id": "N008",
-  "texto": "El veinticinco de abril de ese año, una orden de la policía política crea una administración para dirigirlos. Pronto recibe su nombre definitivo: Dirección General de Campos. Por sus siglas en ruso, Gulag.",
+  "texto": "Al año siguiente, la administración que dirige esos campos recibe su nombre definitivo. Por sus siglas en ruso: Gulag, Dirección General de Campos.",
   "ideia": false
  },
  {
@@ -66,27 +66,27 @@
  },
  {
   "id": "N014",
-  "texto": "Pero el canal es poco profundo y los barcos grandes no pasan. En mil novecientos cuarenta funciona a menos de la mitad de su capacidad. Para entonces, el Gulag ya tenía otra fuente de ingresos en el extremo oriente: el oro.",
+  "texto": "Pero el canal es poco profundo y los barcos grandes no pasan. En mil novecientos cuarenta funciona a menos de la mitad de su capacidad. Y la purga que se llevó a Firin alcanzó también al jefe que mejores cifras entregaba.",
   "ideia": true
  },
  {
   "id": "N015",
-  "texto": "El Oro. Bahía de Nagáyevo, febrero de mil novecientos treinta y dos. Eduard Berzin desembarca en Kolimá, en el extremo noreste soviético, para dirigir una nueva empresa estatal: Dalstrói.",
+  "texto": "El Oro. Magadán, diciembre de mil novecientos treinta y siete. Dalstrói, la empresa del Gulag en Kolimá, en el extremo noreste soviético, cierra el año con cincuenta y una toneladas y media de oro.",
   "ideia": false
  },
  {
   "id": "N016",
-  "texto": "Su encargo: sacar oro de una tierra helada y sin caminos. La mano de obra llega en barco: presos.",
+  "texto": "Ese mismo mes, su director, Eduard Berzin, viaja a Moscú. Lo arrestan el diecinueve de diciembre. Lo fusilan al año siguiente.",
   "ideia": false
  },
  {
   "id": "N017",
-  "texto": "Entre mil novecientos veintiocho y mil novecientos treinta y tres, la región había dado menos de dos toneladas de oro. En mil novecientos treinta y siete, Dalstrói entrega cincuenta y una toneladas y media.",
+  "texto": "Entre mil novecientos veintiocho y mil novecientos treinta y tres, la región había dado menos de dos toneladas. Lo que cambió fue la mano de obra. Llegaba en barco: presos.",
   "ideia": false
  },
  {
   "id": "N018",
-  "texto": "A finales de mil novecientos treinta y dos trabajan allí unos once mil presos. A comienzos de mil novecientos cuarenta, más de ciento noventa mil. Berzin no llega a verlo: lo arrestan a finales de mil novecientos treinta y siete y lo fusilan al año siguiente.",
+  "texto": "A finales de mil novecientos treinta y dos trabajan allí unos once mil. A comienzos de mil novecientos cuarenta, más de ciento noventa mil.",
   "ideia": false
  },
  {
@@ -111,7 +111,7 @@
  },
  {
   "id": "N023",
-  "texto": "Según el historiador Oleg Jlevniuk, los presos rendían bastante menos que los trabajadores libres. Y a comienzos de los años cincuenta, más de la cuarta parte no alcanzaba la norma. El salario fue un último intento.",
+  "texto": "Según el historiador Oleg Jlevniuk, a comienzos de los años cincuenta más de la cuarta parte de los presos que trabajaban a destajo no alcanzaba la norma. El salario fue un último intento.",
   "ideia": false
  },
  {
@@ -141,7 +141,7 @@
  },
  {
   "id": "N029",
-  "texto": "Norilsk, por encima del círculo polar, era una mina de níquel del Gulag. Según investigadores gallegos, el marinero José Plata Loira fallece allí en noviembre de ese año.",
+  "texto": "Norilsk, por encima del círculo polar, era una mina de níquel del Gulag. Según Iordache, más de veinte republicanos españoles fallecen en los campos antes de mil novecientos cincuenta y cuatro.",
   "ideia": true
  },
  {
@@ -226,17 +226,17 @@
  },
  {
   "id": "N046",
-  "texto": "El Memorándum. Moscú, marzo de mil novecientos cincuenta y tres. Stalin muere el día cinco. Ese mes, Lavrenti Beria envía a la dirección del partido una cifra: más de dos millones y medio de presos.",
+  "texto": "Las Obras. Moscú, doce de marzo de mil novecientos cincuenta y tres. Una semana después de la muerte de Stalin, Lavrenti Beria cancela más de veinte grandes obras del Gulag.",
   "ideia": false
  },
  {
   "id": "N047",
-  "texto": "El doce de marzo, Beria cancela más de veinte grandes obras. Entre ellas, un ferrocarril por la tundra ártica, entre Salejard e Ígarka. Las vías se quedaron allí, abandonadas.",
+  "texto": "Canales, presas, un ferrocarril por la tundra ártica entre Salejard e Ígarka. Ese mes, Beria informa a la dirección del partido de cuántos presos hay: más de dos millones y medio.",
   "ideia": false
  },
  {
   "id": "N048",
-  "texto": "El veintisiete de marzo, una amnistía libera a cerca de un millón de presos, casi todos por delitos comunes. En junio, según Applebaum, Beria dice querer liquidar el trabajo forzado por su ineficiencia económica.",
+  "texto": "El veintisiete de marzo, una amnistía libera a cerca de un millón, casi todos por delitos comunes. En junio, según Applebaum, Beria dice querer liquidar el trabajo forzado por su ineficiencia económica.",
   "ideia": false
  },
  {
@@ -291,26 +291,31 @@
  },
  {
   "id": "N059",
-  "texto": "Años después, en Rusia, alguien empezaría a reunir nombres.",
+  "texto": "De los españoles que volvieron en mil novecientos cincuenta y cuatro quedaba otra prueba, más callada: unas fotos.",
   "ideia": true
  },
  {
   "id": "N060",
-  "texto": "La Lista. Moscú, veintiocho de diciembre de dos mil veintiuno. El Tribunal Supremo de Rusia ordena disolver Memorial, la organización que pasó décadas reuniendo los nombres de las víctimas de la represión soviética. Al año siguiente, Memorial comparte el Premio Nobel de la Paz.",
+  "texto": "Las Fotos. Barcelona, dos de abril de mil novecientos cincuenta y cuatro. En el muelle, entre la multitud, el fotógrafo Carlos Pérez de Rozas retrata a los que bajan del Semíramis.",
   "ideia": false
  },
  {
   "id": "N061",
-  "texto": "En Barcelona, en mil novecientos cincuenta y cuatro, también hubo nombres: los de los pasajeros del Semíramis. Republicanos y divisionarios, en el mismo barco.",
+  "texto": "Hoy esas fotos están en el Archivo Fotográfico de Barcelona. Muestran a los que volvieron, hombres de los dos bandos, bajando del mismo barco.",
   "ideia": false
  },
  {
   "id": "N062",
+  "texto": "En Rusia, la organización Memorial pasó décadas reuniendo los nombres de las víctimas. En dos mil veintiuno, la justicia rusa la disolvió.",
+  "ideia": false
+ },
+ {
+  "id": "N063",
   "texto": "Los historiadores discuten si el Gulag buscaba culpables o brazos. Sus papeles contaban brazos. Y los encontró en todas partes: entre sus enemigos, entre sus aliados y entre los que solo querían volver a casa.",
   "ideia": true
  },
  {
-  "id": "N063",
+  "id": "N064",
   "texto": "Y tú, ¿sabías que hubo españoles en el Gulag? ¿Conoces alguna historia así en tu familia? Déjalo en los comentarios.",
   "ideia": false
  }
