@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS ops.fila_jobs (
     prioridade   int  NOT NULL DEFAULT 5,
     prazo        timestamptz,
     depende_de   text,
-    status       text NOT NULL DEFAULT 'fila' CHECK (status IN ('fila','rodando','pausado_limite','concluido','bloqueado','falhou','cancelado')),
+    status       text NOT NULL DEFAULT 'fila' CHECK (status IN ('fila','rodando','pausado_limite','pausado_codex','concluido','bloqueado','falhou','cancelado')),
     unit         text,
     session_id   text,
     retomar_em   timestamptz,
@@ -73,3 +73,8 @@ ALTER TABLE ops.fila_jobs ADD COLUMN IF NOT EXISTS mem_anon_pico_mb int, ADD COL
 
 -- Janela noturna (14/11/2026): a fila só INICIA jobs na janela FILA_JANELA (padrão 20-07); `agora` = bypass manual.
 ALTER TABLE ops.fila_jobs ADD COLUMN IF NOT EXISTS agora boolean NOT NULL DEFAULT false;
+
+-- 24/11/2026: status pausado_codex (img_codex.py sem cota de imagem do Codex ou portão da noite fechado; tools/codex_janela.py).
+ALTER TABLE ops.fila_jobs DROP CONSTRAINT IF EXISTS fila_jobs_status_check;
+ALTER TABLE ops.fila_jobs ADD CONSTRAINT fila_jobs_status_check
+    CHECK (status IN ('fila','rodando','pausado_limite','pausado_codex','concluido','bloqueado','falhou','cancelado'));

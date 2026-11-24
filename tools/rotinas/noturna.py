@@ -21,6 +21,11 @@ Subcomandos (tools/rotinas/noturna.sh <sub> …):
   manha [--noite AAAA-MM-DD] [--sem-telegram] [--dry-run]
         07:30 (timer fabrica-noturna-manha): resumo curto por canal no Telegram (pronto?, título aprovado,
         "pode ir ao ar: qua ou sex", Drive, custo da noite, falhas).
+Imagens escalonadas (24/11/2026, Rodrigo): 2 vídeos por noite, mas a geração de imagens pelo Codex é um vídeo de cada
+vez: ORDEM_IMAGENS (padrão dossie-es → historia-ptbr; o Dossier SEMPRE primeiro). As etapas 1 dos dois rodam juntas às
+20:00; o e2 do 2º só sobe quando o 1º avisa que terminou as imagens (tools/codex_janela.py; fallbacks: 1º falhou/travou,
+reset da janela, 02:00 sem o 1º ter começado). Registro da noite: ~/cache/img_codex/noite-<data>.json. Prazo: 1º 07:00
+(PRAZO_HORA), 2º 10:00 (PRAZO_HORA_2). No 429 do Codex o job espera o reset (pausado_codex na fila), sem fallback pago.
 Tabelas: youtube.backlog, youtube.calendario_semanas, youtube.producao_noturna, youtube.noites (tools/db/schema_backlog.sql).
 Config opcional: ~/.config/fabrica/noturna.env (chaves abaixo em PADRAO).
 """
@@ -37,6 +42,8 @@ from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import backlog as B  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+import codex_janela as CJ  # noqa: E402
 from psycopg.types.json import Jsonb  # noqa: E402
 
 REPO, TZ = B.REPO, B.TZ
@@ -47,6 +54,9 @@ PADRAO = {
     "CANAIS": "historia-ptbr,dossie-es,lugares-guerra-en,em-relevo",  # ordem = prioridade no corte
     "INICIO": "2026-11-15",         # 1ª noite de produção (Rodrigo: começa dom 15/11 20:00); antes disso o timer não faz nada
     "PRAZO_HORA": "07:00",
+    "PRAZO_HORA_2": "10:00",        # 24/11/2026: prazo do 2º vídeo da noite (as imagens dele esperam o 1º)
+    "ORDEM_IMAGENS": "dossie-es,historia-ptbr",  # 24/11/2026 (Rodrigo): ordem das imagens pelo Codex; o Dossier sempre 1º
+    "IMGS_POR_VIDEO": "195", "SEG_POR_IMG": "20", "VOZ_MIN": "20",  # só para a previsão do dry-run
     "LIMITE_SUBSTITUTO": "03:30",   # depois disso, embalagem reprovada não ganha substituto na mesma noite
     "FOLGA_FAL": "5", "FOLGA_FISH": "2", "FOLGA_RUNPOD": "1", "FOLGA_GEMINI": "2",
     "DISCO_MIN_GB": "8", "DISCO_POR_VIDEO_GB": "4",
@@ -56,24 +66,26 @@ PADRAO = {
 }
 # Necessidade estimada por vídeo (US$), de financas.consumo (média dos vídeos 013+ em 14/11/2026) + reserva.
 NECESSIDADE = {
-    # 23/11/2026: historia-ptbr e dossie-es geram pelo Codex (US$ 0); a reserva do fallback passou da fal (sem saldo) para a
-    # Gemini API (tools/img_gemini.py, ~US$ 0,05/img): US$ 2 ≈ 40 imagens de fallback por vídeo.
-    "historia-ptbr": {"Google Gemini API": 2.0, "Fish Audio": 0.8, "Runpod": 0.5},
-    "dossie-es": {"Google Gemini API": 2.0, "Fish Audio": 0.4, "Runpod": 0.5},   # até 015: fal 9,5 (nano-banana)
+    # 24/11/2026 (Rodrigo: não recarrega a Gemini): historia-ptbr e dossie-es geram pelo Codex (US$ 0) e, no limite de cota,
+    # ESPERAM o reset; a Gemini virou reserva opcional (RESERVA_OPCIONAL), sem corte por saldo baixo.
+    "historia-ptbr": {"Fish Audio": 0.8, "Runpod": 0.5},
+    "dossie-es": {"Fish Audio": 0.4, "Runpod": 0.5},   # até 015: fal 9,5 (nano-banana); 23/11: Gemini 2,0 de reserva
     "lugares-guerra-en": {"fal.ai": 1.0, "Fish Audio": 0.5, "Runpod": 0.5},  # IA só na thumb
     "em-relevo": {"Runpod": 0.6},                                           # sem IA de cena; voz ElevenLabs
 }
+# Fallback pago opcional dos canais Codex: só aparece no pré-voo; o img_codex.py só usa se saldo − custo ≥ FOLGA_GEMINI.
+RESERVA_OPCIONAL = {"historia-ptbr": {"Google Gemini API": 2.0}, "dossie-es": {"Google Gemini API": 2.0}}
 TETO = {"historia-ptbr": 8, "dossie-es": 12, "lugares-guerra-en": 4, "em-relevo": 3}
 FOLGA_DE = {"fal.ai": "FOLGA_FAL", "Fish Audio": "FOLGA_FISH", "Runpod": "FOLGA_RUNPOD", "Google Gemini API": "FOLGA_GEMINI"}
 
 REGRAS_CANAL = {
     "historia-ptbr": """- Canal **História em minutos** (pt-BR), molde **History in Minutes, bíblia v2**: narrativa contínua, eras ligadas por causa→consequência ("mas… então…"), fio condutor, "guarde isso" pagos depois; bonequinhos de cabeça redonda. Bíblia: `canais/historia-ptbr/biblia/` (prevalece).
 - **Não leia `canais/dossie-es/`** nem copie nada de outro canal. Referência de código/estrutura: SOMENTE os últimos vídeos deste canal (`videos/007-russia` em diante, checklist v2 com nota).
-- Imagens **pelo Codex** (`canal.yaml` `visual.gerador: codex`, fallback **Gemini** automático, `tools/img_gemini.py`, desde 23/11/2026: a fal está sem saldo; outro job cuida do gerador: **não edite** `canal.yaml`, `tools/img_*`, `skills/imagens`, `skills/thumbnail`). Nos prompts de época, diga o que **não** pode aparecer (o Codex inventa marcos fora de época; `conhecimento/anti-padroes.md` §3d). Voz Fish drama-3 (`canal.yaml`).
+- Imagens **pelo Codex** (`canal.yaml` `visual.gerador: codex`; fallback Gemini só para falha pontual e só com saldo acima da folga; **no limite de cota o Codex espera o reset**, 24/11/2026; **não edite** `canal.yaml`, `tools/img_*`, `skills/imagens`, `skills/thumbnail`). Na noite, as imagens do História vêm **depois** das do Dossier (portão da fila). Nos prompts de época, diga o que **não** pode aparecer (o Codex inventa marcos fora de época; `conhecimento/anti-padroes.md` §3d). Voz Fish drama-3 (`canal.yaml`).
 - Feche no presente com 1 frase neutra. Guerra/regimes: seriedade e neutralidade factual, sem imagens gráficas (política de anúncios).""",
     "dossie-es": """- Canal **Dossier en Minutos** (espanhol), molde **Archive in Minutes**: capítulos "EXPEDIENTE N", hook por anedota, carimbos e SFX nas transições; graphic novel em tinta. Bíblia: `canais/dossie-es/biblia/` (prevalece).
 - **Não leia `canais/historia-ptbr/`** nem copie nada de outro canal. Referência de código/estrutura: SOMENTE os últimos vídeos deste canal (`videos/007-ss`, `008-inquisicion`).
-- Imagens **pelo Codex** desde o MKUltra (23/11/2026, teste do Rodrigo: vídeo inteiro, cenas e thumbs; `canal.yaml` `visual.gerador: codex` com 3 refs do 015 + `ref_instrucao`; fallback automático **Gemini** `gemini-nano-banana-2.1` via `tools/img_gemini.py`; a fal está sem saldo: **não use `img_fal.py`**). Comando e lotes em `skills/imagens/SKILL.md` (`img_codex.py … --paralelo 3`, ~25 cenas por comando, rode até 0 faltando). **Não edite** `canal.yaml`, `tools/img_*`, `skills/imagens`, `skills/thumbnail`. Rode o detector de moldura/letreiro do vídeo anterior no fim, como sempre. No relatório: imagens Codex × Gemini e a cota 5 h/semanal. Voz Fish (`canal.yaml`).
+- Imagens **pelo Codex** desde o MKUltra (23/11/2026, teste do Rodrigo: vídeo inteiro, cenas e thumbs; `canal.yaml` `visual.gerador: codex` com 3 refs do 015 + `ref_instrucao`; fallback Gemini só para falha pontual e só com saldo acima da folga; **no limite de cota o Codex espera o reset**, 24/11/2026; a fal está sem saldo: **não use `img_fal.py` nem `img_gemini.py` direto**). Na noite, as imagens do Dossier vão **primeiro**; ao terminar, o `img_codex.py` avisa e libera as do História. Comando e lotes em `skills/imagens/SKILL.md` (`img_codex.py … --paralelo 3`, ~25 cenas por comando, rode até 0 faltando). **Não edite** `canal.yaml`, `tools/img_*`, `skills/imagens`, `skills/thumbnail`. Rode o detector de moldura/letreiro do vídeo anterior no fim, como sempre. No relatório: imagens Codex × Gemini e o estado da janela (`tools/codex_janela.py status`). Voz Fish (`canal.yaml`).
 - Organizações nazistas/temas sensíveis: sem runas, suástica ou símbolos na thumb e nas imagens; tom de vítimas e julgamento. Organização viva: atribua toda acusação ("según X").""",
     "lugares-guerra-en": """- Canal **Clearance Required** (inglês): lugares militares famosos que não se pode visitar + os documentos públicos que explicam por quê. Bíblia: `canais/lugares-guerra-en/biblia/` (prevalece).
 - Não leia nem copie os canais `historia-ptbr`/`dossie-es`. Referência de código/estrutura: SOMENTE `videos/002-bikini` e `003-gettysburg`.
@@ -204,6 +216,10 @@ def cortar(pf, candidatos, c):
         for forn, v in NECESSIDADE[canal].items():
             if forn in sald:
                 sald[forn] -= v
+        for forn, v in RESERVA_OPCIONAL.get(canal, {}).items():  # sem corte: só avisa que o fallback pago está desligado
+            folga = float(c[FOLGA_DE[forn]])
+            if forn in sald and sald[forn] - v < folga:
+                cand["reserva"] = f"{forn.replace('Google ', '')} US$ {sald[forn]:.2f} (< folga {folga:g}+{v:g}): sem fallback pago, Codex espera o reset"
         disco -= float(c["DISCO_POR_VIDEO_GB"])
         aprov.append(cand)
     return aprov, cortes
@@ -284,17 +300,36 @@ Repo `~/workspace/fabrica-youtube`. Leia `~/.claude/CLAUDE.md` (headless), `MAPA
         m = m.replace("--video <id>", f"--video {vid_id}")
         m = m.replace("canais/<slug>/biblia/", biblia)
         m = m.replace("<com ou sem Drive, conforme o brief do lote>", "sem Drive: deixe em `entrega/`; a rotina noturna sobe")
+        m = m.replace("Codex com fallback Gemini desde 23/11/2026", "Codex; fallback Gemini só com saldo acima da folga e, no limite de cota, espera o reset (24/11/2026)")
         return m
     hdr = f"<!-- Gerado por tools/rotinas/noturna.py (noite de {noite:%d/%m}); vídeo id {vid_id}, pasta {pasta}, pode ir ao ar: {B.janela(noite)}. -->\n"
     e1.write_text(hdr + sub(m1) + f"\n- Pasta e linha em `youtube.videos` (id {vid_id}) **já existem**: o passo 1 completa o `BRIEF.md`, não cria outra linha.\n")
-    e2.write_text(hdr + sub(m2) + f"\n- Prazo: pronto até {prazo:%d/%m %H:%M}. Teto US$ {TETO[canal]}. Entrega: só `entrega/` (a rotina noturna sobe ao Drive).\n")
+    codex = ""
+    if canal in ("historia-ptbr", "dossie-es"):
+        codex = ("- **Imagens pelo Codex, uma noite = um vídeo de cada vez (24/11/2026):** use só `tools/img_codex.py` (sem `--ignorar-portao`, "
+                 "sem `--fallback-no-limite`). Se ele sair com **código 4** (`CODEX_AGUARDAR`: Codex sem cota de imagem ou portão da noite "
+                 "fechado), **não** chame `img_gemini.py`/`img_fal.py`, **não** crie placeholder/imagem preta e **não** fique em loop de "
+                 "`sleep`: grave `ETAPA2-PENDENTE.md` na pasta (cenas faltando + horário do reset que ele imprimiu), commit + push do que "
+                 "já está pronto e **encerre o turno**. A fila põe o job em `pausado_codex` e o retoma (--resume) no reset/aviso; "
+                 "aí continue de onde parou (rode o mesmo comando). Voz pode ser feita antes das imagens.\n")
+    e2.write_text(hdr + sub(m2) + f"\n- Prazo: pronto até {prazo:%d/%m %H:%M}. Teto US$ {TETO[canal]}. Entrega: só `entrega/` (a rotina noturna sobe ao Drive).\n" + codex)
     return principal, e1, e2
 
 
-def enfileirar(con, canal, it, noite, c, dry, tentativa=1, prioridade=3):
+def ordem_imagens(c, canais_noite, tentativa_de=None):
+    """Canais da noite na ordem das imagens pelo Codex (ORDEM_IMAGENS); substituto (tentativa 2) vai para o fim."""
+    base = [x for x in c["ORDEM_IMAGENS"].split(",") if x]
+    o = [x for x in base if x in canais_noite]
+    if tentativa_de and tentativa_de in o:
+        o.remove(tentativa_de)
+        o.append(tentativa_de)
+    return o
+
+
+def enfileirar(con, canal, it, noite, c, dry, tentativa=1, prioridade=3, prazo_hora=None, ordem=None):
     numero = B.proximo_numero(con, canal)
     pasta = f"{B.CANAIS[canal]['videos']}/{B.CANAIS[canal]['pasta_fmt'].format(n=numero, slug=it['slug'])}"
-    h, mi = map(int, c["PRAZO_HORA"].split(":"))
+    h, mi = map(int, (prazo_hora or c["PRAZO_HORA"]).split(":"))
     prazo = datetime.combine(noite + timedelta(days=1), datetime.min.time()).replace(hour=h, minute=mi, tzinfo=TZ)
     nome = f"lote-{B.CANAIS[canal]['curto']}-{numero:03d}-{it['slug']}"
     res = {"canal": canal, "tema": it["tema"], "backlog_id": it["id"], "janela": B.janela(noite), "numero": numero, "pasta": pasta,
@@ -322,6 +357,12 @@ def enfileirar(con, canal, it, noite, c, dry, tentativa=1, prioridade=3):
     con.execute("INSERT INTO youtube.producao_noturna (noite, canal_slug, tentativa, backlog_id, video_id, job_e1, job_e2) "
                 "VALUES (%s,%s,%s,%s,%s,%s,%s) ON CONFLICT (noite, canal_slug, tentativa) DO NOTHING",
                 (noite, canal, tentativa, it["id"], vid, f"{nome}-e1", f"{nome}-e2"))
+    if ordem and canal in ordem:  # registro da noite para o portão das imagens (tools/codex_janela.py)
+        try:
+            CJ.gravar_noite(noite, ordem, {canal: {"video": vid, "e1": f"{nome}-e1", "e2": f"{nome}-e2", "pasta": pasta,
+                                                   "prazo": pz, "tentativa": tentativa}})
+        except Exception as e:  # noqa: BLE001
+            log(f"aviso: registro da noite (portão Codex) falhou: {e}")
     return res
 
 
@@ -352,7 +393,19 @@ def planejar(a):
             else:
                 cands.append({"canal": canal, "item": it})
         aprov, cortes = cortar(pf, cands, c)
-        feitos = [enfileirar(con, x["canal"], x["item"], noite, c, a.dry_run, prioridade=3 + 2 * i) for i, x in enumerate(aprov)]
+        ordem = ordem_imagens(c, [x["canal"] for x in aprov])
+        if len(ordem) < 2:
+            ordem = []  # só um canal Codex na noite: começa direto, sem portão
+        pos = {k: i for i, k in enumerate(ordem)}
+        aprov.sort(key=lambda x: pos.get(x["canal"], -1))  # Dossier antes (prioridade menor) quando os dois produzem
+        feitos = []
+        for i, x in enumerate(aprov):
+            seg = bool(ordem) and pos.get(x["canal"], 0) > 0
+            f = enfileirar(con, x["canal"], x["item"], noite, c, a.dry_run, prioridade=3 + 2 * i,
+                           prazo_hora=c["PRAZO_HORA_2"] if seg else c["PRAZO_HORA"], ordem=ordem or None)
+            f["segundo"], f["reserva"] = seg, x.get("reserva")
+            f["prazo"] = c["PRAZO_HORA_2"] if seg else c["PRAZO_HORA"]
+            feitos.append(f)
         prox = proximo_planejamento(con, noite)
         for x in cortes:
             cc = next(k for k in cands if k["canal"] == x["canal"])
@@ -375,8 +428,12 @@ def planejar(a):
              + ((f"; Drive {pf['drive_livre_mb'] / 1024:.1f} GB livres") if pf["drive_livre_mb"] is not None else "; Drive: não consegui ler"),
              f"Disco local {pf['disco_livre_gb']:.0f} GB livres." + (" Avisos: " + " | ".join(pf["avisos"]) if pf["avisos"] else ""), ""]
         for f in feitos:
-            L.append(f"+ {f['canal']}: {f['tema']} → pode ir ao ar: {f['janela']} · pasta {f['pasta']} · jobs {', '.join(f['jobs'])}")
+            L.append(f"+ {f['canal']}: {f['tema']} → pode ir ao ar: {f['janela']} · pasta {f['pasta']} · jobs {', '.join(f['jobs'])} · prazo {f['prazo']}")
             L.append(f"    briefs: {', '.join(f['briefs'])}")
+            if f.get("reserva"):
+                L.append(f"    reserva opcional: {f['reserva']}")
+        if feitos:
+            L += previsao_imagens(con, noite, c, ordem, feitos)
         for x in cortes:
             L.append(f"- {x['canal']}: ADIADO {x['tema']}: {x['motivo']}")
         for x in sem:
@@ -406,6 +463,39 @@ def planejar(a):
         raise
     finally:
         con.close()
+
+
+def _mediana_e1(con, canal):
+    r = con.execute("SELECT percentile_cont(0.5) WITHIN GROUP (ORDER BY duracao_seg) FROM ops.fila_jobs WHERE nome LIKE %s "
+                    "AND status='concluido' AND duracao_seg > 0", (f"lote-{B.CANAIS[canal]['curto']}-%-e1%",)).fetchone()
+    return float(r[0]) / 60 if r and r[0] else 75.0
+
+
+def previsao_imagens(con, noite, c, ordem, feitos):
+    """Horários previstos das imagens (dry-run e relatório do planejar)."""
+    ini = datetime.combine(noite, datetime.min.time()).replace(hour=20, tzinfo=TZ)
+    n, spi, voz = int(c["IMGS_POR_VIDEO"]), float(c["SEG_POR_IMG"]), float(c["VOZ_MIN"])
+    L = ["", "Imagens pelo Codex (24/11/2026: um vídeo de cada vez):"]
+    if not ordem:
+        f = feitos[0]
+        L.append(f"  só {f['canal']} usa o Codex nesta noite: começa direto (~{ini + timedelta(minutes=_mediana_e1(con, f['canal']) + voz):%H:%M}).")
+        return L
+    p1, p2 = ordem[0], ordem[1]
+    i1 = ini + timedelta(minutes=_mediana_e1(con, p1) + voz)
+    f1 = i1 + timedelta(seconds=n * spi)
+    e1_2 = ini + timedelta(minutes=_mediana_e1(con, p2))
+    i2 = max(f1, e1_2) + timedelta(minutes=3 + voz)  # tick da fila + voz do 2º antes das imagens
+    cap = min(CJ.CAPACIDADE_MEDIDA)
+    reset = i1 + timedelta(hours=CJ.JANELA_H)
+    L.append(f"  20:00 etapas 1 juntas → {p1} imagens ~{i1:%H:%M}–{f1:%H:%M} (~{n} imagens) → aviso \"pode seguir\" → "
+             f"{p2} e2 sobe ~{max(f1, e1_2) + timedelta(minutes=3):%H:%M}, imagens ~{i2:%H:%M}.")
+    L.append(f"  Fallbacks do aviso: {p1} falhou/travou ({CJ.TRAVADO_MIN} min sem imagem), reset da janela, {CJ.LIBERA_SEM_AVISO} sem {p1} ter começado.")
+    if 2 * n > cap:
+        L.append(f"  ⚠ Cota medida do Codex: {min(CJ.CAPACIDADE_MEDIDA)}–{max(CJ.CAPACIDADE_MEDIDA)} imagens por janela de {CJ.JANELA_H:g} h "
+                 f"(conta da 1ª imagem). 2 vídeos ≈ {2 * n} imagens: o {p2} deve bater no 429 depois de ~{max(cap - n, 0)}–"
+                 f"{max(max(CJ.CAPACIDADE_MEDIDA) - n, 0)} imagens e esperar o reset (~{B.fmt_d(reset.date())} {reset:%H:%M}); depois do prazo "
+                 f"{c['PRAZO_HORA_2']}, fica em pausado_codex (fila.sh retomar).")
+    return L
 
 
 # ---------------- vigia ----------------
@@ -484,7 +574,11 @@ def vigia(a):
                         B.agendar(con, canal, ref=row["noite"])
                         novo = item_da_noite(con, canal, row["noite"], excluir=tentados)
                         if novo:
-                            f = enfileirar(con, canal, novo, row["noite"], c, False, tentativa=2, prioridade=2)
+                            nd = CJ._ler(CJ.arq_noite(row["noite"]))
+                            ordem = ordem_imagens(c, nd.get("ordem") or [], tentativa_de=canal) if nd.get("ordem") else None
+                            seg = bool(ordem) and ordem[-1] == canal
+                            f = enfileirar(con, canal, novo, row["noite"], c, False, tentativa=2, prioridade=2,
+                                           prazo_hora=c["PRAZO_HORA_2"] if seg else c["PRAZO_HORA"], ordem=ordem)
                             log(f"vigia: {canal} embalagem reprovada ({it['tema']}) → substituto {novo['tema']} ({', '.join(f['jobs'])})")
                             telegram("[fábrica] embalagem reprovada", f"{B.CANAIS[canal]['nome']}: o crivo reprovou \"{it['tema']}\"; entrou \"{novo['tema']}\" na mesma noite.", enviar)
                         else:
@@ -575,7 +669,18 @@ def manha(a):
             else:
                 s1, s2 = status_job(con, r["job_e1"]), status_job(con, r["job_e2"])
                 det = r["obs"] or f"e1 {s1}, e2 {s2}"
-                L.append(f"{icone.get(r['status'], '?')} {nome}: {tema} · {r['status']} ({det[:120]}) · pode ir ao ar: {B.janela(r['noite'])}")
+                nd = CJ._ler(CJ.arq_noite(r["noite"]))
+                ordem = nd.get("ordem") or []
+                pz = ((nd.get("videos") or {}).get(r["canal_slug"]) or {}).get("prazo")
+                if s2 == "pausado_codex":
+                    oj = con.execute("SELECT obs FROM ops.fila_jobs WHERE nome=%s", (r["job_e2"],)).fetchone()
+                    L.append(f"⏸ {nome}: {tema} · imagens esperando o Codex ({(oj[0] if oj else '')[:110]}) · pode ir ao ar: {B.janela(r['noite'])}")
+                elif r["status"] == "enfileirado" and len(ordem) > 1 and r["canal_slug"] == ordem[-1] and pz \
+                        and datetime.now(TZ) < datetime.fromisoformat(pz + ":00-03:00"):
+                    L.append(f"⏳ {nome}: {tema} · em produção, 2º da noite (imagens depois do {B.CANAIS[ordem[0]]['nome']}), "
+                             f"prazo {pz[-5:]} ({det[:80]}) · pode ir ao ar: {B.janela(r['noite'])}")
+                else:
+                    L.append(f"{icone.get(r['status'], '?')} {nome}: {tema} · {r['status']} ({det[:120]}) · pode ir ao ar: {B.janela(r['noite'])}")
         L.append(f"Custo da noite: US$ {total_usd:.2f} pago" + (f" · Max ~US$ {total_eq:.0f} equivalente" if total_eq else ""))
         txt = "\n".join(L)
         if a.dry_run:

@@ -17,9 +17,19 @@ Como funciona
   com o prompt literal (ref_instrucao + prompt da cena + estilo_prompt do canal.yaml) e as `visual.refs` do canal como
   referenced_image_paths. O Codex grava ~/.codex/generated_images/<thread>/*.png (1672x941); a tool reescala para
   --tamanho (padrão visual.tamanho do canal, 1536x864) e salva <saida>/<id>.jpg. O PNG original é apagado depois.
-- Falha de uma imagem (sem PNG, recusa, erro, timeout, imagem preta/vazia, moldura) → aquela imagem vai para o fallback.
-  Limite de cota do Codex (rate_limit_reached_type ou "usage limit") ou 3 falhas seguidas → o RESTO do lote vai para o
-  fallback.
+- Falha de uma imagem (sem PNG, recusa, erro, timeout, imagem preta/vazia, moldura) → aquela imagem vai para o fallback,
+  SÓ se o saldo do fallback (financas.saldo_pre_pago) menos o custo ficar acima da folga (FOLGA_GEMINI/FOLGA_FAL do
+  ~/.config/fabrica/noturna.env; 24/11/2026: a Gemini não será recarregada); sem saldo, a imagem fica faltando.
+  3 falhas seguidas → o resto do lote também (mesma regra de saldo).
+- **Limite de cota do Codex (429 usage_limit_reached, 24/11/2026): espera o reset, não paga.** Para de começar imagens,
+  grava o limite e o reset (o 429 traz resets_at; janela de imagem = 24 h, tools/codex_janela.py), NÃO chama o fallback
+  (só com --fallback-no-limite) e sai com código 4: "CODEX_AGUARDAR até HH:MM". Com FILA_JOB no ambiente (job da fila)
+  grava ~/cache/img_codex/aguarda/<job>.json e o fila.py pausa o job (pausado_codex) e o retoma com --resume no reset.
+  Sem placeholder nem imagem preta: as cenas faltando ficam listadas.
+- **Portão da noite (24/11/2026, Rodrigo):** antes de gerar, tools/codex_janela.py portao(--video): com limite ativo, ou
+  se o vídeo é o 2º da noite e o 1º (Dossier) ainda não avisou que terminou as imagens, sai com código 4 sem chamar o
+  Codex. Quando todas as cenas do cenas.json do vídeo existem, marca "concluido" na noite (= o aviso "pode seguir").
+  --ignorar-portao pula o portão (teste/manual).
 - O fallback chama o tools/img_gemini.py ou o tools/img_fal.py (conforme visual.gerador_fallback) numa subpasta
   <saida>/.<gerador>-fallback/ com --so <ids>, --video, --teto e notas "fallback codex"; depois move os .jpg para <saida>/.
   A tool do fallback registra o custo dela como sempre.
@@ -41,7 +51,8 @@ Variáveis de teste: IMG_CODEX_BIN (outro binário), IMG_CODEX_FORCAR_FALHA=I001
 inexistente), IMG_CODEX_SIMULAR_LIMITE=I002 (esse id finge limite de cota).
 --visual <yaml>: sobrepõe chaves do bloco visual do canal.yaml (refs, ref_instrucao, estilo_prompt…) só nesta execução
 (testes de estilo; refs relativas à pasta do canal).
-Códigos de saída: 0 tudo gerado; 1 faltou alguma imagem; 3 pasta travada por outro processo.
+Códigos de saída: 0 tudo gerado; 1 faltou alguma imagem; 3 pasta travada por outro processo; 4 aguardando a cota do
+Codex ou o portão da noite (encerre a etapa limpa: a fila retoma).
 """
 import argparse
 import concurrent.futures as cf
@@ -63,6 +74,7 @@ from PIL import Image, ImageStat
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _paths import FABRICA  # noqa: E402
 from _trava import travar_pasta  # noqa: E402
+import codex_janela as CJ  # noqa: E402
 from db import Jsonb, tentar  # noqa: E402
 
 CODEX = os.environ.get("IMG_CODEX_BIN", os.path.expanduser("~/.local/bin/codex"))
@@ -87,7 +99,30 @@ INSTR = ("Call the built-in image generation tool (image_gen) EXACTLY ONCE and d
 REFS = "Pass referenced_image_paths={paths} (style references only). "
 
 trava_estado = threading.Lock()
-estado = {"parar": None, "seguidas": 0, "cota": None, "prazo": None}
+estado = {"parar": None, "seguidas": 0, "cota": None, "prazo": None, "video": None, "canal": None, "reset": None}
+CUSTO_FALLBACK = {"gemini": ("Google Gemini API", "FOLGA_GEMINI", 2.0, 0.055), "fal": ("fal.ai", "FOLGA_FAL", 5.0, 0.05)}
+
+
+def saldo_fallback_ok(g, n):
+    """O fallback pago só roda se saldo − n × custo ≥ folga (24/11/2026). → (ok, texto)."""
+    forn, chave, folga, unit = CUSTO_FALLBACK[g]
+    try:
+        f = Path.home() / ".config/fabrica/noturna.env"
+        for ln in (f.read_text().splitlines() if f.exists() else []):
+            if ln.strip().startswith(chave + "="):
+                folga = float(ln.split("=", 1)[1])
+    except (OSError, ValueError):
+        pass
+    if os.environ.get("IMG_CODEX_SALDO_TESTE"):
+        saldo = float(os.environ["IMG_CODEX_SALDO_TESTE"])
+    else:
+        r = tentar(lambda con: con.execute("SELECT saldo FROM financas.saldo_pre_pago WHERE fornecedor=%s", (forn,)).fetchone())
+        if not r:
+            return False, f"{forn}: saldo não lido"
+        saldo = float(r[0])
+    custo = n * unit
+    ok = saldo - custo >= folga
+    return ok, f"{forn} US$ {saldo:.2f} − {n}×{unit} = {saldo - custo:.2f} {'≥' if ok else '<'} folga {folga:g}"
 
 
 def pegar_vaga():
@@ -242,7 +277,9 @@ def _uma(cena, prompt, refs, saida, tam, log, forcar, simular):
            "falha_gen": info.get("falha"), "cota": cota, "erro": None,
            "prompt_igual": ((info.get("prompt_revisado") or "").strip() == prompt.strip()) if info.get("prompt_revisado") else None}
     texto_erro = " | ".join(erros + ([err.strip()[-300:]] if err and err.strip() else []))
-    limite = bool(cota and cota.get("limite_atingido")) or (not pngs and bool(RE_LIMITE.search(texto_erro)))
+    falha = info.get("falha") if isinstance(info.get("falha"), dict) else {}
+    limite = bool(cota and cota.get("limite_atingido")) or (not pngs and bool(RE_LIMITE.search(texto_erro))) \
+        or falha.get("type") == "usageLimitExceeded"
     if cid in simular:
         limite, texto_erro = True, "limite simulado (IMG_CODEX_SIMULAR_LIMITE)"
     if pngs:
@@ -264,6 +301,12 @@ def _uma(cena, prompt, refs, saida, tam, log, forcar, simular):
     if not ok:
         reg["gerador"] = "pendente-fal"
         destino.unlink(missing_ok=True)
+    if ok:
+        CJ.registrar_imagem(estado["video"], estado["canal"])
+    elif limite and cid not in simular:
+        estado["reset"] = CJ.registrar_limite(estado["video"], estado["canal"], texto_erro, falha, cota)
+    elif limite:
+        estado["reset"] = CJ.registrar_limite(estado["video"], estado["canal"], os.environ.get("IMG_CODEX_SIMULAR_TEXTO", ""))
     with trava_estado:
         if cota:
             estado["cota"] = cota
@@ -273,7 +316,7 @@ def _uma(cena, prompt, refs, saida, tam, log, forcar, simular):
             estado["seguidas"] += 1
             if limite and not estado["parar"]:
                 estado["parar"] = "limite de cota"
-                evento("codex_limite", "aviso", f"Codex acusou limite de cota em {cid}; resto do lote vai para o fal",
+                evento("codex_limite_lote", "aviso", f"Codex acusou limite de cota em {cid}; o lote para e espera o reset",
                        {"id": cid, "cota": cota, "erro": reg["erro"][:300]}, str(saida))
             elif estado["seguidas"] >= FALHAS_SEGUIDAS_MAX and not estado["parar"]:
                 estado["parar"] = f"{FALHAS_SEGUIDAS_MAX} falhas seguidas"
@@ -289,6 +332,9 @@ def fallback(a, ids, saida, log, cenas_path):
     """Gera `ids` no img_gemini.py ou img_fal.py (conforme a.fallback) numa subpasta e move para a saída.
     Devolve os ids que ficaram prontos."""
     g = a.fallback
+    if os.environ.get("IMG_CODEX_TESTE"):  # testes: nunca chama a tool paga (24/11/2026: um teste gastou US$ 0,05 na Gemini)
+        print(f"\nfallback {g} (TESTE, não chamado): {','.join(ids)}", flush=True)
+        return []
     sub = saida / f".{g}-fallback"
     sub.mkdir(exist_ok=True)
     cmd = [PY, IMG_GEMINI if g == "gemini" else IMG_FAL, a.canal, str(cenas_path), str(sub), "--so", ",".join(ids),
@@ -342,6 +388,9 @@ def main():
     ap.add_argument("--prazo-min", type=float, default=6.0,
                     help="não começa imagem nova depois de N min (cabe no timeout de 10 min do Bash); 0 = sem prazo")
     ap.add_argument("--visual", dest="visual_arq", help="yaml que sobrepõe chaves de visual (testes de estilo)")
+    ap.add_argument("--ignorar-portao", action="store_true", help="não consulta o portão da noite/limite (teste/manual)")
+    ap.add_argument("--fallback-no-limite", action="store_true",
+                    help="no 429 do Codex manda o resto ao fallback pago (antes de 24/11/2026 era o padrão); sem isto, espera o reset")
     a = ap.parse_args()
 
     pasta_canal = Path(FABRICA) / "canais" / a.canal
@@ -379,6 +428,21 @@ def main():
           f"{' · TESTE forçar falha ' + ','.join(sorted(forcar)) if forcar else ''}"
           f"{' · TESTE simular limite ' + ','.join(sorted(simular)) if simular else ''}", flush=True)
 
+    estado["video"], estado["canal"] = a.video, a.canal
+    if pendentes and not a.ignorar_portao:
+        ok_p, motivo_p, ret_p = CJ.portao(a.video)
+        if not ok_p:
+            lim, _ = CJ.limite_ativo()
+            if lim:  # marcador leva o reset real (a fila soma a folga)
+                ret_p = CJ._dt(CJ.janela_bruta().get("reset_em")) or ret_p
+            CJ.marcar_aguarda("limite" if lim else "portao", motivo_p, ret_p, a.video, a.canal, len(pendentes))
+            print(f"\nCODEX_AGUARDAR: {motivo_p}" + (f" · retomar ~{ret_p:%d/%m %H:%M}" if ret_p else "")
+                  + f" · {len(pendentes)} faltando. Não chame o fallback pago nem crie placeholder: encerre a etapa limpa"
+                  " (a fila retoma o job sozinha).", flush=True)
+            sys.exit(4)
+    if os.environ.get("FILA_JOB"):
+        CJ.limpar_aguarda(os.environ["FILA_JOB"])  # portão aberto: marcador velho não pode pausar o job à toa
+
     t0 = time.time()
     estado["prazo"] = t0 + a.prazo_min * 60 if a.prazo_min else None
     regs = []
@@ -399,9 +463,19 @@ def main():
     ok_codex = [r["id"] for r in regs if r["gerador"] == "codex"]
     falhas = [r["id"] for r in regs if r["gerador"] == "pendente-fal"]
     adiadas = [r["id"] for r in regs if r["gerador"] == "prazo"]
+    no_limite = estado["parar"] == "limite de cota"
+    pulou_fb = None
+    if falhas and not a.sem_fallback and no_limite and not a.fallback_no_limite:
+        pulou_fb = "limite de cota do Codex: espera o reset (sem fallback pago)"
+    elif falhas and not a.sem_fallback:
+        ok_s, txt_s = saldo_fallback_ok(a.fallback, len(falhas))
+        if not ok_s:
+            pulou_fb = f"sem saldo para o fallback ({txt_s})"
+    if pulou_fb:
+        print(f"\nfallback {a.fallback} NÃO chamado: {pulou_fb}", flush=True)
 
     feitos_fal = []
-    if falhas and not a.sem_fallback:
+    if falhas and not a.sem_fallback and not pulou_fb:
         evento("codex_fallback", "aviso", f"{len(falhas)} imagens do Codex foram para o {a.fallback} ({estado['parar'] or 'falha pontual'})",
                {"ids": falhas, "motivo": estado["parar"] or "falha pontual", "canal": a.canal, "video": a.video,
                 "fallback": a.fallback}, str(saida))
@@ -418,7 +492,8 @@ def main():
     resumo = {"canal": a.canal, "video": a.video, "cenas": os.path.basename(a.cenas), "pedidas": len(pendentes),
               "codex_ok": len(ok_codex), "fallback": a.fallback, "fallback_pedidas": len(falhas), "fallback_ok": len(feitos_fal),
               "faltando": len(falhas) - len(feitos_fal), "adiadas_prazo": len(adiadas), "parou": estado["parar"],
-              "seg_codex": t_codex, "cota": cota}
+              "seg_codex": t_codex, "cota": cota, "fallback_pulado": pulou_fb,
+              "reset": estado["reset"].isoformat() if estado["reset"] else None}
     if pendentes:
         evento("codex_lote", "info" if resumo["faltando"] == 0 else "erro",
                f"img_codex {a.canal}: {len(ok_codex)} codex, {len(feitos_fal)} {a.fallback}, {resumo['faltando']} faltando", resumo, str(saida))
@@ -427,9 +502,43 @@ def main():
           f"{resumo['faltando']} faltando · codex {t_codex}s · cota 5h {cota.get('pct_5h')}% semana {cota.get('pct_semana')}%"
           f"{' · PAROU: ' + estado['parar'] if estado['parar'] else ''}")
     faltam = [c["id"] for c in cenas if not (saida / f"{c['id']}.jpg").exists()]
+    if a.video:
+        aviso_noite(a, raw, saida)
+    if faltam and no_limite and not a.fallback_no_limite:
+        r = estado["reset"] or CJ._dt(CJ.janela_bruta().get("reset_em"))
+        CJ.marcar_aguarda("limite", f"Codex sem cota de imagem até {r:%d/%m %H:%M}" if r else "Codex sem cota de imagem",
+                          r, a.video, a.canal, len(faltam))
+        print(f"CODEX_AGUARDAR: Codex sem cota de imagem" + (f" até {r:%d/%m %H:%M}" if r else "")
+              + f" · {len(faltam)} faltando: {','.join(faltam)}. Não chame o fallback pago nem crie placeholder: registre as"
+              " cenas faltando e encerre a etapa limpa (a fila retoma o job no reset).")
+        sys.exit(4)
     if faltam:
         print("Faltando (rode de novo para tentar só estas):", ",".join(faltam))
         sys.exit(1)
+
+
+def aviso_noite(a, raw, saida):
+    """Todas as cenas do cenas.json do vídeo prontas → avisa a noite ("pode seguir": libera as imagens do 2º vídeo)."""
+    try:
+        d, canal, _ = CJ.noite_do_video(a.video)
+        if not d:
+            return
+        pasta = (d["videos"].get(canal) or {}).get("pasta")
+        canon = Path(FABRICA) / pasta / "cenas.json" if pasta else None
+        if canon and canon.exists():
+            rc = json.load(open(canon))
+            todas = rc["cenas"] if isinstance(rc, dict) else rc
+        else:
+            todas = raw["cenas"] if isinstance(raw, dict) else raw
+            if len(todas) < 50:  # arquivo parcial (thumbs, teste): não decide o fim das imagens
+                return
+        ids = [c["id"] for c in todas]
+        if ids and all((saida / f"{i}.jpg").exists() for i in ids):
+            if (d.get("imagens", {}).get(canal) or {}).get("estado") != "concluido":
+                CJ.marcar_imagens(a.video, "concluido", f"{len(ids)} cenas prontas em {saida.name}/")
+                print(f"aviso da noite: imagens de {canal} concluídas ({len(ids)} cenas) → pode seguir", flush=True)
+    except Exception as e:  # noqa: BLE001
+        print(f"[aviso_noite] aviso: {e}", flush=True)
 
 
 if __name__ == "__main__":

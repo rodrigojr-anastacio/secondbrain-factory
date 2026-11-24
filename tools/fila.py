@@ -8,6 +8,11 @@ Config opcional: ~/.config/fabrica/fila.env (MAX_CONCORRENCIA=2, MEM_MIN_GB=2.5,
 Janela noturna (14/11/2026): job novo só INICIA dentro de FILA_JANELA (padrão 20-07; "off" desliga). Fora dela só
 sobem: retomadas (limite/retentativa), jobs com `--agora` (bypass do Rodrigo/orquestrador; `fila.sh agora <nome>`
 liga num job já na fila) e jobs com `--depende-de` (continuação de cadeia já iniciada, ex.: o e2 de um vídeo).
+Codex (24/11/2026): o e2 do 2º vídeo da noite só INICIA com o portão de imagens aberto (tools/codex_janela.py: o 1º
+vídeo avisou que terminou as imagens, falhou/travou, ou chegou o reset). Job cujo img_codex.py saiu com código 4 (sem cota
+de imagem do Codex ou portão fechado; marcador ~/cache/img_codex/aguarda/<nome>.json) vira `pausado_codex` e volta com
+--resume quando o portão abrir ou o reset passar; reset depois do prazo do job só com CODEX_RETOMA_APOS_PRAZO=sim
+(senão fica parado: `fila.sh retomar <nome>`). `pausado_codex` não segura os outros jobs (o `pausado_limite` do Max segura).
 Nunca mata processos. Lock (flock) impede dois ticks juntos.
 """
 import argparse
@@ -25,6 +30,7 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import psycopg  # noqa: E402
 from event_log import registrar  # noqa: E402
+import codex_janela as CJ  # noqa: E402
 
 HOME = Path.home()
 REPO = HOME / "workspace/fabrica-youtube"
@@ -42,7 +48,7 @@ LIMIT_RE = re.compile(r"hit your[^\n]*?limit[^\n]*?resets\s+(\d{1,2})(?::(\d{2})
 
 
 def cfg():
-    c = {"MAX_CONCORRENCIA": "2", "MEM_MIN_GB": "2.5", "FILA_JANELA": "20-07"}
+    c = {"MAX_CONCORRENCIA": "2", "MEM_MIN_GB": "2.5", "FILA_JANELA": "20-07", "CODEX_RETOMA_APOS_PRAZO": "nao"}
     f = HOME / ".config/fabrica/fila.env"
     if f.exists():
         for ln in f.read_text().splitlines():
@@ -129,6 +135,12 @@ def classificar(job, agora=None):
     if LIMIT_RE.search(cauda) or re.search(r"hit your[^\n]*limit", cauda, re.I):
         return "pausado_limite", parse_reset(cauda, agora), "limite do Claude Max"
     ini = job["iniciado_em"]
+    m = CJ.ler_aguarda(job["nome"])
+    mp = CJ.DIR / "aguarda" / f"{job['nome']}.json"
+    if m and (not ini or datetime.fromtimestamp(mp.stat().st_mtime, timezone.utc) >= ini):
+        r = m.get("reset_em")
+        return "pausado_codex", (datetime.fromisoformat(r) + timedelta(minutes=CJ.FOLGA_RESET_MIN)) if r else None, \
+            f"codex {m.get('tipo')}: {m.get('motivo')}"[:200]
     brief_txt = ""
     try:
         brief_txt = Path(os.path.expanduser(job["brief"])).read_text()
@@ -171,11 +183,13 @@ def disparar(con, job, dry, retomada=False):
         cmd = [str(Path.home() / ".local/bin/claude"), "-p", prompt, "--model", job["modelo"], "--max-turns", "400", "--allowedTools", ",".join(TOOLS)]
         if retomada:
             cmd += ["--resume", job["session_id"]]
+    if retomada and not dry:
+        CJ.limpar_aguarda(nome)
     full = ["systemd-run", "--user", "--scope", f"--unit={unit}", "-p", "MemoryMax=3500M", "-p", "MemorySwapMax=512M", "-q"] + cmd
     logar(f"{'retomar' if retomada else 'iniciar'} → {unit} ({job['motor']}/{job['modelo']})", nome, "job_inicio", dry=dry)
     if dry:
         return
-    env = dict(os.environ, TMPDIR=str(HOME / "cache/tmp"), CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS="0")
+    env = dict(os.environ, TMPDIR=str(HOME / "cache/tmp"), CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS="0", FILA_JOB=nome)
     env.pop("ANTHROPIC_API_KEY", None) if job["motor"] == "max" else None
     os.makedirs(env["TMPDIR"], exist_ok=True)
     lg = open(job["log"], "ab")
@@ -405,7 +419,7 @@ def tick(dry):
             resumo = ler_log(j["log"], 600).strip()
             if not dry:
                 fechar_metricas(con, j, sid, st, ret, ler_log(j["log"], 1500))
-            logar(f"{j['status']} → {st} ({motivo})" + (f", retoma {ret:%d/%m %H:%M}" if ret else ""), j["nome"], f"job_{st}", "aviso" if st in ("falhou", "bloqueado", "pausado_limite") else "info", dry)
+            logar(f"{j['status']} → {st} ({motivo})" + (f", retoma {ret:%d/%m %H:%M}" if ret else ""), j["nome"], f"job_{st}", "aviso" if st in ("falhou", "bloqueado", "pausado_limite", "pausado_codex") else "info", dry)
             if not dry:
                 con.execute("UPDATE ops.fila_jobs SET status=%s, session_id=%s, retomar_em=%s, terminado_em=now(), resumo=%s, obs=%s WHERE id=%s", (st, sid, ret, resumo, motivo, j["id"]))
         # 2. retomar pausados cujo reset passou
@@ -417,6 +431,23 @@ def tick(dry):
                 if not dry:
                     con.execute("UPDATE ops.fila_jobs SET status='fila' WHERE id=%s", (j["id"],))
                 continue
+            disparar(con, j, dry, retomada=True)
+        # 2b. retomar pausados pelo Codex (cota de imagem ou portão da noite) quando liberar
+        apos = c["CODEX_RETOMA_APOS_PRAZO"].lower() in ("sim", "1", "true", "yes")
+        for j in jobs(con, "status='pausado_codex'"):
+            ok, motivo, ret = CJ.pode_retomar(j["nome"], j["prazo"], apos)
+            if not ok:
+                if not dry and (ret != j["retomar_em"] or motivo[:200] != j["obs"]):
+                    con.execute("UPDATE ops.fila_jobs SET retomar_em=%s, obs=%s WHERE id=%s", (ret, motivo[:200], j["id"]))
+                continue
+            if not j["session_id"]:
+                j["session_id"] = achar_session(j)
+            if not j["session_id"]:
+                logar("pausado_codex sem session_id; volta para a fila", j["nome"], "job_sem_sessao", "aviso", dry)
+                if not dry:
+                    con.execute("UPDATE ops.fila_jobs SET status='fila' WHERE id=%s", (j["id"],))
+                continue
+            logar(f"Codex liberado ({motivo}): retomo", j["nome"], "job_codex_retoma", dry=dry)
             disparar(con, j, dry, retomada=True)
         # 3. iniciar novos
         bloqueio_limite = con.execute("SELECT 1 FROM ops.fila_jobs WHERE status='pausado_limite' AND retomar_em > now() LIMIT 1").fetchone()
@@ -435,6 +466,11 @@ def tick(dry):
                     d = con.execute("SELECT status FROM ops.fila_jobs WHERE nome=%s", (j["depende_de"],)).fetchone()
                     if not d or d[0] != "concluido":
                         continue
+                ok_p, motivo_p = CJ.portao_job(j["nome"])
+                if not ok_p:  # 2º vídeo da noite: as imagens esperam o aviso do 1º (24/11/2026)
+                    if not dry and j["obs"] != f"portão Codex: {motivo_p}"[:200]:
+                        con.execute("UPDATE ops.fila_jobs SET obs=%s WHERE id=%s", (f"portão Codex: {motivo_p}"[:200], j["id"]))
+                    continue
                 if mem_disp_gb() < float(c["MEM_MIN_GB"]):
                     logar(f"memória baixa ({mem_disp_gb():.1f} GB): espero", None, dry=dry)
                     break
@@ -455,7 +491,11 @@ def escrever_status(con):
         det = j["obs"] or ""
         if j["status"] == "pausado_limite" and j["retomar_em"]:
             det = f"retoma {j['retomar_em'].astimezone(TZ):%d/%m %H:%M}"
-        if j["status"] == "fila" and j["depende_de"]:
+        if j["status"] == "pausado_codex":
+            det = (j["obs"] or "aguarda Codex") + (f" (~{j['retomar_em'].astimezone(TZ):%d/%m %H:%M})" if j["retomar_em"] else "")
+        if j["status"] == "fila" and (j["obs"] or "").startswith("portão Codex"):
+            det = j["obs"]
+        elif j["status"] == "fila" and j["depende_de"]:
             det = f"depende de {j['depende_de']}"
         elif j["status"] == "fila" and not j["agora"] and not na_janela(datetime.now(TZ), cfg()["FILA_JANELA"]):
             det = f"aguarda a janela {cfg()['FILA_JANELA']}"

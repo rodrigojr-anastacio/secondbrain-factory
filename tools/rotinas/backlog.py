@@ -225,8 +225,10 @@ def agendar(con, canal=None, ref=None):
         ocupados = {r[0] for r in con.execute("SELECT data_prevista FROM youtube.backlog WHERE canal_slug=%s AND status IN ('em_producao','pronto') "
                                               "AND data_prevista >= %s", (c, ref)).fetchall()}
         # publicado fica fora: nos itens antigos data_prevista é a publicação (calendário até 15/11/2026), não a noite
+        # 'adiado' (24/11/2026): a noite já foi planejada e o canal pulou (corte do pré-voo ou pedido do Rodrigo, ex.: historia
+        # segurado em 24/11): o tema não volta para essa mesma noite, vai para a próxima livre.
         ocupados |= {r[0] for r in con.execute("SELECT noite FROM youtube.producao_noturna WHERE canal_slug=%s AND noite >= %s "
-                                               "AND status IN ('enfileirado','pronto')", (c, ref)).fetchall()}
+                                               "AND status IN ('enfileirado','pronto','adiado')", (c, ref)).fetchall()}
         livres = [d for d in slots(con, ref, ref + timedelta(days=HORIZONTE_DIAS)) if d not in ocupados]
         resto = itens(con, "canal_slug=%s AND status IN ('proposto','agendado')", (c,))   # já em ordem de nota
         fila = []
