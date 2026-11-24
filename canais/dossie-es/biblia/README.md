@@ -2,7 +2,7 @@
 
 **Canal-modelo:** Archive in Minutes (en), com Atlas del Tiempo como prova do molde em espanhol. Idioma: **espanhol neutro latino-americano** (tú). Configuração técnica em `../canal.yaml`; nome, handle, avatar e paleta em `../identidade.md`; por que es em `pesquisa/archive-in-minutes/IDIOMA.md`.
 **O que é deste canal:** a história INTEIRA de uma **organização** (serviços secretos, polícias políticas, máfias, cartéis, ordens) como um **dossiê**: hook de anedota seca em 25–35 s, **11–14 "EXPEDIENTES"** curtos (cena ou objeto datado), cada um puxando o próximo, e um cierre que volta ao objeto do hook. Graphic novel em tinta, pasta parda, máquina de escrever, sello rojo. Ângulo América Latina.
-**Arquivos:** [`roteiro.md`](roteiro.md) · [`titulo.md`](titulo.md) · [`thumb.md`](thumb.md) · [`visual.md`](visual.md) · [`voz.md`](voz.md). Esta bíblia **prevalece** sobre `conhecimento/` (só regras gerais).
+**Arquivos:** [`temas.md`](temas.md) (escolha de tema: bolha da Cosa Nostra, 24/11/2026) · [`roteiro.md`](roteiro.md) · [`titulo.md`](titulo.md) · [`thumb.md`](thumb.md) · [`visual.md`](visual.md) · [`voz.md`](voz.md). Esta bíblia **prevalece** sobre `conhecimento/` (só regras gerais).
 **O que NÃO fazer aqui:**
 - **Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`):** IA sem apelação: tinta e sombra sugerem a violência, sem corpo em destaque, sangue, ferimento ou sofrimento explícito; nenhuma foto real de morto (nem acervo). Título, descrição e tags sem morte/morreu/morto/assassinado/assassinato (e equivalentes no idioma do canal) nem "chocante/perturbador/massacre"; `youtube.txt` sem menção a IA.
 - **Bonequinhos** de cabeça redonda, cartoon chapado, papiro, Libre Caslon: identidade do `historia-ptbr`.

@@ -9,7 +9,7 @@ Ranking de 2026-11-04 para o **mercado em espanhol** (`pesquisa/archive-in-minut
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (24/11/2026 09:02)
+## Backlog vivo (24/11/2026 17:47)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
@@ -18,22 +18,30 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 | noite | pode ir ao ar | tema | status |
 |---|---|---|---|
 | ter 24/11 | sex ou sáb | MKUltra (el programa secreto de la CIA) | em_producao |
-| sáb 28/11 | dom ou seg | La Operación Cóndor (DINA y los servicios secretos del Cono Sur) | agendado |
-| dom 29/11 | seg ou qua | El Opus Dei | agendado |
-| seg 30/11 | qua ou sex | — (vaga) | |
-| ter 01/12 | sex ou sáb | — (vaga) | |
-| sáb 05/12 | dom ou seg | — (vaga) | |
-| dom 06/12 | seg ou qua | — (vaga) | |
-| seg 07/12 | qua ou sex | — (vaga) | |
-| ter 08/12 | sex ou sáb | — (vaga) | |
+| sáb 28/11 | dom ou seg | La 'Ndrangheta (la mafia de Calabria) | agendado |
+| dom 29/11 | seg ou qua | La Mafia rusa (los vory v zakone y la Bratva) | agendado |
+| seg 30/11 | qua ou sex | ODESSA y las rutas de las ratas (la red que sacó a los nazis hacia Sudamérica) | agendado |
+| ter 01/12 | sex ou sáb | La leyenda española de la Mafia: Garduña y los 3 caballeros (Osso, Mastrosso, Carcagnosso) en tiempos de la Corona de Aragón | agendado |
+| sáb 05/12 | dom ou seg | El Outfit de Chicago (la mafia de Al Capone) | agendado |
+| dom 06/12 | seg ou qua | La Camorra (la mafia de Nápoles) | agendado |
+| seg 07/12 | qua ou sex | Las Tríadas chinas | agendado |
+| ter 08/12 | sex ou sáb | La Operación Cóndor (DINA y los servicios secretos del Cono Sur) | agendado |
 
 ### Temas (ordem da fila)
 
 | id | tema | nota (D·E·U) | status | noite (ao ar) | janela do tema | evidência principal |
 |---|---|---|---|---|---|---|
 | 44 | MKUltra (el programa secreto de la CIA) | 7.3 (7·7·8) | em_producao | ter 24/11 (sex ou sáb) | 10/12 | [Archive in Minutes: publicado 20/11 ('The ENTIRE History of MKUltra in 19 Minutes', em A/B com 'The CIA Burned Every File. Seven Boxes Survived.'): o canal-modelo empurra o tema agora; os clones es costumam vir em 1–2 semanas (MI5 do Archivo en Minutos: 47.981 em 3 dias)](https://youtube.com/watch?v=o7tcLlrUiAk) |
-| 46 | La Operación Cóndor (DINA y los servicios secretos del Cono Sur) | 6.0 (6·9·4) | agendado | sáb 28/11 (dom ou seg) | perene | [Armapedia (es): 'OPERACIÓN CÓNDOR… la red secreta de dictaduras militares' 364.537 views (21/08/2026)](https://youtube.com/watch?v=GKD2J4A-HMA) |
-| 24 | El Opus Dei | 5.4 (8·5·4) | agendado | dom 29/11 (seg ou qua) | perene | [busca yt-dlp es + videos.list: mediana top-10 em es (12 m) 122.957; 6 vídeos > 100 mil, 2 nos últimos 90 dias (La Nueva Enciclopedia 294.026 em 33 dias)](https://youtube.com/watch?v=frVDatN_0WM) |
+| 51 | La 'Ndrangheta (la mafia de Calabria) | 8.6 (9·10·7) | agendado | sáb 28/11 (dom ou seg) | perene | [manada.py buscar (yt-dlp via WARP), pesquisa/backlog-dossie-bolha-2026-11-24/ndrangheta: es: Historias Vivas 1.488.667 (2024), Show Me the World 1.001.441, La Huella 199.434 (08/2025); it: Nova Lectio 1.957.708 em 2 meses (09/2026); en Best Documentary 343.635 (07/2026). Sem clone 'toda la historia… en minutos' em es no topo](https://www.youtube.com/watch?v=KFZrOQ0jH5g) |
+| 52 | La Mafia rusa (los vory v zakone y la Bratva) | 7.8 (8·10·6) | agendado | dom 29/11 (seg ou qua) | perene | [manada.py buscar (yt-dlp via WARP), pesquisa/backlog-dossie-bolha-2026-11-24/bratva: es: Cruzada Hostil 'Mogilevich' 450.668, Mr Sticky 'Mafia rusa' 446.428 (06/2026), Cruzada Hostil 'Solonik' 328.104; nenhum vídeo 'historia completa' no molde em es](https://www.youtube.com/watch?v=st4biMwaOEY) |
+| 53 | ODESSA y las rutas de las ratas (la red que sacó a los nazis hacia Sudamérica) | 7.6 (9·8·6) | agendado | seg 30/11 (qua ou sex) | perene | [manada.py buscar (yt-dlp via WARP), pesquisa/backlog-dossie-bolha-2026-11-24/ratlines: es: Historia con Jiven 1.524.738, Armapedia 1.372.425 (02/2025), El Mapa de Sebas 276.481, Hispanoria 217.416 (17/10/2026); público do canal MX/AR/CO/ES. Guerra en Tinta (clone de estética?) 378 views em 17/11/2026](https://www.youtube.com/watch?v=aqTaxy1Emxo) |
+| 50 | La leyenda española de la Mafia: Garduña y los 3 caballeros (Osso, Mastrosso, Carcagnosso) en tiempos de la Corona de Aragón | 6.8 (5·9·7) | agendado | ter 01/12 (sex ou sáb) | perene | [manada.py buscar (yt-dlp via WARP), pesquisa/backlog-dossie-bolha-2026-11-24/garduna: es: Suso Lopez 'La garduña' 11.184, Alter Historia 7.323, El Camarote 'primera mafia española' 5.145 (11/2025): pouca oferta e pouca busca](https://www.youtube.com/watch?v=cRFfqsot0r8) |
+| 54 | El Outfit de Chicago (la mafia de Al Capone) | 6.8 (8·8·5) | agendado | sáb 05/12 (dom ou seg) | perene | [manada.py buscar (yt-dlp via WARP), pesquisa/backlog-dossie-bolha-2026-11-24/clones-capone: es: Fusgo 'La Historia Completa De Al Capone' 2.577.252, PERSONAJES 1.125.226 (01/2025), Cruzada Hostil 'Giancana' 94.143; pt: Planeta Novo 1.076.543 (08/2025)](https://www.youtube.com/watch?v=OhjnzcwXkjk) |
+| 55 | La Camorra (la mafia de Nápoles) | 6.5 (6·9·5) | agendado | dom 06/12 (seg ou qua) | perene | [manada.py buscar (yt-dlp via WARP), pesquisa/backlog-dossie-bolha-2026-11-24/camorra: es: Cruzada Hostil 36.495 (10/2025); en: Investigations 'Baby Camorra' 546.081 (06/2026); pt/it 2 vídeos novos em 20/11/2026 (tema se mexendo)](https://www.youtube.com/watch?v=L88cIfQ8c-U) |
+| 56 | Las Tríadas chinas | 5.8 (6·8·4) | agendado | seg 07/12 (qua ou sex) | perene | [manada.py buscar (yt-dlp via WARP), pesquisa/backlog-dossie-bolha-2026-11-24/triadas: es: Mega Hampa 1.247.570 (2018), Insider Español 55.270, Cruzada Hostil 49.357 (04/2025); sem clone no molde](https://www.youtube.com/watch?v=swp1ujP7nNw) |
+| 46 | La Operación Cóndor (DINA y los servicios secretos del Cono Sur) | 5.5 (6·7·4) | agendado | ter 08/12 (sex ou sáb) | perene | [Armapedia (es): 'OPERACIÓN CÓNDOR… la red secreta de dictaduras militares' 364.537 views (21/08/2026)](https://youtube.com/watch?v=GKD2J4A-HMA) |
+| 57 | Murder Inc. (los sicarios del Sindicato y la mafia judía de Nueva York) | 5.4 (5·8·4) | proposto | - | perene | [manada.py buscar (yt-dlp via WARP), pesquisa/backlog-dossie-bolha-2026-11-24/murderinc: en: Michael Franzese 'Jewish Mafia' 1.676.731, Bloodletters 'Meyer Lansky' 707.853; em es quase nada (demanda incerta)](https://www.youtube.com/watch?v=wCqLupJsMkw) |
+| 24 | El Opus Dei | 4.6 (8·3·4) | proposto | - | perene | [busca yt-dlp es + videos.list: mediana top-10 em es (12 m) 122.957; 6 vídeos > 100 mil, 2 nos últimos 90 dias (La Nueva Enciclopedia 294.026 em 33 dias)](https://youtube.com/watch?v=frVDatN_0WM) |
 
 Prontos/publicados recentes: Los Templarios (publicado, ter 17/11); El MI6 (pronto, qui 19/11); Los Juicios de Núremberg (pronto, sex 20/11); La Yakuza (pronto, sáb 21/11); El GRU (pronto, dom 22/11); El Gulag (pronto, seg 23/11)
 
