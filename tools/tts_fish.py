@@ -140,6 +140,7 @@ def main():
     ap.add_argument("--pausa-frase", type=float, default=0.32, help="s de silêncio entre frases no modo --por-frase")
     ap.add_argument("--temperature", type=float)
     ap.add_argument("--top-p", type=float)
+    ap.add_argument("--velocidade", type=float, help="sobrepõe voz.velocidade do canal.yaml (prosody.speed; ex.: CTA de 15 s do Dossier, 24/11/2026)")
     a = ap.parse_args()
     cfg = yaml.safe_load(open(os.path.join(FABRICA, "canais", a.canal, "canal.yaml")))["voz"]
     if cfg.get("motor") != "fish":
@@ -147,6 +148,8 @@ def main():
     modelo = cfg.get("modelo", "s2.1-pro")
     if modelo not in PRECO_POR_MI_BYTES:
         sys.exit(f"Modelo {modelo} sem preço cadastrado em PRECO_POR_MI_BYTES.")
+    if a.velocidade:
+        cfg["velocidade"] = a.velocidade
     key = chave()
     os.makedirs(a.saida, exist_ok=True)
     if not a.bloco and cfg.get("modo") == "por_frase":

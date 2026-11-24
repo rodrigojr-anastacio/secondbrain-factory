@@ -6,11 +6,14 @@ Entradas: blocos.json, storyboard.json, audio/N###.mp3, imagens/I###.jpg
 Saídas:   public/audio/{voz,trilha,mix}.wav, public/img/ (links), src/timeline.json,
           out/legendas.srt, qa/blocos.json (tempos reais por bloco), qa/capitulos.json
 """
-import json, math, re, subprocess, wave
+import json, math, os, re, subprocess, sys, wave
 from pathlib import Path
 import numpy as np
 
 V = Path(__file__).resolve().parent.parent
+# CTA da HQ (24/11/2026): só entra se existir canais/dossie-es/cta/ATIVO; sem ele a montagem é idêntica à de antes
+sys.path.insert(0, os.environ.get("CTA_DIR", str(Path.home() / "workspace/fabrica-youtube/canais/dossie-es/cta")))
+import encaixe  # noqa: E402
 SR, FPS = 48000, 30
 # s de silêncio entre blocos do mesmo assunto / antes de bloco que abre ideia nova ("ideia": true) / antes de capítulo / início / fim
 GAP, GAP_IDEIA, GAP_CAP, HEAD, TAIL = 0.35, 0.9, 1.5, 0.25, 2.0
@@ -162,16 +165,40 @@ def main():
 
     gap = lambda b: GAP_CAP if b["id"] in caps_ini else GAP_IDEIA if b.get("ideia") else GAP   # silêncio antes do bloco
 
-    # 1) voz: blocos aparados e encadeados
-    partes, t = [np.zeros(int(HEAD * SR))], HEAD
-    for i, b in enumerate(blocos):
-        if i:
-            partes.append(np.zeros(int(gap(b) * SR))); t += gap(b)
-        x = aparar(ler_mp3(V / "audio" / f"{b['id']}.mp3"))
-        b["ini"] = round(t, 3); t += len(x) / SR; b["fim"] = round(t, 3)
-        partes.append(x)
-    partes.append(np.zeros(int(TAIL * SR)))
-    voz = np.concatenate(partes)
+    # 1) voz: blocos aparados e encadeados (com o CTA da HQ antes do bloco `antes`, se o ATIVO existir)
+    xs = {b["id"]: aparar(ler_mp3(V / "audio" / f"{b['id']}.mp3")) for b in blocos}
+    cta = encaixe.carregar()
+    cta_voz = None
+    if cta:
+        cta_voz = np.zeros(int(round(cta["duracao_s"] * SR)))
+        vv = ler_mp3(cta["voz_abs"]); vv *= 10 ** (-3 / 20) / (np.max(np.abs(vv)) + 1e-9)
+        i0 = int(cta["voz_off_s"] * SR); cta_voz[i0:i0 + len(vv)] = vv[: len(cta_voz) - i0]
+
+    def encadear(antes=None):
+        partes, t, cta_ini = [np.zeros(int(HEAD * SR))], HEAD, None
+        for i, b in enumerate(blocos):
+            if i:
+                if b["id"] == antes:
+                    partes.append(np.zeros(int(encaixe.GAP_ANTES * SR))); t += encaixe.GAP_ANTES
+                    cta_ini = round(t, 3); partes.append(cta_voz); t += len(cta_voz) / SR
+                partes.append(np.zeros(int(gap(b) * SR))); t += gap(b)
+            x = xs[b["id"]]
+            b["ini"] = round(t, 3); t += len(x) / SR; b["fim"] = round(t, 3)
+            partes.append(x)
+        partes.append(np.zeros(int(TAIL * SR)))
+        return np.concatenate(partes), cta_ini
+
+    voz, cta_ini = encadear()
+    antes = None
+    if cta:
+        antes = encaixe.escolher([(b["id"], b["ini"]) for b in blocos if b["id"] in caps_ini], len(voz) / SR)
+        if antes:
+            voz, cta_ini = encadear(antes)
+            cta_fim = cta_ini + len(cta_voz) / SR
+            print(f"CTA da HQ antes de {antes}: {cta_ini:.2f}–{cta_fim:.2f} s", file=sys.stderr)
+        else:
+            cta = None
+            print("CTA da HQ: nenhuma troca de capítulo entre 2:00 e o último minuto; vídeo sem CTA", file=sys.stderr)
     voz *= 10 ** (-3 / 20) / (np.max(np.abs(voz)) + 1e-9)   # pico em -3 dBFS; o loudnorm acerta o volume final
     dur = len(voz) / SR
     (V / "public/audio").mkdir(parents=True, exist_ok=True)
@@ -185,6 +212,9 @@ def main():
     for i, b in enumerate(blocos):
         a = 0 if i == 0 else b["ini"] - gap(b) / 2
         z = dur if i == len(blocos) - 1 else blocos[i + 1]["ini"] - gap(blocos[i + 1]) / 2
+        if cta:   # o bloco anterior vai até a fusão de entrada do CTA; o capítulo seguinte começa na fusão de saída
+            if i + 1 < len(blocos) and blocos[i + 1]["id"] == antes: z = cta_ini + encaixe.XF / FPS
+            if b["id"] == antes: a = cta_fim - encaixe.XF / FPS
         ps = por_bloco[b["id"]]
         est = sum(p["fim"] - p["ini"] for p in ps)
         acc = a
@@ -199,6 +229,10 @@ def main():
     for k, s in enumerate(shots):
         nxt = shots[k + 1]["from"] if k + 1 < len(shots) else total_frames
         s["dur"] = nxt - s["from"]
+    if cta:   # o plano que vai até o CTA termina na fusão de entrada (o bloco cobre a tela; o Ken Burns não fica lento)
+        cf = round(cta_ini * FPS) + encaixe.XF
+        for s_ in shots:
+            if s_["from"] < cf < s_["from"] + s_["dur"]: s_["dur"] = cf - s_["from"]
     # 2b) trilha + SFX (mesma regra de atraso dos rótulos do Video.jsx: esperam o cartão de expediente sair)
     CARD = 100
     teclas, carimbos = [], [(c["from"] + 4 + 16) / FPS for c in caps]
@@ -212,14 +246,23 @@ def main():
         ini = k["from"] + 4 + CARD if k else c["from"] + 6
         teclas.append(((ini + 4) / FPS, len(c["text"])))
     musica = ducking(voz, trilha(dur)) + sfx(dur, teclas, carimbos)
+    if cta:   # SFX do bloco (carimbos, folhas); a trilha do vídeo segue por baixo com ducking na voz do CTA
+        fx = ler_mp3(cta["sfx_abs"]); j0 = int(cta_ini * SR)
+        musica[j0:j0 + len(fx)] += fx[: len(musica) - j0]
     salvar(V / "public/audio/trilha.wav", musica)
     salvar(V / "public/audio/mix_pre.wav", voz + musica)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(V / "public/audio/mix_pre.wav"),
                     "-af", "loudnorm=I=-15:TP=-1.5:LRA=11", "-ar", str(SR), "-ac", "2", str(V / "public/audio/mix.wav")], check=True)
     (V / "public/audio/mix_pre.wav").unlink()
     (V / "src").mkdir(exist_ok=True)
-    json.dump({"fps": FPS, "frames": total_frames, "shots": shots, "cards": cards, "chapters": caps},
-              open(V / "src/timeline.json", "w"), ensure_ascii=False, indent=0)
+    tl = {"fps": FPS, "frames": total_frames, "shots": shots, "cards": cards, "chapters": caps}
+    if cta:
+        tl["cta"] = {"from": round(cta_ini * FPS), "dur": cta["frames"], "xf": encaixe.XF, "src": "cta/cta-hq.mp4"}
+        (V / "public/cta").mkdir(parents=True, exist_ok=True)
+        dst = V / "public/cta/cta-hq.mp4"
+        if dst.exists() or dst.is_symlink(): dst.unlink()
+        dst.hardlink_to(cta["video_abs"])
+    json.dump(tl, open(V / "src/timeline.json", "w"), ensure_ascii=False, indent=0)
 
     # 3) imagens no public/ (hard links)
     (V / "public/img").mkdir(parents=True, exist_ok=True)
@@ -230,13 +273,22 @@ def main():
 
     # 4) legendas (.srt separado) e tempos reais
     (V / "out").mkdir(exist_ok=True); (V / "qa").mkdir(exist_ok=True)
-    (V / "out/legendas.srt").write_text(legendas(blocos))
+    leg = blocos
+    if cta:   # linhas do CTA no .srt, com os tempos reais da voz dentro do bloco
+        leg = sorted(blocos + [{"texto": l["texto"], "ini": round(cta_ini + l["ini"], 3), "fim": round(cta_ini + l["fim"], 3)}
+                               for l in cta["legenda"]], key=lambda b: b["ini"])
+        json.dump({"antes_de": antes, "ini_s": cta_ini, "fim_s": round(cta_fim, 3), "pct": round(cta_ini / dur * 100, 1),
+                   "link": cta["link"]}, open(V / "qa/cta.json", "w"), ensure_ascii=False, indent=1)
+    elif (V / "qa/cta.json").exists():
+        (V / "qa/cta.json").unlink()
+    (V / "out/legendas.srt").write_text(legendas(leg))
     json.dump([{k: b[k] for k in ("id", "ini", "fim")} for b in blocos], open(V / "qa/blocos.json", "w"), indent=0)
     json.dump(caps, open(V / "qa/capitulos.json", "w"), ensure_ascii=False, indent=1)
     durs = [s["dur"] / FPS for s in shots]
     print(json.dumps({"duracao_s": round(dur, 1), "planos": len(shots), "plano_min_s": round(min(durs), 2),
                       "plano_max_s": round(max(durs), 2), "plano_medio_s": round(sum(durs) / len(durs), 2),
-                      "cortes_por_min": round(len(shots) / dur * 60, 1), "cartoes": len(cards), "rotulos": sum(1 for s in shots if s.get("rot"))}, ensure_ascii=False))
+                      "cortes_por_min": round(len(shots) / dur * 60, 1), "cartoes": len(cards), "rotulos": sum(1 for s in shots if s.get("rot")),
+                      **({"cta_ini_s": cta_ini, "cta_pct": round(cta_ini / dur * 100, 1)} if cta else {})}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

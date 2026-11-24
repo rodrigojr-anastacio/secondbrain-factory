@@ -1,0 +1,39 @@
+{
+ "versao": "2026-11-24",
+ "duracao_s": 15.0,
+ "frames": 450,
+ "fps": 30,
+ "voz_off_s": 0.25,
+ "voz_fim_s": 14.58,
+ "texto": "Si te están gustando estos expedientes, hay otros que nunca llegaron al canal: los guardamos para un cómic. Expedientes Secretos. Historias reales de espionaje, con un póster y fondos de pantalla de regalo. El enlace está en la descripción y en el comentario fijado.",
+ "legenda": [
+  {
+   "ini": 0.25,
+   "fim": 5.59,
+   "texto": "Si te están gustando estos expedientes, hay otros que nunca\nllegaron al canal: los guardamos para un cómic."
+  },
+  {
+   "ini": 6.21,
+   "fim": 11.37,
+   "texto": "Expedientes Secretos. Historias reales de espionaje,\ncon un póster y fondos de pantalla de regalo."
+  },
+  {
+   "ini": 11.77,
+   "fim": 14.58,
+   "texto": "El enlace está en la descripción\ny en el comentario fijado."
+  }
+ ],
+ "arquivos": {
+  "video": "cta-hq.mp4",
+  "voz": "cta-hq.wav",
+  "sfx": "cta-sfx.wav"
+ },
+ "interruptor": "ATIVO (1ª linha = link da Hotmart); sem ele o build.py ignora o CTA",
+ "voz": {
+  "motor": "fish",
+  "modelo": "s2.1-pro",
+  "voz": "ac594943984a47e7a827416eb263c7b1",
+  "velocidade": 1.25,
+  "pausa_frase_s": 0.25
+ }
+}

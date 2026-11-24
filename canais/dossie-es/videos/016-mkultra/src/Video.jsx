@@ -1,5 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, Easing, Img, Sequence, interpolate, staticFile, useCurrentFrame } from 'remotion';
+import { AbsoluteFill, Easing, Img, OffthreadVideo, Sequence, interpolate, staticFile, useCurrentFrame } from 'remotion';
 import { Audio } from '@remotion/media';
 import { loadFont as loadElite } from '@remotion/google-fonts/SpecialElite';
 import { loadFont as loadBebas } from '@remotion/google-fonts/BebasNeue';
@@ -159,6 +159,14 @@ export const Expediente = ({ title, dur }) => {
   );
 };
 
+// CTA da HQ (24/11/2026): bloco de 15 s (canais/dossie-es/cta/cta-hq.mp4) só quando o build.py achou o ATIVO;
+// mudo aqui (voz e SFX já estão no mix.wav), com fusão de timeline.cta.xf quadros na entrada e na saída.
+const CtaHQ = ({ c }) => {
+  const f = useCurrentFrame();
+  const o = interpolate(f, [0, c.xf, c.dur - c.xf, c.dur], [0, 1, 1, 0], clamp);
+  return <AbsoluteFill style={{ opacity: o, background: '#000' }}><OffthreadVideo src={staticFile(c.src)} muted /></AbsoluteFill>;
+};
+
 export const CARD_DUR = 100;   // frames do cartão de expediente (o build.py usa o mesmo valor para o carimbo)
 
 export const INQ = () => {
@@ -189,6 +197,7 @@ export const INQ = () => {
       {chapters.map((c, i) => (
         <Sequence key={`k${i}`} from={c.from + 4} durationInFrames={CARD_DUR}><Expediente title={c.title} dur={CARD_DUR} /></Sequence>
       ))}
+      {timeline.cta && <Sequence from={timeline.cta.from} durationInFrames={timeline.cta.dur}><CtaHQ c={timeline.cta} /></Sequence>}
       <Audio src={staticFile('audio/mix.wav')} />
     </AbsoluteFill>
   );
