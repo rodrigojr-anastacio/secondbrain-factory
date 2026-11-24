@@ -9,6 +9,11 @@ Regra de canal: **prevalece** sobre `conhecimento/titulos.md`.
 - **Termo com mais demanda, medido (004, 05/11/2026):** entre os vídeos de história em es (busca yt-dlp, 6 consultas, sem músicas/filmes), "Cosa Nostra" aparece em 24 títulos (mediana top-10 ~451 mil), "Mafia italiana" em 13 (~259 mil) e "Mafia siciliana" em 4 (~90 mil). Para temas com vários nomes, meça assim antes de escolher X.
 - Em es, o molde aparece como "TODA la Historia de X en N Minutos" ou "La HISTORIA COMPLETA de X", às vezes com subtítulo ("| El Servicio Secreto Más Temido del Mundo"). [LEVANTAMENTO §2a, O]
 
+## Nome pouco conhecido: dizer o que é (24/11/2026, Rodrigo)
+- Se o nome da organização não é famoso em es ('Ndrangheta, Camorra, Bratva/vory, Tríadas, Garduña, Outfit, ODESSA, Murder Inc.), o **título diz o que ela é já nas primeiras palavras**: "mafia" + país/cidade ("La 'Ndrangheta: la mafia de Calabria…", "La mafia rusa…", "La mafia china…"). Só o nome sozinho não basta: o público da Cosa Nostra não reconhece "'Ndrangheta".
+- Modelo: Cosa Nostra (nome + "mafia" reconhecível) e Yakuza (thumb que grita Japão). Se houver termo mais buscado (ex. "mafia rusa" × "Bratva"), meça como no 004 e use o mais buscado no título.
+- Vale junto com a thumb (`thumb.md`, "Ícone cultural"): título diz **o que é**, thumb mostra **de onde é**.
+
 ## O que performa (Archive in Minutes, en, 2026-11-04)
 - **[O]** Organizações de repressão/espionagem com nome famoso: Gestapo 349 mil, SS 317 mil, KGB 236 mil, Mossad 146 mil, CIA 141 mil, Soviet Union 126 mil, Cold War 117 mil, Stasi 114 mil, MI6 109 mil, Beria 86 mil.
 - **[O]** Flopa: organização que o público não conhece (NKVD 22 mil, Abwehr 33 mil), evento pontual ou fora do eixo (Titanic 11 mil, Romanovs 36 mil, Barbarossa 34 mil, Berlin Wall 40 mil).
