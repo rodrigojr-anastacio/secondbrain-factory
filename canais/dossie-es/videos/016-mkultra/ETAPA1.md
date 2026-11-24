@@ -14,3 +14,10 @@
 - Exp. 12: abre na página tachada a caneta; Senado/conteúdo no meio; Sun 1997 + juiz Medina no fim.
 - Bloco do Cameron: sem "financiado".
 - Resultado: 1.882 palavras, ~13:18; Honduras 10:03–12:20 (~137 s).
+
+
+## Reescrita 2 (crivo de ângulo r2 REPROVADO, 24/11/2026; última reescrita permitida)
+- Exp. 10 "El Testigo" → **"Las Cuentas"**: abre nas contas de James Moore (Delaware; US$ 1.147 cogumelos, US$ 433 mescalina, US$ 12.000 por 1/4 de tonelada de fluothane; Marks cap. 7). Audiência de 1977 + 149/44 + Cameron numa frase só (7 caixas do arquivo de registros retirados). Laubinger saiu.
+- Pontes: cortadas "La droga nunca llegó… sí viajó" (N056) e "no fue una droga. Fue el método" (N061). Ponte factual: KUBARK jul/1963 → seções reaparecem no manual da CIA de 1983 → "hay que ir a Honduras"; fim do exp. 11: "Y de ese curso salieron papeles."
+- McCoy (1 vez, exp. 10): "Según el historiador Alfred McCoy, en julio de mil novecientos sesenta y tres ese método quedó codificado en un manual secreto: KUBARK."
+- A tese buscar/dejar só no cierre (N070). 1.894 palavras, ~13:23; exp. 10 9:13–10:25; Honduras (exp. 11–12) 10:25–12:26 (~121 s).

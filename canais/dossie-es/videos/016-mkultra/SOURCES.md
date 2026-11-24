@@ -52,16 +52,19 @@ Abreviações: **Marks** = J. Marks, *The Search for the "Manchurian Candidate"*
 - 1966, J. C. King, ex-chefe da Western Hemisphere Division, "with considerable CIA backing", "ostensibly private firm called Amazon Natural Drug Company"; houseboat e scotch; ≥ 2 paramilitares da CIA nos escritórios de Iquitos; *Chondodendron toxicoferum*, agente paralisante (curare); yagé coletado e cultivado; botânico de Harvard (Plowman) "unwitting": Marks cap. 12 (fontes orais de ex-funcionários; FATOS-D §1).
 - Fim do MKSEARCH em jun/1972 (doc. S-14-3, 10/07/1972): Marks cap. 12. Destruição em jan/1973 por ordem verbal de Gottlieb cumprindo ordem verbal de Helms: BK1 p. 389.
 
-## 10. El Testigo
+## 10. Las Cuentas (reescrita 2, crivo de ângulo r2)
 - Audiência de 03/08/1977; pastas financeiras achadas em 1977 por pedidos FOIA (7 caixas, Laubinger); 149 subprojetos; 44 universidades: AUD pp. 4–7, 14.
 - Cameron (Montreal): pacientes processaram a CIA (Orlikow v. United States, acordo de 1988, US$ 750 mil): FATOS-B (CIA Reading Room / Canadian Encyclopedia). **[RESOLVIDO r1]** a palavra "financiado" saiu; o texto agora diz só "el nombre del psiquiatra Ewen Cameron, en Montreal, cuyos pacientes demandarían después a la CIA" (o nome nos papéis de 1977 = Subprojeto 68, secundário amplamente citado).
-- Laubinger: "I know of no drugs or anything like that developed under this program that ever reached operational use": AUD p. 43.
+- **[r2 crivo de ângulo: removido]** Laubinger como resposta do capítulo e a abertura na audiência de 03/08/1977 (cena do Archive). A audiência fica em 1 frase (7 caixas do Retired Records Center achadas em mar/1977 por Laubinger, AUD p. 14; 149 subprojetos/44 universidades, AUD pp. 4–7).
+- Abertura: contas de James Moore, professor na Univ. de Delaware sob contrato CIA (Marks cap. 7; FATOS-A §1.4 e l.41).
+- KUBARK, jul/1963 (FATOS-C F1.1, NSA EBB 122). "Según el historiador Alfred McCoy … ese método quedó codificado en un manual secreto: KUBARK": McCoy diz que a CIA "codified these results" (a década de pesquisa) no KUBARK de 1963 (Democracy Now 17/02/2006; FATOS-C F1.6). Única atribuição a McCoy no roteiro.
+- "Secciones del KUBARK reaparecen en otro manual de la CIA, de 1983": NSA EBB 122 (o HRET de 1983 compila seções do KUBARK + Project X) e relatório do Congresso ("drew on the 1963 KUBARK manual"): FATOS-C F2.1, F4.4.
 - **[r1 crivo de ângulo: removido]** Gittinger e a frase-resposta saíram (era a cena-resposta do Archive). No lugar: contas de James Moore — US$ 1.147,60 em cogumelos, US$ 433,13 em mescalina, US$ 12.000 por um quarto de tonelada de fluothane (anestésico): Marks cap. 7 e notas; FATOS-A §1 (nota sobre Moore). Ponte "seis años después, llegó a Honduras" (1977 → 1983).
 - "Más de veinte años": BLUEBIRD 1950 → fim do MKSEARCH 1972.
 
 ## 11. El Curso
-- **[r1 crivo de ângulo: removido]** a síntese KUBARK (droga → isolamento/estresse) saiu. Abertura agora na cena de 1983: oficial da CIA visita Inés Murillo na cela (admitido por Stolz, jun/1988; ~78–80 dias de detenção ilegal pelo 3-16): FATOS-C F3.5, F3.6; Sun97. "Fue el método, según el historiador Alfred McCoy" (1 vez, fim do exp. 11): McCoy, *A Question of Torture* (2006), via Democracy Now 17/02/2006.
-- "El método, según el historiador Alfred McCoy" (Obrigação do EMBALAGEM).
+- **[r1 crivo de ângulo: removido]** a síntese KUBARK (droga → isolamento/estresse) saiu. Abertura agora na cena de 1983: oficial da CIA visita Inés Murillo na cela (admitido por Stolz, jun/1988; ~78–80 dias de detenção ilegal pelo 3-16): FATOS-C F3.5, F3.6; Sun97. **[r2: removido]** "Fue el método, según McCoy" (fim do exp. 11) saiu; agora "Y de ese curso salieron papeles" (ponte factual para N065: o manual nasceu das notas do curso, relatório do Senado de 1989, FATOS-C F2.1).
+- Obrigação do EMBALAGEM ("el método, según el historiador Alfred McCoy"): cumprida no exp. 10 (atribuição a um fato específico: a codificação no KUBARK de 1963).
 - Stolz (diretor adjunto de operações da CIA), jun/1988, Senado: curso de 1983 em Honduras, 3 semanas de aula + 2 de prática com presos reais; "Physical abuse or other degrading treatment was rejected"; visita de um oficial da CIA à cela de Inés Murillo: Sun97; NSA "Hidden Truths"; FATOS-C F2.8, F3.5, F3.6.
 - Batalhão 3-16 (1981–82, ano não cravado → "en esos años"); 184 casos de desaparecimento documentados pelo Comisionado Nacional de DDHH (1993/94): NSA "Hidden Truths"; FATOS-C F3.1–F3.2.
 - Murillo: ~78–80 dias de detenção ilegal em 1983 → "casi ochenta días": Sun97 / Comisionado.
@@ -89,7 +92,7 @@ Manada transcrita: Archive in Minutes `o7tcLlrUiAk`, Detrás del Enigma `h9c-vZ2
 | 7 Los Puros | charutos com toxina, 1960–61 | não |
 | 8 La Silla | teste de hipnose na Cidade do México, 1963 | não |
 | 9 La Selva | Amazon Natural Drug Co., Iquitos 1966 | não |
-| 10 El Testigo | Laubinger na audiência de 1977 + as contas de Moore (cogumelos, mescalina, fluothane) | parcial (as caixas aparecem na manada em 1 frase; Laubinger e as contas de Moore não) |
+| 10 Las Cuentas | as contas de Moore (cogumelos, mescalina, fluothane) + KUBARK 1963 segundo McCoy | não (as caixas aparecem na manada em 1 frase, aqui também em 1 frase de contexto) |
 | 11 El Curso | Murillo na cela + Stolz 1988 + curso de 1983 | não |
 | 12 La Tachadura | abre na página corrigida a caneta; liberação de 1997 só no fim | não (o Archive fala do KUBARK e abre/fecha com o jornal; aqui o objeto abre) |
 | Cierre | Hofmann e as pílulas em Huautla, 1962; a casa queimada | não |

@@ -122,12 +122,12 @@ b("Envían a Estados Unidos una liana paralizante, base del curare, y cultivan y
 b("En mil novecientos setenta y dos, la CIA cierra MKSearch. En enero de mil novecientos setenta y tres, por orden verbal del director Richard Helms, se destruyen los archivos de MKUltra.", ideia=True)
 
 # ───────────────────────── 10. EL TESTIGO ─────────────────────────
-cap("10. El Testigo")
-b("El Testigo. Washington, tres de agosto de mil novecientos setenta y siete. Ante el Senado, la CIA responde por fin qué consiguió.", card="WASHINGTON, 1977", ideia=True)
-b("Ese año se habían encontrado papeles financieros que escaparon a la destrucción: ciento cuarenta y nueve subproyectos, cuarenta y cuatro universidades. Y el nombre del psiquiatra Ewen Cameron, en Montreal, cuyos pacientes demandarían después a la CIA.")
-b("Un funcionario, Frank Laubinger, dice que no conoce ninguna droga del programa que haya llegado a uso operativo.")
-b("Entre esos papeles aparecen también las cuentas de James Moore, el químico de Huautla. Según Marks: mil ciento cuarenta y siete dólares en hongos, cuatrocientos treinta y tres en mescalina… y doce mil dólares por un cuarto de tonelada de fluothane, un anestésico.")
-b("La droga nunca llegó a operaciones. Pero lo que la CIA aprendió sobre interrogar sí viajó. Y seis años después, llegó a Honduras.", ideia=True)
+cap("10. Las Cuentas")
+b("Las Cuentas. Universidad de Delaware. El químico de la velada de Huautla, James Moore, sigue cobrando de la CIA. Y le pasa sus cuentas.", card="LAS CUENTAS DE MOORE", ideia=True)
+b("Según Marks: mil ciento cuarenta y siete dólares en hongos. Cuatrocientos treinta y tres en mescalina. Y doce mil dólares por un cuarto de tonelada de fluothane, un anestésico.")
+b("Papeles así escaparon a la destrucción: siete cajas olvidadas en un archivo de registros retirados, que en mil novecientos setenta y siete llegan al Senado con ciento cuarenta y nueve subproyectos, cuarenta y cuatro universidades y el nombre del psiquiatra Ewen Cameron, en Montreal, cuyos pacientes demandarían después a la CIA.")
+b("Mientras Moore facturaba hongos, otra oficina de la CIA escribía lo que había aprendido sobre interrogar. Según el historiador Alfred McCoy, en julio de mil novecientos sesenta y tres ese método quedó codificado en un manual secreto: KUBARK.")
+b("Veinte años después, secciones del KUBARK reaparecen en otro manual de la CIA, de mil novecientos ochenta y tres. Para saber de dónde salió, hay que ir a Honduras.", ideia=True)
 
 # ───────────────────────── 11. EL CURSO ─────────────────────────
 cap("11. El Curso")
@@ -135,7 +135,7 @@ b("El Curso. Honduras, mil novecientos ochenta y tres. Una abogada, Inés Murill
 b("Lo sabemos porque la propia CIA lo admitió. En mil novecientos ochenta y ocho, Richard Stolz, subdirector de operaciones de la agencia, reconoce esa visita ante el Senado. Murillo pasó casi ochenta días detenida ilegalmente.")
 b("La había detenido el Batallón tres dieciséis, una unidad secreta del ejército hondureño. El Comisionado Nacional de Derechos Humanos documentó ciento ochenta y cuatro casos de desaparición.")
 b("En esas mismas audiencias, Stolz describe el curso que la CIA dio ese año a militares hondureños: tres semanas de clase y dos de práctica, con presos reales. Asegura que el maltrato físico se rechazó.")
-b("Lo que quedó en Honduras no fue una droga. Fue el método, según el historiador Alfred McCoy. Y ese método quedó escrito.", ideia=True)
+b("Y de ese curso salieron papeles.", ideia=True)
 
 # ───────────────────────── 12. LA TACHADURA ─────────────────────────
 cap("12. La Tachadura")

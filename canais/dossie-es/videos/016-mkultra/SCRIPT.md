@@ -4,7 +4,7 @@ Promessa: La historia entera de MKUltra contada por lo que la CIA vino a buscar 
 
 Títulos: T1 TODA la historia de MKUltra en 13 minutos | Del laboratorio de la CIA a América Latina / T2 Cómo la CIA buscó en América Latina la droga del control mental / T3 MKULTRA: lo que la CIA vino a buscar a México… y lo que dejó
 
-Gerado por `roteiro.py` (fonte única; edite lá). 1882 palavras, ~13:17.9 estimados a 143 ppm (com as pausas entre frases).
+Gerado por `roteiro.py` (fonte única; edite lá). 1894 palavras, ~13:22.9 estimados a 143 ppm (com as pausas entre frases).
 Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish). Storyboard ainda não feito.
 
 ## Hook
@@ -139,17 +139,17 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish). Stor
 **[N051]** En mil novecientos setenta y dos, la CIA cierra MKSearch. En enero de mil novecientos setenta y tres, por orden verbal del director Richard Helms, se destruyen los archivos de MKUltra.
 
 
-## 10. El Testigo
+## 10. Las Cuentas
 
-**[N052]** El Testigo. Washington, tres de agosto de mil novecientos setenta y siete. Ante el Senado, la CIA responde por fin qué consiguió.
+**[N052]** Las Cuentas. Universidad de Delaware. El químico de la velada de Huautla, James Moore, sigue cobrando de la CIA. Y le pasa sus cuentas.
 
-**[N053]** Ese año se habían encontrado papeles financieros que escaparon a la destrucción: ciento cuarenta y nueve subproyectos, cuarenta y cuatro universidades. Y el nombre del psiquiatra Ewen Cameron, en Montreal, cuyos pacientes demandarían después a la CIA.
+**[N053]** Según Marks: mil ciento cuarenta y siete dólares en hongos. Cuatrocientos treinta y tres en mescalina. Y doce mil dólares por un cuarto de tonelada de fluothane, un anestésico.
 
-**[N054]** Un funcionario, Frank Laubinger, dice que no conoce ninguna droga del programa que haya llegado a uso operativo.
+**[N054]** Papeles así escaparon a la destrucción: siete cajas olvidadas en un archivo de registros retirados, que en mil novecientos setenta y siete llegan al Senado con ciento cuarenta y nueve subproyectos, cuarenta y cuatro universidades y el nombre del psiquiatra Ewen Cameron, en Montreal, cuyos pacientes demandarían después a la CIA.
 
-**[N055]** Entre esos papeles aparecen también las cuentas de James Moore, el químico de Huautla. Según Marks: mil ciento cuarenta y siete dólares en hongos, cuatrocientos treinta y tres en mescalina… y doce mil dólares por un cuarto de tonelada de fluothane, un anestésico.
+**[N055]** Mientras Moore facturaba hongos, otra oficina de la CIA escribía lo que había aprendido sobre interrogar. Según el historiador Alfred McCoy, en julio de mil novecientos sesenta y tres ese método quedó codificado en un manual secreto: KUBARK.
 
-**[N056]** La droga nunca llegó a operaciones. Pero lo que la CIA aprendió sobre interrogar sí viajó. Y seis años después, llegó a Honduras.
+**[N056]** Veinte años después, secciones del KUBARK reaparecen en otro manual de la CIA, de mil novecientos ochenta y tres. Para saber de dónde salió, hay que ir a Honduras.
 
 
 ## 11. El Curso
@@ -162,7 +162,7 @@ Os blocos [Nxxx] são os mesmos de `blocos.json` (lá com as tags do Fish). Stor
 
 **[N060]** En esas mismas audiencias, Stolz describe el curso que la CIA dio ese año a militares hondureños: tres semanas de clase y dos de práctica, con presos reales. Asegura que el maltrato físico se rechazó.
 
-**[N061]** Lo que quedó en Honduras no fue una droga. Fue el método, según el historiador Alfred McCoy. Y ese método quedó escrito.
+**[N061]** Y de ese curso salieron papeles.
 
 
 ## 12. La Tachadura

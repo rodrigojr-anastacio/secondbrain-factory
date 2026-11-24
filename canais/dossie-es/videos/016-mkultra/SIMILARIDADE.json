@@ -3,7 +3,7 @@
  "roteiro": "canais/dossie-es/videos/016-mkultra/blocos.json",
  "idioma": "es",
  "blocos": 71,
- "nota": 3.6,
+ "nota": 1.8,
  "veredito": "ok",
  "limites": {
   "ATENCAO": 18,
@@ -17,11 +17,11 @@
  ],
  "referencias": [
   {
-   "cobertura": 0.04225352112676056,
-   "ordem": 1.0,
-   "ngramas": 0.003218884120171674,
-   "sim_media": 0.1455511772355884,
-   "gemeos": 3,
+   "cobertura": 0.028169014084507043,
+   "ordem": 0.0,
+   "ngramas": 0.0032119914346895075,
+   "sim_media": 0.13972764430313916,
+   "gemeos": 2,
    "blocos": 71,
    "posicoes": [
     [
@@ -31,10 +31,6 @@
     [
      51,
      172
-    ],
-    [
-     52,
-     198
     ]
    ],
    "trechos": [
@@ -49,26 +45,20 @@
      "cos": 0.36,
      "nosso": "En mil novecientos setenta y dos, la CIA cierra MKSearch. En enero de mil novecientos setenta y tres, por orden verbal del director Richard Helms, se destruyen los archivos de MKUltra.",
      "ref": "empuja a Helms a salir. En enero de 1973, Gottlieb da la orden verbal, y su equipo destruye los archivos de MKUltra. Ambos hombres afirman"
-    },
-    {
-     "bloco": 52,
-     "cos": 0.31,
-     "nosso": "El Testigo. Washington, tres de agosto de mil novecientos setenta y siete. Ante el Senado, la CIA responde por fin qué consiguió.",
-     "ref": "nunca se escribió, o se destruyó. El 3 de agosto de 1977, el director de la CIA, el almirante Stansfield Turner, declara ante el Senado. El senador"
     }
    ],
    "ref": "canais/dossie-es/videos/016-mkultra/ref/manada-o7tcLlrUiAk.txt",
    "idioma_ref": "en",
    "traduzido": true,
    "palavras_ref": 3125,
-   "nota": 3.6,
+   "nota": 1.8,
    "veredito": "ok"
   },
   {
    "cobertura": 0.028169014084507043,
    "ordem": 0.0,
    "ngramas": 0.0,
-   "sim_media": 0.12209951362716479,
+   "sim_media": 0.11908567073068373,
    "gemeos": 2,
    "blocos": 71,
    "posicoes": [
@@ -105,8 +95,8 @@
   {
    "cobertura": 0.014084507042253521,
    "ordem": 0.0,
-   "ngramas": 0.004291845493562232,
-   "sim_media": 0.1278315664223195,
+   "ngramas": 0.004282655246252677,
+   "sim_media": 0.12604726687198767,
    "gemeos": 1,
    "blocos": 71,
    "posicoes": [
@@ -133,8 +123,8 @@
   {
    "cobertura": 0.014084507042253521,
    "ordem": 0.0,
-   "ngramas": 0.002145922746781116,
-   "sim_media": 0.13010033917129274,
+   "ngramas": 0.0021413276231263384,
+   "sim_media": 0.1306915124167777,
    "gemeos": 1,
    "blocos": 71,
    "posicoes": [
@@ -161,8 +151,8 @@
   {
    "cobertura": 0.014084507042253521,
    "ordem": 0.0,
-   "ngramas": 0.001072961373390558,
-   "sim_media": 0.09461412268066899,
+   "ngramas": 0.0010706638115631692,
+   "sim_media": 0.09041836680666912,
    "gemeos": 1,
    "blocos": 71,
    "posicoes": [
@@ -189,8 +179,8 @@
   {
    "cobertura": 0.0,
    "ordem": 0.0,
-   "ngramas": 0.002145922746781116,
-   "sim_media": 0.12691139970988638,
+   "ngramas": 0.0021413276231263384,
+   "sim_media": 0.12488426851813404,
    "gemeos": 0,
    "blocos": 71,
    "posicoes": [],
