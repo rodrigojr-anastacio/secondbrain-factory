@@ -37,15 +37,23 @@ def aplicar(txt, linha, comentario, link):
     return txt
 
 
+def com_utm(base, slug, lugar):
+    sep = "&" if "?" in base else "?"
+    return f"{base}{sep}utm_source=youtube&utm_medium={lugar}&utm_campaign=expedientes-secretos-1&utm_content={slug}"
+
+
 def main():
     v = Path(sys.argv[1]).resolve()
     cta = encaixe.carregar()
     if not cta:
         print("sem ATIVO: pacote sem CTA da HQ"); return
-    linha, comentario = encaixe.textos(cta["link"])
+    # 24/11/2026: UTM por vídeo e por lugar (a Cakto grava utm_* em cada pedido → saber qual vídeo vendeu)
+    l_desc, l_com = com_utm(cta["link"], v.name, "descripcion"), com_utm(cta["link"], v.name, "comentario")
+    linha, _ = encaixe.textos(l_desc)
+    _, comentario = encaixe.textos(l_com)
     for p in (v / "out/youtube.txt", v / "entrega/pacote/youtube.txt"):
         if p.exists():
-            p.write_text(aplicar(p.read_text(), linha, comentario, cta["link"]))
+            p.write_text(aplicar(p.read_text(), linha, comentario, l_desc))
             print("CTA da HQ no pacote:", p)
     (v / "out").mkdir(exist_ok=True)
     (v / "out/comentario-fijado.txt").write_text(comentario + "\n")
