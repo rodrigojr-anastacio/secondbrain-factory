@@ -1,0 +1,34 @@
+TÍTULOS (pareados às thumbs do "Testar e comparar"; duração real 17:03, só na descrição)
+A · A Argentina já foi RICA. Por que apagou 13 zeros da moeda?   ↔ thumb-A.jpg (rosto-emoção: rapaz portenho de 1992 com riso nervoso e gota de suor, segurando um maço de cédulas velhas de 1969 com cinta "1.000.000"; "VALE NADA" com NADA em ouro)  · padrão do título: afirmação estranha + pergunta · padrão da thumb: rosto-emocao
+B · Argentina: como a CARNE e o TRIGO decidiram quem manda   ↔ thumb-B.jpg (conflito X×Y: produtor do pampa de chapéu campeiro × tangueiro portenho dos anos 1940, cara a cara puxando a mesma conta de papel, raio no meio; Sol de Maio no céu celeste × Obelisco; pílula "1946"; "QUEM PAGA?")  · padrão do título: Como [agente concreto] [verbo] [lugar] · padrão da thumb: conflito-xvy
+C · Por que a Argentina trocou de dinheiro 4 vezes em 22 anos?   ↔ thumb-C.jpg (número-estatística: "13 ZEROS" gigante em ouro e branco sobre azul-celeste profundo; cédula clara cortada por tesoura, zeros caindo)  · padrão do título: pergunta de transformação + número · padrão da thumb: numero-estatistica
+
+DESCRIÇÃO
+Gostou? Inscreva-se no canal, deixe o seu like e compartilhe com quem curte história.
+
+Primeiro de janeiro de 1992, Buenos Aires: você abre a gaveta do avô e encontra um maço de cédulas de 1969 com a cinta de um milhão de pesos, o preço de uma tropa vendida no pampa. Em vinte e dois anos, a Argentina trocou de dinheiro quatro vezes e apagou treze zeros. Neste vídeo (17 minutos), a história da Argentina contada por uma briga de duzentos anos: quem paga a conta. Do porto e da alfândega ao campo e à cidade, dos credores aos cortes de zeros, e o que acontece quando ninguém aceita pagar.
+
+0:00 Hook
+1:04 1. O porto que não podia ser porto
+2:27 2. A primeira conta
+3:46 3. O dono da alfândega
+5:14 4. Cada banco com sua impressora
+6:38 5. A algema de ouro
+8:01 6. A carne com letra miúda
+9:23 7. O campo paga a cidade
+10:49 8. O pêndulo
+12:37 9. O décimo terceiro zero
+14:36 10. O porto de hoje
+16:23 Fecho
+
+FONTES PRINCIPAIS
+Banco Central de la República Argentina (BCRA: história institucional, trocas de moeda); InfoLEG (leis 18.188, 23.928, decretos 22.707, 1096/85, 15.350/1946); Britannica (Viceroyalty of the Río de la Plata, Argentina: Perón era); Maddison Project; INDEC e CEPAL (inflação); CONADEP, Nunca Más (1984); Marichal, A Century of Debt Crises in Latin America (1989); Gerchunoff & Llach, El ciclo de la ilusión y el desencanto; Reinhart & Rogoff; La Nación; Infobae. Detalhe por cena em SOURCES.md.
+
+CRÉDITOS
+Narração e roteiro: História em minutos. Trilha original sintetizada (violão e cordas dedilhadas em Lá menor, ar de tango). Sem material de acervo de terceiros.
+
+TAGS
+argentina, história da argentina, economia da argentina, inflação, história do dinheiro, peso argentino, buenos aires, perón, história em minutos, dívida argentina, treze zeros, campo e cidade, tango, américa latina, história econômica
+
+CATEGORIA E CHECKLIST (o Rodrigo publica)
+Educação · Idioma: português (Brasil) · Uso de IA = Sim (Studio → Atributos) · Não é conteúdo para crianças · Legendas: subir legendas.srt · Thumbs e títulos: A/B/C no "Testar e comparar" pareados (thumb-A com o título A, thumb-B com o B, thumb-C com o C) · mp4 1080p (nunca o do Telegram) · Tema sensível (ditadura de 1976–83, desaparecidos, Milei): neutralidade factual, sem imagem gráfica. Janela sugerida: dom ou seg, a critério do Rodrigo.
