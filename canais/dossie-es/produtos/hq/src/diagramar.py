@@ -8,6 +8,8 @@ Entrada: paginas.json (layout em px de uma página 6×9 pol. a 300 dpi = 1800×2
   pagina-N.png (300 dpi, para o PDF), pagina-N.jpg (prévia ≤ 1 MB), capa.jpg, amostra.pdf.
 
 Uso: ~/workspace/fabrica-youtube/tools/.venv/bin/python diagramar.py [paginas.json]
+     ~/workspace/fabrica-youtube/tools/.venv/bin/python diagramar.py --livro ../001/livro.json   (PDF inteiro; ver LIVRO)
+Painel: "arte_dir" opcional por painel (relativo a ../); sem o .jpg → placeholder cinza com id + "placeholder".
 Coordenadas dos balões: "pos" = centro do balão em fração do retângulo do painel (pode vazar do painel);
 "alvo" = ponta do rabicho em fração da IMAGEM original do painel (a boca do personagem), convertido pelo recorte.
 """
@@ -73,7 +75,11 @@ class Painel:
             p = dict(p, rect=[min(xs), min(ys), max(xs) - min(xs), max(ys) - min(ys)])
             self.poly = [(q[0] * K, q[1] * K) for q in p["poly"]]
         self.x, self.y, self.w, self.h = [v * K for v in p["rect"]]
-        im = Image.open(os.path.join(arte, p["img"] + ".jpg")).convert("RGB")
+        arq = os.path.join(arte, p["img"] + ".jpg")
+        if not os.path.exists(arq):  # e1 (24/11/2026): arte ainda não gerada → placeholder cinza do tamanho do quadro
+            self.placeholder(p)
+            return
+        im = Image.open(arq).convert("RGB")
         self.W0, self.H0 = im.size
         z = p.get("zoom", 1.0)
         s = max(self.w / self.W0, self.h / self.H0) * z
@@ -83,6 +89,27 @@ class Painel:
         self.oy = min(max(fy * self.sh - self.h / 2, 0), self.sh - self.h)
         im = im.resize((round(self.sw), round(self.sh)), Image.LANCZOS)
         self.im = im.crop((round(self.ox), round(self.oy), round(self.ox) + round(self.w), round(self.oy) + round(self.h)))
+
+    def placeholder(self, p):
+        w, h = round(self.w), round(self.h)
+        im = Image.new("RGB", (w, h), (158, 158, 158))
+        d = ImageDraw.Draw(im)
+        for i in range(-h, w, 60 * K):  # hachura leve para não parecer arte pronta
+            d.line([(i, h), (i + h, 0)], fill=(150, 150, 150), width=2 * K)
+        fid = fonte("titulo", 64 if w > 700 * K else 44)
+        d.text((24 * K, 14 * K), p["img"] + "  ·  " + p.get("orient", ""), font=fid, fill=(60, 60, 60))
+        txt = p.get("placeholder", "")
+        if txt:
+            f = ImageFont.truetype(os.path.join(F, "ComicNeue-Regular.ttf"), int(30 * K))
+            linhas = quebrar(txt, f, w - 48 * K, d)
+            y = 90 * K
+            for ln in linhas:
+                if y > h - 40 * K:
+                    break
+                d.text((24 * K, y), ln, font=f, fill=(45, 45, 45))
+                y += 36 * K
+        self.im, self.W0, self.H0 = im, w, h
+        self.sw, self.sh, self.ox, self.oy = w, h, 0, 0
 
     def img2pag(self, u, v):
         return self.x + u * self.sw - self.ox, self.y + v * self.sh - self.oy
@@ -185,7 +212,7 @@ def pagina(pg, estilo_padrao):
     d = ImageDraw.Draw(base)
     paineis = {}
     for p in pg["paineis"]:
-        pn = Painel(p, arte)
+        pn = Painel(p, os.path.join(SAIDA, p["arte_dir"]) if p.get("arte_dir") else arte)
         paineis[p["img"]] = pn
         if pn.poly:
             m = Image.new("L", base.size, 0)
@@ -288,7 +315,158 @@ def salvar_previa(im, nome, larg=1200):
     print(nome, p.size, os.path.getsize(os.path.join(SAIDA, nome)) // 1024, "KB")
 
 
+LIVRO = """
+Modo livro (e1 da #1, 24/11/2026): `diagramar.py --livro <livro.json>` monta o PDF inteiro (capa, créditos, sumário,
+capas das histórias, páginas de quadros, "Lo que es real", pôster, final, contracapa). Arte que ainda não existe vira
+placeholder cinza com o id e a descrição do quadro. Tipos de página ("tipo"):
+  quadros (padrão)  = página de HQ igual às da amostra (paineis + textos)
+  imagem            = página inteira com uma imagem pronta ("img": caminho relativo a ../) ou placeholder
+  capa_historia     = arte de página inteira ("img") + título da história, "EXPEDIENTE N", ano/lugar, carimbo
+  texto             = papel + título + blocos [{"t": "h"|"p"|"carta"|"item", "texto": ...}] + "caixa" opcional
+                      (placeholder de miniatura/QR: {"rotulo", "rect"})
+Chaves do livro: "saida_dir" (pngs/jpgs, relativo a ../), "pdf" (relativo a ../), "larg_pdf" (px por página no PDF).
+"""
+
+
+def _cobrir(arq, w, h, rotulo, desc=""):
+    if arq and os.path.exists(arq):
+        im = Image.open(arq).convert("RGB")
+        s = max(w / im.width, h / im.height)
+        im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
+        return im.crop(((im.width - w) // 2, (im.height - h) // 2, (im.width - w) // 2 + w, (im.height - h) // 2 + h))
+    pn = Painel.__new__(Painel)
+    pn.w, pn.h = w, h
+    pn.placeholder({"img": rotulo, "placeholder": desc})
+    return pn.im
+
+
+def pagina_imagem(pg):
+    im = _cobrir(os.path.join(SAIDA, pg["img"]) if pg.get("img") else None, W * K, H * K,
+                 pg.get("rotulo", "IMAGEN"), pg.get("placeholder", ""))
+    return im.resize((W, H), Image.LANCZOS)
+
+
+def pagina_capa_historia(pg):
+    base = _cobrir(os.path.join(SAIDA, "arte-001", pg["img"] + ".jpg") if pg.get("img") else None, W * K, H * K,
+                   pg.get("img", "CAPA"), pg.get("placeholder", "")).convert("RGBA")
+    grad = Image.new("L", (1, H * K))
+    for y in range(H * K):
+        t = max(0.0, 1 - y / (H * K * 0.38))
+        b = max(0.0, (y / (H * K) - 0.82) / 0.18)
+        grad.putpixel((0, y), int(230 * max(t ** 1.3, b ** 1.2)))
+    sombra = Image.new("RGBA", (W * K, H * K), (8, 10, 18, 255))
+    sombra.putalpha(grad.resize((W * K, H * K)))
+    base.alpha_composite(sombra)
+    d = ImageDraw.Draw(base)
+    ft = fonte("titulo", 48)
+    topo = pg.get("topo", "EXPEDIENTES SECRETOS #1")
+    d.text(((W * K - d.textlength(topo, font=ft)) / 2, 60 * K), topo, font=ft, fill=(233, 223, 201))
+    exp = pg.get("expediente", "")
+    fe = fonte("titulo", 70)
+    d.text(((W * K - d.textlength(exp, font=fe)) / 2, 140 * K), exp, font=fe, fill=VERMELHO)
+    y = 240 * K
+    for txt in pg["titulo"].split("\n"):
+        px = 300 if len(txt) <= 8 else 230
+        f = fonte("sfx", px)
+        while d.textlength(txt, font=f) > (W - 160) * K:
+            px -= 10
+            f = fonte("sfx", px)
+        x = (W * K - d.textlength(txt, font=f)) / 2
+        d.text((x + 12 * K, y + 12 * K), txt, font=f, fill=VERMELHO, stroke_width=10 * K, stroke_fill=VERMELHO)
+        d.text((x, y), txt, font=f, fill="white", stroke_width=10 * K, stroke_fill=PRETO)
+        y += int(px * 1.02) * K
+    sub = pg.get("subtitulo", "")
+    fs = fonte("titulo", 76)
+    d.text(((W * K - d.textlength(sub, font=fs)) / 2, y + 20 * K), sub, font=fs, fill=(233, 223, 201),
+           stroke_width=3 * K, stroke_fill=PRETO)
+    rod = pg.get("rodape", "")
+    fr = fonte("titulo", 54)
+    d.text(((W * K - d.textlength(rod, font=fr)) / 2, (H - 150) * K), rod, font=fr, fill=(233, 223, 201))
+    car = Image.new("RGBA", (620 * K, 150 * K), (0, 0, 0, 0))
+    dc = ImageDraw.Draw(car)
+    dc.rectangle((8 * K, 8 * K, 612 * K, 142 * K), outline=VERMELHO, width=8 * K)
+    fc = fonte("titulo", 90)
+    t = "HECHOS REALES"
+    dc.text(((620 * K - dc.textlength(t, font=fc)) / 2, 22 * K), t, font=fc, fill=VERMELHO)
+    car = car.rotate(-8, expand=True, resample=Image.BICUBIC)
+    base.alpha_composite(car, (int(W * K - car.width - 70 * K), int(H * K - car.height - 260 * K)))
+    return base.convert("RGB").resize((W, H), Image.LANCZOS)
+
+
+def pagina_texto(pg):
+    escuro = pg.get("escuro", False)
+    fundo, tinta = ((17, 17, 17), (233, 223, 201)) if escuro else (PAPEL["cor"], PRETO)
+    base = Image.new("RGB", (W * K, H * K), fundo)
+    d = ImageDraw.Draw(base)
+    y = 160 * K
+    if pg.get("titulo"):
+        f = fonte("titulo", pg.get("px_titulo", 120))
+        for ln in quebrar(pg["titulo"], f, (W - 240) * K, d):
+            d.text(((W * K - d.textlength(ln, font=f)) / 2, y), ln, font=f, fill=VERMELHO)
+            y += int(pg.get("px_titulo", 120) * 1.0) * K
+        d.line([(300 * K, y + 20 * K), ((W - 300) * K, y + 20 * K)], fill=VERMELHO, width=5 * K)
+        y += 70 * K
+    x0, larg = 150 * K, (W - 300) * K
+    for b in pg.get("blocos", []):
+        t = b.get("t", "p")
+        px = b.get("px", {"h": 62, "p": 42, "carta": 36, "item": 38, "pequeno": 31}[t])
+        f = fonte("titulo", px) if t == "h" else (fonte("carta", px) if t == "carta" else
+                                                  ImageFont.truetype(os.path.join(F, "ComicNeue-Bold.ttf" if t != "pequeno" else "ComicNeue-Regular.ttf"), int(px * K)))
+        cor = VERMELHO if t == "h" else tinta
+        recuo = 34 * K if t == "item" else 0
+        texto = ("•  " + b["texto"]) if t == "item" else b["texto"]
+        linhas = quebrar(texto, f, larg - recuo, d)
+        _, _, lh = bloco(d, linhas, f, 1.15)
+        for ln in linhas:
+            if b.get("centro"):
+                d.text(((W * K - d.textlength(ln, font=f)) / 2, y), ln, font=f, fill=cor)
+            else:
+                d.text((x0 + recuo, y), ln, font=f, fill=cor)
+            y += lh
+        y += (14 if t in ("item", "pequeno") else 30) * K
+    for cx in pg.get("caixas", []):
+        x, yy, w, h = [v * K for v in cx["rect"]]
+        img = cx.get("img")
+        im = _cobrir(os.path.join(SAIDA, img) if img else None, round(w), round(h), cx.get("rotulo", ""),
+                     cx.get("placeholder", ""))
+        base.paste(im, (round(x), round(yy)))
+        d.rectangle((x, yy, x + w, yy + h), outline=tinta, width=5 * K)
+    if pg.get("numero"):
+        ft = fonte("titulo", 34)
+        n = str(pg["numero"])
+        d.text(((W - 80) * K - d.textlength(n, font=ft), (H - 72) * K), n, font=ft, fill=tinta)
+    return base.resize((W, H), Image.LANCZOS)
+
+
+def livro(arq):
+    cfg = json.load(open(arq))
+    pasta = os.path.join(SAIDA, cfg.get("saida_dir", "001/rascunho"))
+    os.makedirs(pasta, exist_ok=True)
+    larg = cfg.get("larg_pdf", 1200)
+    folhas = []
+    for i, pg in enumerate(cfg["paginas"], 1):
+        tipo = pg.get("tipo", "quadros")
+        if tipo == "quadros":
+            im = pagina(pg, cfg.get("estilo", "cor"))
+        elif tipo == "imagem":
+            im = pagina_imagem(pg)
+        elif tipo == "capa_historia":
+            im = pagina_capa_historia(pg)
+        else:
+            im = pagina_texto(pg)
+        nome = "p%02d-%s" % (i, pg.get("saida", tipo))
+        p = im.resize((larg, round(H * larg / W)), Image.LANCZOS)
+        p.save(os.path.join(pasta, nome + ".jpg"), "JPEG", quality=82, optimize=True)
+        folhas.append(p)
+        print(nome, flush=True)
+    pdf = os.path.join(SAIDA, cfg.get("pdf", "001/rascunho.pdf"))
+    folhas[0].save(pdf, "PDF", resolution=larg / 6, save_all=True, append_images=folhas[1:], quality=82)
+    print(os.path.relpath(pdf, SAIDA), len(folhas), "páginas", os.path.getsize(pdf) // 1024, "KB")
+
+
 def main():
+    if len(sys.argv) > 2 and sys.argv[1] == "--livro":
+        return livro(sys.argv[2])
     cfg = json.load(open(sys.argv[1] if len(sys.argv) > 1 else os.path.join(AQUI, "paginas.json")))
     folhas = []
     c = capa(cfg["capa"])

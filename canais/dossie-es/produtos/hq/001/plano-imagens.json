@@ -1,0 +1,441 @@
+{
+ "total_imagens": 148,
+ "contagem_quadros": {
+  "quadros": 146,
+  "novos": 133,
+  "reuso": 3,
+  "existentes": 10
+ },
+ "lotes": [
+  {
+   "ordem": 1,
+   "lote": "folhas",
+   "n": 8,
+   "orient": "paisagem",
+   "visual": "sem",
+   "saida": "arte-001/folhas",
+   "cenas": "001/cenas-folhas.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-folhas.json canais/dossie-es/produtos/hq/arte-001/folhas --visual canais/dossie-es/produtos/hq/001/visual/visual-sem.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 2,
+   "lote": "capa-garbo",
+   "n": 1,
+   "orient": "retrato",
+   "visual": "juan",
+   "saida": "arte-001",
+   "cenas": "001/cenas-capa-garbo.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-capa-garbo.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-juan.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 2,
+   "lote": "capa-lacosa",
+   "n": 1,
+   "orient": "retrato",
+   "visual": "sem",
+   "saida": "arte-001",
+   "cenas": "001/cenas-capa-lacosa.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-capa-lacosa.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-sem.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-quadrado-juan",
+   "n": 9,
+   "orient": "quadrado",
+   "visual": "juan",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-quadrado-juan.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient quadrado dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-quadrado-juan.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-juan.yaml --tamanho 1024x1024 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-quadrado-kuhlenthal",
+   "n": 1,
+   "orient": "quadrado",
+   "visual": "kuhlenthal",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-quadrado-kuhlenthal.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient quadrado dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-quadrado-kuhlenthal.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-kuhlenthal.yaml --tamanho 1024x1024 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-quadrado-sem",
+   "n": 6,
+   "orient": "quadrado",
+   "visual": "sem",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-quadrado-sem.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient quadrado dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-quadrado-sem.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-sem.yaml --tamanho 1024x1024 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-quadrado-araceli",
+   "n": 3,
+   "orient": "quadrado",
+   "visual": "araceli",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-quadrado-araceli.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient quadrado dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-quadrado-araceli.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-araceli.yaml --tamanho 1024x1024 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-retrato-juan",
+   "n": 5,
+   "orient": "retrato",
+   "visual": "juan",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-retrato-juan.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-retrato-juan.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-juan.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-paisagem-araceli",
+   "n": 3,
+   "orient": "paisagem",
+   "visual": "araceli",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-paisagem-araceli.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-paisagem-araceli.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-araceli.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-paisagem-sem",
+   "n": 5,
+   "orient": "paisagem",
+   "visual": "sem",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-paisagem-sem.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-paisagem-sem.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-sem.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-paisagem-araceli-juan",
+   "n": 6,
+   "orient": "paisagem",
+   "visual": "araceli-juan",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-paisagem-araceli-juan.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-paisagem-araceli-juan.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-araceli-juan.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-paisagem-juan",
+   "n": 4,
+   "orient": "paisagem",
+   "visual": "juan",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-paisagem-juan.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-paisagem-juan.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-juan.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-paisagem-harris-juan",
+   "n": 7,
+   "orient": "paisagem",
+   "visual": "harris-juan",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-paisagem-harris-juan.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-paisagem-harris-juan.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-harris-juan.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-retrato-sem",
+   "n": 4,
+   "orient": "retrato",
+   "visual": "sem",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-retrato-sem.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-retrato-sem.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-sem.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-quadrado-harris",
+   "n": 1,
+   "orient": "quadrado",
+   "visual": "harris",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-quadrado-harris.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient quadrado dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-quadrado-harris.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-harris.yaml --tamanho 1024x1024 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-paisagem-kuhlenthal",
+   "n": 2,
+   "orient": "paisagem",
+   "visual": "kuhlenthal",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-paisagem-kuhlenthal.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-paisagem-kuhlenthal.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-kuhlenthal.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-retrato-araceli",
+   "n": 1,
+   "orient": "retrato",
+   "visual": "araceli",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-retrato-araceli.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-retrato-araceli.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-araceli.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-paisagem-harris",
+   "n": 1,
+   "orient": "paisagem",
+   "visual": "harris",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-paisagem-harris.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-paisagem-harris.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-harris.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-quadrado-harris-juan",
+   "n": 3,
+   "orient": "quadrado",
+   "visual": "harris-juan",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-quadrado-harris-juan.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient quadrado dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-quadrado-harris-juan.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-harris-juan.yaml --tamanho 1024x1024 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-garbo-retrato-harris",
+   "n": 1,
+   "orient": "retrato",
+   "visual": "harris",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-garbo-retrato-harris.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-garbo-retrato-harris.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-harris.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-paisagem-sem",
+   "n": 20,
+   "orient": "paisagem",
+   "visual": "sem",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-paisagem-sem.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-paisagem-sem.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-sem.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-paisagem-pioneros",
+   "n": 1,
+   "orient": "paisagem",
+   "visual": "pioneros",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-paisagem-pioneros.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-paisagem-pioneros.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-pioneros.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-retrato-pioneros",
+   "n": 1,
+   "orient": "retrato",
+   "visual": "pioneros",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-retrato-pioneros.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-retrato-pioneros.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-pioneros.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-paisagem-harriman-pioneros",
+   "n": 1,
+   "orient": "paisagem",
+   "visual": "harriman-pioneros",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-paisagem-harriman-pioneros.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-paisagem-harriman-pioneros.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-harriman-pioneros.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-paisagem-harriman",
+   "n": 3,
+   "orient": "paisagem",
+   "visual": "harriman",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-paisagem-harriman.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-paisagem-harriman.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-harriman.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-quadrado-harriman",
+   "n": 1,
+   "orient": "quadrado",
+   "visual": "harriman",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-quadrado-harriman.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient quadrado dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-quadrado-harriman.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-harriman.yaml --tamanho 1024x1024 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-paisagem-nkvd",
+   "n": 3,
+   "orient": "paisagem",
+   "visual": "nkvd",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-paisagem-nkvd.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-paisagem-nkvd.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-nkvd.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-retrato-sem",
+   "n": 7,
+   "orient": "retrato",
+   "visual": "sem",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-retrato-sem.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-retrato-sem.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-sem.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-retrato-nkvd",
+   "n": 1,
+   "orient": "retrato",
+   "visual": "nkvd",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-retrato-nkvd.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-retrato-nkvd.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-nkvd.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-quadrado-sem",
+   "n": 13,
+   "orient": "quadrado",
+   "visual": "sem",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-quadrado-sem.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient quadrado dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-quadrado-sem.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-sem.yaml --tamanho 1024x1024 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-quadrado-theremin",
+   "n": 4,
+   "orient": "quadrado",
+   "visual": "theremin",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-quadrado-theremin.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient quadrado dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-quadrado-theremin.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-theremin.yaml --tamanho 1024x1024 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-quadrado-nkvd-theremin",
+   "n": 1,
+   "orient": "quadrado",
+   "visual": "nkvd-theremin",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-quadrado-nkvd-theremin.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient quadrado dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-quadrado-nkvd-theremin.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-nkvd-theremin.yaml --tamanho 1024x1024 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-retrato-theremin",
+   "n": 2,
+   "orient": "retrato",
+   "visual": "theremin",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-retrato-theremin.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-retrato-theremin.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-theremin.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-paisagem-theremin",
+   "n": 5,
+   "orient": "paisagem",
+   "visual": "theremin",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-paisagem-theremin.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-paisagem-theremin.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-theremin.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-paisagem-nkvd-theremin",
+   "n": 1,
+   "orient": "paisagem",
+   "visual": "nkvd-theremin",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-paisagem-nkvd-theremin.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-paisagem-nkvd-theremin.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-nkvd-theremin.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-quadrado-kennan",
+   "n": 4,
+   "orient": "quadrado",
+   "visual": "kennan",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-quadrado-kennan.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient quadrado dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-quadrado-kennan.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-kennan.yaml --tamanho 1024x1024 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-paisagem-kennan",
+   "n": 2,
+   "orient": "paisagem",
+   "visual": "kennan",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-paisagem-kennan.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-paisagem-kennan.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-kennan.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 3,
+   "lote": "quadros-lacosa-retrato-kennan",
+   "n": 1,
+   "orient": "retrato",
+   "visual": "kennan",
+   "saida": "arte-001",
+   "cenas": "001/cenas-quadros-lacosa-retrato-kennan.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-quadros-lacosa-retrato-kennan.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-kennan.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 4,
+   "lote": "po01",
+   "n": 1,
+   "orient": "retrato",
+   "visual": "juan",
+   "saida": "arte-001",
+   "cenas": "001/cenas-po01.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-po01.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-juan.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 5,
+   "lote": "w03",
+   "n": 1,
+   "orient": "paisagem",
+   "visual": "sem",
+   "saida": "arte-001",
+   "cenas": "001/cenas-w03.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-w03.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-sem.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 5,
+   "lote": "w04",
+   "n": 1,
+   "orient": "retrato",
+   "visual": "sem",
+   "saida": "arte-001",
+   "cenas": "001/cenas-w04.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-w04.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-sem.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 5,
+   "lote": "w05",
+   "n": 1,
+   "orient": "paisagem",
+   "visual": "juan",
+   "saida": "arte-001",
+   "cenas": "001/cenas-w05.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient paisagem dossie-es canais/dossie-es/produtos/hq/001/cenas-w05.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-juan.yaml --tamanho 1536x864 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  },
+  {
+   "ordem": 5,
+   "lote": "w06",
+   "n": 1,
+   "orient": "retrato",
+   "visual": "theremin",
+   "saida": "arte-001",
+   "cenas": "001/cenas-w06.json",
+   "comando": "tools/.venv/bin/python canais/dossie-es/produtos/hq/src/gerar.py --orient retrato dossie-es canais/dossie-es/produtos/hq/001/cenas-w06.json canais/dossie-es/produtos/hq/arte-001 --visual canais/dossie-es/produtos/hq/001/visual/visual-theremin.yaml --tamanho 1024x1536 --sem-fallback --ignorar-portao --prazo-min 8 --notas hq001"
+  }
+ ]
+}

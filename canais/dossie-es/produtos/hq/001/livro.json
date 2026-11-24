@@ -1,0 +1,6532 @@
+{
+ "saida_dir": "001/rascunho",
+ "pdf": "001/rascunho.pdf",
+ "larg_pdf": 1200,
+ "estilo": "cor",
+ "paginas": [
+  {
+   "tipo": "imagem",
+   "saida": "capa",
+   "img": "capa.png",
+   "rotulo": "CAPA GERAL",
+   "placeholder": "capa.png (job dossie-hq-cta-e-hotmart)"
+  },
+  {
+   "tipo": "texto",
+   "saida": "creditos",
+   "titulo": "EXPEDIENTES SECRETOS #1",
+   "blocos": [
+    {
+     "t": "p",
+     "texto": "Dos historias reales de espionaje que no están en el canal.",
+     "centro": true
+    },
+    {
+     "t": "h",
+     "texto": "CRÉDITOS"
+    },
+    {
+     "t": "p",
+     "texto": "Guion, edición y diseño: Dossier en Minutos."
+    },
+    {
+     "t": "p",
+     "texto": "Ilustraciones generadas con inteligencia artificial y editadas a mano. Los textos, globos y la diagramación se hicieron uno por uno, sin IA en las letras."
+    },
+    {
+     "t": "p",
+     "texto": "Tipografías: Bangers, Comic Neue, Bebas Neue (SIL Open Font License) y Special Elite (Apache 2.0)."
+    },
+    {
+     "t": "h",
+     "texto": "AVISO"
+    },
+    {
+     "t": "p",
+     "texto": "Estas historias se basan en hechos reales y documentados. Para contarlas en cómic nos tomamos libertades dramáticas: los diálogos, algunas escenas y el aspecto de los personajes son recreaciones. Al final te contamos qué es real y qué inventamos, con las fuentes."
+    },
+    {
+     "t": "p",
+     "texto": "Las personas reales que aparecen ya fallecieron y se retratan con respeto. Ningún escudo ni sello oficial se usa como marca de este producto."
+    },
+    {
+     "t": "pequeno",
+     "texto": "© 2026 Dossier en Minutos. Edición digital. Prohibida su reventa o distribución. Uso personal."
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "saida": "sumario",
+   "titulo": "ÍNDICE",
+   "blocos": [
+    {
+     "t": "h",
+     "texto": "OPERACIÓN GARBO  ·  p. 4"
+    },
+    {
+     "t": "item",
+     "texto": "El español que engañó a hitler"
+    },
+    {
+     "t": "item",
+     "texto": "Cap. 1 · El hombre que nadie quería  ·  p. 5"
+    },
+    {
+     "t": "item",
+     "texto": "Cap. 2 · Los 27 fantasmas  ·  p. 9"
+    },
+    {
+     "t": "item",
+     "texto": "Cap. 3 · Araceli  ·  p. 13"
+    },
+    {
+     "t": "item",
+     "texto": "Cap. 4 · La noche más larga  ·  p. 17"
+    },
+    {
+     "t": "h",
+     "texto": "LA COSA  ·  p. 21"
+    },
+    {
+     "t": "item",
+     "texto": "El regalo que escuchó siete años"
+    },
+    {
+     "t": "item",
+     "texto": "Cap. 1 · El regalo  ·  p. 22"
+    },
+    {
+     "t": "item",
+     "texto": "Cap. 2 · El prisionero que inventaba  ·  p. 26"
+    },
+    {
+     "t": "item",
+     "texto": "Cap. 3 · Siete años escuchando  ·  p. 30"
+    },
+    {
+     "t": "item",
+     "texto": "Cap. 4 · La cosa en la onu  ·  p. 34"
+    },
+    {
+     "t": "h",
+     "texto": "LO QUE ES REAL  ·  p. 38"
+    },
+    {
+     "t": "h",
+     "texto": "PÓSTER Y FONDOS DE PANTALLA  ·  p. 40"
+    }
+   ]
+  },
+  {
+   "expediente": "EXPEDIENTE 1",
+   "titulo": "OPERACIÓN\nGARBO",
+   "subtitulo": "EL ESPAÑOL QUE ENGAÑÓ A HITLER",
+   "rodape": "MADRID · LISBOA · LONDRES · NORMANDÍA  ·  1941–1944",
+   "tipo": "capa_historia",
+   "saida": "capa-garbo",
+   "img": "KG01",
+   "placeholder": "Capa da Garbo: Juan de capa e chapéu numa rua molhada de Lisboa à noite, de frente, sorriso de canto, segurando uma carta; atrás, na parede iluminada pelo poste, a sombra dele se multiplica em 27 silhuetas de espiões de chapéu. Terço de cima escuro (título)."
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-01",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 5,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 1: EL HOMBRE QUE NADIE QUERÍA",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "P101",
+     "arte_dir": "arte-v2",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Madri faminta, jan/1941: Juan diante da embaixada britânica (arte da v2)."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1235,
+       760
+      ],
+      [
+       1150,
+       1460
+      ],
+      [
+       80,
+       1460
+      ]
+     ],
+     "img": "P102",
+     "arte_dir": "arte-v2",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Juan oferece seus serviços ao diplomata britânico (arte da v2)."
+    },
+    {
+     "poly": [
+      [
+       1265,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       1460
+      ],
+      [
+       1180,
+       1460
+      ]
+     ],
+     "img": "P103",
+     "arte_dir": "arte-v2",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.35
+     ],
+     "placeholder": "O diplomata britânico, cético, recusa (arte da v2)."
+    },
+    {
+     "rect": [
+      80,
+      1490,
+      1640,
+      620
+     ],
+     "img": "P104",
+     "arte_dir": "arte-v2",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.55
+     ],
+     "placeholder": "Juan sai na chuva, recusado (arte da v2)."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "P105",
+     "arte_dir": "arte-v2",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.62
+     ],
+     "placeholder": "Close de Juan pensando, com a ideia se formando (arte da v2)."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "painel": "P101",
+     "pos": [
+      0.015,
+      0.04
+     ],
+     "larg": 420,
+     "texto": "Madrid, enero de 1941."
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P101",
+     "pos": [
+      0.62,
+      0.04
+     ],
+     "larg": 600,
+     "texto": "España pasa hambre. Europa está en guerra. Y un catalán de 28 años está a punto de tocar una puerta."
+    },
+    {
+     "tipo": "fala",
+     "painel": "P102",
+     "pos": [
+      0.19,
+      0.2
+     ],
+     "larg": 330,
+     "alvo": [
+      0.29,
+      0.34
+     ],
+     "texto": "Quiero trabajar para ustedes. ¡Quiero espiar a los nazis!"
+    },
+    {
+     "tipo": "fala",
+     "painel": "P103",
+     "pos": [
+      -0.12,
+      0.13
+     ],
+     "larg": 300,
+     "alvo": [
+      0.56,
+      0.24
+     ],
+     "texto": "¿Usted? ¿Un civil sin ninguna experiencia?"
+    },
+    {
+     "tipo": "fala",
+     "painel": "P103",
+     "pos": [
+      0.5,
+      0.88
+     ],
+     "larg": 300,
+     "alvo": [
+      0.56,
+      0.27999999999999997
+     ],
+     "texto": "Lo siento, señor Pujol. No nos interesa."
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P104",
+     "pos": [
+      0.015,
+      0.05
+     ],
+     "larg": 720,
+     "texto": "Le dijeron que no. Volvería a intentarlo. Le volverían a decir que no."
+    },
+    {
+     "tipo": "sfx",
+     "painel": "P104",
+     "pos": [
+      0.9,
+      0.12
+     ],
+     "texto": "PLIC PLOC",
+     "px": 72,
+     "rot": -6
+    },
+    {
+     "tipo": "pensa",
+     "painel": "P105",
+     "pos": [
+      0.14,
+      0.5
+     ],
+     "larg": 280,
+     "alvo": [
+      0.36,
+      0.45
+     ],
+     "texto": "Si los ingleses no me quieren..."
+    },
+    {
+     "tipo": "pensa",
+     "painel": "P105",
+     "pos": [
+      0.86,
+      0.5
+     ],
+     "larg": 280,
+     "alvo": [
+      0.64,
+      0.45
+     ],
+     "texto": "...me querrán los alemanes."
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-02",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 6,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 1: EL HOMBRE QUE NADIE QUERÍA",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "P201",
+     "arte_dir": "arte",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.35
+     ],
+     "placeholder": "Bar de hotel em Madri: o oficial alemão passa dinheiro e tinta invisível a Juan (arte da v3)."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1300,
+       760
+      ],
+      [
+       1120,
+       1520
+      ],
+      [
+       80,
+       1520
+      ]
+     ],
+     "img": "P202",
+     "arte_dir": "arte",
+     "orient": "paisagem",
+     "foco": [
+      0.55,
+      0.45
+     ],
+     "placeholder": "Juan no cais de Lisboa ensolarado, mala na mão, sorriso maroto (arte da v3)."
+    },
+    {
+     "poly": [
+      [
+       1330,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       2110
+      ],
+      [
+       1010,
+       2110
+      ]
+     ],
+     "img": "P203",
+     "arte_dir": "arte",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vista de cima: Juan na biblioteca afogado em guias, horários de trem e revistas (arte da v3)."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1550
+      ],
+      [
+       1112,
+       1550
+      ],
+      [
+       980,
+       2110
+      ],
+      [
+       80,
+       2110
+      ]
+     ],
+     "img": "P204",
+     "arte_dir": "arte",
+     "orient": "paisagem",
+     "foco": [
+      0.55,
+      0.45
+     ],
+     "placeholder": "Close: Juan escreve a carta com tinta invisível, sorrindo (arte da v3)."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "P205",
+     "arte_dir": "arte",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.35
+     ],
+     "placeholder": "Escritório em Madri: os alemães leem a carta, encantados (arte da v3)."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "painel": "P201",
+     "pos": [
+      0.012,
+      0.035
+     ],
+     "larg": 300,
+     "texto": "Así que fue a ver a los alemanes. Ellos sí lo quisieron."
+    },
+    {
+     "tipo": "fala",
+     "painel": "P201",
+     "pos": [
+      0.53,
+      0.45
+     ],
+     "larg": 330,
+     "alvo": [
+      0.745,
+      0.33
+     ],
+     "texto": "Irá a Inglaterra y nos lo contará todo. Su nombre en clave será ALARIC."
+    },
+    {
+     "tipo": "fala",
+     "painel": "P201",
+     "pos": [
+      0.1,
+      0.64
+     ],
+     "larg": 220,
+     "alvo": [
+      0.29,
+      0.37
+     ],
+     "texto": "Cuenten conmigo."
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P201",
+     "pos": [
+      0.66,
+      0.84
+     ],
+     "larg": 540,
+     "texto": "Le dieron dinero, tinta invisible y una lista de preguntas."
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P202",
+     "pos": [
+      0.02,
+      0.04
+     ],
+     "larg": 560,
+     "texto": "Julio de 1941. Pujol nunca llegó a Inglaterra."
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P202",
+     "pos": [
+      0.03,
+      0.85
+     ],
+     "larg": 400,
+     "texto": "Se quedó en Lisboa."
+    },
+    {
+     "tipo": "pensa",
+     "painel": "P203",
+     "pos": [
+      0.66,
+      0.07
+     ],
+     "larg": 200,
+     "alvo": [
+      0.39,
+      0.5
+     ],
+     "texto": "¿Cómo será Glasgow?"
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P203",
+     "pos": [
+      0.22,
+      0.73
+     ],
+     "larg": 520,
+     "texto": "Con una guía turística, horarios de trenes y revistas británicas, inventó Inglaterra entera… desde una biblioteca."
+    },
+    {
+     "tipo": "carta",
+     "painel": "P204",
+     "pos": [
+      0.025,
+      0.05
+     ],
+     "larg": 520,
+     "px": 32,
+     "texto": "«En Glasgow hay hombres que harían cualquier cosa por un litro de vino.»"
+    },
+    {
+     "tipo": "sfx",
+     "painel": "P204",
+     "pos": [
+      0.72,
+      0.86
+     ],
+     "texto": "SCRITCH",
+     "px": 84,
+     "rot": -10,
+     "cor": "vermelho"
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P204",
+     "pos": [
+      0.02,
+      0.84
+     ],
+     "larg": 460,
+     "texto": "Nunca había pisado Gran Bretaña."
+    },
+    {
+     "tipo": "grito",
+     "painel": "P205",
+     "pos": [
+      0.88,
+      0.2
+     ],
+     "larg": 230,
+     "alvo": [
+      0.76,
+      0.55
+     ],
+     "texto": "¡Este Alaric es un genio!"
+    },
+    {
+     "tipo": "fala",
+     "painel": "P205",
+     "pos": [
+      0.12,
+      0.25
+     ],
+     "larg": 260,
+     "alvo": [
+      0.33,
+      0.46
+     ],
+     "texto": "¡Mándenlo todo a Berlín!"
+    },
+    {
+     "tipo": "legenda",
+     "painel": "P205",
+     "pos": [
+      0.37,
+      0.84
+     ],
+     "larg": 600,
+     "texto": "Y en Londres, alguien empezaba a leer esos mismos mensajes…"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-03",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 7,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 1: EL HOMBRE QUE NADIE QUERÍA",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      800,
+      790
+     ],
+     "img": "G0301",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Plano médio: Juan no quarto alugado em Lisboa, à noite, somando despesas com um horário de trens britânico aberto."
+    },
+    {
+     "rect": [
+      910,
+      130,
+      810,
+      790
+     ],
+     "img": "G0302",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Madri: Kühlenthal conta notas de dinheiro numa mesa e as coloca num envelope, satisfeito."
+    },
+    {
+     "poly": [
+      [
+       80,
+       950
+      ],
+      [
+       1000,
+       950
+      ],
+      [
+       860,
+       1750
+      ],
+      [
+       80,
+       1750
+      ]
+     ],
+     "img": "G0303",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Calha diagonal: Juan desenha num papel bonequinhos de homens de chapéu ligados por linhas, a rede que inventa."
+    },
+    {
+     "poly": [
+      [
+       1030,
+       950
+      ],
+      [
+       1720,
+       950
+      ],
+      [
+       1720,
+       1750
+      ],
+      [
+       890,
+       1750
+      ]
+     ],
+     "img": "G0304",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Londres: num escritório do MI5 com luz fria, oficiais britânicos leem uma interceptação, intrigados."
+    },
+    {
+     "rect": [
+      80,
+      1780,
+      1000,
+      830
+     ],
+     "img": "G0305",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Apartamento em Lisboa: Araceli, de pé, braços cruzados, olha pela janela para o rio, decidida."
+    },
+    {
+     "rect": [
+      1110,
+      1780,
+      610,
+      830
+     ],
+     "img": "G0306",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: Juan na porta, de chapéu, sem saber o que a esposa planeja; corredor escuro."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 440,
+     "texto": "Cada viaje inventado tenía su boleto inventado. Las tarifas salían de un horario de trenes británico.",
+     "painel": "G0301"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 288,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Glasgow–Liverpool, primera clase… Berlín paga.",
+     "quem": "JUAN",
+     "painel": "G0301"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 291,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Un agente tan productivo merece cada peseta.",
+     "quem": "KÜHLENTHAL",
+     "painel": "G0302"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 506,
+     "texto": "Un espía solo no bastaba. Así que se inventó ayudantes.",
+     "painel": "G0303"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 331,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Un piloto holandés… un empleado del ministerio… un venezolano rico.",
+     "quem": "JUAN",
+     "painel": "G0303"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 298,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Los alemanes tienen un agente aquí que nunca hemos visto.",
+     "quem": "OFICIAL BRITÁNICO",
+     "painel": "G0304"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 298,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Y escribe tonterías… que Berlín se cree.",
+     "quem": "OFICIAL BRITÁNICO",
+     "painel": "G0304"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 550,
+     "texto": "Quien sí sabía todo era Araceli, su esposa.",
+     "painel": "G0305"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Si los ingleses no lo escuchan a él… me escucharán a mí.",
+     "quem": "ARACELI",
+     "painel": "G0305"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.5,
+      0.18
+     ],
+     "larg": 475,
+     "alvo": [
+      0.5,
+      0.48
+     ],
+     "texto": "¿Dijiste algo, querida?",
+     "quem": "JUAN",
+     "painel": "G0306"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-04",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 8,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 1: EL HOMBRE QUE NADIE QUERÍA",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      1150
+     ],
+     "img": "G0401",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Grande: Araceli entra no escritório de um oficial naval americano em Lisboa; contraluz da janela."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1310
+      ],
+      [
+       900,
+       1310
+      ],
+      [
+       800,
+       1990
+      ],
+      [
+       80,
+       1990
+      ]
+     ],
+     "img": "G0402",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Close do oficial americano, boquiaberto, segurando o telefone."
+    },
+    {
+     "poly": [
+      [
+       930,
+       1310
+      ],
+      [
+       1720,
+       1310
+      ],
+      [
+       1720,
+       1990
+      ],
+      [
+       830,
+       1990
+      ]
+     ],
+     "img": "G0403",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Londres: um oficial britânico pega uma pasta com etiqueta vermelha em branco e sorri."
+    },
+    {
+     "rect": [
+      80,
+      2020,
+      1640,
+      590
+     ],
+     "img": "G0404",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa: no cais de Lisboa à noite, Juan e Araceli sobem num navio; luz quente das lanternas."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Lisboa, febrero de 1942.",
+     "painel": "G0401"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 620,
+     "texto": "Las versiones no coinciden: ella o él buscaron a un oficial de la Marina de Estados Unidos.",
+     "painel": "G0401"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.3
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.5260869565217391
+     ],
+     "texto": "Mi marido engaña a los nazis. Y lo hace gratis. Escúchenlo.",
+     "quem": "ARACELI",
+     "painel": "G0401"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 295,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "¿Londres? Tienen que oír esto.",
+     "quem": "OFICIAL",
+     "painel": "G0402"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "RIIING",
+     "px": 64,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "G0402"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 320,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "¡El fantasma tiene nombre! Un español en Lisboa.",
+     "quem": "OFICIAL BRITÁNICO",
+     "painel": "G0403"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Los mismos ingleses que lo habían rechazado tres veces ahora lo querían en Londres.",
+     "painel": "G0404"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.42
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.72
+     ],
+     "texto": "Al fin, querida. ¡Al fin!",
+     "quem": "JUAN",
+     "painel": "G0404"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-05",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 9,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 2: LOS 27 FANTASMAS",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "G0501",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Panorama: Londres de 1942 sob neblina, ônibus de dois andares, sacos de areia; Juan pequeno, de mala, olhando tudo."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1235,
+       760
+      ],
+      [
+       1150,
+       1460
+      ],
+      [
+       80,
+       1460
+      ]
+     ],
+     "img": "G0502",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Escritório discreto: Tomás Harris aperta a mão de Juan, caloroso."
+    },
+    {
+     "poly": [
+      [
+       1265,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       1460
+      ],
+      [
+       1180,
+       1460
+      ]
+     ],
+     "img": "G0503",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: close de Juan rindo, surpreso com o elogio."
+    },
+    {
+     "rect": [
+      80,
+      1490,
+      1640,
+      620
+     ],
+     "img": "G0504",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa: Harris e oficiais britânicos à mesa batizam o novo agente; um deles levanta a xícara de chá."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "G0505",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa baixa: Juan diante de uma máquina de escrever, mãos prontas, a sombra dele na parede."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Londres, 24 de abril de 1942.",
+     "painel": "G0501"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Así que esto es Inglaterra. Me la imaginaba mejor.",
+     "quem": "JUAN",
+     "painel": "G0501"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Tomás Harris. Hablo español. Y me encantan tus mentiras.",
+     "quem": "TOMÁS",
+     "painel": "G0502"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.5,
+      0.18
+     ],
+     "larg": 421,
+     "alvo": [
+      0.5,
+      0.48
+     ],
+     "texto": "¿Mentiras? Yo las llamo literatura.",
+     "quem": "JUAN",
+     "painel": "G0503"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Un actor así merece un nombre de estrella.",
+     "quem": "OFICIAL BRITÁNICO",
+     "painel": "G0504"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "El mejor actor del mundo: GARBO.",
+     "quem": "OFICIAL BRITÁNICO",
+     "painel": "G0504"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Desde ese día escribió con el MI5 a su lado. Ahora sus mentiras las aprobaba Londres.",
+     "painel": "G0505"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-06",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 10,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 2: LOS 27 FANTASMAS",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      560
+     ],
+     "img": "G0601",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa: Harris e Juan diante de um grande quadro de cortiça cheio de fotos de rostos anônimos ligados por fios vermelhos."
+    },
+    {
+     "poly": [
+      [
+       80,
+       720
+      ],
+      [
+       760,
+       720
+      ],
+      [
+       660,
+       2610
+      ],
+      [
+       80,
+       2610
+      ]
+     ],
+     "img": "G0602",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Coluna alta: muitos 'agentes' imaginários em silhueta, cada um num lugar (porto, fábrica, quartel), empilhados."
+    },
+    {
+     "poly": [
+      [
+       790,
+       720
+      ],
+      [
+       1720,
+       720
+      ],
+      [
+       1720,
+       1650
+      ],
+      [
+       741,
+       1650
+      ]
+     ],
+     "img": "G0603",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Juan, de chapéu de marinheiro brincando, faz a voz de um dos agentes; Harris ri ao fundo."
+    },
+    {
+     "poly": [
+      [
+       743,
+       1680
+      ],
+      [
+       1720,
+       1680
+      ],
+      [
+       1720,
+       2610
+      ],
+      [
+       690,
+       2610
+      ]
+     ],
+     "img": "G0604",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Harris com uma pilha de cartas e um cheque; as despesas dos fantasmas pagas por Berlim."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Juntos construyeron la red de espías más grande de Gran Bretaña. Ninguno existía.",
+     "painel": "G0601"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 612,
+     "texto": "27 agentes. Un marinero. Un funcionario. Un piloto. Un camarero. Un venezolano rico…",
+     "painel": "G0602"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 612,
+     "texto": "Los alemanes los llamaban la red ARABEL.",
+     "painel": "G0602"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 352,
+     "alvo": [
+      0.31,
+      0.45956989247311825
+     ],
+     "texto": "Cada uno escribe distinto, tiene su carácter… y sus caprichos.",
+     "quem": "JUAN",
+     "painel": "G0603"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.45956989247311825
+     ],
+     "texto": "Y lo mejor: Berlín les paga el sueldo a todos.",
+     "quem": "TOMÁS",
+     "painel": "G0604"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "TAC TAC TAC",
+     "px": 84,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "G0604"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-07",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 11,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 2: LOS 27 FANTASMAS",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "G0701",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Porto de Liverpool cinzento; um homem anônimo de capa vigia navios (o agente inventado)."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1300,
+       760
+      ],
+      [
+       1120,
+       1520
+      ],
+      [
+       80,
+       1520
+      ]
+     ],
+     "img": "G0702",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Juan e Harris debruçados na mesa: problema, o agente de Liverpool deveria ter visto um comboio."
+    },
+    {
+     "poly": [
+      [
+       1330,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       2110
+      ],
+      [
+       1010,
+       2110
+      ]
+     ],
+     "img": "G0703",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: página de jornal com coluna de obituários, uma pequena nota emoldurada em vermelho (sem letras legíveis)."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1550
+      ],
+      [
+       1112,
+       1550
+      ],
+      [
+       980,
+       2110
+      ],
+      [
+       80,
+       2110
+      ]
+     ],
+     "img": "G0704",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Madri: Kühlenthal, solene, assina uma ordem; ao lado o recorte do obituário."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "G0705",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa: Juan e Harris brindam com taças, rindo, diante do cheque da 'viúva'."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Uno de los agentes vigilaba el puerto de Liverpool. Mejor dicho: no lo vigilaba, porque no existía.",
+     "painel": "G0701"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Debió ver salir el convoy. Si no lo informa, sospecharán.",
+     "quem": "TOMÁS",
+     "painel": "G0702"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Entonces… que se enferme. Muy grave.",
+     "quem": "JUAN",
+     "painel": "G0702"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 390,
+     "texto": "El agente «murió». Y salió su obituario en el periódico local.",
+     "painel": "G0703"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "SNIF",
+     "px": 64,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "G0703"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Un héroe caído. Pagaremos una pensión a su viuda.",
+     "quem": "KÜHLENTHAL",
+     "painel": "G0704"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Los nazis le pagaban una pensión a la viuda de un espía que nunca había nacido.",
+     "painel": "G0705"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.42
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.72
+     ],
+     "texto": "¡Por la viuda!",
+     "quem": "JUAN",
+     "painel": "G0705"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-08",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 12,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 2: LOS 27 FANTASMAS",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      1150
+     ],
+     "img": "G0801",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Grande: sala alemã de rádio/mapas; oficiais fixam alfinetes num mapa da Grã-Bretanha a partir das mensagens."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1310
+      ],
+      [
+       900,
+       1310
+      ],
+      [
+       800,
+       1990
+      ],
+      [
+       80,
+       1990
+      ]
+     ],
+     "img": "G0802",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Juan trabalhando até tarde, máquina de escrever, cinzeiro cheio; luz da madrugada."
+    },
+    {
+     "poly": [
+      [
+       930,
+       1310
+      ],
+      [
+       1720,
+       1310
+      ],
+      [
+       1720,
+       1990
+      ],
+      [
+       830,
+       1990
+      ]
+     ],
+     "img": "G0803",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Araceli sozinha num apartamento de Londres, sentada junto à janela com chuva, xícara intocada."
+    },
+    {
+     "rect": [
+      80,
+      2020,
+      1640,
+      590
+     ],
+     "img": "G0804",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa: Juan entra tarde em casa; Araceli de costas para ele, fria; a porta abre luz quente."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "En Berlín, los informes de Alaric valían oro. Llegaban por cientos.",
+     "painel": "G0801"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.4060869565217391
+     ],
+     "texto": "Si Alaric lo dice, es verdad.",
+     "quem": "OFICIAL ALEMÁN",
+     "painel": "G0801"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "TAC TAC TAC",
+     "px": 64,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "G0802"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 320,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Lluvia. Otra vez lluvia. Nadie habla español.",
+     "quem": "ARACELI",
+     "painel": "G0803"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Juan, quiero volver a España.",
+     "quem": "ARACELI",
+     "painel": "G0804"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Garbo engañaba a Hitler. Pero en casa, alguien ya no quería seguir con la función.",
+     "painel": "G0804"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-09",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 13,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 3: ARACELI",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "G0901",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa: discussão na sala; Araceli aponta para a porta, Juan tenta acalmá-la."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1235,
+       760
+      ],
+      [
+       1150,
+       1460
+      ],
+      [
+       80,
+       1460
+      ]
+     ],
+     "img": "G0902",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Close de Juan pálido, entendendo o tamanho do perigo."
+    },
+    {
+     "poly": [
+      [
+       1265,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       1460
+      ],
+      [
+       1180,
+       1460
+      ]
+     ],
+     "img": "G0903",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: Araceli pega o casaco e o chapéu, decidida."
+    },
+    {
+     "rect": [
+      80,
+      1490,
+      1640,
+      620
+     ],
+     "img": "G0904",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa: madrugada no escritório; Harris ouve Juan, mãos no rosto; telefone fora do gancho."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "G0905",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa baixa: Harris acende um cigarro, com um brilho de ideia nos olhos."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Londres, 1943.",
+     "painel": "G0901"
+    },
+    {
+     "tipo": "grito",
+     "pos": [
+      0.25,
+      0.42
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.72
+     ],
+     "texto": "¡Si no me dejas ir, voy a la embajada de España!",
+     "quem": "ARACELI",
+     "painel": "G0901"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "La embajada de España está llena de amigos de los alemanes.",
+     "quem": "JUAN",
+     "painel": "G0902"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.5,
+      0.18
+     ],
+     "larg": 421,
+     "alvo": [
+      0.5,
+      0.48
+     ],
+     "texto": "Lo digo en serio.",
+     "quem": "ARACELI",
+     "painel": "G0903"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Una sola visita a esa embajada y los 27 fantasmas se esfumarían.",
+     "painel": "G0904"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.42
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.72
+     ],
+     "texto": "Si habla, se acaba todo. Todo.",
+     "quem": "TOMÁS",
+     "painel": "G0904"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "A menos que… la asustemos con una historia mejor.",
+     "quem": "TOMÁS",
+     "painel": "G0905"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "FSSS",
+     "px": 84,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "G0905"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-10",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 14,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 3: ARACELI",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      800,
+      790
+     ],
+     "img": "G1001",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Harris explica o plano a Juan com dois dedos, como num tabuleiro."
+    },
+    {
+     "rect": [
+      910,
+      130,
+      810,
+      790
+     ],
+     "img": "G1002",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Juan hesita, culpado, olhando a foto de Araceli."
+    },
+    {
+     "poly": [
+      [
+       80,
+       950
+      ],
+      [
+       1000,
+       950
+      ],
+      [
+       860,
+       1750
+      ],
+      [
+       80,
+       1750
+      ]
+     ],
+     "img": "G1003",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Calha diagonal: Araceli abre a porta para um oficial britânico de chapéu que traz a notícia."
+    },
+    {
+     "poly": [
+      [
+       1030,
+       950
+      ],
+      [
+       1720,
+       950
+      ],
+      [
+       1720,
+       1750
+      ],
+      [
+       890,
+       1750
+      ]
+     ],
+     "img": "G1004",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Close de Araceli em choque, mão na boca."
+    },
+    {
+     "rect": [
+      80,
+      1780,
+      1000,
+      830
+     ],
+     "img": "G1005",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa: carro preto na chuva diante de um portão de campo de detenção cercado."
+    },
+    {
+     "rect": [
+      1110,
+      1780,
+      610,
+      830
+     ],
+     "img": "G1006",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: Juan atrás de uma mesa nua, sob lâmpada, fazendo-se de abatido."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 288,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Le diremos que te despidieron. Y que te detuvieron.",
+     "quem": "TOMÁS",
+     "painel": "G1001"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 291,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Perdóname, Araceli. Es para salvarnos a todos.",
+     "quem": "JUAN",
+     "painel": "G1002"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 331,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Señora, su marido ha sido detenido.",
+     "quem": "OFICIAL BRITÁNICO",
+     "painel": "G1003"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "TOC TOC",
+     "px": 84,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "G1003"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 298,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "¿Detenido? ¿Por qué?",
+     "quem": "ARACELI",
+     "painel": "G1004"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 550,
+     "texto": "La llevaron a verlo. Él estaba «preso». Todo era teatro.",
+     "painel": "G1005"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 549,
+     "texto": "Nunca había actuado tan bien.",
+     "painel": "G1006"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-11",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 15,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 3: ARACELI",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "G1101",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa: Araceli entra na sala de visita; Juan levanta a cabeça."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1300,
+       760
+      ],
+      [
+       1120,
+       1520
+      ],
+      [
+       80,
+       1520
+      ]
+     ],
+     "img": "G1102",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Araceli chora, arrependida, segurando as mãos dele sobre a mesa."
+    },
+    {
+     "poly": [
+      [
+       1330,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       2110
+      ],
+      [
+       1010,
+       2110
+      ]
+     ],
+     "img": "G1103",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: atrás de um vidro, Harris observa a cena e solta o ar, aliviado."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1550
+      ],
+      [
+       1112,
+       1550
+      ],
+      [
+       980,
+       2110
+      ],
+      [
+       80,
+       2110
+      ]
+     ],
+     "img": "G1104",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Dias depois: Juan 'libertado' abraça Araceli na porta de casa."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "G1105",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa baixa: o casal à mesa da cozinha, Araceli ajudando a dobrar cartas; volta a cumplicidade."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "¡Juan!",
+     "quem": "ARACELI",
+     "painel": "G1101"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Me echaron, Araceli. Por lo de la embajada.",
+     "quem": "JUAN",
+     "painel": "G1101"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Fue mi culpa. Te juro que no diré nada. Nunca.",
+     "quem": "ARACELI",
+     "painel": "G1102"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 255,
+     "alvo": [
+      0.69,
+      0.3725925925925926
+     ],
+     "texto": "Funcionó.",
+     "quem": "TOMÁS",
+     "painel": "G1103"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 567,
+     "texto": "Días después, «lo soltaron». Araceli no volvió a amenazar con nada.",
+     "painel": "G1104"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Las versiones varían en los detalles. Lo seguro: el matrimonio y la red sobrevivieron.",
+     "painel": "G1105"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-12",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 16,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 3: ARACELI",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      1650
+     ],
+     "img": "G1201",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Splash: sala de guerra britânica, enorme mapa do Canal da Mancha (sem nomes), oficiais; Harris e Juan no centro."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1810
+      ],
+      [
+       880,
+       1810
+      ],
+      [
+       800,
+       2610
+      ],
+      [
+       80,
+       2610
+      ]
+     ],
+     "img": "G1202",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Tanques e caminhões infláveis de borracha num campo inglês, soldados levantando um tanque com uma mão."
+    },
+    {
+     "poly": [
+      [
+       910,
+       1810
+      ],
+      [
+       1720,
+       1810
+      ],
+      [
+       1720,
+       2610
+      ],
+      [
+       830,
+       2610
+      ]
+     ],
+     "img": "G0601",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.7,
+      0.5
+     ],
+     "placeholder": "Juan sorri diante do quadro de cortiça dos 27 agentes (reuso da arte da pág. 6 com outro recorte)."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "1944. Los Aliados preparan el desembarco más grande de la historia.",
+     "painel": "G1201"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 620,
+     "texto": "Para que funcione, Hitler tiene que mirar al lugar equivocado.",
+     "painel": "G1201"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.33757575757575753
+     ],
+     "texto": "Y quien se lo va a decir… es usted, señor Garbo.",
+     "quem": "OFICIAL BRITÁNICO",
+     "painel": "G1201"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 440,
+     "texto": "Un ejército falso, con tanques de goma, frente a Calais.",
+     "painel": "G1202"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 320,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Mis 27 fantasmas van a la guerra.",
+     "quem": "JUAN",
+     "painel": "G0601"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-13",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 17,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 4: LA NOCHE MÁS LARGA",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "G1301",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa: casa londrina às escuras sob céu de tempestade, uma janela acesa no último andar."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1235,
+       760
+      ],
+      [
+       1150,
+       1460
+      ],
+      [
+       80,
+       1460
+      ]
+     ],
+     "img": "G1302",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Juan ao transmissor de rádio com fones; Harris de pé atrás, olhando o relógio."
+    },
+    {
+     "poly": [
+      [
+       1265,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       1460
+      ],
+      [
+       1180,
+       1460
+      ]
+     ],
+     "img": "G1303",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: Madri, uma sala de rádio alemã vazia; fones pendurados, cadeira vazia, relógio às 3h."
+    },
+    {
+     "rect": [
+      80,
+      1490,
+      1640,
+      620
+     ],
+     "img": "G1304",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa: Juan exasperado, mãos na cabeça; relógio da parede marca 8h; luz do amanhecer."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "G1305",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa baixa: Kühlenthal envergonhado lendo a reclamação."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Noche del 5 al 6 de junio de 1944.",
+     "painel": "G1301"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.72
+     ],
+     "larg": 620,
+     "texto": "El plan: avisar a los alemanes del desembarco… cuando ya fuera tarde para impedirlo.",
+     "painel": "G1301"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Las tres en punto. Ahora.",
+     "quem": "TOMÁS",
+     "painel": "G1302"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "BIP BIP BIP",
+     "px": 84,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "G1302"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 486,
+     "texto": "En Madrid, nadie contestaba.",
+     "painel": "G1303"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Respondieron a las ocho. Para entonces, las tropas ya estaban en las playas.",
+     "painel": "G1304"
+    },
+    {
+     "tipo": "grito",
+     "pos": [
+      0.25,
+      0.42
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.72
+     ],
+     "texto": "¡No puedo aceptar excusas ni negligencias!",
+     "quem": "JUAN",
+     "painel": "G1304"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Tenía razón. Alaric nos avisó y no lo escuchamos.",
+     "quem": "KÜHLENTHAL",
+     "painel": "G1305"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-14",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 18,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 4: LA NOCHE MÁS LARGA",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      2480
+     ],
+     "img": "G1401",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Splash vertical: amanhecer de 6/6/1944, centenas de navios e lanchas de desembarque se aproximando da costa; céu com aviões."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "6 de junio de 1944. Normandía.",
+     "painel": "G1401"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 620,
+     "texto": "La verdad llegó a la playa. Ahora faltaba la mentira más importante.",
+     "painel": "G1401"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-15",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 19,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 4: LA NOCHE MÁS LARGA",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      800,
+      790
+     ],
+     "img": "G1501",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Juan escreve à máquina a mensagem mais importante, concentrado, de madrugada."
+    },
+    {
+     "rect": [
+      910,
+      130,
+      810,
+      790
+     ],
+     "img": "G1502",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Berlim: uma mão segura a mensagem diante de um mapa; Hitler nunca de rosto, só a sombra da mão."
+    },
+    {
+     "poly": [
+      [
+       80,
+       950
+      ],
+      [
+       1000,
+       950
+      ],
+      [
+       860,
+       1750
+      ],
+      [
+       80,
+       1750
+      ]
+     ],
+     "img": "G1503",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Calha diagonal: divisões blindadas alemãs paradas em Calais, tanques sob redes, tripulações esperando."
+    },
+    {
+     "poly": [
+      [
+       1030,
+       950
+      ],
+      [
+       1720,
+       950
+      ],
+      [
+       1720,
+       1750
+      ],
+      [
+       890,
+       1750
+      ]
+     ],
+     "img": "G1504",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Harris e Juan em silêncio, olhando um mapa com alívio; Harris põe a mão no ombro dele."
+    },
+    {
+     "rect": [
+      80,
+      1780,
+      1000,
+      830
+     ],
+     "img": "G1505",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Juan abre uma caixinha com uma cruz de ferro (sem suástica), rindo incrédulo."
+    },
+    {
+     "rect": [
+      1110,
+      1780,
+      610,
+      830
+     ],
+     "img": "G1506",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: Juan de terno, sozinho num salão britânico iluminado, recebendo uma medalha de fita (MBE)."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 440,
+     "texto": "9 de junio de 1944.",
+     "painel": "G1501"
+    },
+    {
+     "tipo": "carta",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 440,
+     "texto": "«Normandía es una distracción. El golpe principal será en Calais.»",
+     "px": 30,
+     "painel": "G1501"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 445,
+     "texto": "El mensaje subió hasta el cuartel general de Hitler.",
+     "painel": "G1502"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 506,
+     "texto": "Dos divisiones blindadas y diecinueve de infantería se quedaron esperando en Calais.",
+     "painel": "G1503"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 506,
+     "texto": "Un ataque que nunca llegó.",
+     "painel": "G1503"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 298,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Lo lograste, Juan. Se lo creyeron.",
+     "quem": "TOMÁS",
+     "painel": "G1504"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 550,
+     "texto": "29 de julio de 1944: los alemanes le dieron la Cruz de Hierro.",
+     "painel": "G1505"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Por servicios a Alemania… ¡ja!",
+     "quem": "JUAN",
+     "painel": "G1505"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 549,
+     "texto": "Y el 25 de noviembre, el rey de Inglaterra, la Orden del Imperio Británico.",
+     "painel": "G1506"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 549,
+     "texto": "Condecorado por los dos bandos.",
+     "painel": "G1506"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "garbo-16",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 20,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  OPERACIÓN GARBO  ·  CAP. 4: LA NOCHE MÁS LARGA",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      560
+     ],
+     "img": "G1601",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Faixa: Angola, 1949; cemitério tropical sob sol, uma lápide simples, ninguém por perto."
+    },
+    {
+     "poly": [
+      [
+       80,
+       720
+      ],
+      [
+       760,
+       720
+      ],
+      [
+       660,
+       2610
+      ],
+      [
+       80,
+       2610
+      ]
+     ],
+     "img": "G1602",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Coluna alta: Juan mais velho (60s, cabelo grisalho) numa pequena livraria de vila venezuelana, montanhas verdes ao fundo."
+    },
+    {
+     "poly": [
+      [
+       790,
+       720
+      ],
+      [
+       1720,
+       720
+      ],
+      [
+       1720,
+       1650
+      ],
+      [
+       741,
+       1650
+      ]
+     ],
+     "img": "G1603",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "1984: um escritor britânico encontra o velho Juan; aperto de mãos numa varanda."
+    },
+    {
+     "poly": [
+      [
+       743,
+       1680
+      ],
+      [
+       1720,
+       1680
+      ],
+      [
+       1720,
+       2610
+      ],
+      [
+       690,
+       2610
+      ]
+     ],
+     "img": "G1604",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Close final: Juan idoso na luz do poente; atrás, na parede, a sombra dele se multiplica em 27 silhuetas de chapéu."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "1949. Angola. Juan Pujol «murió» de malaria.",
+     "painel": "G1601"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.72
+     ],
+     "larg": 620,
+     "texto": "Su última gran mentira.",
+     "painel": "G1601"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 612,
+     "texto": "En realidad vivía en Venezuela. Tranquilo. Anónimo.",
+     "painel": "G1602"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.5,
+      0.3
+     ],
+     "larg": 530,
+     "alvo": [
+      0.5,
+      0.43756613756613755
+     ],
+     "texto": "Aquí nadie busca a un espía muerto.",
+     "quem": "JUAN",
+     "painel": "G1602"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 538,
+     "texto": "1984. El escritor Nigel West lo encontró.",
+     "painel": "G1603"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 352,
+     "alvo": [
+      0.69,
+      0.45956989247311825
+     ],
+     "texto": "¿Usted es Garbo?",
+     "quem": "NIGEL WEST",
+     "painel": "G1603"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.3
+     ],
+     "larg": 352,
+     "alvo": [
+      0.31,
+      0.5795698924731183
+     ],
+     "texto": "Lo fui.",
+     "quem": "JUAN",
+     "painel": "G1603"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 566,
+     "texto": "Murió en Caracas el 10 de octubre de 1988.",
+     "painel": "G1604"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 566,
+     "texto": "Nunca estuvo solo: lo acompañaban 27 espías que jamás existieron.",
+     "painel": "G1604"
+    }
+   ]
+  },
+  {
+   "expediente": "EXPEDIENTE 2",
+   "titulo": "LA COSA",
+   "subtitulo": "EL REGALO QUE ESCUCHÓ SIETE AÑOS",
+   "rodape": "MOSCÚ · 1945–1952  ·  NUEVA YORK · 1960",
+   "tipo": "capa_historia",
+   "saida": "capa-lacosa",
+   "img": "KC01",
+   "placeholder": "Capa de La Cosa: o selo de madeira (águia) pendurado na parede escura do estudo de Spaso House, um feixe azul frio entrando pela janela e acertando a águia; embaixo, em primeiro plano, a silhueta de um homem de fones de ouvido de costas, num furgão. Terço de cima escuro (título)."
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-01",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 22,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 1: EL REGALO",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "C0101",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Plano geral de Moscou no verão de 1945: rua larga ensolarada, gente a pé, bandeirolas sem texto; ao fundo a mansão neoclássica de colunas (Spaso House)."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1235,
+       760
+      ],
+      [
+       1150,
+       1460
+      ],
+      [
+       80,
+       1460
+      ]
+     ],
+     "img": "C0102",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Os Pioneiros sobem a escadaria da mansão carregando um objeto grande embrulhado em pano branco; dois adultos acompanham."
+    },
+    {
+     "poly": [
+      [
+       1265,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       1460
+      ],
+      [
+       1180,
+       1460
+      ]
+     ],
+     "img": "C0103",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: uma menina pioneira de tranças segura a ponta do pano e olha para cima com sorriso tímido."
+    },
+    {
+     "rect": [
+      80,
+      1490,
+      1640,
+      620
+     ],
+     "img": "C0104",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Salão elegante da residência: as crianças puxam o pano e revelam o selo de madeira; Harriman, surpreso e encantado, à direita."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "C0105",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Close inquietante na cabeça e no bico da águia de madeira; luz rasante, sombra funda sob o bico."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Moscú, 4 de agosto de 1945.",
+     "painel": "C0101"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.72
+     ],
+     "larg": 620,
+     "texto": "La guerra en Europa terminó hace tres meses. Soviéticos y estadounidenses todavía se llaman aliados.",
+     "painel": "C0101"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Ese día, un grupo de niños llega a la residencia del embajador de Estados Unidos.",
+     "painel": "C0102"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.5,
+      0.18
+     ],
+     "larg": 421,
+     "alvo": [
+      0.5,
+      0.48
+     ],
+     "texto": "¡Es un regalo para el señor embajador!",
+     "quem": "PIONEROS",
+     "painel": "C0103"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "¡OOOH!",
+     "px": 84,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "C0104"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Es magnífico. ¿Lo tallaron a mano?",
+     "quem": "HARRIMAN",
+     "painel": "C0104"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Un gesto de amistad, dijeron.",
+     "painel": "C0105"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.72
+     ],
+     "larg": 620,
+     "texto": "Nadie en esa sala sabía que el regalo tenía oídos.",
+     "painel": "C0105"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-02",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 23,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 1: EL REGALO",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      1150
+     ],
+     "img": "C0201",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Quadro grande: estudo da residência; dois funcionários penduram o selo na parede atrás da mesa; Harriman orienta, mão na cintura."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1310
+      ],
+      [
+       900,
+       1310
+      ],
+      [
+       800,
+       1990
+      ],
+      [
+       80,
+       1990
+      ]
+     ],
+     "img": "C0202",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Harriman escreve à mesa sob o selo; fim de tarde, abajur aceso, telefone preto."
+    },
+    {
+     "poly": [
+      [
+       930,
+       1310
+      ],
+      [
+       1720,
+       1310
+      ],
+      [
+       1720,
+       1990
+      ],
+      [
+       830,
+       1990
+      ]
+     ],
+     "img": "C0203",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "O estudo vazio de noite; luar azul pela janela ilumina o selo na parede. Silêncio."
+    },
+    {
+     "rect": [
+      80,
+      2020,
+      1640,
+      590
+     ],
+     "img": "C0204",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Harriman e dois assessores conversam em volta da mesa, o selo acima deles; Harriman à esquerda, confiante."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.4060869565217391
+     ],
+     "texto": "Pónganlo ahí, detrás de mi escritorio. Que se vea.",
+     "quem": "HARRIMAN",
+     "painel": "C0201"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 451,
+     "texto": "Lo colgaron en el estudio de la residencia. Justo detrás de la mesa del embajador.",
+     "painel": "C0202"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 489,
+     "texto": "Sin pilas. Sin cables. Sin un solo ruido.",
+     "painel": "C0203"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Hablemos aquí. Es el lugar más seguro de Moscú.",
+     "quem": "HARRIMAN",
+     "painel": "C0204"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-03",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 24,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 1: EL REGALO",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "C0301",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Noite: rua diante da residência; um furgão escuro parado sob as árvores do outro lado."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1300,
+       760
+      ],
+      [
+       1120,
+       1520
+      ],
+      [
+       80,
+       1520
+      ]
+     ],
+     "img": "C0302",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Dentro do furgão: o homem do NKVD gira o dial de um transmissor grande, luz azul fria dos mostradores."
+    },
+    {
+     "poly": [
+      [
+       1330,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       2110
+      ],
+      [
+       1010,
+       2110
+      ]
+     ],
+     "img": "C0303",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: um feixe azul tênue e invisível cruza a rua do furgão até uma janela iluminada da mansão."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1550
+      ],
+      [
+       1112,
+       1550
+      ],
+      [
+       980,
+       2110
+      ],
+      [
+       80,
+       2110
+      ]
+     ],
+     "img": "C0304",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "O homem do NKVD de fones de ouvido, caderno no colo, sorri devagar ao ouvir."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "C0305",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "O selo na parede, de noite, com ondas concêntricas tênues em volta do bico, como se respirasse."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Pero afuera, en la oscuridad, alguien esperaba.",
+     "painel": "C0301"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "ZZZT",
+     "px": 84,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "C0302"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 390,
+     "texto": "Un haz de radio, invisible, apuntado a una ventana.",
+     "painel": "C0303"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Ahí está. Lo oigo como si estuviera en el cuarto.",
+     "quem": "NKVD",
+     "painel": "C0304"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "BIIIP",
+     "px": 84,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "C0305"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "El regalo de los niños acababa de despertar.",
+     "painel": "C0305"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-04",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 25,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 1: EL REGALO",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      560
+     ],
+     "img": "C0401",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Harriman ao telefone na mesa, preocupado; o selo atrás dele."
+    },
+    {
+     "poly": [
+      [
+       80,
+       720
+      ],
+      [
+       760,
+       720
+      ],
+      [
+       660,
+       2610
+      ],
+      [
+       80,
+       2610
+      ]
+     ],
+     "img": "C0402",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: numa sala de escuta escura, o homem do NKVD escreve sem parar, fones na cabeça, cadernos empilhados."
+    },
+    {
+     "poly": [
+      [
+       790,
+       720
+      ],
+      [
+       1720,
+       720
+      ],
+      [
+       1720,
+       1650
+      ],
+      [
+       741,
+       1650
+      ]
+     ],
+     "img": "C0403",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Pilha de transcrições datilografadas sobre uma mesa, carimbo vermelho sem letras, abajur."
+    },
+    {
+     "poly": [
+      [
+       743,
+       1680
+      ],
+      [
+       1720,
+       1680
+      ],
+      [
+       1720,
+       2610
+      ],
+      [
+       690,
+       2610
+      ]
+     ],
+     "img": "C0404",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "O olho da águia de madeira em close, sombra profunda; fecho do capítulo."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Washington tiene que saber esto antes del viernes.",
+     "quem": "HARRIMAN",
+     "painel": "C0401"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 612,
+     "texto": "Cada palabra cruzaba la calle.",
+     "painel": "C0402"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 538,
+     "texto": "Y terminaba en papeles que el embajador nunca vería.",
+     "painel": "C0403"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 566,
+     "texto": "¿Pero cómo escucha un pedazo de madera?",
+     "painel": "C0404"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 566,
+     "texto": "La respuesta estaba en una prisión.",
+     "painel": "C0404"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-05",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 26,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 2: EL PRISIONERO QUE INVENTABA",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      800,
+      790
+     ],
+     "img": "C0501",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Palco em Nova York, 1928: Theremin de fraque toca seu instrumento (caixa de madeira com antena vertical e alça), mãos no ar sem tocar."
+    },
+    {
+     "rect": [
+      910,
+      130,
+      810,
+      790
+     ],
+     "img": "C0502",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "A plateia maravilhada num teatro dos anos 1920, rostos iluminados pelo palco."
+    },
+    {
+     "poly": [
+      [
+       80,
+       950
+      ],
+      [
+       1000,
+       950
+      ],
+      [
+       860,
+       1750
+      ],
+      [
+       80,
+       1750
+      ]
+     ],
+     "img": "C0503",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Theremin no laboratório em Nova York nos anos 30, entre fios e aparelhos, animado."
+    },
+    {
+     "poly": [
+      [
+       1030,
+       950
+      ],
+      [
+       1720,
+       950
+      ],
+      [
+       1720,
+       1750
+      ],
+      [
+       890,
+       1750
+      ]
+     ],
+     "img": "C0504",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Theremin no convés de um navio à noite, olhando para trás os arranha-céus que se afastam."
+    },
+    {
+     "rect": [
+      80,
+      1780,
+      1000,
+      830
+     ],
+     "img": "C0505",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Corredor cinza de prisão: o homem do NKVD conduz Theremin pelo braço."
+    },
+    {
+     "rect": [
+      1110,
+      1780,
+      610,
+      830
+     ],
+     "img": "C0506",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: paisagem gelada de Kolyma, mina a céu aberto, Theremin pequeno de casaco acolchoado entre outros presos."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 440,
+     "texto": "Nueva York, 1928. Antes de los espías, Léon Theremin hacía música.",
+     "painel": "C0501"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "UUUIIIUUU",
+     "px": 64,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "C0502"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 445,
+     "texto": "Su instrumento sonaba sin que nadie lo tocara.",
+     "painel": "C0502"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 506,
+     "texto": "Vivió diez años en Estados Unidos. Inventó, patentó, fue famoso.",
+     "painel": "C0503"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 456,
+     "texto": "En 1938 volvió de repente a la Unión Soviética.",
+     "painel": "C0504"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 550,
+     "texto": "Poco después, lo encerraron.",
+     "painel": "C0505"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Camine, ciudadano Termen.",
+     "quem": "NKVD",
+     "painel": "C0505"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 549,
+     "texto": "Primero, las minas de oro de Kolyma, en el fin del mundo.",
+     "painel": "C0506"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-06",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 27,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 2: EL PRISIONERO QUE INVENTABA",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "C0601",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Exterior da sharashka à noite: prédio cinza com janelas acesas, arame farpado, um guarda."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1235,
+       760
+      ],
+      [
+       1150,
+       1460
+      ],
+      [
+       80,
+       1460
+      ]
+     ],
+     "img": "C0602",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Interior: presos-cientistas em pranchetas e bancadas; Theremin solda algo numa bancada."
+    },
+    {
+     "poly": [
+      [
+       1265,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       1460
+      ],
+      [
+       1180,
+       1460
+      ]
+     ],
+     "img": "C0603",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: dois engenheiros presos; um desenha um avião, outro rabisca um foguete (sem letras)."
+    },
+    {
+     "rect": [
+      80,
+      1490,
+      1640,
+      620
+     ],
+     "img": "C0604",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "O homem do NKVD, em pé à esquerda, dá a ordem a Theremin, sentado à bancada, que ergue os olhos."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "C0605",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Theremin sozinho à noite na bancada, um diapasão na mão, pensando."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Después, un lugar con nombre de chiste: la sharashka.",
+     "painel": "C0601"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.72
+     ],
+     "larg": 620,
+     "texto": "Un laboratorio-prisión.",
+     "painel": "C0601"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Allí los presos no picaban piedra. Inventaban.",
+     "painel": "C0602"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 486,
+     "texto": "Compañeros de encierro: Tupolev, que diseñaba aviones, y Koroliov, que soñaría con cohetes.",
+     "painel": "C0603"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Queremos oír a los americanos. Sin cables. Sin pilas. Sin que lo encuentren.",
+     "quem": "NKVD",
+     "painel": "C0604"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Sin pilas... Entonces la energía tendrá que venir de afuera.",
+     "quem": "THEREMIN",
+     "painel": "C0605"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-07",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 28,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 2: EL PRISIONERO QUE INVENTABA",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      1650
+     ],
+     "img": "C0701",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Splash: Theremin segura sob o abajur um pequeno cilindro de cobre com uma haste fina (antena); olhos brilhando."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1810
+      ],
+      [
+       880,
+       1810
+      ],
+      [
+       800,
+       2610
+      ],
+      [
+       80,
+       2610
+      ]
+     ],
+     "img": "C0702",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Esquema ilustrado: um feixe azul chega à antena; ondas de voz batem na membrana do cilindro (sem letras)."
+    },
+    {
+     "poly": [
+      [
+       910,
+       1810
+      ],
+      [
+       1720,
+       1810
+      ],
+      [
+       1720,
+       2610
+      ],
+      [
+       830,
+       2610
+      ]
+     ],
+     "img": "C0703",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Esquema: o eco volta do cilindro em ondas até um furgão distante, onde um fone capta."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Lo que fabricó cabía en la palma de la mano.",
+     "painel": "C0701"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 620,
+     "texto": "Un cilindro de cobre, una membrana más fina que un pelo y una antena.",
+     "painel": "C0701"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 440,
+     "texto": "Cuando un haz de radio lo alcanzaba desde afuera, la voz hacía vibrar la membrana...",
+     "painel": "C0702"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 489,
+     "texto": "...y el eco regresaba cargado de palabras.",
+     "painel": "C0703"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 489,
+     "texto": "Sin el haz, era solo un trozo de metal muerto.",
+     "painel": "C0703"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-08",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 29,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 2: EL PRISIONERO QUE INVENTABA",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "C0801",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Oficina: o selo de madeira deitado de bruços na bancada; Theremin encaixa o cilindro numa cavidade atrás da águia."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1300,
+       760
+      ],
+      [
+       1120,
+       1520
+      ],
+      [
+       80,
+       1520
+      ]
+     ],
+     "img": "C0802",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "O homem do NKVD examina o selo pronto, satisfeito, segurando-o de pé."
+    },
+    {
+     "poly": [
+      [
+       1330,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       2110
+      ],
+      [
+       1010,
+       2110
+      ]
+     ],
+     "img": "C0803",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: Theremin num gabinete recebe um diploma/medalha; expressão contida, ambígua."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1550
+      ],
+      [
+       1112,
+       1550
+      ],
+      [
+       980,
+       2110
+      ],
+      [
+       80,
+       2110
+      ]
+     ],
+     "img": "C0804",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Theremin sai por um portão para a rua de Moscou, olha o céu."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "C0203",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.6,
+      0.5
+     ],
+     "placeholder": "Reuso do estudo vazio de noite com o selo (C0203): o tempo passa e ele segue na parede."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "En Moscú lo bautizaron Zlatoust: \"boca de oro\".",
+     "painel": "C0801"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Ningún americano rechaza un regalo de niños.",
+     "quem": "NKVD",
+     "painel": "C0802"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 390,
+     "texto": "En 1947, Theremin recibió el Premio Stalin. Y salió de la sharashka.",
+     "painel": "C0803"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Nadie sabrá lo que hice.",
+     "quem": "THEREMIN",
+     "painel": "C0804"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Mientras tanto, en la residencia, el regalo seguía en la pared.",
+     "painel": "C0203"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.72
+     ],
+     "larg": 620,
+     "texto": "Escuchando.",
+     "painel": "C0203"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-09",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 30,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 3: SIETE AÑOS ESCUCHANDO",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "C0901",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Três silhuetas de embaixadores diferentes, lado a lado, diante do selo, como uma sequência de tempo."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1235,
+       760
+      ],
+      [
+       1150,
+       1460
+      ],
+      [
+       80,
+       1460
+      ]
+     ],
+     "img": "C0902",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Sala de rádio da embaixada britânica, 1951: um operador britânico de fones gira o dial entre receptores."
+    },
+    {
+     "poly": [
+      [
+       1265,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       1460
+      ],
+      [
+       1180,
+       1460
+      ]
+     ],
+     "img": "C0903",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: close no rosto do operador, olhos arregalados, mão apertando o fone."
+    },
+    {
+     "rect": [
+      80,
+      1490,
+      1640,
+      620
+     ],
+     "img": "C0904",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Um americano repete o teste com um receptor dentro de um carro estacionado de noite."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "C0905",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Escritório em Washington: dois funcionários preocupados diante de um mapa de Moscou."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Pasaron los años. Pasaron tres embajadores.",
+     "painel": "C0901"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.72
+     ],
+     "larg": 620,
+     "texto": "Y el águila de madera siguió en su lugar.",
+     "painel": "C0901"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "1951. En la embajada británica, un operador de radio revisa frecuencias soviéticas.",
+     "painel": "C0902"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.5,
+      0.18
+     ],
+     "larg": 421,
+     "alvo": [
+      0.5,
+      0.48
+     ],
+     "texto": "Un momento... Eso es inglés. Con acento americano.",
+     "quem": "OPERADOR",
+     "painel": "C0903"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Un estadounidense repite la prueba. Y también oye voces de la residencia.",
+     "painel": "C0904"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Hay un micrófono en Moscú. Y no sabemos dónde está.",
+     "quem": "FUNCIONARIO",
+     "painel": "C0905"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-10",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 31,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 3: SIETE AÑOS ESCUCHANDO",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      800,
+      790
+     ],
+     "img": "C1001",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Kennan desce do carro diante da residência, primavera de 1952."
+    },
+    {
+     "rect": [
+      910,
+      130,
+      810,
+      790
+     ],
+     "img": "C1002",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Kennan no estudo olha para o selo na parede, admirado."
+    },
+    {
+     "poly": [
+      [
+       80,
+       950
+      ],
+      [
+       1000,
+       950
+      ],
+      [
+       860,
+       1750
+      ],
+      [
+       80,
+       1750
+      ]
+     ],
+     "img": "C1003",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Kennan na janela vê dois homens à paisana vigiando a casa na rua."
+    },
+    {
+     "poly": [
+      [
+       1030,
+       950
+      ],
+      [
+       1720,
+       950
+      ],
+      [
+       1720,
+       1750
+      ],
+      [
+       890,
+       1750
+      ]
+     ],
+     "img": "C1004",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Noite: dois técnicos chegam com malas à porta; um deles é o técnico."
+    },
+    {
+     "rect": [
+      80,
+      1780,
+      1000,
+      830
+     ],
+     "img": "C1005",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Corredor: Kennan e o técnico cochicham o plano."
+    },
+    {
+     "rect": [
+      1110,
+      1780,
+      610,
+      830
+     ],
+     "img": "C1006",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: num quarto de cima, o técnico de fones com uma caixa receptora de dial, atento."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 440,
+     "texto": "1952. Llega un nuevo embajador: George F. Kennan, uno de los grandes expertos en la Unión Soviética.",
+     "painel": "C1001"
+    },
+    {
+     "tipo": "pensa",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 291,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Precioso. Y lleva siete años aquí.",
+     "quem": "KENNAN",
+     "painel": "C1002"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 506,
+     "texto": "Afuera lo seguían a todas partes. Dentro de la casa, se creía a salvo.",
+     "painel": "C1003"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 456,
+     "texto": "Septiembre de 1952. Washington envía a dos técnicos.",
+     "painel": "C1004"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 298,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Para todos, somos invitados de la casa.",
+     "quem": "TECNICO",
+     "painel": "C1004"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Yo hablaré en voz alta en el estudio. Usted busque.",
+     "quem": "KENNAN",
+     "painel": "C1005"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "SSSHHH",
+     "px": 64,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "C1006"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-11",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 32,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 3: SIETE AÑOS ESCUCHANDO",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      1150
+     ],
+     "img": "C1101",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Quadro grande: Kennan de pé no estudo lendo em voz alta um papel, sob o selo; abajur, noite."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1310
+      ],
+      [
+       900,
+       1310
+      ],
+      [
+       800,
+       1990
+      ],
+      [
+       80,
+       1990
+      ]
+     ],
+     "img": "C1102",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Close no receptor: o ponteiro salta; o técnico arregala os olhos."
+    },
+    {
+     "poly": [
+      [
+       930,
+       1310
+      ],
+      [
+       1720,
+       1310
+      ],
+      [
+       1720,
+       1990
+      ],
+      [
+       830,
+       1990
+      ]
+     ],
+     "img": "C1103",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "O técnico entra no estudo e varre a parede com uma antena; Kennan continua lendo; os dois se aproximam do selo."
+    },
+    {
+     "rect": [
+      80,
+      2020,
+      1640,
+      590
+     ],
+     "img": "C1104",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "As mãos do técnico tiram o selo da parede."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Kennan dicta un texto cualquiera, como si fuera un telegrama importante.",
+     "painel": "C1101"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.3
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.5260869565217391
+     ],
+     "texto": "Punto. Nueva línea. El embajador informa que...",
+     "quem": "KENNAN",
+     "painel": "C1101"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "¡BIIIIP!",
+     "px": 64,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "C1102"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 295,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "Es su voz... ¡Sale de esta casa!",
+     "quem": "TECNICO",
+     "painel": "C1102"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 489,
+     "texto": "El receptor chilla más fuerte cuanto más se acerca a la pared.",
+     "painel": "C1103"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "CRAC",
+     "px": 84,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "C1104"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Detrás de la mesa. En el regalo de los niños.",
+     "painel": "C1104"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-12",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 33,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 3: SIETE AÑOS ESCUCHANDO",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      2480
+     ],
+     "img": "C1201",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Splash vertical: em primeiro plano a palma aberta do técnico com o cilindro de cobre e a antena; atrás, o selo aberto sobre a mesa (cavidade sob o bico) e Kennan olhando, chocado."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Bajo el pico del águila: un cilindro de cobre. Siete años escuchando, sin pilas ni cables.",
+     "painel": "C1201"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.28483870967741937
+     ],
+     "texto": "¿Y qué demonios es esta cosa?",
+     "quem": "TECNICO",
+     "painel": "C1201"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 620,
+     "texto": "Desde esa noche tuvo nombre: La Cosa.",
+     "painel": "C1201"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-13",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 34,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 4: LA COSA EN LA ONU",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "C1301",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Laboratório em Washington, 1952: engenheiros do FBI e da Marinha examinam o cilindro com instrumentos."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1235,
+       760
+      ],
+      [
+       1150,
+       1460
+      ],
+      [
+       80,
+       1460
+      ]
+     ],
+     "img": "C1302",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Um engenheiro de fones ouve o teste, espantado; outro aponta uma antena para o cilindro do outro lado da sala."
+    },
+    {
+     "poly": [
+      [
+       1265,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       1460
+      ],
+      [
+       1180,
+       1460
+      ]
+     ],
+     "img": "C1303",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: pasta de relatório sobre a mesa, capa sem letras legíveis, uma mão a fecha."
+    },
+    {
+     "rect": [
+      80,
+      1490,
+      1640,
+      620
+     ],
+     "img": "C1304",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "A porta de um cofre se fecha sobre a pasta."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "C1305",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Londres: um engenheiro britânico monta sua própria versão na bancada."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Washington. Ingenieros del FBI y del Laboratorio de Investigación Naval desarman La Cosa.",
+     "painel": "C1301"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Funciona a veinte metros. Y no lleva nada adentro.",
+     "quem": "INGENIERO",
+     "painel": "C1302"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 486,
+     "texto": "1 de diciembre de 1952: informe final.",
+     "painel": "C1303"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.72
+     ],
+     "larg": 486,
+     "texto": "Y después, silencio.",
+     "painel": "C1303"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "CLANC",
+     "px": 84,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "C1304"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "El secreto quedó guardado durante años.",
+     "painel": "C1304"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "En Londres, un ingeniero británico la estudió y construyó su propia versión.",
+     "painel": "C1305"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-14",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 35,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 4: LA COSA EN LA ONU",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      800,
+      790
+     ],
+     "img": "C1401",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Céu alto: silhueta de um avião espião de asas longas, e ao longe um rastro de fumaça."
+    },
+    {
+     "rect": [
+      910,
+      130,
+      810,
+      790
+     ],
+     "img": "C1402",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Moscou exibe os destroços do avião num salão para jornalistas."
+    },
+    {
+     "poly": [
+      [
+       80,
+       950
+      ],
+      [
+       1000,
+       950
+      ],
+      [
+       860,
+       1750
+      ],
+      [
+       80,
+       1750
+      ]
+     ],
+     "img": "C1403",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Pilhas de jornais pelo mundo, manchetes sem letras legíveis."
+    },
+    {
+     "poly": [
+      [
+       1030,
+       950
+      ],
+      [
+       1720,
+       950
+      ],
+      [
+       1720,
+       1750
+      ],
+      [
+       890,
+       1750
+      ]
+     ],
+     "img": "C1404",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Exterior da sede da ONU em Nova York em 1960, dia."
+    },
+    {
+     "rect": [
+      80,
+      1780,
+      1000,
+      830
+     ],
+     "img": "C1405",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Na mesa em ferradura, um delegado soviético acusa, dedo em riste."
+    },
+    {
+     "rect": [
+      1110,
+      1780,
+      610,
+      830
+     ],
+     "img": "C1406",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: Lodge sentado, calmo, mão sobre um objeto grande embrulhado ao lado da cadeira."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 440,
+     "texto": "1 de mayo de 1960. Los soviéticos derriban un avión espía U-2 sobre su territorio.",
+     "painel": "C1401"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 445,
+     "texto": "Moscú exhibe los restos y acusa a Estados Unidos de espionaje.",
+     "painel": "C1402"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 506,
+     "texto": "La cumbre de París se cae. El mundo entero habla de espías.",
+     "painel": "C1403"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 456,
+     "texto": "La URSS lleva el caso al Consejo de Seguridad de la ONU.",
+     "painel": "C1404"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "¡Estados Unidos espía a la Unión Soviética!",
+     "quem": "DELEGADO",
+     "painel": "C1405"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 549,
+     "texto": "26 de mayo de 1960. El embajador estadounidense, Henry Cabot Lodge, trae algo envuelto.",
+     "painel": "C1406"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-15",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 36,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 4: LA COSA EN LA ONU",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      1150
+     ],
+     "img": "C1501",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Quadro grande: sala do Conselho de Segurança; Lodge de pé mostra a réplica do selo num cavalete; delegados e fotógrafos surpresos."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1310
+      ],
+      [
+       900,
+       1310
+      ],
+      [
+       800,
+       1990
+      ],
+      [
+       80,
+       1990
+      ]
+     ],
+     "img": "C1502",
+     "arte_dir": "arte-001",
+     "orient": "quadrado",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Close: o dedo de Lodge aponta a pequena cavidade sob o bico da águia."
+    },
+    {
+     "poly": [
+      [
+       930,
+       1310
+      ],
+      [
+       1720,
+       1310
+      ],
+      [
+       1720,
+       1990
+      ],
+      [
+       830,
+       1990
+      ]
+     ],
+     "img": "C1503",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Delegados murmuram; flashes dos fotógrafos; Lodge ao centro, firme."
+    },
+    {
+     "rect": [
+      80,
+      2020,
+      1640,
+      590
+     ],
+     "img": "C1504",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Votação: mãos levantadas em volta da mesa em ferradura."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Lodge muestra una réplica del regalo de Moscú.",
+     "painel": "C1501"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 360,
+     "alvo": [
+      0.69,
+      0.4060869565217391
+     ],
+     "texto": "Este escudo colgó en la residencia de nuestro embajador.",
+     "quem": "LODGE",
+     "painel": "C1501"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.25,
+      0.18
+     ],
+     "larg": 295,
+     "alvo": [
+      0.31,
+      0.48
+     ],
+     "texto": "Aquí adentro estaba el micrófono.",
+     "quem": "LODGE",
+     "painel": "C1502"
+    },
+    {
+     "tipo": "sfx",
+     "pos": [
+      0.8,
+      0.62
+     ],
+     "texto": "¡FLASH!",
+     "px": 64,
+     "rot": -8,
+     "cor": "vermelho",
+     "painel": "C1503"
+    },
+    {
+     "tipo": "fala",
+     "pos": [
+      0.75,
+      0.18
+     ],
+     "larg": 320,
+     "alvo": [
+      0.69,
+      0.48
+     ],
+     "texto": "¿De verdad quieren hablar de espionaje?",
+     "quem": "LODGE",
+     "painel": "C1503"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "La moción soviética cae: 7 votos contra 2.",
+     "painel": "C1504"
+    }
+   ]
+  },
+  {
+   "tipo": "quadros",
+   "saida": "lacosa-16",
+   "estilo": "cor",
+   "arte": "arte-001",
+   "numero": 37,
+   "cabecalho": "EXPEDIENTES SECRETOS #1  ·  LA COSA  ·  CAP. 4: LA COSA EN LA ONU",
+   "paineis": [
+    {
+     "rect": [
+      80,
+      130,
+      1640,
+      600
+     ],
+     "img": "C1601",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Theremin mais velho toca seu instrumento numa sala simples, luz suave."
+    },
+    {
+     "poly": [
+      [
+       80,
+       760
+      ],
+      [
+       1300,
+       760
+      ],
+      [
+       1120,
+       1520
+      ],
+      [
+       80,
+       1520
+      ]
+     ],
+     "img": "C1602",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vitrine de museu com a réplica do selo; visitantes olhando."
+    },
+    {
+     "poly": [
+      [
+       1330,
+       760
+      ],
+      [
+       1720,
+       760
+      ],
+      [
+       1720,
+       2110
+      ],
+      [
+       1010,
+       2110
+      ]
+     ],
+     "img": "C1603",
+     "arte_dir": "arte-001",
+     "orient": "retrato",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Vertical: o pequeno cilindro de cobre flutuando no escuro, um feixe azul tênue tocando a antena."
+    },
+    {
+     "poly": [
+      [
+       80,
+       1550
+      ],
+      [
+       1112,
+       1550
+      ],
+      [
+       980,
+       2110
+      ],
+      [
+       80,
+       2110
+      ]
+     ],
+     "img": "C0203",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.4,
+      0.5
+     ],
+     "placeholder": "Reuso do estudo vazio de noite com o selo na parede (C0203)."
+    },
+    {
+     "rect": [
+      80,
+      2140,
+      1640,
+      470
+     ],
+     "img": "C1605",
+     "arte_dir": "arte-001",
+     "orient": "paisagem",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "placeholder": "Fecho: ponto de vista do leitor diante de uma parede comum com um quadro e uma grade de ventilação, luz baixa."
+    }
+   ],
+   "textos": [
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Theremin volvió a su música.",
+     "painel": "C1601"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.72
+     ],
+     "larg": 620,
+     "texto": "Su nombre quedó unido a un instrumento... y a un espía de madera.",
+     "painel": "C1601"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Hoy, una réplica se exhibe en el Museo Criptológico Nacional de la NSA, en Estados Unidos.",
+     "painel": "C1602"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 390,
+     "texto": "Siete años. Ningún cable.",
+     "painel": "C1603"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.8
+     ],
+     "larg": 390,
+     "texto": "Una voz que cruzaba la calle.",
+     "painel": "C1603"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 567,
+     "texto": "Un regalo. Unos niños. Una pared.",
+     "painel": "C0203"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.03
+     ],
+     "larg": 620,
+     "texto": "Ahora mira la pared que tienes más cerca.",
+     "painel": "C1605"
+    },
+    {
+     "tipo": "legenda",
+     "pos": [
+      0.02,
+      0.72
+     ],
+     "larg": 620,
+     "texto": "¿Quién está escuchando?",
+     "painel": "C1605"
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "saida": "real-1",
+   "titulo": "LO QUE ES REAL",
+   "px_titulo": 100,
+   "blocos": [
+    {
+     "t": "h",
+     "texto": "OPERACIÓN GARBO: LO REAL"
+    },
+    {
+     "t": "item",
+     "texto": "Juan Pujol García (Barcelona, 1912 – Caracas, 1988) se ofreció a los británicos en Madrid desde enero de 1941 y lo rechazaron. Entonces se ofreció a los alemanes."
+    },
+    {
+     "t": "item",
+     "texto": "Los alemanes lo llamaron ALARIC. Desde Lisboa inventó informes sobre Gran Bretaña con una guía turística, horarios de trenes, revistas y noticieros. Lo de Glasgow y el litro de vino es real."
+    },
+    {
+     "t": "item",
+     "texto": "En abril de 1942 los británicos lo llevaron a Londres. El MI5 lo llamó GARBO y su oficial fue Tomás Harris. Juntos mantuvieron una red de 27 agentes que no existían (hay fuentes que cuentan 22)."
+    },
+    {
+     "t": "item",
+     "texto": "El agente inventado de Liverpool «murió», salió una nota en el periódico y los alemanes le pagaron una pensión a su «viuda»."
+    },
+    {
+     "t": "item",
+     "texto": "El 6 de junio de 1944 avisó del desembarco a las 3 de la mañana; nadie respondió hasta las 8. El 9 de junio convenció a Berlín de que Normandía era una distracción, y muchas divisiones se quedaron esperando en Calais."
+    },
+    {
+     "t": "item",
+     "texto": "Recibió la Cruz de Hierro (29/7/1944) y la orden del Imperio Británico, MBE (25/11/1944). En 1949 fingió su muerte en Angola y se fue a Venezuela. En 1984 lo encontró el escritor Nigel West."
+    },
+    {
+     "t": "h",
+     "texto": "LO QUE INVENTAMOS"
+    },
+    {
+     "t": "pequeno",
+     "texto": "Los diálogos y pensamientos; el aspecto de Araceli, Tomás Harris y del oficial alemán; las escenas del bar, de la oficina alemana y de la sala de radio; los detalles de la pelea de 1943 con Araceli y del falso arresto (la crisis existió; lo que se dijeron, no lo sabemos)."
+    },
+    {
+     "t": "h",
+     "texto": "FUENTES"
+    },
+    {
+     "t": "pequeno",
+     "texto": "MI5, «Agent GARBO». Tomás Harris, Garbo: The Spy Who Saved D-Day (2000). Juan Pujol y Nigel West, Operation Garbo (1985). Ben Macintyre, Double Cross (2012). Archivos KV 2/39–42, National Archives (Kew)."
+    }
+   ],
+   "numero": 38
+  },
+  {
+   "tipo": "texto",
+   "saida": "real-2",
+   "titulo": "LO QUE ES REAL",
+   "px_titulo": 100,
+   "blocos": [
+    {
+     "t": "h",
+     "texto": "LA COSA: LO REAL"
+    },
+    {
+     "t": "item",
+     "texto": "En agosto de 1945 un grupo de Pioneros soviéticos le regaló al embajador W. Averell Harriman un Gran Sello de Estados Unidos tallado en madera. Lo colgó en el estudio de su residencia, Spaso House."
+    },
+    {
+     "t": "item",
+     "texto": "Adentro había un micrófono sin pilas ni cables: un cilindro con una membrana y una antena que solo «despertaba» cuando lo iluminaban con ondas de radio desde afuera."
+    },
+    {
+     "t": "item",
+     "texto": "Lo diseñó Léon Theremin, el inventor del instrumento musical, cuando estaba preso en un laboratorio secreto del sistema de campos soviético. En 1947 recibió el Premio Stalin."
+    },
+    {
+     "t": "item",
+     "texto": "Escuchó durante siete años y tres embajadores. En 1951 un operador de radio británico oyó voces estadounidenses en una frecuencia soviética."
+    },
+    {
+     "t": "item",
+     "texto": "En septiembre de 1952, con George F. Kennan como embajador, técnicos del Departamento de Estado lo encontraron mientras Kennan leía un texto en voz alta como carnada."
+    },
+    {
+     "t": "item",
+     "texto": "El 26 de mayo de 1960, tras el derribo del avión espía U-2, el embajador Henry Cabot Lodge mostró en el Consejo de Seguridad de la ONU una réplica del sello. La moción soviética perdió 7 a 2. Hoy hay una réplica en el Museo Criptológico de la NSA."
+    },
+    {
+     "t": "h",
+     "texto": "LO QUE INVENTAMOS"
+    },
+    {
+     "t": "pequeno",
+     "texto": "Los diálogos; cuántos niños fueron y qué dijeron; el agente del NKVD es un personaje inventado que representa a quienes escuchaban; las conversaciones que se oyen; la escena exacta en que Theremin recibe el encargo; las herramientas usadas para abrir el sello."
+    },
+    {
+     "t": "h",
+     "texto": "FUENTES"
+    },
+    {
+     "t": "pequeno",
+     "texto": "CIA, «Compromise of the Great Seal» (2020). NSA, «The Thing and I» y «Cold War: Great Seal». Crypto Museum, «The Thing». George F. Kennan, Memoirs 1950–1963 (1972)."
+    }
+   ],
+   "numero": 39
+  },
+  {
+   "tipo": "texto",
+   "saida": "poster",
+   "titulo": "TU PÓSTER",
+   "numero": 40,
+   "blocos": [
+    {
+     "t": "p",
+     "texto": "En el archivo .zip viene el póster en tamaño A3 (300 dpi), listo para imprimir, y 6 fondos de pantalla: 3 para el celular y 3 para la computadora.",
+     "centro": true
+    }
+   ],
+   "caixas": [
+    {
+     "rect": [
+      450,
+      700,
+      900,
+      1350
+     ],
+     "img": "001/poster-miniatura.jpg",
+     "rotulo": "PÓSTER",
+     "placeholder": "miniatura do pôster A3 (PO01 + título), gerada na e2"
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "saida": "final",
+   "titulo": "¿QUÉ EXPEDIENTE QUIERES EN EL #2?",
+   "numero": 41,
+   "blocos": [
+    {
+     "t": "p",
+     "texto": "Déjalo en los comentarios del canal. Leemos todos y el más pedido puede ser el próximo expediente.",
+     "centro": true
+    },
+    {
+     "t": "p",
+     "texto": "Escanea el código para ir al canal:",
+     "centro": true
+    }
+   ],
+   "caixas": [
+    {
+     "rect": [
+      600,
+      1250,
+      600,
+      600
+     ],
+     "img": "001/qr-canal.png",
+     "rotulo": "QR",
+     "placeholder": "QR do canal: https://www.youtube.com/channel/UCVCYqeuCwTWC7Lqez_qeWRA"
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "saida": "contracapa",
+   "escuro": true,
+   "titulo": "DOSSIER EN MINUTOS",
+   "px_titulo": 130,
+   "blocos": [
+    {
+     "t": "p",
+     "texto": "Historias reales de espionaje, una organización por expediente.",
+     "centro": true
+    },
+    {
+     "t": "p",
+     "texto": "EXPEDIENTES SECRETOS #1 · Operación Garbo · La Cosa",
+     "centro": true
+    }
+   ],
+   "caixas": [
+    {
+     "rect": [
+      650,
+      1500,
+      500,
+      500
+     ],
+     "img": "001/qr-canal.png",
+     "rotulo": "QR",
+     "placeholder": "QR do canal"
+    }
+   ]
+  }
+ ]
+}
