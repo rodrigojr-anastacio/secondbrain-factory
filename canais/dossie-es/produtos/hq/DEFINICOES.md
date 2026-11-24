@@ -33,3 +33,6 @@ Estas definições prevalecem sobre a PROPOSTA.md.
 - Descrição e comentário fixado.
 - Quando o CTA começa a entrar nos vídeos.
 - Calendário das imagens.
+
+## Plataforma (24/11/2026, noite)
+Hotmart travada (troca CNPJ→CPF). Venda pela **Cakto**: checkout https://pay.cakto.com.br/vt3xj9m, entrega na área de membros. Detalhes em `cakto/LEIA.md`.
