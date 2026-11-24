@@ -1,0 +1,1060 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/historia-ptbr/videos/015-argentina/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2314,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 2,
+  "medio": 14,
+  "baixo": 32
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "O rótulo '1992' no canto superior esquerdo fica semitransparente sobre a planta e a estante, com legibilidade fraca. Pode ser um título intencional, mas o contraste está baixo e a caixa se mistura ao fundo.",
+   "t": 0.5,
+   "arquivo": "15.png"
+  },
+  {
+   "quadro": "Q01",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena ambientada em 1992 mostra uma TV de tubo com videocassete, o que é coerente. O fundo lembra Paris ou Buenos Aires, o que pode destoar do lugar esperado. Só vale conferir.",
+   "t": 0.5,
+   "arquivo": "15.png"
+  },
+  {
+   "quadro": "Q02",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "O personagem está sentado dentro de uma gaveta aberta com maços de notas, perto de uma janela com rua ao fundo. A composição é estranha em escala, mas parece intencional.",
+   "t": 10.5,
+   "arquivo": "315.png"
+  },
+  {
+   "quadro": "Q04",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Cena de época com bonde, carruagem e um automóvel antigo ao fundo. Misturar carruagem e carro antigo na mesma rua pode ser aceitável, mas vale checar a coerência da época.",
+   "t": 30.5,
+   "arquivo": "915.png"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "Rótulo 'POTOSÍ → BUENOS AIRES' está no canto inferior esquerdo, sobre a costa e a cordilheira, tapando parte do mapa. A seta '→' é pequena e fraca. Potosí fica na Bolívia, mas a linha pontilhada parte de um ponto sobre os Andes, sem marcador de origem. O trajeto parece aproximado.",
+   "t": 80.5,
+   "arquivo": "2415.png"
+  },
+  {
+   "quadro": "Q11",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa de céu azul uniforme no topo (3%). Pelo que se vê, é só céu liso da cena, sem emenda nem listra. Há um pequeno objeto azul-claro no horizonte, no centro, que parece um artefato minúsculo.",
+   "t": 100.5,
+   "arquivo": "3015.png"
+  },
+  {
+   "quadro": "Q16",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'CAPÍTULO 2 / A primeira conta' cobre o rosto e o corpo do terceiro bonequinho da esquerda, em primeiro plano. A placa '1824' no canto superior esquerdo também cobre parte do poste de luz. A sobreposição é aceitável, mas esconde personagens.",
+   "t": 150.5,
+   "arquivo": "4515.png"
+  },
+  {
+   "quadro": "Q19",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Mapa estilizado do Uruguai sem rótulos, com montanhas à esquerda que não correspondem à geografia real (deserto/serras onde seria a Argentina/Pampa). Dúvida entre estilo e erro geográfico; rótulos devem vir do código.",
+   "t": 180.5,
+   "arquivo": "5415.png"
+  },
+  {
+   "quadro": "Q21",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Uniformes verdes com dragonas e navios de três mastros são plausíveis para o início do séc. XIX, mas sem bandeira definida; conferir a época do trecho. Sem defeito claro.",
+   "t": 200.5,
+   "arquivo": "6015.png"
+  },
+  {
+   "quadro": "Q22",
+   "categoria": "outro",
+   "severidade": "alto",
+   "descricao": "Quadro com várias camadas semitransparentes sobrepostas (duplo/triplo): praça, multidão com cartolas e grade/carruagem se misturam. Pode ser crossfade entre cenas, que não é defeito, mas está em t=3:30 sem transição evidente e ilegível como imagem estática. Confirmar se é só a transição; se for imagem fixa, é emenda quebrada.",
+   "t": 210.5,
+   "arquivo": "6315.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O sinal automático de faixa no topo corresponde a céu azul liso, que faz parte da cena, então não é defeito. Há apenas uma mistura de uniformes (vermelhos e azuis) sem identificação clara. Dúvida de contexto histórico, não bloqueante.",
+   "t": 280.5,
+   "arquivo": "8415.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "A faixa cinza-azulada no topo é céu nublado liso, parte da cena e não defeito. Registrado só porque o sinal automático acusou.",
+   "t": 300.5,
+   "arquivo": "9015.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "A cena parece mesclar duas imagens: à esquerda uma rua externa com carruagem, à direita um salão interno com lustres, sem divisão arquitetônica coerente. Na dúvida entre estilo e emenda, fica como risco de composição estranha. Também há um bilhete com rabiscos no canto inferior direito sobre uma travessa, elemento solto.",
+   "t": 310.5,
+   "arquivo": "9315.png"
+  },
+  {
+   "quadro": "Q34",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "A figura central tem rosto mais detalhado, com barba grisalha e cabelo nas têmporas, e o corpo de traço mais realista, o que foge um pouco do estilo de bonequinho de cabeça redonda. Pode ser estilo intencional.",
+   "t": 330.5,
+   "arquivo": "9915.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A cédula tem aparência moderna, parecida com dólar, e o cenário parece uma vila espanhola ou latino-americana. A placa '1887' é legível e correta, então o risco é só de coerência histórica.",
+   "t": 350.5,
+   "arquivo": "10515.png"
+  },
+  {
+   "quadro": "Q38",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "As cédulas espalhadas e as folhas nas mãos dos bonecos têm marcações pequenas, sem texto legível. Não atrapalha.",
+   "t": 370.5,
+   "arquivo": "11115.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "outro",
+   "severidade": "medio",
+   "descricao": "O estilo é diferente dos outros quadros: traço mais limpo e de alto contraste, sem o cenário detalhado. Os bonecos estão muito ampliados e cortados pelas bordas, e o pergaminho vazio ocupa o centro. Pode ser enquadramento intencional, mas vale conferir se combina com a sequência.",
+   "t": 390.5,
+   "arquivo": "11715.png"
+  },
+  {
+   "quadro": "Q41",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo \"CAPÍTULO 5 / A algema de ouro\" cobre a parte inferior central da cena e esconde parte dos deputados e da mesa. É sobreposição de overlay com a ilustração, mas parece intencional como cartela de capítulo; o selo \"1899\" no canto superior esquerdo está ok.",
+   "t": 400.5,
+   "arquivo": "12015.png"
+  },
+  {
+   "quadro": "Q43",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa uniforme azul no topo (RGB 117,201,250), mas é só o céu liso da cena, que faz parte da ilustração. Falso positivo; nada a corrigir.",
+   "t": 420.5,
+   "arquivo": "12615.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A cena mostra uma rua com bondes e um automóvel preto, fiacre puxado a cavalo e prédios haussmannianos em estilo parisiense, mas o contexto é a Argentina de 1899-1900. O carro parece um Ford T, que é posterior a 1900. Há dúvida se é Buenos Aires: a arquitetura lembra Paris, e o veículo é possivelmente anacrônico.",
+   "t": 430.5,
+   "arquivo": "12915.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa bege no topo (RGB 249,235,199), mas é o fundo liso creme da cena do cofre sobre a mesa, que faz parte da ilustração. Falso positivo; o cofre tem uma forma estranha (porta quadrada com cadeado), mas é estilo.",
+   "t": 470.5,
+   "arquivo": "14115.png"
+  },
+  {
+   "quadro": "Q50",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os carros e a rua na janela parecem Londres dos anos 1930, e a mesa tem um telefone antigo. Combina com a época, mas a arquitetura e o ambiente não deixam claro o lugar. Pode ser conferido se a cena deveria ser em Londres.",
+   "t": 490.5,
+   "arquivo": "14715.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "A carta tem rabiscos ilegíveis que imitam escrita, e a assinatura embaixo também é falsa. Como não dá para ler como texto real, passa como garrancho de estilo. Registrado como dúvida entre estilo e defeito.",
+   "t": 510.5,
+   "arquivo": "15315.png"
+  },
+  {
+   "quadro": "Q53",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático indicou uma faixa azul uniforme (113,200,246) no topo, com 6% do quadro. Visualmente é só o céu liso da cena, sem emenda, então é provavelmente falso positivo. Vale uma conferência rápida.",
+   "t": 520.5,
+   "arquivo": "15615.png"
+  },
+  {
+   "quadro": "Q56",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Os uniformes e capacetes verde-oliva parecem de uma época mais moderna que os anos 1930-40 do vídeo. Os capacetes parecem de estilo da Segunda Guerra. Conferir a época da cena.",
+   "t": 550.5,
+   "arquivo": "16515.png"
+  },
+  {
+   "quadro": "Q58",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático indicou faixa azul uniforme no topo, mas é só céu liso que faz parte da cena. Provável falso positivo.",
+   "t": 570.5,
+   "arquivo": "17115.png"
+  },
+  {
+   "quadro": "Q59",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "O obelisco de Buenos Aires aparece ao fundo (já existe em 1946, então é plausível). Ainda assim, o balcão rosa lembra a Casa Rosada. O rótulo 'JUAN PERÓN' no canto inferior esquerdo está sobre a multidão e cobre parte dos personagens. Isso é texto de código e provavelmente intencional, mas a caixa tapa rostos da multidão.",
+   "t": 580.5,
+   "arquivo": "17415.png"
+  },
+  {
+   "quadro": "Q62",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O obelisco de Buenos Aires aparece cortado na borda direita, ao lado de prédios de estilo parisiense. Os bondes e carros são plausíveis para a época. Não há defeito claro, só uma dúvida de enquadramento.",
+   "t": 610.5,
+   "arquivo": "18315.png"
+  },
+  {
+   "quadro": "Q65",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa uniforme azul (96,191,251) no topo, mas é só o céu liso da cena, que é intencional. Sem defeito real; registrado só pelo alerta automático.",
+   "t": 640.5,
+   "arquivo": "19215.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Fundo bege chapado ocupa quase todo o quadro acima da maquete, com faixa uniforme na borda esquerda. Pode ser fundo intencional de ilustração conceitual, mas parece vazio e sem textura. Na dúvida entre estilo e defeito, fica como médio.",
+   "t": 680.5,
+   "arquivo": "20415.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A tira de papel no pêndulo tem rabiscos que imitam texto ilegível. É pequeno e sem leitura possível, funcionando como textura de papel.",
+   "t": 680.5,
+   "arquivo": "20415.png"
+  },
+  {
+   "quadro": "Q71",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Na fachada rosada da Casa Rosada há uma plaquinha minúscula na entrada com letras ilegíveis. É discreto.",
+   "t": 700.5,
+   "arquivo": "21015.png"
+  },
+  {
+   "quadro": "Q74",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena do escritório mostra prédios modernos e carros dos anos 70-80, coerente com a época; personagens da esquerda cortados pela borda (enquadramento normal). Sem defeito grave, apenas detalhe: letras rabiscadas nos papéis são ilegíveis mas pequenas.",
+   "t": 730.5,
+   "arquivo": "21915.png"
+  },
+  {
+   "quadro": "Q75",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Rótulo 'PESO ARGENTINO · -4 ZEROS' está em inglês/misto num vídeo em português (deveria ser 'ZEROS'→'zeros' em PT) e cobre parte da cédula na mesa. A cédula tem círculo vazio sem texto legível. Placa '1983' ok.",
+   "t": 740.5,
+   "arquivo": "22215.png"
+  },
+  {
+   "quadro": "Q76",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Faixa escura uniforme na borda esquerda (RGB 54,50,41), mas parece ser parede/sombra interna da cena (parede escura junto à janela), sem emenda evidente. Dúvida entre estilo e defeito.",
+   "t": 750.5,
+   "arquivo": "22515.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "texto_encavalado",
+   "severidade": "alto",
+   "descricao": "Placa de capítulo 'CAPÍTULO 9 / O décimo terceiro zero' está semitransparente e sobreposta ao personagem e à mesa, com baixo contraste; a leitura fica difícil. O rótulo '1985' no canto superior esquerdo está quase invisível sobre as estantes. Pode ser transição de entrada (fade), por isso não é bloqueante.",
+   "t": 760.5,
+   "arquivo": "22815.png"
+  },
+  {
+   "quadro": "Q81",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Fundo bege liso ocupa ~19% do topo e uma faixa fina na esquerda. Parece parte da cena (parede/fundo de cartum, mesa em perspectiva), não um defeito de borda. Registrado por dúvida entre estilo e defeito. A cesta da direita e o maço de notas cortados na borda são enquadramento normal.",
+   "t": 800.5,
+   "arquivo": "24015.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena de rua com carros, grade de ferro e prédios de estilo parisiense. Se o trecho se passa na Argentina (obelisco nos Q86 e Q87), a arquitetura é de Paris e destoa. Conferir o contexto do roteiro.",
+   "t": 810.5,
+   "arquivo": "24315.png"
+  },
+  {
+   "quadro": "Q84",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Fundo bege liso no topo (13%) e tampo de mesa laranja na base (7%). Parece fundo intencional da cena, sem emenda visível. Dúvida entre estilo e defeito.",
+   "t": 830.5,
+   "arquivo": "24915.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Fundo bege liso no topo (16%) atrás da balança. Parece fundo de cena liso e intencional, sem emenda visível. Dúvida entre estilo e defeito.",
+   "t": 840.5,
+   "arquivo": "25215.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Escritório com prédios no estilo haussmanniano (Paris), em tema que parece argentino pelos Q86 e Q87. Conferir se o lugar está correto.",
+   "t": 870.5,
+   "arquivo": "26115.png"
+  },
+  {
+   "quadro": "Q90",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A cédula tem um brilho holográfico e um oval vazio, sem texto. Pode ser estilo intencional, mas lembra uma cédula moderna. Só vale conferir o período do trecho.",
+   "t": 890.5,
+   "arquivo": "26715.png"
+  },
+  {
+   "quadro": "Q93",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O fundo bege liso ocupa o topo e a lateral esquerda (RGB ~246,238,210), como um fundo vazio atrás da máquina de dinheiro. Não há mapa nem 3D, então provavelmente é cenário liso intencional, mas a composição fica vazia e parece uma faixa chapada. Dúvida entre estilo e defeito.",
+   "t": 920.5,
+   "arquivo": "27615.png"
+  },
+  {
+   "quadro": "Q94",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Os trabalhadores no canto inferior esquerdo e na borda inferior estão cortados pela borda. É enquadramento normal, sem problema real.",
+   "t": 930.5,
+   "arquivo": "27915.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme bege na borda esquerda, mas o fundo bege liso faz parte da cena (parede atrás da balança). Não há emenda visível. Segundo prato da balança cortado na borda direita, o que é enquadramento normal.",
+   "t": 960.5,
+   "arquivo": "28815.png"
+  },
+  {
+   "quadro": "Q99",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Cena atual da Casa Rosada em Buenos Aires, com prédios modernos ao fundo. Dúvida: se o trecho do vídeo fala de uma época anterior, a cidade moderna seria anacrônica. Há um ônibus colorido na direita, mas sem texto legível.",
+   "t": 980.5,
+   "arquivo": "29415.png"
+  },
+  {
+   "quadro": "Q100",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa bege no topo, mas é o fundo liso da parede da cena, sem emenda visível. Personagem cortado na borda direita é enquadramento normal. Os papéis têm rabiscos ilegíveis, discretos e sem leitura de texto.",
+   "t": 990.5,
+   "arquivo": "29715.png"
+  },
+  {
+   "quadro": "Q102",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Cédulas na mão do personagem com ornamento rosado sem texto legível, o que é aceitável. Dúvida de estilo: o personagem tem cabelo cacheado e jaqueta, fugindo um pouco do padrão de cabeça redonda branca nua, mas a cabeça segue redonda e branca.",
+   "t": 1010.5,
+   "arquivo": "30315.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 0.5,
+   "nome": "15.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 10.5,
+   "nome": "315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 20.5,
+   "nome": "615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 30.5,
+   "nome": "915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 40.5,
+   "nome": "1215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 50.5,
+   "nome": "1515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 60.5,
+   "nome": "1815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 70.5,
+   "nome": "2115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 80.5,
+   "nome": "2415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 90.5,
+   "nome": "2715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 100.5,
+   "nome": "3015.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 3% do quadro, cor RGB(34,171,252)"
+   ]
+  },
+  {
+   "id": "Q12",
+   "t": 110.5,
+   "nome": "3315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 120.5,
+   "nome": "3615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 130.5,
+   "nome": "3915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 140.5,
+   "nome": "4215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 150.5,
+   "nome": "4515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 160.5,
+   "nome": "4815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 170.5,
+   "nome": "5115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 180.5,
+   "nome": "5415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 190.5,
+   "nome": "5715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 200.5,
+   "nome": "6015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 210.5,
+   "nome": "6315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 220.5,
+   "nome": "6615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 230.5,
+   "nome": "6915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 240.5,
+   "nome": "7215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 250.5,
+   "nome": "7515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 260.5,
+   "nome": "7815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 270.5,
+   "nome": "8115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 280.5,
+   "nome": "8415.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(110,200,248)"
+   ]
+  },
+  {
+   "id": "Q30",
+   "t": 290.5,
+   "nome": "8715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 300.5,
+   "nome": "9015.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 12% do quadro, cor RGB(127,153,170)"
+   ]
+  },
+  {
+   "id": "Q32",
+   "t": 310.5,
+   "nome": "9315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 320.5,
+   "nome": "9615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 330.5,
+   "nome": "9915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 340.5,
+   "nome": "10215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 350.5,
+   "nome": "10515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 360.5,
+   "nome": "10815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 370.5,
+   "nome": "11115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 380.5,
+   "nome": "11415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 390.5,
+   "nome": "11715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 400.5,
+   "nome": "12015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 410.5,
+   "nome": "12315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 420.5,
+   "nome": "12615.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 7% do quadro, cor RGB(117,201,250)"
+   ]
+  },
+  {
+   "id": "Q44",
+   "t": 430.5,
+   "nome": "12915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 440.5,
+   "nome": "13215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 450.5,
+   "nome": "13515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 460.5,
+   "nome": "13815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 470.5,
+   "nome": "14115.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 7% do quadro, cor RGB(249,235,199)"
+   ]
+  },
+  {
+   "id": "Q49",
+   "t": 480.5,
+   "nome": "14415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q50",
+   "t": 490.5,
+   "nome": "14715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q51",
+   "t": 500.5,
+   "nome": "15015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q52",
+   "t": 510.5,
+   "nome": "15315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q53",
+   "t": 520.5,
+   "nome": "15615.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 6% do quadro, cor RGB(113,200,246)"
+   ]
+  },
+  {
+   "id": "Q54",
+   "t": 530.5,
+   "nome": "15915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q55",
+   "t": 540.5,
+   "nome": "16215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q56",
+   "t": 550.5,
+   "nome": "16515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q57",
+   "t": 560.5,
+   "nome": "16815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q58",
+   "t": 570.5,
+   "nome": "17115.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 4% do quadro, cor RGB(96,190,241)"
+   ]
+  },
+  {
+   "id": "Q59",
+   "t": 580.5,
+   "nome": "17415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 590.5,
+   "nome": "17715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 600.5,
+   "nome": "18015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q62",
+   "t": 610.5,
+   "nome": "18315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 620.5,
+   "nome": "18615.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 11% do quadro, cor RGB(80,189,250)"
+   ]
+  },
+  {
+   "id": "Q64",
+   "t": 630.5,
+   "nome": "18915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 640.5,
+   "nome": "19215.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(96,191,251)"
+   ]
+  },
+  {
+   "id": "Q66",
+   "t": 650.5,
+   "nome": "19515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 660.5,
+   "nome": "19815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 670.5,
+   "nome": "20115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 680.5,
+   "nome": "20415.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 4% do quadro, cor RGB(245,237,202)"
+   ]
+  },
+  {
+   "id": "Q70",
+   "t": 690.5,
+   "nome": "20715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 700.5,
+   "nome": "21015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 710.5,
+   "nome": "21315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 720.5,
+   "nome": "21615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 730.5,
+   "nome": "21915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 740.5,
+   "nome": "22215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 750.5,
+   "nome": "22515.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 5% do quadro, cor RGB(54,50,41)"
+   ]
+  },
+  {
+   "id": "Q77",
+   "t": 760.5,
+   "nome": "22815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 770.5,
+   "nome": "23115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q79",
+   "t": 780.5,
+   "nome": "23415.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(59,181,252)"
+   ]
+  },
+  {
+   "id": "Q80",
+   "t": 790.5,
+   "nome": "23715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 800.5,
+   "nome": "24015.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 19% do quadro, cor RGB(248,240,217)",
+    "faixa uniforme na borda esquerda: 4% do quadro, cor RGB(249,241,217)"
+   ]
+  },
+  {
+   "id": "Q82",
+   "t": 810.5,
+   "nome": "24315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 820.5,
+   "nome": "24615.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 830.5,
+   "nome": "24915.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 13% do quadro, cor RGB(250,242,216)",
+    "faixa uniforme na borda base: 7% do quadro, cor RGB(216,156,89)"
+   ]
+  },
+  {
+   "id": "Q85",
+   "t": 840.5,
+   "nome": "25215.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 16% do quadro, cor RGB(248,237,207)"
+   ]
+  },
+  {
+   "id": "Q86",
+   "t": 850.5,
+   "nome": "25515.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 860.5,
+   "nome": "25815.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 870.5,
+   "nome": "26115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 880.5,
+   "nome": "26415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 890.5,
+   "nome": "26715.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 900.5,
+   "nome": "27015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 910.5,
+   "nome": "27315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 920.5,
+   "nome": "27615.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 19% do quadro, cor RGB(246,238,210)",
+    "faixa uniforme na borda esquerda: 8% do quadro, cor RGB(247,238,210)"
+   ]
+  },
+  {
+   "id": "Q94",
+   "t": 930.5,
+   "nome": "27915.png",
+   "sinais": []
+  },
+  {
+   "id": "Q95",
+   "t": 940.5,
+   "nome": "28215.png",
+   "sinais": []
+  },
+  {
+   "id": "Q96",
+   "t": 950.5,
+   "nome": "28515.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 9% do quadro, cor RGB(97,194,249)"
+   ]
+  },
+  {
+   "id": "Q97",
+   "t": 960.5,
+   "nome": "28815.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 9% do quadro, cor RGB(248,242,218)"
+   ]
+  },
+  {
+   "id": "Q98",
+   "t": 970.5,
+   "nome": "29115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 980.5,
+   "nome": "29415.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 990.5,
+   "nome": "29715.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 8% do quadro, cor RGB(247,234,202)"
+   ]
+  },
+  {
+   "id": "Q101",
+   "t": 1000.5,
+   "nome": "30015.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 1010.5,
+   "nome": "30315.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 1020.5,
+   "nome": "30615.png",
+   "sinais": []
+  }
+ ]
+}
