@@ -48,7 +48,13 @@ def main():
     if not cta:
         print("sem ATIVO: pacote sem CTA da HQ"); return
     # 24/11/2026: UTM por vídeo e por lugar (a Cakto grava utm_* em cada pedido → saber qual vídeo vendeu)
-    l_desc, l_com = com_utm(cta["link"], v.name, "descripcion"), com_utm(cta["link"], v.name, "comentario")
+    # 24/11 (noite): link curto = 1 oferta da Cakto por vídeo (cakto_oferta.py); sem API, cai no link longo com UTM
+    try:
+        import cakto_oferta
+        l_desc = l_com = cakto_oferta.link(v.name)
+    except Exception as e:  # noqa: BLE001
+        print("aviso: oferta Cakto falhou, usando UTM:", type(e).__name__)
+        l_desc, l_com = com_utm(cta["link"], v.name, "descripcion"), com_utm(cta["link"], v.name, "comentario")
     linha, _ = encaixe.textos(l_desc)
     _, comentario = encaixe.textos(l_com)
     for p in (v / "out/youtube.txt", v / "entrega/pacote/youtube.txt"):

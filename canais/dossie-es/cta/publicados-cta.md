@@ -1,12 +1,12 @@
 # CTA da HQ nos vídeos publicados (ordem de publicação)
 
-Em cada vídeo: LINHA no topo da descrição + COMENTÁRIO do canal (depois fixar). Link já rastreado por vídeo.
+Em cada vídeo: LINHA no topo da descrição + COMENTÁRIO do canal (depois fixar). Cada vídeo tem o próprio link curto (oferta Cakto) → sabemos qual vídeo vendeu.
 
 ## 1. 04/11 · Cómo la CIA Quiso Controlar América Latina
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=001-cia
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/3eccrth
 ```
 
 **Comentário fixado:**
@@ -18,7 +18,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=001-cia
+👉 https://pay.cakto.com.br/3eccrth
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
@@ -27,7 +27,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=002-mossad
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/br8do5h
 ```
 
 **Comentário fixado:**
@@ -39,7 +39,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=002-mossad
+👉 https://pay.cakto.com.br/br8do5h
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
@@ -48,7 +48,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=003-fbi
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/363hngp
 ```
 
 **Comentário fixado:**
@@ -60,7 +60,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=003-fbi
+👉 https://pay.cakto.com.br/363hngp
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
@@ -69,7 +69,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=004-cosa-nostra
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/bap2csd
 ```
 
 **Comentário fixado:**
@@ -81,7 +81,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=004-cosa-nostra
+👉 https://pay.cakto.com.br/bap2csd
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
@@ -90,7 +90,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=005-kgb
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/33tripr
 ```
 
 **Comentário fixado:**
@@ -102,7 +102,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=005-kgb
+👉 https://pay.cakto.com.br/33tripr
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
@@ -111,7 +111,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=006-masones
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/35fxprq
 ```
 
 **Comentário fixado:**
@@ -123,7 +123,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=006-masones
+👉 https://pay.cakto.com.br/35fxprq
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
@@ -132,7 +132,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=007-ss
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/k2jwmbm
 ```
 
 **Comentário fixado:**
@@ -144,7 +144,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=007-ss
+👉 https://pay.cakto.com.br/k2jwmbm
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
@@ -153,7 +153,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=008-inquisicion
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/n47bbb9
 ```
 
 **Comentário fixado:**
@@ -165,7 +165,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=008-inquisicion
+👉 https://pay.cakto.com.br/n47bbb9
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
@@ -174,7 +174,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=009-gestapo
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/3fxdt6x
 ```
 
 **Comentário fixado:**
@@ -186,7 +186,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=009-gestapo
+👉 https://pay.cakto.com.br/3fxdt6x
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
@@ -195,7 +195,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=010-cartel-medellin
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/mtgy3ch
 ```
 
 **Comentário fixado:**
@@ -207,7 +207,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=010-cartel-medellin
+👉 https://pay.cakto.com.br/mtgy3ch
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
@@ -216,7 +216,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=011-templarios
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vctrvz6
 ```
 
 **Comentário fixado:**
@@ -228,7 +228,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=011-templarios
+👉 https://pay.cakto.com.br/vctrvz6
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
@@ -237,7 +237,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=012-mi6
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/33nwocx
 ```
 
 **Comentário fixado:**
@@ -249,7 +249,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=012-mi6
+👉 https://pay.cakto.com.br/33nwocx
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
@@ -258,7 +258,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 
 **Descrição (topo):**
 ```
-📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=descripcion&utm_campaign=expedientes-secretos-1&utm_content=013-nuremberg
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/3bh7i7m
 ```
 
 **Comentário fixado:**
@@ -270,7 +270,7 @@ EXPEDIENTES SECRETOS #1 incluye:
 🖼️ 2 pósteres para decorar tu espacio
 📱 6 fondos de pantalla (celular y computadora)
 
-👉 https://pay.cakto.com.br/vt3xj9m?utm_source=youtube&utm_medium=comentario&utm_campaign=expedientes-secretos-1&utm_content=013-nuremberg
+👉 https://pay.cakto.com.br/3bh7i7m
 
 ¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
 ```
