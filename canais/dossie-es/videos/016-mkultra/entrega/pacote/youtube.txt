@@ -1,0 +1,66 @@
+# Pacote de publicación · dossie-es 016 · MKUltra (puede ir al aire: según el día que elija Rodrigo; ventana sugerida: mié o vie) · duración 13:48
+
+## TESTAR E COMPARAR (títulos × thumbs)
+| par | título | padrão do título | thumb | padrão da thumb |
+|---|---|---|---|---|
+| A (T1) | TODA la historia de MKUltra en 14 minutos \| Del laboratorio de la CIA a América Latina | TODA la historia de X en N minutos | subtítulo concreto | thumb-A.jpg: cuatro hongos sagrados en pares sobre una hoja de plátano, una vela encendida y un paño bordado mazateco, «MKULTRA» | objeto-simbolo |
+| B (T2) | Cómo la CIA buscó en América Latina la droga del control mental | Cómo + organização + verbo concreto + alvo | thumb-B.jpg: perfil de un científico de la CIA con el rostro en la sombra del sombrero, un saco de lona al hombro con «10 LIBRAS», adobe y magueyes | cena-acao |
+| C (T3) | MKULTRA: lo que la CIA vino a buscar a México… y lo que dejó | SIGLA: aposto com lacuna | thumb-C.jpg: hoja mecanografiada sobre la bandera de Honduras, «stress» tachado y «deplore» a mano, rótulo «HONDURAS» | documento-evidencia |
+
+## Descripción
+📘 Expedientes Secretos #1, el cómic con historias reales de espionaje que no están en el canal (+ 2 pósteres y fondos de pantalla de regalo) → https://pay.cakto.com.br/kwye7ir
+
+Si te gustan estos expedientes, suscríbete, deja tu like y compártelo: abrimos uno nuevo cada semana.
+
+Huautla de Jiménez, Oaxaca, verano de 1956: en la velada de María Sabina, un químico de Delaware mastica los hongos sagrados. Nadie en la casa sabe que el dinero del viaje salió de la CIA.
+Esta es la historia completa de MKUltra contada por lo que la CIA vino a buscar a América Latina (las semillas de México, los hongos de Huautla, las plantas de la Amazonía) y por lo que dejó (los químicos del mismo servicio técnico para Fidel Castro y un manual en Honduras).
+
+Capítulos
+0:00 Introducción: Huautla, 1956
+0:40 Expediente 1: Las Semillas
+1:45 Expediente 2: La Granja
+2:43 Expediente 3: La Velada
+3:27 Expediente 4: La Bolsa
+4:29 Expediente 5: La Revista
+5:47 Expediente 6: El Estudio
+6:46 Expediente 7: Los Puros
+7:40 Expediente 8: La Silla
+8:35 Expediente 9: La Selva
+9:34 Expediente 10: Las Cuentas
+10:51 Expediente 11: El Curso
+11:49 Expediente 12: La Tachadura
+12:51 Cierre: Los Niños Santos
+
+Fuentes
+- John Marks, The Search for the "Manchurian Candidate" (1979), caps. 7, 11 y 12; documentos ARTICHOKE de 1952–53; adendo CIA BLUEBIRD/ARTICHOKE (29/1/1975).
+- Comité Church, Alleged Assassination Plots Involving Foreign Leaders (1975), pp. 71–73; Informe Final, Libro I, pp. 385–422; audiencia del Senado del 3/8/1977; informe del inspector general de la CIA (26/7/1963).
+- Life, «Seeking the Magic Mushroom» (13/5/1957); Álvaro Estrada, Vida de María Sabina (1976); Albert Hofmann, LSD: My Problem Child.
+- Manual KUBARK (1963) y Human Resource Exploitation Training Manual – 1983 (National Security Archive, EBB 27/122); Baltimore Sun (11–18/6/1995 y 27/1/1997); Comisionado Nacional de Derechos Humanos de Honduras (1993); Alfred McCoy, A Question of Torture (2006).
+Las acusaciones se atribuyen a sus fuentes; la CIA y los gobiernos citados las niegan o no las han confirmado. Contenido educativo e histórico; sin apología de la violencia.
+
+## Etiquetas
+MKUltra, CIA, historia de MKUltra, control mental, programa secreto de la CIA, María Sabina, Huautla, hongos sagrados, Fidel Castro, Honduras, manual KUBARK, Guerra Fría, servicios secretos, documental, expedientes secretos, América Latina
+
+## Categoría e idioma
+Educación · español (es)
+
+<!-- cta-hq -->
+## COMENTARIO FIJADO (pegar como comentario del canal y fijarlo)
+📁 Algunos expedientes nunca llegaron al canal. Los guardamos para un cómic.
+
+EXPEDIENTES SECRETOS #1 incluye:
+📘 El cómic en PDF con 2 historias reales de espionaje: Operación Garbo (el español que inventó 27 espías y engañó a Hitler) y La Cosa (el micrófono sin pilas escondido en un regalo al embajador de EE. UU.)
+🖼️ 2 pósteres para decorar tu espacio
+📱 6 fondos de pantalla (celular y computadora)
+
+👉 https://pay.cakto.com.br/kwye7ir
+
+¿Qué expediente quieres ver en el #2? Te leo aquí abajo.
+
+## CHECKLIST DE PUBLICACIÓN (para Rodrigo; fuera de la descripción)
+- [ ] CTA de la HQ: comentario fijado publicado y fijado; enlace de la descripción (https://pay.cakto.com.br/kwye7ir) probado.
+- Studio → Atributos: Uso de IA = Sí; no es contenido para niños; idioma español.
+- «Testar e comparar»: subir las 3 miniaturas y los 3 títulos pareados como arriba (thumb-A con título A, thumb-B con B, thumb-C con C); después avisar cuál ganó.
+- Subir el mp4 1080p de entrega/ (nunca la versión de Telegram) y los subtítulos legendas.srt.
+- Revisar de oído «Toughkenamon», «Geschickter», «KUBARK» y «fluothane» en la narración (respelling del Fish).
+- Pendiente: revisión nativa independiente del español y verificar «Cameron en los papeles de 1977» (fuente secundaria).
