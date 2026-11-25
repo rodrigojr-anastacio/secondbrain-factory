@@ -1,0 +1,17 @@
+# QA · dossie-es/016 MKUltra · 24/11/2026
+- Render Runpod em 3 faixas (0–4967, 4968–7967, 7968–24840; **MUDO=1** + `render.sh juntar`: o `render_runpod.sh` inteiro passa de 10 min e o comando foreground estoura). SSIM por bloco ok (conferência densa do script). 1920x1080 30 fps H.264+AAC, **13:48 (828,0 s)**, 24.837 quadros.
+- Loudness −15,3 LUFS, pico −3,4 dBFS; 0 telas pretas; 0 silêncios > 1,5 s; 16 cortes no 1º minuto pelo detector de cena do ffmpeg (storyboard: 19,3 cortes/min, 267 planos).
+- Voz: Whisper média 96,7%, mín. 85,1% (N024); os 11 blocos < 93% são grafia de nomes (Marks→"marx", Huautla→"oautla", psilocibina, Moore, "a la CIA"→"alasía") e respelling do Fish; N057 regerado 1× (OK). Nenhuma tag falada. Conferir de ouvido: Toughkenamon ("Tafkenéimon"), Géshikter, Kiúbark, fluotén, "un agente"/"al agente" (N043, N045).
+- Pré-QA visual (stills 10 s, 120 quadros): 0 bloqueante; 1ª rodada corrigiu: pinos do mapa (Huautla/CDMX), placa duplicada lugar×cartão (regra no `Video.jsx`), laptop anacrônico em McCoy (I152 refeita). Pré-QA do vídeo final (83 quadros, US$ 0,27): 0 bloqueante, 4 altos aceitos: CTA com placa "ENLACE EN LA DESCRIPCIÓN" sobre o pôster (desenho do CTA), 2 plaquinhas de nome em animação de digitação (RIC…), bandeira azul/branca na estante 12:45 (fundo; não alegada), selo circular em documento desfocado 1:15 (ilegível).
+- I170 com falso positivo do detector de moldura (papel desfocado).
+- 6b `SIMILARIDADE.md` 2/100 (< 30) ✔ (roteiro não mudou) · 6c `CRIVO-ANGULO.md` r3 APROVADO ✔.
+- **Promessa paga (legendas.srt):** frase-âncora "Esta es TODA la historia de MKUltra" **0:25** (≤ 0:35 ✔); linha de promessa (semillas, hongos, Castro, manual en Honduras) **0:32–0:40** (≤ 0:50 ✔); exp. 1 "Las Semillas" 0:41; "diez libras de piule" **1:33** (≤ 1:45 ✔, paga a B); Honduras: curso 10:52 e La Tachadura 11:50 (paga a C).
+- **CTA da HQ:** 5:31–5:47 (331,1–347,5 s; 40,0% da duração, no limite 35–40%); cartão do capítulo seguinte "6. El Estudio" 5:47 ✔; link e comentário fixado no pacote (`pacote_cta.py`).
+- Thumbs (3 conceitos distintos; A/B/C = T1/T2/T3): A cogumelos+vela+"MKULTRA" (objeto-simbolo), B cientista de perfil com saco "10 LIBRAS" (cena-acao), C folha "stress" riscado → "deplore" + "HONDURAS" sobre bandeira (documento-evidencia). Texto composto no código; bases Codex.
+- Custo (financas.consumo, vídeo 63): Fish US$ 0,17 · Runpod US$ 0,82 (inclui ~US$ 0,6 de 6 tentativas perdidas por timeout de comando/Pods Community sem SSH) · Anthropic API (detector + pré-QA) US$ 0,56+0,27 · imagens Codex US$ 0 (187 + 3 bases, 0 fallback pago; cota Codex 5 h 42% / semana 24%) = ~US$ 1,8 (teto 12).
+- Pendências: revisão nativa do espanhol; "Cameron em 1977" (fonte secundária); ouvido nos nomes; I152 refeita só em `cenas.json` (o prompt no `roteiro.py` não foi alterado); YouTube Data API fora (precisa do Rodrigo).
+
+## Título e capítulos (out/ fica fora do git)
+A: TODA la historia de MKUltra en 14 minutos | Del laboratorio de la CIA a América Latina · B: Cómo la CIA buscó en América Latina la droga del control mental · C: MKULTRA: lo que la CIA vino a buscar a México… y lo que dejó.
+Capítulos: ver `tools/pacote.py` / `qa/capitulos.json` (14 itens; CTA entre 5:31 e 5:47).
+Lição: Pod Community 4090 sem SSH (3×) e `render_runpod.sh` > 10 min em comando foreground: renderizar em faixas com `MUDO=1` e juntar com `tools/render.sh juntar`; ou lançar destacado e esperar com laço de `sleep` ≤ 9 min por comando.

@@ -1,0 +1,1311 @@
+{
+ "alvo": "/home/hermes/workspace/fabrica-youtube/canais/dossie-es/videos/016-mkultra/preqa",
+ "modelo": "claude-sonnet-5-5",
+ "custo_usd": 0.2789,
+ "contagem": {
+  "bloqueante": 0,
+  "alto": 5,
+  "medio": 25,
+  "baixo": 36
+ },
+ "bloqueante": false,
+ "problemas": [
+  {
+   "quadro": "Q01",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Q01 e Q02 são idênticos (mesmo tempo 0:01). Provável quadro duplicado na grade de stills, sem defeito visual na imagem.",
+   "t": 1.1,
+   "arquivo": "33.png"
+  },
+  {
+   "quadro": "Q06",
+   "categoria": "valor_errado",
+   "severidade": "alto",
+   "descricao": "No mapa, o marcador de Huautla fica sobre o litoral do Golfo/Istmo, longe da Sierra Mazateca (Oaxaca), e quase colado à Cidade do México. O rótulo 'HUAUTLA' encosta no rótulo 'CIUDAD DE MÉXICO' e o ponto de Tegucigalpa parece deslocado.",
+   "t": 27.5,
+   "arquivo": "825.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "O carimbo 'CLASIFICADO' sobrepõe a borda superior direita da placa de título e fica inclinado. O 'Nº 016' do dossiê pode estar errado para o primeiro episódio. Parece ser estilo intencional de placa de capítulo, mas a sobreposição merece conferência.",
+   "t": 42.0,
+   "arquivo": "1260.png"
+  },
+  {
+   "quadro": "Q08",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O instrutor no pódio e a sala de aula com parkas de pele remetem a um cenário soviético/militar genérico, sem relação clara com os Estados Unidos ou o MKUltra nos anos 50. Isso cabe conferir com o roteiro.",
+   "t": 42.0,
+   "arquivo": "1260.png"
+  },
+  {
+   "quadro": "Q09",
+   "categoria": "sobreposicao",
+   "severidade": "medio",
+   "descricao": "A placa 'EXPEDIENTE 1' e o carimbo 'CLASIFICADO' ficam muito perto e encostam na placa principal; o carimbo vermelho cobre parte da borda superior direita. Dá para ler tudo, então é só estética. Pode ser o estilo intencional de placa de capítulo.",
+   "t": 42.233333333333334,
+   "arquivo": "1267.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "elemento_fora",
+   "severidade": "alto",
+   "descricao": "O texto 'WASHINGTON, 1952' aparece duas vezes, na placa superior esquerda e na inferior esquerda (HUD duplicado). Além disso, os rótulos estão em inglês num canal em espanhol ('WASHINGTON' é a grafia em inglês, em espanhol seria 'Washington' igual, mas o rótulo inferior repete a informação).",
+   "t": 45.0,
+   "arquivo": "1350.png"
+  },
+  {
+   "quadro": "Q10",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "O Monumento a Washington aparece junto a um espelho d'água com barracões baixos iluminados, o que lembra os 'temporary buildings' da época; plausível, mas o Reflecting Pool está com a disposição diferente da real. Dúvida de estilo, não é erro claro.",
+   "t": 45.0,
+   "arquivo": "1350.png"
+  },
+  {
+   "quadro": "Q11",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "A bandeira dos EUA à direita mostra estrelas em fileiras irregulares e muitas listras; em 1952 eram 48 estrelas. Não dá para contar, mas parece haver mais fileiras de estrelas do que o correto. Dúvida de anacronismo.",
+   "t": 55.0,
+   "arquivo": "1650.png"
+  },
+  {
+   "quadro": "Q12",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A escrita cursiva no caderno é ilegível, mas está desfocada de propósito, então não atrapalha. Só registro que é pseudotexto da IA.",
+   "t": 65.0,
+   "arquivo": "1950.png"
+  },
+  {
+   "quadro": "Q13",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O documento tem texto borrado ilegível, um selo vermelho com símbolo de águia e letras falsas. Está desfocado, mas o selo redondo no canto superior direito tem letras inventadas ainda visíveis.",
+   "t": 75.0,
+   "arquivo": "2250.png"
+  },
+  {
+   "quadro": "Q14",
+   "categoria": "elemento_fora",
+   "severidade": "alto",
+   "descricao": "Placa duplicada: 'MÉXICO, 1953' no topo esquerdo e 'CIUDAD DE MÉXICO' embaixo à esquerda, repetindo a informação de lugar (HUD duplicado). A placa inferior cobre parte dos pedestres e da calçada.",
+   "t": 78.66666666666667,
+   "arquivo": "2360.png"
+  },
+  {
+   "quadro": "Q18",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo ('EXPEDIENTE 2 / DOSSIER · MKULTRA · Nº 016 / LA GRANJA') cobre boa parte do centro da cena e o carimbo 'CLASIFICADO' ultrapassa a borda superior direita da placa. Provavelmente é design intencional do canal, mas vale confirmar a sobreposição do carimbo e se o número 'Nº 016' está correto.",
+   "t": 106.33333333333333,
+   "arquivo": "3190.png"
+  },
+  {
+   "quadro": "Q23",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os pôsteres de cogumelos no mural de cortiça ficam cortados pela borda direita (normal para enquadramento). Não há texto legível inventado, mas os cogumelos desenhados são pouco detalhados. Só registro por precaução.",
+   "t": 145.0,
+   "arquivo": "4350.png"
+  },
+  {
+   "quadro": "Q27",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'LA VELADA' cobre o rosto e a cabeça da personagem durante o movimento de câmera; só ficam visíveis o cesto, o xale e a blusa. Se for só uma fase da animação, é aceitável; o ideal é conferir se o rosto não fica escondido por muito tempo.",
+   "t": 165.0,
+   "arquivo": "4950.png"
+  },
+  {
+   "quadro": "Q29",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O quadro com a Virgem de Guadalupe à direita tem detalhes pequenos e ilegíveis. Não há texto legível, mas o anacronismo/iconografia merece conferência.",
+   "t": 185.0,
+   "arquivo": "5550.png"
+  },
+  {
+   "quadro": "Q31",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O papel nas mãos do cientista tem linhas de texto simuladas, ilegíveis. É discreto e parece um estilo aceitável de rabisco.",
+   "t": 205.0,
+   "arquivo": "6150.png"
+  },
+  {
+   "quadro": "Q32",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa 'LA BOLSA' cobre a cabeça da personagem de casaco no centro-esquerda (só aparecem o corpo e o livro). A cabeça cortada pela placa parece um defeito de enquadramento.",
+   "t": 208.9,
+   "arquivo": "6267.png"
+  },
+  {
+   "quadro": "Q33",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O carimbo 'CLASIFICADO' sobrepõe a borda da placa e o topo do prédio, com as letras um pouco recortadas pela borda da placa; legível, mas apertado. Provavelmente é estilo da placa de capítulo.",
+   "t": 209.13333333333333,
+   "arquivo": "6274.png"
+  },
+  {
+   "quadro": "Q35",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "O cheque no centro tem linhas de texto borradas e ilegíveis (borrões no lugar de escrita) e um selo com fachada de templo. Parece intencional como texto desfocado, mas o borrão parece 'texto falso' da IA e pode ser lido como defeito; confirmar se foi proposital.",
+   "t": 225.0,
+   "arquivo": "6750.png"
+  },
+  {
+   "quadro": "Q36",
+   "categoria": "legenda",
+   "severidade": "baixo",
+   "descricao": "A etiqueta 'SUBPROYECTO 58' no canto inferior esquerdo está bem rente à borda do quadro e cobre parte do livro; legível, só perto da margem.",
+   "t": 235.0,
+   "arquivo": "7050.png"
+  },
+  {
+   "quadro": "Q40",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "No canto superior direito há uma placa/letreiro em branco no poste (retângulo liso). Fica meio atrás da vinheta e do carimbo, pode parecer um bloco chapado vazio.",
+   "t": 270.5,
+   "arquivo": "8115.png"
+  },
+  {
+   "quadro": "Q41",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo cobre o rosto da mulher e o corpo dos pedestres no centro da cena. O carimbo 'CLASIFICADO' invade a borda superior da placa. Pode ser estilo intencional de placa de capítulo, mas a sobreposição é pesada.",
+   "t": 270.73333333333335,
+   "arquivo": "8122.png"
+  },
+  {
+   "quadro": "Q41",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "No canto superior direito há uma placa/letreiro em branco pendurado no poste. Está vazio, sem texto falso, e só é perceptível como elemento solto.",
+   "t": 270.73333333333335,
+   "arquivo": "8122.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Placa cinza vazia na parede do laboratório. Não tem texto inventado, mas parece um placeholder em branco. Detalhe pequeno.",
+   "t": 295.0,
+   "arquivo": "8850.png"
+  },
+  {
+   "quadro": "Q44",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A janela mostra casas de telhado de mansarda de estilo europeu, que não combinam com o laboratório americano de 1957. Em contexto é duvidoso, porque a cena pode representar o laboratório suíço da Sandoz.",
+   "t": 295.0,
+   "arquivo": "8850.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "O fundo é quase preto, com vinheta marrom-escura, e as capas ocupam só a parte inferior. A capa #1 está cortada pela borda inferior e há grande espaço vazio no topo. O contexto sugere cena final de série com vinheta intencional, mas a composição desequilibrada e os sinais automáticos de faixa escura nas bordas deixam dúvida entre estilo e defeito.",
+   "t": 331.46666666666664,
+   "arquivo": "9944.png"
+  },
+  {
+   "quadro": "Q48",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O subtítulo pequeno das capas, 'Historias reales de espionaje que no están en el canal', está ilegível e se confunde com a ilustração por trás. As capas parecem arte de IA. Legibilidade fraca.",
+   "t": 331.46666666666664,
+   "arquivo": "9944.png"
+  },
+  {
+   "quadro": "Q49",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "Nas capas de revista, o subtítulo 'HISTORIAS REALES DE ESPIONAJE QUE NO ESTÁN EN EL CANAL' está parcialmente coberto/ilegível nas capas #2 e #3, e os textos pequenos das capas (caixas de legenda, 'EXPEDIENTE') são letra miúda de IA. Pode ser estilo de mockup; dúvida entre estilo e defeito.",
+   "t": 333.1333333333333,
+   "arquivo": "9994.png"
+  },
+  {
+   "quadro": "Q50",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "Os carimbos 'CLASIFICADO' nas capas #2 e #3 laterais ficam sobrepostos ao título e ao subtítulo, dificultando a leitura. Parece intencional, com as capas laterais esmaecidas.",
+   "t": 335.0,
+   "arquivo": "10050.png"
+  },
+  {
+   "quadro": "Q51",
+   "categoria": "fundo/faixa",
+   "severidade": "medio",
+   "descricao": "Faixa marrom chapada na base (~14%) simulando mesa e área grande e vazia à direita do fundo azul listrado; o pôster está só à esquerda, deixando a composição desbalanceada. Provavelmente é o início de uma animação, mas vale confirmar.",
+   "t": 339.46666666666664,
+   "arquivo": "10184.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa 'ENLACE EN LA DESCRIPCIÓN · COMENTARIO FIJADO' cobre boa parte do segundo pôster e parte do laptop, e as setas vermelhas descem sobre o laptop. A leitura da placa está OK, mas o elemento atrás fica muito tapado.",
+   "t": 345.0,
+   "arquivo": "10350.png"
+  },
+  {
+   "quadro": "Q52",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Na tela do laptop e do celular, o texto 'DOSSIER EN MINUTOS' aparece minúsculo e borrado sobre a ilustração, de baixa legibilidade.",
+   "t": 345.0,
+   "arquivo": "10350.png"
+  },
+  {
+   "quadro": "Q57",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "Rua de Havana com carros dos anos 50 e cidade vista de longe: coerente com a época. O sinal automático de faixa no topo é só o céu liso da cena, sem defeito. Dúvida pequena: a legenda 'LA HABANA' é rótulo do código (aceitável).",
+   "t": 355.0,
+   "arquivo": "10650.png"
+  },
+  {
+   "quadro": "Q61",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Sinal de faixa na borda esquerda é só o fundo azul liso atrás do retrato, que faz parte da cena. Sem defeito real.",
+   "t": 395.0,
+   "arquivo": "11850.png"
+  },
+  {
+   "quadro": "Q63",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'LOS PUROS' cobre as mãos e a caixa de charutos, que são o foco da cena, e o carimbo 'CLASIFICADO' cobre o rosto/óculos do homem à direita. É placa de título intencional, mas tapa bastante a ilustração.",
+   "t": 408.03333333333336,
+   "arquivo": "12241.png"
+  },
+  {
+   "quadro": "Q64",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "Mesma placa 'LOS PUROS' do Q63, ainda na animação: tapa a caixa e as mãos, e o carimbo 'CLASIFICADO' cobre o rosto do homem à direita. Se for a mesma tela em duas fases da entrada, só registrar a dúvida de composição.",
+   "t": 408.3,
+   "arquivo": "12249.png"
+  },
+  {
+   "quadro": "Q68",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os papéis no mural de cortiça têm texto borrado e ilegível, só manchas cinzas no lugar de linhas escritas. Parece intencional, como prop genérico, mas lembra texto falso da IA.",
+   "t": 445.0,
+   "arquivo": "13350.png"
+  },
+  {
+   "quadro": "Q69",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "O orador é um homem barbudo de farda verde-oliva e quepe, claramente um líder revolucionário cubano. É um personagem real e reconhecível, e o contexto do vídeo (MKUltra) pode exigir cuidado. Também há dúvida se o prédio colonial e a multidão correspondem ao cenário esperado.",
+   "t": 455.0,
+   "arquivo": "13650.png"
+  },
+  {
+   "quadro": "Q70",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "O carro verde em primeiro plano parece um Chevrolet Impala de 1964-65. Para uma cena de 1963 isso é levemente adiantado, mas aceitável. Dúvida de época.",
+   "t": 461.5,
+   "arquivo": "13845.png"
+  },
+  {
+   "quadro": "Q70",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "O carimbo 'CLASIFICADO' invade a borda da pasta e se sobrepõe ao monumento ao fundo. Parece intencional como carimbo, mas fica um pouco próximo do texto 'EXPEDIENTE 8'.",
+   "t": 461.5,
+   "arquivo": "13845.png"
+  },
+  {
+   "quadro": "Q76",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Os papéis e fotos na mesa têm retângulos cinza sem conteúdo legível. Não há texto inventado visível, só um detalhe estético simplificado.",
+   "t": 505.0,
+   "arquivo": "15150.png"
+  },
+  {
+   "quadro": "Q77",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A folha de papel na mão do homem tem linhas de texto borradas e ilegíveis, com um visto vermelho. O calendário na parede também tem grade sem números. Ambos estão desfocados e parecem intencionais, então o efeito é discreto.",
+   "t": 515.0,
+   "arquivo": "15450.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusou faixa uniforme na borda inferior (11%, RGB 49,42,35). Visualmente é a água marrom escura do rio, que faz parte da cena, e não há faixa chapada nem moldura. Está registrado só por precaução, como provável falso positivo.",
+   "t": 517.3,
+   "arquivo": "15519.png"
+  },
+  {
+   "quadro": "Q78",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A cena de abertura do capítulo mostra uma 'selva' amazônica com palafitas e barco com motor de popa. O contexto é MKUltra, então vale confirmar se o cenário é coerente com o lugar real (Peru/Iquitos) e a época.",
+   "t": 517.3,
+   "arquivo": "15519.png"
+  },
+  {
+   "quadro": "Q81",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Mapa na parede à esquerda com rios/linhas sem rótulos, e placas em branco na parede e acima da porta. Não há letras inventadas, mas as placas vazias parecem placeholders. Possível ponto para rótulo via código.",
+   "t": 535.0,
+   "arquivo": "16050.png"
+  },
+  {
+   "quadro": "Q82",
+   "categoria": "outro",
+   "severidade": "baixo",
+   "descricao": "Duas placas/quadros em branco na parede e papel liso sobre a mesa, sem conteúdo. Estilo discutível: parecem placeholders vazios, mas sem texto falso.",
+   "t": 545.0,
+   "arquivo": "16350.png"
+  },
+  {
+   "quadro": "Q84",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Bandeira dos EUA na esquerda e mapa dos EUA na parede. A bandeira parece ter faixas e estrelas plausíveis, mas é pequena e as estrelas estão aglomeradas. Verificar se o número de estrelas e o mapa dos EUA (com Alasca) combinam com a época do vídeo (anos 50, possivelmente antes de 1959).",
+   "t": 565.0,
+   "arquivo": "16950.png"
+  },
+  {
+   "quadro": "Q85",
+   "categoria": "elemento_fora",
+   "severidade": "baixo",
+   "descricao": "Na animação de entrada da placa de capítulo, o selo CLASFICADO ainda não apareceu. Isso é normal. Porém, 'Nº 016' no cartão pode conflitar com 'Expediente 10'. Conferir a numeração do episódio.",
+   "t": 575.0,
+   "arquivo": "17250.png"
+  },
+  {
+   "quadro": "Q88",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "Documento com linhas de texto borradas e tabela ilegível, com aspecto de texto falso da IA. Está desfocado de propósito e sem letras legíveis, então é discreto.",
+   "t": 585.0,
+   "arquivo": "17550.png"
+  },
+  {
+   "quadro": "Q92",
+   "categoria": "anacronismo",
+   "severidade": "alto",
+   "descricao": "O especialista (Alfred McCoy) usa um laptop moderno na mesa. A cena remete à década de 1970, então o laptop é anacrônico.",
+   "t": 625.0,
+   "arquivo": "18750.png"
+  },
+  {
+   "quadro": "Q93",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O livro/fichário em close tem capa totalmente lisa e sem título, e fica por conta da legenda. Não é defeito, só uma capa em branco que pode parecer vazia.",
+   "t": 635.0,
+   "arquivo": "19050.png"
+  },
+  {
+   "quadro": "Q94",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "O sinal automático acusa faixa uniforme de 8% na borda direita (RGB 53,74,87). Visualmente é só o mar liso do mapa 2D, que continua o oceano, e não parece um defeito. Vale uma conferência rápida.",
+   "t": 639.9666666666667,
+   "arquivo": "19199.png"
+  },
+  {
+   "quadro": "Q95",
+   "categoria": "fundo/faixa",
+   "severidade": "baixo",
+   "descricao": "Mesmo sinal da faixa na borda direita (8%, RGB 53,74,87). É água lisa do mapa, aparentemente sem emenda. Só confirmar no render.",
+   "t": 643.0,
+   "arquivo": "19290.png"
+  },
+  {
+   "quadro": "Q97",
+   "categoria": "texto_encavalado",
+   "severidade": "medio",
+   "descricao": "A placa de capítulo 'EL CURSO' cobre quase todo o torso da personagem e o carimbo 'CLASIFICADO' invade a janela/parede. Provavelmente é o layout intencional da placa de capítulo, mas a composição fica pesada. Dúvida entre estilo e defeito.",
+   "t": 652.5,
+   "arquivo": "19575.png"
+  },
+  {
+   "quadro": "Q99",
+   "categoria": "texto_cortado",
+   "severidade": "alto",
+   "descricao": "A etiqueta 'LUGAR Y FECHA / HONDURAS, 19' está truncada: o ano termina em '19' sem os dois últimos dígitos. Pode ser animação de digitação em andamento, mas aos 10:55 parece texto incompleto.",
+   "t": 655.0,
+   "arquivo": "19650.png"
+  },
+  {
+   "quadro": "Q100",
+   "categoria": "texto_cortado",
+   "severidade": "medio",
+   "descricao": "A etiqueta de nome mostra só 'RICH', parecendo nome incompleto (por exemplo, sobrenome cortado). Pode ser animação de entrada, mas há dúvida.",
+   "t": 665.0,
+   "arquivo": "19950.png"
+  },
+  {
+   "quadro": "Q101",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "As páginas têm linhas de texto borradas, que simulam escrita ilegível. Estão desfocadas de propósito e não leem como texto falso, mas dá para notar que são pseudotexto.",
+   "t": 675.0,
+   "arquivo": "20250.png"
+  },
+  {
+   "quadro": "Q107",
+   "categoria": "texto_inventado",
+   "severidade": "medio",
+   "descricao": "A etiqueta no canto superior esquerdo ('LUGAR Y FECHA / MANUAL DE 1983') tem o rótulo pequeno 'LUGAR Y FECHA' encostado/encavalado no topo da linha 'MANUAL DE 1983', com leitura apertada. O texto borrado do documento é intencional (tarja/censura), mas a etiqueta parece apertada.",
+   "t": 715.0,
+   "arquivo": "21450.png"
+  },
+  {
+   "quadro": "Q108",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "O documento em close tem texto datilografado borrado e ilegível, com letras falsas geradas pela IA. Como está desfocado de propósito (efeito de censura), o impacto é pequeno. Tem também uns riscos pretos soltos nos cantos.",
+   "t": 725.0,
+   "arquivo": "21750.png"
+  },
+  {
+   "quadro": "Q109",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A linha riscada em vermelho no papel tem texto borrado com letras inventadas ('REMIL RIRAE...'). Fica ilegível por estar riscado e desfocado, então provavelmente é intencional. A assinatura azul também é borrada.",
+   "t": 735.0,
+   "arquivo": "22050.png"
+  },
+  {
+   "quadro": "Q111",
+   "categoria": "anacronismo",
+   "severidade": "baixo",
+   "descricao": "A legenda 'BALTIMORE SUN, 1997' fica bem próxima da borda inferior esquerda e cobre parte da cena. Os monitores CRT combinam com 1997. A cúpula pela janela é plausível, mas a redação parece genérica. Sem erro claro.",
+   "t": 755.0,
+   "arquivo": "22650.png"
+  },
+  {
+   "quadro": "Q112",
+   "categoria": "anacronismo",
+   "severidade": "medio",
+   "descricao": "Na estante, à direita, há uma bandeira azul e branca com duas estrelas, parecida com a de Honduras. Pode ser bandeira real não pedida ou lugar errado. Confirmar se o contexto do roteiro exige isso. A paisagem pela janela também sugere um lugar específico.",
+   "t": 765.0,
+   "arquivo": "22950.png"
+  },
+  {
+   "quadro": "Q113",
+   "categoria": "elemento_fora",
+   "severidade": "medio",
+   "descricao": "A placa de título cobre o rosto do personagem à esquerda e as figuras do meio. Pode ser a composição intencional de uma abertura de capítulo; fica a dúvida. Q114 repete o mesmo quadro no mesmo tempo, sem mudança.",
+   "t": 773.0333333333333,
+   "arquivo": "23191.png"
+  },
+  {
+   "quadro": "Q115",
+   "categoria": "texto_encavalado",
+   "severidade": "baixo",
+   "descricao": "Crossfade entre a placa 'LOS NIÑOS SANTOS' e a cena seguinte, com texto semitransparente sobre as personagens. É transição, então não é defeito. Só vale conferir que a placa some por completo.",
+   "t": 775.0,
+   "arquivo": "23250.png"
+  },
+  {
+   "quadro": "Q119",
+   "categoria": "texto_inventado",
+   "severidade": "baixo",
+   "descricao": "A folha de documento à direita tem linhas de texto borradas e ilegíveis, com um traço vermelho. O desfoque parece intencional, então o texto não chega a ser legível nem inventado em destaque.",
+   "t": 815.0,
+   "arquivo": "24450.png"
+  },
+  {
+   "quadro": "Q120",
+   "categoria": "valor_errado",
+   "severidade": "medio",
+   "descricao": "O mapa da América Central e do Caribe não tem nenhum rótulo, o que pode ser intencional. A Colômbia e a Venezuela estão cortadas pela borda inferior e direita. O Yucatán e as divisões de Belize/Guatemala parecem simplificados.",
+   "t": 825.0,
+   "arquivo": "24750.png"
+  }
+ ],
+ "falhas": [],
+ "quadros": [
+  {
+   "id": "Q01",
+   "t": 1.1,
+   "nome": "33.png",
+   "sinais": []
+  },
+  {
+   "id": "Q02",
+   "t": 1.3333333333333333,
+   "nome": "40.png",
+   "sinais": []
+  },
+  {
+   "id": "Q03",
+   "t": 5.0,
+   "nome": "150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q04",
+   "t": 15.0,
+   "nome": "450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q05",
+   "t": 25.0,
+   "nome": "750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q06",
+   "t": 27.5,
+   "nome": "825.png",
+   "sinais": []
+  },
+  {
+   "id": "Q07",
+   "t": 35.0,
+   "nome": "1050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q08",
+   "t": 42.0,
+   "nome": "1260.png",
+   "sinais": []
+  },
+  {
+   "id": "Q09",
+   "t": 42.233333333333334,
+   "nome": "1267.png",
+   "sinais": []
+  },
+  {
+   "id": "Q10",
+   "t": 45.0,
+   "nome": "1350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q11",
+   "t": 55.0,
+   "nome": "1650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q12",
+   "t": 65.0,
+   "nome": "1950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q13",
+   "t": 75.0,
+   "nome": "2250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q14",
+   "t": 78.66666666666667,
+   "nome": "2360.png",
+   "sinais": []
+  },
+  {
+   "id": "Q15",
+   "t": 85.0,
+   "nome": "2550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q16",
+   "t": 95.0,
+   "nome": "2850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q17",
+   "t": 105.0,
+   "nome": "3150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q18",
+   "t": 106.33333333333333,
+   "nome": "3190.png",
+   "sinais": []
+  },
+  {
+   "id": "Q19",
+   "t": 106.6,
+   "nome": "3198.png",
+   "sinais": []
+  },
+  {
+   "id": "Q20",
+   "t": 115.0,
+   "nome": "3450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q21",
+   "t": 125.0,
+   "nome": "3750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q22",
+   "t": 135.0,
+   "nome": "4050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q23",
+   "t": 145.0,
+   "nome": "4350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q24",
+   "t": 155.0,
+   "nome": "4650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q25",
+   "t": 164.4,
+   "nome": "4932.png",
+   "sinais": []
+  },
+  {
+   "id": "Q26",
+   "t": 164.63333333333333,
+   "nome": "4939.png",
+   "sinais": []
+  },
+  {
+   "id": "Q27",
+   "t": 165.0,
+   "nome": "4950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q28",
+   "t": 175.0,
+   "nome": "5250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q29",
+   "t": 185.0,
+   "nome": "5550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q30",
+   "t": 195.0,
+   "nome": "5850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q31",
+   "t": 205.0,
+   "nome": "6150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q32",
+   "t": 208.9,
+   "nome": "6267.png",
+   "sinais": []
+  },
+  {
+   "id": "Q33",
+   "t": 209.13333333333333,
+   "nome": "6274.png",
+   "sinais": []
+  },
+  {
+   "id": "Q34",
+   "t": 215.0,
+   "nome": "6450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q35",
+   "t": 225.0,
+   "nome": "6750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q36",
+   "t": 235.0,
+   "nome": "7050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q37",
+   "t": 245.0,
+   "nome": "7350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q38",
+   "t": 255.0,
+   "nome": "7650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q39",
+   "t": 265.0,
+   "nome": "7950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q40",
+   "t": 270.5,
+   "nome": "8115.png",
+   "sinais": []
+  },
+  {
+   "id": "Q41",
+   "t": 270.73333333333335,
+   "nome": "8122.png",
+   "sinais": []
+  },
+  {
+   "id": "Q42",
+   "t": 275.0,
+   "nome": "8250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q43",
+   "t": 285.0,
+   "nome": "8550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q44",
+   "t": 295.0,
+   "nome": "8850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q45",
+   "t": 305.0,
+   "nome": "9150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q46",
+   "t": 315.0,
+   "nome": "9450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q47",
+   "t": 325.0,
+   "nome": "9750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q48",
+   "t": 331.46666666666664,
+   "nome": "9944.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 29% do quadro, cor RGB(19,17,15)",
+    "faixa uniforme na borda esquerda: 19% do quadro, cor RGB(14,13,12)",
+    "faixa uniforme na borda direita: 21% do quadro, cor RGB(14,13,12)"
+   ]
+  },
+  {
+   "id": "Q49",
+   "t": 333.1333333333333,
+   "nome": "9994.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 21% do quadro, cor RGB(19,17,15)",
+    "faixa uniforme na borda base: 13% do quadro, cor RGB(14,13,12)",
+    "faixa uniforme na borda esquerda: 19% do quadro, cor RGB(14,13,12)",
+    "faixa uniforme na borda direita: 19% do quadro, cor RGB(14,13,12)"
+   ]
+  },
+  {
+   "id": "Q50",
+   "t": 335.0,
+   "nome": "10050.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 17% do quadro, cor RGB(19,17,15)",
+    "faixa uniforme na borda base: 13% do quadro, cor RGB(14,13,12)",
+    "faixa uniforme na borda esquerda: 4% do quadro, cor RGB(14,13,12)",
+    "faixa uniforme na borda direita: 4% do quadro, cor RGB(14,13,12)"
+   ]
+  },
+  {
+   "id": "Q51",
+   "t": 339.46666666666664,
+   "nome": "10184.png",
+   "sinais": [
+    "faixa uniforme na borda base: 14% do quadro, cor RGB(44,33,23)",
+    "faixa uniforme na borda esquerda: 4% do quadro, cor RGB(27,31,37)",
+    "faixa uniforme na borda direita: 33% do quadro, cor RGB(27,31,37)"
+   ]
+  },
+  {
+   "id": "Q52",
+   "t": 345.0,
+   "nome": "10350.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(16,19,26)",
+    "faixa uniforme na borda base: 15% do quadro, cor RGB(20,16,15)",
+    "faixa uniforme na borda esquerda: 4% do quadro, cor RGB(13,16,21)"
+   ]
+  },
+  {
+   "id": "Q53",
+   "t": 346.1333333333333,
+   "nome": "10384.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 5% do quadro, cor RGB(16,19,26)",
+    "faixa uniforme na borda base: 14% do quadro, cor RGB(20,16,15)",
+    "faixa uniforme na borda esquerda: 4% do quadro, cor RGB(13,16,21)"
+   ]
+  },
+  {
+   "id": "Q54",
+   "t": 348.6,
+   "nome": "10458.png",
+   "sinais": [
+    "faixa uniforme na borda base: 12% do quadro, cor RGB(31,33,31)"
+   ]
+  },
+  {
+   "id": "Q55",
+   "t": 348.8333333333333,
+   "nome": "10465.png",
+   "sinais": [
+    "faixa uniforme na borda base: 12% do quadro, cor RGB(31,33,31)"
+   ]
+  },
+  {
+   "id": "Q56",
+   "t": 349.8666666666667,
+   "nome": "10496.png",
+   "sinais": [
+    "faixa uniforme na borda base: 4% do quadro, cor RGB(32,34,32)"
+   ]
+  },
+  {
+   "id": "Q57",
+   "t": 355.0,
+   "nome": "10650.png",
+   "sinais": [
+    "faixa uniforme na borda topo: 7% do quadro, cor RGB(58,72,84)"
+   ]
+  },
+  {
+   "id": "Q58",
+   "t": 365.0,
+   "nome": "10950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q59",
+   "t": 375.0,
+   "nome": "11250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q60",
+   "t": 385.0,
+   "nome": "11550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q61",
+   "t": 395.0,
+   "nome": "11850.png",
+   "sinais": [
+    "faixa uniforme na borda esquerda: 3% do quadro, cor RGB(58,72,80)"
+   ]
+  },
+  {
+   "id": "Q62",
+   "t": 405.0,
+   "nome": "12150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q63",
+   "t": 408.03333333333336,
+   "nome": "12241.png",
+   "sinais": []
+  },
+  {
+   "id": "Q64",
+   "t": 408.3,
+   "nome": "12249.png",
+   "sinais": []
+  },
+  {
+   "id": "Q65",
+   "t": 415.0,
+   "nome": "12450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q66",
+   "t": 425.0,
+   "nome": "12750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q67",
+   "t": 435.0,
+   "nome": "13050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q68",
+   "t": 445.0,
+   "nome": "13350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q69",
+   "t": 455.0,
+   "nome": "13650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q70",
+   "t": 461.5,
+   "nome": "13845.png",
+   "sinais": []
+  },
+  {
+   "id": "Q71",
+   "t": 461.76666666666665,
+   "nome": "13853.png",
+   "sinais": []
+  },
+  {
+   "id": "Q72",
+   "t": 465.0,
+   "nome": "13950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q73",
+   "t": 475.0,
+   "nome": "14250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q74",
+   "t": 485.0,
+   "nome": "14550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q75",
+   "t": 495.0,
+   "nome": "14850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q76",
+   "t": 505.0,
+   "nome": "15150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q77",
+   "t": 515.0,
+   "nome": "15450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q78",
+   "t": 517.3,
+   "nome": "15519.png",
+   "sinais": [
+    "faixa uniforme na borda base: 11% do quadro, cor RGB(49,42,35)"
+   ]
+  },
+  {
+   "id": "Q79",
+   "t": 517.5333333333333,
+   "nome": "15526.png",
+   "sinais": [
+    "faixa uniforme na borda base: 11% do quadro, cor RGB(45,39,32)"
+   ]
+  },
+  {
+   "id": "Q80",
+   "t": 525.0,
+   "nome": "15750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q81",
+   "t": 535.0,
+   "nome": "16050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q82",
+   "t": 545.0,
+   "nome": "16350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q83",
+   "t": 555.0,
+   "nome": "16650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q84",
+   "t": 565.0,
+   "nome": "16950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q85",
+   "t": 575.0,
+   "nome": "17250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q86",
+   "t": 576.1333333333333,
+   "nome": "17284.png",
+   "sinais": []
+  },
+  {
+   "id": "Q87",
+   "t": 576.3666666666667,
+   "nome": "17291.png",
+   "sinais": []
+  },
+  {
+   "id": "Q88",
+   "t": 585.0,
+   "nome": "17550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q89",
+   "t": 595.0,
+   "nome": "17850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q90",
+   "t": 605.0,
+   "nome": "18150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q91",
+   "t": 615.0,
+   "nome": "18450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q92",
+   "t": 625.0,
+   "nome": "18750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q93",
+   "t": 635.0,
+   "nome": "19050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q94",
+   "t": 639.9666666666667,
+   "nome": "19199.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(53,74,87)"
+   ]
+  },
+  {
+   "id": "Q95",
+   "t": 643.0,
+   "nome": "19290.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 8% do quadro, cor RGB(53,74,87)"
+   ]
+  },
+  {
+   "id": "Q96",
+   "t": 645.0,
+   "nome": "19350.png",
+   "sinais": [
+    "faixa uniforme na borda direita: 5% do quadro, cor RGB(53,74,87)"
+   ]
+  },
+  {
+   "id": "Q97",
+   "t": 652.5,
+   "nome": "19575.png",
+   "sinais": []
+  },
+  {
+   "id": "Q98",
+   "t": 652.7666666666667,
+   "nome": "19583.png",
+   "sinais": []
+  },
+  {
+   "id": "Q99",
+   "t": 655.0,
+   "nome": "19650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q100",
+   "t": 665.0,
+   "nome": "19950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q101",
+   "t": 675.0,
+   "nome": "20250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q102",
+   "t": 685.0,
+   "nome": "20550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q103",
+   "t": 695.0,
+   "nome": "20850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q104",
+   "t": 705.0,
+   "nome": "21150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q105",
+   "t": 711.2333333333333,
+   "nome": "21337.png",
+   "sinais": []
+  },
+  {
+   "id": "Q106",
+   "t": 711.5,
+   "nome": "21345.png",
+   "sinais": []
+  },
+  {
+   "id": "Q107",
+   "t": 715.0,
+   "nome": "21450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q108",
+   "t": 725.0,
+   "nome": "21750.png",
+   "sinais": []
+  },
+  {
+   "id": "Q109",
+   "t": 735.0,
+   "nome": "22050.png",
+   "sinais": []
+  },
+  {
+   "id": "Q110",
+   "t": 745.0,
+   "nome": "22350.png",
+   "sinais": []
+  },
+  {
+   "id": "Q111",
+   "t": 755.0,
+   "nome": "22650.png",
+   "sinais": []
+  },
+  {
+   "id": "Q112",
+   "t": 765.0,
+   "nome": "22950.png",
+   "sinais": []
+  },
+  {
+   "id": "Q113",
+   "t": 773.0333333333333,
+   "nome": "23191.png",
+   "sinais": []
+  },
+  {
+   "id": "Q114",
+   "t": 773.3,
+   "nome": "23199.png",
+   "sinais": []
+  },
+  {
+   "id": "Q115",
+   "t": 775.0,
+   "nome": "23250.png",
+   "sinais": []
+  },
+  {
+   "id": "Q116",
+   "t": 785.0,
+   "nome": "23550.png",
+   "sinais": []
+  },
+  {
+   "id": "Q117",
+   "t": 795.0,
+   "nome": "23850.png",
+   "sinais": []
+  },
+  {
+   "id": "Q118",
+   "t": 805.0,
+   "nome": "24150.png",
+   "sinais": []
+  },
+  {
+   "id": "Q119",
+   "t": 815.0,
+   "nome": "24450.png",
+   "sinais": []
+  },
+  {
+   "id": "Q120",
+   "t": 825.0,
+   "nome": "24750.png",
+   "sinais": []
+  }
+ ]
+}

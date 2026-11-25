@@ -148,7 +148,7 @@ export const Expediente = ({ title, dur }) => {
         <div style={{ width: 1100, padding: '46px 70px 54px', background: PASTA, borderRadius: '0 14px 14px 14px', boxShadow: '12px 14px 0 rgba(0,0,0,.5)',
           borderTop: `6px solid ${PASTA_ESC}` }}>
           <div style={{ background: PAPEL, padding: '26px 40px 18px', transform: 'rotate(0.8deg)', boxShadow: '3px 3px 0 rgba(0,0,0,.25)' }}>
-            <div style={{ fontFamily: TYPE, fontSize: 28, color: '#5b4a33', letterSpacing: 4 }}>DOSSIER · GRU · Nº 015</div>
+            <div style={{ fontFamily: TYPE, fontSize: 28, color: '#5b4a33', letterSpacing: 4 }}>DOSSIER · MKULTRA · Nº 016</div>
             <div style={{ fontFamily: DISPLAY, fontSize: 168, lineHeight: 1, color: TINTA, letterSpacing: 4 }}>{m[2].toUpperCase()}</div>
           </div>
         </div>
@@ -182,7 +182,7 @@ export const INQ = () => {
           </Sequence>
         );
       })}
-      {shots.filter((s) => s.rot).map((s, i) => {
+      {shots.filter((s) => s.rot && !cards.some((c) => c.text.toUpperCase().includes(s.rot.toUpperCase().split(',')[0]) && c.from + 6 < s.from + Math.max(36, s.dur) && c.from + 96 > s.from)).map((s, i) => {   // 24/11/2026: sem placa duplicada (rótulo do lugar = cartão de data)
         const k = chapters.find((c) => c.from + 4 < s.from + s.dur && c.from + 4 + CARD_DUR > s.from);
         const start = k ? Math.max(s.from, k.from + 4 + CARD_DUR) : s.from;
         const d = s.from + Math.max(36, s.dur) - start;

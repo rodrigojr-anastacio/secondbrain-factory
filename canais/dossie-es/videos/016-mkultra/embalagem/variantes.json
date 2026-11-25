@@ -1,11 +1,12 @@
 [
  {
   "letra": "A",
-  "titulo": "TODA la historia de MKUltra en 13 minutos | Del laboratorio de la CIA a América Latina",
+  "titulo": "TODA la historia de MKUltra en 14 minutos | Del laboratorio de la CIA a América Latina",
   "padrao_titulo": "TODA la historia de X en N minutos | subtítulo concreto",
   "padrao_thumb": "objeto-simbolo",
   "thumb_conceito": "4 cogumelos sagrados em pares sobre folha de bananeira com vela acesa, pano bordado mazateco, fundo ardósia, sigla à direita",
-  "thumb_texto": "MKULTRA"
+  "thumb_texto": "MKULTRA",
+  "arquivo": "thumb-A.jpg"
  },
  {
   "letra": "B",
@@ -13,7 +14,8 @@
   "padrao_titulo": "Cómo + organização + verbo concreto + alvo",
   "padrao_thumb": "cena-acao",
   "thumb_conceito": "plano médio de perfil: cientista da CIA de chapéu, rosto na sombra da aba, olhando por cima do ombro, saco de lona cheio de sementes de piule no ombro em primeiro plano; adobe caiado e magueyes ao fundo; luz lateral dura e fria (México, fev/1953)",
-  "thumb_texto": "10 LIBRAS (estampado na lona do saco)"
+  "thumb_texto": "10 LIBRAS (estampado na lona do saco)",
+  "arquivo": "thumb-B.jpg"
  },
  {
   "letra": "C",
@@ -21,6 +23,7 @@
   "padrao_titulo": "SIGLA: aposto com lacuna",
   "padrao_thumb": "documento-evidencia",
   "thumb_conceito": "folha datilografada sobre bandeira de Honduras dobrada: \"stress\" riscado a caneta azul e \"deplore\" manuscrito acima, caneta deitada",
-  "thumb_texto": "deplore / HONDURAS"
+  "thumb_texto": "deplore / HONDURAS",
+  "arquivo": "thumb-C.jpg"
  }
 ]
