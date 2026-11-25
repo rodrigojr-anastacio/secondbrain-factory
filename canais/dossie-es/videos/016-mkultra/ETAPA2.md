@@ -9,7 +9,7 @@
 - **CTA da HQ:** 5:31–5:47 (331,1–347,5 s; 40,0% da duração, no limite 35–40%); cartão do capítulo seguinte "6. El Estudio" 5:47 ✔; link e comentário fixado no pacote (`pacote_cta.py`).
 - Thumbs (3 conceitos distintos; A/B/C = T1/T2/T3): A cogumelos+vela+"MKULTRA" (objeto-simbolo), B cientista de perfil com saco "10 LIBRAS" (cena-acao), C folha "stress" riscado → "deplore" + "HONDURAS" sobre bandeira (documento-evidencia). Texto composto no código; bases Codex.
 - Custo (financas.consumo, vídeo 63): Fish US$ 0,17 · Runpod US$ 0,82 (inclui ~US$ 0,6 de 6 tentativas perdidas por timeout de comando/Pods Community sem SSH) · Anthropic API (detector + pré-QA) US$ 0,56+0,27 · imagens Codex US$ 0 (187 + 3 bases, 0 fallback pago; cota Codex 5 h 42% / semana 24%) = ~US$ 1,8 (teto 12).
-- Pendências: revisão nativa do espanhol; "Cameron em 1977" (fonte secundária); ouvido nos nomes; I152 refeita só em `cenas.json` (o prompt no `roteiro.py` não foi alterado); YouTube Data API fora (precisa do Rodrigo).
+- Pendências: revisão nativa do espanhol; "Cameron em 1977" (fonte secundária); ouvido nos nomes; I152 refeita só em `cenas.json` (o prompt no `roteiro.py` não foi alterado). (YouTube Data API: voltou em 24/11 com o projeto yt-vps-keys; conferida 25/11, tokens OK.)
 
 ## Título e capítulos (out/ fica fora do git)
 A: TODA la historia de MKUltra en 14 minutos | Del laboratorio de la CIA a América Latina · B: Cómo la CIA buscó en América Latina la droga del control mental · C: MKULTRA: lo que la CIA vino a buscar a México… y lo que dejó.

@@ -30,4 +30,4 @@ Reprovações da B: r1 Castro + charuto; r2 = 012 B; r3 plano de 1 frase (estúd
 ## Pendências
 - Revisão nativa independente do espanhol (só autorrevisão feita).
 - Cameron "nos papéis de 1977": fonte secundária (alternativa no `SOURCES.md`).
-- YouTube Data API fora (projeto GCP apagado): precisa do Rodrigo (novo `client.json` + `tools/auth.py`).
+- ~~YouTube Data API fora~~ resolvido em 24/11 (projeto yt-vps-keys); conferida 25/11, tokens OK.
