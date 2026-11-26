@@ -4,7 +4,7 @@ Título padrão: "A história INTEIRA de X em N minutos" (N = duração real). I
 
 <!-- backlog-vivo:inicio (gerado por tools/rotinas/backlog.py; não edite à mão) -->
 
-## Backlog vivo (24/11/2026 20:00)
+## Backlog vivo (25/11/2026 07:30)
 
 Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); esta seção é espelho, gerada por `tools/rotinas/backlog.py md`. Reordenação seg/qui depois do garimpo (rotina `backlog`); a produção noturna (`tools/rotinas/noturna.py`) produz 1 vídeo por canal nas noites de sáb, dom, seg e ter (20:00), pegando o 1º item agendado; a data abaixo é a **noite de produção**; quem escolhe o dia de ir ao ar é o Rodrigo (a fábrica só sugere a janela). Nota = (demanda × encaixe × urgência)^(1/3). Item em produção ou além é congelado.
 
@@ -12,7 +12,6 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 
 | noite | pode ir ao ar | tema | status |
 |---|---|---|---|
-| ter 24/11 | sex ou sáb | — (vaga) | |
 | sáb 28/11 | dom ou seg | Império Otomano | agendado |
 | dom 29/11 | seg ou qua | Grécia Antiga | agendado |
 | seg 30/11 | qua ou sex | Vikings | agendado |
@@ -31,7 +30,7 @@ Fonte da verdade: tabela `youtube.backlog` (DDL `tools/db/schema_backlog.sql`); 
 | 17 | Vikings | 5.0 (7·6·3) | agendado | seg 30/11 (qua ou sex) | perene | [Reconstrução Histórica (pt, 70,6 mil insc.): 'Os Vikings | Como Desapareceu o Povo Mais Temido do Mundo' 420.711 views (22/04/2026; 6× os inscritos)](https://youtube.com/watch?v=4BmrcZ-TEtQ) |
 | 49 | Itália | 4.7 (5·7·3) | agendado | ter 01/12 (sex ou sáb) | perene | [yt-dlp ytsearch "história da Itália Roma": EconoSimples 332.954 views](https://www.youtube.com/watch?v=qZiew5iz6MM) |
 
-Prontos/publicados recentes: Portugal (publicado, ter 17/11); União Soviética (URSS) (pronto, qui 19/11); Inglaterra / Reino Unido (pronto, sex 20/11); Espanha (pronto, sáb 21/11); Cuba (pronto, dom 22/11); Argentina (pronto, seg 23/11)
+Prontos/publicados recentes: União Soviética (URSS) (pronto, qui 19/11); Inglaterra / Reino Unido (pronto, sex 20/11); Espanha (pronto, sáb 21/11); Cuba (pronto, dom 22/11); Argentina (pronto, seg 23/11)
 
 <!-- backlog-vivo:fim -->
 
