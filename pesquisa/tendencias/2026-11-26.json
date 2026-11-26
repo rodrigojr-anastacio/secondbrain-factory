@@ -1,0 +1,1841 @@
+{
+ "gerado_em": "2026-11-26T12:30:11.522276+00:00",
+ "buscas": [
+  "entire history of",
+  "history explained",
+  "ancient civilizations",
+  "mythology explained",
+  "lore explained",
+  "unsolved mysteries",
+  "true crime documentary",
+  "documentary",
+  "what if",
+  "geography explained",
+  "economics explained",
+  "science explained",
+  "space documentary",
+  "psychology explained",
+  "philosophy explained",
+  "biography documentary",
+  "war history",
+  "bible stories",
+  "horror stories",
+  "animated story"
+ ],
+ "criterios": {
+  "max_idade_dias": 120,
+  "max_videos": 20,
+  "min_media_views": 20000
+ },
+ "candidatos": [
+  {
+   "id": "UCAqnV3Y7Eazgq368zJ1dVhA",
+   "titulo": "BomVEVO",
+   "url": "https://www.youtube.com/channel/UCAqnV3Y7Eazgq368zJ1dVhA",
+   "pais": null,
+   "criado": "2023-11-08",
+   "primeiro_video": "2026-10-28",
+   "idade_dias": 29,
+   "videos": 12,
+   "views": 17064084,
+   "inscritos": 31000,
+   "media_views": 1422007,
+   "views_por_inscrito": 550.5,
+   "descricao": "",
+   "buscas": [
+    "documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "8U1_ekYllpY",
+     "titulo": "BOM, Lali, Miranda! - MIGAJAS [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.6,
+     "views": 2767973,
+     "thumb": "https://i.ytimg.com/vi/8U1_ekYllpY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8U1_ekYllpY"
+    },
+    {
+     "id": "NPHAbKe9spU",
+     "titulo": "BOM, Lali, Miranda! - EN ITALIA [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.5,
+     "views": 2660811,
+     "thumb": "https://i.ytimg.com/vi/NPHAbKe9spU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=NPHAbKe9spU"
+    },
+    {
+     "id": "RcUvo62blBY",
+     "titulo": "BOM, Lali, Miranda! - SEÑORA [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.5,
+     "views": 2453478,
+     "thumb": "https://i.ytimg.com/vi/RcUvo62blBY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=RcUvo62blBY"
+    },
+    {
+     "id": "uoen6uTcp2U",
+     "titulo": "BOM, Lali, Miranda! - VIVO DEL POP [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.4,
+     "views": 1657199,
+     "thumb": "https://i.ytimg.com/vi/uoen6uTcp2U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=uoen6uTcp2U"
+    },
+    {
+     "id": "2NA1YLusX8w",
+     "titulo": "BOM, Lali, Miranda! - BAILAR O MORIR [ Short Film ]",
+     "publicado": "2026-10-28",
+     "duracao_min": 16.2,
+     "views": 1194975,
+     "thumb": "https://i.ytimg.com/vi/2NA1YLusX8w/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=2NA1YLusX8w"
+    },
+    {
+     "id": "4ZiD4Shzxy8",
+     "titulo": "BOM, Lali, Miranda! - ADONDE [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.9,
+     "views": 1193713,
+     "thumb": "https://i.ytimg.com/vi/4ZiD4Shzxy8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4ZiD4Shzxy8"
+    },
+    {
+     "id": "POQ3XMRAU3U",
+     "titulo": "BOM, Lali, Miranda! - HELECHO [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 3.1,
+     "views": 1127255,
+     "thumb": "https://i.ytimg.com/vi/POQ3XMRAU3U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=POQ3XMRAU3U"
+    },
+    {
+     "id": "8Ia4TC_Ea_0",
+     "titulo": "BOM, Lali, Miranda! - PIEL [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.8,
+     "views": 1045066,
+     "thumb": "https://i.ytimg.com/vi/8Ia4TC_Ea_0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8Ia4TC_Ea_0"
+    },
+    {
+     "id": "-ie5USBs4uY",
+     "titulo": "BOM, Lali, Miranda! - BAILAR O MORIR [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.7,
+     "views": 903872,
+     "thumb": "https://i.ytimg.com/vi/-ie5USBs4uY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=-ie5USBs4uY"
+    },
+    {
+     "id": "PQSRWckZc5s",
+     "titulo": "BOM, Lali, Miranda! - HIPERLOVE [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 3.4,
+     "views": 862085,
+     "thumb": "https://i.ytimg.com/vi/PQSRWckZc5s/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PQSRWckZc5s"
+    },
+    {
+     "id": "sRIM8aqsFmQ",
+     "titulo": "BOM, Lali, Miranda! - GANAR [Official Video]",
+     "publicado": "2026-11-04",
+     "duracao_min": 2.7,
+     "views": 838851,
+     "thumb": "https://i.ytimg.com/vi/sRIM8aqsFmQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=sRIM8aqsFmQ"
+    },
+    {
+     "id": "0_g9QqeIejk",
+     "titulo": "BOM, Lali, Miranda! - BAILAR O MORIR [Official Audio]",
+     "publicado": "2026-10-28",
+     "duracao_min": 2.6,
+     "views": 539461,
+     "thumb": "https://i.ytimg.com/vi/0_g9QqeIejk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=0_g9QqeIejk"
+    }
+   ],
+   "score": 588417,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 1491375
+  },
+  {
+   "id": "UCBV6H_ZzQHW8O1h7NoiaW_w",
+   "titulo": "Born in Lore",
+   "url": "https://www.youtube.com/channel/UCBV6H_ZzQHW8O1h7NoiaW_w",
+   "pais": "US",
+   "criado": "2026-10-28",
+   "primeiro_video": "2026-10-28",
+   "idade_dias": 29,
+   "videos": 10,
+   "views": 10783520,
+   "inscritos": 49800,
+   "media_views": 1078352,
+   "views_por_inscrito": 216.5,
+   "descricao": "What if you were born as your favorite video game character?\nBorn in Lore tells the whole life of a game character as if it were yours: where you're born, who raises you, the training, the first fight, the big mistakes, the people you love, and how it all ends. Every story follows the official lore ",
+   "buscas": [
+    "lore explained",
+    "war history",
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "pVUgJt1sDmI",
+     "titulo": "What If You Were Born as Ghost? | Call of Duty",
+     "publicado": "2026-11-18",
+     "duracao_min": 13.3,
+     "views": 4644540,
+     "thumb": "https://i.ytimg.com/vi/pVUgJt1sDmI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=pVUgJt1sDmI"
+    },
+    {
+     "id": "vZ2eX-tIBDI",
+     "titulo": "What If You Were Born as CJ? | GTA San Andreas",
+     "publicado": "2026-11-12",
+     "duracao_min": 11.2,
+     "views": 2051522,
+     "thumb": "https://i.ytimg.com/vi/vZ2eX-tIBDI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vZ2eX-tIBDI"
+    },
+    {
+     "id": "cB5AnPSKXr8",
+     "titulo": "What If You Were Born as Kratos? | God of War",
+     "publicado": "2026-10-30",
+     "duracao_min": 8.1,
+     "views": 1358138,
+     "thumb": "https://i.ytimg.com/vi/cB5AnPSKXr8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=cB5AnPSKXr8"
+    },
+    {
+     "id": "q8JM9uxkPFc",
+     "titulo": "What If You Were Born as Master Chief? | Halo",
+     "publicado": "2026-11-07",
+     "duracao_min": 12.9,
+     "views": 1209005,
+     "thumb": "https://i.ytimg.com/vi/q8JM9uxkPFc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=q8JM9uxkPFc"
+    },
+    {
+     "id": "WKJKhnOD65o",
+     "titulo": "What If You Were Born as Arthur Morgan? | Red Dead Redemption 2",
+     "publicado": "2026-11-01",
+     "duracao_min": 9.3,
+     "views": 525860,
+     "thumb": "https://i.ytimg.com/vi/WKJKhnOD65o/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WKJKhnOD65o"
+    },
+    {
+     "id": "aX0dwYkdBjY",
+     "titulo": "What If You Were Born as Ezio Auditore? | Assassin's Creed",
+     "publicado": "2026-11-03",
+     "duracao_min": 11.8,
+     "views": 473723,
+     "thumb": "https://i.ytimg.com/vi/aX0dwYkdBjY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=aX0dwYkdBjY"
+    },
+    {
+     "id": "3dN6qH2lQ-k",
+     "titulo": "What If You Were Born as Tommy Vercetti? | GTA Vice City",
+     "publicado": "2026-11-22",
+     "duracao_min": 14.3,
+     "views": 395313,
+     "thumb": "https://i.ytimg.com/vi/3dN6qH2lQ-k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=3dN6qH2lQ-k"
+    },
+    {
+     "id": "RjGLlOPy1hc",
+     "titulo": "What If You Were Born as John Marston? | Red Dead Redemption",
+     "publicado": "2026-11-20",
+     "duracao_min": 13.9,
+     "views": 317227,
+     "thumb": "https://i.ytimg.com/vi/RjGLlOPy1hc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=RjGLlOPy1hc"
+    },
+    {
+     "id": "yLXdl9RUwPI",
+     "titulo": "What If You Were Born as Geralt of Rivia? | The Witcher",
+     "publicado": "2026-10-28",
+     "duracao_min": 6.9,
+     "views": 43239,
+     "thumb": "https://i.ytimg.com/vi/yLXdl9RUwPI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=yLXdl9RUwPI"
+    },
+    {
+     "id": "eEyqvotSiYA",
+     "titulo": "If You Were Born as Ghost, You'd Be Buried Alive 💀 #shorts",
+     "publicado": "2026-11-18",
+     "duracao_min": 0.9,
+     "views": 21437,
+     "thumb": "https://i.ytimg.com/vi/eEyqvotSiYA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=eEyqvotSiYA"
+    }
+   ],
+   "score": 371846,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 2178670
+  },
+  {
+   "id": "UC5Nzt_MAYzvw91gP0Ffeb_w",
+   "titulo": "Curious Guy",
+   "url": "https://www.youtube.com/channel/UC5Nzt_MAYzvw91gP0Ffeb_w",
+   "pais": null,
+   "criado": "2026-02-09",
+   "primeiro_video": "2026-11-15",
+   "idade_dias": 10,
+   "videos": 8,
+   "views": 3275457,
+   "inscritos": 17100,
+   "media_views": 409432,
+   "views_por_inscrito": 191.5,
+   "descricao": "",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "RzOKtiNZRUg",
+     "titulo": "What If Your CRUSH Could Feel Everything You Do?!",
+     "publicado": "2026-11-21",
+     "duracao_min": 8.5,
+     "views": 3004547,
+     "thumb": "https://i.ytimg.com/vi/RzOKtiNZRUg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=RzOKtiNZRUg"
+    },
+    {
+     "id": "adZ3AvGnHG8",
+     "titulo": "What If Your CRUSH Became Obsessed With You?!",
+     "publicado": "2026-11-24",
+     "duracao_min": 15.1,
+     "views": 155562,
+     "thumb": "https://i.ytimg.com/vi/adZ3AvGnHG8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=adZ3AvGnHG8"
+    },
+    {
+     "id": "HjynPrEQXhQ",
+     "titulo": "What If You And Your CRUSH Got Trapped In A ZOMBIE APOCALYPSE?!",
+     "publicado": "2026-11-19",
+     "duracao_min": 7.5,
+     "views": 67856,
+     "thumb": "https://i.ytimg.com/vi/HjynPrEQXhQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=HjynPrEQXhQ"
+    },
+    {
+     "id": "tUNg7ei5Gg4",
+     "titulo": "What If You And Your CRUSH Got Stuck In A Bathroom?",
+     "publicado": "2026-11-25",
+     "duracao_min": 15.6,
+     "views": 52936,
+     "thumb": "https://i.ytimg.com/vi/tUNg7ei5Gg4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=tUNg7ei5Gg4"
+    },
+    {
+     "id": "oFWXMMKEDb4",
+     "titulo": "What If Your CRUSH Turned Into A Zombie?!",
+     "publicado": "2026-11-23",
+     "duracao_min": 8.0,
+     "views": 52839,
+     "thumb": "https://i.ytimg.com/vi/oFWXMMKEDb4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=oFWXMMKEDb4"
+    },
+    {
+     "id": "oJPwJjJwv5E",
+     "titulo": "What If You And Your CRUSH were The Last Two People On EARTH?!",
+     "publicado": "2026-11-18",
+     "duracao_min": 2.0,
+     "views": 23309,
+     "thumb": "https://i.ytimg.com/vi/oJPwJjJwv5E/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=oJPwJjJwv5E"
+    },
+    {
+     "id": "ZAtOaG9UCGA",
+     "titulo": "What If Your Dreams Became Reality?!  #whatif",
+     "publicado": "2026-11-17",
+     "duracao_min": 1.3,
+     "views": 10344,
+     "thumb": "https://i.ytimg.com/vi/ZAtOaG9UCGA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ZAtOaG9UCGA"
+    },
+    {
+     "id": "IUr9eUAqTfA",
+     "titulo": "The Town That Couldn't Stop Dancing...  #whatif",
+     "publicado": "2026-11-15",
+     "duracao_min": 1.0,
+     "views": 10262,
+     "thumb": "https://i.ytimg.com/vi/IUr9eUAqTfA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=IUr9eUAqTfA"
+    }
+   ],
+   "score": 327546,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UC191yrNFoSi-6m_fmNfFenw",
+   "titulo": "Hadalogy",
+   "url": "https://www.youtube.com/channel/UC191yrNFoSi-6m_fmNfFenw",
+   "pais": null,
+   "criado": "2026-10-31",
+   "primeiro_video": "2026-11-15",
+   "idade_dias": 10,
+   "videos": 4,
+   "views": 2823704,
+   "inscritos": 5450,
+   "media_views": 705926,
+   "views_por_inscrito": 518.1,
+   "descricao": "On 7 March 1986, two Navy divers running low on air swam into a tangle of wire 100 feet under the Atlantic. It was the crew cabin of Space Shuttle Challenger.\n\nThat is the moment this channel lives in. Not the explosion the world watched on television, but what divers, searchers and investigators fo",
+   "buscas": [
+    "space documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "kIFbYPYo4kY",
+     "titulo": "Challenger Disaster: What Navy Divers Found Inside the Crew Cabin",
+     "publicado": "2026-11-15",
+     "duracao_min": 14.5,
+     "views": 2110411,
+     "thumb": "https://i.ytimg.com/vi/kIFbYPYo4kY/hqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=kIFbYPYo4kY"
+    },
+    {
+     "id": "F-dcFpbgZKY",
+     "titulo": "Challenger Disaster: What the Crew Did After Their Last Recorded Words",
+     "publicado": "2026-11-17",
+     "duracao_min": 15.3,
+     "views": 675001,
+     "thumb": "https://i.ytimg.com/vi/F-dcFpbgZKY/hqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=F-dcFpbgZKY"
+    },
+    {
+     "id": "xEGqpJpR2Zs",
+     "titulo": "Columbia Crew: Their Last 40 Seconds, Pieced Together From the Wreckage",
+     "publicado": "2026-11-18",
+     "duracao_min": 15.0,
+     "views": 51092,
+     "thumb": "https://i.ytimg.com/vi/xEGqpJpR2Zs/hqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xEGqpJpR2Zs"
+    },
+    {
+     "id": "xdMjF0-Nma0",
+     "titulo": "Apollo 1 Disaster: What Investigators Found Behind the Hatch",
+     "publicado": "2026-11-21",
+     "duracao_min": 15.2,
+     "views": 10402,
+     "thumb": "https://i.ytimg.com/vi/xdMjF0-Nma0/hqdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xdMjF0-Nma0"
+    }
+   ],
+   "score": 282370,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 426522
+  },
+  {
+   "id": "UCjkE8MzQU_aql0uTmfNjnGg",
+   "titulo": "Zack Mils",
+   "url": "https://www.youtube.com/channel/UCjkE8MzQU_aql0uTmfNjnGg",
+   "pais": null,
+   "criado": "2026-11-02",
+   "primeiro_video": "2026-11-07",
+   "idade_dias": 18,
+   "videos": 15,
+   "views": 4928731,
+   "inscritos": 37700,
+   "media_views": 328582,
+   "views_por_inscrito": 130.7,
+   "descricao": "I tell stories. One guy. A blue beanie. Every crazy situation you can imagine.\n\nOur main character gets dropped into a different story every episode.\n\nEvery story is told in second person, so YOU are the one living it. Expect cinematic animation, drama, comedy, romance and plot twists you won’t see ",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "oX0MtuZYxa0",
+     "titulo": "What If Your CRUSH Moved Into Your HOUSE?",
+     "publicado": "2026-11-19",
+     "duracao_min": 20.9,
+     "views": 1080757,
+     "thumb": "https://i.ytimg.com/vi/oX0MtuZYxa0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=oX0MtuZYxa0"
+    },
+    {
+     "id": "nf8UboltI1g",
+     "titulo": "What If Your CRUSH Become Your TUTOR?",
+     "publicado": "2026-11-16",
+     "duracao_min": 16.7,
+     "views": 673747,
+     "thumb": "https://i.ytimg.com/vi/nf8UboltI1g/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=nf8UboltI1g"
+    },
+    {
+     "id": "B5NdI5Y6GWo",
+     "titulo": "What If Your CRUSH Was Tokyo's DRIFT QUEEN?",
+     "publicado": "2026-11-20",
+     "duracao_min": 18.9,
+     "views": 667909,
+     "thumb": "https://i.ytimg.com/vi/B5NdI5Y6GWo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=B5NdI5Y6GWo"
+    },
+    {
+     "id": "vSuN9MnuLKE",
+     "titulo": "What If the Nerd DATED the Head Cheerleader?",
+     "publicado": "2026-11-12",
+     "duracao_min": 13.4,
+     "views": 618242,
+     "thumb": "https://i.ytimg.com/vi/vSuN9MnuLKE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vSuN9MnuLKE"
+    },
+    {
+     "id": "kna1AzWpJ2U",
+     "titulo": "What If Your CRUSH Became Your STEPSISTER?",
+     "publicado": "2026-11-24",
+     "duracao_min": 28.7,
+     "views": 436544,
+     "thumb": "https://i.ytimg.com/vi/kna1AzWpJ2U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=kna1AzWpJ2U"
+    },
+    {
+     "id": "pXHT9mPkXaI",
+     "titulo": "What If the WILDEST College Party Ever Was YOURS?",
+     "publicado": "2026-11-13",
+     "duracao_min": 15.2,
+     "views": 309743,
+     "thumb": "https://i.ytimg.com/vi/pXHT9mPkXaI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=pXHT9mPkXaI"
+    },
+    {
+     "id": "bCTxcLUJc7k",
+     "titulo": "What If You Became a FAMOUS Rapper In HIGH SCHOOL?",
+     "publicado": "2026-11-22",
+     "duracao_min": 12.8,
+     "views": 308366,
+     "thumb": "https://i.ytimg.com/vi/bCTxcLUJc7k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=bCTxcLUJc7k"
+    },
+    {
+     "id": "vLr5gL6mwLI",
+     "titulo": "End Zone - Zack Mils (Official Video)",
+     "publicado": "2026-11-22",
+     "duracao_min": 1.6,
+     "views": 233160,
+     "thumb": "https://i.ytimg.com/vi/vLr5gL6mwLI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vLr5gL6mwLI"
+    },
+    {
+     "id": "c2I076Y8BAc",
+     "titulo": "What If Your CRUSH Could See Everything You Dreamed About Her?",
+     "publicado": "2026-11-07",
+     "duracao_min": 10.5,
+     "views": 220911,
+     "thumb": "https://i.ytimg.com/vi/c2I076Y8BAc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=c2I076Y8BAc"
+    },
+    {
+     "id": "1eJo_-BbkWs",
+     "titulo": "What If a NERD Became the STAR QUARTERBACK?",
+     "publicado": "2026-11-21",
+     "duracao_min": 11.9,
+     "views": 190871,
+     "thumb": "https://i.ytimg.com/vi/1eJo_-BbkWs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=1eJo_-BbkWs"
+    },
+    {
+     "id": "id5CU8DjWSs",
+     "titulo": "What If You Had Two Wives?",
+     "publicado": "2026-11-10",
+     "duracao_min": 29.2,
+     "views": 120812,
+     "thumb": "https://i.ytimg.com/vi/id5CU8DjWSs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=id5CU8DjWSs"
+    },
+    {
+     "id": "yBLpO6xryZk",
+     "titulo": "What If You Had TWO Dates To PROM?",
+     "publicado": "2026-11-18",
+     "duracao_min": 9.7,
+     "views": 82156,
+     "thumb": "https://i.ytimg.com/vi/yBLpO6xryZk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=yBLpO6xryZk"
+    },
+    {
+     "id": "8xZuXZyrKDA",
+     "titulo": "What If You Met Your CRUSH on the Last Day of Vacation?",
+     "publicado": "2026-11-09",
+     "duracao_min": 12.0,
+     "views": 73410,
+     "thumb": "https://i.ytimg.com/vi/8xZuXZyrKDA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8xZuXZyrKDA"
+    },
+    {
+     "id": "KIYAMaywCsQ",
+     "titulo": "She Is in DANGER… But You're Only LEVEL 1!",
+     "publicado": "2026-11-15",
+     "duracao_min": 12.1,
+     "views": 63987,
+     "thumb": "https://i.ytimg.com/vi/KIYAMaywCsQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=KIYAMaywCsQ"
+    },
+    {
+     "id": "DyfwZKc7PqU",
+     "titulo": "A Girl Paid Me $500 to Be Her Fake Boyfriend at Family Dinner 🍝",
+     "publicado": "2026-11-25",
+     "duracao_min": 1.3,
+     "views": 49016,
+     "thumb": "https://i.ytimg.com/vi/DyfwZKc7PqU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=DyfwZKc7PqU"
+    }
+   ],
+   "score": 273818,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 1825077
+  },
+  {
+   "id": "UCj7qkU6M_ZIEwV2OSuyoQyg",
+   "titulo": "VeylornStudios",
+   "url": "https://www.youtube.com/channel/UCj7qkU6M_ZIEwV2OSuyoQyg",
+   "pais": "US",
+   "criado": "2026-06-26",
+   "primeiro_video": "2026-10-09",
+   "idade_dias": 47,
+   "videos": 4,
+   "views": 11723811,
+   "inscritos": 64600,
+   "media_views": 2930952,
+   "views_por_inscrito": 181.5,
+   "descricao": "Welcome to VEYLORN STUDIOS — a cinematic home for original epic fantasy films.\n\nAncient kingdoms. Forgotten civilizations. Extraordinary creatures. And stories where every choice has a consequence.\n\nAt VEYLORN STUDIOS, we bring original fantasy worlds to life through AI-assisted filmmaking, cinemati",
+   "buscas": [
+    "documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "6pbhGtHRTwA",
+     "titulo": "THE LOST KIND | FULL MOVIE | 4K Epic Dark Fantasy Film (Complete Story)",
+     "publicado": "2026-11-14",
+     "duracao_min": 108.0,
+     "views": 10163036,
+     "thumb": "https://i.ytimg.com/vi/6pbhGtHRTwA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=6pbhGtHRTwA"
+    },
+    {
+     "id": "S9MIrREjW2U",
+     "titulo": "THE LOST KIND: SON OF MONSTERS | 4K Epic Fantasy Film | Part 1",
+     "publicado": "2026-10-09",
+     "duracao_min": 29.1,
+     "views": 917589,
+     "thumb": "https://i.ytimg.com/vi/S9MIrREjW2U/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=S9MIrREjW2U"
+    },
+    {
+     "id": "RDOXMIC_w3A",
+     "titulo": "THE LOST KIND: SINS OF MEN | 4K Original Epic Fantasy Film | Part 2",
+     "publicado": "2026-10-23",
+     "duracao_min": 34.3,
+     "views": 514787,
+     "thumb": "https://i.ytimg.com/vi/RDOXMIC_w3A/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=RDOXMIC_w3A"
+    },
+    {
+     "id": "JzZhz1vU_Cs",
+     "titulo": "THE LOST KIND: HEART OF THE LOST | 4K Original Epic Fantasy Film | Part 3",
+     "publicado": "2026-11-05",
+     "duracao_min": 32.3,
+     "views": 310147,
+     "thumb": "https://i.ytimg.com/vi/JzZhz1vU_Cs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=JzZhz1vU_Cs"
+    }
+   ],
+   "score": 249443,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 1641240
+  },
+  {
+   "id": "UC1ToRh47YtHWFQuqDhEix-g",
+   "titulo": "StickBait",
+   "url": "https://www.youtube.com/channel/UC1ToRh47YtHWFQuqDhEix-g",
+   "pais": null,
+   "criado": "2026-11-10",
+   "primeiro_video": "2026-11-21",
+   "idade_dias": 4,
+   "videos": 10,
+   "views": 1577719,
+   "inscritos": 5010,
+   "media_views": 157771,
+   "views_por_inscrito": 314.9,
+   "descricao": "Welcome to Stickbait TV\n\nTrue jinn and horror stories, animated in stickman style. Stories that hook you in the first 5 seconds and don't let go.\n\nHaunted houses, black magic, figures in the dark and things nobody can explain. Some are famous cases from the news, some are dark mysteries from history",
+   "buscas": [
+    "animated story",
+    "horror stories"
+   ],
+   "videos_lista": [
+    {
+     "id": "SrifqEshqBM",
+     "titulo": "She Sang at a Wedding for the Jinn Until Dawn | True Kuwaiti Horror Story Animated",
+     "publicado": "2026-11-21",
+     "duracao_min": 8.0,
+     "views": 1303180,
+     "thumb": "https://i.ytimg.com/vi/SrifqEshqBM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=SrifqEshqBM"
+    },
+    {
+     "id": "bf1YCK2uBwM",
+     "titulo": "This Family SUED a Jinn in Court… and It's a True Story (Saudi Arabia, 2009)",
+     "publicado": "2026-11-21",
+     "duracao_min": 8.1,
+     "views": 176829,
+     "thumb": "https://i.ytimg.com/vi/bf1YCK2uBwM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=bf1YCK2uBwM"
+    },
+    {
+     "id": "ApMdmEvO5pE",
+     "titulo": "He Shot Something in the Dark... Then the Jinn Put Him on Trial | True Jinn Story (Yemen 2024)",
+     "publicado": "2026-11-24",
+     "duracao_min": 8.4,
+     "views": 67999,
+     "thumb": "https://i.ytimg.com/vi/ApMdmEvO5pE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ApMdmEvO5pE"
+    },
+    {
+     "id": "dLFBSCe8sgY",
+     "titulo": "The Woman at the Pond: 2 Little Girls Followed Her. The Pond Didn't Exist | True Jinn Story",
+     "publicado": "2026-11-22",
+     "duracao_min": 8.5,
+     "views": 54179,
+     "thumb": "https://i.ytimg.com/vi/dLFBSCe8sgY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=dLFBSCe8sgY"
+    },
+    {
+     "id": "niO7g4htG_E",
+     "titulo": "6 Students Went to This Village… Only 4 Are Still Alive (KKN di Desa Penari)",
+     "publicado": "2026-11-22",
+     "duracao_min": 9.1,
+     "views": 43018,
+     "thumb": "https://i.ytimg.com/vi/niO7g4htG_E/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=niO7g4htG_E"
+    },
+    {
+     "id": "O1naIXEo34k",
+     "titulo": "Her Eyes Turned Blood Red… The Neighbour With Red Eyes | True Jinn Story (Singapore)",
+     "publicado": "2026-11-22",
+     "duracao_min": 8.1,
+     "views": 38128,
+     "thumb": "https://i.ytimg.com/vi/O1naIXEo34k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=O1naIXEo34k"
+    },
+    {
+     "id": "bKYgSx8nQa0",
+     "titulo": "100+ Students Started Screaming… Some Saw a Figure in Black (True Jinn Story, Malaysia 2016)",
+     "publicado": "2026-11-22",
+     "duracao_min": 8.2,
+     "views": 30323,
+     "thumb": "https://i.ytimg.com/vi/bKYgSx8nQa0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=bKYgSx8nQa0"
+    },
+    {
+     "id": "U941G1Bgjfg",
+     "titulo": "The Fire Girl of Kelantan: Fires Followed Her for 8 Years, Then 3 Words Appeared | True Jinn Story",
+     "publicado": "2026-11-24",
+     "duracao_min": 8.7,
+     "views": 23836,
+     "thumb": "https://i.ytimg.com/vi/U941G1Bgjfg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=U941G1Bgjfg"
+    },
+    {
+     "id": "y1rFMEgENfk",
+     "titulo": "She Was Paid 10x to Bathe a Girl in a Coffin… The Girl Was Still Alive | Sewu Dino",
+     "publicado": "2026-11-25",
+     "duracao_min": 8.6,
+     "views": 10976,
+     "thumb": "https://i.ytimg.com/vi/y1rFMEgENfk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=y1rFMEgENfk"
+    },
+    {
+     "id": "r--HeHk4FR4",
+     "titulo": "Gog and Magog: The People Behind the Wall… So Where Is It? | Qur'an, Hadith & History",
+     "publicado": "2026-11-26",
+     "duracao_min": 9.6,
+     "views": 2690,
+     "thumb": "https://i.ytimg.com/vi/r--HeHk4FR4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=r--HeHk4FR4"
+    }
+   ],
+   "score": 225388,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCyoo8hYM8aGRaVj4xh5prag",
+   "titulo": "Punchmade",
+   "url": "https://www.youtube.com/channel/UCyoo8hYM8aGRaVj4xh5prag",
+   "pais": "US",
+   "criado": "2024-12-05",
+   "primeiro_video": "2026-09-17",
+   "idade_dias": 70,
+   "videos": 3,
+   "views": 15568111,
+   "inscritos": 229000,
+   "media_views": 5189370,
+   "views_por_inscrito": 68.0,
+   "descricao": "",
+   "buscas": [
+    "documentary",
+    "unsolved mysteries"
+   ],
+   "videos_lista": [
+    {
+     "id": "wM5s444sFS0",
+     "titulo": "I Solved The Mystery Of Ryker Webb The “Skin-Walker”",
+     "publicado": "2026-11-12",
+     "duracao_min": 37.9,
+     "views": 11758438,
+     "thumb": "https://i.ytimg.com/vi/wM5s444sFS0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=wM5s444sFS0"
+    },
+    {
+     "id": "c47bSvcKggE",
+     "titulo": "Surviving 24 Hours In A Cult’s Abandoned Cabin…",
+     "publicado": "2026-09-17",
+     "duracao_min": 41.1,
+     "views": 2382305,
+     "thumb": "https://i.ytimg.com/vi/c47bSvcKggE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=c47bSvcKggE"
+    },
+    {
+     "id": "gyz7gFs1Yis",
+     "titulo": "Surviving 24 Hours In A Town That Attacks Black People…",
+     "publicado": "2026-10-11",
+     "duracao_min": 21.4,
+     "views": 1581114,
+     "thumb": "https://i.ytimg.com/vi/gyz7gFs1Yis/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=gyz7gFs1Yis"
+    }
+   ],
+   "score": 222402,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 1448175
+  },
+  {
+   "id": "UCJ8NMY8Rdx46uUdu6F10pOA",
+   "titulo": "Real Aside",
+   "url": "https://www.youtube.com/channel/UCJ8NMY8Rdx46uUdu6F10pOA",
+   "pais": "US",
+   "criado": "2026-11-04",
+   "primeiro_video": "2026-11-06",
+   "idade_dias": 19,
+   "videos": 19,
+   "views": 4118930,
+   "inscritos": 6940,
+   "media_views": 216785,
+   "views_por_inscrito": 593.5,
+   "descricao": "I hope you enjoy the content!!!",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "GNYhvomRrAs",
+     "titulo": "What If You Were Reborn as Your Little Sister’s Baby?",
+     "publicado": "2026-11-19",
+     "duracao_min": 9.8,
+     "views": 953524,
+     "thumb": "https://i.ytimg.com/vi/GNYhvomRrAs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=GNYhvomRrAs"
+    },
+    {
+     "id": "2fP_sqkj5To",
+     "titulo": "What If You Were Reborn as Your Own Grandchild?",
+     "publicado": "2026-11-16",
+     "duracao_min": 9.5,
+     "views": 655858,
+     "thumb": "https://i.ytimg.com/vi/2fP_sqkj5To/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=2fP_sqkj5To"
+    },
+    {
+     "id": "_esD2XkDRxM",
+     "titulo": "What If You Were a Baby But Could Understand Everything?",
+     "publicado": "2026-11-14",
+     "duracao_min": 9.5,
+     "views": 488962,
+     "thumb": "https://i.ytimg.com/vi/_esD2XkDRxM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=_esD2XkDRxM"
+    },
+    {
+     "id": "MkKb0LZpmBA",
+     "titulo": "What If You Were Reborn as Your Own Little Brother?",
+     "publicado": "2026-11-22",
+     "duracao_min": 9.8,
+     "views": 302936,
+     "thumb": "https://i.ytimg.com/vi/MkKb0LZpmBA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=MkKb0LZpmBA"
+    },
+    {
+     "id": "sDmYf9BHAe8",
+     "titulo": "What If You Were Left at an Orphanage but Understood Everything?",
+     "publicado": "2026-11-21",
+     "duracao_min": 10.8,
+     "views": 295610,
+     "thumb": "https://i.ytimg.com/vi/sDmYf9BHAe8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=sDmYf9BHAe8"
+    },
+    {
+     "id": "OCNEekK9H6A",
+     "titulo": "What If You Slept 100 Years but Could Hear Everything?",
+     "publicado": "2026-11-11",
+     "duracao_min": 9.8,
+     "views": 264065,
+     "thumb": "https://i.ytimg.com/vi/OCNEekK9H6A/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=OCNEekK9H6A"
+    },
+    {
+     "id": "oDXpXqDXtxs",
+     "titulo": "What If You Got Stuck in the Past When Your Mom Was a Kid?",
+     "publicado": "2026-11-23",
+     "duracao_min": 10.2,
+     "views": 235989,
+     "thumb": "https://i.ytimg.com/vi/oDXpXqDXtxs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=oDXpXqDXtxs"
+    },
+    {
+     "id": "Bt5nuyS3VRg",
+     "titulo": "What If You Were Switched At Birth but Understood Everything?",
+     "publicado": "2026-11-18",
+     "duracao_min": 9.9,
+     "views": 231133,
+     "thumb": "https://i.ytimg.com/vi/Bt5nuyS3VRg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Bt5nuyS3VRg"
+    },
+    {
+     "id": "MKHN_I_Wmrk",
+     "titulo": "What If You Were Unborn but Could Hear Everything?",
+     "publicado": "2026-11-20",
+     "duracao_min": 9.6,
+     "views": 217492,
+     "thumb": "https://i.ytimg.com/vi/MKHN_I_Wmrk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=MKHN_I_Wmrk"
+    },
+    {
+     "id": "ikCU-WPls-A",
+     "titulo": "What If You Were Sent Back to Kindergarten but Remembered Everything?",
+     "publicado": "2026-11-24",
+     "duracao_min": 9.8,
+     "views": 179401,
+     "thumb": "https://i.ytimg.com/vi/ikCU-WPls-A/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ikCU-WPls-A"
+    },
+    {
+     "id": "1sm1kKZAxhQ",
+     "titulo": "What If You Were the Richest Baby on Earth but Understood Everything?",
+     "publicado": "2026-11-25",
+     "duracao_min": 9.9,
+     "views": 167642,
+     "thumb": "https://i.ytimg.com/vi/1sm1kKZAxhQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=1sm1kKZAxhQ"
+    },
+    {
+     "id": "FbmCj8Hes6c",
+     "titulo": "What If You Were Reborn as Your Biggest Hater's Baby?",
+     "publicado": "2026-11-26",
+     "duracao_min": 10.8,
+     "views": 104318,
+     "thumb": "https://i.ytimg.com/vi/FbmCj8Hes6c/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=FbmCj8Hes6c"
+    },
+    {
+     "id": "YJltQmTjroE",
+     "titulo": "What If You Babysat Your Future Kids?",
+     "publicado": "2026-11-17",
+     "duracao_min": 9.9,
+     "views": 85778,
+     "thumb": "https://i.ytimg.com/vi/YJltQmTjroE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=YJltQmTjroE"
+    },
+    {
+     "id": "SZBoR7-wDfg",
+     "titulo": "What If Your Whole School Turned Into Girls Except You?",
+     "publicado": "2026-11-14",
+     "duracao_min": 9.2,
+     "views": 48651,
+     "thumb": "https://i.ytimg.com/vi/SZBoR7-wDfg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=SZBoR7-wDfg"
+    },
+    {
+     "id": "KLFwPIq7SEY",
+     "titulo": "What If You Were Frozen but Could Hear Your Crush?",
+     "publicado": "2026-11-13",
+     "duracao_min": 10.2,
+     "views": 45244,
+     "thumb": "https://i.ytimg.com/vi/KLFwPIq7SEY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=KLFwPIq7SEY"
+    },
+    {
+     "id": "PecShhkriH4",
+     "titulo": "What If You Could Save Your Crush Every Time?",
+     "publicado": "2026-11-10",
+     "duracao_min": 9.9,
+     "views": 26076,
+     "thumb": "https://i.ytimg.com/vi/PecShhkriH4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PecShhkriH4"
+    },
+    {
+     "id": "ZwJXN6SVVlw",
+     "titulo": "What If Everyone Got Younger Except You?",
+     "publicado": "2026-11-08",
+     "duracao_min": 9.9,
+     "views": 24556,
+     "thumb": "https://i.ytimg.com/vi/ZwJXN6SVVlw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ZwJXN6SVVlw"
+    },
+    {
+     "id": "rQqcuGPd2V8",
+     "titulo": "What If You Were the Last Teenager on Earth?",
+     "publicado": "2026-11-11",
+     "duracao_min": 9.1,
+     "views": 22399,
+     "thumb": "https://i.ytimg.com/vi/rQqcuGPd2V8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=rQqcuGPd2V8"
+    },
+    {
+     "id": "To4CTiHqIVw",
+     "titulo": "What If You Could See Everyone's First Impression of You?",
+     "publicado": "2026-11-06",
+     "duracao_min": 10.9,
+     "views": 10007,
+     "thumb": "https://i.ytimg.com/vi/To4CTiHqIVw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=To4CTiHqIVw"
+    }
+   ],
+   "score": 216786,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCAGRnC0u-hiBa7eUvrFtFow",
+   "titulo": "Awaken",
+   "url": "https://www.youtube.com/channel/UCAGRnC0u-hiBa7eUvrFtFow",
+   "pais": "US",
+   "criado": "2016-10-04",
+   "primeiro_video": "2026-10-20",
+   "idade_dias": 36,
+   "videos": 12,
+   "views": 7429380,
+   "inscritos": 25900,
+   "media_views": 619115,
+   "views_por_inscrito": 286.8,
+   "descricao": "Big questions. Small characters. A world of curiosity.\n\nAwaken Studios is an independent team of writers, artists, and animators turning science, history, and unusual “what if” questions into colorful animated stories.\n\nAt the heart of the studio, we have developed our own in-house 2D/3D animation s",
+   "buscas": [
+    "animated story",
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "6oZ9fdM0n50",
+     "titulo": "Can 2 People Really Restart Humanity?",
+     "publicado": "2026-10-20",
+     "duracao_min": 7.0,
+     "views": 5389865,
+     "thumb": "https://i.ytimg.com/vi/6oZ9fdM0n50/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=6oZ9fdM0n50"
+    },
+    {
+     "id": "XbXiFizyGko",
+     "titulo": "What if You’re The Last Guy on Earth?",
+     "publicado": "2026-10-27",
+     "duracao_min": 8.2,
+     "views": 1030855,
+     "thumb": "https://i.ytimg.com/vi/XbXiFizyGko/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=XbXiFizyGko"
+    },
+    {
+     "id": "fFziW8Hgf84",
+     "titulo": "What if You Were The Last Girl On Earth?",
+     "publicado": "2026-10-30",
+     "duracao_min": 8.2,
+     "views": 902693,
+     "thumb": "https://i.ytimg.com/vi/fFziW8Hgf84/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=fFziW8Hgf84"
+    },
+    {
+     "id": "4OJqcmRRUYI",
+     "titulo": "Could 8 Billion People Live in ONE City?",
+     "publicado": "2026-10-25",
+     "duracao_min": 7.1,
+     "views": 28768,
+     "thumb": "https://i.ytimg.com/vi/4OJqcmRRUYI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=4OJqcmRRUYI"
+    },
+    {
+     "id": "UY0HURd95d4",
+     "titulo": "Male Orgasm vs Female Orgasm: The Science Behind It",
+     "publicado": "2026-11-03",
+     "duracao_min": 8.1,
+     "views": 22371,
+     "thumb": "https://i.ytimg.com/vi/UY0HURd95d4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=UY0HURd95d4"
+    },
+    {
+     "id": "J17CZfV7u4k",
+     "titulo": "Could 2 People Restart Humanity? 😳 #shorts",
+     "publicado": "2026-10-22",
+     "duracao_min": 1.1,
+     "views": 17787,
+     "thumb": "https://i.ytimg.com/vi/J17CZfV7u4k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=J17CZfV7u4k"
+    },
+    {
+     "id": "Q3Z8ed3K8xo",
+     "titulo": "The Only Men Who Ever Escaped Alcatraz? #Shorts #Alcatraz #History #TrueStory #Mystery #Escape",
+     "publicado": "2026-11-02",
+     "duracao_min": 0.8,
+     "views": 14463,
+     "thumb": "https://i.ytimg.com/vi/Q3Z8ed3K8xo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Q3Z8ed3K8xo"
+    },
+    {
+     "id": "PnIoVBFBklM",
+     "titulo": "What If You Woke Up in the 1500s With a Fully Charged iPhone?",
+     "publicado": "2026-11-18",
+     "duracao_min": 11.6,
+     "views": 9764,
+     "thumb": "https://i.ytimg.com/vi/PnIoVBFBklM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PnIoVBFBklM"
+    },
+    {
+     "id": "gVvCEyDkVL4",
+     "titulo": "The Man Who Walked Across the The Twin Towers",
+     "publicado": "2026-11-03",
+     "duracao_min": 0.5,
+     "views": 9601,
+     "thumb": "https://i.ytimg.com/vi/gVvCEyDkVL4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=gVvCEyDkVL4"
+    },
+    {
+     "id": "cWtrYIoWlbk",
+     "titulo": "Can 1 Man Repopulate Earth?",
+     "publicado": "2026-11-13",
+     "duracao_min": 6.4,
+     "views": 6355,
+     "thumb": "https://i.ytimg.com/vi/cWtrYIoWlbk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=cWtrYIoWlbk"
+    },
+    {
+     "id": "E22xBVCUGFo",
+     "titulo": "What If You Spent 100 Days in the White Room?",
+     "publicado": "2026-11-16",
+     "duracao_min": 6.4,
+     "views": 3721,
+     "thumb": "https://i.ytimg.com/vi/E22xBVCUGFo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=E22xBVCUGFo"
+    },
+    {
+     "id": "O2ryJuWO4cc",
+     "titulo": "What Will Happen in 10 Quintillion Years?",
+     "publicado": "2026-11-15",
+     "duracao_min": 6.7,
+     "views": 3186,
+     "thumb": "https://i.ytimg.com/vi/O2ryJuWO4cc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=O2ryJuWO4cc"
+    }
+   ],
+   "score": 206372,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 79392
+  },
+  {
+   "id": "UCdGBy5Rb_Z8Ra6spuebCvkQ",
+   "titulo": "Gleeful Reacts",
+   "url": "https://www.youtube.com/channel/UCdGBy5Rb_Z8Ra6spuebCvkQ",
+   "pais": "US",
+   "criado": "2026-10-28",
+   "primeiro_video": "2026-10-28",
+   "idade_dias": 28,
+   "videos": 11,
+   "views": 5404686,
+   "inscritos": 12700,
+   "media_views": 491335,
+   "views_por_inscrito": 425.6,
+   "descricao": "Explore captivating Roblox animation stories with Gleeful Reacts. This channel is designed for Roblox fans seeking engaging and heartfelt narratives. Dive into tales set in this world and this town. Experience short stories that spark joy and curiosity. We showcase unique Roblox creations, featuring",
+   "buscas": [
+    "animated story"
+   ],
+   "videos_lista": [
+    {
+     "id": "bWDgkJ5ZRpM",
+     "titulo": "In This World / In This Town Roblox Story Animation (#4)",
+     "publicado": "2026-11-01",
+     "duracao_min": 34.3,
+     "views": 1719364,
+     "thumb": "https://i.ytimg.com/vi/bWDgkJ5ZRpM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=bWDgkJ5ZRpM"
+    },
+    {
+     "id": "WZkZXfP5ltA",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation",
+     "publicado": "2026-10-28",
+     "duracao_min": 17.5,
+     "views": 963284,
+     "thumb": "https://i.ytimg.com/vi/WZkZXfP5ltA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=WZkZXfP5ltA"
+    },
+    {
+     "id": "W7EhOcUuxZ4",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#3)",
+     "publicado": "2026-10-31",
+     "duracao_min": 22.5,
+     "views": 825787,
+     "thumb": "https://i.ytimg.com/vi/W7EhOcUuxZ4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=W7EhOcUuxZ4"
+    },
+    {
+     "id": "vUbwsjjiQn8",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#2)",
+     "publicado": "2026-10-30",
+     "duracao_min": 18.8,
+     "views": 782885,
+     "thumb": "https://i.ytimg.com/vi/vUbwsjjiQn8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vUbwsjjiQn8"
+    },
+    {
+     "id": "1g5WHLXN5gc",
+     "titulo": "In This World / In This Town Roblox Animation",
+     "publicado": "2026-11-03",
+     "duracao_min": 27.3,
+     "views": 355989,
+     "thumb": "https://i.ytimg.com/vi/1g5WHLXN5gc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=1g5WHLXN5gc"
+    },
+    {
+     "id": "YoopU4P_-NU",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#5)",
+     "publicado": "2026-11-05",
+     "duracao_min": 19.1,
+     "views": 325556,
+     "thumb": "https://i.ytimg.com/vi/YoopU4P_-NU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=YoopU4P_-NU"
+    },
+    {
+     "id": "LHN4qAjzudw",
+     "titulo": "In This World / In This Town Roblox Story Compilation",
+     "publicado": "2026-11-02",
+     "duracao_min": 31.0,
+     "views": 321002,
+     "thumb": "https://i.ytimg.com/vi/LHN4qAjzudw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=LHN4qAjzudw"
+    },
+    {
+     "id": "k42p1EB3y5s",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#8)",
+     "publicado": "2026-11-11",
+     "duracao_min": 21.5,
+     "views": 53752,
+     "thumb": "https://i.ytimg.com/vi/k42p1EB3y5s/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=k42p1EB3y5s"
+    },
+    {
+     "id": "rCcXk1MvWqc",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#9)",
+     "publicado": "2026-11-13",
+     "duracao_min": 20.1,
+     "views": 34424,
+     "thumb": "https://i.ytimg.com/vi/rCcXk1MvWqc/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=rCcXk1MvWqc"
+    },
+    {
+     "id": "0MA7vk9kRws",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#1)",
+     "publicado": "2026-10-29",
+     "duracao_min": 17.4,
+     "views": 18061,
+     "thumb": "https://i.ytimg.com/vi/0MA7vk9kRws/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=0MA7vk9kRws"
+    },
+    {
+     "id": "8gslBdSGyTQ",
+     "titulo": "In This World / In This Town Roblox Story Animation Compilation (#7)",
+     "publicado": "2026-11-09",
+     "duracao_min": 19.8,
+     "views": 6179,
+     "thumb": "https://i.ytimg.com/vi/8gslBdSGyTQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8gslBdSGyTQ"
+    }
+   ],
+   "score": 193024,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 9386
+  },
+  {
+   "id": "UC98QQE08ZgIHCWF6V8WcQdg",
+   "titulo": "Jam Ground",
+   "url": "https://www.youtube.com/channel/UC98QQE08ZgIHCWF6V8WcQdg",
+   "pais": null,
+   "criado": "2026-10-02",
+   "primeiro_video": "2026-11-19",
+   "idade_dias": 7,
+   "videos": 3,
+   "views": 1188754,
+   "inscritos": 2470,
+   "media_views": 396251,
+   "views_por_inscrito": 481.3,
+   "descricao": "I make videos on gaming. That's what I love to do and I try to create those kinds of videos which are not in the gaming niche, in the Indian gaming niche. \n\n\n",
+   "buscas": [
+    "lore explained"
+   ],
+   "videos_lista": [
+    {
+     "id": "wglOINHVWWo",
+     "titulo": "Complete Story of GTA VI Explained in Hindi",
+     "publicado": "2026-11-21",
+     "duracao_min": 40.4,
+     "views": 502997,
+     "thumb": "https://i.ytimg.com/vi/wglOINHVWWo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=wglOINHVWWo"
+    },
+    {
+     "id": "iNdshxOWCtU",
+     "titulo": "Why Rockstar GTA Won.",
+     "publicado": "2026-11-19",
+     "duracao_min": 39.3,
+     "views": 453966,
+     "thumb": "https://i.ytimg.com/vi/iNdshxOWCtU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=iNdshxOWCtU"
+    },
+    {
+     "id": "rAlm6-8UPEs",
+     "titulo": "The GTA 6 Hype Is Collapsing ?",
+     "publicado": "2026-11-24",
+     "duracao_min": 26.5,
+     "views": 296351,
+     "thumb": "https://i.ytimg.com/vi/rAlm6-8UPEs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=rAlm6-8UPEs"
+    }
+   ],
+   "score": 169822,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UCUK7e3Qja5d-muR6b-jiZCw",
+   "titulo": "Questionverse",
+   "url": "https://www.youtube.com/channel/UCUK7e3Qja5d-muR6b-jiZCw",
+   "pais": "US",
+   "criado": "2026-11-02",
+   "primeiro_video": "2026-11-02",
+   "idade_dias": 23,
+   "videos": 15,
+   "views": 3868933,
+   "inscritos": 14800,
+   "media_views": 257928,
+   "views_por_inscrito": 261.4,
+   "descricao": "Hey.. it's questionverse... I just like making questions :')",
+   "buscas": [
+    "animated story",
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "a4IxwLQNj-k",
+     "titulo": "What If You Were Stuck in a Bunker With Your Crush?",
+     "publicado": "2026-11-07",
+     "duracao_min": 21.1,
+     "views": 1293330,
+     "thumb": "https://i.ytimg.com/vi/a4IxwLQNj-k/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=a4IxwLQNj-k"
+    },
+    {
+     "id": "Z4HLqdR2iP4",
+     "titulo": "What If You Were the Strongest Person in the World?",
+     "publicado": "2026-11-05",
+     "duracao_min": 14.6,
+     "views": 508136,
+     "thumb": "https://i.ytimg.com/vi/Z4HLqdR2iP4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Z4HLqdR2iP4"
+    },
+    {
+     "id": "AY0DR7bvfXY",
+     "titulo": "What If You And Your Crush Were Alone On A Desert Island?",
+     "publicado": "2026-11-10",
+     "duracao_min": 21.2,
+     "views": 497837,
+     "thumb": "https://i.ytimg.com/vi/AY0DR7bvfXY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=AY0DR7bvfXY"
+    },
+    {
+     "id": "vmhnFVXVVl0",
+     "titulo": "What If You Got Stuck in a Walmart With Your Crush for 30 Days?",
+     "publicado": "2026-11-11",
+     "duracao_min": 20.0,
+     "views": 380776,
+     "thumb": "https://i.ytimg.com/vi/vmhnFVXVVl0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vmhnFVXVVl0"
+    },
+    {
+     "id": "Hyhixgi_1oE",
+     "titulo": "What If You Woke Up 10,000 Years Ago With Your Crush?",
+     "publicado": "2026-11-12",
+     "duracao_min": 23.6,
+     "views": 318211,
+     "thumb": "https://i.ytimg.com/vi/Hyhixgi_1oE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Hyhixgi_1oE"
+    },
+    {
+     "id": "8ItQgbmRh_0",
+     "titulo": "What If You Could Talk To Any Animal?",
+     "publicado": "2026-11-06",
+     "duracao_min": 15.6,
+     "views": 293003,
+     "thumb": "https://i.ytimg.com/vi/8ItQgbmRh_0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=8ItQgbmRh_0"
+    },
+    {
+     "id": "iQ29qLRIBBo",
+     "titulo": "What If Your CRUSH Became Your ROOMMATE?",
+     "publicado": "2026-11-19",
+     "duracao_min": 22.2,
+     "views": 215777,
+     "thumb": "https://i.ytimg.com/vi/iQ29qLRIBBo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=iQ29qLRIBBo"
+    },
+    {
+     "id": "eYv4svv3tqY",
+     "titulo": "What If You Became Stronger Every Time Someone Hurt You?",
+     "publicado": "2026-11-09",
+     "duracao_min": 20.1,
+     "views": 159269,
+     "thumb": "https://i.ytimg.com/vi/eYv4svv3tqY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=eYv4svv3tqY"
+    },
+    {
+     "id": "06ukUxfPm90",
+     "titulo": "What If a Caveman Woke Up in Today's World?",
+     "publicado": "2026-11-04",
+     "duracao_min": 11.6,
+     "views": 142077,
+     "thumb": "https://i.ytimg.com/vi/06ukUxfPm90/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=06ukUxfPm90"
+    },
+    {
+     "id": "1oKyfVfl2qQ",
+     "titulo": "What If You Were Trapped in Squid Game With Your Crush?",
+     "publicado": "2026-11-08",
+     "duracao_min": 19.6,
+     "views": 53492,
+     "thumb": "https://i.ytimg.com/vi/1oKyfVfl2qQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=1oKyfVfl2qQ"
+    },
+    {
+     "id": "SJ8r2LOQT50",
+     "titulo": "What If You Got Trapped in an Escape Room With Your Crush?",
+     "publicado": "2026-11-16",
+     "duracao_min": 22.8,
+     "views": 12727,
+     "thumb": "https://i.ytimg.com/vi/SJ8r2LOQT50/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=SJ8r2LOQT50"
+    },
+    {
+     "id": "fnpW0Kion0A",
+     "titulo": "What If You Had 999 Charisma in High School?",
+     "publicado": "2026-11-17",
+     "duracao_min": 21.8,
+     "views": 8366,
+     "thumb": "https://i.ytimg.com/vi/fnpW0Kion0A/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=fnpW0Kion0A"
+    },
+    {
+     "id": "G7hdjE2wAJA",
+     "titulo": "What If Your CRUSH Became Your STEPSISTER?",
+     "publicado": "2026-11-23",
+     "duracao_min": 22.1,
+     "views": 6632,
+     "thumb": "https://i.ytimg.com/vi/G7hdjE2wAJA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=G7hdjE2wAJA"
+    },
+    {
+     "id": "qHwxabTofjM",
+     "titulo": "What If You Knew the Exact Date of Your Death?",
+     "publicado": "2026-11-03",
+     "duracao_min": 8.4,
+     "views": 5123,
+     "thumb": "https://i.ytimg.com/vi/qHwxabTofjM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=qHwxabTofjM"
+    },
+    {
+     "id": "OwHWeRInV9c",
+     "titulo": "What If the Sun Suddenly Disappeared Tomorrow?",
+     "publicado": "2026-11-02",
+     "duracao_min": 12.2,
+     "views": 4186,
+     "thumb": "https://i.ytimg.com/vi/OwHWeRInV9c/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=OwHWeRInV9c"
+    }
+   ],
+   "score": 168214,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 376032
+  },
+  {
+   "id": "UCGOm49IO4nPkOmBhNPm84IA",
+   "titulo": "What1fy",
+   "url": "https://www.youtube.com/channel/UCGOm49IO4nPkOmBhNPm84IA",
+   "pais": "US",
+   "criado": "2008-12-03",
+   "primeiro_video": "2026-11-04",
+   "idade_dias": 21,
+   "videos": 19,
+   "views": 3137799,
+   "inscritos": 3780,
+   "media_views": 165147,
+   "views_por_inscrito": 830.1,
+   "descricao": "Just making silly animations in blender, and experimenting with styles\n\nLeave a sub\n",
+   "buscas": [
+    "what if"
+   ],
+   "videos_lista": [
+    {
+     "id": "SpO8Z48cKy0",
+     "titulo": "What If U Could Pick Your Speed Every Morning?",
+     "publicado": "2026-11-17",
+     "duracao_min": 10.3,
+     "views": 675721,
+     "thumb": "https://i.ytimg.com/vi/SpO8Z48cKy0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=SpO8Z48cKy0"
+    },
+    {
+     "id": "pFy4sonPXJ4",
+     "titulo": "What If Everything Your Mom Said Came True?",
+     "publicado": "2026-11-09",
+     "duracao_min": 8.5,
+     "views": 597571,
+     "thumb": "https://i.ytimg.com/vi/pFy4sonPXJ4/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=pFy4sonPXJ4"
+    },
+    {
+     "id": "NQBZSae-UKI",
+     "titulo": "What If U Could Pick Your Height Every Morning?",
+     "publicado": "2026-11-14",
+     "duracao_min": 9.1,
+     "views": 426764,
+     "thumb": "https://i.ytimg.com/vi/NQBZSae-UKI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=NQBZSae-UKI"
+    },
+    {
+     "id": "vr3bcUUyQnI",
+     "titulo": "What If U Could Pick Your Strength Every Morning?",
+     "publicado": "2026-11-15",
+     "duracao_min": 11.2,
+     "views": 366352,
+     "thumb": "https://i.ytimg.com/vi/vr3bcUUyQnI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vr3bcUUyQnI"
+    },
+    {
+     "id": "vDeKOw-cPyk",
+     "titulo": "What If Everything Your Dad Said Came True?",
+     "publicado": "2026-11-16",
+     "duracao_min": 11.2,
+     "views": 280757,
+     "thumb": "https://i.ytimg.com/vi/vDeKOw-cPyk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=vDeKOw-cPyk"
+    },
+    {
+     "id": "Z3O3lY5GqD0",
+     "titulo": "What If U Could Pick Your Age Every Morning?",
+     "publicado": "2026-11-10",
+     "duracao_min": 10.4,
+     "views": 170956,
+     "thumb": "https://i.ytimg.com/vi/Z3O3lY5GqD0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Z3O3lY5GqD0"
+    },
+    {
+     "id": "bat8r2fvjOs",
+     "titulo": "What If Anything You Touched Became Yours?",
+     "publicado": "2026-11-06",
+     "duracao_min": 7.5,
+     "views": 143070,
+     "thumb": "https://i.ytimg.com/vi/bat8r2fvjOs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=bat8r2fvjOs"
+    },
+    {
+     "id": "LbT5Xo1jSBM",
+     "titulo": "What If U could Swap Ages With Anyone?",
+     "publicado": "2026-11-11",
+     "duracao_min": 10.0,
+     "views": 112154,
+     "thumb": "https://i.ytimg.com/vi/LbT5Xo1jSBM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=LbT5Xo1jSBM"
+    },
+    {
+     "id": "CKvUB48AvMs",
+     "titulo": "What If U Could Swap the Weights of Any 2 Things?",
+     "publicado": "2026-11-19",
+     "duracao_min": 10.1,
+     "views": 102926,
+     "thumb": "https://i.ytimg.com/vi/CKvUB48AvMs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=CKvUB48AvMs"
+    },
+    {
+     "id": "W_NnoSVSLEg",
+     "titulo": "What If Everything Thrown at U Bounced Back 10x Faster?",
+     "publicado": "2026-11-22",
+     "duracao_min": 11.2,
+     "views": 80400,
+     "thumb": "https://i.ytimg.com/vi/W_NnoSVSLEg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=W_NnoSVSLEg"
+    },
+    {
+     "id": "T5zbamd6Py8",
+     "titulo": "What If You Only Had 3 Shouts and the Whole World Heard Them?",
+     "publicado": "2026-11-07",
+     "duracao_min": 8.9,
+     "views": 50947,
+     "thumb": "https://i.ytimg.com/vi/T5zbamd6Py8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=T5zbamd6Py8"
+    },
+    {
+     "id": "C2HwIDztlXU",
+     "titulo": "What If U Could Control Anyone for 5s?",
+     "publicado": "2026-11-13",
+     "duracao_min": 9.5,
+     "views": 47019,
+     "thumb": "https://i.ytimg.com/vi/C2HwIDztlXU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=C2HwIDztlXU"
+    },
+    {
+     "id": "Y2vseJmvnWk",
+     "titulo": "What If Your Little Sister Got 1,000 Wishes?",
+     "publicado": "2026-11-15",
+     "duracao_min": 8.0,
+     "views": 46912,
+     "thumb": "https://i.ytimg.com/vi/Y2vseJmvnWk/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Y2vseJmvnWk"
+    },
+    {
+     "id": "SG85I7CTlTw",
+     "titulo": "What If EVERYONE Could See Everyone's LOVE?",
+     "publicado": "2026-11-04",
+     "duracao_min": 9.1,
+     "views": 39684,
+     "thumb": "https://i.ytimg.com/vi/SG85I7CTlTw/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=SG85I7CTlTw"
+    },
+    {
+     "id": "ge9kxuxV8iA",
+     "titulo": "What If U Had 500 lvl Stealth?",
+     "publicado": "2026-11-12",
+     "duracao_min": 10.1,
+     "views": 13650,
+     "thumb": "https://i.ytimg.com/vi/ge9kxuxV8iA/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ge9kxuxV8iA"
+    },
+    {
+     "id": "YsQ94V5JBdM",
+     "titulo": "What If Karma Was a Number Everyone Could See?",
+     "publicado": "2026-11-05",
+     "duracao_min": 8.2,
+     "views": 8556,
+     "thumb": "https://i.ytimg.com/vi/YsQ94V5JBdM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=YsQ94V5JBdM"
+    },
+    {
+     "id": "a-9FIOpgo_c",
+     "titulo": "What If the Floor Cost $1 Every Second You Touched It?",
+     "publicado": "2026-11-08",
+     "duracao_min": 7.8,
+     "views": 8244,
+     "thumb": "https://i.ytimg.com/vi/a-9FIOpgo_c/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=a-9FIOpgo_c"
+    },
+    {
+     "id": "l7c6gn_U0fs",
+     "titulo": "What If Everyone Who Was Mean to U Had to Protect You?",
+     "publicado": "2026-11-25",
+     "duracao_min": 11.3,
+     "views": 6813,
+     "thumb": "https://i.ytimg.com/vi/l7c6gn_U0fs/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=l7c6gn_U0fs"
+    },
+    {
+     "id": "Hmsh736gsmI",
+     "titulo": "What If Reality Had Patch Notes… and You Were the Bug?",
+     "publicado": "2026-11-05",
+     "duracao_min": 7.9,
+     "views": 3773,
+     "thumb": "https://i.ytimg.com/vi/Hmsh736gsmI/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=Hmsh736gsmI"
+    }
+   ],
+   "score": 149419,
+   "novo_no_radar": true,
+   "crescimento_views_desde_ultimo": null
+  },
+  {
+   "id": "UChRH-kn7h8L45CFIEFc-jWA",
+   "titulo": "The Black File",
+   "url": "https://www.youtube.com/channel/UChRH-kn7h8L45CFIEFc-jWA",
+   "pais": "US",
+   "criado": "2025-06-20",
+   "primeiro_video": "2026-11-09",
+   "idade_dias": 17,
+   "videos": 17,
+   "views": 2452926,
+   "inscritos": 3170,
+   "media_views": 144289,
+   "views_por_inscrito": 773.8,
+   "descricao": "Welcome to The Black File — where real crimes are examined beyond the headlines.\n\nWe explore true crime cases through detailed documentaries, careful analysis, and clear explanations of the evidence, motives, timelines, and unanswered questions behind each investigation.\n\nOur goal is not simply to t",
+   "buscas": [
+    "true crime documentary"
+   ],
+   "videos_lista": [
+    {
+     "id": "ppd0cYxDrbY",
+     "titulo": "\"Friendly\" Yoga Teacher Has No Idea She's About To Spend 90 Years in Prison",
+     "publicado": "2026-11-16",
+     "duracao_min": 21.4,
+     "views": 966934,
+     "thumb": "https://i.ytimg.com/vi/ppd0cYxDrbY/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=ppd0cYxDrbY"
+    },
+    {
+     "id": "aWhbPX0k7HM",
+     "titulo": "70-Year-Old Woman Has No Idea Police Are About To Arrest Her For Murder",
+     "publicado": "2026-11-15",
+     "duracao_min": 22.9,
+     "views": 966807,
+     "thumb": "https://i.ytimg.com/vi/aWhbPX0k7HM/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=aWhbPX0k7HM"
+    },
+    {
+     "id": "1IBONm7Mf2s",
+     "titulo": "\"Friendly\" Boyfriend Has No Idea He's About To Be Arrested For Killing a 15-Year-Old Girl",
+     "publicado": "2026-11-14",
+     "duracao_min": 22.4,
+     "views": 179709,
+     "thumb": "https://i.ytimg.com/vi/1IBONm7Mf2s/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=1IBONm7Mf2s"
+    },
+    {
+     "id": "2GZJqKU1bVE",
+     "titulo": "“Friendly” Farmer Has No Idea Police Are About to Arrest Her for Murder",
+     "publicado": "2026-11-11",
+     "duracao_min": 20.3,
+     "views": 105791,
+     "thumb": "https://i.ytimg.com/vi/2GZJqKU1bVE/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=2GZJqKU1bVE"
+    },
+    {
+     "id": "7NJH7ctJOGU",
+     "titulo": "Killer Girlfriend Has No Idea She’s About To Spend Life Behind Bars",
+     "publicado": "2026-11-13",
+     "duracao_min": 20.2,
+     "views": 63680,
+     "thumb": "https://i.ytimg.com/vi/7NJH7ctJOGU/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=7NJH7ctJOGU"
+    },
+    {
+     "id": "6Xid0L_c3Mo",
+     "titulo": "\"Devoted\" Wife Has No Idea She's About to Be Arrested for Murdering Her Husband",
+     "publicado": "2026-11-18",
+     "duracao_min": 23.5,
+     "views": 60631,
+     "thumb": "https://i.ytimg.com/vi/6Xid0L_c3Mo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=6Xid0L_c3Mo"
+    },
+    {
+     "id": "rNcNIipMno8",
+     "titulo": "\"Friendly\" Husband Has No Idea Police Already Have Know His Dark Secret",
+     "publicado": "2026-11-20",
+     "duracao_min": 22.4,
+     "views": 42052,
+     "thumb": "https://i.ytimg.com/vi/rNcNIipMno8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=rNcNIipMno8"
+    },
+    {
+     "id": "hvrZBV4o1Jg",
+     "titulo": "\"Friendly\" Wife Has No Idea Her Trip to Target Will Send Her to Prison for Life",
+     "publicado": "2026-11-25",
+     "duracao_min": 23.1,
+     "views": 36370,
+     "thumb": "https://i.ytimg.com/vi/hvrZBV4o1Jg/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=hvrZBV4o1Jg"
+    },
+    {
+     "id": "wRlYhNrqqFo",
+     "titulo": "\"Friendly\" Husband Has No Idea Police Already Found His Wife's Body",
+     "publicado": "2026-11-23",
+     "duracao_min": 22.4,
+     "views": 20711,
+     "thumb": "https://i.ytimg.com/vi/wRlYhNrqqFo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=wRlYhNrqqFo"
+    },
+    {
+     "id": "xEW4Ilq6AG0",
+     "titulo": "Killer Stepfather Has No Idea He's About To Be Sent to Prison for Life",
+     "publicado": "2026-11-21",
+     "duracao_min": 21.0,
+     "views": 17277,
+     "thumb": "https://i.ytimg.com/vi/xEW4Ilq6AG0/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=xEW4Ilq6AG0"
+    },
+    {
+     "id": "pc111actIQQ",
+     "titulo": "Killer Girlfriend Has No Idea the $30 Million Fortune Was a Scam",
+     "publicado": "2026-11-13",
+     "duracao_min": 22.0,
+     "views": 16971,
+     "thumb": "https://i.ytimg.com/vi/pc111actIQQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=pc111actIQQ"
+    },
+    {
+     "id": "s4wXanWKYG8",
+     "titulo": "\"Devoted\" Dentist Has No Idea He's About to Spend Life in Prison for Murdering His Wife",
+     "publicado": "2026-11-17",
+     "duracao_min": 19.0,
+     "views": 15906,
+     "thumb": "https://i.ytimg.com/vi/s4wXanWKYG8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=s4wXanWKYG8"
+    },
+    {
+     "id": "TEfIMKHlEKQ",
+     "titulo": "\"Friendly\" Grandma Has No Clue Police Already Know Her Dark Secret",
+     "publicado": "2026-11-19",
+     "duracao_min": 20.8,
+     "views": 7788,
+     "thumb": "https://i.ytimg.com/vi/TEfIMKHlEKQ/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=TEfIMKHlEKQ"
+    },
+    {
+     "id": "QMJmSqqPx7s",
+     "titulo": "Killer Husband Has No Idea His Own Words Will Cost Him 65 Years",
+     "publicado": "2026-11-09",
+     "duracao_min": 26.1,
+     "views": 7561,
+     "thumb": "https://i.ytimg.com/vi/QMJmSqqPx7s/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=QMJmSqqPx7s"
+    },
+    {
+     "id": "PhS2Q5SyFZ8",
+     "titulo": "Killer Husband Has No Idea Police Already Know His Dark Secret",
+     "publicado": "2026-11-24",
+     "duracao_min": 20.2,
+     "views": 6100,
+     "thumb": "https://i.ytimg.com/vi/PhS2Q5SyFZ8/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PhS2Q5SyFZ8"
+    },
+    {
+     "id": "PLYZeSfX2Wo",
+     "titulo": "“Devoted” Husband Has No Idea His Own Alarm System Logged Every Move",
+     "publicado": "2026-11-10",
+     "duracao_min": 24.2,
+     "views": 5040,
+     "thumb": "https://i.ytimg.com/vi/PLYZeSfX2Wo/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=PLYZeSfX2Wo"
+    },
+    {
+     "id": "S5SrYYRyBss",
+     "titulo": "\"Friendly\" Husband Has No Idea He's About To Spend 40 Years Behind Bars",
+     "publicado": "2026-11-22",
+     "duracao_min": 20.8,
+     "views": 1322,
+     "thumb": "https://i.ytimg.com/vi/S5SrYYRyBss/maxresdefault.jpg",
+     "url": "https://www.youtube.com/watch?v=S5SrYYRyBss"
+    }
+   ],
+   "score": 144290,
+   "novo_no_radar": false,
+   "crescimento_views_desde_ultimo": 355334
+  }
+ ]
+}
