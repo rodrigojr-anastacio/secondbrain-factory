@@ -45,3 +45,14 @@
 - Canais com < 30 dias e < 30 mil inscritos puxam 100 mil a 2,5M em alguns vídeos — 5 canais, alta variância (405 a 2,58M)
 - Documentário esquemático 2D/3D em fundo escuro, ~11–14 cortes/min — 2 canais (Gloam, Hadalogy), 1,93M e 2,58M nos picos
 - Fonte: `pesquisa/tendencias/2026-11-23-batch.md`.
+
+## 2026-11-26 — 32 vídeos
+- "What If U Could Pick Your [X] Every Morning?": 1 canal, 4 vídeos, mediana ~398 mil views (171 mil a 676 mil)
+- "What If Everything Your [Mom/Dad] Said Came True?": 1 canal, 2 vídeos, 597 mil e 281 mil views
+- Thumb What1fy com contraste numérico e setas ("300 MPH / 60 MPH"): 4 vídeos de 171 mil a 676 mil views
+- Selo "TRUE STORY" + país/ano no título: StickBait, 9 vídeos, mediana ~38 mil, pico 1,30 mi
+- Premissa com prazo de sobrevivência ("Until Dawn") + thumb com detalhe circulado: 1 vídeo, 1,30 mi views
+- Canais de 4 a 21 dias com 2,5 mil a 5 mil inscritos chegam a 500 mil a 1,3 mi views: 5 vídeos acima de 500 mil
+- Vídeos de games (GTA) de 26 a 40 min: 1 canal, 3 vídeos, 296 mil a 503 mil views
+- Thumb sem rosto/selo e tema escatológico (Gog & Magog): 2.690 views, pior da StickBait
+- Fonte: `pesquisa/tendencias/2026-11-26-batch.md`.
