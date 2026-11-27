@@ -13,6 +13,21 @@ Regra de canal: **prevalece** sobre `conhecimento/titulos.md`.
 - Se o nome da organização não é famoso em es ('Ndrangheta, Camorra, Bratva/vory, Tríadas, Garduña, Outfit, ODESSA, Murder Inc.), o **título diz o que ela é já nas primeiras palavras**: "mafia" + país/cidade ("La 'Ndrangheta: la mafia de Calabria…", "La mafia rusa…", "La mafia china…"). Só o nome sozinho não basta: o público da Cosa Nostra não reconhece "'Ndrangheta".
 - Modelo: Cosa Nostra (nome + "mafia" reconhecível) e Yakuza (thumb que grita Japão). Se houver termo mais buscado (ex. "mafia rusa" × "Bratva"), meça como no 004 e use o mais buscado no título.
 - Vale junto com a thumb (`thumb.md`, "Ícone cultural"): título diz **o que é**, thumb mostra **de onde é**.
+- **Reforço (27/11/2026, Rodrigo, literal):** "o título tem que ter ligação com a máfia e fazer essa ligação, para o cara ver a thumb, ver o título e já saber do que se trata, e não ver um nome estranho e não clicar."
+  - Vale para **todo nome pouco conhecido**, organização **ou pessoa**: 'Ndrangheta, Bratva/vory, ODESSA, Camorra, Tríadas, Outfit, Murder Inc., Provenzano, Calvi, Messina Denaro…
+  - O **explicador** ("mafia italiana", "mafia rusa", "mafia siciliana", "red nazi", "jefe de la mafia…", "banquero de la mafia…") vem **nas primeiras ~5 palavras**, colado ao nome ou no lugar dele. Nome solto, ou explicado só no fim do título, = reprova no crivo (item 0b de `skills/embalagem/CRIVO.md`).
+  - Região pouco conhecida não explica: "Calabria", "Nápoles", "Corleone" sozinhos não dizem nada ao público es. Use o **país** ("mafia italiana") e, se quiser, a região depois.
+  - O título **e** a thumb explicam (não basta um dos dois): o espectador lê os dois em 1 s.
+  - Exemplos da semana de 28/11–01/12 e próximos (candidatos; a embalagem de cada vídeo decide com pesquisa):
+
+    | tema | ruim (nome solto/região) | bom |
+    |---|---|---|
+    | 'Ndrangheta | "'NDRANGHETA: la mafia de Calabria que superó a la Cosa Nostra" | "La MAFIA ITALIANA que superó a la Cosa Nostra: la 'Ndrangheta" / "'NDRANGHETA: la mafia italiana que superó a la Cosa Nostra" |
+    | Mafia rusa | "BRATVA: la hermandad de los vory v zakone" | "MAFIA RUSA: los ladrones que nacieron en el Gulag de Stalin" |
+    | ODESSA | "ODESSA: la organización secreta" | "ODESSA: la red nazi que sacó a los criminales de guerra hacia Argentina" |
+    | 5 Familias | "Las 5 Familias" | "LAS 5 FAMILIAS: la mafia de Nueva York y el juicio que la derribó" |
+    | Provenzano | "PROVENZANO: 43 años escondido" | "PROVENZANO: el jefe de la mafia siciliana que nadie vio en 43 años" |
+    | Calvi | "El caso Calvi" / "El banquero de Dios" | "El banquero de la mafia siciliana que apareció colgado en Londres" |
 
 ## O que performa (Archive in Minutes, en, 2026-11-04)
 - **[O]** Organizações de repressão/espionagem com nome famoso: Gestapo 349 mil, SS 317 mil, KGB 236 mil, Mossad 146 mil, CIA 141 mil, Soviet Union 126 mil, Cold War 117 mil, Stasi 114 mil, MI6 109 mil, Beria 86 mil.
