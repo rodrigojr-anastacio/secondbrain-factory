@@ -20,6 +20,7 @@ Procedimento-base: `playbooks/produzir-video.md` §4. Modelo recomendado: **opus
 2. **Ritmo e reuso: os números da `biblia/visual.md` do canal** (ex.: historia-ptbr ~20/min no início e ~17 depois, reuso ~40% depois de 3:00; dossie-es 18–20/min e ~35%). Regra geral: nunca o mesmo enquadramento em < 60 s e 0% de reuso nos primeiros 3:00.
 3. **Fidelidade:** cena que nomeia lugar ou personagem mostra **aquele** lugar/personagem; nada de lugar real no lugar de fictício; nada de frames de filme/série; nada de texto pedido à IA (texto só no código).
    - **em-relevo** (sem IA de cena): bloco cuja fala é sobre chuva de um evento de 2000 em diante (onde caiu, quanto, acima do normal) → camada de chuva real da NASA no mapa 3D com `tools/nasa_chuva.py` (planeje o período, a região e se vai a anomalia; composição e limites em `canais/em-relevo/biblia/visual.md`, seção "Chuva real da NASA").
+3b. **Só dossie-es: bloco do CTA de inscrição** (a frase fixa, 27/11/2026): 2 planos de **reuso** do expediente que acabou, calmos, sem rosto nem objeto-chave no canto superior direito (o botão SUSCRÍBETE cobre ~460×130 px ali), sem rótulo `@@` nem cartão de data (`canais/dossie-es/biblia/visual.md`, Botão SUSCRÍBETE).
 4. Gere: `cd $V && python3 roteiro.py` (valida as regras de reuso) → `STORYBOARD.md`, `storyboard.json`, `cenas.json`.
 5. Calcule o custo previsto: nº de imagens novas × preço do motor do canal (`canal.yaml` → `visual`; preços reais em `conhecimento/anti-padroes.md`) + thumb; compare com o teto do BRIEF.
 

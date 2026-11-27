@@ -31,6 +31,12 @@ Regra de canal: **prevalece** sobre `conhecimento/anti-padroes.md`. Estilo **apr
 - **Mapas:** base sem rótulos e **sem pinos** ("no pins, no markers, no table", "flat scan of the map only, no table, no frame"); **pinos e setas desenhados no código** (nenhum modelo acertou a posição: os pinos caíram no México, Colômbia e Brasil em vez de Guatemala, Cuba e Chile). [ESTILO-es.md]
 - Sem legenda queimada.
 
+## Botão SUSCRÍBETE (CTA de inscrição, 27/11/2026, decisão do Rodrigo)
+- Enquanto a frase do CTA de inscrição toca (`roteiro.md`, Estrutura item 6), um botão desenhado **no estilo do canal** no **canto superior direito** (espelho da ficha LUGAR Y FECHA; longe da legenda, embaixo, e do centro da imagem): ficha de papel `#E9DFC9` com borda de tinta e sombra dura, botão **sello rojo** `#B3261E` com "SUSCRÍBETE" em Bebas Neue, sininho em traço de tinta e "DOSSIER EN MINUTOS" datilografado embaixo. **Nada do logo oficial do YouTube.**
+- Ritmo: entra 0,2 s antes da fala → um cursor de tinta clica no "-críbe-" (tempo pela palavra no Whisper do bloco) → o botão vira **SUSCRITO** (tinta, com "assentada" de carimbo) → o cursor toca o sininho (balança, ondas vermelhas) → sai 0,4 s depois da frase, antes do cartão do próximo expediente. SFX: clique seco + sininho curto, sintetizados (somados ao `mix.wav`).
+- Fonte única do componente: `canais/dossie-es/cta/inscricao/BotonSuscribete.jsx` (o `inscricao.py montar` copia para `src/` e liga o `Video.jsx`; não edite a cópia). Amostra aprovada para produção: `cta/inscricao/amostra.mp4` (016, fim do Expediente 8).
+- **Storyboard do bloco do CTA:** 2 planos de **reuso** do expediente que acabou (calmos, sem rosto nem objeto-chave no canto superior direito: o botão cobre ~460×130 px ali); sem rótulo (`@@`) nem cartão de data no bloco.
+
 ## Som
 - Trilha original sintetizada no código (drone grave + pulso), sob a voz a −33 dB; mix em −15 LUFS. SFX discretos: máquina de escrever no rótulo, carimbo no expediente.
 

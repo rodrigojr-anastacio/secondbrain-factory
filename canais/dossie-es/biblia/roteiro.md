@@ -9,7 +9,7 @@ Base: `pesquisa/archive-in-minutes/LEVANTAMENTO.md` §2 (anatomia, 2026-11-04), 
 Diretriz do Rodrigo (16/11/2026): tema com demanda, **ângulo fora da manada**, forma de canal de sucesso. Motivo: no historia-ptbr a regra "remodelar a transcrição" fez o 005-brasil sair quase igual ao History in Minutes (detector 47/100). Aqui a auditoria de 16/11 (`pesquisa/roteiro-angulo-2026-11/AUDITORIA.md`) deu **007 SS = 28 × Archive SS** (`PmpWyltn08s`: a fuga de Himmler com o parche, Oradour e a Noite dos Longos Punhais na mesma ordem e com os mesmos detalhes) e 21 × o clone The Full Record; 008 Inquisición 3; 009 Gestapo ver auditoria.
 
 ### Forma (modelada): o que copiamos do Archive in Minutes, de propósito
-- Hook-anedota de 25–35 s (data + lugar → cena → desfecho seco → "Esta es TODA la historia de X" → promessa em 1 linha); 11–14 EXPEDIENTES de 45–75 s com título-objeto falado; cada expediente puxa o próximo; anedota paga no meio ou no fim; cierre que volta ao objeto do hook + aforismo + pergunta; CTA no meio colado num re-hook. Evidência: Archive Gestapo `pbIzG1QvoWs`, KGB `VNJhu4rh6OY`, SS `PmpWyltn08s`; `pesquisa/archive-in-minutes/LEVANTAMENTO.md` §2; retenção nossa 68–83% no 1º minuto (CIA, Mossad; métricas de 09/11).
+- Hook-anedota de 25–35 s (data + lugar → cena → desfecho seco → "Esta es TODA la historia de X" → promessa em 1 linha); 11–14 EXPEDIENTES de 45–75 s com título-objeto falado; cada expediente puxa o próximo; anedota paga no meio ou no fim; cierre que volta ao objeto do hook + aforismo + pergunta; CTA de inscrição depois de um re-hook (texto e posição fixos desde 27/11/2026, item 6 da Estrutura). Evidência: Archive Gestapo `pbIzG1QvoWs`, KGB `VNJhu4rh6OY`, SS `PmpWyltn08s`; `pesquisa/archive-in-minutes/LEVANTAMENTO.md` §2; retenção nossa 68–83% no 1º minuto (CIA, Mossad; métricas de 09/11).
 - Tom: presente histórico, seco, atribuição a documento; tamanho 11–16 min.
 
 ### Conteúdo (nosso): o que nunca vem da referência
@@ -31,7 +31,14 @@ Diretriz do Rodrigo (16/11/2026): tema com demanda, **ângulo fora da manada**, 
 3. **Cada expediente puxa o próximo:** o fim do capítulo prepara o objeto seguinte; o melhor é terminar com a frase que **é** o título do próximo ("…entregue a um homem que já criou galinhas. O criador de galinhas."). Re-hook a cada ~60–90 s. [estudo de 04/11, ex-`conhecimento/roteiros.md`]
 4. **Pague a anedota** entre 1/4 e 1/2 do vídeo ou no fim: o Archive Gestapo volta à viúva aos 3:29 com o detalhe cruel ("os juízes contaram contra ela que o marido morreu pela pátria"); o KGB paga no fim (o oficial de Dresden vira presidente). [estudo de 04/11]
 5. **Cierre:** volta ao objeto do hook (Gestapo: "The joke" → "The cellar"; SS: "The skull rings" → "The rings"), + aforismo de 2 frases ("A Gestapo nunca foi grande. Grandes eram as pessoas que escreviam para ela.") + liga ao presente + 1 pergunta ("Y tú, ¿…? Déjalo en los comentarios."). Piloto CIA: "Cierre. La Disculpa".
-6. **CTA de inscrição:** no meio, colado num re-hook (Archive Gestapo, 3:45). O Archive não tem CTA no hook nem patrocínio. [estudo de 04/11; LEVANTAMENTO §2d]
+6. **CTA de inscrição: texto fixo, ~60% do vídeo, no fim de um expediente forte (27/11/2026, decisão do Rodrigo; substitui o "no meio, colado num re-hook" de 04/11).**
+   - **Texto, palavra por palavra** (não reescreva por vídeo, não traduza, não acrescente "Porque…"):
+     "Si te está gustando este expediente, suscríbete. Así nos ayudas a seguir investigando y contando historias como esta."
+     No `roteiro.py`, importe-o de `canais/dossie-es/cta/inscricao/inscricao.py` (`from inscricao import TEXTO as CTA_INSCRICAO`), nunca redigite. Falado pelo **mesmo narrador**, como **bloco normal** do roteiro (vai à voz junto com os outros, mesma config Fish), com `ideia=True` (pausa de 0,9 s antes).
+   - **Lugar:** **último bloco de um expediente forte** (o próximo bloco abre o capítulo seguinte), começando por volta de **60%** da duração (aceitável **55–70%**), **≥ 2 min** do CTA da HQ (~37,5%, `cta/encaixe.py`). O bloco anterior fecha o expediente com o **re-hook** que abre o próximo (laço aberto antes do pedido: a curiosidade segura o espectador durante a frase). Nunca no hook nem no cierre. **Só 1 CTA de inscrição por vídeo**: o antigo "Si te interesan estos expedientes, suscríbete. Porque…" do meio sai.
+   - **Visual:** enquanto a frase toca, o botão "SUSCRÍBETE" animado no canto superior direito (`visual.md`), posto pelo `inscricao.py montar`.
+   - **Por quê:** 279 inscritos em ~78 mil views (~0,36%, 27/11/2026); o CTA antigo ficava entre 39% e 57% (014–017) e, no 016, a 10 s do CTA da HQ (016: inscrição em 38,6%, HQ em 40,0%), e cada vídeo tinha uma frase diferente. **Hipótese** até medir inscritos/1.000 views antes × depois (Studio: inscritos por vídeo).
+   - **Portões:** `tools/.venv/bin/python canais/dossie-es/cta/inscricao/inscricao.py roteiro $V` depois do `roteiro.py` (texto exato, fim de capítulo, 55–70% estimado com o CTA da HQ, ≥ 2 min da HQ + 10 s de margem, nenhum CTA antigo; sugere os lugares válidos) e `… qa $V` no render (Whisper da frase, posição real, botão visível). Detalhes: `canais/dossie-es/cta/inscricao/LEIA.md`.
 
 ## Tom
 - **Presente histórico**, factual, seco, quase sem adjetivo; o horror vem do fato. Números exatos, nomes e lugares (viram rótulo na tela).
@@ -90,6 +97,7 @@ Diretriz do Rodrigo (16/11/2026): tema com demanda, **ângulo fora da manada**, 
 - [ ] Anedota paga; cierre volta ao objeto do hook + pergunta.
 - [ ] Toda acusação atribuída a fonte; ângulo América Latina presente.
 - [ ] Revisão nativa feita; nenhuma palavra em português.
+- [ ] **CTA de inscrição (27/11/2026):** a frase fixa como último bloco de um expediente, ~60% (55–70%), ≥ 2 min do CTA da HQ, nenhum CTA antigo: `inscricao.py roteiro $V` APROVADO (saída no `ETAPA1.md`).
 - [ ] **Ângulo próprio (16/11/2026):** `SIMILARIDADE.md` < 30, `CRIVO-ANGULO.md` APROVADO, ≥ 50% dos expedientes fora da manada (lista no `SOURCES.md`).
 
 ## Métricas 2026-11-09 (relatório semanal)

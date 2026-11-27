@@ -31,6 +31,8 @@ Avalie, com evidência (bloco do roteiro × trecho da transcrição):
 6. Fontes: os fatos têm fonte própria no SOURCES (livro, artigo, enciclopédia, arquivo, dado oficial)? Algum fato só
    tem como "fonte" um vídeo concorrente/transcrição? (Isso reprova o fato.)
 7. Forma: o roteiro continua na forma da bíblia (não é para fugir da forma, só do conteúdo)?
+   (Dossier en Minutos: o bloco "Si te está gustando este expediente, suscríbete…" é o CTA de inscrição de texto fixo
+   do canal, igual em todo vídeo por decisão do dono: não conte como cópia nem como fórmula.)
 
 Grave <pasta>/roteiro-crivo/crivo-angulo-r<n>.md e copie para <pasta>/CRIVO-ANGULO.md, no formato:
 # Crivo de ângulo r<n> · <data> · APROVADO | REPROVADO

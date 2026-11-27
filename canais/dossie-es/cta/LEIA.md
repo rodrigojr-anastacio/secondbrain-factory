@@ -1,5 +1,7 @@
 # CTA da HQ "Expedientes Secretos" (Dossier en Minutos) · 24/11/2026
 
+(O **CTA de inscrição** falado + botão SUSCRÍBETE, de 27/11/2026, é outra coisa: `inscricao/LEIA.md`. Ele fica a ≥ 2 min deste bloco.)
+
 Bloco genérico de **16,4 s** (v2, 24/11) que entra no meio de todo vídeo novo do Dossier quando existir o arquivo **`ATIVO`** nesta pasta (1ª linha = link da Hotmart). Definições do Rodrigo: `../produtos/hq/DEFINICOES.md`. Quem cria o `ATIVO` é o orquestrador, quando o Rodrigo mandar o link.
 
 ## O que tem aqui
