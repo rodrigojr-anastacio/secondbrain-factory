@@ -1,0 +1,26 @@
+2|en|most dangerous toys ever sold
+2|en|deadliest medicines ever sold
+2|en|most dangerous beauty products ever sold
+2|en|most dangerous cars ever sold
+2|en|most dangerous gadgets ever sold
+2|en|most dangerous baby products ever sold
+2|es|los dulces más peligrosos de la historia
+2|es|juguetes más peligrosos jamás vendidos
+2|es|productos más peligrosos que se vendieron
+2|pt|doces mais perigosos já vendidos
+2|pt|brinquedos mais perigosos da história
+2|fr|bonbons les plus dangereux jamais vendus
+2|fr|jouets les plus dangereux jamais vendus
+2|de|gefährlichsten Süßigkeiten aller Zeiten
+2|de|gefährlichste Spielzeuge aller Zeiten
+4|en|how hackers stole documentary
+4|en|biggest crypto heist documentary
+4|es|cómo hackearon documental
+4|es|el mayor robo cripto de la historia
+4|es|estafa piramidal documental
+4|pt|como hackers roubaram documentário
+4|pt|o maior golpe da história documentário
+4|fr|comment des hackers ont volé documentaire
+4|fr|la plus grande arnaque documentaire
+4|de|wie ein Hacker Millionen stahl
+4|de|der größte Betrug Doku
