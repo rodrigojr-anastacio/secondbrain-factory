@@ -12,15 +12,15 @@ Regra de canal: prevalece sobre `conhecimento/thumbnails/README.md`. Base: `../v
 ## Os 3 padrões (toda embalagem entrega A/B/C, um de cada, para o "Testar e comparar")
 | | padrão | composição | texto |
 |---|---|---|---|
-| **A** | **Objeto-prova + "VOCÊ"** | o objeto/cena do hook em close (porta com P.R., caravela inclinada, preguiça gigante) ocupando 50–60%; o Turista pequeno se dando mal, com **seta amarela "VOCÊ"** | 2–3 palavras do problema ("24 HORAS", "44 DIAS") |
-| **B** | **Conflito cara a cara** | split com raio: o Turista furioso × o antagonista da época (conde, senhor feudal, capitão), cada um com o objeto da disputa | 2–3 palavras ("A CASA ERA SUA", "METADE É MINHA") |
-| **C** | **Número gigante / cronômetro** | número físico ocupando metade da tela ("13 ANOS", "−20 °C", "4 TONELADAS") + o Turista reagindo; cronômetro "VOCÊ DUROU" no canto | o próprio número + 1 palavra |
+| **A** | **Objeto-prova + "VOCÊ"** | o objeto/cena do hook em close (bloco da pirâmide na rampa, porta com P.R., copo de água do Tâmisa, preguiça gigante) ocupando 50–60%; o Turista pequeno se dando mal, com **seta amarela "VOCÊ"** | 2–3 palavras do problema ("24 HORAS", "44 DIAS") |
+| **B** | **Conflito cara a cara** | split com raio: o Turista furioso × o antagonista da época (senhor feudal, capataz, centurião, conde), cada um com o objeto da disputa | 2–3 palavras ("METADE É DELE", "A CASA ERA SUA") |
+| **C** | **Número gigante / cronômetro** | número físico ocupando metade da tela ("5 MESES", "−20 °C", "2.500 BOIS", "4 TONELADAS") + o Turista reagindo; cronômetro "VOCÊ DUROU" no canto | o próprio número + 1 palavra |
 
 ## Regras
 1. **O Turista** (bonequinho de chinelo, bermuda e pochete) em toda thumb, com expressão forte (pânico, nojo, raiva). Cabeça redonda branca, contorno grosso, cores chapadas (`visual.md`).
-2. **1 objeto/cena reconhecível da época** que diz o tema sem ler o título.
+2. **1 objeto/cena reconhecível da época** que diz o tema sem ler o título (pirâmide, casa comprida viking, Vesúvio, capacete da FEB). Tema do mundo: o ícone do lugar/era, nunca bandeira ou mapa do Brasil para "ligar" ao público.
 3. **2–3 palavras**, Montserrat/Anton pesado, branco ou amarelo com contorno preto, 1 palavra em vermelho; texto composto no código (`src/Thumbnail.jsx`), nunca gerado pela IA.
-4. Fundo saturado e claro (céu azul, mar, rua colorida); nada de thumb escura (lição do Em Relevo, 28/11).
+4. Fundo saturado e claro (céu azul, deserto, neve, mar, rua colorida); nada de thumb escura (lição do Em Relevo, 28/11).
 5. **Proibido:** morte, corpo, sangue, ferimento, caveira como desfecho; caricatura de indígenas, africanos ou imigrantes; pessoa escravizada como gag; "YOU ARE DEAD"/"VOCÊ MORREU" ou qualquer palavra de morte; carimbos/pasta parda (identidade do `dossie-es`); PAÍS + datas + panorama (CTR < 2% na v1/v2).
 6. Legível a 168×94 px (teste do celular) antes de entregar.
 

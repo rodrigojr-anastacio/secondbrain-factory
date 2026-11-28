@@ -1,0 +1,540 @@
+[
+ {
+  "slug": "campones-1300",
+  "origem": "mundo",
+  "teste": 1,
+  "titulo_candidato": "Idade Média, 1300: Você Acordou Camponês e Metade do Pão É do Senhor",
+  "thumb": "O Turista de pochete com foice e cara de sono; senhor feudal gordo arrancando metade do pão da mão dele; moinho e campo de trigo ao fundo, céu azul. Texto: \"METADE É DELE\" (padrão B, conflito).",
+  "tema": "Um dia inteiro como camponês (servo) na Idade Média, 1300",
+  "angulo": "A manada faz castelo, inverno e higiene medieval em IA realista (6+ versões de \"castelo em 1200\"). Nós fazemos o relógio de um servo comum: acordar no escuro, corveia, dízimo, a taxa para moer o próprio trigo no moinho do senhor, cerveja rala em vez de água, a casa com os animais, 100+ dias santos de folga (o lado bom). Humor de \"contracheque medieval\".",
+  "evidencias": [
+   {
+    "fonte": "busca 'este ano' via WARP + videos.list, 28/11/2026",
+    "numero": "termo \"como era viver na idade média\": mediana 68.885 views (a maior entre os 18 termos de mundo), 41% passam de 100 mil, 5 canais < 50 mil inscritos com ≥ 100 mil",
+    "link": ""
+   },
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Avesso (1,6 mil inscritos): 317.844 views, castelo medieval no inverno, 11/2026",
+    "link": "https://youtu.be/suV2TVrBOCg"
+   },
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Crônicas de Ferro (2ª pessoa): \"Por que você não sobreviveria à higiene da Idade Média em 1348?\" 209.063 views",
+    "link": "https://youtu.be/Lw7izeRQBsI"
+   }
+  ],
+  "demanda": 9,
+  "encaixe": 9,
+  "urgencia": 3,
+  "nota": 6.2,
+  "manada": [
+   {
+    "id": "2dqGsuQrxeM",
+    "canal": "Reconstrução Histórica",
+    "views": 801270,
+    "data": "2026-04-10",
+    "faz": "Vida em um castelo medieval em 1200 (IA)"
+   },
+   {
+    "id": "suV2TVrBOCg",
+    "canal": "Avesso",
+    "views": 317772,
+    "data": "2026-11-02",
+    "faz": "Castelo medieval no inverno, 1200 (IA)"
+   },
+   {
+    "id": "pu4VOIeP6ys",
+    "canal": "Durma no Passado",
+    "views": 333416,
+    "data": "2026-02-15",
+    "faz": "Sobreviver ao inverno na Idade Média (IA)"
+   },
+   {
+    "id": "vAqLAqntJ5w",
+    "canal": "Durma Com História",
+    "views": 65299,
+    "data": "2026-07-27",
+    "faz": "O que um camponês medieval fazia do amanhecer ao anoitecer (107 min, para dormir)"
+   }
+  ]
+ },
+ {
+  "slug": "piramide-operario",
+  "origem": "mundo",
+  "teste": 2,
+  "titulo_candidato": "Egito, 2560 a.C.: Você Ergue a Pirâmide e o Salário É Cerveja",
+  "thumb": "Bloco de pedra gigante na rampa ocupando metade da tela, o Turista pequeno empurrando com o rosto vermelho, seta amarela \"VOCÊ\"; capataz com jarra de cerveja; pirâmide pela metade e céu azul. Texto: \"PAGO EM CERVEJA\" (padrão A).",
+  "tema": "Operário da Grande Pirâmide de Gizé, 2560 a.C.",
+  "angulo": "Os vídeos pt são vida do faraó/Tutancâmon ou a construção em si (IA). Nós fazemos a vida do operário: convocação na cheia do Nilo, turmas com nomes engraçados (\"Amigos de Quéops\"), ração de pão e ~4 L de cerveja por dia, médico da obra, a vila dos trabalhadores; e desmontamos o mito dos escravos (Heródoto).",
+  "evidencias": [
+   {
+    "fonte": "busca 'este ano' via WARP + videos.list, 28/11/2026",
+    "numero": "termo \"como era a vida no egito antigo\": mediana 9.100 (3ª maior de mundo), p75 77.743",
+    "link": ""
+   },
+   {
+    "fonte": "Chat History (canal-base, en)",
+    "numero": "\"Why You Wouldn't Survive Ancient Egypt\" 3,94 mi: o maior vídeo da série do canal-base",
+    "link": ""
+   },
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Viagem Pelo Tempo: \"Como Eram as COZINHAS no Egito Antigo\" 251.219 views, 04/2026",
+    "link": "https://youtu.be/2pxLlitC6VI"
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 10,
+  "urgencia": 3,
+  "nota": 6.2,
+  "manada": [
+   {
+    "id": "PxVZq-Hftu8",
+    "canal": "Mundos Reimaginados",
+    "views": 143973,
+    "data": "2026-02-19",
+    "faz": "Milhões de Blocos: a construção de Gizé (IA)"
+   },
+   {
+    "id": "EOOV1H3pViI",
+    "canal": "Impérios Revelados",
+    "views": 209058,
+    "data": "2026-07-04",
+    "faz": "Assim era a vida de Tutancâmon (IA)"
+   },
+   {
+    "id": "2pxLlitC6VI",
+    "canal": "Viagem Pelo Tempo",
+    "views": 251219,
+    "data": "2026-04-22",
+    "faz": "Cozinhas no Egito antigo (IA)"
+   }
+  ]
+ },
+ {
+  "slug": "pracinha-feb-1944",
+  "origem": "brasil",
+  "teste": 3,
+  "titulo_candidato": "Itália, 1944: Você É Pracinha Brasileiro e Faz −20 °C na Montanha",
+  "thumb": "O Turista de capacete da FEB enterrado até os joelhos na neve, tremendo, com uma xícara de café congelada; Monte Castelo ao fundo sob céu claro; seta \"VOCÊ\". Texto: \"−20 °C\" (padrão C).",
+  "tema": "Inverno de 1944–45: pracinha brasileiro na neve dos Apeninos",
+  "angulo": "O Confluxo provou o formato (cartoon, 2ª pessoa) com um vídeo genérico de 8 min. Nós fazemos o recorte físico: o nordestino e o carioca que nunca viram neve, o uniforme errado para o frio, a trincheira (fox hole) aos pés de Monte Castelo, a comida americana, a cobra que fumou. Sem violência gráfica; foco na vida, não no combate.",
+  "evidencias": [
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Dentro do Sistema: \"Sua Vida Como Soldado Brasileiro na Segunda Guerra Mundial\" 395.594 views, 04/2026",
+    "link": "https://youtu.be/LyHTCLSVreM"
+   },
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Confluxo (10,4 mil inscritos, cartoon, seta \"VOCÊ\"): 643.946 views, 08/2025",
+    "link": "https://youtu.be/Xt67z9COves"
+   },
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Operação Barbarussa: \"A vida de um Pracinha Brasileiro…\" 123.367 views, 01/2026",
+    "link": "https://youtu.be/2Nd87VEBKQ0"
+   },
+   {
+    "fonte": "análise Brasil × mundo 28/11/2026",
+    "numero": "é o único tema brasileiro com prova repetida em 2ª pessoa (3 vídeos ≥ 100 mil); o resto do Brasil em 2ª pessoa tem mediana 643",
+    "link": ""
+   }
+  ],
+  "demanda": 9,
+  "encaixe": 9,
+  "urgencia": 7,
+  "nota": 8.3,
+  "manada": [
+   {
+    "id": "Xt67z9COves",
+    "canal": "Confluxo",
+    "views": 643946,
+    "data": "2025-08-16",
+    "faz": "Sua vida como um soldado brasileiro na 2ª Guerra (cartoon, 2ª pessoa, genérico, 8 min)"
+   },
+   {
+    "id": "lXswoBzCi3A",
+    "canal": "Dominância Militar",
+    "views": 260213,
+    "data": "2026-11-16",
+    "faz": "Monte Castelo pelos americanos (IA)"
+   },
+   {
+    "id": "8nvOa8J0MG8",
+    "canal": "FORÇA BRASIL",
+    "views": 422973,
+    "data": "2025-11-24",
+    "faz": "Por que os alemães temiam a infantaria brasileira"
+   }
+  ]
+ },
+ {
+  "slug": "viking-inverno",
+  "origem": "mundo",
+  "teste": 4,
+  "titulo_candidato": "Noruega Viking, 900: Você Passa 5 Meses Trancado com as Vacas",
+  "thumb": "O Turista espremido entre uma vaca e a família em volta do fogo na casa comprida, neve até o telhado, cara de quem não aguenta mais. Texto: \"5 MESES\" (padrão C) ou \"COM AS VACAS\".",
+  "tema": "Cinco meses de inverno numa casa comprida viking",
+  "angulo": "A manada faz a engenharia da casa (\"como sobreviviam a −40 °C\", Era Viking 566 mil). Nós fazemos a convivência: animais dentro aquecendo a casa, fumaça sem chaminé, comida seca e fermentada, tédio (jogos, sagas), banho de sábado (os vikings eram os limpos da Europa), a primavera e a partida dos barcos.",
+  "evidencias": [
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Era Viking (6,2 mil inscritos): \"Como os Vikings Sobreviviam a -40°C no Subsolo\" 566.207 views, 04/2026: o maior vídeo de canal pequeno no tema",
+    "link": "https://youtu.be/_xrAcsfZyE8"
+   },
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Te lo Pinto (es, cartoon): \"Cómo era Ser Cada Rango VIKINGO\" 1.025.156 views, 05/2026",
+    "link": "https://youtu.be/9cQFxB7Yp5c"
+   },
+   {
+    "fonte": "busca 'este ano', 28/11/2026",
+    "numero": "termo \"como era a vida dos vikings\": mediana 1.845, 25% ≥ 100 mil (tema de cauda: poucos vídeos grandes)",
+    "link": ""
+   }
+  ],
+  "demanda": 7,
+  "encaixe": 9,
+  "urgencia": 4,
+  "nota": 6.3,
+  "manada": [
+   {
+    "id": "_xrAcsfZyE8",
+    "canal": "Era Viking",
+    "views": 566207,
+    "data": "2026-04-05",
+    "faz": "Como os vikings sobreviviam a −40 °C no subsolo (engenharia, IA)"
+   },
+   {
+    "id": "NEFeY_V6apA",
+    "canal": "Reconstrução Histórica",
+    "views": 152878,
+    "data": "2026-05-29",
+    "faz": "Comer, dormir e sobreviver na era viking em 930 (IA)"
+   }
+  ]
+ },
+ {
+  "slug": "rio-1808-pr",
+  "origem": "brasil",
+  "titulo_candidato": "Rio, 1808: Escreveram \"P.R.\" na Sua Porta e Você Tinha 24 Horas Para Sair",
+  "thumb": "Porta da casa com \"P.R.\" pintado em vermelho em close; o Turista de pijama na calçada com a trouxa; nobre de peruca entrando com malas. Texto: \"24 HORAS\" (padrão A) ou \"A CASA ERA SUA\" (B).",
+  "tema": "Rio de Janeiro, 1808: a corte chega e confisca as casas (\"PR\" na porta)",
+  "angulo": "Os vídeos existentes são tour do palácio/da família real em IA realista (visão de cima). Nós contamos pelo carioca comum: o confisco (\"aposentadoria\") das melhores casas para abrigar de 10 a 15 mil recém-chegados (estimativas variam), o \"PR\" (Príncipe Regente) lido como \"Ponha-se na Rua\", a cidade sem esgoto que recebe a corte, o preço do aluguel. 2ª pessoa com humor; fecha no que mudou para o Brasil (porto aberto, imprensa, Banco do Brasil).",
+  "evidencias": [
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Mundos Reimaginados (109 mil inscritos): \"O Dia em que Portugal se Mudou para o Brasil\" 790.449 views, 03/2026",
+    "link": "https://youtu.be/qWPL11MOzOg"
+   },
+   {
+    "fonte": "busca 'este ano', 28/11/2026",
+    "numero": "termos vizinhos fortes: \"como era a vida no brasil império\" mediana 121.733 e \"rio de janeiro antigo\" 109.168 (quase tudo tour/reconstrução IA); mas \"rio de janeiro 1808 como era viver\" mediana 551 e a única 2ª pessoa do tema (Durma no Passado, Rio imperial) fez 7.175",
+    "link": ""
+   }
+  ],
+  "demanda": 7,
+  "encaixe": 10,
+  "urgencia": 3,
+  "nota": 5.9,
+  "manada": [
+   {
+    "id": "qWPL11MOzOg",
+    "canal": "Mundos Reimaginados",
+    "views": 790439,
+    "data": "2026-03-16",
+    "faz": "Chegada da corte, IA cinematográfica, visão histórica geral"
+   },
+   {
+    "id": "NjUJe3KLoJo",
+    "canal": "Nostalgia BRASIL",
+    "views": 290469,
+    "data": "2026-06-14",
+    "faz": "Chegada da corte, reconstrução com IA"
+   },
+   {
+    "id": "mhpsQkowTik",
+    "canal": "Nostalgia BRASIL",
+    "views": 124318,
+    "data": "2026-05-01",
+    "faz": "Vida dentro do palácio da família real, IA"
+   },
+   {
+    "id": "rV2UA-5AMJI",
+    "canal": "Reconstrução do Passado",
+    "views": 80961,
+    "data": "2026-11-17",
+    "faz": "Vida a bordo do navio que trouxe a corte, IA"
+   }
+  ]
+ },
+ {
+  "slug": "londres-1858-grande-fedor",
+  "origem": "mundo",
+  "tema": "Londres, verão de 1858 (o Grande Fedor): você vive na beira do Tâmisa, que é esgoto e é a água que você bebe",
+  "titulo_candidato": "Londres, 1858: Você Mora no Rio Mais Fedido do Mundo e Bebe Dele",
+  "thumb": "O Turista tapando o nariz com um lenço, segurando um copo de água marrom; Tâmisa verde com o Big Ben em obra ao fundo; deputado de cartola fugindo do Parlamento. Texto: \"VOCÊ BEBE ISSO\" (padrão A).",
+  "angulo": "A manada em pt é tour de casa vitoriana em IA realista (visão de cima, de quem tem criado). Nós vivemos de baixo: o operário/catador do Tâmisa no verão de 1858, o rio como esgoto e fonte de água, o cólera (John Snow, a bomba da Broad Street, 1854) e a virada: o Parlamento cheira o rio, aprova o esgoto de Bazalgette em 18 dias. Fecho: o sistema ainda funciona hoje.",
+  "evidencias": [
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Reconstrução Histórica: \"Como Era Viver em uma Casa Vitoriana na Inglaterra (1880)\" 437.200 views, 03/2026",
+    "link": "https://youtu.be/y9HduOtAzz4"
+   },
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Retrovida (1,0 mil inscritos): \"Como Era Viver em uma Casa Vitoriana em Londres (1850)\" 78.455 views, 03/2026",
+    "link": "https://youtu.be/MqTNvYo-nZs"
+   },
+   {
+    "fonte": "busca 'este ano', 28/11/2026",
+    "numero": "termo \"como era viver na londres vitoriana\": mediana 4.611 (4ª maior de mundo), 23 vídeos de 12 canais",
+    "link": ""
+   }
+  ],
+  "demanda": 7,
+  "encaixe": 9,
+  "urgencia": 3,
+  "nota": 5.7
+ },
+ {
+  "slug": "brasil-12mil-anos",
+  "origem": "brasil",
+  "titulo_candidato": "Brasil, 12.000 Anos Atrás: Você Contra uma Preguiça de 4 Toneladas",
+  "thumb": "O Turista minúsculo com lança de pedra olhando para cima; preguiça-gigante em pé (6 m) ocupando a tela; Lagoa Santa ao fundo. Texto: \"VOCÊ x 4 TONELADAS\" (padrão C).",
+  "tema": "Brasil pré-histórico: humanos contra a megafauna (preguiça gigante, tigre-dentes-de-sabre)",
+  "angulo": "Em en o \"How Long You'd Last in Every Prehistoric Era\" é o formato do ano (13,6 mi); em pt só há documentário e um cartoon genérico (\"Como os Humanos Foram Parar no Brasil?\"). Nós colocamos você no grupo de Luzia em Lagoa Santa (MG): o que comer, onde dormir (abrigos de pedra), preguiça-gigante, tigre-dentes-de-sabre, toxodonte, pinturas da Serra da Capivara.",
+  "evidencias": [
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Zoomundo: \"Como era o BRASIL na ERA CENOZOICA?\" 900.391 views, 05/2026",
+    "link": "https://youtu.be/utKwrw2dAEE"
+   },
+   {
+    "fonte": "YouTube (en)",
+    "numero": "Fossil: \"How Long You'd Last in Every Prehistoric Era\" 13.609.510 views, 08/2026",
+    "link": "https://youtu.be/nAWpLtG-kNs"
+   },
+   {
+    "fonte": "busca 'este ano', 28/11/2026",
+    "numero": "termo \"como era a vida na pré-história\": mediana 2.206 mas p75 148.252 (público de animais/ciência, não só de história)",
+    "link": ""
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 10,
+  "urgencia": 3,
+  "nota": 6.2,
+  "manada": [
+   {
+    "id": "jQSmckO11C4",
+    "canal": "Por Quê, Hein?",
+    "views": 335209,
+    "data": "2026-09-25",
+    "faz": "Como os Humanos Foram Parar no Brasil? (cartoon, migração)"
+   },
+   {
+    "id": "ezjXIf0DKt0",
+    "canal": "Antes do Brasil",
+    "views": 157145,
+    "data": "2026-11-19",
+    "faz": "Luzia: 11 mil anos, DNA (documentário)"
+   },
+   {
+    "id": "oOBOxUdJfMY",
+    "canal": "ABC Terra",
+    "views": 669651,
+    "data": "2026-08-28",
+    "faz": "Os animais mais espetaculares que já habitaram o Brasil (75 min)"
+   }
+  ]
+ },
+ {
+  "slug": "velho-oeste-1870-cowboy",
+  "origem": "mundo",
+  "tema": "Texas → Kansas, 1870: três meses numa tropa de gado como cowboy (a vida real, longe do filme)",
+  "titulo_candidato": "Velho Oeste, 1870: Você É Cowboy e Tem 2.500 Bois Para Levar a Pé",
+  "thumb": "O Turista de chapéu grande demais montado num cavalo magro, engolindo poeira atrás de um mar de bois; cozinheiro do chuck wagon batendo na panela. Texto: \"2.500 BOIS\" (padrão C).",
+  "angulo": "A manada é \"fotos raras\", diligência e a vida \"nojenta\" em lista. Nós fazemos a jornada de um vaqueiro de 19 anos numa tropa (cattle drive) do Texas até a ferrovia em Abilene: 3 meses, ~10 homens para ~2.500 cabeças, estouro de boiada à noite, rios cheios, salário pago só no fim (e gasto em 2 dias). Muitos cowboys eram negros e mexicanos: contado com fato, sem caricatura. Números a conferir na fonte própria.",
+  "evidencias": [
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Terra Sem Lei (9,5 mil inscritos): \"A Vida NOJENTA E MORTAL do Cowboy Real No Velho Oeste\" 201.255 views, 01/2026",
+    "link": "https://youtu.be/raIC4dx1WhE"
+   },
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Cristiano Escuridão (589 inscritos): \"…Velho Oeste: Você Não Sobreviveria 1 Dia!\" 75.513 views, 01/2026",
+    "link": "https://youtu.be/sk-00-DYJxU"
+   },
+   {
+    "fonte": "busca 'este ano', 28/11/2026",
+    "numero": "termo \"como era a vida no velho oeste\": mediana 5.015 (2ª maior de mundo no formato)",
+    "link": ""
+   }
+  ],
+  "demanda": 7,
+  "encaixe": 9,
+  "urgencia": 3,
+  "nota": 5.7
+ },
+ {
+  "slug": "peste-1348",
+  "origem": "mundo",
+  "titulo_candidato": "Europa, 1348: A Peste Chegou à Sua Vila e o Remédio É Cheirar Flores",
+  "thumb": "O Turista com um buquê enorme enfiado no nariz, vizinho jogando vinagre nele; vila medieval colorida, rato discreto num canto. Texto: \"REMÉDIO: FLORES\" (padrão A). Sem morte nem corpo.",
+  "tema": "A peste chega à sua vila, 1348",
+  "angulo": "A manada faz a história completa da Peste Negra e a higiene medieval. Nós fazemos o dia a dia na vila: a teoria do miasma (ar podre), buquês e vinagre, os flagelantes, quarentena (que nasce aqui: 40 dias em Ragusa, 1377), o que mudou para quem ficou (salários subiram). Atenção: a máscara de bico é do séc. XVII, não de 1348. Título e thumb sem morte.",
+  "evidencias": [
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Assim Era (26,5 mil inscritos): \"A Peste Negra — Como uma bactéria derrubou a Europa medieval\" 608.000 views, 02/2026",
+    "link": "https://youtu.be/rI1FNSy-75A"
+   },
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Crônicas de Ferro (2ª pessoa): \"Por que você não sobreviveria à higiene da Idade Média em 1348?\" 209.063 views",
+    "link": "https://youtu.be/Lw7izeRQBsI"
+   },
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Ampulheta (37,6 mil inscritos): \"PESTE NEGRA: a história completa\" 415.920 views, 11/2026",
+    "link": "https://youtu.be/P0VF4KHaBHk"
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 7,
+  "urgencia": 4,
+  "nota": 6.1,
+  "manada": [
+   {
+    "id": "P0VF4KHaBHk",
+    "canal": "Ampulheta",
+    "views": 415365,
+    "data": "2026-11-02",
+    "faz": "PESTE NEGRA: a história completa"
+   },
+   {
+    "id": "akwGqvKC6DI",
+    "canal": "Mundo sem Limite",
+    "views": 228943,
+    "data": "2026-11-14",
+    "faz": "A doença que matou mais que a Peste Negra (e chegou ao Brasil)"
+   },
+   {
+    "id": "Lw7izeRQBsI",
+    "canal": "Crônicas de Ferro",
+    "views": 209063,
+    "data": "2026-03-18",
+    "faz": "Por que você não sobreviveria à higiene da Idade Média em 1348?"
+   }
+  ]
+ },
+ {
+  "slug": "pompeia-79",
+  "origem": "mundo",
+  "tema": "Pompeia, agosto/outubro de 79 d.C.: você mora ao pé do Vesúvio, que ninguém sabia que era vulcão",
+  "titulo_candidato": "Pompeia, 79: Você Mora ao Pé do Vesúvio e Ninguém Sabe que É Vulcão",
+  "thumb": "O Turista de toga e pochete comprando pão no balcão de rua (thermopolium), despreocupado; atrás, o Vesúvio soltando uma coluna de fumaça em forma de pinheiro; seta \"VOCÊ\". Texto: \"É SÓ UMA NUVEM\" (padrão A). Sem corpos.",
+  "angulo": "A manada é tour de casa rica de Pompeia em IA realista. Nós fazemos o dia a dia do pompeiano comum (padaria, termas, grafites nas paredes, eleições pintadas no muro) com o vulcão que ninguém reconhecia como vulcão, os tremores que eram \"normais\" e o relato de Plínio, o Jovem. Clímax sugerido, sem corpos nem moldes de gesso em destaque.",
+  "evidencias": [
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Reconstrução do Passado: \"Como Era Viver Dentro de uma Casa na Pompeia em 79 d.C.\" 591.621 views, 03/2026",
+    "link": "https://youtu.be/n3RtYj3NgYM"
+   },
+   {
+    "fonte": "Chat History (canal-base, en)",
+    "numero": "série \"Why You Wouldn't Survive…\" Roma 2,40 mi (mundo romano é o 2º maior da série)",
+    "link": ""
+   }
+  ],
+  "demanda": 7,
+  "encaixe": 8,
+  "urgencia": 3,
+  "nota": 5.5
+ },
+ {
+  "slug": "castelo-cerco-1203",
+  "origem": "mundo",
+  "tema": "Château Gaillard, 1203–1204: você é o cozinheiro do castelo durante um cerco de 6 meses",
+  "titulo_candidato": "Castelo Medieval, 1203: Você É o Cozinheiro e o Cerco Já Dura 6 Meses",
+  "thumb": "O Turista de avental raspando o fundo de um caldeirão vazio; pela janela, o exército acampado e uma catapulta; castelo no alto do penhasco, céu azul. Texto: \"6 MESES\" (padrão C).",
+  "angulo": "A manada é tour de castelo (\"como era a vida num castelo medieval no ano de 1200\") visto pelo senhor. Nós ficamos na cozinha de um cerco real e datado: Château Gaillard (Normandia), Filipe II da França contra a guarnição de João Sem-Terra, set/1203–mar/1204. Despensa, racionamento, os \"bocas inúteis\" expulsos (contado com seriedade), a entrada pela latrina. Morte só sugerida. Datas e números a conferir na fonte própria.",
+  "evidencias": [
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Reconstrução Histórica: \"Como Era a Vida em um Castelo Medieval no Ano de 1200\" 801.284 views, 04/2026",
+    "link": "https://youtu.be/2dqGsuQrxeM"
+   },
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "Avesso (1,6 mil inscritos): castelo medieval no inverno 317.844 views, 11/2026",
+    "link": "https://youtu.be/suV2TVrBOCg"
+   },
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "História do Amanhã (408 inscritos): \"COMO ERA A VIDA REAL NOS CASTELOS MEDIEVAIS\" 200.706 views, 09/2026",
+    "link": ""
+   }
+  ],
+  "demanda": 9,
+  "encaixe": 9,
+  "urgencia": 3,
+  "nota": 6.2
+ },
+ {
+  "slug": "legionario-romano",
+  "origem": "mundo",
+  "titulo_candidato": "Roma, 100 d.C.: Você Foi Alistado na Legião: 25 Anos e Proibido Casar",
+  "thumb": "O Turista legionário suado carregando uma mochila gigante num pau (a \"mula de Mário\"), centurião gritando no ouvido. Texto: \"25 ANOS\" (padrão C).",
+  "tema": "Alistado na legião romana: 25 anos de serviço",
+  "angulo": "Os de pt são IA realista \"117 d.C.\" e um cartoon de 6 min sobre o último dia. Nós fazemos a carreira inteira em 2ª pessoa: alistamento, 30 kg nas costas, cavar acampamento toda noite, salário (e o mito do sal), proibição de casar até 197 d.C., a aposentadoria com terra. Humor de \"RH romano\".",
+  "evidencias": [
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "fatos simples (1,4 mil inscritos): \"O Último Dia de Serviço de um Soldado Romano\" 227.769 views, 10/2026",
+    "link": "https://youtu.be/KSefdQY5Sfk"
+   },
+   {
+    "fonte": "YouTube (en)",
+    "numero": "Hypothetically: \"What It Was Like to be Every Roman Army Rank\" 887.433 views, 02/2026",
+    "link": "https://youtu.be/0n5xG4epnY0"
+   },
+   {
+    "fonte": "busca 'este ano', 28/11/2026",
+    "numero": "termo genérico \"como era viver na roma antiga\": mediana só 335 em pt (por isso é o último): Roma precisa de recorte de papel, não de \"vida em Roma\"",
+    "link": ""
+   }
+  ],
+  "demanda": 7,
+  "encaixe": 10,
+  "urgencia": 3,
+  "nota": 5.9,
+  "manada": [
+   {
+    "id": "KSefdQY5Sfk",
+    "canal": "fatos simples",
+    "views": 227769,
+    "data": "2026-10-13",
+    "faz": "O Último Dia de Serviço de um Soldado Romano (cartoon, 6 min)"
+   },
+   {
+    "id": "fjvBrM8bTGM",
+    "canal": "História em Reconstrução",
+    "views": 26764,
+    "data": "2026-03-23",
+    "faz": "Realidade brutal da última marcha de um soldado romano, 117 d.C. (IA)"
+   },
+   {
+    "id": "R9CSTdhm_08",
+    "canal": "Fala Sério",
+    "views": 260248,
+    "data": "2026-05-12",
+    "faz": "Os Piores Trabalhos da Roma Antiga"
+   }
+  ]
+ }
+]
