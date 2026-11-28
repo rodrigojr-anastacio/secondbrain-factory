@@ -1,0 +1,9 @@
+{
+  "fonte": "NOAA OISST v2.1 (NCEI), anomalia diária 0,25° vs. climatologia 1991-2020, via NOAA PSL THREDDS (OPeNDAP); média simples das células da caixa Niño 3.4 (5°S–5°N, 170°W–120°W). Calculado em 28/11/2026 pelo job da temporada El Niño.",
+  "obs": "Média simples (sem peso por área; na faixa ±5° a diferença é desprezível). Índice diário, não o ONI (média trimestral) nem o RONI (relativo): para o roteiro, dizer 'pelo termômetro tradicional, na média diária'.",
+  "2026": {"2026-11-07": 3.39, "2026-11-26": 3.48, "max_nov_2026": 3.70},
+  "1982": {"max_nov_dez": 2.76, "data_max": "1982-12-26"},
+  "1997": {"max_nov": 2.58, "max_dez": 2.44},
+  "2015": {"max_nov": 3.29, "max_dez": 2.94, "2015-11-30": 2.99},
+  "2023": {"max_nov": 2.36}
+}

@@ -1,0 +1,769 @@
+[
+ {
+  "id": "5OZV77PbSw8",
+  "rotulo": "005-em-relevo",
+  "titulo": "Por que a chuva da SERRA alagou PORTO ALEGRE?",
+  "canal": "Em Relevo",
+  "dur_s": 588,
+  "views": 130,
+  "inscritos": 3,
+  "upload": "20261118",
+  "capitulos": [
+   [
+    0,
+    "O hook: a chuva da serra"
+   ],
+   [
+    35,
+    "O mapa: os rios do Guaíba"
+   ],
+   [
+    75,
+    "1 · A chuva da serra"
+   ],
+   [
+    182,
+    "2 · O lago que recebe tudo"
+   ],
+   [
+    272,
+    "3 · A saída lenta"
+   ],
+   [
+    334,
+    "4 · O que cedeu"
+   ],
+   [
+    474,
+    "A resposta"
+   ]
+  ],
+  "n_cortes": 36,
+  "cortes_min": {
+   "0-30s": 4.0,
+   "30s-2min": 3.3,
+   "2min-meio": 2.1,
+   "meio-fim-1min": 5.1,
+   "ultimo_min": 3.0,
+   "total": 3.7
+  },
+  "n_mudancas015": 70,
+  "mudancas015_min": {
+   "0-30s": 12.0,
+   "30s-2min": 6.0,
+   "2min-meio": 5.5,
+   "meio-fim-1min": 8.2,
+   "ultimo_min": 7.0,
+   "total": 7.1
+  },
+  "plano_medio_s": 15.9,
+  "silencios_n": 0,
+  "silencios_por_min": 0.0,
+  "silencio_total_s": 0,
+  "piso_db_p10": -32.2,
+  "mediana_db": -17.5,
+  "passo_frames": 10,
+  "grades": [
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/005-em-relevo-grade1.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/005-em-relevo-grade2.jpg"
+  ],
+  "dif": {
+   "mudanca_forte_min": 8.7,
+   "mudanca_media_min": 14.2,
+   "parado_pct": 6.1,
+   "mov_mediano": 0.0108,
+   "mud_media_trechos": {
+    "0-30s": 26.0,
+    "30s-2min": 16.0,
+    "2min-meio": 14.5,
+    "meio-fim": 12.3
+   }
+  }
+ },
+ {
+  "id": "A_DD4hC8UoQ",
+  "rotulo": "br-cosmosbrutal",
+  "titulo": "O SUPER El Niño Visto do Espaço: o Que Vai Acontecer com o Brasil",
+  "canal": "Cosmos Brutal",
+  "dur_s": 1173,
+  "views": 100318,
+  "inscritos": 844,
+  "upload": "20261111",
+  "capitulos": [
+   [
+    0,
+    "O Pacífico nunca esteve tão quente"
+   ],
+   [
+    100,
+    "O que é o El Niño"
+   ],
+   [
+    227,
+    "Por que este é diferente"
+   ],
+   [
+    301,
+    "Os El Niños que entraram para a história"
+   ],
+   [
+    422,
+    "O mundo já está sentindo"
+   ],
+   [
+    574,
+    "O Brasil já está sendo atingido"
+   ],
+   [
+    696,
+    "Região por região: o que esperar"
+   ],
+   [
+    725,
+    "Sul: a linha de frente"
+   ],
+   [
+    773,
+    "Norte: o fogo e a seca"
+   ],
+   [
+    817,
+    "Nordeste: a segunda onda"
+   ],
+   [
+    861,
+    "Onde o risco é menor"
+   ],
+   [
+    922,
+    "Vai ter apagão?"
+   ],
+   [
+    992,
+    "Comida e saúde"
+   ],
+   [
+    1045,
+    "O que fazer agora"
+   ],
+   [
+    1117,
+    "O pico chega em dezembro"
+   ]
+  ],
+  "n_cortes": 1,
+  "cortes_min": {
+   "0-30s": 0.0,
+   "30s-2min": 0.0,
+   "2min-meio": 0.0,
+   "meio-fim-1min": 0.1,
+   "ultimo_min": 0.0,
+   "total": 0.1
+  },
+  "n_mudancas015": 4,
+  "mudancas015_min": {
+   "0-30s": 0.0,
+   "30s-2min": 0.0,
+   "2min-meio": 0.0,
+   "meio-fim-1min": 0.5,
+   "ultimo_min": 0.0,
+   "total": 0.2
+  },
+  "plano_medio_s": 586.5,
+  "silencios_n": 0,
+  "silencios_por_min": 0.0,
+  "silencio_total_s": 0,
+  "piso_db_p10": -37.3,
+  "mediana_db": -20.3,
+  "passo_frames": 10,
+  "grades": [
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/br-cosmosbrutal-grade1.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/br-cosmosbrutal-grade2.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/br-cosmosbrutal-grade3.jpg"
+  ],
+  "dif": {
+   "mudanca_forte_min": 1.4,
+   "mudanca_media_min": 3.4,
+   "parado_pct": 75.3,
+   "mov_mediano": 0.0013,
+   "mud_media_trechos": {
+    "0-30s": 4.0,
+    "30s-2min": 4.7,
+    "2min-meio": 2.6,
+    "meio-fim": 3.9
+   }
+  }
+ },
+ {
+  "id": "FeSLzHvlkbo",
+  "rotulo": "002-em-relevo",
+  "titulo": "El Niño 2026 vai ser o mais forte da história?",
+  "canal": "Em Relevo",
+  "dur_s": 730,
+  "views": 163,
+  "inscritos": 3,
+  "upload": "20261112",
+  "capitulos": [
+   [
+    0,
+    "Fumaça no Norte, chuva no Sul, mar quente: a pergunta"
+   ],
+   [
+    62,
+    "O que é o El Niño (a gangorra do Pacífico)"
+   ],
+   [
+    169,
+    "É mesmo um Super El Niño? O recorde e o termômetro novo"
+   ],
+   [
+    324,
+    "O que muda na sua região"
+   ],
+   [
+    378,
+    "Norte: seca, fogo e fumaça"
+   ],
+   [
+    426,
+    "Nordeste: seca no semiárido"
+   ],
+   [
+    449,
+    "Centro-Oeste e Sudeste: calor e reservatórios"
+   ],
+   [
+    486,
+    "Sul: chuva, enchentes e tornados"
+   ],
+   [
+    579,
+    "O mundo: 2027 pode ser o ano mais quente"
+   ],
+   [
+    600,
+    "Até quando vai o El Niño?"
+   ],
+   [
+    664,
+    "O que fazer na sua região"
+   ],
+   [
+    700,
+    "A resposta"
+   ]
+  ],
+  "n_cortes": 7,
+  "cortes_min": {
+   "0-30s": 0.0,
+   "30s-2min": 0.0,
+   "2min-meio": 0.5,
+   "meio-fim-1min": 1.0,
+   "ultimo_min": 0.0,
+   "total": 0.6
+  },
+  "n_mudancas015": 41,
+  "mudancas015_min": {
+   "0-30s": 2.0,
+   "30s-2min": 0.7,
+   "2min-meio": 2.2,
+   "meio-fim-1min": 5.1,
+   "ultimo_min": 4.0,
+   "total": 3.4
+  },
+  "plano_medio_s": 91.2,
+  "silencios_n": 2,
+  "silencios_por_min": 0.16,
+  "silencio_total_s": 1.4,
+  "piso_db_p10": -32.1,
+  "mediana_db": -17.6,
+  "passo_frames": 10,
+  "grades": [
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/002-em-relevo-grade1.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/002-em-relevo-grade2.jpg"
+  ],
+  "dif": {
+   "mudanca_forte_min": 5.5,
+   "mudanca_media_min": 12.8,
+   "parado_pct": 3.8,
+   "mov_mediano": 0.0121,
+   "mud_media_trechos": {
+    "0-30s": 30.0,
+    "30s-2min": 10.0,
+    "2min-meio": 11.5,
+    "meio-fim": 13.0
+   }
+  }
+ },
+ {
+  "id": "GIlODBvMMKE",
+  "rotulo": "br-singularidade",
+  "titulo": "O Pacífico está PARTINDO o BRASIL em DOIS",
+  "canal": "CanalSingularidade",
+  "dur_s": 645,
+  "views": 2200294,
+  "inscritos": 12500,
+  "upload": "20261124",
+  "capitulos": [
+   [
+    0,
+    "Seca no norte, enchente no sul"
+   ],
+   [
+    56,
+    "O número que ninguém tinha visto"
+   ],
+   [
+    90,
+    "O que \"super\" significa"
+   ],
+   [
+    115,
+    "Os três grandes e o empate com 1997"
+   ],
+   [
+    146,
+    "O calor escondido no oceano"
+   ],
+   [
+    203,
+    "As ondas de Kelvin"
+   ],
+   [
+    216,
+    "Por que os efeitos chegam agora"
+   ],
+   [
+    238,
+    "O El Niño parte o Brasil em dois"
+   ],
+   [
+    282,
+    "1983: as enchentes do Sul"
+   ],
+   [
+    319,
+    "1998: o fogo em Roraima"
+   ],
+   [
+    348,
+    "2016 e 2023: os rios da Amazônia"
+   ],
+   [
+    380,
+    "O detalhe que quase ninguém conta"
+   ],
+   [
+    417,
+    "O que já está acontecendo"
+   ],
+   [
+    461,
+    "El Niño contra o vórtice polar"
+   ],
+   [
+    503,
+    "O dia mais longo"
+   ],
+   [
+    553,
+    "Como isso é medido"
+   ],
+   [
+    583,
+    "Fatos, não pânico"
+   ]
+  ],
+  "n_cortes": 0,
+  "cortes_min": {
+   "0-30s": 0.0,
+   "30s-2min": 0.0,
+   "2min-meio": 0.0,
+   "meio-fim-1min": 0.0,
+   "ultimo_min": 0.0,
+   "total": 0.0
+  },
+  "n_mudancas015": 2,
+  "mudancas015_min": {
+   "0-30s": 0.0,
+   "30s-2min": 0.0,
+   "2min-meio": 0.0,
+   "meio-fim-1min": 0.2,
+   "ultimo_min": 0.0,
+   "total": 0.1
+  },
+  "plano_medio_s": 645.0,
+  "silencios_n": 6,
+  "silencios_por_min": 0.56,
+  "silencio_total_s": 3.9,
+  "piso_db_p10": -48.7,
+  "mediana_db": -26.4,
+  "passo_frames": 10,
+  "grades": [
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/br-singularidade-grade1.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/br-singularidade-grade2.jpg"
+  ],
+  "dif": {
+   "mudanca_forte_min": 0.6,
+   "mudanca_media_min": 3.0,
+   "parado_pct": 54.8,
+   "mov_mediano": 0.0024,
+   "mud_media_trechos": {
+    "0-30s": 8.0,
+    "30s-2min": 1.3,
+    "2min-meio": 4.1,
+    "meio-fim": 2.2
+   }
+  }
+ },
+ {
+  "id": "WiRLNEl-4bk",
+  "rotulo": "en-reallifelore",
+  "titulo": "Why The Nepal Flood Was WAY Scarier Than You Think",
+  "canal": "RealLifeLore",
+  "dur_s": 1810,
+  "views": 2366268,
+  "inscritos": 7930000,
+  "upload": "20260919",
+  "capitulos": [],
+  "n_cortes": 69,
+  "cortes_min": {
+   "0-30s": 2.0,
+   "30s-2min": 3.3,
+   "2min-meio": 2.2,
+   "meio-fim-1min": 1.9,
+   "ultimo_min": 7.0,
+   "total": 2.3
+  },
+  "n_mudancas015": 486,
+  "mudancas015_min": {
+   "0-30s": 8.0,
+   "30s-2min": 50.7,
+   "2min-meio": 15.0,
+   "meio-fim-1min": 13.6,
+   "ultimo_min": 19.0,
+   "total": 16.1
+  },
+  "plano_medio_s": 25.9,
+  "silencios_n": 25,
+  "silencios_por_min": 0.83,
+  "silencio_total_s": 18.0,
+  "piso_db_p10": -42.3,
+  "mediana_db": -21.6,
+  "passo_frames": 15,
+  "grades": [
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/en-reallifelore-grade1.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/en-reallifelore-grade2.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/en-reallifelore-grade3.jpg"
+  ],
+  "dif": {
+   "mudanca_forte_min": 14.4,
+   "mudanca_media_min": 32.6,
+   "parado_pct": 10.3,
+   "mov_mediano": 0.0236,
+   "mud_media_trechos": {
+    "0-30s": 6.0,
+    "30s-2min": 49.3,
+    "2min-meio": 29.7,
+    "meio-fim": 34.3
+   }
+  }
+ },
+ {
+  "id": "_WbhI7U6ETA",
+  "rotulo": "es-elmecanismo",
+  "titulo": "¿Por Qué Este Súper Niño Es El Más Peligroso De La Historia?",
+  "canal": "El Mecanismo",
+  "dur_s": 691,
+  "views": 2271518,
+  "inscritos": 51900,
+  "upload": "20261003",
+  "capitulos": [
+   [
+    0,
+    "La cifra que nadie había visto"
+   ],
+   [
+    65,
+    "Qué significa de verdad \"súper\""
+   ],
+   [
+    170,
+    "Lo que esconde el océano por dentro"
+   ],
+   [
+    265,
+    "El mar que se levanta"
+   ],
+   [
+    341,
+    "El desierto que se convirtió en lago"
+   ],
+   [
+    418,
+    "Lo que hicieron los anteriores, país por país"
+   ],
+   [
+    545,
+    "El día que dura más"
+   ],
+   [
+    638,
+    "Datos, no pánico"
+   ]
+  ],
+  "n_cortes": 0,
+  "cortes_min": {
+   "0-30s": 0.0,
+   "30s-2min": 0.0,
+   "2min-meio": 0.0,
+   "meio-fim-1min": 0.0,
+   "ultimo_min": 0.0,
+   "total": 0.0
+  },
+  "n_mudancas015": 0,
+  "mudancas015_min": {
+   "0-30s": 0.0,
+   "30s-2min": 0.0,
+   "2min-meio": 0.0,
+   "meio-fim-1min": 0.0,
+   "ultimo_min": 0.0,
+   "total": 0.0
+  },
+  "plano_medio_s": 691.0,
+  "silencios_n": 4,
+  "silencios_por_min": 0.35,
+  "silencio_total_s": 3.3,
+  "piso_db_p10": -39.7,
+  "mediana_db": -18.5,
+  "passo_frames": 10,
+  "grades": [
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/es-elmecanismo-grade1.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/es-elmecanismo-grade2.jpg"
+  ],
+  "dif": {
+   "mudanca_forte_min": 3.4,
+   "mudanca_media_min": 7.5,
+   "parado_pct": 64.8,
+   "mov_mediano": 0.0013,
+   "mud_media_trechos": {
+    "0-30s": 28.0,
+    "30s-2min": 2.7,
+    "2min-meio": 7.5,
+    "meio-fim": 7.0
+   }
+  }
+ },
+ {
+  "id": "gkkqmtbOwmE",
+  "rotulo": "br-soucurioso",
+  "titulo": "O El Niño de 2026 NÃO é o Que Você Pensa",
+  "canal": "Sou curioso?!",
+  "dur_s": 1548,
+  "views": 1102906,
+  "inscritos": 11700,
+  "upload": "20261006",
+  "capitulos": [],
+  "n_cortes": 386,
+  "cortes_min": {
+   "0-30s": 14.0,
+   "30s-2min": 14.0,
+   "2min-meio": 15.1,
+   "meio-fim-1min": 15.1,
+   "ultimo_min": 13.0,
+   "total": 15.0
+  },
+  "n_mudancas015": 593,
+  "mudancas015_min": {
+   "0-30s": 16.0,
+   "30s-2min": 20.0,
+   "2min-meio": 24.7,
+   "meio-fim-1min": 22.7,
+   "ultimo_min": 16.0,
+   "total": 23.0
+  },
+  "plano_medio_s": 4.0,
+  "silencios_n": 1,
+  "silencios_por_min": 0.04,
+  "silencio_total_s": 0.7,
+  "piso_db_p10": -40.0,
+  "mediana_db": -25.7,
+  "passo_frames": 15,
+  "grades": [
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/br-soucurioso-grade1.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/br-soucurioso-grade2.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/br-soucurioso-grade3.jpg"
+  ],
+  "dif": {
+   "mudanca_forte_min": 18.9,
+   "mudanca_media_min": 34.0,
+   "parado_pct": 2.8,
+   "mov_mediano": 0.0252,
+   "mud_media_trechos": {
+    "0-30s": 24.0,
+    "30s-2min": 34.7,
+    "2min-meio": 32.5,
+    "meio-fim": 35.6
+   }
+  }
+ },
+ {
+  "id": "u5F175REX_U",
+  "rotulo": "en-undertheheadline",
+  "titulo": "Nepal Floods 2026 Explained: What Caused the Deadly Flash Flood?",
+  "canal": "UnderTheHeadline",
+  "dur_s": 751,
+  "views": 4116396,
+  "inscritos": 16600,
+  "upload": "20260828",
+  "capitulos": [
+   [
+    0,
+    "A mountain comes apart"
+   ],
+   [
+    538,
+    "Why there was no warning"
+   ],
+   [
+    613,
+    "Why this keeps happening to the same river"
+   ],
+   [
+    684,
+    "What nobody knows yet"
+   ]
+  ],
+  "n_cortes": 4,
+  "cortes_min": {
+   "0-30s": 0.0,
+   "30s-2min": 0.7,
+   "2min-meio": 0.0,
+   "meio-fim-1min": 0.6,
+   "ultimo_min": 0.0,
+   "total": 0.3
+  },
+  "n_mudancas015": 29,
+  "mudancas015_min": {
+   "0-30s": 26.0,
+   "30s-2min": 2.0,
+   "2min-meio": 1.6,
+   "meio-fim-1min": 1.1,
+   "ultimo_min": 0.0,
+   "total": 2.3
+  },
+  "plano_medio_s": 150.2,
+  "silencios_n": 59,
+  "silencios_por_min": 4.71,
+  "silencio_total_s": 58.1,
+  "piso_db_p10": -48.7,
+  "mediana_db": -25.4,
+  "passo_frames": 10,
+  "grades": [
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/en-undertheheadline-grade1.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/en-undertheheadline-grade2.jpg"
+  ],
+  "dif": {
+   "mudanca_forte_min": 2.7,
+   "mudanca_media_min": 7.9,
+   "parado_pct": 74.9,
+   "mov_mediano": 0.0,
+   "mud_media_trechos": {
+    "0-30s": 50.0,
+    "30s-2min": 10.0,
+    "2min-meio": 8.2,
+    "meio-fim": 3.8
+   }
+  }
+ },
+ {
+  "id": "vfIaNeGVaVo",
+  "rotulo": "en-thelastday",
+  "titulo": "Nepal's 2026 Disaster Explained: The Glacier That Wiped Out a Valley",
+  "canal": "The Last Day",
+  "dur_s": 1159,
+  "views": 5300398,
+  "inscritos": 37700,
+  "upload": "20260904",
+  "capitulos": [
+   [
+    0,
+    "The Morning of August 26, 2026"
+   ],
+   [
+    86,
+    "Why the Himalayas are Unstable"
+   ],
+   [
+    187,
+    "A History of Catastrophe in Langtang"
+   ],
+   [
+    231,
+    "The Mechanics of a Debris Flow"
+   ],
+   [
+    363,
+    "A Wall of Water: The Impact on Rasua District"
+   ],
+   [
+    448,
+    "The Second Threat: The Debris Dam"
+   ],
+   [
+    565,
+    "The Aftermath: A Logistical and Human Crisis"
+   ],
+   [
+    790,
+    "Cascading Hazards: The Cycle Continues"
+   ],
+   [
+    919,
+    "A Forecast for the Future"
+   ]
+  ],
+  "n_cortes": 253,
+  "cortes_min": {
+   "0-30s": 6.0,
+   "30s-2min": 14.7,
+   "2min-meio": 12.1,
+   "meio-fim-1min": 13.9,
+   "ultimo_min": 15.0,
+   "total": 13.1
+  },
+  "n_mudancas015": 325,
+  "mudancas015_min": {
+   "0-30s": 22.0,
+   "30s-2min": 16.7,
+   "2min-meio": 16.1,
+   "meio-fim-1min": 17.4,
+   "ultimo_min": 15.0,
+   "total": 16.8
+  },
+  "plano_medio_s": 4.6,
+  "silencios_n": 0,
+  "silencios_por_min": 0.0,
+  "silencio_total_s": 0,
+  "piso_db_p10": -27.5,
+  "mediana_db": -18.0,
+  "passo_frames": 10,
+  "grades": [
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/en-thelastday-grade1.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/en-thelastday-grade2.jpg",
+   "/home/hermes/workspace/fabrica-youtube/canais/em-relevo/temporada-el-nino/retencao/frames/en-thelastday-grade3.jpg"
+  ],
+  "dif": {
+   "mudanca_forte_min": 18.6,
+   "mudanca_media_min": 32.8,
+   "parado_pct": 19.9,
+   "mov_mediano": 0.0187,
+   "mud_media_trechos": {
+    "0-30s": 68.0,
+    "30s-2min": 30.0,
+    "2min-meio": 34.6,
+    "meio-fim": 30.1
+   }
+  }
+ }
+]

@@ -1,0 +1,164 @@
+[
+ {
+  "slug": "el-nino-pacifico-passou-1997-2015",
+  "tema": "Super El Niño: o Pacífico passou 1997 e 2015 — o que isso já faz com o Brasil",
+  "titulo_candidato": "O Pacífico passou 1997 e 2015: o que o Super El Niño já faz com o Brasil",
+  "angulo": "recorde medido no dado bruto NOAA (diário e por área: ≥3 °C maior que o Brasil, ≥2 °C dobro de 2015) + virada do RONI + IMERG out–nov no Brasil",
+  "demanda": 9,
+  "encaixe": 9,
+  "urgencia": 10,
+  "janela_ate": "2027-01-15",
+  "evidencias": [
+   {
+    "url": "https://youtu.be/A_DD4hC8UoQ",
+    "views": 100323,
+    "titulo": "O SUPER El Niño Visto do Espaço: o Que Vai Acontecer com o Brasil",
+    "canal": "Cosmos Brutal",
+    "lido_em": "2026-11-28"
+   },
+   {
+    "url": "https://youtu.be/JhdTfeS_ZLw",
+    "views": 178394,
+    "titulo": "Super El Niño bate recorde e deve se intensificar até dezembro",
+    "canal": "Olhar Digital",
+    "lido_em": "2026-11-28"
+   }
+  ],
+  "riscos": "embalagem refeita na etapa 1 (ver temporada-el-nino/embalagem/EMBALAGEM.md); sem alarmismo; probabilidade com fonte"
+ },
+ {
+  "slug": "el-nino-roraima-seca",
+  "tema": "Super El Niño: por que Roraima seca quando o resto da Amazônia chove",
+  "titulo_candidato": "Super El Niño: por que Roraima seca quando o resto da Amazônia chove",
+  "angulo": "calendário invertido de Roraima (acima do Equador) + rio Branco (ANA) + fogo de 1998",
+  "demanda": 6,
+  "encaixe": 8,
+  "urgencia": 9,
+  "janela_ate": "2027-02-28",
+  "evidencias": [
+   {
+    "url": "https://youtu.be/yXozuH1WBV0",
+    "views": 59875,
+    "titulo": "El Niño: Amazonas decreta emergência ambiental em todo o território",
+    "canal": "CNN Brasil",
+    "lido_em": "2026-11-28"
+   },
+   {
+    "url": "https://youtu.be/rMCMsa2hNBQ",
+    "views": 18462,
+    "titulo": "AMAZONAS SE PREPARA PARA POSSÍVEL EL NIÑO MAIS FORTE DA DÉCADA",
+    "canal": "TV A Crítica",
+    "lido_em": "2026-11-28"
+   }
+  ],
+  "riscos": "embalagem refeita na etapa 1 (ver temporada-el-nino/embalagem/EMBALAGEM.md); sem alarmismo; probabilidade com fonte"
+ },
+ {
+  "slug": "el-nino-calor-sudeste",
+  "tema": "O calor do verão do Super El Niño no Sudeste e no Centro-Oeste (frente fria que não chega)",
+  "titulo_candidato": "A frente fria que não chega: o Super El Niño no verão do Sudeste",
+  "angulo": "anomalia MODIS LST + frentes presas no Sul (GOES); substitui o item 29",
+  "demanda": 8,
+  "encaixe": 7,
+  "urgencia": 9,
+  "janela_ate": "2027-02-28",
+  "evidencias": [
+   {
+    "url": "https://youtu.be/NwI-KXTC8as",
+    "views": 423115,
+    "titulo": "Calor e estiagem prolongada: El Niño deve atingir pico na virada do ano",
+    "canal": "O POVO",
+    "lido_em": "2026-11-28"
+   },
+   {
+    "url": "https://youtu.be/JSk7yLFyKFo",
+    "views": 223678,
+    "titulo": "El Niño impulsiona onda de calor nos próximos dias",
+    "canal": "CNN Brasil",
+    "lido_em": "2026-11-28"
+   }
+  ],
+  "riscos": "embalagem refeita na etapa 1 (ver temporada-el-nino/embalagem/EMBALAGEM.md); sem alarmismo; probabilidade com fonte"
+ },
+ {
+  "slug": "el-nino-rio-iguacu",
+  "tema": "Rio Iguaçu: por que o El Niño enche o Iguaçu (1983 e a cheia de set–out/2026)",
+  "titulo_candidato": "O rio Iguaçu que passou dos 10 metros no El Niño de 1983",
+  "angulo": "bacia do Iguaçu em relevo + régua de União da Vitória (1983) + cheia de set/2026 e Cataratas 10× em out/2026",
+  "demanda": 7,
+  "encaixe": 9,
+  "urgencia": 8,
+  "janela_ate": "2027-01-31",
+  "evidencias": [
+   {
+    "url": "https://youtu.be/_Kq9AGjjlSM",
+    "views": 3666047,
+    "titulo": "Iguazu Falls… hits record 10 times normal water flow",
+    "canal": "Guardian",
+    "lido_em": "2026-11-28"
+   },
+   {
+    "url": "https://youtu.be/ke75BeTAm4w",
+    "views": 334765,
+    "titulo": "Primeira grande onda de tempestades do El Niño trará estragos",
+    "canal": "MetSul",
+    "lido_em": "2026-11-28"
+   }
+  ],
+  "riscos": "embalagem refeita na etapa 1 (ver temporada-el-nino/embalagem/EMBALAGEM.md); sem alarmismo; probabilidade com fonte"
+ },
+ {
+  "slug": "el-nino-vai-faltar-luz",
+  "tema": "Vai faltar luz no Brasil com o Super El Niño? (reservatórios bacia por bacia)",
+  "titulo_candidato": "Vai faltar luz no Brasil com o Super El Niño?",
+  "angulo": "ONS por subsistema; Itaipu vertendo × usinas do Norte",
+  "demanda": 6,
+  "encaixe": 7,
+  "urgencia": 8,
+  "janela_ate": "2027-02-28",
+  "evidencias": [
+   {
+    "url": "https://youtu.be/B30ERcYSZho",
+    "views": 50834,
+    "titulo": "Temporais no Sul e apagão de 3 dias no interior de SP sinalizam impacto do Super El Niño",
+    "canal": "TV Cultura",
+    "lido_em": "2026-11-28"
+   },
+   {
+    "url": "https://youtu.be/2i3vU4voCI8",
+    "views": 143109,
+    "titulo": "Clima extremo: São Paulo corre para se adaptar ao El Niño",
+    "canal": "Metrópoles",
+    "lido_em": "2026-11-28"
+   }
+  ],
+  "riscos": "embalagem refeita na etapa 1 (ver temporada-el-nino/embalagem/EMBALAGEM.md); sem alarmismo; probabilidade com fonte"
+ },
+ {
+  "slug": "el-nino-sertao-quadra",
+  "tema": "Por que o Sertão fica sem chuva quando o Pacífico esquenta (quadra chuvosa de 2027)",
+  "titulo_candidato": "Por que o Sertão fica sem chuva quando o Pacífico esquenta",
+  "angulo": "calendário da ZCIT + açudes (Funceme/ANA) em relevo",
+  "demanda": 7,
+  "encaixe": 8,
+  "urgencia": 7,
+  "janela_ate": "2027-03-31",
+  "evidencias": [
+   {
+    "url": "https://youtu.be/Kvj7-dthfPI",
+    "views": 217233,
+    "titulo": "Ninguém Imagina o Que o El Niño Pode Fazer com o Nordeste do Brasil",
+    "canal": "Chão do Nordeste",
+    "lido_em": "2026-11-28"
+   },
+   {
+    "url": "https://youtu.be/OhSbHSI5Urc",
+    "views": 22172,
+    "titulo": "O que pode acontecer com o Ceará se o super El Niño chegar com força total?",
+    "canal": "Diário do Nordeste",
+    "lido_em": "2026-11-28"
+   }
+  ],
+  "riscos": "embalagem refeita na etapa 1 (ver temporada-el-nino/embalagem/EMBALAGEM.md); sem alarmismo; probabilidade com fonte"
+ }
+]

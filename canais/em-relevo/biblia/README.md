@@ -2,6 +2,8 @@
 
 **O que é:** clima e geografia do **Brasil** explicados num **mapa 3D com relevo real/satélite**, com dados, contadores e **fotos reais com licença**. Idioma **pt-BR**. Configuração técnica em [`../canal.yaml`](../canal.yaml); identidade (logo, capa, cores, fontes, descrição do canal) em `pesquisa/canal-clima-2026-11/identidade/LEIA.md`; decisão e números em `pesquisa/canal-clima-2026-11/RELATORIO.md` (08/11/2026). Montada em 16/11/2026 a partir de `pesquisa/canal-clima-2026-11/` (BRIEF `~/workspace/referencias/BRIEF-em-relevo-padrao.md`, decisão do Rodrigo de 16/11). Esta bíblia **prevalece** sobre `conhecimento/` (só regras gerais).
 
+**Temporada El Niño (28/11/2026): proposta, aguarda aprovação** — `../temporada-el-nino/PROPOSTA.md`; seções "Temporada El Niño — proposta" em `roteiro.md`, `titulo.md` e `thumb.md`.
+
 **Arquivos:** README (este) · [`roteiro.md`](roteiro.md) · [`titulo.md`](titulo.md) · [`thumb.md`](thumb.md) · [`visual.md`](visual.md) · [`voz.md`](voz.md).
 
 ## Identidade, público e promessa
