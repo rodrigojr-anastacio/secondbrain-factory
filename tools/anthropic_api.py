@@ -36,6 +36,10 @@ APELIDOS = {"opus": "claude-opus-5-5", "sonnet": "claude-sonnet-5-5", "haiku": "
 # grupos de teto: servico em financas.consumo começa com um destes prefixos
 TETOS = {"rotinas": (50.0, ("rotina:", "batch:")), "qa": (25.0, ("preqa",)),
          "dev": (25.0, ("dev:",))}
+# 28/11/2026 (Rodrigo): o bônus de US$ 100/mês da API não pode sobrar; pesquisas (grupo dev) usam tudo o que
+# rotinas e qa não usaram. Teto efetivo do dev = BONUS_MES - gasto(rotinas) - gasto(qa) - RESERVA_ROTINAS.
+BONUS_MES = 100.0
+RESERVA_ROTINAS = 10.0  # folga para as rotinas/QA do resto do mês
 
 
 class TetoExcedido(RuntimeError):
@@ -110,6 +114,11 @@ def gasto_mes(grupo, quando=None):
 def checar_teto(grupo, previsto=0.0):
     """Levanta TetoExcedido se gasto do mês + previsto passar do teto do grupo. Se o banco falhar, avisa e deixa seguir."""
     teto, _ = TETOS[grupo]
+    if grupo == "dev":
+        try:
+            teto = max(teto, BONUS_MES - gasto_mes("rotinas") - gasto_mes("qa") - RESERVA_ROTINAS)
+        except Exception:  # noqa: BLE001
+            pass
     if os.environ.get("FABRICA_TETO_TESTE"):  # só para teste do fallback: teto artificial em US$
         teto = float(os.environ["FABRICA_TETO_TESTE"])
     try:
