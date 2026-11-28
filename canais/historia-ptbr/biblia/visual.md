@@ -77,3 +77,11 @@ Cena de 711 (chegada dos muçulmanos) com o sufixo "al-Andalus" gerou Alhambra e
 
 ## 017 Cuba (23/11/2026)
 Cenas **abstratas** (balança, mão com contrato, mesa com moedas, correia, lupa no contrato) e cenas com rei/mercador sem lugar nomeado herdam as refs do Egito: vieram com turbante, faraó e bazar árabe em 8 de 206 imagens. Regra: todo prompt, mesmo de objeto, leva fundo creme liso + roupa de época + `NO turbans, NO pharaoh headdress, NO crowns, NO domes`. A prancha completa antes do pré-QA pega (os 100 stills do pré-QA só amostram 1 em 3 planos). Cota `imagegen_premium` do Codex: ~40 imagens por janela (reset ~2 h depois). [ETAPA2.md 017]
+
+## v3 PROPOSTA (28/11/2026, aguarda aprovação do Rodrigo): o que muda no "como era viver"
+O estilo dos bonequinhos, o motor (Codex), o ritmo de planos e a trilha **não mudam**. Muda o elenco fixo e o texto na tela (dispositivos em `roteiro.md`):
+- **Personagens recorrentes (folha de modelo única, reusada em todo vídeo):** o **Turista** (o "você": bonequinho de cabeça redonda, chinelo, bermuda, camiseta lisa na cor do canal e pochete) e o **Despachante do Tempo** (bonequinho de repartição, gravata, prancheta e carimbo). Gerar 1 folha de modelo de cada no 1º vídeo v3 e passar como referência nas cenas em que aparecem (o Turista deve ser reconhecível em todos os planos). O Turista sempre fora de lugar na época (o chinelo é a piada visual constante).
+- **HUD:** cronômetro **"VOCÊ DUROU: N dias"** no canto superior direito (código, Libre Caslon sobre placa de papiro, como o cartão de data), que salta nos reinícios e no clímax. Placa **"TENTE DE NOVO"** no apagão; som de fita voltando no **"Rebobina."**. Placa com o nome da doença (letreiro) quando o Turista espirra.
+- **Morte só sugerida:** apagão, chinelo sozinho no chão, cronômetro parado; nunca corpo, sangue ou ferimento.
+- **Sai da v2:** placa "CAPÍTULO N" (os blocos v3 não são eras; no máximo um título curto de bloco, opcional). Fica o cartão de data/lugar.
+- **Escravidão e povos indígenas/africanos:** dignidade, sem caricatura, sem gag visual; cenas de dor sem violência explícita (regras do 005 acima continuam).

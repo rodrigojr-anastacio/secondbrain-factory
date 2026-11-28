@@ -1,8 +1,14 @@
 # Bíblia: História em minutos (historia-ptbr)
 
+> **⚠️ v3 PROPOSTA (28/11/2026), aguarda aprovação do Rodrigo: o canal muda de "história de país" para "como era viver / você não sobreviveria".** Decisão do Rodrigo (28/11): bonequinhos, Brasil no centro quando fizer sentido, 1 vídeo/semana, 12–15 min, **nome do canal continua "História em minutos"**; série de países encerrada. Método dele: canal-base gringo muito bombado com a **forma** modelada (nunca o texto; detector de similaridade + crivo de ângulo), título/palavra-chave que o nicho demanda e thumbs fortes.
+> - **Canal-base:** **Chat History** ("Why You Wouldn't Survive…", 1,15 mi de inscritos, série com mediana ~2 mi, bonequinhos 2D); reserva **Bernard** ("Why It Sucks to Be a…"); referência de contador/título **Fossil** (13,6 mi). Estudo: `../v3-proposta/ANATOMIA-canal-base.md`.
+> - **Arquivos v3:** [`roteiro.md`](roteiro.md) (esqueleto de 8 passos em 2ª pessoa, dispositivos nossos: Turista, Despachante do Tempo, cronômetro "VOCÊ DUROU"), [`titulo.md`](titulo.md), [`thumb.md`](thumb.md), seções "v3 PROPOSTA" no fim de [`visual.md`](visual.md) e [`voz.md`](voz.md). Pesquisa pt: `../v3-proposta/PT-TITULOS-DEMANDA.md`; backlog: `../backlog-v3-proposta.md`; amostra: `../v3-proposta/amostra-001-rio-1808/`.
+> - **Histórico preservado:** v1 = `roteiro-v1.md` (001–005); v2 = `roteiro-v2.md`, `titulo-v2.md`, `thumb-v2.md` (006–017, países). O texto abaixo desta caixa descreve a série de países (v1/v2) e vale só como histórico; o "O que NÃO fazer aqui" (políticas, capítulos-objeto, identidade do Dossier) continua valendo na v3.
+> - **Critério do teste (decisão de portfólio, 28/11):** 4 vídeos até 10/01/2027; passa se 1 fizer ≥ 3 mil views em 7 d com CTR ≥ 4% no lançamento e a mediana ≥ 800 em 7 d; senão encerra. `biblia_versao = 'v3'` nos vídeos novos.
+
 **Canal-modelo:** History in Minutes (UCYjRQ6T2BxBnJtPytI9OnNg), com Genius History como 2º modelo. Idioma pt-BR. Configuração técnica (voz, gerador, `estilo_prompt`) em `../canal.yaml`.
 **O que é deste canal:** a história INTEIRA de um país ou império contada como **narrativa contínua**: um fio condutor, eras ligadas por causa → consequência ("mas… então…"), loops "guarde isso" pagos lá na frente, bonequinhos de cabeça redonda em cartoon chapado e um narrador que *conta* (não lista).
-**Arquivos:** [`roteiro.md`](roteiro.md) · [`titulo.md`](titulo.md) · [`thumb.md`](thumb.md) · [`visual.md`](visual.md) · [`voz.md`](voz.md). Esta bíblia **prevalece** sobre `conhecimento/` (só regras gerais).
+**Arquivos (v2, histórico):** [`roteiro-v2.md`](roteiro-v2.md) · [`titulo-v2.md`](titulo-v2.md) · [`thumb-v2.md`](thumb-v2.md) · [`visual.md`](visual.md) · [`voz.md`](voz.md). Esta bíblia **prevalece** sobre `conhecimento/` (só regras gerais).
 **O que NÃO fazer aqui:**
 - **Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`):** bonequinhos sugerem a morte sem corpo em destaque, sangue ou ferimento; nenhuma foto real de morto. Título, descrição e tags sem morte/morreu/morto/assassinado/assassinato (e equivalentes no idioma do canal) nem "chocante/perturbador/massacre"; `youtube.txt` sem menção a IA.
 - **Capítulos-objeto** do Archive in Minutes ("O Cilindro.", "O Moinho.", fichas soltas, título de 1–2 palavras falado). Foi o erro do 003 v1 (04/11/2026): "não tem cara de história, falta conexão entre as partes" (Rodrigo).
@@ -12,8 +18,8 @@
 
 ## Versões da bíblia de roteiro (comparativo de desempenho)
 - **v1** ([`roteiro-v1.md`](roteiro-v1.md), congelada em 07/11/2026): **001 Egito, 002 Índia, 003 Irã, 004 China, 005 Brasil**.
-- **v2** ([`roteiro.md`](roteiro.md), aprovada pelo Rodrigo em 07/11/2026): **006 em diante**. As 12 regras vêm de `pesquisa/roteiro-historia-2026-11/RELATORIO.md`; checklist medido por `../tools/checklist_roteiro_v2.py`.
-- **Rastreio:** coluna `youtube.videos.biblia_versao` (001–005 = `'v1'`; a skill `roteiro` grava `'v2'` ao escrever o 006+). Título-pergunta em teste nos v2: `titulo.md`.
+- **v2** ([`roteiro-v2.md`](roteiro-v2.md), aprovada pelo Rodrigo em 07/11/2026): **006 em diante**. As 12 regras vêm de `pesquisa/roteiro-historia-2026-11/RELATORIO.md`; checklist medido por `../tools/checklist_roteiro_v2.py`.
+- **Rastreio:** coluna `youtube.videos.biblia_versao` (001–005 = `'v1'`; a skill `roteiro` grava `'v2'` ao escrever o 006+). Título-pergunta em teste nos v2: `titulo-v2.md`.
 
 ### Como comparar
 Métricas que contam (todas de `youtube.metricas_video`, coletadas pela rotina diária): **views no dia 7**, **% assistido** (`pct_assistido`) e **duração média assistida** (`media_assistida_s`); retenção aos 30/60 s vem da curva (`tools/report.py historia-ptbr --retencao <youtube_id>`), CTR só pelo Studio (pedir ao Rodrigo). Compare só vídeos com ≥ 7 dias no ar e **pelo menos 3 por versão**; o tema pesa mais que o roteiro (RELATORIO.md §3), então olhe também a mediana e anote o tema. O % assistido é o número mais ligado ao roteiro; views ligam mais a título/thumb.

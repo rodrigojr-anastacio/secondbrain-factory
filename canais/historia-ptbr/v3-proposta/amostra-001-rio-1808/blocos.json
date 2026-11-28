@@ -1,0 +1,314 @@
+[
+ {
+  "id": "N001",
+  "texto": "Você está no sofá, pagando o aluguel pelo celular. Surge o Despachante do Tempo e carimba a sua testa: Senha mil oitocentos e oito!",
+  "ideia": true,
+  "passo": 1
+ },
+ {
+  "id": "N002",
+  "texto": "Rio de Janeiro, março de mil oitocentos e oito. Você acorda de chinelo na sua casa da Rua Direita. Batem na porta. Um oficial de justiça escreve nela, a giz, duas letras: P. R. E você tem vinte e quatro horas para sair.",
+  "ideia": false,
+  "passo": 1
+ },
+ {
+  "id": "N003",
+  "texto": "Você está sem celular, sem advogado, sem caminhão de mudança. Quanto tempo você aguenta? Cronômetro valendo.",
+  "ideia": false,
+  "passo": 1
+ },
+ {
+  "id": "N004",
+  "texto": "A fofoca você pega na esquina. Napoleão invadiu Portugal no fim de mil oitocentos e sete, e o príncipe regente, Dom João, fugiu de navio com o governo inteiro. Parou em Salvador em janeiro e chegou aqui no dia sete de março.",
+  "ideia": true,
+  "passo": 2
+ },
+ {
+  "id": "N005",
+  "texto": "Os cronistas falam em dez a quinze mil pessoas nos navios, mas é estimativa: tem historiador que conta uns quinhentos nobres. Pouca ou muita, essa gente precisa dormir. E a cama que eles querem é a sua.",
+  "ideia": false,
+  "passo": 2
+ },
+ {
+  "id": "N006",
+  "texto": "P. R. quer dizer Príncipe Regente. Você ouve o vizinho ler de outro jeito: Ponha-se na Rua. E a vizinha, na versão azeda: Propriedade Roubada.",
+  "ideia": false,
+  "passo": 2
+ },
+ {
+  "id": "N007",
+  "texto": "Você quer reclamar? Então você precisa entender o processo. O cronista Joaquim Manuel de Macedo contou em cinco tempos. Um: o fidalgo gosta da sua casa e avisa o juiz aposentador. Dois: o juiz manda o oficial. Três: o oficial escreve P. R. a giz.",
+  "ideia": true,
+  "passo": 2
+ },
+ {
+  "id": "N008",
+  "texto": "Quatro: você sai em vinte e quatro horas. Cinco: o fidalgo entra e fica, diz o cronista, muito à vontade. Você acabou de ver o único processo do Brasil que anda em um dia.",
+  "ideia": false,
+  "passo": 2
+ },
+ {
+  "id": "N009",
+  "texto": "Você protesta. Mas quem despeja você é o mesmo governo que julga o seu protesto. Versão provável: você dorme na cadeia e perde a casa do mesmo jeito. Rebobina. Versão com sorte: você entrega a chave sorrindo, como muito comerciante rico fez, de olho num título de nobreza.",
+  "ideia": false,
+  "passo": 2
+ },
+ {
+  "id": "N010",
+  "texto": "A casa vai mobiliada, com a sua cama, a sua mesa e a sua moringa. Quem entra é um conde de peruca. Ele aprova a sala, olha para você e promete: Pago o aluguel estipulado. Você anota essa frase. Ela volta.",
+  "ideia": false,
+  "passo": 2
+ },
+ {
+  "id": "N011",
+  "texto": "E se você está gostando, se inscreve no canal antes que o Despachante chame a sua senha.",
+  "ideia": false,
+  "passo": 3
+ },
+ {
+  "id": "N012",
+  "texto": "Agora você está na calçada, com uma trouxa. Hora de você ver em que degrau caiu. Lá em cima, você vê a família real e umas mil pessoas da corte, que escolhem casa como você escolhe pão na padaria.",
+  "ideia": true,
+  "passo": 3
+ },
+ {
+  "id": "N013",
+  "texto": "Logo abaixo, os grandes negociantes. Pelas contas do inglês John Luccock, que morou aqui, eram só quarenta. Esses trocam casa por medalha e ainda agradecem. Você não tem medalha. Você tem uma trouxa.",
+  "ideia": false,
+  "passo": 3
+ },
+ {
+  "id": "N014",
+  "texto": "No meio, você: livre, sem título e sem casa. Luccock contou umas quatro mil casas para sessenta mil moradores. Dá quinze pessoas por casa. E você reclamando do colega de apartamento.",
+  "ideia": false,
+  "passo": 3
+ },
+ {
+  "id": "N015",
+  "texto": "Abaixo de você está o degrau que não tem graça nenhuma. Na conta de Luccock, doze mil moradores da cidade eram escravizados, e o censo de mil oitocentos e vinte e um conta quase metade dos moradores nessa condição.",
+  "ideia": true,
+  "passo": 3
+ },
+ {
+  "id": "N016",
+  "texto": "Eram eles que carregavam a água, a carga do porto e a sujeira das casas, sem salário e sem direito a nada. E, com a corte, o porto do Rio passou a receber, em média, mais de vinte mil africanos escravizados por ano.",
+  "ideia": false,
+  "passo": 3
+ },
+ {
+  "id": "N017",
+  "texto": "Você precisa de um teto. Plano A: a segunda casa do seu primo. Não dá. Uma das primeiras ordens do príncipe proíbe ter duas casas na cidade. A segunda casa do seu primo já é a primeira de um desembargador.",
+  "ideia": true,
+  "passo": 3
+ },
+ {
+  "id": "N018",
+  "texto": "Plano B: você aluga um quarto. E o aluguel dispara, porque uma cidade de uns sessenta mil moradores recebe milhares de recém-chegados de uma vez. Quarto caro pede salário. Você precisa de emprego.",
+  "ideia": false,
+  "passo": 3
+ },
+ {
+  "id": "N019",
+  "texto": "Você vira caixeiro numa loja de tecidos. E você não está sozinho: Luccock contou quatro mil caixeiros e aprendizes. O seu expediente começa antes do sol e termina quando o patrão cansa.",
+  "ideia": true,
+  "passo": 4
+ },
+ {
+  "id": "N020",
+  "texto": "E a sua loja ferve, porque Dom João abriu os portos às nações amigas. Luccock viu uns cinquenta navios mercantes na baía. Você está trabalhando na primeira grande liquidação inglesa do Brasil.",
+  "ideia": false,
+  "passo": 4
+ },
+ {
+  "id": "N021",
+  "texto": "Seis da manhã: você abre a caixa que veio de Londres. Espartilhos. Você abre a próxima: patins de gelo. O viajante John Mawe jura: mandaram patins para quem nunca viu água virar gelo.",
+  "ideia": false,
+  "passo": 4
+ },
+ {
+  "id": "N022",
+  "texto": "Oito horas: você abre mais caixas. Fogão de ferro, para o verão carioca. Lustre de cristal, para uma cidade de lamparina. E enfeite de luxo para caixão, num lugar onde, segundo Mawe, ninguém usava caixão.",
+  "ideia": false,
+  "passo": 4
+ },
+ {
+  "id": "N023",
+  "texto": "Regra de ouro: você não abre caixa na frente do freguês. E se um fidalgo perguntar dos patins, você segura assim, lâmina para baixo, e jura que é faca de cozinha.",
+  "ideia": false,
+  "passo": 4
+ },
+ {
+  "id": "N024",
+  "texto": "Duas da tarde: um nobre escolhe três peças e manda pôr na conta. Você pergunta: que conta? Ele aponta para o próprio peito. Você anota: conta do peito.",
+  "ideia": false,
+  "passo": 4
+ },
+ {
+  "id": "N025",
+  "texto": "Três anos depois, em mil oitocentos e onze, o seu freguês mais ranzinza é um bibliotecário recém-chegado de Lisboa: Luís Joaquim dos Santos Marrocos. Ele veio cuidar dos livros do rei.",
+  "ideia": true,
+  "passo": 4
+ },
+ {
+  "id": "N026",
+  "texto": "Nas cartas para o pai, ele reclama da vida na cidade. Você olha a cara dele e tem certeza: esse aí não fica. Guarda esse nome: Marrocos.",
+  "ideia": false,
+  "passo": 4
+ },
+ {
+  "id": "N027",
+  "texto": "Você aluga um quarto nos fundos de um sobrado. Primeira missão: água. Você procura um cano em casa. Não tem. Você pega um pote e vai para a fila do chafariz.",
+  "ideia": true,
+  "passo": 5
+ },
+ {
+  "id": "N028",
+  "texto": "No chafariz do Largo do Paço, você vê a água cair sobre uma cúpula e escorrer devagar, evaporando no sol. Luccock achou difícil inventar coisa pior e concluiu: no Rio não há filósofos nem economistas.",
+  "ideia": false,
+  "passo": 5
+ },
+ {
+  "id": "N029",
+  "texto": "Na fonte da Rua das Marrecas, pelo menos, você senta num banco de pedra para esperar a vez. É a avó da fila do posto de saúde.",
+  "ideia": false,
+  "passo": 5
+ },
+ {
+  "id": "N030",
+  "texto": "Você almoça carne de boi. Com a cidade lotada, tem boi que vem andando de setecentas milhas, mais de mil quilômetros. Ele espera dias no curral do único matadouro da cidade, como você na fila. O bife chega mais cansado que você.",
+  "ideia": true,
+  "passo": 5
+ },
+ {
+  "id": "N031",
+  "texto": "Se você não tem dinheiro, você come carne-seca. Prato do dia: farinha. Acompanha: mais farinha.",
+  "ideia": false,
+  "passo": 5
+ },
+ {
+  "id": "N032",
+  "texto": "Esgoto? Você procura e não existe. Cada casa junta a sujeira num barril, esvaziado todo dia ou toda semana. E quando cai uma chuva forte, o barril vai para o meio da rua, para a enxurrada levar. Você aprende rápido: no Rio de mil oitocentos e oito, chuva não é romântica.",
+  "ideia": true,
+  "passo": 5
+ },
+ {
+  "id": "N033",
+  "texto": "Em mil oitocentos e nove, o intendente de polícia, Paulo Fernandes Viana, manda arrancar as rótulas, as treliças de madeira das janelas. Era a sua sombra e a sua cortina. Como você não tem vidro, a sua janela vira vitrine, e a rua inteira vê você de ceroula.",
+  "ideia": false,
+  "passo": 5
+ },
+ {
+  "id": "N034",
+  "texto": "De noite, o seu quarto úmido é um zoológico: mosquito, barata, formiga, até escorpião. O conselho de Luccock para as picadas é ficar quieto e passar suco de limão. Você passa o limão. Você espirra.",
+  "ideia": false,
+  "passo": 5
+ },
+ {
+  "id": "N035",
+  "texto": "Placa na sua tela: FEBRE. Luccock diz que as picadas davam inchaço e febre. E o socorro que você tem é curto: para sessenta mil moradores, ele contou duzentos médicos e cirurgiões. Um para cada trezentas pessoas, e ninguém sabe ainda que o mosquito transmite doença. Só você sabe, e ninguém acredita em você.",
+  "ideia": true,
+  "passo": 6
+ },
+ {
+  "id": "N036",
+  "texto": "E tem a bexiga, como o povo chamava a varíola. Má notícia do século vinte e um: a varíola foi declarada erradicada em mil novecentos e oitenta. Se você nasceu depois disso, você provavelmente nunca tomou essa vacina. A sua vacina também foi aposentada.",
+  "ideia": false,
+  "passo": 6
+ },
+ {
+  "id": "N037",
+  "texto": "Versão provável: você pega bexiga. O cronômetro para. Apagão. Placa: TENTE DE NOVO. Rebobina. Versão com sorte: você tem só uma febre comum. E o seu tratamento é o que um conde recebeu na Bahia em mil oitocentos e nove: muito láudano, emplastro que faz bolha de propósito e dieta de água morna com caramelo.",
+  "ideia": false,
+  "passo": 6
+ },
+ {
+  "id": "N038",
+  "texto": "O seu freguês Marrocos foi além de você. Nas cartas, ele conta que tentou sanguessuga, banho de mar e choque elétrico no ouvido. Não é piada. Você paga aluguel e ainda leva choque no ouvido.",
+  "ideia": false,
+  "passo": 6
+ },
+ {
+  "id": "N039",
+  "texto": "A boa notícia para você: em mil oitocentos e onze, a corte cria a Junta da Vacina, e a vacina contra a varíola chega à cidade. Você entra na fila. De novo.",
+  "ideia": false,
+  "passo": 6
+ },
+ {
+  "id": "N040",
+  "texto": "Você sobrevive. E o seu cronômetro dá um salto, de dias para anos. Porque a sua briga agora não é com a febre. É com o conde.",
+  "ideia": false,
+  "passo": 6
+ },
+ {
+  "id": "N041",
+  "texto": "Lembra da promessa? Pago o aluguel estipulado. Passa um ano. Você cobra, educado. O conde diz que não achou outra casa boa e que paga mês que vem. Passam dois anos. Você cobra de novo. Mês que vem.",
+  "ideia": true,
+  "passo": 7
+ },
+ {
+  "id": "N042",
+  "texto": "Você acha que é exagero de roteiro? O cronista Mello Moraes conta que o Conde de Belmonte morou dez anos na casa nova de um morador sem pagar aluguel, enquanto o dono se apertava com a família numa casinha ao lado.",
+  "ideia": false,
+  "passo": 7
+ },
+ {
+  "id": "N043",
+  "texto": "E a duquesa de Cadaval ficou uns dez anos na chácara de um coronel. Quando ele pediu a casa de volta, ela não saiu e ofereceu seiscentos mil réis de aluguel. O coronel recusou.",
+  "ideia": false,
+  "passo": 7
+ },
+ {
+  "id": "N044",
+  "texto": "Então você tem uma ideia: construir outra casa. Versão provável: você ergue um sobrado bonito, de dois andares. Na semana seguinte, você vê o oficial chegando com o giz na mão. Você conhece esse giz.",
+  "ideia": true,
+  "passo": 7
+ },
+ {
+  "id": "N045",
+  "texto": "Rebobina. Versão com sorte: você faz o que muita gente fez e levanta uma casa térrea, baixinha, que nenhum fidalgo quer. Você ganha, e a coroa reage: em mil oitocentos e onze, dá até vinte anos sem imposto a quem fizer sobrado nos terrenos de pântano.",
+  "ideia": false,
+  "passo": 7
+ },
+ {
+  "id": "N046",
+  "texto": "Resumo: para ter casa, você precisa morar no brejo. E o brejo, você já sabe, é a capital do mosquito.",
+  "ideia": false,
+  "passo": 7
+ },
+ {
+  "id": "N047",
+  "texto": "Até que, em mil oitocentos e dezoito, você vê Dom João ser aclamado rei aqui no Rio. E, de presente, dá aos moradores da cidade o privilégio de não ter a casa tomada. Precisou o príncipe virar rei para a sua porta ficar em paz.",
+  "ideia": true,
+  "passo": 7
+ },
+ {
+  "id": "N048",
+  "texto": "Em mil oitocentos e vinte e um, as Cortes de Lisboa abolem as aposentadorias de vez, e o rei volta para Portugal. O seu conde vai junto. Você recebe a chave, abre a porta e procura a sua cama. A cama, essa, foi com o conde.",
+  "ideia": false,
+  "passo": 7
+ },
+ {
+  "id": "N049",
+  "texto": "E o Marrocos, o ranzinza que você jurou que não ficava? Ficou. Quando a corte vai embora, ele continua no Rio cuidando dos livros, até o fim da vida, em mil oitocentos e trinta e oito. Virou carioca de teimoso.",
+  "ideia": false,
+  "passo": 7
+ },
+ {
+  "id": "N050",
+  "texto": "Placar final. VOCÊ DUROU: treze anos fora da sua casa. O recorde da série é seu, porque esta foi a primeira senha. E você voltou para casa, ainda que sem cama.",
+  "ideia": true,
+  "passo": 8
+ },
+ {
+  "id": "N051",
+  "texto": "Hoje, a antiga Rua Direita, onde você morava, se chama Primeiro de Março, e o governo bate na sua porta por aplicativo. Mas o apelido do povo durou mais de duzentos anos: você aí, sinceramente, lê P. R. como Príncipe Regente?",
+  "ideia": false,
+  "passo": 8
+ },
+ {
+  "id": "N052",
+  "texto": "O Despachante do Tempo olha a prancheta. Próxima senha!",
+  "ideia": false,
+  "passo": 8
+ }
+]

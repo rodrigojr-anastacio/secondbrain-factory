@@ -1,0 +1,803 @@
+[
+ {
+  "slug": "rio-1808-pr",
+  "tema": "Rio de Janeiro, 1808: a corte chega e confisca as casas (\"PR\" na porta)",
+  "titulo_candidato": "Rio, 1808: Pintaram \"PR\" na Sua Porta e a Corte Ficou com a Sua Casa",
+  "thumb": "Bonequinho carioca de pijama na calçada com a trouxa, porta da casa com \"P.R.\" pintado em vermelho, nobre de peruca entrando com malas. Texto: \"PONHA-SE NA RUA\".",
+  "angulo": "Os vídeos existentes são tour do palácio/da família real em IA realista (visão de cima). Nós contamos pelo carioca comum: o confisco (\"aposentadoria\") das melhores casas para abrigar de 10 a 15 mil recém-chegados (estimativas variam), o \"PR\" (Príncipe Regente) lido como \"Ponha-se na Rua\", a cidade sem esgoto que recebe a corte, o preço do aluguel. 2ª pessoa com humor; fecha no que mudou para o Brasil (porto aberto, imprensa, Banco do Brasil).",
+  "manada": [
+   {
+    "id": "qWPL11MOzOg",
+    "canal": "Mundos Reimaginados",
+    "views": 790439,
+    "data": "2026-03-16",
+    "faz": "Chegada da corte, IA cinematográfica, visão histórica geral"
+   },
+   {
+    "id": "NjUJe3KLoJo",
+    "canal": "Nostalgia BRASIL",
+    "views": 290469,
+    "data": "2026-06-14",
+    "faz": "Chegada da corte, reconstrução com IA"
+   },
+   {
+    "id": "mhpsQkowTik",
+    "canal": "Nostalgia BRASIL",
+    "views": 124318,
+    "data": "2026-05-01",
+    "faz": "Vida dentro do palácio da família real, IA"
+   },
+   {
+    "id": "rV2UA-5AMJI",
+    "canal": "Reconstrução do Passado",
+    "views": 80961,
+    "data": "2026-11-17",
+    "faz": "Vida a bordo do navio que trouxe a corte, IA"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube (videos.list 28/11/2026)",
+    "numero": "790.439 views, canal de 109 mil inscritos, 03/2026",
+    "link": "https://youtu.be/qWPL11MOzOg"
+   },
+   {
+    "fonte": "YouTube",
+    "numero": "167.320 views, aula Débora Aladim sobre a vinda da corte, 06/2026",
+    "link": "https://youtu.be/3zj6BDybg1I"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"1808 a vinda da familia real para o brasil\", \"1808 a corte no brasil\", \"1808 laurentino gomes\"",
+    "link": ""
+   }
+  ],
+  "demanda": 9,
+  "encaixe": 10,
+  "urgencia": 5,
+  "observacao": "Brasil forte, sem tema sensível; fato físico (letras na porta) perfeito para thumb."
+ },
+ {
+  "slug": "caravela-cabral-1500",
+  "tema": "Viagem na frota de Cabral, 1500 (44 dias até o Brasil)",
+  "titulo_candidato": "Você Embarcou na Caravela de Cabral: 44 Dias de Biscoito com Bicho Até o Brasil",
+  "thumb": "Bonequinho verde de enjoo agarrado ao mastro, segurando um biscoito com larvas, mar bravo, nau ao fundo. Texto: \"44 DIAS\".",
+  "angulo": "O hit existente é um tour realista e sombrio (\"Mar, Tempestade e Medo\"). Nós fazemos a viagem pelo grumete: lugar para dormir (o convés), ração diária (biscoito, vinho, água podre), latrina na proa, escorbuto, a nau que some no caminho, e o 22 de abril visto do convés. Humor no aperto; Brasil no fim.",
+  "manada": [
+   {
+    "id": "YKBqL9GUydg",
+    "canal": "Reconstrução do Passado",
+    "views": 333863,
+    "data": "2026-06-09",
+    "faz": "Assim Era a Vida Dentro de uma Caravela Rumo ao Brasil em 1500, IA realista"
+   },
+   {
+    "id": "ojSymg-vif4",
+    "canal": "Reconstrução do Passado",
+    "views": 54075,
+    "data": "2026-08-22",
+    "faz": "Por que as caravelas não afundavam (engenharia)"
+   },
+   {
+    "id": "2CIvklZRezE",
+    "canal": "Mundos Reimaginados",
+    "views": 699425,
+    "data": "2026-02-25",
+    "faz": "22 de Abril de 1500: O Dia em que o Brasil Mudou (evento)"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube",
+    "numero": "333.863 views, 06/2026",
+    "link": "https://youtu.be/YKBqL9GUydg"
+   },
+   {
+    "fonte": "YouTube",
+    "numero": "699.425 views (22/04/1500 como evento), 02/2026",
+    "link": "https://youtu.be/2CIvklZRezE"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"assim era a vida dentro de uma caravela\", \"como era a vida e a higiene dos navegadores portugueses nas grandes navegações\", \"como funcionavam as caravelas\"",
+    "link": ""
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 10,
+  "urgencia": 4,
+  "observacao": "Abril (aniversário do descobrimento) seria a janela ideal; funciona o ano todo."
+ },
+ {
+  "slug": "pracinha-feb-1944",
+  "tema": "Inverno de 1944–45: pracinha brasileiro na neve dos Apeninos",
+  "titulo_candidato": "Inverno de 1944: Você é um Pracinha Brasileiro na Neve da Itália",
+  "thumb": "Bonequinho de capacete da FEB tremendo, enterrado até os joelhos na neve, com uma xícara de café que congelou. Seta \"VOCÊ\". Texto: \"−20 °C\".",
+  "angulo": "O Confluxo provou o formato (cartoon, 2ª pessoa) com um vídeo genérico de 8 min. Nós fazemos o recorte físico: o nordestino e o carioca que nunca viram neve, o uniforme errado para o frio, a trincheira (fox hole) aos pés de Monte Castelo, a comida americana, a cobra que fumou. Sem violência gráfica; foco na vida, não no combate.",
+  "manada": [
+   {
+    "id": "Xt67z9COves",
+    "canal": "Confluxo",
+    "views": 643946,
+    "data": "2025-08-16",
+    "faz": "Sua vida como um soldado brasileiro na 2ª Guerra (cartoon, 2ª pessoa, genérico, 8 min)"
+   },
+   {
+    "id": "lXswoBzCi3A",
+    "canal": "Dominância Militar",
+    "views": 260213,
+    "data": "2026-11-16",
+    "faz": "Monte Castelo pelos americanos (IA)"
+   },
+   {
+    "id": "8nvOa8J0MG8",
+    "canal": "FORÇA BRASIL",
+    "views": 422973,
+    "data": "2025-11-24",
+    "faz": "Por que os alemães temiam a infantaria brasileira"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube",
+    "numero": "643.946 views, canal de 10,4 mil inscritos, cartoon \"VOCÊ\" (08/2025)",
+    "link": "https://youtu.be/Xt67z9COves"
+   },
+   {
+    "fonte": "YouTube",
+    "numero": "260.213 views em 12 dias, canal de 2,2 mil inscritos (11/2026)",
+    "link": "https://youtu.be/lXswoBzCi3A"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"como era a vida de um soldado brasileiro na segunda guerra mundial\", \"como era ser um soldado na segunda guerra mundial\"",
+    "link": ""
+   }
+  ],
+  "demanda": 9,
+  "encaixe": 9,
+  "urgencia": 7,
+  "observacao": "Monte Castelo: 21/02/1945 (aniversário em fevereiro). Tema de guerra: manter sem sangue."
+ },
+ {
+  "slug": "brasil-12mil-anos",
+  "tema": "Brasil pré-histórico: humanos contra a megafauna (preguiça gigante, tigre-dentes-de-sabre)",
+  "titulo_candidato": "Brasil, 12.000 Anos Atrás: Você Contra uma Preguiça de 4 Toneladas",
+  "thumb": "Bonequinho minúsculo com lança de pedra olhando para cima, preguiça-gigante em pé (6 m) na frente, Lagoa Santa ao fundo. Texto: \"VOCÊ x 4 TONELADAS\".",
+  "angulo": "Em en o \"How Long You'd Last in Every Prehistoric Era\" é o formato do ano (13,6 mi); em pt só há documentário e um cartoon genérico (\"Como os Humanos Foram Parar no Brasil?\"). Nós colocamos você no grupo de Luzia em Lagoa Santa (MG): o que comer, onde dormir (abrigos de pedra), preguiça-gigante, tigre-dentes-de-sabre, toxodonte, pinturas da Serra da Capivara.",
+  "manada": [
+   {
+    "id": "jQSmckO11C4",
+    "canal": "Por Quê, Hein?",
+    "views": 335209,
+    "data": "2026-09-25",
+    "faz": "Como os Humanos Foram Parar no Brasil? (cartoon, migração)"
+   },
+   {
+    "id": "ezjXIf0DKt0",
+    "canal": "Antes do Brasil",
+    "views": 157145,
+    "data": "2026-11-19",
+    "faz": "Luzia: 11 mil anos, DNA (documentário)"
+   },
+   {
+    "id": "oOBOxUdJfMY",
+    "canal": "ABC Terra",
+    "views": 669651,
+    "data": "2026-08-28",
+    "faz": "Os animais mais espetaculares que já habitaram o Brasil (75 min)"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube (en)",
+    "numero": "13.609.510 views, Fossil, \"How Long You'd Last in Every Prehistoric Era\" (08/2026)",
+    "link": "https://youtu.be/nAWpLtG-kNs"
+   },
+   {
+    "fonte": "YouTube (en)",
+    "numero": "1.479.357 views, Ink Explainer, \"How Long Would You Survive in Every Era of Earth?\" (10/2026)",
+    "link": "https://youtu.be/aY9gD8_wQs4"
+   },
+   {
+    "fonte": "YouTube",
+    "numero": "335.209 views, cartoon pt (09/2026)",
+    "link": "https://youtu.be/jQSmckO11C4"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"como era a vida dos homens das cavernas\", \"como era a vida dos primeiros seres humanos\", \"como eram os dinossauros\"",
+    "link": ""
+   }
+  ],
+  "demanda": 9,
+  "encaixe": 10,
+  "urgencia": 4,
+  "observacao": "Não confundir com dinossauros (a megafauna é de 12 mil anos, eles de 66 mi)."
+ },
+ {
+  "slug": "campones-1300",
+  "tema": "Um dia inteiro como camponês (servo) na Idade Média, 1300",
+  "titulo_candidato": "Você Acordou Camponês em 1300: 24 Horas e Metade do Pão É do Senhor",
+  "thumb": "Bonequinho com foice e cara de sono, senhor feudal gordo arrancando metade do pão da mão dele, moinho ao fundo. Texto: \"METADE É DELE\".",
+  "angulo": "A manada faz castelo, inverno e higiene medieval em IA realista (6+ versões de \"castelo em 1200\"). Nós fazemos o relógio de um servo comum: acordar no escuro, corveia, dízimo, a taxa para moer o próprio trigo no moinho do senhor, cerveja rala em vez de água, a casa com os animais, 100+ dias santos de folga (o lado bom). Humor de \"contracheque medieval\".",
+  "manada": [
+   {
+    "id": "2dqGsuQrxeM",
+    "canal": "Reconstrução Histórica",
+    "views": 801270,
+    "data": "2026-04-10",
+    "faz": "Vida em um castelo medieval em 1200 (IA)"
+   },
+   {
+    "id": "suV2TVrBOCg",
+    "canal": "Avesso",
+    "views": 317772,
+    "data": "2026-11-02",
+    "faz": "Castelo medieval no inverno, 1200 (IA)"
+   },
+   {
+    "id": "pu4VOIeP6ys",
+    "canal": "Durma no Passado",
+    "views": 333416,
+    "data": "2026-02-15",
+    "faz": "Sobreviver ao inverno na Idade Média (IA)"
+   },
+   {
+    "id": "vAqLAqntJ5w",
+    "canal": "Durma Com História",
+    "views": 65299,
+    "data": "2026-07-27",
+    "faz": "O que um camponês medieval fazia do amanhecer ao anoitecer (107 min, para dormir)"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube",
+    "numero": "801.270 views (castelo, mesmo público), 04/2026",
+    "link": "https://youtu.be/2dqGsuQrxeM"
+   },
+   {
+    "fonte": "YouTube (en)",
+    "numero": "855.895 views, History Hit, \"What Was Medieval Life Like For Every Class?\" (12/2025)",
+    "link": "https://youtu.be/TwPqHzCGgGM"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"você não sobreviveria um dia na idade média\", \"como era a vida dos camponeses na idade média\", \"como era viver na idade media\" (1ª sugestão)",
+    "link": ""
+   }
+  ],
+  "demanda": 9,
+  "encaixe": 9,
+  "urgencia": 3,
+  "observacao": "Slot universal de alta demanda; fugir do castelo."
+ },
+ {
+  "slug": "legionario-romano",
+  "tema": "Alistado na legião romana: 25 anos de serviço",
+  "titulo_candidato": "Você Foi Alistado na Legião Romana: 25 Anos, 30 km por Dia e Proibido Casar",
+  "thumb": "Bonequinho legionário suado carregando uma mochila gigante num pau (a \"mula de Mário\"), centurião gritando. Texto: \"25 ANOS\".",
+  "angulo": "Os de pt são IA realista \"117 d.C.\" e um cartoon de 6 min sobre o último dia. Nós fazemos a carreira inteira em 2ª pessoa: alistamento, 30 kg nas costas, cavar acampamento toda noite, salário (e o mito do sal), proibição de casar até 197 d.C., a aposentadoria com terra. Humor de \"RH romano\".",
+  "manada": [
+   {
+    "id": "KSefdQY5Sfk",
+    "canal": "fatos simples",
+    "views": 227769,
+    "data": "2026-10-13",
+    "faz": "O Último Dia de Serviço de um Soldado Romano (cartoon, 6 min)"
+   },
+   {
+    "id": "fjvBrM8bTGM",
+    "canal": "História em Reconstrução",
+    "views": 26764,
+    "data": "2026-03-23",
+    "faz": "Realidade brutal da última marcha de um soldado romano, 117 d.C. (IA)"
+   },
+   {
+    "id": "R9CSTdhm_08",
+    "canal": "Fala Sério",
+    "views": 260248,
+    "data": "2026-05-12",
+    "faz": "Os Piores Trabalhos da Roma Antiga"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube (en)",
+    "numero": "887.433 views, Hypothetically, \"What It Was Like to be Every Roman Army Rank\" (02/2026)",
+    "link": "https://youtu.be/0n5xG4epnY0"
+   },
+   {
+    "fonte": "YouTube",
+    "numero": "227.769 views, cartoon pt, canal de 1,4 mil inscritos (10/2026)",
+    "link": "https://youtu.be/KSefdQY5Sfk"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"como era a vida de um soldado romano\", \"como era a vida de um gladiador\", \"como era a vida na roma antiga\"",
+    "link": ""
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 10,
+  "urgencia": 3,
+  "observacao": ""
+ },
+ {
+  "slug": "piores-empregos-brasil-colonial",
+  "tema": "Os piores empregos do Brasil colonial e imperial (tigre, aguadeiro, sangrador, acendedor de lampião)",
+  "titulo_candidato": "Os Piores Empregos do Brasil Colonial (o Nº 1 Carregava Barril de Esgoto na Cabeça)",
+  "thumb": "Bonequinho com barril na cabeça, moscas em volta, nariz tapado, ruas do Rio antigo. Texto: \"PIOR EMPREGO\".",
+  "angulo": "O formato \"piores empregos\" bomba em en (1,6 mi) e em pt sobre Roma; no Brasil só existe 1 vídeo (20 views). Ranking em 2ª pessoa: tigre (despejo de dejetos no Rio), aguadeiro, barbeiro-sangrador, acendedor de lampião, catraieiro, caixeiro que dormia no balcão. Cuidado: tigres e aguadeiros eram em geral escravizados; tratar com respeito e sem piada com eles (o humor vai na situação e nas autoridades).",
+  "manada": [
+   {
+    "id": "6ClTafA6vrg",
+    "canal": "Porão do Império",
+    "views": 20,
+    "data": "2026-11-14",
+    "faz": "Os \"Tigres\": o pior emprego da história do Brasil (só 1 vídeo no recorte)"
+   },
+   {
+    "id": "R9CSTdhm_08",
+    "canal": "Fala Sério",
+    "views": 260248,
+    "data": "2026-05-12",
+    "faz": "Os Piores Trabalhos da Roma Antiga"
+   },
+   {
+    "id": "vwslFP_ZGHw",
+    "canal": "Rafux",
+    "views": 213708,
+    "data": "2026-08-15",
+    "faz": "A PIOR PROFISSÃO DO BRASIL (atual)"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube (en)",
+    "numero": "1.605.085 views, \"One Hour of the Absolute Worst Jobs in History\" (09/2026)",
+    "link": "https://youtu.be/elsqDQZDuMA"
+   },
+   {
+    "fonte": "YouTube",
+    "numero": "261.022 views, History Brasil, \"Profissões tão perigosas que hoje são PROIBIDAS\" (11/2026)",
+    "link": "https://youtu.be/I9Q_DP6mnPc"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"piores trabalhos no brasil\", \"os piores trabalhos da idade media\", \"como era a vida de um carrasco\"",
+    "link": ""
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 7,
+  "urgencia": 3,
+  "observacao": "Escravidão aparece: encaixe menor, roteiro com cuidado."
+ },
+ {
+  "slug": "tropeiro-1820",
+  "tema": "Um mês como tropeiro, do Sul a Sorocaba, 1820",
+  "titulo_candidato": "Um Mês Como Tropeiro em 1820: 40 Mulas, Feijão e Lama Até Sorocaba",
+  "thumb": "Bonequinho de chapéu e poncho atolado na lama puxando uma mula que se recusa a andar, caldeirão de feijão tropeiro. Texto: \"40 MULAS\".",
+  "angulo": "Só 1 hit (Vida Brasileira TV, IA realista, \"você não sobreviveria\"). Nós fazemos a viagem: mula madrinha com sino, pouso, a origem do feijão tropeiro e da paçoca de carne-seca, a feira de Sorocaba, como o tropeiro era o correio e a notícia do interior. Humor na teimosia das mulas.",
+  "manada": [
+   {
+    "id": "fUXPYGQto4A",
+    "canal": "Vida Brasileira TV",
+    "views": 130414,
+    "data": "2026-05-03",
+    "faz": "Por que você não sobreviveria 1 mês como tropeiro no Brasil de 1820 (IA)"
+   },
+   {
+    "id": "RKuxj7R5GV8",
+    "canal": "Vida Brasileira TV",
+    "views": 22101,
+    "data": "2026-05-21",
+    "faz": "Dos tropeiros aos caminhoneiros (71 min)"
+   },
+   {
+    "id": "Y6XiIZZtLKk",
+    "canal": "Fragmentos da História",
+    "views": 2705,
+    "data": "2026-03-16",
+    "faz": "Como era sobreviver em 1750? A vida dos tropeiros"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube",
+    "numero": "130.414 views, canal de 11,1 mil inscritos (mediana do canal 2.210), 05/2026",
+    "link": "https://youtu.be/fUXPYGQto4A"
+   },
+   {
+    "fonte": "Corpus 12 m",
+    "numero": "9 vídeos pt sobre tropeiros, mediana 2.705: pouca concorrência",
+    "link": ""
+   }
+  ],
+  "demanda": 6,
+  "encaixe": 10,
+  "urgencia": 3,
+  "observacao": "Busca baixa (autocomplete de \"tropeiros\" é música/regional): depende de sugerido."
+ },
+ {
+  "slug": "ouro-minas-1720",
+  "tema": "Corrida do ouro em Minas Gerais, 1700–1730",
+  "titulo_candidato": "Minas, 1720: Você Achou Ouro e Mesmo Assim Passou Fome",
+  "thumb": "Bonequinho magro segurando uma pepita enorme, barriga roncando, vendedor com uma galinha e etiqueta de preço absurdo. Texto: \"RICO E COM FOME\".",
+  "angulo": "Não há vídeo bom de cotidiano: existem histórias completas de Ouro Preto e Tiradentes em IA. Nós fazemos a corrida do ouro em 2ª pessoa: a viagem pelo Caminho Velho, a bateia no rio, as fomes de 1697–1701, preços absurdos de comida, o quinto e as casas de fundição, a Guerra dos Emboabas no fundo. Paralelo com o \"gold rush\" americano, que bomba em en.",
+  "manada": [
+   {
+    "id": "muOSw7RhHL4",
+    "canal": "Memória Das Cidades",
+    "views": 77292,
+    "data": "2026-05-09",
+    "faz": "História completa de Ouro Preto (IA)"
+   },
+   {
+    "id": "inEnXf-Advg",
+    "canal": "Reconstrução Histórica",
+    "views": 57931,
+    "data": "2026-06-22",
+    "faz": "Vida de Tiradentes em Minas, 1788 (IA)"
+   },
+   {
+    "id": "BH1cnDgw28A",
+    "canal": "Vida Brasileira TV",
+    "views": 9715,
+    "data": "2026-06-02",
+    "faz": "Vida trágica de um garimpeiro nas Minas de 1700 (IA)"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube (en)",
+    "numero": "991.421 views, Good Enough, \"The Luckiest Men of the Gold Rush\" (07/2025)",
+    "link": "https://youtu.be/Tz9OteThE6Y"
+   },
+   {
+    "fonte": "YouTube",
+    "numero": "77.292 views (Ouro Preto), 05/2026",
+    "link": "https://youtu.be/muOSw7RhHL4"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"ciclo do ouro no brasil\", \"ciclo do ouro em minas gerais\", \"brasil colonial sociedade mineradora\", \"ciclo do ouro no brasil documentário\"",
+    "link": ""
+   }
+  ],
+  "demanda": 7,
+  "encaixe": 10,
+  "urgencia": 3,
+  "observacao": "Demanda de busca escolar alta; risco de virar aula: manter a 2ª pessoa e a fome como fio."
+ },
+ {
+  "slug": "imigrante-italiano-1888",
+  "tema": "Imigrante italiano no cafezal paulista, 1888–1900",
+  "titulo_candidato": "1888: Você Trocou a Itália por um Cafezal em São Paulo",
+  "thumb": "Bonequinho de chapéu e mala de papelão no porto de Santos, olhando um cafezal sem fim; fazendeiro com caderneta. Texto: \"ITÁLIA → CAFEZAL\".",
+  "angulo": "O hit existente é um tour de casa em IA realista. Nós fazemos a jornada: propaganda na Itália, 30 dias de navio na 3ª classe, Hospedaria dos Imigrantes no Brás, contrato com o fazendeiro, o armazém da fazenda que endivida, a colônia, e o que virou São Paulo. Público: milhões de descendentes.",
+  "manada": [
+   {
+    "id": "Rq-wtvKcIrE",
+    "canal": "Reconstrução do Passado",
+    "views": 283964,
+    "data": "2026-05-28",
+    "faz": "Casa de imigrantes italianos no Brasil em 1875 (IA)"
+   },
+   {
+    "id": "xTO1lrgdSi8",
+    "canal": "Reconstrução do Passado",
+    "views": 97612,
+    "data": "2026-06-01",
+    "faz": "Casa de imigrantes alemães em 1830 (IA)"
+   },
+   {
+    "id": "NvHTQAxHyqo",
+    "canal": "Nostalgia BRASIL",
+    "views": 4809,
+    "data": "2026-07-15",
+    "faz": "Chegada dos imigrantes italianos há 150 anos (IA)"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube",
+    "numero": "283.964 views, 05/2026",
+    "link": "https://youtu.be/Rq-wtvKcIrE"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"assim era a vida dentro de uma casa de imigrantes italianos no brasil em 1875\"",
+    "link": ""
+   }
+  ],
+  "demanda": 7,
+  "encaixe": 9,
+  "urgencia": 3,
+  "observacao": ""
+ },
+ {
+  "slug": "sertao-lampiao-1930",
+  "tema": "Sertão de 1930: um vaqueiro no caminho de Lampião",
+  "titulo_candidato": "Sertão, 1930: Um Dia de Vaqueiro no Caminho de Lampião",
+  "thumb": "Bonequinho de gibão e chapéu de couro na caatinga seca, olhando para trás; ao longe, o bando de chapéus de meia-lua. Texto: \"ELE VEM AÍ\".",
+  "angulo": "A demanda está no Lampião (registro viral de 11/2026, 1,28 mi). Os vídeos de \"como era\" no sertão (Reconstrução do Passado) não andaram. Nós fazemos a vida do vaqueiro comum: gibão de couro contra o espinho, a seca, a feira, o volante (polícia) e o cangaceiro que cobram os dois, Lampião como visitante que muda o seu dia. Violência só contada, sem cena explícita.",
+  "manada": [
+   {
+    "id": "q6Y5GW2qZ9U",
+    "canal": "Baixa Visibilidade",
+    "views": 1280321,
+    "data": "2026-11-04",
+    "faz": "O único registro de Lampião vivo (filme de 1936)"
+   },
+   {
+    "id": "0xq3SL3J9cI",
+    "canal": "Reconstrução do Passado",
+    "views": 4181,
+    "data": "2026-11-01",
+    "faz": "O que aconteceria se você cruzasse o sertão na era do cangaço (IA, 2ª pessoa, não andou)"
+   },
+   {
+    "id": "LJR_Eu_D9dY",
+    "canal": "Reconstrução do Passado",
+    "views": 1691,
+    "data": "2026-11-16",
+    "faz": "Refúgio de Lampião e Maria Bonita em 1935 (IA)"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube",
+    "numero": "1.280.321 views, canal de 2,85 mil inscritos, 11/2026",
+    "link": "https://youtu.be/q6Y5GW2qZ9U"
+   },
+   {
+    "fonte": "YouTube",
+    "numero": "755.150 views, Tinocando, CANUDOS (10/2026)",
+    "link": "https://youtu.be/7LBpmjircD4"
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 7,
+  "urgencia": 6,
+  "observacao": "Urgência: onda do Lampião em novembro. A 2ª pessoa no sertão já falhou em IA realista (4 mil): a embalagem precisa do Lampião, não do 'sertão'."
+ },
+ {
+  "slug": "seringueiro-1900",
+  "tema": "Seringueiro na Amazônia, 1900 (o ciclo da borracha)",
+  "titulo_candidato": "Amazônia, 1900: Você Virou Seringueiro e a Dívida Só Crescia",
+  "thumb": "Bonequinho com lamparina na testa cortando uma seringueira de madrugada, caderneta de dívida do tamanho dele. Texto: \"DÍVIDA ETERNA\".",
+  "angulo": "Os vídeos de borracha são sobre Manaus rica (Teatro Amazonas) em IA. Nós contamos pelo nordestino que fugiu da seca de 1877 e foi para o seringal: o aviamento (deve a viagem, a comida e a faca ao patrão), a estrada de seringa de madrugada, a defumação da borracha, enquanto Manaus tinha ópera e luz elétrica. Fecha nas sementes levadas por Wickham.",
+  "manada": [
+   {
+    "id": "_aD018iQ5pM",
+    "canal": "Mundos Reimaginados",
+    "views": 87097,
+    "data": "2026-02-16",
+    "faz": "Manaus, 1910, o auge da borracha (IA)"
+   },
+   {
+    "id": "7cTzIqQDc4k",
+    "canal": "E se você vivesse no passado?",
+    "views": 343,
+    "data": "2026-07-27",
+    "faz": "Você era seringueiro e nunca conseguia pagar a dívida (IA, canal de 248 inscritos)"
+   },
+   {
+    "id": "SV0FGMKvVq4",
+    "canal": "A História na Mão",
+    "views": 3777,
+    "data": "2026-02-10",
+    "faz": "1900: febre da borracha e vida dos seringueiros"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube",
+    "numero": "3.092.347 views, Kairus, \"Por que é impossível explorar a Amazônia profunda\" (10/2026): Amazônia bomba",
+    "link": "https://youtu.be/7Vv_89zVT1U"
+   },
+   {
+    "fonte": "YouTube",
+    "numero": "87.097 views (Manaus 1910), 02/2026",
+    "link": "https://youtu.be/_aD018iQ5pM"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"seringueiros da amazonia\", \"seringueiros história\"",
+    "link": ""
+   }
+  ],
+  "demanda": 6,
+  "encaixe": 9,
+  "urgencia": 3,
+  "observacao": "Demanda direta média; a âncora é Amazônia."
+ },
+ {
+  "slug": "navio-pirata-1715",
+  "tema": "A vida a bordo de um navio pirata, 1715 (Era de Ouro)",
+  "titulo_candidato": "Você Entrou num Navio Pirata em 1715 e Ganhou Direito a Voto",
+  "thumb": "Bonequinho de tapa-olho levantando a mão numa votação no convés, capitão de chapéu fazendo cara feia. Texto: \"PIRATA VOTAVA\".",
+  "angulo": "Em pt só há IA realista sobre como dormiam e história geral da pirataria. Nós fazemos a carreira em 2ª pessoa: os artigos (votação, divisão do saque, indenização por braço perdido), comida, escorbuto, tédio, o que acontecia na captura. Gancho brasileiro: os corsários franceses que tomaram o Rio em 1711.",
+  "manada": [
+   {
+    "id": "TVsWwuWB-_Y",
+    "canal": "Histories of Humanity",
+    "views": 235142,
+    "data": "2026-04-07",
+    "faz": "Como os piratas dormiam em navios congelados (IA)"
+   },
+   {
+    "id": "u6kdkYGLo60",
+    "canal": "Vogalizando a História",
+    "views": 145353,
+    "data": "2026-08-12",
+    "faz": "A História da Pirataria (geral)"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube (en)",
+    "numero": "715.461 views, Hypothetically, \"What It Was Like to be Every Pirate Rank\" (01/2026)",
+    "link": "https://youtu.be/S9LXiTUygos"
+   },
+   {
+    "fonte": "YouTube (en)",
+    "numero": "208.395 views, Scurvy Dogs, \"How a Pirate Ship Actually Worked\" (05/2026)",
+    "link": "https://youtu.be/giSAxAM0GY0"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"como era ser um pirata\", \"como era a vida de um pirata\", \"como era a vida dos piratas\"",
+    "link": ""
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 9,
+  "urgencia": 3,
+  "observacao": ""
+ },
+ {
+  "slug": "viking-inverno",
+  "tema": "Cinco meses de inverno numa casa comprida viking",
+  "titulo_candidato": "Você Passou o Inverno Viking: 5 Meses Trancado com a Família e as Vacas",
+  "thumb": "Bonequinho espremido entre uma vaca e a família ao redor do fogo na casa comprida, neve até o telhado, cara de quem não aguenta mais. Texto: \"COM AS VACAS\".",
+  "angulo": "A manada faz a engenharia da casa (\"como sobreviviam a −40 °C\", Era Viking 566 mil). Nós fazemos a convivência: animais dentro aquecendo a casa, fumaça sem chaminé, comida seca e fermentada, tédio (jogos, sagas), banho de sábado (os vikings eram os limpos da Europa), a primavera e a partida dos barcos.",
+  "manada": [
+   {
+    "id": "_xrAcsfZyE8",
+    "canal": "Era Viking",
+    "views": 566207,
+    "data": "2026-04-05",
+    "faz": "Como os vikings sobreviviam a −40 °C no subsolo (engenharia, IA)"
+   },
+   {
+    "id": "NEFeY_V6apA",
+    "canal": "Reconstrução Histórica",
+    "views": 152878,
+    "data": "2026-05-29",
+    "faz": "Comer, dormir e sobreviver na era viking em 930 (IA)"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube",
+    "numero": "566.207 views, canal de 6,2 mil inscritos (04/2026)",
+    "link": "https://youtu.be/_xrAcsfZyE8"
+   },
+   {
+    "fonte": "YouTube (en)",
+    "numero": "854.701 views, Viking Chronicles, \"Viking Survival In Winter\" (01/2026)",
+    "link": "https://youtu.be/OB6NGooO77s"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"como era ser um viking\", \"como eram os vikings de verdade\", \"como era a vida dos vikings\"",
+    "link": ""
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 9,
+  "urgencia": 4,
+  "observacao": "Inverno no hemisfério norte (dez–fev) é quando o tema sobe em en."
+ },
+ {
+  "slug": "piramide-operario",
+  "tema": "Operário da Grande Pirâmide de Gizé, 2560 a.C.",
+  "titulo_candidato": "Você Foi Convocado Para Construir a Pirâmide e o Salário Era Cerveja",
+  "thumb": "Bonequinho egípcio puxando um bloco gigante com corda, outro servindo uma jarra de cerveja; pirâmide pela metade ao fundo. Texto: \"PAGO EM CERVEJA\".",
+  "angulo": "Os vídeos pt são vida do faraó/Tutancâmon ou a construção em si (IA). Nós fazemos a vida do operário: convocação na cheia do Nilo, turmas com nomes engraçados (\"Amigos de Quéops\"), ração de pão e ~4 L de cerveja por dia, médico da obra, a vila dos trabalhadores; e desmontamos o mito dos escravos (Heródoto).",
+  "manada": [
+   {
+    "id": "PxVZq-Hftu8",
+    "canal": "Mundos Reimaginados",
+    "views": 143973,
+    "data": "2026-02-19",
+    "faz": "Milhões de Blocos: a construção de Gizé (IA)"
+   },
+   {
+    "id": "EOOV1H3pViI",
+    "canal": "Impérios Revelados",
+    "views": 209058,
+    "data": "2026-07-04",
+    "faz": "Assim era a vida de Tutancâmon (IA)"
+   },
+   {
+    "id": "2pxLlitC6VI",
+    "canal": "Viagem Pelo Tempo",
+    "views": 251219,
+    "data": "2026-04-22",
+    "faz": "Cozinhas no Egito antigo (IA)"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube",
+    "numero": "209.058 views (Tutancâmon), 07/2026",
+    "link": "https://youtu.be/EOOV1H3pViI"
+   },
+   {
+    "fonte": "YouTube",
+    "numero": "143.973 views (construção de Gizé), 02/2026",
+    "link": "https://youtu.be/PxVZq-Hftu8"
+   },
+   {
+    "fonte": "autocomplete YouTube hl=pt gl=BR (28/11/2026, via WARP)",
+    "numero": "\"como era viver no egito antigo\", \"como era a vida de um faraó\", \"como era a higiene no egito antigo\", \"como era a vida no egito antigo\"",
+    "link": ""
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 10,
+  "urgencia": 3,
+  "observacao": "O historia-ptbr já fez Egito (v1/v2): mudar totalmente a embalagem para não parecer repetição."
+ },
+ {
+  "slug": "peste-1348",
+  "tema": "A peste chega à sua vila, 1348",
+  "titulo_candidato": "1348: A Peste Chegou à Sua Vila e o Remédio Era Cheirar Flores",
+  "thumb": "Bonequinho segurando um buquê no nariz, ratos passando pelos pés, vizinhos de máscara de pano; sino da igreja. Texto: \"CHEIRE FLORES\".",
+  "angulo": "A manada faz a história completa da Peste Negra e a higiene medieval. Nós fazemos o dia a dia na vila: a teoria do miasma (ar podre), buquês e vinagre, os flagelantes, quarentena (que nasce aqui: 40 dias em Ragusa, 1377), o que mudou para quem ficou (salários subiram). Atenção: a máscara de bico é do séc. XVII, não de 1348. Título e thumb sem morte.",
+  "manada": [
+   {
+    "id": "P0VF4KHaBHk",
+    "canal": "Ampulheta",
+    "views": 415365,
+    "data": "2026-11-02",
+    "faz": "PESTE NEGRA: a história completa"
+   },
+   {
+    "id": "akwGqvKC6DI",
+    "canal": "Mundo sem Limite",
+    "views": 228943,
+    "data": "2026-11-14",
+    "faz": "A doença que matou mais que a Peste Negra (e chegou ao Brasil)"
+   },
+   {
+    "id": "Lw7izeRQBsI",
+    "canal": "Crônicas de Ferro",
+    "views": 209063,
+    "data": "2026-03-18",
+    "faz": "Por que você não sobreviveria à higiene da Idade Média em 1348?"
+   }
+  ],
+  "evidencias": [
+   {
+    "fonte": "YouTube",
+    "numero": "415.365 views, canal de 37,5 mil inscritos criado em 10/2026 (11/2026)",
+    "link": "https://youtu.be/P0VF4KHaBHk"
+   },
+   {
+    "fonte": "YouTube (en)",
+    "numero": "915.072 views, Journals Of History, \"What Life Was Like During The Black Plague\" (07/2025)",
+    "link": "https://youtu.be/HbAd-l5-dVM"
+   }
+  ],
+  "demanda": 8,
+  "encaixe": 7,
+  "urgencia": 4,
+  "observacao": "Doença e morte no tema: encaixe menor pela política do canal."
+ }
+]

@@ -1,0 +1,177 @@
+# Roteiro v2: historia-ptbr (molde History in Minutes)
+
+> **⚠️ v2 vale a partir do 006; vídeos 001–005 seguem a v1 em [`roteiro-v1.md`](roteiro-v1.md).** Aprovada pelo Rodrigo em 07/11/2026 para comparar desempenho: **v1 = 001 Egito, 002 Índia, 003 Irã, 004 China, 005 Brasil** × **v2 = 006 em diante** (como comparar: `README.md`). O 005 Brasil foi escrito com a v1 e o QA dele continua julgando pela v1.
+
+Regra de canal: **prevalece** sobre `conhecimento/roteiros.md` e `conhecimento/hooks.md`. Toda entrada leva data e fonte; sem dado = **Hipótese**.
+Base da v2: `pesquisa/roteiro-historia-2026-11/RELATORIO.md` (07/11/2026: 18 transcrições completas de 6 canais, métricas de texto com `metricas_texto.py`, comparação com os nossos 001–004). Abaixo, "§" = seção do relatório. Base que continua da v1: HiM "Iran" (`videos/003-ira/ref/him-iran-XVwr1Rm_9jc.txt`) e o feedback do Rodrigo de 04/11 (`roteiro-v1.md`).
+Checklist mensurável: `python3 canais/historia-ptbr/tools/checklist_roteiro_v2.py canais/historia-ptbr/videos/NNN-slug` (seção final).
+
+---
+
+## Forma (modelada) × Conteúdo (nosso) — desde 16/11/2026
+Diretriz do Rodrigo (16/11/2026): *"não fazer o que todo mundo está fazendo: identificar um tema que tem demanda, mas abordá-lo de outro ângulo, para fugir da manada. Mas ter um padrão claro de roteiro que funciona em canais de sucesso."* Motivo: o 005-brasil (09/11) saiu praticamente igual ao History in Minutes "Brazil" (`Vug2cLY3nxk`) e ao clone History Easy Guide (`sD0cIJ8JMYw`, 27/10), porque esta bíblia mandava remodelar a transcrição. Detector (`tools/similaridade_roteiro.py`, 16/11): **47/100 × HiM e 38 × HEG = cópia**; vídeos independentes do mesmo tema dão 3–13 (`pesquisa/roteiro-angulo-2026-11/CALIBRAGEM.md`).
+
+### Forma (modelada): o que copiamos dos canais de sucesso, de propósito
+- **Esqueleto HiM:** anedota-porta no presente → pergunta central → "essa é a história inteira de X" → 8–10 eras cronológicas ligadas por causa→consequência → fecho que responde e paga o hook (HiM Irã `XVwr1Rm_9jc`, Brasil `Vug2cLY3nxk`; `pesquisa/roteiro-historia-2026-11/RELATORIO.md` §2).
+- **Técnicas medidas** (as 12 regras abaixo): pergunta até ~0:50 que volta ≥ 3× (grupo A 0:14–0:56; História na Marra 1:30→22:48→24:26); problema → solução → novo problema com ≥ 1,5 conectivo/100 (HnM 1,2–2,5); "você/imagine" ≥ 1/100 (Ink 2,5–3,8); cena antes dos fatos; humor seco; ≤ 2 "guarde"; hook ≤ 45 s; fecho ≤ 45 s.
+- Ritmo, tamanho e tom (tabela "Tamanho"; voz em `voz.md`).
+
+### Conteúdo (nosso): o que nunca vem da referência
+- **Ângulo próprio** (`ANGULO.md`, skill `pesquisa-referencia` passo 7): antes da embalagem, transcreva a manada (3–5 vídeos de mais views do tema em pt/en + o vídeo do HiM/Genius sobre o tema + clones pt como o History Easy Guide; `tools/manada.py`), mapeie o consenso e escolha uma **tese/recorte/fio condutor que nenhum deles usa**. A pergunta central (regra 1) é a forma do ângulo: ela tem de ser diferente da pergunta dos vídeos da manada.
+- **Proibido:** reescrever ou traduzir a transcrição; seguir a ordem de beats de um vídeo da manada; abrir com a anedota-hook de qualquer um deles (ex.: Zweig/"país do futuro" no Brasil; ver `pesquisa/roteiro-angulo-2026-11/`); usar como cena principal uma anedota que 2+ vídeos repetem (fato obrigatório do tema pode aparecer de passagem, com palavras e lugar nossos).
+- **Cota: ≥ 40% das anedotas/cenas principais** (as cenas de abertura de era, o hook e as falas de personagem) **fora de todas as transcrições da manada**, listadas no `SOURCES.md` com a fonte. **Hipótese** (16/11/2026) a calibrar com as primeiras medições.
+- **Fatos de pesquisa própria:** livros, artigos acadêmicos, enciclopédias (Britannica, verbetes acadêmicos), arquivos e dados oficiais no `SOURCES.md`. Transcrição de concorrente só mapeia a manada; nunca é fonte de fato nem de sequência.
+- **Portão:** `tools/similaridade_roteiro.py` < 30 (cópia) e `CRIVO-ANGULO.md` APROVADO (`skills/roteiro/CRIVO-ANGULO.md`) antes do storyboard/voz.
+
+---
+
+## O que não muda (essência do molde)
+- **Narrativa contínua, não fichas.** O vídeo é uma história só, que dá vontade de continuar ouvindo. Cada era nasce da anterior e causa a próxima. Se der para trocar dois capítulos de lugar sem quebrar nada, o roteiro está errado. Feedback do Rodrigo no 003 v1 (04/11/2026): "não tem cara de história, falta conexão entre as partes"; "parece que o cara tá lendo corrido, e não contando uma história".
+- **Nada de capítulo-objeto** do Archive in Minutes (é do `dossie-es`; ver `README.md`).
+- **8–10 eras cronológicas**, das origens até hoje, com título-frase na placa "CAPÍTULO N" ("O rio que fez um país", "O Céu muda de ideia"), não falado como palavra solta.
+- **Fio condutor** nomeado (o Nilo, a monção, o Mandato do Céu, o cavalo de Dario) e **fecho que paga o hook**.
+- **Anedota humana forte na abertura** quando ela é a porta do fio condutor (o cavalo de Dario, o elixir de Qin). É o que já fazíamos bem (§4, "manter").
+- Bonequinhos de cabeça redonda, narrador que **conta**: isso é visual/voz, mas o texto tem de dar cena para eles.
+
+## A ideia central da v2
+Na v1, o fio condutor era um **objeto que reaparece** e o espectador ficava **de fora**, ouvindo sobre reis. Na v2, o fio é **a resposta a uma pergunta sendo montada**, cada era é um **problema que gera o próximo** e o espectador **entra na cena**. Motivo: o histórico "4000 Years of Chinese History" do Breakdown with paint é quase o nosso 004 (mesma abertura, Shang, Mandato do Céu), texto correto, 0,0 "você", sem humor, sem cena, e fez **557 views** (§3). Esse é o risco do molde v1.
+
+---
+
+## As 12 regras da v2
+
+### 1. Pergunta central como pergunta, até ~0:50 (ideal 0:30), com algo em jogo
+"Essa é a história inteira de X" vem **depois** da pergunta, nunca no lugar dela. A pergunta tem de terminar em "?" e ser declarada no `roteiro.py` (linha `Pergunta central: …?` no topo do `SCRIPT.md`) e no `ETAPA1.md`.
+- *Por quê:* sem pergunta, o espectador não sabe o que está esperando; com ela, cada era vira uma peça.
+- *Evidência:* todos do grupo A fazem a pergunta entre 0:14 e 0:56 (Crayon Wolf 0:14, Grande Depressão 0:14, Singapura 0:32, ArchLang hit 0:46, Ink 0:56); o nosso Irã afirma aos 0:51 e só pergunta aos 1:25 (§2.7, §4a). Egito (hook 0:49) **41% assistido** × Índia (hook 2:21) **26%** em `metricas_video` de 07/11 (**Hipótese**, 91 e 59 views).
+
+### 2. A pergunta volta em voz alta ≥ 3 vezes, e o fecho responde e reenquadra
+Mais ou menos a cada 4–5 min: "e aqui está a primeira peça da resposta…", "lembra da pergunta? Ela acabou de ficar mais difícil". O fecho **responde** e, se der, **reenquadra** ("talvez a pergunta certa nunca tenha sido…"). As eras continuam cronológicas e ligadas: não são "3 razões" soltas.
+- *Evidência:* História na Marra (Habsburgo, 150 mil views): pergunta aos 1:30, volta aos 22:48 ("vamos voltar lá pra pergunta inicial"), reenquadra aos 24:26; ArchLang Egito paga "a primeira, a segunda, a terceira razão" no fecho (§2.2).
+
+### 3. Motor de cada era: problema → solução → novo problema
+Cada capítulo **termina com o problema** que a próxima era vai tentar resolver e **abre** com esse problema ou com a cena dele. Proibido abrir capítulo com sucessão seca ("Quem assumiu foi…", "Dessa revolta saiu…", "Quem pegou o trono foi…"). Meta: **≥ 1,5 conectivo de virada por 100 palavras** (mas, só que, então, porque, aí, acontece que, o problema).
+- *Por quê:* é o que dá "cara de história" medível; o "mas… então…" que a v1 pedia, agora com número.
+- *Evidência:* "But the Shang had a problem… The Zhou had an answer" (Breakdown China, 1:51); "Mas olhar para o mapa também revela uma fraqueza: aquilo não era um país" (HnM, 8:14). Conectivos/100: HnM (pt) **1,2–2,5**, Crayon 1,9–2,2, Ink 1,7–2,3; **nós 0,4–0,9** (§1, §2.3, §4c).
+- Ferramentas de ligação que continuam valendo (HiM Irã, v1): causa → consequência explícita ("That one contract shapes everything that follows", 11:46); frase-ponte que vira o jogo ("Isfahan is half the world. / Then half the world fell apart.", 10:18); desmontar o mito ("Here is the problem. It is not.", 3:43).
+
+### 4. Ponha o espectador na cena: "você/imagine" ≥ 1 por 100 palavras + 1 ponte por capítulo
+~20 por vídeo: "imagine que você é…", "se você chegasse aqui…", "olhe para…", "tente isso com…". Em cada capítulo, **uma ponte com a vida de quem ouve** (o qanat × o encanamento do seu prédio; o imposto de Dario × o seu IR; o algodão × a camiseta que você está usando).
+- *Evidência:* "você" por 100 palavras: Ink **2,5–3,8** (18,4 mi views), Crayon 0,7–1,3, HnM 0,6–0,95; **nós 0,1–0,26**. O hit do ArchLang (1,13 mi) é o único dos 3 vídeos dele com "você" no título ("And Why We Are Next") e abre com "Hey, you!" (§1, §2.1, §3).
+- O checklist conta você/vocês/imagine/pense/repare/olhe/tente/te; **não** conta "seu/sua" (em pt quase sempre é "dele"; o relatório contava, então os nossos números da v1 ficam um pouco menores na ferramenta nova).
+
+### 5. Cena antes dos fatos (1 por capítulo)
+Abra cada era com **4–6 frases no presente**: um lugar, uma pessoa, um momento. Depois, **no máximo 3 fatos** que provam ou explicam a cena. Curiosidade que não serve à pergunta **sai** (ex.: elamitas e a escrita decifrada em 2022, no Irã).
+- *Evidência:* Ink descreve a tarde no acampamento antes da prova ("And this isn't a guess…", 5:36); Crayon dramatiza Raffles no pântano; o Breakdown China, só fato, fez 557 (§2.5, §3, §4d). **Hipótese** quanto ao efeito na retenção.
+
+### 6. Humor seco do narrador a cada ~40–60 s
+Ironia, anacronismo, "spoiler: não durou", sempre **sobre o fato**, sem gíria forçada nem meme. Começar com ~1 por minuto e medir.
+- *Evidência:* Kelevin, uma tirada a cada 10–15 s ("Good game, Egypt", 19:35); ArchLang ("which historians named with refreshing honesty", 3:09); HnM em pt ("parecia uma pizza cortada em 12 pedaços"). O nosso melhor momento do Irã é desse tipo: "uns gregos teimosos" (N023) (§2.4, §4f). **Hipótese** de dosagem.
+
+### 7. No máximo 2 "guarde isso" por vídeo
+O do hook + 1. Os outros callbacks entram **sem anúncio** ("lembra do cavalo?"). O loop principal é a pergunta (regra 2).
+- *Evidência:* referências 0–2 "remember/lembra" por vídeo; nós 4–6 "guarde" (Índia 6, Irã 6, China 4) (§2.6, §4e).
+
+### 8. Hook curto: anedota ≤ 45 s → pergunta → "essa é a história" → corpo
+Promessa em lista com **no máximo 2 itens** (ou nenhuma); os itens que sobrarem viram mini-hooks dos capítulos deles. **Capítulo 1 entre 1:00 e 1:15** (v1: 1:16–1:32).
+- *Evidência:* Wolf, Grande Depressão e Singapura (Crayon, 1,2–4,3 mi) não têm lista, só a pergunta; Índia com hook de 2:21 = 26% assistido (§4g). Sem pedido de inscrição no hook: é o único defeito claro do ArchLang "Revolução" (966 views, CTA aos 1:00) (§3).
+
+### 9. 1–2 falas curtas de personagem nas cenas-chave
+Discurso direto, dito pelo narrador, curto ("Senhores, por favor. Uma crise de cada vez."). Uma voz só: escreva com o verbo antes ("Dario olha para o cavalariço e diz: faça acontecer.") para o drama-3 marcar a mudança.
+- *Evidência:* Crayon, micro-diálogos encenados nos 3 vídeos (1,2–4,3 mi) (§2.4). **Hipótese:** testar no drama-3 se soa natural com uma voz só.
+
+### 10. Ritmo: ~140–145 palavras/min e frases curtas nas viradas
+Viradas com **5–8 palavras** ("Então o Céu mudou de ideia."); o resto alternando frase longa com vírgula de respiração e pergunta. Média ≤ 12,5 palavras por frase.
+- *Evidência:* a referência mais lenta é a HnM (pt, voz humana), **137–176 ppm**; nós **129–136** com o drama-3 e as pausas (§1, §4h). **Hipótese.**
+- **Como chegar lá sem mudar a voz aprovada:** a voz é a do `voz.md` (drama-3 por bloco). O ganho vem de (a) frases mais curtas e menos blocos de uma frase só e (b) testar no 006 gaps menores no `build.py` (0,35/0,9/1,5 s → ~0,25/0,6/1,2 s), medindo os 60 s iniciais antes do vídeo inteiro (`videos/003-ira/v2-amostras/voz/medir.py`). Até medir, **escreva com o ritmo real**: ~128 ppm → 16 min ≈ **2.050 palavras**; se os gaps menores derem ~140 ppm, 16 min ≈ 2.250.
+
+### 11. Fecho ≤ 45 s depois do payoff
+Responde a pergunta, reenquadra, pergunta para os comentários e **acaba**. Sem resumão das eras.
+- *Evidência:* Kelevin ("All right, that's everything", 19:44); ArchLang hit (punchline em 30 s); HnM (reenquadra e acaba) (§2.8). China 004: fecho de 0:51.
+
+### 12. Checklist mensurável (abaixo), rodado pela skill `roteiro` e pela `qa`
+
+---
+
+## Estrutura v2 (esqueleto)
+1. **Hook (≤ 1:15 até o cap. 1):** anedota-porta no presente (≤ 45 s, com o espectador dentro: "imagine que você…") → **pergunta central** (≤ 0:50) → "Essa é a história inteira de X" → no máximo 2 itens de promessa (ou nenhum) → 1 "guarde" (opcional) → o **problema** que abre a era 1.
+2. **Corpo: 8–10 eras.** Cada uma: problema herdado → **cena** (4–6 frases, presente) → ≤ 3 fatos → solução → **novo problema** (gancho). Em cada era: 1 ponte com o espectador, 1 tirada seca, conectivos. A cada ~4–5 min, a pergunta volta em voz alta ("primeira peça da resposta…").
+3. **Fecho (≤ 45 s):** paga o loop do hook, responde, reenquadra, pergunta para os comentários.
+
+## Exemplo: hook do Irã reescrito na v2 (§6 do relatório)
+Original (003 v2, v1): 203 palavras, 1 "guarde", 0 "você", "Essa é a história" aos 0:51, pergunta aos 1:25, cap. 1 aos 1:32. Reescrito: ~155 palavras, pergunta aos ~0:50, cap. 1 aos ~1:13 (números = regras acima).
+
+> Pérsia, quinhentos e vinte e dois antes de Cristo. Imagine que você é um dos seis nobres que vão escolher o rei do maior império do mundo. *(4)*
+> O método: ao nascer do sol, todos saem a cavalo. O cavalo que relinchar primeiro… faz do dono um rei. *(10)*
+> Só que Dario tem um cavalariço esperto. Na véspera, ele leva o cavalo até aquele ponto… com uma égua. De manhã, o cavalo passa ali, lembra da noite… e relincha. *(3)*
+> Dario vira rei do Egito à Índia, escolhido por um cavalo… e por uma trapaça. Pelo menos segundo Heródoto. Um grego. E grego não era exatamente fã de persa. *(6)*
+> Fica a pergunta: **quem escolhe quem governa o Irã?** Gregos, árabes, mongóis, britânicos e americanos vão tentar escolher por ele. E o Irã continua Irã. Como? *(1)*
+> *(promessa em lista cortada: 8)*
+> Essa é a história inteira do Irã. Guarde esse cavalo: ele volta no final. E tudo começa com um problema menos nobre que um trono. Água. *(7; 3)*
+
+Começo do capítulo 1:
+> Olhe para o planalto do Irã: uma tigela de montanhas, deserto no meio, quase nenhuma chuva. Se você chegasse aqui há seis mil anos, a pergunta não seria quem manda. Seria: onde é que eu bebo? *(4, 5)*
+> A resposta foi cavar. Túneis de quilômetros, os qanats, inclinados na medida para a água da montanha descer sozinha. Alguns funcionam há mais de dois mil anos. Tente isso com o encanamento do seu prédio. *(4, 6)*
+> Onde o túnel acabava, nascia um jardim murado: *pairidaêza*. A palavra viajou pelo grego, pelo latim… e chegou até você como **paraíso**. Só que todo paraíso no deserto tem um problema: os vizinhos também querem. *(7: sem "guarde"; 5: elamitas saem; 3: gancho da próxima era)*
+
+## Tom e escrita (continua da v1, ajustado)
+- Narrador que **conta**: presente nas cenas e no hook, passado narrativo no resto. Linguagem falada (`conhecimento/roteiros.md`): frases de 4–14 palavras, vírgula onde se respira, "…" só na virada, nunca 3 frases seguidas abrindo com data.
+- Sem "olá, pessoal", vinheta ou pedido de inscrição no hook.
+- ~~Remodelar a transcrição da referência (mesma ordem, beats e números)~~ **REVOGADO em 16/11/2026** (Rodrigo): era a causa de o 005-brasil sair quase igual ao History in Minutes `Vug2cLY3nxk` e ao clone History Easy Guide `sD0cIJ8JMYw`. A referência é molde de **forma**; o conteúdo segue "Conteúdo (nosso)" acima. A ponte brasileira (fome de 1876 na Índia ↔ Grande Seca de 1877 no Ceará) continua boa ideia, como anedota nossa.
+
+## Tamanho (com a voz do canal)
+| Vídeo | Bíblia | Palavras | Estrutura | Duração | ppm (com pausas) | Fonte |
+|---|---|---|---|---|---|---|
+| Egito (publicado) | v1 | 2.293 | hook + 8 | 17:00 | ~136 | QA.md 001 |
+| Índia (publicado) | v1 | 2.620 | hook + 9 | 19:27 | ~136 | ETAPA-FINAL.md 002 |
+| Irã 003 v2 (drama-3) | v1 | 2.282 | hook + 10 + fecho | 18:01 | ~127 | RELATORIO.md 003 v2 |
+| China 004 (drama-3) | v1 | 2.093 | hook + 10 + fecho | 16:14 | ~129 | RELATORIO.md 004 |
+| Brasil 005 (drama-3) | v1 | 2.190 | hook + 10 + fecho | 17:22 | ~126 | RELATORIO.md 005 |
+- Alvo: **15–17 min**. Com o ritmo medido (~128 ppm), 16 min ≈ 2.050 palavras: ~150 no hook, ~185 por era (10 eras), ~90 no fecho (≤ 45 s). O 004 saiu com 2.492 no 1º rascunho: escreva já mirando o orçamento.
+- **Hipótese:** 15–17 min seguram tanto quanto as referências; o hit do ArchLang tem 12:31 e os fracos 18–23 min (§3), então **não** passe de 17.
+
+## Histórico e evidências da v1
+Fórmula de hook de 6 referências (02/11), hooks do Egito/Índia/Irã/China com tempos e o processo do 004: em [`roteiro-v1.md`](roteiro-v1.md) ("Evidências de hook"). Medir a retenção aos 30/60 s dos vídeos v1 × v2 (`README.md`).
+
+---
+
+## v1 → v2: o que mudou
+| Ponto | v1 (001–005) | v2 (006+) | Evidência |
+|---|---|---|---|
+| Pergunta central | depois de "Essa é a história" (Irã 1:25) | pergunta com "?" até ~0:50, declarada | grupo A 0:14–0:56 |
+| Fio condutor | objeto que reaparece | a resposta sendo montada; pergunta volta ≥ 3× | HnM 1:30 → 22:48 → 24:26 |
+| Ligação das eras | "mas… então…" sem meta | problema → solução → novo problema; ≥ 1,5 conectivo/100; sem sucessão seca | HnM 1,2–2,5 × nós 0,4–0,9 |
+| Espectador | fora ("sobre" reis) | ≥ 1 "você/imagine"/100 + 1 ponte por capítulo | Ink 2,5–3,8 × nós 0,1–0,26 |
+| Capítulo | mini-hook + fatos | cena (4–6 frases) antes de ≤ 3 fatos | Ink, Crayon; Breakdown China 557 |
+| Humor | ocasional | tirada seca a cada ~40–60 s | Kelevin, ArchLang, HnM |
+| "Guarde isso" | 4–6 | ≤ 2 | refs 0–2 |
+| Hook | 40–60 s (teto 90), promessa 3–5 itens; real 1:16–2:21 | anedota ≤ 45 s, promessa ≤ 2, cap. 1 em 1:00–1:15 | Crayon sem lista; Índia 26% |
+| Falas | nenhuma | 1–2 falas curtas de personagem | Crayon (Hipótese no drama-3) |
+| Ritmo | ~127–136 ppm | ~140–145 ppm, viradas de 5–8 palavras | HnM 137–176 (Hipótese) |
+| Fecho | paga o loop + pergunta (China 0:51) | ≤ 45 s, responde e reenquadra, sem resumo | Kelevin, ArchLang, HnM |
+| Checklist | 6 itens lidos | `checklist_roteiro_v2.py` (medido) + 3 manuais | — |
+
+## Checklist do roteiro v2 (só vídeos ≥ 006; a skill `roteiro` e a `qa` conferem)
+Rode `python3 canais/historia-ptbr/tools/checklist_roteiro_v2.py canais/historia-ptbr/videos/NNN-slug` (antes da voz estima tempos a 130 ppm; com `out/legendas.srt` usa os tempos reais). Cole a saída no `ETAPA1.md` (roteiro) e no `QA.md` (qa). Código 1 = reprovou.
+- [ ] `Pergunta central: …?` declarada no `SCRIPT.md`; dita como pergunta até ~0:50 (regra 1).
+- [ ] Pergunta volta ≥ 3× fora do hook; fecho responde e reenquadra (2).
+- [ ] Conectivos ≥ 1,5/100; todo capítulo fecha com o problema da próxima era; nenhum abre com sucessão seca (3).
+- [ ] "Você/imagine" ≥ 1/100 e ponte em todo capítulo (4).
+- [ ] ≤ 2 "guarde" (7). Cap. 1 entre 1:00 e 1:15; promessa ≤ 2 itens (8).
+- [ ] Ritmo 140–145 ppm depois da voz (10; Hipótese, não bloqueia o 006 se o resto passar e o desvio estiver anotado). Fecho ≤ 45 s (11).
+- [ ] Aviso (não bloqueia): 1–2 falas de personagem (9); ≤ 2 capítulos abrindo com data; média ≤ 12,5 palavras/frase.
+- [ ] **Ângulo próprio (16/11/2026):** `SIMILARIDADE.md` < 30 contra toda a manada, `CRIVO-ANGULO.md` APROVADO, ≥ 40% das cenas principais fora das transcrições (lista no `SOURCES.md`).
+- [ ] **Manual:** 1 cena por capítulo antes dos fatos (5); humor seco a cada ~40–60 s (6); teste da troca, fio condutor em ≥ 3 capítulos, todo loop pago; todo fato com fonte em `SOURCES.md`.
+- **Resultado de referência no 004 China (v1, 07/11/2026):** reprova em 12 itens obrigatórios: pergunta não declarada, volta 1× (alvo 3), conectivos 0,91, 4/10 capítulos fecham com problema, 3 aberturas de sucessão seca (caps. 4, 7 e 10), "você" 0,19 e ponte em 2/10 capítulos, 4 "guarde", cap. 1 aos 1:17, promessa de ~3 itens, 129 ppm, fecho de 0:51. Passa: pergunta aos 0:42. É o retrato do que a v2 corrige.
+- **1º vídeo v2, 006 Roma (09/11/2026):** passa em 13/14 obrigatórios com os tempos reais (pergunta 0:48, volta 5×, conectivos 1,57, "você" 1,03, ponte 10/10, 1 "guarde", cap. 1 em 1:11, fecho 0:43); reprova só o ritmo (128 ppm). O que ajudou a passar de primeira: escrever a pergunta central igual no `PERGUNTA` do `roteiro.py` e no hook; frases de retorno explícitas ("primeira/segunda/terceira peça da resposta", "lembra da nossa pergunta?"); "O problema…" ou pergunta na última frase de cada capítulo. Atenção ao orçamento: 2.224 palavras deram 17:29 (acima dos 17); mire ~2.050. Retenção ainda não medida (Hipótese). [QA.md 006]
+- **2º vídeo v2, 007 Rússia (09/11/2026):** 13/14 com tempos reais (pergunta 0:41, volta 4×, conectivos 1,92, "você" 1,17, ponte 10/10, 1 "guarde", cap. 1 em 1:10, fecho 0:38); reprova só o ritmo (128 ppm). O 1º rascunho reprovava em 4 itens (conectivos 1,19, "você" 0,58, fim sem problema e capítulo sem ponte): **rode o checklist já no 1º rascunho e conte por capítulo** (`você`/conectivos/palavras), é mais rápido que reler. Armadilhas da ferramenta: "guarda" (substantivo) conta como "guarde"; "e de novo agora" num trecho de 1991 soa como presente (cuidado em tema com guerra atual). Orçamento pelo ritmo real: 2.140 palavras → 16:47 ✔. Fio que funcionou: **uma frase de fonte primária** (a Crônica de 862) que volta 3× e fecha o vídeo. [QA.md 007]
+
+## Métricas 2026-11-09 (relatório semanal)
+- Retenção (`report.py --retencao`): **Egito** (hook 0:49) 57% em 1:01, 39% em 3:34, 26–30% de 11 min ao fim, **34,3% assistido** (132 views); **Índia** (hook 2:21) 43% em 1:10, 30% em 2:08, 17% em 9–12 min, **21,3%** assistido (141 views). A Hipótese do hook curto ganha apoio (13 p.p. no min 1 e 13 p.p. no final), mas continua Hipótese (amostra pequena, temas diferentes). Irã/China/Brasil ainda sem retenção (8/3/0 views). Fonte: `youtube.metricas_video`, `pesquisa/metricas/2026-11-09.md`.
+- Referência: Archive in Minutes (dossie-es) retém 68–83% no primeiro minuto; o HiM, 43–57%. Não é motivo para trocar de molde.
+- **011 Estados Unidos (16/11/2026), 1º com `ANGULO.md`:** manada de 6 transcrita (consenso "ninguém queria a América do Norte" → Colombo → Roanoke → chá → Luisiana…); ângulo "a promessa cobrada" (a frase de 1776 cobrada por Douglass, Abigail, Cherokee, Seneca Falls, Lincoln, Wong Kim Ark, Harry Burn, Randolph, King). Detector **1/100**, crivo de ângulo aprovado na r1 (19/19 cenas próprias). O que funcionou: escolher **uma cena de fonte primária por era** antes de escrever (discursos, cartas, decisões judiciais) e deixar os fatos obrigatórios da manada em 1 frase de passagem. Armadilha que o crivo pegou: a abertura de era com a **mesma sequência de fatos** de um vídeo da manada (mobilização da 2ª Guerra = Genius 10:15–11:06) conta como cena da manada mesmo com palavras nossas. Checklist v2 aprovado no 1º rascunho só faltando "você" (0,81) e fecho (0:46): conte "você" por capítulo já no rascunho. Retenção a medir (Hipótese). [ETAPA1.md 011]
+- **012 Portugal (17/11/2026), 2º com `ANGULO.md`:** manada de 11 transcrita, incluindo os vídeos da **pergunta vizinha** que a busca da embalagem revelou ("por que a Espanha nunca conquistou Portugal?": Total History, Prisma, H1) e um vídeo de nicho (Impérios e Lendas, "1373"). Lição: **transcreva também os vídeos de recorte vizinho que aparecem na pesquisa da embalagem** antes de fixar o ângulo: o 1º ângulo pensado ("a fatura" da aliança inglesa, hook em Churchill/1943) era exatamente o vídeo do Impérios e Lendas, e o candidato do backlog (1807) era o vídeo inteiro do Mundos Reimaginados. Ângulo final "a linha" (a fronteira de 1297 como fio; Olivença e os ~cem marcos nunca postos abrem e fecham). Detector **1/100**; crivo de ângulo r1 reprovou porque os caps. 1 e 6 **abriam** com cenas da manada (São Mamede; Sebastião/nevoeiro) mesmo sendo fatos obrigatórios: fato obrigatório entra **dentro** do capítulo, em 1 frase; a **abertura** do capítulo tem de ser cena nossa (Valença–Tui; Tomar + alfândega da raia). Abrir capítulo com "Lugar, data." em vez de "Data." tira o aviso de ficha. Checklist v2 passou no 1º rascunho depois de +17 conectivos e +4 "você" (rascunho: 0,95 e 0,90): conte já no 1º rascunho. Retenção a medir (Hipótese). [ETAPA1.md 012]
+- **013 União Soviética (18/11/2026), 3º com `ANGULO.md`:** manada de 15 + 1 vizinho em espanhol achado na pesquisa da embalagem (`q3iSdrIQy_4`, Países en Jaque, "Cómo la URSS llegó al espacio mientras… filas por comida", 22× a mediana) com **a mesma pergunta** foguete × prateleira. Lição nova: **o crivo de ângulo julga a tese, não só as cenas.** Com 80% de cenas próprias e detector 4/100, a r1 reprovou porque a **resposta** ("o plano faz uma coisa enorme de cada vez", "foguete = uma ordem, vaca = mil decisões") era a conclusão do vídeo es, e a "prateleira paga pelo petróleo" era o "petróleo e pão" do Professor HOC; a r2 reprovou os **elos** (fechos de capítulo no petróleo, frases soltas da tese do concorrente). Antes de escrever, leia o **fecho** de cada vídeo da manada e escreva a resposta própria (aqui: "a prateleira era sempre o próximo plano; quando virava urgência, ou a pressa comia a semente, ou alguém de fora enchia"), com cada peça saindo de uma cena nossa (a sacola no bolso em 1935; a semente de 1919 × as vacas de Riazan; Hoover → Canadá → EUA → Berlim). Abertura de capítulo com cena de fonte primária fora da manada (lei das espigas de 1932 em vez da sequência coletivização→cota→fome do Archive; artigo de Liberman de 1962 em vez da reforma de 1965). Detector final **2/100**, crivo de ângulo aprovado na **r3**. Hook de outra época que paga o título em 30 s (Iéltsin no supermercado de Houston, 1989) funcionou no crivo da embalagem e no de ângulo. Retenção a medir (Hipótese). [ETAPA1.md 013]
+- **014 Inglaterra (20/11/2026), 4º com `ANGULO.md`:** manada de 16 (tema + recorte do backlog + recorte vizinho do ângulo novo: "família real alemã", "1688 foi invasão"). O ângulo candidato do backlog (o Canal como muralha → frota → império) foi **descartado por repetir o esqueleto de um vídeo nosso** (010 Japão, "o MAR protegeu") e por apoiar-se num mito ("ninguém invade desde 1066"): confira o ângulo também contra os **nossos** vídeos, não só contra a manada. Ângulo final "a coroa que vem de fora" (6 reis estrangeiros; cada um paga um preço no papel → Parlamento → crédito → frota → império). O que funcionou: **a lista dos "de fora" no hook com o verbo certo** ("tomaram" × "receberam") protege o título de "não é verdade"; e uma frase concreta do preço até 1:00 paga a thumb-documento sem entregar a resposta. Detector **2/100**, crivo de ângulo aprovado na **r1** (16/20 cenas próprias); o revisor apontou que a abertura do cap. 6 (Carlos I, 11 anos sem Parlamento) era a mesma cena do 37hG → trocada pelo caso Hampden (1637, 7 a 5). Checklist v2 no 1º rascunho reprovou só "você" (0,82) e ponte num capítulo: o "seu" não conta, troque por "se você…". Orçamento: 2.312 → 2.212 palavras para caber em ~17 min (ritmo real 011–013 ≈ 130 ppm). Retenção a medir (Hipótese). [ETAPA1.md 014]
+- **016 Espanha (21/11/2026), 5º com `ANGULO.md`:** ângulo "a costura" (o casamento de 1469 junta coroas, não países; o império de Castela adia a costura; cada costura à força deixa alguém de fora, até 1978). O candidato da pauta ("dominou o mundo e perdeu tudo") era a tese da manada (prata → bancarrota) e colidia com clones pt: descartado já no `ANGULO.md`. O que funcionou: **um objeto-fio concreto e verificável que atravessa as eras** (a alfândega interna: 1479 → 1717 → 1841; o plural "rei das Espanhas": moedas de Filipe II → Cádis → art. 56 de 1978), dito no hook e pago no fecho; abertura de cada era com cena de documento (memorial de 1624, decreto de 1707, art. 1 de Cádis, Concierto de 1878). Checklist v2 passou na 3ª passada (1º rascunho: 2.361 palavras, conectivos 1,06, hook 1:18, fecho 0:56): **escreva o hook com ≤ 105 palavras até a pergunta** e corte o fecho para ≤ 80 palavras já no rascunho. Detector **1/100** e crivo de ângulo aprovado na **r1**, mas só contra 2 transcrições: o YouTube bloqueou player/legendas pelo WARP a noite toda ("not a bot"; a busca seguia funcionando), e a reconferência ficou como condição para a etapa 2. Retenção a medir (Hipótese). [ETAPA1.md 016]
+- **017 Cuba (22/11/2026), 6º com `ANGULO.md`:** manada de 15 (tema + recorte vizinho da pauta "açúcar/dependência"), com o **HiM "The ENTIRE History of Cuba in 19 Minutes"** (`Oo-NkDx-8eA`). Lição nova: **o ângulo da pauta pode já ser a tese de um vídeo pequeno e recente** (Riqueza e Ruína, pt, 43 mil, 15/11/2026: "trocou um freguês por outro… uma mesada por outra"): dá para manter a **pergunta** (tem demanda), mas a **resposta** tem de ser outra e concreta (aqui, "o preço garantido e a cláusula": estanco 1717, tarifa 1894, Platt + 20% em 1902, cota de maio de 1934, cota como arma em 1960, volume fixo de 1964, rublo de convênio, médicos por petróleo). O crivo de ângulo levou **3 pareceres**: r1 pegou as **respostas parciais do meio do vídeo** ("primeira/segunda peça", analogias de padaria, "o preço alto era a corda") repetindo a tese do concorrente mesmo com hook e fecho próprios → cada "peça da resposta" tem de nomear **a cláusula concreta daquela era**; r2 pegou **uma frase de passagem quase literal** de um vídeo da manada (São Domingos: "os fazendeiros correram para ocupar o lugar") e o fecho "escolhia de quem" (= tese do concorrente) → passagem obrigatória contada pelo **nosso fio**, e fecho que reenquadra pelo fio ("não mudaram de dono, mudaram de cláusula"). Também: fato sem fonte própria localizada (fechamento de usinas em 2002) **sai** em vez de ficar com "Reuters/EFE" genérico. Hook de documento com número (Proclamação 3355, 700 mil t; Khrushchev 3 dias depois) pagou as 3 thumbs até 0:35. Detector **2/100**. Checklist v2 passou no 1º rascunho (só faltou o fim do cap. 7 com conectivo). Retenção a medir (Hipótese). [ETAPA1.md 017]

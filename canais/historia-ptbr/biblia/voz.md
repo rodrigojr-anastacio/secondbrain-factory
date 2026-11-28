@@ -53,3 +53,6 @@ drama-3, 70 blocos, 12.752 bytes (US$ 0,13 + 0,03 de 3 tomadas do hook). Whisper
 
 ## 017 Cuba (23/11/2026)
 drama-3, 63 blocos, US$ 0,12 + 0,03 de 3 tomadas do hook. Whisper fonético mín 96,6%, média 99,5%. Hook: `dddddd` (tomada 4 inteira, repetição 0,08). [ETAPA2.md 017]
+
+## v3 PROPOSTA (28/11/2026, aguarda aprovação do Rodrigo)
+Voz, modelo e técnica **não mudam** (clone do Rodrigo, Fish drama-3 por bloco, ~128 ppm). Muda o tom: narrador **amigo que zoa o "você"** e conta fofoca da época, com timing de piada (pausa curta antes do fecho cômico; `[break]` antes da punchline). Nas 2–4 frases sobre escravidão ou mortes reais, tom sério e mais lento, sem tag de humor. Teste no 1º vídeo v3: 4 tomadas do hook (0:00–0:40) e escolher a de menor repetição melódica (regra do 007).

@@ -1,0 +1,117 @@
+# Thumbnail: historia-ptbr
+
+Regra de canal: **prevalece** sobre `conhecimento/thumbnails/README.md` (regras gerais e o procedimento de arquivar a thumb no ar). As thumbs publicadas ficam na galeria `conhecimento/thumbnails/historia-ptbr-*.jpg`.
+
+## PADRÃO DE ENTREGA a partir do 005 (decisão do Rodrigo, 06/11/2026)
+Todo vídeo novo do historia-ptbr entrega **3 thumbs, uma em cada estilo**, para o "Testar e comparar" (modelo: `videos/004-china/entrega/thumbs-v2/` e `compose_v2.py`; detalhes de cada estilo na seção "Teste de 3 estilos" abaixo):
+1. **Bonecos:** bonequinho(s) de cabeça redonda grande(s) com emoção forte + objeto/cena-chave do hook, 1–2 palavras (pergunta ou conflito) + datas em pílula. O conflito cara a cara (COROA × TURBANTE) é uma das formas válidas deste estilo.
+2. **Pegada History in Minutes:** panorama claro com 4–6 marcos + nosso bonequinho grande em pé à esquerda com contorno de adesivo + NOME do país em serifa preta gigante e "ANO – 2026" no céu livre.
+3. **Terceiro estilo, diferente dos dois:** o que tiver mais chance de CTR para o tema (no 004: close dramático e escuro do mistério do vídeo, "NUNCA ABERTO"). Justifique a escolha em 2 linhas no `LEIA.md` das thumbs.
+Arquivos: `entrega/thumb-1-bonecos.jpg`, `thumb-2-him.jpg`, `thumb-3-<estilo>.jpg` + `LEIA.md`. Continua **Hipótese** até o CTR: quando o Rodrigo trouxer os números do Studio, registre o estilo vencedor aqui e ajuste o padrão.
+
+## Estado em 04/11/2026: o padrão atual NÃO está funcionando
+- **CTR do Egito e da Índia abaixo de 2%** (Rodrigo, `~/workspace/referencias/BRIEF-historia-003-v2.md`, 04/11/2026; janela não informada). Os dois seguem o mesmo padrão (lugar panorâmico + nome gigante + datas). "O padrão precisa mudar."
+- Nenhuma das 3 thumbs do 003 v1 "gera curiosidade de clique" (mesma fonte).
+- Em teste: 4 conceitos novos no job `historia-003-v2` (`videos/003-ira/v2-amostras/thumbs/`). **Aprovado em 05/11: o conflito cara a cara (abaixo).**
+
+## Padrão novo aprovado em 05/11/2026: CONFLITO CARA A CARA ("COROA × TURBANTE")
+O Rodrigo gostou da pegada da thumb-3 da fase 1 (`videos/003-ira/v2-amostras/thumbs/thumb-3.jpg`). Template (003 v2, `videos/003-ira/v2-thumbs/compose_v2.py`):
+- **Dois bonequinhos de cabeça redonda, grandes (do peito para cima), testa contra testa, com emoção forte (raiva, boca aberta gritando)**, um de cada lado; os dois no mesmo traço (no 1º teste o clérigo saía semi-realista).
+- **Raio amarelo** entre os rostos; fundo dividido (o mundo de cada lado: azulejos × multidão, penhasco × escudos romanos, poços de petróleo × tanques).
+- **Datas em pílula amarela** (Open Sans 800) no topo, ao centro: a lacuna ("1891 · 1979", "260 d.C.", "1953").
+- **Duas palavras grandes embaixo** em Libre Caslon 700 sobre degradê escuro: a 1ª em ouro (#F7C21B), "×" branco, a 2ª em branco. O título dá o "história INTEIRA"; a thumb vende o conflito.
+- Base: nano-banana-2.1/edit + refs do canal, 2 tomadas por conceito (US$ 0,046 cada), texto composto em PIL (fontes em `videos/003-ira/v2-amostras/thumbs/base/fonts/`).
+- Irã v2: 1 COROA × TURBANTE (principal), 2 PÉRSIA × ROMA (Shapur × Valeriano), 3 PETRÓLEO × CIA (Mossadegh × agente). **Hipótese** até o CTR do "Testar e comparar": registre aqui o vencedor e o CTR de cada uma.
+- Para o próximo país, escolha 3 pares de conflito do próprio roteiro (personagem × personagem, ou povo × povo).
+- China 004 (05/11/2026): 1 **IMPERADOR × MORTE** "210 a.C." (Qin com as pílulas × a morte encapuzada, exército de barro × rios de mercúrio; principal, casa com o hook), 2 **DRAGÃO × CANHONEIRA** "1839" (oficial Qing × capitão britânico com o baú de ópio), 3 **IMPERADOR × MONGOL** "1279". As 6 bases saíram boas na 1ª tomada (US$ 0,046 cada); palavra longa (CANHONEIRA) cabe com a fonte a 86 px, legível a 320 px. **Hipótese** até o "Testar e comparar".
+
+## Teste de 3 estilos fora do COROA × TURBANTE (004 China, 06/11/2026): **Hipótese**, medir CTR
+Pedido do Rodrigo: 3 estilos diferentes para o "Testar e comparar" (`videos/004-china/entrega/thumbs-v2/`, código `thumbs-v2/compose_v2.py`, US$ 0,37):
+- **4 Bonecos, emoção + objeto-chave:** 1 bonequinho grande (do peito para cima) com medo, segurando o objeto do hook brilhando (pílula de mercúrio), e o exército de barro encarando; 1 palavra-pergunta em ouro ("IMORTAL?") no canto livre + datas em pílula. Nano-banana desenhou "pill" como **cápsula moderna**; pedir "round spherical silver ball… NOT a capsule" (sai uma esfera grande, tipo bola de cristal).
+- **5 Pegada HiM:** padrão do canal-modelo (8 thumbs baixadas em 06/11/2026; Índia 618 mil, Egito 468 mil, Ucrânia 178 mil): ilustração diurna clara, panorama aéreo com 4–6 marcos do país, **pessoa grande em pé à esquerda com contorno de adesivo** (nas 3 mais vistas), céu livre no canto superior direito com **NOME em serifa preta gigante + "ANO – 2026" em sans preta**, selo pequeno ao lado do nome, sem degradê escuro nem emoção. A nossa usa o bonequinho Qin no lugar da pessoa e não usa o selo deles. Lembrete: o Egito 001 copiou só o panorama (sem pessoa) e teve CTR < 2%.
+- **6 Close dramático do mistério:** cena escura, porta de bronze do túmulo fechado com mercúrio prateado vazando, arqueólogo bonequinho recuando com tocha; "NUNCA ABERTO" (ouro + branco) + "2.200 ANOS". Escolhido por pagar o loop do vídeo ("ninguém abriu até hoje") e ser lacuna de informação pura; o escuro destoa do feed claro dos concorrentes. Estátuas de terracota saem com rosto semi-realista (são estátuas, aceitável, mas pequenas e na sombra).
+- **Registre aqui o vencedor e o CTR das 6 thumbs da China** (1–3 COROA × TURBANTE e 4–6) quando o Rodrigo ler no Studio.
+
+## Irã v3 (07/11/2026): HiM fiel ao print + TRAPAÇA? + mapa. **Hipótese**, medir CTR
+`videos/003-ira/entrega/thumbs-v3/` (US$ 0,28; 6 bases nano-banana-2.1/edit, todas usáveis na 1ª tomada, 0 molduras):
+- **HiM fiel ao print (sem boneco):** a Praça Naqsh-e Jahan saiu ótima (cúpula azul, minaretes, Ali Qapu, espelho d'água), mas mesmo pedindo "upper right 45% plain sky" o céu veio com só ~30% da altura. Solução no código: empurrar a cena ~110 px para baixo e completar o topo com o degradê do céu (esticar a faixa de céu deixa emenda nos minaretes/cúpula). Ano inicial = o mais antigo que o roteiro cobre (4200 a.C., Susa).
+- **Bonecos com a cena do hook:** Dario piscando + cavalo relinchando com linhas de som + nobres apontando + cavalariço com a égua e o dedo na boca: o nano-banana montou a cena inteira certo nas 2 tomadas. Palavra-pergunta de acusação ("TRAPAÇA?") em vez de conflito ×.
+- **Mapa-império aceso em ouro** (3º estilo): a geografia sai aproximada (aceitável em cartoon) e sem letras quando o prompt diz "no country names, no labels". Rei grande de braços abertos sobre o mapa lê bem a 320 px.
+
+## Brasil 005 (07/11/2026): 1º vídeo no padrão de entrega. **Hipótese**, medir CTR
+`videos/005-brasil/entrega/` (US$ 0,28; 6 bases, 1 descartada por faixa/moldura lateral): 1 **bonecos** "À VENDA?" + "1511" (o escrivão da Bretoa em choque com a lista de carga, toras vermelhas, papagaio, sagui); 2 **HiM** "BRASIL" + "1500 – 2026" (baía do Rio, Ouro Preto, Amazônia, Brasília + bonequinho Pedro I com espada e contorno de adesivo; o céu livre saiu certo na 1ª tomada, sem o `mais_ceu`); 3 **ação cômica/lacuna** "O REI FUGIU!" + "1807" (D. João correndo para o navio com a coroa, Napoleão no morro, tempestade). Ano da HiM = o ano-símbolo do país (1500), não o mais antigo do roteiro. Código `videos/005-brasil/thumbs/compose.py`.
+
+## O que manter (vale até haver dado contra)
+## Roma 006 (09/11/2026). **Hipótese**, medir CTR
+`videos/006-roma/entrega/` (US$ 0,28; 6 bases, as 6 usáveis; 1 com emenda lateral descartada): 1 **bonecos** "ROMA HUMILHADA" + "390 a.C." (Breno rindo com a espada na balança de ouro, senador em desespero); 2 **HiM** "ROMA" + "753 a.C. – 476" (Coliseu, Fórum, Panteão, aqueduto + general de louros com contorno de adesivo); 3 **queda** "ROMA CAIU!" + "410" (Alarico com a águia, Roma em chamas, senador pagando resgate). Código `videos/006-roma/thumbs/compose.py`.
+
+## Rússia 007 (09/11/2026). **Hipótese**, medir CTR
+`videos/007-russia/entrega/` (US$ 0,37; 8 bases): 1 **bonecos** "UM VIKING / NO TRONO?" + "862" (o príncipe viking rindo com a coroa oferecida pelo ancião eslavo nervoso, aldeões brigando atrás); 2 **HiM** "RÚSSIA" + "862 – 2026" (inverno claro: São Basílio, Kremlin, Palácio de Inverno, trem na neve + Pedro, o Grande, com contorno de adesivo); 3 **mito** "O INVERNO / VENCEU?" + "1812" (Napoleão congelando, General Inverno de neve soprando, Moscou em chamas). As 2 tomadas do 3º saíram com **emenda de painel** no terço direito (o pedido "RIGHT 38% darker and simpler" virou outro quadro): pedir "ONE single continuous scene… no split panels, no divider line: on the RIGHT side the same plain simply continues". Código `videos/007-russia/thumbs/compose.py`.
+
+- Texto **sempre composto no código** (`src/Thumbnail.jsx`), nunca escrito pela IA. Hoje: Libre Caslon 700 + Open Sans 800. [BRIEF.md 001; QA.md 001]
+- No máximo 2–3 palavras na arte, legíveis em 320×180; o resto vai no título. [estilo.md antigo]
+- Base pelo gerador do `canal.yaml` (Codex desde 14/11/2026, fallback fal) e **3 thumbs, uma por conceito A/B/C** para o "Testar e comparar" (16/11/2026; antes: 3 variações).
+- Direção do Rodrigo (até o 002): inspirada na referência, mas com **identidade nossa**: personagem-guia (o bonequinho do canal) reagindo ao lugar/época; assinatura de tempo (selo com o período, sempre no mesmo canto e na mesma cor); cor de destaque fixa do canal (amarelo-ouro ou laranja). [estilo.md antigo]
+- **Hipótese (04/11):** falta curiosidade (lacuna de informação, conflito, rosto com emoção). Panorama bonito + nome do país não cria pergunta.
+
+## Thumbs no ar (análise movida de `conhecimento/thumbnails/README.md`, 2026-11-04)
+### historia-ptbr-001-egito.jpg
+- Vídeo: "A história INTEIRA do Egito em 17 minutos" · `g847Td0Plsk` · `youtube.videos` id 3. Origem: `videos/001-egito/out/thumbnail.jpg` (v2, base `high`); SSIM 0,996 com a pública (2026-11-04).
+- Tem: panorama do Nilo com pirâmides, Esfinge, templos e barcos à esquerda; céu e deserto livres à direita; "EGITO" em serifa preta enorme e "5000 a.C. – 2026" em sans negrito. É a fórmula da referência VQPzrVMHWlg (417 mil views).
+- Não tem a "identidade nossa" (personagem-guia, cor de destaque). **CTR < 2%** (Rodrigo, 04/11). Views: 6 em 2026-11-04.
+### historia-ptbr-002-india.jpg
+- Vídeo: "A HISTÓRIA COMPLETA da Índia em 19 minutos" · `MV5SSjoccqE` · id 4. Origem: `videos/002-india/thumb-var/final/E-gandhi.jpg`; SSIM 0,984 com a pública. A thumb do pacote (`out/thumbnail.jpg`, panorama) **não** é a que está no ar.
+- Tem: "pop-out" com Gandhi em cartoon, grande, à esquerda, saindo de uma moldura com o Taj Mahal ao pôr do sol; fundo laranja-açafrão; "ÍNDIA" em serifa branca com contorno e "3300 a.C. – 2026" em amarelo. fal.ai (`thumb-variacoes.json`; `financas.consumo` ids 19–20, US$ 0,13). Existe a variação `D-imperador.jpg`.
+- O traço do Gandhi é diferente dos bonequinhos de cabeça redonda. **CTR < 2%** (Rodrigo, 04/11). Views: 17 em 2026-11-04. Sem registro de "Testar e comparar" D × E.
+
+## Não faça
+- Layout "pôster de expediente" (personagem à esquerda + SIGLA gigante + sello rojo + aba de pasta): é do `dossie-es`.
+- Pintura a óleo romântica com pergunta: é do `lotr-fr`.
+- Texto pequeno em várias linhas.
+
+## Políticas do YouTube (14/11/2026, `conhecimento/politicas-youtube.md`)
+Thumb sem foto real de morto, sem sangue/ferimento/caveira e sem as palavras proibidas no texto. Em IA: bonequinhos sem sangue, ferimento ou cadáver; guerra sugerida por objeto, bandeira, silhueta.
+
+## Reembalagem 14/11/2026 (teste aprovado pelo Rodrigo): 1 foco + lacuna, sem nome de país. **Hipótese (teste aprovado 14/11/2026)**, medir CTR
+7 thumbs novas (`videos/NNN/reembalagem-2026-11-14/thumb-nova.jpg`; código `pesquisa/reembalagem-2026-11-14/thumbs/compose.py`; conceitos e referências em `pesquisa/reembalagem-2026-11-14/PROPOSTAS.md`): 2 a 3 palavras-pergunta em Libre Caslon (1ª em ouro) sobre degradê escuro, no máximo 1 pílula de data, **1 foco por lado e sem panorama**: Egito (Cleópatra grande + pirâmide lisa "JÁ ERA ANTIGA"), Índia (duelo "CHUVA × CANHÃO"), Irã ("MESMO PAÍS?"), China ("IMORTAL?"), Brasil (diagonal "NADA MUDOU?", 1511 × 2026), Roma (senador chorando "DE NOVO?"), Rússia (só o mapa aceso, sem personagem, "TUDO ISSO?": desvio pequeno da bíblia, vale o 3º estilo "mapa-império aceso"). Aprendizado de ferramenta: nano-banana-2.1/edit acerta personagem + cenário com pedido de "RIGHT x% simple/dark"; para o Brasil, 2 bases separadas (1511 e 2026) e a diagonal no código (reposicione cada base na tela antes de cortar).
+
+## Embalagem antes do roteiro (14/11/2026)
+Todo vídeo novo passa pela skill `embalagem` + crivo independente (`skills/embalagem/`) **antes** do roteiro; o hook paga a promessa. A thumb nasce do conceito aprovado no crivo (1 foco, lacuna, sem palavra do título), e a skill `thumbnail` só executa a arte. Fonte: decisão do Rodrigo, 14/11/2026; base `pesquisa/reembalagem-2026-11-14/padroes.md` e `PROPOSTAS.md`.
+
+### Padrões de thumb medidos (Hipótese (reembalagem 14/11/2026, CTR a medir): sem CTR nosso)
+- **Personagem grande (50–70% da altura) + monumento ao entardecer + 2–3 palavras:** [Egito de Cleópatra…](https://youtu.be/1LImwJdMRaA) 240.167 · 16/09/2026 · 13,7×; [EGITO ANTIGO: A História Completa em 20 Minutos…](https://youtu.be/GPt6u5mj74E) 438.952 · 03/05/2026 · 10,8×.
+- **Duelo A × B, dois bonequinhos cara a cara:** [Por Que China e Japão São Tão Rivais?…](https://youtu.be/tzfbDkQx7Hw) 258.141 · 04/07/2026 · 297×; [A China Esteve na Frente por 700 Anos…](https://youtu.be/As5HdY_D-uI) 77.373 · 19/10/2026 · 2,1×.
+- **Pergunta curta + personagem com emoção:** [POR QUE ROMA NUNCA CONQUISTOU A ÍNDIA?](https://youtu.be/guiOxLd8X3M) 3,9×; As5HdY_D-uI 2,1×. Ressalva: as refs usam 3–4 palavras.
+- **Antes × depois (tela dividida ou diagonal do mesmo lugar) + 2 palavras:** [Revolução Industrial… Antes e Depois das Fábricas](https://youtu.be/g60GrTMKyiA) 562.325 · 03/03/2026 · 6,6×; [A História do Rio São Francisco (1500–2026)…](https://youtu.be/XexidjTKJGY) 96.520 · 12/08/2026 · 33×.
+- **1 figura grande com emoção forte, fundo escuro e quente:** [A QUEDA DE ROMA: O DIA em Que o IMPÉRIO ROMANO Acabou de Vez!](https://youtu.be/cM9084oMpXc) 189.497 · 04/04/2026 · 3,3×; [58Um0ZXSXx4](https://youtu.be/58Um0ZXSXx4) 16,5×. As claras e didáticas de Roma ficam perto da mediana.
+- **Mapa aceso como foco único + 2 palavras:** [O País Africano Que Nunca Foi Colonizado](https://youtu.be/n23GEcINbCg) 219.681 · 19/06/2026 (mediana frágil); [Por que a Rússia é formada por 21 países diferentes](https://youtu.be/T6f2gWo9kS0) 33.935 · 07/02/2026 · 18,5×.
+
+### O que NÃO funciona neste canal
+- **Thumb com muitos focos:** Roma v1 (senador + ouro + pimenta + balança + godo + Coliseu + fumaça + pílula com seta, 8 elementos); Brasil v1 "MESMO NAVIO?" (4 leituras, 3 focos, navios de 90 px). Ambas reprovadas no crivo r1.
+- **Thumb que repete o título:** viking + tamanho no título e na thumb (Rússia v1); pílula "559 a.C. · 2026" = "De Ciro aos aiatolás" (Irã v1).
+- **Líder atual + cidade em chamas + NOME + datas:** molde dos clones.
+- **Thumbs claras e didáticas de Roma:** ficam perto da mediana; as que rendem são escuras e de perda.
+- **Pergunta cuja resposta é óbvia ou 2 focos sem base** (Rússia v1 "TUDO ISSO?" com viking pequeno + pílula 862→1991, ref errada).
+
+### Lições adaptadas a vídeo novo (PROPOSTAS.md (b), 14/11/2026)
+- Thumb com **lacuna** (pergunta, não resposta), **1 foco**, sem palavra do título, conferida numa maquete 320×180 ao lado do mosaico do tema.
+- Se o gargalo é impressão, o nome do país vai no **título**, não na arte (compatível com a regra de 2–3 palavras acima).
+- **3 thumbs realmente diferentes (Rodrigo, 16/11/2026):** os 3 estilos do "Testar e comparar" viram os **3 conceitos A/B/C aprovados na embalagem** (`skills/embalagem/SKILL.md` passo 5), cada um de um padrão visual diferente do vocabulário (ex.: bonecos = `rosto-emocao` ou `conflito-xvy`; pegada HiM = `mapa-lugar`; terceiro = `objeto-simbolo`/`cena-acao`), pareados a T1/T2/T3, com composição, elemento dominante e tipo de texto distintos. Nada de 3 variações do mesmo conceito. O estilo do canal (bonequinhos, paleta, fontes) não muda. Vencedor de cada teste em `youtube.embalagem_variantes` (placar: `tools/rotinas/embalagem_variantes.py placar --canal historia-ptbr`).
+
+## 011 Estados Unidos (16/11/2026): 3 padrões no crivo. **Hipótese**, medir CTR
+A `rosto-emocao` (Douglass fora da festa do 4 de Julho, "IGUAIS?"), B `objeto-simbolo` (Sino da Liberdade rachado, "LIBERDADE"), C `antes-depois` (Independence Hall 1776 × 2026, só os anos). Aprovado na r3 (`videos/011-estados-unidos/EMBALAGEM.md`). Lições do crivo: (1) objeto-símbolo precisa de **referências em que o objeto sozinho domina** (Piltdown, Canal History Brasil, 14×) e de **fato do roteiro** que o pague; "pergaminho rasgado" foi reprovado porque a Declaração nunca foi rasgada; (2) a frase-âncora do objeto tem de bater com a fonte (o sino ganhou o nome em 1835, **antes** da rachadura; NPS); (3) no estilo de cabeça branca, um personagem que é o excluído precisa ler pela **composição** (ele fora, no escuro, apontando; os outros dentro, na luz).
+
+## 013 União Soviética (18/11/2026): `numero-estatistica` precisa de referente. **Hipótese**, medir CTR
+A `rosto-emocao` (Iéltsin pasmo no supermercado, “NEM O POLITBURO”, citação), B `objeto-simbolo` (avoska vazia diante de prateleiras vazias, "VAI QUE…"), C `numero-estatistica` ("30 MIL / NA FILA" + fila na neve). Aprovado na r3 (`videos/013-uniao-sovietica/EMBALAGEM.md`). Lições do crivo: (1) multidão minúscula em plano alto não lê a 320 px e a "fila na neve" era a thumb mais vista do tema (World at War): reprovado; (2) número solto ("30 MIL") ao lado de um título com outra quantidade ("COMPRAVA trigo") vira "30 mil toneladas": o número precisa de **referente curto** ("NA FILA"); (3) refs de `numero-estatistica` têm de ser **quantidade** dominante ("30 MEN", "98 NEVER LEFT", "11,000 STILL INSIDE"), não ano + personagem ("1808", "1348"); (4) objeto-símbolo seguido no canal (sino 011, marco 012, avoska 013): variar composição (objeto à direita, fundo claro, texto à esquerda).
+
+## 014 Inglaterra (20/11/2026): rosto-emocao controle sem decalque da grade. **Hipótese**, medir CTR
+A `rosto-emocao` (Jaime VI de manta xadrez se coroando, sorriso malicioso, Torre de Londres, "MINHA!"), B `cena-acao` (coroação de Natal de 1066 com fogo pela porta, "NATAL DE 1066"), C `documento-evidencia` (Declaração de Direitos com linha circulada, "O PREÇO" em marcador). Aprovado na r3 (`videos/014-inglaterra/EMBALAGEM.md`). Lições do crivo: (1) o controle `rosto-emocao` já tem 6+ vizinhas na grade (rosto pasmo + palavra-pergunta em ouro): **mude a emoção** (malícia/satisfação em vez de susto), o **cenário** (exterior diurno com monumento) e o **tipo de texto** (exclamação de 1 palavra), e nada de súdito oferecendo coroa (007-1); "rosto de quem assiste" com mãos no rosto = decalque do 013-A; (2) o "ele" da thumb tem de ser reconhecível a 320 px (identificador visual: manta xadrez = escocês, Torre = Inglaterra), licença gráfica declarada; (3) frota de dezenas de navios + multidão miúda não lê e era cena da manada (1688): `cena-acao` pede **1 personagem grande** num momento nosso; (4) `documento-evidencia` só com documento real e fato pago, anotação em marcador grosso.
+
+## 015 Argentina (21/11/2026): `conflito-xvy` reprovado na r3. **Hipótese**
+Thumb B (peão do pampa × operário puxando uma conta, corpo inteiro, pampa × chaminés, "CAMPO × CIDADE") reprovada: 6–8 elementos e rostos pequenos a 320 px (o template COROA × TURBANTE é **do peito para cima, testa contra testa, fundo simples**) e nada que diga "Argentina" para o público BR (o gaúcho argentino e o do RS se vestem igual: use Sol de Maio pequeno, céu celeste e branco ou o nome). Thumb A aprovada: rosto-emocao com **riso nervoso** (não susto) + objeto na mão (maço de cédulas com cinta "1.000.000") + afirmação "VALE NADA"; confira o anacronismo do objeto (não existia cédula de 1 milhão em 1969). Thumb C aprovada: "13 ZEROS" com contorno grosso sobre celeste **profundo** (celeste claro some a 320 px). [`videos/015-argentina/embalagem/crivo-r*.md`]
+
+## 016 Espanha (21/11/2026): rosto-emocao com objeto da tese, conflito regional, objeto costurado. **Hipótese**, medir CTR
+A `rosto-emocao` (rei com pilha torta de 5 coroas, irritado-perplexo, "REI DAS ESPANHAS"), B `conflito-xvy` (fiscal castelhano × mercador navarro, cancela no meio, "CASTELA × NAVARRA"), C `objeto-simbolo` (coroa partida e costurada sobre creme, "1469"). Aprovado na r3. Lições do crivo: (1) rei suando com globo escapando = "império que cai", a tese da manada: o objeto da thumb `rosto-emocao` tem de ser **a tese do nosso ângulo** (aqui, a casa dividida = coroas empilhadas), não o clichê do tema; (2) rufo + suor já estão em 014-A/014-C: troque roupa e emoção; (3) no conflito regional, nenhum lado "vencendo" e nada de símbolo partidário de época (boina vermelha = carlismo em 1833–1841 → boina escura); (4) cancela de alfândega preta e branca, não vermelha e amarela (lê como bandeira).
+
+## 017 Cuba (22/11/2026): rosto-emocao com rótulo, número multiplicador, ilha amarrada. **Hipótese**, medir CTR
+A `rosto-emocao` (guajiro em pânico sobre sacos de açúcar no cais, "SEM COMPRADOR"), B `numero-estatistica` ("5× O PREÇO" + 1 saco com etiqueta, fundo vermelho), C `mapa-lugar` (ilha de Cuba amarrada por corda que sobe para fora do quadro, sem texto). Aprovado na r3. Lições do crivo: (1) **mapa da ilha em diagonal + bandeirinha espetada + algo entrando pela direita** era a composição da thumb mais vista do tema (Lucas | Desenhando, 22×): mude orientação (horizontal, centrada), tire bandeira/alfinete/seta; (2) objeto que "toma um pedaço" da ilha (colher) lê "exploração" e contradiz o par do comprador que paga caro: a metáfora da thumb tem de ser **a do nosso ângulo** (corda = condição); (3) a corda tem de sair grossa e com contorno preto, senão a 320 px vira só "mapa de Cuba"; (4) no `numero-estatistica`, o número é o maior elemento e **sem caixa** em volta (a caixa lembra o 016-C "1469"). No tema, 8 de 12 thumbs usam bandeira grande e 4 o rosto de Fidel: evitamos os dois.

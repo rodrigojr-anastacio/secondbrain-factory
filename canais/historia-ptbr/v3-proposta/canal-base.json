@@ -1,0 +1,109 @@
+{
+ "coleta": "2026-11-28",
+ "canal_base": {
+  "nome": "Chat History",
+  "channel_id": "UCicVSNyM7PMXEzdoAsTB02w",
+  "inscritos": 1150000,
+  "mediana_ult20": 1284728,
+  "serie_modelo": "Why You Wouldn't Survive ... (8 vídeos, mediana ~2,0 mi)"
+ },
+ "reserva": {
+  "nome": "Bernard",
+  "channel_id": "UC_FStSURaDad8-xo6jH1j4Q",
+  "inscritos": 404000,
+  "mediana_ult20": 311594,
+  "serie_modelo": "Why It Sucks to Be a ... (in ...) — só o esqueleto, não a temática"
+ },
+ "referencia_titulo": {
+  "nome": "Fossil",
+  "channel_id": "UCOf0CzjuS5rjLju4muJi7Gg",
+  "video": "nAWpLtG-kNs",
+  "views": 13609614
+ },
+ "transcricoes": {
+  "status": "OK 28/11/2026 (legenda-auto via WARP)",
+  "comando": "cd tools && TMPDIR=$HOME/cache/tmp .venv/bin/python manada.py transcrever ../canais/historia-ptbr/v3-proposta/ref --ids 2T-1x3F6buE,nT63DYpslws,mZ5zynsMHVc,rRr21F21hGU,tJ_YsbihfU0,r4PcWgRFFF0,IPjDANjdNX0,nAWpLtG-kNs"
+ },
+ "videos_alvo": [
+  {
+   "id": "2T-1x3F6buE",
+   "canal": "Chat History",
+   "titulo": "Why You Wouldn't Survive in Ancient Egypt",
+   "views": 3937449,
+   "duracao_s": 507,
+   "data": "2024-05-30",
+   "txt": "ref/manada-2T-1x3F6buE.txt",
+   "palavras": 1618
+  },
+  {
+   "id": "nT63DYpslws",
+   "canal": "Chat History",
+   "titulo": "Why You Wouldn't Survive The Roman Empire",
+   "views": 2397835,
+   "duracao_s": 909,
+   "data": "2025-01-10",
+   "txt": "ref/manada-nT63DYpslws.txt",
+   "palavras": 2526
+  },
+  {
+   "id": "mZ5zynsMHVc",
+   "canal": "Chat History",
+   "titulo": "Why You Wouldn't Survive in Ancient Greece",
+   "views": 2350863,
+   "duracao_s": 695,
+   "data": "2024-09-23",
+   "txt": "ref/manada-mZ5zynsMHVc.txt",
+   "palavras": 2163
+  },
+  {
+   "id": "rRr21F21hGU",
+   "canal": "Chat History",
+   "titulo": "Why You Wouldn't Survive FEUDAL JAPAN",
+   "views": 2184153,
+   "duracao_s": 778,
+   "data": "2024-10-11",
+   "txt": "ref/manada-rRr21F21hGU.txt",
+   "palavras": 2154
+  },
+  {
+   "id": "tJ_YsbihfU0",
+   "canal": "Chat History",
+   "titulo": "Why You Wouldn't Survive THE AZTEC EMPIRE",
+   "views": 1393072,
+   "duracao_s": 952,
+   "data": "2025-06-20",
+   "txt": "ref/manada-tJ_YsbihfU0.txt",
+   "palavras": 2870
+  },
+  {
+   "id": "r4PcWgRFFF0",
+   "canal": "Chat History",
+   "titulo": "The Most Miserable Jobs in History [NO AI]",
+   "views": 2275420,
+   "duracao_s": 1237,
+   "data": "2026-09-05",
+   "txt": "ref/manada-r4PcWgRFFF0.txt",
+   "palavras": 3703
+  },
+  {
+   "id": "IPjDANjdNX0",
+   "canal": "Bernard",
+   "titulo": "Why It Sucks to Be a Brothers' SHARED Wife (in Ancient Tibet)",
+   "views": 1925023,
+   "duracao_s": 1225,
+   "data": "2026-08-15",
+   "txt": "ref/manada-IPjDANjdNX0.txt",
+   "palavras": 3578
+  },
+  {
+   "id": "nAWpLtG-kNs",
+   "canal": "Fossil",
+   "titulo": "How Long You’d Last in Every Prehistoric Era",
+   "views": 13609614,
+   "duracao_s": 971,
+   "data": "2026-08-10",
+   "txt": "ref/manada-nAWpLtG-kNs.txt",
+   "palavras": 2941
+  }
+ ]
+}
