@@ -254,8 +254,17 @@ def gerar_briefs(canal, it, vid_id, numero, pasta, noite, prazo, destino=REF):
     destino.mkdir(parents=True, exist_ok=True)
     principal = destino / f"{base}.md"
     e1, e2 = destino / f"{base}-ETAPA1.md", destino / f"{base}-ETAPA2.md"
-    biblia = f"canais/{canal}/biblia/"
-    evid = "\n".join(f"  - [{e.get('tipo', '')}] {e.get('fonte', '')}: {e.get('numero', '')} ({e.get('data', '')}) {e.get('link', '')}".rstrip()
+    # Ramo da bíblia por vídeo (28/11/2026, Rodrigo): tag "RAMO: <pasta>" no ângulo do backlog (ex.: "RAMO: biblia-ingreso")
+    # aponta os briefs e1/e2 para canais/<canal>/<pasta>/ (que herda do padrão o que não define); sem tag = biblia/.
+    m_ramo = re.search(r"RAMO:\s*(biblia[\w-]*)", it["angulo"] or "")
+    ramo = m_ramo.group(1) if m_ramo and (REPO / f"canais/{canal}/{m_ramo.group(1)}").is_dir() else "biblia"
+    biblia = f"canais/{canal}/{ramo}/"
+    nota_ramo = ("" if ramo == "biblia" else
+                 f"- **Ramo da bíblia deste vídeo: `{biblia}`** (tag `RAMO: {ramo}` no backlog). Leia **primeiro** `{biblia}README.md`: "
+                 f"os arquivos do ramo prevalecem sobre `canais/{canal}/biblia/` no que definem (roteiro, título, thumb); o resto "
+                 f"(visual, voz, CTAs, políticas, carimbos/SFX) vem de `canais/{canal}/biblia/`. Onde as regras do canal abaixo "
+                 f"disserem `biblia/` ou \"hook por anedota\"/\"TODA la historia\", vale o ramo.\n")
+    evid ="\n".join(f"  - [{e.get('tipo', '')}] {e.get('fonte', '')}: {e.get('numero', '')} ({e.get('data', '')}) {e.get('link', '')}".rstrip()
                      for e in (it["evidencias"] or []))
     entrega_drive = ("**Não rode `entregar_drive.sh` nem `rclone`.** Deixe tudo em `" + pasta + "/entrega/` (video.mp4, legendas.srt, "
                      "thumb-A/B/C.jpg, thumbnail.jpg, pacote/youtube.txt com os 3 pares título+thumb e o padrão de cada um). A rotina noturna "
@@ -278,7 +287,7 @@ Repo `~/workspace/fabrica-youtube`. Leia `~/.claude/CLAUDE.md` (headless), `MAPA
 - Teto em dinheiro do vídeo (etapa 2): **US$ {TETO[canal]}**. Toda geração paga com `--video {vid_id}`.
 
 ## Regras do canal
-{REGRAS_CANAL[canal]}
+{nota_ramo}{REGRAS_CANAL[canal]}
 
 ## Regras gerais do lote noturno
 - Outros vídeos rodam antes/depois/em paralelo: `git add` só da sua pasta (+ bíblia do seu canal para aprendizados); **não edite a seção "Backlog vivo" do `backlog.md`** (é gerada pelo `backlog.py`). `index.lock` → espere e tente de novo. `git pull --rebase` antes do push.
@@ -304,6 +313,7 @@ Repo `~/workspace/fabrica-youtube`. Leia `~/.claude/CLAUDE.md` (headless), `MAPA
         m = m.replace("Codex com fallback Gemini desde 23/11/2026", "Codex; fallback Gemini só com saldo acima da folga e, no limite de cota, espera o reset (24/11/2026)")
         return m
     hdr = f"<!-- Gerado por tools/rotinas/noturna.py (noite de {noite:%d/%m}); vídeo id {vid_id}, pasta {pasta}, pode ir ao ar: {B.janela(noite)}. -->\n"
+    hdr += nota_ramo  # ramo da bíblia (28/11/2026): e1 e e2 também dizem qual pasta de bíblia ler
     e1.write_text(hdr + sub(m1) + f"\n- Pasta e linha em `youtube.videos` (id {vid_id}) **já existem**: o passo 1 completa o `BRIEF.md`, não cria outra linha.\n")
     codex = ""
     if canal in ("historia-ptbr", "dossie-es"):
